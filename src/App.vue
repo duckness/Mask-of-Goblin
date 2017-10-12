@@ -145,7 +145,7 @@ export default {
       let atk = ''
       switch (this.type) {
         case 'uw':
-          atk = '(' + Math.floor(this.items.uw.weapon[this.item].baseAtk * this.items.uw.starScale[this.star] * this.items.uw.levelScale[this.enhance] / 1000000) + ' atk)'
+          atk = '(' + Math.floor(Math.floor(this.items.uw.weapon[this.item].baseAtk * this.items.uw.starScale[this.star] / 1000) * this.items.uw.levelScale[this.enhance] / 1000) + ' atk)'
           break
         case 'artifact':
           atk = ''
