@@ -86,7 +86,6 @@
 <script>
 
 require('bulma')
-const sortKeys = require('sort-keys')
 
 export default {
   name: 'app',
@@ -111,6 +110,7 @@ export default {
   },
   created: function () {
     var jsonItems = require('./assets/items.json')
+    var sortKeys = require('sort-keys')
     this.items = sortKeys(jsonItems, {deep: true})
   },
   computed: {
