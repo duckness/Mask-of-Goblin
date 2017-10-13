@@ -94,7 +94,7 @@
 
 <script>
 
-require('bulma')
+require('./style.scss')
 
 export default {
   name: 'app',
@@ -214,29 +214,4 @@ export default {
 </script>
 
 <style>
-@import "~bulma";
-.section {
-  background-color: #cccccc;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.vertical-align {
-  display: flex;
-  align-items: center;
-}
-
-.footer {
-  background-color: transparent;
-  position: absolute;
-  bottom: 0;
-  height: 60px;
-}
 </style>
