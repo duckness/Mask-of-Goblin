@@ -103,7 +103,7 @@ export default {
       type: 'uw',
       items: null,
       item: 'Kasel',
-      oldItem: 'Burning Brazier of Elf',
+      oldItem: 'Mask of Goblin',
       star: 0,
       enableLevel: true,
       enhance: 0,
