@@ -121,6 +121,7 @@ export default {
     var jsonItems = require('./assets/items.json')
     var sortKeys = require('sort-keys')
     this.items = sortKeys(jsonItems, { deep: true })
+    this.parseQuery(this.$route.query)
   },
   computed: {
     itemImage: function () {
@@ -176,6 +177,29 @@ export default {
     }
   },
   methods: {
+    parseQuery: function (query) {
+      if ('item' in query) {
+        if (query.item in this.items.artifact) {
+          this.oldItem = 'Kasel'
+          this.enableLevel = false
+          this.type = 'artifact'
+          this.item = query.item
+        } else if (query.item in this.items.uw.weapon) {
+          this.type = 'uw'
+          this.item = query.item
+        }
+      }
+      if ('star' in query) {
+        if (!isNaN(Number(query.star))) {
+          this.star = this.numberWithinBounds(0, 5, Number(query.star))
+        }
+      }
+      if ('enhance' in query) {
+        if (!isNaN(Number(query.enhance))) {
+          this.enhanceChange(Number(query.enhance))
+        }
+      }
+    },
     typeChange: function () {
       var tempItem = ''
       tempItem = this.item
@@ -189,14 +213,18 @@ export default {
           this.enableLevel = false
           break
       }
+      this.updateUrl()
     },
     itemChange: function () {
+      this.updateUrl()
     },
     starChange: function () {
+      this.updateUrl()
     },
     enhanceChange: function (enhanceLevel) {
       this.enhance = enhanceLevel
       this.enhanceValidation(enhanceLevel)
+      this.updateUrl()
     },
     enhanceValidation: function (level) {
       var minLevel = 0
@@ -208,6 +236,13 @@ export default {
     },
     numberWithinBounds: function (min, max, number) {
       return number < min ? min : (number > max ? max : number)
+    },
+    updateUrl: function () {
+      if (this.type === 'uw') {
+        this.$router.replace({ query: { item: this.item, star: this.star, enhance: this.enhance } })
+      } else {
+        this.$router.replace({ query: { item: this.item, star: this.star } })
+      }
     }
   },
   metaInfo: function () {

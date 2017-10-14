@@ -1,13 +1,11 @@
 import Vue from 'vue'
-// import Router from 'vue-router'
+import Router from 'vue-router'
+import Meta from 'vue-meta'
 
-/* figure out Vue router later
 Vue.use(Router)
+Vue.use(Meta)
 
 export default new Router({
-  routes: [
-    {
-    }
-  ]
+  mode: 'history',
+  routes: []
 })
-*/
