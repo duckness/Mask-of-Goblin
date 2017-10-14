@@ -209,6 +209,21 @@ export default {
     numberWithinBounds: function (min, max, number) {
       return number < min ? min : (number > max ? max : number)
     }
+  },
+  metaInfo: function () {
+    return {
+      title: 'King\'s Raid Gear',
+      link: [
+        { rel: 'shortcut icon', type: 'image/png', href: '/static/favicon.png' }
+      ],
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { name: 'author', content: 'TRAPPED' },
+        { name: 'description', content: 'A quick Artifact and Unique Weapon viewer for King\'s Raid' },
+        { name: 'keywords', content: 'Kings,King\'s,Raid,Artifact,Unique,Weapon,Armor,UW' }
+      ]
+    }
   }
 }
 </script>
