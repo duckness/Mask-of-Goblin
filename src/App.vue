@@ -95,6 +95,8 @@
 <script>
 
 require('./style.scss')
+const siteTitle = 'King\'s Raid Gear'
+const siteDesc = 'A quick Artifact and Unique Weapon viewer for King\'s Raid'
 
 export default {
   name: 'app',
@@ -141,6 +143,10 @@ export default {
     },
     itemName: function () {
       let name = ''
+      // stops Vue-meta from complaining in console on load due to items.json not being loaded
+      if (this.items === null) {
+        return name
+      }
       switch (this.type) {
         case 'uw':
           name = this.items.uw.weapon[this.item].name
@@ -165,6 +171,10 @@ export default {
     },
     description: function () {
       let itemText = ''
+      // stops Vue-meta from complaining in console on load due to items.json not being loaded
+      if (this.items === null) {
+        return itemText
+      }
       switch (this.type) {
         case 'uw':
           itemText = this.items.uw.weapon[this.item].description[this.star]
@@ -174,6 +184,34 @@ export default {
           break
       }
       return itemText
+    },
+    rootUrl: function () {
+      if (window.location.port === '') {
+        return window.location.protocol + '//' + window.location.hostname
+      } else {
+        return window.location.protocol + '//' + window.location.hostname + ':' + window.location.port
+      }
+    },
+    metaTitle: function () {
+      if (Object.keys(this.$route.query).length === 0) {
+        return siteTitle
+      } else {
+        return this.itemName
+      }
+    },
+    metaDesc: function () {
+      if (Object.keys(this.$route.query).length === 0) {
+        return siteDesc
+      } else {
+        return this.description
+      }
+    },
+    metaImage: function () {
+      if (Object.keys(this.$route.query).length === 0) {
+        return this.rootUrl + require('./assets/artifact/Mask of Goblin.png')
+      } else {
+        return this.rootUrl + this.itemImage
+      }
     }
   },
   methods: {
@@ -247,7 +285,7 @@ export default {
   },
   metaInfo: function () {
     return {
-      title: 'King\'s Raid Gear',
+      title: siteTitle,
       link: [
         { rel: 'shortcut icon', type: 'image/png', href: '/static/favicon.png' }
       ],
@@ -255,8 +293,13 @@ export default {
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { name: 'author', content: 'TRAPPED' },
-        { name: 'description', content: 'A quick Artifact and Unique Weapon viewer for King\'s Raid' },
-        { name: 'keywords', content: 'Kings,King\'s,Raid,Artifact,Unique,Weapon,Armor,UW' }
+        { name: 'description', content: siteDesc },
+        { name: 'keywords', content: 'Kings,King\'s,Raid,Artifact,Unique,Weapon,Armor,UW' },
+        { property: 'og:title', content: this.metaTitle },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:url', content: window.location.href },
+        { property: 'og:image', content: this.metaImage },
+        { property: 'og:description', content: this.metaDesc }
       ]
     }
   }
