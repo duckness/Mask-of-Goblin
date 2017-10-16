@@ -295,7 +295,6 @@ export default {
         { name: 'author', content: 'TRAPPED' },
         { name: 'description', content: siteDesc },
         { name: 'keywords', content: 'Kings,King\'s,Raid,Artifact,Unique,Weapon,Armor,UW' },
-        { name: 'google-site-verification', content: '_-B71wBuY-ObvP_h9Wr5tNoGWklmT9p-X6lkPBwisLk' },
         { property: 'og:title', content: this.metaTitle },
         { property: 'og:type', content: 'website' },
         { property: 'og:url', content: window.location.href },
