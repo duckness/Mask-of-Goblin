@@ -23,3 +23,7 @@
   bottom: 0;
   height: 60px;
 }
+
+.label-no-margin-bottom:not(:last-child) {
+  margin-bottom: 0;
+}
