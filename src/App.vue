@@ -17,7 +17,7 @@
                       <strong class="title is-4">{{ itemName }}</strong>
                       <small class="subtitle is-5">{{ attack }}</small>
                       <br> {{ description }}
-                      <div class="content is-small" v-if="type === 'artifact' && additionalInfo !== ''">
+                      <div class="content is-small" v-if="additionalInfo !== ''">
                         <label class="label label-no-margin-bottom">Additional Info</label>
                         <span>{{ additionalInfo }}</span>
                       </div>
@@ -190,9 +190,16 @@ export default {
       return itemText
     },
     additionalInfo: function () {
-      if (this.type === 'artifact') {
-        return this.items.artifact[this.item].info
+      let additionalInfo = ''
+      switch (this.type) {
+        case 'uw':
+          additionalInfo = this.items.uw.weapon[this.item].info
+          break
+        case 'artifact':
+          additionalInfo = this.items.artifact[this.item].info
+          break
       }
+      return additionalInfo
     },
     rootUrl: function () {
       if (window.location.port === '') {
