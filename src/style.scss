@@ -5,6 +5,7 @@
   top: 0px;
   left: 0px;
   width: 100%;
+  min-height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,7 +13,7 @@
 }
 
 #app {
-  margin-bottom: 120px;
+  margin-bottom: 3rem;
 }
 
 .vertical-align {
@@ -24,7 +25,7 @@
   background-color: transparent;
   position: absolute;
   bottom: 0;
-  height: 60px;
+  padding-bottom: 1.5rem;
 }
 
 .label-no-margin-bottom:not(:last-child) {
