@@ -12,7 +12,7 @@
           "Each attack has a 25 % chance to inflict P.DMG on enemy (331 % of the ATK)",
           "Each attack has a 25 % chance to inflict P.DMG on enemy (400 % of the ATK)"
         ],
-        "info": ""
+        "info": "Effect is triggered on any attack, has a cooldown of 500ms between triggers."
       },
       "Frey": {
         "name": "God's Authority, Rosmerta",
@@ -25,7 +25,7 @@
           "While auto-attacking, for a 40% chance, heal the ally with the current lowest HP for 86.1% of the caster's Attack.",
           "While auto-attacking, for a 40% chance, heal the ally with the current lowest HP for 105% of the caster's Attack."
         ],
-        "info": ""
+        "info": "Effect is only triggered on auto attacks."
       },
       "Cleo": {
         "name": "Primal Flame, Flenos",
@@ -38,7 +38,7 @@
           "Embers explode every 4 secs, dealing M.DMG of 83 % of ATK to enemies nearby.",
           "Embers explode every 4 secs, dealing M.DMG of 100 % of ATK to enemies nearby."
         ],
-        "info": ""
+        "info": "Ember explosion radius is 3000."
       },
       "Roi": {
         "name": "Specter's Breath, Redeal",
@@ -51,7 +51,7 @@
           "Each auto attack has a 25 % chance to inflict P.DMG on enemy (103 % of the ATK) and inflict Bleed",
           "Each auto attack has a 25 % chance to inflict P.DMG on enemy (125 % of the ATK) and inflict Bleed"
         ],
-        "info": ""
+        "info": "Effect is only triggered on auto attacks. Bleed lasts for 16s and ticks every second."
       },
       "Gau": {
         "name": "Holy Bird, Numinu",
@@ -90,7 +90,7 @@
           "Upon auto-attacking, there is a 25% chance that Atk Spd. Will rise by 410 for 10 sec. There is a 20 sec cooldown for this effect.",
           "Upon auto-attacking, there is a 25% chance that Atk Spd. Will rise by 500 for 10 sec. There is a 20 sec cooldown for this effect."
         ],
-        "info": ""
+        "info": "Effect is only triggered on auto attacks."
       },
       "Kaulah": {
         "name": "The Bluewind, Coventina",
@@ -116,7 +116,7 @@
           "Upon auto-attacking, for a 25% chance, deal a M.ATK of 165% and recover HP equal to the amount of DMG dealt.",
           "Upon auto-attacking, for a 25% chance, deal a M.ATK of 200% and recover HP equal to the amount of DMG dealt."
         ],
-        "info": ""
+        "info": "The description has an error, the effect is triggered on any attack. Damage done from the effect does not crit."
       },
       "Selene": {
         "name": "Green Winds, Notos",
@@ -142,7 +142,7 @@
           "Upon a critical hit, deal continuous M. DMG equal to 250% of ATK to the enemy for 10 sec and reduce their recovery rate by 50%.",
           "Upon a critical hit, deal continuous M. DMG equal to 300% of ATK to the enemy for 10 sec and reduce their recovery rate by 50%."
         ],
-        "info": ""
+        "info": "Damage done from the effect does not crit."
       },
       "Miruru": {
         "name": "Ultimate Weapon, Leviathan",
@@ -181,7 +181,7 @@
           "When HP is reduced to below 35% of max HP, increase all allies P.DMG Reduction by 410. Also, gain ATK equal to 207% of P.DEF, and gain immunity to status effects.",
           "When HP is reduced to below 35% of max HP, increase all allies P.DMG Reduction by 500. Also, gain ATK equal to 250% of P.DEF, and gain immunity to status effects."
         ],
-        "info": ""
+        "info": "P.DMG reduction is from additional toughness."
       },
       "Rephy": {
         "name": "God's Lamp, Kurulati",
@@ -207,7 +207,7 @@
           "Upon attacking an enemy, inflict M.DMG(100 % of ATK) by a 20 % chance, and reduce skill cooldown by 10 %",
           "Upon attacking an enemy, inflict M.DMG(100 % of ATK) by a 25 % chance, and reduce skill cooldown by 10 %"
         ],
-        "info": ""
+        "info": "Effect is triggered on any attack, has a cooldown of 500ms between triggers. Skill cooldown reduction applies to Dimael only."
       },
       "Reina": {
         "name": "Lightning Flash, Livatis",
@@ -233,7 +233,7 @@
           "Every 9.5 sec, inflict Frost and deal M.DMG(166 % of ATK) to 2 random enemies. Freeze the enemy for 5 sec if they are already inflicted with Frost.",
           "Every 8 sec, inflict Frost and deal M.DMG(200 % of ATK) to 2 random enemies. Freeze the enemy for 5 sec if they are already inflicted with Frost."
         ],
-        "info": ""
+        "info": "Frost lasts for 20s and slows atk spd by 100."
       },
       "Demia": {
         "name": "The Blue Light, Arpheus",
@@ -246,7 +246,7 @@
           "Blocking enemy attacks has a 22% chance to recover own mana by 3% and reduces all skill cooldowns by 1 sec.",
           "Blocking enemy attacks has a 25% chance to recover own mana by 3% and reduces all skill cooldowns by 1 sec."
         ],
-        "info": "Procs recover 3% of total mana, there is a 200ms cooldown between procs."
+        "info": "Effect recover 3% of total mana, has a cooldown of 200ms between triggers."
       },
       "Nalia": {
         "name": "Cursed Claws, Baroro",
@@ -259,7 +259,7 @@
           "Upon dealing a Crit Hit, deal constant P.DMG (207 % of ATK) for 10sec. Enemy receives 41 % increased P.DMG for the duration.",
           "Upon dealing a Crit Hit, deal constant P.DMG (250 % of ATK) for 10sec. Enemy receives 50 % increased P.DMG for the duration."
         ],
-        "info": ""
+        "info": "Effect does not crit."
       },
       "Rodina": {
         "name": "Rodina Custom Rifle Mod.0",
@@ -272,7 +272,7 @@
           "Upon attacking, there is a 14% chance to deal P.DMG equal to 207% of ATK and knock back the enemy. Afterwards, ACC rises by 100 for 10 sec. This effect can stack up to 3 times.",
           "Upon attacking, there is a 15% chance to deal P.DMG equal to 250% of ATK and knock back the enemy. Afterwards, ACC rises by 100 for 10 sec. This effect can stack up to 3 times."
         ],
-        "info": ""
+        "info": "Effect is triggered on any attack, has a cooldown of 500ms between triggers."
       },
       "Morrah": {
         "name": "Flame of Victory, Carprain",
@@ -285,7 +285,7 @@
           "Every 10 sec, inflict M.DMG (166 % of ATK) upon enemies that have Flame stacks. Each stack of flame increases DMG by 2%. There is also a 29% chance that enemies with Flame stacks may be knocked down.",
           "Every 10 sec, inflict M.DMG (200 % of ATK) upon enemies that have Flame stacks. Each stack of flame increases DMG by 2%. There is also a 35% chance that enemies with Flame stacks may be knocked down."
         ],
-        "info": ""
+        "info": "Knockdown is for 3s."
       },
       "Baudouin": {
         "name": "God's Book, Genesis",
@@ -311,7 +311,7 @@
           "Every 4 sec, Deal M.DMG (20 % of ATK) to nearby enemies, and reduce their ATK by 20%. When her passive activates, recover 30% mana.",
           "Every 4 sec, Deal M.DMG (25 % of ATK) to nearby enemies, and reduce their ATK by 25%. When her passive activates, recover 30% mana."
         ],
-        "info": ""
+        "info": "The description has an error, the effect is triggered every 1s, and lasts for 1s. Effect radius is 6000."
       },
       "Aisha": {
         "name": "Noble Fate, Mahitra",
@@ -324,7 +324,7 @@
           "Upon an attack, there is a 25% chance to deal extra DMG worth 83% of ATK.",
           "Upon an attack, there is a 25% chance to deal extra DMG worth 100% of ATK."
         ],
-        "info": ""
+        "info": "Effect is triggered on any attack, has a cooldown of 500ms between triggers."
       },
       "Leo": {
         "name": "Phoenix Quill, Belisa",
@@ -337,7 +337,7 @@
           "Upon auto-attacking, there is a 20% chance to deal 100% extra M.DMG, and erase positive status effects.",
           "Upon auto-attacking, there is a 25% chance to deal 100% extra M.DMG, and erase positive status effects."
         ],
-        "info": ""
+        "info": "Effect is only triggered on auto attacks."
       },
       "Fluss": {
         "name": "Twinswords of Fury, Veralta",
@@ -363,7 +363,7 @@
           "While auto-attacking, deal 83% additional M.DMG to a random enemy.",
           "While auto-attacking, deal 100% additional M.DMG to a random enemy."
         ],
-        "info": ""
+        "info": "Effect is only triggered on auto attacks."
       },
       "Laias": {
         "name": "Flowing Circle, Eltoirre",
@@ -395,14 +395,14 @@
         "name": "Scarlet Ruler, Dominicia",
         "baseAtk": 510,
         "description": [
-          "Every 10 sec, deal 40% of ATK as M.DMG to all enemies. There is a 20% chance to inflict 'Blood Curse' for 15 sec. If there is only 1 enemy, DMG is doubled.",
-          "Every 9 sec, deal 48% of ATK as M.DMG to all enemies. There is a 24% chance to inflict 'Blood Curse' for 15 sec. If there is only 1 enemy, DMG is doubled.",
-          "Every 8 sec, deal 58% of ATK as M.DMG to all enemies. There is a 29% chance to inflict 'Blood Curse' for 15 sec. If there is only 1 enemy, DMG is doubled.",
-          "Every 7 sec, deal 70% of ATK as M.DMG to all enemies. There is a 35% chance to inflict 'Blood Curse' for 15 sec. If there is only 1 enemy, DMG is doubled.",
-          "Every 6 sec, deal 84% of ATK as M.DMG to all enemies. There is a 42% chance to inflict 'Blood Curse' for 15 sec. If there is only 1 enemy, DMG is doubled.",
-          "Every 5 sec, deal 100% of ATK as M.DMG to all enemies. There is a 50% chance to inflict 'Blood Curse' for 15 sec. If there is only 1 enemy, DMG is doubled."
+          "Every 10 sec, deal 40% of ATK as M.DMG to all enemies. There is a 20% chance to inflict 'Blood Curse' for 20 sec. If there is only 1 enemy, DMG is doubled.",
+          "Every 9 sec, deal 48% of ATK as M.DMG to all enemies. There is a 24% chance to inflict 'Blood Curse' for 20 sec. If there is only 1 enemy, DMG is doubled.",
+          "Every 8 sec, deal 58% of ATK as M.DMG to all enemies. There is a 29% chance to inflict 'Blood Curse' for 20 sec. If there is only 1 enemy, DMG is doubled.",
+          "Every 7 sec, deal 70% of ATK as M.DMG to all enemies. There is a 35% chance to inflict 'Blood Curse' for 20 sec. If there is only 1 enemy, DMG is doubled.",
+          "Every 6 sec, deal 84% of ATK as M.DMG to all enemies. There is a 42% chance to inflict 'Blood Curse' for 20 sec. If there is only 1 enemy, DMG is doubled.",
+          "Every 5 sec, deal 100% of ATK as M.DMG to all enemies. There is a 50% chance to inflict 'Blood Curse' for 20 sec. If there is only 1 enemy, DMG is doubled."
         ],
-        "info": ""
+        "info": "The M.dmg effect does not crit and is unavoidable."
       },
       "Nyx": {
         "name": "Dimensional Key, Magnus Fille",
@@ -441,7 +441,7 @@
           "Auto-attacking increases DEF Pen. and ATK Spd by 17. Stacks up to 30 times.",
           "Auto-attacking increases DEF Pen. and ATK Spd by 20. Stacks up to 30 times."
         ],
-        "info": ""
+        "info": "Effect is only triggered on auto attacks."
       },
       "Ricardo": {
         "name": "Light of Judgment, Theoria",
@@ -454,7 +454,7 @@
           "When any other ally takes DMG, there is a 20% chance to grant them a shield worth 660% of Ricardo's ATK for 5 sec. This effect can only take place once every 5 sec.",
           "When any other ally takes DMG, there is a 25% chance to grant them a shield worth 800% of Ricardo's ATK for 5 sec. This effect can only take place once every 5 sec."
         ],
-        "info": ""
+        "info": "The description has an error, the effect is triggered every 10s, and lasts for 10s."
       },
       "Tanya": {
         "name": "Demon of the Calm, Caethasis",
@@ -467,7 +467,7 @@
           "When auto attacking, there is a 20% chance that the hero deals 290% additional P.DMG to target and gains Stealth for 10 sec. Has a cooldown of 10 sec.",
           "When auto attacking, there is a 25% chance that the hero deals 350% additional P.DMG to target and gains Stealth for 10 sec. Has a cooldown of 10 sec."
         ],
-        "info": ""
+        "info": "Effect is only triggered on auto attacks."
       },
       "Cassandra": {
         "name": "Aurelian Whisper, Goldbreeze",
@@ -519,7 +519,7 @@
           "When skills 'Vital Strike' and 'Turbulent Dance' hit the enemy, reduce the corresponding skill's cooldown by 2 sec and increase ATK Spd by 50 per hit number of enemies. ATK Spd boost may be stacked up to 10 times.",
           "When skills 'Vital Strike' and 'Turbulent Dance' hit the enemy, reduce the corresponding skill's cooldown by 2.5 sec and increase ATK Spd by 50 per hit number of enemies. ATK Spd boost may be stacked up to 10 times."
         ],
-        "info": ""
+        "info": "The atk spd boost lasts for 5s."
       },
       "Yanne": {
         "name": "Dragonbane, Svelta",
@@ -532,7 +532,7 @@
           "Upon a Critical Hit, there is a 10% chance to deal P.DMG equal to 420% of ATK and recover 5% Mana. If the target is a Dragon, inflict Stun for 1 sec.",
           "Upon a Critical Hit, there is a 10% chance to deal P.DMG equal to 500% of ATK and recover 5% Mana. If the target is a Dragon, inflict Stun for 1 sec."
         ],
-        "info": ""
+        "info": "The effect has a cooldown of 500ms between triggers."
       },
       "May": {
         "name": "The Box of Fragrance, Etelia",
@@ -969,7 +969,7 @@
         "Max HP is increased by 42% and deal P.DMG worth 2% of Max HP to all nearby enemies within a small range.",
         "Max HP is increased by 50% and deal P.DMG worth 2% of Max HP to all nearby enemies within a small range."
       ],
-      "info": "Effect is based on your hero's max HP, triggered every second, and is counted as a normal attack (not a damage over time, meaning it can crit/miss/etc). Radius is the same as the orbiting pumpkin."
+      "info": "Effect is based on your hero's max HP, triggered every second, and is counted as a normal attack (not a damage over time, meaning it can crit/miss/etc). Radius of the effect is 3000, which is supposedly the same as the orbiting pumpkin."
     },
     "Angry Pumpkin Head": {
       "description": [
