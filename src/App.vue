@@ -18,7 +18,7 @@
                       <small class="subtitle is-5">{{ attack }}</small>
                       <br> {{ description }}
                       <div class="content is-small" v-if="additionalInfo !== ''">
-                        <label class="label label-no-margin-bottom">Additional Info</label>
+                        <label class="label no-margin-bottom">Additional Info</label>
                         <span>{{ additionalInfo }}</span>
                       </div>
                     </p>
