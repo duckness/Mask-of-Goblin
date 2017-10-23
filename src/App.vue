@@ -46,7 +46,7 @@
                         <div class="control is-expanded">
                           <div class="select is-fullwidth">
                             <select v-model="item" @change="itemChange">
-                              <option v-for="equip in equips" :value="equip">{{ equip }}</option>
+                              <option v-for="equip in equips" :key="equip" :value="equip">{{ equip }}</option>
                             </select>
                           </div>
                         </div>
@@ -60,7 +60,7 @@
                         <div class="control is-expanded">
                           <div class="select is-fullwidth">
                             <select v-model="star" @change="starChange">
-                              <option v-for="awakening in starLevel" :value="awakening.value">{{ awakening.text }}</option>
+                              <option v-for="awakening in starLevel" :key="awakening.value" :value="awakening.value">{{ awakening.text }}</option>
                             </select>
                           </div>
                         </div>
