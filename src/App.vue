@@ -191,12 +191,19 @@ export default {
     },
     additionalInfo: function () {
       let additionalInfo = ''
+      function pickInfo (info, star) {
+        if (Array.isArray(info)) {
+          return info[star]
+        } else {
+          return info
+        }
+      }
       switch (this.type) {
         case 'uw':
-          additionalInfo = this.items.uw.weapon[this.item].info
+          additionalInfo = pickInfo(this.items.uw.weapon[this.item].info, this.star)
           break
         case 'artifact':
-          additionalInfo = this.items.artifact[this.item].info
+          additionalInfo = pickInfo(this.items.artifact[this.item].info, this.star)
           break
       }
       return additionalInfo
