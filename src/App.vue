@@ -32,8 +32,7 @@
                   <div class="field">
                     <div class="control is-expanded">
                       <div class="select is-fullwidth">
-                        <select v-model="type" @change="typeChange">
-                          <option selected disabled value="">Type</option>
+                        <select :value="page" @change="pageChange">
                           <option value="uw">Unique Weapon</option>
                           <option value="artifact">Artifact</option>
                         </select>
@@ -45,7 +44,7 @@
                       <div class="field">
                         <div class="control is-expanded">
                           <div class="select is-fullwidth">
-                            <select v-model="item" @change="itemChange">
+                            <select :value="item" @change="itemChange">
                               <option v-for="equip in equips" :key="equip" :value="equip">{{ equip }}</option>
                             </select>
                           </div>
@@ -59,7 +58,7 @@
                         </div>
                         <div class="control is-expanded">
                           <div class="select is-fullwidth">
-                            <select v-model="star" @change="starChange">
+                            <select :value="star" @change="starChange">
                               <option v-for="awakening in starLevel" :key="awakening.value" :value="awakening.value">{{ awakening.text }}</option>
                             </select>
                           </div>
@@ -72,7 +71,7 @@
                           <p class="button is-static">Lv.</p>
                         </div>
                         <div class="control is-expanded">
-                          <input class="input" type="number" v-bind:value="enhance" v-on:input="enhanceChange($event.target.value)" :disabled="!(enableLevel)"></input>
+                          <input class="input" type="number" :value="enhance" v-on:input="enhanceChange" :disabled="!(enableLevel)"></input>
                         </div>
                       </div>
                     </div>
@@ -98,7 +97,10 @@
 
 <script>
 
+import { mapState, mapGetters } from 'vuex'
+
 require('./style.scss')
+
 const siteTitle = 'King\'s Raid Gear'
 const siteDesc = 'A quick Artifact and Unique Weapon viewer for King\'s Raid'
 
@@ -106,13 +108,6 @@ export default {
   name: 'app',
   data: function () {
     return {
-      type: 'uw',
-      items: null,
-      item: 'Kasel',
-      oldItem: 'Mask of Goblin',
-      star: 0,
-      enableLevel: true,
-      enhance: 0,
       starLevel: [
         { text: 'No Stars', value: 0 },
         { text: '\u2605', value: 1 },
@@ -123,91 +118,24 @@ export default {
       ]
     }
   },
-  created: function () {
-    var jsonItems = require('./assets/items.json')
-    var sortKeys = require('sort-keys')
-    this.items = sortKeys(jsonItems, { deep: true })
-    this.parseQuery(this.$route.query)
-  },
   computed: {
-    itemImage: function () {
-      return require('./assets/' + this.type + '/' + this.item + '.png')
-    },
-    equips: function () {
-      let equips = ''
-      switch (this.type) {
-        case 'uw':
-          equips = Object.keys(this.items.uw.weapon)
-          break
-        case 'artifact':
-          equips = Object.keys(this.items.artifact)
-          break
-      }
-      return equips
-    },
-    itemName: function () {
-      let name = ''
-      // stops Vue-meta from complaining in console on load due to items.json not being loaded
-      if (this.items === null) {
-        return name
-      }
-      switch (this.type) {
-        case 'uw':
-          name = this.items.uw.weapon[this.item].name
-          break
-        case 'artifact':
-          name = this.item
-          break
-      }
-      return name
-    },
-    attack: function () {
-      let atk = ''
-      switch (this.type) {
-        case 'uw':
-          atk = '(' + Math.floor(Math.floor(this.items.uw.starScale[this.star] * this.items.uw.levelScale[this.enhance] / 1000) * this.items.uw.weapon[this.item].baseAtk / 1000) + ' atk)'
-          break
-        case 'artifact':
-          atk = ''
-          break
-      }
-      return atk
-    },
-    description: function () {
-      let itemText = ''
-      // stops Vue-meta from complaining in console on load due to items.json not being loaded
-      if (this.items === null) {
-        return itemText
-      }
-      switch (this.type) {
-        case 'uw':
-          itemText = this.items.uw.weapon[this.item].description[this.star]
-          break
-        case 'artifact':
-          itemText = this.items.artifact[this.item].description[this.star]
-          break
-      }
-      return itemText
-    },
-    additionalInfo: function () {
-      let additionalInfo = ''
-      function pickInfo (info, star) {
-        if (Array.isArray(info)) {
-          return info[star]
-        } else {
-          return info
-        }
-      }
-      switch (this.type) {
-        case 'uw':
-          additionalInfo = pickInfo(this.items.uw.weapon[this.item].info, this.star)
-          break
-        case 'artifact':
-          additionalInfo = pickInfo(this.items.artifact[this.item].info, this.star)
-          break
-      }
-      return additionalInfo
-    },
+    ...mapState([
+      'page',
+      'items',
+      'item',
+      'oldItem',
+      'enableLevel',
+      'star',
+      'enhance'
+    ]),
+    ...mapGetters([
+      'itemImage',
+      'equips',
+      'itemName',
+      'attack',
+      'description',
+      'additionalInfo'
+    ]),
     rootUrl: function () {
       if (window.location.port === '') {
         return window.location.protocol + '//' + window.location.hostname
@@ -238,72 +166,17 @@ export default {
     }
   },
   methods: {
-    parseQuery: function (query) {
-      if ('item' in query) {
-        if (query.item in this.items.artifact) {
-          this.oldItem = 'Kasel'
-          this.enableLevel = false
-          this.type = 'artifact'
-          this.item = query.item
-        } else if (query.item in this.items.uw.weapon) {
-          this.type = 'uw'
-          this.item = query.item
-        }
-      }
-      if ('star' in query) {
-        if (!isNaN(Number(query.star))) {
-          this.star = this.numberWithinBounds(0, 5, Number(query.star))
-        }
-      }
-      if ('enhance' in query) {
-        if (!isNaN(Number(query.enhance))) {
-          this.enhanceChange(Number(query.enhance))
-        }
-      }
+    pageChange: function (e) {
+      this.$store.commit('pageChange', e.target.value)
     },
-    typeChange: function () {
-      var tempItem = ''
-      tempItem = this.item
-      this.item = this.oldItem
-      this.oldItem = tempItem
-      switch (this.type) {
-        case 'uw':
-          this.enableLevel = true
-          break
-        case 'artifact':
-          this.enableLevel = false
-          break
-      }
-      this.updateUrl()
+    itemChange: function (e) {
+      this.$store.commit('itemChange', e.target.value)
     },
-    itemChange: function () {
-      this.updateUrl()
+    starChange: function (e) {
+      this.$store.commit('starChange', e.target.value)
     },
-    starChange: function () {
-      this.updateUrl()
-    },
-    enhanceChange: function (enhanceLevel) {
-      this.enhance = enhanceLevel
-      this.enhanceValidation(enhanceLevel)
-      this.updateUrl()
-    },
-    enhanceValidation: function (level) {
-      var minLevel = 0
-      var maxLevel = 80
-      var newLevel = this.numberWithinBounds(minLevel, maxLevel, level)
-      if (newLevel !== level) {
-        this.enhance = newLevel
-      }
-    },
-    numberWithinBounds: function (min, max, number) {
-      return number < min ? min : (number > max ? max : number)
-    },
-    updateUrl: function () {
-      if (this.type === 'uw') {
-        this.$router.replace({ query: { item: this.item, star: this.star, enhance: this.enhance } })
-      } else {
-        this.$router.replace({ query: { item: this.item, star: this.star } })
-      }
+    enhanceChange: function (e) {
+      this.$store.commit('enhanceChange', e.target.value)
     }
   },
   metaInfo: function () {
@@ -328,6 +201,3 @@ export default {
   }
 }
 </script>
-
-<style>
-</style>
