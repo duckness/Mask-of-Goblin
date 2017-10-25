@@ -32,7 +32,7 @@
                   <div class="field">
                     <div class="control is-expanded">
                       <div class="select is-fullwidth">
-                        <select :value="page" @change="pageChange">
+                        <select v-model="page" @change="pageChange">
                           <option value="uw">Unique Weapon</option>
                           <option value="artifact">Artifact</option>
                         </select>
@@ -44,7 +44,7 @@
                       <div class="field">
                         <div class="control is-expanded">
                           <div class="select is-fullwidth">
-                            <select :value="item" @change="itemChange">
+                            <select v-model="item" @change="itemChange">
                               <option v-for="equip in equips" :key="equip" :value="equip">{{ equip }}</option>
                             </select>
                           </div>
@@ -58,7 +58,7 @@
                         </div>
                         <div class="control is-expanded">
                           <div class="select is-fullwidth">
-                            <select :value="star" @change="starChange">
+                            <select v-model="star" @change="starChange">
                               <option v-for="awakening in starLevel" :key="awakening.value" :value="awakening.value">{{ awakening.text }}</option>
                             </select>
                           </div>
@@ -71,7 +71,7 @@
                           <p class="button is-static">Lv.</p>
                         </div>
                         <div class="control is-expanded">
-                          <input class="input" type="number" :value="enhance" v-on:input="enhanceChange" :disabled="!(enableLevel)"></input>
+                          <input class="input" type="number" v-model="enhance" v-on:input="enhanceChange" :disabled="!(enableLevel)"></input>
                         </div>
                       </div>
                     </div>
@@ -120,13 +120,9 @@ export default {
   },
   computed: {
     ...mapState([
-      'page',
       'items',
-      'item',
       'oldItem',
-      'enableLevel',
-      'star',
-      'enhance'
+      'enableLevel'
     ]),
     ...mapGetters([
       'itemImage',
@@ -136,6 +132,38 @@ export default {
       'description',
       'additionalInfo'
     ]),
+    page: {
+      get () {
+        return this.$store.state.page
+      },
+      set (newPage) {
+        this.$store.commit('pageChange', newPage)
+      }
+    },
+    item: {
+      get () {
+        return this.$store.state.item
+      },
+      set (newItem) {
+        this.$store.commit('itemChange', newItem)
+      }
+    },
+    star: {
+      get () {
+        return this.$store.state.star
+      },
+      set (newStar) {
+        this.$store.commit('starChange', newStar)
+      }
+    },
+    enhance: {
+      get () {
+        return this.$store.state.enhance
+      },
+      set (newEnhance) {
+        this.$store.commit('enhanceChange', newEnhance)
+      }
+    },
     rootUrl: function () {
       if (window.location.port === '') {
         return window.location.protocol + '//' + window.location.hostname
@@ -167,16 +195,12 @@ export default {
   },
   methods: {
     pageChange: function (e) {
-      this.$store.commit('pageChange', e.target.value)
     },
     itemChange: function (e) {
-      this.$store.commit('itemChange', e.target.value)
     },
     starChange: function (e) {
-      this.$store.commit('starChange', e.target.value)
     },
     enhanceChange: function (e) {
-      this.$store.commit('enhanceChange', e.target.value)
     }
   },
   metaInfo: function () {

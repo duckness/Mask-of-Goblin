@@ -7,7 +7,6 @@ const sortKeys = require('sort-keys')
 Vue.use(Vuex)
 
 const state = {
-  start: true,
   page: 'uw',
   items: sortKeys(require('@/assets/items.json'), { deep: true }),
   item: 'Kasel',
@@ -35,10 +34,6 @@ const getters = {
   },
   itemName: function () {
     let name = ''
-    // stops Vue-meta from complaining in console on load due to items.json not being loaded
-    if (state.items === null) {
-      return name
-    }
     switch (state.page) {
       case 'uw':
         name = state.items.uw.weapon[state.item].name
@@ -63,10 +58,6 @@ const getters = {
   },
   description: function () {
     let itemText = ''
-    // stops Vue-meta from complaining in console on load due to items.json not being loaded
-    if (state.items === null) {
-      return itemText
-    }
     switch (state.page) {
       case 'uw':
         itemText = state.items.uw.weapon[state.item].description[state.star]
@@ -108,8 +99,7 @@ const mutations = {
   },
   pageChange: function (state, newPage) {
     state.page = newPage
-    var tempItem = ''
-    tempItem = state.item
+    var tempItem = state.item
     state.item = state.oldItem
     state.oldItem = tempItem
     switch (state.page) {
@@ -137,28 +127,35 @@ const mutations = {
 const routing = store => {
   // called when the store is initialized
   // can't use this to init app as route is not in store yet
+  var start = true
   store.subscribe((mutation, state) => {
     // called after every mutation.
     // The mutation comes in the format of `{ type, payload }`.
     // we map route to state on load once, since vuex-route-sync will mutate state
     // afterwards, we only modify routing from new state
-    // TODO: actually make this work properly instead of relying on this dumb hack
-    if (state.start) {
-      helpers.routeInit(state.route.query)
-      state.start = false
-    } else {
-      // as changing routes mutates state, this will be called twice
-      // this is kind of silly but no side effects and it works so...
-      if (state.page === 'uw') {
-        router.replace({ query: { item: state.item, star: state.star, enhance: state.enhance } })
-      } else {
-        router.replace({ query: { item: state.item, star: state.star } })
-      }
+    switch (mutation.type) {
+      case 'route/ROUTE_CHANGED':
+        // only want to set application state at the start
+        if (start) {
+          helpers.routeInit(state.route.query)
+          start = false
+        }
+        break
+      case 'pageChange':
+      case 'itemChange':
+      case 'starChange':
+      case 'enhanceChange':
+        helpers.modifyRoute()
+        break
+      default:
+        break
     }
   })
 }
 
 const helpers = {
+  // Initialize the app with the route, we specifically do NOT want to call mutations
+  // otherwise we will trigger the rerouting over and over while this is modifying initial state
   routeInit: function (query) {
     if ('item' in query) {
       if (query.item in state.items.artifact) {
@@ -180,6 +177,13 @@ const helpers = {
       if (!isNaN(Number(query.enhance))) {
         state.enhance = helpers.enhanceValidation(query.enhance)
       }
+    }
+  },
+  modifyRoute: function () {
+    if (state.page === 'uw') {
+      router.replace({ query: { item: state.item, star: state.star, enhance: state.enhance } })
+    } else {
+      router.replace({ query: { item: state.item, star: state.star } })
     }
   },
   enhanceValidation: function (level) {
