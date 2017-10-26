@@ -298,21 +298,14 @@
         "name": "God's Book, Genesis",
         "baseAtk": 510,
         "description": [
-          "Every 30 sec, increase 400 of ATK, Crit Hit Chance, and Attack Spd of 1 party member for 10 secs.",
-          "Every 30 sec, increase 480 of ATK, Crit Hit Chance, and Attack Spd of 1 party member for 10 secs.",
-          "Every 30 sec, increase 570 of ATK, Crit Hit Chance, and Attack Spd of 1 party member for 10 secs.",
-          "Every 30 sec, increase 690 of ATK, Crit Hit Chance, and Attack Spd of 1 party member for 10 secs.",
-          "Every 30 sec, increase 830 of ATK, Crit Hit Chance, and Attack Spd of 1 party member for 10 secs.",
-          "Every 30 sec, increase 1000 of ATK, Crit Hit Chance, and Attack Spd of 1 party member for 10 secs."
+          "Every 30 sec, increase the ATK of a single random ally by 40%. Also increase Crit Chance and ATK Spd by 400 for 10 sec.",
+          "Every 30 sec, increase the ATK of a single random ally by 48%. Also increase Crit Chance and ATK Spd by 480 for 10 sec.",
+          "Every 30 sec, increase the ATK of a single random ally by 57%. Also increase Crit Chance and ATK Spd by 570 for 10 sec.",
+          "Every 30 sec, increase the ATK of a single random ally by 69%. Also increase Crit Chance and ATK Spd by 690 for 10 sec.",
+          "Every 30 sec, increase the ATK of a single random ally by 83%. Also increase Crit Chance and ATK Spd by 830 for 10 sec.",
+          "Every 30 sec, increase the ATK of a single random ally by 100%. Also increase Crit Chance and ATK Spd by 1000 for 10 sec."
         ],
-        "info": [
-          "The description has an error, Atk is increased by 40%, not 400.",
-          "The description has an error, Atk is increased by 48%, not 480.",
-          "The description has an error, Atk is increased by 57%, not 570.",
-          "The description has an error, Atk is increased by 69%, not 690.",
-          "The description has an error, Atk is increased by 83%, not 830.",
-          "The description has an error, Atk is increased by 100%, not 1000."
-        ]
+        "info": ""
       },
       "Jane": {
         "name": "Unchanging Mind, Erekura",
@@ -560,6 +553,19 @@
           "Upon activating 'Take this!', apply the effects of 'Take anything!' to 4 random allies and reduce cooldown of all skills by 25%."
         ],
         "info": ""
+      },
+      "Gladi": {
+        "name": "Beast Fist, Mastra",
+        "baseAtk": 418,
+        "description": [
+          "Upon a Crit Hit, increase Crit. DMG by 20% for 5 sec. This effect stacks up to 10 times.",
+          "Upon a Crit Hit, increase Crit. DMG by 24% for 5 sec. This effect stacks up to 10 times.",
+          "Upon a Crit Hit, increase Crit. DMG by 29% for 5 sec. This effect stacks up to 10 times.",
+          "Upon a Crit Hit, increase Crit. DMG by 35% for 5 sec. This effect stacks up to 10 times.",
+          "Upon a Crit Hit, increase Crit. DMG by 42% for 5 sec. This effect stacks up to 10 times.",
+          "Upon a Crit Hit, increase Crit. DMG by 50% for 5 sec. This effect stacks up to 10 times."
+        ],
+        "info": "Minimum 100ms cooldown to stack the effect."
       }
     },
     "levelScale": [
