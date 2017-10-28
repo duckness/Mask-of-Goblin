@@ -857,7 +857,7 @@
         "Removes debuffs upon receiving them. After removal, gain immunity to CC for 3 sec. Has a cooldown for 16 sec.",
         "Removes debuffs upon receiving them. After removal, gain immunity to CC for 3.5 sec. Has a cooldown for 15 sec."
       ],
-      "info": ""
+      "info": "Will still be affected by debuff when recieving them, but will be removed immedietly after. Example: Skill casting will be interrupted when recieving silence, but will immedietly removed."
     },
     "Judgment of Light Bracelet": {
       "description": [
@@ -868,7 +868,7 @@
         "ACC and Status Effect ACC rise by 630.",
         "ACC and Status Effect ACC rise by 750."
       ],
-      "info": ""
+      "info": "ACC affects regular skills, whereas debuff Status Effect ACC affects debuff/CC skills."
     },
     "Mask of Lizardman": {
       "description": [
@@ -890,7 +890,7 @@
         "At the beginning of battle, gain CC immunity and a 50% boost to P. and M. DEF stats for 17 sec.",
         "At the beginning of battle, gain CC immunity and a 50% boost to P. and M. DEF stats for 20 sec."
       ],
-      "info": ""
+      "info": "This effect can be dispelled."
     },
     "Blessing of Earth": {
       "description": [
@@ -956,7 +956,7 @@
         "Dealing DMG to enemies 100 times increases ATK by 63% and Crit Chance by 420 for 15 sec. This effect cannot be dispelled.",
         "Dealing DMG to enemies 100 times increases ATK by 75% and Crit Chance by 500 for 15 sec. This effect cannot be dispelled."
       ],
-      "info": "Auto-attacks and most skills will increase the counter. Cleo UW does not proc this, unsure about other UW skills."
+      "info": "Auto-attacks and most skills will increase the counter. The counter can be increased regardless the skill is active or not, making it possible to maintain 100% up-time. Cleo UW does not proc this, unsure about other UW skills."
     },
     "Spellbound Ring of the Deep": {
       "description": [
