@@ -7,23 +7,28 @@ const sortKeys = require('sort-keys')
 Vue.use(Vuex)
 
 const state = {
-  page: 'uw',
+  page: 'hero',
   items: sortKeys(require('@/assets/items.json'), { deep: true }),
   item: 'Kasel',
   oldItem: 'Mask of Goblin',
   enableLevel: true,
   star: 0,
-  enhance: 0
+  level: 0
 }
 
 const getters = {
   itemImage: function () {
-    return require('@/assets/' + state.page + '/' + state.item + '.png')
+    // TODO: some cruft, will be removed in the next commit when I refactor assets
+    var path = 'artifact'
+    if (state.page === 'hero') {
+      path = 'uw'
+    }
+    return require('@/assets/' + path + '/' + state.item + '.png')
   },
   equips: function () {
     let equips = ''
     switch (state.page) {
-      case 'uw':
+      case 'hero':
         equips = Object.keys(state.items.uw.weapon)
         break
       case 'artifact':
@@ -35,7 +40,7 @@ const getters = {
   itemName: function () {
     let name = ''
     switch (state.page) {
-      case 'uw':
+      case 'hero':
         name = state.items.uw.weapon[state.item].name
         break
       case 'artifact':
@@ -47,8 +52,8 @@ const getters = {
   attack: function () {
     let atk = ''
     switch (state.page) {
-      case 'uw':
-        atk = '(' + Math.floor(Math.floor(state.items.uw.starScale[state.star] * state.items.uw.levelScale[state.enhance] / 1000) * state.items.uw.weapon[state.item].baseAtk / 1000) + ' atk)'
+      case 'hero':
+        atk = '(' + Math.floor(Math.floor(state.items.uw.starScale[state.star] * state.items.uw.levelScale[state.level] / 1000) * state.items.uw.weapon[state.item].baseAtk / 1000) + ' atk)'
         break
       case 'artifact':
         atk = ''
@@ -59,7 +64,7 @@ const getters = {
   description: function () {
     let itemText = ''
     switch (state.page) {
-      case 'uw':
+      case 'hero':
         itemText = state.items.uw.weapon[state.item].description[state.star]
         break
       case 'artifact':
@@ -78,7 +83,7 @@ const getters = {
       }
     }
     switch (state.page) {
-      case 'uw':
+      case 'hero':
         additionalInfo = pickInfo(state.items.uw.weapon[state.item].info, state.star)
         break
       case 'artifact':
@@ -103,7 +108,7 @@ const mutations = {
     state.item = state.oldItem
     state.oldItem = tempItem
     switch (state.page) {
-      case 'uw':
+      case 'hero':
         state.enableLevel = true
         break
       case 'artifact':
@@ -117,10 +122,10 @@ const mutations = {
   starChange: function (state, newStar) {
     state.star = Number(newStar)
   },
-  enhanceChange: function (state, newEnhance) {
+  levelChange: function (state, newlevel) {
     // need to set the value twice to ensure the input value is refreshed
-    state.enhance = Number(newEnhance)
-    state.enhance = helpers.enhanceValidation(newEnhance)
+    state.level = Number(newlevel)
+    state.level = helpers.levelValidation(newlevel)
   }
 }
 
@@ -144,7 +149,7 @@ const routing = store => {
       case 'pageChange':
       case 'itemChange':
       case 'starChange':
-      case 'enhanceChange':
+      case 'levelChange':
         helpers.modifyRoute()
         break
       default:
@@ -164,7 +169,7 @@ const helpers = {
         state.page = 'artifact'
         state.item = query.item
       } else if (query.item in state.items.uw.weapon) {
-        state.page = 'uw'
+        state.page = 'hero'
         state.item = query.item
       }
     }
@@ -173,20 +178,20 @@ const helpers = {
         state.star = helpers.numberWithinBounds(0, 5, Number(query.star))
       }
     }
-    if ('enhance' in query) {
-      if (!isNaN(Number(query.enhance))) {
-        state.enhance = helpers.enhanceValidation(query.enhance)
+    if ('level' in query) {
+      if (!isNaN(Number(query.level))) {
+        state.level = helpers.levelValidation(query.level)
       }
     }
   },
   modifyRoute: function () {
-    if (state.page === 'uw') {
-      router.replace({ query: { item: state.item, star: state.star, enhance: state.enhance } })
+    if (state.page === 'hero') {
+      router.replace({ query: { item: state.item, star: state.star, level: state.level } })
     } else {
       router.replace({ query: { item: state.item, star: state.star } })
     }
   },
-  enhanceValidation: function (level) {
+  levelValidation: function (level) {
     level = Number(level)
     var minLevel = 0
     var maxLevel = 80
