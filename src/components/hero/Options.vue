@@ -30,7 +30,7 @@
 <script>
 
 import { mapGetters } from 'vuex'
-import StarSelector from '@/components/Common/StarSelector.vue'
+import StarSelector from '@/components/common/StarSelector.vue'
 
 export default {
   name: 'hero-options',

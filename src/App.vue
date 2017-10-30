@@ -25,10 +25,10 @@
 
 import { mapGetters } from 'vuex'
 import PageSelector from './components/PageSelector.vue'
-import ArtifactDescription from './components/Artifact/Description.vue'
-import ArtifactOptions from './components/Artifact/Options.vue'
-import HeroDescription from './components/Hero/Description.vue'
-import HeroOptions from './components/Hero/Options.vue'
+import ArtifactDescription from './components/artifact/Description.vue'
+import ArtifactOptions from './components/artifact/Options.vue'
+import HeroDescription from './components/hero/Description.vue'
+import HeroOptions from './components/hero/Options.vue'
 import MogFooter from './components/MogFooter.vue'
 
 require('./style.scss')
