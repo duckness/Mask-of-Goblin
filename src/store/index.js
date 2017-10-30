@@ -18,12 +18,13 @@ const state = {
 
 const getters = {
   itemImage: function () {
-    // TODO: some cruft, will be removed in the next commit when I refactor assets
-    var path = 'artifact'
-    if (state.page === 'hero') {
-      path = 'uw'
+    switch (state.page) {
+      case 'hero':
+        // return the require like this as require is fussy
+        return require('@/components/hero/images/uw/' + state.item + '.png')
+      case 'artifact':
+        return require('@/components/artifact/images/' + state.item + '.png')
     }
-    return require('@/assets/' + path + '/' + state.item + '.png')
   },
   equips: function () {
     let equips = ''
