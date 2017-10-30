@@ -83,7 +83,7 @@ export default {
     },
     metaImage: function () {
       if (Object.keys(this.$route.query).length === 0) {
-        return this.rootUrl + require('./assets/artifact/Mask of Goblin.png')
+        return this.rootUrl + require('./components/artifact/images/Mask of Goblin.png')
       } else {
         return this.rootUrl + this.itemImage
       }
