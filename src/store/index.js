@@ -8,7 +8,7 @@ Vue.use(Vuex)
 
 const state = {
   page: 'hero',
-  items: sortKeys(require('@/assets/items.json'), { deep: true }),
+  items: sortKeys(require('@/data.json'), { deep: true }),
   item: 'Kasel',
   oldItem: 'Mask of Goblin',
   enableLevel: true,
