@@ -30,7 +30,7 @@ const getters = {
     let equips = ''
     switch (state.page) {
       case 'hero':
-        equips = Object.keys(state.items.hero.weapon)
+        equips = Object.keys(state.items.hero)
         break
       case 'artifact':
         equips = Object.keys(state.items.artifact)
@@ -42,7 +42,7 @@ const getters = {
     let name = ''
     switch (state.page) {
       case 'hero':
-        name = state.items.hero.weapon[state.item].name
+        name = state.items.hero[state.item].weapon.name
         break
       case 'artifact':
         name = state.item
@@ -54,7 +54,7 @@ const getters = {
     let atk = ''
     switch (state.page) {
       case 'hero':
-        atk = '(' + Math.floor(Math.floor(state.items.hero.starScale[state.star] * state.items.hero.levelScale[state.level] / 1000) * state.items.hero.weapon[state.item].baseAtk / 1000) + ' atk)'
+        atk = '(' + Math.floor(Math.floor(state.items.uwScale.starScale[state.star] * state.items.uwScale.levelScale[state.level] / 1000) * state.items.hero[state.item].weapon.baseAtk / 1000) + ' atk)'
         break
       case 'artifact':
         atk = ''
@@ -66,7 +66,7 @@ const getters = {
     let itemText = ''
     switch (state.page) {
       case 'hero':
-        itemText = state.items.hero.weapon[state.item].description[state.star]
+        itemText = state.items.hero[state.item].weapon.description[state.star]
         break
       case 'artifact':
         itemText = state.items.artifact[state.item].description[state.star]
@@ -85,7 +85,7 @@ const getters = {
     }
     switch (state.page) {
       case 'hero':
-        additionalInfo = pickInfo(state.items.hero.weapon[state.item].info, state.star)
+        additionalInfo = pickInfo(state.items.hero[state.item].weapon.info, state.star)
         break
       case 'artifact':
         additionalInfo = pickInfo(state.items.artifact[state.item].info, state.star)
@@ -169,7 +169,7 @@ const helpers = {
         state.enableLevel = false
         state.page = 'artifact'
         state.item = query.item
-      } else if (query.item in state.items.hero.weapon) {
+      } else if (query.item in state.items.hero) {
         state.page = 'hero'
         state.item = query.item
       }
