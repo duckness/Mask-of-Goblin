@@ -11,7 +11,7 @@
           <strong class="title is-4">{{ itemName }}</strong>
           <br> {{ description }}
           <div class="content is-small" v-if="additionalInfo !== ''">
-            <label class="label no-margin-bottom">Additional Info</label>
+            <label class="label no-margin-bottom">Notes</label>
             <span>{{ additionalInfo }}</span>
           </div>
         </p>

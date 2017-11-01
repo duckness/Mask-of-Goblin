@@ -14,7 +14,7 @@
     <div class="column is-narrow">
       <star-selector/>
     </div>
-    <div class="column is-3">
+    <div class="column is-2">
       <div class="field has-addons">
         <div class="control">
           <p class="button is-static">Lv.</p>

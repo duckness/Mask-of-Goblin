@@ -16,6 +16,10 @@
   margin-bottom: 3rem;
 }
 
+.is-divider {
+  margin: 1rem 0;
+}
+
 .vertical-align {
   display: flex;
   align-items: center;
@@ -26,6 +30,24 @@
   position: absolute;
   bottom: 0;
   padding-bottom: 1.5rem;
+}
+
+.double {
+  line-height: 2;
+}
+
+ul.no-margin-ul {
+  margin-top: 0;
+  margin-left: 1em;
+}
+
+ol.no-margin-ol {
+  margin-top: 0;
+  margin-left: 1em;
+}
+
+.orbs {
+  line-height: 1;
 }
 
 .no-margin-bottom:not(:last-child) {

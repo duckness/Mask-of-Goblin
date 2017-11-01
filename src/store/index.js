@@ -17,6 +17,9 @@ const state = {
 }
 
 const getters = {
+  getHero: function () {
+    return state.items.hero[state.item]
+  },
   itemImage: function () {
     switch (state.page) {
       case 'hero':
