@@ -1,6 +1,103 @@
 {
   "hero": {
     "Kasel": {
+      "class": "Warrior",
+      "subtitle": "Warrior of the Holy Sword",
+      "description": "The Chosen Warrior of the Holy Sword Aea, the sword that saved the world once before. He can push back enemies and enhance himself with the power of this holy sword.",
+      "t5": {
+        "light": "ATK, DEF, HP+10% / P.Dodge +100",
+        "dark": "Upon attacking, attack 1 extra time dealing 40% of ATK as DMG."
+      },
+      "s1": {
+        "num": 1,
+        "name": "Judgement Blade",
+        "description": "Deal ??? P.DMG to enemies in range, knocking them down for 2.5 seconds.",
+        "mana": 3,
+        "cooldown": 12,
+        "cdstart": "starts upon cast",
+        "cast": 1.3,
+        "freeze": 1.2,
+        "castRange": 4500,
+        "castRangeType": "dash to target",
+        "skillRange": 1200,
+        "skillRangeType": "AOE is offset to the front of hero",
+        "aoe": 3000,
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Increase DMG by 25%."
+        ],
+        "transcendence": {
+          "light": "Mana cost is reduced by 1.",
+          "dark": "Ignores DEF when there is only 1 enemy."
+        }
+      },
+      "s2": {
+        "num": 2,
+        "name": "Valiant Dash",
+        "description": "Deal ??? P.DMG to enemies in range.",
+        "mana": 2,
+        "cooldown": 8,
+        "cdstart": "starts after cast",
+        "cast": 1,
+        "freeze": 1,
+        "castRange": 5000,
+        "castRangeType": "dash to target",
+        "skillRange": 5000,
+        "skillRangeType":"dash through target",
+        "aoe": 1200,
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Increase Crit Chance by 250."
+        ],
+        "transcendence": {
+          "light": "Cooldown reduced by 10% upon a critical hit.",
+          "dark": "Target takes 25% increased P.DMG."
+        }
+      },
+      "s3": {
+        "num": 3,
+        "name": "Proxy of God",
+        "description": "Knocks back nearby enemies and deals ??? P.DMG. Additionally, increase ATK by ??? for 20 sec, and increase Dodge rate by 250. Gain Immunity to CC. This status cannot be removed.",
+        "mana": 4,
+        "cooldown": 20,
+        "cdstart": "starts after cast",
+        "buff": 20,
+        "debuff": 2,
+        "cast": 1.1,
+        "freeze": 1,
+        "aoe": 5000,
+        "books": [
+          "Attack increase rate increases by 10%.",
+          "Attack increase rate increases by 15%.",
+          "Increase speed by 250 for duration."
+        ],
+        "transcendence": {
+          "light": "Knock back effect is changed to a 3 sec Stun.",
+          "dark": "Duration is changed to 40 sec."
+        }
+      },
+      "s4": {
+        "num": 4,
+        "name": "Goddess Strike",
+        "description": "When dodging, deal ??? P.DMG to all frontline enemies in range. Recovers 300 mana after hitting target.",
+        "mana": 0,
+        "cooldown": 3,
+        "cdstart": "starts after cast",
+        "cast": 0.5,
+        "freeze": 0,
+        "aoe": 3000,
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Increase Crit Chance by 250."
+        ],
+        "transcendence": {
+          "light": "DMG is increased by 40%.",
+          "dark": "Casting is boosted and Cooldown is reduced by 1 sec."
+        }
+      },
       "weapon": {
         "name": "The Holy Sword, Aea",
         "baseAtk": 384,
@@ -16,6 +113,96 @@
       }
     },
     "Frey": {
+      "class": "Priest",
+      "subtitle": "Priestess of Light",
+      "description": "A childhood friend of Kasel's, she is a priestess who serves the Goddess. She heals and protects allies with the power of light. With the blessings of the Goddess, she can temporarily increase one's magic powers and resistance.",
+      "t5": {
+        "light": "ATK, DEF, HP+10% / M. Block +200",
+        "dark": "Allies healed by Frey receive 5% of her ATK as an ATK buff for 5 sec."
+      },
+      "s1": {
+        "num": 1,
+        "name": "Miraculous Light",
+        "description": "Heal the ally with the lowest HP for ??? HP.",
+        "mana": 2,
+        "cooldown": 8,
+        "cdstart": "starts after cast",
+        "cast": 2,
+        "freeze": 1,
+        "books": [
+          "Increase Recovery by 10%.",
+          "Increase Recovery by 15%.",
+          "Remove harmful effects from the target."
+        ],
+        "transcendence": {
+          "light": "Healed allies take 25% reduced M.DMG for 10 sec.",
+          "dark": "Shield amount is boosted by 40%."
+        }
+      },
+      "s2": {
+        "num": 2,
+        "name": "Blessings of Light",
+        "description": "Cast a shield on all allies that absorbs ??? DMG for 12 seconds. While the shield is in effect, gain Immunity to CC.",
+        "mana": 2,
+        "cooldown": 15,
+        "cdstart": "starts after cast",
+        "buff": 12,
+        "cast": 1.6,
+        "freeze": 1,
+        "books": [
+          "Increase Shield HP by 10%.",
+          "Increase Shield HP by 15%.",
+          "Increase the target's recovery rate by 50% for the duration of the skill."
+        ],
+        "transcendence": {
+          "light": "Shield amount is boosted by 40%.",
+          "dark": "Shielded allies gain 20% ATK."
+        }
+      },
+      "s3": {
+        "num": 3,
+        "name": "Heaven's Vengeance",
+        "description": "Deal ??? M.DMG to enemies in range, blinding them for 6 seconds.",
+        "mana": 3,
+        "cooldown": 22,
+        "cdstart": "starts after cast",
+        "debuff": 6,
+        "cast": 1.9,
+        "freeze": 1,
+        "castRange": 9000,
+        "castRangeType": "ranged",
+        "aoe": 2000,
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Increase Crit Chance by 250."
+        ],
+        "transcendence": {
+          "light": "In exchange for 1 additional Mana Cost, DMG is increased by 80%.",
+          "dark": "Blind duration is reduced by 2 sec and now targets a random enemy."
+        }
+      },
+      "s4": {
+        "num": 4,
+        "name": "Goddess Grace",
+        "description": "Increase M.DEF of 1 ally by ??? for 10 seconds.",
+        "mana": 0,
+        "cooldown": 15,
+        "cdstart": "starts after cast",
+        "buff": 10,
+        "cast": 1,
+        "freeze": 0,
+        "tick": 1,
+        "books": [
+          "M.DEF increasion rate is increased by 15%.",
+          "M.DEF increasion rate is increased by 15%.",
+          "Restore the target's HP by 15% for the duration of the skill."
+        ],
+        "transcendence": {
+          "light": "Target's ATK Spd. is boosted by 250.",
+          "dark": "Number of targets changes to 2."
+        }
+      },
       "weapon": {
         "name": "God's Authority, Rosmerta",
         "baseAtk": 510,
@@ -31,6 +218,107 @@
       }
     },
     "Cleo": {
+      "class": "Wizard",
+      "subtitle": "Sorceress of Purgatory",
+      "description": "A sorceress from the Red Tower, this brave girl uses explosive fire magic to deal damage to multiple enemies, and then inflicts even greater damage by causing the embers to explode.",
+      "t5": {
+        "light": "ATK, DEF, HP+10% / Crit Chance +100",
+        "dark": "Deals extra M. DMG worth 5% of ATK on every attack, based off the number of Embers stacked on the enemy."
+      },
+      "s0": {
+        "num": "Special",
+        "name": "Cleo Ember",
+        "description": "Cleo's damage over time, and ability amp. Stacks up to 5 times.",
+        "debuff": 20,
+        "tick": 1,
+        "aoe": "3000 (from UW)"
+      },
+      "s1": {
+        "num": 1,
+        "name": "Fire Needle",
+        "description": "Deal ??? M.DMG to up to 5 enemies and inflict an ember that constantly deals M.DMG upon hit enemies.",
+        "mana": 2,
+        "cooldown": 8,
+        "cdstart": "starts after cast",
+        "cast": 0.7,
+        "freeze": 0.7,
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Increase DMG by 25%."
+        ],
+        "transcendence": {
+          "light": "DMG range changes to AoE.",
+          "dark": "Stacks 2 Embers each."
+        }
+      },
+      "s2": {
+        "num": 2,
+        "name": "Fire Ball",
+        "description": "Deal ??? M.Damage upon enemies and Stun for 2 seconds. Damage is increased by 20% for each stacked ember.",
+        "mana": 2,
+        "cooldown": 10,
+        "cdstart": "starts after cast",
+        "debuff": 2,
+        "cast": 1.5,
+        "freeze": 1,
+        "castRange": 7000,
+        "castRangeType": "ranged",
+        "aoe": 3000,
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Increase DMG by 25%."
+        ],
+        "transcendence": {
+          "light": "Upon a Crit Hit, cooldown is reduced by 10%.",
+          "dark": "In exchange for 1 additional Mana Cost, the skill now targets 2 random enemies."
+        }
+      },
+      "s3": {
+        "num": 3,
+        "name": "Fire Rain",
+        "description": "Every attack, deal ??? M.DMG to enemies and stack an Ember. DMG increases by 20% upon said enemy per every stacked Ember.",
+        "mana": 4,
+        "cooldown": 20,
+        "cdstart": "starts after cast",
+        "tick": 0.2,
+        "tickInfo": "fireballs hit 8 times in total",
+        "cast": 2.1,
+        "freeze": 1,
+        "aoe": 30000,
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Increase DMG by 25%."
+        ],
+        "transcendence": {
+          "light": "Crit Chance is boosted by 40%.",
+          "dark": "Stuns enemies with 5 Embers or more for 1 sec."
+        }
+      },
+      "s4": {
+        "num": 4,
+        "name": "Flame Diffusion",
+        "description": "Deals ??? M.DMG to 3 enemies and enemies near to them, stacking 1 Ember each. Each Ember reduces enemy M.DEF by 5%.",
+        "mana": 0,
+        "cooldown": 12,
+        "cdstart": "starts upon cast",
+        "cast": 0.7,
+        "freeze": 0,
+        "castRange": 8000,
+        "castRangeType": "ranged",
+        "aoe": 1000,
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Stack 2 Embers upon Crit hits."
+        ],
+        "transcendence": {
+          "light": "Ember stack maximum is changed to 6.",
+          "dark": "Activates every 9 sec."
+        }
+      },
       "weapon": {
         "name": "Primal Flame, Flenos",
         "baseAtk": 510,
@@ -42,10 +330,100 @@
           "Embers explode every 4 secs, dealing M.DMG of 83 % of ATK to enemies nearby.",
           "Embers explode every 4 secs, dealing M.DMG of 100 % of ATK to enemies nearby."
         ],
-        "info": "Ember explosion radius is 3000."
+        "info": ""
       }
     },
     "Roi": {
+      "class": "Assassin",
+      "subtitle": "Swift Assassin",
+      "description": "He is a former assassin with a hidden past. He specializes in single targets, launching strong, endless attacks on enemies while dashing around their blind spots.",
+      "t5": {
+        "light": "ATK, DEF, HP+10% / Crit DMG +20%",
+        "dark": "Upon using a skill, gain extra 300 Atk Spd and 60% Crit DMG for 10 sec. (Cooldown 20 sec)"
+      },
+      "s1": {
+        "num": 1,
+        "name": "Merciless",
+        "description": "Attack 3 times at random, dealing ??? P.DMG to enemies and inflict Bleed, which deals constant P.DMG. Bleed stacks to a max of 3.",
+        "mana": 2,
+        "cooldown": 8,
+        "cdstart": "starts after cast",
+        "debuff": 16,
+        "tick": 1,
+        "cast": 0.8,
+        "freeze": 0.8,
+        "castRange": "unlimited",
+        "castRangeType": "dash to target",
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Increase Crit DMG by 50%."
+        ],
+        "transcendence": {
+          "light": "Mana cost is reduced by 1.",
+          "dark": "Target takes 25% increased P.DMG for 10 sec."
+        }
+      },
+      "s2": {
+        "num": 2,
+        "name": "Curtain of Darkness",
+        "description": "ATK rises by ??? for 10 sec and dodge all P.DMG attacks.",
+        "mana": 2,
+        "cooldown": 15,
+        "cdstart": "starts after cast",
+        "buff": 10,
+        "cast": 0.7,
+        "freeze": 0.7,
+        "books": [
+          "ATK increase rate is increased by 10%.",
+          "ATK increase rate is increased by 15%.",
+          "Increase ATK Spd by 250 for the duration."
+        ],
+        "transcendence": {
+          "light": "ATK boost is increased by 40%.",
+          "dark": "Auto attack DMG is boosted by 100% for the duration."
+        }
+      },
+      "s3": {
+        "num": 3,
+        "name": "Blade Claw",
+        "description": "Move behind the enemy with the lowest HP and deal ??? P.DMG. Each stack of Bleed on the enemy inflicts additional 50% DMG. All stacks of Bleed are removed afterwards. If Crit, recover 2 MP and reset skill cooldown.",
+        "mana": 3,
+        "cooldown": 20,
+        "cdstart": "starts upon cast",
+        "cast": 1.2,
+        "freeze": 1.2,
+        "castRange": "unlimited",
+        "castRangeType": "dash to target",
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Increase Crit DMG by 50%."
+        ],
+        "transcendence": {
+          "light": "In exchange for 1 additional Mana Cost, DMG dealt is increased by 80%.",
+          "dark": "Recovers 1 extra orb of mana when the target has 3 stacks of Bleed."
+        }
+      },
+      "s4": {
+        "num": 4,
+        "name": "Hack",
+        "description": "Upon a critical auto-attack, deal ??? additional P.DMG.",
+        "mana": 0,
+        "cooldown": 10,
+        "cdstart": "starts after cast",
+        "cast": 0.1,
+        "freeze": 0,
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Increase Crit DMG by 50%."
+        ],
+        "transcendence": {
+          "light": "Each attack recovers 100 mana.",
+          "dark": "Has a 20% chance to stack 1 stack of Bleed."
+        }
+      },
       "weapon": {
         "name": "Specter's Breath, Redeal",
         "baseAtk": 418,
@@ -57,10 +435,103 @@
           "Each auto attack has a 25 % chance to inflict P.DMG on enemy (103 % of the ATK) and inflict Bleed",
           "Each auto attack has a 25 % chance to inflict P.DMG on enemy (125 % of the ATK) and inflict Bleed"
         ],
-        "info": "Effect is only triggered on auto attacks. Bleed lasts for 16s and ticks every second."
+        "info": "Effect is only triggered on auto attacks."
       }
     },
     "Gau": {
+      "class": "Warrior",
+      "subtitle": "Barbarian of Frozen Lands",
+      "description": "A barbarian that rules the snowy plains of the frozen land, he undermines the morale of enemies with ear-deafening shouts and charges into them like a storm.",
+      "t5": {
+        "light": "ATK, DEF, HP+10% / P. Block +200",
+        "dark": "Heals HP worth 10% of ATK every second, and every 1% of HP lost reduces received DMG by 0.6%."
+      },
+      "s1": {
+        "num": 1,
+        "name": "Smash",
+        "description": "Deal ??? P.DMG to enemies in range, and the first attack knocks them down for 3 sec.",
+        "mana": 2,
+        "cooldown": 8,
+        "cdstart": "starts after cast",
+        "debuff": 3,
+        "cast": 0.8,
+        "freeze": 0.8,
+        "castRange": 5000,
+        "castRangeType": "dash to target",
+        "skillRange": 1000,
+        "skillRangeType": "AOE is offset to the front of hero",
+        "aoe": 2000,
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Increase DMG by 25%."
+        ],
+        "transcendence": {
+          "light": "Mana cost is reduced by 1.",
+          "dark": "Each use increases DMG by 15%. Stacks 10 times max."
+        }
+      },
+      "s2": {
+        "num": 2,
+        "name": "Battle Roar",
+        "description": "All allies gain ??? ATK for 15 sec. Upon activation, clear all negative effects from all allies.",
+        "mana": 2,
+        "cooldown": 15,
+        "cdstart": "starts after cast",
+        "buff": 15,
+        "cast": 1.5,
+        "freeze": 1,
+        "books": [
+          "Attack increase rate increases by 10%.",
+          "Attack increase rate increases by 15%.",
+          "Attack increase rate increases by 25%."
+        ],
+        "transcendence": {
+          "light": "ATK boost is increased by 40%.",
+          "dark": "ATK Spd boost of 200 is added to the effect."
+        }
+      },
+      "s3": {
+        "num": 3,
+        "name": "Vortex",
+        "description": "Inflict ??? P.DMG to all enemies in range. The last attack freezes enemies for 4 sec. Immune to all status effects while casting.",
+        "mana": 4,
+        "cooldown": 20,
+        "cdstart": "starts after cast",
+        "debuff": "each tick does '5s' worth of pull cc with book 3, freeze does 4",
+        "tick": 0.2,
+        "tickInfo": "hits 10 times, then after 0.6s, does the final hit",
+        "cast": 0.8,
+        "freeze": 0.8,
+        "castRange": 5000,
+        "castRangeType": "spin to win",
+        "aoe": 3500,
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 25%.",
+          "While casting, gather all enemies within range."
+        ],
+        "transcendence": {
+          "light": "Cooldown reduced by 3 sec.",
+          "dark": "Immune to all types of DMG while in use."
+        }
+      },
+      "s4": {
+        "num": 4,
+        "name": "Enrage",
+        "description": "Upon attacking an enemy, ATK increases by ??? for 5 sec. This can be stacked up to 10 times max.",
+        "mana": 0,
+        "buff": 5,
+        "books": [
+          "Attack increase rate increases by 10%.",
+          "Attack increase rate increases by 15%.",
+          "Debuff resistance increases by 50 with each stack."
+        ],
+        "transcendence": {
+          "light": "ATK boost is increased by 40%.",
+          "dark": "Takes 5% more DMG per each stack, but gains a boost of 50 Crit Chance and Lifesteal per each stack as well."
+        }
+      },
       "weapon": {
         "name": "Holy Bird, Numinu",
         "baseAtk": 384,

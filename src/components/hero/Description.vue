@@ -31,6 +31,7 @@
         </div>
       </div>
     </article>
+    <skill v-if="'s0' in hero" :skill="hero.s0"/>
     <skill :skill="hero.s1"/>
     <skill :skill="hero.s2"/>
     <skill :skill="hero.s3"/>
