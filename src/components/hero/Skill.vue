@@ -8,8 +8,6 @@
     <div class="media-content">
       <div class="content">
         <p>
-          <small class="subtitle is-6">Skill {{ skill.num }}</small>
-          <br>
           <strong class="title is-5">{{ skill.name }}</strong>
           <br>{{ skill.description }}
         <p>
@@ -27,7 +25,7 @@
           <span v-if="'freeze' in skill"><strong>Freeze Time: </strong>{{ skill.freeze }}s<br></span>
           <span v-if="'castRange' in skill"><strong>Max Cast Range: </strong>{{ skill.castRange }} <span v-if="'castRangeType' in skill">({{ skill.castRangeType }})</span><br></span>
           <span v-if="'skillRange' in skill"><strong>Skill Range: </strong>{{ skill.skillRange }} <span v-if="'skillRangeType' in skill">({{ skill.skillRangeType }})</span><br></span>
-          <span v-if="'aoe' in skill"><strong>Skill AOE: </strong>{{ skill.aoe }}<br></span>
+          <span v-if="'aoe' in skill"><strong>Skill AOE: </strong>{{ skill.aoe }}<span v-if="'aoeInfo' in skill">({{ skill.aoeInfo }})</span><br></span>
         </p>
         <p v-if="skill.num !== 'Special'">
           <div v-if="skill.num !== 'Special'" class="columns">

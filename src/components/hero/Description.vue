@@ -31,11 +31,28 @@
         </div>
       </div>
     </article>
-    <skill v-if="'s0' in hero" :skill="hero.s0"/>
+    <collapse is-fullwidth>
+      <collapse-item v-if="'s0' in hero" :title="skillTitle(hero.s0)">
+        <skill v-if="'s0' in hero" :skill="hero.s0"/>
+      </collapse-item>
+      <collapse-item :title="skillTitle(hero.s1)">
+        <skill :skill="hero.s1"/>
+      </collapse-item>
+      <collapse-item :title="skillTitle(hero.s2)">
+        <skill :skill="hero.s2"/>
+      </collapse-item>
+      <collapse-item :title="skillTitle(hero.s3)">
+        <skill :skill="hero.s3"/>
+      </collapse-item>
+      <collapse-item :title="skillTitle(hero.s4)">
+        <skill :skill="hero.s4"/>
+      </collapse-item>
+    </collapse><br>
+    <!-- skill v-if="'s0' in hero" :skill="hero.s0"/>
     <skill :skill="hero.s1"/>
     <skill :skill="hero.s2"/>
     <skill :skill="hero.s3"/>
-    <skill :skill="hero.s4"/>
+    <skill :skill="hero.s4"/ -->
     <article class="media" id="uw">
       <figure class="media-left">
         <p class="image is-128x128">
@@ -65,12 +82,16 @@
 <script>
 
 import { mapState, mapGetters } from 'vuex'
+import Collapse from '@/components/vue-bulma-collapse/Collapse.vue'
+import Item from '@/components/vue-bulma-collapse/Item.vue'
 import Skill from './Skill.vue'
 
 export default {
   name: 'hero-description',
   components: {
-    'skill': Skill
+    'skill': Skill,
+    'collapse': Collapse,
+    'collapse-item': Item
   },
   computed: {
     ...mapState([
@@ -88,6 +109,11 @@ export default {
     ]),
     heroImage: function () {
       return require('./images/icon/' + this.item + '.png')
+    }
+  },
+  methods: {
+    skillTitle: function (skill) {
+      return 'Skill ' + skill.num
     }
   }
 }
