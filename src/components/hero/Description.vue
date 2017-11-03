@@ -31,6 +31,7 @@
         </div>
       </div>
     </article>
+    <hidden-mana/>
     <collapse is-fullwidth>
       <collapse-item v-if="'s0' in hero" :title="skillTitle(hero.s0)">
         <skill v-if="'s0' in hero" :skill="hero.s0"/>
@@ -80,13 +81,15 @@ import { mapState, mapGetters } from 'vuex'
 import Collapse from '@/components/vue-bulma-collapse/Collapse.vue'
 import Item from '@/components/vue-bulma-collapse/Item.vue'
 import Skill from './Skill.vue'
+import HiddenMana from './HiddenMana.vue'
 
 export default {
   name: 'hero-description',
   components: {
     'skill': Skill,
     'collapse': Collapse,
-    'collapse-item': Item
+    'collapse-item': Item,
+    'hidden-mana': HiddenMana
   },
   computed: {
     ...mapState([
