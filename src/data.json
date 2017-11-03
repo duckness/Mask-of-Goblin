@@ -15,6 +15,7 @@
         "mana": 3,
         "cooldown": 12,
         "cdstart": "starts upon cast",
+        "animation": 2.6,
         "cast": 1.3,
         "freeze": 1.2,
         "castRange": 4500,
@@ -38,7 +39,8 @@
         "description": "Deal ??? P.DMG to enemies in range.",
         "mana": 2,
         "cooldown": 8,
-        "cdstart": "starts after cast",
+        "cdstart": "starts after castbar finishes",
+        "animation": 2.4,
         "cast": 1,
         "freeze": 1,
         "castRange": 5000,
@@ -46,6 +48,7 @@
         "skillRange": 5000,
         "skillRangeType":"dash through target",
         "aoe": 1200,
+        "aoeInfo": "self",
         "books": [
           "Increase DMG by 10%.",
           "Increase DMG by 15%.",
@@ -62,12 +65,14 @@
         "description": "Knocks back nearby enemies and deals ??? P.DMG. Additionally, increase ATK by ??? for 20 sec, and increase Dodge rate by 250. Gain Immunity to CC. This status cannot be removed.",
         "mana": 4,
         "cooldown": 20,
-        "cdstart": "starts after cast",
+        "cdstart": "starts after skill animation completes",
         "buff": 20,
         "debuff": 2,
+        "animation": 2.7,
         "cast": 1.1,
         "freeze": 1,
         "aoe": 5000,
+        "aoeInfo": "self",
         "books": [
           "Attack increase rate increases by 10%.",
           "Attack increase rate increases by 15%.",
@@ -84,10 +89,12 @@
         "description": "When dodging, deal ??? P.DMG to all frontline enemies in range. Recovers 300 mana after hitting target.",
         "mana": 0,
         "cooldown": 3,
-        "cdstart": "starts after cast",
+        "cdstart": "starts after skill animation completes",
+        "animation": 1.3,
         "cast": 0.5,
         "freeze": 0,
         "aoe": 3000,
+        "aoeInfo": "self",
         "books": [
           "Increase DMG by 10%.",
           "Increase DMG by 15%.",
@@ -109,7 +116,7 @@
           "Each attack has a 25 % chance to inflict P.DMG on enemy (331 % of the ATK)",
           "Each attack has a 25 % chance to inflict P.DMG on enemy (400 % of the ATK)"
         ],
-        "info": "Effect is triggered on any attack, has a cooldown of 500ms between triggers."
+        "info": "Effect is triggered on any attack, has a cooldown of 0.5s between triggers."
       }
     },
     "Frey": {
@@ -126,7 +133,8 @@
         "description": "Heal the ally with the lowest HP for ??? HP.",
         "mana": 2,
         "cooldown": 8,
-        "cdstart": "starts after cast",
+        "cdstart": "starts after skill animation completes",
+        "animation": 2.7,
         "cast": 2,
         "freeze": 1,
         "books": [
@@ -145,8 +153,9 @@
         "description": "Cast a shield on all allies that absorbs ??? DMG for 12 seconds. While the shield is in effect, gain Immunity to CC.",
         "mana": 2,
         "cooldown": 15,
-        "cdstart": "starts after cast",
+        "cdstart": "starts after skill animation completes",
         "buff": 12,
+        "animation": 2.3,
         "cast": 1.6,
         "freeze": 1,
         "books": [
@@ -165,13 +174,15 @@
         "description": "Deal ??? M.DMG to enemies in range, blinding them for 6 seconds.",
         "mana": 3,
         "cooldown": 22,
-        "cdstart": "starts after cast",
+        "cdstart": "starts after skill animation completes",
         "debuff": 6,
+        "animation": 3.3,
         "cast": 1.9,
         "freeze": 1,
         "castRange": 9000,
         "castRangeType": "ranged",
         "aoe": 2000,
+        "aoeInfo": "target",
         "books": [
           "Increase DMG by 10%.",
           "Increase DMG by 15%.",
@@ -188,8 +199,9 @@
         "description": "Increase M.DEF of 1 ally by ??? for 10 seconds.",
         "mana": 0,
         "cooldown": 15,
-        "cdstart": "starts after cast",
+        "cdstart": "starts upon cast",
         "buff": 10,
+        "animation": 1.6,
         "cast": 1,
         "freeze": 0,
         "tick": 1,
@@ -231,7 +243,8 @@
         "description": "Cleo's damage over time, and ability amp. Stacks up to 5 times.",
         "debuff": 20,
         "tick": 1,
-        "aoe": "3000 (from UW)"
+        "aoe": 3000,
+        "aoeInfo": "target, UW effect"
       },
       "s1": {
         "num": 1,
@@ -239,7 +252,8 @@
         "description": "Deal ??? M.DMG to up to 5 enemies and inflict an ember that constantly deals M.DMG upon hit enemies.",
         "mana": 2,
         "cooldown": 8,
-        "cdstart": "starts after cast",
+        "cdstart": "starts after skill animation completes",
+        "animation": 3,
         "cast": 0.7,
         "freeze": 0.7,
         "books": [
@@ -258,13 +272,15 @@
         "description": "Deal ??? M.Damage upon enemies and Stun for 2 seconds. Damage is increased by 20% for each stacked ember.",
         "mana": 2,
         "cooldown": 10,
-        "cdstart": "starts after cast",
+        "cdstart": "starts after skill animation completes",
         "debuff": 2,
+        "animation": 2.3,
         "cast": 1.5,
         "freeze": 1,
         "castRange": 7000,
         "castRangeType": "ranged",
         "aoe": 3000,
+        "aoeInfo": "target",
         "books": [
           "Increase DMG by 10%.",
           "Increase DMG by 15%.",
@@ -281,12 +297,14 @@
         "description": "Every attack, deal ??? M.DMG to enemies and stack an Ember. DMG increases by 20% upon said enemy per every stacked Ember.",
         "mana": 4,
         "cooldown": 20,
-        "cdstart": "starts after cast",
+        "cdstart": "starts after skill animation completes",
         "tick": 0.2,
         "tickInfo": "fireballs hit 8 times in total",
+        "animation": 4,
         "cast": 2.1,
         "freeze": 1,
         "aoe": 30000,
+        "aoeInfo": "self",
         "books": [
           "Increase DMG by 10%.",
           "Increase DMG by 15%.",
@@ -304,11 +322,13 @@
         "mana": 0,
         "cooldown": 12,
         "cdstart": "starts upon cast",
+        "animation": 1.7,
         "cast": 0.7,
         "freeze": 0,
         "castRange": 8000,
         "castRangeType": "ranged",
         "aoe": 1000,
+        "aoeInfo": "target",
         "books": [
           "Increase DMG by 10%.",
           "Increase DMG by 15%.",
@@ -347,13 +367,14 @@
         "description": "Attack 3 times at random, dealing ??? P.DMG to enemies and inflict Bleed, which deals constant P.DMG. Bleed stacks to a max of 3.",
         "mana": 2,
         "cooldown": 8,
-        "cdstart": "starts after cast",
+        "cdstart": "starts after castbar finishes",
         "debuff": 16,
         "tick": 1,
+        "animation": 2.7,
         "cast": 0.8,
         "freeze": 0.8,
         "castRange": "unlimited",
-        "castRangeType": "dash to target",
+        "castRangeType": "teleport",
         "books": [
           "Increase DMG by 10%.",
           "Increase DMG by 15%.",
@@ -370,8 +391,9 @@
         "description": "ATK rises by ??? for 10 sec and dodge all P.DMG attacks.",
         "mana": 2,
         "cooldown": 15,
-        "cdstart": "starts after cast",
+        "cdstart": "starts after skill animation completes",
         "buff": 10,
+        "animation": 0.9,
         "cast": 0.7,
         "freeze": 0.7,
         "books": [
@@ -391,6 +413,7 @@
         "mana": 3,
         "cooldown": 20,
         "cdstart": "starts upon cast",
+        "animation": 1.5,
         "cast": 1.2,
         "freeze": 1.2,
         "castRange": "unlimited",
@@ -411,7 +434,8 @@
         "description": "Upon a critical auto-attack, deal ??? additional P.DMG.",
         "mana": 0,
         "cooldown": 10,
-        "cdstart": "starts after cast",
+        "cdstart": "starts after skill animation completes",
+        "animation": 1.4,
         "cast": 0.1,
         "freeze": 0,
         "books": [
@@ -452,8 +476,9 @@
         "description": "Deal ??? P.DMG to enemies in range, and the first attack knocks them down for 3 sec.",
         "mana": 2,
         "cooldown": 8,
-        "cdstart": "starts after cast",
+        "cdstart": "starts after skill animation completes",
         "debuff": 3,
+        "animation": 2.2,
         "cast": 0.8,
         "freeze": 0.8,
         "castRange": 5000,
@@ -477,8 +502,9 @@
         "description": "All allies gain ??? ATK for 15 sec. Upon activation, clear all negative effects from all allies.",
         "mana": 2,
         "cooldown": 15,
-        "cdstart": "starts after cast",
+        "cdstart": "starts after skill animation completes",
         "buff": 15,
+        "animation": 2.3,
         "cast": 1.5,
         "freeze": 1,
         "books": [
@@ -497,15 +523,17 @@
         "description": "Inflict ??? P.DMG to all enemies in range. The last attack freezes enemies for 4 sec. Immune to all status effects while casting.",
         "mana": 4,
         "cooldown": 20,
-        "cdstart": "starts after cast",
+        "cdstart": "starts after skill animation completes",
         "debuff": "each tick does '5s' worth of pull cc with book 3, freeze does 4",
         "tick": 0.2,
         "tickInfo": "hits 10 times, then after 0.6s, does the final hit",
+        "animation": 4.1,
         "cast": 0.8,
         "freeze": 0.8,
         "castRange": 5000,
         "castRangeType": "spin to win",
         "aoe": 3500,
+        "aoeInfo": "self",
         "books": [
           "Increase DMG by 10%.",
           "Increase DMG by 25%.",
@@ -521,6 +549,7 @@
         "name": "Enrage",
         "description": "Upon attacking an enemy, ATK increases by ??? for 5 sec. This can be stacked up to 10 times max.",
         "mana": 0,
+        "cooldown": 0,
         "buff": 5,
         "books": [
           "Attack increase rate increases by 10%.",
@@ -547,6 +576,102 @@
       }
     },
     "Phillop": {
+      "class": "Knight",
+      "subtitle": "King of Dwarves",
+      "description": "A legendary dragon slayer who has hunted numerous dragons. Despite his small stature, his powerful shield bash destroys enemy formations, usually followed with a final blow.",
+      "t5": {
+        "light": "ATK, DEF, HP+10% / P. Block +200",
+        "dark": "When auto attacking, there is a 10% chance to Stun the target for 2 sec and deal extra DMG worth 10% of own HP."
+      },
+      "s1": {
+        "num": 1,
+        "name": "Collision",
+        "description": "Deal ??? P.DMG and knock down the enemy for 3 seconds.",
+        "mana": 3,
+        "cooldown": 12,
+        "cdstart": "starts after skill animation completes",
+        "debuff": 3,
+        "animation": 2.1,
+        "cast": 0.7,
+        "freeze": 0.7,
+        "castRange": 4500,
+        "castRangeType": "dash to target",
+        "aoe": 2000,
+        "aoeInfo": "self",
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Decrease 50% P.DEF of damaged enemies for 10 sec."
+        ],
+        "transcendence": {
+          "light": "Mana cost is reduced by 1.",
+          "dark": "Cooldown is reduced by 10% per each enemy hit."
+        }
+      },
+      "s2": {
+        "num": 2,
+        "name": "Headbutt",
+        "description": "Dash to the enemy and inflict ??? P.DMG. Reduce Attack Spd of damaged enemies by 20% for 10 sec.",
+        "mana": 2,
+        "cooldown": 8,
+        "cdstart": "starts after skill animation completes",
+        "debuff": "knockback for 1s, reduce atk spd for 10",
+        "animation": 1.9,
+        "cast": 0.9,
+        "freeze": 0.9,
+        "castRange": 4500,
+        "castRangeType": "dash to target",
+        "aoe": 1000,
+        "aoeInfo": "self",
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Reduce enemy ATK by 25%."
+        ],
+        "transcendence": {
+          "light": "Deals extra P.DMG equal to 10% of max HP.",
+          "dark": "Effect changes to a 3 sec Stun to nearby enemies."
+        }
+      },
+      "s3": {
+        "num": 3,
+        "name": "Earth Incarnate",
+        "description": "Upon activation, increase DEF by ??? for 15 sec and gain status effect immunity. In addition, heal 15% HP.",
+        "mana": 4,
+        "cooldown": 30,
+        "cdstart": "starts after skill animation completes",
+        "buff": 15,
+        "tick": 1,
+        "animation": 1.9,
+        "cast": 0.9,
+        "freeze": 0.9,
+        "books": [
+          "P.DEF increase rate increases by 10%.",
+          "P.DEF increase rate increases by 15%.",
+          "DMG Reduction increases by 25%."
+        ],
+        "transcendence": {
+          "light": "Deals 1% of Max HP as DMG per sec to nearby enemies.",
+          "dark": "Stuns nearby enemies for 3 sec."
+        }
+      },
+      "s4": {
+        "num": 4,
+        "name": "Destroy Armor",
+        "description": "Upon attacking an enemy, weaken enemy P.DEF by ??? for 15 secs. Can be stacked up to 5 times max.",
+        "mana": 0,
+        "cooldown": 0,
+        "debuff": 15,
+        "books": [
+          "P.DEF reduction is increased by 10%.",
+          "P.DEF reduction is increased by 15%.",
+          "Enemy P. Dodge chance is reduced by 10% per stack."
+        ],
+        "transcendence": {
+          "light": "Enemies with 5 stacks take 1% extra P.DMG based off Max HP per attack.",
+          "dark": "Upon attack, dispel all positive effects and target receives 20% increased P.DMG for 20 sec. Has a cooldown of 20 sec."
+        }
+      },
       "weapon": {
         "name": "Dragon's Ruins, Atein",
         "baseAtk": 355,
@@ -562,6 +687,113 @@
       }
     },
     "Lakrak": {
+      "class": "Mechanic",
+      "subtitle": "Hunter of the Hand Cannon",
+      "description": "A white goblin skilled in mechanical engineering, he uses a hand cannon to inflict explosive damage, harass enemies with special bullets, and inflict fatal damage to them.",
+      "t5": {
+        "light": "ATK, DEF, HP+10% / Crit DMG +20%",
+        "dark": "Upon a Critical Hit, gain 5% Crit DMG and 30 CC Accuracy. Stacks up to 10 times."
+      },
+      "s1": {
+        "num": 1,
+        "name": "Rapid Fire",
+        "description": "Deal ??? P.DMG to enemies in range and knock them back.",
+        "mana": 2,
+        "cooldown": 8,
+        "cdstart": "starts after skill animation completes",
+        "animation": 2.8,
+        "debuff": 1.5,
+        "cast": 1.7,
+        "freeze": 1,
+        "castRange": 7000,
+        "castRangeType": "ranged",
+        "aoe": 9000,
+        "aoeInfo": "self",
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Increase DMG by 25%."
+        ],
+        "transcendence": {
+          "light": "DMG is increased by 40%.",
+          "dark": "Stuns the enemy for 3 sec."
+        }
+      },
+      "s2": {
+        "num": 2,
+        "name": "Smoke Bomb",
+        "description": "Deal ??? P.DMG to enemies in range and inflict Blind for 4 sec.",
+        "mana": 2,
+        "cooldown": 15,
+        "cdstart": "starts after skill animation completes",
+        "debuff": 4,
+        "animation": 2,
+        "cast": 1.1,
+        "freeze": 1,
+        "castRange": 7000,
+        "castRangeType": "ranged",
+        "aoe": 7000,
+        "aoeInfo": "target",
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Inflict DMG upon the enemy and Stun them for 1 sec."
+        ],
+        "transcendence": {
+          "light": "Mana cost is reduced by 1.",
+          "dark": "Blind duration is increased by 2 sec."
+        }
+      },
+      "s3": {
+        "num": 3,
+        "name": "Glue Bomb",
+        "description": "Attach a sticky bomb to a random enemy. The bomb explodes, dealing P.DMG based off the enemy's current HP. Deals a maximum of ??? P.DMG to all enemies in range, and explodes 3 sec after activation. Also, stun the enemy for 3 seconds.",
+        "mana": 3,
+        "cooldown": 12,
+        "cdstart": "starts after skill animation completes",
+        "debuff": 3,
+        "animation": 2,
+        "cast": 1.3,
+        "freeze": 1,
+        "castRange": "unlimited",
+        "castRangeType": "ranged",
+        "aoe": 2500,
+        "aoeInfo": "target",
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Increase DMG by 25%."
+        ],
+        "transcendence": {
+          "light": "In exchange for 1 additional Mana Cost, the skill targets 2 enemies.",
+          "dark": "Stun duration is increased by 2 sec."
+        }
+      },
+      "s4": {
+        "num": 4,
+        "name": "Load Cannon",
+        "description": "Every auto-attack, there is a 15% chance to deal ??? P.DMG and knock down enemies within range.",
+        "mana": 0,
+        "cooldown": 1.3,
+        "cdstart": "starts after skill animation completes",
+        "debuff": 1.5,
+        "animation": 1.3,
+        "cast": 0.7,
+        "freeze": 0,
+        "castRange": 6000,
+        "castRangeType": "ranged",
+        "aoe": 2000,
+        "aoeInfo": "target",
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Increase DMG by 25%."
+        ],
+        "transcendence": {
+          "light": "Activation chance is boosted by 10%.",
+          "dark": "Target takes 25% increased P.DMG."
+        }
+      },
       "weapon": {
         "name": "Lakrak MK-1",
         "baseAtk": 499,
@@ -577,6 +809,109 @@
       }
     },
     "Kaulah": {
+      "class": "Priest",
+      "subtitle": "Shaman of Lightning",
+      "description": "As the longtime Orc Chieftain of the Sky Wind tribe, he uses elemental attacks powered by the sky and wind. Strong bolts of lightning paralyze enemies, while allies are healed and blessed by the wind.",
+      "t5": {
+        "light": "ATK, DEF, HP+10% / Crit Chance +100",
+        "dark": "Gains stacks every time allies are hit. When 50 stacks are acheived, drop lightning upon a random enemy 3 times, dealing 240% of ATK as DMG and inflicting stun for 1 sec."
+      },
+      "s1": {
+        "num": 1,
+        "name": "Thunderbolt",
+        "description": "Drop 5 lightning bolts upon random enemies and inflict ??? M.DMG. In addition, electrify hit enemies. When an electrified enemy is hit, stun for 5 sec.",
+        "mana": 3,
+        "cooldown": 10,
+        "cdstart": "starts after skill animation completes",
+        "debuff": 20,
+        "tick": 2,
+        "tickInfo": "debuff and tick info is for the electrified debuff",
+        "animation": 2.8,
+        "cast": 1.8,
+        "freeze": 1,
+        "castRange": "unlimited",
+        "castRangeType": "ranged",
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Increase Crit Chance by 250."
+        ],
+        "transcendence": {
+          "light": "Mana cost is reduced by 1.",
+          "dark": "Target takes 25% increased M.DMG for 10 sec."
+        }
+      },
+      "s2": {
+        "num": 2,
+        "name": "Healing Rain",
+        "description": "Restore ??? HP for all allies for 5 seconds.",
+        "mana": 2,
+        "cooldown": 11,
+        "cdstart": "starts after skill animation completes",
+        "tick": 1,
+        "tickInfo": "ticks 5 times",
+        "animation": 6.6,
+        "cast": 1.2,
+        "freeze": 1,
+        "castRange": "unlimited",
+        "castRangeType": "ranged",
+        "books": [
+          "Increase Recovery by 10%.",
+          "Increase Recovery by 15%.",
+          "While casting, gain immunity to status effects and increase DMG Reduction by 500."
+        ],
+        "transcendence": {
+          "light": "Allies take 25% less DMG while skill is in effect.",
+          "dark": "In exchange for 1 additional Mana Cost, additionally heal allies by 5% of their Max HP."
+        }
+      },
+      "s3": {
+        "num": 3,
+        "name": "Swift Wind",
+        "description": "For 15 sec, increase ATK by ??? and ATK Spd by 350 for all allies.",
+        "mana": 4,
+        "cooldown": 20,
+        "cdstart": "starts after skill animation completes",
+        "buff": 15,
+        "animation": 2,
+        "cast": 1.2,
+        "freeze": 1,
+        "castRange": "unlimited",
+        "castRangeType": "ranged",
+        "books": [
+          "ATK increase rate increases by 10%.",
+          "ATK increase rate increases by 15%.",
+          "For the duration of this skill, Crit. Rate is increased by 350."
+        ],
+        "transcendence": {
+          "light": "ATK boost is increased by 40%.",
+          "dark": "Cooldown is reduced by 3 sec."
+        }
+      },
+      "s4": {
+        "num": 4,
+        "name": "Chain Lightning",
+        "description": "Every 15 sec, inflict ??? M.DMG upon 4 enemies and electrify them for 20 sec.",
+        "mana": 0,
+        "cooldown": 15,
+        "cdstart": "starts after skill animation completes",
+        "debuff": 20,
+        "tick": 1,
+        "animation": 2.3,
+        "cast": 1.6,
+        "freeze": 0,
+        "castRange": "unlimited",
+        "castRangeType": "ranged",
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Upon a Crit. Hit, hit enemies are stunned for 1 sec."
+        ],
+        "transcendence": {
+          "light": "Crit Chance is boosted by 40%.",
+          "dark": "If there is 1 enemy, Stun duration is increased by 3 sec."
+        }
+      },
       "weapon": {
         "name": "The Bluewind, Coventina",
         "baseAtk": 510,
@@ -592,6 +927,101 @@
       }
     },
     "Epis": {
+      "class": "Assassin",
+      "subtitle": "Captivating Demon",
+      "description": "A cold-blooded hedonist demon. Using a huge scythe, she harvests the souls of enemies. She suddenly appears in the midst of enemies, slashing everything around her.",
+      "t5": {
+        "light": "ATK, DEF, HP+10% / Crit DMG +20%",
+        "dark": "All of Epis's attacks decrease the M.DEF of hit enemies by 20% for 10 sec. ATK rises by 2% per each enemy hit. Maximum stack number is 10."
+      },
+      "s1": {
+        "num": 1,
+        "name": "Absorbing Blow",
+        "description": "Deal ??? M.DMG that ignores enemy defense and recover HP based off 100% of the DMG inflicted.",
+        "mana": 2,
+        "cooldown": 12,
+        "cdstart": "starts upon cast",
+        "animation": 2.1,
+        "cast": 1.3,
+        "freeze": 0.9,
+        "castRange": 2500,
+        "castRangeType": "dash to target",
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Recovery increases by 50%."
+        ],
+        "transcendence": {
+          "light": "Crit Chance is boosted by 250 and DMG is increased by 15%.",
+          "dark": "Ignores enemy Block."
+        }
+      },
+      "s2": {
+        "num": 2,
+        "name": "Nightmare",
+        "description": "Move behind the furthest enemy and deal ??? M.DMG. Hit enemies gain a debuff that makes them receive 30% extra M.DMG from for 10 sec.",
+        "mana": 2,
+        "cooldown": 8,
+        "cdstart": "starts upon cast",
+        "debuff": 10,
+        "animation": 2.8,
+        "cast": 0.8,
+        "freeze": 0.8,
+        "castRange": "unlimited",
+        "castRangeType": "teleport",
+        "aoe": 2500,
+        "aoeInfo": "self",
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Increase Crit Chance by 250."
+        ],
+        "transcendence": {
+          "light": "Mana cost is reduced by 1.",
+          "dark": "In exchange for 1 additional Mana Cost, cast Skill 1 right after this skill."
+        }
+      },
+      "s3": {
+        "num": 3,
+        "name": "Devil's Prom",
+        "description": "Deal ??? M.DMG to all enemies in range. Resists CC while using this skill.",
+        "mana": 3,
+        "cooldown": 20,
+        "cdstart": "starts after skill animation completes",
+        "animation": 3.5,
+        "cast": 1,
+        "freeze": 1,
+        "castRange": 6000,
+        "castRangeType": "teleport",
+        "aoe": 3500,
+        "aoeInfo": "self",
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Upon dealing a Crit Hit, heal the hero for 100% of DMG."
+        ],
+        "transcendence": {
+          "light": "DMG is increased by 40%.",
+          "dark": "DMG taken is reduced by 50% while skill is in use."
+        }
+      },
+      "s4": {
+        "num": 4,
+        "name": "Harvest",
+        "description": "When an enemy is killed by this hero, increase ATK by ??? for 10 sec and reduce all skill cooldowns by 30%.",
+        "mana": 0,
+        "cooldown": 0,
+        "buff": 10,
+        "books": [
+          "ATK increase rate increases by 10%.",
+          "ATK increase rate increases by 15%.",
+          "For each kill, recover 1 orb of mana."
+        ],
+        "transcendence": {
+          "light": "Each stack increases Mana recovery per sec by 50%.",
+          "dark": "While stack number is higher than 5, Mana is always at 100% and cooldowns are decreased by an additional 1 sec per each sec."
+        }
+      },
       "weapon": {
         "name": "The Seductress, Guillotine",
         "baseAtk": 418,
@@ -607,6 +1037,101 @@
       }
     },
     "Selene": {
+      "class": "Archer",
+      "subtitle": "Wind-piercing Arrow",
+      "description": "An Elf Princess with a lofty air, she guards the sacred forest. Arrows filled with moon energy follow her will to track down enemies, and arrows filled with wind energy fiercely pierce the enemy.",
+      "t5": {
+        "light": "ATK, DEF, HP+10% / Crit DMG +20%",
+        "dark": "There is a 50% chance to deal extra P.DMG worth 40% of ATK upon an attack."
+      },
+      "s1": {
+        "num": 1,
+        "name": "Arrow Rain",
+        "description": "Shoot 12 arrows randomly and inflict ??? P.DMG upon the enemy.",
+        "mana": 3,
+        "cooldown": 8,
+        "cdstart": "starts after skill animation completes",
+        "tick": 0.1,
+        "tickInfo": "each arrow hits at this rate",
+        "animation": 3.7,
+        "cast": 2,
+        "freeze": 1.5,
+        "castRange": "unlimited",
+        "castRangeType": "ranged",
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Increase DMG by 25%."
+        ],
+        "transcendence": {
+          "light": "DMG is increased by 40%.",
+          "dark": "There is a 20% chance to inflict Stun for 2 sec."
+        }
+      },
+      "s2": {
+        "num": 2,
+        "name": "Rush",
+        "description": "Summon 5 arrows that fly towards the enemy upon auto-attacking. Each arrow inflicts ??? P.DMG.",
+        "mana": 2,
+        "cooldown": 6,
+        "cdstart": "starts after skill animation completes",
+        "animation": 1.8,
+        "cast": 1.2,
+        "freeze": 1,
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Increase DMG by 25%."
+        ],
+        "transcendence": {
+          "light": "Crit DMG is boosted by 80%.",
+          "dark": "Makes the enemy flinch for 0.5 sec."
+        }
+      },
+      "s3": {
+        "num": 3,
+        "name": "Moonlight Flash",
+        "description": "Fire an arrow in a straight line, dealing P.DMG to all enemies in range based off their current HP. Deals a maximum of ??? P.DMG and inflicts knock down.",
+        "mana": 4,
+        "cooldown": 20,
+        "cdstart": "starts after skill animation completes",
+        "debuff": 3,
+        "animation": 3.7,
+        "cast": 2.5,
+        "freeze": 1.5,
+        "castRange": "unlimited",
+        "castRangeType": "ranged",
+        "skillRange": 20000,
+        "skillRangeType": "arrow flies this distance in a straight line from hero",
+        "aoe": 1000,
+        "aoeInfo": "projectile",
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Increase DMG by 25%."
+        ],
+        "transcendence": {
+          "light": "Reduces cooldown by 3 sec.",
+          "dark": "Ignores enemy Block."
+        }
+      },
+      "s4": {
+        "num": 4,
+        "name": "Moonlight Arrow",
+        "description": "Upon attacking, for 10 sec, ATK rises by ??? and Crit Chance rises by 100. Stacks up to 3 times.",
+        "mana": 0,
+        "cooldown": 0.1,
+        "buff": 10,
+        "books": [
+          "Attack increase rate increases by 10%.",
+          "Attack increase rate increases by 15%.",
+          "Each attack increases hero's Crit. DMG by 10%."
+        ],
+        "transcendence": {
+          "light": "Max stack number is changed to 5.",
+          "dark": "Auto attack range is boosted by 20%."
+        }
+      },
       "weapon": {
         "name": "Green Winds, Notos",
         "baseAtk": 547,
@@ -715,7 +1240,7 @@
           "Upon attacking an enemy, inflict M.DMG(100 % of ATK) by a 20 % chance, and reduce skill cooldown by 10 %",
           "Upon attacking an enemy, inflict M.DMG(100 % of ATK) by a 25 % chance, and reduce skill cooldown by 10 %"
         ],
-        "info": "Effect is triggered on any attack, has a cooldown of 500ms between triggers. Skill cooldown reduction applies to Dimael only."
+        "info": "Effect is triggered on any attack, has a cooldown of 0.5s between triggers. Skill cooldown reduction applies to Dimael only."
       }
     },
     "Reina": {
@@ -760,7 +1285,7 @@
           "Blocking enemy attacks has a 22% chance to recover own mana by 3% and reduces all skill cooldowns by 1 sec.",
           "Blocking enemy attacks has a 25% chance to recover own mana by 3% and reduces all skill cooldowns by 1 sec."
         ],
-        "info": "Effect recover 3% of total mana, has a cooldown of 200ms between triggers."
+        "info": "Effect recover 3% of total mana, has a cooldown of 0.2s between triggers."
       }
     },
     "Nalia": {
@@ -790,7 +1315,7 @@
           "Upon attacking, there is a 14% chance to deal P.DMG equal to 207% of ATK and knock back the enemy. Afterwards, ACC rises by 100 for 10 sec. This effect can stack up to 3 times.",
           "Upon attacking, there is a 15% chance to deal P.DMG equal to 250% of ATK and knock back the enemy. Afterwards, ACC rises by 100 for 10 sec. This effect can stack up to 3 times."
         ],
-        "info": "Effect is triggered on any attack, has a cooldown of 500ms between triggers."
+        "info": "Effect is triggered on any attack, has a cooldown of 0.5s between triggers."
       }
     },
     "Morrah": {
@@ -850,7 +1375,7 @@
           "Upon an attack, there is a 25% chance to deal extra DMG worth 83% of ATK.",
           "Upon an attack, there is a 25% chance to deal extra DMG worth 100% of ATK."
         ],
-        "info": "Effect is triggered on any attack, has a cooldown of 500ms between triggers."
+        "info": "Effect is triggered on any attack, has a cooldown of 0.5s between triggers."
       }
     },
     "Leo": {
@@ -1090,7 +1615,7 @@
           "Upon a Critical Hit, there is a 10% chance to deal P.DMG equal to 420% of ATK and recover 5% Mana. If the target is a Dragon, inflict Stun for 1 sec.",
           "Upon a Critical Hit, there is a 10% chance to deal P.DMG equal to 500% of ATK and recover 5% Mana. If the target is a Dragon, inflict Stun for 1 sec."
         ],
-        "info": "The effect has a cooldown of 500ms between triggers."
+        "info": "The effect has a cooldown of 0.5s between triggers."
       }
     },
     "May": {
@@ -1120,7 +1645,7 @@
           "Upon a Crit Hit, increase Crit. DMG by 42% for 5 sec. This effect stacks up to 10 times.",
           "Upon a Crit Hit, increase Crit. DMG by 50% for 5 sec. This effect stacks up to 10 times."
         ],
-        "info": "Minimum 100ms cooldown to stack the effect."
+        "info": "Minimum 0.1s cooldown to stack the effect."
       }
     }
   },
