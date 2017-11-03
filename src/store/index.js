@@ -2,13 +2,11 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 import router from '@/router'
 
-const sortKeys = require('sort-keys')
-
 Vue.use(Vuex)
 
 const state = {
   page: 'hero',
-  items: sortKeys(require('@/data.json'), { deep: true }),
+  items: require('@/data.json'),
   item: 'Kasel',
   oldItem: 'Mask of Goblin',
   enableLevel: true,
@@ -44,7 +42,7 @@ const getters = {
         equips = Object.keys(state.items.artifact)
         break
     }
-    return equips
+    return equips.sort()
   },
   itemName: function () {
     let name = ''
