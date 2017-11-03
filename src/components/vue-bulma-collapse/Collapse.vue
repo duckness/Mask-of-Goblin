@@ -37,5 +37,6 @@ export default {
   width: auto;
   margin-left: -1.25rem;
   margin-right: -1.25rem;
+  margin-bottom: 1.25rem;
 }
 </style>

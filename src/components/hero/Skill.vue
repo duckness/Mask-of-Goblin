@@ -17,15 +17,16 @@
             <span class="orbs" v-if="skill.mana > 0"><orb v-for="orb in numOrbs" :key="orb"/></span>
             <span v-else>0</span>
           <br></span>
-          <span v-if="'cooldown' in skill"><strong>Cooldown: </strong>{{ skill.cooldown }}s ({{ skill.cdstart }})<br></span>
+          <span v-if="'cooldown' in skill"><strong>Cooldown: </strong>{{ skill.cooldown }}s <span v-if="'cdstart' in skill">({{ skill.cdstart }})</span><br></span>
           <span v-if="'buff' in skill"><strong>Buff Time: </strong>{{ skill.buff }}s<br></span>
           <span v-if="'debuff' in skill"><strong>Debuff Time: </strong>{{ skill.debuff }}s<br></span>
           <span v-if="'tick' in skill"><strong>Tick Timer: </strong>{{ skill.tick }}s <span v-if="'tickInfo' in skill">({{ skill.tickInfo }})</span><br></span>
-          <span v-if="'cast' in skill"><strong>Cast Time: </strong>{{ skill.cast }}s<br></span>
+          <span v-if="'animation' in skill"><strong>Animation Time: </strong>{{ skill.animation }}s<br></span>
+          <span v-if="'cast' in skill"><strong>Castbar Time: </strong>{{ skill.cast }}s<br></span>
           <span v-if="'freeze' in skill"><strong>Freeze Time: </strong>{{ skill.freeze }}s<br></span>
           <span v-if="'castRange' in skill"><strong>Max Cast Range: </strong>{{ skill.castRange }} <span v-if="'castRangeType' in skill">({{ skill.castRangeType }})</span><br></span>
           <span v-if="'skillRange' in skill"><strong>Skill Range: </strong>{{ skill.skillRange }} <span v-if="'skillRangeType' in skill">({{ skill.skillRangeType }})</span><br></span>
-          <span v-if="'aoe' in skill"><strong>Skill AOE: </strong>{{ skill.aoe }}<span v-if="'aoeInfo' in skill">({{ skill.aoeInfo }})</span><br></span>
+          <span v-if="'aoe' in skill"><strong>Skill AOE: </strong>{{ skill.aoe }} <span v-if="'aoeInfo' in skill">({{ skill.aoeInfo }})</span><br></span>
         </p>
         <p v-if="skill.num !== 'Special'">
           <div v-if="skill.num !== 'Special'" class="columns">

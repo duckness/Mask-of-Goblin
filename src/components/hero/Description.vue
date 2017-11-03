@@ -47,12 +47,7 @@
       <collapse-item :title="skillTitle(hero.s4)">
         <skill :skill="hero.s4"/>
       </collapse-item>
-    </collapse><br>
-    <!-- skill v-if="'s0' in hero" :skill="hero.s0"/>
-    <skill :skill="hero.s1"/>
-    <skill :skill="hero.s2"/>
-    <skill :skill="hero.s3"/>
-    <skill :skill="hero.s4"/ -->
+    </collapse>
     <article class="media" id="uw">
       <figure class="media-left">
         <p class="image is-128x128">

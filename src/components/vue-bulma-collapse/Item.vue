@@ -130,8 +130,14 @@ export default {
   .card-header {
     cursor: pointer;
   }
+  .card-header-title {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
   .card-header-icon {
     transition: transform .200s ease;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
   .card-content {
     padding-top: 0;
