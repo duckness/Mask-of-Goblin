@@ -17,7 +17,7 @@
     <div class="column is-2">
       <div class="field has-addons">
         <div class="control">
-          <p class="button is-static">Lv.</p>
+          <p class="button is-static">Lv</p>
         </div>
         <div class="control is-expanded">
           <input class="input" type="number" v-model="level" v-on:input="levelChange"></input>
