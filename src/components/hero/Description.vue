@@ -1,5 +1,6 @@
 <template>
   <div id="hero-description">
+    <hidden-mana/>
     <article class="media" id="hero">
       <figure class="media-left">
         <p class="image is-128x128">
@@ -7,7 +8,7 @@
         </p>
       </figure>
       <div class="media-content">
-        <div class="content">
+        <div class="content" v-if="'class' in hero">
           <p>
             <span>
               <strong class="title is-3">{{ item }} </strong>
@@ -29,10 +30,16 @@
             </div>
           </p>
         </div>
+        <div class="content" v-else>
+          <strong class="title is-3">{{ item }}</strong>
+          <p>Hero data coming soon!</p>
+        </div>
       </div>
     </article>
-    <hidden-mana/>
-    <collapse is-fullwidth>
+    <collapse is-fullwidth v-if="'class' in hero">
+      <collapse-item title="Attributes">
+        <attributes :stats="hero.attributes" :hclass="hero.class"/>
+      </collapse-item>
       <collapse-item v-if="'s0' in hero" :title="skillTitle(hero.s0)">
         <skill v-if="'s0' in hero" :skill="hero.s0"/>
       </collapse-item>
@@ -82,6 +89,7 @@ import Collapse from '@/components/vue-bulma-collapse/Collapse.vue'
 import Item from '@/components/vue-bulma-collapse/Item.vue'
 import Skill from './Skill.vue'
 import HiddenMana from './HiddenMana.vue'
+import Attributes from './Attributes.vue'
 
 export default {
   name: 'hero-description',
@@ -89,7 +97,8 @@ export default {
     'skill': Skill,
     'collapse': Collapse,
     'collapse-item': Item,
-    'hidden-mana': HiddenMana
+    'hidden-mana': HiddenMana,
+    'attributes': Attributes
   },
   computed: {
     ...mapState([

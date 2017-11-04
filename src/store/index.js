@@ -31,12 +31,15 @@ const getters = {
     let equips = []
     switch (state.page) {
       case 'hero':
+      /*
         var temps = Object.keys(state.items.hero)
         for (var i = 0; i < temps.length; i += 1) {
           if ('description' in state.items.hero[temps[i]]) {
             equips.push(temps[i])
           }
         }
+      */
+        equips = Object.keys(state.items.hero)
         break
       case 'artifact':
         equips = Object.keys(state.items.artifact)

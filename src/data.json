@@ -8,6 +8,23 @@
         "light": "ATK, DEF, HP+10% / P.Dodge +100",
         "dark": "Upon attacking, attack 1 extra time dealing 40% of ATK as DMG."
       },
+      "attributes": {
+        "Position": "Front",
+        "Damage Type": "Physical",
+        "Autoattack Cycle": "4.4s",
+        "Autoattack Hits": "0.4s, 1s, 1.8s, 2.2s, 3.3s",
+        "Autoattack Range": 2500,
+        "Autoattack AOE": 1000,
+        "Dash Range": 3700,
+        "Critical Chance": 50,
+        "Accuracy": 100,
+        "CC Resist": 150,
+        "Base MP/Atk": 220,
+        "P.Dodge": 100,
+        "M.Dodge": 100,
+        "P.Tough": 100,
+        "M.Tough": 100
+      },
       "s1": {
         "num": 1,
         "name": "Judgement Blade",
@@ -127,6 +144,19 @@
         "light": "ATK, DEF, HP+10% / M. Block +200",
         "dark": "Allies healed by Frey receive 5% of her ATK as an ATK buff for 5 sec."
       },
+      "attributes": {
+        "Position": "Rear",
+        "Damage Type": "Magical",
+        "Autoattack Cycle": "1.3s",
+        "Autoattack Hits": "0.3s, 0.7s",
+        "Autoattack Range": 7000,
+        "Critical Chance": 100,
+        "Accuracy": 100,
+        "Base MP/Atk": 260,
+        "M.Block Chance": 500,
+        "M.Block Power": 250,
+        "M.Tough": 150
+      },
       "s1": {
         "num": 1,
         "name": "Miraculous Light",
@@ -237,6 +267,19 @@
         "light": "ATK, DEF, HP+10% / Crit Chance +100",
         "dark": "Deals extra M. DMG worth 5% of ATK on every attack, based off the number of Embers stacked on the enemy."
       },
+      "attributes": {
+        "Position": "Middle",
+        "Damage Type": "Magical",
+        "Autoattack Cycle": "1.9s",
+        "Autoattack Hits": "1.1s",
+        "Autoattack Range": 5000,
+        "Critical Chance": 100,
+        "Accuracy": 100,
+        "Penetration": 150,
+        "Base MP/Atk": 380,
+        "M.Dodge": 200,
+        "M.Block Chance": 250
+      },
       "s0": {
         "num": "Special",
         "name": "Cleo Ember",
@@ -253,6 +296,7 @@
         "mana": 2,
         "cooldown": 8,
         "cdstart": "starts after skill animation completes",
+        "debuff": "see special above",
         "animation": 3,
         "cast": 0.7,
         "freeze": 0.7,
@@ -298,6 +342,7 @@
         "mana": 4,
         "cooldown": 20,
         "cdstart": "starts after skill animation completes",
+        "debuff": "see special above",
         "tick": 0.2,
         "tickInfo": "fireballs hit 8 times in total",
         "animation": 4,
@@ -360,6 +405,18 @@
       "t5": {
         "light": "ATK, DEF, HP+10% / Crit DMG +20%",
         "dark": "Upon using a skill, gain extra 300 Atk Spd and 60% Crit DMG for 10 sec. (Cooldown 20 sec)"
+      },
+      "attributes": {
+        "Position": "Front",
+        "Damage Type": "Physical",
+        "Autoattack Cycle": "3.5s",
+        "Autoattack Hits": "0.3s, 0.6s, 0.8s, 1.4s, 1.7s, 2.8s",
+        "Autoattack Range": "Melee",
+        "Dash Range": 3900,
+        "Critical Chance": 200,
+        "Base MP/Atk": 230,
+        "P.Dodge": 200,
+        "M.Dodge": 200
       },
       "s1": {
         "num": 1,
@@ -470,6 +527,23 @@
         "light": "ATK, DEF, HP+10% / P. Block +200",
         "dark": "Heals HP worth 10% of ATK every second, and every 1% of HP lost reduces received DMG by 0.6%."
       },
+      "attributes": {
+        "Position": "Front",
+        "Damage Type": "Physical",
+        "Autoattack Cycle": "4.1s",
+        "Autoattack Hits": "0.9s, 1.6s, 2s, 2.8s",
+        "Autoattack Range": "Melee",
+        "Autoattack AOE": 1500,
+        "Dash Range": 3700,
+        "Critical Chance": 50,
+        "Accuracy": 100,
+        "CC Resist": 150,
+        "Base MP/Atk": 270,
+        "P.Dodge": 100,
+        "M.Dodge": 100,
+        "P.Tough": 100,
+        "M.Tough": 100
+      },
       "s1": {
         "num": 1,
         "name": "Smash",
@@ -524,7 +598,7 @@
         "mana": 4,
         "cooldown": 20,
         "cdstart": "starts after skill animation completes",
-        "debuff": "each tick does '5s' worth of pull cc with book 3, freeze does 4",
+        "debuff": "each tick does '5s' worth of pull cc with book 3, freeze does 4s",
         "tick": 0.2,
         "tickInfo": "hits 10 times, then after 0.6s, does the final hit",
         "animation": 4.1,
@@ -583,6 +657,20 @@
         "light": "ATK, DEF, HP+10% / P. Block +200",
         "dark": "When auto attacking, there is a 10% chance to Stun the target for 2 sec and deal extra DMG worth 10% of own HP."
       },
+      "attributes": {
+        "Position": "Front",
+        "Damage Type": "Physical",
+        "Autoattack Cycle": "4.3s",
+        "Autoattack Hits": "0.4s, 1s, 1.3s, 1.9s, 2.9s",
+        "Autoattack Range": "Melee",
+        "Autoattack AOE": 500,
+        "Dash Range": 3500,
+        "Critical Chance": 50,
+        "Base MP/Atk": 220,
+        "P.Block Chance": 200,
+        "P.Tough": 250,
+        "M.Tough": 250
+      },
       "s1": {
         "num": 1,
         "name": "Collision",
@@ -615,7 +703,7 @@
         "mana": 2,
         "cooldown": 8,
         "cdstart": "starts after skill animation completes",
-        "debuff": "knockback for 1s, reduce atk spd for 10",
+        "debuff": "knockback for 1s, reduce atk spd for 10s",
         "animation": 1.9,
         "cast": 0.9,
         "freeze": 0.9,
@@ -693,6 +781,19 @@
       "t5": {
         "light": "ATK, DEF, HP+10% / Crit DMG +20%",
         "dark": "Upon a Critical Hit, gain 5% Crit DMG and 30 CC Accuracy. Stacks up to 10 times."
+      },
+      "attributes": {
+        "Position": "Middle",
+        "Damage Type": "Physical",
+        "Autoattack Cycle": "1.3s",
+        "Autoattack Hits": "0.7s",
+        "Autoattack Range": 6000,
+        "Autoattack AOE": 1000,
+        "Critical Chance": 150,
+        "Critical Power": 500,
+        "Accuracy": 200,
+        "Penetration": 100,
+        "Base MP/Atk": 260
       },
       "s1": {
         "num": 1,
@@ -816,6 +917,19 @@
         "light": "ATK, DEF, HP+10% / Crit Chance +100",
         "dark": "Gains stacks every time allies are hit. When 50 stacks are acheived, drop lightning upon a random enemy 3 times, dealing 240% of ATK as DMG and inflicting stun for 1 sec."
       },
+      "attributes": {
+        "Position": "Rear",
+        "Damage Type": "Magical",
+        "Autoattack Cycle": "1.5s",
+        "Autoattack Hits": "0.7s",
+        "Autoattack Range": 7000,
+        "Critical Chance": 100,
+        "Accuracy": 100,
+        "Base MP/Atk": 300,
+        "M.Block Chance": 500,
+        "M.Block Power": 250,
+        "M.Tough": 150
+      },
       "s1": {
         "num": 1,
         "name": "Thunderbolt",
@@ -934,6 +1048,19 @@
         "light": "ATK, DEF, HP+10% / Crit DMG +20%",
         "dark": "All of Epis's attacks decrease the M.DEF of hit enemies by 20% for 10 sec. ATK rises by 2% per each enemy hit. Maximum stack number is 10."
       },
+      "attributes": {
+        "Position": "Front",
+        "Damage Type": "Magical",
+        "Autoattack Cycle": "4.9s",
+        "Autoattack Hits": "0.4s, 0.8s, 1.5s, 2.2s, 2.5s, (final AOE: 3.4s, 3.6s, 3.8s, 4s, 4.2s)",
+        "Autoattack Range": "Melee",
+        "Autoattack AOE": "1000 (2000 for final AOE)",
+        "Dash Range": 3900,
+        "Critical Chance": 200,
+        "Base MP/Atk": 260,
+        "P.Dodge": 200,
+        "M.Dodge": 200
+      },
       "s1": {
         "num": 1,
         "name": "Absorbing Blow",
@@ -1044,6 +1171,17 @@
         "light": "ATK, DEF, HP+10% / Crit DMG +20%",
         "dark": "There is a 50% chance to deal extra P.DMG worth 40% of ATK upon an attack."
       },
+      "attributes": {
+        "Position": "Middle",
+        "Damage Type": "Physical",
+        "Autoattack Cycle": "2s",
+        "Autoattack Hits": "1s",
+        "Autoattack Range": 6000,
+        "Critical Chance": 150,
+        "Accuracy": 100,
+        "Penetration": 250,
+        "Base MP/Atk": 400
+      },
       "s1": {
         "num": 1,
         "name": "Arrow Rain",
@@ -1147,6 +1285,122 @@
       }
     },
     "Maria": {
+      "class": "Wizard",
+      "subtitle": "Fallen Witch",
+      "description": "The saint who blessed the hero that saved the world long ago. The cursed, outraged crow shoots sharp feathers at enemies and completely breaks the enemy's formation.",
+      "t5": {
+        "light": "ATK, DEF, HP+10% / Crit Chance +100",
+        "dark": "Upon a Critical Hit, reduces target CC resist by 250 for 10 sec. Also reduces self Skill Cooldown by 2%."
+      },
+      "attributes": {
+        "Position": "Middle",
+        "Damage Type": "Magical",
+        "Autoattack Cycle": "1.4s",
+        "Autoattack Hits": "0.5s",
+        "Autoattack Range": 5000,
+        "Critical Chance": 100,
+        "Accuracy": 100,
+        "Penetration": 150,
+        "Base MP/Atk": 280,
+        "M.Dodge": 200,
+        "M.Block Chance": 250
+      },
+      "s1": {
+        "num": 1,
+        "name": "Raven Storm",
+        "description": "Deal ??? M.DMG to enemies within range and knock back. Also decrease M.DEF by 20% for 15sec.",
+        "mana": 3,
+        "cooldown": 9,
+        "cdstart": "starts after skill animation completes",
+        "debuff": "M.DEF decrease & book 3 speed decrease 15s, knockback 1s",
+        "animation": 3.4,
+        "cast": 1.5,
+        "freeze": 1,
+        "castRange": 7000,
+        "castRangeType": "ranged",
+        "aoe": 8750,
+        "aoeInfo": "self, front cone",
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Decrease speed of hit enemies by 25%."
+        ],
+        "transcendence": {
+          "light": "DMG is increased by 40%.",
+          "dark": "Has a 20% chance of inflicting a 3 sec Shackle."
+        }
+      },
+      "s2": {
+        "num": 2,
+        "name": "Black Wind",
+        "description": "Inflict ??? M.DMG to up to 2 enemies and shackle them for 6 sec. Targeted enemies receive additional continuous M.DMG.",
+        "mana": 2,
+        "cooldown": 13,
+        "cdstart": "starts after skill animation completes",
+        "debuff": 6,
+        "tick": 0.5,
+        "tickInfo": "magical DOT",
+        "animation": 2.2,
+        "cast": 1.1,
+        "freeze": 1,
+        "castRange": "unlimited",
+        "castRangeType": "ranged",
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Increase M.DMG taken by the enemy by 30% while this skill is in effect."
+        ],
+        "transcendence": {
+          "light": "Mana cost is increased by 1 and the skill targets 3 enemies.",
+          "dark": "Shackle duration is increased by 1 sec."
+        }
+      },
+      "s3": {
+        "num": 3,
+        "name": "Area of Darkness",
+        "description": "Draw enemies within range towards the center and deal ??? M.DMG. The last attack stuns enemies for 3 sec.",
+        "mana": 4,
+        "cooldown": 25,
+        "cdstart": "starts after skill animation completes",
+        "debuff": "pull is 1s, stun is 3",
+        "tick": 0.5,
+        "tickInfo": "pulls heroes 4 times",
+        "animation": 4.4,
+        "cast": 1.5,
+        "freeze": 1,
+        "castRange": 7000,
+        "castRangeType": "ranged",
+        "skillRange": 6000,
+        "skillRangeType": "AOE is offset to the front of hero",
+        "aoe": 5000,
+        "aoeInfo": "projectile",
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Increase DMG by 25%."
+        ],
+        "transcendence": {
+          "light": "DMG is increased by 40%.",
+          "dark": "DMG is decreased by 40% but Stun duration is increased by 2 sec and all hit targets take 25% additional M.DMG for 10 sec."
+        }
+      },
+      "s4": {
+        "num": 4,
+        "name": "Claw of Restriction",
+        "description": "Decrease ATK of enemies damaged by Maria by ??? for 10 seconds.",
+        "mana": 0,
+        "cooldown": 0,
+        "debuff": 10,
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Decrease the Crit Chance of the enemy by 25% for the duration."
+        ],
+        "transcendence": {
+          "light": "ATK reduction is increased by 40%.",
+          "dark": "Reduces enemy M. Crit Resistance by 25% for 10 sec."
+        }
+      },
       "weapon": {
         "name": "Lea's Messenger, Cocytus",
         "baseAtk": 510,
@@ -1162,6 +1416,122 @@
       }
     },
     "Miruru": {
+      "class": "Mechanic",
+      "subtitle": "Cursed Pirate Empress",
+      "description": "The legendary pirate who was cursed and turned into a little girl. She has the amazing ability to drop cannonballs right on the enemy's head.",
+      "t5": {
+        "light": "ATK, DEF, HP+10% / Crit Chance +100",
+        "dark": "Miruru stacks Darkness depending on the number of enemies she hits. When she reaches 50 stacks, she goes berserk, boosting her Atk Spd by 800 and her ATK by 20%."
+      },
+      "attributes": {
+        "Position": "Middle",
+        "Damage Type": "Physical",
+        "Autoattack Cycle": "1.8s",
+        "Autoattack Hits": "0.9s",
+        "Autoattack Range": 6000,
+        "Autoattack AOE": 1000,
+        "Critical Chance": 150,
+        "Critical Power": 500,
+        "Accuracy": 200,
+        "Penetration": 100,
+        "Base MP/Atk": 360
+      },
+      "s1": {
+        "num": 1,
+        "name": "Baaaam!",
+        "description": "Deal ??? P.DMG to enemies in range and inflict knock back.",
+        "mana": 2,
+        "cooldown": 8,
+        "cdstart": "starts after skill animation completes",
+        "debuff": 1.5,
+        "animation": 3,
+        "cast": 2,
+        "freeze": 1,
+        "castRange": 7000,
+        "castRangeType": "ranged",
+        "aoe": 2000,
+        "aoeInfo": "target",
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Increase Crit Chance by 250."
+        ],
+        "transcendence": {
+          "light": "If there is 1 enemy, DMG is increased by 100%.",
+          "dark": "For each enemy that takes Critical DMG, increase own ATK by 15%."
+        }
+      },
+      "s2": {
+        "num": 2,
+        "name": "Roll Over",
+        "description": "Inflict ??? P.DMG 3 times to enemies in range Each attack has a 100% chance to knock down enemy for 2 seconds.",
+        "mana": 2,
+        "cooldown": 15,
+        "cdstart": "starts after skill animation completes",
+        "debuff": 2,
+        "animation": 2.2,
+        "cast": 1.2,
+        "freeze": 1,
+        "castRange": 7000,
+        "castRangeType": "ranged",
+        "skillRange": 4000,
+        "skillRangeType": "AOE is offset to the front of hero",
+        "aoe": 4000,
+        "aoeInfo": "projectile",
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Increase Crit Chance by 250."
+        ],
+        "transcendence": {
+          "light": "DMG is increased by 40%.",
+          "dark": "For each enemy that takes DMG, reduce cooldown by 4%."
+        }
+      },
+      "s3": {
+        "num": 3,
+        "name": "Miruru Pirates!",
+        "description": "Deal ??? P.DMG to enemies in range for 2 seconds, decreasing their speed by 40%.",
+        "mana": 4,
+        "cooldown": 20,
+        "cdstart": "starts after skill animation completes",
+        "debuff": 3,
+        "animation": 3.7,
+        "cast": 1.8,
+        "freeze": 1,
+        "castRange": "unlimited",
+        "castRangeType": "ranged",
+        "aoe": 3000,
+        "aoeInfo": "target",
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Increase Crit Chance by 250."
+        ],
+        "transcendence": {
+          "light": "DMG is increased by 40%.",
+          "dark": "Removes ATK Spd debuff effect and adds a 3 sec Stun."
+        }
+      },
+      "s4": {
+        "num": 4,
+        "name": "Boooooom!",
+        "description": "Upon attacking an enemy, there is a 60% chance to shoot additional bullets and inflict ??? P.DMG to 3 random enemies.",
+        "mana": 0,
+        "cooldown": 0,
+        "aoe": 1500,
+        "aoeInfo": "target",
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Increase Crit Chance by 250."
+        ],
+        "transcendence": {
+          "light": "DMG is increased by 40%.",
+          "dark": "Has a 10% chance to stun hit enemies for 1 sec.",
+          "darkInfo": "2s not 1s."
+        }
+      },
       "weapon": {
         "name": "Ultimate Weapon, Leviathan",
         "baseAtk": 499,
@@ -1177,6 +1547,132 @@
       }
     },
     "Lorraine": {
+      "class": "Wizard",
+      "subtitle": "Grand Elidoran Scholar",
+      "description": "The elf druid who joined the Human Allied Forces when the Dark Lord invaded. Communes with nature and attacks enemies using trees.",
+      "t5": {
+        "light": "ATK, DEF, HP+10% / Crit Chance +100",
+        "dark": "Every 10 sec, attack a random enemy with Thornbush Forest 1 time."
+      },
+      "attributes": {
+        "Position": "Middle",
+        "Damage Type": "Magical",
+        "Autoattack Cycle": "1.8s",
+        "Autoattack Hits": "0.9s",
+        "Autoattack Range": 6000,
+        "Critical Chance": 100,
+        "Accuracy": 100,
+        "Penetration": 150,
+        "Base MP/Atk": 260,
+        "M.Dodge": 200,
+        "M.Block Chance": 250
+      },
+      "s0": {
+        "num": 0,
+        "name":"Lorraine Poison",
+        "description": "Lorraine's damage over time, and ability amp. Stacks up to 5 times.",
+        "debuff": 20,
+        "tick": 1
+      },
+      "s1": {
+        "num": 1,
+        "name":"Thornbush Forest",
+        "description": "Attack random enemies within range 3 times and deal ??? M.DMG to enemies within range each time. Each attack stacks 1 stack of poison.",
+        "mana": 2,
+        "cooldown": 8,
+        "cdstart": "starts after skill animation completes",
+        "debuff": "see special above",
+        "animation": 3.6,
+        "cast": 2.5,
+        "freeze": 1.3,
+        "castRange": "unlimited",
+        "castRangeType": "ranged",
+        "aoe": 2500,
+        "aoeInfo": "targets",
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Upon a critical hit, stack 2 stacks of Poison."
+        ],
+        "transcendence": {
+          "light": "Hit count is increased by 1.",
+          "dark": "Enemies with 5 or more stacks of Poison are shackled for 3 sec upon hit."
+        }
+      },
+      "s2": {
+        "num": 2,
+        "name": "Tangled Vine",
+        "description": "Deal ??? M.DMG to enemies in a straight line and stack 2 stacks of Poison. Also, shackle hit enemies for 4 sec. After a certain period of time, deal a large amount of DMG based on the number of Poison stacks.",
+        "mana": 3,
+        "cooldown": 10,
+        "cdstart": "starts after skill animation completes",
+        "debuff": "see special above, shackle & book 3 is 4s, final explosion is 3.8s after initial hit",
+        "animation": 2.4,
+        "cast": 1,
+        "freeze": 1,
+        "castRange": 24000,
+        "castRangeType": "ranged",
+        "skillRange": 24000,
+        "skillRangeType": "vine moves this distance from the hero",
+        "aoe": 1700,
+        "aoeInfo": "projectile",
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Increase M.DMG taken by the enemy by 25% while this skill is in effect."
+        ],
+        "transcendence": {
+          "light": "DMG is increased by 40%.",
+          "dark": "Enemies hit by the final explosion effect are stunned for 2 sec."
+        }
+      },
+      "s3": {
+        "num": 3,
+        "name": "Wrath of the Forest",
+        "description": "Deal ??? M.DMG to enemies in range and inflict knock down for 3 sec. Poisoned enemies take 20% more DMG per stack of poison.",
+        "mana": 3,
+        "cooldown": 30,
+        "cdstart": "starts after skill animation completes",
+        "debuff": 3,
+        "animation": 3.9,
+        "cast": 1.6,
+        "freeze": 1,
+        "castRange": "unlimited",
+        "castRangeType": "ranged",
+        "aoe": 6000,
+        "aoeInfo": "target",
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Increase Crit Chance by 250."
+        ],
+        "transcendence": {
+          "light": "DMG is increased by 40%.",
+          "dark": "Enemies with 5 or more stacks of Poison lose their positive effects."
+        }
+      },
+      "s4": {
+        "num": 4,
+        "name": "Blade Leaf",
+        "description": "Every 15 sec, attack enemies at random 3 times. Each attack deals ??? M.DMG and stacks 1 stack of poison.",
+        "mana": 0,
+        "cooldown": 15,
+        "cdstart": "starts after skill animation completes",
+        "animation": 1.8,
+        "cast": 0.8,
+        "freeze": 0,
+        "castRange": "unlimited",
+        "castRangeType": "ranged",
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Increase DMG by 25%."
+        ],
+        "transcendence": {
+          "light": "Poison stack maximum is changed to 6.",
+          "dark": "There is a 20% chance that hit enemies are shackled for 2 sec."
+        }
+      },
       "weapon": {
         "name": "World Tree's Will, Roburu",
         "baseAtk": 510,
