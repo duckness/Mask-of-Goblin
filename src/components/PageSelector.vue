@@ -3,7 +3,7 @@
     <div class="control is-expanded">
       <div class="select is-fullwidth">
         <select v-model="page" @change="pageChange">
-          <option value="hero">Unique Weapon</option>
+          <option value="hero">Hero</option>
           <option value="artifact">Artifact</option>
         </select>
       </div>

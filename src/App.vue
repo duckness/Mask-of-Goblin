@@ -3,7 +3,7 @@
     <section class="section" id="content">
       <div class="container">
         <div class="columns is-centered">
-          <div class="column is-two-thirds">
+          <div class="column is-three-quarters">
             <div class="box">
               <artifact-description v-if="page === 'artifact'"/>
               <hero-description v-if="page === 'hero'"/>

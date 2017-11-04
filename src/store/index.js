@@ -2,13 +2,11 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 import router from '@/router'
 
-const sortKeys = require('sort-keys')
-
 Vue.use(Vuex)
 
 const state = {
   page: 'hero',
-  items: sortKeys(require('@/data.json'), { deep: true }),
+  items: require('@/data.json'),
   item: 'Kasel',
   oldItem: 'Mask of Goblin',
   enableLevel: true,
@@ -17,6 +15,9 @@ const state = {
 }
 
 const getters = {
+  getHero: function () {
+    return state.items.hero[state.item]
+  },
   itemImage: function () {
     switch (state.page) {
       case 'hero':
@@ -27,22 +28,30 @@ const getters = {
     }
   },
   equips: function () {
-    let equips = ''
+    let equips = []
     switch (state.page) {
       case 'hero':
-        equips = Object.keys(state.items.hero.weapon)
+      /*
+        var temps = Object.keys(state.items.hero)
+        for (var i = 0; i < temps.length; i += 1) {
+          if ('description' in state.items.hero[temps[i]]) {
+            equips.push(temps[i])
+          }
+        }
+      */
+        equips = Object.keys(state.items.hero)
         break
       case 'artifact':
         equips = Object.keys(state.items.artifact)
         break
     }
-    return equips
+    return equips.sort()
   },
   itemName: function () {
     let name = ''
     switch (state.page) {
       case 'hero':
-        name = state.items.hero.weapon[state.item].name
+        name = state.items.hero[state.item].weapon.name
         break
       case 'artifact':
         name = state.item
@@ -54,7 +63,7 @@ const getters = {
     let atk = ''
     switch (state.page) {
       case 'hero':
-        atk = '(' + Math.floor(Math.floor(state.items.hero.starScale[state.star] * state.items.hero.levelScale[state.level] / 1000) * state.items.hero.weapon[state.item].baseAtk / 1000) + ' atk)'
+        atk = '(' + Math.floor(Math.floor(state.items.uwScale.starScale[state.star] * state.items.uwScale.levelScale[state.level] / 1000) * state.items.hero[state.item].weapon.baseAtk / 1000) + ' atk)'
         break
       case 'artifact':
         atk = ''
@@ -66,7 +75,7 @@ const getters = {
     let itemText = ''
     switch (state.page) {
       case 'hero':
-        itemText = state.items.hero.weapon[state.item].description[state.star]
+        itemText = state.items.hero[state.item].weapon.description[state.star]
         break
       case 'artifact':
         itemText = state.items.artifact[state.item].description[state.star]
@@ -85,7 +94,7 @@ const getters = {
     }
     switch (state.page) {
       case 'hero':
-        additionalInfo = pickInfo(state.items.hero.weapon[state.item].info, state.star)
+        additionalInfo = pickInfo(state.items.hero[state.item].weapon.info, state.star)
         break
       case 'artifact':
         additionalInfo = pickInfo(state.items.artifact[state.item].info, state.star)
@@ -169,7 +178,7 @@ const helpers = {
         state.enableLevel = false
         state.page = 'artifact'
         state.item = query.item
-      } else if (query.item in state.items.hero.weapon) {
+      } else if (query.item in state.items.hero) {
         state.page = 'hero'
         state.item = query.item
       }
