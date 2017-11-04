@@ -10,7 +10,7 @@
         <p>
           <strong class="title is-5">{{ skill.name }}</strong>
           <br>{{ skill.description }}
-        <p>
+        </p>
         <p>
           <span v-if="'mana' in skill">
             <strong>Mana Cost: </strong>
@@ -19,7 +19,11 @@
           <br></span>
           <span v-if="'cooldown' in skill"><strong>Cooldown: </strong>{{ skill.cooldown }}s <span v-if="'cdstart' in skill">({{ skill.cdstart }})</span><br></span>
           <span v-if="'buff' in skill"><strong>Buff Time: </strong>{{ skill.buff }}s<br></span>
-          <span v-if="'debuff' in skill"><strong>Debuff Time: </strong>{{ skill.debuff }}s<br></span>
+          <span v-if="'debuff' in skill">
+            <span v-if="isNaN(skill.debuff)"><strong>Debuff: </strong>{{ skill.debuff }}</span>
+            <span v-else><strong>Debuff Time: </strong>{{ skill.debuff }}s</span>
+            <br>
+          </span>
           <span v-if="'tick' in skill"><strong>Tick Timer: </strong>{{ skill.tick }}s <span v-if="'tickInfo' in skill">({{ skill.tickInfo }})</span><br></span>
           <span v-if="'animation' in skill"><strong>Animation Time: </strong>{{ skill.animation }}s<br></span>
           <span v-if="'cast' in skill"><strong>Castbar Time: </strong>{{ skill.cast }}s<br></span>
@@ -37,12 +41,26 @@
               </ol>
             </div>
             <div class="column content">
-              <label class="label no-margin-bottom">T{{ transcendenceNum }} Light</label>
-              <span>{{ skill.transcendence.light }}</span>
+              <p>
+                <label class="label no-margin-bottom">T{{ transcendenceNum }} Light</label>
+                <span>{{ skill.transcendence.light }}</span>
+              </p>
+              <div class="content is-small" v-if="'lightInfo' in skill.transcendence">
+                <strong class="is-6">Notes</strong>
+                <br>
+                <span>{{ skill.transcendence.lightInfo }}</span>
+              </div>
             </div>
             <div class="column content">
-              <label class="label no-margin-bottom">T{{ transcendenceNum }} Dark</label>
-              <span>{{ skill.transcendence.dark }}</span>
+              <p>
+                <label class="label no-margin-bottom">T{{ transcendenceNum }} Dark</label>
+                <span>{{ skill.transcendence.dark }}</span>
+              </p>
+              <div class="content is-small" v-if="'darkInfo' in skill.transcendence">
+                <strong class="is-6">Notes</strong>
+                <br>
+                <span>{{ skill.transcendence.darkInfo }}</span>
+              </div>
             </div>
           </div>
         </p>
