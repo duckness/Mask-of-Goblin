@@ -40,6 +40,7 @@
         "skillRange": 1200,
         "skillRangeType": "AOE is offset to the front of hero",
         "aoe": 3000,
+        "aoeInfo": "target",
         "books": [
           "Increase DMG by 10%.",
           "Increase DMG by 15%.",
@@ -1688,6 +1689,129 @@
       }
     },
     "Clause": {
+      "class": "Knight",
+      "subtitle": "Knight of Iron Defense",
+      "description": "Kasel's 'older brother'. A true knight, he is a man of steel who protects allies at the front of the battlefield. He blocks the attacks of the enemies while taking them down, earning him the reputation akin to a castle wall.",
+      "t5": {
+        "light": "ATK, DEF, HP+10% / P. Block +200",
+        "dark": "When an ally other than this hero is hit by an attack, increase all allies P.DEF by 20% and P.Crit Resist by 20%. (10 sec Cooldown)"
+      },
+      "attributes": {
+        "Position": "Front",
+        "Damage Type": "Physical",
+        "Autoattack Cycle": "4s",
+        "Autoattack Hits": "0.5s, 0.7s, 1.6s, 2.1s, 3.1s",
+        "Autoattack Range": "Melee",
+        "Autoattack AOE": 1000,
+        "Dash Range": 3500,
+        "Critical Chance": 50,
+        "Base MP/Atk": 260,
+        "P.Block Chance": 200,
+        "P.Tough": 250,
+        "M.Tough": 250
+      },
+      "s1": {
+        "num": 1,
+        "name": "Cut Ground",
+        "description": "Deal ??? P.DMG to enemies in range, stunning them for 3 seconds.",
+        "mana": 2,
+        "cooldown": 9,
+        "cdstart": "starts upon cast",
+        "debuff": 3,
+        "animation": 2.2,
+        "cast": 0,
+        "freeze": 1.2,
+        "castRange": 4500,
+        "castRangeType": "dash to target",
+        "skillRange": 1000,
+        "skillRangeType": "AOE is offset to the front of hero",
+        "aoe": 2500,
+        "aoeInfo": "target",
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Lengthen Stun duration for 2 sec."
+        ],
+        "transcendence": {
+          "light": "Cooldown is reduced by 2 sec.",
+          "dark": "In exchange for 1 additional Mana Cost, the skill has a 50% chance to draw the target in."
+        }
+      },
+      "s2": {
+        "num": 2,
+        "name": "Shield Strike",
+        "description": "Deal ??? P.DMG based off P.DEF to enemies in range and knock them back. Hit enemies have their DEF reduced by 30%. Upon blocking an attack, cooldown is reduced by 0.5 sec.",
+        "mana": 1,
+        "cooldown": 8,
+        "cdstart": "starts after skill animation completes",
+        "debuff": 20,
+        "animation": 2.2,
+        "cast": 0.8,
+        "freeze": 0.8,
+        "castRange": 4500,
+        "castRangeType": "dash to target",
+        "aoe": 1000,
+        "aoeInfo": "target",
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Decrease target's speed by 50%."
+        ],
+        "transcendence": {
+          "light": "Target takes 25% increased P.DMG for 10 sec.",
+          "dark": "Stuns the enemy for 1 sec."
+        }
+      },
+      "s3": {
+        "num": 3,
+        "name": "Guardian Shield",
+        "description": "Increase the P.DEF of all allies by ??? for 20 sec. Also, increase Resistance to Physical Critical Hits by 30%.",
+        "mana": 2,
+        "cooldown": 12,
+        "cdstart": "starts after skill animation completes",
+        "buff": 20,
+        "animation": 2.7,
+        "cast": 1.9,
+        "freeze": 1,
+        "castRange": "unlimited",
+        "castRangeType": "ranged",
+        "books": [
+          "P.DEF increasion rate is increased by 10%.",
+          "P.DEF increasion rate is increased by 15%.",
+          "P.DEF increasion rate is increased by 25%."
+        ],
+        "transcendence": {
+          "light": "DEF increase rate is boosted by 40%.",
+          "dark": "Receives 25% reduced P.DMG for the duration."
+        }
+      },
+      "s4": {
+        "num": 4,
+        "name": "Vow of Knights",
+        "description": "Deal ??? P.DMG to the front after blocking, and decrease ATK of hit enemies by 20% for 8 sec. Recovers 300 mana after hitting target.",
+        "mana": 0,
+        "cooldown": 1,
+        "debuff": 8,
+        "animation": 1.3,
+        "cast": 0.5,
+        "freeze": 0,
+        "castRange": "unlimited",
+        "castRangeType": "dash to target",
+        "skillRange": 1000,
+        "skillRangeType": "AOE is offset to the front of hero",
+        "aoe": 1500,
+        "aoeInfo": "target",
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Increase DMG by 25%."
+        ],
+        "transcendence": {
+          "light": "Casting time is greatly boosted.",
+          "lightInfo": "increase atk spd by 500 for 3s",
+          "dark": "Reduce an additional 10% of ATK."
+        }
+      },
       "weapon": {
         "name": "The Guardian, Exian",
         "baseAtk": 355,
