@@ -22,20 +22,20 @@
               <div class="column content">
                 <label class="label no-margin-bottom">T5 Light</label>
                 <span>{{ hero.t5.light }}</span>
-              </div>
-              <div class="content is-small" v-if="'lightInfo' in hero.t5">
-                <strong class="is-6">Notes</strong>
-                <br>
-                <span>{{ hero.t5.lightInfo }}</span>
+                <div class="content is-small" v-if="'lightInfo' in hero.t5">
+                  <strong class="is-6">Notes</strong>
+                  <br>
+                  <span>{{ hero.t5.lightInfo }}</span>
+                </div>
               </div>
               <div class="column content">
                 <label class="label no-margin-bottom">T5 Dark</label>
                 <span>{{ hero.t5.dark }}</span>
-              </div>
-              <div class="content is-small" v-if="'darkInfo' in hero.t5">
-                <strong class="is-6">Notes</strong>
-                <br>
-                <span>{{ hero.t5.darkInfo }}</span>
+                <div class="content is-small" v-if="'darkInfo' in hero.t5">
+                  <strong class="is-6">Notes</strong>
+                  <br>
+                  <span>{{ hero.t5.darkInfo }}</span>
+                </div>
               </div>
             </div>
           </p>

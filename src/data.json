@@ -2204,6 +2204,128 @@
       }
     },
     "Pavel": {
+      "class": "Wizard",
+      "subtitle": "Wizard of Ice Dragon",
+      "description": "A wizard capable of using the Ice Dragon's magic powers after being cursed. He uses powerful icebound magic to freeze enemies.",
+      "t5": {
+        "light": "ATK, DEF, HP+10% / Crit DMG +20%",
+        "dark": "When mana is full, all skill cooldowns are constantly reduced by 1.5 sec.",
+        "darkInfo": "procs every second"
+      },
+      "attributes": {
+        "Position": "Middle",
+        "Damage Type": "Magical",
+        "Autoattack Cycle": "1.7s",
+        "Autoattack Hits": "0.8s",
+        "Autoattack Range": 6000,
+        "Critical Chance": 100,
+        "Accuracy": 100,
+        "Penetration": 150,
+        "Base MP/Atk": 340,
+        "M.Dodge": 200,
+        "M.Block Chance": 250
+      },
+      "s0": {
+        "num": "Special",
+        "name": "Pavel Frost",
+        "description": "Pavel's ability amp, reduces enemy attack speed by 100.",
+        "debuff": 20
+      },
+      "s1": {
+        "num": 1,
+        "name": "Wedge of Cold Snap",
+        "description": "Deal ??? M.DMG to the targeted enemy and inflict Freeze for 5 sec.  If any enemies are inflicted with Frost, deal DMG and inflict Freeze to them as well.",
+        "mana": 2,
+        "cooldown": 12,
+        "cdstart": "starts after skill animation completes",
+        "debuff": 5,
+        "animation": 3.3,
+        "cast": 1.7,
+        "freeze": 1,
+        "castRange": "unlimited",
+        "castRangeType": "ranged",
+        "aoe": 3000,
+        "aoeInfo": "target",
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Increase DMG by 25%."
+        ],
+        "transcendence": {
+          "light": "DMG is increased by 40%.",
+          "dark": "In exchange for 1 additional Mana Cost, Freeze duration is boosted by 5 sec."
+        }
+      },
+      "s2": {
+        "num": 2,
+        "name": "Ice Spear",
+        "description": "Attack random enemies 5 times dealing ??? M.DMG, and inflict Frost status. When an enemy inflicted by Frost is attacked, attack with an additional Ice Spear that deals half DMG. These additional Spears do not inflict Frost status. Frozen enemies take 100% more DMG from this attack.",
+        "mana": 2,
+        "cooldown": 8,
+        "cdstart": "starts after skill animation completes",
+        "debuff": "see special above",
+        "animation": 3.5,
+        "cast": 1.5,
+        "freeze": 1,
+        "castRange": "unlimited",
+        "castRangeType": "ranged",
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Increase DMG by 25%."
+        ],
+        "transcendence": {
+          "light": "Mana cost is reduced by 1.",
+          "dark": "In exchange for 1 additional Mana Cost, targets the enemy with the highest ATK."
+        }
+      },
+      "s3": {
+        "num": 3,
+        "name": "Icy Conquest",
+        "description": "Deal ??? M.DMG to all enemies. Freeze enemies inflicted with Frost for 5 seconds, and increase dealt DMG by 100% if they are already Frozen.",
+        "mana": 4,
+        "cooldown": 25,
+        "cdstart": "starts after skill animation completes",
+        "debuff": 5,
+        "animation": 4,
+        "cast": 2,
+        "freeze": 1,
+        "castRange": "unlimited",
+        "castRangeType": "ranged",
+        "aoe": "unlimited",
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Increase DMG by 25%."
+        ],
+        "transcendence": {
+          "light": "If there is 1 enemy, DMG is increased by 100%.",
+          "dark": "Gain CC immunity while using said skill."
+        }
+      },
+      "s4": {
+        "num": 4,
+        "name": "Chill of Early Dawn",
+        "description": "Deal ??? M.DMG to 3 enemies every 15 seconds and inflict Frost.",
+        "mana": 0,
+        "cooldown": 15,
+        "cdstart": "starts after skill animation completes",
+        "debuff": "see special above",
+        "animation": 1.7,
+        "cast": 0.6,
+        "freeze": 0,
+        "castRange": "unlimited",
+        "castRangeType": "ranged",
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Increase DMG by 25%."
+        ],
+        "transcendence": {
+          "light": "Freezes the enemy for 5 sec if the enemy is alone.",
+          "dark": "Frost cannot be dispelled by dispel skills."
+        }
+      },
       "weapon": {
         "name": "Dragon Hearts, Andarta Andraste",
         "baseAtk": 510,
