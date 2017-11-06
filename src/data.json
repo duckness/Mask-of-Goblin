@@ -1963,6 +1963,114 @@
       }
     },
     "Dimael": {
+      "class": "Archer",
+      "subtitle": "Shadow Hunter",
+      "description": "A Dark Elf who hunts enemies in the shadows. His vengeful crossbow pierces his enemies with pitch-black darkness.",
+      "t5": {
+        "light": "ATK, DEF, HP+10% / ATK.Spd +100",
+        "dark": "Upon auto attacking, deal extra M.DMG worth 20% of ATK and recover 100 mana. There is a 10% chance of dealing double DMG and recovering double mana."
+      },
+      "attributes": {
+        "Position": "Middle",
+        "Damage Type": "Magical",
+        "Autoattack Cycle": "2.6s",
+        "Autoattack Hits":"0.4s, 1s, 1.8s",
+        "Autoattack Range": 7000,
+        "Critical Chance": 150,
+        "Accuracy": 100,
+        "Penetration": 250,
+        "Base MP/Atk": 210
+      },
+      "s1": {
+        "num": 1,
+        "name": "Dark Rampage",
+        "description": "Deal ??? M.DMG to the enemy.",
+        "mana": 2,
+        "cooldown": 8,
+        "cdstart": "starts after skill animation completes",
+        "animation": 4.3,
+        "cast": 1,
+        "freeze": 1,
+        "castRange": 8000,
+        "castRangeType": "ranged",
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Increase DMG by 25%."
+        ],
+        "transcendence": {
+          "light": "DMG is increased by 40%.",
+          "dark": "Has a 25% chance of Blinding the enemy for 5 sec."
+        }
+      },
+      "s2": {
+        "num": 2,
+        "name": "Black Shackle",
+        "description": "Inflict ??? M.DMG to the enemies in range and shackle for 6 sec.",
+        "mana": 3,
+        "cooldown": 15,
+        "cdstart": "starts after skill animation completes",
+        "debuff": 6,
+        "animation": 3.9,
+        "cast": 2,
+        "freeze": 1,
+        "castRange": 12000,
+        "castRangeType": "ranged",
+        "aoe": 3000,
+        "aoeInfo": "target ground",
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Enemy receives 30% more M.DMG for the duration."
+        ],
+        "transcendence": {
+          "light": "Mana cost is reduced by 1.",
+          "dark": "Hit enemies are drawn together."
+        }
+      },
+      "s3": {
+        "num": 3,
+        "name": "Shadow Wave",
+        "description": "Inflicts ??? M.DMG upon the enemies in a straight line and blinds hit targets for 6 sec.",
+        "mana": 3,
+        "cooldown": 20,
+        "cdstart": "starts after skill animation completes",
+        "debuff": 6,
+        "animation": 4.1,
+        "cast": 3,
+        "freeze": 1,
+        "castRange": 15000,
+        "castRangeType": "ranged",
+        "skillRange": 20000,
+        "skillRangeType": "arrow flies this distance in a straight line from hero",
+        "aoe": 3000,
+        "aoeInfo": "projectile",
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Increase DMG by 25%."
+        ],
+        "transcendence": {
+          "light": "DMG is increased by 40%.",
+          "dark": "Mana cost increases by 1 and all enemies within range lose 1 orb of mana after their positive effects are dispelled."
+        }
+      },
+      "s4": {
+        "num": 4,
+        "name": "Black Stain",
+        "description": "Upon auto-attacking, deals ??? extra M.DMG that ignores M.DEF.",
+        "mana": 0,
+        "cooldown": 0,
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Increase DMG by 25%."
+        ],
+        "transcendence": {
+          "light": "DMG is increased by 40%.",
+          "dark": "There is a 10% chance that Skill 1 is fired upon an auto-attack."
+        }
+      },
       "weapon": {
         "name": "Tears of the Moon, Nerius",
         "baseAtk": 547,
