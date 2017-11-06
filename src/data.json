@@ -1056,7 +1056,7 @@
         "Autoattack Hits": "0.4s, 0.8s, 1.5s, 2.2s, 2.5s, (final AOE: 3.4s, 3.6s, 3.8s, 4s, 4.2s)",
         "Autoattack Range": "Melee",
         "Autoattack AOE": "1000 (2000 for final AOE)",
-        "Dash Range": 3900,
+        "Dash Range": 3500,
         "Critical Chance": 200,
         "Base MP/Atk": 260,
         "P.Dodge": 200,
@@ -2086,6 +2086,109 @@
       }
     },
     "Reina": {
+      "class": "Assassin",
+      "subtitle": "Lightning Flash",
+      "description": "A mercenary who wields a light, one-handed sword. Dodges attacks with nimble movements and pierces the enemy with the sharp end of her sword.",
+      "t5": {
+        "light": "ATK, DEF, HP+10% / Crit DMG +20%",
+        "dark": "When auto attacking, there is a 5% chance to increase Crit DMG by 100% for 5 sec."
+      },
+      "attributes": {
+        "Position": "Front",
+        "Damage Type": "Physical",
+        "Autoattack Cycle": "3.1s",
+        "Autoattack Hits": "0.4s, 0.7s, 0.9s, 1.4s, 1.6s, 1.8s, 2.6s",
+        "Autoattack Range": "Melee",
+        "Dash Range": 3000,
+        "Critical Chance": 200,
+        "Base MP/Atk": 200,
+        "P.Dodge": 200,
+        "M.Dodge": 200
+      },
+      "s1": {
+        "num": 1,
+        "name": "Float Like a Butterfly",
+        "description": "Stabs the enemy quickly, dealing ??? P.DMG. Upon a critical hit, leave a stack of Wounds and reset cooldown. Each stack of Wound increases DMG dealt by this skill by 20%. Gain immunity to all DMG while using this skill.",
+        "mana": 1,
+        "cooldown": 10,
+        "cdstart": "starts after skill animation completes",
+        "debuff": 10,
+        "animation": 1,
+        "cast": 0,
+        "freeze": 0.5,
+        "castRange": 4000,
+        "castRangeType": "dash to target",
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Increase Crit Chance by 250."
+        ],
+        "transcendence": {
+          "light": "Mana cost is increased by 1 and Wound stack max is changed to 10. Deals 100% of ATK as extra DMG to enemies with 10 Wounds.",
+          "dark": "Cooldown is removed."
+        }
+      },
+      "s2": {
+        "num": 2,
+        "name": "Sharp End",
+        "description": "Increase ??? of ATK for 10 sec, and increase Crit Hit chance by 500.",
+        "mana": 2,
+        "cooldown": 10,
+        "cdstart": "starts after skill animation completes",
+        "buff": 10,
+        "animation": 2.4,
+        "cast": 1.3,
+        "freeze": 1,
+        "books": [
+          "ATK Increasion rate is increased by 10%.",
+          "ATK Increasion rate is increased by 15%.",
+          "Increase Crit Hit chance by 50%."
+        ],
+        "transcendence": {
+          "light": "ATK boost is increased by 40%.",
+          "dark": "In exchange for 1 additional Mana Cost, Crit Chance effect is changed to a 100% Crit DMG boost. Also gains a 25% DMG boost towards Bosses."
+        }
+      },
+      "s3": {
+        "num": 3,
+        "name": "Shooting Star",
+        "description": "Inflicts ??? P.DMG upon enemy with a continous attack. The last hit blows the enemy away.",
+        "mana": 3,
+        "cooldown": 25,
+        "cdstart": "starts after skill animation completes",
+        "debuff": "Final blow knockdown is 3s",
+        "animation": 4,
+        "cast": 1.1,
+        "freeze": 1,
+        "castRange": 4000,
+        "castRangeType": "dash to target",
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Increase Crit Chance by 250."
+        ],
+        "transcendence": {
+          "light": "Each crit boosts the last attack's DMG by 10%.",
+          "dark": "Gain immunity to all DMG while using skill."
+        }
+      },
+      "s4": {
+        "num": 4,
+        "name": "Lucky Child",
+        "description": "After a successful Crit Hit, ATK increases by ??? for 10 sec. Can be stacked up to 5 times max.",
+        "mana": 0,
+        "cooldown": 0,
+        "buff": 10,
+        "books": [
+          "ATK Increasion rate is increased by 10%.",
+          "ATK Increasion rate is increased by 15%.",
+          "DEF Penetration is increased by 100 for the duration of this skill."
+        ],
+        "transcendence": {
+          "light": "ATK boost is increased by 40%.",
+          "dark": "When holding 5 stacks, takes 20% reduced M.DMG."
+        }
+      },
       "weapon": {
         "name": "Lightning Flash, Livatis",
         "baseAtk": 418,
