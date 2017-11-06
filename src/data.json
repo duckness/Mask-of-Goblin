@@ -835,7 +835,7 @@
         "castRange": 7000,
         "castRangeType": "ranged",
         "aoe": 7000,
-        "aoeInfo": "target",
+        "aoeInfo": "target ground",
         "books": [
           "Increase DMG by 10%.",
           "Increase DMG by 15%.",
@@ -885,7 +885,7 @@
         "castRange": 6000,
         "castRangeType": "ranged",
         "aoe": 2000,
-        "aoeInfo": "target",
+        "aoeInfo": "target ground",
         "books": [
           "Increase DMG by 10%.",
           "Increase DMG by 15%.",
@@ -1503,7 +1503,7 @@
         "castRange": "unlimited",
         "castRangeType": "ranged",
         "aoe": 3000,
-        "aoeInfo": "target",
+        "aoeInfo": "target ground",
         "books": [
           "Increase DMG by 10%.",
           "Increase DMG by 15%.",
@@ -1641,7 +1641,7 @@
         "castRange": "unlimited",
         "castRangeType": "ranged",
         "aoe": 6000,
-        "aoeInfo": "target",
+        "aoeInfo": "target ground",
         "books": [
           "Increase DMG by 10%.",
           "Increase DMG by 15%.",
@@ -1827,6 +1827,120 @@
       }
     },
     "Rephy": {
+      "class": "Priest",
+      "subtitle": "Spiritual Guide",
+      "description": "Half-human and half-animal, this creature guides souls using a spirit lamp. Heals allies with the power of souls. Disturbs enemies or recovers Mana of allies with the help of souls as well.",
+      "t5": {
+        "light": "ATK, DEF, HP+10% / M.Dodge +100",
+        "dark": "Upon attacking, there is a 10% chance to reduce all DEF of the target by 20% and reduce all the hero's cooldowns by 5%."
+      },
+      "attributes": {
+        "Position": "Rear",
+        "Damage Type": "Magical",
+        "Autoattack Cycle": "1.5s",
+        "Autoattack Hits": "0.7s",
+        "Autoattack Range": 8000,
+        "Critical Chance": 100,
+        "Accuracy": 100,
+        "Base MP/Atk": 300,
+        "M.Block Chance": 500,
+        "M.Block Power": 250,
+        "M.Tough": 150
+      },
+      "s1": {
+        "num": 1,
+        "name": "Healing Soul",
+        "description": "Heals the 2 allies with the lowest HP for 10% of their max HP and additionally heals them for ??? HP over 10 sec. This effect cannot be dispelled.",
+        "mana": 2,
+        "cooldown": 10,
+        "cdstart": "starts after skill animation completes",
+        "buff": 10,
+        "tick": 1,
+        "animation": 3.1,
+        "cast": 1.8,
+        "freeze": 1,
+        "castRange": "unlimited",
+        "castRangeType": "ranged",
+        "books": [
+          "Increase Recovery by 10%.",
+          "Increase Recovery by 15%.",
+          "Increase 50% of MP Recovery per second."
+        ],
+        "transcendence": {
+          "light": "Mana Cost is boosted by 2 and the effect now affects 6 targets.",
+          "dark": "Each heal has a 20% chance to remove negative effects."
+        }
+      },
+      "s2": {
+        "num": 2,
+        "name": "Salvation",
+        "description": "Removes debuffs from all allies and increases M.DEF by ??? for 20 seconds.",
+        "mana": 1,
+        "cooldown": 12,
+        "cdstart": "starts after skill animation completes",
+        "buff": 20,
+        "animation": 2.2,
+        "cast": 1,
+        "freeze": 1,
+        "castRange": "unlimited",
+        "castRangeType": "ranged",
+        "books": [
+          "Increase M.DEF growth by 10%.",
+          "Increase M.DEF growth by 20%.",
+          "For 25 sec, increase CC Resistance by 250."
+        ],
+        "transcendence": {
+          "light": "Mana cost is reduced by 1.",
+          "dark": "Increases own M.DEF by 10% of M.DEF."
+        }
+      },
+      "s3": {
+        "num": 3,
+        "name": "Soulrush",
+        "description": "Deals ??? M.DMG to enemies within the area 10 times and reduce ATK Spd by 25%.",
+        "mana": 3,
+        "cooldown": 20,
+        "cdstart": "starts after skill animation completes",
+        "debuff": 20,
+        "animation": 3.5,
+        "cast": 2.5,
+        "freeze": 1,
+        "castRange": 9000,
+        "castRangeType": "ranged",
+        "aoe": 3000,
+        "aoeInfo": "target ground",
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Target takes 25% increased DMG from all sources."
+        ],
+        "transcendence": {
+          "light": "Each hit removes 250 mana from the target.",
+          "dark": "In exchange for 1 additional Mana Cost, Silence enemies in range for 1 sec."
+        }
+      },
+      "s4": {
+        "num": 4,
+        "name": "Spiritual Tuning",
+        "description": "Every 10 sec, the ally with the lowest HP recovers 1 MP and ??? HP.",
+        "mana": 0,
+        "cooldown": 10,
+        "cdstart": "starts upon cast",
+        "animation": 1.5,
+        "cast": 0.7,
+        "freeze": 0,
+        "castRange": "unlimited",
+        "castRangeType": "ranged",
+        "books": [
+          "Increase Recovery by 10%.",
+          "Increase Recovery by 15%.",
+          "Increase 50% of MP Recovery."
+        ],
+        "transcendence": {
+          "light": "Uses the skill every 8 sec.",
+          "dark": "Also supplies 1 orb of mana to the ally with the highest ATK."
+        }
+      },
       "weapon": {
         "name": "God's Lamp, Kurulati",
         "baseAtk": 510,
