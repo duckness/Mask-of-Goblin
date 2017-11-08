@@ -1,6 +1,5 @@
 <template>
   <div id="hero-description">
-    <hidden-mana/>
     <article class="media" id="hero">
       <figure class="media-left">
         <p class="image is-128x128">
@@ -98,7 +97,6 @@ import { mapState, mapGetters } from 'vuex'
 import Collapse from '@/components/vue-bulma-collapse/Collapse.vue'
 import Item from '@/components/vue-bulma-collapse/Item.vue'
 import Skill from './Skill.vue'
-import HiddenMana from './HiddenMana.vue'
 import Attributes from './Attributes.vue'
 
 export default {
@@ -107,7 +105,6 @@ export default {
     'skill': Skill,
     'collapse': Collapse,
     'collapse-item': Item,
-    'hidden-mana': HiddenMana,
     'attributes': Attributes
   },
   computed: {
