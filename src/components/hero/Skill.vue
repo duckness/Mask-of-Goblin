@@ -39,6 +39,11 @@
               <ol class="no-margin-ol">
                 <li v-for="book in skill.books" :key="book">{{ book }}</li>
               </ol>
+              <div class="content is-small" v-if="'bookInfo' in skill">
+                <strong class="is-6">Notes</strong>
+                <br>
+                <span>{{ skill.bookInfo }}</span>
+              </div>
             </div>
             <div class="column content">
               <p>
