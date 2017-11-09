@@ -2625,6 +2625,261 @@
         "info": ""
       }
     },
+    "Theo": {
+      "class": "Warrior",
+      "subtitle": "Knight of Loyalty",
+      "description": "The 1st Knight of the long lost Republic of Gray, who wanders the world in search of his long lost liege, Jane. His dual spears hold a dangerous power, lying in wait to pierce enemy demons mercilessly.",
+      "t5": {
+        "light": "ATK, DEF, HP+10% / ATK.Spd +100",
+        "dark": "ATK is boosted by 50% for 10 sec after Mana is maxed out. This effect only takes place 1 time in every 20 sec."
+      },
+      "attributes": {
+        "Position": "Front",
+        "Damage Type": "Magical",
+        "Autoattack Cycle": "2.9s",
+        "Autoattack Hits": "0.3s, 0.5s, 1s, 1.8s, 2.4s",
+        "Autoattack Range": "Melee",
+        "Dash Range": 3500,
+        "Critical Chance": 50,
+        "Accuracy": 100,
+        "CC Resist": 150,
+        "Base MP/Atk": 240,
+        "P.Dodge": 100,
+        "M.Dodge": 100,
+        "P.Tough": 100,
+        "M.Tough": 100
+      },
+      "s1": {
+        "num": 1,
+        "name": "Final Crash",
+        "description": "Attacks the enemy 16 times, dealing a total of ??? M.DMG. Upon each critical hit, increase Crit.DMG by 3% for 10 sec, and there is a 30% chance to deal ??? additional M.DMG and inflict stun for 0.3 sec. Crit DMG increase effect can stack up to 30 times.",
+        "mana": 2,
+        "cooldown": 12,
+        "cdstart": "starts after skill animation completes",
+        "buff": 10,
+        "debuff": 0.3,
+        "tick": 0.2,
+        "tickInfo": "hits enemy 16 times",
+        "animation": 3.6,
+        "cast": 0.8,
+        "freeze": 0.5,
+        "castRange": 4000,
+        "castRangeType": "dash to target",
+        "aoe": "2000/3000",
+        "aoeInfo": "target, first 8 hits/next 8 hits",
+        "books": [
+          "DMG increases by 10%. (needs confirmation)",
+          "DMG increases by 15%. (needs confirmation)",
+          "Increase Crit Chance by 250. (needs confirmation)"
+        ],
+        "transcendence": {
+          "light": "If there is 1 enemy, DMG is increased by 100%.",
+          "dark": "Cooldown is reduced by 2 sec."
+        }
+      },
+      "s2": {
+        "num": 2,
+        "name": "God of Lightning",
+        "description": "Upon activation, activate 'God of Lightning' state. Throw a spear of lightning at the enemy to inflict ??? M.DMG. The hit enemy will take 25% increased M.DMG for 10 sec. While in 'God of Lightning' state, Mana will not recover for 10 sec, but 'For Jane' skill activation rate will be increased by 40% and ATK will be increased by ???.",
+        "mana": 2,
+        "cooldown": 20,
+        "cdstart": "starts after skill animation completes",
+        "buff": 10,
+        "debuff": "2s (knockback from lightning)",
+        "animation": 2.3,
+        "cast": 1.5,
+        "freeze": 0.8,
+        "castRange": 10000,
+        "castRangeType": "ranged",
+        "books": [
+          "ATK and DMG boosts are increased by 10%. (needs confirmation)",
+          "ATK and DMG boosts are increased by 15%. (needs confirmation)",
+          "ATK and DMG boosts are increased by 25%. (needs confirmation)"
+        ],
+        "transcendence": {
+          "light": "Mana cost is reduced by 1.",
+          "dark": "DMG taken while in Lightning God state is increased by 30% but ATK increase rate is increased by 100%."
+        }
+      },
+      "s3": {
+        "num": 3,
+        "name": "Lightning Explosion",
+        "description": "Jumps towards a forward enemy, striking with a spear thrust down to the ground. Hits the enemy 5 times and deals a total of ??? M.DMG to the target and nearby enemies. Also inflicts Stun for 3 sec.",
+        "mana": 3,
+        "cooldown": 22,
+        "cdstart": "starts after skill animation completes",
+        "debuff": 3,
+        "animation": 2.9,
+        "cast": 1.7,
+        "freeze": 1,
+        "castRange": 7000,
+        "castRangeType": "dash to target",
+        "aoe": 3000,
+        "aoeInfo": "target",
+        "books": [
+          "DMG increases by 10%. (needs confirmation)",
+          "DMG increases by 15%. (needs confirmation)",
+          "Increase Crit Chance by 250. (needs confirmation)"
+        ],
+        "transcendence": {
+          "light": "DMG is increased by 40%.",
+          "dark": "Stun duration is increased by 1 sec."
+        }
+      },
+      "s4": {
+        "num": 4,
+        "name": "For Jane",
+        "description": "Each auto-attack, there is a 20% chance to deal ??? M.DMG and inflict Stun for 0.7 sec.",
+        "mana": 0,
+        "cooldown": 0,
+        "debuff": 0.7,
+        "books": [
+          "DMG increases by 10%. (needs confirmation)",
+          "DMG increases by 15%. (needs confirmation)",
+          "Increase Crit Chance by 250. (needs confirmation)"
+        ],
+        "transcendence": {
+          "light": "DMG is increased by 40%.",
+          "dark": "Stun duration is increased by 0.2 sec."
+        }
+      },
+      "weapon": {
+        "name": "Lightning Bolt, Legios",
+        "baseAtk": 384,
+        "description": [
+          "Each auto attack and skill attack stacks 'Lightning' on self. Upon gaining 50 stacks, 'Lightning Strike, Legios' will activate, increasing ATK Spd by 300, Crit DMG by 100%, and DEF Pen by 300 for 10 sec. While in this state, Lightning will not stack. This effect cannot be dispelled.",
+          "Each auto attack and skill attack stacks 'Lightning' on self. Upon gaining 50 stacks, 'Lightning Strike, Legios' will activate, increasing ATK Spd by 360, Crit DMG by 120%, and DEF Pen by 360 for 10 sec. While in this state, Lightning will not stack. This effect cannot be dispelled.",
+          "Each auto attack and skill attack stacks 'Lightning' on self. Upon gaining 50 stacks, 'Lightning Strike, Legios' will activate, increasing ATK Spd by 430, Crit DMG by 144%, and DEF Pen by 430 for 10 sec. While in this state, Lightning will not stack. This effect cannot be dispelled.",
+          "Each auto attack and skill attack stacks 'Lightning' on self. Upon gaining 50 stacks, 'Lightning Strike, Legios' will activate, increasing ATK Spd by 520, Crit DMG by 173%, and DEF Pen by 520 for 10 sec. While in this state, Lightning will not stack. This effect cannot be dispelled.",
+          "Each auto attack and skill attack stacks 'Lightning' on self. Upon gaining 50 stacks, 'Lightning Strike, Legios' will activate, increasing ATK Spd by 620, Crit DMG by 208%, and DEF Pen by 620 for 10 sec. While in this state, Lightning will not stack. This effect cannot be dispelled.",
+          "Each auto attack and skill attack stacks 'Lightning' on self. Upon gaining 50 stacks, 'Lightning Strike, Legios' will activate, increasing ATK Spd by 750, Crit DMG by 250%, and DEF Pen by 750 for 10 sec. While in this state, Lightning will not stack. This effect cannot be dispelled."
+        ],
+        "info": ""
+      }
+    },
+    "Mediana": {
+      "class": "Priest",
+      "subtitle": "The Dangerous Doctor",
+      "description": "A doctor whose technique originates from eras with scarce numbers of Priests and Healing Magic. She fires medicine from her large needle to empower allies, or weaken the enemy.",
+      "t5": {
+        "light": "ATK, DEF, HP+10% / CC Resist +100",
+        "dark": "When taking DMG, all allies gain 2% ATK. This effect stacks 20 times."
+      },
+      "attributes": {
+        "Position": "Rear",
+        "Damage Type": "Magical",
+        "Autoattack Cycle": "1.4s",
+        "Autoattack Hits": "0.9s",
+        "Autoattack Range": 7000,
+        "Critical Chance": 100,
+        "Accuracy": 100,
+        "Base MP/Atk": 350,
+        "M.Block Chance": 500,
+        "M.Block Power": 250,
+        "M.Tough": 150
+      },
+      "s1": {
+        "num": 1,
+        "name": "Healing Salve",
+        "description": "Heals all allies by ??? and makes them immune to the next single hit of DMG.",
+        "mana": 2,
+        "cooldown": 15,
+        "cdstart": "starts after skill animation completes",
+        "animation": 2.1,
+        "cast": 1,
+        "freeze": 0.5,
+        "castRange": "unlimited",
+        "castRangeType": "ranged",
+        "books": [
+          "Recovery is increased by 10%. (needs confirmation)",
+          "Recovery is increased by 15%. (needs confirmation)",
+          "Recovery is increased by 25%. (needs confirmation)"
+        ],
+        "transcendence": {
+          "light": "Boosts healed ally HP by 10% for 10 sec.",
+          "dark": "Mana cost is reduced by 1."
+        }
+      },
+      "s2": {
+        "num": 2,
+        "name": "Special Water Cannon",
+        "description": "Fires off a water cannon in a straight direction, healing allies within range for ??? every 0.5 sec, while dealing ??? P.DMG to the enemy.",
+        "mana": 3,
+        "cooldown": 20,
+        "cdstart": "starts after castbar finishes",
+        "animation": 8,
+        "cast": 1,
+        "freeze": 0.7,
+        "skillRange": 20000,
+        "skillRangeType": "laser is this distance long",
+        "aoe": 2000,
+        "aoeInfo": "laser width",
+        "books": [
+          "Heal and DMG amounts are increased by 10%. (needs confirmation)",
+          "Heal and DMG amounts are increased by 15%. (needs confirmation)",
+          "Heal and DMG amounts are increased by 25%. (needs confirmation)"
+        ],
+        "transcendence": {
+          "light": "Increase Recovery and DMG by 40 %.",
+          "dark": "Gain CC immunity while using said skill."
+        }
+      },
+      "s3": {
+        "num": 3,
+        "name": "Strengthening Potion",
+        "description": "Injects the ally with the highest ATK with a strengthening potion, increasing their ATK by 20% + ??? of Mediana's ATK and keeping their HP from falling below 5%.",
+        "mana": 4,
+        "cooldown": 23,
+        "cdstart": "starts after skill animation completes",
+        "buff": 15,
+        "animation": 1.9,
+        "cast": 1.2,
+        "freeze": 0.5,
+        "castRange": "unlimited",
+        "castRangeType": "ranged",
+        "books": [
+          "ATK increase amount is boosted by 10%. (needs confirmation)",
+          "ATK increase amount is boosted by 15%. (needs confirmation)",
+          "ATK increase amount is boosted by 25%. (needs confirmation)"
+        ],
+        "transcendence": {
+          "light": "ATK boost is increased by 40%.",
+          "dark": "Target ATK Spd is boosted by 250."
+        }
+      },
+      "s4": {
+        "num": 4,
+        "name": "Mediana's Special Poison",
+        "description": "Increases all ally ATK by ??? and P.Crit Resistance by 200. Also, upon attacking a target, inject said enemy with a special poison that deals constant P.DMG equal to ??? for 5 sec while also reducing their P.Crit Resistance by 200.",
+        "mana": 0,
+        "cooldown": 0,
+        "buff": "∞",
+        "debuff": 5,
+        "tick": 0.5,
+        "books": [
+          "ATK increase amount is boosted by 10%. (needs confirmation)",
+          "ATK increase amount is boosted by 15%. (needs confirmation)",
+          "Increase P. Block of all allies by 250. (needs confirmation)"
+        ],
+        "transcendence": {
+          "light": "P.Crit Resistance amount is changed to 300.",
+          "dark": "Target takes 20% increased P.DMG."
+        }
+      },
+      "weapon": {
+        "name": "Merciful Threat, Phistonia",
+        "baseAtk": 547,
+        "description": [
+          "Special Poison DMG is increased by 40%, and inflicted targets take additional P.DMG equal to 30% of Mediana's ATK when hit by allies other than Mediana. Additional P.DMG effect activates only 1 time per each sec.",
+          "Special Poison DMG is increased by 48%, and inflicted targets take additional P.DMG equal to 36% of Mediana's ATK when hit by allies other than Mediana. Additional P.DMG effect activates only 1 time per each sec.",
+          "Special Poison DMG is increased by 57%, and inflicted targets take additional P.DMG equal to 43% of Mediana's ATK when hit by allies other than Mediana. Additional P.DMG effect activates only 1 time per each sec.",
+          "Special Poison DMG is increased by 69%, and inflicted targets take additional P.DMG equal to 52% of Mediana's ATK when hit by allies other than Mediana. Additional P.DMG effect activates only 1 time per each sec.",
+          "Special Poison DMG is increased by 83%, and inflicted targets take additional P.DMG equal to 62% of Mediana's ATK when hit by allies other than Mediana. Additional P.DMG effect activates only 1 time per each sec.",
+          "Special Poison DMG is increased by 100%, and inflicted targets take additional P.DMG equal to 75% of Mediana's ATK when hit by allies other than Mediana. Additional P.DMG effect activates only 1 time per each sec."
+        ],
+        "info": ""
+      }
+    },
     "Oddy": {
       "weapon": {
         "name": "Moonshade Countdown, Tempodiana",
@@ -2683,6 +2938,132 @@
           "Upon a Critical Hit, there is a 10% chance to deal P.DMG equal to 500% of ATK and recover 5% Mana. If the target is a Dragon, inflict Stun for 1 sec."
         ],
         "info": "The effect has a cooldown of 0.5s between triggers."
+      }
+    },
+    "Artemia": {
+      "class": "Wizard",
+      "subtitle": "Empress of Light",
+      "description": "The Queen of Pentheonia, the Ironclad Kingdom which did not budge an inch against the Demons 100 years ago. Her staff holds a brilliant light, burning with justice and she uses it to burn her enemies to ashes.",
+      "t5": {
+        "light": "ATK, DEF, HP+10% / Crit Chance +100",
+        "dark": "When HP falls below 50%, gain 2 sec of immunity to all DMG. This effect activates only once every 30 sec."
+      },
+      "attributes": {
+        "Position": "Middle",
+        "Damage Type": "Magical",
+        "Autoattack Cycle": "1.9s",
+        "Autoattack Hits": "1s",
+        "Autoattack Range": 6500,
+        "Critical Chance": 100,
+        "Accuracy": 100,
+        "Penetration": 150,
+        "Base MP/Atk": 470,
+        "M.Dodge": 200,
+        "M.Block Chance": 250
+      },
+      "s1": {
+        "num": 1,
+        "name": "Pillar of Light",
+        "description": "Places a Pillar of Light at where the enemy is, dealing a total of ??? M.DMG over 5 sec and decreasing enemy ATK by 20% for 10 sec.",
+        "mana": 2,
+        "cooldown": 7,
+        "cdstart": "starts after skill animation completes",
+        "debuff": 10,
+        "animation": 3.5,
+        "cast": 0,
+        "freeze": 1.2,
+        "castRange": "unlimited",
+        "castRangeType": "ranged",
+        "books": [
+          "DMG is increased by 10%. (needs confirmation)",
+          "DMG is increased by 15%. (needs confirmation)",
+          "DMG is increased by 25%. (needs confirmation)"
+        ],
+        "transcendence": {
+          "light": "DMG is increased by 40%.",
+          "dark": "Each hit has a 25% chance to stun the enemy for 1 sec."
+        }
+      },
+      "s2": {
+        "num": 2,
+        "name": "Critical Intensity",
+        "description": "Deals ??? M.DMG to enemies in a straight line. This attack adds an additional 100% to its Crit. DMG modifier.",
+        "mana": 3,
+        "cooldown": 14,
+        "cdstart": "starts after skill animation completes",
+        "animation": 3.3,
+        "cast": 0,
+        "freeze": 1,
+        "castRange": 15000,
+        "castRangeType": "ranged",
+        "skillRange": 20000,
+        "skillRangeType": "attacks this distance in a straight line from hero",
+        "aoe": 2000,
+        "aoeInfo": "attack width",
+        "books": [
+          "DMG is increased by 10%. (needs confirmation)",
+          "DMG is increased by 15%. (needs confirmation)",
+          "DMG is increased by 25%. (needs confirmation)"
+        ],
+        "transcendence": {
+          "light": "Mana cost reduced by 1.",
+          "dark": "When Blessing of Light reaches 10 stacks, cooldown is reduced by 50%."
+        }
+      },
+      "s3": {
+        "num": 3,
+        "name": "Light's Judgment",
+        "description": "Attacks the enemy 3 times, dealing ??? M.DMG and stunning the enemy for 5 sec. This skill's cooldown is reduced by 30% when it kills the enemy.",
+        "mana": 4,
+        "cooldown": 20,
+        "cdstart": "starts after skill animation completes",
+        "debuff": 5,
+        "animation": 4.2,
+        "cast": 0,
+        "freeze": 1.4,
+        "aoe": 40000,
+        "aoeInfo": "self",
+        "books": [
+          "DMG is increased by 10%. (needs confirmation)",
+          "DMG is increased by 15%. (needs confirmation)",
+          "DMG is increased by 25%. (needs confirmation)"
+        ],
+        "transcendence": {
+          "light": "Cooldown is reduced by 3 sec.",
+          "dark": "Mana cost is increased by 1 orb but DMG is boosted by 100%."
+        }
+      },
+      "s4": {
+        "num": 4,
+        "name": "Blessing of Light",
+        "description": "Upon attacking, there is a 50% chance the targeted enemy and nearby enemies will take ??? M.DMG while Artemia gains 1 stack of Blessing of Light. This skill may stack up to 10 times. Each stack increases ATK by ???. Each stack also increases DMG dealt to non-hero enemies by 3% and reduces DMG received by non-hero enemies by 3%.",
+        "mana": 0,
+        "cooldown": 0,
+        "buff": "∞",
+        "aoe": 2000,
+        "aoeInfo": "target",
+        "books": [
+          "DMG is increased by 10%. (needs confirmation)",
+          "DMG is increased by 15%. (needs confirmation)",
+          "DMG is increased by 25%. (needs confirmation)"
+        ],
+        "transcendence": {
+          "light": "Activation chance is changed to 60%.",
+          "dark": "Maximum stack count is increased to 12."
+        }
+      },
+      "weapon": {
+        "name": "Brilliant Praise, Brauxio",
+        "baseAtk": 510,
+        "description": [
+          "Every 15 sec, create a Shield worth 200% of ATK that lasts for 10 sec, which also increases own ATK by 20%. While the Shield is in effect, gain immunity to CC.",
+          "Every 15 sec, create a Shield worth 240% of ATK that lasts for 10 sec, which also increases own ATK by 24%. While the Shield is in effect, gain immunity to CC.",
+          "Every 15 sec, create a Shield worth 290% of ATK that lasts for 10 sec, which also increases own ATK by 29%. While the Shield is in effect, gain immunity to CC.",
+          "Every 15 sec, create a Shield worth 350% of ATK that lasts for 10 sec, which also increases own ATK by 35%. While the Shield is in effect, gain immunity to CC.",
+          "Every 15 sec, create a Shield worth 420% of ATK that lasts for 10 sec, which also increases own ATK by 42%. While the Shield is in effect, gain immunity to CC.",
+          "Every 15 sec, create a Shield worth 500% of ATK that lasts for 10 sec, which also increases own ATK by 50%. While the Shield is in effect, gain immunity to CC."
+        ],
+        "info": ""
       }
     },
     "May": {
@@ -2851,6 +3232,17 @@
         "Every Battle, Spd increases by 690  for the first 15 secs.",
         "Every Battle, Spd increases by 830  for the first 15 secs.",
         "Every Battle, Spd increases by 1000  for the first 15 secs."
+      ],
+      "info": ""
+    },
+    "Pocket Watch of Ancient Civilization": {
+      "description": [
+        "Every 10 sec, reduce all cooldowns by 1 sec and increase ATK Spd by 80 for 5 sec.",
+        "Every 10 sec, reduce all cooldowns by 1.2 sec and increase ATK Spd by 96 for 5 sec.",
+        "Every 10 sec, reduce all cooldowns by 1.4 sec and increase ATK Spd by 115 for 5 sec.",
+        "Every 10 sec, reduce all cooldowns by 1.7 sec and increase ATK Spd by 138 for 5 sec.",
+        "Every 10 sec, reduce all cooldowns by 2 sec and increase ATK Spd by 165 for 5 sec.",
+        "Every 10 sec, reduce all cooldowns by 2.5 sec and increase ATK Spd by 200 for 5 sec."
       ],
       "info": ""
     },
@@ -3095,6 +3487,28 @@
         "Upon auto-attacking, there is a 20% chance to reduce the enemy's mana by 1500. Has a cooldown of 6 sec."
       ],
       "info": "Triggered on auto-attacks only."
+    },
+    "Orbs of Contract": {
+      "description": [
+        "Every 7 sec, increase M.DEF by 1% of ATK. This effect stacks up to 6 times.",
+        "Every 7 sec, increase M.DEF by 1.2% of ATK. This effect stacks up to 6 times.",
+        "Every 7 sec, increase M.DEF by 1.4% of ATK. This effect stacks up to 6 times.",
+        "Every 7 sec, increase M.DEF by 1.7% of ATK. This effect stacks up to 6 times.",
+        "Every 7 sec, increase M.DEF by 2% of ATK. This effect stacks up to 6 times.",
+        "Every 7 sec, increase M.DEF by 2.5% of ATK. This effect stacks up to 6 times."
+        ],
+      "info": ""
+    },
+    "Tome of Black Magic": {
+      "description": [
+        "Every 10 sec, target a single enemy. Said enemy takes DMG that ignores DEF equal to 2% of current HP each second for 5 sec, and reduces Mana by 200. This skill is effective only in the Arena.",
+        "Every 10 sec, target a single enemy. Said enemy takes DMG that ignores DEF equal to 2.4% of current HP each second for 5 sec, and reduces Mana by 240. This skill is effective only in the Arena.",
+        "Every 10 sec, target a single enemy. Said enemy takes DMG that ignores DEF equal to 2.9% of current HP each second for 5 sec, and reduces Mana by 290. This skill is effective only in the Arena.",
+        "Every 10 sec, target a single enemy. Said enemy takes DMG that ignores DEF equal to 3.5% of current HP each second for 5 sec, and reduces Mana by 350. This skill is effective only in the Arena.",
+        "Every 10 sec, target a single enemy. Said enemy takes DMG that ignores DEF equal to 4.2% of current HP each second for 5 sec, and reduces Mana by 420. This skill is effective only in the Arena.",
+        "Every 10 sec, target a single enemy. Said enemy takes DMG that ignores DEF equal to 5% of current HP each second for 5 sec, and reduces Mana by 500. This skill is effective only in the Arena."
+        ],
+      "info": ""
     },
     "Trident of the Deep": {
       "description": [
