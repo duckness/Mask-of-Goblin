@@ -10,6 +10,11 @@
         <p>
           <strong class="title is-5">{{ skill.name }}</strong>
           <br>{{ skill.description }}
+          <div class="content is-small" v-if="'moreInfo' in skill">
+            <strong class="is-6">Notes</strong>
+            <br>
+            <span>{{ skill.moreInfo }}</span>
+          </div>
         </p>
         <p>
           <span v-if="'mana' in skill">

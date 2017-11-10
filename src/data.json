@@ -3041,6 +3041,7 @@
         "num": 4,
         "name": "Blessing of Light",
         "description": "Upon attacking, there is a 50% chance the targeted enemy and nearby enemies will take ??? M.DMG while Artemia gains 1 stack of Blessing of Light. This skill may stack up to 10 times. Each stack increases ATK by ???. Each stack also increases DMG dealt to non-hero enemies by 3% and reduces DMG received by non-hero enemies by 3%.",
+        "moreInfo": "buff is multiplicative on top of other buffs",
         "mana": 0,
         "cooldown": 0,
         "buff": "∞",
@@ -3336,7 +3337,7 @@
         "ATK upon Goblins increase by 83 %, and DMG resistance against Goblins increases by 41 %",
         "ATK upon Goblins increase by 100 %, and DMG resistance against Goblins increases by 50 %"
       ],
-      "info": ""
+      "info": "buff is multiplicative on top of other buffs"
     },
     "Mask of Harpy": {
       "description": [
@@ -3347,7 +3348,7 @@
         "ATK upon Harpies increase by 83 %, and DMG resistance against Harpies increases by 41 %",
         "ATK upon Harpies increase by 100 %, and DMG resistance against Harpies increases by 50 %"
       ],
-      "info": ""
+      "info": "buff is multiplicative on top of other buffs"
     },
     "Mask of Orc": {
       "description": [
@@ -3358,7 +3359,7 @@
         "ATK upon Orcs increase by 83 %, and DMG resistance against Orcs increases by 41 %",
         "ATK upon Orcs increase by 100 %, and DMG resistance against Orcs increases by 50 %"
       ],
-      "info": "Gushak guild boss is an Orc."
+      "info": "Gushak guild boss is an Orc, buff is multiplicative on top of other buffs"
     },
     "Mask of Dark Elf": {
       "description": [
@@ -3369,7 +3370,7 @@
         "ATK upon Dark Elves increase by 83 %, and DMG resistance against Dark Elves increases by 41 %",
         "ATK upon Dark Elves increase by 100 %, and DMG resistance against Dark Elves increases by 50 %"
       ],
-      "info": "Maviel guild boss and Ch.5 conquest boss are dark elves."
+      "info": "Maviel guild boss and Ch.5 conquest boss are dark elves, buff is multiplicative on top of other buffs"
     },
     "Mask of Skeleton": {
       "description": [
@@ -3380,7 +3381,7 @@
         "ATK upon Skeletons increase by 83 %, and DMG resistance against Skeletons increase by 41 %",
         "ATK upon Skeletons increase by 100 %, and DMG resistance against Skeletons increase by 50 %"
       ],
-      "info": "Nordik guild boss is a skeleton. Mummies are not skeletons."
+      "info": "Nordik guild boss is a skeleton. Mummies are not skeletons, buff is multiplicative on top of other buffs"
     },
     "Soul Spring Water": {
       "description": [
@@ -3424,7 +3425,7 @@
         "ATK upon Lizardmen increase by 83 %, and DMG resistance against Lizardmen increase by 41 %",
         "ATK upon Lizardmen increase by 100 %, and DMG resistance against Lizardmen increase by 50 %"
       ],
-      "info": ""
+      "info": "buff is multiplicative on top of other buffs"
     },
     "Earth Protection": {
       "description": [
@@ -3468,7 +3469,7 @@
         "ATK upon Frost Giants increase by 83 %, and DMG resistance against Frost Giants increase by 41 %.",
         "ATK upon Frost Giants increase by 100 %, and DMG resistance against Frost Giants increase by 50 %."
       ],
-      "info": ""
+      "info": "buff is multiplicative on top of other buffs"
     },
     "Insignia of Iron Conviction": {
       "description": [
@@ -3567,7 +3568,7 @@
         "All DMG taken is reduced by 20% and deal 20% more DMG to enemies.",
         "All DMG taken is reduced by 25% and deal 25% more DMG to enemies."
       ],
-      "info": ""
+      "info": "buff is multiplicative on top of other buffs"
     }
   }
 }
