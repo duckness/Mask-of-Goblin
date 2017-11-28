@@ -16,10 +16,11 @@
         "Autoattack Range": 2500,
         "Autoattack AOE": 1000,
         "Dash Range": 3700,
-        "Critical Chance": 50,
+        "Critical Chance": 150,
         "Accuracy": 100,
+        "Penetration": 150,
         "CC Resist": 150,
-        "Base MP/Atk": 220,
+        "Base MP/Atk": 275,
         "P.Dodge": 100,
         "M.Dodge": 100,
         "P.Tough": 100,
@@ -34,7 +35,7 @@
         "cdstart": "starts upon cast",
         "animation": 2.6,
         "cast": 1.3,
-        "freeze": 1.2,
+        "freeze": 0.4,
         "castRange": 4500,
         "castRangeType": "dash to target",
         "skillRange": 1200,
@@ -60,7 +61,7 @@
         "cdstart": "starts after castbar finishes",
         "animation": 2.4,
         "cast": 1,
-        "freeze": 1,
+        "freeze": 0.3,
         "castRange": 5000,
         "castRangeType": "dash to target",
         "skillRange": 5000,
@@ -73,7 +74,7 @@
           "Increase Crit Chance by 250."
         ],
         "transcendence": {
-          "light": "Cooldown reduced by 10% upon a critical hit.",
+          "light": "Mana cost is reduced by 1.",
           "dark": "Target takes 25% increased P.DMG."
         }
       },
@@ -88,7 +89,7 @@
         "debuff": 2,
         "animation": 2.7,
         "cast": 1.1,
-        "freeze": 1,
+        "freeze": 0.3,
         "aoe": 5000,
         "aoeInfo": "self",
         "books": [
@@ -98,13 +99,13 @@
         ],
         "transcendence": {
           "light": "Knock back effect is changed to a 3 sec Stun.",
-          "dark": "Duration is changed to 40 sec."
+          "dark": "ATK boost is increased by 40%."
         }
       },
       "s4": {
         "num": 4,
         "name": "Goddess Strike",
-        "description": "When dodging, deal ??? P.DMG to all frontline enemies in range. Recovers 300 mana after hitting target.",
+        "description": "Upon dodging, deal ??? P.DMG to frontal enemies and reduce their ACC by 150 for 5 sec. After hitting the target, gain 300 mana.",
         "mana": 0,
         "cooldown": 3,
         "cdstart": "starts after skill animation completes",
@@ -119,20 +120,20 @@
           "Increase Crit Chance by 250."
         ],
         "transcendence": {
-          "light": "DMG is increased by 40%.",
+          "light": "ACC reduction rate is changed to 250.",
           "dark": "Casting is boosted and Cooldown is reduced by 1 sec."
         }
       },
       "weapon": {
         "name": "The Holy Sword, Aea",
-        "baseAtk": 384,
+        "baseAtk": 442,
         "description": [
-          "Each attack has a 25 % chance to inflict P.DMG on enemy (160 % of the ATK)",
-          "Each attack has a 25 % chance to inflict P.DMG on enemy (192 % of the ATK)",
-          "Each attack has a 25 % chance to inflict P.DMG on enemy (230 % of the ATK)",
-          "Each attack has a 25 % chance to inflict P.DMG on enemy (276 % of the ATK)",
-          "Each attack has a 25 % chance to inflict P.DMG on enemy (331 % of the ATK)",
-          "Each attack has a 25 % chance to inflict P.DMG on enemy (400 % of the ATK)"
+          "Each attack has a 35% chance to inflict P.DMG on enemy (160% of the ATK)",
+          "Each attack has a 35% chance to inflict P.DMG on enemy (192% of the ATK)",
+          "Each attack has a 35% chance to inflict P.DMG on enemy (230% of the ATK)",
+          "Each attack has a 35% chance to inflict P.DMG on enemy (276% of the ATK)",
+          "Each attack has a 35% chance to inflict P.DMG on enemy (331% of the ATK)",
+          "Each attack has a 35% chance to inflict P.DMG on enemy (400% of the ATK)"
         ],
         "info": "Effect is triggered on any attack, has a cooldown of 0.5s between triggers."
       }
@@ -153,7 +154,7 @@
         "Autoattack Range": 7000,
         "Critical Chance": 100,
         "Accuracy": 100,
-        "Base MP/Atk": 260,
+        "Base MP/Atk": 325,
         "M.Block Chance": 500,
         "M.Block Power": 250,
         "M.Tough": 150
@@ -167,7 +168,7 @@
         "cdstart": "starts after skill animation completes",
         "animation": 2.7,
         "cast": 2,
-        "freeze": 1,
+        "freeze": 0.6,
         "books": [
           "Increase Recovery by 10%.",
           "Increase Recovery by 15%.",
@@ -188,7 +189,7 @@
         "buff": 12,
         "animation": 2.3,
         "cast": 1.6,
-        "freeze": 1,
+        "freeze": 0.5,
         "books": [
           "Increase Shield HP by 10%.",
           "Increase Shield HP by 15%.",
@@ -209,7 +210,7 @@
         "debuff": 6,
         "animation": 3.3,
         "cast": 1.9,
-        "freeze": 1,
+        "freeze": 0.6,
         "castRange": 9000,
         "castRangeType": "ranged",
         "aoe": 2000,
@@ -277,7 +278,7 @@
         "Critical Chance": 100,
         "Accuracy": 100,
         "Penetration": 150,
-        "Base MP/Atk": 380,
+        "Base MP/Atk": 475,
         "M.Dodge": 200,
         "M.Block Chance": 250
       },
@@ -300,14 +301,14 @@
         "debuff": "see special above",
         "animation": 3,
         "cast": 0.7,
-        "freeze": 0.7,
+        "freeze": 0.2,
         "books": [
           "Increase DMG by 10%.",
           "Increase DMG by 15%.",
           "Increase DMG by 25%."
         ],
         "transcendence": {
-          "light": "DMG range changes to AoE.",
+          "light":"DMG is increased by 40%.",
           "dark": "Stacks 2 Embers each."
         }
       },
@@ -321,7 +322,7 @@
         "debuff": 2,
         "animation": 2.3,
         "cast": 1.5,
-        "freeze": 1,
+        "freeze": 0.5,
         "castRange": 7000,
         "castRangeType": "ranged",
         "aoe": 3000,
@@ -332,8 +333,8 @@
           "Increase DMG by 25%."
         ],
         "transcendence": {
-          "light": "Upon a Crit Hit, cooldown is reduced by 10%.",
-          "dark": "In exchange for 1 additional Mana Cost, the skill now targets 2 random enemies."
+          "light": "DMG is increased by 40%.",
+          "dark": "Mana cost is increased by 1, and attacks a random target 2 times."
         }
       },
       "s3": {
@@ -348,7 +349,7 @@
         "tickInfo": "fireballs hit 8 times in total",
         "animation": 4,
         "cast": 2.1,
-        "freeze": 1,
+        "freeze": 0.7,
         "aoe": 30000,
         "aoeInfo": "self",
         "books": [
@@ -357,7 +358,7 @@
           "Increase DMG by 25%."
         ],
         "transcendence": {
-          "light": "Crit Chance is boosted by 40%.",
+          "light": "Cooldown is reduced by 3 sec.",
           "dark": "Stuns enemies with 5 Embers or more for 1 sec."
         }
       },
@@ -415,7 +416,9 @@
         "Autoattack Range": "Melee",
         "Dash Range": 3900,
         "Critical Chance": 200,
-        "Base MP/Atk": 230,
+        "Critical Power": 300,
+        "Accuracy": 100,
+        "Base MP/Atk": 290,
         "P.Dodge": 200,
         "M.Dodge": 200
       },
@@ -430,7 +433,7 @@
         "tick": 1,
         "animation": 2.7,
         "cast": 0.8,
-        "freeze": 0.8,
+        "freeze": 0.3,
         "castRange": "unlimited",
         "castRangeType": "teleport",
         "books": [
@@ -453,7 +456,7 @@
         "buff": 10,
         "animation": 0.9,
         "cast": 0.7,
-        "freeze": 0.7,
+        "freeze": 0.2,
         "books": [
           "ATK increase rate is increased by 10%.",
           "ATK increase rate is increased by 15%.",
@@ -472,8 +475,8 @@
         "cooldown": 20,
         "cdstart": "starts upon cast",
         "animation": 1.5,
-        "cast": 1.2,
-        "freeze": 1.2,
+        "cast": 1,
+        "freeze": 0.8,
         "castRange": "unlimited",
         "castRangeType": "dash to target",
         "books": [
@@ -508,7 +511,7 @@
       },
       "weapon": {
         "name": "Specter's Breath, Redeal",
-        "baseAtk": 418,
+        "baseAtk": 486,
         "description": [
           "Each auto attack has a 25 % chance to inflict P.DMG on enemy (50 % of the ATK) and inflict Bleed",
           "Each auto attack has a 25 % chance to inflict P.DMG on enemy (60 % of the ATK) and inflict Bleed",
@@ -536,10 +539,11 @@
         "Autoattack Range": "Melee",
         "Autoattack AOE": 1500,
         "Dash Range": 3700,
-        "Critical Chance": 50,
+        "Critical Chance": 150,
         "Accuracy": 100,
+        "Penetration": 150,
         "CC Resist": 150,
-        "Base MP/Atk": 270,
+        "Base MP/Atk": 340,
         "P.Dodge": 100,
         "M.Dodge": 100,
         "P.Tough": 100,
@@ -555,7 +559,7 @@
         "debuff": 3,
         "animation": 2.2,
         "cast": 0.8,
-        "freeze": 0.8,
+        "freeze": 0.3,
         "castRange": 5000,
         "castRangeType": "dash to target",
         "skillRange": 1000,
@@ -581,7 +585,7 @@
         "buff": 15,
         "animation": 2.3,
         "cast": 1.5,
-        "freeze": 1,
+        "freeze": 0.5,
         "books": [
           "Attack increase rate increases by 10%.",
           "Attack increase rate increases by 15%.",
@@ -604,7 +608,7 @@
         "tickInfo": "hits 10 times, then after 0.6s, does the final hit",
         "animation": 4.1,
         "cast": 0.8,
-        "freeze": 0.8,
+        "freeze": 0.3,
         "castRange": 5000,
         "castRangeType": "spin to win",
         "aoe": 3500,
@@ -638,7 +642,7 @@
       },
       "weapon": {
         "name": "Holy Bird, Numinu",
-        "baseAtk": 384,
+        "baseAtk": 442,
         "description": [
           "For every 1% of lost HP, ATK rises by 0.8% and ATK Speed rises by 8.",
           "For every 1% of lost HP, ATK rises by 1% and ATK Speed rises by 10.",
@@ -667,7 +671,7 @@
         "Autoattack AOE": 500,
         "Dash Range": 3500,
         "Critical Chance": 50,
-        "Base MP/Atk": 220,
+        "Base MP/Atk": 275,
         "P.Block Chance": 200,
         "P.Tough": 250,
         "M.Tough": 250
@@ -682,7 +686,7 @@
         "debuff": 3,
         "animation": 2.1,
         "cast": 0.7,
-        "freeze": 0.7,
+        "freeze": 0.2,
         "castRange": 4500,
         "castRangeType": "dash to target",
         "aoe": 2000,
@@ -707,7 +711,7 @@
         "debuff": "knockback for 1s, reduce atk spd for 10s",
         "animation": 1.9,
         "cast": 0.9,
-        "freeze": 0.9,
+        "freeze": 0.3,
         "castRange": 4500,
         "castRangeType": "dash to target",
         "aoe": 1000,
@@ -733,7 +737,7 @@
         "tick": 1,
         "animation": 1.9,
         "cast": 0.9,
-        "freeze": 0.9,
+        "freeze": 0.3,
         "books": [
           "P.DEF increase rate increases by 10%.",
           "P.DEF increase rate increases by 15%.",
@@ -763,7 +767,7 @@
       },
       "weapon": {
         "name": "Dragon's Ruins, Atein",
-        "baseAtk": 355,
+        "baseAtk": 390,
         "description": [
           "Upon receiving DMG, stacks Dragon Rage which lasts for 10 secs. The hero's ATK and DEF rises by 0.8 %. Can be stacked up to 100 times Max.",
           "Upon receiving DMG, stacks Dragon Rage which lasts for 10 secs. The hero's ATK and DEF rises by 1 %. Can be stacked up to 100 times Max.",
@@ -794,7 +798,7 @@
         "Critical Power": 500,
         "Accuracy": 200,
         "Penetration": 100,
-        "Base MP/Atk": 260
+        "Base MP/Atk": 325
       },
       "s1": {
         "num": 1,
@@ -806,7 +810,7 @@
         "animation": 2.8,
         "debuff": 1.5,
         "cast": 1.7,
-        "freeze": 1,
+        "freeze": 0.6,
         "castRange": 7000,
         "castRangeType": "ranged",
         "aoe": 9000,
@@ -831,7 +835,7 @@
         "debuff": 4,
         "animation": 2,
         "cast": 1.1,
-        "freeze": 1,
+        "freeze": 0.4,
         "castRange": 7000,
         "castRangeType": "ranged",
         "aoe": 7000,
@@ -856,7 +860,7 @@
         "debuff": 3,
         "animation": 2,
         "cast": 1.3,
-        "freeze": 1,
+        "freeze": 0.4,
         "castRange": "unlimited",
         "castRangeType": "ranged",
         "aoe": 2500,
@@ -867,14 +871,14 @@
           "Increase DMG by 25%."
         ],
         "transcendence": {
-          "light": "In exchange for 1 additional Mana Cost, the skill targets 2 enemies.",
-          "dark": "Stun duration is increased by 2 sec."
+          "light": "Mana cost is increased by 1, and attacks a random target 2 times.",
+          "dark": "This skill's cooldown is reduced by 50% when it kills the enemy."
         }
       },
       "s4": {
         "num": 4,
         "name": "Load Cannon",
-        "description": "Every auto-attack, there is a 15% chance to deal ??? P.DMG and knock down enemies within range.",
+        "description": "Auto attacks have a 15% chance of firing a bomb that deals ??? P.DMG to targets within range and stun them for 2 sec.",
         "mana": 0,
         "cooldown": 1.3,
         "cdstart": "starts after skill animation completes",
@@ -900,12 +904,12 @@
         "name": "Lakrak MK-1",
         "baseAtk": 499,
         "description": [
-          "Upon auto-attacking, there is a 25% chance that Atk Spd. Will rise by 200 for 10 sec. There is a 20 sec cooldown for this effect.",
-          "Upon auto-attacking, there is a 25% chance that Atk Spd. Will rise by 240 for 10 sec. There is a 20 sec cooldown for this effect.",
-          "Upon auto-attacking, there is a 25% chance that Atk Spd. Will rise by 280 for 10 sec. There is a 20 sec cooldown for this effect.",
-          "Upon auto-attacking, there is a 25% chance that Atk Spd. Will rise by 340 for 10 sec. There is a 20 sec cooldown for this effect.",
-          "Upon auto-attacking, there is a 25% chance that Atk Spd. Will rise by 410 for 10 sec. There is a 20 sec cooldown for this effect.",
-          "Upon auto-attacking, there is a 25% chance that Atk Spd. Will rise by 500 for 10 sec. There is a 20 sec cooldown for this effect."
+          "Upon auto-attacking, there is a 25% chance that Atk Spd. Will rise by 300 for 10 sec. There is a 20 sec cooldown for this effect.",
+          "Upon auto-attacking, there is a 25% chance that Atk Spd. Will rise by 360 for 10 sec. There is a 20 sec cooldown for this effect.",
+          "Upon auto-attacking, there is a 25% chance that Atk Spd. Will rise by 420 for 10 sec. There is a 20 sec cooldown for this effect.",
+          "Upon auto-attacking, there is a 25% chance that Atk Spd. Will rise by 510 for 10 sec. There is a 20 sec cooldown for this effect.",
+          "Upon auto-attacking, there is a 25% chance that Atk Spd. Will rise by 615 for 10 sec. There is a 20 sec cooldown for this effect.",
+          "Upon auto-attacking, there is a 25% chance that Atk Spd. Will rise by 750 for 10 sec. There is a 20 sec cooldown for this effect."
         ],
         "info": "Effect is only triggered on auto attacks."
       }
@@ -926,7 +930,7 @@
         "Autoattack Range": 7000,
         "Critical Chance": 100,
         "Accuracy": 100,
-        "Base MP/Atk": 300,
+        "Base MP/Atk": 375,
         "M.Block Chance": 500,
         "M.Block Power": 250,
         "M.Tough": 150
@@ -942,7 +946,7 @@
         "tick": 2,
         "tickInfo": "debuff and tick info is for the electrified debuff",
         "animation": 2.8,
-        "cast": 1.8,
+        "cast": 0.6,
         "freeze": 1,
         "castRange": "unlimited",
         "castRangeType": "ranged",
@@ -966,7 +970,7 @@
         "tick": 1,
         "tickInfo": "ticks 5 times",
         "animation": 6.6,
-        "cast": 1.2,
+        "cast": 0.4,
         "freeze": 1,
         "castRange": "unlimited",
         "castRangeType": "ranged",
@@ -990,7 +994,7 @@
         "buff": 15,
         "animation": 2,
         "cast": 1.2,
-        "freeze": 1,
+        "freeze": 0.4,
         "castRange": "unlimited",
         "castRangeType": "ranged",
         "books": [
@@ -1056,9 +1060,11 @@
         "Autoattack Hits": "0.4s, 0.8s, 1.5s, 2.2s, 2.5s, (final AOE: 3.4s, 3.6s, 3.8s, 4s, 4.2s)",
         "Autoattack Range": "Melee",
         "Autoattack AOE": "1000 (2000 for final AOE)",
-        "Dash Range": 3500,
+        "Dash Range": 3000,
         "Critical Chance": 200,
-        "Base MP/Atk": 260,
+        "Critical Power": 300,
+        "Accuracy": 100,
+        "Base MP/Atk": 300,
         "P.Dodge": 200,
         "M.Dodge": 200
       },
@@ -1071,16 +1077,16 @@
         "cdstart": "starts upon cast",
         "animation": 2.1,
         "cast": 1.3,
-        "freeze": 0.9,
+        "freeze": 0.6,
         "castRange": 2500,
         "castRangeType": "dash to target",
         "books": [
           "Increase DMG by 10%.",
           "Increase DMG by 15%.",
-          "Recovery increases by 50%."
+          "Increase DMG by 25%."
         ],
         "transcendence": {
-          "light": "Crit Chance is boosted by 250 and DMG is increased by 15%.",
+          "light": "If there is 1 enemy, DMG is increased by 100%.",
           "dark": "Ignores enemy Block."
         }
       },
@@ -1094,7 +1100,7 @@
         "debuff": 10,
         "animation": 2.8,
         "cast": 0.8,
-        "freeze": 0.8,
+        "freeze": 0.3,
         "castRange": "unlimited",
         "castRangeType": "teleport",
         "aoe": 2500,
@@ -1102,7 +1108,7 @@
         "books": [
           "Increase DMG by 10%.",
           "Increase DMG by 15%.",
-          "Increase Crit Chance by 250."
+          "Increase DMG by 25%."
         ],
         "transcendence": {
           "light": "Mana cost is reduced by 1.",
@@ -1118,7 +1124,7 @@
         "cdstart": "starts after skill animation completes",
         "animation": 3.5,
         "cast": 1,
-        "freeze": 1,
+        "freeze": 0.3,
         "castRange": 6000,
         "castRangeType": "teleport",
         "aoe": 3500,
@@ -1152,16 +1158,16 @@
       },
       "weapon": {
         "name": "The Seductress, Guillotine",
-        "baseAtk": 418,
+        "baseAtk": 486,
         "description": [
-          "Upon auto-attacking, for a 25% chance, deal a M.ATK of 80% and recover HP equal to the amount of DMG dealt.",
-          "Upon auto-attacking, for a 25% chance, deal a M.ATK of 96% and recover HP equal to the amount of DMG dealt.",
-          "Upon auto-attacking, for a 25% chance, deal a M.ATK of 115% and recover HP equal to the amount of DMG dealt.",
-          "Upon auto-attacking, for a 25% chance, deal a M.ATK of 138% and recover HP equal to the amount of DMG dealt.",
-          "Upon auto-attacking, for a 25% chance, deal a M.ATK of 165% and recover HP equal to the amount of DMG dealt.",
-          "Upon auto-attacking, for a 25% chance, deal a M.ATK of 200% and recover HP equal to the amount of DMG dealt."
+          "Upon attacking, there is a 25% chance to deal M.DMG worth 80% of ATK and increase own ATK by 2%. This ATK boost effect can stack up to a max of 10 times.",
+          "Upon attacking, there is a 25% chance to deal M.DMG worth 96% of ATK and increase own ATK by 2.4%. This ATK boost effect can stack up to a max of 10 times.",
+          "Upon attacking, there is a 25% chance to deal M.DMG worth 115% of ATK and increase own ATK by 2.9%. This ATK boost effect can stack up to a max of 10 times.",
+          "Upon attacking, there is a 25% chance to deal M.DMG worth 138% of ATK and increase own ATK by 3.5%. This ATK boost effect can stack up to a max of 10 times.",
+          "Upon attacking, there is a 25% chance to deal M.DMG worth 165% of ATK and increase own ATK by 4.2%. This ATK boost effect can stack up to a max of 10 times.",
+          "Upon attacking, there is a 25% chance to deal M.DMG worth 200% of ATK and increase own ATK by 5%. This ATK boost effect can stack up to a max of 10 times."
         ],
-        "info": "The description has an error, the effect is triggered on any attack. Damage done from the effect does not crit."
+        "info": "Damage done from the effect does not crit."
       }
     },
     "Selene": {
@@ -1181,7 +1187,7 @@
         "Critical Chance": 150,
         "Accuracy": 100,
         "Penetration": 250,
-        "Base MP/Atk": 400
+        "Base MP/Atk": 500
       },
       "s1": {
         "num": 1,
@@ -1194,7 +1200,7 @@
         "tickInfo": "each arrow hits at this rate",
         "animation": 3.7,
         "cast": 2,
-        "freeze": 1.5,
+        "freeze": 0.7,
         "castRange": "unlimited",
         "castRangeType": "ranged",
         "books": [
@@ -1216,7 +1222,7 @@
         "cdstart": "starts after skill animation completes",
         "animation": 1.8,
         "cast": 1.2,
-        "freeze": 1,
+        "freeze": 0.4,
         "books": [
           "Increase DMG by 10%.",
           "Increase DMG by 15%.",
@@ -1237,7 +1243,7 @@
         "debuff": 3,
         "animation": 3.7,
         "cast": 2.5,
-        "freeze": 1.5,
+        "freeze": 0.8,
         "castRange": "unlimited",
         "castRangeType": "ranged",
         "skillRange": 20000,
@@ -1302,7 +1308,7 @@
         "Critical Chance": 100,
         "Accuracy": 100,
         "Penetration": 150,
-        "Base MP/Atk": 280,
+        "Base MP/Atk": 350,
         "M.Dodge": 200,
         "M.Block Chance": 250
       },
@@ -1316,7 +1322,7 @@
         "debuff": "M.DEF decrease & book 3 speed decrease 15s, knockback 1s",
         "animation": 3.4,
         "cast": 1.5,
-        "freeze": 1,
+        "freeze": 0.5,
         "castRange": 7000,
         "castRangeType": "ranged",
         "aoe": 8750,
@@ -1343,7 +1349,7 @@
         "tickInfo": "magical DOT",
         "animation": 2.2,
         "cast": 1.1,
-        "freeze": 1,
+        "freeze": 0.3,
         "castRange": "unlimited",
         "castRangeType": "ranged",
         "books": [
@@ -1368,7 +1374,7 @@
         "tickInfo": "pulls heroes 4 times",
         "animation": 4.4,
         "cast": 1.5,
-        "freeze": 1,
+        "freeze": 0.4,
         "castRange": 7000,
         "castRangeType": "ranged",
         "skillRange": 6000,
@@ -1435,19 +1441,19 @@
         "Critical Power": 500,
         "Accuracy": 200,
         "Penetration": 100,
-        "Base MP/Atk": 360
+        "Base MP/Atk": 450
       },
       "s1": {
         "num": 1,
         "name": "Baaaam!",
         "description": "Deal ??? P.DMG to enemies in range and inflict knock back.",
         "mana": 2,
-        "cooldown": 8,
+        "cooldown": 7,
         "cdstart": "starts after skill animation completes",
         "debuff": 1.5,
         "animation": 3,
         "cast": 2,
-        "freeze": 1,
+        "freeze": 0.5,
         "castRange": 7000,
         "castRangeType": "ranged",
         "aoe": 2000,
@@ -1458,8 +1464,8 @@
           "Increase Crit Chance by 250."
         ],
         "transcendence": {
-          "light": "If there is 1 enemy, DMG is increased by 100%.",
-          "dark": "For each enemy that takes Critical DMG, increase own ATK by 15%."
+          "light": "Mana cost is reduced by 1.",
+          "dark": "Upon activation, ATK is increased by 35% for 10 sec."
         }
       },
       "s2": {
@@ -1472,7 +1478,7 @@
         "debuff": 2,
         "animation": 2.2,
         "cast": 1.2,
-        "freeze": 1,
+        "freeze": 0.4,
         "castRange": 7000,
         "castRangeType": "ranged",
         "skillRange": 4000,
@@ -1486,7 +1492,7 @@
         ],
         "transcendence": {
           "light": "DMG is increased by 40%.",
-          "dark": "For each enemy that takes DMG, reduce cooldown by 4%."
+          "dark": "For each enemy that takes DMG, reduce cooldown by 8%."
         }
       },
       "s3": {
@@ -1499,7 +1505,7 @@
         "debuff": 3,
         "animation": 3.7,
         "cast": 1.8,
-        "freeze": 1,
+        "freeze": 0.6,
         "castRange": "unlimited",
         "castRangeType": "ranged",
         "aoe": 3000,
@@ -1537,12 +1543,12 @@
         "name": "Ultimate Weapon, Leviathan",
         "baseAtk": 499,
         "description": [
-          "Deal P.DMG equal to 100% of ATK every 5 seconds to enemies in a random range every 5 seconds. Enemies hit by this effect take 20% additional P.DMG.",
-          "Deal P.DMG equal to 120% of ATK every 5 seconds to enemies in a random range every 5 seconds. Enemies hit by this effect take 20% additional P.DMG.",
-          "Deal P.DMG equal to 144% of ATK every 5 seconds to enemies in a random range every 5 seconds. Enemies hit by this effect take 20% additional P.DMG.",
-          "Deal P.DMG equal to 172% of ATK every 5 seconds to enemies in a random range every 5 seconds. Enemies hit by this effect take 20% additional P.DMG.",
-          "Deal P.DMG equal to 207% of ATK every 5 seconds to enemies in a random range every 5 seconds. Enemies hit by this effect take 20% additional P.DMG.",
-          "Deal P.DMG equal to 250% of ATK every 5 seconds to enemies in a random range every 5 seconds. Enemies hit by this effect take 20% additional P.DMG."
+          "Every 5 sec, deal P.DMG worth 100% of ATK to enemies within a random area. Hit targets take 20% increased P.DMG.",
+          "Every 5 sec, deal P.DMG worth 120% of ATK to enemies within a random area. Hit targets take 24% increased P.DMG.",
+          "Every 5 sec, deal P.DMG worth 144% of ATK to enemies within a random area. Hit targets take 29% increased P.DMG.",
+          "Every 5 sec, deal P.DMG worth 172% of ATK to enemies within a random area. Hit targets take 35% increased P.DMG.",
+          "Every 5 sec, deal P.DMG worth 207% of ATK to enemies within a random area. Hit targets take 42% increased P.DMG.",
+          "Every 5 sec, deal P.DMG worth 250% of ATK to enemies within a random area. Hit targets take 50% increased P.DMG."
         ],
         "info": ""
       }
@@ -1564,7 +1570,7 @@
         "Critical Chance": 100,
         "Accuracy": 100,
         "Penetration": 150,
-        "Base MP/Atk": 260,
+        "Base MP/Atk": 325,
         "M.Dodge": 200,
         "M.Block Chance": 250
       },
@@ -1585,7 +1591,7 @@
         "debuff": "see special above",
         "animation": 3.6,
         "cast": 2.5,
-        "freeze": 1.3,
+        "freeze": 0.8,
         "castRange": "unlimited",
         "castRangeType": "ranged",
         "aoe": 2500,
@@ -1610,7 +1616,7 @@
         "debuff": "see special above, shackle & book 3 is 4s, final explosion is 3.8s after initial hit",
         "animation": 2.4,
         "cast": 1,
-        "freeze": 1,
+        "freeze": 0.3,
         "castRange": 24000,
         "castRangeType": "ranged",
         "skillRange": 24000,
@@ -1637,7 +1643,7 @@
         "debuff": 3,
         "animation": 3.9,
         "cast": 1.6,
-        "freeze": 1,
+        "freeze": 0.5,
         "castRange": "unlimited",
         "castRangeType": "ranged",
         "aoe": 6000,
@@ -1705,7 +1711,7 @@
         "Autoattack AOE": 1000,
         "Dash Range": 3500,
         "Critical Chance": 50,
-        "Base MP/Atk": 260,
+        "Base MP/Atk": 330,
         "P.Block Chance": 200,
         "P.Tough": 250,
         "M.Tough": 250
@@ -1720,7 +1726,7 @@
         "debuff": 3,
         "animation": 2.2,
         "cast": 0,
-        "freeze": 1.2,
+        "freeze": 0.4,
         "castRange": 4500,
         "castRangeType": "dash to target",
         "skillRange": 1000,
@@ -1747,7 +1753,7 @@
         "debuff": 20,
         "animation": 2.2,
         "cast": 0.8,
-        "freeze": 0.8,
+        "freeze": 0.3,
         "castRange": 4500,
         "castRangeType": "dash to target",
         "aoe": 1000,
@@ -1771,7 +1777,7 @@
         "cdstart": "starts after skill animation completes",
         "buff": 20,
         "animation": 2.7,
-        "cast": 1.9,
+        "cast": 0.6,
         "freeze": 1,
         "castRange": "unlimited",
         "castRangeType": "ranged",
@@ -1814,7 +1820,7 @@
       },
       "weapon": {
         "name": "The Guardian, Exian",
-        "baseAtk": 355,
+        "baseAtk": 390,
         "description": [
           "When HP is reduced to below 35% of max HP, increase all allies P.DMG Reduction by 200. Also, gain ATK equal to 100% of P.DEF, and gain immunity to status effects.",
           "When HP is reduced to below 35% of max HP, increase all allies P.DMG Reduction by 240. Also, gain ATK equal to 120% of P.DEF, and gain immunity to status effects.",
@@ -1842,7 +1848,7 @@
         "Autoattack Range": 8000,
         "Critical Chance": 100,
         "Accuracy": 100,
-        "Base MP/Atk": 300,
+        "Base MP/Atk": 375,
         "M.Block Chance": 500,
         "M.Block Power": 250,
         "M.Tough": 150
@@ -1858,7 +1864,7 @@
         "tick": 1,
         "animation": 3.1,
         "cast": 1.8,
-        "freeze": 1,
+        "freeze": 0.6,
         "castRange": "unlimited",
         "castRangeType": "ranged",
         "books": [
@@ -1881,7 +1887,7 @@
         "buff": 20,
         "animation": 2.2,
         "cast": 1,
-        "freeze": 1,
+        "freeze": 0.3,
         "castRange": "unlimited",
         "castRangeType": "ranged",
         "books": [
@@ -1904,7 +1910,7 @@
         "debuff": 20,
         "animation": 3.5,
         "cast": 2.5,
-        "freeze": 1,
+        "freeze": 0.8,
         "castRange": 9000,
         "castRangeType": "ranged",
         "aoe": 3000,
@@ -1979,7 +1985,7 @@
         "Critical Chance": 150,
         "Accuracy": 100,
         "Penetration": 250,
-        "Base MP/Atk": 210
+        "Base MP/Atk": 215
       },
       "s1": {
         "num": 1,
@@ -1990,7 +1996,7 @@
         "cdstart": "starts after skill animation completes",
         "animation": 4.3,
         "cast": 1,
-        "freeze": 1,
+        "freeze": 0.6,
         "castRange": 8000,
         "castRangeType": "ranged",
         "books": [
@@ -2013,7 +2019,7 @@
         "debuff": 6,
         "animation": 3.9,
         "cast": 2,
-        "freeze": 1,
+        "freeze": 0.7,
         "castRange": 12000,
         "castRangeType": "ranged",
         "aoe": 3000,
@@ -2101,7 +2107,9 @@
         "Autoattack Range": "Melee",
         "Dash Range": 3000,
         "Critical Chance": 200,
-        "Base MP/Atk": 200,
+        "Critical Power": 300,
+        "Accuracy": 100,
+        "Base MP/Atk": 260,
         "P.Dodge": 200,
         "M.Dodge": 200
       },
@@ -2115,7 +2123,7 @@
         "debuff": 10,
         "animation": 1,
         "cast": 0,
-        "freeze": 0.5,
+        "freeze": 0.2,
         "castRange": 4000,
         "castRangeType": "dash to target",
         "books": [
@@ -2138,7 +2146,7 @@
         "buff": 10,
         "animation": 2.4,
         "cast": 1.3,
-        "freeze": 1,
+        "freeze": 0.4,
         "books": [
           "ATK Increasion rate is increased by 10%.",
           "ATK Increasion rate is increased by 15%.",
@@ -2159,7 +2167,7 @@
         "debuff": "Final blow knockdown is 3s",
         "animation": 4,
         "cast": 1.1,
-        "freeze": 1,
+        "freeze": 0.4,
         "castRange": 4000,
         "castRangeType": "dash to target",
         "books": [
@@ -2191,7 +2199,7 @@
       },
       "weapon": {
         "name": "Lightning Flash, Livatis",
-        "baseAtk": 418,
+        "baseAtk": 486,
         "description": [
           "After a successful Crit Hit, gain a 80 Attack Spd and 20 % Crit DMG buff for 15 sec. Can be stacked up to 5 times max.",
           "After a successful Crit Hit, gain a 90 Attack Spd and 24 % Crit DMG buff for 15 sec. Can be stacked up to 5 times max.",
@@ -2221,7 +2229,7 @@
         "Critical Chance": 100,
         "Accuracy": 100,
         "Penetration": 150,
-        "Base MP/Atk": 340,
+        "Base MP/Atk": 425,
         "M.Dodge": 200,
         "M.Block Chance": 250
       },
@@ -2241,7 +2249,7 @@
         "debuff": 5,
         "animation": 3.3,
         "cast": 1.7,
-        "freeze": 1,
+        "freeze": 0.6,
         "castRange": "unlimited",
         "castRangeType": "ranged",
         "aoe": 3000,
@@ -2266,7 +2274,7 @@
         "debuff": "see special above",
         "animation": 3.5,
         "cast": 1.5,
-        "freeze": 1,
+        "freeze": 0.5,
         "castRange": "unlimited",
         "castRangeType": "ranged",
         "books": [
@@ -2289,7 +2297,7 @@
         "debuff": 5,
         "animation": 4,
         "cast": 2,
-        "freeze": 1,
+        "freeze": 0.7,
         "castRange": "unlimited",
         "castRangeType": "ranged",
         "aoe": "unlimited",
@@ -2343,7 +2351,7 @@
     "Demia": {
       "weapon": {
         "name": "The Blue Light, Arpheus",
-        "baseAtk": 355,
+        "baseAtk": 390,
         "description": [
           "Blocking enemy attacks has a 10% chance to recover own mana by 3% and reduces all skill cooldowns by 1 sec.",
           "Blocking enemy attacks has a 13% chance to recover own mana by 3% and reduces all skill cooldowns by 1 sec.",
@@ -2358,7 +2366,7 @@
     "Naila": {
       "weapon": {
         "name": "Cursed Claws, Baroro",
-        "baseAtk": 384,
+        "baseAtk": 442,
         "description": [
           "Upon dealing a Crit Hit, deal constant P.DMG (100 % of ATK) for 10sec. Enemy receives 20 % increased P.DMG for the duration.",
           "Upon dealing a Crit Hit, deal constant P.DMG (120 % of ATK) for 10sec. Enemy receives 24 % increased P.DMG for the duration.",
@@ -2388,7 +2396,7 @@
     "Morrah": {
       "weapon": {
         "name": "Flame of Victory, Carprain",
-        "baseAtk": 355,
+        "baseAtk": 390,
         "description": [
           "Every 10 sec, inflict M.DMG (80 % of ATK) upon enemies that have Flame stacks. Each stack of flame increases DMG by 2%. There is also a 14% chance that enemies with Flame stacks may be knocked down.",
           "Every 10 sec, inflict M.DMG (96 % of ATK) upon enemies that have Flame stacks. Each stack of flame increases DMG by 2%. There is also a 16% chance that enemies with Flame stacks may be knocked down.",
@@ -2418,7 +2426,7 @@
     "Jane": {
       "weapon": {
         "name": "Unchanging Mind, Erekura",
-        "baseAtk": 355,
+        "baseAtk": 390,
         "description": [
           "Every 4 sec, Deal M.DMG (10 % of ATK) to nearby enemies, and reduce their ATK by 10%. When her passive activates, recover 30% mana.",
           "Every 4 sec, Deal M.DMG (12 % of ATK) to nearby enemies, and reduce their ATK by 12%. When her passive activates, recover 30% mana.",
@@ -2463,7 +2471,7 @@
     "Fluss": {
       "weapon": {
         "name": "Twinswords of Fury, Veralta",
-        "baseAtk": 418,
+        "baseAtk": 486,
         "description": [
           "Gain 12% of ATK and 120 ATK Speed every 10 seconds. Stacks up to 3 times.",
           "Gain 14% of ATK and 140 ATK Speed every 10 seconds. Stacks up to 3 times.",
@@ -2583,7 +2591,7 @@
     "Ricardo": {
       "weapon": {
         "name": "Light of Judgment, Theoria",
-        "baseAtk": 355,
+        "baseAtk": 390,
         "description": [
           "When any other ally takes DMG, there is a 10% chance to grant them a shield worth 320% of Ricardo's ATK for 5 sec. This effect can only take place once every 5 sec.",
           "When any other ally takes DMG, there is a 12% chance to grant them a shield worth 384% of Ricardo's ATK for 5 sec. This effect can only take place once every 5 sec.",
@@ -2598,7 +2606,7 @@
     "Tanya": {
       "weapon": {
         "name": "Demon of the Calm, Caethasis",
-        "baseAtk": 418,
+        "baseAtk": 486,
         "description": [
           "When auto attacking, there is a 10% chance that the hero deals 140% additional P.DMG to target and gains Stealth for 10 sec. Has a cooldown of 10 sec.",
           "When auto attacking, there is a 12% chance that the hero deals 170% additional P.DMG to target and gains Stealth for 10 sec. Has a cooldown of 10 sec.",
@@ -2749,7 +2757,7 @@
       },
       "weapon": {
         "name": "Lightning Bolt, Legios",
-        "baseAtk": 384,
+        "baseAtk": 442,
         "description": [
           "Each auto attack and skill attack stacks 'Lightning' on self. Upon gaining 50 stacks, 'Lightning Strike, Legios' will activate, increasing ATK Spd by 300, Crit DMG by 100%, and DEF Pen by 300 for 10 sec. While in this state, Lightning will not stack. This effect cannot be dispelled.",
           "Each auto attack and skill attack stacks 'Lightning' on self. Upon gaining 50 stacks, 'Lightning Strike, Legios' will activate, increasing ATK Spd by 360, Crit DMG by 120%, and DEF Pen by 360 for 10 sec. While in this state, Lightning will not stack. This effect cannot be dispelled.",
@@ -2902,7 +2910,7 @@
     "Viska": {
       "weapon": {
         "name": "Nightmare Fang, Kitrax",
-        "baseAtk": 384,
+        "baseAtk": 442,
         "description": [
           "Enemies that had their Souls stolen receive 25% more M.DMG. Lasts for 10 sec.",
           "Enemies that had their Souls stolen receive 30% more M.DMG. Lasts for 10 sec.",
@@ -2917,7 +2925,7 @@
     "Priscilla": {
       "weapon": {
         "name": "Tumultuous Dance, Excilius",
-        "baseAtk": 384,
+        "baseAtk": 442,
         "description": [
           "When skills 'Vital Strike' and 'Turbulent Dance' hit the enemy, reduce the corresponding skill's cooldown by 1 sec and increase ATK Spd by 50 per hit number of enemies. ATK Spd boost may be stacked up to 10 times.",
           "When skills 'Vital Strike' and 'Turbulent Dance' hit the enemy, reduce the corresponding skill's cooldown by 1.2 sec and increase ATK Spd by 50 per hit number of enemies. ATK Spd boost may be stacked up to 10 times.",
@@ -3089,7 +3097,7 @@
     "Gladi": {
       "weapon": {
         "name": "Beast Fist, Mastra",
-        "baseAtk": 418,
+        "baseAtk": 486,
         "description": [
           "Upon a Crit Hit, increase Crit. DMG by 20% for 5 sec. This effect stacks up to 10 times.",
           "Upon a Crit Hit, increase Crit. DMG by 24% for 5 sec. This effect stacks up to 10 times.",
@@ -3569,6 +3577,17 @@
         "All DMG taken is reduced by 25% and deal 25% more DMG to enemies."
       ],
       "info": "buff is multiplicative on top of other buffs"
+    },
+    "Well-Done Turkey Roast": {
+      "description": [
+        "Every 15 sec, recover HP equal to 1% of Max HP for 3 sec.",
+        "Every 15 sec, recover HP equal to 1.2% of Max HP for 3 sec.",
+        "Every 15 sec, recover HP equal to 1.4% of Max HP for 3 sec.",
+        "Every 15 sec, recover HP equal to 1.7% of Max HP for 3 sec.",
+        "Every 15 sec, recover HP equal to 2% of Max HP for 3 sec.",
+        "Every 15 sec, recover HP equal to 2.5% of Max HP for 3 sec."
+      ],
+      "info": ""
     }
   }
 }
