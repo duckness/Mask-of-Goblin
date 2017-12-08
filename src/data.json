@@ -2349,6 +2349,109 @@
       }
     },
     "Demia": {
+      "class": "Knight",
+      "subtitle": "Fortress of Steel",
+      "description": "This guardian knight carries a gigantic lance and shield. Endures the attack of enemies with absolute fortitude and disturbs enemy lines with her lance.",
+      "t5": {
+        "light": "ATK, DEF, HP+10% / P. Block +200",
+        "dark": "At the beginning of every battle, decrease the ATK of all enemies by 20% for 10 sec. This effect cannot be dispelled."
+      },
+      "attributes": {
+        "Position": "Front",
+        "Damage Type": "Physical",
+        "Autoattack Cycle": "3.6s",
+        "Autoattack Hits": "(0.3s), (1.2s, 1.7s), (2.6s, 2.7s, 2.9s)",
+        "Autoattack Range": "Melee",
+        "Autoattack AOE": 1000,
+        "Dash Range": 3500,
+        "Critical Chance": 50,
+        "Base MP/Atk": 300,
+        "P.Block Chance": 200,
+        "P.Tough": 250,
+        "M.Tough": 250
+      },
+      "s1": {
+        "num": 1,
+        "name": "Penetration",
+        "description": "Throws a spear at the furthest enemy, dealing ??? P.DMG and dragging the enemy in front of the hero. Afterwards, deal ??? P.DMG to nearby enemies and stun for 3 sec.",
+        "mana": 2,
+        "cooldown": 9,
+        "cdstart": "starts after skill animation completes",
+        "debuff": 3,
+        "animation": 3.2,
+        "cast": 1,
+        "freeze": 0.3,
+        "castRange": 15000,
+        "castRangeType": "ranged",
+        "aoe": 2000,
+        "aoeInfo": "target",
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Lengthen Stun duration for 2 sec."
+        ],
+        "transcendence": {
+          "light": "In exchange for 1 additional Mana Cost, pull in 2 enemies.",
+          "dark": "All pulled enemies take 25% increased DMG from all sources for 10 sec."
+        }
+      },
+      "s2": {
+        "num": 2,
+        "name": "Will to Win",
+        "description": "Blocking DMG within 15 seconds will trigger a shockwave that deals ??? P.DMG to enemies in the vicinity and decrease their ATK by 20%.",
+        "mana": 2,
+        "cooldown": 15,
+        "cdstart": "starts after skill animation completes",
+        "buff": 15,
+        "animation": 2.8,
+        "cast": 1.4,
+        "freeze": 0.5,
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Enemy ATK reduction increases by 50%."
+        ],
+        "transcendence": {
+          "light": "Deals extra P.DMG based on P.DEF.",
+          "dark": "Ally P.DEF is boosted by 20% for 10 sec after activation."
+        }
+      },
+      "s3": {
+        "num": 3,
+        "name": "Steel Fortress",
+        "description": "Blocks all Physical attacks while blocking and each block boosts the final jump attack's DMG by 7%. Blocking also deals ??? DMG to enemies while stunning them. After casting, jump and strike the enemy to deal ??? P.DMG and stun them for 4 sec. While using this skill, gain immunity to CC.",
+        "mana": 3,
+        "cooldown": 20,
+        "cdstart": "starts after skill channeling completes",
+        "debuff": "Block does 2s stun, final attack does 4s stun",
+        "animation": 5.8,
+        "cast": 0.8,
+        "freeze": 0.3,
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Increase DMG by 25%."
+        ],
+        "transcendence": {
+          "light": "Upon jumping into the air, charge at the target with the highest ATK.",
+          "dark": "In exchange for 1 additional Mana Cost, upon using Steel Fortress, take 30% of all P.DMG dealt to allies instead while skill is in effect."
+        }
+      },
+      "s4": {
+        "num": 4,
+        "name": "Spearhead",
+        "description": "Increase player party's Physical Defense by ??? and increase Physical Block rate by 250.",
+        "mana": 0,
+        "books": [
+          "Increase DEF by 10%.",
+          "Increase DEF by 15%.",
+          "Increase DEF by 25%."
+        ],
+        "transcendence": {
+          "light": "P.DEF is increased by 20% and P. Block is boosted by 50%.",
+          "dark": "Recovers HP equal to 40% of P.DEF upon blocking."
+        }
+      },
       "weapon": {
         "name": "The Blue Light, Arpheus",
         "baseAtk": 390,
