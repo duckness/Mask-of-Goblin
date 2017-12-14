@@ -12,7 +12,7 @@
         "Position": "Front",
         "Damage Type": "Physical",
         "Autoattack Cycle": "4.4s",
-        "Autoattack Hits": "0.4s, 1s, 1.8s, 2.2s, 3.3s",
+        "Autoattack Hits": "(0.4s), (1s), (1.8s, 2.2s), (3.3s)",
         "Autoattack Range": 2500,
         "Autoattack AOE": 1000,
         "Dash Range": 3700,
@@ -150,7 +150,7 @@
         "Position": "Rear",
         "Damage Type": "Magical",
         "Autoattack Cycle": "1.3s",
-        "Autoattack Hits": "0.3s, 0.7s",
+        "Autoattack Hits": "(0.3s, 0.7s)",
         "Autoattack Range": 7000,
         "Critical Chance": 100,
         "Accuracy": 100,
@@ -412,7 +412,7 @@
         "Position": "Front",
         "Damage Type": "Physical",
         "Autoattack Cycle": "3.5s",
-        "Autoattack Hits": "0.3s, 0.6s, 0.8s, 1.4s, 1.7s, 2.8s",
+        "Autoattack Hits": "(0.3s, 0.6s, 0.8s), (1.4s, 1.7s), (2.8s)",
         "Autoattack Range": "Melee",
         "Dash Range": 3900,
         "Critical Chance": 200,
@@ -535,7 +535,7 @@
         "Position": "Front",
         "Damage Type": "Physical",
         "Autoattack Cycle": "4.1s",
-        "Autoattack Hits": "0.9s, 1.6s, 2s, 2.8s",
+        "Autoattack Hits": "(0.9s), (1.6s, 2s), (2.8s)",
         "Autoattack Range": "Melee",
         "Autoattack AOE": 1500,
         "Dash Range": 3700,
@@ -666,7 +666,7 @@
         "Position": "Front",
         "Damage Type": "Physical",
         "Autoattack Cycle": "4.3s",
-        "Autoattack Hits": "0.4s, 1s, 1.3s, 1.9s, 2.9s",
+        "Autoattack Hits": "(0.4s), (1s, 1.3s), (1.9s), (2.9s)",
         "Autoattack Range": "Melee",
         "Autoattack AOE": 500,
         "Dash Range": 3500,
@@ -1057,7 +1057,7 @@
         "Position": "Front",
         "Damage Type": "Magical",
         "Autoattack Cycle": "4.9s",
-        "Autoattack Hits": "0.4s, 0.8s, 1.5s, 2.2s, 2.5s, (final AOE: 3.4s, 3.6s, 3.8s, 4s, 4.2s)",
+        "Autoattack Hits": "(0.4s, 0.8s), (1.5s), (2.2s, 2.5s), (3.4s, 3.6s, 3.8s, 4s, 4.2s)",
         "Autoattack Range": "Melee",
         "Autoattack AOE": "1000 (2000 for final AOE)",
         "Dash Range": 3000,
@@ -1706,7 +1706,7 @@
         "Position": "Front",
         "Damage Type": "Physical",
         "Autoattack Cycle": "4s",
-        "Autoattack Hits": "0.5s, 0.7s, 1.6s, 2.1s, 3.1s",
+        "Autoattack Hits": "(0.5s, 0.7s), (1.6s, 2.1s), (3.1s)",
         "Autoattack Range": "Melee",
         "Autoattack AOE": 1000,
         "Dash Range": 3500,
@@ -1980,7 +1980,7 @@
         "Position": "Middle",
         "Damage Type": "Magical",
         "Autoattack Cycle": "2.6s",
-        "Autoattack Hits":"0.4s, 1s, 1.8s",
+        "Autoattack Hits":"(0.4s), (1s), (1.8s)",
         "Autoattack Range": 7000,
         "Critical Chance": 150,
         "Accuracy": 100,
@@ -2103,7 +2103,7 @@
         "Position": "Front",
         "Damage Type": "Physical",
         "Autoattack Cycle": "3.1s",
-        "Autoattack Hits": "0.4s, 0.7s, 0.9s, 1.4s, 1.6s, 1.8s, 2.6s",
+        "Autoattack Hits": "(0.4s, 0.7s, 0.9s), (1.4s, 1.6s, 1.8s), (2.6s)",
         "Autoattack Range": "Melee",
         "Dash Range": 3000,
         "Critical Chance": 200,
@@ -2467,6 +2467,120 @@
       }
     },
     "Naila": {
+      "class": "Warrior",
+      "subtitle": "Wind's Fighter",
+      "description": "A harpy that specializes in melee combat using her knuckles. Quickly moves between the enemy, wreaking havoc upon them. Smashes enemies by launching powerful consecutive attacks.",
+      "t5": {
+        "light": "ATK, DEF, HP+10% / P.Dodge +100",
+        "dark": "Upon dodging, all skill cooldowns are reduced by 2%. Also, ATK is boosted by 3%, and Atk Spd is boosted by 30. The ATK and Atk Spd Boosts can stack up to 10 times."
+      },
+      "attributes": {
+        "Position": "Front",
+        "Damage Type": "Physical",
+        "Autoattack Cycle": "3.8s",
+        "Autoattack Hits": "(0.3s), (0.7s, 0.9s, 1.3s), (1.8s), (2.8s)",
+        "Autoattack Range":"Melee",
+        "Autoattack Scaling": 7.6,
+        "Dash Range": 4000,
+        "Critical Chance": 150,
+        "Accuracy": 100,
+        "Penetration": 150,
+        "CC Resist": 150,
+        "Base MP/Atk": 235,
+        "P.Dodge": 100,
+        "M.Dodge": 100,
+        "P.Tough": 100,
+        "M.Tough": 100
+      },
+      "s1": {
+        "num": 1,
+        "name": "Fierce Winds",
+        "description": "Dash towards the enemy 2 times, dealing ??? P.DMG to enemies within range, knocking them down for 3 sec.",
+        "mana": 2,
+        "cooldown": 8,
+        "cdstart": "starts after skill animation completes",
+        "debuff": "3s, applies twice",
+        "animation": 2.1,
+        "cast": 1,
+        "freeze": 0.3,
+        "castRange": "unlimited",
+        "castRangeType": "dash to target",
+        "aoe": 1000,
+        "aoeInfo": "target ground",
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Increase Crit Chance by 250."
+        ],
+        "transcendence": {
+          "light": "DMG is increased by 40%.",
+          "dark": "In exchange for 1 additional Mana Cost, target changes to the enemy with the highest ATK."
+        }
+      },
+      "s2": {
+        "num": 2,
+        "name": "Wind Reading",
+        "description": "P.Dodge Chance rises by 250 for 15 sec and ATK rises by ???.",
+        "mana": 3,
+        "cooldown": 15,
+        "cdstart": "starts after skill animation completes",
+        "buff": 15,
+        "animation": 1.3,
+        "cast": 1,
+        "freeze": 0.3,
+        "books": [
+          "ATK Increasion rate is increased by 10%.",
+          "ATK Increasion rate is increased by 15%.",
+          "ATK Increasion rate is increased by 25%."
+        ],
+        "transcendence": {
+          "light": "ATK boost is increased by 40%.",
+          "dark": "Increases own Crit Chance by 600."
+        }
+      },
+      "s3": {
+        "num": 3,
+        "name": "Dive Bomb",
+        "description": "Fly high and strike the enemy below. Inflicts ??? P.DMG to enemies. 50% DMG increase to enemies that have been knocked down.",
+        "mana": 3,
+        "cooldown": 12,
+        "cdstart": "starts after skill animation completes",
+        "debuff": 3,
+        "animation": 2.9,
+        "cast": 0,
+        "freeze": 0.5,
+        "castRange": 6000,
+        "castRangeType": "dash to target",
+        "aoe": 5000,
+        "aoeInfo": "self",
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Inflict DMG upon the enemy and Stun them for 3 sec."
+        ],
+        "transcendence": {
+          "light": "DMG is increased by 40%.",
+          "dark": "Reduces cooldown by 10% per each enemy that takes Critical DMG."
+        }
+      },
+      "s4": {
+        "num": 4,
+        "name": "Tornado Strike",
+        "description": "Upon auto-attacking, the 5th hit of the combo has a 30% chance to inflict ??? additional P.DMG upon the enemy and knock them down.",
+        "mana": "passive",
+        "cooldown": 0.5,
+        "debuff": 3,
+        "books": [
+          "Increase DMG by 10%.",
+          "Increase DMG by 15%.",
+          "Increase DMG by 25%."
+        ],
+        "transcendence": {
+          "light": "Activation chance is boosted by 10%.",
+          "dark": "Atk Spd is boosted by 300 when effect takes place.",
+          "darkInfo": "10s"
+        }
+      },
       "weapon": {
         "name": "Cursed Claws, Baroro",
         "baseAtk": 442,
