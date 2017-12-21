@@ -2480,7 +2480,6 @@
         "Autoattack Cycle": "3.8s",
         "Autoattack Hits": "(0.3s), (0.7s, 0.9s, 1.3s), (1.8s), (2.8s)",
         "Autoattack Range":"Melee",
-        "Autoattack Scaling": 7.6,
         "Dash Range": 4000,
         "Critical Chance": 150,
         "Accuracy": 100,
@@ -3284,6 +3283,264 @@
         "info": "The effect has a cooldown of 0.5s between triggers."
       }
     },
+    "Scarlet": {
+      "class": "Warrior",
+      "subtitle": "Faith of Silver",
+      "description": "A princess of Orvelia that truly loves her people. She wields her sword to protect the weak and support justice, as a true knight. Using a magical greatsword that disrupts mana, she cuts through her enemies.",
+      "t5": {
+        "light": "ATK, DEF, HP+10% / CC Resist +100",
+        "dark": "When receiving Critical DMG, there is a 5% chance the attacker is dispelled of all positive effects and is stunned for 1 sec. Skill cooldown is 8 sec."
+      },
+      "attributes": {
+        "Position": "Front",
+        "Damage Type": "Physical",
+        "Autoattack Cycle": "3.4s",
+        "Autoattack Hits": "(0.3s), (0.7s, 1s, 1.3s), (1.9s, 2.4s)",
+        "Autoattack Range": "Melee",
+        "Dash Range": 4000,
+        "Critical Chance": 150,
+        "Accuracy": 100,
+        "Penetration": 150,
+        "CC Resist": 150,
+        "Base MP/Atk": 285,
+        "P.Dodge": 100,
+        "M.Dodge": 100,
+        "P.Tough": 100,
+        "M.Tough": 100
+      },
+      "s1": {
+        "num": 1,
+        "name": "Halt!",
+        "description": "Deals ??? P.DMG to frontal enemies in range, and knocks them down for 3 sec. Recovers HP proportional to 20% of DMG.",
+        "mana": 3,
+        "cooldown": 8,
+        "cdstart": "starts after skill animation completes",
+        "debuff": 3,
+        "animation": 2.8,
+        "cast": 1.6,
+        "freeze": 0.5,
+        "castRange": 3000,
+        "castRangeType": "dash to target",
+        "skillRange": 500,
+        "skillRangeType": "AOE is offset to the front of hero",
+        "aoe": 3500,
+        "aoeInfo": "self",
+        "books": [
+          "DMG is increased by 10%.",
+          "DMG is increased by 15%.",
+          "Target takes 25% increased P.DMG for 10 sec."
+        ],
+        "transcendence": {
+          "light": "Mana cost is reduced by 1.",
+          "dark": "Dispels all harmful effects on oneself upon use."
+        }
+      },
+      "s2": {
+        "num": 2,
+        "name": "Justice Served!",
+        "description": "Dispels harmful effects of all allies and dispels positive effects of all enemies, dealing ??? P.DMG and reducing their Mana by 500.",
+        "mana": 1,
+        "cooldown": 15,
+        "cdstart": "starts after skill animation completes",
+        "animation": 2.6,
+        "cast": 1.2,
+        "freeze": 0.4,
+        "castRange": "unlimited",
+        "castRangeType": "ranged",
+        "books": [
+          "DMG is increased by 10%.",
+          "DMG is increased by 15%.",
+          "All allies gain Immunity to CC for 2 sec upon activation."
+        ],
+        "transcendence": {
+          "light": "All allies take 15% reduced DMG for 10 sec.",
+          "dark": "Mana cost increases by 2 and all enemies are stunned for 3 sec."
+        }
+      },
+      "s3": {
+        "num": 3,
+        "name": "Sword of Honor!!",
+        "description": "Attacks an enemy 3 times, dealing a total of ??? P.DMG. Fires an energy blast from the sword, dealing ??? P.DMG to enemies in a straight line, blinding them for 5 sec.",
+        "mana": 4,
+        "cooldown": 22,
+        "cdstart": "starts after skill animation completes",
+        "debuff": 5,
+        "animation": 3.3,
+        "cast": 0.3,
+        "freeze": 0.1,
+        "castRange": 3000,
+        "castRangeType": "dash to target",
+        "skillRange": 10000,
+        "skillRangeType": "energy blast is this distance long",
+        "aoe": "1800",
+        "aoeInfo": "energy blast width",
+        "books": [
+          "DMG is increased by 10%.",
+          "DMG is increased by 15%.",
+          "DMG is increased by 25%."
+        ],
+        "transcendence": {
+          "light": "Mana cost is reduced by 1.",
+          "dark": "Damaged enemies receive 40% reduced heals for 10 sec."
+        }
+      },
+      "s4": {
+        "num": 4,
+        "name": "Goddess of War",
+        "description": "All Crit Resistance increases by 250. With 10% chance, deals additional ??? P.DMG during auto attack and stuns target enemy for 1 sec." ,
+        "mana": "passive",
+        "debuff": 1,
+        "books": [
+          "DMG is increased by 10%.",
+          "DMG is increased by 15%.",
+          "DMG is increased by 25%."
+        ],
+        "transcendence": {
+          "light": "Crit Resistance increases to 400.",
+          "dark": "Stun duration lasts for 2 more sec when there is only one enemy."
+        }
+      },
+      "weapon": {
+        "name": "Blade of Conviction, White Belona",
+        "baseAtk": 442,
+        "description": [
+          "Per every skill in cooldown, DMG is increased by 8%.",
+          "Per every skill in cooldown, DMG is increased by 10%.",
+          "Per every skill in cooldown, DMG is increased by 12%.",
+          "Per every skill in cooldown, DMG is increased by 14%.",
+          "Per every skill in cooldown, DMG is increased by 17%.",
+          "Per every skill in cooldown, DMG is increased by 20%."
+        ],
+        "info": ""
+      }
+    },
+    "Sonia": {
+      "class": "Knight",
+      "subtitle": "The Blue Hurricane",
+      "description": "A genius who was acknowledged by the Tower of Sages, while not being part of it. She was given the title of 'Blue', but her true identity is that of a homunculus. Her orbs of lightning do not even leave ash in their wake.",
+      "t5": {
+        "light": "ATK, DEF, HP+10% / ATK.Spd +100",
+        "dark": "Upon attack, with 15% chance deals extra M.DMG by 10% of Max HP and injects 1 extra stack of Electricity."
+      },
+      "attributes": {
+        "Position": "Front",
+        "Damage Type": "Magical",
+        "Autoattack Cycle": "3.3",
+        "Autoattack Hits": "(0.4s), (0.8s), (1.4s, 1.6s), (2.6s)",
+        "Autoattack Range": "Melee",
+        "Dash Range": 3500,
+        "Critical Chance": 50,
+        "Base MP/Atk": 205,
+        "P.Block Chance": 200,
+        "P.Tough": 250,
+        "M.Tough": 250
+      },
+      "s1": {
+        "num": 1,
+        "name": "Lightning Strike!",
+        "description": "Causes an electric explosion ahead, dealing ??? M.DMG to enemies in range and placing an electric field for 3 sec. The electric field deals a total of ??? M.DMG over 10 attacks and with 25% chance, stuns the enemy for 0.5 sec." ,
+        "mana": 2,
+        "cooldown": 8,
+        "cdstart": "starts after skill animation completes",
+        "debuff": 0.5,
+        "animation": 2.7,
+        "cast": 1.3,
+        "freeze": 0.4,
+        "castRange": 4000,
+        "castRangeType": "ranged",
+        "skillRange": 3500,
+        "skillRangeType": "AOE is offset to the front of hero",
+        "aoe": 2700,
+        "aoeInfo": "self",
+        "books": [
+          "DMG is increased by 10%.",
+          "DMG is increased by 15%.",
+          "DMG is increased by 25%."
+        ],
+        "transcendence": {
+          "light": "Mana cost is reduced by 1.",
+          "dark": "Stun chance is increased by 10%."
+        }
+      },
+      "s2": {
+        "num": 2,
+        "name": "Power of Lightning!",
+        "description": "Consumes 20% of current HP to increase ATK by ??? and all DEF by ??? for 15 sec. While this skill is active, with 20% chance deals additional ??? M.DMG during auto attack to 2 random targets and stuns them for 0.5 sec.",
+        "mana": 2,
+        "cooldown": 20,
+        "cdstart": "starts after skill animation completes",
+        "buff": 15,
+        "debuff": 0.5,
+        "animation": 2.6,
+        "cast": 1,
+        "freeze": 0.3,
+        "books": [
+          "ATK and DEF boosts are increased by 10%.",
+          "ATK and DEF boosts are increased by 15%.",
+          "ATK and DEF boosts are increased by 25%."
+        ],
+        "transcendence": {
+          "light": "ATK and DEF boosts are increased by 40%.",
+          "dark": "ATK Spd is increased by 250 while duration."
+        }
+      },
+      "s3": {
+        "num": 3,
+        "name": "Electric Explosion!",
+        "description": "Deals a total of ??? M.DMG over 3 attacks to nearby enemies in a circular range. Then causes an Electric Explosion, dealing a total of ??? M.DMG over 3 attacks and stunning them for 5 sec.",
+        "mana": 4,
+        "cooldown": 23,
+        "cdstart": "starts after skill animation completes",
+        "debuff": 5,
+        "tick": 6,
+        "tickInfo": "3 ticks of first damage, 3 ticks of explosion, dealing 3 x 5s of stun",
+        "animation": 4.4,
+        "cast": 0.6,
+        "freeze": 0.2,
+        "castRange": 4500,
+        "castRangeType": "ranged",
+        "aoe":4300,
+        "aoeInfo": "self",
+        "books": [
+          "DMG is increased by 10%.",
+          "DMG is increased by 15%.",
+          "DMG is increased by 25%."
+        ],
+        "transcendence": {
+          "light": "While in use, gain immunity to CC.",
+          "dark": "Recovers 1% of Max HP every time DMG is dealt to enemy."
+        }
+      },
+      "s4": {
+        "num": 4,
+        "name": "Shock",
+        "description": "With every attack, injects Electricity to targets not inflicted by Shock and increases M.DMG taken by 0.5% for 10 sec. Electricity can be stacked up to 30 times, and the 30th stack will consume all Electricity to deal ??? M.DMG and Shock the target for 7 sec. Enemies inflicted by Shock take 30% increased M.DMG, and when they are inflicted by Stun, the duration is increased by 0.7 sec.",
+        "mana": "passive",
+        "debuff": "10s for Electricity, 7s for Shock",
+        "books": [
+          "DMG is increased by 10%.",
+          "DMG is increased by 15%.",
+          "DMG is increased by 25%."
+        ],
+        "transcendence": {
+          "light": "Increased M.DMG taken changes to 40% for enemies inflicted by Shock.",
+          "dark": "Increased M.DMG taken' effect changes to 'Increased P. and M. DMG taken'."
+        }
+      },
+      "weapon": {
+        "name": "Eye of the Storm, Yanadis",
+        "baseAtk": 390,
+        "description": [
+          "Shock duration is increased by 2 sec. When auto attacking an enemy inflicted by Shock, all cooldowns are reduced by 1%.",
+          "Shock duration is increased by 3 sec. When auto attacking an enemy inflicted by Shock, all cooldowns are reduced by 1.2%.",
+          "Shock duration is increased by 4 sec. When auto attacking an enemy inflicted by Shock, all cooldowns are reduced by 1.4%.",
+          "Shock duration is increased by 5 sec. When auto attacking an enemy inflicted by Shock, all cooldowns are reduced by 1.7%.",
+          "Shock duration is increased by 6 sec. When auto attacking an enemy inflicted by Shock, all cooldowns are reduced by 2.1%.",
+          "Shock duration is increased by 7 sec. When auto attacking an enemy inflicted by Shock, all cooldowns are reduced by 2.5%."
+        ],
+        "info": ""
+      }
+    },
     "Artemia": {
       "class": "Wizard",
       "subtitle": "Empress of Light",
@@ -3407,6 +3664,128 @@
           "Every 15 sec, create a Shield worth 350% of ATK that lasts for 10 sec, which also increases own ATK by 35%. While the Shield is in effect, gain immunity to CC.",
           "Every 15 sec, create a Shield worth 420% of ATK that lasts for 10 sec, which also increases own ATK by 42%. While the Shield is in effect, gain immunity to CC.",
           "Every 15 sec, create a Shield worth 500% of ATK that lasts for 10 sec, which also increases own ATK by 50%. While the Shield is in effect, gain immunity to CC."
+        ],
+        "info": ""
+      }
+    },
+    "Mirianne": {
+      "class": "Assassin",
+      "subtitle": "Servant of Blue",
+      "description": "The assistant and maid of the archmage of Blue, Sonia. She acts only for the sake of Sonia, who is her employer, sister and friend. Using her keen eyes and mind, she exploits the enemy's weakness with her daggers.",
+      "t5": {
+        "light": "ATK, DEF, HP+10% / Crit Chance +100",
+        "dark": "Upon using 'Assassination', dispels target's positive effects and stuns them for 5 sec."
+      },
+      "attributes": {
+        "Position": "Rear",
+        "Damage Type": "Magical",
+        "Autoattack Cycle": "2.5s",
+        "Autoattack Hits": "(0.3s), (0.7s), (1.4s), (2s)",
+        "Autoattack Range": 5500,
+        "Critical Chance": 200,
+        "Critical Power": 300,
+        "Accuracy": 100,
+        "Base MP/Atk": 155,
+        "P.Dodge": 200,
+        "M.Dodge": 200
+      },
+      "s1": {
+        "num": 1,
+        "name": "Target Lock On",
+        "description": "Attacks the enemy with the lowest M.DEF, dealing a total of ??? M.DMG over 3 attacks. The last attack inflicts 'Target Lock On' on the enemy for 5 sec. This effect cannot be dispelled.",
+        "mana": 1,
+        "cooldown": 6,
+        "cdstart": "starts after skill animation completes",
+        "debuff": 5,
+        "animation": 2.8,
+        "cast": 1.3,
+        "freeze": 0.4,
+        "castRange": "unlimited",
+        "castRangeType": "ranged",
+        "books": [
+          "DMG is increased by 10%.",
+          "DMG is increased by 15%.",
+          "DMG is increased by 25%."
+        ],
+        "transcendence": {
+          "light": "When there is 1 enemy, DMG is boosted by 100%.",
+          "dark": "With 30% chance, stuns enemy for 1 sec"
+        }
+      },
+      "s2": {
+        "num": 2,
+        "name": "Restrain and Protect",
+        "description": "Deals ??? M.DMG to target enemy and other enemies in range, moves to an ally with the lowest P.DEF and creates a Shield for two that can block a total of ??? DMG for 5 sec. Shield will be ineffective when there is no ally. Protected ally and self becomes immune to CC while the Shield lasts." ,
+        "mana": 3,
+        "cooldown": 12,
+        "cdstart": "starts after skill animation completes",
+        "buff": 5,
+        "animation": 1.7,
+        "cast": 1,
+        "freeze": 0.3,
+        "castRange": "Target Lock On enemy",
+        "castRangeType": "Target Lock On",
+        "skillRange": 4000,
+        "skillRangeType": "AOE is offset to the front of hero",
+        "aoe": 3000,
+        "aoeInfo": "self",
+        "books": [
+          "DMG and Shield are increased by 10%.",
+          "DMG and Shield are increased by 15%.",
+          "DMG and Shield are increased by 25%."
+        ],
+        "transcendence": {
+          "light": "DMG and Shield are increased by 40%",
+          "dark": "Mana cost is reduced by 1."
+        }
+      },
+      "s3": {
+        "num": 3,
+        "name": "Assassination",
+        "description": "Moves to an enemy with the lowest HP, deals ??? M.DMG then returns to the furthest ally. If the enemy is a Boss, deals ??? additional M.DMG that ignores DEF. Defeating a target with this skill instantly triggers 'Restrain and Protect'.",
+        "mana": 3,
+        "cooldown": 14,
+        "cdstart": "starts after skill animation completes",
+        "animation": 2.1,
+        "cast": 2,
+        "freeze": 0.7,
+        "castRange": "unlimited",
+        "castRangeType": "dash to target",
+        "books": [
+          "DMG is increased by 10%.",
+          "DMG is increased by 15%.",
+          "DMG is increased by 25%."
+        ],
+        "transcendence": {
+          "light": "Mana cost is reduced by 1.",
+          "dark": "Cooldown is reduced by 50% when enemy is killed."
+        }
+      },
+      "s4": {
+        "num": 4,
+        "name": "Target Eliminated",
+        "description": "If an enemy is inflicted by 'Target Lock On', ATK increases by ??? and all attacks skills prioritize the Locked On enemy.",
+        "mana": "passive",
+        "books": [
+          "ATK increase amount is boosted by 10%.",
+          "ATK increase amount is boosted by 15%.",
+          "ATK increase amount is boosted by 25%."
+        ],
+        "transcendence": {
+          "light": "All 'Target Lock On' durations increase by 2 sec.",
+          "dark": "Receives 30% reduced DMG when enemy is inflicted by 'Target Lock On'."
+        }
+      },
+      "weapon": {
+        "name": "Endless Acceleration, Riventina",
+        "baseAtk": 486,
+        "description": [
+          "While auto-attacking, there is a 10% chance to increase ATK Spd by 200 for 5 sec while attacking the enemy with the lowest M.DEF, dealing 100% of ATK as extra M.DMG and inflicting 'Target Lock On' for 5 sec. This attack prioritizes a Locked On enemy.",
+          "While auto-attacking, there is a 12% chance to increase ATK Spd by 240 for 5 sec while attacking the enemy with the lowest M.DEF, dealing 120% of ATK as extra M.DMG and inflicting 'Target Lock On' for 5 sec. This attack prioritizes a Locked On enemy.",
+          "While auto-attacking, there is a 14% chance to increase ATK Spd by 290 for 5 sec while attacking the enemy with the lowest M.DEF, dealing 140% of ATK as extra M.DMG and inflicting 'Target Lock On' for 5 sec. This attack prioritizes a Locked On enemy.",
+          "While auto-attacking, there is a 17% chance to increase ATK Spd by 350 for 5 sec while attacking the enemy with the lowest M.DEF, dealing 170% of ATK as extra M.DMG and inflicting 'Target Lock On' for 5 sec. This attack prioritizes a Locked On enemy.",
+          "While auto-attacking, there is a 21% chance to increase ATK Spd by 420 for 5 sec while attacking the enemy with the lowest M.DEF, dealing 210% of ATK as extra M.DMG and inflicting 'Target Lock On' for 5 sec. This attack prioritizes a Locked On enemy.",
+          "While auto-attacking, there is a 25% chance to increase ATK Spd by 500 for 5 sec while attacking the enemy with the lowest M.DEF, dealing 250% of ATK as extra M.DMG and inflicting 'Target Lock On' for 5 sec. This attack prioritizes a Locked On enemy."
         ],
         "info": ""
       }
