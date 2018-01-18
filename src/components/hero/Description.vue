@@ -15,6 +15,7 @@
             </span>
             <br>
             <small class="subtitle is-5">{{ hero.subtitle }}</small>
+            <br><span><a :href="linkWiki">Wiki</a> | <a :href="linkBuilder">Build this hero</a></span>
             <br>{{ hero.description }}
             <br>
             <div class="columns">
@@ -123,6 +124,12 @@ export default {
     ]),
     heroImage: function () {
       return require('./images/icon/' + this.item + '.png')
+    },
+    linkWiki: function () {
+      return 'http://www.kingsraid.wiki/index.php?title=' + this.item
+    },
+    linkBuilder: function () {
+      return 'https://angryraids.ml/hero/' + this.item
     }
   },
   methods: {
