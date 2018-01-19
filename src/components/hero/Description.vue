@@ -42,7 +42,8 @@
         </div>
         <div class="content" v-else>
           <strong class="title is-3">{{ item }}</strong>
-          <p>Hero data coming soon!</p>
+          <p>Hero data coming soon! In the meantime, you can check out these links for more info.
+          <br><span><a :href="linkWiki">Wiki</a> | <a :href="linkBuilder">Build this hero</a></span></p>
         </div>
       </div>
     </article>
