@@ -43,7 +43,7 @@ export default {
     ]),
     item: {
       get () {
-        return this.$store.state.item
+        return this.$store.state.heroItem
       },
       set (newItem) {
         this.$store.commit('itemChange', newItem)

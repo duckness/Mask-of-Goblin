@@ -7,8 +7,9 @@ Vue.use(Vuex)
 const state = {
   page: 'hero',
   items: require('@/data.json'),
-  item: 'Kasel',
-  oldItem: 'Mask of Goblin',
+  heroItem: 'Kasel',
+  artifactItem: 'Mask of Goblin',
+  calcItem: 'softcap',
   enableLevel: true,
   star: 0,
   level: 0
@@ -16,15 +17,15 @@ const state = {
 
 const getters = {
   getHero: function () {
-    return state.items.hero[state.item]
+    return state.items.hero[state.heroItem]
   },
   itemImage: function () {
     switch (state.page) {
       case 'hero':
         // return the require like this as require is fussy
-        return require('@/components/hero/images/uw/' + state.item + '.png')
+        return require('@/components/hero/images/uw/' + state.heroItem + '.png')
       case 'artifact':
-        return require('@/components/artifact/images/' + state.item + '.png')
+        return require('@/components/artifact/images/' + state.artifactItem + '.png')
     }
   },
   equips: function () {
@@ -44,6 +45,9 @@ const getters = {
       case 'artifact':
         equips = Object.keys(state.items.artifact)
         break
+      case 'calc':
+        equips = state.items.calc
+        break
     }
     return equips.sort()
   },
@@ -51,10 +55,10 @@ const getters = {
     let name = ''
     switch (state.page) {
       case 'hero':
-        name = state.items.hero[state.item].weapon.name
+        name = state.items.hero[state.heroItem].weapon.name
         break
       case 'artifact':
-        name = state.item
+        name = state.artifactItem
         break
     }
     return name
@@ -63,7 +67,7 @@ const getters = {
     let atk = ''
     switch (state.page) {
       case 'hero':
-        atk = '(' + Math.floor(Math.floor(state.items.uwScale.starScale[state.star] * state.items.uwScale.levelScale[state.level] / 1000) * state.items.hero[state.item].weapon.baseAtk / 1000) + ' atk)'
+        atk = '(' + Math.floor(Math.floor(state.items.uwScale.starScale[state.star] * state.items.uwScale.levelScale[state.level] / 1000) * state.items.hero[state.heroItem].weapon.baseAtk / 1000) + ' atk)'
         break
       case 'artifact':
         atk = ''
@@ -75,10 +79,10 @@ const getters = {
     let itemText = ''
     switch (state.page) {
       case 'hero':
-        itemText = state.items.hero[state.item].weapon.description[state.star]
+        itemText = state.items.hero[state.heroItem].weapon.description[state.star]
         break
       case 'artifact':
-        itemText = state.items.artifact[state.item].description[state.star]
+        itemText = state.items.artifact[state.artifactItem].description[state.star]
         break
     }
     return itemText
@@ -94,10 +98,10 @@ const getters = {
     }
     switch (state.page) {
       case 'hero':
-        additionalInfo = pickInfo(state.items.hero[state.item].weapon.info, state.star)
+        additionalInfo = pickInfo(state.items.hero[state.heroItem].weapon.info, state.star)
         break
       case 'artifact':
-        additionalInfo = pickInfo(state.items.artifact[state.item].info, state.star)
+        additionalInfo = pickInfo(state.items.artifact[state.artifactItem].info, state.star)
         break
     }
     return additionalInfo
@@ -114,20 +118,28 @@ const mutations = {
   },
   pageChange: function (state, newPage) {
     state.page = newPage
-    var tempItem = state.item
-    state.item = state.oldItem
-    state.oldItem = tempItem
     switch (state.page) {
       case 'hero':
         state.enableLevel = true
         break
       case 'artifact':
+      case 'calc':
         state.enableLevel = false
         break
     }
   },
   itemChange: function (state, newItem) {
-    state.item = newItem
+    switch (state.page) {
+      case 'hero':
+        state.heroItem = newItem
+        break
+      case 'artifact':
+        state.artifactItem = newItem
+        break
+      case 'calc':
+        state.calcItem = newItem
+        break
+    }
   },
   starChange: function (state, newStar) {
     state.star = Number(newStar)
@@ -174,13 +186,15 @@ const helpers = {
   routeInit: function (query) {
     if ('item' in query) {
       if (query.item in state.items.artifact) {
-        state.oldItem = 'Kasel'
         state.enableLevel = false
         state.page = 'artifact'
-        state.item = query.item
+        state.artifactItem = query.item
       } else if (query.item in state.items.hero) {
         state.page = 'hero'
-        state.item = query.item
+        state.heroItem = query.item
+      } else if (state.items.calc.includes(query.item)) {
+        state.page = 'calc'
+        state.calcItem = query.item
       }
     }
     if ('star' in query) {
@@ -196,9 +210,11 @@ const helpers = {
   },
   modifyRoute: function () {
     if (state.page === 'hero') {
-      router.replace({ query: { item: state.item, star: state.star, level: state.level } })
+      router.replace({ query: { item: state.heroItem, star: state.star, level: state.level } })
+    } else if (state.page === 'artifact') {
+      router.replace({ query: { item: state.artifactItem, star: state.star } })
     } else {
-      router.replace({ query: { item: state.item, star: state.star } })
+      router.replace({ query: { item: state.calcItem } })
     }
   },
   levelValidation: function (level) {

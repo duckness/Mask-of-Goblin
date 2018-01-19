@@ -1,5 +1,5 @@
 <template>
-  <div class="columns" id="artifact-options">
+  <div class="columns" id="calc-options">
     <div class="column">
       <div class="field">
         <div class="control is-expanded">
@@ -11,29 +11,22 @@
         </div>
       </div>
     </div>
-    <div class="column is-narrow">
-      <star-selector/>
-    </div>
   </div>
 </template>
 
 <script>
 
 import { mapGetters } from 'vuex'
-import StarSelector from '@/components/common/StarSelector.vue'
 
 export default {
-  name: 'artifact-options',
-  components: {
-    'star-selector': StarSelector
-  },
+  name: 'calc-options',
   computed: {
     ...mapGetters([
       'equips'
     ]),
     item: {
       get () {
-        return this.$store.state.artifactItem
+        return this.$store.state.calcItem
       },
       set (newItem) {
         this.$store.commit('itemChange', newItem)

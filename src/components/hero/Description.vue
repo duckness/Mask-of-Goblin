@@ -109,9 +109,9 @@ export default {
     'attributes': Attributes
   },
   computed: {
-    ...mapState([
-      'item'
-    ]),
+    ...mapState({
+      item: 'heroItem'
+    }),
     ...mapGetters({
       hero: 'getHero'
     }),

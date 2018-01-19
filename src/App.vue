@@ -7,11 +7,13 @@
             <div class="box">
               <artifact-description v-if="page === 'artifact'"/>
               <hero-description v-if="page === 'hero'"/>
+              <calc-description v-if="page === 'calc'"/>
               <br>
               <label class="label">Select:</label>
               <page-selector/>
               <artifact-options v-if="page === 'artifact'"/>
               <hero-options v-if="page === 'hero'"/>
+              <calc-options v-if="page === 'calc'"/>
             </div>
           </div>
         </div>
@@ -29,6 +31,8 @@ import ArtifactDescription from './components/artifact/Description.vue'
 import ArtifactOptions from './components/artifact/Options.vue'
 import HeroDescription from './components/hero/Description.vue'
 import HeroOptions from './components/hero/Options.vue'
+import CalcDescription from './components/calculators/Calc.vue'
+import CalcOptions from './components/calculators/Options.vue'
 import MogFooter from './components/MogFooter.vue'
 
 require('./style.scss')
@@ -44,6 +48,8 @@ export default {
     'artifact-options': ArtifactOptions,
     'hero-description': HeroDescription,
     'hero-options': HeroOptions,
+    'calc-description': CalcDescription,
+    'calc-options': CalcOptions,
     'mog-footer': MogFooter
   },
   computed: {

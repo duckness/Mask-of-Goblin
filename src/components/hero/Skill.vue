@@ -91,9 +91,9 @@ export default {
     'orb': Orb
   },
   computed: {
-    ...mapState([
-      'item'
-    ]),
+    ...mapState({
+      item: 'heroItem'
+    }),
     skillNum: function () {
       return 'skill' + this.skill.num
     },

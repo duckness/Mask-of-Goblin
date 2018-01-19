@@ -5,6 +5,7 @@
         <select v-model="page" @change="pageChange">
           <option value="hero">Hero</option>
           <option value="artifact">Artifact</option>
+          <option value="calc">Calculator</option>
         </select>
       </div>
     </div>
