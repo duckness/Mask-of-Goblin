@@ -130,7 +130,7 @@ export default {
       return 'http://www.kingsraid.wiki/index.php?title=' + this.item
     },
     linkBuilder: function () {
-      return 'https://angryraids.ml/hero/' + this.item
+      return 'https://angryraids.ml/#/' + this.item
     }
   },
   methods: {
