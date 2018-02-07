@@ -1684,12 +1684,12 @@
         "name": "World Tree's Will, Roburu",
         "baseAtk": 510,
         "description": [
-          "Every 7 sec, deals 40% of ATK as M.DMG to enemies inflicted with Poison, and reduces enemy M.DEF by 10%. Per every stacked Poison, DMG is increased by 20%.","Every 10 sec, deal M.DMG equal to 40% of ATK to enemies afflicted with poison, and reduce M.DEF by 10%. Every stack of poison increases this DMG by 20%.",
-          "Every 7 sec, deals 48% of ATK as M.DMG to enemies inflicted with Poison, and reduces enemy M.DEF by 12%. Per every stacked Poison, DMG is increased by 20%.","Every 10 sec, deal M.DMG equal to 48% of ATK to enemies afflicted with poison, and reduce M.DEF by 12%. Every stack of poison increases this DMG by 20%.",
-          "Every 7 sec, deals 57% of ATK as M.DMG to enemies inflicted with Poison, and reduces enemy M.DEF by 14%. Per every stacked Poison, DMG is increased by 20%.","Every 10 sec, deal M.DMG equal to 57% of ATK to enemies afflicted with poison, and reduce M.DEF by 14%. Every stack of poison increases this DMG by 20%.",
-          "Every 7 sec, deals 69% of ATK as M.DMG to enemies inflicted with Poison, and reduces enemy M.DEF by 17%. Per every stacked Poison, DMG is increased by 20%.","Every 10 sec, deal M.DMG equal to 69% of ATK to enemies afflicted with poison, and reduce M.DEF by 17%. Every stack of poison increases this DMG by 20%.",
-          "Every 7 sec, deals 83% of ATK as M.DMG to enemies inflicted with Poison, and reduces enemy M.DEF by 20%. Per every stacked Poison, DMG is increased by 20%.","Every 10 sec, deal M.DMG equal to 83% of ATK to enemies afflicted with poison, and reduce M.DEF by 20%. Every stack of poison increases this DMG by 20%.",
-          "Every 7 sec, deals 100% of ATK as M.DMG to enemies inflicted with Poison, and reduces enemy M.DEF by 25%. Per every stacked Poison, DMG is increased by 20%.","Every 10 sec, deal M.DMG equal to 100% of ATK to enemies afflicted with poison, and reduce M.DEF by 25%. Every stack of poison increases this DMG by 20%."
+          "Every 7 sec, deals 40% of ATK as M.DMG to enemies inflicted with Poison, and reduces enemy M.DEF by 10%. Per every stacked Poison, DMG is increased by 20%.",
+          "Every 7 sec, deals 48% of ATK as M.DMG to enemies inflicted with Poison, and reduces enemy M.DEF by 12%. Per every stacked Poison, DMG is increased by 20%.",
+          "Every 7 sec, deals 57% of ATK as M.DMG to enemies inflicted with Poison, and reduces enemy M.DEF by 14%. Per every stacked Poison, DMG is increased by 20%.",
+          "Every 7 sec, deals 69% of ATK as M.DMG to enemies inflicted with Poison, and reduces enemy M.DEF by 17%. Per every stacked Poison, DMG is increased by 20%.",
+          "Every 7 sec, deals 83% of ATK as M.DMG to enemies inflicted with Poison, and reduces enemy M.DEF by 20%. Per every stacked Poison, DMG is increased by 20%.",
+          "Every 7 sec, deals 100% of ATK as M.DMG to enemies inflicted with Poison, and reduces enemy M.DEF by 25%. Per every stacked Poison, DMG is increased by 20%."
         ],
         "info": ""
       }
@@ -1930,7 +1930,7 @@
         "name": "Spiritual Tuning",
         "description": "Every 7 sec, an ally with the lowest Hp recovers 1 orb of mana and ??? HP.",
         "mana": "passive",
-        "cooldown": 10,
+        "cooldown": 7,
         "cdstart": "starts upon cast",
         "animation": 1.5,
         "cast": 0.7,
@@ -4273,7 +4273,7 @@
         "Max HP is increased by 42% and deal P.DMG worth 2% of Max HP to all nearby enemies within a small range.",
         "Max HP is increased by 50% and deal P.DMG worth 2% of Max HP to all nearby enemies within a small range."
       ],
-      "info": "Effect is based on your hero's max HP, triggered every sec, and is counted as a normal attack (not a damage over time, meaning it can crit/miss/etc). Radius of the effect is 3000, which is supposedly the same as the orbiting pumpkin."
+      "info": "Effect is based on your hero's max HP, triggered every sec, and is counted as a normal attack (not a damage over time, meaning it can crit/miss/etc, this is still correct as of 25/01/2018's patch, it can still crit). Radius of the effect is 3000."
     },
     "Angry Pumpkin Head": {
       "description": [
