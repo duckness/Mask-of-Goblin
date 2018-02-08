@@ -104,12 +104,8 @@ export default {
       return Array(this.skill.mana).fill(0)
     },
     transcendenceNum: function () {
-      // s2, s4 are T3
-      if (this.skill.num % 2 === 0) {
-        return 3
-      } else {
-        return 4
-      }
+      // all are T3 skills now, so just return 3
+      return 3
     }
   }
 }
