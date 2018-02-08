@@ -81,12 +81,12 @@
       "s3": {
         "num": 3,
         "name": "Proxy of God",
-        "description": "Knocks back nearby enemies and deals ??? P.DMG. Additionally, increase ATK by ??? for 20 sec, and increase Dodge rate by 250. Gain CC Immunity. This status cannot be removed.",
+        "description": "Deals ??? P.DMG to nearby enemies and inflicts Stun for 3 sec. Additionally, for 20 sec, ATK is increased by ??? and Dodge Rate is increased by 250, while gaining immunity to CC. This status cannot be dispelled.",
         "mana": 4,
         "cooldown": 20,
         "cdstart": "starts after skill animation completes",
         "buff": 20,
-        "debuff": 2,
+        "debuff": 3,
         "animation": 2.7,
         "cast": 1.1,
         "freeze": 0.3,
@@ -98,7 +98,7 @@
           "Increase speed by 250 for the duration of skill."
         ],
         "transcendence": {
-          "light": "Knock back effect is changed to a 3 sec Stun.",
+          "light": "Mana cost is reduced by 1.",
           "dark": "ATK boost is increased by 40%."
         }
       },
@@ -406,7 +406,7 @@
       "description": "He is a former assassin with a hidden past. He specializes in single targets, launching strong, endless attacks on enemies while dashing around their blind spots.",
       "t5": {
         "light": "ATK, DEF, HP+15% / Crit DMG +20%",
-        "dark": "Upon a Crit Hit, with 15% chance, Atk Spd is increased by 300 and Crit DMG is increased by 60% for 10 sec."
+        "dark": "Upon a Crit Hit, there is a 10% chance of ATK Spd increasing by 300 and Crit DMG increasing by 60% for 5 sec. Does not activate again during activation."
       },
       "attributes": {
         "Position": "Front",
@@ -730,8 +730,8 @@
         "num": 3,
         "name": "Earth Incarnate",
         "description": "Increases P.DEF and M.DEF by ??? for 15 sec and heals 15% of HP. Gains CC immunity.",
-        "mana": 4,
-        "cooldown": 30,
+        "mana": 3,
+        "cooldown": 22,
         "cdstart": "starts after skill animation completes",
         "buff": 15,
         "tick": 1,
@@ -1058,9 +1058,8 @@
         "Damage Type": "Magical",
         "Autoattack Cycle": "4.9s",
         "Autoattack Hits": "(0.4s, 0.8s), (1.5s), (2.2s, 2.5s), (3.4s, 3.6s, 3.8s, 4s, 4.2s)",
-        "Autoattack Range": "Melee",
+        "Autoattack Range": "Melee, but reaches 2400 range in front of her",
         "Autoattack AOE": "1000 (2000 for final AOE)",
-        "Dash Range": 3000,
         "Critical Chance": 200,
         "Critical Power": 300,
         "Accuracy": 100,
@@ -2645,14 +2644,14 @@
         "name": "Unchanging Mind, Erekura",
         "baseAtk": 390,
         "description": [
-          "Per every sec, deals 10 % of ATK as M.DMG to nearby enemies, and reduces their ATK by 10%. When the passive skill is activated, recovers 30% of mana.",
-          "Per every sec, deals 12 % of ATK as M.DMG to nearby enemies, and reduces their ATK by 12%. When the passive skill is activated, recovers 30% of mana.",
-          "Per every sec, deals 14 % of ATK as M.DMG to nearby enemies, and reduces their ATK by 14%. When the passive skill is activated, recovers 30% of mana.",
-          "Per every sec, deals 17 % of ATK as M.DMG to nearby enemies, and reduces their ATK by 17%. When the passive skill is activated, recovers 30% of mana.",
-          "Per every sec, deals 20 % of ATK as M.DMG to nearby enemies, and reduces their ATK by 20%. When the passive skill is activated, recovers 30% of mana.",
-          "Per every sec, deals 25 % of ATK as M.DMG to nearby enemies, and reduces their ATK by 25%. When the passive skill is activated, recovers 30% of mana."
+          "Per every sec, deals 10 % of ATK as M.DMG to nearby enemies, and reduces their ATK by 14%. When the passive skill is activated, recovers 30% of mana.",
+          "Per every sec, deals 12 % of ATK as M.DMG to nearby enemies, and reduces their ATK by 17%. When the passive skill is activated, recovers 30% of mana.",
+          "Per every sec, deals 14 % of ATK as M.DMG to nearby enemies, and reduces their ATK by 20%. When the passive skill is activated, recovers 30% of mana.",
+          "Per every sec, deals 17 % of ATK as M.DMG to nearby enemies, and reduces their ATK by 24%. When the passive skill is activated, recovers 30% of mana.",
+          "Per every sec, deals 20 % of ATK as M.DMG to nearby enemies, and reduces their ATK by 29%. When the passive skill is activated, recovers 30% of mana.",
+          "Per every sec, deals 25 % of ATK as M.DMG to nearby enemies, and reduces their ATK by 35%. When the passive skill is activated, recovers 30% of mana."
         ],
-        "info": "Effect radius is 6000."
+        "info": "Effect radius is 6600."
       }
     },
     "Aisha": {
@@ -2833,6 +2832,135 @@
           "Each auto attack has a 25% chance to deal 350% of ATK as extra P.DMG to target, and turns into Stealth mode for 10 sec. Cooldown is 10 sec."
         ],
         "info": "Effect is only triggered on auto attacks."
+      }
+    },
+    "Ezekiel": {
+      "class": "Assassin",
+      "subtitle": "The Cursed Blood",
+      "description": "A mixed-blood between high-rank demon and human, Ezekiel is damned to curse his own existence. Slashes his powerful demonic right arm to tear apart his enemies.",
+      "t5": {
+        "light": "ATK, DEF, HP+15% / ATK.Spd +100",
+        "dark": "When in Fury state, auto attack deals DMG that ignores DEF."
+      },
+      "attributes": {
+        "Position": "Front",
+        "Damage Type": "Magical",
+        "Autoattack Cycle": "3s",
+        "Autoattack Hits": "(0.3s), (0.7s, 1s), (1.7s), (2.3s)",
+        "Autoattack Range": "Melee",
+        "Dash Range": 2000,
+        "Critical Chance": 200,
+        "Critical Power": 300,
+        "Accuracy": 100,
+        "Base MP/Atk": 185,
+        "P.Dodge": 200,
+        "M.Dodge": 200
+      },
+      "s1": {
+        "num": 1,
+        "name": "Destructive Instinct",
+        "description": "Swipes nearby enemies in a circular range and deals ??? M.DMG. Then strikes the ground, dealing ??? M.DMG and knocking down enemies for 3 sec. [Fury] - Consumes 15% of current HP to activate. Effect range increases and swipe attack draws in enemies.",
+        "mana": 2,
+        "cooldown": 8,
+        "cdstart": "starts after skill animation completes",
+        "debuff": 3,
+        "animation": 3,
+        "cast": 1.2,
+        "freeze": 0.4,
+        "aoe": 3000,
+        "aoeInfo": "self, increases to 4500 in Fury",
+        "books": [
+          "DMG is increased by 10%.",
+          "DMG is increased by 15%.",
+          "DMG is increased by 25%."
+        ],
+        "transcendence": {
+          "light": "DMG is increased by 40%.",
+          "dark": "After activation, ATK is increased by 40% for 5 sec."
+        }
+      },
+      "s2": {
+        "num": 2,
+        "name": "Dawning Despair",
+        "description": "Dashes to an enemy with the highest ATK and deals ??? M.DMG to enemies in range, reducing their ATK Spd by 300. [Fury] - Consumes 10% of current HP to activate. Effect range increases, Stuns target for 3 sec, and increases own ATK Spd by 300 for 10 sec.",
+        "mana": 2,
+        "cooldown": 10,
+        "cdstart": "starts upon cast",
+        "buff": 10,
+        "debuff": "3s for stun, 10s for aspd decrease",
+        "animation": 2,
+        "cast": 1,
+        "freeze": 0.3,
+        "castRange": "unlimited",
+        "castRangeType": "dash to target",
+        "aoe": 1000,
+        "aoeInfo": "target, increases to 2000 in Fury",
+        "books": [
+          "DMG is increased by 10%.",
+          "DMG is increased by 15%.",
+          "DMG is increased by 25%."
+        ],
+        "transcendence": {
+          "light": "Mana cost is reduced by 1.",
+          "dark": "When activated during Fury state, ignores target DEF."
+        }
+      },
+      "s3": {
+        "num": 3,
+        "name": "Strike of Doom",
+        "description": "Charges energy and attacks target enemy, dealing ??? M.DMG and inflicting Stun for 3 sec. [Fury] - Consumes 20% of current HP to activate. Attacks enemies in range of target and DMG is tripled.",
+        "mana": 2,
+        "cooldown": 7,
+        "cdstart": "starts after skill animation completes",
+        "debuff": 3,
+        "animation": 3.2,
+        "cast": 2,
+        "freeze": 0.7,
+        "castRange": 2500,
+        "castRangeType": "dash to target",
+        "books": [
+          "DMG is increased by 10%.",
+          "DMG is increased by 15%.",
+          "DMG is increased by 25%."
+        ],
+        "transcendence": {
+          "light": "Becomes immune to CC during activation.",
+          "dark": "If there is 1 enemy, DMG is increased by 100%."
+        }
+      },
+      "s4": {
+        "num": 4,
+        "name": "Cursed Blood",
+        "description": "Ezekiel gains 1 stack of 'Cursed Blood' at the end of skill. Upon the 4th stack, consumes Cursed Blood to reset all skill cooldown, dealing ??? M.DMG to nearby enemies and knocking them down for 3 sec, while activating Fury for 10 sec, that cannot be dispelled. While in Fury state, goes into an auto-battle mode that cannot be controlled, and ATK is increased by ???, auto attack DMG is doubled, and all Skill effect are reinforced. Cannot gain Cursed Blood during Fury state, except for when killing an enemy.",
+        "mana": "passive",
+        "buff": 10,
+        "debuff": 3,
+        "animation": 1.2,
+        "freeze": 0.2,
+        "aoe": 4000,
+        "aoeInfo": "self",
+        "books": [
+          "DMG is increased by 10%.",
+          "DMG is increased by 15%.",
+          "DMG is increased by 25%."
+        ],
+        "transcendence": {
+          "light": "When in Fury state, heal rate is increased by 50%.",
+          "dark": "Per every stacked 'Cursed Blood', takes 12% reduced DMG."
+        }
+      },
+      "weapon": {
+        "name": "Jailer of Despair, Barbatos",
+        "baseAtk": 486,
+        "description": [
+          "Fury duration is increased by 2 sec and when in Fury state, Crit DMG is increased by 80%.",
+          "Fury duration is increased by 3 sec and when in Fury state, Crit DMG is increased by 90%.",
+          "Fury duration is increased by 4 sec and when in Fury state, Crit DMG is increased by 100%.",
+          "Fury duration is increased by 5 sec and when in Fury state, Crit DMG is increased by 110%.",
+          "Fury duration is increased by 6 sec and when in Fury state, Crit DMG is increased by 120%.",
+          "Fury duration is increased by 7 sec and when in Fury state, Crit DMG is increased by 130%."
+        ],
+        "info": ""
       }
     },
     "Cassandra": {
@@ -3278,6 +3406,36 @@
           "Upon a Crit Hit, there is a 10% chance of dealing 500% of ATK as P.DMG, and recovering 5% of Mana. If the target is a Dragon, inflicts Stun for 1 sec."
         ],
         "info": "The effect has a cooldown of 0.5s between triggers."
+      }
+    },
+    "Ophelia": {
+      "weapon": {
+        "name": "Cards of Destiny, Del Arcana",
+        "baseAtk": 510,
+        "description": [
+          "Upon attack, there is a 77.7% chance that for 7 sec, ATK Spd is increased by 20, and mana recovery per sec is increased by 10%. This effect can be stacked max 15 times.",
+          "Upon attack, there is a 77.7% chance that for 7 sec, ATK Spd is increased by 24, and mana recovery per sec is increased by 12%. This effect can be stacked max 15 times.",
+          "Upon attack, there is a 77.7% chance that for 7 sec, ATK Spd is increased by 29, and mana recovery per sec is increased by 14%. This effect can be stacked max 15 times.",
+          "Upon attack, there is a 77.7% chance that for 7 sec, ATK Spd is increased by 35, and mana recovery per sec is increased by 17%. This effect can be stacked max 15 times.",
+          "Upon attack, there is a 77.7% chance that for 7 sec, ATK Spd is increased by 42, and mana recovery per sec is increased by 21%. This effect can be stacked max 15 times.",
+          "Upon attack, there is a 77.7% chance that for 7 sec, ATK Spd is increased by 50, and mana recovery per sec is increased by 25%. This effect can be stacked max 15 times."
+        ],
+        "info": ""
+      }
+    },
+    "Requina": {
+      "weapon": {
+        "name": "The Flute of Silent Winds, Rakshathar",
+        "baseAtk": 547,
+        "description": [
+          "Max stack of Tickle Tickle Potion is increased to 55. Each auto attack has a 10% chance of attacking a random enemy, dealing 20% of ATK as DMG and inflicting Silence for 1 sec.",
+          "Max stack of Tickle Tickle Potion is increased to 60. Each auto attack has a 10% chance of attacking a random enemy, dealing 24% of ATK as DMG and inflicting Silence for 1 sec.",
+          "Max stack of Tickle Tickle Potion is increased to 65. Each auto attack has a 10% chance of attacking a random enemy, dealing 29% of ATK as DMG and inflicting Silence for 1 sec.",
+          "Max stack of Tickle Tickle Potion is increased to 70. Each auto attack has a 10% chance of attacking a random enemy, dealing 35% of ATK as DMG and inflicting Silence for 1 sec.",
+          "Max stack of Tickle Tickle Potion is increased to 75. Each auto attack has a 10% chance of attacking a random enemy, dealing 42% of ATK as DMG and inflicting Silence for 1 sec.",
+          "Max stack of Tickle Tickle Potion is increased to 80. Each auto attack has a 10% chance of attacking a random enemy, dealing 50% of ATK as DMG and inflicting Silence for 1 sec."
+        ],
+        "info": ""
       }
     },
     "Scarlet": {
@@ -4316,6 +4474,17 @@
         "ATK is increased by 8.6% for 60 sec at the start of each battle.",
         "ATK is increased by 10.4% for 60 sec at the start of each battle.",
         "ATK is increased by 12.5% for 60 sec at the start of each battle."
+      ],
+      "info": ""
+    },
+    "Fancy Traditional Pendant": {
+      "description": [
+        "Crit Chance is increased by 100 and Crit DMG is increased by 20%.",
+        "Crit Chance is increased by 120 and Crit DMG is increased by 24%.",
+        "Crit Chance is increased by 140 and Crit DMG is increased by 29%.",
+        "Crit Chance is increased by 170 and Crit DMG is increased by 35%.",
+        "Crit Chance is increased by 210 and Crit DMG is increased by 42%.",
+        "Crit Chance is increased by 250 and Crit DMG is increased by 50%."
       ],
       "info": ""
     }
