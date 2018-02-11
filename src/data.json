@@ -3409,6 +3409,109 @@
       }
     },
     "Ophelia": {
+      "class": "Wizard",
+      "subtitle": "Pathfinder of Fate",
+      "description": "An astrologist of Stardust, a troupe that wanders through the continent. Instead of going on a pilgrimage as a member of the witch's association, searches for the destined soulmate she once encountered in her dreams. Controls the tarot cards floating around her to attack enemies in distance.",
+      "t5": {
+        "light": "ATK, DEF, HP+15% / Crit DMG +20%",
+        "dark": "Upon using a skill, there is a 7% chance that mana cost of all skill is reduced by 1 for 7 sec. This effect cannot be dispelled."
+      },
+      "attributes": {
+        "Position": "Middle",
+        "Damage Type": "Magical",
+        "Autoattack Cycle": "1.8s",
+        "Autoattack Hits": "0.8s",
+        "Autoattack Range": 6000,
+        "Critical Chance": 100,
+        "Accuracy": 100,
+        "Penetration": 150,
+        "Base MP/Atk": 450,
+        "M.Dodge": 200,
+        "M.Block Chance": 250
+      },
+      "s1": {
+        "num": 1,
+        "name": "Card of Death - Carta",
+        "description": "Attacks enemy target, dealing ??? M.DMG and inflicting Stun for 3 sec. Consumes the card in possession to inflict additional effects. Upon using the skill, gains the card of [Death].\n[Death] - DMG ignores target's DEF and Stun duration increases by 5 sec.\n[Love] - Deals a total of ??? M.DMG over time for 7 sec and reduces heal rate by 100%.\n[Fortune] - Skill Cooldown does not take effect.",
+        "mana": 3,
+        "cooldown": 20,
+        "cdstart": "starts after skill animation completes",
+        "debuff": 3,
+        "animation": 3.6,
+        "cast": 2.2,
+        "freeze": 0.7,
+        "castRange": 7000,
+        "castRangeType": "ranged",
+        "books": [
+          "DMG is increased by 10%.",
+          "DMG is increased by 15%.",
+          "DMG is increased by 25%."
+        ],
+        "transcendence": {
+          "light": "For 10 sec, target takes 25% increased M.DMG.",
+          "dark": "Mana cost is reduced by 1."
+        }
+      },
+      "s2": {
+        "num": 2,
+        "name": "Card of Love - Elliciad",
+        "description": "ATK is increased by ??? for 12 sec and Mana recovery per sec is increased by 100%. Consumes the card in possession to inflict additional effects. Upon using the skill, gains the card of [Love].\n[Death] - Penetration is increased by 600 for the duration of skill.\n[Love] - Grants effect to all allies.\n[Fortune] - Skill Cooldown does not take effect.",
+        "mana": 2,
+        "cooldown": 30,
+        "cdstart": "starts after skill animation completes",
+        "buff": 12,
+        "animation": 2.6,
+        "cast": 1.4,
+        "freeze": 0.5,
+        "books": [
+          "ATK boost is increased by 10%.",
+          "ATK boost is increased by 15%.",
+          "ATK boost is increased by 25%."
+        ],
+        "transcendence": {
+          "light": "Recovers target's mana by 1000.",
+          "dark": "ATK boost is increased by 40%."
+        }
+      },
+      "s3": {
+        "num": 3,
+        "name": "Card of Fortune - Vellekia",
+        "description": "Attacks target enemy and nearby enemies in range and deals ??? M.DMG. This attack does not miss, and this attack's Crit DMG is increased by 80%. Upon using the skill, gains the card of [Fortune].\n[Death] - Crit DMG is increased by additional 150%.\n[Love] - Dispels positive effects of enemies in range and inflics Silence for 1 sec.\n[Fortune] - Skill Cooldown does not take effect and recovers 1 orb of mana.",
+        "mana": 3,
+        "cooldown": 4,
+        "cdstart": "starts after skill animation completes",
+        "animation": 3.6,
+        "cast": 2.4,
+        "freeze": 0.8,
+        "castRange": 7000,
+        "castRangeType": "ranged",
+        "aoe": 2100,
+        "aoeInfo": "target",
+        "books": [
+          "DMG is increased by 10%.",
+          "DMG is increased by 15%.",
+          "DMG is increased by 25%."
+        ],
+        "transcendence": {
+          "light": "Mana cost is increased by 1, DMG is increased by 100%.",
+          "dark": "Always inflicts a Crit Hit."
+        }
+      },
+      "s4": {
+        "num": 4,
+        "name": "Pathfinder of Fate",
+        "description": "All allies' ATK is increased by ???, and Crit Chance is increased by 100. Ophelia gains additional effect according to the card in possession.\n[Death] - ATK is increased by 30%.\n[Love] - Per each sec, heals 7% of max HP.\n[Fortune] - M.Dodge Chance is increased by 200.",
+        "mana": "passive",
+        "books": [
+          "All allies' ATK boost is increased by 10%.",
+          "All allies' ATK boost is increased by 15%.",
+          "All allies' Crit Chance boost is increased by 50."
+        ],
+        "transcendence": {
+          "light": "At the start of each battle, gains the card of [Death]. This card does not have DMG boost effect.",
+          "dark": "At the start of each battle, gains the card of [Love]. This card does not have heal effect."
+        }
+      },
       "weapon": {
         "name": "Cards of Destiny, Del Arcana",
         "baseAtk": 510,
@@ -3420,10 +3523,112 @@
           "Upon attack, there is a 77.7% chance that for 7 sec, ATK Spd is increased by 42, and mana recovery per sec is increased by 21%. This effect can be stacked max 15 times.",
           "Upon attack, there is a 77.7% chance that for 7 sec, ATK Spd is increased by 50, and mana recovery per sec is increased by 25%. This effect can be stacked max 15 times."
         ],
-        "info": ""
+        "info": "Effect is triggered on any attack"
       }
     },
     "Requina": {
+      "class": "Archer",
+      "subtitle": "Merchant of Poison",
+      "description": "A merchant who wanders the continent, selling poison to those in need. Utilizes a blowpipe to poison and disable her enemies.",
+      "t5": {
+        "light": "ATK, DEF, HP+15% / Crit Chance +100",
+        "dark": "Upon auto attacking an enemy with 50 or more stacks of Tickle Tickle Potion, deals 200% of ATK as extra P.DMG that ignores DEF."
+      },
+      "attributes": {
+        "Position": "Middle",
+        "Damage Type": "Physical",
+        "Autoattack Cycle": 1.6,
+        "Autoattack Hits": 0.8,
+        "Autoattack Range": 7000,
+        "Critical Chance": 150,
+        "Accuracy": 100,
+        "Penetration": 250,
+        "Base MP/Atk": 400
+      },
+      "s1": {
+        "num": 1,
+        "name": "Tears of Mr. Python!",
+        "description": "Attacks 2 enemies and deals ??? P.DMG, while poisoning them with Tears of Mr. Python that cannot be dispelled for 4.5 sec. Enemies inflicted with Tears of Mr. Python cannot recover mana, takes 30% increased DMG, and their Block chance is reduced by 500.",
+        "mana": 2,
+        "cooldown": 10,
+        "cdstart": "starts after skill animation completes",
+        "debuff": 4.5,
+        "animation": 3.4,
+        "cast": 2,
+        "freeze": 0.7,
+        "castRange": 8000,
+        "castRangeType": "ranged",
+        "books": [
+          "DMG is increased by 10%.",
+          "DMG is increased by 15%.",
+          "DMG is increased by 25%."
+        ],
+        "transcendence": {
+          "light": "Mana cost is reduced by 1.",
+          "dark": "Reduces target's mana by 1200."
+        }
+      },
+      "s2": {
+        "num": 2,
+        "name": "Screechy Grass Extract!",
+        "description": "Attacks a random enemy 3 times and deals a total of ??? DMG, while poisoning them with Screechy Grass Extract for 6 sec. Enemies inflicted with Screechy Grass Extract have their ATK reduced by 30%, and Crit Chance by 500.",
+        "mana": 3,
+        "cooldown": 10,
+        "cdstart": "starts after skill animation completes",
+        "debuff": 6,
+        "animation": 2.7,
+        "cast": 1.9,
+        "freeze": 0.6,
+        "castRange": "unlimited",
+        "castRangeType": "ranged",
+        "books": [
+          "DMG is increased by 10%.",
+          "DMG is increased by 15%.",
+          "DMG is increased by 25%."
+        ],
+        "transcendence": {
+          "light": "If there is 1 enemy, DMG is increased by 100%.",
+          "dark": "Stuns the target for 1 sec."
+        }
+      },
+      "s3": {
+        "num": 3,
+        "name": "More! Stronger!",
+        "description": "Own ATK is increased by ??? for 20 sec and the effect of [Tears of Mr. Python], [Screechy Grass Extract], [Tickle Tickle Potion] is doubled. Also, target of [Tears of Mr. Python], [Screechy Grass Extract!], [Tickle Tickle Potion] is increased by 1.",
+        "mana": 3,
+        "cooldown": 25,
+        "cdstart": "starts after skill animation completes",
+        "buff": 20,
+        "animation": 2.2,
+        "cast": 1.4,
+        "freeze": 0.5,
+        "books": [
+          "ATK boost is increased by 10%.",
+          "ATK boost is increased by 15%.",
+          "ATK boost is increased by 25%."
+        ],
+        "transcendence": {
+          "light": "For the duration, auto attack DMG is increased by 100%.",
+          "dark": "Mana cost is reduced by 1."
+        }
+      },
+      "s4": {
+        "num": 4,
+        "name": "Tickle Tickle Potion!",
+        "description": "Upon attack, poisons target enemy with Tickle Tickle Potion for 10 sec which deals a total of ??? P.DMG over time, and cannot be dispelled. Tickle Tickle Potion can be stacked max 50 times.",
+        "mana": "passive",
+        "debuff": 10,
+        "tick": 0.5,
+        "books": [
+          "DMG is increased by 10%.",
+          "DMG is increased by 15%.",
+          "DMG is increased by 25%."
+        ],
+        "transcendence": {
+          "light": "Tickle Tickle Potion! is stacked 3 at a time.",
+          "dark": "Target takes 20% increased P.DMG."
+        }
+      },
       "weapon": {
         "name": "The Flute of Silent Winds, Rakshathar",
         "baseAtk": 547,
@@ -3435,7 +3640,7 @@
           "Max stack of Tickle Tickle Potion is increased to 75. Each auto attack has a 10% chance of attacking a random enemy, dealing 42% of ATK as DMG and inflicting Silence for 1 sec.",
           "Max stack of Tickle Tickle Potion is increased to 80. Each auto attack has a 10% chance of attacking a random enemy, dealing 50% of ATK as DMG and inflicting Silence for 1 sec."
         ],
-        "info": ""
+        "info": "Effect is only triggered on auto attacks."
       }
     },
     "Scarlet": {
