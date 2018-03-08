@@ -1175,7 +1175,7 @@
       "description": "An Elf Princess with a lofty air, she guards the sacred forest. Arrows filled with moon energy follow her will to track down enemies, and arrows filled with wind energy fiercely pierce the enemy.",
       "t5": {
         "light": "ATK, DEF, HP+15% / Crit DMG +20%",
-        "dark": "There is a 50% chance to deal extra P.DMG worth 40% of ATK upon an attack."
+        "dark": "Own Crit Chance is decreased by 300 and Crit DMG is increased by 100%."
       },
       "attributes": {
         "Position": "Middle",
@@ -1216,7 +1216,7 @@
         "num": 2,
         "name": "Rush",
         "description": "Upon attacking, summons 5 arrows that launch towards the enemy. Each arrow deals ??? P.DMG.",
-        "mana": 2,
+        "mana": 1,
         "cooldown": 6,
         "cdstart": "starts after skill animation completes",
         "animation": 1.8,
@@ -1228,7 +1228,7 @@
           "DMG is increased by 25%."
         ],
         "transcendence": {
-          "light": "Crit DMG is increased by 80%.",
+          "light": "Ignores DEF when there is only 1 enemy.",
           "dark": "Makes the enemy flinch for 0.5 sec."
         }
       },
@@ -1281,11 +1281,11 @@
         "baseAtk": 547,
         "description": [
           "Upon a Crit Hit, ATK Spd is increased by 200 for 10 sec, and for the duration of skill, each auto attack fires an arrow that deals extra 100% P.DMG.",
-          "Upon a Crit Hit, ATK Spd is increased by 240 for 10 sec, and for the duration of skill, each auto attack fires an arrow that deals extra 100% P.DMG.",
-          "Upon a Crit Hit, ATK Spd is increased by 280 for 10 sec, and for the duration of skill, each auto attack fires an arrow that deals extra 100% P.DMG.",
-          "Upon a Crit Hit, ATK Spd is increased by 340 for 10 sec, and for the duration of skill, each auto attack fires an arrow that deals extra 100% P.DMG.",
-          "Upon a Crit Hit, ATK Spd is increased by 410 for 10 sec, and for the duration of skill, each auto attack fires an arrow that deals extra 100% P.DMG.",
-          "Upon a Crit Hit, ATK Spd is increased by 500 for 10 sec, and for the duration of skill, each auto attack fires an arrow that deals extra 100% P.DMG."
+          "Upon a Crit Hit, ATK Spd is increased by 240 for 10 sec, and for the duration of skill, each auto attack fires an arrow that deals extra 120% P.DMG.",
+          "Upon a Crit Hit, ATK Spd is increased by 280 for 10 sec, and for the duration of skill, each auto attack fires an arrow that deals extra 140% P.DMG.",
+          "Upon a Crit Hit, ATK Spd is increased by 340 for 10 sec, and for the duration of skill, each auto attack fires an arrow that deals extra 170% P.DMG.",
+          "Upon a Crit Hit, ATK Spd is increased by 410 for 10 sec, and for the duration of skill, each auto attack fires an arrow that deals extra 210% P.DMG.",
+          "Upon a Crit Hit, ATK Spd is increased by 500 for 10 sec, and for the duration of skill, each auto attack fires an arrow that deals extra 250% P.DMG."
         ],
         "info": ""
       }
@@ -1973,10 +1973,10 @@
       "description": "A Dark Elf who hunts enemies in the shadows. His vengeful crossbow pierces his enemies with pitch-black darkness.",
       "t5": {
         "light": "ATK, DEF, HP+15% / ATK.Spd +100",
-        "dark": "Upon auto attacking, deal extra M.DMG worth 20% of ATK and recover 100 mana. There is a 10% chance of dealing double DMG and recovering double mana."
+        "dark": "Upon auto attacking, deal extra M.DMG worth 80% of ATK and recover 100 mana. There is a 10% chance of dealing double DMG and recovering double mana."
       },
       "attributes": {
-        "Position": "Middle",
+        "Position": "Rear",
         "Damage Type": "Magical",
         "Autoattack Cycle": "2.6s",
         "Autoattack Hits":"(0.4s), (1s), (1.8s)",
@@ -1990,7 +1990,7 @@
         "num": 1,
         "name": "Dark Rampage",
         "description": "Deals ??? M.DMG to an enemy.",
-        "mana": 2,
+        "mana": 1,
         "cooldown": 8,
         "cdstart": "starts after skill animation completes",
         "animation": 4.3,
@@ -2004,7 +2004,7 @@
           "DMG is increased by 25%."
         ],
         "transcendence": {
-          "light": "DMG is increased by 40%.",
+          "light": "If there is 1 enemy, DMG is increased by 100%.",
           "dark": "Has a 25% chance of Blinding the enemy for 5 sec."
         }
       },
@@ -2056,7 +2056,7 @@
           "DMG is increased by 25%."
         ],
         "transcendence": {
-          "light": "DMG is increased by 40%.",
+          "light": "Mana cost is increased by 1 orb but DMG is boosted by 100%.",
           "dark": "Dispels positive effects of all enemies in range."
         }
       },
@@ -2080,12 +2080,12 @@
         "name": "Tears of the Moon, Nerius",
         "baseAtk": 547,
         "description": [
-          "Each attack has a 10% chance of dealing 100% of ATK as M.DMG, and all skill cooldown is reduced by 10%.",
-          "Each attack has a 12% chance of dealing 100% of ATK as M.DMG, and all skill cooldown is reduced by 10%.",
-          "Each attack has a 14% chance of dealing 100% of ATK as M.DMG, and all skill cooldown is reduced by 10%.",
-          "Each attack has a 17% chance of dealing 100% of ATK as M.DMG, and all skill cooldown is reduced by 10%.",
-          "Each attack has a 20% chance of dealing 100% of ATK as M.DMG, and all skill cooldown is reduced by 10%.",
-          "Each attack has a 25% chance of dealing 100% of ATK as M.DMG, and all skill cooldown is reduced by 10%."
+          "Each attack has a 10 % chance of dealing 100 % of ATK as M.DMG, and all skill cooldown is reduced by 10 %.",
+          "Each attack has a 12 % chance of dealing 120 % of ATK as M.DMG, and all skill cooldown is reduced by 10 %.",
+          "Each attack has a 14 % chance of dealing 140 % of ATK as M.DMG, and all skill cooldown is reduced by 10 %.",
+          "Each attack has a 17 % chance of dealing 170 % of ATK as M.DMG, and all skill cooldown is reduced by 10 %.",
+          "Each attack has a 20 % chance of dealing 210 % of ATK as M.DMG, and all skill cooldown is reduced by 10 %.",
+          "Each attack has a 25 % chance of dealing 250 % of ATK as M.DMG, and all skill cooldown is reduced by 10 %."
         ],
         "info": "Effect is triggered on any attack, has a cooldown of 0.5s between triggers. Skill cooldown reduction applies to Dimael only."
       }
@@ -2189,7 +2189,7 @@
         "books": [
           "ATK boost is increased by 10%.",
           "ATK boost is increased by 15%.",
-          "DEF Penetration is increased by 100 for the duration of this skill."
+          "DEF Penetration is increased by 250 for the duration of this skill."
         ],
         "transcendence": {
           "light": "Per each stack, DMG is increased by 4% to enemies other than heroes.",
@@ -2235,8 +2235,8 @@
       "s0": {
         "num": "Special",
         "name": "Pavel Frost",
-        "description": "Pavel's ability amp, reduces enemy attack speed by 100.",
-        "debuff": 20
+        "description": "Pavel's ability amp, reduces enemy attack speed by 100. Cannot be dispelled.",
+        "debuff": 8
       },
       "s1": {
         "num": 1,
@@ -2283,17 +2283,17 @@
         ],
         "transcendence": {
           "light": "Mana cost is reduced by 1.",
-          "dark": "In exchange for 1 additional Mana Cost, targets the enemy with the highest ATK."
+          "dark": "Target changes to the enemy with the highest ATK."
         }
       },
       "s3": {
         "num": 3,
         "name": "Icy Conquest",
-        "description": "Deals ??? M.DMG to all enemies. Enemies inflicted with Frost becomes inflicted with Freeze for 5 sec. Enemies inflicted with Freeze take 100% increased DMG.",
+        "description": "Deals ??? M.DMG to all enemies. Enemies inflicted with Frost becomes inflicted with Freeze for 3 sec. Enemies inflicted with Freeze take 100% increased DMG.",
         "mana": 4,
         "cooldown": 20,
         "cdstart": "starts after skill animation completes",
-        "debuff": 5,
+        "debuff": 3,
         "animation": 4,
         "cast": 2,
         "freeze": 0.7,
@@ -2337,12 +2337,12 @@
         "name": "Dragon Hearts, Andarta Andraste",
         "baseAtk": 510,
         "description": [
-          "Every 15 sec, deals 80 % of ATK as M.DMG to 2 random enemies and inflicts Frost. Enemies already inflicted with Frost will become inflicted with Freeze for 5 sec.",
-          "Every 14 sec, deals 96 % of ATK as M.DMG to 2 random enemies and inflicts Frost. Enemies already inflicted with Frost will become inflicted with Freeze for 5 sec.",
-          "Every 12.5 sec, deals 114 % of ATK as M.DMG to 2 random enemies and inflicts Frost. Enemies already inflicted with Frost will become inflicted with Freeze for 5 sec.",
-          "Every 11 sec, deals 138 % of ATK as M.DMG to 2 random enemies and inflicts Frost. Enemies already inflicted with Frost will become inflicted with Freeze for 5 sec.",
-          "Every 9.5 sec, deals 166 % of ATK as M.DMG to 2 random enemies and inflicts Frost. Enemies already inflicted with Frost will become inflicted with Freeze for 5 sec.",
-          "Every 8 sec, deals 200 % of ATK as M.DMG to 2 random enemies and inflicts Frost. Enemies already inflicted with Frost will become inflicted with Freeze for 5 sec."
+          "Every 15 sec, deals 160 % of ATK as M.DMG to 2 random enemies and inflicts Frost. Enemies already inflicted with Frost will become inflicted with Freeze for 5 sec.",
+          "Every 14 sec, deals 192 % of ATK as M.DMG to 2 random enemies and inflicts Frost. Enemies already inflicted with Frost will become inflicted with Freeze for 5 sec.",
+          "Every 12.5 sec, deals 228 % of ATK as M.DMG to 2 random enemies and inflicts Frost. Enemies already inflicted with Frost will become inflicted with Freeze for 5 sec.",
+          "Every 11 sec, deals 276 % of ATK as M.DMG to 2 random enemies and inflicts Frost. Enemies already inflicted with Frost will become inflicted with Freeze for 5 sec.",
+          "Every 9.5 sec, deals 332 % of ATK as M.DMG to 2 random enemies and inflicts Frost. Enemies already inflicted with Frost will become inflicted with Freeze for 5 sec.",
+          "Every 8 sec, deals 400 % of ATK as M.DMG to 2 random enemies and inflicts Frost. Enemies already inflicted with Frost will become inflicted with Freeze for 5 sec."
         ],
         "info": "Frost lasts for 20s and slows atk spd by 100."
       }
@@ -2353,7 +2353,7 @@
       "description": "This guardian knight carries a gigantic lance and shield. Endures the attack of enemies with absolute fortitude and disturbs enemy lines with her lance.",
       "t5": {
         "light": "ATK, DEF, HP+15% / P. Block +200",
-        "dark": "At the beginning of every battle, decrease the ATK of all enemies by 20% for 10 sec. This effect cannot be dispelled."
+        "dark": "At the beginning of every battle, decrease the ATK of all enemies by 20% for 6 sec. This effect cannot be dispelled."
       },
       "attributes": {
         "Position": "Front",
@@ -2373,7 +2373,7 @@
         "num": 1,
         "name": "Penetration",
         "description": "Throws a spear at the furthest enemy, dealing ??? P.DMG and drawing the enemy in front of the hero. Then deals ??? P.DMG to enemies in range, stunning them for 3 sec.",
-        "mana": 2,
+        "mana": 3,
         "cooldown": 11,
         "cdstart": "starts after skill animation completes",
         "debuff": 3,
@@ -3417,7 +3417,7 @@
         "dark": "Upon using a skill, there is a 7% chance that mana cost of all skill is reduced by 1 for 7 sec. This effect cannot be dispelled."
       },
       "attributes": {
-        "Position": "Middle",
+        "Position": "Rear",
         "Damage Type": "Magical",
         "Autoattack Cycle": "1.8s",
         "Autoattack Hits": "0.8s",
@@ -3457,7 +3457,7 @@
         "name": "Card of Love - Elliciad",
         "description": "ATK is increased by ??? for 12 sec and Mana recovery per sec is increased by 100%. Consumes the card in possession to inflict additional effects. Upon using the skill, gains the card of [Love].\n[Death] - Penetration is increased by 600 for the duration of skill.\n[Love] - Grants effect to all allies.\n[Fortune] - Skill Cooldown does not take effect.",
         "mana": 2,
-        "cooldown": 30,
+        "cooldown": 25,
         "cdstart": "starts after skill animation completes",
         "buff": 12,
         "animation": 2.6,
@@ -3476,9 +3476,9 @@
       "s3": {
         "num": 3,
         "name": "Card of Fortune - Vellekia",
-        "description": "Attacks target enemy and nearby enemies in range and deals ??? M.DMG. This attack does not miss, and this attack's Crit DMG is increased by 80%. Upon using the skill, gains the card of [Fortune].\n[Death] - Crit DMG is increased by additional 150%.\n[Love] - Dispels positive effects of enemies in range and inflics Silence for 1 sec.\n[Fortune] - Skill Cooldown does not take effect and recovers 1 orb of mana.",
+        "description": "Attacks target enemy and nearby enemies in range and deals ??? M.DMG. This attack does not miss, and this attack's Crit DMG is increased by 100%. Upon using the skill, gains the card of [Fortune].\n[Death] - Crit DMG is increased by additional 200%.\n[Love] - Dispels positive effects of enemies in range and inflics Silence for 1 sec.\n[Fortune] - Skill Cooldown does not take effect and recovers 1 orb of mana.",
         "mana": 3,
-        "cooldown": 4,
+        "cooldown": 3,
         "cdstart": "starts after skill animation completes",
         "animation": 3.6,
         "cast": 2.4,
@@ -3700,7 +3700,7 @@
         "name": "Justice Served!",
         "description": "Dispels negative effects of all allies and dispels positive effects of all enemies, while dealing ??? P.DMG.",
         "mana": 2,
-        "cooldown": 15,
+        "cooldown": 18,
         "cdstart": "starts after skill animation completes",
         "animation": 2.6,
         "cast": 1.2,
@@ -3714,7 +3714,7 @@
         ],
         "transcendence": {
           "light": "Mana cost is reduced by 1.",
-          "dark": "Mana cost increases by 1 and all enemies are stunned for 1.5 sec."
+          "dark": "All allies' P.Crit Resistance is increased by 200 for 10 sec."
         }
       },
       "s3": {
@@ -3747,7 +3747,7 @@
       "s4": {
         "num": 4,
         "name": "Goddess of War",
-        "description": "All Crit Resistance increases by 250. With 10% chance, deals additional ??? P.DMG during auto attack and stuns target enemy for 1 sec." ,
+        "description": "All Crit Resistance increases by 150. With 10% chance, deals additional ??? P.DMG during auto attack and stuns target enemy for 1 sec." ,
         "mana": "passive",
         "debuff": 1,
         "books": [
@@ -3756,7 +3756,7 @@
           "DMG is increased by 25%."
         ],
         "transcendence": {
-          "light": "Crit Resistance increases to 400.",
+          "light": "Crit Resistance increases to 300.",
           "dark": "Stun duration lasts for 2 more sec when there is only one enemy."
         }
       },
@@ -3910,7 +3910,7 @@
         "dark": "When HP falls below 50%, gain 2 sec of immunity to all DMG. This effect activates only once every 30 sec."
       },
       "attributes": {
-        "Position": "Middle",
+        "Position": "Rear",
         "Damage Type": "Magical",
         "Autoattack Cycle": "1.9s",
         "Autoattack Hits": "1s",
@@ -4037,7 +4037,7 @@
         "dark": "Upon killing an enemy, all skill cooldown is reduced by 50%, and recovers 1 orb of mana."
       },
       "attributes": {
-        "Position": "Front",
+        "Position": "Middle",
         "Damage Type": "Magical",
         "Autoattack Cycle": "2.5s",
         "Autoattack Hits": "(0.3s), (0.7s), (1.4s), (2s)",
@@ -4170,12 +4170,12 @@
         "name": "Beast Fist, Mastra",
         "baseAtk": 486,
         "description": [
-          "Upon a Crit Hit, Crit. DMG is increased by 20% for 5 sec. This effect can be stacked up to 10 times max.",
-          "Upon a Crit Hit, Crit. DMG is increased by 24% for 5 sec. This effect can be stacked up to 10 times max.",
-          "Upon a Crit Hit, Crit. DMG is increased by 29% for 5 sec. This effect can be stacked up to 10 times max.",
-          "Upon a Crit Hit, Crit. DMG is increased by 35% for 5 sec. This effect can be stacked up to 10 times max.",
-          "Upon a Crit Hit, Crit. DMG is increased by 42% for 5 sec. This effect can be stacked up to 10 times max.",
-          "Upon a Crit Hit, Crit. DMG is increased by 50% for 5 sec. This effect can be stacked up to 10 times max."
+          "Upon a Crit Hit, Crit. DMG is increased by 20% for 5 sec. This effect can be stacked up to 7 times max.",
+          "Upon a Crit Hit, Crit. DMG is increased by 24% for 5 sec. This effect can be stacked up to 7 times max.",
+          "Upon a Crit Hit, Crit. DMG is increased by 29% for 5 sec. This effect can be stacked up to 7 times max.",
+          "Upon a Crit Hit, Crit. DMG is increased by 35% for 5 sec. This effect can be stacked up to 7 times max.",
+          "Upon a Crit Hit, Crit. DMG is increased by 42% for 5 sec. This effect can be stacked up to 7 times max.",
+          "Upon a Crit Hit, Crit. DMG is increased by 50% for 5 sec. This effect can be stacked up to 7 times max."
         ],
         "info": "Minimum 0.1s cooldown to stack the effect."
       }
@@ -4636,7 +4636,7 @@
         "Max HP is increased by 42% and deal P.DMG worth 2% of Max HP to all nearby enemies within a small range.",
         "Max HP is increased by 50% and deal P.DMG worth 2% of Max HP to all nearby enemies within a small range."
       ],
-      "info": "Effect is based on your hero's max HP, triggered every sec, and is counted as a normal attack (not a damage over time, meaning it can crit/miss/etc, this is still correct as of 25/01/2018's patch, it can still crit). Radius of the effect is 3000."
+      "info": "Effect is based on your hero's max HP, triggered every sec, and does not crit. Radius of the effect is 3000."
     },
     "Angry Pumpkin Head": {
       "description": [
