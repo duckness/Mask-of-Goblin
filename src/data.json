@@ -2595,6 +2595,115 @@
       }
     },
     "Rodina": {
+      "class": "Mechanic",
+      "subtitle": "Blizzard's Sniper",
+      "description": "She is a sniper from an empire located in an extremely cold environment. She aims calmly no matter the circumstance. The more she focuses, the more powerful she becomes.",
+      "t5": {
+        "light": "ATK, DEF, HP+15% / Crit Chance +100",
+        "dark": "There is a 15% chance to inflict a Headshot while auto-attacking. Headshot deals a 600% of ATK as P.DMG."
+      },
+      "attributes": {
+        "Position": "Middle",
+        "Damage Type": "Physical",
+        "Autoattack Cycle": "2.7s",
+        "Autoattack Hits": "1s",
+        "Autoattack Range": 8000,
+        "Critical Chance": 150,
+        "Critical Power": 500,
+        "Accuracy": 200,
+        "Penetration": 100,
+        "Base MP/Atk": 675
+      },
+      "s1": {
+        "num": 1,
+        "name": "Penetration Shot",
+        "description": "Upon activation, takes up a stance and starts casting. After casting ends, deals ??? P.DMG upon enemies in a straight line. DMG is increased by 150% in proportion to the total casting time. If casting progresses beyond the 3rd stage, knock over enemies.",
+        "mana": 2,
+        "cooldown": 6,
+        "cdstart": "starts before castbar appears",
+        "animation": "2s + 4.6s",
+        "cast": 4.6,
+        "freeze": 0.7,
+        "castRange": 20000,
+        "castRangeType": "ranged",
+        "books": [
+          "DMG is increased by 10%.",
+          "DMG is increased by 15%.",
+          "Crit DMG is increased by 50%."
+        ],
+        "transcendence": {
+          "light": "DMG is increased by 40%.",
+          "dark": "Gain CC immunity while using said skill."
+        }
+      },
+      "s2": {
+        "num": 2,
+        "name": "Target Aim",
+        "description": "Target receives 50% increased damage from this hero. In addition, own ATK is increased by ???.",
+        "mana": 2,
+        "cooldown": 15,
+        "cdstart": "starts after skill animation completes",
+        "buff": 20,
+        "debuff": 20,
+        "animation": 1.9,
+        "cast": 1.2,
+        "freeze": 0.4,
+        "castRange": 20000,
+        "castRangeType": "ranged",
+        "books": [
+          "DMG is increased by 10%.",
+          "DMG is increased by 15%.",
+          "Crit DMG is increased by 50% for the duration of skill."
+        ],
+        "transcendence": {
+          "light": "ATK boost is increased by 40%.",
+          "dark": "Duration is increased by 10 sec."
+        }
+      },
+      "s3": {
+        "num": 3,
+        "name": "Focused Fire",
+        "description": "Fires 10 shots at random. Deals ??? DMG upon attack, and per each attack, DMG is increased by 10%.",
+        "mana": 3,
+        "cooldown": 25,
+        "cdstart": "starts after skill animation completes",
+        "tick": 1,
+        "tickInfo": "10 shots total",
+        "animation": 11.6,
+        "cast": 1.6,
+        "freeze": 0.5,
+        "castRange": "unlimited",
+        "castRangeType": "ranged",
+        "books": [
+          "DMG is increased by 10%.",
+          "DMG is increased by 15%.",
+          "Crit DMG is increased by 50%."
+        ],
+        "transcendence": {
+          "light": "Reduces cooldown by 5% when Critical Hits occur.",
+          "dark": "Ignores enemy Block."
+        }
+      },
+      "s4": {
+        "num": 4,
+        "name": "Rapid Shot",
+        "description": "Every 10 sec, attacks the target 2 times, dealing a total of ??? P.DMG.",
+        "mana": "passive",
+        "cooldown": 10,
+        "cdstart": "starts upon cast",
+        "animation": 2.4,
+        "castRange": 8000,
+        "castRangeType": "ranged",
+        "books": [
+          "DMG is increased by 10%.",
+          "DMG is increased by 15%.",
+          "Crit DMG is increased by 50%."
+        ],
+        "transcendence": {
+          "light": "If there is 1 enemy, DMG is increased by 100%.",
+          "dark": "Enemies hit are stunned for 2 sec."
+        }
+      },
       "weapon": {
         "name": "Rodina Custom Rifle Mod.0",
         "baseAtk": 499,
