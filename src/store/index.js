@@ -105,6 +105,9 @@ const getters = {
         break
     }
     return additionalInfo
+  },
+  getUT: function () {
+    return state.items.hero[state.heroItem].treasure
   }
 }
 

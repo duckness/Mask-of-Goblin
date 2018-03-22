@@ -67,6 +67,28 @@
         <skill :skill="hero.s4"/>
       </collapse-item>
     </collapse>
+    <article class="media" id="ut">
+      <figure class="media-left">
+        <p class="image is-128x128">
+          <img :src="utImage">
+        </p>
+      </figure>
+      <div class="media-content">
+        <div class="content">
+          <p>
+            <small class="subtitle is-6">Unique Treasure</small>
+            <br>
+            <strong class="title is-5">{{ utName }} </strong>
+            <br> {{ utDescription }}
+            <div class="content is-small" v-if="utInfo !== ''">
+              <strong class="is-6">Notes</strong>
+              <br>
+              <span>{{ utInfo }}</span>
+            </div>
+          </p>
+        </div>
+      </div>
+    </article>
     <article class="media" id="uw">
       <figure class="media-left">
         <p class="image is-128x128">
@@ -111,7 +133,8 @@ export default {
   },
   computed: {
     ...mapState({
-      item: 'heroItem'
+      item: 'heroItem',
+      star: 'star'
     }),
     ...mapGetters({
       hero: 'getHero'
@@ -121,7 +144,8 @@ export default {
       'itemName',
       'attack',
       'description',
-      'additionalInfo'
+      'additionalInfo',
+      'getUT'
     ]),
     heroImage: function () {
       return require('./images/icon/' + this.item + '.png')
@@ -131,6 +155,18 @@ export default {
     },
     linkBuilder: function () {
       return 'https://angryraids.ml/#/' + this.item
+    },
+    utImage: function () {
+      return require('./images/ut/' + this.item + '.png')
+    },
+    utName: function () {
+      return this.getUT.name
+    },
+    utDescription: function () {
+      return this.getUT.description[this.star]
+    },
+    utInfo: function () {
+      return this.getUT.info
     }
   },
   methods: {
