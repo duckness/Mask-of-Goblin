@@ -108,6 +108,12 @@ const getters = {
   },
   getUT: function () {
     return state.items.hero[state.heroItem].treasure
+  },
+  starScale: function () {
+    return state.items.uwScale.starScale
+  },
+  levelScale: function () {
+    return state.items.uwScale.levelScale
   }
 }
 

@@ -79,6 +79,7 @@
             <small class="subtitle is-6">Unique Treasure</small>
             <br>
             <strong class="title is-5">{{ utName }} </strong>
+            <small class="subtitle is-6">({{ utHP }} hp)</small>
             <br> {{ utDescription }}
             <div class="content is-small" v-if="utInfo !== ''">
               <strong class="is-6">Notes</strong>
@@ -134,7 +135,8 @@ export default {
   computed: {
     ...mapState({
       item: 'heroItem',
-      star: 'star'
+      star: 'star',
+      level: 'level'
     }),
     ...mapGetters({
       hero: 'getHero'
@@ -145,7 +147,9 @@ export default {
       'attack',
       'description',
       'additionalInfo',
-      'getUT'
+      'getUT',
+      'starScale',
+      'levelScale'
     ]),
     heroImage: function () {
       return require('./images/icon/' + this.item + '.png')
@@ -167,6 +171,9 @@ export default {
     },
     utInfo: function () {
       return this.getUT.info
+    },
+    utHP: function () {
+      return Math.floor(Math.floor(this.starScale[this.star] * this.levelScale[this.level] / 1000) * 11500 / 1000)
     }
   },
   methods: {
