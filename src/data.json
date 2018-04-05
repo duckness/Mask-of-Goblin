@@ -4912,6 +4912,432 @@
         ],
         "info": "Minimum 0.1s cooldown to stack the effect."
       }
+    },
+    "Aselica": {
+      "attributes": {
+        "Position": "Front",
+        "Damage Type": "Magical",
+        "Autoattack Range": "Melee",
+        "Critical Chance": 50,
+        "Base MP/Atk": 210,
+        "P.Block Chance": 200,
+        "P.Tough": 250,
+        "M.Tough": 250
+      },
+      "class": "Knight",
+      "description": "As a knight of the righteous heavens, she punishes evil with her sword and protects the weak with her shield. She has descended in order to defeat the Demons who are ruining the earthly realm. Her beautiful sword and shield are wielded to smite enemies and protect her comrades with their light.",
+      "s1": {
+        "num": 1,
+        "mana": 2,
+        "cooldown": 9,
+        "books": [
+          "DMG is increased by 10%.",
+          "DMG is increased by 15%.",
+          "Stun duration is increased by 2 sec."
+        ],
+        "description": "Deals ??? M.DMG to enemy and surrounding enemies within range, and inflicts Stun for 3 sec.",
+        "name": "Sword of the Sun",
+        "transcendence": {
+          "dark": "Reduces cooldown by 2 sec.",
+          "light": "After activation, increases ATK Spd by 350 for 5 sec."
+        }
+      },
+      "s2": {
+        "num": 2,
+        "mana": 2,
+        "cooldown": 20,
+        "books": [
+          "ATK boost is increased by 10%.",
+          "ATK boost is increased by 15%.",
+          "ATK boost is increased by 25%."
+        ],
+        "description": "Imbues the Blessing of the Sun to the ally with the highest ATK, reducing cooldown of all skills by 20% and increasing ATK by ??? for 15 sec.",
+        "name": "Blessing of the Sun",
+        "transcendence": {
+          "dark": "Removes harmful effects from the target.",
+          "light": "Increases Mana Cost by 1, and grants the effect to the 2 allies with the highest ATK."
+        }
+      },
+      "s3": {
+        "num": 3,
+        "mana": 4,
+        "cooldown": 25,
+        "books": [
+          "DMG and Heal rate are increased by 10%.",
+          "DMG and Heal rate are increased by 15%.",
+          "DMG and Heal rate are increased by 25%."
+        ],
+        "description": "Takes position, focuses to heal HP of nearby allies 8 times for a total of ???, and increases their P.DEF by ??? for 5 sec. Deals a total of ??? M.DMG on enemies within range over 8 times, and decreases their M.DEF by ??? for 5 sec. After the end of the casting, heals HP of allies within range, except the caster, by ???, and deals ??? M.DMG on enemies, and knocks them down for 3 sec.",
+        "name": "Judgment of the Sun",
+        "transcendence": {
+          "dark": "Increases the duration of M.DEF reduction effect by 5 sec.",
+          "light": "Reduces Mana Cost by 1."
+        }
+      },
+      "s4": {
+        "num": 4,
+        "mana": "passive",
+        "books": [
+          "DMG is increased by 10%.",
+          "DMG is increased by 15%.",
+          "DMG is increased by 25%."
+        ],
+        "description": "Upon attack, inflicts Curse of the Sun on the target for 10 sec. Enemies with 10 stacks of Curses of the Sun will consume the stack to receive ??? M.DMG, and become inflicted with Blind for 2 sec, having their ATK reduced by 20% for 5 sec.",
+        "name": "Curse of the Sun",
+        "transcendence": {
+          "dark": "Activates the effect upon reaching the 7th stack of Curse of the Sun.",
+          "light": "Changes ATK Reduction to 30%."
+        }
+      },
+      "subtitle": "Guardian of the Sun",
+      "t5": {
+        "dark": "Grants Immunity to P.DMG to 1 ally with the lowest HP every 15 sec for 3 sec.",
+        "light": "ATK, DEF, HP+15% / P. Block +200"
+      },
+      "treasure": {
+        "description": [
+          "[Judgment of the Sun] Gains Immunity to CC while in use, and increases P.DEF Boost and M.DEF Reduction by 20%.",
+          "[Judgment of the Sun] Gains Immunity to CC while in use, and increases P.DEF Boost and M.DEF Reduction by 24%.",
+          "[Judgment of the Sun] Gains Immunity to CC while in use, and increases P.DEF Boost and M.DEF Reduction by 29%.",
+          "[Judgment of the Sun] Gains Immunity to CC while in use, and increases P.DEF Boost and M.DEF Reduction by 35%.",
+          "[Judgment of the Sun] Gains Immunity to CC while in use, and increases P.DEF Boost and M.DEF Reduction by 42%.",
+          "[Judgment of the Sun] Gains Immunity to CC while in use, and increases P.DEF Boost and M.DEF Reduction by 50%."
+        ],
+        "name": "Guardian's Trumpet",
+        "info": ""
+      },
+      "weapon": {
+        "baseAtk": 390,
+        "description": [
+          "Makes a contract with the ally with the highest ATK at the start of the first battle. Increases the target's P.DEF by 6% of Aselica's P.DEF, and also increases Aselica's ATK by 6% of the target's ATK. This effect cannot be dispelled.",
+          "Makes a contract with the ally with the highest ATK at the start of the first battle. Increases the target's P.DEF by 8% of Aselica's P.DEF, and also increases Aselica's ATK by 8% of the target's ATK. This effect cannot be dispelled.",
+          "Makes a contract with the ally with the highest ATK at the start of the first battle. Increases the target's P.DEF by 10% of Aselica's P.DEF, and also increases Aselica's ATK by 10% of the target's ATK. This effect cannot be dispelled.",
+          "Makes a contract with the ally with the highest ATK at the start of the first battle. Increases the target's P.DEF by 12% of Aselica's P.DEF, and also increases Aselica's ATK by 12% of the target's ATK. This effect cannot be dispelled.",
+          "Makes a contract with the ally with the highest ATK at the start of the first battle. Increases the target's P.DEF by 14% of Aselica's P.DEF, and also increases Aselica's ATK by 14% of the target's ATK. This effect cannot be dispelled.",
+          "Makes a contract with the ally with the highest ATK at the start of the first battle. Increases the target's P.DEF by 16% of Aselica's P.DEF, and also increases Aselica's ATK by 16% of the target's ATK. This effect cannot be dispelled."
+        ],
+        "name": "Solar Halo, Ignisius",
+        "info": ""
+      }
+    },
+    "Crow": {
+      "class": "Mechanic",
+      "attributes": {
+        "Position": "Middle",
+        "Damage Type": "Physical",
+        "Critical Chance": 150,
+        "Critical Power": 500,
+        "Accuracy": 200,
+        "Penetration": 100,
+        "Base MP/Atk": 450
+      },
+      "description": "He was a former naval officer, but is now a bounty hunter and a troubleshooter. He is cynical and doesn't trust people easily. His guns are categorized into three types.",
+      "s1": {
+        "num": 1,
+        "mana": 2,
+        "cooldown": 10,
+        "books": [
+          "DMG is increased by 10%.",
+          "DMG is increased by 15%.",
+          "DMG is increased by 25%."
+        ],
+        "description": "Deals ??? P.DMG to enemies in front through 15 rounds and leaves 'Hunting Dog's Fang Mark' for 40 sec. The Hunting Dog's Fang Mark can be stacked up to 100.",
+        "name": "Target will be Eliminated.",
+        "transcendence": {
+          "dark": "Stacks up 1 additional Hunting Dog's Fang Mark.",
+          "light": "Upon each DMG dealt, recovers 30 Mana."
+        }
+      },
+      "s2": {
+        "num": 2,
+        "mana": 3,
+        "cooldown": 15,
+        "books": [
+          "DMG is increased by 10%.",
+          "DMG is increased by 15%.",
+          "DMG is increased by 25%."
+        ],
+        "description": "Attacks a random enemy 10 times and deals a total of ??? P.DMG. Shoots a Frost Bullet that deals ??? P.DMG to target and surrounding enemies, freezing them for 4 sec. The special Frost Bullet creates a freezing area for 6 seconds that deals ??? P.DMG every 2 sec, with a 50% chance to freeze for 2 sec.",
+        "name": "Struggle is Meaningless.",
+        "transcendence": {
+          "dark": "Freezing chance of the Freezing Area increases by 30%.",
+          "light": "Cooldown is reduced by 3 sec."
+        }
+      },
+      "s3": {
+        "num": 3,
+        "mana": 4,
+        "cooldown": 20,
+        "books": [
+          "DMG is increased by 10%.",
+          "DMG is increased by 15%.",
+          "DMG is increased by 25%."
+        ],
+        "description": "Takes position and focuses to shoot a laser, dealing ??? P.DMG to frontal enemies within range, and consumes target's stack of Hunting Dog's Fang Mark to deal ??? additional P.DMG per each stack. Depending on the focusing time, the effect's range increases, and DMG is increased up to max {3} %. Once the focus is completed, knocks back the enemy far away.",
+        "name": "Even Gods shall Die.",
+        "transcendence": {
+          "dark": "Reduces Mana Cost by 1.",
+          "light": "Increases cooltime by 10 sec and DMG by 100%."
+        }
+      },
+      "s4": {
+        "num": 4,
+        "mana": "passive",
+        "books": [
+          "ATK boost is increased by 10%.",
+          "ATK boost is increased by 15%.",
+          "ATK boost is increased by 25%."
+        ],
+        "description": "Crow is not affected by changes in ATK Spd. ATK increases by ??? and Crit DMG by 80%. Recovers 300 Mana every second. It also leaves a 'Hunting Dog's Fang Mark' to target for 40 sec when dealing a normal attack.",
+        "name": "Hunting Preparation",
+        "transcendence": {
+          "dark": "Mana recovery increases by 40%.",
+          "light": "Boss monster takes 15% increased DMG."
+        }
+      },
+      "subtitle": "The Punishing Bullet",
+      "t5": {
+        "dark": "Increases Mana Cost of all skills by 1 and DMG by 75%.",
+        "light": "ATK, DEF, HP+15% / Crit DMG +20%"
+      },
+      "treasure": {
+        "description": [
+          "[Even Gods shall Die] Gains immunity to CC during skill activation and DMG is increased by 20%.",
+          "[Even Gods shall Die] Gains immunity to CC during skill activation and DMG is increased by 24%.",
+          "[Even Gods shall Die] Gains immunity to CC during skill activation and DMG is increased by 29%.",
+          "[Even Gods shall Die] Gains immunity to CC during skill activation and DMG is increased by 35%.",
+          "[Even Gods shall Die] Gains immunity to CC during skill activation and DMG is increased by 42%.",
+          "[Even Gods shall Die] Gains immunity to CC during skill activation and DMG is increased by 50%."
+        ],
+        "name": "Pendant of Memories",
+        "info": ""
+      },
+      "weapon": {
+        "baseAtk": 499,
+        "description": [
+          "The normal attack shoots an additional bullet that deals 50% of ATK as P.DMG. When the skill ends, 'Hellhound, Akistra' is activated, increasing ATK by 30% and Crit DMG by 30% for 10 sec. 'Hellhound, Akistra' is only activated once at 20 sec.",
+          "The normal attack shoots an additional bullet that deals 60% of ATK as P.DMG. When the skill ends, 'Hellhound, Akistra' is activated, increasing ATK by 36% and Crit DMG by 36% for 10 sec. 'Hellhound, Akistra' is only activated once at 20 sec.",
+          "The normal attack shoots an additional bullet that deals 70% of ATK as P.DMG. When the skill ends, 'Hellhound, Akistra' is activated, increasing ATK by 43% and Crit DMG by 43% for 10 sec. 'Hellhound, Akistra' is only activated once at 20 sec.",
+          "The normal attack shoots an additional bullet that deals 85% of ATK as P.DMG. When the skill ends, 'Hellhound, Akistra' is activated, increasing ATK by 52% and Crit DMG by 52% for 10 sec. 'Hellhound, Akistra' is only activated once at 20 sec.",
+          "The normal attack shoots an additional bullet that deals 100% of ATK as P.DMG. When the skill ends, 'Hellhound, Akistra' is activated, increasing ATK by 62% and Crit DMG by 62% for 10 sec. 'Hellhound, Akistra' is only activated once at 20 sec.",
+          "The normal attack shoots an additional bullet that deals 125% of ATK as P.DMG. When the skill ends, 'Hellhound, Akistra' is activated, increasing ATK by 75% and Crit DMG by 75% for 10 sec. 'Hellhound, Akistra' is only activated once at 20 sec."
+        ],
+        "name": "Hellhound, Akistra",
+        "info": ""
+      }
+    },
+    "Shea": {
+      "attributes": {
+        "Position": "Rear",
+        "Damage Type": "Magical",
+        "Critical Chance": 100,
+        "Accuracy": 100,
+        "Base MP/Atk": 400,
+        "M.Block Chance": 500,
+        "M.Block Power": 250,
+        "M.Tough": 150
+      },
+      "class": "Priest",
+      "description": "This mysterious girl heals people with her captivating tunes. She heals people with her beautiful voice and the lovely sounds of her magic harp.",
+      "s1": {
+        "num": 1,
+        "mana": 3,
+        "cooldown": 28,
+        "books": [
+          "Heal rate is increased by 10%.",
+          "Heal rate is increased by 15%.",
+          "Heal rate is increased by 25%."
+        ],
+        "description": "Heals a total of ??? HP of all allies over 8 times. For the duration of skill, all allies take 35% reduced DMG. If used when Trance is stacked up to 3, this skill's Heal rate is increased by 100% and for the duration of skill, all allies take 70% reduced DMG.",
+        "name": "Green Nature's Melody",
+        "transcendence": {
+          "dark": "Increases Crit Resistance of all allies by 250 while it's cast.",
+          "light": "Heals 15% HP of all allies when used."
+        }
+      },
+      "s2": {
+        "num": 2,
+        "mana": 3,
+        "cooldown": 28,
+        "books": [
+          "MP recovery rate is increased by 10%.",
+          "MP recovery rate is increased by 15%.",
+          "MP recovery rate is increased by 25%."
+        ],
+        "description": "Recovers a total of ??? MP of all allies over 8 times, and heals ??? HP of the target with max Mana. For the duration of skill, CC duration is reduced by 50%. If used when Trance is stacked up to 3, this skill's MP Recovery and Heal rate is increased by 50% and all allies will gain Immunity to CC.",
+        "name": "Blue Wind's Song",
+        "transcendence": {
+          "dark": "Increases ATK Spd of all allies by 250 while it's cast.",
+          "light": "Heals 500 MP of all allies when used."
+        }
+      },
+      "s3": {
+        "num": 3,
+        "mana": 3,
+        "cooldown": 28,
+        "books": [
+          "ATK boost is increased by 10%.",
+          "ATK boost is increased by 15%.",
+          "ATK boost is increased by 25%."
+        ],
+        "description": "Deals a total of ??? M.DMG to all enemies over 8 times. For the duration of skill, all allies' ATK is increased by ???. If used when Trance is stacked up to 3, this skill's DMG and ATK Boost are increased by 100%, and all enemies' positive effects are continuously dispelled.",
+        "name": "Dance of Red Passion",
+        "transcendence": {
+          "dark": "Increases amount of DMG that enemies receive by 15% while it's cast.",
+          "light": "Reduces skill cooldown for all allies by 10% when used."
+        }
+      },
+      "s4": {
+        "num": 4,
+        "mana": "passive",
+        "books": [
+          "Heal rate is increased by 10%.",
+          "Heal rate is increased by 15%.",
+          "Heal rate is increased by 25%."
+        ],
+        "description": "At the end of the skill, 1 more Trance is stacked. Trance can be stacked up to max 3 times, and if the skill is used when Trance is stacked up to 3, consumes the stack to heal ??? HP of all allies. Trance cannot be dispelled.",
+        "name": "Trance",
+        "transcendence": {
+          "dark": "If a skill is used when there are 3 Trance stacks, inflicts M.DMG to enemies instead of healing allies, and reduces all DEF by 10% for 10 sec.",
+          "light": "Increases Heal rate of Trance by 100%."
+        }
+      },
+      "subtitle": "Aria of Fantasy",
+      "t5": {
+        "dark": "At the start of every battle, adds 1 Trance stack recovers 500 MP.",
+        "light": "ATK, DEF, HP+15% / CC Resist +100"
+      },
+      "treasure": {
+        "description": [
+          "[Dance of Red Passion] Upon activation, enemies are inflicted with Silence for 2 sec, and all allies' Crit DMG is increased by 20% for the duration of skill.",
+          "[Dance of Red Passion] Upon activation, enemies are inflicted with Silence for 2 sec, and all allies' Crit DMG is increased by 24% for the duration of skill.",
+          "[Dance of Red Passion] Upon activation, enemies are inflicted with Silence for 2 sec, and all allies' Crit DMG is increased by 29% for the duration of skill.",
+          "[Dance of Red Passion] Upon activation, enemies are inflicted with Silence for 2 sec, and all allies' Crit DMG is increased by 35% for the duration of skill.",
+          "[Dance of Red Passion] Upon activation, enemies are inflicted with Silence for 2 sec, and all allies' Crit DMG is increased by 42% for the duration of skill.",
+          "[Dance of Red Passion] Upon activation, enemies are inflicted with Silence for 2 sec, and all allies' Crit DMG is increased by 50% for the duration of skill."
+        ],
+        "name": "Fairy's Crown",
+        "info": ""
+      },
+      "weapon": {
+        "baseAtk": 510,
+        "description": [
+          "When Trance is stacked, all skill cooldown is reduced by 10%, and recovers own Mana by 200.",
+          "When Trance is stacked, all skill cooldown is reduced by 12%, and recovers own Mana by 240.",
+          "When Trance is stacked, all skill cooldown is reduced by 14%, and recovers own Mana by 290.",
+          "When Trance is stacked, all skill cooldown is reduced by 17%, and recovers own Mana by 350.",
+          "When Trance is stacked, all skill cooldown is reduced by 20%, and recovers own Mana by 420.",
+          "When Trance is stacked, all skill cooldown is reduced by 25%, and recovers own Mana by 500."
+        ],
+        "name": "Charming Melody , Schwanheite",
+        "info": ""
+      }
+    },
+    "Veronica": {
+      "attributes": {
+        "Damage Type": "Magical",
+        "Autoattack Range": 6000,
+        "Accuracy": 100,
+        "Penetration": 150,
+        "Base MP/Atk": 350,
+        "M.Dodge": 200,
+        "M.Block Chance": 250
+      },
+      "class": "Wizard",
+      "description": "She is the genius from the Tower of Sage who reestablished the formula for Rune Magic.  Currently, she is Orvel's financier and the Chief Guild Officer that directs all guilds. Her strong analytical skills and Rune Magic can shackle her enemies.",
+      "s1": {
+        "num": 1,
+        "mana": 2,
+        "cooldown": 9,
+        "books": [
+          "DMG is increased by 10%.",
+          "DMG is increased by 15%.",
+          "DMG is increased by 25%."
+        ],
+        "description": "Deals ??? M.DMG to enemy and surrounding enemies within range, and inflicts Stun for 2 sec.",
+        "name": "This will hurt a little!",
+        "transcendence": {
+          "dark": "Number of targets changes to 2.",
+          "light": "DMG is increased by 100% when there is 1 enemy."
+        }
+      },
+      "s2": {
+        "num": 2,
+        "mana": 4,
+        "cooldown": 25,
+        "books": [
+          "ATK boost is increased by 10%.",
+          "ATK boost is increased by 15%.",
+          "ATK boost is increased by 25%."
+        ],
+        "description": "Grants a Rune to all allies to increase their ATK by ??? and any DMG to bosses by 15% for 10 sec.",
+        "name": "Let me help you.",
+        "transcendence": {
+          "dark": "Reduces cooldown by 5 sec.",
+          "light": "ATK Boost is increased by 40%."
+        }
+      },
+      "s3": {
+        "num": 3,
+        "mana": 4,
+        "cooldown": 25,
+        "books": [
+          "DMG is increased by 10%.",
+          "DMG is increased by 15%.",
+          "DMG is increased by 25%."
+        ],
+        "description": "Attacks target and enemies in a wide surrounding area 2 times to inflict ??? M.DMG, knock them down for 5 sec, and increase the M.DMG of enemies affected by 30% for 10 sec.",
+        "name": "Get out of my sight!",
+        "transcendence": {
+          "dark": "Target takes increased M.DMG and P.DMG.",
+          "light": "Increases Mana Cost by 1 and DMG by 100%."
+        }
+      },
+      "s4": {
+        "num": 4,
+        "mana": "passive",
+        "books": [
+          "ATK boost is increased by 10%.",
+          "ATK boost is increased by 15%.",
+          "ATK boost is increased by 25%."
+        ],
+        "description": "All Allies' ATK is increased by ???, and upon using the skill 3 times, instantly gains The Top Financier's Knowledge. Per each stack of Top Financier's Knowledge, own ATK is increased by 30%, and all skill effects are increased by 10% each. Top Financier's Knowledge can be stacked up to max 5 times, and cannot be dispelled.",
+        "name": "Top Financier's Knowledge",
+        "transcendence": {
+          "dark": "When activated, increases the caster's ATK by 50% for 10 sec.",
+          "light": "Recovers the caster's MP by 2 orbs when activated."
+        }
+      },
+      "subtitle": "The Eye of Discernment",
+      "t5": {
+        "dark": "Reduces the cooldown of the caster's all skills by 15% every 20 sec.",
+        "light": "ATK, DEF, HP+15% / Crit Chance +100"
+      },
+      "treasure": {
+        "description": [
+          "[Get out of my sight!] DMG is increased by 20% and per each enemy hit, cooldown is reduced by 10%.",
+          "[Get out of my sight!] DMG is increased by 24% and per each enemy hit, cooldown is reduced by 10%.",
+          "[Get out of my sight!] DMG is increased by 29% and per each enemy hit, cooldown is reduced by 10%.",
+          "[Get out of my sight!] DMG is increased by 35% and per each enemy hit, cooldown is reduced by 10%.",
+          "[Get out of my sight!] DMG is increased by 42% and per each enemy hit, cooldown is reduced by 10%.",
+          "[Get out of my sight!] DMG is increased by 50% and per each enemy hit, cooldown is reduced by 10%."
+        ],
+        "name": "Seal of Guild Manager",
+        "info": ""
+      },
+      "weapon": {
+        "baseAtk": 510,
+        "description": [
+          "All DMG from skills inflicts an additional M.DMG by 50% of ATK. Additionally, the Top Financier's Knowledge max stack increases to 9.",
+          "All DMG from skills inflicts an additional M.DMG by 60% of ATK. Additionally, the Top Financier's Knowledge max stack increases to 10.",
+          "All DMG from skills inflicts an additional M.DMG by 70% of ATK. Additionally, the Top Financier's Knowledge max stack increases to 11.",
+          "All DMG from skills inflicts an additional M.DMG by 85% of ATK. Additionally, the Top Financier's Knowledge max stack increases to 12.",
+          "All DMG from skills inflicts an additional M.DMG by 100% of ATK. Additionally, the Top Financier's Knowledge max stack increases to 13.",
+          "All DMG from skills inflicts an additional M.DMG by 125% of ATK. Additionally, the Top Financier's Knowledge max stack increases to 15."
+        ],
+        "name": "Infinite Charter, Accordio",
+        "info": ""
+      }
     }
   },
   "uwScale": {
