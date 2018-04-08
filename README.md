@@ -1,6 +1,6 @@
 # Mask of Goblin
 
-Rare equipment viewer for King's Raid.
+Information and various utilities for the King's Raid mobile game.
 
 ## Build Setup
 

@@ -1,119 +1,93 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import router from '@/router'
+import vuexI18n from 'vuex-i18n'
+import axios from 'axios'
+// eslint-disable-next-line
+// import router from '@/router'
 
 Vue.use(Vuex)
 
+const lang = {
+  'en': require('./i18n/English.json'),
+  'fr': '/static/i18n/French.json',
+  'de': '/static/i18n/German.json',
+  'ja': '/static/i18n/Japanese.json',
+  'ko': '/static/i18n/Korean.json',
+  'pt': '/static/i18n/Portuguese.json',
+  'ru': '/static/i18n/Russian.json',
+  'es': '/static/i18n/Spanish.json',
+  'th': '/static/i18n/Thai.json',
+  'vi': '/static/i18n/Vietnamese.json'
+}
+
 const state = {
-  page: 'hero',
-  items: require('@/data.json'),
-  heroItem: 'Kasel',
-  artifactItem: 'Mask of Goblin',
-  calcItem: 'softcap',
-  enableLevel: true,
+  locale: 'en',
+  artifactID: '1',
+  heroID: '1',
+  data: require('@/data.json'),
   star: 0,
   level: 0
 }
 
 const getters = {
+  getArtifactList: function () {
+    var artifacts = {}
+    for (var artifact in lang[state.locale]['artifact']) {
+      artifacts[lang[state.locale]['artifact'][artifact]['name']] = artifact
+    }
+    return artifacts
+  },
+  getHeroList: function () {
+    var heroes = {}
+    for (var hero in lang[state.locale]['hero']) {
+      heroes[lang[state.locale]['hero'][hero]['name']] = hero
+    }
+    return heroes
+  },
+  getArtifact: function () {
+    return {
+      'image': require('@/components/artifact/images/' + state.artifactID + '.png'),
+      'name': Vue.i18n.translate('artifact.' + state.artifactID + '.name'),
+      'description': Vue.i18n.translate('artifact.' + state.artifactID + '.description')
+    }
+  },
   getHero: function () {
-    return state.items.hero[state.heroItem]
-  },
-  itemImage: function () {
-    switch (state.page) {
-      case 'hero':
-        // return the require like this as require is fussy
-        return require('@/components/hero/images/uw/' + state.heroItem + '.png')
-      case 'artifact':
-        return require('@/components/artifact/images/' + state.artifactItem + '.png')
+    var prefix = 'hero.' + state.heroID
+    return {
+      'image': require('@/components/hero/images/' + state.heroID + '/hero.png'),
+      'name': Vue.i18n.translate(prefix + '.name'),
+      'subtitle': Vue.i18n.translate(prefix + '.subtitle'),
+      'class': Vue.i18n.translate('ui.' + helpers.getClass()),
+      'description': Vue.i18n.translate(prefix + '.description'),
+      't5': {
+        'light': Vue.i18n.translate(prefix + '.t5.light'),
+        'dark': Vue.i18n.translate(prefix + '.t5.dark')
+      },
+      'attributes': {
+        'image': require('@/components/hero/images/classes/' + helpers.getClass() + '.png'),
+        'stats': helpers.getClassStats().attributes
+      },
+      'treasure': {
+        'image': require('@/components/hero/images/' + state.heroID + '/UT.png'),
+        'name': Vue.i18n.translate(prefix + '.treasure.name'),
+        'description': Vue.i18n.translate(prefix + '.treasure.description')
+      },
+      'weapon': {
+        'image': require('@/components/hero/images/' + state.heroID + '/UW.png'),
+        'name': Vue.i18n.translate(prefix + '.weapon.name'),
+        'description': Vue.i18n.translate(prefix + '.weapon.description')
+      },
+      's1': helpers.getSkill(prefix + '.s1', 's1'),
+      's2': helpers.getSkill(prefix + '.s2', 's2'),
+      's3': helpers.getSkill(prefix + '.s3', 's3'),
+      's4': helpers.getSkill(prefix + '.s4', 's4')
     }
   },
-  equips: function () {
-    let equips = []
-    switch (state.page) {
-      case 'hero':
-      /*
-        var temps = Object.keys(state.items.hero)
-        for (var i = 0; i < temps.length; i += 1) {
-          if ('description' in state.items.hero[temps[i]]) {
-            equips.push(temps[i])
-          }
-        }
-      */
-        equips = Object.keys(state.items.hero)
-        break
-      case 'artifact':
-        equips = Object.keys(state.items.artifact)
-        break
-      case 'calc':
-        equips = state.items.calc
-        break
-    }
-    return equips.sort()
+  getUAtk: function () {
+    return helpers.getUnique(helpers.getClassStats().uatk)
   },
-  itemName: function () {
-    let name = ''
-    switch (state.page) {
-      case 'hero':
-        name = state.items.hero[state.heroItem].weapon.name
-        break
-      case 'artifact':
-        name = state.artifactItem
-        break
-    }
-    return name
-  },
-  attack: function () {
-    let atk = ''
-    switch (state.page) {
-      case 'hero':
-        atk = '(' + Math.floor(Math.floor(state.items.uwScale.starScale[state.star] * state.items.uwScale.levelScale[state.level] / 1000) * state.items.hero[state.heroItem].weapon.baseAtk / 1000) + ' atk)'
-        break
-      case 'artifact':
-        atk = ''
-        break
-    }
-    return atk
-  },
-  description: function () {
-    let itemText = ''
-    switch (state.page) {
-      case 'hero':
-        itemText = state.items.hero[state.heroItem].weapon.description[state.star]
-        break
-      case 'artifact':
-        itemText = state.items.artifact[state.artifactItem].description[state.star]
-        break
-    }
-    return itemText
-  },
-  additionalInfo: function () {
-    let additionalInfo = ''
-    function pickInfo (info, star) {
-      if (Array.isArray(info)) {
-        return info[star]
-      } else {
-        return info
-      }
-    }
-    switch (state.page) {
-      case 'hero':
-        additionalInfo = pickInfo(state.items.hero[state.heroItem].weapon.info, state.star)
-        break
-      case 'artifact':
-        additionalInfo = pickInfo(state.items.artifact[state.artifactItem].info, state.star)
-        break
-    }
-    return additionalInfo
-  },
-  getUT: function () {
-    return state.items.hero[state.heroItem].treasure
-  },
-  starScale: function () {
-    return state.items.uwScale.starScale
-  },
-  levelScale: function () {
-    return state.items.uwScale.levelScale
+  getUHP: function () {
+    return helpers.getUnique(11500)
   }
 }
 
@@ -122,33 +96,11 @@ const actions = {
 }
 
 const mutations = {
-  setItems: function (state, items) {
-    state.items = items
+  setArtifactID: function (state, newID) {
+    state.artifactID = newID
   },
-  pageChange: function (state, newPage) {
-    state.page = newPage
-    switch (state.page) {
-      case 'hero':
-        state.enableLevel = true
-        break
-      case 'artifact':
-      case 'calc':
-        state.enableLevel = false
-        break
-    }
-  },
-  itemChange: function (state, newItem) {
-    switch (state.page) {
-      case 'hero':
-        state.heroItem = newItem
-        break
-      case 'artifact':
-        state.artifactItem = newItem
-        break
-      case 'calc':
-        state.calcItem = newItem
-        break
-    }
+  setHeroID: function (state, newID) {
+    state.heroID = newID
   },
   starChange: function (state, newStar) {
     state.star = Number(newStar)
@@ -160,71 +112,32 @@ const mutations = {
   }
 }
 
-const routing = store => {
-  // called when the store is initialized
-  // can't use this to init app as route is not in store yet
-  var start = true
-  store.subscribe((mutation, state) => {
-    // called after every mutation.
-    // The mutation comes in the format of `{ type, payload }`.
-    // we map route to state on load once, since vuex-route-sync will mutate state
-    // afterwards, we only modify routing from new state
-    switch (mutation.type) {
-      case 'route/ROUTE_CHANGED':
-        // only want to set application state at the start
-        if (start) {
-          helpers.routeInit(state.route.query)
-          start = false
-        }
-        break
-      case 'pageChange':
-      case 'itemChange':
-      case 'starChange':
-      case 'levelChange':
-        helpers.modifyRoute()
-        break
-      default:
-        break
-    }
-  })
-}
-
 const helpers = {
-  // Initialize the app with the route, we specifically do NOT want to call mutations
-  // otherwise we will trigger the rerouting over and over while this is modifying initial state
-  routeInit: function (query) {
-    if ('item' in query) {
-      if (query.item in state.items.artifact) {
-        state.enableLevel = false
-        state.page = 'artifact'
-        state.artifactItem = query.item
-      } else if (query.item in state.items.hero) {
-        state.page = 'hero'
-        state.heroItem = query.item
-      } else if (state.items.calc.includes(query.item)) {
-        state.page = 'calc'
-        state.calcItem = query.item
-      }
-    }
-    if ('star' in query) {
-      if (!isNaN(Number(query.star))) {
-        state.star = helpers.numberWithinBounds(0, 5, Number(query.star))
-      }
-    }
-    if ('level' in query) {
-      if (!isNaN(Number(query.level))) {
-        state.level = helpers.levelValidation(query.level)
-      }
+  getClass: function () {
+    return state.data.hero[state.heroID].class
+  },
+  getClassStats: function () {
+    return state.data.class[helpers.getClass()]
+  },
+  getSkill: function (prefix, skillNum) {
+    return {
+      'image': require('@/components/hero/images/' + state.heroID + '/' + skillNum + '.png'),
+      'name': Vue.i18n.translate(prefix + '.name'),
+      // 'description': Vue.i18n.translate(prefix + '.description'),
+      'description': "Vue.i18n.translate(prefix + '.description')",
+      'transcendence': {
+        'light': Vue.i18n.translate(prefix + '.transcendence.light'),
+        'dark': Vue.i18n.translate(prefix + '.transcendence.dark')
+      },
+      'books': [
+        Vue.i18n.translate(prefix + '.books.1', [0, 10]),
+        Vue.i18n.translate(prefix + '.books.2', [0, 15]),
+        Vue.i18n.translate(prefix + '.books.3', [0, 25])
+      ]
     }
   },
-  modifyRoute: function () {
-    if (state.page === 'hero') {
-      router.replace({ query: { item: state.heroItem, star: state.star, level: state.level } })
-    } else if (state.page === 'artifact') {
-      router.replace({ query: { item: state.artifactItem, star: state.star } })
-    } else {
-      router.replace({ query: { item: state.calcItem } })
-    }
+  getUnique: function (baseVal) {
+    return Math.floor(Math.floor(state.data.scaling.star[state.star] * state.data.scaling.level[state.level] / 1000) * baseVal / 1000)
   },
   levelValidation: function (level) {
     level = Number(level)
@@ -238,10 +151,41 @@ const helpers = {
   }
 }
 
-export default new Vuex.Store({
+const store = new Vuex.Store({
   state,
   getters,
   actions,
-  mutations,
-  plugins: [routing]
+  mutations
 })
+
+// Vue.use(vuexI18n.plugin, store)
+
+// only ask for translation ONCE from the server as all the strings are in a single JSON
+// would otherwise FLOOD the server with requests for the JSON
+var isFetched = false
+
+Vue.use(vuexI18n.plugin, store, {
+  moduleName: 'i18n',
+  onTranslationNotFound (locale, key) {
+    if (!isFetched) {
+      isFetched = true
+      return new Promise((resolve, reject) => {
+        axios.get(lang[locale])
+          .then((result) => {
+            resolve(
+              lang[locale] = result.data,
+              Vue.i18n.add(locale, result.data),
+              state.locale = locale
+            )
+          })
+      })
+    }
+  }
+})
+
+Vue.i18n.add('en', lang.en)
+
+Vue.i18n.set(navigator.language.split('-')[0])
+Vue.i18n.fallback('en')
+
+export default store

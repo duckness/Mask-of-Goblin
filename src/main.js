@@ -11,10 +11,10 @@ sync(store, router)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
-new Vue({
+export const app = new Vue({
   el: '#app',
   router,
   store,
-  template: '<App/>',
-  components: { App }
+  components: { App },
+  template: '<App/>'
 })
