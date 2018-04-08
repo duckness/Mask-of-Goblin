@@ -3,8 +3,8 @@ import Router from 'vue-router'
 import Meta from 'vue-meta'
 import Buefy from 'buefy'
 import Icon from 'vue-awesome/components/Icon'
-import Artifact from '@/components/Artifact'
-import Hero from '@/components/Hero'
+import Artifact from '@/components/artifact'
+import Hero from '@/components/hero'
 
 Vue.use(Router)
 Vue.use(Meta)
