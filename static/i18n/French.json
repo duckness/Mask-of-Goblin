@@ -424,11 +424,11 @@
       "description": "Le guerrier élu d'Aea, l'Épée Sacrée qui sauva déjà le monde une fois. Il peut repousser les ennemis et s'améliorer lui-même avec la puissance de l'Épée Sacrée.",
       "name": "Kasel",
       "s1": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les DEG de {1} %."
+        },
         "description": "Inflige {1} points de DEG P. aux ennemis à portée et les renverse pendant {2} secondes.",
         "name": "Lame de Jugement",
         "transcendence": {
@@ -437,11 +437,11 @@
         }
       },
       "s2": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les Chances de Critique de {1} ."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les Chances de Critique de {1} ."
+        },
         "description": "Réussir une Esquive inflige {1} points de DEG P. aux ennemis de devant et réduit leur Précision de {2} pendant 5 sec. Après que la cible soit touchée, donne 300 PM.",
         "name": "Frappe de la Déesse",
         "transcendence": {
@@ -450,11 +450,11 @@
         }
       },
       "s3": {
-        "books": [
-          "Le taux d'augmentation d'Attaque augmente de {1} %.",
-          "Le taux d'augmentation d'Attaque augmente de {1} %.",
-          "Augmente la vitesse de {1} pendant la durée."
-        ],
+        "books": {
+          "1": "Le taux d'augmentation d'Attaque augmente de {1} %.",
+          "2": "Le taux d'augmentation d'Attaque augmente de {1} %.",
+          "3": "Augmente la vitesse de {1} pendant la durée."
+        },
         "description": "Inflige {1} points de DEG P. aux ennemis à portée et applique Étourdissement pendant 3 sec. Pendant {2} sec supplémentaires, l'ATQ est augmentée de {3} et l'Esquive de {4} , tout en étant immunisé aux Contrôles. Ceci ne peut pas être dissipé.",
         "name": "Autorité de Dieu",
         "transcendence": {
@@ -463,11 +463,11 @@
         }
       },
       "s4": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente Chances de Critique de {1} ."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente Chances de Critique de {1} ."
+        },
         "description": "Inflige {1} points de DEG P. aux ennemis à portée.",
         "name": "Ruée Vaillante",
         "transcendence": {
@@ -507,11 +507,11 @@
       "description": "Une Princesse Elfe d'un air hautain, elle garde la forêt sacrée. Des flèches d'énergie lunaire la suivent et traquent ses ennemis, puis des flèches chargées par l'énergie des vents les transpercent violemment.",
       "name": "Selene",
       "s1": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les DEG de {1} %."
+        },
         "description": "Tire 12 flèches aléatoirement et inflige {1} DEG P. à l'ennemi.",
         "name": "Pluie de Flèches",
         "transcendence": {
@@ -520,11 +520,11 @@
         }
       },
       "s2": {
-        "books": [
-          "Le taux d'augmentation d'Attaque augmente de {1} %.",
-          "Le taux d'augmentation d'Attaque augmente de {1} %.",
-          "Chaque attaque augmente les DEG Critiques du héros de {1} %."
-        ],
+        "books": {
+          "1": "Le taux d'augmentation d'Attaque augmente de {1} %.",
+          "2": "Le taux d'augmentation d'Attaque augmente de {1} %.",
+          "3": "Chaque attaque augmente les DEG Critiques du héros de {1} %."
+        },
         "description": "Lors d'une attaque, pendant {1} sec, l'ATQ augmente de {2} et les Chances de Crit de {3} . Cumulable 3 fois.",
         "name": "Flèche Clair de Lune",
         "transcendence": {
@@ -533,11 +533,11 @@
         }
       },
       "s3": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les DEG de {1} %."
+        },
         "description": "Tire une flèche en ligne droite, infligeant à tous les ennemis à portée des DEG P. basés sur leurs PV actuels. Inflige un maximum de {1} points de DEG P. et renverse les ennemis.",
         "name": "Flash Clair de Lune",
         "transcendence": {
@@ -546,11 +546,11 @@
         }
       },
       "s4": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les DEG de {1} %."
+        },
         "description": "Invoque 5 flèches qui volent vers l'ennemi en attaque auto. Chaque flèche inflige {1} DEG P.",
         "name": "Ruée",
         "transcendence": {
@@ -590,11 +590,11 @@
       "description": "La sainte qui a béni le héros qui sauva le monde autrefois. Ce corbeau maudit et tire des plumes tranchantes sur les ennemis et casse complètement leur formation.",
       "name": "Maria",
       "s1": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Réduit la vitesse d'ATQ ennemie de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Réduit la vitesse d'ATQ ennemie de {1} %."
+        },
         "description": "Inflige {1} points de DEG M. aux ennemis à portée et les renverse. Réduit également la DEF M. de {3} % pendant {2} sec.",
         "name": "Tempête du Corbeau",
         "transcendence": {
@@ -603,11 +603,11 @@
         }
       },
       "s2": {
-        "books": [
-          "Le taux de réduction de l'ATQ est augmenté de {1} %.",
-          "Le taux de réduction de l'ATQ est augmenté de {1} %.",
-          "Réduit les Chances de Critique de l'ennemi de {1} % pendant la durée."
-        ],
+        "books": {
+          "1": "Le taux de réduction de l'ATQ est augmenté de {1} %.",
+          "2": "Le taux de réduction de l'ATQ est augmenté de {1} %.",
+          "3": "Réduit les Chances de Critique de l'ennemi de {1} % pendant la durée."
+        },
         "description": "Réduit l'ATQ des ennemis touchés par Maria de {2} pendant {1} sec.",
         "name": "Vent Noir",
         "transcendence": {
@@ -616,11 +616,11 @@
         }
       },
       "s3": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les DEG de {1} %."
+        },
         "description": "Attire les ennemis qui sont à portée vers le milieu et leur inflige {1} points de DEG M. La dernière attaque applique un Étourdissement pendant 3 sec.",
         "name": "Zone Ténébreuse",
         "transcendence": {
@@ -629,11 +629,11 @@
         }
       },
       "s4": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG M. subis par l'ennemi de {1} % pendant la durée de la compétence."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les DEG M. subis par l'ennemi de {1} % pendant la durée de la compétence."
+        },
         "description": "Inflige {1} points de DEG M. à 2 ennemis maximum et les entrave pendant {2} sec. Les ennemis ciblés reçoivent également des DEG M. additionnels en continue.",
         "name": "Griffe de Restriction",
         "transcendence": {
@@ -673,11 +673,11 @@
       "description": "La légendaire pirate qui fut maudite et transformée en petite fille. Elle a l'aptitude extraordinaire de tirer des boulets de canon directement sur la tête de ses ennemis.",
       "name": "Miruru",
       "s1": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente Chances de Crit de {1} ."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente Chances de Crit de {1} ."
+        },
         "description": "Inflige {1} points de DEG P. aux ennemis à portée et les renverse.",
         "name": "Baaaam!",
         "transcendence": {
@@ -686,11 +686,11 @@
         }
       },
       "s2": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente Chances de Crit de {1} ."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente Chances de Crit de {1} ."
+        },
         "description": "Inflige {1} points de DEG P. 3 fois aux ennemis à portée. Chaque attaque a {2} % de chance de renverser l'ennemi pendant {3} sec.",
         "name": "Rouleau",
         "transcendence": {
@@ -699,11 +699,11 @@
         }
       },
       "s3": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente Chances de Crit de {1} ."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente Chances de Crit de {1} ."
+        },
         "description": "Inflige {2} points de DEG P. aux ennemis à portée pendant {1} sec. tout en réduisant leur vitesse de {3} %.",
         "name": "Pirates de Miruru!",
         "transcendence": {
@@ -712,11 +712,11 @@
         }
       },
       "s4": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente Chances de Crit de {1} ."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente Chances de Crit de {1} ."
+        },
         "description": "Lors d'une Attaque sur un ennemi, il y a 60 % de chance de tirer des balles suplémentaires et d'infliger {1} points de DEG P. à 3 ennemis aléatoires.",
         "name": "Boooooom!",
         "transcendence": {
@@ -756,11 +756,11 @@
       "description": "La druidesse elfe qui a rejoint les Forces Alliées Humaines lors de l'invasion du Seigneur des Ténèbres. En communion avec la nature, elle attaque ses ennemis en utilisant des arbres.",
       "name": "Lorraine",
       "s1": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Lors d'un Coup Critique, 2 charges de Poison sont appliquées."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Lors d'un Coup Critique, 2 charges de Poison sont appliquées."
+        },
         "description": "Attaque 3 fois des ennemis à portée choisis aléatoirement et inflige {1} points de DEG M. à chaque fois. Chaque attaque applique également 1 charge de poison, cumulable.",
         "name": "Forêt de Ronces",
         "transcendence": {
@@ -769,11 +769,11 @@
         }
       },
       "s2": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les DEG de {1} %."
+        },
         "description": "Toutes les 15 sec, attaque 3 fois les ennemis, aléatoirement. Chaque attaque inflige {1} points de DEG M. et applique 1 charge de poison.",
         "name": "Lamefeuille",
         "transcendence": {
@@ -782,11 +782,11 @@
         }
       },
       "s3": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les Chances de Critique de {1} ."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les Chances de Critique de {1} ."
+        },
         "description": "Inflige {1} DEG M. aux ennemis à portée et les renverse pendant 3 sec. Les ennemis empoisonnés subissent {2} % de dégâts supplémentaires par charge de poison.",
         "name": "Fureur de la Forêt",
         "transcendence": {
@@ -795,11 +795,11 @@
         }
       },
       "s4": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG M. infligé à l'ennemi de {1} % pendant la durée de la compétence."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les DEG M. infligé à l'ennemi de {1} % pendant la durée de la compétence."
+        },
         "description": "Inflige, en ligne droite, {1} points de DEG M. aux ennemis et applique 2 charges de Poison. Applique également un effet d'Entrave pendant {2} sec. Après un temps, inflige une grosse quantité de DEG, basés sur le nombre de charges de Poison.",
         "name": "Enchevêtrement",
         "transcendence": {
@@ -839,11 +839,11 @@
       "description": "Frère ainé de Kasel. Véritable chevalier, c'est un homme d'acier qui protège ses alliés sur le front du champ de bataille. Il bloque les attaques des ennemis en les mettant à terre, ce qui lui a valu une réputation de muraille.",
       "name": "Clause",
       "s1": {
-        "books": [
-          "Le taux d'augmentation de la DEF P. est augmenté de {1} %.",
-          "Le taux d'augmentation de la DEF P. est augmenté de {1} %.",
-          "Le taux d'augmentation de la DEF P. est augmenté de {1} %."
-        ],
+        "books": {
+          "1": "Le taux d'augmentation de la DEF P. est augmenté de {1} %.",
+          "2": "Le taux d'augmentation de la DEF P. est augmenté de {1} %.",
+          "3": "Le taux d'augmentation de la DEF P. est augmenté de {1} %."
+        },
         "description": "Augmente la DEF P. de tous les alliés de {2} pendant {1} sec. Réduit également les chancs d'être touché par unCoup Critique de {3} %.",
         "name": "Bouclier du Gardien",
         "transcendence": {
@@ -852,11 +852,11 @@
         }
       },
       "s2": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Réduit la vitesse de la cible de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Réduit la vitesse de la cible de {1} %."
+        },
         "description": "Inflige {1} points de DEG P. (basés sur DEF P.) aux ennemis à portée et les renverse. Les ennemis touchés voient leur DEF réduite de {2} %. Le temps de recharge est réduit de 0.5 sec pour chaque attaque bloquée.",
         "name": "Coup de Bouclier",
         "transcendence": {
@@ -865,11 +865,11 @@
         }
       },
       "s3": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Prolonge la durée de l'Étourdissement de {1} sec."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Prolonge la durée de l'Étourdissement de {1} sec."
+        },
         "description": "Inflige {1} points de DEG P. aux ennemis à portée, applique également Étourdissement pendant {2} sec.",
         "name": "Sol Déchiré",
         "transcendence": {
@@ -878,11 +878,11 @@
         }
       },
       "s4": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les DEG de {1} %."
+        },
         "description": "Inflige {1} points de DEG P. vers l'avant après un blocage, et réduit l'ATQ des ennemis touchés de {3} % pendant {2} sec.",
         "name": "Serment des Chevaliers",
         "transcendence": {
@@ -922,11 +922,11 @@
       "description": "Mi-humain et mi-animal, cette créature guide les âmes en utilisant une lampe d'esprit. Elle gène ses ennemis, soigne ses alliés avec la puissance des âmes et  et les aide à récupérer leur Mana.",
       "name": "Rephy",
       "s1": {
-        "books": [
-          "Augmente la Récupération de {1} %.",
-          "Augmente la Récupération de {1} %.",
-          "Augmente la Régénération de MP de {1} % par seconde."
-        ],
+        "books": {
+          "1": "Augmente la Récupération de {1} %.",
+          "2": "Augmente la Récupération de {1} %.",
+          "3": "Augmente la Régénération de MP de {1} % par seconde."
+        },
         "description": "Soigne 4 alliés ayant les PV les plus bas pour {3} % des PV Max, et soigne {2} PV supplémentaires en {1} sec. Cet effet ne peut pas être dissipé.",
         "name": "Guérison Spirituelle",
         "transcendence": {
@@ -935,11 +935,11 @@
         }
       },
       "s2": {
-        "books": [
-          "Augmente la progression de la DEF M. de {1} %.",
-          "Augmente la progression de la DEF M. de {1} %.",
-          "Pendant {1} sec, la Résistance aux Contrôles est augmentée de {2} ."
-        ],
+        "books": {
+          "1": "Augmente la progression de la DEF M. de {1} %.",
+          "2": "Augmente la progression de la DEF M. de {1} %.",
+          "3": "Pendant {1} sec, la Résistance aux Contrôles est augmentée de {2} ."
+        },
         "description": "Supprime les effets négatifs de tous les alliés et augmente la DEF M. de {2} pendant {1} sec.",
         "name": "Rédemption",
         "transcendence": {
@@ -948,11 +948,11 @@
         }
       },
       "s3": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Les DEG de toutes les sources sont augmentés de {1} % sur la cible."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Les DEG de toutes les sources sont augmentés de {1} % sur la cible."
+        },
         "description": "Inflige à 10 reprises {2} points de DEG M. aux ennemis dans la zone et réduit la Vit ATQ de {3} %.",
         "name": "Tempête de l'Âme",
         "transcendence": {
@@ -961,11 +961,11 @@
         }
       },
       "s4": {
-        "books": [
-          "Augmente la Récupération de {1} %.",
-          "Augmente la Récupération de {1} %.",
-          "Augmente de {1} % la Récupération des PM."
-        ],
+        "books": {
+          "1": "Augmente la Récupération de {1} %.",
+          "2": "Augmente la Récupération de {1} %.",
+          "3": "Augmente de {1} % la Récupération des PM."
+        },
         "description": "Toutes les 7 sec, l'allié ayant le moins de PV récupère 1 PM et {1} PV.",
         "name": "Réglage Spirituel",
         "transcendence": {
@@ -1005,11 +1005,11 @@
       "description": "Un Elfe Noir qui chasse ses ennemis dans l'ombre. Son arbalète transperce ses ennemis avec une obscurité des plus noires.",
       "name": "Dimael",
       "s1": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les DEG de {1} %."
+        },
         "description": "Inflige {1} points de DEG M. à l'ennemi.",
         "name": "Sombre Carnage",
         "transcendence": {
@@ -1018,11 +1018,11 @@
         }
       },
       "s2": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "L'ennemi reçoit {1} % de DEG M. supplémentaires pendant la durée."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "L'ennemi reçoit {1} % de DEG M. supplémentaires pendant la durée."
+        },
         "description": "Inflige {1} points de DEG M. aux ennemis à portée et les Entrave pendant {2} sec.",
         "name": "Entrave Noire",
         "transcendence": {
@@ -1031,11 +1031,11 @@
         }
       },
       "s3": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les DEG de {1} %."
+        },
         "description": "Inflige {1} points de DEG M. aux ennemis situés dans la ligne droite et applique Aveuglement pendant {2} sec.",
         "name": "Vague de l'Ombre",
         "transcendence": {
@@ -1044,11 +1044,11 @@
         }
       },
       "s4": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les DEG de {1} %."
+        },
         "description": "Pendant une attaque auto, le dernier coup de de la combo inflige {1} points de DEG M. supplémentaires qui ignorent la DEF M. de l'ennemi.",
         "name": "Tache Noire",
         "transcendence": {
@@ -1088,11 +1088,11 @@
       "description": "Une mercenaire qui porte une épée légère à une main. Elle esquive les attaques par des mouvements agile et transperce ses ennemis avec la partie tranchante de son épée.",
       "name": "Reina",
       "s1": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les Chances de Crit de {1} ."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les Chances de Crit de {1} ."
+        },
         "description": "Poignarde rapidement l'ennemmi, infligeant {1} points de DEG P. Le temps de recharge est réinitialisé en cas de coup critique. Gagne également une immunité à tous les DEG.",
         "name": "Vol du Papillon",
         "transcendence": {
@@ -1101,11 +1101,11 @@
         }
       },
       "s2": {
-        "books": [
-          "Le taux d'augmentation de l'ATQ est augmenté de {1} %.",
-          "Le taux d'augmentation de l'ATQ est augmenté de {1} %.",
-          "Augmente les Chances de Crit de {1} %."
-        ],
+        "books": {
+          "1": "Le taux d'augmentation de l'ATQ est augmenté de {1} %.",
+          "2": "Le taux d'augmentation de l'ATQ est augmenté de {1} %.",
+          "3": "Augmente les Chances de Crit de {1} %."
+        },
         "description": "Augmente l'ATQ de {2} pendant {1} sec, et augmente les chances de Coup Crit de {3} .",
         "name": "Pointe Tranchante",
         "transcendence": {
@@ -1114,11 +1114,11 @@
         }
       },
       "s3": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les Chances de Crit de {1} ."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les Chances de Crit de {1} ."
+        },
         "description": "Inflige {1} points de DEG P. aux ennemis avec une attaque en continu. Le dernier coup repousse l'ennemi.",
         "name": "Étoile Filante",
         "transcendence": {
@@ -1127,11 +1127,11 @@
         }
       },
       "s4": {
-        "books": [
-          "Le taux d'augmentation de l'ATQ est augmenté de {1} %.",
-          "Le taux d'augmentation de l'ATQ est augmenté de {1} %.",
-          "La Pénétration DEF est augmentée de {1} pendant la durée de la compétence. Cumulable jusqu'à 5 fois."
-        ],
+        "books": {
+          "1": "Le taux d'augmentation de l'ATQ est augmenté de {1} %.",
+          "2": "Le taux d'augmentation de l'ATQ est augmenté de {1} %.",
+          "3": "La Pénétration DEF est augmentée de {1} pendant la durée de la compétence. Cumulable jusqu'à 5 fois."
+        },
         "description": "Après un Coup Critique réussi, l'ATQ augmente de {2} pendant {1} sec. Cumulable jusqu'à 5 fois.",
         "name": "Enfant Chanceux",
         "transcendence": {
@@ -1171,11 +1171,11 @@
       "description": "Un sorcier capable d'utiliser les pouvoirs magiques du Dragon de Glace après avoir été maudit. Il utilise une puissante magie de Glace pour geler ses ennemis.",
       "name": "Pavel",
       "s1": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les DEG de {1} %."
+        },
         "description": "Inflige {1} points de DEG M. à l'ennemi ciblé et applique Gel pendant {2} sec. Si un autre ennemi est affecté par Gel, il reçoit des DEG et se retrouve également affecté par Gel.",
         "name": "Vague de Froid",
         "transcendence": {
@@ -1184,11 +1184,11 @@
         }
       },
       "s2": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les DEG de {1} %."
+        },
         "description": "Attaque 5 fois des ennemis aléatoires, infligeant {1} points de DEG M. et applique Gel. Lorsqu'un ennemi affecté par Gel est attaqué, il subit une attaque supplémentaire d'une Lance de glace qui inflige la moitié des DEG. Ces Lances de glace n'influencent pas l'effet de Gel. Les ennemis gelés subissent 50% de DEG supplémentaires de cette attaque.",
         "name": "Lance Gelée",
         "transcendence": {
@@ -1197,11 +1197,11 @@
         }
       },
       "s3": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les DEG de {1} %."
+        },
         "description": "Inflige {1} points de DEG M. à tous les ennemis, les gèle pendant {2} secondes et augmente les DEG de {3} % si ils sont déjà gelés.",
         "name": "Conquête Glaciale",
         "transcendence": {
@@ -1210,11 +1210,11 @@
         }
       },
       "s4": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les DEG de {1} %."
+        },
         "description": "Inflige {2} points de DEG M. à 3 enemis toutes les {1} secondes et applique Gel.",
         "name": "Frisson de l'Aube",
         "transcendence": {
@@ -1254,11 +1254,11 @@
       "description": "Une amie d'enfance de Kasel, cette prêtresse sert la Déesse Lua. Elle soigne et protège ses alliés avec la puissance de la lumière. Avec les bénédictions de la Déesse, elle peut temporairement augmenter les pouvoirs et les résistances.",
       "name": "Frey",
       "s1": {
-        "books": [
-          "Augmente la Récupération de {1} %.",
-          "Augmente la Récupération de {1} %.",
-          "Enlève les effets néfastes de la cible."
-        ],
+        "books": {
+          "1": "Augmente la Récupération de {1} %.",
+          "2": "Augmente la Récupération de {1} %.",
+          "3": "Enlève les effets néfastes de la cible."
+        },
         "description": "Soigne l'allié ayant le moins de PV de {1} PV.",
         "name": "Lumière Miraculeuse",
         "transcendence": {
@@ -1267,11 +1267,11 @@
         }
       },
       "s2": {
-        "books": [
-          "Le taux d'augmentation de DEF M. est augmenté de {1} %.",
-          "Le taux d'augmentation de DEF M. est augmenté de {1} %.",
-          "Restaure les PV à la cible de {1} % pour la durée de la compétence."
-        ],
+        "books": {
+          "1": "Le taux d'augmentation de DEF M. est augmenté de {1} %.",
+          "2": "Le taux d'augmentation de DEF M. est augmenté de {1} %.",
+          "3": "Restaure les PV à la cible de {1} % pour la durée de la compétence."
+        },
         "description": "Augmente DEF M. de 1 allié de {2} pour {1} secondes.",
         "name": "Grâce de la Déesse",
         "transcendence": {
@@ -1280,11 +1280,11 @@
         }
       },
       "s3": {
-        "books": [
-          "Augmente les PV Bouclier de {1} %.",
-          "Augmente les PV Bouclier de {1} %.",
-          "Augmente le taux de récupération de la cible par {1} % pour la durée de la compétence."
-        ],
+        "books": {
+          "1": "Augmente les PV Bouclier de {1} %.",
+          "2": "Augmente les PV Bouclier de {1} %.",
+          "3": "Augmente le taux de récupération de la cible par {1} % pour la durée de la compétence."
+        },
         "description": "Lance sur tous les alliés un bouclier qui absorbe {2} DEG pour {1} secondes.",
         "name": "Bénédiction de Lumière",
         "transcendence": {
@@ -1293,11 +1293,11 @@
         }
       },
       "s4": {
-        "books": [
-          "Augmenter DEG de {1} %.",
-          "Augmenter DEG de {1} %.",
-          "Augmenter la Chance de Crit de {1} ."
-        ],
+        "books": {
+          "1": "Augmenter DEG de {1} %.",
+          "2": "Augmenter DEG de {1} %.",
+          "3": "Augmenter la Chance de Crit de {1} ."
+        },
         "description": "Inflige {1} DEG M. aux ennemis à portée, les aveuglant pour {2} secondes.",
         "name": "Vengeance Céleste",
         "transcendence": {
@@ -1337,11 +1337,11 @@
       "description": "Ce Chevalier-Gardien porte une lance gigantesque et un bouclier. Résiste à l'attaque des ennemis avec un courage absolu et sème le trouble dans les lignes avec sa lance.",
       "name": "Demia",
       "s1": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente la durée d'Étourdissement pendant {1} sec."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente la durée d'Étourdissement pendant {1} sec."
+        },
         "description": "Projette une lance sur l'ennemi le plus éloigné, inflige {1} points de DEG P. et traine l'ennemi devant le Héros. Inflige ensuite {2} points de DEG P. aux ennemis à portée et applique Étourdissement pendant 3 sec.",
         "name": "Pénétration",
         "transcendence": {
@@ -1350,11 +1350,11 @@
         }
       },
       "s2": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "La réduction de l'ATQ ennemie augmente de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "La réduction de l'ATQ ennemie augmente de {1} %."
+        },
         "description": "Bloquer les DEG dans les {1} seconds va activer une onde de choc qui inflige {2} points de DEG P. aux ennemis à proximité et réduit leur ATQ de {3} %.",
         "name": "Volonté Gagneuse",
         "transcendence": {
@@ -1363,11 +1363,11 @@
         }
       },
       "s3": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les DEG de {1} %."
+        },
         "description": "Bloquer des DEG pendant une incantation augmente de 7% les DEG de l'attaque sautée. Inflige également {2} points de DEG P. à l'ennemi et applique Étourdissement. Après l'incantation, saute puis frappe l'ennemi en infligeant {3} points de DEG P. et applique Étourdissement pendant {4} sec. Gagne une immunité aux Contrôles pendant l'utilisation de la compétence.",
         "name": "Fortresse d'Acier",
         "transcendence": {
@@ -1376,11 +1376,11 @@
         }
       },
       "s4": {
-        "books": [
-          "Augmente la DEF de {1} %.",
-          "Augmente la DEF de {1} %.",
-          "Augmente la DEF de {1} %."
-        ],
+        "books": {
+          "1": "Augmente la DEF de {1} %.",
+          "2": "Augmente la DEF de {1} %.",
+          "3": "Augmente la DEF de {1} %."
+        },
         "description": "Augmente la Défense Physique de tous les membres du groupe de {1} et augmente le taux de Blocage Physique de {2} .",
         "name": "Fer de Lance",
         "transcendence": {
@@ -1420,11 +1420,11 @@
       "description": "Une Harpie spécialisée dans le combat rapproché avec ses poings. Elle se déplace rapidement entre les ennemis, faisant des ravages dans leurs rangs et les écrase en lançant de puissantes attaques successives.",
       "name": "Naila",
       "s1": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les Chances de Crit de {1} ."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les Chances de Crit de {1} ."
+        },
         "description": "Fonce 2 fois sur l'ennemi, infligeant {1} points de DEG P. à portée et les renverse pendant {2} sec.",
         "name": "Vents Déchaînés",
         "transcendence": {
@@ -1433,11 +1433,11 @@
         }
       },
       "s2": {
-        "books": [
-          "Le taux d'augmentation de l'ATQ est augmenté de {1} %.",
-          "Le taux d'augmentation de l'ATQ est augmenté de {1} %.",
-          "Le taux d'augmentation de l'ATQ est augmenté de {1} %."
-        ],
+        "books": {
+          "1": "Le taux d'augmentation de l'ATQ est augmenté de {1} %.",
+          "2": "Le taux d'augmentation de l'ATQ est augmenté de {1} %.",
+          "3": "Le taux d'augmentation de l'ATQ est augmenté de {1} %."
+        },
         "description": "Les Chances de Parade P. augmentent de {2} pendant {1} sec et l'ATQ augmente de {3} .",
         "name": "Lecture du Vent",
         "transcendence": {
@@ -1446,11 +1446,11 @@
         }
       },
       "s3": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Inflige des DEG aux ennemis et applique Étourdissement pendant 3 sec."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Inflige des DEG aux ennemis et applique Étourdissement pendant 3 sec."
+        },
         "description": "Le héros s'envole et frappe l'ennemi. Inflige {1} points de DEG P. aux ennemis. Les DEG sont augmentés de {2} % sur les ennemis qui ont été renversés.",
         "name": "Bombe Plongeante",
         "transcendence": {
@@ -1459,11 +1459,11 @@
         }
       },
       "s4": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les DEG de {1} %."
+        },
         "description": "Lors d'une attaque auto, le 5ème coup de la combo a 40% de chance d'infliger {1} points de DEG P. additionnels et les renverse.",
         "name": "Frappe de la Tornade",
         "transcendence": {
@@ -1503,11 +1503,11 @@
       "description": "Un sniper venu d'un empire situé dans un environnement très froid. Elle vise calmement quelque soient les circonstances. Plus elle se concentre et plus elle devient puissante.",
       "name": "Rodina",
       "s1": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG Crit de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les DEG Crit de {1} %."
+        },
         "description": "Lorsque activé, le personnage commence une incantation qui inflige {1} points de DEG P. aux ennemis qui sont dans la même ligne droite. Les DEG sont augmentés de {2} % en fonction du temps d'incantation. Si l'incantation va au-delà du 3ème niveau, les ennemis sont renversés.",
         "name": "Tir Pénétrant",
         "transcendence": {
@@ -1516,11 +1516,11 @@
         }
       },
       "s2": {
-        "books": [
-          "Le taux d'augmentation de l'ATQ est augmenté de {1} %.",
-          "Le taux d'augmentation de l'ATQ est augmenté de {1} %.",
-          "Augmente les DEG Crit de {1} % for the duration."
-        ],
+        "books": {
+          "1": "Le taux d'augmentation de l'ATQ est augmenté de {1} %.",
+          "2": "Le taux d'augmentation de l'ATQ est augmenté de {1} %.",
+          "3": "Augmente les DEG Crit de {1} % for the duration."
+        },
         "description": "La cible reçoit de ce héros des dégâts augmentés de {1} % et augmente aussi l'ATQ de {2} .",
         "name": "Visée",
         "transcendence": {
@@ -1529,11 +1529,11 @@
         }
       },
       "s3": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG Crit de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les DEG Crit de {1} %."
+        },
         "description": "Tire 10 coups sur des ennemis aléatoires. Inflige {1} points de DEG P. et augmente les dégâts de {2} % pour chaque attaque suivante.",
         "name": "Feu Focalisé",
         "transcendence": {
@@ -1542,11 +1542,11 @@
         }
       },
       "s4": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG Crit de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les DEG Crit de {1} %."
+        },
         "description": "Toutes les 10 secondes, produit 2 attaques consécutives et inflige {1} points de DEG P.",
         "name": "Tir Rapide",
         "transcendence": {
@@ -1586,11 +1586,11 @@
       "description": "Un Chevalier-Démon qui utilise la lave des Forces Sombres. Il inflige de terribles souffrances à ses ennemis et livre des batailles d'endurance en utilisant sa défense de granit.",
       "name": "Morrah",
       "s1": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les DEG de {1} %."
+        },
         "description": "Inflige {1} points de DEG M. aux ennemis à portée et les renverse. Applique également 3 charges de Flamme. Pendant les {2} sec suivantes, les attaques auto infligent {3} points de DEG M. et appliquent une charge de Flamme. Flamme inflige des DEG supplémentaires qui sont augmentés de {4} % à chaque charge et reduit la Récupération de 1%.",
         "name": "Puissance Brûlante",
         "transcendence": {
@@ -1599,11 +1599,11 @@
         }
       },
       "s2": {
-        "books": [
-          "Le taux d'augmentation de la DEF M. est augmenté de {1} %.",
-          "Le taux d'augmentation de la DEF M. est augmenté de {1} %.",
-          "Le taux d'augmentation des Chances de Blocage M. est augmenté de {1} %."
-        ],
+        "books": {
+          "1": "Le taux d'augmentation de la DEF M. est augmenté de {1} %.",
+          "2": "Le taux d'augmentation de la DEF M. est augmenté de {1} %.",
+          "3": "Le taux d'augmentation des Chances de Blocage M. est augmenté de {1} %."
+        },
         "description": "Pendant {1} sec, la DEF M. de tous les alliés est augmentée de {2} et les Chances de Blocage M. de {3} . Applique également une charge de Flamme aux ennemis à proximité toutes les {4} sec.",
         "name": "Feu d'Enfer",
         "transcendence": {
@@ -1612,11 +1612,11 @@
         }
       },
       "s3": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les DEG de {1} %."
+        },
         "description": "Inflige {1} points de DEG M. aux ennemis à portée et les renverse. Les DEG sont augmentés de {2} % pour chaque charge de Flamme.",
         "name": "Éruption de Lave",
         "transcendence": {
@@ -1625,11 +1625,11 @@
         }
       },
       "s4": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les DEG de {1} %."
+        },
         "description": "Lors d'un Blocage, inflige {2} points de DEG M. aux ennemis à portée, et applique 3 charges de Flamme.",
         "name": "Feu Fracassant",
         "transcendence": {
@@ -1669,11 +1669,11 @@
       "description": "Un prêtre marginal de l'Ordre de Lua. Il utilise une explosion sacrée pour protéger le groupe et soigne ses alliés tout en faisant des dégâts aux ennemis.",
       "name": "Baudouin",
       "s1": {
-        "books": [
-          "Augmente la Récupération et les DEG de {1} %.",
-          "Augmente la Récupération et les DEG de {1} %.",
-          "Augmente la Récupération et les DEG de {1} %."
-        ],
+        "books": {
+          "1": "Augmente la Récupération et les DEG de {1} %.",
+          "2": "Augmente la Récupération et les DEG de {1} %.",
+          "3": "Augmente la Récupération et les DEG de {1} %."
+        },
         "description": "Cible l'allié ayant le moins de PV, le soigne ainsi que tous les alliés à proximité de {1} PV. Réduit également la vitesse des ennemis proches de la cible de {3} % pendant {2} secondes.",
         "name": "Nova Sacrée",
         "transcendence": {
@@ -1682,11 +1682,11 @@
         }
       },
       "s2": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les DEG de {1} %."
+        },
         "description": "Inflige {1} points de DEG M. puis renverse et entrave l'ennemi ciblé pendant {2} sec. Les DEG M. reçus par les ennemis qui subissent Entrave sont augmentés de 25%.",
         "name": "Lance de Lumière",
         "transcendence": {
@@ -1695,11 +1695,11 @@
         }
       },
       "s3": {
-        "books": [
-          "Augmente la Récupération de {1} %.",
-          "Augmente la Récupération de {1} %.",
-          "Augmente la Vitesse d'ATQ de {1} pendant la durée."
-        ],
+        "books": {
+          "1": "Augmente la Récupération de {1} %.",
+          "2": "Augmente la Récupération de {1} %.",
+          "3": "Augmente la Vitesse d'ATQ de {1} pendant la durée."
+        },
         "description": "Applique Invincibilité à tous les alliés pendant {1} sec et récupère des {2} PV pendant la durée.",
         "name": "Sanctuaire Sacré",
         "transcendence": {
@@ -1708,11 +1708,11 @@
         }
       },
       "s4": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les DEG de {1} %."
+        },
         "description": "Lors de l'attaque d'un ennemi, 20% de chances d'infliger {1} points de DEG M. et d'appliquer Étourdissement pendant {2} sec.",
         "name": "Formation de Dieu",
         "transcendence": {
@@ -1752,11 +1752,11 @@
       "description": "Cette fille est devenue mort-vivante après avoir autrefois combattu les Forces Obscures. Elle traine avec elle le cerceuil dans lequel elle dort. Elle se rétablit en laissant une marque de mort sur ses ennemis.",
       "name": "Jane",
       "s1": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente la durée d'Étourdissement pendant {1} sec."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente la durée d'Étourdissement pendant {1} sec."
+        },
         "description": "Inflige {1} points de DEG M. aux ennemis à portée et leur applique Étourdissement pendant {2} sec.",
         "name": "Rites Funéraires",
         "transcendence": {
@@ -1765,11 +1765,11 @@
         }
       },
       "s2": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les DEG de {1} %."
+        },
         "description": "Marque chaque ennemi pendant {1} sec inflige constamment {2} points de DEG M. L'ennemi reçoit {3} % de DEG M. supplémentaires lorsqu'il est affecté par cette marque.",
         "name": "Marque de la Mort",
         "transcendence": {
@@ -1778,11 +1778,11 @@
         }
       },
       "s3": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Récupère {1} % des PM."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Récupère {1} % des PM."
+        },
         "description": "Inflige {2} points de DEG M. aux ennemis toutes les {1} sec, et soigne les propres PV du héros de {3} % des DEG. Applique une immunité à tous les effets. Les DEG sont augmentés sur les ennemis marqués.",
         "name": "Jour de Ruine",
         "transcendence": {
@@ -1791,11 +1791,11 @@
         }
       },
       "s4": {
-        "books": [
-          "Augmente la Récupération de {1} %.",
-          "Augmente la Récupération de {1} %.",
-          "Augmente la Récupération de {1} %."
-        ],
+        "books": {
+          "1": "Augmente la Récupération de {1} %.",
+          "2": "Augmente la Récupération de {1} %.",
+          "3": "Augmente la Récupération de {1} %."
+        },
         "description": "Lorsqu'elle reçoit un coup fatal, Jane entre dans son cercueil, récupère {2} PV pendant {1} sec et est immunisée à tous les DEG un fois dans le cercueil.",
         "name": "Repose en Paix",
         "transcendence": {
@@ -1835,11 +1835,11 @@
       "description": "Une noble dame venant d'Orvelia. Un génie qui a atteint le titre de 'Violette' dans la Tour du Sage. Elle utilise son ombrelle fantaisie pour tirer de puissantes boules d'énergie sur ses ennemis.",
       "name": "Aisha",
       "s1": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les Chances de Crit de {1} ."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les Chances de Crit de {1} ."
+        },
         "description": "Inflige {1} points de DEG M. aux ennemis dans une zone restreinte. Chaque Coup Critique réduit le temps de recharge de 1 sec.",
         "name": "Déluge Mystique",
         "transcendence": {
@@ -1848,11 +1848,11 @@
         }
       },
       "s2": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les Chances de Crit de {1} ."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les Chances de Crit de {1} ."
+        },
         "description": "Inflige {1} points de DEG M. aux ennemis, en ligne droite, toutes les 0.5 sec. Après 5 secondes, consomme 3% de mana toutes les 0.5 sec, permettant aux DEG d'être augmentés de 100%.",
         "name": "Rayon de Destruction",
         "transcendence": {
@@ -1861,11 +1861,11 @@
         }
       },
       "s3": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les Chances de Crit de {1} ."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les Chances de Crit de {1} ."
+        },
         "description": "Inflige {2} points de DEG M. à des ennemis aléatoires pendant {1} sec et réduit la DEF M. de l'ennemi de 5%. Cette réduction est cumulable 5 fois.",
         "name": "Pluie Torrentielle",
         "transcendence": {
@@ -1874,11 +1874,11 @@
         }
       },
       "s4": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les DEG de {1} %."
+        },
         "description": "Un Coup Crit inflige {1} points de DEG M. supplémentaires à l'ennemi.",
         "name": "Boost Mystique",
         "transcendence": {
@@ -1918,11 +1918,11 @@
       "description": "Le Scribe de la Grande Librairie Royale d'Orvelia.  Il utilise des runes pour soigner ses alliés et retire des effets magiques à ses ennemis.",
       "name": "Leo",
       "s1": {
-        "books": [
-          "Augmente les dégâts de {1} %.",
-          "Augmente les dégâts de {1} %.",
-          "Augmente les dégâts de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les dégâts de {1} %.",
+          "2": "Augmente les dégâts de {1} %.",
+          "3": "Augmente les dégâts de {1} %."
+        },
         "description": "Marque l'ennemi ciblé avec une rune, réduisant sa DEF P. de {2} % pendant {1} sec. Après {3} sec, inflige un maximum de {4} points de DEG M. proportionnellement aux PV perdus qui ignorent la DEF.",
         "name": "Rune de Fragilité",
         "transcendence": {
@@ -1931,11 +1931,11 @@
         }
       },
       "s2": {
-        "books": [
-          "Augmente les soins de {1} %.",
-          "Augmente les soins de {1} %.",
-          "Augmente les soins de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les soins de {1} %.",
+          "2": "Augmente les soins de {1} %.",
+          "3": "Augmente les soins de {1} %."
+        },
         "description": "Soigne tout le groupe de {1} PV.",
         "name": "Rune de Soin",
         "transcendence": {
@@ -1944,11 +1944,11 @@
         }
       },
       "s3": {
-        "books": [
-          "Augmente la durée de Silence de {1} sec.",
-          "Augmente la durée de Silence de {1} sec.",
-          "Augmente la durée de Silence de {1} sec."
-        ],
+        "books": {
+          "1": "Augmente la durée de Silence de {1} sec.",
+          "2": "Augmente la durée de Silence de {1} sec.",
+          "3": "Augmente la durée de Silence de {1} sec."
+        },
         "description": "Inflige {1} points de DEG M. à toute l'équipe ennemie et retire toutes les améliorations. Applique également Silence aux ennemis pendant {2} sec.",
         "name": "Rune de Silence",
         "transcendence": {
@@ -1957,11 +1957,11 @@
         }
       },
       "s4": {
-        "books": [
-          "Augmente les soins de {1} %.",
-          "Augmente les soins de {1} %.",
-          "Augmente la Résist. Effets Négatifs de {1} pendant la durée."
-        ],
+        "books": {
+          "1": "Augmente les soins de {1} %.",
+          "2": "Augmente les soins de {1} %.",
+          "3": "Augmente la Résist. Effets Négatifs de {1} pendant la durée."
+        },
         "description": "Toutes les {1} sec, pose une rune sur l'allié ayant le moins de PV, qui récupère {3} PV pendant {2} sec.",
         "name": "Rune de Protection",
         "transcendence": {
@@ -2001,11 +2001,11 @@
       "description": "Le vice-capitaine de la Garde Impériale. Sa lame sonique coupe même la magie. Il est capable de se focaliser d'abord sur les ennemis les plus dangereux.",
       "name": "Fluss",
       "s1": {
-        "books": [
-          "Augmente les dégâts de {1} %.",
-          "Augmente les dégâts de {1} %.",
-          "Augmente les Chances de Crit de {1} ."
-        ],
+        "books": {
+          "1": "Augmente les dégâts de {1} %.",
+          "2": "Augmente les dégâts de {1} %.",
+          "3": "Augmente les Chances de Crit de {1} ."
+        },
         "description": "Inflige {1} points de DEG P. à l'ennemi ciblé et aux autres à proximité.",
         "name": "Lame-Tempête",
         "transcendence": {
@@ -2014,11 +2014,11 @@
         }
       },
       "s2": {
-        "books": [
-          "Augmente les dégâts de {1} %.",
-          "Augmente les dégâts de {1} %.",
-          "Augmente les dégâts de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les dégâts de {1} %.",
+          "2": "Augmente les dégâts de {1} %.",
+          "3": "Augmente les dégâts de {1} %."
+        },
         "description": "Se déplace vers l'ennemi ayant l'ATQ la plus élevée et applique Silence pendant 2 sec. La réduction des DEG M. est augmentée de {2} pendant {1} sec. Marque l'ennemi ciblé pendant {3} sec, les attaques du Héros se focalisent alors sur la cible marquée. Attaquer les ennemis marqués inflige {4} points de DEG P. supplémentaires.",
         "name": "Flashstep",
         "transcendence": {
@@ -2027,11 +2027,11 @@
         }
       },
       "s3": {
-        "books": [
-          "Augmente les dégâts de {1} %.",
-          "Augmente les dégâts de {1} %.",
-          "Augmente les Chances de Crit de {1} ."
-        ],
+        "books": {
+          "1": "Augmente les dégâts de {1} %.",
+          "2": "Augmente les dégâts de {1} %.",
+          "3": "Augmente les Chances de Crit de {1} ."
+        },
         "description": "Inflige {1} points de DEG P. sur une cible unique, conservant cette cible pendant toute la durée.",
         "name": "Pétales Sanglants",
         "transcendence": {
@@ -2040,11 +2040,11 @@
         }
       },
       "s4": {
-        "books": [
-          "Augmente les dégâts de {1} %.",
-          "Augmente les dégâts de {1} %.",
-          "Augmente les dégâts de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les dégâts de {1} %.",
+          "2": "Augmente les dégâts de {1} %.",
+          "3": "Augmente les dégâts de {1} %."
+        },
         "description": "Inflige {2} points de DEG P. aux ennemis qui ont infligé des DEG M. à ce héros au moins une fois dans les {1} sec et esquive tous les DEG M. suivants pendant {3} sec.",
         "name": "Coupe-Sort",
         "transcendence": {
@@ -2084,11 +2084,11 @@
       "description": "Une enfant non identifiée qui porte un lance-pierres aussi gros que son corps. Plus ses projectiles vont loin, plus ils gagnent en force.",
       "name": "Luna",
       "s1": {
-        "books": [
-          "Augmente les dégâts de {1} %.",
-          "Augmente les dégâts de {1} %.",
-          "Augmente les dégâts de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les dégâts de {1} %.",
+          "2": "Augmente les dégâts de {1} %.",
+          "3": "Augmente les dégâts de {1} %."
+        },
         "description": "Inflige {1} points de DEG M. en tirant un projectile qui tournoie 3 fois sur l'ennemi le plus proche. Plus l'ennemi est éloigné, plus il reçoit des DEG.",
         "name": "Pew!",
         "transcendence": {
@@ -2097,11 +2097,11 @@
         }
       },
       "s2": {
-        "books": [
-          "Augmente les dégâts de {1} %.",
-          "Augmente les dégâts de {1} %.",
-          "Augmente les dégâts de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les dégâts de {1} %.",
+          "2": "Augmente les dégâts de {1} %.",
+          "3": "Augmente les dégâts de {1} %."
+        },
         "description": "Inflige {1} points de DEG M. dans une zone restreinte autour de l'ennemi le plus éloigné. Étourdissement est appliqué pendant {2} sec. Plus l'ennemi est éloigné, plus il reçoit des DEG.",
         "name": "Chaud devant!",
         "transcendence": {
@@ -2110,11 +2110,11 @@
         }
       },
       "s3": {
-        "books": [
-          "Augmente les dégâts de {1} %.",
-          "Augmente les dégâts de {1} %.",
-          "Augmente les dégâts de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les dégâts de {1} %.",
+          "2": "Augmente les dégâts de {1} %.",
+          "3": "Augmente les dégâts de {1} %."
+        },
         "description": "Inflige {1} points de DEG M. aux ennemis à portée et réduit leur Chance de Crit de {3} % pendant {2} sec.",
         "name": "Brille Brille",
         "transcendence": {
@@ -2123,11 +2123,11 @@
         }
       },
       "s4": {
-        "books": [
-          "Augmente les dégâts de {1} %.",
-          "Augmente les dégâts de {1} %.",
-          "Augmente les dégâts de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les dégâts de {1} %.",
+          "2": "Augmente les dégâts de {1} %.",
+          "3": "Augmente les dégâts de {1} %."
+        },
         "description": "Toutes les {1} sec, inflige {3} points de DEG M. à l'ennemi le plus éloigné pendant {2} sec. Plus l'ennemi est éloigné, plus il reçoit des DEG.",
         "name": "Je t'ai eu!",
         "transcendence": {
@@ -2167,11 +2167,11 @@
       "description": "Une sorcière de la Tour Rouge, elle utilise la magie explosive du feu pour infliger des dégâts à de multiples ennemis et inflige des dégâts encore plus élevés en faisant exploser les braises.",
       "name": "Cleo",
       "s1": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les DEG de {1} %."
+        },
         "description": "Inflige {1} de DEG M. à 5 ennemis maximum et laisse une braise qui inflige aussi des DEG M. au moment de toucher les ennemis.",
         "name": "Pointe de Feu",
         "transcendence": {
@@ -2180,11 +2180,11 @@
         }
       },
       "s2": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Chaque coup critique ajoute 2 Braises."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Chaque coup critique ajoute 2 Braises."
+        },
         "description": "Inflige {1} DEG M. à 3 ennemis maximum et ajoute 1 Braise. Chaque braise réduit la DEF M. de 5%.",
         "name": "Diffusion de Flammes",
         "transcendence": {
@@ -2193,11 +2193,11 @@
         }
       },
       "s3": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les DEG de {1} %."
+        },
         "description": "Chaque attaque inflige {1} points de DEG M. à tous les ennemis et applique une charge de Braise. Pour chaque charge de Braise, les DEG sont augmentés de {2} %.",
         "name": "Pluie de Feu",
         "transcendence": {
@@ -2206,11 +2206,11 @@
         }
       },
       "s4": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les DEG de {1} %."
+        },
         "description": "Inflige {1} de DEG M. aux ennemis et les étourdit pendant 2 secondes. Les Dégâts sont augmentés de {2} % pour chaque braise accumulée.",
         "name": "Boule de Feu",
         "transcendence": {
@@ -2250,11 +2250,11 @@
       "description": "Une prêtresse qui garde l'Oasis du Désert d'Aegina. Un Dragon d'Eau qui a vécu pendant des âges. Son eau contient de puissantes propriétés de soin.",
       "name": "Laias",
       "s1": {
-        "books": [
-          "Augmente le taux de Récupération de {1} %.",
-          "Augmente le taux de Récupération de {1} %.",
-          "Augmente le taux de Récupération de {1} %."
-        ],
+        "books": {
+          "1": "Augmente le taux de Récupération de {1} %.",
+          "2": "Augmente le taux de Récupération de {1} %.",
+          "3": "Augmente le taux de Récupération de {1} %."
+        },
         "description": "Soigne tous les alliés d'un maximum de {1} PV, en fonction de leurs PV restants.",
         "name": "Goutelettes de Soin",
         "transcendence": {
@@ -2263,11 +2263,11 @@
         }
       },
       "s2": {
-        "books": [
-          "Augmente Bouclier de {1} %.",
-          "Augmente Bouclier de {1} %.",
-          "Augmente Bouclier de {1} %."
-        ],
+        "books": {
+          "1": "Augmente Bouclier de {1} %.",
+          "2": "Augmente Bouclier de {1} %.",
+          "3": "Augmente Bouclier de {1} %."
+        },
         "description": "Protège l'allié ayant le moins de PV avec un bouclier pendant 15 sec pour Bloquer jusqu'à {1} DEG, et immunise contre tous les effets. Pendant la durée du Bouclier, {2} PV sont rendus par seconde.",
         "name": "Bulle Protectrice",
         "transcendence": {
@@ -2276,11 +2276,11 @@
         }
       },
       "s3": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les DEG de {1} %."
+        },
         "description": "Inflige {1} points de DEG M. aux ennemis à proximité et les renverse. Récupère 2 orbes de mana opur tous les alliés (sans compter le héros). Pendant {2} sec, des ennemis choisis au hasard sont ensuite frappés par un tourbillon et subissent {3} points de DEG M. tout en étant renversés pendant 2 sec.",
         "name": "Festival d'Influx",
         "transcendence": {
@@ -2289,11 +2289,11 @@
         }
       },
       "s4": {
-        "books": [
-          "Augmente le Boost de Défense de {1} %.",
-          "Augmente le Boost de Défense de {1} %.",
-          "Augmente le Boost de Défense de {1} %."
-        ],
+        "books": {
+          "1": "Augmente le Boost de Défense de {1} %.",
+          "2": "Augmente le Boost de Défense de {1} %.",
+          "3": "Augmente le Boost de Défense de {1} %."
+        },
         "description": "Augmente la DEF M. de tous les alliés de {1} et gagne une Résistance aux Coups Critiques Magiques de {2} .",
         "name": "Bénédiction du Dragon d'Eau",
         "transcendence": {
@@ -2333,11 +2333,11 @@
       "description": "Un ange de haut rang descendu dans ce monde pour punir les Démons incitateurs du chaos. Volant dans les cieux, ses flèches abattent le jugement sur les malfaisants.",
       "name": "Arch",
       "s1": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les DEG de {1} %."
+        },
         "description": "Inflige {1} points de DEG M. à un maximum de 3 ennemis et les renverse. Les ennemis touchés sont marqués par un Emblème de Jugement pendant 15 sec.",
         "name": "Flèche Célèste",
         "transcendence": {
@@ -2346,11 +2346,11 @@
         }
       },
       "s2": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les DEG de {1} %."
+        },
         "description": "Inflige {1} points de DEG M. aux ennemis, en ligne droite. Les ennemis marqués par un Emblème de Jugement subissent {2} points de DEG M. supplémentaires qui ignorent la DEF M.",
         "name": "Incendie Purifiant",
         "transcendence": {
@@ -2359,11 +2359,11 @@
         }
       },
       "s3": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les DEG de {1} %."
+        },
         "description": "Inflige {1} points de DEG M. aux ennemis à portée. Les ennemis marqués par un Emblème de Jugement subissent 50% de DEG M. supplémentaires et subissent également Silence pendant 5 sec. Tous les alliés sont Immunisés aux DEG M. pendant 5 sec.",
         "name": "Arbitre",
         "transcendence": {
@@ -2372,11 +2372,11 @@
         }
       },
       "s4": {
-        "books": [
-          "DEG et Bouclier sont augmentés de {1} %.",
-          "DEG et Bouclier sont augmentés de {1} %.",
-          "DEG et Bouclier sont augmentés de {1} %."
-        ],
+        "books": {
+          "1": "DEG et Bouclier sont augmentés de {1} %.",
+          "2": "DEG et Bouclier sont augmentés de {1} %.",
+          "3": "DEG et Bouclier sont augmentés de {1} %."
+        },
         "description": "Toutes les 15 sec, inflige {1} points de DEG M. aux ennemis affectés par les Symboles de Jugement, ignorant la DEF. Une seule fois au cours de chaque bataille, lorsque les PV sont proches de 0, inflige {2} points de DEG M. aux ennemis affectés par les Symboles de Jugement, applique Étourdissement pendant 3 sec et incante un bouclier qui bloque {3} DEG, pour tous les alliés et pendant 5 sec. Pendant qu'il est actif, le bouclier procure une immunité aux Contrôles.\\n Lorsque le bouclier s'active, toute la mana est consommée et tous les Temps de Recharge sont augmentés de 50%. ",
         "name": "Le Jugement Dernier",
         "transcendence": {
@@ -2416,11 +2416,11 @@
       "description": "Une princesse vampire qui a combattu aux côtés des héros il y a 100 ans. Immortelle à sang pur, elle se rétablit actuellement de ses batailles passées. Elle utilise des serviteurs pour attaquer ses ennemis.",
       "name": "Lewicia",
       "s1": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "DEG augmentés de {1} %."
+        },
         "description": "Inflige {1} points de DEG M. à l'ennemi ciblé. Les DEG M. qu'elle reçoit sont augmentés de 25% pendant 10 sec. Pour chaque charge de Malédiction Sanguine, les DEG sont augmentés de 0.5%.\\n Consomme également 10% des PV actuels. ",
         "name": "Orbe de Sang",
         "transcendence": {
@@ -2429,11 +2429,11 @@
         }
       },
       "s2": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "DEG augmentés de {1} %."
+        },
         "description": "Inflige {1} points de DEG M. à l'ennemi ciblé et crée une Zone Sanglante autour de lui qui dure 10 sec. Les ennemis à l'intérieur de Zone Sanglante reçoivent {2} points de DEG M. toutes les 0.5 sec, et la DEF M. est réduite de 30%. Pour chaque charge de Malédiction Sanguine, les DEG sont augmentés de 0.5%.\\n Consomme également 20% des PV actuels. ",
         "name": "Zone Sanglante",
         "transcendence": {
@@ -2442,11 +2442,11 @@
         }
       },
       "s3": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "DEG augmentés de {1} %."
+        },
         "description": "Attaque les ennemis en ligne droite à 3 reprises, inflige un total de {1} points de DEG M.DMG et applique Étourdissement pendant 3 sec. Pour chaque charge de Malédiction Sanguine, les DEG sont augmentés de 0.5%\\n Consomme également 10% des PV actuels. ",
         "name": "Festin de Sang",
         "transcendence": {
@@ -2455,11 +2455,11 @@
         }
       },
       "s4": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "DEG augmentés de {1} %."
+        },
         "description": "Lorsque les PV sont au moins à 50 %, l'ATQ augmente de {1} points et la pénétration de DEF de 250. L'attaque applique Malédiction sanguine à la cible, lui inflige un total de {2} points de DEG M pendant 20 secondes et restaure 10 % des dégâts infligés par Malédiction sanguine en guise de PV. Malédiction sanguine est cumulable 100 fois et ne peut pas être dissipée.",
         "name": "Dominateur Sanguinaire",
         "transcendence": {
@@ -2499,11 +2499,11 @@
       "description": "Un mage hétérochromique qui contrôle l'espace lui-même. Ses pouvoirs déchirent l'espace pour invoquer des barrages d'épées infinis.",
       "name": "Nyx",
       "s1": {
-        "books": [
-          "Les DEG augmentent de {1} %.",
-          "Les DEG augmentent de {1} %.",
-          "Augmente les Chances de Crit de {1} ."
-        ],
+        "books": {
+          "1": "Les DEG augmentent de {1} %.",
+          "2": "Les DEG augmentent de {1} %.",
+          "3": "Augmente les Chances de Crit de {1} ."
+        },
         "description": "Inflige {1} DEG P. aux ennemis ciblés. Chaque ennemi déclanche une Charge de Lames. Le nombre de cibles est égal à 1 + le nombre de Charges de Lames avec un maximum de 5 charges, pendant 20 sec.",
         "name": "Lame Dimentionnelle",
         "transcendence": {
@@ -2512,11 +2512,11 @@
         }
       },
       "s2": {
-        "books": [
-          "Les DEG augmentent de {1} %.",
-          "Les DEG augmentent de {1} %.",
-          "Augmente les Chances de Crit de {1} ."
-        ],
+        "books": {
+          "1": "Les DEG augmentent de {1} %.",
+          "2": "Les DEG augmentent de {1} %.",
+          "3": "Augmente les Chances de Crit de {1} ."
+        },
         "description": "Inflige {1} DEG P. aux ennemis ciblés et supprime leurs améliorations. Les ennemis touchés subissent {3} points de DEG P. en {2} sec et sont renversés pendant 3 sec.Le nombre de cibles est égal à 1 + le nombre de Charges de Lames.",
         "name": "Fendoir Dimentionnel",
         "transcendence": {
@@ -2525,11 +2525,11 @@
         }
       },
       "s3": {
-        "books": [
-          "Les DEG augmentent de {1} %.",
-          "Les DEG augmentent de {1} %.",
-          "Augmente les Chances de Crit de {1} ."
-        ],
+        "books": {
+          "1": "Les DEG augmentent de {1} %.",
+          "2": "Les DEG augmentent de {1} %.",
+          "3": "Augmente les Chances de Crit de {1} ."
+        },
         "description": "Inflige {1} points de DEG P. aux ennemis devant vous and the final attack deals {2} points de DEG P. to one enemy, knocking over said enemy for 3 sec.The number of targets for the last attack is equal to 1 + Blade stacks.",
         "name": "Lames d'Infini",
         "transcendence": {
@@ -2538,11 +2538,11 @@
         }
       },
       "s4": {
-        "books": [
-          "Les DEG augmentent de {1} %.",
-          "Les DEG augmentent de {1} %.",
-          "Augmente les Chances de Crit de {1} ."
-        ],
+        "books": {
+          "1": "Les DEG augmentent de {1} %.",
+          "2": "Les DEG augmentent de {1} %.",
+          "3": "Augmente les Chances de Crit de {1} ."
+        },
         "description": "Chaque attaque auto tire une lame upplémentaire qui inflige {1} points de DEG P. aux ennemis ciblés. Le nombre de cibles est de 1, augmenté du nombre de charges de Lames.",
         "name": "Lame Cachée",
         "transcendence": {
@@ -2582,11 +2582,11 @@
       "description": "Une technomage de génie qui attend le jour où tout le monde aura accès à la magie. Son golem technomagique lui sert d'arme pour pulvériser ses ennemis.",
       "name": "Annette",
       "s1": {
-        "books": [
-          "Les DEG augmentent de {1} %.",
-          "Les DEG augmentent de {1} %.",
-          "Lors d'une utilisation, le nombre de Charges gagnées est augmenté de 30%."
-        ],
+        "books": {
+          "1": "Les DEG augmentent de {1} %.",
+          "2": "Les DEG augmentent de {1} %.",
+          "3": "Lors d'une utilisation, le nombre de Charges gagnées est augmenté de 30%."
+        },
         "description": "Attaque les ennemis en ligne droite, infligeant {1} points de DEG M. aux cibles et augmente les DEG M. qu'ils reçoivent de {2} %. En Surcharge, inflige {3} points de DEG M. additionnels et augmente les DEG M. reçus de {4} %.",
         "name": "Rayon Explosif",
         "transcendence": {
@@ -2595,11 +2595,11 @@
         }
       },
       "s2": {
-        "books": [
-          "La Récupération augmente de {1} % .",
-          "La Récupération augmente de {1} % .",
-          "Lors de l'utilisation, la quantité de Charge gagnée est augmentée de 30%."
-        ],
+        "books": {
+          "1": "La Récupération augmente de {1} % .",
+          "2": "La Récupération augmente de {1} % .",
+          "3": "Lors de l'utilisation, la quantité de Charge gagnée est augmentée de 30%."
+        },
         "description": "Purge tous les effets négatifs des alliés et soigne {1} PV pendant 10 secondes tout en augmentant la Résist. Effets Négatifs de 250. En Surcharge, tous les alliés gagnent {2} Chances de Crit. et sont immunisés contre tous les Effets.",
         "name": "Traitement d'Urgence",
         "transcendence": {
@@ -2608,11 +2608,11 @@
         }
       },
       "s3": {
-        "books": [
-          "Les DEG augmentent de {1} %.",
-          "Les DEG augmentent de {1} %.",
-          "Lors de l'utilisation, la quantité de Charge gagnée est augmentée de 30%."
-        ],
+        "books": {
+          "1": "Les DEG augmentent de {1} %.",
+          "2": "Les DEG augmentent de {1} %.",
+          "3": "Lors de l'utilisation, la quantité de Charge gagnée est augmentée de 30%."
+        },
         "description": "Cible un ennemi aléatoire et tire une boule d'énergie qui explose, infligeant {1} points de DEG M. aux ennemis proches. En Surcharge, inflige {2} points de DEG M. et paralyse les ennemis pendant 5 secondes lorsque la boule explose.",
         "name": "Processus d'Élimination",
         "transcendence": {
@@ -2621,11 +2621,11 @@
         }
       },
       "s4": {
-        "books": [
-          "Le taux d'augmentation de l'ATQ est augmenté de {1} %.",
-          "Le taux d'augmentation de l'ATQ est augmenté de {1} %.",
-          "En Surcharge, la Vitesse d'ATQ augmente de {1} ."
-        ],
+        "books": {
+          "1": "Le taux d'augmentation de l'ATQ est augmenté de {1} %.",
+          "2": "Le taux d'augmentation de l'ATQ est augmenté de {1} %.",
+          "3": "En Surcharge, la Vitesse d'ATQ augmente de {1} ."
+        },
         "description": "Gagne 1 charge toutes les 0.5 sec et gagne 10 charges pour chaque orbe de Mana utilisé. Permet d'entrer en état de Surcharge à la 100ème charge accumulée. En Surcharge, l'ATQ est augmentée de {1} pendant 15 sec et chaque attaque auto réduit le Temps de Recharge de la compétence de 10%. Aucun effet ne peut être dissipé et aucune charge ne s'accumule en état de Surcharge.",
         "name": "Charge",
         "transcendence": {
@@ -2665,11 +2665,11 @@
       "description": "Aussi appelé Chant de Folie d'Argent, cet homme indélicat n'a aucun sens de la responsabilité. Pourtant, une fois le combat commencé, il devient un Loup d'Argent intouchable, transformant le champ de bataille en carnage.",
       "name": "Mitra",
       "s1": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "DEG augmentés de {1} %."
+        },
         "description": "Attaque l'ennemi à 2 reprises, inflige {1} points de DEG P. à chaque fois. Lors d'un coup critique, une explosion se produit, inffligeant {2} points de DEG P. supplémentaires aux ennemis à portée.",
         "name": "Bang! Bang!!",
         "transcendence": {
@@ -2678,11 +2678,11 @@
         }
       },
       "s2": {
-        "books": [
-          "Le Taux d'augmentation de l'ATQ est augmenté de {1} %.",
-          "Le Taux d'augmentation de l'ATQ est augmenté de {1} %.",
-          "Le Taux d'augmentation de l'ATQ est augmenté de {1} %."
-        ],
+        "books": {
+          "1": "Le Taux d'augmentation de l'ATQ est augmenté de {1} %.",
+          "2": "Le Taux d'augmentation de l'ATQ est augmenté de {1} %.",
+          "3": "Le Taux d'augmentation de l'ATQ est augmenté de {1} %."
+        },
         "description": "Augmente l'ATQ de {1} et la Précision de {2} pendant 20 sec. Les attaques auto ont 15% de chance de déclencher 'Bang! Bang!!' .",
         "name": "C'est le Moment de Mourir",
         "transcendence": {
@@ -2691,11 +2691,11 @@
         }
       },
       "s3": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "DEG augmentés de {1} %."
+        },
         "description": "Tire à 12 reprises avec son arme sur un ennmi aléatoire, inflige un total de {1} points de DEG P. Chaque fois que des DEG sont infligés, une Marque de la Mort est appliquée (ne peut pas être enlevé). Chaque charge de Marque de la Mort augmente les dégâts de 'Shootout' de 1%.",
         "name": "Danse avec moi",
         "transcendence": {
@@ -2704,11 +2704,11 @@
         }
       },
       "s4": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "DEG augmentés de {1} %."
+        },
         "description": "Les attaques auto appliquent Marque de la Mort sur l'ennemi. Enchaîner des attaques auto et 'Bang! Bang!!' sur l'ennemi inflige {1} points de DEG P. supplémentaires. Chaque charge de Marque de la Mort augmente les dégâts de cette compétence sur cette cible de 2%. Cumulable 100 fois.",
         "name": "Vous êtes le Prochain",
         "transcendence": {
@@ -2748,11 +2748,11 @@
       "description": "Un noble héros qui a longtemps gardé le monde des humains contre la menace des démons. Il écrase ses ennemis en utilisant un pilier qui a été béni par la déesse.",
       "name": "Ricardo",
       "s1": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "Immunise contre les sorts de Contrôle."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "Immunise contre les sorts de Contrôle."
+        },
         "description": "Inflige {1} points de DEG P. aux ennemis qui font face au héros et les renverse pendant 3 sec.",
         "name": "Destruction",
         "transcendence": {
@@ -2761,11 +2761,11 @@
         }
       },
       "s2": {
-        "books": [
-          "Bonus de Défense augmenté de {1} %.",
-          "Bonus de Défense augmenté de {1} %.",
-          "Récupère 1% des PV du héros par seconde, pendant 10 sec."
-        ],
+        "books": {
+          "1": "Bonus de Défense augmenté de {1} %.",
+          "2": "Bonus de Défense augmenté de {1} %.",
+          "3": "Récupère 1% des PV du héros par seconde, pendant 10 sec."
+        },
         "description": "Inflige {1} points de DEG P. aux ennemis à portée des applique Étourdissement pendant 1 sec. La DEF M. du Héros augmente également de {2} pendant 10 sec, et il reçoit 80% des DEG M. à la place des alliés.",
         "name": "Protection Divine",
         "transcendence": {
@@ -2774,11 +2774,11 @@
         }
       },
       "s3": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "Bloque tous les DEG."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "Bloque tous les DEG."
+        },
         "description": "Attaque frontalement les ennemis à 3 reprises. Les 2 premières attaques infligent {1} points de DEG P. aux ennemis et applique Étourdissement pendant 4 sec à chaque fois. La dernière attaque a une portée 20% plus importante et inflige {2} points de DEG P. \\nen appliquant Étourdissement pendant 4 sec. Chaque attaque a 50% de chances de retirer un effet bénéfique sur l'ennemi.",
         "name": "Jugement Divin",
         "transcendence": {
@@ -2787,11 +2787,11 @@
         }
       },
       "s4": {
-        "books": [
-          "Bonus de Défense augmenté de {1} %.",
-          "Bonus de Défense augmenté de {1} %.",
-          "Durée augmentée de 2 sec."
-        ],
+        "books": {
+          "1": "Bonus de Défense augmenté de {1} %.",
+          "2": "Bonus de Défense augmenté de {1} %.",
+          "3": "Durée augmentée de 2 sec."
+        },
         "description": "Lorsqu'un allié subit des DEG M. sa DEF M. est augmentée de {1} pendant 5 sec. Cumulable 5 fois, et Ricardo ne peut pas bénéficier de cet effet.",
         "name": "Bénédiction Divine",
         "transcendence": {
@@ -2831,11 +2831,11 @@
       "description": "Assassin d'élite des Masques Rieurs et ancienne collègue de Roy. Autrefois, elle était 'nettoyeuse' et traquait les traitres. Ses dagues tranchantes ne ratent jamais leur cible.",
       "name": "Tanya",
       "s1": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "Chances de Crit augmentées de {1} ."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "Chances de Crit augmentées de {1} ."
+        },
         "description": "Le Héros se déplace derrière l'ennemi avec la plus faible DEF P. et augmente les DEG P. qu'il reçoit de {1} %. Renverse également l'ennemi et inflige {2} points de DEG P. Si Furtivité est active, applique Étourdissement sur la cible pendant 6 sec. Sinon, donne Furtivité pour 10 sec. Pendant Furtivité, les Chances de Crit et le l'Esquive sont augmentés de 200.",
         "name": "Cible Acquise",
         "transcendence": {
@@ -2844,11 +2844,11 @@
         }
       },
       "s2": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "Chances de Crit augmentées de {1} ."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "Chances de Crit augmentées de {1} ."
+        },
         "description": "Attaque à 3 reprises les ennemis proches et inflige un total de {1} points de DEG P. et applique 1 Saignement par coup. Si Furtivité est active, la Récupération est réduite de 70%. Sinon, donne Furtivité pour 10 sec.",
         "name": "Tornade de Lames",
         "transcendence": {
@@ -2857,11 +2857,11 @@
         }
       },
       "s3": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "Chances de Crit augmentées de {1} ."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "Chances de Crit augmentées de {1} ."
+        },
         "description": "Attaque aléatoirement 6 ennemis et inflige un total de {1} points de DEG P. Lance également une attaque finale pour {2} points de DEG P. Si Furtivité est active, toutes les Améliorations de l'ennemi sont retirées. Sinon, donne Furtivité pour 10 sec.",
         "name": "Chuchotement de la mort",
         "transcendence": {
@@ -2870,11 +2870,11 @@
         }
       },
       "s4": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "Durée du Silence augmentée de {1} sec."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "Durée du Silence augmentée de {1} sec."
+        },
         "description": "Si une compétence a un effet Critique, l'ennemi reçoit {1} points de DEG P. supplémentaires et est réduit au Silence pendant {2} sec.",
         "name": "Ambuscade Silencieuse",
         "transcendence": {
@@ -2914,11 +2914,11 @@
       "description": "Un croisement entre démon de haut-rang et humain, Ezekiel est condamné à maudire sa propre existence. Utilise son puissant bras droit démoniaque pour trancher ses ennemis.",
       "name": "Ezekiel",
       "s1": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "DEG augmentés de {1} %."
+        },
         "description": "Balaie les ennemis à portée de manière circulaire et inflige {1} points de DEG M. Frappe ensuite le sol, infligeant {2} points de DEG M. tout en renversant les ennemis pendant 3 sec.\\n [Fureur] - Consomme 15% des PV actuels pour s'activer. La portée de l'effet augmente et les attaques tournoyantes attirent les ennemis. ",
         "name": "Instinct Destructeur",
         "transcendence": {
@@ -2927,11 +2927,11 @@
         }
       },
       "s2": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "DEG augmentés de {1} %."
+        },
         "description": "Se précipite vers l'ennemi ayant l'ATQ la plus élevée et inflige {1} points de DEG M. aux ennemis à portée, réduisant leur Vit ATQ de {2}. \\n [Fureur] - Consomme 10% des PV actuels pour s'activer. La portée de l'effet augmente, applique Étourdissement pendant {3} sec et augmente la Vit ATQ du Héros de {5} pendant {4} sec. ",
         "name": "Aube du Désespoir",
         "transcendence": {
@@ -2940,11 +2940,11 @@
         }
       },
       "s3": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "DEG augmentés de {1} %."
+        },
         "description": "Collecte de l'énergie et attaque l'ennemi ciblé, inflige {1} points de DEG M. et applique Étourdissement pendant {2} sec.\\n [Fureur] - Consomme 20% des PV actuels pour s'activer. Attaque les ennemis à portée de la cible et les DEG sont triplés. ",
         "name": "Frappe de Condamnation",
         "transcendence": {
@@ -2953,11 +2953,11 @@
         }
       },
       "s4": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "DEG augmentés de {1} %."
+        },
         "description": "Ezekiel gagne 1 charge de 'Sang Maudit' à la fin de la compétence. La 4ème charge consomme Sang Maudit pour réinitialiser le Temps de Recharge de toutes les compétences, inflige {1} points de DEG M. aux ennemis à portée et les renverse pendant 3 sec, tout en activant Fureur pendant {2} sec, ce qui n'est pas dissipable. Lorsque Fureur est activée, le Héros entre en mode bataille-auto, qui ne peut pas être contrôlé, l'ATQ est augmentée de {3} , les DEG des attaques auto sont doublés, et l'effet de toutes les compétences est renforcé. Sang Maudit ne peut pas être obtenu pendant que Fureur est actif, sauf lorsqu'un ennemi est tué.",
         "name": "Sang Maudit",
         "transcendence": {
@@ -2997,11 +2997,11 @@
       "description": "La Femme Fatale qui possède la Barre d'Or.  Sa notoriété fait d'elle une charmeuse érotique et sexy.  Elle motive ses alliés avec des danses tentatrices.",
       "name": "Cassandra",
       "s1": {
-        "books": [
-          "Les montants des Soins et des DEG sont augmentés de {1} %.",
-          "Les montants des Soins et des DEG sont augmentés de {1} %.",
-          "Durée du Silence augmentée de {1} sec."
-        ],
+        "books": {
+          "1": "Les montants des Soins et des DEG sont augmentés de {1} %.",
+          "2": "Les montants des Soins et des DEG sont augmentés de {1} %.",
+          "3": "Durée du Silence augmentée de {1} sec."
+        },
         "description": "Soigne tous les alliés de {1} PV et inlige {2} points de DEG M. à tous les ennemis. Les ennemis touchés sont réduits au silence pendant 2 sec.",
         "name": "Tranquillement",
         "transcendence": {
@@ -3010,11 +3010,11 @@
         }
       },
       "s2": {
-        "books": [
-          "Augmentation de l'ATQ boostée de {1} %.",
-          "Augmentation de l'ATQ boostée de {1} %.",
-          "Augmentation de l'ATQ boostée de {1} %."
-        ],
+        "books": {
+          "1": "Augmentation de l'ATQ boostée de {1} %.",
+          "2": "Augmentation de l'ATQ boostée de {1} %.",
+          "3": "Augmentation de l'ATQ boostée de {1} %."
+        },
         "description": "Augmente l'ATQ des alliés de {1} pendant 15 sec et augmente leurs Chances de Crit. de {2} .",
         "name": "Férocement!",
         "transcendence": {
@@ -3023,11 +3023,11 @@
         }
       },
       "s3": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "Durée du Charme augmentée de {1} sec."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "Durée du Charme augmentée de {1} sec."
+        },
         "description": "Inflige {1} points de DEG M. à l'ennemi ayant l'ATQ la plus élevée. Applique Charme sur l'ennemi pendant 7 sec lorsque la compétence est utilisée en Arène. Inflige {2} % de DEG M. supplémentaires lorsque utilisée en-dehors de l'Arène, Les ennemis charmés attaquent leurs propres alliés avec des attaques auto et ne peuvent pas utiliser de compétences.",
         "name": "Vague Tentatrice",
         "transcendence": {
@@ -3036,11 +3036,11 @@
         }
       },
       "s4": {
-        "books": [
-          "Augmentation de la DEF boostée de {1} %.",
-          "Augmentation de la DEF boostée de {1} %.",
-          "Augmentation de la DEF boostée de {1} %."
-        ],
+        "books": {
+          "1": "Augmentation de la DEF boostée de {1} %.",
+          "2": "Augmentation de la DEF boostée de {1} %.",
+          "3": "Augmentation de la DEF boostée de {1} %."
+        },
         "description": "Lors de chaque bataille, la première compétence utilisée voit son coût en mana réduit de 2. Augmente également toutes les DEF des alliés de {1} pendant 5 sec.",
         "name": "Douceur",
         "transcendence": {
@@ -3080,11 +3080,11 @@
       "description": "Autrefois assassin, son passé reste inconnu. Il est spécialiste des cibles isolées, il lance sans fin de puissantes attaques sur ses ennemis tout en courant autour d'eux sans être vu.",
       "name": "Roy",
       "s1": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG Crit de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les DEG Crit de {1} %."
+        },
         "description": "Une attaque critique auto inflige {1} points de DEG P. supplémentaires.",
         "name": "Piratage",
         "transcendence": {
@@ -3093,11 +3093,11 @@
         }
       },
       "s2": {
-        "books": [
-          "Le taux d'augmentation de l'ATQ est augmenté de {1} %.",
-          "Le taux d'augmentation de l'ATQ est augmenté de {1} %.",
-          "Augmente la Vit. d'ATQ de {1} pour la durée."
-        ],
+        "books": {
+          "1": "Le taux d'augmentation de l'ATQ est augmenté de {1} %.",
+          "2": "Le taux d'augmentation de l'ATQ est augmenté de {1} %.",
+          "3": "Augmente la Vit. d'ATQ de {1} pour la durée."
+        },
         "description": "ATQ augmentée de {2} pendant {1} sec et esquive toutes les attaques de DEG P.",
         "name": "Rideau de l'Ombre",
         "transcendence": {
@@ -3106,11 +3106,11 @@
         }
       },
       "s3": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG Crit de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les DEG Crit de {1} %."
+        },
         "description": "Attaque 3 fois au hasard, infligeant {1} DEG P. aux ennemis et provoque Saignement, ce inflige des DEG P. constants. Saignement s'accumule jusqu'à 3 fois.",
         "name": "Impitoyable",
         "transcendence": {
@@ -3119,11 +3119,11 @@
         }
       },
       "s4": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG Crit de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les DEG Crit de {1} %."
+        },
         "description": "Attaque par derrière l'ennemi ayant le moins de PV et inflige [FFC800] {1} DEG P. Chaque application de Saignement sur l'ennemi inflige {2} % points de DEG supplémentaires. Les effets de Saignement sont ensuite retirés. En cas de Crit, 2 PM sont restitués et le temps de recharge de la compétence est réinitialisé.",
         "name": "GriffeLame",
         "transcendence": {
@@ -3163,11 +3163,11 @@
       "description": "Le 1er Chevalier de l'ancienne République de Gray, qui erre dans le monde à la recherche de sa suzeraine disparue, Jane.  Sa puissante double lance est très dangeureuse, elle attend puis transperce les démons ennemis, sans pitié.",
       "name": "Theo",
       "s1": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "Chances de Crit augmentées de {1} ."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "Chances de Crit augmentées de {1} ."
+        },
         "description": "Attaque l'ennemi à 16 reprises, infligeant un total de {1} points de DEG M. Chaque Crit augmente les DEG Crit de 3% pendant 10 sec et a 30% de chances d'infliger {2} points de DEG M. supplémentaires tout en appliquant Étourdissement pendant 0.3 sec. L'effet des DEG Crit est cumulable 30 fois.",
         "name": "Crash Final",
         "transcendence": {
@@ -3176,11 +3176,11 @@
         }
       },
       "s2": {
-        "books": [
-          "Les boosts d'ATQ et de DEG sont augmentés de {1} %.",
-          "Les boosts d'ATQ et de DEG sont augmentés de {1} %.",
-          "Les boosts d'ATQ et de DEG sont augmentés de {1} %."
-        ],
+        "books": {
+          "1": "Les boosts d'ATQ et de DEG sont augmentés de {1} %.",
+          "2": "Les boosts d'ATQ et de DEG sont augmentés de {1} %.",
+          "3": "Les boosts d'ATQ et de DEG sont augmentés de {1} %."
+        },
         "description": "Active l'état 'Dieu de la Foudre'. Projette une lance de foudre qui inflige {1} points de DEG M. L'ennemi touché reçoit {2} points de DEG M. pendant 10 sec. Pendant que 'Dieu de la Foudre' est actif, le Mana ne remonte pas pendant 10 sec, mais le taux d'activation de la compétence 'Pour Jane' augmente de 40% et l'ATQ augmente de {3} .",
         "name": "Dieu de la Foudre",
         "transcendence": {
@@ -3189,11 +3189,11 @@
         }
       },
       "s3": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "Chances de Crit augmentées de {1} ."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "Chances de Crit augmentées de {1} ."
+        },
         "description": "Saute vers l'avant sur un ennemi, frappant avec une lance vers le sol. Touche la cible à 5 reprises et inflige un total de {1} points de DEG M. à la cible et aux ennemis proches. Applique également Étourdissement pendant 3 sec.",
         "name": "Explosion de Foudre",
         "transcendence": {
@@ -3202,11 +3202,11 @@
         }
       },
       "s4": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "Chances de Crit augmentées de {1} ."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "Chances de Crit augmentées de {1} ."
+        },
         "description": "Chaque attaque auto a 20% de chances d'infliger {1} points de DEG M. et d'appliquer Étourdissement pendant 0.7 sec.",
         "name": "Pour Jane",
         "transcendence": {
@@ -3246,11 +3246,11 @@
       "description": "Un docteur ayant des techniques très anciennes dont quelques Magies de Prêtre et autres Soins.  Elle pratique sa médecine avec une grande aiguille pour renforcer ses alliés, ou affaiblir ses ennemis.",
       "name": "Mediana",
       "s1": {
-        "books": [
-          "La Récupération augmente de {1} % .",
-          "La Récupération augmente de {1} % .",
-          "La Récupération augmente de {1} % ."
-        ],
+        "books": {
+          "1": "La Récupération augmente de {1} % .",
+          "2": "La Récupération augmente de {1} % .",
+          "3": "La Récupération augmente de {1} % ."
+        },
         "description": "Soigne tous les alliés pour {1} PV et les immunise contre le prochain coup de DEG reçu.",
         "name": "Salve de Guérison",
         "transcendence": {
@@ -3259,11 +3259,11 @@
         }
       },
       "s2": {
-        "books": [
-          "Les montants des Soins et des DEG sont augmentés de {1} %.",
-          "Les montants des Soins et des DEG sont augmentés de {1} %.",
-          "Les montants des Soins et des DEG sont augmentés de {1} %."
-        ],
+        "books": {
+          "1": "Les montants des Soins et des DEG sont augmentés de {1} %.",
+          "2": "Les montants des Soins et des DEG sont augmentés de {1} %.",
+          "3": "Les montants des Soins et des DEG sont augmentés de {1} %."
+        },
         "description": "Un canon à eau tire en ligne droite, soignant les alliés à portée pour {1} PV toutes les 0.5 sec, tout en infligeant {2} points de DEG P. à l'ennemi.",
         "name": "Canon à Eau Spécial",
         "transcendence": {
@@ -3272,11 +3272,11 @@
         }
       },
       "s3": {
-        "books": [
-          "Augmentation de l'ATQ boostée de {1} %.",
-          "Augmentation de l'ATQ boostée de {1} %.",
-          "Augmentation de l'ATQ boostée de {1} %."
-        ],
+        "books": {
+          "1": "Augmentation de l'ATQ boostée de {1} %.",
+          "2": "Augmentation de l'ATQ boostée de {1} %.",
+          "3": "Augmentation de l'ATQ boostée de {1} %."
+        },
         "description": "Injecte une potion revigorante à l'allié ayant l'ATQ la plus élevée, augmentant ainsi son ATQ de 20%+{1} de l'ATQ de Mediana Empêche également ses PV de descendre sous les 5%.",
         "name": "Potion Revigorante",
         "transcendence": {
@@ -3285,11 +3285,11 @@
         }
       },
       "s4": {
-        "books": [
-          "Augmentation de l'ATQ boostée de {1} %.",
-          "Augmentation de l'ATQ boostée de {1} %.",
-          "Augmente le Blocage P. de tous les alliés de {1} ."
-        ],
+        "books": {
+          "1": "Augmentation de l'ATQ boostée de {1} %.",
+          "2": "Augmentation de l'ATQ boostée de {1} %.",
+          "3": "Augmente le Blocage P. de tous les alliés de {1} ."
+        },
         "description": "Augmente l'ATQ de tous les alliés de {1} et la Résistance aux Crit P. de {2} . Toute attaque sur un ennemi lui injecte également un poison spécial qui inflige des DEG P. constants à hauteur de {3} pendant 5 sec tout en réduisant sa Résistance aux Crit P. de {4} .",
         "name": "Poison Spécial de Mediana",
         "transcendence": {
@@ -3329,11 +3329,11 @@
       "description": "Un horloger qui a été maudit par les animaux divins appelés les Redpur.  Son horloge magique attaque, pétrifie ses enemies et permet aussi à ses alliés d'utiliser plus rapidement leurs compétences.",
       "name": "Oddy",
       "s1": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "Chances de Crit. augmentées de {1} ."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "Chances de Crit. augmentées de {1} ."
+        },
         "description": "Touche les ennemis en ligne droite pour {1} points de DEG M. et les Pétrifie.",
         "name": "Fracture Temporelle",
         "transcendence": {
@@ -3342,11 +3342,11 @@
         }
       },
       "s2": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "Chances de Crit. augmentées de {1} ."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "Chances de Crit. augmentées de {1} ."
+        },
         "description": "Attaque 6 ennemis aléatoires, infligeant un total de {1} points de DEG M. 'Fragments du Temps' a 50% de chances de réinitialiser son Temps de Recharge et de ne pas consommer de mana lors de sa prochaine utilisation.",
         "name": "Fragments du Temps",
         "transcendence": {
@@ -3355,11 +3355,11 @@
         }
       },
       "s3": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "Chances de Crit. augmentées de {1} ."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "Chances de Crit. augmentées de {1} ."
+        },
         "description": "Inflige {1} points de DEG M. à tous les ennemis et augmente l'ATQ des alliés de {2} pendant 15 sec. Toutes les compétences des alliés en recharge voient leur Temps de Recharge réduit de 50%. Cet effet ne s'applique pas à cette même compétence.",
         "name": "Distorsion Temporelle",
         "transcendence": {
@@ -3368,11 +3368,11 @@
         }
       },
       "s4": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "Chances de Crit. augmentées de {1} ."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "Chances de Crit. augmentées de {1} ."
+        },
         "description": "After skill use, 2 auto attacks will deal {1} additional M.DMG and have a 30% chance to Petrify the enemy for 3 sec.",
         "name": "Horloge Magique",
         "transcendence": {
@@ -3412,11 +3412,11 @@
       "description": "Une démone rebelle, qui cherche à dévorer les autres démons pour asseoir son propre pouvoir. Elle a voyagé dans la faille dimensionnelle pour chasser les puissants démons du Monde Matériel. Ses pointes ne sont là que pour déchirer ses ennemis.",
       "name": "Viska",
       "s1": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "Le taux d'augmentation d'ATQ est augmenté de {1} %."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "Le taux d'augmentation d'ATQ est augmenté de {1} %."
+        },
         "description": "Inflige {1} points de DEG M. aux ennemis à portée et réduit leur ATQ de {2} % pendant 10 sec. Augmente également l'ATQ du Héros de {3} . 3 charges d'Âmes entravent l'ennemi pendant 3 sec.",
         "name": "L'heure du Repas!!",
         "transcendence": {
@@ -3425,11 +3425,11 @@
         }
       },
       "s2": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "L'ennemi reçoit {1} % de DEG M. supplémentaires pendant la durée."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "L'ennemi reçoit {1} % de DEG M. supplémentaires pendant la durée."
+        },
         "description": "Le Héros se déplace derrière la cible, retire ses Améliorations et lui inflige {1} points de DEG M. et le renverse. 3 charges d'Âmes réduisent la DEF M. de l'ennemi de {2} %.",
         "name": "Démembrement!!",
         "transcendence": {
@@ -3438,11 +3438,11 @@
         }
       },
       "s3": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "Les ennemis proches sont encerclés juste avant l'attaque."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "Les ennemis proches sont encerclés juste avant l'attaque."
+        },
         "description": "Inflige {1} points de DEG M aux ennemis situés l'intérieur de la vaste zone d'impact et les étourdit pendant 3 secondes. Si vous avez accumulé 5 charges d'âmes, celles-ci sont consommées pour réinitialiser le temps de recharge de la compétence.",
         "name": "Je vais vous déchirer!!",
         "transcendence": {
@@ -3451,11 +3451,11 @@
         }
       },
       "s4": {
-        "books": [
-          "DEG et Récupération augmentés de {1} %.",
-          "DEG et Récupération augmentés de {1} %.",
-          "Les ennemie dont l'Âme a été volée perdent {1} PM."
-        ],
+        "books": {
+          "1": "DEG et Récupération augmentés de {1} %.",
+          "2": "DEG et Récupération augmentés de {1} %.",
+          "3": "Les ennemie dont l'Âme a été volée perdent {1} PM."
+        },
         "description": "Les ennemis attaqués avec les compétences de Viska perdent leurs âmes. Lorsqu'elles n'ont plus d'âmes, les cibles reçoivent {1} points de DEG M supplémentaires pour chaque âme accumulée, Viska récupère {2} PV et 300 mana. Les âmes perdurent jusqu'à leur utilisation, ne peuvent pas être dissipées et sont cumulables 5 fois.",
         "name": "Âmes Délicieuses!",
         "transcendence": {
@@ -3495,11 +3495,11 @@
       "description": "Officiellement l'une des plus hautes gradées de l'Armée d'Orvelia, elle est devenue la domestique d'Aisha, la mage de génie; Fille unique de la noble famille Daphnel Pon. Sa puissante hallebarde tranche rapidement tous ses ennemis.",
       "name": "Priscilla",
       "s1": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "DEG augmentés de {1} %."
+        },
         "description": "Inflige {1} points de DEG P. frontalement aux ennemis en appliquant Étourdissement pendant 1 sec. Cette attaque est toujours un coup critique.",
         "name": "Frappe Vitale",
         "transcendence": {
@@ -3508,11 +3508,11 @@
         }
       },
       "s2": {
-        "books": [
-          "ATQ augmentée de {1} %.",
-          "ATQ augmentée de {1} %.",
-          "ATQ augmentée de {1} %."
-        ],
+        "books": {
+          "1": "ATQ augmentée de {1} %.",
+          "2": "ATQ augmentée de {1} %.",
+          "3": "ATQ augmentée de {1} %."
+        },
         "description": "Établit un lien pendant 20 sec entre le Héros et l'allié ayant l'ATQ la plus élevée. Priscilla et l'ATQ de l'allié augmentent de 15%+{1} pendant la durée.",
         "name": "Coordination",
         "transcendence": {
@@ -3521,11 +3521,11 @@
         }
       },
       "s3": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "DEG augmentés de {1} %."
+        },
         "description": "Inflige {1} points de DEG P. aux ennemis à portée circulaire. Si l'activation a lieu sous l'effet 'Co-op', les ennemis touchés subissent {2} % de DEG M. et P. supplémentaires pendant 10 sec.",
         "name": "Danse Tounoyante",
         "transcendence": {
@@ -3534,11 +3534,11 @@
         }
       },
       "s4": {
-        "books": [
-          "Le taux d'augmentation d'ATQ est augmenté de {1} %.",
-          "Le taux d'augmentation d'ATQ est augmenté de {1} %.",
-          "DEG Crit augmentés de {1} %."
-        ],
+        "books": {
+          "1": "Le taux d'augmentation d'ATQ est augmenté de {1} %.",
+          "2": "Le taux d'augmentation d'ATQ est augmenté de {1} %.",
+          "3": "DEG Crit augmentés de {1} %."
+        },
         "description": "L'ATQ de ce Héros augmente de {1} et la Pen. DEF augmente de {2} .",
         "name": "Maîtrise des Armes",
         "transcendence": {
@@ -3578,11 +3578,11 @@
       "description": "Une guerrière Barbare qui parcourt les terres, pourchassant les monstres qui tourmentent la population. Pourfendeuse solitaire de Svelta, le Dragon Fou. Ses flèches massives et puissantes peuvent même transpercer des murs de châteaux.",
       "name": "Yanne",
       "s1": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "DEG Crit. augmentés de {1} ."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "DEG Crit. augmentés de {1} ."
+        },
         "description": "En posture de visée, inflige {1} points de DEG P. aux ennemis en ligne droite. Si la cible est un Dragon, il subit un Étourdissement pendant 3 sec. Un temps de visée élevé augmente les DEG et le temps de l'Étourdissement de {2} %.",
         "name": "Tir Focalisé!",
         "transcendence": {
@@ -3591,11 +3591,11 @@
         }
       },
       "s2": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "DEG Crit. augmentés de {1} ."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "DEG Crit. augmentés de {1} ."
+        },
         "description": "Inflige {1} points de DEG P. à un ennemi et ses alliés à portée. Si la cible est un Dragon, il subit {2} points de DEG additionnels qui ignorent la DEF.",
         "name": "Anéantissement!",
         "transcendence": {
@@ -3604,11 +3604,11 @@
         }
       },
       "s3": {
-        "books": [
-          "Augmentation de l'ATQ boostée de {1} %.",
-          "Augmentation de l'ATQ boostée de {1} %.",
-          "Augmentation de l'ATQ boostée de {1} %."
-        ],
+        "books": {
+          "1": "Augmentation de l'ATQ boostée de {1} %.",
+          "2": "Augmentation de l'ATQ boostée de {1} %.",
+          "3": "Augmentation de l'ATQ boostée de {1} %."
+        },
         "description": "Retire tous les effets négatifs sur le Héros, augmente l'ATQ de {1} pendant 30 sec et la Pen. DEF de {2} . Pendant la durée, les attaques auto sont modifiées. Elles consomment 3% de mana en échange de l'aptitude à infliger des DEG aux ennemis en ligne droite. Inflige également {3} points de DEG P. additionnels aux Dragons en ignorant leur DEF.",
         "name": "Aucune retenue!",
         "transcendence": {
@@ -3617,11 +3617,11 @@
         }
       },
       "s4": {
-        "books": [
-          "Augmentation de l'ATQ boostée de {1} %.",
-          "Augmentation de l'ATQ boostée de {1} %.",
-          "Augmentation de l'ATQ boostée de {1} %."
-        ],
+        "books": {
+          "1": "Augmentation de l'ATQ boostée de {1} %.",
+          "2": "Augmentation de l'ATQ boostée de {1} %.",
+          "3": "Augmentation de l'ATQ boostée de {1} %."
+        },
         "description": "ATQ augmentée de {1} et PV augmentés de {2} %. Les DEG infligés aux Dragons sont également augmentés de {3} %.",
         "name": "Poufendeur de Dragon",
         "transcendence": {
@@ -3661,11 +3661,11 @@
       "description": "Un astrologue de Stardust, une troupe qui erre sur le continent. Au lieu de partir en pèlerinage comme membre de l'association de la sorcière, recherche l'âme soeur qu'elle rencontra autrefois dans ses rêves. Contrôle les cartes de tarot qui flottent autour d'elle pour attaquer ses ennemis à distance.",
       "name": "Ophelia",
       "s1": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "DEG augmentés de {1} %."
+        },
         "description": "Attaque la cible ennemie, inflige {1} points de DEG M. et applique Étourdissement pendant {2} sec. Consomme la carte possédée pour appliquer des effets supplémentaires. Utiliser la compétence permet d'obtenir la Carte de [Mort].\\n [Mort] - Les DEG ignorent la DEF de la cible et la durée d'Étourdissement augmente de 5 sec.\\n[Amour] - Inflige un total de {3} points de DEG M. sur la durée pendant 7 sec et réduit les soins de 100%.\\n[Fortune] - Le Temps de Recharge de la compétence ne s'enclenche pas. ",
         "name": "Carte de Mort - Carta",
         "transcendence": {
@@ -3674,11 +3674,11 @@
         }
       },
       "s2": {
-        "books": [
-          "Augmentation de l'ATQ boostée de {1} %.",
-          "Augmentation de l'ATQ boostée de {1} %.",
-          "Augmentation de l'ATQ boostée de {1} %."
-        ],
+        "books": {
+          "1": "Augmentation de l'ATQ boostée de {1} %.",
+          "2": "Augmentation de l'ATQ boostée de {1} %.",
+          "3": "Augmentation de l'ATQ boostée de {1} %."
+        },
         "description": "L'ATQ est augmentée de {2} pendant {1} sec et la récupération de Mana par seconde est augmentée de {3}%. Consomme la carte possédée pour appliquer des effets supplémentaires. Utiliser la compétence permet d'obtenir la Carte d'[Amour].\\n [Mort] - La Pénétration est augmentée de 600 pour la durée de la compétence.\\n[Amour] - Donne l'effet à tous les alliés.\\n[Fortune] - Le Temps de Recharge de la compétence ne s'enclenche pas. ",
         "name": "Carte d'Amour - Elliciad",
         "transcendence": {
@@ -3687,11 +3687,11 @@
         }
       },
       "s3": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "DEG augmentés de {1} %."
+        },
         "description": "Attaque l'ennemi ciblé et les ennemis à portée, inflige {1} points de DEG M. Cette attaque Cette attaque ne peut échouer et ses DEG Crit sont augmentés de 100%. Utiliser cette compétence permet d'obtenir la Carte de [Fortune].\\n [Mort] - Les DEG Crit sont augmentés de 200% supplémentaires.\\n[Amour] - Dissipe les effets positifs sur les ennemis à portée et d'appliquer Silence pendant 1 sec.\\n[Fortune] - Le Temps de Recharge de la compétence ne s'enclenche pas et 1 orbe de mana est récupéré. ",
         "name": "Carte de Fortune - Vellekia",
         "transcendence": {
@@ -3700,11 +3700,11 @@
         }
       },
       "s4": {
-        "books": [
-          "Le boost ATQ de tous les alliés est augmenté de {1} %.",
-          "Le boost ATQ de tous les alliés est augmenté de {1} %.",
-          "Le boost Chances de Crit de tous les alliés est augmenté de {1} ."
-        ],
+        "books": {
+          "1": "Le boost ATQ de tous les alliés est augmenté de {1} %.",
+          "2": "Le boost ATQ de tous les alliés est augmenté de {1} %.",
+          "3": "Le boost Chances de Crit de tous les alliés est augmenté de {1} ."
+        },
         "description": "L'ATQ de tous les alliés est augmentée de {1} et les Chances de Crit de 100. La carte possédée donne un effet supplémentaire.\\n [Mort] - ATQ augmentée de {3}%.\\n[Amour] - Chaque sec, soigne {4}% des PV max.\\n[Fortune] - Les Chances d'Esquive M. sont augmentées de 200. ",
         "name": "Éclaireur du Destin",
         "transcendence": {
@@ -3744,11 +3744,11 @@
       "description": "Un barbare qui règne sur les plaines enneigées des Terres Gelées, il sape le moral des ennemis avec ses cris assourdissants et les charge directement, tel une tempête.",
       "name": "Gau",
       "s1": {
-        "books": [
-          "Le taux d'augmentation d'Attaque augmente de {1} %.",
-          "Le taux d'augmentation d'Attaque augmente de {1} %.",
-          "Le taux d'augmentation d'Attaque augmente de {1} %."
-        ],
+        "books": {
+          "1": "Le taux d'augmentation d'Attaque augmente de {1} %.",
+          "2": "Le taux d'augmentation d'Attaque augmente de {1} %.",
+          "3": "Le taux d'augmentation d'Attaque augmente de {1} %."
+        },
         "description": "Tous les alliés bénéficient de {2} ATQ pendant {1} sec. A l'activation, retire tous les effets négatifs sur tous les alliés.",
         "name": "Cri de Bataille",
         "transcendence": {
@@ -3757,11 +3757,11 @@
         }
       },
       "s2": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les DEG de {1} %."
+        },
         "description": "Inflige {1} points de DEG P. aux ennemis à portée et la première attaque renverse l'ennemi pendant {2} sec.",
         "name": "Fracasser",
         "transcendence": {
@@ -3770,11 +3770,11 @@
         }
       },
       "s3": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Pendant l'incantation, rassemble tous les ennemis à portée."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Pendant l'incantation, rassemble tous les ennemis à portée."
+        },
         "description": "Inflige {1} points de DEG P. aux ennemis à portée. La dernière attaque gèle les ennemis pendant {2} sec. Immunité à tous les effets pendant l'incantation.",
         "name": "Vortex",
         "transcendence": {
@@ -3783,11 +3783,11 @@
         }
       },
       "s4": {
-        "books": [
-          "Le taux d'augmentation d'Attaque augmente de {1} %.",
-          "Le taux d'augmentation d'Attaque augmente de {1} %.",
-          "La résistance au affaiblissements augmente de 50 pour chaque application."
-        ],
+        "books": {
+          "1": "Le taux d'augmentation d'Attaque augmente de {1} %.",
+          "2": "Le taux d'augmentation d'Attaque augmente de {1} %.",
+          "3": "La résistance au affaiblissements augmente de 50 pour chaque application."
+        },
         "description": "En attaquant un ennemi, l'ATQ augmente de {2} pendant {1} sec. Peut être cumulé jusqu'à un maximum de 10 fois.",
         "name": "Enrager",
         "transcendence": {
@@ -3827,11 +3827,11 @@
       "description": "Une marchande qui parcourt le continent, vendant du poison à ceux qui en ont besoin. Utilise une sarbacane pour empoisonner et neutraliser ses ennemis.",
       "name": "Requina",
       "s1": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "DEG augmentés de {1} %."
+        },
         "description": "Attaque 2 ennemis et inflige {1} points de DEG P. tout en les empoisonnant avec Larmes de Mr. Python . Les ennemis affectés par Larmes de Mr. Python ne récupèrent plus de mana, subissent des DEG augmentés de 30% et leurs Chances de Bloquer sont réduites de 500.",
         "name": "Larmes de Mr. Python!",
         "transcendence": {
@@ -3840,11 +3840,11 @@
         }
       },
       "s2": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "DEG augmentés de {1} %."
+        },
         "description": "Attaque à 3 reprises des ennemis aléatoires, leur inflige un total de {1} DEG et les empoisonne avec Extrait d'Herbe Stridente pendant {2} sec. Les ennemis affectés par Extrait d'Herbe Stridente voient leur ATQ réduite de {3}% et leurs Chances de Crit de {4}.",
         "name": "Extrait d'Herbe Stridente!",
         "transcendence": {
@@ -3853,11 +3853,11 @@
         }
       },
       "s3": {
-        "books": [
-          "Le taux d'augmentation d'ATQ est augmenté de {1} %.",
-          "Le taux d'augmentation d'ATQ est augmenté de {1} %.",
-          "Le taux d'augmentation d'ATQ est augmenté de {1} %."
-        ],
+        "books": {
+          "1": "Le taux d'augmentation d'ATQ est augmenté de {1} %.",
+          "2": "Le taux d'augmentation d'ATQ est augmenté de {1} %.",
+          "3": "Le taux d'augmentation d'ATQ est augmenté de {1} %."
+        },
         "description": "L'ATQ du Héros est augmentée de {2} pendant {1} sec et l'effet de [Larmes de Mr. Python], [Extrait d'Herbe Stridente], [Potion Guili-Guili] est doublé. Augmente également de 1 le nombre de cibles de [Larmes de Mr. Python], [Extrait d'Herbe Stridente], [Potion Guili-Guili]",
         "name": "Plus! Plus fort!",
         "transcendence": {
@@ -3866,11 +3866,11 @@
         }
       },
       "s4": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "DEG augmentés de {1} %."
+        },
         "description": "Lors d'une attaque, la cible ennemie est empoisonnée avec Potion Guili-Guili pendant {1} sec, infligeant un total de {2} points de DEG P. sur la durée, effet non dissipable. Potion Guili-Guili est cumulable 50 fois.",
         "name": "Potion Guili-Guili",
         "transcendence": {
@@ -3910,11 +3910,11 @@
       "description": "Portant le titre de Chevalier des cieux vertueux, elle pourfend les forces maléfiques de son épée et protège les faibles de son bouclier. Son objectif est de vaincre les démons qui saccagent le monde matériel. Son épée et son bouclier majestueux terrassent ses ennemis et leur lumière protège ses camarades.",
       "name": "Aselica",
       "s1": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "Augmente la durée d'Étourdissement pendant {1} sec."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "Augmente la durée d'Étourdissement pendant {1} sec."
+        },
         "description": "Inflige {1} points de DEG M à la cible et aux ennemis à portée et les étourdit pendant {2} s.",
         "name": "Épée du soleil",
         "transcendence": {
@@ -3923,11 +3923,11 @@
         }
       },
       "s2": {
-        "books": [
-          "Le taux d'augmentation d'ATQ est augmenté de {1} %.",
-          "Le taux d'augmentation d'ATQ est augmenté de {1} %.",
-          "Le taux d'augmentation d'ATQ est augmenté de {1} %."
-        ],
+        "books": {
+          "1": "Le taux d'augmentation d'ATQ est augmenté de {1} %.",
+          "2": "Le taux d'augmentation d'ATQ est augmenté de {1} %.",
+          "3": "Le taux d'augmentation d'ATQ est augmenté de {1} %."
+        },
         "description": "Confère la Bénédiction du soleil à l'allié qui possède l'ATQ la plus élevée, ce qui réduit de 20 % le temps de recharge de toutes ses compétences et augmente son ATQ de {1} pendant 15 s.",
         "name": "Bénédiction du soleil",
         "transcendence": {
@@ -3936,11 +3936,11 @@
         }
       },
       "s3": {
-        "books": [
-          "DEG et Récupération augmentés de {1} %.",
-          "DEG et Récupération augmentés de {1} %.",
-          "DEG et Récupération augmentés de {1} %."
-        ],
+        "books": {
+          "1": "DEG et Récupération augmentés de {1} %.",
+          "2": "DEG et Récupération augmentés de {1} %.",
+          "3": "DEG et Récupération augmentés de {1} %."
+        },
         "description": "Prend position et se concentre pour restaurer les PV des alliés à proximité (à l'exception du lanceur de sort), et ce 8 fois jusqu'à un total de {1} . Augmente également leur DEF P de {2} pendant 5 s. Permet aussi d'infliger 8 fois un total de {3} points de DEG M aux ennemis à portée et de réduire leur DEF M de {4} pendant 5 s. À la fin de l'incantation, les alliés à portée récupèrent {5} PV (à l'exception du lanceur de sort). Inflige également {6} points de DEG M aux ennemis et les renverse pendant 3 s.",
         "name": "Jugement du soleil",
         "transcendence": {
@@ -3949,11 +3949,11 @@
         }
       },
       "s4": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "DEG augmentés de {1} %."
+        },
         "description": "Lorsque vous attaquez la cible, les ennemis se retrouvent sous le coup de la Malédiction du soleil pendant 10 s. Ceux qui en auront accumulé 10 subiront {1} points de DEG M, seront aveuglés pendant {2} s et leur ATQ sera réduite de {3} % pendant 5 s.",
         "name": "Malédiction du soleil",
         "transcendence": {
@@ -3993,11 +3993,11 @@
       "description": "Cet ancien officier de marine s'est reconverti en chasseur de primes et tueur à gages. D'un cynisme vertigineux, il n'accorde pas sa confiance facilement et sait manipuler trois types d'armes à feu.",
       "name": "Crow",
       "s1": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "DEG augmentés de {1} %."
+        },
         "description": "Inflige {1} points de DEG P aux ennemis situés devant pendant 15 tours et leur appose le Croc du chien de chasse pendant 40 s, celui-ci pouvant s'accumuler 100 fois.",
         "name": "La cible sera éliminée.",
         "transcendence": {
@@ -4006,11 +4006,11 @@
         }
       },
       "s2": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "DEG augmentés de {1} %."
+        },
         "description": "Inflige {1} points de DEG P en attaquant 10 fois un ennemi temporaire, puis tire une balle de givre qui inflige {2} points de DEG P aux ennemis alentour et les gèle pendant 4 s. La balle de givre spéciale génère une zone de gel qui dure 6 s et inflige {3} points de DEG P toutes les 2 s, avec 50 % de chances de geler les ennemis pendant 2 s.",
         "name": "Lutter n'a aucun sens.",
         "transcendence": {
@@ -4019,11 +4019,11 @@
         }
       },
       "s3": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "DEG augmentés de {1} %."
+        },
         "description": "Prend position et se concentre pour tirer un laser qui inflige {1} points de DEG P. frontalement aux ennemis à portée et consomme Marque du Chien de Chasse sur la cible pour infliger {2} points de DEG P. supplémentaires pour chaque charge. La portée de l'effet augmente en fonction du temps de concentration et les DEG augmentent jusqu'à un maximum de {3} %. Une fois la concentration terminée, l'ennemi est repoussé sur une longue distance.",
         "name": "Même les Dieux mourront.",
         "transcendence": {
@@ -4032,11 +4032,11 @@
         }
       },
       "s4": {
-        "books": [
-          "Le taux d'augmentation d'ATQ est augmenté de {1} %.",
-          "Le taux d'augmentation d'ATQ est augmenté de {1} %.",
-          "Le taux d'augmentation d'ATQ est augmenté de {1} %."
-        ],
+        "books": {
+          "1": "Le taux d'augmentation d'ATQ est augmenté de {1} %.",
+          "2": "Le taux d'augmentation d'ATQ est augmenté de {1} %.",
+          "3": "Le taux d'augmentation d'ATQ est augmenté de {1} %."
+        },
         "description": "Crow n'est pas concerné par les variations de la Vit ATQ. L'ATQ augmente de {1} et les DEG Crit de {2} %. Récupère {3} PM chaque seconde. Les attaques normales apposent également le Croc du chien de chasse à la cible pendant 40 s.",
         "name": "Préparation à la Chasse",
         "transcendence": {
@@ -4076,11 +4076,11 @@
       "description": "Un légendaire chasseur de Dragons qui en a tué de nombreux... Bien qu'il soit de petite taille, ses coups de bouclier détruisent les formations ennemies et sont habituellement suivis du coup de grâce.",
       "name": "Phillop",
       "s1": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Diminue de {2} % la DEF P. des ennemis touchés pendant {1} sec."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Diminue de {2} % la DEF P. des ennemis touchés pendant {1} sec."
+        },
         "description": "Inflige {1} points de DEG P. et renverse l'ennemi pendant {2} sec.",
         "name": "Choc",
         "transcendence": {
@@ -4089,11 +4089,11 @@
         }
       },
       "s2": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Diminiue l'ATQ ennemie de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Diminiue l'ATQ ennemie de {1} %."
+        },
         "description": "Fonce sur l'ennemi et inflige {1} points de DEG P. Réduit également la Vitesse d'Attaque des ennemis touchés de {3} % pendant {2} sec.",
         "name": "Coup de Tête",
         "transcendence": {
@@ -4102,11 +4102,11 @@
         }
       },
       "s3": {
-        "books": [
-          "Le taux de récupération des points de DEF P. augmente de {1} %.",
-          "Le taux de récupération des points de DEF P. augmente de {1} %.",
-          "Réduit les DEG de {1} supplémentaires."
-        ],
+        "books": {
+          "1": "Le taux de récupération des points de DEF P. augmente de {1} %.",
+          "2": "Le taux de récupération des points de DEF P. augmente de {1} %.",
+          "3": "Réduit les DEG de {1} supplémentaires."
+        },
         "description": "Lorsque activé, augmente la DEF de {2} pendant {1} sec et immunise contre tous les effets. Soigne également {3} % des PV.",
         "name": "Incarnation Terrestre",
         "transcendence": {
@@ -4115,11 +4115,11 @@
         }
       },
       "s4": {
-        "books": [
-          "Réduit la DEF P. de {1} % supplémentaires.",
-          "Réduit la DEF P. de {1} % supplémentaires.",
-          "Réduit les chances d'Esquive P. de l'ennemi de {1} % par application."
-        ],
+        "books": {
+          "1": "Réduit la DEF P. de {1} % supplémentaires.",
+          "2": "Réduit la DEF P. de {1} % supplémentaires.",
+          "3": "Réduit les chances d'Esquive P. de l'ennemi de {1} % par application."
+        },
         "description": "Lors d'une l'attaque, réduit la DEF P. de l'ennemi de {2} pendant {1} sec. Cumulable jusqu'à 5 fois.",
         "name": "Destruction d'Armure",
         "transcendence": {
@@ -4159,11 +4159,11 @@
       "description": "Une princesse d'Orvelia qui aime vraiment son peuple. Elle porte son épée pour protéger les faibles et soutient la justice, comme un vrai chevalier. Elle tranche ses ennemis avec une Grande Épée magique qui perturbe la Mana.",
       "name": "Scarlet",
       "s1": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "La cible reçoit {1} % de DEG P. supplémentaires pendant 10 sec."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "La cible reçoit {1} % de DEG P. supplémentaires pendant 10 sec."
+        },
         "description": "Inflige {1} points de DEG P. aux ennemis à portée vers l'avant, et les renverse pendant 3 sec. Le Héros récupère ses PV proportionnellement à 30% des DEG.",
         "name": "Taille!",
         "transcendence": {
@@ -4172,11 +4172,11 @@
         }
       },
       "s2": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "DEG augmentés de {1} %."
+        },
         "description": "Dissipe les effets négatifs sur tous les alliés et dissipe les améliorations de tous les ennemis, tout en infligeant {1} points de DEG P.",
         "name": "Justice Servie",
         "transcendence": {
@@ -4185,11 +4185,11 @@
         }
       },
       "s3": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "DEG augmentés de {1} %."
+        },
         "description": "Inflige un total de {1} point de DEG P. sur un total de 3 attaques sur l'ennemi ciblé et l'Épée lance une explosion d'énergie qui inflige {2} points de DEG P. aux ennemis en ligne droite en les aveuglant pendant 5 sec.",
         "name": "Épée de Fierté",
         "transcendence": {
@@ -4198,11 +4198,11 @@
         }
       },
       "s4": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "DEG augmentés de {1} %."
+        },
         "description": "Toutes les Résistances aux Crit sont augmentées de {1} . Les attaques auto ont 10% de chances d'infliger {2} points de DEG P. supplémentaires et d'appliquer Étourdissement pendant 1 sec sur la cible.",
         "name": "Déesse de la Guerre",
         "transcendence": {
@@ -4242,11 +4242,11 @@
       "description": "Un génie reconnu par la Tour des Sages, sans en faire partie.  On lui a donné le titre de 'bleu', mais sa véritable identité et celle d'un homunculus. Ses orbes de foudre ne laissent même pas de cendres dans leur sillage.",
       "name": "Sonia",
       "s1": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "DEG augmentés de {1} %."
+        },
         "description": "Cause une explosion électrique vers l'avant, inflige {1} points de DEG M. aux ennemis à portée et place un Champ Électrique pendant 3 sec. Le Champ Électrique inflige un total de {2} points de DEG M.DMG sur 10 attaques et a 25% de chances d'appliquer Étourdissement à l'ennemi pendant 0.5 sec.",
         "name": "Frappe d'Éclair!",
         "transcendence": {
@@ -4255,11 +4255,11 @@
         }
       },
       "s2": {
-        "books": [
-          "Les boosts ATK et DEF sont augmentés de {1} %.",
-          "Les boosts ATK et DEF sont augmentés de {1} %.",
-          "Les boosts ATK et DEF sont augmentés de {1} %."
-        ],
+        "books": {
+          "1": "Les boosts ATK et DEF sont augmentés de {1} %.",
+          "2": "Les boosts ATK et DEF sont augmentés de {1} %.",
+          "3": "Les boosts ATK et DEF sont augmentés de {1} %."
+        },
         "description": "Pendant 15 sec, l'ATQ est augmentée de {1} et toutes les DEF de {2} . Pendant l'utilisation de cette compétence, chaque attaque auto a 30% de chances d'infliger {3} points de DEG M. supplémentaires à 2 ennemis aléatoires et de leur appliquer Étourdissement pendant 0.5 sec.",
         "name": "Puissance de la Foudre!",
         "transcendence": {
@@ -4268,11 +4268,11 @@
         }
       },
       "s3": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "DEG augmentés de {1} %."
+        },
         "description": "Inflige un total de {1} points de DEG M. sur 3 attaques aux ennemis proches dans une zone circulaire. Ceci provoque une Explosion Électrique qui inflige un total de {2} points de DEG M. sur 3 attaques et applique Étourdissement pendant 5 sec.",
         "name": "Explosion Électrique!",
         "transcendence": {
@@ -4281,11 +4281,11 @@
         }
       },
       "s4": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "DEG augmentés de {1} %."
+        },
         "description": "Chaque attaque injecte de l'Électricité dans les cibles qui ne sont pas déjà sous Décharge Électrique et augmente les DEG M. reçus de {1} % pendant 10 sec. L'Électricité est cumulable 30 fois et la 30ème charge consomme toute l'Électricité stockée pour infliger {2} points de DEG M. et appliquer Décharge Électrique sur la cible pendant 7 sec. Les ennemis affectés par Décharge Électrique subissent {4} % de DEG M. supplémentaires et lorsqu'ils subissent un Étourdissement, sa durée est augmentée de {3} sec.",
         "name": "Décharge",
         "transcendence": {
@@ -4325,11 +4325,11 @@
       "description": "La Reine de Pentheonia, le Royaume Absolu qui n'a pas bougé d'un pouce face aux Démons il y a 100. Son bâton contient une lumière brillante de justice,  elle l'utilise pour réduire ses ennemis en cendres.",
       "name": "Artemia",
       "s1": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "DEG augmentés de {1} %."
+        },
         "description": "Place un Pilier de Lumière à l'emplacement de l'ennemi et inflige un total de {1} points de DEG M. en 5 sec et réduit l'ATQ ennemie de {2} % pendant 10 sec.",
         "name": "Pilier de Lumière",
         "transcendence": {
@@ -4338,11 +4338,11 @@
         }
       },
       "s2": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "DEG augmentés de {1} %."
+        },
         "description": "Inflige {1} points de DEG M. aux ennemis en ligne droite. Cette attaque ajoute 100% aux DEG Crit.",
         "name": "Intensité Critique",
         "transcendence": {
@@ -4351,11 +4351,11 @@
         }
       },
       "s3": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "DEG augmentés de {1} %."
+        },
         "description": "Attaque l'ennemi à 3 reprises, infligeant {1} points de DEG M. et applique Étourdissement pendant 5 sec. Le Temps de Recharge de cette compétence est réduit de 30% lorsque l'ennemi est tué.",
         "name": "Jugement de Lumière",
         "transcendence": {
@@ -4364,11 +4364,11 @@
         }
       },
       "s4": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "DEG augmentés de {1} %."
+        },
         "description": "Lors d'une attaque, il y a 50% de chances que le cible et les ennemis proches reçoivent {1} points de DEG M. pendant qu'Artemia gagne 1 charge de Bénédiction de Lumière. Cet effet est cumulable 10 fois. Chaque charge augmente l'ATQ de {2} et les DEG infligés aux ennemis non-Héros de {3} %. Réduit également les DEG reçus des ennemis non-Héros de {4} %.",
         "name": "Bénédiction de Lumière",
         "transcendence": {
@@ -4408,11 +4408,11 @@
       "description": "L'assistante et la servante de l'archimage du Bleu, Sonia.  Elle agit uniquement pour le bien de Sonia, qui est son employeur, sa soeur et son amie.  Elle utilise son esprit vif et son regard aiguisé pour exploiter des faiblesses de l'ennemi avec ses dagues.",
       "name": "Mirianne",
       "s1": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "DEG augmentés de {1} %."
+        },
         "description": "Attaque 3 fois l'ennemi à la défense magique la plus faible, ce qui lui inflige un total de {1} points de DEG M et l'étourdit pendant 1 seconde. Si la cible est sous l'effet de 'Verrouillage', elle reçoit [ffC800]{2} points de DEG M. supplémentaires. La dernière attaque verrouille l'ennemi pendant 10 secondes. Le verrouillage ne peut pas être dissipé et le blocage magique de la cible est réduit de 300 points.",
         "name": "Cible verrouillée",
         "transcendence": {
@@ -4421,11 +4421,11 @@
         }
       },
       "s2": {
-        "books": [
-          "DEG et Bouclier sont augmentés de {1} %.",
-          "DEG et Bouclier sont augmentés de {1} %.",
-          "DEG et Bouclier sont augmentés de {1} %."
-        ],
+        "books": {
+          "1": "DEG et Bouclier sont augmentés de {1} %.",
+          "2": "DEG et Bouclier sont augmentés de {1} %.",
+          "3": "DEG et Bouclier sont augmentés de {1} %."
+        },
         "description": "Inflige {1} points de DEG M. à l'ennemi ciblé ainsi qu'aux autres ennemis à portée et leur applique Étourdissement pendant 2 sec. Se déplace ensuite vers l'allié ayant la DEP P. la plus faible, en dehors du Héros, et crée un Bouclier pour deux capable de bloquer {2} points de DEG pendant 10 sec. Le Bouclier sera sans effet s'il n'y a pas d'allié. Immunise également aux Contrôles pendant que le Bouclier est actif.",
         "name": "Restreindre et Protéger",
         "transcendence": {
@@ -4434,11 +4434,11 @@
         }
       },
       "s3": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "DEG augmentés de {1} %."
+        },
         "description": "Se déplace vers l'ennemi ayant les PV les plus bas et inflige {1} points de DEG M. puis retourne vers l'allié le plus éloigné. Si l'ennemi n'est pas un héros, inflige {2} points de DEG M additionnels qui ignorent la DEF. Triompher d'une cible avec cette compétence déclenche 'Restreindre et Protéger'.",
         "name": "Assassinat",
         "transcendence": {
@@ -4447,11 +4447,11 @@
         }
       },
       "s4": {
-        "books": [
-          "Augmentation de l'ATQ boostée de {1} %.",
-          "Augmentation de l'ATQ boostée de {1} %.",
-          "Augmentation de l'ATQ boostée de {1} %."
-        ],
+        "books": {
+          "1": "Augmentation de l'ATQ boostée de {1} %.",
+          "2": "Augmentation de l'ATQ boostée de {1} %.",
+          "3": "Augmentation de l'ATQ boostée de {1} %."
+        },
         "description": "Si l'ennemi est verrouillé, l'ATQ augmente de {1} et toutes les compétences d'attaque privilégieront les ennemis verrouillés. Une fois ces ennemis vaincus, un autre ennemi est verrouillé pendant 10 secondes.",
         "name": "Cible éliminée",
         "transcendence": {
@@ -4491,11 +4491,11 @@
       "description": "Cette mystérieuse jeune femme soigne ses alliés grâce à ses chants mélodieux. Sa superbe voix, portée par le son de sa harpe magique, a le pouvoir de soigner les blessures.",
       "name": "Shea",
       "s1": {
-        "books": [
-          "Taux de Récupération augmenté de {1} %.",
-          "Taux de Récupération augmenté de {1} %.",
-          "Taux de Récupération augmenté de {1} %."
-        ],
+        "books": {
+          "1": "Taux de Récupération augmenté de {1} %.",
+          "2": "Taux de Récupération augmenté de {1} %.",
+          "3": "Taux de Récupération augmenté de {1} %."
+        },
         "description": "Soigne en 8 fois un total de {1} PV sur tous les alliés. Pendant la durée de la compétence, les DEG sur tous les alliés sont réduits de {2} %. Lorsque utilisé avec 3 charges de Transe, les soins de cette compétence sont augmentés de 100% et pour toute sa durée, les DEG sur tous les alliés sont réduits de {3} %.",
         "name": "Mélodie de la nature verte",
         "transcendence": {
@@ -4504,11 +4504,11 @@
         }
       },
       "s2": {
-        "books": [
-          "Augmente de {1} % la Récupération des PM.",
-          "Augmente de {1} % la Récupération des PM.",
-          "Augmente de {1} % la Récupération des PM."
-        ],
+        "books": {
+          "1": "Augmente de {1} % la Récupération des PM.",
+          "2": "Augmente de {1} % la Récupération des PM.",
+          "3": "Augmente de {1} % la Récupération des PM."
+        },
         "description": "Permet à tous les alliés de récupérer en 8 fois un total de {1} PM et soigne également {2} PV de la cible ayant le max de PM. Pendant la durée de la compétence, la durée des Contrôles est réduite de {3} %. Lorsque utilisé avec 3 charges de Transe, la Récupération de PM de la compétence ainsi que ses Soins sont augmentés de 50% et tous les alliés deviennent immunisés aux Contrôles.",
         "name": "Chant du vent bleu",
         "transcendence": {
@@ -4517,11 +4517,11 @@
         }
       },
       "s3": {
-        "books": [
-          "Augmentation de l'ATQ boostée de {1} %.",
-          "Augmentation de l'ATQ boostée de {1} %.",
-          "Augmentation de l'ATQ boostée de {1} %."
-        ],
+        "books": {
+          "1": "Augmentation de l'ATQ boostée de {1} %.",
+          "2": "Augmentation de l'ATQ boostée de {1} %.",
+          "3": "Augmentation de l'ATQ boostée de {1} %."
+        },
         "description": "Inflige un total de {1} points de DEG M. à tous les ennemis en 8 fois. Pendant la durée de la compétence, l'ATQ de tous les alliés est augmentée de {2} . Lorsque utilisé avec 3 charges de Transe, les DEG et le boost d'ATQ de la compétence sont augmentés de 100% et toutes les améliorations sur les ennemis sont dissipées continuellement.",
         "name": "Danse de la passion rouge",
         "transcendence": {
@@ -4530,11 +4530,11 @@
         }
       },
       "s4": {
-        "books": [
-          "Taux de Récupération augmenté de {1} %.",
-          "Taux de Récupération augmenté de {1} %.",
-          "Taux de Récupération augmenté de {1} %."
-        ],
+        "books": {
+          "1": "Taux de Récupération augmenté de {1} %.",
+          "2": "Taux de Récupération augmenté de {1} %.",
+          "3": "Taux de Récupération augmenté de {1} %."
+        },
         "description": "À la fin de la compétence, 1 charge de Transe est générée. Transe est cumulable 3 fois et si la compétence est utilisée avec 3 charges de Transe, les charges sont consommées pour soigner {1} PV à tous les alliés. Transe ne peut pas être dissipé.",
         "name": "Transe",
         "transcendence": {
@@ -4574,11 +4574,11 @@
       "description": "Un Gobelin blanc, compétent en ingénieurie mécanique, il utilise un canon à main pour infliger des dégâts explosifs, il harcèle ses ennemis avec de projectiles spéciaux et leur inflige des dégâts souvent fatals.",
       "name": "Lakrak",
       "s1": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les DEG de {1} %."
+        },
         "description": "Inflige {1} points de DEG P. aux ennemis à portée et les renverse.",
         "name": "Tir Rapide",
         "transcendence": {
@@ -4587,11 +4587,11 @@
         }
       },
       "s2": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Inflige des DEG à l'ennemi et applique Étourdissement pendant 1 sec."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Inflige des DEG à l'ennemi et applique Étourdissement pendant 1 sec."
+        },
         "description": "Inflige {1} points de DEG P. aux ennemis à portée et applique Aveuglement pendant 4 sec.",
         "name": "Bombe Fumigène",
         "transcendence": {
@@ -4600,11 +4600,11 @@
         }
       },
       "s3": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les DEG de {1} %."
+        },
         "description": "Attache une Bombe de Colle qui explose après {1} sec sur un ennemi aléatoire. L'explosion inflige aux ennemis à portée un maximum de {2} points de DEG P. proportionnellement à leurs PV actuels et applique Étourdissement pendant 3 sec. Lorsque la Bombe de Colle est attachée, la cible est affectée par Étourdissement pendant 2 sec.",
         "name": "Bombe de Colle",
         "transcendence": {
@@ -4613,11 +4613,11 @@
         }
       },
       "s4": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les DEG de {1} %."
+        },
         "description": "Les attaques auto ont 15% de chances de lancer une bombe qui inflige {2} points de DEG P. aux cibles à portée tout en appliquant Étourdissement pendant 2 sec.",
         "name": "Charge de Canon",
         "transcendence": {
@@ -4657,11 +4657,11 @@
       "description": "Depuis longtemps chef de la tribu des orcs Vent-du-Ciel, il utilise des attaques élémentaires alimentées par le ciel et les vents. Ses puissantes boules de foudre paralysent ses ennemis, pendant qu'il soigne et bénit ses alliés grâce au vent.",
       "name": "Kaulah",
       "s1": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les Chances de Crit de {1} ."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les Chances de Crit de {1} ."
+        },
         "description": "Abat 5 éclairs sur des ennemis aléatoires et inflige {1} points de DEG M. Provoque également une électrocution des ennemis. Lorsqu'ils sont touchés en ayant cet effet, ils subissent un Étourdissement pendant {2} sec.",
         "name": "Éclair",
         "transcendence": {
@@ -4670,11 +4670,11 @@
         }
       },
       "s2": {
-        "books": [
-          "Augmente la Récupération de {1} %.",
-          "Augmente la Récupération de {1} %.",
-          "Pendant l'incantation, gagne une immunité à tous les effets et améliore la réduction des DEG de {1} ."
-        ],
+        "books": {
+          "1": "Augmente la Récupération de {1} %.",
+          "2": "Augmente la Récupération de {1} %.",
+          "3": "Pendant l'incantation, gagne une immunité à tous les effets et améliore la réduction des DEG de {1} ."
+        },
         "description": "Rend {2} PV à tous les alliés pendant {1} sec.",
         "name": "Pluie de Soin",
         "transcendence": {
@@ -4683,11 +4683,11 @@
         }
       },
       "s3": {
-        "books": [
-          "Le taux de récupération d'ATQ augmente de {1} %.",
-          "Le taux de récupération d'ATQ augmente de {1} %.",
-          "Pour la durée de la compétence, le taux de Crit. est augmenté de {1} ."
-        ],
+        "books": {
+          "1": "Le taux de récupération d'ATQ augmente de {1} %.",
+          "2": "Le taux de récupération d'ATQ augmente de {1} %.",
+          "3": "Pour la durée de la compétence, le taux de Crit. est augmenté de {1} ."
+        },
         "description": "Pendant {1} sec, augmente l'ATQ de {2} et la Vitesse d'ATQ de {3} pour tous les alliés.",
         "name": "Vent Rapide",
         "transcendence": {
@@ -4696,11 +4696,11 @@
         }
       },
       "s4": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Lors d'un coup critique, les ennemis touchés subissent un Étourdissement pendant {1} sec."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Lors d'un coup critique, les ennemis touchés subissent un Étourdissement pendant {1} sec."
+        },
         "description": "Toutes les {1} sec, inflige {2} points de DEG M. à 4 ennemis et les électrifie pendant {3} sec.",
         "name": "Chaine d'Éclair",
         "transcendence": {
@@ -4740,11 +4740,11 @@
       "description": "Une démone hédoniste à sang froid. En utilisant une faux gigantesque, elle récolte les âmes de ses ennemis. Elle apparaît soudainement au milieu d'eux, tranchant tout autour d'elle.",
       "name": "Epis",
       "s1": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les DEG de {1} %."
+        },
         "description": "Se déplace derrière l'ennemi le plus éloigné et inflige {1} points de DEG M. Applique également un effet négatif qui augmente de 30% tous les dégâts qu'ils reçoivent pendant 10 sec.",
         "name": "Cauchemar",
         "transcendence": {
@@ -4753,11 +4753,11 @@
         }
       },
       "s2": {
-        "books": [
-          "Le taux de récupération de l'ATQ est augmenté de {1} %.",
-          "Le taux de récupération de l'ATQ est augmenté de {1} %.",
-          "Récupération de 1 orbe de mana pour chaque ennemi tué."
-        ],
+        "books": {
+          "1": "Le taux de récupération de l'ATQ est augmenté de {1} %.",
+          "2": "Le taux de récupération de l'ATQ est augmenté de {1} %.",
+          "3": "Récupération de 1 orbe de mana pour chaque ennemi tué."
+        },
         "description": "Lorsqu'un ennemi est tué par ce héros, l'ATK est augmentée de {2} pendant {1} sec et tous les temps de recharges de toutes les compétences sont réduits de 30%.",
         "name": "Moisson",
         "transcendence": {
@@ -4766,11 +4766,11 @@
         }
       },
       "s3": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Lors d'un Coup Critique, soigne le héros pour {1} % des DEG."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Lors d'un Coup Critique, soigne le héros pour {1} % des DEG."
+        },
         "description": "Inflige {1} points de DEG M. à tous les ennemis à portée. Tous les sorts de contrôle (CC) sont résistés pendant l'utilisation de cette compétence.",
         "name": "Bal du Diable",
         "transcendence": {
@@ -4779,11 +4779,11 @@
         }
       },
       "s4": {
-        "books": [
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %.",
-          "Augmente les DEG de {1} %."
-        ],
+        "books": {
+          "1": "Augmente les DEG de {1} %.",
+          "2": "Augmente les DEG de {1} %.",
+          "3": "Augmente les DEG de {1} %."
+        },
         "description": "Inflige {1} points de DEG M. en ignorant la défense de l'ennemi et rend {2} % des DEG infligés sous forme de PV.",
         "name": "Vol de Vie",
         "transcendence": {
@@ -4823,11 +4823,11 @@
       "description": "La brillante fille qui dirige la Boutique Générale de la capitale d'Orvel. Impossible de ne pas aimer cette fille énergique et positive. Elle a toutes sortes d'objets utiles dans son panier qui pourront aider ses alliés.",
       "name": "May",
       "s1": {
-        "books": [
-          "ATQ augmentée de {1} %.",
-          "ATQ augmentée de {1} %.",
-          "ATQ augmentée de {1} %."
-        ],
+        "books": {
+          "1": "ATQ augmentée de {1} %.",
+          "2": "ATQ augmentée de {1} %.",
+          "3": "ATQ augmentée de {1} %."
+        },
         "description": "Augmente l'ATQ de tous les alliés de {1} pendant 60 sec et donne aléatoirement un des effets suivants: 1. Pénétration + {2} , 2. Vit ATQ + {3} , 3. Mana + {4} . Tous les effets, sauf la récupération de Mana, sont cumulables 5 fois.",
         "name": "Prenez tout!",
         "transcendence": {
@@ -4836,11 +4836,11 @@
         }
       },
       "s2": {
-        "books": [
-          "Taux de Récupération augmenté de {1} %.",
-          "Taux de Récupération augmenté de {1} %.",
-          "Taux de Récupération augmenté de {1} %."
-        ],
+        "books": {
+          "1": "Taux de Récupération augmenté de {1} %.",
+          "2": "Taux de Récupération augmenté de {1} %.",
+          "3": "Taux de Récupération augmenté de {1} %."
+        },
         "description": "Tous les alliés sont soignés de {1} PV, et récupèrent {2} % de leurs PV maximum chaque seconde, pendant 10 sec. Les effets ont 10% de chances soient doublés.",
         "name": "Courage!",
         "transcendence": {
@@ -4849,11 +4849,11 @@
         }
       },
       "s3": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "DEG augmentés de {1} %."
+        },
         "description": "Attaque à 3 reprises une cible aléatoire et les autres ennemis à portée, inflige {1} points de DEG M. et applique Étourdissement pendant 4 sec. Il y a 10% de chances que la portée de la compétence, ses DEG et la durée de son Étourdissement soient doublés.",
         "name": "Pas à vendre!",
         "transcendence": {
@@ -4862,11 +4862,11 @@
         }
       },
       "s4": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "DEG augmentés de {1} %."
+        },
         "description": "Inflige {1} points de DEG M. à 4 ennemis aléatoires, toutes les 15 sec, et inflige aléatoirement un des effets suivants: 1. DEG M. constants de {2} (10 sec), 2. Étourdissement (2 sec), 3. Gel (5 sec).",
         "name": "Prenez ça!",
         "transcendence": {
@@ -4906,11 +4906,11 @@
       "description": "L'homme qui a conquis l'Arène d'Orvel.  Les gens avaient peur de lui à cause de ses prouesses pendant les battailles et ont commencé à l'appeler la Bête de l'Arène.  Son incroyable technique de combat détruit ses ennemis en quelques fractions de secondes.",
       "name": "Gladi",
       "s1": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "DEG augmentés de {1} %."
+        },
         "description": "Frappe la cible à 7 reprises, infligeant un total de {1} poitns de DEG P. Le dernier coup augmente les DEG P. reçus par la cible de {2} % pendant 10 sec.",
         "name": "Frappes Rapides",
         "transcendence": {
@@ -4919,11 +4919,11 @@
         }
       },
       "s2": {
-        "books": [
-          "Les boosts d'ATQ et de DEG sont augmentés de {1} %.",
-          "Les boosts d'ATQ et de DEG sont augmentés de {1} %.",
-          "Les boosts d'ATQ et de DEG sont augmentés de {1} %."
-        ],
+        "books": {
+          "1": "Les boosts d'ATQ et de DEG sont augmentés de {1} %.",
+          "2": "Les boosts d'ATQ et de DEG sont augmentés de {1} %.",
+          "3": "Les boosts d'ATQ et de DEG sont augmentés de {1} %."
+        },
         "description": "Dissipe les effets négatifs sur le Héros, inflige {1} points de DEG P. à courte portée et donne l'amélioration 'Dieu de la Guerre' pendant 10 sec. Celle-ci augmente l'ATQ de {2} et donne à toutes les attaques auto 30% de chances d'échanger 5% de mana contre {3} points de DEG P. supplémentaires. Subir des DEG M. permet d'esquiver les DEG M. pendant 1 sec (activable 1 fois toutes les 2 sec).",
         "name": "Avènement du Dieu de la Guerre",
         "transcendence": {
@@ -4932,11 +4932,11 @@
         }
       },
       "s3": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "DEG augmentés de {1} %."
+        },
         "description": "Le Héros se charge d'énergie et sprinte frontalement vers les ennemis, inflige {1} points de DEG P. aux ennemis à portée et applique Étourdissement pendant 3 sec. Si la cible est un Boss, les attaques ignorent la DEF de la cible.",
         "name": "Coup de poing ultime!",
         "transcendence": {
@@ -4945,11 +4945,11 @@
         }
       },
       "s4": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "DEG augmentés de {1} %."
+        },
         "description": "Chaque fois que Gladi touche une cible unique avec 5 attaques auto, il inflige {1} points de DEG supplémentaires qui ignorent la DEF.",
         "name": "Ça va faire mal!",
         "transcendence": {
@@ -4989,11 +4989,11 @@
       "description": "C'est le génie de la Tour des Sages qui a rétabli la formule de la magie runique.  Elle est actuellement la trésorière d'Orvel et l'officier des chefs de guilde, elle dirige donc toutes les guildes. Sa capacité d'analyse et sa magie runique en font le cauchemar de ses ennemis.",
       "name": "Veronica",
       "s1": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "DEG augmentés de {1} %."
+        },
         "description": "Inflige {1} points de DEG M à la cible et aux ennemis à portée et les étourdit pendant {2} s.",
         "name": "Ça va piquer un peu !",
         "transcendence": {
@@ -5002,11 +5002,11 @@
         }
       },
       "s2": {
-        "books": [
-          "ATQ augmentée de {1} %.",
-          "ATQ augmentée de {1} %.",
-          "ATQ augmentée de {1} %."
-        ],
+        "books": {
+          "1": "ATQ augmentée de {1} %.",
+          "2": "ATQ augmentée de {1} %.",
+          "3": "ATQ augmentée de {1} %."
+        },
         "description": "Accorde une Rune à tous les alliés pour augmenter leur ATQ de {1} et tous les DEG aux boss de 15 % pendant 10 sec.",
         "name": "Je vais vous aider.",
         "transcendence": {
@@ -5015,11 +5015,11 @@
         }
       },
       "s3": {
-        "books": [
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %.",
-          "DEG augmentés de {1} %."
-        ],
+        "books": {
+          "1": "DEG augmentés de {1} %.",
+          "2": "DEG augmentés de {1} %.",
+          "3": "DEG augmentés de {1} %."
+        },
         "description": "Attaque 2 fois la cible et les ennemis dans une large zone environnante pour infliger {1} DEG M, les renverse pendant 5 sec. et augmente les DEG M des ennemis affectés de 30 % pendant 10 sec.",
         "name": "Hors de ma vue !",
         "transcendence": {
@@ -5028,12 +5028,12 @@
         }
       },
       "s4": {
-        "books": [
-          "ATQ augmentée de {1} %.",
-          "ATQ augmentée de {1} %.",
-          "ATQ augmentée de {1} %."
-        ],
-        "description": "L'ATQ de tous les alliés est augmentée de {1} et lors de la 3ème utilisation de la compétence, le Héros obtient instantanément Connaissance du Meilleur Financier. Pour chaque charge de Connaissance du Meilleur Financier, l'ATQ du Héros augmente de 30% et les effets de toutes les compétences sont augmentés de 10% chacun. Connaissance du Meilleur Financier est cumulable 5 fois et ne peut pas être dissipé.",
+        "books": {
+          "1": "ATQ augmentée de {1} %.",
+          "2": "ATQ augmentée de {1} %.",
+          "3": "ATQ augmentée de {1} %."
+        },
+        "description": "L'ATQ de tous les alliés est augmentée de {1} et lors de la 3ème utilisation de la compétence, le Héros obtient instantanément Connaissance du Meilleur Financier. Pour chaque charge de Connaissance du Meilleur Financier, DAN Crít. du Héros augmente de 30% et les effets de toutes les compétences sont augmentés de 10% chacun. Connaissance du Meilleur Financier est cumulable 5 fois et ne peut pas être dissipé.",
         "name": "Connaissance Ultime du Trésorier",
         "transcendence": {
           "dark": "Augmente l'ATQ des alliés soignés de 50 % pendant 10 sec.",
