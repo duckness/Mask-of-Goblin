@@ -4,6 +4,7 @@
       <div class="navbar-item">
         <logo/>
       </div>
+      <lang/>
       <div :class="{ 'is-active':isActive }" class="navbar-burger burger" @click="isActive = !isActive">
         <span/>
         <span/>
@@ -29,11 +30,13 @@
 <script>
 
 import Logo from '@/components/svg/Logo.vue'
+import NavLang from './NavLang.vue'
 import NavSearch from './NavSearch.vue'
 
 export default {
   components: {
     'logo': Logo,
+    'lang': NavLang,
     'search': NavSearch
   },
   data () {

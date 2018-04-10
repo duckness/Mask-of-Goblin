@@ -8,16 +8,56 @@ import axios from 'axios'
 Vue.use(Vuex)
 
 const lang = {
-  'en': require('./i18n/English.json'),
-  'fr': '/static/i18n/French.json',
-  'de': '/static/i18n/German.json',
-  'ja': '/static/i18n/Japanese.json',
-  'ko': '/static/i18n/Korean.json',
-  'pt': '/static/i18n/Portuguese.json',
-  'ru': '/static/i18n/Russian.json',
-  'es': '/static/i18n/Spanish.json',
-  'th': '/static/i18n/Thai.json',
-  'vi': '/static/i18n/Vietnamese.json'
+  'en': {
+    'location': './i18n/English.json',
+    'strings': require('./i18n/English.json'),
+    'loaded': true
+  },
+  'fr': {
+    'location': '/static/i18n/French.json',
+    'strings': null,
+    'loaded': false
+  },
+  'de': {
+    'location': '/static/i18n/German.json',
+    'strings': null,
+    'loaded': false
+  },
+  'ja': {
+    'location': '/static/i18n/Japanese.json',
+    'strings': null,
+    'loaded': false
+  },
+  'ko': {
+    'location': '/static/i18n/Korean.json',
+    'strings': null,
+    'loaded': false
+  },
+  'pt': {
+    'location': '/static/i18n/Portuguese.json',
+    'strings': null,
+    'loaded': false
+  },
+  'ru': {
+    'location': '/static/i18n/Russian.json',
+    'strings': null,
+    'loaded': false
+  },
+  'es': {
+    'location': '/static/i18n/Spanish.json',
+    'strings': null,
+    'loaded': false
+  },
+  'th': {
+    'location': '/static/i18n/Thai.json',
+    'strings': null,
+    'loaded': false
+  },
+  'vi': {
+    'location': '/static/i18n/Vietnamese.json',
+    'strings': null,
+    'loaded': false
+  }
 }
 
 const state = {
@@ -32,15 +72,15 @@ const state = {
 const getters = {
   getArtifactList: function () {
     var artifacts = {}
-    for (var artifact in lang[state.locale]['artifact']) {
-      artifacts[lang[state.locale]['artifact'][artifact]['name']] = artifact
+    for (var artifact in lang[state.locale].strings['artifact']) {
+      artifacts[lang[state.locale].strings['artifact'][artifact]['name']] = artifact
     }
     return artifacts
   },
   getHeroList: function () {
     var heroes = {}
-    for (var hero in lang[state.locale]['hero']) {
-      heroes[lang[state.locale]['hero'][hero]['name']] = hero
+    for (var hero in lang[state.locale].strings['hero']) {
+      heroes[lang[state.locale].strings['hero'][hero]['name']] = hero
     }
     return heroes
   },
@@ -57,15 +97,15 @@ const getters = {
       'image': require('@/components/hero/images/' + state.heroID + '/hero.png'),
       'name': Vue.i18n.translate(prefix + '.name'),
       'subtitle': Vue.i18n.translate(prefix + '.subtitle'),
-      'class': Vue.i18n.translate('ui.' + helpers.getClass()),
+      'class': Vue.i18n.translate('ui.' + h.getClass()),
       'description': Vue.i18n.translate(prefix + '.description'),
       't5': {
         'light': Vue.i18n.translate(prefix + '.t5.light'),
         'dark': Vue.i18n.translate(prefix + '.t5.dark')
       },
       'attributes': {
-        'image': require('@/components/hero/images/classes/' + helpers.getClass() + '.png'),
-        'stats': helpers.getClassStats().attributes
+        'image': require('@/components/hero/images/classes/' + h.getClass() + '.png'),
+        'stats': h.getClassStats().attributes
       },
       'treasure': {
         'image': require('@/components/hero/images/' + state.heroID + '/UT.png'),
@@ -77,17 +117,17 @@ const getters = {
         'name': Vue.i18n.translate(prefix + '.weapon.name'),
         'description': Vue.i18n.translate(prefix + '.weapon.description')
       },
-      's1': helpers.getSkill(prefix + '.s1', 's1'),
-      's2': helpers.getSkill(prefix + '.s2', 's2'),
-      's3': helpers.getSkill(prefix + '.s3', 's3'),
-      's4': helpers.getSkill(prefix + '.s4', 's4')
+      's1': h.getSkill(prefix + '.s1', 's1'),
+      's2': h.getSkill(prefix + '.s2', 's2'),
+      's3': h.getSkill(prefix + '.s3', 's3'),
+      's4': h.getSkill(prefix + '.s4', 's4')
     }
   },
   getUAtk: function () {
-    return helpers.getUnique(helpers.getClassStats().uatk)
+    return h.getUnique(h.getClassStats().uatk)
   },
   getUHP: function () {
-    return helpers.getUnique(11500)
+    return h.getUnique(11500)
   }
 }
 
@@ -102,22 +142,26 @@ const mutations = {
   setHeroID: function (state, newID) {
     state.heroID = newID
   },
+  setLocale: function (state, locale) {
+    h.changeLocale(locale)
+    Vue.i18n.set(locale)
+  },
   starChange: function (state, newStar) {
     state.star = Number(newStar)
   },
   levelChange: function (state, newlevel) {
     // need to set the value twice to ensure the input value is refreshed
     state.level = Number(newlevel)
-    state.level = helpers.levelValidation(newlevel)
+    state.level = h.levelValidation(newlevel)
   }
 }
 
-const helpers = {
+const h = {
   getClass: function () {
     return state.data.hero[state.heroID].class
   },
   getClassStats: function () {
-    return state.data.class[helpers.getClass()]
+    return state.data.class[h.getClass()]
   },
   getSkill: function (prefix, skillNum) {
     return {
@@ -143,11 +187,26 @@ const helpers = {
     level = Number(level)
     var minLevel = 0
     var maxLevel = 80
-    var newLevel = helpers.numberWithinBounds(minLevel, maxLevel, level)
+    var newLevel = h.numberWithinBounds(minLevel, maxLevel, level)
     return newLevel
   },
   numberWithinBounds: function (min, max, number) {
     return number < min ? min : (number > max ? max : number)
+  },
+  changeLocale: function (locale) {
+    if (!lang[locale].loaded) {
+      lang[locale].loaded = true
+      return new Promise((resolve, reject) => {
+        axios.get(lang[locale].location)
+          .then((result) => {
+            resolve(
+              lang[locale].strings = result.data,
+              Vue.i18n.add(locale, result.data),
+              state.locale = locale
+            )
+          })
+      })
+    }
   }
 }
 
@@ -162,28 +221,15 @@ const store = new Vuex.Store({
 
 // only ask for translation ONCE from the server as all the strings are in a single JSON
 // would otherwise FLOOD the server with requests for the JSON
-var isFetched = false
 
 Vue.use(vuexI18n.plugin, store, {
   moduleName: 'i18n',
   onTranslationNotFound (locale, key) {
-    if (!isFetched) {
-      isFetched = true
-      return new Promise((resolve, reject) => {
-        axios.get(lang[locale])
-          .then((result) => {
-            resolve(
-              lang[locale] = result.data,
-              Vue.i18n.add(locale, result.data),
-              state.locale = locale
-            )
-          })
-      })
-    }
+    return h.changeLocale(locale)
   }
 })
 
-Vue.i18n.add('en', lang.en)
+Vue.i18n.add('en', lang.en.strings)
 
 Vue.i18n.set(navigator.language.split('-')[0])
 Vue.i18n.fallback('en')
