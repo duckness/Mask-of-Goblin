@@ -1,7 +1,7 @@
 <template>
   <b-dropdown v-model="locale">
     <a slot="trigger" class="navbar-item">
-      <b-icon icon="language"/>
+      {{ locale }}
       <b-icon icon="angle-down"/>
     </a>
     <b-dropdown-item v-for="language in languages" :key="language.id" :value="language">
