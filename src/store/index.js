@@ -145,6 +145,7 @@ const mutations = {
   setLocale: function (state, locale) {
     h.changeLocale(locale)
     Vue.i18n.set(locale)
+    state.locale = locale
   },
   starChange: function (state, newStar) {
     state.star = Number(newStar)
