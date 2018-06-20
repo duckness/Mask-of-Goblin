@@ -24,10 +24,19 @@
               <td>Acc</td><td>{{ acc.X2 }}</td><td>{{ actualStat(acc) }}%</td>
             </tr>
             <tr>
-              <td>Dodge, Block, Crit Resist, Lifesteal</td><td>{{ dodge.X2 }}</td><td>{{ actualStat(dodge) }}%</td>
+              <td>CC Acc</td><td>{{ ccacc.X2 }}</td><td>{{ actualStat(ccacc) }}%</td>
             </tr>
             <tr>
-              <td>Penetration, CC Resist, Tough</td><td>{{ pen.X2 }}</td><td>{{ actualStat(pen) }}%</td>
+              <td>Crit Resist</td><td>{{ critresist.X2 }}</td><td>{{ actualStat(critresist) }}%</td>
+            </tr>
+            <tr>
+              <td>CC Resist</td><td>{{ ccresist.X2 }}</td><td>{{ actualStat(ccresist) }}%</td>
+            </tr>
+            <tr>
+              <td>Dodge, Block, Lifesteal</td><td>{{ dodge.X2 }}</td><td>{{ actualStat(dodge) }}%</td>
+            </tr>
+            <tr>
+              <td>Penetration, Tough</td><td>{{ pen.X2 }}</td><td>{{ actualStat(pen) }}%</td>
             </tr>
             <tr>
               <td>Attack Spd</td><td>{{ aspd.X2 }}</td><td>{{ actualStat(aspd) }}%</td>
@@ -82,9 +91,25 @@ export default {
         A2: 500,
         B2: 750,
         MinK: -920,
-        X3: -3,
+        X3: -2,
         A3: 3,
         B3: -938,
+        X4: 1,
+        A4: 0,
+        B4: 0
+      },
+      ccacc: {
+        MaxK: 900,
+        X1: 900,
+        A1: 1000000,
+        B1: 1000000,
+        X2: 450,
+        A2: 1000,
+        B2: 0,
+        MinK: 0,
+        X3: -500,
+        A3: 0,
+        B3: 0,
         X4: 0,
         A4: 0,
         B4: 0
@@ -97,6 +122,38 @@ export default {
         X2: 500,
         A2: 500,
         B2: 250,
+        MinK: 0,
+        X3: -500,
+        A3: 0,
+        B3: 0,
+        X4: 0,
+        A4: 0,
+        B4: 0
+      },
+      critresist: {
+        MaxK: 2000,
+        X1: 2000,
+        A1: 1,
+        B1: -500,
+        X2: 1000,
+        A2: 500,
+        B2: 500,
+        MinK: 0,
+        X3: -500,
+        A3: 0,
+        B3: 0,
+        X4: 0,
+        A4: 0,
+        B4: 0
+      },
+      ccresist: {
+        MaxK: 1000,
+        X1: 1000,
+        A1: 1000000,
+        B1: 1000000,
+        X2: 500,
+        A2: 1000,
+        B2: 0,
         MinK: 0,
         X3: -500,
         A3: 0,
@@ -123,12 +180,12 @@ export default {
       },
       aspd: {
         MaxK: 2500,
-        X1: 3000,
+        X1: 2400,
         A1: 1,
-        B1: 843,
-        X2: 1750,
-        A2: 333,
-        B2: 1166,
+        B1: -733,
+        X2: 1600,
+        A2: 500,
+        B2: 800,
         MinK: 250,
         X3: -10000,
         A3: 0,
