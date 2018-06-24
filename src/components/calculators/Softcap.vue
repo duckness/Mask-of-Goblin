@@ -24,13 +24,13 @@
               <td>Acc</td><td>{{ acc.X2 }}</td><td>{{ actualStat(acc) }}%</td>
             </tr>
             <tr>
-              <td>CC Acc</td><td>{{ ccacc.X2 }}</td><td>{{ actualStat(ccacc) }}%</td>
+              <td>CC Acc</td><td>{{ ccacc.X1 }}</td><td>{{ actualStat(ccacc) }}%</td>
             </tr>
             <tr>
               <td>Crit Resist</td><td>{{ critresist.X2 }}</td><td>{{ actualStat(critresist) }}%</td>
             </tr>
             <tr>
-              <td>CC Resist</td><td>{{ ccresist.X2 }}</td><td>{{ actualStat(ccresist) }}%</td>
+              <td>CC Resist</td><td>{{ ccresist.X1 }}</td><td>{{ actualStat(ccresist) }}%</td>
             </tr>
             <tr>
               <td>Dodge, Block, Lifesteal</td><td>{{ dodge.X2 }}</td><td>{{ actualStat(dodge) }}%</td>
