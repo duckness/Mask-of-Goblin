@@ -13,18 +13,17 @@
 </template>
 
 <script>
-
-import 'vue-awesome/icons/angle-right'
+import "vue-awesome/icons/angle-right";
 
 export default {
-  name: 'Collapsed',
+  name: "Collapsed",
   props: {
-    'title': {
+    title: {
       type: String,
-      default: 'content'
+      default: "content"
     }
   }
-}
+};
 </script>
 
 <style lang="scss">
@@ -34,12 +33,13 @@ export default {
     max-width: unset;
     margin-left: -1.25rem;
     margin-right: -1.25rem;
-    box-shadow: 0 0 0 1px hsla(0,0%,4%,.1), -1px 0 0 0 hsla(0, 0%, 96%, 1), 1px 0 0 0 hsla(0, 0%, 96%, 1);
+    box-shadow: 0 0 0 1px hsla(0, 0%, 4%, 0.1), -1px 0 0 0 hsla(0, 0%, 96%, 1),
+      1px 0 0 0 hsla(0, 0%, 96%, 1);
     &.is-last {
       margin-bottom: 1.25rem;
     }
     .card-header-icon {
-      transition: transform .200s ease;
+      transition: transform 0.2s ease;
       &.is-active {
         transform: rotate(90deg);
       }

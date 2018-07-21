@@ -6,14 +6,14 @@
 </template>
 
 <script>
-import Description from './Description.vue'
-import Options from './Options.vue'
+import Description from "./Description.vue";
+import Options from "./Options.vue";
 
 export default {
-  name: 'Artifact',
+  name: "Artifact",
   components: {
-    'description': Description,
-    'options': Options
+    description: Description,
+    options: Options
   }
-}
+};
 </script>

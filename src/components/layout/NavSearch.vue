@@ -12,65 +12,61 @@
 </template>
 
 <script>
-
-import { mapGetters } from 'vuex'
+import { mapGetters } from "vuex";
 
 export default {
-  name: 'NavSearch',
-  data () {
+  name: "NavSearch",
+  data() {
     return {
-      name: ''
-    }
+      name: ""
+    };
   },
   computed: {
-    ...mapGetters([
-      'getArtifactList',
-      'getHeroList'
-    ]),
+    ...mapGetters(["getArtifactList", "getHeroList"]),
     itemID: {
-      get () {
+      get() {
         switch (this.$route.name) {
-          case '':
-          case 'hero':
-            return this.$store.state.heroID
-          case 'artifact':
-            return this.$store.state.artifactID
+          case "":
+          case "hero":
+            return this.$store.state.heroID;
+          case "artifact":
+            return this.$store.state.artifactID;
         }
       },
-      set (newID) {
+      set(newID) {
         if (newID !== null) {
           switch (this.$route.name) {
-            case 'hero':
-              this.$store.commit('setHeroID', this.getHeroList[newID])
-              break
-            case 'artifact':
-              this.$store.commit('setArtifactID', this.getArtifactList[newID])
-              break
+            case "hero":
+              this.$store.commit("setHeroID", this.getHeroList[newID]);
+              break;
+            case "artifact":
+              this.$store.commit("setArtifactID", this.getArtifactList[newID]);
+              break;
           }
         }
       }
     },
-    itemList: function () {
+    itemList: function() {
       switch (this.$route.name) {
-        case 'hero':
-          return Object.keys(this.getHeroList).sort()
-        case 'artifact':
-          return Object.keys(this.getArtifactList).sort()
+        case "hero":
+          return Object.keys(this.getHeroList).sort();
+        case "artifact":
+          return Object.keys(this.getArtifactList).sort();
       }
     },
-    getPlaceholder: function () {
-      return this.itemList[0]
+    getPlaceholder: function() {
+      return this.itemList[0];
     },
-    filteredDataArray: function () {
+    filteredDataArray: function() {
       return this.itemList.filter(option => {
         return (
           option
             .toString()
             .toLowerCase()
             .indexOf(this.name.toLowerCase()) >= 0
-        )
-      })
+        );
+      });
     }
   }
-}
+};
 </script>

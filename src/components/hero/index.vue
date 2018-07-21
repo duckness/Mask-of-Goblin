@@ -13,35 +13,33 @@
 </template>
 
 <script>
-
-import { mapGetters } from 'vuex'
-import HeroDesc from './HeroDesc.vue'
-import Collapsed from './Collapsed.vue'
-import Attributes from './Attributes.vue'
-import Skill from './Skill.vue'
-import Treasure from './Treasure.vue'
-import Weapon from './Weapon.vue'
-import Options from './Options.vue'
+import { mapGetters } from "vuex";
+import HeroDesc from "./HeroDesc.vue";
+import Collapsed from "./Collapsed.vue";
+import Attributes from "./Attributes.vue";
+import Skill from "./Skill.vue";
+import Treasure from "./Treasure.vue";
+import Weapon from "./Weapon.vue";
+import Options from "./Options.vue";
 
 export default {
-  name: 'Hero',
+  name: "Hero",
   components: {
-    'herodesc': HeroDesc,
-    'collapsed': Collapsed,
-    'attributes': Attributes,
-    'skill': Skill,
-    'treasure': Treasure,
-    'weapon': Weapon,
-    'options': Options
+    herodesc: HeroDesc,
+    collapsed: Collapsed,
+    attributes: Attributes,
+    skill: Skill,
+    treasure: Treasure,
+    weapon: Weapon,
+    options: Options
   },
   computed: {
     ...mapGetters({
-      hero: 'getHero'
+      hero: "getHero"
     })
   }
-}
+};
 </script>
 
 <style>
-
 </style>

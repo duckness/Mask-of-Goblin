@@ -13,12 +13,12 @@
 </template>
 
 <script>
-import 'vue-awesome/icons/brands/github'
-import 'vue-awesome/icons/heart'
+import "vue-awesome/icons/brands/github";
+import "vue-awesome/icons/heart";
 
 export default {
-  name: 'MogFooter'
-}
+  name: "MogFooter"
+};
 </script>
 
 <style scoped>

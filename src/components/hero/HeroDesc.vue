@@ -42,12 +42,12 @@
 
 <script>
 export default {
-  name: 'HeroDesc',
+  name: "HeroDesc",
   props: {
-    'hero': {
+    hero: {
       type: Object,
       required: true
     }
   }
-}
+};
 </script>

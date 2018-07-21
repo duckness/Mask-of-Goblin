@@ -12,35 +12,39 @@
 
 <script>
 export default {
-  data: function () {
+  data: function() {
     return {
       languages: {
-        'en': 'English',
-        'fr': 'French',
-        'de': 'German',
-        'ja': 'Japan',
-        'ko': 'Korean',
-        'pt': 'Portugese',
-        'ru': 'Russian',
-        'es': 'Spanish',
-        'th': 'Thai',
-        'vi': 'Vietnamese'
+        en: "English",
+        fr: "French",
+        de: "German",
+        ja: "Japan",
+        ko: "Korean",
+        pt: "Portugese",
+        ru: "Russian",
+        es: "Spanish",
+        th: "Thai",
+        vi: "Vietnamese"
       }
-    }
+    };
   },
   computed: {
     locale: {
-      get () {
-        return this.languages[this.$store.state.locale]
+      get() {
+        return this.languages[this.$store.state.locale];
       },
-      set (newLocale) {
-        this.$store.commit('setLocale', Object.keys(this.languages).find(key => this.languages[key] === newLocale))
+      set(newLocale) {
+        this.$store.commit(
+          "setLocale",
+          Object.keys(this.languages).find(
+            key => this.languages[key] === newLocale
+          )
+        );
       }
     }
   }
-}
+};
 </script>
 
 <style>
-
 </style>

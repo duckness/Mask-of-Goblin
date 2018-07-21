@@ -77,14 +77,14 @@
 
 <script>
 export default {
-  name: 'Skill',
+  name: "Skill",
   props: {
-    'skill': {
+    skill: {
       type: Object,
       required: true
     }
   }
-}
+};
 </script>
 
 <style>

@@ -17,29 +17,29 @@
 </template>
 
 <script>
-import Navbar from './components/layout/Navbar.vue'
-import MogFooter from './components/layout/MogFooter.vue'
+import Navbar from "./components/layout/Navbar.vue";
+import MogFooter from "./components/layout/MogFooter.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    'navbar': Navbar,
-    'mogfooter': MogFooter
+    navbar: Navbar,
+    mogfooter: MogFooter
   },
-  metaInfo: function () {
+  metaInfo: function() {
     return {
       link: [
-        { rel: 'shortcut icon', type: 'image/png', href: '/static/favicon.png' }
+        { rel: "shortcut icon", type: "image/png", href: "/static/favicon.png" }
       ]
-    }
+    };
   }
-}
+};
 </script>
 
 <style lang="scss">
-@import 'buefy/lib/buefy.css';
-@import '@fortawesome/fontawesome-free-webfonts/css/fontawesome.css';
-@import '@fortawesome/fontawesome-free-webfonts/css/fa-solid.css';
+@import "buefy/lib/buefy.css";
+@import "@fortawesome/fontawesome-free-webfonts/css/fontawesome.css";
+@import "@fortawesome/fontawesome-free-webfonts/css/fa-solid.css";
 
 #app {
   background-color: #f5f5f5;

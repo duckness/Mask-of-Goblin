@@ -20,30 +20,27 @@
 </template>
 
 <script>
-
-import { mapState, mapGetters } from 'vuex'
+import { mapState, mapGetters } from "vuex";
 
 export default {
-  name: 'ArtifactDescription',
-  data () {
+  name: "ArtifactDescription",
+  data() {
     return {
-      additionalInfo: ''
-    }
+      additionalInfo: ""
+    };
   },
   computed: {
-    ...mapState([
-      'star'
-    ]),
+    ...mapState(["star"]),
     ...mapGetters({
-      artifact: 'getArtifact'
+      artifact: "getArtifact"
     })
   }
-}
+};
 </script>
 
 <style>
 #artifact-description {
-    margin-bottom: 1rem;
-    padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
 }
 </style>

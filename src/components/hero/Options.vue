@@ -18,30 +18,29 @@
 </template>
 
 <script>
-
-import StarSelector from '@/components/StarSelector.vue'
+import StarSelector from "@/components/StarSelector.vue";
 
 export default {
-  name: 'HeroOptions',
+  name: "HeroOptions",
   components: {
-    'star-selector': StarSelector
+    "star-selector": StarSelector
   },
   computed: {
     level: {
-      get () {
-        return this.$store.state.level
+      get() {
+        return this.$store.state.level;
       },
-      set (newlevel) {
-        this.$store.commit('levelChange', newlevel)
+      set(newlevel) {
+        this.$store.commit("levelChange", newlevel);
       }
     }
   }
-}
+};
 </script>
 
 <style scoped>
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }

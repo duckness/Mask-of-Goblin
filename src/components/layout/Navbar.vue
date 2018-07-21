@@ -28,25 +28,24 @@
 </template>
 
 <script>
-
-import Logo from '@/components/svg/Logo.vue'
-import NavLang from './NavLang.vue'
-import NavSearch from './NavSearch.vue'
+import Logo from "@/components/svg/Logo.vue";
+import NavLang from "./NavLang.vue";
+import NavSearch from "./NavSearch.vue";
 
 export default {
   components: {
-    'logo': Logo,
-    'lang': NavLang,
-    'search': NavSearch
+    logo: Logo,
+    lang: NavLang,
+    search: NavSearch
   },
-  data () {
+  data() {
     return {
       isActive: false,
-      name: '',
+      name: "",
       selected: null
-    }
+    };
   }
-}
+};
 </script>
 
 <style scoped>

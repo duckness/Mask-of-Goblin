@@ -23,36 +23,33 @@
 </template>
 
 <script>
-
-import { mapState, mapGetters } from 'vuex'
+import { mapState, mapGetters } from "vuex";
 
 export default {
-  name: 'Weapon',
+  name: "Weapon",
   props: {
-    'weapon': {
+    weapon: {
       type: Object,
       required: true
     }
   },
-  data () {
+  data() {
     return {
-      additionalInfo: ''
-    }
+      additionalInfo: ""
+    };
   },
   computed: {
-    ...mapState([
-      'star'
-    ]),
+    ...mapState(["star"]),
     ...mapGetters({
-      attack: 'getUAtk'
+      attack: "getUAtk"
     })
   }
-}
+};
 </script>
 
 <style>
 #uw {
-    margin-bottom: 1rem;
-    padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
 }
 </style>

@@ -34,12 +34,12 @@
 
 <script>
 export default {
-  name: 'Attributes',
+  name: "Attributes",
   props: {
-    'attributes': {
+    attributes: {
       type: Object,
       required: true
     }
   }
-}
+};
 </script>

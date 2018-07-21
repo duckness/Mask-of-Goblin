@@ -23,31 +23,28 @@
 </template>
 
 <script>
-
-import { mapState, mapGetters } from 'vuex'
+import { mapState, mapGetters } from "vuex";
 
 export default {
-  name: 'Treasure',
+  name: "Treasure",
   props: {
-    'treasure': {
+    treasure: {
       type: Object,
       required: true
     }
   },
-  data () {
+  data() {
     return {
-      additionalInfo: ''
-    }
+      additionalInfo: ""
+    };
   },
   computed: {
-    ...mapState([
-      'star'
-    ]),
+    ...mapState(["star"]),
     ...mapGetters({
-      hp: 'getUHP'
+      hp: "getUHP"
     })
   }
-}
+};
 </script>
 
 <style>

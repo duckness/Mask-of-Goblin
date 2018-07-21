@@ -8,13 +8,12 @@
 </template>
 
 <script>
-
-import StarSelector from '@/components/StarSelector.vue'
+import StarSelector from "@/components/StarSelector.vue";
 
 export default {
-  name: 'ArtifactOptions',
+  name: "ArtifactOptions",
   components: {
-    'star-selector': StarSelector
+    "star-selector": StarSelector
   }
-}
+};
 </script>
