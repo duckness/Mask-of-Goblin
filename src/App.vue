@@ -37,9 +37,9 @@ export default {
 </script>
 
 <style lang="scss">
-@import "buefy/lib/buefy.css";
-@import "@fortawesome/fontawesome-free-webfonts/css/fontawesome.css";
-@import "@fortawesome/fontawesome-free-webfonts/css/fa-solid.css";
+@import "~buefy/lib/buefy.css";
+@import "~@fortawesome/fontawesome-free-webfonts/css/fontawesome.css";
+@import "~@fortawesome/fontawesome-free-webfonts/css/fa-solid.css";
 
 #app {
   background-color: #f5f5f5;
