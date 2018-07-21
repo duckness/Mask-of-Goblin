@@ -2,11 +2,13 @@
 
 Information and various utilities for the King's Raid mobile game.
 
+This is the rewrite branch which cleans up cruft and actually completes the site updating.
+
 ## Build Setup
 
 ``` bash
 # install dependencies
-yarn install
+yarn
 
 # serve with hot reload at localhost:8080
 yarn dev
@@ -14,8 +16,9 @@ yarn dev
 # build for production with minification
 yarn build
 
-# test production build (run yarn build first) at localhost:8081 to make sure nothing is funky
-yarn test
-```
+# lint
+yarn lint
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+# test production build (run yarn build first) at localhost:5000 to make sure nothing is funky
+yarn serve
+```
