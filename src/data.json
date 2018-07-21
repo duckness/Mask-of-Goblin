@@ -81,7 +81,17 @@
       70993,
       73521,
       76128,
-      78817
+      78817,
+      80653,
+      82520,
+      84421,
+      86354,
+      88321,
+      90322,
+      92357,
+      94428,
+      96534,
+      98677
     ],
     "star": [
       1000,
@@ -93,300 +103,5996 @@
     ]
   },
   "class": {
-    "archer": {
-      "attributes": {
-        "crit": 150,
-        "acc": 100,
-        "pen": 250
-      },
-      "uatk": 547
-    },
-    "assassin": {
-      "attributes": {
-        "crit": 200,
-        "critdmg": 300,
-        "acc": 100,
-        "pdodge": 200,
-        "mdodge": 200
-      },
-      "uatk": 486
-    },
-    "knight": {
-      "attributes": {
-        "crit": 50,
-        "pblock": 200,
-        "P.Tough": 250,
-        "mtough": 250
-      },
-      "uatk": 390
-    },
-    "mechanic": {
-      "attributes": {
-        "crit": 150,
-        "critdmg": 500,
-        "acc": 200,
-        "pen": 100
-      },
-      "uatk": 499
-    },
-    "priest": {
-      "attributes": {
-        "crit": 100,
-        "acc": 100,
-        "mblock": 500,
-        "mblockdef": 250,
-        "mtough": 150
-      },
-      "uatk": 510
-    },
     "warrior": {
+      "uatk": 442,
       "attributes": {
         "crit": 150,
         "acc": 100,
         "pen": 150,
         "ccresist": 150,
         "pdodge": 100,
-        "mdodge": 100,
-        "ptough": 100,
-        "mtough": 100
-      },
-      "uatk": 442
+        "mdodge": 100
+      }
+    },
+    "priest": {
+      "uatk": 510,
+      "attributes": {
+        "crit": 100,
+        "acc": 100,
+        "mtough": 150,
+        "mblock": 500,
+        "mblockdef": 250
+      }
     },
     "wizard": {
+      "uatk": 510,
       "attributes": {
         "crit": 100,
         "acc": 100,
         "pen": 150,
         "mdodge": 200,
         "mblock": 250
-      },
-      "uatk": 510
+      }
+    },
+    "assassin": {
+      "uatk": 486,
+      "attributes": {
+        "crit": 200,
+        "critpower": 300,
+        "acc": 100,
+        "pdodge": 200,
+        "mdodge": 200
+      }
+    },
+    "knight": {
+      "uatk": 390,
+      "attributes": {
+        "crit": 50,
+        "ptough": 250,
+        "mtough": 250,
+        "pblock": 100,
+        "mblock": 100
+      }
+    },
+    "mechanic": {
+      "uatk": 499,
+      "attributes": {
+        "crit": 150,
+        "critpower": 500,
+        "acc": 200,
+        "pen": 100
+      }
+    },
+    "archer": {
+      "uatk": 547,
+      "attributes": {
+        "crit": 150,
+        "acc": 100,
+        "pen": 250
+      }
     }
   },
   "hero": {
     "1": {
-      "name": "kasel",
-      "class": "warrior"
+      "index": 1,
+      "class": "warrior",
+      "type": "physical",
+      "position": {
+        "Type": "forward",
+        "Weight": 600
+      },
+      "s1": {
+        "description": [
+          "???",
+          2.5
+        ],
+        "mana": 3,
+        "cooldown": 12,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???"
+        ],
+        "mana": 2,
+        "cooldown": 8,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            250
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???",
+          20,
+          "???",
+          250
+        ],
+        "mana": 4,
+        "cooldown": 20,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            250
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???",
+          150
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            250
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "2": {
-      "name": "frey",
-      "class": "priest"
+      "index": 2,
+      "class": "priest",
+      "type": "magical",
+      "position": {
+        "Type": "rear",
+        "Weight": 100
+      },
+      "s1": {
+        "description": [
+          "???"
+        ],
+        "mana": 2,
+        "cooldown": 8,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          null
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          12,
+          "???"
+        ],
+        "mana": 2,
+        "cooldown": 15,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            50
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???",
+          6
+        ],
+        "mana": 3,
+        "cooldown": 22,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            250
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          10,
+          "???"
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            15
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "3": {
-      "name": "cleo",
-      "class": "wizard"
+      "index": 3,
+      "class": "wizard",
+      "type": "magical",
+      "position": {
+        "Type": "middle",
+        "Weight": 200
+      },
+      "s1": {
+        "description": [
+          "???"
+        ],
+        "mana": 2,
+        "cooldown": 8,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???",
+          20
+        ],
+        "mana": 2,
+        "cooldown": 10,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???",
+          20
+        ],
+        "mana": 4,
+        "cooldown": 20,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???"
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          null
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "4": {
-      "name": "roi",
-      "class": "assassin"
+      "index": 4,
+      "class": "assassin",
+      "type": "physical",
+      "position": {
+        "Type": "forward",
+        "Weight": 500
+      },
+      "s1": {
+        "description": [
+          "???"
+        ],
+        "mana": 2,
+        "cooldown": 8,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            50
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          10,
+          "???",
+          "???"
+        ],
+        "mana": 2,
+        "cooldown": 15,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            250
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???",
+          50
+        ],
+        "mana": 3,
+        "cooldown": 20,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            50
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???"
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            50
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "5": {
-      "name": "gau",
-      "class": "warrior"
+      "index": 5,
+      "class": "warrior",
+      "type": "physical",
+      "position": {
+        "Type": "forward",
+        "Weight": 600
+      },
+      "s1": {
+        "description": [
+          "???",
+          3
+        ],
+        "mana": 2,
+        "cooldown": 8,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          15,
+          "???"
+        ],
+        "mana": 2,
+        "cooldown": 15,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???",
+          4
+        ],
+        "mana": 4,
+        "cooldown": 20,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          null
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          5,
+          "???"
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          null
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "6": {
-      "name": "phillop",
-      "class": "knight"
+      "index": 6,
+      "class": "knight",
+      "type": "physical",
+      "position": {
+        "Type": "forward",
+        "Weight": 700
+      },
+      "s1": {
+        "description": [
+          "???",
+          3
+        ],
+        "mana": 3,
+        "cooldown": 12,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            10,
+            50
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???",
+          10,
+          20
+        ],
+        "mana": 2,
+        "cooldown": 8,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          15,
+          "???",
+          15
+        ],
+        "mana": 3,
+        "cooldown": 22,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            250
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          15,
+          "???"
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            10
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "7": {
-      "name": "lakrak",
-      "class": "mechanic"
+      "index": 7,
+      "class": "mechanic",
+      "type": "physical",
+      "position": {
+        "Type": "middle",
+        "Weight": 400
+      },
+      "s1": {
+        "description": [
+          "???"
+        ],
+        "mana": 2,
+        "cooldown": 8,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???"
+        ],
+        "mana": 2,
+        "cooldown": 15,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          null
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          3,
+          "???"
+        ],
+        "mana": 3,
+        "cooldown": 12,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???",
+          "???"
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "8": {
-      "name": "kaulah",
-      "class": "priest"
+      "index": 8,
+      "class": "priest",
+      "type": "magical",
+      "position": {
+        "Type": "rear",
+        "Weight": 100
+      },
+      "s1": {
+        "description": [
+          "???",
+          3
+        ],
+        "mana": 3,
+        "cooldown": 10,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            250
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          5,
+          "???"
+        ],
+        "mana": 2,
+        "cooldown": 11,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            500
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          15,
+          "???",
+          350
+        ],
+        "mana": 4,
+        "cooldown": 20,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            350
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          15,
+          "???",
+          20,
+          "???"
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            1
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "9": {
-      "name": "epis",
-      "class": "assassin"
+      "index": 9,
+      "class": "assassin",
+      "type": "magical",
+      "position": {
+        "Type": "forward",
+        "Weight": 500
+      },
+      "s1": {
+        "description": [
+          "???",
+          25
+        ],
+        "mana": 2,
+        "cooldown": 12,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???"
+        ],
+        "mana": 2,
+        "cooldown": 8,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???"
+        ],
+        "mana": 4,
+        "cooldown": 20,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          12,
+          "???"
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          null
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "10": {
-      "name": "selene",
-      "class": "archer"
+      "index": 10,
+      "class": "archer",
+      "type": "physical",
+      "position": {
+        "Type": "middle",
+        "Weight": 300
+      },
+      "s1": {
+        "description": [
+          "???"
+        ],
+        "mana": 3,
+        "cooldown": 8,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???"
+        ],
+        "mana": 1,
+        "cooldown": 6,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???"
+        ],
+        "mana": 4,
+        "cooldown": 20,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          10,
+          "???",
+          100
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            10
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "11": {
-      "name": "maria",
-      "class": "wizard"
+      "index": 11,
+      "class": "wizard",
+      "type": "magical",
+      "position": {
+        "Type": "middle",
+        "Weight": 200
+      },
+      "s1": {
+        "description": [
+          "???",
+          15,
+          20
+        ],
+        "mana": 3,
+        "cooldown": 9,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???",
+          6
+        ],
+        "mana": 2,
+        "cooldown": 13,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            30
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???"
+        ],
+        "mana": 4,
+        "cooldown": 25,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          10,
+          "???"
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "12": {
-      "name": "miruru",
-      "class": "mechanic"
+      "index": 12,
+      "class": "mechanic",
+      "type": "physical",
+      "position": {
+        "Type": "middle",
+        "Weight": 400
+      },
+      "s1": {
+        "description": [
+          "???"
+        ],
+        "mana": 2,
+        "cooldown": 7,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???",
+          100,
+          2
+        ],
+        "mana": 2,
+        "cooldown": 13,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          2,
+          "???",
+          40
+        ],
+        "mana": 4,
+        "cooldown": 20,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???"
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "13": {
-      "name": "lorraine",
-      "class": "wizard"
+      "index": 13,
+      "class": "wizard",
+      "type": "magical",
+      "position": {
+        "Type": "middle",
+        "Weight": 200
+      },
+      "s1": {
+        "description": [
+          "???"
+        ],
+        "mana": 2,
+        "cooldown": 7,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          null
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???",
+          4,
+          "???"
+        ],
+        "mana": 3,
+        "cooldown": 10,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???",
+          20
+        ],
+        "mana": 3,
+        "cooldown": 23,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???",
+          "???"
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "15": {
-      "name": "clause",
-      "class": "knight"
+      "index": 15,
+      "class": "knight",
+      "type": "physical",
+      "position": {
+        "Type": "forward",
+        "Weight": 700
+      },
+      "s1": {
+        "description": [
+          "???",
+          3
+        ],
+        "mana": 2,
+        "cooldown": 9,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            2
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???",
+          30
+        ],
+        "mana": 1,
+        "cooldown": 8,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            50
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          20,
+          "???",
+          30
+        ],
+        "mana": 2,
+        "cooldown": 12,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???",
+          8,
+          20
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "16": {
-      "name": "rephy",
-      "class": "priest"
+      "index": 16,
+      "class": "priest",
+      "type": "magical",
+      "position": {
+        "Type": "rear",
+        "Weight": 100
+      },
+      "s1": {
+        "description": [
+          8,
+          "???",
+          10
+        ],
+        "mana": 2,
+        "cooldown": 10,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            50
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          20,
+          "???"
+        ],
+        "mana": 1,
+        "cooldown": 12,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            20,
+            250
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???",
+          "???",
+          25
+        ],
+        "mana": 3,
+        "cooldown": 20,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???"
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            50
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "17": {
-      "name": "dimael",
-      "class": "archer"
+      "index": 17,
+      "class": "archer",
+      "type": "magical",
+      "position": {
+        "Type": "rear",
+        "Weight": 300
+      },
+      "s1": {
+        "description": [
+          "???"
+        ],
+        "mana": 1,
+        "cooldown": 8,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???",
+          6
+        ],
+        "mana": 3,
+        "cooldown": 15,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            30
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???",
+          6
+        ],
+        "mana": 3,
+        "cooldown": 20,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???"
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "18": {
-      "name": "reina",
-      "class": "assassin"
+      "index": 18,
+      "class": "assassin",
+      "type": "physical",
+      "position": {
+        "Type": "forward",
+        "Weight": 500
+      },
+      "s1": {
+        "description": [
+          "???"
+        ],
+        "mana": 1,
+        "cooldown": 10,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            250
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          20,
+          "???",
+          500
+        ],
+        "mana": 2,
+        "cooldown": 20,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            50
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???"
+        ],
+        "mana": 3,
+        "cooldown": 25,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            250
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          10,
+          "???"
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            250
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "19": {
-      "name": "pavel",
-      "class": "wizard"
+      "index": 19,
+      "class": "wizard",
+      "type": "magical",
+      "position": {
+        "Type": "middle",
+        "Weight": 200
+      },
+      "s1": {
+        "description": [
+          "???",
+          5
+        ],
+        "mana": 2,
+        "cooldown": 12,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???",
+          "???"
+        ],
+        "mana": 2,
+        "cooldown": 8,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???",
+          3,
+          100
+        ],
+        "mana": 4,
+        "cooldown": 20,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          15,
+          "???"
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "20": {
-      "name": "demia",
-      "class": "knight"
+      "index": 20,
+      "class": "knight",
+      "type": "physical",
+      "position": {
+        "Type": "forward",
+        "Weight": 700
+      },
+      "s1": {
+        "description": [
+          "???",
+          "???"
+        ],
+        "mana": 3,
+        "cooldown": 11,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            2
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          15,
+          "???",
+          20
+        ],
+        "mana": 2,
+        "cooldown": 15,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            50
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???",
+          "???",
+          "???",
+          4
+        ],
+        "mana": 3,
+        "cooldown": 22,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???",
+          250
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "21": {
-      "name": "naila",
-      "class": "warrior"
+      "index": 21,
+      "class": "warrior",
+      "type": "physical",
+      "position": {
+        "Type": "forward",
+        "Weight": 600
+      },
+      "s1": {
+        "description": [
+          "???",
+          3
+        ],
+        "mana": 2,
+        "cooldown": 8,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            250
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          15,
+          250,
+          "???"
+        ],
+        "mana": 3,
+        "cooldown": 15,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???",
+          50
+        ],
+        "mana": 3,
+        "cooldown": 12,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          null
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???"
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "22": {
-      "name": "rodina",
-      "class": "mechanic"
+      "index": 22,
+      "class": "mechanic",
+      "type": "physical",
+      "position": {
+        "Type": "rear",
+        "Weight": 400
+      },
+      "s1": {
+        "description": [
+          "???",
+          150
+        ],
+        "mana": 2,
+        "cooldown": 11,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            50
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          50,
+          "???"
+        ],
+        "mana": 2,
+        "cooldown": 15,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            50
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???",
+          10
+        ],
+        "mana": 3,
+        "cooldown": 25,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            50
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???"
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            50
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "23": {
-      "name": "morrah",
-      "class": "knight"
+      "index": 23,
+      "class": "knight",
+      "type": "magical",
+      "position": {
+        "Type": "forward",
+        "Weight": 700
+      },
+      "s1": {
+        "description": [
+          "???",
+          15,
+          "???",
+          2
+        ],
+        "mana": 2,
+        "cooldown": 6,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          20,
+          "???",
+          250,
+          1
+        ],
+        "mana": 3,
+        "cooldown": 12,
+        "books": [
+          [
+            20
+          ],
+          [
+            30
+          ],
+          [
+            50
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???",
+          2
+        ],
+        "mana": 3,
+        "cooldown": 20,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???",
+          "???"
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "24": {
-      "name": "baudouin",
-      "class": "priest"
+      "index": 24,
+      "class": "priest",
+      "type": "magical",
+      "position": {
+        "Type": "middle",
+        "Weight": 100
+      },
+      "s1": {
+        "description": [
+          "???",
+          "???",
+          10,
+          25
+        ],
+        "mana": 2,
+        "cooldown": 6,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???",
+          6
+        ],
+        "mana": 2,
+        "cooldown": 15,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          7,
+          "???"
+        ],
+        "mana": null,
+        "cooldown": 60,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            250
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???",
+          1.5
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "25": {
-      "name": "jane",
-      "class": "knight"
+      "index": 25,
+      "class": "knight",
+      "type": "magical",
+      "position": {
+        "Type": "forward",
+        "Weight": 700
+      },
+      "s1": {
+        "description": [
+          "???",
+          3
+        ],
+        "mana": 2,
+        "cooldown": 8,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            2
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          30,
+          "???",
+          25
+        ],
+        "mana": 1,
+        "cooldown": 6,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          15,
+          "???",
+          100
+        ],
+        "mana": 3,
+        "cooldown": 12,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            1
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          5,
+          "???"
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "26": {
-      "name": "wizard",
-      "class": "wizard"
+      "index": 26,
+      "class": "wizard",
+      "type": "magical",
+      "position": {
+        "Type": "middle",
+        "Weight": 200
+      },
+      "s1": {
+        "description": [
+          "???"
+        ],
+        "mana": 2,
+        "cooldown": 8,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            250
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???"
+        ],
+        "mana": 2,
+        "cooldown": 13,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            250
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          3,
+          "???"
+        ],
+        "mana": 3,
+        "cooldown": 17,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            250
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???"
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "27": {
-      "name": "leo",
-      "class": "priest"
+      "index": 27,
+      "class": "priest",
+      "type": "magical",
+      "position": {
+        "Type": "rear",
+        "Weight": 100
+      },
+      "s1": {
+        "description": [
+          8,
+          50,
+          8,
+          "???"
+        ],
+        "mana": 2,
+        "cooldown": 10,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???"
+        ],
+        "mana": 2,
+        "cooldown": 7,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???",
+          3
+        ],
+        "mana": null,
+        "cooldown": 40,
+        "books": [
+          [
+            0.25
+          ],
+          [
+            0.25
+          ],
+          [
+            0.5
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          20,
+          10,
+          "???"
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            250
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "28": {
-      "name": "fluss",
-      "class": "assassin"
+      "index": 28,
+      "class": "assassin",
+      "type": "physical",
+      "position": {
+        "Type": "forward",
+        "Weight": 500
+      },
+      "s1": {
+        "description": [
+          "???"
+        ],
+        "mana": 2,
+        "cooldown": 6,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            250
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          5,
+          300,
+          10,
+          "???"
+        ],
+        "mana": 1,
+        "cooldown": 10,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???"
+        ],
+        "mana": 2,
+        "cooldown": 25,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            250
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          10,
+          "???",
+          3,
+          "???"
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "29": {
-      "name": "luna",
-      "class": "archer"
+      "index": 29,
+      "class": "archer",
+      "type": "magical",
+      "position": {
+        "Type": "rear",
+        "Weight": 300
+      },
+      "s1": {
+        "description": [
+          "???"
+        ],
+        "mana": 2,
+        "cooldown": 8,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???",
+          1
+        ],
+        "mana": 2,
+        "cooldown": 12,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???",
+          7,
+          100
+        ],
+        "mana": 1,
+        "cooldown": 15,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          6,
+          5,
+          "???"
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "30": {
-      "name": "laias",
-      "class": "priest"
+      "index": 30,
+      "class": "priest",
+      "type": "magical",
+      "position": {
+        "Type": "rear",
+        "Weight": 100
+      },
+      "s1": {
+        "description": [
+          "???"
+        ],
+        "mana": 2,
+        "cooldown": 8,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???",
+          "???"
+        ],
+        "mana": 3,
+        "cooldown": 15,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???",
+          12,
+          "???"
+        ],
+        "mana": 4,
+        "cooldown": 20,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???",
+          250
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "31": {
-      "name": "arch",
-      "class": "archer"
+      "index": 31,
+      "class": "archer",
+      "type": "magical",
+      "position": {
+        "Type": "middle",
+        "Weight": 300
+      },
+      "s1": {
+        "description": [
+          "???"
+        ],
+        "mana": 2,
+        "cooldown": 6,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???",
+          "???"
+        ],
+        "mana": 3,
+        "cooldown": 15,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???"
+        ],
+        "mana": 4,
+        "cooldown": 25,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???",
+          "???",
+          "???"
+        ],
+        "books": [
+          [
+            10,
+            "???"
+          ],
+          [
+            15,
+            "???"
+          ],
+          [
+            25,
+            "???"
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "32": {
-      "name": "lewisia",
-      "class": "wizard"
+      "index": 32,
+      "class": "wizard",
+      "type": "magical",
+      "position": {
+        "Type": "rear",
+        "Weight": 400
+      },
+      "s1": {
+        "description": [
+          "???"
+        ],
+        "mana": 1,
+        "cooldown": 8,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???",
+          "???",
+          "???"
+        ],
+        "mana": 3,
+        "cooldown": 20,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???"
+        ],
+        "mana": 3,
+        "cooldown": 12,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???",
+          "???"
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "33": {
-      "name": "nyx",
-      "class": "wizard"
+      "index": 33,
+      "class": "wizard",
+      "type": "physical",
+      "position": {
+        "Type": "rear",
+        "Weight": 400
+      },
+      "s1": {
+        "description": [
+          "???"
+        ],
+        "mana": 1,
+        "cooldown": 10,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???",
+          10,
+          "???"
+        ],
+        "mana": 3,
+        "cooldown": 14,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???",
+          "???"
+        ],
+        "mana": 4,
+        "cooldown": 25,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???"
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "34": {
-      "name": "annette",
-      "class": "mechanic"
+      "index": 34,
+      "class": "mechanic",
+      "type": "magical",
+      "position": {
+        "Type": "middle",
+        "Weight": 200
+      },
+      "s1": {
+        "description": [
+          "???",
+          25,
+          "???",
+          25
+        ],
+        "mana": 2,
+        "cooldown": 11,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          null
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???",
+          250
+        ],
+        "mana": 2,
+        "cooldown": 17,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          null
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???",
+          "???"
+        ],
+        "mana": 3,
+        "cooldown": 25,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          null
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???"
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            250
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "35": {
-      "name": "mitra",
-      "class": "mechanic"
+      "index": 35,
+      "class": "mechanic",
+      "type": "physical",
+      "position": {
+        "Type": "middle",
+        "Weight": 200
+      },
+      "s1": {
+        "description": [
+          "???",
+          "???"
+        ],
+        "mana": 1,
+        "cooldown": 6,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???",
+          300
+        ],
+        "mana": 3,
+        "cooldown": 15,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???"
+        ],
+        "mana": 4,
+        "cooldown": 25,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???"
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "36": {
-      "name": "ricardo",
-      "class": "knight"
+      "index": 36,
+      "class": "knight",
+      "type": "physical",
+      "position": {
+        "Type": "forward",
+        "Weight": 700
+      },
+      "s1": {
+        "description": [
+          "???"
+        ],
+        "mana": 2,
+        "cooldown": 8,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          null
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???",
+          "???"
+        ],
+        "mana": 1,
+        "cooldown": 30,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          null
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???",
+          "???"
+        ],
+        "mana": 4,
+        "cooldown": 23,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          null
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???"
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          null
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "37": {
-      "name": "tanya",
-      "class": "assassin"
+      "index": 37,
+      "class": "assassin",
+      "type": "physical",
+      "position": {
+        "Type": "forward",
+        "Weight": 500
+      },
+      "s1": {
+        "description": [
+          30,
+          "???"
+        ],
+        "mana": 2,
+        "cooldown": 8,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            250
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???"
+        ],
+        "mana": 2,
+        "cooldown": 14,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            250
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???",
+          "???"
+        ],
+        "mana": 3,
+        "cooldown": 25,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            250
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???",
+          1
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            0.5
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "38": {
-      "name": "ezekiel",
-      "class": "assassin"
+      "index": 38,
+      "class": "assassin",
+      "type": "magical",
+      "position": {
+        "Type": "forward",
+        "Weight": 500
+      },
+      "s1": {
+        "description": [
+          "???",
+          "???"
+        ],
+        "mana": 2,
+        "cooldown": 8,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???",
+          300,
+          3,
+          10,
+          300
+        ],
+        "mana": 2,
+        "cooldown": 10,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???",
+          3
+        ],
+        "mana": 2,
+        "cooldown": 7,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???",
+          10,
+          "???",
+          "???"
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "39": {
-      "name": "cassandra",
-      "class": "priest"
+      "index": 39,
+      "class": "priest",
+      "type": "magical",
+      "position": {
+        "Type": "rear",
+        "Weight": 100
+      },
+      "s1": {
+        "description": [
+          "???",
+          "???"
+        ],
+        "mana": 2,
+        "cooldown": 8,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            0.5
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???",
+          700
+        ],
+        "mana": 3,
+        "cooldown": 20,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???",
+          25
+        ],
+        "mana": 4,
+        "cooldown": 22,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            1
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???"
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "40": {
-      "name": "theo",
-      "class": "warrior"
+      "index": 40,
+      "class": "warrior",
+      "type": "magical",
+      "position": {
+        "Type": "forward",
+        "Weight": 600
+      },
+      "s1": {
+        "description": [
+          "???",
+          "???"
+        ],
+        "mana": 2,
+        "cooldown": 12,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            250
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???",
+          25,
+          "???"
+        ],
+        "mana": 2,
+        "cooldown": 20,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???"
+        ],
+        "mana": 3,
+        "cooldown": 22,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            250
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???"
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            250
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "41": {
-      "name": "mediana",
-      "class": "priest"
+      "index": 41,
+      "class": "priest",
+      "type": "physical",
+      "position": {
+        "Type": "rear",
+        "Weight": 100
+      },
+      "s1": {
+        "description": [
+          "???"
+        ],
+        "mana": 2,
+        "cooldown": 15,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???",
+          "???"
+        ],
+        "mana": 3,
+        "cooldown": 20,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???"
+        ],
+        "mana": 4,
+        "cooldown": 23,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???",
+          200,
+          "???",
+          200
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            150
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "42": {
-      "name": "oddy",
-      "class": "mechanic"
+      "index": 42,
+      "class": "mechanic",
+      "type": "magical",
+      "position": {
+        "Type": "middle",
+        "Weight": 200
+      },
+      "s1": {
+        "description": [
+          "???"
+        ],
+        "mana": 2,
+        "cooldown": 7,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            250
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???"
+        ],
+        "mana": 3,
+        "cooldown": 12,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            250
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???",
+          250
+        ],
+        "mana": 4,
+        "cooldown": 35,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            250
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???"
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            250
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "43": {
-      "name": "viska",
-      "class": "warrior"
+      "index": 43,
+      "class": "warrior",
+      "type": "magical",
+      "position": {
+        "Type": "forward",
+        "Weight": 600
+      },
+      "s1": {
+        "description": [
+          "???",
+          25,
+          "???"
+        ],
+        "mana": 2,
+        "cooldown": 8,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???",
+          30
+        ],
+        "mana": 2,
+        "cooldown": 10,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???"
+        ],
+        "mana": 4,
+        "cooldown": 25,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          null
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???",
+          "???"
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            300
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "44": {
-      "name": "priscilla",
-      "class": "warrior"
+      "index": 44,
+      "class": "warrior",
+      "type": "physical",
+      "position": {
+        "Type": "forward",
+        "Weight": 600
+      },
+      "s1": {
+        "description": [
+          "???"
+        ],
+        "mana": 2,
+        "cooldown": 8,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???"
+        ],
+        "mana": 3,
+        "cooldown": 15,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???",
+          20
+        ],
+        "mana": 3,
+        "cooldown": 22,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???",
+          100
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            30
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "45": {
-      "name": "yanne",
-      "class": "archer"
+      "index": 45,
+      "class": "archer",
+      "type": "physical",
+      "position": {
+        "Type": "rear",
+        "Weight": 300
+      },
+      "s1": {
+        "description": [
+          "???",
+          100
+        ],
+        "mana": 2,
+        "cooldown": 9,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            50
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???",
+          "???"
+        ],
+        "mana": 3,
+        "cooldown": 10,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            50
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???",
+          500,
+          "???"
+        ],
+        "mana": 4,
+        "cooldown": 25,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???",
+          30,
+          50
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
+    },
+    "46": {
+      "index": 46,
+      "class": "archer",
+      "type": "physical",
+      "position": {
+        "Type": "middle",
+        "Weight": 300
+      },
+      "s1": {
+        "description": null,
+        "mana": 2,
+        "cooldown": 6,
+        "books": [
+          null,
+          null,
+          null
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": null,
+        "mana": 2,
+        "cooldown": 20,
+        "books": [
+          null,
+          null,
+          null
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": null,
+        "mana": 4,
+        "cooldown": 24,
+        "books": [
+          null,
+          null,
+          null
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": null,
+        "books": [
+          null,
+          null,
+          null
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "49": {
-      "name": "ophelia",
-      "class": "wizard"
+      "index": 49,
+      "class": "wizard",
+      "type": "magical",
+      "position": {
+        "Type": "rear",
+        "Weight": 500
+      },
+      "s1": {
+        "description": [
+          "???",
+          3,
+          "???"
+        ],
+        "mana": 3,
+        "cooldown": 20,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          12,
+          "???",
+          100
+        ],
+        "mana": 2,
+        "cooldown": 25,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???"
+        ],
+        "mana": 3,
+        "cooldown": 3,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???",
+          "???",
+          30,
+          7
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            50
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "50": {
-      "name": "requina",
-      "class": "archer"
+      "index": 50,
+      "class": "archer",
+      "type": "physical",
+      "position": {
+        "Type": "middle",
+        "Weight": 300
+      },
+      "s1": {
+        "description": [
+          "???",
+          4.5
+        ],
+        "mana": 2,
+        "cooldown": 10,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???",
+          6,
+          30,
+          500
+        ],
+        "mana": 3,
+        "cooldown": 10,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          20,
+          "???"
+        ],
+        "mana": 3,
+        "cooldown": 25,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          10,
+          "???"
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "51": {
-      "name": "aselica",
-      "class": "knight"
+      "index": 51,
+      "class": "knight",
+      "type": "magical",
+      "position": {
+        "Type": "forward",
+        "Weight": 700
+      },
+      "s1": {
+        "description": [
+          "???",
+          3
+        ],
+        "mana": 2,
+        "cooldown": 9,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            2
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???"
+        ],
+        "mana": 2,
+        "cooldown": 20,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???",
+          "???",
+          "???",
+          "???",
+          "???",
+          "???"
+        ],
+        "mana": 4,
+        "cooldown": 20,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???",
+          2,
+          20
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "52": {
-      "name": "crow",
-      "class": "mechanic"
+      "index": 52,
+      "class": "mechanic",
+      "type": "physical",
+      "position": {
+        "Type": "middle",
+        "Weight": 200
+      },
+      "s1": {
+        "description": [
+          "???"
+        ],
+        "mana": 2,
+        "cooldown": 10,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???",
+          "???",
+          "???"
+        ],
+        "mana": 3,
+        "cooldown": 15,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???",
+          "???",
+          100
+        ],
+        "mana": 4,
+        "cooldown": 20,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???",
+          80,
+          300
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
+    },
+    "53": {
+      "index": 53,
+      "class": "archer",
+      "type": "magical",
+      "position": {
+        "Type": "middle",
+        "Weight": 300
+      },
+      "s1": {
+        "description": [
+          "???",
+          3,
+          200,
+          600,
+          3
+        ],
+        "mana": 2,
+        "cooldown": 12,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???",
+          10,
+          1.5,
+          3,
+          1
+        ],
+        "mana": 2,
+        "cooldown": 23,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???",
+          8,
+          "???"
+        ],
+        "mana": 3,
+        "cooldown": 9,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          6,
+          "???"
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
+    },
+    "57": {
+      "index": 57,
+      "class": "wizard",
+      "type": "physical",
+      "position": {
+        "Type": "rear",
+        "Weight": 400
+      },
+      "s1": {
+        "description": null,
+        "mana": 3,
+        "cooldown": 8,
+        "books": [
+          null,
+          null,
+          null
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": null,
+        "mana": 3,
+        "cooldown": 20,
+        "books": [
+          null,
+          null,
+          null
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": null,
+        "mana": 3,
+        "cooldown": 12,
+        "books": [
+          null,
+          null,
+          null
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": null,
+        "books": [
+          null,
+          null,
+          null
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
+    },
+    "58": {
+      "index": 58,
+      "class": "assassin",
+      "type": "magical",
+      "position": {
+        "Type": "forward",
+        "Weight": 500
+      },
+      "s1": {
+        "description": null,
+        "mana": 2,
+        "cooldown": 10,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": null,
+        "mana": 2,
+        "cooldown": 20,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null,
+        "linked": null
+      },
+      "s3": {
+        "description": null,
+        "mana": 3,
+        "cooldown": 25,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null,
+        "linked": null
+      },
+      "s4": {
+        "description": null,
+        "books": [
+          null,
+          null,
+          null
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "62": {
-      "name": "scarlet",
-      "class": "warrior"
+      "index": 62,
+      "class": "warrior",
+      "type": "physical",
+      "position": {
+        "Type": "forward",
+        "Weight": 600
+      },
+      "s1": {
+        "description": [
+          "???"
+        ],
+        "mana": 3,
+        "cooldown": 8,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???"
+        ],
+        "mana": 2,
+        "cooldown": 18,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???",
+          "???"
+        ],
+        "mana": 4,
+        "cooldown": 22,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          150,
+          "???",
+          "???"
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "63": {
-      "name": "sonia",
-      "class": "knight"
+      "index": 63,
+      "class": "knight",
+      "type": "magical",
+      "position": {
+        "Type": "forward",
+        "Weight": 700
+      },
+      "s1": {
+        "description": [
+          "???",
+          "???"
+        ],
+        "mana": 2,
+        "cooldown": 8,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???",
+          "???",
+          "???"
+        ],
+        "mana": 2,
+        "cooldown": 20,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???",
+          "???"
+        ],
+        "mana": 4,
+        "cooldown": 23,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          1,
+          "???",
+          0.7,
+          40
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "64": {
-      "name": "artemia",
-      "class": "wizard"
+      "index": 64,
+      "class": "wizard",
+      "type": "magical",
+      "position": {
+        "Type": "rear",
+        "Weight": 500
+      },
+      "s1": {
+        "description": [
+          "???",
+          20
+        ],
+        "mana": 2,
+        "cooldown": 7,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???"
+        ],
+        "mana": 3,
+        "cooldown": 14,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???",
+          "???"
+        ],
+        "mana": 4,
+        "cooldown": 20,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???",
+          "???",
+          5,
+          3
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "65": {
-      "name": "mirianne",
-      "class": "assassin"
+      "index": 65,
+      "class": "assassin",
+      "type": "magical",
+      "position": {
+        "Type": "middle",
+        "Weight": 500
+      },
+      "s1": {
+        "description": [
+          "???",
+          "???"
+        ],
+        "mana": 1,
+        "cooldown": 6,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???",
+          "???"
+        ],
+        "mana": 3,
+        "cooldown": 12,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???",
+          "???"
+        ],
+        "mana": 2,
+        "cooldown": 14,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???"
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "66": {
-      "name": "shea",
-      "class": "priest"
+      "index": 66,
+      "class": "priest",
+      "type": "magical",
+      "position": {
+        "Type": "rear",
+        "Weight": 100
+      },
+      "s1": {
+        "description": [
+          "???",
+          35,
+          70
+        ],
+        "mana": 2,
+        "cooldown": 28,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???",
+          "???",
+          50
+        ],
+        "mana": 3,
+        "cooldown": 28,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???",
+          "???"
+        ],
+        "mana": 3,
+        "cooldown": 28,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???"
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
+    },
+    "67": {
+      "index": 67,
+      "class": "mechanic",
+      "type": "magical",
+      "position": {
+        "Type": "middle",
+        "Weight": 200
+      },
+      "s1": {
+        "description": [
+          "???",
+          "???",
+          3
+        ],
+        "mana": 2,
+        "cooldown": 8,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null,
+        "linked": [
+          "???",
+          200
+        ]
+      },
+      "s2": {
+        "description": [
+          "???",
+          4
+        ],
+        "mana": 4,
+        "cooldown": 14,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null,
+        "linked": [
+          "???",
+          20,
+          "???"
+        ]
+      },
+      "s3": {
+        "description": [
+          "???"
+        ],
+        "mana": 2,
+        "cooldown": null,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???",
+          "???",
+          30,
+          40
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
+    },
+    "73": {
+      "index": 73,
+      "class": "warrior",
+      "type": "physical",
+      "position": {
+        "Type": "forward",
+        "Weight": 600
+      },
+      "s1": {
+        "description": [
+          "???",
+          "???",
+          4
+        ],
+        "mana": 2,
+        "cooldown": 12,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          10,
+          "???",
+          2.5,
+          50,
+          350
+        ],
+        "mana": 3,
+        "cooldown": 10,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???",
+          "???",
+          4,
+          25
+        ],
+        "mana": 3,
+        "cooldown": 20,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???",
+          250,
+          100,
+          100,
+          5,
+          40,
+          400
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "90": {
-      "name": "may",
-      "class": "priest"
+      "index": 90,
+      "class": "priest",
+      "type": "magical",
+      "position": {
+        "Type": "middle",
+        "Weight": 100
+      },
+      "s1": {
+        "description": [
+          "???",
+          70,
+          100,
+          500
+        ],
+        "mana": 1,
+        "cooldown": 10,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???",
+          1
+        ],
+        "mana": 2,
+        "cooldown": 11,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???"
+        ],
+        "mana": 4,
+        "cooldown": 20,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???",
+          "???"
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "91": {
-      "name": "gladi",
-      "class": "assassin"
+      "index": 91,
+      "class": "assassin",
+      "type": "physical",
+      "position": {
+        "Type": "forward",
+        "Weight": 500
+      },
+      "s1": {
+        "description": [
+          "???",
+          25
+        ],
+        "mana": 2,
+        "cooldown": 9,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???",
+          "???",
+          "???"
+        ],
+        "mana": 1,
+        "cooldown": 15,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???"
+        ],
+        "mana": 4,
+        "cooldown": 20,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???"
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     },
     "92": {
-      "name": "veronica",
-      "class": "wizard"
+      "index": 92,
+      "class": "wizard",
+      "type": "magical",
+      "position": {
+        "Type": "rear",
+        "Weight": 500
+      },
+      "s1": {
+        "description": [
+          "???",
+          2
+        ],
+        "mana": 2,
+        "cooldown": 9,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???"
+        ],
+        "mana": 4,
+        "cooldown": 25,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???",
+          "???"
+        ],
+        "mana": 4,
+        "cooldown": 25,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???"
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
+    },
+    "93": {
+      "index": 93,
+      "class": "knight",
+      "type": "physical",
+      "position": {
+        "Type": "forward",
+        "Weight": 700
+      },
+      "s1": {
+        "description": [
+          "???",
+          4,
+          "???",
+          25
+        ],
+        "mana": 2,
+        "cooldown": 9,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          null
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          5,
+          "???",
+          10,
+          20
+        ],
+        "mana": 3,
+        "cooldown": 23,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???",
+          1.5,
+          "???",
+          15,
+          "???",
+          0.5
+        ],
+        "mana": 3,
+        "cooldown": 24,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          20,
+          "???",
+          10,
+          0.2
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
     }
   }
 }

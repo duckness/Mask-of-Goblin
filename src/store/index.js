@@ -117,13 +117,13 @@ const getters = {
       },
       treasure: {
         image: require("@/components/hero/images/" + state.heroID + "/UT.png"),
-        name: Vue.i18n.translate(prefix + ".treasure.name"),
-        description: Vue.i18n.translate(prefix + ".treasure.description")
+        name: Vue.i18n.translate(prefix + ".s3.ut.name"),
+        description: Vue.i18n.translate(prefix + ".s3.ut.description")
       },
       weapon: {
         image: require("@/components/hero/images/" + state.heroID + "/UW.png"),
-        name: Vue.i18n.translate(prefix + ".weapon.name"),
-        description: Vue.i18n.translate(prefix + ".weapon.description")
+        name: Vue.i18n.translate(prefix + ".uw.name"),
+        description: Vue.i18n.translate(prefix + ".uw.description")
       },
       s1: h.getSkill(prefix + ".s1", "s1"),
       s2: h.getSkill(prefix + ".s2", "s2"),
@@ -171,6 +171,7 @@ const h = {
     return state.data.class[h.getClass()];
   },
   getSkill: function(prefix, skillNum) {
+    var s = state.data.hero[state.heroID][skillNum];
     return {
       image: require("@/components/hero/images/" +
         state.heroID +
@@ -178,16 +179,16 @@ const h = {
         skillNum +
         ".png"),
       name: Vue.i18n.translate(prefix + ".name"),
-      // 'description': Vue.i18n.translate(prefix + '.description'),
-      description: "Vue.i18n.translate(prefix + '.description')",
+      description: Vue.i18n.translate(prefix + ".description", s.description),
+      //description: "Vue.i18n.translate(prefix + '.description')",
       transcendence: {
-        light: Vue.i18n.translate(prefix + ".transcendence.light"),
-        dark: Vue.i18n.translate(prefix + ".transcendence.dark")
+        light: Vue.i18n.translate(prefix + ".light"),
+        dark: Vue.i18n.translate(prefix + ".dark")
       },
       books: [
-        Vue.i18n.translate(prefix + ".books.1", [0, 10]),
-        Vue.i18n.translate(prefix + ".books.2", [0, 15]),
-        Vue.i18n.translate(prefix + ".books.3", [0, 25])
+        Vue.i18n.translate(prefix + ".books.0", s.books[0]),
+        Vue.i18n.translate(prefix + ".books.1", s.books[1]),
+        Vue.i18n.translate(prefix + ".books.2", s.books[2])
       ]
     };
   },
@@ -205,7 +206,7 @@ const h = {
   levelValidation: function(level) {
     level = Number(level);
     var minLevel = 0;
-    var maxLevel = 80;
+    var maxLevel = 90;
     var newLevel = h.numberWithinBounds(minLevel, maxLevel, level);
     return newLevel;
   },
