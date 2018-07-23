@@ -92,7 +92,9 @@ const getters = {
   getHeroList: function() {
     var heroes = {};
     for (var hero in lang[state.locale].strings["hero"]) {
-      heroes[lang[state.locale].strings["hero"][hero]["name"]] = hero;
+      if (lang[state.locale].strings["hero"][hero]["name"] !== "") {
+        heroes[lang[state.locale].strings["hero"][hero]["name"]] = hero;
+      }
     }
     return heroes;
   },
@@ -158,8 +160,9 @@ const mutations = {
   setHeroID: function(state, newID) {
     state.heroID = newID;
   },
-  setLocale: function(state, locale) {
-    h.changeLocale(locale);
+  setLocale: async function(state, locale) {
+    locale = h.parseLocale(locale);
+    await h.changeLocale(locale);
     Vue.i18n.set(locale);
     state.locale = locale;
   },
@@ -223,18 +226,27 @@ const h = {
   numberWithinBounds: function(min, max, number) {
     return number < min ? min : number > max ? max : number;
   },
-  changeLocale: function(locale) {
+  changeLocale: async function(locale) {
     if (!lang[locale].loaded) {
       lang[locale].loaded = true;
-      return new Promise(resolve => {
-        axios.get(lang[locale].location).then(result => {
-          resolve(
-            (lang[locale].strings = result.data),
-            Vue.i18n.add(locale, result.data),
-            (state.locale = locale)
-          );
-        });
-      });
+      var result = await axios(lang[locale].location);
+      lang[locale].strings = result.data;
+      Vue.i18n.add(locale, result.data);
+    }
+  },
+  parseLocale: function(locale) {
+    var l = locale.split("-");
+    if (l[0].toLowerCase() === "zh") {
+      var tradtional = ["TW", "HK", "HANT"]
+      if (l.length > 1 && l[1].toUpperCase() in tradtional) {
+        return "zh-Hant";
+      } else {
+        return "zh-Hans";
+      }
+    } else if (l[0].toLowerCase() in lang) {
+      return l[0].toLowerCase();
+    } else {
+      return "en";
     }
   }
 };
@@ -259,8 +271,8 @@ Vue.use(vuexI18n.plugin, store, {
 });
 
 Vue.i18n.add("en", lang.en.strings);
-
-Vue.i18n.set(navigator.language.split("-")[0]);
+Vue.i18n.set("en");
+store.commit("setLocale", navigator.language);
 Vue.i18n.fallback("en");
 
 export default store;
