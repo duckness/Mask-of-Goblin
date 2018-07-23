@@ -237,7 +237,7 @@ const h = {
   parseLocale: function(locale) {
     var l = locale.split("-");
     if (l[0].toLowerCase() === "zh") {
-      var tradtional = ["TW", "HK", "HANT"]
+      var tradtional = ["TW", "HK", "HANT"];
       if (l.length > 1 && l[1].toUpperCase() in tradtional) {
         return "zh-Hant";
       } else {
