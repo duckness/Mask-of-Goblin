@@ -16,6 +16,8 @@ export default {
     return {
       languages: {
         en: "English",
+        "zh-Hans": "Chinese (Simplified)",
+        "zh-Hant": "Chinese (Traditional)",
         fr: "French",
         de: "German",
         ja: "Japan",

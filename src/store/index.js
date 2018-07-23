@@ -13,48 +13,58 @@ const lang = {
     strings: require("./i18n/English.json"),
     loaded: true
   },
+  "zh-Hans": {
+    location: "/i18n/ChineseSimplified.json",
+    strings: null,
+    loaded: false
+  },
+  "zh-Hant": {
+    location: "/i18n/ChineseTraditional.json",
+    strings: null,
+    loaded: false
+  },
   fr: {
-    location: "/static/i18n/French.json",
+    location: "/i18n/French.json",
     strings: null,
     loaded: false
   },
   de: {
-    location: "/static/i18n/German.json",
+    location: "/i18n/German.json",
     strings: null,
     loaded: false
   },
   ja: {
-    location: "/static/i18n/Japanese.json",
+    location: "/i18n/Japanese.json",
     strings: null,
     loaded: false
   },
   ko: {
-    location: "/static/i18n/Korean.json",
+    location: "/i18n/Korean.json",
     strings: null,
     loaded: false
   },
   pt: {
-    location: "/static/i18n/Portuguese.json",
+    location: "/i18n/Portuguese.json",
     strings: null,
     loaded: false
   },
   ru: {
-    location: "/static/i18n/Russian.json",
+    location: "/i18n/Russian.json",
     strings: null,
     loaded: false
   },
   es: {
-    location: "/static/i18n/Spanish.json",
+    location: "/i18n/Spanish.json",
     strings: null,
     loaded: false
   },
   th: {
-    location: "/static/i18n/Thai.json",
+    location: "/i18n/Thai.json",
     strings: null,
     loaded: false
   },
   vi: {
-    location: "/static/i18n/Vietnamese.json",
+    location: "/i18n/Vietnamese.json",
     strings: null,
     loaded: false
   }

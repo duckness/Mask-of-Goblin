@@ -589,7 +589,7 @@
       },
       "s3": {
         "name": "Proxy of God",
-        "description": "Deals {0} P.DMG to nearby enemies and inflicts Stun for 2 sec. Additionally, for {1} sec, ATK is increased by {3} and Dodge Rate is increased by {3}, while gaining immunity to CC. This status cannot be dispelled.",
+        "description": "Deals {0} P.DMG to nearby enemies and inflicts Stun for 2 sec. Additionally, for {1} sec, ATK is increased by {3} and Dodge Rate is increased by {3} , while gaining immunity to CC. This status cannot be dispelled.",
         "books": {
           "0": "ATK boost is increased by {0}%.",
           "1": "ATK boost is increased by {0}%.",
@@ -611,7 +611,7 @@
       },
       "s4": {
         "name": "Goddess Strike",
-        "description": "Upon dodging, deals {0} P.DMG to frontal enemies in range, and reduces their ACC by{1} for 5 sec. After hitting the target, recovers 300 mana.",
+        "description": "Upon dodging, deals {0} P.DMG to frontal enemies in range, and reduces their ACC by {1} for 5 sec. After hitting the target, recovers 300 mana.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -619,6 +619,10 @@
         },
         "light": "ACC reduction rate is changed to 250.",
         "dark": "Casting is boosted and Cooldown is reduced by 1 sec."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / P.Dodge +100",
+        "dark": "Upon attacking, attack 1 extra time dealing 40% of ATK as DMG."
       }
     },
     "2": {
@@ -732,6 +736,10 @@
         },
         "light": "Target's ATK Spd. is boosted by 250.",
         "dark": "Number of targets changes to 2."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / M. Block +200",
+        "dark": "Allies healed by Frey receive 5% of her ATK as an ATK buff for 5 sec."
       }
     },
     "3": {
@@ -845,6 +853,10 @@
         },
         "light": "Ember stack maximum is changed to 6.",
         "dark": "Activates every 9 sec."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / Crit Chance +100",
+        "dark": "Ember DMG is increased by 200%."
       }
     },
     "4": {
@@ -928,7 +940,7 @@
       },
       "s3": {
         "name": "Blade Claw",
-        "description": "Moves behind the enemy with the lowest HP and deals [FFC800]{0} P.DMG. Per every stacked Bleed, DMG is increased by {1}% and all stacks of Bleed are removed after the attack. Upon Crit Hit, recovers 2 MP and skill cooldown is reset.",
+        "description": "Moves behind the enemy with the lowest HP and deals [FFC800] {0} P.DMG. Per every stacked Bleed, DMG is increased by {1}% and all stacks of Bleed are removed after the attack. Upon Crit Hit, recovers 2 MP and skill cooldown is reset.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -958,6 +970,10 @@
         },
         "light": "Each attack recovers 300 mana.",
         "dark": "Has a 50% chance to stack 1 stack of Bleed."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / Crit DMG +20%",
+        "dark": "Upon a Crit Hit, there is a 10% chance of ATK Spd increasing by 300 and Crit DMG increasing by 60% for 5 sec. Does not activate again during activation."
       }
     },
     "5": {
@@ -1071,6 +1087,10 @@
         },
         "light": "ATK boost is increased by 40%.",
         "dark": "Takes 5% more DMG per each stack, but gains a boost of 50 Crit Chance and Lifesteal per each stack as well."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / P. Block +200",
+        "dark": "Heals HP worth 10% of ATK every second, and every 1% of HP lost reduces received DMG by 0.6%."
       }
     },
     "6": {
@@ -1184,6 +1204,10 @@
         },
         "light": "Enemies with 5 stacks take 1% extra P.DMG based off Max HP per attack.",
         "dark": "Upon attack, dispel all positive effects and target receives 20% increased P.DMG for 20 sec. Has a cooldown of 20 sec."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / P. Block +200",
+        "dark": "When auto attacking, there is a 10% chance to Stun the target for 2 sec and deal extra DMG worth 10% of own HP."
       }
     },
     "7": {
@@ -1297,6 +1321,10 @@
         },
         "light": "Activation chance is boosted by 10%.",
         "dark": "Target takes 25% increased P.DMG."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / Crit DMG +20%",
+        "dark": "Upon a Critical Hit, gain 5% Crit DMG and 30 CC Accuracy. Stacks up to 10 times."
       }
     },
     "8": {
@@ -1362,7 +1390,7 @@
         "books": {
           "0": "Heal rate is increased by {0}%.",
           "1": "Heal rate is increased by {0}%.",
-          "2": "While in use, DMG Reduction is increased by {0}, and gains CC immunity."
+          "2": "While in use, DMG Reduction is increased by {0} , and gains CC immunity."
         },
         "light": "Crit Chance is increased by 400.",
         "dark": "If there is 1 enemy, Stun duration is increased by 3 sec.",
@@ -1380,7 +1408,7 @@
       },
       "s3": {
         "name": "Swift Wind",
-        "description": "For {0} sec, all allies' ATK is increased by {1}, and ATK Spd is increased by {2}.",
+        "description": "For {0} sec, all allies' ATK is increased by {1} , and ATK Spd is increased by {2}.",
         "books": {
           "0": "ATK boost is increased by {0}%.",
           "1": "ATK boost is increased by {0}%.",
@@ -1410,6 +1438,10 @@
         },
         "light": "Crit Chance is increased by 400.",
         "dark": "If there is 1 enemy, Stun duration is increased by 3 sec."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / Crit Chance +100",
+        "dark": "Gains stacks every time allies are hit. When 50 stacks are acheived, drop lightning upon a random enemy 3 times, dealing 240% of ATK as DMG and inflicting stun for 1 sec."
       }
     },
     "9": {
@@ -1523,6 +1555,10 @@
         },
         "light": "Each stack increases Mana recovery per sec by 50%.",
         "dark": "While stack number is higher than 5, Mana is always at 100% and cooldowns are decreased by an additional 1 sec per each sec."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / Crit DMG +20%",
+        "dark": "All of Epis's attacks decrease the M.DEF of hit enemies by 20% for 10 sec. ATK rises by 2% per each enemy hit. Maximum stack number is 10."
       }
     },
     "10": {
@@ -1636,6 +1672,10 @@
         },
         "light": "Max stack number is changed to 5.",
         "dark": "Auto attack range is boosted by 20%."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / Crit DMG +20%",
+        "dark": "Own Crit Chance is decreased by 300 and Crit DMG is increased by 100%."
       }
     },
     "11": {
@@ -1749,6 +1789,10 @@
         },
         "light": "ATK reduction is increased by 40%.",
         "dark": "Reduces enemy M. Crit Resistance by 25% for 10 sec."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / Crit Chance +100",
+        "dark": "Upon a Crit Hit, target's CC resistance is reduced by 250 for 10 sec, and all Skill Cooldown, excluding the skill in use, is reduced by 2% each."
       }
     },
     "12": {
@@ -1862,6 +1906,10 @@
         },
         "light": "Increases ATK by 0.5% for 10 seconds upon a Crit Hit. This effect can be stacked up to max 100 times.",
         "dark": "Activation chance changes to 80%."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / Crit Chance +100",
+        "dark": "Miruru stacks Darkness depending on the number of enemies she hits. When she reaches 50 stacks, she goes berserk, boosting her Atk Spd by 800 and her ATK by 20%."
       }
     },
     "13": {
@@ -1975,6 +2023,10 @@
         },
         "light": "Poison stack maximum is changed to 6.",
         "dark": "There is a 20% chance that hit enemies are shackled for 2 sec."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / Crit Chance +100",
+        "dark": "Every 5 sec, targets all enemies and attacks with 'Thornbush Forest' with 30% chance on each enemy."
       }
     },
     "15": {
@@ -2058,7 +2110,7 @@
       },
       "s3": {
         "name": "Guardian Shield",
-        "description": "All allies' P.DEF is increased by {0}for {1} sec and P.Crit Resistance is increased by {2}%.",
+        "description": "All allies' P.DEF is increased by {0} for {1} sec and P.Crit Resistance is increased by {2}%.",
         "books": {
           "0": "DEF boost is increased by {0}%.",
           "1": "DEF boost is increased by {0}%.",
@@ -2088,6 +2140,10 @@
         },
         "light": "Casting time is greatly boosted.",
         "dark": "Reduce an additional 10% of ATK."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / P. Block +200",
+        "dark": "When an ally other than this hero is hit by an attack, increase all allies P.DEF by 20% and P.Crit Resist by 20%. (10 sec Cooldown)"
       }
     },
     "16": {
@@ -2193,7 +2249,7 @@
       },
       "s4": {
         "name": "Spiritual Tuning",
-        "description": "Every 7 sec, an ally with the lowest Hp recovers 0 orb of mana and {1}HP.",
+        "description": "Every 7 sec, an ally with the lowest Hp recovers 0 orb of mana and {1} HP.",
         "books": {
           "0": "Heal rate is increased by {0}%.",
           "1": "Heal rate is increased by {0}%.",
@@ -2201,6 +2257,10 @@
         },
         "light": "Uses the skill every 5 sec.",
         "dark": "Also supplies 1 orb of mana to the ally with the highest ATK."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / M.Dodge +100",
+        "dark": "Upon attacking, there is a 10% chance to reduce all DEF of the target by 20% and reduce all the hero's cooldowns by 5%."
       }
     },
     "17": {
@@ -2284,7 +2344,7 @@
       },
       "s3": {
         "name": "Shadow Wave",
-        "description": "Deals {0}M.DMG to enemies in a straight line and inflicts Blind for {1} sec.",
+        "description": "Deals {0} M.DMG to enemies in a straight line and inflicts Blind for {1} sec.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -2314,6 +2374,10 @@
         },
         "light": "DMG is increased by 40%.",
         "dark": "There is a 10% chance that Skill 1 is fired upon an auto-attack."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / ATK.Spd +100",
+        "dark": "Upon auto attacking, deal extra M.DMG worth 80% of ATK and recover 100 mana. There is a 10% chance of dealing double DMG and recovering double mana."
       }
     },
     "18": {
@@ -2427,6 +2491,10 @@
         },
         "light": "Per each stack, DMG is increased by 4% to enemies other than heroes.",
         "dark": "When holding 5 stacks, takes 20% reduced DMG."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / Crit DMG +20%",
+        "dark": "When auto attacking, there is a 10% chance to increase Crit DMG by 100% for 5 sec."
       }
     },
     "19": {
@@ -2540,6 +2608,10 @@
         },
         "light": "Target's CC resistance is reduced by 250 for 10 sec.",
         "dark": "Frost cannot be dispelled by dispel skills."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / Crit DMG +20%",
+        "dark": "Every 3 sec, attacks all enemies and deals 50% of ATK as M.DMG, inflicting Frost with 50% chance. Enemies already inflicted with Frost takes 300% of ATK as M.DMG over time for 3 sec."
       }
     },
     "20": {
@@ -2653,6 +2725,10 @@
         },
         "light": "P.DEF is increased by 20% and P. Block is boosted by 50%.",
         "dark": "Recovers HP equal to 40% of P.DEF upon blocking."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / P. Block +200",
+        "dark": "At the beginning of every battle, decrease the ATK of all enemies by 20% for 6 sec. This effect cannot be dispelled."
       }
     },
     "21": {
@@ -2766,6 +2842,10 @@
         },
         "light": "Activation chance changes to 60%.",
         "dark": "Atk Spd is boosted by 300 when effect takes place."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / P.Dodge +100",
+        "dark": "Upon dodging, all skill cooldowns are reduced by 2%. Also, ATK is boosted by 3%, and Atk Spd is boosted by 30. The ATK and Atk Spd Boosts can stack up to 10 times."
       }
     },
     "22": {
@@ -2879,6 +2959,10 @@
         },
         "light": "If there is 1 enemy, DMG is increased by 100%.",
         "dark": "Enemies hit are stunned for 2 sec."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / Crit Chance +100",
+        "dark": "Increases ATK by 20% for 10 seconds and sets 3 random enemies as Rodina's target at the start of every battle."
       }
     },
     "23": {
@@ -2992,6 +3076,10 @@
         },
         "light": "Increases own M.DEF by 5% per each block. Max stack is 10.",
         "dark": "Target with over 100 stacks of Flame takes 40% increased M.DMG."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / M. Block +200",
+        "dark": "Flame stack DMG is increased by 100%, and max stack number is changed to 120"
       }
     },
     "24": {
@@ -3105,6 +3193,10 @@
         },
         "light": "Activation chance is boosted by 10%.",
         "dark": "Attack range is boosted by 20%."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / M. Block +200",
+        "dark": "When attacking with Holy Nova and Spear of Light, deal extra M.DMG equal to 100% of ATK and reduce the used skill's cooldown by 20%."
       }
     },
     "25": {
@@ -3218,12 +3310,16 @@
         },
         "light": "While inside the Coffin, deal DMG worth 5% of max HP to nearby enemies.",
         "dark": "Upon activation, stun all enemies for 2 sec."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / M. Block +200",
+        "dark": "Each hit of Jane's attacks increase her ATK and Recovery Rate by 1% each. (Maximum stack number is 50)"
       }
     },
     "26": {
       "name": "Aisha",
       "subtitle": "The Violet Princess",
-      "description": "A noble lady hailing from Orvelia. A genius who attained the title of \u2018Violet\u2019 from the Tower of the Sage. Using her fancy parasol, she fires powerful energy cannons towards the enemy.",
+      "description": "A noble lady hailing from Orvelia. A genius who attained the title of ‘Violet’ from the Tower of the Sage. Using her fancy parasol, she fires powerful energy cannons towards the enemy.",
       "story": "A daughter of a noble family from Orvel. As one of the most talented wizards in the Tower of Sage, she has been granted the title of 'Purple' in recognition of her magic capability. She was raised in the Tower of Sage since childhood at her parents' request, but she still retains her dignity as an aristocrat. As a child, she never realized why her parents sent her away on her own, but now she understands their reasons. Now, she is back home, and is always attended by her handmaiden, who is like another member of the family to her.",
       "like": "Tea time with Priscilla",
       "dislike": "Rude people",
@@ -3331,6 +3427,10 @@
         },
         "light": "DMG is increased by 40%.",
         "dark": "Ignores enemy Block."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / Crit Chance +100",
+        "dark": "Each skill use stacks Darkness. Each stack boosts her Mana regen per sec by 6% and boosts her Crit DMG by 2%. (Maximum Stack number is 50)"
       }
     },
     "27": {
@@ -3444,6 +3544,10 @@
         },
         "light": "Heal rate is increased by 40%.",
         "dark": "After healing an ally, increase target P.DEF for 40% for a duration of 10 sec."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / P. Block +200",
+        "dark": "Upon attacking, there is a 10% chance of dealing 100% of ATK as M.DMG to a random enemy, while also removing 300 mana and inflicting Silence for 1 sec."
       }
     },
     "28": {
@@ -3557,6 +3661,10 @@
         },
         "light": "Upon dodging, raise own ATK by 3%. Stacks up to 10 times.",
         "dark": "Has a 30% chance to stun enemies for 3 sec."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / M.Dodge +100",
+        "dark": "Upon attacking, deal extra P.DMG equal to 20% of ATK to the enemy. There is also a 10% chance of dealing double P.DMG and dispelling positive effects."
       }
     },
     "29": {
@@ -3670,6 +3778,10 @@
         },
         "light": "There is a 20% chance to knock back the enemy far away and inflict knock over for 2 sec.",
         "dark": "Number of targets changes to 2."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / Crit DMG +20%",
+        "dark": "When auto-attacking, there is a 10% chance to knock back the enemy across a long distance and inflict Stun for 3 sec. Also, increase ATK Spd by 500 for 3 sec."
       }
     },
     "30": {
@@ -3775,7 +3887,7 @@
       },
       "s4": {
         "name": "Blessing of the Water Dragon",
-        "description": "All allies' M.DEF is increased by {0}, and M.Crit Hit Resistance is increased by {1}.",
+        "description": "All allies' M.DEF is increased by {0} , and M.Crit Hit Resistance is increased by {1}.",
         "books": {
           "0": "Defense Boost is increased by {0}%.",
           "1": "Defense Boost is increased by {0}%.",
@@ -3783,6 +3895,10 @@
         },
         "light": "M.DEF increase rate increases by 20%, and M. Crit Resistance increases by 100",
         "dark": "Increases self CC Resist by 400."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / M. Block +200",
+        "dark": "Laias increases M.DEF equal of 5% of her ATK to allies she heals, as well as giving them 75 mana each."
       }
     },
     "31": {
@@ -3896,6 +4012,10 @@
         },
         "light": "For 20 sec after activation, auto attacks target 2 enemies.",
         "dark": "Effect occurs 3 sec faster."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / Crit Chance +100",
+        "dark": "Upon a Critical Hit, heal all ally HP by 4% of DMG dealt."
       }
     },
     "32": {
@@ -3974,7 +4094,7 @@
             "[Blood Zone] Increases DMG by 35% and the effect duration by 2 sec.",
             "[Blood Zone] Increases DMG by 42% and the effect duration by 2 sec."
           ],
-          "story": "Magic tool of the successor of blood. The spells of the pure Vampire Lord's family have been passed down through generations.\u00a0 The successor of Lewisia is Vampire Sir Lusben, and the Spell of Bloody Mist is a gift from him.\u00a0 Lewisia hates anything that has to do with being a successor, but she likes how the Blood Zone reduces her fatigue, so she enjoys using it."
+          "story": "Magic tool of the successor of blood. The spells of the pure Vampire Lord's family have been passed down through generations.  The successor of Lewisia is Vampire Sir Lusben, and the Spell of Bloody Mist is a gift from him.  Lewisia hates anything that has to do with being a successor, but she likes how the Blood Zone reduces her fatigue, so she enjoys using it."
         }
       },
       "s3": {
@@ -4009,6 +4129,10 @@
         },
         "light": "Max stack of Blood Curse is changed to 200 stacks.",
         "dark": "All allies' heal rate is increased by 20% and all enemies' heal rate is reduced by 20%."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / Crit Chance +100",
+        "dark": "All skill HP consumption is increased by 50% but cooldowns are reduced by 20%."
       }
     },
     "33": {
@@ -4122,6 +4246,10 @@
         },
         "light": "DMG is increased by 15% per each enemy on the field.",
         "dark": "There is a 10% chance of dispelling enemy positive effects."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / Crit DMG +20%",
+        "dark": "When auto attacking, there is a 10% chance of stacking 1 stack of Blade. Nyx's ATK is boosted by 10% per each Blade Stack he holds."
       }
     },
     "34": {
@@ -4235,6 +4363,10 @@
         },
         "light": "ATK boost is increased by 40%.",
         "dark": "Overcharge duration is increased by 3 sec."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / ATK.Spd +100",
+        "dark": "When Overcharge activates, increase all allies Atk Spd by 200, and increase the ATK of all allies by 5% of Annette's ATK."
       }
     },
     "35": {
@@ -4296,7 +4428,7 @@
       },
       "s2": {
         "name": "Time to Die!!",
-        "description": "For 10 sec, ATK is increased by {0}, and ACC is increased by {2}. Each auto attack has a 15% chance of activating 'Bang! Bang!!'.",
+        "description": "For 10 sec, ATK is increased by {0} , and ACC is increased by {2}. Each auto attack has a 15% chance of activating 'Bang! Bang!!'.",
         "books": {
           "0": "ATK boost is increased by {0}%.",
           "1": "ATK boost is increased by {0}%.",
@@ -4348,6 +4480,10 @@
         },
         "light": "Mark maximum is changed to 200.",
         "dark": "All cooldowns are reduced by 0.3 when hitting a target with 100 stacks."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / Crit DMG +20%",
+        "dark": "Upon a Crit Hit, increase Crit DMG by 0.5% and Atk Spd by 5. Max stack number is 100."
       }
     },
     "36": {
@@ -4461,6 +4597,10 @@
         },
         "light": "M.DEF increase rate is boosted by 40%.",
         "dark": "Max stack count is boosted to 8."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / P. Block +200",
+        "dark": "When own HP goes below 30%, HP does not go under 10% for 10 sec, and all allies' ATK is increased by 50% of own M.DEF. This effect is activated once every 60 sec."
       }
     },
     "37": {
@@ -4574,6 +4714,10 @@
         },
         "light": "DMG is increased by 40%.",
         "dark": "Silence duration is increased by 2 sec when there is only 1 enemy."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / Crit DMG +20%",
+        "dark": "Auto attack damage is boosted by 50% while in Stealth mode."
       }
     },
     "38": {
@@ -4679,7 +4823,7 @@
       },
       "s4": {
         "name": "Cursed Blood",
-        "description": "Ezekiel gains 0 stack of 'Cursed Blood' at the end of skill. Upon the 4th stack, consumes Cursed Blood to reset all skill cooldown, dealing {1} M.DMG to nearby enemies and knocking them down for 2 sec, while activating Fury for {1} sec, that cannot be dispelled. While in Fury state, goes into an auto-battle mode that cannot be controlled, and ATK is increased by {3}, auto attack DMG is doubled, and all Skill effect are reinforced. Cannot gain Cursed Blood during Fury state, except for when killing an enemy.",
+        "description": "Ezekiel gains 0 stack of 'Cursed Blood' at the end of skill. Upon the 4th stack, consumes Cursed Blood to reset all skill cooldown, dealing {1} M.DMG to nearby enemies and knocking them down for 2 sec, while activating Fury for {1} sec, that cannot be dispelled. While in Fury state, goes into an auto-battle mode that cannot be controlled, and ATK is increased by {3} , auto attack DMG is doubled, and all Skill effect are reinforced. Cannot gain Cursed Blood during Fury state, except for when killing an enemy.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -4687,6 +4831,10 @@
         },
         "light": "When in Fury state, heal rate is increased by 50%.",
         "dark": "Per every stacked 'Cursed Blood', takes 12% reduced DMG."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / ATK.Spd +100",
+        "dark": "When in Fury state, auto attack deals DMG that ignores DEF."
       }
     },
     "39": {
@@ -4800,6 +4948,10 @@
         },
         "light": "All DMG upon allies is reduced by 20% for 5 sec.",
         "dark": "DEF increase effect has its duration increased by 5 sec."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / ATK.Spd +100",
+        "dark": "At the beginning of each battle, a random ally is immune to DMG for 3 sec."
       }
     },
     "40": {
@@ -4913,6 +5065,10 @@
         },
         "light": "DMG is increased by 40%.",
         "dark": "Stun duration is increased by 0.2 sec."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / ATK.Spd +100",
+        "dark": "When 'God of Lightning' is activated, recovers half mana instead. When mana is full, ATK is increased by 50% for 10 sec. This effect only activates once every 20 sec."
       }
     },
     "41": {
@@ -4996,7 +5152,7 @@
       },
       "s3": {
         "name": "Strengthening Potion",
-        "description": "Injects the ally with the highest ATK with a strengthening potion, increasing their ATK by 20%+{0} of Mediana's ATK and keeping their HP from falling below 5%.",
+        "description": "Injects the ally with the highest ATK with a strengthening potion, increasing their ATK by 20%+ {0} of Mediana's ATK and keeping their HP from falling below 5%.",
         "books": {
           "0": "ATK boost is increased by {0}%.",
           "1": "ATK boost is increased by {0}%.",
@@ -5026,6 +5182,10 @@
         },
         "light": "P.Crit Resistance amount is changed to 300.",
         "dark": "Target takes 20% increased P.DMG."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / CC Resist +100",
+        "dark": "When Mediana takes DMG, all allies gain 2% ATK. This effect stacks 20 times."
       }
     },
     "42": {
@@ -5139,6 +5299,10 @@
         },
         "light": "Additional DMG effect count changes to 1 time, and DMG is increased by 100%.",
         "dark": "Additional DMG effect stack is limited to 20 times max, and per each stack, ATK is increased by 3%."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / ATK.Spd +100",
+        "dark": "Every 10 sec, any skills on cooldown for 4 random allies have their cooldowns reduced by 1 sec."
       }
     },
     "43": {
@@ -5252,6 +5416,10 @@
         },
         "light": "Enemies that had their Souls stolen have their CC resistance reduced by 250 for 10 sec.",
         "dark": "Per each stacked Soul, ATK is increased by 10%"
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / Crit Chance +100",
+        "dark": "Per each stacked Soul, Crit Chance is increased by 50 and Crit DMG is increased by 30%."
       }
     },
     "44": {
@@ -5313,7 +5481,7 @@
       },
       "s2": {
         "name": "Coordination",
-        "description": "For 20 sec, Priscilla and an ally with the highest ATK changes to a 'Coordination' state. When in this state, Priscilla and ally's ATK rises by 05%+{1} of Priscilla's ATK.",
+        "description": "For 20 sec, Priscilla and an ally with the highest ATK changes to a 'Coordination' state. When in this state, Priscilla and ally's ATK rises by 05%+ {1} of Priscilla's ATK.",
         "books": {
           "0": "ATK boost is increased by {0}%.",
           "1": "ATK boost is increased by {0}%.",
@@ -5357,7 +5525,7 @@
       },
       "s4": {
         "name": "Weapon Mastery",
-        "description": "Own ATK is increased by {0}, and Penetration is increased by {1}.",
+        "description": "Own ATK is increased by {0} , and Penetration is increased by {1}.",
         "books": {
           "0": "ATK boost is increased by {0}%.",
           "1": "ATK boost is increased by {0}%.",
@@ -5365,6 +5533,10 @@
         },
         "light": "ATK boost is increased by 40%.",
         "dark": "Crit Chance is increased by 250."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / CC Resist +100",
+        "dark": "Increase all allies' ATK and P.DEF by 3% of own ATK and P.DEF."
       }
     },
     "45": {
@@ -5470,7 +5642,7 @@
       },
       "s4": {
         "name": "Dragon Slayer",
-        "description": "ATK is increased by {0}, and Max HP is increased by {1}%. Also, DMG dealt to Dragons is increased by {2}%.",
+        "description": "ATK is increased by {0} , and Max HP is increased by {1}%. Also, DMG dealt to Dragons is increased by {2}%.",
         "books": {
           "0": "ATK boost is increased by {0}%.",
           "1": "ATK boost is increased by {0}%.",
@@ -5478,119 +5650,127 @@
         },
         "light": "All allies take 7% reduced DMG from Dragons.",
         "dark": "Deals 15% more DMG to Dragons."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / Crit DMG +20%",
+        "dark": "Auto-attacks ignore enemy Block effects."
       }
     },
     "46": {
-      "name": null,
-      "subtitle": null,
-      "description": null,
-      "story": null,
-      "like": null,
-      "dislike": null,
+      "name": "",
+      "subtitle": "",
+      "description": "",
+      "story": "",
+      "like": "",
+      "dislike": "",
       "inn": {
-        "idle": null,
+        "idle": "",
         "recruit": {
-          "greet": null,
+          "greet": "",
           "talk": [
-            null,
-            null,
-            null
+            "",
+            "",
+            ""
           ],
-          "gift": null
+          "gift": ""
         },
         "affinity": {
-          "greet": null,
+          "greet": "",
           "talk": [
-            null,
-            null
+            "",
+            ""
           ],
-          "gift": null
+          "gift": ""
         },
         "relationship": {
-          "greet": null,
+          "greet": "",
           "talk": [
-            null,
-            null,
-            null
+            "",
+            "",
+            ""
           ]
         }
       },
       "uw": {
-        "name": null,
+        "name": "",
         "description": [
-          null,
-          null,
-          null,
-          null,
-          null
+          "",
+          "",
+          "",
+          "",
+          ""
         ],
-        "story": null
+        "story": ""
       },
       "s1": {
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "books": {
-          "0": null,
-          "1": null,
-          "2": null
+          "0": "",
+          "1": "",
+          "2": ""
         },
-        "light": null,
-        "dark": null
+        "light": "",
+        "dark": ""
       },
       "s2": {
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "books": {
-          "0": null,
-          "1": null,
-          "2": null
+          "0": "",
+          "1": "",
+          "2": ""
         },
-        "light": null,
-        "dark": null,
+        "light": "",
+        "dark": "",
         "ut": {
-          "name": null,
+          "name": "",
           "description": [
-            null,
-            null,
-            null,
-            null,
-            null
+            "",
+            "",
+            "",
+            "",
+            ""
           ],
-          "story": null
+          "story": ""
         }
       },
       "s3": {
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "books": {
-          "0": null,
-          "1": null,
-          "2": null
+          "0": "",
+          "1": "",
+          "2": ""
         },
-        "light": null,
-        "dark": null,
+        "light": "",
+        "dark": "",
         "ut": {
-          "name": null,
+          "name": "",
           "description": [
-            null,
-            null,
-            null,
-            null,
-            null
+            "",
+            "",
+            "",
+            "",
+            ""
           ],
-          "story": null
+          "story": ""
         }
       },
       "s4": {
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "books": {
-          "0": null,
-          "1": null,
-          "2": null
+          "0": "",
+          "1": "",
+          "2": ""
         },
-        "light": null,
-        "dark": null
+        "light": "",
+        "dark": ""
+      },
+      "t5": {
+        "light": "",
+        "dark": ""
       }
     },
     "49": {
@@ -5696,7 +5876,7 @@
       },
       "s4": {
         "name": "Pathfinder of Fate",
-        "description": "All allies' ATK is increased by {0}, and Crit Chance is increased by 100. Ophelia gains additional effect according to the card in possession. [Death] - ATK is increased by {2}%. [Love] - Per each sec, heals {3}% of max HP. [Fortune] - M.Dodge Chance is increased by 200.",
+        "description": "All allies' ATK is increased by {0} , and Crit Chance is increased by 100. Ophelia gains additional effect according to the card in possession. [Death] - ATK is increased by {2}%. [Love] - Per each sec, heals {3}% of max HP. [Fortune] - M.Dodge Chance is increased by 200.",
         "books": {
           "0": "All allies' ATK boost is increased by {0}%.",
           "1": "All allies' ATK boost is increased by {0}%.",
@@ -5704,6 +5884,10 @@
         },
         "light": "At the start of each battle, gains the card of [Death]. This card does not have DMG boost effect.",
         "dark": "At the start of each battle, gains the card of [Love]. This card does not have heal effect."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / Crit DMG +20%",
+        "dark": "Upon using a skill, there is a 7% chance that mana cost of all skill is reduced by 1 for 7 sec. This effect cannot be dispelled."
       }
     },
     "50": {
@@ -5817,6 +6001,10 @@
         },
         "light": "Tickle Tickle Potion! is stacked 3 at a time.",
         "dark": "Target takes 20% increased P.DMG."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / Crit Chance +100",
+        "dark": "Upon auto attacking an enemy with 50 or more stacks of Tickle Tickle Potion, deals 200% of ATK as extra P.DMG that ignores DEF."
       }
     },
     "51": {
@@ -5900,7 +6088,7 @@
       },
       "s3": {
         "name": "Judgment of the Sun",
-        "description": "Takes position, focuses to heal HP of nearby allies, excluding self, 8 times for a total of {0}, and increases their P.DEF by {1} for 4 sec. Deals a total of {2} M.DMG on enemies within range over 8 times, and decreases their M.DEF by {3} for 5 sec. After the end of the casting, heals HP of allies within range, excluding self, by {5}, and deals {5} M.DMG on enemies, and knocks them down for 3 sec.",
+        "description": "Takes position, focuses to heal HP of nearby allies, excluding self, 8 times for a total of {0} , and increases their P.DEF by {1} for 4 sec. Deals a total of {2} M.DMG on enemies within range over 8 times, and decreases their M.DEF by {3} for 5 sec. After the end of the casting, heals HP of allies within range, excluding self, by {5} , and deals {5} M.DMG on enemies, and knocks them down for 3 sec.",
         "books": {
           "0": "DMG and Heal rate are increased by {0}%.",
           "1": "DMG and Heal rate are increased by {0}%.",
@@ -5930,13 +6118,17 @@
         },
         "light": "Changes ATK Reduction to 30%.",
         "dark": "Activates the effect upon reaching the 7th stack of Curse of the Sun."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / P. Block +200",
+        "dark": "At the beginning of the first battle, increases P.DEF of the ally with the highest ATK by 20% of P.DEF. This effect cannot be dispelled."
       }
     },
     "52": {
       "name": "Crow",
       "subtitle": "The Punishing Bullet",
       "description": "He was a former naval officer, but is now a bounty hunter and a troubleshooter. He is cynical and doesn't trust people easily. His guns are categorized into three types.",
-      "story": "Code name: Hound. A bounty hunter known as the hound of hell. It is said that no one can escape from this former Imperial Navy officer once he targets them. The only consolation for criminals is that this man isn\u2019t motivated by their bounties alone. While there are many theories, the most convincing one is that he\u2019s after revenge. There are moments when this cold-hearted man seems to warm up, they say. It's when he pulls out an old pendant, which nobody has actually seen.",
+      "story": "Code name: Hound. A bounty hunter known as the hound of hell. It is said that no one can escape from this former Imperial Navy officer once he targets them. The only consolation for criminals is that this man isn’t motivated by their bounties alone. While there are many theories, the most convincing one is that he’s after revenge. There are moments when this cold-hearted man seems to warm up, they say. It's when he pulls out an old pendant, which nobody has actually seen.",
       "like": "Candy canes, a pendant safeguarding a memory, the forgotten nagging of a loved one",
       "dislike": "Pirates, Gods who have taken everything away from him. And now, tobacco",
       "inn": {
@@ -5976,7 +6168,7 @@
           "The normal attack shoots an additional bullet that deals 85% of ATK as P.DMG. When the skill ends, 'Hellhound, Akistra' is activated, increasing ATK by 52% and Crit DMG by 52% for 10 sec. 'Hellhound, Akistra' is only activated once at 20 sec.",
           "The normal attack shoots an additional bullet that deals 100% of ATK as P.DMG. When the skill ends, 'Hellhound, Akistra' is activated, increasing ATK by 62% and Crit DMG by 62% for 10 sec. 'Hellhound, Akistra' is only activated once at 20 sec."
         ],
-        "story": "It is unarguably the culmination of the latest imperial technomagi technology. It can transform into three modes, the last of which uses magic that is so devastating that its use has to be restricted. According to Valance, the head of the imperial weapons development organization Magos Le\u2019Flamme, the new weapon Archistra was stolen, immediately after its development, by Crow, a former naval officer who was dishonorably discharged. It remains to be confirmed whether Crow really did manage to infiltrate one of the Empire's most important organizations to steal Archistra... It's also possible that Valance simply handed it over to him, given their long friendship."
+        "story": "It is unarguably the culmination of the latest imperial technomagi technology. It can transform into three modes, the last of which uses magic that is so devastating that its use has to be restricted. According to Valance, the head of the imperial weapons development organization Magos Le’Flamme, the new weapon Archistra was stolen, immediately after its development, by Crow, a former naval officer who was dishonorably discharged. It remains to be confirmed whether Crow really did manage to infiltrate one of the Empire's most important organizations to steal Archistra... It's also possible that Valance simply handed it over to him, given their long friendship."
       },
       "s1": {
         "name": "Target will be Eliminated.",
@@ -6043,6 +6235,10 @@
         },
         "light": "Boss monster takes 15% increased DMG.",
         "dark": "Mana recovery increases by 40%."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / Crit DMG +20%",
+        "dark": "Increases Mana Cost of all skills by 1 and DMG by 75%."
       }
     },
     "53": {
@@ -6093,7 +6289,7 @@
       },
       "s1": {
         "name": "Curse of Petrification",
-        "description": "Attacks an enemy dealing {0} M.DMG and inflicting Curse of Petrification for {1} seconds that can't be dispelled. The enemy under the Curse of Petrification will have ATK Spd reduced by {2}, and this effect gets stronger up to max {3}% as time passes. When the curse ends, petrifies the target for {4} seconds.",
+        "description": "Attacks an enemy dealing {0} M.DMG and inflicting Curse of Petrification for {1} seconds that can't be dispelled. The enemy under the Curse of Petrification will have ATK Spd reduced by {2} , and this effect gets stronger up to max {3}% as time passes. When the curse ends, petrifies the target for {4} seconds.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -6156,232 +6352,244 @@
         },
         "light": "Shield is increased by 80%.",
         "dark": "The Vessel of Curses duration is increased by 20 sec, and becomes dispellable."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / ATK.Spd +100",
+        "dark": "All effects of curse are enhanced. [Curse of Petrification] Petrification duration is increased by 2 sec. [Curse of Time] Curse of Time duration is increased by 3 sec. [Curse of Pain] Curse of Pain DOT is increased by 50%."
       }
     },
     "57": {
-      "name": null,
-      "subtitle": null,
-      "description": null,
-      "story": null,
-      "like": null,
-      "dislike": null,
+      "name": "",
+      "subtitle": "",
+      "description": "",
+      "story": "",
+      "like": "",
+      "dislike": "",
       "inn": {
-        "idle": null,
+        "idle": "",
         "recruit": {
-          "greet": null,
+          "greet": "",
           "talk": [
-            null,
-            null,
-            null
+            "",
+            "",
+            ""
           ],
-          "gift": null
+          "gift": ""
         },
         "affinity": {
-          "greet": null,
+          "greet": "",
           "talk": [
-            null,
-            null
+            "",
+            ""
           ],
-          "gift": null
+          "gift": ""
         },
         "relationship": {
-          "greet": null,
+          "greet": "",
           "talk": [
-            null,
-            null,
-            null
+            "",
+            "",
+            ""
           ]
         }
       },
       "uw": {
-        "name": null,
+        "name": "",
         "description": [
-          null,
-          null,
-          null,
-          null,
-          null
+          "",
+          "",
+          "",
+          "",
+          ""
         ],
-        "story": null
+        "story": ""
       },
       "s1": {
-        "name": "I'll Break You!",
-        "description": null,
+        "name": "",
+        "description": "",
         "books": {
-          "0": null,
-          "1": null,
-          "2": null
+          "0": "",
+          "1": "",
+          "2": ""
         },
-        "light": null,
-        "dark": null
+        "light": "",
+        "dark": ""
       },
       "s2": {
-        "name": "Remove Limit",
-        "description": null,
+        "name": "",
+        "description": "",
         "books": {
-          "0": "DMG is increased by {0}%.",
-          "1": "DMG is increased by {0}%.",
-          "2": "DMG is increased by {0}%."
+          "0": "",
+          "1": "",
+          "2": ""
         },
-        "light": null,
-        "dark": null,
+        "light": "",
+        "dark": "",
         "ut": {
-          "name": null,
+          "name": "",
           "description": [
-            null,
-            null,
-            null,
-            null,
-            null
+            "",
+            "",
+            "",
+            "",
+            ""
           ],
-          "story": null
+          "story": ""
         }
       },
       "s3": {
-        "name": "Burn, Spear of Fury",
-        "description": null,
+        "name": "",
+        "description": "",
         "books": {
-          "0": "DMG is increased by {0}%.",
-          "1": "DMG is increased by {0}%.",
-          "2": "DMG is increased by {0}%."
+          "0": "",
+          "1": "",
+          "2": ""
         },
-        "light": null,
-        "dark": null,
+        "light": "",
+        "dark": "",
         "ut": {
-          "name": null,
+          "name": "",
           "description": [
-            null,
-            null,
-            null,
-            null,
-            null
+            "",
+            "",
+            "",
+            "",
+            ""
           ],
-          "story": null
+          "story": ""
         }
       },
       "s4": {
-        "name": "Remember This in Hell",
-        "description": null,
+        "name": "",
+        "description": "",
         "books": {
-          "0": null,
-          "1": null,
-          "2": null
+          "0": "",
+          "1": "",
+          "2": ""
         },
-        "light": null,
-        "dark": null
+        "light": "",
+        "dark": ""
+      },
+      "t5": {
+        "light": "",
+        "dark": ""
       }
     },
     "58": {
-      "name": null,
-      "subtitle": null,
-      "description": null,
-      "story": null,
-      "like": null,
-      "dislike": null,
+      "name": "",
+      "subtitle": "",
+      "description": "",
+      "story": "",
+      "like": "",
+      "dislike": "",
       "inn": {
-        "idle": null,
+        "idle": "",
         "recruit": {
-          "greet": null,
+          "greet": "",
           "talk": [
-            null,
-            null,
-            null
+            "",
+            "",
+            ""
           ],
-          "gift": null
+          "gift": ""
         },
         "affinity": {
-          "greet": null,
+          "greet": "",
           "talk": [
-            null,
-            null
+            "",
+            ""
           ],
-          "gift": null
+          "gift": ""
         },
         "relationship": {
-          "greet": null,
+          "greet": "",
           "talk": [
-            null,
-            null,
-            null
+            "",
+            "",
+            ""
           ]
         }
       },
       "uw": {
-        "name": null,
+        "name": "",
         "description": [
-          null,
-          null,
-          null,
-          null,
-          null
+          "",
+          "",
+          "",
+          "",
+          ""
         ],
-        "story": null
+        "story": ""
       },
       "s1": {
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "books": {
-          "0": "DMG is increased by {0}%.",
-          "1": "DMG is increased by {0}%.",
-          "2": "DMG is increased by {0}%."
+          "0": "",
+          "1": "",
+          "2": ""
         },
-        "light": null,
-        "dark": null
+        "light": "",
+        "dark": ""
       },
       "s2": {
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "books": {
-          "0": "ATK boost and DMG is increased by {0}%",
-          "1": "ATK boost and DMG is increased by {0}%",
-          "2": "ATK boost and DMG is increased by {0}%"
+          "0": "",
+          "1": "",
+          "2": ""
         },
-        "light": null,
-        "dark": null,
+        "light": "",
+        "dark": "",
         "ut": {
-          "name": null,
+          "name": "",
           "description": [
-            null,
-            null,
-            null,
-            null,
-            null
+            "",
+            "",
+            "",
+            "",
+            ""
           ],
-          "story": null
+          "story": ""
         }
       },
       "s3": {
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "books": {
-          "0": "DMG is increased by {0}%.",
-          "1": "DMG is increased by {0}%.",
-          "2": "DMG is increased by {0}%."
+          "0": "",
+          "1": "",
+          "2": ""
         },
-        "light": null,
-        "dark": null,
+        "light": "",
+        "dark": "",
         "ut": {
-          "name": null,
+          "name": "",
           "description": [
-            null,
-            null,
-            null,
-            null,
-            null
+            "",
+            "",
+            "",
+            "",
+            ""
           ],
-          "story": null
+          "story": ""
         }
       },
       "s4": {
-        "name": null,
-        "description": null,
+        "name": "",
+        "description": "",
         "books": {
-          "0": null,
-          "1": null,
-          "2": null
+          "0": "",
+          "1": "",
+          "2": ""
         },
-        "light": null,
-        "dark": null
+        "light": "",
+        "dark": ""
+      },
+      "t5": {
+        "light": "",
+        "dark": ""
       }
     },
     "62": {
@@ -6495,6 +6703,10 @@
         },
         "light": "Crit Resistance increases to 300.",
         "dark": "Stun duration lasts for 2 more sec when there is only one enemy."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / CC Resist +100",
+        "dark": "When receiving Critical DMG, there is a 5% chance the attacker is dispelled of all positive effects and is stunned for 1 sec. Skill cooldown is 8 sec."
       }
     },
     "63": {
@@ -6608,6 +6820,10 @@
         },
         "light": "Shock duration is increased by 2 sec.",
         "dark": "Increased M.DMG taken' effect changes to 'Increased P. and M. DMG taken'."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / ATK.Spd +100",
+        "dark": "Upon attack, with 15% chance deals extra M.DMG by 10% of Max HP and injects 1 extra stack of Electricity."
       }
     },
     "64": {
@@ -6658,7 +6874,7 @@
       },
       "s1": {
         "name": "Pillar of Light",
-        "description": "Places a Pillar of Light on target enemy, dealing a total of {0} M.DMG for 3 sec and reducing enemy ATK by {1}% for 10 sec.",
+        "description": "Places a Pillar of Light on target enemy, dealing a total of {0} M.DMG for 5 sec and reducing enemy ATK by {1}% for 10 sec.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -6713,7 +6929,7 @@
       },
       "s4": {
         "name": "Blessing of Light",
-        "description": "Each attack has a 50% chance of dealing {0} M.DMG to target and nearby enemies, while Artemia gains 1 stack of Blessing of Light. Blessing of Light can be stacked up to 10 times max. Per every stack, ATK is increased by {1}, DMG dealt to enemies other than heroes is increased by {2}% and DMG received by enemies other than heroes is reduced by {3}%.",
+        "description": "Each attack has a 50% chance of dealing {0} M.DMG to target and nearby enemies, while Artemia gains 1 stack of Blessing of Light. Blessing of Light can be stacked up to 10 times max. Per every stack, ATK is increased by {1} , DMG dealt to enemies other than heroes is increased by {2}% and DMG received by enemies other than heroes is reduced by {3}%.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -6721,6 +6937,10 @@
         },
         "light": "Activation chance is changed to 60%.",
         "dark": "Maximum stack count is increased to 12."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / Crit Chance +100",
+        "dark": "When HP falls below 50%, gain 2 sec of immunity to all DMG. This effect activates only once every 30 sec."
       }
     },
     "65": {
@@ -6834,13 +7054,17 @@
         },
         "light": "When there are enemies inflicted by 'Target Lock On', Crit Chance is increased by 400.",
         "dark": "Receives 30% reduced DMG when enemy is inflicted by 'Target Lock On'."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / Crit DMG +20%",
+        "dark": "Upon killing an enemy, all skill cooldown is reduced by 50%, and recovers 1 orb of mana."
       }
     },
     "66": {
       "name": "Shea",
       "subtitle": "Aria of Fantasy",
       "description": "This mysterious girl heals people with her captivating tunes. She heals people with her beautiful voice and the lovely sounds of her magic harp.",
-      "story": "'Listening to the beautiful melody on the battlefield makes me wonder if I am truly in the middle of a battlefield.' 'I dropped the sword from my hand. All the other soldiers present also dropped their swords.' 'It felt as though the girl was in an entirely different plane of existence, removed from the rest of us.' The sensational tale of the pink-haired girl, whose sudden appearance and performance stopped the battle, quickly spread. Her beautiful, captivating melody and her demure, lovely presence has captured everyone's imagination. However, no one really knew where she came from or where she was headed. 'She seemed kind of strange to me, the way she was talking to thin air, as if there was somebody there...' Of course, some have suggested more convincing theories on the girl\u2019s whereabouts, but her mysterious beauty has drowned out all speculation.",
+      "story": "'Listening to the beautiful melody on the battlefield makes me wonder if I am truly in the middle of a battlefield.' 'I dropped the sword from my hand. All the other soldiers present also dropped their swords.' 'It felt as though the girl was in an entirely different plane of existence, removed from the rest of us.' The sensational tale of the pink-haired girl, whose sudden appearance and performance stopped the battle, quickly spread. Her beautiful, captivating melody and her demure, lovely presence has captured everyone's imagination. However, no one really knew where she came from or where she was headed. 'She seemed kind of strange to me, the way she was talking to thin air, as if there was somebody there...' Of course, some have suggested more convincing theories on the girl’s whereabouts, but her mysterious beauty has drowned out all speculation.",
       "like": "Beautiful melody, soft breezes",
       "dislike": "Ghosts, pumpkin ghouls",
       "inn": {
@@ -6880,7 +7104,7 @@
           "When Trance is stacked, all skill cooldown is reduced by 17%, and recovers own Mana by 350.",
           "When Trance is stacked, all skill cooldown is reduced by 20%, and recovers own Mana by 420."
         ],
-        "story": "This powerful and awe-inspiring equipment that can converse with their wielders, sometimes even dominating the owners themselves. Schwanheit is counted among these awesome weapons. This harp, which insists that it be called 'Mr. Schute,' can significantly amplify the wielder\u2019s mana and spray it all around the wielder. Since the amplified mana is scattered about, it cannot be effectively used as offensive magic. However, depending on how it's used it can prove to be extremely effective in other ways. Mr. Schute is quite a chatterbox, but only to those he considers as his friends. These days he only talks to Shea."
+        "story": "This powerful and awe-inspiring equipment that can converse with their wielders, sometimes even dominating the owners themselves. Schwanheit is counted among these awesome weapons. This harp, which insists that it be called 'Mr. Schute,' can significantly amplify the wielder’s mana and spray it all around the wielder. Since the amplified mana is scattered about, it cannot be effectively used as offensive magic. However, depending on how it's used it can prove to be extremely effective in other ways. Mr. Schute is quite a chatterbox, but only to those he considers as his friends. These days he only talks to Shea."
       },
       "s1": {
         "name": "Green Nature's Melody",
@@ -6947,6 +7171,10 @@
         },
         "light": "Increases Heal rate of Trance by 100%.",
         "dark": "If a skill is used when there are 3 Trance stacks, inflicts M.DMG to enemies instead of healing allies, and reduces all DEF by 10% for 10 sec."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / CC Resist +100",
+        "dark": "At the start of every battle, adds 1 Trance stack recovers 500 MP."
       }
     },
     "67": {
@@ -7052,7 +7280,7 @@
       },
       "s4": {
         "name": "Essence of Technomagic",
-        "description": "When in Anti-personnel Weapon mode, increases all DEF by {0}, and when in Siege Weapon mode, increases ATK by {1}, takes {2}% more DMG, and gains Immunity to CC. Recovers {3} MP each time DMG is dealt to an enemy.",
+        "description": "When in Anti-personnel Weapon mode, increases all DEF by {0} , and when in Siege Weapon mode, increases ATK by {1} , takes {2}% more DMG, and gains Immunity to CC. Recovers {3} MP each time DMG is dealt to an enemy.",
         "books": {
           "0": "ATK and DEF boosts are increased by {0}%.",
           "1": "ATK and DEF boosts are increased by {0}%.",
@@ -7060,6 +7288,10 @@
         },
         "light": "MP Recovery triples when there is only one enemy.",
         "dark": "[Anti-personnel Weapon] - Decreases ATK by 20%, but increases MP Recovery/Sec by 100%. [Siege Weapon] - Decreases all DEF by 60%, but increases Crit DMG by 140%."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / Crit DMG +20%",
+        "dark": "[Anti-personnel Weapon] - Increases CC ACC by 400. [Siege Weapon] - Increases ACC by 400."
       }
     },
     "73": {
@@ -7165,7 +7397,7 @@
       },
       "s4": {
         "name": "Remember This in Hell",
-        "description": "Not affected by Lifesteal stats. Instead, increases Max HP by {0}, Crit by {1}, CC ACC by {2}, and ACC by {3}. If receiving damage that leads to death, resurrects for {4} seconds, with increased Crit DMG by {5}%, and increased ATK Spd by {6}. The resurrection effect is only activated once per battle, and the resurrected Chase cannot use skills.",
+        "description": "Not affected by Lifesteal stats. Instead, increases Max HP by {0} , Crit by {1} , CC ACC by {2} , and ACC by {3}. If receiving damage that leads to death, resurrects for {4} seconds, with increased Crit DMG by {5}%, and increased ATK Spd by {6}. The resurrection effect is only activated once per battle, and the resurrected Chase cannot use skills.",
         "books": {
           "0": "HP boost is increased by {0}%.",
           "1": "HP boost is increased by {0}%.",
@@ -7173,6 +7405,10 @@
         },
         "light": "Upon the activation of resurrection, increases ATK by 50%.",
         "dark": "Upon the activation of resurrection, knocks back nearby enemies in range for 3 seconds."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / Crit DMG +20%",
+        "dark": "Per every 1% of HP lost, Crit DMG is increased by 1% and ATK Spd is increased by 4."
       }
     },
     "90": {
@@ -7185,13 +7421,13 @@
       "inn": {
         "idle": "Hmm... Juno's dishes are best...! This will sell like hotcakes!",
         "recruit": {
-          "greet": null,
+          "greet": "",
           "talk": [
-            null,
-            null,
-            null
+            "",
+            "",
+            ""
           ],
-          "gift": null
+          "gift": ""
         },
         "affinity": {
           "greet": "Ah! Welcome, customer! Oh, wait, this was the Inn...",
@@ -7219,11 +7455,11 @@
           "Upon activating 'Take this!', applies the effects of 'Take anything!' to all allies and reduces cooldown of all own skills by 17%.",
           "Upon activating 'Take this!', applies the effects of 'Take anything!' to all allies and reduces cooldown of all own skills by 20%."
         ],
-        "story": "A curious basket always carried by May whenever she goes hunting for new materials. This mysterious basket contains an infinite amount of space, and turns anything that enters it weightless. This allows May to bring back a ridiculous number of items from a single trip. At a quick glance, it might as well be filled with picnic foods. However, rumors claim that, whenever she takes it to her hunting trips, she packs it with... ...Other questionable things. Or so they say."
+        "story": "A curious basket always carried by May whenever she goes hunting for new materials. This mysterious basket contains an infinite amount of space, and turns anything that enters it weightless. This allows May to bring back a ridiculous number of items from a single trip. At a quick glance, it might as well be filled with picnic foods. However, rumors claim that, whenever she takes it to her hunting trips, she packs it with......Other questionable things. Or so they say."
       },
       "s1": {
         "name": "Take anything!",
-        "description": "All allies' ATK is increased by {0} for 60 sec, and randomly grants one of the following effects: 1. DEF Penetration {1} up, 2. Atk Spd {2} up, 3. Instant Mana recovery by {3} . All effects other than Mana Recovery can be stacked up to 5 times max.",
+        "description": "All allies' ATK is increased by {0} for 60 sec, and randomly grants one of the following effects: 1. DEF Penetration {1} up, 2. Atk Spd {2} up, 3. Instant Mana recovery by {3}. All effects other than Mana Recovery can be stacked up to 5 times max.",
         "books": {
           "0": "ATK boost is increased by {0}%.",
           "1": "ATK boost is increased by {0}%.",
@@ -7234,7 +7470,7 @@
       },
       "s2": {
         "name": "Cheer up!",
-        "description": "All allies' HP is healed by {0}, and per each sec, each ally recovers {1}% of their max HP for 10 sec. There is a 10% chance the heal rate doubles.",
+        "description": "All allies' HP is healed by {0} , and per each sec, each ally recovers {1}% of their max HP for 10 sec. There is a 10% chance the heal rate doubles.",
         "books": {
           "0": "Heal rate is increased by {0}%.",
           "1": "Heal rate is increased by {0}%.",
@@ -7286,6 +7522,10 @@
         },
         "light": "Activates every 12 sec.",
         "dark": "Increases target M.DMG taken by 25%."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / CC Resist +100",
+        "dark": "Each auto-attack has a 30% chance of healing the ally with the lowest HP by 3% of their HP. Also provides 5% mana to the ally."
       }
     },
     "91": {
@@ -7298,13 +7538,13 @@
       "inn": {
         "idle": "Hmm, I can still smell the silvervine...",
         "recruit": {
-          "greet": null,
+          "greet": "",
           "talk": [
-            null,
-            null,
-            null
+            "",
+            "",
+            ""
           ],
-          "gift": null
+          "gift": ""
         },
         "affinity": {
           "greet": "Huh? Hey, how's it going?",
@@ -7399,6 +7639,10 @@
         },
         "light": "When there is 1 enemy, DMG is boosted by 100%.",
         "dark": "When activated in the Arena, deal 15% of the target's current HP as additional P.DMG that ignores DEF."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / ATK.Spd +100",
+        "dark": "Increases all DEF by 8% of ATK."
       }
     },
     "92": {
@@ -7411,13 +7655,13 @@
       "inn": {
         "idle": "Hmm, it's been a while since I just sat back and relaxed.",
         "recruit": {
-          "greet": null,
+          "greet": "",
           "talk": [
-            null,
-            null,
-            null
+            "",
+            "",
+            ""
           ],
-          "gift": null
+          "gift": ""
         },
         "affinity": {
           "greet": "I hope you will continue to take care of the evil beasts that continue to attack Orvel.",
@@ -7504,7 +7748,7 @@
       },
       "s4": {
         "name": "Top Financier's Knowledge",
-        "description": "All Allies' ATK is increased by {0}, and upon using the skill 3 times, instantly gains The Top Financier's Knowledge. Per each stack of Top Financier's Knowledge, own Crit DMG is increased by 30%, and all skill effects are increased by 10% each. Top Financier's Knowledge can be stacked up to max 5 times, and cannot be dispelled.",
+        "description": "All Allies' ATK is increased by {0} , and upon using the skill 3 times, instantly gains The Top Financier's Knowledge. Per each stack of Top Financier's Knowledge, own Crit DMG is increased by 30%, and all skill effects are increased by 10% each. Top Financier's Knowledge can be stacked up to max 5 times, and cannot be dispelled.",
         "books": {
           "0": "ATK boost is increased by {0}%.",
           "1": "ATK boost is increased by {0}%.",
@@ -7512,6 +7756,10 @@
         },
         "light": "Recovers the caster's MP by 2 orbs when activated.",
         "dark": "When activated, increases the caster's ATK by 50% for 10 sec."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / Crit Chance +100",
+        "dark": "Reduces the cooldown of the caster's all skills by 15% every 20 sec."
       }
     },
     "93": {
@@ -7524,13 +7772,13 @@
       "inn": {
         "idle": "I just came out during my break. This is a very nice place. I should drop by more often.",
         "recruit": {
-          "greet": null,
+          "greet": "",
           "talk": [
-            null,
-            null,
-            null
+            "",
+            "",
+            ""
           ],
-          "gift": null
+          "gift": ""
         },
         "affinity": {
           "greet": "Come on in. I was working on one of my wood carvings just now, would you like to take a look?",
@@ -7569,7 +7817,7 @@
           "2": "Blocks all DMG while the skill is in use."
         },
         "light": "Increases the number of 'Endurance' stacked every second by 1.",
-        "dark": null
+        "dark": "Changes ATK Reduction to 30%."
       },
       "s2": {
         "name": "Shrouding Creed",
@@ -7580,7 +7828,7 @@
           "2": "Shield is increased by {0}%."
         },
         "light": "Increases the number of 'Endurance' stacked every second by 1.",
-        "dark": null,
+        "dark": "Changes ATK Reduction to 30%.",
         "ut": {
           "name": "Wooden Doll Miniature",
           "description": [
@@ -7602,7 +7850,7 @@
           "2": "DMG is increased by {0}%."
         },
         "light": "Increases the number of 'Endurance' stacked every second by 1.",
-        "dark": null,
+        "dark": "Changes ATK Reduction to 30%.",
         "ut": {
           "name": "Sea of Invocation",
           "description": [
@@ -7624,52 +7872,56 @@
           "2": "DMG is increased by {0}%."
         },
         "light": "Increases the number of 'Endurance' stacked every second by 1.",
-        "dark": null
+        "dark": "Changes ATK Reduction to 30%."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / M. Block +200",
+        "dark": "Increases ATK and M.DEF of all allies by 3% of Loman's M.DEF."
       }
     }
   },
   "ui": {
-    "acc": "ACC",
-    "archer": "Archer",
+    "weapon": "Unique Weapon",
     "artifact": "Artifact",
-    "aspd": "ATK Spd",
-    "assassin": "Assassin",
+    "treasure": "Unique Treasure",
     "atk": "ATK",
-    "back": "Back",
+    "crit": "Crit",
+    "critdmg": "Crit DMG",
+    "acc": "ACC",
+    "pen": "Penetration",
+    "lifesteal": "Lifesteal",
+    "aspd": "ATK Spd",
+    "dodge": "Dodge",
     "block": "Block",
     "blockdef": "DMG Reduction upon Block",
     "ccresist": "CC Resist",
-    "class": "Class",
-    "crit": "Crit",
-    "critdmg": "Crit DMG",
+    "tough": "Tough",
     "critresist": "Crit Resistance",
-    "dmgtype": "ATK Type",
-    "dodge": "Dodge",
-    "front": "Front",
-    "hero": "Heroes",
-    "hp": "Max HP",
-    "knight": "Knight",
-    "level": "Lv.",
-    "lifesteal": "Lifesteal",
-    "magical": "Magic",
+    "mpatk": "MP Recovery/Attack",
     "mblock": "M.Block",
     "mblockdef": "M.Block DEF",
     "mdodge": "M.Dodge",
-    "mechanic": "Mechanic",
-    "middle": "Middle",
-    "mpatk": "MP Recovery/Attack",
     "mtough": "M.Tough",
-    "pblock": "P.Block",
     "pdodge": "P.Dodge",
-    "pen": "Penetration",
-    "physical": "Physical",
-    "position": "Position",
-    "priest": "Priest",
+    "pblock": "P.Block",
     "ptough": "P.Tough",
-    "tough": "Tough",
-    "treasure": "Treasure",
+    "hp": "Max HP",
+    "level": "Lv.",
+    "hero": "Heroes",
+    "class": "Class",
+    "dmgtype": "ATK Type",
+    "position": "Position",
+    "physical": "Physical",
+    "magical": "Magic",
+    "front": "Front",
+    "middle": "Middle",
+    "back": "Back",
     "warrior": "Warrior",
-    "weapon": "Weapon",
-    "wizard": "Wizard"
+    "archer": "Archer",
+    "knight": "Knight",
+    "wizard": "Wizard",
+    "priest": "Priest",
+    "assassin": "Assassin",
+    "mechanic": "Mechanic"
   }
 }
