@@ -58,14 +58,22 @@ export default {
       return this.itemList[0];
     },
     filteredDataArray: function() {
-      return this.itemList.filter(option => {
-        return (
-          option
-            .toString()
-            .toLowerCase()
-            .indexOf(this.name.toLowerCase()) >= 0
-        );
-      });
+      var index = this.itemList.indexOf(this.name);
+      if (index > -1) {
+        var newList = this.itemList.slice();
+        newList.splice(index, 1);
+        newList.unshift(this.name);
+        return newList;
+      } else {
+        return this.itemList.filter(option => {
+          return (
+            option
+              .toString()
+              .toLowerCase()
+              .indexOf(this.name.toLowerCase()) >= 0
+          );
+        });
+      }
     }
   }
 };
