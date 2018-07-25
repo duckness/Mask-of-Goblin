@@ -2,7 +2,7 @@
 
 Information and various utilities for the King's Raid mobile game.
 
-This is the rewrite branch which cleans up cruft and actually completes the site updating.
+This project uses Vue.js via @vue/cli 3.0 and Bulma for CSS via Buefy.
 
 ## Build Setup
 
