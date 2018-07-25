@@ -49,7 +49,7 @@ export default {
 
 <style>
 #uw {
-  margin-bottom: 1rem;
-  padding-bottom: 1rem;
+  margin: 1rem 0rem;
+  padding: 1rem 0rem;
 }
 </style>

@@ -127,11 +127,6 @@ const getters = {
           ".png"),
         stats: h.getClassStats().attributes
       },
-      treasure: {
-        image: require("@/components/hero/images/" + state.heroID + "/UT.png"),
-        name: Vue.i18n.translate(prefix + ".s3.ut.name"),
-        description: Vue.i18n.translate(prefix + ".s3.ut.description")
-      },
       weapon: {
         image: require("@/components/hero/images/" + state.heroID + "/UW.png"),
         name: Vue.i18n.translate(prefix + ".uw.name"),
@@ -185,7 +180,7 @@ const h = {
   },
   getSkill: function(prefix, skillNum) {
     var s = state.data.hero[state.heroID][skillNum];
-    return {
+    var d = {
       image: require("@/components/hero/images/" +
         state.heroID +
         "/" +
@@ -193,7 +188,6 @@ const h = {
         ".png"),
       name: Vue.i18n.translate(prefix + ".name"),
       description: Vue.i18n.translate(prefix + ".description", s.description),
-      //description: "Vue.i18n.translate(prefix + '.description')",
       transcendence: {
         light: Vue.i18n.translate(prefix + ".light"),
         dark: Vue.i18n.translate(prefix + ".dark")
@@ -204,6 +198,19 @@ const h = {
         Vue.i18n.translate(prefix + ".books.2", s.books[2])
       ]
     };
+    // only s2 and s3 have treasures for now
+    if (skillNum === "s2" || skillNum === "s3") {
+      d.treasure = {
+        image: require("@/components/hero/images/" +
+          state.heroID +
+          "/" +
+          skillNum +
+          "UT.png"),
+        name: Vue.i18n.translate(prefix + ".ut.name"),
+        description: Vue.i18n.translate(prefix + ".ut.description")
+      };
+    }
+    return d;
   },
   getUnique: function(baseVal) {
     return Math.floor(

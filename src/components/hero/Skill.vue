@@ -71,13 +71,19 @@
           </div>
         </div>
       </div>
+      <treasure v-if="'treasure' in skill" :treasure="skill.treasure"/>
     </div>
   </article>
 </template>
 
 <script>
+import Treasure from "./Treasure.vue";
+
 export default {
   name: "Skill",
+  components: {
+    treasure: Treasure
+  },
   props: {
     skill: {
       type: Object,

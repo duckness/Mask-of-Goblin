@@ -6,7 +6,6 @@
     <collapsed :title="'Skill 2'"><skill :skill="hero.s2"/></collapsed>
     <collapsed :title="'Skill 3'"><skill :skill="hero.s3"/></collapsed>
     <collapsed :title="'Skill 4'"><skill :skill="hero.s4"/></collapsed>
-    <treasure :treasure="hero.treasure"/>
     <weapon :weapon="hero.weapon"/>
     <options/>
   </div>
@@ -18,7 +17,6 @@ import HeroDesc from "./HeroDesc.vue";
 import Collapsed from "./Collapsed.vue";
 import Attributes from "./Attributes.vue";
 import Skill from "./Skill.vue";
-import Treasure from "./Treasure.vue";
 import Weapon from "./Weapon.vue";
 import Options from "./Options.vue";
 
@@ -29,7 +27,6 @@ export default {
     collapsed: Collapsed,
     attributes: Attributes,
     skill: Skill,
-    treasure: Treasure,
     weapon: Weapon,
     options: Options
   },
@@ -40,6 +37,3 @@ export default {
   }
 };
 </script>
-
-<style>
-</style>

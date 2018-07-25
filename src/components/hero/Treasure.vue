@@ -1,5 +1,5 @@
 <template>
-  <article id="ut" class="media">
+  <article class="media ut">
     <figure class="media-left">
       <p class="image is-128x128">
         <img :src="treasure.image">
@@ -48,8 +48,7 @@ export default {
 </script>
 
 <style>
-#ut {
-  margin-top: 1rem;
-  padding-top: 1rem;
+.ut {
+  margin-bottom: 1.25rem;
 }
 </style>
