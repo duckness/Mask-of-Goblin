@@ -5,7 +5,7 @@
         <label class="label">Initial Stat Value:</label>
         <div class="field ">
           <div class="control is-expanded">
-            <input class="input" type="number" v-model.number="istat"></input>
+            <input class="input" type="number" v-model.number="istat">
           </div>
         </div>
       </div>
@@ -62,8 +62,8 @@
 
 <script>
 export default {
-  name: 'softcap',
-  data: function () {
+  name: "softcap",
+  data: function() {
     return {
       istat: 0,
       crit: {
@@ -226,40 +226,55 @@ export default {
         A4: 0,
         B4: 0
       }
-    }
+    };
   },
   methods: {
-    actualStat: function (statType) {
-      var actual = 0
+    actualStat: function(statType) {
+      var actual = 0;
       // variable names are fucked cause vespa
       if (this.istat === 0) {
-        actual = 0
-      // 2nd upper softcap
+        actual = 0;
+        // 2nd upper softcap
       } else if (this.istat > statType.X1) {
-        actual = this.attenuateInv(this.istat, statType.MaxK, statType.A1, statType.B1)
-      // 1st upper softcap
+        actual = this.attenuateInv(
+          this.istat,
+          statType.MaxK,
+          statType.A1,
+          statType.B1
+        );
+        // 1st upper softcap
       } else if (this.istat > statType.X2) {
-        actual = Math.floor(this.istat * statType.A2 / 1000) + statType.B2
-      // 2nd lower softcap
+        actual = Math.floor((this.istat * statType.A2) / 1000) + statType.B2;
+        // 2nd lower softcap
       } else if (this.istat < statType.X3) {
-        actual = this.attenuateInv(this.istat, statType.MinK, statType.A3, statType.B3)
-      // 1st lower softcap
+        actual = this.attenuateInv(
+          this.istat,
+          statType.MinK,
+          statType.A3,
+          statType.B3
+        );
+        // 1st lower softcap
       } else if (this.istat < statType.X4) {
-        actual = this.attenuate(this.istat, statType.MinK, statType.A4, statType.B4)
-      // uncapped
+        actual = this.attenuate(
+          this.istat,
+          statType.MinK,
+          statType.A4,
+          statType.B4
+        );
+        // uncapped
       } else {
-        actual = this.istat
+        actual = this.istat;
       }
       // return to 1 significant decimal place
-      actual = Math.round(actual) / 10
-      return actual.toFixed(1)
+      actual = Math.round(actual) / 10;
+      return actual.toFixed(1);
     },
-    attenuate: function (x, k, a, b) {
-      return Math.floor(k * 1000000 / (a * x * x + b * x + 1000000))
+    attenuate: function(x, k, a, b) {
+      return Math.floor((k * 1000000) / (a * x * x + b * x + 1000000));
     },
-    attenuateInv: function (x, k, a, b) {
-      return k - Math.floor(k * 1000000 / (a * x * x + b * x + 1000000))
+    attenuateInv: function(x, k, a, b) {
+      return k - Math.floor((k * 1000000) / (a * x * x + b * x + 1000000));
     }
   }
-}
+};
 </script>

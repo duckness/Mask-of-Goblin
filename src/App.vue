@@ -1,119 +1,83 @@
 <template>
   <div id="app">
-    <section class="section" id="content">
+    <navbar/>
+    <section id="content" class="section">
       <div class="container">
         <div class="columns is-centered">
           <div class="column is-three-quarters">
             <div class="box">
-              <artifact-description v-if="page === 'artifact'"/>
-              <hero-description v-if="page === 'hero'"/>
-              <calc-description v-if="page === 'calc'"/>
-              <br>
-              <label class="label">Select:</label>
-              <page-selector/>
-              <artifact-options v-if="page === 'artifact'"/>
-              <hero-options v-if="page === 'hero'"/>
-              <calc-options v-if="page === 'calc'"/>
+              <router-view/>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <mog-footer/>
+    <mogfooter/>
   </div>
 </template>
 
 <script>
-
-import { mapGetters } from 'vuex'
-import PageSelector from './components/PageSelector.vue'
-import ArtifactDescription from './components/artifact/Description.vue'
-import ArtifactOptions from './components/artifact/Options.vue'
-import HeroDescription from './components/hero/Description.vue'
-import HeroOptions from './components/hero/Options.vue'
-import CalcDescription from './components/calculators/Calc.vue'
-import CalcOptions from './components/calculators/Options.vue'
-import MogFooter from './components/MogFooter.vue'
-
-require('./style.scss')
-
-const siteTitle = 'King\'s Raid Gear'
-const siteDesc = 'A quick Artifact and Unique Weapon viewer for King\'s Raid'
+import Navbar from "./components/layout/Navbar.vue";
+import MogFooter from "./components/layout/MogFooter.vue";
 
 export default {
-  name: 'app',
+  name: "App",
   components: {
-    'page-selector': PageSelector,
-    'artifact-description': ArtifactDescription,
-    'artifact-options': ArtifactOptions,
-    'hero-description': HeroDescription,
-    'hero-options': HeroOptions,
-    'calc-description': CalcDescription,
-    'calc-options': CalcOptions,
-    'mog-footer': MogFooter
+    navbar: Navbar,
+    mogfooter: MogFooter
   },
-  computed: {
-    ...mapGetters([
-      'itemImage',
-      'itemName',
-      'description'
-    ]),
-    page: {
-      get () {
-        return this.$store.state.page
-      },
-      set (newPage) {
-        this.$store.commit('pageChange', newPage)
-      }
-    },
-    rootUrl: function () {
-      if (window.location.port === '') {
-        return window.location.protocol + '//' + window.location.hostname
-      } else {
-        return window.location.protocol + '//' + window.location.hostname + ':' + window.location.port
-      }
-    },
-    metaTitle: function () {
-      if (Object.keys(this.$route.query).length === 0) {
-        return siteTitle
-      } else {
-        return this.itemName
-      }
-    },
-    metaDesc: function () {
-      if (Object.keys(this.$route.query).length === 0) {
-        return siteDesc
-      } else {
-        return this.description
-      }
-    },
-    metaImage: function () {
-      if (Object.keys(this.$route.query).length === 0) {
-        return this.rootUrl + require('./components/artifact/images/Mask of Goblin.png')
-      } else {
-        return this.rootUrl + this.itemImage
-      }
-    }
-  },
-  metaInfo: function () {
+  metaInfo: function() {
     return {
-      title: siteTitle,
       link: [
-        { rel: 'shortcut icon', type: 'image/png', href: '/static/favicon.png' }
-      ],
-      meta: [
-        { charset: 'utf-8' },
-        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { name: 'author', content: 'TRAPPED' },
-        { name: 'description', content: siteDesc },
-        { name: 'keywords', content: 'Kings,King\'s,Raid,Artifact,Unique,Weapon,Armor,UW' },
-        { property: 'og:title', content: this.metaTitle },
-        { property: 'og:type', content: 'website' },
-        { property: 'og:url', content: window.location.href },
-        { property: 'og:image', content: this.metaImage },
-        { property: 'og:description', content: this.metaDesc }
+        { rel: "shortcut icon", type: "image/png", href: "/static/favicon.png" }
       ]
-    }
+    };
+  }
+};
+</script>
+
+<style lang="scss">
+@import "~buefy/lib/buefy.css";
+@import "~@fortawesome/fontawesome-free-webfonts/css/fontawesome.css";
+@import "~@fortawesome/fontawesome-free-webfonts/css/fa-solid.css";
+
+#app {
+  background-color: #f5f5f5;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#content {
+  position: relative;
+  padding: 1.5rem 1.5rem;
+  margin: 3.25rem 0 6rem;
+}
+.fa-icon {
+  width: auto;
+  height: 1em;
+}
+.label.no-margin-bottom:not(:last-child) {
+  margin-bottom: 0;
+}
+.no-margin-columns {
+  margin: 0;
+}
+.no-margin-columns:last-child {
+  margin: 0;
+}
+.media-content {
+  overflow: hidden;
+  > .content {
+    margin-bottom: 1.25rem;
   }
 }
-</script>
+.card-content {
+  padding: 1.25rem 1.25rem 0rem;
+}
+</style>
