@@ -187,6 +187,8 @@ const h = {
         skillNum +
         ".png"),
       name: Vue.i18n.translate(prefix + ".name"),
+      mana: s.mana,
+      cooldown: s.cooldown,
       description: Vue.i18n.translate(prefix + ".description", s.description),
       transcendence: {
         light: Vue.i18n.translate(prefix + ".light"),
