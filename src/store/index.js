@@ -187,8 +187,6 @@ const h = {
         skillNum +
         ".png"),
       name: Vue.i18n.translate(prefix + ".name"),
-      mana: s.mana,
-      cooldown: s.cooldown,
       description: Vue.i18n.translate(prefix + ".description", s.description),
       transcendence: {
         light: Vue.i18n.translate(prefix + ".light"),
@@ -212,7 +210,15 @@ const h = {
         description: Vue.i18n.translate(prefix + ".ut.description")
       };
     }
+    // additional stats that may or may not be in data.json
+    h.addIfExists(d, s, "mana");
+    h.addIfExists(d, s, "cooldown");
     return d;
+  },
+  addIfExists: function(d, skill, attr) {
+    if (attr in skill) {
+      d[attr] = skill[attr]
+    }
   },
   getUnique: function(baseVal) {
     return Math.floor(
