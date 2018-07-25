@@ -609,8 +609,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "ACC reduction rate is changed to 250.",
-        "dark": "Casting is boosted and Cooldown is reduced by 1 sec."
+        "light": "Mana cost is reduced by 1.",
+        "dark": "Ignores DEF when there is only 1 enemy."
       },
       "s2": {
         "name": "Valiant Dash",
@@ -620,8 +620,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Crit Chance is increased by {0}."
         },
-        "light": "ACC reduction rate is changed to 250.",
-        "dark": "Casting is boosted and Cooldown is reduced by 1 sec.",
+        "light": "Mana cost is reduced by 1.",
+        "dark": "Target takes 25% increased P.DMG.",
         "ut": {
           "name": "Emperor's Gauntlet",
           "description": [
@@ -643,8 +643,8 @@
           "1": "ATK boost is increased by {0}%.",
           "2": "Increases Spd by {0} for the duration of skill."
         },
-        "light": "ACC reduction rate is changed to 250.",
-        "dark": "Casting is boosted and Cooldown is reduced by 1 sec.",
+        "light": "Mana cost is reduced by 1.",
+        "dark": "ATK boost is increased by 40%.",
         "ut": {
           "name": "Proxy's Insignia",
           "description": [
@@ -729,8 +729,8 @@
           "1": "Heal rate is increased by {0}%.",
           "2": "Removes negative effects from the target."
         },
-        "light": "Target's ATK Spd. is boosted by 250.",
-        "dark": "Number of targets changes to 2."
+        "light": "In exchange for 1 additional Mana Cost, the skill targets 2 allies.",
+        "dark": "Healed allies take 25% reduced M.DMG for 10 sec."
       },
       "s2": {
         "name": "Blessings of Light",
@@ -740,8 +740,8 @@
           "1": "Shield is increased by {0}%.",
           "2": "Target's Heal rate is increased by {0}% for the duration of skill."
         },
-        "light": "Target's ATK Spd. is boosted by 250.",
-        "dark": "Number of targets changes to 2.",
+        "light": "Shield is increased by 40%.",
+        "dark": "Shielded allies gain 20% ATK.",
         "ut": {
           "name": "Miraculous Medal",
           "description": [
@@ -763,8 +763,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Crit Chance is increased by {0}."
         },
-        "light": "Target's ATK Spd. is boosted by 250.",
-        "dark": "Number of targets changes to 2.",
+        "light": "In exchange for 1 additional Mana Cost, DMG is increased by 80%.",
+        "dark": "Blind duration is reduced by 2 sec and now targets a random enemy.",
         "ut": {
           "name": "Forgotten Arbiter's Feather",
           "description": [
@@ -849,8 +849,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Ember stack maximum is changed to 6.",
-        "dark": "Activates every 9 sec."
+        "light": "DMG is increased by 40%.",
+        "dark": "Stacks 2 Embers each."
       },
       "s2": {
         "name": "Fire Ball",
@@ -860,8 +860,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Ember stack maximum is changed to 6.",
-        "dark": "Activates every 9 sec.",
+        "light": "DMG is increased by 40%.",
+        "dark": "Mana cost is increased by 1, and attacks a random target 2 times.",
         "ut": {
           "name": "Flamel's Elixir",
           "description": [
@@ -883,8 +883,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Ember stack maximum is changed to 6.",
-        "dark": "Activates every 9 sec.",
+        "light": "Cooldown is reduced by 3 sec.",
+        "dark": "Stuns enemies with 5 Embers or more for 1 sec.",
         "ut": {
           "name": "Tome of Purgatory",
           "description": [
@@ -969,8 +969,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Crit DMG is increased by {0}%."
         },
-        "light": "Each attack recovers 300 mana.",
-        "dark": "Has a 50% chance to stack 1 stack of Bleed."
+        "light": "Mana cost is reduced by 1.",
+        "dark": "Target takes 25% increased P.DMG for 10 sec."
       },
       "s2": {
         "name": "Curtain of Darkness",
@@ -980,8 +980,8 @@
           "1": "ATK boost is increased by {0}%.",
           "2": "ATK Spd is increased by {0} for the duration of skill."
         },
-        "light": "Each attack recovers 300 mana.",
-        "dark": "Has a 50% chance to stack 1 stack of Bleed.",
+        "light": "ATK boost is increased by 40%.",
+        "dark": "Auto attack DMG is boosted by 100% for the duration.",
         "ut": {
           "name": "Soma's Hood",
           "description": [
@@ -1003,8 +1003,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Crit DMG is increased by {0}%."
         },
-        "light": "Each attack recovers 300 mana.",
-        "dark": "Has a 50% chance to stack 1 stack of Bleed.",
+        "light": "In exchange for 1 additional Mana Cost, DMG dealt is increased by 100%.",
+        "dark": "Cooldown is removed.",
         "ut": {
           "name": "Cracked Mask",
           "description": [
@@ -1089,8 +1089,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "ATK boost is increased by 40%.",
-        "dark": "Takes 5% more DMG per each stack, but gains a boost of 50 Crit Chance and Lifesteal per each stack as well."
+        "light": "Mana cost is reduced by 1.",
+        "dark": "Each use increases DMG by 15%. Stacks 10 times max."
       },
       "s2": {
         "name": "Battle Roar",
@@ -1101,7 +1101,7 @@
           "2": "ATK boost is increased by {0}%."
         },
         "light": "ATK boost is increased by 40%.",
-        "dark": "Takes 5% more DMG per each stack, but gains a boost of 50 Crit Chance and Lifesteal per each stack as well.",
+        "dark": "ATK Spd boost of 200 is added to the effect.",
         "ut": {
           "name": "Fighter's Horn",
           "description": [
@@ -1123,8 +1123,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Draws in nearby enemies while casting."
         },
-        "light": "ATK boost is increased by 40%.",
-        "dark": "Takes 5% more DMG per each stack, but gains a boost of 50 Crit Chance and Lifesteal per each stack as well.",
+        "light": "Cooldown reduced by 3 sec.",
+        "dark": "Immune to all types of DMG while in use.",
         "ut": {
           "name": "Barbarian Mug",
           "description": [
@@ -1209,8 +1209,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Reduces hit enemies' P.DEF by {0}% for {1} sec."
         },
-        "light": "Enemies with 5 stacks take 1% extra P.DMG based off Max HP per attack.",
-        "dark": "Upon attack, dispel all positive effects and target receives 20% increased P.DMG for 20 sec. Has a cooldown of 20 sec."
+        "light": "Mana cost is reduced by 1.",
+        "dark": "Cooldown is reduced by 10% per each enemy hit."
       },
       "s2": {
         "name": "Headbutt",
@@ -1220,8 +1220,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Reduces target's ATK by {0}%."
         },
-        "light": "Enemies with 5 stacks take 1% extra P.DMG based off Max HP per attack.",
-        "dark": "Upon attack, dispel all positive effects and target receives 20% increased P.DMG for 20 sec. Has a cooldown of 20 sec.",
+        "light": "Deals extra P.DMG equal to 10% of max HP.",
+        "dark": "Effect changes to a 3 sec Stun to nearby enemies.",
         "ut": {
           "name": "Dwarfish Capricorn Helmet",
           "description": [
@@ -1243,8 +1243,8 @@
           "1": "P.DEF boost is increased by {0}%.",
           "2": "DMG Reduction is increased by {0}."
         },
-        "light": "Enemies with 5 stacks take 1% extra P.DMG based off Max HP per attack.",
-        "dark": "Upon attack, dispel all positive effects and target receives 20% increased P.DMG for 20 sec. Has a cooldown of 20 sec.",
+        "light": "Deals 1% of Max HP as DMG per sec to nearby enemies.",
+        "dark": "Stuns nearby enemies for 3 sec.",
         "ut": {
           "name": "Dwarven Ceremonial Hammer",
           "description": [
@@ -1329,8 +1329,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Activation chance is boosted by 10%.",
-        "dark": "Target takes 25% increased P.DMG."
+        "light": "DMG is increased by 40%.",
+        "dark": "Stuns the enemy for 3 sec."
       },
       "s2": {
         "name": "Smoke Bomb",
@@ -1340,8 +1340,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Deals DMG and Stuns the enemy for 1 sec."
         },
-        "light": "Activation chance is boosted by 10%.",
-        "dark": "Target takes 25% increased P.DMG.",
+        "light": "Mana cost is reduced by 1.",
+        "dark": "Blind duration is increased by 2 sec.",
         "ut": {
           "name": "Special Gas Mask",
           "description": [
@@ -1363,8 +1363,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Activation chance is boosted by 10%.",
-        "dark": "Target takes 25% increased P.DMG.",
+        "light": "Mana cost is increased by 1, and attacks a random target 2 times.",
+        "dark": "Mana cost is reduced by 1.",
         "ut": {
           "name": "Goblincraft Special High-Density Gunpowder",
           "description": [
@@ -1449,8 +1449,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Crit Chance is increased by {0}."
         },
-        "light": "Crit Chance is increased by 400.",
-        "dark": "If there is 1 enemy, Stun duration is increased by 3 sec."
+        "light": "Mana cost is reduced by 1.",
+        "dark": "Target takes 25% increased M.DMG for 10 sec."
       },
       "s2": {
         "name": "Healing Rain",
@@ -1460,8 +1460,8 @@
           "1": "Heal rate is increased by {0}%.",
           "2": "While in use, DMG Reduction is increased by {0} , and gains CC immunity."
         },
-        "light": "Crit Chance is increased by 400.",
-        "dark": "If there is 1 enemy, Stun duration is increased by 3 sec.",
+        "light": "Allies take 25% less DMG while skill is in effect.",
+        "dark": "In exchange for 1 additional Mana Cost, additionally heal allies by 5% of their Max HP.",
         "ut": {
           "name": "Thunderbird Mask",
           "description": [
@@ -1483,8 +1483,8 @@
           "1": "ATK boost is increased by {0}%.",
           "2": "Crit Chance is increased by {0} for the duration of skill."
         },
-        "light": "Crit Chance is increased by 400.",
-        "dark": "If there is 1 enemy, Stun duration is increased by 3 sec.",
+        "light": "ATK boost is increased by 40%.",
+        "dark": "Cooldown is reduced by 3 sec.",
         "ut": {
           "name": "Skywind Feather Decoration",
           "description": [
@@ -1569,8 +1569,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Each stack increases Mana recovery per sec by 50%.",
-        "dark": "While stack number is higher than 5, Mana is always at 100% and cooldowns are decreased by an additional 1 sec per each sec."
+        "light": "If there is 1 enemy, DMG is increased by 100%.",
+        "dark": "Ignores enemy Block."
       },
       "s2": {
         "name": "Nightmare",
@@ -1580,8 +1580,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Each stack increases Mana recovery per sec by 50%.",
-        "dark": "While stack number is higher than 5, Mana is always at 100% and cooldowns are decreased by an additional 1 sec per each sec.",
+        "light": "Mana cost is reduced by 1.",
+        "dark": "Mana consumption is increased by 1, and upon using the skill, 'Absorbing Blow' is activated. Cannot use when there are no enemies in range.",
         "ut": {
           "name": "Succubus's Box",
           "description": [
@@ -1603,8 +1603,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Upon a Crit Hit, heals {0}% of DMG as HP."
         },
-        "light": "Each stack increases Mana recovery per sec by 50%.",
-        "dark": "While stack number is higher than 5, Mana is always at 100% and cooldowns are decreased by an additional 1 sec per each sec.",
+        "light": "DMG is increased by 40%.",
+        "dark": "DMG taken is reduced by 50% while skill is in use.",
         "ut": {
           "name": "Seductress Shoes",
           "description": [
@@ -1689,8 +1689,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Max stack number is changed to 5.",
-        "dark": "Auto attack range is boosted by 20%."
+        "light": "DMG is increased by 40%.",
+        "dark": "There is a 20% chance to inflict Stun for 2 sec."
       },
       "s2": {
         "name": "Rush",
@@ -1700,8 +1700,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Max stack number is changed to 5.",
-        "dark": "Auto attack range is boosted by 20%.",
+        "light": "Ignores DEF when there is only 1 enemy.",
+        "dark": "Makes the enemy flinch for 0.5 sec.",
         "ut": {
           "name": "Wind Spirit Seal Stone",
           "description": [
@@ -1723,8 +1723,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Max stack number is changed to 5.",
-        "dark": "Auto attack range is boosted by 20%.",
+        "light": "Reduces cooldown by 3 sec.",
+        "dark": "Ignores enemy Block.",
         "ut": {
           "name": "Silver Arrow",
           "description": [
@@ -1809,8 +1809,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Reduces ATK Spd by {0}% for the duration of skill."
         },
-        "light": "ATK reduction is increased by 40%.",
-        "dark": "Reduces enemy M. Crit Resistance by 25% for 10 sec."
+        "light": "DMG is increased by 40%.",
+        "dark": "Has a 20% chance of inflicting a 3 sec Shackle."
       },
       "s2": {
         "name": "Claw of Restriction",
@@ -1820,8 +1820,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Enemy takes increased M.DMG by {0}% for the duration of skill."
         },
-        "light": "ATK reduction is increased by 40%.",
-        "dark": "Reduces enemy M. Crit Resistance by 25% for 10 sec.",
+        "light": "Mana cost is increased by 1 and the skill targets 3 enemies.",
+        "dark": "Shackle duration is increased by 1.5 sec.",
         "ut": {
           "name": "Spirit's Sabaton",
           "description": [
@@ -1843,8 +1843,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "ATK reduction is increased by 40%.",
-        "dark": "Reduces enemy M. Crit Resistance by 25% for 10 sec.",
+        "light": "Target takes 25% increased M.DMG for 10 sec.",
+        "dark": "Mana cost is reduced by 1.",
         "ut": {
           "name": "Pendant of Darkness",
           "description": [
@@ -1929,8 +1929,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Increases ATK by 0.5% for 10 seconds upon a Crit Hit. This effect can be stacked up to max 100 times.",
-        "dark": "Activation chance changes to 80%."
+        "light": "Mana cost is reduced by 1.",
+        "dark": "Upon activation, ATK is increased by 35% for 10 sec."
       },
       "s2": {
         "name": "Roll Over",
@@ -1940,8 +1940,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Increases ATK by 0.5% for 10 seconds upon a Crit Hit. This effect can be stacked up to max 100 times.",
-        "dark": "Activation chance changes to 80%.",
+        "light": "DMG is increased by 40%.",
+        "dark": "For each enemy that takes DMG, reduce cooldown by 8%.",
         "ut": {
           "name": "Pirate King's Sextant",
           "description": [
@@ -1963,8 +1963,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Increases ATK by 0.5% for 10 seconds upon a Crit Hit. This effect can be stacked up to max 100 times.",
-        "dark": "Activation chance changes to 80%.",
+        "light": "DMG is increased by 40%.",
+        "dark": "Removes ATK Spd debuff effect and adds a 3 sec Stun.",
         "ut": {
           "name": "Miruru Cannonball",
           "description": [
@@ -2049,8 +2049,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Stacks 2 Poison upon Crit Hit."
         },
-        "light": "Poison stack maximum is changed to 6.",
-        "dark": "There is a 20% chance that hit enemies are shackled for 2 sec."
+        "light": "Hit count is increased by 1.",
+        "dark": "Enemies with 5 or more stacks of Poison are shackled for 3 sec upon hit."
       },
       "s2": {
         "name": "Tangled Vine",
@@ -2060,8 +2060,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Target takes {0}% increased M.DMG for the duration of skill."
         },
-        "light": "Poison stack maximum is changed to 6.",
-        "dark": "There is a 20% chance that hit enemies are shackled for 2 sec.",
+        "light": "DMG is increased by 40%.",
+        "dark": "Enemies hit by the final explosion effect are stunned for 2 sec.",
         "ut": {
           "name": "Deadly Belladonna",
           "description": [
@@ -2083,8 +2083,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Poison stack maximum is changed to 6.",
-        "dark": "There is a 20% chance that hit enemies are shackled for 2 sec.",
+        "light": "Mana cost is increased by 1 orb but DMG is boosted by 100%.",
+        "dark": "Enemies with 5 or more stacks of Poison lose their positive effects.",
         "ut": {
           "name": "Root of the World Tree",
           "description": [
@@ -2169,8 +2169,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Stun duration is increased by {0} sec."
         },
-        "light": "Casting time is greatly boosted.",
-        "dark": "Reduce an additional 10% of ATK."
+        "light": "Cooldown is reduced by 2 sec.",
+        "dark": "In exchange for 1 additional Mana Cost, the skill has a 100% chance to draw the target in."
       },
       "s2": {
         "name": "Shield Strike",
@@ -2180,8 +2180,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Target's Spd is reduced by {0}%."
         },
-        "light": "Casting time is greatly boosted.",
-        "dark": "Reduce an additional 10% of ATK.",
+        "light": "Target takes 25% increased P.DMG for 10 sec.",
+        "dark": "Stuns the enemy for 1 sec.",
         "ut": {
           "name": "Firm Determination",
           "description": [
@@ -2203,8 +2203,8 @@
           "1": "DEF boost is increased by {0}%.",
           "2": "DEF boost is increased by {0}%."
         },
-        "light": "Casting time is greatly boosted.",
-        "dark": "Reduce an additional 10% of ATK.",
+        "light": "DEF boost is increased by 40%.",
+        "dark": "Receives 25% reduced P.DMG for the duration.",
         "ut": {
           "name": "Guardian Knight Insignia",
           "description": [
@@ -2289,8 +2289,8 @@
           "1": "Heal rate is increased by {0}%.",
           "2": "MP recovery rate per sec is increased by {0}%."
         },
-        "light": "Uses the skill every 5 sec.",
-        "dark": "Also supplies 1 orb of mana to the ally with the highest ATK."
+        "light": "Mana Cost is increased by 1 and skill effect range changes to all allies.",
+        "dark": "Each heal has a 20% chance to remove negative effects."
       },
       "s2": {
         "name": "Salvation",
@@ -2300,8 +2300,8 @@
           "1": "M.DEF boost is increased by {0}%.",
           "2": "CC Resistance is increased by {0} for {1} sec."
         },
-        "light": "Uses the skill every 5 sec.",
-        "dark": "Also supplies 1 orb of mana to the ally with the highest ATK.",
+        "light": "Mana cost is reduced by 1.",
+        "dark": "Increases own M.DEF by 10% of M.DEF.",
         "ut": {
           "name": "Seed of Birth",
           "description": [
@@ -2323,8 +2323,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Target takes {0}% increased P.DMG and M.DMG."
         },
-        "light": "Uses the skill every 5 sec.",
-        "dark": "Also supplies 1 orb of mana to the ally with the highest ATK.",
+        "light": "Each hit removes 250 mana from the target.",
+        "dark": "In exchange for 1 additional Mana Cost, Silence enemies in range for 1 sec.",
         "ut": {
           "name": "Haven of Souls",
           "description": [
@@ -2409,8 +2409,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "DMG is increased by 40%.",
-        "dark": "There is a 10% chance that Skill 1 is fired upon an auto-attack."
+        "light": "If there is 1 enemy, DMG is increased by 100%.",
+        "dark": "Has a 25% chance of Blinding the enemy for 5 sec."
       },
       "s2": {
         "name": "Black Shackle",
@@ -2420,8 +2420,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Target takes {0}% increased M.DMG."
         },
-        "light": "DMG is increased by 40%.",
-        "dark": "There is a 10% chance that Skill 1 is fired upon an auto-attack.",
+        "light": "Mana cost is reduced by 1.",
+        "dark": "Hit enemies are drawn together.",
         "ut": {
           "name": "Unbreakable Bracelet",
           "description": [
@@ -2443,8 +2443,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "DMG is increased by 40%.",
-        "dark": "There is a 10% chance that Skill 1 is fired upon an auto-attack.",
+        "light": "Mana cost is increased by 1 orb but DMG is boosted by 100%.",
+        "dark": "Dispels positive effects of all enemies in range.",
         "ut": {
           "name": "Eye of Shadows",
           "description": [
@@ -2529,8 +2529,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Crit Chance is increased by {0}."
         },
-        "light": "Per each stack, DMG is increased by 4% to enemies other than heroes.",
-        "dark": "When holding 5 stacks, takes 20% reduced DMG."
+        "light": "Mana cost is increased by 1 and Wound stack max is changed to 10. Deals 100% of ATK as extra DMG to enemies with 10 Wounds.",
+        "dark": "Cooldown is removed."
       },
       "s2": {
         "name": "Sharp End",
@@ -2540,8 +2540,8 @@
           "1": "ATK boost is increased by {0}%.",
           "2": "Crit Chance boost is increased by {0}%."
         },
-        "light": "Per each stack, DMG is increased by 4% to enemies other than heroes.",
-        "dark": "When holding 5 stacks, takes 20% reduced DMG.",
+        "light": "Mana cost is reduced by 1.",
+        "dark": "In exchange for 1 additional Mana Cost, Crit Chance effect is changed to a 100% Crit DMG boost. Also gains a 25% DMG boost towards Bosses.",
         "ut": {
           "name": "Master's Ring",
           "description": [
@@ -2563,8 +2563,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Crit Chance is increased by {0}."
         },
-        "light": "Per each stack, DMG is increased by 4% to enemies other than heroes.",
-        "dark": "When holding 5 stacks, takes 20% reduced DMG.",
+        "light": "Each crit boosts the last attack's DMG by 10%.",
+        "dark": "Gain immunity to all DMG while using skill.",
         "ut": {
           "name": "Medal of Swiftness",
           "description": [
@@ -2649,8 +2649,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Target's CC resistance is reduced by 250 for 10 sec.",
-        "dark": "Frost cannot be dispelled by dispel skills."
+        "light": "DMG is increased by 40%.",
+        "dark": "In exchange for 1 additional Mana Cost, Freeze duration is boosted by 5 sec."
       },
       "s2": {
         "name": "Ice Spear",
@@ -2660,8 +2660,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Target's CC resistance is reduced by 250 for 10 sec.",
-        "dark": "Frost cannot be dispelled by dispel skills.",
+        "light": "Mana cost is reduced by 1.",
+        "dark": "Target changes to the enemy with the highest ATK.",
         "ut": {
           "name": "Frozen Brooch",
           "description": [
@@ -2683,8 +2683,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Target's CC resistance is reduced by 250 for 10 sec.",
-        "dark": "Frost cannot be dispelled by dispel skills.",
+        "light": "Mana cost is reduced by 1.",
+        "dark": "Gain CC immunity while using said skill.",
         "ut": {
           "name": "Glacial Heart",
           "description": [
@@ -2769,8 +2769,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Stun duration is increased by {0} sec."
         },
-        "light": "P.DEF is increased by 20% and P. Block is boosted by 50%.",
-        "dark": "Recovers HP equal to 40% of P.DEF upon blocking."
+        "light": "In exchange for 1 additional Mana Cost, pull in 2 enemies.",
+        "dark": "All pulled enemies take 25% increased DMG from all sources for 10 sec."
       },
       "s2": {
         "name": "Will to Win",
@@ -2780,8 +2780,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Enemy ATK reduction is increased by {0}%."
         },
-        "light": "P.DEF is increased by 20% and P. Block is boosted by 50%.",
-        "dark": "Recovers HP equal to 40% of P.DEF upon blocking.",
+        "light": "Deals extra P.DMG based on P.DEF.",
+        "dark": "Ally P.DEF is boosted by 20% for 10 sec after activation.",
         "ut": {
           "name": "Shield of Resolution",
           "description": [
@@ -2803,8 +2803,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "P.DEF is increased by 20% and P. Block is boosted by 50%.",
-        "dark": "Recovers HP equal to 40% of P.DEF upon blocking.",
+        "light": "Upon jumping into the air, charge at the target with the highest ATK.",
+        "dark": "While casting, all allies take 20% reduced P.DMG.",
         "ut": {
           "name": "Aura of Protection",
           "description": [
@@ -2889,8 +2889,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Crit Chance is increased by {0}."
         },
-        "light": "Activation chance changes to 60%.",
-        "dark": "Atk Spd is boosted by 300 when effect takes place."
+        "light": "If there is 1 enemy, DMG is increased by 100%.",
+        "dark": "Target changes to the enemy with the highest ATK."
       },
       "s2": {
         "name": "Wind Reading",
@@ -2900,8 +2900,8 @@
           "1": "ATK boost is increased by {0}%.",
           "2": "ATK boost is increased by {0}%."
         },
-        "light": "Activation chance changes to 60%.",
-        "dark": "Atk Spd is boosted by 300 when effect takes place.",
+        "light": "ATK boost is increased by 40%.",
+        "dark": "Increases own Crit Chance by 600.",
         "ut": {
           "name": "Himmullis's Scarf",
           "description": [
@@ -2923,8 +2923,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Hit enemies are stunned for 3 sec."
         },
-        "light": "Activation chance changes to 60%.",
-        "dark": "Atk Spd is boosted by 300 when effect takes place.",
+        "light": "DMG is increased by 40%.",
+        "dark": "Reduces cooldown by 10% per each enemy that takes Critical DMG.",
         "ut": {
           "name": "Tempest Pride",
           "description": [
@@ -3009,8 +3009,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Crit DMG is increased by {0}%."
         },
-        "light": "If there is 1 enemy, DMG is increased by 100%.",
-        "dark": "Enemies hit are stunned for 2 sec."
+        "light": "DMG is increased by 40%.",
+        "dark": "Gain CC immunity while using said skill."
       },
       "s2": {
         "name": "Target Aim",
@@ -3020,8 +3020,8 @@
           "1": "ATK boost is increased by {0}%.",
           "2": "Crit DMG is increased by {0}% for the duration of skill"
         },
-        "light": "If there is 1 enemy, DMG is increased by 100%.",
-        "dark": "Enemies hit are stunned for 2 sec.",
+        "light": "ATK Spd is boosted by 250 for the duration.",
+        "dark": "Mana cost is reduced by 1.",
         "ut": {
           "name": "Crystal Support",
           "description": [
@@ -3043,8 +3043,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Crit DMG is increased by {0}%."
         },
-        "light": "If there is 1 enemy, DMG is increased by 100%.",
-        "dark": "Enemies hit are stunned for 2 sec.",
+        "light": "Reduces cooldown by 5% when Critical Hits occur.",
+        "dark": "Ignores enemy Block.",
         "ut": {
           "name": "Custom Bullet VII",
           "description": [
@@ -3129,8 +3129,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Increases own M.DEF by 5% per each block. Max stack is 10.",
-        "dark": "Target with over 100 stacks of Flame takes 40% increased M.DMG."
+        "light": "ATK Spd. is increased by 200 for 15 sec.",
+        "dark": "Reduces cooldown by 6% per each enemy hit."
       },
       "s2": {
         "name": "Hellfire",
@@ -3140,8 +3140,8 @@
           "1": "M.DEF boost is increased by {0}%.",
           "2": "M.Block Chance boost is increased by {0}%."
         },
-        "light": "Increases own M.DEF by 5% per each block. Max stack is 10.",
-        "dark": "Target with over 100 stacks of Flame takes 40% increased M.DMG.",
+        "light": "M.Block rate is boosted by 20%.",
+        "dark": "While Hellfire is active, deal DMG based on own M.DEF to nearby enemies.",
         "ut": {
           "name": "Hatchling Leather Gloves",
           "description": [
@@ -3163,8 +3163,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Increases own M.DEF by 5% per each block. Max stack is 10.",
-        "dark": "Target with over 100 stacks of Flame takes 40% increased M.DMG.",
+        "light": "DMG is increased by 40%.",
+        "dark": "Heals HP equal to 40% of DMG dealt.",
         "ut": {
           "name": "Hellish Sealing Stone",
           "description": [
@@ -3249,8 +3249,8 @@
           "1": "DMG and Heal rate are increased by {0}%.",
           "2": "DMG and Heal rate are increased by {0}%."
         },
-        "light": "Activation chance is boosted by 10%.",
-        "dark": "Attack range is boosted by 20%."
+        "light": "DMG and Heal rate is increased by 40%.",
+        "dark": "Enemies hit are stunned for 1 sec."
       },
       "s2": {
         "name": "Spear of Light",
@@ -3260,8 +3260,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Activation chance is boosted by 10%.",
-        "dark": "Attack range is boosted by 20%.",
+        "light": "Mana cost is reduced by 1.",
+        "dark": "Number of targets changes to 2.",
         "ut": {
           "name": "Last Chapter of the Bible",
           "description": [
@@ -3283,8 +3283,8 @@
           "1": "Heal rate is increased by {0}%.",
           "2": "ATK Spd is increased by {0} for the duration of skill."
         },
-        "light": "Activation chance is boosted by 10%.",
-        "dark": "Attack range is boosted by 20%.",
+        "light": "Invincibility duration is increased by 1.5 sec.",
+        "dark": "In exchange for 2 additional Mana Cost and a 3 sec reduction of Invincibility duration, all allies gain 50% ATK.",
         "ut": {
           "name": "Well-Worn Rosary",
           "description": [
@@ -3369,8 +3369,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Stun duration is increased by {0} sec."
         },
-        "light": "While inside the Coffin, deal DMG worth 5% of max HP to nearby enemies.",
-        "dark": "Upon activation, stun all enemies for 2 sec."
+        "light": "Target takes 25% increased M.DMG for 10 sec.",
+        "dark": "In exchange for 1 additional Mana Cost, the skill has a 100% chance to draw the target in."
       },
       "s2": {
         "name": "Mark of Death",
@@ -3380,8 +3380,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "While inside the Coffin, deal DMG worth 5% of max HP to nearby enemies.",
-        "dark": "Upon activation, stun all enemies for 2 sec.",
+        "light": "Duration is reduced to 10 sec and DMG is boosted by 250%.",
+        "dark": "Engraved Mark is not be dispelled when negative effects are dispelled.",
         "ut": {
           "name": "Death-imbued Cushion",
           "description": [
@@ -3403,8 +3403,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "MP is recovered by {0}%."
         },
-        "light": "While inside the Coffin, deal DMG worth 5% of max HP to nearby enemies.",
-        "dark": "Upon activation, stun all enemies for 2 sec.",
+        "light": "DMG is increased by 40%.",
+        "dark": "Has a 10% chance to Stun enemies for 1 sec.",
         "ut": {
           "name": "Flowers of a Forgotten Dukedom",
           "description": [
@@ -3489,8 +3489,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Crit Chance is increased by {0}."
         },
-        "light": "DMG is increased by 40%.",
-        "dark": "Ignores enemy Block."
+        "light": "If there is 1 enemy, DMG is increased by 100%.",
+        "dark": "Upon a Crit Hit, recovers 300 mana."
       },
       "s2": {
         "name": "Destruction Ray",
@@ -3500,8 +3500,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Crit Chance is increased by {0}."
         },
-        "light": "DMG is increased by 40%.",
-        "dark": "Ignores enemy Block.",
+        "light": "The mana cost of the Boosted Ray is half.",
+        "dark": "The mana cost of the Boosted Ray is doubled and the DMG increase is boosted from 100% to 200%.",
         "ut": {
           "name": "Noble Hand Mirror",
           "description": [
@@ -3523,8 +3523,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Crit Chance is increased by {0}."
         },
-        "light": "DMG is increased by 40%.",
-        "dark": "Ignores enemy Block.",
+        "light": "Deals AoE DMG.",
+        "dark": "M.DEF reduction effect now stacks up to 10 times max.",
         "ut": {
           "name": "Ring of Infinite Mana",
           "description": [
@@ -3609,8 +3609,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Heal rate is increased by 40%.",
-        "dark": "After healing an ally, increase target P.DEF for 40% for a duration of 10 sec."
+        "light": "Cooldown is reduced by 2 sec.",
+        "dark": "Target number increased to 2."
       },
       "s2": {
         "name": "Rune of Healing",
@@ -3621,7 +3621,7 @@
           "2": "Heal rate is increased by {0}%."
         },
         "light": "Heal rate is increased by 40%.",
-        "dark": "After healing an ally, increase target P.DEF for 40% for a duration of 10 sec.",
+        "dark": "Increase ally P.DEF for 25% for 10 sec after healing.",
         "ut": {
           "name": "Ink of Vitality",
           "description": [
@@ -3643,8 +3643,8 @@
           "1": "Silence duration is increased by {0} sec.",
           "2": "Silence duration is increased by {0} sec."
         },
-        "light": "Heal rate is increased by 40%.",
-        "dark": "After healing an ally, increase target P.DEF for 40% for a duration of 10 sec.",
+        "light": "Silence duration boosted by 1 sec.",
+        "dark": "DMG is increased by 200% and the enemy target receives 20% more DMG from all sources for 10 sec. Mana cost is increased by 2.",
         "ut": {
           "name": "Scroll of Memories",
           "description": [
@@ -3729,8 +3729,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Crit Chance is increased by {0}."
         },
-        "light": "Upon dodging, raise own ATK by 3%. Stacks up to 10 times.",
-        "dark": "Has a 30% chance to stun enemies for 3 sec."
+        "light": "DMG is increased by 40%.",
+        "dark": "Upon a Crit Hit, cooldown is reduced by 6%."
       },
       "s2": {
         "name": "Flashstep",
@@ -3740,8 +3740,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Upon dodging, raise own ATK by 3%. Stacks up to 10 times.",
-        "dark": "Has a 30% chance to stun enemies for 3 sec.",
+        "light": "In exchange for 1 additional Mana Cost, cooldown is reduced by 5 sec.",
+        "dark": "Dispels positive effects from enemy.",
         "ut": {
           "name": "Tempting Perfume",
           "description": [
@@ -3763,8 +3763,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Crit Chance is increased by {0}."
         },
-        "light": "Upon dodging, raise own ATK by 3%. Stacks up to 10 times.",
-        "dark": "Has a 30% chance to stun enemies for 3 sec.",
+        "light": "Each Critical Hit increases the last hit's DMG by 10%.",
+        "dark": "While in cooldown, auto attack DMG is boosted by 50%.",
         "ut": {
           "name": "Immortal Rose",
           "description": [
@@ -3849,8 +3849,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "There is a 20% chance to knock back the enemy far away and inflict knock over for 2 sec.",
-        "dark": "Number of targets changes to 2."
+        "light": "If there is 1 enemy, DMG is increased by 100%.",
+        "dark": "Enemies hit are stunned for 1 sec."
       },
       "s2": {
         "name": "Look out above!",
@@ -3860,8 +3860,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "There is a 20% chance to knock back the enemy far away and inflict knock over for 2 sec.",
-        "dark": "Number of targets changes to 2.",
+        "light": "In exchange for 2 additional Mana Cost, attacks random enemies 3 times.",
+        "dark": "Ignores enemy Block.",
         "ut": {
           "name": "Moonlight Carrot",
           "description": [
@@ -3883,8 +3883,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "There is a 20% chance to knock back the enemy far away and inflict knock over for 2 sec.",
-        "dark": "Number of targets changes to 2.",
+        "light": "Reduces ACC of hit enemies by 150 for 7 sec.",
+        "dark": "In exchange for 1 additional Mana Cost, knock back the enemy over a long distance.",
         "ut": {
           "name": "Never-Melting Snow Flower",
           "description": [
@@ -3969,8 +3969,8 @@
           "1": "Heal rate is increased by {0}%.",
           "2": "Heal rate is increased by {0}%."
         },
-        "light": "M.DEF increase rate increases by 20%, and M. Crit Resistance increases by 100",
-        "dark": "Increases self CC Resist by 400."
+        "light": "Heal rate is increased by 40%.",
+        "dark": "Upon healing, M. Crit Resistance rises by 25%."
       },
       "s2": {
         "name": "Bubble Shield",
@@ -3980,8 +3980,8 @@
           "1": "Shield is increased by {0}%.",
           "2": "Shield is increased by {0}%."
         },
-        "light": "M.DEF increase rate increases by 20%, and M. Crit Resistance increases by 100",
-        "dark": "Increases self CC Resist by 400.",
+        "light": "Increases target ATK by 30%.",
+        "dark": "Target's M. Crit Resistance is increased by 25%.",
         "ut": {
           "name": "Oasis Crystal",
           "description": [
@@ -4003,8 +4003,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "M.DEF increase rate increases by 20%, and M. Crit Resistance increases by 100",
-        "dark": "Increases self CC Resist by 400.",
+        "light": "DMG effect occurs every 3 sec.",
+        "dark": "Heals all allies by 15% of their max HP.",
         "ut": {
           "name": "Papyrus of the Flow",
           "description": [
@@ -4089,8 +4089,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "For 20 sec after activation, auto attacks target 2 enemies.",
-        "dark": "Effect occurs 3 sec faster."
+        "light": "If there is 1 enemy, DMG is increased by 100%.",
+        "dark": "Stuns enemies with a Sigil for 1 sec."
       },
       "s2": {
         "name": "Purifying Blaze",
@@ -4100,8 +4100,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "For 20 sec after activation, auto attacks target 2 enemies.",
-        "dark": "Effect occurs 3 sec faster.",
+        "light": "Crit Chance is increased by 40%.",
+        "dark": "Cooldown is reduced by 3 sec.",
         "ut": {
           "name": "Magic Square of Pursuit",
           "description": [
@@ -4123,8 +4123,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "For 20 sec after activation, auto attacks target 2 enemies.",
-        "dark": "Effect occurs 3 sec faster.",
+        "light": "Inflicts a sigil upon damaged enemies.",
+        "dark": "M.DMG increase and Silence effect occur to enemies with no Sigil as well.",
         "ut": {
           "name": "Eye of Heaven",
           "description": [
@@ -4209,8 +4209,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Max stack of Blood Curse is changed to 200 stacks.",
-        "dark": "All allies' heal rate is increased by 20% and all enemies' heal rate is reduced by 20%."
+        "light": "Mana cost is increased by 1 orb but DMG is boosted by 100%.",
+        "dark": "Target takes 25% increased M.DMG for 10 sec."
       },
       "s2": {
         "name": "Blood Zone",
@@ -4220,8 +4220,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Max stack of Blood Curse is changed to 200 stacks.",
-        "dark": "All allies' heal rate is increased by 20% and all enemies' heal rate is reduced by 20%.",
+        "light": "DMG is increased by 40%.",
+        "dark": "Cooldown is reduced by 3 sec.",
         "ut": {
           "name": "Spell of Bloody Mist",
           "description": [
@@ -4243,8 +4243,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Max stack of Blood Curse is changed to 200 stacks.",
-        "dark": "All allies' heal rate is increased by 20% and all enemies' heal rate is reduced by 20%.",
+        "light": "Upon attacking an enemy with over 80 stacks of Blood Curse, all skill cooldown is reduced by 5%.",
+        "dark": "Mana cost is reduced by 1.",
         "ut": {
           "name": "Blood of the Ancients",
           "description": [
@@ -4329,8 +4329,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "DMG is increased by 15% per each enemy on the field.",
-        "dark": "There is a 10% chance of dispelling enemy positive effects."
+        "light": "When there are over 5 enemies, 10 sec cooldown is reset, and DMG is increased by 200%. Has a cooldown of 20 sec.",
+        "dark": "Max Blade stack is increased by 1."
       },
       "s2": {
         "name": "Dimension Cleaver",
@@ -4340,8 +4340,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "DMG is increased by 15% per each enemy on the field.",
-        "dark": "There is a 10% chance of dispelling enemy positive effects.",
+        "light": "Mana cost is reduced by 1.",
+        "dark": "Target receives 25% increased P.DMG for 10 sec.",
         "ut": {
           "name": "Sword of Flow Cutting",
           "description": [
@@ -4363,8 +4363,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "DMG is increased by 15% per each enemy on the field.",
-        "dark": "There is a 10% chance of dispelling enemy positive effects.",
+        "light": "Cooldown is reduced by 5 sec.",
+        "dark": "When there are 5 blade stacks or more, DMG is increased by 70%.",
         "ut": {
           "name": "Dimension Stone",
           "description": [
@@ -4449,8 +4449,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Upon use, the amount of Charge gained is increased by 30%."
         },
-        "light": "ATK boost is increased by 40%.",
-        "dark": "Overcharge duration is increased by 3 sec."
+        "light": "Target takes 25% increased M.DMG for 10 sec.",
+        "dark": "Charge amount is boosted by 40% upon use."
       },
       "s2": {
         "name": "Emergency Treatment",
@@ -4460,8 +4460,8 @@
           "1": "Heal rate is increased by {0}%.",
           "2": "Upon use, the amount of Charge gained is increased by 30%."
         },
-        "light": "ATK boost is increased by 40%.",
-        "dark": "Overcharge duration is increased by 3 sec.",
+        "light": "Cooldown is reduced by 3 sec.",
+        "dark": "Charge amount is boosted by 40% upon use.",
         "ut": {
           "name": "Script of Healing",
           "description": [
@@ -4483,8 +4483,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Upon use, the amount of Charge gained is increased by 30%."
         },
-        "light": "ATK boost is increased by 40%.",
-        "dark": "Overcharge duration is increased by 3 sec.",
+        "light": "DMG is increased by 40%.",
+        "dark": "Target takes 25% increased M.DMG.",
         "ut": {
           "name": "Code of Annihilation",
           "description": [
@@ -4569,8 +4569,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Mark maximum is changed to 200.",
-        "dark": "All cooldowns are reduced by 0.3 when hitting a target with 100 stacks."
+        "light": "DMG is increased by 100% when there is 1 enemy.",
+        "dark": "Mark stacks 2 times."
       },
       "s2": {
         "name": "Time to Die!!",
@@ -4580,8 +4580,8 @@
           "1": "ATK boost is increased by {0}%.",
           "2": "ATK boost is increased by {0}%."
         },
-        "light": "Mark maximum is changed to 200.",
-        "dark": "All cooldowns are reduced by 0.3 when hitting a target with 100 stacks.",
+        "light": "Takes 20% more DMG from all sources in exchange for an extra 100% in ATK increase.",
+        "dark": "Bang! Bang! chance is increased by 10%.",
         "ut": {
           "name": "Wolf's Barrage Box",
           "description": [
@@ -4603,8 +4603,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Mark maximum is changed to 200.",
-        "dark": "All cooldowns are reduced by 0.3 when hitting a target with 100 stacks.",
+        "light": "DMG is increased by 40%.",
+        "dark": "Stacks 2 more mark per hit.",
         "ut": {
           "name": "Wolfhead Mercenary Insignia",
           "description": [
@@ -4689,8 +4689,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Gains immunity to CC while in use."
         },
-        "light": "M.DEF increase rate is boosted by 40%.",
-        "dark": "Max stack count is boosted to 8."
+        "light": "Target receives 25% increased P.DMG for 10 sec.",
+        "dark": "Deals extra P.DMG equal to 200% of M.DEF."
       },
       "s2": {
         "name": "Divine Protection",
@@ -4700,8 +4700,8 @@
           "1": "Defense Boost is increased by {0}%.",
           "2": "For 10 sec, heals 1% of own HP per sec."
         },
-        "light": "M.DEF increase rate is boosted by 40%.",
-        "dark": "Max stack count is boosted to 8.",
+        "light": "In exchange for 1 additional Mana Cost, Ricardo gains 30% DMG resistance to DMG taken due to covering for allies.",
+        "dark": "This skill's effect cannot be dispelled.",
         "ut": {
           "name": "Pride of Holy Warrior",
           "description": [
@@ -4723,8 +4723,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Blocks all DMG while the skill is in use."
         },
-        "light": "M.DEF increase rate is boosted by 40%.",
-        "dark": "Max stack count is boosted to 8.",
+        "light": "Stun duration is increased by 2 sec.",
+        "dark": "Mana cost is reduced by 1.",
         "ut": {
           "name": "Templar Vow",
           "description": [
@@ -4810,7 +4810,7 @@
           "2": "Crit Chance is increased by {0}."
         },
         "light": "DMG is increased by 40%.",
-        "dark": "Silence duration is increased by 2 sec when there is only 1 enemy."
+        "dark": "For 10 sec, target's P.Crit resistance is reduced by 250."
       },
       "s2": {
         "name": "Blade Tornado",
@@ -4820,8 +4820,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Crit Chance is increased by {0}."
         },
-        "light": "DMG is increased by 40%.",
-        "dark": "Silence duration is increased by 2 sec when there is only 1 enemy.",
+        "light": "If there is 1 enemy, DMG is increased by 100%.",
+        "dark": "Recovers 200 mana upon a Crit hit.",
         "ut": {
           "name": "Laughing Mask All-round Belt",
           "description": [
@@ -4843,8 +4843,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Crit Chance is increased by {0}."
         },
-        "light": "DMG is increased by 40%.",
-        "dark": "Silence duration is increased by 2 sec when there is only 1 enemy.",
+        "light": "Mana cost is increased by 1 orb but DMG is boosted by 100%.",
+        "dark": "Cooldown is reduced by 5 sec.",
         "ut": {
           "name": "Dagger of Silence",
           "description": [
@@ -4929,8 +4929,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "When in Fury state, heal rate is increased by 50%.",
-        "dark": "Per every stacked 'Cursed Blood', takes 12% reduced DMG."
+        "light": "DMG is increased by 40%.",
+        "dark": "After activation, ATK is increased by 40% for 5 sec."
       },
       "s2": {
         "name": "Dawning Despair",
@@ -4940,8 +4940,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "When in Fury state, heal rate is increased by 50%.",
-        "dark": "Per every stacked 'Cursed Blood', takes 12% reduced DMG.",
+        "light": "Mana cost is reduced by 1.",
+        "dark": "When activated during Fury state, ignores target DEF.",
         "ut": {
           "name": "Wild Beast's Choker",
           "description": [
@@ -4963,8 +4963,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "When in Fury state, heal rate is increased by 50%.",
-        "dark": "Per every stacked 'Cursed Blood', takes 12% reduced DMG.",
+        "light": "Becomes immune to CC during activation.",
+        "dark": "If there is 1 enemy, DMG is increased by 100%.",
         "ut": {
           "name": "Sealing Binds",
           "description": [
@@ -5049,8 +5049,8 @@
           "1": "DMG and Heal rate are increased by {0}%.",
           "2": "Silence duration is increased by {0} sec."
         },
-        "light": "All DMG upon allies is reduced by 20% for 5 sec.",
-        "dark": "DEF increase effect has its duration increased by 5 sec."
+        "light": "Healed allies gain a 200 ATK Spd boost for 10 sec.",
+        "dark": "For 5 sec, hit enemies have their Mana reduced by 200 every second."
       },
       "s2": {
         "name": "Fiercely!",
@@ -5060,8 +5060,8 @@
           "1": "ATK boost is increased by {0}%.",
           "2": "ATK boost is increased by {0}%."
         },
-        "light": "All DMG upon allies is reduced by 20% for 5 sec.",
-        "dark": "DEF increase effect has its duration increased by 5 sec.",
+        "light": "ATK boost is increased by 40%.",
+        "dark": "Mana cost is reduced by 1.",
         "ut": {
           "name": "Fancy Ornament",
           "description": [
@@ -5083,8 +5083,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Charm duration is increased by {0} sec."
         },
-        "light": "All DMG upon allies is reduced by 20% for 5 sec.",
-        "dark": "DEF increase effect has its duration increased by 5 sec.",
+        "light": "Target takes 25% increased M.DMG for 10 sec.",
+        "dark": "Mana cost is reduced by 1.",
         "ut": {
           "name": "Golden Fragrance",
           "description": [
@@ -5169,8 +5169,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Crit Chance is increased by {0}."
         },
-        "light": "DMG is increased by 40%.",
-        "dark": "Stun duration is increased by 0.2 sec."
+        "light": "If there is 1 enemy, DMG is increased by 100%.",
+        "dark": "Cooldown is reduced by 2 sec."
       },
       "s2": {
         "name": "God of Lightning",
@@ -5180,8 +5180,8 @@
           "1": "ATK boost and DMG is increased by {0}%",
           "2": "ATK boost and DMG is increased by {0}%"
         },
-        "light": "DMG is increased by 40%.",
-        "dark": "Stun duration is increased by 0.2 sec.",
+        "light": "Mana cost is reduced by 1.",
+        "dark": "DMG taken while in Lightning God state is increased by 30% but ATK increase rate is increased by 100%.",
         "ut": {
           "name": "God of Lightning's Necklace",
           "description": [
@@ -5204,7 +5204,7 @@
           "2": "Crit Chance is increased by {0}."
         },
         "light": "DMG is increased by 40%.",
-        "dark": "Stun duration is increased by 0.2 sec.",
+        "dark": "Stun duration is increased by 1 sec.",
         "ut": {
           "name": "Essence of Red Lightning",
           "description": [
@@ -5289,8 +5289,8 @@
           "1": "Heal rate is increased by {0}%.",
           "2": "Heal rate is increased by {0}%."
         },
-        "light": "P.Crit Resistance amount is changed to 300.",
-        "dark": "Target takes 20% increased P.DMG."
+        "light": "Boosts healed ally ATK by 10% for 10 sec.",
+        "dark": "Mana cost is reduced by 1."
       },
       "s2": {
         "name": "Special Water Cannon",
@@ -5300,8 +5300,8 @@
           "1": "DMG and Heal rate are increased by {0}%.",
           "2": "DMG and Heal rate are increased by {0}%."
         },
-        "light": "P.Crit Resistance amount is changed to 300.",
-        "dark": "Target takes 20% increased P.DMG.",
+        "light": "DMG and Heal rate are increased by 40%.",
+        "dark": "Gain CC immunity while using said skill.",
         "ut": {
           "name": "Special Potion of Double Reaction",
           "description": [
@@ -5323,8 +5323,8 @@
           "1": "ATK boost is increased by {0}%.",
           "2": "ATK boost is increased by {0}%."
         },
-        "light": "P.Crit Resistance amount is changed to 300.",
-        "dark": "Target takes 20% increased P.DMG.",
+        "light": "ATK boost is increased by 40%.",
+        "dark": "Crit Chance is boosted by 400.",
         "ut": {
           "name": "Mysterious Potion",
           "description": [
@@ -5409,8 +5409,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Crit Chance is increased by {0}."
         },
-        "light": "Additional DMG effect count changes to 1 time, and DMG is increased by 100%.",
-        "dark": "Additional DMG effect stack is limited to 20 times max, and per each stack, ATK is increased by 3%."
+        "light": "DMG is increased by 40%.",
+        "dark": "Cooldown is reduced by 1.5 sec."
       },
       "s2": {
         "name": "Time Fragments",
@@ -5420,8 +5420,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Crit Chance is increased by {0}."
         },
-        "light": "Additional DMG effect count changes to 1 time, and DMG is increased by 100%.",
-        "dark": "Additional DMG effect stack is limited to 20 times max, and per each stack, ATK is increased by 3%.",
+        "light": "DMG is increased by 40%.",
+        "dark": "While in cooldown, auto-attacks will reduce the cooldown of 'Time Fragments' by 1 sec.",
         "ut": {
           "name": "Fragment Collection",
           "description": [
@@ -5443,8 +5443,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Crit Chance is increased by {0}."
         },
-        "light": "Additional DMG effect count changes to 1 time, and DMG is increased by 100%.",
-        "dark": "Additional DMG effect stack is limited to 20 times max, and per each stack, ATK is increased by 3%.",
+        "light": "All allies recover 1 orb of mana.",
+        "dark": "While in use, gain immunity to CC.",
         "ut": {
           "name": "Threads of Time",
           "description": [
@@ -5529,8 +5529,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "ATK boost is increased by {0}%."
         },
-        "light": "Enemies that had their Souls stolen have their CC resistance reduced by 250 for 10 sec.",
-        "dark": "Per each stacked Soul, ATK is increased by 10%"
+        "light": "In exchange for 1 additional Mana Cost, cooldown is reduced by 4 sec.",
+        "dark": "Soul condition for Shackle effect is erased."
       },
       "s2": {
         "name": "I'll slice you up!!",
@@ -5540,8 +5540,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Enemy takes {0}% increased M.DMG."
         },
-        "light": "Enemies that had their Souls stolen have their CC resistance reduced by 250 for 10 sec.",
-        "dark": "Per each stacked Soul, ATK is increased by 10%",
+        "light": "Mana cost is reduced by 1.",
+        "dark": "Soul condition for M.DEF reduction is erased.",
         "ut": {
           "name": "Rampaging Beast's Claw",
           "description": [
@@ -5563,8 +5563,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Enemies nearby are drawn in right before the attack occurs."
         },
-        "light": "Enemies that had their Souls stolen have their CC resistance reduced by 250 for 10 sec.",
-        "dark": "Per each stacked Soul, ATK is increased by 10%",
+        "light": "The 5 Soul consuming effect no longer consumes Souls.",
+        "dark": "Mana cost is reduced by 1.",
         "ut": {
           "name": "Soul of a Giant Demon",
           "description": [
@@ -5649,8 +5649,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "ATK boost is increased by 40%.",
-        "dark": "Crit Chance is increased by 250."
+        "light": "Stun duration is increased by 2 sec.",
+        "dark": "No longer Crits unconditionally, and Crit DMG is increased by 150%."
       },
       "s2": {
         "name": "Coordination",
@@ -5660,8 +5660,8 @@
           "1": "ATK boost is increased by {0}%.",
           "2": "ATK boost is increased by {0}%."
         },
-        "light": "ATK boost is increased by 40%.",
-        "dark": "Crit Chance is increased by 250.",
+        "light": "Crit DMG is increased by 80%.",
+        "dark": "While in Co-Op state, auto attacks increase the target's received DMG from all sources by 15%.",
         "ut": {
           "name": "Fancy Tea Set",
           "description": [
@@ -5683,8 +5683,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "ATK boost is increased by 40%.",
-        "dark": "Crit Chance is increased by 250.",
+        "light": "Upon a Crit hit, cooldown is reduced by 10%.",
+        "dark": "When there is only 1 enemy, DMG is increased by 100%.",
         "ut": {
           "name": "Magical Stone of Gravity",
           "description": [
@@ -5769,8 +5769,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Crit DMG is increased by {0}%."
         },
-        "light": "All allies take 7% reduced DMG from Dragons.",
-        "dark": "Deals 15% more DMG to Dragons."
+        "light": "DMG is increased by 40%.",
+        "dark": "Target takes 25% additional P.DMG for 10 sec."
       },
       "s2": {
         "name": "Wipeout!",
@@ -5780,8 +5780,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Crit DMG is increased by {0}%."
         },
-        "light": "All allies take 7% reduced DMG from Dragons.",
-        "dark": "Deals 15% more DMG to Dragons.",
+        "light": "When there is 1 enemy, DMG is boosted by 100%.",
+        "dark": "Enemies hit are stunned for 2 sec.",
         "ut": {
           "name": "Giant Arrow of Sudden Death",
           "description": [
@@ -5803,8 +5803,8 @@
           "1": "ATK boost is increased by {0}%.",
           "2": "ATK boost is increased by {0}%."
         },
-        "light": "All allies take 7% reduced DMG from Dragons.",
-        "dark": "Deals 15% more DMG to Dragons.",
+        "light": "ATK Spd is boosted by 250 for the duration.",
+        "dark": "For the duration, all DMG taken is reduced by 25%.",
         "ut": {
           "name": "Dragon Steak",
           "description": [
@@ -6009,8 +6009,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "At the start of each battle, gains the card of [Death]. This card does not have DMG boost effect.",
-        "dark": "At the start of each battle, gains the card of [Love]. This card does not have heal effect."
+        "light": "For 10 sec, target takes 25% increased M.DMG.",
+        "dark": "Mana cost is reduced by 1."
       },
       "s2": {
         "name": "Card of Love - Elliciad",
@@ -6020,8 +6020,8 @@
           "1": "ATK boost is increased by {0}%.",
           "2": "ATK boost is increased by {0}%."
         },
-        "light": "At the start of each battle, gains the card of [Death]. This card does not have DMG boost effect.",
-        "dark": "At the start of each battle, gains the card of [Love]. This card does not have heal effect.",
+        "light": "Recovers target's mana by 1000.",
+        "dark": "ATK boost is increased by 40%.",
         "ut": {
           "name": "Elliciad's Heart",
           "description": [
@@ -6043,8 +6043,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "At the start of each battle, gains the card of [Death]. This card does not have DMG boost effect.",
-        "dark": "At the start of each battle, gains the card of [Love]. This card does not have heal effect.",
+        "light": "Mana cost is increased by 1 orb but DMG is boosted by 100%.",
+        "dark": "Always inflicts a Crit Hit.",
         "ut": {
           "name": "Coin of Fortune",
           "description": [
@@ -6129,8 +6129,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Tickle Tickle Potion! is stacked 3 at a time.",
-        "dark": "Target takes 20% increased P.DMG."
+        "light": "Mana cost is reduced by 1.",
+        "dark": "Reduces target's mana by 1200."
       },
       "s2": {
         "name": "Screechy Grass Extract!",
@@ -6140,8 +6140,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Tickle Tickle Potion! is stacked 3 at a time.",
-        "dark": "Target takes 20% increased P.DMG.",
+        "light": "If there is 1 enemy, DMG is increased by 100%.",
+        "dark": "Stuns the target for 1 sec.",
         "ut": {
           "name": "Basilisk's Poisonous Fang",
           "description": [
@@ -6163,8 +6163,8 @@
           "1": "ATK boost is increased by {0}%.",
           "2": "ATK boost is increased by {0}%."
         },
-        "light": "Tickle Tickle Potion! is stacked 3 at a time.",
-        "dark": "Target takes 20% increased P.DMG.",
+        "light": "For the duration, auto attack DMG is increased by 100%.",
+        "dark": "Mana cost is reduced by 1.",
         "ut": {
           "name": "Sparkling Potion",
           "description": [
@@ -6249,8 +6249,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Stun duration is increased by {0} sec."
         },
-        "light": "Changes ATK Reduction to 30%.",
-        "dark": "Activates the effect upon reaching the 7th stack of Curse of the Sun."
+        "light": "After activation, increases ATK Spd by 350 for 5 sec.",
+        "dark": "Reduces cooldown by 2 sec."
       },
       "s2": {
         "name": "Blessing of the Sun",
@@ -6260,8 +6260,8 @@
           "1": "ATK boost is increased by {0}%.",
           "2": "ATK boost is increased by {0}%."
         },
-        "light": "Changes ATK Reduction to 30%.",
-        "dark": "Activates the effect upon reaching the 7th stack of Curse of the Sun.",
+        "light": "Increases Mana Cost by 1, and grants the effect to the 2 allies with the highest ATK.",
+        "dark": "Used while ignoring negative effects on self and removes negative effects on the target ally.",
         "ut": {
           "name": "Bracelet of the Sun",
           "description": [
@@ -6283,8 +6283,8 @@
           "1": "DMG and Heal rate are increased by {0}%.",
           "2": "DMG and Heal rate are increased by {0}%."
         },
-        "light": "Changes ATK Reduction to 30%.",
-        "dark": "Activates the effect upon reaching the 7th stack of Curse of the Sun.",
+        "light": "Reduces Mana Cost by 1.",
+        "dark": "Increases the duration of M.DEF reduction effect by 5 sec.",
         "ut": {
           "name": "Guardian's Trumpet",
           "description": [
@@ -6369,8 +6369,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Boss monster takes 15% increased DMG.",
-        "dark": "Mana recovery increases by 40%."
+        "light": "Upon each DMG dealt, recovers 30 Mana.",
+        "dark": "Stacks up 1 additional Hunting Dog's Fang Mark."
       },
       "s2": {
         "name": "Struggle is Meaningless.",
@@ -6380,8 +6380,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Boss monster takes 15% increased DMG.",
-        "dark": "Mana recovery increases by 40%.",
+        "light": "Cooldown is reduced by 3 sec.",
+        "dark": "Freezing chance of the Freezing Area increases by 30%.",
         "ut": {
           "name": "Cold Barrage",
           "description": [
@@ -6403,8 +6403,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Boss monster takes 15% increased DMG.",
-        "dark": "Mana recovery increases by 40%.",
+        "light": "Increases cooltime by 10 sec and DMG by 100%.",
+        "dark": "Reduces Mana Cost by 1.",
         "ut": {
           "name": "Pendant of Memories",
           "description": [
@@ -6489,8 +6489,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Shield is increased by 80%.",
-        "dark": "The Vessel of Curses duration is increased by 20 sec, and becomes dispellable."
+        "light": "Cooldown is reduced by 3 sec.",
+        "dark": "Reduces 500 MP of the enemy that took the DMG."
       },
       "s2": {
         "name": "Curse of Time",
@@ -6500,8 +6500,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Shield is increased by 80%.",
-        "dark": "The Vessel of Curses duration is increased by 20 sec, and becomes dispellable.",
+        "light": "Mana cost is reduced by 1.",
+        "dark": "Dispels positive effects from the target.",
         "ut": {
           "name": "Ancient Demon's Heart",
           "description": [
@@ -6523,8 +6523,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Shield is increased by 80%.",
-        "dark": "The Vessel of Curses duration is increased by 20 sec, and becomes dispellable.",
+        "light": "Target takes 25% increased M.DMG for 10 sec.",
+        "dark": "DMG is increased by 40%.",
         "ut": {
           "name": "The Jar of Curses",
           "description": [
@@ -6849,8 +6849,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Target takes {0}% increased P.DMG for 10 sec."
         },
-        "light": "Crit Resistance increases to 300.",
-        "dark": "Stun duration lasts for 2 more sec when there is only one enemy."
+        "light": "Mana cost is reduced by 1.",
+        "dark": "Dispels all harmful effects on oneself upon use."
       },
       "s2": {
         "name": "Justice Served!",
@@ -6860,8 +6860,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Crit Resistance increases to 300.",
-        "dark": "Stun duration lasts for 2 more sec when there is only one enemy.",
+        "light": "Mana cost is reduced by 1.",
+        "dark": "All allies' P.Crit Resistance is increased by 200 for 10 sec.",
         "ut": {
           "name": "Wings of Justice",
           "description": [
@@ -6883,8 +6883,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Crit Resistance increases to 300.",
-        "dark": "Stun duration lasts for 2 more sec when there is only one enemy.",
+        "light": "Mana cost is reduced by 1.",
+        "dark": "Damaged enemies receive 40% reduced heals for 10 sec.",
         "ut": {
           "name": "Pride of Orvelia",
           "description": [
@@ -6969,8 +6969,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Shock duration is increased by 2 sec.",
-        "dark": "Increased M.DMG taken' effect changes to 'Increased P. and M. DMG taken'."
+        "light": "Mana cost is reduced by 1.",
+        "dark": "Stun chance is increased by 10%."
       },
       "s2": {
         "name": "Power of Lightning!",
@@ -6980,8 +6980,8 @@
           "1": "ATK and DEF boosts are increased by {0}%.",
           "2": "ATK and DEF boosts are increased by {0}%."
         },
-        "light": "Shock duration is increased by 2 sec.",
-        "dark": "Increased M.DMG taken' effect changes to 'Increased P. and M. DMG taken'.",
+        "light": "ATK and DEF boosts are increased by 40%.",
+        "dark": "Additional DMG effect applies to all enemies.",
         "ut": {
           "name": "Lightning Tent",
           "description": [
@@ -7003,8 +7003,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Shock duration is increased by 2 sec.",
-        "dark": "Increased M.DMG taken' effect changes to 'Increased P. and M. DMG taken'.",
+        "light": "While in use, gain immunity to CC.",
+        "dark": "Stun duration is increased by 1 sec.",
         "ut": {
           "name": "Heart of Baikal",
           "description": [
@@ -7089,8 +7089,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Activation chance is changed to 60%.",
-        "dark": "Maximum stack count is increased to 12."
+        "light": "DMG is increased by 40%.",
+        "dark": "Each hit has a 25% chance to stun the enemy for 1 sec."
       },
       "s2": {
         "name": "Critical Intensity",
@@ -7100,8 +7100,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Activation chance is changed to 60%.",
-        "dark": "Maximum stack count is increased to 12.",
+        "light": "Mana cost reduced by 1.",
+        "dark": "When Blessing of Light reaches 10 stacks, cooldown is reduced by 50%.",
         "ut": {
           "name": "Queen's Pride",
           "description": [
@@ -7123,8 +7123,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Activation chance is changed to 60%.",
-        "dark": "Maximum stack count is increased to 12.",
+        "light": "Cooldown is reduced by 3 sec.",
+        "dark": "Mana cost is increased by 1 orb but DMG is boosted by 100%.",
         "ut": {
           "name": "Crown of Brilliance",
           "description": [
@@ -7209,8 +7209,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "When there are enemies inflicted by 'Target Lock On', Crit Chance is increased by 400.",
-        "dark": "Receives 30% reduced DMG when enemy is inflicted by 'Target Lock On'."
+        "light": "When there is 1 enemy, DMG is boosted by 100%.",
+        "dark": "Stun duration is increased by 1 sec."
       },
       "s2": {
         "name": "Restrain and Protect",
@@ -7220,8 +7220,8 @@
           "1": "DMG and Shield are increased by {0}%.",
           "2": "DMG and Shield are increased by {0}%."
         },
-        "light": "When there are enemies inflicted by 'Target Lock On', Crit Chance is increased by 400.",
-        "dark": "Receives 30% reduced DMG when enemy is inflicted by 'Target Lock On'.",
+        "light": "Gain CC immunity while using said skill.",
+        "dark": "Stun duration is increased by 2 sec.",
         "ut": {
           "name": "Gemini Ring of Instant Teleportation",
           "description": [
@@ -7243,8 +7243,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "When there are enemies inflicted by 'Target Lock On', Crit Chance is increased by 400.",
-        "dark": "Receives 30% reduced DMG when enemy is inflicted by 'Target Lock On'.",
+        "light": "Dispels target's positive effects and inflicts Stun for 1 sec.",
+        "dark": "DMG is increased by 40%.",
         "ut": {
           "name": "Magic Powder of Lightning",
           "description": [
@@ -7329,8 +7329,8 @@
           "1": "Heal rate is increased by {0}%.",
           "2": "Heal rate is increased by {0}%."
         },
-        "light": "Increases Heal rate of Trance by 100%.",
-        "dark": "If a skill is used when there are 3 Trance stacks, inflicts M.DMG to enemies instead of healing allies, and reduces all DEF by 10% for 10 sec."
+        "light": "Heals 15% HP of all allies when used.",
+        "dark": "Increases Crit Resistance of all allies by 250 for 8 seconds."
       },
       "s2": {
         "name": "Blue Wind's Song",
@@ -7340,8 +7340,8 @@
           "1": "MP recovery rate is increased by {0}%.",
           "2": "MP recovery rate is increased by {0}%."
         },
-        "light": "Increases Heal rate of Trance by 100%.",
-        "dark": "If a skill is used when there are 3 Trance stacks, inflicts M.DMG to enemies instead of healing allies, and reduces all DEF by 10% for 10 sec.",
+        "light": "Heals 500 MP of all allies when used.",
+        "dark": "Increases ATK Spd of all allies by 250 for 8 seconds.",
         "ut": {
           "name": "Windy Flower",
           "description": [
@@ -7363,8 +7363,8 @@
           "1": "ATK boost is increased by {0}%.",
           "2": "ATK boost is increased by {0}%."
         },
-        "light": "Increases Heal rate of Trance by 100%.",
-        "dark": "If a skill is used when there are 3 Trance stacks, inflicts M.DMG to enemies instead of healing allies, and reduces all DEF by 10% for 10 sec.",
+        "light": "Reduces skill cooldown for all allies by 10% when used.",
+        "dark": "All enemies take 15% more DMG for 8 seconds.",
         "ut": {
           "name": "Fairy's Crown",
           "description": [
@@ -7449,8 +7449,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "MP Recovery triples when there is only one enemy.",
-        "dark": "[Anti-personnel Weapon] - Decreases ATK by 20%, but increases MP Recovery/Sec by 100%. [Siege Weapon] - Decreases all DEF by 60%, but increases Crit DMG by 140%."
+        "light": "[Anti-personnel Laser] - Recovers 200 MP upon a Crit Hit. [Siege Laser] - Increases Mana Cost by 1 and DMG by 100%.",
+        "dark": "[Anti-personnel Laser] - Reduces 300 MP of the enemy that took the DMG. [Siege Laser] - Reduces Mana Cost by 1."
       },
       "s2": {
         "name": "Wide-area Cannon",
@@ -7460,8 +7460,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "MP Recovery triples when there is only one enemy.",
-        "dark": "[Anti-personnel Weapon] - Decreases ATK by 20%, but increases MP Recovery/Sec by 100%. [Siege Weapon] - Decreases all DEF by 60%, but increases Crit DMG by 140%.",
+        "light": "[Wide-area Cannon] - Increases the Stun duration by 1 second. [Focused Fire] - Stacks 1 additional Focused Fire.",
+        "dark": "[Wide-area Cannon] - Reduces Mana Cost by 1. [Focused Fire] - Increases the Max Stack of Focused Fire to 60.",
         "ut": {
           "name": "Recording Device KARA-00XX",
           "description": [
@@ -7483,8 +7483,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "MP Recovery triples when there is only one enemy.",
-        "dark": "[Anti-personnel Weapon] - Decreases ATK by 20%, but increases MP Recovery/Sec by 100%. [Siege Weapon] - Decreases all DEF by 60%, but increases Crit DMG by 140%.",
+        "light": "Increases DMG by 100% when there is only 1 enemy.",
+        "dark": "Reduces all skill cooldown by 3% upon a Crit Hit.",
         "ut": {
           "name": "Ancient Power Source",
           "description": [
@@ -7569,8 +7569,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Upon the activation of resurrection, increases ATK by 50%.",
-        "dark": "Upon the activation of resurrection, knocks back nearby enemies in range for 3 seconds."
+        "light": "Reduces Mana Cost by 1.",
+        "dark": "The inflicted target takes 25% more P.DMG for 10 seconds."
       },
       "s2": {
         "name": "Remove Limit",
@@ -7580,8 +7580,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Upon the activation of resurrection, increases ATK by 50%.",
-        "dark": "Upon the activation of resurrection, knocks back nearby enemies in range for 3 seconds.",
+        "light": "Enemies hit are stunned for 2 sec.",
+        "dark": "HP consumption per sec is increased by 100% and ATK Spd, Crit DMG boost is doubled.",
         "ut": {
           "name": "Handkerchief of Loyalty",
           "description": [
@@ -7603,8 +7603,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Upon the activation of resurrection, increases ATK by 50%.",
-        "dark": "Upon the activation of resurrection, knocks back nearby enemies in range for 3 seconds.",
+        "light": "Gains Immunity to CC while in use.",
+        "dark": "Increases the Stun duration by 1 second.",
         "ut": {
           "name": "Unrelenting Pauldron",
           "description": [
@@ -7689,8 +7689,8 @@
           "1": "ATK boost is increased by {0}%.",
           "2": "ATK boost is increased by {0}%."
         },
-        "light": "Activates every 12 sec.",
-        "dark": "Increases target M.DMG taken by 25%."
+        "light": "All effects are not dispelled by 'dispel positive effect' effect.",
+        "dark": "All effects can be stacked max 7 times."
       },
       "s2": {
         "name": "Cheer up!",
@@ -7700,8 +7700,8 @@
           "1": "Heal rate is increased by {0}%.",
           "2": "Heal rate is increased by {0}%."
         },
-        "light": "Activates every 12 sec.",
-        "dark": "Increases target M.DMG taken by 25%.",
+        "light": "Increases ally CC Resist by 250 for 10 sec.",
+        "dark": "There is a 15% chance to recover 1 orb of mana.",
         "ut": {
           "name": "Sweet Piece of Cake",
           "description": [
@@ -7723,8 +7723,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Activates every 12 sec.",
-        "dark": "Increases target M.DMG taken by 25%.",
+        "light": "Mana cost is reduced by 1.",
+        "dark": "All attacks will be focused on a single enemy.",
         "ut": {
           "name": "Crystal Ball from Unknown Origin",
           "description": [
@@ -7810,7 +7810,7 @@
           "2": "DMG is increased by {0}%."
         },
         "light": "When there is 1 enemy, DMG is boosted by 100%.",
-        "dark": "When activated in the Arena, deal 15% of the target's current HP as additional P.DMG that ignores DEF."
+        "dark": "P.DMG taken increase effect amount is changed to 50%."
       },
       "s2": {
         "name": "Advent of the War God",
@@ -7820,8 +7820,8 @@
           "1": "ATK boost and DMG is increased by {0}%",
           "2": "ATK boost and DMG is increased by {0}%"
         },
-        "light": "When there is 1 enemy, DMG is boosted by 100%.",
-        "dark": "When activated in the Arena, deal 15% of the target's current HP as additional P.DMG that ignores DEF.",
+        "light": "War God state lasts 5 seconds longer.",
+        "dark": "Additional DMG hit chance rises by 20%.",
         "ut": {
           "name": "Silvervine Box",
           "description": [
@@ -7843,8 +7843,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "When there is 1 enemy, DMG is boosted by 100%.",
-        "dark": "When activated in the Arena, deal 15% of the target's current HP as additional P.DMG that ignores DEF.",
+        "light": "DMG is increased by 40%.",
+        "dark": "Mana cost is reduced by 1.",
         "ut": {
           "name": "Champion's Laurel Wreath",
           "description": [
@@ -7929,8 +7929,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Recovers the caster's MP by 2 orbs when activated.",
-        "dark": "When activated, increases the caster's ATK by 50% for 10 sec."
+        "light": "DMG is increased by 100% when there is 1 enemy.",
+        "dark": "Number of targets changes to 2."
       },
       "s2": {
         "name": "Let me help you.",
@@ -7940,8 +7940,8 @@
           "1": "ATK boost is increased by {0}%.",
           "2": "ATK boost is increased by {0}%."
         },
-        "light": "Recovers the caster's MP by 2 orbs when activated.",
-        "dark": "When activated, increases the caster's ATK by 50% for 10 sec.",
+        "light": "ATK Boost is increased by 40%.",
+        "dark": "Reduces cooldown by 5 sec.",
         "ut": {
           "name": "Pen Point of Firm Will",
           "description": [
@@ -7963,8 +7963,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Recovers the caster's MP by 2 orbs when activated.",
-        "dark": "When activated, increases the caster's ATK by 50% for 10 sec.",
+        "light": "Increases Mana Cost by 1 and DMG by 100%.",
+        "dark": "Target takes increased M.DMG and P.DMG.",
         "ut": {
           "name": "Seal of Guild Manager",
           "description": [
@@ -8049,8 +8049,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "Blocks all DMG while the skill is in use."
         },
-        "light": "Increases the number of 'Endurance' stacked every second by 1.",
-        "dark": "Changes ATK Reduction to 30%."
+        "light": "Cooldown is reduced by 3 sec.",
+        "dark": "Increases P.Weakness of the affected target by 25% for 10 seconds."
       },
       "s2": {
         "name": "Shrouding Creed",
@@ -8060,8 +8060,8 @@
           "1": "Shield is increased by {0}%.",
           "2": "Shield is increased by {0}%."
         },
-        "light": "Increases the number of 'Endurance' stacked every second by 1.",
-        "dark": "Changes ATK Reduction to 30%.",
+        "light": "Reduces Cooldown by 5 seconds.",
+        "dark": "The shield lasts 5 seconds longer.",
         "ut": {
           "name": "Wooden Doll Miniature",
           "description": [
@@ -8083,8 +8083,8 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Increases the number of 'Endurance' stacked every second by 1.",
-        "dark": "Changes ATK Reduction to 30%.",
+        "light": "'Mark of Creed' lasts 5 seconds longer.",
+        "dark": "While in use, gains immunity to CC.",
         "ut": {
           "name": "Sea of Invocation",
           "description": [
