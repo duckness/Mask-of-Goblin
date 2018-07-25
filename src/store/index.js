@@ -125,7 +125,7 @@ const getters = {
         image: require("@/components/hero/images/classes/" +
           h.getClass() +
           ".png"),
-        stats: h.getClassStats().attributes
+        stats: h.getAttributes()
       },
       weapon: {
         image: require("@/components/hero/images/" + state.heroID + "/UW.png"),
@@ -175,6 +175,17 @@ const h = {
   getClass: function() {
     return state.data.hero[state.heroID].class;
   },
+  getAttributes: function() {
+    var suffix = state.data.hero[state.heroID];
+    var attrs = {
+      dmgtype: Vue.i18n.translate("ui." + suffix["type"]),
+      position:
+        Vue.i18n.translate("ui." + suffix.position["type"]) +
+        "/" +
+        String(suffix.position.weight)
+    };
+    return { ...attrs, ...h.getClassStats().attributes };
+  },
   getClassStats: function() {
     return state.data.class[h.getClass()];
   },
@@ -217,7 +228,7 @@ const h = {
   },
   addIfExists: function(d, skill, attr) {
     if (attr in skill) {
-      d[attr] = skill[attr]
+      d[attr] = skill[attr];
     }
   },
   getUnique: function(baseVal) {

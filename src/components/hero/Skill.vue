@@ -86,7 +86,6 @@ export default {
   components: {
     treasure: Treasure,
     orb: Orb
-
   },
   props: {
     skill: {
