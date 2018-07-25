@@ -637,7 +637,7 @@
       },
       "s3": {
         "name": "Đại diện của Chúa",
-        "description": "Gây {0} sát thương vật lý lên đối thủ xung quanh, gây choáng trong 2 giây.Thêm vào đó, trong vòng {1} giây tăng {3} lực tấn công của bản thân và tăng {3} xác suất né, miễn nhiễm trạng thái xấu. Trạng thái này không thể gỡ bỏ.",
+        "description": "Gây {0} sát thương vật lý lên đối thủ xung quanh, gây choáng trong 3 giây.Thêm vào đó, trong vòng {1} giây tăng {2} lực tấn công của bản thân và tăng {3} xác suất né, miễn nhiễm trạng thái xấu. Trạng thái này không thể gỡ bỏ.",
         "books": {
           "0": "Tăng {0}% lượng tăng lực tấn công",
           "1": "Tăng {0}% lượng tăng lực tấn công",
@@ -734,7 +734,7 @@
       },
       "s2": {
         "name": "Phúc lành của ánh sáng",
-        "description": "Tạo khiên chắn hấp thụ {0} sát thương cho tất cả đồng minh trong {1} giây. Trong khi lá chắn có hiệu lực miễn nhiễm trạng thái xấu.",
+        "description": "Tạo khiên chắn hấp thụ {1} sát thương cho tất cả đồng minh trong {0} giây. Trong khi lá chắn có hiệu lực miễn nhiễm trạng thái xấu.",
         "books": {
           "0": "Lá chắn bảo vệ tăng {0}%",
           "1": "Lá chắn bảo vệ tăng {0}%",
@@ -780,7 +780,7 @@
       },
       "s4": {
         "name": "Vẻ duyên dáng của Nữ thần",
-        "description": "Tăng {0} phòng thủ phép thuật của 1 đồng minh trong {1} giây.",
+        "description": "Tăng {1} phòng thủ phép thuật của 1 đồng minh trong {0} giây.",
         "books": {
           "0": "Tăng {0}% chỉ số tăng phòng thủ phép thuật.",
           "1": "Tăng {0}% chỉ số tăng phòng thủ phép thuật.",
@@ -854,7 +854,7 @@
       },
       "s2": {
         "name": "Cầu lửa",
-        "description": "Gây {0} sát thương phép thuật cho đối thủ trong phạm vi, gây choáng trong 1 giây. Đối thủ dính cộng dồn đòn Mồi Lửa mỗi 1 đòn lượng sát thương tăng {2}%.",
+        "description": "Gây {0} sát thương phép thuật cho đối thủ trong phạm vi, gây choáng trong 2 giây. Đối thủ dính cộng dồn đòn Mồi Lửa mỗi 1 đòn lượng sát thương tăng {1}%.",
         "books": {
           "0": "Tăng {0}% sát thương.",
           "1": "Tăng {0}% sát thương.",
@@ -974,7 +974,7 @@
       },
       "s2": {
         "name": "Bức màn bóng tối",
-        "description": "Tăng {0} sức mạnh tấn công trong {1} giây và né tất cả sát thương vật lý",
+        "description": "Tăng {1} sức mạnh tấn công trong {0} giây và né tất cả sát thương vật lý",
         "books": {
           "0": "Tăng {0}% mức tăng ATK",
           "1": "Tăng {0}% mức tăng ATK",
@@ -1094,7 +1094,7 @@
       },
       "s2": {
         "name": "Gầm vang chiến đấu",
-        "description": "Tăng {0} lực tấn công của toàn bộ đồng minh trong {1} giây. Khi xuất chiêu gỡ bỏ hiệu ứng xấu của đồng minh.",
+        "description": "Tăng {1} lực tấn công của toàn bộ đồng minh trong {0} giây. Khi xuất chiêu gỡ bỏ hiệu ứng xấu của đồng minh.",
         "books": {
           "0": "Tăng {0}% chỉ số tăng lực tấn công",
           "1": "Tăng {0}% chỉ số tăng lực tấn công",
@@ -1140,7 +1140,7 @@
       },
       "s4": {
         "name": "Phẫn nộ",
-        "description": "Khi tấn công kẻ địch, sức mạnh tấn công tăng {0} trong {1} giây. Cộng dồn tối đa 10 lần.",
+        "description": "Khi tấn công kẻ địch, sức mạnh tấn công tăng {1} trong {0} giây. Cộng dồn tối đa 10 lần.",
         "books": {
           "0": "Tăng {0}% chỉ số tăng lực tấn công",
           "1": "Tăng {0}% chỉ số tăng lực tấn công",
@@ -1207,14 +1207,14 @@
         "books": {
           "0": "Tăng {0}% sát thương.",
           "1": "Tăng {0}% sát thương.",
-          "2": "Giảm {0}% phòng thủ vật lý đối thủ bị trúng đòn trong {1} giây"
+          "2": "Giảm {1}% phòng thủ vật lý đối thủ bị trúng đòn trong {0} giây"
         },
         "light": "Lượng tiêu thụ Mana giảm 1.",
         "dark": "Địch bị dính sát thương sẽ bị giảm 10% thời gian đợi dùng chiêu lại."
       },
       "s2": {
         "name": "Húc đầu",
-        "description": "Nhảy xổ vào kẻ địch, gây {0} sát thương vật lý và đẩy ngã. Giảm {1}% tốc độ tấn công của đối thủ bị trúng đòn trong {2} giây.",
+        "description": "Nhảy xổ vào kẻ địch, gây {0} sát thương vật lý và đẩy ngã. Giảm {2}% tốc độ tấn công của đối thủ bị trúng đòn trong {1} giây.",
         "books": {
           "0": "Tăng {0}% sát thương.",
           "1": "Tăng {0}% sát thương.",
@@ -1237,7 +1237,7 @@
       },
       "s3": {
         "name": "Tái sinh đất",
-        "description": "Tăng phòng thủ {0} trong {1} giây, phục hồi {2}% Máu. Ngoài ra, kháng lại các hiệu ứng xấu.",
+        "description": "Tăng phòng thủ {1} trong {0} giây, phục hồi {2}% Máu. Ngoài ra, kháng lại các hiệu ứng xấu.",
         "books": {
           "0": "Tăng {0}% tăng trưởng phòng thủ",
           "1": "Tăng {0}% tăng trưởng phòng thủ",
@@ -1260,7 +1260,7 @@
       },
       "s4": {
         "name": "Phá hủy phòng thủ",
-        "description": "Khi tấn công một kẻ địch, làm suy yếu  {0}   phòng thủ vật lý của kẻ địch trong  {1}  giây. Có thể được tích luỹ tối đa 5 lần cộng hưởng.",
+        "description": "Khi tấn công một kẻ địch, làm suy yếu  {1}   phòng thủ vật lý của kẻ địch trong  {0}  giây. Có thể được tích luỹ tối đa 5 lần cộng hưởng.",
         "books": {
           "0": "Nâng tỷ lệ giảm phòng thủ của địch {0}%",
           "1": "Nâng tỷ lệ giảm phòng thủ của địch {0}%",
@@ -1454,7 +1454,7 @@
       },
       "s2": {
         "name": "Mưa trị thương",
-        "description": "Phục hồi {0} máu cho tất cả đồng minh trong {1} giây.",
+        "description": "Phục hồi {1} máu cho tất cả đồng minh trong {0} giây.",
         "books": {
           "0": "Tăng hồi máu {0}%.",
           "1": "Tăng hồi máu {0}%.",
@@ -1500,7 +1500,7 @@
       },
       "s4": {
         "name": "Sấm xích",
-        "description": "Gây {0} sát thương phép thuật lên 4 kẻ địch sau mỗi {1} giây, gây sốc điện trong {2} giây.",
+        "description": "Gây {1} sát thương phép thuật lên 4 kẻ địch sau mỗi {0} giây, gây sốc điện trong {2} giây.",
         "books": {
           "0": "Tăng {0}% sát thương.",
           "1": "Tăng {0}% sát thương.",
@@ -1620,7 +1620,7 @@
       },
       "s4": {
         "name": "Thu hoạch",
-        "description": "Trường hợp bản thân đánh bại một đối thủ, tăng {0} lực tấn công của bản thân trong {1} giây và giảm 30% thời gian chờ xuất chiêu của tất cả các kĩ năng.",
+        "description": "Trường hợp bản thân đánh bại một đối thủ, tăng {1} lực tấn công của bản thân trong {0} giây và giảm 30% thời gian chờ xuất chiêu của tất cả các kĩ năng.",
         "books": {
           "0": "Tăng {0}% mức tăng ATK",
           "1": "Tăng {0}% mức tăng ATK",
@@ -1683,7 +1683,7 @@
       },
       "s1": {
         "name": "Mưa tên",
-        "description": "Bắn 02 mũi tên ngẫu nhiên, gây {1} sát thương vật lý lên kẻ địch.",
+        "description": "Bắn 12 mũi tên ngẫu nhiên, gây {0} sát thương vật lý lên kẻ địch.",
         "books": {
           "0": "Tăng {0}% sát thương.",
           "1": "Tăng {0}% sát thương.",
@@ -1740,7 +1740,7 @@
       },
       "s4": {
         "name": "Mũi tên ánh trăng",
-        "description": "Tăng {0} xác suất chí mạng và {2} sức tấn công trong vòng {1} mỗi khi tấn công. Cộng dồn tối đa 3 lần.",
+        "description": "Tăng {2} xác suất chí mạng và {1} sức tấn công trong vòng {0} mỗi khi tấn công. Cộng dồn tối đa 3 lần.",
         "books": {
           "0": "Tăng {0}% chỉ số lực tấn công",
           "1": "Tăng {0}% chỉ số lực tấn công",
@@ -1803,7 +1803,7 @@
       },
       "s1": {
         "name": "Bão quạ",
-        "description": "Gây {0} sát thương phép thuật cho kẻ địch trong phạm vi, đẩy chúng trở lại. Giảm {1}% phòng thủ phép thuật trong vòng {2} giây.",
+        "description": "Gây {0} sát thương phép thuật cho kẻ địch trong phạm vi, đẩy chúng trở lại. Giảm {2}% phòng thủ phép thuật trong vòng {1} giây.",
         "books": {
           "0": "Tăng {0}% sát thương.",
           "1": "Tăng {0}% sát thương.",
@@ -1814,7 +1814,7 @@
       },
       "s2": {
         "name": "Móng vuốt hạn chế",
-        "description": "Gây {0} sát thương phép lên 1 đối thủ trong {2} giây. Đối tượng chịu sát thương nhận thêm sát lương liên tục.",
+        "description": "Gây {0} sát thương phép lên 2 đối thủ trong {1} giây. Đối tượng chịu sát thương nhận thêm sát lương liên tục.",
         "books": {
           "0": "Tăng {0}% sát thương.",
           "1": "Tăng {0}% sát thương.",
@@ -1860,7 +1860,7 @@
       },
       "s4": {
         "name": "Gió đen",
-        "description": "Giảm {0}  tấn công của đối thủ nhận sát thương từ Maria trong {1} giây.",
+        "description": "Giảm {1}  tấn công của đối thủ nhận sát thương từ Maria trong {0} giây.",
         "books": {
           "0": "Tăng lượng bị giảm {0}%",
           "1": "Tăng lượng bị giảm {0}%",
@@ -1934,7 +1934,7 @@
       },
       "s2": {
         "name": "Lăn qua",
-        "description": "Gây {0} sát thương vật lý 2 lần cho kẻ địch ở phía trước. Mỗi đòn tấn công có {1}% xác suất đẩy ngã kẻ địch trong {3} giây.",
+        "description": "Gây {0} sát thương vật lý 3 lần cho kẻ địch ở phía trước. Mỗi đòn tấn công có {1}% xác suất đẩy ngã kẻ địch trong {2} giây.",
         "books": {
           "0": "Tăng {0}% sát thương.",
           "1": "Tăng {0}% sát thương.",
@@ -1957,7 +1957,7 @@
       },
       "s3": {
         "name": "Hải tặc Miruru!",
-        "description": "Gây {0} sát thương vật lý cho kẻ địch trong phạm vi trong {1} giây, giảm {2}% tốc độ.",
+        "description": "Gây {1} sát thương vật lý cho kẻ địch trong phạm vi trong {0} giây, giảm {2}% tốc độ.",
         "books": {
           "0": "Tăng {0}% sát thương.",
           "1": "Tăng {0}% sát thương.",
@@ -2054,7 +2054,7 @@
       },
       "s2": {
         "name": "Cây nho rối",
-        "description": "Gây {0} sát thương phép lên Kẻ địch theo 1 đường thẳng và trùm 1 hiệu ứng đầu độc và trói Kẻ địch bị trúng hiệu ứng trong {2} giây. Sau một thời gian nhất định, gây một lượng lớn sát thương dựa trên số lần cộng dồn hiệu ứng Đầu độc.",
+        "description": "Gây {0} sát thương phép lên Kẻ địch theo 1 đường thẳng và trùm 2 hiệu ứng đầu độc và trói Kẻ địch bị trúng hiệu ứng trong {1} giây. Sau một thời gian nhất định, gây một lượng lớn sát thương dựa trên số lần cộng dồn hiệu ứng Đầu độc.",
         "books": {
           "0": "Tăng {0}% sát thương.",
           "1": "Tăng {0}% sát thương.",
@@ -2100,7 +2100,7 @@
       },
       "s4": {
         "name": "Lá lưỡi đao",
-        "description": "Khi đánh bình thường, tấn công một kẻ địch ngẫu nhiên 3 lần với 30% xác suất gây ra {0} sát thương phép và 1 lần cộng dồn độc trong 10 giây. Độc giáng tổng cộng {2} sát thương phép trong 20 giây.",
+        "description": "Khi đánh bình thường, tấn công một kẻ địch ngẫu nhiên 3 lần với 30% xác suất gây ra {0} sát thương phép và 1 lần cộng dồn độc trong 20 giây. Độc giáng tổng cộng {1} sát thương phép trong 20 giây.",
         "books": {
           "0": "Tăng lượng sát thương {0}%",
           "1": "Tăng lượng sát thương {0}%",
@@ -2197,7 +2197,7 @@
       },
       "s3": {
         "name": "Khiên người giám hộ",
-        "description": "Tăng {0} phòng thủ vật lý cho mọi đồng minh trong {1} giây, giảm {2}% xác suất trúng đòn chí mạng.",
+        "description": "Tăng {1} phòng thủ vật lý cho mọi đồng minh trong {0} giây, giảm {2}% xác suất trúng đòn chí mạng.",
         "books": {
           "0": "Tăng {0}% chỉ số tăng phòng phủ",
           "1": "Tăng {0}% chỉ số tăng phòng phủ",
@@ -2220,7 +2220,7 @@
       },
       "s4": {
         "name": "Tàn phá vũ khí",
-        "description": "Gây {0} sát thương vật lý lên đối thủ phía trước bản thân khi chặn đòn và giảm {1}% lực tấn công của đối tượng trong {2} giây. Sau khi ra đòn hồi phục 300 Mana.",
+        "description": "Gây {0} sát thương vật lý lên đối thủ phía trước bản thân khi chặn đòn và giảm {2}% lực tấn công của đối tượng trong {1} giây. Sau khi ra đòn hồi phục 300 Mana.",
         "books": {
           "0": "Tăng {0}% sát thương.",
           "1": "Tăng {0}% sát thương.",
@@ -2283,7 +2283,7 @@
       },
       "s1": {
         "name": "Trị thương linh hồn",
-        "description": "Hồi phục thể lực 4 đồng minh có thể lực thấp nhất với mức {0}% thể lực tối đa và hồi phục thêm {2} trong {1} giây. Hiệu quả này không thể bị gỡ bỏ.",
+        "description": "Hồi phục thể lực 4 đồng minh có thể lực thấp nhất với mức {2}% thể lực tối đa và hồi phục thêm {1} trong {0} giây. Hiệu quả này không thể bị gỡ bỏ.",
         "books": {
           "0": "Tăng hồi máu {0}%.",
           "1": "Tăng hồi máu {0}%.",
@@ -2294,11 +2294,11 @@
       },
       "s2": {
         "name": "Cứu rỗi linh hồn",
-        "description": "Loại bỏ hiệu ứng xấu khỏi toàn bộ đồng minh và tăng phòng thủ phép thuật {0} trong {1} giây.",
+        "description": "Loại bỏ hiệu ứng xấu khỏi toàn bộ đồng minh và tăng phòng thủ phép thuật {1} trong {0} giây.",
         "books": {
           "0": "Tăng tăng trưởng phòng thủ phép thuật {0}%.",
           "1": "Tăng tăng trưởng phòng thủ phép thuật {0}%.",
-          "2": "Tăng {0} kháng trạng thái xấu trong {1} giây"
+          "2": "Tăng {1} kháng trạng thái xấu trong {0} giây"
         },
         "light": "Lượng tiêu thụ Mana giảm 1.",
         "dark": "Lực phòng thủ phép của bản thân tăng thêm một mức 10%.",
@@ -2340,7 +2340,7 @@
       },
       "s4": {
         "name": "Hoà hợp tinh thần",
-        "description": "Mỗi 7 giây, hồi phục 0 điểm mana và {1} máu của 1 đồng minh còn ít máu nhất",
+        "description": "Mỗi 7 giây, hồi phục 1 điểm mana và {0} máu của 1 đồng minh còn ít máu nhất",
         "books": {
           "0": "Tăng hồi máu {0}%.",
           "1": "Tăng hồi máu {0}%.",
@@ -2534,7 +2534,7 @@
       },
       "s2": {
         "name": "Mũi nhọn",
-        "description": "Tăng {0} sức mạnh tấn công trong {1} giây và tăng {2} cơ hội ra đòn chí mạng",
+        "description": "Tăng {1} sức mạnh tấn công trong {0} giây và tăng {2} cơ hội ra đòn chí mạng",
         "books": {
           "0": "Tăng mức Tăng {0}% tấn công",
           "1": "Tăng mức Tăng {0}% tấn công",
@@ -2580,7 +2580,7 @@
       },
       "s4": {
         "name": "Đứa bé may mắn",
-        "description": "Với các đòn chí mạng, tăng {0} sức mạnh tấn công trong {1} giây. Có thể cộng dồn tối đa 5 lần (luỹ kế tối đa 5 lần sức mạnh)",
+        "description": "Với các đòn chí mạng, tăng {1} sức mạnh tấn công trong {0} giây. Có thể cộng dồn tối đa 5 lần (luỹ kế tối đa 5 lần sức mạnh)",
         "books": {
           "0": "Tăng mức Tăng {0}% tấn công",
           "1": "Tăng mức Tăng {0}% tấn công",
@@ -2883,7 +2883,7 @@
       },
       "s1": {
         "name": "Ngọn gió dữ tợn",
-        "description": "Lao 1 lần về đối thủ phía trước trong phạm vi gây {0} sát thương vật lý cho kẻ địch và quăng ngã chúng trong {2} giây.",
+        "description": "Lao 2 lần về đối thủ phía trước trong phạm vi gây {0} sát thương vật lý cho kẻ địch và quăng ngã chúng trong {1} giây.",
         "books": {
           "0": "Tăng {0}% sát thương.",
           "1": "Tăng {0}% sát thương.",
@@ -2894,7 +2894,7 @@
       },
       "s2": {
         "name": "Gió rít",
-        "description": "Tăng  {0} khả năng né đòn vật lý trong {1} giây và tăng  {2} sức mạnh tấn công.",
+        "description": "Tăng  {1} khả năng né đòn vật lý trong {0} giây và tăng  {2} sức mạnh tấn công.",
         "books": {
           "0": "Tăng  {0}% mức Tăng tấn công",
           "1": "Tăng  {0}% mức Tăng tấn công",
@@ -3037,7 +3037,7 @@
       },
       "s3": {
         "name": "Lửa hội tụ",
-        "description": "Bắn 00 phát vào đối thủ ngẫu nhiên. Gây {1} sát thương và tăng {1}% sát thương cho mỗi đòn tấn công.",
+        "description": "Bắn 10 phát vào đối thủ ngẫu nhiên. Gây {1} sát thương và tăng {0}% sát thương cho mỗi đòn tấn công.",
         "books": {
           "0": "Tăng {0}% sát thương.",
           "1": "Tăng {0}% sát thương.",
@@ -3060,7 +3060,7 @@
       },
       "s4": {
         "name": "Phát bắn nhanh",
-        "description": "Mỗi 00 giây, tấn công liên tiếp 2 lần và gây {1} sát thương vật lý",
+        "description": "Mỗi 10 giây, tấn công liên tiếp 2 lần và gây {0} sát thương vật lý",
         "books": {
           "0": "Tăng {0}% sát thương.",
           "1": "Tăng {0}% sát thương.",
@@ -3123,7 +3123,7 @@
       },
       "s1": {
         "name": "Năng lượng thiêu trụi",
-        "description": "Gây {0} sát thương phép lên đối thủ trong phạm vi và đẩy ngã, cộng dồn đòn lửa tối đa 1 lần. Sau đó, gây {3} sát thương phép thuật khi tấn công thường trong {2} giây. và cộng dồn 1 đòn lửa lên đối thủ. Tăng {3}% lượng sát thương trên mỗi lần cộng dồn đòn lửa. Mỗi 1 lần cộng dồn đòn lửa gây sát thương và giảm 1% lực hồi phục.",
+        "description": "Gây {0} sát thương phép lên đối thủ trong phạm vi và đẩy ngã, cộng dồn đòn lửa tối đa 3 lần. Sau đó, gây {2} sát thương phép thuật khi tấn công thường trong {1} giây. và cộng dồn 1 đòn lửa lên đối thủ. Tăng {3}% lượng sát thương trên mỗi lần cộng dồn đòn lửa. Mỗi 1 lần cộng dồn đòn lửa gây sát thương và giảm 1% lực hồi phục.",
         "books": {
           "0": "Tăng {0}% sát thương.",
           "1": "Tăng {0}% sát thương.",
@@ -3134,7 +3134,7 @@
       },
       "s2": {
         "name": "Lửa địa ngục",
-        "description": "Tăng {0} lực phòng thủ phép của toàn bộ đồng minh trong {1} giây và tăng {2} xác suất chặn đòn phép thuật. Mỗi {3} giây cộng dồn thêm 1 lần đòn lửa xung quanh bản thân.",
+        "description": "Tăng {1} lực phòng thủ phép của toàn bộ đồng minh trong {0} giây và tăng {2} xác suất chặn đòn phép thuật. Mỗi {3} giây cộng dồn thêm 1 lần đòn lửa xung quanh bản thân.",
         "books": {
           "0": "Nâng tăng trưởng phòng thủ phép thuật {0}%.",
           "1": "Nâng tăng trưởng phòng thủ phép thuật {0}%.",
@@ -3243,7 +3243,7 @@
       },
       "s1": {
         "name": "Sao mới thánh linh",
-        "description": "Hồi phục {0} thể lực của đồng minh xung quanh đối tượng đồng minh có thể lực thấp nhất. Gây {1} sát thương phép thuật lên đối thủ xung quanh đối tượng, giảm {2}% tốc độ tấn công trong {3} giây.",
+        "description": "Hồi phục {0} thể lực của đồng minh xung quanh đối tượng đồng minh có thể lực thấp nhất. Gây {1} sát thương phép thuật lên đối thủ xung quanh đối tượng, giảm {3}% tốc độ tấn công trong {2} giây.",
         "books": {
           "0": "Tăng phục hồi và sát thương {0}%.",
           "1": "Tăng phục hồi và sát thương {0}%.",
@@ -3300,7 +3300,7 @@
       },
       "s4": {
         "name": "Sự dạy dỗ của Thiên Chúa",
-        "description": "Khi tấn công một kẻ địch, có 10% cơ hội gây  {0} sát thương phép thuật lên kẻ địch, và làm kẻ địch mất tri giác trong  {2}  giây.",
+        "description": "Khi tấn công một kẻ địch, có 20% cơ hội gây  {0} sát thương phép thuật lên kẻ địch, và làm kẻ địch mất tri giác trong  {1}  giây.",
         "books": {
           "0": "Tăng sát thương {0}%.",
           "1": "Tăng sát thương {0}%.",
@@ -3397,7 +3397,7 @@
       },
       "s3": {
         "name": "Ngày tàn",
-        "description": "Gây ra  {0}  sát thương phép thuật lên kẻ địch mỗi  {1}  giây, và tự hồi máu tương đương  {2}% lượng sát thương phép thuật gây ra. Nhận miễn nhiễm với các trạng thái xấu. Sát thương tăng lên nếu kẻ địch bị đánh dấu.",
+        "description": "Gây ra  {1}  sát thương phép thuật lên kẻ địch mỗi  {0}  giây, và tự hồi máu tương đương  {2}% lượng sát thương phép thuật gây ra. Nhận miễn nhiễm với các trạng thái xấu. Sát thương tăng lên nếu kẻ địch bị đánh dấu.",
         "books": {
           "0": "Tăng {0}% sát thương.",
           "1": "Tăng {0}% sát thương.",
@@ -3517,7 +3517,7 @@
       },
       "s3": {
         "name": "Mưa công phá",
-        "description": "Gây  {0}  sát thương phép lên đối thủ ngẫu nhiên trong  {1}  giây, và giảm 5% lực phòng thủ phép thuật của đối phương. Cộng dồn tối đa 5 lần.",
+        "description": "Gây  {1}  sát thương phép lên đối thủ ngẫu nhiên trong  {0}  giây, và giảm 5% lực phòng thủ phép thuật của đối phương. Cộng dồn tối đa 5 lần.",
         "books": {
           "0": "Tăng {0}% sát thương.",
           "1": "Tăng {0}% sát thương.",
@@ -3603,7 +3603,7 @@
       },
       "s1": {
         "name": "Cổ tự mỏng manh",
-        "description": "Khắc dấu lên đối thủ và giảm {0}% lực phòng thủ vật lý trong {1} giây. Sau {2} giây gây tối đa {3} sát thương phép bỏ qua phòng thủ dựa trên thể lực mất đi.",
+        "description": "Khắc dấu lên đối thủ và giảm {1}% lực phòng thủ vật lý trong {0} giây. Sau {2} giây gây tối đa {3} sát thương phép bỏ qua phòng thủ dựa trên thể lực mất đi.",
         "books": {
           "0": "Tăng {0}% lượng sát thương.",
           "1": "Tăng {0}% lượng sát thương.",
@@ -3660,7 +3660,7 @@
       },
       "s4": {
         "name": "Cổ tự bảo hộ",
-        "description": "Đánh dấu lên đồng minh có thể lực thấp nhất mỗi {0} giây và hồi phục {1} thể lực trong {2} giây.",
+        "description": "Đánh dấu lên đồng minh có thể lực thấp nhất mỗi {0} giây và hồi phục {2} thể lực trong {1} giây.",
         "books": {
           "0": "Tăng {0}% lượng hồi máu.",
           "1": "Tăng {0}% lượng hồi máu.",
@@ -3734,7 +3734,7 @@
       },
       "s2": {
         "name": "Di chuyển chớp nhoáng",
-        "description": "Di chuyển đến đối thủ có thể lực cao nhất. tạo trạng thái câm trong 0 giây lên đối tượng, tăng {2} lượng giảm sát thương phép nhận trong {1} giây và trong {2} giây khắc dấu lên đối tượng đồng thời ưu tiên mọi tấn công của bản thân lên đối tượng mang dấu ấn. Mỗi khi tấn công lên đối tượng mang dấu ấn, gây thêm {3} sát thương vật lý.",
+        "description": "Di chuyển đến đối thủ có thể lực cao nhất. tạo trạng thái câm trong 2 giây lên đối tượng, tăng {1} lượng giảm sát thương phép nhận trong {0} giây và trong {2} giây khắc dấu lên đối tượng đồng thời ưu tiên mọi tấn công của bản thân lên đối tượng mang dấu ấn. Mỗi khi tấn công lên đối tượng mang dấu ấn, gây thêm {3} sát thương vật lý.",
         "books": {
           "0": "Tăng {0}% sát thương.",
           "1": "Tăng {0}% sát thương.",
@@ -3877,7 +3877,7 @@
       },
       "s3": {
         "name": "Lấp la Lấp lánh",
-        "description": "Gây {0} sát thương phép cho mục tiêu trong phạm vi, và giảm {1}% Xác suất chí mạng của mục tiêu trong {2} giây",
+        "description": "Gây {0} sát thương phép cho mục tiêu trong phạm vi, và giảm {2}% Xác suất chí mạng của mục tiêu trong {1} giây",
         "books": {
           "0": "Tăng {0}% sát thương.",
           "1": "Tăng {0}% sát thương.",
@@ -3900,7 +3900,7 @@
       },
       "s4": {
         "name": "Gotcha!",
-        "description": "Mỗi {0} giây, gây {1} sát thương phép thuật lên kẻ địch ở xa nhất trong {2} giây. Địch càng ở xa thì càng gây nhiều sát thương hơn.",
+        "description": "Mỗi {0} giây, gây {2} sát thương phép thuật lên kẻ địch ở xa nhất trong {1} giây. Địch càng ở xa thì càng gây nhiều sát thương hơn.",
         "books": {
           "0": "Tăng {0}% sát thương.",
           "1": "Tăng {0}% sát thương.",
@@ -3974,7 +3974,7 @@
       },
       "s2": {
         "name": "Khiên chắn bọt nước",
-        "description": "Tạo khiên chắn cho đồng minh còn lượng máu thấp nhất trong 05 giây để chặn tối đa {1} sát thương, và giúp đồng minh có trạng thái Miễn nhiễm. Khi Khiên chắn có tác dụng, hồi {1} máu trong mỗi giây. Trong khi lá chắn có hiệu lực, hãy giành Immunity to CC.",
+        "description": "Tạo khiên chắn cho đồng minh còn lượng máu thấp nhất trong 15 giây để chặn tối đa {0} sát thương, và giúp đồng minh có trạng thái Miễn nhiễm. Khi Khiên chắn có tác dụng, hồi {1} máu trong mỗi giây. Trong khi lá chắn có hiệu lực, hãy giành Immunity to CC.",
         "books": {
           "0": "Tăng {0}% Hiệu ứng khiên.",
           "1": "Tăng {0}% Hiệu ứng khiên.",
@@ -3997,7 +3997,7 @@
       },
       "s3": {
         "name": "Nhạc hội của nước",
-        "description": "Gây  {0}  sát thương phép cho tất cả kẻ địch ở gần và đẩy ngã chúng. Hồi 1 cục mana cho tất cả các đồng minh (không bao gồm bản thân). Sau đó, mỗi  {2}  giây, những kẻ địch ngẫu nhiên sẽ bị trúng một xoáy nước và nhận  {2}  sát thương phép, cũng như bị đẩy ngã trong 3 giây.",
+        "description": "Gây  {0}  sát thương phép cho tất cả kẻ địch ở gần và đẩy ngã chúng. Hồi 2 cục mana cho tất cả các đồng minh (không bao gồm bản thân). Sau đó, mỗi  {1}  giây, những kẻ địch ngẫu nhiên sẽ bị trúng một xoáy nước và nhận  {2}  sát thương phép, cũng như bị đẩy ngã trong 3 giây.",
         "books": {
           "0": "Tăng {0}% sát thương.",
           "1": "Tăng {0}% sát thương.",
@@ -4140,7 +4140,7 @@
       },
       "s4": {
         "name": "Phán xét cuối cùng",
-        "description": "Gây {0} sát thương phép bỏ qua phòng thủ lên đối thủ mang Dấu Ấn Phán Xử mỗi 15 giây. Khi bản thân nhận phải đòn chí mạng gây {1} sát thương phép lên đối thủ mang Dấu Ấn Phán Xử và gây choáng trong 2 giây, tạo màng bảo hộ chặn {3} sát thương cho toàn bộ đồng minh trong 5 giây. Trong thời gian duy trì màng bảo hộ, miễn nhiễm với trạng thái xấu. Khi phát hiệu quả tiêu thụ hết toàn bộ mana của bản thân và tăng 50% thời gian hồi tất cả các chiêu.",
+        "description": "Gây {0} sát thương phép bỏ qua phòng thủ lên đối thủ mang Dấu Ấn Phán Xử mỗi 15 giây. Khi bản thân nhận phải đòn chí mạng gây {1} sát thương phép lên đối thủ mang Dấu Ấn Phán Xử và gây choáng trong 3 giây, tạo màng bảo hộ chặn {2} sát thương cho toàn bộ đồng minh trong 5 giây. Trong thời gian duy trì màng bảo hộ, miễn nhiễm với trạng thái xấu. Khi phát hiệu quả tiêu thụ hết toàn bộ mana của bản thân và tăng 50% thời gian hồi tất cả các chiêu.",
         "books": {
           "0": "Tăng {0}% sát thương và Khiên chắn",
           "1": "Tăng {0}% sát thương và Khiên chắn",
@@ -4260,7 +4260,7 @@
       },
       "s4": {
         "name": "Kẻ thống trị máu",
-        "description": "Khi thể lực trên 50%, sức tấn công tăng {0} , lực xuyên kháng phòng thủ tăng 150. Ngoài ra, làm đối thủ rơi vào trạng thái Lời nguyền máu khi tấn công, gây ra tổng {2} sát thương phép kéo dài trong 20 giây, hồi phục thể lực một lượng tương đương 10% sát thương gây ra từ hiệu ứng Lời nguyền máu. Lời nguyền máu được cộng dồn tối đa 100 lần và không thể gỡ bỏ.",
+        "description": "Khi thể lực trên 50%, sức tấn công tăng {0} , lực xuyên kháng phòng thủ tăng 250. Ngoài ra, làm đối thủ rơi vào trạng thái Lời nguyền máu khi tấn công, gây ra tổng {1} sát thương phép kéo dài trong 20 giây, hồi phục thể lực một lượng tương đương 10% sát thương gây ra từ hiệu ứng Lời nguyền máu. Lời nguyền máu được cộng dồn tối đa 100 lần và không thể gỡ bỏ.",
         "books": {
           "0": "Tăng {0}% sát thương.",
           "1": "Tăng {0}% sát thương.",
@@ -4334,7 +4334,7 @@
       },
       "s2": {
         "name": "Đại đao Không gian",
-        "description": "Gây {0} sát thương vật lý lên kẻ địch mục tiêu và loại bỏ các trạng thái có lợi của địch. Kẻ địch trúng đòn sẽ nhận {1} sát thương vật lý trong {2} giây và bị đánh ngã trong 3 giây. Số mục tiêu tấn công tăng tương ứng với số lượt cộng dồn hiệu ứng Lưỡi kiếm",
+        "description": "Gây {0} sát thương vật lý lên kẻ địch mục tiêu và loại bỏ các trạng thái có lợi của địch. Kẻ địch trúng đòn sẽ nhận {2} sát thương vật lý trong {1} giây và bị đánh ngã trong 3 giây. Số mục tiêu tấn công tăng tương ứng với số lượt cộng dồn hiệu ứng Lưỡi kiếm",
         "books": {
           "0": "Tăng {0}% sát thương",
           "1": "Tăng {0}% sát thương",
@@ -4454,7 +4454,7 @@
       },
       "s2": {
         "name": "Trị thương Khẩn cấp",
-        "description": "Loại bỏ mọi hiệu ứng tiêu cực trên đồng minh và hồi {0} máu trong vòng 10 giây đồng thời tăng 150 chỉ số Kháng Hiệu ứng xấu. Khi sử dụng chiêu trong trạng thái nạp phép trong quan, tất cả đồng minh sẽ nhận thêm {2} Xác xuất chí mạng và miễn nhiễm với trạng thái xấu.",
+        "description": "Loại bỏ mọi hiệu ứng tiêu cực trên đồng minh và hồi {0} máu trong vòng 10 giây đồng thời tăng 250 chỉ số Kháng Hiệu ứng xấu. Khi sử dụng chiêu trong trạng thái nạp phép trong quan, tất cả đồng minh sẽ nhận thêm {1} Xác xuất chí mạng và miễn nhiễm với trạng thái xấu.",
         "books": {
           "0": "Tăng {0}% hồi máu",
           "1": "Tăng {0}% hồi máu",
@@ -4500,7 +4500,7 @@
       },
       "s4": {
         "name": "Nạp phép",
-        "description": "Mỗi 0.5 giây nạp 0, với mỗi mana đã tiêu thụ nạp thêm 10. Khi nạp dồn đến 100 chuyển hóa sang trạng thái Nạp Phép tăng {1} lực tấn công trong 15 giây và tấn công thường làm giảm 10% thời gian sử dụng chiêu. Mọi hiệu quả không thể gỡ bỏ và tại trạng thái Nạp Phép không thể nạp dồn thêm.",
+        "description": "Mỗi 0.5 giây nạp 1, với mỗi mana đã tiêu thụ nạp thêm 10. Khi nạp dồn đến 100 chuyển hóa sang trạng thái Nạp Phép tăng {0} lực tấn công trong 15 giây và tấn công thường làm giảm 10% thời gian sử dụng chiêu. Mọi hiệu quả không thể gỡ bỏ và tại trạng thái Nạp Phép không thể nạp dồn thêm.",
         "books": {
           "0": "Tăng  {0}% mức Tăng tấn công",
           "1": "Tăng  {0}% mức Tăng tấn công",
@@ -4563,7 +4563,7 @@
       },
       "s1": {
         "name": "Bang! Bang !!",
-        "description": "Tấn công một kẻ địch 1 lần, gây {0} sát thương vật lý mỗi lần. Nếu kỹ năng gây chí mạng sẽ nổ thêm {2} sát thương vật lý lên kẻ địch ở gần",
+        "description": "Tấn công một kẻ địch 2 lần, gây {0} sát thương vật lý mỗi lần. Nếu kỹ năng gây chí mạng sẽ nổ thêm {1} sát thương vật lý lên kẻ địch ở gần",
         "books": {
           "0": "Tăng {0}% sát thương",
           "1": "Tăng {0}% sát thương",
@@ -4597,7 +4597,7 @@
       },
       "s3": {
         "name": "Nhảy cùng tôi!!",
-        "description": "Vẩy súng bắn vào 0 kẻ địch ngẫu nhiên 12 lần, gây tổng cộng {1} sát thương vật lý. Mỗi lần gây sát thương, đánh dấu Dấu Ấn Tử Thần không thể xóa bỏ lên đối thủ. Mỗi lần Dấu Ấn Tử Thần được cộng dồn, sẽ tăng 1% lượng sát thương của kĩ năng này.",
+        "description": "Vẩy súng bắn vào 1 kẻ địch ngẫu nhiên 12 lần, gây tổng cộng {0} sát thương vật lý. Mỗi lần gây sát thương, đánh dấu Dấu Ấn Tử Thần không thể xóa bỏ lên đối thủ. Mỗi lần Dấu Ấn Tử Thần được cộng dồn, sẽ tăng 1% lượng sát thương của kĩ năng này.",
         "books": {
           "0": "Tăng {0}% sát thương",
           "1": "Tăng {0}% sát thương",
@@ -4717,7 +4717,7 @@
       },
       "s3": {
         "name": "Phán xử của thần",
-        "description": "Tấn công 3 lần lên địch trong phạm vi đường thẳng về phía trước bản thân anh hùng. 1 lần tấn công đầu sẽ gây ra {0} sát thương vật lý lên địch và làm ngất xỉu trong 4 giây, lần tấn công cuối gây ra {2} sát thương vật lý lên địch trên diện rộng 20% và làm ngất xỉu trong 4 giây. Mỗi lần tấn công sẽ gỡ bỏ hiệu ứng có lợi của địch với xác suất 50%.",
+        "description": "Tấn công 3 lần lên địch trong phạm vi đường thẳng về phía trước bản thân anh hùng. 2 lần tấn công đầu sẽ gây ra {0} sát thương vật lý lên địch và làm ngất xỉu trong 4 giây, lần tấn công cuối gây ra {1} sát thương vật lý lên địch trên diện rộng 20% và làm ngất xỉu trong 4 giây. Mỗi lần tấn công sẽ gỡ bỏ hiệu ứng có lợi của địch với xác suất 50%.",
         "books": {
           "0": "Tăng {0}% sát thương",
           "1": "Tăng {0}% sát thương",
@@ -4934,7 +4934,7 @@
       },
       "s2": {
         "name": "Tuyệt vọng tìm đến",
-        "description": "Tiến về phía đối thủ có sức tấn công cao nhất, gây ra {0} sát thương phép lên những đối thủ trong phạm vi xung quanh đối tượng đó và làm giảm {1} tốc độ tấn công. [Cơn bão] - Mất 10% thể lực hiện tại của bản thân để dùng chiêu. Phạm vi hiệu ứng tăng lên, làm đối tượng choáng trong {2} giây và làm giảm {3} tốc độ tấn công của bản thân trong {4} giây.",
+        "description": "Tiến về phía đối thủ có sức tấn công cao nhất, gây ra {0} sát thương phép lên những đối thủ trong phạm vi xung quanh đối tượng đó và làm giảm {1} tốc độ tấn công. [Cơn bão] - Mất 10% thể lực hiện tại của bản thân để dùng chiêu. Phạm vi hiệu ứng tăng lên, làm đối tượng choáng trong {2} giây và làm giảm {4} tốc độ tấn công của bản thân trong {3} giây.",
         "books": {
           "0": "Tăng {0}% sát thương",
           "1": "Tăng {0}% sát thương",
@@ -4980,7 +4980,7 @@
       },
       "s4": {
         "name": "Máu nhiệm chú",
-        "description": "Khi chiêu của Ezekiel kết thúc sẽ nhận được 'Máu nhiệm chú'. Nếu nhận 4 lần Máu nhiệm chú, số cộng dồn này được sử dụng, thời gian đợi hồi chiêu của tất cả các kĩ năng được thiết lập lại, gây ra {0} sát thương phép lên những đối thủ xung quanh, làm ngã trong 2 giây và khiến đối thủ rơi vào trạng thái Cơn bão không thể gỡ bỏ được trong {1} giây. Ở trạng thái Cơn bão, trận đấu được tiến hành tự động không thể kháng cự, sức tấn công tăng {3} , lượng sát thương của tấn công thường tăng gấp 2 lần, hiệu ứng của tất cả các kĩ năng mạnh hơn. Thông qua việc dùng kĩ năng khi ở trạng thái Cơn bão sẽ không thể nhận được Máu nhiệm chú, nhưng có thể nhận được nếu giết chết đối thủ.",
+        "description": "Khi chiêu của Ezekiel kết thúc sẽ nhận được 'Máu nhiệm chú'. Nếu nhận 4 lần Máu nhiệm chú, số cộng dồn này được sử dụng, thời gian đợi hồi chiêu của tất cả các kĩ năng được thiết lập lại, gây ra {0} sát thương phép lên những đối thủ xung quanh, làm ngã trong 3 giây và khiến đối thủ rơi vào trạng thái Cơn bão không thể gỡ bỏ được trong {1} giây. Ở trạng thái Cơn bão, trận đấu được tiến hành tự động không thể kháng cự, sức tấn công tăng {2} , lượng sát thương của tấn công thường tăng gấp 2 lần, hiệu ứng của tất cả các kĩ năng mạnh hơn. Thông qua việc dùng kĩ năng khi ở trạng thái Cơn bão sẽ không thể nhận được Máu nhiệm chú, nhưng có thể nhận được nếu giết chết đối thủ.",
         "books": {
           "0": "Tăng {0}% sát thương",
           "1": "Tăng {0}% sát thương",
@@ -5163,7 +5163,7 @@
       },
       "s1": {
         "name": "Lấy Hết Sức Bình Sinh",
-        "description": "Tấn công đối thủ 06 lần gây tổng {1} sát thương phép lên đối thủ xung quanh. Mỗi đòn chí mạng tăng 3% lượng sát thương chí mạng của bản thân trong 10 giây gây thêm {1} sát thương phép với xác suất 30% và gây choáng trong 3 giây. Hiệu quả tăng lượng sát thương đòn chí mạng được cộng dồn tối đa 30 lần.",
+        "description": "Tấn công đối thủ 16 lần gây tổng {0} sát thương phép lên đối thủ xung quanh. Mỗi đòn chí mạng tăng 3% lượng sát thương chí mạng của bản thân trong 10 giây gây thêm {1} sát thương phép với xác suất 30% và gây choáng trong 3 giây. Hiệu quả tăng lượng sát thương đòn chí mạng được cộng dồn tối đa 30 lần.",
         "books": {
           "0": "Tăng {0}% sát thương",
           "1": "Tăng {0}% sát thương",
@@ -5317,7 +5317,7 @@
       },
       "s3": {
         "name": "Nước phép cường hóa",
-        "description": "Truyền nước thuốc tới đồng minh có lực tấn công mạnh nhất và trong 05 giây tăng lực tấn công ngang mức 20%+ {1} của lực tấn công Mediana và giữ cho mức thể lực không bị hạ xuống dưới 5%.",
+        "description": "Truyền nước thuốc tới đồng minh có lực tấn công mạnh nhất và trong 15 giây tăng lực tấn công ngang mức 20%+ {0} của lực tấn công Mediana và giữ cho mức thể lực không bị hạ xuống dưới 5%.",
         "books": {
           "0": "Tăng {0}% lượng tăng lực tấn công",
           "1": "Tăng {0}% lượng tăng lực tấn công",
@@ -5654,7 +5654,7 @@
       },
       "s2": {
         "name": "Hiệp lực",
-        "description": "Tạo trạng thái 'Hiệp lực' với đồng minh có sức tấn công mạnh nhất trong 20 giây. Trong trạng thái Hiệp lực, sức tấn công của đồng minh hiệp lực và của bản thân Priscilla tăng 05%+ {1}",
+        "description": "Tạo trạng thái 'Hiệp lực' với đồng minh có sức tấn công mạnh nhất trong 20 giây. Trong trạng thái Hiệp lực, sức tấn công của đồng minh hiệp lực và của bản thân Priscilla tăng 15%+ {0}",
         "books": {
           "0": "Tăng  {0}% mức Tăng tấn công",
           "1": "Tăng  {0}% mức Tăng tấn công",
@@ -5797,7 +5797,7 @@
       },
       "s3": {
         "name": "Không khoan nhượng !",
-        "description": "Gỡ bỏ mọi hiệu ứng xấu lên bản thân, làm tăng {0} sức tấn công, {1} lực xuyên thủ trong 20 giây. Trong thời gian kéo dài sẽ thay đổi thành tấn công thường và tiêu thụ 3% mana, gây sát thương lên đối thủ theo đường thẳng, gây thêm {3} sát thương vật lý bỏ qua phòng thủ lên rồng.",
+        "description": "Gỡ bỏ mọi hiệu ứng xấu lên bản thân, làm tăng {0} sức tấn công, {1} lực xuyên thủ trong 30 giây. Trong thời gian kéo dài sẽ thay đổi thành tấn công thường và tiêu thụ 3% mana, gây sát thương lên đối thủ theo đường thẳng, gây thêm {2} sát thương vật lý bỏ qua phòng thủ lên rồng.",
         "books": {
           "0": "Tăng {0}% lượng tăng lực tấn công.",
           "1": "Tăng {0}% lượng tăng lực tấn công.",
@@ -6014,7 +6014,7 @@
       },
       "s2": {
         "name": "Thẻ bài tình yêu - Elliciad",
-        "description": "Làm tăng {0} sức tấn công của bản thân trong {1} giây và tăng {2}% lượng hồi phục mana trên giây. Tiêu thụ thẻ bài bản thân đang sở hữu và gây thêm hiệu ứng tùy theo thuộc tính thẻ bài. Sau khi sử dụng sẽ nhận được thẻ bài [Tình yêu]. [Chết chóc] – Lực xuyên kháng phòng thủ tăng 600 trong thời gian kéo dài. [Tình yêu] – Hiệu ứng áp dụng lên toàn bộ đồng minh. [May mắn] – Thời gian đợi hồi chiêu không được áp dụng.",
+        "description": "Làm tăng {1} sức tấn công của bản thân trong {0} giây và tăng {2}% lượng hồi phục mana trên giây. Tiêu thụ thẻ bài bản thân đang sở hữu và gây thêm hiệu ứng tùy theo thuộc tính thẻ bài. Sau khi sử dụng sẽ nhận được thẻ bài [Tình yêu]. [Chết chóc] – Lực xuyên kháng phòng thủ tăng 600 trong thời gian kéo dài. [Tình yêu] – Hiệu ứng áp dụng lên toàn bộ đồng minh. [May mắn] – Thời gian đợi hồi chiêu không được áp dụng.",
         "books": {
           "0": "Tăng {0}% lượng tăng lực tấn công.",
           "1": "Tăng {0}% lượng tăng lực tấn công.",
@@ -6123,7 +6123,7 @@
       },
       "s1": {
         "name": "Nước mắt cá sấu!",
-        "description": "Tấn công lên 1 đối thủ, gây ra {0} sát thương vật lý và gieo độc Nước mắt cá sấu không thể gỡ bỏ trong {2} giây. Đối thủ bị trúng độc Nước mắt cá sấu sẽ không thể hồi phục mana, tăng 30% tất cả sát thương nhận phải và tất cả xác suất chặn đều bị giảm 500.",
+        "description": "Tấn công lên 2 đối thủ, gây ra {0} sát thương vật lý và gieo độc Nước mắt cá sấu không thể gỡ bỏ trong {1} giây. Đối thủ bị trúng độc Nước mắt cá sấu sẽ không thể hồi phục mana, tăng 30% tất cả sát thương nhận phải và tất cả xác suất chặn đều bị giảm 500.",
         "books": {
           "0": "Tăng {0}% lượng sát thương.",
           "1": "Tăng {0}% lượng sát thương.",
@@ -6134,7 +6134,7 @@
       },
       "s2": {
         "name": "Mùi cỏ âm ỉ!",
-        "description": "Tấn công 2 lần lên đối thủ ngẫu nhiên, gây ra tổng {0} sát thương và gieo độc Mùi cỏ âm ỉ trong {1} giây. Đối thủ bị dính độc Mùi cỏ âm ỉ sẽ bị giảm {3}% sức tấn công và {3} xác suất chí mạng.",
+        "description": "Tấn công 3 lần lên đối thủ ngẫu nhiên, gây ra tổng {0} sát thương và gieo độc Mùi cỏ âm ỉ trong {1} giây. Đối thủ bị dính độc Mùi cỏ âm ỉ sẽ bị giảm {2}% sức tấn công và {3} xác suất chí mạng.",
         "books": {
           "0": "Tăng {0}% lượng sát thương.",
           "1": "Tăng {0}% lượng sát thương.",
@@ -6157,7 +6157,7 @@
       },
       "s3": {
         "name": "Nhiều hơn! Mạnh hơn!",
-        "description": "Làm tăng {0} sức tấn công của bản thân trong {1} giây và làm tăng gấp 2 hiệu ứng độc của cả [Nước mắt cá sấu], [Mùi cỏ âm ỉ], [Nước phép ngứa ngáy]. Ngoài ra còn tăng thêm 1 đối tượng của [tấn công thường], [Nước mắt cá sấu!], [Mùi cỏ âm ỉ!].",
+        "description": "Làm tăng {1} sức tấn công của bản thân trong {0} giây và làm tăng gấp 2 hiệu ứng độc của cả [Nước mắt cá sấu], [Mùi cỏ âm ỉ], [Nước phép ngứa ngáy]. Ngoài ra còn tăng thêm 1 đối tượng của [tấn công thường], [Nước mắt cá sấu!], [Mùi cỏ âm ỉ!].",
         "books": {
           "0": "Tăng  {0}% mức Tăng tấn công",
           "1": "Tăng  {0}% mức Tăng tấn công",
@@ -6277,7 +6277,7 @@
       },
       "s3": {
         "name": "Phán quyết của mặt trời",
-        "description": "Vào vị trí, tập trung để hồi phục HP của các đồng minh lân cận (trừ người dùng kỹ năng) 8 lần với tổng số {0} và tăng {1} lực thủ vật lý của họ trong 4 giây. Ngoài ra, gây thêm tổng cộng {2} sát thương phép lên kẻ địch 8 lần trong phạm vi, giảm {3} lực thủ phép của chúng trong 5 giây. Sau khi dùng kỹ năng, hồi phục {5} HP của các đồng minh (trừ người dùng kỹ năng). Kỹ năng này cũng gây {5} sát thương phép lên kẻ địch và hạ gục chúng trong 3 giây.",
+        "description": "Vào vị trí, tập trung để hồi phục HP của các đồng minh lân cận (trừ người dùng kỹ năng) 8 lần với tổng số {0} và tăng {1} lực thủ vật lý của họ trong 5 giây. Ngoài ra, gây thêm tổng cộng {2} sát thương phép lên kẻ địch 8 lần trong phạm vi, giảm {3} lực thủ phép của chúng trong 5 giây. Sau khi dùng kỹ năng, hồi phục {4} HP của các đồng minh (trừ người dùng kỹ năng). Kỹ năng này cũng gây {5} sát thương phép lên kẻ địch và hạ gục chúng trong 3 giây.",
         "books": {
           "0": "Lượng sát thương và hồi phục tăng {0}%.",
           "1": "Lượng sát thương và hồi phục tăng {0}%.",
@@ -6300,7 +6300,7 @@
       },
       "s4": {
         "name": "Lời nguyền mặt trời",
-        "description": "Khi tấn công mục tiêu, đặt kẻ địch vào trạng thái Lời nguyền của mặt trời trong 00 giây. Kẻ địch chịu 10 Lời nguyền của mặt trời liên tiếp sẽ hấp thu toàn bộ và chịu {1} sát thương phép, bị mù trong {1} giây và bị giảm {2}% ATK trong 10 giây.",
+        "description": "Khi tấn công mục tiêu, đặt kẻ địch vào trạng thái Lời nguyền của mặt trời trong 10 giây. Kẻ địch chịu 10 Lời nguyền của mặt trời liên tiếp sẽ hấp thu toàn bộ và chịu {0} sát thương phép, bị mù trong {1} giây và bị giảm {2}% ATK trong 10 giây.",
         "books": {
           "0": "Tăng {0}% lượng sát thương.",
           "1": "Tăng {0}% lượng sát thương.",
@@ -6494,7 +6494,7 @@
       },
       "s2": {
         "name": "Lời nguyền thời gian",
-        "description": "Tấn công một kẻ địch, gây {0} sát thương phép thuật và phát động Lời nguyền thời gian trong {1} giây, tăng toàn bộ thời gian hồi chiêu thêm {2} giây. Toàn bộ thời gian hồi chiêu của kẻ địch chịu Lời nguyền thời gian tăng thêm {3} giây trên mỗi {4} giây.",
+        "description": "Tấn công một kẻ địch, gây {0} sát thương phép thuật và phát động Lời nguyền thời gian trong {1} giây, tăng toàn bộ thời gian hồi chiêu thêm {2} giây. Toàn bộ thời gian hồi chiêu của kẻ địch chịu Lời nguyền thời gian tăng thêm {4} giây trên mỗi {3} giây.",
         "books": {
           "0": "Tăng {0}% lượng sát thương.",
           "1": "Tăng {0}% lượng sát thương.",
@@ -7020,7 +7020,7 @@
       },
       "s4": {
         "name": "Cú sốc",
-        "description": "Dẫn điện lên đối tượng không phải trạng thái sốc điện ở mỗi lần tấn công, làm tăng {0}% sát thương phép trong 10 giây. Điện tích đến 20 lần, đối tượng bị tích cộng dồn 30 lần sẽ bị tiêu hết điện, nhận phải {1} sát thương phép và rơi vào trạng thái sốc điện trong 7 giây. Thời gian kéo dài tất cả hiệu ứng ngất xỉu nhận phải của đối tượng ở trạng thái sốc điện sẽ bị tăng {3} giây, tất cả sát thương nhận phải tăng {3}%.",
+        "description": "Dẫn điện lên đối tượng không phải trạng thái sốc điện ở mỗi lần tấn công, làm tăng {0}% sát thương phép trong 10 giây. Điện tích đến 30 lần, đối tượng bị tích cộng dồn 30 lần sẽ bị tiêu hết điện, nhận phải {1} sát thương phép và rơi vào trạng thái sốc điện trong 7 giây. Thời gian kéo dài tất cả hiệu ứng ngất xỉu nhận phải của đối tượng ở trạng thái sốc điện sẽ bị tăng {2} giây, tất cả sát thương nhận phải tăng {3}%.",
         "books": {
           "0": "Tăng {0}% lượng sát thương.",
           "1": "Tăng {0}% lượng sát thương.",
@@ -7214,7 +7214,7 @@
       },
       "s2": {
         "name": "Cảnh giác và bảo hộ",
-        "description": "Gây {0} sát thương phép lên đối thủ mục tiêu và những đối thủ xung quanh đó, gây choáng trong 1 giây. Sau đó di chuyển đến đồng minh có lực phòng thủ vật lý thấp nhất (không tính bản thân) bung màng bảo hộ lên đối tượng và bản thân hấp thụ {2} sát thương trong 5 giây. Trường hợp không có đồng minh không thể bung màng bảo hộ, miễn nhiễm với trạng thái xấu trong thời gian xuất hiện màng bảo hộ.",
+        "description": "Gây {0} sát thương phép lên đối thủ mục tiêu và những đối thủ xung quanh đó, gây choáng trong 2 giây. Sau đó di chuyển đến đồng minh có lực phòng thủ vật lý thấp nhất (không tính bản thân) bung màng bảo hộ lên đối tượng và bản thân hấp thụ {1} sát thương trong 5 giây. Trường hợp không có đồng minh không thể bung màng bảo hộ, miễn nhiễm với trạng thái xấu trong thời gian xuất hiện màng bảo hộ.",
         "books": {
           "0": "Tăng {0}% sát thương và Khiên chắn",
           "1": "Tăng {0}% sát thương và Khiên chắn",
@@ -7323,7 +7323,7 @@
       },
       "s1": {
         "name": "Giai điệu tự nhiên xanh",
-        "description": "Hồi tổng cộng {0} HP cho toàn bộ đồng minh trong 8 lần và giảm {1}% sát thương nhận vào cho toàn bộ đồng minh trong 8 giây. Nếu được dùng khi Thôi miên cộng dồn đến mức 2, thì tỷ lệ hồi máu của kỹ năng này sẽ tăng thêm 100% và thay đổi Hiệu ứng giảm sát thương về mức {3}%.",
+        "description": "Hồi tổng cộng {0} HP cho toàn bộ đồng minh trong 8 lần và giảm {1}% sát thương nhận vào cho toàn bộ đồng minh trong 8 giây. Nếu được dùng khi Thôi miên cộng dồn đến mức 3, thì tỷ lệ hồi máu của kỹ năng này sẽ tăng thêm 100% và thay đổi Hiệu ứng giảm sát thương về mức {2}%.",
         "books": {
           "0": "Tăng {0}% tỷ lệ hồi máu.",
           "1": "Tăng {0}% tỷ lệ hồi máu.",
@@ -7380,7 +7380,7 @@
       },
       "s4": {
         "name": "Thôi miên",
-        "description": "Thêm 0 cộng dồn Thôi miên khi kết thúc kỹ năng. Thôi miên có thể cộng dồn đến mức 3. Nếu sử dụng kĩ năng khi đang có 3 cộng dồn, hiệu ứng cộng dồn Thôi miên sẽ được tiêu thụ để hồi phục {1} HP cho toàn bộ đồng minh. Cộng dồn này không thể gỡ bỏ.",
+        "description": "Thêm 1 cộng dồn Thôi miên khi kết thúc kỹ năng. Thôi miên có thể cộng dồn đến mức 3. Nếu sử dụng kĩ năng khi đang có 3 cộng dồn, hiệu ứng cộng dồn Thôi miên sẽ được tiêu thụ để hồi phục {0} HP cho toàn bộ đồng minh. Cộng dồn này không thể gỡ bỏ.",
         "books": {
           "0": "Tăng {0}% tỷ lệ hồi máu.",
           "1": "Tăng {0}% tỷ lệ hồi máu.",
@@ -7597,7 +7597,7 @@
       },
       "s3": {
         "name": "Ngọn giáo cuồng nộ",
-        "description": "Công kích một kẻ địch, gây {0} sát thương vật lý và hạ gục kẻ địch đó, đồng thời kích nổ khu vực xung quanh bản thân để tấn công 3 lần, gây ra tổng cộng {1} sát thương vật lý và gây Choáng trong {2} giây. Hồi phục HP tương đương {4}% sát thương.",
+        "description": "Công kích một kẻ địch, gây {0} sát thương vật lý và hạ gục kẻ địch đó, đồng thời kích nổ khu vực xung quanh bản thân để tấn công 4 lần, gây ra tổng cộng {1} sát thương vật lý và gây Choáng trong {2} giây. Hồi phục HP tương đương {3}% sát thương.",
         "books": {
           "0": "Tăng {0}% lượng sát thương.",
           "1": "Tăng {0}% lượng sát thương.",
@@ -7740,7 +7740,7 @@
       },
       "s4": {
         "name": "Hãy nhận lấy!",
-        "description": "Gây ra {0} sát thương phép lên 4 đối thủ ngẫu nhiên mỗi 15 giây, và gây thêm 1 trong các hiệu ứng đóng băng 5 giây, choáng 1 giây hoặc gây ra {2} sát thương phép kéo dài trong 10 giây.",
+        "description": "Gây ra {0} sát thương phép lên 4 đối thủ ngẫu nhiên mỗi 15 giây, và gây thêm 1 trong các hiệu ứng đóng băng 5 giây, choáng 2 giây hoặc gây ra {1} sát thương phép kéo dài trong 10 giây.",
         "books": {
           "0": "Tăng {0}% sát thương",
           "1": "Tăng {0}% sát thương",
@@ -7814,7 +7814,7 @@
       },
       "s2": {
         "name": "Giáng sinh của chúa tể chiến tranh",
-        "description": "Sau khi gỡ mọi hiệu ứng có hại, gây ra {0} sát thương vật lý lên địch gần đó và chuyển sang trạng thái 'Chúa tể chiến tranh' trong 10 giây. Khi ở trạng thái này, sức tấn công tăng {1} và khi tấn công thường sẽ tiêu thụ 5% mana với tỉ lệ 20%, gây thêm {3} sát thương vật lý, nếu dính sát thương phép thì sẽ tránh được mọi sát thương phép trong 1 giây. Hiệu ứng tránh này phát động 2 giây 1 lần.",
+        "description": "Sau khi gỡ mọi hiệu ứng có hại, gây ra {0} sát thương vật lý lên địch gần đó và chuyển sang trạng thái 'Chúa tể chiến tranh' trong 10 giây. Khi ở trạng thái này, sức tấn công tăng {1} và khi tấn công thường sẽ tiêu thụ 5% mana với tỉ lệ 30%, gây thêm {2} sát thương vật lý, nếu dính sát thương phép thì sẽ tránh được mọi sát thương phép trong 1 giây. Hiệu ứng tránh này phát động 2 giây 1 lần.",
         "books": {
           "0": "Lượng tăng sức tấn công và lượng sát thương tăng {0}%.",
           "1": "Lượng tăng sức tấn công và lượng sát thương tăng {0}%.",
@@ -8054,7 +8054,7 @@
       },
       "s2": {
         "name": "Tín điều che chở",
-        "description": "Xóa bỏ hiệu ứng có hại cho tất cả các đồng minh. Tạo quanh tất cả các đồng minh một kết giới hấp thu {0} sát thương trong {1} giây và giảm {2}% sát thương mà các đồng minh phải chịu trong {3} giây. Kết giới giúp miễn nhiễm trạng thái chế ngự khi còn duy trì.",
+        "description": "Xóa bỏ hiệu ứng có hại cho tất cả các đồng minh. Tạo quanh tất cả các đồng minh một kết giới hấp thu {1} sát thương trong {0} giây và giảm {3}% sát thương mà các đồng minh phải chịu trong {2} giây. Kết giới giúp miễn nhiễm trạng thái chế ngự khi còn duy trì.",
         "books": {
           "0": "Lá chắn bảo vệ tăng {0}%",
           "1": "Lá chắn bảo vệ tăng {0}%",
@@ -8077,7 +8077,7 @@
       },
       "s3": {
         "name": "Tín điều của hiệp sĩ",
-        "description": "Công kích 2 lần vào kẻ địch phía trước trong phạm vi. 1 lần đầu gây {0} sát thương vật lấy và gây choáng cho kẻ địch trong {2} giây, lần cuối giáng 2 đòn vào kẻ địch trong phạm vi rộng hơn, gây tổng cộng {3} sát thương vật lý. Lần công kích cuối cùng gây choáng cho kẻ địch trong 4 giây, đóng [Dấu ấn tín điều] lên kẻ địch, gây sát thương cho chúng trong {3} giây. Mục tiêu dính [Dấu ấn tín điều] nhận thêm {5} sát thương vật lý từ các đồng minh, trừ người dùng kỹ năng. Hiệu ứng sát thương thêm chỉ được kích hoạt một lần trong mỗi {5} giây.",
+        "description": "Công kích 3 lần vào kẻ địch phía trước trong phạm vi. 2 lần đầu gây {0} sát thương vật lấy và gây choáng cho kẻ địch trong {1} giây, lần cuối giáng 2 đòn vào kẻ địch trong phạm vi rộng hơn, gây tổng cộng {2} sát thương vật lý. Lần công kích cuối cùng gây choáng cho kẻ địch trong 5 giây, đóng [Dấu ấn tín điều] lên kẻ địch, gây sát thương cho chúng trong {3} giây. Mục tiêu dính [Dấu ấn tín điều] nhận thêm {4} sát thương vật lý từ các đồng minh, trừ người dùng kỹ năng. Hiệu ứng sát thương thêm chỉ được kích hoạt một lần trong mỗi {5} giây.",
         "books": {
           "0": "Tăng {0}% sát thương",
           "1": "Tăng {0}% sát thương",

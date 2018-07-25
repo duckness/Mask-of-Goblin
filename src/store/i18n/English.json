@@ -637,7 +637,7 @@
       },
       "s3": {
         "name": "Proxy of God",
-        "description": "Deals {0} P.DMG to nearby enemies and inflicts Stun for 2 sec. Additionally, for {1} sec, ATK is increased by {3} and Dodge Rate is increased by {3} , while gaining immunity to CC. This status cannot be dispelled.",
+        "description": "Deals {0} P.DMG to nearby enemies and inflicts Stun for 3 sec. Additionally, for {1} sec, ATK is increased by {2} and Dodge Rate is increased by {3} , while gaining immunity to CC. This status cannot be dispelled.",
         "books": {
           "0": "ATK boost is increased by {0}%.",
           "1": "ATK boost is increased by {0}%.",
@@ -734,7 +734,7 @@
       },
       "s2": {
         "name": "Blessings of Light",
-        "description": "Cast a shield on all allies that absorbs {0} DMG for {1} sec. While the shield is in effect, gain Immunity to CC.",
+        "description": "Cast a shield on all allies that absorbs {1} DMG for {0} sec. While the shield is in effect, gain Immunity to CC.",
         "books": {
           "0": "Shield is increased by {0}%.",
           "1": "Shield is increased by {0}%.",
@@ -780,7 +780,7 @@
       },
       "s4": {
         "name": "Goddess Grace",
-        "description": "M.DEF of an ally is increased by {0} for {1} sec.",
+        "description": "M.DEF of an ally is increased by {1} for {0} sec.",
         "books": {
           "0": "M.DEF boost is increased by {0}%.",
           "1": "M.DEF boost is increased by {0}%.",
@@ -854,7 +854,7 @@
       },
       "s2": {
         "name": "Fire Ball",
-        "description": "Deals {0} M.DMG to enemies in range and Stuns them for 1 sec. Per every stacked Ember, DMG is increased by {2}%.",
+        "description": "Deals {0} M.DMG to enemies in range and Stuns them for 2 sec. Per every stacked Ember, DMG is increased by {1}%.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -1094,7 +1094,7 @@
       },
       "s2": {
         "name": "Battle Roar",
-        "description": "All allies' ATK is increased by {0} for {1} sec. Upon activation, dispels all negative effects from allies.",
+        "description": "All allies' ATK is increased by {1} for {0} sec. Upon activation, dispels all negative effects from allies.",
         "books": {
           "0": "ATK boost is increased by {0}%.",
           "1": "ATK boost is increased by {0}%.",
@@ -1140,7 +1140,7 @@
       },
       "s4": {
         "name": "Enrage",
-        "description": "Upon attacking, ATK is increased by {0} for {1} sec. Can be stacked up to 10 times max.",
+        "description": "Upon attacking, ATK is increased by {1} for {0} sec. Can be stacked up to 10 times max.",
         "books": {
           "0": "ATK boost is increased by {0}%.",
           "1": "ATK boost is increased by {0}%.",
@@ -1207,14 +1207,14 @@
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
-          "2": "Reduces hit enemies' P.DEF by {0}% for {1} sec."
+          "2": "Reduces hit enemies' P.DEF by {1}% for {0} sec."
         },
         "light": "Mana cost is reduced by 1.",
         "dark": "Cooldown is reduced by 10% per each enemy hit."
       },
       "s2": {
         "name": "Headbutt",
-        "description": "Dashes toward the enemy and deals {0} P.DMG, knocking them back. Hit enemy's Attack Spd is reduced by {1}% for {2} sec.",
+        "description": "Dashes toward the enemy and deals {0} P.DMG, knocking them back. Hit enemy's Attack Spd is reduced by {2}% for {1} sec.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -1237,7 +1237,7 @@
       },
       "s3": {
         "name": "Earth Incarnate",
-        "description": "Increases P.DEF and M.DEF by {0} for {1} sec and heals {2}% of HP. Gains CC immunity.",
+        "description": "Increases P.DEF and M.DEF by {1} for {0} sec and heals {2}% of HP. Gains CC immunity.",
         "books": {
           "0": "P.DEF boost is increased by {0}%.",
           "1": "P.DEF boost is increased by {0}%.",
@@ -1260,7 +1260,7 @@
       },
       "s4": {
         "name": "Destroy Armor",
-        "description": "Upon attacking, weakens enemy P.DEF by {0} for {1} sec. Can be stacked up to 5 times max.",
+        "description": "Upon attacking, weakens enemy P.DEF by {1} for {0} sec. Can be stacked up to 5 times max.",
         "books": {
           "0": "P.DEF reduction is increased by {0}%.",
           "1": "P.DEF reduction is increased by {0}%.",
@@ -1454,7 +1454,7 @@
       },
       "s2": {
         "name": "Healing Rain",
-        "description": "HP of all allies is healed by {0} for {1} sec.",
+        "description": "HP of all allies is healed by {1} for {0} sec.",
         "books": {
           "0": "Heal rate is increased by {0}%.",
           "1": "Heal rate is increased by {0}%.",
@@ -1500,7 +1500,7 @@
       },
       "s4": {
         "name": "Chain Lightning",
-        "description": "Deals {0} M.DMG to 4 enemies every {1} sec, and inflictes Electrify for {2} sec.",
+        "description": "Deals {1} M.DMG to 4 enemies every {0} sec, and inflictes Electrify for {2} sec.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -1620,7 +1620,7 @@
       },
       "s4": {
         "name": "Harvest",
-        "description": "When an enemy is killed by this hero, ATK is increased by {0} for {1} sec, and all skill cooldown is reduced by 30%.",
+        "description": "When an enemy is killed by this hero, ATK is increased by {1} for {0} sec, and all skill cooldown is reduced by 30%.",
         "books": {
           "0": "ATK boost is increased by {0}%.",
           "1": "ATK boost is increased by {0}%.",
@@ -1683,7 +1683,7 @@
       },
       "s1": {
         "name": "Arrow Rain",
-        "description": "Shoots 02 arrows to random enemies and deals a total of {1} P.DMG.",
+        "description": "Shoots 12 arrows to random enemies and deals a total of {0} P.DMG.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -1740,7 +1740,7 @@
       },
       "s4": {
         "name": "Moonlight Arrow",
-        "description": "Upon attacking, ATK is increased by {0} for {1} sec, and Crit Chance is increased by {2}. Can be stacked up to 3 times max.",
+        "description": "Upon attacking, ATK is increased by {1} for {0} sec, and Crit Chance is increased by {2}. Can be stacked up to 3 times max.",
         "books": {
           "0": "ATK boost is increased by {0}%.",
           "1": "ATK boost is increased by {0}%.",
@@ -1803,7 +1803,7 @@
       },
       "s1": {
         "name": "Raven Storm",
-        "description": "Deals {0} M.DMG to enemies in range and knocks them back. M.DEF is reduced by {1}% for {2} sec.",
+        "description": "Deals {0} M.DMG to enemies in range and knocks them back. M.DEF is reduced by {2}% for {1} sec.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -1814,7 +1814,7 @@
       },
       "s2": {
         "name": "Claw of Restriction",
-        "description": "Deals {0} M.DMG to 1 enemies and shackles them for {2} sec. Targeted enemies receive extra M.DMG over time.",
+        "description": "Deals {0} M.DMG to 2 enemies and shackles them for {1} sec. Targeted enemies receive extra M.DMG over time.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -1860,7 +1860,7 @@
       },
       "s4": {
         "name": "Black Wind",
-        "description": "Enemies damaged by Maria has their ATK reduced by {0} for {1} sec.",
+        "description": "Enemies damaged by Maria has their ATK reduced by {1} for {0} sec.",
         "books": {
           "0": "ATK reduction rate is increased by {0}%.",
           "1": "ATK reduction rate is increased by {0}%.",
@@ -1934,7 +1934,7 @@
       },
       "s2": {
         "name": "Roll Over",
-        "description": "Deals {0} P.DMG 2 times to frontal enemies, and each attack has a {1}% chance of knocking them down for {3} sec.",
+        "description": "Deals {0} P.DMG 3 times to frontal enemies, and each attack has a {1}% chance of knocking them down for {2} sec.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -1957,7 +1957,7 @@
       },
       "s3": {
         "name": "Miruru Pirates!",
-        "description": "Deals {0} P.DMG to enemies in range for {1} sec, reducing their Spd by {2}%.",
+        "description": "Deals {1} P.DMG to enemies in range for {0} sec, reducing their Spd by {2}%.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -2054,7 +2054,7 @@
       },
       "s2": {
         "name": "Tangled Vine",
-        "description": "Deals {0} M.DMG to enemies in a straight line, stacking 1 Poison and shackling them for {2} sec. After some time, deals a large amount of DMG based on the number of Poison stacks.",
+        "description": "Deals {0} M.DMG to enemies in a straight line, stacking 2 Poison and shackling them for {1} sec. After some time, deals a large amount of DMG based on the number of Poison stacks.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -2100,7 +2100,7 @@
       },
       "s4": {
         "name": "Blade Leaf",
-        "description": "When dealing a normal attack, attacks a random enemy 3 times with a 30% chance of inflicting {0} M.DMG and 1 stack of Poison for 10 seconds. Poison inflicts a total of {2} M.DMG over 20 seconds.",
+        "description": "When dealing a normal attack, attacks a random enemy 3 times with a 30% chance of inflicting {0} M.DMG and 1 stack of Poison for 20 seconds. Poison inflicts a total of {1} M.DMG over 20 seconds.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -2197,7 +2197,7 @@
       },
       "s3": {
         "name": "Guardian Shield",
-        "description": "All allies' P.DEF is increased by {0} for {1} sec and P.Crit Resistance is increased by {2}%.",
+        "description": "All allies' P.DEF is increased by {1} for {0} sec and P.Crit Resistance is increased by {2}%.",
         "books": {
           "0": "DEF boost is increased by {0}%.",
           "1": "DEF boost is increased by {0}%.",
@@ -2220,7 +2220,7 @@
       },
       "s4": {
         "name": "Vow of Knights",
-        "description": "Upon blocking, deals {0} P.DMG to frontal enemies. Hit enemies' ATK is reduced by {1}% for {2} sec. Recovers 300 mana after hitting the target.",
+        "description": "Upon blocking, deals {0} P.DMG to frontal enemies. Hit enemies' ATK is reduced by {2}% for {1} sec. Recovers 300 mana after hitting the target.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -2283,7 +2283,7 @@
       },
       "s1": {
         "name": "Healing Soul",
-        "description": "Heals 4 allies with lowest HP {0}% of Max HP, and heals extra {2} HP over {1} sec. This effect cannot be dispelled.",
+        "description": "Heals 4 allies with lowest HP {2}% of Max HP, and heals extra {1} HP over {0} sec. This effect cannot be dispelled.",
         "books": {
           "0": "Heal rate is increased by {0}%.",
           "1": "Heal rate is increased by {0}%.",
@@ -2294,11 +2294,11 @@
       },
       "s2": {
         "name": "Salvation",
-        "description": "Dispels all negative effects. M.DEF is increased by {0} for {1} sec.",
+        "description": "Dispels all negative effects. M.DEF is increased by {1} for {0} sec.",
         "books": {
           "0": "M.DEF boost is increased by {0}%.",
           "1": "M.DEF boost is increased by {0}%.",
-          "2": "CC Resistance is increased by {0} for {1} sec."
+          "2": "CC Resistance is increased by {1} for {0} sec."
         },
         "light": "Mana cost is reduced by 1.",
         "dark": "Increases own M.DEF by 10% of M.DEF.",
@@ -2340,7 +2340,7 @@
       },
       "s4": {
         "name": "Spiritual Tuning",
-        "description": "Every 7 sec, an ally with the lowest Hp recovers 0 orb of mana and {1} HP.",
+        "description": "Every 7 sec, an ally with the lowest Hp recovers 1 orb of mana and {0} HP.",
         "books": {
           "0": "Heal rate is increased by {0}%.",
           "1": "Heal rate is increased by {0}%.",
@@ -2534,7 +2534,7 @@
       },
       "s2": {
         "name": "Sharp End",
-        "description": "ATK is increased by {0} for {1} sec and Crit Chance is increased by {2}.",
+        "description": "ATK is increased by {1} for {0} sec and Crit Chance is increased by {2}.",
         "books": {
           "0": "ATK boost is increased by {0}%.",
           "1": "ATK boost is increased by {0}%.",
@@ -2580,7 +2580,7 @@
       },
       "s4": {
         "name": "Lucky Child",
-        "description": "Upon a Crit Hit, ATK is increased by {0} for {1} sec. Can be stacked up to 5 times max.",
+        "description": "Upon a Crit Hit, ATK is increased by {1} for {0} sec. Can be stacked up to 5 times max.",
         "books": {
           "0": "ATK boost is increased by {0}%.",
           "1": "ATK boost is increased by {0}%.",
@@ -2883,7 +2883,7 @@
       },
       "s1": {
         "name": "Fierce Winds",
-        "description": "Dashes toward the enemy 1 times, dealing {0} P.DMG to enemies in range, knocking them down for {2} sec.",
+        "description": "Dashes toward the enemy 2 times, dealing {0} P.DMG to enemies in range, knocking them down for {1} sec.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -2894,7 +2894,7 @@
       },
       "s2": {
         "name": "Wind Reading",
-        "description": "All allies' P.Dodge Chance is increased by {0} for {1} sec, and ATK is increased by {2}.",
+        "description": "All allies' P.Dodge Chance is increased by {1} for {0} sec, and ATK is increased by {2}.",
         "books": {
           "0": "ATK boost is increased by {0}%.",
           "1": "ATK boost is increased by {0}%.",
@@ -3037,7 +3037,7 @@
       },
       "s3": {
         "name": "Focused Fire",
-        "description": "Fires 00 shots at random. Deals {1} DMG upon attack, and per each attack, DMG is increased by {1}%.",
+        "description": "Fires 10 shots at random. Deals {0} DMG upon attack, and per each attack, DMG is increased by {1}%.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -3060,7 +3060,7 @@
       },
       "s4": {
         "name": "Rapid Shot",
-        "description": "Every 00 sec, attacks the target 2 times, dealing a total of {1} P.DMG.",
+        "description": "Every 10 sec, attacks the target 2 times, dealing a total of {0} P.DMG.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -3123,7 +3123,7 @@
       },
       "s1": {
         "name": "Burning Power",
-        "description": "Deals {0} M.DMG to enemies in range and knocks them down, inflicting 2 stacks of Flame. Then for {1} sec, each auto attack deals {3} M.DMG and inflicts 1 stack of Flame on enemy. Per each stacked Flame, DMG is increased by {3}%. Each Flame stack deals separate M.DMG and reduces Heal rate by 1%.",
+        "description": "Deals {0} M.DMG to enemies in range and knocks them down, inflicting 3 stacks of Flame. Then for {1} sec, each auto attack deals {2} M.DMG and inflicts 1 stack of Flame on enemy. Per each stacked Flame, DMG is increased by {3}%. Each Flame stack deals separate M.DMG and reduces Heal rate by 1%.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -3243,7 +3243,7 @@
       },
       "s1": {
         "name": "Holy Nova",
-        "description": "Targets the ally with the lowest HP and allies nearby to heal {0} HP. Deals {1} M.DMG to enemies near the target, and reduces enemy ATK Spd by {2}% for {3} sec.",
+        "description": "Targets the ally with the lowest HP and allies nearby to heal {0} HP. Deals {1} M.DMG to enemies near the target, and reduces enemy ATK Spd by {3}% for {2} sec.",
         "books": {
           "0": "DMG and Heal rate are increased by {0}%.",
           "1": "DMG and Heal rate are increased by {0}%.",
@@ -3300,7 +3300,7 @@
       },
       "s4": {
         "name": "Training of God",
-        "description": "Each attack has a 10% chance of dealing {0} M.DMG to target and inflicting stun for {2} sec.",
+        "description": "Each attack has a 20% chance of dealing {0} M.DMG to target and inflicting stun for {1} sec.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -3517,7 +3517,7 @@
       },
       "s3": {
         "name": "Torrential Rainfall",
-        "description": "Deals {0} M.DMG to random enemies for {1} sec, and reduces target's M.DEF by 5%. Can be stacked up to max 5 times.",
+        "description": "Deals {1} M.DMG to random enemies for {0} sec, and reduces target's M.DEF by 5%. Can be stacked up to max 5 times.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -3603,7 +3603,7 @@
       },
       "s1": {
         "name": "Rune of Frailty",
-        "description": "Engraves a rune on target enemy, reducing {0}% P.DEF for {1} sec. After {2} sec, deals max {3} M.DMG proportional to lost HP, ignoring DEF.",
+        "description": "Engraves a rune on target enemy, reducing {1}% P.DEF for {0} sec. After {2} sec, deals max {3} M.DMG proportional to lost HP, ignoring DEF.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -3660,7 +3660,7 @@
       },
       "s4": {
         "name": "Rune of Protection",
-        "description": "Every {0} sec, engraves a rune upon the ally with the lowest HP and recovers a total of {1} HP for {2} sec.",
+        "description": "Every {0} sec, engraves a rune upon the ally with the lowest HP and recovers a total of {2} HP for {1} sec.",
         "books": {
           "0": "Heal rate is increased by {0}%.",
           "1": "Heal rate is increased by {0}%.",
@@ -3734,7 +3734,7 @@
       },
       "s2": {
         "name": "Flashstep",
-        "description": "Moves to the enemy with the highest ATK and Inflicts Silence for 0 sec. Own M.DMG reduction is increased by {2} for {1} sec. Engraves the enemy with a Mark for {2} sec, and own attack prioritizes the Marked target. When attacking enemies inflicted with Mark, deals {3} extra P.DMG.",
+        "description": "Moves to the enemy with the highest ATK and Inflicts Silence for 2 sec. Own M.DMG reduction is increased by {1} for {0} sec. Engraves the enemy with a Mark for {2} sec, and own attack prioritizes the Marked target. When attacking enemies inflicted with Mark, deals {3} extra P.DMG.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -3877,7 +3877,7 @@
       },
       "s3": {
         "name": "Twinkle Twinkle",
-        "description": "Deals {0} M.DMG to target enemies in range, and reduces target's Crit Chance by {1}% for {2} sec.",
+        "description": "Deals {0} M.DMG to target enemies in range, and reduces target's Crit Chance by {2}% for {1} sec.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -3900,7 +3900,7 @@
       },
       "s4": {
         "name": "Gotcha!",
-        "description": "Every {0} sec, deals a total of {1} M.DMG to the furthest enemy for {2} sec. The further the enemy, the more DMG they will take.",
+        "description": "Every {0} sec, deals a total of {2} M.DMG to the furthest enemy for {1} sec. The further the enemy, the more DMG they will take.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -3974,7 +3974,7 @@
       },
       "s2": {
         "name": "Bubble Shield",
-        "description": "Shields an ally with the lowest HP for 05 sec to block {1} DMG, and grants CC Immunity. While Shield is in effect, heals {1} HP per sec, and gains Immunity to CC.",
+        "description": "Shields an ally with the lowest HP for 15 sec to block {0} DMG, and grants CC Immunity. While Shield is in effect, heals {1} HP per sec, and gains Immunity to CC.",
         "books": {
           "0": "Shield is increased by {0}%.",
           "1": "Shield is increased by {0}%.",
@@ -3997,7 +3997,7 @@
       },
       "s3": {
         "name": "Festival of the Flow",
-        "description": "Deals {0} M.DMG to nearby enemies and knocks them down. All allies, excluding self, recovers 1 orbs of mana. Afterwards, for {2} sec, creates a whirlpool that deals {2} M.DMG to random enemies and knocks them down for 2 sec.",
+        "description": "Deals {0} M.DMG to nearby enemies and knocks them down. All allies, excluding self, recovers 2 orbs of mana. Afterwards, for {1} sec, creates a whirlpool that deals {2} M.DMG to random enemies and knocks them down for 2 sec.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -4140,7 +4140,7 @@
       },
       "s4": {
         "name": "The Last Judgment",
-        "description": "Every 05 sec, deals {1} M.DMG ignoring DEF to enemies inflicted by Judgement Sigil. Once during every battle, upon reaching near death HP, deals {1} M.DMG to enemies inflicted by Judgement Sigils and stuns them for 2 sec, while casting a shield that blocks {3} DMG to all allies for 5 sec. Gains immunity to CC while the shield is in effect. When the shield effect takes place, consumes all mana, and all skill cooldown is increased by 50%.",
+        "description": "Every 15 sec, deals {0} M.DMG ignoring DEF to enemies inflicted by Judgement Sigil. Once during every battle, upon reaching near death HP, deals {1} M.DMG to enemies inflicted by Judgement Sigils and stuns them for 3 sec, while casting a shield that blocks {2} DMG to all allies for 5 sec. Gains immunity to CC while the shield is in effect. When the shield effect takes place, consumes all mana, and all skill cooldown is increased by 50%.",
         "books": {
           "0": "DMG and Shield are increased by {0}%.",
           "1": "DMG and Shield are increased by {0}%.",
@@ -4260,7 +4260,7 @@
       },
       "s4": {
         "name": "Blood Dominator",
-        "description": "When HP is 50% or above, ATK is increased by {0} and DEF Pen. is increased by 150. Upon attack, inflicts target with Blood Curse, dealing a total of {2} M.DMG over time for 20 sec, and recovering 10% of DMG dealt from Blood Curse as HP. Blood Curse can be stacked max 100 times, and cannot be dispelled.",
+        "description": "When HP is 50% or above, ATK is increased by {0} and DEF Pen. is increased by 250. Upon attack, inflicts target with Blood Curse, dealing a total of {1} M.DMG over time for 20 sec, and recovering 10% of DMG dealt from Blood Curse as HP. Blood Curse can be stacked max 100 times, and cannot be dispelled.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -4334,7 +4334,7 @@
       },
       "s2": {
         "name": "Dimension Cleaver",
-        "description": "Dispels all positive effects of target enemy and deals {0} P.DMG. Hit enemies take {1} P.DMG for {2} sec, and are knocked down for 3 sec. The number of target increases depending on the number of Blade stacks.",
+        "description": "Dispels all positive effects of target enemy and deals {0} P.DMG. Hit enemies take {2} P.DMG for {1} sec, and are knocked down for 3 sec. The number of target increases depending on the number of Blade stacks.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -4454,7 +4454,7 @@
       },
       "s2": {
         "name": "Emergency Treatment",
-        "description": "Dispels negative effects of all allies and heals a total of {0} HP for 10 sec while increasing CC Resistance by 150. While Overcharged, all allies' Crit Chance is increased by {2} and gains immunity to CC.",
+        "description": "Dispels negative effects of all allies and heals a total of {0} HP for 10 sec while increasing CC Resistance by 250. While Overcharged, all allies' Crit Chance is increased by {1} and gains immunity to CC.",
         "books": {
           "0": "Heal rate is increased by {0}%.",
           "1": "Heal rate is increased by {0}%.",
@@ -4500,7 +4500,7 @@
       },
       "s4": {
         "name": "Charge",
-        "description": "Gains 0 stack of Charge every 0.5 sec, and gains 10 stacks of Charge per every orb of mana used. Upon the 100th Charge stacked, enters Overcharge state. When in Overcharge, ATK is increased by {1} for 15 sec and each auto attack reduces skill cooldown by 10%. All effects cannot be dispelled, and Charge will not stack during Overcharge state.",
+        "description": "Gains 1 stack of Charge every 0.5 sec, and gains 10 stacks of Charge per every orb of mana used. Upon the 100th Charge stacked, enters Overcharge state. When in Overcharge, ATK is increased by {0} for 15 sec and each auto attack reduces skill cooldown by 10%. All effects cannot be dispelled, and Charge will not stack during Overcharge state.",
         "books": {
           "0": "ATK boost is increased by {0}%.",
           "1": "ATK boost is increased by {0}%.",
@@ -4563,7 +4563,7 @@
       },
       "s1": {
         "name": "Bang! Bang!!",
-        "description": "Attacks an enemy 1 times, dealing {0} P.DMG each. Upon Crit Hit, an explosion occurs, dealing {2} extra P.DMG to enemies in range.",
+        "description": "Attacks an enemy 2 times, dealing {0} P.DMG each. Upon Crit Hit, an explosion occurs, dealing {1} extra P.DMG to enemies in range.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -4574,7 +4574,7 @@
       },
       "s2": {
         "name": "Time to Die!!",
-        "description": "For 10 sec, ATK is increased by {0} , and ACC is increased by {2}. Each auto attack has a 15% chance of activating 'Bang! Bang!!'.",
+        "description": "For 20 sec, ATK is increased by {0} , and ACC is increased by {1}. Each auto attack has a 15% chance of activating 'Bang! Bang!!'.",
         "books": {
           "0": "ATK boost is increased by {0}%.",
           "1": "ATK boost is increased by {0}%.",
@@ -4597,7 +4597,7 @@
       },
       "s3": {
         "name": "Dance with me!!",
-        "description": "Sprays gunshot at a random enemy 02 times, dealing a total of {1} P.DMG. Each damage inflicts 1 stack of Mark of Death that cannot be dispelled. Per every stacked Mark of Death, 'Dance with me!!' DMG is increased by 1%.",
+        "description": "Sprays gunshot at a random enemy 12 times, dealing a total of {0} P.DMG. Each damage inflicts 1 stack of Mark of Death that cannot be dispelled. Per every stacked Mark of Death, 'Dance with me!!' DMG is increased by 1%.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -4717,7 +4717,7 @@
       },
       "s3": {
         "name": "Divine Judgment",
-        "description": "Attacks frontal enemies in a straight line 3 times. The first 1 attacks deal {0} P.DMG to enemies and stun them for 4 sec, and the last attack deals {2} P.DMG to enemies in a 20% wider range, while stunning them for 4 sec. Each attack has a 50% chance of dispelling positive effects from the enemy.",
+        "description": "Attacks frontal enemies in a straight line 3 times. The first 2 attacks deal {0} P.DMG to enemies and stun them for 4 sec, and the last attack deals {1} P.DMG to enemies in a 20% wider range, while stunning them for 4 sec. Each attack has a 50% chance of dispelling positive effects from the enemy.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -4934,7 +4934,7 @@
       },
       "s2": {
         "name": "Dawning Despair",
-        "description": "Dashes to an enemy with the highest ATK and deals {0} M.DMG to enemies in range, reducing their ATK Spd by {1}. [Fury] - Consumes 10% of current HP to activate. Effect range increases, Stuns target for {2} sec, and increases own ATK Spd by {3} for {4} sec.",
+        "description": "Dashes to an enemy with the highest ATK and deals {0} M.DMG to enemies in range, reducing their ATK Spd by {1}. [Fury] - Consumes 10% of current HP to activate. Effect range increases, Stuns target for {2} sec, and increases own ATK Spd by {4} for {3} sec.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -4980,7 +4980,7 @@
       },
       "s4": {
         "name": "Cursed Blood",
-        "description": "Ezekiel gains 0 stack of 'Cursed Blood' at the end of skill. Upon the 4th stack, consumes Cursed Blood to reset all skill cooldown, dealing {1} M.DMG to nearby enemies and knocking them down for 2 sec, while activating Fury for {1} sec, that cannot be dispelled. While in Fury state, goes into an auto-battle mode that cannot be controlled, and ATK is increased by {3} , auto attack DMG is doubled, and all Skill effect are reinforced. Cannot gain Cursed Blood during Fury state, except for when killing an enemy.",
+        "description": "Ezekiel gains 1 stack of 'Cursed Blood' at the end of skill. Upon the 4th stack, consumes Cursed Blood to reset all skill cooldown, dealing {0} M.DMG to nearby enemies and knocking them down for 3 sec, while activating Fury for {1} sec, that cannot be dispelled. While in Fury state, goes into an auto-battle mode that cannot be controlled, and ATK is increased by {2} , auto attack DMG is doubled, and all Skill effect are reinforced. Cannot gain Cursed Blood during Fury state, except for when killing an enemy.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -5054,7 +5054,7 @@
       },
       "s2": {
         "name": "Fiercely!",
-        "description": "For 05 sec, all allies' ATK is increased by {1} and Crit Chance is increased by {1}.",
+        "description": "For 15 sec, all allies' ATK is increased by {0} and Crit Chance is increased by {1}.",
         "books": {
           "0": "ATK boost is increased by {0}%.",
           "1": "ATK boost is increased by {0}%.",
@@ -5163,7 +5163,7 @@
       },
       "s1": {
         "name": "Final Crash",
-        "description": "Attacks 06 times, dealing a total of {1} M.DMG to enemies in range. Upon each Crit Hit, Crit DMG is increased by 3% for 10 sec, and there is a 30% chance to deal {1} extra M.DMG, inflicting stun for 0.3 sec. Crit DMG boost can be stacked up to 30 times max.",
+        "description": "Attacks 16 times, dealing a total of {0} M.DMG to enemies in range. Upon each Crit Hit, Crit DMG is increased by 3% for 10 sec, and there is a 30% chance to deal {1} extra M.DMG, inflicting stun for 0.3 sec. Crit DMG boost can be stacked up to 30 times max.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -5654,7 +5654,7 @@
       },
       "s2": {
         "name": "Coordination",
-        "description": "For 20 sec, Priscilla and an ally with the highest ATK changes to a 'Coordination' state. When in this state, Priscilla and ally's ATK rises by 05%+ {1} of Priscilla's ATK.",
+        "description": "For 20 sec, Priscilla and an ally with the highest ATK changes to a 'Coordination' state. When in this state, Priscilla and ally's ATK rises by 15%+ {0} of Priscilla's ATK.",
         "books": {
           "0": "ATK boost is increased by {0}%.",
           "1": "ATK boost is increased by {0}%.",
@@ -5797,7 +5797,7 @@
       },
       "s3": {
         "name": "No Holding Back!",
-        "description": "Removes all negative effects on self. For 20 sec, ATK is increased by {0} and Penetration is increased by {1}. For the duration of skill, auto attacks are changed to consuming 3% mana to deal DMG to all enemies in a straight line and deals {3} extra P.DMG to Dragons ignoring DEF.",
+        "description": "Removes all negative effects on self. For 30 sec, ATK is increased by {0} and Penetration is increased by {1}. For the duration of skill, auto attacks are changed to consuming 3% mana to deal DMG to all enemies in a straight line and deals {2} extra P.DMG to Dragons ignoring DEF.",
         "books": {
           "0": "ATK boost is increased by {0}%.",
           "1": "ATK boost is increased by {0}%.",
@@ -6014,7 +6014,7 @@
       },
       "s2": {
         "name": "Card of Love - Elliciad",
-        "description": "ATK is increased by {0} for {1} sec and Mana recovery per sec is increased by {2}%. Consumes the card in possession to inflict additional effects. Upon using the skill, gains the card of [Love]. [Death] - Penetration is increased by 600 for the duration of skill. [Love] - Grants effect to all allies. [Fortune] - Skill Cooldown does not take effect.",
+        "description": "ATK is increased by {1} for {0} sec and Mana recovery per sec is increased by {2}%. Consumes the card in possession to inflict additional effects. Upon using the skill, gains the card of [Love]. [Death] - Penetration is increased by 600 for the duration of skill. [Love] - Grants effect to all allies. [Fortune] - Skill Cooldown does not take effect.",
         "books": {
           "0": "ATK boost is increased by {0}%.",
           "1": "ATK boost is increased by {0}%.",
@@ -6123,7 +6123,7 @@
       },
       "s1": {
         "name": "Tears of Mr. Python!",
-        "description": "Attacks 1 enemies and deals {0} P.DMG, while poisoning them with Tears of Mr. Python that cannot be dispelled for {2} sec. Enemies inflicted with Tears of Mr. Python cannot recover mana, takes 30% increased DMG, and their Block chance is reduced by 500.",
+        "description": "Attacks 2 enemies and deals {0} P.DMG, while poisoning them with Tears of Mr. Python that cannot be dispelled for {1} sec. Enemies inflicted with Tears of Mr. Python cannot recover mana, takes 30% increased DMG, and their Block chance is reduced by 500.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -6134,7 +6134,7 @@
       },
       "s2": {
         "name": "Screechy Grass Extract!",
-        "description": "Attacks a random enemy 2 times and deals a total of {0} DMG, while poisoning them with Screechy Grass Extract for {1} sec. Enemies inflicted with Screechy Grass Extract have their ATK reduced by {3}%, and Crit Chance by {3}.",
+        "description": "Attacks a random enemy 3 times and deals a total of {0} DMG, while poisoning them with Screechy Grass Extract for {1} sec. Enemies inflicted with Screechy Grass Extract have their ATK reduced by {2}%, and Crit Chance by {3}.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -6157,7 +6157,7 @@
       },
       "s3": {
         "name": "More! Stronger!",
-        "description": "Own ATK is increased by {0} for {1} sec and the effect of [Tears of Mr. Python], [Screechy Grass Extract], [Tickle Tickle Potion] is doubled. Also, target of [Tears of Mr. Python], [Screechy Grass Extract!], [Tickle Tickle Potion] is increased by 1.",
+        "description": "Own ATK is increased by {1} for {0} sec and the effect of [Tears of Mr. Python], [Screechy Grass Extract], [Tickle Tickle Potion] is doubled. Also, target of [Tears of Mr. Python], [Screechy Grass Extract!], [Tickle Tickle Potion] is increased by 1.",
         "books": {
           "0": "ATK boost is increased by {0}%.",
           "1": "ATK boost is increased by {0}%.",
@@ -6277,7 +6277,7 @@
       },
       "s3": {
         "name": "Judgment of the Sun",
-        "description": "Takes position, focuses to heal HP of nearby allies, excluding self, 8 times for a total of {0} , and increases their P.DEF by {1} for 4 sec. Deals a total of {2} M.DMG on enemies within range over 8 times, and decreases their M.DEF by {3} for 5 sec. After the end of the casting, heals HP of allies within range, excluding self, by {5} , and deals {5} M.DMG on enemies, and knocks them down for 3 sec.",
+        "description": "Takes position, focuses to heal HP of nearby allies, excluding self, 8 times for a total of {0} , and increases their P.DEF by {1} for 5 sec. Deals a total of {2} M.DMG on enemies within range over 8 times, and decreases their M.DEF by {3} for 5 sec. After the end of the casting, heals HP of allies within range, excluding self, by {4} , and deals {5} M.DMG on enemies, and knocks them down for 3 sec.",
         "books": {
           "0": "DMG and Heal rate are increased by {0}%.",
           "1": "DMG and Heal rate are increased by {0}%.",
@@ -6300,7 +6300,7 @@
       },
       "s4": {
         "name": "Curse of the Sun",
-        "description": "Upon attack, inflicts Curse of the Sun on the target for 00 sec. Enemies with 10 stacks of Curses of the Sun will consume the stack to receive {1} M.DMG, and become inflicted with Blind for {1} sec, having their ATK reduced by {2}% for 10 sec.",
+        "description": "Upon attack, inflicts Curse of the Sun on the target for 10 sec. Enemies with 10 stacks of Curses of the Sun will consume the stack to receive {0} M.DMG, and become inflicted with Blind for {1} sec, having their ATK reduced by {2}% for 10 sec.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -6374,7 +6374,7 @@
       },
       "s2": {
         "name": "Struggle is Meaningless.",
-        "description": "Attacks a random enemy 00 times and deals a total of {1} P.DMG. Shoots a Frost Bullet that deals {1} P.DMG to target and surrounding enemies, freezing them for 4 sec. The special Frost Bullet creates a freezing area for 6 seconds that deals {2} P.DMG every 2 sec, with a 50% chance to freeze for 2 sec.",
+        "description": "Attacks a random enemy 10 times and deals a total of {0} P.DMG. Shoots a Frost Bullet that deals {1} P.DMG to target and surrounding enemies, freezing them for 4 sec. The special Frost Bullet creates a freezing area for 6 seconds that deals {2} P.DMG every 2 sec, with a 50% chance to freeze for 2 sec.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -6494,7 +6494,7 @@
       },
       "s2": {
         "name": "Curse of Time",
-        "description": "Attacks an enemy inflicting {0} M.DMG and also inflicts Curse of Time for {1} seconds, increasing all skill cooldown by {2} seconds. All skill cooldowns of the enemy under the Curse of Time increases by {3} seconds every {4} seconds.",
+        "description": "Attacks an enemy inflicting {0} M.DMG and also inflicts Curse of Time for {1} seconds, increasing all skill cooldown by {2} seconds. All skill cooldowns of the enemy under the Curse of Time increases by {4} seconds every {3} seconds.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -6974,7 +6974,7 @@
       },
       "s2": {
         "name": "Power of Lightning!",
-        "description": "For 05 sec, ATK is increased by {1} and all DEF is increased by {1}. While the skill is in use, each auto attack has a 20% chance of dealing extra {3} M.DMG to 2 random enemies and stunning them for 0.5 sec.",
+        "description": "For 15 sec, ATK is increased by {0} and all DEF is increased by {1}. While the skill is in use, each auto attack has a 30% chance of dealing extra {2} M.DMG to 2 random enemies and stunning them for 0.5 sec.",
         "books": {
           "0": "ATK and DEF boosts are increased by {0}%.",
           "1": "ATK and DEF boosts are increased by {0}%.",
@@ -7020,7 +7020,7 @@
       },
       "s4": {
         "name": "Shock",
-        "description": "With every attack, injects Electricity to targets not inflicted by Shock and increases M.DMG taken by {0}% for 10 sec. Electricity can be stacked up to 20 times, and the 30th stack will consume all Electricity to deal {1} M.DMG and Shock the target for 7 sec. Enemies inflicted by Shock take {3}% increased M.DMG, and when they are inflicted by Stun, the duration is increased by {3} sec.",
+        "description": "With every attack, injects Electricity to targets not inflicted by Shock and increases M.DMG taken by {0}% for 10 sec. Electricity can be stacked up to 30 times, and the 30th stack will consume all Electricity to deal {1} M.DMG and Shock the target for 7 sec. Enemies inflicted by Shock take {3}% increased M.DMG, and when they are inflicted by Stun, the duration is increased by {2} sec.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -7214,7 +7214,7 @@
       },
       "s2": {
         "name": "Restrain and Protect",
-        "description": "Deals {0} M.DMG to target enemy and other enemies in range, and Stuns them for 1 sec. Then moves to an ally with the lowest P.DEF, excluding self, and creates Shield for two that can block {2} DMG for 10 sec. Shield will be ineffective when there is no ally. Gains immunity to CC while the Shield lasts.",
+        "description": "Deals {0} M.DMG to target enemy and other enemies in range, and Stuns them for 2 sec. Then moves to an ally with the lowest P.DEF, excluding self, and creates Shield for two that can block {1} DMG for 10 sec. Shield will be ineffective when there is no ally. Gains immunity to CC while the Shield lasts.",
         "books": {
           "0": "DMG and Shield are increased by {0}%.",
           "1": "DMG and Shield are increased by {0}%.",
@@ -7323,7 +7323,7 @@
       },
       "s1": {
         "name": "Green Nature's Melody",
-        "description": "Heals a total of {0} HP for all allies over 8 times, and all allies take reduced DMG by {1}% for 8 seconds. If used when Trance is stacked up to 2, this skill's Heal rate increases by 100% and changes the DMG Reduction Effect to {3}%.",
+        "description": "Heals a total of {0} HP for all allies over 8 times, and all allies take reduced DMG by {1}% for 8 seconds. If used when Trance is stacked up to 3, this skill's Heal rate increases by 100% and changes the DMG Reduction Effect to {2}%.",
         "books": {
           "0": "Heal rate is increased by {0}%.",
           "1": "Heal rate is increased by {0}%.",
@@ -7380,7 +7380,7 @@
       },
       "s4": {
         "name": "Trance",
-        "description": "At the end of the skill, 0 more Trance is stacked. Trance can be stacked up to max 3 times, and if the skill is used when Trance is stacked up to 3, consumes the stack to heal {1} HP of all allies. Trance cannot be dispelled.",
+        "description": "At the end of the skill, 1 more Trance is stacked. Trance can be stacked up to max 3 times, and if the skill is used when Trance is stacked up to 3, consumes the stack to heal {0} HP of all allies. Trance cannot be dispelled.",
         "books": {
           "0": "Heal rate is increased by {0}%.",
           "1": "Heal rate is increased by {0}%.",
@@ -7597,7 +7597,7 @@
       },
       "s3": {
         "name": "Burn, Spear of Fury",
-        "description": "Charges at an enemy, inflicting {0} P.DMG and knocking it down, and explodes the ground around self to attack 3 times, dealing a total of {1} P.DMG and inflicting Stun for {2} seconds. Recovers HP equal to {4}% of DMG.",
+        "description": "Charges at an enemy, inflicting {0} P.DMG and knocking it down, and explodes the ground around self to attack 4 times, dealing a total of {1} P.DMG and inflicting Stun for {2} seconds. Recovers HP equal to {3}% of DMG.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -7740,7 +7740,7 @@
       },
       "s4": {
         "name": "Take this!",
-        "description": "Every 05 sec, deals {1} M.DMG to 4 random enemies, and randomly inflicts one of the following: 1. {1} M.DMG over time for 10 sec, 2. Stun for 2 sec, 3. Freeze for 5 sec",
+        "description": "Every 15 sec, deals {0} M.DMG to 4 random enemies, and randomly inflicts one of the following: 1. {1} M.DMG over time for 10 sec, 2. Stun for 2 sec, 3. Freeze for 5 sec",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -7814,7 +7814,7 @@
       },
       "s2": {
         "name": "Advent of the War God",
-        "description": "Dispel all negative effects on self and deal {0} P.DMG to nearby enemies within a small radius, gaining the Status 'War God' for 10 sec. While in War God mode, ATK is boosted by {1} and all auto attacks have a 20% chance to consume 5% mana to deal an extra attack of {3} extra P.DMG. Upon taking M.DMG, dodge all M.DMG for 1 sec. Dodge effect only activates 1 time in every 2 sec.",
+        "description": "Dispel all negative effects on self and deal {0} P.DMG to nearby enemies within a small radius, gaining the Status 'War God' for 10 sec. While in War God mode, ATK is boosted by {1} and all auto attacks have a 30% chance to consume 5% mana to deal an extra attack of {2} extra P.DMG. Upon taking M.DMG, dodge all M.DMG for 1 sec. Dodge effect only activates 1 time in every 2 sec.",
         "books": {
           "0": "ATK boost and DMG is increased by {0}%",
           "1": "ATK boost and DMG is increased by {0}%",
@@ -8054,7 +8054,7 @@
       },
       "s2": {
         "name": "Shrouding Creed",
-        "description": "Removes negative effects from all allies. Casts a shield upon all allies that absorbs {0} DMG for {1} second(s) and reduces all DMG to allies by {2}% for {3} second(s). The shield grants immunity to CC while it lasts.",
+        "description": "Removes negative effects from all allies. Casts a shield upon all allies that absorbs {1} DMG for {0} second(s) and reduces all DMG to allies by {3}% for {2} second(s). The shield grants immunity to CC while it lasts.",
         "books": {
           "0": "Shield is increased by {0}%.",
           "1": "Shield is increased by {0}%.",
@@ -8077,7 +8077,7 @@
       },
       "s3": {
         "name": "Knight's Creed",
-        "description": "Hits frontal enemies within range 2 times. First 1 hits deal {0} P.DMG and stun enemies for {2} second(s) while the last hit attacks enemies in wider range 2 times, dealing {3} P.DMG in total. The last hit stuns enemies for 4 seconds and leaves [Mark of Creed] on the enemies, damaging them for {3} second(s). Targets with [Mark of Creed] take additional {5} P.DMG from allies excluding caster. Additional DMG effect is activated only once every {5} second(s).",
+        "description": "Hits frontal enemies within range 3 times. First 2 hits deal {0} P.DMG and stun enemies for {1} second(s) while the last hit attacks enemies in wider range 2 times, dealing {2} P.DMG in total. The last hit stuns enemies for 5 seconds and leaves [Mark of Creed] on the enemies, damaging them for {3} second(s). Targets with [Mark of Creed] take additional {4} P.DMG from allies excluding caster. Additional DMG effect is activated only once every {5} second(s).",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",

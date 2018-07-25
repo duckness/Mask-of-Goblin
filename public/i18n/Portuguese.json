@@ -637,7 +637,7 @@
       },
       "s3": {
         "name": "Procurador Divino",
-        "description": "Causa {0} de DAN.F aos inimigos próximos e inflige Atordoamento por 2 segundos. Além disso, por {1} segundos, o ATQ aumenta em {3} e a Taxa de Esquiva aumenta em {3} , enquanto ganha imunidade a CM. Esse status não pode ser removido.",
+        "description": "Causa {0} de DAN.F aos inimigos próximos e inflige Atordoamento por 3 segundos. Além disso, por {1} segundos, o ATQ aumenta em {2} e a Taxa de Esquiva aumenta em {3} , enquanto ganha imunidade a CM. Esse status não pode ser removido.",
         "books": {
           "0": "Taxa de aumento de ataque aumenta em {0}%.",
           "1": "Taxa de aumento de ataque aumenta em {0}%.",
@@ -734,7 +734,7 @@
       },
       "s2": {
         "name": "Bênção de Luz",
-        "description": "Conjura um escudo em todos os aliados que absorve {0} de DAN durante {1} segundos. Enquanto o escudo estiver ativado, ganha imunidade a CM.",
+        "description": "Conjura um escudo em todos os aliados que absorve {1} de DAN durante {0} segundos. Enquanto o escudo estiver ativado, ganha imunidade a CM.",
         "books": {
           "0": "Aumenta os PV do Escudo em {0}%.",
           "1": "Aumenta os PV do Escudo em {0}%.",
@@ -780,7 +780,7 @@
       },
       "s4": {
         "name": "Graça da Deusa",
-        "description": "Aumenta a DEF.M de 0 aliado em {1} , durante {1} segundos",
+        "description": "Aumenta a DEF.M de 1 aliado em {1} , durante {0} segundos",
         "books": {
           "0": "Taxa de aumento de DEF.M aumentada em {0}%.",
           "1": "Taxa de aumento de DEF.M aumentada em {0}%.",
@@ -854,7 +854,7 @@
       },
       "s2": {
         "name": "Bola de Fogo",
-        "description": "Causa {0} de DAN. M aos inimigos e Atordoa durante 1 segundos. Aumenta o dano em {2}% para cada brasa acumulada.",
+        "description": "Causa {0} de DAN. M aos inimigos e Atordoa durante 2 segundos. Aumenta o dano em {1}% para cada brasa acumulada.",
         "books": {
           "0": "Aumenta o DAN em {0}%.",
           "1": "Aumenta o DAN em {0}%.",
@@ -974,7 +974,7 @@
       },
       "s2": {
         "name": "Cortina de Escuridão",
-        "description": "ATQ aumenta em {0} , durante {1} segundos e se esquiva de ataques de DAN.F.",
+        "description": "ATQ aumenta em {1} , durante {0} segundos e se esquiva de ataques de DAN.F.",
         "books": {
           "0": "Taxa de aumento de ATQ é aumentada em {0}%.",
           "1": "Taxa de aumento de ATQ é aumentada em {0}%.",
@@ -1094,7 +1094,7 @@
       },
       "s2": {
         "name": "Rugido de Batalha",
-        "description": "Todos os aliados ganham {0} de ATQ durante {1} segundos. Ao ativar, remove todos os efeitos negativos dos aliados.",
+        "description": "Todos os aliados ganham {1} de ATQ durante {0} segundos. Ao ativar, remove todos os efeitos negativos dos aliados.",
         "books": {
           "0": "Taxa de aumento de ataque aumenta em {0}%.",
           "1": "Taxa de aumento de ataque aumenta em {0}%.",
@@ -1140,7 +1140,7 @@
       },
       "s4": {
         "name": "Enfurecer",
-        "description": "Ao atacar um inimigo, aumenta o ATQ em {0} , durante {1} segundos. Esse efeito pode se acumular até no máximo 10 vezes.",
+        "description": "Ao atacar um inimigo, aumenta o ATQ em {1} , durante {0} segundos. Esse efeito pode se acumular até no máximo 10 vezes.",
         "books": {
           "0": "Taxa de aumento de ataque aumenta em {0}%.",
           "1": "Aumenta a taxa de aumento de ATQ em {0}%.",
@@ -1207,14 +1207,14 @@
         "books": {
           "0": "Aumenta o DAN em {0}%.",
           "1": "Aumenta o DAN em {0}%.",
-          "2": "Reduz {0}% de DEF.F dos inimigos atingidos durante {1} segundos."
+          "2": "Reduz {1}% de DEF.F dos inimigos atingidos durante {0} segundos."
         },
         "light": "Reduz o custo de mana em 1.",
         "dark": "Reduz o tempo de recarga em 10% por cada inimigo atingido."
       },
       "s2": {
         "name": "Cabeçada",
-        "description": "Investe contra o inimigo e causa {0} de DAN.F. Reduz a VEL. ATQ dos inimigos atingidos em {1}%, durante {2} segundos.",
+        "description": "Investe contra o inimigo e causa {0} de DAN.F. Reduz a VEL. ATQ dos inimigos atingidos em {2}%, durante {1} segundos.",
         "books": {
           "0": "Aumenta o DAN em {0}%.",
           "1": "Aumenta o DAN em {0}%.",
@@ -1237,7 +1237,7 @@
       },
       "s3": {
         "name": "Terra Encarnada",
-        "description": "Ao ativar, aumenta a DEF em {0} , durante {1} segundos e ganha imunidade a penalidades. Além disso, cura {2}% de PV.",
+        "description": "Ao ativar, aumenta a DEF em {1} , durante {0} segundos e ganha imunidade a penalidades. Além disso, cura {2}% de PV.",
         "books": {
           "0": "Taxa de aumento de DEF.F aumenta em {0}%.",
           "1": "Taxa de aumento de DEF.F aumenta em {0}%.",
@@ -1260,7 +1260,7 @@
       },
       "s4": {
         "name": "Destruir Armadura",
-        "description": "Ao atacar um inimigo, enfraquece sua DEF.F em {0} , durante {1} segundos. Pode se acumular até no máximo 5 vezes.",
+        "description": "Ao atacar um inimigo, enfraquece sua DEF.F em {1} , durante {0} segundos. Pode se acumular até no máximo 5 vezes.",
         "books": {
           "0": "Aumenta a redução de DEF.F em {0}%.",
           "1": "Aumenta a redução de DEF.F em {0}%.",
@@ -1454,7 +1454,7 @@
       },
       "s2": {
         "name": "Chuva Curativa",
-        "description": "Restaura {0} PV de todos os aliados durante {1} segundos.",
+        "description": "Restaura {1} PV de todos os aliados durante {0} segundos.",
         "books": {
           "0": "Aumenta a Recuperação em {0}%.",
           "1": "Aumenta a Recuperação em {0}%.",
@@ -1477,7 +1477,7 @@
       },
       "s3": {
         "name": "Vento Veloz",
-        "description": "Aumenta o ATQ em {0} e a VEL. ATQ em {2} de todos os aliados durante {1} segundos.",
+        "description": "Aumenta o ATQ em {1} e a VEL. ATQ em {2} de todos os aliados durante {0} segundos.",
         "books": {
           "0": "Taxa de aumento de ATQ aumenta em {0}%.",
           "1": "Taxa de aumento de ATQ aumenta em {0}%.",
@@ -1620,7 +1620,7 @@
       },
       "s4": {
         "name": "Colheita",
-        "description": "Quanto um inimigo for morto por este herói, aumenta o ATQ em {0} , durante {1} segundos e reduz o tempo de recarga de todos os poderes em 30%.",
+        "description": "Quanto um inimigo for morto por este herói, aumenta o ATQ em {1} , durante {0} segundos e reduz o tempo de recarga de todos os poderes em 30%.",
         "books": {
           "0": "Taxa de aumento de ATQ aumenta em {0}%.",
           "1": "Taxa de aumento de ATQ aumenta em {0}%.",
@@ -1683,7 +1683,7 @@
       },
       "s1": {
         "name": "Chuva de Flechas",
-        "description": "Dispara 00 flechar aleatoriamente e causa {1} de DAN.F ao inimigo.",
+        "description": "Dispara 10 flechar aleatoriamente e causa {0} de DAN.F ao inimigo.",
         "books": {
           "0": "Aumenta o DAN em {0}%.",
           "1": "Aumenta o DAN em {0}%.",
@@ -1740,7 +1740,7 @@
       },
       "s4": {
         "name": "Flecha do Luar",
-        "description": "Ataques automáticos reduzem a DEF.F do inimigo alvo em {0} , durante {1}. Além disso, a Chance Crít. do herói aumenta em {2}. Bônus de Chance Crít. se acumulam até 10 vezes, e a cada acerto Crít. bem-sucedido, todos os acúmulos são removidos. A redução de DEF.F não se acumula.",
+        "description": "Ataques automáticos reduzem a DEF.F do inimigo alvo em {1} , durante {0}. Além disso, a Chance Crít. do herói aumenta em {2}. Bônus de Chance Crít. se acumulam até 10 vezes, e a cada acerto Crít. bem-sucedido, todos os acúmulos são removidos. A redução de DEF.F não se acumula.",
         "books": {
           "0": "Aumenta a redução de DEF em {0}%",
           "1": "Aumenta a redução de DEF em {0}%",
@@ -1803,7 +1803,7 @@
       },
       "s1": {
         "name": "Tempestade do Corvo",
-        "description": "Causa {0} de DAN.M ao inimigos no alcance e os repele. Diminui a DEF.M em {1}%, durante {2} segundos.",
+        "description": "Causa {0} de DAN.M ao inimigos no alcance e os repele. Diminui a DEF.M em {2}%, durante {1} segundos.",
         "books": {
           "0": "Aumenta o DAN em {0}%.",
           "1": "Aumenta o DAN em {0}%.",
@@ -1814,7 +1814,7 @@
       },
       "s2": {
         "name": "Garra da Restrição",
-        "description": "Causa {0} de DAN.M em até 1 inimigos os aprisiona durante {2} segundos. Os inimigos alvos recebem DAN.M adicional e constante.",
+        "description": "Causa {0} de DAN.M em até 2 inimigos os aprisiona durante {1} segundos. Os inimigos alvos recebem DAN.M adicional e constante.",
         "books": {
           "0": "Aumenta o DAN em {0}%.",
           "1": "Aumenta o DAN em {0}%.",
@@ -1860,7 +1860,7 @@
       },
       "s4": {
         "name": "Vento Negro",
-        "description": "Reduz o ATQ dos inimigos atingidos por Maria em {0} por {1} segundos.",
+        "description": "Reduz o ATQ dos inimigos atingidos por Maria em {1} por {0} segundos.",
         "books": {
           "0": "Aumento da taxa de redução de ATQ em {0}%.",
           "1": "Aumento da taxa de redução de ATQ em {0}%.",
@@ -1934,7 +1934,7 @@
       },
       "s2": {
         "name": "Rolamento",
-        "description": "Causa {0} de DAN.F 2 vezes aos inimigos no alcance. Cada ataque tem {1}% de chance de derrubar o inimigo durante {3} segundos.",
+        "description": "Causa {0} de DAN.F 3 vezes aos inimigos no alcance. Cada ataque tem {1}% de chance de derrubar o inimigo durante {2} segundos.",
         "books": {
           "0": "Aumenta o DAN em {0}%.",
           "1": "Aumenta o DAN em {0}%.",
@@ -1957,7 +1957,7 @@
       },
       "s3": {
         "name": "Piratas de Miruru!",
-        "description": "Causa {0} de DAN.F aos inimigos no alcance durante {1} segundos, reduzido a velocidade em {2}%.",
+        "description": "Causa {1} de DAN.F aos inimigos no alcance durante {0} segundos, reduzido a velocidade em {2}%.",
         "books": {
           "0": "Aumenta o DAN em {0}%.",
           "1": "Aumenta o DAN em {0}%.",
@@ -2054,7 +2054,7 @@
       },
       "s2": {
         "name": "Cipó Emaranhado.",
-        "description": "Causa {0} de DAN.M aos inimigos numa linha reta e concede 1 acúmulos de veneno. Aprisiona os inimigos atingidos durante {2} segundos. Após determinado período, causa DAN maciço baseado na quantidade de acúmulos de Veneno.",
+        "description": "Causa {0} de DAN.M aos inimigos numa linha reta e concede 2 acúmulos de veneno. Aprisiona os inimigos atingidos durante {1} segundos. Após determinado período, causa DAN maciço baseado na quantidade de acúmulos de Veneno.",
         "books": {
           "0": "Aumenta o DAN em {0}%.",
           "1": "Aumenta o DAN em {0}%.",
@@ -2100,7 +2100,7 @@
       },
       "s4": {
         "name": "Folha de Lâminas",
-        "description": "Ao realizar um ataque normal, ataca um inimigo aleatório 3 vezes com uma chance de 30% de causar {0} de DAN M. e 1 acúmulo de Veneno por 10 segundos. O Veneno causa um total de {2} de DAN M. ao longo de 20 segundos.",
+        "description": "Ao realizar um ataque normal, ataca um inimigo aleatório 3 vezes com uma chance de 30% de causar {0} de DAN M. e 1 acúmulo de Veneno por 20 segundos. O Veneno causa um total de {1} de DAN M. ao longo de 20 segundos.",
         "books": {
           "0": "Aumenta o DAN em {0}%.",
           "1": "Aumenta o DAN em {0}%.",
@@ -2197,7 +2197,7 @@
       },
       "s3": {
         "name": "Escudo Guardião",
-        "description": "Aumenta a DEF.F de todos os aliados em {0} , durante {1} segundos. Reduz em {2}% a chance de receber um acerto crítico.",
+        "description": "Aumenta a DEF.F de todos os aliados em {1} , durante {0} segundos. Reduz em {2}% a chance de receber um acerto crítico.",
         "books": {
           "0": "Taxa de aumento de DEF.F aumentada em {0}%.",
           "1": "Taxa de aumento de DEF.F aumentada em {0}%.",
@@ -2220,7 +2220,7 @@
       },
       "s4": {
         "name": "Voto dos Cavaleiros",
-        "description": "Depois de bloquear, causa {0} de DAN.F na parte frontal e diminui o ATQ dos inimigos atingidos em {1}%, durante {2} segundos. Recupera 300 de mana depois de atingir o alvo.",
+        "description": "Depois de bloquear, causa {0} de DAN.F na parte frontal e diminui o ATQ dos inimigos atingidos em {2}%, durante {1} segundos. Recupera 300 de mana depois de atingir o alvo.",
         "books": {
           "0": "Aumenta o DAN em {0}%.",
           "1": "Aumenta o DAN em {0}%.",
@@ -2283,7 +2283,7 @@
       },
       "s1": {
         "name": "Alma Curativa",
-        "description": "Cura 4 aliados com o menor PV {0}% do PV máx, e cura extra {2} PV ao longo de {1} segundos. Esse efeito não pode ser removido.",
+        "description": "Cura 4 aliados com o menor PV {2}% do PV máx, e cura extra {1} PV ao longo de {0} segundos. Esse efeito não pode ser removido.",
         "books": {
           "0": "Aumenta a Recuperação em {0}%.",
           "1": "Aumenta a Recuperação em {0}%.",
@@ -2294,7 +2294,7 @@
       },
       "s2": {
         "name": "Salvação",
-        "description": "Remove todas as penalidades dos aliados e aumenta a DEF.M em {0} , durante {1} segundos.",
+        "description": "Remove todas as penalidades dos aliados e aumenta a DEF.M em {1} , durante {0} segundos.",
         "books": {
           "0": "Aumenta a evolução de DEF.M em {0}%.",
           "1": "Aumenta a evolução de DEF.M em {0}%.",
@@ -2340,7 +2340,7 @@
       },
       "s4": {
         "name": "Harmonia Espiritual",
-        "description": "A cada 7 segundos, o aliado com o menor PV recupera 0 PM e {1} PV.",
+        "description": "A cada 7 segundos, o aliado com o menor PV recupera 1 PM e {0} PV.",
         "books": {
           "0": "Aumenta a Recuperação em {0}%.",
           "1": "Aumenta a Recuperação em {0}%.",
@@ -2534,7 +2534,7 @@
       },
       "s2": {
         "name": "Extremidade Afiada",
-        "description": "Aumenta o ATQ em {0} , durante {1} segundos e aumenta a chance de Acerto Crít. em {2}.",
+        "description": "Aumenta o ATQ em {1} , durante {0} segundos e aumenta a chance de Acerto Crít. em {2}.",
         "books": {
           "0": "Aumenta a Taxa de Aumento de ATQ em {0}%.",
           "1": "Aumenta a Taxa de Aumento de ATQ em {0}%.",
@@ -2580,7 +2580,7 @@
       },
       "s4": {
         "name": "Criança Sortuda",
-        "description": "Após um Acerto Crít. bem-sucedido, o ATQ aumenta em {0} , durante {1} segundos. Pode se acumular até no máximo 5 vezes.",
+        "description": "Após um Acerto Crít. bem-sucedido, o ATQ aumenta em {1} , durante {0} segundos. Pode se acumular até no máximo 5 vezes.",
         "books": {
           "0": "Aumenta a Taxa de Aumento de ATQ em {0}%.",
           "1": "Aumenta a Taxa de Aumento de ATQ em {0}%.",
@@ -2700,7 +2700,7 @@
       },
       "s4": {
         "name": "Calafrio do Amanhecer",
-        "description": "Causa {0} de DAN.M e efeito Gélido a 3 inimigos a cada {1} segundos.",
+        "description": "Causa {1} de DAN.M e efeito Gélido a 3 inimigos a cada {0} segundos.",
         "books": {
           "0": "Aumenta o DAN em {0}%.",
           "1": "Aumenta o DAN em {0}%.",
@@ -2894,7 +2894,7 @@
       },
       "s2": {
         "name": "Leitura do Vento",
-        "description": "Chance de ESQ.F aumenta em {0} , durante {1} segundos e o ATQ em {2}.",
+        "description": "Chance de ESQ.F aumenta em {1} , durante {0} segundos e o ATQ em {2}.",
         "books": {
           "0": "Aumenta a Taxa de Aumento de ATQ em {0}%.",
           "1": "Aumenta a Taxa de Aumento de ATQ em {0}%.",
@@ -3037,7 +3037,7 @@
       },
       "s3": {
         "name": "Fogo Focalizado",
-        "description": "Dispara 00 tiros em inimigos aleatórios. Causa {1} de DAN.F e o aumenta em {1}% para cada ataque seguinte.",
+        "description": "Dispara 10 tiros em inimigos aleatórios. Causa {0} de DAN.F e o aumenta em {1}% para cada ataque seguinte.",
         "books": {
           "0": "Aumenta o DAN em {0}%.",
           "1": "Aumenta o DAN em {0}%.",
@@ -3060,7 +3060,7 @@
       },
       "s4": {
         "name": "Tiro Rápido",
-        "description": "A cada 00 segundos, realiza dois ataques consecutivos e causa {1} de DAN.F",
+        "description": "A cada 10 segundos, realiza dois ataques consecutivos e causa {0} de DAN.F",
         "books": {
           "0": "Aumenta o DAN em {0}%.",
           "1": "Aumenta o DAN em {0}%.",
@@ -3123,7 +3123,7 @@
       },
       "s1": {
         "name": "Poder Ardente",
-        "description": "Causa {0} de DAN.M aos inimigos no alcance e os derruba. Gera 2 acúmulos de Chama. Em seguida, durante {1} segundos, ataques automáticos causam {3} de DAN.M e acumulam 1 Chama no inimigo. Cada acúmulo de Chama aumenta o DAN da Chama em {3}%. Cada acúmulo de Chama causa dano separadamente e reduz a Recuperação em 1%.",
+        "description": "Causa {0} de DAN.M aos inimigos no alcance e os derruba. Gera 3 acúmulos de Chama. Em seguida, durante {1} segundos, ataques automáticos causam {2} de DAN.M e acumulam 1 Chama no inimigo. Cada acúmulo de Chama aumenta o DAN da Chama em {3}%. Cada acúmulo de Chama causa dano separadamente e reduz a Recuperação em 1%.",
         "books": {
           "0": "Aumenta o DAN em {0}%.",
           "1": "Aumenta o DAN em {0}%.",
@@ -3243,7 +3243,7 @@
       },
       "s1": {
         "name": "Nova Sagrada",
-        "description": "Conjura uma explosão sagrada no aliado com menos PV, curando {0} PV dele e de todos os aliados próximos. Inimigos próximos recebem {1} de DAN.M, reduzindo a VEL. ATQ em {2}%, durante {3} segundos.",
+        "description": "Conjura uma explosão sagrada no aliado com menos PV, curando {0} PV dele e de todos os aliados próximos. Inimigos próximos recebem {1} de DAN.M, reduzindo a VEL. ATQ em {3}%, durante {2} segundos.",
         "books": {
           "0": "Aumenta a Recuperação e o DAN em {0}%.",
           "1": "Aumenta a Recuperação e o DAN em {0}%.",
@@ -3300,7 +3300,7 @@
       },
       "s4": {
         "name": "Treinamento de Deus",
-        "description": "Ao atacar um inimigo, há 10% de chance de causar {0} de DAN.M e Atordoar durante {2} segundos.",
+        "description": "Ao atacar um inimigo, há 20% de chance de causar {0} de DAN.M e Atordoar durante {1} segundos.",
         "books": {
           "0": "Aumenta o DAN em {0}%.",
           "1": "Aumenta o DAN em {0}%.",
@@ -3397,7 +3397,7 @@
       },
       "s3": {
         "name": "Dia da Ruína",
-        "description": "Causa {0} de DAN.M aos inimigos a cada {1} segundos e cura uma quantidade de seu PV equivalente a {2}% do DAN. Ganha imunidade a penalidades. O DAN é aumentado se os inimigos estiverem marcados.",
+        "description": "Causa {1} de DAN.M aos inimigos a cada {0} segundos e cura uma quantidade de seu PV equivalente a {2}% do DAN. Ganha imunidade a penalidades. O DAN é aumentado se os inimigos estiverem marcados.",
         "books": {
           "0": "Aumenta o DAN em {0}%.",
           "1": "Aumenta o DAN em {0}%.",
@@ -3517,7 +3517,7 @@
       },
       "s3": {
         "name": "Precipitação Torrencial",
-        "description": "Causa {0} de DAN.M a inimigos aleatórios durante {1} segundos e reduz a DEF.M do inimigo em 5%. A redução da DEF.M se acumula 5 vezes.",
+        "description": "Causa {1} de DAN.M a inimigos aleatórios durante {0} segundos e reduz a DEF.M do inimigo em 5%. A redução da DEF.M se acumula 5 vezes.",
         "books": {
           "0": "DAN aumentado em {0}%.",
           "1": "DAN aumentado em {0}%.",
@@ -3603,7 +3603,7 @@
       },
       "s1": {
         "name": "Runa da Fragilidade",
-        "description": "Grava uma runa no inimigo, reduzindo {0}% da DEF.F por {1} segundos. Depois de {2} segundos, causa máx {3} de DAN.M proporcional ao PV perdido, ignorando a DEF.",
+        "description": "Grava uma runa no inimigo, reduzindo {1}% da DEF.F por {0} segundos. Depois de {2} segundos, causa máx {3} de DAN.M proporcional ao PV perdido, ignorando a DEF.",
         "books": {
           "0": "Aumenta o dano em {0}%.",
           "1": "Aumenta o dano em {0}%.",
@@ -3660,7 +3660,7 @@
       },
       "s4": {
         "name": "Runa de Proteção",
-        "description": "A cada {0} segundos, grava uma runa no aliado com menos PV e recupera {1} PV durante {2} segundos.",
+        "description": "A cada {0} segundos, grava uma runa no aliado com menos PV e recupera {2} PV durante {1} segundos.",
         "books": {
           "0": "Aumenta a Cura em {0}%.",
           "1": "Aumenta a Cura em {0}%.",
@@ -3734,7 +3734,7 @@
       },
       "s2": {
         "name": "Passos Céleres",
-        "description": "Desloca-se até o inimigo com maior ATQ e inflige Silenciar por 0 segundos. A redução de DAN.M é aumentada em {2} por {1} segundos. Grava uma Marca num inimigo por {2} segundos, e o prioriza atacar o alvo marcado. Quando estiver atacando inimigo infligidos pela marca, causa {3} de DAN.F extra.",
+        "description": "Desloca-se até o inimigo com maior ATQ e inflige Silenciar por 2 segundos. A redução de DAN.M é aumentada em {1} por {0} segundos. Grava uma Marca num inimigo por {2} segundos, e o prioriza atacar o alvo marcado. Quando estiver atacando inimigo infligidos pela marca, causa {3} de DAN.F extra.",
         "books": {
           "0": "Aumenta o dano em {0}%.",
           "1": "Aumenta o dano em {0}%.",
@@ -3780,7 +3780,7 @@
       },
       "s4": {
         "name": "Cortador de Feitiços",
-        "description": "Causa {0} de DAN.F aos inimigos que causaram DAN.M a este herói a cada {1} segundos e se esquiva de todo o DAN.M seguinte durante {2} segundos.",
+        "description": "Causa {1} de DAN.F aos inimigos que causaram DAN.M a este herói a cada {0} segundos e se esquiva de todo o DAN.M seguinte durante {2} segundos.",
         "books": {
           "0": "Aumenta o dano em {0}%.",
           "1": "Aumenta o dano em {0}%.",
@@ -3877,7 +3877,7 @@
       },
       "s3": {
         "name": "Brilha Brilha",
-        "description": "Causa {0} de DAN.M aos alvos no alcance e reduz a Chance Crít. em {1}%, durante {2} segundos.",
+        "description": "Causa {0} de DAN.M aos alvos no alcance e reduz a Chance Crít. em {2}%, durante {1} segundos.",
         "books": {
           "0": "Aumenta o dano em {0}%.",
           "1": "Aumenta o dano em {0}%.",
@@ -3900,7 +3900,7 @@
       },
       "s4": {
         "name": "Peguei Você!",
-        "description": "A cada {0} segundos, causa {1} DAN.M ao inimigo mais distante durante {2} segundos. Quando mais distante o inimigo estiver, maior será o DAN causado.",
+        "description": "A cada {0} segundos, causa {2} DAN.M ao inimigo mais distante durante {1} segundos. Quando mais distante o inimigo estiver, maior será o DAN causado.",
         "books": {
           "0": "Aumenta o dano em {0}%.",
           "1": "Aumenta o dano em {0}%.",
@@ -3974,7 +3974,7 @@
       },
       "s2": {
         "name": "Escudo de Bolha",
-        "description": "Protege um aliado com o menor PV durante 05 segundos, bloqueia até {1} de DAN e concede Imunidade. Enquanto o Escudo estiver ativado, recupera {1} PV a cada segundo e ganha Imunidade a CM.",
+        "description": "Protege um aliado com o menor PV durante 15 segundos, bloqueia até {0} de DAN e concede Imunidade. Enquanto o Escudo estiver ativado, recupera {1} PV a cada segundo e ganha Imunidade a CM.",
         "books": {
           "0": "Escudo aumentado em {0}%.",
           "1": "Escudo aumentado em {0}%.",
@@ -3997,7 +3997,7 @@
       },
       "s3": {
         "name": "Festival do Fluxo",
-        "description": "Causa {0} de DAN.M e derruba todos os inimigos próximos. Todos os aliados (sem incluir a si próprio) recuperam 1 orbes de mana. Em seguida, durante {2} segundos, inimigos aleatórios serão atingidos por um redemoinho, receberão {2} de DAN.M e serão derrubados durante 2 segundos.",
+        "description": "Causa {0} de DAN.M e derruba todos os inimigos próximos. Todos os aliados (sem incluir a si próprio) recuperam 2 orbes de mana. Em seguida, durante {1} segundos, inimigos aleatórios serão atingidos por um redemoinho, receberão {2} de DAN.M e serão derrubados durante 2 segundos.",
         "books": {
           "0": "DAN aumentado em {0}%.",
           "1": "DAN aumentado em {0}%.",
@@ -4140,7 +4140,7 @@
       },
       "s4": {
         "name": "O Último Julgamento",
-        "description": "A cada 05 segundos, causa {1} de DAN.M a inimigos infligidos por Sigilo do Julgamento, ignorando a DEF. Durante cada batalha, ao se aproximar do PV de morte, causa {1} de DAN.M aos inimigos infligidos pelos Sigilos do Julgamento e os atordoa por 2 segundos, enquanto conjura um escuro que bloqueia {3} de DAN a todos os aliados por 5 segundos. Ganha imunidade a CM enquanto o escudo estiver sob efeito. Quando o escudo estiver sob efeito, consome toda a mana, e toda a recarga de poder aumenta em 50%.",
+        "description": "A cada 15 segundos, causa {0} de DAN.M a inimigos infligidos por Sigilo do Julgamento, ignorando a DEF. Durante cada batalha, ao se aproximar do PV de morte, causa {1} de DAN.M aos inimigos infligidos pelos Sigilos do Julgamento e os atordoa por 3 segundos, enquanto conjura um escuro que bloqueia {2} de DAN a todos os aliados por 5 segundos. Ganha imunidade a CM enquanto o escudo estiver sob efeito. Quando o escudo estiver sob efeito, consome toda a mana, e toda a recarga de poder aumenta em 50%.",
         "books": {
           "0": "DAN e Escudo aumentados em {0}%.",
           "1": "DAN e Escudo aumentados em {0}%.",
@@ -4260,7 +4260,7 @@
       },
       "s4": {
         "name": "Dominador de Sangue",
-        "description": "Quando o PV estiver em 50% ou acima, o ATQ aumenta em {0} e a Penalidade de DEF aumenta em 150. Após o ataque, inflige Maldição de Sangue ao alvo, causando um total de {2} de DAN.M ao longo de 20 seg. e recuperando 10% de DAN causado por Maldição de Sangue em PV. Maldição de Sangue pode ser acumulada até 100 vezes e não pode ser removida.",
+        "description": "Quando o PV estiver em 50% ou acima, o ATQ aumenta em {0} e a Penalidade de DEF aumenta em 250. Após o ataque, inflige Maldição de Sangue ao alvo, causando um total de {1} de DAN.M ao longo de 20 seg. e recuperando 10% de DAN causado por Maldição de Sangue em PV. Maldição de Sangue pode ser acumulada até 100 vezes e não pode ser removida.",
         "books": {
           "0": "DAN aumentado em {0}%.",
           "1": "DAN aumentado em {0}%.",
@@ -4334,7 +4334,7 @@
       },
       "s2": {
         "name": "Cutelo Dimensional",
-        "description": "Causa {0} de DAN.F aos inimigos-alvo e remove bônus. Os inimigos atingidos recebem {1} de DAN.F durante {2} segundos e não derrubados durante 3 segundos. A quantidade de alvos é igual a 1 + acúmulos de Lâminas.",
+        "description": "Causa {0} de DAN.F aos inimigos-alvo e remove bônus. Os inimigos atingidos recebem {2} de DAN.F durante {1} segundos e não derrubados durante 3 segundos. A quantidade de alvos é igual a 1 + acúmulos de Lâminas.",
         "books": {
           "0": "Aumenta o DAN em {0}%.",
           "1": "Aumenta o DAN em {0}%.",
@@ -4454,7 +4454,7 @@
       },
       "s2": {
         "name": "Tratamento de Emergência",
-        "description": "Remove todas as penalidades dos aliados, cura {0} PV durante 10 segundos e aumenta a Resistência a Penalidades em 150. Enquanto estiver Sobrecarregado, todos os aliados ganham {2} de Chance Crít. e imunidade a efeitos de status.",
+        "description": "Remove todas as penalidades dos aliados, cura {0} PV durante 10 segundos e aumenta a Resistência a Penalidades em 250. Enquanto estiver Sobrecarregado, todos os aliados ganham {1} de Chance Crít. e imunidade a efeitos de status.",
         "books": {
           "0": "Recuperação aumentada em {0}%.",
           "1": "Recuperação aumentada em {0}%.",
@@ -4500,7 +4500,7 @@
       },
       "s4": {
         "name": "Investida",
-        "description": "Ganha 0 recarga a cada 0,5 segundos, e ganha 10 recargas por orbe de mana usado. Quando acumular 100 recargas, chegará ao estato Sobrecarregado, no qual o ATQ aumenta em {1} por 15 segundos e cada ataque automático reduz a recarga do poder em 10%. Todos os efeitos não podem ser removidos e a recarga não acumulará durante o estado Sobrecarregado.",
+        "description": "Ganha 1 recarga a cada 0,5 segundos, e ganha 10 recargas por orbe de mana usado. Quando acumular 100 recargas, chegará ao estato Sobrecarregado, no qual o ATQ aumenta em {0} por 15 segundos e cada ataque automático reduz a recarga do poder em 10%. Todos os efeitos não podem ser removidos e a recarga não acumulará durante o estado Sobrecarregado.",
         "books": {
           "0": "Aumenta a Taxa de Aumento de ATQ em {0}%.",
           "1": "Aumenta a Taxa de Aumento de ATQ em {0}%.",
@@ -4563,7 +4563,7 @@
       },
       "s1": {
         "name": "Bang! Bang!!",
-        "description": "Ataca 1 vezes um inimigo, causando {0} de DAN.F em cada vez. Se houver acerto crítico, ocorre uma explosão e causa {2} de DAN.F adicional aos inimigos próximos.",
+        "description": "Ataca 2 vezes um inimigo, causando {0} de DAN.F em cada vez. Se houver acerto crítico, ocorre uma explosão e causa {1} de DAN.F adicional aos inimigos próximos.",
         "books": {
           "0": "Aumenta o DAN em {0}%.",
           "1": "Aumenta o DAN em {0}%.",
@@ -4597,7 +4597,7 @@
       },
       "s3": {
         "name": "Dança Comigo!!",
-        "description": "Dispara rajadas 02 vezes com a arma num alvo aleatório, causando no total {1} de DAN.F. Sempre que causar DAN, deixa uma Marca da Morte que não pode ser removida. Cada acúmulo de Marca da Morte aumenta em 1% do DAN do 'Tiroteio'.",
+        "description": "Dispara rajadas 12 vezes com a arma num alvo aleatório, causando no total {0} de DAN.F. Sempre que causar DAN, deixa uma Marca da Morte que não pode ser removida. Cada acúmulo de Marca da Morte aumenta em 1% do DAN do 'Tiroteio'.",
         "books": {
           "0": "Aumenta o DAN em {0}%.",
           "1": "Aumenta o DAN em {0}%.",
@@ -4717,7 +4717,7 @@
       },
       "s3": {
         "name": "Julgamento Divino",
-        "description": "Ataca 3 vezes os inimigos frontais. Os primeiros 1 ataques causam {0} DAN.F, cada ataque atordoa os inimigos durante 4 segundos. O último ataque tem alcance 20% mais amplo, causa {2} de DAN.F e atordoa os inimigos durante 4 segundos. Cada ataque tem 50% de chance de remover efeitos positivos do inimigo.",
+        "description": "Ataca 3 vezes os inimigos frontais. Os primeiros 2 ataques causam {0} DAN.F, cada ataque atordoa os inimigos durante 4 segundos. O último ataque tem alcance 20% mais amplo, causa {1} de DAN.F e atordoa os inimigos durante 4 segundos. Cada ataque tem 50% de chance de remover efeitos positivos do inimigo.",
         "books": {
           "0": "Aumenta o DAN em {0}%.",
           "1": "Aumenta o DAN em {0}%.",
@@ -4837,7 +4837,7 @@
       },
       "s3": {
         "name": "Sussurro da Morte",
-        "description": "Ataca 6 inimigos aleatórios e causa no total {0} de DAN.F. Ataca uma última vez causando {0} de DAN.F. Se estiver em Furtividade, remove todos os bônus do inimigo. Caso contrário, ganha Furtividade. Aumenta a Chance Crít. em {1} , durante 10 segundos.",
+        "description": "Ataca 6 inimigos aleatórios e causa no total {0} de DAN.F. Ataca uma última vez causando {1} de DAN.F. Se estiver em Furtividade, remove todos os bônus do inimigo. Caso contrário, ganha Furtividade. Aumenta a Chance Crít. em {0} , durante 10 segundos.",
         "books": {
           "0": "Aumenta o dano em {0}%.",
           "1": "Aumenta o dano em {0}%.",
@@ -4934,7 +4934,7 @@
       },
       "s2": {
         "name": "Desespero Crescente",
-        "description": "Realiza uma investida na direção do inimigo com o maior ATQ e causa {0} de DAN.M aos inimigos na área, reduzindo a Vel de ATQ em {1}. [Fúria] - Consome 10% do PV atual para ativar. A área de efeito aumenta, Atordoa o alvo por {2} segundos, e aumenta a própria Vel de ATQ em {3} por {4} segundos.",
+        "description": "Realiza uma investida na direção do inimigo com o maior ATQ e causa {0} de DAN.M aos inimigos na área, reduzindo a Vel de ATQ em {1}. [Fúria] - Consome 10% do PV atual para ativar. A área de efeito aumenta, Atordoa o alvo por {2} segundos, e aumenta a própria Vel de ATQ em {4} por {3} segundos.",
         "books": {
           "0": "Aumenta o dano em {0}%.",
           "1": "Aumenta o dano em {0}%.",
@@ -4980,7 +4980,7 @@
       },
       "s4": {
         "name": "Sangue Amaldiçoado",
-        "description": "Ezekiel ganha 0 acúmulo de 'Maldição de Sangue' no fim do poder. Após o 4° acúmulo, consome Maldição de SAngue para reiniciar a recarga do poder, causando {1} de DAN.M aos inimigos próximos e os derrubando por 2 segundos, enquanto ativa Fúria por {1} seugndos, que não pode ser removido. Enquanto estiver no estado de Fúria, entra em um modo de batalha automática que não pode ser controlado, e o ATQ aumenta em {3} , o DAN do ataque automático é dobrado e o efeito do Poder é reforçado. Não é possível ganhar Maldição de Sangue durante o estado de Fúria, exceto para quando matar um inimigo.",
+        "description": "Ezekiel ganha 1 acúmulo de 'Maldição de Sangue' no fim do poder. Após o 4° acúmulo, consome Maldição de SAngue para reiniciar a recarga do poder, causando {0} de DAN.M aos inimigos próximos e os derrubando por 3 segundos, enquanto ativa Fúria por {1} seugndos, que não pode ser removido. Enquanto estiver no estado de Fúria, entra em um modo de batalha automática que não pode ser controlado, e o ATQ aumenta em {2} , o DAN do ataque automático é dobrado e o efeito do Poder é reforçado. Não é possível ganhar Maldição de Sangue durante o estado de Fúria, exceto para quando matar um inimigo.",
         "books": {
           "0": "Aumenta o dano em {0}%.",
           "1": "Aumenta o dano em {0}%.",
@@ -5163,7 +5163,7 @@
       },
       "s1": {
         "name": "Choque Final",
-        "description": "Ataca o inimigo 06 vezes, causando um total de {1} de DAN.M. Em cada golpe crítico, aumenta DAN.Crít em 3% por 10 segundos e há uma chance de 30% de causar {1} de DAN.M adicional e infligir atordoamento por 0,3 segundos. O efeito de aumento de DAN Crít pode acumular até 30 vezes.",
+        "description": "Ataca o inimigo 16 vezes, causando um total de {0} de DAN.M. Em cada golpe crítico, aumenta DAN.Crít em 3% por 10 segundos e há uma chance de 30% de causar {1} de DAN.M adicional e infligir atordoamento por 0,3 segundos. O efeito de aumento de DAN Crít pode acumular até 30 vezes.",
         "books": {
           "0": "Aumenta o dano em {0}%.",
           "1": "Aumenta o dano em {0}%.",
@@ -5654,7 +5654,7 @@
       },
       "s2": {
         "name": "Coordenação",
-        "description": "Atribui um estado 'Cooperativo' a este herói e ao aliado com o maior ATQ durante 20 segundos.O ATQ de Priscilla e do aliado aumenta em 05%+ {1} durante o efeito do poder.",
+        "description": "Atribui um estado 'Cooperativo' a este herói e ao aliado com o maior ATQ durante 20 segundos.O ATQ de Priscilla e do aliado aumenta em 15%+ {0} durante o efeito do poder.",
         "books": {
           "0": "Aumenta a Taxa de Aumento de ATQ em {0}%.",
           "1": "Aumenta a Taxa de Aumento de ATQ em {0}%.",
@@ -5797,7 +5797,7 @@
       },
       "s3": {
         "name": "Sem Volta!",
-        "description": "Remove todos os efeitos nocivos de si mesmo por 20 segundos, aumenta o ATQ em {0} e Penalidades de DEF em {1}. Akém disso, durante o efeito, ataques automáticos são alterados. Eles consomem 3% de mana em troca da capacidade de causar DAN a todos os inimigos em linha reta. Além disso, causa {3} DAN.F adicional que ignora DEF a de Dragões.",
+        "description": "Remove todos os efeitos nocivos de si mesmo por 30 segundos, aumenta o ATQ em {0} e Penalidades de DEF em {1}. Akém disso, durante o efeito, ataques automáticos são alterados. Eles consomem 3% de mana em troca da capacidade de causar DAN a todos os inimigos em linha reta. Além disso, causa {2} DAN.F adicional que ignora DEF a de Dragões.",
         "books": {
           "0": "Aumento de ATQ reforçado em {0}%.",
           "1": "Aumento de ATQ reforçado em {0}%.",
@@ -6014,7 +6014,7 @@
       },
       "s2": {
         "name": "Carta do Amor - Elliciad",
-        "description": "o ATQ aumenta em {0} por {1} segundos e a recuperação de Mana por segundo aumenta em {2}%. Consome a carta em sua posse para infligir efeitos adicionais. Ao usar o poder, ganha a carta de [Amor]. [Morte] - A Penetração aumenta em 600 durante o efeito do poder. [Amor] - Concede o efeito para todos os aliados. [Fortuna] - A recarga do Poder não tem efeito.",
+        "description": "o ATQ aumenta em {1} por {0} segundos e a recuperação de Mana por segundo aumenta em {2}%. Consome a carta em sua posse para infligir efeitos adicionais. Ao usar o poder, ganha a carta de [Amor]. [Morte] - A Penetração aumenta em 600 durante o efeito do poder. [Amor] - Concede o efeito para todos os aliados. [Fortuna] - A recarga do Poder não tem efeito.",
         "books": {
           "0": "Aumento de ATQ reforçado em {0}%.",
           "1": "Aumento de ATQ reforçado em {0}%.",
@@ -6134,7 +6134,7 @@
       },
       "s2": {
         "name": "Extrato de Erva Berrante!",
-        "description": "Ataca inimigos aleatórios 2 vezes e causa um total de {0} de DAN, enquanto os envenena com Extrato de Erva Berrante por {1} segundos. Os inimigos infligidos com Extrato de Erva Berrante terão seus ataques reduzidos em {3}%, e a Chance de Crit em {3}.",
+        "description": "Ataca inimigos aleatórios 3 vezes e causa um total de {0} de DAN, enquanto os envenena com Extrato de Erva Berrante por {1} segundos. Os inimigos infligidos com Extrato de Erva Berrante terão seus ataques reduzidos em {2}%, e a Chance de Crit em {3}.",
         "books": {
           "0": "DAN aumenta em {0}%.",
           "1": "DAN aumenta em {0}%.",
@@ -6157,7 +6157,7 @@
       },
       "s3": {
         "name": "Mais! Mais forte!",
-        "description": "O próprio ATQ aumenta em [ {0} por {1} segundo e o efeito de [Lágrimas do Sr. Python], [Extrato de Erva Berrante], [Poção de Cócegas] será dobrado. Além disso, o alvo de [Lágrimas do Sr. Python], [Extrato de Erva Berrante!], [Poção de Cócegas] aumenta em 1.",
+        "description": "O próprio ATQ aumenta em [ {1} por {0} segundo e o efeito de [Lágrimas do Sr. Python], [Extrato de Erva Berrante], [Poção de Cócegas] será dobrado. Além disso, o alvo de [Lágrimas do Sr. Python], [Extrato de Erva Berrante!], [Poção de Cócegas] aumenta em 1.",
         "books": {
           "0": "Aumenta a Taxa de Aumento de ATQ em {0}%.",
           "1": "Aumenta a Taxa de Aumento de ATQ em {0}%.",
@@ -6277,7 +6277,7 @@
       },
       "s3": {
         "name": "Julgamento do Sol",
-        "description": "Assume posição, foca para recuperar PV de aliados próximos (exceto do utilizador) por 8 vezes num total de {0} e aumenta suas DEF F. em {1} por 4 seg. Também inflige um total de {2} de DAN M. por 8 vezes em inimigos dentro de alcance, além de reduzir suas DEF F. em {3} por 5 seg. Terminada a utilização, recupera PV de aliados dentro de alcance (exceto do utilizador) em {5}. Também inflige {5} de DAN M. em inimigos e os derruba por 3 seg.",
+        "description": "Assume posição, foca para recuperar PV de aliados próximos (exceto do utilizador) por 8 vezes num total de {0} e aumenta suas DEF F. em {1} por 5 seg. Também inflige um total de {2} de DAN M. por 8 vezes em inimigos dentro de alcance, além de reduzir suas DEF F. em {3} por 5 seg. Terminada a utilização, recupera PV de aliados dentro de alcance (exceto do utilizador) em {4}. Também inflige {5} de DAN M. em inimigos e os derruba por 3 seg.",
         "books": {
           "0": "DAN e Recuperação aumentam em {0}%.",
           "1": "DAN e Recuperação aumentam em {0}%.",
@@ -6300,7 +6300,7 @@
       },
       "s4": {
         "name": "Maldição do Sol",
-        "description": "Ao atacar o alvo, coloca os inimigos em estado de Maldição do Sol por 00 seg. Inimigos com 10 Maldições do Sol acumuladas irão consumi-las e receberão {1} de DAN M., além de serem cegados por {1} seg. e de terem seu ATQ reduzido em {2}% por 10 seg.",
+        "description": "Ao atacar o alvo, coloca os inimigos em estado de Maldição do Sol por 10 seg. Inimigos com 10 Maldições do Sol acumuladas irão consumi-las e receberão {0} de DAN M., além de serem cegados por {1} seg. e de terem seu ATQ reduzido em {2}% por 10 seg.",
         "books": {
           "0": "DAN aumenta em {0}%.",
           "1": "DAN aumenta em {0}%.",
@@ -6494,7 +6494,7 @@
       },
       "s2": {
         "name": "Maldição do Tempo",
-        "description": "Ataca um inimigo e causa {0} de DAN M., além de infligir Maldição do Tempo por {1} segundos, aumentando todas as recargas de habilidade em {2} segundos. Todas as recargas de habilidade do inimigo sob a Maldição do Tempo aumentam em {3} segundos a cada {4} segundos.",
+        "description": "Ataca um inimigo e causa {0} de DAN M., além de infligir Maldição do Tempo por {1} segundos, aumentando todas as recargas de habilidade em {2} segundos. Todas as recargas de habilidade do inimigo sob a Maldição do Tempo aumentam em {4} segundos a cada {3} segundos.",
         "books": {
           "0": "DAN aumenta em {0}%.",
           "1": "DAN aumenta em {0}%.",
@@ -6974,7 +6974,7 @@
       },
       "s2": {
         "name": "O poder do Relâmpago!",
-        "description": "Durante 05 segundos, o ATQ aumenta em {1} e toda a DEF aumenta em {1}. Enquanto o poder estiver em uso, cada ataque automático tem 20% de chance de causar {3} de DAN.M extra para 2 inimigos aleatórios e os atordoa por 0,5 segundos.",
+        "description": "Durante 15 segundos, o ATQ aumenta em {0} e toda a DEF aumenta em {1}. Enquanto o poder estiver em uso, cada ataque automático tem 30% de chance de causar {2} de DAN.M extra para 2 inimigos aleatórios e os atordoa por 0,5 segundos.",
         "books": {
           "0": "Reforços de ATQ e DEF aumentam em {0}%.",
           "1": "Reforços de ATQ e DEF aumentam em {0}%.",
@@ -7020,7 +7020,7 @@
       },
       "s4": {
         "name": "Choque",
-        "description": "A cada ataque, injeta Eletricidade aos alvos que não estiverem em Choque e aumenta DAN.M recebido em {0}% por 10 segundos. Eletricidade pode ser acumulada até 20 vezes, e o 30° acúmulo consumirá toda a Eletricidade para causar {1} de DAN.M e Choque ao alvo por 7 segundos. Inimigos atingidos por Choque recebem {3}% de DAN.M aumentado, e quando eles estiverem sob o efeito de Atordoamento, a duração aumenta em {3} segundos.",
+        "description": "A cada ataque, injeta Eletricidade aos alvos que não estiverem em Choque e aumenta DAN.M recebido em {0}% por 10 segundos. Eletricidade pode ser acumulada até 30 vezes, e o 30° acúmulo consumirá toda a Eletricidade para causar {1} de DAN.M e Choque ao alvo por 7 segundos. Inimigos atingidos por Choque recebem {3}% de DAN.M aumentado, e quando eles estiverem sob o efeito de Atordoamento, a duração aumenta em {2} segundos.",
         "books": {
           "0": "DAN aumenta em {0}%.",
           "1": "DAN aumenta em {0}%.",
@@ -7214,7 +7214,7 @@
       },
       "s2": {
         "name": "Conter e Proteger",
-        "description": "Causa {0} de DAN.M ao alvo e outros inimigos na área, e os atordoa por 1 segundos. Em seguida, desloca-se até o aliado com a menor DEF.F, além de você, e cria um escudo para os dois que pode bloquear {2} de DAN por segundos. O escudo não terá eficiência se não houver algum aliado por perto. Ganha imunidade a CM durante o efeito do escudo.",
+        "description": "Causa {0} de DAN.M ao alvo e outros inimigos na área, e os atordoa por 2 segundos. Em seguida, desloca-se até o aliado com a menor DEF.F, além de você, e cria um escudo para os dois que pode bloquear {1} de DAN por segundos. O escudo não terá eficiência se não houver algum aliado por perto. Ganha imunidade a CM durante o efeito do escudo.",
         "books": {
           "0": "DAN e Escudo aumentados em {0}%.",
           "1": "DAN e Escudo aumentados em {0}%.",
@@ -7323,7 +7323,7 @@
       },
       "s1": {
         "name": "Melodia da Natureza Verde",
-        "description": "Cura um total de {0} de PV para todos os aliados por 8 vezes, e os aliados levam DAN reduzido em {1}% por 8 segundos. Se usada enquanto o Transe estiver acumulado 2 vezes, a Taxa de Cura dessa habilidade aumentará em 100% e alterará o Efeito de Redução de DAN para {3}%.",
+        "description": "Cura um total de {0} de PV para todos os aliados por 8 vezes, e os aliados levam DAN reduzido em {1}% por 8 segundos. Se usada enquanto o Transe estiver acumulado 3 vezes, a Taxa de Cura dessa habilidade aumentará em 100% e alterará o Efeito de Redução de DAN para {2}%.",
         "books": {
           "0": "Aumenta a taxa de Recuperação em {0}%.",
           "1": "Aumenta a taxa de Recuperação em {0}%.",
@@ -7380,7 +7380,7 @@
       },
       "s4": {
         "name": "Transe",
-        "description": "No final do poder, terá mais 0 acúmulo de Transe. Transe pode ser acumulado até no máximo 3 vezes, e se o poder for usado quando Transe acumular até 3 vezes, consome o acúmulo para curar {1} de PV de todos os aliados. Transe não pode ser removido.",
+        "description": "No final do poder, terá mais 1 acúmulo de Transe. Transe pode ser acumulado até no máximo 3 vezes, e se o poder for usado quando Transe acumular até 3 vezes, consome o acúmulo para curar {0} de PV de todos os aliados. Transe não pode ser removido.",
         "books": {
           "0": "Aumenta a taxa de Recuperação em {0}%.",
           "1": "Aumenta a taxa de Recuperação em {0}%.",
@@ -7597,7 +7597,7 @@
       },
       "s3": {
         "name": "Combustão, Lança da Fúria",
-        "description": "Realiza uma Investida contra um inimigo, causando {0} de DAN F. e derrubando-o, e explode o chão ao redor de si para atacar 3 vezes, causando um total de {1} de DAN F. e infligindo Atordoar por {2} segundos. Recupera PV equivalente a {4}% do DAN.",
+        "description": "Realiza uma Investida contra um inimigo, causando {0} de DAN F. e derrubando-o, e explode o chão ao redor de si para atacar 4 vezes, causando um total de {1} de DAN F. e infligindo Atordoar por {2} segundos. Recupera PV equivalente a {3}% do DAN.",
         "books": {
           "0": "DAN aumenta em {0}%.",
           "1": "DAN aumenta em {0}%.",
@@ -7814,7 +7814,7 @@
       },
       "s2": {
         "name": "Advento do Deus da Guerra",
-        "description": "Dissipa todos os efeitos nocivos de si mesmo e causa {0} de DAN.F a inimigos próximos em um raio pequeno, ganhando o Status 'Deus da Guerra' por 10 segundos. Enquanto estiver no modo Deus da Guerra, o ATQ é reforçado em {1} e todos os ataques automáticos têm uma chance de 20% para consumir 5% de mana para causar um ataque extra de {3} de DAN.F extra. Após receber DAN.M, esquiva-se de todo o DAN.M por 1 segundo. O efeito de Esquiva é ativado apenas 1 vez a cada 2 segundos.",
+        "description": "Dissipa todos os efeitos nocivos de si mesmo e causa {0} de DAN.F a inimigos próximos em um raio pequeno, ganhando o Status 'Deus da Guerra' por 10 segundos. Enquanto estiver no modo Deus da Guerra, o ATQ é reforçado em {1} e todos os ataques automáticos têm uma chance de 30% para consumir 5% de mana para causar um ataque extra de {2} de DAN.F extra. Após receber DAN.M, esquiva-se de todo o DAN.M por 1 segundo. O efeito de Esquiva é ativado apenas 1 vez a cada 2 segundos.",
         "books": {
           "0": "Reforços de ATQ e DAN aumentam em {0}%.",
           "1": "Reforços de ATQ e DAN aumentam em {0}%.",
@@ -8054,7 +8054,7 @@
       },
       "s2": {
         "name": "Credo Envolvente",
-        "description": "Remove efeitos negativos de todos os aliados. Lança um escudo sobre todos os aliados que absorve {0} de DAN por {1} segundo(s) e reduz todo o DAN recebido por aliados em {2}% por {3} segundo(s). Enquanto dura, o escudo concede imunidade a CM.",
+        "description": "Remove efeitos negativos de todos os aliados. Lança um escudo sobre todos os aliados que absorve {1} de DAN por {0} segundo(s) e reduz todo o DAN recebido por aliados em {3}% por {2} segundo(s). Enquanto dura, o escudo concede imunidade a CM.",
         "books": {
           "0": "Aumenta os PV do Escudo em {0}%.",
           "1": "Aumenta os PV do Escudo em {0}%.",
@@ -8077,7 +8077,7 @@
       },
       "s3": {
         "name": "Credo do Cavaleiro",
-        "description": "Atinge inimigos em frente dentro de alcance 2 vezes. Os primeiros 1 acertos causam {0} de DAN F. e atordoam inimigos por {2} segundo(s), enquanto o último acerto ataca inimigos 2 vezes dentro de um alcance maior, causando {3} de DAN F. no total. O último acerto atordoa inimigos por 4 segundos e deixa a [Marca do Credo] nos inimigos, causando-lhes dano por {3} segundo(s). Os alvos com a [Marca do Credo] recebem {5} de DAN F. extra de aliados, exceto o usuário. O efeito de DAN extra é ativado apenas uma vez a cada {5} segundo(s).",
+        "description": "Atinge inimigos em frente dentro de alcance 3 vezes. Os primeiros 2 acertos causam {0} de DAN F. e atordoam inimigos por {1} segundo(s), enquanto o último acerto ataca inimigos 2 vezes dentro de um alcance maior, causando {2} de DAN F. no total. O último acerto atordoa inimigos por 5 segundos e deixa a [Marca do Credo] nos inimigos, causando-lhes dano por {3} segundo(s). Os alvos com a [Marca do Credo] recebem {4} de DAN F. extra de aliados, exceto o usuário. O efeito de DAN extra é ativado apenas uma vez a cada {5} segundo(s).",
         "books": {
           "0": "DAN aumenta em {0}%.",
           "1": "DAN aumenta em {0}%.",

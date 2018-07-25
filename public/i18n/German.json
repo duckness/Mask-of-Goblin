@@ -637,7 +637,7 @@
       },
       "s3": {
         "name": "Göttlicher Wille",
-        "description": "Verursacht {0} P. Schaden an umstehenden Gegnern und betäubt sie für 2 Sek. Für {1} Sek.,sind außerdem ANG um {3} und Ausweichrate {3} erhöht, während Effektimmunität eintritt. Effekt kann nicht aufgehoben werden.",
+        "description": "Verursacht {0} P. Schaden an umstehenden Gegnern und betäubt sie für 3 Sek. Für {1} Sek.,sind außerdem ANG um {2} und Ausweichrate {3} erhöht, während Effektimmunität eintritt. Effekt kann nicht aufgehoben werden.",
         "books": {
           "0": "Angriffs-Steigungsrate steigt um {0}%.",
           "1": "Angriffs-Steigungsrate steigt um {0}%.",
@@ -780,7 +780,7 @@
       },
       "s4": {
         "name": "Anmut der Göttin",
-        "description": "Erhöht M.VERT eines Helden um {0} für {1} Sek.",
+        "description": "Erhöht M.VERT eines Helden um {1} für {0} Sek.",
         "books": {
           "0": "M.VERT Erhöhungsrate steigt um {0}%.",
           "1": "M.VERT Erhöhungsrate steigt um {0}%.",
@@ -854,7 +854,7 @@
       },
       "s2": {
         "name": "Feuerball",
-        "description": "Fügt Feinden {0} M.Schaden zu und betäubt sie für 1 Sek. Für jede Glut steigt der Schaden um {2}%.",
+        "description": "Fügt Feinden {0} M.Schaden zu und betäubt sie für 2 Sek. Für jede Glut steigt der Schaden um {1}%.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -1094,7 +1094,7 @@
       },
       "s2": {
         "name": "Kriegsschrei",
-        "description": "Erhöht Angriffswert aller Verb. um {0} für {1} Sek. Bei Wirkung werden alle Debuff vom Helden entfernt.",
+        "description": "Erhöht Angriffswert aller Verb. um {1} für {0} Sek. Bei Wirkung werden alle Debuff vom Helden entfernt.",
         "books": {
           "0": "Angriffs-Steigungsrate steigt um {0}%.",
           "1": "Angriffs-Steigungsrate steigt um {0}%.",
@@ -1140,7 +1140,7 @@
       },
       "s4": {
         "name": "Zorn",
-        "description": "Mit jedem Angriff steigt der Angriffswert um {0} für {1} Sek. Dieser Effekt kann bis zu 10mal gestapelt werden.",
+        "description": "Mit jedem Angriff steigt der Angriffswert um {1} für {0} Sek. Dieser Effekt kann bis zu 10mal gestapelt werden.",
         "books": {
           "0": "Angriffs-Steigungsrate steigt um {0}%.",
           "1": "Angriffs-Steigungsrate steigt um {0}%.",
@@ -1207,14 +1207,14 @@
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
-          "2": "Verringert K.VERT um {0}% getroffener Feinde für {1} Sek."
+          "2": "Verringert K.VERT um {1}% getroffener Feinde für {0} Sek."
         },
         "light": "Reduziert Manakosten um 1.",
         "dark": "Reduziert Cooldown um 10% für jeden Treffer."
       },
       "s2": {
         "name": "Kopfnuß",
-        "description": "Prescht zum Feind vor und verursacht {0} K.Schaden. Reduziert Angriffsgeschw. getroffener Feinde um {1}% für {2} Sek.",
+        "description": "Prescht zum Feind vor und verursacht {0} K.Schaden. Reduziert Angriffsgeschw. getroffener Feinde um {2}% für {1} Sek.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -1237,7 +1237,7 @@
       },
       "s3": {
         "name": "Eins mit der Erde",
-        "description": "Erhöht VERT um {0} für {1} Sek und verleiht Effekt-Immunität bei Aktivierung. Heilt zusätzlich {2}% TP.",
+        "description": "Erhöht VERT um {1} für {0} Sek und verleiht Effekt-Immunität bei Aktivierung. Heilt zusätzlich {2}% TP.",
         "books": {
           "0": "K.VERT-Erhöhungsrate steigt um {0}%.",
           "1": "K.VERT-Erhöhungsrate steigt um {0}%.",
@@ -1260,7 +1260,7 @@
       },
       "s4": {
         "name": "Rüstung zerreißen",
-        "description": "Verringert beim Angriff die K.VERT des Feindes um {0} für {1} Sek. Kann bis zu 5mal gestapelt werden.",
+        "description": "Verringert beim Angriff die K.VERT des Feindes um {1} für {0} Sek. Kann bis zu 5mal gestapelt werden.",
         "books": {
           "0": "K.VERT Reduzierung erhöht um {0}%.",
           "1": "K.VERT Reduzierung erhöht um {0}%.",
@@ -1454,7 +1454,7 @@
       },
       "s2": {
         "name": "Heilender Regen",
-        "description": "Heilt {0} TP für alle Verbündete für {1} Sek.",
+        "description": "Heilt {1} TP für alle Verbündete für {0} Sek.",
         "books": {
           "0": "Erhöht Erholung um {0}%.",
           "1": "Erhöht Erholung um {0}%.",
@@ -1477,7 +1477,7 @@
       },
       "s3": {
         "name": "Flinker Wind",
-        "description": "Erhöht für alle Verbündete ANG um {0}% und Angriffsgeschw. um {2}% für {1} Sek.",
+        "description": "Erhöht für alle Verbündete ANG um {1}% und Angriffsgeschw. um {2}% für {0} Sek.",
         "books": {
           "0": "ANG-Erhöhungsrate steigt um {0}%.",
           "1": "ANG-Erhöhungsrate steigt um {0}%.",
@@ -1620,7 +1620,7 @@
       },
       "s4": {
         "name": "Ernte",
-        "description": "For each kill, increase M.ATK by {0} for {1} Sek.",
+        "description": "For each kill, increase M.ATK by {1} for {0} Sek.",
         "books": {
           "0": "ANG-Erhöhungsrate steigt um {0}%.",
           "1": "ANG-Erhöhungsrate steigt um {0}%.",
@@ -1683,7 +1683,7 @@
       },
       "s1": {
         "name": "Pfeilregen",
-        "description": "Schießt 02 Pfeile zufällig auf Feinde und verusacht {1} K.Schaden.",
+        "description": "Schießt 12 Pfeile zufällig auf Feinde und verusacht {0} K.Schaden.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -1803,7 +1803,7 @@
       },
       "s1": {
         "name": "Rabensturm",
-        "description": "Fügt Feinden in Reichw. {0} M.Schaden zu, wirft sie zu Boden und verringert ihre M.VERT um {1}% für {2} Sek.",
+        "description": "Fügt Feinden in Reichw. {0} M.Schaden zu, wirft sie zu Boden und verringert ihre M.VERT um {2}% für {1} Sek.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -1814,7 +1814,7 @@
       },
       "s2": {
         "name": "Klaue der Fesselung",
-        "description": "Fügt 1 Feinden {0} M.Schaden zu und fesselt sie für {2} Sek.",
+        "description": "Fügt 2 Feinden {0} M.Schaden zu und fesselt sie für {1} Sek.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -1934,7 +1934,7 @@
       },
       "s2": {
         "name": "Roll Roll~",
-        "description": "Verursacht Feinden in Reichw. 2mal {0} K.Schaden. Jeder Angriff hat eine {1}% Chance, den Feind für {3} Sek zurückzuwerfen.",
+        "description": "Verursacht Feinden in Reichw. 3mal {0} K.Schaden. Jeder Angriff hat eine {1}% Chance, den Feind für {2} Sek zurückzuwerfen.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -2100,7 +2100,7 @@
       },
       "s4": {
         "name": "Klingenblatt",
-        "description": "Bei einem normalen Angriff wird ein zufälliger Feind 3-mal angegriffen. Dabei besteht eine Chance von 30 %, {0} M.Schaden und 10 Sekunden lang 1 Giftzähler zuzufügen. Gift verursacht insgesamt {2} M.Schaden über 20 Sekunden.",
+        "description": "Bei einem normalen Angriff wird ein zufälliger Feind 3-mal angegriffen. Dabei besteht eine Chance von 30 %, {0} M.Schaden und 20 Sekunden lang 1 Giftzähler zuzufügen. Gift verursacht insgesamt {1} M.Schaden über 20 Sekunden.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -2197,7 +2197,7 @@
       },
       "s3": {
         "name": "Wächterschild",
-        "description": "Erhöht die K.VERT von Verbündeten um {0} für {1} Sek.",
+        "description": "Erhöht die K.VERT von Verbündeten um {1} für {0} Sek.",
         "books": {
           "0": "K.VERT-Erhöhugsrate erhöht sich um {0}%.",
           "1": "K.VERT-Erhöhugsrate erhöht sich um {0}%.",
@@ -2220,7 +2220,7 @@
       },
       "s4": {
         "name": "Eid der Ritter",
-        "description": "Verursacht {0} K.Schaden zur Front nach einem Block, und verringert die ANG getroffener Feinde um {1}% für {2} Sek.",
+        "description": "Verursacht {0} K.Schaden zur Front nach einem Block, und verringert die ANG getroffener Feinde um {2}% für {1} Sek.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -2283,7 +2283,7 @@
       },
       "s1": {
         "name": "Seelenheilung",
-        "description": "Heilt die 4 Verbündeten mit den wenigsten TP für {0}% der Max TP und heilt weitere {2} TP über {1} Sek. Effekt kann nicht aufgehoben werden.",
+        "description": "Heilt die 4 Verbündeten mit den wenigsten TP für {2}% der Max TP und heilt weitere {1} TP über {0} Sek. Effekt kann nicht aufgehoben werden.",
         "books": {
           "0": "Erhöht Erholung um {0}%.",
           "1": "Erhöht Erholung um {0}%.",
@@ -2294,11 +2294,11 @@
       },
       "s2": {
         "name": "Errettung",
-        "description": "Entfernt Debuffs von allen Verbündeten und erhöht die M.VERT um {0} für {1} Sek.",
+        "description": "Entfernt Debuffs von allen Verbündeten und erhöht die M.VERT um {1} für {0} Sek.",
         "books": {
           "0": "Erhöht M.VERT-Erhöhungsrate um {0}%.",
           "1": "Erhöht M.VERT-Erhöhungsrate um {0}%.",
-          "2": "Erhöht Debuff-Widerstand um {0} für {1} Sek."
+          "2": "Erhöht Debuff-Widerstand um {1} für {0} Sek."
         },
         "light": "Reduziert Manakosten um 1.",
         "dark": "Erhöht eigene M.VERT um 10% der M.VERT.",
@@ -2340,7 +2340,7 @@
       },
       "s4": {
         "name": "Spirituelle Anpassung",
-        "description": "Alle 7 Sek erhält der Held mit der niedrigsten TP 0 MP und {1} TP.",
+        "description": "Alle 7 Sek erhält der Held mit der niedrigsten TP 1 MP und {0} TP.",
         "books": {
           "0": "Erhöht Erholung um {0}%.",
           "1": "Erhöht Erholung um {0}%.",
@@ -2534,7 +2534,7 @@
       },
       "s2": {
         "name": "Klingenspitze",
-        "description": "Erhöht ANG um {0} für {1} Sek und erhöht krit. Trefferchance um {2}%.",
+        "description": "Erhöht ANG um {1} für {0} Sek und erhöht krit. Trefferchance um {2}%.",
         "books": {
           "0": "Erhöht ANG-Erhöhungsrate um {0}%.",
           "1": "Erhöht ANG-Erhöhungsrate um {0}%.",
@@ -2580,7 +2580,7 @@
       },
       "s4": {
         "name": "Glückskind",
-        "description": "Nach einem krit. Treffer erhöht sich ANG um {0} für {1} Sek. Kann bis zu max. 5 mal gestapelt werden.",
+        "description": "Nach einem krit. Treffer erhöht sich ANG um {1} für {0} Sek. Kann bis zu max. 5 mal gestapelt werden.",
         "books": {
           "0": "Erhöht ANG-Erhöhungsrate um {0}%.",
           "1": "Erhöht ANG-Erhöhungsrate um {0}%.",
@@ -2774,7 +2774,7 @@
       },
       "s2": {
         "name": "Siegeswille",
-        "description": "Wird Schaden innerhalb von {0} Sek geblockt, wird eine Schockwelle ausgelöst, die Feinden in der Umgebung {0} K.Schaden zufügt und ihre ANG um {1}% verringert.",
+        "description": "Wird Schaden innerhalb von {0} Sek geblockt, wird eine Schockwelle ausgelöst, die Feinden in der Umgebung {1} K.Schaden zufügt und ihre ANG um {0}% verringert.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -2883,7 +2883,7 @@
       },
       "s1": {
         "name": "Wilder Wind",
-        "description": "Rast 1 mal auf Feinde in Reichweite zu und verusacht {0} K.Schaden. Feinde werden {2} Sek umgeworfen.",
+        "description": "Rast 2 mal auf Feinde in Reichweite zu und verusacht {0} K.Schaden. Feinde werden {1} Sek umgeworfen.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -2894,7 +2894,7 @@
       },
       "s2": {
         "name": "Wind lesen",
-        "description": "Erhöht K. Ausw. Chance um {0}% für {1} Sek und ANG um {2}.",
+        "description": "Erhöht K. Ausw. Chance um {1}% für {0} Sek und ANG um {2}.",
         "books": {
           "0": "Erhöht ANG-Erhöhungsrate um {0}%.",
           "1": "Erhöht ANG-Erhöhungsrate um {0}%.",
@@ -3037,7 +3037,7 @@
       },
       "s3": {
         "name": "Fokus-Feuer",
-        "description": "Feuert 00 mal zufällig auf Feinde. Verursacht {1} K.Schaden und erhöht Schaden um {1}% für jeden weiteren Angriff.",
+        "description": "Feuert 10 mal zufällig auf Feinde. Verursacht {0} K.Schaden und erhöht Schaden um {1}% für jeden weiteren Angriff.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -3060,7 +3060,7 @@
       },
       "s4": {
         "name": "Schnellfeuer",
-        "description": "Greift alle 00 Sek mit 2 aufeinanderfolgenden Attacken an und verursacht {1} K.Schaden.",
+        "description": "Greift alle 10 Sek mit 2 aufeinanderfolgenden Attacken an und verursacht {0} K.Schaden.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -3123,7 +3123,7 @@
       },
       "s1": {
         "name": "Wütende Kraft",
-        "description": "Fügt Feinden in Reichw. {0} M.Schaden zu und wirft sie zu Boden. Legt ihnen zusätzlich 2 Flammen auf. Für {1} Sek verursacht jeder normale Angriff {3} M.Schaden und legt dem Feind 1 Flamme auf. Jede Flamme erhöht den Schaden um {3}%. Jede Flamme verursacht Schaden und verringert Heilung um 1%.",
+        "description": "Fügt Feinden in Reichw. {0} M.Schaden zu und wirft sie zu Boden. Legt ihnen zusätzlich 3 Flammen auf. Für {1} Sek verursacht jeder normale Angriff {2} M.Schaden und legt dem Feind 1 Flamme auf. Jede Flamme erhöht den Schaden um {3}%. Jede Flamme verursacht Schaden und verringert Heilung um 1%.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -3134,7 +3134,7 @@
       },
       "s2": {
         "name": "Höllenfeuer",
-        "description": "Erhöht M.VERT aller Verbündeten um {0} für {1} Sek. und M.Block Chance um {2}. Legt Feinden in d. Umgebung zusätzlich 1 Flamme alle {3} Sek auf.",
+        "description": "Erhöht M.VERT aller Verbündeten um {1} für {0} Sek. und M.Block Chance um {2}. Legt Feinden in d. Umgebung zusätzlich 1 Flamme alle {3} Sek auf.",
         "books": {
           "0": "Erhöht M.VERT Erhöhungsrate um {0}%.",
           "1": "Erhöht M.VERT Erhöhungsrate um {0}%.",
@@ -3300,7 +3300,7 @@
       },
       "s4": {
         "name": "Gottes Training",
-        "description": "10% Chance, mit einem Angriff {0} M.Schaden zuzufügen und den Feind {2} Sek lang zu betäuben.",
+        "description": "20% Chance, mit einem Angriff {0} M.Schaden zuzufügen und den Feind {1} Sek lang zu betäuben.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -3420,7 +3420,7 @@
       },
       "s4": {
         "name": "Ruhe in Frieden",
-        "description": "Erleidet Jane tödlichen Schaden, geht sie in ihren Sarg und erholt sich um {0} TP über {1} Sek. Jane ist immun gegen jeglichen Schaden, während sie im Sarg ist.",
+        "description": "Erleidet Jane tödlichen Schaden, geht sie in ihren Sarg und erholt sich um {1} TP über {0} Sek. Jane ist immun gegen jeglichen Schaden, während sie im Sarg ist.",
         "books": {
           "0": "Erhöht Erholung um {0}%.",
           "1": "Erhöht Erholung um {0}%.",
@@ -3660,7 +3660,7 @@
       },
       "s4": {
         "name": "Rune des Schutzes",
-        "description": "Prägt den Verbündeten mit der niedrigsten TP alle {0} Sek mit einer Rune und heilt {1} TP über {2} Sek.",
+        "description": "Prägt den Verbündeten mit der niedrigsten TP alle {0} Sek mit einer Rune und heilt {2} TP über {1} Sek.",
         "books": {
           "0": "Erhöht Heilung um {0}%.",
           "1": "Erhöht Heilung um {0}%.",
@@ -3734,7 +3734,7 @@
       },
       "s2": {
         "name": "Blitzschritt",
-        "description": "Bewegt sich zum Feind mit der höchsten ANG und bringt ihn 1 Sek. lang zum Schweigen. Verringert erlittenen M. Schaden für {0} Sek. lang um {2}. Markiert den Gegner für {2} Sek. und priorisiert ihn dadurch für eigene Angriffe. Angriffe an markierten Gegnern verursachen {3} zusätzlichen K. Schaden.",
+        "description": "Bewegt sich zum Feind mit der höchsten ANG und bringt ihn 2 Sek. lang zum Schweigen. Verringert erlittenen M. Schaden für {0} Sek. lang um {1}. Markiert den Gegner für {2} Sek. und priorisiert ihn dadurch für eigene Angriffe. Angriffe an markierten Gegnern verursachen {3} zusätzlichen K. Schaden.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -3780,7 +3780,7 @@
       },
       "s4": {
         "name": "Zauber trennen",
-        "description": "Alle {0} Sek, wenn Fluss M.Schaden erleidet, fügt er dem Angreifer {1} K.Schaden zu und erhöht Flusses M. Ausweichchance um {2}% für {3} Sek.",
+        "description": "Alle {0} Sek, wenn Fluss M.Schaden erleidet, fügt er dem Angreifer {1} K.Schaden zu und erhöht Flusses M. Ausweichchance um {3}% für {2} Sek.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -3877,7 +3877,7 @@
       },
       "s3": {
         "name": "Funkel Funkel",
-        "description": "Fügt Feinden in Reichw. {0} M.Schaden zu und reduziert ihre krit. Trefferchance um {1}% für {2} Sek.",
+        "description": "Fügt Feinden in Reichw. {0} M.Schaden zu und reduziert ihre krit. Trefferchance um {2}% für {1} Sek.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -3900,7 +3900,7 @@
       },
       "s4": {
         "name": "Hab dich!",
-        "description": "Fügt alle {0} Sek dem am weitesten entfernten Feind {1} M.Schaden für {2} Sek zu. Je weiter der Feind entfernt ist, desto höher der verusachte Schaden.",
+        "description": "Fügt alle {0} Sek dem am weitesten entfernten Feind {2} M.Schaden für {1} Sek zu. Je weiter der Feind entfernt ist, desto höher der verusachte Schaden.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -3974,7 +3974,7 @@
       },
       "s2": {
         "name": "Schildblase",
-        "description": "Beschützt den Verbündeten mit der niedrigsten TP mit einem Schild, das 05 Sek lang bis zu {1} Schaden absorbiert und dem Ziel für die Wirkungsdauer Effektimmunität gewährt. Ziel erholt sich um {1} TP jede Sek, während das Schild aktiv ist.",
+        "description": "Beschützt den Verbündeten mit der niedrigsten TP mit einem Schild, das 15 Sek lang bis zu {0} Schaden absorbiert und dem Ziel für die Wirkungsdauer Effektimmunität gewährt. Ziel erholt sich um {1} TP jede Sek, während das Schild aktiv ist.",
         "books": {
           "0": "Erhöht Schild-TP um {0}%.",
           "1": "Erhöht Schild-TP um {0}%.",
@@ -3997,7 +3997,7 @@
       },
       "s3": {
         "name": "Fest des Wassers",
-        "description": "Fügt allein Feinden in Reichw. {0} M.Schaden zu und wirft sie zu Boden. Alle Verb. (außer beschwörender Held) erhalten 1 Mana. Anschließend werden zufällige Feinde {2} Sek lang von Strudeln getroffen, erleiden {2} M.Schaden und werden für 2 Sek zu Boden geworfen.",
+        "description": "Fügt allein Feinden in Reichw. {0} M.Schaden zu und wirft sie zu Boden. Alle Verb. (außer beschwörender Held) erhalten 2 Mana. Anschließend werden zufällige Feinde {1} Sek lang von Strudeln getroffen, erleiden {2} M.Schaden und werden für 2 Sek zu Boden geworfen.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -4140,7 +4140,7 @@
       },
       "s4": {
         "name": "Das jüngste Gericht",
-        "description": "Verursacht alle 05 Sek. {1} M. Schaden an Feinden mit Urteilssiegel und ignoriert VERT. Verursacht bei todesnahem Status ein Mal pro Kampf {1} M. Schaden an Feinden mit Urteilssiegel und betäubt sie für 2 Sek. Beschwört zeitgleich einen Schild, der für 5 Sek. {3} des Schadens an Verbündeten blockt. Effekt-Resistenz bei bestehendem Schild. Verbraucht alles Mana und alle Skill-Cooldowns sind um 50% erhöht, wenn der Schildeffekt wirkt.",
+        "description": "Verursacht alle 15 Sek. {0} M. Schaden an Feinden mit Urteilssiegel und ignoriert VERT. Verursacht bei todesnahem Status ein Mal pro Kampf {1} M. Schaden an Feinden mit Urteilssiegel und betäubt sie für 3 Sek. Beschwört zeitgleich einen Schild, der für 5 Sek. {2} des Schadens an Verbündeten blockt. Effekt-Resistenz bei bestehendem Schild. Verbraucht alles Mana und alle Skill-Cooldowns sind um 50% erhöht, wenn der Schildeffekt wirkt.",
         "books": {
           "0": "Erhöht Schaden und Schild-TP um {0}%.",
           "1": "Erhöht Schaden und Schild-TP um {0}%.",
@@ -4260,7 +4260,7 @@
       },
       "s4": {
         "name": "Blut-Beherrschung",
-        "description": "ANG wird um {0} bzw. VERT-Durchdr. um 150 erhöht, wenn die TP über 50% liegen. Verursacht beim Angriff Blutfluch auf dem Ziel, fügt über 20 Sek. lang insgesamt {2} M. Schaden hinzu und gibt 10 % des durch Blutfluch verursachten Schadens als TP zurück. Blutfluch kann sich bis zu 100 Mal kumulieren und nicht abgewehrt werden.",
+        "description": "ANG wird um {0} bzw. VERT-Durchdr. um 250 erhöht, wenn die TP über 50% liegen. Verursacht beim Angriff Blutfluch auf dem Ziel, fügt über 20 Sek. lang insgesamt {1} M. Schaden hinzu und gibt 10 % des durch Blutfluch verursachten Schadens als TP zurück. Blutfluch kann sich bis zu 100 Mal kumulieren und nicht abgewehrt werden.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -4334,7 +4334,7 @@
       },
       "s2": {
         "name": "Dimensions-Zerstücklungbeil",
-        "description": "Fügt Feinden {0} K.Schaden zu und entfernt positive Statuseffekte. Getroffene Feinde nehmen {1} K.Schaden über {2} Sek und werden für 3 Sek zu Boden geworfen. Die Anzahl der Ziele ist gleich 1 + Anz. des Klingenzählers.",
+        "description": "Fügt Feinden {0} K.Schaden zu und entfernt positive Statuseffekte. Getroffene Feinde nehmen {2} K.Schaden über {1} Sek und werden für 3 Sek zu Boden geworfen. Die Anzahl der Ziele ist gleich 1 + Anz. des Klingenzählers.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -4454,7 +4454,7 @@
       },
       "s2": {
         "name": "Notbehandlung",
-        "description": "Klärt alle neg. Effekte von Verb., heilt sie um {0} TP über 10 Sek und erhöht ihren Schwächungszauber-Widerstand um 150. Bei Überladung erhalten alle Verb. {2} Krit Chance und sind effektimmun.",
+        "description": "Klärt alle neg. Effekte von Verb., heilt sie um {0} TP über 10 Sek und erhöht ihren Schwächungszauber-Widerstand um 250. Bei Überladung erhalten alle Verb. {1} Krit Chance und sind effektimmun.",
         "books": {
           "0": "Erholung erhöht um {0}%.",
           "1": "Erholung erhöht um {0}%.",
@@ -4500,7 +4500,7 @@
       },
       "s4": {
         "name": "Aufladen",
-        "description": "Erhalte alle 0,5 Sek. 0 Ladung. Erhalte für jede benutzte Manakugel 10 Ladungen. Betrete bei 100 Ladungen den Überladung-Zustand und erhalte {1} ANG für 15 Sek, während normale Angriffe Cooldowns um 10% reduzieren. Effekte können nicht aufgehoben werden und während Überladung können keine Ladungen gesammelt werden.",
+        "description": "Erhalte alle 0,5 Sek. 1 Ladung. Erhalte für jede benutzte Manakugel 10 Ladungen. Betrete bei 100 Ladungen den Überladung-Zustand und erhalte {0} ANG für 15 Sek, während normale Angriffe Cooldowns um 10% reduzieren. Effekte können nicht aufgehoben werden und während Überladung können keine Ladungen gesammelt werden.",
         "books": {
           "0": "ANG-Erhöhungsrate um {0}% erhöht.",
           "1": "ANG-Erhöhungsrate um {0}% erhöht.",
@@ -4563,7 +4563,7 @@
       },
       "s1": {
         "name": "Peng! Peng!!",
-        "description": "Greift Feinde 1 Mal an und fügt ihnen jeweils {0} K.Schaden zu. Ist der Skill ein kritischer Treffer, verursacht er naheliegenden Feinden {2} zusätzlichen K.Schaden.",
+        "description": "Greift Feinde 2 Mal an und fügt ihnen jeweils {0} K.Schaden zu. Ist der Skill ein kritischer Treffer, verursacht er naheliegenden Feinden {1} zusätzlichen K.Schaden.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -4574,7 +4574,7 @@
       },
       "s2": {
         "name": "Zeit zum Sterben!!",
-        "description": "Erhöht 10 Sek lang eigenen ANG um {0} und PRÄZ um {2}. Normale Angriffe haben eine 15% Chance, 'Peng! Peng!!' auszulösen.",
+        "description": "Erhöht 20 Sek lang eigenen ANG um {0} und PRÄZ um {1}. Normale Angriffe haben eine 15% Chance, 'Peng! Peng!!' auszulösen.",
         "books": {
           "0": "ANG-Erhöhungsrate steigt um {0}%.",
           "1": "ANG-Erhöhungsrate steigt um {0}%.",
@@ -4597,7 +4597,7 @@
       },
       "s3": {
         "name": "Tanz mit mir!!",
-        "description": "Feuert sein Gewehr 02 Male auf zufällige Feinde und verursacht insg. {1} K.Schaden. Hinterlässt mit jedem Treffer ein Mal des Todes, das nicht entfernt werden kann. Jedes Mal des Todes erhöht 'Wildfeuer's Schaden um 1%.",
+        "description": "Feuert sein Gewehr 12 Male auf zufällige Feinde und verursacht insg. {0} K.Schaden. Hinterlässt mit jedem Treffer ein Mal des Todes, das nicht entfernt werden kann. Jedes Mal des Todes erhöht 'Wildfeuer's Schaden um 1%.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -4717,7 +4717,7 @@
       },
       "s3": {
         "name": "Göttliches Urteil",
-        "description": "Greift Feinde 3 Mal frontal an. Die ersten 1 Attacken verursachen Feinden {0} K.Schaden und betäuben sie für je 4 Sek. Die letzte Attacke hat eine 20% größere Reichw., fügt Feinden {2} K.Schaden zu und betäubt sie für 4 Sek. Jeder Angriff hat eine 50% Chance, Positiveffekte der Feinde zu entfernen.",
+        "description": "Greift Feinde 3 Mal frontal an. Die ersten 2 Attacken verursachen Feinden {0} K.Schaden und betäuben sie für je 4 Sek. Die letzte Attacke hat eine 20% größere Reichw., fügt Feinden {1} K.Schaden zu und betäubt sie für 4 Sek. Jeder Angriff hat eine 50% Chance, Positiveffekte der Feinde zu entfernen.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -4980,7 +4980,7 @@
       },
       "s4": {
         "name": "Cursed Blood",
-        "description": "Ezekiel erhält am Ende des Skills einen Zähler für 'Verfluchtes Blut'. Bei 4 Zählern wird VErfluchtes Bluut verbraucht, um alle Skill-Cooldowns zurückzusetzen und {0} M. Schaden an nahestehenden Gegner zu verursachen. Sie werden für 2 Sek. zu Boden geworfen, während für {1} Sek. Zorn aktiviert wird, der nicht entfernt werden kann. Im Zornzustand wird ein beserkerartiger Kampfmodus ausgeführt, bei dem keine Kontrolle übernommen werden kann. ANG ist hierbei um {3} erhöht, normaler Schaden ist verdoppelt und alle Skilleffekte verstärkt. VErfluchtes Blut kann im Zornzustand nicht erlangt werden, Ausnahme bietet das Töten eines Feindes.",
+        "description": "Ezekiel erhält am Ende des Skills einen Zähler für 'Verfluchtes Blut'. Bei 4 Zählern wird VErfluchtes Bluut verbraucht, um alle Skill-Cooldowns zurückzusetzen und {0} M. Schaden an nahestehenden Gegner zu verursachen. Sie werden für 3 Sek. zu Boden geworfen, während für {1} Sek. Zorn aktiviert wird, der nicht entfernt werden kann. Im Zornzustand wird ein beserkerartiger Kampfmodus ausgeführt, bei dem keine Kontrolle übernommen werden kann. ANG ist hierbei um {2} erhöht, normaler Schaden ist verdoppelt und alle Skilleffekte verstärkt. VErfluchtes Blut kann im Zornzustand nicht erlangt werden, Ausnahme bietet das Töten eines Feindes.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -5163,7 +5163,7 @@
       },
       "s1": {
         "name": "Finaler Hieb",
-        "description": "Greift den Gegner 06 Mal für insgesamt {1} M. Schaden an. Bei jedem Krit. Schlag erhöht sich der Krit. Schaden um 3% für 10 Sek. Außerdem 30- Chance {1} zusätzlichen M. Schaden zu verursachen und für 0,3 Sek. zu betäuben. Krit. Schaden kann sich bis zu 30 Mal kumulieren..",
+        "description": "Greift den Gegner 16 Mal für insgesamt {0} M. Schaden an. Bei jedem Krit. Schlag erhöht sich der Krit. Schaden um 3% für 10 Sek. Außerdem 30- Chance {1} zusätzlichen M. Schaden zu verursachen und für 0,3 Sek. zu betäuben. Krit. Schaden kann sich bis zu 30 Mal kumulieren..",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -5654,7 +5654,7 @@
       },
       "s2": {
         "name": "Zangenangriff",
-        "description": "Verbindet Priscilla und den Verb. mit der höchsten ANG 20 Sek lang in einem 'Zangen'-Zustand.Die ANG Priscillas und des Verb. steigt um 05%+ {1} für die Wirkungsdauer.",
+        "description": "Verbindet Priscilla und den Verb. mit der höchsten ANG 20 Sek lang in einem 'Zangen'-Zustand.Die ANG Priscillas und des Verb. steigt um 15%+ {0} für die Wirkungsdauer.",
         "books": {
           "0": "Erhöht ANG-Erhöhungsrate um {0}%.",
           "1": "Erhöht ANG-Erhöhungsrate um {0}%.",
@@ -5797,7 +5797,7 @@
       },
       "s3": {
         "name": "Keine Gnade!",
-        "description": "Entfernt alle negativen Effekte auf sich selbst und erhöht 20 Sek lang die eigene ANG um {0} und VERT.-Durchdringung um {1}. Während der Wirkungsdauer verbrauchen normale Angriffe 3% Mana und fügen Feinden in einer geraden Linie Schaden zu. Drachen erleiden zusätzlich {3} Schaden, der VERT ignoriert.",
+        "description": "Entfernt alle negativen Effekte auf sich selbst und erhöht 30 Sek lang die eigene ANG um {0} und VERT.-Durchdringung um {1}. Während der Wirkungsdauer verbrauchen normale Angriffe 3% Mana und fügen Feinden in einer geraden Linie Schaden zu. Drachen erleiden zusätzlich {2} Schaden, der VERT ignoriert.",
         "books": {
           "0": "Erhöht ANG um {0}%.",
           "1": "Erhöht ANG um {0}%.",
@@ -6134,7 +6134,7 @@
       },
       "s2": {
         "name": "Kreischgras-Extrakt!",
-        "description": "Greift zufällige Gegner 2 Mal an und verursacht insgesamt {0} Schaden, während sie mit Kreischgras-Extrakt für {1} Sek. vergiftet werden. Von Kreischgras-Extrakt getroffene Gegner haben um {3}% reduzierten ANG und um {3} reduzierte Krit. Chance.",
+        "description": "Greift zufällige Gegner 3 Mal an und verursacht insgesamt {0} Schaden, während sie mit Kreischgras-Extrakt für {1} Sek. vergiftet werden. Von Kreischgras-Extrakt getroffene Gegner haben um {2}% reduzierten ANG und um {3} reduzierte Krit. Chance.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -6254,7 +6254,7 @@
       },
       "s2": {
         "name": "Segen der Sonne",
-        "description": "Verleiht dem Verbündeten mit dem höchsten ANG den Segen der Sonne, wodurch der Cooldown aller Skills um 20 % reduziert und ANG 05 Sek. lang um {1} erhöht wird.",
+        "description": "Verleiht dem Verbündeten mit dem höchsten ANG den Segen der Sonne, wodurch der Cooldown aller Skills um 20 % reduziert und ANG 15 Sek. lang um {0} erhöht wird.",
         "books": {
           "0": "Erhöht ANG-Erhöhungsrate um {0}%.",
           "1": "Erhöht ANG-Erhöhungsrate um {0}%.",
@@ -6277,7 +6277,7 @@
       },
       "s3": {
         "name": "Urteil der Sonne",
-        "description": "Bezieht Position, um die TP naher Verbündeter mit Ausnahme des Beschwörers 8 Mal um insgesamt mindestens {0} aufzufüllen, und erhöht deren K.VERT 4 Sek. lang um {1}. Fügt außerdem 8 Feinden innerhalb der Reichweite insgesamt {2} M.Schaden zu und verringert ihre M.VERT 5 Sek. lang um {3}. Nach dem Ende des Beschwörens werden die TP von Verbündeten innerhalb der Reichweite mit Ausnahme des Beschwörers um {5} aufgefüllt. Fügt außerdem Feinden {5} M.Schaden zu und betäubt sie für 3 Sek.",
+        "description": "Bezieht Position, um die TP naher Verbündeter mit Ausnahme des Beschwörers 8 Mal um insgesamt mindestens {0} aufzufüllen, und erhöht deren K.VERT 5 Sek. lang um {1}. Fügt außerdem 8 Feinden innerhalb der Reichweite insgesamt {2} M.Schaden zu und verringert ihre M.VERT 5 Sek. lang um {3}. Nach dem Ende des Beschwörens werden die TP von Verbündeten innerhalb der Reichweite mit Ausnahme des Beschwörers um {4} aufgefüllt. Fügt außerdem Feinden {5} M.Schaden zu und betäubt sie für 3 Sek.",
         "books": {
           "0": "Schaden und Erholungsrate um {0}% erhöht.",
           "1": "Schaden und Erholungsrate um {0}% erhöht.",
@@ -6300,7 +6300,7 @@
       },
       "s4": {
         "name": "Fluch der Sonne",
-        "description": "Beim Angriff werden Feinde 00 Sek. lang mit dem Sonnenfluch belegt. Sobald Feinde mit 10 Sonnenflüchen belegt wurden, werden diese verbraucht und sie erleiden {1} M.Schaden, werden für {1} Sek. geblendet und ihr ANG wird 10 Sek. lang um {2} reduziert.",
+        "description": "Beim Angriff werden Feinde 10 Sek. lang mit dem Sonnenfluch belegt. Sobald Feinde mit 10 Sonnenflüchen belegt wurden, werden diese verbraucht und sie erleiden {0} M.Schaden, werden für {1} Sek. geblendet und ihr ANG wird 10 Sek. lang um {2} reduziert.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -6847,7 +6847,7 @@
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
-          "2": "Ziel nimmt 00 Sek lang {1}% erhöhten K.Schaden."
+          "2": "Ziel nimmt 10 Sek lang {0}% erhöhten K.Schaden."
         },
         "light": "Reduziert Manakosten um 1.",
         "dark": "Entfernt alle negativen Effekte bei sich selbst."
@@ -6974,7 +6974,7 @@
       },
       "s2": {
         "name": "Stromkraft!",
-        "description": "Erhöht ANG 05 Sek. lang um {1} und alle VERT um {1}. Normale Angriffe haben eine 20%-Chance {3} zusätzlichen M. Schaden an 2 zufälligen Zielen zu verursachen und sie für 0,5 Sek. zu betäuben, während dieser Skill benutzt wird.",
+        "description": "Erhöht ANG 15 Sek. lang um {0} und alle VERT um {1}. Normale Angriffe haben eine 30%-Chance {2} zusätzlichen M. Schaden an 2 zufälligen Zielen zu verursachen und sie für 0,5 Sek. zu betäuben, während dieser Skill benutzt wird.",
         "books": {
           "0": "ANG und VERT sind um {0}% erhöht.",
           "1": "ANG und VERT sind um {0}% erhöht.",
@@ -7020,7 +7020,7 @@
       },
       "s4": {
         "name": "Stromschock",
-        "description": "Injiziere nicht unter Schock stehenden Gegnern mit jedem Angriff Elektrizität und erhöhe den erlittenen M. Schaden für 00 Sek. um {1}%. Elektrizität kann bis zu 20 MAl kumuliert werden. Der 30 Zähler verbraucht alle Elektrizität, um {1} M. Schaden zu verteilen und das Ziel für 7 Sek. zu schocken. Gegner, die im Schockzustand betäubt werden, haben eine erhöhte Betäubungsdauer von {3} Sek. und erleiden {3}% mehr M. Schaden.",
+        "description": "Injiziere nicht unter Schock stehenden Gegnern mit jedem Angriff Elektrizität und erhöhe den erlittenen M. Schaden für 10 Sek. um {0}%. Elektrizität kann bis zu 30 MAl kumuliert werden. Der 30 Zähler verbraucht alle Elektrizität, um {1} M. Schaden zu verteilen und das Ziel für 7 Sek. zu schocken. Gegner, die im Schockzustand betäubt werden, haben eine erhöhte Betäubungsdauer von {2} Sek. und erleiden {3}% mehr M. Schaden.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -7323,7 +7323,7 @@
       },
       "s1": {
         "name": "Melodie der grünen Natur",
-        "description": "Heilt über 8 Runden insgesamt {0}  TP aller Verbündeten, und alle Verbündeten nehmen 8 Sekunden lang um {1}  % weniger Schaden. Wenn die Fähigkeit bei 2 Stapeln Trance benutzt wird, erhöht sich die Heilungsrate um 100 % und der Schaden-Reduktionseffekt ändert sich auf {3}  %.",
+        "description": "Heilt über 8 Runden insgesamt {0}  TP aller Verbündeten, und alle Verbündeten nehmen 8 Sekunden lang um {1}  % weniger Schaden. Wenn die Fähigkeit bei 3 Stapeln Trance benutzt wird, erhöht sich die Heilungsrate um 100 % und der Schaden-Reduktionseffekt ändert sich auf {2}  %.",
         "books": {
           "0": "Erhöht Erholungsrate um {0}%.",
           "1": "Erhöht Erholungsrate um {0}%.",
@@ -7380,7 +7380,7 @@
       },
       "s4": {
         "name": "Trance",
-        "description": "Am Ende des Skills wird 0 weitere Trance kumiliert. Trance kann maximal 3 Zähler erreichen. Wenn der Skill verwendet wird, wenn Trance 3 Zähler hat, wird der Stapel verbraucht, um {1} TP aller Verbündeten zu heilen. Trance kann nicht entfernt werden.",
+        "description": "Am Ende des Skills wird 1 weitere Trance kumiliert. Trance kann maximal 3 Zähler erreichen. Wenn der Skill verwendet wird, wenn Trance 3 Zähler hat, wird der Stapel verbraucht, um {0} TP aller Verbündeten zu heilen. Trance kann nicht entfernt werden.",
         "books": {
           "0": "Erhöht Erholungsrate um {0}%.",
           "1": "Erhöht Erholungsrate um {0}%.",
@@ -7597,7 +7597,7 @@
       },
       "s3": {
         "name": "Verbrennung, Speer der Wut",
-        "description": "Stürmt auf einen Feind zu, verursacht {0} K.Schaden und wirft ihn zu Boden. Anschließend werden in unmittelbarer Nähe 3 Explosionen ausgelöst, die insgesamt {1} K.Schaden verursachen und für {2} Sekunden betäuben. Stellt TP in Höhe von {4}  % des Schadens wieder her.",
+        "description": "Stürmt auf einen Feind zu, verursacht {0} K.Schaden und wirft ihn zu Boden. Anschließend werden in unmittelbarer Nähe 4 Explosionen ausgelöst, die insgesamt {1} K.Schaden verursachen und für {2} Sekunden betäuben. Stellt TP in Höhe von {3}  % des Schadens wieder her.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -7740,7 +7740,7 @@
       },
       "s4": {
         "name": "Nimm das!",
-        "description": "Fügt 4 zufälligen Feinden alle 05 Sek {1} M.Schaden zu und verursacht zufällig eines dieser Effekte: 1. Konstant {1} M.Schaden (10 Sek), 2. Betäubung (2 Sek), 3. Einfrieren (5 Sek).",
+        "description": "Fügt 4 zufälligen Feinden alle 15 Sek {0} M.Schaden zu und verursacht zufällig eines dieser Effekte: 1. Konstant {1} M.Schaden (10 Sek), 2. Betäubung (2 Sek), 3. Einfrieren (5 Sek).",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -7814,7 +7814,7 @@
       },
       "s2": {
         "name": "Ankunft des Kriegsgottes",
-        "description": "Entfernt alle neg. Effekte und verursacht {0} K. Schaden an Feinden im Umfeld. Verleiht 'Kriegsgott' für 10 Sek. ANG ist um {1} erhöht und Auto-Angriffe haben eine 20%-Chance, für 5% Mana einen Extra-Angriff mit {3} extra K. Schaden zu verursachen. Nach Erleiden von M. Schaden, weicht man für 1 Sek. jeglichem M. Schaden aus. Ausweichen kann nur 1 Mal alle 2 Sek. aktiviert werden.",
+        "description": "Entfernt alle neg. Effekte und verursacht {0} K. Schaden an Feinden im Umfeld. Verleiht 'Kriegsgott' für 10 Sek. ANG ist um {1} erhöht und Auto-Angriffe haben eine 30%-Chance, für 5% Mana einen Extra-Angriff mit {2} extra K. Schaden zu verursachen. Nach Erleiden von M. Schaden, weicht man für 1 Sek. jeglichem M. Schaden aus. Ausweichen kann nur 1 Mal alle 2 Sek. aktiviert werden.",
         "books": {
           "0": "ANG und Schaden werden um {0}% erhöht.",
           "1": "ANG und Schaden werden um {0}% erhöht.",
@@ -8054,7 +8054,7 @@
       },
       "s2": {
         "name": "Verschleiernder Glaube",
-        "description": "Entfernt negative Effekte von allen Verbündeten. Wirkt einen Schild auf alle Verbündeten, der {0} Schaden für {1} Sek. absorbiert, und verringert jeglichen Schaden an Verbündeten um {2}  % für {3} Sek. Der Schild gewährt während seiner Dauer Statuseffekt-Immunität.",
+        "description": "Entfernt negative Effekte von allen Verbündeten. Wirkt einen Schild auf alle Verbündeten, der {1} Schaden für {0} Sek. absorbiert, und verringert jeglichen Schaden an Verbündeten um {3}  % für {2} Sek. Der Schild gewährt während seiner Dauer Statuseffekt-Immunität.",
         "books": {
           "0": "Erhöht Schild-TP um {0}%.",
           "1": "Erhöht Schild-TP um {0}%.",
@@ -8077,7 +8077,7 @@
       },
       "s3": {
         "name": "Glaube des Ritters",
-        "description": "Trifft Frontfeinde in Reichweite 2-mal. Die ersten 1 Treffer fügen {0} K.Schaden zu und betäuben Feinde für {2} Sek., während der letzte Treffer weiter entfernte Feinde 2-mal angreift und dabei insgesamt {3} K.Schaden zufügt. Der letzte Treffer betäubt Feinde für 4 Sekunden, hinterlässt das [Mal des Glaubens] auf Feinden und fügt ihnen für {3} Sek. Schaden zu. Ziele mit dem [Mal des Glaubens] erleiden {5} zusätzlichen K.Schaden von Verbündeten (außer der Wirkende). Ein zusätzlicher Schadenseffekt wird einmal pro {5} Sek. aktiviert.",
+        "description": "Trifft Frontfeinde in Reichweite 3-mal. Die ersten 2 Treffer fügen {0} K.Schaden zu und betäuben Feinde für {1} Sek., während der letzte Treffer weiter entfernte Feinde 2-mal angreift und dabei insgesamt {2} K.Schaden zufügt. Der letzte Treffer betäubt Feinde für 5 Sekunden, hinterlässt das [Mal des Glaubens] auf Feinden und fügt ihnen für {3} Sek. Schaden zu. Ziele mit dem [Mal des Glaubens] erleiden {4} zusätzlichen K.Schaden von Verbündeten (außer der Wirkende). Ein zusätzlicher Schadenseffekt wird einmal pro {5} Sek. aktiviert.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",

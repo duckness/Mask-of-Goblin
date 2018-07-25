@@ -637,7 +637,7 @@
       },
       "s3": {
         "name": "Agente de Dios",
-        "description": "Causa {0} Daño Fis. a los enemigos cercanos y los aturde durante 2 segundos. Además, por {1}  seg, el ATQ se incrementa en {3} y la Tasa de Evasión se incrementa en {3} , mientras obtienes inmunidad al Ctrl de Masas. Este estado no se puede disipar.",
+        "description": "Causa {0} Daño Fis. a los enemigos cercanos y los aturde durante 3 segundos. Además, por {1}  seg, el ATQ se incrementa en {2} y la Tasa de Evasión se incrementa en {3} , mientras obtienes inmunidad al Ctrl de Masas. Este estado no se puede disipar.",
         "books": {
           "0": "aumenta la tasa de Ataque en {0}%.",
           "1": "aumenta la tasa de Ataque en {0}%.",
@@ -734,7 +734,7 @@
       },
       "s2": {
         "name": "Bendiciones de Luz",
-        "description": "Coloca un escudo en todos los aliados que absorba {0} Daño por {1} segundos. Mientras el escudo este activo, seras inmune al Control de Masas.",
+        "description": "Coloca un escudo en todos los aliados que absorba {1} Daño por {0} segundos. Mientras el escudo este activo, seras inmune al Control de Masas.",
         "books": {
           "0": "Aumenta el Escudo en {0}%.",
           "1": "Aumenta el Escudo en {0}%.",
@@ -780,7 +780,7 @@
       },
       "s4": {
         "name": "Gracia de Diosa",
-        "description": "Aumenta la DEF. Magica de 0 aliado en {1} por {1} segundos.",
+        "description": "Aumenta la DEF. Magica de 1 aliado en {1} por {0} segundos.",
         "books": {
           "0": "Aumenta la fuerza de DEF Mágica en {0}%.",
           "1": "Aumenta la fuerza de DEF Mágica en {0}%.",
@@ -854,7 +854,7 @@
       },
       "s2": {
         "name": "Bola de Fuego",
-        "description": "Causa {0} Daño Magico en los enemigos y aturdimiento por 1 segundos. El Daño aumenta en {2}% por cada marca de fuego.",
+        "description": "Causa {0} Daño Magico en los enemigos y aturdimiento por 2 segundos. El Daño aumenta en {1}% por cada marca de fuego.",
         "books": {
           "0": "Aumenta el Daño en {0}%.",
           "1": "Aumenta el Daño en {0}%.",
@@ -974,7 +974,7 @@
       },
       "s2": {
         "name": "Carpa de la Obscuridad",
-        "description": "ATQ aumenta en {0} por {1} seg y evita todos los ataques de Daño Fis.",
+        "description": "ATQ aumenta en {1} por {0} seg y evita todos los ataques de Daño Fis.",
         "books": {
           "0": "ATQ aumenta en {0}%.",
           "1": "ATQ aumenta en {0}%.",
@@ -1094,7 +1094,7 @@
       },
       "s2": {
         "name": "Rugido de Batalla",
-        "description": "Todos los aliados obtienen  {0}  ATQ por  {1}  seg. Tras la activación, elimine todos los efectos negativos de todos los aliados.",
+        "description": "Todos los aliados obtienen  {1}  ATQ por  {0}  seg. Tras la activación, elimine todos los efectos negativos de todos los aliados.",
         "books": {
           "0": "El Poder de Ataque aumenta en  {0}%.",
           "1": "El Poder de Ataque aumenta en  {0}%.",
@@ -1140,7 +1140,7 @@
       },
       "s4": {
         "name": "Enfurecer",
-        "description": "Al atacar a un enemigo, ATQ aumenta en  {0}  por  {1}  seg. Esto se puede acumular hasta 10 veces máx.",
+        "description": "Al atacar a un enemigo, ATQ aumenta en  {1}  por  {0}  seg. Esto se puede acumular hasta 10 veces máx.",
         "books": {
           "0": "El Poder de Ataque aumenta en  {0}%.",
           "1": "El Poder de Ataque aumenta en  {0}%.",
@@ -1207,14 +1207,14 @@
         "books": {
           "0": "Aumenta Daño en {0}%.",
           "1": "Aumenta Daño en {0}%.",
-          "2": "Disminuye  {0}% DEF Fis de enemigos dañados por  {1}  seg."
+          "2": "Disminuye  {1}% DEF Fis de enemigos dañados por  {0}  seg."
         },
         "light": "El costo de maná se reduce en 1.",
         "dark": "El tiempo de reutilización se reduce en un 10% por cada golpe enemigo."
       },
       "s2": {
         "name": "Cabezazo",
-        "description": "Golpea al enemigo e inflige  {0}  Daño Fis.. Reduce la veloc. de ataque de enemigos dañados en  {1}% por  {2}  seg.",
+        "description": "Golpea al enemigo e inflige  {0}  Daño Fis.. Reduce la veloc. de ataque de enemigos dañados en  {2}% por  {1}  seg.",
         "books": {
           "0": "Aumenta Daño en {0}%.",
           "1": "Aumenta Daño en {0}%.",
@@ -1237,7 +1237,7 @@
       },
       "s3": {
         "name": "Tierra Encarnada",
-        "description": "Tras la activación, aumenta DEF en  {0}  por  {1}  seg y obten inmunidad del estado. Además, cura la  {2}% Salud.",
+        "description": "Tras la activación, aumenta DEF en  {1}  por  {0}  seg y obten inmunidad del estado. Además, cura la  {2}% Salud.",
         "books": {
           "0": "la tasa de DEF Fis. Aumenta en {0}%.",
           "1": "la tasa de DEF Fis. Aumenta en {0}%.",
@@ -1260,7 +1260,7 @@
       },
       "s4": {
         "name": "Destruir Armadura",
-        "description": "Al atacar a un enemigo, debilita su DEF Fis en  {0}  por  {1}  seg. Se puede acumular hasta 5 veces máx.",
+        "description": "Al atacar a un enemigo, debilita su DEF Fis en  {1}  por  {0}  seg. Se puede acumular hasta 5 veces máx.",
         "books": {
           "0": "la reduccion de DEF Fis. Aumenta en {0}%.",
           "1": "la reduccion de DEF Fis. Aumenta en {0}%.",
@@ -1454,7 +1454,7 @@
       },
       "s2": {
         "name": "Lluvia Sanadora",
-        "description": "Restaura  {0}  Salud para todos los aliados por  {1}  segundos.",
+        "description": "Restaura  {1}  Salud para todos los aliados por  {0}  segundos.",
         "books": {
           "0": "Aumenta Recuperacion en {0}%.",
           "1": "Aumenta Recuperacion en {0}%.",
@@ -1620,7 +1620,7 @@
       },
       "s4": {
         "name": "Cosecha",
-        "description": "Cuando un enemigo es asesinado por este héroe, aumenta ATQ en  {0}  por  {1}  seg y reduce la reutilizacion en un 30%.",
+        "description": "Cuando un enemigo es asesinado por este héroe, aumenta ATQ en  {1}  por  {0}  seg y reduce la reutilizacion en un 30%.",
         "books": {
           "0": "ATQ aumenta en {0}%.",
           "1": "ATQ aumenta en {0}%.",
@@ -1683,7 +1683,7 @@
       },
       "s1": {
         "name": "Lluvia de Flechas",
-        "description": "Dispara 02 flechas aleatoriamente e inflige  {1}  Daño Fis. sobre el enemigo.",
+        "description": "Dispara 12 flechas aleatoriamente e inflige  {0}  Daño Fis. sobre el enemigo.",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
@@ -1803,7 +1803,7 @@
       },
       "s1": {
         "name": "Tormenta de Cuervos",
-        "description": "Causa  {0}  Daño Magico a los enemigos al alcance y derribalos. También disminuye DEF Magica en  {1}% por  {2}  seg.",
+        "description": "Causa  {0}  Daño Magico a los enemigos al alcance y derribalos. También disminuye DEF Magica en  {2}% por  {1}  seg.",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
@@ -1814,7 +1814,7 @@
       },
       "s2": {
         "name": "Garra de Esclavitud",
-        "description": "Infligir  {0}  Daño Magico hasta en 1 enemigos y encadenarlos por  {2}  seg. Los enemigos apuntados reciben un continuo Daño Magico adicional.",
+        "description": "Infligir  {0}  Daño Magico hasta en 2 enemigos y encadenarlos por  {1}  seg. Los enemigos apuntados reciben un continuo Daño Magico adicional.",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
@@ -1860,7 +1860,7 @@
       },
       "s4": {
         "name": "Viento Negro",
-        "description": "Disminuye ATQ de enemigos dañados por Maria en {0} por {1} segundos.",
+        "description": "Disminuye ATQ de enemigos dañados por Maria en {1} por {0} segundos.",
         "books": {
           "0": "ATQ disminuye en {0}%.",
           "1": "ATQ disminuye en {0}%.",
@@ -1934,7 +1934,7 @@
       },
       "s2": {
         "name": "Darse Vuelta",
-        "description": "Inflige  {0}  Daño Fis. 2 veces a los enemigos en el alcance. Cada ataque tiene una oportunidad del {1}% de derribar al enemigo durante  {3}  segundos.",
+        "description": "Inflige  {0}  Daño Fis. 3 veces a los enemigos en el alcance. Cada ataque tiene una oportunidad del {1}% de derribar al enemigo durante  {2}  segundos.",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
@@ -1957,7 +1957,7 @@
       },
       "s3": {
         "name": "Piratas de Miruru!",
-        "description": "Causa  {0}  Daño Fis. a los enemigos al alcance por {1}  segundos, disminuyendo su velocidad en  {2}%.",
+        "description": "Causa  {1}  Daño Fis. a los enemigos al alcance por {0}  segundos, disminuyendo su velocidad en  {2}%.",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
@@ -2054,7 +2054,7 @@
       },
       "s2": {
         "name": "Viña Enredada",
-        "description": "Causa {0} Daño Magico a los enemigos en una línea recta y acumula 1 dosis de Veneno. Además, encadena a los enemigos golpeados por  {2}  seg. Después de un cierto período de tiempo, causa una gran cantidad de Daño basado en el número de dosis de Veneno",
+        "description": "Causa {0} Daño Magico a los enemigos en una línea recta y acumula 2 dosis de Veneno. Además, encadena a los enemigos golpeados por  {1}  seg. Después de un cierto período de tiempo, causa una gran cantidad de Daño basado en el número de dosis de Veneno",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
@@ -2100,7 +2100,7 @@
       },
       "s4": {
         "name": "Hoja de Cuchilla",
-        "description": "Al provocar un ataque normal, ataca a un enemigo aleatorio 3 veces con un 30 % de probabilidades de infligir {0} de Daño mágico y 1 pila de Veneno durante 10 segundos. El efecto Veneno inflige un total de {2} de Daño mágico durante 20 segundos.",
+        "description": "Al provocar un ataque normal, ataca a un enemigo aleatorio 3 veces con un 30 % de probabilidades de infligir {0} de Daño mágico y 1 pila de Veneno durante 20 segundos. El efecto Veneno inflige un total de {1} de Daño mágico durante 20 segundos.",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
@@ -2197,7 +2197,7 @@
       },
       "s3": {
         "name": "Escudo Guardian",
-        "description": "Aumenta la DEF Fis. de todos los aliados en  {0}  por  {1}  seg. Además, reduce la posibilidad de ser golpeado críticamente en  {2}%.",
+        "description": "Aumenta la DEF Fis. de todos los aliados en  {1}  por  {0}  seg. Además, reduce la posibilidad de ser golpeado críticamente en  {2}%.",
         "books": {
           "0": "la tasa de aumento de DEF Fis. Se eleva en {0}%.",
           "1": "la tasa de aumento de DEF Fis. Se eleva en {0}%.",
@@ -2220,7 +2220,7 @@
       },
       "s4": {
         "name": "Voto de Caballeros",
-        "description": "Causa  {0}  Daño Fis. En el frente luego de bloquear, y disminuir ATQ de los enemigos golpeados en  {1}% por  {2}  seg. Recupera 300 maná luego de alcanzar el objetivo.",
+        "description": "Causa  {0}  Daño Fis. En el frente luego de bloquear, y disminuir ATQ de los enemigos golpeados en  {2}% por  {1}  seg. Recupera 300 maná luego de alcanzar el objetivo.",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
@@ -2283,7 +2283,7 @@
       },
       "s1": {
         "name": "Alma Curadora",
-        "description": "Cura a 4 aliados con el% de la Salud más baja {0} en relación a la Salud máx. Y cura {2} la Salud adicionalmente por {1} seg. Este efecto no se puede disipar.",
+        "description": "Cura a 4 aliados con el% de la Salud más baja {2} en relación a la Salud máx. Y cura {1} la Salud adicionalmente por {0} seg. Este efecto no se puede disipar.",
         "books": {
           "0": "Aumenta Recuperacion en {0}%.",
           "1": "Aumenta Recuperacion en {0}%.",
@@ -2294,11 +2294,11 @@
       },
       "s2": {
         "name": "Salvacion",
-        "description": "Elimina el debilitamiento de todos los aliados y aumenta la DEF Magica en  {0}  por  {1}  segundos.",
+        "description": "Elimina el debilitamiento de todos los aliados y aumenta la DEF Magica en  {1}  por  {0}  segundos.",
         "books": {
           "0": "Aumenta el crecimiento de DEF Magica en {0}%.",
           "1": "Aumenta el crecimiento de DEF Magica en {0}%.",
-          "2": "Aumenta {0} la Resistencia al Debilitamiento por {1} seg."
+          "2": "Aumenta {1} la Resistencia al Debilitamiento por {0} seg."
         },
         "light": "El costo de maná se reduce en 1.",
         "dark": "Aumenta tu propia DEF Magica en un 10% de tu DEF Magica",
@@ -2340,7 +2340,7 @@
       },
       "s4": {
         "name": "Afinacion Espiritual",
-        "description": "Cada 7seg, el aliado con la Salud más baja recupera 0 PM y  {1}  Salud.",
+        "description": "Cada 7seg, el aliado con la Salud más baja recupera 1 PM y  {0}  Salud.",
         "books": {
           "0": "Aumenta Recuperacion en {0}%.",
           "1": "Aumenta Recuperacion en {0}%.",
@@ -2534,7 +2534,7 @@
       },
       "s2": {
         "name": "Extremo Afilado",
-        "description": "Aumenta  {0}  el ATQ por  {1}  seg, y la oportunidad de Golpe Crítico en {2}.",
+        "description": "Aumenta  {1}  el ATQ por  {0}  seg, y la oportunidad de Golpe Crítico en {2}.",
         "books": {
           "0": "El poder de ATQ aumenta en  {0}%.",
           "1": "El poder de ATQ aumenta en  {0}%.",
@@ -2580,7 +2580,7 @@
       },
       "s4": {
         "name": "Niño Afortunado",
-        "description": "Luego de un Golpe Crit. exitoso, el ATQ aumenta en  {0}  por  {1}  seg. Se puede acumular hasta 5 veces máx.",
+        "description": "Luego de un Golpe Crit. exitoso, el ATQ aumenta en  {1}  por  {0}  seg. Se puede acumular hasta 5 veces máx.",
         "books": {
           "0": "El poder de ATQ aumenta en  {0}%.",
           "1": "El poder de ATQ aumenta en  {0}%.",
@@ -2700,7 +2700,7 @@
       },
       "s4": {
         "name": "Escalofrios del Amanecer",
-        "description": "Causa  {0}  Daño Magico a 3 enemigos cada  {1}  segundos y congelalos",
+        "description": "Causa  {1}  Daño Magico a 3 enemigos cada  {0}  segundos y congelalos",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
@@ -2883,7 +2883,7 @@
       },
       "s1": {
         "name": "Vientos Feroces",
-        "description": "Corre 1 veces hacia el enemigo al alcance, causando  {0}  Daño Fis. y derribándolos por  {2}  seg.",
+        "description": "Corre 2 veces hacia el enemigo al alcance, causando  {0}  Daño Fis. y derribándolos por  {1}  seg.",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
@@ -2894,7 +2894,7 @@
       },
       "s2": {
         "name": "Lectura del Viento",
-        "description": "la Oportunidad de Evasion Fis. Aumenta en  {0}  por  {1}  seg y el ATQ aumenta en  {2}.",
+        "description": "la Oportunidad de Evasion Fis. Aumenta en  {1}  por  {0}  seg y el ATQ aumenta en  {2}.",
         "books": {
           "0": "El poder de ATQ aumenta en  {0}%.",
           "1": "El poder de ATQ aumenta en  {0}%.",
@@ -3037,7 +3037,7 @@
       },
       "s3": {
         "name": "Tiro Concentrado",
-        "description": "Dispara a 00 enemigos aleatoriamente. Causa {1} Daño Fis. y aumenta el daño en {1}% para cada ataque posterior.",
+        "description": "Dispara a 10 enemigos aleatoriamente. Causa {0} Daño Fis. y aumenta el daño en {1}% para cada ataque posterior.",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
@@ -3060,7 +3060,7 @@
       },
       "s4": {
         "name": "Tiro Rapido",
-        "description": "Cada 00 segundos, hacer 2 ataques consecutivos y causar {1}  Daño Fis.",
+        "description": "Cada 10 segundos, hacer 2 ataques consecutivos y causar {0}  Daño Fis.",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
@@ -3123,7 +3123,7 @@
       },
       "s1": {
         "name": "Poder Ardiente",
-        "description": "Infligir {0} Daño Magico sobre los enemigos al alcance y derribarlos. También, acumula Llama 2 veces. Luego, por  {1}  seg, los ataques automáticos causan  {3}  Daño Magico y acumulan 1 Llama sobre el enemigo. Cada acumulacion de Llamas aumenta el Daño de Llama en  {3}%. Cada acumulacion de Llama daña por separado, y reduce la recuperación en un 1%.",
+        "description": "Infligir {0} Daño Magico sobre los enemigos al alcance y derribarlos. También, acumula Llama 3 veces. Luego, por  {1}  seg, los ataques automáticos causan  {2}  Daño Magico y acumulan 1 Llama sobre el enemigo. Cada acumulacion de Llamas aumenta el Daño de Llama en  {3}%. Cada acumulacion de Llama daña por separado, y reduce la recuperación en un 1%.",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
@@ -3243,7 +3243,7 @@
       },
       "s1": {
         "name": "Explosion Sagrada",
-        "description": "Inicia una explosión sagrada en el aliado con la Salud más baja, sanando al aliado y los aliados cercanos por {0} de Salud. Los enemigos cercanos reciben  {1} Daño Magico, y su Veloc de Ataque se reduce en {2}% por  {3}  seg.",
+        "description": "Inicia una explosión sagrada en el aliado con la Salud más baja, sanando al aliado y los aliados cercanos por {0} de Salud. Los enemigos cercanos reciben  {1} Daño Magico, y su Veloc de Ataque se reduce en {3}% por  {2}  seg.",
         "books": {
           "0": "Aumenta la Recuperacion y el Daño en {0}%.",
           "1": "Aumenta la Recuperacion y el Daño en {0}%.",
@@ -3300,7 +3300,7 @@
       },
       "s4": {
         "name": "Entrenamiento de Dios",
-        "description": "Al atacar a un enemigo, hay un 10% de probabilidad de infligir  {0}  Daño Magico y aturdirlo por  {2}  seg.",
+        "description": "Al atacar a un enemigo, hay un 20% de probabilidad de infligir  {0}  Daño Magico y aturdirlo por  {1}  seg.",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
@@ -3397,7 +3397,7 @@
       },
       "s3": {
         "name": "Dia de la Destruccion",
-        "description": "Inflige {0}  Daño Magico sobre los enemigos cada  {1}  seg y cura tu propia Salud con  {2}% de Daño. Obten inmunidad a los efectos. El Daño aumenta si los enemigos están marcados.",
+        "description": "Inflige {1}  Daño Magico sobre los enemigos cada  {0}  seg y cura tu propia Salud con  {2}% de Daño. Obten inmunidad a los efectos. El Daño aumenta si los enemigos están marcados.",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
@@ -3517,7 +3517,7 @@
       },
       "s3": {
         "name": "Lluvia Torrencial",
-        "description": "Causa {0} Daño Magico a enemigos aleatorios por {1} seg, y reduce la DEF Magica del enemigo en un 5%. La reducción de DEF Magica se acumula hasta 5 veces.",
+        "description": "Causa {1} Daño Magico a enemigos aleatorios por {0} seg, y reduce la DEF Magica del enemigo en un 5%. La reducción de DEF Magica se acumula hasta 5 veces.",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
@@ -3603,7 +3603,7 @@
       },
       "s1": {
         "name": "Runa de la Fragilidad",
-        "description": "Marca una runa sobre el enemigo, reduciendo {0} el% de DEF Fis.por {1} seg. Luego de {2} seg, causa un {3} Daño Mágico máximo proporcional a la Salud perdida, ignorando la DEF.",
+        "description": "Marca una runa sobre el enemigo, reduciendo {1} el% de DEF Fis.por {0} seg. Luego de {2} seg, causa un {3} Daño Mágico máximo proporcional a la Salud perdida, ignorando la DEF.",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
@@ -3734,7 +3734,7 @@
       },
       "s2": {
         "name": "Paso de Destello",
-        "description": "Se dirige hacia el enemigo con el ATQ más alto y lo Silencia durante 0 seg. La reducción de Daño Mágico se incrementa en {2} por {1} seg. Deja una Marca sobre el enemigo por {2} segundos, y el ataque prioriza el objetivo marcado. Al atacar a los enemigos Marcados, causa {3} Daño Fis. adicional.",
+        "description": "Se dirige hacia el enemigo con el ATQ más alto y lo Silencia durante 2 seg. La reducción de Daño Mágico se incrementa en {1} por {0} seg. Deja una Marca sobre el enemigo por {2} segundos, y el ataque prioriza el objetivo marcado. Al atacar a los enemigos Marcados, causa {3} Daño Fis. adicional.",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
@@ -3780,7 +3780,7 @@
       },
       "s4": {
         "name": "Cortador de Hechizos",
-        "description": "Causa {0}  Daño Fisico a los enemigos que le causaron Daño Magico a este héroe cada {1} seg, y esquiva todos los siguientes Daños Magicos por {2} seg.",
+        "description": "Causa {1}  Daño Fisico a los enemigos que le causaron Daño Magico a este héroe cada {0} seg, y esquiva todos los siguientes Daños Magicos por {2} seg.",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
@@ -3877,7 +3877,7 @@
       },
       "s3": {
         "name": "Parpadear Parpadear",
-        "description": "Causa {0} Daño Magico a los objetivos al alcance, y reduce su Oportunidad Crit en {1}% por {2} seg.",
+        "description": "Causa {0} Daño Magico a los objetivos al alcance, y reduce su Oportunidad Crit en {2}% por {1} seg.",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
@@ -3900,7 +3900,7 @@
       },
       "s4": {
         "name": "Te tengo!",
-        "description": "Cada {0} seg, causa {1} Daño Magico al enemigo más lejano por {2} seg. Cuanto más lejos esta el enemigo, más Daño recibe.",
+        "description": "Cada {0} seg, causa {2} Daño Magico al enemigo más lejano por {1} seg. Cuanto más lejos esta el enemigo, más Daño recibe.",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
@@ -3974,7 +3974,7 @@
       },
       "s2": {
         "name": "Escudo de Burbuja",
-        "description": "Protege a un aliado con la menor Salud durante 05 segundos para bloquear el {1}  Daño, y proporcionale inmunidad. Mientras el Escudo esté activo, recupera  {1}  Salud por cada segundo y obten Inmunidad al Control de Masas",
+        "description": "Protege a un aliado con la menor Salud durante 15 segundos para bloquear el {0}  Daño, y proporcionale inmunidad. Mientras el Escudo esté activo, recupera  {1}  Salud por cada segundo y obten Inmunidad al Control de Masas",
         "books": {
           "0": "el Escudo aumenta en {0}%.",
           "1": "el Escudo aumenta en {0}%.",
@@ -3997,7 +3997,7 @@
       },
       "s3": {
         "name": "Festival del Agua",
-        "description": "Causa {0} Daño Magico a todos los enemigos cercanos y derribalos. Para todos los aliados (sin incluirte), recupera 1 esferas de maná. Luego, por {2} seg, los enemigos aleatorios serán golpeados por un remolino, causales {2} Daño Magico y derribalos durante 2 segundos.",
+        "description": "Causa {0} Daño Magico a todos los enemigos cercanos y derribalos. Para todos los aliados (sin incluirte), recupera 2 esferas de maná. Luego, por {1} seg, los enemigos aleatorios serán golpeados por un remolino, causales {2} Daño Magico y derribalos durante 2 segundos.",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
@@ -4140,7 +4140,7 @@
       },
       "s4": {
         "name": "El Ultimo Juicio",
-        "description": "Cada 05 segundos, causa {1} Daño Mágico a los enemigos infligidos por Sigilo de Juicio, ignorando la DEF. Al menos una vez por batalla, al alcanzar la Salud cercana a la muerte, causa {1} Daño Mágico a los enemigos infligidos el Sigilo de Juicio y los aturde durante 2 segundos, mientras lanza un escudo que bloquea {3} el Daño en todos los aliados durante 5 segundos. Obtiene inmunidad al Ctrl de Masas mientras el escudo está activado Cuando se activa el escudo, consume todo el maná y el tiempo de reutilización de las habilidades aumenta en un 50%.",
+        "description": "Cada 15 segundos, causa {0} Daño Mágico a los enemigos infligidos por Sigilo de Juicio, ignorando la DEF. Al menos una vez por batalla, al alcanzar la Salud cercana a la muerte, causa {1} Daño Mágico a los enemigos infligidos el Sigilo de Juicio y los aturde durante 3 segundos, mientras lanza un escudo que bloquea {2} el Daño en todos los aliados durante 5 segundos. Obtiene inmunidad al Ctrl de Masas mientras el escudo está activado Cuando se activa el escudo, consume todo el maná y el tiempo de reutilización de las habilidades aumenta en un 50%.",
         "books": {
           "0": "El Daño y el Escudo aumentan en {0}%.",
           "1": "El Daño y el Escudo aumentan en {0}%.",
@@ -4260,7 +4260,7 @@
       },
       "s4": {
         "name": "El Dominante de Sangre",
-        "description": "Cuando la salud es del 50% o superior, el ATQ aumenta en {0} y la Pen. de DEF aumenta en 150. Al atacar, inflige al objetivo con maldición sangrienta, provoca un total de {2} de daño mágico durante 20 seg., y recupera el 10% del daño causado por maldición sangrienta convirtiéndolo en salud. La maldición sangrienta se puede acumular como máximo 100 veces y no se puede disipar.",
+        "description": "Cuando la salud es del 50% o superior, el ATQ aumenta en {0} y la Pen. de DEF aumenta en 250. Al atacar, inflige al objetivo con maldición sangrienta, provoca un total de {1} de daño mágico durante 20 seg., y recupera el 10% del daño causado por maldición sangrienta convirtiéndolo en salud. La maldición sangrienta se puede acumular como máximo 100 veces y no se puede disipar.",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
@@ -4334,7 +4334,7 @@
       },
       "s2": {
         "name": "Corte de Dimension",
-        "description": "Causa  {0}  Daño Fisico a los enemigos que son objetivo y elimina los estados positivos. Los enemigos golpeados reciben  {1}  Daño Fis. por  {2}  seg y son golpeados durante 3 seg. El número de objetivos es igual a 1 + Pila de Cuchillas",
+        "description": "Causa  {0}  Daño Fisico a los enemigos que son objetivo y elimina los estados positivos. Los enemigos golpeados reciben  {2}  Daño Fis. por  {1}  seg y son golpeados durante 3 seg. El número de objetivos es igual a 1 + Pila de Cuchillas",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
@@ -4454,7 +4454,7 @@
       },
       "s2": {
         "name": "Tratamiento de Emergencia",
-        "description": "Borrar todos los efectos negativos de los aliados y curar la  {0}  Salud durante 10 seg mientras aumenta la Resistencia al Debilitamiento en 150. Al estar Sobrecargado, todos los aliados obtienen  {2}  Oportunidad Crit y son inmunes a los efectos.",
+        "description": "Borrar todos los efectos negativos de los aliados y curar la  {0}  Salud durante 10 seg mientras aumenta la Resistencia al Debilitamiento en 250. Al estar Sobrecargado, todos los aliados obtienen  {1}  Oportunidad Crit y son inmunes a los efectos.",
         "books": {
           "0": "la Recuperacion aumenta en {0}%.",
           "1": "la Recuperacion aumenta en {0}%.",
@@ -4500,7 +4500,7 @@
       },
       "s4": {
         "name": "Carga",
-        "description": "Obtiene 0 pila de Carga cada 0.5 seg y 10 pilas de Carga por cada esfera de maná utilizado. Luego de acumular la pila de Carga número 100, entra en un estado de Sobrecarga. Cuando está en Sobrecarga, se aumenta el ATQ {1} durante 15 segundos y cada ataque automático reduce el tiempo de reutilización de la habilidad en un 10%. No se pueden disipar todos los efectos y la Carga no se acumulará durante el estado de Sobrecarga.",
+        "description": "Obtiene 1 pila de Carga cada 0.5 seg y 10 pilas de Carga por cada esfera de maná utilizado. Luego de acumular la pila de Carga número 100, entra en un estado de Sobrecarga. Cuando está en Sobrecarga, se aumenta el ATQ {0} durante 15 segundos y cada ataque automático reduce el tiempo de reutilización de la habilidad en un 10%. No se pueden disipar todos los efectos y la Carga no se acumulará durante el estado de Sobrecarga.",
         "books": {
           "0": "El poder de ATQ aumenta en  {0}%.",
           "1": "El poder de ATQ aumenta en  {0}%.",
@@ -4563,7 +4563,7 @@
       },
       "s1": {
         "name": "Explosion! Explosion!!",
-        "description": "Ataca a un enemigo 1 veces, causando  {0}  Daño Magico. Si la habilidad es critica, se produce una explosión, causando {2}  Daño Fis. adicional a los enemigos cercanos.",
+        "description": "Ataca a un enemigo 2 veces, causando  {0}  Daño Magico. Si la habilidad es critica, se produce una explosión, causando {1}  Daño Fis. adicional a los enemigos cercanos.",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
@@ -4597,7 +4597,7 @@
       },
       "s3": {
         "name": "Baila Conmigo!",
-        "description": "Dispara a un enemigo aleatorio 02 veces, causando  {1}  Daño Fis. Cada vez que causas Daño, dejas una Marca de Muerte que no puede ser eliminada. Cada pila de Marcas de Muerte aumenta el Daño de 'Contienda' en un 1%.",
+        "description": "Dispara a un enemigo aleatorio 12 veces, causando  {0}  Daño Fis. Cada vez que causas Daño, dejas una Marca de Muerte que no puede ser eliminada. Cada pila de Marcas de Muerte aumenta el Daño de 'Contienda' en un 1%.",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
@@ -4717,7 +4717,7 @@
       },
       "s3": {
         "name": "Juicio Divino",
-        "description": "Ataca 3 veces a los enemigos frontales. Los primeros 1 ataques causan {0} Daño Fis. a los enemigos y los aturde durante 4 segundos a cada uno, y el último ataque tiene un 20% de amplio alcance y causa  {2}  Daño Fis. a los enemigos mientras los aturde durante 4 seg. Cada ataque tiene un 50% de probabilidad de eliminar los efectos positivos del enemigo.",
+        "description": "Ataca 3 veces a los enemigos frontales. Los primeros 2 ataques causan {0} Daño Fis. a los enemigos y los aturde durante 4 segundos a cada uno, y el último ataque tiene un 20% de amplio alcance y causa  {1}  Daño Fis. a los enemigos mientras los aturde durante 4 seg. Cada ataque tiene un 50% de probabilidad de eliminar los efectos positivos del enemigo.",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
@@ -4934,7 +4934,7 @@
       },
       "s2": {
         "name": "Desesperación del Alba",
-        "description": "Golpea al enemigo con el ATQ más alto y causa {0} Daño Mágico a los enemigos al alcance, lo que reduce su Veloc. de ATQ en {1}. [Furia] - Consume el 10% de la Salud actual al activarse. El alcance del efecto aumenta, aturde al objetivo durante {2} segundos y aumenta la propia Veloc. de ATQ en {3} durante {4} segundos",
+        "description": "Golpea al enemigo con el ATQ más alto y causa {0} Daño Mágico a los enemigos al alcance, lo que reduce su Veloc. de ATQ en {1}. [Furia] - Consume el 10% de la Salud actual al activarse. El alcance del efecto aumenta, aturde al objetivo durante {2} segundos y aumenta la propia Veloc. de ATQ en {4} durante {3} segundos",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
@@ -4980,7 +4980,7 @@
       },
       "s4": {
         "name": "Maldición Sangrienta",
-        "description": "Ezekiel obtiene 0 pila de 'Maldición Sangrienta' al finalizar la habilidad. En la cuarta pila, consume Maldición Sangrienta para reiniciar el tiempo de reutilización de las habilidades, causando {1} Daño Mágico a los enemigos cercanos y derribándolos durante 2 segundos, mientras se activa Furia durante {1} segundos, la cual no puede ser disipada. Mientras se encuentra en Estado de Furia, se activa un modo de batalla automática que no se puede controlar, y el ATQ se incrementa en {3} , el Daño del autoataque se duplica y todo el Efecto de la Habilidad es reforzado. No se puede obtener Maldición Sangrienta durante el Estado de Furia, excepto cuando se mata a un enemigo.",
+        "description": "Ezekiel obtiene 1 pila de 'Maldición Sangrienta' al finalizar la habilidad. En la cuarta pila, consume Maldición Sangrienta para reiniciar el tiempo de reutilización de las habilidades, causando {0} Daño Mágico a los enemigos cercanos y derribándolos durante 3 segundos, mientras se activa Furia durante {1} segundos, la cual no puede ser disipada. Mientras se encuentra en Estado de Furia, se activa un modo de batalla automática que no se puede controlar, y el ATQ se incrementa en {2} , el Daño del autoataque se duplica y todo el Efecto de la Habilidad es reforzado. No se puede obtener Maldición Sangrienta durante el Estado de Furia, excepto cuando se mata a un enemigo.",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
@@ -5163,7 +5163,7 @@
       },
       "s1": {
         "name": "Choque Final",
-        "description": "Ataca al enemigo 06 veces, causando un total de {1} Daño Magico. Luego de cada golpe crítico, aumenta el Daño Critico en un 3% durante 10 seg, y hay un 30% de probabilidades de causar {1} Daño Magico adicional y aturdir durante 0.3 seg. El efecto de aumento de Daño Crit. puede acumularse hasta 30 veces.",
+        "description": "Ataca al enemigo 16 veces, causando un total de {0} Daño Magico. Luego de cada golpe crítico, aumenta el Daño Critico en un 3% durante 10 seg, y hay un 30% de probabilidades de causar {1} Daño Magico adicional y aturdir durante 0.3 seg. El efecto de aumento de Daño Crit. puede acumularse hasta 30 veces.",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
@@ -5654,7 +5654,7 @@
       },
       "s2": {
         "name": "Coordinacion",
-        "description": "Induce un estado de 'Co-op' a este héroe y al aliado con el ATQ más alto durante 20 seg. Priscila y el ATQ del aliado aumentan un 05% + {1}  durante el proceso",
+        "description": "Induce un estado de 'Co-op' a este héroe y al aliado con el ATQ más alto durante 20 seg. Priscila y el ATQ del aliado aumentan un 15% + {0}  durante el proceso",
         "books": {
           "0": "La tasa de ATQ aumenta en {0}%.",
           "1": "La tasa de ATQ aumenta en {0}%.",
@@ -5797,7 +5797,7 @@
       },
       "s3": {
         "name": "Sin Detenerse!",
-        "description": "Elimina todos los efectos dañinos sobre tí mismo y durante 20 segundos, aumenta el ATQ en  {0}  y la Entrada de DEF. en  {1}. También, durante el proceso, los ataques automáticos se cambian. Consumen 3% de maná a cambio de la capacidad de causar Daño a todos los enemigos en una línea recta. También causa  {3}  Daño Fis adicional.",
+        "description": "Elimina todos los efectos dañinos sobre tí mismo y durante 30 segundos, aumenta el ATQ en  {0}  y la Entrada de DEF. en  {1}. También, durante el proceso, los ataques automáticos se cambian. Consumen 3% de maná a cambio de la capacidad de causar Daño a todos los enemigos en una línea recta. También causa  {2}  Daño Fis adicional.",
         "books": {
           "0": "El ATQ aumenta en {0}%.",
           "1": "El ATQ aumenta en {0}%.",
@@ -6014,7 +6014,7 @@
       },
       "s2": {
         "name": "Carta del Amor - Elliciad",
-        "description": "El ATQ se incrementa en {0} durante {1} segundos y la recuperación del Maná por segundo aumenta en un {2}%. Consume la carta que posees para infligir efectos adicionales. Al utilizar la habilidad, obtén la carta del [Amor]. [Muerte] - La entrada se incrementa en 600 mientras dure la habilidad. [Amor] - Otorga efecto a todos los aliados. [Fortuna] - el tiempo de reutilización de las habilidades queda sin efecto",
+        "description": "El ATQ se incrementa en {1} durante {0} segundos y la recuperación del Maná por segundo aumenta en un {2}%. Consume la carta que posees para infligir efectos adicionales. Al utilizar la habilidad, obtén la carta del [Amor]. [Muerte] - La entrada se incrementa en 600 mientras dure la habilidad. [Amor] - Otorga efecto a todos los aliados. [Fortuna] - el tiempo de reutilización de las habilidades queda sin efecto",
         "books": {
           "0": "El ATQ aumenta en {0}%.",
           "1": "El ATQ aumenta en {0}%.",
@@ -6134,7 +6134,7 @@
       },
       "s2": {
         "name": "Extracto de Hierba Crujiente!",
-        "description": "Ataca a enemigos aleatorios 2 veces y causa un total de {0} Daño, mientras los envenena con Extracto de Hierba Crujiente durante {1} segundos. Los enemigos infligidos con el Extracto de Hierba Crujiente reducen su ATQ en {3}% y su Oportunidad Crit. en {3}.",
+        "description": "Ataca a enemigos aleatorios 3 veces y causa un total de {0} Daño, mientras los envenena con Extracto de Hierba Crujiente durante {1} segundos. Los enemigos infligidos con el Extracto de Hierba Crujiente reducen su ATQ en {2}% y su Oportunidad Crit. en {3}.",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
@@ -6157,7 +6157,7 @@
       },
       "s3": {
         "name": "Más! Más Fuerte!",
-        "description": "El propio ATQ se incrementa en {0} durante {1} segundo y el efecto de [Lágrimas del Sr. Python], [Extracto de Hierba Crujiente], [Poción de Cosquillas Cosquillas] se duplica. Además, el objetivo de [Lágrimas del Sr. Python], [Extracto de Hierba Crujiente!], [Poción de Cosquillas Cosquillas] aumenta en 1.",
+        "description": "El propio ATQ se incrementa en {1} durante {0} segundo y el efecto de [Lágrimas del Sr. Python], [Extracto de Hierba Crujiente], [Poción de Cosquillas Cosquillas] se duplica. Además, el objetivo de [Lágrimas del Sr. Python], [Extracto de Hierba Crujiente!], [Poción de Cosquillas Cosquillas] aumenta en 1.",
         "books": {
           "0": "La tasa de ATQ aumenta en {0}%.",
           "1": "La tasa de ATQ aumenta en {0}%.",
@@ -6277,7 +6277,7 @@
       },
       "s3": {
         "name": "Juicio del Sol",
-        "description": "Toma posición, se centra en recuperar la salud de los aliados cercanos, pero no del lanzador, 8 veces un total de {0} , y aumenta su DEF Física en {1} durante 4 segundos. También inflige un total de {2} de daño mágico en los enemigos 8 veces dentro del rango, y disminuye su DEF Mágica en {3} durante 5 segundos. Cuando termina el lanzamiento, recupera la salud de los aliados dentro del rango, pero no la del lanzador, en {5}. También inflige {5} de daño mágico en los enemigos y los derriba durante 3 segundos.",
+        "description": "Toma posición, se centra en recuperar la salud de los aliados cercanos, pero no del lanzador, 8 veces un total de {0} , y aumenta su DEF Física en {1} durante 5 segundos. También inflige un total de {2} de daño mágico en los enemigos 8 veces dentro del rango, y disminuye su DEF Mágica en {3} durante 5 segundos. Cuando termina el lanzamiento, recupera la salud de los aliados dentro del rango, pero no la del lanzador, en {4}. También inflige {5} de daño mágico en los enemigos y los derriba durante 3 segundos.",
         "books": {
           "0": "el Daño y la Recuperacion aumentan en {0}%.",
           "1": "el Daño y la Recuperacion aumentan en {0}%.",
@@ -6300,7 +6300,7 @@
       },
       "s4": {
         "name": "Maldición del Sol",
-        "description": "Cuando se ataca al objetivo, coloca a los enemigos en el estado Maldición del Sol durante 00 segundos. Los enemigos con 10 Maldiciones del Sol acumuladas las consumirán, recibirán {1} de daño mágico y quedarán ciegos durante {1} segundos, y su ATQ se reducirá en un {2}% durante 10 segundos.",
+        "description": "Cuando se ataca al objetivo, coloca a los enemigos en el estado Maldición del Sol durante 10 segundos. Los enemigos con 10 Maldiciones del Sol acumuladas las consumirán, recibirán {0} de daño mágico y quedarán ciegos durante {1} segundos, y su ATQ se reducirá en un {2}% durante 10 segundos.",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
@@ -6494,7 +6494,7 @@
       },
       "s2": {
         "name": "Maldición del tiempo",
-        "description": "Ataca a un enemigo causando {0} de Daño mágico y también inflige el efecto Maldición del tiempo durante {1} segundos, lo que aumenta el tiempo de reutilización de las habilidades en {2} segundos. Todos los tiempos de reutilización de las habilidades del enemigo bajo el efecto Maldición del tiempo aumentan en {3} segundos cada {4} segundos.",
+        "description": "Ataca a un enemigo causando {0} de Daño mágico y también inflige el efecto Maldición del tiempo durante {1} segundos, lo que aumenta el tiempo de reutilización de las habilidades en {2} segundos. Todos los tiempos de reutilización de las habilidades del enemigo bajo el efecto Maldición del tiempo aumentan en {4} segundos cada {3} segundos.",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
@@ -6974,7 +6974,7 @@
       },
       "s2": {
         "name": "Poder del Relámpago!",
-        "description": "Durante 05 segundos, el ATQ aumenta en {1} y toda la DEF se incrementa en {1}. Mientras la habilidad está en uso, cada auto ataque tiene un 20% de probabilidades de causar {3} Daño Mágico adicional a 2 enemigos aleatorios y aturdirlos durante 0.5 segundos.",
+        "description": "Durante 15 segundos, el ATQ aumenta en {0} y toda la DEF se incrementa en {1}. Mientras la habilidad está en uso, cada auto ataque tiene un 30% de probabilidades de causar {2} Daño Mágico adicional a 2 enemigos aleatorios y aturdirlos durante 0.5 segundos.",
         "books": {
           "0": "El ATQ y la DEF se incrementan en {0}%.",
           "1": "El ATQ y la DEF se incrementan en {0}%.",
@@ -7020,7 +7020,7 @@
       },
       "s4": {
         "name": "Shock",
-        "description": "Con cada ataque, inflige Electricidad a los objetivos que no están bajo Shock y aumenta el Daño Mágico en {0}% durante 10 segundos. La electricidad se puede apilar hasta 20 veces, y la 30ª pila consumirá toda la electricidad causando {1} Daño Mágico y Shock sobre el objetivo durante 7 segundos. Los enemigos atacados con Shock reciben {3}% de Daño Mágico aumentado y cuando son aturdidos, la duración aumenta en {3} segundos.",
+        "description": "Con cada ataque, inflige Electricidad a los objetivos que no están bajo Shock y aumenta el Daño Mágico en {0}% durante 10 segundos. La electricidad se puede apilar hasta 30 veces, y la 30ª pila consumirá toda la electricidad causando {1} Daño Mágico y Shock sobre el objetivo durante 7 segundos. Los enemigos atacados con Shock reciben {3}% de Daño Mágico aumentado y cuando son aturdidos, la duración aumenta en {2} segundos.",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
@@ -7214,7 +7214,7 @@
       },
       "s2": {
         "name": "Restringir y Proteger",
-        "description": "Causa {0} Daño Mágico al enemigo que tiene como objetivo y a otros enemigos al alcance, y los aturde durante 1 segundos. Luego se une a un aliado con la DEF Fis más baja y crea un Escudo para los dos que puede bloquear {2} el Daño durante 10 segundos. El Escudo será ineficaz cuando no haya un aliado. Obtiene inmunidad al Ctrl de Masas mientras el Escudo esté activo.",
+        "description": "Causa {0} Daño Mágico al enemigo que tiene como objetivo y a otros enemigos al alcance, y los aturde durante 2 segundos. Luego se une a un aliado con la DEF Fis más baja y crea un Escudo para los dos que puede bloquear {1} el Daño durante 10 segundos. El Escudo será ineficaz cuando no haya un aliado. Obtiene inmunidad al Ctrl de Masas mientras el Escudo esté activo.",
         "books": {
           "0": "El Daño y el Escudo aumentan en {0}%.",
           "1": "El Daño y el Escudo aumentan en {0}%.",
@@ -7323,7 +7323,7 @@
       },
       "s1": {
         "name": "Melodía de la naturaleza verde",
-        "description": "Cura un total de {0} de salud para todos los aliados 8 veces, y todos los aliados reciben un daño reducido en un {1}  % durante 8 segundos. Si se utiliza cuando se acumulan hasta 2 efectos de Trance, la velocidad de curación de esta habilidad aumenta en un 100 % y cambia el efecto de reducción de daño al {3}  %.",
+        "description": "Cura un total de {0} de salud para todos los aliados 8 veces, y todos los aliados reciben un daño reducido en un {1}  % durante 8 segundos. Si se utiliza cuando se acumulan hasta 3 efectos de Trance, la velocidad de curación de esta habilidad aumenta en un 100 % y cambia el efecto de reducción de daño al {2}  %.",
         "books": {
           "0": "La tasa de Recuperacion aumenta en {0}%.",
           "1": "La tasa de Recuperacion aumenta en {0}%.",
@@ -7380,7 +7380,7 @@
       },
       "s4": {
         "name": "Trance",
-        "description": "Al finalizar la habilidad, se acumulará 0 pila de Trance adicional. Esta se puede acumular hasta un máximo de 3 veces, y si la habilidad se utiliza cuando hay 3 pilas de Trance acumuladas, curará la {1} Salud de todos los aliados. Trance no se puede disipar.",
+        "description": "Al finalizar la habilidad, se acumulará 1 pila de Trance adicional. Esta se puede acumular hasta un máximo de 3 veces, y si la habilidad se utiliza cuando hay 3 pilas de Trance acumuladas, curará la {0} Salud de todos los aliados. Trance no se puede disipar.",
         "books": {
           "0": "La tasa de Recuperacion aumenta en {0}%.",
           "1": "La tasa de Recuperacion aumenta en {0}%.",
@@ -7597,7 +7597,7 @@
       },
       "s3": {
         "name": "Incendio, lanza de furia",
-        "description": "Carga contra el enemigo, lo que le inflige {0} y lo derriba, y genera una explosión en la tierra alrededor de quien lo activa para atacar 3 veces, lo que inflige un total de {1} de Daño físico y el efecto Aturdir durante {2} segundos. Recupera la Salud equivalente al {4}  % de Daño.",
+        "description": "Carga contra el enemigo, lo que le inflige {0} y lo derriba, y genera una explosión en la tierra alrededor de quien lo activa para atacar 4 veces, lo que inflige un total de {1} de Daño físico y el efecto Aturdir durante {2} segundos. Recupera la Salud equivalente al {3}  % de Daño.",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
@@ -7814,7 +7814,7 @@
       },
       "s2": {
         "name": "Llegada del Dios de la Guerra",
-        "description": "Disipa todos los efectos nocivos sobre uno mismo y causa  {0}  Daño Fis a los enemigos cercanos dentro de un radio pequeño, obteniendo el Estado 'Dios de la Guerra' durante 10 segundos. Mientras está en el modo Dios de la Guerra,el ATQ aumenta en  {1}  y todos los ataques automáticos tienen un 20% de probabilidad de consumir un 5% de maná para causar un ataque extra de  {3}  Daño Fis adicional. Al recibir Daño Magico, esquiva todos los Daños Magicos durante 1 segundos. El efecto Esquivar solo se activa 1 vez cada 2 segundos.",
+        "description": "Disipa todos los efectos nocivos sobre uno mismo y causa  {0}  Daño Fis a los enemigos cercanos dentro de un radio pequeño, obteniendo el Estado 'Dios de la Guerra' durante 10 segundos. Mientras está en el modo Dios de la Guerra,el ATQ aumenta en  {1}  y todos los ataques automáticos tienen un 30% de probabilidad de consumir un 5% de maná para causar un ataque extra de  {2}  Daño Fis adicional. Al recibir Daño Magico, esquiva todos los Daños Magicos durante 1 segundos. El efecto Esquivar solo se activa 1 vez cada 2 segundos.",
         "books": {
           "0": "Los aumentos de ATQ y Daño se incrementan en {0}%.",
           "1": "Los aumentos de ATQ y Daño se incrementan en {0}%.",
@@ -8054,7 +8054,7 @@
       },
       "s2": {
         "name": "Credo envolvente",
-        "description": "Elimina los efectos negativos de todos los aliados. Lanza un escudo sobre todos los aliados que absorbe {0} de Daño durante {1} segundo(s) y reduce todo el Daño que recibieron en un {2}% durante {3} segundo(s). Mientras está activo, el escudo otorga inmunidad al Control de multitudes.",
+        "description": "Elimina los efectos negativos de todos los aliados. Lanza un escudo sobre todos los aliados que absorbe {1} de Daño durante {0} segundo(s) y reduce todo el Daño que recibieron en un {3}% durante {2} segundo(s). Mientras está activo, el escudo otorga inmunidad al Control de multitudes.",
         "books": {
           "0": "Aumenta el Escudo en {0}%.",
           "1": "Aumenta el Escudo en {0}%.",
@@ -8077,7 +8077,7 @@
       },
       "s3": {
         "name": "Credo del caballero",
-        "description": "Ataca a los enemigos frontales dentro del rango 2 veces. Los primeros 1 ataques provocan {0} de Daño físico y los aturden durante {2} segundo(s), mientras que el tercer ataque afecta a los enemigos en un rango más amplio 2 veces, lo que inflige un total de {3} de Daño físico. El último ataque aturde a los enemigos durante 4 segundos y les aplica el efecto [Marca del credo], lo que los daña durante {3} segundos(s). Los objetivos afectados por [Marca del credo] reciben {5} más de Daño físico de los aliados, sin incluir al lanzador. El efecto de Daño adicional se activa solo una vez cada {5} segundo(s).",
+        "description": "Ataca a los enemigos frontales dentro del rango 3 veces. Los primeros 2 ataques provocan {0} de Daño físico y los aturden durante {1} segundo(s), mientras que el tercer ataque afecta a los enemigos en un rango más amplio 2 veces, lo que inflige un total de {2} de Daño físico. El último ataque aturde a los enemigos durante 5 segundos y les aplica el efecto [Marca del credo], lo que los daña durante {3} segundos(s). Los objetivos afectados por [Marca del credo] reciben {4} más de Daño físico de los aliados, sin incluir al lanzador. El efecto de Daño adicional se activa solo una vez cada {5} segundo(s).",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
