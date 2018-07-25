@@ -900,7 +900,7 @@
       },
       "s4": {
         "name": "Khuếch tán lửa",
-        "description": "Gây {0} sát thương phép và cộng dồn mỗi 1 lần đòn mồi lửa lên 3 đối thủ và đối thủ trong phạm vi. Đối thủ dính trạng thái mồi lửa giảm lực phòng thủ 5% mỗi lần.",
+        "description": "Gây {0} sát thương phép thuật cho 3 mục tiêu và kẻ địch ở gần, cộng dồn Mồi lửa 1 lần. Giảm 5% phòng thủ phép thuật của kẻ địch dính Mồi lửa.",
         "books": {
           "0": "Tăng {0}% sát thương.",
           "1": "Tăng {0}% sát thương.",
@@ -1712,7 +1712,7 @@
             "[Phóng tên] Tăng 42% Sát thương và có 15% xác suất triệu hồi 1 Phi tiễn khi tấn công thường.",
             "[Phóng tên] Tăng 50% Sát thương và có 15% xác suất triệu hồi 1 Phi tiễn khi tấn công thường."
           ],
-          "story": "Tinh linh cung gió bị phong ấn trong viên đá này. Viên đá phong ấn chứa Tinh linh cung gió, vì luôn gây chiến và giở nhiều thủ đoạn xấu xa nên đã bị Tiên vương phong ấn. Tinh lung cung gió luôn thèm khát chiến tranh và tăng ít nhất 5 lần tỷ lệ kill của cung thủ triệu hồi tinh linh này."
+          "story": "Một viên đá giam giữ nguyên tố cung gió liều lĩnh. Vì gây ra đủ loại rắc rối bằng những chiêu trò hiểm độc nên nguyên tố này bị Tiên vương phong ấn lại. Nguyên tố gió nổi loạn truyền luồng gió hủy diệt vào những mũi tên, làm tăng sức mạnh giết chóc thêm tối thiểu 5 lần."
         }
       },
       "s3": {
@@ -1740,7 +1740,7 @@
       },
       "s4": {
         "name": "Mũi tên ánh trăng",
-        "description": "Tăng {2} xác suất chí mạng và {1} sức tấn công trong vòng {0} mỗi khi tấn công. Cộng dồn tối đa 3 lần.",
+        "description": "Khi tấn công, tăng {1} sức tấn công và {2} Xác suất chí mạng trong {0} giây. Hiệu ứng này cộng dồn đến 3 lần.",
         "books": {
           "0": "Tăng {0}% chỉ số lực tấn công",
           "1": "Tăng {0}% chỉ số lực tấn công",
@@ -2047,7 +2047,7 @@
         "books": {
           "0": "Tăng {0}% sát thương.",
           "1": "Tăng {0}% sát thương.",
-          "2": "Khi ra đòn chí mạng, cộng dồn 2 lần hiệu ứng đầu độc"
+          "2": "Để lại 2 lần cộng dồn Độc khi có Đòn chí mạng."
         },
         "light": "Số đòn đánh tăng thêm 1 lần.",
         "dark": "Khi đối thủ bị dính 5 đòn độc trúng đòn, trói đối thủ trong 3 giây."
@@ -2220,7 +2220,7 @@
       },
       "s4": {
         "name": "Tàn phá vũ khí",
-        "description": "Gây {0} sát thương vật lý lên đối thủ phía trước bản thân khi chặn đòn và giảm {2}% lực tấn công của đối tượng trong {1} giây. Sau khi ra đòn hồi phục 300 Mana.",
+        "description": "Khi chặn đòn, gây {0} sát thương vật lý cho kẻ địch ở tuyến đầu và giảm {2}% sức tấn công của mục tiêu chịu ảnh hưởng trong {1} giây. Hồi phục 300 MP sau khi đánh trúng mục tiêu.",
         "books": {
           "0": "Tăng {0}% sát thương.",
           "1": "Tăng {0}% sát thương.",
@@ -4112,7 +4112,7 @@
             "[Lưỡi dao Thanh trừng] Giảm 1 Tiêu hao mana và tăng 42% Sát thương.",
             "[Lưỡi dao Thanh trừng] Giảm 1 Tiêu hao mana và tăng 50% Sát thương."
           ],
-          "story": "Biểu tượng của Đội quân Thẩm phán lửa. Biểu tượng của Đội quân Thẩm phán lửa, từng lập chiến công vĩ đại trong cuộc chiến với Ác quỷ. Khi được Nữ thần ánh sáng Lua cho phép dùng Khối ma thuật truy cầu, Arch sẽ trở thành một người thẩm phán công minh."
+          "story": "Biểu tượng của Đội quân phán xử lửa từng có một trận chiến khốc liệt với Ác quỷ cổ đại. Khi sử dụng Khối ma thuật truy cầu được Nữ thần ánh sáng Lua ban phước, Arch trở thành một người phán xử tàn nhẫn."
         }
       },
       "s3": {
@@ -4832,7 +4832,7 @@
             "[Cơn lốc lưỡi kiếm] Tăng 42% Sát thương và giảm 8% Thời gian hồi chiêu khi có Đòn chí mạng.",
             "[Cơn lốc lưỡi kiếm] Tăng 50% Sát thương và giảm 8% Thời gian hồi chiêu khi có Đòn chí mạng."
           ],
-          "story": "Dụng cụ đa năng của Mặt nạ cười dùng để ám sát. Một vật phẩm độc nhất của Mặt nạ cười, dùng để kết liễu kẻ địch một cách nhanh chóng và chính xác. Ngay cả khi dùng chiêu Lốc xoáy lưỡi đao, nó cho phép tiếp tục tấn công và tối ưu quy luật tấn công của người đeo."
+          "story": "Vật dụng đa năng mà Mặt nạ cười dùng cho nhiệm vụ ám sát. Đây là món đồ chuyên dụng của Mặt nạ cười, nổi tiếng với khả năng kết liễu mục tiêu nhanh chóng và gọn ghẽ. Với thiết kế tối ưu quy luật công kích của người đeo, nó hỗ trợ kiểm soát vũ khí ném hiệu quả và tăng sức mạnh của các đòn đánh liên tiếp trong khi tung chiêu Cơn lốc lưỡi kiếm."
         }
       },
       "s3": {
@@ -5835,123 +5835,123 @@
       }
     },
     "46": {
-      "name": "",
-      "subtitle": "",
-      "description": "",
-      "story": "",
-      "like": "",
-      "dislike": "",
+      "name": "Zafir",
+      "subtitle": "Hoàng tử bão cát",
+      "description": "Hậu duệ của Thần vương cổ đại. Một chàng trai trẻ tài ba dám đứng lên gồng gánh cả sa mạc. Trận bão cát mà anh triệu hồi bằng mũi tên sẽ nhấn chìm kẻ địch, quét sạch chúng khỏi thế gian.",
+      "story": "Một vị Hoàng tử và cũng là người kế vị Thần vương của vương quốc sa mạc cổ đại, có khả năng khống chế cát sa mạc. Là thủ lĩnh trẻ tuổi dẫn dắt tộc Mauhata của những Chiến binh sa mạc, anh được huấn luyện và dạy dỗ để trở thành người xứng đáng nối ngôi đức vua vĩ đại. Khi những người anh em kết nghĩa của họ ở tộc Trovatia cầu nguyện nơi Thần điện dòng chảy để thức tỉnh Thần rồng, anh đã thống lĩnh các chiến binh tiêu diệt lũ ác quỷ lăm le đến gần hòn đảo. Với sự trợ giúp của Thần rồng và nữ tu sĩ của cô là Laudia, anh đã bảo vệ được quê hương, làm tròn bổn phận của một Chiến binh sa mạc. Anh hy vọng rằng mọi nỗ lực của mình sẽ làm cho Thần vương quá cố tự hào.",
+      "like": "Mèo, nghệ thuật trên cát, cư dân sa mạc",
+      "dislike": "Kẻ tìm cách hãm hại những người mà anh quan tâm",
       "inn": {
-        "idle": "",
+        "idle": "Ồ, thức uống gì mà kỳ lạ chưa?",
         "recruit": {
-          "greet": "",
+          "greet": "Nguyện cầu Thần vương sẽ luôn che chở cho ngươi.",
           "talk": [
-            "",
-            "",
-            ""
+            "Ừm, chỗ này khác xa mấy quán rượu ở sa mạc. Ta không được ngồi bệt đâu nhỉ?",
+            "Chiến binh sa mạc luôn đặt người dân lên trên hết.",
+            "...Ta không thích chỗ đông người cho lắm, nhưng bầu không khí thoải mái này... cũng chẳng có gì để chê cả."
           ],
-          "gift": ""
+          "gift": "Thật là rộng lượng. Cảm ơn nhé."
         },
         "affinity": {
-          "greet": "",
+          "greet": "Dạo này ngươi khỏe chứ?",
           "talk": [
-            "",
-            ""
+            "Lời sấm truyền nói rằng Thần vương sắp hồi sinh.",
+            "...Khi nào rảnh nhớ ghé Aegina. Ta sẽ dẫn ngươi thăm thú mọi nơi."
           ],
-          "gift": ""
+          "gift": "Các Chiến binh sa mạc cũng sẽ hoan nghênh ngươi lắm đấy."
         },
         "relationship": {
-          "greet": "",
+          "greet": "Hoan nghênh, chiến hữu sa mạc của ta.",
           "talk": [
-            "",
-            "",
-            ""
+            "Ta thích mèo... Chẳng có loài vật nào duyên dáng hơn thế.",
+            "Ngay cả trận bão cát dữ dội nhất nơi sa mạc cũng không làm Chiến binh sa mạc chùn bước.",
+            "Dù mang huyết thống hoàng tộc nhưng ta còn phải nỗ lực rất nhiều để trở thành người kế vị xứng đáng."
           ]
         }
       },
       "uw": {
-        "name": "",
+        "name": "Hào quang Thần vương, Zaries",
         "description": [
-          "",
-          "",
-          "",
-          "",
-          "",
-          ""
+          "Khi sử dụng một kĩ năng, nhận 1 lần cộng dồn 'Ý chí của sa mạc'. 'Ý chí của sa mạc' tăng 4% Tấn công và 20 điểm Xuyên phòng thủ trong 10 giây, có thể cộng dồn tối đa 5 lần. Hiệu ứng này không thể gỡ bỏ.",
+          "Khi sử dụng một kĩ năng, nhận 1 lần cộng dồn 'Ý chí của sa mạc'. 'Ý chí của sa mạc' tăng 4.8% Tấn công và 24 điểm Xuyên phòng thủ trong 10 giây, có thể cộng dồn tối đa 5 lần. Hiệu ứng này không thể gỡ bỏ.",
+          "Khi sử dụng một kĩ năng, nhận 1 lần cộng dồn 'Ý chí của sa mạc'. 'Ý chí của sa mạc' tăng 5.6% Tấn công và 29 điểm Xuyên phòng thủ trong 10 giây, có thể cộng dồn tối đa 5 lần. Hiệu ứng này không thể gỡ bỏ.",
+          "Khi sử dụng một kĩ năng, nhận 1 lần cộng dồn 'Ý chí của sa mạc'. 'Ý chí của sa mạc' tăng 6.8% Tấn công và 35 điểm Xuyên phòng thủ trong 10 giây, có thể cộng dồn tối đa 5 lần. Hiệu ứng này không thể gỡ bỏ.",
+          "Khi sử dụng một kĩ năng, nhận 1 lần cộng dồn 'Ý chí của sa mạc'. 'Ý chí của sa mạc' tăng 8% Tấn công và 42 điểm Xuyên phòng thủ trong 10 giây, có thể cộng dồn tối đa 5 lần. Hiệu ứng này không thể gỡ bỏ.",
+          "Khi sử dụng một kĩ năng, nhận 1 lần cộng dồn 'Ý chí của sa mạc'. 'Ý chí của sa mạc' tăng 10% Tấn công và 50 điểm Xuyên phòng thủ trong 10 giây, có thể cộng dồn tối đa 5 lần. Hiệu ứng này không thể gỡ bỏ."
         ],
-        "story": ""
+        "story": "Một Vũ khí cổ đại được tôi luyện cho thực thể diễm lệ nhất thế gian. Một người phải trải qua nhiều thử thách khắc nghiệt để chứng minh mình xứng đáng có được món vũ khí mà xưa nay chỉ dành cho người kế vị Thần vương. Chỉ phục tùng người nối ngôi Thần vương được chọn, cây cung này sở hữu sức mạnh tối thượng chốn sa mạc."
       },
       "s1": {
-        "name": "",
-        "description": "",
+        "name": "Phán quyết của sa mạc",
+        "description": "Gây {0} Sát thương vật lý cho kẻ địch trên diện rộng, và với mỗi kẻ địch trúng đòn, thời gian hồi chiêu giảm 1 giây. Gây {1} Sát thương vật lý cho kẻ địch trúng [Dấu ấn của sa mạc] và xóa bỏ 1 lần cộng dồn [Dấu ấn của sa mạc]. Với mỗi lần sử dụng kĩ năng, Sát thương chí mạng tăng 5%. Hiệu ứng này có thể cộng dồn tối đa 10 lần và không thể xóa bỏ.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "Tăng {0}% lượng sát thương.",
+          "1": "Tăng {0}% lượng sát thương.",
+          "2": "Tăng {0}% lượng sát thương."
         },
-        "light": "",
-        "dark": ""
+        "light": "Hỗ trợ Sát thương chí mạng mỗi lần sử dụng đổi thành 10%.",
+        "dark": "Kẻ địch trúng đòn sẽ bị Mù trong 1 giây."
       },
       "s2": {
-        "name": "",
-        "description": "",
+        "name": "Phước lành của tinh linh cát",
+        "description": "Tạo kết giới quanh đồng minh có HP thấp nhất để hấp thu {1} Sát thương trong {0} giây. Nhận miễn nhiễm trạng thái chế ngự khi kết giới vẫn còn. Sau khi hết thời gian duy trì kết giới, 'Bão cát' được kích hoạt và gây {2} Sát thương vật lý cho kẻ địch trên diện rộng, tạo ra 2 lần cộng dồn [Dấu ấn của sa mạc]. Nếu kết giới bị phá hủy hoặc bị giải trừ, thì 'Bão cát' sẽ không được kích hoạt.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "Tăng {0}% sát thương và Khiên chắn",
+          "1": "Tăng {0}% sát thương và Khiên chắn",
+          "2": "Tăng {0}% sát thương và Khiên chắn"
         },
-        "light": "",
-        "dark": "",
+        "light": "Thời gian hồi chiêu giảm 5 giây.",
+        "dark": "Kẻ địch trúng 'Bão cát' sẽ bị đánh bật ra xa và bị đánh ngã trong 3 giây.",
         "ut": {
-          "name": "",
+          "name": "Dòng cát ảo mộng",
           "description": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "[Phước lành của tinh linh cát] Kết giới hấp thu thêm 20% Sát thương và giải trừ trạng thái chế ngự trên bản thân.",
+            "[Phước lành của tinh linh cát] Kết giới hấp thu thêm 24% Sát thương và giải trừ trạng thái chế ngự trên bản thân.",
+            "[Phước lành của tinh linh cát] Kết giới hấp thu thêm 28% Sát thương và giải trừ trạng thái chế ngự trên bản thân.",
+            "[Phước lành của tinh linh cát] Kết giới hấp thu thêm 34% Sát thương và giải trừ trạng thái chế ngự trên bản thân.",
+            "[Phước lành của tinh linh cát] Kết giới hấp thu thêm 40% Sát thương và giải trừ trạng thái chế ngự trên bản thân.",
+            "[Phước lành của tinh linh cát] Kết giới hấp thu thêm 50% Sát thương và giải trừ trạng thái chế ngự trên bản thân."
           ],
-          "story": ""
+          "story": "Một chiếc đồng hồ cát bị vùi dưới lòng đất trong một thời gian dài, sau khi trận bão cát khủng khiếp hoành hành trên Sa mạc Aegina. Khi dòng cát bên trong chiếc đồng hồ dịch chuyển cũng là lúc ảo cảnh về một thành phố cổ đại hiện lên hết sức sống động. Trước đây, vị linh mục cấp cao từng dùng món đồ này để minh chứng sự huy hoàng của vương quốc trước mắt thần dân. Ngắm nhìn thành phố lấp lánh sắc vàng, người dân càng thêm tự hào về vương quốc mình."
         }
       },
       "s3": {
-        "name": "",
-        "description": "",
+        "name": "Án tử của sa mạc",
+        "description": "Gây {0} Sát thương vật lý cho kẻ địch hàng trước trên diện rộng và tạo ra 1 lần cộng dồn [Dấu ấn của sa mạc]. Sau đó, triệu hồi 'Hố cát' trong 5 giây, gây {1} Sát thương vật lý mỗi 0,5 giây, giảm 30% Phòng thủ vật lý của kẻ địch trong 10 giây. 'Hố cát' có 25% xác suất tạo ra 1 lần cộng dồn [Dấu ấn sa mạc] và kéo kẻ địch ở trong phạm vi vào giữa.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "Tăng {0}% lượng sát thương.",
+          "1": "Tăng {0}% lượng sát thương.",
+          "2": "Tăng {0}% lượng sát thương."
         },
-        "light": "",
-        "dark": "",
+        "light": "Mức tiêu hao mana giảm 1.",
+        "dark": "Thời gian duy trì 'Bão cát' tăng 2 giây.",
         "ut": {
-          "name": "",
+          "name": "Linh hồn ốc đảo",
           "description": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "[Án tử của sa mạc] Thời gian hồi chiêu giảm 30% và xác suất kích hoạt hiệu ứng tăng 8%.",
+            "[Án tử của sa mạc] Thời gian hồi chiêu giảm 30% và xác suất kích hoạt hiệu ứng tăng 9,6%.",
+            "[Án tử của sa mạc] Thời gian hồi chiêu giảm 30% và xác suất kích hoạt hiệu ứng tăng 11,5%.",
+            "[Án tử của sa mạc] Thời gian hồi chiêu giảm 30% và xác suất kích hoạt hiệu ứng tăng 13,8%.",
+            "[Án tử của sa mạc] Thời gian hồi chiêu giảm 30% và xác suất kích hoạt hiệu ứng tăng 16,5%.",
+            "[Án tử của sa mạc] Thời gian hồi chiêu giảm 30% và xác suất kích hoạt hiệu ứng tăng 20%."
           ],
-          "story": ""
+          "story": "Một thanh thần kiếm được truyền lại cho hậu duệ của Thần vương. Cái tên 'Ốc đảo' bắt nguồn từ cách thanh kiếm phục vụ người dân trong thời kỳ lầm than. Sau khi vương quốc sụp đổ, thanh kiếm bị thất lạc cho tới khi Zafir nhìn thấy nó trong bộ sưu tập nghệ thuật của Kumuro và mua lại với giá cao ngất ngưởng. Với thanh kiếm dành cho hậu duệ đích thực trong tay, Zafir có thể tiếp nối ý chí cha ông và trổ hết tiềm năng của mình."
         }
       },
       "s4": {
-        "name": "",
-        "description": "",
+        "name": "Tiếng gọi của hộ vệ",
+        "description": "Mỗi lần tấn công thường có 15% xác suất gây {0} Sát thương vật lý và bỏ qua Phòng thủ của tất cả kẻ địch, tạo ra 1 lần cộng dồn [Dấu ấn của sa mạc]. [Dấu ấn của sa mạc] có thể cộng dồn tối đa 5 lần.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "Tăng {0}% lượng sát thương.",
+          "1": "Tăng {0}% lượng sát thương.",
+          "2": "Tăng {0}% lượng sát thương."
         },
-        "light": "",
-        "dark": ""
+        "light": "Khi có hơn 5 kẻ địch, tất cả kẻ địch đều chịu 5 lần cộng dồn 'Dấu ấn của sa mạc'. Hiệu ứng này được kích hoạt một lần trong mỗi 20 giây.",
+        "dark": "Xác suất kích hoạt đổi thành 30%."
       },
       "t5": {
-        "light": "",
-        "dark": ""
+        "light": "ATK, DEF, HP+15% / Crit Chance +100",
+        "dark": "Hồi 500 điểm mana khi sử dụng kĩ năng. Nếu có hơn 5 kẻ địch, thì tốc độ hồi mana sẽ tăng gấp đôi và Tốc độ tấn công tăng thêm 500 trong 5 giây. Hiệu ứng này không thể cộng dồn."
       }
     },
     "49": {
@@ -6265,12 +6265,12 @@
         "ut": {
           "name": "Vòng tay mặt trời",
           "description": [
-            "[Phước lành của mặt trời] Giảm 1 Tiêu hao mana và thêm 10% Tăng sát thương vật lý đối với mục tiêu trong 10 giây.",
-            "[Phước lành của mặt trời] Giảm 1 Tiêu hao mana và thêm 12% Tăng sát thương vật lý đối với mục tiêu trong 10 giây.",
-            "[Phước lành của mặt trời] Giảm 1 Tiêu hao mana và thêm 14% Tăng sát thương vật lý đối với mục tiêu trong 10 giây.",
-            "[Phước lành của mặt trời] Giảm 1 Tiêu hao mana và thêm 17% Tăng sát thương vật lý đối với mục tiêu trong 10 giây.",
-            "[Phước lành của mặt trời] Giảm 1 Tiêu hao mana và thêm 21% Tăng sát thương vật lý đối với mục tiêu trong 10 giây.",
-            "[Phước lành của mặt trời] Giảm 1 Tiêu hao mana và thêm 25% Tăng sát thương vật lý đối với mục tiêu trong 10 giây."
+            "[Phước lành của mặt trời] Mức Tiêu hao mana giảm 1 và giảm 10% sát thương vật lý của mục tiêu trong 10 giây.",
+            "[Phước lành của mặt trời] Mức Tiêu hao mana giảm 1 và giảm 12% sát thương vật lý của mục tiêu trong 10 giây.",
+            "[Phước lành của mặt trời] Mức Tiêu hao mana giảm 1 và giảm 14% sát thương vật lý của mục tiêu trong 10 giây.",
+            "[Phước lành của mặt trời] Mức Tiêu hao mana giảm 1 và giảm 17% sát thương vật lý của mục tiêu trong 10 giây.",
+            "[Phước lành của mặt trời] Mức Tiêu hao mana giảm 1 và giảm 21% sát thương vật lý của mục tiêu trong 10 giây.",
+            "[Phước lành của mặt trời] Mức Tiêu hao mana giảm 1 và giảm 25% sát thương vật lý của mục tiêu trong 10 giây."
           ],
           "story": "Chiếc vòng tay mà Tổng lãnh thiên thần làm ra để bảo vệ các Thiên thần khi giáng trần. Nhờ chứa đựng ánh mặt trời nên nó tỏa sáng rực rỡ. Khi các thiên thần cảm thấy sợ hãi, ánh mặt trời trong chiếc vòng tay sẽ bảo vệ linh hồn của họ. Số phận của các thiên thần lồng vào chiếc vòng tay, cho nên khi cảm thấy mạng sống bị đe dọa, họ sẽ cảm nhận được nỗi đau đớn của nhau theo bản năng."
         }
@@ -6555,243 +6555,243 @@
       }
     },
     "57": {
-      "name": "",
-      "subtitle": "",
-      "description": "",
-      "story": "",
-      "like": "",
-      "dislike": "",
+      "name": "Lilia",
+      "subtitle": "Con gái bão tố và đại dương",
+      "description": "Một cô nàng Rồng xanh vừa bước qua thời kỳ mới nở, là em gái của Nữ linh mục của nước Laias. Mặc dù vẫn còn trẻ và chưa trải đời, nhưng cô sẽ khiến những kẻ dám coi thường mình phải trả giá đắt. Cô tận dụng nguồn năng lượng nước bất tận để tàn sát quân địch.",
+      "story": "Thần rồng của Ốc đảo, là em gái Nữ linh mục của nước Laias. Cô vẫn còn là một nàng Rồng xanh non trẻ, rất mực yêu quý người chị lớn hơn mình nhiều tuổi. Khi Laias chìm vào giấc ngủ say do kiệt sức trong trận chiến 100 năm về trước, Lilia đã tự mình bảo vệ Thần điện dòng chảy. Mãi đến khi nghe thấy tiếng nguyện cầu khẩn thiết của lũ trẻ sa mạc thì cô mới đánh thức Nữ linh mục của nước để bảo vệ chúng. Tính cách cô có phần nghiêm khắc, khác với vẻ điềm đạm và chín chắn của người chị. Cách cô khống chế sức mạnh dòng chảy và dòng nước cũng mạnh bạo hơn. Cô cảm thấy cần phải bảo vệ người chị xinh đẹp khỏi những gã đàn ông thấp kém, chỉ biết buông lời trăng hoa.",
+      "like": "Laias, đồ uống ngọt, cư dân sa mạc",
+      "dislike": "Những kẻ hay tán tỉnh chị mình (Neraxis, Sereinel)",
       "inn": {
-        "idle": "",
+        "idle": "...Nhiều người thế...",
         "recruit": {
-          "greet": "",
+          "greet": "Nguyện cho Dòng chảy luôn ở bên ngươi!",
           "talk": [
-            "",
-            "",
-            ""
+            "Ta không tốt bụng như chị Laias đâu.",
+            "Rồng xanh yếu xìu á? Bé cái lầm đấy nhé.",
+            "Ta là Rồng trưởng thành. Ta đủ tuổi rồi!"
           ],
-          "gift": ""
+          "gift": "Cảm ơn, nhóc người phàm."
         },
         "affinity": {
-          "greet": "",
+          "greet": "Chào, trông ngươi tuyệt đấy!",
           "talk": [
-            "",
-            ""
+            "Sứ mệnh của chị ấy cũng là của ta. Ta sẽ luôn ở bên chị ấy.",
+            "Bí ẩn của dòng nước vô tận ư? Ừm...Nghe nói đó là cội nguồn sức mạnh của Rồng xanh đầu tiên."
           ],
-          "gift": ""
+          "gift": "Cảm ơn ngươi nhiều lắm. Ta sẽ dùng thứ này cho Thần điện dòng chảy."
         },
         "relationship": {
-          "greet": "",
+          "greet": "Rất vui được gặp lại!",
           "talk": [
-            "",
-            "",
-            ""
+            "Neraxis? Nhắc tên sở khanh ấy làm gì. Hắn đeo bám chị ta mãi mà chẳng biết mệt!",
+            "Sereinel...? Ờ... Cứ tưởng hắn đi đời nhà ma rồi chứ. Ai mà ngờ hắn lại định rù quyến chị ta lần nữa...",
+            "Ta quý chị ta nhất... nhưng cũng rất mến ngươi."
           ]
         }
       },
       "uw": {
-        "name": "",
+        "name": "Dòng suối bất tận, Cielamaha",
         "description": [
-          "",
-          "",
-          "",
-          "",
-          "",
-          ""
+          "Mana hồi 50 điểm mỗi giây và với mỗi đòn tấn công, có 80% xác suất gây Sát thương vật lý tương đương 20% Tấn công.",
+          "Mana hồi 60 điểm mỗi giây và với mỗi đòn tấn công, có 80% xác suất gây Sát thương vật lý tương đương 24% Tấn công.",
+          "Mana hồi 70 điểm mỗi giây và với mỗi đòn tấn công, có 80% xác suất gây Sát thương vật lý tương đương 28% Tấn công.",
+          "Mana hồi 85 điểm mỗi giây và với mỗi đòn tấn công, có 80% xác suất gây Sát thương vật lý tương đương 34% Tấn công.",
+          "Mana hồi 105 điểm mỗi giây và với mỗi đòn tấn công, có 80% xác suất gây Sát thương vật lý tương đương 42% Tấn công.",
+          "Mana hồi 125 điểm mỗi giây và với mỗi đòn tấn công, có 80% xác suất gây Sát thương vật lý tương đương 50% Tấn công."
         ],
-        "story": ""
+        "story": "Dòng suối nguồn tuôn chảy dòng nước vô tận. Đây là chiếc bình tạo tác của Rồng xanh đầu tiên, chủ nhân của mọi nguồn nước trên thế gian. Nó phản ứng theo trí tưởng tượng của người sử dụng. Đối với một cô gái trẻ, nhạy cảm và đầy sáng tạo như Lilia thì đây chính là một bảo vật, một vũ khí vô giá."
       },
       "s1": {
-        "name": "",
-        "description": "",
+        "name": "Xoáy nước",
+        "description": "Trong 8 giây, triệu hồi Xoáy nước tấn công một mục tiêu ngẫu nhiên và những kẻ địch ở gần mục tiêu, gây {0} Sát thương vật lý mỗi 0,5 giây. Nếu mục tiêu bị tiêu diệt, Xoáy nước được triệu hồi để tấn công một mục tiêu ngẫu nhiên khác trong phần thời gian còn lại.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "Tăng {0}% lượng sát thương.",
+          "1": "Tăng {0}% lượng sát thương.",
+          "2": "Tăng {0}% lượng sát thương."
         },
-        "light": "",
-        "dark": ""
+        "light": "Giảm 250 Tốc độ tấn công của mục tiêu trúng đòn trong 10 giây.",
+        "dark": "Mỗi lần sử dụng, lượng sát thương tăng 15%. Cộng dồn tối đa 15."
       },
       "s2": {
-        "name": "",
-        "description": "",
+        "name": "Ốc đảo trường tồn",
+        "description": "Khi được kích hoạt, chuyển thành trạng thái Ốc đảo trường tồn trong 15 giây. Khi ở trạng thái Ốc đảo trường tồn, tốc độ hồi mana mỗi giây tăng 150% và mức Tấn công tăng {0}. Ngoài ra, tất cả các mức Phòng thủ tăng {1}.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "Mức hồi mana và hỗ trợ Tấn công tăng {0}%.",
+          "1": "Mức hồi mana và hỗ trợ Tấn công tăng {0}%.",
+          "2": "Mức hồi mana và hỗ trợ Tấn công tăng {0}%."
         },
-        "light": "",
-        "dark": "",
+        "light": "Mức tiêu hao mana tăng thêm 1 và tác dụng thêm lên đồng minh có mức Tấn công cao nhất ngoài bản thân.",
+        "dark": "Thời gian tác dụng của kĩ năng giảm 5 giây và tất cả các hiệu ứng tăng 100%.",
         "ut": {
-          "name": "",
+          "name": "Trái tim dòng chảy",
           "description": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "[Ốc đảo trường tồn] Không thể gỡ bỏ hiệu ứng và tăng 20% Sát thương chí mạng khi kĩ năng có tác dụng.",
+            "[Ốc đảo trường tồn] Không thể gỡ bỏ hiệu ứng và tăng 24% Sát thương chí mạng khi kĩ năng có tác dụng.",
+            "[Ốc đảo trường tồn] Không thể gỡ bỏ hiệu ứng và tăng 28% Sát thương chí mạng khi kĩ năng có tác dụng.",
+            "[Ốc đảo trường tồn] Không thể gỡ bỏ hiệu ứng và tăng 34% Sát thương chí mạng khi kĩ năng có tác dụng.",
+            "[Ốc đảo trường tồn] Không thể gỡ bỏ hiệu ứng và tăng 42% Sát thương chí mạng khi kĩ năng có tác dụng.",
+            "[Ốc đảo trường tồn] Không thể gỡ bỏ hiệu ứng và tăng 50% Sát thương chí mạng khi kĩ năng có tác dụng."
           ],
-          "story": ""
+          "story": "Một sợi dây chuyền vàng dành cho phái nữ mà Laias làm ra từ một Viên ngọc bảo vệ để tặng Lilia. Sợi dây ánh lên nguồn năng lượng của nguyên tố nước bên trong. Đây là vật tượng trưng cho sự quan tâm săn sóc mà Laias dành cho cô em gái."
         }
       },
       "s3": {
-        "name": "",
-        "description": "",
+        "name": "Thác nước thiên đường",
+        "description": "Bắn giọt nước vào kẻ địch ngẫu nhiên 15 lần, gây tổng cộng {0} Sát thương vật lý. Ngoài ra, bắn giọt nước lớn 5 lần vào mục tiêu ngẫu nhiên và những kẻ địch khác ở gần mục tiêu, gây {1} Sát thương vật lý. Kẻ địch trúng phải giọt nước lớn sẽ bị Choáng trong {2} giây. Mỗi giọt nước bắn ra làm tiêu hao {3} mana và mức tiêu hao mana tăng thêm {4}. Dừng sử dụng khi mức mana bằng 0.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "Tăng {0}% lượng sát thương.",
+          "1": "Tăng {0}% lượng sát thương.",
+          "2": "Tăng {0}% lượng sát thương."
         },
-        "light": "",
-        "dark": "",
+        "light": "Khi sử dụng miễn dịch với trạng thái xấu.",
+        "dark": "Với mỗi giọt nước bắn đi, mức tiêu hao mana và tỷ lệ tiêu thụ mana tăng 100%, đồng thời, với mỗi giọt nước bắn đi, có 50% xác suất ném thêm một giọt nước nữa.",
         "ut": {
-          "name": "",
+          "name": "Ấm nguyên tố không đáy",
           "description": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "[Thác nước thiên đường] Với mỗi đòn tấn công, có 7% xác suất bắn giọt nước lớn, gây Sát thương vật lý tương đương 100% Tấn công và tăng 2% Sát thương chí mạng của bản thân trong 7 giây.",
+            "[Thác nước thiên đường] Với mỗi đòn tấn công, có 7% xác suất bắn giọt nước lớn, gây Sát thương vật lý tương đương 100% Tấn công và tăng 2,4% Sát thương chí mạng của bản thân trong 7 giây.",
+            "[Thác nước thiên đường] Với mỗi đòn tấn công, có 7% xác suất bắn giọt nước lớn, gây Sát thương vật lý tương đương 100% Tấn công và tăng 2,8% Sát thương chí mạng của bản thân trong 7 giây.",
+            "[Thác nước thiên đường] Với mỗi đòn tấn công, có 7% xác suất bắn giọt nước lớn, gây Sát thương vật lý tương đương 100% Tấn công và tăng 3,4% Sát thương chí mạng của bản thân trong 7 giây.",
+            "[Thác nước thiên đường] Với mỗi đòn tấn công, có 7% xác suất bắn giọt nước lớn, gây Sát thương vật lý tương đương 100% Tấn công và tăng 4,2% Sát thương chí mạng của bản thân trong 7 giây.",
+            "[Thác nước thiên đường] Với mỗi đòn tấn công, có 7% xác suất bắn giọt nước lớn, gây Sát thương vật lý tương đương 100% Tấn công và tăng 5% Sát thương chí mạng của bản thân trong 7 giây."
           ],
-          "story": ""
+          "story": "Một chiếc ấm mà những người bạn xương rồng xưa kia đã làm tặng Lilia nhân dịp sinh nhật cô. Chiếc ấm không ngừng tạo ra dòng nước thuần khiết nhất. Tuy vậy, mỗi khi nước tuôn ra quá nhiều thì vòi ấm sẽ bịt lại. Đây là công dụng mà nhóm bạn Xương rồng thêm vào để giúp Lilia luôn kiểm soát được nguồn nước cho đến khi sử dụng thuần thục hơn."
         }
       },
       "s4": {
-        "name": "",
-        "description": "",
+        "name": "Dòng nước thanh tẩy",
+        "description": "Mức hồi mana khi Tấn công là cố định, nhưng mức Tấn công của bản thân tăng thêm {0} và mức hồi mana mỗi giây tăng thành 120. Tương ứng với 6 điểm hồi mana mỗi giây, mức Tấn công tăng thêm 1%.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "Tăng {0}% lượng tăng lực tấn công",
+          "1": "Tăng {0}% lượng tăng lực tấn công",
+          "2": "Tăng {0}% lượng tăng lực tấn công"
         },
-        "light": "",
-        "dark": ""
+        "light": "Đầu mỗi trận đấu, hồi 1.000 điểm mana.",
+        "dark": "Tăng 15% Sát thương đối với Boss."
       },
       "t5": {
-        "light": "",
-        "dark": ""
+        "light": "ATK, DEF, HP+15% / Crit DMG +20%",
+        "dark": "Tăng 15% sức tấn công với mỗi 1 ô mana đang sở hữu."
       }
     },
     "58": {
-      "name": "",
-      "subtitle": "",
-      "description": "",
-      "story": "",
-      "like": "",
-      "dislike": "",
+      "name": "Laudia",
+      "subtitle": "Vũ công ốc đảo",
+      "description": "Một vũ công đến từ bộ tộc du cư trên Sa mạc Aegina. Vũ điệu của cô làm tan chảy trái tim người xem, còn lưỡi kiếm sắc lẹm âm thầm lấy mạng kẻ địch.",
+      "story": "Trovatia là một bộ tộc du cư trên Sa mạc Aegina, thừa kế truyền thống và tín ngưỡng của vương quốc sa mạc cổ đại. Laudia là con gái của tộc trưởng và phục vụ cho Nữ linh mục của nước Laias. Cô cũng thay người cha già chăm lo cho bộ tộc. Khi cô cầu xin giúp đỡ, Thần rồng Laias và cô em gái Lilia đã thức tỉnh sau giấc ngủ say, đưa Laudia cùng bộ tộc vào thần điện và che chở cho họ. Kể từ đó, Laudia không ngừng xông pha diệt trừ lũ ác quỷ trên sa mạc cùng Zafir, thủ lĩnh bộ tộc Mauhata của những Chiến binh sa mạc.",
+      "like": "Laias, Lilia, cư dân sa mạc",
+      "dislike": "Chứng kiến người dân lầm than",
       "inn": {
-        "idle": "",
+        "idle": "Ồ, nơi này hay đấy. Có chỗ nào để ta nhảy một điệu không?",
         "recruit": {
-          "greet": "",
+          "greet": "Xin chào. Nguyện cầu sức mạnh Dòng chảy luôn ở bên ngươi.",
           "talk": [
-            "",
-            "",
-            ""
+            "Ngươi chưa gặp nữ linh mục sao? Ai gặp người rồi thì khó mà quên được...",
+            "Chà, một khi xem ta nhảy thì ngươi chẳng còn tâm trí nghĩ đến chuyện khác nữa đâu.",
+            "Ta không muốn thấy thế giới tươi đẹp này bị tàn phá thêm nữa."
           ],
-          "gift": ""
+          "gift": "Cảm ơn món quà của ngươi. Nhảy một điệu nhé?"
         },
         "affinity": {
-          "greet": "",
+          "greet": "Chào! Vì hai ta đã khá thân thiết rồi, ta gọi tên ngươi được chứ?",
           "talk": [
-            "",
-            ""
+            "Ta thích nơi này. Thật yên tĩnh và thanh bình.",
+            "Làm tộc phó không dễ gì đâu nhé. Ta phải chăm lo cho mọi người trong tộc."
           ],
-          "gift": ""
+          "gift": "Cảm ơn. Ta sẽ mua ít đồ ăn vặt cho lũ nhóc..."
         },
         "relationship": {
-          "greet": "",
+          "greet": "Hân hạnh được gặp mặt. Ngươi đến gặp ta đấy sao?",
           "talk": [
-            "",
-            "",
-            ""
+            "Ngươi đã gặp Lilia với chị cô ấy là Laias chưa? Họ rất tốt bụng. Thể nào ngươi cũng mến họ cho xem.",
+            "Ta cảm nhận được sự rung động mạnh mẽ của Dòng chảy và định mệnh mà chỉ những chiến binh và anh hùng đích thực mới có được.",
+            "Ta vừa sáng tác điệu nhảy mới đấy, ngươi có muốn xem không? Chúng ta có thể cùng nhảy nữa đấy."
           ]
         }
       },
       "uw": {
-        "name": "",
+        "name": "Dòng cát thầm thì, Arlaq",
         "description": [
-          "",
-          "",
-          "",
-          "",
-          "",
-          ""
+          "[Phước lành của ốc đảo] có thể cộng dồn tối đa 12 lần và khi tấn công thường, nhận 10% xác suất giảm 4% thời gian hồi của tất cả các kĩ năng.",
+          "Phước lành của ốc đảo có thể cộng dồn tối đa 13 lần và khi tấn công thường, nhận 10% xác suất giảm 4,8% thời gian hồi của tất cả các kĩ năng.",
+          "Phước lành của ốc đảo có thể cộng dồn tối đa 14 lần và khi tấn công thường, nhận 10% xác suất giảm 5,8% thời gian hồi của tất cả các kĩ năng.",
+          "Phước lành của ốc đảo có thể cộng dồn tối đa 15 lần và khi tấn công thường, nhận 10% xác suất giảm 7% thời gian hồi của tất cả các kĩ năng.",
+          "Phước lành của ốc đảo có thể cộng dồn tối đa 16 lần và khi tấn công thường, nhận 10% xác suất giảm 8,4% thời gian hồi của tất cả các kĩ năng.",
+          "Phước lành của ốc đảo có thể cộng dồn tối đa 17 lần và khi tấn công thường, nhận 10% xác suất giảm 10% thời gian hồi của tất cả các kĩ năng."
         ],
-        "story": ""
+        "story": "Một bảo vật quý hiếm minh chứng cho nhiệt huyết cháy bỏng chốn sa mạc. Tương truyền, cặp vũ khí tuyệt đẹp này được lưu giữ trong kho tàng của Thần vương cổ đại. Khi vung lên, chúng phát ra thanh âm êm ái như cơn gió thoảng. Vũ khí này tựa như một viên đạn bọc đường, như ảo cảnh nơi sa mạc hoang vu..."
       },
       "s1": {
-        "name": "",
-        "description": "",
+        "name": "Lời thì thầm của cát",
+        "description": "Tấn công kẻ địch mục tiêu và gây {0} sát thương phép thuật cho những kẻ địch ở gần, giảm {2} xác suất đỡ đòn và {3} Kháng cự đòn chí mạng của kẻ địch trong {1} giây. Ngoài ra, tấn công và gây {4} sát thương phép thuật, đồng thời gây choáng trong {5} giây.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "Tăng {0}% lượng sát thương.",
+          "1": "Tăng {0}% lượng sát thương.",
+          "2": "Tăng {0}% lượng sát thương."
         },
-        "light": "",
-        "dark": ""
+        "light": "Mức tiêu hao mana giảm 1.",
+        "dark": "Mục tiêu chịu thêm 25% Sát thương phép thuật trong 10 giây."
       },
       "s2": {
-        "name": "",
-        "description": "",
+        "name": "Dòng chảy mê hoặc",
+        "description": "Tăng {1} Tấn công và {2}% Sát thương chí mạng cho bản thân trong {0} giây. Sau đó, tiến lên trước một quãng ngắn, gây {3} Sát thương phép thuật cho những kẻ địch trong phạm vi di chuyển, gây Mê hoặc trong {4} giây nếu kĩ năng được sử dụng ở Đấu trường. Sau khi sử dụng, có thể kích hoạt [Cạm bẫy cám dỗ] một lần trong 5 giây.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "Lượng tăng sức tấn công và lượng sát thương tăng {0}%.",
+          "1": "Lượng tăng sức tấn công và lượng sát thương tăng {0}%.",
+          "2": "Lượng tăng sức tấn công và lượng sát thương tăng {0}%."
         },
-        "light": "",
-        "dark": "",
+        "light": "Nhận 2 quả cầu mana sau khi di chuyển. Mana thu được sẽ tiêu hao trong 5 giây.",
+        "dark": "Sau khi sử dụng Dòng chảy mê hoặc, có thể dùng Cạm bẫy cám dỗ hai lần trong 10 giây.",
         "ut": {
-          "name": "",
+          "name": "Linh vật của Trovatia",
           "description": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "[Dòng chảy mê hoặc] Sau khi di chuyển, hấp thu Sát thương tương đương 160% Tấn công trong 3 giây, sau đó tạo kết giới miễn nhiễm trạng thái chế ngự và mức tiêu hao mana của [Cạm bẫy cám dỗ] giảm 1.",
+            "[Dòng chảy mê hoặc] Sau khi di chuyển, hấp thu Sát thương tương đương 190% Tấn công trong 3 giây, sau đó tạo kết giới miễn nhiễm trạng thái chế ngự và mức tiêu hao mana của [Cạm bẫy cám dỗ] giảm 1.",
+            "[Dòng chảy mê hoặc] Sau khi di chuyển, hấp thu Sát thương tương đương 230% Tấn công trong 3 giây, sau đó tạo kết giới miễn nhiễm trạng thái chế ngự và mức tiêu hao mana của [Cạm bẫy cám dỗ] giảm 1.",
+            "[Dòng chảy mê hoặc] Sau khi di chuyển, hấp thu Sát thương tương đương 270% Tấn công trong 3 giây, sau đó tạo kết giới miễn nhiễm trạng thái chế ngự và mức tiêu hao mana của [Cạm bẫy cám dỗ] giảm 1.",
+            "[Dòng chảy mê hoặc] Sau khi di chuyển, hấp thu Sát thương tương đương 330% Tấn công trong 3 giây, sau đó tạo kết giới miễn nhiễm trạng thái chế ngự và mức tiêu hao mana của [Cạm bẫy cám dỗ] giảm 1.",
+            "[Dòng chảy mê hoặc] Sau khi di chuyển, hấp thu Sát thương tương đương 400% Tấn công trong 3 giây, sau đó tạo kết giới miễn nhiễm trạng thái chế ngự và mức tiêu hao mana của [Cạm bẫy cám dỗ] giảm 1."
           ],
-          "story": ""
+          "story": "Một chiếc rương chứa những cổ vật cần cho lễ tế Rồng nước. Trên rương có một vài họa tiết khảm bằng 'Lưu ly thiên thanh', một loại ngọc tượng trưng cho sự trọn vẹn. Đây là vật mà cha của Laudia trân trọng nhất, chỉ được trao cho người đủ năng lực dẫn dắt cả bộ tộc Trovatia."
         }
       },
       "s3": {
-        "name": "",
-        "description": "",
+        "name": "Vũ điệu của sa mạc",
+        "description": "Tấn công kẻ địch trong phạm vi 30 lần, gây tổng cộng {0} Sát thương phép thuật. Ngoài ra, ném 'Lưỡi dao Arlaq' vào kẻ địch ngẫu nhiên 30 lần, gây tổng cộng {1} Sát thương phép thuật. {2} Sát thương được cộng dồn mỗi khi lưỡi dao đánh trúng cùng một kẻ địch. Sau khi kích hoạt kĩ năng, có thể sử dụng [Gia tốc chói lòa] một lần, và 'Lưỡi dao Arlaq' sẽ ưu tiên nhắm vào kẻ địch bị Mê hoặc.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "Tăng {0}% lượng sát thương.",
+          "1": "Tăng {0}% lượng sát thương.",
+          "2": "Tăng {0}% lượng sát thương."
         },
-        "light": "",
-        "dark": "",
+        "light": "Mức tiêu hao mana của Gia tốc chói lòa giảm 1 và thời gian tác dụng của kĩ năng tăng 2 giây.",
+        "dark": "Mức tiêu hao mana tăng thêm 1 và mức Sát thương tăng 100%.",
         "ut": {
-          "name": "",
+          "name": "Mạng che quyến rũ",
           "description": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "[Vũ điệu của sa mạc] Khi kích hoạt kĩ năng, thời gian hồi chiêu giảm 30% và Xuyên phòng thủ tăng 100.",
+            "[Vũ điệu của sa mạc] Khi kích hoạt kĩ năng, thời gian hồi chiêu giảm 30% và Xuyên phòng thủ tăng 120.",
+            "[Vũ điệu của sa mạc] Khi kích hoạt kĩ năng, thời gian hồi chiêu giảm 30% và Xuyên phòng thủ tăng 140.",
+            "[Vũ điệu của sa mạc] Khi kích hoạt kĩ năng, thời gian hồi chiêu giảm 30% và Xuyên phòng thủ tăng 170.",
+            "[Vũ điệu của sa mạc] Khi kích hoạt kĩ năng, thời gian hồi chiêu giảm 30% và Xuyên phòng thủ tăng 210.",
+            "[Vũ điệu của sa mạc] Khi kích hoạt kĩ năng, thời gian hồi chiêu giảm 30% và Xuyên phòng thủ tăng 250."
           ],
-          "story": ""
+          "story": "Tấm mạng che trong truyền thuyết, chỉ được trao cho vũ công giỏi nhất lục địa. Khi kết hợp với món đồ này, điệu nhảy sẽ mê hoặc tâm trí người xem. Laudia dùng tấm mạng che này để thôi miên kẻ địch bằng điệu nhảy quyến rũ và đạt được mọi thứ như ý nguyện."
         }
       },
       "s4": {
-        "name": "",
-        "description": "",
+        "name": "Phước lành của ốc đảo",
+        "description": "Giảm {0}% thời gian bản thân nhiễm Trạng thái chế ngự. Khi sử dụng kĩ năng, nhận [Phước lành của ốc đảo] trong {1} giây, tăng {2} Xuyên phòng thủ và {3} Phòng thủ của bản thân. [Phước lành của ốc đảo] có thể cộng dồn tối đa {4} lần và không thể gỡ bỏ.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "Hỗ trợ Phòng thủ và Xuyên phòng thủ tăng {0}%.",
+          "1": "Hỗ trợ Phòng thủ và Xuyên phòng thủ tăng {0}%.",
+          "2": "Hỗ trợ Phòng thủ và Xuyên phòng thủ tăng {0}%."
         },
-        "light": "",
-        "dark": ""
+        "light": "Nhận 2 lần cộng dồn Phước lành của ốc đảo.",
+        "dark": "Với mỗi lần cộng dồn, mức Sát thương phải chịu từ kẻ địch không phải anh hùng giảm 2%"
       },
       "t5": {
-        "light": "",
-        "dark": ""
+        "light": "ATK, DEF, HP+15% / ATK.Spd +100",
+        "dark": "Đầu mỗi trận đấu, nhận miễn nhiễm trạng thái chế ngự trong 5 giây và Độ chính xác, Độ chính xác của trạng thái chế ngự tăng 300 trong 10 giây."
       }
     },
     "62": {
@@ -7083,7 +7083,7 @@
       },
       "s1": {
         "name": "Cột Ánh Sáng",
-        "description": "Đặt Cột Ánh Sáng lên đối thủ gây tổng {0} sát thương phép trong 5 giây và giảm {1}% lực tấn công trong 10 giây.",
+        "description": "Đặt Cột Ánh Sáng lên đối thủ gây tổng {0} sát thương phép trong 3 giây và giảm {1}% lực tấn công trong 10 giây.",
         "books": {
           "0": "Tăng {0}% lượng sát thương.",
           "1": "Tăng {0}% lượng sát thương.",
@@ -8072,7 +8072,7 @@
             "[Tín điều che chở] Giảm 1 lượng tiêu hao mana và làm hồi phục 840 mana của đối tượng.",
             "[Tín điều che chở] Giảm 1 lượng tiêu hao mana và làm hồi phục 1000 mana của đối tượng."
           ],
-          "story": "Loman từng khắc những bức tượng nhỏ bằng bàn tay trong khi ngẫm nghĩ về một sự cố nào đó. Lúc gọt giũa những chỗ xù xì, anh cảm thấy thanh thản và nhớ lại quyết tâm hồi anh còn mới học việc. Ban đầu, đó chỉ là trò tiêu khiển, nhưng việc chạm khắc nhanh chóng trở thành sở thích; căn phòng của anh bày hàng trăm những mẫu tượng điêu khắc. Rồi một ngày, Loman bắt đầu làm búp bê gỗ để tặng cho bạn bè và quân nhân của mình. Ngày trước, ở Orvelia, người ta thường truyền tai nhau rằng búp bê phép thuật có tác dụng xua đuổi quỷ dữ, bảo vệ tâm hồn. Loman đã nhờ một pháp sư già rành rẽ các phương thức cổ xưa yểm thần chú bảo hộ lên đám búp bê gỗ, rồi anh đã tặng chúng cho cộng sự của mình."
+          "story": "Loman thường khắc những bức tượng nhỏ bằng bàn tay khi cần suy nghĩ rõ ràng về một sai lầm nào đó. Mỗi khi gọt giũa những chỗ xù xì là anh sẽ bình tâm lại, rồi nhớ về cái thời mình mới chập chững vào nghề. Ban đầu, anh chỉ coi đó là thú vui, nhưng dần dà lại say mê công việc ấy. Chẳng mấy chốc, phòng anh đầy nhóc những bức tượng đẽo tay. Một ngày kia, Loman bắt tay làm búp bê gỗ để tặng cho bạn bè và đồng đội. Ở Orvelia thời đó, người ta tin rằng búp bê phép thuật có tác dụng xua đuổi quỷ dữ, bảo vệ tâm hồn. Loman bèn nhờ một pháp sư già tinh thông thuật pháp dân gian cổ xưa yểm thần chú bảo hộ lên đám búp bê gỗ, rồi anh tặng chúng cho đồng đội mình."
         }
       },
       "s3": {
@@ -8083,7 +8083,7 @@
           "1": "Tăng {0}% sát thương",
           "2": "Tăng {0}% sát thương"
         },
-        "light": "'Dấu ấn tín điều' được duy trì thêm 5 giây nữa.",
+        "light": "Tăng 100% lượng sát thương khi chỉ có 1 đối thủ.",
         "dark": "Khi sử dụng, được miễn nhiễm trạng thái chế ngự.",
         "ut": {
           "name": "Thần chú đại dương",
@@ -8107,11 +8107,11 @@
           "2": "Tăng {0}% sát thương"
         },
         "light": "Tăng số lần cộng dồn 'Chịu đựng' mỗi giây thêm 1.",
-        "dark": "Đổi tỷ lệ Giảm sức tấn công thành 30%."
+        "dark": "Giảm 200 điểm tốc độ tấn công của kẻ địch chịu ảnh hưởng trong 10 giây."
       },
       "t5": {
         "light": "ATK, DEF, HP+15% / M. Block +200",
-        "dark": "Tăng sức Tấn công và Phòng thủ phép thuật của tất cả các đồng minh tương đương 3% Phòng thủ phép thuật của Loman."
+        "dark": "Khi chặn thành công đòn sát thương phép thuật thì trong 10 giây, tất cả đồng minh được tăng 200 điểm đỡ đòn phép thuật và thêm 10% phòng thủ phép thuật tương đương mức phòng thủ phép thuật của Loman. Hiệu ứng này chỉ kích hoạt một lần sau mỗi 20 giây."
       }
     }
   },

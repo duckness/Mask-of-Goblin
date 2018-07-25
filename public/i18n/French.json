@@ -900,7 +900,7 @@
       },
       "s4": {
         "name": "Diffusion de Flammes",
-        "description": "Inflige {0} DEG M. à 3 ennemis maximum et ajoute 1 Braise. Chaque braise réduit la DEF M. de 5%.",
+        "description": "Inflige {0}  points de DEG M à 3 cibles et aux ennemis alentour, et applique 1 charge de Braises. Réduit de 5 % la DEF M des ennemis touchés par Braises.",
         "books": {
           "0": "Augmente les DEG de {0}%.",
           "1": "Augmente les DEG de {0}%.",
@@ -1712,7 +1712,7 @@
             "[Ruée] Augmente les DEG de 42 % et donne 15 % de chances d'invoquer 1 Flèche de ruée lors d'une attaque normale.",
             "[Ruée] Augmente les DEG de 50 % et donne 15 % de chances d'invoquer 1 Flèche de ruée lors d'une attaque normale."
           ],
-          "story": "Cette pierre renferme l’esprit violent de l’arc de vent. Cet esprit fut scellé par le roi des fées, car il provoquait sans cesse des ennuis et jouait des tours maléfiques. L’esprit de l’arc de vent est assoiffé de combats et augmente le taux de victimes de l’archer qui l’aura invoqué au moins 5 fois."
+          "story": "Cette pierre est la prison d'un élémentaire aventureux de l'arc de vent. Il a causé tellement d'ennuis qu'il a été scellé dans cette pierre par le roi des fées. Il imprègne les flèches d'un vent destructeur, ce qui multiplie leur force par 5, au minimum."
         }
       },
       "s3": {
@@ -1740,7 +1740,7 @@
       },
       "s4": {
         "name": "Flèche Clair de Lune",
-        "description": "Lors d'une attaque, pendant {0} sec, l'ATQ augmente de {1} et les Chances de Crit de {2}. Cumulable 3 fois.",
+        "description": "Augmente l'ATQ de {1}  points et les chances de coup critique de {2} pendant {0}  sec. Cet effet est cumulable 3 fois au maximum.",
         "books": {
           "0": "Le taux d'augmentation d'Attaque augmente de  {0}%.",
           "1": "Le taux d'augmentation d'Attaque augmente de  {0}%.",
@@ -2047,7 +2047,7 @@
         "books": {
           "0": "Augmente les DEG de {0}%.",
           "1": "Augmente les DEG de {0}%.",
-          "2": "Lors d'un Coup Critique, 2 charges de Poison sont appliquées."
+          "2": "Chaque coup critique applique 2 charges de Poison."
         },
         "light": "Le nombre de coups touchés est augmenté de 1.",
         "dark": "Les ennemis ayant au moins 5 charges de poison subissent Entrave pendant 3 sec."
@@ -2220,7 +2220,7 @@
       },
       "s4": {
         "name": "Serment des Chevaliers",
-        "description": "Inflige {0} points de DEG P. vers l'avant après un blocage, et réduit l'ATQ des ennemis touchés de {2}% pendant {1} sec.",
+        "description": "Lors d'une parade, inflige {0}  points de DEG P aux ennemis situés en face et réduit de {2}  % l'ATQ des cibles touchées pendant {1}  sec. Restaure 300 PM après avoir touché la cible.",
         "books": {
           "0": "Augmente les DEG de {0}%.",
           "1": "Augmente les DEG de {0}%.",
@@ -3145,12 +3145,12 @@
         "ut": {
           "name": "Gants en cuir de dragonnet",
           "description": [
-            "[Hellfire] Upon blocking target's M.ATK during the skill's duration, DMG reduction is increased by 100 and M.Crit resistance is increased by 250.",
-            "[Hellfire] Upon blocking target's M.ATK during the skill's duration, DMG reduction is increased by 120 and M.Crit resistance is increased by 250.",
-            "[Hellfire] Upon blocking target's M.ATK during the skill's duration, DMG reduction is increased by 140 and M.Crit resistance is increased by 250.",
-            "[Hellfire] Upon blocking target's M.ATK during the skill's duration, DMG reduction is increased by 170 and M.Crit resistance is increased by 250.",
-            "[Hellfire] Upon blocking target's M.ATK during the skill's duration, DMG reduction is increased by 210 and M.Crit resistance is increased by 250.",
-            "[Hellfire] Upon blocking target's M.ATK during the skill's duration, DMG reduction is increased by 250 and M.Crit resistance is increased by 250."
+            "[Flammes infernales] Si vous bloquez l'ATQ M de la cible pendant la durée de cette compétence, la réduction de DEG augmente de 100 points et la résistance aux coups critiques magiques de 250.",
+            "[Flammes infernales] Si vous bloquez l'ATQ M de la cible pendant la durée de cette compétence, la réduction de DEG augmente de 120 points et la résistance aux coups critiques magiques de 250.",
+            "[Flammes infernales] Si vous bloquez l'ATQ M de la cible pendant la durée de cette compétence, la réduction de DEG augmente de 140 points et la résistance aux coups critiques magiques de 250.",
+            "[Flammes infernales] Si vous bloquez l'ATQ M de la cible pendant la durée de cette compétence, la réduction de DEG augmente de 170 points et la résistance aux coups critiques magiques de 250.",
+            "[Flammes infernales] Si vous bloquez l'ATQ M de la cible pendant la durée de cette compétence, la réduction de DEG augmente de 210 points et la résistance aux coups critiques magiques de 250.",
+            "[Flammes infernales] Si vous bloquez l'ATQ M de la cible pendant la durée de cette compétence, la réduction de DEG augmente de 250 points et la résistance aux coups critiques magiques de 250."
           ],
           "story": "Gants confectionnés à partir d’os et de peau de dragonnet. Morrah les a fabriqués il y a cent ans en récupérant les dragonnets qu’elle avait tués lors de ses chasses au dragon. Ils sont capables de résister aux flammes de Morrah et confèrent même une plus grande puissance qui attise ces flammes. Morrah apprécie beaucoup ces gants."
         }
@@ -3243,7 +3243,7 @@
       },
       "s1": {
         "name": "Nova Sacrée",
-        "description": "Cible l'allié ayant le moins de PV, le soigne ainsi que tous les alliés à proximité de {0} PV. Réduit également la vitesse des ennemis proches de la cible de {2}% pendant {1} secondes.",
+        "description": "Cible l'allié ayant le moins de PV, le soigne ainsi que tous les alliés à proximité de {0} PV. Réduit également la vitesse des ennemis proches de la cible de {3}% pendant {2} secondes.",
         "books": {
           "0": "Augmente la Récupération et les DEG de {0}%.",
           "1": "Augmente la Récupération et les DEG de {0}%.",
@@ -4112,7 +4112,7 @@
             "[Feu purificateur] Réduit le coût en mana de 1 point et augmente les DEG de 42 %.",
             "[Feu purificateur] Réduit le coût en mana de 1 point et augmente les DEG de 50 %."
           ],
-          "story": "Symbole de l’armée des arbitres de feu. Ce symbole de l’armée des arbitres de feu a accompli de grandes choses au cours de la guerre contre les démons. Lorsqu’il utilise le carré magique de poursuite grâce à la lumière de la déesse Lua, Arch devient un arbitre sans merci."
+          "story": "Cet objet est le symbole de l'armée des arbitres de feu qui ont mené un combat acharné contre des démons ancestraux. Lorsque vous utilisez le carré magique de poursuite béni par Lua, la déesse de la Lumière, Arch se transforme en arbitre sans pitié."
         }
       },
       "s3": {
@@ -4345,12 +4345,12 @@
         "ut": {
           "name": "Épée pourfendeuse des flots",
           "description": [
-            "[Dimension Cleaver] DMG is increased by 50% and own Crit DMG is increased by 10% for 8 sec per each hit enemies. This effect can be stacked max 5 times.",
-            "[Dimension Cleaver] DMG is increased by 50% and own Crit DMG is increased by 12% for 8 sec per each hit enemies. This effect can be stacked max 5 times.",
-            "[Dimension Cleaver] DMG is increased by 50% and own Crit DMG is increased by 14% for 8 sec per each hit enemies. This effect can be stacked max 5 times.",
-            "[Dimension Cleaver] DMG is increased by 50% and own Crit DMG is increased by 17% for 8 sec per each hit enemies. This effect can be stacked max 5 times.",
-            "[Dimension Cleaver] DMG is increased by 50% and own Crit DMG is increased by 21% for 8 sec per each hit enemies. This effect can be stacked max 5 times.",
-            "[Dimension Cleaver] DMG is increased by 50% and own Crit DMG is increased by 25% for 8 sec per each hit enemies. This effect can be stacked max 5 times."
+            "[Fendoir dimensionnel] Les dégâts augmentent de 50% et les DEG Crit augmentent de 10% pendant 8 s à chaque ennemi touché. Cet effet est cumulable 5 fois au maximum.",
+            "[Fendoir dimensionnel] Les dégâts augmentent de 50% et les DEG Crit augmentent de 12% pendant 8 s à chaque ennemi touché. Cet effet est cumulable 5 fois au maximum.",
+            "[Fendoir dimensionnel] Les dégâts augmentent de 50% et les DEG Crit augmentent de 14% pendant 8 s à chaque ennemi touché. Cet effet est cumulable 5 fois au maximum.",
+            "[Fendoir dimensionnel] Les dégâts augmentent de 50% et les DEG Crit augmentent de 17% pendant 8 s à chaque ennemi touché. Cet effet est cumulable 5 fois au maximum.",
+            "[Fendoir dimensionnel] Les dégâts augmentent de 50% et les DEG Crit augmentent de 21% pendant 8 s à chaque ennemi touché. Cet effet est cumulable 5 fois au maximum.",
+            "[Fendoir dimensionnel] Les dégâts augmentent de 50% et les DEG Crit augmentent de 25% pendant 8 s à chaque ennemi touché. Cet effet est cumulable 5 fois au maximum."
           ],
           "story": "Épée légendaire ayant traversé les époques. Cette épée légendaire fut fabriquée à partir de la lumière du soleil et de l’âme en fusion des souffrants. Elle est nécessaire au fendoir dimensionnel, car elle peut supporter la transition entre les dimensions et peut être affûtée à l’extrême."
         }
@@ -4832,7 +4832,7 @@
             "[Tornade de lames] Augmente les DEG de 42 % et réduit le temps de recharge de 8 % lorsque vous assénez un coup critique.",
             "[Tornade de lames] Augmente les DEG de 50 % et réduit le temps de recharge de 8 % lorsque vous assénez un coup critique."
           ],
-          "story": "Outil du Masque Rieur multi-usage servant aux assassinats. Cet objet unique du Masque Rieur se débarrasse de sa cible de manière rapide et précise. Même pendant Tornade de Lames, il permet de prolonger une attaque et s’adapte aux schémas d’attaque de son porteur."
+          "story": "Cet outil multifonction sert aux membres du Masque rieur pour commettre leurs assassinats. Il est propre au Masque rieur, dont les membres sont connus pour leur vitesse et leur efficacité dans l'élimination de leurs cibles. Optimisé d'après le schéma d'attaque de son porteur, il permet d'améliorer la manipulation des armes de jet et renforce les attaques continues pendant Tornade de lames."
         }
       },
       "s3": {
@@ -5185,12 +5185,12 @@
         "ut": {
           "name": "Collier du Dieu de la Foudre",
           "description": [
-            "[God of Lightning] ATK Spd is increased by 250 for the duration of skill, and the activation chance of 'For Jane' is increased by an additional 8%.",
-            "[God of Lightning] ATK Spd is increased by 250 for the duration of skill, and the activation chance of 'For Jane' is increased by an additional 9.6%.",
-            "[God of Lightning] ATK Spd is increased by 250 for the duration of skill, and the activation chance of 'For Jane' is increased by an additional 11.5%.",
-            "[God of Lightning] ATK Spd is increased by 250 for the duration of skill, and the activation chance of 'For Jane' is increased by an additional 13.8%.",
-            "[God of Lightning] ATK Spd is increased by 250 for the duration of skill, and the activation chance of 'For Jane' is increased by an additional 16.5%.",
-            "[God of Lightning] ATK Spd is increased by 250 for the duration of skill, and the activation chance of 'For Jane' is increased by an additional 20%."
+            "[Dieu de la foudre] La Vit ATQ augmente de 250 points pendant la durée de la compétence, et les chances d'activer Pour Jane augmentent de 8% supplémentaires.",
+            "[Dieu de la foudre] La Vit ATQ augmente de 250 points pendant la durée de la compétence, et les chances d'activer Pour Jane augmentent de 9,6% supplémentaires.",
+            "[Dieu de la foudre] La Vit ATQ augmente de 250 points pendant la durée de la compétence, et les chances d'activer Pour Jane augmentent de 11,5% supplémentaires.",
+            "[Dieu de la foudre] La Vit ATQ augmente de 250 points pendant la durée de la compétence, et les chances d'activer Pour Jane augmentent de 13,8% supplémentaires.",
+            "[Dieu de la foudre] La Vit ATQ augmente de 250 points pendant la durée de la compétence, et les chances d'activer Pour Jane augmentent de 16,5% supplémentaires.",
+            "[Dieu de la foudre] La Vit ATQ augmente de 250 points pendant la durée de la compétence, et les chances d'activer Pour Jane augmentent de 20% supplémentaires."
           ],
           "story": "Aussi appelé foudre du ciel, Legios n’en est pas moins une bête sacrée. La puissance de Legios était si grande que lorsqu’il décida d’en faire une arme, la République de Gray ne put la contenir. Ainsi, la plus grande partie fut placée dans la lance de foudre et le reste à différents endroits. C’est ainsi que le collier du Dieu de la Foudre en reçut une partie. L’on raconte que son porteur peut communier avec la lance de foudre et ainsi se rapprocher de la puissance de Legios."
         }
@@ -5835,123 +5835,123 @@
       }
     },
     "46": {
-      "name": "",
-      "subtitle": "",
-      "description": "",
-      "story": "",
-      "like": "",
-      "dislike": "",
+      "name": "Zafir",
+      "subtitle": "Prince des tempêtes de sable",
+      "description": "Il est le descendant de l'ancien dieu-roi. Ce jeune homme raffiné s'est battu corps et âme pour défendre le désert. La tempête de sable qu'il invoque avec ses flèches engloutit ses ennemis, qui disparaissent instantanément.",
+      "story": "Prince et héritier de l'ancien dieu-roi, il a le pouvoir de contrôler les sables du désert. En tant que jeune chef des guerriers du désert de la tribu Mauhata, il fut entraîné et éduqué pour succéder au grand roi. Lorsque leurs frères d'armes de la tribu Trovatia allèrent prier à l'Autel des flots pour éveiller le dieu-dragon, il ordonna à ses hommes de vaincre tous les démons qui approchaient l'oasis. Avec l'aide du dieu-dragon et de Laudia, sa prêtresse, il remplit son rôle de guerrier du désert : défendre son territoire. Il espère ainsi se montrer à la hauteur des attentes du regretté dieu-roi.",
+      "like": "Les chats, les dessins dans le sable et le peuple du désert",
+      "dislike": "Ceux qui essaient de nuire aux personnes qui lui sont chères",
       "inn": {
-        "idle": "",
+        "idle": "Ça alors ! C'est la première fois que je vois ce genre de boisson.",
         "recruit": {
-          "greet": "",
+          "greet": "Que la bénédiction du dieu-roi soit avec vous.",
           "talk": [
-            "",
-            "",
-            ""
+            "Hum, cet endroit ne ressemble en rien aux bars du désert. On ne s'assied pas par terre, si ?",
+            "Un vrai guerrier du désert fait passer les intérêts de son peuple avant les siens.",
+            "Je n'apprécie guère les endroits bondés, mais cette ambiance insouciante... Ça ne me déplaît pas."
           ],
-          "gift": ""
+          "gift": "Quelle extraordinaire gentillesse ! Je vous remercie."
         },
         "affinity": {
-          "greet": "",
+          "greet": "Comment allez-vous ?",
           "talk": [
-            "",
-            ""
+            "La prophétie dit que la résurrection du dieu-roi est imminente.",
+            "Si le destin vous le permet, venez visiter Aegina à l'occasion. Je serai votre guide."
           ],
-          "gift": ""
+          "gift": "Les guerriers du désert seront heureux d'apprendre que vous allez bien."
         },
         "relationship": {
-          "greet": "",
+          "greet": "Salutations, cher ami du désert.",
           "talk": [
-            "",
-            "",
-            ""
+            "J'aime les chats... En termes d'élégance, ces créatures sont sans rivales.",
+            "La plus violente des tempêtes de sable n'égratigne même pas un guerrier du désert.",
+            "Son sang coule peut-être dans mes veines, mais il me reste du chemin à parcourir pour que je me considère comme son digne héritier."
           ]
         }
       },
       "uw": {
-        "name": "",
+        "name": "Zaries, gloire du dieu-roi",
         "description": [
-          "",
-          "",
-          "",
-          "",
-          "",
-          ""
+          "Lors de l'utilisation d'une compétence, vous accumulez 1 charge de Volonté du désert, ce qui augmente l'ATQ de 4 % et la Pénétration DEF de 20 pendant 10 sec. Cet effet est cumulable 5 fois au maximum et ne peut pas être dissipé.",
+          "Lors de l'utilisation d'une compétence, vous accumulez 1 charge de Volonté du désert, ce qui augmente l'ATQ de 4,8 % et la Pénétration DEF de 24 pendant 10 sec. Cet effet est cumulable 5 fois au maximum et ne peut pas être dissipé.",
+          "Lors de l'utilisation d'une compétence, vous accumulez 1 charge de Volonté du désert, ce qui augmente l'ATQ de 5,6 % et la Pénétration DEF de 29 pendant 10 sec. Cet effet est cumulable 5 fois au maximum et ne peut pas être dissipé.",
+          "Lors de l'utilisation d'une compétence, vous accumulez 1 charge de Volonté du désert, ce qui augmente l'ATQ de 6,8 % et la Pénétration DEF de 35 pendant 10 sec. Cet effet est cumulable 5 fois au maximum et ne peut pas être dissipé.",
+          "Lors de l'utilisation d'une compétence, vous accumulez 1 charge de Volonté du désert, ce qui augmente l'ATQ de 8 % et la Pénétration DEF de 42 pendant 10 sec. Cet effet est cumulable 5 fois au maximum et ne peut pas être dissipé.",
+          "Lors de l'utilisation d'une compétence, vous accumulez 1 charge de Volonté du désert, ce qui augmente l'ATQ de 10 % et la Pénétration DEF de 50 pendant 10 sec. Cet effet est cumulable 5 fois au maximum et ne peut pas être dissipé."
         ],
-        "story": ""
+        "story": "Cette arme antique fut forgée par l'être le plus admirable qui soit. Pour se montrer digne de posséder cet arc, il faut se soumettre à des épreuves inouïes, car il ne peut être porté que par l'héritier du dieu-roi. Il confère un pouvoir absolu dans le désert."
       },
       "s1": {
-        "name": "",
-        "description": "",
+        "name": "Jugement du désert",
+        "description": "Inflige {0}  points de DEG P aux ennemis dans une large zone. À chaque ennemi touché, le temps de recharge de la compétence est réduit de 1 sec. Inflige {1}  points de DEG P aux ennemis touchés par [Marque du désert] et supprime 1 [Marque du désert]. À chaque utilisation de compétence, les DEG Crit augmentent de 5 %. Cet effet est cumulable 10 fois au maximum et ne peut être dissipé.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "DEG augmentés de {0}%.",
+          "1": "DEG augmentés de {0}%.",
+          "2": "DEG augmentés de {0}%."
         },
-        "light": "",
-        "dark": ""
+        "light": "Le boost de DEG Crit par utilisation passe à 10 %.",
+        "dark": "L'ennemi touché est victime d'Aveuglement pendant 1 sec."
       },
       "s2": {
-        "name": "",
-        "description": "",
+        "name": "Bénédiction de l'esprit des sables",
+        "description": "Génère un bouclier autour de l'allié aux PV les plus bas. Il absorbe {1}  points de DEG pendant {0}  sec et confère l'immunité contre les contrôles. Une fois la durée du bouclier écoulée, Tempête de sable est activée et inflige {2}  points de DEG P aux ennemis dans une large zone, appliquant 2 [Marques du désert]. Si le bouclier est dissipé ou détruit, Tempête de sable ne s'active pas.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "DEG et Bouclier sont augmentés de {0}%.",
+          "1": "DEG et Bouclier sont augmentés de {0}%.",
+          "2": "DEG et Bouclier sont augmentés de {0}%."
         },
-        "light": "",
-        "dark": "",
+        "light": "Le temps de recharge est réduit de 5 sec.",
+        "dark": "Les ennemis touchés par Tempête de sable sont repoussés très loin et renversés pendant 3 sec.",
         "ut": {
-          "name": "",
+          "name": "Sable des mirages",
           "description": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "[Bénédiction de l'esprit des sables] Le bouclier absorbe 20 % de DEG supplémentaires et dissipe le contrôle qui pèse sur le lanceur.",
+            "[Bénédiction de l'esprit des sables] Le bouclier absorbe 24 % de DEG supplémentaires et dissipe le contrôle qui pèse sur le lanceur.",
+            "[Bénédiction de l'esprit des sables] Le bouclier absorbe 28 % de DEG supplémentaires et dissipe le contrôle qui pèse sur le lanceur.",
+            "[Bénédiction de l'esprit des sables] Le bouclier absorbe 34 % de DEG supplémentaires et dissipe le contrôle qui pèse sur le lanceur.",
+            "[Bénédiction de l'esprit des sables] Le bouclier absorbe 40 % de DEG supplémentaires et dissipe le contrôle qui pèse sur le lanceur.",
+            "[Bénédiction de l'esprit des sables] Le bouclier absorbe 50 % de DEG supplémentaires et dissipe le contrôle qui pèse sur le lanceur."
           ],
-          "story": ""
+          "story": "Ce sablier resta enfoui pendant des lustres à la suite d'une colossale tempête de sable qui s'abattit sur le désert Aegina. Lorsque le sable s'en écoule, il reflète le mirage de la renaissance d'une civilisation antique. Le grand prêtre de ce royaume oublié s'en servait pour souligner la gloire du royaume devant ses fidèles. La vision de leur cité, brillante et parée d'or, les emplissait toujours d'une grande fierté."
         }
       },
       "s3": {
-        "name": "",
-        "description": "",
+        "name": "Malédiction du désert",
+        "description": "Inflige {0}  points de DEG P aux ennemis situés en face dans une large zone et applique 1 [Marque du désert]. Ensuite, Puits de sable est activé pendant 5 sec, ce qui inflige {1}  points de DEG P toutes les 0,5 sec et réduit la DEF P de 30 % pendant 10 sec. Puits de sable a 25 % de chances d'appliquer 1 [Marque du désert] et d'attirer vers le centre tous les ennemis à portée.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "DEG augmentés de {0}%.",
+          "1": "DEG augmentés de {0}%.",
+          "2": "DEG augmentés de {0}%."
         },
-        "light": "",
-        "dark": "",
+        "light": "Le coût en mana est réduit de 1 point.",
+        "dark": "La durée de Tempête de sable augmente de 2 sec.",
         "ut": {
-          "name": "",
+          "name": "Âme de l'oasis",
           "description": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "[Malédiction du désert] Le temps de recharge de la compétence est réduit de 30 % et les chances d'activation de l'effet augmentent de 8 %.",
+            "[Malédiction du désert] Le temps de recharge de la compétence est réduit de 30 % et les chances d'activation de l'effet augmentent de 9,6 %.",
+            "[Malédiction du désert] Le temps de recharge de la compétence est réduit de 30 % et les chances d'activation de l'effet augmentent de 11,5 %.",
+            "[Malédiction du désert] Le temps de recharge de la compétence est réduit de 30 % et les chances d'activation de l'effet augmentent de 13,8 %.",
+            "[Malédiction du désert] Le temps de recharge de la compétence est réduit de 30 % et les chances d'activation de l'effet augmentent de 16,5 %.",
+            "[Malédiction du désert] Le temps de recharge de la compétence est réduit de 30 % et les chances d'activation de l'effet augmentent de 20 %."
           ],
-          "story": ""
+          "story": "Cette épée magique se transmet de génération en génération parmi les descendants du dieu-roi. Son nom, Oasis, vient de l'aide providentielle qu'elle leur a apportée dans l'adversité. Après la chute du royaume, elle fut perdue. Zafir l'aperçut dans la collection d'art de Kumuro et l'acheta à un prix inconcevable. Une fois l'épée restituée à son propriétaire légitime, Zafir hérita de l'esprit de ses ancêtres, ce qui décupla son potentiel."
         }
       },
       "s4": {
-        "name": "",
-        "description": "",
+        "name": "Appel du gardien",
+        "description": "Chaque attaque auto a 15 % de chances d'infliger {0}  points de DEG P malgré la DEF de tous les ennemis, appliquant au passage 1 [Marque du désert]. [Marque du désert] est cumulable 5 fois au maximum.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "DEG augmentés de {0}%.",
+          "1": "DEG augmentés de {0}%.",
+          "2": "DEG augmentés de {0}%."
         },
-        "light": "",
-        "dark": ""
+        "light": "Lorsque plus de 5 ennemis sont présents, ils accumulent tous 5 Marques du désert. Cet effet peut être activé une fois toutes les 20 sec.",
+        "dark": "Les chances d'activation passent à 30 %."
       },
       "t5": {
-        "light": "",
-        "dark": ""
+        "light": "ATQ, DEF, PV +15% / Chances Crit +100",
+        "dark": "Restaure 500 points de mana lors de l'utilisation d'une compétence. Si plus de 5 ennemis sont présents, le taux de récupération du mana est doublé et la Vit ATQ augmente de 500 points pendant 5 sec. Cet effet ne peut pas être cumulé."
       }
     },
     "49": {
@@ -6025,12 +6025,12 @@
         "ut": {
           "name": "Cœur d’Elliciad",
           "description": [
-            "[Card of Love - Elliciad] Dispels Negative Effects of the target and all skill cooldown are decreased by 6%.",
-            "[Card of Love - Elliciad] Dispels Negative Effects of the target and all skill cooldown are decreased by 7.2%.",
-            "[Card of Love - Elliciad] Dispels Negative Effects of the target and all skill cooldown are decreased by 8.6%.",
-            "[Card of Love - Elliciad] Dispels Negative Effects of the target and all skill cooldown are decreased by 10.4%.",
-            "[Card of Love - Elliciad] Dispels Negative Effects of the target and all skill cooldown are decreased by 12.5%.",
-            "[Card of Love - Elliciad] Dispels Negative Effects of the target and all skill cooldown are decreased by 15%."
+            "[Carte d'amour - Elliciad] Dissipe les effets négatifs qui pèsent sur la cible et diminue le temps de recharge de toutes les compétences de 6%.",
+            "[Carte d'amour - Elliciad] Dissipe les effets négatifs qui pèsent sur la cible et diminue le temps de recharge de toutes les compétences de 7,2%.",
+            "[Carte d'amour - Elliciad] Dissipe les effets négatifs qui pèsent sur la cible et diminue le temps de recharge de toutes les compétences de 8,6%.",
+            "[Carte d'amour - Elliciad] Dissipe les effets négatifs qui pèsent sur la cible et diminue le temps de recharge de toutes les compétences de 10,4%.",
+            "[Carte d'amour - Elliciad] Dissipe les effets négatifs qui pèsent sur la cible et diminue le temps de recharge de toutes les compétences de 12,5%.",
+            "[Carte d'amour - Elliciad] Dissipe les effets négatifs qui pèsent sur la cible et diminue le temps de recharge de toutes les compétences de 15%."
           ],
           "story": "Le cœur d’Elliciad incarne l’esprit de l’amour. Il consume les amours accomplies, mais aussi inavouées, il peut se montrer tantôt brûlant comme la lave, tantôt froid comme la glace. Le pouvoir qu’il renferme dépend de la corruption de l’âme. Si celle-ci est pure, le cœur d’Elliciad dégage une lumière vive incroyablement puissante."
         }
@@ -6145,12 +6145,12 @@
         "ut": {
           "name": "Croc venimeux de basilic",
           "description": [
-            "[Screechy Grass Extract!] Skill cooldown is decreased by 30% and deals 3% of ATK as additional P.DMG per each stacked Tickle Tickle Potion! of target.",
-            "[Screechy Grass Extract!] Skill cooldown is decreased by 30% and deals 3.6% of ATK as additional P.DMG per each stacked Tickle Tickle Potion! of target.",
-            "[Screechy Grass Extract!] Skill cooldown is decreased by 30% and deals 4.3% of ATK as additional P.DMG per each stacked Tickle Tickle Potion! of target.",
-            "[Screechy Grass Extract!] Skill cooldown is decreased by 30% and deals 5.2% of ATK as additional P.DMG per each stacked Tickle Tickle Potion! of target.",
-            "[Screechy Grass Extract!] Skill cooldown is decreased by 30% and deals 6.2% of ATK as additional P.DMG per each stacked Tickle Tickle Potion! of target.",
-            "[Screechy Grass Extract!] Skill cooldown is decreased by 30% and deals 7.5% of ATK as additional P.DMG per each stacked Tickle Tickle Potion! of target."
+            "[Extrait d'herbe stridente !] Le temps de recharge des compétences diminue de 30% et vous infligez 3% de l'ATQ en guise de DEG P pour chaque potion Guili-Guili ! que possède la cible.",
+            "[Extrait d'herbe stridente !] Le temps de recharge des compétences diminue de 30% et vous infligez 3,6% de l'ATQ en guise de DEG P pour chaque potion Guili-Guili ! que possède la cible.",
+            "[Extrait d'herbe stridente !] Le temps de recharge des compétences diminue de 30% et vous infligez 4,3% de l'ATQ en guise de DEG P pour chaque potion Guili-Guili ! que possède la cible.",
+            "[Extrait d'herbe stridente !] Le temps de recharge des compétences diminue de 30% et vous infligez 5,2% de l'ATQ en guise de DEG P pour chaque potion Guili-Guili ! que possède la cible.",
+            "[Extrait d'herbe stridente !] Le temps de recharge des compétences diminue de 30% et vous infligez 6,2% de l'ATQ en guise de DEG P pour chaque potion Guili-Guili ! que possède la cible.",
+            "[Extrait d'herbe stridente !] Le temps de recharge des compétences diminue de 30% et vous infligez 7,5% de l'ATQ en guise de DEG P pour chaque potion Guili-Guili ! que possède la cible."
           ],
           "story": "Vilain croc de basilic capable d’absorber l’énergie maléfique. Son poison est si fort qu’il peut faire fondre l’âme. S’il venait à être mélangé avec de l’herbe stridente, nul ne pourrait survivre à cette préparation. Le cœur de Requina en est déjà tout bouleversé."
         }
@@ -6265,12 +6265,12 @@
         "ut": {
           "name": "Bracelet du soleil",
           "description": [
-            "[Bénédiction du soleil] Réduit le coût en mana de 1 et augmente la Resist P. Faible de la cible de 10 % pendant 10 sec.",
-            "[Bénédiction du soleil] Réduit le coût en mana de 1 et augmente la Resist P. Faible de la cible de 12 % pendant 10 sec.",
-            "[Bénédiction du soleil] Réduit le coût en mana de 1 et augmente la Resist P. Faible de la cible de 14 % pendant 10 sec.",
-            "[Bénédiction du soleil] Réduit le coût en mana de 1 et augmente la Resist P. Faible de la cible de 17 % pendant 10 sec.",
-            "[Bénédiction du soleil] Réduit le coût en mana de 1 et augmente la Resist P. Faible de la cible de 21 % pendant 10 sec.",
-            "[Bénédiction du soleil] Réduit le coût en mana de 1 et augmente la Resist P. Faible de la cible de 25 % pendant 10 sec."
+            "[Bénédiction du Soleil] Réduit le coût en mana de 1 et diminue les DEG P de la cible de 10% pendant 10 sec.",
+            "[Bénédiction du Soleil] Réduit le coût en mana de 1 et diminue les DEG P de la cible de 12% pendant 10 sec.",
+            "[Bénédiction du Soleil] Réduit le coût en mana de 1 et diminue les DEG P de la cible de 14% pendant 10 sec.",
+            "[Bénédiction du Soleil] Réduit le coût en mana de 1 et diminue les DEG P de la cible de 17% pendant 10 sec.",
+            "[Bénédiction du Soleil] Réduit le coût en mana de 1 et diminue les DEG P de la cible de 21% pendant 10 sec.",
+            "[Bénédiction du Soleil] Réduit le coût en mana de 1 et diminue les DEG P de la cible de 25% pendant 10 sec."
           ],
           "story": "Bracelet confectionné par les archanges pour protéger les anges lors de leur venue sur terre. Il renferme le soleil, c’est pourquoi il brille de mille feux. Lorsque les anges sont effrayés, l’on raconte que la lumière du soleil contenue dans le bracelet protège leur âme. Le sort des tous les anges étant mêlé à l’intérieur du bracelet, à chaque fois que la vie de l’un d’entre eux est en danger, les autres le ressentent instantanément."
         }
@@ -6555,243 +6555,243 @@
       }
     },
     "57": {
-      "name": "",
-      "subtitle": "",
-      "description": "",
-      "story": "",
-      "like": "",
-      "dislike": "",
+      "name": "Lilia",
+      "subtitle": "Fille de la tempête et de la mer",
+      "description": "Ce dragon bleu adolescent est la sœur de Laias, la prêtresse de l'eau. Bien qu'elle soit encore inexpérimentée, ceux qui lui manquent de respect le regrettent amèrement. Elle puise son énergie dans l'eau pour anéantir ses ennemis.",
+      "story": "Dieu-dragon de l'oasis et sœur de Laias, la prêtresse de l'eau. Elle n'est encore qu'un jeune dragon bleu débordant d'amour pour sa grande sœur. Il y a cent ans, lorsque Laias tomba dans un profond sommeil après avoir épuisé toutes ses forces au combat, Lilia dut défendre l'Autel des flots toute seule. Ce n'est que lorsqu'elle entendit les prières désespérées des enfants du désert qu'elle réveilla la prêtresse de l'eau pour les protéger. Contrairement à sa sœur, douce et attentionnée, elle se montre stricte, et sa manière de contrôler la force de l'eau est aussi plus agressive. Elle pense devoir protéger sa magnifique sœur contre les hommes, qu'elle trouve indignes et impudiques.",
+      "like": "Laias, les boissons sucrées et le peuple du désert",
+      "dislike": "Les hommes qui tournent autour de sa sœur (Neraxis, Sereinel)",
       "inn": {
-        "idle": "",
+        "idle": "Il y a... trop d'humains...",
         "recruit": {
-          "greet": "",
+          "greet": "Que les flots soient avec vous !",
           "talk": [
-            "",
-            "",
-            ""
+            "Je ne suis pas aussi gentille que ma sœur.",
+            "Faibles, les dragons bleus ? Vous vous trompez complètement.",
+            "Je suis assez grande. Je suis un dragon adulte !"
           ],
-          "gift": ""
+          "gift": "Merci, enfant humain."
         },
         "affinity": {
-          "greet": "",
+          "greet": "Bonjour, vous avez bonne mine !",
           "talk": [
-            "",
-            ""
+            "Les objectifs de ma sœur sont aussi les miens. Je serai toujours à ses côtés.",
+            "Le mystère de l'eau infinie ? Hum... Il me semble qu'il s'agit du pouvoir du premier dragon bleu."
           ],
-          "gift": ""
+          "gift": "Merci infiniment. Je m'en servirai pour l'Autel des flots."
         },
         "relationship": {
-          "greet": "",
+          "greet": "Contente de vous revoir !",
           "talk": [
-            "",
-            "",
-            ""
+            "Neraxis ? Quel imbécile ! Il cherche toujours à accaparer l'attention de ma sœur !",
+            "Sereinel ? Beurk... Je croyais qu'il était parti pour de bon. Je n'arrive pas à croire qu'il fasse encore du gringue à ma sœur...",
+            "J'aime ma sœur plus que tout. Et vous... je vous aime bien aussi."
           ]
         }
       },
       "uw": {
-        "name": "",
+        "name": "Cielamaha, source infinie",
         "description": [
-          "",
-          "",
-          "",
-          "",
-          "",
-          ""
+          "Le mana est récupéré à raison de 50 points par sec et à chaque ATQ, vous avez 80 % de chances d'infliger 20 % de l'ATQ sous forme de DEG P.",
+          "Le mana est récupéré à raison de 60 points par sec et à chaque ATQ, vous avez 80 % de chances d'infliger 24 % de l'ATQ sous forme de DEG P.",
+          "Le mana est récupéré à raison de 70 points par sec et à chaque ATQ, vous avez 80 % de chances d'infliger 28 % de l'ATQ sous forme de DEG P.",
+          "Le mana est récupéré à raison de 85 points par sec et à chaque ATQ, vous avez 80 % de chances d'infliger 34 % de l'ATQ sous forme de DEG P.",
+          "Le mana est récupéré à raison de 105 points par sec et à chaque ATQ, vous avez 80 % de chances d'infliger 42 % de l'ATQ sous forme de DEG P.",
+          "Le mana est récupéré à raison de 125 points par sec et à chaque ATQ, vous avez 80 % de chances d'infliger 50 % de l'ATQ sous forme de DEG P."
         ],
-        "story": ""
+        "story": "Une source dont l'eau jaillit éternellement. Cette jarre fut fabriquée par le premier dragon bleu, maître des mers et des océans. Elle réagit à l'imagination de son porteur. Pour une jeune fille sensible et imaginative comme Lilia, cette jarre n'est pas seulement un trésor, c'est une arme."
       },
       "s1": {
-        "name": "",
-        "description": "",
+        "name": "Tempête marine",
+        "description": "Active Tempête marine pendant 8 sec sur une cible choisie au hasard ainsi que sur les ennemis à sa portée et inflige {0} points de DEG P toutes les 0,5 sec. Si la cible est vaincue, Tempête marine s'active sur une autre cible choisie au hasard pendant la durée restante.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "DEG augmentés de {0}%.",
+          "1": "DEG augmentés de {0}%.",
+          "2": "DEG augmentés de {0}%."
         },
-        "light": "",
-        "dark": ""
+        "light": "La Vit ATQ de la cible touchée diminue de 250 points pendant 10 sec.",
+        "dark": "Chaque utilisation augmente les DEG de 15%. Cumulable 15 fois."
       },
       "s2": {
-        "name": "",
-        "description": "",
+        "name": "Oasis éternelle",
+        "description": "Après activation, Oasis éternelle est déclenchée pendant 15 sec. Pendant Oasis éternelle, le taux de récupération du mana augmente de 150 % et l'ATQ augmente de {0}  points. De plus, toutes les DEF augmentent de {1}  points.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "Les boosts de récupération de mana et d'ATQ augmentent de {0}  %.",
+          "1": "Les boosts de récupération de mana et d'ATQ augmentent de {0}  %.",
+          "2": "Les boosts de récupération de mana et d'ATQ augmentent de {0}  %."
         },
-        "light": "",
-        "dark": "",
+        "light": "Le coût en mana est augmenté de 1 point et l'activation vaut aussi pour l'allié autre que le lanceur qui possède l'ATQ la plus élevée.",
+        "dark": "La durée de la compétence est réduite de 5 sec et tous les effets augmentent de 100 %.",
         "ut": {
-          "name": "",
+          "name": "Cœur des flots",
           "description": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "[Oasis éternelle] L'effet ne peut pas être dissipé et les DEG Crit augmentent de 20 % pendant la durée de la compétence.",
+            "[Oasis éternelle] L'effet ne peut pas être dissipé et les DEG Crit augmentent de 24 % pendant la durée de la compétence.",
+            "[Oasis éternelle] L'effet ne peut pas être dissipé et les DEG Crit augmentent de 28 % pendant la durée de la compétence.",
+            "[Oasis éternelle] L'effet ne peut pas être dissipé et les DEG Crit augmentent de 34 % pendant la durée de la compétence.",
+            "[Oasis éternelle] L'effet ne peut pas être dissipé et les DEG Crit augmentent de 42 % pendant la durée de la compétence.",
+            "[Oasis éternelle] L'effet ne peut pas être dissipé et les DEG Crit augmentent de 50 % pendant la durée de la compétence."
           ],
-          "story": ""
+          "story": "Ce collier en or, serti d'une gemme de protection, fut fabriqué par Laias pour Lilia. Il irradie de l'énergie des élémentaires d'eau qu'il contient. Il symbolise l'amour de Laias pour sa petite sœur."
         }
       },
       "s3": {
-        "name": "",
-        "description": "",
+        "name": "Cascade céleste",
+        "description": "Lance 15 fois des gouttes d'eau sur des ennemis choisis au hasard et leur inflige un total de {0}  points de DEG P. De plus, vous lancez 5 fois de grosses gouttes d'eau sur la cible et les ennemis à portée, ce qui leur inflige {1}  points de DEG P. Les ennemis touchés par les grosses gouttes d'eau sont étourdis pendant {2}  sec. À chaque goutte d'eau lancée, {3}  points de mana sont consommés et le coût en mana augmente de {4}  points. La compétence s'arrête lorsque le mana atteint 0.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "DEG augmentés de {0}%.",
+          "1": "DEG augmentés de {0}%.",
+          "2": "DEG augmentés de {0}%."
         },
-        "light": "",
-        "dark": "",
+        "light": "Donne une immunité aux Contrôles.",
+        "dark": "À chaque goutte d'eau lancée, le coût en mana et le taux de consommation du mana augmentent de 100 %, et vous avez 50 % de chances de lancer une goutte d'eau supplémentaire.",
         "ut": {
-          "name": "",
+          "name": "Marmite sans fond d'élémentaires",
           "description": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "[Cascade céleste] À chaque ATQ, vous avez 7% de chances de lancer une grosse goutte d'eau qui inflige 100% de l'ATQ sous forme de DEG P et augmente les DEG Crit du lanceur de 2% pendant 7 sec.",
+            "[Cascade céleste] À chaque ATQ, vous avez 7% de chances de lancer une grosse goutte d'eau qui inflige 100% de l'ATQ sous forme de DEG P et augmente les DEG Crit du lanceur de 2,4% pendant 7 sec.",
+            "[Cascade céleste] À chaque ATQ, vous avez 7% de chances de lancer une grosse goutte d'eau qui inflige 100% de l'ATQ sous forme de DEG P et augmente les DEG Crit du lanceur de 2,8% pendant 7 sec.",
+            "[Cascade céleste] À chaque ATQ, vous avez 7% de chances de lancer une grosse goutte d'eau qui inflige 100% de l'ATQ sous forme de DEG P et augmente les DEG Crit du lanceur de 3,4% pendant 7 sec.",
+            "[Cascade céleste] À chaque ATQ, vous avez 7% de chances de lancer une grosse goutte d'eau qui inflige 100% de l'ATQ sous forme de DEG P et augmente les DEG Crit du lanceur de 4,2% pendant 7 sec.",
+            "[Cascade céleste] À chaque ATQ, vous avez 7% de chances de lancer une grosse goutte d'eau qui inflige 100% de l'ATQ sous forme de DEG P et augmente les DEG Crit du lanceur de 5% pendant 7 sec."
           ],
-          "story": ""
+          "story": "Cette marmite fut forgée par les vieux amis cactus de Lilia pour son anniversaire. Elle produit sans discontinuer l'eau la plus pure qui soit. Cependant, lorsqu'une certaine quantité d'eau a été utilisée, plus rien ne coule. Cette caractéristique a été imaginée par les cactus pour empêcher Lilia de perdre le contrôle de l'eau, au moins jusqu'à ce qu'elle se fasse la main."
         }
       },
       "s4": {
-        "name": "",
-        "description": "",
+        "name": "Purification marine",
+        "description": "Lors de l'attaque, la récupération de mana est fixe, mais l'ATQ du lanceur augmente de {0}  points et le taux de récupération de mana est de 120 par sec. Tous les 6 points de mana récupérés par seconde, l'ATQ augmente de 1 %.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "Le taux d'augmentation d'Attaque augmente de {0}%.",
+          "1": "Le taux d'augmentation d'Attaque augmente de {0}%.",
+          "2": "Le taux d'augmentation d'Attaque augmente de {0}%."
         },
-        "light": "",
-        "dark": ""
+        "light": "Restaure 1 000 points de mana au début de chaque combat.",
+        "dark": "Inflige 15 % de DEG supplémentaires aux boss."
       },
       "t5": {
-        "light": "",
-        "dark": ""
+        "light": "ATQ, DEF, PV +15% / DEG Crit +20%",
+        "dark": "ATK is increased by 15% per 1 orb of mana."
       }
     },
     "58": {
-      "name": "",
-      "subtitle": "",
-      "description": "",
-      "story": "",
-      "like": "",
-      "dislike": "",
+      "name": "Laudia",
+      "subtitle": "Danseuse de l'oasis",
+      "description": "Cette danseuse est issue d'une tribu nomade du désert Aegina. Quand elle danse, sa grâce fait fondre le cœur de ceux qui la regardent, tandis que ses lames aiguisées ôtent sans un bruit la vie de ses ennemis.",
+      "story": "Les Trovatias sont une tribu nomade du désert Aegina. Ils perpétuent la tradition et la religion de l'antique royaume du désert. Laudia, la fille du chef de cette tribu, sert Laias, la prêtresse de l'eau. Elle veille également sur la tribu au nom de son vieux père. Lorsqu'elle appela à l'aide, Laias et sa sœur Lilia sortirent de leur profond sommeil. Elles l'ont conduite, elle et sa tribu, à l'abri dans l'autel. Depuis lors, Laudia pourfend les démons aux côtés de Zafir, le chef des guerriers du désert de la tribu Mauhata.",
+      "like": "Laias, Lilia et le peuple du désert",
+      "dislike": "Voir les autres souffrir",
       "inn": {
-        "idle": "",
+        "idle": "Oh, quel endroit intéressant ! Il y a une scène où je pourrais danser ?",
         "recruit": {
-          "greet": "",
+          "greet": "Bonjour. Que le pouvoir des flots soit avec vous.",
           "talk": [
-            "",
-            "",
-            ""
+            "Vous n'avez pas vu la prêtresse ? Elle ne passe pas inaperçue...",
+            "Si vous me regardez danser, vous ne pourrez penser à rien d'autre.",
+            "Je ne voudrais pas voir ce monde splendide détruit davantage."
           ],
-          "gift": ""
+          "gift": "Merci pour ce cadeau. Vous voulez danser ?"
         },
         "affinity": {
-          "greet": "",
+          "greet": "Bonjour ! Maintenant que nous sommes un peu plus intimes, on pourrait peut-être oublier les formalités ?",
           "talk": [
-            "",
-            ""
+            "J'aime cet endroit. Il est calme et paisible.",
+            "Ce n'est pas facile de diriger, même en second. Je dois prendre soin de tous les membres de ma tribu."
           ],
-          "gift": ""
+          "gift": "Merci. Je devrais peut-être acheter des en-cas pour les enfants..."
         },
         "relationship": {
-          "greet": "",
+          "greet": "Contente de vous voir. Vous voulez me dire quelque chose ?",
           "talk": [
-            "",
-            "",
-            ""
+            "Avez-vous fait la connaissance de Lilia et de sa sœur Laias ? Elles sont formidables, je suis certaine que vous vous entendrez à merveille.",
+            "Je perçois la force des flots et du destin, propre aux véritables héros et guerriers.",
+            "J'ai élaboré une nouvelle danse. Vous voulez la voir ? Nous pourrions même danser ensemble."
           ]
         }
       },
       "uw": {
-        "name": "",
+        "name": "Arlaq, sables murmurants",
         "description": [
-          "",
-          "",
-          "",
-          "",
-          "",
-          ""
+          "[Bénédiction de l'oasis] peut être cumulée 12 fois au maximum et lors d'une attaque auto, le temps de recharge de toutes les compétences a 10 % de chances d'être réduit de 4 %.",
+          "Bénédiction de l'oasis peut être cumulée 13 fois au maximum et lors d'une attaque auto, le temps de recharge de toutes les compétences a 10 % de chances d'être réduit de 4,8 %.",
+          "Bénédiction de l'oasis peut être cumulée 14 fois au maximum et lors d'une attaque auto, le temps de recharge de toutes les compétences a 10 % de chances d'être réduit de 5,8 %.",
+          "Bénédiction de l'oasis peut être cumulée 15 fois au maximum et lors d'une attaque auto, le temps de recharge de toutes les compétences a 10 % de chances d'être réduit de 7 %.",
+          "Bénédiction de l'oasis peut être cumulée 16 fois au maximum et lors d'une attaque auto, le temps de recharge de toutes les compétences a 10 % de chances d'être réduit de 8,4 %.",
+          "Bénédiction de l'oasis peut être cumulée 17 fois au maximum et lors d'une attaque auto, le temps de recharge de toutes les compétences a 10 % de chances d'être réduit de 10 %."
         ],
-        "story": ""
+        "story": "Ce trésor rarissime symbolise une passion aussi ardente que les flammes du désert. On raconte qu'une paire de ces armes magnifiques serait conservée dans le musée privé de l'ancien dieu-roi. Lorsqu'on les manie, leur son enjôleur rappelle une douce brise d'été. Cette illusion est aussi tentante que mortelle, à la manière d'un mirage dans le désert..."
       },
       "s1": {
-        "name": "",
-        "description": "",
+        "name": "Murmure des sables",
+        "description": "Attaque l'ennemi ciblé et inflige {0}  points de DEG M aux ennemis à portée, réduisant de {2}  points leurs chances de bloquer et de {3}  points leur Résistance Crit pendant {1}  sec. De plus, ces ennemis subissent {4}  points de DEG M et sont étourdis pendant {5}  sec.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "DEG augmentés de {0}%.",
+          "1": "DEG augmentés de {0}%.",
+          "2": "DEG augmentés de {0}%."
         },
-        "light": "",
-        "dark": ""
+        "light": "Le coût en mana est réduit de 1 point.",
+        "dark": "La cible reçoit 25 % de DEG M supplémentaires pendant 10 sec."
       },
       "s2": {
-        "name": "",
-        "description": "",
+        "name": "Flots enchanteurs",
+        "description": "Augmente l'ATQ du lanceur de {1}  points et les DEG Crit de {2}  % pendant {0}  sec. Vous avancez ensuite un peu vers l'avant en infligeant {3}  points de DEG M aux ennemis à portée de ce déplacement. Si cette compétence est utilisée dans l'arène, vous les charmez pendant {4}  sec. Peut déclencher une fois [Embuscade engageante] dans les 5 sec qui suivent l'activation.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "Les boosts d'ATQ et de DEG sont augmentés de {0}%.",
+          "1": "Les boosts d'ATQ et de DEG sont augmentés de {0}%.",
+          "2": "Les boosts d'ATQ et de DEG sont augmentés de {0}%."
         },
-        "light": "",
-        "dark": "",
+        "light": "Octroie 2 orbes de mana à la fin du déplacement. Le mana ainsi gagné est consommé pendant 5 sec.",
+        "dark": "Embuscade engageante peut être déclenchée deux fois dans les 10 sec qui suivent l'activation de Flots enchanteurs.",
         "ut": {
-          "name": "",
+          "name": "Refuge sacré de Trovatia",
           "description": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "[Flots enchanteurs] Après le déplacement, vous absorbez les DEG à hauteur de 160 % de l'ATQ pendant 3 sec, puis générez un bouclier qui vous confère l'immunité contre les contrôles. Le coût en mana d'[Embuscade engageante] est réduit de 1 point.",
+            "[Flots enchanteurs] Après le déplacement, vous absorbez les DEG à hauteur de 190 % de l'ATQ pendant 3 sec, puis générez un bouclier qui vous confère l'immunité contre les contrôles. Le coût en mana d'[Embuscade engageante] est réduit de 1 point.",
+            "[Flots enchanteurs] Après le déplacement, vous absorbez les DEG à hauteur de 230 % de l'ATQ pendant 3 sec, puis générez un bouclier qui vous confère l'immunité contre les contrôles. Le coût en mana d'[Embuscade engageante] est réduit de 1 point.",
+            "[Flots enchanteurs] Après le déplacement, vous absorbez les DEG à hauteur de 270 % de l'ATQ pendant 3 sec, puis générez un bouclier qui vous confère l'immunité contre les contrôles. Le coût en mana d'[Embuscade engageante] est réduit de 1 point.",
+            "[Flots enchanteurs] Après le déplacement, vous absorbez les DEG à hauteur de 330 % de l'ATQ pendant 3 sec, puis générez un bouclier qui vous confère l'immunité contre les contrôles. Le coût en mana d'[Embuscade engageante] est réduit de 1 point.",
+            "[Flots enchanteurs] Après le déplacement, vous absorbez les DEG à hauteur de 400 % de l'ATQ pendant 3 sec, puis générez un bouclier qui vous confère l'immunité contre les contrôles. Le coût en mana d'[Embuscade engageante] est réduit de 1 point."
           ],
-          "story": ""
+          "story": "Ce coffre contient les artéfacts nécessaires au rituel du dragon de l'eau. Il est orné de lapis-lazuli azur, une gemme qui symbolise la complétude. Le père de Laudia tient à ce trésor comme à la prunelle de ses yeux ; il n'est transmis qu'aux rares élus capables de diriger la tribu Trovatia."
         }
       },
       "s3": {
-        "name": "",
-        "description": "",
+        "name": "Danse du désert",
+        "description": "Attaque 30 fois les ennemis à portée et inflige un total de {0}  points de DEG M. Lance également Lames d'Arlaq 30 fois sur des ennemis choisis au hasard et leur inflige un total de {1}  points de DEG M. {2}  points de DEG supplémentaires s'accumulent à chaque fois que les lames touchent le même ennemi. [Accélération aveuglante] peut être déclenchée une fois pendant cette compétence et Lames d'Arlaq vise en priorité les cibles sous le charme.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "DEG augmentés de {0}%.",
+          "1": "DEG augmentés de {0}%.",
+          "2": "DEG augmentés de {0}%."
         },
-        "light": "",
-        "dark": "",
+        "light": "Le coût en mana de Bénédiction aveuglante est réduit de 1 point et la durée de la compétence est augmentée de 2 sec.",
+        "dark": "Le coût en mana est augmenté de 1 et les DEG sont augmentés de 100 %.",
         "ut": {
-          "name": "",
+          "name": "Voile de charme",
           "description": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "[Danse du désert] Le temps de recharge de la compétence est réduit de 30 % et la Pénétration DEF est augmentée de 100 points tant que la compétence est active.",
+            "[Danse du désert] Le temps de recharge de la compétence est réduit de 30 % et la Pénétration DEF est augmentée de 120 points tant que la compétence est active.",
+            "[Danse du désert] Le temps de recharge de la compétence est réduit de 30 % et la Pénétration DEF est augmentée de 140 points tant que la compétence est active.",
+            "[Danse du désert] Le temps de recharge de la compétence est réduit de 30 % et la Pénétration DEF est augmentée de 170 points tant que la compétence est active.",
+            "[Danse du désert] Le temps de recharge de la compétence est réduit de 30 % et la Pénétration DEF est augmentée de 210 points tant que la compétence est active.",
+            "[Danse du désert] Le temps de recharge de la compétence est réduit de 30 % et la Pénétration DEF est augmentée de 250 points tant que la compétence est active."
           ],
-          "story": ""
+          "story": "Ce voile mythique n'est remis qu'à la meilleure danseuse du continent. Lorsque l'on danse avec, les spectateurs sont comme hypnotisés. Laudia s'en sert pour envoûter ses ennemis et parvenir à ses fins lors de ses danses."
         }
       },
       "s4": {
-        "name": "",
-        "description": "",
+        "name": "Bénédiction de l'oasis",
+        "description": "Réduit de {0}  % la durée des contrôles affectant le lanceur. À chaque compétence utilisée, déclenche [Bénédiction de l'oasis] pendant {1}  sec, ce qui augmente la Pénétration DEF de {2}  points et la DEF de {3}. [Bénédiction de l'oasis] peut se cumuler {4}  fois au maximum et ne peut pas être dissipée.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "Les boosts de Pénétration DEF et de DEF augmentent de {0}  %.",
+          "1": "Les boosts de Pénétration DEF et de DEF augmentent de {0}  %.",
+          "2": "Les boosts de Pénétration DEF et de DEF augmentent de {0}  %."
         },
-        "light": "",
-        "dark": ""
+        "light": "Applique 2 charges de Bénédiction de l'oasis.",
+        "dark": "Les DEG reçus des ennemis (autres que les héros) sont réduits de 2 % par charge."
       },
       "t5": {
-        "light": "",
-        "dark": ""
+        "light": "ATQ, DEF, PV +15% / Vit. ATQ +100",
+        "dark": "Au début de chaque combat, confère l'immunité contre les contrôles pendant 5 sec, et augmente la précision et la précision des contrôles de 300 points pendant 10 sec."
       }
     },
     "62": {
@@ -7083,7 +7083,7 @@
       },
       "s1": {
         "name": "Pilier de Lumière",
-        "description": "Place un Pilier de Lumière à l'emplacement de l'ennemi et inflige un total de {0} points de DEG M. en 5 sec et réduit l'ATQ ennemie de {1}% pendant 10 sec.",
+        "description": "Place un Pilier de Lumière à l'emplacement de l'ennemi et inflige un total de {0} points de DEG M. en 3 sec et réduit l'ATQ ennemie de {1}% pendant 10 sec.",
         "books": {
           "0": "DEG augmentés de {0}%.",
           "1": "DEG augmentés de {0}%.",
@@ -7225,12 +7225,12 @@
         "ut": {
           "name": "Anneau Gémeaux de téléportation instantanée",
           "description": [
-            "[Restrain and Protect] Reduces Mana Cost by 1 and upon Crit hit recovers 160 Mana.",
-            "[Restrain and Protect] Reduces Mana Cost by 1 and upon Crit hit recovers 190 Mana.",
-            "[Restrain and Protect] Reduces Mana Cost by 1 and upon Crit hit recovers 230 Mana.",
-            "[Restrain and Protect] Reduces Mana Cost by 1 and upon Crit hit recovers 270 Mana.",
-            "[Restrain and Protect] Reduces Mana Cost by 1 and upon Crit hit recovers 330 Mana.",
-            "[Restrain and Protect] Reduces Mana Cost by 1 and upon Crit hit recovers 400 Mana."
+            "[Restreindre et protéger] Réduit le coût en mana de 1 point et restaure 160 points de mana à chaque coup critique.",
+            "[Restreindre et protéger] Réduit le coût en mana de 1 point et restaure 190 points de mana à chaque coup critique.",
+            "[Restreindre et protéger] Réduit le coût en mana de 1 point et restaure 230 points de mana à chaque coup critique.",
+            "[Restreindre et protéger] Réduit le coût en mana de 1 point et restaure 270 points de mana à chaque coup critique.",
+            "[Restreindre et protéger] Réduit le coût en mana de 1 point et restaure 330 points de mana à chaque coup critique.",
+            "[Restreindre et protéger] Réduit le coût en mana de 1 point et restaure 400 points de mana à chaque coup critique."
           ],
           "story": "Anneau acheté par Mirianne à la « Boutique de jouets magiques extraordinaires » d’Orvel. Elle a fait graver son nom et celui de Sonia à l’intérieur. Cet anneau a un jumeau qui permet une fois par jour à l’un de se téléporter à l’emplacement de l’autre. Mais Sonia ne s’en sert jamais, car cela l’ennuie... Cet anneau est peut-être un jouet, mais il rassure Mirianne de savoir qu’il existe une façon de plus de protéger Sonia."
         }
@@ -7465,12 +7465,12 @@
         "ut": {
           "name": "Dispositif d'enregistrement KARA-00XX",
           "description": [
-            "[Wide-area Cannon] Increases DMG by 50% and reduces ATK Spd of the target by 100 for 10 sec. [Focused Fire] Reduces Cooldown by 2% upon a Crit Hit and recovers 150 Mana.",
-            "[Wide-area Cannon] Increases DMG by 50% and reduces ATK Spd of the target by 120 for 10 sec. [Focused Fire] Reduces Cooldown by 2.4% upon a Crit Hit and recovers 150 Mana.",
-            "[Wide-area Cannon] Increases DMG by 50% and reduces ATK Spd of the target by 140 for 10 sec. [Focused Fire] Reduces Cooldown by 2.9% upon a Crit Hit and recovers 150 Mana.",
-            "[Wide-area Cannon] Increases DMG by 50% and reduces ATK Spd of the target by 170 for 10 sec. [Focused Fire] Reduces Cooldown by 3.5% upon a Crit Hit and recovers 150 Mana.",
-            "[Wide-area Cannon] Increases DMG by 50% and reduces ATK Spd of the target by 210 for 10 sec. [Focused Fire] Reduces Cooldown by 4.2% upon a Crit Hit and recovers 150 Mana.",
-            "[Wide-area Cannon] Increases DMG by 50% and reduces ATK Spd of the target by 250 for 10 sec. [Focused Fire] Reduces Cooldown by 5% upon a Crit Hit and recovers 150 Mana."
+            "[Canon à large spectre] Augmente les DEG de 50% et réduit la Vit ATQ de la cible de 100 points pendant 10 s. [Tir focalisé] À chaque coup critique, réduit le temps de recharge de 2% et restaure 150 points de mana.",
+            "[Canon à large spectre] Augmente les DEG de 50% et réduit la Vit ATQ de la cible de 120 points pendant 10 s. [Tir focalisé] À chaque coup critique, réduit le temps de recharge de 2,4% et restaure 150 points de mana.",
+            "[Canon à large spectre] Augmente les DEG de 50% et réduit la Vit ATQ de la cible de 140 points pendant 10 s. [Tir focalisé] À chaque coup critique, réduit le temps de recharge de 2,9% et restaure 150 points de mana.",
+            "[Canon à large spectre] Augmente les DEG de 50% et réduit la Vit ATQ de la cible de 170 points pendant 10 s. [Tir focalisé] À chaque coup critique, réduit le temps de recharge de 3,5% et restaure 150 points de mana.",
+            "[Canon à large spectre] Augmente les DEG de 50% et réduit la Vit ATQ de la cible de 210 points pendant 10 s. [Tir focalisé] À chaque coup critique, réduit le temps de recharge de 4,2% et restaure 150 points de mana.",
+            "[Canon à large spectre] Augmente les DEG de 50% et réduit la Vit ATQ de la cible de 250 points pendant 10 s. [Tir focalisé] À chaque coup critique, réduit le temps de recharge de 5% et restaure 150 points de mana."
           ],
           "story": "Processeur et enregistreur faisant office de cerveau pour Kara. C'est un véritable trésor imprégné de sagesse ancestrale, et sa capacité dépasse de loin celle de n'importe quel humain. Bien que cet appareil soit des plus sophistiqués, il peine à enregistrer et retranscrire les émotions."
         }
@@ -8065,14 +8065,14 @@
         "ut": {
           "name": "Poupée en bois miniature",
           "description": [
-            "[Shrouding Creed] Reduces Mana Cost by 1 and recovers target's Mana by 400.",
-            "[Shrouding Creed] Reduces Mana Cost by 1 and recovers target's Mana by 480.",
-            "[Shrouding Creed] Reduces Mana Cost by 1 and recovers target's Mana by 580.",
-            "[Shrouding Creed] Reduces Mana Cost by 1 and recovers target's Mana by 700.",
-            "[Shrouding Creed] Reduces Mana Cost by 1 and recovers target's Mana by 840.",
-            "[Shrouding Creed] Reduces Mana Cost by 1 and recovers target's Mana by 1000."
+            "[Credo voilé] Réduit le coût en mana de 1 point et restaure le mana de la cible à hauteur de 400 points.",
+            "[Credo voilé] Réduit le coût en mana de 1 point et restaure le mana de la cible à hauteur de 480 points.",
+            "[Credo voilé] Réduit le coût en mana de 1 point et restaure le mana de la cible à hauteur de 580 points.",
+            "[Credo voilé] Réduit le coût en mana de 1 point et restaure le mana de la cible à hauteur de 700 points.",
+            "[Credo voilé] Réduit le coût en mana de 1 point et restaure le mana de la cible à hauteur de 840 points.",
+            "[Credo voilé] Réduit le coût en mana de 1 point et restaure le mana de la cible à hauteur de 1 000 points."
           ],
-          "story": "Lorsqu'il était contrarié et cherchait à mettre de l'ordre dans son esprit, Loman avait l'habitude de sculpter des figurines grandes comme sa main. Tandis qu'il taillait ses morceaux de bois, il se sentait en paix et se rappelait sa détermination alors qu'il n'était qu'un bleu. Ce qui n'était qu'un passe-temps devint une passion et il remplit ainsi ses quartiers avec des centaines de sculptures. Un beau jour, Loman se mit à sculpter des poupées en bois pour les offrir à ses amis et à ses hommes. À l'époque, les poupées ensorcelées, supposées protéger contre le mal, étaient à la mode à Orvelia. Loman demanda à un vieux chaman adepte des remèdes ancestraux d'enchanter ses poupées en bois avec un sort de protection et les offrit à ses acolytes."
+          "story": "Lorsqu'il était contrarié et cherchait à mettre de l'ordre dans son esprit, Loman sculptait des figurines grandes comme sa main. Lorsqu'il taillait ses morceaux de bois, il se sentait en paix et revivait le temps où il n'était qu'un bleu. Ce qui n'était qu'un passe-temps devint une passion, et il remplit ses quartiers avec des centaines de sculptures. Un beau jour, Loman se mit à sculpter des poupées en bois pour les offrir à ses amis et à ses hommes. À l'époque, les poupées ensorcelées, censées protéger contre le mal, étaient à la mode à Orvelia. Loman demanda à un vieux chaman adepte des remèdes ancestraux d'enchanter ses poupées avec un sort de protection et les offrit à ses proches."
         }
       },
       "s3": {
@@ -8083,7 +8083,7 @@
           "1": "DEG augmentés de {0}%.",
           "2": "DEG augmentés de {0}%."
         },
-        "light": "Marque du credo dure 5 secondes supplémentaires.",
+        "light": "Lorsque 1 seul ennemi est présent, les DEG sont augmentés de 100%.",
         "dark": "Donne une immunité aux Contrôles.",
         "ut": {
           "name": "Océan d'invocation",
@@ -8107,11 +8107,11 @@
           "2": "DEG augmentés de {0}%."
         },
         "light": "Augmente de 1 le nombre d'Endurance accumulé chaque seconde.",
-        "dark": "La réduction d'ATQ passe à 30 %."
+        "dark": "Réduit de 200 points la Vit ATQ de l'ennemi touché pendant 10 sec."
       },
       "t5": {
         "light": "ATQ, DEF, PV +15% / Blocage M. +200",
-        "dark": "Augmente l'ATQ et la DEF M de tous les alliés de 3 % de la DEF M de Loman."
+        "dark": "Si vous bloquez des DEG M, le Blocage M de tous les alliés augmente de 200 points, et leur DEF M augmente de 10 % de celle de Loman pendant 10 sec. Cet effet ne peut être activé qu'une fois toutes les 20 sec."
       }
     }
   },

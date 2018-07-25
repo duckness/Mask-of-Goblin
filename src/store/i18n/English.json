@@ -900,7 +900,7 @@
       },
       "s4": {
         "name": "Flame Diffusion",
-        "description": "Deals {0} M.DMG to 3 enemies and enemies in range, inflicting 1 stack of Ember. Enemies inflicted by Ember has their M.DEF reduced by 5%.",
+        "description": "Deals {0} M.DMG to 3 targets and nearby enemies, inflicting 1 stack of Ember. Decreases M.DEF of enemies affected by Ember by 5%.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -1712,7 +1712,7 @@
             "[Rush] Increases DMG by 42% and has a 15% chance to summon 1 Rush Arrow upon a normal attack.",
             "[Rush] Increases DMG by 50% and has a 15% chance to summon 1 Rush Arrow upon a normal attack."
           ],
-          "story": "The violent Wind Bow Spirit is sealed within this stone. Sealed stone containing the Wind Bow Spirit that was sealed by the Fairy King for causing all kinds of fights and pulling evil pranks. The Wind Bow Spirit is thirsty for a fight and increases the killing rate of the bow of the archer that summoned him by 5 times or more."
+          "story": "A stone in which a reckless wind bow elemental is sealed. The elemental caused all kinds of trouble with its evil tricks, so it was sealed by the Fairy King. The belligerent wind elemental infuses arrows with destructive wind, increasing its killing power by 5 times or more."
         }
       },
       "s3": {
@@ -1740,7 +1740,7 @@
       },
       "s4": {
         "name": "Moonlight Arrow",
-        "description": "Upon attacking, ATK is increased by {1} for {0} sec, and Crit Chance is increased by {2}. Can be stacked up to 3 times max.",
+        "description": "Upon attacking, increases ATK by {1} and Crit Chance by {2} for {0} sec. This effect stacks up to 3 times.",
         "books": {
           "0": "ATK boost is increased by {0}%.",
           "1": "ATK boost is increased by {0}%.",
@@ -2047,7 +2047,7 @@
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
-          "2": "Stacks 2 Poison upon Crit Hit."
+          "2": "Leaves 2 stacks of Poison upon a Critical Hit."
         },
         "light": "Hit count is increased by 1.",
         "dark": "Enemies with 5 or more stacks of Poison are shackled for 3 sec upon hit."
@@ -2220,7 +2220,7 @@
       },
       "s4": {
         "name": "Vow of Knights",
-        "description": "Upon blocking, deals {0} P.DMG to frontal enemies. Hit enemies' ATK is reduced by {2}% for {1} sec. Recovers 300 mana after hitting the target.",
+        "description": "Upon blocking, deals {0} P.DMG to frontal enemies and decreases ATK of affected targets by {2}% for {1} sec. Recovers 300 MP after hitting the target.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -4112,7 +4112,7 @@
             "[Purifying Blaze] Reduces Mana Cost by 1 and increases DMG by 42%.",
             "[Purifying Blaze] Reduces Mana Cost by 1 and increases DMG by 50%."
           ],
-          "story": "Symbol of the Fire Arbiter Army. Symbol of the Fire Arbiter Army that did great things during the war against the Demons. When using the Magic Square of Pursuit that the Light of Goddess Lua has permitted, Arch becomes a merciless arbiter."
+          "story": "The symbol of Fire Arbiter Army that fought a fierce battle against Ancient Demons. When using the Magic Square of Pursuit blessed by Lua, the Goddess of Light, Arch becomes a merciless arbiter."
         }
       },
       "s3": {
@@ -4832,7 +4832,7 @@
             "[Blade Tornado] Increases DMG by 42% and reduces Cooldown by 8% upon a Crit Hit.",
             "[Blade Tornado] Increases DMG by 50% and reduces Cooldown by 8% upon a Crit Hit."
           ],
-          "story": "Multi-purpose tool of the Laughing Mask used for assassination. Unique item of the Laughing Mask that gets rid of the target fast and accurately. Even at the moment of Blade Tornado, it allows for an attack to be continued and is optimized for the wearer's attack patterns."
+          "story": "A multi-purpose tool of Laughing Masks used for assassination. It is a unique item for Laughing Masks, known for their speed and efficiency in eliminating their targets. Optimized to the wearer's attacking patterns, it improves the handling of throwing weapons and enhances continuous attacks while casting Blade Tornado."
         }
       },
       "s3": {
@@ -5835,123 +5835,123 @@
       }
     },
     "46": {
-      "name": "",
-      "subtitle": "",
-      "description": "",
-      "story": "",
-      "like": "",
-      "dislike": "",
+      "name": "Zafir",
+      "subtitle": "Prince of Sandstorms",
+      "description": "A descendant of the ancient God King. A refined young man who stood up to defend the desert. The sandstorm he summons with his arrow engulfs his enemies, ridding the world of their existence.",
+      "story": "A Prince and successor to the God King of the ancient desert kingdom who possesses the power to control desert sand. As the young leader of the Mauhata tribe of Desert Warriors, he has been trained and educated to be the worthy successor to the great king. When the Trovatia tribe, their sworn brothers, were praying at the Shrine of Flow to awake the God Dragon, he led his warriors to defeat all demons approaching the oasis. Assisted by the God Dragon and Laudia, her priestess, he is fulfilling his role as a Desert Warrior defending his home. He hopes that his efforts make the late God King proud.",
+      "like": "Cats, sand art, people in the desert",
+      "dislike": "Those who try to harm the people that he cares for",
       "inn": {
-        "idle": "",
+        "idle": "Wow, I've never seen drinks like these.",
         "recruit": {
-          "greet": "",
+          "greet": "May the blessings of the God King be with you.",
           "talk": [
-            "",
-            "",
-            ""
+            "Umm, this place is very different from the bars in the desert. We don't sit on the floor, do we?",
+            "A Desert Warrior puts their people before anything else.",
+            "...I don't particularly fancy crowded places, but this carefree atmosphere... I can't say I hate it."
           ],
-          "gift": ""
+          "gift": "Such tremendous kindness. Thank you."
         },
         "affinity": {
-          "greet": "",
+          "greet": "How have you been?",
           "talk": [
-            "",
-            ""
+            "The prophecy says the resurrection of the God King is near.",
+            "...If time allows, visit Aegina sometimes. I will be your guide."
           ],
-          "gift": ""
+          "gift": "The Desert Warriors will be happy that you are there as well."
         },
         "relationship": {
-          "greet": "",
+          "greet": "Greetings, my desert friend.",
           "talk": [
-            "",
-            "",
-            ""
+            "I like cats... No creature comes even close when it comes to elegance.",
+            "Even the fierce sand storms in the desert could not leave a scuff on Desert Warriors.",
+            "I might have his blood flowing in my veins, but I think I have a long way to go to call myself a worthy successor."
           ]
         }
       },
       "uw": {
-        "name": "",
+        "name": "Glory of the God King, Zaries",
         "description": [
-          "",
-          "",
-          "",
-          "",
-          "",
-          ""
+          "Upon using a skill, gains 1 stack of 'Will of Desert'. 'Will of Desert' increases ATK by 4% and Penetration by 20 for 10 sec, and can be stacked up to max 5 times. This effect cannot be dispelled.",
+          "Upon using a skill, gains 1 stack of 'Will of Desert'. 'Will of Desert' increased ATK by 4.8% and Penetration by 24 for 10 sec, and can be stacked up to max 5 times. This effect cannot be dispelled.",
+          "Upon using a skill, gains 1 stack of 'Will of Desert'. 'Will of Desert' increased ATK by 5.6% and Penetration by 29 for 10 sec, and can be stacked up to max 5 times. This effect cannot be dispelled.",
+          "Upon using a skill, gains 1 stack of 'Will of Desert'. 'Will of Desert' increased ATK by 6.8% and Penetration by 35 for 10 sec, and can be stacked up to max 5 times. This effect cannot be dispelled.",
+          "Upon using a skill, gains 1 stack of 'Will of Desert'. 'Will of Desert' increased ATK by 8% and Penetration by 42 for 10 sec, and can be stacked up to max 5 times. This effect cannot be dispelled.",
+          "Upon using a skill, gains 1 stack of 'Will of Desert'. 'Will of Desert' increases ATK by 10% and Penetration by 50 for 10 sec, and can be stacked up to max 5 times. This effect cannot be dispelled."
         ],
-        "story": ""
+        "story": "An ancient Weapon forged for the most glorious being on earth. Only permitted to the successor to the God King, one should undergo tremendous ordeals to prove his worth as its owner. This bow, allowed only for the chosen successor to the God King, has absolute power in the desert."
       },
       "s1": {
-        "name": "",
-        "description": "",
+        "name": "Judgment of the Desert",
+        "description": "Deals {0} P.DMG enemies in a wide range, and per each hit enemy, skill cooldown is decreased by 1 sec. Deals {1} P.DMG to enemies inflicted by [Mark of Desert] and removes 1 stack of [Mark of Desert]. Upon each skill use, Crit DMG is increased by 5%. This effect can be stacked up to max 10 times and cannot be dispelled.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "DMG is increased by {0}%.",
+          "1": "DMG is increased by {0}%.",
+          "2": "DMG is increased by {0}%."
         },
-        "light": "",
-        "dark": ""
+        "light": "Crit DMG boost per use changes to 10%.",
+        "dark": "Hit enemy is inflicted by Blind for 1 sec."
       },
       "s2": {
-        "name": "",
-        "description": "",
+        "name": "Blessing of the Sand Spirit",
+        "description": "Creates a shield around the ally with the lowest HP that absorbs {1} DMG for {0} sec. Gains immunity to CC while the shield lasts. When the shield duration is over, 'Sand Storm' is activated and deals {2} P.DMG to enemies in a wide range, inflicting 2 stacks of [Mark of Desert]. If the shield is dispelled or destroyed, 'Sand Storm' does not activate.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "DMG and Shield are increased by {0}%.",
+          "1": "DMG and Shield are increased by {0}%.",
+          "2": "DMG and Shield are increased by {0}%."
         },
-        "light": "",
-        "dark": "",
+        "light": "Skill cooldown is decreased by 5 sec.",
+        "dark": "Enemies hit by 'Sand Storm' are knocked back far away and are knocked down for 3 sec.",
         "ut": {
-          "name": "",
+          "name": "Sand of Mirage",
           "description": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "[Blessing of the Sand Spirit] Shield absorbs 20% more DMG and dispels CC inflicted on self.",
+            "[Blessing of the Sand Spirit] Shield absorbs 24% more DMG and dispels CC inflicted on self.",
+            "[Blessing of the Sand Spirit] Shield absorbs 28% more DMG and dispels CC inflicted on self.",
+            "[Blessing of the Sand Spirit] Shield absorbs 34% more DMG and dispels CC inflicted on self.",
+            "[Blessing of the Sand Spirit] Shield absorbs 40% more DMG and dispels CC inflicted on self.",
+            "[Blessing of the Sand Spirit] Shield absorbs 50% more DMG and dispels CC inflicted on self."
           ],
-          "story": ""
+          "story": "An hourglass that was buried underground for a long time by an enormous sandstorm that struck Aegina Desert. When the sand in the hourglass moves, it calls for the mirage of an ancient city coming back to life. The high priest of the ancient kingdom used this to show the glory of the kingdom to its people in the past. Seeing their city shining in gold, people grew proud of their kingdom."
         }
       },
       "s3": {
-        "name": "",
-        "description": "",
+        "name": "Doom of the Desert",
+        "description": "Deals {0} P.DMG to frontal enemies in a wide range and inflicts 1 stack of [Mark of Desert]. Then summons 'Pit of Sand' for 5 sec, dealing {1} P.DMG every 0.5 sec, and decreasing their P.DEF by 30% for 10 sec. 'Pit of Sand' has a 25% chance of inflicting 1 stack of [Mark of Desert] and draws in all enemies in range to the center.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "DMG is increased by {0}%.",
+          "1": "DMG is increased by {0}%.",
+          "2": "DMG is increased by {0}%."
         },
-        "light": "",
-        "dark": "",
+        "light": "Mana cost is decreased by 1.",
+        "dark": "Duration of 'Sand Storm' is increased by 2 sec.",
         "ut": {
-          "name": "",
+          "name": "Soul of Oasis",
           "description": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "[Doom of the Desert] Skill cooldown is decreased by 30% and effect activation chance is increased by 8%.",
+            "[Doom of the Desert] Skill cooldown is decreased by 30% and effect activation chance is increased by 9.6%.",
+            "[Doom of the Desert] Skill cooldown is decreased by 30% and effect activation chance is increased by 11.5%.",
+            "[Doom of the Desert] Skill cooldown is decreased by 30% and effect activation chance is increased by 13.8%.",
+            "[Doom of the Desert] Skill cooldown is decreased by 30% and effect activation chance is increased by 16.5%.",
+            "[Doom of the Desert] Skill cooldown is decreased by 30% and effect activation chance is increased by 20%."
           ],
-          "story": ""
+          "story": "A magical sword passed down through the God King's descendants. The name 'Oasis' comes from how it was used to serve the people in dire times. After the kingdom fell, its whereabouts was unknown to the world until Zafir saw it among Kumuro's art collections and bought it at an incredibly high price. With the sword finally returning to the worthy descendant, Zafir was able to inherit his forefather's spirits, maximizing his potentials."
         }
       },
       "s4": {
-        "name": "",
-        "description": "",
+        "name": "Calling of the Guardian",
+        "description": "Each auto attack has a 15% chance of dealing {0} P.DMG that ignores DEF to all enemies, inflicting 1 stack of [Mark of Desert]. [Mark of Desert] can be stacked up to max 5 times.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "DMG is increased by {0}%.",
+          "1": "DMG is increased by {0}%.",
+          "2": "DMG is increased by {0}%."
         },
-        "light": "",
-        "dark": ""
+        "light": "When there are over 5 enemies, all enemies are inflicted with 5 stacks of 'Mark of Desert'. This effect is activated once every 20 sec.",
+        "dark": "Activation chance changes to 30%."
       },
       "t5": {
-        "light": "",
-        "dark": ""
+        "light": "ATK, DEF, HP+15% / Crit Chance +100",
+        "dark": "Recovers 500 mana upon using a skill. If there are over 5 enemies, mana recovery rate is doubled and ATK Spd is increased by 500 for 5 sec. This effect cannot be stacked."
       }
     },
     "49": {
@@ -6265,12 +6265,12 @@
         "ut": {
           "name": "Bracelet of the Sun",
           "description": [
-            "[Blessing of the Sun] Reduces Mana Cost by 1 and increases P.Weakness of the target by 10% for 10 sec.",
-            "[Blessing of the Sun] Reduces Mana Cost by 1 and increases P.Weakness of the target by 12% for 10 sec.",
-            "[Blessing of the Sun] Reduces Mana Cost by 1 and increases P.Weakness of the target by 14% for 10 sec.",
-            "[Blessing of the Sun] Reduces Mana Cost by 1 and increases P.Weakness of the target by 17% for 10 sec.",
-            "[Blessing of the Sun] Reduces Mana Cost by 1 and increases P.Weakness of the target by 21% for 10 sec.",
-            "[Blessing of the Sun] Reduces Mana Cost by 1 and increases P.Weakness of the target by 25% for 10 sec."
+            "[Blessing of the Sun] Reduces Mana Cost by 1 and target takes 10% decreased P.DMG for 10 sec.",
+            "[Blessing of the Sun] Reduces Mana Cost by 1 and target takes 12% decreased P.DMG for 10 sec.",
+            "[Blessing of the Sun] Reduces Mana Cost by 1 and target takes 14% decreased P.DMG for 10 sec.",
+            "[Blessing of the Sun] Reduces Mana Cost by 1 and target takes 17% decreased P.DMG for 10 sec.",
+            "[Blessing of the Sun] Reduces Mana Cost by 1 and target takes 21% decreased P.DMG for 10 sec.",
+            "[Blessing of the Sun] Reduces Mana Cost by 1 and target takes 25% decreased P.DMG for 10 sec."
           ],
           "story": "Bracelet made by the Archangels to protect the Angels when they descend down to earth. It contains the sun, so it shines brilliantly. When the angels feel fear, it is said that the sunlight from the bracelet protects their souls. And the fates of the angels are intertwined in the bracelet, so when they feel like their lives are threatened, they can feel each other's pain instinctively."
         }
@@ -6555,243 +6555,243 @@
       }
     },
     "57": {
-      "name": "",
-      "subtitle": "",
-      "description": "",
-      "story": "",
-      "like": "",
-      "dislike": "",
+      "name": "Lilia",
+      "subtitle": "The Daughter of Storm and Sea",
+      "description": "A Blue Dragon girl who has just passed her Hatchling period and a sister of Laias, the Priestess of Water. Although she is still inexperienced and young, those who look down on her tend to pay dearly. She uses the relentless energy of water to decimate her enemies.",
+      "story": "A God Dragon of the Oasis and a sister of the Priestess of Water. Laias. She is still a young Blue Dragon who loves her sister who is much older than her. When Laias fell into a deep sleep after exhausting her powers in the battle 100 years ago, Lilia defended the Shrine of Flow on her own. It was when she heard the children of the desert making desperate prayers that she finally woke up the Priestess of Water to protect them. Unlike her mild and thoughtful sister, she is somewhat strict, and the way she controls the power of flow and water is more aggressive, too. She feels the need to protect her beautiful sister against flirting, unworthy men.",
+      "like": "Laias, sweet drinks, people in the desert",
+      "dislike": "Those flirting with her sister (Neraxis, Sereinel)",
       "inn": {
-        "idle": "",
+        "idle": "...T-too many humans...",
         "recruit": {
-          "greet": "",
+          "greet": "May the Flow be with you!",
           "talk": [
-            "",
-            "",
-            ""
+            "I am not as kind as my sister.",
+            "Blue Dragons are weak? You couldn't be more wrong.",
+            "I am a grown-up Dragon. I am old enough!"
           ],
-          "gift": ""
+          "gift": "Thanks, human child."
         },
         "affinity": {
-          "greet": "",
+          "greet": "Hello, you look great!",
           "talk": [
-            "",
-            ""
+            "My sister's mission is mine, too. I will always be with her.",
+            "The mystery of endless water? Umm...I heard that it is the power of the First Blue Dragon."
           ],
-          "gift": ""
+          "gift": "Thank you so much. I will use this for the Shrine of Flow."
         },
         "relationship": {
-          "greet": "",
+          "greet": "Good to see you, again!",
           "talk": [
-            "",
-            "",
-            ""
+            "Neraxis? What a jerk. He always begs for my sister's attention!",
+            "Sereinel...? Errrgh... I thought he was gone for good. I can't believe he's making a pass at my sister again...",
+            "I love my sister the most... but I like you as well."
           ]
         }
       },
       "uw": {
-        "name": "",
+        "name": "Infinite Spring, Cielamaha",
         "description": [
-          "",
-          "",
-          "",
-          "",
-          "",
-          ""
+          "Mana is recovered by 50 per each sec, and upon each ATK there is an 80% chance of dealing 20% of ATK as P.DMG.",
+          "Mana is recovered by 60 per each sec, and upon each ATK there is an 80% chance of dealing 24% of ATK as P.DMG.",
+          "Mana is recovered by 70 per each sec, and upon each ATK there is an 80% chance of dealing 28% of ATK as P.DMG.",
+          "Mana is recovered by 85 per each sec, and upon each ATK there is an 80% chance of dealing 34% of ATK as P.DMG.",
+          "Mana is recovered by 105 per each sec, and upon each ATK there is an 80% chance of dealing 42% of ATK as P.DMG.",
+          "Mana is recovered by 125 per each sec, and upon each ATK there is an 80% chance of dealing 50% of ATK as P.DMG."
         ],
-        "story": ""
+        "story": "An infinite spring that endlessly spouts water. It is a jar made by the first Blue Dragon, who ruled all waters on earth. It reacts to the imagination of the user. To a young, sensitive and creative girl like Lilia, it is the greatest treasure and weapon."
       },
       "s1": {
-        "name": "",
-        "description": "",
+        "name": "Aqua Tempest",
+        "description": "For 8 sec, summons Aqua Tempest to a random target and enemies in target's range and deals {0} P.DMG every 0.5 sec. If the target is killed, Aqua Tempest is summoned to attack another random target for the remaining time.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "DMG is increased by {0}%.",
+          "1": "DMG is increased by {0}%.",
+          "2": "DMG is increased by {0}%."
         },
-        "light": "",
-        "dark": ""
+        "light": "Hit target's ATK Spd is decreased by 250 for 10 sec.",
+        "dark": "Each use increases DMG by 15%. Stacks 15 times max."
       },
       "s2": {
-        "name": "",
-        "description": "",
+        "name": "Everlasting Oasis",
+        "description": "When activated, turns into the Everlasting Oasis state for 15 sec. During the Everlasting Oasis state, mana recovery rate per sec is increased by 150% and ATK is increased by {0}. Additionally, all DEF is increased by {1}.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "Mana recovery and ATK boost are increased by {0}%.",
+          "1": "Mana recovery and ATK boost are increased by {0}%.",
+          "2": "Mana recovery and ATK boost are increased by {0}%."
         },
-        "light": "",
-        "dark": "",
+        "light": "Mana cost is increased by 1 and is additionally activated on the ally with the highest ATK excluding self.",
+        "dark": "Skill duration is decreased by 5 sec and all effects are increased by 100%.",
         "ut": {
-          "name": "",
+          "name": "Heart of Flow",
           "description": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "[Everlasting Oasis] The effect cannot be dispelled, and Crit DMG is increased by 20% during skill duration.",
+            "[Everlasting Oasis] The effect cannot be dispelled, and Crit DMG is increased by 24% during skill duration.",
+            "[Everlasting Oasis] The effect cannot be dispelled, and Crit DMG is increased by 28% during skill duration.",
+            "[Everlasting Oasis] The effect cannot be dispelled, and Crit DMG is increased by 34% during skill duration.",
+            "[Everlasting Oasis] The effect cannot be dispelled, and Crit DMG is increased by 42% during skill duration.",
+            "[Everlasting Oasis] The effect cannot be dispelled, and Crit DMG is increased by 50% during skill duration."
           ],
-          "story": ""
+          "story": "A gold necklace for girls that Laias crafted for Lilia with a Gem of Protection. It gleams with the energy of water elementals in it. It is a symbol of Laias's care for her little sister."
         }
       },
       "s3": {
-        "name": "",
-        "description": "",
+        "name": "Celestial Cataract",
+        "description": "Throws water drops 15 times to random enemies, dealing a total of {0} P.DMG. Additionally, throws big water drops 5 times to target and other enemies in target's range, dealing {1} P.DMG. Enemies hit by the big water drop are inflicted by Stun for {2} sec. Per each water drop thrown, {3} mana is consumed, and mana consumption rate is increased by {4}. Stops use when mana becomes 0.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "DMG is increased by {0}%.",
+          "1": "DMG is increased by {0}%.",
+          "2": "DMG is increased by {0}%."
         },
-        "light": "",
-        "dark": "",
+        "light": "While in use, gain immunity to CC.",
+        "dark": "Per each water drop thrown, mana cost and mana consumption rate are increased by 100%, and per each water drop thrown, there is a 50% chance of throwing an extra water drop.",
         "ut": {
-          "name": "",
+          "name": "Bottomless Kettle of Elementals",
           "description": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "[Celestial Cataract] Upon each ATK there is a 7% chance of throwing a big water drop, dealing 100% of ATK as P.DMG and increasing own Crit DMG by 2% for 7 sec.",
+            "[Celestial Cataract] Upon each ATK there is a 7% chance of throwing a big water drop, dealing 100% of ATK as P.DMG and increasing own Crit DMG by 2.4% for 7 sec.",
+            "[Celestial Cataract] Upon each ATK there is a 7% chance of throwing a big water drop, dealing 100% of ATK as P.DMG and increasing own Crit DMG by 2.8% for 7 sec.",
+            "[Celestial Cataract] Upon each ATK there is a 7% chance of throwing a big water drop, dealing 100% of ATK as P.DMG and increasing own Crit DMG by 3.4% for 7 sec.",
+            "[Celestial Cataract] Upon each ATK there is a 7% chance of throwing a big water drop, dealing 100% of ATK as P.DMG and increasing own Crit DMG by 4.2% for 7 sec.",
+            "[Celestial Cataract] Upon each ATK there is a 7% chance of throwing a big water drop, dealing 100% of ATK as P.DMG and increasing own Crit DMG by 5% for 7 sec."
           ],
-          "story": ""
+          "story": "A kettle that Lilia's old cacti friends made for her on her birthday. The kettle infinitely produces the cleanest and purest water there is. However, if too much water is used at once, it shuts its spout, which is a featured added by the Cacti to help Lilia stay in control of the water until she becomes more skilled at it."
         }
       },
       "s4": {
-        "name": "",
-        "description": "",
+        "name": "Aqua Purification",
+        "description": "Mana recovery upon ATK is fixed, but own ATK is increased by {0} and mana recovery per sec is increased to 120. Per 6 mana recovery per sec, ATK is increased by 1%.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "ATK boost is increased by {0}%.",
+          "1": "ATK boost is increased by {0}%.",
+          "2": "ATK boost is increased by {0}%."
         },
-        "light": "",
-        "dark": ""
+        "light": "At the start of each battle, recovers 1000 mana.",
+        "dark": "Deals 15% increased DMG to Boss monsters."
       },
       "t5": {
-        "light": "",
-        "dark": ""
+        "light": "ATK, DEF, HP+15% / Crit DMG +20%",
+        "dark": "ATK is increased by 15% per 1 orb of mana."
       }
     },
     "58": {
-      "name": "",
-      "subtitle": "",
-      "description": "",
-      "story": "",
-      "like": "",
-      "dislike": "",
+      "name": "Laudia",
+      "subtitle": "Dancer of the Oasis",
+      "description": "A dancer from a nomadic tribe in Aegina Desert. Her dance melts people's hearts, and her sharp blades silently take the lives of her enemies.",
+      "story": "Trovatias are a nomadic tribe of Aegina Desert who inherited the tradition and religion of the ancient desert kingdom. Laudia is the daughter of the tribe leader and serves the Priestess of Water, Laias. She also looks after the tribe on behalf of her old father. When she prayed for help, God Dragon Laias and her sister Lilia woke up from their long sleep and led her and her tribe into the shrine, protecting them. Ever since, Laudia has been defeating demons in the desert with Zafir, the leader of the Mauhata tribe of Desert Warriors.",
+      "like": "Laias, Lilia, people in the desert",
+      "dislike": "Watching people suffer",
       "inn": {
-        "idle": "",
+        "idle": "Oh, what an interesting place. Is there any place for me to dance?",
         "recruit": {
-          "greet": "",
+          "greet": "Hi. May the Flowing power be with you.",
           "talk": [
-            "",
-            "",
-            ""
+            "Have you not seen the priestess? She is very noticeable...",
+            "Well, If you watch me dance, you won't be able to think about anything else.",
+            "I do not want to see this beautiful world being destroyed any further."
           ],
-          "gift": ""
+          "gift": "Thank you for the present. Care to dance?"
         },
         "affinity": {
-          "greet": "",
+          "greet": "Hi! Now that we've gotten kind of close, is it okay if I call you by your first name?",
           "talk": [
-            "",
-            ""
+            "I like this place. It's so calm and peaceful.",
+            "Being a deputy leader is not an easy job. I need to take care of all the people in my tribe."
           ],
-          "gift": ""
+          "gift": "Thank you. I should buy some snacks for the kids..."
         },
         "relationship": {
-          "greet": "",
+          "greet": "Nice to see you. Well, are you here to see me?",
           "talk": [
-            "",
-            "",
-            ""
+            "Have you met Lilia and her sister, Laias? They are so great. I am sure you'll like them very much.",
+            "I can sense the strong vibration of the Flow and fate, which is only found in true warriors and heroes.",
+            "I made a new dance, would you like to see it some time soon? We could even dance together."
           ]
         }
       },
       "uw": {
-        "name": "",
+        "name": "Whispering Sands, Arlaq",
         "description": [
-          "",
-          "",
-          "",
-          "",
-          "",
-          ""
+          "[Blessing of Oasis] can be stacked up to max 12 times, and upon auto attack, all skill cooldown is decreased by 4% with 10% chance.",
+          "[Blessing of Oasis] can be stacked up to max 13 times, and upon auto attack, all skill cooldown is decreased by 4.8% with 10% chance.",
+          "[Blessing of Oasis] can be stacked up to max 14 times, and upon auto attack, all skill cooldown is decreased by 5.8% with 10% chance.",
+          "[Blessing of Oasis] can be stacked up to max 15 times, and upon auto attack, all skill cooldown is decreased by 7% with 10% chance.",
+          "[Blessing of Oasis] can be stacked up to max 16 times, and upon auto attack, all skill cooldown is decreased by 8.4% with 10% chance.",
+          "[Blessing of Oasis] can be stacked up to max 17 times, and upon auto attack, all skill cooldown is decreased by 10% with 10% chance."
         ],
-        "story": ""
+        "story": "A rare treasure that is the manifestation of passion burning like a flame in the desert. A pair of these beautiful weapons is known to have been stored in the ancient God King's repositorium. When swung, they beautifully sound like the wind with the scent of a breeze. It is a sweet but lethal temptation, just like a mirage in the desert..."
       },
       "s1": {
-        "name": "",
-        "description": "",
+        "name": "Whisper of Sand",
+        "description": "Attacks target enemy and deals {0} M.DMG to enemies in close range, decreasing enemy block chance by {2} and Crit resistance by {3} for {1} sec. Additionally, attacks and deals {4} M.DMG and stuns them for {5} sec.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "DMG is increased by {0}%.",
+          "1": "DMG is increased by {0}%.",
+          "2": "DMG is increased by {0}%."
         },
-        "light": "",
-        "dark": ""
+        "light": "Mana cost is reduced by 1.",
+        "dark": "Target takes 25% increased M.DMG for 10 sec."
       },
       "s2": {
-        "name": "",
-        "description": "",
+        "name": "Enchanting Flow",
+        "description": "Increases own ATK by {1} and Crit DMG by {2}% for {0} sec. Then moves a short distance forward, dealing {3} M.DMG to enemies in movement range and Charms them for {4} sec if the skill was used in the Arena. Can activate [Alluring Ambush] once within 5 sec after use.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "ATK boost and DMG is increased by {0}%",
+          "1": "ATK boost and DMG is increased by {0}%",
+          "2": "ATK boost and DMG is increased by {0}%"
         },
-        "light": "",
-        "dark": "",
+        "light": "Gains 2 orbs of mana after movement. Gained Mana is consumed over 5 sec.",
+        "dark": "After using [Enchanting Flow], [Alluring Ambush] can be used twice within 10 sec.",
         "ut": {
-          "name": "",
+          "name": "Halidom of Trovatia",
           "description": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "[Enchanting Flow] After movement, absorbs DMG equal to 160% of ATK for 3 sec, then creates a shield that is immune to CC, and mana cost of [Alluring Ambush] is decreased by 1.",
+            "[Enchanting Flow] After movement, absorbs DMG equal to 190% of ATK for 3 sec, then creates a shield that is immune to CC, and mana cost of [Alluring Ambush] is decreased by 1.",
+            "[Enchanting Flow] After movement, absorbs DMG equal to 230% of ATK for 3 sec, then creates a shield that is immune to CC, and mana cost of [Alluring Ambush] is decreased by 1.",
+            "[Enchanting Flow] After movement, absorbs DMG equal to 270% of ATK for 3 sec, then creates a shield that is immune to CC, and mana cost of [Alluring Ambush] is decreased by 1.",
+            "[Enchanting Flow] After movement, absorbs DMG equal to 330% of ATK for 3 sec, then creates a shield that is immune to CC, and mana cost of [Alluring Ambush] is decreased by 1.",
+            "[Enchanting Flow] After movement, absorbs DMG equal to 400% of ATK for 3 sec, then creates a shield that is immune to CC, and mana cost of [Alluring Ambush] is decreased by 1."
           ],
-          "story": ""
+          "story": "A chest containing the artifacts needed for worship rituals for the Dragon of Water. Some ornaments on it are crafted with 'Azure Lapis Lazuli,' a gem that represents complete fullness. It is the dearest thing that Laudia's father treasures, and is only given to those who have the ability to lead the entire Trovatia tribe."
         }
       },
       "s3": {
-        "name": "",
-        "description": "",
+        "name": "Dance of the Desert",
+        "description": "Attacks enemies in range 30 times, dealing a total of {0} M.DMG. Additionally throws the 'Blades of Arlark' at random enemies 30 times, dealing a total of {1} M.DMG. Extra {2} DMG is stacked every time the blade hits the same enemy. [Blinding Acceleration] can be used once during skill activation, and the 'Blades of Arlaq' prioritize targets inflicted by Charm.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "DMG is increased by {0}%.",
+          "1": "DMG is increased by {0}%.",
+          "2": "DMG is increased by {0}%."
         },
-        "light": "",
-        "dark": "",
+        "light": "Mana cost of [Blinding Acceleration] is decreased by 1 and skill duration is increased by 2 sec.",
+        "dark": "Mana cost is increased by 1 and DMG is increased by 100%.",
         "ut": {
-          "name": "",
+          "name": "Veil of Charm",
           "description": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "[Dance of the Desert] Skill cooldown is decreased by 30% and Penetration is increased by 100 during skill activation.",
+            "[Dance of the Desert] Skill cooldown is decreased by 30% and Penetration is increased by 120 during skill activation.",
+            "[Dance of the Desert] Skill cooldown is decreased by 30% and Penetration is increased by 140 during skill activation.",
+            "[Dance of the Desert] Skill cooldown is decreased by 30% and Penetration is increased by 170 during skill activation.",
+            "[Dance of the Desert] Skill cooldown is decreased by 30% and Penetration is increased by 210 during skill activation.",
+            "[Dance of the Desert] Skill cooldown is decreased by 30% and Penetration is increased by 250 during skill activation."
           ],
-          "story": ""
+          "story": "A legendary Veil only given to the best dancer in the continent. Performing a dance with it on can mesmerize those who are watching. Laudia used the veil to mesmerize enemies with her seductive dance and achieved everything she wanted."
         }
       },
       "s4": {
-        "name": "",
-        "description": "",
+        "name": "Blessing of Oasis",
+        "description": "Decreases CC duration inflicted on self by {0}%. Upon using a skill, gains [Blessing of Oasis] for {1} sec, increasing own Penetration by {2} and DEF by {3}. [Blessing of Oasis] can be stacked up to max {4} times and cannot be dispelled.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "DEF Penetration and DEF boost are increased by {0}%.",
+          "1": "DEF Penetration and DEF boost are increased by {0}%.",
+          "2": "DEF Penetration and DEF boost are increased by {0}%."
         },
-        "light": "",
-        "dark": ""
+        "light": "Gains 2 stack of [Blessing of Oasis].",
+        "dark": "Per each stack, takes 2% less DMG from enemies other than heroes"
       },
       "t5": {
-        "light": "",
-        "dark": ""
+        "light": "ATK, DEF, HP+15% / ATK.Spd +100",
+        "dark": "At the start of each battle, gains immunity to CC for 5 sec, and ACC, CC ACC are increased by 300 for 10 sec."
       }
     },
     "62": {
@@ -7083,7 +7083,7 @@
       },
       "s1": {
         "name": "Pillar of Light",
-        "description": "Places a Pillar of Light on target enemy, dealing a total of {0} M.DMG for 5 sec and reducing enemy ATK by {1}% for 10 sec.",
+        "description": "Places a Pillar of Light on target enemy, dealing a total of {0} M.DMG for 3 sec and reducing enemy ATK by {1}% for 10 sec.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -8072,7 +8072,7 @@
             "[Shrouding Creed] Reduces Mana Cost by 1 and recovers target's Mana by 840.",
             "[Shrouding Creed] Reduces Mana Cost by 1 and recovers target's Mana by 1000."
           ],
-          "story": "Loman used to carve small sculptures as big as his hand while his thoughts in order when things went wrong. As he smoothed out their edges, he'd feel at peace and recall his resolve when he was just learning the basics. It was just a pastime at first, but soon it became his hobby, and he filled his room with hundreds of sculptures. And one day, Loman started to make wooden dolls to give to his friends and his men. Back then, sorcerous dolls known to protect hearts from evil were popular in Orvelia. Loman asked an old shaman who practiced ancient folk remedies to enchant the wooden dolls with a spell of protection, and he gave them to his colleagues."
+          "story": "Loman used to carve small sculptures as big as his hand while sorting out his thoughts when things went wrong. As he smoothed out their edges, he'd feel at peace, recalling how he was when he was just learning the basics. It was just a pastime at first, but soon it became his hobby, a passion that filled his room with hundreds of sculptures. And one day, Loman started to make wooden dolls to give to his friends and his men. Back then, sorcerous dolls known to protect hearts from evil were popular in Orvelia. Loman asked an old shaman who practiced ancient folk remedies to enchant his wooden dolls with a spell of protection, and he gave them to his colleagues."
         }
       },
       "s3": {
@@ -8083,7 +8083,7 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "'Mark of Creed' lasts 5 seconds longer.",
+        "light": "When there is 1 enemy, DMG is boosted by 100%.",
         "dark": "While in use, gains immunity to CC.",
         "ut": {
           "name": "Sea of Invocation",
@@ -8107,11 +8107,11 @@
           "2": "DMG is increased by {0}%."
         },
         "light": "Increases the number of 'Endurance' stacked every second by 1.",
-        "dark": "Changes ATK Reduction to 30%."
+        "dark": "Decreases ATK Spd of the affected enemy by 200 for 10 sec."
       },
       "t5": {
         "light": "ATK, DEF, HP+15% / M. Block +200",
-        "dark": "Increases ATK and M.DEF of all allies by 3% of Loman's M.DEF."
+        "dark": "Upon successfully blocking M.DMG, all allies have their M.Block increased by 200 and M.DEF by 10% of Loman's M.DEF for 10 sec. This effect is activated only once every 20 seconds."
       }
     }
   },

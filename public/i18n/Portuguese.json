@@ -900,7 +900,7 @@
       },
       "s4": {
         "name": "Difusão de Chamas",
-        "description": "Causa {0} de DAN.M a 3 inimigos e aos inimigos próximos a eles, acumulando 1 Brasa cada. Cada brasa reduz em 5% a DEF.M do inimigo.",
+        "description": "Causa {0} de DAN M. em 3 alvos e inimigos próximos, infligindo 1 acúmulo de Brasa. Reduz a DEF M. de inimigos atingidos por Brasa em 5%.",
         "books": {
           "0": "Aumenta o DAN em {0}%.",
           "1": "Aumenta o DAN em {0}%.",
@@ -1712,7 +1712,7 @@
             "[Adrenalina] Aumenta o DAN em 42% e tem 15% de chance de conjurar 1 Flecha de Adrenalina ao realizar um ataque normal.",
             "[Adrenalina] Aumenta o DAN em 50% e tem 15% de chance de conjurar 1 Flecha de Adrenalina ao realizar um ataque normal."
           ],
-          "story": "O violento Espírito do Arco do Vento está selado nesta pedra. A Pedra contém o Espírito do Arco do Vento, que foi selado pelo Rei das Fadas por ter causado todo tipo de briga e pregado peças de mau gosto. O Espírito do Arco do Vento está sedento por uma briga e aumenta 5 vezes ou mais a taxa de baixas do arco do arqueiro que o invocou."
+          "story": "Uma pedra na qual está selado um impulsivo elemental do vento arqueiro. O elemental causou todo tipo de confusão com seus truques malignos, sendo, portanto, selado pelo Rei Fada. O hostil elemental do vento infunde flechas com um vento destruidor, aumentando seu poder de baixa em 5 vezes ou mais."
         }
       },
       "s3": {
@@ -1740,7 +1740,7 @@
       },
       "s4": {
         "name": "Flecha do Luar",
-        "description": "Ataques automáticos reduzem a DEF.F do inimigo alvo em {1} , durante {0}. Além disso, a Chance Crít. do herói aumenta em {2}. Bônus de Chance Crít. se acumulam até 10 vezes, e a cada acerto Crít. bem-sucedido, todos os acúmulos são removidos. A redução de DEF.F não se acumula.",
+        "description": "Ao atacar, aumenta o ATQ em {1} e a Chance Crít em {2} por {0} seg. Esse efeito acumula até 3 vezes.",
         "books": {
           "0": "Aumenta a redução de DEF em {0}%",
           "1": "Aumenta a redução de DEF em {0}%",
@@ -2047,7 +2047,7 @@
         "books": {
           "0": "Aumenta o DAN em {0}%.",
           "1": "Aumenta o DAN em {0}%.",
-          "2": "Ao realizar um acerto crítico, concede 2 acúmulos de veneno."
+          "2": "Deixa até 2 acúmulos de Veneno ao realizar um Acerto Crítico."
         },
         "light": "Aumenta em 1 a contagem de acertos.",
         "dark": "Ao serem atingidos, inimigos com 5 ou mais acúmulos de Veneno são aprisionados durante 3 segundos."
@@ -2220,7 +2220,7 @@
       },
       "s4": {
         "name": "Voto dos Cavaleiros",
-        "description": "Depois de bloquear, causa {0} de DAN.F na parte frontal e diminui o ATQ dos inimigos atingidos em {2}%, durante {1} segundos. Recupera 300 de mana depois de atingir o alvo.",
+        "description": "Após bloquear, causa {0} de DAN F. em frente e reduz o ATQ dos inimigos atingidos em {2}% por {1} seg. Recupera 300 PM após atingir o alvo.",
         "books": {
           "0": "Aumenta o DAN em {0}%.",
           "1": "Aumenta o DAN em {0}%.",
@@ -3145,12 +3145,12 @@
         "ut": {
           "name": "Luvas de Couro de Cria",
           "description": [
-            "[Hellfire] Upon blocking target's M.ATK during the skill's duration, DMG reduction is increased by 100 and M.Crit resistance is increased by 250.",
-            "[Hellfire] Upon blocking target's M.ATK during the skill's duration, DMG reduction is increased by 120 and M.Crit resistance is increased by 250.",
-            "[Hellfire] Upon blocking target's M.ATK during the skill's duration, DMG reduction is increased by 140 and M.Crit resistance is increased by 250.",
-            "[Hellfire] Upon blocking target's M.ATK during the skill's duration, DMG reduction is increased by 170 and M.Crit resistance is increased by 250.",
-            "[Hellfire] Upon blocking target's M.ATK during the skill's duration, DMG reduction is increased by 210 and M.Crit resistance is increased by 250.",
-            "[Hellfire] Upon blocking target's M.ATK during the skill's duration, DMG reduction is increased by 250 and M.Crit resistance is increased by 250."
+            "[Fogo Infernal] Ao bloquear ATQ M. do alvo durante a habilidade, a redução de DAN aumenta em 100 e a resistência a Crít M. aumenta em 250.",
+            "[Fogo Infernal] Ao bloquear ATQ M. do alvo durante a habilidade, a redução de DAN aumenta em 120 e a resistência a Crít M. aumenta em 250.",
+            "[Fogo Infernal] Ao bloquear ATQ M. do alvo durante a habilidade, a redução de DAN aumenta em 140 e a resistência a Crít M. aumenta em 250.",
+            "[Fogo Infernal] Ao bloquear ATQ M. do alvo durante a habilidade, a redução de DAN aumenta em 170 e a resistência a Crít M. aumenta em 250.",
+            "[Fogo Infernal] Ao bloquear ATQ M. do alvo durante a habilidade, a redução de DAN aumenta em 210 e a resistência a Crít M. aumenta em 250.",
+            "[Fogo Infernal] Ao bloquear ATQ M. do alvo durante a habilidade, a redução de DAN aumenta em 250 e a resistência a Crít M. aumenta em 250."
           ],
           "story": "Luvas feitas com pele e ossos de uma Cria sombria. Há cem anos, Morrah fez estas luvas recolhendo as Crias que matava quando saía para caçar dragões. São tão duráveis que resistem até às chamas de Morrah, e ainda concedem maior poder que faz as chamas queimarem ainda mais. Morrah gosta muito destas luvas."
         }
@@ -4112,7 +4112,7 @@
             "[Fulgor da Purificação] Reduz o Custo de Mana em 1 e aumenta o DAN em 42%.",
             "[Fulgor da Purificação] Reduz o Custo de Mana em 1 e aumenta o DAN em 50%."
           ],
-          "story": "Símbolo do Exército de Árbitros do Fogo. Símbolo do Exército de Árbitros do Fogo que realizou grandes atos durante a guerra contra os Demônios. Ao usar o Quadrado Mágico da Busca, concedido pela Lua da Deusa Lua, Arch se torna um árbitro implacável."
+          "story": "O símbolo do Exército de Árbitros do Fogo que lutou uma dura batalha contra os Demônios Anciões. Ao usar o Quadrado Mágico da Busca abençoado por Lua, a Deusa da Luz, Arch se torna um árbitro implacável."
         }
       },
       "s3": {
@@ -4345,12 +4345,12 @@
         "ut": {
           "name": "Espada Cortafluxo",
           "description": [
-            "[Dimension Cleaver] DMG is increased by 50% and own Crit DMG is increased by 10% for 8 sec per each hit enemies. This effect can be stacked max 5 times.",
-            "[Dimension Cleaver] DMG is increased by 50% and own Crit DMG is increased by 12% for 8 sec per each hit enemies. This effect can be stacked max 5 times.",
-            "[Dimension Cleaver] DMG is increased by 50% and own Crit DMG is increased by 14% for 8 sec per each hit enemies. This effect can be stacked max 5 times.",
-            "[Dimension Cleaver] DMG is increased by 50% and own Crit DMG is increased by 17% for 8 sec per each hit enemies. This effect can be stacked max 5 times.",
-            "[Dimension Cleaver] DMG is increased by 50% and own Crit DMG is increased by 21% for 8 sec per each hit enemies. This effect can be stacked max 5 times.",
-            "[Dimension Cleaver] DMG is increased by 50% and own Crit DMG is increased by 25% for 8 sec per each hit enemies. This effect can be stacked max 5 times."
+            "[Cutelo Dimensional] O DAN aumenta em 50% e o próprio DAN Crít aumenta em 10% por 8 seg. para cada inimigo atingido. Esse efeito pode acumular até 5 vezes.",
+            "[Cutelo Dimensional] O DAN aumenta em 50% e o próprio DAN Crít aumenta em 12% por 8 seg. para cada inimigo atingido. Esse efeito pode acumular até 5 vezes.",
+            "[Cutelo Dimensional] O DAN aumenta em 50% e o próprio DAN Crít aumenta em 14% por 8 seg. para cada inimigo atingido. Esse efeito pode acumular até 5 vezes.",
+            "[Cutelo Dimensional] O DAN aumenta em 50% e o próprio DAN Crít aumenta em 17% por 8 seg. para cada inimigo atingido. Esse efeito pode acumular até 5 vezes.",
+            "[Cutelo Dimensional] O DAN aumenta em 50% e o próprio DAN Crít aumenta em 21% por 8 seg. para cada inimigo atingido. Esse efeito pode acumular até 5 vezes.",
+            "[Cutelo Dimensional] O DAN aumenta em 50% e o próprio DAN Crít aumenta em 25% por 8 seg. para cada inimigo atingido. Esse efeito pode acumular até 5 vezes."
           ],
           "story": "Uma espada lendária que transcendeu eras. Uma espada lendária feita com a luz do sol e com as almas derretidas daqueles que sofrem. É um dos itens necessários para o uso do Cutelo Dimensional, já que é muito afiado e durável o suficiente para suportar a dimensão."
         }
@@ -4832,7 +4832,7 @@
             "[Tornado de Lâminas] Aumenta o DAN em 42% e reduz a Recarga em 8% ao realizar um acerto Crít.",
             "[Tornado de Lâminas] Aumenta o DAN em 50% e reduz a Recarga em 8% ao realizar um acerto Crít."
           ],
-          "story": "Ferramenta multiuso da Máscara Sorridente, usada para assassinatos. Item único da Máscara Sorridente que se livra do alvo de forma rápida e precisa. Mesmo durante um Tornado de Lâminas, o item permite que um ataque prossiga, além de ser otimizado para o padrão de ataque do usuário."
+          "story": "Uma multiferramenta das Máscaras Sorridentes, usada para assassinatos. Um item único das Máscaras Sorridentes, que são conhecidas pela sua velocidade e eficiência na eliminação dos seus alvos. Otimizada para os padrões de ataque do usuário, ela melhora o manuseio de arremesso de armas e aprimora ataques contínuos ao lançar Tornado de Lâminas."
         }
       },
       "s3": {
@@ -5185,12 +5185,12 @@
         "ut": {
           "name": "Colar do Deus do Relâmpago",
           "description": [
-            "[God of Lightning] ATK Spd is increased by 250 for the duration of skill, and the activation chance of 'For Jane' is increased by an additional 8%.",
-            "[God of Lightning] ATK Spd is increased by 250 for the duration of skill, and the activation chance of 'For Jane' is increased by an additional 9.6%.",
-            "[God of Lightning] ATK Spd is increased by 250 for the duration of skill, and the activation chance of 'For Jane' is increased by an additional 11.5%.",
-            "[God of Lightning] ATK Spd is increased by 250 for the duration of skill, and the activation chance of 'For Jane' is increased by an additional 13.8%.",
-            "[God of Lightning] ATK Spd is increased by 250 for the duration of skill, and the activation chance of 'For Jane' is increased by an additional 16.5%.",
-            "[God of Lightning] ATK Spd is increased by 250 for the duration of skill, and the activation chance of 'For Jane' is increased by an additional 20%."
+            "[Deus do Relâmpago] A Vel de ATQ aumenta em 250 durante a habilidade e a chance de ativação de ‘Por Jane’ aumenta mais 8%.",
+            "[Deus do Relâmpago] A Vel de ATQ aumenta em 250 durante a habilidade e a chance de ativação de ‘Por Jane’ aumenta mais 9,6%.",
+            "[Deus do Relâmpago] A Vel de ATQ aumenta em 250 durante a habilidade e a chance de ativação de ‘Por Jane’ aumenta mais 11,5%.",
+            "[Deus do Relâmpago] A Vel de ATQ aumenta em 250 durante a habilidade e a chance de ativação de ‘Por Jane’ aumenta mais 13,8%.",
+            "[Deus do Relâmpago] A Vel de ATQ aumenta em 250 durante a habilidade e a chance de ativação de ‘Por Jane’ aumenta mais 16,5%.",
+            "[Deus do Relâmpago] A Vel de ATQ aumenta em 250 durante a habilidade e a chance de ativação de ‘Por Jane’ aumenta mais 20%."
           ],
           "story": "Chamado de seta trovejante do céu, Legios também é chamado de fera sagrada. O poder de Legios era tão forte que, quando o transformaram em uma arma, a República Gray não foi capaz de conter toda a sua força. Assim, a maior parte foi colocada na Lança de Raios, e as restantes foram postas em locais diferentes. Uma dessas partes foi colocada no Colar do Deus do Relâmpago. Dizem que qualquer pessoa que use este colar consegue comungar com a Lança de Raios e chegar mais perto do poder de Legios."
         }
@@ -5835,123 +5835,123 @@
       }
     },
     "46": {
-      "name": "",
-      "subtitle": "",
-      "description": "",
-      "story": "",
-      "like": "",
-      "dislike": "",
+      "name": "Zafir",
+      "subtitle": "Príncipe das Tempestades de Areia",
+      "description": "Um descendente do antigo Rei Deus. Um jovem requintado que se dispôs a defender o deserto. A tempestade de areia que ele invoca com a sua flecha traga os inimigos e livra o mundo das suas existências.",
+      "story": "Um Príncipe sucessor do Rei Deus do antigo reino do deserto, possessor do poder de controlar a areia do deserto. No papel do jovem líder da tribo Mauhata de Guerreiros do Deserto, ele foi treinado e criado para ser um sucessor digno do grande rei. Quando a tribo Trovatia, seus irmãos juramentados, estava rezando no Santuário do Fluxo para despertar o Dragão Deus, ele liderou seus guerreiros na derrota de todos os demônios que se aproximavam do oásis. Auxiliado pelo Dragão Deus e por Laudia, a sacerdotisa, ele está cumprindo seu papel de Guerreiro do Deserto e está defendendo seu lar. Ele espera que seus esforços deixem o falecido Rei Deus orgulhoso.",
+      "like": "Gatos, arte em areia, pessoas do deserto",
+      "dislike": "Pessoas que tentam ferir seus entes queridos",
       "inn": {
-        "idle": "",
+        "idle": "Uau, nunca vi bebidas como estas.",
         "recruit": {
-          "greet": "",
+          "greet": "Que as bênçãos do Rei Deus estejam com você.",
           "talk": [
-            "",
-            "",
-            ""
+            "Hum, este lugar é bem diferente dos bares do deserto. Não devemos nos sentar no chão, não é?",
+            "Um Guerreiro do Deserto coloca seu povo acima de qualquer coisa.",
+            "... Eu não gosto muito de lugares cheios, mas este clima despreocupado... Não posso dizer que estou odiando."
           ],
-          "gift": ""
+          "gift": "Que baita gentileza. Obrigado."
         },
         "affinity": {
-          "greet": "",
+          "greet": "Como tem passado?",
           "talk": [
-            "",
-            ""
+            "A profecia diz que a ressurreição do Rei Deus está próxima.",
+            "... Se o tempo permitir, visite Aegina de vez em quando. Serei seu guia."
           ],
-          "gift": ""
+          "gift": "Os Guerreiros do Deserto também ficarão felizes com a sua presença."
         },
         "relationship": {
-          "greet": "",
+          "greet": "Saudações, camarada do deserto.",
           "talk": [
-            "",
-            "",
-            ""
+            "Gosto de gatos... Nenhuma criatura se compara a eles quando se trata de elegância.",
+            "Nem mesmo as duras tempestades de areia do deserto deixariam um arranhão nos Guerreiros do Deserto.",
+            "Posso até ter o sangue dele correndo nas veias, mas acho que tenho um longo caminho pela frente até poder me considerar um sucessor digno."
           ]
         }
       },
       "uw": {
-        "name": "",
+        "name": "Zaries, a Glória do Rei Deus",
         "description": [
-          "",
-          "",
-          "",
-          "",
-          "",
-          ""
+          "Ao usar uma habilidade, ganha 1 acúmulo de ‘Desejo do Deserto’. ‘Desejo do Deserto’ aumenta o ATQ em 4% e a Penetração de DEF em 20 por 10 seg., podendo acumular até 5 vezes. Esse efeito não pode ser removido.",
+          "Ao usar uma habilidade, ganha 1 acúmulo de ‘Desejo do Deserto’. ‘Desejo do Deserto’ aumenta o ATQ em 4,8% e a Penetração de DEF em 24 por 10 seg., podendo acumular até 5 vezes. Esse efeito não pode ser removido.",
+          "Ao usar uma habilidade, ganha 1 acúmulo de ‘Desejo do Deserto’. ‘Desejo do Deserto’ aumenta o ATQ em 5,6% e a Penetração de DEF em 29 por 10 seg., podendo acumular até 5 vezes. Esse efeito não pode ser removido.",
+          "Ao usar uma habilidade, ganha 1 acúmulo de ‘Desejo do Deserto’. ‘Desejo do Deserto’ aumenta o ATQ em 6,8% e a Penetração de DEF em 35 por 10 seg., podendo acumular até 5 vezes. Esse efeito não pode ser removido.",
+          "Ao usar uma habilidade, ganha 1 acúmulo de ‘Desejo do Deserto’. ‘Desejo do Deserto’ aumenta o ATQ em 8% e a Penetração de DEF em 42 por 10 seg., podendo acumular até 5 vezes. Esse efeito não pode ser removido.",
+          "Ao usar uma habilidade, ganha 1 acúmulo de ‘Desejo do Deserto’. ‘Desejo do Deserto’ aumenta o ATQ em 10% e a Penetração de DEF em 50 por 10 seg., podendo acumular até 5 vezes. Esse efeito não pode ser removido."
         ],
-        "story": ""
+        "story": "Uma Arma antiga forjada para o ser mais glorioso da Terra. Só é concedida ao sucessor do Rei Deus, e a pessoa deve passar por extremas provações para provar ser digna de possuí-la. Este arco, que só é concedido ao sucessor escolhido do Rei Deus, tem poder absoluto no deserto."
       },
       "s1": {
-        "name": "",
-        "description": "",
+        "name": "Julgamento do Deserto",
+        "description": "Causa {0} de DAN F. em inimigos dentro de um amplo alcance, e para cada inimigo atingido, reduz o tempo de recarga de habilidades em 1 seg. Causa {1} de DAN F. em inimigos infligidos por [Marca do Deserto] e remove 1 acúmulo de [Marca do Deserto]. Aumenta o DAN Crít em 5% após cada uso da habilidade. Esse efeito pode acumular até 10 e não pode ser removido.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "DAN aumenta em {0}%.",
+          "1": "DAN aumenta em {0}%.",
+          "2": "DAN aumenta em {0}%."
         },
-        "light": "",
-        "dark": ""
+        "light": "O impulso de DAN Crít por cada uso muda para 10%.",
+        "dark": "O inimigo atingido fica sob efeito de Cegueira por 1 seg."
       },
       "s2": {
-        "name": "",
-        "description": "",
+        "name": "Bênção do Espírito da Areia",
+        "description": "Cria um escudo em volta do aliado com o PV mais baixo e absorve {1} de DAN por {0} seg. Ganha imunidade a CM enquanto o escudo durar. Quando a duração do escudo acaba, ativa ‘Tempestade de Areia’ e causa {2} de DAN F. em inimigos dentro de um amplo alcance, infligindo 2 acúmulos de [Marca do Deserto]. Se o escudo for removido ou destruído, não ativa ‘Tempestade de Areia’.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "DAN e Escudo aumentados em {0}%.",
+          "1": "DAN e Escudo aumentados em {0}%.",
+          "2": "DAN e Escudo aumentados em {0}%."
         },
-        "light": "",
-        "dark": "",
+        "light": "Reduz o tempo de recarga de habilidades em 5 seg.",
+        "dark": "Inimigos atingidos por ‘Tempestade de Areia’ são empurrados para longe e derrubados por 3 seg.",
         "ut": {
-          "name": "",
+          "name": "Areia da Miragem",
           "description": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "[Bênção do Espírito da Areia] O Escudo absorve 20% mais DAN e remove CM de si.",
+            "[Bênção do Espírito da Areia] O Escudo absorve 24% mais DAN e remove CM de si.",
+            "[Bênção do Espírito da Areia] O Escudo absorve 28% mais DAN e remove CM de si.",
+            "[Bênção do Espírito da Areia] O Escudo absorve 34% mais DAN e remove CM de si.",
+            "[Bênção do Espírito da Areia] O Escudo absorve 40% mais DAN e remove CM de si.",
+            "[Bênção do Espírito da Areia] O Escudo absorve 50% mais DAN e remove CM de si."
           ],
-          "story": ""
+          "story": "Uma ampulheta que estava soterrada há muito tempo por uma enorme tempestade de areia que atingiu o Deserto Aegina. Quando a areia da ampulheta se move, ela invoca uma miragem de uma cidade antiga voltando à vida. No passado, sumo sacerdote do antigo reino a usava para demonstrar a glória do reino para o seu povo. Ao ver a sua cidade brilhando em tons de ouro, as pessoas ficavam orgulhosas do seu reino."
         }
       },
       "s3": {
-        "name": "",
-        "description": "",
+        "name": "Perdição do Deserto",
+        "description": "Causa {0} de DAN F. em inimigos à frente dentro de um amplo alcance e inflige 1 acúmulo de [Marca do Deserto]. Em seguida, invoca ‘Poço de Areia’ por 5 seg., causando {1} de DAN F. a cada 0,5 seg. e reduzindo a DEF F. dos alvos em 30% por 10 seg. ‘Poço de Areia’ tem 25% de chance de infligir 1 acúmulo de [Marca do Deserto] e puxa todos os inimigos dentro de alcance para o centro.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "DAN aumenta em {0}%.",
+          "1": "DAN aumenta em {0}%.",
+          "2": "DAN aumenta em {0}%."
         },
-        "light": "",
-        "dark": "",
+        "light": "Reduz o custo de Mana em 1.",
+        "dark": "Aumenta a duração de ‘Tempestade de Areia’ em 2 seg.",
         "ut": {
-          "name": "",
+          "name": "Alma do Oásis",
           "description": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "[Perdição do Deserto] Reduz o tempo de recarga de habilidades em 30% e aumenta a chance de ativação de efeito em 8%.",
+            "[Perdição do Deserto] Reduz o tempo de recarga de habilidades em 30% e aumenta a chance de ativação de efeito em 9,6%.",
+            "[Perdição do Deserto] Reduz o tempo de recarga de habilidades em 30% e aumenta a chance de ativação de efeito em 11,5%.",
+            "[Perdição do Deserto] Reduz o tempo de recarga de habilidades em 30% e aumenta a chance de ativação de efeito em 13,8%.",
+            "[Perdição do Deserto] Reduz o tempo de recarga de habilidades em 30% e aumenta a chance de ativação de efeito em 16,5%.",
+            "[Perdição do Deserto] Reduz o tempo de recarga de habilidades em 30% e aumenta a chance de ativação de efeito em 20%."
           ],
-          "story": ""
+          "story": "Uma espada mágica repassada pelos descendentes do Rei Deus. O nome “Oásis” vem da forma em que era usada para servir o povo em tempos difíceis. Após a queda do reino, seu paradeiro ficou desconhecido para o mundo, até que Zafir a viu em meio às coleções de arte de Kumuro e a comprou por um preço incrivelmente alto. Com a espada finalmente voltando para o descendente digno, Zafir conseguiu herdar os espíritos dos seus antepassados, maximizando os seus potenciais."
         }
       },
       "s4": {
-        "name": "",
-        "description": "",
+        "name": "Chamado do Guardião",
+        "description": "Cada ataque automático tem 15% de chance de causar {0} de DAN F. que ignora DEF em todos os inimigos, infligindo 1 acúmulo de [Marca do Deserto]. [Marca do Deserto] pode acumular até 5 vezes.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "DAN aumenta em {0}%.",
+          "1": "DAN aumenta em {0}%.",
+          "2": "DAN aumenta em {0}%."
         },
-        "light": "",
-        "dark": ""
+        "light": "Quando houver mais de 5 inimigos, todos os inimigos receberão 5 acúmulos de ‘Marca do Deserto’. Esse efeito é ativado uma vez a cada 20 seg.",
+        "dark": "A chance de ativação muda para 30%."
       },
       "t5": {
-        "light": "",
-        "dark": ""
+        "light": "ATQ, DEF, PV+15% / Chance Crít. +100",
+        "dark": "Recupera 500 de Mana ao usar uma habilidade. Se houver mais de 5 inimigos, dobra a taxa de recuperação de Mana e aumenta a Vel de ATQ em 500 por 5 seg. Esse efeito não acumula."
       }
     },
     "49": {
@@ -6025,12 +6025,12 @@
         "ut": {
           "name": "Coração de Elliciad",
           "description": [
-            "[Card of Love - Elliciad] Dispels Negative Effects of the target and all skill cooldown are decreased by 6%.",
-            "[Card of Love - Elliciad] Dispels Negative Effects of the target and all skill cooldown are decreased by 7.2%.",
-            "[Card of Love - Elliciad] Dispels Negative Effects of the target and all skill cooldown are decreased by 8.6%.",
-            "[Card of Love - Elliciad] Dispels Negative Effects of the target and all skill cooldown are decreased by 10.4%.",
-            "[Card of Love - Elliciad] Dispels Negative Effects of the target and all skill cooldown are decreased by 12.5%.",
-            "[Card of Love - Elliciad] Dispels Negative Effects of the target and all skill cooldown are decreased by 15%."
+            "[Carta do Amor - Elliciad] Remove Efeitos Negativos do alvo e todos os tempos de recarga são reduzidos em 6%.",
+            "[Carta do Amor - Elliciad] Remove Efeitos Negativos do alvo e todos os tempos de recarga são reduzidos em 7,2%.",
+            "[Carta do Amor - Elliciad] Remove Efeitos Negativos do alvo e todos os tempos de recarga são reduzidos em 8,6%.",
+            "[Carta do Amor - Elliciad] Remove Efeitos Negativos do alvo e todos os tempos de recarga são reduzidos em 10,4%.",
+            "[Carta do Amor - Elliciad] Remove Efeitos Negativos do alvo e todos os tempos de recarga são reduzidos em 12,5%.",
+            "[Carta do Amor - Elliciad] Remove Efeitos Negativos do alvo e todos os tempos de recarga são reduzidos em 15%."
           ],
           "story": "Espírito do amor, coração de Elliciad. Se alimenta tanto de amores correspondidos quanto dos que não são, de forma que pode ser quente como lava ou frio como gelo. O poder que emana depende do quão contaminada a alma está, de forma que manifesta uma vasta luz de bênção para os que têm alma pura."
         }
@@ -6145,12 +6145,12 @@
         "ut": {
           "name": "Presa Venenosa do Basilisco",
           "description": [
-            "[Screechy Grass Extract!] Skill cooldown is decreased by 30% and deals 3% of ATK as additional P.DMG per each stacked Tickle Tickle Potion! of target.",
-            "[Screechy Grass Extract!] Skill cooldown is decreased by 30% and deals 3.6% of ATK as additional P.DMG per each stacked Tickle Tickle Potion! of target.",
-            "[Screechy Grass Extract!] Skill cooldown is decreased by 30% and deals 4.3% of ATK as additional P.DMG per each stacked Tickle Tickle Potion! of target.",
-            "[Screechy Grass Extract!] Skill cooldown is decreased by 30% and deals 5.2% of ATK as additional P.DMG per each stacked Tickle Tickle Potion! of target.",
-            "[Screechy Grass Extract!] Skill cooldown is decreased by 30% and deals 6.2% of ATK as additional P.DMG per each stacked Tickle Tickle Potion! of target.",
-            "[Screechy Grass Extract!] Skill cooldown is decreased by 30% and deals 7.5% of ATK as additional P.DMG per each stacked Tickle Tickle Potion! of target."
+            "[Extrato de Erva Berrante!] O tempo de recarga de habilidades é reduzido em 30% e causa 3% de ATQ em forma de DAN F. extra para cada Poção de Cócegas! acumulada do alvo.",
+            "[Extrato de Erva Berrante!] O tempo de recarga de habilidades é reduzido em 30% e causa 3,6% de ATQ em forma de DAN F. extra para cada Poção de Cócegas! acumulada do alvo.",
+            "[Extrato de Erva Berrante!] O tempo de recarga de habilidades é reduzido em 30% e causa 4,3% de ATQ em forma de DAN F. extra para cada Poção de Cócegas! acumulada do alvo.",
+            "[Extrato de Erva Berrante!] O tempo de recarga de habilidades é reduzido em 30% e causa 5,2% de ATQ em forma de DAN F. extra para cada Poção de Cócegas! acumulada do alvo.",
+            "[Extrato de Erva Berrante!] O tempo de recarga de habilidades é reduzido em 30% e causa 6,2% de ATQ em forma de DAN F. extra para cada Poção de Cócegas! acumulada do alvo.",
+            "[Extrato de Erva Berrante!] O tempo de recarga de habilidades é reduzido em 30% e causa 7,5% de ATQ em forma de DAN F. extra para cada Poção de Cócegas! acumulada do alvo."
           ],
           "story": "Uma terrível presa de um Basilisco que absorve apenas energia maligna. Seu veneno é forte o bastante para derreter almas. Se o veneno da presa for misturado com erva berrante, ele pode se tornar uma tremenda droga à qual nenhum organismo sobreviveria. O coração de Requina está batendo forte pela expectativa."
         }
@@ -6265,12 +6265,12 @@
         "ut": {
           "name": "Pulseira do Sol",
           "description": [
-            "[Bênção do Sol] Reduz o Custo de Mana em 1 e aumenta a Vulnerabilidade F. do alvo em 10% por 10s.",
-            "[Bênção do Sol] Reduz o Custo de Mana em 1 e aumenta a Vulnerabilidade F. do alvo em 12% por 10s.",
-            "[Bênção do Sol] Reduz o Custo de Mana em 1 e aumenta a Vulnerabilidade F. do alvo em 14% por 10s.",
-            "[Bênção do Sol] Reduz o Custo de Mana em 1 e aumenta a Vulnerabilidade F. do alvo em 17% por 10s.",
-            "[Bênção do Sol] Reduz o Custo de Mana em 1 e aumenta a Vulnerabilidade F. do alvo em 21% por 10s.",
-            "[Bênção do Sol] Reduz o Custo de Mana em 1 e aumenta a Vulnerabilidade F. do alvo em 25% por 10s."
+            "[Bênção do Sol] Reduz o Custo de Mana em 1 e diminui a DAN.F do alvo em 10% por 10s.",
+            "[Bênção do Sol] Reduz o Custo de Mana em 1 e diminui a DAN.F do alvo em 12% por 10s.",
+            "[Bênção do Sol] Reduz o Custo de Mana em 1 e diminui a DAN.F do alvo em 14% por 10s.",
+            "[Bênção do Sol] Reduz o Custo de Mana em 1 e diminui a DAN.F do alvo em 17% por 10s.",
+            "[Bênção do Sol] Reduz o Custo de Mana em 1 e diminui a DAN.F do alvo em 21% por 10s.",
+            "[Bênção do Sol] Reduz o Custo de Mana em 1 e diminui a DAN.F do alvo em 25% por 10s."
           ],
           "story": "Pulseira feita pelos Arcanjos para proteger os Anjos quando eles descem para a Terra. Por ter o sol dentro de si, a pulseira reluz intensamente. Dizem que, quando os anjos sentem medo, a luz do sol da pulseira protege suas almas. Os destinos dos anjos são entrelaçados na pulseira, e dessa forma, eles instintivamente sentem a dor do outro quando suas vidas são ameaçadas."
         }
@@ -6555,243 +6555,243 @@
       }
     },
     "57": {
-      "name": "",
-      "subtitle": "",
-      "description": "",
-      "story": "",
-      "like": "",
-      "dislike": "",
+      "name": "Lilia",
+      "subtitle": "Filha da Tormenta e do Mar",
+      "description": "Uma garota Dragão Azul que acabou de passar por sua fase de Cria, além de ser irmã de Laias, a Sacerdotisa da Água. Embora ela ainda seja jovem e inexperiente, quem a menospreza tende a pagar caro. Ela usa a energia implacável da água para dizimar seus inimigos.",
+      "story": "Um Dragão Deus do Oásis, irmã da Sacerdotisa da Água, Laias. Ela ainda é um Dragão Azul jovem que ama a sua irmã muito mais velha. Quando Laias caiu num sono profundo após esgotar seus poderes numa batalha 100 anos atrás, Lilia defendeu o Santuário do Fluxo sozinha. Quando ouviu os filhos do deserto orando desesperadamente, ela finalmente acordou a Sacerdotisa da Água para que os protegesse. Diferentemente da sua irmã meiga e gentil, ela é um pouco severa, e a forma como controla o poder do fluxo e da água também é mais agressiva. Ela sente a necessidade de proteger sua bela irmã de homens sedutores e indignos.",
+      "like": "Laias, bebidas adocicadas, pessoas do deserto",
+      "dislike": "Quem flerta com a sua irmã (Neraxis, Sereinel)",
       "inn": {
-        "idle": "",
+        "idle": "... Hu-humanos demais...",
         "recruit": {
-          "greet": "",
+          "greet": "Que o Fluxo esteja com você!",
           "talk": [
-            "",
-            "",
-            ""
+            "Não sou tão gentil quanto a minha irmã.",
+            "Dragões Azuis são fracos? Isso é muito equivocado.",
+            "Sou um Dragão adulto. Tenho idade bastante!"
           ],
-          "gift": ""
+          "gift": "Obrigada, criança humana."
         },
         "affinity": {
-          "greet": "",
+          "greet": "Olá, você está com a aparência ótima!",
           "talk": [
-            "",
-            ""
+            "A missão da irmã é minha também. Eu sempre ficarei com ela.",
+            "O mistério da água infinita? Hum... Ouvi falar que é o poder do Primeiro Dragão Azul."
           ],
-          "gift": ""
+          "gift": "Muito obrigada. Vou usar isso para o Santuário do Fluxo."
         },
         "relationship": {
-          "greet": "",
+          "greet": "Bom ver você de novo!",
           "talk": [
-            "",
-            "",
-            ""
+            "Neraxis? Que idiota. Ele sempre fica implorando pela atenção da minha irmã!",
+            "Sereinel...? Arrrgh... Achei que ele já era. Não acredito que está cantando a minha irmã de novo...",
+            "A minha irmã é quem eu mais amo... mas eu gosto de você também."
           ]
         }
       },
       "uw": {
-        "name": "",
+        "name": "Cielamaha, a Nascente Infinita",
         "description": [
-          "",
-          "",
-          "",
-          "",
-          "",
-          ""
+          "Recupera 50 de Mana por seg., e a após cada ATQ, há 80% de chance de causar DAN F. equivalente a 20% do ATQ.",
+          "Recupera 60 de Mana por seg., e a após cada ATQ, há 80% de chance de causar DAN F. equivalente a 24% do ATQ.",
+          "Recupera 70 de Mana por seg., e a após cada ATQ, há 80% de chance de causar DAN F. equivalente a 28% do ATQ.",
+          "Recupera 85 de Mana por seg., e a após cada ATQ, há 80% de chance de causar DAN F. equivalente a 34% do ATQ.",
+          "Recupera 105 de Mana por seg., e a após cada ATQ, há 80% de chance de causar DAN F. equivalente a 42% do ATQ.",
+          "Recupera 125 de Mana por seg., e a após cada ATQ, há 80% de chance de causar DAN F. equivalente a 50% do ATQ."
         ],
-        "story": ""
+        "story": "Uma nascente infinita que jorra água sem parar. Um jarro feito pelo primeiro Dragão Azul, que dominava todas as águas da Terra. Reage à imaginação do usuário. Para uma garota jovem, sensível e criativa como Lilia, é um grande tesouro e uma bela arma."
       },
       "s1": {
-        "name": "",
-        "description": "",
+        "name": "Tempestade d’Água",
+        "description": "Por 8 segundos, invoca Tempestade d'Água em um alvo aleatório e em inimigos dentro de alcance do alvo, causando {0} de DAN F. a cada 0,5 seg. Se o alvo for eliminado, a Tempestade d'Água é invocada para atacar outro alvo aleatório durante o tempo restante.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "DAN aumenta em {0}%.",
+          "1": "DAN aumenta em {0}%.",
+          "2": "DAN aumenta em {0}%."
         },
-        "light": "",
-        "dark": ""
+        "light": "Reduz a Vel de ATQ do alvo atingido em 250 por 10 seg.",
+        "dark": "Cada uso aumenta o DAN em 15%. Acumula-se no máximo 15 vezes."
       },
       "s2": {
-        "name": "",
-        "description": "",
+        "name": "Oásis Infinito",
+        "description": "Ao ser ativada, fica no estado de Oásis Infinito por 15 seg. Durante o estado de Oásis Infinito, a taxa de recuperação de Mana por seg. aumenta em 150% e o ATQ aumenta em {0}. Além disso, toda a DEF aumenta em {1}.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "Aumenta a Recuperação de Mana e o impulso de ATQ em {0}%.",
+          "1": "Aumenta a Recuperação de Mana e o impulso de ATQ em {0}%.",
+          "2": "Aumenta a Recuperação de Mana e o impulso de ATQ em {0}%."
         },
-        "light": "",
-        "dark": "",
+        "light": "Aumenta o custo de Mana em 1 e é ativada mais uma vez no aliado com o ATQ mais alto (exceto o utilizador).",
+        "dark": "Reduz a duração da habilidade em 5 seg. e aumenta a duração de todos os efeitos em 100%.",
         "ut": {
-          "name": "",
+          "name": "Coração do Fluxo",
           "description": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "[Oásis Infinito] O efeito não pode ser removido e o DAN Crít aumenta em 20% durante a habilidade.",
+            "[Oásis Infinito] O efeito não pode ser removido e o DAN Crít aumenta em 24% durante a habilidade.",
+            "[Oásis Infinito] O efeito não pode ser removido e o DAN Crít aumenta em 28% durante a habilidade.",
+            "[Oásis Infinito] O efeito não pode ser removido e o DAN Crít aumenta em 34% durante a habilidade.",
+            "[Oásis Infinito] O efeito não pode ser removido e o DAN Crít aumenta em 42% durante a habilidade.",
+            "[Oásis Infinito] O efeito não pode ser removido e o DAN Crít aumenta em 50% durante a habilidade."
           ],
-          "story": ""
+          "story": "Um colar feminino de ouro que Laias fez para Lilia com uma Pedra da Proteção. O colar reluz com a energia dos elementais da água nele contidos. É um símbolo do amor de Laias pela sua irmã mais nova."
         }
       },
       "s3": {
-        "name": "",
-        "description": "",
+        "name": "Cataratas Celestiais",
+        "description": "Joga gotas d’água 15 vezes em inimigos aleatórios, causando um total de {0} de DAN F. Além disso, arremessa grossas gotas de água no alvo e em outros inimigos dentro de alcance do alvo por 5 vezes, causando {1} de DAN F. Inimigos atingidos pelas gotas grossas de água ficam atordoados por {2} seg. Para cada gota jogada, consome {3} de Mana e aumenta o custo de Mana em {4}. Encerra o uso quando o Mana chega a 0.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "DAN aumenta em {0}%.",
+          "1": "DAN aumenta em {0}%.",
+          "2": "DAN aumenta em {0}%."
         },
-        "light": "",
-        "dark": "",
+        "light": "Enquanto estiver em uso, ganha imunidade a CM.",
+        "dark": "Para cada gota d’água jogada, aumenta o custo e a taxa de consumo de Mana em 100% com 50% de chance de jogar uma gota extra.",
         "ut": {
-          "name": "",
+          "name": "Infindável Chaleira de Elementais",
           "description": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "[Cataratas Celestiais] Após cada ATQ, há 7% de chance de jogar uma gota grossa de água, causando DAN F. equivalente a 100% do ATQ e aumentando o próprio DAN Crít em 2% por 7 segundos.",
+            "[Cataratas Celestiais] Após cada ATQ, há 7% de chance de jogar uma gota grossa de água, causando DAN F. equivalente a 100% do ATQ e aumentando o próprio DAN Crít em 2,4% por 7 segundos.",
+            "[Cataratas Celestiais] Após cada ATQ, há 7% de chance de jogar uma gota grossa de água, causando DAN F. equivalente a 100% do ATQ e aumentando o próprio DAN Crít em 2,8% por 7 segundos.",
+            "[Cataratas Celestiais] Após cada ATQ, há 7% de chance de jogar uma gota grossa de água, causando DAN F. equivalente a 100% do ATQ e aumentando o próprio DAN Crít em 3,4% por 7 segundos.",
+            "[Cataratas Celestiais] Após cada ATQ, há 7% de chance de jogar uma gota grossa de água, causando DAN F. equivalente a 100% do ATQ e aumentando o próprio DAN Crít em 4,2% por 7 segundos.",
+            "[Cataratas Celestiais] Após cada ATQ, há 7% de chance de jogar uma gota grossa de água, causando DAN F. equivalente a 100% do ATQ e aumentando o próprio DAN Crít em 5% por 7 segundos."
           ],
-          "story": ""
+          "story": "Uma chaleira que os antigos amigos cactos de Lilia fizeram para ela no seu aniversário. Fornece produção infinita da mais pura e limpa água que existe. No entanto, se muita água for usada de uma vez, ela fecha o seu bico, uma característica adicionada pelos Cactos para ajudar Lilia a permanecer no controle da água enquanto aprimora as suas habilidades."
         }
       },
       "s4": {
-        "name": "",
-        "description": "",
+        "name": "Purificação Aquífera",
+        "description": "A Recuperação de Mana após um ATQ fica fixa, mas o próprio ATQ aumenta em {0} e a Recuperação de Mana por seg. aumenta em 120. Aumenta o ATQ em 1% a cada 6 de Recuperação de Mana por seg.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "Taxa de aumento de ataque aumenta em {0}%.",
+          "1": "Taxa de aumento de ataque aumenta em {0}%.",
+          "2": "Taxa de aumento de ataque aumenta em {0}%."
         },
-        "light": "",
-        "dark": ""
+        "light": "Recupera 1.000 de Mana no início de cada batalha.",
+        "dark": "Causa 15% mais DAN em monstros Chefes."
       },
       "t5": {
-        "light": "",
-        "dark": ""
+        "light": "ATQ, DEF, PV+15% / DAN Crít. +20%",
+        "dark": "ATK is increased by 15% per 1 orb of mana."
       }
     },
     "58": {
-      "name": "",
-      "subtitle": "",
-      "description": "",
-      "story": "",
-      "like": "",
-      "dislike": "",
+      "name": "Laudia",
+      "subtitle": "Dançarina do Oásis",
+      "description": "Uma dançarina de uma tribo nômade do Deserto Aegina. Sua dança derrete o coração das pessoas e suas lâminas afiadas silenciosamente tiram a vida dos seus inimigos.",
+      "story": "Trovatia é uma tribo nômade do Deserto Aegina que herdou a tradição e religião do antigo reino do deserto. Laudia é a filha do líder da tribo e serve à Sacerdote da Água, Laias. Ela também cuida da tribo em nome do seu velho pai. Quando rezou por ajuda, o Dragão Deus Laias e sua irmã Lilia acordaram do seu longo sono e levaram Laudia e sua tribo para o santuário, protegendo-as pelo caminho. Desde então, Laudia tem derrotado demônios no deserto com Zafir, o líder da tribo Mauhata dos Guerreiros do Deserto.",
+      "like": "Laias, Lilia, pessoas do deserto",
+      "dislike": "Ver as pessoas sofrendo",
       "inn": {
-        "idle": "",
+        "idle": "Ah, que local interessante. Tem um lugar para eu dançar?",
         "recruit": {
-          "greet": "",
+          "greet": "Olá. Que o poder do Fluxo esteja com você.",
           "talk": [
-            "",
-            "",
-            ""
+            "Você não viu a sacerdotisa? Ela é bem fácil de se notar...",
+            "Bem, se me vir dançar, você não conseguirá pensar em mais nada.",
+            "Não quero ver este lindo mundo sendo ainda mais destruído."
           ],
-          "gift": ""
+          "gift": "Obrigada pelo presente. Quer dançar?"
         },
         "affinity": {
-          "greet": "",
+          "greet": "Olá! Agora que estamos mais íntimos, posso lhe chamar pelo primeiro nome?",
           "talk": [
-            "",
-            ""
+            "Gosto deste lugar. É tão calmo e tranquilo.",
+            "Ser uma vice-líder não é um trabalho fácil. Preciso cuidar de todas as pessoas da tribo."
           ],
-          "gift": ""
+          "gift": "Obrigada. Acho que vou comprar uns lanches para as crianças..."
         },
         "relationship": {
-          "greet": "",
+          "greet": "Bom ver você. Bem, você veio me ver?",
           "talk": [
-            "",
-            "",
-            ""
+            "Você conheceu Lilia e a irmã dela, Laias? Elas são ótimas. Você com certeza vai gostar muito delas.",
+            "Sinto uma forte vibração do Fluxo e do destino, encontrada apenas em verdadeiros guerreiros e heróis.",
+            "Criei uma nova dança. Gostaria de vê-la uma hora dessas? Poderíamos até dançar em par."
           ]
         }
       },
       "uw": {
-        "name": "",
+        "name": "Arlaq, Areias Sussurrantes",
         "description": [
-          "",
-          "",
-          "",
-          "",
-          "",
-          ""
+          "[Bênção do Oásis] pode acumular até 12 vezes, e ao realizar um ataque automático, reduz todos os tempos de recarga em 4% com 10% de chance.",
+          "Bênção do Oásis pode acumular até 13 vezes, e ao realizar um ataque automático, reduz todos os tempos de recarga em 4,8% com 10% de chance.",
+          "Bênção do Oásis pode acumular até 14 vezes, e ao realizar um ataque automático, reduz todos os tempos de recarga em 5,8% com 10% de chance.",
+          "Bênção do Oásis pode acumular até 15 vezes, e ao realizar um ataque automático, reduz todos os tempos de recarga em 7% com 10% de chance.",
+          "Bênção do Oásis pode acumular até 16 vezes, e ao realizar um ataque automático, reduz todos os tempos de recarga em 8,4% com 10% de chance.",
+          "Bênção do Oásis pode acumular até 17 vezes, e ao realizar um ataque automático, reduz todos os tempos de recarga em 10% com 10% de chance."
         ],
-        "story": ""
+        "story": "Um raro tesouro que é a manifestação de uma paixão que arde como uma chama no deserto. Sabe-se que um par destas belas armas foi armazenado no repositório do Rei Deus. Ao serem brandidas, elas emitem o belo som do vento e o aroma da brisa. É uma doce e letal tentação, assim como uma miragem no deserto..."
       },
       "s1": {
-        "name": "",
-        "description": "",
+        "name": "Sussurro de Areia",
+        "description": "Ataca o algo inimigo e causa {0} de DAN M. em inimigos próximos, reduzindo a chance de bloquear do inimigo em {2} e a Resistência Crít em {3} por {1} seg. Além disso, ataca e causa {4} de DAN M., atordoando os inimigos por {5} seg.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "DAN aumenta em {0}%.",
+          "1": "DAN aumenta em {0}%.",
+          "2": "DAN aumenta em {0}%."
         },
-        "light": "",
-        "dark": ""
+        "light": "Reduz o custo de Mana em 1.",
+        "dark": "O alvo recebe mais 25% de DAN M. durante 10 seg."
       },
       "s2": {
-        "name": "",
-        "description": "",
+        "name": "Fluxo Encantador",
+        "description": "Aumenta o ATQ em {1} e o DAN Crít em {2}% por {0} seg. Depois, avança uma curta distância e causa {3} de DAN M. a inimigos dentro de alcance de movimento, Encantando-os por {4} seg. se a habilidade for usada na Arena. Pode ativar [Emboscada Sedutora] uma vez dentro de 5 seg. após o uso.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "Reforços de ATQ e DAN aumentam em {0}%.",
+          "1": "Reforços de ATQ e DAN aumentam em {0}%.",
+          "2": "Reforços de ATQ e DAN aumentam em {0}%."
         },
-        "light": "",
-        "dark": "",
+        "light": "Ganha 2 orbes de Mana após um movimento. O Mana obtido é consumido ao longo de 5 seg.",
+        "dark": "Após usar Fluxo Encantador, Emboscada Sedutora pode ser usada duas vezes dentro de 10 seg.",
         "ut": {
-          "name": "",
+          "name": "Sagrado de Trovatia",
           "description": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "[Fluxo Encantador] Após um movimento, absorve DAN equivalente a 160% do ATQ por 3 seg., cria um escudo imune a CM e reduz em 1 o custo de Mana de [Emboscada Sedutora].",
+            "[Fluxo Encantador] Após um movimento, absorve DAN equivalente a 190% do ATQ por 3 seg., cria um escudo imune a CM e reduz em 1 o custo de Mana de [Emboscada Sedutora].",
+            "[Fluxo Encantador] Após um movimento, absorve DAN equivalente a 230% do ATQ por 3 seg., cria um escudo imune a CM e reduz em 1 o custo de Mana de [Emboscada Sedutora].",
+            "[Fluxo Encantador] Após um movimento, absorve DAN equivalente a 270% do ATQ por 3 seg., cria um escudo imune a CM e reduz em 1 o custo de Mana de [Emboscada Sedutora].",
+            "[Fluxo Encantador] Após um movimento, absorve DAN equivalente a 330% do ATQ por 3 seg., cria um escudo imune a CM e reduz em 1 o custo de Mana de [Emboscada Sedutora].",
+            "[Fluxo Encantador] Após um movimento, absorve DAN equivalente a 400% do ATQ por 3 seg., cria um escudo imune a CM e reduz em 1 o custo de Mana de [Emboscada Sedutora]."
           ],
-          "story": ""
+          "story": "Um baú contendo os artefatos necessários para rituais de adoração ao Dragão da Água. Alguns ornamentos colocados sobre ele foram feitos com ‘Lápis-lazúli’, uma pedra que representa a total plenitude. É o objeto mais querido pelo pai de Laudia, e só é cedido àqueles capazes de liderar toda a tribo Trovatia."
         }
       },
       "s3": {
-        "name": "",
-        "description": "",
+        "name": "Dança do Deserto",
+        "description": "Ataca 30 vezes os inimigos dentro de alcance, causando um total de {0} de DAN M. Além disso, arremessa 30 vezes as ‘Lâminas de Arlaq’ em inimigos aleatórios, causando um total de {1} DAN M. Mais {2} de DAN é acumulado toda vez que a lâmina atinge o mesmo inimigo. [Aceleração Ofuscante] pode ser usada uma vez durante a ativação da habilidade, sendo que as ‘Lâminas de Arlaq’ priorizam os alvos sob efeito de Encanto.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "DAN aumenta em {0}%.",
+          "1": "DAN aumenta em {0}%.",
+          "2": "DAN aumenta em {0}%."
         },
-        "light": "",
-        "dark": "",
+        "light": "Reduz em 1 o custo de Mana de Aceleração Ofuscante e aumenta duração da habilidade em 2 seg.",
+        "dark": "O custo de Mana aumenta em 1 e o DAN aumenta em 100%.",
         "ut": {
-          "name": "",
+          "name": "Véu de Encanto",
           "description": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "[Dança do Deserto] Reduz o tempo de recarga de habilidades em 30% e aumenta a Penetração de DEF em 100 durante a ativação da habilidade.",
+            "[Dança do Deserto] Reduz o tempo de recarga de habilidades em 30% e aumenta a Penetração de DEF em 120 durante a ativação da habilidade.",
+            "[Dança do Deserto] Reduz o tempo de recarga de habilidades em 30% e aumenta a Penetração de DEF em 140 durante a ativação da habilidade.",
+            "[Dança do Deserto] Reduz o tempo de recarga de habilidades em 30% e aumenta a Penetração de DEF em 170 durante a ativação da habilidade.",
+            "[Dança do Deserto] Reduz o tempo de recarga de habilidades em 30% e aumenta a Penetração de DEF em 210 durante a ativação da habilidade.",
+            "[Dança do Deserto] Reduz o tempo de recarga de habilidades em 30% e aumenta a Penetração de DEF em 250 durante a ativação da habilidade."
           ],
-          "story": ""
+          "story": "Um lendário véu cedido somente à melhor dançarina do continente. Realizar uma dança com ele é capaz de hipnotizar os espectadores. Laudia usou o véu para hipnotizar os inimigos com a sua dança sedutora e conseguiu tudo o que queria."
         }
       },
       "s4": {
-        "name": "",
-        "description": "",
+        "name": "Bênção do Oásis",
+        "description": "Reduz em {0}% a duração de CM em si. Ao usar a habilidade, ganha [Bênção do Oásis] por {1} seg., aumentando a própria Penetração de DEF em {2} e a DEF em {3}. [Bênção do Oásis] pode acumular até {4} vezes e não pode ser removida.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "A Penetração de DEF e o impulso de DEF aumentam em {0}%.",
+          "1": "A Penetração de DEF e o impulso de DEF aumentam em {0}%.",
+          "2": "A Penetração de DEF e o impulso de DEF aumentam em {0}%."
         },
-        "light": "",
-        "dark": ""
+        "light": "Ganha 2 acúmulos de Bênção do Oásis.",
+        "dark": "Para cada acúmulo, recebe 2% menos DAN de inimigos que não forem heróis."
       },
       "t5": {
-        "light": "",
-        "dark": ""
+        "light": "ATK, DEF, PV+15% / Vel ATQ +100",
+        "dark": "No início de cada batalha, ganha imunidade a CM por 5 seg. aumenta a PREC e a PREC de CM em 300 por 10 segundos."
       }
     },
     "62": {
@@ -7083,7 +7083,7 @@
       },
       "s1": {
         "name": "Pilar de Luz",
-        "description": "Posiciona o Pilar de Luz na área do inimigo, causando um total de {0} de DAN.M acima de 5 segundos e reduzindo o ATQ inimigo em {1}% por 10 segundos.",
+        "description": "Posiciona o Pilar de Luz na área do inimigo, causando um total de {0} de DAN.M acima de 3 segundos e reduzindo o ATQ inimigo em {1}% por 10 segundos.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -7225,12 +7225,12 @@
         "ut": {
           "name": "Anel Gêmeo de Teletransporte Instantâneo",
           "description": [
-            "[Restrain and Protect] Reduces Mana Cost by 1 and upon Crit hit recovers 160 Mana.",
-            "[Restrain and Protect] Reduces Mana Cost by 1 and upon Crit hit recovers 190 Mana.",
-            "[Restrain and Protect] Reduces Mana Cost by 1 and upon Crit hit recovers 230 Mana.",
-            "[Restrain and Protect] Reduces Mana Cost by 1 and upon Crit hit recovers 270 Mana.",
-            "[Restrain and Protect] Reduces Mana Cost by 1 and upon Crit hit recovers 330 Mana.",
-            "[Restrain and Protect] Reduces Mana Cost by 1 and upon Crit hit recovers 400 Mana."
+            "[Conter e Proteger] Reduz o Custo de Mana em 1 e recupera 160 de Mana ao realizar um acerto Crít.",
+            "[Conter e Proteger] Reduz o Custo de Mana em 1 e recupera 190 de Mana ao realizar um acerto Crít.",
+            "[Conter e Proteger] Reduz o Custo de Mana em 1 e recupera 230 de Mana ao realizar um acerto Crít.",
+            "[Conter e Proteger] Reduz o Custo de Mana em 1 e recupera 270 de Mana ao realizar um acerto Crít.",
+            "[Conter e Proteger] Reduz o Custo de Mana em 1 e recupera 330 de Mana ao realizar um acerto Crít.",
+            "[Conter e Proteger] Reduz o Custo de Mana em 1 e recupera 400 de Mana ao realizar um acerto Crít."
           ],
           "story": "Anel que Mirianne comprou na ‘Loja Incrível de Brinquedos Mágicos’ em Orvel. Ela gravou o nome de Sonia e o seu no item. O anel forma um conjunto que permite que se teleportem para a localização uma da outra uma vez por dia. Porem, Sonia não usa o seu por ser um pouco problemático... Pode até ser um brinquedo, mas Mirianne se alegra por possuir mais uma forma de proteger Sonia."
         }
@@ -7465,12 +7465,12 @@
         "ut": {
           "name": "Dispositivo de Gravação KARA-00XX",
           "description": [
-            "[Wide-area Cannon] Increases DMG by 50% and reduces ATK Spd of the target by 100 for 10 sec. [Focused Fire] Reduces Cooldown by 2% upon a Crit Hit and recovers 150 Mana.",
-            "[Wide-area Cannon] Increases DMG by 50% and reduces ATK Spd of the target by 120 for 10 sec. [Focused Fire] Reduces Cooldown by 2.4% upon a Crit Hit and recovers 150 Mana.",
-            "[Wide-area Cannon] Increases DMG by 50% and reduces ATK Spd of the target by 140 for 10 sec. [Focused Fire] Reduces Cooldown by 2.9% upon a Crit Hit and recovers 150 Mana.",
-            "[Wide-area Cannon] Increases DMG by 50% and reduces ATK Spd of the target by 170 for 10 sec. [Focused Fire] Reduces Cooldown by 3.5% upon a Crit Hit and recovers 150 Mana.",
-            "[Wide-area Cannon] Increases DMG by 50% and reduces ATK Spd of the target by 210 for 10 sec. [Focused Fire] Reduces Cooldown by 4.2% upon a Crit Hit and recovers 150 Mana.",
-            "[Wide-area Cannon] Increases DMG by 50% and reduces ATK Spd of the target by 250 for 10 sec. [Focused Fire] Reduces Cooldown by 5% upon a Crit Hit and recovers 150 Mana."
+            "[Canhão de Dispersão] Aumenta o DAN em 50% e reduz a Vel de ATQ do alvo em 100 por 10 seg. [Fogo Concentrado] Reduz o tempo de Recarga em 2% ao realizar um Acerto Crít. e recupera 150 de Mana.",
+            "[Canhão de Dispersão] Aumenta o DAN em 50% e reduz a Vel de ATQ do alvo em 120 por 10 seg. [Fogo Concentrado] Reduz o tempo de Recarga em 2,4% ao realizar um Acerto Crít. e recupera 150 de Mana.",
+            "[Canhão de Dispersão] Aumenta o DAN em 50% e reduz a Vel de ATQ do alvo em 140 por 10 seg. [Fogo Concentrado] Reduz o tempo de Recarga em 2,9% ao realizar um Acerto Crít. e recupera 150 de Mana.",
+            "[Canhão de Dispersão] Aumenta o DAN em 50% e reduz a Vel de ATQ do alvo em 170 por 10 seg. [Fogo Concentrado] Reduz o tempo de Recarga em 3,5% ao realizar um Acerto Crít. e recupera 150 de Mana.",
+            "[Canhão de Dispersão] Aumenta o DAN em 50% e reduz a Vel de ATQ do alvo em 210 por 10 seg. [Fogo Concentrado] Reduz o tempo de Recarga em 4,2% ao realizar um Acerto Crít. e recupera 150 de Mana.",
+            "[Canhão de Dispersão] Aumenta o DAN em 50% e reduz a Vel de ATQ do alvo em 250 por 10 seg. [Fogo Concentrado] Reduz o tempo de Recarga em 5% ao realizar um Acerto Crít. e recupera 150 de Mana."
           ],
           "story": "Um dispositivo de gravação e processador que funciona como cérebro para Kara. É um tesouro cheio de sabedoria ancestral, e sua capacidade ultrapassa de longe aquela dos humanos. Apesar de ser um dispositivo incrível, ele tem dificuldade de registrar e replicar emoções."
         }
@@ -8065,14 +8065,14 @@
         "ut": {
           "name": "Miniatura de Boneco de Madeira",
           "description": [
-            "[Shrouding Creed] Reduces Mana Cost by 1 and recovers target's Mana by 400.",
-            "[Shrouding Creed] Reduces Mana Cost by 1 and recovers target's Mana by 480.",
-            "[Shrouding Creed] Reduces Mana Cost by 1 and recovers target's Mana by 580.",
-            "[Shrouding Creed] Reduces Mana Cost by 1 and recovers target's Mana by 700.",
-            "[Shrouding Creed] Reduces Mana Cost by 1 and recovers target's Mana by 840.",
-            "[Shrouding Creed] Reduces Mana Cost by 1 and recovers target's Mana by 1000."
+            "[Credo Envolvente] Reduz o Custo de Mana em 1 e recupera o Mana do alvo em 400.",
+            "[Credo Envolvente] Reduz o Custo de Mana em 1 e recupera o Mana do alvo em 480.",
+            "[Credo Envolvente] Reduz o Custo de Mana em 1 e recupera o Mana do alvo em 580.",
+            "[Credo Envolvente] Reduz o Custo de Mana em 1 e recupera o Mana do alvo em 700.",
+            "[Credo Envolvente] Reduz o Custo de Mana em 1 e recupera o Mana do alvo em 840.",
+            "[Credo Envolvente] Reduz o Custo de Mana em 1 e recupera o Mana do alvo em 1000."
           ],
-          "story": "Quando as coisas davam errado, Loman costumava entalhar pequenas esculturas do tamanho da sua mão enquanto colocava os pensamentos em ordem. Enquanto polia as extremidades, ele se sentia em paz e se lembrava da sua determinação na época em que estava aprendendo o básico. No começo, era apenas um passatempo, mas logo se tornou um hobby e ele encheu seu quarto com centenas de esculturas. Certo dia, Loman começou a fazer bonecos de madeira para presentear seus amigos e seus homens. Naquela época, bonecos mágicos conhecidos por proteger o coração contra o mal eram populares em Orvelia. Loman foi até um velho xamã que fazia remédios populares antigos e pediu a ele para encantar os bonecos de madeira com um feitiço de proteção, presenteando-os aos seus colegas."
+          "story": "Quando as coisas davam errado, Loman costumava entalhar pequenas esculturas do tamanho da sua mão enquanto colocava os pensamentos em ordem. Enquanto polia as extremidades, ele se sentia em paz e se lembrava de como era na época em que estava aprendendo o básico. No começo, era apenas um passatempo, mas logo se tornou um hobby, uma paixão que preencheu seu quarto com centenas de esculturas. Certo dia, Loman começou a fazer bonecos de madeira para presentear seus amigos e seus homens. Naquela época, bonecos mágicos conhecidos por proteger o coração contra o mal eram populares em Orvelia. Loman foi até um velho xamã que fazia remédios populares antigos e pediu a ele para encantar seus bonecos de madeira com um feitiço de proteção, presenteando-os aos seus colegas."
         }
       },
       "s3": {
@@ -8083,7 +8083,7 @@
           "1": "DAN aumenta em {0}%.",
           "2": "DAN aumenta em {0}%."
         },
-        "light": "A 'Marca do Credo' dura 5 segundos a mais.",
+        "light": "Quando houver 1 inimigo, reforça o DAN em 100%.",
         "dark": "Durante o uso, ganha imunidade a CM.",
         "ut": {
           "name": "Mar da Invocação",
@@ -8107,11 +8107,11 @@
           "2": "DAN aumenta em {0}%."
         },
         "light": "Aumenta em 1 o número de 'Resistência' acumulada a cada segundo.",
-        "dark": "Altera a Redução de ATQ para 30%."
+        "dark": "Reduz a Vel de ATQ do inimigo atingido em 200 por 10 seg."
       },
       "t5": {
         "light": "ATQ, DEF, PV+15% / BLQ.M +200",
-        "dark": "Aumenta o ATQ e a DEF M. de todos os aliados em 3% da DEF M. de Loman."
+        "dark": "Ao bloquear DAN M. com sucesso, todos os aliados têm seus Bloq M. aumentados em 200 e suas DEF M. aumentadas em 10% da DEF M. de Loman durante 10 seg. Esse efeito é ativado apenas uma vez a cada 20 segundos."
       }
     }
   },

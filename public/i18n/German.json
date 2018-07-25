@@ -843,7 +843,7 @@
       },
       "s1": {
         "name": "Feuernadel",
-        "description": "Fügt bis zu 3 Feinden {0} M.Schaden zu. Bei jedem Treffer wird dem Feind eine Glut auferlegt, die Schaden zufügt.",
+        "description": "Fügt bis zu 5 Feinden {0} M.Schaden zu. Bei jedem Treffer wird dem Feind eine Glut auferlegt, die Schaden zufügt.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -900,7 +900,7 @@
       },
       "s4": {
         "name": "Flammen-Diffusion",
-        "description": "Fügt 3 Feinden {0} M.Schaden zu, und legt ihnen je 1 Glut auf.",
+        "description": "Fügt 3 Zielen und Feinden in der Nähe {0} M.Schaden zu, und legt ihnen je 1 Glut auf. Verringert die M.VERT von Feinden mit Glut um 5 %",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -1712,7 +1712,7 @@
             "[Ansturm] Erhöht den Schaden um 42 % und hat eine Chance von 15 %, 1 Ansturm-Pfeil bei einem normalen Angriff zu beschwören.",
             "[Ansturm] Erhöht den Schaden um 50 % und hat eine Chance von 15 %, 1 Ansturm-Pfeil bei einem normalen Angriff zu beschwören."
           ],
-          "story": "In diesem Stein ist der gewalttätige Windbogengeist eingeschlossen. Ein versiegelter Stein, der den Windbogengeist enthält, welcher vom Feenkönig wegen seiner Streitsucht und seiner bösartigen Streiche eingesperrt wurde. Der Windbogengeist dürstet nach einem Kampf und erhöht die Todesrate beim Bogen des Bogenschützen, der ihn 5 Mal oder öfter beschwört."
+          "story": "Ein Stein, in dem ein rücksichtsloser Windbogengeist eingeschlossen ist. Das Elementar richtete mit seinen bösen Streichen allerhand Ärger an, weshalb es vom Feenkönig eingeschlossen wurde. Das angriffslustige Windelementar durchwirkt Pfeile mit zerstörerischem Wund und erhöht so ihre Zerstörungskraft mindestens um das Fünffache."
         }
       },
       "s3": {
@@ -1740,7 +1740,7 @@
       },
       "s4": {
         "name": "Mondlicht-Pfeil",
-        "description": "Nach dem Angriff erhöht sich für {0} Sek. ANG um {1} und Krit.Chance um {2}. Kumuliert sich bis zu 3 mal.",
+        "description": "Nach dem Angriff erhöht sich {0} Sek. lang der ANG um {1} und die Krit. Chance um {2}. Stapelt sich bis zu 3 Mal.",
         "books": {
           "0": "Angriffs-Steigungsrate steigt um {0}%.",
           "1": "Angriffs-Steigungsrate steigt um {0}%.",
@@ -2047,7 +2047,7 @@
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
-          "2": "Erhöht krit. Trefferchance um {0}%."
+          "2": "Hinterlässt nach einem Kritischen Treffer 2 Giftzähler."
         },
         "light": "Erhöht Trefferzahl um 1.",
         "dark": "Feinde mit 5 oder mehr Giftzählern werden bei einem Treffer 3 Sek lang gefesselt."
@@ -2220,7 +2220,7 @@
       },
       "s4": {
         "name": "Eid der Ritter",
-        "description": "Verursacht {0} K.Schaden zur Front nach einem Block, und verringert die ANG getroffener Feinde um {2}% für {1} Sek.",
+        "description": "Verursacht nach einem Block {0} K.Schaden auf Frontfeinde und verringert den ANG getroffener Feinde {1} Sek. lang um {2}  %. Stellt nach einem Treffer auf einen Feind 300 MP wieder her.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -3145,12 +3145,12 @@
         "ut": {
           "name": "Jungtier-Lederhandschuhe",
           "description": [
-            "[Hellfire] Upon blocking target's M.ATK during the skill's duration, DMG reduction is increased by 100 and M.Crit resistance is increased by 250.",
-            "[Hellfire] Upon blocking target's M.ATK during the skill's duration, DMG reduction is increased by 120 and M.Crit resistance is increased by 250.",
-            "[Hellfire] Upon blocking target's M.ATK during the skill's duration, DMG reduction is increased by 140 and M.Crit resistance is increased by 250.",
-            "[Hellfire] Upon blocking target's M.ATK during the skill's duration, DMG reduction is increased by 170 and M.Crit resistance is increased by 250.",
-            "[Hellfire] Upon blocking target's M.ATK during the skill's duration, DMG reduction is increased by 210 and M.Crit resistance is increased by 250.",
-            "[Hellfire] Upon blocking target's M.ATK during the skill's duration, DMG reduction is increased by 250 and M.Crit resistance is increased by 250."
+            "[Höllenfeuer] Wird ein M.ANG des Ziels während der Dauer des Skills geblockt, wird die Schadensverringerung um 100 und der M.krit. Widerstand um 250 erhöht.",
+            "[Höllenfeuer] Wird ein M.ANG des Ziels während der Dauer des Skills geblockt, wird die Schadensverringerung um 120 und der M.krit. Widerstand um 250 erhöht.",
+            "[Höllenfeuer] Wird ein M.ANG des Ziels während der Dauer des Skills geblockt, wird die Schadensverringerung um 140 und der M.krit. Widerstand um 250 erhöht.",
+            "[Höllenfeuer] Wird ein M.ANG des Ziels während der Dauer des Skills geblockt, wird die Schadensverringerung um 170 und der M.krit. Widerstand um 250 erhöht.",
+            "[Höllenfeuer] Wird ein M.ANG des Ziels während der Dauer des Skills geblockt, wird die Schadensverringerung um 210 und der M.krit. Widerstand um 250 erhöht.",
+            "[Höllenfeuer] Wird ein M.ANG des Ziels während der Dauer des Skills geblockt, wird die Schadensverringerung um 250 und der M.krit. Widerstand um 250 erhöht."
           ],
           "story": "Handschuhe, die aus den Knochen und der Haut eines Dunklen Jungtiers gefertigt wurden. Morrah stellte sie vor hundert Jahren her, indem sie die von ihr getöteten Jungtiere sammelte, wenn sie auf Drachenjagd ging. Sie sind so robust, dass sie selbst Morrahs Flammen standhalten können und sind außerdem mit einem eigenen, stärkeren Zauber durchwirkt, der die Flammen noch höher auflodern lässt. Morrah mag diese Handschuhe wirklich sehr."
         }
@@ -3243,7 +3243,7 @@
       },
       "s1": {
         "name": "Heilige Nova",
-        "description": "Heilt den Verbündeten mit der niedrigsten TP und Verbündeten in Umgebung um {0} TP. Feinde nahe der Heilung werden {1} Sek lang um {2}% verlangsamt.",
+        "description": "Heilt den Verbündeten mit der niedrigsten TP und Verbündeten in Umgebung um {0} TP. Feinde nahe der Heilung werden {2} Sek lang um {3}% verlangsamt.",
         "books": {
           "0": "Erhöht Erholung und Schaden um {0}%.",
           "1": "Erhöht Erholung und Schaden um {0}%.",
@@ -4112,7 +4112,7 @@
             "[Reinigende Flamme] Verringert die Manakosten um 1 und erhöht den Schaden um 42 %.",
             "[Reinigende Flamme] Verringert die Manakosten um 1 und erhöht den Schaden um 50 %."
           ],
-          "story": "Symbol der Armee der Feuerschlichter. Symbol der Feuerschlichter-Armee, die während des Krieges gegen die Dämonen große Dinge vollbrachte. Wenn Arch das Magische Quadrat der Verfolgung einsetzt, was ihm vom Licht der Göttin Lua gestattet wurde, wird er zu einem gnadenlosen Schlichter."
+          "story": "Das Symbol der Armee der Feuerschlichter, die einen erbitterten Kampf gegen uralte Dämonen fochten. Bei Benutzung des von Lua, der Göttin des Lichts gesegneten Magischen Quadrats der Verfolgung wird Arch zu einem gnadenlosen Schlichter."
         }
       },
       "s3": {
@@ -4345,12 +4345,12 @@
         "ut": {
           "name": "Schwert des Flussschneidens",
           "description": [
-            "[Dimension Cleaver] DMG is increased by 50% and own Crit DMG is increased by 10% for 8 sec per each hit enemies. This effect can be stacked max 5 times.",
-            "[Dimension Cleaver] DMG is increased by 50% and own Crit DMG is increased by 12% for 8 sec per each hit enemies. This effect can be stacked max 5 times.",
-            "[Dimension Cleaver] DMG is increased by 50% and own Crit DMG is increased by 14% for 8 sec per each hit enemies. This effect can be stacked max 5 times.",
-            "[Dimension Cleaver] DMG is increased by 50% and own Crit DMG is increased by 17% for 8 sec per each hit enemies. This effect can be stacked max 5 times.",
-            "[Dimension Cleaver] DMG is increased by 50% and own Crit DMG is increased by 21% for 8 sec per each hit enemies. This effect can be stacked max 5 times.",
-            "[Dimension Cleaver] DMG is increased by 50% and own Crit DMG is increased by 25% for 8 sec per each hit enemies. This effect can be stacked max 5 times."
+            "[Dimensions-Zerstücklungbeil] Erhöht den Schaden für jeden getroffenen Feind für 8 Sekunden um 50% und den Krit. Schaden um 10%. Dieser Effekt kann 5-mal gestapelt werden.",
+            "[Dimensions-Zerstücklungbeil] Erhöht den Schaden für jeden getroffenen Feind für 8 Sekunden um 50% und den Krit. Schaden um 12%. Dieser Effekt kann 5-mal gestapelt werden.",
+            "[Dimensions-Zerstücklungbeil] Erhöht den Schaden für jeden getroffenen Feind für 8 Sekunden um 50% und den Krit. Schaden um 14%. Dieser Effekt kann 5-mal gestapelt werden.",
+            "[Dimensions-Zerstücklungbeil] Erhöht den Schaden für jeden getroffenen Feind für 8 Sekunden um 50% und den Krit. Schaden um 17%. Dieser Effekt kann 5-mal gestapelt werden.",
+            "[Dimensions-Zerstücklungbeil] Erhöht den Schaden für jeden getroffenen Feind für 8 Sekunden um 50% und den Krit. Schaden um 21%. Dieser Effekt kann 5-mal gestapelt werden.",
+            "[Dimensions-Zerstücklungbeil] Erhöht den Schaden für jeden getroffenen Feind für 8 Sekunden um 50% und den Krit. Schaden um 25%. Dieser Effekt kann 5-mal gestapelt werden."
           ],
           "story": "Ein legendäres Schwert, das Äonen überdauert hat. Ein legendäres Schwer, das mit dem Licht der Sonne und den schmelzenden Seelen der gequälten erschaffen wurde. Es ist einer der benötigen Gegenstände für das Dimensionsschwert, da es stabil genug ist, um Dimensionsreisen zu überstehen und sehr scharf geschliffen werden kann."
         }
@@ -4832,7 +4832,7 @@
             "[Klingentornado] Erhöht den Schaden um 42 % und verringert den Cooldown um 8 % bei einem krit. Treffer.",
             "[Klingentornado] Erhöht den Schaden um 50 % und verringert den Cooldown um 8 % bei einem krit. Treffer."
           ],
-          "story": "Mehrzweckwerkzeug der Lachenden Maske, das für Morde verwendet wird. Einzigartiger Gegenstand der Lachenden Maske, der das Ziel schnell und präzise ausschaltet. Selbst während des Klingen-Tornados lässt es zu, dass ein Angriff fortgesetzt wird und ist für die Angriffsmuster des Trägers optimiert."
+          "story": "Ein Mehrzweck-Werkzeug, dass die Lachenden Masken für Morde nutzen. Ein einzigartiges Werkzeug der Lachenden Masken, die für ihre Geschwindigkeit und Effizienz beim Töten ihrer Ziele bekannt sind. Es ist für die Angriffsmuster seines Trägers optimiert und verbessert den Umgang mit Wurfwaffen und verstärkt Kombo-Angriffe beim Wirken von Klingentornado."
         }
       },
       "s3": {
@@ -5185,12 +5185,12 @@
         "ut": {
           "name": "Halskette des Blitzgottes",
           "description": [
-            "[God of Lightning] ATK Spd is increased by 250 for the duration of skill, and the activation chance of 'For Jane' is increased by an additional 8%.",
-            "[God of Lightning] ATK Spd is increased by 250 for the duration of skill, and the activation chance of 'For Jane' is increased by an additional 9.6%.",
-            "[God of Lightning] ATK Spd is increased by 250 for the duration of skill, and the activation chance of 'For Jane' is increased by an additional 11.5%.",
-            "[God of Lightning] ATK Spd is increased by 250 for the duration of skill, and the activation chance of 'For Jane' is increased by an additional 13.8%.",
-            "[God of Lightning] ATK Spd is increased by 250 for the duration of skill, and the activation chance of 'For Jane' is increased by an additional 16.5%.",
-            "[God of Lightning] ATK Spd is increased by 250 for the duration of skill, and the activation chance of 'For Jane' is increased by an additional 20%."
+            "[Blitzgott] Erhöht die ANG-Geschwindigkeit für die Dauer des Skills um 250 und die Aktivierungschance von 'Für Jane' wird um zusätzliche 8% erhöht.",
+            "[Blitzgott] Erhöht die ANG-Geschwindigkeit für die Dauer des Skills um 250 und die Aktivierungschance von 'Für Jane' wird um zusätzliche 9,6% erhöht.",
+            "[Blitzgott] Erhöht die ANG-Geschwindigkeit für die Dauer des Skills um 250 und die Aktivierungschance von 'Für Jane' wird um zusätzliche 11,5% erhöht.",
+            "[Blitzgott] Erhöht die ANG-Geschwindigkeit für die Dauer des Skills um 250 und die Aktivierungschance von 'Für Jane' wird um zusätzliche 13,8% erhöht.",
+            "[Blitzgott] Erhöht die ANG-Geschwindigkeit für die Dauer des Skills um 250 und die Aktivierungschance von 'Für Jane' wird um zusätzliche 16,5% erhöht.",
+            "[Blitzgott] Erhöht die ANG-Geschwindigkeit für die Dauer des Skills um 250 und die Aktivierungschance von 'Für Jane' wird um zusätzliche 20% erhöht."
           ],
           "story": "Legios, der „Blitzschlag aus dem Himmel“ genannt wird, wird auch als „Heilige Bestie“ bezeichnet. Die Macht von Legios war so groß, dass die Republik der Grauen sie nicht handhaben konnte, als sie eine Waffe daraus anfertigten. Der größte Teil wurde in den Speer der Blitze geschmiedet und die verbleibenden Teile wurden in anderen Orten eingesetzt. Eines dieser Teile wurde in die Halskette des Blitzgottes eingelassen. man sagt, dass jeder, der diese Halskette trägt, mit dem Speer der Blitze kommunizieren kann und der Macht von Legios näher kommt."
         }
@@ -5835,123 +5835,123 @@
       }
     },
     "46": {
-      "name": "",
-      "subtitle": "",
-      "description": "",
-      "story": "",
-      "like": "",
-      "dislike": "",
+      "name": "Zafir",
+      "subtitle": "Prinz der Sandstürme",
+      "description": "Ein Abkömmling des uralten Gottkönigs. Ein kultivierter junger Mann, der sich erhob, um die Wüste zu verteidigen. Der Sandsturm, den er mit seinem Pfeil beschwört, verschlingt seine Feinde und tilgt sie aus der Welt.",
+      "story": "Ein Prinz und Nachfolger des Gottkönigs des uralten Wüstenkönigreiches, der die Macht besitzt, den Wüstensand zu beherrschen. Als junger Anführer des Mauhata-Stammes der Wüstenkrieger wurde er hart trainiert und ausgebildet, um ein würdiger Nachfolger des Gottkönigs zu werden. Als die Mitglieder des Trovatia-Stammes, ihre eingeschworenen Brüder, am Schrein des Flusses beteten, um den Gottdrachen zu erwecken, führte er seine Krieger an, um alle Dämonen zu besiegen, die sich der Oase näherten. Zusammen mit dem Gottdrachen und Laudia, ihrer Priesterin, erfüllt er seine Rolle als Wüstenkrieger und verteidigt seine Heimat. Er hofft, dass seine Anstrengungen den verstorbenen Gottkönig mit stolz erfüllen.",
+      "like": "Katzen, Sandkunst, das Volk der Wüste",
+      "dislike": "Jeder, der den Menschen schaden will, die ihm nahestehen.",
       "inn": {
-        "idle": "",
+        "idle": "Wow, solche Getränke habe ich noch nie gesehen.",
         "recruit": {
-          "greet": "",
+          "greet": "Möge der Segen des Gottkönigs mit euch sein.",
           "talk": [
-            "",
-            "",
-            ""
+            "Ähm, dieser Ort ist ganz anders als die Bars in der Wüste. Wir setzen uns nicht auf den Boden, oder?",
+            "Ein Wüstenkrieger stellt sein Volk vor alles andere.",
+            "... Ich mag Orte voller Leute nicht besonders, aber diese sorglose Atmosphäre ... dagegen habe ich nichts."
           ],
-          "gift": ""
+          "gift": "Solch übermäßige Güte. Danke euch."
         },
         "affinity": {
-          "greet": "",
+          "greet": "Wie ist es dir ergangen?",
           "talk": [
-            "",
-            ""
+            "Laut der Prophezeiung ist die Wiederauferstehung des Gottkönigs nahe.",
+            "... Wenn es die Zeit zulässt, musst du einmal nach Aegina kommen. Ich werde dir alles zeigen."
           ],
-          "gift": ""
+          "gift": "Die Wüstenkrieger werden sich darauf freuen, dass du da bist."
         },
         "relationship": {
-          "greet": "",
+          "greet": "Sei gegrüßt, mein Wüstenfreund.",
           "talk": [
-            "",
-            "",
-            ""
+            "Ich mag Katzen ... Kein anderes Wesen kann ihnen in Bezug auf Eleganz das Wasser reichen.",
+            "Selbst die heftigen Sandstürme der Wüste können den Wüstenkriegern nichts anhaben.",
+            "Sein Blut mag in meinen Adern fließen, aber ich glaube, ich habe noch einen langen Weg vor mir, bis ich mich als würdigen Nachfolger bezeichnen kann."
           ]
         }
       },
       "uw": {
-        "name": "",
+        "name": "Ruhm des Gottkönigs, Zaries",
         "description": [
-          "",
-          "",
-          "",
-          "",
-          "",
-          ""
+          "Erhält bei der Nutzung eines Skills 1 Zähler ‚Willen der Wüste‘. ‚Willen der Wüste‘ erhöht 10 Sek. lang ANG um 4%, Durchdringung um 20 und kann maximal 5-mal kumuliert werden. Der Effekt kann nicht aufgehoben werden.",
+          "Erhält bei der Nutzung eines Skills 1 Zähler ‚Willen der Wüste‘. ‚Willen der Wüste‘ erhöht 10 Sek. lang ANG um 4,8%, Durchdringung um 24 und kann maximal 5-mal kumuliert werden. Der Effekt kann nicht aufgehoben werden.",
+          "Erhält bei der Nutzung eines Skills 1 Zähler ‚Willen der Wüste‘. ‚Willen der Wüste‘ erhöht 10 Sek. lang ANG um 5,6%, Durchdringung um 29 und kann maximal 5-mal kumuliert werden. Der Effekt kann nicht aufgehoben werden.",
+          "Erhält bei der Nutzung eines Skills 1 Zähler ‚Willen der Wüste‘. ‚Willen der Wüste‘ erhöht 10 Sek. lang ANG um 6,8%, Durchdringung um 35 und kann maximal 5-mal kumuliert werden. Der Effekt kann nicht aufgehoben werden.",
+          "Erhält bei der Nutzung eines Skills 1 Zähler ‚Willen der Wüste‘. ‚Willen der Wüste‘ erhöht 10 Sek. lang ANG um 8%, Durchdringung um 42 und kann maximal 5-mal kumuliert werden. Der Effekt kann nicht aufgehoben werden.",
+          "Erhält bei der Nutzung eines Skills 1 Zähler ‚Willen der Wüste‘. ‚Willen der Wüste‘ erhöht 10 Sek. lang ANG um 10%, Durchdringung um 50 und kann maximal 5-mal kumuliert werden. Der Effekt kann nicht aufgehoben werden."
         ],
-        "story": ""
+        "story": "Eine uralte Waffe, die für das ruhmreichste Wesen auf Erden geschmiedet wurde. Es ist nur dem Nachfolger des Gottkönigs erlaubt, diese Waffe zu tragen, und man muss sich enormen Prüfungen unterziehen, um sich ihr als würdig zu erweisen. Dieser Bogen, der nur dem auserwählten Nachfolger des Gottkönigs erlaubt ist, besitzt in der Wüste absolute Macht."
       },
       "s1": {
-        "name": "",
-        "description": "",
+        "name": "Urteil der Wüste",
+        "description": "Verursacht {0} K.Schaden an Gegnern im weiten Umkreis und senkt den Skill-Cooldown um 1 Sek. pro getroffenem Gegner. Verursacht {1} K.Schaden an Gegnern, die unter dem [Mal der Wüste] leiden und entfernt 1 Zähler [Mal der Wüste]. Bei jeder Skillnutzung wird der Krit. Schaden um 5% erhöht. Der Effekt kann bis zu 10-mal kumuliert werden und ist nicht aufhebbar.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "Erhöht Schaden um {0}%.",
+          "1": "Erhöht Schaden um {0}%.",
+          "2": "Erhöht Schaden um {0}%."
         },
-        "light": "",
-        "dark": ""
+        "light": "Krit. Schadenserhöhung pro Nutzung erhöht sich auf 10%.",
+        "dark": "Getroffene Gegner sind 1 Sek. geblendet."
       },
       "s2": {
-        "name": "",
-        "description": "",
+        "name": "Segen des Sandgeists",
+        "description": "Erschafft einen Schild um den Verbündeten mit den wenigsten TP, der {0} Sek. lang {1} Schaden absorbiert und gegen Statuseffekte immun macht. Nach der Schilddauer wird Sandsturm aktiviert und verursacht an Gegnern in weitem Umkreis {2} K.Schaden und 2 Zähler [Mal der Wüste]. Wenn der Schild aufgehoben oder zerstört wird, wird Sandsturm nicht aktiviert.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "Erhöht Schaden und Schild-TP um {0}%.",
+          "1": "Erhöht Schaden und Schild-TP um {0}%.",
+          "2": "Erhöht Schaden und Schild-TP um {0}%."
         },
-        "light": "",
-        "dark": "",
+        "light": "Skill-Cooldown wird um 5 Sek. gesenkt.",
+        "dark": "Vom ‚Sandsturm‘ getroffene Gegner werden weit nach hinten und 3 Sek. lang zu Boden geworfen.",
         "ut": {
-          "name": "",
+          "name": "Sand der Illusionen",
           "description": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "[Segen des Sandgeists] Schild absorbiert 20% mehr Schaden und hebt Statuseffekte des Nutzers auf.",
+            "[Segen des Sandgeists] Schild absorbiert 24% mehr Schaden und hebt Statuseffekte des Nutzers auf.",
+            "[Segen des Sandgeists] Schild absorbiert 28% mehr Schaden und hebt Statuseffekte des Nutzers auf.",
+            "[Segen des Sandgeists] Schild absorbiert 34% mehr Schaden und hebt Statuseffekte des Nutzers auf.",
+            "[Segen des Sandgeists] Schild absorbiert 40% mehr Schaden und hebt Statuseffekte des Nutzers auf.",
+            "[Segen des Sandgeists] Schild absorbiert 50% mehr Schaden und hebt Statuseffekte des Nutzers auf."
           ],
-          "story": ""
+          "story": "Eine Sanduhr, die lange Zeit von einem Sandsturm in der Aegina-Wüste unter der Erde vergraben war. Wenn sich der Sand in der Sanduhr bewegt, ruft er damit die Illusion einer uralten Stadt ins Leben. Der Hohepriester des uralten Königreiches nutzte dies, um seinem Volk den Ruhm des vergangenen Königreiches zu zeigen. Als sie sahen, wie ihre Stadt golden glänzte, wurden die Menschen von Stolz auf ihr Königreich erfüllt."
         }
       },
       "s3": {
-        "name": "",
-        "description": "",
+        "name": "Verderben der Wüste",
+        "description": "Verursacht {0} K.Schaden an Gegnern in weitem Umkreis vor einem und belegt diese mit 1 Zähler [Mal der Wüste]. Beschwört dann 5 Sek. lang eine Sandgrube, die alle 0,5 Sek. {1} K.Schaden verursacht und 10 Sek. lang K.VERT um 30% senkt. Die Sandgrube hat eine 25% Chance, Gegnern 1 Zähler [Mal der Wüste] aufzuerlegen, und zieht alle Gegner in Reichweite zu ihrem Mittelpunkt.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "Erhöht Schaden um {0}%.",
+          "1": "Erhöht Schaden um {0}%.",
+          "2": "Erhöht Schaden um {0}%."
         },
-        "light": "",
-        "dark": "",
+        "light": "Reduziert Manakosten um 1.",
+        "dark": "Dauer von ‚Sandsturm‘ wird um 2 Sek. erhöht.",
         "ut": {
-          "name": "",
+          "name": "Seele der Oase",
           "description": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "[Verderben der Wüste] Bei Skill-Aktivierung wird der Skill-Cooldown um 30% gesenkt und die Chance auf Aktivierung des Effekts um 8% erhöht.",
+            "[Verderben der Wüste] Bei Skill-Aktivierung wird der Skill-Cooldown um 30% gesenkt und die Chance auf Aktivierung des Effekts um 9,6% erhöht.",
+            "[Verderben der Wüste] Bei Skill-Aktivierung wird der Skill-Cooldown um 30% gesenkt und die Chance auf Aktivierung des Effekts um 11,5% erhöht.",
+            "[Verderben der Wüste] Bei Skill-Aktivierung wird der Skill-Cooldown um 30% gesenkt und die Chance auf Aktivierung des Effekts um 13,8% erhöht.",
+            "[Verderben der Wüste] Bei Skill-Aktivierung wird der Skill-Cooldown um 30% gesenkt und die Chance auf Aktivierung des Effekts um 16,5% erhöht.",
+            "[Verderben der Wüste] Bei Skill-Aktivierung wird der Skill-Cooldown um 30% gesenkt und die Chance auf Aktivierung des Effekts um 20% erhöht."
           ],
-          "story": ""
+          "story": "Ein magisches Schwert, das unter den Nachkommen des Gottkönigs weitergereicht wurde. Der Name „Oase“ stammt daher, dass es benutzt wurde, um dem Volk in schweren Zeiten zu dienen. Nachdem das Königreich gefallen war, war sein Standort unbekannt, bis Zafir es in Kumuros Kunstsammlung entdeckte und zu einem unglaublich hohen Preis kaufte. Als das Schwert nun endlich wieder zum würdigen Nachkommen zurückgekehrt war, konnte Zafir die Geister seiner Vorfahren erben, was sein Potenzial auf sein Maximum brachte."
         }
       },
       "s4": {
-        "name": "",
-        "description": "",
+        "name": "Ruf des Wächters",
+        "description": "Jeder normale Angriff hat eine Chance von 15%, bei allen Gegnern {0} K.Schaden zu verursachen, der VERT ignoriert und 1 Zähler [Mal der Wüste] verleiht. Gegner können maximal 5 Zähler [Mal der Wüste] ansammeln.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "Erhöht Schaden um {0}%.",
+          "1": "Erhöht Schaden um {0}%.",
+          "2": "Erhöht Schaden um {0}%."
         },
-        "light": "",
-        "dark": ""
+        "light": "Bei mehr als 5 Gegnern erhalten alle Gegner 5 Zähler ‚Mal der Wüste‘. Dieser Effekt wird einmal alle 20 Sek. aktiviert.",
+        "dark": "Aktivierungschance ändert sich auf 30%."
       },
       "t5": {
-        "light": "",
-        "dark": ""
+        "light": "ANG, VERT, TP+15% / Krit. Chance +100",
+        "dark": "Regeneriert 500 Mana bei Nutzung eines Skills. Bei mehr als 5 Gegnern wird die Manaerholungsrate verdoppelt und die Angriffsgeschw. 5 Sek. lang um 500 erhöht. Dieser Effekt ist nicht kumulierbar."
       }
     },
     "49": {
@@ -6025,12 +6025,12 @@
         "ut": {
           "name": "Elliciads Herz",
           "description": [
-            "[Card of Love - Elliciad] Dispels Negative Effects of the target and all skill cooldown are decreased by 6%.",
-            "[Card of Love - Elliciad] Dispels Negative Effects of the target and all skill cooldown are decreased by 7.2%.",
-            "[Card of Love - Elliciad] Dispels Negative Effects of the target and all skill cooldown are decreased by 8.6%.",
-            "[Card of Love - Elliciad] Dispels Negative Effects of the target and all skill cooldown are decreased by 10.4%.",
-            "[Card of Love - Elliciad] Dispels Negative Effects of the target and all skill cooldown are decreased by 12.5%.",
-            "[Card of Love - Elliciad] Dispels Negative Effects of the target and all skill cooldown are decreased by 15%."
+            "[Karte der Liebe - Elliciad] Entfernt Negative Effekte vom Ziel und alle Skill-Cooldowns werden um 6% verringert.",
+            "[Karte der Liebe - Elliciad] Entfernt Negative Effekte vom Ziel und alle Skill-Cooldowns werden um 7,2% verringert.",
+            "[Karte der Liebe - Elliciad] Entfernt Negative Effekte vom Ziel und alle Skill-Cooldowns werden um 8,6% verringert.",
+            "[Karte der Liebe - Elliciad] Entfernt Negative Effekte vom Ziel und alle Skill-Cooldowns werden um 10,4% verringert.",
+            "[Karte der Liebe - Elliciad] Entfernt Negative Effekte vom Ziel und alle Skill-Cooldowns werden um 12,5% verringert.",
+            "[Karte der Liebe - Elliciad] Entfernt Negative Effekte vom Ziel und alle Skill-Cooldowns werden um 15% verringert."
           ],
           "story": "Das Herz von Elliciad, dem Geist der Liebe. Es nährt sich sowohl von erfüllter als auch unerfüllter Liebe, kann also so heiß sein wie Lava, oder so kalt wie Eis. Die Kraft, die es zeigt, hängt davon ab, wie verunreinigt eine Seele ist und es kann für diejenigen mit reinen Seelen ein starkes Licht des Segens bewirken."
         }
@@ -6145,12 +6145,12 @@
         "ut": {
           "name": "Basilisken-Giftzahn",
           "description": [
-            "[Screechy Grass Extract!] Skill cooldown is decreased by 30% and deals 3% of ATK as additional P.DMG per each stacked Tickle Tickle Potion! of target.",
-            "[Screechy Grass Extract!] Skill cooldown is decreased by 30% and deals 3.6% of ATK as additional P.DMG per each stacked Tickle Tickle Potion! of target.",
-            "[Screechy Grass Extract!] Skill cooldown is decreased by 30% and deals 4.3% of ATK as additional P.DMG per each stacked Tickle Tickle Potion! of target.",
-            "[Screechy Grass Extract!] Skill cooldown is decreased by 30% and deals 5.2% of ATK as additional P.DMG per each stacked Tickle Tickle Potion! of target.",
-            "[Screechy Grass Extract!] Skill cooldown is decreased by 30% and deals 6.2% of ATK as additional P.DMG per each stacked Tickle Tickle Potion! of target.",
-            "[Screechy Grass Extract!] Skill cooldown is decreased by 30% and deals 7.5% of ATK as additional P.DMG per each stacked Tickle Tickle Potion! of target."
+            "[Kreischgras-Extrakt!] Verringert den Skill-Cooldown um 30% und verursacht 3% des ANG als zusätzlichen K. Schaden pro Stapel 'Kille-Kille-Trank!' auf dem Ziel.",
+            "[Kreischgras-Extrakt!] Verringert den Skill-Cooldown um 30% und verursacht 3,6% des ANG als zusätzlichen K. Schaden pro Stapel 'Kille-Kille-Trank!' auf dem Ziel.",
+            "[Kreischgras-Extrakt!] Verringert den Skill-Cooldown um 30% und verursacht 4,3% des ANG als zusätzlichen K. Schaden pro Stapel 'Kille-Kille-Trank!' auf dem Ziel.",
+            "[Kreischgras-Extrakt!] Verringert den Skill-Cooldown um 30% und verursacht 5,2% des ANG als zusätzlichen K. Schaden pro Stapel 'Kille-Kille-Trank!' auf dem Ziel.",
+            "[Kreischgras-Extrakt!] Verringert den Skill-Cooldown um 30% und verursacht 6,2% des ANG als zusätzlichen K. Schaden pro Stapel 'Kille-Kille-Trank!' auf dem Ziel.",
+            "[Kreischgras-Extrakt!] Verringert den Skill-Cooldown um 30% und verursacht 7,5% des ANG als zusätzlichen K. Schaden pro Stapel 'Kille-Kille-Trank!' auf dem Ziel."
           ],
           "story": "Der üble Fangzahn eines Basilisken, der nur böse Energie absorbiert. Sein Gift ist tatsächlich stark genug, um Seelen zum Schmelzen zu bringen. Wenn das Gift des Zahns mit Kreischgras gemischt wird, kann es zu einer starken Droge werden, die kein Organismus überleben kann. Requinas Herz schlägt vor lauter Vorfreude schneller."
         }
@@ -6265,12 +6265,12 @@
         "ut": {
           "name": "Armreif der Sonne",
           "description": [
-            "[Segen der Sonne] Verringert die Manakosten um 1 und erhöht die K.Schwäche des Ziels 10 Sek. lang um 10 %.",
-            "[Segen der Sonne] Verringert die Manakosten um 1 und erhöht die K.Schwäche des Ziels 10 Sek. lang um 12 %.",
-            "[Segen der Sonne] Verringert die Manakosten um 1 und erhöht die K.Schwäche des Ziels 10 Sek. lang um 14 %.",
-            "[Segen der Sonne] Verringert die Manakosten um 1 und erhöht die K.Schwäche des Ziels 10 Sek. lang um 17 %.",
-            "[Segen der Sonne] Verringert die Manakosten um 1 und erhöht die K.Schwäche des Ziels 10 Sek. lang um 21 %.",
-            "[Segen der Sonne] Verringert die Manakosten um 1 und erhöht die K.Schwäche des Ziels 10 Sek. lang um 25 %."
+            "[Segen der Sonne] Reduziert Manakosten um 1 und das Ziel nimmt 10 Sek lang 10% weniger K.Schaden.",
+            "[Segen der Sonne] Reduziert Manakosten um 1 und das Ziel nimmt 12 Sek lang 10% weniger K.Schaden.",
+            "[Segen der Sonne] Reduziert Manakosten um 1 und das Ziel nimmt 14 Sek lang 10% weniger K.Schaden.",
+            "[Segen der Sonne] Reduziert Manakosten um 1 und das Ziel nimmt 17 Sek lang 10% weniger K.Schaden.",
+            "[Segen der Sonne] Reduziert Manakosten um 1 und das Ziel nimmt 21 Sek lang 10% weniger K.Schaden.",
+            "[Segen der Sonne] Reduziert Manakosten um 1 und das Ziel nimmt 25 Sek lang 10% weniger K.Schaden."
           ],
           "story": "Armreif, der von den Erzengeln geschaffen wurde, um die Engel zu schützen, wenn sie auf die Erde herabsteigen. Er enthält die Sonne, also leuchtet er strahlend hell. Wenn die Engel Furcht empfinden, soll das Sonnenlicht aus dem Armreif ihre Seelen schützen. Und die Schicksale der Engel sind in dem Armreif miteinander verwoben, wenn sich also ein Engel in Lebensgefahr befindet, spüren die anderen instinktiv dessen Schmerz."
         }
@@ -6555,243 +6555,243 @@
       }
     },
     "57": {
-      "name": "",
-      "subtitle": "",
-      "description": "",
-      "story": "",
-      "like": "",
-      "dislike": "",
+      "name": "Lilia",
+      "subtitle": "Die Tochter von Sturm und See",
+      "description": "Ein blaues Drachenmädchen, das gerade die Jungtierphase hinter sich hat und die Schwester von Laias, der Priesterin des Wassers. Obwohl sie noch jung und unerfahren ist, zahlen diejenigen, die auf sie herabsehen, meist einen hohen Preis dafür. Sie nutzt die unermüdliche Energie des Wassers, um ihre Feinde zu dezimieren.",
+      "story": "Ein Gottdrache der Oase und eine Schwester der Priesterin des Wassers. Sie ist noch ein junger blauer Drache und liebt ihre viel ältere Schwester sehr. Als Laias von 100 Jahren in einen tiefen Schlaf fiel, weil sie in der Schlacht ihre Kräfte verausgabt hatte, verteidigte Lilia den Schrein des Flusses ganz allein. Erst als sie hörte, wie die Kinder der Wüste verzweifelt beteten, weckte sie die Priesterin des Wassers, um sie zu beschützen. Anders als ihre sanfte und nachdenkliche Schwester ist sie recht streng, und die Art, wie sie die Kräfte von Fluss und Wasser beherrscht ist ebenfalls aggressiver. Sie sieht es als ihre Aufgabe an, ihre wunderschöne Schwester vor unwürdigen, flirtenden Männern zu beschützen.",
+      "like": "Laias, süße Getränke, das Volk der Wüste",
+      "dislike": "Alle, die mit ihrer Schwester flirten (Neraxis, Sereinel)",
       "inn": {
-        "idle": "",
+        "idle": "... Z-Zu viele Menschen ...",
         "recruit": {
-          "greet": "",
+          "greet": "Möge der Fluss mit euch sein!",
           "talk": [
-            "",
-            "",
-            ""
+            "Ich bin nicht so gutmütig wie meine Schwester.",
+            "Blaue Drachen sollen schwach sein? Da täuschst du dich aber gewaltig.",
+            "Ich bin ein ausgewachsener Drache. Ich bin alt genug!"
           ],
-          "gift": ""
+          "gift": "Danke, Menschenkind."
         },
         "affinity": {
-          "greet": "",
+          "greet": "Hallo, du siehst toll aus!",
           "talk": [
-            "",
-            ""
+            "Die Mission meiner Schwester ist auch meine. Ich werde immer bei ihr sein.",
+            "Das Geheimnis des endlosen Wassers? Ähmm ... Ich habe gehört, dass es die Macht des ersten blauen Drachen ist."
           ],
-          "gift": ""
+          "gift": "Vielen Dank. Ich werde es für den Schrein des Flusses benutzen."
         },
         "relationship": {
-          "greet": "",
+          "greet": "Schön, dich wiederzusehen!",
           "talk": [
-            "",
-            "",
-            ""
+            "Neraxis? Was für ein Idiot. Er bettelt immer um die Aufmerksamkeit meiner Schwester!",
+            "Sereinel ...? Iiiieh ... Ich dachte, der sei für immer weg. Ich kann nicht glauben, dass er wieder an meine Schwester ranmacht ...",
+            "Ich liebe meine Schwester am meisten ... aber dich mag ich auch."
           ]
         }
       },
       "uw": {
-        "name": "",
+        "name": "Nie versiegende Quelle, Cielamaha",
         "description": [
-          "",
-          "",
-          "",
-          "",
-          "",
-          ""
+          "50 Manaerholung pro Sek. Chance von 80%, bei einem Angriff zusätzlichen K.Schaden in Höhe von 20% des ANG zu verursachen.",
+          "60 Manaerholung pro Sek. Chance von 80%, bei einem Angriff zusätzlichen K.Schaden in Höhe von 24% des ANG zu verursachen.",
+          "70 Manaerholung pro Sek. Chance von 80%, bei einem Angriff zusätzlichen K.Schaden in Höhe von 28% des ANG zu verursachen.",
+          "85 Manaerholung pro Sek. Chance von 80%, bei einem Angriff zusätzlichen K.Schaden in Höhe von 34% des ANG zu verursachen.",
+          "105 Manaerholung pro Sek. Chance von 80%, bei einem Angriff zusätzlichen K.Schaden in Höhe von 42% des ANG zu verursachen.",
+          "125 Manaerholung pro Sek. Chance von 80%, bei einem Angriff zusätzlichen K.Schaden in Höhe von 50% des ANG zu verursachen."
         ],
-        "story": ""
+        "story": "Ein unendlicher Quell, aus der ohne Unterlass Wasser sprudelt. Ein Gefäß, das vom ersten blauen Drachen erschaffen wurde, der alles Wasser auf Erden beherrschte. Es reagiert auf die Vorstellungskraft seines Trägers. Für ein junges, sensibles und kreatives Mädchen wie Lilia ist es der größte Schatz und die größte Waffe."
       },
       "s1": {
-        "name": "",
-        "description": "",
+        "name": "Gezeitensturm",
+        "description": "Beschwört 8 Sek. lang einen Gezeitensturm auf einem zufälligen Ziel, der an Gegnern in Reichweite alle 0,5 Sek. {0} K.Schaden verursacht. Wird das Ziel getötet, springt der Gezeitensturm zu einem neuen zufälligen Ziel für die verbleibende Dauer.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "Erhöht Schaden um {0}%.",
+          "1": "Erhöht Schaden um {0}%.",
+          "2": "Erhöht Schaden um {0}%."
         },
-        "light": "",
-        "dark": ""
+        "light": "ANG-Geschwindigkeit des getroffenen Ziels sinkt 10 Sek. lang um 250.",
+        "dark": "Jede Nutzung erhöht Schaden um 15%. Kumuliert sich bis zu 15 Mal."
       },
       "s2": {
-        "name": "",
-        "description": "",
+        "name": "Immergrüne Oase",
+        "description": "Erhält bei Aktivierung 15 Sek. lang den Immergüne Oase-Status. Während die Immergrüne Oase wirkt, ist die Manaerholungsrate pro Sek. um 150% und ANG um {0} erhöht. VERT wird um {1} gesteigert.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "Manaerholung und ANG-Erhöhungsrate sind um {0}% erhöht.",
+          "1": "Manaerholung und ANG-Erhöhungsrate sind um {0}% erhöht.",
+          "2": "Manaerholung und ANG-Erhöhungsrate sind um {0}% erhöht."
         },
-        "light": "",
-        "dark": "",
+        "light": "Manakosten werden um 1 erhöht, dafür wird der Effekt zusätzlich auch dem Verbündeten mit dem höchsten ANG gewährt (Nutzer ausgenommen).",
+        "dark": "Effektdauer wird um 5 Sek. gesenkt, Wirkung aller Effekte wird um 100% erhöht.",
         "ut": {
-          "name": "",
+          "name": "Herz des Flusses",
           "description": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "[Immergrüne Oase] Der Effekt kann nicht aufgehoben werden. Erhöht Krit. Schaden während der Dauer um 20%.",
+            "[Immergrüne Oase] Der Effekt kann nicht aufgehoben werden. Erhöht Krit. Schaden während der Dauer um 24%.",
+            "[Immergrüne Oase] Der Effekt kann nicht aufgehoben werden. Erhöht Krit. Schaden während der Dauer um 28%.",
+            "[Immergrüne Oase] Der Effekt kann nicht aufgehoben werden. Erhöht Krit. Schaden während der Dauer um 34%.",
+            "[Immergrüne Oase] Der Effekt kann nicht aufgehoben werden. Erhöht Krit. Schaden während der Dauer um 42%.",
+            "[Immergrüne Oase] Der Effekt kann nicht aufgehoben werden. Erhöht Krit. Schaden während der Dauer um 50%."
           ],
-          "story": ""
+          "story": "Eine goldene Kette für Mädchen, die Laias für Lilia mit einem Schutzjuwel versehen hat. Er leuchtet mit der Energie der Wasserelementare darin. Ein Symbol für Laias Sorge um ihre kleine Schwester."
         }
       },
       "s3": {
-        "name": "",
-        "description": "",
+        "name": "Himmlischer Wasserfall",
+        "description": "Wirft 15-mal Wassertropfen auf zufällige Gegner und verursacht dabei insgesamt {0} K.Schaden. Zusätzlich werden 5 große Wassertropfen auf ein Ziel und Gegner in dessen Reichweite geworfen, die {1} K.Schaden verursachen. Von großen Wassertropfen getroffene Gegner werden {2} Sek. lang betäubt. Jeder geworfene Wassertropfen kostet {3} Mana und steigert die Manakosten um {4}. Bei 0 Mana endet der Effekt.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "Erhöht Schaden um {0}%.",
+          "1": "Erhöht Schaden um {0}%.",
+          "2": "Erhöht Schaden um {0}%."
         },
-        "light": "",
-        "dark": "",
+        "light": "Gewährt Effekt-Immunität während der Wirkungsdauer.",
+        "dark": "Pro geworfenem Wassertropfen steigen Manakosten und Manaverbrauchsrate um 100%. Mit jedem geworfenen Tropfen gibt es eine Chance von 50% auf einen zusätzlichen Tropfen.",
         "ut": {
-          "name": "",
+          "name": "Bodenloser Kessel der Elementare",
           "description": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "[Himmlischer Wasserfall] Jeder Angriff hat eine Chance von 7%, einen großen Wassertropfen zu werfen, der 100% des ANG als K.Schaden verursacht und den eigenen Krit. Schaden 7 Sek. lang um 2% erhöht.",
+            "[Himmlischer Wasserfall] Jeder Angriff hat eine Chance von 7%, einen großen Wassertropfen zu werfen, der 100% des ANG als K.Schaden verursacht und den eigenen Krit. Schaden 7 Sek. lang um 2,4% erhöht.",
+            "[Himmlischer Wasserfall] Jeder Angriff hat eine Chance von 7%, einen großen Wassertropfen zu werfen, der 100% des ANG als K.Schaden verursacht und den eigenen Krit. Schaden 7 Sek. lang um 2,8% erhöht.",
+            "[Himmlischer Wasserfall] Jeder Angriff hat eine Chance von 7%, einen großen Wassertropfen zu werfen, der 100% des ANG als K.Schaden verursacht und den eigenen Krit. Schaden 7 Sek. lang um 3,4% erhöht.",
+            "[Himmlischer Wasserfall] Jeder Angriff hat eine Chance von 7%, einen großen Wassertropfen zu werfen, der 100% des ANG als K.Schaden verursacht und den eigenen Krit. Schaden 7 Sek. lang um 4,2% erhöht.",
+            "[Himmlischer Wasserfall] Jeder Angriff hat eine Chance von 7%, einen großen Wassertropfen zu werfen, der 100% des ANG als K.Schaden verursacht und den eigenen Krit. Schaden 7 Sek. lang um 5% erhöht."
           ],
-          "story": ""
+          "story": "Ein Kessel, den Lilias alte Kaktusfreunde an ihrem Geburtstag für sie herstellten. Der Kessel bringt stetig das sauberste und reinste Wasser hervor, das es gibt. Wenn jedoch zu viel Wasser auf einmal eingesetzt wird, schließt er seinen Ausguss – eine Funktion, die von den Kakteen hinzugefügt wurde, um Lilia zu helfen, das Wasser zu kontrollieren, bis sie es besser beherrscht."
         }
       },
       "s4": {
-        "name": "",
-        "description": "",
+        "name": "Gezeitenreinigung",
+        "description": "Manaerholung bei ANG ist fix, aber der eigene ANG steigt um {0} und Manaerholung pro Sek. wird auf 120 erhöht. Pro 6 Manaerholung pro Sek. steigt der ANG um 1%.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "Angriffs-Steigungsrate steigt um {0}%.",
+          "1": "Angriffs-Steigungsrate steigt um {0}%.",
+          "2": "Angriffs-Steigungsrate steigt um {0}%."
         },
-        "light": "",
-        "dark": ""
+        "light": "Zum Kampfbeginn werden 1.000 Mana regeneriert.",
+        "dark": "Erhöht Schaden gegenüber Bossmonstern um 15%."
       },
       "t5": {
-        "light": "",
-        "dark": ""
+        "light": "ANG, VERT, TP+15% / Krit. Schaden +20%",
+        "dark": "ATK is increased by 15% per 1 orb of mana."
       }
     },
     "58": {
-      "name": "",
-      "subtitle": "",
-      "description": "",
-      "story": "",
-      "like": "",
-      "dislike": "",
+      "name": "Laudia",
+      "subtitle": "Tänzerin der Oase",
+      "description": "Eine Tänzerin aus einem Nomadenstamm in der Aegina-Wüste. Ihr Tanz lässt die Herzen der Menschen schmelzen und ihre scharfen Klingen nehmen ihren Feinden das Leben.",
+      "story": "Die Trovatia sind ein Nomadenstamm der Aegina-Wüste, die die Traditionen und die Religion des uralten Wüstenkönigreiches geerbt haben. Laudia ist die Tochter des Stammesführers und dient der Priesterin des Wassers, Laias. Außerdem kümmert sie sich für ihren Vater um den Stamm. Als sie um Hilfe betete, erwachten der Gottdrache Lilia und ihre Schwester Lilia aus ihrem langen Schlaf und führten sie und ihren Stamm in den Schrein, um sie zu beschützen. Seitdem bekämpfte Laudia Dämonen in der Wüste, zusammen mit Zafir, dem Anführer des Mauhata-Stammes der Wüstenkrieger.",
+      "like": "Laias, Lilia, das Volk der Wüste",
+      "dislike": "Anzusehen, wenn Menschen leiden",
       "inn": {
-        "idle": "",
+        "idle": "Oh, was für ein interessanter Ort. Gibt es hier irgendwo einen Platz, an dem ich tanzen kann?",
         "recruit": {
-          "greet": "",
+          "greet": "Hallo. Möge die fließende Kraft mit euch sein.",
           "talk": [
-            "",
-            "",
-            ""
+            "Hast du die Priesterin nicht gesehen? Sie ist sehr auffällig ...",
+            "Nun, wenn du mich tanzen siehst, wirst du nicht an viel Anderes denken können.",
+            "Ich will nicht zusehen, wie diese wunderschöne Welt noch weiter zerstört wird."
           ],
-          "gift": ""
+          "gift": "Danke für das Geschenk. Möchtest du tanzen?"
         },
         "affinity": {
-          "greet": "",
+          "greet": "Hallo! Jetzt, da wir uns ja schon besser kennen, wäre es okay, wenn ich dich mit deinem Vornamen anreden würde?",
           "talk": [
-            "",
-            ""
+            "Dieser Ort gefällt mir. Er ist so ruhig und friedlich.",
+            "Es ist keine leichte Aufgabe, stellvertretender Anführer zu sein. Ich muss mich um die Menschen meines Stammes kümmern."
           ],
-          "gift": ""
+          "gift": "Danke. Ich sollte ein paar Knabbereien für die Kinder kaufen ..."
         },
         "relationship": {
-          "greet": "",
+          "greet": "Schön, dich zu sehen. Bist du hier, um mich zu treffen?",
           "talk": [
-            "",
-            "",
-            ""
+            "Hast du schon Lilia und ihre Schwester Laias kennengelernt? Sie sind so toll. Ich bin sicher, dass du sie sehr mögen wirst.",
+            "Ich kann die starken Schwingungen von Fluss und Schicksal spüren, die man nur bei wahren Kriegern und Helden findet.",
+            "Ich habe mir einen neuen Tanz ausgedacht, willst du ihn bald mal sehen? Wir könnten zusammen tanzen."
           ]
         }
       },
       "uw": {
-        "name": "",
+        "name": "Flüsternder Sand, Arlaq",
         "description": [
-          "",
-          "",
-          "",
-          "",
-          "",
-          ""
+          "[Segen der Oase] kann bis zu 12-mal kumuliert werden. Normale Angriffe haben eine Chance von 10% alle Skill-Cooldowns um 4% zu senken.",
+          "Segen der Oase kann bis zu 13-mal kumuliert werden. Normale Angriffe haben eine Chance von 10% alle Skill-Cooldowns um 4,8% zu senken.",
+          "Segen der Oase kann bis zu 14-mal kumuliert werden. Normale Angriffe haben eine Chance von 10% alle Skill-Cooldowns um 5,8% zu senken.",
+          "Segen der Oase kann bis zu 15-mal kumuliert werden. Normale Angriffe haben eine Chance von 10% alle Skill-Cooldowns um 7% zu senken.",
+          "Segen der Oase kann bis zu 16-mal kumuliert werden. Normale Angriffe haben eine Chance von 10% alle Skill-Cooldowns um 8,4% zu senken.",
+          "Segen der Oase kann bis zu 17-mal kumuliert werden. Normale Angriffe haben eine Chance von 10% alle Skill-Cooldowns um 10% zu senken."
         ],
-        "story": ""
+        "story": "Ein seltener Schatz, der die Leidenschaft verkörpert, die wie eine Flamme in der Wüste lodert. Ein Paar dieser wunderschönen Waffen soll sich im Lager des uralten Gottkönigs befinden. Wenn man sie schwingt, klingen sie schön wie der Wind. Eine süße und gleichzeitig tödliche Verlockung, genau wie eine Fata Morgana in der Wüste ..."
       },
       "s1": {
-        "name": "",
-        "description": "",
+        "name": "Flüstern des Sandes",
+        "description": "Greift das Ziel im Nahkampf an, verursacht {0} M.Schaden, verringert {1} Sek. lang die Blockchance um {2} und den Krit. Widerstand um {3}. Ein zusätzlicher Angriff verursacht {4} M.Schaden und betäubt {5} Sek. lang.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "Erhöht Schaden um {0}%.",
+          "1": "Erhöht Schaden um {0}%.",
+          "2": "Erhöht Schaden um {0}%."
         },
-        "light": "",
-        "dark": ""
+        "light": "Manakosten sind um 1 reduziert.",
+        "dark": "Ziel erleidet 10 Sek. lang um 25 % erhöhten M.Schaden."
       },
       "s2": {
-        "name": "",
-        "description": "",
+        "name": "Verzauberndes Fließen",
+        "description": "Erhöht {0} Sek. lang eigenen ANG um {1} und Krit. Schaden um {2}%. Bewegt sich dann eine kurze Strecke vorwärts und verursacht bei Gegnern in Bewegungsreichweite {3} M.Schaden und bezaubert sie {4} Sek. lang, wenn der Skill in der Arena benutzt wurde. Kann innerhalb von 5 Sek. nach Benutzung einmalig [Verlockender Hinterhalt] aktivieren.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "ANG und Schaden werden um {0}% erhöht.",
+          "1": "ANG und Schaden werden um {0}% erhöht.",
+          "2": "ANG und Schaden werden um {0}% erhöht."
         },
-        "light": "",
-        "dark": "",
+        "light": "Erhalte nach Bewegung 2 Mana. Erhaltenes Mana wird innerhalb von 5 Sek. verbraucht.",
+        "dark": "Nach der Nutzung von Verzauberndes Fließen kann innerhalb von 10 Sek. zweimal Verlockender Hinterhalt benutzt werden.",
         "ut": {
-          "name": "",
+          "name": "Heiligtum von Trovatia",
           "description": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "[Verzauberndes Fließen] Absorbiert nach Bewegung 3 Sek. lang Schaden in Höhe von 160% des ANG. Danach wird ein Schild erschaffen, der immun gegen Statuseffekte ist und die Manakosten von [Verlockender Hinterhalt] werden um 1 gesenkt.",
+            "[Verzauberndes Fließen] Absorbiert nach Bewegung 3 Sek. lang Schaden in Höhe von 190% des ANG. Danach wird ein Schild erschaffen, der immun gegen Statuseffekte ist und die Manakosten von [Verlockender Hinterhalt] werden um 1 gesenkt.",
+            "[Verzauberndes Fließen] Absorbiert nach Bewegung 3 Sek. lang Schaden in Höhe von 230% des ANG. Danach wird ein Schild erschaffen, der immun gegen Statuseffekte ist und die Manakosten von [Verlockender Hinterhalt] werden um 1 gesenkt.",
+            "[Verzauberndes Fließen] Absorbiert nach Bewegung 3 Sek. lang Schaden in Höhe von 270% des ANG. Danach wird ein Schild erschaffen, der immun gegen Statuseffekte ist und die Manakosten von [Verlockender Hinterhalt] werden um 1 gesenkt.",
+            "[Verzauberndes Fließen] Absorbiert nach Bewegung 3 Sek. lang Schaden in Höhe von 330% des ANG. Danach wird ein Schild erschaffen, der immun gegen Statuseffekte ist und die Manakosten von [Verlockender Hinterhalt] werden um 1 gesenkt.",
+            "[Verzauberndes Fließen] Absorbiert nach Bewegung 3 Sek. lang Schaden in Höhe von 400% des ANG. Danach wird ein Schild erschaffen, der immun gegen Statuseffekte ist und die Manakosten von [Verlockender Hinterhalt] werden um 1 gesenkt."
           ],
-          "story": ""
+          "story": "Eine Truhe mit Artefakten, die für Rituale zur Anbetung des Wasserdrachen benötigt werden. Ein Teil des Schmucks darauf ist aus „Azurblauem Lapislazuli“ gefertigt, einem Edelstein, der Fülle verkörpert. Sie ist der größte Schatz von Laudias Vater und wird nur denen verliehen, welche den ganzen Trovatia-Stamm führen können."
         }
       },
       "s3": {
-        "name": "",
-        "description": "",
+        "name": "Tanz der Wüste",
+        "description": "Greift Gegner in Reichweite 30-mal an und verursacht insgesamt {0} M.Schaden. Wirft außerdem die Klingen des Arlaq 30-mal auf zufällige Gegner und verursacht dabei insgesamt {1} M.Schaden. Jedes Mal, wenn die Klingen den gleichen Gegner treffen, wird zusätzlich {2} Schaden hinzugefügt. [Blendende Beschleunigung] kann einmal während der Skillaktivierung benutzt werden. Die Klingen des Arlaq treffen bevorzugt bezauberte Gegner.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "Erhöht Schaden um {0}%.",
+          "1": "Erhöht Schaden um {0}%.",
+          "2": "Erhöht Schaden um {0}%."
         },
-        "light": "",
-        "dark": "",
+        "light": "Manakosten von Blendende Beschleunigung werden um 1 gesenkt und die Dauer wird um 2 Sek. erhöht.",
+        "dark": "Manakosten sind um 1 erhöht, aber der Schaden wird um 100% gesteigert.",
         "ut": {
-          "name": "",
+          "name": "Schleier der Bezauberung",
           "description": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "[Tanz der Wüste] Bei Skill-Aktivierung wird der Skill-Cooldown um 30% gesenkt und Durchdringung um 100 erhöht.",
+            "[Tanz der Wüste] Bei Skill-Aktivierung wird der Skill-Cooldown um 30% gesenkt und Durchdringung um 120 erhöht.",
+            "[Tanz der Wüste] Bei Skill-Aktivierung wird der Skill-Cooldown um 30% gesenkt und Durchdringung um 140 erhöht.",
+            "[Tanz der Wüste] Bei Skill-Aktivierung wird der Skill-Cooldown um 30% gesenkt und Durchdringung um 170 erhöht.",
+            "[Tanz der Wüste] Bei Skill-Aktivierung wird der Skill-Cooldown um 30% gesenkt und Durchdringung um 210 erhöht.",
+            "[Tanz der Wüste] Bei Skill-Aktivierung wird der Skill-Cooldown um 30% gesenkt und Durchdringung um 250 erhöht."
           ],
-          "story": ""
+          "story": "Ein legendärer Schleier, der nur der besten Tänzerin auf dem Kontinent verliehen wird. Wenn mit ihm ein Tanz vollführt wird, werden alle Zuschauer bezaubert. Laudia setzte den Schleier mit ihrem betörenden Tanz ein und erreichte so alles, was sie wollte."
         }
       },
       "s4": {
-        "name": "",
-        "description": "",
+        "name": "Segen der Oase",
+        "description": "Senkt Dauer von auf den Nutzer wirkenden Statuseffekten um {0}%. Bei Benutzung eines Skills wird [Segen der Oase] {1} Sek. lang gewährt, so dass Durchdringung um {2} und VERT um {3} steigt. [Segen der Oase] kann bis zu {4} -mal kumuliert werden und ist nicht aufhebbar.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "Durchdringung und VERT sind um {0}% erhöht.",
+          "1": "Durchdringung und VERT sind um {0}% erhöht.",
+          "2": "Durchdringung und VERT sind um {0}% erhöht."
         },
-        "light": "",
-        "dark": ""
+        "light": "Erhält 2 Zähler für Segen der Oase.",
+        "dark": "Senkt erlittenen Schaden für jeden Zähler um 2%, ausgenommen Schaden durch Helden."
       },
       "t5": {
-        "light": "",
-        "dark": ""
+        "light": "ANG, VERT, TP+15% / ANG-Geschw. +100",
+        "dark": "Gewährt zu Kampfbeginn 5 Sek. lang Immunität gegen Statuseffekte. Steigert 10 Sek. lang PRÄZ und Statuseffekt-PRÄZ um 300."
       }
     },
     "62": {
@@ -7083,7 +7083,7 @@
       },
       "s1": {
         "name": "Lichtsäule",
-        "description": "Platziert eine Lichtsäule an der Stelle des Gegners, die über 5 Sek. insgesamt {0} M. Schaden verursacht und die ANG des Gegners für 10 Sek. um {1}% reduziert.",
+        "description": "Platziert eine Lichtsäule an der Stelle des Gegners, die über 3 Sek. insgesamt {0} M. Schaden verursacht und die ANG des Gegners für 10 Sek. um {1}% reduziert.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -7225,12 +7225,12 @@
         "ut": {
           "name": "Zwillingsring der sofortigen Teleportation",
           "description": [
-            "[Restrain and Protect] Reduces Mana Cost by 1 and upon Crit hit recovers 160 Mana.",
-            "[Restrain and Protect] Reduces Mana Cost by 1 and upon Crit hit recovers 190 Mana.",
-            "[Restrain and Protect] Reduces Mana Cost by 1 and upon Crit hit recovers 230 Mana.",
-            "[Restrain and Protect] Reduces Mana Cost by 1 and upon Crit hit recovers 270 Mana.",
-            "[Restrain and Protect] Reduces Mana Cost by 1 and upon Crit hit recovers 330 Mana.",
-            "[Restrain and Protect] Reduces Mana Cost by 1 and upon Crit hit recovers 400 Mana."
+            "[Bändigen und Beschützen] Verringert die Manakosten um 1 und stellt bei einem Krit. Treffer 160 Mana wieder her.",
+            "[Bändigen und Beschützen] Verringert die Manakosten um 1 und stellt bei einem Krit. Treffer 190 Mana wieder her.",
+            "[Bändigen und Beschützen] Verringert die Manakosten um 1 und stellt bei einem Krit. Treffer 230 Mana wieder her.",
+            "[Bändigen und Beschützen] Verringert die Manakosten um 1 und stellt bei einem Krit. Treffer 270 Mana wieder her.",
+            "[Bändigen und Beschützen] Verringert die Manakosten um 1 und stellt bei einem Krit. Treffer 330 Mana wieder her.",
+            "[Bändigen und Beschützen] Verringert die Manakosten um 1 und stellt bei einem Krit. Treffer 400 Mana wieder her."
           ],
           "story": "Ring, den Mirianne im „Sehr Unglaublichen Magischen Spielzeugladen“ in Orvel kaufte. Sie gravierte ihren und Sonias Namen in den Ring. Die beiden bilden ein Paar, das es ihnen erlaubt, sich einmal am Tag zum jeweils anderen zu teleportieren. Sonia benutzt ihn jedoch nicht, da dies recht beschwerlich ist ... Der Ring mag zwar nur ein Spielzeug sein, aber Mirianne ist froh, dass es noch eine Möglichkeit gibt, Sonia zu beschützen."
         }
@@ -7465,12 +7465,12 @@
         "ut": {
           "name": "Aufnahmegerät KARA-00XX",
           "description": [
-            "[Wide-area Cannon] Increases DMG by 50% and reduces ATK Spd of the target by 100 for 10 sec. [Focused Fire] Reduces Cooldown by 2% upon a Crit Hit and recovers 150 Mana.",
-            "[Wide-area Cannon] Increases DMG by 50% and reduces ATK Spd of the target by 120 for 10 sec. [Focused Fire] Reduces Cooldown by 2.4% upon a Crit Hit and recovers 150 Mana.",
-            "[Wide-area Cannon] Increases DMG by 50% and reduces ATK Spd of the target by 140 for 10 sec. [Focused Fire] Reduces Cooldown by 2.9% upon a Crit Hit and recovers 150 Mana.",
-            "[Wide-area Cannon] Increases DMG by 50% and reduces ATK Spd of the target by 170 for 10 sec. [Focused Fire] Reduces Cooldown by 3.5% upon a Crit Hit and recovers 150 Mana.",
-            "[Wide-area Cannon] Increases DMG by 50% and reduces ATK Spd of the target by 210 for 10 sec. [Focused Fire] Reduces Cooldown by 4.2% upon a Crit Hit and recovers 150 Mana.",
-            "[Wide-area Cannon] Increases DMG by 50% and reduces ATK Spd of the target by 250 for 10 sec. [Focused Fire] Reduces Cooldown by 5% upon a Crit Hit and recovers 150 Mana."
+            "[Flächenkanone] Erhöht den Schaden um 50% und verringert 10 Sek. lang die ANG-Geschwindigkeit des Ziels um 100. [Fokus-Feuer] Verringert den Cooldown bei einem Krit. Treffer um 2% und stellt 150 Mana wieder her.",
+            "[Flächenkanone] Erhöht den Schaden um 50% und verringert 10 Sek. lang die ANG-Geschwindigkeit des Ziels um 120. [Fokus-Feuer] Verringert den Cooldown bei einem Krit. Treffer um 2,4% und stellt 150 Mana wieder her.",
+            "[Flächenkanone] Erhöht den Schaden um 50% und verringert 10 Sek. lang die ANG-Geschwindigkeit des Ziels um 140. [Fokus-Feuer] Verringert den Cooldown bei einem Krit. Treffer um 2,9% und stellt 150 Mana wieder her.",
+            "[Flächenkanone] Erhöht den Schaden um 50% und verringert 10 Sek. lang die ANG-Geschwindigkeit des Ziels um 170. [Fokus-Feuer] Verringert den Cooldown bei einem Krit. Treffer um 3,5% und stellt 150 Mana wieder her.",
+            "[Flächenkanone] Erhöht den Schaden um 50% und verringert 10 Sek. lang die ANG-Geschwindigkeit des Ziels um 210. [Fokus-Feuer] Verringert den Cooldown bei einem Krit. Treffer um 4,2% und stellt 150 Mana wieder her.",
+            "[Flächenkanone] Erhöht den Schaden um 50% und verringert 10 Sek. lang die ANG-Geschwindigkeit des Ziels um 250. [Fokus-Feuer] Verringert den Cooldown bei einem Krit. Treffer um 5% und stellt 150 Mana wieder her."
           ],
           "story": "Ein Aufnahmegerät und Prozessor, der als Karas Gehirn fungiert. In ihm steckt ein Sammelsurium alten Wissens und es ist weitaus aufnahmefähiger als das eines Menschen. Trotz dieser unglaublichen Funktionen hat es Probleme damit, Emotionen zu erkennen und zu zeigen."
         }
@@ -8065,14 +8065,14 @@
         "ut": {
           "name": "Holzpuppenminiatur",
           "description": [
-            "[Shrouding Creed] Reduces Mana Cost by 1 and recovers target's Mana by 400.",
-            "[Shrouding Creed] Reduces Mana Cost by 1 and recovers target's Mana by 480.",
-            "[Shrouding Creed] Reduces Mana Cost by 1 and recovers target's Mana by 580.",
-            "[Shrouding Creed] Reduces Mana Cost by 1 and recovers target's Mana by 700.",
-            "[Shrouding Creed] Reduces Mana Cost by 1 and recovers target's Mana by 840.",
-            "[Shrouding Creed] Reduces Mana Cost by 1 and recovers target's Mana by 1000."
+            "[Verschleiernder Glaube] Verringert die Manakosten um 1 und stellt beim Ziel 400 Mana wieder her.",
+            "[Verschleiernder Glaube] Verringert die Manakosten um 1 und stellt beim Ziel 480 Mana wieder her.",
+            "[Verschleiernder Glaube] Verringert die Manakosten um 1 und stellt beim Ziel 580 Mana wieder her.",
+            "[Verschleiernder Glaube] Verringert die Manakosten um 1 und stellt beim Ziel 700 Mana wieder her.",
+            "[Verschleiernder Glaube] Verringert die Manakosten um 1 und stellt beim Ziel 840 Mana wieder her.",
+            "[Verschleiernder Glaube] Verringert die Manakosten um 1 und stellt beim Ziel 1.000 Mana wieder her."
           ],
-          "story": "Loman schnitzte kleine Figuren so groß wie seine Hand, um bei Schwierigkeiten seine Gedanken zu ordnen. Als er noch die Grundlagen erlernte und die Kanten abrundete, wurde er ganz ruhig und erlangte seine Entschlossenheit zurück. Anfangs war es nur ein Zeitvertreib, doch bald wurde es sein Hobby und er füllte sein Zimmer mit hunderten Figuren. Eines Tages begann Loman, seinen Freunden und seinen Männern Holzpuppen zu schenken. Damals waren Zauberpuppen, die das Herz vor dem Bösen schützen, sehr beliebt in Orvelia. Loman bat einen alten Schamanen, der traditionelle Heilkünste beherrschte, die Holzpuppen mit einem Schutzzauber zu versehen, bevor er sie seinen Kollegen gab."
+          "story": "Loman schnitzte kleine Figuren, so groß wie seine Hand, um bei Schwierigkeiten seine Gedanken zu ordnen. Wenn er die Kanten abrundete, wurde er ganz ruhig und erinnerte sich daran, wie es damals war, als er noch die Grundlagen erlernte. Anfangs war es nur ein Zeitvertreib, doch bald wurde es sein Hobby, eine Leidenschaft, die sein Zimmer mit hunderten Figuren füllte. Eines Tages begann Loman, seinen Freunden und seinen Männern Holzpuppen zu schenken. Damals waren Zauberpuppen, die das Herz vor dem Bösen schützen, sehr beliebt in Orvelia. Loman bat einen alten Schamanen, der traditionelle Heilkünste beherrschte, seine Holzpuppen mit einem Schutzzauber zu versehen, bevor er sie seinen Kollegen gab."
         }
       },
       "s3": {
@@ -8083,7 +8083,7 @@
           "1": "Erhöht Schaden um {0}%.",
           "2": "Erhöht Schaden um {0}%."
         },
-        "light": "„Mal des Glaubens“ hält 5 Sekunden länger an.",
+        "light": "Ist nur noch 1 Feind auf dem Schlachtfeld, wird der Schaden um 100% erhöht.",
         "dark": "Gewährt Statuseffekt-Immunität während der Wirkungsdauer.",
         "ut": {
           "name": "Meer der Anrufung",
@@ -8107,11 +8107,11 @@
           "2": "Erhöht Schaden um {0}%."
         },
         "light": "Erhöht die Anzahl der „Widerstand“-Stapel jede Sekunde um 1.",
-        "dark": "Verändert die ANG-Verringerung auf 30 %."
+        "dark": "Verringert die ANG-Geschwindigkeit des betroffenen Feindes 10 Sek. lang um 200."
       },
       "t5": {
         "light": "ATK, DEF, HP+15% / M.Block +200",
-        "dark": "Erhöht ANG. und M.VERT aller Verbündeten um einen Wert von 3 % von Lomans M.VERT."
+        "dark": "Bei einer erfolgreichen Verteidigung gegen M.Schaden wird 10 Sek. lang M.Blockieren aller Verbündeter um 200 und die M.VERT um 10 % von Lomans M.VERT erhöht. Dieser Effekt wird alle 20 Sekunden nur einmal ausgelöst."
       }
     }
   },

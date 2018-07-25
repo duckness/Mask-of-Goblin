@@ -900,7 +900,7 @@
       },
       "s4": {
         "name": "Propagacion de la Llama",
-        "description": "Causa {0} Daño Magico a 3 enemigos y los enemigos alrededor, cada uno con marca de fuego. Cada marca de fuego reduce la DEF Magica del enemigo en 5%.",
+        "description": "Causa {0} de Daño mágico a 3 objetivos y a los enemigos cercanos, lo que inflige 1 acumulación de Brasas. Disminuye la Defensa mágica de los enemigos afectados por Brasas en un 5%.",
         "books": {
           "0": "Aumenta el Daño en {0}%.",
           "1": "Aumenta el Daño en {0}%.",
@@ -1712,7 +1712,7 @@
             "[Embestir] Aumenta el Daño en un 42 % y tiene un 15 % de probabilidades de invocar 1 Flecha para embestir en un ataque normal.",
             "[Embestir] Aumenta el Daño en un 50 % y tiene un 15 % de probabilidades de invocar 1 Flecha para embestir en un ataque normal."
           ],
-          "story": "El espíritu violento del arco de viento está sellado en esta piedra. El rey Hada selló esta piedra que contiene el espíritu del arco de viento porque causa todo tipo de peleas y bromas perversas. El arco de viento está sediento por una pelea y aumenta la tasa de matanza del arco del arquero que lo invocó 5 veces o más."
+          "story": "Una piedra en la que está sellado un salvaje elemental de arco de viento. El elemental causó demasiados problemas con sus perversas travesuras, así que el rey Hada lo selló. El agresivo elemental de viento llena las flechas con viento destructivo, lo que aumenta 5 veces o más su poder asesino."
         }
       },
       "s3": {
@@ -1740,7 +1740,7 @@
       },
       "s4": {
         "name": "Flecha Luz de Luna",
-        "description": "Al atacar, por  {0}  seg, el ATQ aumenta en  {1}  y la Oportunidad Crit aumenta en  {2}. Se acumula hasta 3 veces.",
+        "description": "Al atacar, aumenta el Ataque en {1} y la Probabilidad de crítico en {2} durante {0} segundo(s). Este efecto se acumula hasta 3 veces.",
         "books": {
           "0": "El Poder de Ataque aumenta en  {0}%.",
           "1": "El Poder de Ataque aumenta en  {0}%.",
@@ -2047,7 +2047,7 @@
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
-          "2": "Luego de un golpe crítico, acumula 2 dosis de Veneno."
+          "2": "Deja 2 acumulaciones de Veneno con un Golpe crítico."
         },
         "light": "El número de visitas se incrementa en 1.",
         "dark": "Los enemigos con 5 o más pilas de veneno son encadenados durante 3 seg."
@@ -2220,7 +2220,7 @@
       },
       "s4": {
         "name": "Voto de Caballeros",
-        "description": "Causa  {0}  Daño Fis. En el frente luego de bloquear, y disminuir ATQ de los enemigos golpeados en  {2}% por  {1}  seg. Recupera 300 maná luego de alcanzar el objetivo.",
+        "description": "Con el bloqueo, causa {0} de Daño físico a los enemigos frontales y disminuye el Ataque de los enemigos afectados en un {2}% durante {1} segundo(s). Recupera 300 PM después de atacar al objetivo.",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
@@ -3145,12 +3145,12 @@
         "ut": {
           "name": "Guantes de cuero de polluelo",
           "description": [
-            "[Hellfire] Upon blocking target's M.ATK during the skill's duration, DMG reduction is increased by 100 and M.Crit resistance is increased by 250.",
-            "[Hellfire] Upon blocking target's M.ATK during the skill's duration, DMG reduction is increased by 120 and M.Crit resistance is increased by 250.",
-            "[Hellfire] Upon blocking target's M.ATK during the skill's duration, DMG reduction is increased by 140 and M.Crit resistance is increased by 250.",
-            "[Hellfire] Upon blocking target's M.ATK during the skill's duration, DMG reduction is increased by 170 and M.Crit resistance is increased by 250.",
-            "[Hellfire] Upon blocking target's M.ATK during the skill's duration, DMG reduction is increased by 210 and M.Crit resistance is increased by 250.",
-            "[Hellfire] Upon blocking target's M.ATK during the skill's duration, DMG reduction is increased by 250 and M.Crit resistance is increased by 250."
+            "[Fuego infernal] Al bloquear el Ataque mágico del enemigo mientras dura la habilidad, la reducción del Daño aumenta en 100 y la resistencia al golpe crítico mágico aumenta en 250.",
+            "[Fuego infernal] Al bloquear el Ataque mágico del enemigo mientras dura la habilidad, la reducción del Daño aumenta en 120 y la resistencia al golpe crítico mágico aumenta en 250.",
+            "[Fuego infernal] Al bloquear el Ataque mágico del enemigo mientras dura la habilidad, la reducción del Daño aumenta en 140 y la resistencia al golpe crítico mágico aumenta en 250.",
+            "[Fuego infernal] Al bloquear el Ataque mágico del enemigo mientras dura la habilidad, la reducción del Daño aumenta en 170 y la resistencia al golpe crítico mágico aumenta en 250.",
+            "[Fuego infernal] Al bloquear el Ataque mágico del enemigo mientras dura la habilidad, la reducción del Daño aumenta en 210 y la resistencia al golpe crítico mágico aumenta en 250.",
+            "[Fuego infernal] Al bloquear el Ataque mágico del enemigo mientras dura la habilidad, la reducción del Daño aumenta en 250 y la resistencia al golpe crítico mágico aumenta en 250."
           ],
           "story": "Guantes fabricados con los huesos y la piel de un polluelo. Morrah lo fabricó hace cien años al recolectar los polluelos que mataba cuando salía a cazar dragones. Es lo suficientemente durable para soportar las llamas de Morrah e incluso imbuye un poder más fuerte para permitir que las llamas se enciendan aún más. Morrah realmente adora estos guantes."
         }
@@ -4112,7 +4112,7 @@
             "[Resplandor purificador] Reduce el Costo de Mana en 1 y aumenta el Daño en un 42 %.",
             "[Resplandor purificador] Reduce el Costo de Mana en 1 y aumenta el Daño en un 50 %."
           ],
-          "story": "Símbolo del ejército de árbitros de fuego. Símbolo del ejército de árbitros de fuego que hizo grandes cosas durante la guerra contra los demonios. Al utilizar el cuadrado mágico de persecución que la luz de la diosa Lua ha permitido, Arch se convierte en el árbitro despiadado."
+          "story": "El símbolo del ejército de árbitros de fuego que libró una feroz batalla contra los antiguos demonios. Al usar el Cuadrado mágico de persecución bendecido por Lua, la diosa de la luz, Arch se convierte en un árbitro despiadado."
         }
       },
       "s3": {
@@ -4345,12 +4345,12 @@
         "ut": {
           "name": "Espada de corte de flujo",
           "description": [
-            "[Dimension Cleaver] DMG is increased by 50% and own Crit DMG is increased by 10% for 8 sec per each hit enemies. This effect can be stacked max 5 times.",
-            "[Dimension Cleaver] DMG is increased by 50% and own Crit DMG is increased by 12% for 8 sec per each hit enemies. This effect can be stacked max 5 times.",
-            "[Dimension Cleaver] DMG is increased by 50% and own Crit DMG is increased by 14% for 8 sec per each hit enemies. This effect can be stacked max 5 times.",
-            "[Dimension Cleaver] DMG is increased by 50% and own Crit DMG is increased by 17% for 8 sec per each hit enemies. This effect can be stacked max 5 times.",
-            "[Dimension Cleaver] DMG is increased by 50% and own Crit DMG is increased by 21% for 8 sec per each hit enemies. This effect can be stacked max 5 times.",
-            "[Dimension Cleaver] DMG is increased by 50% and own Crit DMG is increased by 25% for 8 sec per each hit enemies. This effect can be stacked max 5 times."
+            "[Cuchillo dimensional] El Daño aumenta en un 50% y el Daño crítico propio aumenta en un 10% durante 8 segundos por cada enemigo afectado. Este efecto se puede acumular hasta 5 veces.",
+            "[Cuchillo dimensional] El Daño aumenta en un 50% y el Daño crítico propio aumenta en un 12% durante 8 segundos por cada enemigo afectado. Este efecto se puede acumular hasta 5 veces.",
+            "[Cuchillo dimensional] El Daño aumenta en un 50% y el Daño crítico propio aumenta en un 14% durante 8 segundos por cada enemigo afectado. Este efecto se puede acumular hasta 5 veces.",
+            "[Cuchillo dimensional] El Daño aumenta en un 50% y el Daño crítico propio aumenta en un 17% durante 8 segundos por cada enemigo afectado. Este efecto se puede acumular hasta 5 veces.",
+            "[Cuchillo dimensional] El Daño aumenta en un 50% y el Daño crítico propio aumenta en un 21% durante 8 segundos por cada enemigo afectado. Este efecto se puede acumular hasta 5 veces.",
+            "[Cuchillo dimensional] El Daño aumenta en un 50% y el Daño crítico propio aumenta en un 25% durante 8 segundos por cada enemigo afectado. Este efecto se puede acumular hasta 5 veces."
           ],
           "story": "Una espada legendaria que ha trascendido eras. Una espada legendaria hecha con la luz del sol y las almas derretidas de quienes están en dolor. Es uno de los artículos requeridos por la corte de dimensión ya que dura lo suficiente como para tolerar la dimensión y puede estar muy afilada."
         }
@@ -4832,7 +4832,7 @@
             "[Tornado de cuchillas] Aumenta el Daño en un 42 % y reduce el Tiempo de reutilización en un 8 % con un Golpe crítico.",
             "[Tornado de cuchillas] Aumenta el Daño en un 50 % y reduce el Tiempo de reutilización en un 8 % con un Golpe crítico."
           ],
-          "story": "Herramienta de varios propósitos de la máscara de risa utilizada para asesinar. Artículo exclusivo de la máscara de risa que se deshace del objetivo de forma rápida y precisa. Incluso en el momento del tornado de cuchillas, permite que el ataque continúe y sea optimizado para los patrones de ataque del usuario."
+          "story": "Una herramienta multipropósito de las Máscaras sonrientes que se utiliza en los asesinatos. Es un objeto único para las Máscaras sonrientes, famosas por la velocidad y la eficiencia con la que eliminan a sus objetivos. Está optimizada para adaptarse a los patrones de ataque de quien la use, mejora el manejo de las armas que se lanzan y perfecciona los ataques continuos mientras se lanza Tornado de cuchillas."
         }
       },
       "s3": {
@@ -5185,12 +5185,12 @@
         "ut": {
           "name": "Collar del dios del relámpago",
           "description": [
-            "[God of Lightning] ATK Spd is increased by 250 for the duration of skill, and the activation chance of 'For Jane' is increased by an additional 8%.",
-            "[God of Lightning] ATK Spd is increased by 250 for the duration of skill, and the activation chance of 'For Jane' is increased by an additional 9.6%.",
-            "[God of Lightning] ATK Spd is increased by 250 for the duration of skill, and the activation chance of 'For Jane' is increased by an additional 11.5%.",
-            "[God of Lightning] ATK Spd is increased by 250 for the duration of skill, and the activation chance of 'For Jane' is increased by an additional 13.8%.",
-            "[God of Lightning] ATK Spd is increased by 250 for the duration of skill, and the activation chance of 'For Jane' is increased by an additional 16.5%.",
-            "[God of Lightning] ATK Spd is increased by 250 for the duration of skill, and the activation chance of 'For Jane' is increased by an additional 20%."
+            "[Dios del relámpago] La Velocidad de ataque aumenta en 250 mientras dura la habilidad, y la probabilidad de activar «Para Jane» aumenta en un 8% adicional.",
+            "[Dios del relámpago] La Velocidad de ataque aumenta en 250 mientras dura la habilidad, y la probabilidad de activar «Para Jane» aumenta en un 9,6% adicional.",
+            "[Dios del relámpago] La Velocidad de ataque aumenta en 250 mientras dura la habilidad, y la probabilidad de activar «Para Jane» aumenta en un 11,5% adicional.",
+            "[Dios del relámpago] La Velocidad de ataque aumenta en 250 mientras dura la habilidad, y la probabilidad de activar «Para Jane» aumenta en un 13,8% adicional.",
+            "[Dios del relámpago] La Velocidad de ataque aumenta en 250 mientras dura la habilidad, y la probabilidad de activar «Para Jane» aumenta en un 16,5% adicional.",
+            "[Dios del relámpago] La Velocidad de ataque aumenta en 250 mientras dura la habilidad, y la probabilidad de activar «Para Jane» aumenta en un 20% adicional."
           ],
           "story": "Llamado rayo caído del cielo. Legios también es conocido como bestia sagrada. El poder de Legios fue tan fuerte que cuando se transformó en arma, la Republica de Gray no podía contener todo su poder. Así que se colocó el pedazo más grande en la lanza de rayo y los pedazos restantes se colocaron en distintos lugares. Uno de esos pedazos se colocó en el collar del dios del rayo. Se dice que cualquiera que utilice este collar puede conversar con la lanza de rayo y puede acercarse al poder de Legios."
         }
@@ -5835,123 +5835,123 @@
       }
     },
     "46": {
-      "name": "",
-      "subtitle": "",
-      "description": "",
-      "story": "",
-      "like": "",
-      "dislike": "",
+      "name": "Zafir",
+      "subtitle": "Príncipe de las tormentas de arena",
+      "description": "Un descendiente del rey dios. Un muchacho refinado que luchó en defensa del desierto. La tormenta de arena que invoca con su flecha envuelve a sus enemigos y los elimina de la faz de la tierra.",
+      "story": "Un príncipe y heredero del rey dios del antiguo reino del desierto que tiene el poder para controlar la arena del desierto. Como el joven líder de la tribu Mauhata de guerreros del desierto, fue entrenado y formado para convertirse en el digno heredero del gran rey. Cuando los miembros de la tribu Trovatia, sus fieles hermanos, rezaban en el Templo de la corriente para despertar a la diosa dragón, él estuvo al frente de los guerreros que eliminaron a todos los demonios que se acercaban al oasis. Con la ayuda de la diosa dragón y de Laudia, su clériga, cumple su rol como guerrero del desierto en defensa de su hogar. Anhela que sus esfuerzos hagan sentir orgulloso al difunto rey dios.",
+      "like": "Gatos, arte con arena, gente del desierto",
+      "dislike": "Aquellos que intentan lastimar a sus seres queridos",
       "inn": {
-        "idle": "",
+        "idle": "Oh, nunca vi tragos como estos.",
         "recruit": {
-          "greet": "",
+          "greet": "Que el rey dios te bendiga.",
           "talk": [
-            "",
-            "",
-            ""
+            "Umm, este lugar es muy diferente de las tabernas del desierto. No nos sentamos en el suelo, ¿o sí?",
+            "Su pueblo es lo más importante para un guerrero del desierto.",
+            "No me suelen atraer los lugares con mucha gente, pero este ambiente despreocupado... No me cae tan mal."
           ],
-          "gift": ""
+          "gift": "Qué gran amabilidad. Gracias."
         },
         "affinity": {
-          "greet": "",
+          "greet": "¿Cómo has estado?",
           "talk": [
-            "",
-            ""
+            "La profecía dice que está cerca la resurrección del rey dios.",
+            "Si el tiempo lo permite, ve a Aegina alguna vez. Yo seré tu guía."
           ],
-          "gift": ""
+          "gift": "Los guerreros del desierto también se alegrarán de que estés allí."
         },
         "relationship": {
-          "greet": "",
+          "greet": "Saludos, amigo del desierto.",
           "talk": [
-            "",
-            "",
-            ""
+            "Me gustan los gatos... No existe otra criatura remotamente así de elegante.",
+            "Las feroces tormentas de arena del desierto no les hicieron ni un rasguño a los guerreros del desierto.",
+            "Aunque su sangre fluya por mis venas, me queda un largo camino antes de considerarme un digno heredero."
           ]
         }
       },
       "uw": {
-        "name": "",
+        "name": "Gloria del rey dios, Zaries",
         "description": [
-          "",
-          "",
-          "",
-          "",
-          "",
-          ""
+          "Al usar una habilidad, gana 1 acumulación de “Voluntad del desierto”. “Voluntad del desierto” aumenta el Ataque en un 4 % y la Penetración de defensa en 20 durante 10 segundos. Además, se puede acumular hasta 5 veces. Este efecto no se puede disipar.",
+          "Al usar una habilidad, gana 1 acumulación de “Voluntad del desierto”. “Voluntad del desierto” aumenta el Ataque en un 4,8 % y la Penetración de defensa en 24 durante 10 segundos. Además, se puede acumular hasta 5 veces. Este efecto no se puede disipar.",
+          "Al usar una habilidad, gana 1 acumulación de “Voluntad del desierto”. “Voluntad del desierto” aumenta el Ataque en un 5,6 % y la Penetración de defensa en 29 durante 10 segundos. Además, se puede acumular hasta 5 veces. Este efecto no se puede disipar.",
+          "Al usar una habilidad, gana 1 acumulación de “Voluntad del desierto”. “Voluntad del desierto” aumenta el Ataque en un 6,8 % y la Penetración de defensa en 35 durante 10 segundos. Además, se puede acumular hasta 5 veces. Este efecto no se puede disipar.",
+          "Al usar una habilidad, gana 1 acumulación de “Voluntad del desierto”. “Voluntad del desierto” aumenta el Ataque en un 8 % y la Penetración de defensa en 42 durante 10 segundos. Además, se puede acumular hasta 5 veces. Este efecto no se puede disipar.",
+          "Al usar una habilidad, gana 1 acumulación de “Voluntad del desierto”. “Voluntad del desierto” aumenta el Ataque en un 10 % y la Penetración de defensa en 50 durante 10 segundos. Además, se puede acumular hasta 5 veces. Este efecto no se puede disipar."
         ],
-        "story": ""
+        "story": "Un arma antigua forjada para el ser más glorioso de la tierra. Destinada exclusivamente al heredero del rey dios, uno debería atravesar pruebas extremas para probar que es digno de tenerla. Este arco, que solo se permite que lo posea el heredero elegido del rey dios, tiene poder absoluto en el desierto."
       },
       "s1": {
-        "name": "",
-        "description": "",
+        "name": "Juicio del desierto",
+        "description": "Inflige {0} de Daño físico a los enemigos en un rango amplio, y por cada enemigo afectado, el Tiempo de reutilización de la habilidad disminuye en 1 segundo. Inflige {1} de Daño físico a los enemigos afectados por el efecto [Marca del desierto] y elimina 1 acumulación de [Marca del desierto]. Con cada uso de la habilidad, el Daño crítico aumenta en un 5 %. Este efecto se puede acumular hasta 10 veces y no se puede disipar.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "Daño Aumenta en {0}%.",
+          "1": "Daño Aumenta en {0}%.",
+          "2": "Daño Aumenta en {0}%."
         },
-        "light": "",
-        "dark": ""
+        "light": "El aumento del Daño crítico por uso cambia al 10%.",
+        "dark": "El enemigo afectado sufre el efecto Cegar durante 1 segundo."
       },
       "s2": {
-        "name": "",
-        "description": "",
+        "name": "Bendición del espíritu de la arena",
+        "description": "Crea un escudo alrededor del aliado con Salud más baja que absorbe {1} de Daño durante {0} segundo(s). Gana inmunidad al Control de multitudes mientras dura el escudo. Cuando finaliza la duración del escudo, se activa “Tormenta de arena” y causa {2} de Daño físico a los enemigos en un rango amplio, lo que inflige 2 acumulaciones de [Marca del desierto]. Si el escudo se disipa o se destruye, “Tormenta de arena” no se activa.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "El Daño y el Escudo aumentan en {0}%.",
+          "1": "El Daño y el Escudo aumentan en {0}%.",
+          "2": "El Daño y el Escudo aumentan en {0}%."
         },
-        "light": "",
-        "dark": "",
+        "light": "El Tiempo de reutilización de la habilidad disminuye en 5 segundos.",
+        "dark": "Los enemigos afectados por “Tormenta de arena” retroceden una distancia considerable y son derribados durante 3 segundos.",
         "ut": {
-          "name": "",
+          "name": "Arena del espejismo",
           "description": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "[Bendición del espíritu de arena] El Escudo absorbe un 20 % más de Daño y disipa el Control de multitudes infligido en uno mismo.",
+            "[Bendición del espíritu de arena] El Escudo absorbe un 24 % más de Daño y disipa el Control de multitudes infligido en uno mismo.",
+            "[Bendición del espíritu de arena] El Escudo absorbe un 28 % más de Daño y disipa el Control de multitudes infligido en uno mismo.",
+            "[Bendición del espíritu de arena] El Escudo absorbe un 34 % más de Daño y disipa el Control de multitudes infligido en uno mismo.",
+            "[Bendición del espíritu de arena] El Escudo absorbe un 40 % más de Daño y disipa el Control de multitudes infligido en uno mismo.",
+            "[Bendición del espíritu de arena] El Escudo absorbe un 50 % más de Daño y disipa el Control de multitudes infligido en uno mismo."
           ],
-          "story": ""
+          "story": "Un reloj de arena enterrado hace mucho tiempo por una enorme tormenta de arena que azotó el Desierto de Aegina. Cuando la arena del reloj se mueve, trae el espejismo de una ciudad antigua que regresa a la vida. El alto clérigo del antiguo reino lo usaba para mostrar las glorias pasadas a sus habitantes. Al ver su ciudad dorada resplandeciente, la gente sentía orgullo del reino."
         }
       },
       "s3": {
-        "name": "",
-        "description": "",
+        "name": "Maldición del desierto",
+        "description": "Causa {0} de Daño físico a los enemigos frontales en un rango amplio e inflige 1 acumulación de [Marca del desierto]. Luego, invoca “Foso de arena” durante 5 segundos, lo que causa {1} de Daño físico cada 0,5 segundos, y disminuye su Defensa física en un 30 % durante 10 segundos. “Foso de arena” tiene un 25 % de probabilidades de infligir 1 acumulación de [Marca del desierto] y atrae hacia el centro a todos los enemigos dentro del rango.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "Daño Aumenta en {0}%.",
+          "1": "Daño Aumenta en {0}%.",
+          "2": "Daño Aumenta en {0}%."
         },
-        "light": "",
-        "dark": "",
+        "light": "El costo de Mana disminuye en 1.",
+        "dark": "La duración de “Tormenta de arena” aumenta en 2 segundos.",
         "ut": {
-          "name": "",
+          "name": "Alma del oasis",
           "description": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "[Maldición del desierto] El Tiempo de reutilización de la habilidad disminuye en un 30 % y las probabilidades de activación del efecto aumentan en un 8 %.",
+            "[Maldición del desierto] El Tiempo de reutilización de la habilidad disminuye en un 30 % y las probabilidades de activación del efecto aumentan en un 9,6 %.",
+            "[Maldición del desierto] El Tiempo de reutilización de la habilidad disminuye en un 30 % y las probabilidades de activación del efecto aumentan en un 11,5 %.",
+            "[Maldición del desierto] El Tiempo de reutilización de la habilidad disminuye en un 30 % y las probabilidades de activación del efecto aumentan en un 13,8 %.",
+            "[Maldición del desierto] El Tiempo de reutilización de la habilidad disminuye en un 30 % y las probabilidades de activación del efecto aumentan en un 16,5 %.",
+            "[Maldición del desierto] El Tiempo de reutilización de la habilidad disminuye en un 30 % y las probabilidades de activación del efecto aumentan en un 20 %."
           ],
-          "story": ""
+          "story": "Una espada mágica heredada por los descendientes del rey dios. El nombre “oasis” hace referencia a cómo se usaba para ayudar a las personas en tiempos difíciles. Tras la caída del reino, se ignoraba su paradero, hasta que Zafir la vio entre las colecciones de arte de Kumuro y la compró a un precio exorbitante. Con la espada de regreso a su justo descendiente, Zafir pudo heredar el alma de su progenitor, lo que maximizó su potencial."
         }
       },
       "s4": {
-        "name": "",
-        "description": "",
+        "name": "Llamado del guardián",
+        "description": "Cada ataque automático tiene un 15 % de probabilidades de causar {0} de Daño físico que ignora la Defensa a todos los enemigos, e inflige 1 acumulación de [Marca del desierto]. [Marca del desierto] se puede acumular hasta 5 veces.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "Daño Aumenta en {0}%.",
+          "1": "Daño Aumenta en {0}%.",
+          "2": "Daño Aumenta en {0}%."
         },
-        "light": "",
-        "dark": ""
+        "light": "Cuando hay más de 5 enemigos, todos reciben 5 acumulaciones de “Marca del desierto”. Este efecto se activa una vez cada 20 segundos.",
+        "dark": "Las probabilidades de activación cambian al 30 %."
       },
       "t5": {
-        "light": "",
-        "dark": ""
+        "light": "ATQ, DEF, Salud+15% / Oportunidad Crit +100",
+        "dark": "Recupera 500 de Mana con el uso de una habilidad. Si hay más de 5 enemigos, la tasa de recuperación de Mana se duplica y la Velocidad de ataque aumenta en 500 durante 5 segundos. Este efecto no se puede acumular."
       }
     },
     "49": {
@@ -6025,12 +6025,12 @@
         "ut": {
           "name": "Corazón de Elliciad",
           "description": [
-            "[Card of Love - Elliciad] Dispels Negative Effects of the target and all skill cooldown are decreased by 6%.",
-            "[Card of Love - Elliciad] Dispels Negative Effects of the target and all skill cooldown are decreased by 7.2%.",
-            "[Card of Love - Elliciad] Dispels Negative Effects of the target and all skill cooldown are decreased by 8.6%.",
-            "[Card of Love - Elliciad] Dispels Negative Effects of the target and all skill cooldown are decreased by 10.4%.",
-            "[Card of Love - Elliciad] Dispels Negative Effects of the target and all skill cooldown are decreased by 12.5%.",
-            "[Card of Love - Elliciad] Dispels Negative Effects of the target and all skill cooldown are decreased by 15%."
+            "[Carta del amor - Elliciad] Disipa los efectos negativos del objetivo y disminuye el Tiempo de reutilización de todas las habilidades en un 6%.",
+            "[Carta del amor - Elliciad] Disipa los efectos negativos del objetivo y disminuye el Tiempo de reutilización de todas las habilidades en un 7,2%.",
+            "[Carta del amor - Elliciad] Disipa los efectos negativos del objetivo y disminuye el Tiempo de reutilización de todas las habilidades en un 8,6%.",
+            "[Carta del amor - Elliciad] Disipa los efectos negativos del objetivo y disminuye el Tiempo de reutilización de todas las habilidades en un 10,4%.",
+            "[Carta del amor - Elliciad] Disipa los efectos negativos del objetivo y disminuye el Tiempo de reutilización de todas las habilidades en un 12,5%.",
+            "[Carta del amor - Elliciad] Disipa los efectos negativos del objetivo y disminuye el Tiempo de reutilización de todas las habilidades en un 15%."
           ],
           "story": "Espíritu de amor, el corazón de Elliciad. Devora amores realizados y no realizados, así que a veces puede ser caliente como la lava o frío como el hielo. El poder que muestra depende de lo contaminada que esté una alma, y puede mostrar una luz extensa de bendición a aquellos con almas puras."
         }
@@ -6145,12 +6145,12 @@
         "ut": {
           "name": "Colmillo venenoso de basilisco",
           "description": [
-            "[Screechy Grass Extract!] Skill cooldown is decreased by 30% and deals 3% of ATK as additional P.DMG per each stacked Tickle Tickle Potion! of target.",
-            "[Screechy Grass Extract!] Skill cooldown is decreased by 30% and deals 3.6% of ATK as additional P.DMG per each stacked Tickle Tickle Potion! of target.",
-            "[Screechy Grass Extract!] Skill cooldown is decreased by 30% and deals 4.3% of ATK as additional P.DMG per each stacked Tickle Tickle Potion! of target.",
-            "[Screechy Grass Extract!] Skill cooldown is decreased by 30% and deals 5.2% of ATK as additional P.DMG per each stacked Tickle Tickle Potion! of target.",
-            "[Screechy Grass Extract!] Skill cooldown is decreased by 30% and deals 6.2% of ATK as additional P.DMG per each stacked Tickle Tickle Potion! of target.",
-            "[Screechy Grass Extract!] Skill cooldown is decreased by 30% and deals 7.5% of ATK as additional P.DMG per each stacked Tickle Tickle Potion! of target."
+            "[¡Extracto de hierba crujiente!] El Tiempo de reutilización disminuye en un 30% e inflige un 3% del Ataque como Daño físico adicional por cada acumulación del objetivo de ¡Poción de cosquillas!",
+            "[¡Extracto de hierba crujiente!] El Tiempo de reutilización disminuye en un 30% e inflige un 3,6% del Ataque como Daño físico adicional por cada acumulación del objetivo de ¡Poción de cosquillas!",
+            "[¡Extracto de hierba crujiente!] El Tiempo de reutilización disminuye en un 30% e inflige un 4,3% del Ataque como Daño físico adicional por cada acumulación del objetivo de ¡Poción de cosquillas!",
+            "[¡Extracto de hierba crujiente!] El Tiempo de reutilización disminuye en un 30% e inflige un 5,2% del Ataque como Daño físico adicional por cada acumulación del objetivo de ¡Poción de cosquillas!",
+            "[¡Extracto de hierba crujiente!] El Tiempo de reutilización disminuye en un 30% e inflige un 6,2% del Ataque como Daño físico adicional por cada acumulación del objetivo de ¡Poción de cosquillas!",
+            "[¡Extracto de hierba crujiente!] El Tiempo de reutilización disminuye en un 30% e inflige un 7,5% del Ataque como Daño físico adicional por cada acumulación del objetivo de ¡Poción de cosquillas!"
           ],
           "story": "Un colmillo asqueroso del basilisco que solo absorbe energía maligna. En realidad, su veneno es lo suficientemente fuerte para derretir almas. Si el veneno del fango se mezcla con césped crujiente, podría convertirse en una droga tremenda a la que ningún ser vivo podría sobrevivir. El corazón de Requina late fuerte con la anticipación."
         }
@@ -6265,12 +6265,12 @@
         "ut": {
           "name": "Brazalete del sol",
           "description": [
-            "[Bendición del sol] Reduce el Costo de Mana en 1 y aumenta la Debilidad física del objetivo en un 10 % durante 10 segundos.",
-            "[Bendición del sol] Reduce el Costo de Mana en 1 y aumenta la Debilidad física del objetivo en un 12 % durante 10 segundos.",
-            "[Bendición del sol] Reduce el Costo de Mana en 1 y aumenta la Debilidad física del objetivo en un 14 % durante 10 segundos.",
-            "[Bendición del sol] Reduce el Costo de Mana en 1 y aumenta la Debilidad física del objetivo en un 17 % durante 10 segundos.",
-            "[Bendición del sol] Reduce el Costo de Mana en 1 y aumenta la Debilidad física del objetivo en un 21 % durante 10 segundos.",
-            "[Bendición del sol] Reduce el Costo de Mana en 1 y aumenta la Debilidad física del objetivo en un 25 % durante 10 segundos."
+            "[Bendición del sol] Reduce el Costo de Mana en 1 y el objetivo recibe 10% de Daño físico reducido durante 10 segundos.",
+            "[Bendición del sol] Reduce el Costo de Mana en 1 y el objetivo recibe 12% de Daño físico reducido durante 10 segundos.",
+            "[Bendición del sol] Reduce el Costo de Mana en 1 y el objetivo recibe 14% de Daño físico reducido durante 10 segundos.",
+            "[Bendición del sol] Reduce el Costo de Mana en 1 y el objetivo recibe 17% de Daño físico reducido durante 10 segundos.",
+            "[Bendición del sol] Reduce el Costo de Mana en 1 y el objetivo recibe 21% de Daño físico reducido durante 10 segundos.",
+            "[Bendición del sol] Reduce el Costo de Mana en 1 y el objetivo recibe 25% de Daño físico reducido durante 10 segundos."
           ],
           "story": "Brazalete hecho por los arcángeles para proteger a los ángeles cuando bajen a la tierra. Contiene el sol, así que brilla de forma brillante. Cuando los ángeles sienten miedo, se dice que la luz del sol del brazalete protege sus almas. Y el brazalete interviene en los destinos de los ángeles, así que cuando sienten que sus vidas corren peligro, pueden sentir el dolor del otro de forma instintiva."
         }
@@ -6555,243 +6555,243 @@
       }
     },
     "57": {
-      "name": "",
-      "subtitle": "",
-      "description": "",
-      "story": "",
-      "like": "",
-      "dislike": "",
+      "name": "Lilia",
+      "subtitle": "La hija de la tormenta y el mar",
+      "description": "Una muchacha dragón azul que acaba de finalizar su período de Cría y hermana de Laias, la clériga del agua. A pesar de ser joven e inexperta, quienes la menosprecian suelen pagarlo muy caro. Ella usa la energía implacable del agua para aniquilar a sus enemigos.",
+      "story": "Una diosa dragón del oasis y hermana de la clériga del agua, Laias. Todavía es un dragón azul joven que adora a su hermana mucho mayor. Cuando Laias cayó en un sueño profundo después de agotar sus poderes en la batalla de hace 100 años, Lilia defendió el Templo de la corriente sola. Cuando escuchó las plegarias desesperadas de los niños del desierto, finalmente despertó a la clériga del agua para que los protegiera. A diferencia de su hermana tranquila y reflexiva, ella es un poco estricta, y la forma en que controla el poder de la corriente y del agua también es algo agresiva. Ella siente la necesidad de proteger a su hermana de los hombres que la cortejan, pero que no la merecen.",
+      "like": "Laias, tragos dulces, gente del desierto",
+      "dislike": "Aquellos que cortejan a su hermana (Neraxis, Sereinel)",
       "inn": {
-        "idle": "",
+        "idle": "Demasiados... humanos...",
         "recruit": {
-          "greet": "",
+          "greet": "¡Que la corriente te acompañe!",
           "talk": [
-            "",
-            "",
-            ""
+            "No soy tan amable como mi hermana.",
+            "¿Que los dragones azules son débiles? Nada más lejos de la verdad.",
+            "Soy un dragón grande. ¡Ya tengo edad suficiente!"
           ],
-          "gift": ""
+          "gift": "Gracias, niño humano."
         },
         "affinity": {
-          "greet": "",
+          "greet": "¡Hola, te ves genial!",
           "talk": [
-            "",
-            ""
+            "La misión de mi hermana también es mi misión. Siempre estaré a su lado.",
+            "¿El misterio del agua infinita? Hum... Escuché que se trataba del poder del primer dragón azul."
           ],
-          "gift": ""
+          "gift": "Muchas gracias. Usaré eso para el Templo de la corriente."
         },
         "relationship": {
-          "greet": "",
+          "greet": "¡Me alegra volver a verte!",
           "talk": [
-            "",
-            "",
-            ""
+            "¿Neraxis? Que idiota. Siempre quiere llamar la atención de mi hermana.",
+            "¿Sereinel? Eh... Creí que se había ido para siempre. No puedo creer que esté coqueteando con mi hermana otra vez...",
+            "Quiero a mi hermana más que a nadie... pero tú también me agradas."
           ]
         }
       },
       "uw": {
-        "name": "",
+        "name": "Fuente infinita, Cielamaha",
         "description": [
-          "",
-          "",
-          "",
-          "",
-          "",
-          ""
+          "El Mana se recupera en 50 por cada segundo. Con cada Ataque, hay un 80 % de probabilidades de infligir un 20 % del Ataque como Daño físico.",
+          "El Mana se recupera en 60 por cada segundo. Con cada Ataque, hay un 80 % de probabilidades de infligir un 24 % del Ataque como Daño físico.",
+          "El Mana se recupera en 70 por cada segundo. Con cada Ataque, hay un 80 % de probabilidades de infligir un 28 % del Ataque como Daño físico.",
+          "El Mana se recupera en 85 por cada segundo. Con cada Ataque, hay un 80 % de probabilidades de infligir un 34 % del Ataque como Daño físico.",
+          "El Mana se recupera en 105 por cada segundo. Con cada Ataque, hay un 80 % de probabilidades de infligir un 42 % del Ataque como Daño físico.",
+          "El Mana se recupera en 125 por cada segundo. Con cada Ataque, hay un 80 % de probabilidades de infligir un 50 % del Ataque como Daño físico."
         ],
-        "story": ""
+        "story": "Una fuente infinita de la que brota agua sin parar. Es un jarro creado por el primer dragón azul, quien controlaba toda el agua de la tierra. Reacciona ante la imaginación de quien la usa. Para una niña joven, sensible y creativa como Lilia, es el tesoro y el arma más increíble."
       },
       "s1": {
-        "name": "",
-        "description": "",
+        "name": "Tempestad de agua",
+        "description": "Durante 8 segundos, invoca el efecto Tempestad de agua sobre un objetivo aleatorio y sobre los enemigos en el rango del objetivo. Además, causa {0} de Daño físico cada 0,5 segundos. Si el objetivo muere, Tempestad de agua se invoca para atacar a otro objetivo aleatorio durante el tiempo restante.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "Daño Aumenta en {0}%.",
+          "1": "Daño Aumenta en {0}%.",
+          "2": "Daño Aumenta en {0}%."
         },
-        "light": "",
-        "dark": ""
+        "light": "La Velocidad de ataque del objetivo afectado disminuye en 250 durante 10 segundos.",
+        "dark": "Cada uso aumenta el Daño en un 15%. Acumula 15 veces máx."
       },
       "s2": {
-        "name": "",
-        "description": "",
+        "name": "Oasis eterno",
+        "description": "Cuando se activa, se convierte al estado Oasis eterno durante 15 segundos. Mientras dura el estado Oasis eterno, la tasa de Recuperación de Mana por segundo aumenta en un 150 % y el Ataque aumenta en {0}. Además, toda la Defensa aumenta en {1}.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "La Recuperación de Mana y el Aumento del ataque se incrementan en un {0}  %.",
+          "1": "La Recuperación de Mana y el Aumento del ataque se incrementan en un {0}  %.",
+          "2": "La Recuperación de Mana y el Aumento del ataque se incrementan en un {0}  %."
         },
-        "light": "",
-        "dark": "",
+        "light": "El costo de Mana aumenta en 1 y se activa adicionalmente en el aliado que tenga el Ataque más alto (excepto uno mismo).",
+        "dark": "La duración de la habilidad disminuye en 5 segundos y todos los efectos aumentan en un 100 %.",
         "ut": {
-          "name": "",
+          "name": "Corazón de corriente",
           "description": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "[Oasis eterno] El efecto no se puede disipar, y el Daño crítico aumenta en un 20 % mientras dura la habilidad.",
+            "[Oasis eterno] El efecto no se puede disipar, y el Daño crítico aumenta en un 24 % mientras dura la habilidad.",
+            "[Oasis eterno] El efecto no se puede disipar, y el Daño crítico aumenta en un 28 % mientras dura la habilidad.",
+            "[Oasis eterno] El efecto no se puede disipar, y el Daño crítico aumenta en un 34 % mientras dura la habilidad.",
+            "[Oasis eterno] El efecto no se puede disipar, y el Daño crítico aumenta en un 42 % mientras dura la habilidad.",
+            "[Oasis eterno] El efecto no se puede disipar, y el Daño crítico aumenta en un 50 % mientras dura la habilidad."
           ],
-          "story": ""
+          "story": "Un collar de oro que Laias elaboró para Lilia con una gema de protección. Brilla con la energía de los elementales del agua que contiene. Es un símbolo del cariño que siente Laias por su hermana pequeña."
         }
       },
       "s3": {
-        "name": "",
-        "description": "",
+        "name": "Catarata celestial",
+        "description": "Arroja gotas de agua 15 veces a enemigos aleatorios, lo que causa un total de {0} de Daño físico. Además, arroja gotas grandes de agua 5 veces al objetivo y a otros enemigos dentro del rango, lo que causa {1} de Daño físico. Los enemigos alcanzados por la gota grande de agua reciben el efecto Aturdir durante {2} segundo(s). Por cada gota de agua arrojada, se consume {3} de Mana, y el costo de Mana aumenta en {4}. Su uso se detiene cuando el Mana llega a 0.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "Daño Aumenta en {0}%.",
+          "1": "Daño Aumenta en {0}%.",
+          "2": "Daño Aumenta en {0}%."
         },
-        "light": "",
-        "dark": "",
+        "light": "Mientras esté en uso, obten inmunidad al Ctrl de Masas",
+        "dark": "Por cada gota de agua arrojada, el costo de Mana y la tasa de consumo de Mana aumentan en un 100 %. Por cada gota de agua arrojada, hay un 50 % de probabilidades de arrojar una gota adicional.",
         "ut": {
-          "name": "",
+          "name": "Tetera sin fondo de elementales",
           "description": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "[Catarata celestial] Con cada Ataque, hay un 7% de probabilidades de arrojar una gota grande de agua, lo que inflige un 100% del Ataque como Daño físico y aumenta el Daño crítico propio en un 2% durante 7 segundos.",
+            "[Catarata celestial] Con cada Ataque, hay un 7% de probabilidades de arrojar una gota grande de agua, lo que inflige un 100% del Ataque como Daño físico y aumenta el Daño crítico propio en un 2,4% durante 7 segundos.",
+            "[Catarata celestial] Con cada Ataque, hay un 7% de probabilidades de arrojar una gota grande de agua, lo que inflige un 100% del Ataque como Daño físico y aumenta el Daño crítico propio en un 2,8% durante 7 segundos.",
+            "[Catarata celestial] Con cada Ataque, hay un 7% de probabilidades de arrojar una gota grande de agua, lo que inflige un 100% del Ataque como Daño físico y aumenta el Daño crítico propio en un 3,4% durante 7 segundos.",
+            "[Catarata celestial] Con cada Ataque, hay un 7% de probabilidades de arrojar una gota grande de agua, lo que inflige un 100% del Ataque como Daño físico y aumenta el Daño crítico propio en un 4,2% durante 7 segundos.",
+            "[Catarata celestial] Con cada Ataque, hay un 7% de probabilidades de arrojar una gota grande de agua, lo que inflige un 100% del Ataque como Daño físico y aumenta el Daño crítico propio en un 5% durante 7 segundos."
           ],
-          "story": ""
+          "story": "Una tetera que elaboraron los amigos cactus de Lilia para su cumpleaños. Produce infinitamente el agua más pura y limpia que existe. No obstante, si se usa demasiada agua a la vez, la boca de la tetera se cierra. Los cactus agregaron esta característica para ayudar a Lilia a controlar el agua hasta que perfeccione sus habilidades."
         }
       },
       "s4": {
-        "name": "",
-        "description": "",
+        "name": "Purificación de agua",
+        "description": "La Recuperación de Mana sobre el Ataque está fijada, pero el Ataque propio aumenta en {0} y la Recuperación de Mana por segundo aumenta en 120. Por cada 6 Recuperaciones de Mana por segundo, el Ataque aumenta en un 1 %.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "aumenta la tasa de Ataque en {0}%.",
+          "1": "aumenta la tasa de Ataque en {0}%.",
+          "2": "aumenta la tasa de Ataque en {0}%."
         },
-        "light": "",
-        "dark": ""
+        "light": "Al comienzo de cada batalla, recupera 1000 de Mana.",
+        "dark": "Causa un 15 % de Daño aumentado a los Jefes monstruos."
       },
       "t5": {
-        "light": "",
-        "dark": ""
+        "light": "ATQ, DEF, Salud+15% / Daño Crit+20%",
+        "dark": "ATK is increased by 15% per 1 orb of mana."
       }
     },
     "58": {
-      "name": "",
-      "subtitle": "",
-      "description": "",
-      "story": "",
-      "like": "",
-      "dislike": "",
+      "name": "Laudia",
+      "subtitle": "Bailarina del oasis",
+      "description": "Una bailarina de una tribu nómade del Desierto de Aegina. Sus movimientos derriten los corazones de la gente, y sus cuchillos afilados arrebatan silenciosamente la vida de sus enemigos.",
+      "story": "Los Trovatias son una tribu nómade del Desierto de Aegina que heredaron la tradición y la religión del antiguo reino del desierto. Laudia es la hija del líder de la tribu y sirve a la clériga del agua, Laias. Además, se encarga de cuidar a la tribu en nombre de su anciano padre. Cuando rezó para pedir ayuda, la diosa dragón Laias y su hermana Lilia despertaron de su largo sueño y cobijaron a Laudia y a su tribu dentro del templo para protegerlos. Desde ese momento, Laudia ha estado derrotando demonios junto con Zafir, el líder de la tribu Mauhata de los guerreros del desierto.",
+      "like": "Laias, Lilia, gente del desierto",
+      "dislike": "Ver a la gente sufrir",
       "inn": {
-        "idle": "",
+        "idle": "Oh, qué lugar más interesante. ¿Hay algún sitio donde pueda bailar?",
         "recruit": {
-          "greet": "",
+          "greet": "Hola. Que el poder de la corriente te acompañe.",
           "talk": [
-            "",
-            "",
-            ""
+            "¿No has visto a la clériga? No pasa desapercibida...",
+            "Bueno, si me ves bailar, no podrás pensar en otra cosa.",
+            "No quiero que este hermoso mundo sufra más destrucción."
           ],
-          "gift": ""
+          "gift": "Gracias por el regalo. ¿Quieres bailar?"
         },
         "affinity": {
-          "greet": "",
+          "greet": "¡Hola! Ahora que tenemos algo más de confianza, ¿te molestaría que te llamara por tu nombre?",
           "talk": [
-            "",
-            ""
+            "Me agrada este lugar. Es tan tranquilo y pacífico.",
+            "Sustituir al líder no es un trabajo sencillo. Tengo que cuidar de todas las personas de mi tribu."
           ],
-          "gift": ""
+          "gift": "Gracias. Debería comprar bocadillos para los niños..."
         },
         "relationship": {
-          "greet": "",
+          "greet": "Me alegra verte. ¿Vienes a verme a mí?",
           "talk": [
-            "",
-            "",
-            ""
+            "¿Conoces a Lilia y a su hermana, Laias? Son geniales. Estoy segura de que te caerán muy bien.",
+            "Puedo sentir la potente vibración de la corriente y el destino, que solo se encuentran en los guerreros y los héroes verdaderos.",
+            "Creé un baile nuevo. ¿Te gustaría verlo? Incluso podríamos bailar juntos."
           ]
         }
       },
       "uw": {
-        "name": "",
+        "name": "Arenas susurrantes, Arlaq",
         "description": [
-          "",
-          "",
-          "",
-          "",
-          "",
-          ""
+          "[Bendición del oasis] se puede acumular hasta 12 veces. En un ataque automático, el Tiempo de reutilización de todas las habilidades disminuye en un 4 % con un 10 % de probabilidades.",
+          "Bendición del oasis se puede acumular hasta 13 veces. En un ataque automático, el Tiempo de reutilización de todas las habilidades disminuye en un 4,8 % con un 10 % de probabilidades.",
+          "Bendición del oasis se puede acumular hasta 14 veces. En un ataque automático, el Tiempo de reutilización de todas las habilidades disminuye en un 5,8 % con un 10 % de probabilidades.",
+          "Bendición del oasis se puede acumular hasta 15 veces. En un ataque automático, el Tiempo de reutilización de todas las habilidades disminuye en un 7 % con un 10 % de probabilidades.",
+          "Bendición del oasis se puede acumular hasta 16 veces. En un ataque automático, el Tiempo de reutilización de todas las habilidades disminuye en un 8,4 % con un 10 % de probabilidades.",
+          "Bendición del oasis se puede acumular hasta 17 veces. En un ataque automático, el Tiempo de reutilización de todas las habilidades disminuye en un 10 % con un 10 % de probabilidades."
         ],
-        "story": ""
+        "story": "Un tesoro exótico que es la manifestación de la pasión ardiente como una llama en el desierto. Se sabe que un par de estas hermosas armas fueron almacenadas en el depósito del antiguo rey dios. Cuando se mueven, emiten un sonido encantador, similar al viendo, con el aroma de una brisa. Es una tentación dulce, pero mortal, igual que un espejismo en el desierto..."
       },
       "s1": {
-        "name": "",
-        "description": "",
+        "name": "Susurro de arena",
+        "description": "Ataca al objetivo principal y causa {0} de Daño mágico a los enemigos cercanos, lo que disminuye su probabilidad de bloqueo en {2} y la Resistencia al ataque crítico en {3} durante {1} segundo(s). Además, los ataca y les inflige {4} de Daño mágico y los aturde durante {5} segundo(s).",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "Daño Aumenta en {0}%.",
+          "1": "Daño Aumenta en {0}%.",
+          "2": "Daño Aumenta en {0}%."
         },
-        "light": "",
-        "dark": ""
+        "light": "El costo de Mana se reduce en 1.",
+        "dark": "El objetivo recibe un 25 % de Daño mágico aumentado durante 10 segundos."
       },
       "s2": {
-        "name": "",
-        "description": "",
+        "name": "Corriente de encantos",
+        "description": "Aumenta el Ataque propio en {1} y el Daño crítico en un {2}  % durante {0} segundo(s). Luego, se mueve un poco hacia adelante, lo que causa {3} de Daño mágico a los enemigos en el rango de movimiento e inflige Encanto durante {4} segundo(s) si la habilidad se usó en la Arena. Puede activar [Emboscada atrayente] una vez dentro de los 5 segundos después de que se usó.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "Los aumentos de ATQ y Daño se incrementan en {0}%.",
+          "1": "Los aumentos de ATQ y Daño se incrementan en {0}%.",
+          "2": "Los aumentos de ATQ y Daño se incrementan en {0}%."
         },
-        "light": "",
-        "dark": "",
+        "light": "Gana 2 esferas de Mana después del movimiento. El Mana obtenido se consume en el transcurso de 5 segundos.",
+        "dark": "Después de usar Corriente de encantos, se puede usar Emboscada atrayente dos veces en el transcurso de 10 segundos.",
         "ut": {
-          "name": "",
+          "name": "Cofre sagrado de Trovatia",
           "description": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "[Corriente de encantos] Después del movimiento, absorbe Daño equivalente al 160 % del Ataque durante 3 segundos. Luego, crea un escudo inmune al Control de multitudes, y el costo de Mana de [Emboscada atrayente] disminuye en 1.",
+            "[Corriente de encantos] Después del movimiento, absorbe Daño equivalente al 190 % del Ataque durante 3 segundos. Luego, crea un escudo inmune al Control de multitudes, y el costo de Mana de [Emboscada atrayente] disminuye en 1.",
+            "[Corriente de encantos] Después del movimiento, absorbe Daño equivalente al 230 % del Ataque durante 3 segundos. Luego, crea un escudo inmune al Control de multitudes, y el costo de Mana de [Emboscada atrayente] disminuye en 1.",
+            "[Corriente de encantos] Después del movimiento, absorbe Daño equivalente al 270 % del Ataque durante 3 segundos. Luego, crea un escudo inmune al Control de multitudes, y el costo de Mana de [Emboscada atrayente] disminuye en 1.",
+            "[Corriente de encantos] Después del movimiento, absorbe Daño equivalente al 330 % del Ataque durante 3 segundos. Luego, crea un escudo inmune al Control de multitudes, y el costo de Mana de [Emboscada atrayente] disminuye en 1.",
+            "[Corriente de encantos] Después del movimiento, absorbe Daño equivalente al 400 % del Ataque durante 3 segundos. Luego, crea un escudo inmune al Control de multitudes, y el costo de Mana de [Emboscada atrayente] disminuye en 1."
           ],
-          "story": ""
+          "story": "Un cofre que contiene los artefactos necesarios para los rituales religiosos del dragón del agua. Algunos ornamentos que contiene fueron elaborados con “lapislázuli celeste”, una gema que representa la plenitud total. Es el objeto más preciado que atesora el padre de Laudia, y solo se entrega a aquellos que son capaces de guiar a toda la tribu Trovatia."
         }
       },
       "s3": {
-        "name": "",
-        "description": "",
+        "name": "Danza del desierto",
+        "description": "Ataca a los enemigos dentro del rango 30 veces, lo que inflige un total de {0} de Daño mágico. Además, arroja “Cuchillas de Arlaq” a enemigos aleatorios 30 veces, lo que inflige un total de {1} de Daño mágico. El adicional de {2} de Daño se acumula cada vez que la cuchilla ataca al mismo enemigo. [Aceleración deslumbrante] se puede usar una vez durante la activación de la habilidad, y las “Cuchillas de Arlaq” priorizan a los objetivos afectados por Encanto.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "Daño Aumenta en {0}%.",
+          "1": "Daño Aumenta en {0}%.",
+          "2": "Daño Aumenta en {0}%."
         },
-        "light": "",
-        "dark": "",
+        "light": "El costo de Mana de Aceleración deslumbrante se reduce en 1 y la duración de la habilidad aumenta 2 segundos.",
+        "dark": "El costo de Mana aumenta en 1 y el Daño se incrementa en un 100 %.",
         "ut": {
-          "name": "",
+          "name": "Velo de encanto",
           "description": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "[Danza del desierto] El Tiempo de reutilización de la habilidad disminuye en un 30 % y la Penetración de defensa aumenta en 100 durante la activación de la habilidad.",
+            "[Danza del desierto] El Tiempo de reutilización de la habilidad disminuye en un 30 % y la Penetración de defensa aumenta en 120 durante la activación de la habilidad.",
+            "[Danza del desierto] El Tiempo de reutilización de la habilidad disminuye en un 30 % y la Penetración de defensa aumenta en 140 durante la activación de la habilidad.",
+            "[Danza del desierto] El Tiempo de reutilización de la habilidad disminuye en un 30 % y la Penetración de defensa aumenta en 170 durante la activación de la habilidad.",
+            "[Danza del desierto] El Tiempo de reutilización de la habilidad disminuye en un 30 % y la Penetración de defensa aumenta en 210 durante la activación de la habilidad.",
+            "[Danza del desierto] El Tiempo de reutilización de la habilidad disminuye en un 30 % y la Penetración de defensa aumenta en 250 durante la activación de la habilidad."
           ],
-          "story": ""
+          "story": "Un velo legendario que solo podía usar la mejor bailarina del continente. Si se baila con el velo puesto, los espectadores pueden quedar hipnotizados. Laudia lo utilizaba para encantar a sus enemigos con movimientos seductores y conseguir todo lo que deseaba."
         }
       },
       "s4": {
-        "name": "",
-        "description": "",
+        "name": "Bendición del oasis",
+        "description": "Disminuye en un {0}  % la duración del Control de multitudes infligida en uno mismo. Al usar una habilidad, gana [Bendición del oasis] durante {1} segundo(s), lo que aumenta la Penetración de defensa propia en {2} y la Defensa en {3}. El efecto [Bendición del oasis] se puede acumular hasta {4} veces y no se puede disipar.",
         "books": {
-          "0": "",
-          "1": "",
-          "2": ""
+          "0": "La Penetración de defensa y el aumento de la Defensa se incrementan en un {0}  %.",
+          "1": "La Penetración de defensa y el aumento de la Defensa se incrementan en un {0}  %.",
+          "2": "La Penetración de defensa y el aumento de la Defensa se incrementan en un {0}  %."
         },
-        "light": "",
-        "dark": ""
+        "light": "Gana 2 acumulaciones de Bendición del oasis.",
+        "dark": "Por cada acumulación, recibe un 2 % menos de Daño por parte de los enemigos que no son héroes."
       },
       "t5": {
-        "light": "",
-        "dark": ""
+        "light": "ATQ, DEF, Salud+15% / Veloc de ATQ +100",
+        "dark": "Al comienzo de cada batalla, gana inmunidad al Control de multitudes durante 5 segundos. Además, la Precisión y la Precisión del control de multitudes aumentan en 300 durante 10 segundos."
       }
     },
     "62": {
@@ -7083,7 +7083,7 @@
       },
       "s1": {
         "name": "Pilar de Luz",
-        "description": "Coloca un Pilar de Luz donde se encuentra el enemigo, causando un total de {0} Daño Magico durante 5 seg y disminuyendo el ATQ enemigo en {1}% durante 10 seg.",
+        "description": "Coloca un Pilar de Luz donde se encuentra el enemigo, causando un total de {0} Daño Magico durante 3 seg y disminuyendo el ATQ enemigo en {1}% durante 10 seg.",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
@@ -7225,12 +7225,12 @@
         "ut": {
           "name": "Anillo de géminis de teletransporte instantáneo",
           "description": [
-            "[Restrain and Protect] Reduces Mana Cost by 1 and upon Crit hit recovers 160 Mana.",
-            "[Restrain and Protect] Reduces Mana Cost by 1 and upon Crit hit recovers 190 Mana.",
-            "[Restrain and Protect] Reduces Mana Cost by 1 and upon Crit hit recovers 230 Mana.",
-            "[Restrain and Protect] Reduces Mana Cost by 1 and upon Crit hit recovers 270 Mana.",
-            "[Restrain and Protect] Reduces Mana Cost by 1 and upon Crit hit recovers 330 Mana.",
-            "[Restrain and Protect] Reduces Mana Cost by 1 and upon Crit hit recovers 400 Mana."
+            "[Restringir y proteger] Reduce el Costo de Mana en 1 y recupera 160 de Mana con cada Golpe crítico.",
+            "[Restringir y proteger] Reduce el Costo de Mana en 1 y recupera 190 de Mana con cada Golpe crítico.",
+            "[Restringir y proteger] Reduce el Costo de Mana en 1 y recupera 230 de Mana con cada Golpe crítico.",
+            "[Restringir y proteger] Reduce el Costo de Mana en 1 y recupera 270 de Mana con cada Golpe crítico.",
+            "[Restringir y proteger] Reduce el Costo de Mana en 1 y recupera 330 de Mana con cada Golpe crítico.",
+            "[Restringir y proteger] Reduce el Costo de Mana en 1 y recupera 400 de Mana con cada Golpe crítico."
           ],
           "story": "Anillo que Mirianne compró en la “Muy asombrosa tienda de juguetes mágicos” en Orvel. Ella gravó su nombre y el de Sonia en el anillo. Ambos forman un conjunto, y le permite a cada una a transportarse al lugar donde está la otra una vez al día. Aunque, Sonia no lo utiliza ya que es problemático... Puede ser un juguete, pero Mirianne está contenta que hay una forma más de proteger a Sonia."
         }
@@ -7465,12 +7465,12 @@
         "ut": {
           "name": "Dispositivo de registro KARA-00XX",
           "description": [
-            "[Wide-area Cannon] Increases DMG by 50% and reduces ATK Spd of the target by 100 for 10 sec. [Focused Fire] Reduces Cooldown by 2% upon a Crit Hit and recovers 150 Mana.",
-            "[Wide-area Cannon] Increases DMG by 50% and reduces ATK Spd of the target by 120 for 10 sec. [Focused Fire] Reduces Cooldown by 2.4% upon a Crit Hit and recovers 150 Mana.",
-            "[Wide-area Cannon] Increases DMG by 50% and reduces ATK Spd of the target by 140 for 10 sec. [Focused Fire] Reduces Cooldown by 2.9% upon a Crit Hit and recovers 150 Mana.",
-            "[Wide-area Cannon] Increases DMG by 50% and reduces ATK Spd of the target by 170 for 10 sec. [Focused Fire] Reduces Cooldown by 3.5% upon a Crit Hit and recovers 150 Mana.",
-            "[Wide-area Cannon] Increases DMG by 50% and reduces ATK Spd of the target by 210 for 10 sec. [Focused Fire] Reduces Cooldown by 4.2% upon a Crit Hit and recovers 150 Mana.",
-            "[Wide-area Cannon] Increases DMG by 50% and reduces ATK Spd of the target by 250 for 10 sec. [Focused Fire] Reduces Cooldown by 5% upon a Crit Hit and recovers 150 Mana."
+            "[Cañón de área amplia] Aumenta el Daño en un 50% y reduce la Velocidad de ataque del objetivo en 100 durante 10 segundos. [Fuego concentrado] Reduce el Tiempo de reutilización en un 2% con un Golpe crítico y recupera 150 de Mana.",
+            "[Cañón de área amplia] Aumenta el Daño en un 50% y reduce la Velocidad de ataque del objetivo en 120 durante 10 segundos. [Fuego concentrado] Reduce el Tiempo de reutilización en un 2,4% con un Golpe crítico y recupera 150 de Mana.",
+            "[Cañón de área amplia] Aumenta el Daño en un 50% y reduce la Velocidad de ataque del objetivo en 140 durante 10 segundos. [Fuego concentrado] Reduce el Tiempo de reutilización en un 2,9% con un Golpe crítico y recupera 150 de Mana.",
+            "[Cañón de área amplia] Aumenta el Daño en un 50% y reduce la Velocidad de ataque del objetivo en 170 durante 10 segundos. [Fuego concentrado] Reduce el Tiempo de reutilización en un 3,5% con un Golpe crítico y recupera 150 de Mana.",
+            "[Cañón de área amplia] Aumenta el Daño en un 50% y reduce la Velocidad de ataque del objetivo en 210 durante 10 segundos. [Fuego concentrado] Reduce el Tiempo de reutilización en un 4,2% con un Golpe crítico y recupera 150 de Mana.",
+            "[Cañón de área amplia] Aumenta el Daño en un 50% y reduce la Velocidad de ataque del objetivo en 250 durante 10 segundos. [Fuego concentrado] Reduce el Tiempo de reutilización en un 5% con un Golpe crítico y recupera 150 de Mana."
           ],
           "story": "Un dispositivo de registro y procesador que funciona como el cerebro de Kara. Es un tesoro repleto de sabiduría ancestral, y su capacidad supera ampliamente la de los humanos. A pesar de ser un dispositivo tan increíble, tiene dificultades para registrar y copiar emociones."
         }
@@ -8065,14 +8065,14 @@
         "ut": {
           "name": "Miniatura de muñeca de madera",
           "description": [
-            "[Shrouding Creed] Reduces Mana Cost by 1 and recovers target's Mana by 400.",
-            "[Shrouding Creed] Reduces Mana Cost by 1 and recovers target's Mana by 480.",
-            "[Shrouding Creed] Reduces Mana Cost by 1 and recovers target's Mana by 580.",
-            "[Shrouding Creed] Reduces Mana Cost by 1 and recovers target's Mana by 700.",
-            "[Shrouding Creed] Reduces Mana Cost by 1 and recovers target's Mana by 840.",
-            "[Shrouding Creed] Reduces Mana Cost by 1 and recovers target's Mana by 1000."
+            "[Credo envolvente] Reduce el Costo de Mana en 1 y recupera el Mana del objetivo en 400.",
+            "[Credo envolvente] Reduce el Costo de Mana en 1 y recupera el Mana del objetivo en 480.",
+            "[Credo envolvente] Reduce el Costo de Mana en 1 y recupera el Mana del objetivo en 580.",
+            "[Credo envolvente] Reduce el Costo de Mana en 1 y recupera el Mana del objetivo en 700.",
+            "[Credo envolvente] Reduce el Costo de Mana en 1 y recupera el Mana del objetivo en 840.",
+            "[Credo envolvente] Reduce el Costo de Mana en 1 y recupera el Mana del objetivo en 1000."
           ],
-          "story": "Loman solía tallar esculturas pequeñas del tamaño de su mano para organizar sus pensamientos cuando había dificultades. Mientras alisaba los bordes, se sentía en paz y recordaba su determinación cuando estaba aprendiendo las bases. Al principio, era solo un entretenimiento, pero pronto se convirtió en un pasatiempo, y terminó llenando su habitación con cientos de esculturas. Un día, Loman comenzó a crear muñecas de madera para regalárselas a sus amigos y a sus hombres. En ese entonces, las muñecas encantadas que protegían del mal a los corazones eran muy populares en Orvelia. Loman le pidió a un viejo chamán experto en remedios tradicionales que encantara las muñecas de madera con un hechizo de protección y luego se las regaló a sus colegas."
+          "story": "Loman solía tallar esculturas pequeñas del tamaño de su mano para organizar sus pensamientos cuando había dificultades. Mientras alisaba los bordes, se sentía en paz y recordaba cómo era cuando estaba aprendiendo las bases. Al principio, era solo un entretenimiento, pero pronto se convirtió en un pasatiempo, en una pasión que terminó llenando su habitación con cientos de esculturas. Un día, Loman comenzó a crear muñecas de madera para regalárselas a sus amigos y a sus hombres. En ese entonces, las muñecas encantadas que protegían del mal a los corazones eran muy populares en Orvelia. Loman le pidió a un viejo chamán experto en remedios tradicionales que encantara las muñecas de madera con un hechizo de protección y luego se las regaló a sus colegas."
         }
       },
       "s3": {
@@ -8083,7 +8083,7 @@
           "1": "Daño Aumenta en {0}%.",
           "2": "Daño Aumenta en {0}%."
         },
-        "light": "«Marca del credo» dura 5 segundos más.",
+        "light": "Cuando hay un enemigo, el Daño se incrementa en un 100%.",
         "dark": "Mientras está en uso, obtiene inmunidad al Control de multitudes.",
         "ut": {
           "name": "Mar de invocación",
@@ -8107,11 +8107,11 @@
           "2": "Daño Aumenta en {0}%."
         },
         "light": "Aumenta la cantidad de «Tolerancia» acumulada cada segundo en 1.",
-        "dark": "Cambia la Reducción de ataque a un 30%."
+        "dark": "Reduce la Velocidad de ataque del enemigo afectado en 200 durante 10 segundos."
       },
       "t5": {
         "light": "ATQ, DEF, Salud+15% / Bloq Magico +200",
-        "dark": "Aumenta el Ataque y la Defensa mágica de todos los aliados en un 3% de la Defensa mágica de Loman."
+        "dark": "Al bloquear el Daño mágico, el Bloqueo mágico de todos los aliados aumenta en 200 y la Defensa mágica en un 10% de la Defensa mágica de Loman durante 10 segundos. Este efecto se activa solo una vez cada 20 segundos."
       }
     }
   },
