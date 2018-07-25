@@ -18,7 +18,10 @@
       <router-link to="/artifact" class="navbar-item">
         {{ $t("ui.artifact") }}
       </router-link>
-      <div class="navbar-end">
+      <router-link to="/calc" class="navbar-item">
+        Calc
+      </router-link>
+      <div v-if="!isCalc"  class="navbar-end">
         <div class="navbar-item">
           <search/>
         </div>
@@ -44,6 +47,11 @@ export default {
       name: "",
       selected: null
     };
+  },
+  computed: {
+    isCalc: function() {
+      return this.$route.name === "calc";
+    }
   }
 };
 </script>

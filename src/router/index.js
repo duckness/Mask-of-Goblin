@@ -5,6 +5,7 @@ import Buefy from "buefy";
 import Icon from "vue-awesome/components/Icon";
 import Artifact from "@/components/artifact";
 import Hero from "@/components/hero";
+import Softcap from "@/components/calculators/Softcap.vue";
 
 Vue.use(Router);
 Vue.use(Meta);
@@ -26,6 +27,11 @@ export default new Router({
       path: "/hero",
       name: "hero",
       component: Hero
+    },
+    {
+      path: "/calc",
+      name: "calc",
+      component: Softcap
     }
   ]
 });
