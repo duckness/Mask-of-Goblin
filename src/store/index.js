@@ -128,6 +128,7 @@ const getters = {
           ".png"),
         stats: h.getAttributes()
       },
+      auto: h.getAuto(),
       weapon: {
         image: require("@/components/hero/images/" + state.heroID + "/UW.png"),
         name: Vue.i18n.translate(prefix + ".uw.name"),
@@ -176,10 +177,21 @@ const h = {
   getClass: function() {
     return state.data.hero[state.heroID].class;
   },
+  getAuto: function() {
+    var suffix = state.data.hero[state.heroID];
+    return {
+      hits: suffix.auto.time,
+      duration: suffix.auto.duration
+    };
+  },
   getAttributes: function() {
     var suffix = state.data.hero[state.heroID];
     var attrs = {
-      dmgtype: Vue.i18n.translate("ui." + suffix["type"]),
+      dmgtype:
+        Vue.i18n.translate("ui." + suffix["type"]) +
+        "/" +
+        suffix.auto.rangeType,
+      range: suffix.auto.range,
       position:
         Vue.i18n.translate("ui." + suffix.position["type"]) +
         "/" +

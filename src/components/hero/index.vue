@@ -1,7 +1,7 @@
 <template>
   <div>
     <herodesc :hero="hero"/>
-    <collapsed :title="'Attributes'"><attributes :attributes="hero.attributes"/></collapsed>
+    <collapsed :title="'Attributes'"><attributes :attributes="hero.attributes" :auto="hero.auto"/></collapsed>
     <collapsed :title="'Skill 1'"><skill :skill="hero.s1"/></collapsed>
     <collapsed :title="'Skill 2'"><skill :skill="hero.s2"/></collapsed>
     <collapsed :title="'Skill 3'"><skill :skill="hero.s3"/></collapsed>
