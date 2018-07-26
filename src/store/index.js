@@ -264,7 +264,7 @@ const h = {
     var l = locale.split("-");
     if (l[0].toLowerCase() === "zh") {
       var tradtional = ["TW", "HK", "HANT"];
-      if (l.length > 1 && l[1].toUpperCase() in tradtional) {
+      if (l.length > 1 && tradtional.indexOf(l[1].toUpperCase()) > 1) {
         return "zh-Hant";
       } else {
         return "zh-Hans";
