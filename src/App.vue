@@ -28,9 +28,7 @@ export default {
   },
   metaInfo: function() {
     return {
-      link: [
-        { rel: "shortcut icon", type: "image/png", href: "/static/favicon.png" }
-      ]
+      link: [{ rel: "shortcut icon", type: "image/png", href: "/favicon.png" }]
     };
   }
 };
