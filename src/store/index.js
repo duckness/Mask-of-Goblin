@@ -182,7 +182,9 @@ const h = {
       position:
         Vue.i18n.translate("ui." + suffix.position["type"]) +
         "/" +
-        String(suffix.position.weight)
+        String(suffix.position.weight),
+      mpatk: suffix.mpatk,
+      mpsec: suffix.mpsec
     };
     return { ...attrs, ...h.getClassStats().attributes };
   },
