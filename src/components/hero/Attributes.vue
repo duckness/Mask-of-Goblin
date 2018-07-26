@@ -107,7 +107,7 @@ export default {
       for (var i = 0; i < this.auto.hits.length; i++) {
         s +=
           "(" +
-          String(this.effHitsHelper(this.auto.hits[i])).replace(",", "s, ") +
+          String(this.effHitsHelper(this.auto.hits[i])).replace(/,/g, "s, ") +
           "s), ";
       }
       return s.slice(0, -2);
