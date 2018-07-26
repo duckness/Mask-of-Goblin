@@ -13,7 +13,7 @@
         </span>
         <br>
         <small class="subtitle is-5">{{ hero.subtitle }}</small>
-        <!--br><span><a :href="linkWiki">Wiki</a> | <a :href="linkBuilder">Build this hero</a></span-->
+        <br><span><a :href="linkWiki">Wiki</a> | <a :href="linkBuilder">Build this hero</a></span>
         <p>{{ hero.description }}</p>
         <div class="columns">
           <div class="column content">
@@ -47,6 +47,14 @@ export default {
     hero: {
       type: Object,
       required: true
+    }
+  },
+  computed: {
+    linkWiki: function() {
+      return "http://www.kingsraid.wiki/index.php?title=" + this.hero.nameEN;
+    },
+    linkBuilder: function() {
+      return "https://angryraids.ml/#/" + this.hero.nameEN;
     }
   }
 };

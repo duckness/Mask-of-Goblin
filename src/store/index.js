@@ -114,6 +114,7 @@ const getters = {
     return {
       image: require("@/components/hero/images/" + state.heroID + "/hero.png"),
       name: Vue.i18n.translate(prefix + ".name"),
+      nameEN: lang.en.strings["hero"][state.heroID]["name"],
       subtitle: Vue.i18n.translate(prefix + ".subtitle"),
       class: Vue.i18n.translate("ui." + h.getClass()),
       description: Vue.i18n.translate(prefix + ".description"),
