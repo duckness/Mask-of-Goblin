@@ -54,4 +54,7 @@ export default {
     }
   }
 }
+.card-content {
+  padding: 1.25rem;
+}
 </style>
