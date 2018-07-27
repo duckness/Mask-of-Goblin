@@ -26,8 +26,18 @@ export default {
     navbar: Navbar,
     mogfooter: MogFooter
   },
+  computed: {
+    locale: {
+      get() {
+        return this.$store.state.locale;
+      }
+    }
+  },
   metaInfo: function() {
     return {
+      htmlAttrs: {
+        lang: this.locale
+      },
       link: [{ rel: "shortcut icon", type: "image/png", href: "/favicon.png" }]
     };
   }
