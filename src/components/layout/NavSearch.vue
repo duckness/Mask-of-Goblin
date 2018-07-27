@@ -65,7 +65,7 @@ export default {
         newList.unshift(this.name);
         return newList;
       } else {
-        var newList = this.itemList.filter(option => {
+        var newList_ = this.itemList.filter(option => {
           return (
             option
               .toString()
@@ -73,10 +73,10 @@ export default {
               .indexOf(this.name.toLowerCase()) >= 0
           );
         });
-        if (newList.length == 0) {
+        if (newList_.length == 0) {
           return this.itemList;
         } else {
-          return newList;
+          return newList_;
         }
       }
     }
