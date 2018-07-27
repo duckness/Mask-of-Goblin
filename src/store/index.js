@@ -239,6 +239,21 @@ const h = {
     // additional stats that may or may not be in data.json
     h.addIfExists(d, s, "mana");
     h.addIfExists(d, s, "cooldown");
+    // Linked skills if exists (Kara)
+    if ("linked" in s) {
+      d["linked"] = {
+        image: require("@/components/hero/images/" +
+          state.heroID +
+          "/" +
+          skillNum +
+          "l.png"),
+        name: Vue.i18n.translate(prefix + ".linked.name"),
+        description: Vue.i18n.translate(
+          prefix + ".linked.description",
+          s.linked
+        )
+      };
+    }
     return d;
   },
   addIfExists: function(d, skill, attr) {

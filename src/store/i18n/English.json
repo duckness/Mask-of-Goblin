@@ -6753,6 +6753,10 @@
             "[Enchanting Flow] After movement, absorbs DMG equal to 400% of ATK for 3 sec, then creates a shield that is immune to CC, and mana cost of [Alluring Ambush] is decreased by 1."
           ],
           "story": "A chest containing the artifacts needed for worship rituals for the Dragon of Water. Some ornaments on it are crafted with 'Azure Lapis Lazuli,' a gem that represents complete fullness. It is the dearest thing that Laudia's father treasures, and is only given to those who have the ability to lead the entire Trovatia tribe."
+        },
+        "linked": {
+          "name": "Alluring Ambush",
+          "description": "Attacks target enemy 3 times, dealing a total of {0} M.DMG. Deals extra {1} M.DMG to Boss enemies and enemies inflicted by Charm."
         }
       },
       "s3": {
@@ -6776,6 +6780,10 @@
             "[Dance of the Desert] Skill cooldown is decreased by 30% and Penetration is increased by 250 during skill activation."
           ],
           "story": "A legendary Veil only given to the best dancer in the continent. Performing a dance with it on can mesmerize those who are watching. Laudia used the veil to mesmerize enemies with her seductive dance and achieved everything she wanted."
+        },
+        "linked": {
+          "name": "Blinding Acceleration",
+          "description": "Gains immunity to CC for {0} sec and ATK Spd is increased by {1}."
         }
       },
       "s4": {
@@ -7450,7 +7458,11 @@
           "2": "DMG is increased by {0}%."
         },
         "light": "[Anti-personnel Laser] - Recovers 200 MP upon a Crit Hit. [Siege Laser] - Increases Mana Cost by 1 and DMG by 100%.",
-        "dark": "[Anti-personnel Laser] - Reduces 300 MP of the enemy that took the DMG. [Siege Laser] - Reduces Mana Cost by 1."
+        "dark": "[Anti-personnel Laser] - Reduces 300 MP of the enemy that took the DMG. [Siege Laser] - Reduces Mana Cost by 1.",
+        "linked": {
+          "name": "Siege Laser",
+          "description": "Attacks the target inflicting {0} M.DMG. Crit DMG is applied {1}% higher."
+        }
       },
       "s2": {
         "name": "Wide-area Cannon",
@@ -7473,6 +7485,10 @@
             "[Wide-area Cannon] Increases DMG by 50% and reduces ATK Spd of the target by 250 for 10 sec. [Focused Fire] Reduces Cooldown by 5% upon a Crit Hit and recovers 150 Mana."
           ],
           "story": "A recording device and processor that works as Kara's brain. It's a treasure that is filled with ancient wisdom, and its capacity far surpasses that of humans. Despite being such an incredible device, it has a hard time recording and replicating emotions."
+        },
+        "linked": {
+          "name": "Focused Fire",
+          "description": "Attacks a random target 15 times, inflicting a total of {0} M.DMG, and inflicts Focused Fire for {1} seconds. Inflicts {2} extra M.DMG with each stack of Focused Fire on the enemy. Focused Fire can be stacked up to 30 times."
         }
       },
       "s3": {

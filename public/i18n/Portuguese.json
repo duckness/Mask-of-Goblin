@@ -6753,6 +6753,10 @@
             "[Fluxo Encantador] Após um movimento, absorve DAN equivalente a 400% do ATQ por 3 seg., cria um escudo imune a CM e reduz em 1 o custo de Mana de [Emboscada Sedutora]."
           ],
           "story": "Um baú contendo os artefatos necessários para rituais de adoração ao Dragão da Água. Alguns ornamentos colocados sobre ele foram feitos com ‘Lápis-lazúli’, uma pedra que representa a total plenitude. É o objeto mais querido pelo pai de Laudia, e só é cedido àqueles capazes de liderar toda a tribo Trovatia."
+        },
+        "linked": {
+          "name": "Emboscada Sedutora",
+          "description": "Ataca 3 vezes o alvo inimigo, causando um total de {0} de DAN M. Causa {1} de DAN M. extra em inimigos Chefes e inimigos sob efeito de Encanto."
         }
       },
       "s3": {
@@ -6776,6 +6780,10 @@
             "[Dança do Deserto] Reduz o tempo de recarga de habilidades em 30% e aumenta a Penetração de DEF em 250 durante a ativação da habilidade."
           ],
           "story": "Um lendário véu cedido somente à melhor dançarina do continente. Realizar uma dança com ele é capaz de hipnotizar os espectadores. Laudia usou o véu para hipnotizar os inimigos com a sua dança sedutora e conseguiu tudo o que queria."
+        },
+        "linked": {
+          "name": "Aceleração Ofuscante",
+          "description": "Ganha imunidade a CM por {0} seg. e a Vel de ATQ aumenta em {1}."
         }
       },
       "s4": {
@@ -7450,7 +7458,11 @@
           "2": "Aumenta o DAN em {0}%."
         },
         "light": "[Laser Antipessoal] - Recupera 200 de PM ao realizar um Acerto Crít. [Laser de Cerco] - Aumenta o Custo de Mana em 1 e o DAN em 100%.",
-        "dark": "[Laser Antipessoal] - Reduz 300 de PM do inimigo que levou o DAN. [Laser de Cerco] - Reduz o Custo de Mana em 1."
+        "dark": "[Laser Antipessoal] - Reduz 300 de PM do inimigo que levou o DAN. [Laser de Cerco] - Reduz o Custo de Mana em 1.",
+        "linked": {
+          "name": "Laser de Cerco",
+          "description": "Ataca o alvo, causando {0} de DAN M. O DAN Crít é aplicado com {1}% de aumento."
+        }
       },
       "s2": {
         "name": "Canhão de Dispersão",
@@ -7473,6 +7485,10 @@
             "[Canhão de Dispersão] Aumenta o DAN em 50% e reduz a Vel de ATQ do alvo em 250 por 10 seg. [Fogo Concentrado] Reduz o tempo de Recarga em 5% ao realizar um Acerto Crít. e recupera 150 de Mana."
           ],
           "story": "Um dispositivo de gravação e processador que funciona como cérebro para Kara. É um tesouro cheio de sabedoria ancestral, e sua capacidade ultrapassa de longe aquela dos humanos. Apesar de ser um dispositivo incrível, ele tem dificuldade de registrar e replicar emoções."
+        },
+        "linked": {
+          "name": "Fogo Concentrado",
+          "description": "Ataca 15 vezes um alvo aleatório, causando um total de {0} de DAN M. e infligindo Fogo Concentrado por {1} segundos. Causa {2} de DAN M. extra com cada Foco Concentrado acumulado no inimigo. Fogo Concentrado pode acumular até 30 vezes."
         }
       },
       "s3": {

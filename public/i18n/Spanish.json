@@ -6753,6 +6753,10 @@
             "[Corriente de encantos] Después del movimiento, absorbe Daño equivalente al 400 % del Ataque durante 3 segundos. Luego, crea un escudo inmune al Control de multitudes, y el costo de Mana de [Emboscada atrayente] disminuye en 1."
           ],
           "story": "Un cofre que contiene los artefactos necesarios para los rituales religiosos del dragón del agua. Algunos ornamentos que contiene fueron elaborados con “lapislázuli celeste”, una gema que representa la plenitud total. Es el objeto más preciado que atesora el padre de Laudia, y solo se entrega a aquellos que son capaces de guiar a toda la tribu Trovatia."
+        },
+        "linked": {
+          "name": "Emboscada atrayente",
+          "description": "Ataca al enemigo principal 3 veces, lo que provoca {0} de Daño mágico. Inflige {1} de Daño mágico adicional a los enemigos Jefe y a los enemigos afectados por Encanto."
         }
       },
       "s3": {
@@ -6776,6 +6780,10 @@
             "[Danza del desierto] El Tiempo de reutilización de la habilidad disminuye en un 30 % y la Penetración de defensa aumenta en 250 durante la activación de la habilidad."
           ],
           "story": "Un velo legendario que solo podía usar la mejor bailarina del continente. Si se baila con el velo puesto, los espectadores pueden quedar hipnotizados. Laudia lo utilizaba para encantar a sus enemigos con movimientos seductores y conseguir todo lo que deseaba."
+        },
+        "linked": {
+          "name": "Aceleración deslumbrante",
+          "description": "Gana inmunidad al Control de multitudes durante {0} segundo(s) y la Velocidad de ataque aumenta en {1}."
         }
       },
       "s4": {
@@ -7450,7 +7458,11 @@
           "2": "Daño Aumenta en {0}%."
         },
         "light": "[Láser antipersonal] - Recupera 200 de PM en un Golpe crítico. [Láser de asedio] - Aumenta el Costo de Mana en 1 y el Daño en un 100%.",
-        "dark": "[Láser antipersonal] - Reduce 300 de PM del enemigo que recibió el Daño. [Láser de asedio] - Reduce el costo de Mana en 1."
+        "dark": "[Láser antipersonal] - Reduce 300 de PM del enemigo que recibió el Daño. [Láser de asedio] - Reduce el costo de Mana en 1.",
+        "linked": {
+          "name": "Láser de asedio",
+          "description": "Ataca al objetivo e inflige {0} de Daño mágico. Se aplica Daño crítico con un aumento del {1}%."
+        }
       },
       "s2": {
         "name": "Cañón de área extensa",
@@ -7473,6 +7485,10 @@
             "[Cañón de área amplia] Aumenta el Daño en un 50% y reduce la Velocidad de ataque del objetivo en 250 durante 10 segundos. [Fuego concentrado] Reduce el Tiempo de reutilización en un 5% con un Golpe crítico y recupera 150 de Mana."
           ],
           "story": "Un dispositivo de registro y procesador que funciona como el cerebro de Kara. Es un tesoro repleto de sabiduría ancestral, y su capacidad supera ampliamente la de los humanos. A pesar de ser un dispositivo tan increíble, tiene dificultades para registrar y copiar emociones."
+        },
+        "linked": {
+          "name": "Tiro concentrado",
+          "description": "Ataca a un objetivo aleatorio 15 veces, lo que inflige un total de {0} de Daño mágico, e inflige Fuego concentrado durante {1} segundos. Inflige {2} de Daño mágico adicional con cada pila de Fuego concentrado al enemigo. El efecto Fuego concentrado se puede acumular hasta 30 veces."
         }
       },
       "s3": {

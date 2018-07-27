@@ -6753,6 +6753,10 @@
             "[Verzauberndes Fließen] Absorbiert nach Bewegung 3 Sek. lang Schaden in Höhe von 400% des ANG. Danach wird ein Schild erschaffen, der immun gegen Statuseffekte ist und die Manakosten von [Verlockender Hinterhalt] werden um 1 gesenkt."
           ],
           "story": "Eine Truhe mit Artefakten, die für Rituale zur Anbetung des Wasserdrachen benötigt werden. Ein Teil des Schmucks darauf ist aus „Azurblauem Lapislazuli“ gefertigt, einem Edelstein, der Fülle verkörpert. Sie ist der größte Schatz von Laudias Vater und wird nur denen verliehen, welche den ganzen Trovatia-Stamm führen können."
+        },
+        "linked": {
+          "name": "Verlockender Hinterhalt",
+          "description": "Greift das Ziel dreimal an und verursacht insgesamt {0} M.Schaden. Verursacht an Bossgegnern und bezauberten Gegnern zusätzlich {1} M.Schaden."
         }
       },
       "s3": {
@@ -6776,6 +6780,10 @@
             "[Tanz der Wüste] Bei Skill-Aktivierung wird der Skill-Cooldown um 30% gesenkt und Durchdringung um 250 erhöht."
           ],
           "story": "Ein legendärer Schleier, der nur der besten Tänzerin auf dem Kontinent verliehen wird. Wenn mit ihm ein Tanz vollführt wird, werden alle Zuschauer bezaubert. Laudia setzte den Schleier mit ihrem betörenden Tanz ein und erreichte so alles, was sie wollte."
+        },
+        "linked": {
+          "name": "Blendende Beschleunigung",
+          "description": "Gewährt {0} Sek. lang Immunität gegen Statuseffekte und erhöht die Angriffsgeschw. um {1}."
         }
       },
       "s4": {
@@ -7450,7 +7458,11 @@
           "2": "Erhöht Schaden um {0}%."
         },
         "light": "[Antipersonenlaser] – Stellt bei Krit. Treffern 200 MP wieder her. [Belagerungslaser] – Erhöht die Manakosten um 1 und den Schaden um 100%.",
-        "dark": "[Antipersonenlaser] – Entzieht Feinden, die Schaden genommen haben, 300 MP. [Belagerungslaser] – Verringert die Manakosten um 1."
+        "dark": "[Antipersonenlaser] – Entzieht Feinden, die Schaden genommen haben, 300 MP. [Belagerungslaser] – Verringert die Manakosten um 1.",
+        "linked": {
+          "name": "Belagerungslaser",
+          "description": "Greift das Ziel an und verursacht {0} M.Schaden. Krit. Schaden wird um {1}% erhöht."
+        }
       },
       "s2": {
         "name": "Flächenkanone",
@@ -7473,6 +7485,10 @@
             "[Flächenkanone] Erhöht den Schaden um 50% und verringert 10 Sek. lang die ANG-Geschwindigkeit des Ziels um 250. [Fokus-Feuer] Verringert den Cooldown bei einem Krit. Treffer um 5% und stellt 150 Mana wieder her."
           ],
           "story": "Ein Aufnahmegerät und Prozessor, der als Karas Gehirn fungiert. In ihm steckt ein Sammelsurium alten Wissens und es ist weitaus aufnahmefähiger als das eines Menschen. Trotz dieser unglaublichen Funktionen hat es Probleme damit, Emotionen zu erkennen und zu zeigen."
+        },
+        "linked": {
+          "name": "Fokus-Feuer",
+          "description": "Greift ein zufälliges Ziel 15-mal an, verursacht insgesamt {0} M.Schaden und für {1} Sekunden Fokus-Feuer. Verursacht mit jedem Stapel von Fokus-Feuer {2} zusätzlichen M.Schaden am Feind. Fokus-Feuer kann bis zu 30-mal gestapelt werden."
         }
       },
       "s3": {

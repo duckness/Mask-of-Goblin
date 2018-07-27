@@ -6753,6 +6753,10 @@
             "[Flots enchanteurs] Après le déplacement, vous absorbez les DEG à hauteur de 400 % de l'ATQ pendant 3 sec, puis générez un bouclier qui vous confère l'immunité contre les contrôles. Le coût en mana d'[Embuscade engageante] est réduit de 1 point."
           ],
           "story": "Ce coffre contient les artéfacts nécessaires au rituel du dragon de l'eau. Il est orné de lapis-lazuli azur, une gemme qui symbolise la complétude. Le père de Laudia tient à ce trésor comme à la prunelle de ses yeux ; il n'est transmis qu'aux rares élus capables de diriger la tribu Trovatia."
+        },
+        "linked": {
+          "name": "Embuscade engageante",
+          "description": "Attaque 3 fois l'ennemi ciblé et lui inflige un total de {0}  points de DEG M. Inflige également {1}  points de DEG M supplémentaires aux boss et aux ennemis sous le charme."
         }
       },
       "s3": {
@@ -6776,6 +6780,10 @@
             "[Danse du désert] Le temps de recharge de la compétence est réduit de 30 % et la Pénétration DEF est augmentée de 250 points tant que la compétence est active."
           ],
           "story": "Ce voile mythique n'est remis qu'à la meilleure danseuse du continent. Lorsque l'on danse avec, les spectateurs sont comme hypnotisés. Laudia s'en sert pour envoûter ses ennemis et parvenir à ses fins lors de ses danses."
+        },
+        "linked": {
+          "name": "Accélération aveuglante",
+          "description": "Confère l'immunité contre les contrôles pendant {0}  sec et augmente la Vit ATQ de {1}  points."
         }
       },
       "s4": {
@@ -7450,7 +7458,11 @@
           "2": "DEG augmentés de {0}%."
         },
         "light": "[Laser antipersonnel] - Restaure 200 PM lors d'un coup critique. [Laser de siège] - Augmente le coût en mana de 1 point et les DEG de 100%.",
-        "dark": "[Laser antipersonnel] - Retire 300 PM à l'ennemi qui a subi les dégâts. [Laser de siège] - Réduit le coût en mana de 1 point."
+        "dark": "[Laser antipersonnel] - Retire 300 PM à l'ennemi qui a subi les dégâts. [Laser de siège] - Réduit le coût en mana de 1 point.",
+        "linked": {
+          "name": "Laser de siège",
+          "description": "Attaque la cible, infligeant {0} points de DEG M. Les DEG Crit sont {1}% plus élevés."
+        }
       },
       "s2": {
         "name": "Canon à large spectre",
@@ -7473,6 +7485,10 @@
             "[Canon à large spectre] Augmente les DEG de 50% et réduit la Vit ATQ de la cible de 250 points pendant 10 s. [Tir focalisé] À chaque coup critique, réduit le temps de recharge de 5% et restaure 150 points de mana."
           ],
           "story": "Processeur et enregistreur faisant office de cerveau pour Kara. C'est un véritable trésor imprégné de sagesse ancestrale, et sa capacité dépasse de loin celle de n'importe quel humain. Bien que cet appareil soit des plus sophistiqués, il peine à enregistrer et retranscrire les émotions."
+        },
+        "linked": {
+          "name": "Tir focalisé",
+          "description": "Attaque 15 fois une cible au hasard, infligeant un total de {0} points de DEG M ainsi que Tir focalisé pendant {1} secondes. Inflige à l'ennemi {2} points de DEG M supplémentaires à chaque charge de Tir focalisé. Tir focalisé peut être cumulé 30 fois."
         }
       },
       "s3": {
