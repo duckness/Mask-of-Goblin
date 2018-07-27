@@ -2,7 +2,7 @@
   <article id="hero" class="media">
     <figure class="media-left">
       <p class="image is-128x128">
-        <img :src="hero.image">
+        <lazyimg :src="hero.image" />
       </p>
     </figure>
     <div class="media-content">
@@ -41,6 +41,8 @@
 </template>
 
 <script>
+import LazyImg from "@/components/LazyImg.vue";
+
 export default {
   name: "HeroDesc",
   props: {
@@ -48,6 +50,9 @@ export default {
       type: Object,
       required: true
     }
+  },
+  components: {
+    lazyimg: LazyImg
   },
   computed: {
     linkWiki: function() {

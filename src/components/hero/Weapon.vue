@@ -2,7 +2,7 @@
   <article id="uw" class="media">
     <figure class="media-left">
       <p class="image is-128x128">
-        <img :src="weapon.image">
+        <lazyimg :src="weapon.image" />
       </p>
     </figure>
     <div class="media-content">
@@ -24,6 +24,7 @@
 
 <script>
 import { mapState, mapGetters } from "vuex";
+import LazyImg from "@/components/LazyImg.vue";
 
 export default {
   name: "Weapon",
@@ -32,6 +33,9 @@ export default {
       type: Object,
       required: true
     }
+  },
+  components: {
+    lazyimg: LazyImg
   },
   data() {
     return {

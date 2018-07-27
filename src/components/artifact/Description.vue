@@ -2,7 +2,7 @@
   <article id="artifact-description" class="media">
     <figure class="media-left">
       <p class="image is-128x128">
-        <img :src="artifact.image">
+        <lazyimg :src="artifact.image" />
       </p>
     </figure>
     <div class="media-content">
@@ -21,9 +21,13 @@
 
 <script>
 import { mapState, mapGetters } from "vuex";
+import LazyImg from "@/components/LazyImg.vue";
 
 export default {
   name: "ArtifactDescription",
+  components: {
+    lazyimg: LazyImg
+  },
   data() {
     return {
       additionalInfo: ""

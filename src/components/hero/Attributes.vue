@@ -2,7 +2,7 @@
   <article id="hero-attributes" class="media">
     <figure class="media-left">
       <p class="image is-128x128">
-        <img :src="attributes.image">
+        <lazyimg :src="attributes.image" />
       </p>
     </figure>
     <div class="media-content">
@@ -78,6 +78,7 @@
 
 <script>
 import { softcap } from "@/mixins/softcap";
+import LazyImg from "@/components/LazyImg.vue";
 
 export default {
   name: "Attributes",
@@ -91,6 +92,9 @@ export default {
       type: Object,
       required: true
     }
+  },
+  components: {
+    lazyimg: LazyImg
   },
   data: function() {
     return {

@@ -3,7 +3,7 @@
     <article class="media">
       <figure class="media-left">
         <p class="image is-128x128">
-          <img :src="skill.image">
+          <lazyimg :src="skill.image" />
         </p>
       </figure>
       <div class="media-content">
@@ -38,7 +38,7 @@
     <article v-if="'linked' in skill" class="media">
       <figure class="media-left">
         <p class="image is-128x128">
-          <img :src="skill.linked.image">
+          <lazyimg :src="skill.linked.image" />
         </p>
       </figure>
       <div class="media-content">
@@ -84,12 +84,14 @@
 <script>
 import Treasure from "./Treasure.vue";
 import Orb from "@/components/svg/Orb.vue";
+import LazyImg from "@/components/LazyImg.vue";
 
 export default {
   name: "Skill",
   components: {
     treasure: Treasure,
-    orb: Orb
+    orb: Orb,
+    lazyimg: LazyImg
   },
   props: {
     skill: {
