@@ -35,13 +35,17 @@ export default {
       get() {
         return this.languages[this.$store.state.locale];
       },
-      set(newLocale) {
-        this.$store.commit(
+      async set(newLocale) {
+        const langload = this.$loading.open({
+          container: null
+        });
+        await this.$store.dispatch(
           "setLocale",
           Object.keys(this.languages).find(
             key => this.languages[key] === newLocale
           )
         );
+        langload.close();
       }
     }
   }

@@ -148,7 +148,13 @@ const getters = {
   }
 };
 
-const actions = {};
+const actions = {
+  async setLocale({ commit }, locale) {
+    locale = h.parseLocale(locale);
+    await h.changeLocale(locale);
+    commit("setLocale", locale);
+  }
+};
 
 const mutations = {
   setArtifactID: function(state, newID) {
@@ -157,9 +163,7 @@ const mutations = {
   setHeroID: function(state, newID) {
     state.heroID = newID;
   },
-  setLocale: async function(state, locale) {
-    locale = h.parseLocale(locale);
-    await h.changeLocale(locale);
+  setLocale: function(state, locale) {
     Vue.i18n.set(locale);
     state.locale = locale;
   },
@@ -328,7 +332,7 @@ Vue.use(vuexI18n.plugin, store, {
 
 Vue.i18n.add("en", lang.en.strings);
 Vue.i18n.set("en");
-store.commit("setLocale", navigator.language);
 Vue.i18n.fallback("en");
+store.dispatch("setLocale", navigator.language);
 
 export default store;
