@@ -17,6 +17,7 @@
 </template>
 
 <script>
+import { mapGetters } from "vuex";
 import Navbar from "./components/layout/Navbar.vue";
 import MogFooter from "./components/layout/MogFooter.vue";
 
@@ -27,9 +28,45 @@ export default {
     mogfooter: MogFooter
   },
   computed: {
-    locale: {
-      get() {
-        return this.$store.state.locale;
+    ...mapGetters(["getHero", "getArtifact"]),
+    rootUrl: function() {
+      if (window.location.port === "") {
+        return window.location.protocol + "//" + window.location.hostname;
+      } else {
+        return (
+          window.location.protocol +
+          "//" +
+          window.location.hostname +
+          ":" +
+          window.location.port
+        );
+      }
+    },
+    meta: function() {
+      if (this.$route.name === "hero") {
+        return {
+          image: this.rootUrl + this.getHero.image,
+          title: this.getHero.name,
+          desc: this.getHero.description
+        };
+      } else if (this.$route.name === "artifact") {
+        return {
+          image: this.rootUrl + this.getArtifact.image,
+          title: this.getArtifact.name,
+          desc: this.getArtifact.description[0]
+        };
+      } else if (this.$route.name === "calc") {
+        return {
+          image: "",
+          title: "",
+          desc: ""
+        };
+      } else {
+        return {
+          image: "",
+          title: "",
+          desc: ""
+        };
       }
     }
   },
@@ -38,7 +75,25 @@ export default {
       htmlAttrs: {
         lang: this.locale
       },
-      link: [{ rel: "shortcut icon", type: "image/png", href: "/favicon.png" }]
+      meta: [
+        { name: "description", content: this.meta.desc },
+        { property: "og:title", content: this.meta.title },
+        { property: "og:type", content: "website" },
+        { property: "og:url", content: window.location.href },
+        { property: "og:image", content: this.meta.image },
+        { property: "og:description", content: this.meta.desc },
+        { property: "og:locale", content: "en" },
+        { property: "og:locale:alternate", content: "zh" },
+        { property: "og:locale:alternate", content: "fr" },
+        { property: "og:locale:alternate", content: "de" },
+        { property: "og:locale:alternate", content: "ja" },
+        { property: "og:locale:alternate", content: "ko" },
+        { property: "og:locale:alternate", content: "pt" },
+        { property: "og:locale:alternate", content: "ru" },
+        { property: "og:locale:alternate", content: "es" },
+        { property: "og:locale:alternate", content: "th" },
+        { property: "og:locale:alternate", content: "vn" }
+      ]
     };
   },
   watch: {
@@ -46,9 +101,9 @@ export default {
       // make sure back button doesn't act funky
       if (from.name === to.name) {
         if (to.name === "hero") {
-          this.$store.state.heroID = to.params.id;
+          this.$store.commit("setHeroID", to.params.id);
         } else if (to.name === "artifact") {
-          this.$store.state.artifactID = to.params.id;
+          this.$store.commit("setArtifactID", to.params.id);
         }
       }
     }
@@ -56,9 +111,9 @@ export default {
   mounted() {
     this.$nextTick(() => {
       if (this.$route.name === "hero") {
-        this.$store.state.heroID = this.$route.params.id;
+        this.$store.commit("setHeroID", this.$route.params.id);
       } else if (this.$route.name === "artifact") {
-        this.$store.state.artifactID = this.$route.params.id;
+        this.$store.commit("setArtifactID", this.$route.params.id);
       }
     });
   }
