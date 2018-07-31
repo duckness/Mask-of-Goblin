@@ -16,15 +16,23 @@ export default new Router({
   routes: [
     {
       path: "/",
-      redirect: "/hero"
+      redirect: "/hero/1"
+    },
+    {
+      path: "/hero",
+      redirect: "/hero/1"
     },
     {
       path: "/artifact",
+      redirect: "/artifact/1"
+    },
+    {
+      path: "/artifact/:id",
       name: "artifact",
       component: Artifact
     },
     {
-      path: "/hero",
+      path: "/hero/:id",
       name: "hero",
       component: Hero
     },

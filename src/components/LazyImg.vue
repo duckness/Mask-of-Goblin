@@ -16,7 +16,7 @@ export default {
   data: function() {
     return {
       image: new Image(),
-      imgsrc: ""
+      imgsrc: this.src
     };
   },
   watch: {
@@ -29,17 +29,6 @@ export default {
       );
       this.image.src = newval;
     }
-  },
-  mounted() {
-    this.$nextTick(() => {
-      const loadingComponent = this.$loading.open({
-        container: this.$refs.loadimg
-      });
-      this.image.onload = () => (
-        (this.imgsrc = this.image.src), loadingComponent.close()
-      );
-      this.image.src = this.src;
-    });
   }
 };
 </script>

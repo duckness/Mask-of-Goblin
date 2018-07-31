@@ -39,9 +39,17 @@ export default {
         if (newID !== null) {
           switch (this.$route.name) {
             case "hero":
+              this.$router.push({
+                name: "hero",
+                params: { id: this.getHeroList[newID] }
+              });
               this.$store.commit("setHeroID", this.getHeroList[newID]);
               break;
             case "artifact":
+              this.$router.push({
+                name: "artifact",
+                params: { id: this.getArtifactList[newID] }
+              });
               this.$store.commit("setArtifactID", this.getArtifactList[newID]);
               break;
           }

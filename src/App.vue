@@ -40,6 +40,27 @@ export default {
       },
       link: [{ rel: "shortcut icon", type: "image/png", href: "/favicon.png" }]
     };
+  },
+  watch: {
+    $route(to, from) {
+      // make sure back button doesn't act funky
+      if (from.name === to.name) {
+        if (to.name === "hero") {
+          this.$store.state.heroID = to.params.id;
+        } else if (to.name === "artifact") {
+          this.$store.state.artifactID = to.params.id;
+        }
+      }
+    }
+  },
+  mounted() {
+    this.$nextTick(() => {
+      if (this.$route.name === "hero") {
+        this.$store.state.heroID = this.$route.params.id;
+      } else if (this.$route.name === "artifact") {
+        this.$store.state.artifactID = this.$route.params.id;
+      }
+    });
   }
 };
 </script>
