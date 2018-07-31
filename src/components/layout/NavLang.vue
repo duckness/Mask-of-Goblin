@@ -1,8 +1,8 @@
 <template>
   <b-dropdown v-model="locale">
     <a slot="trigger" class="navbar-item">
-      {{ locale }}
-      <b-icon icon="angle-down"/>
+      {{ locale }}&nbsp;
+      <icon name="angle-down"/>
     </a>
     <b-dropdown-item v-for="language in languages" :key="language.id" :value="language">
       {{ language }}
@@ -11,6 +11,8 @@
 </template>
 
 <script>
+import "vue-awesome/icons/angle-down";
+
 export default {
   data: function() {
     return {

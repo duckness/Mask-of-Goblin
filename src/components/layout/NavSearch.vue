@@ -5,14 +5,16 @@
     :open-on-focus="true"
     :placeholder="getPlaceholder"
     pack="fas"
-    icon="search"
+    icon="searchicon"
     @select="option => itemID = option">
     <template slot="empty">-</template>
   </b-autocomplete>
 </template>
 
 <script>
+import Vue from "vue";
 import { mapGetters } from "vuex";
+import Search from "../svg/Search.vue";
 
 export default {
   name: "NavSearch",
@@ -80,6 +82,11 @@ export default {
         }
       }
     }
+  },
+  mounted() {
+    this.$nextTick(() => {
+      new Vue(Search).$mount(".fa-searchicon");
+    });
   }
 };
 </script>
