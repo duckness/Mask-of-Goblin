@@ -12,10 +12,10 @@
       </div>
     </div>
     <div :class="{ 'is-active':isActive }" class="navbar-menu">
-      <router-link to="/hero" class="navbar-item">
+      <router-link :to="heroLink" class="navbar-item">
         {{ $t("ui.hero") }}
       </router-link>
-      <router-link to="/artifact" class="navbar-item">
+      <router-link :to="artifactLink" class="navbar-item">
         {{ $t("ui.artifact") }}
       </router-link>
       <router-link to="/calc" class="navbar-item">
@@ -31,6 +31,7 @@
 </template>
 
 <script>
+import { mapState } from "vuex";
 import Logo from "@/components/svg/Logo.vue";
 import NavLang from "./NavLang.vue";
 import NavSearch from "./NavSearch.vue";
@@ -49,6 +50,13 @@ export default {
     };
   },
   computed: {
+    ...mapState(["artifactID", "heroID"]),
+    artifactLink: function() {
+      return "/artifact/" + this.artifactID;
+    },
+    heroLink: function() {
+      return "/hero/" + this.heroID;
+    },
     isCalc: function() {
       return this.$route.name === "calc";
     }
