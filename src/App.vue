@@ -97,14 +97,12 @@ export default {
     };
   },
   watch: {
-    $route(to, from) {
+    $route(to) {
       // make sure back button doesn't act funky
-      if (from.name === to.name) {
-        if (to.name === "hero") {
-          this.$store.commit("setHeroID", to.params.id);
-        } else if (to.name === "artifact") {
-          this.$store.commit("setArtifactID", to.params.id);
-        }
+      if (to.name === "hero") {
+        this.$store.commit("setHeroID", to.params.id);
+      } else if (to.name === "artifact") {
+        this.$store.commit("setArtifactID", to.params.id);
       }
     }
   },
