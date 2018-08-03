@@ -13,6 +13,7 @@ Vue.use(Buefy, { defaultIconPack: "fas" });
 Vue.component("icon", Icon);
 
 export default new Router({
+  mode: "history",
   routes: [
     {
       path: "/",
