@@ -1,12 +1,12 @@
 <template>
   <div>
-    <herodesc :hero="hero"/>
-    <collapsed :title="'Attributes'"><attributes :attributes="hero.attributes" :auto="hero.auto"/></collapsed>
-    <collapsed :title="'Skill 1'"><skill :skill="hero.s1"/></collapsed>
-    <collapsed :title="'Skill 2'"><skill :skill="hero.s2"/></collapsed>
-    <collapsed :title="'Skill 3'"><skill :skill="hero.s3"/></collapsed>
-    <collapsed :title="'Skill 4'"><skill :skill="hero.s4"/></collapsed>
-    <weapon :weapon="hero.weapon"/>
+    <herodesc class="hero-section" :hero="hero"/>
+    <attributes class="hero-section" :attributes="hero.attributes" :auto="hero.auto"/>
+    <skill class="hero-section" :num="1" :skill="hero.s1"/>
+    <skill class="hero-section" :num="2" :skill="hero.s2"/>
+    <skill class="hero-section" :num="3" :skill="hero.s3"/>
+    <skill class="hero-section" :num="4" :skill="hero.s4"/>
+    <weapon class="hero-section" :weapon="hero.weapon"/>
     <options/>
   </div>
 </template>
@@ -14,7 +14,6 @@
 <script>
 import { mapGetters } from "vuex";
 import HeroDesc from "./HeroDesc.vue";
-import Collapsed from "./Collapsed.vue";
 import Attributes from "./Attributes.vue";
 import Skill from "./Skill.vue";
 import Weapon from "./Weapon.vue";
@@ -24,7 +23,6 @@ export default {
   name: "Hero",
   components: {
     herodesc: HeroDesc,
-    collapsed: Collapsed,
     attributes: Attributes,
     skill: Skill,
     weapon: Weapon,
@@ -37,3 +35,11 @@ export default {
   }
 };
 </script>
+
+<style>
+.media + .media {
+  border-top: unset;
+  margin-top: unset;
+  padding-top: unset;
+}
+</style>

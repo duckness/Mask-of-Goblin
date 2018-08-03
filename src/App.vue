@@ -2,12 +2,10 @@
   <div id="app">
     <navbar/>
     <section id="content" class="section">
-      <div class="container">
+      <div id="container" class="container">
         <div class="columns is-centered">
           <div class="column is-three-quarters">
-            <div class="box">
-              <router-view/>
-            </div>
+            <router-view/>
           </div>
         </div>
       </div>
@@ -19,12 +17,14 @@
 <script>
 import { mapGetters } from "vuex";
 import Navbar from "./components/layout/Navbar.vue";
+import NavMenu from "./components/layout/NavMenu.vue";
 import MogFooter from "./components/layout/MogFooter.vue";
 
 export default {
   name: "App",
   components: {
     navbar: Navbar,
+    navmenu: NavMenu,
     mogfooter: MogFooter
   },
   computed: {
@@ -108,10 +108,14 @@ export default {
   },
   mounted() {
     this.$nextTick(() => {
+      const anchor = this.$route.hash;
       if (this.$route.name === "hero") {
         this.$store.commit("setHeroID", this.$route.params.id);
       } else if (this.$route.name === "artifact") {
         this.$store.commit("setArtifactID", this.$route.params.id);
+      }
+      if (anchor && document.querySelector(anchor)) {
+        location.href = anchor;
       }
     });
   }
@@ -122,7 +126,7 @@ export default {
 @import "~buefy/lib/buefy.css";
 
 #app {
-  background-color: #f5f5f5;
+  background-color: white;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -159,5 +163,16 @@ export default {
 }
 .card-content {
   padding: 1.25rem 1.25rem 0rem;
+}
+.is-h3 {
+  border-bottom: 2px solid rgba(219, 219, 219, 0.5);
+  padding-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+.is-h4 {
+  color: gray;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 </style>

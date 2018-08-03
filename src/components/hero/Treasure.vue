@@ -7,8 +7,6 @@
     </figure>
     <div class="media-content">
       <div class="content">
-        <small class="subtitle is-6">{{ $t('ui.treasure') }}</small>
-        <br>
         <strong class="title is-5">{{ treasure.name }} </strong>
         <small class="subtitle is-6">({{ hp + ' ' + $t('ui.hp') }})</small>
         <br> {{ treasure.description[star] }}

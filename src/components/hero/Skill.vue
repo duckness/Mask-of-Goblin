@@ -1,102 +1,62 @@
 <template>
   <div>
-    <article class="media">
-      <figure class="media-left">
-        <p class="image is-128x128">
-          <lazyimg :src="skill.image" />
-        </p>
-      </figure>
-      <div class="media-content">
-        <div class="content">
-          <strong class="title is-5">{{ skill.name }}</strong>
-          <p>{{ skill.description }}</p>
-          <p>
-            <span v-if="'mana' in skill">
-              <strong>Mana Cost: </strong>
-              <span class="orbs" v-if="skill.mana > 0"><orb v-for="orb in skill.mana" :key="orb"/></span>
-              <span v-else>{{ skill.mana }}</span>
-            <br></span>
-            <span v-if="'cooldown' in skill && skill['cooldown'] !== null"><strong>Cooldown: </strong>{{ skill.cooldown }}s <span v-if="'cdstart' in skill">({{ skill.cdstart }})</span><br></span>
-          </p>
-            <!--span v-if="'buff' in skill"><strong>Buff Time: </strong>{{ skill.buff }}s<br></span>
-            <span v-if="'debuff' in skill">
-              <span v-if="isNaN(skill.debuff)"><strong>Debuff: </strong>{{ skill.debuff }}</span>
-              <span v-else><strong>Debuff Time: </strong>{{ skill.debuff }}s</span>
-              <br>
-            </span>
-            <span v-if="'tick' in skill"><strong>Tick Timer: </strong>{{ skill.tick }}s <span v-if="'tickInfo' in skill">({{ skill.tickInfo }})</span><br></span>
-            <span v-if="'animation' in skill"><strong>Animation Time: </strong>{{ skill.animation }}s<br></span>
-            <span v-if="'cast' in skill"><strong>Castbar Time: </strong>{{ skill.cast }}s<br></span>
-            <span v-if="'freeze' in skill"><strong>Solo/Freeze Time: </strong>{{ skill.freeze }}s<br></span>
-            <span v-if="'castRange' in skill"><strong>Max Cast Range: </strong>{{ skill.castRange }} <span v-if="'castRangeType' in skill">({{ skill.castRangeType }})</span><br></span>
-            <span v-if="'skillRange' in skill"><strong>Skill Range: </strong>{{ skill.skillRange }} <span v-if="'skillRangeType' in skill">({{ skill.skillRangeType }})</span><br></span>
-            <span v-if="'aoe' in skill"><strong>Skill AOE: </strong>{{ skill.aoe }} <span v-if="'aoeInfo' in skill">({{ skill.aoeInfo }})</span><br></span>
-          </p-->
-        </div>
-      </div>
-    </article>
-    <article v-if="'linked' in skill" class="media">
-      <figure class="media-left">
-        <p class="image is-128x128">
-          <lazyimg :src="skill.linked.image" />
-        </p>
-      </figure>
-      <div class="media-content">
-        <div class="content">
-          <strong class="title is-5">{{ skill.linked.name }}</strong>
-          <p>{{ skill.linked.description }}</p>
-        </div>
-      </div>
-    </article>
-    <article class="media">
-      <figure class="media-left">
-        <p class="image is-128x128" />
-      </figure>
-      <div class="media-content">
-        <div class="content">
-          <div class="columns">
-            <div class="column content">
-              <label class="label no-margin-bottom">Books</label>
-              <ol class="no-margin-ol">
-                <li v-for="book in skill.books" :key="book">{{ book }}</li>
-              </ol>
-            </div>
-            <div class="column content">
-              <p>
-                <label class="label no-margin-bottom">T3 Light</label>
-                <span>{{ skill.transcendence.light }}</span>
-              </p>
-            </div>
-            <div class="column content">
-              <p>
-                <label class="label no-margin-bottom">T3 Dark</label>
-                <span>{{ skill.transcendence.dark }}</span>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </article>
-    <treasure v-if="'treasure' in skill" :treasure="skill.treasure"/>
+    <sksect>
+      <anchoritem :to="skillId" :header="3">{{ skillFull }}</anchoritem>
+      <skilldesc :skill="skill"/>
+    </sksect>
+    <sksect v-if="'linked' in skill">
+      <anchoritem :to="skillId + 'linked'" :header="4">Linked</anchoritem>
+      <skilldesc :skill="skill.linked"/>
+    </sksect>
+    <sksect>
+      <anchoritem :to="skillId + 't3'" :header="4">Transcendence 3</anchoritem>
+      <transcendence :light="skill.transcendence.light" :dark="skill.transcendence.dark"/>
+    </sksect>
+    <sksect>
+      <anchoritem :to="skillId + 'books'" :header="4">Books</anchoritem>
+      <skillbooks :books="skill.books"/>
+    </sksect>
+    <sksect v-if="'treasure' in skill">
+      <anchoritem :to="skillId + 'ut'" :header="4">{{ $t('ui.treasure') }}</anchoritem>
+      <treasure :treasure="skill.treasure"/>
+    </sksect>
   </div>
 </template>
 
 <script>
+import SkillSection from "./SkillSection.vue";
+import AnchorItem from "@/components/anchor/Item.vue";
+import SkillDesc from "./SkillDesc.vue";
+import Transcendence from "./Transcendence.vue";
+import Skillbooks from "./Skillbooks.vue";
 import Treasure from "./Treasure.vue";
-import Orb from "@/components/svg/Orb.vue";
-import LazyImg from "@/components/LazyImg.vue";
 
 export default {
   name: "Skill",
   components: {
-    treasure: Treasure,
-    orb: Orb,
-    lazyimg: LazyImg
+    sksect: SkillSection,
+    anchoritem: AnchorItem,
+    skilldesc: SkillDesc,
+    transcendence: Transcendence,
+    skillbooks: Skillbooks,
+    treasure: Treasure
   },
   props: {
     skill: {
       type: Object,
       required: true
+    },
+    num: {
+      type: Number,
+      required: true
+    }
+  },
+  computed: {
+    skillId: function() {
+      return "s" + this.num;
+    },
+    skillFull: function() {
+      return "Skill " + this.num;
     }
   }
 };
