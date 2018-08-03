@@ -41,6 +41,10 @@ export default new Router({
       path: "/calc",
       name: "calc",
       component: Softcap
+    },
+    {
+      path: "*",
+      redirect: "/hero/1"
     }
   ]
 });
