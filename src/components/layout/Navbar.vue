@@ -22,7 +22,7 @@
         Calc
       </router-link>
       <div v-if="!isCalc" class="navbar-end">
-        <div class="navbar-item is-hidden-tablet">
+        <div v-if="this.$route.name === 'hero'" class="navbar-item is-hidden-tablet">
           <options/>
         </div>
         <div class="navbar-item">
