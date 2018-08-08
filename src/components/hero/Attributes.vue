@@ -1,6 +1,6 @@
 <template>
   <div>
-    <anchoritem to="attrs" :header="3">Attributes</anchoritem>
+    <anchoritem :header="3" to="attrs">Attributes</anchoritem>
     <div class="media-content">
       <div class="content">
         <div class="columns">
@@ -8,18 +8,18 @@
             <label class="label">{{ $t('ui.mpatk') }}</label>
             <div class="field ">
               <div class="control is-expanded">
-                <input class="input" type="number" v-model.number="mpatkValue">
+                <input v-model.number="mpatkValue" class="input" type="number">
               </div>
             </div>
             <label class="label">{{ $t('ui.aspd') }}</label>
             <div class="field ">
               <div class="control is-expanded">
-                <input class="input" type="number" v-model.number="aspdValue">
+                <input v-model.number="aspdValue" class="input" type="number">
               </div>
             </div>
           </div>
           <div class="column is-three-quarters">
-              <table class="table is-hoverable is-fullwidth">
+            <table class="table is-hoverable is-fullwidth">
               <thead>
                 <th>Type</th>
                 <th>Value</th>
@@ -74,6 +74,10 @@ import AnchorItem from "@/components/anchor/Item.vue";
 
 export default {
   name: "Attributes",
+  components: {
+    anchoritem: AnchorItem,
+    lazyimg: LazyImg
+  },
   mixins: [softcap],
   props: {
     attributes: {
@@ -84,10 +88,6 @@ export default {
       type: Object,
       required: true
     }
-  },
-  components: {
-    anchoritem: AnchorItem,
-    lazyimg: LazyImg
   },
   data: function() {
     return {
