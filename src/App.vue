@@ -1,11 +1,11 @@
 <template>
   <div id="app">
     <navbar />
-    <section 
-      id="content" 
+    <section
+      id="content"
       class="section">
-      <div 
-        id="container" 
+      <div
+        id="container"
         class="container">
         <div class="columns is-centered">
           <navmenu v-if="this.$route.name === 'hero'" />
@@ -127,7 +127,32 @@ export default {
 </script>
 
 <style lang="scss">
-@import "~buefy/lib/buefy.css";
+@import "~bulma/sass/utilities/_all";
+
+$primary: #8c67ef;
+$primary-invert: findColorInvert($primary);
+$twitter: #4099ff;
+$twitter-invert: findColorInvert($twitter);
+
+$colors: (
+  "white": ($white, $black),
+  "black": ($black, $white),
+  "light": ($light, $light-invert),
+  "dark": ($dark, $dark-invert),
+  "primary": ($primary, $primary-invert),
+  "info": ($info, $info-invert),
+  "success": ($success, $success-invert),
+  "warning": ($warning, $warning-invert),
+  "danger": ($danger, $danger-invert),
+  "twitter": ($twitter, $twitter-invert)
+);
+
+$link: $primary;
+$link-invert: $primary-invert;
+$link-focus-border: $primary;
+
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
 
 #app {
   background-color: white;

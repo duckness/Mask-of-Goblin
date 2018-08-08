@@ -9,7 +9,7 @@ import Softcap from "@/components/calculators/Softcap.vue";
 
 Vue.use(Router);
 Vue.use(Meta);
-Vue.use(Buefy, { defaultIconPack: "fas" });
+Vue.use(Buefy);
 Vue.component("icon", Icon);
 
 export default new Router({
