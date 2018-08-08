@@ -1,10 +1,15 @@
 <template>
   <b-dropdown v-model="locale">
-    <a slot="trigger" class="navbar-item">
+    <a 
+      slot="trigger" 
+      class="navbar-item">
       {{ locale }}&nbsp;
-      <icon name="angle-down"/>
+      <icon name="angle-down" />
     </a>
-    <b-dropdown-item v-for="language in languages" :key="language.id" :value="language">
+    <b-dropdown-item 
+      v-for="language in languages" 
+      :key="language.id" 
+      :value="language">
       {{ language }}
     </b-dropdown-item>
   </b-dropdown>

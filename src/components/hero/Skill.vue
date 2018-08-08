@@ -1,24 +1,36 @@
 <template>
   <div>
     <sect>
-      <anchoritem :to="skillId" :header="3">{{ skillFull }}</anchoritem>
-      <skilldesc :skill="skill"/>
+      <anchoritem 
+        :to="skillId" 
+        :header="3">{{ skillFull }}</anchoritem>
+      <skilldesc :skill="skill" />
     </sect>
     <sect v-if="'linked' in skill">
-      <anchoritem :to="skillId + 'linked'" :header="4">Linked</anchoritem>
-      <skilldesc :skill="skill.linked"/>
+      <anchoritem 
+        :to="skillId + 'linked'" 
+        :header="4">Linked</anchoritem>
+      <skilldesc :skill="skill.linked" />
     </sect>
     <sect>
-      <anchoritem :to="skillId + 't3'" :header="4">Transcendence 3</anchoritem>
-      <transcendence :light="skill.transcendence.light" :dark="skill.transcendence.dark"/>
+      <anchoritem 
+        :to="skillId + 't3'" 
+        :header="4">Transcendence 3</anchoritem>
+      <transcendence 
+        :light="skill.transcendence.light" 
+        :dark="skill.transcendence.dark" />
     </sect>
     <sect>
-      <anchoritem :to="skillId + 'books'" :header="4">Books</anchoritem>
-      <skillbooks :books="skill.books"/>
+      <anchoritem 
+        :to="skillId + 'books'" 
+        :header="4">Books</anchoritem>
+      <skillbooks :books="skill.books" />
     </sect>
     <sect v-if="'treasure' in skill">
-      <anchoritem :to="skillId + 'ut'" :header="4">{{ $t('ui.treasure') }}</anchoritem>
-      <treasure :treasure="skill.treasure"/>
+      <anchoritem 
+        :to="skillId + 'ut'" 
+        :header="4">{{ $t('ui.treasure') }}</anchoritem>
+      <treasure :treasure="skill.treasure" />
     </sect>
   </div>
 </template>

@@ -1,7 +1,7 @@
 <template>
   <div>
-    <description/>
-    <options/>
+    <description />
+    <options />
   </div>
 </template>
 

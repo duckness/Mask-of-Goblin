@@ -2,31 +2,46 @@
   <nav class="navbar">
     <div class="navbar-brand">
       <div class="navbar-item">
-        <logo/>
+        <logo />
       </div>
-      <lang/>
-      <div :class="{ 'is-active':isActive }" class="navbar-burger burger" @click="isActive = !isActive">
-        <span/>
-        <span/>
-        <span/>
+      <lang />
+      <div 
+        :class="{ 'is-active':isActive }" 
+        class="navbar-burger burger" 
+        @click="isActive = !isActive">
+        <span />
+        <span />
+        <span />
       </div>
     </div>
-    <div :class="{ 'is-active':isActive }" class="navbar-menu">
-      <router-link :to="heroLink" class="navbar-item">
+    <div 
+      :class="{ 'is-active':isActive }" 
+      class="navbar-menu">
+      <router-link 
+        :to="heroLink" 
+        class="navbar-item">
         {{ $t("ui.hero") }}
       </router-link>
-      <router-link :to="artifactLink" class="navbar-item">
+      <router-link 
+        :to="artifactLink" 
+        class="navbar-item">
         {{ $t("ui.artifact") }}
       </router-link>
-      <router-link to="/calc" class="navbar-item">
+      <router-link 
+        to="/calc" 
+        class="navbar-item">
         Calc
       </router-link>
-      <div v-if="!isCalc" class="navbar-end">
-        <div v-if="this.$route.name === 'hero'" class="navbar-item is-hidden-tablet">
-          <options/>
+      <div 
+        v-if="!isCalc" 
+        class="navbar-end">
+        <div 
+          v-if="this.$route.name === 'hero'" 
+          class="navbar-item is-hidden-tablet">
+          <options />
         </div>
         <div class="navbar-item">
-          <search/>
+          <search />
         </div>
       </div>
     </div>

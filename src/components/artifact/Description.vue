@@ -1,5 +1,7 @@
 <template>
-  <article id="artifact-description" class="media">
+  <article 
+    id="artifact-description" 
+    class="media">
     <figure class="media-left">
       <p class="image is-128x128">
         <lazyimg :src="artifact.image" />
@@ -9,7 +11,9 @@
       <div class="content">
         <strong class="title is-4">{{ artifact.name }}</strong>
         <br> {{ artifact.description[star] }}
-        <div v-if="additionalInfo !== ''" class="content is-small">
+        <div 
+          v-if="additionalInfo !== ''" 
+          class="content is-small">
           <strong class="is-6">Notes</strong>
           <br>
           <span>{{ additionalInfo }}</span>

@@ -1,5 +1,7 @@
 <template>
-  <icon name="mogLogo" class="moglogo"/>
+  <icon 
+    name="mogLogo" 
+    class="moglogo" />
 </template>
 
 <script>

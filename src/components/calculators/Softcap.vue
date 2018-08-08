@@ -5,7 +5,10 @@
         <label class="label">Initial Stat Value:</label>
         <div class="field ">
           <div class="control is-expanded">
-            <input v-model.number="istat" class="input" type="number">
+            <input 
+              v-model.number="istat" 
+              class="input" 
+              type="number">
           </div>
         </div>
       </div>
@@ -64,7 +67,7 @@
 import { softcap } from "@/mixins/softcap";
 
 export default {
-  name: "softcap",
+  name: "Softcap",
   mixins: [softcap],
   data: function() {
     return {

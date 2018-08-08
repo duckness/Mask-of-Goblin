@@ -1,5 +1,7 @@
 <template>
-  <article id="hero" class="media">
+  <article 
+    id="hero" 
+    class="media">
     <figure class="media-left">
       <p class="image is-128x128">
         <lazyimg :src="hero.image" />
@@ -19,7 +21,9 @@
           <div class="column content">
             <label class="label no-margin-bottom">T5 Light</label>
             <span>{{ hero.t5.light }}</span>
-            <div v-if="false" class="content is-small">
+            <div 
+              v-if="false" 
+              class="content is-small">
               <strong class="is-6">Notes</strong>
               <br>
               <span>{{ hero.t5.lightInfo }}</span>
@@ -28,7 +32,9 @@
           <div class="column content">
             <label class="label no-margin-bottom">T5 Dark</label>
             <span>{{ hero.t5.dark }}</span>
-            <div v-if="false" class="content is-small">
+            <div 
+              v-if="false" 
+              class="content is-small">
               <strong class="is-6">Notes</strong>
               <br>
               <span>{{ hero.t5.darkInfo }}</span>

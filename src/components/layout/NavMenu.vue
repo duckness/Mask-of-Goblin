@@ -4,13 +4,23 @@
       <p class="menu-label">
         {{ nav.name }}
       </p>
-      <ul v-if="nav.type === 'hero'" class="menu-list">
-        <options :size="'is-small'" rounded/>
+      <ul
+        v-if="nav.type === 'hero'"
+        class="menu-list">
+        <options
+          :size="'is-small'"
+          rounded />
         <br>
-        <li v-for="i in nav.items" :key="i.id" class="nav-item">
+        <li
+          v-for="i in nav.items"
+          :key="i.id"
+          class="nav-item">
           <a :href="'#' + i.id">{{ i.name }}</a>
           <ul v-if="'items' in i">
-            <li v-for="j in i.items" :key="j.id" class="nav-item">
+            <li
+              v-for="j in i.items"
+              :key="j.id"
+              class="nav-item">
               <a :href="'#' + j.id">{{ j.name }}</a>
             </li>
           </ul>

@@ -10,7 +10,9 @@
         <strong class="title is-5">{{ treasure.name }} </strong>
         <small class="subtitle is-6">({{ hp + ' ' + $t('ui.hp') }})</small>
         <br> {{ treasure.description[star] }}
-        <div v-if="additionalInfo !== ''" class="content is-small">
+        <div 
+          v-if="additionalInfo !== ''" 
+          class="content is-small">
           <strong class="is-6">Notes</strong>
           <br>
           <span>{{ additionalInfo }}</span>

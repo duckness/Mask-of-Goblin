@@ -12,7 +12,13 @@
         <p>
           <span v-if="'mana' in skill">
             <strong>Mana Cost: </strong>
-            <span v-if="skill.mana > 0" class="orbs"><orb v-for="orb in skill.mana" :key="orb"/></span>
+            <span
+              v-if="skill.mana > 0"
+              class="orbs">
+              <orb
+                v-for="orb in skill.mana"
+                :key="orb" />
+            </span>
             <span v-else>{{ skill.mana }}</span>
           <br></span>
           <span v-if="'cooldown' in skill && skill['cooldown'] !== null"><strong>Cooldown: </strong>{{ skill.cooldown }}s <span v-if="'cdstart' in skill">({{ skill.cdstart }})</span><br></span>

@@ -1,5 +1,7 @@
 <template>
-  <icon name="manaOrb" class="orb"/>
+  <icon 
+    name="manaOrb" 
+    class="orb" />
 </template>
 
 <script>

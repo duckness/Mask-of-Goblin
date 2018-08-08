@@ -1,17 +1,21 @@
 <template>
   <div id="app">
-    <navbar/>
-    <section id="content" class="section">
-      <div id="container" class="container">
+    <navbar />
+    <section 
+      id="content" 
+      class="section">
+      <div 
+        id="container" 
+        class="container">
         <div class="columns is-centered">
-          <navmenu v-if="this.$route.name === 'hero'"/>
+          <navmenu v-if="this.$route.name === 'hero'" />
           <div class="column is-three-quarters">
-            <router-view/>
+            <router-view />
           </div>
         </div>
       </div>
     </section>
-    <mogfooter/>
+    <mogfooter />
   </div>
 </template>
 

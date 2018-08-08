@@ -1,6 +1,6 @@
 <template>
   <div class="hero-section">
-    <slot/>
+    <slot />
   </div>
 </template>
 

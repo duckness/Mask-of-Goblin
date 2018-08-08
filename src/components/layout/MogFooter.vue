@@ -3,9 +3,15 @@
     <div class="container">
       <div class="content has-text-centered">
         <p>
-          <a id="github-link" href="https://github.com/duckness/Mask-of-Goblin"><icon id="github-logo" name="brands/github"/></a>
+          <a 
+            id="github-link" 
+            href="https://github.com/duckness/Mask-of-Goblin"><icon 
+              id="github-logo" 
+              name="brands/github" /></a>
           <br>
-          <span class="lightgrey"><em>Made with <icon id="heart-logo" name="heart"/> by duckness/TRAPPED</em></span>
+          <span class="lightgrey"><em>Made with <icon 
+            id="heart-logo" 
+            name="heart" /> by duckness/TRAPPED</em></span>
         </p>
       </div>
     </div>

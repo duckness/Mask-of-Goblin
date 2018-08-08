@@ -1,10 +1,23 @@
 <template>
-  <b-field id="star-selector-field" :custom-class="size">
+  <b-field 
+    id="star-selector-field" 
+    :custom-class="size">
     <p class="control">
-      <button :class="iconClass" class="button is-static">★</button>
+      <button 
+        :class="iconClass" 
+        class="button is-static">★</button>
     </p>
-    <b-select id="star-selector-input" v-model="star" :size="size" v-bind="$attrs" expanded @focus="scrollHandler()">
-      <option v-for="awakening in starLevel" :key="awakening.value" :value="awakening.value">{{ awakening.text }}</option>
+    <b-select 
+      id="star-selector-input" 
+      v-model="star" 
+      :size="size" 
+      v-bind="$attrs" 
+      expanded 
+      @focus="scrollHandler()">
+      <option 
+        v-for="awakening in starLevel" 
+        :key="awakening.value" 
+        :value="awakening.value">{{ awakening.text }}</option>
     </b-select>
   </b-field>
 </template>
