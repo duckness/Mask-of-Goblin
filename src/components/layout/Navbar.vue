@@ -21,7 +21,10 @@
       <router-link to="/calc" class="navbar-item">
         Calc
       </router-link>
-      <div v-if="!isCalc"  class="navbar-end">
+      <div v-if="!isCalc" class="navbar-end">
+        <div class="navbar-item is-hidden-tablet">
+          <options/>
+        </div>
         <div class="navbar-item">
           <search/>
         </div>
@@ -35,12 +38,14 @@ import { mapState } from "vuex";
 import Logo from "@/components/svg/Logo.vue";
 import NavLang from "./NavLang.vue";
 import NavSearch from "./NavSearch.vue";
+import Options from "@/components/hero/Options.vue";
 
 export default {
   components: {
     logo: Logo,
     lang: NavLang,
-    search: NavSearch
+    search: NavSearch,
+    options: Options
   },
   data() {
     return {
