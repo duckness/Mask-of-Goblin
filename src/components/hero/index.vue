@@ -1,12 +1,12 @@
 <template>
   <div>
-    <herodesc class="hero-section" :hero="hero"/>
-    <attributes class="hero-section" :attributes="hero.attributes" :auto="hero.auto"/>
+    <herodesc :hero="hero" class="hero-section"/>
+    <attributes :attributes="hero.attributes" :auto="hero.auto" class="hero-section"/>
     <skill :num="1" :skill="hero.s1"/>
     <skill :num="2" :skill="hero.s2"/>
     <skill :num="3" :skill="hero.s3"/>
     <skill :num="4" :skill="hero.s4"/>
-    <weapon class="hero-section" :weapon="hero.weapon"/>
+    <weapon :weapon="hero.weapon" class="hero-section"/>
   </div>
 </template>
 

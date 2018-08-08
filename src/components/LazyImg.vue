@@ -1,6 +1,6 @@
 <template>
   <div ref="loadimg">
-    <img :src="imgsrc" />
+    <img :src="imgsrc">
   </div>
 </template>
 

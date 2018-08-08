@@ -3,9 +3,9 @@
     <star-selector :size="size" v-bind="$attrs"/>
     <b-field :custom-class="size">
       <p class="control">
-        <button class="button is-static" :class="iconClass">{{ $t("ui.level") }}</button>
+        <button :class="iconClass" class="button is-static">{{ $t("ui.level") }}</button>
       </p>
-      <b-input v-model="level" type="number" :size="size" expanded v-bind="$attrs"/>
+      <b-input v-model="level" :size="size" v-bind="$attrs" type="number" expanded/>
     </b-field>
   </div>
 </template>
@@ -15,10 +15,8 @@ import StarSelector from "@/components/StarSelector.vue";
 
 export default {
   name: "HeroOptions",
-  data: function() {
-    return {
-      starselected: false
-    };
+  components: {
+    "star-selector": StarSelector
   },
   props: {
     size: {
@@ -27,8 +25,10 @@ export default {
       default: ""
     }
   },
-  components: {
-    "star-selector": StarSelector
+  data: function() {
+    return {
+      starselected: false
+    };
   },
   computed: {
     iconClass: function() {

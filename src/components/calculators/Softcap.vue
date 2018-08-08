@@ -5,7 +5,7 @@
         <label class="label">Initial Stat Value:</label>
         <div class="field ">
           <div class="control is-expanded">
-            <input class="input" type="number" v-model.number="istat">
+            <input v-model.number="istat" class="input" type="number">
           </div>
         </div>
       </div>
@@ -55,7 +55,7 @@
       <strong class="is-6">Notes</strong>
       <br>
       <span>For each stat, there is a maximum of 2 negative softcaps, 2 positive softcaps, and 2 hardcaps for maximum/minimum values.
-        <br>For brevity, only the first positive softcap is shown on the table.</span>
+      <br>For brevity, only the first positive softcap is shown on the table.</span>
     </div>
   </div>
 </template>

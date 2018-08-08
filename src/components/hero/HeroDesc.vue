@@ -45,14 +45,14 @@ import LazyImg from "@/components/LazyImg.vue";
 
 export default {
   name: "HeroDesc",
+  components: {
+    lazyimg: LazyImg
+  },
   props: {
     hero: {
       type: Object,
       required: true
     }
-  },
-  components: {
-    lazyimg: LazyImg
   },
   computed: {
     linkWiki: function() {

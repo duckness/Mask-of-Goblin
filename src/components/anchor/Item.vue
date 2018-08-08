@@ -1,8 +1,8 @@
 <template>
   <span class="container">
-    <a class="anchor" :id="to"></a>
-    <ah class="title header" :header="header">
-      <a class="anchor-link" :href="'#' + to">
+    <a :id="to" class="anchor"/>
+    <ah :header="header" class="title header">
+      <a :href="'#' + to" class="anchor-link">
         <icon class="anchor-icon is-hidden-mobile" name="link" />
         <slot />
       </a>

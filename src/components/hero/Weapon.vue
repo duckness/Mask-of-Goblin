@@ -1,6 +1,6 @@
 <template>
   <div>
-    <anchoritem to="uw" :header="3">{{ $t('ui.weapon') }}</anchoritem>
+    <anchoritem :header="3" to="uw">{{ $t('ui.weapon') }}</anchoritem>
     <article class="media">
       <figure class="media-left">
         <p class="image is-128x128">
@@ -30,15 +30,15 @@ import AnchorItem from "@/components/anchor/Item.vue";
 
 export default {
   name: "Weapon",
+  components: {
+    anchoritem: AnchorItem,
+    lazyimg: LazyImg
+  },
   props: {
     weapon: {
       type: Object,
       required: true
     }
-  },
-  components: {
-    anchoritem: AnchorItem,
-    lazyimg: LazyImg
   },
   data() {
     return {

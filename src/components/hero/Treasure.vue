@@ -26,14 +26,14 @@ import LazyImg from "@/components/LazyImg.vue";
 
 export default {
   name: "Treasure",
+  components: {
+    lazyimg: LazyImg
+  },
   props: {
     treasure: {
       type: Object,
       required: true
     }
-  },
-  components: {
-    lazyimg: LazyImg
   },
   data() {
     return {
