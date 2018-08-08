@@ -7,7 +7,6 @@
     <skill :num="3" :skill="hero.s3"/>
     <skill :num="4" :skill="hero.s4"/>
     <weapon class="hero-section" :weapon="hero.weapon"/>
-    <options/>
   </div>
 </template>
 
