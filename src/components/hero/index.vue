@@ -2,10 +2,10 @@
   <div>
     <herodesc class="hero-section" :hero="hero"/>
     <attributes class="hero-section" :attributes="hero.attributes" :auto="hero.auto"/>
-    <skill class="hero-section" :num="1" :skill="hero.s1"/>
-    <skill class="hero-section" :num="2" :skill="hero.s2"/>
-    <skill class="hero-section" :num="3" :skill="hero.s3"/>
-    <skill class="hero-section" :num="4" :skill="hero.s4"/>
+    <skill :num="1" :skill="hero.s1"/>
+    <skill :num="2" :skill="hero.s2"/>
+    <skill :num="3" :skill="hero.s3"/>
+    <skill :num="4" :skill="hero.s4"/>
     <weapon class="hero-section" :weapon="hero.weapon"/>
     <options/>
   </div>

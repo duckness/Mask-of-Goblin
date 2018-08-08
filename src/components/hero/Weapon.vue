@@ -1,30 +1,32 @@
 <template>
-  <article id="uw" class="media">
-    <figure class="media-left">
-      <p class="image is-128x128">
-        <lazyimg :src="weapon.image" />
-      </p>
-    </figure>
-    <div class="media-content">
-      <div class="content">
-        <small class="subtitle is-6">{{ $t('ui.weapon') }}</small>
-        <br>
-        <strong class="title is-5">{{ weapon.name }} </strong>
-        <small class="subtitle is-6">({{ attack + ' ' + $t('ui.atk') }})</small>
-        <br> {{ weapon.description[star] }}
-        <div v-if="additionalInfo !== ''" class="content is-small">
-          <strong class="is-6">Notes</strong>
-          <br>
-          <span>{{ additionalInfo }}</span>
+  <div>
+    <anchoritem to="uw" :header="3">{{ $t('ui.weapon') }}</anchoritem>
+    <article class="media">
+      <figure class="media-left">
+        <p class="image is-128x128">
+          <lazyimg :src="weapon.image" />
+        </p>
+      </figure>
+      <div class="media-content">
+        <div class="content">
+          <strong class="title is-5">{{ weapon.name }} </strong>
+          <small class="subtitle is-6">({{ attack + ' ' + $t('ui.atk') }})</small>
+          <br> {{ weapon.description[star] }}
+          <div v-if="additionalInfo !== ''" class="content is-small">
+            <strong class="is-6">Notes</strong>
+            <br>
+            <span>{{ additionalInfo }}</span>
+          </div>
         </div>
       </div>
-    </div>
-  </article>
+    </article>
+  </div>
 </template>
 
 <script>
 import { mapState, mapGetters } from "vuex";
 import LazyImg from "@/components/LazyImg.vue";
+import AnchorItem from "@/components/anchor/Item.vue";
 
 export default {
   name: "Weapon",
@@ -35,6 +37,7 @@ export default {
     }
   },
   components: {
+    anchoritem: AnchorItem,
     lazyimg: LazyImg
   },
   data() {
@@ -50,10 +53,3 @@ export default {
   }
 };
 </script>
-
-<style>
-#uw {
-  margin: 1rem 0rem;
-  padding: 1rem 0rem;
-}
-</style>

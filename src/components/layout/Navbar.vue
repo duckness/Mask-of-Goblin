@@ -71,8 +71,9 @@ export default {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1;
-  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+  z-index: 2;
+  border-bottom: 2px solid rgba(10, 10, 10, 0.1);
+  /* box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1); */
 }
 /*
 .navbar-burger {

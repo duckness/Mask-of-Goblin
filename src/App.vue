@@ -4,6 +4,7 @@
     <section id="content" class="section">
       <div id="container" class="container">
         <div class="columns is-centered">
+          <navmenu v-if="this.$route.name === 'hero'"/>
           <div class="column is-three-quarters">
             <router-view/>
           </div>
@@ -108,14 +109,13 @@ export default {
   },
   mounted() {
     this.$nextTick(() => {
-      const anchor = this.$route.hash;
       if (this.$route.name === "hero") {
         this.$store.commit("setHeroID", this.$route.params.id);
       } else if (this.$route.name === "artifact") {
         this.$store.commit("setArtifactID", this.$route.params.id);
       }
-      if (anchor && document.querySelector(anchor)) {
-        location.href = anchor;
+      if (this.$route.hash) {
+        location.hash = this.$route.hash;
       }
     });
   }
@@ -164,12 +164,12 @@ export default {
 .card-content {
   padding: 1.25rem 1.25rem 0rem;
 }
-.is-h3 {
+h3.is-h3 {
   border-bottom: 2px solid rgba(219, 219, 219, 0.5);
   padding-bottom: 0.5rem;
   font-size: 1.5rem;
 }
-.is-h4 {
+h4.is-h4 {
   color: gray;
   font-size: 1rem;
   text-transform: uppercase;

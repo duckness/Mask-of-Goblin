@@ -1,20 +1,20 @@
 <template>
-  <div class="skill-section">
+  <div class="hero-section">
     <slot/>
   </div>
 </template>
 
 <script>
 export default {
-  name: "SkillSection"
+  name: "HeroSection"
 };
 </script>
 
 <style>
-.skill-section + .skill-section {
+.hero-section + .hero-section {
   padding-top: 1rem;
 }
-.skill-section:last-child {
+.hero-section:last-child {
   padding-bottom: 2rem;
 }
 </style>

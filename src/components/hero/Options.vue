@@ -1,19 +1,12 @@
 <template>
-  <div id="hero-options" class="columns">
-    <div class="column"/>
-    <div class="column is-narrow">
-      <star-selector/>
-    </div>
-    <div class="column is-3">
-      <div class="field has-addons">
-        <div class="control">
-          <p class="button is-static">{{ $t("ui.level") }}</p>
-        </div>
-        <div class="control is-expanded">
-          <input v-model="level" class="input" type="number">
-        </div>
-      </div>
-    </div>
+  <div id="hero-options">
+    <star-selector :size="size" v-bind="$attrs"/>
+    <b-field :custom-class="size">
+      <p class="control">
+        <button class="button is-static" :class="iconClass">{{ $t("ui.level") }}</button>
+      </p>
+      <b-input v-model="level" type="number" :size="size" expanded v-bind="$attrs"/>
+    </b-field>
   </div>
 </template>
 
@@ -22,10 +15,25 @@ import StarSelector from "@/components/StarSelector.vue";
 
 export default {
   name: "HeroOptions",
+  data: function() {
+    return {
+      starselected: false
+    };
+  },
+  props: {
+    size: {
+      type: String,
+      required: false,
+      default: ""
+    }
+  },
   components: {
     "star-selector": StarSelector
   },
   computed: {
+    iconClass: function() {
+      return this.size + " is-" + Object.keys(this.$attrs).join(" is-");
+    },
     level: {
       get() {
         return this.$store.state.level;
@@ -38,7 +46,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;

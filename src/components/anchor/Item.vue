@@ -3,7 +3,7 @@
     <a class="anchor" :id="to"></a>
     <ah class="title header" :header="header">
       <a class="anchor-link" :href="'#' + to">
-        <icon class="anchor-icon" name="link" />
+        <icon class="anchor-icon is-hidden-mobile" name="link" />
         <slot />
       </a>
     </ah>

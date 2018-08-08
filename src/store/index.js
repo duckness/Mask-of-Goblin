@@ -80,6 +80,40 @@ const state = {
 };
 
 const getters = {
+  getNav: function() {
+    if (state.route.name === "hero") {
+      const hero = getters.getHero();
+      var d = {
+        type: "hero",
+        name: hero.name,
+        items: [{ name: "Attributes", id: "attrs" }]
+      };
+      for (var i = 1; i < 5; i++) {
+        var s = "s" + i;
+        d.items.push({
+          name: "Skill " + i,
+          id: s,
+          items: [
+            { name: "Transcendence", id: s + "t3" },
+            { name: "Books", id: s + "books" }
+          ]
+        });
+        if ("linked" in hero[s]) {
+          d.items[i].items.unshift({ name: "Linked", id: s + "linked" });
+        }
+        if ("treasure" in hero[s]) {
+          d.items[i].items.push({
+            name: Vue.i18n.translate("ui.treasure"),
+            id: s + "ut"
+          });
+        }
+      }
+      d.items.push({ name: Vue.i18n.translate("ui.weapon"), id: "uw" });
+      return d;
+    } else {
+      return null;
+    }
+  },
   getArtifactList: function() {
     var artifacts = {};
     for (var artifact in lang[state.locale].strings["artifact"]) {
