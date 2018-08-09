@@ -128,34 +128,27 @@ export default {
 
 <style lang="scss">
 @import "~bulma/sass/utilities/_all";
+@import "~bulmaswatch/solar/variables";
 
-$primary: #8c67ef;
-$primary-invert: findColorInvert($primary);
-$twitter: #4099ff;
-$twitter-invert: findColorInvert($twitter);
+$title-color: $white;
+$subtitle-color: lighten($grey-alt, 10);
+$text: lighten($grey, 10);
+$table-color: lighten($grey, 10);
+$table-background-color: transparent;
+$table-row-hover-background-color: $grey-dark;
+$table-striped-row-even-hover-background-color: $grey-dark;
 
-$colors: (
-  "white": ($white, $black),
-  "black": ($black, $white),
-  "light": ($light, $light-invert),
-  "dark": ($dark, $dark-invert),
-  "primary": ($primary, $primary-invert),
-  "info": ($info, $info-invert),
-  "success": ($success, $success-invert),
-  "warning": ($warning, $warning-invert),
-  "danger": ($danger, $danger-invert),
-  "twitter": ($twitter, $twitter-invert)
-);
-
-$link: $primary;
-$link-invert: $primary-invert;
-$link-focus-border: $primary;
+$input-color: $grey-lighter;
+$input-icon-color: darken($grey, 10);
+$input-background-color: $grey-darker;
+$input-border-color: darken($grey, 10);
+$input-hover-color: $grey-light;
 
 @import "~bulma";
+@import "~bulmaswatch/solar/overrides";
 @import "~buefy/src/scss/buefy";
 
 #app {
-  background-color: white;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -169,7 +162,7 @@ $link-focus-border: $primary;
 #content {
   position: relative;
   padding: 1.5rem 1.5rem;
-  margin: 3.25rem 0 6rem;
+  margin: 3.25rem 0 3.25rem;
 }
 .fa-icon {
   width: auto;
@@ -199,7 +192,6 @@ h3.is-h3 {
   font-size: 1.5rem;
 }
 h4.is-h4 {
-  color: gray;
   font-size: 1rem;
   text-transform: uppercase;
   font-weight: 700;
