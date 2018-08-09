@@ -1,7 +1,7 @@
 <template>
   <div>
-    <anchoritem 
-      :header="3" 
+    <anchoritem
+      :header="3"
       to="attrs">Attributes</anchoritem>
     <div class="media-content">
       <div class="content">
@@ -10,18 +10,18 @@
             <label class="label">{{ $t('ui.mpatk') }}</label>
             <div class="field ">
               <div class="control is-expanded">
-                <input 
-                  v-model.number="mpatkValue" 
-                  class="input" 
+                <input
+                  v-model.number="mpatkValue"
+                  class="input"
                   type="number">
               </div>
             </div>
             <label class="label">{{ $t('ui.aspd') }}</label>
             <div class="field ">
               <div class="control is-expanded">
-                <input 
-                  v-model.number="aspdValue" 
-                  class="input" 
+                <input
+                  v-model.number="aspdValue"
+                  class="input"
                   type="number">
               </div>
             </div>
@@ -59,13 +59,9 @@
             <th>Type</th>
             <th>Value</th>
           </thead>
-          <tfoot>
-            <th>Type</th>
-            <th>Value</th>
-          </tfoot>
           <tbody>
-            <tr 
-              v-for="key in Object.keys(attributes.stats)" 
+            <tr
+              v-for="key in Object.keys(attributes.stats)"
               :key="key">
               <td>{{ $t('ui.' + key) }}</td>
               <td>{{ attributes.stats[key] }}</td>
