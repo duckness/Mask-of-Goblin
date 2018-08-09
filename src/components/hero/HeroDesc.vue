@@ -1,6 +1,6 @@
 <template>
-  <article 
-    id="hero" 
+  <article
+    id="hero"
     class="media">
     <figure class="media-left">
       <p class="image is-128x128">
@@ -11,7 +11,7 @@
       <div class="content">
         <span>
           <strong class="title is-3">{{ hero.name }}</strong>
-          <small class="subtitle is-5">({{ hero.class }})</small>
+          <small class="subtitle is-5"> ({{ hero.class }})</small>
         </span>
         <br>
         <small class="subtitle is-5">{{ hero.subtitle }}</small>
@@ -21,8 +21,8 @@
           <div class="column content">
             <label class="label no-margin-bottom">T5 Light</label>
             <span>{{ hero.t5.light }}</span>
-            <div 
-              v-if="false" 
+            <div
+              v-if="false"
               class="content is-small">
               <strong class="is-6">Notes</strong>
               <br>
@@ -32,8 +32,8 @@
           <div class="column content">
             <label class="label no-margin-bottom">T5 Dark</label>
             <span>{{ hero.t5.dark }}</span>
-            <div 
-              v-if="false" 
+            <div
+              v-if="false"
               class="content is-small">
               <strong class="is-6">Notes</strong>
               <br>
