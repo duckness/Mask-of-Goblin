@@ -4,39 +4,46 @@
       <div class="navbar-item">
         <logo />
       </div>
+      <div class="navbar-item">
+        <a
+          id="github-link"
+          href="https://github.com/duckness/Mask-of-Goblin"><icon
+            id="github-logo"
+            name="brands/github" /></a>
+      </div>
       <lang />
-      <div 
-        :class="{ 'is-active':isActive }" 
-        class="navbar-burger burger" 
+      <div
+        :class="{ 'is-active':isActive }"
+        class="navbar-burger burger"
         @click="isActive = !isActive">
         <span />
         <span />
         <span />
       </div>
     </div>
-    <div 
-      :class="{ 'is-active':isActive }" 
+    <div
+      :class="{ 'is-active':isActive }"
       class="navbar-menu">
-      <router-link 
-        :to="heroLink" 
+      <router-link
+        :to="heroLink"
         class="navbar-item">
         {{ $t("ui.hero") }}
       </router-link>
-      <router-link 
-        :to="artifactLink" 
+      <router-link
+        :to="artifactLink"
         class="navbar-item">
         {{ $t("ui.artifact") }}
       </router-link>
-      <router-link 
-        to="/calc" 
+      <router-link
+        to="/calc"
         class="navbar-item">
         Calc
       </router-link>
-      <div 
-        v-if="!isCalc" 
+      <div
+        v-if="!isCalc"
         class="navbar-end">
-        <div 
-          v-if="this.$route.name === 'hero'" 
+        <div
+          v-if="this.$route.name === 'hero'"
           class="navbar-item is-hidden-tablet">
           <options />
         </div>
@@ -49,6 +56,7 @@
 </template>
 
 <script>
+import "vue-awesome/icons/brands/github";
 import { mapState } from "vuex";
 import Logo from "@/components/svg/Logo.vue";
 import NavLang from "./NavLang.vue";
@@ -93,20 +101,10 @@ export default {
   right: 0;
   z-index: 2;
   border-bottom: 2px solid rgba(10, 10, 10, 0.1);
-  /* box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1); */
 }
-/*
-.navbar-burger {
-  align-items: center;
-  display: flex;
-  top: -7.5px;
-}
-@media screen and (min-width: 1024px) {
-  .navbar-burger {
-    display: none;
-  }
-} */
-.bsearch {
-  background-color: transparent;
+#github-logo {
+  width: auto;
+  height: 1.25rem;
+  vertical-align: -0.25rem;
 }
 </style>
