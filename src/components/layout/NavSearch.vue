@@ -4,7 +4,6 @@
     :data="filteredDataArray"
     :open-on-focus="true"
     :placeholder="getPlaceholder"
-    pack="fas"
     icon="searchicon"
     @select="option => itemID = option">
     <template slot="empty">-</template>
@@ -93,7 +92,7 @@ export default {
   },
   mounted() {
     this.$nextTick(() => {
-      new Vue(Search).$mount(".fa-searchicon");
+      new Vue(Search).$mount(".mdi-searchicon");
     });
   }
 };
