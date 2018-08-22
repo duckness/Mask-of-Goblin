@@ -5666,7 +5666,7 @@
           1
         ],
         "mana": 2,
-        "cooldown": 23,
+        "cooldown": 18,
         "books": [
           [
             10
@@ -5705,7 +5705,7 @@
       },
       "s4": {
         "description": [
-          6,
+          7,
           "???"
         ],
         "books": [
@@ -7155,11 +7155,11 @@
         "description": [
           "???",
           4,
-          "???",
+          10,
           25
         ],
         "mana": 2,
-        "cooldown": 9,
+        "cooldown": 8,
         "books": [
           [
             10
@@ -7226,6 +7226,123 @@
           "???",
           10,
           0.2
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
+    },
+    "94": {
+      "index": 94,
+      "class": "priest",
+      "type": "physical",
+      "position": {
+        "type": "rear",
+        "weight": 200
+      },
+      "mpatk": 500,
+      "mpsec": 60,
+      "auto": {
+        "range": 5000,
+        "rangeType": "Ranged",
+        "time": [
+          [
+            1.1
+          ]
+        ],
+        "duration": 2.0
+      },
+      "s1": {
+        "description": [
+          7,
+          "???",
+          "???"
+        ],
+        "mana": 2,
+        "cooldown": 10,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null,
+        "linked": [
+          10,
+          "???",
+          20
+        ]
+      },
+      "s2": {
+        "description": [
+          "???"
+        ],
+        "mana": 3,
+        "cooldown": 15,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null,
+        "linked": [
+          "???",
+          "???"
+        ]
+      },
+      "s3": {
+        "description": [
+          "???"
+        ],
+        "mana": 1,
+        "cooldown": 6,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???",
+          15,
+          "???",
+          20
         ],
         "books": [
           [

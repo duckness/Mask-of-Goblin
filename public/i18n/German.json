@@ -193,14 +193,14 @@
       "story": "Eine Maske, die dem Gesicht eines Dunkelelfen nachempfunden ist. Sie verfügt über eine Aura des sanften Mondlichts."
     },
     "18": {
-      "name": "Skeleton-Maske",
+      "name": "Maske der Untoten",
       "description": [
-        "ANG gegen Skeletons steigt um 40%, während Schadensresistenz gegen Skeletons um 20% steigt.",
-        "ANG gegen Skeletons steigt um 48%, während Schadensresistenz gegen Skeletons um 24% steigt.",
-        "ANG gegen Skeletons steigt um 57%, während Schadensresistenz gegen Skeletons um 28% steigt.",
-        "ANG gegen Skeletons steigt um 69%, während Schadensresistenz gegen Skeletons um 34% steigt.",
-        "ANG gegen Skeletons steigt um 83%, während Schadensresistenz gegen Skeletons um 41% steigt.",
-        "ANG gegen Skeletons steigt um 100%, während Schadensresistenz gegen Skeletons um 50% steigt."
+        "Erhöht Schaden gegen Untote um 40 % und Widerstand gegen Untote um 20 %.",
+        "Erhöht Schaden gegen Untote um 48 % und Widerstand gegen Untote um 24 %.",
+        "Erhöht Schaden gegen Untote um 57 % und Widerstand gegen Untote um 28 %.",
+        "Erhöht Schaden gegen Untote um 69 % und Widerstand gegen Untote um 34 %.",
+        "Erhöht Schaden gegen Untote um 83 % und Widerstand gegen Untote um 41 %.",
+        "Erhöht Schaden gegen Untote um 100 % und Widerstand gegen Untote um 50 %."
       ],
       "story": "Eine Maske, die dem Gesicht eines Skeletts nachempfunden ist. Sie riecht nach Tod."
     },
@@ -562,7 +562,7 @@
         "Bei Kampfbeginn werden der Schaden von Feinden, die keine Helden sind, 30 Sek. lang um 20 % verringert und alle 2 Sek. 210 MP wiederhergestellt.",
         "Bei Kampfbeginn werden der Schaden von Feinden, die keine Helden sind, 30 Sek. lang um 20 % verringert und alle 2 Sek. 250 MP wiederhergestellt."
       ],
-      "story": ""
+      "story": "Diese Delikatesse aus Orvel ist ein Muss für jeden, der die sengende Sommerhitze nicht ertragen kann. Ein Schluck davon verringert die Hitze, ein Zweiter lässt sie verschwinden."
     }
   },
   "hero": {
@@ -2313,7 +2313,7 @@
           "2": "Erhöht Debuff-Widerstand um {1} für {0} Sek."
         },
         "light": "Reduziert Manakosten um 1.",
-        "dark": "Erhöht eigene M.VERT um 10% der M.VERT.",
+        "dark": "Erhöht M.VERT zusätzlich um 10 % der M.VERT des Beschwörers.",
         "ut": {
           "name": "Saat der Geburt",
           "description": [
@@ -6487,9 +6487,9 @@
           "Gewährt alle 20 Sekunden „Das Gefäß der Flüche“ und erhöht den ANG für 10 Sekunden um 20 %.",
           "Gewährt alle 19 Sekunden „Das Gefäß der Flüche“ und erhöht den ANG für 10 Sekunden um 24 %.",
           "Gewährt alle 18 Sekunden „Das Gefäß der Flüche“ und erhöht den ANG für 10 Sekunden um 29 %.",
-          "Gewährt alle 17 Sekunden „Das Gefäß der Flüche“ und erhöht den ANG für 10 Sekunden um 35 %.",
-          "Gewährt alle 16 Sekunden „Das Gefäß der Flüche“ und erhöht den ANG für 10 Sekunden um 42 %.",
-          "Gewährt alle 15 Sekunden „Das Gefäß der Flüche“ und erhöht den ANG für 10 Sekunden um 50 %."
+          "Gewährt alle 16 Sekunden „Das Gefäß der Flüche“ und erhöht den ANG für 10 Sekunden um 35 %.",
+          "Gewährt alle 14 Sekunden „Das Gefäß der Flüche“ und erhöht den ANG für 10 Sekunden um 42 %.",
+          "Gewährt alle 12 Sekunden „Das Gefäß der Flüche“ und erhöht den ANG für 10 Sekunden um 50 %."
         ],
         "story": "Flüche entstehen aus negativen Gefühlen wie Hass, Eifersucht und Feindseligkeit. Sie sind der beste Nährboden für Shamilla. Die Schwingen erlangten ihre Macht während des Dämonenkrieges, indem sie die Flüche unzähliger Menschen absorbierten, die andere Menschen in Angst versetzten. Jene, die die Federn berührten, waren an viele Flüche gebunden und wurden in einen Strudel der Emotionen gezogen. In diesem Abgrund hallt fesselndes Gelächter wider. Das Gelächter eines Dämons, der sich an unterschiedlichen menschlichen Gefühle gütlich tut."
       },
@@ -8071,7 +8071,7 @@
       },
       "s1": {
         "name": "Boden aufreißen",
-        "description": "Fügt Frontfeinden in Reichweite {0} K.Schaden zu und wirft sie für {1} Sek. zu Boden.",
+        "description": "Fügt Frontfeinden in Reichweite {0} K.Schaden zu, wirft sie für {1} Sek. zu Boden und erhöht die K.Schwäche der betroffenen Ziele {2} Sek. lang um {3}  %.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -8139,7 +8139,135 @@
       },
       "t5": {
         "light": "ATK, DEF, HP+15% / M.Block +200",
-        "dark": "Bei einer erfolgreichen Verteidigung gegen M.Schaden wird 10 Sek. lang M.Blockieren aller Verbündeter um 200 und die M.VERT um 10 % von Lomans M.VERT erhöht. Dieser Effekt wird alle 20 Sekunden nur einmal ausgelöst."
+        "dark": "Bei einer erfolgreichen Verteidigung gegen M.Schaden wird 5 Sek. lang M.Blockieren aller Verbündeter um 200 und die M.VERT um 10 % von Lomans M.VERT erhöht. Dieser Effekt wird alle 5 Sekunden nur einmal ausgelöst."
+      }
+    },
+    "94": {
+      "name": "Juno",
+      "subtitle": "Die Köchin der Helden",
+      "description": "Eine der besten Köche von Orvel. Ihre kulinarischen Künste decken alles ab, von kleinen Imbissen bis hin zum Luxusgerichten. Ihr Essen heilt den Körper und erfüllt das Herz mit Mut.",
+      "story": "Sie ist eine gewöhnliche junge Dame aus der Stadt, aber ihre kulinarischen Fähigkeiten gehören zum Besten, was Orvel zu bieten hat. Von den einfachen und gesunden Speisen des gewöhnlichen Volkes bis zu den luxuriösen Delikatessen der Adligen gibt es kein Gericht, dass sie nicht zubereiten kann. Einmal bekam sie ein Angebot für die Stelle der königlichen Köchin, die sie aber ablehnte und stattdessen ein Gasthaus eröffnete, damit jeder ihre Speisen genießen konnte. Ihr Gasthaus wurde bald eine der berühmtesten Attraktionen von Orvel und wurde von zahllosen Abenteurern besucht. Mittlerweile ist ihr Gasthaus als „Helden-Schenke“ bekannt und sie mag ihr Leben unter den „Helden“.",
+      "like": "Essen, Kochen, Leute, die ihre Mahlzeit schätzen",
+      "dislike": "Leute, die ihre Kochkünste verschmähen",
+      "inn": {
+        "idle": "Willkommen! Aber es ist gerade Pause ...",
+        "recruit": {
+          "greet": "",
+          "talk": [
+            "",
+            "",
+            ""
+          ],
+          "gift": ""
+        },
+        "affinity": {
+          "greet": "Komm herein! Was möchtest du heute?",
+          "talk": [
+            "Sag einfach, was du willst und ich koche es dir sofort!",
+            "Ich hab schon so viele Abenteurer gesehen, aber du scheinst irgendwie anders zu sein."
+          ],
+          "gift": "Oh, ein Trinkgeld? Hehe, danke."
+        },
+        "relationship": {
+          "greet": "Hast du schon gegessen? Wenn nicht, kann ich ein Gericht empfehlen!",
+          "talk": [
+            "Heiße-Quellen-Eier schmecken fantastisch! Eines meiner liebsten einfachen Gerichte!",
+            "Das Geschäft läuft gerade ziemlich gut. Mir geht es großartig!",
+            "Eine Menge Kunden, oder? Und das nur dank du-weißt-schon-wem, hahaha."
+          ]
+        }
+      },
+      "uw": {
+        "name": "Hundert-Aromen-Bankett, Tempora Fyrr",
+        "description": [
+          "Erhält einen Zähler [Ausgezeichnete Zutat] und regeneriert alle 10 Sekunden eine MP-Kugel.",
+          "Erhält einen Zähler [Ausgezeichnete Zutat] und regeneriert alle 9 Sekunden eine MP-Kugel.",
+          "Erhält einen Zähler [Ausgezeichnete Zutat] und regeneriert alle 8 Sekunden eine MP-Kugel.",
+          "Erhält einen Zähler [Ausgezeichnete Zutat] und regeneriert alle 7 Sekunden eine MP-Kugel.",
+          "Erhält einen Zähler [Ausgezeichnete Zutat] und regeneriert alle 6 Sekunden eine MP-Kugel.",
+          "Erhält einen Zähler [Ausgezeichnete Zutat] und regeneriert alle 5 Sekunden eine MP-Kugel."
+        ],
+        "story": "Ein magischer Topf, der vor langer Zeit von einem legendären Koch benutzt worden sein soll. Er besteht aus einem magischen Metall, das selbst Schmied Jin noch nie gesehen hat. Der Topf verstärkt den Geschmack und das Aroma des Essens und maximiert die natürliche Qualität der Zutaten. Obwohl er solch ein seltener Schatz ist, wird er von seiner Besitzerin Juno nur selten benutzt. Juno ist sehr stolz auf ihre Kochkünste, daher wird angenommen, dass sie sich nicht auf solche magischen Artefakte verlassen will. Darum ist der wertvollste Schatz der kulinarischen Welt mittlerweile nur eine Dekoration in Junos Gasthaus. Wenn aber irgendwann der Tag kommt, an dem sie ihn benutzt, wird die Welt eine völlig neue Stufe der Kochkunst erleben."
+      },
+      "s1": {
+        "name": "Bestes Gericht",
+        "description": "Entfernt negative Effekte von allen Verbündeten, heilt insgesamt {1} TP über {0}  Sekunde(n) und erhöht VERT um {2}. [Ausgezeichnete Zutat] Verbraucht 2 Zähler „Ausgezeichnete Zutat“, um den VERT-Boost zu verdoppeln, wenn mindestens 2 Zähler vorhanden sind.",
+        "books": {
+          "0": "Erhöht Heilungsrate und Schaden um {0}  %",
+          "1": "Erhöht Heilungsrate und Schaden um {0}  %",
+          "2": "Erhöht Heilungsrate und Schaden um {0}  %"
+        },
+        "light": "[Bestes Gericht] Erhöht ANG des Ziels für die Dauer der Fähigkeit um 15 %. [Junos scharfe Spezialität] Ziel nimmt 10 Sek lang 25% erhöhten K.Schaden.",
+        "dark": "[Bestes Gericht] Effekte können nicht mehr entfernt werden. [Junos scharfe Spezialität] Verringert Manakosten um 1.",
+        "linked": {
+          "name": "Junos scharfe Spezialität",
+          "description": "Entfernt positive Effekte von allen Feinden, richtet bis zu {1} K.Schaden über {0}  Sekunde(n) an und erhöht die Menge erlittenen K.Schadens bei Feinden um {2}  %. [Ausgezeichnete Zutat] Verbraucht 2 Zähler „Ausgezeichnete Zutat“, um den K.Schaden zu verdoppeln, wenn mindestens 2 Zähler vorhanden sind."
+        }
+      },
+      "s2": {
+        "name": "Power-up",
+        "description": "Wirkt einen Schild auf den Verbündeten mit den niedrigsten TP, der {0} Schaden absorbiert und Immunität gegen Statuseffekte sowie eine Manakugel verleiht. [Ausgezeichnete Zutat] Verbraucht 2 Zähler „Ausgezeichnete Zutat“, um die MP-Erholung zu verdoppeln, wenn mindestens 2 Zähler vorhanden sind.",
+        "books": {
+          "0": "Erhöht Schild und Schaden um {0}  %",
+          "1": "Erhöht Schild und Schaden um {0}  %",
+          "2": "Erhöht Schild und Schaden um {0}  %"
+        },
+        "light": "[Power-up] Erhöht Manakosten um 1, wirkt aber Schilde auf 2 Ziele. [Bedien dich und dann verschwinde!] Verringert ANG-Geschwindigkeit des getroffenen Feindes 10 Sekunden lang um 200.",
+        "dark": "[Power-up] Verringert Manakosten um 1. [Bedien dich und dann verschwinde!] Erhöht Cooldown der aktiven Fähigkeiten beim getroffenen Feind um 2 Sekunden.",
+        "ut": {
+          "name": "Der Krug des Glücks",
+          "description": [
+            "[Power-up] Erhöht die MP-Erholungsrate um 50 % und verringert den Cooldown der aktiven Fähigkeiten des Ziels um 12 %. [Bedien dich und dann verschwinde!] Erhöht MP-Verringerung um 50 % und betäubt das Ziel 1 Sekunde lang.",
+            "[Power-up] Erhöht die MP-Erholungsrate um 50 % und verringert den Cooldown der aktiven Fähigkeiten des Ziels um 14 %. [Bedien dich und dann verschwinde!] Erhöht MP-Verringerung um 50 % und betäubt das Ziel 1,2 Sekunden lang.",
+            "[Power-up] Erhöht die MP-Erholungsrate um 50 % und verringert den Cooldown der aktiven Fähigkeiten des Ziels um 17 %. [Bedien dich und dann verschwinde!] Erhöht MP-Verringerung um 50 % und betäubt das Ziel 1,4 Sekunden lang.",
+            "[Power-up] Erhöht die MP-Erholungsrate um 50 % und verringert den Cooldown der aktiven Fähigkeiten des Ziels um 21 %. [Bedien dich und dann verschwinde!] Erhöht MP-Verringerung um 50 % und betäubt das Ziel 1,7 Sekunden lang.",
+            "[Power-up] Erhöht die MP-Erholungsrate um 50 % und verringert den Cooldown der aktiven Fähigkeiten des Ziels um 25 %. [Bedien dich und dann verschwinde!] Erhöht MP-Verringerung um 50 % und betäubt das Ziel 2,1 Sekunden lang.",
+            "[Power-up] Erhöht die MP-Erholungsrate um 50 % und verringert den Cooldown der aktiven Fähigkeiten des Ziels um 30 %. [Bedien dich und dann verschwinde!] Erhöht MP-Verringerung um 50 % und betäubt das Ziel 2,5 Sekunden lang."
+          ],
+          "story": "Ein Krug, den Juno zu einem Wucherpreis von einem verdächtigen Händler kaufte, als sie noch jung und naiv war. Der Händler sagte ihr, dass der Krug einfaches Wasser in magische Brühe verwandeln könne. Er machte den Vorgang mit geschickten Händen vor und sie fiel darauf herein. Was er jedoch nicht wusste, war, dass der Krug mithilfe von Junos großartigen Kochkünsten tatsächlich ein Krug des Glücks werden sollte. Zusammen mit Junos verbesserten Kochkünsten und Junos Spezialgewürz, einer verbesserten Version des magischen Brühpulvers, das der Händler eingesetzt hatte, ist der Krug mittlerweile eines der wichtigsten Küchenwerkzeuge in Junos Gasthaus und kann Gerichte der Spitzenklasse herstellen."
+        },
+        "linked": {
+          "name": "Bedien dich und dann verschwinde!",
+          "description": "Greift das Ziel und Feinde in der Nähe an, fügt {0} K.Schaden zu und verringert deren MP um 1 Manakugel. Wenn das Ziel kein Held ist, wird zusätzlich {1} VERT-ignorierender K.Schaden zugefügt. [Ausgezeichnete Zutat] Verbraucht 2 Zähler „Ausgezeichnete Zutat“, um die MP-Verringerung zu verdoppeln, wenn mindestens 2 Zähler vorhanden sind."
+        }
+      },
+      "s3": {
+        "name": "Köchin aus der Hölle",
+        "description": "Entfernt alle negativen Effekte von sich selbst, heilt {0}  TP und verwandelt sich in eine Köchin aus der Hölle. [Bestes Gericht] und [Power-up] werden durch [Junos scharfe Spezialität] und [Bedien dich und dann verschwinde!] ersetzt. Erhält einen Zähler [Ausgezeichnete Zutat], der nicht entfernt werden kann. Wird die Fähigkeit erneut eingesetzt: Verwandelt sich in eine Himmlische Köchin.",
+        "books": {
+          "0": "Erhöht Erholung um {0}%.",
+          "1": "Erhöht Erholung um {0}%.",
+          "2": "Erhöht Erholung um {0}%."
+        },
+        "light": "Erhöht die Heilungsrate um 100 %.",
+        "dark": "Regeneriert bei Benutzung 1 Manakugel.",
+        "ut": {
+          "name": "Verdächtiges Gewürzset",
+          "description": [
+            "[Köchin aus der Hölle] Wirkt Heilungseffekte auf alle Verbündeten und verringert Cooldown von „Köchin aus der Hölle“ um 1 Sekunde.",
+            "[Köchin aus der Hölle] Wirkt Heilungseffekte auf alle Verbündeten und verringert Cooldown von „Köchin aus der Hölle“ um 1,2 Sekunden.",
+            "[Köchin aus der Hölle] Wirkt Heilungseffekte auf alle Verbündeten und verringert Cooldown von „Köchin aus der Hölle“ um 1,4 Sekunden.",
+            "[Köchin aus der Hölle] Wirkt Heilungseffekte auf alle Verbündeten und verringert Cooldown von „Köchin aus der Hölle“ um 1,7 Sekunden.",
+            "[Köchin aus der Hölle] Wirkt Heilungseffekte auf alle Verbündeten und verringert Cooldown von „Köchin aus der Hölle“ um 2,1 Sekunden.",
+            "[Köchin aus der Hölle] Wirkt Heilungseffekte auf alle Verbündeten und verringert Cooldown von „Köchin aus der Hölle“ um 2,5 Sekunden."
+          ],
+          "story": "- Hier ist deine Bestellung: Junos Spezialität! Niemand nimmt das Banner vor ihrem Gasthaus ernst, auf dem steht „Hervorragender Geschmack! Qualität garantiert!“, bis sie das Essen in den Mund nehmen. Es gibt kaum Worte, die Junos Kochkunst gerecht werden. Als man sie fragte, was ihr Geheimnis sei, lächelte sie nur und antwortete: - Es ist Junos Spezialgewürz!"
+        }
+      },
+      "s4": {
+        "name": "Wir haben geöffnet!",
+        "description": "Als Himmlische Köchin: Erhöht VERT aller Verbündeten um {0} und ihre Heilungsrate um {1}  %. Als Köchin aus der Hölle: Verringert VERT aller Feinde um {2}  % und ihre Heilungsrate um {3}  %.",
+        "books": {
+          "0": "K.VERT-Erhöhugsrate erhöht sich um {0}%.",
+          "1": "K.VERT-Erhöhugsrate erhöht sich um {0}%.",
+          "2": "K.VERT-Erhöhugsrate erhöht sich um {0}%."
+        },
+        "light": "Erhöht die Krit. Chance aller Verbündeten um 200.",
+        "dark": "[Köchin aus der Hölle] Verringert VERT-Durchdringung aller Feinde um 200."
+      },
+      "t5": {
+        "light": "ANG, VERT, TP+15% / K.Block +200",
+        "dark": "Erhält zu Beginn jedes Kampfes 2 Zähler [Ausgezeichnete Zutat] und erhöht die MP-Erholung/Sek. 10 Sekunden lang um 200 %."
       }
     }
   },

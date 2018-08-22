@@ -193,14 +193,14 @@
       "story": "A mask modeled after the face of a Dark Elf. It gives off an aura of the soft moonlight."
     },
     "18": {
-      "name": "Mask of Skeleton",
+      "name": "Undead Mask",
       "description": [
-        "ATK upon Skeletons increase by 40%, and DMG resistance against Skeletons increase by 20%",
-        "ATK upon Skeletons increase by 48%, and DMG resistance against Skeletons increase by 24%",
-        "ATK upon Skeletons increase by 57%, and DMG resistance against Skeletons increase by 28%",
-        "ATK upon Skeletons increase by 69%, and DMG resistance against Skeletons increase by 34%",
-        "ATK upon Skeletons increase by 83%, and DMG resistance against Skeletons increase by 41%",
-        "ATK upon Skeletons increase by 100%, and DMG resistance against Skeletons increase by 50%"
+        "Increases DMG to Undead by 40% and Resistance against Undead by 20%.",
+        "Increases DMG to Undead by 48% and Resistance against Undead by 24%.",
+        "Increases DMG to Undead by 57% and Resistance against Undead by 28%.",
+        "Increases DMG to Undead by 69% and Resistance against Undead by 34%.",
+        "Increases DMG to Undead by 83% and Resistance against Undead by 41%.",
+        "Increases DMG to Undead by 100% and Resistance against Undead by 50%."
       ],
       "story": "A mask modeled after the face of a Skeleton. It smells like death."
     },
@@ -562,7 +562,7 @@
         "When the battle begins, reduces DMG from non-Hero enemies by 42% for 30 second(s), and recovers 210 MP every 2 second(s).",
         "When the battle begins, reduces DMG from non-Hero enemies by 50% for 30 second(s), and recovers 250 MP every 2 second(s)."
       ],
-      "story": ""
+      "story": "This delicacy of Orvel is a must for anyone who can't stand the blazing summer heat. One sip of it brings down the heat, another makes the heat go away."
     }
   },
   "hero": {
@@ -2313,7 +2313,7 @@
           "2": "CC Resistance is increased by {1} for {0} sec."
         },
         "light": "Mana cost is reduced by 1.",
-        "dark": "M.DEF boost is additionally increased by 10% of own M.DEF.",
+        "dark": "Increases M.DEF by additional 10% of the caster's M.DEF.",
         "ut": {
           "name": "Seed of Birth",
           "description": [
@@ -6487,9 +6487,9 @@
           "Every 20 seconds, obtains The Vessel of Curses and increases ATK by 20% for 10 seconds.",
           "Every 19 seconds, obtains The Vessel of Curses and increases ATK by 24% for 10 seconds.",
           "Every 18 seconds, obtains The Vessel of Curses and increases ATK by 29% for 10 seconds.",
-          "Every 17 seconds, obtains The Vessel of Curses and increases ATK by 35% for 10 seconds.",
-          "Every 16 seconds, obtains The Vessel of Curses and increases ATK by 42% for 10 seconds.",
-          "Every 15 seconds, obtains The Vessel of Curses and increases ATK by 50% for 10 seconds."
+          "Every 16 seconds, obtains The Vessel of Curses and increases ATK by 35% for 10 seconds.",
+          "Every 14 seconds, obtains The Vessel of Curses and increases ATK by 42% for 10 seconds.",
+          "Every 12 seconds, obtains The Vessel of Curses and increases ATK by 50% for 10 seconds."
         ],
         "story": "Curses are born from negative feelings such as hatred, jealousy, and resentment. These are the best food for Shamilla. The wings that grew powerful during the Demon War by absorbing the curses of countless people are terrifying to normal people. Those who are touched by the feathers are said to be bound by many curses, and they fall into a vortex of emotions. In that abyss, a captivating and seductive laughter echoes. The laughter of a demon that enjoys the different kinds of human feelings."
       },
@@ -8071,7 +8071,7 @@
       },
       "s1": {
         "name": "Cut Ground",
-        "description": "Deals {0} P.DMG to frontal enemies within range and knocks them down for {1} second(s).",
+        "description": "Deals {0} P.DMG to frontal enemies within range and knocks them down for {1} sec, increasing P.Weakness of the affected targets by {3}% for {2} sec.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -8139,7 +8139,135 @@
       },
       "t5": {
         "light": "ATK, DEF, HP+15% / M. Block +200",
-        "dark": "Upon successfully blocking M.DMG, all allies have their M.Block increased by 200 and M.DEF by 10% of Loman's M.DEF for 10 sec. This effect is activated only once every 20 seconds."
+        "dark": "Upon successfully blocking M.DMG, all allies have their M.Block increased by 200 and M.DEF by 10% of Loman's M.DEF for 5 sec. This effect is activated only once every 5 seconds."
+      }
+    },
+    "94": {
+      "name": "Juno",
+      "subtitle": "The Chef of Heroes",
+      "description": "One of the best cooks in Orvel. From casual bites to luxury dishes, her culinary skills seem to cover it all. Her food heals the body and fills the heart with courage.",
+      "story": "She's an ordinary young lady from the town, but her culinary skills are Orvel's finest. From the plain, wholesome food of the common people to the luxurious delicacies of the nobility, there isn't a dish she cannot cook. She once received an offer to work as the Royal Chef, but she refused it and opened an inn to let everyone enjoy her dishes. Her inn soon became one of the most famous attractions in Orvel, visited by countless adventurers. Now people call her inn 'the Hero's Inn,' and she's enjoying her life among the 'heroes.'",
+      "like": "Eating, cooking, people who enjoy her dishes",
+      "dislike": "People who disparage her cooking",
+      "inn": {
+        "idle": "Welcome! It's break time, though...",
+        "recruit": {
+          "greet": "",
+          "talk": [
+            "",
+            "",
+            ""
+          ],
+          "gift": ""
+        },
+        "affinity": {
+          "greet": "Come on in! What would you like to have today?",
+          "talk": [
+            "Just tell me what you want, and I'll cook it right away!",
+            "I have seen so many adventurers, but you strike me as different somehow."
+          ],
+          "gift": "Oh, a tip? Heh heh, thank you."
+        },
+        "relationship": {
+          "greet": "Have you eaten yet? If not, I can recommend a dish!",
+          "talk": [
+            "Hot spring eggs tastes amazing! It's also one of my favorite simple dishes!",
+            "Business is good these days. I feel great!",
+            "A lot of customers, right? All thanks to you know who, Hahaha."
+          ]
+        }
+      },
+      "uw": {
+        "name": "Hundred-Flavor Banquet, Tempora Fyrr",
+        "description": [
+          "Every 10 sec, gains 1 stack of [Excellent Ingredient] and recovers 1 orb of Mana.",
+          "Every 9 sec, gains 1 stack of [Excellent Ingredient] and recovers 1 orb of Mana.",
+          "Every 8 sec, gains 1 stack of [Excellent Ingredient] and recovers 1 orb of Mana.",
+          "Every 7 sec, gains 1 stack of [Excellent Ingredient] and recovers 1 orb of Mana.",
+          "Every 6 sec, gains 1 stack of [Excellent Ingredient] and recovers 1 orb of Mana.",
+          "Every 5 sec, gains 1 stack of [Excellent Ingredient] and recovers 1 orb of Mana."
+        ],
+        "story": "A magical pot known to have been used by a legendary chef in the distant past. It is made with magical metal that even Blacksmith Jin hasn't ever seen before. It has the effects of boosting the taste and aroma of the food, maximizing the natural quality of ingredients. It is such a rare treasure, but it is seldom used by its owner, Juno. As she has great pride in her culinary skills, people assume that she does not like to reply upon such magical artifacts. As a result, the most precious treasure in the culinary world is now merely a decoration in Juno's inn. When the day comes that she decides to use it, however, the world will witness a whole new level of cooking."
+      },
+      "s1": {
+        "name": "Best Dish",
+        "description": "Removes negative effects from all allies, heals a total of {1} HP over {0} second(s), and increases DEF by {2}. When there are 2 stacks or more [Excellent Ingredient], consumes 2 stacks to double the DEF Boost.",
+        "books": {
+          "0": "Increases Heal Rate and DMG by {0}%.",
+          "1": "Increases Heal Rate and DMG by {0}%.",
+          "2": "Increases Heal Rate and DMG by {0}%."
+        },
+        "light": "[Best Dish] Increases ATK of the target by 15% for the duration of skill. [Juno's Spicy Special] Target takes 25% increased P.DMG for 10 sec.",
+        "dark": "[Best Dish] Makes all effects irremovable. [Juno's Spicy Special] Reduces Mana Cost by 1.",
+        "linked": {
+          "name": "Juno's Spicy Special",
+          "description": "Removes positive effects from all enemies, deals a total of {1} P.DMG over {0} second(s), and enemies take {2}% increased P.DMG. When there are 2 stacks or more [Excellent Ingredient], consumes 2 stacks to double the P.DMG that enemies take."
+        }
+      },
+      "s2": {
+        "name": "Power-up",
+        "description": "Casts a shield on the ally with the lowest HP that absorbs {0} DMG and grants Immunity to CC along with 1 orb of Mana. When there are 2 stacks or more [Excellent Ingredient], consumes 2 stacks to double the Mana Recovery.",
+        "books": {
+          "0": "Increases Shield and DMG by {0}%.",
+          "1": "Increases Shield and DMG by {0}%.",
+          "2": "Increases Shield and DMG by {0}%."
+        },
+        "light": "[Power-up] Increases Mana Cost by 1, but casts shields on 2 targets. [Help Yourself, Then Get Lost!] Reduces ATK Spd of hit enemy by 200 for 10 seconds.",
+        "dark": "[Power-up] Reduces Mana Cost by 1. [Help Yourself, Then Get Lost!] Increases Cooldown of hit enemy's active skills by 2 seconds.",
+        "ut": {
+          "name": "The Jar of Happiness",
+          "description": [
+            "[Power-up] Increases Mana Recovery Rate by 50% and reduces Cooldown of the target's active skills by 12%. [Help Yourself, Then Get Lost!] Increases Mana Reduction by 50% and stuns the target for 1 second.",
+            "[Power-up] Increases Mana Recovery Rate by 50% and reduces Cooldown of the target's active skills by 14%. [Help Yourself, Then Get Lost!] Increases Mana Reduction by 50% and stuns the target for 1.2 seconds.",
+            "[Power-up] Increases Mana Recovery Rate by 50% and reduces Cooldown of the target's active skills by 17%. [Help Yourself, Then Get Lost!] Increases Mana Reduction by 50% and stuns the target for 1.4 seconds.",
+            "[Power-up] Increases Mana Recovery Rate by 50% and reduces Cooldown of the target's active skills by 21%. [Help Yourself, Then Get Lost!] Increases Mana Reduction by 50% and stuns the target for 1.7 seconds.",
+            "[Power-up] Increases Mana Recovery Rate by 50% and reduces Cooldown of the target's active skills by 25%. [Help Yourself, Then Get Lost!] Increases Mana Reduction by 50% and stuns the target for 2.1 seconds.",
+            "[Power-up] Increases Mana Recovery Rate by 50% and reduces Cooldown of the target's active skills by 30%. [Help Yourself, Then Get Lost!] Increases Mana Reduction by 50% and stuns the target for 2.5 seconds."
+          ],
+          "story": "A jar that Juno in her naive days bought at a rip-off price from a suspicious merchant. The merchant told her that the jar was able to turn plain water into magical broth. He managed to demonstrate the process with his nimble hands, and successfully made her fall for it. What he didn't know, however, was that the Jar would actually become a true Jar of Happiness through Juno's amazing culinary skills. With greatly improved Juno's culinary skills and the addition of Juno's Special Seasoning, an improved version of the magical broth powder that the merchant used, the jar is now one of the most important kitchen tools in Juno's inn, producing top-notch dishes."
+        },
+        "linked": {
+          "name": "Help Yourself, Then Get Lost!",
+          "description": "Attacks the target and nearby enemies around it, dealing {0} P.DMG and reducing their Mana by 1 orb. If the target is not a Hero, inflicts {1} additional P.DMG that ignores DEF. When there are 2 stacks or more [Excellent Ingredient], consumes 2 stacks to double the Mana Reduction."
+        }
+      },
+      "s3": {
+        "name": "Cook from Hell",
+        "description": "Removes all negative effects from self, heals {0} HP, and transforms into a Cook from Hell. [Best Dish] and [Power-up] are changed to [Juno's Spicy Special] and [Help Yourself, Then Get Lost!] respectively. Gains 1 stack of irremovable [Excellent Ingredient]. When the skill is used again, transforms into a Cook from Heaven.",
+        "books": {
+          "0": "Heal rate is increased by {0}%.",
+          "1": "Heal rate is increased by {0}%.",
+          "2": "Heal rate is increased by {0}%."
+        },
+        "light": "Increases Heal Rate by 100%.",
+        "dark": "Recovers 1 orb of Mana upon use.",
+        "ut": {
+          "name": "Suspicious Seasoning Set",
+          "description": [
+            "[Cook from Hell] Applies healing effects to all allies and reduces Cooldown of Cook from Hell by 1 second.",
+            "[Cook from Hell] Applies healing effects to all allies and reduces Cooldown of Cook from Hell by 1.2 seconds.",
+            "[Cook from Hell] Applies healing effects to all allies and reduces Cooldown of Cook from Hell by 1.4 seconds.",
+            "[Cook from Hell] Applies healing effects to all allies and reduces Cooldown of Cook from Hell by 1.7 seconds.",
+            "[Cook from Hell] Applies healing effects to all allies and reduces Cooldown of Cook from Hell by 2.1 seconds.",
+            "[Cook from Hell] Applies healing effects to all allies and reduces Cooldown of Cook from Hell by 2.5 seconds."
+          ],
+          "story": "- Here is your order, Juno's Special! No one takes the banner in front her inn that says 'Excellent Taste! Quality Guaranteed!' seriously until they put the food in their mouths. There are very few words that do Juno's food justice. When she was asked what her secret was, she smiled and answered, - It's Juno's Special Seasoning!"
+        }
+      },
+      "s4": {
+        "name": "Open for Business!",
+        "description": "While transformed into a Cook from Heaven, increases DEF of all allies by {0} and their heal rate by {1}%. While transformed into a Cook from Hell, reduces DEF of all enemies by {2}% and their heal rate by {3}%.",
+        "books": {
+          "0": "DEF boost is increased by {0}%.",
+          "1": "DEF boost is increased by {0}%.",
+          "2": "DEF boost is increased by {0}%."
+        },
+        "light": "Increases Crit Chance of all allies by 200.",
+        "dark": "Reduces DEF Penetration of all enemies by 200."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / P. Block +200",
+        "dark": "At the beginning of every battle, gains 2 stacks of [Excellent Ingredient] and increases MP Recovery/Sec by 200% for 10 seconds."
       }
     }
   },

@@ -193,14 +193,14 @@
       "story": "Una máscara modelada con la forma un elfo obscuro. Otorga un aura de la luz de luna suave."
     },
     "18": {
-      "name": "Mascara del Esqueleto",
+      "name": "Máscara de no muerto",
       "description": [
-        "el ATQ sobre los Esqueletos aumenta en un 40%, y la resistencia al Daño contra los Esqueletos aumenta en un 20%",
-        "el ATQ sobre los Esqueletos aumenta en un 48%, y la resistencia al Daño contra los Esqueletos aumenta en un 24%",
-        "el ATQ sobre los Esqueletos aumenta en un 57%, y la resistencia al Daño contra los Esqueletos aumenta en un 28%",
-        "el ATQ sobre los Esqueletos aumenta en un 69%, y la resistencia al Daño contra los Esqueletos aumenta en un 34%",
-        "el ATQ sobre los Esqueletos aumenta en un 83%, y la resistencia al Daño contra los Esqueletos aumenta en un 41%",
-        "el ATQ sobre los Esqueletos aumenta en un 100%, y la resistencia al Daño contra los Esqueletos aumenta en un 50%"
+        "Aumenta el Daño a los no muertos en un 40 % y la Resistencia contra los no muertos en un 20 %.",
+        "Aumenta el Daño a los no muertos en un 48 % y la Resistencia contra los no muertos en un 24 %.",
+        "Aumenta el Daño a los no muertos en un 57 % y la Resistencia contra los no muertos en un 28 %.",
+        "Aumenta el Daño a los no muertos en un 69 % y la Resistencia contra los no muertos en un 34 %.",
+        "Aumenta el Daño a los no muertos en un 83 % y la Resistencia contra los no muertos en un 41 %.",
+        "Aumenta el Daño a los no muertos en un 100 % y la Resistencia contra los no muertos en un 50 %."
       ],
       "story": "Una máscara modelada con la forma un esqueleto. Huele como la muerte."
     },
@@ -562,7 +562,7 @@
         "Cuando comienza la batalla, reduce el Daño de los enemigos que no son héroes en un 20 % durante 30 segundo(s) y recupera 210 de PM cada 2 segundo(s).",
         "Cuando comienza la batalla, reduce el Daño de los enemigos que no son héroes en un 20 % durante 30 segundo(s) y recupera 250 de PM cada 2 segundo(s)."
       ],
-      "story": ""
+      "story": "Esta delicia de Orvel es indispensable para quienes no puedan soportar el calor abrasador del verano. Un sorbo alivia el calor, y otro sorbo lo aleja."
     }
   },
   "hero": {
@@ -2313,7 +2313,7 @@
           "2": "Aumenta {1} la Resistencia al Debilitamiento por {0} seg."
         },
         "light": "El costo de maná se reduce en 1.",
-        "dark": "Aumenta tu propia DEF Magica en un 10% de tu DEF Magica",
+        "dark": "Aumenta la Defensa mágica en un 10 % adicional de la Defensa mágica del lanzador.",
         "ut": {
           "name": "Semilla de nacimiento",
           "description": [
@@ -6487,9 +6487,9 @@
           "Cada 20 segundos, obtiene El recipiente de las maldiciones y aumenta el Ataque en un 20 % durante 10 segundos.",
           "Cada 19 segundos, obtiene El recipiente de las maldiciones y aumenta el Ataque en un 24 % durante 10 segundos.",
           "Cada 18 segundos, obtiene El recipiente de las maldiciones y aumenta el Ataque en un 29 % durante 10 segundos.",
-          "Cada 17 segundos, obtiene El recipiente de las maldiciones y aumenta el Ataque en un 35 % durante 10 segundos.",
-          "Cada 16 segundos, obtiene El recipiente de las maldiciones y aumenta el Ataque en un 42 % durante 10 segundos.",
-          "Cada 15 segundos, obtiene El recipiente de las maldiciones y aumenta el Ataque en un 50 % durante 10 segundos."
+          "Cada 16 segundos, obtiene El recipiente de las maldiciones y aumenta el Ataque en un 35 % durante 10 segundos.",
+          "Cada 14 segundos, obtiene El recipiente de las maldiciones y aumenta el Ataque en un 42 % durante 10 segundos.",
+          "Cada 12 segundos, obtiene El recipiente de las maldiciones y aumenta el Ataque en un 50 % durante 10 segundos."
         ],
         "story": "Las maldiciones surgen de sentimientos negativos como el odio, los celos y el rencor. Son los alimentos ideales para Shamilla. Las alas que crecieron fuertes durante la Guerra de los Demonios, gracias a que absorbieron las maldiciones de incontables personas, son terroríficas para la gente común. Se dice que las personas a quienes tocan las alas sufren la condena de numerosas maldiciones y caen en un vórtice de emociones. En ese abismo, se oye el eco de una risa fascinante y seductora. Es la risa de una demonio que goza con los distintos tipos de sentimientos humanos."
       },
@@ -8071,7 +8071,7 @@
       },
       "s1": {
         "name": "Corte del suelo",
-        "description": "Causa {0} de Daño físico a los enemigos frontales dentro del rango y los derriba durante {1} segundo(s).",
+        "description": "Causa {0} de Daño físico a los enemigos frontales dentro del rango y los derriba durante {1} segundo(s), lo que aumenta la Debilidad física de los objetivos afectados en un {3}% durante {2} segundo(s).",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
@@ -8139,7 +8139,135 @@
       },
       "t5": {
         "light": "ATQ, DEF, Salud+15% / Bloq Magico +200",
-        "dark": "Al bloquear el Daño mágico, el Bloqueo mágico de todos los aliados aumenta en 200 y la Defensa mágica en un 10% de la Defensa mágica de Loman durante 10 segundos. Este efecto se activa solo una vez cada 20 segundos."
+        "dark": "Al bloquear el Daño mágico, el Bloqueo mágico de todos los aliados aumenta en 200 y la Defensa mágica en un 10% de la Defensa mágica de Loman durante 5 segundos. Este efecto se activa solo una vez cada 5 segundos."
+      }
+    },
+    "94": {
+      "name": "Juno",
+      "subtitle": "La chef de los héroes",
+      "description": "Una de las mejores cocineras de Orvel. Desde preparaciones simples hasta lujosos platillos, sus habilidades culinarias parecen no tener límite. Su comida cura el cuerpo y llena el corazón de valentía.",
+      "story": "Es una muchacha común del pueblo, pero sus habilidades culinarias no tienen comparación en Orvel. Desde las preparaciones simples y nutritivas de la gente común hasta los elegantes manjares de la nobleza, no hay nada que no pueda cocinar. Una vez le ofrecieron trabajar como chef real, pero rechazó la oferta y abrió una posada para que todos pudieran degustar sus platillos. Muy pronto, la posada se convirtió en una de las atracciones más famosas de Orvel, y recibía la visita de incontables aventureros. Ahora el pueblo la llama “la posada del héroe”, y ella disfruta su vida rodeada de “héroes”.",
+      "like": "Comer, cocinar, la gente que disfruta de sus platillos",
+      "dislike": "La gente que critica su cocina",
+      "inn": {
+        "idle": "¡Hola! Es el momento del descanso...",
+        "recruit": {
+          "greet": "",
+          "talk": [
+            "",
+            "",
+            ""
+          ],
+          "gift": ""
+        },
+        "affinity": {
+          "greet": "¡Entra! ¿Qué te gustaría comer hoy?",
+          "talk": [
+            "¡Dime lo que quieres y lo cocinaré en seguida!",
+            "He visto a tantos aventureros, pero tú me pareces diferente por alguna razón."
+          ],
+          "gift": "¿Oh, una propina? Je, je, gracias."
+        },
+        "relationship": {
+          "greet": "¿Ya comiste? ¡Si no, puedo recomendar un platillo!",
+          "talk": [
+            "¡Los huevos de aguas termales son deliciosos! Además, son uno de mis platillos simples.",
+            "Estamos con mucho trabajo. ¡Me siento genial!",
+            "Muchos clientes, ¿verdad? Ya sabes gracias a quién, ja, ja, ja."
+          ]
+        }
+      },
+      "uw": {
+        "name": "Banquete de los cien sabores, Tempora Fyrr",
+        "description": [
+          "Gana 1 acumulación de [Ingrediente perfecto] y recupera 1 esfera de PM cada 10 segundos.",
+          "Gana 1 acumulación de [Ingrediente perfecto] y recupera 1 esfera de PM cada 9 segundos.",
+          "Gana 1 acumulación de [Ingrediente perfecto] y recupera 1 esfera de PM cada 8 segundos.",
+          "Gana 1 acumulación de [Ingrediente perfecto] y recupera 1 esfera de PM cada 7 segundos.",
+          "Gana 1 acumulación de [Ingrediente perfecto] y recupera 1 esfera de PM cada 6 segundos.",
+          "Gana 1 acumulación de [Ingrediente perfecto] y recupera 1 esfera de PM cada 5 segundos."
+        ],
+        "story": "Una olla mágica que usó un chef legendario en el pasado lejano. Está hecha con un metal mágico que ni el herrero Jin había visto antes. Tiene el efecto de intensificar el sabor y el aroma de la comida, lo que maximiza las cualidades naturales de los ingredientes. Es un tesoro muy exótico, pero raramente usado por su dueña, Juno. Como se enorgullece mucho de su habilidad en la cocina, las personas suponen que no le gusta emplear artefactos mágicos de ese estilo. Así, el tesoro más valioso del mundo culinario ahora no es más que una decoración en la posada de Juno. Cuando ella decida usarlo, sin embargo, el mundo será testigo de un nivel de cocina completamente nuevo."
+      },
+      "s1": {
+        "name": "Mejor platillo",
+        "description": "Elimina los efectos negativos de todos los aliados, los cura un total de {1} de Salud durante {0} segundo(s), y aumenta su Defensa en {2}. [Ingrediente perfecto] Consume 2 acumulaciones de Ingrediente perfecto para duplicar el Aumento de la defensa cuando hay 2 acumulaciones o más.",
+        "books": {
+          "0": "Aumenta la Tasa de curación y el Daño en un {0}  %.",
+          "1": "Aumenta la Tasa de curación y el Daño en un {0}  %.",
+          "2": "Aumenta la Tasa de curación y el Daño en un {0}  %."
+        },
+        "light": "[Mejor platillo] Aumenta el Ataque del objetivo en un 15 % mientras una habilidad esté activa. [Plato del día picante de Juno]El objetivo recibe 25% de aumento de Daño Fis durante 10 seg.",
+        "dark": "[Mejor platillo] Causa que los efectos no se puedan eliminar. [Plato del día picante de Juno] Reduce el Costo de Mana en 1.",
+        "linked": {
+          "name": "Plato del día picante de Juno",
+          "description": "Elimina los efectos positivos de todos los enemigos, causa un total de {1} de Daño físico durante {0} segundo(s), y los enemigos reciben un {2}  %. de Daño aumentado. [Ingrediente perfecto] Consume 2 acumulaciones de Ingrediente perfecto para duplicar el Daño que reciben los enemigos cuando hay 2 acumulaciones o más."
+        }
+      },
+      "s2": {
+        "name": "Recarga",
+        "description": "Lanza un escudo sobre el aliado con menor Salud que absorbe {0} de Daño físico y otorga Inmunidad al Control de multitudes junto con 1 esfera de Mana. [Ingrediente perfecto] Consume 2 acumulaciones de Ingrediente perfecto para duplicar la Recuperación de PM cuando hay 2 acumulaciones o más.",
+        "books": {
+          "0": "Aumenta el Escudo y el Daño en un {0}  %.",
+          "1": "Aumenta el Escudo y el Daño en un {0}  %.",
+          "2": "Aumenta el Escudo y el Daño en un {0}  %."
+        },
+        "light": "[Recarga] Aumenta el Costo de Mana en 1, pero lanza escudos a 2 objetivos. [¡Toma lo que quieras y lárgate!] Reduce la Velocidad de ataque del enemigo golpeado en 200 durante 10 segundos.",
+        "dark": "[Recarga] Reduce el Costo de Mana en 1. [¡Toma lo que quieras y lárgate!] Aumenta el tiempo de reutilización de las habilidades activas del enemigo golpeado en 2 segundos.",
+        "ut": {
+          "name": "La jarra de la felicidad",
+          "description": [
+            "[Recarga] Aumenta la Tasa de recuperación de PM en un 50 % y reduce en un 12 % el tiempo de reutilización de las habilidades activas del objetivo. [¡Toma lo que quieras y lárgate!] Aumenta la Reducción de PM en un 50 % y aturde al objetivo durante 1 segundo.",
+            "[Recarga] Aumenta la Tasa de recuperación de PM en un 50 % y reduce en un 14 % el tiempo de reutilización de las habilidades activas del objetivo. [¡Toma lo que quieras y lárgate!] Aumenta la Reducción de PM en un 50 % y aturde al objetivo durante 1,2 segundos.",
+            "[Recarga] Aumenta la Tasa de recuperación de PM en un 50 % y reduce en un 17 % el tiempo de reutilización de las habilidades activas del objetivo. [¡Toma lo que quieras y lárgate!] Aumenta la Reducción de PM en un 50 % y aturde al objetivo durante 1,4 segundos.",
+            "[Recarga] Aumenta la Tasa de recuperación de PM en un 50 % y reduce en un 21 % el tiempo de reutilización de las habilidades activas del objetivo. [¡Toma lo que quieras y lárgate!] Aumenta la Reducción de PM en un 50 % y aturde al objetivo durante 1,7 segundos.",
+            "[Recarga] Aumenta la Tasa de recuperación de PM en un 50 % y reduce en un 25 % el tiempo de reutilización de las habilidades activas del objetivo. [¡Toma lo que quieras y lárgate!] Aumenta la Reducción de PM en un 50 % y aturde al objetivo durante 2,1 segundos.",
+            "[Recarga] Aumenta la Tasa de recuperación de PM en un 50 % y reduce en un 30 % el tiempo de reutilización de las habilidades activas del objetivo. [¡Toma lo que quieras y lárgate!] Aumenta la Reducción de PM en un 50 % y aturde al objetivo durante 2,5 segundos."
+          ],
+          "story": "Una jarra que compró Juno cuando era más novata a un comerciante sospechoso que la estafó con el precio. El comerciante le dijo que la jarra podía convertir el agua en un caldo mágico. Le demostró el proceso con sus manos veloces, y logró engañarla. Pero lo que él no sabía era que la jarra se transformaría en una jarra de la felicidad real a través de las increíbles habilidades culinarias de Juno. Gracias a las habilidades de Juno sumadas a su condimento especial, una versión mejorada del polvo de caldo mágico que había usado el comerciante, la jarra ahora es una de las herramientas para cocinar más importantes en la posada de Juno, y ayuda a preparar platillos del más alto nivel."
+        },
+        "linked": {
+          "name": "¡Toma lo que quieras y lárgate!",
+          "description": "Ataca al objetivo y a los enemigos cercanos que lo rodean, lo que inflige {0} de Daño físico y reduce sus PM en 1 esfera. Si el objetivo no es un héroe, inflige {1} de Daño físico adicional que ignora la Defensa. [Ingrediente perfecto] Consume 2 acumulaciones de Ingrediente perfecto para duplicar la Reducción de PM cuando hay 2 acumulaciones o más."
+        }
+      },
+      "s3": {
+        "name": "Cocinera del infierno",
+        "description": "Elimina todos los efectos negativos de uno mismo, cura {0} de Salud y se transforma en una Cocinera del infierno. [Mejor platillo] y [Recarga] cambian a [Plato del día picante de Juno] y [¡Toma lo que quieras y lárgate!] respectivamente. Gana 1 acumulación de [Ingrediente perfecto] que no se puede eliminar. Cuando se vuelve a usar la habilidad, se transforma en una Cocinera del cielo.",
+        "books": {
+          "0": "Aumenta Recuperacion en {0}%.",
+          "1": "Aumenta Recuperacion en {0}%.",
+          "2": "Aumenta Recuperacion en {0}%."
+        },
+        "light": "Aumenta la Tasa de curación en un 100 %.",
+        "dark": "Recupera 1 esfera de PM al usar la habilidad.",
+        "ut": {
+          "name": "Set de condimentos sospechosos",
+          "description": [
+            "[Cocinera del infierno] Aplica efectos de curación a todos los aliados y reduce el tiempo de reutilización de Cocinera del infierno en 1 segundo.",
+            "[Cocinera del infierno] Aplica efectos de curación a todos los aliados y reduce el tiempo de reutilización de Cocinera del infierno en 1,2 segundos.",
+            "[Cocinera del infierno] Aplica efectos de curación a todos los aliados y reduce el tiempo de reutilización de Cocinera del infierno en 1,4 segundos.",
+            "[Cocinera del infierno] Aplica efectos de curación a todos los aliados y reduce el tiempo de reutilización de Cocinera del infierno en 1,7 segundos.",
+            "[Cocinera del infierno] Aplica efectos de curación a todos los aliados y reduce el tiempo de reutilización de Cocinera del infierno en 2,1 segundos.",
+            "[Cocinera del infierno] Aplica efectos de curación a todos los aliados y reduce el tiempo de reutilización de Cocinera del infierno en 2,5 segundos."
+          ],
+          "story": "- ¡Aquí está tu pedido, el plato del día de Juno! Nadie toma en serio el cartel que hay en el frente de su posada y dice “¡El mejor sabor! ¡Calidad garantizada!” hasta que prueban el primer bocado. Hay muy pocas palabras que describen verdaderamente la comida de Juno. Cuando le preguntaron cuál era su secreto, sonrió y contestó: - ¡Es el condimento especial de Juno!"
+        }
+      },
+      "s4": {
+        "name": "Estamos atendiendo!",
+        "description": "Mientras tiene la forma de Cocinera del cielo, aumenta la Defensa de todos los aliados en {0} y su tasa de Recuperación en un {1}  %. Mientras tiene la forma de Cocinera del infierno, reduce la Defensa de todos los enemigos en {2}  % y su tasa de Recuperación en un {3}  %.",
+        "books": {
+          "0": "la tasa de aumento de DEF Fis. Se eleva en {0}%.",
+          "1": "la tasa de aumento de DEF Fis. Se eleva en {0}%.",
+          "2": "la tasa de aumento de DEF Fis. Se eleva en {0}%."
+        },
+        "light": "Aumenta la Probabilidad de crítico de todos los aliados en 200.",
+        "dark": "Reduce la Penetración de defensa de todos los enemigos en 200."
+      },
+      "t5": {
+        "light": "ATQ, DEF, Salud+15% / Bloq Fis +200",
+        "dark": "Al comienzo de cada batalla, gana 2 acumulaciones de [Ingrediente perfecto] y aumenta la Recuperación PM/seg. en un 200 % durante 10 segundos."
       }
     }
   },

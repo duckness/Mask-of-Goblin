@@ -193,14 +193,14 @@
       "story": "Un masque représentant le visage d'un Elfe Noir. Il dégage la même aura qu'un doux clair de lune."
     },
     "18": {
-      "name": "Masque de Squelette",
+      "name": "Masque de mort-vivant",
       "description": [
-        "L'ATQ contre les Squelettes est augmentée de 40% et la Résistance aux DEG contre les Squelettes de 20%",
-        "L'ATQ contre les Squelettes est augmentée de 48% et la Résistance aux DEG contre les Squelettes de 24%",
-        "L'ATQ contre les Squelettes est augmentée de 57% et la Résistance aux DEG contre les Squelettes de 28%",
-        "L'ATQ contre les Squelettes est augmentée de 69% et la Résistance aux DEG contre les Squelettes de 34%",
-        "L'ATQ contre les Squelettes est augmentée de 83% et la Résistance aux DEG contre les Squelettes de 41%",
-        "L'ATQ contre les Squelettes est augmentée de 100% et la Résistance aux DEG contre les Squelettes de 50%"
+        "Augmente les DEG contre les morts-vivants de 40 % et la résistance contre les morts-vivants de 20 %.",
+        "Augmente les DEG contre les morts-vivants de 48 % et la résistance contre les morts-vivants de 24 %.",
+        "Augmente les DEG contre les morts-vivants de 57 % et la résistance contre les morts-vivants de 28 %.",
+        "Augmente les DEG contre les morts-vivants de 69 % et la résistance contre les morts-vivants de 34 %.",
+        "Augmente les DEG contre les morts-vivants de 83 % et la résistance contre les morts-vivants de 41 %.",
+        "Augmente les DEG contre les morts-vivants de 100 % et la résistance contre les morts-vivants de 50 %."
       ],
       "story": "Un masque représentant le visage d'un squelette. Il sent la mort."
     },
@@ -562,7 +562,7 @@
         "Au début d'un combat, réduit les DEG reçus des ennemis non-héros de 20 % pendant 30 sec et restaure 210 PM toutes les 2 sec.",
         "Au début d'un combat, réduit les DEG reçus des ennemis non-héros de 20 % pendant 30 sec et restaure 250 PM toutes les 2 sec."
       ],
-      "story": ""
+      "story": "Cette spécialité d'Orvel est incontournable pour échapper à la chaleur de l'été. La première gorgée fait tomber la chaleur, la seconde refroidit totalement."
     }
   },
   "hero": {
@@ -2313,7 +2313,7 @@
           "2": "Pendant {0} sec, la Résistance aux Contrôles est augmentée de {1}."
         },
         "light": "Le coût en Mana est réduit de 1.",
-        "dark": "Augmente la DEF M. de 10% de M.DEF.",
+        "dark": "Augmente la DEF M à hauteur de 10 % de la DEF M du lanceur.",
         "ut": {
           "name": "Graine de vie",
           "description": [
@@ -6487,9 +6487,9 @@
           "Confère Porteuse de malédictions toutes les 20 secondes et augmente l'ATQ de 20 % pendant 10 secondes.",
           "Confère Porteuse de malédictions toutes les 19 secondes et augmente l'ATQ de 24 % pendant 10 secondes.",
           "Confère Porteuse de malédictions toutes les 18 secondes et augmente l'ATQ de 29 % pendant 10 secondes.",
-          "Confère Porteuse de malédictions toutes les 17 secondes et augmente l'ATQ de 35 % pendant 10 secondes.",
-          "Confère Porteuse de malédictions toutes les 16 secondes et augmente l'ATQ de 42 % pendant 10 secondes.",
-          "Confère Porteuse de malédictions toutes les 15 secondes et augmente l'ATQ de 50 % pendant 10 secondes."
+          "Confère Porteuse de malédictions toutes les 16 secondes et augmente l'ATQ de 35 % pendant 10 secondes.",
+          "Confère Porteuse de malédictions toutes les 14 secondes et augmente l'ATQ de 42 % pendant 10 secondes.",
+          "Confère Porteuse de malédictions toutes les 12 secondes et augmente l'ATQ de 50 % pendant 10 secondes."
         ],
         "story": "Les malédictions sont issues des sentiments négatifs tels que la haine, la jalousie et la rancœur. Shamilla s'en régale. Ses puissantes ailes qui ont poussé au cours de la guerre des démons en absorbant les malédictions d'innombrables victimes terrifient les bonnes gens. Il suffit d'en toucher les plumes pour être frappé de multiples malédictions et sombrer dans un tourbillon d'émotions. Au fond de ce gouffre, un rire aussi tentateur qu'enjôleur résonne à l'infini. C'est le rire d'un démon qui se gausse des sentiments humains."
       },
@@ -8071,7 +8071,7 @@
       },
       "s1": {
         "name": "Sol déchiré",
-        "description": "Inflige {0} points de DEG P aux ennemis à portée et faisant face au héros et les renverse pendant {1} seconde(s).",
+        "description": "Inflige {0}  points de DEG P aux ennemis à portée situés en face et les renverse pendant {1}  sec, ce qui diminue la Resist P faible des cibles touchées de {3}  % pendant {2}  sec.",
         "books": {
           "0": "Augmente les DEG de {0}%.",
           "1": "Augmente les DEG de {0}%.",
@@ -8139,7 +8139,135 @@
       },
       "t5": {
         "light": "ATQ, DEF, PV +15% / Blocage M. +200",
-        "dark": "Si vous bloquez des DEG M, le Blocage M de tous les alliés augmente de 200 points, et leur DEF M augmente de 10 % de celle de Loman pendant 10 sec. Cet effet ne peut être activé qu'une fois toutes les 20 sec."
+        "dark": "Si vous bloquez des DEG M, le Blocage M de tous les alliés augmente de 200 points, et leur DEF M augmente de 10 % de celle de Loman pendant 5 sec. Cet effet ne peut être activé qu'une fois toutes les 5 sec."
+      }
+    },
+    "94": {
+      "name": "Juno",
+      "subtitle": "Le chef des héros",
+      "description": "C'est l'une des meilleures cuisinières d'Orvel. Ses compétences culinaires couvrent tout, des en-cas sans prétention aux plats de luxe. Sa cuisine soigne le corps et donne du courage.",
+      "story": "Jeune citadine ordinaire, son talent culinaire n'a pas d'égal à Orvel. De la nourriture saine et simple pour le peuple aux spécialités de luxe pour l'élite, aucun plat ne lui résiste. On lui proposa jadis le poste de chef royal, mais elle refusa et ouvrit une taverne pour que tout le monde puisse goûter sa cuisine. Son établissement est rapidement devenu l'une des attractions les plus prisées d'Orvel et attire encore aujourd'hui d'innombrables aventuriers. Aujourd'hui baptisé « Taverne du héros », Juno y coule des jours paisibles aux côtés de héros.",
+      "like": "Manger, cuisiner, les gens qui aiment ses plats",
+      "dislike": "Les gens qui dénigrent sa cuisine",
+      "inn": {
+        "idle": "Bienvenue ! En revanche, vous arrivez pendant la pause...",
+        "recruit": {
+          "greet": "",
+          "talk": [
+            "",
+            "",
+            ""
+          ],
+          "gift": ""
+        },
+        "affinity": {
+          "greet": "Entrez donc ! Qu'est-ce qui vous ferait plaisir, aujourd'hui ?",
+          "talk": [
+            "Dites-moi ce qui vous fait envie, et je vous le prépare aussitôt !",
+            "J'ai pourtant vu un tas d'aventuriers, mais vous me paraissez différent."
+          ],
+          "gift": "Oh, un pourboire ? Hé hé, merci."
+        },
+        "relationship": {
+          "greet": "Vous avez déjà mangé ? Si ce n'est pas le cas, je peux vous recommander un plat !",
+          "talk": [
+            "Les œufs des sources chaudes sont à tomber ! D'ailleurs, ils font partie de mes plats simples préférés !",
+            "Les affaires vont bon train en ce moment. Ça me réjouit !",
+            "Un tas de clients, c'est ça ? Tout ça grâce à qui vous savez, ah ah ah !"
+          ]
+        }
+      },
+      "uw": {
+        "name": "Tempora Fyrr, le banquet aux mille saveurs",
+        "description": [
+          "Confère 1 charge d'[Ingrédient succulent] et restaure 1 orbe de PM toutes les 10 secondes.",
+          "Confère 1 charge d'[Ingrédient succulent] et restaure 1 orbe de PM toutes les 9 secondes.",
+          "Confère 1 charge d'[Ingrédient succulent] et restaure 1 orbe de PM toutes les 8 secondes.",
+          "Confère 1 charge d'[Ingrédient succulent] et restaure 1 orbe de PM toutes les 7 secondes.",
+          "Confère 1 charge d'[Ingrédient succulent] et restaure 1 orbe de PM toutes les 6 secondes.",
+          "Confère 1 charge d'[Ingrédient succulent] et restaure 1 orbe de PM toutes les 5 secondes."
+        ],
+        "story": "Marmite magique ayant servi à un chef légendaire depuis longtemps disparu. Elle est composée d'un métal magique inconnu, même de Jin le forgeron. Elle décuple le goût et les arômes de la nourriture qu'elle contient, révélant ainsi tout le potentiel des ingrédients. Ce trésor extrêmement rare est rarement utilisé par Juno, sa propriétaire. Connaissant la fierté que lui procure son talent, l'on suppose qu'elle n'aime pas se reposer sur de tels artifices magiques. C'est pour cela que le trésor le plus précieux du monde culinaire sert aujourd'hui de simple décoration dans la taverne de Juno. Si elle venait à l'utiliser, un tout nouveau paradis gustatif s'ouvrirait alors au monde entier."
+      },
+      "s1": {
+        "name": "Plat signature",
+        "description": "Retire les effets négatifs qui pèsent sur tous les alliés, restaure un total de {1} PV en {0}  sec et augmente la DEF de {2}  points. [Ingrédient succulent] Quand il est cumulé 2 fois ou plus, utilise 2 charges d'Ingrédient succulent pour doubler le boost de DEF.",
+        "books": {
+          "0": "Augmente la récupération et les DEG de {0}  %.",
+          "1": "Augmente la récupération et les DEG de {0}  %.",
+          "2": "Augmente la récupération et les DEG de {0}  %."
+        },
+        "light": "[Plat signature] Augmente l'ATQ de la cible de 15 % pendant la durée de la compétence. [Plat épicé de Juno] La cible reçoit 25% de DEG P. supplémentaires pendant 10 sec.",
+        "dark": "[Plat signature] Rend tous les effets inamovibles. [Plat épicé de Juno] Réduit le coût en mana de 1 point.",
+        "linked": {
+          "name": "Plat épicé de Juno",
+          "description": "Retire les effets positifs dont bénéficient les ennemis, inflige un total de {1}  points de DEG P en {0}  sec, et les ennemis subissent {2}  % de DEG P supplémentaires. [Ingrédient succulent] Quand il est cumulé 2 fois ou plus, utilise 2 charges d'Ingrédient succulent pour doubler les DEG P subis par les ennemis."
+        }
+      },
+      "s2": {
+        "name": "Coup de fouet",
+        "description": "Génère un bouclier qui protège l'allié aux PV les plus bas, qui absorbe {0}  points de DEG et lui confère l'immunité contre les contrôles ainsi que 1 orbe de mana. [Ingrédient succulent] Quand il est cumulé 2 fois ou plus, utilise 2 charges d'Ingrédient succulent pour doubler la récupération de PM.",
+        "books": {
+          "0": "Augmente le bouclier et les DEG de {0}  %.",
+          "1": "Augmente le bouclier et les DEG de {0}  %.",
+          "2": "Augmente le bouclier et les DEG de {0}  %."
+        },
+        "light": "[Coup de fouet] Augmente le coût en mana de 1 point, mais génère un bouclier sur 2 cibles. [Mangez tout et partez !] Réduit la Vit ATQ de l'ennemi touché de 200 points pendant 10 secondes.",
+        "dark": "[Coup de fouet] Réduit le coût en mana de 1 point. [Mangez tout et partez !] Augmente de 2 sec le temps de recharge des compétences actives de l'ennemi touché.",
+        "ut": {
+          "name": "Bocal de bonheur",
+          "description": [
+            "[Coup de fouet] Augmente la récupération de PM de 50 % et réduit de 12 % le temps de recharge des compétences actives de la cible. [Mangez tout et partez !] Augmente la réduction de PM de 50 % et étourdit la cible pendant 1 seconde.",
+            "[Coup de fouet] Augmente la récupération de PM de 50 % et réduit de 14 % le temps de recharge des compétences actives de la cible. [Mangez tout et partez !] Augmente la réduction de PM de 50 % et étourdit la cible pendant 1,2 seconde.",
+            "[Coup de fouet] Augmente la récupération de PM de 50 % et réduit de 17 % le temps de recharge des compétences actives de la cible. [Mangez tout et partez !] Augmente la réduction de PM de 50 % et étourdit la cible pendant 1,4 seconde.",
+            "[Coup de fouet] Augmente la récupération de PM de 50 % et réduit de 21 % le temps de recharge des compétences actives de la cible. [Mangez tout et partez !] Augmente la réduction de PM de 50 % et étourdit la cible pendant 1,7 seconde.",
+            "[Coup de fouet] Augmente la récupération de PM de 50 % et réduit de 25 % le temps de recharge des compétences actives de la cible. [Mangez tout et partez !] Augmente la réduction de PM de 50 % et étourdit la cible pendant 2,1 secondes.",
+            "[Coup de fouet] Augmente la récupération de PM de 50 % et réduit de 30 % le temps de recharge des compétences actives de la cible. [Mangez tout et partez !] Augmente la réduction de PM de 50 % et étourdit la cible pendant 2,5 secondes."
+          ],
+          "story": "Juno, encore naïve, acheta ce bocal fort cher à un marchand louche. Il lui avait fait croire qu'il pouvait transformer de l'eau en bouillon magique. Il parvint à lui en faire une démonstration grâce à un tour de main trompeur, et elle le crut. Ce que l'escroc ne pouvait pas s'imaginer, c'est que cet ustensile deviendrait le bocal de bonheur, grâce au talent culinaire inégalable de Juno. Entre ses compétences toujours plus affinées et son assaisonnement spécial qui n'est autre qu'une version améliorée de la poudre de bouillon magique qu'avait utilisée le marchand, ce bocal est désormais un élément incontournable de la cuisine de la taverne de Juno, où il sert à confectionner les plus grands plats."
+        },
+        "linked": {
+          "name": "Mangez tout et partez !",
+          "description": "Attaque la cible et les ennemis proches pour leur infliger {0}  points de DEG et réduire leurs PM de 1 orbe. Si la cible n'est pas un héros, inflige {1}  points de DEG P supplémentaires malgré sa DEF. [Ingrédient succulent] Quand il est cumulé 2 fois ou plus, utilise 2 charges d'Ingrédient succulent pour doubler la réduction de PM."
+        }
+      },
+      "s3": {
+        "name": "Chef de l'enfer",
+        "description": "Retire tous les effets négatifs sur le lanceur, restaure {0}  PV et vous transforme en Chef de l'enfer. [Plat signature] et [Coup de fouet] deviennent respectivement [Plat épicé de Juno] et [Mangez tout et partez !]. Confère 1 charge inamovible d'[Ingrédient succulent]. Si vous utilisez à nouveau la compétence, vous vous transformez en Chef du paradis.",
+        "books": {
+          "0": "Augmente la Récupération de {0}%.",
+          "1": "Augmente la Récupération de {0}%.",
+          "2": "Augmente la Récupération de {0}%."
+        },
+        "light": "Accélère la récupération de 100 %.",
+        "dark": "Permet de restaurer 1 orbe de mana.",
+        "ut": {
+          "name": "Assortiment d'épices suspect",
+          "description": [
+            "[Chef de l'enfer] Applique des effets de soin à tous les alliés et réduit de 1 seconde le temps de recharge de Chef de l'enfer.",
+            "[Chef de l'enfer] Applique des effets de soin à tous les alliés et réduit de 1,2 seconde le temps de recharge de Chef de l'enfer.",
+            "[Chef de l'enfer] Applique des effets de soin à tous les alliés et réduit de 1,4 seconde le temps de recharge de Chef de l'enfer.",
+            "[Chef de l'enfer] Applique des effets de soin à tous les alliés et réduit de 1,7 seconde le temps de recharge de Chef de l'enfer.",
+            "[Chef de l'enfer] Applique des effets de soin à tous les alliés et réduit de 2,1 secondes le temps de recharge de Chef de l'enfer.",
+            "[Chef de l'enfer] Applique des effets de soin à tous les alliés et réduit de 2,5 secondes le temps de recharge de Chef de l'enfer."
+          ],
+          "story": "- Et voici votre spécialité de Juno ! La devanture de sa taverne, où il est écrit « Goût exquis ! Qualité garantie ! » n'inspire pas confiance... jusqu'à ce qu'on goûte ! Les mots ne sont pas suffisants pour qualifier la nourriture de Juno. Lorsqu'on lui demande son secret, elle sourit et répond : « C'est l'assaisonnement spécial de Juno ! »"
+        }
+      },
+      "s4": {
+        "name": "C'est ouvert !",
+        "description": "La forme Chef du paradis augmente la DEF de tous les alliés de {0}  points et leur récupération de {1}  %. La forme Chef de l'enfer réduit la DEF de tous les ennemis de {2}  % et leur récupération de {3}  %.",
+        "books": {
+          "0": "Le taux d'augmentation de la DEF P. est augmenté de {0}%.",
+          "1": "Le taux d'augmentation de la DEF P. est augmenté de {0}%.",
+          "2": "Le taux d'augmentation de la DEF P. est augmenté de {0}%."
+        },
+        "light": "Augmente de 200 points les chances de coup critique des alliés.",
+        "dark": "Réduit de 200 points la Pénétration DEF de tous les ennemis."
+      },
+      "t5": {
+        "light": "ATQ, DEF, PV +15% / Blocage P. +200",
+        "dark": "Au début de chaque combat, vous obtenez 2 charges d'[Ingrédient succulent] et la récupération des PM/sec augmente de 200 % pendant 10 secondes."
       }
     }
   },

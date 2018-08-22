@@ -193,14 +193,14 @@
       "story": "Uma máscara inspirada no rosto de um Elfo Sombrio. Emite uma aura de suave luar."
     },
     "18": {
-      "name": "Máscara do Esqueleto",
+      "name": "Máscara de Morto-Vivo",
       "description": [
-        "Aumenta em 40% o ATQ a Esqueletos e a resistência a DAN contra Esqueletos em 20%",
-        "Aumenta em 48% o ATQ a Esqueletos e a resistência a DAN contra Esqueletos em 24%",
-        "Aumenta em 57% o ATQ a Esqueletos e a resistência a DAN contra Esqueletos em 28%",
-        "Aumenta em 69% o ATQ a Esqueletos e a resistência a DAN contra Esqueletos em 34%",
-        "Aumenta em 83% o ATQ a Esqueletos e a resistência a DAN contra Esqueletos em 41%",
-        "Aumenta em 100% o ATQ a Esqueletos e a resistência a DAN contra Esqueletos em 50%"
+        "Aumenta o DAN a Mortos-Vivos em 40% e a Resistência a Mortos-Vivos em 20%.",
+        "Aumenta o DAN a Mortos-Vivos em 48% e a Resistência a Mortos-Vivos em 24%.",
+        "Aumenta o DAN a Mortos-Vivos em 57% e a Resistência a Mortos-Vivos em 28%.",
+        "Aumenta o DAN a Mortos-Vivos em 69% e a Resistência a Mortos-Vivos em 34%.",
+        "Aumenta o DAN a Mortos-Vivos em 83% e a Resistência a Mortos-Vivos em 41%.",
+        "Aumenta o DAN a Mortos-Vivos em 100% e a Resistência a Mortos-Vivos em 50%."
       ],
       "story": "Uma máscara inspirada no rosto de um Esqueleto. Tem o cheiro da morte."
     },
@@ -562,7 +562,7 @@
         "Quando a batalha começa, reduz o DAN de inimigos não Heróis em 42% por 30 segundo(s) e recupera 210 PM a cada 2 segundo(s).",
         "Quando a batalha começa, reduz o DAN de inimigos não Heróis em 50% por 30 segundo(s) e recupera 250 PM a cada 2 segundo(s)."
       ],
-      "story": ""
+      "story": "Esta iguaria de Orvel é essencial para aqueles que não suportam o calor escaldante do verão. Um gole já reduz o calor, e mais um faz com que o calor desapareça."
     }
   },
   "hero": {
@@ -2313,7 +2313,7 @@
           "2": "Durante {0} segundos, aumenta Resistência a CM em {1}."
         },
         "light": "Reduz o custo de mana em 1.",
-        "dark": "Aumenta a própria DEF.M em 10%.",
+        "dark": "Aumenta a DEF M. em mais 10% da DEF M. do utilizador.",
         "ut": {
           "name": "Semente da Origem",
           "description": [
@@ -6487,9 +6487,9 @@
           "A cada 20 segundos, obtém A Hospedeira de Maldições e aumenta o ATQ em 20% por 10 segundos.",
           "A cada 19 segundos, obtém A Hospedeira de Maldições e aumenta o ATQ em 24% por 10 segundos.",
           "A cada 18 segundos, obtém A Hospedeira de Maldições e aumenta o ATQ em 29% por 10 segundos.",
-          "A cada 17 segundos, obtém A Hospedeira de Maldições e aumenta o ATQ em 35% por 10 segundos.",
-          "A cada 16 segundos, obtém A Hospedeira de Maldições e aumenta o ATQ em 42% por 10 segundos.",
-          "A cada 15 segundos, obtém A Hospedeira de Maldições e aumenta o ATQ em 50% por 10 segundos."
+          "A cada 16 segundos, obtém A Hospedeira de Maldições e aumenta o ATQ em 35% por 10 segundos.",
+          "A cada 14 segundos, obtém A Hospedeira de Maldições e aumenta o ATQ em 42% por 10 segundos.",
+          "A cada 12 segundos, obtém A Hospedeira de Maldições e aumenta o ATQ em 50% por 10 segundos."
         ],
         "story": "Maldições nascem de sentimentos negativos, como ódio, inveja e rancor. Esses são os melhores alimentos para Shamilla. As asas, que se tornaram poderosas durante a Guerra dos Demônios ao absorverem as maldições de inúmeros indivíduos, são aterrorizantes para pessoas normais. Dizem que quem é tocado pelas penas fica vinculado a várias maldições e cai em um vórtice de emoções. Nesse abismo, ressoa uma risada cativante e sedutora: a risada de um demônio que gosta de diferentes tipos de sentimentos humanos."
       },
@@ -8071,7 +8071,7 @@
       },
       "s1": {
         "name": "Abrir o Solo",
-        "description": "Causa {0} de DAN F. a inimigos em frente dentro de alcance os derruba por {1} segundo(s).",
+        "description": "Causa {0} de DAN F. a inimigos em frente dentro de alcance os derruba por {1} seg., aumentando a Vulnerabilidade F. dos alvos atingidos em {3}% por {2} seg.",
         "books": {
           "0": "Aumenta o DAN em {0}%.",
           "1": "Aumenta o DAN em {0}%.",
@@ -8139,7 +8139,135 @@
       },
       "t5": {
         "light": "ATQ, DEF, PV+15% / BLQ.M +200",
-        "dark": "Ao bloquear DAN M. com sucesso, todos os aliados têm seus Bloq M. aumentados em 200 e suas DEF M. aumentadas em 10% da DEF M. de Loman durante 10 seg. Esse efeito é ativado apenas uma vez a cada 20 segundos."
+        "dark": "Ao bloquear DAN M. com sucesso, todos os aliados têm seus Bloq M. aumentados em 200 e suas DEF M. aumentadas em 10% da DEF M. de Loman durante 5 seg. Esse efeito é ativado apenas uma vez a cada 5 segundos."
+      }
+    },
+    "94": {
+      "name": "Juno",
+      "subtitle": "A Chef dos Heróis",
+      "description": "Uma das melhores cozinheiras de Orvel. De petiscos simples a pratos de luxo, sua habilidades culinárias parecem abranger de tudo. Sua comida cura o corpo e satisfaz o coração com coragem.",
+      "story": "Ela é uma jovem comum da cidade, mas suas habilidades culinárias são as melhores de Orvel. Da comida simples do povo a iguarias luxuosas da nobreza, não há nada que ela não saiba preparar. Uma vez, ela recebeu uma proposta para trabalhar como Chef da Realeza, mas recusou e abriu uma estalagem para que todos saboreassem seus pratos. Sua estalagem logo se tornou uma das atrações mais famosas de Orvel, visitada por inúmeros aventureiros. Agora as pessoas chamam o lugar de ‘Estalagem do Herói’, e ela está curtindo sua vida entre os ‘heróis’.",
+      "like": "Comer, cozinhar, pessoas que gostam dos seus pratos",
+      "dislike": "Pessoas que depreciam sua culinária",
+      "inn": {
+        "idle": "Boas-vindas! Só que é hora do descanso...",
+        "recruit": {
+          "greet": "",
+          "talk": [
+            "",
+            "",
+            ""
+          ],
+          "gift": ""
+        },
+        "affinity": {
+          "greet": "Entre! O que você gostaria de comer hoje?",
+          "talk": [
+            "É só me dizer o que quer e eu cozinho na hora!",
+            "Eu já vi muitos aventureiros, mas você me parece diferente, de certa forma."
+          ],
+          "gift": "Ah, uma gorjeta? Hehe, obrigada."
+        },
+        "relationship": {
+          "greet": "Você já comeu? Se não, eu posso recomendar um prato!",
+          "talk": [
+            "Os ovos primavera são deliciosos! E é um dos meus pratos simples preferidos!",
+            "Os negócios vão bem ultimamente. Eu estou muito bem!",
+            "Muitos clientes, né? Tudo graças a você sabe quem. Hahaha."
+          ]
+        }
+      },
+      "uw": {
+        "name": "Banquete de Cem Sabores, Tempora Fyrr",
+        "description": [
+          "Ganha 1 acúmulo de [Ingrediente Excelente] e recupera 1 orbe de PM a cada 10 segundos.",
+          "Ganha 1 acúmulo de [Ingrediente Excelente] e recupera 1 orbe de PM a cada 9 segundos.",
+          "Ganha 1 acúmulo de [Ingrediente Excelente] e recupera 1 orbe de PM a cada 8 segundos.",
+          "Ganha 1 acúmulo de [Ingrediente Excelente] e recupera 1 orbe de PM a cada 7 segundos.",
+          "Ganha 1 acúmulo de [Ingrediente Excelente] e recupera 1 orbe de PM a cada 6 segundos.",
+          "Ganha 1 acúmulo de [Ingrediente Excelente] e recupera 1 orbe de PM a cada 5 segundos."
+        ],
+        "story": "Um recipiente mágico que foi usado por um chef lendário no passado distante. Ele é feito de um metal mágico que até mesmo o Ferreiro Jin nunca havia visto. Ele tem os efeitos de potencializar o sabor e aroma da comida, ampliando a qualidade natural dos ingredientes. É um tesouro tão raro, mas raramente é usado por sua dona, Juno. Como ela se orgulha muito de suas habilidades culinárias, as pessoas deduzem que ela não gosta de usar artefatos mágicos desse tipo. Como resultado, o tesouro mais precioso da culinária agora é só uma peça decorativa na estalagem da Juno. Quando chegar o dia em que ela decidir usá-lo, o mundo testemunhará um novo nível de culinária."
+      },
+      "s1": {
+        "name": "Melhor Prato",
+        "description": "Remove efeitos negativos de todos os aliados, regenera até {1} PV em {0} segundo(s) e aumenta a DEF em {2}. [Ingrediente Excelente] Consome 2 acúmulos de Ingrediente Excelente para dobrar o Impulso de DEF quando há 2 ou mais acúmulos.",
+        "books": {
+          "0": "Aumenta a Taxa de Cura e DAN em {0}%.",
+          "1": "Aumenta a Taxa de Cura e DAN em {0}%.",
+          "2": "Aumenta a Taxa de Cura e DAN em {0}%."
+        },
+        "light": "[Melhor Prato] Aumenta o ATQ do alvo em 15% enquanto durar a habilidade. [Especial Picante da Juno] O alvo recebe mais 25% de DAN.F durante 10 segundos.",
+        "dark": "[Melhor Prato] Torna todos os efeitos não removíveis. [Especial Picante da Juno] Reduz o Custo de Mana em 1.",
+        "linked": {
+          "name": "Especial Picante da Juno",
+          "description": "Remove efeitos positivos de todos os inimigos, causa até {1} de DAN em {0} segundo(s), e inimigos tomam DAN F. aumentado em {2}%. [Ingrediente Excelente]Consome 2 acúmulos de Ingrediente Excelente para dobrar o DAN F. aos inimigos quando há 2 ou mais acúmulos."
+        }
+      },
+      "s2": {
+        "name": "Energia",
+        "description": "Forma um escudo no aliado com menos PV que absorve {0} DAN e fornece Imunidade à Penalidade, além de 1 orbe de Mana. [Ingrediente Excelente] Consome 2 acúmulos de Ingrediente Excelente para dobrar a Recuperação de PM quando há 2 ou mais acúmulos.",
+        "books": {
+          "0": "Aumenta o Escudo e DAN em {0}%.",
+          "1": "Aumenta o Escudo e DAN em {0}%.",
+          "2": "Aumenta o Escudo e DAN em {0}%."
+        },
+        "light": "[Energia] Aumenta o Custo de Mana em 1, mas forma escudos em 2 alvos. [Sirva-se e Dê o Fora!] Reduz a Vel de ATQ do inimigo atingido em 200 por 10 segundos.",
+        "dark": "[Energia] Aumenta o Custo de Mana em 1. [Sirva-se e Dê o Fora!] Aumenta a Recarga das habilidades ativas do inimigo atingido em 2 segundos.",
+        "ut": {
+          "name": "O Frasco da Felicidade",
+          "description": [
+            "[Energia] Aumenta a Taxa de Recuperação de PM em 50% e reduz a Recarga das habilidades ativas do alvo em 12%. [Sirva-se e Dê o Fora!] Aumenta a Redução de PM em 50% e atordoa o alvo por 1 segundo.",
+            "[Energia] Aumenta a Taxa de Recuperação de PM em 50% e reduz a Recarga das habilidades ativas do alvo em 14%. [Sirva-se e Dê o Fora!] Aumenta a Redução de PM em 50% e atordoa o alvo por 1,2 segundo.",
+            "[Energia] Aumenta a Taxa de Recuperação de PM em 50% e reduz a Recarga das habilidades ativas do alvo em 17%. [Sirva-se e Dê o Fora!] Aumenta a Redução de PM em 50% e atordoa o alvo por 1,4 segundo.",
+            "[Energia] Aumenta a Taxa de Recuperação de PM em 50% e reduz a Recarga das habilidades ativas do alvo em 21%. [Sirva-se e Dê o Fora!] Aumenta a Redução de PM em 50% e atordoa o alvo por 1,7 segundo.",
+            "[Energia] Aumenta a Taxa de Recuperação de PM em 50% e reduz a Recarga das habilidades ativas do alvo em 25%. [Sirva-se e Dê o Fora!] Aumenta a Redução de PM em 50% e atordoa o alvo por 2,1 segundos.",
+            "[Energia] Aumenta a Taxa de Recuperação de PM em 50% e reduz a Recarga das habilidades ativas do alvo em 30%. [Sirva-se e Dê o Fora!] Aumenta a Redução de PM em 50% e atordoa o alvo por 2,5 segundos."
+          ],
+          "story": "Um frasco que Juno, em seus dias inocentes, comprou a um preço abusivo de um mercador suspeito. O mercador disse que o fraco era capaz de transformar água em um caldo mágico. Ele conseguiu demonstrar o processo com suas mãos ágeis e a convenceu. O que ele não sabia, no entanto, era que o frasco de fato se tornaria um verdadeiro Frasco da Felicidade com as habilidades culinárias impressionantes da Juno. Com as habilidades culinárias muito aprimoradas da Juno e a adição de seu Tempero Especial, uma versão melhorada do pó de caldo mágico que o mercador usou, o frasco agora é um dos utensílios mais importantes na cozinha da estalagem da Juno, preparando pratos maravilhosos."
+        },
+        "linked": {
+          "name": "Sirva-se e Dê o Fora!",
+          "description": "Ataca o alvo e os inimigos ao redor dele, causando {0} de DAN F. e reduzindo seu PM em 1 orbe. Se o alvo não foi um herói, inflige {1} DAN F. a mais que ignora a DEF. [Ingrediente Excelente] Consome 2 acúmulos de Ingrediente Excelente para dobrar a Redução de PM quando há 2 ou mais acúmulos."
+        }
+      },
+      "s3": {
+        "name": "Chef do Inferno",
+        "description": "Remove todos os efeitos negativos de si mesmo, cura {0} PV e transforma em Chef do Inferno. [Melhor Prato] e [Energia] são alterados para [Especial Picante da Juno] e [Sirva-se e Dê o Fora!], respectivamente. Ganha 1 acúmulo de [Ingrediente Excelente] não removível. Quando a habilidade é usada novamente, transforma em Chef dos Céus.",
+        "books": {
+          "0": "Aumenta a Recuperação em {0}%.",
+          "1": "Aumenta a Recuperação em {0}%.",
+          "2": "Aumenta a Recuperação em {0}%."
+        },
+        "light": "Aumenta a Taxa de Cura em 100%.",
+        "dark": "Recupera 1 orbe de PM após o uso.",
+        "ut": {
+          "name": "Kit de Temperos Suspeitos",
+          "description": [
+            "[Chef do Inferno] Aplica efeitos curativos a todos os aliados e reduz a Recarga do Chef do Inferno em 1 segundo.",
+            "[Chef do Inferno] Aplica efeitos curativos a todos os aliados e reduz a Recarga do Chef do Inferno em 1,2 segundo.",
+            "[Chef do Inferno] Aplica efeitos curativos a todos os aliados e reduz a Recarga do Chef do Inferno em 1,4 segundo.",
+            "[Chef do Inferno] Aplica efeitos curativos a todos os aliados e reduz a Recarga do Chef do Inferno em 1,7 segundo.",
+            "[Chef do Inferno] Aplica efeitos curativos a todos os aliados e reduz a Recarga do Chef do Inferno em 2,1 segundos.",
+            "[Chef do Inferno] Aplica efeitos curativos a todos os aliados e reduz a Recarga do Chef do Inferno em 2,5 segundos."
+          ],
+          "story": "- Aqui está seu pedido, o Especial da Juno! Ninguém leva a sério o cartaz em frente à estalagem que diz ‘Sabor Excelente! Qualidade Garantida!’ até colocarem a comida na boca. Há poucas palavras que fazem justiça à comida da Juno. Quando perguntavam qual era seu segredo, ela sorria e respondia - É o Tempero Especial da Juno!"
+        }
+      },
+      "s4": {
+        "name": "Aberto!",
+        "description": "Enquanto transformado em Chef dos Céus, aumenta a DEF de todos os aliados em {0} e sua Taxa de Cura em {1}%. Enquanto transformado em Chef do Inferno, reduz a DEF de todos os inimigos em {2}% e sua Taxa de Cura em {3}%.",
+        "books": {
+          "0": "Taxa de aumento de DEF.F aumentada em {0}%.",
+          "1": "Taxa de aumento de DEF.F aumentada em {0}%.",
+          "2": "Taxa de aumento de DEF.F aumentada em {0}%."
+        },
+        "light": "Aumenta a Chance Crít. de todos os aliados em 200.",
+        "dark": "Reduz a Penetração de DEF de todos os inimigos em 200."
+      },
+      "t5": {
+        "light": "ATQ, DEF, PV+15% / BLQ.F +200",
+        "dark": "No começo de cada batalha, ganha 2 acúmulos de [Ingrediente Excelente] e aumenta a Recuperação de PM/Seg. em 200% por 10 segundos."
       }
     }
   },
