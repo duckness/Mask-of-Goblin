@@ -550,7 +550,7 @@
         "Angriffsgeschw. wird um 165 erhöht.",
         "Angriffsgeschw. wird um 200 erhöht."
       ],
-      "story": "Dieses mysteriöse Item in der Form eines Kükens ist ursprünglich für ein Kinderfest gedacht. Es eignet sich sehr gut dazu, sich zu beruhigen."
+      "story": "Eine kleine Kükenspielfigur, die die Unschuld von Kindern repräsentiert."
     },
     "59": {
       "name": "Kühlende Köstlichkeit im Sommer",
@@ -615,7 +615,7 @@
       },
       "s1": {
         "name": "Urteilsklinge",
-        "description": "Fügt Feinden in Reichw. {0} K.Schaden zu und wirft sie für {1} Sek zu Boden.",
+        "description": "Fügt Frontfeinden zweimal {0} K.Schaden in einem Kreis zu und wirft sie für {1} Sek. zu Boden.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -626,7 +626,7 @@
       },
       "s2": {
         "name": "Tollkühner Vorstoß",
-        "description": "Fügt Feinden in Reichw. {0} K.Schaden zu.",
+        "description": "Greift das Ziel 3-mal an und stürmt dann hinter es, um ihm {0} K.Schaden zuzufügen.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -769,7 +769,7 @@
       },
       "s3": {
         "name": "Himmlische Rache",
-        "description": "Fügt Feinden in Reichw. {0} M.Schaden zu und blendet sie für {1} Sek.",
+        "description": "Greift das Ziel und Feinde in seiner Nähe 6-mal an, verursacht dabei insgesamt {0} M.Schaden und blendet sie für {1} Sek.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -792,7 +792,7 @@
       },
       "s4": {
         "name": "Anmut der Göttin",
-        "description": "Erhöht M.VERT eines Helden um {1} für {0} Sek.",
+        "description": "Erhöht alle 15 Sek. die M.VERT von 1 Verbündeten mit den wenigsten TP für {0} Sek. um {1}.",
         "books": {
           "0": "M.VERT Erhöhungsrate steigt um {0}%.",
           "1": "M.VERT Erhöhungsrate steigt um {0}%.",
@@ -855,7 +855,7 @@
       },
       "s1": {
         "name": "Feuernadel",
-        "description": "Fügt bis zu 5 Feinden {0} M.Schaden zu. Bei jedem Treffer wird dem Feind eine Glut auferlegt, die Schaden zufügt.",
+        "description": "Greift einen zufälligen Feind 5-mal an, verursacht insgesamt {0} M.Schaden und fügt dem getroffenen Feind 1 Stapel Glut zu.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -866,7 +866,7 @@
       },
       "s2": {
         "name": "Feuerball",
-        "description": "Fügt Feinden {0} M.Schaden zu und betäubt sie für 2 Sek. Für jede Glut steigt der Schaden um {1}%.",
+        "description": "Greift das Ziel und Feinde in seiner Nähe an, verursacht {0} M.Schaden und betäubt sie für 2 Sek. Verursacht für jeden Stapel Glut auf dem Feind {2} zusätzlichen M.Schaden.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -889,7 +889,7 @@
       },
       "s3": {
         "name": "Feuerregen",
-        "description": "Jeder Angriff verursacht {0} M. Schadenn an allen Feinden und gibt einen Glut-Zähler. Für jeden Glut-zähler wird Schaden um {1}% erhöht.",
+        "description": "Greift alle Feinde 8-mal an, verursacht insgesamt {0} M.Schaden und fügt ihnen 1 Stapel Glut zu. Verursacht für jeden Stapel Glut auf dem Feind {1} zusätzlichen M.Schaden.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -912,7 +912,7 @@
       },
       "s4": {
         "name": "Flammen-Diffusion",
-        "description": "Fügt 3 Zielen und Feinden in der Nähe {0} M.Schaden zu, und legt ihnen je 1 Glut auf. Verringert die M.VERT von Feinden mit Glut um 5 %",
+        "description": "Erhält eine Chance von 20 %, bei Treffern mit normalen Angriffen 3 zufällige Feinde anzugreifen und dem Ziel und Feinden in seiner Nähe {0} M.Schaden sowie 1 Stapel Glut zuzufügen. Glut verursacht über 20 Sek. insgesamt {1} M.Schaden und verringert die M.VERT des Ziels um 5 %.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -975,7 +975,7 @@
       },
       "s1": {
         "name": "Gnadenlos",
-        "description": "Greift 3 zufällige Ziele an und fügt Feinden {0} K.Schaden zu. Verursacht Blutung, die stetig K.Schaden verursacht. Blutung kann bis zu 3mal gestapelt werden.",
+        "description": "Greift einen zufälligen Feind 3-mal an, verursacht insgesamt {0} K.Schaden und fügt ihm 1 Stapel Blutung zu, der über {1} Sek. {2} K.Schaden verursacht. Blutung ist bis zu 3-mal stapelbar.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -1032,7 +1032,7 @@
       },
       "s4": {
         "name": "Zerstücklung",
-        "description": "Fügt bei einem normalen krit. Treffer zusätzlich {0} K.Schaden an.",
+        "description": "Wenn ein normaler Angriff als kritischer Treffer trifft, wird das Ziel 6-mal angegriffen und erleidet insgesamt {0} zusätzlichen K.Schaden.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -1324,18 +1324,18 @@
       "uw": {
         "name": "Lakrak MK-1",
         "description": [
-          "25%-Chance, Angriffsgeschw. bei einem normalen Angriff für 10 Sek. um 300 zu erhöhen.",
-          "25%-Chance, Angriffsgeschw. bei einem normalen Angriff für 10 Sek. um 360 zu erhöhen.",
-          "25%-Chance, Angriffsgeschw. bei einem normalen Angriff für 10 Sek. um 420 zu erhöhen.",
-          "25%-Chance, Angriffsgeschw. bei einem normalen Angriff für 10 Sek. um 510 zu erhöhen.",
-          "25%-Chance, Angriffsgeschw. bei einem normalen Angriff für 10 Sek. um 615 zu erhöhen.",
-          "25%-Chance, Angriffsgeschw. bei einem normalen Angriff für 10 Sek. um 750 zu erhöhen."
+          "Erhält eine Chance von 25 %, beim Angreifen einen Stapel Schießpulver zu erhalten. Jeder Stapel Schießpulver erhöht den ANG um 3 %, die ANG-Geschwindigkeit um 30 und den Schaden an Feinden, die keine Helden sind, um 3 %. Schießpulver ist bis zu 10-mal stapelbar und kann nicht entfernt werden.",
+          "Erhält eine Chance von 25 %, beim Angreifen einen Stapel Schießpulver zu erhalten. Jeder Stapel Schießpulver erhöht den ANG um 3,6 %, die ANG-Geschwindigkeit um 36 und den Schaden an Feinden, die keine Helden sind, um 3,6 %. Schießpulver ist bis zu 10-mal stapelbar und kann nicht entfernt werden.",
+          "Erhält eine Chance von 25 %, beim Angreifen einen Stapel Schießpulver zu erhalten. Jeder Stapel Schießpulver erhöht den ANG um 4,3 %, die ANG-Geschwindigkeit um 43 und den Schaden an Feinden, die keine Helden sind, um 4,3 %. Schießpulver ist bis zu 10-mal stapelbar und kann nicht entfernt werden.",
+          "Erhält eine Chance von 25 %, beim Angreifen einen Stapel Schießpulver zu erhalten. Jeder Stapel Schießpulver erhöht den ANG um 5,1 %, die ANG-Geschwindigkeit um 51 und den Schaden an Feinden, die keine Helden sind, um 5,1 %. Schießpulver ist bis zu 10-mal stapelbar und kann nicht entfernt werden.",
+          "Erhält eine Chance von 25 %, beim Angreifen einen Stapel Schießpulver zu erhalten. Jeder Stapel Schießpulver erhöht den ANG um 6,2 %, die ANG-Geschwindigkeit um 62 und den Schaden an Feinden, die keine Helden sind, um 6,2 %. Schießpulver ist bis zu 10-mal stapelbar und kann nicht entfernt werden.",
+          "Erhält eine Chance von 25 %, beim Angreifen einen Stapel Schießpulver zu erhalten. Jeder Stapel Schießpulver erhöht den ANG um 7,5 %, die ANG-Geschwindigkeit um 75 und den Schaden an Feinden, die keine Helden sind, um 7,5 %. Schießpulver ist bis zu 10-mal stapelbar und kann nicht entfernt werden."
         ],
         "story": "Das zerstörerische und doch künstlerische Opus Magnum eines schrulligen Goblin-Erfinders. Diese Einhandkanone verfügt über die maximale Feuerkraft, die ein Goblin körperlich handzuhaben vermag. Trotz der gefährlich großen Menge des verwendeten Schießpulvers ist diese Waffe glücklicherweise bislang nicht explodiert."
       },
       "s1": {
         "name": "Schnellfeuer",
-        "description": "Fügt Feinden in Reichw. {0} K.Schaden zu und wirft sie um.",
+        "description": "Greift alle Frontfeinde in einer gerade Linie an, verursacht {0} K.Schaden und wirft sie zurück. Verursacht zusätzlich {1} K.Schaden und betäubt das Ziel für {2} Sek., wenn es kein Held ist.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -1924,24 +1924,24 @@
       "uw": {
         "name": "Leviathan, die ultimative Waffe",
         "description": [
-          "Verursacht bei Feinden, die von Boooooom! betroffen sind, mit einer Chance von 50 % K.Schaden in Höhe von 100 % des ANG und das Ziel erleidet 5 Sekunden lang um 20 % erhöhten K.Schaden.",
-          "Verursacht bei Feinden, die von Boooooom! betroffen sind, mit einer Chance von 50 % K.Schaden in Höhe von 120 % des ANG und das Ziel erleidet 5 Sekunden lang um 24 % erhöhten K.Schaden.",
-          "Verursacht bei Feinden, die von Boooooom! betroffen sind, mit einer Chance von 50 % K.Schaden in Höhe von 140 % des ANG und das Ziel erleidet 5 Sekunden lang um 29 % erhöhten K.Schaden.",
-          "Verursacht bei Feinden, die von Boooooom! betroffen sind, mit einer Chance von 50 % K.Schaden in Höhe von 170 % des ANG und das Ziel erleidet 5 Sekunden lang um 35 % erhöhten K.Schaden.",
-          "Verursacht bei Feinden, die von Boooooom! betroffen sind, mit einer Chance von 50 % K.Schaden in Höhe von 210 % des ANG und das Ziel erleidet 5 Sekunden lang um 42 % erhöhten K.Schaden.",
-          "Verursacht bei Feinden, die von Boooooom! betroffen sind, mit einer Chance von 50 % K.Schaden in Höhe von 250 % des ANG und das Ziel erleidet 5 Sekunden lang um 50 % erhöhten K.Schaden."
+          "Verursacht bei Feinden, die von Boooooom! betroffen sind, mit einer Chance von 50 % K.Schaden in Höhe von 100 % des ANG und das Ziel erleidet 10 Sekunden lang um 20 % erhöhten K.Schaden.",
+          "Verursacht bei Feinden, die von Boooooom! betroffen sind, mit einer Chance von 50 % K.Schaden in Höhe von 120 % des ANG und das Ziel erleidet 10 Sekunden lang um 24 % erhöhten K.Schaden.",
+          "Verursacht bei Feinden, die von Boooooom! betroffen sind, mit einer Chance von 50 % K.Schaden in Höhe von 140 % des ANG und das Ziel erleidet 10 Sekunden lang um 29 % erhöhten K.Schaden.",
+          "Verursacht bei Feinden, die von Boooooom! betroffen sind, mit einer Chance von 50 % K.Schaden in Höhe von 170 % des ANG und das Ziel erleidet 10 Sekunden lang um 35 % erhöhten K.Schaden.",
+          "Verursacht bei Feinden, die von Boooooom! betroffen sind, mit einer Chance von 50 % K.Schaden in Höhe von 210 % des ANG und das Ziel erleidet 10 Sekunden lang um 42 % erhöhten K.Schaden.",
+          "Verursacht bei Feinden, die von Boooooom! betroffen sind, mit einer Chance von 50 % K.Schaden in Höhe von 250 % des ANG und das Ziel erleidet 10 Sekunden lang um 50 % erhöhten K.Schaden."
         ],
         "story": "Früher, als Miruru noch als Piratenkaiserin herrschte, wurde sie von Seefahrern gefürchtet und stellte eine große Bedrohung für die Seestreitkräfte von Orvelia und dem Imperium dar. Die Kanonen auf ihrem Schiff jagten vor allem der Marine Angst ein. Die mächtigste unter ihnen war Leviathan, die Hauptkanone des Schiffs. Als Miruru verflucht worden war, nahm sie auf der Flucht vor ihrer meuternden Besatzung eine Sache mit: Leviathan, die stärkste Kanone ihres Arsenals, deren Wert als Waffe wesentlich höher ist als jedes Gold oder andere Beute. Nach zahlreichen Modifikationen dient dieser ehemalige Schrecken der Meere ihr nun als mobile Artillerie."
       },
       "s1": {
         "name": "Baaaam!",
-        "description": "Fügt Feinden in Reichw. {0} K.Schaden zu und wirft sie zurück.",
+        "description": "Verursacht {0} K.Schaden an allen Feinden und wirft sie zurück.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
           "2": "Erhöht Schaden um {0}%."
         },
-        "light": "Reduziert Manakosten um 1.",
+        "light": "Erhöht den K.Schaden, den das Ziel erleidet, für 10 Sek. um 25 %.",
         "dark": "ANG wird bei Aktivierung für 10 Sek. um 35% erhöht."
       },
       "s2": {
@@ -1969,13 +1969,13 @@
       },
       "s3": {
         "name": "Miruru Piraten!",
-        "description": "Fügt Feinden in Reichw. {0} Sek lang {1} K.Schaden zu und verringert ihre Geschw. um {2}%.",
+        "description": "Greift ein zufälliges Ziel und Feinde in seiner Nähe 5-mal an, verursacht insgesamt {1} K.Schaden und verringert ihre ANG-Geschwindigkeit um {2}. Verursacht zusätzlich {3} K.Schaden, wenn das Ziel kein Held ist.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
           "2": "Erhöht Schaden um {0}%."
         },
-        "light": "Erhöht Schaden um 40%.",
+        "light": "Erhöht Schaden um 100%, wenn nur 1 Feind auf dem Schlachtfeld ist.",
         "dark": "Entfernt ANG-Geschw. Schwächungseffekt und fügt einen Betäubungseffekt für 3 Sek hinzu.",
         "ut": {
           "name": "Miruru-Kanonenkugel",
@@ -2712,7 +2712,7 @@
       },
       "s4": {
         "name": "Frostige Hand",
-        "description": "Fügt 3 Feinden alle {0} Sek {1} M.Schaden zu und verursacht Frost.",
+        "description": "Verursacht alle {0} Sek. an 3 Feinden {1} M.Schaden und fügt ihnen Frost zu, der ihre ANG-Geschwindigkeit für 8 Sek. um 100 verringert.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -2764,12 +2764,12 @@
       "uw": {
         "name": "Arpheus des Blauen Lichts",
         "description": [
-          "Das Blocken von gegnerischen Angriffen bietet eine 10% Chance, 3% Mana zurückzuerhalten und alle Skill-Cooldowns um 1 Sek. zu reduzieren.",
-          "Das Blocken von gegnerischen Angriffen bietet eine 13% Chance, 3% Mana zurückzuerhalten und alle Skill-Cooldowns um 1 Sek. zu reduzieren.",
-          "Das Blocken von gegnerischen Angriffen bietet eine 16% Chance, 3% Mana zurückzuerhalten und alle Skill-Cooldowns um 1 Sek. zu reduzieren.",
-          "Das Blocken von gegnerischen Angriffen bietet eine 19% Chance, 3% Mana zurückzuerhalten und alle Skill-Cooldowns um 1 Sek. zu reduzieren.",
-          "Das Blocken von gegnerischen Angriffen bietet eine 22% Chance, 3% Mana zurückzuerhalten und alle Skill-Cooldowns um 1 Sek. zu reduzieren.",
-          "Das Blocken von gegnerischen Angriffen bietet eine 25% Chance, 3% Mana zurückzuerhalten und alle Skill-Cooldowns um 1 Sek. zu reduzieren."
+          "Erhöht die K.VERT von allen Verbündeten um 4 %. Wenn ein feindlicher Angriff geblockt wird, besteht eine Chance von 10 %, 3 % Mana zu regenerieren und den Cooldown von allen Skills um 1. Sek. zu verringern.",
+          "Erhöht die K.VERT von allen Verbündeten um 4,8 %. Wenn ein feindlicher Angriff geblockt wird, besteht eine Chance von 12 %, 3,3 % Mana zu regenerieren und den Cooldown von allen Skills um 1. Sek. zu verringern.",
+          "Erhöht die K.VERT von allen Verbündeten um 5,8 %. Wenn ein feindlicher Angriff geblockt wird, besteht eine Chance von 14 %, 3,6 % Mana zu regenerieren und den Cooldown von allen Skills um 1. Sek. zu verringern.",
+          "Erhöht die K.VERT von allen Verbündeten um 7 %. Wenn ein feindlicher Angriff geblockt wird, besteht eine Chance von 17 %, 3,9 % Mana zu regenerieren und den Cooldown von allen Skills um 1. Sek. zu verringern.",
+          "Erhöht die K.VERT von allen Verbündeten um 8,4 %. Wenn ein feindlicher Angriff geblockt wird, besteht eine Chance von 21 %, 4,2 % Mana zu regenerieren und den Cooldown von allen Skills um 1. Sek. zu verringern.",
+          "Erhöht die K.VERT von allen Verbündeten um 10 %. Wenn ein feindlicher Angriff geblockt wird, besteht eine Chance von 25 %, 4,5 % Mana zu regenerieren und den Cooldown von allen Skills um 1. Sek. zu verringern."
         ],
         "story": "Eines Tages wurde im Territorium von Ziltrion eine Ader mächtigen Manas entdeckt. Als Demia diese untersuchte, fand sie ein blaues Erz, das sie noch nie zuvor gesehen hatte. Zahlreiche Zauberer und Alchemisten studierten dieses geheimnisvolle Erz, das zugleich Edelstein und Metall war, doch niemand vermochte, ihre Zusammensetzung zu ergründen. Jin, der Schmied, hatte allerdings eine andere Idee. Als er das Erz erblickte, bot er Demia mit einem breiten Grinsen an, daraus mächtige Ausrüstung zu schmieden. Tatsächlich schmiedete er daraus eine Lanze und einen Schild, beide mit dem blauen Schimmern des Manas und härter als ein Diamant."
       },
@@ -2792,7 +2792,7 @@
           "1": "Erhöht Schaden um {0}%.",
           "2": "Feind-ANG Reduktion erhöht um {0}%."
         },
-        "light": "Verursacht zusätzlichen K.Schaden, basierend auf der K.VERT.",
+        "light": "Reduziert Manakosten um 1.",
         "dark": "Erhöht bei Aktivierung die K.VERT des Verbündeten um 20% für 10 Sek.",
         "ut": {
           "name": "Schild der Entschlossenheit",
@@ -2884,12 +2884,12 @@
       "uw": {
         "name": "Baroru, die verfluchten Nägel",
         "description": [
-          "Bei einem krit. Treffer wird dem Feind 10 Sek lang konstant Schaden (100%) zugefügt. Der Feind erleidet 20% erhöhten K.Schaden während der Wirkungsdauer.",
-          "Bei einem krit. Treffer wird dem Feind 10 Sek lang konstant Schaden (120%) zugefügt. Der Feind erleidet 24% erhöhten K.Schaden während der Wirkungsdauer.",
-          "Bei einem krit. Treffer wird dem Feind 10 Sek lang konstant Schaden (144%) zugefügt. Der Feind erleidet 28% erhöhten K.Schaden während der Wirkungsdauer.",
-          "Bei einem krit. Treffer wird dem Feind 10 Sek lang konstant Schaden (172%) zugefügt. Der Feind erleidet 34% erhöhten K.Schaden während der Wirkungsdauer.",
-          "Bei einem krit. Treffer wird dem Feind 10 Sek lang konstant Schaden (207%) zugefügt. Der Feind erleidet 41% erhöhten K.Schaden während der Wirkungsdauer.",
-          "Bei einem krit. Treffer wird dem Feind 10 Sek lang konstant Schaden (250%) zugefügt. Der Feind erleidet 50% erhöhten K.Schaden während der Wirkungsdauer."
+          "Bei einem krit. Treffer wird dem Feind 10 Sek lang konstant Schaden (150%) zugefügt. Der Feind erleidet 20% erhöhten K.Schaden während der Wirkungsdauer.",
+          "Bei einem krit. Treffer wird dem Feind 10 Sek lang konstant Schaden (180%) zugefügt. Der Feind erleidet 24% erhöhten K.Schaden während der Wirkungsdauer.",
+          "Bei einem krit. Treffer wird dem Feind 10 Sek lang konstant Schaden (216%) zugefügt. Der Feind erleidet 28% erhöhten K.Schaden während der Wirkungsdauer.",
+          "Bei einem krit. Treffer wird dem Feind 10 Sek lang konstant Schaden (258%) zugefügt. Der Feind erleidet 34% erhöhten K.Schaden während der Wirkungsdauer.",
+          "Bei einem krit. Treffer wird dem Feind 10 Sek lang konstant Schaden (310%) zugefügt. Der Feind erleidet 41% erhöhten K.Schaden während der Wirkungsdauer.",
+          "Bei einem krit. Treffer wird dem Feind 10 Sek lang konstant Schaden (500%) zugefügt. Der Feind erleidet 50% erhöhten K.Schaden während der Wirkungsdauer."
         ],
         "story": "Ein verfluchtes Paar Kampfhandschuhe aus den Klauen des Wahnsinnigen Dämons Baroro, der während des Kriegs besiegt worden war. Die Handschuhe sind um ein Vielfaches größer als menschliche Hände und verbinden sich direkt mit dem Nervensystem ihres Trägers, wodurch dieser sie ohne Anstrengung führen kann. Sie verfügen zwar über eine immense Kraft, doch korrumpieren auch den Verstand ihres Trägers und fressen dessen Seele langsam auf. Nur ein Krieger mit wahrhaft edlen Absichten, einem starken Willen und einem unsterblichen Geist vermag es, mit diesen verfluchten Waffen umzugehen. Sie sind die perfekten Waffen für einen Krieger mit starkem Willen, der selbst in der Dunkelheit des Abgrunds zu strahlen vermag."
       },
@@ -3244,12 +3244,12 @@
       "uw": {
         "name": "Genesis, Alt und Neu",
         "description": [
-          "Alle 30 Sek. wird die ANG eines einzelnen, zufälligen Verbündeten um 40% erhöht. Krit.Chance und Angriffsgeschw. erhöhen sich jeweils um 400. (für 10 Sek)",
-          "Alle 30 Sek. wird die ANG eines einzelnen, zufälligen Verbündeten um 48% erhöht. Krit.Chance und Angriffsgeschw. erhöhen sich jeweils um 480. (für 10 Sek)",
-          "Alle 30 Sek. wird die ANG eines einzelnen, zufälligen Verbündeten um 57% erhöht. Krit.Chance und Angriffsgeschw. erhöhen sich jeweils um 570. (für 10 Sek)",
-          "Alle 30 Sek. wird die ANG eines einzelnen, zufälligen Verbündeten um 69% erhöht. Krit.Chance und Angriffsgeschw. erhöhen sich jeweils um 690. (für 10 Sek)",
-          "Alle 30 Sek. wird die ANG eines einzelnen, zufälligen Verbündeten um 83% erhöht. Krit.Chance und Angriffsgeschw. erhöhen sich jeweils um 830. (für 10 Sek)",
-          "Alle 30 Sek. wird die ANG eines einzelnen, zufälligen Verbündeten um 100% erhöht. Krit.Chance und Angriffsgeschw. erhöhen sich jeweils um 1000. (für 10 Sek)"
+          "Erhöht die Wirkgeschwindigkeit aller Skills und erhöht bei jedem Skill-Einsatz den ANG und die VERT aller Verbündeten um 2 %. Dieser Effekt ist bis zu 7-mal stapelbar.",
+          "Erhöht die Wirkgeschwindigkeit aller Skills und erhöht bei jedem Skill-Einsatz den ANG und die VERT aller Verbündeten um 2,4 %. Dieser Effekt ist bis zu 7-mal stapelbar.",
+          "Erhöht die Wirkgeschwindigkeit aller Skills und erhöht bei jedem Skill-Einsatz den ANG und die VERT aller Verbündeten um 2,9 %. Dieser Effekt ist bis zu 7-mal stapelbar.",
+          "Erhöht die Wirkgeschwindigkeit aller Skills und erhöht bei jedem Skill-Einsatz den ANG und die VERT aller Verbündeten um 3,5 %. Dieser Effekt ist bis zu 7-mal stapelbar.",
+          "Erhöht die Wirkgeschwindigkeit aller Skills und erhöht bei jedem Skill-Einsatz den ANG und die VERT aller Verbündeten um 4,2 %. Dieser Effekt ist bis zu 7-mal stapelbar.",
+          "Erhöht die Wirkgeschwindigkeit aller Skills und erhöht bei jedem Skill-Einsatz den ANG und die VERT aller Verbündeten um 5 %. Dieser Effekt ist bis zu 7-mal stapelbar."
         ],
         "story": "Selbst unter den heiligen Reliquien der Hohepriester der Kirche von Lua ist das Buch der Götter besonders. Glaubt man der Legende schrieb Lua dieses Buch, das über die Jahre von den Großpriestern der Kirche bewahrt wurde, selbst. Iris, der gegenwärtige Großpriester vertraute das Buch seinem Stiefvater Berman an, nachdem er wegen Baudouin eine Offenbarung hatte. Später erhielt Baudouin das Buch, als er zum Hohepriester wurde. Es heißt, dass diese göttliche Reliquie seinen Besitzer mit unendlicher heiliger Energie versorgt und ihn ermächtigt, das wahre Potential aller Gläubigen zu erschließen."
       },
@@ -3295,7 +3295,7 @@
           "1": "Erhöht Erholung um {0}%.",
           "2": "Erhöht Angriffsgeschw. um {0}% für die Wirkungsdauer."
         },
-        "light": "Erhöht Wirkungsdauer von Unbesiegbarkeit um 1.5 Sek.",
+        "light": "Reduziert Manakosten um 1.",
         "dark": "Im Gegenzug für 2 extra Mana und eine 3 Sek-Reduzierung der Unbesiegbarkeitsdauer erhalten alle Verbündete +50% ANG.",
         "ut": {
           "name": "Alter Rosenkranz",
@@ -3604,18 +3604,18 @@
       "uw": {
         "name": "Belisa, die Phoenixfeder",
         "description": [
-          "10% Chance, bei einem normalen Angriff 100% zusätzl. M.Schaden zuzufügen und entfernt alle positiven Statuseffekte.",
-          "12% Chance, bei einem normalen Angriff 100% zusätzl. M.Schaden zuzufügen und entfernt alle positiven Statuseffekte.",
-          "14% Chance, bei einem normalen Angriff 100% zusätzl. M.Schaden zuzufügen und entfernt alle positiven Statuseffekte.",
-          "17% Chance, bei einem normalen Angriff 100% zusätzl. M.Schaden zuzufügen und entfernt alle positiven Statuseffekte.",
-          "20% Chance, bei einem normalen Angriff 100% zusätzl. M.Schaden zuzufügen und entfernt alle positiven Statuseffekte.",
-          "25% Chance, bei einem normalen Angriff 100% zusätzl. M.Schaden zuzufügen und entfernt alle positiven Statuseffekte."
+          "Erhöht zu Beginn jedes Kampfes die K.VERT und M.VERT um 20 %, die ANG-Geschwindigkeit für 15 Sek. um 200 und fügt dem ersten eingesetzten Skill einen zusätzlichen Effekt hinzu. Rune der Schwäche: Erhöht die krit. Chance um 500. Rune der Heilung: Hebt Statuseffekte auf dem Zaubernden auf, ehe der Skill gewirkt wird. Rune des Schweigens: Erhöht die Dauer von Schweigen um 1 Sek.",
+          "Erhöht zu Beginn jedes Kampfes die K.VERT und M.VERT um 24 %, die ANG-Geschwindigkeit für 15 Sek. um 240 und fügt dem ersten eingesetzten Skill einen zusätzlichen Effekt hinzu. Rune der Schwäche: Erhöht die krit. Chance um 500. Rune der Heilung: Hebt Statuseffekte auf dem Zaubernden auf, ehe der Skill gewirkt wird. Rune des Schweigens: Erhöht die Dauer von Schweigen um 1 Sek.",
+          "Erhöht zu Beginn jedes Kampfes die K.VERT und M.VERT um 29 %, die ANG-Geschwindigkeit für 15 Sek. um 290 und fügt dem ersten eingesetzten Skill einen zusätzlichen Effekt hinzu. Rune der Schwäche: Erhöht die krit. Chance um 500. Rune der Heilung: Hebt Statuseffekte auf dem Zaubernden auf, ehe der Skill gewirkt wird. Rune des Schweigens: Erhöht die Dauer von Schweigen um 1 Sek.",
+          "Erhöht zu Beginn jedes Kampfes die K.VERT und M.VERT um 35 %, die ANG-Geschwindigkeit für 15 Sek. um 350 und fügt dem ersten eingesetzten Skill einen zusätzlichen Effekt hinzu. Rune der Schwäche: Erhöht die krit. Chance um 500. Rune der Heilung: Hebt Statuseffekte auf dem Zaubernden auf, ehe der Skill gewirkt wird. Rune des Schweigens: Erhöht die Dauer von Schweigen um 1 Sek.",
+          "Erhöht zu Beginn jedes Kampfes die K.VERT und M.VERT um 42 %, die ANG-Geschwindigkeit für 15 Sek. um 420 und fügt dem ersten eingesetzten Skill einen zusätzlichen Effekt hinzu. Rune der Schwäche: Erhöht die krit. Chance um 500. Rune der Heilung: Hebt Statuseffekte auf dem Zaubernden auf, ehe der Skill gewirkt wird. Rune des Schweigens: Erhöht die Dauer von Schweigen um 1 Sek.",
+          "Erhöht zu Beginn jedes Kampfes die K.VERT und M.VERT um 50 %, die ANG-Geschwindigkeit für 15 Sek. um 500 und fügt dem ersten eingesetzten Skill einen zusätzlichen Effekt hinzu. Rune der Schwäche: Erhöht die krit. Chance um 500. Rune der Heilung: Hebt Statuseffekte auf dem Zaubernden auf, ehe der Skill gewirkt wird. Rune des Schweigens: Erhöht die Dauer von Schweigen um 1 Sek."
         ],
         "story": "Der Phönix ist eine heilige Kreatur, die das ewige Leben symbolisiert. Genauso wie das Tier selbst sind auch dessen Federn extrem selten. Es heißt, dass ein Federkiel, der aus einer Phönixfeder hergestellt wurde, selbst ein mächtiges magisches Werkzeug sei. Runen, die mit dieser Feder geschrieben werden, sind ein mächtiges Mittel für Runenmagie."
       },
       "s1": {
         "name": "Rune der Schwäche",
-        "description": "Markiert das feindliche Ziel mit einer Rune, die {0} Sek. lang {1}% K. Schaden reduziert. Verursacht nach {2} Sek. maximal {3} M. Schaden, proportional zu den verlorenen TP und ignoriert die VERT.",
+        "description": "Graviert eine Rune in das Ziel ein, verursacht bis zu {3} K.Schaden, der die VERT basierend auf den fehlenden TP ignoriert, und verringert ihre K.VERT für {0} Sek. um {1}  %.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -3649,13 +3649,13 @@
       },
       "s3": {
         "name": "Rune des Schweigens",
-        "description": "Fügt dem gesamten feindlichen Team {0} M.Schaden zu, entfernt Buffs und bringt sie für {1} Sek zum Schweigen.",
+        "description": "Fügt dem gesamten feindlichen Team {0} K.Schaden zu, entfernt Buffs und bringt sie für {1} Sek zum Schweigen.",
         "books": {
           "0": "Erhöht Schweigedauer um {0} Sek.",
           "1": "Erhöht Schweigedauer um {0} Sek.",
           "2": "Erhöht Schweigedauer um {0} Sek."
         },
-        "light": "Silence duration boosted by 1 Sek",
+        "light": "Reduziert Manakosten um 1.",
         "dark": "Erhöht Schaden um 200% und der Gegner erhält 20% mehr Schaden. Manakosten sind um 2 erhöht.",
         "ut": {
           "name": "Schriftrolle der Erinnerung",
@@ -3724,24 +3724,24 @@
       "uw": {
         "name": "Veralta, die wütenden Zwillingsschwerter",
         "description": [
-          "Erhöht alle 7 Sek die eigene ANG und Angriffsgeschw. um 12% für 30 Sek. Kumuliert sich bis zu 3 mal.",
-          "Erhöht alle 7 Sek die eigene ANG und Angriffsgeschw. um 14% für 30 Sek. Kumuliert sich bis zu 3 mal.",
-          "Erhöht alle 7 Sek die eigene ANG und Angriffsgeschw. um 17% für 30 Sek. Kumuliert sich bis zu 3 mal.",
-          "Erhöht alle 7 Sek die eigene ANG und Angriffsgeschw. um 20% für 30 Sek. Kumuliert sich bis zu 3 mal.",
-          "Erhöht alle 7 Sek die eigene ANG und Angriffsgeschw. um 25% für 30 Sek. Kumuliert sich bis zu 3 mal.",
-          "Erhöht alle 7 Sek die eigene ANG und Angriffsgeschw. um 30% für 30 Sek. Kumuliert sich bis zu 3 mal."
+          "Erhöht den ANG um 12 % und die ANG-Geschwindigkeit alle 7 Sek. für 30 Sek. um 120. Dieser Effekt ist bis zu 3-mal stapelbar und kann nicht entfernt werden.",
+          "Erhöht den ANG um 14 % und die ANG-Geschwindigkeit alle 7 Sek. für 30 Sek. um 140. Dieser Effekt ist bis zu 3-mal stapelbar und kann nicht entfernt werden.",
+          "Erhöht den ANG um 17 % und die ANG-Geschwindigkeit alle 7 Sek. für 30 Sek. um 170. Dieser Effekt ist bis zu 3-mal stapelbar und kann nicht entfernt werden.",
+          "Erhöht den ANG um 20 % und die ANG-Geschwindigkeit alle 7 Sek. für 30 Sek. um 200. Dieser Effekt ist bis zu 3-mal stapelbar und kann nicht entfernt werden.",
+          "Erhöht den ANG um 25 % und die ANG-Geschwindigkeit alle 7 Sek. für 30 Sek. um 250. Dieser Effekt ist bis zu 3-mal stapelbar und kann nicht entfernt werden.",
+          "Erhöht den ANG um 30 % und die ANG-Geschwindigkeit alle 7 Sek. für 30 Sek. um 300. Dieser Effekt ist bis zu 3-mal stapelbar und kann nicht entfernt werden."
         ],
         "story": "Ein Set verzauberter Waffen von Fluss’ Großvater, einem Ritter aus der Republik der Grauen, das als Familienschatz weitergegeben wurde. Die Waffen sind in der Lage, die Körperkraft ihres Besitzers zu steigern, um die Grenzen der menschlichen Leistungsfähigkeit zu überwinden und übernatürliche Kraft und Geschwindigkeit zu erlangen. Weil der Effekt allmählich eintritt, wird der Körper des Trägers keiner plötzlichen Belastung ausgesetzt. Die Teile werden als Blut und Rose bezeichnet. Diese Namen entstanden durch den Wirbel aus Blut und Blütenblättern, der stets auftrat, wenn Fluss diese Zwillingsschwerter führte. Kein anderer Krieger konnte deren Potential jemals so nutzen wie Fluss selbst."
       },
       "s1": {
         "name": "Sturmklinge",
-        "description": "Verursacht einem Feind {0} K.Schaden.",
+        "description": "Greift das Ziel und Feinde in seiner Nähe 3-mal an und verursacht insgesamt {0} K.Schaden. Verursacht insgesamt über 5 Sek. zusätzlich {1} K.Schaden, wenn das Ziel kein Held ist.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
           "2": "Erhöht Schaden um {0}%."
         },
-        "light": "Erhöht Schaden um 40%.",
+        "light": "Ignoriert VERT, wenn nur ein Feind auf dem Schlachtfeld ist.",
         "dark": "Jeder kritische Treffer reduziert Cooldown um 6%."
       },
       "s2": {
@@ -3769,7 +3769,7 @@
       },
       "s3": {
         "name": "Blutige Blüten",
-        "description": "Fügt einem einzelnen Feind {0} K.Schaden zu und fesselt das Ziel für die Wirkungsdauer.",
+        "description": "Verursacht über 16 Treffer insgesamt {0} K.Schaden an einem Feind und unterdrückt das Ziel beim Wirken. Dieser Schaden ignoriert die Block-Effekte des Ziels.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -4684,12 +4684,12 @@
       "uw": {
         "name": "Licht des Gesetzes, Theoria",
         "description": [
-          "Erleidet ein Verb. Schaden, besteht eine 10% Chance, dem Verb. ein Schutzschild (160% von Ricardos ANG) für 5 Sek zu gewähren. Dieser Effekt kann nur einmal alle 5 Sek ausgelöst werden.",
-          "Erleidet ein Verb. Schaden, besteht eine 12% Chance, dem Verb. ein Schutzschild (192% von Ricardos ANG) für 5 Sek zu gewähren. Dieser Effekt kann nur einmal alle 5 Sek ausgelöst werden.",
-          "Erleidet ein Verb. Schaden, besteht eine 14% Chance, dem Verb. ein Schutzschild (230% von Ricardos ANG) für 5 Sek zu gewähren. Dieser Effekt kann nur einmal alle 5 Sek ausgelöst werden.",
-          "Erleidet ein Verb. Schaden, besteht eine 17% Chance, dem Verb. ein Schutzschild (276% von Ricardos ANG) für 5 Sek zu gewähren. Dieser Effekt kann nur einmal alle 5 Sek ausgelöst werden.",
-          "Erleidet ein Verb. Schaden, besteht eine 20% Chance, dem Verb. ein Schutzschild (330% von Ricardos ANG) für 5 Sek zu gewähren. Dieser Effekt kann nur einmal alle 5 Sek ausgelöst werden.",
-          "Erleidet ein Verb. Schaden, besteht eine 25% Chance, dem Verb. ein Schutzschild (400% von Ricardos ANG) für 5 Sek zu gewähren. Dieser Effekt kann nur einmal alle 5 Sek ausgelöst werden."
+          "Wenn ein anderer Verbündeter als der Zaubernde Schaden erleidet, besteht eine Chance von 10 %, dass er einen Schild erhält, der für 5 Sek. Schaden in Höhe von 320 % des ANG absorbiert und Immunität gegen Statuseffekte gewährt. Dieser Effekt wird nicht öfter als einmal alle 5 Sek. ausgelöst.",
+          "Wenn ein anderer Verbündeter als der Zaubernde Schaden erleidet, besteht eine Chance von 12 %, dass er einen Schild erhält, der für 5 Sek. Schaden in Höhe von 384 % des ANG absorbiert und Immunität gegen Statuseffekte gewährt. Dieser Effekt wird nicht öfter als einmal alle 5 Sek. ausgelöst.",
+          "Wenn ein anderer Verbündeter als der Zaubernde Schaden erleidet, besteht eine Chance von 14 %, dass er einen Schild erhält, der für 5 Sek. Schaden in Höhe von 460 % des ANG absorbiert und Immunität gegen Statuseffekte gewährt. Dieser Effekt wird nicht öfter als einmal alle 5 Sek. ausgelöst.",
+          "Wenn ein anderer Verbündeter als der Zaubernde Schaden erleidet, besteht eine Chance von 17 %, dass er einen Schild erhält, der für 5 Sek. Schaden in Höhe von 552 % des ANG absorbiert und Immunität gegen Statuseffekte gewährt. Dieser Effekt wird nicht öfter als einmal alle 5 Sek. ausgelöst.",
+          "Wenn ein anderer Verbündeter als der Zaubernde Schaden erleidet, besteht eine Chance von 20 %, dass er einen Schild erhält, der für 5 Sek. Schaden in Höhe von 660 % des ANG absorbiert und Immunität gegen Statuseffekte gewährt. Dieser Effekt wird nicht öfter als einmal alle 5 Sek. ausgelöst.",
+          "Wenn ein anderer Verbündeter als der Zaubernde Schaden erleidet, besteht eine Chance von 25 %, dass er einen Schild erhält, der für 5 Sek. Schaden in Höhe von 800 % des ANG absorbiert und Immunität gegen Statuseffekte gewährt. Dieser Effekt wird nicht öfter als einmal alle 5 Sek. ausgelöst."
         ],
         "story": "Als das Heilige Schwert Aea Kyle gewährt wurde, erschien es im Tempel von Lua, nördlich der Königsebenen. Als Kyle das Schwert vom Altar nahm, wurde eine mächtige Lichtwelle freigesetzt, die alles Naheliegende in heiligen Boden verwandelte. Alle Gegenstände im Tempel wurden dadurch zu heiligen Reliquien. Teoria, die mittlere Säule des Tempels, bekam dabei die größte Menge heiliger Energie ab."
       },
@@ -4763,7 +4763,7 @@
       },
       "t5": {
         "light": "ANG, VERT, TP+15% / K.Block +200",
-        "dark": "Falls eigene TP unter 30% fallen, können TP 10 Sek. nicht unter 10% fallen und ANG aller Verbündeten ist um 50% der eigenen M. VERT erhöht. Dieser Effekt kann alle 60 Sek. ausgelöst werden."
+        "dark": "Falls eigene TP unter 40% fallen, können TP 6 Sek. nicht unter 10% fallen und ANG aller Verbündeten ist um 50% der eigenen M. VERT erhöht. Dieser Effekt kann alle 60 Sek. ausgelöst werden."
       }
     },
     "37": {
@@ -4804,24 +4804,24 @@
       "uw": {
         "name": "Caethasis, Dämon der Stille",
         "description": [
-          "10% Chance, bei normalen Angriffen 140% zusätzlichen K.Schaden zu verursachen und Schattenform für 10 Sek zu erhalten. Hat einen Cooldown von 10 Sek.",
-          "10% Chance, bei normalen Angriffen 170% zusätzlichen K.Schaden zu verursachen und Schattenform für 10 Sek zu erhalten. Hat einen Cooldown von 10 Sek.",
           "10% Chance, bei normalen Angriffen 200% zusätzlichen K.Schaden zu verursachen und Schattenform für 10 Sek zu erhalten. Hat einen Cooldown von 10 Sek.",
-          "10% Chance, bei normalen Angriffen 240% zusätzlichen K.Schaden zu verursachen und Schattenform für 10 Sek zu erhalten. Hat einen Cooldown von 10 Sek.",
-          "10% Chance, bei normalen Angriffen 290% zusätzlichen K.Schaden zu verursachen und Schattenform für 10 Sek zu erhalten. Hat einen Cooldown von 10 Sek.",
-          "10% Chance, bei normalen Angriffen 350% zusätzlichen K.Schaden zu verursachen und Schattenform für 10 Sek zu erhalten. Hat einen Cooldown von 10 Sek."
+          "12% Chance, bei normalen Angriffen 240% zusätzlichen K.Schaden zu verursachen und Schattenform für 10 Sek zu erhalten. Hat einen Cooldown von 10 Sek.",
+          "14% Chance, bei normalen Angriffen 290% zusätzlichen K.Schaden zu verursachen und Schattenform für 10 Sek zu erhalten. Hat einen Cooldown von 10 Sek.",
+          "17% Chance, bei normalen Angriffen 350% zusätzlichen K.Schaden zu verursachen und Schattenform für 10 Sek zu erhalten. Hat einen Cooldown von 10 Sek.",
+          "20% Chance, bei normalen Angriffen 420% zusätzlichen K.Schaden zu verursachen und Schattenform für 10 Sek zu erhalten. Hat einen Cooldown von 10 Sek.",
+          "25% Chance, bei normalen Angriffen 500% zusätzlichen K.Schaden zu verursachen und Schattenform für 10 Sek zu erhalten. Hat einen Cooldown von 10 Sek."
         ],
         "story": "Der Dämonenkrieg fand vor 100 Jahren statt. Während des Krieges stellten die hochrangigen Dämonenoffiziere zweifellos die größte Bedrohung für die Menschheit dar. Kaitasis, der Dämon der Stille, war besonders gefährlich. Zahllose Zauberer und Priester wurden von diesem Dämon erschlagen, der es wegen ihrer Seelen besonders auf magische Opfer abgesehen hatte. Schließlich konnte Kyle Kaitasis besiegen und sein Kern wurde versiegelt. Jahre später gelangte der Kern in den Besitz der Lachenden Maske und diente erneut als Instrument des Todes."
       },
       "s1": {
         "name": "Ziel gesichtet",
-        "description": "Geht hinter den Feind mit der niedrigsten K.VERT, erhöht ihre K.Schadensempfindlichkeit um {0}%, wirft ihn zu Boden und fügt ihm {1} K.Schaden zu. In Schattenform wird das Ziel 6 Sek lang betäubt. Wenn nicht in Schattenform, erhalte Schattenform für 10 Sek. Schattenform gewährt 200 Krit-Rate und Ausw.-Rate.",
+        "description": "Geht hinter den Feind mit der niedrigsten K.VERT, erhöht ihre K.Schadensempfindlichkeit um {0}%, wirft ihn zu Boden und fügt ihm {1} K.Schaden zu. In Schattenform wird das Ziel 6 Sek lang betäubt. Wenn nicht in Schattenform, erhalte Schattenform für 10 Sek. Schattenform gewährt 50 Krit-Rate und Ausw.-Rate.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
           "2": "Erhöht Krit.-Chance um {0}%."
         },
-        "light": "Erhöht Schaden um 40%.",
+        "light": "Verringert die Heilungsrate des Ziels um 30 %.",
         "dark": "Verringert die K. Kritresistenz des Ziels für 10 Sek. um 250."
       },
       "s2": {
@@ -4872,14 +4872,14 @@
       },
       "s4": {
         "name": "Leiser Hinterhalt",
-        "description": "Wenn ein Skill kritisch trifft, erleidet der Feind {0} extra K.Schaden und kann {1} Sek lang keine Skills wirken.",
+        "description": "Verursacht zusätzlich {0} K.Schaden an Feinden und bringt sie bei einem kritischen Treffer mit dem Skill für {1} Sek. zum Schweigen. Verursacht zusätzlich {2} K.Schaden, der die VERT ignoriert und die ANG-Geschwindigkeit des Ziels für {3} Sek. um {4} verringert, wenn es kein Held ist.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
           "2": "Stille-Dauer um {0} Sek erhöht."
         },
-        "light": "Erhöht Schaden um 40%.",
-        "dark": "Erhöht die Wirkungsdauer von Stille um 2 Sek, wenn nur noch 1 Feind auf dem Schlachtfeld ist."
+        "light": "Erhöht den zusätzlichen Schaden gegen Feinde, die keine Helden sind, um 100 %.",
+        "dark": "Erhöht die Dauer von Schweigen um 0,5 Sek."
       },
       "t5": {
         "light": "ANG, VERT, TP+15% / Krit. Schaden +20%",
@@ -5242,7 +5242,7 @@
         "dark": "Betäubungszeit ist um 0,2 Sek. erhöht."
       },
       "t5": {
-        "light": "ANG, VERT, TP+15% / ANG-Geschw. +100",
+        "light": "ANG, VERT, TP+15% / Krit. Chance +100",
         "dark": "Regeneriert stattdessen Mana, wenn 'Blitzgott' aktiviert wird. Falls Mana bereits voll ist, wird ANG für 10 Sek. um 50% erhöht. Dieser Effekt aktiviert sich nur alle 20 Sek."
       }
     },
@@ -6015,7 +6015,7 @@
       },
       "s1": {
         "name": "Karte des Todes - Carta",
-        "description": "Greift den Gegner an, verursacht {0} M. Schaden und betäubt {1} Sek. lang. Verbraucht im Besitz befindliche Karte, um zusätzliche Effekte zu verursachen. Bei Nutzung des Skills gibt es die Karte des [Todes]. [Tod] - Schaden ignoriert VERT des Ziels und erhöht die Betäubungsdauer um 5 Sek. [Liebe] - Verursacht über 7 Sek. insgesamt {2} M. Schaden und reduziert die Heilrate um 100%. [Glück] - Kein Skill-Cooldown.",
+        "description": "Greift den Gegner an, verursacht {0} M. Schaden und betäubt {1} Sek. lang. Verbraucht im Besitz befindliche Karte, um zusätzliche Effekte zu verursachen. Bei Nutzung des Skills gibt es die Karte des [Todes]. [Tod] - Schaden ignoriert VERT des Ziels und erhöht die Betäubungsdauer um 5 Sek. [Liebe] - Verursacht über 10 Sek. insgesamt {2} M. Schaden und reduziert die Heilrate um 100%. [Glück] - Kein Skill-Cooldown.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -6026,7 +6026,7 @@
       },
       "s2": {
         "name": "Karte der Liebe - Elliciad",
-        "description": "ANG ist für {0} Sek. um {1} und Mana-Regeneration pro Sek. um {2}% erhöht. Verbraucht im Besitz befindliche Karte, um zusätzliche Effekte zu verursachen. Bei Nutzung des Skills gibt es die Karte der [Liebe]. [Tod] - VERT Penetration ist für die Dauer des Skills um 600 erhöht. [Liebe] - Alle Verbündeten erhalten den Effekt. [Glück] - Kein Skill-Cooldown.",
+        "description": "Erhöht den ANG für {0} Sek. um {1} und die Manaregeneration/Sek. um {2}  %. Verbraucht eine Karte, um einen zusätzlichen Effekt je nach Kartentyp zu erhalten. Erhält bei Verwendung die Karte [Liebe]. [Tod] – Durchdringung erhöht sich für die Dauer des Skills um 600 und gewährt für 6 Sek. Immunität gegen Statuseffekte. [Liebe] – Der Effekt wird auf alle Verbündete angewandt. [Glück] – Cooldown wird nicht angewandt.",
         "books": {
           "0": "Erhöht ANG um {0}%.",
           "1": "Erhöht ANG um {0}%.",
@@ -6049,7 +6049,7 @@
       },
       "s3": {
         "name": "Karte des Glücks - Vellekia",
-        "description": "Greift das Ziel und alle umstehenden Feinde in Reichweite an und verursacht {0} M. Schaden. Diese Attacke trifft immer und der Krit. Schaden des Angreifers wird um zusätzliche 100% erhöht. Bei Nutzung des Skills gibt es die Karte des [Glücks]. [Death] - Krit. Schaden wird um zusätzliche 200% erhöht. [Liebe] - Entfernt positive Effekte aller Gegner in Reichweite sowie 1 Sek. lang Schweigen auszulösen.. [Glück] - Kein Skill-Cooldown und zusätzlich wird eine 1 Manakugel wiederhergestellt.",
+        "description": "Greift das Ziel und Feinde in seiner Nähe an und verursacht {0} M.Schaden. Dieser Angriff kann nicht verfehlen und verursacht um 100 % erhöhten Krit. Schaden. Erhält bei Verwendung die Karte [Glück]. [Tod] – Krit. Schaden erhöht sich um 120 %. [Liebe] – Entfernt alle positiven Effekte von Feinden in Reichweite und bringt sie für 2 Sek. zum Schweigen. [Glück] – Cooldown wird nicht angewandt. Regeneriert 1 Manakugel.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -6566,13 +6566,133 @@
         "dark": "Sämtliche Effekte von Flüchen werden erhöht. [Fluch der Versteinerung] Dauer der Versteinerung wird um 2 Sek. erhöht. [Fluch der Zeit] Dauer wird um 3 Sek. erhöht. [Fluch des Schmerzes] Schaden über Zeit um 50% erhöht."
       }
     },
+    "56": {
+      "name": "Erze",
+      "subtitle": "Endloser Durst",
+      "description": "Sie war eine Vampirjägerin, genau wie ihre Schwester Seria. Jedoch wurde sie von ihrer eigenen Macht verdorben, woraufhin sie ihre Kameraden tötete und beschloss, selbst ein Vampir zu werden. Nachdem sie den Hochvampir, der sie verwandelt hatte, getötet und dessen Kräfte absorbiert hatte, entglitt sie Seria, ihrer älteren Schwester und einzigen Überlebenden, und zog zu Orvelia.",
+      "story": "Erze war die zweite Tochter der Familie Shadow Hilt und beschloss, in die Fußstapfen ihrer geliebten Schwester Seria zu treten und ebenfalls eine Vampirjägerin zu werden. Aufgrund ihres schwachen Körperbaus konnte sie nie lernen, mit Schwertern zu kämpfen, aber dank ihrer magischen Talente wurde sie dennoch eine bekannte Jägerin. Eines Tages tappte sie während einer Operation in eine Falle und wurde von einem mysteriösen Vampir in die Schulter gebissen. Ihre ohnehin schon schwache Konstitution verschlechterte sich weiter und manifestierte sich in starken Kopfschmerzen und allnächtlichem Durst. Erze wusste, was das bedeutet und was mit ihr passieren würde. Sie versteckte den Biss und versuchte, selbst ein Heilmittel zu finden, woraufhin sie sich von ihren Kameraden distanzierte. In der Zwischenzeit wurde Seria zum Windland-Schneegebirge entsandt, um nach der Vampir-Prinzessin zu suchen, die vor 100 Jahren verschwand. Eines Tages ging ihre Schwester ... – Ah, Seria ... Ich kann es nicht mehr kontrollieren ... Still und heimlich fing Erze an, ihren Kameraden die Kehle durchzuschneiden.",
+      "like": "Seria als Schwester, Schokoladen-Parfait, Blut der Verdorbenen",
+      "dislike": "Seria als Vampirjägerin, Spinnen",
+      "inn": {
+        "idle": "Sie schauen alle so appetitlich aus ... *Stöhn*",
+        "recruit": {
+          "greet": "Ich kenne ein aufregendes Spiel, das wir zusammen spielen können. Wie wär’s?",
+          "talk": [
+            "Warum siehst du so ängstlich aus?",
+            "Fürchtest du, dass ich dich beiße?",
+            "So eine Erregung hast du noch nie gespürt, das garantiere ich dir."
+          ],
+          "gift": "Ha ha, das ist nicht nötig ... Wieso zeigst du mir nicht einfach deinen Hals?"
+        },
+        "affinity": {
+          "greet": "Ich habe dich schon einmal gesehen ... Ah, ha ha. So sehen wir uns wieder.",
+          "talk": [
+            "Vampire sind ganz anders als Dämonen. Ich gebe zu, dass diese höheren Dämonen okay sind, aber der Rest ist mehr oder weniger wertlos.",
+            "Das Blut der Verdorbenen schmeckt ... Es versetzt mich in Ekstase. Ja, Ekstase!"
+          ],
+          "gift": "Du schmeckst köstlich. Und du siehst jedes Mal süßer aus!"
+        },
+        "relationship": {
+          "greet": "Ich will, dass du das bekommst, um dich an mich zu erinnern. Das ist der Zahn jenes Vampirs, der mich gebissen hat ...",
+          "talk": [
+            "Hmm, diese Frau jagt mir immer noch hinterher ... Diese Frau ... Sie ... Meine Schwester ... Ich vermisse sie ... Aber ich will sie auch töten ... hee hee!",
+            "Der eine, der letztes Mal aufgetaucht ist. Er hat sein Blut anderen Menschen gegeben. Ohne unseren Willen ist unser Blut nutzlos. Das bedeutet, dass er sein Blut freiwillig hergegeben hat ... Ich frage mich, was er dafür bekommen hat? Ich hätte ihn fragen sollen, bevor ich ihn getötet habe.",
+            "Nein, ich werde niemals so sein wie früher. Tee hee, was, erwartest du, dass ich diese Erregung aufgebe und mich wieder der Verzweiflung hingebe?! Nein, niemals! Ich kehre nicht zurück ... Aber ... Wenn ich zurückkehren würde ... gäbe es dafür nur einen Grund ... Ja ... Wenn ich zurückkehren würde ... Dann für sie."
+          ]
+        }
+      },
+      "uw": {
+        "name": "Perion, die Essenz der Gier",
+        "description": [
+          "Jeder Skill-Treffer erhöht den ANG und die ANG-Geschwindigkeit für 15 Sek. um 0,5 %. Dieser Effekt ist bis zu 80-mal stapelbar.",
+          "Jeder Skill-Treffer erhöht den ANG und die ANG-Geschwindigkeit für 15 Sek. um 0,5 %. Dieser Effekt ist bis zu 90-mal stapelbar.",
+          "Jeder Skill-Treffer erhöht den ANG und die ANG-Geschwindigkeit für 15 Sek. um 0,5 %. Dieser Effekt ist bis zu 110-mal stapelbar.",
+          "Jeder Skill-Treffer erhöht den ANG und die ANG-Geschwindigkeit für 15 Sek. um 0,5 %. Dieser Effekt ist bis zu 130-mal stapelbar.",
+          "Jeder Skill-Treffer erhöht den ANG und die ANG-Geschwindigkeit für 15 Sek. um 0,5 %. Dieser Effekt ist bis zu 160-mal stapelbar.",
+          "Jeder Skill-Treffer erhöht den ANG und die ANG-Geschwindigkeit für 15 Sek. um 0,5 %. Dieser Effekt ist bis zu 200-mal stapelbar."
+        ],
+        "story": "Wann hat all das begonnen ...? Diese Qual und dieser unstillbare Durst ... Aber wenn dieser Durst gelöscht ist ... Pocht mein Herz vor Hass dir gegenüber, Seria ... Ah, Seria. Ich habe keine andere Wahl. Ich brauche diese Macht, um diesen endlosen Durst zu stillen. Diese immerwährende Essenz der Macht ist die einzige Heilung für meine ewige Qual. Ah ... Diese Ekstase ... Mehr ... Ich brauche mehr Erregung."
+      },
+      "s1": {
+        "name": "Süßes Blut",
+        "description": "Verursacht {0} K.Schaden an allen Feinden und stiehlt TP in Höhe von {1}  % des verursachten Schadens. Verringert die Abklingzeit von [Süßes Blut] mit jedem Treffer um {2} Sek. und erhält 1 Stapel [Süßes Blut]. [Süßes Blut] ist bis zu {3} -mal stapelbar. Wird der Skill mit {3} Stapeln von [Süßes Blut] verwendet, werden {4} zusätzliche Treffer gewährt und die Stapel von [Süßes Blut] entfernt.",
+        "books": {
+          "0": "Erhöht Schaden um {0}%.",
+          "1": "Erhöht Schaden um {0}%.",
+          "2": "Erhöht Schaden um {0}%."
+        },
+        "light": "Regeneriert bei jedem Angriff 150 Mana.",
+        "dark": "Jede Nutzung erhöht Schaden um 10%. Kumuliert sich bis zu 30 Mal."
+      },
+      "s2": {
+        "name": "Triefendes Blut",
+        "description": "Hebt alle negativen Effekte auf und gewährt für {0} Sek. Immunität gegen alle Statuseffekte, K.Schaden und M.Schaden. Fügt allen Feinden 1 Stapel [Triefendes Blut] zu sowie 1 zusätzlichen Stapel, wenn ein Ziel mit [Triefendes Blut] angegriffen wird. [Triefendes Blut] ist bis zu {1} -mal stapelbar. Verursacht nach {0} Sek. {2} K.Schaden an Feinden mit Stapeln von [Triefendes Blut] und stiehlt TP in Höhe von {3}  % des verursachten Schadens. Für alle {4} Stapel von [Triefendes Blut] erhöht sich die Trefferzahl um 1. Die Stapel von [Triefendes Blut] werden beim Angreifen entfernt.",
+        "books": {
+          "0": "Erhöht Schaden um {0}%.",
+          "1": "Erhöht Schaden um {0}%.",
+          "2": "Erhöht Schaden um {0}%."
+        },
+        "light": "Betäubt das Ziel bei einem Treffer für 3 Sek.",
+        "dark": "Manakosten sind um 1 reduziert.",
+        "ut": {
+          "name": "Wein des Schauderns",
+          "description": [
+            "[Triefendes Blut] Erhöht den Schaden von [Triefendes Blut] um 50 % und verringert den Cooldown von [Triefendes Blut] um 5 Sek.",
+            "[Triefendes Blut] Erhöht den Schaden von [Triefendes Blut] um 50 % und verringert den Cooldown von [Triefendes Blut] um 6 Sek.",
+            "[Triefendes Blut] Erhöht den Schaden von [Triefendes Blut] um 50 % und verringert den Cooldown von [Triefendes Blut] um 7 Sek.",
+            "[Triefendes Blut] Erhöht den Schaden von [Triefendes Blut] um 50 % und verringert den Cooldown von [Triefendes Blut] um 8 Sek.",
+            "[Triefendes Blut] Erhöht den Schaden von [Triefendes Blut] um 50 % und verringert den Cooldown von [Triefendes Blut] um 9 Sek.",
+            "[Triefendes Blut] Erhöht den Schaden von [Triefendes Blut] um 50 % und verringert den Cooldown von [Triefendes Blut] um 10 Sek."
+          ],
+          "story": "Ein Wein, den Erze persönlich aus dem Blut gefallener Priester hergestellt hat. Eine ihrer größten Freuden ist es, einst Heilige dazu zu zwingen, vor ihr zu knien. In der Flasche befindet sich ein blutiges Kreuz, und jene, die Erze den Wein trinken hören, erschaudern und erzittern aufgrund des klirrenden Kreuzes."
+        }
+      },
+      "s3": {
+        "name": "Blutbefreiung",
+        "description": "Verursacht alle {1} Sek. für {0} Sek. {2} K.Schaden an allen Feinden. Jeder Treffer von [Blutbefreiung] trifft 1 zusätzlichen zufälligen Feind.",
+        "books": {
+          "0": "Erhöht Schaden um {0}%.",
+          "1": "Erhöht Schaden um {0}%.",
+          "2": "Erhöht Schaden um {0}%."
+        },
+        "light": "Regeneriert bei jedem Angriff 75 Mana.",
+        "dark": "Manakosten sind um 1 erhöht, aber Schaden ist +100%.",
+        "ut": {
+          "name": "Lippenstift der Schande",
+          "description": [
+            "[Blutbefreiung] Erhöht den Schaden von [Blutbefreiung] um 20 % und erhält für die Dauer von [Blutbefreiung] Immunität gegen Statuseffekte.",
+            "[Blutbefreiung] Erhöht den Schaden von [Blutbefreiung] um 24 % und erhält für die Dauer von [Blutbefreiung] Immunität gegen Statuseffekte.",
+            "[Blutbefreiung] Erhöht den Schaden von [Blutbefreiung] um 29 % und erhält für die Dauer von [Blutbefreiung] Immunität gegen Statuseffekte.",
+            "[Blutbefreiung] Erhöht den Schaden von [Blutbefreiung] um 35 % und erhält für die Dauer von [Blutbefreiung] Immunität gegen Statuseffekte.",
+            "[Blutbefreiung] Erhöht den Schaden von [Blutbefreiung] um 42 % und erhält für die Dauer von [Blutbefreiung] Immunität gegen Statuseffekte.",
+            "[Blutbefreiung] Erhöht den Schaden von [Blutbefreiung] um 50 % und erhält für die Dauer von [Blutbefreiung] Immunität gegen Statuseffekte."
+          ],
+          "story": "Ein dunkelroter Lippenstift aus dem Blut jener, die eines schändlichen Todes gestorben sind. Jene, die ihre Würde als Menschen aufgegeben und ihrem unersättlichen Verlangen nachgegeben haben, konnten Erze nicht entkommen. Sie starben in einem kompletten Trancezustand, doch vielleicht sind sie immer noch glücklich, von Erze gebraucht worden zu sein. Erze benutzt ihn, um ein Mal auf dem Hals ihrer Beute zu hinterlassen, nachdem sie sich an ihr gelabt hat."
+        }
+      },
+      "s4": {
+        "name": "Lebenstrinker",
+        "description": "Increases ATK by {0} and Max HP by {1} upon killing an enemy. Upon taking lethal damage, casts [Soaking Blood] and reduces Max HP by {2}%. This effect does not occur if [Soaking Blood] is in Cooldown. Consumes all mana upon activation.",
+        "books": {
+          "0": "Erhöht den ANG und den „Max. TP“-Boost um {0}  %.",
+          "1": "Erhöht den ANG und den „Max. TP“-Boost um {0}  %.",
+          "2": "Erhöht den ANG und den „Max. TP“-Boost um {0}  %."
+        },
+        "light": "Erhöht die Max. TP um 100 %, wenn ein Feind getötet wird, und verändert die Verringerung der max. TP nach dem automatischen Wirken von [Triefendes Blut] um 33 %.",
+        "dark": "Erhöht den ANG um 200 %, wenn ein Feind getötet wird, die max. TP werden jedoch nicht erhöht."
+      },
+      "t5": {
+        "light": "ANG, VERT, TP+15% / Krit. Chance +100",
+        "dark": "Stiehlt mit dem letzten Angriff TP in Höhe von 25 % des zugefügten Schadens und erhält 1 Stapel von [Süßes Blut]."
+      }
+    },
     "57": {
       "name": "Lilia",
       "subtitle": "Die Tochter von Sturm und See",
       "description": "Ein blaues Drachenmädchen, das gerade die Jungtierphase hinter sich hat und die Schwester von Laias, der Priesterin des Wassers. Obwohl sie noch jung und unerfahren ist, zahlen diejenigen, die auf sie herabsehen, meist einen hohen Preis dafür. Sie nutzt die unermüdliche Energie des Wassers, um ihre Feinde zu dezimieren.",
       "story": "Ein Gottdrache der Oase und eine Schwester der Priesterin des Wassers. Sie ist noch ein junger blauer Drache und liebt ihre viel ältere Schwester sehr. Als Laias von 100 Jahren in einen tiefen Schlaf fiel, weil sie in der Schlacht ihre Kräfte verausgabt hatte, verteidigte Lilia den Schrein des Flusses ganz allein. Erst als sie hörte, wie die Kinder der Wüste verzweifelt beteten, weckte sie die Priesterin des Wassers, um sie zu beschützen. Anders als ihre sanfte und nachdenkliche Schwester ist sie recht streng, und die Art, wie sie die Kräfte von Fluss und Wasser beherrscht ist ebenfalls aggressiver. Sie sieht es als ihre Aufgabe an, ihre wunderschöne Schwester vor unwürdigen, flirtenden Männern zu beschützen.",
       "like": "Laias, süße Getränke, das Volk der Wüste",
-      "dislike": "Alle, die mit ihrer Schwester flirten (Neraxis, Sereinel)",
+      "dislike": "Alle, die mit ihrer Schwester flirten (Neraxis, Cain)",
       "inn": {
         "idle": "... Z-Zu viele Menschen ...",
         "recruit": {
@@ -6596,7 +6716,7 @@
           "greet": "Schön, dich wiederzusehen!",
           "talk": [
             "Neraxis? Was für ein Idiot. Er bettelt immer um die Aufmerksamkeit meiner Schwester!",
-            "Sereinel ...? Iiiieh ... Ich dachte, der sei für immer weg. Ich kann nicht glauben, dass er wieder an meine Schwester ranmacht ...",
+            "Cain ...? Iiiieh ... Ich dachte, der sei für immer weg. Ich kann nicht glauben, dass er wieder an meine Schwester ranmacht ...",
             "Ich liebe meine Schwester am meisten ... aber dich mag ich auch."
           ]
         }
@@ -6814,6 +6934,126 @@
         "dark": "Gewährt zu Kampfbeginn 5 Sek. lang Immunität gegen Statuseffekte. Steigert 10 Sek. lang PRÄZ und Statuseffekt-PRÄZ um 300."
       }
     },
+    "61": {
+      "name": "Neraxis",
+      "subtitle": "Obsidian-Arroganz",
+      "description": "Der Nachkomme eines Schwarzdrachen, der dunkle Blitze kontrollierte. Er kämpft dafür, die Welt von den Dämonen zu befreien, insbesondere den Draconics. Die Energie der dunklen Blitze, mit der sein Bunkerbrecher erfüllt ist, durchdringt die Verteidigung des Feindes.",
+      "story": "Schwarzdrachen sind dafür bekannt, die arrogantesten und übellaunigsten aller Drachen zu sein. Sie litten stark unter dem Dämonenkrieg vor 100 Jahren. Armarta verfiel dem Wahnsinn, Ashen Nox raubte sie aus und Draconics fingen an, Jagd auf Drachen zu machen. Neraxis war einer der wenigen Schwarzdrachen, der diesen Tag überlebte, und plant seither seine Rache.",
+      "like": "Laias",
+      "dislike": "Dämonen, Cain, Lilia und alles, was sich ihm in den Weg stellt.",
+      "inn": {
+        "idle": "Hmpf. Was tue ich hier überhaupt ...?",
+        "recruit": {
+          "greet": "Hmpf, was will ein Mensch von mir?",
+          "talk": [
+            "Mit dir zu sprechen, ist wertlos.",
+            "Was willst du?",
+            "Ha, lächerlich."
+          ],
+          "gift": "Ich weiß nicht, was du willst, aber es nutzlos."
+        },
+        "affinity": {
+          "greet": "Hmpf, du schon wieder, Mensch.",
+          "talk": [
+            "Huch? Du willst Hilfe? Hmpf. Lästig.",
+            "Ha, das ist richtig. Schwarzdrachen sind die stärksten!"
+          ],
+          "gift": "Das brauche ich nicht. Warum behältst du es nicht ...?"
+        },
+        "relationship": {
+          "greet": "... Gut, ich bin froh, dich zu sehen! Hmpf ...",
+          "talk": [
+            "Lilia? Ah, dieses nervige Kind? Tsk, sie steht immer im Weg.",
+            "Wieso verschwindet diese Mumie nicht einfach? Manchmal will ich ihn einfach nur töten.",
+            "Wieso ich Laias mag? Hmpf, m-man braucht keinen Grund, um jemanden zu mögen ... Nein, warte! Woher wusstest du das?!"
+          ]
+        }
+      },
+      "uw": {
+        "name": "Tosender Drachenschlund, Acravita",
+        "description": [
+          "Verursacht an 2 zufälligen Feinden nach 20 normalen Angriffen M.Schaden in Höhe von 100 % des ANG, betäubt sie für 0,5 Sek. und erhält für 10 Sek. Sturm von Neraxis. Erhöht für die Dauer von Sturm von Neraxis die K.VERT aller Verbündeten um 4 % der K.VERT des Beschwörers sowie die M.VERT um 4 % der M.VERT des Zaubernden.",
+          "Verursacht an 2 zufälligen Feinden nach 19 normalen Angriffen M.Schaden in Höhe von 100 % des ANG, betäubt sie für 0,5 Sek. und erhält für 10 Sek. Sturm von Neraxis. Erhöht für die Dauer von Sturm von Neraxis die K.VERT aller Verbündeten um 4,8 % der K.VERT des Beschwörers sowie die M.VERT um 4,8 % der M.VERT des Zaubernden.",
+          "Verursacht an 2 zufälligen Feinden nach 18 normalen Angriffen M.Schaden in Höhe von 100 % des ANG, betäubt sie für 0,5 Sek. und erhält für 10 Sek. Sturm von Neraxis. Erhöht für die Dauer von Sturm von Neraxis die K.VERT aller Verbündeten um 5,7 % der K.VERT des Beschwörers sowie die M.VERT um 5,7 % der M.VERT des Zaubernden.",
+          "Verursacht an 2 zufälligen Feinden nach 17 normalen Angriffen M.Schaden in Höhe von 100 % des ANG, betäubt sie für 0,5 Sek. und erhält für 10 Sek. Sturm von Neraxis. Erhöht für die Dauer von Sturm von Neraxis die K.VERT aller Verbündeten um 6,9 % der K.VERT des Beschwörers sowie die M.VERT um 6,9 % der M.VERT des Zaubernden.",
+          "Verursacht an 2 zufälligen Feinden nach 16 normalen Angriffen M.Schaden in Höhe von 100 % des ANG, betäubt sie für 0,5 Sek. und erhält für 10 Sek. Sturm von Neraxis. Erhöht für die Dauer von Sturm von Neraxis die K.VERT aller Verbündeten um 8,3 % der K.VERT des Beschwörers sowie die M.VERT um 8,3 % der M.VERT des Zaubernden.",
+          "Verursacht an 2 zufälligen Feinden nach 15 normalen Angriffen M.Schaden in Höhe von 100 % des ANG, betäubt sie für 0,5 Sek. und erhält für 10 Sek. Sturm von Neraxis. Erhöht für die Dauer von Sturm von Neraxis die K.VERT aller Verbündeten um 10 % der K.VERT des Beschwörers sowie die M.VERT um 10 % der M.VERT des Zaubernden."
+        ],
+        "story": "Eine magische Waffe, die aus dem pechschwarzen Metall namens Adamantit gefertigt und mit der dunklen Flamme und dem Blitz eines Schwarzdrachen temperiert wurde. Ihr wohnen der Groll und die Wut der Schwarzdrachen inne, die während des Dämonenkriegs getötet wurden. Neraxis zwang die Zwerge, diese spezielle Waffe für ihn zu schmieden. Dann verfluchte und verzauberte er sie mit den grollerfüllten Seelen der Schwarzdrachen. Jeder, der diese Waffe abgesehen von Neraxis berührt, bekommt die wütenden Schreie rachsüchtiger Drachen zu hören."
+      },
+      "s1": {
+        "name": "Schwarze Blitzklaue",
+        "description": "Zieht Feinde zum Ziel und verursacht {0} M.Schaden. Verursacht nach 1 Sek. {1} M.Schaden um das Ziel und betäubt die Feinde für {2} Sek. Verringert die ANG-Geschwindigkeit getroffener Feinde für {3} Sek. um {4}.",
+        "books": {
+          "0": "Erhöht Schaden um {0}%.",
+          "1": "Erhöht Schaden um {0}%.",
+          "2": "Erhöht Schaden um {0}%."
+        },
+        "light": "Erhöht die Betäubungsdauer um {0} Sek.",
+        "dark": "Erhöht den M.Schaden, den der getroffene Feind erleidet, für 10 Sek. um 25 %."
+      },
+      "s2": {
+        "name": "Obsidian-Brüllen",
+        "description": "Erhöht ANG, K.VERT und M.VERT aller Verbündeter für {0} Sek. um {1}. Verursacht an allen Feinden {2} M.Schaden und verringert ihren ANG für {3} Sek. um {4}  %.",
+        "books": {
+          "0": "Erhöht den ANG-Boost und VERT-Boost um {0}  %.",
+          "1": "Erhöht den ANG-Boost und VERT-Boost um {0}  %.",
+          "2": "Erhöht den ANG-Boost und VERT-Boost um {0}  %."
+        },
+        "light": "Erhöht die Manakosten um 1 sowie den ANG und den VERT-Boost um {0}  %.",
+        "dark": "Verringert die ANG-Geschwindigkeit des getroffenen Feindes für {0} Sek. um {1}.",
+        "ut": {
+          "name": "Erinnerungen des blauen Gottdrachens",
+          "description": [
+            "[Obsidian-Brüllen] Erhöht den VERT-Boost von Verbündeten um 20 % und hebt bei der Verwendung die positiven Effekte von allen Feinden auf.",
+            "[Obsidian-Brüllen] Erhöht den VERT-Boost von Verbündeten um 24 % und hebt bei der Verwendung die positiven Effekte von allen Feinden auf.",
+            "[Obsidian-Brüllen] Erhöht den VERT-Boost von Verbündeten um 29 % und hebt bei der Verwendung die positiven Effekte von allen Feinden auf.",
+            "[Obsidian-Brüllen] Erhöht den VERT-Boost von Verbündeten um 35 % und hebt bei der Verwendung die positiven Effekte von allen Feinden auf.",
+            "[Obsidian-Brüllen] Erhöht den VERT-Boost von Verbündeten um 42 % und hebt bei der Verwendung die positiven Effekte von allen Feinden auf.",
+            "[Obsidian-Brüllen] Erhöht den VERT-Boost von Verbündeten um 50 % und hebt bei der Verwendung die positiven Effekte von allen Feinden auf."
+          ],
+          "story": "Ein Haarschmuck, den Laias fallen ließ, während sie die von den Dämonen verdorbenen Gewässer läuterte. Neraxis fand und behielt ihn, aber er hat immer noch nicht entschieden, ob er ihn ihr zurückgeben wird. Laias wird ihren verlorenen Haarschmuck wohl nicht allzu schnell zurückbekommen."
+        }
+      },
+      "s3": {
+        "name": "Atem der Zerstörung",
+        "description": "Verursacht 6-mal insgesamt {0} M.Schaden an Feinden in einem großen Bereich rund um das Ziel und verringert ihre M.VERT für {1} Sek. um {2}  %. Jeder Treffer betäubt den Fein für {3} Sek.",
+        "books": {
+          "0": "Erhöht Schaden um {0}%.",
+          "1": "Erhöht Schaden um {0}%.",
+          "2": "Erhöht Schaden um {0}%."
+        },
+        "light": "Verringert die Manakosten um 1.",
+        "dark": "Verändert die M.VERT-Reduktion auf 30 %.",
+        "ut": {
+          "name": "Wutwirbel",
+          "description": [
+            "[Atem der Zerstörung] Erhöht die Betäubungsdauer um 1 Sek. und verringert den Cooldown von Atem der Zerstörung um 3 Sek.",
+            "[Atem der Zerstörung] Erhöht die Betäubungsdauer um 1 Sek. und verringert den Cooldown von Atem der Zerstörung um 4 Sek.",
+            "[Atem der Zerstörung] Erhöht die Betäubungsdauer um 1 Sek. und verringert den Cooldown von Atem der Zerstörung um 5 Sek.",
+            "[Atem der Zerstörung] Erhöht die Betäubungsdauer um 1 Sek. und verringert den Cooldown von Atem der Zerstörung um 6 Sek.",
+            "[Atem der Zerstörung] Erhöht die Betäubungsdauer um 1 Sek. und verringert den Cooldown von Atem der Zerstörung um 7 Sek.",
+            "[Atem der Zerstörung] Erhöht die Betäubungsdauer um 1 Sek. und verringert den Cooldown von Atem der Zerstörung um 8 Sek."
+          ],
+          "story": "Dieser Pfahl wurde aus Neraxis’ Fangzahn gefertigt und enthält seine glühende Wut. Wenn Neraxis mit dem Pfahl angreift, rast die große Energie, die mit Neraxis’ Kräften verwoben ist, mit entsetzlicher Geschwindigkeit auf den Feind zu. Sie ist stark genug, um alles und jeden zu durchdringen und die Gliedmaßen jener abzutrennen, die sich zu nahe an sie heranwagen."
+        }
+      },
+      "s4": {
+        "name": "Schwarzdrachenhaut",
+        "description": "Erhöht K.VERT und M.VERT um {0} und erleidet um {1}  % weniger K.Schaden und M.Schaden.",
+        "books": {
+          "0": "Erhöht den VERT-Boost um {0}  %.",
+          "1": "Erhöht den VERT-Boost um {0}  %.",
+          "2": "Erhöht den VERT-Boost um {0}  %."
+        },
+        "light": "Angriffsgeschw. wird um 300 erhöht.",
+        "dark": "Wenn die TP unter {0}  % fallen, werden die Skilleffekte um {1}  % erhöht."
+      },
+      "t5": {
+        "light": "ANG, VERT, TP+15% / Effekt-Widerstund +100",
+        "dark": "Verringert zu Beginn jedes Kampfes den Schaden, den Feinde, die keinen Helden sind, an allen Verbündeten außer Neraxis verursachen, für {0} Sek. um {1}  %."
+      }
+    },
     "62": {
       "name": "Scarlet",
       "subtitle": "Hoffnungsschimmer",
@@ -6863,7 +7103,7 @@
       },
       "s1": {
         "name": "Zugriff!",
-        "description": "Verursacht {0} K. Schaden an frontalstehende Gegner in Reichweite und stößt sie für 3 Sek. um. Regeneriert TP in Höhe von 30% des Schadens.",
+        "description": "Greift alle Frontfeinde an, verursacht {0} K.Schaden und wirft sie für 3 Sek. zu Boden. Verursacht zusätzlich {1} K.Schaden, wenn das Ziel kein Held ist. Heilt TP in Höhe von 30% des verursachten Schadens.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -6880,7 +7120,7 @@
           "1": "Erhöht Schaden um {0}%.",
           "2": "Erhöht Schaden um {0}%."
         },
-        "light": "Reduziert Manakosten um 1.",
+        "light": "Wenn das Ziel kein Held ist, wird es für 4 Sek. betäubt.",
         "dark": "Erhöht K. Kritresistenz aller Verbündeten für 10 Sek. um 200.",
         "ut": {
           "name": "Flügel der Gerechtigkeit",
@@ -8060,12 +8300,12 @@
       "uw": {
         "name": "Gaiamenes, Welle der Behütung",
         "description": [
-          "„Stolz von Orvelia“ erhält bei jedem eingesetzten Skill einen Stapel. „Stolz von Orvelia“ lässt sich nicht entfernen und bei 4 Stapeln wird „Segen von Orvelia“ aktiviert, Feinden in Reichweite 200 % des ANG als K.Schaden zugefügt und die K.Schwäche der Ziele für 10 Sekunden um 25 % erhöht. „Segen von Orvelia“ erhöht außerdem für 10 Sekunden die M.VERT um 10 %. Während der Dauer von „Segen von Orvelia“ erhält „Stolz von Orvelia“ keine Stapel.",
-          "Pride of Orvelia' is stacked on every use of skills. 'Pride of Orvelia' cannot be dispelled, and when stacked 3 times, 'Blessing of Orvelia' is activated, dealing 240% of ATK as P.DMG to enemies within a wide range and increasing P.Weakness of the targets by 30% for 20 seconds. 'Blessing of Orvelia' also increases M.DEF by 12% for 10 seconds.",
-          "Pride of Orvelia' is stacked on every use of skills. 'Pride of Orvelia' cannot be dispelled, and when stacked 3 times, 'Blessing of Orvelia' is activated, dealing 290% of ATK as P.DMG to enemies within a wide range and increasing P.Weakness of the targets by 36% for 20 seconds. 'Blessing of Orvelia' also increases M.DEF by 14% for 10 seconds.",
-          "Pride of Orvelia' is stacked on every use of skills. 'Pride of Orvelia' cannot be dispelled, and when stacked 3 times, 'Blessing of Orvelia' is activated, dealing 350% of ATK as P.DMG to enemies within a wide range and increasing P.Weakness of the targets by 43% for 20 seconds. 'Blessing of Orvelia' also increases M.DEF by 17% for 10 seconds.",
-          "Pride of Orvelia' is stacked on every use of skills. 'Pride of Orvelia' cannot be dispelled, and when stacked 3 times, 'Blessing of Orvelia' is activated, dealing 420% of ATK as P.DMG to enemies within a wide range and increasing P.Weakness of the targets by 51% for 20 seconds. 'Blessing of Orvelia' also increases M.DEF by 21% for 10 seconds.",
-          "Pride of Orvelia' is stacked on every use of skills. 'Pride of Orvelia' cannot be dispelled, and when stacked 3 times, 'Blessing of Orvelia' is activated, dealing 500% of ATK as P.DMG to enemies within a wide range and increasing P.Weakness of the targets by 60% for 20 seconds. 'Blessing of Orvelia' also increases M.DEF by 25% for 10 seconds."
+          "„Stolz von Orvelia“ erhält bei jedem eingesetzten Skill einen Stapel. „Stolz von Orvelia“ lässt sich nicht entfernen und bei 4 Stapeln wird „Segen von Orvelia“ aktiviert, Feinden in Reichweite 200 % des ANG als K.Schaden zugefügt und die K.Schwäche der Ziele für 10 Sekunden um 25 % erhöht. „Segen von Orvelia“ erhöht außerdem für 10 Sekunden die M.VERT um 10 %.",
+          "„Stolz von Orvelia“ erhält bei jedem eingesetzten Skill einen Stapel. „Stolz von Orvelia“ lässt sich nicht entfernen und bei 4 Stapeln wird „Segen von Orvelia“ aktiviert, Feinden in Reichweite 240 % des ANG als K.Schaden zugefügt und die K.Schwäche der Ziele für 10 Sekunden um 30 % erhöht. „Segen von Orvelia“ erhöht außerdem für 10 Sekunden die M.VERT um 12 %.",
+          "„Stolz von Orvelia“ erhält bei jedem eingesetzten Skill einen Stapel. „Stolz von Orvelia“ lässt sich nicht entfernen und bei 4 Stapeln wird „Segen von Orvelia“ aktiviert, Feinden in Reichweite 290 % des ANG als K.Schaden zugefügt und die K.Schwäche der Ziele für 10 Sekunden um 36 % erhöht. „Segen von Orvelia“ erhöht außerdem für 10 Sekunden die M.VERT um 14 %.",
+          "„Stolz von Orvelia“ erhält bei jedem eingesetzten Skill einen Stapel. „Stolz von Orvelia“ lässt sich nicht entfernen und bei 4 Stapeln wird „Segen von Orvelia“ aktiviert, Feinden in Reichweite 350 % des ANG als K.Schaden zugefügt und die K.Schwäche der Ziele für 10 Sekunden um 43 % erhöht. „Segen von Orvelia“ erhöht außerdem für 10 Sekunden die M.VERT um 17 %.",
+          "„Stolz von Orvelia“ erhält bei jedem eingesetzten Skill einen Stapel. „Stolz von Orvelia“ lässt sich nicht entfernen und bei 4 Stapeln wird „Segen von Orvelia“ aktiviert, Feinden in Reichweite 420 % des ANG als K.Schaden zugefügt und die K.Schwäche der Ziele für 10 Sekunden um 51 % erhöht. „Segen von Orvelia“ erhöht außerdem für 10 Sekunden die M.VERT um 21 %.",
+          "„Stolz von Orvelia“ erhält bei jedem eingesetzten Skill einen Stapel. „Stolz von Orvelia“ lässt sich nicht entfernen und bei 4 Stapeln wird „Segen von Orvelia“ aktiviert, Feinden in Reichweite 500 % des ANG als K.Schaden zugefügt und die K.Schwäche der Ziele für 10 Sekunden um 60 % erhöht. „Segen von Orvelia“ erhöht außerdem für 10 Sekunden die M.VERT um 25 %."
         ],
         "story": "Die Hellebarde, die von einer antiken Wächterstatue gehalten wurde, die das Tor des Labyrinths bewachte, wurde vor Kurzem im unterirdischen Königslabyrinth gefunden. Die alte Statue hielt die Hellebarde fest in Händen, als ob sie ihre Entschlossenheit zeigen wollte, das Labyrinth vor Eindringlingen zu schützen. Loman, der mit der Ausgrabung des Labyrinths beauftragt war, spürte eine außergewöhnliche Energie von der Statue ausgehen und verneigte sich vor ihr. Genau in diesem Moment ließ die Statue die Waffe fallen und zerbrach in tausend Stücke. Die Hellebarde selbst schien unversehrt und war von einer mysteriösen Energie erfüllt. „Die Statue zerbrach plötzlich und ließ die Hellebarde fallen...“ , sagte Scarlet, als sie sich den Bericht ansah. „Ja.“ Scarlet richtete ihren Blick dann auf Loman. „Die unnachgiebige Aufrichtigkeit, einen Ort zu beschützen, bis der Körper zerfällt... Ich kenne so einen Mann.“ „Wie bitte?“ Er schaute Scarlet fragend an, während sie ihm die Hellebarde lächelnd überreichte."
       },

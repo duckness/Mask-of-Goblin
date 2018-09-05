@@ -439,7 +439,8 @@
       "s2": {
         "description": [
           "???",
-          20
+          "???",
+          "???"
         ],
         "mana": 2,
         "cooldown": 10,
@@ -460,7 +461,7 @@
       "s3": {
         "description": [
           "???",
-          20
+          "???"
         ],
         "mana": 4,
         "cooldown": 20,
@@ -480,6 +481,7 @@
       },
       "s4": {
         "description": [
+          "???",
           "???"
         ],
         "books": [
@@ -530,6 +532,8 @@
       },
       "s1": {
         "description": [
+          "???",
+          16,
           "???"
         ],
         "mana": 2,
@@ -866,7 +870,9 @@
       },
       "s1": {
         "description": [
-          "???"
+          "???",
+          "???",
+          5
         ],
         "mana": 2,
         "cooldown": 8,
@@ -1451,9 +1457,10 @@
       },
       "s3": {
         "description": [
-          2,
           "???",
-          40
+          "???",
+          400,
+          "???"
         ],
         "mana": 4,
         "cooldown": 20,
@@ -2239,7 +2246,7 @@
           "???",
           4
         ],
-        "mana": 3,
+        "mana": 4,
         "cooldown": 22,
         "books": [
           [
@@ -2691,7 +2698,7 @@
           7,
           "???"
         ],
-        "mana": null,
+        "mana": 1,
         "cooldown": 60,
         "books": [
           [
@@ -2955,7 +2962,7 @@
     "27": {
       "index": 27,
       "class": "priest",
-      "type": "magical",
+      "type": "physical",
       "position": {
         "type": "rear",
         "weight": 100
@@ -2976,7 +2983,7 @@
         "description": [
           8,
           50,
-          8,
+          "???",
           "???"
         ],
         "mana": 2,
@@ -3020,7 +3027,7 @@
           "???",
           3
         ],
-        "mana": null,
+        "mana": 1,
         "cooldown": 40,
         "books": [
           [
@@ -3038,7 +3045,7 @@
       },
       "s4": {
         "description": [
-          20,
+          10,
           10,
           "???"
         ],
@@ -3094,6 +3101,7 @@
       },
       "s1": {
         "description": [
+          "???",
           "???"
         ],
         "mana": 2,
@@ -3106,7 +3114,7 @@
             15
           ],
           [
-            250
+            25
           ]
         ],
         "dark": null,
@@ -3119,7 +3127,7 @@
           10,
           "???"
         ],
-        "mana": 1,
+        "mana": 2,
         "cooldown": 10,
         "books": [
           [
@@ -3140,7 +3148,7 @@
           "???"
         ],
         "mana": 2,
-        "cooldown": 25,
+        "cooldown": 20,
         "books": [
           [
             10
@@ -3149,7 +3157,7 @@
             15
           ],
           [
-            250
+            25
           ]
         ],
         "dark": null,
@@ -3949,7 +3957,7 @@
         "type": "forward",
         "weight": 700
       },
-      "mpatk": 360,
+      "mpatk": 265,
       "mpsec": 60,
       "auto": {
         "range": 3500,
@@ -3960,6 +3968,9 @@
           ],
           [
             0.9
+          ],
+          [
+            2.0
           ],
           [
             2.7
@@ -4139,7 +4150,10 @@
       "s4": {
         "description": [
           "???",
-          1
+          1,
+          "???",
+          10,
+          200
         ],
         "books": [
           [
@@ -5727,6 +5741,128 @@
         "light": null
       }
     },
+    "56": {
+      "index": 56,
+      "class": "assassin",
+      "type": "physical",
+      "position": {
+        "type": "middle",
+        "weight": 500
+      },
+      "mpatk": 250,
+      "mpsec": 60,
+      "auto": {
+        "range": 5000,
+        "rangeType": "Ranged",
+        "time": [
+          [
+            0.4
+          ],
+          [
+            0.9,
+            1.3
+          ],
+          [
+            2.2
+          ]
+        ],
+        "duration": 3.0
+      },
+      "s1": {
+        "description": [
+          "???",
+          10,
+          "???",
+          5,
+          2
+        ],
+        "mana": 2,
+        "cooldown": 5,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          6,
+          10,
+          "???",
+          25,
+          5
+        ],
+        "mana": 2,
+        "cooldown": 40,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          10,
+          1,
+          "???"
+        ],
+        "mana": 3,
+        "cooldown": 14,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???",
+          "???",
+          50
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
+    },
     "57": {
       "index": 57,
       "class": "wizard",
@@ -5977,6 +6113,142 @@
         "light": null
       }
     },
+    "61": {
+      "index": 61,
+      "class": "knight",
+      "type": "magical",
+      "position": {
+        "type": "forward",
+        "weight": 700
+      },
+      "mpatk": 255,
+      "mpsec": 60,
+      "auto": {
+        "range": 3500,
+        "rangeType": "Melee",
+        "time": [
+          [
+            0.4,
+            0.6
+          ],
+          [
+            1.0
+          ],
+          [
+            1.6,
+            2.3
+          ]
+        ],
+        "duration": 3.1
+      },
+      "s1": {
+        "description": [
+          "???",
+          "???",
+          3,
+          10,
+          300
+        ],
+        "mana": 2,
+        "cooldown": 8,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": [
+          2
+        ]
+      },
+      "s2": {
+        "description": [
+          15,
+          "???",
+          "???",
+          15,
+          30
+        ],
+        "mana": 3,
+        "cooldown": 15,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": [
+          15,
+          300
+        ],
+        "light": [
+          100
+        ]
+      },
+      "s3": {
+        "description": [
+          "???",
+          15,
+          20,
+          1
+        ],
+        "mana": 4,
+        "cooldown": 20,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???",
+          15
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": [
+          50,
+          50
+        ],
+        "light": null
+      },
+      "t5": {
+        "dark": [
+          30,
+          10
+        ],
+        "light": null
+      }
+    },
     "62": {
       "index": 62,
       "class": "warrior",
@@ -5988,7 +6260,7 @@
       "mpatk": 285,
       "mpsec": 60,
       "auto": {
-        "range": 4000,
+        "range": 3200,
         "rangeType": "Melee",
         "time": [
           [
@@ -6008,6 +6280,7 @@
       },
       "s1": {
         "description": [
+          "???",
           "???"
         ],
         "mana": 3,
@@ -7251,8 +7524,8 @@
       "class": "priest",
       "type": "physical",
       "position": {
-        "type": "rear",
-        "weight": 200
+        "type": "middle",
+        "weight": 100
       },
       "mpatk": 500,
       "mpsec": 60,

@@ -550,7 +550,7 @@
         "La Velocidad de ATQ aumenta en 165",
         "La Velocidad de ATQ aumenta en 200"
       ],
-      "story": "Un objeto misterioso creado con la forma de un pollito para celebrar un festival para los niños. Es un excelente calmante."
+      "story": "Un juguete pequeño con forma de pollito que simboliza la inocencia de los niños."
     },
     "59": {
       "name": "Delicia refrescante de verano",
@@ -615,7 +615,7 @@
       },
       "s1": {
         "name": "Cuchilla del Juicio",
-        "description": "Causa {0} Daño Fis. A los enemigos a tu alcance, derribalos por {1} segundos",
+        "description": "Causa {0} de Daño físico 2 veces a los enemigos frontales en un círculo y los derriba durante {1}  segundo(s).",
         "books": {
           "0": "Aumento el Daño en {0}%.",
           "1": "Aumento el Daño en {0}%.",
@@ -626,7 +626,7 @@
       },
       "s2": {
         "name": "Valiente Dash",
-        "description": "Causa {0} Daño Fis. A los enemigos a tu alcance",
+        "description": "Ataca al objetivo 3 veces y embiste contra ellos desde atrás para infligir {0} de Daño físico.",
         "books": {
           "0": "Aumento el Daño en {0}%.",
           "1": "Aumento el Daño en {0}%.",
@@ -769,7 +769,7 @@
       },
       "s3": {
         "name": "Venganza del Cielo",
-        "description": "Cuasa  {0}  Daño Magico a los enemigos al alcance, cegándolos por  {1}  segundos.",
+        "description": "Ataca al objetivo y a los enemigos cercanos 6 veces, lo que inflige un total de {0} de Daño mágico y los ciega durante {1} segundo(s).",
         "books": {
           "0": "Aumenta el Daño en {0}%.",
           "1": "Aumenta el Daño en {0}%.",
@@ -792,7 +792,7 @@
       },
       "s4": {
         "name": "Gracia de Diosa",
-        "description": "Aumenta la DEF. Magica de 1 aliado en {1} por {0} segundos.",
+        "description": "Aumenta la Defensa mágica de 1 aliado con la Salud más baja en {1} durante {0} segundo(s) cada 15 segundos.",
         "books": {
           "0": "Aumenta la fuerza de DEF Mágica en {0}%.",
           "1": "Aumenta la fuerza de DEF Mágica en {0}%.",
@@ -855,7 +855,7 @@
       },
       "s1": {
         "name": "Aguja de Fuego",
-        "description": "Causa {0} Daño Magico hasta 5 enemigos e inflige una marca de fuego que causa Daño Magico constante.",
+        "description": "Ataca a un enemigo aleatorio 5 veces, lo que causa un total de {0} de Daño mágico e inflige 1 acumulación de Brasas al enemigo afectado.",
         "books": {
           "0": "Aumenta el Daño en {0}%.",
           "1": "Aumenta el Daño en {0}%.",
@@ -866,7 +866,7 @@
       },
       "s2": {
         "name": "Bola de Fuego",
-        "description": "Causa {0} Daño Magico en los enemigos y aturdimiento por 2 segundos. El Daño aumenta en {1}% por cada marca de fuego.",
+        "description": "Ataca al objetivo y a los enemigos cercanos, lo que causa {0} de Daño mágico y los aturde durante 2 segundos. Inflige {2} de Daño mágico adicional por cada acumulación de Brasas al enemigo.",
         "books": {
           "0": "Aumenta el Daño en {0}%.",
           "1": "Aumenta el Daño en {0}%.",
@@ -889,7 +889,7 @@
       },
       "s3": {
         "name": "Lluvia de Fuego",
-        "description": "Cada ataque, causa {0} Daño Magico en los enemigos y una marca de Fuego. El Daño aumenta en {1}% por cada marca de fuego.",
+        "description": "Ataca a todos los enemigos 8 veces, lo que causa un total de {0} de Daño mágico y les inflige 1 acumulación de Brasas. Causa {1} de Daño mágico adicional al enemigo por cada acumulación de Brasas.",
         "books": {
           "0": "Aumenta el Daño en {0}%.",
           "1": "Aumenta el Daño en {0}%.",
@@ -912,7 +912,7 @@
       },
       "s4": {
         "name": "Propagacion de la Llama",
-        "description": "Causa {0} de Daño mágico a 3 objetivos y a los enemigos cercanos, lo que inflige 1 acumulación de Brasas. Disminuye la Defensa mágica de los enemigos afectados por Brasas en un 5%.",
+        "description": "Obtiene un 20 % de probabilidades de atacar a 3 enemigos aleatorios al acertar ataques normales, lo que causa {0} de Daño mágico al objetivo y a los enemigos cercanos y les inflige 1 acumulación de Brasas. Brasas causa un total de {1} de Daño mágico durante 20 segundos y reduce la Defensa mágica del objetivo en un 5 %.",
         "books": {
           "0": "Aumenta el Daño en {0}%.",
           "1": "Aumenta el Daño en {0}%.",
@@ -975,7 +975,7 @@
       },
       "s1": {
         "name": "Despiadado",
-        "description": "Ataca aleatoriamente 3 veces causando  {0}  Daño Fís., Superpone un estado sangrante que causa Daño Fis. continuo. Puede sangrar hasta tres veces.",
+        "description": "Ataca a un enemigo aleatorio 3 veces, lo que causa un total de {0} Daño físico y les inflige 1 acumulación de Sangrar que causa {2} de daño Físico durante {1} segundo(s). Sangrar se puede acumular hasta 3 veces.",
         "books": {
           "0": "Aumenta el Daño en {0}%.",
           "1": "Aumenta el Daño en {0}%.",
@@ -1032,7 +1032,7 @@
       },
       "s4": {
         "name": "Hachazo",
-        "description": "Luego de un auto-ataque crítico, causa {0} Daño Fis. adicional",
+        "description": "Si se acierta un ataque normal como Golpe crítico, ataca al objetivo 6 veces para causar un total de {0} Daño físico adicional.",
         "books": {
           "0": "Aumenta el Daño en {0}%.",
           "1": "Aumenta el Daño en {0}%.",
@@ -1324,18 +1324,18 @@
       "uw": {
         "name": "Lakrak MK-1",
         "description": [
-          "Cada autoataque tiene un 25% de probabilidades de aumentar la Velocidad de ATQ en 300 durante 10 segundos.",
-          "Cada autoataque tiene un 25% de probabilidades de aumentar la Velocidad de ATQ en 360 durante 10 segundos.",
-          "Cada autoataque tiene un 25% de probabilidades de aumentar la Velocidad de ATQ en 420 durante 10 segundos.",
-          "Cada autoataque tiene un 25% de probabilidades de aumentar la Velocidad de ATQ en 510 durante 10 segundos.",
-          "Cada autoataque tiene un 25% de probabilidades de aumentar la Velocidad de ATQ en 615 durante 10 segundos.",
-          "Cada autoataque tiene un 25% de probabilidades de aumentar la Velocidad de ATQ en 750 durante 10 segundos."
+          "Obtiene un 25 % de probabilidades de conseguir una acumulación de Pólvora al atacar. Cada acumulación de Pólvora aumenta el Ataque en un 3 %, la Velocidad de ataque en 30 y el Daño a los enemigos que no son héroes en un 3 %. Pólvora se acumula hasta 10 veces y no se puede eliminar.",
+          "Obtiene un 25 % de probabilidades de conseguir una acumulación de Pólvora al atacar. Cada acumulación de Pólvora aumenta el Ataque en un 3,6 %, la Velocidad de ataque en 36 y el Daño a los enemigos que no son héroes en un 3,6 %. Pólvora se acumula hasta 10 veces y no se puede eliminar.",
+          "Obtiene un 25 % de probabilidades de conseguir una acumulación de Pólvora al atacar. Cada acumulación de Pólvora aumenta el Ataque en un 4,3 %, la Velocidad de ataque en 43 y el Daño a los enemigos que no son héroes en un 4,3 %. Pólvora se acumula hasta 10 veces y no se puede eliminar.",
+          "Obtiene un 25 % de probabilidades de conseguir una acumulación de Pólvora al atacar. Cada acumulación de Pólvora aumenta el Ataque en un 5,1 %, la Velocidad de ataque en 51 y el Daño a los enemigos que no son héroes en un 5,1 %. Pólvora se acumula hasta 10 veces y no se puede eliminar.",
+          "Obtiene un 25 % de probabilidades de conseguir una acumulación de Pólvora al atacar. Cada acumulación de Pólvora aumenta el Ataque en un 6,2 %, la Velocidad de ataque en 62 y el Daño a los enemigos que no son héroes en un 6,2 %. Pólvora se acumula hasta 10 veces y no se puede eliminar.",
+          "Obtiene un 25 % de probabilidades de conseguir una acumulación de Pólvora al atacar. Cada acumulación de Pólvora aumenta el Ataque en un 7,5 %, la Velocidad de ataque en 75 y el Daño a los enemigos que no son héroes en un 7,5 %. Pólvora se acumula hasta 10 veces y no se puede eliminar."
         ],
         "story": "La obra maestra destructiva pero artística de un inventor duende extravagante. Este cañón de una sola mano posee la mayor cantidad de arsenal que un Goblin puede manipular físicamente. A pesar de la peligrosa cantidad de pólvora utilizada, esta arma afortunadamente aún no ha estallado."
       },
       "s1": {
         "name": "Fuego Rapido",
-        "description": "Causa  {0}  Daño Fis. a los enemigos al alcance y derribalos.",
+        "description": "Ataca a todos los enemigos frontales en línea recta, lo que causa {0} de Daño físico y los empuja hacia atrás. Si el objetivo no es un héroe, le inflige {1} de Daño físico adicional y lo aturde durante {2} segundo(s).",
         "books": {
           "0": "Aumenta Daño en {0}%.",
           "1": "Aumenta Daño en {0}%.",
@@ -1924,24 +1924,24 @@
       "uw": {
         "name": "Arma Final, Leviathan",
         "description": [
-          "Causa Daño físico equivalente al 100 % del Ataque a los enemigos afectados por la habilidad ¡Bum! con un 50 % de probabilidad, y el objetivo recibe un 20 % más de Daño físico durante 5 segundos.",
-          "Causa Daño físico equivalente al 120 % del Ataque a los enemigos afectados por la habilidad ¡Bum! con un 50 % de probabilidad, y el objetivo recibe un 24 % más de Daño físico durante 5 segundos.",
-          "Causa Daño físico equivalente al 140 % del Ataque a los enemigos afectados por la habilidad ¡Bum! con un 50 % de probabilidad, y el objetivo recibe un 29 % más de Daño físico durante 5 segundos.",
-          "Causa Daño físico equivalente al 170 % del Ataque a los enemigos afectados por la habilidad ¡Bum! con un 50 % de probabilidad, y el objetivo recibe un 35 % más de Daño físico durante 5 segundos.",
-          "Causa Daño físico equivalente al 210 % del Ataque a los enemigos afectados por la habilidad ¡Bum! con un 50 % de probabilidad, y el objetivo recibe un 42 % más de Daño físico durante 5 segundos.",
-          "Causa Daño físico equivalente al 250 % del Ataque a los enemigos afectados por la habilidad ¡Bum! con un 50 % de probabilidad, y el objetivo recibe un 50 % más de Daño físico durante 5 segundos."
+          "Causa Daño físico equivalente al 100 % del Ataque a los enemigos afectados por la habilidad ¡Bum! con un 50 % de probabilidad, y el objetivo recibe un 20 % más de Daño físico durante 10 segundos.",
+          "Causa Daño físico equivalente al 120 % del Ataque a los enemigos afectados por la habilidad ¡Bum! con un 50 % de probabilidad, y el objetivo recibe un 24 % más de Daño físico durante 10 segundos.",
+          "Causa Daño físico equivalente al 140 % del Ataque a los enemigos afectados por la habilidad ¡Bum! con un 50 % de probabilidad, y el objetivo recibe un 29 % más de Daño físico durante 10 segundos.",
+          "Causa Daño físico equivalente al 170 % del Ataque a los enemigos afectados por la habilidad ¡Bum! con un 50 % de probabilidad, y el objetivo recibe un 35 % más de Daño físico durante 10 segundos.",
+          "Causa Daño físico equivalente al 210 % del Ataque a los enemigos afectados por la habilidad ¡Bum! con un 50 % de probabilidad, y el objetivo recibe un 42 % más de Daño físico durante 10 segundos.",
+          "Causa Daño físico equivalente al 250 % del Ataque a los enemigos afectados por la habilidad ¡Bum! con un 50 % de probabilidad, y el objetivo recibe un 50 % más de Daño físico durante 10 segundos."
         ],
         "story": "Hace tiempo cuando Miruru reinaba como la emperatriz pirata, era temida por los marineros y era una gran amenaza para la fuerza naval de Orvelia y del imperio. Los cañones en su barco eran especialmente aterradores para la fuerza naval. Los más poderosos eran los Leviatán, el cañón principal del barco. Después de haber sido maldecido, se llevó una cosa mientras huía de su tripulación amotinada. Su valor como un arma es, de hecho, más valiosa que cualquier botín u oro. Se llevo consigo a Leviatán, el cañón más poderoso de su arsenal. Después de varias modificaciones, el que una vez era el terror del mar ahora sirve como artillería móvil."
       },
       "s1": {
         "name": "Baaaam!",
-        "description": "Causa {0} Daño Fis. A los enemigos al alcance y derribalos",
+        "description": "Inflige {0} de Daño físico a todos los enemigos y los empuja hacia atrás.",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
           "2": "Daño Aumenta en {0}%."
         },
-        "light": "El costo de maná se reduce en 1.",
+        "light": "Aumenta el Daño físico que recibe el objetivo en un 25 % durante 10 segundos.",
         "dark": "Al activarlo, aumenta el ATQ en un 35% durante 10 segundos."
       },
       "s2": {
@@ -1969,13 +1969,13 @@
       },
       "s3": {
         "name": "Piratas de Miruru!",
-        "description": "Causa  {1}  Daño Fis. a los enemigos al alcance por {0}  segundos, disminuyendo su velocidad en  {2}%.",
+        "description": "Ataca a un objetivo aleatorio y a los enemigos cercanos 5 veces, lo que causa un total de {1} de Daño físico y reduce su Velocidad de ataque en {2}. Si el objetivo no es un héroe, inflige {3} de Daño físico adicional.",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
           "2": "Daño Aumenta en {0}%."
         },
-        "light": "DMG se incrementa en un 40%.",
+        "light": "Si hay 1 enemigo, el Daño se incrementa en un 100%.",
         "dark": "Elimina el efecto debuff de ATK Spd y añade un Stun de 3 segundos.",
         "ut": {
           "name": "Bala de cañón de Miroru",
@@ -2712,7 +2712,7 @@
       },
       "s4": {
         "name": "Escalofrios del Amanecer",
-        "description": "Causa  {1}  Daño Magico a 3 enemigos cada  {0}  segundos y congelalos",
+        "description": "Causa {1} de Daño mágico a 3 enemigos cada {0} segundo(s) e inflige Escarcha para reducir su Velocidad de ataque en 100 durante 8 segundos.",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
@@ -2764,12 +2764,12 @@
       "uw": {
         "name": "Luz Azul, Arpheus",
         "description": [
-          "El bloqueo de los ataques enemigos tiene un 10% de probabilidades de recuperar el maná propio en un 3% y reduce todas las reutilizaciones de las habilidades en 1 seg.",
-          "El bloqueo de los ataques enemigos tiene un 13% de probabilidades de recuperar el maná propio en un 3% y reduce todas las reutilizaciones de las habilidades en 1 seg.",
-          "El bloqueo de los ataques enemigos tiene un 16% de probabilidades de recuperar el maná propio en un 3% y reduce todas las reutilizaciones de las habilidades en 1 seg.",
-          "El bloqueo de los ataques enemigos tiene un 19% de probabilidades de recuperar el maná propio en un 3% y reduce todas las reutilizaciones de las habilidades en 1 seg.",
-          "El bloqueo de los ataques enemigos tiene un 22% de probabilidades de recuperar el maná propio en un 3% y reduce todas las reutilizaciones de las habilidades en 1 seg.",
-          "El bloqueo de los ataques enemigos tiene un 25% de probabilidades de recuperar el maná propio en un 3% y reduce todas las reutilizaciones de las habilidades en 1 seg."
+          "Aumenta la Defensa física de todos los aliados en un 4 %. Bloquear un ataque enemigo tiene un 10 % de probabilidades de recuperar un 3 % de Mana y reducir el tiempo de reutilización de todas las habilidades en 1 segundo.",
+          "Aumenta la Defensa física de todos los aliados en un 4,8 %. Bloquear un ataque enemigo tiene un 12 % de probabilidades de recuperar un 3,3 % de Mana y reducir el tiempo de reutilización de todas las habilidades en 1 segundo.",
+          "Aumenta la Defensa física de todos los aliados en un 5,8 %. Bloquear un ataque enemigo tiene un 14 % de probabilidades de recuperar un 3,6 % de Mana y reducir el tiempo de reutilización de todas las habilidades en 1 segundo.",
+          "Aumenta la Defensa física de todos los aliados en un 7 %. Bloquear un ataque enemigo tiene un 17 % de probabilidades de recuperar un 3,9 % de Mana y reducir el tiempo de reutilización de todas las habilidades en 1 segundo.",
+          "Aumenta la Defensa física de todos los aliados en un 8,4 %. Bloquear un ataque enemigo tiene un 21 % de probabilidades de recuperar un 4,2 % de Mana y reducir el tiempo de reutilización de todas las habilidades en 1 segundo.",
+          "Aumenta la Defensa física de todos los aliados en un 10 %. Bloquear un ataque enemigo tiene un 25 % de probabilidades de recuperar un 4,5 % de Mana y reducir el tiempo de reutilización de todas las habilidades en 1 segundo."
         ],
         "story": "Un día, se descubrió una veta que expulsaba mana poderosa en el territorio de Ziltrion. Al investigarla, Demia encontró oro azul, una apariencia que ella nunca antes había visto. Varios hechiceros y alquimistas estudiaron este misterioso mineral con las características de una gema y de un metal, pero nadie pudo descifrar su identidad. Sin embargo, Jin, el herrero, tenía una idea distinta. En cuanto vio el mineral, ofreció a Demia fabricar equipos poderosos a partir de él, con una enorme sonrisa en su cara. Con él, forjó una lanza y un escudo, un azul brillante con mana y más resistente que el diamante."
       },
@@ -2792,7 +2792,7 @@
           "1": "Daño Aumenta en {0}%.",
           "2": "La reduccion del ATQ Enemigo aumenta en {0}%."
         },
-        "light": "Causa Daño Fis adicional basado en DEF. Fis",
+        "light": "El costo de maná se reduce en 1.",
         "dark": "La DEF Fis del aliado se incrementa en un 20% durante 10 segundos después de la activación.",
         "ut": {
           "name": "Escudo de resolución",
@@ -2884,12 +2884,12 @@
       "uw": {
         "name": "Garras Malditas, Baroro",
         "description": [
-          "Al proporcionar un Golpe Crit, causa un Daño Fis. Constante (100% de ATQ) durante 10seg. El enemigo recibe un aumento del 20% de Daño Fis. durante el ataque.",
-          "Al proporcionar un Golpe Crit, causa un Daño Fis. Constante (120% de ATQ) durante 10seg. El enemigo recibe un aumento del 24% de Daño Fis. durante el ataque.",
-          "Al proporcionar un Golpe Crit, causa un Daño Fis. Constante (144% de ATQ) durante 10seg. El enemigo recibe un aumento del 28% de Daño Fis. durante el ataque.",
-          "Al proporcionar un Golpe Crit, causa un Daño Fis. Constante (172% de ATQ) durante 10seg. El enemigo recibe un aumento del 34% de Daño Fis. durante el ataque.",
-          "Al proporcionar un Golpe Crit, causa un Daño Fis. Constante (207% de ATQ) durante 10seg. El enemigo recibe un aumento del 41% de Daño Fis. durante el ataque.",
-          "Al proporcionar un Golpe Crit, causa un Daño Fis. Constante (250% de ATQ) durante 10seg. El enemigo recibe un aumento del 50% de Daño Fis. durante el ataque."
+          "Al proporcionar un Golpe Crit, causa un Daño Fis. Constante (150% de ATQ) durante 10seg. El enemigo recibe un aumento del 20% de Daño Fis. durante el ataque.",
+          "Al proporcionar un Golpe Crit, causa un Daño Fis. Constante (180% de ATQ) durante 10seg. El enemigo recibe un aumento del 24% de Daño Fis. durante el ataque.",
+          "Al proporcionar un Golpe Crit, causa un Daño Fis. Constante (216% de ATQ) durante 10seg. El enemigo recibe un aumento del 28% de Daño Fis. durante el ataque.",
+          "Al proporcionar un Golpe Crit, causa un Daño Fis. Constante (258% de ATQ) durante 10seg. El enemigo recibe un aumento del 34% de Daño Fis. durante el ataque.",
+          "Al proporcionar un Golpe Crit, causa un Daño Fis. Constante (310% de ATQ) durante 10seg. El enemigo recibe un aumento del 41% de Daño Fis. durante el ataque.",
+          "Al proporcionar un Golpe Crit, causa un Daño Fis. Constante (500% de ATQ) durante 10seg. El enemigo recibe un aumento del 50% de Daño Fis. durante el ataque."
         ],
         "story": "Un par de guanteletes malditos fabricados a partir de las garras del demonio loco Baroco, que fue derrotado durante la guerra. Varias veces más grande que el tamaño normal de las manos humanas, estos guanteletes conectan directamente los nervios de quien lo utiliza y permite que el portador los controle sin esfuerzo. Aunque tienen un inmenso gran poder, también penetran en la mente de quien los utiliza, devorando lentamente su alma. Solo un verdadero guerrero de noble convicción, voluntad fuerte y espíritu inmortal puede manejar estas armas malditas. Son las armas perfectas para un guerrero con una fuerte voluntad que brilla incluso en la obscuridad del abismo."
       },
@@ -3244,12 +3244,12 @@
       "uw": {
         "name": "Libro de Dios, Génesis",
         "description": [
-          "Cada 30 segundos, aumenta el ATQ de un solo aliado aleatorio en un 40%. También aumenta la Oportunidad Crit y la Veloc de ATQ en 400. (durante 10 seg)",
-          "Cada 30 segundos, aumenta el ATQ de un solo aliado aleatorio en un 48%. También aumenta la Oportunidad Crit y la Veloc de ATQ en 480. (durante 10 seg)",
-          "Cada 30 segundos, aumenta el ATQ de un solo aliado aleatorio en un 57%. También aumenta la Oportunidad Crit y la Veloc de ATQ en 570. (durante 10 seg)",
-          "Cada 30 segundos, aumenta el ATQ de un solo aliado aleatorio en un 69%. También aumenta la Oportunidad Crit y la Veloc de ATQ en 690. (durante 10 seg)",
-          "Cada 30 segundos, aumenta el ATQ de un solo aliado aleatorio en un 83%. También aumenta la Oportunidad Crit y la Veloc de ATQ en 830. (durante 10 seg)",
-          "Cada 30 segundos, aumenta el ATQ de un solo aliado aleatorio en un 100%. También aumenta la Oportunidad Crit y la Veloc de ATQ en 1000. (durante 10 seg)"
+          "Aumenta la velocidad de lanzamiento de todas las habilidades, y con cada uso de una habilidad, aumenta el Ataque en un 2 % y la Defensa en un 2 % para todos los aliados. Este efecto se puede acumular hasta 7 veces.",
+          "Aumenta la velocidad de lanzamiento de todas las habilidades, y con cada uso de una habilidad, aumenta el Ataque en un 2,4 % y la Defensa en un 2,4 % para todos los aliados. Este efecto se puede acumular hasta 7 veces.",
+          "Aumenta la velocidad de lanzamiento de todas las habilidades, y con cada uso de una habilidad, aumenta el Ataque en un 2,9 % y la Defensa en un 2,9 % para todos los aliados. Este efecto se puede acumular hasta 7 veces.",
+          "Aumenta la velocidad de lanzamiento de todas las habilidades, y con cada uso de una habilidad, aumenta el Ataque en un 3,5 % y la Defensa en un 3,5 % para todos los aliados. Este efecto se puede acumular hasta 7 veces.",
+          "Aumenta la velocidad de lanzamiento de todas las habilidades, y con cada uso de una habilidad, aumenta el Ataque en un 4,2 % y la Defensa en un 4,2 % para todos los aliados. Este efecto se puede acumular hasta 7 veces.",
+          "Aumenta la velocidad de lanzamiento de todas las habilidades, y con cada uso de una habilidad, aumenta el Ataque en un 5 % y la Defensa en un 5 % para todos los aliados. Este efecto se puede acumular hasta 7 veces."
         ],
         "story": "Incluso entre las reliquias sagradas otorgadas a los clérigos de la Iglesia de Lua, el libro de dios Génesis es especial. De acuerdo con la leyenda, este libro, protegido durante décadas por los grandes clérigos de la iglesia, lo escribió la misma Lua. Iris, el actual gran clérigo, después de recibir una revelación sobre Baudouin, confió este libro a su padre adoptivo, Berman. Luego, el libro fue otorgado a Baudouin cuando se convirtió en clérigo. Se dice que esta reliquia divina brinda energía infinita a su dueño, junto con el poder de desbloquear el verdadero potencial de aquellos que tienen fe."
       },
@@ -3295,7 +3295,7 @@
           "1": "Aumenta la Recuperacion en {0}%.",
           "2": "Aumenta la Veloc de Ataque en {0}"
         },
-        "light": "La duración de la invincibilidad se incrementa en 1,5 segundos.",
+        "light": "El costo de maná se reduce en 1.",
         "dark": "A cambio de 2 Maná adicional y una reducción de 3 segundos de duración de Invincibilidad, todos los aliados obtienen 50% de ATQ.",
         "ut": {
           "name": "Rosario antiguo",
@@ -3604,18 +3604,18 @@
       "uw": {
         "name": "Pluma de Fénix, Belisa",
         "description": [
-          "Al auto-atacar, hay un 10% de probabilidad de causar 100% de Daño Magico adicional, y eliminar los efectos positivos del objetivo.",
-          "Al auto-atacar, hay un 12% de probabilidad de causar 100% de Daño Magico adicional, y eliminar los efectos positivos del objetivo.",
-          "Al auto-atacar, hay un 14% de probabilidad de causar 100% de Daño Magico adicional, y eliminar los efectos positivos del objetivo.",
-          "Al auto-atacar, hay un 17% de probabilidad de causar 100% de Daño Magico adicional, y eliminar los efectos positivos del objetivo.",
-          "Al auto-atacar, hay un 20% de probabilidad de causar 100% de Daño Magico adicional, y eliminar los efectos positivos del objetivo.",
-          "Al auto-atacar, hay un 25% de probabilidad de causar 100% de Daño Magico adicional, y eliminar los efectos positivos del objetivo."
+          "Al comienzo de cada batalla, aumenta la Defensa física y la Defensa mágica en un 20 % y la Velocidad de ataque en 200 durante 15 segundos, y agrega un efecto adicional a la primera habilidad que se usa. Runa de la fragilidad: aumenta la Probabilidad de crítico en 500. Runa de la curación: disipa el Control de multitudes infligido en el lanzador antes de que se lance la habilidad. Runa del silencio: aumenta la duración de Silenciar en 1 segundo.",
+          "Al comienzo de cada batalla, aumenta la Defensa física y la Defensa mágica en un 24 % y la Velocidad de ataque en 240 durante 15 segundos, y agrega un efecto adicional a la primera habilidad que se usa. Runa de la fragilidad: aumenta la Probabilidad de crítico en 500. Runa de la curación: disipa el Control de multitudes infligido en el lanzador antes de que se lance la habilidad. Runa del silencio: aumenta la duración de Silenciar en 1 segundo.",
+          "Al comienzo de cada batalla, aumenta la Defensa física y la Defensa mágica en un 29 % y la Velocidad de ataque en 290 durante 15 segundos, y agrega un efecto adicional a la primera habilidad que se usa. Runa de la fragilidad: aumenta la Probabilidad de crítico en 500. Runa de la curación: disipa el Control de multitudes infligido en el lanzador antes de que se lance la habilidad. Runa del silencio: aumenta la duración de Silenciar en 1 segundo.",
+          "Al comienzo de cada batalla, aumenta la Defensa física y la Defensa mágica en un 35 % y la Velocidad de ataque en 350 durante 15 segundos, y agrega un efecto adicional a la primera habilidad que se usa. Runa de la fragilidad: aumenta la Probabilidad de crítico en 500. Runa de la curación: disipa el Control de multitudes infligido en el lanzador antes de que se lance la habilidad. Runa del silencio: aumenta la duración de Silenciar en 1 segundo.",
+          "Al comienzo de cada batalla, aumenta la Defensa física y la Defensa mágica en un 42 % y la Velocidad de ataque en 420 durante 15 segundos, y agrega un efecto adicional a la primera habilidad que se usa. Runa de la fragilidad: aumenta la Probabilidad de crítico en 500. Runa de la curación: disipa el Control de multitudes infligido en el lanzador antes de que se lance la habilidad. Runa del silencio: aumenta la duración de Silenciar en 1 segundo.",
+          "Al comienzo de cada batalla, aumenta la Defensa física y la Defensa mágica en un 50 % y la Velocidad de ataque en 500 durante 15 segundos, y agrega un efecto adicional a la primera habilidad que se usa. Runa de la fragilidad: aumenta la Probabilidad de crítico en 500. Runa de la curación: disipa el Control de multitudes infligido en el lanzador antes de que se lance la habilidad. Runa del silencio: aumenta la duración de Silenciar en 1 segundo."
         ],
         "story": "El fénix es una bestia sagrada que simboliza vida eterna. Tan elusivo como la propia bestia, sus plumas también se consideran extremadamente raras. Se dice que una pluma de escribir creada a partir de la pluma de un fénix es una herramienta mágica por sí sola. Las runas dibujadas con esta pluma pueden servir como un medio poderoso para la magia de runas."
       },
       "s1": {
         "name": "Runa de la Fragilidad",
-        "description": "Marca una runa sobre el enemigo, reduciendo {1} el% de DEF Fis.por {0} seg. Luego de {2} seg, causa un {3} Daño Mágico máximo proporcional a la Salud perdida, ignorando la DEF.",
+        "description": "Graba una runa en el objetivo, lo que causa hasta {3} de Daño Fis. que ignora la Defensa según la Salud faltante y reduce su Defensa física en un {1}  % durante {0} segundo(s).",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
@@ -3649,13 +3649,13 @@
       },
       "s3": {
         "name": "Runa del Silencio",
-        "description": "Causa  {0}  Daño Magico a todo el equipo enemigo, y elimina los aficionados. También silencia al enemigo por  {1}  seg.",
+        "description": "Causa  {0}  Daño Fis. a todo el equipo enemigo, y elimina los aficionados. También silencia al enemigo por  {1}  seg.",
         "books": {
           "0": "la duracion del Silencio aumenta en {0} seg.",
           "1": "la duracion del Silencio aumenta en {0} seg.",
           "2": "la duracion del Silencio aumenta en {0} seg."
         },
-        "light": "La duración del silencio aumentó 1 seg.",
+        "light": "El costo de maná se reduce en 1.",
         "dark": "El Daño se incrementa en 200% y el objetivo enemigo recibe 20% más de Daño de todas las fuentes durante 10 seg. El costo de maná se incrementa en 2.",
         "ut": {
           "name": "Pergamino de memoria",
@@ -3724,24 +3724,24 @@
       "uw": {
         "name": "Espadas Gemelas de Furia, Veralta",
         "description": [
-          "Obten un 12% de ATQ y una velocidad de ATQ de 120 cada 7 segundos. Se acumula hasta 3 veces.",
-          "Obten un 14% de ATQ y una velocidad de ATQ de 140 cada 7 segundos. Se acumula hasta 3 veces.",
-          "Obten un 17% de ATQ y una velocidad de ATQ de 170 cada 7 segundos. Se acumula hasta 3 veces.",
-          "Obten un 20% de ATQ y una velocidad de ATQ de 200 cada 7 segundos. Se acumula hasta 3 veces.",
-          "Obten un 25% de ATQ y una velocidad de ATQ de 250 cada 7 segundos. Se acumula hasta 3 veces.",
-          "Obten un 30% de ATQ y una velocidad de ATQ de 300 cada 7 segundos. Se acumula hasta 3 veces."
+          "Aumenta el Ataque en un 12 % y la Velocidad de ataque en 120 durante 30 segundos cada 7 segundos. Este efecto se puede acumular hasta 3 veces y no se puede eliminar.",
+          "Aumenta el Ataque en un 14 % y la Velocidad de ataque en 140 durante 30 segundos cada 7 segundos. Este efecto se puede acumular hasta 3 veces y no se puede eliminar.",
+          "Aumenta el Ataque en un 17 % y la Velocidad de ataque en 170 durante 30 segundos cada 7 segundos. Este efecto se puede acumular hasta 3 veces y no se puede eliminar.",
+          "Aumenta el Ataque en un 20 % y la Velocidad de ataque en 200 durante 30 segundos cada 7 segundos. Este efecto se puede acumular hasta 3 veces y no se puede eliminar.",
+          "Aumenta el Ataque en un 25 % y la Velocidad de ataque en 250 durante 30 segundos cada 7 segundos. Este efecto se puede acumular hasta 3 veces y no se puede eliminar.",
+          "Aumenta el Ataque en un 30 % y la Velocidad de ataque en 300 durante 30 segundos cada 7 segundos. Este efecto se puede acumular hasta 3 veces y no se puede eliminar."
         ],
         "story": "Un conjunto de armas encantadas otorgadas al abuelo de Fluss, un caballero natural de la República de Gray, y transferidas como tesoros familiares. Son capaces de mejorar gradualmente las habilidades físicas de su portador, permitiéndole romper las barreras de los límites humanos y obtener poder y velocidad sobrenaturales. Debido a su efecto gradual, no hay estrés repentino para el cuerpo del portador. Cada pieza se llama Sangre y Rosa, respectivamente. Los nombres provienen del remolino de sangre salpicada y los pétalos de flores que aparecen cuando Fluss agita sus espadas gemelas. Ningún otro guerrero ha sido capaz de utilizar su potencial como Fluss lo hace."
       },
       "s1": {
         "name": "Cuchilla de la Tempestad",
-        "description": "Causa  {0}  Daño Fis. A los enemigos que son objetivos y a otros enemigos cercanos.",
+        "description": "Ataca al objetivo y a los enemigos cercanos 3 veces, lo que causa un total de {0} de Daño físico. Si el objetivo no es un héroe, inflige un total de {1} de Daño físico adicional durante 5 segundos.",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
-          "2": "Aumenta Oportunidad Crit. en {0}"
+          "2": "Daño Aumenta en {0}%."
         },
-        "light": "el Daño se incrementa en un 40%.",
+        "light": "Ignora DEF cuando sólo hay un enemigo.",
         "dark": "Luego de un Golpe Crit, el tiempo de reutilización se reduce en un 6%."
       },
       "s2": {
@@ -3769,11 +3769,11 @@
       },
       "s3": {
         "name": "Petalos Sangrientos",
-        "description": "Causa  {0}  Daño Fisico sobre un solo enemigo, y restringelo durante el proceso",
+        "description": "Causa un total de {0} de Daño físico a un enemigo durante 16 ataques, y aplasta al objetivo mientras se lanza. Este Daño ignora los efectos de Bloquear del objetivo.",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
-          "2": "Aumenta Oportunidad Crit. en {0}"
+          "2": "Daño Aumenta en {0}%."
         },
         "light": "Cada golpe crítico incrementa el Daño del último golpe en un 10%.",
         "dark": "Durante el tiempo de reutilización, el Daño del ataque automático aumenta en un 50%.",
@@ -4684,12 +4684,12 @@
       "uw": {
         "name": "Luz del Juicio, Theoria",
         "description": [
-          "Cuando cualquier otro aliado recibe Daño, hay un 10% de probabilidad de concederles un escudo con un valor de 320% del ATQ de Ricardo durante 5 seg. Este efecto sólo puede tener lugar una vez cada 5 seg.",
-          "Cuando cualquier otro aliado recibe Daño, hay un 12% de probabilidad de concederles un escudo con un valor de 384% del ATQ de Ricardo durante 5 seg. Este efecto sólo puede tener lugar una vez cada 5 seg.",
-          "Cuando cualquier otro aliado recibe Daño, hay un 14% de probabilidad de concederles un escudo con un valor de 460% del ATQ de Ricardo durante 5 seg. Este efecto sólo puede tener lugar una vez cada 5 seg.",
-          "Cuando cualquier otro aliado recibe Daño, hay un 17% de probabilidad de concederles un escudo con un valor de 552% del ATQ de Ricardo durante 5 seg. Este efecto sólo puede tener lugar una vez cada 5 seg.",
-          "Cuando cualquier otro aliado recibe Daño, hay un 20% de probabilidad de concederles un escudo con un valor de 660% del ATQ de Ricardo durante 5 seg. Este efecto sólo puede tener lugar una vez cada 5 seg.",
-          "Cuando cualquier otro aliado recibe Daño, hay un 25% de probabilidad de concederles un escudo con un valor de 800% del ATQ de Ricardo durante 5 seg. Este efecto sólo puede tener lugar una vez cada 5 seg."
+          "Cuando un aliado que no es el lanzador recibe Daño, hay un 10 % de probabilidades de que se lance un escudo sobre ellos que absorbe Daño equivalente al 320 % del Ataque durante 5 segundos, al mismo tiempo que otorga inmunidad al Control de multitudes. Este efecto no se activa más de una vez en 5 segundos.",
+          "Cuando un aliado que no es el lanzador recibe Daño, hay un 12 % de probabilidades de que se lance un escudo sobre ellos que absorbe Daño equivalente al 384 % del Ataque durante 5 segundos, al mismo tiempo que otorga inmunidad al Control de multitudes. Este efecto no se activa más de una vez en 5 segundos.",
+          "Cuando un aliado que no es el lanzador recibe Daño, hay un 14 % de probabilidades de que se lance un escudo sobre ellos que absorbe Daño equivalente al 460 % del Ataque durante 5 segundos, al mismo tiempo que otorga inmunidad al Control de multitudes. Este efecto no se activa más de una vez en 5 segundos.",
+          "Cuando un aliado que no es el lanzador recibe Daño, hay un 17 % de probabilidades de que se lance un escudo sobre ellos que absorbe Daño equivalente al 552 % del Ataque durante 5 segundos, al mismo tiempo que otorga inmunidad al Control de multitudes. Este efecto no se activa más de una vez en 5 segundos.",
+          "Cuando un aliado que no es el lanzador recibe Daño, hay un 20 % de probabilidades de que se lance un escudo sobre ellos que absorbe Daño equivalente al 660 % del Ataque durante 5 segundos, al mismo tiempo que otorga inmunidad al Control de multitudes. Este efecto no se activa más de una vez en 5 segundos.",
+          "Cuando un aliado que no es el lanzador recibe Daño, hay un 25 % de probabilidades de que se lance un escudo sobre ellos que absorbe Daño equivalente al 800 % del Ataque durante 5 segundos, al mismo tiempo que otorga inmunidad al Control de multitudes. Este efecto no se activa más de una vez en 5 segundos."
         ],
         "story": "Cuando se otorgó la sagrada espada Aea a Kyle, apareció en el Templo de Lua ubicada al norte de las Llanuras del Rey. Cuando Kyle sacó la espada del altar, liberó una potente onda de luz que convirtió todos los alrededores en un suelo sagrado. Todo lo que estaba dentro del templo se convirtió en reliquias sagradas. Teoría, el pilar central del templo, absorbió la mayor cantidad de energía sagrada entre todos."
       },
@@ -4763,7 +4763,7 @@
       },
       "t5": {
         "light": "ATQ, DEF, Salud+15% / Bloq Fis +200",
-        "dark": "Cuando la Salud propia baja al 30%, no caerá por debajo del 10% durante 10 segundos, y el ATQ de todos los aliados se incrementa en un 50% equivalente a la propia DEF Mágica. Este efecto se activa una vez cada 60 segundos."
+        "dark": "Cuando la Salud propia baja al 40%, no caerá por debajo del 10% durante 6 segundos, y el ATQ de todos los aliados se incrementa en un 50% equivalente a la propia DEF Mágica. Este efecto se activa una vez cada 60 segundos."
       }
     },
     "37": {
@@ -4804,24 +4804,24 @@
       "uw": {
         "name": "Demonio Estático, Caethasis",
         "description": [
-          "Cuando se auto ataca, hay un 10% de probabilidades de que el héroe cause 140% de Daño Fis adicional para obtener un estado Oculto durante 10 seg. Tiene un tiempo de reutilización de 10 seg.",
-          "Cuando se auto ataca, hay un 12% de probabilidades de que el héroe cause 170% de Daño Fis adicional para obtener un estado Oculto durante 10 seg. Tiene un tiempo de reutilización de 10 seg.",
-          "Cuando se auto ataca, hay un 14% de probabilidades de que el héroe cause 200% de Daño Fis adicional para obtener un estado Oculto durante 10 seg. Tiene un tiempo de reutilización de 10 seg.",
-          "Cuando se auto ataca, hay un 17% de probabilidades de que el héroe cause 240% de Daño Fis adicional para obtener un estado Oculto durante 10 seg. Tiene un tiempo de reutilización de 10 seg.",
-          "Cuando se auto ataca, hay un 20% de probabilidades de que el héroe cause 290% de Daño Fis adicional para obtener un estado Oculto durante 10 seg. Tiene un tiempo de reutilización de 10 seg.",
-          "Cuando se auto ataca, hay un 25% de probabilidades de que el héroe cause 350% de Daño Fis adicional para obtener un estado Oculto durante 10 seg. Tiene un tiempo de reutilización de 10 seg."
+          "Cuando se auto ataca, hay un 10% de probabilidades de que el héroe cause 200% de Daño Fis adicional para obtener un estado Oculto durante 10 seg. Tiene un tiempo de reutilización de 10 seg.",
+          "Cuando se auto ataca, hay un 12% de probabilidades de que el héroe cause 240% de Daño Fis adicional para obtener un estado Oculto durante 10 seg. Tiene un tiempo de reutilización de 10 seg.",
+          "Cuando se auto ataca, hay un 14% de probabilidades de que el héroe cause 290% de Daño Fis adicional para obtener un estado Oculto durante 10 seg. Tiene un tiempo de reutilización de 10 seg.",
+          "Cuando se auto ataca, hay un 17% de probabilidades de que el héroe cause 350% de Daño Fis adicional para obtener un estado Oculto durante 10 seg. Tiene un tiempo de reutilización de 10 seg.",
+          "Cuando se auto ataca, hay un 20% de probabilidades de que el héroe cause 420% de Daño Fis adicional para obtener un estado Oculto durante 10 seg. Tiene un tiempo de reutilización de 10 seg.",
+          "Cuando se auto ataca, hay un 25% de probabilidades de que el héroe cause 500% de Daño Fis adicional para obtener un estado Oculto durante 10 seg. Tiene un tiempo de reutilización de 10 seg."
         ],
         "story": "La guerra de demonios data de hace 100 años atrás. Durante esta guerra, la mayor amenaza contra la raza humana eran, sin lugar a dudas, los oficiales demonio de alto rango. Kaitasis, el demonio de la calma, era especialmente peligroso entre ellos. Este demonio asesinó a innumerables hechiceros y clérigos quien identificaba específicamente a usuarios de magia por sus almas. Eventualmente, Kyle derrotó a Kaitasis, y su núcleo se selló. Sin embargo, años más tarde, el núcleo llegó a manos de la Máscara de Risa y una vez más, sirvió como un instrumento de la muerte."
       },
       "s1": {
         "name": "Objetivo Marcado",
-        "description": "Colocate detrás del enemigo con la DEF Fis más baja y aumenta su Daño Fis. recibido en  {0}%, mientras los derribas causa  {1}  Daño Fis. Si esta en un estado Oculto, aturdelo durante 6 seg. Si no esta en estado Oculto, aturdelo durante 10 seg. Mientras se encuentre en estado Oculto, la Tasa Crit y la Tasa de Evasion aumenta en 200.",
+        "description": "Colocate detrás del enemigo con la DEF Fis más baja y aumenta su Daño Fis. recibido en  {0}%, mientras los derribas causa  {1}  Daño Fis. Si esta en un estado Oculto, aturdelo durante 6 seg. Si no esta en estado Oculto, aturdelo durante 10 seg. Mientras se encuentre en estado Oculto, la Tasa Crit y la Tasa de Evasion aumenta en 50.",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
           "2": "Aumenta Oportunidad Crit. en {0}"
         },
-        "light": "el Daño se incrementa en un 40%.",
+        "light": "Reduce la Tasa de curación del objetivo en un 30 %.",
         "dark": "Durante 10 segundos, la resistencia Fis. Crit. del objetivo se reduce en 250."
       },
       "s2": {
@@ -4872,14 +4872,14 @@
       },
       "s4": {
         "name": "Emboscada Silenciosa",
-        "description": "Si una habilidad es Golpeada, el enemigo recibe {0} Daño Fis adicional y se silencia por  {1}  seg.",
+        "description": "Causa {0} de Daño físico adicional al enemigo y lo silencia durante {1} segundo(s) al acertar un Golpe crítico con la habilidad. Si el objetivo no es un héroe, inflige {2} de Daño físico adicional que ignora la Defensa y reduce su Velocidad de ataque en {4} durante {3} segundo(s).",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
           "2": "la duracion del Silencio aumenta en {0} seg."
         },
-        "light": "el Daño se incrementa en un 40%.",
-        "dark": "La duración del silencio se incrementa en 2 segundos cuando sólo hay un enemigo."
+        "light": "Aumenta el Daño adicional contra enemigos que no son héroes en un 100 %.",
+        "dark": "Aumenta la duración de Silenciar en 0,5 segundos."
       },
       "t5": {
         "light": "ATQ, DEF, Salud+15% / Daño Crit+20%",
@@ -5242,7 +5242,7 @@
         "dark": "La duración del aturdimiento aumenta en 0,2 segundos."
       },
       "t5": {
-        "light": "ATQ, DEF, Salud+15% / Veloc de ATQ +100",
+        "light": "ATQ, DEF, Salud+15% / Oportunidad Crit +100",
         "dark": "Cuando 'Dios del Relámpago' se activa, recupera la mitad del maná. Cuando el maná está al máximo, el ATQ se incrementa en un 50% durante 10 segundos. Este efecto solo se activa una vez cada 20 segundos."
       }
     },
@@ -6015,7 +6015,7 @@
       },
       "s1": {
         "name": "Carta de la Muerte - Carta",
-        "description": "Ataca al enemigo, causando {0} Daño Mágico y aturdiéndolo durante {1} segundos. Consume la carta que posees para infligir efectos adicionales. Al utilizar la habilidad, obtén la carta de la [Muerte]. [Muerte] - El Daño ignora la DEF del enemigo y el aturdimiento aumenta en 5 segundos. [Amor] - Causa un total de {2} Daño Mágico durante 7 segundos y reduce la tasa de curación en un 100%. [Fortuna]: el tiempo de reutilización de las habilidades queda sin efecto",
+        "description": "Ataca al enemigo, causando {0} Daño Mágico y aturdiéndolo durante {1} segundos. Consume la carta que posees para infligir efectos adicionales. Al utilizar la habilidad, obtén la carta de la [Muerte]. [Muerte] - El Daño ignora la DEF del enemigo y el aturdimiento aumenta en 5 segundos. [Amor] - Causa un total de {2} Daño Mágico durante 10 segundos y reduce la tasa de curación en un 100%. [Fortuna]: el tiempo de reutilización de las habilidades queda sin efecto",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
@@ -6026,7 +6026,7 @@
       },
       "s2": {
         "name": "Carta del Amor - Elliciad",
-        "description": "El ATQ se incrementa en {1} durante {0} segundos y la recuperación del Maná por segundo aumenta en un {2}%. Consume la carta que posees para infligir efectos adicionales. Al utilizar la habilidad, obtén la carta del [Amor]. [Muerte] - La entrada se incrementa en 600 mientras dure la habilidad. [Amor] - Otorga efecto a todos los aliados. [Fortuna] - el tiempo de reutilización de las habilidades queda sin efecto",
+        "description": "Aumenta el Ataque en {1} durante {0} segundo(s) y la Recuperación de Mana/seg. en un {2}  %. Consume una carta en posesión para ganar un efecto adicional según el tipo de carta. Obtiene la carta [Amor] al usarla. [Muerte] - La Penetración de defensa aumenta en 600 mientras dura la habilidad y gana inmunidad al Control de multitudes durante 6 segundos. [Amor] - El efecto se aplica a todos los aliados. [Suerte] - El tiempo de reutilización no se aplica.",
         "books": {
           "0": "El ATQ aumenta en {0}%.",
           "1": "El ATQ aumenta en {0}%.",
@@ -6049,7 +6049,7 @@
       },
       "s3": {
         "name": "Carta de la Fortuna - Vellekia",
-        "description": "Ataca a los enemigos que tiene como objetivo y a los enemigos cercanos causando {0} Daño Mágico. Este ataque no falla, y el Daño Crit. de este ataque se incrementa en un 100%. Al utilizar la habilidad, obtén la carta de la [Fortuna]. [Muerte] - El Daño Crit. aumenta en un 200% adicional. [Amor] - Disipa los efectos positivos de los enemigos cercanos y silenciándolo durante 1 segundo. [Fortuna] - el tiempo de reutilización de las habilidades queda sin efecto y recupera 1 esfera de maná.",
+        "description": "Ataca al objetivo y a los enemigos cercanos para causar {0} de Daño mágico. Este ataque no se puede errar y causa un 100 % de Daño crítico aumentado. Obtiene la carta [Suerte] al usarla. [Muerte] - El Daño crítico aumenta en un 120 %. [Amor] - Elimina todos los efectos positivos de los enemigos dentro del rango y los silencia durante 2 segundos. [Suerte] - El tiempo de reutilización no se aplica. Recupera 1 esfera de Mana.",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
@@ -6566,13 +6566,133 @@
         "dark": "Se mejoran todos los efectos de la maldición. [Maldición de la petrificación] La duración de Petrificación se incrementa en 2 segundos. [Maldición del tiempo] La duración de la Maldición del tiempo se incrementa en 3 segundos. [Maldición del dolor] El Daño por tiempo de la Maldición del dolor se incrementa en un 50%."
       }
     },
+    "56": {
+      "name": "Erze",
+      "subtitle": "Sed insaciable",
+      "description": "Era una cazadora de vampiros, al igual que su hermana, Seria. Sin embargo, corrompida por su propio poder, masacró a sus compañeros y se convirtió en vampiro. Luego de matar al alto vampiro que la había convertido y absorber sus poderes, huyó de Seria, su hermana mayor y la única sobreviviente, y se trasladó a Orvelia.",
+      "story": "Nacida segunda en la familia Shadow Hilt, Erze también eligió dedicarse a cazar vampiros como su querida hermana Seria. Debido a su complexión frágil, nunca pudo aprender a luchar con espadas, pero sí ganó reconocimiento como cazadora gracias a sus talentos con la magia. Un día, durante un operativo, cayó en una trampa y un misterioso vampiro la mordió en el hombro. Su condición física, de por sí débil, fue empeorando, y comenzó a sufrir dolores de cabeza frecuentes y una sed intensa todas las noches. Erze sabía lo que esto significaba y lo que le iba a ocurrir. Ocultó la mordida y trató de encontrar la cura por su cuenta, lo que causó que se distanciara de sus compañeros. Mientras tanto, Seria había sido enviada a la Montaña nevada Tierra del viento para investigar la desaparición de la princesa vampira 100 años atrás. El día que su hermana se fue... “Oh, Seria... Ya no puedo controlarlo...” Erze comenzó a degollar a sus compañeros calmada y sigilosamente.",
+      "like": "Seria como hermana, el parfait de chocolate, la sangre de los corrompidos",
+      "dislike": "Seria como cazadora de vampiros, las arañas",
+      "inn": {
+        "idle": "Todos se ven muy apetitosos... *Gemido*",
+        "recruit": {
+          "greet": "Conozco un juego muy excitante que podemos jugar juntos. ¿Qué tal?",
+          "talk": [
+            "¿Por qué tanto miedo?",
+            "¿Acaso temes que te muerda?",
+            "Nunca sentiste esta descarga de adrenalina, te lo aseguro."
+          ],
+          "gift": "Ja, ja. Esto no es necesario... ¿Por qué simplemente no me muestras el cuello?"
+        },
+        "affinity": {
+          "greet": "Ya te he visto antes... Ah, ja, ja. Nos volvemos a encontrar.",
+          "talk": [
+            "Los vampiros no se parecen en nada a los demonios. Admito que los demonios de rangos más altos son aceptables, pero los demás son la peor escoria.",
+            "La sangre de los corrompidos tiene un sabor... Me hace sentir extática. ¡Sí, extática!"
+          ],
+          "gift": "Tienes buen gusto. ¡Y estás más adorable cada vez que te veo!"
+        },
+        "relationship": {
+          "greet": "Quiero que conserves esto para recordarme. Es el diente de quien me mordió.",
+          "talk": [
+            "Umm, esa mujer me sigue persiguiendo. Esa mujer... Ella... Mi hermana. La extraño... ¡pero también quiero acabar con ella, ji, ji!",
+            "El que vino la última vez. Estaba repartiendo su sangre a otros humanos. Nuestra sangre es inútil si no contiene nuestra voluntad. Eso significa que estaba dando la sangre voluntariamente... Me pregunto qué recibió a cambio. Debería habérselo preguntado antes de matarlo.",
+            "No, jamás volvería a ser como antes. Que gracioso; ¿acaso piensas que voy a abandonar esta descarga de adrenalina que siento y regresar a aquellos días de desesperanza? ¡No, jamás! No regresaré. Aunque... solo lo haría por una razón. Sí... Si alguna vez regresara... lo haría por ella."
+          ]
+        }
+      },
+      "uw": {
+        "name": "Perion, esencia de la avaricia",
+        "description": [
+          "Cada ataque de la habilidad aumenta el Ataque y la Velocidad de ataque en un 0,5 % durante 15 segundos. Este efecto se puede acumular hasta 80 veces.",
+          "Cada ataque de la habilidad aumenta el Ataque y la Velocidad de ataque en un 0,5 % durante 15 segundos. Este efecto se puede acumular hasta 90 veces.",
+          "Cada ataque de la habilidad aumenta el Ataque y la Velocidad de ataque en un 0,5 % durante 15 segundos. Este efecto se puede acumular hasta 110 veces.",
+          "Cada ataque de la habilidad aumenta el Ataque y la Velocidad de ataque en un 0,5 % durante 15 segundos. Este efecto se puede acumular hasta 130 veces.",
+          "Cada ataque de la habilidad aumenta el Ataque y la Velocidad de ataque en un 0,5 % durante 15 segundos. Este efecto se puede acumular hasta 160 veces.",
+          "Cada ataque de la habilidad aumenta el Ataque y la Velocidad de ataque en un 0,5 % durante 15 segundos. Este efecto se puede acumular hasta 200 veces."
+        ],
+        "story": "¿Cuándo comenzó todo esto? Este tormento acompañado de una sed insaciable... Pero luego de saciarla... Cada latido de mi corazón está impulsado por un odio ardiente hacia ti, Seria... Oh, Seria. No tengo otra alternativa. Necesito este poder para satisfacer mi profunda sed. Esta esencia inagotable de poder es la única cura para mi eterno tormento. Ah... Éxtasis... Más... necesito más."
+      },
+      "s1": {
+        "name": "Dulce sangre",
+        "description": "Inflige {0} de Daño físico a todos los enemigos y roba Salud equivalente al {1}  % del Daño infligido. Reduce el tiempo de reutilización de [Dulce sangre] en {2}  segundo(s) con cada ataque y obtiene 1 acumulación de [Dulce sangre]. El efecto [Dulce sangre] se puede acumular hasta {3} veces, y usar la habilidad con {3} acumulaciones de [Dulce sangre] otorga {4} ataques adicionales y elimina las acumulaciones de [Dulce sangre].",
+        "books": {
+          "0": "Daño Aumenta en {0}%.",
+          "1": "Daño Aumenta en {0}%.",
+          "2": "Daño Aumenta en {0}%."
+        },
+        "light": "Recupera 150 de Mana con cada ataque.",
+        "dark": "Cada uso aumenta el Daño en un 10%. Acumula 30 veces máx."
+      },
+      "s2": {
+        "name": "Sangre penetrante",
+        "description": "Disipa todos los efectos negativos y gana inmunidad a todos los Controles de multitudes, el Daño físico y el Daño mágico durante {0} segundo(s). Inflige 1 acumulación de [Sangre penetrante] a todos los enemigos, y 1 acumulación adicional al atacar a un objetivo con [Sangre penetrante]. El efecto [Sangre penetrante] se puede acumular hasta {1} veces. Causa {2} de Daño físico a los enemigos con acumulaciones de [Sangre penetrante] después de {0} segundo(s), y roba Salud equivalente al {3}  % del Daño infligido. Por cada {4} acumulación(es) de [Sangre penetrante], la cantidad de ataques aumenta en 1, y se eliminan las acumulaciones de [Sangre penetrante] al atacar.",
+        "books": {
+          "0": "Daño Aumenta en {0}%.",
+          "1": "Daño Aumenta en {0}%.",
+          "2": "Daño Aumenta en {0}%."
+        },
+        "light": "Aturde al objetivo durante 3 segundos al atacar.",
+        "dark": "El costo de maná se reduce en 1.",
+        "ut": {
+          "name": "Vino de los escalofríos",
+          "description": [
+            "[Sangre penetrante] Aumenta el Daño de [Sangre penetrante] en un 50 % y reduce su tiempo de reutilización en 5 segundos.",
+            "[Sangre penetrante] Aumenta el Daño de [Sangre penetrante] en un 50 % y reduce su tiempo de reutilización en 6 segundos.",
+            "[Sangre penetrante] Aumenta el Daño de [Sangre penetrante] en un 50 % y reduce su tiempo de reutilización en 7 segundos.",
+            "[Sangre penetrante] Aumenta el Daño de [Sangre penetrante] en un 50 % y reduce su tiempo de reutilización en 8 segundos.",
+            "[Sangre penetrante] Aumenta el Daño de [Sangre penetrante] en un 50 % y reduce su tiempo de reutilización en 9 segundos.",
+            "[Sangre penetrante] Aumenta el Daño de [Sangre penetrante] en un 50 % y reduce su tiempo de reutilización en 10 segundos."
+          ],
+          "story": "Un vino elaborado por Erze con la sangre de los clérigos caídos. Uno de sus mayores placeres es obligar a aquellos que una vez se consideraron benditos a arrodillarse frente a ella. Dentro de la botella hay una cruz sangrienta, y quienes escuchan a Erze mientras bebe el vino tiemblan y sienten escalofríos con el sonido de la cruz golpeando contra la botella."
+        }
+      },
+      "s3": {
+        "name": "Liberación de sangre",
+        "description": "Inflige {2} de Daño físico a todos los enemigos cada {1} segundo(s) durante {0} segundo(s). Cada ataque de [Liberación de sangre] provoca un ataque adicional a 1 enemigo aleatorio.",
+        "books": {
+          "0": "Daño Aumenta en {0}%.",
+          "1": "Daño Aumenta en {0}%.",
+          "2": "Daño Aumenta en {0}%."
+        },
+        "light": "Recupera 75 de Mana con cada ataque.",
+        "dark": "El costo de maná se incrementa en 1 esfera, pero el Daño aumenta en un 100%.",
+        "ut": {
+          "name": "Lápiz labial de la deshonra",
+          "description": [
+            "[Liberación de sangre] Aumenta el Daño de [Liberación de sangre] en un 20 % y gana inmunidad al Control de multitudes mientras dura el efecto [Liberación de sangre].",
+            "[Liberación de sangre] Aumenta el Daño de [Liberación de sangre] en un 24 % y gana inmunidad al Control de multitudes mientras dura el efecto [Liberación de sangre].",
+            "[Liberación de sangre] Aumenta el Daño de [Liberación de sangre] en un 29 % y gana inmunidad al Control de multitudes mientras dura el efecto [Liberación de sangre].",
+            "[Liberación de sangre] Aumenta el Daño de [Liberación de sangre] en un 35 % y gana inmunidad al Control de multitudes mientras dura el efecto [Liberación de sangre].",
+            "[Liberación de sangre] Aumenta el Daño de [Liberación de sangre] en un 42 % y gana inmunidad al Control de multitudes mientras dura el efecto [Liberación de sangre].",
+            "[Liberación de sangre] Aumenta el Daño de [Liberación de sangre] en un 50 % y gana inmunidad al Control de multitudes mientras dura el efecto [Liberación de sangre]."
+          ],
+          "story": "Un lápiz labial rojo oscuro hecho con la sangre de quienes sufrieron muertes deshonrosas. Aquellos que abandonaron la dignidad como humanos y cedieron a sus deseos insaciables no pudieron escapar de las garras de Erze. Murieron en un estado de trance total, pero es posible que sientan felices de que Erze los use. Ella deja una marca de lápiz labial en el cuello de su presa luego de haberse alimentado."
+        }
+      },
+      "s4": {
+        "name": "Bebedor de vida",
+        "description": "Increases ATK by {0} and Max HP by {1} upon killing an enemy. Upon taking lethal damage, casts [Soaking Blood] and reduces Max HP by {2}%. This effect does not occur if [Soaking Blood] is in Cooldown. Consumes all mana upon activation.",
+        "books": {
+          "0": "Incrementa el Ataque y el Aumento de la salud máxima en un {0}  %.",
+          "1": "Incrementa el Ataque y el Aumento de la salud máxima en un {0}  %.",
+          "2": "Incrementa el Ataque y el Aumento de la salud máxima en un {0}  %."
+        },
+        "light": "Aumenta la Salud máxima en un 100 % al matar a un enemigo y cambia la reducción de la Salud máxima luego de autolanzar [Sangre penetrante] al 33 %.",
+        "dark": "Aumenta el Ataque en un 200 % al matar a un enemigo, pero no se aplica el aumento de la Salud máxima."
+      },
+      "t5": {
+        "light": "ATQ, DEF, Salud+15% / Oportunidad Crit +100",
+        "dark": "Roba Salud equivalente al 25 % del Daño infligido por el ataque final normal y gana 1 acumulación de [Dulce sangre]."
+      }
+    },
     "57": {
       "name": "Lilia",
       "subtitle": "La hija de la tormenta y el mar",
       "description": "Una muchacha dragón azul que acaba de finalizar su período de Cría y hermana de Laias, la clériga del agua. A pesar de ser joven e inexperta, quienes la menosprecian suelen pagarlo muy caro. Ella usa la energía implacable del agua para aniquilar a sus enemigos.",
       "story": "Una diosa dragón del oasis y hermana de la clériga del agua, Laias. Todavía es un dragón azul joven que adora a su hermana mucho mayor. Cuando Laias cayó en un sueño profundo después de agotar sus poderes en la batalla de hace 100 años, Lilia defendió el Templo de la corriente sola. Cuando escuchó las plegarias desesperadas de los niños del desierto, finalmente despertó a la clériga del agua para que los protegiera. A diferencia de su hermana tranquila y reflexiva, ella es un poco estricta, y la forma en que controla el poder de la corriente y del agua también es algo agresiva. Ella siente la necesidad de proteger a su hermana de los hombres que la cortejan, pero que no la merecen.",
       "like": "Laias, tragos dulces, gente del desierto",
-      "dislike": "Aquellos que cortejan a su hermana (Neraxis, Sereinel)",
+      "dislike": "Aquellos que cortejan a su hermana (Neraxis, Cain)",
       "inn": {
         "idle": "Demasiados... humanos...",
         "recruit": {
@@ -6596,7 +6716,7 @@
           "greet": "¡Me alegra volver a verte!",
           "talk": [
             "¿Neraxis? Que idiota. Siempre quiere llamar la atención de mi hermana.",
-            "¿Sereinel? Eh... Creí que se había ido para siempre. No puedo creer que esté coqueteando con mi hermana otra vez...",
+            "¿Cain? Eh... Creí que se había ido para siempre. No puedo creer que esté coqueteando con mi hermana otra vez...",
             "Quiero a mi hermana más que a nadie... pero tú también me agradas."
           ]
         }
@@ -6814,6 +6934,126 @@
         "dark": "Al comienzo de cada batalla, gana inmunidad al Control de multitudes durante 5 segundos. Además, la Precisión y la Precisión del control de multitudes aumentan en 300 durante 10 segundos."
       }
     },
+    "61": {
+      "name": "Neraxis",
+      "subtitle": "Arrogancia de obsidiana",
+      "description": "El descendiente de un dragón negro que controlaba el relámpago oscuro. Lucha para librar al mundo de los demonios, en especial los draconics. La energía del relámpago oscuro imbuida en su estaca penetra la defensa del enemigo.",
+      "story": "Los dragones negros tienen una mala reputación por ser los más arrogantes y temperamentales de todos los dragones. Sufrieron considerablemente en la Guerra de los Demonios de hace 100 años. Armarta enloqueció, Ashen Nox les robó y los draconics comenzaron a cazar a los dragones. Neraxis fue uno de los pocos dragones negros que sobrevivieron aquel día, y ha estado trabajando para llevar a cabo su venganza.",
+      "like": "Laias",
+      "dislike": "Los demonios, Cain, Lilia y todo lo que se interponga en su camino.",
+      "inn": {
+        "idle": "Hmpf. ¿Qué estoy haciendo aquí...?",
+        "recruit": {
+          "greet": "Hmpf. ¿Por qué un humano querría involucrarse conmigo?",
+          "talk": [
+            "No vale la pena hablar contigo.",
+            "¿Qué quieres?",
+            "Ja, qué ridículo."
+          ],
+          "gift": "No sé lo que quieres, pero no tiene sentido."
+        },
+        "affinity": {
+          "greet": "Hmpf, otra vez tú, humano.",
+          "talk": [
+            "¿Eh? ¿Necesitas ayuda? Hmpf, qué fastidio.",
+            "Ja, así es. ¡Los dragones negros son los más fuertes!"
+          ],
+          "gift": "No necesito eso. ¿Por qué sigues...?"
+        },
+        "relationship": {
+          "greet": "¡Está bien, me alegra verte! Hmpf...",
+          "talk": [
+            "¿Lilia? Ah, ¿esa niña fastidiosa? Tsk, siempre se interpone.",
+            "¿Por qué no se larga esa momia? A veces realmente quisiera matarla.",
+            "¿Por qué me agrada Laias? Hmpf, no hace falta una razón para que alguien te agrade... No, espera. ¿Cómo lo supiste?"
+          ]
+        }
+      },
+      "uw": {
+        "name": "Rugido del dragón, Acravita",
+        "description": [
+          "Luego de asestar 20 ataques normales, inflige Daño mágico equivalente al 100 % del Ataque a 2 enemigos aleatorios, los aturde durante 0,5 segundos y se convierte en Tormenta de Neraxis durante 10 segundos. Mientras Tormenta de Neraxis está activa, aumenta la Defensa física de todos los aliados en un 4 % de la Defensa física del lanzador y la Defensa mágica en un 4 % de la Defensa mágica del lanzador.",
+          "Luego de asestar 19 ataques normales, inflige Daño mágico equivalente al 100 % del Ataque a 2 enemigos aleatorios, los aturde durante 0,5 segundos y se convierte en Tormenta de Neraxis durante 10 segundos. Mientras Tormenta de Neraxis está activa, aumenta la Defensa física de todos los aliados en un 4,8 % de la Defensa física del lanzador y la Defensa mágica en un 4,8 % de la Defensa mágica del lanzador.",
+          "Luego de asestar 18 ataques normales, inflige Daño mágico equivalente al 100 % del Ataque a 2 enemigos aleatorios, los aturde durante 0,5 segundos y se convierte en Tormenta de Neraxis durante 10 segundos. Mientras Tormenta de Neraxis está activa, aumenta la Defensa física de todos los aliados en un 5,7 % de la Defensa física del lanzador y la Defensa mágica en un 5,7 % de la Defensa mágica del lanzador.",
+          "Luego de asestar 17 ataques normales, inflige Daño mágico equivalente al 100 % del Ataque a 2 enemigos aleatorios, los aturde durante 0,5 segundos y se convierte en Tormenta de Neraxis durante 10 segundos. Mientras Tormenta de Neraxis está activa, aumenta la Defensa física de todos los aliados en un 6,9 % de la Defensa física del lanzador y la Defensa mágica en un 6,9 % de la Defensa mágica del lanzador.",
+          "Luego de asestar 16 ataques normales, inflige Daño mágico equivalente al 100 % del Ataque a 2 enemigos aleatorios, los aturde durante 0,5 segundos y se convierte en Tormenta de Neraxis durante 10 segundos. Mientras Tormenta de Neraxis está activa, aumenta la Defensa física de todos los aliados en un 8,3 % de la Defensa física del lanzador y la Defensa mágica en un 8,3 % de la Defensa mágica del lanzador.",
+          "Luego de asestar 15 ataques normales, inflige Daño mágico equivalente al 100 % del Ataque a 2 enemigos aleatorios, los aturde durante 0,5 segundos y se convierte en Tormenta de Neraxis durante 10 segundos. Mientras Tormenta de Neraxis está activa, aumenta la Defensa física de todos los aliados en un 10 % de la Defensa física del lanzador y la Defensa mágica en un 10 % de la Defensa mágica del lanzador."
+        ],
+        "story": "Un equipo mágico elaborado con un metal negro como la noche llamado adamantita, templado con la llama oscura y el relámpago de un dragón negro. Contiene el resentimiento y la furia de los dragones negros que fueron asesinados en la Guerra de los Demonios. Neraxis amenazó a los enanos para que le forjaran esta arma especial. Luego, la maldijo y la encantó con las almas llenas de rencor de los dragones negros. Cualquiera que toque esta arma, excepto Neraxis, escuchará los rugidos enfurecidos de los dragones vengativos."
+      },
+      "s1": {
+        "name": "Garra de relámpago negro",
+        "description": "Atrae a los enemigos hacia el objetivo e inflige {0} de Daño mágico. Provoca {1} de Daño mágico alrededor del objetivo después de 1 segundo y lo aturde durante {2}  segundo(s). Reduce la Velocidad de ataque de los enemigos afectados en {4} durante {3} segundo(s).",
+        "books": {
+          "0": "Daño Aumenta en {0}%.",
+          "1": "Daño Aumenta en {0}%.",
+          "2": "Daño Aumenta en {0}%."
+        },
+        "light": "Aumenta la duración del efecto Aturdir en {0} segundo(s).",
+        "dark": "Aumenta el Daño mágico que recibe el enemigo afectado en un 25 % durante 10 segundos."
+      },
+      "s2": {
+        "name": "Rugido de obsidiana",
+        "description": "Aumenta el Ataque, la Defensa física y la Defensa mágica de todos los aliados en {1} durante {0}  segundo(s). Inflige {2} de Daño mágico a todos los enemigos y reduce su Ataque en un {4}  % durante {3}  segundo(s).",
+        "books": {
+          "0": "Incrementa el Aumento del ataque y el Aumento de la defensa en un {0}  %.",
+          "1": "Incrementa el Aumento del ataque y el Aumento de la defensa en un {0}  %.",
+          "2": "Incrementa el Aumento del ataque y el Aumento de la defensa en un {0}  %."
+        },
+        "light": "Incrementa el costo de Mana en 1 y el Aumento del ataque y la defensa en un {0}  %.",
+        "dark": "Reduce la Velocidad de ataque del enemigo afectado en {1} durante {0} segundo(s).",
+        "ut": {
+          "name": "Recuerdos del dios dragón azul",
+          "description": [
+            "[Rugido de obsidiana] Incrementa el Aumento de la defensa de los aliados en un 20 % y disipa los efectos positivos de todos los enemigos al usar Rugido de obsidiana.",
+            "[Rugido de obsidiana] Incrementa el Aumento de la defensa de los aliados en un 24 % y disipa los efectos positivos de todos los enemigos al usar Rugido de obsidiana.",
+            "[Rugido de obsidiana] Incrementa el Aumento de la defensa de los aliados en un 29 % y disipa los efectos positivos de todos los enemigos al usar Rugido de obsidiana.",
+            "[Rugido de obsidiana] Incrementa el Aumento de la defensa de los aliados en un 35 % y disipa los efectos positivos de todos los enemigos al usar Rugido de obsidiana.",
+            "[Rugido de obsidiana] Incrementa el Aumento de la defensa de los aliados en un 42 % y disipa los efectos positivos de todos los enemigos al usar Rugido de obsidiana.",
+            "[Rugido de obsidiana] Incrementa el Aumento de la defensa de los aliados en un 50 % y disipa los efectos positivos de todos los enemigos al usar Rugido de obsidiana."
+          ],
+          "story": "Un accesorio para el cabello que Laias perdió mientras purificaba las aguas corrompidas por los demonios. Neraxis lo halló y se lo quedó, pero aún no ha decidido si se lo devolverá. No es muy probable que Laias recupere su accesorio perdido en un futuro cercano."
+        }
+      },
+      "s3": {
+        "name": "Aliento de destrucción",
+        "description": "Inflige un total de {0} de Daño mágico a los enemigos dentro de un área extensa alrededor del objetivo más de 6 veces y reduce su Defensa mágica en un {2}  % durante {1} segundo(s). Cada impacto aturde al enemigo durante {3} segundo(s).",
+        "books": {
+          "0": "Daño Aumenta en {0}%.",
+          "1": "Daño Aumenta en {0}%.",
+          "2": "Daño Aumenta en {0}%."
+        },
+        "light": "El costo de Mana disminuye en 1.",
+        "dark": "Cambia la reducción de la Defensa mágica a un 30 %.",
+        "ut": {
+          "name": "Vórtice de furia",
+          "description": [
+            "[Aliento de destrucción] Aumenta la duración del efecto Aturdir en 1 segundo y reduce el tiempo de reutilización de Aliento de destrucción en 3 segundos.",
+            "[Aliento de destrucción] Aumenta la duración del efecto Aturdir en 1 segundo y reduce el tiempo de reutilización de Aliento de destrucción en 4 segundos.",
+            "[Aliento de destrucción] Aumenta la duración del efecto Aturdir en 1 segundo y reduce el tiempo de reutilización de Aliento de destrucción en 5 segundos.",
+            "[Aliento de destrucción] Aumenta la duración del efecto Aturdir en 1 segundo y reduce el tiempo de reutilización de Aliento de destrucción en 6 segundos.",
+            "[Aliento de destrucción] Aumenta la duración del efecto Aturdir en 1 segundo y reduce el tiempo de reutilización de Aliento de destrucción en 7 segundos.",
+            "[Aliento de destrucción] Aumenta la duración del efecto Aturdir en 1 segundo y reduce el tiempo de reutilización de Aliento de destrucción en 8 segundos."
+          ],
+          "story": "Elaborada con su propio colmillo, esta estaca contiene la furia ardiente de Neraxis. Cuando Neraxis usa la estaca para atacar, la energía concentrada, mezclada con los poderes de Neraxis, genera un remolino que va directo hacia el enemigo a una velocidad terrorífica. Es lo suficientemente potente como para penetrar todo y arrancar las extremidades de quienes se le acercan."
+        }
+      },
+      "s4": {
+        "name": "Piel de dragón negro",
+        "description": "Aumenta la Defensa física y la Defensa mágica en {0} y recibe Daño físico y Daño mágico reducidos en un {1}  %.",
+        "books": {
+          "0": "Incrementa el Aumento de la defensa en un {0}  %.",
+          "1": "Incrementa el Aumento de la defensa en un {0}  %.",
+          "2": "Incrementa el Aumento de la defensa en un {0}  %."
+        },
+        "light": "La Velocidad de ATQ aumenta en 300",
+        "dark": "Cuando la Salud disminuye por debajo del {0}  %, los efectos de la habilidad se incrementan en un {1}  %."
+      },
+      "t5": {
+        "light": "ATQ, DEF, Salud+15% / Resist Ctrl de Masas +100",
+        "dark": "Al comienzo de cada batalla, reduce el Daño que infligen los enemigos que no son héroes a todos los aliados, excepto Neraxis, en un {1}  % durante {0} segundo(s)."
+      }
+    },
     "62": {
       "name": "Scarlet",
       "subtitle": "La Fé de Plata",
@@ -6863,7 +7103,7 @@
       },
       "s1": {
         "name": "Detente!",
-        "description": "Causa {0} Daño Fis. a los enemigos frontales que se encuentran al alcance y los derriba durante 3 segundos. Recupera la Salud en un equivalente al 30% del Daño.",
+        "description": "Ataca a todos los enemigos frontales, lo que causa {0} de Daño físico y los derriba durante 3 segundos. Si el objetivo no es un héroe, le inflige {1} de Daño físico adicional. Cura Salud equivalente al 30 % del Daño infligido.",
         "books": {
           "0": "Daño Aumenta en {0}%.",
           "1": "Daño Aumenta en {0}%.",
@@ -6880,7 +7120,7 @@
           "1": "Daño Aumenta en {0}%.",
           "2": "Daño Aumenta en {0}%."
         },
-        "light": "El costo de maná se reduce en 1.",
+        "light": "Si el objetivo no es un héroe, lo aturde durante 4 segundos.",
         "dark": "La Resistencia Física Crit. de todos los aliados se incrementa en 200 durante 10 seg.",
         "ut": {
           "name": "Alas de justicia",
@@ -8060,12 +8300,12 @@
       "uw": {
         "name": "Ola de protección, Gaiamenes",
         "description": [
-          "El efecto «Orgullo de Orvelia» se acumula con cada uso de habilidades y no se puede disipar. Cuando se acumula 4 veces, se activa el efecto «Bendición de Orvelia», lo que inflige un 200 % del Ataque como Daño físico a los enemigos dentro de un rango más amplio y aumenta la Debilidad física de los objetivos en un 25 % durante 10 segundos. «Bendición de Orvelia» también aumenta la Defensa mágica en un 10 % durante 10 segundos. Mientras dura el efecto «Bendición de Orvelia», «Orgullo de Orvelia» no se acumula.",
-          "Pride of Orvelia' is stacked on every use of skills. 'Pride of Orvelia' cannot be dispelled, and when stacked 3 times, 'Blessing of Orvelia' is activated, dealing 240% of ATK as P.DMG to enemies within a wide range and increasing P.Weakness of the targets by 30% for 20 seconds. 'Blessing of Orvelia' also increases M.DEF by 12% for 10 seconds.",
-          "Pride of Orvelia' is stacked on every use of skills. 'Pride of Orvelia' cannot be dispelled, and when stacked 3 times, 'Blessing of Orvelia' is activated, dealing 290% of ATK as P.DMG to enemies within a wide range and increasing P.Weakness of the targets by 36% for 20 seconds. 'Blessing of Orvelia' also increases M.DEF by 14% for 10 seconds.",
-          "Pride of Orvelia' is stacked on every use of skills. 'Pride of Orvelia' cannot be dispelled, and when stacked 3 times, 'Blessing of Orvelia' is activated, dealing 350% of ATK as P.DMG to enemies within a wide range and increasing P.Weakness of the targets by 43% for 20 seconds. 'Blessing of Orvelia' also increases M.DEF by 17% for 10 seconds.",
-          "Pride of Orvelia' is stacked on every use of skills. 'Pride of Orvelia' cannot be dispelled, and when stacked 3 times, 'Blessing of Orvelia' is activated, dealing 420% of ATK as P.DMG to enemies within a wide range and increasing P.Weakness of the targets by 51% for 20 seconds. 'Blessing of Orvelia' also increases M.DEF by 21% for 10 seconds.",
-          "Pride of Orvelia' is stacked on every use of skills. 'Pride of Orvelia' cannot be dispelled, and when stacked 3 times, 'Blessing of Orvelia' is activated, dealing 500% of ATK as P.DMG to enemies within a wide range and increasing P.Weakness of the targets by 60% for 20 seconds. 'Blessing of Orvelia' also increases M.DEF by 25% for 10 seconds."
+          "El efecto «Orgullo de Orvelia» se acumula con cada uso de habilidades y no se puede disipar. Cuando se acumula 4 veces, se activa el efecto «Bendición de Orvelia», lo que inflige un 200 % del Ataque como Daño físico a los enemigos dentro de un rango más amplio y aumenta la Debilidad física de los objetivos en un 25 % durante 10 segundos. «Bendición de Orvelia» también aumenta la Defensa mágica en un 10 % durante 10 segundos.",
+          "El efecto «Orgullo de Orvelia» se acumula con cada uso de habilidades y no se puede disipar. Cuando se acumula 4 veces, se activa el efecto «Bendición de Orvelia», lo que inflige un 240 % del Ataque como Daño físico a los enemigos dentro de un rango más amplio y aumenta la Debilidad física de los objetivos en un 30 % durante 10 segundos. «Bendición de Orvelia» también aumenta la Defensa mágica en un 12 % durante 10 segundos.",
+          "El efecto «Orgullo de Orvelia» se acumula con cada uso de habilidades y no se puede disipar. Cuando se acumula 4 veces, se activa el efecto «Bendición de Orvelia», lo que inflige un 290 % del Ataque como Daño físico a los enemigos dentro de un rango más amplio y aumenta la Debilidad física de los objetivos en un 36 % durante 10 segundos. «Bendición de Orvelia» también aumenta la Defensa mágica en un 14 % durante 10 segundos.",
+          "El efecto «Orgullo de Orvelia» se acumula con cada uso de habilidades y no se puede disipar. Cuando se acumula 4 veces, se activa el efecto «Bendición de Orvelia», lo que inflige un 350 % del Ataque como Daño físico a los enemigos dentro de un rango más amplio y aumenta la Debilidad física de los objetivos en un 43 % durante 10 segundos. «Bendición de Orvelia» también aumenta la Defensa mágica en un 17 % durante 10 segundos.",
+          "El efecto «Orgullo de Orvelia» se acumula con cada uso de habilidades y no se puede disipar. Cuando se acumula 4 veces, se activa el efecto «Bendición de Orvelia», lo que inflige un 420 % del Ataque como Daño físico a los enemigos dentro de un rango más amplio y aumenta la Debilidad física de los objetivos en un 51 % durante 10 segundos. «Bendición de Orvelia» también aumenta la Defensa mágica en un 21 % durante 10 segundos.",
+          "El efecto «Orgullo de Orvelia» se acumula con cada uso de habilidades y no se puede disipar. Cuando se acumula 4 veces, se activa el efecto «Bendición de Orvelia», lo que inflige un 500 % del Ataque como Daño físico a los enemigos dentro de un rango más amplio y aumenta la Debilidad física de los objetivos en un 60 % durante 10 segundos. «Bendición de Orvelia» también aumenta la Defensa mágica en un 25 % durante 10 segundos."
         ],
         "story": "La alabarda que blandía una antigua estatua guardiana a cargo de defender la puerta del laberinto descubierto recientemente debajo del terreno real. La estatua vieja y erosionada sostenía la alabarda con firmeza, como si estuviera demostrando su determinación de proteger el laberinto contra los intrusos. Loman, que estaba a cargo de la excavación en el laberinto, sintió algo sublime frente a la estatua, imposible de describir con palabras, y mostró la debida cortesía. En ese momento, la estatua dejó caer la alabarda y comenzó a desmoronarse. La alabarda no mostraba señales del paso del tiempo, y estaba imbuida de una energía misteriosa. «Esa estatua se desmoronó repentinamente y soltó la alabarda...» Dijo Scarlet, mientras echaba un vistazo al informe. «Sí, señora.» Scarlet miró a Loman. «La honestidad inquebrantable de proteger un sitio hasta que colapse su propio cuerpo... Conozco a un hombre con esas características.» «¿Cómo dice, señora?» Miró a Scarlet con perplejidad mientras ella, sonriendo, le entregaba la alabarda."
       },

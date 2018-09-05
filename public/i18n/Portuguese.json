@@ -550,7 +550,7 @@
         "A Vel de ATQ aumenta em 165",
         "A Vel de ATQ aumenta em 200"
       ],
-      "story": "Um item misterioso com forma de um pintinho para celebrar um festival infantil. É ótimo para acalmar as pessoas."
+      "story": "Um brinquedo de passarinho que representa a inocência das crianças."
     },
     "59": {
       "name": "Iguaria Refrescante de Verão",
@@ -615,7 +615,7 @@
       },
       "s1": {
         "name": "Lâmina do Julgamento",
-        "description": "Causa {0} de DAN.F aos inimigos no alcance, derrubando-os durante {1} segundos.",
+        "description": "Causa {0} de DAN F. 2 vezes a inimigos frontais em um círculo e os derruba por {1} seg.",
         "books": {
           "0": "Aumenta o DAN em {0}%.",
           "1": "Aumenta o DAN em {0}%.",
@@ -626,7 +626,7 @@
       },
       "s2": {
         "name": "Arremetida Corajosa",
-        "description": "Causa {0} de DAN.F aos inimigos no alcance.",
+        "description": "Ataca o alvo 3 vezes e avança por trás dele para causar {0} de DAN F.",
         "books": {
           "0": "Aumenta o DAN em {0}%.",
           "1": "Aumenta o DAN em {0}%.",
@@ -769,7 +769,7 @@
       },
       "s3": {
         "name": "Vingança do Paraíso",
-        "description": "Causa {0} de DAN.M aos inimigos no alcance, cegando-os durante {1} segundos.",
+        "description": "Ataca o alvo e inimigos próximos a ele 6 vezes, causando um total de {0} DAN M. e cegando-os por {1} seg.",
         "books": {
           "0": "Aumenta o DAN em {0}%.",
           "1": "Aumenta o DAN em {0}%.",
@@ -792,7 +792,7 @@
       },
       "s4": {
         "name": "Graça da Deusa",
-        "description": "Aumenta a DEF.M de 1 aliado em {1} , durante {0} segundos",
+        "description": "Aumenta a DEF M. de 1 aliado com o PV mais baixo em {1} por {0} seg. a cada 15 seg.",
         "books": {
           "0": "Taxa de aumento de DEF.M aumentada em {0}%.",
           "1": "Taxa de aumento de DEF.M aumentada em {0}%.",
@@ -855,7 +855,7 @@
       },
       "s1": {
         "name": "Agulha de Fogo",
-        "description": "Causa {0} de DAN.M a até 5 inimigos e inflige uma brasa que causa constantemente DAN.M aos inimigos atingidos.",
+        "description": "Ataca um inimigo aleatório 5 vezes, causando um total de {0} DAN M. e adicionando 1 acúmulo de Brasa no inimigo atingido.",
         "books": {
           "0": "Aumenta o DAN em {0}%.",
           "1": "Aumenta o DAN em {0}%.",
@@ -866,7 +866,7 @@
       },
       "s2": {
         "name": "Bola de Fogo",
-        "description": "Causa {0} de DAN. M aos inimigos e Atordoa durante 2 segundos. Aumenta o dano em {1}% para cada brasa acumulada.",
+        "description": "Ataca o alvo e os inimigos perto dele, causando {0} de DAN M. e atordoando-os por 2 segundos. Causa {2} de DAN M. adicional para cada acúmulo de Brasa no inimigo.",
         "books": {
           "0": "Aumenta o DAN em {0}%.",
           "1": "Aumenta o DAN em {0}%.",
@@ -889,7 +889,7 @@
       },
       "s3": {
         "name": "Chuva de Fogo",
-        "description": "Causa {0} DAN.M aos inimigos e acumula uma Brasa toda vez que atacar. Aumenta o DAN em {1}% no inimigo atingido para cada Brasa acumulada.",
+        "description": "Ataca todos os inimigos 8 vezes, causando um total de {0} DAN M. e adicionando 1 acúmulo de Brasa neles. Causa {1} de DAN M. adicional para cada acúmulo de Brasa no inimigo.",
         "books": {
           "0": "Aumenta o DAN em {0}%.",
           "1": "Aumenta o DAN em {0}%.",
@@ -912,7 +912,7 @@
       },
       "s4": {
         "name": "Difusão de Chamas",
-        "description": "Causa {0} de DAN M. em 3 alvos e inimigos próximos, infligindo 1 acúmulo de Brasa. Reduz a DEF M. de inimigos atingidos por Brasa em 5%.",
+        "description": "Ganha 20% de chance de atacar 3 inimigos aleatórios ao acertar ataques normais, causando {0} de DAN M. ao alvo e aos inimigos perto dele e adicionando 1 acúmulo de Brasa neles. Brasa causa um total de {1} de DAN M. ao longo de 20 segundos e reduz a DEF M. do alvo em 5%.",
         "books": {
           "0": "Aumenta o DAN em {0}%.",
           "1": "Aumenta o DAN em {0}%.",
@@ -975,7 +975,7 @@
       },
       "s1": {
         "name": "Impiedoso",
-        "description": "Ataca 3 vezes aleatoriamente, causando aos inimigos {0} de DAN.F e Sangramento, o qual causa DAN.F constante. O Sangramento se acumula no máximo 3 vezes.",
+        "description": "Ataca um inimigo aleatório 3 vezes, causando um total de {0} DAN F. e adicionando 1 acúmulo de Sangrar causando {2} de DAN F. ao longo de {1} seg. Sangrar pode acumular no máximo 3 vezes.",
         "books": {
           "0": "Aumenta o DAN em {0}%.",
           "1": "Aumenta o DAN em {0}%.",
@@ -1032,7 +1032,7 @@
       },
       "s4": {
         "name": "Talhar",
-        "description": "Causa {0} de DAN.F adicional ao realizar um ataque automático.",
+        "description": "Se um ataque normal tiver um Acerto Crítico, ataca o alvo 6 vezes para causar um total de {0} de DAN F. adicional.",
         "books": {
           "0": "Aumenta o DAN em {0}%.",
           "1": "Aumenta o DAN em {0}%.",
@@ -1324,18 +1324,18 @@
       "uw": {
         "name": "Lakrak MK-1",
         "description": [
-          "Cada ataque automático tem 25% de chance de aumentar a Vel de ATQ em 300 por 10 segundos.",
-          "Cada ataque automático tem 25% de chance de aumentar a Vel de ATQ em 360 por 10 segundos.",
-          "Cada ataque automático tem 25% de chance de aumentar a Vel de ATQ em 420 por 10 segundos.",
-          "Cada ataque automático tem 25% de chance de aumentar a Vel de ATQ em 510 por 10 segundos.",
-          "Cada ataque automático tem 25% de chance de aumentar a Vel de ATQ em 615 por 10 segundos.",
-          "Cada ataque automático tem 25% de chance de aumentar a Vel de ATQ em 750 por 10 segundos."
+          "Ganha 25% de chance de obter um acúmulo de Pólvora ao atacar. Cada acúmulo de Pólvora aumenta o ATQ em 3%, a Vel. de ATQ em 30 e o DAN a inimigos não Heróis em 3%. Pólvora acumula até 10 vezes e não pode ser removida.",
+          "Ganha 25% de chance de obter um acúmulo de Pólvora ao atacar. Cada acúmulo de Pólvora aumenta o ATQ em 3,6%, a Vel. de ATQ em 36 e o DAN a inimigos não Heróis em 3,6%. Pólvora acumula até 10 vezes e não pode ser removida.",
+          "Ganha 25% de chance de obter um acúmulo de Pólvora ao atacar. Cada acúmulo de Pólvora aumenta o ATQ em 4,3%, a Vel. de ATQ em 43 e o DAN a inimigos não Heróis em 4,3%. Pólvora acumula até 10 vezes e não pode ser removida.",
+          "Ganha 25% de chance de obter um acúmulo de Pólvora ao atacar. Cada acúmulo de Pólvora aumenta o ATQ em 5,1%, a Vel. de ATQ em 51 e o DAN a inimigos não Heróis em 5,1%. Pólvora acumula até 10 vezes e não pode ser removida.",
+          "Ganha 25% de chance de obter um acúmulo de Pólvora ao atacar. Cada acúmulo de Pólvora aumenta o ATQ em 6,2%, a Vel. de ATQ em 62 e o DAN a inimigos não Heróis em 6,2%. Pólvora acumula até 10 vezes e não pode ser removida.",
+          "Ganha 25% de chance de obter um acúmulo de Pólvora ao atacar. Cada acúmulo de Pólvora aumenta o ATQ em 7,5%, a Vel. de ATQ em 75 e o DAN a inimigos não Heróis em 7,5%. Pólvora acumula até 10 vezes e não pode ser removida."
         ],
         "story": "A obra-prima destruidora e artística de um peculiar inventor Goblin. Este canhão de mão tem o poder de fogo mais intenso com o qual único Goblin é capaz de lidar fisicamente. Apesar da perigosa quantidade de pólvora usada, esta arma, felizmente, ainda não explodiu."
       },
       "s1": {
         "name": "Fogo Rápido",
-        "description": "Causa {0} de DAN.F e repele os inimigos.",
+        "description": "Ataca todos os inimigos frontais em uma linha reta, causando {0} de DAN F. e afastando-os. Se o alvo não for um Herói, causa {1} de DAN F. adicional e atordoa-o por {2} seg.",
         "books": {
           "0": "Aumenta o DAN em {0}%.",
           "1": "Aumenta o DAN em {0}%.",
@@ -1924,24 +1924,24 @@
       "uw": {
         "name": "Leviathan, Arma Suprema",
         "description": [
-          "Causa DAN F. equivalente a 100% do ATQ aos inimigos afetados pela habilidade Buuuuuum! com uma chance de 50%, e o alvo recebe 20% mais DAN F. por 5 segundos.",
-          "Causa DAN F. equivalente a 120% do ATQ aos inimigos afetados pela habilidade Buuuuuum! com uma chance de 50%, e o alvo recebe 24% mais DAN F. por 5 segundos.",
-          "Causa DAN F. equivalente a 140% do ATQ aos inimigos afetados pela habilidade Buuuuuum! com uma chance de 50%, e o alvo recebe 29% mais DAN F. por 5 segundos.",
-          "Causa DAN F. equivalente a 170% do ATQ aos inimigos afetados pela habilidade Buuuuuum! com uma chance de 50%, e o alvo recebe 35% mais DAN F. por 5 segundos.",
-          "Causa DAN F. equivalente a 210% do ATQ aos inimigos afetados pela habilidade Buuuuuum! com uma chance de 50%, e o alvo recebe 42% mais DAN F. por 5 segundos.",
-          "Causa DAN F. equivalente a 250% do ATQ aos inimigos afetados pela habilidade Buuuuuum! com uma chance de 50%, e o alvo recebe 50% mais DAN F. por 5 segundos."
+          "Causa DAN F. equivalente a 100% do ATQ aos inimigos afetados pela habilidade Buuuuuum! com uma chance de 50%, e o alvo recebe 20% mais DAN F. por 10 segundos.",
+          "Causa DAN F. equivalente a 120% do ATQ aos inimigos afetados pela habilidade Buuuuuum! com uma chance de 50%, e o alvo recebe 24% mais DAN F. por 10 segundos.",
+          "Causa DAN F. equivalente a 140% do ATQ aos inimigos afetados pela habilidade Buuuuuum! com uma chance de 50%, e o alvo recebe 29% mais DAN F. por 10 segundos.",
+          "Causa DAN F. equivalente a 170% do ATQ aos inimigos afetados pela habilidade Buuuuuum! com uma chance de 50%, e o alvo recebe 35% mais DAN F. por 10 segundos.",
+          "Causa DAN F. equivalente a 210% do ATQ aos inimigos afetados pela habilidade Buuuuuum! com uma chance de 50%, e o alvo recebe 42% mais DAN F. por 10 segundos.",
+          "Causa DAN F. equivalente a 250% do ATQ aos inimigos afetados pela habilidade Buuuuuum! com uma chance de 50%, e o alvo recebe 50% mais DAN F. por 10 segundos."
         ],
         "story": "Quando Miruru reinava como a imperatriz pirata, ela era temida pelos marinheiros e era considerada uma grande ameaça às forças navais de Orvelia e ao império. Os canhões do seu navio eram particularmente aterrorizantes para a Marinha. O mais potente deles era o Leviatã, o canhão principal do navio. Após ser amaldiçoada, ela pegou uma única coisa e fugiu da sua tripulação amotinada. O que ela levou consigo foi o Leviatã, o canhão mais potente em seu arsenal. Seu valor como arma é, na verdade, muito mais valioso que qualquer quantidade de ouro ou espólios. Após várias modificações, o que outrora era o terror dos mares agora serve de artilharia móvel."
       },
       "s1": {
         "name": "Baaaam!",
-        "description": "Causa {0} de DAN.F e repele os inimigos no alcance.",
+        "description": "Causa {0} de DAN F. a todos os inimigos e afasta-os.",
         "books": {
           "0": "Aumenta o DAN em {0}%.",
           "1": "Aumenta o DAN em {0}%.",
           "2": "Aumenta o DAN em {0}%."
         },
-        "light": "Reduz o custo de mana em 1.",
+        "light": "Aumenta o DAN F. que o alvo recebe em 25% por 10 segundos.",
         "dark": "Na ativação, o ATQ aumenta em 35% por 10 segundos."
       },
       "s2": {
@@ -1969,13 +1969,13 @@
       },
       "s3": {
         "name": "Piratas de Miruru!",
-        "description": "Causa {1} de DAN.F aos inimigos no alcance durante {0} segundos, reduzido a velocidade em {2}%.",
+        "description": "Ataca um alvo aleatório e os inimigos perto dele 5 vezes, causando um total de {1} de DAN F. e reduzindo a Vel. de ATQ deles em {2}. Se o alvo não for um Herói, causa {3} de DAN F. adicional.",
         "books": {
           "0": "Aumenta o DAN em {0}%.",
           "1": "Aumenta o DAN em {0}%.",
           "2": "Aumenta o DAN em {0}%."
         },
-        "light": "Aumenta o DAN em 40%.",
+        "light": "Se houver 1 inimigo, aumenta o DAN em 100%.",
         "dark": "Remove a penalidade de VEL. ATQ e atordoa durante 3 segundos.",
         "ut": {
           "name": "Bala de Canhão Miruru",
@@ -2712,7 +2712,7 @@
       },
       "s4": {
         "name": "Calafrio do Amanhecer",
-        "description": "Causa {1} de DAN.M e efeito Gélido a 3 inimigos a cada {0} segundos.",
+        "description": "Causa {1} de DAN M. a 3 inimigos a cada {0} seg. e provoca o efeito Gélido, reduzindo a Vel. de ATQ deles em 100 por 8 seg.",
         "books": {
           "0": "Aumenta o DAN em {0}%.",
           "1": "Aumenta o DAN em {0}%.",
@@ -2764,12 +2764,12 @@
       "uw": {
         "name": "Arfeu, a Luz Azul",
         "description": [
-          "Bloquear ataques inimigos concedem 10% de chance de recuperar mana em 3% e reduz todas as recargas de poderes em 1 segundo.",
-          "Bloquear ataques inimigos concedem 13% de chance de recuperar mana em 3% e reduz todas as recargas de poderes em 1 segundo.",
-          "Bloquear ataques inimigos concedem 16% de chance de recuperar mana em 3% e reduz todas as recargas de poderes em 1 segundo.",
-          "Bloquear ataques inimigos concedem 19% de chance de recuperar mana em 3% e reduz todas as recargas de poderes em 1 segundo.",
-          "Bloquear ataques inimigos concedem 22% de chance de recuperar mana em 3% e reduz todas as recargas de poderes em 1 segundo.",
-          "Bloquear ataques inimigos concedem 25% de chance de recuperar mana em 3% e reduz todas as recargas de poderes em 1 segundo."
+          "Aumenta a DEF F. de todos os aliados em 4%. Bloquear um ataque inimigo tem 10% de chance de recuperar 3% de Mana e reduzir a Recarga de todas as habilidades em 1 segundo.",
+          "Aumenta a DEF F. de todos os aliados em 4,8%. Bloquear um ataque inimigo tem 12% de chance de recuperar 3,3% de Mana e reduzir a Recarga de todas as habilidades em 1 segundo.",
+          "Aumenta a DEF F. de todos os aliados em 5,8%. Bloquear um ataque inimigo tem 14% de chance de recuperar 3,6% de Mana e reduzir a Recarga de todas as habilidades em 1 segundo.",
+          "Aumenta a DEF F. de todos os aliados em 7%. Bloquear um ataque inimigo tem 17% de chance de recuperar 3,9% de Mana e reduzir a Recarga de todas as habilidades em 1 segundo.",
+          "Aumenta a DEF F. de todos os aliados em 8,4%. Bloquear um ataque inimigo tem 21% de chance de recuperar 4,2% de Mana e reduzir a Recarga de todas as habilidades em 1 segundo.",
+          "Aumenta a DEF F. de todos os aliados em 10%. Bloquear um ataque inimigo tem 25% de chance de recuperar 4,5% de Mana e reduzir a Recarga de todas as habilidades em 1 segundo."
         ],
         "story": "Certo dia, um veio que liberava um forte mana foi descoberto no território de Ziltrion. Ao investigá-lo, Demia encontrou um minério azul que nunca tinha visto antes. Vários feiticeiros e alquimistas estudaram esse misterioso minério com características de gema e de metal, mas ninguém conseguiu descobrir sua identidade. Porém, Jin, o ferreiro, tinha uma ideia diferente. Assim que viu o minério, ele, com um grande sorriso no rosto, ofereceu a Demia o seu serviço para a fabricação de equipamentos poderosos a partir do material. Com o minério, ele forjou uma lança e um escudo mais fortes que diamante e possuidores de um brilho azul de mana."
       },
@@ -2792,7 +2792,7 @@
           "1": "Aumenta o DAN em {0}%.",
           "2": "A redução de ATQ inimiga aumenta em {0}%"
         },
-        "light": "Causa DAN.F adicional baseado na DEF.F",
+        "light": "Reduz o custo de mana em 1.",
         "dark": "A DEF.P do aliado é reforçada em 20%, durante 10 segundos depois de ativada.",
         "ut": {
           "name": "Escudo da Resolução",
@@ -2884,12 +2884,12 @@
       "uw": {
         "name": "Baroru, Garras Malditas",
         "description": [
-          "Ao realizar um Acerto Crít., causa DAN.F (100% do ATQ) constante durante de 10 segundos. Os inimigos recebem DAN aumentado em 20% enquanto o poder durar.",
-          "Ao realizar um Acerto Crít., causa DAN.F (120% do ATQ) constante durante de 10 segundos. Os inimigos recebem DAN aumentado em 24% enquanto o poder durar.",
-          "Ao realizar um Acerto Crít., causa DAN.F (144% do ATQ) constante durante de 10 segundos. Os inimigos recebem DAN aumentado em 28% enquanto o poder durar.",
-          "Ao realizar um Acerto Crít., causa DAN.F (172% do ATQ) constante durante de 10 segundos. Os inimigos recebem DAN aumentado em 34% enquanto o poder durar.",
-          "Ao realizar um Acerto Crít., causa DAN.F (207% do ATQ) constante durante de 10 segundos. Os inimigos recebem DAN aumentado em 41% enquanto o poder durar.",
-          "Ao realizar um Acerto Crít., causa DAN.F (250% do ATQ) constante durante de 10 segundos. Os inimigos recebem DAN aumentado em 50% enquanto o poder durar."
+          "Ao realizar um Acerto Crít., causa DAN.F (150% do ATQ) constante durante de 10 segundos. Os inimigos recebem DAN aumentado em 20% enquanto o poder durar.",
+          "Ao realizar um Acerto Crít., causa DAN.F (180% do ATQ) constante durante de 10 segundos. Os inimigos recebem DAN aumentado em 24% enquanto o poder durar.",
+          "Ao realizar um Acerto Crít., causa DAN.F (216% do ATQ) constante durante de 10 segundos. Os inimigos recebem DAN aumentado em 28% enquanto o poder durar.",
+          "Ao realizar um Acerto Crít., causa DAN.F (258% do ATQ) constante durante de 10 segundos. Os inimigos recebem DAN aumentado em 34% enquanto o poder durar.",
+          "Ao realizar um Acerto Crít., causa DAN.F (310% do ATQ) constante durante de 10 segundos. Os inimigos recebem DAN aumentado em 41% enquanto o poder durar.",
+          "Ao realizar um Acerto Crít., causa DAN.F (500% do ATQ) constante durante de 10 segundos. Os inimigos recebem DAN aumentado em 50% enquanto o poder durar."
         ],
         "story": "Um par de manoplas amaldiçoado criado a partir das garras do Demônio Insano Baroro, que foi derrotado durante a guerra. Muitas vezes maior que o tamanho de mãos humanas normais, essas manoplas se conectam diretamente aos nervos do utilizador, permitindo que ele as controle facilmente. Embora concedam imenso poder, elas também invadem a mente do portador, lentamente se alimentando da sua alma. Apenas um verdadeiro guerreiro com nobre convicção, força de vontade e essência imortal pode lidar com essas armas amaldiçoadas. Elas são as armas perfeitas para um guerreiro com uma força de vontade que brilha até na escuridão do abismo."
       },
@@ -3244,12 +3244,12 @@
       "uw": {
         "name": "Genesis, Livro de Deus",
         "description": [
-          "A cada 30 segundos, aumenta o ATQ de um único aliado aleatório em 40%. Também aumenta a Chance de Crít e Vel de ATQ em 400 por 10 segundos.",
-          "A cada 30 segundos, aumenta o ATQ de um único aliado aleatório em 48%. Também aumenta a Chance de Crít e Vel de ATQ em 480 por 10 segundos.",
-          "A cada 30 segundos, aumenta o ATQ de um único aliado aleatório em 57%. Também aumenta a Chance de Crít e Vel de ATQ em 570 por 10 segundos.",
-          "A cada 30 segundos, aumenta o ATQ de um único aliado aleatório em 69%. Também aumenta a Chance de Crít e Vel de ATQ em 690 por 10 segundos.",
-          "A cada 30 segundos, aumenta o ATQ de um único aliado aleatório em 83%. Também aumenta a Chance de Crít e Vel de ATQ em 830 por 10 segundos.",
-          "A cada 30 segundos, aumenta o ATQ de um único aliado aleatório em 100%. Também aumenta a Chance de Crít e Vel de ATQ em 1.000 por 10 segundos."
+          "Aumenta a velocidade de conjuração de todas as habilidades. A cada habilidade usada, aumenta o ATQ em 2% e a DEF em 2% para todos os aliados. O efeito pode acumular até 7 vezes.",
+          "Aumenta a velocidade de conjuração de todas as habilidades. A cada habilidade usada, aumenta o ATQ em 2,4% e a DEF em 2,4% para todos os aliados. O efeito pode acumular até 7 vezes.",
+          "Aumenta a velocidade de conjuração de todas as habilidades. A cada habilidade usada, aumenta o ATQ em 2,9% e a DEF em 2,9% para todos os aliados. O efeito pode acumular até 7 vezes.",
+          "Aumenta a velocidade de conjuração de todas as habilidades. A cada habilidade usada, aumenta o ATQ em 3,5% e a DEF em 3,5% para todos os aliados. O efeito pode acumular até 7 vezes.",
+          "Aumenta a velocidade de conjuração de todas as habilidades. A cada habilidade usada, aumenta o ATQ em 4,2% e a DEF em 4,2% para todos os aliados. O efeito pode acumular até 7 vezes.",
+          "Aumenta a velocidade de conjuração de todas as habilidades. A cada habilidade usada, aumenta o ATQ em 5% e a DEF em 5% para todos os aliados. O efeito pode acumular até 7 vezes."
         ],
         "story": "Mesmo entre as relíquias sagradas concedidas aos sumo sacerdotes da Igreja de Lua, o Livro de Gênesis Divino é especial. De acordo com a lenda, esse livro, protegido ao longo dos tempos pelos Grandes Sacerdotes da igreja, foi escrito pela própria Lua. Iris, o Grande Sacerdote atual, ao receber uma revelação sobre Baudouin, confiou esse livro ao seu padrasto, Berman. Depois, o livro foi dado a Baudouin quando ele se tornou sumo sacerdote. Dizem que essa relíquia divina fornece energia sagrada infinita ao seu proprietário, assim como o poder de desbloquear o verdadeiro potencial daqueles que têm fé."
       },
@@ -3295,7 +3295,7 @@
           "1": "Aumenta a Recuperação em {0}%.",
           "2": "Aumenta VEL. ATQ em {0} , durante o efeito do poder."
         },
-        "light": "Aumenta a duração da Invencibilidade em 1,5 segundo.",
+        "light": "Reduz o custo de mana em 1.",
         "dark": "Em troca de 1 Custo de Mana adicional e de uma redução de 3 segundos da Invencibilidade, todos os aliados ganham 50% de ATQ.",
         "ut": {
           "name": "Terço Antigo",
@@ -3604,18 +3604,18 @@
       "uw": {
         "name": "Belisa, Pena de Fênix",
         "description": [
-          "Enquanto estiver em ataque automático, há 10% de chance de causar 100% de DAN.M adicional e remover as penalidades.",
-          "Enquanto estiver em ataque automático, há 12% de chance de causar 100% de DAN.M adicional e remover as penalidades.",
-          "Enquanto estiver em ataque automático, há 14% de chance de causar 100% de DAN.M adicional e remover as penalidades.",
-          "Enquanto estiver em ataque automático, há 17% de chance de causar 100% de DAN.M adicional e remover as penalidades.",
-          "Enquanto estiver em ataque automático, há 20% de chance de causar 100% de DAN.M adicional e remover as penalidades.",
-          "Enquanto estiver em ataque automático, há 25% de chance de causar 100% de DAN.M adicional e remover as penalidades."
+          "No início de cada batalha, aumenta a DEF F. e a DEF M. em 20%, a Vel. de ATQ em 200 por 15 segundos, e a primeira habilidade usada tem um efeito adicional. Runa da Fragilidade - Aumenta a Chance de Crítico em 500. Runa da Cura - Remove efeitos de CM causados no conjurador antes de lançar a habilidade. Runa do Silêncio - Aumenta a duração de Silenciar em 1 segundo.",
+          "No início de cada batalha, aumenta a DEF F. e a DEF M. em 24%, a Vel. de ATQ em 240 por 15 segundos, e a primeira habilidade usada tem um efeito adicional. Runa da Fragilidade - Aumenta a Chance de Crítico em 500. Runa da Cura - Remove efeitos de CM causados no conjurador antes de lançar a habilidade. Runa do Silêncio - Aumenta a duração de Silenciar em 1 segundo.",
+          "No início de cada batalha, aumenta a DEF F. e a DEF M. em 29%, a Vel. de ATQ em 290 por 15 segundos, e a primeira habilidade usada tem um efeito adicional. Runa da Fragilidade - Aumenta a Chance de Crítico em 500. Runa da Cura - Remove efeitos de CM causados no conjurador antes de lançar a habilidade. Runa do Silêncio - Aumenta a duração de Silenciar em 1 segundo.",
+          "No início de cada batalha, aumenta a DEF F. e a DEF M. em 35%, a Vel. de ATQ em 350 por 15 segundos, e a primeira habilidade usada tem um efeito adicional. Runa da Fragilidade - Aumenta a Chance de Crítico em 500. Runa da Cura - Remove efeitos de CM causados no conjurador antes de lançar a habilidade. Runa do Silêncio - Aumenta a duração de Silenciar em 1 segundo.",
+          "No início de cada batalha, aumenta a DEF F. e a DEF M. em 42%, a Vel. de ATQ em 420 por 15 segundos, e a primeira habilidade usada tem um efeito adicional. Runa da Fragilidade - Aumenta a Chance de Crítico em 500. Runa da Cura - Remove efeitos de CM causados no conjurador antes de lançar a habilidade. Runa do Silêncio - Aumenta a duração de Silenciar em 1 segundo.",
+          "No início de cada batalha, aumenta a DEF F. e a DEF M. em 50%, a Vel. de ATQ em 500 por 15 segundos, e a primeira habilidade usada tem um efeito adicional. Runa da Fragilidade - Aumenta a Chance de Crítico em 500. Runa da Cura - Remove efeitos de CM causados no conjurador antes de lançar a habilidade. Runa do Silêncio - Aumenta a duração de Silenciar em 1 segundo."
         ],
         "story": "A fênix é uma fera sagrada que simboliza a vida eterna. Tão evasiva quanto a própria fera, suas penas também são consideradas extremamente raras. Dizem que uma caneta de pena fabricada com a pena de uma fênix é uma poderosa ferramenta mágica por si só. Runas desenhadas com essa caneta de pena podem ser um poderoso meio para Magia Rúnica."
       },
       "s1": {
         "name": "Runa da Fragilidade",
-        "description": "Grava uma runa no inimigo, reduzindo {1}% da DEF.F por {0} segundos. Depois de {2} segundos, causa máx {3} de DAN.M proporcional ao PV perdido, ignorando a DEF.",
+        "description": "Grava uma runa no alvo, causando até {3} de DAN F. que ignora a DEF com base no PV perdido, além de reduzir a DEF F. em {1}% por {0} seg.",
         "books": {
           "0": "Aumenta o dano em {0}%.",
           "1": "Aumenta o dano em {0}%.",
@@ -3649,13 +3649,13 @@
       },
       "s3": {
         "name": "Runa do Silêncio",
-        "description": "Causa {0} de DAN.M a toda a equipe e remove bônus. Silencia o inimigo durante {1} segundos.",
+        "description": "Causa {0} de DAN.F a toda a equipe e remove bônus. Silencia o inimigo durante {1} segundos.",
         "books": {
           "0": "Aumenta a duração do Silêncio em {0} segundos.",
           "1": "Aumenta a duração do Silêncio em {0} segundos.",
           "2": "Aumenta a duração do Silêncio em {0} segundos."
         },
-        "light": "Reforça a duração do Silêncio em 1 segundo.",
+        "light": "Reduz o custo de mana em 1.",
         "dark": "DAN aumenta em 200% e o inimigo recebe 20% a mais de DAN de todas as fontes. O custo de mana aumenta em 2.",
         "ut": {
           "name": "Pergaminho da Memória",
@@ -3724,24 +3724,24 @@
       "uw": {
         "name": "Veralta, Espadas Gêmeas da Fúria",
         "description": [
-          "Ganha 12% de ATQ e 120 de VEL. ATQ a cada 7 segundos. Acumula-se até 3 vezes.",
-          "Ganha 14% de ATQ e 140 de VEL. ATQ a cada 7 segundos. Acumula-se até 3 vezes.",
-          "Ganha 17% de ATQ e 170 de VEL. ATQ a cada 7 segundos. Acumula-se até 3 vezes.",
-          "Ganha 20% de ATQ e 200 de VEL. ATQ a cada 7 segundos. Acumula-se até 3 vezes.",
-          "Ganha 25% de ATQ e 250 de VEL. ATQ a cada 7 segundos. Acumula-se até 3 vezes.",
-          "Ganha 30% de ATQ e 300 de VEL. ATQ a cada 7 segundos. Acumula-se até 3 vezes."
+          "Aumenta o ATQ em 12% e a Vel. de ATQ em 120 por 30 segundos a cada 7 segundos. O efeito pode acumular até 3 vezes e não pode ser removido.",
+          "Aumenta o ATQ em 14% e a Vel. de ATQ em 140 por 30 segundos a cada 7 segundos. O efeito pode acumular até 3 vezes e não pode ser removido.",
+          "Aumenta o ATQ em 17% e a Vel. de ATQ em 170 por 30 segundos a cada 7 segundos. O efeito pode acumular até 3 vezes e não pode ser removido.",
+          "Aumenta o ATQ em 20% e a Vel. de ATQ em 200 por 30 segundos a cada 7 segundos. O efeito pode acumular até 3 vezes e não pode ser removido.",
+          "Aumenta o ATQ em 25% e a Vel. de ATQ em 250 por 30 segundos a cada 7 segundos. O efeito pode acumular até 3 vezes e não pode ser removido.",
+          "Aumenta o ATQ em 30% e a Vel. de ATQ em 300 por 30 segundos a cada 7 segundos. O efeito pode acumular até 3 vezes e não pode ser removido."
         ],
         "story": "Um conjunto de armas encantadas concedidas ao avô de Fluss, um cavaleiro oriundo da República Gray, e passado adiante como tesouros de família. Essas armas são capazes de gradualmente melhorar as habilidades físicas do portador, permitindo que ele rompa as barreiras das limitações humanas e ganhe poder e velocidade sobrenaturais. Devido ao fato de o efeito ser gradual, não há tensão imediata no corpo do portador. Cada peça é chamada Sangue e Rosa, respectivamente. Os nomes surgiram da espiral de sangue respingado e das pétalas de flores que acompanham cada golpe que Fluss desfere com essas espadas gêmeas. Nenhum outro guerreiro é capaz de utilizar todo o seu potencial como Fluss utiliza."
       },
       "s1": {
         "name": "Tempestade de Lâminas",
-        "description": "Causa {0} de DAN.F ao inimigo alvo e aos inimigos próximos.",
+        "description": "Ataca o alvo e os inimigos perto dele 3 vezes, causando um total de {0} de DAN F. Se o alvo não for um Herói, causa um total de {1} de DAN F. adicional ao longo de 5 segundos.",
         "books": {
           "0": "Aumenta o dano em {0}%.",
           "1": "Aumenta o dano em {0}%.",
-          "2": "Aumenta a Chance Crít. em {0}."
+          "2": "Aumenta o dano em {0}%."
         },
-        "light": "Aumenta o DAN em 40%.",
+        "light": "Ignora a DEF enquanto houver apenas 1 inimigo.",
         "dark": "Ao realizar um Acerto Crít., reduz o tempo de recarga em 6%."
       },
       "s2": {
@@ -3769,11 +3769,11 @@
       },
       "s3": {
         "name": "Pétalas Sangrentas",
-        "description": "Causa {0} de DAN.F num inimigo próximo e causa restrição ao alvo durante o efeito do poder.",
+        "description": "Causa um total de {0} DAN F. a um inimigo com 16 golpes, e suprime o alvo durante a conjuração. Este DAN ignora efeitos de Bloqueio do alvo.",
         "books": {
           "0": "Aumenta o dano em {0}%.",
           "1": "Aumenta o dano em {0}%.",
-          "2": "Aumenta a Chance Crít. em {0}."
+          "2": "Aumenta o dano em {0}%."
         },
         "light": "Cada Acerto Crít. aumenta em 10% do DAN do último acerto.",
         "dark": "Enquanto estiver em tempo de recarga, aumenta em 50% o DAN do ataque automático.",
@@ -4684,12 +4684,12 @@
       "uw": {
         "name": "Theoria, Luz do Julgamento",
         "description": [
-          "Quando qualquer outro aliado receber DAN, há 10% de chance de conceder um escudo equivalente a 320% do ATQ de Ricardo durante 5 segundos. Esse efeito só pode ocorrer uma vez a cada 5 segundos.",
-          "Quando qualquer outro aliado receber DAN, há 12% de chance de conceder um escudo equivalente a 320% do ATQ de Ricardo durante 5 segundos. Esse efeito só pode ocorrer uma vez a cada 5 segundos.",
-          "Quando qualquer outro aliado receber DAN, há 14% de chance de conceder um escudo equivalente a 320% do ATQ de Ricardo durante 5 segundos. Esse efeito só pode ocorrer uma vez a cada 5 segundos.",
-          "Quando qualquer outro aliado receber DAN, há 17% de chance de conceder um escudo equivalente a 320% do ATQ de Ricardo durante 5 segundos. Esse efeito só pode ocorrer uma vez a cada 5 segundos.",
-          "Quando qualquer outro aliado receber DAN, há 20% de chance de conceder um escudo equivalente a 320% do ATQ de Ricardo durante 5 segundos. Esse efeito só pode ocorrer uma vez a cada 5 segundos.",
-          "Quando qualquer outro aliado receber DAN, há 25% de chance de conceder um escudo equivalente a 320% do ATQ de Ricardo durante 5 segundos. Esse efeito só pode ocorrer uma vez a cada 5 segundos."
+          "Quando um aliado que não seja o conjurador recebe DAN, há 10% de chance de ganhar um escudo que absorve DAN igual a 320% do ATQ por 5 segundos e concede imunidade a CM. Este efeito não é acionado mais de uma vez em 5 segundos.",
+          "Quando um aliado que não seja o conjurador recebe DAN, há 12% de chance de ganhar um escudo que absorve DAN igual a 384% do ATQ por 5 segundos e concede imunidade a CM. Este efeito não é acionado mais de uma vez em 5 segundos.",
+          "Quando um aliado que não seja o conjurador recebe DAN, há 14% de chance de ganhar um escudo que absorve DAN igual a 460% do ATQ por 5 segundos e concede imunidade a CM. Este efeito não é acionado mais de uma vez em 5 segundos.",
+          "Quando um aliado que não seja o conjurador recebe DAN, há 17% de chance de ganhar um escudo que absorve DAN igual a 552% do ATQ por 5 segundos e concede imunidade a CM. Este efeito não é acionado mais de uma vez em 5 segundos.",
+          "Quando um aliado que não seja o conjurador recebe DAN, há 20% de chance de ganhar um escudo que absorve DAN igual a 660% do ATQ por 5 segundos e concede imunidade a CM. Este efeito não é acionado mais de uma vez em 5 segundos.",
+          "Quando um aliado que não seja o conjurador recebe DAN, há 25% de chance de ganhar um escudo que absorve DAN igual a 800% do ATQ por 5 segundos e concede imunidade a CM. Este efeito não é acionado mais de uma vez em 5 segundos."
         ],
         "story": "Quando a Espada Sagrada de Aea foi concedida a Kyle, ela apareceu no Templo de Lua localizado ao norte das Planícies do Rei. Quando Kyle removeu a espada do altar, ela liberou uma poderosa onda de luz que transformou toda a redondeza num território sagrado. Tudo que havia dentro do Templo foi transformado em relíquias sagradas. Teoria, o pilar central do Templo, absorveu a maior quantidade de energia sagrada."
       },
@@ -4763,7 +4763,7 @@
       },
       "t5": {
         "light": "ATQ, DEF, PV+15% / BLQ.F +200",
-        "dark": "Quando o próprio PV estiver abaixo de 30%, o PV não poderá ficar menor que 10% por 10 segundos, e o ATQ de todos os aliados aumenta em 50% da própria DEF.M. Esse efeito é ativado apenas uma vez a cada 60 segundos."
+        "dark": "Quando o próprio PV estiver abaixo de 40%, o PV não poderá ficar menor que 10% por 6 segundos, e o ATQ de todos os aliados aumenta em 50% da própria DEF.M. Esse efeito é ativado apenas uma vez a cada 60 segundos."
       }
     },
     "37": {
@@ -4804,24 +4804,24 @@
       "uw": {
         "name": "Caethasis, Demônio da Calma",
         "description": [
-          "Enquanto estiver em ataque automático, há 10% de chance de causar 140% de DAN.F adicional ao alvo e ganhar Furtividade durante 10 segundos. Tempo de Recarga: 10 segundos.",
-          "Enquanto estiver em ataque automático, há 12% de chance de causar 140% de DAN.F adicional ao alvo e ganhar Furtividade durante 10 segundos. Tempo de Recarga: 10 segundos.",
-          "Enquanto estiver em ataque automático, há 14% de chance de causar 140% de DAN.F adicional ao alvo e ganhar Furtividade durante 10 segundos. Tempo de Recarga: 10 segundos.",
-          "Enquanto estiver em ataque automático, há 17% de chance de causar 140% de DAN.F adicional ao alvo e ganhar Furtividade durante 10 segundos. Tempo de Recarga: 10 segundos.",
-          "Enquanto estiver em ataque automático, há 20% de chance de causar 140% de DAN.F adicional ao alvo e ganhar Furtividade durante 10 segundos. Tempo de Recarga: 10 segundos.",
-          "Enquanto estiver em ataque automático, há 25% de chance de causar 140% de DAN.F adicional ao alvo e ganhar Furtividade durante 10 segundos. Tempo de Recarga: 10 segundos."
+          "Enquanto estiver em ataque automático, há 10% de chance de causar 200% de DAN.F adicional ao alvo e ganhar Furtividade durante 10 segundos. Tempo de Recarga: 10 segundos.",
+          "Enquanto estiver em ataque automático, há 12% de chance de causar 240% de DAN.F adicional ao alvo e ganhar Furtividade durante 10 segundos. Tempo de Recarga: 10 segundos.",
+          "Enquanto estiver em ataque automático, há 14% de chance de causar 290% de DAN.F adicional ao alvo e ganhar Furtividade durante 10 segundos. Tempo de Recarga: 10 segundos.",
+          "Enquanto estiver em ataque automático, há 17% de chance de causar 350% de DAN.F adicional ao alvo e ganhar Furtividade durante 10 segundos. Tempo de Recarga: 10 segundos.",
+          "Enquanto estiver em ataque automático, há 20% de chance de causar 420% de DAN.F adicional ao alvo e ganhar Furtividade durante 10 segundos. Tempo de Recarga: 10 segundos.",
+          "Enquanto estiver em ataque automático, há 25% de chance de causar 500% de DAN.F adicional ao alvo e ganhar Furtividade durante 10 segundos. Tempo de Recarga: 10 segundos."
         ],
         "story": "A Guerra dos Demônios data de 100 anos atrás. Durante essa guerra, a maior ameaça à humanidade era, sem dúvida, os oficiais Demônios de alta patente. Kaitasis, o Demônio da Calma, era especialmente perigoso. Inúmeros feiticeiros e sacerdotes foram massacrados por esse Demônio que especificamente buscava usuários de magia para obter suas almas. Por fim, Kaitasis foi derrotado por Kyle e seu âmago foi enclausurado. No entanto, anos depois, o âmago caiu nas mãos da Máscara Sorridente e voltou a servir como um instrumento da morte."
       },
       "s1": {
         "name": "Alvo Avistado",
-        "description": "Desloca-se para trás do inimigo com menor DEF.F, aumenta o DAN.F recebido por ele em {0}%, e o derruba causando {1} de DAN.F. Enquanto estiver em Furtividade, atordoa o alvo inimigo durante 6 segundos. Caso contrário, ganha Furtividade durante 10 segundos. Enquanto estiver em Furtividade, a Taxa de Crít. e a Taxa de Esquiva aumentam em 200.",
+        "description": "Desloca-se para trás do inimigo com menor DEF.F, aumenta o DAN.F recebido por ele em {0}%, e o derruba causando {1} de DAN.F. Enquanto estiver em Furtividade, atordoa o alvo inimigo durante 6 segundos. Caso contrário, ganha Furtividade durante 10 segundos. Enquanto estiver em Furtividade, a Taxa de Crít. e a Taxa de Esquiva aumentam em 50.",
         "books": {
           "0": "Aumenta o dano em {0}%.",
           "1": "Aumenta o dano em {0}%.",
           "2": "Aumenta a Chance Crít. em {0}."
         },
-        "light": "Aumenta o DAN em 40%.",
+        "light": "Reduz a Taxa de Cura do alvo em 30%.",
         "dark": "Por 10 segundos, a resistência a Crit.F é reduzida em 250."
       },
       "s2": {
@@ -4872,14 +4872,14 @@
       },
       "s4": {
         "name": "Emboscada Silenciosa",
-        "description": "Ao realizar um acerto Crít. Usando um poder, o inimigo recebe {0} de DAN.F adicional e o efeito de silêncio durante {1} segundos.",
+        "description": "Causa {0} de DAN F. adicional ao inimigo e silencia-o por {1} seg. quando uma habilidade causa Acerto Crítico. Se o alvo não for um Herói, causa {2} de DAN F. adicional que ignora a DEF e reduz a Vel. de ATQ do alvo em {4} por {3} seg.",
         "books": {
           "0": "Aumenta o dano em {0}%.",
           "1": "Aumenta o dano em {0}%.",
           "2": "Aumenta a duração do Silêncio em {0} segundos."
         },
-        "light": "Aumenta o DAN em 40%.",
-        "dark": "Aumenta em 2 segundos a duração do Silêncio quando houver apenas 1 inimigo."
+        "light": "Aumenta o DAN adicional contra inimigos não Heróis em 100%.",
+        "dark": "Aumenta a duração de Silenciar em 0,5%."
       },
       "t5": {
         "light": "ATQ, DEF, PV+15% / DAN Crít. +20%",
@@ -5242,7 +5242,7 @@
         "dark": "A duração do atordoamento aumenta em 0,2 segundo."
       },
       "t5": {
-        "light": "ATQ, DEF, PV+15% / VEL. ATQ +100",
+        "light": "ATQ, DEF, PV+15% / Chance Crít. +100",
         "dark": "Quando 'Deus do Relâmpago' estiver ativo, recupera metade da mana. Quando a mana chegar ao máximo, o ATQ aumenta em 50% por 10 segundos. Esse efeito ativa apenas uma vez a cada 20 segundos."
       }
     },
@@ -6015,7 +6015,7 @@
       },
       "s1": {
         "name": "Carta da Morte - Carta",
-        "description": "Ataca o inimigo, causando {0} de DAN.M e infligindo Atordoamento por {1} segundos. Consome a carta em sua posse para infligir efeitos adicionais. Ao usar o poder, ganha a carta de [Morte]. [Morte] - o DAN ignora a DEF do alvo e a duração do Atordoamento aumenta em 5 segundo. [Amor] - Causa um total de {2} de DAN.M ao longo do tempo por 7 segundos e reduz a taxa de cura em 100%. [Fortuna] - A recarga do Poder não tem efeito.",
+        "description": "Ataca o inimigo, causando {0} de DAN.M e infligindo Atordoamento por {1} segundos. Consome a carta em sua posse para infligir efeitos adicionais. Ao usar o poder, ganha a carta de [Morte]. [Morte] - o DAN ignora a DEF do alvo e a duração do Atordoamento aumenta em 5 segundo. [Amor] - Causa um total de {2} de DAN.M ao longo do tempo por 10 segundos e reduz a taxa de cura em 100%. [Fortuna] - A recarga do Poder não tem efeito.",
         "books": {
           "0": "DAN aumenta em {0}%.",
           "1": "DAN aumenta em {0}%.",
@@ -6026,7 +6026,7 @@
       },
       "s2": {
         "name": "Carta do Amor - Elliciad",
-        "description": "o ATQ aumenta em {1} por {0} segundos e a recuperação de Mana por segundo aumenta em {2}%. Consome a carta em sua posse para infligir efeitos adicionais. Ao usar o poder, ganha a carta de [Amor]. [Morte] - A Penetração aumenta em 600 durante o efeito do poder. [Amor] - Concede o efeito para todos os aliados. [Fortuna] - A recarga do Poder não tem efeito.",
+        "description": "Aumenta o ATQ em {1} por {0} seg. e a Recuperação de Mana/Seg. em {2}%. Consome uma carta em sua posse para ganhar um efeito adicional segundo o tipo de carta. Ganha a carta [Amor] após o uso. [Morte] - Penetração de DEF aumenta em 600 durante a habilidade, e concede imunidade a CM por 6 segundos. [Amor] - O efeito se aplica a todos os aliados. [Sorte] - Recarga não se aplica.",
         "books": {
           "0": "Aumento de ATQ reforçado em {0}%.",
           "1": "Aumento de ATQ reforçado em {0}%.",
@@ -6049,7 +6049,7 @@
       },
       "s3": {
         "name": "Carta da Fortuna - Vellekia",
-        "description": "Ataca o inimigo e inimigos próximos na área e causa {0} de DAN.M. Não é possível errar esse ataque, e o DAN Crit causado aumenta em 100%. Ao usar o poder, ganha a carta de [Fortuna]. [Morte] - o DAN Crit aumenta em 200%. [Amor] - Remove todos os efeitos positivos dos inimigos na área e infligindo Silenciar por 1 segundo. [Fortuna] - A recarga do Poder não tem efeito e recupera 1 orbe de mana.",
+        "description": "Ataca o alvo e os inimigos perto dele para causar {0} de DAN M. Não é possível errar este ataque, e ele causa 100% de Dano Crítico aumentado. Ganha a carta [Sorte] após o uso. [Morte] - Aumenta o Dano Crítico em 120%. [Amor] - Remove todos os efeitos positivos dos inimigos dentro do alcance e silencia-os por 2 segundos. [Sorte] - Recarga não se aplica. Recupera 1 orbe de Mana.",
         "books": {
           "0": "DAN aumenta em {0}%.",
           "1": "DAN aumenta em {0}%.",
@@ -6566,13 +6566,133 @@
         "dark": "Todos os efeitos de maldição são aumentados. [Maldição de Petrificação] Duração de Petrificação é aumentada em 2 seg. [Maldição do Tempo] Duração da Maldição do Tempo é aumentada em 3 seg. [Maldição da Dor] Aumenta a duração da Maldição da Dor em 50%."
       }
     },
+    "56": {
+      "name": "Erze",
+      "subtitle": "Sede eterna",
+      "description": "Ela era uma caçadora de vampiros, como sua irmã Seria. No entanto, corrompida pelo próprio poder, ela massacrou seus companheiros e decidiu se tornar uma vampira. Após matar e absorver os poderes do vampiro que a transformou, ela fugiu de Seria, sua irmã mais velha e única sobrevivente, e mudou-se para Orvelia.",
+      "story": "Segunda filha da família Shadow Hilt, Erze seguiu o exemplo de Seria, sua querida irmã, e se tornou uma caçadora de vampiros. O físico frágil de Erze a impediu de aprender a lutar com espadas, mas ela ganhou fama como caçadora graças ao seu talento com magia. Um dia, ela caiu em uma armadilha durante uma operação e foi mordida no ombro por um vampiro misterioso. Seu corpo ficou ainda mais debilitado, e ela sofria com dores de cabeça e sede toda noite. Erze sabia o que isso significava, e pelo que estava passando. Ela escondeu a mordida e procurou sozinha por uma cura, afastando-se de seus companheiros. Enquanto isso, Seria foi enviada à Montanha Gélida de Windland para investigar a Princesa Vampira desaparecida há 100 anos. No dia em que sua irmã partiu... - Ahh, Seria... Não consigo mais controlar... Silenciosa e secretamente, Erze começou a cortar a garganta de seus companheiros.",
+      "like": "Seria como irmã, parfait de chocolate, sangue dos corrompidos",
+      "dislike": "Seria como caçadora de vampiros, aranhas",
+      "inn": {
+        "idle": "Eles parecem tão apetitosos... Hum...",
+        "recruit": {
+          "greet": "Conheço uma brincadeira incrível. O que acha de jogar comigo?",
+          "talk": [
+            "Por que está com medo?",
+            "Ora, acha que vou morder você?",
+            "Garanto que você nunca sentiu uma emoção assim."
+          ],
+          "gift": "Haha, isso não é necessário... Por que não mostra seu pescoço?"
+        },
+        "affinity": {
+          "greet": "Eu já te vi antes... Hahaha. Nos encontramos novamente.",
+          "talk": [
+            "Vampiros não são como demônios. Admito que os demônios superiores são até decentes, mas os outros são inúteis.",
+            "O sangue dos corrompidos... me deixa eufórica. Sim, eufórica!"
+          ],
+          "gift": "Você tem bom gosto. E está uma gracinha sempre que te vejo!"
+        },
+        "relationship": {
+          "greet": "Quero que fique com essa lembrança minha. É o dente de quem me mordeu...",
+          "talk": [
+            "Hum, aquela mulher continua me perseguindo... Aquela mulher... Ela... Minha irmã... Que saudade... Mas também quero matá-la... Hihihi!",
+            "Aquele que apareceu na última vez... Estava dando o sangue dele para outros humanos. Nosso sangue é inútil sem nossa determinação. Então ele estava dando o sangue por escolha própria... O que teria recebido em troca? Eu devia ter perguntado antes de matá-lo.",
+            "Não, eu nunca voltaria a ser como antes. Hihi, o que foi? Acha que vou abrir mão do júbilo que sinto agora para voltar àqueles dias de desespero?! Não, jamais! Eu não vou voltar... Mas... se voltasse... seria por um único motivo... Sim... Se eu voltasse... seria por ela."
+          ]
+        }
+      },
+      "uw": {
+        "name": "Perion, Essência da Avareza",
+        "description": [
+          "Cada acerto de habilidade aumenta o ATQ e a Vel. de ATQ em 0,5% por 15 segundos. Este efeito acumula até 80 vezes.",
+          "Cada acerto de habilidade aumenta o ATQ e a Vel. de ATQ em 0,5% por 15 segundos. Este efeito acumula até 90 vezes.",
+          "Cada acerto de habilidade aumenta o ATQ e a Vel. de ATQ em 0,5% por 15 segundos. Este efeito acumula até 110 vezes.",
+          "Cada acerto de habilidade aumenta o ATQ e a Vel. de ATQ em 0,5% por 15 segundos. Este efeito acumula até 130 vezes.",
+          "Cada acerto de habilidade aumenta o ATQ e a Vel. de ATQ em 0,5% por 15 segundos. Este efeito acumula até 160 vezes.",
+          "Cada acerto de habilidade aumenta o ATQ e a Vel. de ATQ em 0,5% por 15 segundos. Este efeito acumula até 200 vezes."
+        ],
+        "story": "Quando tudo isso começou...? Esse tormento acompanhado de uma sede infinita... Mas depois de saciar a sede... Meu coração pulsa com um ódio ardente por você, Seria... Ah, Seria. Não tenho escolha. Preciso deste poder para satisfazer minha sede infinita. Essa essência poderosa de fluxo constante é a única cura para o meu tormento eterno. Ah... Esse êxtase... Mais... Alguém me dê mais..."
+      },
+      "s1": {
+        "name": "Sangue Doce",
+        "description": "Causa {0} de DAN F. a todos os inimigos e rouba PV igual a {1}% do DAN causado. Reduz a Recarga de [Sangue Doce] em {2} seg. a cada acerto, e ganha 1 acúmulo de [Sangue Doce]. [Sangue Doce] pode acumular até {3} vezes, e usar a habilidade com {3} acúmulos de [Sangue Doce] concede {4} acertos adicionais e remove os acúmulos de[Sangue Doce].",
+        "books": {
+          "0": "DAN aumenta em {0}%.",
+          "1": "DAN aumenta em {0}%.",
+          "2": "DAN aumenta em {0}%."
+        },
+        "light": "Recupera 150 de Mana a cada acerto.",
+        "dark": "Cada uso aumenta o DAN em 10%. Acumula-se no máximo 30 vezes."
+      },
+      "s2": {
+        "name": "Sangue Encharcado",
+        "description": "Remove todos os efeitos negativos e ganha imunidade a todos os CM, DAN F. e DAN M. por {0} seg. Causa 1 acúmulo de [Sangue Encharcado] a todos os inimigos, além de 1 acúmulo ao atacar um alvo com [Sangue Encharcado]. [Sangue Encharcado] pode acumular até {1} vezes. Causa {2} DAN F. a inimigos com acúmulos de [Sangue Encharcado] após {0} seg., e rouba PV igual a {3}% do DAN causado. Para cada {4} acúmulo(s) de [Sangue Encharcado], o número de acertos sobe em 1 e remove os acúmulos de [Sangue Encharcado] ao atacar.",
+        "books": {
+          "0": "DAN aumenta em {0}%.",
+          "1": "DAN aumenta em {0}%.",
+          "2": "DAN aumenta em {0}%."
+        },
+        "light": "Atordoa o alvo por 3 segundos ao atingir.",
+        "dark": "O custo de mana será reduzido em 1.",
+        "ut": {
+          "name": "Vinho dos Tremores",
+          "description": [
+            "[Sangue Encharcado] Aumenta o DAN de [Sangue Encharcado] em 50% e reduz a Recarga de [Sangue Encharcado] em 5 segundos.",
+            "[Sangue Encharcado] Aumenta o DAN de [Sangue Encharcado] em 50% e reduz a Recarga de [Sangue Encharcado] em 6 segundos.",
+            "[Sangue Encharcado] Aumenta o DAN de [Sangue Encharcado] em 50% e reduz a Recarga de [Sangue Encharcado] em 7 segundos.",
+            "[Sangue Encharcado] Aumenta o DAN de [Sangue Encharcado] em 50% e reduz a Recarga de [Sangue Encharcado] em 8 segundos.",
+            "[Sangue Encharcado] Aumenta o DAN de [Sangue Encharcado] em 50% e reduz a Recarga de [Sangue Encharcado] em 9 segundos.",
+            "[Sangue Encharcado] Aumenta o DAN de [Sangue Encharcado] em 50% e reduz a Recarga de [Sangue Encharcado] em 10 segundos."
+          ],
+          "story": "Vinho feito pela própria Erze com o sangue de sacerdotes. Um de seus maiores prazeres é forçar aqueles considerados sagrados a se ajoelharem. Dentro da garrafa, há uma cruz sangrenta. Quem ouve Erze bebendo o vinho estremece com o tilintar da cruz no interior."
+        }
+      },
+      "s3": {
+        "name": "Liberação de Sangue",
+        "description": "Causa {2} de DAN F. a todos os inimigos a cada {1} seg. por {0} seg. Cada acerto de [Liberação de Sangue] causa um acerto adicional em 1 inimigo aleatório.",
+        "books": {
+          "0": "DAN aumenta em {0}%.",
+          "1": "DAN aumenta em {0}%.",
+          "2": "DAN aumenta em {0}%."
+        },
+        "light": "Recupera 75 de Mana a cada acerto.",
+        "dark": "O custo de mana aumenta em 1 orbe, mas o DAN é reforçado em 100%.",
+        "ut": {
+          "name": "Batom da Vergonha",
+          "description": [
+            "[Liberação de Sangue] Aumenta o DAN de [Liberação de Sangue] em 20% e ganha imunidade a CM durante [Liberação de Sangue].",
+            "[Liberação de Sangue] Aumenta o DAN de [Liberação de Sangue] em 24% e ganha imunidade a CM durante [Liberação de Sangue].",
+            "[Liberação de Sangue] Aumenta o DAN de [Liberação de Sangue] em 29% e ganha imunidade a CM durante [Liberação de Sangue].",
+            "[Liberação de Sangue] Aumenta o DAN de [Liberação de Sangue] em 35% e ganha imunidade a CM durante [Liberação de Sangue].",
+            "[Liberação de Sangue] Aumenta o DAN de [Liberação de Sangue] em 42% e ganha imunidade a CM durante [Liberação de Sangue].",
+            "[Liberação de Sangue] Aumenta o DAN de [Liberação de Sangue] em 50% e ganha imunidade a CM durante [Liberação de Sangue]."
+          ],
+          "story": "Batom vermelho escuro feito com o sangue de vítimas que sofreram mortes desonrosas. Aqueles que abandonaram a dignidade humana e entregaram-se aos desejos insaciáveis não puderam escapar de Erze. Morreram em estado de transe completo, mas talvez estivessem felizes por Erze ter abusado deles. Erze usa o batom para marcar o pescoço das presas após se alimentar."
+        }
+      },
+      "s4": {
+        "name": "Sorve-Vidas",
+        "description": "Increases ATK by {0} and Max HP by {1} upon killing an enemy. Upon taking lethal damage, casts [Soaking Blood] and reduces Max HP by {2}%. This effect does not occur if [Soaking Blood] is in Cooldown. Consumes all mana upon activation.",
+        "books": {
+          "0": "Aumenta o Impulso de ATQ e PV Máx. em {0}%.",
+          "1": "Aumenta o Impulso de ATQ e PV Máx. em {0}%.",
+          "2": "Aumenta o Impulso de ATQ e PV Máx. em {0}%."
+        },
+        "light": "Aumenta o PV Máx. em 100% ao matar um inimigo e altera a redução de PV Máx. após lançar [Sangue Encharcado] em si mesmo para 33%.",
+        "dark": "Aumenta o ATQ em 200% ao matar um inimigo, mas o impulso de PV Máx. não se aplica."
+      },
+      "t5": {
+        "light": "ATQ, DEF, PV+15% / Chance Crít. +100",
+        "dark": "Rouba PV igual a 25% do DAN causado pelo último ataque normal e ganha 1 acúmulo de [Sangue Doce]."
+      }
+    },
     "57": {
       "name": "Lilia",
       "subtitle": "Filha da Tormenta e do Mar",
       "description": "Uma garota Dragão Azul que acabou de passar por sua fase de Cria, além de ser irmã de Laias, a Sacerdotisa da Água. Embora ela ainda seja jovem e inexperiente, quem a menospreza tende a pagar caro. Ela usa a energia implacável da água para dizimar seus inimigos.",
       "story": "Um Dragão Deus do Oásis, irmã da Sacerdotisa da Água, Laias. Ela ainda é um Dragão Azul jovem que ama a sua irmã muito mais velha. Quando Laias caiu num sono profundo após esgotar seus poderes numa batalha 100 anos atrás, Lilia defendeu o Santuário do Fluxo sozinha. Quando ouviu os filhos do deserto orando desesperadamente, ela finalmente acordou a Sacerdotisa da Água para que os protegesse. Diferentemente da sua irmã meiga e gentil, ela é um pouco severa, e a forma como controla o poder do fluxo e da água também é mais agressiva. Ela sente a necessidade de proteger sua bela irmã de homens sedutores e indignos.",
       "like": "Laias, bebidas adocicadas, pessoas do deserto",
-      "dislike": "Quem flerta com a sua irmã (Neraxis, Sereinel)",
+      "dislike": "Quem flerta com a sua irmã (Neraxis, Cain)",
       "inn": {
         "idle": "... Hu-humanos demais...",
         "recruit": {
@@ -6596,7 +6716,7 @@
           "greet": "Bom ver você de novo!",
           "talk": [
             "Neraxis? Que idiota. Ele sempre fica implorando pela atenção da minha irmã!",
-            "Sereinel...? Arrrgh... Achei que ele já era. Não acredito que está cantando a minha irmã de novo...",
+            "Cain...? Arrrgh... Achei que ele já era. Não acredito que está cantando a minha irmã de novo...",
             "A minha irmã é quem eu mais amo... mas eu gosto de você também."
           ]
         }
@@ -6814,6 +6934,126 @@
         "dark": "No início de cada batalha, ganha imunidade a CM por 5 seg. aumenta a PREC e a PREC de CM em 300 por 10 segundos."
       }
     },
+    "61": {
+      "name": "Neraxis",
+      "subtitle": "Arrogância Obsidiana",
+      "description": "Descendente de um dragão negro que controlava relâmpagos sombrios. Ele luta para eliminar os demônios do mundo, principalmente os Draconianos. A energia de relâmpago sombrio imbuída em seu Bate-Estaca atravessa a defesa inimiga.",
+      "story": "Dragões Negros são considerados os mais arrogantes e temperamentais da espécie. Eles sofreram muito com a Guerra dos Demônios há 100 anos. Armarta enlouqueceu, Ashen Nox os roubou, e os Draconianos começaram a caçar dragões. Neraxis foi um dos poucos Dragões Negros sobreviventes, e tem planejado sua vingança desde então.",
+      "like": "Laias",
+      "dislike": "Demônios, Cain, Lilia e tudo o que ficar em seu caminho.",
+      "inn": {
+        "idle": "Hunf. Por que estou aqui...?",
+        "recruit": {
+          "greet": "Hunf, o que um humano quer comigo?",
+          "talk": [
+            "Não vale a pena falar com você.",
+            "O que você quer?",
+            "Haha, que ridículo."
+          ],
+          "gift": "Não sei o que você quer, mas é inútil."
+        },
+        "affinity": {
+          "greet": "Hunf, você de novo, humano.",
+          "talk": [
+            "Hã? Você quer ajuda? Humpf. Que estorvo.",
+            "Haha, é isso mesmo. Os Dragões Negros são os mais fortes!"
+          ],
+          "gift": "Não preciso disso. Por que insiste...?"
+        },
+        "relationship": {
+          "greet": "... Tudo bem, estou feliz por ver você! Hunf...",
+          "talk": [
+            "Lilia? Ah, aquela criança irritante? Tsc, ela sempre atrapalha.",
+            "Por que aquela múmia não some? Às vezes tenho vontade de matá-lo.",
+            "Por que eu gosto de Laias? Hunf, n-não preciso de um motivo pra gostar de alguém... Não, espere! Como sabe disso?!"
+          ]
+        }
+      },
+      "uw": {
+        "name": "Rugido do Dragão, Acravita",
+        "description": [
+          "Após acertar 20 ataques normais, causa DAN M. igual a 100% do ATQ a 2 inimigos aleatórios, atordoa-os por 0,5 segundo e aciona Tempestade de Neraxis por 10 segundos. Durante Tempestade de Neraxis, aumenta a DEF F. de todos os aliados em 4% da DEF F. do conjurador, e a DEF M. em 4% da DEF M. do conjurador.",
+          "Após acertar 19 ataques normais, causa DAN M. igual a 100% do ATQ a 2 inimigos aleatórios, atordoa-os por 0,5 segundo e aciona Tempestade de Neraxis por 10 segundos. Durante Tempestade de Neraxis, aumenta a DEF F. de todos os aliados em 4,8% da DEF F. do conjurador, e a DEF M. em 4,8% da DEF M. do conjurador.",
+          "Após acertar 18 ataques normais, causa DAN M. igual a 100% do ATQ a 2 inimigos aleatórios, atordoa-os por 0,5 segundo e aciona Tempestade de Neraxis por 10 segundos. Durante Tempestade de Neraxis, aumenta a DEF F. de todos os aliados em 5,7% da DEF F. do conjurador, e a DEF M. em 5,7% da DEF M. do conjurador.",
+          "Após acertar 17 ataques normais, causa DAN M. igual a 100% do ATQ a 2 inimigos aleatórios, atordoa-os por 0,5 segundo e aciona Tempestade de Neraxis por 10 segundos. Durante Tempestade de Neraxis, aumenta a DEF F. de todos os aliados em 6,9% da DEF F. do conjurador, e a DEF M. em 6,9% da DEF M. do conjurador.",
+          "Após acertar 16 ataques normais, causa DAN M. igual a 100% do ATQ a 2 inimigos aleatórios, atordoa-os por 0,5 segundo e aciona Tempestade de Neraxis por 10 segundos. Durante Tempestade de Neraxis, aumenta a DEF F. de todos os aliados em 8,3% da DEF F. do conjurador, e a DEF M. em 8,3% da DEF M. do conjurador.",
+          "Após acertar 15 ataques normais, causa DAN M. igual a 100% do ATQ a 2 inimigos aleatórios, atordoa-os por 0,5 segundo e aciona Tempestade de Neraxis por 10 segundos. Durante Tempestade de Neraxis, aumenta a DEF F. de todos os aliados em 10% da DEF F. do conjurador, e a DEF M. em 10% da DEF M. do conjurador."
+        ],
+        "story": "Equipamento mágico feito de um metal preto chamado Adamantino, reforçado com a chama negra e o relâmpago de um Dragão Negro. Carrega o rancor e fúria dos Dragões Negros mortos durante a Guerra dos Demônios. Neraxis ameaçou os anões para que forjassem esta arma especial. Então, ele a amaldiçoou e encantou com as almas rancorosas de Dragões Negros. Qualquer um além de Neraxis que tocar esta arma poderá ouvir o rugido furioso de dragões vingativos."
+      },
+      "s1": {
+        "name": "Garra de Relâmpago Negro",
+        "description": "Atrai os inimigos em direção ao alvo e causa {0} de DAN M. Causa {1} de DAN M. ao redor do alvo após 1 segundo e o atordoa por {2} segundos. Reduz a Vel. de ATQ dos inimigos atingidos em {4} por {3} segundos.",
+        "books": {
+          "0": "DAN aumenta em {0}%.",
+          "1": "DAN aumenta em {0}%.",
+          "2": "DAN aumenta em {0}%."
+        },
+        "light": "Aumenta a duração do Atordoamento em {0} seg.",
+        "dark": "Aumenta o DAN M. que o inimigo atingido recebe em 25% por 10 segundos."
+      },
+      "s2": {
+        "name": "Rugido Obsidiano",
+        "description": "Aumenta o ATQ, DEF F. E DEF M. de todos os aliados em {1} por {0} segundos. Causa {2} de DAN M. a todos os inimigos e reduz o ATQ deles em {4}% por {3} segundos.",
+        "books": {
+          "0": "Aumenta o Impulso de ATQ e de DEF em {0}%.",
+          "1": "Aumenta o Impulso de ATQ e de DEF em {0}%.",
+          "2": "Aumenta o Impulso de ATQ e de DEF em {0}%."
+        },
+        "light": "Aumenta o Custo de Mana em 1 e o Impulso de ATQ e DEF em {0}%.",
+        "dark": "Reduz a Vel. de ATQ do inimigo atingido em {1} por {0} seg.",
+        "ut": {
+          "name": "Recordações do Dragão Deus Azul",
+          "description": [
+            "[Rugido Obsidiano] Aumenta o Impulso de DEF dos aliados em 20% e remove efeitos positivos de todos os inimigos ao usar Rugido Obsidiano.",
+            "[Rugido Obsidiano] Aumenta o Impulso de DEF dos aliados em 24% e remove efeitos positivos de todos os inimigos ao usar Rugido Obsidiano.",
+            "[Rugido Obsidiano] Aumenta o Impulso de DEF dos aliados em 29% e remove efeitos positivos de todos os inimigos ao usar Rugido Obsidiano.",
+            "[Rugido Obsidiano] Aumenta o Impulso de DEF dos aliados em 35% e remove efeitos positivos de todos os inimigos ao usar Rugido Obsidiano.",
+            "[Rugido Obsidiano] Aumenta o Impulso de DEF dos aliados em 42% e remove efeitos positivos de todos os inimigos ao usar Rugido Obsidiano.",
+            "[Rugido Obsidiano] Aumenta o Impulso de DEF dos aliados em 50% e remove efeitos positivos de todos os inimigos ao usar Rugido Obsidiano."
+          ],
+          "story": "Um acessório para cabelo que Laias deixou cair enquanto purificava as águas corrompidas por demônios. Neraxis o encontrou e guardou, mas ainda não decidiu se devolverá o objeto. É improvável que Laias recupere seu acessório perdido tão cedo."
+        }
+      },
+      "s3": {
+        "name": "Sopro da Destruição",
+        "description": "Causa um total de {0} DAN M. a inimigos dentro de uma grande área ao redor do alvo por 6 segundos e reduz a DEF M. deles em {2}% por {1} segundos. Cada acerto atordoa o inimigo por {3} segundos.",
+        "books": {
+          "0": "DAN aumenta em {0}%.",
+          "1": "DAN aumenta em {0}%.",
+          "2": "DAN aumenta em {0}%."
+        },
+        "light": "Reduz o Custo de Mana em 1.",
+        "dark": "Altera a Redução de DEF M. para 30%.",
+        "ut": {
+          "name": "Vórtice de Fúria",
+          "description": [
+            "[Sopro da Destruição] Aumenta a duração do Atordoamento em 1 segundo e reduz a Recarga de Sopro da Destruição em 3 segundos.",
+            "[Sopro da Destruição] Aumenta a duração do Atordoamento em 1 segundo e reduz a Recarga de Sopro da Destruição em 4 segundos.",
+            "[Sopro da Destruição] Aumenta a duração do Atordoamento em 1 segundo e reduz a Recarga de Sopro da Destruição em 5 segundos.",
+            "[Sopro da Destruição] Aumenta a duração do Atordoamento em 1 segundo e reduz a Recarga de Sopro da Destruição em 6 segundos.",
+            "[Sopro da Destruição] Aumenta a duração do Atordoamento em 1 segundo e reduz a Recarga de Sopro da Destruição em 7 segundos.",
+            "[Sopro da Destruição] Aumenta a duração do Atordoamento em 1 segundo e reduz a Recarga de Sopro da Destruição em 8 segundos."
+          ],
+          "story": "Feita com a própria presa de Neraxis, essa estaca carrega sua fúria ardente. Ao usá-la para atacar, a grande energia, mesclada aos poderes de Neraxis, rodopia até o inimigo a uma velocidade apavorante. É poderosa o suficiente para atravessar qualquer coisa e arrancar os membros de qualquer um que se aproxime."
+        }
+      },
+      "s4": {
+        "name": "Couro de Dragão Negro",
+        "description": "Aumenta a DEF F. e a DEF M. em {0} e reduz o DAN F. e DAN M. recebidos em {1}%.",
+        "books": {
+          "0": "Aumenta o Impulso de DEF em {0}%.",
+          "1": "Aumenta o Impulso de DEF em {0}%.",
+          "2": "Aumenta o Impulso de DEF em {0}%."
+        },
+        "light": "A Vel de ATQ aumenta em 300",
+        "dark": "Quando o PV cair abaixo de {0}%, o efeito das habilidades aumenta em {1}%."
+      },
+      "t5": {
+        "light": "ATQ, DEF, PV+15% / Resist. CM +100",
+        "dark": "No início de cada batalha, reduz o DAN que inimigos não Heróis causam a todos os aliados, exceto Neraxis, em {1}% por {0} seg."
+      }
+    },
     "62": {
       "name": "Scarlet",
       "subtitle": "Fé de Prata",
@@ -6863,7 +7103,7 @@
       },
       "s1": {
         "name": "Pare!",
-        "description": "Causa {0} de DAN.F para os inimigos à frente e os derruba por 3 segundos. Recupera PV proporcional a 30% do DAN.",
+        "description": "Ataca todos os inimigos frontais, causando {0} de DAN F. e derrubando-os por 3 segundos. Se o alvo não for um Herói, causa {1} de DAN F. adicional. Cura uma quantidade de PV equivalente a 30% do DAN causado.",
         "books": {
           "0": "DAN aumenta em {0}%.",
           "1": "DAN aumenta em {0}%.",
@@ -6880,7 +7120,7 @@
           "1": "DAN aumenta em {0}%.",
           "2": "DAN aumenta em {0}%."
         },
-        "light": "Reduz o custo de mana em 1.",
+        "light": "Se o alvo não for um Herói, atordoa-o por 4 segundos.",
         "dark": "A Resistência Crit.F de todos aliados aumenta em 200 por 10 segundos.",
         "ut": {
           "name": "Asas da Justiça",
@@ -8060,12 +8300,12 @@
       "uw": {
         "name": "Gaiamenes, Onda de Proteção",
         "description": [
-          "Orgulho de Orvelia' acumula a cada uso de habilidades. Quando 'Orgulho de Orvelia não pode ser removido e, quando acumula 4 vezes, ativa 'Bênção de Orvelia', causando 200% de ATQ em forma de DAN F. a inimigos dentro de um amplo alcance, além de aumentar a Vulnerabilidade F. dos alvos em 25% durante 10 segundos. 'Bênção de Orvelia' também aumenta a DEF M. em 10% por 10 segundos. Enquanto 'Bênção de Orvelia' durar, 'Orgulho de Orvelia' não acumulará.",
-          "Pride of Orvelia' is stacked on every use of skills. 'Pride of Orvelia' cannot be dispelled, and when stacked 3 times, 'Blessing of Orvelia' is activated, dealing 240% of ATK as P.DMG to enemies within a wide range and increasing P.Weakness of the targets by 30% for 20 seconds. 'Blessing of Orvelia' also increases M.DEF by 12% for 10 seconds.",
-          "Pride of Orvelia' is stacked on every use of skills. 'Pride of Orvelia' cannot be dispelled, and when stacked 3 times, 'Blessing of Orvelia' is activated, dealing 290% of ATK as P.DMG to enemies within a wide range and increasing P.Weakness of the targets by 36% for 20 seconds. 'Blessing of Orvelia' also increases M.DEF by 14% for 10 seconds.",
-          "Pride of Orvelia' is stacked on every use of skills. 'Pride of Orvelia' cannot be dispelled, and when stacked 3 times, 'Blessing of Orvelia' is activated, dealing 350% of ATK as P.DMG to enemies within a wide range and increasing P.Weakness of the targets by 43% for 20 seconds. 'Blessing of Orvelia' also increases M.DEF by 17% for 10 seconds.",
-          "Pride of Orvelia' is stacked on every use of skills. 'Pride of Orvelia' cannot be dispelled, and when stacked 3 times, 'Blessing of Orvelia' is activated, dealing 420% of ATK as P.DMG to enemies within a wide range and increasing P.Weakness of the targets by 51% for 20 seconds. 'Blessing of Orvelia' also increases M.DEF by 21% for 10 seconds.",
-          "Pride of Orvelia' is stacked on every use of skills. 'Pride of Orvelia' cannot be dispelled, and when stacked 3 times, 'Blessing of Orvelia' is activated, dealing 500% of ATK as P.DMG to enemies within a wide range and increasing P.Weakness of the targets by 60% for 20 seconds. 'Blessing of Orvelia' also increases M.DEF by 25% for 10 seconds."
+          "Orgulho de Orvelia' acumula a cada uso de habilidades. Quando 'Orgulho de Orvelia não pode ser removido e, quando acumula 4 vezes, ativa 'Bênção de Orvelia', causando 200% de ATQ em forma de DAN F. a inimigos dentro de um amplo alcance, além de aumentar a Vulnerabilidade F. dos alvos em 25% durante 10 segundos. 'Bênção de Orvelia' também aumenta a DEF M. em 10% por 10 segundos.",
+          "Orgulho de Orvelia' acumula a cada uso de habilidades. Quando 'Orgulho de Orvelia não pode ser removido e, quando acumula 4 vezes, ativa 'Bênção de Orvelia', causando 240% de ATQ em forma de DAN F. a inimigos dentro de um amplo alcance, além de aumentar a Vulnerabilidade F. dos alvos em 30% durante 10 segundos. 'Bênção de Orvelia' também aumenta a DEF M. em 12% por 10 segundos.",
+          "Orgulho de Orvelia' acumula a cada uso de habilidades. Quando 'Orgulho de Orvelia não pode ser removido e, quando acumula 4 vezes, ativa 'Bênção de Orvelia', causando 290% de ATQ em forma de DAN F. a inimigos dentro de um amplo alcance, além de aumentar a Vulnerabilidade F. dos alvos em 36% durante 10 segundos. 'Bênção de Orvelia' também aumenta a DEF M. em 14% por 10 segundos.",
+          "Orgulho de Orvelia' acumula a cada uso de habilidades. Quando 'Orgulho de Orvelia não pode ser removido e, quando acumula 4 vezes, ativa 'Bênção de Orvelia', causando 350% de ATQ em forma de DAN F. a inimigos dentro de um amplo alcance, além de aumentar a Vulnerabilidade F. dos alvos em 43% durante 10 segundos. 'Bênção de Orvelia' também aumenta a DEF M. em 17% por 10 segundos.",
+          "Orgulho de Orvelia' acumula a cada uso de habilidades. Quando 'Orgulho de Orvelia não pode ser removido e, quando acumula 4 vezes, ativa 'Bênção de Orvelia', causando 420% de ATQ em forma de DAN F. a inimigos dentro de um amplo alcance, além de aumentar a Vulnerabilidade F. dos alvos em 51% durante 10 segundos. 'Bênção de Orvelia' também aumenta a DEF M. em 21% por 10 segundos.",
+          "Orgulho de Orvelia' acumula a cada uso de habilidades. Quando 'Orgulho de Orvelia não pode ser removido e, quando acumula 4 vezes, ativa 'Bênção de Orvelia', causando 500% de ATQ em forma de DAN F. a inimigos dentro de um amplo alcance, além de aumentar a Vulnerabilidade F. dos alvos em 60% durante 10 segundos. 'Bênção de Orvelia' também aumenta a DEF M. em 25% por 10 segundos."
         ],
         "story": "A alabarda portada por uma antiga estátua guardiã que defende o portão do labirinto recém-descoberto no Subterrâneo Real. A velha estátua corroída estava segurando a alabarda firmemente nas mãos, como se demonstrasse sua determinação em proteger o labirinto contra intrusos. Loman, que estava encarregado da escavação do labirinto, sentiu algo indescritivelmente sublime vindo da estátua e demonstrou a devida cortesia diante dela. Naquele momento, a estátua soltou a alabarda no chão e começou a se despedaçar. A alabarda em si não parecia ter sido afetada pelo tempo e estava imbuída de uma energia misteriosa. 'A estátua desmoronou de repente e largou a alabarda...' disse Scarlet, olhando o relatório. 'Sim, senhora.' Então, Scarlet olhou para Loman. 'A sinceridade inabalável de proteger um lugar até o seu próprio corpo desmoronar... Conheço um homem assim...' 'Como é, senhora?' Ele olhou para Scarlet com uma expressão confusa enquanto ela, sorrindo, entregava-lhe a alabarda."
       },

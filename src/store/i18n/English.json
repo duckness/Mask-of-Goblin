@@ -550,7 +550,7 @@
         "ATK Spd is increased by 165",
         "ATK Spd is increased by 200"
       ],
-      "story": "A mysterious item that was made in the form of a chick to celebrate a festival for children. It's great for helping one calm down."
+      "story": "A small chick figure toy that represents the innocence of children."
     },
     "59": {
       "name": "Cooling Delicacy in the Summer",
@@ -615,7 +615,7 @@
       },
       "s1": {
         "name": "Judgement Blade",
-        "description": "Deals {0} P.DMG to enemies in range, knocking them down for {1} sec.",
+        "description": "Deals {0} P.DMG 2 times to frontal enemies in a circle and knocks them down for {1} sec.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -626,7 +626,7 @@
       },
       "s2": {
         "name": "Valiant Dash",
-        "description": "Deals {0} P.DMG to enemies in range.",
+        "description": "Attacks the target 3 times, and then charges behind them to deal {0} P.DMG.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -769,7 +769,7 @@
       },
       "s3": {
         "name": "Heaven's Vengeance",
-        "description": "Deals {0} M.DMG to enemies in range, blinding them for {1} sec.",
+        "description": "Attacks the target and the enemies near it 6 times, dealing a total of {0} M.DMG and blinding them for {1} sec.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -792,7 +792,7 @@
       },
       "s4": {
         "name": "Goddess Grace",
-        "description": "M.DEF of an ally is increased by {1} for {0} sec.",
+        "description": "Increases M.DEF of 1 ally with the lowest HP by {1} for {0} sec every 15 sec.",
         "books": {
           "0": "M.DEF boost is increased by {0}%.",
           "1": "M.DEF boost is increased by {0}%.",
@@ -855,7 +855,7 @@
       },
       "s1": {
         "name": "Fire Needle",
-        "description": "Randomly deals {0} M.DMG to max 5 enemies, and upon each attack inflicts 1 stack of Ember that deals M.DMG over time.",
+        "description": "Attacks a random enemy 5 times, dealing a total of {0} M.DMG and inflicting 1 stack of Ember on the hit enemy.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -866,7 +866,7 @@
       },
       "s2": {
         "name": "Fire Ball",
-        "description": "Deals {0} M.DMG to enemies in range and Stuns them for 2 sec. Per every stacked Ember, DMG is increased by {1}%.",
+        "description": "Attacks the target and the enemies near it, dealing {0} M.DMG and stunning them for 2 sec. Deals {2} additional M.DMG for each stack of Ember on the enemy.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -889,7 +889,7 @@
       },
       "s3": {
         "name": "Fire Rain",
-        "description": "Each attack deals {0} M.DMG to all enemies and stacks an Ember. Per every stacked Ember, DMG is increased by {1}%.",
+        "description": "Attacks all enemies 8 times, dealing a total of {0} M.DMG and inflicting 1 stack of Ember on them. Deals {1} additional M.DMG for each stack of Ember on the enemy.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -912,7 +912,7 @@
       },
       "s4": {
         "name": "Flame Diffusion",
-        "description": "Deals {0} M.DMG to 3 targets and nearby enemies, inflicting 1 stack of Ember. Decreases M.DEF of enemies affected by Ember by 5%.",
+        "description": "Gains a 20% chance to attack 3 random enemies upon landing normal attacks, dealing {0} M.DMG to the target and the enemies near it and inflicting 1 stack of Ember on them. Ember deals a total of {1} M.DMG over 20 sec, and reduces the target's M.DEF by 5%.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -975,7 +975,7 @@
       },
       "s1": {
         "name": "Merciless",
-        "description": "Attack 3 times at random, dealing a total of {0} P.DMG to enemies and inflicting Bleed. Bleed deals constant P.DMG over time, and can be stacked up to 3 times max.",
+        "description": "Attacks a random enemy 3 times, dealing a total of {0} P.DMG and inflicting 1 stack of Bleed on them that deals {2} P.DMG over {1} sec. Bleed can be stacked up to max 3 times.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -1032,7 +1032,7 @@
       },
       "s4": {
         "name": "Hack",
-        "description": "Upon a Crit auto attack, deals extra {0} P.DMG.",
+        "description": "If a normal attack is landed as a Critical Hit, attacks the target 6 times to deal a total of {0} additional P.DMG.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -1324,18 +1324,18 @@
       "uw": {
         "name": "Lakrak MK-1",
         "description": [
-          "Each auto attack has a 25% chance of increasing ATK Spd by 300 for 10 sec.",
-          "Each auto attack has a 25% chance of increasing ATK Spd by 360 for 10 sec.",
-          "Each auto attack has a 25% chance of increasing ATK Spd by 420 for 10 sec.",
-          "Each auto attack has a 25% chance of increasing ATK Spd by 510 for 10 sec.",
-          "Each auto attack has a 25% chance of increasing ATK Spd by 615 for 10 sec.",
-          "Each auto attack has a 25% chance of increasing ATK Spd by 750 for 10 sec."
+          "Gains a 25% chance to obtain a stack of Gunpowder upon attacking. Each stack of Gunpowder increases ATK by 3%, ATK Spd by 30, and DMG to non-Hero enemies by 3%. Gunpowder stacks up to 10 times and cannot be removed.",
+          "Gains a 25% chance to obtain a stack of Gunpowder upon attacking. Each stack of Gunpowder increases ATK by 3.6%, ATK Spd by 36, and DMG to non-Hero enemies by 3.6%. Gunpowder stacks up to 10 times and cannot be removed.",
+          "Gains a 25% chance to obtain a stack of Gunpowder upon attacking. Each stack of Gunpowder increases ATK by 4.3%, ATK Spd by 43, and DMG to non-Hero enemies by 4.3%. Gunpowder stacks up to 10 times and cannot be removed.",
+          "Gains a 25% chance to obtain a stack of Gunpowder upon attacking. Each stack of Gunpowder increases ATK by 5.1%, ATK Spd by 51, and DMG to non-Hero enemies by 5.1%. Gunpowder stacks up to 10 times and cannot be removed.",
+          "Gains a 25% chance to obtain a stack of Gunpowder upon attacking. Each stack of Gunpowder increases ATK by 6.2%, ATK Spd by 62, and DMG to non-Hero enemies by 6.2%. Gunpowder stacks up to 10 times and cannot be removed.",
+          "Gains a 25% chance to obtain a stack of Gunpowder upon attacking. Each stack of Gunpowder increases ATK by 7.5%, ATK Spd by 75, and DMG to non-Hero enemies by 7.5%. Gunpowder stacks up to 10 times and cannot be removed."
         ],
         "story": "The destructive yet artistic magnum opus of a quirky Goblin inventor. This single-hand cannon packs the maximum amount of firepower a single Goblin can physically handle. Despite the dangerous amount of gunpowder used, this weapon has fortunately not blown up yet."
       },
       "s1": {
         "name": "Rapid Fire",
-        "description": "Deals {0} P.DMG to enemies in range and knocks them back.",
+        "description": "Attacks all frontal enemies in a straight line, dealing {0} P.DMG and pushing them back. If the target is not a Hero, deals {1} additional P.DMG and stuns them for {2} sec.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -1924,24 +1924,24 @@
       "uw": {
         "name": "Ultimate Weapon, Leviathan",
         "description": [
-          "Deals P.DMG equal to 100% of ATK to the enemies inflicted by the Boooooom! skill at a 50% chance, and the target takes 20% more P.DMG for 5 seconds.",
-          "Deals P.DMG equal to 120% of ATK to the enemies inflicted by the Boooooom! skill at a 50% chance, and the target takes 24% more P.DMG for 5 seconds.",
-          "Deals P.DMG equal to 140% of ATK to the enemies inflicted by the Boooooom! skill at a 50% chance, and the target takes 29% more P.DMG for 5 seconds.",
-          "Deals P.DMG equal to 170% of ATK to the enemies inflicted by the Boooooom! skill at a 50% chance, and the target takes 35% more P.DMG for 5 seconds.",
-          "Deals P.DMG equal to 210% of ATK to the enemies inflicted by the Boooooom! skill at a 50% chance, and the target takes 42% more P.DMG for 5 seconds.",
-          "Deals P.DMG equal to 250% of ATK to the enemies inflicted by the Boooooom! skill at a 50% chance, and the target takes 50% more P.DMG for 5 seconds."
+          "Deals P.DMG equal to 100% of ATK to the enemies inflicted by the Boooooom! skill at a 50% chance, and the target takes 20% more P.DMG for 10 seconds.",
+          "Deals P.DMG equal to 120% of ATK to the enemies inflicted by the Boooooom! skill at a 50% chance, and the target takes 24% more P.DMG for 10 seconds.",
+          "Deals P.DMG equal to 140% of ATK to the enemies inflicted by the Boooooom! skill at a 50% chance, and the target takes 29% more P.DMG for 10 seconds.",
+          "Deals P.DMG equal to 170% of ATK to the enemies inflicted by the Boooooom! skill at a 50% chance, and the target takes 35% more P.DMG for 10 seconds.",
+          "Deals P.DMG equal to 210% of ATK to the enemies inflicted by the Boooooom! skill at a 50% chance, and the target takes 42% more P.DMG for 10 seconds.",
+          "Deals P.DMG equal to 250% of ATK to the enemies inflicted by the Boooooom! skill at a 50% chance, and the target takes 50% more P.DMG for 10 seconds."
         ],
         "story": "Back when Miruru reigned as the pirate empress, she was feared by sailors and a major threat to the naval forces of Orvelia and the empire. The cannons on her ship were especially terrifying to the Navy. The most powerful of them was the Leviathan, the ship's main cannon. After being cursed, she took one thing with her as she fled from her mutinous crew. Its value as a weapon is in fact far more valuable than any gold or loot. She took with her the Leviathan, the most powerful cannon in her arsenal. After numerous modifications, the once-terror of the sea now serves as a mobile artillery."
       },
       "s1": {
         "name": "Baaaam!",
-        "description": "Deals {0} P.DMG to enemies in range, and knocks them back.",
+        "description": "Deals {0} P.DMG to all enemies and pushes them back.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Mana cost is reduced by 1.",
+        "light": "Increase P.DMG that the target takes by 25% for 10 sec.",
         "dark": "Upon activation, ATK is increased by 35% for 10 sec."
       },
       "s2": {
@@ -1969,13 +1969,13 @@
       },
       "s3": {
         "name": "Miruru Pirates!",
-        "description": "Deals {1} P.DMG to enemies in range for {0} sec, reducing their Spd by {2}%.",
+        "description": "Attacks a random target and the enemies near it 5 times, dealing a total of {1} P.DMG and reducing their ATK Spd by {2}. If the target is not a Hero, deals {3} additional P.DMG.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "DMG is increased by 40%.",
+        "light": "If there is 1 enemy, DMG is increased by 100%.",
         "dark": "Removes ATK Spd debuff effect and adds a 3 sec Stun.",
         "ut": {
           "name": "Miruru Cannonball",
@@ -2712,7 +2712,7 @@
       },
       "s4": {
         "name": "Chill of Early Dawn",
-        "description": "Every {0} sec, deals {1} M.DMG to 3 enemies and inflicts Frost.",
+        "description": "Deals {1} M.DMG to 3 enemies every {0} sec and inflicts Frost on them to reduce their ATK Spd by 100 for 8 sec.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -2764,12 +2764,12 @@
       "uw": {
         "name": "The Blue Light, Arpheus",
         "description": [
-          "Each block has a 10% chance of recovering 3% of mana and reducing all skill cooldown by 1 sec.",
-          "Each block has a 13% chance of recovering 3% of mana and reducing all skill cooldown by 1 sec.",
-          "Each block has a 16% chance of recovering 3% of mana and reducing all skill cooldown by 1 sec.",
-          "Each block has a 19% chance of recovering 3% of mana and reducing all skill cooldown by 1 sec.",
-          "Each block has a 22% chance of recovering 3% of mana and reducing all skill cooldown by 1 sec.",
-          "Each block has a 25% chance of recovering 3% of mana and reducing all skill cooldown by 1 sec."
+          "Increases P.DEF of all allies by 4%. Blocking an enemy attack has a 10% chance to recover 3% Mana and reduce Cooldown of all skills by 1 sec.",
+          "Increases P.DEF of all allies by 4.8%. Blocking an enemy attack has a 12% chance to recover 3.3% Mana and reduce Cooldown of all skills by 1 sec.",
+          "Increases P.DEF of all allies by 5.8%. Blocking an enemy attack has a 14% chance to recover 3.6% Mana and reduce Cooldown of all skills by 1 sec.",
+          "Increases P.DEF of all allies by 7%. Blocking an enemy attack has a 17% chance to recover 3.9% Mana and reduce Cooldown of all skills by 1 sec.",
+          "Increases P.DEF of all allies by 8.4%. Blocking an enemy attack has a 21% chance to recover 4.2% Mana and reduce Cooldown of all skills by 1 sec.",
+          "Increases P.DEF of all allies by 10%. Blocking an enemy attack has a 25% chance to recover 4.5% Mana and reduce Cooldown of all skills by 1 sec."
         ],
         "story": "One day, a vein exuding powerful mana was discovered in the territory of Ziltrion. While investigating, Demia found a blue ore, the likes of which she had never seen before. Numerous wizards and alchemists studied this mysterious ore with the characteristics of both gem and metal, but no one could figure out its identity. Jin the blacksmith, however, had a different idea. As soon as he saw the ore, he offered Demia to craft powerful gears out of it, with a big smile on his face. With it, he forged a lance and a shield, glowing blue with mana and tougher than diamond."
       },
@@ -2792,7 +2792,7 @@
           "1": "DMG is increased by {0}%.",
           "2": "Enemy ATK reduction is increased by {0}%."
         },
-        "light": "Deals extra P.DMG based on P.DEF.",
+        "light": "Mana cost is reduced by 1.",
         "dark": "Ally P.DEF is boosted by 20% for 10 sec after activation.",
         "ut": {
           "name": "Shield of Resolution",
@@ -2884,12 +2884,12 @@
       "uw": {
         "name": "Cursed Claws, Baroro",
         "description": [
-          "Upon a Crit Hit, deals 100% of ATK as P.DMG over time for 10sec. Target takes 20% increased P.DMG for the duration of skill.",
-          "Upon a Crit Hit, deals 120% of ATK as P.DMG over time for 10sec. Target takes 24% increased P.DMG for the duration of skill.",
-          "Upon a Crit Hit, deals 144% of ATK as P.DMG over time for 10sec. Target takes 28% increased P.DMG for the duration of skill.",
-          "Upon a Crit Hit, deals 172% of ATK as P.DMG over time for 10sec. Target takes 34% increased P.DMG for the duration of skill.",
-          "Upon a Crit Hit, deals 207% of ATK as P.DMG over time for 10sec. Target takes 41% increased P.DMG for the duration of skill.",
-          "Upon a Crit Hit, deals 250% of ATK as P.DMG over time for 10sec. Target takes 50% increased P.DMG for the duration of skill."
+          "Upon a Crit Hit, deals 150% of ATK as P.DMG over time for 10sec. Target takes 20% increased P.DMG for the duration of skill.",
+          "Upon a Crit Hit, deals 180% of ATK as P.DMG over time for 10sec. Target takes 24% increased P.DMG for the duration of skill.",
+          "Upon a Crit Hit, deals 216% of ATK as P.DMG over time for 10sec. Target takes 28% increased P.DMG for the duration of skill.",
+          "Upon a Crit Hit, deals 258% of ATK as P.DMG over time for 10sec. Target takes 34% increased P.DMG for the duration of skill.",
+          "Upon a Crit Hit, deals 310% of ATK as P.DMG over time for 10sec. Target takes 41% increased P.DMG for the duration of skill.",
+          "Upon a Crit Hit, deals 500% of ATK as P.DMG over time for 10sec. Target takes 50% increased P.DMG for the duration of skill."
         ],
         "story": "A cursed pair of gauntlets crafted from the claws of the Mad Demon Baroro, which was defeated during the war. Several times the size of the average human hands, these gauntlets directly connect to the nerves of the wearer, allowing the wielder to control them effortlessly. Although they grant immense power, they also break into the mind of the wearer, slowing eating away at the soul. Only a true warrior of noble conviction, strong will and undying spirit may handle these cursed weapons. They are the perfect weapons for a warrior with a strong will that shines even in the darkness of the abyss."
       },
@@ -3244,12 +3244,12 @@
       "uw": {
         "name": "God's Book, Genesis",
         "description": [
-          "Every 30 sec, for 10 sec, a random ally's ATK is increased by 40%, and Crit Chance, ATK Spd is increased by 400.",
-          "Every 30 sec, for 10 sec, a random ally's ATK is increased by 48%, and Crit Chance, ATK Spd is increased by 480.",
-          "Every 30 sec, for 10 sec, a random ally's ATK is increased by 57%, and Crit Chance, ATK Spd is increased by 570.",
-          "Every 30 sec, for 10 sec, a random ally's ATK is increased by 69%, and Crit Chance, ATK Spd is increased by 690.",
-          "Every 30 sec, for 10 sec, a random ally's ATK is increased by 83%, and Crit Chance, ATK Spd is increased by 830",
-          "Every 30 sec, for 10 sec, a random ally's ATK is increased by 100%, and Crit Chance, ATK Spd is increased by 1000."
+          "Increases the casting speed of all skills, and upon every skill use, increases ATK by 2% and DEF by 2% for all allies. This effect can stack up to 7 times.",
+          "Increases the casting speed of all skills, and upon every skill use, increases ATK by 2.4% and DEF by 2.4% for all allies. This effect can stack up to 7 times.",
+          "Increases the casting speed of all skills, and upon every skill use, increases ATK by 2.9% and DEF by 2.9% for all allies. This effect can stack up to 7 times.",
+          "Increases the casting speed of all skills, and upon every skill use, increases ATK by 3.5% and DEF by 3.5% for all allies. This effect can stack up to 7 times.",
+          "Increases the casting speed of all skills, and upon every skill use, increases ATK by 4.2% and DEF by 4.2% for all allies. This effect can stack up to 7 times.",
+          "Increases the casting speed of all skills, and upon every skill use, increases ATK by 5% and DEF by 5% for all allies. This effect can stack up to 7 times."
         ],
         "story": "Even among the holy relics bestowed to the high priests of the Church of Lua, the God's Book Genesis is special. According to the legend, this book, guarded throughout the ages by the Grand Priests of the church, was written by Lua herself. Iris, the current Grand Priest, upon receiving a revelation regarding Baudouin, entrusted this book to his step father, Berman. Later, the book was given to Baudouin when he became a high priest. It is said that this divine relic provides infinite holy energy to its owner, along with the power to unlock the true potential of those who have faith."
       },
@@ -3295,7 +3295,7 @@
           "1": "Heal rate is increased by {0}%.",
           "2": "ATK Spd is increased by {0} for the duration of skill."
         },
-        "light": "Invincibility duration is increased by 1.5 sec.",
+        "light": "Mana cost is reduced by 1.",
         "dark": "In exchange for 2 additional Mana Cost and a 3 sec reduction of Invincibility duration, all allies gain 50% ATK.",
         "ut": {
           "name": "Well-Worn Rosary",
@@ -3604,18 +3604,18 @@
       "uw": {
         "name": "Phoenix Quill, Belisa",
         "description": [
-          "Each auto attack has a 10% chance of dealing 100% extra M.DMG, and dispelling all positive effects",
-          "Each auto attack has a 12% chance of dealing 100% extra M.DMG, and dispelling all positive effects",
-          "Each auto attack has a 14% chance of dealing 100% extra M.DMG, and dispelling all positive effects",
-          "Each auto attack has a 17% chance of dealing 100% extra M.DMG, and dispelling all positive effects",
-          "Each auto attack has a 20% chance of dealing 100% extra M.DMG, and dispelling all positive effects",
-          "Each auto attack has a 25% chance of dealing 100% extra M.DMG, and dispelling all positive effects"
+          "At the beginning of each battle, increases P.DEF and M.DEF by 20%, ATK Spd by 200 for 15 sec, and adds an additional effect to the first skill used. Rune of Frailty - Increases Crit Chance by 500. Rune of Healing - Dispels CC inflicted on caster before the skill is cast. Rune of Silence - Increases Silence duration by 1 sec.",
+          "At the beginning of each battle, increases P.DEF and M.DEF by 24%, ATK Spd by 240 for 15 sec, and adds an additional effect to the first skill used. Rune of Frailty - Increases Crit Chance by 500. Rune of Healing - Dispels CC inflicted on caster before the skill is cast. Rune of Silence - Increases Silence duration by 1 sec.",
+          "At the beginning of each battle, increases P.DEF and M.DEF by 29%, ATK Spd by 290 for 15 sec, and adds an additional effect to the first skill used. Rune of Frailty - Increases Crit Chance by 500. Rune of Healing - Dispels CC inflicted on caster before the skill is cast. Rune of Silence - Increases Silence duration by 1 sec.",
+          "At the beginning of each battle, increases P.DEF and M.DEF by 35%, ATK Spd by 350 for 15 sec, and adds an additional effect to the first skill used. Rune of Frailty - Increases Crit Chance by 500. Rune of Healing - Dispels CC inflicted on caster before the skill is cast. Rune of Silence - Increases Silence duration by 1 sec.",
+          "At the beginning of each battle, increases P.DEF and M.DEF by 42%, ATK Spd by 420 for 15 sec, and adds an additional effect to the first skill used. Rune of Frailty - Increases Crit Chance by 500. Rune of Healing - Dispels CC inflicted on caster before the skill is cast. Rune of Silence - Increases Silence duration by 1 sec.",
+          "At the beginning of each battle, increases P.DEF and M.DEF by 50%, ATK Spd by 500 for 15 sec, and adds an additional effect to the first skill used. Rune of Frailty - Increases Crit Chance by 500. Rune of Healing - Dispels CC inflicted on caster before the skill is cast. Rune of Silence - Increases Silence duration by 1 sec."
         ],
         "story": "The phoenix is a holy beast that symbolizes eternal life. As elusive as the beast itself is, its feather is considered extremely rare as well. It is said that a quill crafted from a phoenix feather is a powerful magical tool in its own right. Runes drawn with this quill can serve as a powerful medium for Rune Magic."
       },
       "s1": {
         "name": "Rune of Frailty",
-        "description": "Engraves a rune on target enemy, reducing {1}% P.DEF for {0} sec. After {2} sec, deals max {3} M.DMG proportional to lost HP, ignoring DEF.",
+        "description": "Engraves a rune on the target, dealing up to {3} P.DMG that ignores DEF based on missing HP and reducing their P.DEF by {1}% for {0} sec.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -3649,13 +3649,13 @@
       },
       "s3": {
         "name": "Rune of Silence",
-        "description": "Deals {0} M.DMG to all enemies, and dispels all positive effects. Inflicts Silences on target for {1} sec.",
+        "description": "Deals {0} P.DMG to all enemies, and dispels all positive effects. Inflicts Silences on target for {1} sec.",
         "books": {
           "0": "Silence duration is increased by {0} sec.",
           "1": "Silence duration is increased by {0} sec.",
           "2": "Silence duration is increased by {0} sec."
         },
-        "light": "Silence duration boosted by 1 sec.",
+        "light": "Mana cost is reduced by 1.",
         "dark": "DMG is increased by 200% and the enemy target receives 20% more DMG from all sources for 10 sec. Mana cost is increased by 2.",
         "ut": {
           "name": "Scroll of Memories",
@@ -3724,24 +3724,24 @@
       "uw": {
         "name": "Twinswords of Fury, Veralta",
         "description": [
-          "Every 7 sec, for 30 sec, ATK is increased by 12% and ATK Spd is increased by 120. Can be stacked up to 3 times max.",
-          "Every 7 sec, for 30 sec, ATK is increased by 14% and ATK Spd is increased by 140. Can be stacked up to 3 times max.",
-          "Every 7 sec, for 30 sec, ATK is increased by 17% and ATK Spd is increased by 170. Can be stacked up to 3 times max.",
-          "Every 7 sec, for 30 sec, ATK is increased by 20% and ATK Spd is increased by 200. Can be stacked up to 3 times max.",
-          "Every 7 sec, for 30 sec, ATK is increased by 25% and ATK Spd is increased by 250. Can be stacked up to 3 times max.",
-          "Every 7 sec, for 30 sec, ATK is increased by 30% and ATK Spd is increased by 300. Can be stacked up to 3 times max."
+          "Increases ATK by 12% and ATK Spd by 120 for 30 sec every 7 sec. This effect can stack up to 3 times and cannot be removed.",
+          "Increases ATK by 14% and ATK Spd by 140 for 30 sec every 7 sec. This effect can stack up to 3 times and cannot be removed.",
+          "Increases ATK by 17% and ATK Spd by 170 for 30 sec every 7 sec. This effect can stack up to 3 times and cannot be removed.",
+          "Increases ATK by 20% and ATK Spd by 200 for 30 sec every 7 sec. This effect can stack up to 3 times and cannot be removed.",
+          "Increases ATK by 25% and ATK Spd by 250 for 30 sec every 7 sec. This effect can stack up to 3 times and cannot be removed.",
+          "Increases ATK by 30% and ATK Spd by 300 for 30 sec every 7 sec. This effect can stack up to 3 times and cannot be removed."
         ],
         "story": "A set of enchanted weapons bestowed upon Fluss's grandfather, a knight hailing from the Republic of Gray, and passed down as family treasures. They are capable of gradually enhancing the physical abilities of their wielder, allowing him to break the boundaries of human limitations and gain supernatural power and speed. Because the effect is gradual, there is no sudden stress to the wielder's body. Each piece is called Blood and Rose, respectively. The names originated from the swirl of blood splatter and flower petals that follow whenever Fluss swings these twin swords. No other warrior has been able to utilize their potential as Fluss does."
       },
       "s1": {
         "name": "Tempest Blade",
-        "description": "Deal {0} P.DMG to target enemy and other enemies in the vicinity.",
+        "description": "Attacks the target and the enemies near it 3 times, dealing a total of {0} P.DMG. If the target is not a Hero, inflicts a total of {1} additional P.DMG over 5 sec.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
-          "2": "Crit Chance is increased by {0}."
+          "2": "DMG is increased by {0}%."
         },
-        "light": "DMG is increased by 40%.",
+        "light": "Ignores DEF when there is only 1 enemy.",
         "dark": "Upon a Crit Hit, cooldown is reduced by 6%."
       },
       "s2": {
@@ -3769,11 +3769,11 @@
       },
       "s3": {
         "name": "Bloody Petals",
-        "description": "Deals {0} P.DMG upon an enemy, and restricts the target while casting the skill.",
+        "description": "Deals a total of {0} P.DMG to an enemy over 16 hits, and suppresses the target while casting. This DMG ignores the target's Block effects.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
-          "2": "Crit Chance is increased by {0}."
+          "2": "DMG is increased by {0}%."
         },
         "light": "Each Critical Hit increases the last hit's DMG by 10%.",
         "dark": "While in cooldown, auto attack DMG is boosted by 50%.",
@@ -4684,12 +4684,12 @@
       "uw": {
         "name": "Light of Judgment, Theoria",
         "description": [
-          "When allies excluding self take DMG, there is a 10% chance to turn 320% of ATK as a shield for 5 sec. This effect is activated once every 5 sec.",
-          "When allies excluding self take DMG, there is a 12% chance to turn 384% of ATK as a shield for 5 sec. This effect is activated once every 5 sec.",
-          "When allies excluding self take DMG, there is a 14% chance to turn 460% of ATK as a shield for 5 sec. This effect is activated once every 5 sec.",
-          "When allies excluding self take DMG, there is a 17% chance to turn 552% of ATK as a shield for 5 sec. This effect is activated once every 5 sec.",
-          "When allies excluding self take DMG, there is a 20% chance to turn 660% of ATK as a shield for 5 sec. This effect is activated once every 5 sec.",
-          "When allies excluding self take DMG, there is a 25% chance to turn 800% of ATK as a shield for 5 sec. This effect is activated once every 5 sec."
+          "When an ally other than the caster takes DMG, there is a 10% chance that a shield is cast upon them to absorb DMG equal to 320% of ATK for 5 sec while granting immunity to CC. This effect does not trigger more than once in 5 sec.",
+          "When an ally other than the caster takes DMG, there is a 12% chance that a shield is cast upon them to absorb DMG equal to 384% of ATK for 5 sec while granting immunity to CC. This effect does not trigger more than once in 5 sec.",
+          "When an ally other than the caster takes DMG, there is a 14% chance that a shield is cast upon them to absorb DMG equal to 460% of ATK for 5 sec while granting immunity to CC. This effect does not trigger more than once in 5 sec.",
+          "When an ally other than the caster takes DMG, there is a 17% chance that a shield is cast upon them to absorb DMG equal to 552% of ATK for 5 sec while granting immunity to CC. This effect does not trigger more than once in 5 sec.",
+          "When an ally other than the caster takes DMG, there is a 20% chance that a shield is cast upon them to absorb DMG equal to 660% of ATK for 5 sec while granting immunity to CC. This effect does not trigger more than once in 5 sec.",
+          "When an ally other than the caster takes DMG, there is a 25% chance that a shield is cast upon them to absorb DMG equal to 800% of ATK for 5 sec while granting immunity to CC. This effect does not trigger more than once in 5 sec."
         ],
         "story": "When the Holy Sword Aea was bestowed upon Kyle, it appeared in the Temple of Lua located north of the King's Plains. When Kyle removed the sword from the altar, it released a powerful wave of light that turned the entire vicinity into a sacred ground. Everything contained within the Temple was turned into holy relics. Teoria, the central pillar of the Temple, absorbed the greatest amount of holy energy of them all."
       },
@@ -4763,7 +4763,7 @@
       },
       "t5": {
         "light": "ATK, DEF, HP+15% / P. Block +200",
-        "dark": "When own HP goes below 30%, HP does not go under 10% for 10 sec, and all allies' ATK is increased by 50% of own M.DEF. This effect is activated once every 60 sec."
+        "dark": "When own HP goes below 40%, HP does not go under 10% for 6 sec, and all allies' ATK is increased by 50% of own M.DEF. This effect is activated once every 60 sec."
       }
     },
     "37": {
@@ -4804,29 +4804,29 @@
       "uw": {
         "name": "Demon of the Calm, Caethasis",
         "description": [
-          "Each auto attack has a 10% chance to deal 140% of ATK as extra P.DMG to target, and turns into Stealth mode for 10 sec. Cooldown is 10 sec.",
-          "Each auto attack has a 12% chance to deal 170% of ATK as extra P.DMG to target, and turns into Stealth mode for 10 sec. Cooldown is 10 sec.",
-          "Each auto attack has a 14% chance to deal 200% of ATK as extra P.DMG to target, and turns into Stealth mode for 10 sec. Cooldown is 10 sec.",
-          "Each auto attack has a 17% chance to deal 240% of ATK as extra P.DMG to target, and turns into Stealth mode for 10 sec. Cooldown is 10 sec.",
-          "Each auto attack has a 20% chance to deal 290% of ATK as extra P.DMG to target, and turns into Stealth mode for 10 sec. Cooldown is 10 sec.",
-          "Each auto attack has a 25% chance to deal 350% of ATK as extra P.DMG to target, and turns into Stealth mode for 10 sec. Cooldown is 10 sec."
+          "Each auto attack has a 10% chance to deal 200% of ATK as extra P.DMG to target, and turns into Stealth mode for 10 sec. Cooldown is 10 sec.",
+          "Each auto attack has a 12% chance to deal 240% of ATK as extra P.DMG to target, and turns into Stealth mode for 10 sec. Cooldown is 10 sec.",
+          "Each auto attack has a 14% chance to deal 290% of ATK as extra P.DMG to target, and turns into Stealth mode for 10 sec. Cooldown is 10 sec.",
+          "Each auto attack has a 17% chance to deal 350% of ATK as extra P.DMG to target, and turns into Stealth mode for 10 sec. Cooldown is 10 sec.",
+          "Each auto attack has a 20% chance to deal 420% of ATK as extra P.DMG to target, and turns into Stealth mode for 10 sec. Cooldown is 10 sec.",
+          "Each auto attack has a 25% chance to deal 500% of ATK as extra P.DMG to target, and turns into Stealth mode for 10 sec. Cooldown is 10 sec."
         ],
         "story": "The Demon War dates back to 100 years ago. During this war, the greatest threat to mankind was, without a doubt, the high-ranking Demon officers. Kaitasis, the Demon of the Calm, was especially dangerous among them. Countless wizards and priests were slaughtered by this Demon who specifically targeted magic users for their souls. Eventually, Kaitasis was defeated by Kyle, and its core was sealed away. However, years later, the core came into the possession of the Laughing Mask and it once again served as an instrument of death."
       },
       "s1": {
         "name": "Target Sighted",
-        "description": "Moves behind the enemy with the lowest P.DEF and increase their P.DMG taken by {0}%, while knocking them down and inflicting {1} P.DMG. If in a Stealth state, stun said enemy for 6 sec. If not, gain Stealth for 10 sec. While in a Stealth State, Crit Rate and Dodge Rate rises by 200.",
+        "description": "Moves behind the enemy with the lowest P.DEF and increase their P.DMG taken by {0}%, while knocking them down and inflicting {1} P.DMG. If in a Stealth state, stun said enemy for 6 sec. If not, gain Stealth for 10 sec. While in a Stealth State, Crit Rate and Dodge Rate rises by 50.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
           "2": "Crit Chance is increased by {0}."
         },
-        "light": "DMG is increased by 40%.",
+        "light": "Reduces the target's Heal Rate by 30%.",
         "dark": "For 10 sec, target's P.Crit resistance is reduced by 250."
       },
       "s2": {
         "name": "Blade Tornado",
-        "description": "Attacks nearby enemies 3 times and deals a total of {0} P.DMG, inflicting 1 stack of Bleed per each hit. If used in a Stealth state, target's heal rate is reduced by 70%, and Stealth is dispelled. If not, turns into Stealth mode for 10 sec. [Stealth] Crit Rate and Dodge Rate are increased by 200.",
+        "description": "Attacks nearby enemies 3 times and deals a total of {0} P.DMG, inflicting 1 stack of Bleed per each hit. If used in a Stealth state, target's heal rate is reduced by 70%, and Stealth is dispelled. If not, turns into Stealth mode for 10 sec. [Stealth] Crit Rate and Dodge Rate are increased by 50.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -4849,7 +4849,7 @@
       },
       "s3": {
         "name": "Whisper of Death",
-        "description": "Attacks random enemies 6 times and deals a total of {0} P.DMG, then deals one additional attack of {1} extra P.DMG. If used in Stealth state, dispels all enemies' buffs. If not, turns into Stealth mode for 10 sec. [Stealth] Crit Rate and Dodge Rate are increased by 200.",
+        "description": "Attacks random enemies 6 times and deals a total of {0} P.DMG, then deals one additional attack of {1} extra P.DMG. If used in Stealth state, dispels all enemies' buffs. If not, turns into Stealth mode for 10 sec. [Stealth] Crit Rate and Dodge Rate are increased by 50.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -4872,14 +4872,14 @@
       },
       "s4": {
         "name": "Silent Ambush",
-        "description": "Upon a Crit Hit, deals {0} extra P.DMG and inflicts Silence for {1} sec.",
+        "description": "Deals {0} additional P.DMG to the enemy and silences them for {1} sec upon a Critical Hit with the skill. If the target is not a Hero, deals {2} additional P.DMG that ignores DEF and reduces the target's ATK Spd by {4} for {3} sec.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
           "2": "Silence duration is increased by {0} sec."
         },
-        "light": "DMG is increased by 40%.",
-        "dark": "Silence duration is increased by 2 sec when there is only 1 enemy."
+        "light": "Increases additional DMG against non-Hero enemies by 100%.",
+        "dark": "Increases Silence duration by 0.5 sec."
       },
       "t5": {
         "light": "ATK, DEF, HP+15% / Crit DMG +20%",
@@ -5242,7 +5242,7 @@
         "dark": "Stun duration is increased by 0.2 sec."
       },
       "t5": {
-        "light": "ATK, DEF, HP+15% / ATK.Spd +100",
+        "light": "ATK, DEF, HP+15% / Crit Chance +100",
         "dark": "When 'God of Lightning' is activated, recovers half mana instead. When mana is full, ATK is increased by 50% for 10 sec. This effect only activates once every 20 sec."
       }
     },
@@ -6015,7 +6015,7 @@
       },
       "s1": {
         "name": "Card of Death - Carta",
-        "description": "Attacks enemy target, dealing {0} M.DMG and inflicting Stun for {1} sec. Consumes the card in possession to inflict additional effects. Upon using the skill, gains the card of [Death]. [Death] - DMG ignores target's DEF and Stun duration increases by 5 sec. [Love] - Deals a total of {2} M.DMG over time for 7 sec and reduces heal rate by 100%. [Fortune] - Skill Cooldown does not take effect.",
+        "description": "Attacks enemy target, dealing {0} M.DMG and inflicting Stun for {1} sec. Consumes the card in possession to inflict additional effects. Upon using the skill, gains the card of [Death]. [Death] - DMG ignores target's DEF and Stun duration increases by 5 sec. [Love] - Deals a total of {2} M.DMG over time for 10 sec and reduces heal rate by 100%. [Fortune] - Skill Cooldown does not take effect.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -6026,7 +6026,7 @@
       },
       "s2": {
         "name": "Card of Love - Elliciad",
-        "description": "ATK is increased by {1} for {0} sec and Mana recovery per sec is increased by {2}%. Consumes the card in possession to inflict additional effects. Upon using the skill, gains the card of [Love]. [Death] - Penetration is increased by 600 for the duration of skill. [Love] - Grants effect to all allies. [Fortune] - Skill Cooldown does not take effect.",
+        "description": "Increases ATK by {1} for {0} sec and Mana Recovery/Sec by {2}%. Consumes a card in possession to gain an additional effect according to the card type. Gains [Love] card upon use. [Death] - DEF Penetration increases by 600 for the duration of skill and gains immunity to CC for 6 sec. [Love] - The effect applies to all allies. [Luck] - Cooldown does not apply.",
         "books": {
           "0": "ATK boost is increased by {0}%.",
           "1": "ATK boost is increased by {0}%.",
@@ -6049,7 +6049,7 @@
       },
       "s3": {
         "name": "Card of Fortune - Vellekia",
-        "description": "Attacks target enemy and nearby enemies in range and deals {0} M.DMG. This attack does not miss, and this attack's Crit DMG is increased by 100%. Upon using the skill, gains the card of [Fortune]. [Death] - Crit DMG is increased by additional 200%. [Love] - Dispels positive effects of enemies in range and inflics Silence for 1 sec. [Fortune] - Skill Cooldown does not take effect and recovers 1 orb of mana.",
+        "description": "Attacks the target and the enemies near it to deal {0} M.DMG. This attack cannot miss and deals 100% increased Crit DMG. Gains [Luck] card upon use. [Death] - Crit DMG increases by 120%. [Love] - Removes all positive effects from enemies in range and silences them for 2 sec. [Luck] - Cooldown does not apply. Recovers 1 orb of Mana.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -6566,13 +6566,133 @@
         "dark": "All effects of curse are enhanced. [Curse of Petrification] Petrification duration is increased by 2 sec. [Curse of Time] Curse of Time duration is increased by 3 sec. [Curse of Pain] Curse of Pain DOT is increased by 50%."
       }
     },
+    "56": {
+      "name": "Erze",
+      "subtitle": "Endless thirst",
+      "description": "She was a vampire hunter, just as her sister Seria was. However, corrupted by her own power, she slaughtered her comrades and chose to become a vampire herself. After killing and absorbing the powers of the high vampire who turned her, she slipped away from Seria, her older sister and the only survivor, and moved to Orvelia.",
+      "story": "Born the second daughter of the Shadow Hilt family, Erze also chose to become a vampire hunter after her beloved sister Seria. Erze's feeble frame kept her from learning how to fight with swords, but she managed to become known as a hunter with her talents in magic. One day she fell into a trap during an operation and was bitten by a mysterious vampire on the shoulder. Her weak constitution grew worse, and she suffered from frequent headaches and thirst every night. Erze knew what this meant and what would end up happening to her. She hid the bite and tried to find a cure on her own, distancing herself from her comrades in her efforts. Meanwhile, Seria was dispatched to Windland Snow Mountain to investigate the Vampire Princess that went missing 100 years ago. On the day her sister left... - Ahh, Seria... I cannot control it anymore... Erze quietly and secretly started slitting the throats of her comrades.",
+      "like": "Seria as a sister, chocolate parfait, blood of the corrupted",
+      "dislike": "Seria as a vampire hunter, spiders",
+      "inn": {
+        "idle": "They all look so appetizing... *Moan*",
+        "recruit": {
+          "greet": "I know a thrilling game we can play together. How about it?",
+          "talk": [
+            "Why do you look so scared?",
+            "Why, are you afraid I'll bite you?",
+            "You've never felt thrill like this before, I guarantee you that."
+          ],
+          "gift": "Ha ha, there's no need for this... Why don't you just show me your neck?"
+        },
+        "affinity": {
+          "greet": "I've seen you before... Ah, ha ha. We meet again.",
+          "talk": [
+            "Vampires are nothing like demons. I'll admit those higher demons are decent, but the rest are pretty much worthless.",
+            "The blood of the corrupted tastes... It makes me feel ecstatic. Yes, ecstatic!"
+          ],
+          "gift": "You've got some good taste. And you look cuter every time I see you!"
+        },
+        "relationship": {
+          "greet": "I want you to have this to remember me by. It's the tooth of the one who bit me...",
+          "talk": [
+            "Hmm, that woman is still chasing after me... That woman... She... My sister... I miss her... But I also want to kill her... hee hee!",
+            "The one that came up last time. He was giving out his blood to other humans. Our blood is useless without our will in it. That means he was giving his blood by choice... I wonder what he received in return? I should have asked him about it before I killed him.",
+            "No, I'd never go back to how I was like back then. Tee hee, what, do you expect me to give up this thrill I'm feeling and return to those days of despair!? No, never! I won't go back... But... if I did go back... there would only be one reason why I'd do it... Yes... If I ever go back... It would be for her."
+          ]
+        }
+      },
+      "uw": {
+        "name": "Essence of Greed, Perion",
+        "description": [
+          "Each skill hit increases ATK and ATK Spd by 0.5% for 15 sec. This effect stacks up to 80 times.",
+          "Each skill hit increases ATK and ATK Spd by 0.5% for 15 sec. This effect stacks up to 90 times.",
+          "Each skill hit increases ATK and ATK Spd by 0.5% for 15 sec. This effect stacks up to 110 times.",
+          "Each skill hit increases ATK and ATK Spd by 0.5% for 15 sec. This effect stacks up to 130 times.",
+          "Each skill hit increases ATK and ATK Spd by 0.5% for 15 sec. This effect stacks up to 160 times.",
+          "Each skill hit increases ATK and ATK Spd by 0.5% for 15 sec. This effect stacks up to 200 times."
+        ],
+        "story": "When did this all begin...? This torment that comes with unending thirst... But after quenching that thirst... My heart throbs with burning hatred against you, Seria......Ah, Seria. I have no other choice. I need this power to satisfy this endless thirst. This ever-flowing essence of power is the only cure to my eternal torment. Ah... This ecstasy... More... Someone, thrill me more."
+      },
+      "s1": {
+        "name": "Sweet Blood",
+        "description": "Deals {0} P.DMG to all enemies and steals HP equal to {1}% of DMG dealt. Reduces Cooldown of [Sweet Blood] by {2} sec on each hit, and gains 1 stack of [Sweet Blood]. [Sweet Blood] can be stacked up to {3} times, and using the skill with {3} stacks of [Sweet Blood] grants {4} additional hits and removes [Sweet Blood] stacks.",
+        "books": {
+          "0": "DMG is increased by {0}%.",
+          "1": "DMG is increased by {0}%.",
+          "2": "DMG is increased by {0}%."
+        },
+        "light": "Recovers 150 Mana every hit.",
+        "dark": "Each use increases DMG by 10%. Stacks 30 times max."
+      },
+      "s2": {
+        "name": "Soaking Blood",
+        "description": "Dispels all negative effects and gains immunity to all CCs, P.DMG, and M.DMG for {0} sec. Inflicts 1 stack of [Soaking Blood] on all enemies, and additional 1 stack upon attacking a target with [Soaking Blood]. [Soaking Blood] can be stacked up to {1} times. Deals {2} P.DMG to enemies with [Soaking Blood] stacks after {0} sec, and steals HP equal to {3}% of the DMG dealt. For every {4} stack(s) of [Soaking Blood], hit count increases by 1 and removes [Soaking Blood] stacks upon attacking.",
+        "books": {
+          "0": "DMG is increased by {0}%.",
+          "1": "DMG is increased by {0}%.",
+          "2": "DMG is increased by {0}%."
+        },
+        "light": "Stuns the target for 3 sec upon hit.",
+        "dark": "Mana cost is reduced by 1.",
+        "ut": {
+          "name": "Wine of Shivers",
+          "description": [
+            "[Soaking Blood] Increases DMG of [Soaking Blood] by 50% and reduces Cooldown of [Soaking Blood] by 5 sec.",
+            "[Soaking Blood] Increases DMG of [Soaking Blood] by 50% and reduces Cooldown of [Soaking Blood] by 6 sec.",
+            "[Soaking Blood] Increases DMG of [Soaking Blood] by 50% and reduces Cooldown of [Soaking Blood] by 7 sec.",
+            "[Soaking Blood] Increases DMG of [Soaking Blood] by 50% and reduces Cooldown of [Soaking Blood] by 8 sec.",
+            "[Soaking Blood] Increases DMG of [Soaking Blood] by 50% and reduces Cooldown of [Soaking Blood] by 9 sec.",
+            "[Soaking Blood] Increases DMG of [Soaking Blood] by 50% and reduces Cooldown of [Soaking Blood] by 10 sec."
+          ],
+          "story": "A wine made by Erze herself with the blood of fallen priests. One of her greatest pleasures is forcing those once considered holy to kneel before her. Inside the bottle is a bloody cross, and those who hear Erze drinking the wine off it shiver and tremble as the sound of the cross clanging inside."
+        }
+      },
+      "s3": {
+        "name": "Blood Liberation",
+        "description": "Deals {2} P.DMG to all enemies every {1} sec for {0} sec. Each hit of [Blood Liberation] causes an additional hit on 1 random enemy.",
+        "books": {
+          "0": "DMG is increased by {0}%.",
+          "1": "DMG is increased by {0}%.",
+          "2": "DMG is increased by {0}%."
+        },
+        "light": "Recovers 75 Mana every hit.",
+        "dark": "Mana cost is increased by 1 orb but DMG is boosted by 100%.",
+        "ut": {
+          "name": "Lipstick of Shame",
+          "description": [
+            "[Blood Liberation] Increases DMG of [Blood Liberation] by 20% and gains immunity to CC for the duration of [Blood Liberation].",
+            "[Blood Liberation] Increases DMG of [Blood Liberation] by 24% and gains immunity to CC for the duration of [Blood Liberation].",
+            "[Blood Liberation] Increases DMG of [Blood Liberation] by 29% and gains immunity to CC for the duration of [Blood Liberation].",
+            "[Blood Liberation] Increases DMG of [Blood Liberation] by 35% and gains immunity to CC for the duration of [Blood Liberation].",
+            "[Blood Liberation] Increases DMG of [Blood Liberation] by 42% and gains immunity to CC for the duration of [Blood Liberation].",
+            "[Blood Liberation] Increases DMG of [Blood Liberation] by 50% and gains immunity to CC for the duration of [Blood Liberation]."
+          ],
+          "story": "A dark red lipstick made from the blood of those who died disgraceful deaths. The ones who abandoned their dignity as humans and caved in to their insatiable desires failed to escape Erze's grasp. They died while in a complete trance state, but perhaps they might still feel happy about being used by Erze. Erze uses it to leave a mark on the neck of her prey after she has fed on them."
+        }
+      },
+      "s4": {
+        "name": "Life Drinker",
+        "description": "Increases ATK by {0} and Max HP by {1} upon killing an enemy. Upon taking lethal damage, casts [Soaking Blood] and reduces Max HP by {2}%. This effect does not occur if [Soaking Blood] is in Cooldown. Consumes all mana upon activation.",
+        "books": {
+          "0": "Increases ATK and Max HP Boost by {0}%.",
+          "1": "Increases ATK and Max HP Boost by {0}%.",
+          "2": "Increases ATK and Max HP Boost by {0}%."
+        },
+        "light": "Increases Max HP by 100% upon killing an enemy and changes the Max HP reduction after auto-casting [Soaking Blood] to 33%.",
+        "dark": "Increases ATK by 200% upon killing an enemy, but Max HP boost does not apply."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / Crit Chance +100",
+        "dark": "Steals HP equal to 25% of DMG dealt by the final normal attack and gains 1 stack of [Sweet Blood]."
+      }
+    },
     "57": {
       "name": "Lilia",
       "subtitle": "The Daughter of Storm and Sea",
       "description": "A Blue Dragon girl who has just passed her Hatchling period and a sister of Laias, the Priestess of Water. Although she is still inexperienced and young, those who look down on her tend to pay dearly. She uses the relentless energy of water to decimate her enemies.",
       "story": "A God Dragon of the Oasis and a sister of the Priestess of Water. Laias. She is still a young Blue Dragon who loves her sister who is much older than her. When Laias fell into a deep sleep after exhausting her powers in the battle 100 years ago, Lilia defended the Shrine of Flow on her own. It was when she heard the children of the desert making desperate prayers that she finally woke up the Priestess of Water to protect them. Unlike her mild and thoughtful sister, she is somewhat strict, and the way she controls the power of flow and water is more aggressive, too. She feels the need to protect her beautiful sister against flirting, unworthy men.",
       "like": "Laias, sweet drinks, people in the desert",
-      "dislike": "Those flirting with her sister (Neraxis, Sereinel)",
+      "dislike": "Those flirting with her sister (Neraxis, Cain)",
       "inn": {
         "idle": "...T-too many humans...",
         "recruit": {
@@ -6596,7 +6716,7 @@
           "greet": "Good to see you, again!",
           "talk": [
             "Neraxis? What a jerk. He always begs for my sister's attention!",
-            "Sereinel...? Errrgh... I thought he was gone for good. I can't believe he's making a pass at my sister again...",
+            "Cain...? Errrgh... I thought he was gone for good. I can't believe he's making a pass at my sister again...",
             "I love my sister the most... but I like you as well."
           ]
         }
@@ -6814,6 +6934,126 @@
         "dark": "At the start of each battle, gains immunity to CC for 5 sec, and ACC, CC ACC are increased by 300 for 10 sec."
       }
     },
+    "61": {
+      "name": "Neraxis",
+      "subtitle": "Obsidian Arrogance",
+      "description": "The descendant of a black dragon that controlled dark lightning. He fights to rid the world of the demons, especially the Draconics. The energy of dark lightning imbued in his Pile Bunker penetrates the enemy's defense.",
+      "story": "Black dragons are notorious for being the most arrogant and ill-tempered out of all dragons. They suffered greatly from the Demon War 100 years ago. Armarta went mad, Ashen Nox robbed them, and Draconics started hunting down dragons. Neraxis was one of the few black dragon that survived that day, and he has been working and plotting to realize his revenge.",
+      "like": "Laias",
+      "dislike": "Demons, Cain, Lilia, and everything that gets in his way.",
+      "inn": {
+        "idle": "Hmpf. What am I even doing here...?",
+        "recruit": {
+          "greet": "Hmph, what does a human want with me?",
+          "talk": [
+            "You're not worth talking to.",
+            "What do you want?",
+            "Ha, ridiculous."
+          ],
+          "gift": "I don't know what you want, but it's no use."
+        },
+        "affinity": {
+          "greet": "Hmph, it's you again, human.",
+          "talk": [
+            "Huh? You want help? Hmpf. Bothersome.",
+            "Ha, that's right. Black dragons are the strongest!"
+          ],
+          "gift": "I don't need that. Why do you keep...?"
+        },
+        "relationship": {
+          "greet": "...Fine, I'm glad to see you! Hmpf...",
+          "talk": [
+            "Lilia? Ah, that annoying kid? Tsk, she always gets in the way.",
+            "Why won't that mummy get lost? Sometimes I really want to kill him.",
+            "Why do I like Laias? Hmph, y-you don't need a reason to like someone... No, wait! How did you know!?"
+          ]
+        }
+      },
+      "uw": {
+        "name": "Roaring Dragonmaw, Acravita",
+        "description": [
+          "After landing 20 normal attacks, deals M.DMG equal to 100% of ATK to 2 random enemies, stuns them for 0.5 sec, and becomes Storm of Neraxis for 10 sec. For the duration of Storm of Neraxis, increases P.DEF of all allies by 4% of caster's P.DEF and M.DEF by 4% of the caster's M.DEF.",
+          "After landing 19 normal attacks, deals M.DMG equal to 100% of ATK to 2 random enemies, stuns them for 0.5 sec, and becomes Storm of Neraxis for 10 sec. For the duration of Storm of Neraxis, increases P.DEF of all allies by 4.8% of caster's P.DEF and M.DEF by 4.8% of the caster's M.DEF.",
+          "After landing 18 normal attacks, deals M.DMG equal to 100% of ATK to 2 random enemies, stuns them for 0.5 sec, and becomes Storm of Neraxis for 10 sec. For the duration of Storm of Neraxis, increases P.DEF of all allies by 5.7% of caster's P.DEF and M.DEF by 5.7% of the caster's M.DEF.",
+          "After landing 17 normal attacks, deals M.DMG equal to 100% of ATK to 2 random enemies, stuns them for 0.5 sec, and becomes Storm of Neraxis for 10 sec. For the duration of Storm of Neraxis, increases P.DEF of all allies by 6.9% of caster's P.DEF and M.DEF by 6.9% of the caster's M.DEF.",
+          "After landing 16 normal attacks, deals M.DMG equal to 100% of ATK to 2 random enemies, stuns them for 0.5 sec, and becomes Storm of Neraxis for 10 sec. For the duration of Storm of Neraxis, increases P.DEF of all allies by 8.3% of caster's P.DEF and M.DEF by 8.3% of the caster's M.DEF.",
+          "After landing 15 normal attacks, deals M.DMG equal to 100% of ATK to 2 random enemies, stuns them for 0.5 sec, and becomes Storm of Neraxis for 10 sec. For the duration of Storm of Neraxis, increases P.DEF of all allies by 10% of caster's P.DEF and M.DEF by 10% of the caster's M.DEF."
+        ],
+        "story": "A magic gear crafted with pitch-black metal called Adamantite, tempered with the dark flame and the lightning of a black dragon. It holds the grudge and rage of black dragons that were killed during the Demon War. Neraxis threatened the dwarves to forge this special weapon for him. Then, he cursed and enchanted it with the grudge-filled souls of black dragons. Anyone who touches this weapon beside Neraxis will hear the raging roars of vengeful dragons."
+      },
+      "s1": {
+        "name": "Black Lightning Claw",
+        "description": "Draws enemies towards the target and deals {0} M.DMG. Deals {1} M.DMG around the target after 1 sec and stuns them for {2} sec. Reduces ATK Spd of hit enemies by {4} for {3} sec.",
+        "books": {
+          "0": "DMG is increased by {0}%.",
+          "1": "DMG is increased by {0}%.",
+          "2": "DMG is increased by {0}%."
+        },
+        "light": "Increases Stun duration by {0} sec.",
+        "dark": "Increases the M.DMG that the hit enemy takes by 25% for 10 sec."
+      },
+      "s2": {
+        "name": "Obsidian Roar",
+        "description": "Increases ATK, P.DEF, and M.DEF of all allies by {1} for {0} sec. Deals {2} M.DMG to all enemies and reduces their ATK by {4}% for {3} sec.",
+        "books": {
+          "0": "Increases ATK Boost and DEF Boost by {0}%.",
+          "1": "Increases ATK Boost and DEF Boost by {0}%.",
+          "2": "Increases ATK Boost and DEF Boost by {0}%."
+        },
+        "light": "Increases Mana Cost by 1 and ATK and DEF Boost by {0}%.",
+        "dark": "Reduces ATK Spd of the hit enemy by {1} for {0} sec.",
+        "ut": {
+          "name": "Memories of the Blue God Dragon",
+          "description": [
+            "[Obsidian Roar] Increases DEF Boost of allies by 20% and dispels positive effects from all enemies upon using Obsidian Roar.",
+            "[Obsidian Roar] Increases DEF Boost of allies by 24% and dispels positive effects from all enemies upon using Obsidian Roar.",
+            "[Obsidian Roar] Increases DEF Boost of allies by 29% and dispels positive effects from all enemies upon using Obsidian Roar.",
+            "[Obsidian Roar] Increases DEF Boost of allies by 35% and dispels positive effects from all enemies upon using Obsidian Roar.",
+            "[Obsidian Roar] Increases DEF Boost of allies by 42% and dispels positive effects from all enemies upon using Obsidian Roar.",
+            "[Obsidian Roar] Increases DEF Boost of allies by 50% and dispels positive effects from all enemies upon using Obsidian Roar."
+          ],
+          "story": "A hair accessory that Laias dropped while cleansing the waters corrupted by demons. Neraxis found it and kept it, but he still hasn't decided whether he'll give it back. It's not likely that Laias will get her lost hair accessory any time soon."
+        }
+      },
+      "s3": {
+        "name": "Breath of Destruction",
+        "description": "Deals a total of {0} M.DMG to enemies within a large area around the target over 6 times and reduces their M.DEF by {2}% for {1} sec. Each hit stuns the enemy for {3} sec.",
+        "books": {
+          "0": "DMG is increased by {0}%.",
+          "1": "DMG is increased by {0}%.",
+          "2": "DMG is increased by {0}%."
+        },
+        "light": "Reduce Mana Cost by 1.",
+        "dark": "Changes M.DEF Reduction to 30%.",
+        "ut": {
+          "name": "Rage Vortex",
+          "description": [
+            "[Breath of Destruction] Increases Stun duration by 1 sec and reduces Cooldown of Breath of Destruction by 3 sec.",
+            "[Breath of Destruction] Increases Stun duration by 1 sec and reduces Cooldown of Breath of Destruction by 4 sec.",
+            "[Breath of Destruction] Increases Stun duration by 1 sec and reduces Cooldown of Breath of Destruction by 5 sec.",
+            "[Breath of Destruction] Increases Stun duration by 1 sec and reduces Cooldown of Breath of Destruction by 6 sec.",
+            "[Breath of Destruction] Increases Stun duration by 1 sec and reduces Cooldown of Breath of Destruction by 7 sec.",
+            "[Breath of Destruction] Increases Stun duration by 1 sec and reduces Cooldown of Breath of Destruction by 8 sec."
+          ],
+          "story": "Crafted with his own fang, this stake holds Neraxis's burning rage. When Neraxis attacks with the stake, the great energy, entangled with Neraxis's powers, swirls at the enemy at a terrifying speed. It is powerful enough to penetrate all things, and rip off the limbs of those who come near it."
+        }
+      },
+      "s4": {
+        "name": "Black Dragon Hide",
+        "description": "Increases P.DEF and M.DEF by {0} and takes reduced P.DMG and M.DMG by {1}%.",
+        "books": {
+          "0": "Increases DEF Boost by {0}%.",
+          "1": "Increases DEF Boost by {0}%.",
+          "2": "Increases DEF Boost by {0}%."
+        },
+        "light": "ATK Spd is increased by 300",
+        "dark": "When HP falls below {0}%, skill effects are increased by {1}%."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / CC Resist +100",
+        "dark": "At the beginning of every battle, reduces DMG that non-Hero enemies deal to all allies except Neraxis by {1}% for {0} sec."
+      }
+    },
     "62": {
       "name": "Scarlet",
       "subtitle": "Faith of Silver",
@@ -6863,7 +7103,7 @@
       },
       "s1": {
         "name": "Halt!",
-        "description": "Deals {0} P.DMG to frontal enemies in range, and knocks them down for 3 sec. Recovers HP proportional to 30% of DMG.",
+        "description": "Attacks all frontal enemies, dealing {0} P.DMG and knocking them down for 3 sec. If the target is not a Hero, deals {1} additional P.DMG. Heals HP equal to 30% of DMG dealt.",
         "books": {
           "0": "DMG is increased by {0}%.",
           "1": "DMG is increased by {0}%.",
@@ -6880,7 +7120,7 @@
           "1": "DMG is increased by {0}%.",
           "2": "DMG is increased by {0}%."
         },
-        "light": "Mana cost is reduced by 1.",
+        "light": "If the target is not a Hero, stuns them for 4 sec.",
         "dark": "All allies' P.Crit Resistance is increased by 200 for 10 sec.",
         "ut": {
           "name": "Wings of Justice",

@@ -550,7 +550,7 @@
         "La Vit ATQ est augmentée de 165",
         "La Vit ATQ est augmentée de 200"
       ],
-      "story": "Mystérieux objet en forme de poussin créé à l'occasion d'un festival pour enfants. C'est un très bon antistress."
+      "story": "Poussin en peluche symbolisant l'innocence de l'enfance."
     },
     "59": {
       "name": "Plaisir d'été rafraîchissant",
@@ -615,7 +615,7 @@
       },
       "s1": {
         "name": "Lame de Jugement",
-        "description": "Inflige {0} points de DEG P. aux ennemis à portée et les renverse pendant {1} secondes.",
+        "description": "Inflige 2 fois {0}  points de DEG P aux ennemis situés en face en cercle et les renverse pendant {1}  sec.",
         "books": {
           "0": "Augmente les DEG de {0}%.",
           "1": "Augmente les DEG de {0}%.",
@@ -626,7 +626,7 @@
       },
       "s2": {
         "name": "Ruée Vaillante",
-        "description": "Inflige {0} points de DEG P. aux ennemis à portée.",
+        "description": "Attaque 3 fois la cible, puis fonce derrière elle pour infliger {0}  points de DEG P.",
         "books": {
           "0": "Augmente les DEG de {0}%.",
           "1": "Augmente les DEG de {0}%.",
@@ -769,7 +769,7 @@
       },
       "s3": {
         "name": "Vengeance Céleste",
-        "description": "Inflige  {0}  DEG M. aux ennemis à portée, les aveuglant pour  {1}  secondes.",
+        "description": "Attaque 6 fois la cible et les ennemis près d'elle, ce qui leur inflige un total de {0}  points de DEG M et les aveugle pendant {1}  sec.",
         "books": {
           "0": "Augmenter DEG de  {0}%.",
           "1": "Augmenter DEG de {0}%.",
@@ -792,7 +792,7 @@
       },
       "s4": {
         "name": "Grâce de la Déesse",
-        "description": "Augmente DEF M. de 1 allié de  {1}  pour  {0}  secondes.",
+        "description": "Augmente la DEF M de 1 allié aux PV les plus bas de {1} toutes les 15 sec pendant {0}  sec.",
         "books": {
           "0": "Le taux d'augmentation de DEF M. est augmenté de  {0}%.",
           "1": "Le taux d'augmentation de DEF M. est augmenté de  {0}%.",
@@ -855,7 +855,7 @@
       },
       "s1": {
         "name": "Pointe de Feu",
-        "description": "Inflige {0} de DEG M. à 5 ennemis maximum et laisse une braise qui inflige aussi des DEG M. au moment de toucher les ennemis.",
+        "description": "Attaque 5 fois un ennemi choisi au hasard, ce qui lui inflige {0}  points de DEG M ainsi que 1 charge de Braises.",
         "books": {
           "0": "Augmente les DEG de {0}%.",
           "1": "Augmente les DEG de {0}%.",
@@ -866,7 +866,7 @@
       },
       "s2": {
         "name": "Boule de Feu",
-        "description": "Inflige {0} de DEG M. aux ennemis et les étourdit pendant 2 secondes. Les Dégâts sont augmentés de {1}% pour chaque braise accumulée.",
+        "description": "Attaque la cible et les ennemis près d'elle, ce qui leur inflige {0}  points de DEG M et les étourdit pendant 2 sec. Inflige {2}  points de DEG M supplémentaires pour chaque charge de Braises infligée à l'ennemi.",
         "books": {
           "0": "Augmente les DEG de {0}%.",
           "1": "Augmente les DEG de {0}%.",
@@ -889,7 +889,7 @@
       },
       "s3": {
         "name": "Pluie de Feu",
-        "description": "Chaque attaque inflige {0} points de DEG M. à tous les ennemis et applique une charge de Braise. Pour chaque charge de Braise, les DEG sont augmentés de {1}%.",
+        "description": "Attaque 8 fois tous les ennemis, ce qui leur inflige un total de {0}  points de DEG M ainsi que 1 charge de Braises. Inflige {1}  points de DEG M supplémentaires pour chaque charge de Braises infligée à l'ennemi.",
         "books": {
           "0": "Augmente les DEG de {0}%.",
           "1": "Augmente les DEG de {0}%.",
@@ -912,7 +912,7 @@
       },
       "s4": {
         "name": "Diffusion de Flammes",
-        "description": "Inflige {0}  points de DEG M à 3 cibles et aux ennemis alentour, et applique 1 charge de Braises. Réduit de 5 % la DEF M des ennemis touchés par Braises.",
+        "description": "Accorde 20 % de chances d'attaquer 3 ennemis choisis au hasard lors d'une attaque normale, ce qui inflige {0}  points de DEG M à la cible et aux ennemis près d'elle, ainsi que 1 charge de Braises. Braises inflige un total de {1}  points de DEG M pendant 20 sec et réduit la DEF M de la cible de 5 %.",
         "books": {
           "0": "Augmente les DEG de {0}%.",
           "1": "Augmente les DEG de {0}%.",
@@ -975,7 +975,7 @@
       },
       "s1": {
         "name": "Impitoyable",
-        "description": "Attaque 3 fois au hasard, infligeant  {0}  DEG P. aux ennemis et provoque Saignement, ce inflige des DEG P. constants. Saignement s'accumule jusqu'à 3 fois.",
+        "description": "Attaque 3 fois un ennemi choisi au hasard, ce qui lui inflige un total de {0}  points de DEG P ainsi que 1 charge de Saignement, qui inflige {2}  points de DEG P pendant {1}  sec. Saignement peut être accumulé jusqu'à 3 fois.",
         "books": {
           "0": "Augmente les DEG de {0}%.",
           "1": "Augmente les DEG de {0}%.",
@@ -1032,7 +1032,7 @@
       },
       "s4": {
         "name": "Piratage",
-        "description": "Une attaque critique auto inflige  {0}  points de DEG P. supplémentaires.",
+        "description": "Si une attaque normale aboutit à un coup critique, la cible est attaquée 6 fois, ce qui lui inflige un total de {0}  points de DEG P supplémentaires.",
         "books": {
           "0": "Augmente les DEG de {0}%.",
           "1": "Augmente les DEG de {0}%.",
@@ -1324,18 +1324,18 @@
       "uw": {
         "name": "Lakrak MK-1",
         "description": [
-          "Chaque attaque auto a 25% de chances d'augmenter la Vit.ATQ de 300 pendant 10 sec.",
-          "Chaque attaque auto a 25% de chances d'augmenter la Vit.ATQ de 360 pendant 10 sec.",
-          "Chaque attaque auto a 25% de chances d'augmenter la Vit.ATQ de 420 pendant 10 sec.",
-          "Chaque attaque auto a 25% de chances d'augmenter la Vit.ATQ de 510 pendant 10 sec.",
-          "Chaque attaque auto a 25% de chances d'augmenter la Vit.ATQ de 615 pendant 10 sec.",
-          "Chaque attaque auto a 25% de chances d'augmenter la Vit.ATQ de 750 pendant 10 sec."
+          "Accorde 25 % de chances d'accumuler une charge de Poudre à canon lors de l'attaque. Chaque charge de Poudre à canon augmente l'ATQ de 3 %, la Vit ATQ de 30 points et les DEG infligés aux ennemis non-héros de 3 %. Poudre à canon peut être accumulée jusqu'à 10 fois et ne peut pas être dissipée.",
+          "Accorde 25 % de chances d'accumuler une charge de Poudre à canon lors de l'attaque. Chaque charge de Poudre à canon augmente l'ATQ de 3,6 %, la Vit ATQ de 36 points et les DEG infligés aux ennemis non-héros de 3,6 %. Poudre à canon peut être accumulée jusqu'à 10 fois et ne peut pas être dissipée.",
+          "Accorde 25 % de chances d'accumuler une charge de Poudre à canon lors de l'attaque. Chaque charge de Poudre à canon augmente l'ATQ de 4,3 %, la Vit ATQ de 43 points et les DEG infligés aux ennemis non-héros de 4,3 %. Poudre à canon peut être accumulée jusqu'à 10 fois et ne peut pas être dissipée.",
+          "Accorde 25 % de chances d'accumuler une charge de Poudre à canon lors de l'attaque. Chaque charge de Poudre à canon augmente l'ATQ de 5,1 %, la Vit ATQ de 51 points et les DEG infligés aux ennemis non-héros de 5,1 %. Poudre à canon peut être accumulée jusqu'à 10 fois et ne peut pas être dissipée.",
+          "Accorde 25 % de chances d'accumuler une charge de Poudre à canon lors de l'attaque. Chaque charge de Poudre à canon augmente l'ATQ de 6,2 %, la Vit ATQ de 62 points et les DEG infligés aux ennemis non-héros de 6,2 %. Poudre à canon peut être accumulée jusqu'à 10 fois et ne peut pas être dissipée.",
+          "Accorde 25 % de chances d'accumuler une charge de Poudre à canon lors de l'attaque. Chaque charge de Poudre à canon augmente l'ATQ de 7,5 %, la Vit ATQ de 75 points et les DEG infligés aux ennemis non-héros de 7,5 %. Poudre à canon peut être accumulée jusqu'à 10 fois et ne peut pas être dissipée."
         ],
         "story": "Le chef-d'œuvre destructeur, mais artistique, d'un inventeur gobelin futé. Ce canon à une main offre la meilleure puissance de feu qu'un Gobelin seul puisse manier. Malgré la dangereuse quantité de poudre utilisée, cette arme n'a encore jamais explosé. Heureusement."
       },
       "s1": {
         "name": "Tir Rapide",
-        "description": "Inflige {0} points de DEG P. aux ennemis à portée et les renverse.",
+        "description": "Attaque tous les ennemis situés en face et en ligne droite, ce qui leur inflige {0}  points de DEG P et les repousse. Si la cible n'est pas un héros, l'attaque leur inflige {1}  points de DEG P supplémentaires et les étourdit pendant {2}  sec.",
         "books": {
           "0": "Augmente les DEG de {0}%.",
           "1": "Augmente les DEG de {0}%.",
@@ -1924,24 +1924,24 @@
       "uw": {
         "name": "Leviathan, Arme Ultime",
         "description": [
-          "A 50 % de chances d'infliger des DEG P à hauteur de 100 % de l'ATQ aux ennemis touchés par la compétence Bouuuuum ! et la cible subit 20 % de DEG P en plus pendant 5 secondes.",
-          "A 50 % de chances d'infliger des DEG P à hauteur de 120 % de l'ATQ aux ennemis touchés par la compétence Bouuuuum ! et la cible subit 24 % de DEG P en plus pendant 5 secondes.",
-          "A 50 % de chances d'infliger des DEG P à hauteur de 140 % de l'ATQ aux ennemis touchés par la compétence Bouuuuum ! et la cible subit 29 % de DEG P en plus pendant 5 secondes.",
-          "A 50 % de chances d'infliger des DEG P à hauteur de 170 % de l'ATQ aux ennemis touchés par la compétence Bouuuuum ! et la cible subit 35 % de DEG P en plus pendant 5 secondes.",
-          "A 50 % de chances d'infliger des DEG P à hauteur de 210 % de l'ATQ aux ennemis touchés par la compétence Bouuuuum ! et la cible subit 42 % de DEG P en plus pendant 5 secondes.",
-          "A 50 % de chances d'infliger des DEG P à hauteur de 250 % de l'ATQ aux ennemis touchés par la compétence Bouuuuum ! et la cible subit 50 % de DEG P en plus pendant 5 secondes."
+          "A 50 % de chances d'infliger des DEG P à hauteur de 100 % de l'ATQ aux ennemis touchés par la compétence Bouuuuum ! et la cible subit 20 % de DEG P en plus pendant 10 secondes.",
+          "A 50 % de chances d'infliger des DEG P à hauteur de 120 % de l'ATQ aux ennemis touchés par la compétence Bouuuuum ! et la cible subit 24 % de DEG P en plus pendant 10 secondes.",
+          "A 50 % de chances d'infliger des DEG P à hauteur de 140 % de l'ATQ aux ennemis touchés par la compétence Bouuuuum ! et la cible subit 29 % de DEG P en plus pendant 10 secondes.",
+          "A 50 % de chances d'infliger des DEG P à hauteur de 170 % de l'ATQ aux ennemis touchés par la compétence Bouuuuum ! et la cible subit 35 % de DEG P en plus pendant 10 secondes.",
+          "A 50 % de chances d'infliger des DEG P à hauteur de 210 % de l'ATQ aux ennemis touchés par la compétence Bouuuuum ! et la cible subit 42 % de DEG P en plus pendant 10 secondes.",
+          "A 50 % de chances d'infliger des DEG P à hauteur de 250 % de l'ATQ aux ennemis touchés par la compétence Bouuuuum ! et la cible subit 50 % de DEG P en plus pendant 10 secondes."
         ],
         "story": "Lorsque Miruru régnait comme impératrice des pirates, elle était crainte de tous les marins et des forces navales d'Orvelia et de l'empire. Les canons de son navire étaient particulièrement terrifiants. Le plus puissant d'entre eux était le Léviathan, le canon principal du navire. Après avoir été maudite, elle emporta une seule chose en fuyant la mutinerie de son équipage. L'efficacité de cette arme vaut en effet tout l'or et les butins du monde. Le Léviathan est l'arme la plus puissante de son arsenal. Après de nombreuses modifications, l'ancienne terreur de la mer sert désormais d'artillerie mobile."
       },
       "s1": {
         "name": "Baaaam!",
-        "description": "Inflige {0} points de DEG P. aux ennemis à portée et les renverse.",
+        "description": "Inflige {0}  points de DEG P à tous les ennemis et les repousse.",
         "books": {
           "0": "Augmente les DEG de {0}%.",
           "1": "Augmente les DEG de {0}%.",
           "2": "Augmente les DEG de {0}%."
         },
-        "light": "Le coût en Mana est réduit de 1.",
+        "light": "Augmente les DEG P subis par la cible de 25 % pendant 10 sec.",
         "dark": "Lorsque activé, l'ATQ est augmentée de 35% pendant 10 sec."
       },
       "s2": {
@@ -1969,13 +1969,13 @@
       },
       "s3": {
         "name": "Pirates de Miruru!",
-        "description": "Inflige {1} points de DEG P. aux ennemis à portée pendant {0} sec. tout en réduisant leur vitesse de {2}%.",
+        "description": "Attaque 5 fois une cible choisie au hasard et les ennemis près d'elle, ce qui leur inflige un total de {1}  points de DEG P et réduit leur Vit ATQ de {2}  points. Si la cible n'est pas un héros, inflige {3}  points de DEG P supplémentaires.",
         "books": {
           "0": "Augmente les DEG de {0}%.",
           "1": "Augmente les DEG de {0}%.",
           "2": "Augmente les DEG de {0}%."
         },
-        "light": "Les DEG sont augmentés de 40%.",
+        "light": "S'il y a 1 ennemi, les DEG sont augmentés de 100%.",
         "dark": "Supprime l'Affaiblissement de Vit. ATQ et applique un Étourdissement de 3 sec.",
         "ut": {
           "name": "Boulet de canon miruru",
@@ -2712,7 +2712,7 @@
       },
       "s4": {
         "name": "Frisson de l'Aube",
-        "description": "Inflige {1} points de DEG M. à 3 enemis toutes les {0} secondes et applique Gel.",
+        "description": "Inflige {1}  points de DEG M à 3 ennemis toutes les {0}  sec et leur inflige Givre, ce qui réduit leur Vit ATQ de 100 points pendant 8 sec.",
         "books": {
           "0": "Augmente les DEG de {0}%.",
           "1": "Augmente les DEG de {0}%.",
@@ -2764,12 +2764,12 @@
       "uw": {
         "name": "Arpheus de la Lumière Bleue",
         "description": [
-          "Bloquer les attaques ennemies donnent 10% de chances de récupérer 3% de Mana et réduit le Temps de Recharge de toutes les compétences de 1 sec.",
-          "Bloquer les attaques ennemies donnent 13% de chances de récupérer 3% de Mana et réduit le Temps de Recharge de toutes les compétences de 1 sec.",
-          "Bloquer les attaques ennemies donnent 16% de chances de récupérer 3% de Mana et réduit le Temps de Recharge de toutes les compétences de 1 sec.",
-          "Bloquer les attaques ennemies donnent 19% de chances de récupérer 3% de Mana et réduit le Temps de Recharge de toutes les compétences de 1 sec.",
-          "Bloquer les attaques ennemies donnent 22% de chances de récupérer 3% de Mana et réduit le Temps de Recharge de toutes les compétences de 1 sec.",
-          "Bloquer les attaques ennemies donnent 25% de chances de récupérer 3% de Mana et réduit le Temps de Recharge de toutes les compétences de 1 sec."
+          "Augmente la DEF P de tous les alliés de 4 %. Tout blocage d'une attaque ennemie accorde 10 % de chances de restaurer 3 % de mana et de réduire le temps de recharge de toutes les compétences de 1 sec.",
+          "Augmente la DEF P de tous les alliés de 4,8 %. Tout blocage d'une attaque ennemie accorde 12 % de chances de restaurer 3,3 % de mana et de réduire le temps de recharge de toutes les compétences de 1 sec.",
+          "Augmente la DEF P de tous les alliés de 5,8 %. Tout blocage d'une attaque ennemie accorde 14 % de chances de restaurer 3,6 % de mana et de réduire le temps de recharge de toutes les compétences de 1 sec.",
+          "Augmente la DEF P de tous les alliés de 7 %. Tout blocage d'une attaque ennemie accorde 17 % de chances de restaurer 3,9 % de mana et de réduire le temps de recharge de toutes les compétences de 1 sec.",
+          "Augmente la DEF P de tous les alliés de 8,4 %. Tout blocage d'une attaque ennemie accorde 21 % de chances de restaurer 4,2 % de mana et de réduire le temps de recharge de toutes les compétences de 1 sec.",
+          "Augmente la DEF P de tous les alliés de 10 %. Tout blocage d'une attaque ennemie accorde 25 % de chances de restaurer 4,5 % de mana et de réduire le temps de recharge de toutes les compétences de 1 sec."
         ],
         "story": "Un jour, une veine de mana puissante fut découverte dans le territoire de Ziltrion. En enquêtant là-dessus, Demia découvrit un minerai bleu qu'elle n'avait encore jamais vu. De nombreux sorciers et alchimistes étudièrent ce minerai étrange présentant des caractéristiques des gemmes et du métal, sans pouvoir l'identifier clairement. Jin le forgeron eut une idée différente : dès qu'il vit le minerai, il proposa joyeusement à Demia de fabriquer de puissants équipements avec. Il forgea une lance et un bouclier, luisant de mana bleu et plus solide que le diamant."
       },
@@ -2792,7 +2792,7 @@
           "1": "Augmente les DEG de {0}%.",
           "2": "La réduction de l'ATQ ennemie augmente de {0}%."
         },
-        "light": "Inflige des DEG P. supplémentaires basés sur la DEF P.",
+        "light": "Le coût en Mana est réduit de 1.",
         "dark": "La DEF P. des alliés est augmentée de 20% pendant 10 secondes après activation.",
         "ut": {
           "name": "Bouclier de résolution",
@@ -2884,12 +2884,12 @@
       "uw": {
         "name": "Baroru, Ongles Maudits",
         "description": [
-          "Lors d'un coup critique, inflige des DEG P. (100% de l'ATK) pendant 10sec. L'ennemi reçoit des DEG P. augmentés de 20% pendant la durée.",
-          "Lors d'un coup critique, inflige des DEG P. (120% de l'ATK) pendant 10sec. L'ennemi reçoit des DEG P. augmentés de 24% pendant la durée.",
-          "Lors d'un coup critique, inflige des DEG P. (144% de l'ATK) pendant 10sec. L'ennemi reçoit des DEG P. augmentés de 28% pendant la durée.",
-          "Lors d'un coup critique, inflige des DEG P. (172% de l'ATK) pendant 10sec. L'ennemi reçoit des DEG P. augmentés de 34% pendant la durée.",
-          "Lors d'un coup critique, inflige des DEG P. (207% de l'ATK) pendant 10sec. L'ennemi reçoit des DEG P. augmentés de 41% pendant la durée.",
-          "Lors d'un coup critique, inflige des DEG P. (250% de l'ATK) pendant 10sec. L'ennemi reçoit des DEG P. augmentés de 50% pendant la durée."
+          "Lors d'un coup critique, inflige des DEG P. (150% de l'ATK) pendant 10sec. L'ennemi reçoit des DEG P. augmentés de 20% pendant la durée.",
+          "Lors d'un coup critique, inflige des DEG P. (180% de l'ATK) pendant 10sec. L'ennemi reçoit des DEG P. augmentés de 24% pendant la durée.",
+          "Lors d'un coup critique, inflige des DEG P. (216% de l'ATK) pendant 10sec. L'ennemi reçoit des DEG P. augmentés de 28% pendant la durée.",
+          "Lors d'un coup critique, inflige des DEG P. (258% de l'ATK) pendant 10sec. L'ennemi reçoit des DEG P. augmentés de 34% pendant la durée.",
+          "Lors d'un coup critique, inflige des DEG P. (310% de l'ATK) pendant 10sec. L'ennemi reçoit des DEG P. augmentés de 41% pendant la durée.",
+          "Lors d'un coup critique, inflige des DEG P. (500% de l'ATK) pendant 10sec. L'ennemi reçoit des DEG P. augmentés de 50% pendant la durée."
         ],
         "story": "Une paire de gantelets maudits fabriqués à l'aide des griffes du démon fou Baroro, qui fut vaincu durant la guerre. Ces gantelets font plusieurs fois la taille de mains humaines et sont directement connectés aux nerfs de leur porteur, ce qui lui permet de les contrôler sans effort. Bien qu'ils accordent énormément de puissance, ils brisent également l'esprit du porteur, grignotant peu à peu son âme. Seul un guerrier aux nobles convictions, à la volonté forte et à l'esprit inflexible peut manier ces armes maudites. Elles sont idéales pour le guerrier à la volonté puissante dont l'éclat resplendit même au milieu des ténèbres abyssales."
       },
@@ -3244,12 +3244,12 @@
       "uw": {
         "name": "Genesis, Ancien et Nouveau",
         "description": [
-          "Toutes les 30 sec, augmente l'ATQ d'un allié aléatoire de 40%. Augmente également les Chances de Crit et la Vit. ATQ de 400. (pendant 10 sec)",
-          "Toutes les 30 sec, augmente l'ATQ d'un allié aléatoire de 48%. Augmente également les Chances de Crit et la Vit. ATQ de 480. (pendant 10 sec)",
-          "Toutes les 30 sec, augmente l'ATQ d'un allié aléatoire de 57%. Augmente également les Chances de Crit et la Vit. ATQ de 570. (pendant 10 sec)",
-          "Toutes les 30 sec, augmente l'ATQ d'un allié aléatoire de 69%. Augmente également les Chances de Crit et la Vit. ATQ de 690. (pendant 10 sec)",
-          "Toutes les 30 sec, augmente l'ATQ d'un allié aléatoire de 83%. Augmente également les Chances de Crit et la Vit. ATQ de 830. (pendant 10 sec)",
-          "Toutes les 30 sec, augmente l'ATQ d'un allié aléatoire de 100%. Augmente également les Chances de Crit et la Vit. ATQ de 1000. (pendant 10 sec)"
+          "Augmente la vitesse de lancement de toutes les compétences, et à chaque utilisation d'une compétence, augmente l'ATQ de 2 % et la DEF de 2 % pour tous les alliés. Cet effet peut être cumulé jusqu'à 7 fois.",
+          "Augmente la vitesse de lancement de toutes les compétences, et à chaque utilisation d'une compétence, augmente l'ATQ de 2,4 % et la DEF de 2,4 % pour tous les alliés. Cet effet peut être cumulé jusqu'à 7 fois.",
+          "Augmente la vitesse de lancement de toutes les compétences, et à chaque utilisation d'une compétence, augmente l'ATQ de 2,9 % et la DEF de 2,9 % pour tous les alliés. Cet effet peut être cumulé jusqu'à 7 fois.",
+          "Augmente la vitesse de lancement de toutes les compétences, et à chaque utilisation d'une compétence, augmente l'ATQ de 3,5 % et la DEF de 3,5 % pour tous les alliés. Cet effet peut être cumulé jusqu'à 7 fois.",
+          "Augmente la vitesse de lancement de toutes les compétences, et à chaque utilisation d'une compétence, augmente l'ATQ de 4,2 % et la DEF de 4,2 % pour tous les alliés. Cet effet peut être cumulé jusqu'à 7 fois.",
+          "Augmente la vitesse de lancement de toutes les compétences, et à chaque utilisation d'une compétence, augmente l'ATQ de 5 % et la DEF de 5 % pour tous les alliés. Cet effet peut être cumulé jusqu'à 7 fois."
         ],
         "story": "Même parmi les reliques sacrées accordées aux hauts prêtres de l'Église de Lua, le Genesis, Ancien et Nouveau est spécial. D'après la légende, ce livre, gardé durant des siècles par les grands prêtres de l'Église, fut écrit par Lua en personne. Iris, le grand prêtre actuel, en recevant une révélation, confia le livre à son beau-père, Berman. Plus tard, il fut offert à Baudouin lorsqu'il devint haut prêtre. On dit que cette relique divine offre une énergie infinie à son propriétaire, ainsi que la puissance nécessaire pour débloquer le vrai potentiel de ceux qui ont la foi."
       },
@@ -3295,7 +3295,7 @@
           "1": "Augmente la Récupération de {0}%.",
           "2": "Augmente la Vitesse d'ATQ de {0} pendant la durée."
         },
-        "light": "La durée d'invincibilité est augmentée de 1,5 sec.",
+        "light": "Le coût en Mana est réduit de 1.",
         "dark": "Pour un coût de 2 MP supplémentaires et d'une réduction de 3 secondes de la durée d'Invincibilité, l'ATQ de tous les alliés augmente de 50%.",
         "ut": {
           "name": "Vieux rosaire",
@@ -3604,18 +3604,18 @@
       "uw": {
         "name": "Belisa, Plume de Phoenix",
         "description": [
-          "Lors d'une attaque auto, donne 10% de chance d'infliger 100% de DEG M. supplémentaires et de supprimer les Améliorations.",
-          "Lors d'une attaque auto, donne 12% de chance d'infliger 100% de DEG M. supplémentaires et de supprimer les Améliorations.",
-          "Lors d'une attaque auto, donne 14% de chance d'infliger 100% de DEG M. supplémentaires et de supprimer les Améliorations.",
-          "Lors d'une attaque auto, donne 17% de chance d'infliger 100% de DEG M. supplémentaires et de supprimer les Améliorations.",
-          "Lors d'une attaque auto, donne 20% de chance d'infliger 100% de DEG M. supplémentaires et de supprimer les Améliorations.",
-          "Lors d'une attaque auto, donne 25% de chance d'infliger 100% de DEG M. supplémentaires et de supprimer les Améliorations."
+          "Au début de chaque combat, augmente la DEF P et DEF M de 20 % et la Vit ATQ de 200 points pendant 15 sec, et ajoute un effet supplémentaire à la première compétence utilisée. Rune de fragilité : augmente les chances de coup critique de 500 points. Rune de soin : dissipe les contrôles qui pesaient sur le lanceur avant le lancement la compétence. Rune de silence : augmente la durée de Silence de 1 sec.",
+          "Au début de chaque combat, augmente la DEF P et DEF M de 24 % et la Vit ATQ de 240 points pendant 15 sec, et ajoute un effet supplémentaire à la première compétence utilisée. Rune de fragilité : augmente les chances de coup critique de 500 points. Rune de soin : dissipe les contrôles qui pesaient sur le lanceur avant le lancement la compétence. Rune de silence : augmente la durée de Silence de 1 sec.",
+          "Au début de chaque combat, augmente la DEF P et DEF M de 29 % et la Vit ATQ de 290 points pendant 15 sec, et ajoute un effet supplémentaire à la première compétence utilisée. Rune de fragilité : augmente les chances de coup critique de 500 points. Rune de soin : dissipe les contrôles qui pesaient sur le lanceur avant le lancement la compétence. Rune de silence : augmente la durée de Silence de 1 sec.",
+          "Au début de chaque combat, augmente la DEF P et DEF M de 35 % et la Vit ATQ de 350 points pendant 15 sec, et ajoute un effet supplémentaire à la première compétence utilisée. Rune de fragilité : augmente les chances de coup critique de 500 points. Rune de soin : dissipe les contrôles qui pesaient sur le lanceur avant le lancement la compétence. Rune de silence : augmente la durée de Silence de 1 sec.",
+          "Au début de chaque combat, augmente la DEF P et DEF M de 42 % et la Vit ATQ de 420 points pendant 15 sec, et ajoute un effet supplémentaire à la première compétence utilisée. Rune de fragilité : augmente les chances de coup critique de 500 points. Rune de soin : dissipe les contrôles qui pesaient sur le lanceur avant le lancement la compétence. Rune de silence : augmente la durée de Silence de 1 sec.",
+          "Au début de chaque combat, augmente la DEF P et DEF M de 50 % et la Vit ATQ de 500 points pendant 15 sec, et ajoute un effet supplémentaire à la première compétence utilisée. Rune de fragilité : augmente les chances de coup critique de 500 points. Rune de soin : dissipe les contrôles qui pesaient sur le lanceur avant le lancement la compétence. Rune de silence : augmente la durée de Silence de 1 sec."
         ],
         "story": "Le phénix est une bête sacrée symbolisant la vie éternelle. Sa plume est aussi rare que la bête elle-même. On raconte qu'une plume basée sur celle du phénix est un puissant outil magique. Les runes gravées sur cette plume aident considérablement la Magie Runique."
       },
       "s1": {
         "name": "Rune de Fragilité",
-        "description": "Marque l'ennemi ciblé avec une rune, réduisant sa DEF P. de {1}% pendant {0} sec. Après {2} sec, inflige un maximum de {3} points de DEG M. proportionnellement aux PV perdus qui ignorent la DEF.",
+        "description": "Inscrit une rune sur la cible, ce qui lui inflige jusqu'à {3}  points de DEG P malgré la DEF fondée sur les PV perdus et réduit sa DEF P de {1}  % pendant {0}  sec.",
         "books": {
           "0": "Augmente les dégâts de {0}%.",
           "1": "Augmente les dégâts de {0}%.",
@@ -3649,13 +3649,13 @@
       },
       "s3": {
         "name": "Rune de Silence",
-        "description": "Inflige {0} points de DEG M. à toute l'équipe ennemie et retire toutes les améliorations. Applique également Silence aux ennemis pendant {1} sec.",
+        "description": "Inflige {0} points de DEG P. à toute l'équipe ennemie et retire toutes les améliorations. Applique également Silence aux ennemis pendant {1} sec.",
         "books": {
           "0": "Augmente la durée de Silence de {0} sec.",
           "1": "Augmente la durée de Silence de {0} sec.",
           "2": "Augmente la durée de Silence de {0} sec."
         },
-        "light": "La durée de Silence est augmentée de 1 sec.",
+        "light": "Le coût en Mana est réduit de 1.",
         "dark": "Les DEG sont augmentés de 200% et la cible ennemie reçoit 20% de DEG supplémentaires de toutes les sources. Le coût en Mana est augmenté de 2.",
         "ut": {
           "name": "Parchemin de mémoire",
@@ -3724,24 +3724,24 @@
       "uw": {
         "name": "Veralta, Épées-jumelles de Fureur",
         "description": [
-          "Gagne +12% ATQ et 120 Vit. ATQ toutes les 7 secondes. Cumulable jusqu'à 3 fois.",
-          "Gagne +14% ATQ et 140 Vit. ATQ toutes les 7 secondes. Cumulable jusqu'à 3 fois.",
-          "Gagne +17% ATQ et 170 Vit. ATQ toutes les 7 secondes. Cumulable jusqu'à 3 fois.",
-          "Gagne +20% ATQ et 200 Vit. ATQ toutes les 7 secondes. Cumulable jusqu'à 3 fois.",
-          "Gagne +25% ATQ et 250 Vit. ATQ toutes les 7 secondes. Cumulable jusqu'à 3 fois.",
-          "Gagne +30% ATQ et 300 Vit. ATQ toutes les 7 secondes. Cumulable jusqu'à 3 fois."
+          "Augmente l'ATQ de 12 % et la Vit ATQ de 120 points toutes les 7 sec pendant 30 sec. Cet effet peut être cumulé jusqu'à 3 fois et ne peut pas être dissipé.",
+          "Augmente l'ATQ de 14 % et la Vit ATQ de 140 points toutes les 7 sec pendant 30 sec. Cet effet peut être cumulé jusqu'à 3 fois et ne peut pas être dissipé.",
+          "Augmente l'ATQ de 17 % et la Vit ATQ de 170 points toutes les 7 sec pendant 30 sec. Cet effet peut être cumulé jusqu'à 3 fois et ne peut pas être dissipé.",
+          "Augmente l'ATQ de 20 % et la Vit ATQ de 200 points toutes les 7 sec pendant 30 sec. Cet effet peut être cumulé jusqu'à 3 fois et ne peut pas être dissipé.",
+          "Augmente l'ATQ de 25 % et la Vit ATQ de 250 points toutes les 7 sec pendant 30 sec. Cet effet peut être cumulé jusqu'à 3 fois et ne peut pas être dissipé.",
+          "Augmente l'ATQ de 30 % et la Vit ATQ de 300 points toutes les 7 sec pendant 30 sec. Cet effet peut être cumulé jusqu'à 3 fois et ne peut pas être dissipé."
         ],
         "story": "Une paire d'armes enchantées offerte au grand-père de Fluss, un chevalier de la République de Gray, et passée de père en fils. Ces armes augmentent peu à peu les capacités physiques de leur porteur et lui permettent de dépasser les limites humaines en gagnant une vitesse et des pouvoirs surhumains. Comme l'effet est graduel, le corps ne subit pas de stress soudain. Les pièces s‘appellent Sang et Rose, en l'honneur des effluves de sang et de pétales qui apparaissent chaque fois que Fluss manie ces épées jumelles. Nul autre guerrier n'a pu les utiliser à leur plein potentiel."
       },
       "s1": {
         "name": "Lame-Tempête",
-        "description": "Inflige {0} points de DEG P. à l'ennemi ciblé et aux autres à proximité.",
+        "description": "Attaque 3 fois la cible et les ennemis près d'elle, ce qui leur inflige un total de {0}  points de DEG P. Si la cible n'est pas un héros, inflige un total de {1}  points de DEG P supplémentaires pendant 5 sec.",
         "books": {
           "0": "Augmente les dégâts de {0}%.",
           "1": "Augmente les dégâts de {0}%.",
-          "2": "Augmente les Chances de Crit de {0}."
+          "2": "Augmente les dégâts de {0}%."
         },
-        "light": "Les DEG sont augmentés de 40%.",
+        "light": "Ignore la DEF lorsqu'il n'y a qu'un seul ennemi.",
         "dark": "Un Coup Crit réduit le Temps de recharge de 6%."
       },
       "s2": {
@@ -3769,11 +3769,11 @@
       },
       "s3": {
         "name": "Pétales Sanglants",
-        "description": "Inflige {0} points de DEG P. sur une cible unique, conservant cette cible pendant toute la durée.",
+        "description": "Inflige un total de {0}  points de DEG P à un ennemi en 16 coups et supprime la cible pendant l'incantation. Les DEG ignorent les effets de blocage de la cible.",
         "books": {
           "0": "Augmente les dégâts de {0}%.",
           "1": "Augmente les dégâts de {0}%.",
-          "2": "Augmente les Chances de Crit de {0}."
+          "2": "Augmente les dégâts de {0}%."
         },
         "light": "Chaque Coup Crit augmente les DEG du dernier coup de 10%.",
         "dark": "Pendant le Temps de recharge, les DEG des attaques automatiques sont augmentés de 50%.",
@@ -4684,12 +4684,12 @@
       "uw": {
         "name": "Theoria, Jugement de Lumière",
         "description": [
-          "Lorsqu'un allié subit des DEG, il a 10% de chances de gagner un bouclier équivalent à 160% de l'ATQ de Ricardo, pendant 5 sec. Ne peut se produire qu'une fois toutes les 5 sec.",
-          "Lorsqu'un allié subit des DEG, il a 12% de chances de gagner un bouclier équivalent à 192% de l'ATQ de Ricardo, pendant 5 sec. Ne peut se produire qu'une fois toutes les 5 sec.",
-          "Lorsqu'un allié subit des DEG, il a 14% de chances de gagner un bouclier équivalent à 230% de l'ATQ de Ricardo, pendant 5 sec. Ne peut se produire qu'une fois toutes les 5 sec.",
-          "Lorsqu'un allié subit des DEG, il a 17% de chances de gagner un bouclier équivalent à 276% de l'ATQ de Ricardo, pendant 5 sec. Ne peut se produire qu'une fois toutes les 5 sec.",
-          "Lorsqu'un allié subit des DEG, il a 20% de chances de gagner un bouclier équivalent à 330% de l'ATQ de Ricardo, pendant 5 sec. Ne peut se produire qu'une fois toutes les 5 sec.",
-          "Lorsqu'un allié subit des DEG, il a 25% de chances de gagner un bouclier équivalent à 400% de l'ATQ de Ricardo, pendant 5 sec. Ne peut se produire qu'une fois toutes les 5 sec."
+          "Lorsqu'un allié autre que le lanceur subit des DEG, il y a 10 % de chances pour qu'un bouclier soit généré autour de lui, capable d'absorber les DEG à hauteur de 320 % de l'ATQ pendant 5 sec et qui confère l'immunité contre les contrôles. Cet effet ne peut pas se produire plus d'une fois toutes les 5 sec.",
+          "Lorsqu'un allié autre que le lanceur subit des DEG, il y a 12 % de chances pour qu'un bouclier soit généré autour de lui, capable d'absorber les DEG à hauteur de 384 % de l'ATQ pendant 5 sec et qui confère l'immunité contre les contrôles. Cet effet ne peut pas se produire plus d'une fois toutes les 5 sec.",
+          "Lorsqu'un allié autre que le lanceur subit des DEG, il y a 14 % de chances pour qu'un bouclier soit généré autour de lui, capable d'absorber les DEG à hauteur de 460 % de l'ATQ pendant 5 sec et qui confère l'immunité contre les contrôles. Cet effet ne peut pas se produire plus d'une fois toutes les 5 sec.",
+          "Lorsqu'un allié autre que le lanceur subit des DEG, il y a 17 % de chances pour qu'un bouclier soit généré autour de lui, capable d'absorber les DEG à hauteur de 552 % de l'ATQ pendant 5 sec et qui confère l'immunité contre les contrôles. Cet effet ne peut pas se produire plus d'une fois toutes les 5 sec.",
+          "Lorsqu'un allié autre que le lanceur subit des DEG, il y a 20 % de chances pour qu'un bouclier soit généré autour de lui, capable d'absorber les DEG à hauteur de 660 % de l'ATQ pendant 5 sec et qui confère l'immunité contre les contrôles. Cet effet ne peut pas se produire plus d'une fois toutes les 5 sec.",
+          "Lorsqu'un allié autre que le lanceur subit des DEG, il y a 25 % de chances pour qu'un bouclier soit généré autour de lui, capable d'absorber les DEG à hauteur de 800 % de l'ATQ pendant 5 sec et qui confère l'immunité contre les contrôles. Cet effet ne peut pas se produire plus d'une fois toutes les 5 sec."
         ],
         "story": "Quand Aea l'Épée Sacrée fut confiée à Kyle, elle apparut au temple de Lua, situé au nord des Plaines du Roi. Lorsque Kyle la retira de l'autel, la lame libéra une puissante vague de lumière qui consacra les terres avoisinantes. Tous les objets contenus dans le temple devinrent immédiatement de saintes reliques. Teoria, le pilier central du temple, absorba l'essentiel de l'énergie divine."
       },
@@ -4763,7 +4763,7 @@
       },
       "t5": {
         "light": "ATQ, DEF, PV +15% / Blocage P. +200",
-        "dark": "Lorsque les PV du Héros tombent sous les 30%, ils ne peuvent aller sous les 10% pendant 10 sec, et l'ATQ de tous les alliés est augmentée de 50% de la DEF M. du Héros. Cet effect ne peut être activé qu'une seule fois toutes les 60 sec."
+        "dark": "Lorsque les PV du Héros tombent sous les 40%, ils ne peuvent aller sous les 10% pendant 6 sec, et l'ATQ de tous les alliés est augmentée de 50% de la DEF M. du Héros. Cet effect ne peut être activé qu'une seule fois toutes les 60 sec."
       }
     },
     "37": {
@@ -4804,24 +4804,24 @@
       "uw": {
         "name": "Caethasis, Demon de la Tranquilité",
         "description": [
-          "Les attaques auto donnent 10% de chance au Héros d'infliger 140% de DEG P. additionnels à la cible et donne Furtivité pendant 10 sec. Temps de recharge: 10 sec.",
-          "Les attaques auto donnent 12% de chance au Héros d'infliger 170% de DEG P. additionnels à la cible et donne Furtivité pendant 10 sec. Temps de recharge: 10 sec.",
-          "Les attaques auto donnent 14% de chance au Héros d'infliger 200% de DEG P. additionnels à la cible et donne Furtivité pendant 10 sec. Temps de recharge: 10 sec.",
-          "Les attaques auto donnent 17% de chance au Héros d'infliger 240% de DEG P. additionnels à la cible et donne Furtivité pendant 10 sec. Temps de recharge: 10 sec.",
-          "Les attaques auto donnent 20% de chance au Héros d'infliger 290% de DEG P. additionnels à la cible et donne Furtivité pendant 10 sec. Temps de recharge: 10 sec.",
-          "Les attaques auto donnent 25% de chance au Héros d'infliger 350% de DEG P. additionnels à la cible et donne Furtivité pendant 10 sec. Temps de recharge: 10 sec."
+          "Les attaques auto donnent 10% de chance au Héros d'infliger 200% de DEG P. additionnels à la cible et donne Furtivité pendant 10 sec. Temps de recharge: 10 sec.",
+          "Les attaques auto donnent 12% de chance au Héros d'infliger 240% de DEG P. additionnels à la cible et donne Furtivité pendant 10 sec. Temps de recharge: 10 sec.",
+          "Les attaques auto donnent 14% de chance au Héros d'infliger 290% de DEG P. additionnels à la cible et donne Furtivité pendant 10 sec. Temps de recharge: 10 sec.",
+          "Les attaques auto donnent 17% de chance au Héros d'infliger 350% de DEG P. additionnels à la cible et donne Furtivité pendant 10 sec. Temps de recharge: 10 sec.",
+          "Les attaques auto donnent 20% de chance au Héros d'infliger 420% de DEG P. additionnels à la cible et donne Furtivité pendant 10 sec. Temps de recharge: 10 sec.",
+          "Les attaques auto donnent 25% de chance au Héros d'infliger 500% de DEG P. additionnels à la cible et donne Furtivité pendant 10 sec. Temps de recharge: 10 sec."
         ],
         "story": "La guerre démoniaque remonte à cent ans. Durant cette guerre, la plus grande menace que connut l'humanité fut incontestablement les officiers démoniaques supérieurs. Caethasis, le Démon de la Tranquillité, était le plus dangereux d'entre eux. Convoitant spécifiquement l'âme des utilisateurs de la magie, il massacra un nombre incalculable de sorciers et de prêtres. Caethasis finit par être vaincu par Kyle et son noyau scellé. Cependant, des années plus tard, le Masque Rieur entra en possession de son noyau, le hissant de nouveau au rang d'instrument de mort."
       },
       "s1": {
         "name": "Cible Acquise",
-        "description": "Le Héros se déplace derrière l'ennemi avec la plus faible DEF P. et augmente les DEG P. qu'il reçoit de {0}%. Renverse également l'ennemi et inflige {1} points de DEG P. Si Furtivité est active, applique Étourdissement sur la cible pendant 6 sec. Sinon, donne Furtivité pour 10 sec. Pendant Furtivité, les Chances de Crit et le l'Esquive sont augmentés de 200.",
+        "description": "Le Héros se déplace derrière l'ennemi avec la plus faible DEF P. et augmente les DEG P. qu'il reçoit de {0}%. Renverse également l'ennemi et inflige {1} points de DEG P. Si Furtivité est active, applique Étourdissement sur la cible pendant 6 sec. Sinon, donne Furtivité pour 10 sec. Pendant Furtivité, les Chances de Crit et le l'Esquive sont augmentés de 50.",
         "books": {
           "0": "DEG augmentés de {0}%.",
           "1": "DEG augmentés de {0}%.",
           "2": "Chances de Crit augmentées de {0}."
         },
-        "light": "Les DEG sont augmentés de 40%.",
+        "light": "Réduit de 30 % la récupération de la cible.",
         "dark": "Pendant 10 sec, la résistance aux Crit P. de la cible est réduite de 250."
       },
       "s2": {
@@ -4872,14 +4872,14 @@
       },
       "s4": {
         "name": "Ambuscade Silencieuse",
-        "description": "Si une compétence a un effet Critique, l'ennemi reçoit {0} points de DEG P. supplémentaires et est réduit au Silence pendant {1} sec.",
+        "description": "Inflige {0}  points de DEG P supplémentaires à l'ennemi et le réduit au silence pendant {1}  sec lorsqu'un coup critique est porté pendant la compétence. Si la cible n'est pas un héros, inflige {2}  points de DEG P supplémentaires malgré la DEF et réduit la Vit ATQ de la cible de {4}  points pendant {3}  sec.",
         "books": {
           "0": "DEG augmentés de {0}%.",
           "1": "DEG augmentés de {0}%.",
           "2": "Durée du Silence augmentée de {0} sec."
         },
-        "light": "Les DEG sont augmentés de 40%.",
-        "dark": "La durée de Silence est augmentée de 2 sec s'il n'y a qu'un seul ennemi."
+        "light": "Augmente de 100 % les DEG supplémentaires infligés aux ennemis non-héros.",
+        "dark": "Augmente de 0,5 sec la durée de Silence."
       },
       "t5": {
         "light": "ATQ, DEF, PV +15% / DEG Crit +20%",
@@ -5242,7 +5242,7 @@
         "dark": "Durée Étourdissement augmentée de 0.2 sec."
       },
       "t5": {
-        "light": "ATQ, DEF, PV +15% / Vit. ATQ +100",
+        "light": "ATQ, DEF, PV +15% / Chances Crit +100",
         "dark": "Lorsque 'Dieu de la Foudre' est activé, la récupération de Mana est réduite de moitié. Lorsque la Mana atteint son maximum, l'ATQ est augmentée de 50% pendant 10 sec. Cet effet s'active seulement une fois toutes les 20 sec."
       }
     },
@@ -6015,7 +6015,7 @@
       },
       "s1": {
         "name": "Carte de Mort - Carta",
-        "description": "Attaque la cible ennemie, inflige {0} points de DEG M. et applique Étourdissement pendant {1} sec. Consomme la carte possédée pour appliquer des effets supplémentaires. Utiliser la compétence permet d'obtenir la Carte de [Mort]. [Mort] - Les DEG ignorent la DEF de la cible et la durée d'Étourdissement augmente de 5 sec. [Amour] - Inflige un total de {2} points de DEG M. sur la durée pendant 7 sec et réduit les soins de 100%. [Fortune] - Le Temps de Recharge de la compétence ne s'enclenche pas.",
+        "description": "Attaque la cible ennemie, inflige {0} points de DEG M. et applique Étourdissement pendant {1} sec. Consomme la carte possédée pour appliquer des effets supplémentaires. Utiliser la compétence permet d'obtenir la Carte de [Mort]. [Mort] - Les DEG ignorent la DEF de la cible et la durée d'Étourdissement augmente de 5 sec. [Amour] - Inflige un total de {2} points de DEG M. sur la durée pendant 10 sec et réduit les soins de 100%. [Fortune] - Le Temps de Recharge de la compétence ne s'enclenche pas.",
         "books": {
           "0": "DEG augmentés de {0}%.",
           "1": "DEG augmentés de {0}%.",
@@ -6026,7 +6026,7 @@
       },
       "s2": {
         "name": "Carte d'Amour - Elliciad",
-        "description": "L'ATQ est augmentée de {1} pendant {0} sec et la récupération de Mana par seconde est augmentée de {2}%. Consomme la carte possédée pour appliquer des effets supplémentaires. Utiliser la compétence permet d'obtenir la Carte d'[Amour]. [Mort] - La Pénétration est augmentée de 600 pour la durée de la compétence. [Amour] - Donne l'effet à tous les alliés. [Fortune] - Le Temps de Recharge de la compétence ne s'enclenche pas.",
+        "description": "Augmente l'ATQ de {1}  points pendant {0}  sec et la récupération de mana de {2}  %. Utilise une carte en votre possession pour ajouter un effet supplémentaire selon le type de carte. Permet d'obtenir une carte [Amour]. [Mort] : augmente la Pénétration DEF de 600 points pendant la durée de la compétence et confère l'immunité aux contrôles pendant 6 sec. [Amour] : l'effet s'applique à tous les alliés. [Chance] : exonération du temps de recharge.",
         "books": {
           "0": "Augmentation de l'ATQ boostée de {0}%.",
           "1": "Augmentation de l'ATQ boostée de {0}%.",
@@ -6049,7 +6049,7 @@
       },
       "s3": {
         "name": "Carte de Fortune - Vellekia",
-        "description": "Attaque l'ennemi ciblé et les ennemis à portée, inflige {0} points de DEG M. Cette attaque Cette attaque ne peut échouer et ses DEG Crit sont augmentés de 100%. Utiliser cette compétence permet d'obtenir la Carte de [Fortune]. [Mort] - Les DEG Crit sont augmentés de 200% supplémentaires. [Amour] - Dissipe les effets positifs sur les ennemis à portée et d'appliquer Silence pendant 1 sec. [Fortune] - Le Temps de Recharge de la compétence ne s'enclenche pas et 1 orbe de mana est récupéré.",
+        "description": "Attaque la cible et les ennemis près d'elle, ce qui leur inflige {0}  points de DEG M. Cette attaque ne rate jamais et inflige des DEG Crit supplémentaires à hauteur de 100 %. Permet d'obtenir une carte [Chance]. [Mort] : les DEG Crit augmentent de 120 %. [Amour] : dissipe tous les effets positifs dont bénéficient les ennemis à portée et les réduit au silence pendant 2 sec. [Chance] : exonération du temps de recharge. Restaure 1 orbe de mana.",
         "books": {
           "0": "DEG augmentés de {0}%.",
           "1": "DEG augmentés de {0}%.",
@@ -6566,13 +6566,133 @@
         "dark": "Tous les effets de malédiction sont augmentés. La durée de pétrification de [Malédiction de pétrification] augmente de 2 s. La durée de malédiction de [Malédiction du temps] augmente de 3 s. Les dégâts sur la durée de malédiction de [Malédiction de douleur] augmentent de 50%."
       }
     },
+    "56": {
+      "name": "Erze",
+      "subtitle": "Éternelle assoiffée",
+      "description": "Elle était autrefois chasseuse de vampires, comme sa sœur Seria. Corrompue par ses propres pouvoirs, elle se mit à massacrer ses semblables et choisit de devenir elle-même un vampire. Après avoir tué et absorbé les pouvoirs du vampire qui l'a métamorphosée, elle réussit à échapper à sa grande sœur Seria, seule survivante, et partit en direction d'Orvelia.",
+      "story": "Benjamine de la famille Shadow Hilt, Erze choisit de devenir chasseuse de vampires comme sa sœur adorée, Seria. De par sa carrure fluette, Erze n'apprit jamais le maniement de l'épée, mais réussit à se forger une solide réputation de chasseuse grâce à ses talents de magicienne. Alors qu'elle se trouvait en mission, elle tomba dans un piège et fut mordue à l'épaule par un mystérieux vampire. De plus en plus faible, elle souffrait de migraines fréquentes et de soifs nocturnes quotidiennes. Erze savait ce qu'il se passait et ce qu'il allait lui arriver. Elle dissimula sa morsure et essaya de trouver un remède, s'éloignant de ses semblables. Pendant ce temps, Seria fut envoyée à la montagne enneigée de Terre-venteuse à la recherche de la princesse vampire disparue depuis 100 ans. Le jour où sa sœur partit... - Ahh, Seria... Je n'ai plus la force de lutter... Erze se mit discrètement à trancher la gorge de ses semblables.",
+      "like": "Seria en tant que sœur, le parfait au chocolat, le sang des corrompus",
+      "dislike": "Seria en tant que chasseuse de vampires, les araignées",
+      "inn": {
+        "idle": "Han... Tout a l'air si appétissant...",
+        "recruit": {
+          "greet": "Je connais un jeu palpitant, ça vous dit ?",
+          "talk": [
+            "Qu'est-ce qui vous fait si peur ?",
+            "Quoi, vous avez peur que je vous morde ?",
+            "Vous n'aurez jamais autant palpité, je vous le garantis."
+          ],
+          "gift": "Ah ah, c'est inutile... Tendez-moi votre cou, tout ira bien..."
+        },
+        "affinity": {
+          "greet": "Ce n'est pas la première fois qu'on se voit... Ah ah ah. Comme on se retrouve.",
+          "talk": [
+            "Les vampires n'ont rien à voir avec les démons. Ceux de haut rang passent encore, mais dans l'ensemble, ils ne valent rien.",
+            "Le sang des corrompus a un goût de... d'extase. Oui, d'extase !"
+          ],
+          "gift": "Vous avez un goût agréable. Et vous êtes encore plus adorable à chaque fois que je vous vois !"
+        },
+        "relationship": {
+          "greet": "Prenez ceci pour vous rappeler de moi. Cette dent appartient à celui qui m'a mordue...",
+          "talk": [
+            "Hum, cette femme me court toujours après... Cette femme... est... ma sœur... Elle me manque... et en même temps, je veux la tuer... Hé hé !",
+            "C'est celui qui est venu la dernière fois. Il donnait son sang aux humains. Notre sang ne vaut rien sans notre volonté. Ça signifie qu'il donnait son sang volontairement... Je me demande ce qu'il a reçu en échange. J'aurais dû lui demander avant de le tuer.",
+            "Non, je ne retournerai jamais à ma vie d'avant. Hé hé, quoi ? Vous pensez que j'abandonnerais ce frisson et retournerais à mon quotidien désespéré ? Vous vous trompez ! C'est hors de question... mais... si je le faisais... Il n'y a qu'une chose qui m'y pousserait... Oui... Si je le faisais... ça serait pour elle."
+          ]
+        }
+      },
+      "uw": {
+        "name": "Perion, concentré d'avidité",
+        "description": [
+          "Chaque coup de compétence augmente l'ATQ et la Vit ATQ de 0,5 % pendant 15 sec. Cet effet peut être cumulé jusqu'à 80 fois.",
+          "Chaque coup de compétence augmente l'ATQ et la Vit ATQ de 0,5 % pendant 15 sec. Cet effet peut être cumulé jusqu'à 90 fois.",
+          "Chaque coup de compétence augmente l'ATQ et la Vit ATQ de 0,5 % pendant 15 sec. Cet effet peut être cumulé jusqu'à 110 fois.",
+          "Chaque coup de compétence augmente l'ATQ et la Vit ATQ de 0,5 % pendant 15 sec. Cet effet peut être cumulé jusqu'à 130 fois.",
+          "Chaque coup de compétence augmente l'ATQ et la Vit ATQ de 0,5 % pendant 15 sec. Cet effet peut être cumulé jusqu'à 160 fois.",
+          "Chaque coup de compétence augmente l'ATQ et la Vit ATQ de 0,5 % pendant 15 sec. Cet effet peut être cumulé jusqu'à 200 fois."
+        ],
+        "story": "Quand cela a-t-il commencé ? Cette soif inextinguible et la souffrance qui l'accompagne... Et quand j'étanche enfin ma soif... La haine que je te porte fait trembler mon cœur, Seria...... Ah, Seria. Je n'ai plus le choix. Il me faut cette puissance pour étancher ma soif éternelle. Cette source intarissable de puissance est le seul remède à ma souffrance infinie. Ah... Douce extase ! Plus... Il m'en faut plus."
+      },
+      "s1": {
+        "name": "Sang suave",
+        "description": "Inflige {0}  points de DEG P à tous les ennemis et leur dérobe des PV à hauteur de {1}  % des DEG infligés. Réduit le temps de recharge de [Sang suave] de {2}  sec à chaque coup porté et accumule 1 charge de [Sang suave]. [Sang suave] peut être accumulé jusqu'à {3}  fois, et son utilisation lorsque {3}  charges de [Sang suave] sont accumulées accorde {4}  coups supplémentaires et supprime les charges de [Sang suave].",
+        "books": {
+          "0": "DEG augmentés de {0}%.",
+          "1": "DEG augmentés de {0}%.",
+          "2": "DEG augmentés de {0}%."
+        },
+        "light": "Restaure 150 points de mana à chaque coup.",
+        "dark": "Chaque utilisation augmente les DEG de 10%. Cumulable 30 fois."
+      },
+      "s2": {
+        "name": "Hémorragie",
+        "description": "Dissipe tous les effets négatifs et confère l'immunité contre tous les contrôles, les DEG P et les DEG M pendant {0}  sec. Inflige 1 charge de [Hémorragie] à tous les ennemis, ainsi que 1 charge supplémentaire en infligeant [Hémorragie] à la cible. [Hémorragie] peut être accumulée jusqu'à {1}  fois. Inflige {2}  points de DEG P aux ennemis touchés par [Hémorragie] au bout de {0}  sec, et leur dérobe des PV à hauteur de {3}  % des DEG infligés. Toutes les {4}  charges de [Hémorragie], le nombre de coups augmente de 1 et l'attaque supprime les charges d'[Hémorragie].",
+        "books": {
+          "0": "DEG augmentés de {0}%.",
+          "1": "DEG augmentés de {0}%.",
+          "2": "DEG augmentés de {0}%."
+        },
+        "light": "Étourdit la cible pendant 3 sec.",
+        "dark": "Le coût en mana est réduit de 1.",
+        "ut": {
+          "name": "Vin de frisson",
+          "description": [
+            "[Hémorragie] Augmente les DEG d'[Hémorragie] de 50 % et réduit le temps de recharge d'[Hémorragie] de 5 sec.",
+            "[Hémorragie] Augmente les DEG d'[Hémorragie] de 50 % et réduit le temps de recharge d'[Hémorragie] de 6 sec.",
+            "[Hémorragie] Augmente les DEG d'[Hémorragie] de 50 % et réduit le temps de recharge d'[Hémorragie] de 7 sec.",
+            "[Hémorragie] Augmente les DEG d'[Hémorragie] de 50 % et réduit le temps de recharge d'[Hémorragie] de 8 sec.",
+            "[Hémorragie] Augmente les DEG d'[Hémorragie] de 50 % et réduit le temps de recharge d'[Hémorragie] de 9 sec.",
+            "[Hémorragie] Augmente les DEG d'[Hémorragie] de 50 % et réduit le temps de recharge d'[Hémorragie] de 10 sec."
+          ],
+          "story": "Vin élaboré par Erze elle-même à partir du sang de prêtres déchus. Son plus grand plaisir consiste à faire s'agenouiller devant elle ceux qui étaient auparavant considérés comme sacrés. Dans chaque bouteille se trouve une croix ensanglantée, et ceux qui entendent Erze boire une gorgée de vin tremblent au son de la croix qui tinte contre le verre."
+        }
+      },
+      "s3": {
+        "name": "Délivrance sanguine",
+        "description": "Toutes les {1}  sec, inflige {2}  points de DEG P à tous les ennemis pendant {0}  sec. Chaque coup de [Délivrance sanguine] assène un coup supplémentaire à 1 ennemi choisi au hasard.",
+        "books": {
+          "0": "DEG augmentés de {0}%.",
+          "1": "DEG augmentés de {0}%.",
+          "2": "DEG augmentés de {0}%."
+        },
+        "light": "Restaure 75 points de mana à chaque coup.",
+        "dark": "Le coût en Mana est augmenté de 1 orbe mes les DEG sont augmentés de 100%.",
+        "ut": {
+          "name": "Rouge à lèvres de la honte",
+          "description": [
+            "[Délivrance sanguine] Augmente les DEG de [Délivrance sanguine] de 20 % et confère l'immunité contre les contrôles pendant la durée de [Délivrance sanguine].",
+            "[Délivrance sanguine] Augmente les DEG de [Délivrance sanguine] de 24 % et confère l'immunité contre les contrôles pendant la durée de [Délivrance sanguine].",
+            "[Délivrance sanguine] Augmente les DEG de [Délivrance sanguine] de 29 % et confère l'immunité contre les contrôles pendant la durée de [Délivrance sanguine].",
+            "[Délivrance sanguine] Augmente les DEG de [Délivrance sanguine] de 35 % et confère l'immunité contre les contrôles pendant la durée de [Délivrance sanguine].",
+            "[Délivrance sanguine] Augmente les DEG de [Délivrance sanguine] de 42 % et confère l'immunité contre les contrôles pendant la durée de [Délivrance sanguine].",
+            "[Délivrance sanguine] Augmente les DEG de [Délivrance sanguine] de 50 % et confère l'immunité contre les contrôles pendant la durée de [Délivrance sanguine]."
+          ],
+          "story": "Rouge à lèvres dont la teinte provient du sang de ceux qui sont morts dans la honte. Ceux qui ont renoncé à leur dignité d'humain et cédé à leur insatiable désir n'ont pu échapper à Erze. Ils sont certes morts en extase, et peut-être même qu'ils seraient heureux de servir encore à Erze. Erze utilise ce rouge à lèvres pour laisser une trace sur le cou de ses proies après avoir bu leur sang."
+        }
+      },
+      "s4": {
+        "name": "Buveur de vie",
+        "description": "Increases ATK by {0} and Max HP by {1} upon killing an enemy. Upon taking lethal damage, casts [Soaking Blood] and reduces Max HP by {2}%. This effect does not occur if [Soaking Blood] is in Cooldown. Consumes all mana upon activation.",
+        "books": {
+          "0": "Augmente le boost d'ATQ et de PV max de {0}  %.",
+          "1": "Augmente le boost d'ATQ et de PV max de {0}  %.",
+          "2": "Augmente le boost d'ATQ et de PV max de {0}  %."
+        },
+        "light": "Augmente les PV max de 100 % lorsqu'un ennemi est vaincu et bascule la réduction de PV max à 33 % après avoir lancé automatiquement [Hémorragie].",
+        "dark": "Augmente l'ATQ de 200 % lorsqu'un ennemi est vaincu, mais l'augmentation des PV max ne s'applique pas."
+      },
+      "t5": {
+        "light": "ATQ, DEF, PV +15% / Chances Crit +100",
+        "dark": "Dérobe des PV à hauteur de 25 % des DEG infligés par la dernière attaque normale et accumule 1 charge de [Sang suave]."
+      }
+    },
     "57": {
       "name": "Lilia",
       "subtitle": "Fille de la tempête et de la mer",
       "description": "Ce dragon bleu adolescent est la sœur de Laias, la prêtresse de l'eau. Bien qu'elle soit encore inexpérimentée, ceux qui lui manquent de respect le regrettent amèrement. Elle puise son énergie dans l'eau pour anéantir ses ennemis.",
       "story": "Dieu-dragon de l'oasis et sœur de Laias, la prêtresse de l'eau. Elle n'est encore qu'un jeune dragon bleu débordant d'amour pour sa grande sœur. Il y a cent ans, lorsque Laias tomba dans un profond sommeil après avoir épuisé toutes ses forces au combat, Lilia dut défendre l'Autel des flots toute seule. Ce n'est que lorsqu'elle entendit les prières désespérées des enfants du désert qu'elle réveilla la prêtresse de l'eau pour les protéger. Contrairement à sa sœur, douce et attentionnée, elle se montre stricte, et sa manière de contrôler la force de l'eau est aussi plus agressive. Elle pense devoir protéger sa magnifique sœur contre les hommes, qu'elle trouve indignes et impudiques.",
       "like": "Laias, les boissons sucrées et le peuple du désert",
-      "dislike": "Les hommes qui tournent autour de sa sœur (Neraxis, Sereinel)",
+      "dislike": "Les hommes qui tournent autour de sa sœur (Neraxis, Cain)",
       "inn": {
         "idle": "Il y a... trop d'humains...",
         "recruit": {
@@ -6596,7 +6716,7 @@
           "greet": "Contente de vous revoir !",
           "talk": [
             "Neraxis ? Quel imbécile ! Il cherche toujours à accaparer l'attention de ma sœur !",
-            "Sereinel ? Beurk... Je croyais qu'il était parti pour de bon. Je n'arrive pas à croire qu'il fasse encore du gringue à ma sœur...",
+            "Cain ? Beurk... Je croyais qu'il était parti pour de bon. Je n'arrive pas à croire qu'il fasse encore du gringue à ma sœur...",
             "J'aime ma sœur plus que tout. Et vous... je vous aime bien aussi."
           ]
         }
@@ -6814,6 +6934,126 @@
         "dark": "Au début de chaque combat, confère l'immunité contre les contrôles pendant 5 sec, et augmente la précision et la précision des contrôles de 300 points pendant 10 sec."
       }
     },
+    "61": {
+      "name": "Neraxis",
+      "subtitle": "Arrogance d'obsidienne",
+      "description": "Descendant d'un dragon noir maître de la foudre noire, il s'est donné pour mission d'éradiquer les démons, en particulier les draconics. L'énergie de foudre noire contenue dans son pieu mécanique perce les défenses ennemies.",
+      "story": "Les dragons noirs sont réputés pour leur sale caractère et leur arrogance. Il y a 100 ans, la Guerre des démons leur a porté un sacré coup. Armarta fut gagné par la folie, Ashen Nox les a dépouillés, et les draconics commencèrent à traquer les dragons. Neraxis fut l'un des rares survivants et prépare sa revanche depuis lors.",
+      "like": "Laias",
+      "dislike": "Les démons, Cain, Lilia, et tout ce qui se trouve sur son passage.",
+      "inn": {
+        "idle": "Humpf. Mais qu'est-ce que je fiche ici ?",
+        "recruit": {
+          "greet": "Humpf, qu'est-ce qu'il me veut, l'humain ?",
+          "talk": [
+            "Vous ne valez pas la peine que je vous parle.",
+            "Qu'est-ce que vous voulez ?",
+            "Pff, ridicule."
+          ],
+          "gift": "Je ne sais pas ce que vous voulez, mais ça ne sert à rien."
+        },
+        "affinity": {
+          "greet": "Humpf, vous revoilà, l'humain.",
+          "talk": [
+            "Hein ? Vous voulez de l'aide ? Humpf, quel ennui...",
+            "Ah, exact. Les dragons noirs sont les plus forts !"
+          ],
+          "gift": "J'ai pas besoin de ça. Pourquoi gardez-vous..."
+        },
+        "relationship": {
+          "greet": "... Bon, d'accord, je suis content de vous voir ! Humpf...",
+          "talk": [
+            "Lilia ? Ah, la gamine agaçante ? Tss, elle ne fait que me gêner.",
+            "Mais pourquoi elle ne fiche pas le camp, cette momie ? Il y a des jours où j'ai vraiment envie de le tuer.",
+            "Pourquoi j'apprécie Laias ? Humpf, mais euh, ce sont des choses qui arrivent sans raison... Mais attendez ! Comment l'avez-vous su ?"
+          ]
+        }
+      },
+      "uw": {
+        "name": "Acravita, dragon rugissant",
+        "description": [
+          "Après avoir asséné 20 attaques normales, inflige des DEG M à hauteur de 100 % de l'ATQ à 2 ennemis choisis au hasard, les étourdit pendant 0,5 sec et évolue en Tempête de Neraxis pendant 10 sec. Tempête de Neraxis augmente la DEF P de tous les alliés à hauteur de 4 % de la DEF P du lanceur, et la DEF M à hauteur de 4 %.",
+          "Après avoir asséné 19 attaques normales, inflige des DEG M à hauteur de 100 % de l'ATQ à 2 ennemis choisis au hasard, les étourdit pendant 0,5 sec et évolue en Tempête de Neraxis pendant 10 sec. Tempête de Neraxis augmente la DEF P de tous les alliés à hauteur de 4,8 % de la DEF P du lanceur, et la DEF M à hauteur de 4,8 %.",
+          "Après avoir asséné 18 attaques normales, inflige des DEG M à hauteur de 100 % de l'ATQ à 2 ennemis choisis au hasard, les étourdit pendant 0,5 sec et évolue en Tempête de Neraxis pendant 10 sec. Tempête de Neraxis augmente la DEF P de tous les alliés à hauteur de 5,7 % de la DEF P du lanceur, et la DEF M à hauteur de 5,7 %.",
+          "Après avoir asséné 17 attaques normales, inflige des DEG M à hauteur de 100 % de l'ATQ à 2 ennemis choisis au hasard, les étourdit pendant 0,5 sec et évolue en Tempête de Neraxis pendant 10 sec. Tempête de Neraxis augmente la DEF P de tous les alliés à hauteur de 6,9 % de la DEF P du lanceur, et la DEF M à hauteur de 6,9 %.",
+          "Après avoir asséné 16 attaques normales, inflige des DEG M à hauteur de 100 % de l'ATQ à 2 ennemis choisis au hasard, les étourdit pendant 0,5 sec et évolue en Tempête de Neraxis pendant 10 sec. Tempête de Neraxis augmente la DEF P de tous les alliés à hauteur de 8,3 % de la DEF P du lanceur, et la DEF M à hauteur de 8,3 %.",
+          "Après avoir asséné 15 attaques normales, inflige des DEG M à hauteur de 100 % de l'ATQ à 2 ennemis choisis au hasard, les étourdit pendant 0,5 sec et évolue en Tempête de Neraxis pendant 10 sec. Tempête de Neraxis augmente la DEF P de tous les alliés à hauteur de 10 % de la DEF P du lanceur, et la DEF M à hauteur de 10 %."
+        ],
+        "story": "Arme fabriquée à partir d'un métal d'un noir parfait appelé adamantite et forgée dans les flammes noires avec la foudre d'un dragon noir. Elle renferme la rancune et la rage des dragons noirs massacrés lors de la Guerre des démons. Neraxis avait menacé les nains pour qu'ils forgent cette arme. Il l'a ensuite maudite et y a incrusté l'âme des dragons noirs, débordante de rancune. Mis à part Neraxis, il suffit d'effleurer cette arme pour entendre les rugissements de rage des dragons vengeurs."
+      },
+      "s1": {
+        "name": "Griffe de foudre noire",
+        "description": "Attire les ennemis devant la cible et leur inflige {0}  points de DEG M. Inflige également {1}  points de DEG M autour de la cible au bout de 1 sec et étourdit les ennemis pendant {2}  sec. Réduit la Vit ATQ des ennemis touchés de {4}  points pendant {3}  sec.",
+        "books": {
+          "0": "DEG augmentés de {0}%.",
+          "1": "DEG augmentés de {0}%.",
+          "2": "DEG augmentés de {0}%."
+        },
+        "light": "Augmente la durée d'Étourdissement de {0}  sec.",
+        "dark": "Augmente les DEG M subis par l'ennemi de 25 % pendant 10 sec."
+      },
+      "s2": {
+        "name": "Rugissement d'obsidienne",
+        "description": "Augmente l'ATQ, la DEF P et la DEF M de tous les alliés de {1}  points pendant {0}  sec. Inflige {2}  points de DEG M à tous les ennemis et réduit leur ATQ de {4}  % pendant {3}  sec.",
+        "books": {
+          "0": "Augmente le boost d'ATQ et de DEF de {0}  %.",
+          "1": "Augmente le boost d'ATQ et de DEF de {0}  %.",
+          "2": "Augmente le boost d'ATQ et de DEF de {0}  %."
+        },
+        "light": "Augmente le coût en mana de 1 point et le boost d'ATQ et de DEF de {0}  %.",
+        "dark": "Réduit la Vit ATQ de l'ennemi touché de {1}  points pendant {0}  sec.",
+        "ut": {
+          "name": "Souvenirs du dieu-dragon bleu",
+          "description": [
+            "[Rugissement d'obsidienne] Augmente le boost de DEF des alliés de 20 % et dissipe les effets positifs dont bénéficient tous les ennemis.",
+            "[Rugissement d'obsidienne] Augmente le boost de DEF des alliés de 24 % et dissipe les effets positifs dont bénéficient tous les ennemis.",
+            "[Rugissement d'obsidienne] Augmente le boost de DEF des alliés de 29 % et dissipe les effets positifs dont bénéficient tous les ennemis.",
+            "[Rugissement d'obsidienne] Augmente le boost de DEF des alliés de 35 % et dissipe les effets positifs dont bénéficient tous les ennemis.",
+            "[Rugissement d'obsidienne] Augmente le boost de DEF des alliés de 42 % et dissipe les effets positifs dont bénéficient tous les ennemis.",
+            "[Rugissement d'obsidienne] Augmente le boost de DEF des alliés de 50 % et dissipe les effets positifs dont bénéficient tous les ennemis."
+          ],
+          "story": "Accessoire capillaire égaré par Laias pendant qu'elle purifiait les eaux souillées par les démons. Neraxis l'a trouvé et conservé, mais il ne sait pas encore s'il va le rendre ou non. Laias n'est pas près de retrouver son bien."
+        }
+      },
+      "s3": {
+        "name": "Souffle de la destruction",
+        "description": "Inflige sur 6 coups un total de {0}  points de DEG M aux ennemis situés dans une grande zone autour de la cible et réduit leur DEF M de {2}  % pendant {1}  sec. Chaque coup étourdit l'ennemi pendant {3}  sec.",
+        "books": {
+          "0": "DEG augmentés de {0}%.",
+          "1": "DEG augmentés de {0}%.",
+          "2": "DEG augmentés de {0}%."
+        },
+        "light": "Réduit le coût en mana de 1 point.",
+        "dark": "Bascule la réduction de DEF M à 30 %.",
+        "ut": {
+          "name": "Vortex de rage",
+          "description": [
+            "[Souffle de la destruction] Augmente la durée d'Étourdissement de 1 sec et réduit de 3 sec le temps de recharge de Souffle de la destruction.",
+            "[Souffle de la destruction] Augmente la durée d'Étourdissement de 1 sec et réduit de 4 sec le temps de recharge de Souffle de la destruction.",
+            "[Souffle de la destruction] Augmente la durée d'Étourdissement de 1 sec et réduit de 5 sec le temps de recharge de Souffle de la destruction.",
+            "[Souffle de la destruction] Augmente la durée d'Étourdissement de 1 sec et réduit de 6 sec le temps de recharge de Souffle de la destruction.",
+            "[Souffle de la destruction] Augmente la durée d'Étourdissement de 1 sec et réduit de 7 sec le temps de recharge de Souffle de la destruction.",
+            "[Souffle de la destruction] Augmente la durée d'Étourdissement de 1 sec et réduit de 8 sec le temps de recharge de Souffle de la destruction."
+          ],
+          "story": "Fabriqué à partir d'un de ses crocs, ce pieu renferme la rage ardente de Neraxis. Lorsqu'il l'utilise pour attaquer ses ennemis, l'énergie qu'il contient, mêlée à la puissance de Neraxis, déferle sur les ennemis à une vitesse vertigineuse. Il est suffisamment puissant pour pénétrer tout ce qu'il rencontre et démembrer ceux qui s'en approchent."
+        }
+      },
+      "s4": {
+        "name": "Peau de dragon noir",
+        "description": "Augmente la DEF P et la DEF M de {0}  points et réduit les DEG P et DEG M subis de {1}  %.",
+        "books": {
+          "0": "Augmente le boost de DEF de {0}  %.",
+          "1": "Augmente le boost de DEF de {0}  %.",
+          "2": "Augmente le boost de DEF de {0}  %."
+        },
+        "light": "La Vit ATQ est augmentée de 300",
+        "dark": "Lorsque les PV chutent en dessous de {0}  %, l'effet des compétences augmente de {1}  %."
+      },
+      "t5": {
+        "light": "ATQ, DEF, PV +15% / Résist. Contrôles +100",
+        "dark": "Au début de chaque combat, réduit les DEG que les ennemis non-héros infligent à tous les alliés (à l'exception de Neraxis) de {1}  % pendant {0}  sec."
+      }
+    },
     "62": {
       "name": "Scarlet",
       "subtitle": "Foi d'Argent",
@@ -6863,7 +7103,7 @@
       },
       "s1": {
         "name": "Taille!",
-        "description": "Inflige {0} points de DEG P. aux ennemis à portée vers l'avant, et les renverse pendant 3 sec. Le Héros récupère ses PV proportionnellement à 30% des DEG.",
+        "description": "Attaque tous les ennemis situés en face, ce qui leur inflige {0}  points de DEG P et les renverse pendant 3 sec. Si la cible n'est pas un héros, inflige {1}  points de DEG P supplémentaires. Restaure les PV à hauteur de 30 % des DEG infligés.",
         "books": {
           "0": "DEG augmentés de {0}%.",
           "1": "DEG augmentés de {0}%.",
@@ -6880,7 +7120,7 @@
           "1": "DEG augmentés de {0}%.",
           "2": "DEG augmentés de {0}%."
         },
-        "light": "Le coût en Mana est réduit de 1.",
+        "light": "Si la cible n'est pas un héros, elle est étourdie pendant 4 sec.",
         "dark": "La Résistance aux Crit P. de tous les alliés est augmentée de 200 pendant 10 sec.",
         "ut": {
           "name": "Ailes de la justice",
@@ -8060,12 +8300,12 @@
       "uw": {
         "name": "Vague de protection, Gaiamenes",
         "description": [
-          "Fierté d'Orvelia s'accumule à chaque utilisation des compétences. Fierté d'Orvelia ne peut être dissipée et, quand elle est cumulée 4 fois, Bénédiction d'Orvelia s'active, infligeant 200 % d'ATQ sous forme de DEG P aux ennemis dans une large zone et augmentant la Résistance P. faible des cibles de 25 % pendant 10 secondes. Bénédiction d'Orvelia augmente également la DEF M. de 10 % pendant 10 secondes. Pendant toute la durée de Bénédiction d'Orvelia, Fierté d'Orvelia ne se cumule plus.",
-          "Pride of Orvelia' is stacked on every use of skills. 'Pride of Orvelia' cannot be dispelled, and when stacked 3 times, 'Blessing of Orvelia' is activated, dealing 240% of ATK as P.DMG to enemies within a wide range and increasing P.Weakness of the targets by 30% for 20 seconds. 'Blessing of Orvelia' also increases M.DEF by 12% for 10 seconds.",
-          "Pride of Orvelia' is stacked on every use of skills. 'Pride of Orvelia' cannot be dispelled, and when stacked 3 times, 'Blessing of Orvelia' is activated, dealing 290% of ATK as P.DMG to enemies within a wide range and increasing P.Weakness of the targets by 36% for 20 seconds. 'Blessing of Orvelia' also increases M.DEF by 14% for 10 seconds.",
-          "Pride of Orvelia' is stacked on every use of skills. 'Pride of Orvelia' cannot be dispelled, and when stacked 3 times, 'Blessing of Orvelia' is activated, dealing 350% of ATK as P.DMG to enemies within a wide range and increasing P.Weakness of the targets by 43% for 20 seconds. 'Blessing of Orvelia' also increases M.DEF by 17% for 10 seconds.",
-          "Pride of Orvelia' is stacked on every use of skills. 'Pride of Orvelia' cannot be dispelled, and when stacked 3 times, 'Blessing of Orvelia' is activated, dealing 420% of ATK as P.DMG to enemies within a wide range and increasing P.Weakness of the targets by 51% for 20 seconds. 'Blessing of Orvelia' also increases M.DEF by 21% for 10 seconds.",
-          "Pride of Orvelia' is stacked on every use of skills. 'Pride of Orvelia' cannot be dispelled, and when stacked 3 times, 'Blessing of Orvelia' is activated, dealing 500% of ATK as P.DMG to enemies within a wide range and increasing P.Weakness of the targets by 60% for 20 seconds. 'Blessing of Orvelia' also increases M.DEF by 25% for 10 seconds."
+          "Fierté d'Orvelia s'accumule à chaque utilisation des compétences. Fierté d'Orvelia ne peut être dissipée et, quand elle est cumulée 4 fois, Bénédiction d'Orvelia s'active, infligeant 200 % d'ATQ sous forme de DEG P aux ennemis dans une large zone et augmentant la Résistance P. faible des cibles de 25 % pendant 10 secondes. Bénédiction d'Orvelia augmente également la DEF M. de 10 % pendant 10 secondes.",
+          "Fierté d'Orvelia s'accumule à chaque utilisation des compétences. Fierté d'Orvelia ne peut être dissipée et, quand elle est cumulée 4 fois, Bénédiction d'Orvelia s'active, infligeant 240 % d'ATQ sous forme de DEG P aux ennemis dans une large zone et augmentant la Résistance P. faible des cibles de 30 % pendant 10 secondes. Bénédiction d'Orvelia augmente également la DEF M. de 12 % pendant 10 secondes.",
+          "Fierté d'Orvelia s'accumule à chaque utilisation des compétences. Fierté d'Orvelia ne peut être dissipée et, quand elle est cumulée 4 fois, Bénédiction d'Orvelia s'active, infligeant 290 % d'ATQ sous forme de DEG P aux ennemis dans une large zone et augmentant la Résistance P. faible des cibles de 36 % pendant 10 secondes. Bénédiction d'Orvelia augmente également la DEF M. de 14 % pendant 10 secondes.",
+          "Fierté d'Orvelia s'accumule à chaque utilisation des compétences. Fierté d'Orvelia ne peut être dissipée et, quand elle est cumulée 4 fois, Bénédiction d'Orvelia s'active, infligeant 350 % d'ATQ sous forme de DEG P aux ennemis dans une large zone et augmentant la Résistance P. faible des cibles de 43 % pendant 10 secondes. Bénédiction d'Orvelia augmente également la DEF M. de 17 % pendant 10 secondes.",
+          "Fierté d'Orvelia s'accumule à chaque utilisation des compétences. Fierté d'Orvelia ne peut être dissipée et, quand elle est cumulée 4 fois, Bénédiction d'Orvelia s'active, infligeant 420 % d'ATQ sous forme de DEG P aux ennemis dans une large zone et augmentant la Résistance P. faible des cibles de 51 % pendant 10 secondes. Bénédiction d'Orvelia augmente également la DEF M. de 21 % pendant 10 secondes.",
+          "Fierté d'Orvelia s'accumule à chaque utilisation des compétences. Fierté d'Orvelia ne peut être dissipée et, quand elle est cumulée 4 fois, Bénédiction d'Orvelia s'active, infligeant 500 % d'ATQ sous forme de DEG P aux ennemis dans une large zone et augmentant la Résistance P. faible des cibles de 60 % pendant 10 secondes. Bénédiction d'Orvelia augmente également la DEF M. de 25 % pendant 10 secondes."
         ],
         "story": "Cette hallebarde était portée par une statue antique défendant les portes du labyrinthe royal récemment découvert. Vieille et usée, la statue la tenait fermement, comme si elle voulait protéger le labyrinthe de toute intrusion. Loman, qui était chargé des fouilles du labyrinthe, sentit à quel point la statue était sublime et lui rendit les honneurs. Alors, la statue lâcha la hallebarde avant de tomber en poussière. L'arme elle-même semblait intacte et possédait une mystérieuse énergie. « La statue lâcha la hallebarde avant de tomber en poussière... » dit Scarlet, lisant le rapport. « Oui, madame. » Scarlet leva les yeux vers Loman. « Protéger un lieu avec une indéfectible loyauté jusqu'à ce que son corps finisse par lâcher... Je connais un homme comme cela. » « Je vous demande pardon, madame ? » Il regarda Scarlet avec étonnement. Souriante, elle lui tendait la hallebarde."
       },
