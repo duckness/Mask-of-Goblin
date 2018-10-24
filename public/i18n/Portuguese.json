@@ -219,12 +219,12 @@
     "20": {
       "name": "Talismãs de Resistência",
       "description": [
-        "Remove as penalidades ao recebê-las. Após a remoção, ganha imunidade a CM durante 1 segundo. Tempo de Recarga: 20 segundos.",
-        "Remove as penalidades ao recebê-las. Após a remoção, ganha imunidade a CM durante 1,5 segundo. Tempo de Recarga: 19 segundos.",
-        "Remove as penalidades ao recebê-las. Após a remoção, ganha imunidade a CM durante 2 segundo. Tempo de Recarga: 18 segundos.",
-        "Remove as penalidades ao recebê-las. Após a remoção, ganha imunidade a CM durante 2,5 segundo. Tempo de Recarga: 17 segundos.",
-        "Remove as penalidades ao recebê-las. Após a remoção, ganha imunidade a CM durante 3 segundo. Tempo de Recarga: 16 segundos.",
-        "Remove as penalidades ao recebê-las. Após a remoção, ganha imunidade a CM durante 3,5 segundo. Tempo de Recarga: 15 segundos."
+        "Remove todos os efeitos negativos ao receber um. Após, recebe imunidade a CM por 1 seg. Aplica-se um tempo de recarga de 20 seg.",
+        "Remove todos os efeitos negativos ao receber um. Após, recebe imunidade a CM por 1,5 seg. Aplica-se um tempo de recarga de 19 seg.",
+        "Remove todos os efeitos negativos ao receber um. Após, recebe imunidade a CM por 2 seg. Aplica-se um tempo de recarga de 18 seg.",
+        "Remove todos os efeitos negativos ao receber um. Após, recebe imunidade a CM por 2,5 seg. Aplica-se um tempo de recarga de 17 seg.",
+        "Remove todos os efeitos negativos ao receber um. Após, recebe imunidade a CM por 3 seg. Aplica-se um tempo de recarga de 16 seg.",
+        "Remove todos os efeitos negativos ao receber um. Após, recebe imunidade a CM por 3,5 seg. Aplica-se um tempo de recarga de 15 seg."
       ],
       "story": "Uma pilha de antigos e exóticos talismãs que afastam espíritos maléficos. Quando usados, tornam-se inúteis por um tempo."
     },
@@ -504,6 +504,42 @@
       ],
       "story": "Uma amarra flamejante de Velkazar, o Carrasco Cria Infernal. Foi encantada com Magia Negra para controlar o poder transbordante."
     },
+    "47": {
+      "name": "Livro dos Loucos",
+      "description": [
+        "A cada segundo, reduz o próprio Mana em 100, mas aumenta o DAN infligido aos inimigos em 14%.",
+        "A cada segundo, reduz o próprio Mana em 120, mas aumenta o DAN infligido aos inimigos em 17%.",
+        "A cada segundo, reduz o próprio Mana em 140, mas aumenta o DAN infligido aos inimigos em 21%.",
+        "A cada segundo, reduz o próprio Mana em 170, mas aumenta o DAN infligido aos inimigos em 25%.",
+        "A cada segundo, reduz o próprio Mana em 210, mas aumenta o DAN infligido aos inimigos em 30%.",
+        "A cada segundo, reduz o próprio Mana em 250, mas aumenta o DAN infligido aos inimigos em 35%."
+      ],
+      "story": ""
+    },
+    "48": {
+      "name": "Flauta Mágica",
+      "description": [
+        "A cada 8 seg., aumenta a Vel. de ATQ de 2 aliados aleatórios e do conjurador em 100 por 4 seg.",
+        "A cada 8 seg., aumenta a Vel. de ATQ de 2 aliados aleatórios e do conjurador em 120 por 4 seg.",
+        "A cada 8 seg., aumenta a Vel. de ATQ de 2 aliados aleatórios e do conjurador em 140 por 4 seg.",
+        "A cada 8 seg., aumenta a Vel. de ATQ de 2 aliados aleatórios e do conjurador em 170 por 4 seg.",
+        "A cada 8 seg., aumenta a Vel. de ATQ de 2 aliados aleatórios e do conjurador em 210 por 4 seg.",
+        "A cada 8 seg., aumenta a Vel. de ATQ de 2 aliados aleatórios e do conjurador em 250 por 4 seg."
+      ],
+      "story": ""
+    },
+    "49": {
+      "name": "Leão da Proteção",
+      "description": [
+        "Aumenta a própria DEF F. em 20% e o Bloq. F. em 100.",
+        "Aumenta a própria DEF F. em 24% e o Bloq. F. em 120.",
+        "Aumenta a própria DEF F. em 29% e o Bloq. F. em 140.",
+        "Aumenta a própria DEF F. em 35% e o Bloq. F. em 170.",
+        "Aumenta a própria DEF F. em 42% e o Bloq. F. em 210.",
+        "Aumenta a própria DEF F. em 50% e o Bloq. F. em 250."
+      ],
+      "story": ""
+    },
     "51": {
       "name": "Cabeça de Abóbora Zangada",
       "description": [
@@ -611,6 +647,30 @@
         "Quando a batalha começa, aumenta DAN a inimigos não Heróis em 50% por 30s, e recupera Mana em 500 a cada 5s."
       ],
       "story": "Um colar magnífico digno de um Coelho da Lua LuLu. É feito de fragmentos refinados de lua cheia. O poder mágico da lua cheia permeia o corpo inteiro do usuário assim que o colar é usado."
+    },
+    "61": {
+      "name": "Cabeça de Abóbora Feliz",
+      "description": [
+        "A cada 7 seg., aumenta a Taxa de Cura em 2% e cura o PV em 100% do ATQ. O aumento da taxa de cura pode ser acumulado até 15 vezes e não pode ser removido.",
+        "A cada 7 seg., aumenta a Taxa de Cura em 2.4% e cura o PV em 120% do ATQ. O aumento da taxa de cura pode ser acumulado até 15 vezes e não pode ser removido.",
+        "A cada 7 seg., aumenta a Taxa de Cura em 2,8% e cura o PV em 140% do ATQ. O aumento da taxa de cura pode ser acumulado até 15 vezes e não pode ser removido.",
+        "A cada 7 seg., aumenta a Taxa de Cura em 3,4% e cura o PV em 170% do ATQ. O aumento da taxa de cura pode ser acumulado até 15 vezes e não pode ser removido.",
+        "A cada 7 seg., aumenta a Taxa de Cura em 4,2% e cura o PV em 210% do ATQ. O aumento da taxa de cura pode ser acumulado até 15 vezes e não pode ser removido.",
+        "A cada 7 seg., aumenta a Taxa de Cura em 5% e cura o PV em 250% do ATQ. O aumento da taxa de cura pode ser acumulado até 15 vezes e não pode ser removido."
+      ],
+      "story": ""
+    },
+    "62": {
+      "name": "Cabeça de Abóbora Surpresa.",
+      "description": [
+        "Quando afetado por CM, recupera a Mana em 12% imediatamente e aumenta a Vel. de ATQ em 200 por 5 seg. Esse efeito é ativado uma vez a cada 30 seg.",
+        "Quando afetado por CM, recupera a Mana em 14% imediatamente e aumenta a Vel. de ATQ em 240 por 5 seg. Esse efeito é ativado uma vez a cada 30 seg.",
+        "Quando afetado por CM, recupera a Mana em 17% imediatamente e aumenta a Vel. de ATQ em 290 por 5 seg. Esse efeito é ativado uma vez a cada 30 seg.",
+        "Quando afetado por CM, recupera a Mana em 21% imediatamente e aumenta a Vel. de ATQ em 350 por 5 seg. Esse efeito é ativado uma vez a cada 30 seg.",
+        "Quando afetado por CM, recupera a Mana em 25% imediatamente e aumenta a Vel. de ATQ em 420 por 5 seg. Esse efeito é ativado uma vez a cada 30 seg.",
+        "Quando afetado por CM, recupera a Mana em 30% imediatamente e aumenta a Vel. de ATQ em 500 por 5 seg. Esse efeito é ativado uma vez a cada 30 seg."
+      ],
+      "story": ""
     }
   },
   "hero": {
@@ -2647,7 +2707,7 @@
           "2": "Aumenta a Penetração da DEF em {0} , durante o efeito do poder."
         },
         "light": "Para cada acúmulo, o DAN aumenta em 4% para inimigos que não sejam heróis.",
-        "dark": "Com 5 ou mais acúmulos, aumenta Todas as Resistências em 20%."
+        "dark": "Com 5 ou mais acúmulos, redução de 20% no DAN F. e no DAN M."
       },
       "t5": {
         "light": "ATQ, DEF, PV+15% / DAN Crít. +20%",
@@ -6480,7 +6540,7 @@
       },
       "s4": {
         "name": "Prepação da Caça",
-        "description": "Crow não é afetado por mudanças na Vel. de ATQ. O ATQ aumenta em {0} e o DAN Crít. aumenta em {1}%. Recupera {2} de MP a cada seg. Também deixa “Marca da Presa do Cão de Caça” no alvo por 40 seg. ao usar um ataque normal.",
+        "description": "Crow não é afetado por mudanças na Vel. de ATQ. O ATQ aumenta em {0} e o DAN Crít. aumenta em {1}%. Recupera {2} de MP a cada seg. Também deixa 'Marca da Presa do Cão de Caça' no alvo por 40 seg. ao usar um ataque normal.",
         "books": {
           "0": "Aumenta a Taxa de Aumento de ATQ em {0}%.",
           "1": "Aumenta a Taxa de Aumento de ATQ em {0}%.",
@@ -6614,11 +6674,135 @@
         "dark": "Todos os efeitos de maldição são aumentados. [Maldição de Petrificação] Duração de Petrificação é aumentada em 2 seg. [Maldição do Tempo] Duração da Maldição do Tempo é aumentada em 3 seg. [Maldição da Dor] Aumenta a duração da Maldição da Dor em 50%."
       }
     },
+    "55": {
+      "name": "Seria",
+      "subtitle": "Sombra do Abismo",
+      "description": "Seria é a 101ª herdeira. dos ShadowHilt, uma família de caçadores que exterminam criaturas sobrenaturais não humanas. Ela veio da distante Orvelia como caçadora de vampiros, buscando vingança contra a irmã que virou vampira e chacinou seus companheiros. Seria também quer matar sua irmã mais nova para livrá-la do destino cruel.",
+      "story": "A 101ª Herdeira de ShadowHilt e irmã de Erze. As pessoas a chamam de sangue-frio por sua atitude hostil, mas ela costumava ser toda sorrisos quando estava perto de sua amada irmã, Erze. Seria sempre sentia pena de sua frágil irmã e era superprotetora com ela, sem perceber que deixava Erze em maior desespero. Um dia, Erze caiu em uma armadilha durante uma missão. Ela foi salva, mas sua doença começou a piorar dramaticamente. Enquanto isso, Seria foi enviada para a Montanha Gélida de Windland para seguir os rastros da Princesa Vampira. Ela teve um vislumbre do que estava acontecendo com sua irmã, mas partiu para a missão de prioridade máxima, rezando para que estivesse errada. Entretanto, a tragédia atingiu as irmãs como se zombasse das orações de Seria. - Oh, minha amada irmã, Seria! Seria voltou para encontrar os cadáveres de seus camaradas no chão, frios como gelo. Erze a recebeu com duas presas afiadas, sedenta de sangue. Seria tremeu, tomada por ondas de emoções. Seu coração estava partido, mas ela falou num tom frio e calmo. Você... você não é mais minha irmãzinha. Você é uma sanguessuga imunda.",
+      "like": "Sua irmã Erze, parfait de morango, boas espadas, a lua.",
+      "dislike": "Erze Vampira, aranhas",
+      "inn": {
+        "idle": "Está quente aqui.",
+        "recruit": {
+          "greet": "Tudo bem.",
+          "talk": [
+            "Parece que ainda está seguro nesta rua noturna.",
+            "Você tem bons companheiros. Companheiros... Ha.",
+            "Será que consigo voltar a confiar em alguém de novo...?"
+          ],
+          "gift": "Não estou aceitando pedidos no momento. Tenho meus motivos."
+        },
+        "affinity": {
+          "greet": "Eu não falei que não aceitava pedidos?",
+          "talk": [
+            "Estou aqui para encontrar alguém. Eu não tenho que dizer quem é, tenho?... É minha irmã. Estou procurando minha irmã.",
+            "Estamos nos esbarrando com frequência. Você também está procurando alguém aqui? Se for algum companheiro ou família, seja grato por tê-los..."
+          ],
+          "gift": "... Obrigada, eu... Sinto muito, isso significa muito pra mim."
+        },
+        "relationship": {
+          "greet": "Ah, ei... Como você está?",
+          "talk": [
+            "Todas aquelas noites infernais em que Erze sofreu em agonia... Eu falhei em ajudá-la. Talvez o que aconteceu com ela tenha sido minha culpa. Sim, é tudo minha culpa...",
+            "O máximo que posso fazer por ela é assegurar que sua alma descanse em paz. Não há outro jeito. Sempre que eu penso nisso, sinto meu coração partindo de novo... Minha mente se recusa a erguer a espada contra minha irmã.",
+            "Eu... Eu queria agradecer. Agradecer por ter falado comigo... por ter me ouvido. Se nos encontrarmos de novo, então..."
+          ]
+        }
+      },
+      "uw": {
+        "name": "Executor dos Domínios, Elsion",
+        "description": [
+          "A própria Taxa de Cura é reduzida em 20%. Após um acerto crítico de poder, aumenta o DAN M. em 30% do ATQ. Reduz a Taxa de Cura do alvo em 24% por 5 seg. e aumenta a própria Taxa de Cura em 4% por 20 seg. O efeito do aumento da Taxa de Cura pode ser acumulado até 5 vezes.",
+          "Reduz a Taxa de Cura em 20%. Após um acerto crítico de poder, aumenta o DAN M. em 36% do ATQ. Reduz a Taxa de Cura do alvo em 29% por 5 seg. e aumenta a Taxa de Cura do conjurador em 5% por 20 seg. O efeito do aumento da Taxa de Cura pode ser acumulado até 5 vezes.",
+          "Reduz a Taxa de Cura em 20%. Após um acerto crítico de poder, aumenta o DAN M. em 42% do ATQ. Reduz a Taxa de Cura do alvo em 35% por 5 seg. e aumenta a Taxa de Cura do conjurador em 6% por 20 seg. O efeito do aumento da Taxa de Cura pode ser acumulado até 5 vezes.",
+          "Reduz a Taxa de Cura em 20%. Após um acerto crítico de poder, aumenta o DAN M. em 51% do ATQ. Reduz a Taxa de Cura do alvo em 42% por 5 seg. e aumenta a Taxa de Cura do conjurador em 7% por 20 seg. O efeito do aumento da Taxa de Cura pode ser acumulado até 5 vezes.",
+          "Reduz a Taxa de Cura em 20%. Após um acerto crítico de poder, aumenta o DAN M. em 63% do ATQ. Reduz a Taxa de Cura do alvo em 50% por 5 seg. e aumenta a Taxa de Cura do conjurador em 9% por 20 seg. O efeito do aumento da Taxa de Cura pode ser acumulado até 5 vezes.",
+          "Reduz a Taxa de Cura em 20%. Após um acerto crítico de poder, aumenta o DAN M. em 75% do ATQ. Reduz a Taxa de Cura do alvo em 60% por 5 seg. e aumenta a Taxa de Cura do conjurador em 10% por 20 seg. O efeito do aumento da Taxa de Cura pode ser acumulado até 5 vezes."
+        ],
+        "story": "Uma espada de autoridade passou para os mestres de ShadowHilt. Esta espada contém o poder de seres poderosos que fizeram um pacto para servir aos ShadowHilt. Alguns deles eram Elementais, alguns eram espíritos inocentes e outros até mesmo demônios. Sabe-se que dezenas de milhares de forças do mal sucumbiram por esta espada. Ela também tem uma qualidade demoníaca que liga o espírito do mal derrotado à lâmina. Apesar de seu grande poder, menos de 5 pessoas em 600 anos foram capazes de empunhar esta espada. Seria, a 101ª herdeira de ShadowHilt e a única mestre na história escolhida pela espada, fez um pacto com a espada para dar paz à sua amada irmã."
+      },
+      "s1": {
+        "name": "Espada Misteriosa - Pétalas Cadentes",
+        "description": "Realiza um corte horizontal na frente e causa {0} de DAN M. ao alvo e sua área imediata. Pode ativar [Espada Misteriosa - Florescer] uma vez dentro de 5 seg. após o uso.",
+        "books": {
+          "0": "DAN aumenta em {0}%.",
+          "1": "DAN aumenta em {0}%.",
+          "2": "DAN aumenta em {0}%."
+        },
+        "light": "[Mysterious Sword - Falling Petals] - Mana cost is reduced by 1. [Mysterious Sword - Blossom] - Hit enemies' heal rate is reduced by 50% for 5 sec.",
+        "dark": "[Mysterious Sword - Falling Petals] - Target takes 25% increased M.DMG for 10 sec. [Mysterious Sword - Blossom] - Mana cost is increased by 1, and Ignores enemy's DEF.",
+        "linked": {
+          "name": "Espada Misteriosa - Florescer",
+          "description": "Realiza um corte vertical na frente e causa {0} de DAN M. ao alvo e sua área imediata."
+        }
+      },
+      "s2": {
+        "name": "Lâmina Sanguinária",
+        "description": "Rapidly charges forward to deal {0} M.DMG and inflicts irremovable Original Sin of Blood on enemies for {1} sec. Enemies under Original Sin of Blood have their ATK Spd reduced by {2}. Shortly afterward, attacks enemies under Original Sin of Blood 2 times, and deals additional {3} M.DMG, and if the target is not a hero, deals additional {4} DEF Ignoring M.DMG.",
+        "books": {
+          "0": "DAN aumenta em {0}%.",
+          "1": "DAN aumenta em {0}%.",
+          "2": "DAN aumenta em {0}%."
+        },
+        "light": "Reduz o Custo de Mana em 1.",
+        "dark": "A cada DAN causado, recupera 200 de Mana.",
+        "ut": {
+          "name": "Anel do Abismo",
+          "description": [
+            "[Lâmina Sanguinária] Aumenta o DAN em 50% e reduz o Bloq. M. dos inimigos afetados em 200.",
+            "[Lâmina Sanguinária] Aumenta o DAN em 50% e reduz o Bloq. M. dos inimigos afetados em 240.",
+            "[Lâmina Sanguinária] Aumenta o DAN em 50% e reduz o Bloq. M. dos inimigos afetados em 290.",
+            "[Lâmina Sanguinária] Aumenta o DAN em 50% e reduz o Bloq. M. dos inimigos afetados em 350.",
+            "[Lâmina Sanguinária] Aumenta o DAN em 50% e reduz o Bloq. M. dos inimigos afetados em 420.",
+            "[Lâmina Sanguinária] Aumenta o DAN em 50% e reduz o Bloq. M. dos inimigos afetados em 500."
+          ],
+          "story": "Um anel de prata representando ShadowHilt. Seria o toca sempre que sente que sua vida não tem sentido. Isso a lembra de seus companheiros mortos, enchendo seu coração com desejo de vingança contra sua irmã, Erze. Ironicamente, o anel tem uma nota escrita por Erze, que a escondeu na joia quando era jovem, mas Seria ainda não sabe disso."
+        }
+      },
+      "s3": {
+        "name": "Lâmina da Lua Vermelha",
+        "description": "Brandishes a moon-bloodying sword, dealing {0} M.DMG to enemies in a wide range, and additional {1} M.DMG on non-Hero enemies. When the moon is ripe, gains Moonlight for {2} sec, and when cast at this state, deals {3} M.DMG to enemies and reduces their Heal Rate by {4}%. If the target is not a hero, deals additional {5} M.DMG.The caster is not affected by ATK Spd related effects while casting.",
+        "books": {
+          "0": "DAN aumenta em {0}%.",
+          "1": "DAN aumenta em {0}%.",
+          "2": "DAN aumenta em {0}%."
+        },
+        "light": "Os efeitos positivos de todos os inimigos na área são removidos.",
+        "dark": "Aumenta o Custo de Mana em 1 e ignora a DEF ao atacar inimigos não Heróis.",
+        "ut": {
+          "name": "Esclarecedora Luz de Vela",
+          "description": [
+            "[Lâmina da Lua Vermelha] Ganha imunidade a CM enquanto o poder durar. Quando a batalha começa, aumenta o DAN em 70% por 4 vez.",
+            "[Lâmina da Lua Vermelha] Ganha imunidade a CM enquanto o poder durar. Quando a batalha começa, aumenta o DAN em 70% por 5 vez.",
+            "[Lâmina da Lua Vermelha] Ganha imunidade a CM enquanto o poder durar. Quando a batalha começa, aumenta o DAN em 70% por 6 vez.",
+            "[Lâmina da Lua Vermelha] Ganha imunidade a CM enquanto o poder durar. Quando a batalha começa, aumenta o DAN em 70% por 7 vez.",
+            "[Lâmina da Lua Vermelha] Ganha imunidade a CM enquanto o poder durar. Quando a batalha começa, aumenta o DAN em 70% por 9 vez.",
+            "[Lâmina da Lua Vermelha] Ganha imunidade a CM enquanto o poder durar. Quando a batalha começa, aumenta o DAN em 70% por 10 vez."
+          ],
+          "story": "A vela que historicamente ficava sobre a mesa do salão de assembleia onde antigos guerreiros de diferentes continentes se reuniram para derrotar seres sobrenaturais. Ardendo sobre esta vela antiga há uma chama azul de exorcismo. Quando a chama toca um ser maligno, suga a vitalidade do corpo da criatura. Esse é o primeiro material que Seria usa sempre que afia sua espada."
+        }
+      },
+      "s4": {
+        "name": "Bruxa de Sangue Frio",
+        "description": "O ATQ recebe um aumento de {0}. Após um acerto crítico do poder, o próprio DAN Crít. recebe um aumento de {1}%. Esse efeito pode ser acumulado até 30 vezes.",
+        "books": {
+          "0": "Taxa de aumento de ataque aumenta em {0}%.",
+          "1": "Taxa de aumento de ataque aumenta em {0}%.",
+          "2": "Taxa de aumento de ataque aumenta em {0}%."
+        },
+        "light": "Recebe 0.7% de DAN a menos por acúmulo.",
+        "dark": "Quando a batalha começa, aumenta o DAN a inimigos não Heróis em 25% por 200 seg."
+      },
+      "t5": {
+        "light": "ATQ, DEF, PV+15% / DAN Crít. +20%",
+        "dark": "Todos os ataques do conjurador serão acertos críticos, mas o conjurador fica impossibilitado de bloquear e recebe danos 30% maiores."
+      }
+    },
     "56": {
       "name": "Erze",
       "subtitle": "Sede eterna",
       "description": "Ela era uma caçadora de vampiros, como sua irmã Seria. No entanto, corrompida pelo próprio poder, ela massacrou seus companheiros e decidiu se tornar uma vampira. Após matar e absorver os poderes do vampiro que a transformou, ela fugiu de Seria, sua irmã mais velha e única sobrevivente, e mudou-se para Orvelia.",
-      "story": "Segunda filha da família Shadow Hilt, Erze seguiu o exemplo de Seria, sua querida irmã, e se tornou uma caçadora de vampiros. O físico frágil de Erze a impediu de aprender a lutar com espadas, mas ela ganhou fama como caçadora graças ao seu talento com magia. Um dia, ela caiu em uma armadilha durante uma operação e foi mordida no ombro por um vampiro misterioso. Seu corpo ficou ainda mais debilitado, e ela sofria com dores de cabeça e sede toda noite. Erze sabia o que isso significava, e pelo que estava passando. Ela escondeu a mordida e procurou sozinha por uma cura, afastando-se de seus companheiros. Enquanto isso, Seria foi enviada à Montanha Gélida de Windland para investigar a Princesa Vampira desaparecida há 100 anos. No dia em que sua irmã partiu... - Ahh, Seria... Não consigo mais controlar... Silenciosa e secretamente, Erze começou a cortar a garganta de seus companheiros.",
+      "story": "Segunda filha da família ShadowHilt, Erze seguiu o exemplo de Seria, sua querida irmã, e se tornou uma caçadora de vampiros. O físico frágil de Erze a impediu de aprender a lutar com espadas, mas ela ganhou fama como caçadora graças ao seu talento com magia. Um dia, ela caiu em uma armadilha durante uma operação e foi mordida no ombro por um vampiro misterioso. Seu corpo ficou ainda mais debilitado, e ela sofria com dores de cabeça e sede toda noite. Erze sabia o que isso significava, e pelo que estava passando. Ela escondeu a mordida e procurou sozinha por uma cura, afastando-se de seus companheiros. Enquanto isso, Seria foi enviada à Montanha Gélida de Windland para investigar a Princesa Vampira desaparecida há 100 anos. No dia em que sua irmã partiu... - Ahh, Seria... Não consigo mais controlar... Silenciosa e secretamente, Erze começou a cortar a garganta de seus companheiros.",
       "like": "Seria como irmã, parfait de chocolate, sangue dos corrompidos",
       "dislike": "Seria como caçadora de vampiros, aranhas",
       "inn": {
@@ -6936,7 +7120,7 @@
         },
         "linked": {
           "name": "Emboscada Sedutora",
-          "description": "Ataca 3 vezes o alvo inimigo, causando um total de {0} de DAN M. Causa {1} de DAN M. extra em inimigos Chefes e inimigos sob efeito de Encanto."
+          "description": "Ataca 3 vezes o alvo inimigo, causando um total de {0} de DAN M. Causa {1} de DAN M. extra ignorando a DEF do alvo para inimigos Chefes e inimigos sob efeito de Encanto."
         }
       },
       "s3": {
@@ -6980,6 +7164,246 @@
       "t5": {
         "light": "ATK, DEF, PV+15% / Vel ATQ +100",
         "dark": "No início de cada batalha, ganha imunidade a CM por 7 seg. aumenta a PREC e a PREC de CM em 300 por 10 segundos."
+      }
+    },
+    "59": {
+      "name": "",
+      "subtitle": "",
+      "description": "",
+      "story": "",
+      "like": "",
+      "dislike": "",
+      "inn": {
+        "idle": "",
+        "recruit": {
+          "greet": "",
+          "talk": [
+            "",
+            "",
+            ""
+          ],
+          "gift": ""
+        },
+        "affinity": {
+          "greet": "",
+          "talk": [
+            "",
+            ""
+          ],
+          "gift": ""
+        },
+        "relationship": {
+          "greet": "",
+          "talk": [
+            "",
+            "",
+            ""
+          ]
+        }
+      },
+      "uw": {
+        "name": "",
+        "description": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "story": ""
+      },
+      "s1": {
+        "name": "",
+        "description": "",
+        "books": {
+          "0": "",
+          "1": "",
+          "2": ""
+        },
+        "light": "",
+        "dark": ""
+      },
+      "s2": {
+        "name": "",
+        "description": "",
+        "books": {
+          "0": "",
+          "1": "",
+          "2": ""
+        },
+        "light": "",
+        "dark": "",
+        "ut": {
+          "name": "",
+          "description": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "story": ""
+        }
+      },
+      "s3": {
+        "name": "",
+        "description": "",
+        "books": {
+          "0": "",
+          "1": "",
+          "2": ""
+        },
+        "light": "",
+        "dark": "",
+        "ut": {
+          "name": "",
+          "description": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "story": ""
+        }
+      },
+      "s4": {
+        "name": "",
+        "description": "",
+        "books": {
+          "0": "",
+          "1": "",
+          "2": ""
+        },
+        "light": "",
+        "dark": ""
+      },
+      "t5": {
+        "light": "",
+        "dark": ""
+      }
+    },
+    "60": {
+      "name": "",
+      "subtitle": "",
+      "description": "",
+      "story": "",
+      "like": "",
+      "dislike": "",
+      "inn": {
+        "idle": "",
+        "recruit": {
+          "greet": "",
+          "talk": [
+            "",
+            "",
+            ""
+          ],
+          "gift": ""
+        },
+        "affinity": {
+          "greet": "",
+          "talk": [
+            "",
+            ""
+          ],
+          "gift": ""
+        },
+        "relationship": {
+          "greet": "",
+          "talk": [
+            "",
+            "",
+            ""
+          ]
+        }
+      },
+      "uw": {
+        "name": "",
+        "description": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "story": ""
+      },
+      "s1": {
+        "name": "",
+        "description": "",
+        "books": {
+          "0": "",
+          "1": "",
+          "2": ""
+        },
+        "light": "",
+        "dark": ""
+      },
+      "s2": {
+        "name": "",
+        "description": "",
+        "books": {
+          "0": "",
+          "1": "",
+          "2": ""
+        },
+        "light": "",
+        "dark": "",
+        "ut": {
+          "name": "",
+          "description": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "story": ""
+        }
+      },
+      "s3": {
+        "name": "",
+        "description": "",
+        "books": {
+          "0": "",
+          "1": "",
+          "2": ""
+        },
+        "light": "",
+        "dark": "",
+        "ut": {
+          "name": "",
+          "description": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "story": ""
+        }
+      },
+      "s4": {
+        "name": "",
+        "description": "",
+        "books": {
+          "0": "",
+          "1": "",
+          "2": ""
+        },
+        "light": "",
+        "dark": ""
+      },
+      "t5": {
+        "light": "",
+        "dark": ""
       }
     },
     "61": {
@@ -8273,7 +8697,7 @@
       },
       "s3": {
         "name": "Dê o fora daqui!",
-        "description": "Ataca 2 vezes o alvo e inimigos em uma ampla área ao redor para infligir {0} de DAN M., derrubá-los por 5 seg. e aumentar o DAN M. de inimigos afetados em 30% por 10 seg.",
+        "description": "Ataca o alvo e inimigos em uma ampla área ao redor por 2 vezes para causar {0} de DAN M., derrubando-os por 5 seg. Inimigos atingidos recebem DAN M. aumentado em 30% por 10 seg.",
         "books": {
           "0": "DAN aumenta em {0}%.",
           "1": "DAN aumenta em {0}%.",

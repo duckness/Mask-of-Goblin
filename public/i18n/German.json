@@ -219,12 +219,12 @@
     "20": {
       "name": "Talisman des Widerstands",
       "description": [
-        "Entfernt alle 20 Sek alle eigene negative Statuseffekte..",
-        "Entfernt alle 19 Sek alle eigene negative Statuseffekte..",
-        "Entfernt alle 18 Sek alle eigene negative Statuseffekte..",
-        "Entfernt alle 17 Sek alle eigene negative Statuseffekte..",
-        "Entfernt alle 16 Sek alle eigene negative Statuseffekte..",
-        "Entfernt alle 15 Sek alle eigene negative Statuseffekte.."
+        "Sobald ein negativer Effekt erlitten wir, werden alle negativen Effekt entfernt. Gewährt danach für 1 Sek. Immunität gegen Statuseffekte. Der Cooldown dafür beträgt 20 Sek.",
+        "Sobald ein negativer Effekt erlitten wir, werden alle negativen Effekt entfernt. Gewährt danach für 1,5 Sek. Immunität gegen Statuseffekte. Der Cooldown dafür beträgt 19 Sek.",
+        "Sobald ein negativer Effekt erlitten wir, werden alle negativen Effekt entfernt. Gewährt danach für 2 Sek. Immunität gegen Statuseffekte. Der Cooldown dafür beträgt 18 Sek.",
+        "Sobald ein negativer Effekt erlitten wir, werden alle negativen Effekt entfernt. Gewährt danach für 2,5 Sek. Immunität gegen Statuseffekte. Der Cooldown dafür beträgt 17 Sek.",
+        "Sobald ein negativer Effekt erlitten wir, werden alle negativen Effekt entfernt. Gewährt danach für 3 Sek. Immunität gegen Statuseffekte. Der Cooldown dafür beträgt 16 Sek.",
+        "Sobald ein negativer Effekt erlitten wir, werden alle negativen Effekt entfernt. Gewährt danach für 3,5 Sek. Immunität gegen Statuseffekte. Der Cooldown dafür beträgt 15 Sek."
       ],
       "story": "Eine Reihe alter, exotischer Talismane, die schädliche Geister vertreiben. Hat man sie eine Weile in Gebrauch gehabt, werden sie wirkungslos."
     },
@@ -504,6 +504,42 @@
       ],
       "story": "Ein loderndes Band von Velkazar dem Höllenfolterer. Es ist mit Schwarzer Magie verzaubert, um seine überbordende Macht zu lenken."
     },
+    "47": {
+      "name": "Buch des Wahnsinnigen",
+      "description": [
+        "Verringert jede Sekunde das eigene Mana um 100, erhöht jedoch den Feinden zugefügten Schaden um 14 %.",
+        "Verringert jede Sekunde das eigene Mana um 120, erhöht jedoch den Feinden zugefügten Schaden um 17 %.",
+        "Verringert jede Sekunde das eigene Mana um 140, erhöht jedoch den Feinden zugefügten Schaden um 21 %.",
+        "Verringert jede Sekunde das eigene Mana um 170, erhöht jedoch den Feinden zugefügten Schaden um 25 %.",
+        "Verringert jede Sekunde das eigene Mana um 210, erhöht jedoch den Feinden zugefügten Schaden um 30 %.",
+        "Verringert jede Sekunde das eigene Mana um 250, erhöht jedoch den Feinden zugefügten Schaden um 35 %."
+      ],
+      "story": ""
+    },
+    "48": {
+      "name": "Magische Flöte",
+      "description": [
+        "Erhöht alle 8 Sek. die ANG-Geschwindigkeit von 2 zufälligen Verbündeten und die des Beschwörers für 4 Sek. um 100.",
+        "Erhöht alle 8 Sek. die ANG-Geschwindigkeit von 2 zufälligen Verbündeten und die des Beschwörers für 4 Sek. um 120.",
+        "Erhöht alle 8 Sek. die ANG-Geschwindigkeit von 2 zufälligen Verbündeten und die des Beschwörers für 4 Sek. um 140.",
+        "Erhöht alle 8 Sek. die ANG-Geschwindigkeit von 2 zufälligen Verbündeten und die des Beschwörers für 4 Sek. um 170.",
+        "Erhöht alle 8 Sek. die ANG-Geschwindigkeit von 2 zufälligen Verbündeten und die des Beschwörers für 4 Sek. um 210.",
+        "Erhöht alle 8 Sek. die ANG-Geschwindigkeit von 2 zufälligen Verbündeten und die des Beschwörers für 4 Sek. um 250."
+      ],
+      "story": ""
+    },
+    "49": {
+      "name": "Löwe des Schutzes",
+      "description": [
+        "Erhöht die eigene K.VERT um 20 % und K.Blockieren um 100.",
+        "Erhöht die eigene K.VERT um 24 % und K.Blockieren um 120.",
+        "Erhöht die eigene K.VERT um 29 % und K.Blockieren um 140.",
+        "Erhöht die eigene K.VERT um 35 % und K.Blockieren um 170.",
+        "Erhöht die eigene K.VERT um 42 % und K.Blockieren um 210.",
+        "Erhöht die eigene K.VERT um 50 % und K.Blockieren um 250."
+      ],
+      "story": ""
+    },
     "51": {
       "name": "Kreuz-Kürbiskopf",
       "description": [
@@ -611,6 +647,30 @@
         "Erhöht bei Kampfbeginn den Schaden an Feinden, die keine Helden sind, für 30 Sek. um 50 % und stellt alle 5 Sek. 500 Mana wieder her."
       ],
       "story": "Eine glänzende Halskette von Mondhase LuLu. Sie wurde aus den verfeinerten Fragmenten eines Vollmonds gefertigt. Die magische Kraft des Vollmonds sickert in den gesamten Körper des Trägers, sobald sie angelegt wird."
+    },
+    "61": {
+      "name": "glücklichen Kürbiskopf",
+      "description": [
+        "Erhöht alle 7 Sek. die Heilungsrate um 2 % und heilt TP in Höhe von 100 % des ANG. Die Heilungsrate-Erhöhung ist bis zu 15-mal stapelbar und kann nicht entfernt werden.",
+        "Erhöht alle 7 Sek. die Heilungsrate um 2.4 % und heilt TP in Höhe von 120 % des ANG. Die Heilungsrate-Erhöhung ist bis zu 15-mal stapelbar und kann nicht entfernt werden.",
+        "Erhöht alle 7 Sek. die Heilungsrate um 2,8 % und heilt TP in Höhe von 140 % des ANG. Die Heilungsrate-Erhöhung ist bis zu 15-mal stapelbar und kann nicht entfernt werden.",
+        "Erhöht alle 7 Sek. die Heilungsrate um 3,4 % und heilt TP in Höhe von 170 % des ANG. Die Heilungsrate-Erhöhung ist bis zu 15-mal stapelbar und kann nicht entfernt werden.",
+        "Erhöht alle 7 Sek. die Heilungsrate um 4,2 % und heilt TP in Höhe von 210 % des ANG. Die Heilungsrate-Erhöhung ist bis zu 15-mal stapelbar und kann nicht entfernt werden.",
+        "Erhöht alle 7 Sek. die Heilungsrate um 5 % und heilt TP in Höhe von 250 % des ANG. Die Heilungsrate-Erhöhung ist bis zu 15-mal stapelbar und kann nicht entfernt werden."
+      ],
+      "story": ""
+    },
+    "62": {
+      "name": "überraschten Kürbiskopf",
+      "description": [
+        "Stellt sofort 12 % Mana wieder her und erhöht die ANG-Geschwindigkeit für 5 Sek. um 200, wenn von einem Statuseffekt betroffen. Dieser Effekt wird einmal alle 30 Sek. aktiviert.",
+        "Stellt sofort 14 % Mana wieder her und erhöht die ANG-Geschwindigkeit für 5 Sek. um 240, wenn von einem Statuseffekt betroffen. Dieser Effekt wird einmal alle 30 Sek. aktiviert.",
+        "Stellt sofort 17 % Mana wieder her und erhöht die ANG-Geschwindigkeit für 5 Sek. um 290, wenn von einem Statuseffekt betroffen. Dieser Effekt wird einmal alle 30 Sek. aktiviert.",
+        "Stellt sofort 21 % Mana wieder her und erhöht die ANG-Geschwindigkeit für 5 Sek. um 350, wenn von einem Statuseffekt betroffen. Dieser Effekt wird einmal alle 30 Sek. aktiviert.",
+        "Stellt sofort 25 % Mana wieder her und erhöht die ANG-Geschwindigkeit für 5 Sek. um 420, wenn von einem Statuseffekt betroffen. Dieser Effekt wird einmal alle 30 Sek. aktiviert.",
+        "Stellt sofort 30 % Mana wieder her und erhöht die ANG-Geschwindigkeit für 5 Sek. um 500, wenn von einem Statuseffekt betroffen. Dieser Effekt wird einmal alle 30 Sek. aktiviert."
+      ],
+      "story": ""
     }
   },
   "hero": {
@@ -2647,7 +2707,7 @@
           "2": "VERT-Durchdringung erhöht sich um {0}% während d. Skill-Wirkungsdauer."
         },
         "light": "Erhöht Schaden für jeden Zähler um 4%, für alle Gegner außer Helden.",
-        "dark": "Erhöht bei 5 oder mehr Zählern alle Resistenzen um 20%."
+        "dark": "Erleidet bei 5 oder mehr Zählern um 20 % weniger K.Schaden und M.Schaden."
       },
       "t5": {
         "light": "ANG, VERT, TP+15% / Krit. Schaden +20%",
@@ -6614,11 +6674,135 @@
         "dark": "Sämtliche Effekte von Flüchen werden erhöht. [Fluch der Versteinerung] Dauer der Versteinerung wird um 2 Sek. erhöht. [Fluch der Zeit] Dauer wird um 3 Sek. erhöht. [Fluch des Schmerzes] Schaden über Zeit um 50% erhöht."
       }
     },
+    "55": {
+      "name": "Seria",
+      "subtitle": "Schatten des Abgrunds",
+      "description": "Seria ist die 101. Erbin. der ShadowHilt, einer Familie von Jägern, die nichtmenschliche und übernatürliche Wesen erlegen. Sie kam als Vampirjägerin nach Orvelia und wollte sich an ihrer Schwester rächen, die sich in einen Vampir verwandelt und ihre Kameraden ermordet hatte. Seria versucht außerdem, ihre kleine Schwester zu retten und sie von ihrem Leid zu erlösen.",
+      "story": "Die 101. Erbin der ShadowHilt und Erzes Schwester. Die Leute bezeichnen sie wegen ihrer unwirschen Art als kaltblütig, doch einst war sie fröhlich – früher, als sie noch mit ihrer geliebten Schwester Erze gemeinsam lebte. Seria war stets voller Mitgefühl für ihre schwächliche Schwester und überfürsorglich, bemerkte aber dabei nicht, dass sie Erze damit in noch größere Verzweiflung trieb. Eines Tages geriet Erze während einer Mission in eine Falle. Sie wurde gerettet, doch ihre Krankheit begann sich drastisch zu verschlechtern. In der Zwischenzeit wurde Seria ins Windland-Schneegebirge geschickt, um die Vampirprinzessin aufzuspüren. Sie bekam den Zustand ihrer Schwester zwar flüchtig mit, begab sich aber auf ihre höchst wichtige Mission und betete, dass alles gut gehen würde. Doch die Tragödie nahm ihren Lauf, als würde sie sich über Serias Gebete lustig machen. - Oh, meine geliebte Schwester, Seria! Seria kehrte zurück und fand die Leichen ihrer Kameraden tot am Boden liegend, kalt wie Eis. Erze empfing sie mit zwei scharfen Fangzähnen und voller Blutdurst. Seria verfiel in ein Wechselbad der Gefühle. Ihr Herz war gebrochen, doch sie sprach mit kühler, ruhiger Stimme. - Du ... du bist nicht länger meine kleine Schwester. Du bist eine verfluchte Blutsaugerin.",
+      "like": "Ihre Schwester Erze, Erdbeerparfait, feine Schwerter, den Mond.",
+      "dislike": "Vampir-Erze, Spinnen",
+      "inn": {
+        "idle": "Hier ist es warm.",
+        "recruit": {
+          "greet": "Na gut.",
+          "talk": [
+            "Sieht so aus, als wären die nächtlichen Straßen hier noch sicher.",
+            "Du hast ein paar feine Kameraden. Kameraden ... Ha.",
+            "Ob ich jemals wieder irgendjemandem trauen kann? ..."
+          ],
+          "gift": "Ich nehme momentan keine Anfragen an. Ich habe meine Gründe."
+        },
+        "affinity": {
+          "greet": "Hatte ich dir nicht gesagt, dass ich keine Anfragen annehme?",
+          "talk": [
+            "Ich bin hier, um jemanden zu suchen. Ich muss dir doch nicht sagen, um wen es sich handelt, oder?... Es geht um meine Schwester. Ich suche nach meiner Schwester.",
+            "Wir laufen uns ziemlich häufig über den Weg. Bist du auch auf der Suche nach jemandem? Wenn es ein Kamerad oder ein Familienmitglied ist, behandle ihn oder sie ehrenvoll ..."
+          ],
+          "gift": "... Danke. Es tut ... Es tut mir leid und ich weiß das zu schätzen."
+        },
+        "relationship": {
+          "greet": "Ah, hey ... wie geht es dir?",
+          "talk": [
+            "All die höllischen Nächte voller Qualen, die Erze ertragen musste ... Ich konnte ihr nicht helfen. Vielleicht war ich es, die sie zu dem gemacht hat, was sie jetzt ist. Ja, es ist alles meine Schuld ...",
+            "Alles, was ich nun für sie tun kann, ist ihrer Seele Ruhe zu bringen. Es gibt keinen anderen Weg. Wenn ich nur daran denke, zerbricht mein Herz aufs Neue ... Mein Verstand verbietet es mir, das Schwert gegen meine Schwester zu erheben.",
+            "Ich ... Ich wollte mich bei dir bedanken. Danke, dass du mit mir gesprochen hast ... mir zugehört hast. Wenn wir uns wiedersehen, dann ..."
+          ]
+        }
+      },
+      "uw": {
+        "name": "Imperialer Henker Elsion",
+        "description": [
+          "Verringert die eigene Heilungsrate um 20 %. Verursacht bei einem kritischen Skilltreffer zusätzlich M.Schaden in Höhe von 30% des ANG. Verringert die Heilungsrate des Ziels für 5 Sek. um 24% und erhöht die eigene Heilungsrate für 20 Sek. um 4%. Der Effekt zur Erhöhung der Heilungsrate ist bis zu 5-mal stapelbar.",
+          "Verringert die Heilungsrate um 20 %. Verursacht bei einem kritischen Skilltreffer zusätzlich M.Schaden in Höhe von 36 % des ANG. Verringert die Heilungsrate des Ziels für 5 Sek. um 29 % und erhöht die Heilungsrate des Beschwörers für 20 Sek. um 5 %. Der Effekt zur Erhöhung der Heilungsrate ist bis zu 5-mal stapelbar.",
+          "Verringert die Heilungsrate um 20 %. Verursacht bei einem kritischen Skilltreffer zusätzlich M.Schaden in Höhe von 42 % des ANG. Verringert die Heilungsrate des Ziels für 5 Sek. um 35 % und erhöht die Heilungsrate des Beschwörers für 20 Sek. um 6 %. Der Effekt zur Erhöhung der Heilungsrate ist bis zu 5-mal stapelbar.",
+          "Verringert die Heilungsrate um 20 %. Verursacht bei einem kritischen Skilltreffer zusätzlich M.Schaden in Höhe von 51 % des ANG. Verringert die Heilungsrate des Ziels für 5 Sek. um 42 % und erhöht die Heilungsrate des Beschwörers für 20 Sek. um 7 %. Der Effekt zur Erhöhung der Heilungsrate ist bis zu 5-mal stapelbar.",
+          "Verringert die Heilungsrate um 20 %. Verursacht bei einem kritischen Skilltreffer zusätzlich M.Schaden in Höhe von 63 % des ANG. Verringert die Heilungsrate des Ziels für 5 Sek. um 50 % und erhöht die Heilungsrate des Beschwörers für 20 Sek. um 9 %. Der Effekt zur Erhöhung der Heilungsrate ist bis zu 5-mal stapelbar.",
+          "Verringert die Heilungsrate um 20 %. Verursacht bei einem kritischen Skilltreffer zusätzlich M.Schaden in Höhe von 75 % des ANG. Verringert die Heilungsrate des Ziels für 5 Sek. um 60 % und erhöht die Heilungsrate des Beschwörers für 20 Sek. um 10 %. Der Effekt zur Erhöhung der Heilungsrate ist bis zu 5-mal stapelbar."
+        ],
+        "story": "Ein Schwert und Machtsymbol, das unter Meistern der ShadowHilt weitergegeben wird. Diesem Schwert wohnt die Kraft mächtiger Wesen inne, die einen Pakt mit den ShadowHilt geschlossen haben, um ihnen zu dienen. Einige von ihnen waren Elementare, einige unschuldige Geister, andere sogar Dämonen. Es ist bekannt, dass zehntausende böse Krieger durch dieses Schwert den Tod fanden. Es hat die dämonische Kraft, die Geister der Getöteten in der Klinge zu bannen. Trotz der großen Macht des Schwerts konnte es in den letzten 600 Jahren von weniger als einer Handvoll Leuten geführt werden. Seria, die 101. Erbin der ShadowHilt und die einzige Meisterin der Geschichte, die durch das Schwert erwählt wurde, schloss einen Pakt mit dem Schwert, um ihrer geliebten Schwester Ruhe zu bringen."
+      },
+      "s1": {
+        "name": "Mysteriöses Schwert – gefallene Blütenblätter",
+        "description": "Führt einen horizontalen Schlag nach vorne aus und verursacht {0} M.Schaden am Ziel und dessen unmittelbarer Umgebung. Kann innerhalb von 5 Sek. nach Benutzung einmalig Mysteriöses Schwert – Blüte] aktivieren.",
+        "books": {
+          "0": "Erhöht Schaden um {0}%.",
+          "1": "Erhöht Schaden um {0}%.",
+          "2": "Erhöht Schaden um {0}%."
+        },
+        "light": "[Mysterious Sword - Falling Petals] - Mana cost is reduced by 1. [Mysterious Sword - Blossom] - Hit enemies' heal rate is reduced by 50% for 5 sec.",
+        "dark": "[Mysterious Sword - Falling Petals] - Target takes 25% increased M.DMG for 10 sec. [Mysterious Sword - Blossom] - Mana cost is increased by 1, and Ignores enemy's DEF.",
+        "linked": {
+          "name": "Mysteriöses Schwert – Blüte",
+          "description": "Führt einen vertikalen Schlag nach vorne aus und verursacht {0} M.Schaden am Ziel und dessen unmittelbarer Umgebung."
+        }
+      },
+      "s2": {
+        "name": "Blutspritzerklinge",
+        "description": "Rapidly charges forward to deal {0} M.DMG and inflicts irremovable Original Sin of Blood on enemies for {1} sec. Enemies under Original Sin of Blood have their ATK Spd reduced by {2}. Shortly afterward, attacks enemies under Original Sin of Blood 2 times, and deals additional {3} M.DMG, and if the target is not a hero, deals additional {4} DEF Ignoring M.DMG.",
+        "books": {
+          "0": "Erhöht Schaden um {0}%.",
+          "1": "Erhöht Schaden um {0}%.",
+          "2": "Erhöht Schaden um {0}%."
+        },
+        "light": "Reduziert Manakosten um 1.",
+        "dark": "Stellt 200 Mana wieder her, jedes Mal wenn Schaden verursacht wird.",
+        "ut": {
+          "name": "Ring des Abgrunds",
+          "description": [
+            "[Blutspritzerklinge] Erhöht den Schaden um 50 % und verringert M.Blockieren von betroffenen Feinden um 200.",
+            "[Blutspritzerklinge] Erhöht den Schaden um 50 % und verringert M.Blockieren von betroffenen Feinden um 240.",
+            "[Blutspritzerklinge] Erhöht den Schaden um 50 % und verringert M.Blockieren von betroffenen Feinden um 290.",
+            "[Blutspritzerklinge] Erhöht den Schaden um 50 % und verringert M.Blockieren von betroffenen Feinden um 350.",
+            "[Blutspritzerklinge] Erhöht den Schaden um 50 % und verringert M.Blockieren von betroffenen Feinden um 420.",
+            "[Blutspritzerklinge] Erhöht den Schaden um 50 % und verringert M.Blockieren von betroffenen Feinden um 500."
+          ],
+          "story": "Ein silberner Ring, der die ShadowHilt repräsentiert. Seria berührt ihn immer dann, wenn sie ihr Leben als bedeutungslos erachtet. Wenn sie es tut, erinnert sie sich an ihre toten Kameraden, wodurch Rachegefühle gegen ihre Schwester Erze in ihrem Herzen aufflammen. Ironischerweise trägt der Ring eine Botschaft Erzes in sich, die diese dort im Inneren des Juwels versteckte, als sie noch jung war. Doch Seria weiß nichts davon."
+        }
+      },
+      "s3": {
+        "name": "Klinge des roten Mondes",
+        "description": "Brandishes a moon-bloodying sword, dealing {0} M.DMG to enemies in a wide range, and additional {1} M.DMG on non-Hero enemies. When the moon is ripe, gains Moonlight for {2} sec, and when cast at this state, deals {3} M.DMG to enemies and reduces their Heal Rate by {4}%. If the target is not a hero, deals additional {5} M.DMG.The caster is not affected by ATK Spd related effects while casting.",
+        "books": {
+          "0": "Erhöht Schaden um {0}%.",
+          "1": "Erhöht Schaden um {0}%.",
+          "2": "Erhöht Schaden um {0}%."
+        },
+        "light": "Positive Effekte aller Gegner in Reichweite werden aufgehoben.",
+        "dark": "Erhöht die Manakosten um 1 und ignoriert die VERT, wenn Feinden angegriffen werden, die keine Helden sind.",
+        "ut": {
+          "name": "Erhellendes Kerzenlicht",
+          "description": [
+            "[Klinge des roten Mondes] Erhält für die Dauer des Skills Immunität gegen Statuseffekte. Erhöht bei Kampfbeginn den Schaden 4x um 70 %.",
+            "[Klinge des roten Mondes] Erhält für die Dauer des Skills Immunität gegen Statuseffekte. Erhöht bei Kampfbeginn den Schaden 5x um 70 %.",
+            "[Klinge des roten Mondes] Erhält für die Dauer des Skills Immunität gegen Statuseffekte. Erhöht bei Kampfbeginn den Schaden 6x um 70 %.",
+            "[Klinge des roten Mondes] Erhält für die Dauer des Skills Immunität gegen Statuseffekte. Erhöht bei Kampfbeginn den Schaden 7x um 70 %.",
+            "[Klinge des roten Mondes] Erhält für die Dauer des Skills Immunität gegen Statuseffekte. Erhöht bei Kampfbeginn den Schaden 9x um 70 %.",
+            "[Klinge des roten Mondes] Erhält für die Dauer des Skills Immunität gegen Statuseffekte. Erhöht bei Kampfbeginn den Schaden 10x um 70 %."
+          ],
+          "story": "Die Kerze von der Tafel der Versammlungshalle, in der sich antike Krieger aus verschiedenen Kontinenten trafen, um gemeinsam übernatürliche Wesen zu besiegen. Aus dieser alten Kerze lodert eine blaue Flamme. Sobald die Flamme mit einem bösen Wesen in Berührung kommt, saugt sie die Lebenskraft aus dem Körper der Kreatur. Dieses Material nutzt Seria bevorzugt zur Verbesserung ihres Schwerts."
+        }
+      },
+      "s4": {
+        "name": "Kaltblütige Hexe",
+        "description": "Erhöht den ANG um {0}. Erhöht den eigenen Krit. Schaden bei einem kritischen Treffer um {1}  %. Dieser Effekt ist bis zu 30-mal stapelbar.",
+        "books": {
+          "0": "Angriffs-Steigungsrate steigt um {0}%.",
+          "1": "Angriffs-Steigungsrate steigt um {0}%.",
+          "2": "Angriffs-Steigungsrate steigt um {0}%."
+        },
+        "light": "Erleidet um 0.7 % weniger Schaden pro Zähler.",
+        "dark": "Erhöht bei Kampfbeginn den Schaden an Feinden, die keine Helden sind, für 200 Sek. um 25 %."
+      },
+      "t5": {
+        "light": "ANG, VERT, TP+15% / Krit. Schaden +20%",
+        "dark": "Alle Angriffe des Beschwörers treffen kritisch, der Beschwörer kann allerdings nicht blocken und erleidet um 30 % erhöhten Schaden."
+      }
+    },
     "56": {
       "name": "Erze",
       "subtitle": "Endloser Durst",
       "description": "Sie war eine Vampirjägerin, genau wie ihre Schwester Seria. Jedoch wurde sie von ihrer eigenen Macht verdorben, woraufhin sie ihre Kameraden tötete und beschloss, selbst ein Vampir zu werden. Nachdem sie den Hochvampir, der sie verwandelt hatte, getötet und dessen Kräfte absorbiert hatte, entglitt sie Seria, ihrer älteren Schwester und einzigen Überlebenden, und zog zu Orvelia.",
-      "story": "Erze war die zweite Tochter der Familie Shadow Hilt und beschloss, in die Fußstapfen ihrer geliebten Schwester Seria zu treten und ebenfalls eine Vampirjägerin zu werden. Aufgrund ihres schwachen Körperbaus konnte sie nie lernen, mit Schwertern zu kämpfen, aber dank ihrer magischen Talente wurde sie dennoch eine bekannte Jägerin. Eines Tages tappte sie während einer Operation in eine Falle und wurde von einem mysteriösen Vampir in die Schulter gebissen. Ihre ohnehin schon schwache Konstitution verschlechterte sich weiter und manifestierte sich in starken Kopfschmerzen und allnächtlichem Durst. Erze wusste, was das bedeutet und was mit ihr passieren würde. Sie versteckte den Biss und versuchte, selbst ein Heilmittel zu finden, woraufhin sie sich von ihren Kameraden distanzierte. In der Zwischenzeit wurde Seria zum Windland-Schneegebirge entsandt, um nach der Vampir-Prinzessin zu suchen, die vor 100 Jahren verschwand. Eines Tages ging ihre Schwester ... – Ah, Seria ... Ich kann es nicht mehr kontrollieren ... Still und heimlich fing Erze an, ihren Kameraden die Kehle durchzuschneiden.",
+      "story": "Erze war die zweite Tochter der Familie ShadowHilt und beschloss, in die Fußstapfen ihrer geliebten Schwester Seria zu treten und ebenfalls eine Vampirjägerin zu werden. Aufgrund ihres schwachen Körperbaus konnte sie nie lernen, mit Schwertern zu kämpfen, aber dank ihrer magischen Talente wurde sie dennoch eine bekannte Jägerin. Eines Tages tappte sie während einer Operation in eine Falle und wurde von einem mysteriösen Vampir in die Schulter gebissen. Ihre ohnehin schon schwache Konstitution verschlechterte sich weiter und manifestierte sich in starken Kopfschmerzen und allnächtlichem Durst. Erze wusste, was das bedeutet und was mit ihr passieren würde. Sie versteckte den Biss und versuchte, selbst ein Heilmittel zu finden, woraufhin sie sich von ihren Kameraden distanzierte. In der Zwischenzeit wurde Seria zum Windland-Schneegebirge entsandt, um nach der Vampir-Prinzessin zu suchen, die vor 100 Jahren verschwand. Eines Tages ging ihre Schwester ... – Ah, Seria ... Ich kann es nicht mehr kontrollieren ... Still und heimlich fing Erze an, ihren Kameraden die Kehle durchzuschneiden.",
       "like": "Seria als Schwester, Schokoladen-Parfait, Blut der Verdorbenen",
       "dislike": "Seria als Vampirjägerin, Spinnen",
       "inn": {
@@ -6936,7 +7120,7 @@
         },
         "linked": {
           "name": "Verlockender Hinterhalt",
-          "description": "Greift das Ziel dreimal an und verursacht insgesamt {0} M.Schaden. Verursacht an Bossgegnern und bezauberten Gegnern zusätzlich {1} M.Schaden."
+          "description": "Greift das Ziel dreimal an und verursacht insgesamt {0} M.Schaden. Fügt Bossgegnern und verzauberten Gegnern zusätzlich {1} M.Schaden zu und umgeht dabei ihre VERT."
         }
       },
       "s3": {
@@ -6980,6 +7164,246 @@
       "t5": {
         "light": "ANG, VERT, TP+15% / ANG-Geschw. +100",
         "dark": "Gewährt zu Kampfbeginn 7 Sek. lang Immunität gegen Statuseffekte. Steigert 10 Sek. lang PRÄZ und Statuseffekt-PRÄZ um 300."
+      }
+    },
+    "59": {
+      "name": "",
+      "subtitle": "",
+      "description": "",
+      "story": "",
+      "like": "",
+      "dislike": "",
+      "inn": {
+        "idle": "",
+        "recruit": {
+          "greet": "",
+          "talk": [
+            "",
+            "",
+            ""
+          ],
+          "gift": ""
+        },
+        "affinity": {
+          "greet": "",
+          "talk": [
+            "",
+            ""
+          ],
+          "gift": ""
+        },
+        "relationship": {
+          "greet": "",
+          "talk": [
+            "",
+            "",
+            ""
+          ]
+        }
+      },
+      "uw": {
+        "name": "",
+        "description": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "story": ""
+      },
+      "s1": {
+        "name": "",
+        "description": "",
+        "books": {
+          "0": "",
+          "1": "",
+          "2": ""
+        },
+        "light": "",
+        "dark": ""
+      },
+      "s2": {
+        "name": "",
+        "description": "",
+        "books": {
+          "0": "",
+          "1": "",
+          "2": ""
+        },
+        "light": "",
+        "dark": "",
+        "ut": {
+          "name": "",
+          "description": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "story": ""
+        }
+      },
+      "s3": {
+        "name": "",
+        "description": "",
+        "books": {
+          "0": "",
+          "1": "",
+          "2": ""
+        },
+        "light": "",
+        "dark": "",
+        "ut": {
+          "name": "",
+          "description": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "story": ""
+        }
+      },
+      "s4": {
+        "name": "",
+        "description": "",
+        "books": {
+          "0": "",
+          "1": "",
+          "2": ""
+        },
+        "light": "",
+        "dark": ""
+      },
+      "t5": {
+        "light": "",
+        "dark": ""
+      }
+    },
+    "60": {
+      "name": "",
+      "subtitle": "",
+      "description": "",
+      "story": "",
+      "like": "",
+      "dislike": "",
+      "inn": {
+        "idle": "",
+        "recruit": {
+          "greet": "",
+          "talk": [
+            "",
+            "",
+            ""
+          ],
+          "gift": ""
+        },
+        "affinity": {
+          "greet": "",
+          "talk": [
+            "",
+            ""
+          ],
+          "gift": ""
+        },
+        "relationship": {
+          "greet": "",
+          "talk": [
+            "",
+            "",
+            ""
+          ]
+        }
+      },
+      "uw": {
+        "name": "",
+        "description": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "story": ""
+      },
+      "s1": {
+        "name": "",
+        "description": "",
+        "books": {
+          "0": "",
+          "1": "",
+          "2": ""
+        },
+        "light": "",
+        "dark": ""
+      },
+      "s2": {
+        "name": "",
+        "description": "",
+        "books": {
+          "0": "",
+          "1": "",
+          "2": ""
+        },
+        "light": "",
+        "dark": "",
+        "ut": {
+          "name": "",
+          "description": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "story": ""
+        }
+      },
+      "s3": {
+        "name": "",
+        "description": "",
+        "books": {
+          "0": "",
+          "1": "",
+          "2": ""
+        },
+        "light": "",
+        "dark": "",
+        "ut": {
+          "name": "",
+          "description": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "story": ""
+        }
+      },
+      "s4": {
+        "name": "",
+        "description": "",
+        "books": {
+          "0": "",
+          "1": "",
+          "2": ""
+        },
+        "light": "",
+        "dark": ""
+      },
+      "t5": {
+        "light": "",
+        "dark": ""
       }
     },
     "61": {
@@ -7823,7 +8247,7 @@
           "2": "ANG und VERT sind um {0}% erhöht."
         },
         "light": "MP-Erholung verdreifacht, wenn nur ein Feind auf dem Schlachtfeld ist.",
-        "dark": "[Antipersonenwaffe] – Verringert den ANG um 20%, erhöht die MP Erholung/Sek. jedoch um 100%. [Belagerungswaffe] – Verringert die gesamte VERT um 60%, erhöht den Krit. Schaden jedoch um 140%."
+        "dark": "[Antipersonenwaffe] – Verringert den ANG um 20%, erhöht die MP-Erholung/Sek. jedoch um 100%. [Belagerungswaffe] – Verringert die gesamte VERT um 60%, erhöht den Krit. Schaden jedoch um 140%."
       },
       "t5": {
         "light": "ANG, VERT, TP+15% / Krit. Schaden +20%",
@@ -8273,7 +8697,7 @@
       },
       "s3": {
         "name": "Geh mir aus den Augen!",
-        "description": "Verursacht am Ziel und bei Feinden in einem großen Umgebungsbereich 2 Mal {0} M.Schaden, betäubt sie für 5 Sek. und erhöht den M.Schaden der betroffenen Feinde 10 Sek. lang um 30 %.",
+        "description": "Verursacht am Ziel und an Feinden in einem großen Umgebungsbereich 2-mal {0} M.Schaden, wirft sie für 5 Sek. zu Boden. Getroffene Feinde nehmen für 10 Sek. 30% mehr M.Schaden.",
         "books": {
           "0": "Erhöht Schaden um {0}%.",
           "1": "Erhöht Schaden um {0}%.",
@@ -8366,7 +8790,7 @@
           "2": "Blockt allen Schaden, während der Skill aktiv ist."
         },
         "light": "Reduziert Cooldown um 3 Sek.",
-        "dark": "Erhöht die K.Schwäche der betroffenen Ziele für 10 Sekunden um 25 %."
+        "dark": "Erhöht die K.Schwäche der betroffenen Ziele für 10 Sekunden um 25%."
       },
       "s2": {
         "name": "Verschleiernder Glaube",
@@ -8404,12 +8828,12 @@
         "ut": {
           "name": "Meer der Anrufung",
           "description": [
-            "[Glaube des Ritters] Verringert den Cooldown um 30 % und erhöht die K.Schwäche der Ziele für 10 Sekunden um 10 %.",
-            "[Glaube des Ritters] Verringert den Cooldown um 30 % und erhöht die K.Schwäche der Ziele für 10 Sekunden um 12 %.",
-            "[Glaube des Ritters] Verringert den Cooldown um 30 % und erhöht die K.Schwäche der Ziele für 10 Sekunden um 14 %.",
-            "[Glaube des Ritters] Verringert den Cooldown um 30 % und erhöht die K.Schwäche der Ziele für 10 Sekunden um 17 %.",
-            "[Glaube des Ritters] Verringert den Cooldown um 30 % und erhöht die K.Schwäche der Ziele für 10 Sekunden um 21 %.",
-            "[Glaube des Ritters] Verringert den Cooldown um 30 % und erhöht die K.Schwäche der Ziele für 10 Sekunden um 25 %."
+            "[Glaube des Ritters] Verringert den Cooldown um 30% und erhöht die K.Schwäche der Ziele für 10 Sekunden um 10%.",
+            "[Glaube des Ritters] Verringert den Cooldown um 30% und erhöht die K.Schwäche der Ziele für 10 Sekunden um 12%.",
+            "[Glaube des Ritters] Verringert den Cooldown um 30% und erhöht die K.Schwäche der Ziele für 10 Sekunden um 14%.",
+            "[Glaube des Ritters] Verringert den Cooldown um 30% und erhöht die K.Schwäche der Ziele für 10 Sekunden um 17%.",
+            "[Glaube des Ritters] Verringert den Cooldown um 30% und erhöht die K.Schwäche der Ziele für 10 Sekunden um 21%.",
+            "[Glaube des Ritters] Verringert den Cooldown um 30% und erhöht die K.Schwäche der Ziele für 10 Sekunden um 25%."
           ],
           "story": "Dieser besondere Anhänger ist ein Erbstück aus Lomans Familie, der ihr vom ersten König von Orvelia verliehen wurde, um sie für ihre Dienste zum Schutz der Monarchie zu ehren. Seine eigentliche Herkunft ist unbekannt, doch er soll von einer alten Zivilisation stammen und mit dem Geist eines Hüters des Orbis-Kontinents versehen sein. Auch die Besitzer dieses Items sind davon überzeugt. Wenn sie ihr Leben dafür riskieren, was ihnen wichtig ist, wenden sie sich an eine große Macht wie die Wellen des Meeres. Die Leute glauben nun, dass dieses blaue Juwel Geister anruft. Daher wird es Meer der Anrufung genannt. Loman erhielt es als Erbstück von seinem Vater, als er ins Schloss kam, und trägt es seither immer bei sich."
         }

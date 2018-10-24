@@ -5744,6 +5744,129 @@
         "light": null
       }
     },
+    "55": {
+      "index": 55,
+      "class": "warrior",
+      "type": "magical",
+      "position": {
+        "type": "forward",
+        "weight": 600
+      },
+      "mpatk": 275,
+      "mpsec": 60,
+      "auto": {
+        "range": 1500,
+        "rangeType": "Ranged",
+        "time": [
+          [
+            0.4
+          ],
+          [
+            1.1
+          ],
+          [
+            1.7,
+            2.1
+          ]
+        ],
+        "duration": 3.3
+      },
+      "s1": {
+        "description": [
+          "???"
+        ],
+        "mana": 1,
+        "cooldown": 7,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null,
+        "linked": [
+          "???"
+        ]
+      },
+      "s2": {
+        "description": [
+          "???",
+          3,
+          300,
+          "???",
+          "???"
+        ],
+        "mana": 3,
+        "cooldown": 13,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???",
+          "???",
+          1,
+          "???",
+          100,
+          "???"
+        ],
+        "mana": 4,
+        "cooldown": 25,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???",
+          5
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
+    },
     "56": {
       "index": 56,
       "class": "assassin",
@@ -6107,6 +6230,148 @@
           [
             25
           ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
+    },
+    "59": {
+      "index": 59,
+      "class": "priest",
+      "type": "physical",
+      "position": {
+        "type": "middle",
+        "weight": 100
+      },
+      "mpatk": 375,
+      "mpsec": 60,
+      "auto": {
+        "range": 4000,
+        "rangeType": "Ranged",
+        "time": [
+          [
+            0.8
+          ]
+        ],
+        "duration": 1.8
+      },
+      "s1": {
+        "description": null,
+        "mana": 2,
+        "cooldown": 8,
+        "books": [
+          null,
+          null,
+          null
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": null,
+        "mana": 4,
+        "cooldown": 15,
+        "books": [
+          null,
+          null,
+          null
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": null,
+        "mana": 3,
+        "cooldown": 20,
+        "books": [
+          null,
+          null,
+          null
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": null,
+        "books": [
+          null,
+          null,
+          null
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
+    },
+    "60": {
+      "index": 60,
+      "class": "mechanic",
+      "type": "magical",
+      "position": {
+        "type": "rear",
+        "weight": 100
+      },
+      "mpatk": 475,
+      "mpsec": 60,
+      "auto": {
+        "range": 6000,
+        "rangeType": "Ranged",
+        "time": [
+          [
+            0.9
+          ]
+        ],
+        "duration": 1.9
+      },
+      "s1": {
+        "description": null,
+        "mana": 3,
+        "cooldown": 14,
+        "books": [
+          null,
+          null,
+          null
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": null,
+        "mana": 2,
+        "cooldown": 18,
+        "books": [
+          null,
+          null,
+          null
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": null,
+        "mana": 4,
+        "cooldown": 25,
+        "books": [
+          null,
+          null,
+          null
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": null,
+        "books": [
+          null,
+          null,
+          null
         ],
         "dark": null,
         "light": null

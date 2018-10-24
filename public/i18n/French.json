@@ -219,12 +219,12 @@
     "20": {
       "name": "Talisman de Résistance",
       "description": [
-        "Toutes les 20 sec, supprime tous les effets négatifs.",
-        "Toutes les 19 sec, supprime tous les effets négatifs.",
-        "Toutes les 18 sec, supprime tous les effets négatifs.",
-        "Toutes les 17 sec, supprime tous les effets négatifs.",
-        "Toutes les 16 sec, supprime tous les effets négatifs.",
-        "Toutes les 15 sec, supprime tous les effets négatifs."
+        "Si l'on vous inflige un effet négatif, tous ceux qui pèsent sur vous sont retirés. Vous bénéficiez ensuite de l'immunité contre les contrôles pendant 1 sec. Un temps de recharge de 20 sec se met en place.",
+        "Si l'on vous inflige un effet négatif, tous ceux qui pèsent sur vous sont retirés. Vous bénéficiez ensuite de l'immunité contre les contrôles pendant 1,5 sec. Un temps de recharge de 19 sec se met en place.",
+        "Si l'on vous inflige un effet négatif, tous ceux qui pèsent sur vous sont retirés. Vous bénéficiez ensuite de l'immunité contre les contrôles pendant 2 sec. Un temps de recharge de 18 sec se met en place.",
+        "Si l'on vous inflige un effet négatif, tous ceux qui pèsent sur vous sont retirés. Vous bénéficiez ensuite de l'immunité contre les contrôles pendant 2,5 sec. Un temps de recharge de 17 sec se met en place.",
+        "Si l'on vous inflige un effet négatif, tous ceux qui pèsent sur vous sont retirés. Vous bénéficiez ensuite de l'immunité contre les contrôles pendant 3 sec. Un temps de recharge de 16 sec se met en place.",
+        "Si l'on vous inflige un effet négatif, tous ceux qui pèsent sur vous sont retirés. Vous bénéficiez ensuite de l'immunité contre les contrôles pendant 3,5 sec. Un temps de recharge de 15 sec se met en place."
       ],
       "story": "Un tas de vieux talismans exotiques chassant les esprits malins. Une fois employés, ils ne peuvent plus être utilisés quelque temps."
     },
@@ -504,6 +504,42 @@
       ],
       "story": "Lien flamboyant de Velkazar le Tortionnaire de l'enfer. La magie noire dont il est imprégné permet de contrôler les surcharges de puissance."
     },
+    "47": {
+      "name": "Livre du fou",
+      "description": [
+        "Le mana personnel est réduit de 100 points à chaque seconde, mais les DEG infligés aux ennemis sont augmentés de 14 %.",
+        "Le mana personnel est réduit de 120 points à chaque seconde, mais les DEG infligés aux ennemis sont augmentés de 17 %.",
+        "Le mana personnel est réduit de 140 points à chaque seconde, mais les DEG infligés aux ennemis sont augmentés de 21 %.",
+        "Le mana personnel est réduit de 170 points à chaque seconde, mais les DEG infligés aux ennemis sont augmentés de 25 %.",
+        "Le mana personnel est réduit de 210 points à chaque seconde, mais les DEG infligés aux ennemis sont augmentés de 30 %.",
+        "Le mana personnel est réduit de 250 points à chaque seconde, mais les DEG infligés aux ennemis sont augmentés de 35 %."
+      ],
+      "story": ""
+    },
+    "48": {
+      "name": "Flûte magique",
+      "description": [
+        "Toutes les 8 sec, augmente de 100 points la Vit ATQ du lanceur et de 2 alliés choisis au hasard pendant 4 sec.",
+        "Toutes les 8 sec, augmente de 120 points la Vit ATQ du lanceur et de 2 alliés choisis au hasard pendant 4 sec.",
+        "Toutes les 8 sec, augmente de 140 points la Vit ATQ du lanceur et de 2 alliés choisis au hasard pendant 4 sec.",
+        "Toutes les 8 sec, augmente de 170 points la Vit ATQ du lanceur et de 2 alliés choisis au hasard pendant 4 sec.",
+        "Toutes les 8 sec, augmente de 210 points la Vit ATQ du lanceur et de 2 alliés choisis au hasard pendant 4 sec.",
+        "Toutes les 8 sec, augmente de 250 points la Vit ATQ du lanceur et de 2 alliés choisis au hasard pendant 4 sec."
+      ],
+      "story": ""
+    },
+    "49": {
+      "name": "Lion protecteur",
+      "description": [
+        "Augmente la DEF P personnelle de 20 % et le Blocage P de 100 points.",
+        "Augmente la DEF P personnelle de 24 % et le Blocage P de 120 points.",
+        "Augmente la DEF P personnelle de 29 % et le Blocage P de 140 points.",
+        "Augmente la DEF P personnelle de 35 % et le Blocage P de 170 points.",
+        "Augmente la DEF P personnelle de 42 % et le Blocage P de 210 points.",
+        "Augmente la DEF P personnelle de 50 % et le Blocage P de 250 points."
+      ],
+      "story": ""
+    },
     "51": {
       "name": "Tête-Citrouille Ambrée",
       "description": [
@@ -611,6 +647,30 @@
         "Au début du combat, les DEG infligés aux ennemis non-héros augmentent de 50 % pendant 30 sec, et 500 points de mana sont restaurés toutes les 5 sec."
       ],
       "story": "Collier éclatant, digne de LuLu le lapin lunaire. Il a été fabriqué à partir de fragments de pleine lune raffinés. La puissance de la pleine lune se transmet ainsi au porteur du collier."
+    },
+    "61": {
+      "name": "tête-citrouille joyeuse",
+      "description": [
+        "Toutes les 7 sec, accélère la récupération de 2 % et restaure les PV à hauteur de 100 % de l'ATQ. L'accélération de la récupération peut se cumuler jusqu'à 15 fois et ne peut pas être retirée.",
+        "Toutes les 7 sec, accélère la récupération de 2.4 % et restaure les PV à hauteur de 120 % de l'ATQ. L'accélération de la récupération peut se cumuler jusqu'à 15 fois et ne peut pas être retirée.",
+        "Toutes les 7 sec, accélère la récupération de 2,8 % et restaure les PV à hauteur de 140 % de l'ATQ. L'accélération de la récupération peut se cumuler jusqu'à 15 fois et ne peut pas être retirée.",
+        "Toutes les 7 sec, accélère la récupération de 3,4 % et restaure les PV à hauteur de 170 % de l'ATQ. L'accélération de la récupération peut se cumuler jusqu'à 15 fois et ne peut pas être retirée.",
+        "Toutes les 7 sec, accélère la récupération de 4,2 % et restaure les PV à hauteur de 210 % de l'ATQ. L'accélération de la récupération peut se cumuler jusqu'à 15 fois et ne peut pas être retirée.",
+        "Toutes les 7 sec, accélère la récupération de 5 % et restaure les PV à hauteur de 250 % de l'ATQ. L'accélération de la récupération peut se cumuler jusqu'à 15 fois et ne peut pas être retirée."
+      ],
+      "story": ""
+    },
+    "62": {
+      "name": "tête-citrouille surprise",
+      "description": [
+        "Lorsque vous êtes touché par un contrôle, restaure immédiatement 12 % du mana et augmente la Vit ATQ de 200 points pendant 5 sec. Cet effet ne s'active qu'une fois toutes les 30 sec.",
+        "Lorsque vous êtes touché par un contrôle, restaure immédiatement 14 % du mana et augmente la Vit ATQ de 240 points pendant 5 sec. Cet effet ne s'active qu'une fois toutes les 30 sec.",
+        "Lorsque vous êtes touché par un contrôle, restaure immédiatement 17 % du mana et augmente la Vit ATQ de 290 points pendant 5 sec. Cet effet ne s'active qu'une fois toutes les 30 sec.",
+        "Lorsque vous êtes touché par un contrôle, restaure immédiatement 21 % du mana et augmente la Vit ATQ de 350 points pendant 5 sec. Cet effet ne s'active qu'une fois toutes les 30 sec.",
+        "Lorsque vous êtes touché par un contrôle, restaure immédiatement 25 % du mana et augmente la Vit ATQ de 420 points pendant 5 sec. Cet effet ne s'active qu'une fois toutes les 30 sec.",
+        "Lorsque vous êtes touché par un contrôle, restaure immédiatement 30 % du mana et augmente la Vit ATQ de 500 points pendant 5 sec. Cet effet ne s'active qu'une fois toutes les 30 sec."
+      ],
+      "story": ""
     }
   },
   "hero": {
@@ -2647,7 +2707,7 @@
           "2": "La Pénétration DEF est augmentée de {0} pendant la durée de la compétence. Cumulable jusqu'à 5 fois."
         },
         "light": "Pour chaque charge, les DEG sont augmentés de 4% pour les ennemis qui ne sont pas des Héros.",
-        "dark": "Si cumulé 5 fois ou plus, toutes les résistances augmentent de 20 %."
+        "dark": "Si cumulé 5 fois ou plus, les DEG P et les DEG M subis sont réduits de 20 %."
       },
       "t5": {
         "light": "ATQ, DEF, PV +15% / DEG Crit +20%",
@@ -6321,7 +6381,7 @@
           "2": "Le taux d'augmentation d'ATQ est augmenté de {0}%."
         },
         "light": "Augmente le coût en mana de 1 et accorde cet effet aux 2 alliés qui ont l'ATQ la plus élevée.",
-        "dark": "À utiliser sans tenir compte des effets négatifs qui pèsent sur le lanceur et dissipe ceux qui pèsent sur l'allié ciblé.",
+        "dark": "À l'utilisation, ignore leseffets négatifs qui pèsent sur le lanceur et dissipe ceux qui pèsent sur l'allié ciblé.",
         "ut": {
           "name": "Bracelet du soleil",
           "description": [
@@ -6614,11 +6674,135 @@
         "dark": "Tous les effets de malédiction sont augmentés. La durée de pétrification de [Malédiction de pétrification] augmente de 2 s. La durée de malédiction de [Malédiction du temps] augmente de 3 s. Les dégâts sur la durée de malédiction de [Malédiction de douleur] augmentent de 50%."
       }
     },
+    "55": {
+      "name": "Seria",
+      "subtitle": "Ombre des abysses",
+      "description": "Seria est la 101e héritière. des ShadowHilt, une famille de chasseurs qui pourchasse les êtres surnaturels non humains. Elle a fait tout le chemin depuis Orvelia en tant que chasseuse de vampires pour se venger de sa sœur, qui a été transformée en vampire et a massacré ses camarades. Seria voudrait aussi abréger les souffrances de sa petite sœur.",
+      "story": "101e héritière de la famille ShadowHilt et sœur d'Erze. Son attitude peu amicale lui vaut le qualificatif de sang-froid. Et pourtant, elle ne cessait jamais de sourire lorsqu'elle était aux côtés d'Erze, sa sœur adorée. Seria a toujours eu de la compassion pour sa sœur fragile et l'a toujours protégée, sans se rendre compte que cela n'était pas dans l'intérêt d'Erze. Au cours d'une mission, Erze tomba dans un piège. Elle fut sauvée, mais sa maladie empira soudainement. Dans le même temps, Seria fut envoyée à la montagne enneigée Terre-Venteuse à la recherche de la princesse vampire. Elle eut vent de l'infortune de sa sœur, mais choisit de donner priorité à sa mission, en espérant que tout irait bien. Mais le sort s'acharnait sur sa sœur, comme pour balayer d'un revers de la main les prières de Seria. - Oh, Seria, ma chère sœur ! Seria revint, mais uniquement pour découvrir les dépouilles de ses camarades, froides comme la glace. Erze l'accueillit de deux crocs acérés, assoiffée de sang. Seria tremblait d'émotion. Son cœur brisé, elle dit ces mots d'un ton calme et froid. - Tu... Tu n'es plus ma sœur. Tu n'es qu'une maudite suceuse de sang.",
+      "like": "Sa sœur Erze, le parfait à la fraise, les épées raffinées, la lune.",
+      "dislike": "Erze en tant que vampire, les araignées",
+      "inn": {
+        "idle": "Il fait chaud ici.",
+        "recruit": {
+          "greet": "Bien.",
+          "talk": [
+            "Les rues ont l'air sûres aussi la nuit, par ici.",
+            "Vous avez des camarades en or. Ah... des camarades...",
+            "Pourrai-je à nouveau accorder ma confiance à quelqu'un ?"
+          ],
+          "gift": "Je n'accepte aucune requête pour le moment. J'ai mes raisons..."
+        },
+        "affinity": {
+          "greet": "Je vous ai déjà dit que je n'acceptais aucune requête, non ?",
+          "talk": [
+            "Je suis venue retrouver quelqu'un. Vous savez de qui je parle, non ? Il s'agit de ma sœur. Je suis à la recherche de ma sœur.",
+            "On se croise souvent, on dirait. Vous aussi, vous cherchez quelqu'un ? S'il s'agit d'un camarade ou d'un membre de votre famille, vous devez prendre soin de lui..."
+          ],
+          "gift": "... Merci, je suis... Je suis désolée... Ça me va droit au cœur."
+        },
+        "relationship": {
+          "greet": "Ah, bonjour... Comment allez-vous ?",
+          "talk": [
+            "Toutes ces nuits, Erze souffrait le martyre... Je n'ai rien pu faire pour elle. En un sens, je suis peut-être responsable de ce qu'elle est devenue. C'est ça, tout est ma faute...",
+            "Le mieux que je puisse faire pour elle, c'est apporter le repos à son âme. Il n'y a rien d'autre à faire. À chaque fois que j'y pense, mon cœur se déchire... Mon esprit refuse de se résoudre à lever l'épée sur ma sœur.",
+            "Je voulais vous remercier... De m'avoir parlé... de m'avoir écoutée. Si nous nous revoyons un jour, alors..."
+          ]
+        }
+      },
+      "uw": {
+        "name": "Bourreau des foyers, Elsion",
+        "description": [
+          "La récupération personnelle est ralentie de 20 %. Inflige des DEG M à hauteur de 30% de l'ATQ à chaque coup critique de compétence porté. Ralentit la récupération de la cible de 24% pendant 5 sec et accélère la récupération personnelle de 4% pendant 20 sec. L'accélération de la récupération peut se cumuler 5 fois.",
+          "Ralentit la récupération de 20 %. Inflige des DEG M à hauteur de 36 % de l'ATQ à chaque coup critique de compétence porté. Ralentit la récupération de la cible de 29 % pendant 5 sec et accélère celle du lanceur de 5 % pendant 20 sec. L'accélération de la récupération peut se cumuler 5 fois.",
+          "Ralentit la récupération de 20 %. Inflige des DEG M à hauteur de 42 % de l'ATQ à chaque coup critique de compétence porté. Ralentit la récupération de la cible de 35 % pendant 5 sec et accélère celle du lanceur de 6 % pendant 20 sec. L'accélération de la récupération peut se cumuler 5 fois.",
+          "Ralentit la récupération de 20 %. Inflige des DEG M à hauteur de 51 % de l'ATQ à chaque coup critique de compétence porté. Ralentit la récupération de la cible de 42 % pendant 5 sec et accélère celle du lanceur de 7 % pendant 20 sec. L'accélération de la récupération peut se cumuler 5 fois.",
+          "Ralentit la récupération de 20 %. Inflige des DEG M à hauteur de 63 % de l'ATQ à chaque coup critique de compétence porté. Ralentit la récupération de la cible de 50 % pendant 5 sec et accélère celle du lanceur de 9 % pendant 20 sec. L'accélération de la récupération peut se cumuler 5 fois.",
+          "Ralentit la récupération de 20 %. Inflige des DEG M à hauteur de 75 % de l'ATQ à chaque coup critique de compétence porté. Ralentit la récupération de la cible de 60 % pendant 5 sec et accélère celle du lanceur de 10 % pendant 20 sec. L'accélération de la récupération peut se cumuler 5 fois."
+        ],
+        "story": "Épée d'autorité transmise aux maîtres de la famille ShadowHilt. Elle renferme le pouvoir des êtres suprêmes qui ont juré de servir la famille ShadowHilt. Certains d'entre eux étaient des élémentaires, d'autres des esprits innocents et d'autres encore des démons. Des dizaines de milliers de forces maléfiques ont été pourfendues par cette épée. Elle possède également une propriété démoniaque qui lie l'esprit du mal vaincu à sa lame. Malgré sa grande puissance, moins de 5 personnes ont pu manier cette épée en 600 ans. Seria, la 101e héritière de la famille ShadowHilt et seule maîtresse à avoir été choisie par l'épée, a juré à l'épée quelle apporterait le repos éternel à sa sœur adorée."
+      },
+      "s1": {
+        "name": "Épée mystérieuse - Pétales tombants",
+        "description": "Assène une entaille horizontale vers l'avant et inflige {0}  points de DEG M à la cible ainsi que dans une petite zone autour d'elle. Peut déclencher une fois [Épée mystérieuse - Fleur] dans les 5 sec qui suivent l'activation.",
+        "books": {
+          "0": "DEG augmentés de {0}%.",
+          "1": "DEG augmentés de {0}%.",
+          "2": "DEG augmentés de {0}%."
+        },
+        "light": "[Mysterious Sword - Falling Petals] - Mana cost is reduced by 1. [Mysterious Sword - Blossom] - Hit enemies' heal rate is reduced by 50% for 5 sec.",
+        "dark": "[Mysterious Sword - Falling Petals] - Target takes 25% increased M.DMG for 10 sec. [Mysterious Sword - Blossom] - Mana cost is increased by 1, and Ignores enemy's DEF.",
+        "linked": {
+          "name": "Épée mystérieuse - Fleur",
+          "description": "Assène une entaille verticale vers l'avant et inflige {0}  points de DEG M à la cible ainsi que dans une petite zone autour d'elle."
+        }
+      },
+      "s2": {
+        "name": "Lame d'effusion de sang",
+        "description": "Rapidly charges forward to deal {0} M.DMG and inflicts irremovable Original Sin of Blood on enemies for {1} sec. Enemies under Original Sin of Blood have their ATK Spd reduced by {2}. Shortly afterward, attacks enemies under Original Sin of Blood 2 times, and deals additional {3} M.DMG, and if the target is not a hero, deals additional {4} DEF Ignoring M.DMG.",
+        "books": {
+          "0": "DEG augmentés de {0}%.",
+          "1": "DEG augmentés de {0}%.",
+          "2": "DEG augmentés de {0}%."
+        },
+        "light": "Réduit le coût en mana de 1.",
+        "dark": "Pour chaque point de DEG infligé, 200 Mana sont récupérés.",
+        "ut": {
+          "name": "Anneau des abysses",
+          "description": [
+            "[Lame d'effusion de sang] Augmente les DEG de 50 % et réduit le Blocage M des ennemis touchés de 200.",
+            "[Lame d'effusion de sang] Augmente les DEG de 50 % et réduit le Blocage M des ennemis touchés de 240.",
+            "[Lame d'effusion de sang] Augmente les DEG de 50 % et réduit le Blocage M des ennemis touchés de 290.",
+            "[Lame d'effusion de sang] Augmente les DEG de 50 % et réduit le Blocage M des ennemis touchés de 350.",
+            "[Lame d'effusion de sang] Augmente les DEG de 50 % et réduit le Blocage M des ennemis touchés de 420.",
+            "[Lame d'effusion de sang] Augmente les DEG de 50 % et réduit le Blocage M des ennemis touchés de 500."
+          ],
+          "story": "Anneau d'argent à l'effigie de la famille ShadowHilt. Seria le touche à chaque fois qu'elle pense que sa vie n'a aucun sens. Cela lui rappelle alors ses camarades qui ne sont plus là et la vengeance qu'elle doit obtenir auprès de sa sœur Erze. Ironie du sort, cet anneau comporte une note écrite par Erze quand elle était petite et dissimulée parmi les joyaux, et Seria ignore tout de cette note, encore aujourd'hui."
+        }
+      },
+      "s3": {
+        "name": "Lame de la lune rouge",
+        "description": "Brandishes a moon-bloodying sword, dealing {0} M.DMG to enemies in a wide range, and additional {1} M.DMG on non-Hero enemies. When the moon is ripe, gains Moonlight for {2} sec, and when cast at this state, deals {3} M.DMG to enemies and reduces their Heal Rate by {4}%. If the target is not a hero, deals additional {5} M.DMG.The caster is not affected by ATK Spd related effects while casting.",
+        "books": {
+          "0": "DEG augmentés de {0}%.",
+          "1": "DEG augmentés de {0}%.",
+          "2": "DEG augmentés de {0}%."
+        },
+        "light": "Les Améliorations de tous les ennemis à portée sont dissipées.",
+        "dark": "Augmente le coût en mana de 1 point et passe outre la DEF des ennemis non-héros.",
+        "ut": {
+          "name": "Bougie purifiante",
+          "description": [
+            "[Lame de la lune rouge] Confère l'immunité contre les contrôles pendant la durée de la compétence. Au début du combat, les DEG augmentent de 70 % pour 4 fois.",
+            "[Lame de la lune rouge] Confère l'immunité contre les contrôles pendant la durée de la compétence. Au début du combat, les DEG augmentent de 70 % pour 5 fois.",
+            "[Lame de la lune rouge] Confère l'immunité contre les contrôles pendant la durée de la compétence. Au début du combat, les DEG augmentent de 70 % pour 6 fois.",
+            "[Lame de la lune rouge] Confère l'immunité contre les contrôles pendant la durée de la compétence. Au début du combat, les DEG augmentent de 70 % pour 7 fois.",
+            "[Lame de la lune rouge] Confère l'immunité contre les contrôles pendant la durée de la compétence. Au début du combat, les DEG augmentent de 70 % pour 9 fois.",
+            "[Lame de la lune rouge] Confère l'immunité contre les contrôles pendant la durée de la compétence. Au début du combat, les DEG augmentent de 70 % pour 10 fois."
+          ],
+          "story": "Cette bougie est connue pour avoir siégé sur la table où se sont réunis les guerriers ancestraux de différents continents pour vaincre les êtres surnaturels. Cette vieille bougie dégage une flamme bleue au pouvoir exorcisant. Lorsque la flamme entre en contact avec un être maléfique, elle en aspire toute la vitalité. Il s'agit du matériau que Seria utilise en priorité pour renforcer son épée."
+        }
+      },
+      "s4": {
+        "name": "Sorcière sans pitié",
+        "description": "L'ATQ est augmentée de {0}  point. Les DEG Crit personnels sont augmentés de {1}  % à chaque coup critique de compétence porté. Cet effet peut se cumuler 30 fois.",
+        "books": {
+          "0": "Le taux d'augmentation d'Attaque augmente de {0}%.",
+          "1": "Le taux d'augmentation d'Attaque augmente de {0}%.",
+          "2": "Le taux d'augmentation d'Attaque augmente de {0}%."
+        },
+        "light": "Chaque charge réduit les DEG reçus de 0.7 %.",
+        "dark": "Au début du combat, les DEG infligés aux ennemis non-héros augmentent de 25 % pendant 200 sec."
+      },
+      "t5": {
+        "light": "ATQ, DEF, PV +15% / DEG Crit +20%",
+        "dark": "Toutes les attaques du lanceur portent des coups critiques, mais il ne peut plus bloquer et subit 30 % de dégâts supplémentaires."
+      }
+    },
     "56": {
       "name": "Erze",
       "subtitle": "Éternelle assoiffée",
       "description": "Elle était autrefois chasseuse de vampires, comme sa sœur Seria. Corrompue par ses propres pouvoirs, elle se mit à massacrer ses semblables et choisit de devenir elle-même un vampire. Après avoir tué et absorbé les pouvoirs du vampire qui l'a métamorphosée, elle réussit à échapper à sa grande sœur Seria, seule survivante, et partit en direction d'Orvelia.",
-      "story": "Benjamine de la famille Shadow Hilt, Erze choisit de devenir chasseuse de vampires comme sa sœur adorée, Seria. De par sa carrure fluette, Erze n'apprit jamais le maniement de l'épée, mais réussit à se forger une solide réputation de chasseuse grâce à ses talents de magicienne. Alors qu'elle se trouvait en mission, elle tomba dans un piège et fut mordue à l'épaule par un mystérieux vampire. De plus en plus faible, elle souffrait de migraines fréquentes et de soifs nocturnes quotidiennes. Erze savait ce qu'il se passait et ce qu'il allait lui arriver. Elle dissimula sa morsure et essaya de trouver un remède, s'éloignant de ses semblables. Pendant ce temps, Seria fut envoyée à la montagne enneigée de Terre-venteuse à la recherche de la princesse vampire disparue depuis 100 ans. Le jour où sa sœur partit... - Ahh, Seria... Je n'ai plus la force de lutter... Erze se mit discrètement à trancher la gorge de ses semblables.",
+      "story": "Benjamine de la famille ShadowHilt, Erze choisit de devenir chasseuse de vampires comme sa sœur adorée, Seria. De par sa carrure fluette, Erze n'apprit jamais le maniement de l'épée, mais réussit à se forger une solide réputation de chasseuse grâce à ses talents de magicienne. Alors qu'elle se trouvait en mission, elle tomba dans un piège et fut mordue à l'épaule par un mystérieux vampire. De plus en plus faible, elle souffrait de migraines fréquentes et de soifs nocturnes quotidiennes. Erze savait ce qu'il se passait et ce qu'il allait lui arriver. Elle dissimula sa morsure et essaya de trouver un remède, s'éloignant de ses semblables. Pendant ce temps, Seria fut envoyée à la montagne enneigée de Terre-venteuse à la recherche de la princesse vampire disparue depuis 100 ans. Le jour où sa sœur partit... - Ahh, Seria... Je n'ai plus la force de lutter... Erze se mit discrètement à trancher la gorge de ses semblables.",
       "like": "Seria en tant que sœur, le parfait au chocolat, le sang des corrompus",
       "dislike": "Seria en tant que chasseuse de vampires, les araignées",
       "inn": {
@@ -6903,7 +7087,7 @@
       },
       "s1": {
         "name": "Murmure des sables",
-        "description": "Attaque l'ennemi ciblé et inflige {0}  points de DEG M aux ennemis à portée, réduisant de {2}  points leurs chances de bloquer et de {3}  points leur Résistance Crit pendant {1}  sec. De plus, ces ennemis subissent {4}  points de DEG M et sont étourdis pendant {5}  sec.",
+        "description": "Attaque l'ennemi ciblé et inflige {0} points de DEG M aux ennemis à portée, réduisant de {2} points leurs chances de bloquer et de {3} points leur Résistance Crit pendant {1} sec. De plus, ces ennemis subissent {4} points de DEG M et sont étourdis pendant {5} sec.",
         "books": {
           "0": "DEG augmentés de {0}%.",
           "1": "DEG augmentés de {0}%.",
@@ -6936,7 +7120,7 @@
         },
         "linked": {
           "name": "Embuscade engageante",
-          "description": "Attaque 3 fois l'ennemi ciblé et lui inflige un total de {0}  points de DEG M. Inflige également {1}  points de DEG M supplémentaires aux boss et aux ennemis sous le charme."
+          "description": "Attaque 3 fois l'ennemi ciblé et lui inflige un total de {0} points de DEG M. Inflige également {1} points de DEG M aux boss et aux ennemis sous le charme, et ce malgré la DEF de la cible."
         }
       },
       "s3": {
@@ -6980,6 +7164,246 @@
       "t5": {
         "light": "ATQ, DEF, PV +15% / Vit. ATQ +100",
         "dark": "Au début de chaque combat, confère l'immunité contre les contrôles pendant 7 sec, et augmente la précision et la précision des contrôles de 300 points pendant 10 sec."
+      }
+    },
+    "59": {
+      "name": "",
+      "subtitle": "",
+      "description": "",
+      "story": "",
+      "like": "",
+      "dislike": "",
+      "inn": {
+        "idle": "",
+        "recruit": {
+          "greet": "",
+          "talk": [
+            "",
+            "",
+            ""
+          ],
+          "gift": ""
+        },
+        "affinity": {
+          "greet": "",
+          "talk": [
+            "",
+            ""
+          ],
+          "gift": ""
+        },
+        "relationship": {
+          "greet": "",
+          "talk": [
+            "",
+            "",
+            ""
+          ]
+        }
+      },
+      "uw": {
+        "name": "",
+        "description": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "story": ""
+      },
+      "s1": {
+        "name": "",
+        "description": "",
+        "books": {
+          "0": "",
+          "1": "",
+          "2": ""
+        },
+        "light": "",
+        "dark": ""
+      },
+      "s2": {
+        "name": "",
+        "description": "",
+        "books": {
+          "0": "",
+          "1": "",
+          "2": ""
+        },
+        "light": "",
+        "dark": "",
+        "ut": {
+          "name": "",
+          "description": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "story": ""
+        }
+      },
+      "s3": {
+        "name": "",
+        "description": "",
+        "books": {
+          "0": "",
+          "1": "",
+          "2": ""
+        },
+        "light": "",
+        "dark": "",
+        "ut": {
+          "name": "",
+          "description": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "story": ""
+        }
+      },
+      "s4": {
+        "name": "",
+        "description": "",
+        "books": {
+          "0": "",
+          "1": "",
+          "2": ""
+        },
+        "light": "",
+        "dark": ""
+      },
+      "t5": {
+        "light": "",
+        "dark": ""
+      }
+    },
+    "60": {
+      "name": "",
+      "subtitle": "",
+      "description": "",
+      "story": "",
+      "like": "",
+      "dislike": "",
+      "inn": {
+        "idle": "",
+        "recruit": {
+          "greet": "",
+          "talk": [
+            "",
+            "",
+            ""
+          ],
+          "gift": ""
+        },
+        "affinity": {
+          "greet": "",
+          "talk": [
+            "",
+            ""
+          ],
+          "gift": ""
+        },
+        "relationship": {
+          "greet": "",
+          "talk": [
+            "",
+            "",
+            ""
+          ]
+        }
+      },
+      "uw": {
+        "name": "",
+        "description": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "story": ""
+      },
+      "s1": {
+        "name": "",
+        "description": "",
+        "books": {
+          "0": "",
+          "1": "",
+          "2": ""
+        },
+        "light": "",
+        "dark": ""
+      },
+      "s2": {
+        "name": "",
+        "description": "",
+        "books": {
+          "0": "",
+          "1": "",
+          "2": ""
+        },
+        "light": "",
+        "dark": "",
+        "ut": {
+          "name": "",
+          "description": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "story": ""
+        }
+      },
+      "s3": {
+        "name": "",
+        "description": "",
+        "books": {
+          "0": "",
+          "1": "",
+          "2": ""
+        },
+        "light": "",
+        "dark": "",
+        "ut": {
+          "name": "",
+          "description": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "story": ""
+        }
+      },
+      "s4": {
+        "name": "",
+        "description": "",
+        "books": {
+          "0": "",
+          "1": "",
+          "2": ""
+        },
+        "light": "",
+        "dark": ""
+      },
+      "t5": {
+        "light": "",
+        "dark": ""
       }
     },
     "61": {
@@ -8273,7 +8697,7 @@
       },
       "s3": {
         "name": "Hors de ma vue !",
-        "description": "Attaque 2 fois la cible et les ennemis dans une large zone environnante pour infliger {0} DEG M, les renverse pendant 5 sec. et augmente les DEG M des ennemis affectés de 30 % pendant 10 sec.",
+        "description": "Attaque 2 fois la cible et les ennemis dans une large zone environnante pour leur infliger {0} points de DEG M et les renverser pendant 5 secondes. Les ennemis touchés subissent 30% de DEG M en plus pendant 10 secondes.",
         "books": {
           "0": "DEG augmentés de {0}%.",
           "1": "DEG augmentés de {0}%.",
@@ -8366,7 +8790,7 @@
           "2": "Bloque tous les DEG."
         },
         "light": "Le Temps de recharge est réduit de 3 sec.",
-        "dark": "Augmente la faiblesse P de la cible de 25 % pendant 10 secondes."
+        "dark": "Augmente la Résist P. faible de la cible de 25% pendant 10 secondes."
       },
       "s2": {
         "name": "Credo voilé",
@@ -8404,12 +8828,12 @@
         "ut": {
           "name": "Océan d'invocation",
           "description": [
-            "[Credo du chevalier] Réduit le temps de recharge de 30 % et augmente la faiblesse P de la cible de 10 % pendant 10 secondes.",
-            "[Credo du chevalier] Réduit le temps de recharge de 30 % et augmente la faiblesse P de la cible de 12 % pendant 10 secondes.",
-            "[Credo du chevalier] Réduit le temps de recharge de 30 % et augmente la faiblesse P de la cible de 14 % pendant 10 secondes.",
-            "[Credo du chevalier] Réduit le temps de recharge de 30 % et augmente la faiblesse P de la cible de 17 % pendant 10 secondes.",
-            "[Credo du chevalier] Réduit le temps de recharge de 30 % et augmente la faiblesse P de la cible de 21 % pendant 10 secondes.",
-            "[Credo du chevalier] Réduit le temps de recharge de 30 % et augmente la faiblesse P de la cible de 25 % pendant 10 secondes."
+            "[Credo du chevalier] Réduit le temps de recharge de 30% et augmente la Résist P. faible de la cible de 10% pendant 10 secondes.",
+            "[Credo du chevalier] Réduit le temps de recharge de 30% et augmente la Résist P. faible de la cible de 12% pendant 10 secondes.",
+            "[Credo du chevalier] Réduit le temps de recharge de 30% et augmente la Résist P. faible de la cible de 14% pendant 10 secondes.",
+            "[Credo du chevalier] Réduit le temps de recharge de 30% et augmente la Résist P. faible de la cible de 17% pendant 10 secondes.",
+            "[Credo du chevalier] Réduit le temps de recharge de 30% et augmente la Résist P. faible de la cible de 21% pendant 10 secondes.",
+            "[Credo du chevalier] Réduit le temps de recharge de 30% et augmente la Résist P. faible de la cible de 25% pendant 10 secondes."
           ],
           "story": "Ce pendentif spécial fut décerné par le premier roi d'Orvelia à la famille de Loman pour récompenser sa loyauté et la protection qu'elle offrit à la monarchie d'Orvel. Sa véritable origine reste un mystère, mais certains pensent que cet accessoire renferme l'esprit du gardien du continent d'Orbis, appartenant à une civilisation depuis longtemps disparue. Tous les propriétaires de ce pendentif ont raconté la même histoire : lorsqu'ils se sont résolus à risquer leur vie pour ce qui leur importante, ils invoquent une force supérieure telle que les vagues de l'océan. Certains pensent à présent que la gemme bleue de ce pendentif peut invoquer les esprits, et c'est pour cette raison qu'on l'appelle l'Océan d'invocation. Loman en a hérité de son père lorsqu'il est entré au château et le garde toujours avec lui."
         }

@@ -219,12 +219,12 @@
     "20": {
       "name": "Talismans of Resistance",
       "description": [
-        "Removes all negative effects upon receiving them. After removal, gain immunity to CC for 1 sec. Has a cooldown for 20 sec.",
-        "Removes all negative effects upon receiving them. After removal, gain immunity to CC for 1.5 sec. Has a cooldown for 19 sec.",
-        "Removes all negative effects upon receiving them. After removal, gain immunity to CC for 2 sec. Has a cooldown for 18 sec.",
-        "Removes all negative effects upon receiving them. After removal, gain immunity to CC for 2.5 sec. Has a cooldown for 17 sec.",
-        "Removes all negative effects upon receiving them. After removal, gain immunity to CC for 3 sec. Has a cooldown for 16 sec.",
-        "Removes all negative effects upon receiving them. After removal, gain immunity to CC for 3.5 sec. Has a cooldown for 15 sec."
+        "Upon receiving a negative effect, removes all negative effects. Afterward, gains immunity to CC for 1 sec. Has a Cooldown of 20 sec.",
+        "Upon receiving a negative effect, removes all negative effects. Afterward, gains immunity to CC for 1.5 sec. Has a Cooldown of 19 sec.",
+        "Upon receiving a negative effect, removes all negative effects. Afterward, gains immunity to CC for 2 sec. Has a Cooldown of 18 sec.",
+        "Upon receiving a negative effect, removes all negative effects. Afterward, gains immunity to CC for 2.5 sec. Has a Cooldown of 17 sec.",
+        "Upon receiving a negative effect, removes all negative effects. Afterward, gains immunity to CC for 3 sec. Has a Cooldown of 16 sec.",
+        "Upon receiving a negative effect, removes all negative effects. Afterward, gains immunity to CC for 3.5 sec. Has a Cooldown of 15 sec."
       ],
       "story": "A pile of old exotic talismans that drives away harmful spirits. They are rendered useless for a while once used."
     },
@@ -504,6 +504,42 @@
       ],
       "story": "A blazing bond of Velkazar, the Hellspawn Torturer. It's enchanted with Black Magic to control the overflowing power."
     },
+    "47": {
+      "name": "Book of the Mad",
+      "description": [
+        "Every second, own Mana is reduced by 100, but own DMG to enemies is increased by 14%.",
+        "Every second, own Mana is reduced by 120, but own DMG to enemies is increased by 17%.",
+        "Every second, own Mana is reduced by 140, but own DMG to enemies is increased by 21%.",
+        "Every second, own Mana is reduced by 170, but own DMG to enemies is increased by 25%.",
+        "Every second, own Mana is reduced by 210, but own DMG to enemies is increased by 30%.",
+        "Every second, own Mana is reduced by 250, but own DMG to enemies is increased by 35%."
+      ],
+      "story": ""
+    },
+    "48": {
+      "name": "Magical Flute",
+      "description": [
+        "Every 8 sec, increases ATK Spd of 2 random allies and the caster by 100 for 4 sec.",
+        "Every 8 sec, increases ATK Spd of 2 random allies and the caster by 120 for 4 sec.",
+        "Every 8 sec, increases ATK Spd of 2 random allies and the caster by 140 for 4 sec.",
+        "Every 8 sec, increases ATK Spd of 2 random allies and the caster by 170 for 4 sec.",
+        "Every 8 sec, increases ATK Spd of 2 random allies and the caster by 210 for 4 sec.",
+        "Every 8 sec, increases ATK Spd of 2 random allies and the caster by 250 for 4 sec."
+      ],
+      "story": ""
+    },
+    "49": {
+      "name": "Lion of Protection",
+      "description": [
+        "Increases own P.DEF by 20%, and P.Block by 100.",
+        "Increases own P.DEF by 24%, and P.Block by 120.",
+        "Increases own P.DEF by 29%, and P.Block by 140.",
+        "Increases own P.DEF by 35%, and P.Block by 170.",
+        "Increases own P.DEF by 42%, and P.Block by 210.",
+        "Increases own P.DEF by 50%, and P.Block by 250."
+      ],
+      "story": ""
+    },
     "51": {
       "name": "Cross Pumpkin Head",
       "description": [
@@ -611,6 +647,30 @@
         "When the battle starts, increases DMG to Non-Hero enemies by 50% for 30 sec, and recovers Mana by 500 every 5 sec."
       ],
       "story": "A brilliant necklace befitting Moon Rabbit LuLu. It is made from the refined fragments of a full moon. The magical power of the full moon seeps into the wearer's entire body the moment it is worn."
+    },
+    "61": {
+      "name": "Happy Pumpkin Head",
+      "description": [
+        "Every 7 sec, increases Heal Rate by 2% and heals HP by 100% of own ATK. Heal rate increase can be stacked up to max 15 times and cannot be removed.",
+        "Every 7 sec, increases Heal Rate by 2.4% and heals HP by 120% of own ATK. Heal rate increase can be stacked up to max 15 times and cannot be removed.",
+        "Every 7 sec, increases Heal Rate by 2.8% and heals HP by 140% of own ATK. Heal rate increase can be stacked up to max 15 times and cannot be removed.",
+        "Every 7 sec, increases Heal Rate by 3.4% and heals HP by 170% of own ATK. Heal rate increase can be stacked up to max 15 times and cannot be removed.",
+        "Every 7 sec, increases Heal Rate by 4.2% and heals HP by 210% of own ATK. Heal rate increase can be stacked up to max 15 times and cannot be removed.",
+        "Every 7 sec, increases Heal Rate by 5% and heals HP by 250% of own ATK. Heal rate increase can be stacked up to max 15 times and cannot be removed."
+      ],
+      "story": ""
+    },
+    "62": {
+      "name": "Surprised Pumpkin Head",
+      "description": [
+        "When inflicted by CC, immediately recovers Mana by 12% and increases ATK Spd by 200 for 5 sec. This effect activates once every 30 sec.",
+        "When inflicted by CC, immediately recovers Mana by 14% and increases ATK Spd by 240 for 5 sec. This effect activates once every 30 sec.",
+        "When inflicted by CC, immediately recovers Mana by 17% and increases ATK Spd by 290 for 5 sec. This effect activates once every 30 sec.",
+        "When inflicted by CC, immediately recovers Mana by 21% and increases ATK Spd by 350 for 5 sec. This effect activates once every 30 sec.",
+        "When inflicted by CC, immediately recovers Mana by 25% and increases ATK Spd by 420 for 5 sec. This effect activates once every 30 sec.",
+        "When inflicted by CC, immediately recovers Mana by 30% and increases ATK Spd by 500 for 5 sec. This effect activates once every 30 sec."
+      ],
+      "story": ""
     }
   },
   "hero": {
@@ -2647,7 +2707,7 @@
           "2": "Penetration is increased by {0} for the duration of skill."
         },
         "light": "Per each stack, DMG is increased by 4% to enemies other than heroes.",
-        "dark": "With 5 or more stacks, increases All Resistance by 20%."
+        "dark": "When there are 5 or more stacks, takes 20% reduced P.DMG and M.DMG."
       },
       "t5": {
         "light": "ATK, DEF, HP+15% / Crit DMG +20%",
@@ -6614,11 +6674,135 @@
         "dark": "All effects of curse are enhanced. [Curse of Petrification] Petrification duration is increased by 2 sec. [Curse of Time] Curse of Time duration is increased by 3 sec. [Curse of Pain] Curse of Pain DOT is increased by 50%."
       }
     },
+    "55": {
+      "name": "Seria",
+      "subtitle": "Shadow of the Abyss",
+      "description": "Seria is the 101st heir of the ShadowHilts, a family of hunters that slays non-human, supernatural beings. She came all the way to Orvelia as a vampire hunter, seeking vengeance against her sister who turned into a vampire and slaughtered her comrades. Seria is also trying to save her little sister by putting her out of her misery.",
+      "story": "The 101st Heir of ShadowHilt and the sister of Erze. People call her cold-blooded for her unfriendly attitude, but she used to be all smiles when she was around her beloved sister, Erze. Seria always felt sorry for her feeble sister and was overprotective of her, without realizing that it was actually putting Erze in greater despair. One day, Erze fell into a trap during a mission. She was saved, but her sickness started to worsen dramatically. Meanwhile, Seria was sent to Windland Snow Mountain to follow the traces of the Vampire Princess. She had a glimpse of what was going on with her sister, but she left for the top-priority mission, praying that she was wrong. However, the tragedy struck the sisters as if it mocking Seria's prayers. - Oh, my beloved sister, Seria! Seria returned to find the corpses of her comrades lying on the ground, cold as ice. Erze welcomed her with two sharp fangs, thirsting for blood. Seria trembled with waves of emotions. Her heart was breaking, yet she spoke in a cold, calm tone. - You... you are not my little sister anymore. You're a filthy bloodsucker.",
+      "like": "Her sister Erze, strawberry parfait, fine swords, the moon.",
+      "dislike": "Vampire Erze, spiders",
+      "inn": {
+        "idle": "It's warm here.",
+        "recruit": {
+          "greet": "Alright.",
+          "talk": [
+            "Looks like the night street is still safe here.",
+            "You've got some good comrades. Comrades... Ha.",
+            "Would I ever be able to have faith in anyone else again?..."
+          ],
+          "gift": "I'm not taking requests at the moment. I have my own reasons."
+        },
+        "affinity": {
+          "greet": "Did I not tell you that I don't receive requests?",
+          "talk": [
+            "I'm here to find someone. I don't have to tell you who it is, do I?...It's my sister. I'm looking for my sister.",
+            "We're bumping into each other quite frequently. Are you here looking for someone yourself? If it's your comrade or family, cherish them..."
+          ],
+          "gift": "... Thank you, I'm just... I'm sorry, and I appreciate it."
+        },
+        "relationship": {
+          "greet": "Ah, Hey... How are you?",
+          "talk": [
+            "All those hellish nights Erze suffered in agony... I failed to do anything for her. Perhaps it was me that made her into what she is now. Yes, it's all my fault...",
+            "The most I can do for her is put her soul to rest. There's no other way. Whenever I think of it, I feel my heart breaking all over again... My mind refuses to raise my sword against my sister.",
+            "I... I wanted to say thank you. Thank you for talking to me... listening to me. If we meet again, then..."
+          ]
+        }
+      },
+      "uw": {
+        "name": "Executioner of Domains, Elsion",
+        "description": [
+          "Own Heal Rate is reduced by 20%. Upon a critical skill hit, deals additional M.DMG by 30% of ATK. Hit target's Heal Rate is reduced by 24% for 5 sec, and increases own Heal Rate by 4% for 20 sec. The Heal rate increasing effect can be stacked up to 5 times.",
+          "Own Heal Rate is reduced by 20%. Upon a critical skill hit, deals additional M.DMG by 36% of ATK. Reduces Heal Rate of the target by 29% for 5 sec, and increases own Heal Rate by 5% for 20 sec. The Heal rate increasing effect can be stacked up to 5 times.",
+          "Own Heal Rate is reduced by 20%. Upon a critical skill hit, deals additional M.DMG by 42% of ATK. Reduces Heal Rate of the target by 35% for 5 sec, and increases own Heal Rate by 6% for 20 sec. The Heal rate increasing effect can be stacked up to 5 times.",
+          "Own Heal Rate is reduced by 20%. Upon a critical skill hit, deals additional M.DMG by 51% of ATK. Reduces Heal Rate of the target by 42% for 5 sec, and increases own Heal Rate by 7% for 20 sec. The Heal rate increasing effect can be stacked up to 5 times.",
+          "Own Heal Rate is reduced by 20%. Upon a critical skill hit, deals additional M.DMG by 63% of ATK. Reduces Heal Rate of the target by 50% for 5 sec, and increases own Heal Rate by 9% for 20 sec. The Heal rate increasing effect can be stacked up to 5 times.",
+          "Own Heal Rate is reduced by 20%. Upon a critical skill hit, deals additional M.DMG by 75% of ATK. Reduces Heal Rate of the target by 60% for 5 sec, and increases own Heal Rate by 10% for 20 sec. The Heal rate increasing effect can be stacked up to 5 times."
+        ],
+        "story": "A sword of authority passed down to the masters of ShadowHilts. This sword contains the power of mighty beings that made a pact to serve the ShadowHilts. Some of them were Elementals, some were innocent spirits, and some even demons. It is known that tens of thousands of evil forces fell to this sword. It also has a demonic quality that binds the spirit of the slain evil to the blade. Despite its great power, fewer than 5 people in 600 years that were able to wield this sword. Seria, the 101st Heir of ShadowHilts and the only master in history chosen by the sword, entered the pact with the sword to put her beloved sister to rest."
+      },
+      "s1": {
+        "name": "Mysterious Sword - Falling Petals",
+        "description": "Performs a horizontal slash to the front and deals {0} M.DMG to the target and enemies in a narrow range. Can activate [Mysterious Sword - Blossom] once within 5 sec after use.",
+        "books": {
+          "0": "DMG is increased by {0}%.",
+          "1": "DMG is increased by {0}%.",
+          "2": "DMG is increased by {0}%."
+        },
+        "light": "[Mysterious Sword - Falling Petals] - Mana cost is reduced by 1. [Mysterious Sword - Blossom] - Hit enemies' heal rate is reduced by 50% for 5 sec.",
+        "dark": "[Mysterious Sword - Falling Petals] - Target takes 25% increased M.DMG for 10 sec. [Mysterious Sword - Blossom] - Mana cost is increased by 1, and Ignores enemy's DEF.",
+        "linked": {
+          "name": "Mysterious Sword - Blossom",
+          "description": "Performs a vertical slash to the front and deals {0} M.DMG to the target and enemies in a narrow range."
+        }
+      },
+      "s2": {
+        "name": "Blood Scattering Blade",
+        "description": "Rapidly charges forward to deal {0} M.DMG and inflicts irremovable Original Sin of Blood on enemies for {1} sec. Enemies under Original Sin of Blood have their ATK Spd reduced by {2}. Shortly afterward, attacks enemies under Original Sin of Blood 2 times, and deals additional {3} M.DMG, and if the target is not a hero, deals additional {4} DEF Ignoring M.DMG.",
+        "books": {
+          "0": "DMG is increased by {0}%.",
+          "1": "DMG is increased by {0}%.",
+          "2": "DMG is increased by {0}%."
+        },
+        "light": "Reduces Mana Cost by 1.",
+        "dark": "Upon each DMG dealt, recovers 200 Mana.",
+        "ut": {
+          "name": "Ring of Abyss",
+          "description": [
+            "[Blood Scattering Blade] Increases DMG by 50% and reduces M.Block of affected enemies by 200.",
+            "[Blood Scattering Blade] Increases DMG by 50% and reduces M.Block of affected enemies by 240.",
+            "[Blood Scattering Blade] Increases DMG by 50% and reduces M.Block of affected enemies by 290.",
+            "[Blood Scattering Blade] Increases DMG by 50% and reduces M.Block of affected enemies by 350.",
+            "[Blood Scattering Blade] Increases DMG by 50% and reduces M.Block of affected enemies by 420.",
+            "[Blood Scattering Blade] Increases DMG by 50% and reduces M.Block of affected enemies by 500."
+          ],
+          "story": "A silver ring that represents the ShadowHilts. Seria touches it whenever she feels her life is meaningless. Doing so would remind her of her dead comrades, filling her heart with the need for vengeance against her sister Erze. Ironically, the ring has a note written by Erze, hidden within the ring's jewel when she was young, but Seria still doesn't know about it."
+        }
+      },
+      "s3": {
+        "name": "Red Moon Blade",
+        "description": "Brandishes a moon-bloodying sword, dealing {0} M.DMG to enemies in a wide range, and additional {1} M.DMG on non-Hero enemies. When the moon is ripe, gains Moonlight for {2} sec, and when cast at this state, deals {3} M.DMG to enemies and reduces their Heal Rate by {4}%. If the target is not a hero, deals additional {5} M.DMG.The caster is not affected by ATK Spd related effects while casting.",
+        "books": {
+          "0": "DMG is increased by {0}%.",
+          "1": "DMG is increased by {0}%.",
+          "2": "DMG is increased by {0}%."
+        },
+        "light": "Dispels positive effects of all enemies in range.",
+        "dark": "Increases Mana Cost by 1 and ignores DEF when attacking Non-Hero enemies.",
+        "ut": {
+          "name": "Enlightening Candlelight",
+          "description": [
+            "[Red Moon Blade] Gains immunity to CC for the duration of the skill. When the battle starts, increases DMG by 70% for 4 time.",
+            "[Red Moon Blade] Gains immunity to CC for the duration of the skill. When the battle starts, increases DMG by 70% for 5 time.",
+            "[Red Moon Blade] Gains immunity to CC for the duration of the skill. When the battle starts, increases DMG by 70% for 6 time.",
+            "[Red Moon Blade] Gains immunity to CC for the duration of the skill. When the battle starts, increases DMG by 70% for 7 time.",
+            "[Red Moon Blade] Gains immunity to CC for the duration of the skill. When the battle starts, increases DMG by 70% for 9 time.",
+            "[Red Moon Blade] Gains immunity to CC for the duration of the skill. When the battle starts, increases DMG by 70% for 10 time."
+          ],
+          "story": "The candle known to have been on the table of the meeting hall where ancient warriors from different continents gathered to defeat supernatural beings. Blazing on this old candle is a blue exorcising flame. When the flame touches an evil being, it sucks the vitality out of the creature's body. This is the first material Seria uses whenever she refines her sword."
+        }
+      },
+      "s4": {
+        "name": "Cold-Blooded Witch",
+        "description": "ATK is increased by {0}. Upon a critical skill hit, own Crit DMG is increased by {1}%. This effect can be stacked up to 30 times.",
+        "books": {
+          "0": "ATK boost is increased by {0}%.",
+          "1": "ATK boost is increased by {0}%.",
+          "2": "ATK boost is increased by {0}%."
+        },
+        "light": "Takes 0.7% reduced DMG per stack.",
+        "dark": "When the battle starts, increases DMG to Non-Hero enemies by 25% for 200 sec."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / Crit DMG +20%",
+        "dark": "All of caster's attacks will be critical hits, but the caster becomes unable to block while taking 30% increased damage."
+      }
+    },
     "56": {
       "name": "Erze",
       "subtitle": "Endless thirst",
       "description": "She was a vampire hunter, just as her sister Seria was. However, corrupted by her own power, she slaughtered her comrades and chose to become a vampire herself. After killing and absorbing the powers of the high vampire who turned her, she slipped away from Seria, her older sister and the only survivor, and moved to Orvelia.",
-      "story": "Born the second daughter of the Shadow Hilt family, Erze also chose to become a vampire hunter after her beloved sister Seria. Erze's feeble frame kept her from learning how to fight with swords, but she managed to become known as a hunter with her talents in magic. One day she fell into a trap during an operation and was bitten by a mysterious vampire on the shoulder. Her weak constitution grew worse, and she suffered from frequent headaches and thirst every night. Erze knew what this meant and what would end up happening to her. She hid the bite and tried to find a cure on her own, distancing herself from her comrades in her efforts. Meanwhile, Seria was dispatched to Windland Snow Mountain to investigate the Vampire Princess that went missing 100 years ago. On the day her sister left... - Ahh, Seria... I cannot control it anymore... Erze quietly and secretly started slitting the throats of her comrades.",
+      "story": "Born the second daughter of the ShadowHilt family, Erze also chose to become a vampire hunter after her beloved sister Seria. Erze's feeble frame kept her from learning how to fight with swords, but she managed to become known as a hunter with her talents in magic. One day she fell into a trap during an operation and was bitten by a mysterious vampire on the shoulder. Her weak constitution grew worse, and she suffered from frequent headaches and thirst every night. Erze knew what this meant and what would end up happening to her. She hid the bite and tried to find a cure on her own, distancing herself from her comrades in her efforts. Meanwhile, Seria was dispatched to Windland Snow Mountain to investigate the Vampire Princess that went missing 100 years ago. On the day her sister left... - Ahh, Seria... I cannot control it anymore... Erze quietly and secretly started slitting the throats of her comrades.",
       "like": "Seria as a sister, chocolate parfait, blood of the corrupted",
       "dislike": "Seria as a vampire hunter, spiders",
       "inn": {
@@ -6936,7 +7120,7 @@
         },
         "linked": {
           "name": "Alluring Ambush",
-          "description": "Attacks target enemy 3 times, dealing a total of {0} M.DMG. Deals extra {1} M.DMG to Boss enemies and enemies inflicted by Charm."
+          "description": "Attacks target enemy 3 times, dealing a total of {0} M.DMG. Deals extra {1} M.DMG ignoring the target's DEF to Boss enemies and enemies inflicted by Charm."
         }
       },
       "s3": {
@@ -6980,6 +7164,246 @@
       "t5": {
         "light": "ATK, DEF, HP+15% / ATK.Spd +100",
         "dark": "At the start of each battle, gains immunity to CC for 7 sec, and ACC, CC ACC are increased by 300 for 10 sec."
+      }
+    },
+    "59": {
+      "name": "",
+      "subtitle": "",
+      "description": "",
+      "story": "",
+      "like": "",
+      "dislike": "",
+      "inn": {
+        "idle": "",
+        "recruit": {
+          "greet": "",
+          "talk": [
+            "",
+            "",
+            ""
+          ],
+          "gift": ""
+        },
+        "affinity": {
+          "greet": "",
+          "talk": [
+            "",
+            ""
+          ],
+          "gift": ""
+        },
+        "relationship": {
+          "greet": "",
+          "talk": [
+            "",
+            "",
+            ""
+          ]
+        }
+      },
+      "uw": {
+        "name": "",
+        "description": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "story": ""
+      },
+      "s1": {
+        "name": "",
+        "description": "",
+        "books": {
+          "0": "",
+          "1": "",
+          "2": ""
+        },
+        "light": "",
+        "dark": ""
+      },
+      "s2": {
+        "name": "",
+        "description": "",
+        "books": {
+          "0": "",
+          "1": "",
+          "2": ""
+        },
+        "light": "",
+        "dark": "",
+        "ut": {
+          "name": "",
+          "description": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "story": ""
+        }
+      },
+      "s3": {
+        "name": "",
+        "description": "",
+        "books": {
+          "0": "",
+          "1": "",
+          "2": ""
+        },
+        "light": "",
+        "dark": "",
+        "ut": {
+          "name": "",
+          "description": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "story": ""
+        }
+      },
+      "s4": {
+        "name": "",
+        "description": "",
+        "books": {
+          "0": "",
+          "1": "",
+          "2": ""
+        },
+        "light": "",
+        "dark": ""
+      },
+      "t5": {
+        "light": "",
+        "dark": ""
+      }
+    },
+    "60": {
+      "name": "",
+      "subtitle": "",
+      "description": "",
+      "story": "",
+      "like": "",
+      "dislike": "",
+      "inn": {
+        "idle": "",
+        "recruit": {
+          "greet": "",
+          "talk": [
+            "",
+            "",
+            ""
+          ],
+          "gift": ""
+        },
+        "affinity": {
+          "greet": "",
+          "talk": [
+            "",
+            ""
+          ],
+          "gift": ""
+        },
+        "relationship": {
+          "greet": "",
+          "talk": [
+            "",
+            "",
+            ""
+          ]
+        }
+      },
+      "uw": {
+        "name": "",
+        "description": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "story": ""
+      },
+      "s1": {
+        "name": "",
+        "description": "",
+        "books": {
+          "0": "",
+          "1": "",
+          "2": ""
+        },
+        "light": "",
+        "dark": ""
+      },
+      "s2": {
+        "name": "",
+        "description": "",
+        "books": {
+          "0": "",
+          "1": "",
+          "2": ""
+        },
+        "light": "",
+        "dark": "",
+        "ut": {
+          "name": "",
+          "description": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "story": ""
+        }
+      },
+      "s3": {
+        "name": "",
+        "description": "",
+        "books": {
+          "0": "",
+          "1": "",
+          "2": ""
+        },
+        "light": "",
+        "dark": "",
+        "ut": {
+          "name": "",
+          "description": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "story": ""
+        }
+      },
+      "s4": {
+        "name": "",
+        "description": "",
+        "books": {
+          "0": "",
+          "1": "",
+          "2": ""
+        },
+        "light": "",
+        "dark": ""
+      },
+      "t5": {
+        "light": "",
+        "dark": ""
       }
     },
     "61": {

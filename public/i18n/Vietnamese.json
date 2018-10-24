@@ -219,12 +219,12 @@
     "20": {
       "name": "Bùa kháng hiệu ứng",
       "description": [
-        "Loại bỏ ngay mọi hiệu ứng xấu khi bị tác động. Sau khi loại bỏ, miễn nhiễm trạng thái xấu trong 1 giây. Thời gian hồi chiêu 20 giây.",
-        "Loại bỏ ngay mọi hiệu ứng xấu khi bị tác động. Sau khi loại bỏ, miễn nhiễm trạng thái xấu trong 1.5 giây. Thời gian hồi chiêu 19 giây.",
-        "Loại bỏ ngay mọi hiệu ứng xấu khi bị tác động. Sau khi loại bỏ, miễn nhiễm trạng thái xấu trong 2 giây. Thời gian hồi chiêu 18 giây.",
-        "Loại bỏ ngay mọi hiệu ứng xấu khi bị tác động. Sau khi loại bỏ, miễn nhiễm trạng thái xấu trong 2.5 giây. Thời gian hồi chiêu 17 giây.",
-        "Loại bỏ ngay mọi hiệu ứng xấu khi bị tác động. Sau khi loại bỏ, miễn nhiễm trạng thái xấu trong 3 giây. Thời gian hồi chiêu 16 giây.",
-        "Loại bỏ ngay mọi hiệu ứng xấu khi bị tác động. Sau khi loại bỏ, miễn nhiễm trạng thái xấu trong 3.5 giây. Thời gian hồi chiêu 15 giây."
+        "Khi chịu một hiệu ứng có hại, loại bỏ tất cả các hiệu ứng có hại khác. Sau đó, được miễn nhiễm trạng thái chế ngự trong 1 giây. Thời gian hồi chiêu 20 giây.",
+        "Khi chịu một hiệu ứng có hại, loại bỏ tất cả các hiệu ứng có hại khác. Sau đó, được miễn nhiễm trạng thái chế ngự trong 1,5 giây. Thời gian hồi chiêu 19 giây.",
+        "Khi chịu một hiệu ứng có hại, loại bỏ tất cả các hiệu ứng có hại khác. Sau đó, được miễn nhiễm trạng thái chế ngự trong 2 giây. Thời gian hồi chiêu 18 giây.",
+        "Khi chịu một hiệu ứng có hại, loại bỏ tất cả các hiệu ứng có hại khác. Sau đó, được miễn nhiễm trạng thái chế ngự trong 2,5 giây. Thời gian hồi chiêu 17 giây.",
+        "Khi chịu một hiệu ứng có hại, loại bỏ tất cả các hiệu ứng có hại khác. Sau đó, được miễn nhiễm trạng thái chế ngự trong 3 giây. Thời gian hồi chiêu 16 giây.",
+        "Khi chịu một hiệu ứng có hại, loại bỏ tất cả các hiệu ứng có hại khác. Sau đó, được miễn nhiễm trạng thái chế ngự trong 3,5 giây. Thời gian hồi chiêu 15 giây."
       ],
       "story": "Một số lá bùa kỳ lạ có thể xua đuổi những linh hồn gây hại. Sau khi sử dụng, chúng sẽ bị vô hiệu trong khoảng thời gian ngắn."
     },
@@ -504,6 +504,42 @@
       ],
       "story": "Gông cùm chói sáng của Velkazar, Người tra tấn quái vật. Gông cùm này được yểm Ma thuật đen để kiềm chế nguồn năng lượng chỉ chực trào ra."
     },
+    "47": {
+      "name": "Cuốn sách của kẻ điên",
+      "description": [
+        "Mỗi giây, giảm 100 Mana của bản thân, nhưng tăng 14% Sát thương lên kẻ địch.",
+        "Mỗi giây, giảm 120 Mana của bản thân, nhưng tăng 17% Sát thương lên kẻ địch.",
+        "Mỗi giây, giảm 140 Mana của bản thân, nhưng tăng 21% Sát thương lên kẻ địch.",
+        "Mỗi giây, giảm 170 Mana của bản thân, nhưng tăng 25% Sát thương lên kẻ địch.",
+        "Mỗi giây, giảm 210 Mana của bản thân, nhưng tăng 30% Sát thương lên kẻ địch.",
+        "Mỗi giây, giảm 250 Mana của bản thân, nhưng tăng 35% Sát thương lên kẻ địch."
+      ],
+      "story": ""
+    },
+    "48": {
+      "name": "Sáo ma thuật",
+      "description": [
+        "Cứ mỗi 8 giây, tăng 100 điểm Tốc độ tấn công của 2 đồng minh ngẫu nhiên ngoại trừ bản thân trong 4 giây.",
+        "Cứ mỗi 8 giây, tăng 120 điểm Tốc độ tấn công của 2 đồng minh ngẫu nhiên ngoại trừ bản thân trong 4 giây.",
+        "Cứ mỗi 8 giây, tăng 140 điểm Tốc độ tấn công của 2 đồng minh ngẫu nhiên ngoại trừ bản thân trong 4 giây.",
+        "Cứ mỗi 8 giây, tăng 170 điểm Tốc độ tấn công của 2 đồng minh ngẫu nhiên ngoại trừ bản thân trong 4 giây.",
+        "Cứ mỗi 8 giây, tăng 210 điểm Tốc độ tấn công của 2 đồng minh ngẫu nhiên ngoại trừ bản thân trong 4 giây.",
+        "Cứ mỗi 8 giây, tăng 250 điểm Tốc độ tấn công của 2 đồng minh ngẫu nhiên ngoại trừ bản thân trong 4 giây."
+      ],
+      "story": ""
+    },
+    "49": {
+      "name": "Sư tử bảo bộ",
+      "description": [
+        "Tăng 20% Phòng thủ vật lý và 100 điểm Đỡ đòn vật lý của bản thân.",
+        "Tăng 24% Phòng thủ vật lý và 120 điểm Đỡ đòn vật lý của bản thân.",
+        "Tăng 29% Phòng thủ vật lý và 140 điểm Đỡ đòn vật lý của bản thân.",
+        "Tăng 35% Phòng thủ vật lý và 170 điểm Đỡ đòn vật lý của bản thân.",
+        "Tăng 42% Phòng thủ vật lý và 210 điểm Đỡ đòn vật lý của bản thân.",
+        "Tăng 50% Phòng thủ vật lý và 250 điểm Đỡ đòn vật lý của bản thân."
+      ],
+      "story": ""
+    },
     "51": {
       "name": "Đầu bí ngô buồn bực",
       "description": [
@@ -611,6 +647,30 @@
         "Khi bắt đầu trận chiến, tăng thêm 50% sát thương với kẻ địch không phải anh hùng trong 30 giây và hồi phục 500 Mana 5 giây/lần."
       ],
       "story": "Loại dây chuyền uy lực dành riêng cho Thỏ trăng khổng lồ Lulu. Dây chuyền này được chế tác từ những mảnh trăng tròn tinh luyện. Phép thuật của trăng tròn sẽ ngấm vào toàn bộ cơ thể của người đeo ngay khi họ sử dụng."
+    },
+    "61": {
+      "name": "Đầu bí đỏ vui vẻ",
+      "description": [
+        "Cứ mỗi 7 giây, tăng 2% Tỷ lệ hồi máu và hồi HP tương đương 100% điểm Tấn công. Tỷ lệ hồi máu có thể cộng dồn tối đa 15 lần và không thể loại bỏ.",
+        "Cứ mỗi 7 giây, tăng 2.4% Tỷ lệ hồi máu và hồi HP tương đương 120% điểm Tấn công. Tỷ lệ hồi máu có thể cộng dồn tối đa 15 lần và không thể loại bỏ.",
+        "Cứ mỗi 7 giây, tăng 2,8% Tỷ lệ hồi máu và hồi HP tương đương 140% điểm Tấn công. Tỷ lệ hồi máu có thể cộng dồn tối đa 15 lần và không thể loại bỏ.",
+        "Cứ mỗi 7 giây, tăng 3,4% Tỷ lệ hồi máu và hồi HP tương đương 170% điểm Tấn công. Tỷ lệ hồi máu có thể cộng dồn tối đa 15 lần và không thể loại bỏ.",
+        "Cứ mỗi 7 giây, tăng 4,2% Tỷ lệ hồi máu và hồi HP tương đương 210% điểm Tấn công. Tỷ lệ hồi máu có thể cộng dồn tối đa 15 lần và không thể loại bỏ.",
+        "Cứ mỗi 7 giây, tăng 5% Tỷ lệ hồi máu và hồi HP tương đương 250% điểm Tấn công. Tỷ lệ hồi máu có thể cộng dồn tối đa 15 lần và không thể loại bỏ."
+      ],
+      "story": ""
+    },
+    "62": {
+      "name": "Đầu bí đỏ bất ngờ",
+      "description": [
+        "Khi trúng trạng thái chế ngự, hồi phục 12% Mana ngay lập tức và tăng 200 điểm Tốc độ tấn công trong 5 giây. Hiệu ứng này kích hoạt 30 giây/lần.",
+        "Khi trúng trạng thái chế ngự, hồi phục 14% Mana ngay lập tức và tăng 240 điểm Tốc độ tấn công trong 5 giây. Hiệu ứng này kích hoạt 30 giây/lần.",
+        "Khi trúng trạng thái chế ngự, hồi phục 17% Mana ngay lập tức và tăng 290 điểm Tốc độ tấn công trong 5 giây. Hiệu ứng này kích hoạt 30 giây/lần.",
+        "Khi trúng trạng thái chế ngự, hồi phục 21% Mana ngay lập tức và tăng 350 điểm Tốc độ tấn công trong 5 giây. Hiệu ứng này kích hoạt 30 giây/lần.",
+        "Khi trúng trạng thái chế ngự, hồi phục 25% Mana ngay lập tức và tăng 420 điểm Tốc độ tấn công trong 5 giây. Hiệu ứng này kích hoạt 30 giây/lần.",
+        "Khi trúng trạng thái chế ngự, hồi phục 30% Mana ngay lập tức và tăng 500 điểm Tốc độ tấn công trong 5 giây. Hiệu ứng này kích hoạt 30 giây/lần."
+      ],
+      "story": ""
     }
   },
   "hero": {
@@ -1023,7 +1083,7 @@
       },
       "s1": {
         "name": "Tàn nhẫn",
-        "description": "Tấn công một kẻ địch ngẫu nhiên 3 lần, gây tổng cộng {0} sát thương phép thuật, đồng thời đặt 1 lần cộng dồn Xuất huyết lên chúng, gây {2} sát thương phép thuật trong {1} giây. Xuất huyết có thể cộng dồn tối đa 3 lần.",
+        "description": "Tấn công một kẻ địch ngẫu nhiên 3 lần, gây tổng cộng {0} sát thương vật lý, đồng thời đặt 1 lần cộng dồn Xuất huyết lên chúng, gây {2} sát thương vật lý trong {1} giây. Xuất huyết có thể cộng dồn tối đa 3 lần.",
         "books": {
           "0": "Tăng {0}% sát thương.",
           "1": "Tăng {0}% sát thương.",
@@ -2647,7 +2707,7 @@
           "2": "Tăng lực xuyên thủ {0} trong thời gian liên tục."
         },
         "light": "Trên mỗi cộng dồn tăng 4% lượng sát thương gây lên đối thủ không phải anh hùng.",
-        "dark": "Với 5 lần cộng dồn trở lên, tăng thêm 20% tất cả chiêu Kháng."
+        "dark": "Khi có 5 lần cộng dồn trở lên, giảm 20% Sát thương vật lý và phép thuật phải gánh chịu."
       },
       "t5": {
         "light": "ATK, DEF, HP+15% / Crit DMG +20%",
@@ -6614,11 +6674,135 @@
         "dark": "Cường hóa tất cả hiệu ứng lời nguyền. [Lời nguyền hóa đá] Thời gian hóa đá tăng 2 giây. [Lời nguyền thời gian] Thời lượng của Lời nguyền thời gian tăng 3 giây. [Lời nguyền đau thương] Tăng 50% sát thương theo thời gian của Lời nguyền đau thương."
       }
     },
+    "55": {
+      "name": "Seria",
+      "subtitle": "Bóng tối của Vực thẳm",
+      "description": "Seria là người thừa kế thứ 101. của ShadowHilt, gia tộc thợ săn chuyên săn lùng các giống loài siêu nhiên, không phải người. Cô lặn lội đường xa tới Orvelia với tư cách thợ săn ma cà rồng, mong muốn báo thù đứa em gái đã biến thành ma cà rồng và tàn sát đồng đội của cô. Seria cho rằng chỉ cái chết mới có thể giải thoát đứa em bé bỏng của mình khỏi sự thống khổ.",
+      "story": "Người thừa kế thứ 101 của Gia tộc ShadowHilt và là chị gái của Erze. Mọi người coi cô là một người lạnh lùng do thái độ của cô không mấy thân thiện. Tuy nhiên, lúc ở cạnh đứa em gái yêu quý Erze, cô đã từng vui cười không ngớt. Seria cảm thấy xót thương đứa em gái yếu ớt của mình, nên luôn bảo vệ nó quá mức mà không nhận ra rằng, điều đó khiến cho Erze ngày càng sầu não hơn. Một ngày nọ, Erze rơi vào bẫy trong khi làm nhiệm vụ. Dù được cứu nhưng bệnh tình của Erze bắt đầu trở nên trầm trọng. Trong khi đó, Seria được phái đến Núi tuyết Windland để theo dấu Công chúa Ma cà rồng. Cô mang máng nhận ra có gì đó không ổn với em gái mình, nhưng đặt nhiệm vụ lên trên hết, cô vẫn rời đi, cầu mong những điều cô nghĩ không phải là thực. Tuy nhiên, tai họa ập xuống với Erze như thể đùa bỡn lời nguyện cầu của Seria. – Ôi người chị yêu quý của em, Seria! Seria trở về nhưng chỉ thấy xác đồng đội la liệt trên mặt đất, lạnh như băng. Erze chào đón cô bằng hai chiếc răng nanh sắc nhọn, khát máu. Seria bị giày vò trong mớ cảm xúc hỗn độn. Trái tim cô vụn vỡ, nhưng bằng giọng điệu bình tĩnh, lạnh lùng, cô nói. - Ngươi... ngươi không còn là đứa em gái bé bỏng của ta nữa. Ngươi là loài hút máu bẩn thỉu.",
+      "like": "Cô em gái Erze, bánh kem dâu, những thanh kiếm tốt, mặt trăng.",
+      "dislike": "Ma cà rồng Erze, nhện",
+      "inn": {
+        "idle": "Nơi này khá ấm áp.",
+        "recruit": {
+          "greet": "Được rồi.",
+          "talk": [
+            "Có vẻ như đường phố ban đêm ở đây vẫn an toàn.",
+            "Ngươi có một vài đồng đội tốt đấy. Đồng đội ư...? Ha ha.",
+            "Liệu ta có thể tin ai đó một lần nữa hay không?..."
+          ],
+          "gift": "Ta có lý do riêng để không nhận lệnh vào lúc này."
+        },
+        "affinity": {
+          "greet": "Chẳng phải ta đã nói là sẽ không nhận lệnh hay sao?",
+          "talk": [
+            "Ta tới đây để tìm một người. Ta không có nghĩa vụ phải nói cho ngươi biết người đó là ai, đúng chứ?... Đó là em gái ta. Ta đang tìm con bé.",
+            "Dạo gần đây chúng ta chạm mặt nhau suốt. Ngươi tới đây tìm ai ư? Nếu là đồng đội hoặc người thân, thì hãy trân trọng họ..."
+          ],
+          "gift": "... Cảm ơn, ta chỉ... Xin lỗi, ta rất cảm kích."
+        },
+        "relationship": {
+          "greet": "À, Này... Ngươi khỏe chứ?",
+          "talk": [
+            "Những đêm tối thống khổ tựa địa ngục mà Erze phải chịu đựng... Ta đã không làm gì được cho con bé. Có lẽ chính ta đã khiến con bé ra nông nỗi như hôm nay. Phải, tất cả là lỗi tại ta...",
+            "Điều tốt nhất ta có thể làm là để cho linh hồn con bé được yên nghỉ. Không còn cách nào khác. Cứ nghĩ về điều đó lại khiến tim ta vụn vỡ... Tâm trí không cho phép ta chĩa thanh gươm về phía đứa em của mình.",
+            "Ta... Ta muốn nói lời cảm ơn. Cảm ơn ngươi đã trò chuyện... đã lắng nghe ta. Nếu chúng ta có gặp lại, thì..."
+          ]
+        }
+      },
+      "uw": {
+        "name": "Kẻ hành quyết lang thang, Elsion",
+        "description": [
+          "Giảm 20% Tỷ lệ hồi máu của bản thân. Khi có đòn chí mạng, gây thêm Sát thương phép thuật tương đương 30% điểm Tấn công. Giảm 24% Tỷ lệ hồi máu của mục tiêu trong 5 giây và tăng 4% Tỷ lệ hồi máu của bản thân trong 20 giây. Hiệu ứng tăng Tỷ lệ hồi máu có thể cộng dồn tối đa 5 lần.",
+          "Giảm 20% Tỷ lệ hồi máu. Khi có đòn chí mạng, gây thêm Sát thương phép thuật tương đương 36% điểm Tấn công. Giảm 29% Tỷ lệ hồi máu của mục tiêu trong 5 giây và tăng 5% Tỷ lệ hồi máu của người dùng kỹ năng trong 20 giây. Hiệu ứng tăng Tỷ lệ hồi máu có thể cộng dồn tối đa 5 lần.",
+          "Giảm 20% Tỷ lệ hồi máu. Khi có đòn chí mạng, gây thêm Sát thương phép thuật tương đương 42% điểm Tấn công. Giảm 35% Tỷ lệ hồi máu của mục tiêu trong 5 giây và tăng 6% Tỷ lệ hồi máu của người dùng kỹ năng trong 20 giây. Hiệu ứng tăng Tỷ lệ hồi máu có thể cộng dồn tối đa 5 lần.",
+          "Giảm 20% Tỷ lệ hồi máu. Khi có đòn chí mạng, gây thêm Sát thương phép thuật tương đương 51% điểm Tấn công. Giảm 42% Tỷ lệ hồi máu của mục tiêu trong 5 giây và tăng 7% Tỷ lệ hồi máu của người dùng kỹ năng trong 20 giây. Hiệu ứng tăng Tỷ lệ hồi máu có thể cộng dồn tối đa 5 lần.",
+          "Giảm 20% Tỷ lệ hồi máu. Khi có đòn chí mạng, gây thêm Sát thương phép thuật tương đương 63% điểm Tấn công. Giảm 50% Tỷ lệ hồi máu của mục tiêu trong 5 giây và tăng 9% Tỷ lệ hồi máu của người dùng kỹ năng trong 20 giây. Hiệu ứng tăng Tỷ lệ hồi máu có thể cộng dồn tối đa 5 lần.",
+          "Giảm 20% Tỷ lệ hồi máu. Khi có đòn chí mạng, gây thêm Sát thương phép thuật tương đương 75% điểm Tấn công. Giảm 60% Tỷ lệ hồi máu của mục tiêu trong 5 giây và tăng 10% Tỷ lệ hồi máu của người dùng kỹ năng trong 20 giây. Hiệu ứng tăng Tỷ lệ hồi máu có thể cộng dồn tối đa 5 lần."
+        ],
+        "story": "Thanh kiếm quyền lực được truyền lại cho các chủ nhân gia tộc ShadowHilt. Thanh kiếm này chứa đựng quyền năng của những giống loài hùng mạnh đã thề phục vụ gia tộc ShadowHilt. Một trong số chúng là các Nguyên tố, số khác là những tinh linh vô tội và thậm chí một số còn là quỷ dữ. Tương truyền có tới hàng vạn thế lực tà ác đã gục ngã dưới thanh kiếm này. Nó cũng có đặc tính ma quỷ trói buộc linh hồn của quỷ dữ bị lưỡi kiếm này hạ gục. Dù có sức mạnh ghê gớm đến vậy, nhưng trong vòng 600 năm, chỉ chưa đến 5 người có thể sử dụng thanh kiếm này. Seria, Người thừa kế của Gia tộc ShadowHilt và là chủ nhân duy nhất trong lịch sử được thanh kiếm lựa chọn, đã thỏa hiệp với thanh kiếm nhằm giải thoát linh hồn của đứa em gái mà cô hết mực yêu thương."
+      },
+      "s1": {
+        "name": "Thanh kiếm thần bí - Cánh hoa rơi",
+        "description": "Tung ra một nhát chém theo chiều ngang về phía trước, gây {0} Sát thương phép thuật lên mục tiêu và phạm vi ngay cạnh mục tiêu. Sau khi sử dụng, có thể kích hoạt [Thanh kiếm thần bí - Nở hoa] một lần trong 5 giây.",
+        "books": {
+          "0": "Tăng {0}% lượng sát thương.",
+          "1": "Tăng {0}% lượng sát thương.",
+          "2": "Tăng {0}% lượng sát thương."
+        },
+        "light": "[Thanh kiếm thần bí - Cánh hoa rơi] - Lượng tiêu thụ mana giảm 1. [Thanh kiếm thần bí - Nở hoa] - Làm giảm 50% lực hồi phục của đối tượng nhận phải sát thương trong 5 giây.",
+        "dark": "[Thanh kiếm thần bí - Cánh hoa rơi] - Làm tăng 25% sát thương phép địch nhận phải trong 10 giây. [Thanh kiếm thần bí - Nở hoa] - Lượng tiêu thụ mana tăng 1 và bỏ qua phòng thủ của kẻ địch.",
+        "linked": {
+          "name": "Thanh kiếm thần bí - Nở hoa",
+          "description": "Tung ra một nhát chém theo chiều dọc về phía trước, gây {0} Sát thương phép thuật lên mục tiêu và phạm vi ngay cạnh mục tiêu."
+        }
+      },
+      "s2": {
+        "name": "Lưỡi kiếm vấy máu",
+        "description": "Lao nhanh về phía trước, gây {0} Sát thương phép thuật và gây ra hiệu ứng Căn nguyên huyết tội không thể gỡ bỏ lên kẻ địch trong {1} giây. Kẻ địch bị dính trạng thái Căn nguyên huyết tội sẽ bị giảm {2} tốc độ tấn công. Sau đó, tấn công 2 lần lên kẻ địch đang ở trạng thái Căn nguyên huyết tội, gây ra {3} Sát thương phép thuật thêm, khi đối thủ không phải là anh hùng sẽ gây thêm {4} sát thương phép bỏ qua phòng thủ.",
+        "books": {
+          "0": "Tăng {0}% lượng sát thương.",
+          "1": "Tăng {0}% lượng sát thương.",
+          "2": "Tăng {0}% lượng sát thương."
+        },
+        "light": "Giảm 1 điểm mức Tiêu hao mana.",
+        "dark": "Hồi phục 200 mana mỗi lần gây ra sát thương.",
+        "ut": {
+          "name": "Nhẫn vực thẳm",
+          "description": [
+            "[Lưỡi kiếm vấy máu] Tăng 50% Sát thương và giảm 200 điểm Đỡ đòn phép thuật của kẻ địch chịu ảnh hưởng.",
+            "[Lưỡi kiếm vấy máu] Tăng 50% Sát thương và giảm 240 điểm Đỡ đòn phép thuật của kẻ địch chịu ảnh hưởng.",
+            "[Lưỡi kiếm vấy máu] Tăng 50% Sát thương và giảm 290 điểm Đỡ đòn phép thuật của kẻ địch chịu ảnh hưởng.",
+            "[Lưỡi kiếm vấy máu] Tăng 50% Sát thương và giảm 350 điểm Đỡ đòn phép thuật của kẻ địch chịu ảnh hưởng.",
+            "[Lưỡi kiếm vấy máu] Tăng 50% Sát thương và giảm 420 điểm Đỡ đòn phép thuật của kẻ địch chịu ảnh hưởng.",
+            "[Lưỡi kiếm vấy máu] Tăng 50% Sát thương và giảm 500 điểm Đỡ đòn phép thuật của kẻ địch chịu ảnh hưởng."
+          ],
+          "story": "Một chiếc nhẫn bạc đại diện cho gia tộc ShadowHilt. Mỗi khi cảm thấy cuộc sống của mình vô nghĩa, Seria lại chạm vào nó. Làm vậy sẽ nhắc cô nhớ lại những người đồng đội đã chết của mình, lấp đầy trái tim cô bằng nỗi khát khao trả thù đứa em gái Erze. Trớ trêu thay, ẩn giấu đằng sau những viên đá quý trên chiếc nhẫn là một thông điệp do Erze viết khi còn bé, nhưng Seria chẳng hề hay biết."
+        }
+      },
+      "s3": {
+        "name": "Lưỡi kiếm mặt trăng máu",
+        "description": "Tập trung và vung thanh kiếm nhuốm máu mặt trăng, gây {0} Sát thương phép thuật lên kẻ địch trên diện rộng, kẻ địch không phải Anh hùng sẽ nhận thêm {1} Sát thương phép thuật. Khi trăng tròn sẽ thành trạng thái Ánh trăng trong {2} giây để gây {3} Sát thương phép thuật lên kẻ địch và giảm {4}% lực hồi phục của chúng, khi đối tượng không phải là anh hùng sẽ gây thêm {5} sát thương phép. Trong lúc ra chiêu sẽ không chịu ảnh hưởng trước thay đổi của tốc độ tấn công.",
+        "books": {
+          "0": "Tăng {0}% lượng sát thương.",
+          "1": "Tăng {0}% lượng sát thương.",
+          "2": "Tăng {0}% lượng sát thương."
+        },
+        "light": "Hủy hiệu quả có lợi của toàn bộ đối thủ trong phạm vi.",
+        "dark": "Tăng 1 mức Tiêu hao mana và bỏ qua Phòng thủ khi tấn công kẻ địch không phải Anh hùng.",
+        "ut": {
+          "name": "Ngọn nến khai sáng",
+          "description": [
+            "[Lưỡi kiếm mặt trăng máu] Được miễn nhiễm trạng thái chế ngự trong thời gian tác dụng của kỹ năng. Khi bắt đầu trận chiến, tăng 70% Sát thương 4 lần.",
+            "[Lưỡi kiếm mặt trăng máu] Được miễn nhiễm trạng thái chế ngự trong thời gian tác dụng của kỹ năng. Khi bắt đầu trận chiến, tăng 70% Sát thương 5 lần.",
+            "[Lưỡi kiếm mặt trăng máu] Được miễn nhiễm trạng thái chế ngự trong thời gian tác dụng của kỹ năng. Khi bắt đầu trận chiến, tăng 70% Sát thương 6 lần.",
+            "[Lưỡi kiếm mặt trăng máu] Được miễn nhiễm trạng thái chế ngự trong thời gian tác dụng của kỹ năng. Khi bắt đầu trận chiến, tăng 70% Sát thương 7 lần.",
+            "[Lưỡi kiếm mặt trăng máu] Được miễn nhiễm trạng thái chế ngự trong thời gian tác dụng của kỹ năng. Khi bắt đầu trận chiến, tăng 70% Sát thương 9 lần.",
+            "[Lưỡi kiếm mặt trăng máu] Được miễn nhiễm trạng thái chế ngự trong thời gian tác dụng của kỹ năng. Khi bắt đầu trận chiến, tăng 70% Sát thương 10 lần."
+          ],
+          "story": "Tương truyền, ngọn nến đã nằm trên bàn tại hội trường nơi các chiến binh cổ đại từ khắp các lục địa khác nhau tề tựu nhằm mục đích đánh bại các giống loài siêu nhiên. Ngọn nến cổ xưa này rực cháy ánh lửa xanh lam trừ tà ma. Khi ngọn lửa chạm vào thực thể quỷ dữ, nó sẽ hút cạn sự sống khỏi cơ thể sinh vật đó. Đây chính là nguyên liệu đầu tiên mà Seria dùng khi tinh luyện thanh kiếm của cô."
+        }
+      },
+      "s4": {
+        "name": "Phù thủy máu lạnh",
+        "description": "Tăng {0} điểm Tấn công. Khi có đòn chí mạng, tăng {1}% Sát thương chí mạng của bản thân. Hiệu ứng này có thể cộng dồn tối đa 30 lần.",
+        "books": {
+          "0": "Tăng {0}% lượng tăng lực tấn công",
+          "1": "Tăng {0}% lượng tăng lực tấn công",
+          "2": "Tăng {0}% lượng tăng lực tấn công"
+        },
+        "light": "Giảm 0.7% Sát thương gánh chịu trên mỗi lần cộng dồn.",
+        "dark": "Khi bắt đầu trận chiến, tăng 25% Sát thương lên kẻ địch không phải Anh hùng trong 200 giây."
+      },
+      "t5": {
+        "light": "ATK, DEF, HP+15% / Crit DMG +20%",
+        "dark": "Tất cả đòn tấn công của người dùng kỹ năng sẽ là đòn chí mạng. Người dùng kỹ năng sẽ không thể bị chặn lại và được tăng 30% sát thương."
+      }
+    },
     "56": {
       "name": "Erze",
       "subtitle": "Cơn khát vô tận",
       "description": "Cũng giống như người chị Seria, Erze từng là một thợ săn ma cà rồng. Tuy nhiên, vì bị chính sức mạnh của mình tha hóa, cô tàn sát đồng đội và lựa chọn hóa thân thành ma cà rồng. Sau khi giết chóc và hấp thụ sức mạnh của ma cà rồng tối cao đã biến đổi cô, cô rời xa Seria, người chị và cũng là người duy nhất còn sống sót, để đi tới Orvelia.",
-      "story": "Là đứa con gái thứ hai của gia đình Shadow Hilt, Erze nối gót người chị Seria yêu dấu của mình, quyết định trở thành thợ săn ma cà rồng. Thể trạng yếu ớt khiến Erze không thể học cách sử dụng kiếm thuật, nhưng bằng tài năng phép thuật của mình, cô vẫn trở thành một thợ săn nổi tiếng. Một ngày nọ, trong một chiến dịch, cô bị rơi vào bẫy và một ma cà rồng bí ẩn đã cắn vào vai cô. Cơ thể cô ngày càng yếu ớt và hằng đêm, cô phải chịu đựng cơn khát và cơn đau đầu không dứt. Erze biết ý nghĩa của những dấu hiệu này và điều gì rồi sẽ xảy đến với cô. Cô che dấu vết cắn và nỗ lực tự mình tìm cách chữa trị, cố gắng tránh xa đồng đội. Trong khi đó, Seria được phái đến Núi tuyết Windland để điều tra Công chúa Ma cà rồng đã mất tích từ 100 năm trước. Vào ngày chị cô rời đi... - Ôi, Seria... Em không thể kiểm soát được nữa rồi... Thầm lặng và bí mật, Erze bắt đầu cắn vào cổ họng đồng đội của mình.",
+      "story": "Là đứa con gái thứ hai của gia đình ShadowHilt, Erze nối gót người chị Seria yêu dấu của mình, quyết định trở thành thợ săn ma cà rồng. Thể trạng yếu ớt khiến Erze không thể học cách sử dụng kiếm thuật, nhưng bằng tài năng phép thuật của mình, cô vẫn trở thành một thợ săn nổi tiếng. Một ngày nọ, trong một chiến dịch, cô bị rơi vào bẫy và một ma cà rồng bí ẩn đã cắn vào vai cô. Cơ thể cô ngày càng yếu ớt và hằng đêm, cô phải chịu đựng cơn khát và cơn đau đầu không dứt. Erze biết ý nghĩa của những dấu hiệu này và điều gì rồi sẽ xảy đến với cô. Cô che dấu vết cắn và nỗ lực tự mình tìm cách chữa trị, cố gắng tránh xa đồng đội. Trong khi đó, Seria được phái đến Núi tuyết Windland để điều tra Công chúa Ma cà rồng đã mất tích từ 100 năm trước. Vào ngày chị cô rời đi... - Ôi, Seria... Em không thể kiểm soát được nữa rồi... Thầm lặng và bí mật, Erze bắt đầu cắn vào cổ họng đồng đội của mình.",
       "like": "Seria khi là một người chị, ly kem sô cô la, dòng máu tha hóa",
       "dislike": "Seria khi là thợ săn ma cà rồng, nhện",
       "inn": {
@@ -6980,6 +7164,246 @@
       "t5": {
         "light": "ATK, DEF, HP+15% / ATK.Spd +100",
         "dark": "Đầu mỗi trận đấu, nhận miễn nhiễm trạng thái chế ngự trong 7 giây và Độ chính xác, Độ chính xác của trạng thái chế ngự tăng 300 trong 10 giây."
+      }
+    },
+    "59": {
+      "name": "",
+      "subtitle": "",
+      "description": "",
+      "story": "",
+      "like": "",
+      "dislike": "",
+      "inn": {
+        "idle": "",
+        "recruit": {
+          "greet": "",
+          "talk": [
+            "",
+            "",
+            ""
+          ],
+          "gift": ""
+        },
+        "affinity": {
+          "greet": "",
+          "talk": [
+            "",
+            ""
+          ],
+          "gift": ""
+        },
+        "relationship": {
+          "greet": "",
+          "talk": [
+            "",
+            "",
+            ""
+          ]
+        }
+      },
+      "uw": {
+        "name": "",
+        "description": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "story": ""
+      },
+      "s1": {
+        "name": "",
+        "description": "",
+        "books": {
+          "0": "",
+          "1": "",
+          "2": ""
+        },
+        "light": "",
+        "dark": ""
+      },
+      "s2": {
+        "name": "",
+        "description": "",
+        "books": {
+          "0": "",
+          "1": "",
+          "2": ""
+        },
+        "light": "",
+        "dark": "",
+        "ut": {
+          "name": "",
+          "description": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "story": ""
+        }
+      },
+      "s3": {
+        "name": "",
+        "description": "",
+        "books": {
+          "0": "",
+          "1": "",
+          "2": ""
+        },
+        "light": "",
+        "dark": "",
+        "ut": {
+          "name": "",
+          "description": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "story": ""
+        }
+      },
+      "s4": {
+        "name": "",
+        "description": "",
+        "books": {
+          "0": "",
+          "1": "",
+          "2": ""
+        },
+        "light": "",
+        "dark": ""
+      },
+      "t5": {
+        "light": "",
+        "dark": ""
+      }
+    },
+    "60": {
+      "name": "",
+      "subtitle": "",
+      "description": "",
+      "story": "",
+      "like": "",
+      "dislike": "",
+      "inn": {
+        "idle": "",
+        "recruit": {
+          "greet": "",
+          "talk": [
+            "",
+            "",
+            ""
+          ],
+          "gift": ""
+        },
+        "affinity": {
+          "greet": "",
+          "talk": [
+            "",
+            ""
+          ],
+          "gift": ""
+        },
+        "relationship": {
+          "greet": "",
+          "talk": [
+            "",
+            "",
+            ""
+          ]
+        }
+      },
+      "uw": {
+        "name": "",
+        "description": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "story": ""
+      },
+      "s1": {
+        "name": "",
+        "description": "",
+        "books": {
+          "0": "",
+          "1": "",
+          "2": ""
+        },
+        "light": "",
+        "dark": ""
+      },
+      "s2": {
+        "name": "",
+        "description": "",
+        "books": {
+          "0": "",
+          "1": "",
+          "2": ""
+        },
+        "light": "",
+        "dark": "",
+        "ut": {
+          "name": "",
+          "description": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "story": ""
+        }
+      },
+      "s3": {
+        "name": "",
+        "description": "",
+        "books": {
+          "0": "",
+          "1": "",
+          "2": ""
+        },
+        "light": "",
+        "dark": "",
+        "ut": {
+          "name": "",
+          "description": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "story": ""
+        }
+      },
+      "s4": {
+        "name": "",
+        "description": "",
+        "books": {
+          "0": "",
+          "1": "",
+          "2": ""
+        },
+        "light": "",
+        "dark": ""
+      },
+      "t5": {
+        "light": "",
+        "dark": ""
       }
     },
     "61": {
@@ -8273,7 +8697,7 @@
       },
       "s3": {
         "name": "Biến đi cho khuất mắt ta!",
-        "description": "Tấn công mục tiêu và kẻ địch trong phạm vi rộng 2 lần để gây {0} sát thương phép, hạ gục chúng trong 5 giây và tăng sát thương phép của kẻ địch bị ảnh hưởng thêm 30% trong 10 giây.",
+        "description": "Tấn công mục tiêu và quân địch trong phạm vi rộng 2 lần để gây {0} sát thương phép thuật và hạ gục chúng trong 5 giây. Kẻ địch trúng đòn sẽ chịu thêm 30% sát thương phép thuật được tăng trong 10 giây.",
         "books": {
           "0": "Tăng {0}% sát thương",
           "1": "Tăng {0}% sát thương",
