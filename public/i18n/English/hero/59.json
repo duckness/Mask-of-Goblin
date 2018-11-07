@@ -1,0 +1,132 @@
+{
+  "name": "Lucias",
+  "subtitle": "Saint of Blessings",
+  "description": "The High Priest of Lua and Frey's senior. Lucias's faith is strong enough to call forth Lua's blessing. Items blessed by him bear the power of Light and becomes effective weapons against demons.",
+  "story": "Lucias was a member of Lua's Holy Knights before awakening as the Saint of Blessings. Under the command of the Living Legend, Ricardo, he protected Orvel and neighboring towns from Demons. However, stigmata started to appear on his body when he was 19, and by the call of Lua, the holy knight became the Saint of Blessings. His mission is to travel around the world and bring the light of Lua to those in need. He stayed true to his duties, wandering the world to share blessings. Now, he holds a weapon in his hand again to defeat the power of darkness that has been growing in strength over the past 100 years.",
+  "like": "Dishes made with apple, fishing, prayer, helping people, mysterious magic shows and performances.",
+  "dislike": "Rude ones, undelivered promises, taking human life lightly.",
+  "inn": {
+    "idle": "This place... I can feel the power of light as well as the flow of harmony.",
+    "recruit": {
+      "greet": "A warm greeting to you. I hope you're having a blessed day.",
+      "talk": [
+        "There was a wedding ceremony nearby. Ahhh, it was such a divine sight.",
+        "Did you see Brother Baudouin? I heard he was quite drunk yesterday...",
+        "I can feel all sorts of powers here. It feels like the center of the world..."
+      ],
+      "gift": "May the Light bless you."
+    },
+    "affinity": {
+      "greet": "It's a pleasure to have you back. Join me in saying grace before the meal.",
+      "talk": [
+        "You wonder if there are Saints other than me, you say? Hmm, I haven't met them, but yes, there are three more.",
+        "I used to be a flag bearer when I was a Holy Knight. Who would have thought my halidom as a Saint would be a flag as well? Hahaha."
+      ],
+      "gift": "It is so generous of you to give me a gift, but I must say it's more than I deserve. If I run into someone in need, may I give this to them?"
+    },
+    "relationship": {
+      "greet": "May the blessings of the Lua be with you.",
+      "talk": [
+        "Oh, Stardust is here. They used to visit my hometown at least once a year when I was young. Well, should we go and see if Escur is still around?",
+        "Sometimes my memories fail me. My past, and the memories of previous Saints of Blessings tend to mix...",
+        "Holy Knight, Saint... My title does not change what I must do. I simply work to help those struggling with pain and agony."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Blessing of Light, Benedicia",
+    "description": [
+      "When the battle starts, reduces P.DMG that all allies take by 10% for 30 sec. Increases target's ATK Spd by 100 for 30 sec.",
+      "When the battle starts, reduces P.DMG that all allies take by 12% for 30 sec. Increases target's ATK Spd by 120 for 30 sec.",
+      "When the battle starts, reduces P.DMG that all allies take by 14% for 30 sec. Increases target's ATK Spd by 140 for 30 sec.",
+      "When the battle starts, reduces P.DMG that all allies take by 17% for 30 sec. Increases target's ATK Spd by 170 for 30 sec.",
+      "When the battle starts, reduces P.DMG that all allies take by 21% for 30 sec. Increases target's ATK Spd by 210 for 30 sec.",
+      "When the battle starts, reduces P.DMG that all allies take by 25% for 30 sec. Increases target's ATK Spd by 250 for 30 sec."
+    ],
+    "story": "A blessed flag representing the Sun, Moon, and the entire sky. It contains the power and teachings of the Creator, Lua. The power of light spreads when he waves the flag, bringing peace to his allies' minds, defeating the powers of darkness. A halidom bestowed upon Lucias, who used to be a flag bearer in Lua's Holy Knights."
+  },
+  "s1": {
+    "name": "Path of Blessings",
+    "description": "Heals 4 allies with the lowest HP by {0} and targets take {2}% reduced P.DMG for {1} sec.",
+    "books": {
+      "0": "Heal rate is increased by {0}%.",
+      "1": "Heal rate is increased by {0}%.",
+      "2": "Heal rate is increased by {0}%."
+    },
+    "light": "Increases Heal Rate by 40%.",
+    "dark": "Recovers target's Mana by 500.",
+    "ut": {
+      "name": "Book of Blessings",
+      "description": [
+        "[Path of Blessings] Reduces Mana Cost by 1 and Cooldown by 12%.",
+        "[Path of Blessings] Reduces Mana Cost by 1 and Cooldown by 14%.",
+        "[Path of Blessings] Reduces Mana Cost by 1 and Cooldown by 17%.",
+        "[Path of Blessings] Reduces Mana Cost by 1 and Cooldown by 21%.",
+        "[Path of Blessings] Reduces Mana Cost by 1 and Cooldown by 25%.",
+        "[Path of Blessings] Reduces Mana Cost by 1 and Cooldown by 30%."
+      ],
+      "story": "The bible of infinity that a line of Sages of Blessings used to record their works. The title of a sage is passed down with the memories of its predecessor, so it would seem that there is no reason for them to write anything down. However, the danger of the accumulated memories erasing the identity of the present sage made writing this bible necessary."
+    }
+  },
+  "s2": {
+    "name": "Zone of Faith",
+    "description": "Unfolds the [Zone of Faith] at the caster's location for {0} sec. Increases ATK of allies in the [Zone of Faith] by {1}. Enemies within the zone take {2} P.DMG every second. Hit enemies are stunned for {3} sec.Heals target's HP by {4} for the duration of skill.Continuously dispels negative effects from allies within range.",
+    "books": {
+      "0": "DMG and Heal rate are increased by {0}%.",
+      "1": "DMG and Heal rate are increased by {0}%.",
+      "2": "DMG and Heal rate are increased by {0}%."
+    },
+    "light": "Recovers Mana for allies within range by 200 per sec.",
+    "dark": "Continuously dispels positive effects from enemies within range.",
+    "ut": {
+      "name": "Dice of Remembrance",
+      "description": [
+        "[Zone of Faith] Reduces Mana Cost by 1, and reduces Mana of enemies within range by 200 per sec.",
+        "[Zone of Faith] Reduces Mana Cost by 1, and reduces Mana of enemies within range by 240 per sec.",
+        "[Zone of Faith] Reduces Mana Cost by 1, and reduces Mana of enemies within range by 290 per sec.",
+        "[Zone of Faith] Reduces Mana Cost by 1, and reduces Mana of enemies within range by 350 per sec.",
+        "[Zone of Faith] Reduces Mana Cost by 1, and reduces Mana of enemies within range by 420 per sec.",
+        "[Zone of Faith] Reduces Mana Cost by 1, and reduces Mana of enemies within range by 500 per sec."
+      ],
+      "story": "Lucias had a cherished friend back when he was young. This friend was a member of a troupe named Stardust. He had very nimble hands despite his young age and used to pickpocket countless wallets from gamblers. However, Stardust would only visit Lucias's town once a year, and so the two friends gave each other something they treasured to remember their friendship. This dice is the special trick dice made by Lucias's friend, Escur."
+    }
+  },
+  "s3": {
+    "name": "Stigmata",
+    "description": "All allies' P.Dodge Chance is increased by {1} for {0} sec, and ATK is increased by {2}. For the duration of skill, normal attacks deal additional {3} P.DMG, and the target takes {5}% increased P.DMG for {4} sec. The effect fades when the caster dies.",
+    "books": {
+      "0": "ATK boost and DMG is increased by {0}%",
+      "1": "ATK boost and DMG is increased by {0}%",
+      "2": "ATK boost and DMG is increased by {0}%"
+    },
+    "light": "Reduces ACC of hit enemies by 150 for 5 sec.",
+    "dark": "Gains immunity to CC for the duration of skill.",
+    "ut": {
+      "name": "Guidance of Morning Star",
+      "description": [
+        "[Stigmata] The effect of Stigmata cannot be dispelled by skill removing the positive effects. Reduces Cooldown by 12%.",
+        "[Stigmata] The effect of Stigmata cannot be dispelled by skill removing the positive effects. Reduces Cooldown by 14%.",
+        "[Stigmata] The effect of Stigmata cannot be dispelled by skill removing the positive effects. Reduces Cooldown by 17%.",
+        "[Stigmata] The effect of Stigmata cannot be dispelled by skill removing the positive effects. Reduces Cooldown by 21%.",
+        "[Stigmata] The effect of Stigmata cannot be dispelled by skill removing the positive effects. Reduces Cooldown by 25%.",
+        "[Stigmata] The effect of Stigmata cannot be dispelled by skill removing the positive effects. Reduces Cooldown by 30%."
+      ],
+      "story": "Research materials about the stigmata of the Saint of Blessings. Although Lucias has the memories of the saints, they did not know everything. Lua's priests left this document after researching the secret behind the stigmata, but it was impossible for them to bring everything to light."
+    }
+  },
+  "s4": {
+    "name": "Holy Sacrifice",
+    "description": "Heals all allies except the caster by {0} when the caster dies.",
+    "books": {
+      "0": "Heal rate is increased by {0}%.",
+      "1": "Heal rate is increased by {0}%.",
+      "2": "Heal rate is increased by {0}%."
+    },
+    "light": "Upon activation, grants immunity to DMG and CC to all allies except the caster for 1.5 sec.",
+    "dark": "Upon activation, dispels all negative effects from all allies except self."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / CC Resist +100",
+    "dark": "Increases own Mana Recovery/Sec by 300% for 3 sec upon casting an active skill."
+  }
+}

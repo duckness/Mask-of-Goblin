@@ -1,120 +1,132 @@
 {
-  "name": "",
-  "subtitle": "",
-  "description": "",
-  "story": "",
-  "like": "",
-  "dislike": "",
+  "name": "Lucias",
+  "subtitle": "Heiliger des Segens",
+  "description": "Der Hohepriester von Lua und Freys Vorgesetzter. Der Glaube von Lucias ist stark genug, um Luas Segen herbeizurufen. Items, die von ihm gesegnet werden, erhalten die Macht des Lichts und werden zu effektiven Waffen im Kampf gegen Dämonen.",
+  "story": "Lucias war ein Mitglied von Luas heiligen Rittern, bevor er als der Heilige des Segens erwachte. Er diente unter der lebenden Legende Ricardo und beschützte Orvel und dessen Nachbarstädte vor Dämonen. Mit 19 begann sein Körper jedoch Stigmata aufzuweisen, und durch den Ruf von Lura wurde der heilige Ritter zum Heiligen des Segens. Seine Mission besteht darin, die Welt zu bereisen und allen in Not das Licht von Lua zu bringen. Er nahm seine Pflichten sehr ernst und reiste durch die Welt, um andere zu segnen. Jetzt greift er erneut zur Waffe, um die Macht der Dunkelheit zu besiegen, die in den letzten 100 Jahren immer mehr an Stärke gewonnen hat.",
+  "like": "Gerichte mit Äpfeln, angeln, Gebete, Leuten helfen, geheimnisvolle Magieshows und Aufführungen.",
+  "dislike": "Unhöfliche Leute, gebrochene Versprechen, keine Wertschätzung für das menschliche Leben.",
   "inn": {
-    "idle": "",
+    "idle": "Dieser Ort... Ich kann die Macht des Lichts und den Fluss der Harmonie spüren.",
     "recruit": {
-      "greet": "",
+      "greet": "Sei herzlich gegrüßt! Ich hoffe, du hast einen gesegneten Tag.",
       "talk": [
-        "",
-        "",
-        ""
+        "Es gab eine Hochzeitszeremonie. Ahhh, das war ein göttlicher Anblick.",
+        "Hast du Bruder Baudouin gesehen? Er soll gestern ziemlich betrunken gewesen sein...",
+        "Ich spüre hier viele unterschiedliche Mächte. Das muss der Mittelpunkt der Welt sein..."
       ],
-      "gift": ""
+      "gift": "Möge das Licht dich segnen."
     },
     "affinity": {
-      "greet": "",
+      "greet": "Es ist schön, dass du wieder da bist. Sprich mit mir ein Gebet vor dem Essen.",
       "talk": [
-        "",
-        ""
+        "Du fragst dich also, ob es neben mir noch andere Heilige gibt? Hmm, es gibt noch drei weitere Heilige, aber ich habe sie noch nie getroffen.",
+        "Als ich noch ein heiliger Ritter war, habe ich die Fahne getragen. Wer hätte gedacht, dass mein Heiligtum ebenfalls eine Fahne sein würde? Hahaha."
       ],
-      "gift": ""
+      "gift": "Es ist sehr großzügig von dir, mir ein Geschenk zu machen, aber das ist mehr, als ich verdiene. Darf ich es weiterschenken, wenn ich auf jemanden in Not treffe?"
     },
     "relationship": {
-      "greet": "",
+      "greet": "Möge Luas Segen mit dir sein.",
       "talk": [
-        "",
-        "",
-        ""
+        "Oh, Sternenstaub ist hier. Als ich noch jung war, hat diese Wandertruppe immer meine Heimat besucht. Also, sollen wir nachsehen, ob Escur immer noch dabei ist?",
+        "Manchmal kann ich mich an gewisse Dinge einfach nicht erinnern. Meine Vergangenheit und die Erinnerungen ehemaliger Heiligen des Segens...",
+        "Heiliger Ritter, Heiliger... Mein Titel ändert nichts an dem, was ich tun muss. Ich helfe einfach jenen, die Schmerzen und Leid spüren."
       ]
     }
   },
   "uw": {
-    "name": "",
+    "name": "Lichtsegen Benedicia",
     "description": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Verringert zu Kampfbeginn den K.Schaden, den Verbündete erleiden, für 30 Sek. um 10 %. Erhöht die ANG-Geschwindigkeit des Ziels für 30 Sek. um 100.",
+      "Verringert zu Kampfbeginn den K.Schaden, den Verbündete erleiden, für 30 Sek. um 12 %. Erhöht die ANG-Geschwindigkeit des Ziels für 30 Sek. um 120.",
+      "Verringert zu Kampfbeginn den K.Schaden, den Verbündete erleiden, für 30 Sek. um 14 %. Erhöht die ANG-Geschwindigkeit des Ziels für 30 Sek. um 140.",
+      "Verringert zu Kampfbeginn den K.Schaden, den Verbündete erleiden, für 30 Sek. um 17 %. Erhöht die ANG-Geschwindigkeit des Ziels für 30 Sek. um 170.",
+      "Verringert zu Kampfbeginn den K.Schaden, den Verbündete erleiden, für 30 Sek. um 21 %. Erhöht die ANG-Geschwindigkeit des Ziels für 30 Sek. um 210.",
+      "Verringert zu Kampfbeginn den K.Schaden, den Verbündete erleiden, für 30 Sek. um 25 %. Erhöht die ANG-Geschwindigkeit des Ziels für 30 Sek. um 250."
     ],
-    "story": ""
+    "story": "Eine gesegnete Fahne, die die Sonne, den Mond und den gesamten Himmel repräsentiert. Ihr wohnen die Macht und die Lehren der Schöpferin Lua inne. Wenn er die Fahne schwenkt, verbreitet sich die Macht des Lichts, wodurch seine Verbündeten geistigen Frieden finden und die Macht der Dunkelheit besiegt wird. Hierbei handelt es sich um ein Heiligtum, das Lucias anvertraut wurde, der in seiner Zeit als Heiliger Ritter von Lua ebenfalls ein Fahnenträger war."
   },
   "s1": {
-    "name": "",
-    "description": "",
+    "name": "Weg des Segens",
+    "description": "Heilt 4 Verbündete mit den wenigsten TP um {0} und verringert den Schaden, den der Beschwörer erleidet, für {1} Sek. um {2}  %.",
     "books": {
-      "0": "",
-      "1": "",
-      "2": ""
+      "0": "Erhöht Erholungsrate um {0}%.",
+      "1": "Erhöht Erholungsrate um {0}%.",
+      "2": "Erhöht Erholungsrate um {0}%."
     },
-    "light": "",
-    "dark": ""
+    "light": "Erhöht die Heilungsrate um 40 %.",
+    "dark": "Stellt 500 Mana beim Ziel wieder her.",
+    "ut": {
+      "name": "Buch des Segens",
+      "description": [
+        "[Weg des Segens] Verringert die Manakosten um 1 und den Cooldown um 12 %.",
+        "[Weg des Segens] Verringert die Manakosten um 1 und den Cooldown um 14 %.",
+        "[Weg des Segens] Verringert die Manakosten um 1 und den Cooldown um 17 %.",
+        "[Weg des Segens] Verringert die Manakosten um 1 und den Cooldown um 21 %.",
+        "[Weg des Segens] Verringert die Manakosten um 1 und den Cooldown um 25 %.",
+        "[Weg des Segens] Verringert die Manakosten um 1 und den Cooldown um 30 %."
+      ],
+      "story": "Die Bibel der Unendlichkeit, die von einer Gruppe von Weisen des Segens verwendet wurde, um ihre Werke zu sammeln. Der Titel eines Weisen wird mit den Erinnerungen seines Vorgängers weitergegeben. Man möchte also meinen, dass es nicht nötig wäre, sie festzuhalten. Allerdings wurde die Gefahr, dass die gesammelten Erinnerungen eines Weisen ausgelöscht werden, immer größer, was diese Bibel unerlässlich machte."
+    }
   },
   "s2": {
-    "name": "",
-    "description": "",
+    "name": "Glaubenszone",
+    "description": "Ruft unter dem Beschwörer für {0} Sek. die [Glaubenszone] herbei. Erhöht den ANG von Verbündeten in der [Glaubenszone] um {1}. Feinde in der Zone erleiden pro Sekunde {2} K.Schaden. Getroffene Feinde werden für {3} Sek. betäubt.Regeneriert die TP des Ziels um {4} für die Wirkungsdauer.Entfernt kontinuierlich negative Effekte von Verbündeten.",
     "books": {
-      "0": "",
-      "1": "",
-      "2": ""
+      "0": "Erhöht Erholung und Schaden um {0}%.",
+      "1": "Erhöht Erholung und Schaden um {0}%.",
+      "2": "Erhöht Erholung und Schaden um {0}%."
     },
-    "light": "",
-    "dark": "",
+    "light": "Stellt bei allen Verbündeten in Reichweite 200 Mana pro Sekunde her.",
+    "dark": "Entfernt kontinuierlich positive Effekte von Feinden in Reichweite.",
     "ut": {
-      "name": "",
+      "name": "Würfel der Erinnerung",
       "description": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "[Glaubenszone] Verringert die Manakosten um 1 und das Mana von Feinden in Reichweite um 200 pro Sek.",
+        "[Glaubenszone] Verringert die Manakosten um 1 und das Mana von Feinden in Reichweite um 240 pro Sek.",
+        "[Glaubenszone] Verringert die Manakosten um 1 und das Mana von Feinden in Reichweite um 290 pro Sek.",
+        "[Glaubenszone] Verringert die Manakosten um 1 und das Mana von Feinden in Reichweite um 350 pro Sek.",
+        "[Glaubenszone] Verringert die Manakosten um 1 und das Mana von Feinden in Reichweite um 420 pro Sek.",
+        "[Glaubenszone] Verringert die Manakosten um 1 und das Mana von Feinden in Reichweite um 500 pro Sek."
       ],
-      "story": ""
+      "story": "Lucias hatte in seiner Jugend einen guten Freund. Dieser Freund war ein Mitglied einer Truppe namens Sternenstaub. Er hatte trotz seines jungen Alters sehr geschickte Hände und stahl die Geldbeutel unzähliger Spieler. Sternenstaub kam jedoch nur einmal im Jahr in Lucias’ Stadt, weshalb sich die beiden Freunde gegenseitig etwas schenkten, das sie an ihre Freundschaft erinnern sollte. Dieser Würfel ist ein besonderer Zauberwürfel, den Lucias’ Freund Escur angefertigt hat."
     }
   },
   "s3": {
-    "name": "",
-    "description": "",
+    "name": "Stigmata",
+    "description": "Erhöht K. Ausw. Chance um {1} für {0} Sek und ANG um {2}.Während der Wirkungsdauer verursachen normale Angriffe zusätzlich {3} K.Schaden und erhöhen den K.Schaden, den das Ziel erleidet, für {4} Sek. um {5}  %.Der Effekt verschwindet, wenn der Beschwörer stirbt.",
     "books": {
-      "0": "",
-      "1": "",
-      "2": ""
+      "0": "ANG und Schaden werden um {0}% erhöht.",
+      "1": "ANG und Schaden werden um {0}% erhöht.",
+      "2": "ANG und Schaden werden um {0}% erhöht."
     },
-    "light": "",
-    "dark": "",
+    "light": "Verringert die PRÄZ der Gegner für 5 Sek. um 150.",
+    "dark": "Wird während der Wirkungsdauer immun gegen Statuseffekte.",
     "ut": {
-      "name": "",
+      "name": "Lehre des Morgensterns",
       "description": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "[Stigmata] Der Effekt von Stigmata kann nicht durch Skills, die positive Effekte entfernen, entfernt werden. Verringert den Cooldown um 12 %.",
+        "[Stigmata] Der Effekt von Stigmata kann nicht durch Skills, die positive Effekte entfernen, entfernt werden. Verringert den Cooldown um 14 %.",
+        "[Stigmata] Der Effekt von Stigmata kann nicht durch Skills, die positive Effekte entfernen, entfernt werden. Verringert den Cooldown um 17 %.",
+        "[Stigmata] Der Effekt von Stigmata kann nicht durch Skills, die positive Effekte entfernen, entfernt werden. Verringert den Cooldown um 21 %.",
+        "[Stigmata] Der Effekt von Stigmata kann nicht durch Skills, die positive Effekte entfernen, entfernt werden. Verringert den Cooldown um 25 %.",
+        "[Stigmata] Der Effekt von Stigmata kann nicht durch Skills, die positive Effekte entfernen, entfernt werden. Verringert den Cooldown um 30 %."
       ],
-      "story": ""
+      "story": "Forschungsmaterialien über die Stigmata des Heiligen des Segens. Obwohl Lucias über die Erinnerungen der Heiligen verfügt, weiß er nicht alles. Luas Priester haben dieses Dokument zurückgelassen, nachdem sie die Geheimnisse der Stigmata erforscht hatten. Es ist ihnen jedoch nicht gelungen, alle Geheimnisse zu lüften."
     }
   },
   "s4": {
-    "name": "",
-    "description": "",
+    "name": "Heiliges Opfer",
+    "description": "Heilt alle Verbündeten (außer dem Beschwörer) um {0} , wenn der Beschwörer stirbt.",
     "books": {
-      "0": "",
-      "1": "",
-      "2": ""
+      "0": "Erhöht Erholungsrate um {0}%.",
+      "1": "Erhöht Erholungsrate um {0}%.",
+      "2": "Erhöht Erholungsrate um {0}%."
     },
-    "light": "",
-    "dark": ""
+    "light": "Gewährt allen Verbündeten (außer dem Beschwörer) bei Aktivierung 1.5 Sek. lang Immunität gegen Schaden und Statuseffekt.",
+    "dark": "Entfernt bei Aktivierung alle negativen Effekte von allen Verbündeten (außer dem Beschwörer)."
   },
   "t5": {
-    "light": "",
-    "dark": ""
+    "light": "ANG, VERT, TP+15% / Effekt-Widerstund +100",
+    "dark": "Erhöht die eigene MP-Erholung/Sek. 3 Sek. lang um 300 %, wenn ein aktiver Skill gewirkt wird."
   }
 }

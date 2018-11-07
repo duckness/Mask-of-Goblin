@@ -278,8 +278,8 @@ const h = {
         Vue.i18n.translate(prefix + ".books.2", s.books[2])
       ]
     };
-    // only s2 and s3 have treasures for now
-    if (skillNum === "s2" || skillNum === "s3") {
+    // only s1, s2 and s3 have treasures for now
+    if (skillNum === "s1" || skillNum === "s2" || skillNum === "s3") {
       d.treasure = {
         image: require("@/components/hero/images/" +
           state.heroID +

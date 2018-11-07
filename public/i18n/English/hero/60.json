@@ -1,0 +1,132 @@
+{
+  "name": "Chrisha",
+  "subtitle": "Inquisitor of Blood and Iron",
+  "description": "Commander of Velchia, the Magic Knights of the Empire equipped with cutting-edge technomagic weapons. The knights, who are all annihilation warfare specialists, have not suffered a single defeat under her command. Chrisha is a strong knight who overpowers enemies with the power of lights with various attributes.",
+  "story": "Commander of Velchia, the proud Magic Knights of the Empire, and the Inquisitor working directly under the Emperor. It is her duty to eliminate corruption, rebels, and everything else that threatens the Empire. The people of the Empire praise her and think of her as a hero, a title she has never been eager to accept. As a daughter of the Van Nosenhill family, and as a soldier of the Empire, all that matters to her is fulfilling her duties.",
+  "like": "Her Family, the knights, pride, creed and valor, chess, and smart people.",
+  "dislike": "Those disgraceful to the Empire, and the enemies that threaten peace of the Empire.",
+  "inn": {
+    "idle": "Hmm. Orvel's inn isn't half bad after all.",
+    "recruit": {
+      "greet": "...What are you up to?",
+      "talk": [
+        "Those eager to know about the Empire must prove themselves first.",
+        "The orders of His Majesty the Emperor are absolute and must be abided by.",
+        "I heard there is someone who is proficient in Technomagic in Orvel. I wonder what he or she is like."
+      ],
+      "gift": "A gift? For me? What's the purpose of this?"
+    },
+    "affinity": {
+      "greet": "You've come. Is your stomach filled enough to fight?",
+      "talk": [
+        "You ever play any chess?",
+        "I definitely would like to talk to the Princess of Orvelia some time."
+      ],
+      "gift": "If you insist, I'll accept it."
+    },
+    "relationship": {
+      "greet": "A decent knight knows when to take it easy. Get some rest.",
+      "talk": [
+        "Being an Inquisitor reporting directly to His Majesty is not an easy position, but it is one that comes with pride.",
+        "*Sigh* No high officials and noblemen in the Empire or in Orvelia seem to be trustworthy.",
+        "Why don't you join the Velchia Magic Knights? I'd say you're well qualified."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Prism Nova, Arc Lumineir",
+    "description": [
+      "Upon gaining Lights, receives various effects. Red Light - Increases ATK of all allies by 10% for 10 sec. Blue Light - Increases DEF of all allies by 10% for 10 sec. Green Light - Recovers Mana of all alies by 300.",
+      "Upon gaining Lights, receives various effects. Red Light - Increases ATK of all allies by 12% for 10 sec. Blue Light - Increases DEF of all allies by 12% for 10 sec. Green Light - Recovers Mana of all alies by 360.",
+      "Upon gaining Lights, receives various effects. Red Light - Increases ATK of all allies by 14% for 10 sec. Blue Light - Increases DEF of all allies by 14% for 10 sec. Green Light - Recovers Mana of all alies by 430.",
+      "Upon gaining Lights, receives various effects. Red Light - Increases ATK of all allies by 17% for 10 sec. Blue Light - Increases DEF of all allies by 17% for 10 sec. Green Light - Recovers Mana of all alies by 520.",
+      "Upon gaining Lights, receives various effects. Red Light - Increases ATK of all allies by 21% for 10 sec. Blue Light - Increases DEF of all allies by 21% for 10 sec. Green Light - Recovers Mana of all alies by 630.",
+      "Upon gaining Lights, receives various effects. Red Light - Increases ATK of all allies by 25% for 10 sec. Blue Light - Increases DEF of all allies by 25% for 10 sec. Green Light - Recovers Mana of all alies by 750."
+    ],
+    "story": "One of the newly invented weapons of Magos Le'Flamme, the researching organization of the Empire. Akistra was developed to be a cannon with maximized killing power, whereas Arc Lumineir was made as a multi-purpose strategic weapon. Researchers, while studying to control the power of light, combined the attribute of a light-dispersing ore and the principle of Technomagic that has its roots in Elemental Magic, and came up with a brand new concept for an optical weapon."
+  },
+  "s1": {
+    "name": "Light of Annihilation",
+    "description": "Deals {0} M.DMG that ignores DEF to the target, and inflicts stun for {1} sec. Deals additional {2} M.DMG that ignores DEF to Non-Hero targets. After use, removes all stacked Lights and gains irremovable Red Light.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Reduces Mana Cost by 1.",
+    "dark": "Increases Mana Cost by 1 and DMG by 100%.",
+    "ut": {
+      "name": "Sword of Nosenhill",
+      "description": [
+        "[Light of Annihilation] Increases DMG by 20%, and resets Cooldown upon killing an enemy.",
+        "[Light of Annihilation] Increases DMG by 24%, and resets Cooldown upon killing an enemy.",
+        "[Light of Annihilation] Increases DMG by 29%, and resets Cooldown upon killing an enemy.",
+        "[Light of Annihilation] Increases DMG by 35%, and resets Cooldown upon killing an enemy.",
+        "[Light of Annihilation] Increases DMG by 42%, and resets Cooldown upon killing an enemy.",
+        "[Light of Annihilation] Increases DMG by 50%, and resets Cooldown upon killing an enemy."
+      ],
+      "story": "A fine sword and the family treasure of the Van Nosenhill family. The Van Nosenhill family has been deemed noble for its production of many outstanding strategists and commanders since the first emperor's reign. Ever since the sword was bestowed upon the family by the first emperor, the leaders of Van Nosenhill have always carried it with them."
+    }
+  },
+  "s2": {
+    "name": "Enemy Blockade",
+    "description": "Dispels all negative effects from self, deals {0} M.DMG to all enemies, and silences them for {1} sec. After use, removes all stacked Lights and gains irremovable Blue Light.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Reduces Mana Cost by 1.",
+    "dark": "Increases Silence duration by 1 sec.",
+    "ut": {
+      "name": "Certificate of Inquisitor",
+      "description": [
+        "[Enemy Blockade] Reduces Cooldown by 5 sec, and for 10 sec, increases M.DMG target receives by 10%.",
+        "[Enemy Blockade] Reduces Cooldown by 5 sec, and for 10 sec, increases M.DMG target receives by 12%.",
+        "[Enemy Blockade] Reduces Cooldown by 5 sec, and for 10 sec, increases M.DMG target receives by 14%.",
+        "[Enemy Blockade] Reduces Cooldown by 5 sec, and for 10 sec, increases M.DMG target receives by 17%.",
+        "[Enemy Blockade] Reduces Cooldown by 5 sec, and for 10 sec, increases M.DMG target receives by 21%.",
+        "[Enemy Blockade] Reduces Cooldown by 5 sec, and for 10 sec, increases M.DMG target receives by 25%."
+      ],
+      "story": "The inquisitor's plaque that the Emperor bestowed upon Chrisha. The silver wolf and the sword in its mouth symbolize authority and control, with which Chrisha could enact justice and chastise evil on behalf of the Emperor."
+    }
+  },
+  "s3": {
+    "name": "Green Zone",
+    "description": "Deals {0} M.DMG to frontal enemies in a straight line and creates a Green Zone ahead. Enemies in the Green Zone cannot receive positive effects and takes a total of {2} M.DMG over {1} sec, having their Heal Rate reduced by {3}%. After use, removes all stacked Lights and gains irremovable Green Light.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Reduces Mana Cost by 1.",
+    "dark": "Increases Green Zone duration by 1.5 sec.",
+    "ut": {
+      "name": "Pride of Velchia",
+      "description": [
+        "[Green Zone]Reduces Cooldown by 30% and increases Heal Rate Reduction Effect of Green Zone by an additional 20%.",
+        "[Green Zone]Reduces Cooldown by 30% and increases Heal Rate Reduction Effect of Green Zone by an additional 24%.",
+        "[Green Zone]Reduces Cooldown by 30% and increases Heal Rate Reduction Effect of Green Zone by an additional 29%.",
+        "[Green Zone]Reduces Cooldown by 30% and increases Heal Rate Reduction Effect of Green Zone by an additional 35%.",
+        "[Green Zone]Reduces Cooldown by 30% and increases Heal Rate Reduction Effect of Green Zone by an additional 42%.",
+        "[Green Zone]Reduces Cooldown by 30% and increases Heal Rate Reduction Effect of Green Zone by an additional 50%."
+      ],
+      "story": "A ring bestowed upon the Commander of the Velchia Magic Knights. It represents the power and pride of the finest order of magic knights in the Empire. Knights also use the ring as a stamp while doing paper work."
+    }
+  },
+  "s4": {
+    "name": "Technomagic of the Empire",
+    "description": "Increases ATK by {0} and ACC by {1} for all allies, and own normal attack effect changes according to the color of light owned. Red Light - Increases DMG of normal attack by {2}%, and upon attack, reduces Cooldown of [Light of Annihilation] by 1 sec. Blue Light - Reduces DMG of normal attack by {3}%, but deals DMG to the entire enemy. Targets take {4}% increased M.DMG for 10 sec. Green Light - Reduces DMG of normal attack by 20%, but deals DMG to 2 enemies. Heal Rate of the target is reduced by {5}% for 5 sec.",
+    "books": {
+      "0": "ATK boost is increased by {0}%.",
+      "1": "ATK boost is increased by {0}%.",
+      "2": "ATK boost is increased by {0}%."
+    },
+    "light": "Enhances the effect of Lights on normal attacks. Red Light: Changes Cooldown Reduction to 2 sec. Blue Light: Target takes 60% increased M.DMG. Green Light: Heal Rate Reduction is increased to 40%.",
+    "dark": "Increases the Range of normal attack by 20%."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / Crit Chance +100",
+    "dark": "Increases ATK Spd of normal attack by 400 and additional 40 per every skill use. This effect cannot be dispelled, and can be stacked up to max 10 times."
+  }
+}

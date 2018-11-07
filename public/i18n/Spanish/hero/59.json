@@ -1,120 +1,132 @@
 {
-  "name": "",
-  "subtitle": "",
-  "description": "",
-  "story": "",
-  "like": "",
-  "dislike": "",
+  "name": "Lucias",
+  "subtitle": "Santo de las bendiciones",
+  "description": "El alto clérigo de Lua y padre de Frey. La fe de Lucias es lo suficientemente fuerte para convocar la bendición de Lua. Los objetos bendecidos por él traen el poder de la luz y se convierten en armas efectivas contra los demonios.",
+  "story": "Lucias fue miembro de los caballeros sagrados de Lua antes de despertar como Santo de las bendiciones. Bajo el comando de la leyenda viva, Ricardo, él protegió a Orvel y a los pueblos cercanos de los demonios. Sin embargo, el estigma comenzó a aparecer en su cuerpo cuando tenía 19 años y con el llamado de Lura, el caballero sagrado se convirtió en el Santo de las bendiciones. Su misión es viajar alrededor del mundo y llevar la luz de Lua a aquellos que la necesitan. Se mantuvo fiel a sus deberes y recorrió el mundo para compartir sus bendiciones. Ahora, sostiene un arma en su mano nuevamente para defender el poder de la oscuridad que ha crecido en fuerza durante los últimos 100 años.",
+  "like": "Platos hechos con manzana, pescado, oraciones, ayudar a personas, espectáculos mágicos y misteriosos.",
+  "dislike": "Los mal educados, promesas sin cumplir, tomarse la vida humana a la ligera.",
   "inn": {
-    "idle": "",
+    "idle": "Este lugar... Puedo sentir el poder de la luz, al igual que el flujo de la armonía.",
     "recruit": {
-      "greet": "",
+      "greet": "Un saludo cálido para ti. Espero que estés pasando un buen día.",
       "talk": [
-        "",
-        "",
-        ""
+        "Vi una ceremonia de boda. Ah, ese sí que fue un paisaje hermoso.",
+        "¿Viste al hermano Baudouin? Me dijeron que estaba muy ebrio ayer...",
+        "Puedo sentir toda clase de poderes aquí. Se siente como el centro del mundo..."
       ],
-      "gift": ""
+      "gift": "Que la luz te bendiga."
     },
     "affinity": {
-      "greet": "",
+      "greet": "Es un placer tenerte de regreso. Ayúdame a dar las gracias antes de la comida.",
       "talk": [
-        "",
-        ""
+        "¿Se preguntan si hay otros santos además de mí? Mmm, no los he conocido, pero sí, hay otros tres.",
+        "Solía sostener la bandera cuando era un caballero sagrado. ¿Quién hubiera pensado que mi objeto sagrado como santo sería una bandera también? Ja, ja, ja."
       ],
-      "gift": ""
+      "gift": "Es muy generoso de su parte ofrecerme un obsequio, pero debo admitir que es más de lo que merezco. Si me encuentro con alguien que lo necesita, ¿puedo dárselo?"
     },
     "relationship": {
-      "greet": "",
+      "greet": "Que las bendiciones de Lua estén con ustedes.",
       "talk": [
-        "",
-        "",
-        ""
+        "Oh, Stardust está aquí. Solían visitar mi pueblo al menos una vez al año cuando era joven. Bueno, ¿deberíamos ir a ver si Escur todavía está entre nosotros?",
+        "A veces mis recuerdos me fallan. Mi pasado y los recuerdos de los Santos de las bendiciones anteriores...",
+        "Caballero sagrado, santo... Mi título no cambia lo que debo hacer. Simplemente trabajo para ayudar a aquellos que luchan con el dolor y la agonía."
       ]
     }
   },
   "uw": {
-    "name": "",
+    "name": "Bendición de luz, Benedicia",
     "description": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Cuando comienza la batalla, reduce el daño físico que reciben todos los aliados en un 10 % durante 30 segundos. Aumenta la velocidad de ataque del objetivo en 100 durante 30 segundos.",
+      "Cuando comienza la batalla, reduce el daño físico que reciben todos los aliados en un 12 % durante 30 segundos. Aumenta la velocidad de ataque del objetivo en 120 durante 30 segundos.",
+      "Cuando comienza la batalla, reduce el daño físico que reciben todos los aliados en un 14 % durante 30 segundos. Aumenta la velocidad de ataque del objetivo en 140 durante 30 segundos.",
+      "Cuando comienza la batalla, reduce el daño físico que reciben todos los aliados en un 17 % durante 30 segundos. Aumenta la velocidad de ataque del objetivo en 170 durante 30 segundos.",
+      "Cuando comienza la batalla, reduce el daño físico que reciben todos los aliados en un 21 % durante 30 segundos. Aumenta la velocidad de ataque del objetivo en 210 durante 30 segundos.",
+      "Cuando comienza la batalla, reduce el daño físico que reciben todos los aliados en un 25 % durante 30 segundos. Aumenta la velocidad de ataque del objetivo en 250 durante 30 segundos."
     ],
-    "story": ""
+    "story": "Una bandera bendecida que representa el sol, la luna y todo el cielo. Contiene el poder y las enseñanzas del Creador, Lua. El poder de la luz se extiende cuando flamea la bandera, trayendo paz a las mentes de sus aliados y venciendo los poderes de la oscuridad. Un objeto sagrado que se otorgó a Lucias, que solía tener la bandera en los Caballeros sagrados de Lua."
   },
   "s1": {
-    "name": "",
-    "description": "",
+    "name": "Camino de las bendiciones",
+    "description": "Cura 4 aliados con la Salud más baja en {0} y el lanzador recibe {2}  % de daño reducido durante {1} segundo(s).",
     "books": {
-      "0": "",
-      "1": "",
-      "2": ""
+      "0": "La tasa de Recuperacion aumenta en {0}%.",
+      "1": "La tasa de Recuperacion aumenta en {0}%.",
+      "2": "La tasa de Recuperacion aumenta en {0}%."
     },
-    "light": "",
-    "dark": ""
+    "light": "Aumenta la Tasa de recuperación en un 40 %.",
+    "dark": "Recupera el Mana del objetivo en 500.",
+    "ut": {
+      "name": "Libro de bendiciones",
+      "description": [
+        "[Camino de las bendiciones] Reduce el Costo de Mana en 1 y el Tiempo de reutilización en 12 %.",
+        "[Camino de las bendiciones] Reduce el Costo de Mana en 1 y el Tiempo de reutilización en 14 %.",
+        "[Camino de las bendiciones] Reduce el Costo de Mana en 1 y el Tiempo de reutilización en 17 %.",
+        "[Camino de las bendiciones] Reduce el Costo de Mana en 1 y el Tiempo de reutilización en 21 %.",
+        "[Camino de las bendiciones] Reduce el Costo de Mana en 1 y el Tiempo de reutilización en 25 %.",
+        "[Camino de las bendiciones] Reduce el Costo de Mana en 1 y el Tiempo de reutilización en 30 %."
+      ],
+      "story": "La biblia del infinito que un grupo de los sabios de las bendiciones usaba para registrar sus trabajos. El título de sabio se va pasando con los recuerdos de su predecesor, por lo que, supuestamente, no debería ser necesario registrar nada por escrito. Sin embargo, esta biblia debió escribirse debido al riesgo de que los recuerdos acumulados borren la identidad del sabio actual."
+    }
   },
   "s2": {
-    "name": "",
-    "description": "",
+    "name": "Zona de fe",
+    "description": "Desdobla la [Zona de fe] en la ubicación del lanzador durante {0} segundos. Aumenta el Ataque de los aliados en la [Zona de fe] en {1}. Los enemigos de la zona reciben {2} de daño físico por cada segundo. Los enemigos golpeados están aturdidos durante {3} segundos.Restaura la Salud del objetivo en {4} durante la duracion de la habilidad.Disipa continuamente los efectos negativos de los aliados.",
     "books": {
-      "0": "",
-      "1": "",
-      "2": ""
+      "0": "Aumenta la Recuperacion y el Daño en {0}%.",
+      "1": "Aumenta la Recuperacion y el Daño en {0}%.",
+      "2": "Aumenta la Recuperacion y el Daño en {0}%."
     },
-    "light": "",
-    "dark": "",
+    "light": "Recupera Mana para los aliados cercanos en 200 por segundo.",
+    "dark": "Disipa continuamente los efectos positivos del enemigo cercano.",
     "ut": {
-      "name": "",
+      "name": "Dado del recuerdo",
       "description": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "[Zona de fe] Reduce el Costo de Mana en 1 y reduce el Mana de los enemigos cercanos en 200 por segundo.",
+        "[Zona de fe] Reduce el Costo de Mana en 1 y reduce el Mana de los enemigos cercanos en 240 por segundo.",
+        "[Zona de fe] Reduce el Costo de Mana en 1 y reduce el Mana de los enemigos cercanos en 290 por segundo.",
+        "[Zona de fe] Reduce el Costo de Mana en 1 y reduce el Mana de los enemigos cercanos en 350 por segundo.",
+        "[Zona de fe] Reduce el Costo de Mana en 1 y reduce el Mana de los enemigos cercanos en 420 por segundo.",
+        "[Zona de fe] Reduce el Costo de Mana en 1 y reduce el Mana de los enemigos cercanos en 500 por segundo."
       ],
-      "story": ""
+      "story": "Lucias tenía un amigo muy querido cuando era joven. Este amigo era un miembro de una compañía llamada Stardust. Tenía manos muy veloces a pesar de su corta edad y solía robar incontables monederos de los apostadores. Sin embargo, Stardust solo visitaba el pueblo de Lucias una vez al año, así que los dos amigos se regalaron algo que ambos atesoraban para recordar su amistad. Este dado es el dado especial de trucos que hizo el amigo de Lucias, Escur."
     }
   },
   "s3": {
-    "name": "",
-    "description": "",
+    "name": "Estigma",
+    "description": "la Oportunidad de Evasion Fis. Aumenta en  {1}  por  {0}  seg y el ATQ aumenta en  {2}.Para la duración de la habilidad, los ataques normales infligen {3} de daño físico adicional y hacen que el objetivo reciba {5}  % de daño físico adicional durante {4} segundos.El efecto se disipa cuando muere el lanzador.",
     "books": {
-      "0": "",
-      "1": "",
-      "2": ""
+      "0": "Los aumentos de ATQ y Daño se incrementan en {0}%.",
+      "1": "Los aumentos de ATQ y Daño se incrementan en {0}%.",
+      "2": "Los aumentos de ATQ y Daño se incrementan en {0}%."
     },
-    "light": "",
-    "dark": "",
+    "light": "Reduce la precisión de los enemigos golpeados en 150 por 5 segundos",
+    "dark": "Gana inmunidad al Control de multitudes para la duración de la habilidad.",
     "ut": {
-      "name": "",
+      "name": "Enseñanza del lucero del alba",
       "description": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "[Estigma] El efecto del Estigma no se puede disipar por habilidad eliminando los efectos positivos. Reduce el Tiempo de reutilización en 12 %.",
+        "[Estigma] El efecto del Estigma no se puede disipar por habilidad eliminando los efectos positivos. Reduce el Tiempo de reutilización en 14 %.",
+        "[Estigma] El efecto del Estigma no se puede disipar por habilidad eliminando los efectos positivos. Reduce el Tiempo de reutilización en 17 %.",
+        "[Estigma] El efecto del Estigma no se puede disipar por habilidad eliminando los efectos positivos. Reduce el Tiempo de reutilización en 21 %.",
+        "[Estigma] El efecto del Estigma no se puede disipar por habilidad eliminando los efectos positivos. Reduce el Tiempo de reutilización en 25 %.",
+        "[Estigma] El efecto del Estigma no se puede disipar por habilidad eliminando los efectos positivos. Reduce el Tiempo de reutilización en 30 %."
       ],
-      "story": ""
+      "story": "Los materiales de investigación acerca del estigma del Santo de las bendiciones. Aunque Lucias tenga los recuerdos de los santos, ellos no lo sabían todo. Los clérigos de Lua dejaron este documento luego de investigar el secreto detrás del estigma, pero fue imposible que descubrieran toda la verdad."
     }
   },
   "s4": {
-    "name": "",
-    "description": "",
+    "name": "Sacrificio sagrado",
+    "description": "Cura a todos los aliados, excepto al lanzador en {0} cuando el lanzador muere.",
     "books": {
-      "0": "",
-      "1": "",
-      "2": ""
+      "0": "La tasa de Recuperacion aumenta en {0}%.",
+      "1": "La tasa de Recuperacion aumenta en {0}%.",
+      "2": "La tasa de Recuperacion aumenta en {0}%."
     },
-    "light": "",
-    "dark": ""
+    "light": "Al activarlo, otorga inmunidad al daño y control de multitudes a todos los aliados excepto al lanzador durante 1.5 segundos.",
+    "dark": "Al activarlo, disipa los efectos negativos de todos los aliados, excepto el lanzador."
   },
   "t5": {
-    "light": "",
-    "dark": ""
+    "light": "ATQ, DEF, Salud+15% / Resist Ctrl de Masas +100",
+    "dark": "Aumenta la recuperación de Mana propio por segundo en un 300 % durante 3 segundos al lanzar una habilidad activa."
   }
 }

@@ -1,120 +1,132 @@
 {
-  "name": "",
-  "subtitle": "",
-  "description": "",
-  "story": "",
-  "like": "",
-  "dislike": "",
+  "name": "Chrisha",
+  "subtitle": "Inquisitrice de fer et de sang",
+  "description": "Commandante de l'ordre de Velchia, les chevaliers magiques de l'empire, et manipulatrice d'armes technomagiques de pointe. Ces chevaliers, tous spécialistes de la destruction militaire, n'ont essuyé aucune défaite sous son commandement. Chrisha est elle-même chevalier, et surpasse la force de ses ennemis grâce au pouvoir de la lumière.",
+  "story": "Commandante de l'ordre de Velchia, les fiers chevaliers magiques de l'empire, et inquisitrice aux ordres directs de l'empereur. Sa mission consiste à lutter contre la corruption, les rebelles, et tout ce qui porte atteinte à l'empire. Les sujets de l'empereur la considèrent comme une véritable héroïne, qualificatif qu'elle n'a jamais cherché à acquérir. En tant que soldat et membre de la famille Van Nosenhill, tout ce qui lui importe est de mener à bien sa mission.",
+  "like": "Sa famille, les chevaliers, la fierté, les principes et la valeur, les échecs et les gens intelligents.",
+  "dislike": "Ceux qui décrient l'empire et les ennemis qui menacent la paix.",
   "inn": {
-    "idle": "",
+    "idle": "Oh. La taverne d'Orvel n'est pas si mal, après tout.",
     "recruit": {
-      "greet": "",
+      "greet": "Qu'est-ce que vous fabriquez ?",
       "talk": [
-        "",
-        "",
-        ""
+        "Pour avoir des informations sur l'empire, il faut d'abord s'en montrer digne.",
+        "Les ordres de Sa Majesté l'empereur doivent être suivis, quelles que soient les circonstances.",
+        "Il paraît qu'Orvel abrite un technomage de grand talent. Je me demande de quoi il ou elle a l'air."
       ],
-      "gift": ""
+      "gift": "Un cadeau ? Pour moi ? Et pourquoi donc ?"
     },
     "affinity": {
-      "greet": "",
+      "greet": "Vous êtes là. Avez-vous suffisamment mangé pour vous battre ?",
       "talk": [
-        "",
-        ""
+        "Cela vous arrive-t-il de jouer aux échecs ?",
+        "Parfois, j'ai vraiment envie de parler à la princesse d'Orvelia."
       ],
-      "gift": ""
+      "gift": "Si vous insistez, j'accepte."
     },
     "relationship": {
-      "greet": "",
+      "greet": "Un vrai chevalier sait quand il doit se reposer. Prenez soin de vous.",
       "talk": [
-        "",
-        "",
-        ""
+        "Ce n'est pas toujours facile d'être l'inquisitrice qui rend des comptes directement à Sa Majesté, mais je n'en suis pas peu fière.",
+        "*Pfff* N'y a-t-il donc aucun officiel, aucun noble digne de confiance dans tout l'empire, ni dans tout Orvelia ?",
+        "Vous devriez faire partie des chevaliers magiques de Velchia. Vous semblez avoir toutes les qualifications requises."
       ]
     }
   },
   "uw": {
-    "name": "",
+    "name": "Nova prismatique, Arc lumineux",
     "description": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Les lumières accordent différents effets. Lumière rouge - Augmente l'ATQ de tous les alliés de 10 % pendant 10 sec. Lumière bleue - Augmente la DEF de tous les alliés de 10 % pendant 10 sec. Lumière verte - Restaure 300PM pour tous les alliés.",
+      "Les lumières accordent différents effets. Lumière rouge - Augmente l'ATQ de tous les alliés de 12 % pendant 10 sec. Lumière bleue - Augmente la DEF de tous les alliés de 12 % pendant 10 sec. Lumière verte - Restaure 360PM pour tous les alliés.",
+      "Les lumières accordent différents effets. Lumière rouge - Augmente l'ATQ de tous les alliés de 14 % pendant 10 sec. Lumière bleue - Augmente la DEF de tous les alliés de 14 % pendant 10 sec. Lumière verte - Restaure 430PM pour tous les alliés.",
+      "Les lumières accordent différents effets. Lumière rouge - Augmente l'ATQ de tous les alliés de 17 % pendant 10 sec. Lumière bleue - Augmente la DEF de tous les alliés de 17 % pendant 10 sec. Lumière verte - Restaure 520PM pour tous les alliés.",
+      "Les lumières accordent différents effets. Lumière rouge - Augmente l'ATQ de tous les alliés de 21 % pendant 10 sec. Lumière bleue - Augmente la DEF de tous les alliés de 21 % pendant 10 sec. Lumière verte - Restaure 630PM pour tous les alliés.",
+      "Les lumières accordent différents effets. Lumière rouge - Augmente l'ATQ de tous les alliés de 25 % pendant 10 sec. Lumière bleue - Augmente la DEF de tous les alliés de 25 % pendant 10 sec. Lumière verte - Restaure 750PM pour tous les alliés."
     ],
-    "story": ""
+    "story": "L'une des dernières armes mises au point par Magos Le'Flamme, l'organisation de recherche impériale. Akistra est un canon à la puissance létale maximisée, tandis qu'Arc lumineux est une arme stratégique multifonction. Alors qu'ils essayaient de maîtriser le pouvoir de la lumière, les chercheurs ont associé un minerai capable de disperser la lumière et les principes élémentaux de la technomagie, pour aboutir à un tout nouveau concept d'arme optique."
   },
   "s1": {
-    "name": "",
-    "description": "",
+    "name": "Lumière annihilatrice",
+    "description": "Inflige {0}  points de DEG M ignorant la DEF de la cible, et étourdit cette dernière pendant {1}  sec. Inflige {2}  points supplémentaires de DEG M ignorant la DEF aux cibles non-héros. À la fin de l'incantation, retire toutes les lumières et accorde une Lumière rouge inamovible.",
     "books": {
-      "0": "",
-      "1": "",
-      "2": ""
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
     },
-    "light": "",
-    "dark": ""
+    "light": "Réduit le coût en mana de 1 point.",
+    "dark": "Augmente le coût en mana de 1 point et les DEG de 100 %.",
+    "ut": {
+      "name": "Épée des Nosenhill",
+      "description": [
+        "[Lumière annihilatrice] Augmente les DEG de 20 % et réinitialise le temps de recharge à chaque ennemi vaincu.",
+        "[Lumière annihilatrice] Augmente les DEG de 24 % et réinitialise le temps de recharge à chaque ennemi vaincu.",
+        "[Lumière annihilatrice] Augmente les DEG de 29 % et réinitialise le temps de recharge à chaque ennemi vaincu.",
+        "[Lumière annihilatrice] Augmente les DEG de 35 % et réinitialise le temps de recharge à chaque ennemi vaincu.",
+        "[Lumière annihilatrice] Augmente les DEG de 42 % et réinitialise le temps de recharge à chaque ennemi vaincu.",
+        "[Lumière annihilatrice] Augmente les DEG de 50 % et réinitialise le temps de recharge à chaque ennemi vaincu."
+      ],
+      "story": "Cette épée élaborée est le trésor familial des Van Nosenhill. La famille Van Nosenhill accéda à la noblesse, car elle a produit de nombreux stratèges et commandants exceptionnels depuis le règne du premier empereur. L'épée fut décernée aux Van Nosenhill par le premier empereur et depuis, elle n'a pas quitté le côté des chefs successifs de la famille."
+    }
   },
   "s2": {
-    "name": "",
-    "description": "",
+    "name": "Blocus ennemi",
+    "description": "Dissipe tous les effets négatifs qui pèsent sur le lanceur, inflige {0}  points de DEG M à tous les ennemis et les réduit au silence pendant {1}  sec. À la fin de l'incantation, retire toutes les lumières et accorde une Lumière bleue inamovible.",
     "books": {
-      "0": "",
-      "1": "",
-      "2": ""
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
     },
-    "light": "",
-    "dark": "",
+    "light": "Réduit le coût en mana de 1 point.",
+    "dark": "Augmente la durée de Silence de 1 sec.",
     "ut": {
-      "name": "",
+      "name": "Certificat de l'inquisitrice",
       "description": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "[Blocus ennemi] Réduit le temps de recharge de 5 sec et augmente les DEG M reçus par la cible de 10 % pendant 10 sec.",
+        "[Blocus ennemi] Réduit le temps de recharge de 5 sec et augmente les DEG M reçus par la cible de 12 % pendant 10 sec.",
+        "[Blocus ennemi] Réduit le temps de recharge de 5 sec et augmente les DEG M reçus par la cible de 14 % pendant 10 sec.",
+        "[Blocus ennemi] Réduit le temps de recharge de 5 sec et augmente les DEG M reçus par la cible de 17 % pendant 10 sec.",
+        "[Blocus ennemi] Réduit le temps de recharge de 5 sec et augmente les DEG M reçus par la cible de 21 % pendant 10 sec.",
+        "[Blocus ennemi] Réduit le temps de recharge de 5 sec et augmente les DEG M reçus par la cible de 25 % pendant 10 sec."
       ],
-      "story": ""
+      "story": "La plaque de l'inquisitrice remise à Chrisha par l'empereur. Le loup d'argent et l'épée dans sa gueule symbolisent l'autorité et la domination avec lesquelles Chrisha rend justice et pourchasse le mal au nom de l'empereur."
     }
   },
   "s3": {
-    "name": "",
-    "description": "",
+    "name": "Zone verte",
+    "description": "Inflige {0}  points de DEG M aux ennemis situés en face en ligne droite et génère une zone verte. Les ennemis à l'intérieur ne peuvent plus recevoir d'effet positif, subissent {2}  points de DEG M pendant {1}  sec, et leur récupération ralentit de {3}  %. À la fin de l'incantation, retire toutes les lumières et accorde une Lumière verte inamovible.",
     "books": {
-      "0": "",
-      "1": "",
-      "2": ""
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
     },
-    "light": "",
-    "dark": "",
+    "light": "Réduit le coût en mana de 1 point.",
+    "dark": "Augmente la durée de Zone verte de 1.5 sec.",
     "ut": {
-      "name": "",
+      "name": "Fierté de Velchia",
       "description": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "[Zone verte]Réduit le temps de recharge de 30 % et renforce de 20 % supplémentaires la réduction d'effet de la récupération provoqué par Zone verte.",
+        "[Zone verte]Réduit le temps de recharge de 30 % et renforce de 24 % supplémentaires la réduction d'effet de la récupération provoqué par Zone verte.",
+        "[Zone verte]Réduit le temps de recharge de 30 % et renforce de 29 % supplémentaires la réduction d'effet de la récupération provoqué par Zone verte.",
+        "[Zone verte]Réduit le temps de recharge de 30 % et renforce de 35 % supplémentaires la réduction d'effet de la récupération provoqué par Zone verte.",
+        "[Zone verte]Réduit le temps de recharge de 30 % et renforce de 42 % supplémentaires la réduction d'effet de la récupération provoqué par Zone verte.",
+        "[Zone verte]Réduit le temps de recharge de 30 % et renforce de 50 % supplémentaires la réduction d'effet de la récupération provoqué par Zone verte."
       ],
-      "story": ""
+      "story": "L'anneau remis au commandant des chevaliers magiques de Velchia. Il symbolise la puissance et la fierté de l'ordre de chevaliers magiques le plus réputé de l'empire. Ils se servent de cet anneau comme d'un sceau."
     }
   },
   "s4": {
-    "name": "",
-    "description": "",
+    "name": "Technomagie de l'empire",
+    "description": "Augmente l'ATQ de {0}  points et la précision de {1} pour tous les alliés et change l'attaque normale du lanceur en fonction de la couleur de la lumière active. Lumière rouge - Augmente les DEG des attaques normales de {2}  % et réduit le temps de recharge de [Lumière annihilatrice] de 1 sec lors de l'attaque. Lumière bleue - Réduit les DEG des attaques normales de {3}  %, mais inflige des DEG à tous les ennemis. Augmente les DEG M reçus par la cible de {4}  % pendant 10 sec. Lumière verte - Réduit les DEG des attaques normales de 20 %, mais inflige des DEG à 2 ennemis. Ralentit la récupération de la cible de {5}  % pendant 5 sec.",
     "books": {
-      "0": "",
-      "1": "",
-      "2": ""
+      "0": "Augmentation de l'ATQ boostée de {0}%.",
+      "1": "Augmentation de l'ATQ boostée de {0}%.",
+      "2": "Augmentation de l'ATQ boostée de {0}%."
     },
-    "light": "",
-    "dark": ""
+    "light": "Améliore l'effet des lumières sur les attaques normales. Lumière rouge : la réduction du temps de recharge passe à 2 sec. Lumière bleue : la cible reçoit 60 % de DEG M supplémentaires. Lumière verte : le ralentissement de la récupération passe à 40 %.",
+    "dark": "Augmente la portée des attaques normales de 20 %."
   },
   "t5": {
-    "light": "",
-    "dark": ""
+    "light": "ATQ, DEF, PV +15% / Chances Crit +100",
+    "dark": "Augmente la Vit ATQ des attaques normales de 400 points et de 40 points supplémentaires par compétence utilisée. Cet effet ne peut pas être dissipé et peut se cumuler jusqu'à 10 fois."
   }
 }

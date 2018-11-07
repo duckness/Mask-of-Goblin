@@ -1,120 +1,132 @@
 {
-  "name": "",
-  "subtitle": "",
-  "description": "",
-  "story": "",
-  "like": "",
-  "dislike": "",
+  "name": "Chrisha",
+  "subtitle": "Inquisitorin von Blut und Eisen",
+  "description": "Die Kommandantin der Velchia, Magieritter des Imperiums, die mit modernsten Technomagie-Waffen ausgestattet sind. Die Ritter, die allesamt Vernichtungsspezialisten sind, wurden unter ihrem Kommando noch nie besiegt. Chrisha ist ein starker Ritter, der seine Feinde mit der Macht des Lichst überwältigt.",
+  "story": "Die Kommandantin der Velchia, der stolzen Magieritter des Imperiums, und die Inquisitorin, die direkt dem Kaiser untersteht. Sie hat die Pflicht, die Korrumpierung, Rebellen und alles andere zu eliminieren, das das Imperium bedroht. Die Bewohner des Imperiums verehren sie als Heldin, obwohl sie diesen Titel nicht gerne trägt. Als Tochter der Van Nosenhill-Familie und Soldatin des Imperiums zählt für sie nur die Erfüllung ihrer Pflichten.",
+  "like": "Ihre Familie, die Ritter, Stolz, Überzeugung und Tapferkeit, Schach und intelligente Leute.",
+  "dislike": "Jene, die das Imperium beschämen und die Feinde, die den Frieden im Imperium bedrohen.",
   "inn": {
-    "idle": "",
+    "idle": "Oh. Orvels Taverne ist wohl doch nicht so schlecht.",
     "recruit": {
-      "greet": "",
+      "greet": "... Was hast du vor?",
       "talk": [
-        "",
-        "",
-        ""
+        "Jene, die mehr über das Imperium wissen wollen, müssen zuerst ihren Wert unter Beweis stellen.",
+        "Die Befehle Seiner Majestät sind endgültig und müssen befolgt werden.",
+        "Ich habe gehört, dass sich in Orvel jemand mit der Technomagie auskennt. Ich frage mich, wie er oder sie so ist."
       ],
-      "gift": ""
+      "gift": "Ein Geschenk? Für mich? Was hat das zu bedeuten?"
     },
     "affinity": {
-      "greet": "",
+      "greet": "Du bist gekommen. Bist du satt genug, um zu kämpfen?",
       "talk": [
-        "",
-        ""
+        "Hast du jemals Schach gespielt?",
+        "Irgendwann würde ich gerne einmal mit der Prinzessin von Orvelia sprechen."
       ],
-      "gift": ""
+      "gift": "Wenn du darauf bestehst, willige ich ein."
     },
     "relationship": {
-      "greet": "",
+      "greet": "Ein guter Ritter weiß, wann er es ruhig angehen muss. Ruh dich ein wenig aus.",
       "talk": [
-        "",
-        "",
-        ""
+        "Es ist nicht einfach, eine Inquisitorin zu sein und Seiner Majestät persönlich Bericht erstatten zu müssen, dennoch erfüllt mich diese Position mit Stolz.",
+        "*Seufz* Es scheint im Imperium und in Orvelia keine vertrauenswürdigen hohen Beamten und Adeligen zu geben.",
+        "Warum schließt du dich nicht den Velchia-Magierittern an? Qualifiziert genug wärst du jedenfalls."
       ]
     }
   },
   "uw": {
-    "name": "",
+    "name": "Prismanova, Arc Lumineir",
     "description": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Bekommt beim Erhalt von Licht verschiedene Effekte. Rotes Licht – Erhöht die ANG aller Verbündeten für 10 Sek um 10 %. Blaues Licht – Erhöht die VERT aller Verbündeten für 10 Sek um 10 %. Grünes Licht - Regeneriert bei allen Verbündeten 300 MP.",
+      "Bekommt beim Erhalt von Licht verschiedene Effekte. Rotes Licht – Erhöht die ANG aller Verbündeten für 10 Sek um 12 %. Blaues Licht – Erhöht die VERT aller Verbündeten für 10 Sek um 12 %. Grünes Licht - Regeneriert bei allen Verbündeten 360 MP.",
+      "Bekommt beim Erhalt von Licht verschiedene Effekte. Rotes Licht – Erhöht die ANG aller Verbündeten für 10 Sek um 14 %. Blaues Licht – Erhöht die VERT aller Verbündeten für 10 Sek um 14 %. Grünes Licht - Regeneriert bei allen Verbündeten 430 MP.",
+      "Bekommt beim Erhalt von Licht verschiedene Effekte. Rotes Licht – Erhöht die ANG aller Verbündeten für 10 Sek um 17 %. Blaues Licht – Erhöht die VERT aller Verbündeten für 10 Sek um 17 %. Grünes Licht - Regeneriert bei allen Verbündeten 520 MP.",
+      "Bekommt beim Erhalt von Licht verschiedene Effekte. Rotes Licht – Erhöht die ANG aller Verbündeten für 10 Sek um 21 %. Blaues Licht – Erhöht die VERT aller Verbündeten für 10 Sek um 21 %. Grünes Licht - Regeneriert bei allen Verbündeten 630 MP.",
+      "Bekommt beim Erhalt von Licht verschiedene Effekte. Rotes Licht – Erhöht die ANG aller Verbündeten für 10 Sek um 25 %. Blaues Licht – Erhöht die VERT aller Verbündeten für 10 Sek um 25 %. Grünes Licht - Regeneriert bei allen Verbündeten 750 MP."
     ],
-    "story": ""
+    "story": "Eine der neuesten Waffen von Magos Le’Flamme, der Forschungsorganisation des Imperiums. Akistra ist eine Kanone, die maximale Verheerung anrichten kann, während es sich bei Arc Lumineir um eine strategische Mehrzweckwaffe handelt. Forscher, die die Macht des Lichts studierten, haben die Attribute von lichtzerstreuendem Erz mit dem Prinzip der Technomagie, die ihre Wurzeln in der gewöhnlichen Magie hat, kombiniert und ein komplett neues Konzept für eine optische Waffe entwickelt."
   },
   "s1": {
-    "name": "",
-    "description": "",
+    "name": "Licht der Zerstörung",
+    "description": "Verursacht {0} M.Schaden am Ziel, der die VERT ignoriert, und betäubt es für {1} Sek. Verursacht zusätzlich {2} M.Schaden, der die VERT ignoriert, an Zielen, die keine Helden sind. Entfernt nach Verwendung alle Lichter in Besitz und erhält Rotes Licht, das nicht entfernt werden kann.",
     "books": {
-      "0": "",
-      "1": "",
-      "2": ""
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
     },
-    "light": "",
-    "dark": ""
+    "light": "Verringert die Manakosten um 1.",
+    "dark": "Erhöht die Manakosten um 1 und den Schaden um 100 %.",
+    "ut": {
+      "name": "Schwert von Nosenhill",
+      "description": [
+        "[Licht der Zerstörung] Erhöht den Schaden um 20 % und setzt den Cooldown zurück, wenn ein Feind getötet wird.",
+        "[Licht der Zerstörung] Erhöht den Schaden um 24 % und setzt den Cooldown zurück, wenn ein Feind getötet wird.",
+        "[Licht der Zerstörung] Erhöht den Schaden um 29 % und setzt den Cooldown zurück, wenn ein Feind getötet wird.",
+        "[Licht der Zerstörung] Erhöht den Schaden um 35 % und setzt den Cooldown zurück, wenn ein Feind getötet wird.",
+        "[Licht der Zerstörung] Erhöht den Schaden um 42 % und setzt den Cooldown zurück, wenn ein Feind getötet wird.",
+        "[Licht der Zerstörung] Erhöht den Schaden um 50 % und setzt den Cooldown zurück, wenn ein Feind getötet wird."
+      ],
+      "story": "Dieses edle Schwert ist ein Schatz der Familie Van Nosenhill. Die Familie Van Nosenhill ist für ihre herausragenden Strategen und Kommandanten bekannt, die sie seit der Herrschaft des ersten Kaisers hervorgebracht hat. Seit das Schwert in den Familienbesitz übergegangen ist, tragen es die Anführer der Familie Van Nosenhill bei sich."
+    }
   },
   "s2": {
-    "name": "",
-    "description": "",
+    "name": "Feindblockade",
+    "description": "Entfernt alle negativen Effekte vom Beschwörer, verursacht {0} M.Schaden an allen Feinden und bringt sie für {1} Sek. zum Schweigen. Entfernt nach Verwendung alle Lichter in Besitz und erhält Blaues Licht, das nicht entfernt werden kann.",
     "books": {
-      "0": "",
-      "1": "",
-      "2": ""
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
     },
-    "light": "",
-    "dark": "",
+    "light": "Verringert die Manakosten um 1.",
+    "dark": "Erhöht die Dauer von Schweigen um 1 Sek.",
     "ut": {
-      "name": "",
+      "name": "Zertifikat des Inquisitors",
       "description": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "[Feindblockade] Verringert den Cooldown um 5 Sek. und erhöht den vom Ziel erlittenen M.Schaden 10 Sek. lang um 10 %.",
+        "[Feindblockade] Verringert den Cooldown um 5 Sek. und erhöht den vom Ziel erlittenen M.Schaden 10 Sek. lang um 12 %.",
+        "[Feindblockade] Verringert den Cooldown um 5 Sek. und erhöht den vom Ziel erlittenen M.Schaden 10 Sek. lang um 14 %.",
+        "[Feindblockade] Verringert den Cooldown um 5 Sek. und erhöht den vom Ziel erlittenen M.Schaden 10 Sek. lang um 17 %.",
+        "[Feindblockade] Verringert den Cooldown um 5 Sek. und erhöht den vom Ziel erlittenen M.Schaden 10 Sek. lang um 21 %.",
+        "[Feindblockade] Verringert den Cooldown um 5 Sek. und erhöht den vom Ziel erlittenen M.Schaden 10 Sek. lang um 25 %."
       ],
-      "story": ""
+      "story": "Die Tafel des Inquisitors, die Chrisha vom Kaiser erhalten hat. Der silberne Wolf mit dem Schwert im Mund symbolisiert Autorität und Kontrolle, mit denen Chrisha die Gerechtigkeit walten und das Böse im Namen des Kaisers züchtigen kann."
     }
   },
   "s3": {
-    "name": "",
-    "description": "",
+    "name": "Grüne Zone",
+    "description": "Verursacht {0} M.Schaden an frontalen Feinden in einer geraden Linie und erschafft vor ihnen eine Grüne Zone. Feinde in der Grünen Zone können keine positiven Effekte erhalten und erleiden {2} M.Schaden über {1} Sek. Ihre Heilungsrate wird dabei um {3}  % verringert. Entfernt nach Verwendung alle Lichter in Besitz und erhält Grünes Licht, das nicht entfernt werden kann.",
     "books": {
-      "0": "",
-      "1": "",
-      "2": ""
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
     },
-    "light": "",
-    "dark": "",
+    "light": "Verringert die Manakosten um 1.",
+    "dark": "Erhöht die Dauer der Grünen Zone um 1.5 Sek.",
     "ut": {
-      "name": "",
+      "name": "Stolz von Velchia",
       "description": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "[Grüne Zone]Verringert den Cooldown um 30 % und erhöht den Heilungsraten-Reduktionseffekt der Grünen Zone um zusätzliche 20 %.",
+        "[Grüne Zone]Verringert den Cooldown um 30 % und erhöht den Heilungsraten-Reduktionseffekt der Grünen Zone um zusätzliche 24 %.",
+        "[Grüne Zone]Verringert den Cooldown um 30 % und erhöht den Heilungsraten-Reduktionseffekt der Grünen Zone um zusätzliche 29 %.",
+        "[Grüne Zone]Verringert den Cooldown um 30 % und erhöht den Heilungsraten-Reduktionseffekt der Grünen Zone um zusätzliche 35 %.",
+        "[Grüne Zone]Verringert den Cooldown um 30 % und erhöht den Heilungsraten-Reduktionseffekt der Grünen Zone um zusätzliche 42 %.",
+        "[Grüne Zone]Verringert den Cooldown um 30 % und erhöht den Heilungsraten-Reduktionseffekt der Grünen Zone um zusätzliche 50 %."
       ],
-      "story": ""
+      "story": "Ein Ring, der der Kommandantin der Velchia-Magieritter geschenkt wurde. Er symbolisiert die Macht und den Stolz des besten Ordens der Magieritter im ganzen Imperium. Die Ritter verwenden diesen Ring auch als Stempel, wenn sie sich um Papierkram kümmern."
     }
   },
   "s4": {
-    "name": "",
-    "description": "",
+    "name": "Technomagie des Imperiums",
+    "description": "Erhöht den ANG um {0} und die PRÄZ um {1} für alle Verbündeten. Ändert den normalen Angriff des Beschwörers gemäß der Farbe des Lichts im Besitz. Rotes Licht – Erhöht den Schaden des normalen Angriffs um {2}  % und verringert den Cooldown von [Licht der Zerstörung] beim Angreifen um 1 Sek. Blaues Licht – Verringert den Schaden des normalen Angriffs um {3}  %, verursacht dafür Schaden am ganzen Feind. Erhöht den M.Schaden, den das Ziel erleidet, für 10 Sek um {4}  %. Grünes Licht – Verringert den Schaden des normalen Angriffs um 20 %, verursacht dafür Schaden an 2 Feinden. Verringert die Heilungsrate des Ziels für 5 Sek um {5}  %.",
     "books": {
-      "0": "",
-      "1": "",
-      "2": ""
+      "0": "Erhöht ANG um {0}%.",
+      "1": "Erhöht ANG um {0}%.",
+      "2": "Erhöht ANG um {0}%."
     },
-    "light": "",
-    "dark": ""
+    "light": "Verstärkt die Effekte des Lichts bei normalen Angriffen. Rotes Licht: Ändert die Cooldown-Verringerung auf 2 Sek. Blaues Licht: Das Ziel erleidet 60 % mehr M.Schaden. Grünes Licht: Die Heilungsraten-Verringerung wird um 40 % erhöht.",
+    "dark": "Erhöht die Reichweite des normalen Angriffs um 20 %."
   },
   "t5": {
-    "light": "",
-    "dark": ""
+    "light": "ANG, VERT, TP+15% / Krit. Chance +100",
+    "dark": "Erhöht die ANG-Geschwindigkeit eines normalen Angriffs um 400 und um zusätzliche 40 pro eingesetztem Skill. Dieser Effekt kann nicht entfernt und bis zu 10-mal gestapelt werden."
   }
 }

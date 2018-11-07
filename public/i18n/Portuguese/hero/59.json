@@ -1,120 +1,132 @@
 {
-  "name": "",
-  "subtitle": "",
-  "description": "",
-  "story": "",
-  "like": "",
-  "dislike": "",
+  "name": "Lucias",
+  "subtitle": "Santo das Bênçãos",
+  "description": "O Sumo Sacerdote de Lua e o sênior de Frey. A fé de Lucias é forte o bastante para suscitar a bênção de Lua. Itens abençoados por ele possuem o poder da Luz e se tornam armas eficazes contra demônios.",
+  "story": "Lucias era membro dos Cavaleiros Sagrados de Lua antes de despertar como o Santo das Bênçãos. Sob o comando de Ricardo, Lenda Viva, ele protegia Orvel e as cidades vizinhas dos Demônios. No entanto, estigmas começaram a aparecer em seu corpo quando ele tinha 19 anos, e por declaração de Lura, o cavaleiro sagrado se tornou o Santo das Bênçãos. Sua missão é viajar por todo o mundo e levar a luz de Lua àqueles que precisam. Ele cumpriu seus deveres, passeando pelo mundo para compartilhar bênçãos. Agora ele tem uma arma em sua mão novamente para derrotar o poder da escuridão que está ganhando força nos últimos 100 anos.",
+  "like": "Pratos feitos com maçãs, pescar, orações, pessoas prestativas e shows e performances misteriosos de mágica.",
+  "dislike": "Antipáticos, promessas não cumpridas, desprezo por vidas humanas.",
   "inn": {
-    "idle": "",
+    "idle": "Este lugar... Consigo sentir o poder da luz e o fluxo da harmonia.",
     "recruit": {
-      "greet": "",
+      "greet": "Uma saudação acolhedora para você. Espero que esteja sendo um dia abençoado.",
       "talk": [
-        "",
-        "",
-        ""
+        "Houve uma cerimônia de casamento. Ahhh, foi algo divino de se ver.",
+        "Você viu o Irmão Baudouin? Fiquei sabendo que ele estava muito bêbado ontem...",
+        "Consigo sentir todos os tipos de poderes aqui. Parece como o centro do mundo..."
       ],
-      "gift": ""
+      "gift": "Que a Luz lhe abençoe."
     },
     "affinity": {
-      "greet": "",
+      "greet": "É um prazer ter você de volta. Agradeça junto comigo antes da refeição.",
       "talk": [
-        "",
-        ""
+        "Você quer saber se há outros Santos além de mim, então? Hmm, eu não os conheci, mas, sim, há três deles.",
+        "Eu costumava ser um porta-bandeira quando era um Cavaleiro Sagrado. Quem diria que minha relíquia como Santo também seria uma bandeira? Hahaha."
       ],
-      "gift": ""
+      "gift": "É muito generoso da sua parte me dar um presente, mas devo admitir que eu não mereço tanto. Caso eu encontre alguém passando por necessidade, posso dar isso a eles?"
     },
     "relationship": {
-      "greet": "",
+      "greet": "Que as bênçãos de Lua lhe acompanhem.",
       "talk": [
-        "",
-        "",
-        ""
+        "Oh, a Estrela está aqui. Eles costumavam visitar minha cidade natal pelo menos uma vez por ano quando eu era jovem. Bom, será que devemos ir ver se o Escur ainda está com eles?",
+        "Às vezes as minhas lembranças falham. O meu passado, e as lembranças dos antigos Santos das Bênçãos...",
+        "Cavaleiro Sagrado, Santo... O meu título não muda o que eu preciso fazer. Meu trabalho é simplesmente ajudar aqueles que estão com dor e agoniados."
       ]
     }
   },
   "uw": {
-    "name": "",
+    "name": "Bênção de Luz, Benedicia",
     "description": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Quando a batalha começa, reduz em 10% o DAN F. recebido por todos os aliados por 30 seg. Aumenta em 100 a Vel. de ATQ do alvo por 30 seg.",
+      "Quando a batalha começa, reduz em 12% o DAN F. recebido por todos os aliados por 30 seg. Aumenta em 120 a Vel. de ATQ do alvo por 30 seg.",
+      "Quando a batalha começa, reduz em 14% o DAN F. recebido por todos os aliados por 30 seg. Aumenta em 140 a Vel. de ATQ do alvo por 30 seg.",
+      "Quando a batalha começa, reduz em 17% o DAN F. recebido por todos os aliados por 30 seg. Aumenta em 170 a Vel. de ATQ do alvo por 30 seg.",
+      "Quando a batalha começa, reduz em 21% o DAN F. recebido por todos os aliados por 30 seg. Aumenta em 210 a Vel. de ATQ do alvo por 30 seg.",
+      "Quando a batalha começa, reduz em 25% o DAN F. recebido por todos os aliados por 30 seg. Aumenta em 250 a Vel. de ATQ do alvo por 30 seg."
     ],
-    "story": ""
+    "story": "Uma bandeira abençoada que representa o Sol, a Lua e todo o céu. Ela contém o poder e os ensinos de quem a criou, Lua. O poder da luz se espalha quando ele balança a bandeira, tranquilizando seus aliados e derrotando os poderes da escuridão. Uma relíquia concedida a Lucias, que costumava ser um porta-bandeira dos Cavaleiros Sagrados de Lua."
   },
   "s1": {
-    "name": "",
-    "description": "",
+    "name": "Caminho das Bênçãos",
+    "description": "Cura 4 aliados com o PV mais baixo em {0} , e o conjurador recebe {2}% de DAN a menos por {1} seg.",
     "books": {
-      "0": "",
-      "1": "",
-      "2": ""
+      "0": "Aumenta a taxa de Recuperação em {0}%.",
+      "1": "Aumenta a taxa de Recuperação em {0}%.",
+      "2": "Aumenta a taxa de Recuperação em {0}%."
     },
-    "light": "",
-    "dark": ""
+    "light": "Aumenta a Taxa de Cura em 40%.",
+    "dark": "Recupera o Mana do alvo em 500.",
+    "ut": {
+      "name": "Livro de Bênçãos",
+      "description": [
+        "[Caminho das Bênçãos] Reduz o Custo de Mana em 1 e a Recarga em 12%.",
+        "[Caminho das Bênçãos] Reduz o Custo de Mana em 1 e a Recarga em 14%.",
+        "[Caminho das Bênçãos] Reduz o Custo de Mana em 1 e a Recarga em 17%.",
+        "[Caminho das Bênçãos] Reduz o Custo de Mana em 1 e a Recarga em 21%.",
+        "[Caminho das Bênçãos] Reduz o Custo de Mana em 1 e a Recarga em 25%.",
+        "[Caminho das Bênçãos] Reduz o Custo de Mana em 1 e a Recarga em 30%."
+      ],
+      "story": "A bíblia do infinito que uma linhagem de Sábios das Bênçãos costumavam usar para registrar suas obras. O título de um sábio é passado com as lembranças de seu antecessor, então não pareceria necessário que eles escrevessem alguma coisa. No entanto, o risco de lembranças acumuladas apagarem a identidade do sábio atual tornou necessária a escrita dessa bíblia."
+    }
   },
   "s2": {
-    "name": "",
-    "description": "",
+    "name": "Zona da Fé",
+    "description": "Revela a [Zona da Fé] no local do conjurador por {0} seg. Aumenta o ATQ dos aliados que estão na [Zona da Fé] em {1}. Os inimigos que estão na zona recebem {2} de DAN F. a cada segundo. Os inimigos atingidos são atordoados por {3} seg.Restaura os PV do alvo em {4} , durante o efeito do poder.Remove continuamente os efeitos negativos dos aliados.",
     "books": {
-      "0": "",
-      "1": "",
-      "2": ""
+      "0": "Aumenta a Recuperação e o DAN em {0}%.",
+      "1": "Aumenta a Recuperação e o DAN em {0}%.",
+      "2": "Aumenta a Recuperação e o DAN em {0}%."
     },
-    "light": "",
-    "dark": "",
+    "light": "Recupera o Mana dos aliados ao alcance em 200 por seg.",
+    "dark": "Remove continuamente os efeitos positivos de inimigos ao alcance.",
     "ut": {
-      "name": "",
+      "name": "Dado da Recordação",
       "description": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "[Zona da Fé] Reduz o Custo de Mana em 1 e reduz o Mana de inimigos ao alcance em 200 a cada segundo.",
+        "[Zona da Fé] Reduz o Custo de Mana em 1 e reduz o Mana de inimigos ao alcance em 240 a cada segundo.",
+        "[Zona da Fé] Reduz o Custo de Mana em 1 e reduz o Mana de inimigos ao alcance em 290 a cada segundo.",
+        "[Zona da Fé] Reduz o Custo de Mana em 1 e reduz o Mana de inimigos ao alcance em 350 a cada segundo.",
+        "[Zona da Fé] Reduz o Custo de Mana em 1 e reduz o Mana de inimigos ao alcance em 420 a cada segundo.",
+        "[Zona da Fé] Reduz o Custo de Mana em 1 e reduz o Mana de inimigos ao alcance em 500 a cada segundo."
       ],
-      "story": ""
+      "story": "Lucias tinha um amigo muito querido quando era jovem. Esse amigo era membro de uma trupe chamada de Estrelas. Ele tinha mãos muito ágeis apesar de ser jovem e costumava bater inúmeras carteiras de apostadores. No entanto, a trupe só visitava a cidade de Lucias uma vez por ano, então os dois amigos davam algo que apreciavam ao outro para que se lembrassem de sua amizade. Esse é o dado especial de truques feito pelo amigo de Lucias, Escur."
     }
   },
   "s3": {
-    "name": "",
-    "description": "",
+    "name": "Estigma",
+    "description": "Chance de ESQ.F aumenta em {1} , durante {0} segundos e o ATQ em {2}.Enquanto a habilidade durar, os ataques normais causam {3} de DAN F. adicional e fazem o alvo receber {5}% de DAN F. a mais por {4} seg.O efeito acaba quando o conjurador morre.",
     "books": {
-      "0": "",
-      "1": "",
-      "2": ""
+      "0": "Reforços de ATQ e DAN aumentam em {0}%.",
+      "1": "Reforços de ATQ e DAN aumentam em {0}%.",
+      "2": "Reforços de ATQ e DAN aumentam em {0}%."
     },
-    "light": "",
-    "dark": "",
+    "light": "Reduz a PREC dos inimigos atingidos em 150 por 5 segundos.",
+    "dark": "Concede Imunidade a CM enquanto durar a habilidade.",
     "ut": {
-      "name": "",
+      "name": "Ensino da Estrela da Manhã",
       "description": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "[Estigma] O efeito do Estigma não pode ser removido por habilidades que removem efeitos positivos. Reduz a Recarga em 12%.",
+        "[Estigma] O efeito do Estigma não pode ser removido por habilidades que removem efeitos positivos. Reduz a Recarga em 14%.",
+        "[Estigma] O efeito do Estigma não pode ser removido por habilidades que removem efeitos positivos. Reduz a Recarga em 17%.",
+        "[Estigma] O efeito do Estigma não pode ser removido por habilidades que removem efeitos positivos. Reduz a Recarga em 21%.",
+        "[Estigma] O efeito do Estigma não pode ser removido por habilidades que removem efeitos positivos. Reduz a Recarga em 25%.",
+        "[Estigma] O efeito do Estigma não pode ser removido por habilidades que removem efeitos positivos. Reduz a Recarga em 30%."
       ],
-      "story": ""
+      "story": "Materiais de pesquisa sobre o estigma do Santo das Bênçãos. Embora Lucias tenha lembranças dos santos, eles não sabiam tudo. Os padres de Lua deixaram esse documento após investigar os segredos por trás do estigma, mas foi impossível para eles desmascarar tudo."
     }
   },
   "s4": {
-    "name": "",
-    "description": "",
+    "name": "Santo Sacrifício",
+    "description": "Cura todos os aliados, exceto o conjurador, em {0} quando o conjurador morre.",
     "books": {
-      "0": "",
-      "1": "",
-      "2": ""
+      "0": "Aumenta a taxa de Recuperação em {0}%.",
+      "1": "Aumenta a taxa de Recuperação em {0}%.",
+      "2": "Aumenta a taxa de Recuperação em {0}%."
     },
-    "light": "",
-    "dark": ""
+    "light": "Ao ativar, concede imunidade a DAN e CM a todos os aliados, exceto ao conjurador, por 1.5 seg.",
+    "dark": "Ao ativar, remove todos os efeitos negativos de todos os aliados, exceto do conjurador."
   },
   "t5": {
-    "light": "",
-    "dark": ""
+    "light": "ATQ, DEF, PV+15% / Resist. CM +100",
+    "dark": "Aumenta em 300% a própria Recuperação de Mana/Seg. por 3 seg. ao lançar uma habilidade ativa."
   }
 }

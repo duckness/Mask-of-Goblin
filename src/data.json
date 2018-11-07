@@ -6247,7 +6247,7 @@
         "type": "middle",
         "weight": 100
       },
-      "mpatk": 375,
+      "mpatk": 450,
       "mpsec": 60,
       "auto": {
         "range": 4000,
@@ -6260,47 +6260,90 @@
         "duration": 1.8
       },
       "s1": {
-        "description": null,
+        "description": [
+          "???",
+          7,
+          "???"
+        ],
         "mana": 2,
-        "cooldown": 8,
+        "cooldown": 10,
         "books": [
-          null,
-          null,
-          null
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
         ],
         "dark": null,
         "light": null
       },
       "s2": {
-        "description": null,
-        "mana": 4,
+        "description": [
+          4,
+          "???",
+          "???",
+          "???",
+          "???"
+        ],
+        "mana": 5,
         "cooldown": 15,
         "books": [
-          null,
-          null,
-          null
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
         ],
         "dark": null,
         "light": null
       },
       "s3": {
-        "description": null,
+        "description": [
+          15,
+          250,
+          "???",
+          "???",
+          5,
+          25
+        ],
         "mana": 3,
-        "cooldown": 20,
+        "cooldown": 30,
         "books": [
-          null,
-          null,
-          null
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
         ],
         "dark": null,
         "light": null
       },
       "s4": {
-        "description": null,
+        "description": [
+          "???"
+        ],
         "books": [
-          null,
-          null,
-          null
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
         ],
         "dark": null,
         "light": null
@@ -6316,7 +6359,7 @@
       "type": "magical",
       "position": {
         "type": "rear",
-        "weight": 100
+        "weight": 300
       },
       "mpatk": 475,
       "mpsec": 60,
@@ -6331,47 +6374,90 @@
         "duration": 1.9
       },
       "s1": {
-        "description": null,
+        "description": [
+          "???",
+          3,
+          "???"
+        ],
         "mana": 3,
-        "cooldown": 14,
+        "cooldown": 19,
         "books": [
-          null,
-          null,
-          null
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
         ],
         "dark": null,
         "light": null
       },
       "s2": {
-        "description": null,
-        "mana": 2,
-        "cooldown": 18,
+        "description": [
+          "???",
+          1
+        ],
+        "mana": 3,
+        "cooldown": 16,
         "books": [
-          null,
-          null,
-          null
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
         ],
         "dark": null,
         "light": null
       },
       "s3": {
-        "description": null,
+        "description": [
+          "???",
+          2.5,
+          "???",
+          30
+        ],
         "mana": 4,
         "cooldown": 25,
         "books": [
-          null,
-          null,
-          null
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
         ],
         "dark": null,
         "light": null
       },
       "s4": {
-        "description": null,
+        "description": [
+          "???",
+          100,
+          100,
+          50,
+          30,
+          20
+        ],
         "books": [
-          null,
-          null,
-          null
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
         ],
         "dark": null,
         "light": null
@@ -7895,6 +7981,68 @@
           [
             25
           ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
+    },
+    "95": {
+      "index": 95,
+      "class": "warrior",
+      "type": "physical",
+      "position": {
+        "type": "forward",
+        "weight": 600
+      },
+      "mpatk": 285,
+      "mpsec": 60,
+      "auto": null,
+      "s1": {
+        "description": null,
+        "mana": null,
+        "cooldown": null,
+        "books": [
+          null,
+          null,
+          null
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": null,
+        "mana": null,
+        "cooldown": null,
+        "books": [
+          null,
+          null,
+          null
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": null,
+        "mana": null,
+        "cooldown": null,
+        "books": [
+          null,
+          null,
+          null
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": null,
+        "books": [
+          null,
+          null,
+          null
         ],
         "dark": null,
         "light": null

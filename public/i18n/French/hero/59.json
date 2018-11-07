@@ -1,120 +1,132 @@
 {
-  "name": "",
-  "subtitle": "",
-  "description": "",
-  "story": "",
-  "like": "",
-  "dislike": "",
+  "name": "Lucias",
+  "subtitle": "Saint béni",
+  "description": "Grand prêtre de Lua et aîné de Frey. La foi de Lucias est si forte qu'elle peut invoquer la bénédiction de Lua. Les objets qu'il bénit reçoivent le pouvoir de la lumière et deviennent des armes redoutables contre les démons.",
+  "story": "Avant d'être élevé au rang de Saint, Lucias faisait partie des Chevaliers sacrés de Lua. Aux ordres de Ricardo, la légende vivante, il protégeait Orvel et ses environs contre les démons. À l'âge de 19 ans, son corps se mit à se couvrir de stigmates et suite à l'appel de Lua, ce Chevalier sacré devint Saint béni. Sa mission consiste désormais à parcourir le monde et apporter la lumière de Lua à ceux qui souffrent. Fidèle à sa tâche, il donne sa bénédiction aux quatre coins du globe. Toutefois, depuis les cent dernières années, les ténèbres ont gagné du terrain, et cela l'a poussé à reprendre les armes.",
+  "like": "Les plats à la pomme, la pêche, la prière, aider son prochain, les spectacles de magie.",
+  "dislike": "Les gens malpolis, les promesses non tenues, le mépris de la vie humaine.",
   "inn": {
-    "idle": "",
+    "idle": "Cet endroit... Il respire le pouvoir de la lumière et le flot de l'harmonie.",
     "recruit": {
-      "greet": "",
+      "greet": "Chaleureuses salutations à vous. Que votre journée soit bénie.",
       "talk": [
-        "",
-        "",
-        ""
+        "J'ai assisté à un mariage. Quelle cérémonie divine !",
+        "Avez-vous vu frère Baudouin ? Il paraît qu'il a beaucoup trop bu hier soir...",
+        "Je ressens tout un tas d'énergies, par ici. J'ai l'impression de me tenir au centre du monde..."
       ],
-      "gift": ""
+      "gift": "Que la lumière vous bénisse."
     },
     "affinity": {
-      "greet": "",
+      "greet": "Heureux de vous revoir. Assistez-moi pour le bénédicité, avant le repas.",
       "talk": [
-        "",
-        ""
+        "Vous voulez savoir s'il existe d'autres Saints que moi. Hum, je ne les ai jamais rencontrés, mais je crois qu'ils sont trois.",
+        "Lorsque je faisais partie des Chevaliers sacrés, j'étais porte-drapeau. Et mon emblème de Saint est aussi un drapeau. Qui l'eût cru ? Ah ah ah."
       ],
-      "gift": ""
+      "gift": "Vous êtes bien aimable de m'offrir un cadeau, mais je n'en mérite pas tant. Si je croise une personne dans le besoin, suis-je autorisé à le lui donner ?"
     },
     "relationship": {
-      "greet": "",
+      "greet": "Que la bénédiction de Lua soit avec vous.",
       "talk": [
-        "",
-        "",
-        ""
+        "Oh, Stardust est là. Cette bande se rendait dans ma ville natale une fois par an. Devrais-je aller voir si Escur en fait toujours partie ?",
+        "Ma mémoire me joue parfois des tours. J'ai du mal à distinguer mon passé des souvenirs des anciens Saints bénis...",
+        "Chevalier sacré, Saint... Mon titre importe peu, je dois aider ceux qui souffrent."
       ]
     }
   },
   "uw": {
-    "name": "",
+    "name": "Délicatesse de la lumière, Benedicia",
     "description": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "Au début du combat, réduit de 10 % les DEG P subis par tous les alliés pendant 30 sec. Augmente la Vit ATQ de la cible de 100 points pendant 30 sec.",
+      "Au début du combat, réduit de 12 % les DEG P subis par tous les alliés pendant 30 sec. Augmente la Vit ATQ de la cible de 120 points pendant 30 sec.",
+      "Au début du combat, réduit de 14 % les DEG P subis par tous les alliés pendant 30 sec. Augmente la Vit ATQ de la cible de 140 points pendant 30 sec.",
+      "Au début du combat, réduit de 17 % les DEG P subis par tous les alliés pendant 30 sec. Augmente la Vit ATQ de la cible de 170 points pendant 30 sec.",
+      "Au début du combat, réduit de 21 % les DEG P subis par tous les alliés pendant 30 sec. Augmente la Vit ATQ de la cible de 210 points pendant 30 sec.",
+      "Au début du combat, réduit de 25 % les DEG P subis par tous les alliés pendant 30 sec. Augmente la Vit ATQ de la cible de 250 points pendant 30 sec."
     ],
-    "story": ""
+    "story": "Drapeau béni représentant le soleil, la lune et tout le ciel. Il renferme les enseignements et le pouvoir de Lua, la créatrice. Lorsque Lucias agite ce drapeau, il répand le pouvoir de la lumière, apaisant l'esprit de ses alliés en repoussant les ténèbres. Cet objet saint fut remis à Lucias, autrefois porte-drapeau des Chevaliers sacrés de Lua."
   },
   "s1": {
-    "name": "",
-    "description": "",
+    "name": "Voie des bénédictions",
+    "description": "Restaure {0}  PV aux 4 alliés aux PV les plus bas et les DEG reçus par le lanceur sont réduits de {2}  % pendant {1}  sec.",
     "books": {
-      "0": "",
-      "1": "",
-      "2": ""
+      "0": "Taux de Récupération augmenté de {0}%.",
+      "1": "Taux de Récupération augmenté de {0}%.",
+      "2": "Taux de Récupération augmenté de {0}%."
     },
-    "light": "",
-    "dark": ""
+    "light": "Augmente la récupération de 40 %.",
+    "dark": "Restaure le mana de la cible de 500 points.",
+    "ut": {
+      "name": "Livre des bénédictions",
+      "description": [
+        "[Voie des bénédictions] Réduit le coût en mana de 1 point et le temps de recharge de 12 %.",
+        "[Voie des bénédictions] Réduit le coût en mana de 1 point et le temps de recharge de 14 %.",
+        "[Voie des bénédictions] Réduit le coût en mana de 1 point et le temps de recharge de 17 %.",
+        "[Voie des bénédictions] Réduit le coût en mana de 1 point et le temps de recharge de 21 %.",
+        "[Voie des bénédictions] Réduit le coût en mana de 1 point et le temps de recharge de 25 %.",
+        "[Voie des bénédictions] Réduit le coût en mana de 1 point et le temps de recharge de 30 %."
+      ],
+      "story": "Une bible de l'infini dans laquelle une famille de sages des bénédictions a consigné son travail. Le titre de « sage » étant transmis avec les souvenirs de son prédécesseur, il n'y a apparemment aucune raison pour qu'un sage ait besoin de consigner quoi que ce soit. Toutefois, l'accumulation des souvenirs ayant tendance à prendre le pas sur l'identité du sage qui les reçoit, un tel ouvrage s'avère finalement nécessaire."
+    }
   },
   "s2": {
-    "name": "",
-    "description": "",
+    "name": "Zone de foi",
+    "description": "Déploie une [Zone de foi] à l'emplacement du lanceur pendant {0}  sec. Dans la [Zone de foi], l'ATQ des alliés augmente de {1}  points, tandis que les ennemis subissent {2}  points de DEG P chaque seconde. Les ennemis touchés sont étourdis pendant {3}  sec.Restaure les PV à la cible de {4} pour la durée de la compétence.Dissipe en continu les effets négatifs qui pèsent sur les alliés.",
     "books": {
-      "0": "",
-      "1": "",
-      "2": ""
+      "0": "Augmente la Récupération et les DEG de {0}%.",
+      "1": "Augmente la Récupération et les DEG de {0}%.",
+      "2": "Augmente la Récupération et les DEG de {0}%."
     },
-    "light": "",
-    "dark": "",
+    "light": "Restaure 200 points de mana par sec aux alliés à portée.",
+    "dark": "Dissipe en continu les effets positifs dont bénéficient les ennemis à portée.",
     "ut": {
-      "name": "",
+      "name": "Dé du souvenir",
       "description": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "[Zone de foi] Réduit le coût en mana de 1 point et réduit le mana des ennemis à portée de 200 points par sec.",
+        "[Zone de foi] Réduit le coût en mana de 1 point et réduit le mana des ennemis à portée de 240 points par sec.",
+        "[Zone de foi] Réduit le coût en mana de 1 point et réduit le mana des ennemis à portée de 290 points par sec.",
+        "[Zone de foi] Réduit le coût en mana de 1 point et réduit le mana des ennemis à portée de 350 points par sec.",
+        "[Zone de foi] Réduit le coût en mana de 1 point et réduit le mana des ennemis à portée de 420 points par sec.",
+        "[Zone de foi] Réduit le coût en mana de 1 point et réduit le mana des ennemis à portée de 500 points par sec."
       ],
-      "story": ""
+      "story": "Lorsqu'il était plus jeune, Lucias avait un ami très cher qui faisait partie d'une bande appelée Stardust. Ses mains étaient très adroites malgré son jeune âge, et il s'en servait pour vider les poches des parieurs. Malheureusement, Stardust ne se rendait dans la ville de Lucias qu'une seule fois par an, ce qui amena les deux amis à s'échanger quelque chose de précieux à leurs yeux pour entretenir leur amitié. Ce dé pipé fut fabriqué par Escur, l'ami de Lucias."
     }
   },
   "s3": {
-    "name": "",
-    "description": "",
+    "name": "Stigmates",
+    "description": "Les Chances de Parade P. augmentent de {1} pendant {0} sec et l'ATQ augmente de {2}.Pendant la durée de la compétence, les attaques normales infligent {3}  points de DEG P supplémentaires et la cible subit {5}  % de DEG P supplémentaires pendant {4}  sec.L'effet s'estompe lorsque le lanceur meurt.",
     "books": {
-      "0": "",
-      "1": "",
-      "2": ""
+      "0": "Les boosts d'ATQ et de DEG sont augmentés de {0}%.",
+      "1": "Les boosts d'ATQ et de DEG sont augmentés de {0}%.",
+      "2": "Les boosts d'ATQ et de DEG sont augmentés de {0}%."
     },
-    "light": "",
-    "dark": "",
+    "light": "Réduit la Précision des ennemis touchés de 150 pendant 5 sec.",
+    "dark": "Confère l'immunité contre les contrôles pendant la durée de la compétence.",
     "ut": {
-      "name": "",
+      "name": "Enseignements de l'étoile du Berger",
       "description": [
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "[Stigmates] L'effet de Stigmates ne peut pas être dissipé par une compétence qui retire les effets positifs. Réduit le temps de recharge de 12 %.",
+        "[Stigmates] L'effet de Stigmates ne peut pas être dissipé par une compétence qui retire les effets positifs. Réduit le temps de recharge de 14 %.",
+        "[Stigmates] L'effet de Stigmates ne peut pas être dissipé par une compétence qui retire les effets positifs. Réduit le temps de recharge de 17 %.",
+        "[Stigmates] L'effet de Stigmates ne peut pas être dissipé par une compétence qui retire les effets positifs. Réduit le temps de recharge de 21 %.",
+        "[Stigmates] L'effet de Stigmates ne peut pas être dissipé par une compétence qui retire les effets positifs. Réduit le temps de recharge de 25 %.",
+        "[Stigmates] L'effet de Stigmates ne peut pas être dissipé par une compétence qui retire les effets positifs. Réduit le temps de recharge de 30 %."
       ],
-      "story": ""
+      "story": "Le résultat de recherches concernant les stigmates du Saint béni. Même si Lucias possède les souvenirs des saints, ceux-ci ne savent pas tout. Les prêtres de Lua produisirent ce document après avoir étudié les secrets des stigmates, mais ils ne parvinrent pas à tout découvrir."
     }
   },
   "s4": {
-    "name": "",
-    "description": "",
+    "name": "Saint sacrifice",
+    "description": "Restaure {0}  PV à tous les alliés sauf le lanceur lorsque celui-ci meurt.",
     "books": {
-      "0": "",
-      "1": "",
-      "2": ""
+      "0": "Taux de Récupération augmenté de {0}%.",
+      "1": "Taux de Récupération augmenté de {0}%.",
+      "2": "Taux de Récupération augmenté de {0}%."
     },
-    "light": "",
-    "dark": ""
+    "light": "Confère l'immunité contre les DEG et les contrôles à tous les alliés sauf le lanceur pendant 1.5 sec.",
+    "dark": "Dissipe tous les effets négatifs qui pèsent sur tous les alliés sauf le lanceur."
   },
   "t5": {
-    "light": "",
-    "dark": ""
+    "light": "ATQ, DEF, PV +15% / Résist. Contrôles +100",
+    "dark": "Augmente la récupération PM/sec de 300 % pendant 3 sec au lancement d'une compétence active."
   }
 }

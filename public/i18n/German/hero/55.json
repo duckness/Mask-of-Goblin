@@ -53,8 +53,20 @@
       "1": "Erhöht Schaden um {0}%.",
       "2": "Erhöht Schaden um {0}%."
     },
-    "light": "[Mysterious Sword - Falling Petals] - Mana cost is reduced by 1. [Mysterious Sword - Blossom] - Hit enemies' heal rate is reduced by 50% for 5 sec.",
-    "dark": "[Mysterious Sword - Falling Petals] - Target takes 25% increased M.DMG for 10 sec. [Mysterious Sword - Blossom] - Mana cost is increased by 1, and Ignores enemy's DEF.",
+    "light": "[Mysteriöses Schwert – gefallene Blütenblätter] – Verringert die Manakosten um 1. [Mysteriöses Schwert – Blüte] – Verringert die Heilungsrate von getroffenen Feinden für 5 Sek. um 50 %.",
+    "dark": "[Mysteriöses Schwert – gefallene Blütenblätter] – Ziel erleidet für 10 Sek. um 25 % erhöhten M.Schaden. [Mysteriöses Schwert – Blüte] – Erhöht die Manakosten um 1 und ignoriert die VERT des Feindes.",
+    "ut": {
+      "name": "Wetzstein des Dämons",
+      "description": [
+        "[Mysteriöses Schwert – gefallene Blütenblätter] Erhöht den Schaden um 50 % und stellt bei einem kritischen Treffer 200 Mana wieder her. [Mysteriöses Schwert – Blüte] Erhöht den Schaden um 50 % und verringert den Cooldown von [Mysteriöses Schwert – gefallene Blütenblätter] bei einem kritischen Treffer um 0,8 Sek.",
+        "[Mysteriöses Schwert – gefallene Blütenblätter] Erhöht den Schaden um 50 % und stellt bei einem kritischen Treffer 240 Mana wieder her. [Mysteriöses Schwert – Blüte] Erhöht den Schaden um 50 % und verringert den Cooldown von [Mysteriöses Schwert – gefallene Blütenblätter] bei einem kritischen Treffer um 1 Sek.",
+        "[Mysteriöses Schwert – gefallene Blütenblätter] Erhöht den Schaden um 50 % und stellt bei einem kritischen Treffer 290 Mana wieder her. [Mysteriöses Schwert – Blüte] Erhöht den Schaden um 50 % und verringert den Cooldown von [Mysteriöses Schwert – gefallene Blütenblätter] bei einem kritischen Treffer um 1,2 Sek.",
+        "[Mysteriöses Schwert – gefallene Blütenblätter] Erhöht den Schaden um 50 % und stellt bei einem kritischen Treffer 350 Mana wieder her. [Mysteriöses Schwert – Blüte] Erhöht den Schaden um 50 % und verringert den Cooldown von [Mysteriöses Schwert – gefallene Blütenblätter] bei einem kritischen Treffer um 1,4 Sek.",
+        "[Mysteriöses Schwert – gefallene Blütenblätter] Erhöht den Schaden um 50 % und stellt bei einem kritischen Treffer 420 Mana wieder her. [Mysteriöses Schwert – Blüte] Erhöht den Schaden um 50 % und verringert den Cooldown von [Mysteriöses Schwert – gefallene Blütenblätter] bei einem kritischen Treffer um 1,7 Sek.",
+        "[Mysteriöses Schwert – gefallene Blütenblätter] Erhöht den Schaden um 50 % und stellt bei einem kritischen Treffer 500 Mana wieder her. [Mysteriöses Schwert – Blüte] Erhöht den Schaden um 50 % und verringert den Cooldown von [Mysteriöses Schwert – gefallene Blütenblätter] bei einem kritischen Treffer um 2 Sek."
+      ],
+      "story": "Ein unheilvoller Wetzstein, in dem die Seele eines Dämons eingeschlossen ist. Schwerter, die mit dem Pakt der Knechtschaft belegt sind, müssen mit diesem Wetzstein geschärft werden, da gewöhnlich Wetzsteine bei ihnen nicht funktionieren. Zusammen mit „Erhellendes Kerzenlicht“ wird Elisons Widerstand gegen Dämonen auf das Maximum erhöht."
+    },
     "linked": {
       "name": "Mysteriöses Schwert – Blüte",
       "description": "Führt einen vertikalen Schlag nach vorne aus und verursacht {0} M.Schaden am Ziel und dessen unmittelbarer Umgebung."
@@ -62,7 +74,7 @@
   },
   "s2": {
     "name": "Blutspritzerklinge",
-    "description": "Rapidly charges forward to deal {0} M.DMG and inflicts irremovable Original Sin of Blood on enemies for {1} sec. Enemies under Original Sin of Blood have their ATK Spd reduced by {2}. Shortly afterward, attacks enemies under Original Sin of Blood 2 times, and deals additional {3} M.DMG, and if the target is not a hero, deals additional {4} DEF Ignoring M.DMG.",
+    "description": "Stürmt blitzschnell nach vorne, verursacht {0} M.Schaden und belegt Feinde für {1} Sek. mit dem Effekt Ursünde des Blutes, der nicht entfernt werden kann. Feinde mit dem Effekt Ursünde des Blutes haben eine verringerte ANG-Geschwindigkeit von {2}. Greift Feinde mit dem Effekt Ursünde des Blutes kurz danach ein zweites Mal an und verursacht {3} M.Schaden. Zusätzlich dazu erleiden Feinde, die keine Helden sind, {4} M.Schaden, der die VERT ignoriert.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -85,7 +97,7 @@
   },
   "s3": {
     "name": "Klinge des roten Mondes",
-    "description": "Brandishes a moon-bloodying sword, dealing {0} M.DMG to enemies in a wide range, and additional {1} M.DMG on non-Hero enemies. When the moon is ripe, gains Moonlight for {2} sec, and when cast at this state, deals {3} M.DMG to enemies and reduces their Heal Rate by {4}%. If the target is not a hero, deals additional {5} M.DMG.The caster is not affected by ATK Spd related effects while casting.",
+    "description": "Schwingt eine Mondblutklinge und verursacht in einem weiten Umkreis {0} M.Schaden an Feinden und zusätzlich {1} M.Schaden an Feinden, die keine Helden sind. Wenn der Mond voll ist, wird für {2} Sek. Mondlicht gewährt, das {3} M.Schaden verursacht und die Heilungsrate um {4} verringert, wenn es gewirkt wird. Feinde, die keine Helden sind, erleiden zusätzlich {5} M.Schaden. Der Beschwörer ist beim Wirken nicht von Effekten betroffen, die die ANG-Geschwindigkeit beeinflussen.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",

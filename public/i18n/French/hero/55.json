@@ -53,8 +53,20 @@
       "1": "DEG augmentés de {0}%.",
       "2": "DEG augmentés de {0}%."
     },
-    "light": "[Mysterious Sword - Falling Petals] - Mana cost is reduced by 1. [Mysterious Sword - Blossom] - Hit enemies' heal rate is reduced by 50% for 5 sec.",
-    "dark": "[Mysterious Sword - Falling Petals] - Target takes 25% increased M.DMG for 10 sec. [Mysterious Sword - Blossom] - Mana cost is increased by 1, and Ignores enemy's DEF.",
+    "light": "[Épée mystérieuse - Pétales tombants] - Réduit le coût en mana de 1 point. [Épée mystérieuse - Fleur] - Réduit la récupération de l'ennemi de 50 % pendant 5 sec.",
+    "dark": "[Épée mystérieuse - Pétales tombants] - La cible subit 25 % de DEG M. supplémentaires pendant 10 sec. [Épée mystérieuse - Fleur] - Augmente le coût en mana de 1 point et passe outre la DEF de l'ennemi.",
+    "ut": {
+      "name": "Pierre à aiguiser du démon",
+      "description": [
+        "[Épée mystérieuse - Pétales tombants] Augmente les DEG de 50 % et restaure 200 points de mana à chaque coup critique. [Épée mystérieuse - Fleur] Augmente les DEG de 50 % et réduit le temps de recharge de [Épée mystérieuse - Pétales tombants] de 0,8 sec à chaque coup critique.",
+        "[Épée mystérieuse - Pétales tombants] Augmente les DEG de 50 % et restaure 240 points de mana à chaque coup critique. [Épée mystérieuse - Fleur] Augmente les DEG de 50 % et réduit le temps de recharge de [Épée mystérieuse - Pétales tombants] de 1 sec à chaque coup critique.",
+        "[Épée mystérieuse - Pétales tombants] Augmente les DEG de 50 % et restaure 290 points de mana à chaque coup critique. [Épée mystérieuse - Fleur] Augmente les DEG de 50 % et réduit le temps de recharge de [Épée mystérieuse - Pétales tombants] de 1,2 sec à chaque coup critique.",
+        "[Épée mystérieuse - Pétales tombants] Augmente les DEG de 50 % et restaure 350 points de mana à chaque coup critique. [Épée mystérieuse - Fleur] Augmente les DEG de 50 % et réduit le temps de recharge de [Épée mystérieuse - Pétales tombants] de 1,4 sec à chaque coup critique.",
+        "[Épée mystérieuse - Pétales tombants] Augmente les DEG de 50 % et restaure 420 points de mana à chaque coup critique. [Épée mystérieuse - Fleur] Augmente les DEG de 50 % et réduit le temps de recharge de [Épée mystérieuse - Pétales tombants] de 1,7 sec à chaque coup critique.",
+        "[Épée mystérieuse - Pétales tombants] Augmente les DEG de 50 % et restaure 500 points de mana à chaque coup critique. [Épée mystérieuse - Fleur] Augmente les DEG de 50 % et réduit le temps de recharge de [Épée mystérieuse - Pétales tombants] de 2 sec à chaque coup critique."
+      ],
+      "story": "Cette pierre à aiguiser menaçante est censée renfermer l'âme d'un démon. Les épées liées par un pacte de servitude doivent être affûtées avec cette pierre à aiguiser, car aucune autre ne fonctionnerait. Combinée avec Bougie purifiante, elle décuple la résistance d'Elsion contre les démons."
+    },
     "linked": {
       "name": "Épée mystérieuse - Fleur",
       "description": "Assène une entaille verticale vers l'avant et inflige {0}  points de DEG M à la cible ainsi que dans une petite zone autour d'elle."
@@ -62,7 +74,7 @@
   },
   "s2": {
     "name": "Lame d'effusion de sang",
-    "description": "Rapidly charges forward to deal {0} M.DMG and inflicts irremovable Original Sin of Blood on enemies for {1} sec. Enemies under Original Sin of Blood have their ATK Spd reduced by {2}. Shortly afterward, attacks enemies under Original Sin of Blood 2 times, and deals additional {3} M.DMG, and if the target is not a hero, deals additional {4} DEF Ignoring M.DMG.",
+    "description": "Fonce rapidement vers l'avant pour infliger {0}  points de DEG M ainsi que Péché originel du sang (inamovible) pendant {1}  sec. La Vit ATQ des ennemis sous le coup de Péché originel du sang est réduite de {2}  points. Peu après, attaque deux fois les ennemis sous le coup de Péché originel du sang pour leur infliger {3}  points de DEG M supplémentaires ainsi que {4}  points supplémentaires de DEG M ignorant la DEF aux ennemis non-héros.",
     "books": {
       "0": "DEG augmentés de {0}%.",
       "1": "DEG augmentés de {0}%.",
@@ -85,7 +97,7 @@
   },
   "s3": {
     "name": "Lame de la lune rouge",
-    "description": "Brandishes a moon-bloodying sword, dealing {0} M.DMG to enemies in a wide range, and additional {1} M.DMG on non-Hero enemies. When the moon is ripe, gains Moonlight for {2} sec, and when cast at this state, deals {3} M.DMG to enemies and reduces their Heal Rate by {4}%. If the target is not a hero, deals additional {5} M.DMG.The caster is not affected by ATK Spd related effects while casting.",
+    "description": "Vous agitez une épée de lune sanglante, ce qui inflige {0}  points de DEG M aux ennemis dans une vaste zone, ainsi que {1}  points de DEG M supplémentaires aux ennemis non-héros. Lorsque la lune est pleine, vous bénéficiez de Clair de lune pendant {2}  sec, ce qui inflige une fois déclenché {3}  points de DEG M et réduit la récupération de {4}  points. Les ennemis non-héros subissent {5}  points de DEG M supplémentaires. Pendant son incantation, le lanceur est immunisé contre les effets sur la Vit ATQ.",
     "books": {
       "0": "DEG augmentés de {0}%.",
       "1": "DEG augmentés de {0}%.",

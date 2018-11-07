@@ -53,8 +53,20 @@
       "1": "Daño Aumenta en {0}%.",
       "2": "Daño Aumenta en {0}%."
     },
-    "light": "[Mysterious Sword - Falling Petals] - Mana cost is reduced by 1. [Mysterious Sword - Blossom] - Hit enemies' heal rate is reduced by 50% for 5 sec.",
-    "dark": "[Mysterious Sword - Falling Petals] - Target takes 25% increased M.DMG for 10 sec. [Mysterious Sword - Blossom] - Mana cost is increased by 1, and Ignores enemy's DEF.",
+    "light": "[Espada misteriosa - Pétalos que caen] - Reduce Costo de Mana en 1. [Espada misteriosa - Flor] - Reduce la tasa de recuperación de los enemigos golpeados en 50 % durante 5 segundos.",
+    "dark": "[Espada misteriosa - Pétalos que caen] - El objetivo recibe un 25 % de Daño mágico aumentado durante 10 segundos. [Espada misteriosa - Flor] - Aumenta el Costo de Mana en 1 e ignora la defensa de los enemigos.",
+    "ut": {
+      "name": "Piedra de afilar de demonio",
+      "description": [
+        "[Espada misteriosa - Pétalos que caen] Aumenta el daño en un 50 % y recupera Mana en 200 con el Golpe crítico. [Espada misteriosa - Flor] Aumenta el daño en un 50 % y reduce el tiempo de reutilización de [Espada misteriosa - Pétalos que caen] en 0,8 segundos con el Golpe crítico.",
+        "[Espada misteriosa - Pétalos que caen] Aumenta el daño en un 50 % y recupera Mana en 240 con el Golpe crítico. [Espada misteriosa - Flor] Aumenta el daño en un 50 % y reduce el tiempo de reutilización de [Espada misteriosa - Pétalos que caen] en 1 segundos con el Golpe crítico.",
+        "[Espada misteriosa - Pétalos que caen] Aumenta el daño en un 50 % y recupera Mana en 290 con el Golpe crítico. [Espada misteriosa - Flor] Aumenta el daño en un 50 % y reduce el tiempo de reutilización de [Espada misteriosa - Pétalos que caen] en 1,2 segundos con el Golpe crítico.",
+        "[Espada misteriosa - Pétalos que caen] Aumenta el daño en un 50 % y recupera Mana en 350 con el Golpe crítico. [Espada misteriosa - Flor] Aumenta el daño en un 50 % y reduce el tiempo de reutilización de [Espada misteriosa - Pétalos que caen] en 1,4 segundos con el Golpe crítico.",
+        "[Espada misteriosa - Pétalos que caen] Aumenta el daño en un 50 % y recupera Mana en 420 con el Golpe crítico. [Espada misteriosa - Flor] Aumenta el daño en un 50 % y reduce el tiempo de reutilización de [Espada misteriosa - Pétalos que caen] en 1,7 segundos con el Golpe crítico.",
+        "[Espada misteriosa - Pétalos que caen] Aumenta el daño en un 50 % y recupera Mana en 500 con el Golpe crítico. [Espada misteriosa - Flor] Aumenta el daño en un 50 % y reduce el tiempo de reutilización de [Espada misteriosa - Pétalos que caen] en 2 segundos con el Golpe crítico."
+      ],
+      "story": "Una piedra de afilar ominosa que contiene el alma de un demonio. Las espadas con pactos de servicio deben afilarse con esta piedra, ya que las piedras comunes no sirven para afilarlas. Si se usa con Vela de la purificación, se maximiza la resistencia de Elsion contra los demonios."
+    },
     "linked": {
       "name": "Espada misteriosa - Flor",
       "description": "Realiza un corte vertical en el frente e inflige {0} de Daño mágico al objetivo y al área que lo rodea."
@@ -62,7 +74,7 @@
   },
   "s2": {
     "name": "Ráfaga de sangre",
-    "description": "Rapidly charges forward to deal {0} M.DMG and inflicts irremovable Original Sin of Blood on enemies for {1} sec. Enemies under Original Sin of Blood have their ATK Spd reduced by {2}. Shortly afterward, attacks enemies under Original Sin of Blood 2 times, and deals additional {3} M.DMG, and if the target is not a hero, deals additional {4} DEF Ignoring M.DMG.",
+    "description": "Embiste hacia adelante rápidamente para causar {0} de Daño mágico e inflige el efecto Pecado original de la sangre, que no se puede eliminar, a los enemigos durante {1} segundos. A los enemigos bajo el efecto Pecado original de la sangre se les reduce la Velocidad de ataque en {2}. Poco después, ataca a los enemigos bajo Pecado original de la sangre dos veces para infligir {3} Daño mágico adicional y {4} de defensa adicional ignorando el daño mágico a los objetivos que no son héroes.",
     "books": {
       "0": "Daño Aumenta en {0}%.",
       "1": "Daño Aumenta en {0}%.",
@@ -85,7 +97,7 @@
   },
   "s3": {
     "name": "Espada de la luna roja",
-    "description": "Brandishes a moon-bloodying sword, dealing {0} M.DMG to enemies in a wide range, and additional {1} M.DMG on non-Hero enemies. When the moon is ripe, gains Moonlight for {2} sec, and when cast at this state, deals {3} M.DMG to enemies and reduces their Heal Rate by {4}%. If the target is not a hero, deals additional {5} M.DMG.The caster is not affected by ATK Spd related effects while casting.",
+    "description": "Blande una espada que ensangrienta la luna y causa {0} de Daño mágico a los enemigos en un rango amplio y {1} de Daño mágico adicional a los enemigos que no son héroes. Cuando es luna llena, gana el efecto Luz de luna durante {2} segundos, el cual, cuando se lanza, causa {3} de Daño mágico y reduce Tasa de recuperación {4}. Los enemigos que no son héroes reciben {5} de Daño mágico adicional. El lanzador no recibe los efectos relacionados con la Velocidad de ataque mientras lanza la habilidad.",
     "books": {
       "0": "Daño Aumenta en {0}%.",
       "1": "Daño Aumenta en {0}%.",

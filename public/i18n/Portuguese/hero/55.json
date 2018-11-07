@@ -53,8 +53,20 @@
       "1": "DAN aumenta em {0}%.",
       "2": "DAN aumenta em {0}%."
     },
-    "light": "[Mysterious Sword - Falling Petals] - Mana cost is reduced by 1. [Mysterious Sword - Blossom] - Hit enemies' heal rate is reduced by 50% for 5 sec.",
-    "dark": "[Mysterious Sword - Falling Petals] - Target takes 25% increased M.DMG for 10 sec. [Mysterious Sword - Blossom] - Mana cost is increased by 1, and Ignores enemy's DEF.",
+    "light": "[Espada Misteriosa - Pétalas Cadentes] - Reduz o Custo de Mana em 1. [Espada Misteriosa - Florescer] - Reduz em 50% a Taxa de Cura de inimigos atingidos durante 5 seg.",
+    "dark": "[Espada Misteriosa - Pétalas Cadentes] - O alvo recebe mais 25% de DAN M. por 10 seg. [Espada Misteriosa - Florescer] - Aumenta o Custo de Mana em 1 e ignora a DEF do inimigo.",
+    "ut": {
+      "name": "Pedra de Amolar do Demônio",
+      "description": [
+        "[Espada Misteriosa - Pétalas Cadentes] Aumenta o DAN em 50% e recupera o Mana em 200 após um Acerto Crítico. [Espada Misteriosa - Florescer] Aumenta o DAN em 50% e reduz a Recarga de [Espada Misteriosa - Pétalas Cadentes] em 0,8 seg. após um Acerto Crítico.",
+        "[Espada Misteriosa - Pétalas Cadentes] Aumenta o DAN em 50% e recupera o Mana em 240 após um Acerto Crítico. [Espada Misteriosa - Florescer] Aumenta o DAN em 50% e reduz a Recarga de [Espada Misteriosa - Pétalas Cadentes] em 1 seg. após um Acerto Crítico.",
+        "[Espada Misteriosa - Pétalas Cadentes] Aumenta o DAN em 50% e recupera o Mana em 290 após um Acerto Crítico. [Espada Misteriosa - Florescer] Aumenta o DAN em 50% e reduz a Recarga de [Espada Misteriosa - Pétalas Cadentes] em 1,2 seg. após um Acerto Crítico.",
+        "[Espada Misteriosa - Pétalas Cadentes] Aumenta o DAN em 50% e recupera o Mana em 350 após um Acerto Crítico. [Espada Misteriosa - Florescer] Aumenta o DAN em 50% e reduz a Recarga de [Espada Misteriosa - Pétalas Cadentes] em 1,4 seg. após um Acerto Crítico.",
+        "[Espada Misteriosa - Pétalas Cadentes] Aumenta o DAN em 50% e recupera o Mana em 420 após um Acerto Crítico. [Espada Misteriosa - Florescer] Aumenta o DAN em 50% e reduz a Recarga de [Espada Misteriosa - Pétalas Cadentes] em 1,7 seg. após um Acerto Crítico.",
+        "[Espada Misteriosa - Pétalas Cadentes] Aumenta o DAN em 50% e recupera o Mana em 500 após um Acerto Crítico. [Espada Misteriosa - Florescer] Aumenta o DAN em 50% e reduz a Recarga de [Espada Misteriosa - Pétalas Cadentes] em 2 seg. após um Acerto Crítico."
+      ],
+      "story": "Uma pedra de amolar sinistra que guarda a alma de um demônio. Espadas que contêm um pacto de servidão devem ser afiadas com essa pedra, pois as comuns não funcionarão. Quando usada com a Esclarecedora Luz de Vela, a resistência de Elsion contra os Demônios é maximizada."
+    },
     "linked": {
       "name": "Espada Misteriosa - Florescer",
       "description": "Realiza um corte vertical na frente e causa {0} de DAN M. ao alvo e sua área imediata."
@@ -62,7 +74,7 @@
   },
   "s2": {
     "name": "Lâmina Sanguinária",
-    "description": "Rapidly charges forward to deal {0} M.DMG and inflicts irremovable Original Sin of Blood on enemies for {1} sec. Enemies under Original Sin of Blood have their ATK Spd reduced by {2}. Shortly afterward, attacks enemies under Original Sin of Blood 2 times, and deals additional {3} M.DMG, and if the target is not a hero, deals additional {4} DEF Ignoring M.DMG.",
+    "description": "Avança rapidamente para causar {0} de DAN M. e inflige um Pecado Original do Sangue irremovível por {1} seg. A Vel. de ATQ de inimigos sob o Pecado Original do Sangue é reduzida em {2}. Logo após, ataca os inimigos sob o Pecado Original do Sangue duas vezes para causar {3} de DAN M. adicional e são causados {4} de DAN M. adicional aos inimigos não Heróis, ignorando sua DEF.",
     "books": {
       "0": "DAN aumenta em {0}%.",
       "1": "DAN aumenta em {0}%.",
@@ -85,7 +97,7 @@
   },
   "s3": {
     "name": "Lâmina da Lua Vermelha",
-    "description": "Brandishes a moon-bloodying sword, dealing {0} M.DMG to enemies in a wide range, and additional {1} M.DMG on non-Hero enemies. When the moon is ripe, gains Moonlight for {2} sec, and when cast at this state, deals {3} M.DMG to enemies and reduces their Heal Rate by {4}%. If the target is not a hero, deals additional {5} M.DMG.The caster is not affected by ATK Spd related effects while casting.",
+    "description": "Brande uma espada de ensanguentar a lua, causando {0} de DAN M. aos inimigos em um amplo alcance e {1} de DAN M. adicional a inimigos não Heróis. Quando a lua está cheia, concede Luar por {2} seg. que, quando lançado, causa {3} de DAN M. e reduz a Taxa de Cura em {4}. Inimigos não Heróis recebem {5} de DAN M. adicional. O conjurador não é afetado pelos efeitos relacionados à Vel. de ATQ ao lançar.",
     "books": {
       "0": "DAN aumenta em {0}%.",
       "1": "DAN aumenta em {0}%.",
