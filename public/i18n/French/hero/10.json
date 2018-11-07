@@ -1,0 +1,120 @@
+{
+  "name": "Selene",
+  "subtitle": "Flèche Perce-Vent",
+  "description": "Une Princesse Elfe d'un air hautain, elle garde la forêt sacrée. Des flèches d'énergie lunaire la suivent et traquent ses ennemis, puis des flèches chargées par l'énergie des vents les transpercent violemment.",
+  "story": "Cette noble princesse elfique admire l'Épée Sacrée et son guerrier élu. Elle fait de son mieux pour faire le bien et veut que les autres fassent de même. C'est pour cela qu'elle n'hésite pas à critiquer ceux qui s'éloignent de la voie de la vertu, même s'il s'agit du Guerrier de l'Épée Sacrée. Malheureusement, les gens se méprennent souvent sur sa volonté d'acier. Elle rend souvent visite à sa jeune sœur Dosarta pour lui tenir compagnie dans sa tour.",
+  "like": "Ceux qui travaillent en harmonie et prennent des responsabilités",
+  "dislike": "Ceux qui abandonnent leurs croyances, ceux qui fuient le danger",
+  "inn": {
+    "idle": "Oh, alors les humains dorment dans des endroits comme celui-ci?",
+    "recruit": {
+      "greet": "As-tu bien fait? Puisse votre journée être pleine de lumière.",
+      "talk": [
+        "Est-ce que j'ai attiré votre attention?",
+        "Les personnes raffinées sont toujours les bienvenues.",
+        "Pourquoi pas, je suppose que je pourrais vous entendre."
+      ],
+      "gift": "Merci pour le cadeau. C'est beau."
+    },
+    "affinity": {
+      "greet": "Avoir fait votre rencontre a égayé cette journée.",
+      "talk": [
+        "Depuis mon plus jeune âge, je ne vis que pour protéger la forêt. C'est pour cette raison que j'ai toujours aimé l'histoire de l'épée sacrée.",
+        "Le Guerrier de l'épée sacrée qui a vaincu le Seigneur des Ténèbres et répandu la paix dans le monde il y a cent ans... Il est temps de produire une nouvelle légende."
+      ],
+      "gift": "Mais c'est... merci pour votre générosité."
+    },
+    "relationship": {
+      "greet": "Aujourd'hui a l'air d'être une autre belle journée, ensoleillée - pleine de bonheur et de chaleur.",
+      "talk": [
+        "Peut-être que j'y suis allée trop fort avec ce Guerrier, focaliser mes pensées sur lui et l'idéaliser...",
+        "Allez dans la Forêt Elidora de temps en temps. Je vous saluerai personnellement.",
+        "Cet arc est une marque spéciale d'amitié qui m'a été donnée par un Élémentaire des Vents. Si vous voulez, vous pouvez le toucher."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Notos Vent-Vert",
+    "description": [
+      "Un coup Critique augmente la Vitesse d'Attaque de 200 pendant 10 sec. Pendant cette durée, les attaques automatiques tirent une flèche supplémentaire infligeant 100% des DEG P.",
+      "Un coup Critique augmente la Vitesse d'Attaque de 240 pendant 10 sec. Pendant cette durée, les attaques automatiques tirent une flèche supplémentaire infligeant 120% des DEG P.",
+      "Un coup Critique augmente la Vitesse d'Attaque de 280 pendant 10 sec. Pendant cette durée, les attaques automatiques tirent une flèche supplémentaire infligeant 140% des DEG P.",
+      "Un coup Critique augmente la Vitesse d'Attaque de 340 pendant 10 sec. Pendant cette durée, les attaques automatiques tirent une flèche supplémentaire infligeant 170% des DEG P.",
+      "Un coup Critique augmente la Vitesse d'Attaque de 410 pendant 10 sec. Pendant cette durée, les attaques automatiques tirent une flèche supplémentaire infligeant 210% des DEG P.",
+      "Un coup Critique augmente la Vitesse d'Attaque de 500 pendant 10 sec. Pendant cette durée, les attaques automatiques tirent une flèche supplémentaire infligeant 250% des DEG P."
+    ],
+    "story": "Un arc béni par le souffle de Sylph, l'Élémental de Vent. Seule une personne au caractère noble peut la manier. Une fois encoché, l'arc tire une flèche magique mortelle faite de souffle élémentaire. Guidée par l'Élémental de Vent, elle ne manque jamais sa cible, peu importe où elle se cache. Selene a des liens spéciaux avec les Élémentaux depuis son enfance. Elle fut particulièrement proche de Sylph, qui enchanta son arc en signe d'amitié."
+  },
+  "s1": {
+    "name": "Pluie de Flèches",
+    "description": "Tire 12 flèches aléatoirement et inflige {0} DEG P. à l'ennemi.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG de {0}%."
+    },
+    "light": "Les DEG sont augmentés de 40%.",
+    "dark": "A 20% de chances d'appliquer Étourdissement pendant 2 sec."
+  },
+  "s2": {
+    "name": "Ruée",
+    "description": "Invoque 5 flèches qui volent vers l'ennemi en attaque auto. Chaque flèche inflige {0} DEG P.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG de {0}%."
+    },
+    "light": "Ignore la DEF lorsqu'il n'y a qu'un seul ennemi.",
+    "dark": "Fait reculer l'ennemi pendant 0,5 sec.",
+    "ut": {
+      "name": "Pierre de sceau de l’esprit du vent",
+      "description": [
+        "[Ruée] Augmente les DEG de 20 % et donne 15 % de chances d'invoquer 1 Flèche de ruée lors d'une attaque normale.",
+        "[Ruée] Augmente les DEG de 24 % et donne 15 % de chances d'invoquer 1 Flèche de ruée lors d'une attaque normale.",
+        "[Ruée] Augmente les DEG de 29 % et donne 15 % de chances d'invoquer 1 Flèche de ruée lors d'une attaque normale.",
+        "[Ruée] Augmente les DEG de 35 % et donne 15 % de chances d'invoquer 1 Flèche de ruée lors d'une attaque normale.",
+        "[Ruée] Augmente les DEG de 42 % et donne 15 % de chances d'invoquer 1 Flèche de ruée lors d'une attaque normale.",
+        "[Ruée] Augmente les DEG de 50 % et donne 15 % de chances d'invoquer 1 Flèche de ruée lors d'une attaque normale."
+      ],
+      "story": "Cette pierre est la prison d'un élémentaire aventureux de l'arc de vent. Il a causé tellement d'ennuis qu'il a été scellé dans cette pierre par le roi des fées. Il imprègne les flèches d'un vent destructeur, ce qui multiplie leur force par 5, au minimum."
+    }
+  },
+  "s3": {
+    "name": "Flash Clair de Lune",
+    "description": "Tire une flèche en ligne droite, infligeant à tous les ennemis à portée des DEG P. basés sur leurs PV actuels. Inflige un maximum de {0} points de DEG P. et renverse les ennemis.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG de {0}%."
+    },
+    "light": "Temps de recharge réduit de 3 sec.",
+    "dark": "Ignore le blocage ennemi.",
+    "ut": {
+      "name": "Flèche d'argent",
+      "description": [
+        "[Flash Clair de Lune] Les DEG sont augmentés de 20% et la cible reçoit 20% de DEG P. supplémentaires pendant 10 sec.",
+        "[Flash Clair de Lune] Les DEG sont augmentés de 24% et la cible reçoit 20% de DEG P. supplémentaires pendant 10 sec.",
+        "[Flash Clair de Lune] Les DEG sont augmentés de 29% et la cible reçoit 20% de DEG P. supplémentaires pendant 10 sec.",
+        "[Flash Clair de Lune] Les DEG sont augmentés de 35% et la cible reçoit 20% de DEG P. supplémentaires pendant 10 sec.",
+        "[Flash Clair de Lune] Les DEG sont augmentés de 42% et la cible reçoit 20% de DEG P. supplémentaires pendant 10 sec.",
+        "[Flash Clair de Lune] Les DEG sont augmentés de 50% et la cible reçoit 20% de DEG P. supplémentaires pendant 10 sec."
+      ],
+      "story": "Une pointe de flèche imprégnée de la bénédiction de la Déesse de la chasse et de la lune. Un ancien artéfact dont hérite le meilleur chasseur elfique. On dit que la Déesse de la chasse et de la lune s’occupait des Elfes protégeant la forêt sacrée et qu’elle leur accorda du pouvoir via l’artéfact. La flèche d’argent imprégnée du pouvoir de la Déesse de la lune dispose d’un pouvoir mystérieux permettant à l’utilisateur de vaincre son ennemi et améliorer ses DEG."
+    }
+  },
+  "s4": {
+    "name": "Flèche Clair de Lune",
+    "description": "Augmente l'ATQ de {1}  points et les chances de coup critique de {2} pendant {0}  sec. Cet effet est cumulable 3 fois au maximum.",
+    "books": {
+      "0": "Le taux d'augmentation d'Attaque augmente de  {0}%.",
+      "1": "Le taux d'augmentation d'Attaque augmente de  {0}%.",
+      "2": "Chaque attaque augmente les DEG Critiques du héros de  {0}%."
+    },
+    "light": "Nombre maximum de charges modifié à 5.",
+    "dark": "La portée des attaques auto est augmentée de 20%."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / DEG Crit +20%",
+    "dark": "Les Chances de Crit du Héros sont réduites de 300 et les DEG Crit sont augmentés de 100%."
+  }
+}

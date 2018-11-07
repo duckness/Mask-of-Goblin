@@ -1,0 +1,120 @@
+{
+  "name": "Lewicia",
+  "subtitle": "Le Sang Royal Vermillon",
+  "description": "Une princesse vampire qui a combattu aux côtés des héros il y a 100 ans. Immortelle à sang pur, elle se rétablit actuellement de ses batailles passées. Elle utilise des serviteurs pour attaquer ses ennemis.",
+  "story": "Une princesse vampire ayant rejoint Kyle dans sa guerre contre les démons, il y a cent ans. C'est une vampire au sang pur, âgée de plus de cinq siècles. On la considère souvent comme la reine des vampires et elle est presque immortelle. Elle a dépensé énormément de pouvoir durant la Guerre Démoniaque et a été forcée d'adopter une apparence enfantine. Après la guerre, elle a rejoint la société des humains et elle a regardé le monde changer pendant cent ans tout en récupérant lentement ses forces. Lorsque les démons sont réapparus et que l'Épée Sacrée s'est réveillée, Lewisia a senti des changements soudains d'énergie. Peu après, elle est partie à l'aventure pour observer le nouveau guerrier élu.",
+  "like": "Voyager tranquillement et confortablement",
+  "dislike": "La guerre et le désordre",
+  "inn": {
+    "idle": "Quelle énergie. C'est parfait pour la récupération.",
+    "recruit": {
+      "greet": "Salutations, nous nous rencontrons encore. Restez-vous un moment?",
+      "talk": [
+        "Hmm? J'admets que l'ail est assez épicé, mais pourquoi demandes-tu?",
+        "J'aime le soleil ici. À la maison, c'est toujours si noir... Hmm? Pourquoi tu me regardes comme ça?",
+        "Quand j'aurais récupéré, je ne serai plus gêné par un tel corps."
+      ],
+      "gift": "Des cadeaux, hmm. Une coutume intéressante. Eh bien, si vous insistez, j'accepterai votre cadeau."
+    },
+    "affinity": {
+      "greet": "Hmm, quelle belle journée !",
+      "talk": [
+        "Mon statut de princesse ? Hum, je n'y ai jamais vraiment songé.",
+        "C'est agréable, ici. Bien mieux que l'endroit sombre et humide d'où je viens."
+      ],
+      "gift": "Un cadeau ? Merci. La prochaine fois, je vais devoir vous préparer quelque chose."
+    },
+    "relationship": {
+      "greet": "Bonjour. N'est-ce pas une belle journée?",
+      "talk": [
+        "Mon corps récupère rapidement en ce moment. C'est bien grâce à vous.",
+        "Pourquoi est-ce que je prends parfois ma forme jeune même lorsque je vais mieux? Eh bien, j'en ai marre... et les gens me donnent à manger.",
+        "J'aime cet endroit parcequ'il est confortable... j'ai donc l'intention de rester un peu plus longtemps, à vos côtés."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Dominicia, Dirigeante Écarlate",
+    "description": [
+      "Si les PV sont au-dessus de 50%, l'ATQ est augmentée de 20%. Si les PV sont sous les 50%, les DEG reçus sont réduits de 10%.",
+      "Si les PV sont au-dessus de 50%, l'ATQ est augmentée de 24%. Si les PV sont sous les 50%, les DEG reçus sont réduits de 12%.",
+      "Si les PV sont au-dessus de 50%, l'ATQ est augmentée de 29%. Si les PV sont sous les 50%, les DEG reçus sont réduits de 14%.",
+      "Si les PV sont au-dessus de 50%, l'ATQ est augmentée de 35%. Si les PV sont sous les 50%, les DEG reçus sont réduits de 17%.",
+      "Si les PV sont au-dessus de 50%, l'ATQ est augmentée de 42%. Si les PV sont sous les 50%, les DEG reçus sont réduits de 21%.",
+      "Si les PV sont au-dessus de 50%, l'ATQ est augmentée de 20%. Si les PV sont sous les 50%, les DEG reçus sont réduits de 10%."
+    ],
+    "story": "Un bâton de sang passé d'une membre à l'autre d'une famille de seigneurs vampires au fil des générations. Sa couleur pourpre symbolise l'autorité, la sagesse et le pouvoir absolu du seigneur vampire. Dans les profondeurs des Plaines Galia se trouvent les terres sacrées des vampires. Ce bâton légendaire y repose, prêt à apparaître à l'appel d'un maître digne de lui."
+  },
+  "s1": {
+    "name": "Orbe de Sang",
+    "description": "Inflige {0} points de DEG M. à l'ennemi ciblé. Les DEG M. qu'elle reçoit sont augmentés de 25% pendant 10 sec. Pour chaque charge de Malédiction Sanguine, les DEG sont augmentés de 0.5%. Consomme également 10% des PV actuels.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Le coût en Mana est augmenté de 1 orbe mes les DEG sont augmentés de 100%.",
+    "dark": "La cible reçoit 25% de DEG M. supplémentaires pendant 10 sec."
+  },
+  "s2": {
+    "name": "Zone Sanglante",
+    "description": "Inflige {0} points de DEG M. à l'ennemi ciblé et crée une Zone Sanglante autour de lui qui dure 10 sec. Les ennemis à l'intérieur de Zone Sanglante reçoivent {1} points de DEG M. toutes les 0.5 sec, et la DEF M. est réduite de 30%. Pour chaque charge de Malédiction Sanguine, les DEG sont augmentés de 0.5%. Consomme également 20% des PV actuels.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Les DEG sont augmentés de 40%.",
+    "dark": "Le Temps de recharge est réduit de 3 sec.",
+    "ut": {
+      "name": "Sort de brume sanglante",
+      "description": [
+        "[Zone sanglante] Augmente les DEG de 20 % et la durée de l'effet de 2 sec.",
+        "[Zone sanglante] Augmente les DEG de 24 % et la durée de l'effet de 2 sec.",
+        "[Zone sanglante] Augmente les DEG de 29 % et la durée de l'effet de 2 sec.",
+        "[Zone sanglante] Augmente les DEG de 35 % et la durée de l'effet de 2 sec.",
+        "[Zone sanglante] Augmente les DEG de 42 % et la durée de l'effet de 2 sec.",
+        "[Zone sanglante] Augmente les DEG de 50 % et la durée de l'effet de 2 sec."
+      ],
+      "story": "Outil magique du successeur par le sang. Les sorts de la famille de seigneurs vampires ont été transmis de génération en génération. Le successeur de Lewisia est le vampire Sir Lusben, et le sort de brume sanglante est d’ailleurs un cadeau de sa part. Lewisia déteste tout ce qui lui rappelle l’idée de succession, mais elle apprécie tout de même de voir Zone Sanglante soulager sa fatigue, c’est pourquoi elle se sert allègrement de cet outil."
+    }
+  },
+  "s3": {
+    "name": "Festin de Sang",
+    "description": "Attaque les ennemis en ligne droite à 3 reprises, inflige un total de {0} points de DEG M.DMG et applique Étourdissement pendant 3 sec. Pour chaque charge de Malédiction Sanguine, les DEG sont augmentés de 0.5% Consomme également 10% des PV actuels.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Attaquer un ennemi avec plus de 80 charges de Malédiction Sanguine réduit le temps de recharge de toutes les compétences de 5%.",
+    "dark": "Le coût en Mana est réduit de 1.",
+    "ut": {
+      "name": "Sang ancestral",
+      "description": [
+        "[Festin de Sang] Les DEG sont augmentés de 20% et chaque Crit rend 400 mana.",
+        "[Festin de Sang] Les DEG sont augmentés de 24% et chaque Crit rend 400 mana.",
+        "[Festin de Sang] Les DEG sont augmentés de 29% et chaque Crit rend 400 mana.",
+        "[Festin de Sang] Les DEG sont augmentés de 35% et chaque Crit rend 400 mana.",
+        "[Festin de Sang] Les DEG sont augmentés de 42% et chaque Crit rend 400 mana.",
+        "[Festin de Sang] Les DEG sont augmentés de 50% et chaque Crit rend 400 mana."
+      ],
+      "story": "Le sang d’une ancienne reine vampire. Plus la vampire a le sang pur, plus la mana est forte dans son sang. Le plus puissant est celui d’une ancienne reine vampire. Les vampires qui boivent son sang ont une vie et de la mana illimités. C’est un type de sang très addictif, il faut être prudent quand on l’utilise."
+    }
+  },
+  "s4": {
+    "name": "Dominateur Sanguinaire",
+    "description": "Lorsque les PV sont au moins à 50 %, l'ATQ augmente de {0}  points et la pénétration de DEF de 250. L'attaque applique Malédiction sanguine à la cible, lui inflige un total de {1}  points de DEG M pendant 20 secondes et restaure 10 % des dégâts infligés par Malédiction sanguine en guise de PV. Malédiction sanguine est cumulable 100 fois et ne peut pas être dissipée.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Le nombre maximum de charges de Malédiction Sanguine est maintenant de 200.",
+    "dark": "Les Soins sur tous les alliés sont augmentés de 20% et les soins de tous les ennemis sont réduits de 20%."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Chances Crit +100",
+    "dark": "La consommation de PV de toutes les compétences est augmentée de 50% mais les Temps de Recharge sont réduits de 20%."
+  }
+}

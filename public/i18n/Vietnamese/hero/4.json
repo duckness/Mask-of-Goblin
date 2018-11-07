@@ -1,0 +1,120 @@
+{
+  "name": "Roi",
+  "subtitle": "Sát thủ mau lẹ",
+  "description": "Anh ấy từng là một sát thủ với quá khứ bị che giấu. Anh ấy rất giỏi đối mặt với các mục tiêu riêng lẻ, ra đòn tấn công mạnh, liên tục vào kẻ thù từ khoảng cách xa.",
+  "story": "Anh là người tùy tùng của Cleo và đang bảo vệ nàng theo yêu cầu của Dominiks. Vì lí do nào đó mà anh đã phải liều mạng chạy trốn khỏi nhóm sát thủ mà anh từng trực thuộc. Đã từng sống như một sát thủ, anh hiếm khi thể hiện sự tôn trọng rõ ràng với những người khác. Nhưng cuộc sống gian khổ đã luyện cho anh trở thành người đàn ông từng trải và khôn ngoan, biết đối xử công bằng với những người giúp đỡ mình.",
+  "like": "Bản thân hiện tại",
+  "dislike": "Bản thân mình trước đây",
+  "inn": {
+    "idle": "......",
+    "recruit": {
+      "greet": "Có chuyện gì vậy.",
+      "talk": [
+        "Mong bạn không hỏi đến quá khứ.",
+        "Lâu rồi mới cảm nhận được yên bình. Giờ chỉ cầu cho Cleo không gây tai họa là được.",
+        "Mỗi Frey ghép tôi với Cleo đã là đủ lắm rồi. Vì tôi cần sự trợ giúp của cô ấy nên mới đang nhịn đấy."
+      ],
+      "gift": "Tôi.. không biết tôi có đủ tư cách để nhận cái này không nữa."
+    },
+    "affinity": {
+      "greet": "Này, ngươi phải nghỉ ngơi đi thôi.",
+      "talk": [
+        "Ngươi vẫn chưa chán à? Ta có trách nhiệm với Cleo... Nghe nói bây giờ cô ấy giữ vai trò quan trọng rồi.",
+        "Ngươi đã bao giờ hối tiếc về điều mình từng làm chưa? Nếu rồi thì hãy dừng tay ngay bây giờ đi."
+      ],
+      "gift": "Ngươi không hề quên... Cảm ơn nhé."
+    },
+    "relationship": {
+      "greet": "Đến chưa.",
+      "talk": [
+        "Hãy giúp Kasel với. Cậu ấy đang phải mang vác gánh nặng quá lớn.",
+        "Tôi cũng có phần nào phụ thuộc vào nữ thần Lua dù không thể sánh bằng với các linh mục. Tôi chẳng thể giúp gì được cho những người đã chết ngoài việc cầu nguyện cho họ.",
+        "Bây giờ tôi không còn oán hận quá khứ nữa. Cũng không thể thay đổi được. Cái có thể thay đổi được là tương lai."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Redeal, Hơi thở ma quái",
+    "description": [
+      "Khi tấn công thường, cộng dồn 1 lần trạng thái xuất huyết với xác suất 25% gây thêm sát thương ngang 50% lực tấn công",
+      "Khi tấn công thường, cộng dồn 1 lần trạng thái xuất huyết với xác suất 28% gây thêm sát thương ngang 60% lực tấn công",
+      "Khi tấn công thường, cộng dồn 1 lần trạng thái xuất huyết với xác suất 31% gây thêm sát thương ngang 72% lực tấn công",
+      "Khi tấn công thường, cộng dồn 1 lần trạng thái xuất huyết với xác suất 34% gây thêm sát thương ngang 86% lực tấn công",
+      "Khi tấn công thường, cộng dồn 1 lần trạng thái xuất huyết với xác suất 37% gây thêm sát thương ngang 103% lực tấn công",
+      "Khi tấn công thường, cộng dồn 1 lần trạng thái xuất huyết với xác suất 40% gây thêm sát thương ngang 125% lực tấn công"
+    ],
+    "story": "Nhóm sát thủ được biết đến với tên gọi Mặt nạ cười vẫn luôn là chủ nhân thế giới ngầm của Orvel trong một thời gian dài. Chỉ có sát thủ giỏi nhất của Mặt nạ cười mới được phép sử dụng cặp dao găm khủng khiếp này. Tương truyền vết thương do chúng gây ra sẽ không bao giờ lành lại và nạn nhân của chúng không tránh khỏi kết cục chết vì mất máu. Theo truyền thuyết, cặp dao găm này được làm từ lưỡi hái của Tử thần Grim."
+  },
+  "s1": {
+    "name": "Tàn nhẫn",
+    "description": "Tấn công một kẻ địch ngẫu nhiên 3 lần, gây tổng cộng {0} sát thương vật lý, đồng thời đặt 1 lần cộng dồn Xuất huyết lên chúng, gây {2} sát thương vật lý trong {1} giây. Xuất huyết có thể cộng dồn tối đa 3 lần.",
+    "books": {
+      "0": "Tăng {0}% sát thương.",
+      "1": "Tăng {0}% sát thương.",
+      "2": "Tăng {0}% sát thương chí mạng."
+    },
+    "light": "Lượng tiêu thụ Mana giảm 1.",
+    "dark": "Sát thương vật lý mà đối tượng đang nhận phải trong 10 giây sẽ tăng 25%."
+  },
+  "s2": {
+    "name": "Bức màn bóng tối",
+    "description": "Tăng {1} sức mạnh tấn công trong {0} giây và né tất cả sát thương vật lý",
+    "books": {
+      "0": "Tăng {0}% mức tăng ATK",
+      "1": "Tăng {0}% mức tăng ATK",
+      "2": "Tăng tốc độ tấn công {0} khi xuất hiện hiệu ứng."
+    },
+    "light": "Chỉ số tăng sức tấn công tăng lên 40%.",
+    "dark": "Trong thời gian kéo dài, lượng sát thương tấn công cơ bản tăng 100%.",
+    "ut": {
+      "name": "Mũ trùm của Soma",
+      "description": [
+        "[Bức màn bóng tối] Tăng 20% Trợ công và nhận 400 Kháng chế ngự trong thời gian tác dụng của kỹ năng.",
+        "[Bức màn bóng tối] Tăng 24% Trợ công và nhận 400 Kháng chế ngự trong thời gian tác dụng của kỹ năng.",
+        "[Bức màn bóng tối] Tăng 29% Trợ công và nhận 400 Kháng chế ngự trong thời gian tác dụng của kỹ năng.",
+        "[Bức màn bóng tối] Tăng 35% Trợ công và nhận 400 Kháng chế ngự trong thời gian tác dụng của kỹ năng.",
+        "[Bức màn bóng tối] Tăng 42% Trợ công và nhận 400 Kháng chế ngự trong thời gian tác dụng của kỹ năng.",
+        "[Bức màn bóng tối] Tăng 50% Trợ công và nhận 400 Kháng chế ngự trong thời gian tác dụng của kỹ năng."
+      ],
+      "story": "Một chiếc mũ trùm nguy hiểm được làm bằng phương thức bí mật của Mặt nạ cười. Nó được làm từ vật chất sinh dưỡng trong truyền thuyết, được cho là cung cấp nguồn sinh lực vô tận và bí mật của Mặt nạ cười. Mũ trùm sinh dưỡng tăng nhuệ khí của sát thủ bên trong bức màn bóng tối, tăng ATK, giúp họ di chuyển mau lẹ và tối đa hóa khả năng né vật lý."
+    }
+  },
+  "s3": {
+    "name": "Móng vuốt lưỡi đao",
+    "description": "Di chuyển ra sau kẻ địch có mức Máu thấp nhất, gây [FFC800] {0} sát thương vật lý. Khiến cho kẻ địch tự mất máu tương đương {1}% sát thương đến khi hết máu. Khi phát sinh đòn chí mạng, thời gian hồi chiêu được thiết lập lại về 0.",
+    "books": {
+      "0": "Tăng {0}% sát thương.",
+      "1": "Tăng {0}% sát thương.",
+      "2": "Tăng {0}% sát thương chí mạng."
+    },
+    "light": "Lượng tiêu thụ Mana tăng 1 và lượng sát thương tăng 100%.",
+    "dark": "Thời gian đợi dùng chiêu lại sẽ biến mất.",
+    "ut": {
+      "name": "Mặt nạ nứt đôi",
+      "description": [
+        "Lượng sát thương [Móng vuốt lưỡi đao] tăng 20%, khi ra đòn chí mạng sẽ hồi phục thêm 300 mana.",
+        "Lượng sát thương [Móng vuốt lưỡi đao] tăng 24%, khi ra đòn chí mạng sẽ hồi phục thêm 300 mana.",
+        "Lượng sát thương [Móng vuốt lưỡi đao] tăng 29%, khi ra đòn chí mạng sẽ hồi phục thêm 300 mana.",
+        "Lượng sát thương [Móng vuốt lưỡi đao] tăng 35%, khi ra đòn chí mạng sẽ hồi phục thêm 300 mana.",
+        "Lượng sát thương [Móng vuốt lưỡi đao] tăng 42%, khi ra đòn chí mạng sẽ hồi phục thêm 300 mana.",
+        "Lượng sát thương [Móng vuốt lưỡi đao] tăng 50%, khi ra đòn chí mạng sẽ hồi phục thêm 300 mana."
+      ],
+      "story": "Chiếc mặt nạ mà Roi phá hủy khi rời khỏi tổ chức sát thủ Mặt nạ cười. Sát thủ tấn công tàn nhẫn vào điểm yếu của kẻ địch. Họ đeo mặt nạ để che giấu cảm xúc khi kết liễu mục tiêu. Khi đối đầu với kẻ đeo mặt nạ nứt, Roi lẻn ra phía sau kẻ địch, kết liễu chúng bằng Móng vuốt lưỡi đao để bảo vệ bạn bè."
+    }
+  },
+  "s4": {
+    "name": "Chém",
+    "description": "Nếu đòn tấn công thường trúng đích và gây chí mạng, tấn công mục tiêu 6 lần để gây thêm tổng cộng {0} sát thương vật lý.",
+    "books": {
+      "0": "Tăng {0}% sát thương.",
+      "1": "Tăng {0}% sát thương.",
+      "2": "Tăng {0}% sát thương chí mạng."
+    },
+    "light": "Mỗi lần tấn công mana hồi phục 300.",
+    "dark": "Xuất huyết cộng dồn 1 với tỉ lệ 50%."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / Crit DMG +20%",
+    "dark": "Khi ra đòn chí mạng, tăng 60% lượng sát thương chí mạng, tốc độ tấn công tăng 300 trong 5 giây với xác suất 10%. Trong thời gian phát động hiệu ứng sẽ không thể phát động lại."
+  }
+}

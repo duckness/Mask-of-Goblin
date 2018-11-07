@@ -1,0 +1,120 @@
+{
+  "name": "Lakrak",
+  "subtitle": "Caçador de canhões de mão",
+  "description": "Um goblin branco hábil em engenharia mecânica, ele usa um canhão de mão para infligir dano explosivo, atormentar inimigos com munições especiais e infligir danos fatais.",
+  "story": "Este excêntrico Goblin albino gosta de desenvolver armas poderosas mais do que qualquer coisa nesse mundo. Importunado e excluído pelos outros Goblins devido à cor da sua pele, ele não sente compaixão pelo seu povo. Ele atiraria, explodiria e esmagaria outro Goblin de bom grado para poder testar suas armas. No entanto, ele também expressa sua gratidão àqueles que o ajudam, e foi assim que se tornou amigo de Roi. Infelizmente, ele é um péssimo fisionomista, o que o faz tentar atirar em Roi frequentemente até se lembrar de quem ele é.",
+  "like": "Pólvora, armas, canhões",
+  "dislike": "Goblins tolos",
+  "inn": {
+    "idle": "Nada de goblins aqui! Bom lugar.",
+    "recruit": {
+      "greet": "AH!! Que arma legal!!",
+      "talk": [
+        "Você lutou com os goblins?! Venceu?! Kakakak, bom!!",
+        "Ach, me surpreendeu !! Eck, ajuda experimento ?! Boa!! Agora mesmo!!!",
+        "Interessado nos canhões de mão?! Você é bom!! Inteligente!!"
+      ],
+      "gift": "Presente?! Fundo de modificação de arma?!! Bom!! Adicionar pólvora extra!!"
+    },
+    "affinity": {
+      "greet": "Boas vindas! Quer ver a minha pesquisa?",
+      "talk": [
+        "Eu querer dizer língua humana bem! A-B-C-De!!! D sempre problema!!!",
+        "Não ter humano como você! Peculiar! Você amizade peculiar! Agora tenho você e Roi!!!"
+      ],
+      "gift": "Você traz coisa boa? Eu sei coisa boa! Ótimo!!!"
+    },
+    "relationship": {
+      "greet": "Kukakak! A pesquisa de hoje foi boa!!",
+      "talk": [
+        "Pólvora! Explosões!!! Kakakak!!",
+        "Experimentos! Experimentos! Mais experimentos! Desenvolvimento de armas e diversão!",
+        "Bons dados de pesquisa, obrigado!! Melhores amigos!!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Lakrak MK-1",
+    "description": [
+      "Ganha 25% de chance de obter um acúmulo de Pólvora ao atacar. Cada acúmulo de Pólvora aumenta o ATQ em 3%, a Vel. de ATQ em 30 e o DAN a inimigos não Heróis em 3%. Pólvora acumula até 7 vezes e não pode ser removida.",
+      "Ganha 25% de chance de obter um acúmulo de Pólvora ao atacar. Cada acúmulo de Pólvora aumenta o ATQ em 3,6%, a Vel. de ATQ em 36 e o DAN a inimigos não Heróis em 3,6%. Pólvora acumula até 7 vezes e não pode ser removida.",
+      "Ganha 25% de chance de obter um acúmulo de Pólvora ao atacar. Cada acúmulo de Pólvora aumenta o ATQ em 4,3%, a Vel. de ATQ em 43 e o DAN a inimigos não Heróis em 4,3%. Pólvora acumula até 7 vezes e não pode ser removida.",
+      "Ganha 25% de chance de obter um acúmulo de Pólvora ao atacar. Cada acúmulo de Pólvora aumenta o ATQ em 5,1%, a Vel. de ATQ em 51 e o DAN a inimigos não Heróis em 5,1%. Pólvora acumula até 7 vezes e não pode ser removida.",
+      "Ganha 25% de chance de obter um acúmulo de Pólvora ao atacar. Cada acúmulo de Pólvora aumenta o ATQ em 6,2%, a Vel. de ATQ em 62 e o DAN a inimigos não Heróis em 6,2%. Pólvora acumula até 7 vezes e não pode ser removida.",
+      "Ganha 25% de chance de obter um acúmulo de Pólvora ao atacar. Cada acúmulo de Pólvora aumenta o ATQ em 7,5%, a Vel. de ATQ em 75 e o DAN a inimigos não Heróis em 7,5%. Pólvora acumula até 7 vezes e não pode ser removida."
+    ],
+    "story": "A obra-prima destruidora e artística de um peculiar inventor Goblin. Este canhão de mão tem o poder de fogo mais intenso com o qual único Goblin é capaz de lidar fisicamente. Apesar da perigosa quantidade de pólvora usada, esta arma, felizmente, ainda não explodiu."
+  },
+  "s1": {
+    "name": "Fogo Rápido",
+    "description": "Ataca todos os inimigos frontais em uma linha reta, causando {0} de DAN F. e afastando-os. Se o alvo não for um Herói, causa {1} de DAN F. adicional e atordoa-o por {2} seg.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "Aumenta o DAN em 40%.",
+    "dark": "Atordoa o inimigo durante 3 segundos."
+  },
+  "s2": {
+    "name": "Bomba de Fumaça",
+    "description": "Causa {0} de DAN.F e Cegueira aos inimigos durante 4 segundos.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN e atordoa os inimigos durante 1 segundo."
+    },
+    "light": "Reduz o custo de mana em 1.",
+    "dark": "Aumenta em 2 segundos a duração da Cegueira.",
+    "ut": {
+      "name": "Máscara de Gás Especial",
+      "description": [
+        "[Bomba de Fumaça] Reduz a Recarga em 30% e aumenta a duração da Cegueira em 1s.",
+        "[Bomba de Fumaça] Reduz a Recarga em 30% e aumenta a duração da Cegueira em 1,2s.",
+        "[Bomba de Fumaça] Reduz a Recarga em 30% e aumenta a duração da Cegueira em 1,4s.",
+        "[Bomba de Fumaça] Reduz a Recarga em 30% e aumenta a duração da Cegueira em 1,7s.",
+        "[Bomba de Fumaça] Reduz a Recarga em 30% e aumenta a duração da Cegueira em 2,1s.",
+        "[Bomba de Fumaça] Reduz a Recarga em 30% e aumenta a duração da Cegueira em 2,5s."
+      ],
+      "story": "Uma máscara de alta performance feita com materiais especiais obtidos por Lakrak no Continente Orbis. Esta máscara foi feita com a primeira pena da Harpia, as escamas de um dragão, uma folha da Árvore do Mundo e o mithril imperial, que são componentes difíceis de se encontrar. Esta máscara protege o usuário do gás venenoso e do efeito ofuscante de Bombas de Fumaça."
+    }
+  },
+  "s3": {
+    "name": "Bomba de Cola",
+    "description": "Prende uma Bomba de Cola que explode em {0} segundos a um inimigo aleatório. A explosão causa no máximo {1} de DAN.F proporcional ao PV atual do inimigo para inimigos em área, e inflige atordoamento por 3 segundos. Após prender a Bomba de Cola, o alvo é infligido com atordoamento por 2 segundos.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "O custo de mana aumenta em 1, e ataca um alvo aleatório 2 vezes.",
+    "dark": "Reduz em 1 o custo de mana.",
+    "ut": {
+      "name": "Explosivo Goblin Especial de Alta Densidade",
+      "description": [
+        "[Bomba de Cola] Aumenta o DAN em 50% e, após um Golpe Crit, recupera 200 de mana.",
+        "[Bomba de Cola] Aumenta o DAN em 50% e, após um Golpe Crit, recupera 240 de mana.",
+        "[Bomba de Cola] Aumenta o DAN em 50% e, após um Golpe Crit, recupera 290 de mana.",
+        "[Bomba de Cola] Aumenta o DAN em 50% e, após um Golpe Crit, recupera 350 de mana.",
+        "[Bomba de Cola] Aumenta o DAN em 50% e, após um Golpe Crit, recupera 420 de mana.",
+        "[Bomba de Cola] Aumenta o DAN em 50% e, após um Golpe Crit, recupera 500 de mana."
+      ],
+      "story": "Pólvora feita com a receita secreta perigosa do Lakrak. Lakrak acreditava que explosões simples não eram eficazes o suficiente em termos de estratégia de batalha, então adicionou ácido metanoico e veneno ardente de urtiga para criar um efeito atordoante. Exige um processo de filtragem extremamente preciso e ele a usa em segredo para evitar abusos."
+    }
+  },
+  "s4": {
+    "name": "Carregar Canhão",
+    "description": "Ataques automáticos têm 15% de chance de explodir uma bomba que causa {1} de DAN.F para alvos na área e os atordoa por 2 segundos.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "Reforça em 10% a chance de ativação.",
+    "dark": "O alvo recebe mais 25% de DAN.F"
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / DAN Crít. +20%",
+    "dark": "Ao acertar um Golpe Crítico, ganha 5% de DAN Crít e 30 de Percisão de CM. Acumula até 10 vezes."
+  }
+}

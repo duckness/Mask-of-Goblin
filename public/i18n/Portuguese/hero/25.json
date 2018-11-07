@@ -1,0 +1,120 @@
+{
+  "name": "Jane",
+  "subtitle": "Cadáver do Alabastro",
+  "description": "Essa menina se tornou um morto-vivo depois de lutar contra as Forças das Trevas no passado. Ela arrasta consigo o caixão no que ela dorme. Ela se recupera deixando uma marca de morte em seus inimigos.",
+  "story": "Antigamente, ela era a princesa da arruinada República de Gray. A República de Gray, erradicada pelos Demônio invasores durante a Guerra Demoníaca, guardava vários segredos, inclusive as ruínas e tecnologias de uma civilização antiga. Jane foi uma das pessoas que perderam suas vidas para proteger esses segredos. Mais tarde, Malduk, um oficial de alta patente e um estrategista do Exército Demoníaco, trouxe Jane de volta ao mundo como uma morta-viva. Ela recebeu uma nova mente por meio de uma estranha magia negra. Agora, almeja embarcar em uma jornada para encontrar seu antigo eu e suas lembranças perdidas.",
+  "like": "Não lembro exatamente... Meu...",
+  "dislike": "Ossos grandes...",
+  "inn": {
+    "idle": "...",
+    "recruit": {
+      "greet": "...Oi.",
+      "talk": [
+        "Quem é... você?",
+        "Eu... não sei quem é você...",
+        "Você... me conhece?"
+      ],
+      "gift": "Presente...? Obrigado...?"
+    },
+    "affinity": {
+      "greet": "Onde... é isso...?",
+      "talk": [
+        "Está frio... Não... Quente...",
+        "Eu... não... me lembro... Eu... quero... me lembrar..."
+      ],
+      "gift": "Presente...? Por que você fica me dando essas coisas?"
+    },
+    "relationship": {
+      "greet": "Bem-vindo de volta... uma saudação... para ele... quando voltar...",
+      "talk": [
+        "Relâmpago vermelho... mãos quentes... olhos gentis... nenhuma memória...",
+        "Memórias perdidas... vazio...",
+        "O caixão... o calor de sempre..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Erekura, Mente Imutável",
+    "description": [
+      "Causa 10% de ATQ como DAN.M para todos os alvos próximos e reduz seus ATQ em 14% por segundo. Quando o poder passivo for ativado, recupera 30% de mana.",
+      "Causa 12% de ATQ como DAN.M para todos os alvos próximos e reduz seus ATQ em 17% por segundo. Quando o poder passivo for ativado, recupera 30% de mana.",
+      "Causa 14% de ATQ como DAN.M para todos os alvos próximos e reduz seus ATQ em 20% por segundo. Quando o poder passivo for ativado, recupera 30% de mana.",
+      "Causa 17% de ATQ como DAN.M para todos os alvos próximos e reduz seus ATQ em 24% por segundo. Quando o poder passivo for ativado, recupera 30% de mana.",
+      "Causa 20% de ATQ como DAN.M para todos os alvos próximos e reduz seus ATQ em 29% por segundo. Quando o poder passivo for ativado, recupera 30% de mana.",
+      "Causa 25% de ATQ como DAN.M para todos os alvos próximos e reduz seus ATQ em 35% por segundo. Quando o poder passivo for ativado, recupera 30% de mana."
+    ],
+    "story": "Quando a magia de Malduk ressuscitou Jane como uma morta-viva, ela não deveria ter sentido nada. Ainda assim, ela se sentiu acolhida e confortável enquanto uma energia misteriosa envolvia seu corpo sem vida. Ela não deveria ter sido capaz de sentir isso. Porém, quando Malduk a tomou, ela instintivamente pediu ajuda à presença acolhedora. Depois, quando uma magia misteriosa a fez recuperar os sentidos, a primeira coisa que ela fez foi inspecionar seu caixão, que emanava um amor trágico, porém caloroso. Lá dentro, ela encontrou a seguinte mensagem minuciosamente entalhada: “Meu amor imutável por ti.”"
+  },
+  "s1": {
+    "name": "Ritos Fúnebres",
+    "description": "Causa {0} de DAN.M aos inimigos no alcance, atordoando-os durante {1} segundos.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta a duração do Atordoamento em {0} segundos."
+    },
+    "light": "O alvo recebe mais 25% de DAN.M durante 10 segundos.",
+    "dark": "Em troca de 1 Custo de Mana adicional, o poder tem 100% de chance de atrair o alvo."
+  },
+  "s2": {
+    "name": "Marca da Morte",
+    "description": "Grava uma marca em cada inimigo durante {0} segundos e causa constantemente {1} de DAN.M. O inimigo recebe mais {2}% de DAN.M quando estiver sob efeito dessa marca.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "Reduz a duração em 10 segundos e reforça o DAN em 250%.",
+    "dark": "Uma Marca Gravada não pode ser removida quando efeitos negativos forem removidos.",
+    "ut": {
+      "name": "Almofada Imbuída de Morte",
+      "description": [
+        "[Marca da Morte] Aumenta o ATQ em 5% e o DAN Crít. em 10% por 20s quando o inimigo marcado morre. O efeito é acumulado em até 8 vezes.",
+        "[Marca da Morte] Aumenta o ATQ em 5% e o DAN Crít. em 12% por 20s quando o inimigo marcado morre. O efeito é acumulado em até 8 vezes.",
+        "[Marca da Morte] Aumenta o ATQ em 5% e o DAN Crít. em 14% por 20s quando o inimigo marcado morre. O efeito é acumulado em até 8 vezes.",
+        "[Marca da Morte] Aumenta o ATQ em 5% e o DAN Crít. em 17% por 20s quando o inimigo marcado morre. O efeito é acumulado em até 8 vezes.",
+        "[Marca da Morte] Aumenta o ATQ em 5% e o DAN Crít. em 21% por 20s quando o inimigo marcado morre. O efeito é acumulado em até 8 vezes.",
+        "[Marca da Morte] Aumenta o ATQ em 5% e o DAN Crít. em 25% por 20s quando o inimigo marcado morre. O efeito é acumulado em até 8 vezes."
+      ],
+      "story": "A almofada que Jane abraça ao dormir dentro do caixão. Foi saturada com os espíritos que adormeceram com ela dentro do túmulo. Eles constantemente dão a ela o vazio da morte."
+    }
+  },
+  "s3": {
+    "name": "Dia da Ruína",
+    "description": "Causa {1} de DAN.M aos inimigos a cada {0} segundos e cura uma quantidade de seu PV equivalente a {2}% do DAN. Ganha imunidade a penalidades. O DAN é aumentado se os inimigos estiverem marcados.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Recupera {0}% de PM."
+    },
+    "light": "Aumenta o DAN em 40%.",
+    "dark": "Há 10% de chance de Atordoar os inimigos durante 1 segundo.",
+    "ut": {
+      "name": "Flor do Ducado Esquecido",
+      "description": [
+        "[Dia da Ruína] Aumenta o DAN em 20% e a cada DAN causado, reduz a DEF.M do alvo em 5% por 5 segundos. Esse efeito pode ser acumulado no máximo 10 vezes.",
+        "[Dia da Ruína] Aumenta o DAN em 24% e a cada DAN causado, reduz a DEF.M do alvo em 5% por 5 segundos. Esse efeito pode ser acumulado no máximo 10 vezes.",
+        "[Dia da Ruína] Aumenta o DAN em 29% e a cada DAN causado, reduz a DEF.M do alvo em 5% por 5 segundos. Esse efeito pode ser acumulado no máximo 10 vezes.",
+        "[Dia da Ruína] Aumenta o DAN em 35% e a cada DAN causado, reduz a DEF.M do alvo em 5% por 5 segundos. Esse efeito pode ser acumulado no máximo 10 vezes.",
+        "[Dia da Ruína] Aumenta o DAN em 42% e a cada DAN causado, reduz a DEF.M do alvo em 5% por 5 segundos. Esse efeito pode ser acumulado no máximo 10 vezes.",
+        "[Dia da Ruína] Aumenta o DAN em 50% e a cada DAN causado, reduz a DEF.M do alvo em 5% por 5 segundos. Esse efeito pode ser acumulado no máximo 10 vezes."
+      ],
+      "story": "Uma flor da República que não pode mais ser encontrada. Também é conhecida como Flor das Fronteiras, que liga a vida e a morte, e é nutrida pela destruição. Uma flor dolorosamente bela. Se você a der como presente a alguém, você poderá compartilhar o último instante dessa pessoa em um sonho."
+    }
+  },
+  "s4": {
+    "name": "Descanse em Paz",
+    "description": "Ao receber um golpe fatal, a personagem entra em seu caixão durante {0} segundos. Recupera uma quantidade de PV equivalente a {1} + 6% do PV Máx. Ganha imunidade contra qualquer tipo de DAN enquanto estiver no caixão.",
+    "books": {
+      "0": "Aumenta a Recuperação em {0}%.",
+      "1": "Aumenta a Recuperação em {0}%.",
+      "2": "Aumenta a Recuperação em {0}%."
+    },
+    "light": "Enquanto estiver dentro do Caixão, causa DAN igual a 5% do PV Máx. aos inimigos próximos.",
+    "dark": "Ao ativar, atordoa todos os inimigos durante 2 segundos."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / BLQ.M +200",
+    "dark": "Cada acerto dos ataques de Jane aumenta seu ATQ e Taxa de Recuperação em 1% cada. Quantidade máx. de acúmulos: 50."
+  }
+}

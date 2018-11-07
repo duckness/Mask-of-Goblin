@@ -1,0 +1,120 @@
+{
+  "name": "Morrah",
+  "subtitle": "Llama del Diablo",
+  "description": "Un caballero demonio que utiliza la lava de las Fuerzas Oscuras. Inflige un intenso dolor ardiente sobre los enemigos y combate batallas de resistencia utilizando su defensa de granito.",
+  "story": "La antigua comandante de los caballeros del dragón obscuro, es la caballera demonio más valiente del ejército de demonios. Actualmente, por algún motivo desconocido, está siguiendo a la bruja María y la ayuda en su trabajo. A muchos les parece raro que la antigua campeona del ejército de demonios, quien asesinó a incontables enemigos e incluso devoró dragones, ahora trabaje con una simple bruja como su sirviente. Sin embargo, continúa sirviendo fielmente a su maestra.",
+  "like": "Enemigos formidables, peleas que valen la pena",
+  "dislike": "Dragones",
+  "inn": {
+    "idle": "¿Qué es? ¿Quieres morir?",
+    "recruit": {
+      "greet": "No te metas conmigo.",
+      "talk": [
+        "No voy a pelear con nadie dentro de esta Posada. Pero, será mejor que te mantengas alejado de mí afuera.",
+        "Parece que tu vida está llena de ocio. En ese caso, ¿qué tal si me das tu cabeza?",
+        "No me hables."
+      ],
+      "gift": "Quiero ver tu sangre, no esto."
+    },
+    "affinity": {
+      "greet": "Qué desastre.",
+      "talk": [
+        "Deja de molestarme, si no quieres morir.",
+        "Déjame en paz. No tuve opción."
+      ],
+      "gift": "¿Crees que disfruto esto?"
+    },
+    "relationship": {
+      "greet": "Aquí estás. ya está decidida la próxima batalla?",
+      "talk": [
+        "He prometido mi lealtad a María. Sin embargo... Tengo una deuda contigo también",
+        "General de los Dracónicos... Sí, ese fue mi pasado. No tenía otros objetivos...",
+        "Soy un Demonio creado para destruir, un Dracónico... aunque..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Llama de la Victoria, Carprain",
+    "description": [
+      "Cada 10 seg, inflige Daño Magico (80% de ATQ) sobre enemigos que tienen acumulacion de Llama. Cada acumulacion de llama aumenta el Daño en un 2%. También hay un 14% de probabilidad de que los enemigos con acumulacion de Llama puedan ser derribados.",
+      "Cada 10 seg, inflige Daño Magico (96% de ATQ) sobre enemigos que tienen acumulacion de Llama. Cada acumulacion de llama aumenta el Daño en un 2%. También hay un 16% de probabilidad de que los enemigos con acumulacion de Llama puedan ser derribados.",
+      "Cada 10 seg, inflige Daño Magico (115% de ATQ) sobre enemigos que tienen acumulacion de Llama. Cada acumulacion de llama aumenta el Daño en un 2%. También hay un 20% de probabilidad de que los enemigos con acumulacion de Llama puedan ser derribados.",
+      "Cada 10 seg, inflige Daño Magico (138% de ATQ) sobre enemigos que tienen acumulacion de Llama. Cada acumulacion de llama aumenta el Daño en un 2%. También hay un 24% de probabilidad de que los enemigos con acumulacion de Llama puedan ser derribados.",
+      "Cada 10 seg, inflige Daño Magico (166% de ATQ) sobre enemigos que tienen acumulacion de Llama. Cada acumulacion de llama aumenta el Daño en un 2%. También hay un 29% de probabilidad de que los enemigos con acumulacion de Llama puedan ser derribados.",
+      "Cada 10 seg, inflige Daño Magico (200% de ATQ) sobre enemigos que tienen acumulacion de Llama. Cada acumulacion de llama aumenta el Daño en un 2%. También hay un 35% de probabilidad de que los enemigos con acumulacion de Llama puedan ser derribados."
+    ],
+    "story": "En el corazón del Volcán Dragia existe una forja. Cientos de años atrás, Temeraire, el dragón de fuego ancestral, creó un conjunto de equipo encantado mágicamente. Al utilizar lava infundida con el poder del fuego volcánico, forjó un escudo y una espada capaz de incinerar todo. Durante la guerra contra los demonios, Temerario los concedió a un guerrero humano. Lamentablemente, se dice que el guerrero ha sido derrotado por Morrah. Nadie ha visto este legendario equipo desde entonces. Eso fue hasta que Morrah reapareció en la primera línea."
+  },
+  "s1": {
+    "name": "Poder Ardiente",
+    "description": "Infligir {0} Daño Magico sobre los enemigos al alcance y derribarlos. También, acumula Llama 3 veces. Luego, por  {1}  seg, los ataques automáticos causan  {2}  Daño Magico y acumulan 1 Llama sobre el enemigo. Cada acumulacion de Llamas aumenta el Daño de Llama en  {3}%. Cada acumulacion de Llama daña por separado, y reduce la recuperación en un 1%.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "La Veloc de ATQ se incrementa en 200 durante 15 seg.",
+    "dark": "Reduce el tiempo de reutilización un 6% por cada golpe enemigo."
+  },
+  "s2": {
+    "name": "Fuego del Infierno",
+    "description": "Aumenta DEF Magica de todos los aliados en  {1} , y también aumenta la Oportunidad de Bloqueo Magico en  {2}. Además, acumula Llamas en los enemigos cercanos cada  {3}  seg.",
+    "books": {
+      "0": "la DEF Magica aumenta en {0}%.",
+      "1": "la DEF Magica aumenta en {0}%.",
+      "2": "la Oportunidad de Bloqueo Magico aumenta en {0}%."
+    },
+    "light": "La tasa de Bloqueo Magico se incrementa en un 20%.",
+    "dark": "Mientras que el Fuego del Infierno este activo, causa Daño basado en tu propia DEF Magica a los enemigos cercanos.",
+    "ut": {
+      "name": "Guantes de cuero de polluelo",
+      "description": [
+        "[Fuego infernal] Al bloquear el Ataque mágico del enemigo mientras dura la habilidad, la reducción del Daño aumenta en 100 y la resistencia al golpe crítico mágico aumenta en 250.",
+        "[Fuego infernal] Al bloquear el Ataque mágico del enemigo mientras dura la habilidad, la reducción del Daño aumenta en 120 y la resistencia al golpe crítico mágico aumenta en 250.",
+        "[Fuego infernal] Al bloquear el Ataque mágico del enemigo mientras dura la habilidad, la reducción del Daño aumenta en 140 y la resistencia al golpe crítico mágico aumenta en 250.",
+        "[Fuego infernal] Al bloquear el Ataque mágico del enemigo mientras dura la habilidad, la reducción del Daño aumenta en 170 y la resistencia al golpe crítico mágico aumenta en 250.",
+        "[Fuego infernal] Al bloquear el Ataque mágico del enemigo mientras dura la habilidad, la reducción del Daño aumenta en 210 y la resistencia al golpe crítico mágico aumenta en 250.",
+        "[Fuego infernal] Al bloquear el Ataque mágico del enemigo mientras dura la habilidad, la reducción del Daño aumenta en 250 y la resistencia al golpe crítico mágico aumenta en 250."
+      ],
+      "story": "Guantes fabricados con los huesos y la piel de un polluelo. Morrah lo fabricó hace cien años al recolectar los polluelos que mataba cuando salía a cazar dragones. Es lo suficientemente durable para soportar las llamas de Morrah e incluso imbuye un poder más fuerte para permitir que las llamas se enciendan aún más. Morrah realmente adora estos guantes."
+    }
+  },
+  "s3": {
+    "name": "Erupcion de Lava",
+    "description": "Causa  {0}  Daño Magico a los enemigos al alcance y derribalos. El daño aumenta en  {1}% para cada acumulacion de Llama.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "el Daño se incrementa en un 40%.",
+    "dark": "Cura la Salud equivalente al 40% del Daño Causado",
+    "ut": {
+      "name": "Piedra del infierno sellada",
+      "description": [
+        "[Erupción de Lava] El Daño aumenta en un 20% y la DEF Mágica del objetivo disminuye en un 25% durante 7 segundos.",
+        "[Erupción de Lava] El Daño aumenta en un 24% y la DEF Mágica del objetivo disminuye en un 25% durante 7 segundos.",
+        "[Erupción de Lava] El Daño aumenta en un 29% y la DEF Mágica del objetivo disminuye en un 25% durante 7 segundos.",
+        "[Erupción de Lava] El Daño aumenta en un 35% y la DEF Mágica del objetivo disminuye en un 25% durante 7 segundos.",
+        "[Erupción de Lava] El Daño aumenta en un 42% y la DEF Mágica del objetivo disminuye en un 25% durante 7 segundos.",
+        "[Erupción de Lava] El Daño aumenta en un 50% y la DEF Mágica del objetivo disminuye en un 25% durante 7 segundos."
+      ],
+      "story": "Un fragmento extraño proveniente de la Grieta dimensional. Dentro del fragmento, hay una llama que mata todo lo que esté vivo. La energía de su dimensión está condensada en el fragmento. Es absolutamente necesario para completar el plan de María."
+    }
+  },
+  "s4": {
+    "name": "Choque de Fuego",
+    "description": "Al bloquear, causa {1} Daño Mágico a los enemigos al alcance e inflige 3 pilas de Llama.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Aumenta tu propia DEF Magica en un 5% por cada bloqueo. La pila máx es de 10.",
+    "dark": "El objetivo con más de 100 pilas de Llama recibe un 40% de Daño Mágico aumentado."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Bloq Magico +200",
+    "dark": "El Daño causado por la pila de Llama aumenta en un 100% y el número máximo de pilas cambia a 120."
+  }
+}

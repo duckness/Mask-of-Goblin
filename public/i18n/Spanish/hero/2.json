@@ -1,0 +1,120 @@
+{
+  "name": "Frey",
+  "subtitle": "Cleriga de Luz",
+  "description": "Una amiga de la infancia de Kasel, ella es una clériga que sirve a la Diosa. Ella cura y protege a los aliados con el poder de la luz. Con las bendiciones de la Diosa, puede aumentar temporalmente los poderes mágicos y la resistencia.",
+  "story": "Una clériga aprendiz que sirve a la diosa Lua, la iglesia tiene altas expectativas como futura clériga. Desde los primeros momentos de su entrenamiento, ha sorprendido a los clérigos más destacados con su firme fe y talento natural para canalizar el poder de Lua. Ella misma considera que el sacerdocio es su camino de destino y su corazón bondadoso refleja su determinación. Sin embargo, no muestra piedad hacia los malhechores.",
+  "like": "Lua, trabajo actual",
+  "dislike": "Injusticia",
+  "inn": {
+    "idle": "Diosa Lua, quien reside dentro de la Luz, que nuestra fé nunca desaparezca",
+    "recruit": {
+      "greet": "Que la bendición de Lua sea contigo.",
+      "talk": [
+        "Mi relación con Kasel? Jaja, somos como una familia. Supongo que soy su guardián?",
+        "Me pregunto cómo está la Alta Clériga Iris. No la he visto desde que me fui...",
+        "Jaja, acaso Roi y Cleo no son una buena pareja?"
+      ],
+      "gift": "Wow gracias."
+    },
+    "affinity": {
+      "greet": "Ahí estás. No te lastimaste, ¿verdad?",
+      "talk": [
+        "En ocasiones, aparece una luz brillante en mis sueños. Veo personas con alas blancas y un sol radiante detrás de ellas...",
+        "¿Quién me gusta? E-eso es un secreto entre Lua y yo."
+      ],
+      "gift": "Gracias. No olvidaré este gesto."
+    },
+    "relationship": {
+      "greet": "Sinceramente rezo para que Lua te cuide.",
+      "talk": [
+        "La seguridad de Kasel es importante. Después de todo fue elegido por la Diosa.",
+        "Todas las decisiones se pueden cumplir con arrogancia. Mientras la Diosa esté feliz, no me importa",
+        "La relación entre Dios y los clérigos no es tan diferente de una relación entre personas sencillas. Algunas veces... no estamos de acuerdo."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Autoridad de Dios, Rosmerta",
+    "description": [
+      "Brinda un 40% de probabilidad de restaurar la salud al 42% del ATQ a un aliado con la Salud más baja.",
+      "Brinda un 40% de probabilidad de restaurar la salud al 50.4% del ATQ a un aliado con la Salud más baja.",
+      "Brinda un 40% de probabilidad de restaurar la salud al 58.8% del ATQ a un aliado con la Salud más baja.",
+      "Brinda un 40% de probabilidad de restaurar la salud al 71.4% del ATQ a un aliado con la Salud más baja.",
+      "Brinda un 40% de probabilidad de restaurar la salud al 86.1% del ATQ a un aliado con la Salud más baja.",
+      "Brinda un 40% de probabilidad de restaurar la salud al 105% del ATQ a un aliado con la Salud más baja."
+    ],
+    "story": "Se dice que los ángeles están más cerca de Lua que de cualquier otra raza. Cuando un ángel de alta clasificación muere, el núcleo que resta se transfiere al cielo de ángeles para la resurrección. Sin embargo, un cierto ángel, Rosmerta, concedió su núcleo a la iglesia de Lua. Este bastón sagrado ha sido creado a partir de la divina energía del núcleo."
+  },
+  "s1": {
+    "name": "Luz Milagrosa",
+    "description": "Cura al aliado que posea la Salud mas baja {0} Salud.",
+    "books": {
+      "0": "Aumenta la Recuperacion en {0}%.",
+      "1": "Aumenta la Recuperacion en {0}%.",
+      "2": "Elimina los efectos dañinos del objetivo."
+    },
+    "light": "A cambio de 1 Maná adicional, la habilidad apunta a 2 aliados.",
+    "dark": "Los aliados curados reciben un 25% de Daño Magico reducido durante 10 seg."
+  },
+  "s2": {
+    "name": "Bendiciones de Luz",
+    "description": "Coloca un escudo en todos los aliados que absorba {1} Daño por {0} segundos. Mientras el escudo este activo, seras inmune al Control de Masas.",
+    "books": {
+      "0": "Aumenta el Escudo en {0}%.",
+      "1": "Aumenta el Escudo en {0}%.",
+      "2": "Aumenta la resistencia del objetivo en {0}% durante la duracion de la habilidad."
+    },
+    "light": "La cantidad de escudo se incrementa en un 40%.",
+    "dark": "Los aliados blindados obtienen 20% de ATQ",
+    "ut": {
+      "name": "Medalla milagrosa",
+      "description": [
+        "[Bendiciones de luz] Aumenta la protección del escudo en un 50 % y recupera 100 de Mana cada segundo durante 4 segundos.",
+        "[Bendiciones de luz] Aumenta la protección del escudo en un 50 % y recupera 120 de Mana cada segundo durante 4 segundos.",
+        "[Bendiciones de luz] Aumenta la protección del escudo en un 50 % y recupera 140 de Mana cada segundo durante 4 segundos.",
+        "[Bendiciones de luz] Aumenta la protección del escudo en un 50 % y recupera 170 de Mana cada segundo durante 4 segundos.",
+        "[Bendiciones de luz] Aumenta la protección del escudo en un 50 % y recupera 210 de Mana cada segundo durante 4 segundos.",
+        "[Bendiciones de luz] Aumenta la protección del escudo en un 50 % y recupera 250 de Mana cada segundo durante 4 segundos."
+      ],
+      "story": "Medalla hecha por la santa de los milagros, Ivonne, con la revelación de la diosa. La medalla de milagros es un artefacto sagrado que contiene la magia de la luz. Se dice que la santa Ivonne salvó la ciudad cuando fue invadida por los demonios con la bendición de la luz que esta medalla produjo."
+    }
+  },
+  "s3": {
+    "name": "Venganza del Cielo",
+    "description": "Ataca al objetivo y a los enemigos cercanos 6 veces, lo que inflige un total de {0} de Daño mágico y los ciega durante {1} segundo(s).",
+    "books": {
+      "0": "Aumenta el Daño en {0}%.",
+      "1": "Aumenta el Daño en {0}%.",
+      "2": "la Oportunidad Crit. Aumenta en {0}."
+    },
+    "light": "A cambio de 1 Mana adicional, el Daño se incrementa en un 80%.",
+    "dark": "La duracion de Cegar se reduce en 2 segundos y ahora se dirige a un enemigo aleatorio.",
+    "ut": {
+      "name": "Pluma de los árbitros olvidados",
+      "description": [
+        "[Venganza del Cielo] el objetivo recibe un 20% de Daño Mágico aumentado durante 10 segundos, y la duración de Ceguera se incrementa en 1 segundo.",
+        "[Venganza del Cielo] el objetivo recibe un 20% de Daño Mágico aumentado durante 10 segundos, y la duración de Ceguera se incrementa en 1.5 segundos.",
+        "[Venganza del Cielo] el objetivo recibe un 20% de Daño Mágico aumentado durante 10 segundos, y la duración de Ceguera se incrementa en 2 segundos.",
+        "[Venganza del Cielo] el objetivo recibe un 20% de Daño Mágico aumentado durante 10 segundos, y la duración de Ceguera se incrementa en 2.5 segundos.",
+        "[Venganza del Cielo] el objetivo recibe un 20% de Daño Mágico aumentado durante 10 segundos, y la duración de Ceguera se incrementa en 3 segundos.",
+        "[Venganza del Cielo] el objetivo recibe un 20% de Daño Mágico aumentado durante 10 segundos, y la duración de Ceguera se incrementa en 3.5 segundos."
+      ],
+      "story": "Pluma de la guardiana del sol. Pluma de un ángel que salvó a las personas al pelear contra los demonios en el pasado. Dejó su pluma como prueba de su promesa de regresar una vez más si el mundo entraba en caos. Un artefacto de la Iglesia de Lua que convoca rayos de sol sagrados para cegar al enemigo."
+    }
+  },
+  "s4": {
+    "name": "Gracia de Diosa",
+    "description": "Aumenta la Defensa mágica de 1 aliado con la Salud más baja en {1} durante {0} segundo(s) cada 15 segundos.",
+    "books": {
+      "0": "Aumenta la fuerza de DEF Mágica en {0}%.",
+      "1": "Aumenta la fuerza de DEF Mágica en {0}%.",
+      "2": "Restaura la Salud del objetivo en {0}% durante la duracion de la habilidad."
+    },
+    "light": "La Veloc de ATQ del objetivo aumenta en 250.",
+    "dark": "El número de objetivos cambia a 2."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Bloq Magico +200",
+    "dark": "Los aliados curados por Frey reciben el 5% de su ATQ como una debilitacion de ATQ durante 5 seg."
+  }
+}

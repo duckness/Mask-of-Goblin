@@ -1,0 +1,120 @@
+{
+  "name": "Morrah",
+  "subtitle": "Teufels Flamme",
+  "description": "Ein Dämonenritter, der die Lava der dunklen Mächte verwendet. Fügt Feinden unerträgliche Verbrennungen zu und steht lange Kämpfe mir ihrer granitartigen Verteidigung durch.",
+  "story": "Die ehemalige Kommandantin der Dunkeldrachenritter ist die furchtloseste Dämonenritterin der Dämonenarmee. Aus unbekannten Gründen folgt sie momentan der Hexe Maria und unterstützt sie bei ihrer Arbeit. Viele finden es seltsam, dass die ehemalige Heldin der Dämonenarmee, die zahllose Feinde erschlagen und sogar Drachen verschlungen hatte, nun für eine einfache Hexe als Dienerin arbeitet. Nichtsdestotrotz fährt sie damit fort, ihrer Meisterin treu zu dienen.",
+  "like": "Furchteinflößende Feinde; würdige Kämpfe",
+  "dislike": "Drachen",
+  "inn": {
+    "idle": "Was ist? Willst du sterben?",
+    "recruit": {
+      "greet": "Wir sind keine Freunde. Halte Abstand.",
+      "talk": [
+        "Ich will in dieser Taverne keinen Kampf anfangen. Aber draußen solltest du von mir Abstand halten.",
+        "Du scheinst zuviel Freizeit zu haben. Wie wär's, wenn du mir dein Leben gibst?",
+        "Sprich mich nicht an."
+      ],
+      "gift": "Ich will dein Blut sehen und nicht sowas."
+    },
+    "affinity": {
+      "greet": "Wie schäbig.",
+      "talk": [
+        "Hör auf mich zu nerven, wenn du am Leben bleiben willst.",
+        "Lass mich in Ruhe. Ich hatte keine Wahl."
+      ],
+      "gift": "Hättest du gedacht, dass mir das gefallen würde?"
+    },
+    "relationship": {
+      "greet": "Du bist hier. Ist der nächste Kampf entschieden?",
+      "talk": [
+        "Ich habe mich Maria verschrieben. Jedoch... habe ich noch meine Schulden bei dir zu begleichen.",
+        "General der Drachenartigen... ja, das war ich früher. Ich hatte keine anderen Ziele.",
+        "Ich bin eine Dämonin, erschaffen für Zerstörung, eine Drachenartige... jedoch..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Carprain, Flamme des Triumphs",
+    "description": [
+      "Fügt alle 10 Sek Feinden mit Flamme M.Schaden (80% d. ANG) zu. Jede Flamme erhöht den Schaden um 2%. 14% Chance, Feinde mit Flamme zu Boden zu werfen.",
+      "Fügt alle 10 Sek Feinden mit Flamme M.Schaden (96% d. ANG) zu. Jede Flamme erhöht den Schaden um 2%. 16% Chance, Feinde mit Flamme zu Boden zu werfen.",
+      "Fügt alle 10 Sek Feinden mit Flamme M.Schaden (115% d. ANG) zu. Jede Flamme erhöht den Schaden um 2%. 20% Chance, Feinde mit Flamme zu Boden zu werfen.",
+      "Fügt alle 10 Sek Feinden mit Flamme M.Schaden (138% d. ANG) zu. Jede Flamme erhöht den Schaden um 2%. 24% Chance, Feinde mit Flamme zu Boden zu werfen.",
+      "Fügt alle 10 Sek Feinden mit Flamme M.Schaden (166% d. ANG) zu. Jede Flamme erhöht den Schaden um 2%. 29% Chance, Feinde mit Flamme zu Boden zu werfen.",
+      "Fügt alle 10 Sek Feinden mit Flamme M.Schaden (200% d. ANG) zu. Jede Flamme erhöht den Schaden um 2%. 35% Chance, Feinde mit Flamme zu Boden zu werfen."
+    ],
+    "story": "Im Herzen des Dragia-Vulkans gibt es eine Schmiede. Vor hunderten von Jahren schuf Temeraire, der antike Feuerdrache, eine Reihe magischer Ausrüstungsgegenstände. Mithilfe von Lava und ihrer Kraft des vulkanischen Feuers schmiedete er einen Schild und ein Schwert mit der Fähigkeit, Dinge in Brand zu setzen. Während des Krieges gegen die Dämonen gab er diese Gegenstände einem menschlichen Krieger. Doch dieser Krieger wurde angeblich von Morrah getötet. Seitdem wurde diese legendäre Ausrüstung nicht mehr gesehen. Bis Morrah eines Tages wieder an der Front auftauchte."
+  },
+  "s1": {
+    "name": "Wütende Kraft",
+    "description": "Fügt Feinden in Reichw. {0} M.Schaden zu und wirft sie zu Boden. Legt ihnen zusätzlich 3 Flammen auf. Für {1} Sek verursacht jeder normale Angriff {2} M.Schaden und legt dem Feind 1 Flamme auf. Jede Flamme erhöht den Schaden um {3}%. Jede Flamme verursacht Schaden und verringert Heilung um 1%.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Erhöht die ANG-Geschw. 15 Sek lang um 200.",
+    "dark": "Jeder Treffer reduziert Cooldown um 6%."
+  },
+  "s2": {
+    "name": "Höllenfeuer",
+    "description": "Erhöht M.VERT aller Verbündeten um {1} für {0} Sek. und M.Block Chance um {2}. Legt Feinden in d. Umgebung zusätzlich 1 Flamme alle {3} Sek auf.",
+    "books": {
+      "0": "Erhöht M.VERT Erhöhungsrate um {0}%.",
+      "1": "Erhöht M.VERT Erhöhungsrate um {0}%.",
+      "2": "Erhöht M. Block Chance Erhöhungsrate um {0}%."
+    },
+    "light": "Erhöht M.Blockrate um 20%.",
+    "dark": "Fügt Feinden in Reichw. Schaden basierend auf der eigenen M.VERT zu, während Höllenfeuer aktiv ist.",
+    "ut": {
+      "name": "Jungtier-Lederhandschuhe",
+      "description": [
+        "[Höllenfeuer] Wird ein M.ANG des Ziels während der Dauer des Skills geblockt, wird die Schadensverringerung um 100 und der M.krit. Widerstand um 250 erhöht.",
+        "[Höllenfeuer] Wird ein M.ANG des Ziels während der Dauer des Skills geblockt, wird die Schadensverringerung um 120 und der M.krit. Widerstand um 250 erhöht.",
+        "[Höllenfeuer] Wird ein M.ANG des Ziels während der Dauer des Skills geblockt, wird die Schadensverringerung um 140 und der M.krit. Widerstand um 250 erhöht.",
+        "[Höllenfeuer] Wird ein M.ANG des Ziels während der Dauer des Skills geblockt, wird die Schadensverringerung um 170 und der M.krit. Widerstand um 250 erhöht.",
+        "[Höllenfeuer] Wird ein M.ANG des Ziels während der Dauer des Skills geblockt, wird die Schadensverringerung um 210 und der M.krit. Widerstand um 250 erhöht.",
+        "[Höllenfeuer] Wird ein M.ANG des Ziels während der Dauer des Skills geblockt, wird die Schadensverringerung um 250 und der M.krit. Widerstand um 250 erhöht."
+      ],
+      "story": "Handschuhe, die aus den Knochen und der Haut eines Dunklen Jungtiers gefertigt wurden. Morrah stellte sie vor hundert Jahren her, indem sie die von ihr getöteten Jungtiere sammelte, wenn sie auf Drachenjagd ging. Sie sind so robust, dass sie selbst Morrahs Flammen standhalten können und sind außerdem mit einem eigenen, stärkeren Zauber durchwirkt, der die Flammen noch höher auflodern lässt. Morrah mag diese Handschuhe wirklich sehr."
+    }
+  },
+  "s3": {
+    "name": "Lavaausbruch",
+    "description": "Fügt Feinden in Reichw. {0} M.Schaden zu und wirft wie zu Boden. Jede Flamme erhöht den Schaden um {1}%.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Erhöht Schaden um 40%.",
+    "dark": "Heilt die eigene TP um 40% des verursachten Schadens.",
+    "ut": {
+      "name": "Versiegelter Höllenstein",
+      "description": [
+        "[Lavaausbruch] Erhöht Schaden um 20% und reduziert M.VERT des Ziels 7 Sek. lang um 25%.",
+        "[Lavaausbruch] Erhöht Schaden um 24% und reduziert M.VERT des Ziels 7 Sek. lang um 25%.",
+        "[Lavaausbruch] Erhöht Schaden um 29% und reduziert M.VERT des Ziels 7 Sek. lang um 25%.",
+        "[Lavaausbruch] Erhöht Schaden um 35% und reduziert M.VERT des Ziels 7 Sek. lang um 25%.",
+        "[Lavaausbruch] Erhöht Schaden um 42% und reduziert M.VERT des Ziels 7 Sek. lang um 25%.",
+        "[Lavaausbruch] Erhöht Schaden um 50% und reduziert M.VERT des Ziels 7 Sek. lang um 25%."
+      ],
+      "story": "Ein seltsames Fragment, das aus dem Dimensionsriss stammt. In dem Fragment ist eine Flamme, die alles Leben vernichten kann. Die Energie aus seiner Dimension ist darin kondensiert. Es ist absolut notwendig, um Marias Plan in die Tat umzusetzen."
+    }
+  },
+  "s4": {
+    "name": "Feuerschlag",
+    "description": "Fügt Gegnern in Reichw. beim erfolgreichen Block {1} M. Schaden zu und fügt 3 Flammen-Zähler hinzu.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Erhöht die eigene M.VERT um 5% mit jedem Block. Kumuliert sich bis zu 10 Mal.",
+    "dark": "Ziele mit mehr als 100 Flammen-Zählern erleiden 40% mehr M. Schaden."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / M.Block +200",
+    "dark": "Schaden für Flammen-Zähler ist um 100% erhöht, max. Kumulation wurde auf 120 geändert."
+  }
+}

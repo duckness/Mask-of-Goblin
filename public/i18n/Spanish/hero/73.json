@@ -1,0 +1,120 @@
+{
+  "name": "Chase",
+  "subtitle": "Clase 0",
+  "description": "Un sujeto de prueba que ha perdido su pasado y un guerrero furioso que lucha salvajemente con su poder rebosante en batalla. Un arma poderosa que destruye todo lo que se cruza en su camino.",
+  "story": "Un hombre que perdió la memoria. Sujeto de prueba de clase 0 nacido como parte del experimento de optimización humana del imperio. Como la primera clase del proyecto de «Caballeros malvados», que fueron creados exclusivamente para matar, Chase fue convocado mediante un contrato secreto con el imperio para asesinar a la única heredera del trono: Scarlet. Sin embargo, por motivos desconocidos, enloqueció durante una pelea contra Clause y Demia, escoltas de Scarlet, abandonó la misión y huyó. Como no logró asesinar a Scarlet y desapareció, los nobles que habían encargado el ataque se vieron en problemas. Al final, contrataron a otro equipo de asesinos, la Máscara sonriente, para matarlo. No obstante, Scarlet ya le había dado un nombre, «Chase», y le había permitido quedarse a su lado.",
+  "like": "Scarlet, Demia, Clause y los amigos lo llaman por su nombre",
+  "dislike": "Memoria del pasado, número de sujeto de prueba.",
+  "inn": {
+    "idle": "Un entorno desconocido. Paisajes desconocidos...",
+    "recruit": {
+      "greet": "No te recuerdo.",
+      "talk": [
+        "¿Hay alguien aquí que me conozca?",
+        "Sé que he matado a muchas personas. ¿Pero por qué? ¿Cómo pudo ser?",
+        "Hoy vi a alguien que me miraba. ¿Podría ser... que alguien me reconociera?"
+      ],
+      "gift": "Gracias. Supongo que debo decir eso."
+    },
+    "affinity": {
+      "greet": "Umm...",
+      "talk": [
+        "Mi nombre... El nombre por el que me llaman... Es por eso que pelearé por ellos.",
+        "Mi nombre es Chase... Chase... Mi nombre es Chase ahora..."
+      ],
+      "gift": "¿Puedo... tomar esto? ¿De verdad...?"
+    },
+    "relationship": {
+      "greet": "No la veo. Si no la encuentro pronto, Demia se enojará.",
+      "talk": [
+        "Lo sentí con mi cuerpo. Su poder... Probablemente intentaron subyugarme sin matarme.",
+        "Me aceptó con tanta bondad, incluso aunque intenté matarla... Me dio un nombre... Y se paró frente a mí...",
+        "Demia me asusta... Clause es bueno, pero ella a veces me da miedo, aunque siempre es amable."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Monolito lancero de sangre",
+    "description": [
+      "Aumenta el Daño crítico propio en un 20 %. Al provocar un ataque automático, inflige Daño físico equivalente al 30 % de Ataque con [Llama de monolito] y recupera Salud equivalente al 20 % del Daño provocado. Si está activado [Eliminar límite], el efecto de [Llama de monolito] se duplica.",
+      "Aumenta el Daño crítico propio en un 24 %. Al provocar un ataque automático, inflige Daño físico equivalente al 36 % de Ataque con [Llama de monolito] y recupera Salud equivalente al 20 % del Daño provocado. Si está activado [Eliminar límite], el efecto de [Llama de monolito] se duplica.",
+      "Aumenta el Daño crítico propio en un 28 %. Al provocar un ataque automático, inflige Daño físico equivalente al 43 % de Ataque con [Llama de monolito] y recupera Salud equivalente al 20 % del Daño provocado. Si está activado [Eliminar límite], el efecto de [Llama de monolito] se duplica.",
+      "Aumenta el Daño crítico propio en un 34 %. Al provocar un ataque automático, inflige Daño físico equivalente al 52 % de Ataque con [Llama de monolito] y recupera Salud equivalente al 20 % del Daño provocado. Si está activado [Eliminar límite], el efecto de [Llama de monolito] se duplica.",
+      "Aumenta el Daño crítico propio en un 42 %. Al provocar un ataque automático, inflige Daño físico equivalente al 62 % de Ataque con [Llama de monolito] y recupera Salud equivalente al 20 % del Daño provocado. Si está activado [Eliminar límite], el efecto de [Llama de monolito] se duplica.",
+      "Aumenta el Daño crítico propio en un 50 %. Al provocar un ataque automático, inflige Daño físico equivalente al 75 % de Ataque con [Llama de monolito] y recupera Salud equivalente al 20 % del Daño provocado. Si está activado [Eliminar límite], el efecto de [Llama de monolito] se duplica."
+    ],
+    "story": "Un arma para el humano optimizado de clase 0 fabricada después de miles de intentos en uno de los laboratorios del imperio. El humano optimizado de clase 0 destruyó todo apenas despertó en el laboratorio con el fin de encontrar un arma capaz de resistir su poder. Al final, rompió el cuerno del monstruo Caníbal, el cual era famoso por haberse tragado la soberbia de los 7 pecados. Este cuerno pasó por las manos de los mejores herreros del imperio y se convirtió en el Monolito lancero de sangre. La llama del pecado arde en el interior del arma, y es imposible curar lo que perfora. La sensación de atacar con esta arma es lo suficientemente placentera como para hacerle olvidar el apego constante a su memoria perdida."
+  },
+  "s1": {
+    "name": "¡Te destruiré!",
+    "description": "Impide que el objetivo reciba los efectos positivos durante 4 segundos, y ataca para infligir {0} de Daño físico y derribar al objetivo. Inflige {1} de Daño físico después de 1 segundo a los enemigos alrededor del objetivo y los aturde durante {2} segundos.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Reduce el Costo de Mana en 1.",
+    "dark": "El objetivo recibe un 25 % de Daño físico adicional durante 10 segundos."
+  },
+  "s2": {
+    "name": "Eliminar límite",
+    "description": "Al activarlo, [Eliminar límite] tiene efecto. Cuando se activa, consume un {0}% de la Salud actual para eliminar todos los efectos negativos propios e inflige {1} de Daño físico a los enemigos cercanos. Mientras [Eliminar límite] está activado, consume un {2}% de la Salud actual cada 1 segundo, obtiene Inmunidad al Control de multitudes y aumenta el Daño crítico en un {3}% y la Velocidad de ataque en {4}. El consumo de Salud y el aumento del Daño crítico y la Velocidad de ataque se incrementan con el transcurso del tiempo. Este efecto no se puede disipar, y se desactiva automáticamente cuando la Salud está por debajo del 25%.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Los enemigos golpeados quedan aturdidos durante 2 seg.",
+    "dark": "El consumo de Salud por segundo aumenta en un 100% y se duplica el aumento del Daño crítico y la Velocidad de ataque.",
+    "ut": {
+      "name": "Pañuelo de la libertad",
+      "description": [
+        "[Eliminar límite] Mientras dura la habilidad, inflige Daño físico por un 40 % del Ataque cada segundo a los enemigos cercanos y aumenta la Recuperación en un 30 %.",
+        "[Eliminar límite] Mientras dura la habilidad, inflige Daño físico por un 48 % del Ataque cada segundo a los enemigos cercanos y aumenta la Recuperación en un 30 %.",
+        "[Eliminar límite] Mientras dura la habilidad, inflige Daño físico por un 58 % del Ataque cada segundo a los enemigos cercanos y aumenta la Recuperación en un 30 %.",
+        "[Eliminar límite] Mientras dura la habilidad, inflige Daño físico por un 70 % del Ataque cada segundo a los enemigos cercanos y aumenta la Recuperación en un 30 %.",
+        "[Eliminar límite] Mientras dura la habilidad, inflige Daño físico por un 84 % del Ataque cada segundo a los enemigos cercanos y aumenta la Recuperación en un 30 %.",
+        "[Eliminar límite] Mientras dura la habilidad, inflige Daño físico por un 100 % del Ataque cada segundo a los enemigos cercanos y aumenta la Recuperación en un 30 %."
+      ],
+      "story": "Un objeto que Scarlet entregó a Chase. Se lo entregó porque sintió lástima de que no tuviera un nombre. El nombre de Chase está bordado en una parte del pañuelo. No combina con su aspecto, pero él lo lleva encima todo el tiempo. Chase perdió la memoria y solo pudo averiguar quién era debido al código de sujeto de prueba marcado en su cintura. Encontró un objetivo en la vida finalmente cuando alguien lo llamó por su nombre. Decidió usar este poder rebosante para proteger a aquellos que lo hicieron sentir vivo."
+    }
+  },
+  "s3": {
+    "name": "Incendio, lanza de furia",
+    "description": "Carga contra el enemigo, lo que le inflige {0} y lo derriba, y genera una explosión en la tierra alrededor de quien lo activa para atacar 4 veces, lo que inflige un total de {1} de Daño físico y el efecto Aturdir durante {2} segundos. Recupera la Salud equivalente al {3}  % de Daño.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Obtiene Inmunidad al Control de multitudes cuando está en uso.",
+    "dark": "Aumenta la duración del efecto Aturdir en 1 segundo.",
+    "ut": {
+      "name": "Hombrera implacable",
+      "description": [
+        "[Incendio, lanza de furia] Reduce el Costo de Mana en 1 y aumenta el Daño en un 20 %.",
+        "[Incendio, lanza de furia] Reduce el Costo de Mana en 1 y aumenta el Daño en un 24 %.",
+        "[Incendio, lanza de furia] Reduce el Costo de Mana en 1 y aumenta el Daño en un 29 %.",
+        "[Incendio, lanza de furia] Reduce el Costo de Mana en 1 y aumenta el Daño en un 35 %.",
+        "[Incendio, lanza de furia] Reduce el Costo de Mana en 1 y aumenta el Daño en un 42 %.",
+        "[Incendio, lanza de furia] Reduce el Costo de Mana en 1 y aumenta el Daño en un 50 %."
+      ],
+      "story": "Hombrera que usa Chase en un hombro. Está hecha de minerales difíciles de encontrar en el continente de Orbis. Es ligera, pero muy robusta e irrompible. Un objeto que Demia logró conseguir para Chase, dado que Scarlet lo apreciaba. Demia no lo demostraba, pero la intrigaba el hecho de que Chase, a pesar de parecer muy novato, se entusiasmaba al momento de entrenar. Demia lo observó durante unos días, y un día, al darle una palmada en el hombro, le entregó la hombrera a Chase con indiferencia. Le dijo que pelear era importante, pero también lo era cuidar su cuerpo."
+    }
+  },
+  "s4": {
+    "name": "Recuerda esto en el infierno",
+    "description": "No se ve afectado por estadísticas de Robavidas. En su lugar, aumenta la Salud máxima en {0} , la Probabilidad de crítico en {1} , la Precisión de Control de multitudes en {2} , y la Precisión en {3}. Si recibe daño que conduce a la muerte, resucita durante {4} segundos, con Daño crítico aumentado en un {5}  %, y la Velocidad de ataque aumentada en {6}. El efecto de resucitación solo se activa una vez por batalla, y el Chase resucitado no puede utilizar habilidades.",
+    "books": {
+      "0": "Amplificación de Salud aumenta en un {0}%.",
+      "1": "Amplificación de Salud aumenta en un {0}%.",
+      "2": "Amplificación de Salud aumenta en un {0}%."
+    },
+    "light": "Al activar la resurrección, aumenta el Ataque en 50%.",
+    "dark": "Al activarse la resurrección, derriba a los enemigos cercanos durante 3 segundos."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Daño Crit+20%",
+    "dark": "Por cada 1% de Salud perdida, el Daño crítico aumenta en un 1% y la Velocidad de ataque aumenta en 4."
+  }
+}

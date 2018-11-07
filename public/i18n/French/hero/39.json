@@ -1,0 +1,120 @@
+{
+  "name": "Cassandra",
+  "subtitle": "Tentatrice des Vents",
+  "description": "La Femme Fatale qui possède la Barre d'Or. Sa notoriété fait d'elle une charmeuse érotique et sexy. Elle motive ses alliés avec des danses tentatrices.",
+  "story": "Propriétaire de « la Barre d'Or », la plus grande et la plus luxueuse taverne de Vespia. Sous son apparence tape-à-l'œil, c'est un lieu de réunion discret pour l'élite sociale, où de nombreuses informations secrètes sont régulièrement échangées. Grâce à son charme naturel et ses talents de conversation, elle peut facilement détendre les gens et gagner leur confiance. Sa véritable identité est celle d'une marchande d'armes et d'informations secrètes.",
+  "like": "Le vin rouge, les noix, les éventails colorés",
+  "dislike": "Les méchants clients, les cheveux gras, les mauvaises odeurs",
+  "inn": {
+    "idle": "Oh, bienvenu! Et bien, ce n'est pas ma boutique de toutes façons, mais...",
+    "recruit": {
+      "greet": "Oh, vous me tapez dessus? Pfff...",
+      "talk": [
+        "Encore une fois pour moi.. Oh, cette personne-là pas prendre le chèque.",
+        "Info Arme? Hmm, maintenant je ne pense pas savoir de quoi tu parles...",
+        "Huhu, tu as l'air heureux aujourd'hui. Qu'est-ce qui se passe? Je me demande."
+      ],
+      "gift": "Huhu, Tu n'es pas obligé. Je me demande bien comment montrer ma gratitude."
+    },
+    "affinity": {
+      "greet": "Oh, bonjour !",
+      "talk": [
+        "Il paraît que certaines personnes diluent leur alcool avec de l'eau... Pfff... Je suis inquiète.",
+        "C'est mon métier, je prépare des cocktails jour et nuit. Je suis épuisée."
+      ],
+      "gift": "Oh ! Merci, j'en ferai bon usage."
+    },
+    "relationship": {
+      "greet": "Hmm, je pensais justement à vous. Apparemment vous aussi?",
+      "talk": [
+        "Triompher de l'exprit des gens est mon travail... mais je ne le ferais pas sur vous.",
+        "Gardez ça secret - non seulement dans l'Empire, mais à Orvelia également ont eu lieu de nombreuses affaires dernièrement... Surtout en ce qui concerne le Palais Royal...",
+        "Même lorsque je partage un verre de vin... parfois, je me sens si seul. Avec vous cependant..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Murmure Doré, Chuchotement d'Aurelien",
+    "description": [
+      "Toutes les 15 sec, soigne l'allié ayant le moins de PV pour 200% de l'ATK et retire tous les effets négatifs.",
+      "Toutes les 14 sec, soigne l'allié ayant le moins de PV pour 240% de l'ATK et retire tous les effets négatifs.",
+      "Toutes les 12.5 sec, soigne l'allié ayant le moins de PV pour 290% de l'ATK et retire tous les effets négatifs.",
+      "Toutes les 11 sec, soigne l'allié ayant le moins de PV pour 350% de l'ATK et retire tous les effets négatifs.",
+      "Toutes les 9.5 sec, soigne l'allié ayant le moins de PV pour 420% de l'ATK et retire tous les effets négatifs.",
+      "Toutes les 8 sec, soigne l'allié ayant le moins de PV pour 500% de l'ATK et retire tous les effets négatifs."
+    ],
+    "story": "Cassandra travaille d'arrache-pied en tant que marchande d'armes. Un jour, un article volé entré en sa possession attira immédiatement son attention : un somptueux éventail serti de pierres précieuses et d'ornements en or. D'après la rumeur, chaque femme à qui l'éventail aurait appartenu aurait connu un destin tragique. L'objet prétendument maudit aurait ainsi circulé sur le marché noir. Dès qu'elle l'eut acheté, Cassandra chercha à connaître son origine. Cet éventail baptisé Murmure Doré fut conçu pour servir d'arme furtive. On devine donc aisément quel genre de malheur a pu arriver aux ingénues à qui il a appartenu."
+  },
+  "s1": {
+    "name": "Tranquillement",
+    "description": "Soigne tous les alliés de {0} PV et inlige {1} points de DEG M. à tous les ennemis. Les ennemis touchés sont réduits au silence pendant 2 sec.",
+    "books": {
+      "0": "Les montants des Soins et des DEG sont augmentés de {0}%.",
+      "1": "Les montants des Soins et des DEG sont augmentés de {0}%.",
+      "2": "Durée du Silence augmentée de {0} sec."
+    },
+    "light": "La Vit.ATQ des alliés soignés est augmentée de 200 pendant 10 sec.",
+    "dark": "Pendant 5 sec, les ennemis touchés voient leur Mana réduite de 200 toutes les secondes."
+  },
+  "s2": {
+    "name": "Férocement!",
+    "description": "Augmente l'ATQ des alliés de {0} pendant 15 sec et augmente leurs Chances de Crit. de {1}.",
+    "books": {
+      "0": "Augmentation de l'ATQ boostée de {0}%.",
+      "1": "Augmentation de l'ATQ boostée de {0}%.",
+      "2": "Augmentation de l'ATQ boostée de {0}%."
+    },
+    "light": "Boost d'ATQ augmenté de 40%.",
+    "dark": "Le coût en Mana est réduit de 1.",
+    "ut": {
+      "name": "Décoration sophistiquée",
+      "description": [
+        "[Férocement !] Augmente la durée de 5 sec et augmente en plus les DEG Crit de 20 %.",
+        "[Férocement !] Augmente la durée de 5 sec et augmente en plus les DEG Crit de 24 %.",
+        "[Férocement !] Augmente la durée de 5 sec et augmente en plus les DEG Crit de 29 %.",
+        "[Férocement !] Augmente la durée de 5 sec et augmente en plus les DEG Crit de 35 %.",
+        "[Férocement !] Augmente la durée de 5 sec et augmente en plus les DEG Crit de 42 %.",
+        "[Férocement !] Augmente la durée de 5 sec et augmente en plus les DEG Crit de 50 %."
+      ],
+      "story": "Accessoire de luxe confectionné par le meilleur joailler du continent. Cette décoration édition limitée a été élaborée par Larik le joailler. Toute la haute société du continent Orbis rêverait d’avoir la même. Ses bijoux sont au sommet de l’art, et l’on raconte qu’ils peuvent soigner et donner du courage. Il n’existe que 3 décorations sophistiquées édition limitée, et l’une d’entre elles semble appartenir au maître de la Barre d’Or."
+    }
+  },
+  "s3": {
+    "name": "Vague Tentatrice",
+    "description": "Inflige {0} points de DEG M. à l'ennemi ayant l'ATQ la plus élevée. Applique Charme sur l'ennemi pendant 7 sec lorsque la compétence est utilisée en Arène. Inflige {1}% de DEG M. supplémentaires lorsque utilisée en-dehors de l'Arène, Les ennemis charmés attaquent leurs propres alliés avec des attaques auto et ne peuvent pas utiliser de compétences.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "Durée du Charme augmentée de {0} sec."
+    },
+    "light": "La cible reçoit 25% de DEG M. supplémentaires pendant 10 sec.",
+    "dark": "Le coût en Mana est réduit de 1.",
+    "ut": {
+      "name": "Fragrance d'or",
+      "description": [
+        "[Vague Tentatrice] Le Temps de Rechange de la compétence est réduit de 30% et la durée de Charme est augmentée de 1 sec.",
+        "[Vague Tentatrice] Le Temps de Rechange de la compétence est réduit de 30% et la durée de Charme est augmentée de 1.5 sec.",
+        "[Vague Tentatrice] Le Temps de Rechange de la compétence est réduit de 30% et la durée de Charme est augmentée de 2 sec.",
+        "[Vague Tentatrice] Le Temps de Rechange de la compétence est réduit de 30% et la durée de Charme est augmentée de 2.5 sec.",
+        "[Vague Tentatrice] Le Temps de Rechange de la compétence est réduit de 30% et la durée de Charme est augmentée de 3 sec.",
+        "[Vague Tentatrice] Le Temps de Rechange de la compétence est réduit de 30% et la durée de Charme est augmentée de 3.5 sec."
+      ],
+      "story": "Un pendentif de flammes et d’or légendaire. Le légendaire Roi d’Or créa ce collier pour attirer l’attention de la Déesse de l’Amour et de la Beauté. Sa senteur dorée crée une Vague Tentatrice qui force les gens à se joindre au porteur, qui est aimé de tous."
+    }
+  },
+  "s4": {
+    "name": "Douceur",
+    "description": "Lors de chaque bataille, la première compétence utilisée voit son coût en mana réduit de 2. Augmente également toutes les DEF des alliés de {0} pendant 5 sec.",
+    "books": {
+      "0": "Augmentation de la DEF boostée de {0}%.",
+      "1": "Augmentation de la DEF boostée de {0}%.",
+      "2": "Augmentation de la DEF boostée de {0}%."
+    },
+    "light": "Les DEG sur les alliés sont réduits de 20% pendant 5 sec.",
+    "dark": "La durée d'augmentation de la DEF est augmentée de 5 sec."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Vit. ATQ +100",
+    "dark": "Au début de chaque bataille, un allié aléatoire est immunisé aux DEG pendant 3 sec."
+  }
+}

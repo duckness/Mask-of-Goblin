@@ -1,0 +1,120 @@
+{
+  "name": "Roi",
+  "subtitle": "Der flinke Assassine",
+  "description": "Ein ehemaliger Meuchelmörder mit einer dunklen Vergangenheit. Er ist auf einzelne Ziele spezialisiert und greift aus toten Winkeln mit starken, endlosen Angriffen an.",
+  "story": "Er ist Cleos Leibwächter und beschützt sie auf Dominiks Geheiß. Früher war er Teil einer Gruppe von Assassinen, doch er riskierte aus unbekannten Gründen sein Leben und wurde abtrünnig. Wegen seiner Assassinenvergangenheit hat er nicht viel Respekt für andere übrig, doch die Härte des Lebens hat aus ihm einen erfahrenen Mann mit einem scharfen Verstand gemacht, der sich derer annimmt, die ihn gerecht behandeln.",
+  "like": "Derzeitiges Selbst",
+  "dislike": "Vergangenes Selbst",
+  "inn": {
+    "idle": ".....",
+    "recruit": {
+      "greet": "Was ist?",
+      "talk": [
+        "Ich wäre dir dankbar, wenn du die Vergangenheit ruhen ließest.",
+        "Es ist eine Weile her, seit es so friedlich war. Ich hoffe nur, dass Cleo nichts Dummes anstellt.",
+        "Hör auf mich mit Cleo verkuppeln zu wollen. Frey nervt schon genug damit rum. Ich mache das hier nur, weil es sonst niemand tut."
+      ],
+      "gift": "Ich weiß nicht, wie ich das verdient habe..."
+    },
+    "affinity": {
+      "greet": "Hey, du solltest dich ein wenig ausruhen.",
+      "talk": [
+        "Wird dir das nicht zu blöd? Ich bin für Cleo verantwortlich ... Ich hörte, sie würde jetzt eine wichtige Aufgabe bekleiden.",
+        "Hast du jemals etwas getan, das du später bereut hast? Wenn du glaubst, dass du es später bereuen wirst, dann hör jetzt auf."
+      ],
+      "gift": "Du vergisst niemals ... Danke."
+    },
+    "relationship": {
+      "greet": "Ach, du bist gekommen.",
+      "talk": [
+        "Hilf Kasel, wenn du kannst. Er hat eine schwere Last zu tragen.",
+        "Obwohl ich nicht der religiöse Typ bin, verlasse ich mich doch auf Lua. Ich kann nicht viel machen, außer für die Leute zu beten, die ich umgebracht habe...",
+        "Ich bereue meine Vergangenheit nicht mehr. Ich kann sie nicht ändern. Worauf ich jedoch Einfluss nehmen kann ist die Zukunft."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Redeal, Atem des Phantoms",
+    "description": [
+      "25% Chance, mit normalen Attacken Feinden K.Schaden (50% der Angriffskr.) mitsamt Blutungseffekt zuzufügen.",
+      "28% Chance, mit normalen Attacken Feinden K.Schaden (60% der Angriffskr.) mitsamt Blutungseffekt zuzufügen.",
+      "31% Chance, mit normalen Attacken Feinden K.Schaden (72% der Angriffskr.) mitsamt Blutungseffekt zuzufügen.",
+      "34% Chance, mit normalen Attacken Feinden K.Schaden (86% der Angriffskr.) mitsamt Blutungseffekt zuzufügen.",
+      "37% Chance, mit normalen Attacken Feinden K.Schaden (103% der Angriffskr.) mitsamt Blutungseffekt zuzufügen.",
+      "40% Chance, mit normalen Attacken Feinden K.Schaden (125% der Angriffskr.) mitsamt Blutungseffekt zuzufügen."
+    ],
+    "story": "Die Gruppe von Assassinen, bekannt als die Lachende Maske, beherrschten lange Zeit die Unterwelt Orvels. Nur der beste Assassine der Lachenden Maske hat die Erlaubnis, dieses schreckliche Dolchpaar zu führen. Es heißt, dass die durch die Dolche verursachten Wunden niemals verheilen und dass ihre Opfer unvermeidlich verbluten. Der Legende zufolge wurden die Dolche aus der Sense des Todes gefertigt."
+  },
+  "s1": {
+    "name": "Gnadenlos",
+    "description": "Greift einen zufälligen Feind 3-mal an, verursacht insgesamt {0} K.Schaden und fügt ihm 1 Stapel Blutung zu, der über {1} Sek. {2} K.Schaden verursacht. Blutung ist bis zu 3-mal stapelbar.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht krit. Schaden um {0}%."
+    },
+    "light": "Reduziert Manakosten um 1.",
+    "dark": "Ziel nimmt 10 Sek lang 25% zusätzlichen K.Schaden."
+  },
+  "s2": {
+    "name": "Vorhang d. Dunkelheit",
+    "description": "Erhöht {0} Sek lang Angriff um {1} und K. Ausw.-Chance um {2}%.",
+    "books": {
+      "0": "Angriffsrate-Steigung erhöht sich um {0}%.",
+      "1": "Angriffsrate-Steigung erhöht sich um {0}%.",
+      "2": "Erhöht Angriffsgeschw. um {0}% für die Wirkungsdauer."
+    },
+    "light": "Erhöht ANG-Boost um 40%.",
+    "dark": "Erhöht den Schaden normaler Angriffe um 100% für die Wirkungsdauer.",
+    "ut": {
+      "name": "Somas Kappe",
+      "description": [
+        "[Vorhang der Dunkelheit] Erhöht den ANG-Boost um 20 % und erhält 400 Statuseffekt-Widerstand für die Dauer des Skills.",
+        "[Vorhang der Dunkelheit] Erhöht den ANG-Boost um 24 % und erhält 400 Statuseffekt-Widerstand für die Dauer des Skills.",
+        "[Vorhang der Dunkelheit] Erhöht den ANG-Boost um 29 % und erhält 400 Statuseffekt-Widerstand für die Dauer des Skills.",
+        "[Vorhang der Dunkelheit] Erhöht den ANG-Boost um 35 % und erhält 400 Statuseffekt-Widerstand für die Dauer des Skills.",
+        "[Vorhang der Dunkelheit] Erhöht den ANG-Boost um 42 % und erhält 400 Statuseffekt-Widerstand für die Dauer des Skills.",
+        "[Vorhang der Dunkelheit] Erhöht den ANG-Boost um 50 % und erhält 400 Statuseffekt-Widerstand für die Dauer des Skills."
+      ],
+      "story": "Eine gefährliche Kappe, die nach den geheimen Methoden der Lachenden Maske hergestellt wurde. Sie wurde mit dem legendären Soma geschaffen, das endlose Ausdauer verleihen soll, zusammen mit dem Geheimnis der Lachenden Maske. Somas Kappe verbessert die Moral eines Assassinen innerhalb des dunklen Vorhangs, was dessen ANG erhöht und verleiht Geschicklichkeit, wodurch sich K. Ausw. erhöht."
+    }
+  },
+  "s3": {
+    "name": "Kingenkralle",
+    "description": "Schleicht hinter den Feind mit der niedrigsten TP und schlägt für [FFC800] {0} K.Schaden zu. Jeder Blutungseffekt fügt zus. {1}% Schaden zu. Alle Blutungseffekte werden danach aufgehoben. Bei einem krit. Treffer erhält Roi 2 MP zurück, und Skill-Cooldown wird zurückgesetzt.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht krit. Schaden um {0}%."
+    },
+    "light": "Erhöht verursachten Schaden um 100% für 1 extra Mana.",
+    "dark": "Entfernt den Cooldown.",
+    "ut": {
+      "name": "Gerissene Maske",
+      "description": [
+        "[Klingenkralle] Erhöht Schaden um 20% und bei einem krit. Treffer werden 300 Mana regeneriert.",
+        "[Klingenkralle] Erhöht Schaden um 24% und bei einem krit. Treffer werden 300 Mana regeneriert.",
+        "[Klingenkralle] Erhöht Schaden um 29% und bei einem krit. Treffer werden 300 Mana regeneriert.",
+        "[Klingenkralle] Erhöht Schaden um 35% und bei einem krit. Treffer werden 300 Mana regeneriert.",
+        "[Klingenkralle] Erhöht Schaden um 42% und bei einem krit. Treffer werden 300 Mana regeneriert.",
+        "[Klingenkralle] Erhöht Schaden um 50% und bei einem krit. Treffer werden 300 Mana regeneriert."
+      ],
+      "story": "Die Maske, die von Roi zerstört wurde, als er die Assassinen der Lachenden Maske verließ. Assassinen zielen gnadenlos auf die Schwachstellen ihrer Feinde und tragen Masken, um ihre Emotionen zu verbergen, wenn sie ihre Ziele ausschalten. Roi stellt sich der gespaltenen Maske und greift seine Feinde von hinten an und tötet sie mit seinen Kingenkrallen, um seine Freunde zu beschützen."
+    }
+  },
+  "s4": {
+    "name": "Zerstücklung",
+    "description": "Wenn ein normaler Angriff als kritischer Treffer trifft, wird das Ziel 6-mal angegriffen und erleidet insgesamt {0} zusätzlichen K.Schaden.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht krit. Schaden um {0}%."
+    },
+    "light": "Jeder Angriff regeneriert 300 Mana.",
+    "dark": "50% Chance, 1 Blutungszähler aufzuerlegen."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / Krit. Schaden +20%",
+    "dark": "10%-Chance bei einem Krit. Treffer Angriffsgeschw. um 300 und Krit. Schaden für 5 Sek. um 60% zu erhöhen. Aktiviert während Aktivierung nicht erneut."
+  }
+}

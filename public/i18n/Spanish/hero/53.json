@@ -1,0 +1,120 @@
+{
+  "name": "Shamilla",
+  "subtitle": "El recipiente de las maldiciones",
+  "description": "Una oficial de alto rango que lleva 30 millones de tipos de maldiciones dentro de ella. Intrigada por la voluntad de los humanos que no se entregan al dolor y la angustia. Utiliza el Arco y las Flechas de corrupción para atormentar a los enemigos con diferentes maldiciones.",
+  "story": "Una poderosa demonio que solía ser una de los oficiales al servicio del señor oscuro Angmund. Es capaz de conservar todas las maldiciones del mundo, pero su verdadero objetivo no es la resurrección del señor oscuro ni la dominación mundial. Todo lo que ocurre en el mundo es parte de una obra dramática, y ella se considera la espectadora. Sus acciones se asemejan a las de una guionista que revisa el argumento, maneja los hilos desde las sombras y espera con ansias para ver cómo se desarrollan las escenas que ella escribió.",
+  "like": "Situaciones inesperadas, personas que luchan contra la corriente",
+  "dislike": "Argumentos aburridos, historias predecibles",
+  "inn": {
+    "idle": "Oh, tantas personas con almas poderosas... Ja, ja, ja...",
+    "recruit": {
+      "greet": "Ja, ja, ja, ¿qué puedo hacer por ti?",
+      "talk": [
+        "Tu alma es muy especial... Ja, ja, esto es interesante.",
+        "¿Una demonio? Bueno, no tengo idea de lo que estás hablando.",
+        "¿La vida de un humano no es la más increíble expresión de arte?"
+      ],
+      "gift": "Oh, un regalo para mí. Ja, ja, entonces, ¿qué es lo que quieres?"
+    },
+    "affinity": {
+      "greet": "Ah, hola. ¿Estás de regreso?",
+      "talk": [
+        "¿Por qué oculté que soy una demonio? Ja, ja, ¿no sería mejor evitar preguntas obvias?",
+        "Incluso si el argumento está bien planificado, algo de dramatización es bueno también. Ja, ja, ja..."
+      ],
+      "gift": "Quería otro tipo de regalo... Jaja, pero este no está mal."
+    },
+    "relationship": {
+      "greet": "Ja, ja, ja, me mostrarás una linda escena hoy también, ¿verdad?",
+      "talk": [
+        "Mi objetivo... Ja, ja. Digamos que es probar algo fresco que nunca haya probado antes.",
+        "Me diviertes. Por eso quiero observarte un poco más de cerca. ¡Um, um, um!",
+        "Ah, me encanta. Cómo te ves cuando estás peligro, ¡intentando luchar contra tu destino...!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Alas de corrupción, Apoliox",
+    "description": [
+      "Cada 20 segundos, obtiene El recipiente de las maldiciones y aumenta el Ataque en un 20 % durante 10 segundos.",
+      "Cada 19 segundos, obtiene El recipiente de las maldiciones y aumenta el Ataque en un 24 % durante 10 segundos.",
+      "Cada 18 segundos, obtiene El recipiente de las maldiciones y aumenta el Ataque en un 29 % durante 10 segundos.",
+      "Cada 16 segundos, obtiene El recipiente de las maldiciones y aumenta el Ataque en un 35 % durante 10 segundos.",
+      "Cada 14 segundos, obtiene El recipiente de las maldiciones y aumenta el Ataque en un 42 % durante 10 segundos.",
+      "Cada 12 segundos, obtiene El recipiente de las maldiciones y aumenta el Ataque en un 50 % durante 10 segundos."
+    ],
+    "story": "Las maldiciones surgen de sentimientos negativos como el odio, los celos y el rencor. Son los alimentos ideales para Shamilla. Las alas que crecieron fuertes durante la Guerra de los Demonios, gracias a que absorbieron las maldiciones de incontables personas, son terroríficas para la gente común. Se dice que las personas a quienes tocan las alas sufren la condena de numerosas maldiciones y caen en un vórtice de emociones. En ese abismo, se oye el eco de una risa fascinante y seductora. Es la risa de una demonio que goza con los distintos tipos de sentimientos humanos."
+  },
+  "s1": {
+    "name": "Maldición de la petrificación",
+    "description": "Ataca a un enemigo, lo que causa {0} de Daño mágico, y también inflige el efecto Maldición de la petrificación durante {1} segundos, lo que no se puede disipar. Se reducirá en {2} la Velocidad de ataque del enemigo bajo la Maldición de la petrificación, y este efecto se fortalecerá hasta en un {3}% con el transcurso del tiempo. Cuando finaliza la maldición, petrifica al objetivo durante {4} segundos.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "El tiempo de reutilización se reduce en 3 segundos.",
+    "dark": "Reduce 500 de PM del enemigo que recibió el Daño."
+  },
+  "s2": {
+    "name": "Maldición del tiempo",
+    "description": "Ataca a un enemigo causando {0} de Daño mágico y también inflige el efecto Maldición del tiempo durante {1} segundos, lo que aumenta el tiempo de reutilización de las habilidades en {2} segundos. Todos los tiempos de reutilización de las habilidades del enemigo bajo el efecto Maldición del tiempo aumentan en {4} segundos cada {3} segundos.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "El costo de maná se reduce en 1.",
+    "dark": "Disipa los efectos positivos del objetivo.",
+    "ut": {
+      "name": "Corazón antiguo de demonio",
+      "description": [
+        "[Maldición del tiempo] Aumenta adicionalmente el Tiempo de reutilización en 0,7 segundo y reduce la Defensa mágica del objetivo en un 10 % durante 10 segundos.",
+        "[Maldición del tiempo] Aumenta adicionalmente el Tiempo de reutilización en 0,7 segundo y reduce la Defensa mágica del objetivo en un 12 % durante 10 segundos.",
+        "[Maldición del tiempo] Aumenta adicionalmente el Tiempo de reutilización en 0,7 segundo y reduce la Defensa mágica del objetivo en un 14 % durante 10 segundos.",
+        "[Maldición del tiempo] Aumenta adicionalmente el Tiempo de reutilización en 0,7 segundo y reduce la Defensa mágica del objetivo en un 17 % durante 10 segundos.",
+        "[Maldición del tiempo] Aumenta adicionalmente el Tiempo de reutilización en 0,7 segundo y reduce la Defensa mágica del objetivo en un 21 % durante 10 segundos.",
+        "[Maldición del tiempo] Aumenta adicionalmente el Tiempo de reutilización en 0,7 segundo y reduce la Defensa mágica del objetivo en un 25 % durante 10 segundos."
+      ],
+      "story": "Una joya extraña con la que se pueden oír susurros rencorosos de antiguos demonios. Un objeto maldito lleno de las almas de demonios antiguos ya olvidados. Ellos desean escapar día tras día, pero ella no lo permitirá tan fácilmente. Su alma ha aceptado todas las maldiciones del mundo, por lo que es tan profunda y oscura como el abismo."
+    }
+  },
+  "s3": {
+    "name": "Maldición del dolor",
+    "description": "Ataca a un enemigo, lo que causa {0} de Daño mágico y retroceso. También inflige el efecto Maldición del dolor durante {1} segundos, lo que causa un total de {2} de Daño mágico con el transcurso del tiempo.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "El objetivo recibe un 25% de Daño Magico aumentado durante 10 seg.",
+    "dark": "el Daño se incrementa en un 40%.",
+    "ut": {
+      "name": "La jarra de las maldiciones",
+      "description": [
+        "[Maldición del dolor] El Daño aumenta en un 20%, y obtiene una pila de “El recipiente de las maldiciones” al matar a un enemigo.",
+        "[Maldición del dolor] El Daño aumenta en un 24%, y obtiene una pila de “El recipiente de las maldiciones” al matar a un enemigo.",
+        "[Maldición del dolor] El Daño aumenta en un 29%, y obtiene una pila de “El recipiente de las maldiciones” al matar a un enemigo.",
+        "[Maldición del dolor] El Daño aumenta en un 35%, y obtiene una pila de “El recipiente de las maldiciones” al matar a un enemigo.",
+        "[Maldición del dolor] El Daño aumenta en un 42%, y obtiene una pila de “El recipiente de las maldiciones” al matar a un enemigo.",
+        "[Maldición del dolor] El Daño aumenta en un 50%, y obtiene una pila de “El recipiente de las maldiciones” al matar a un enemigo."
+      ],
+      "story": "Shamilla sufrió la maldición de conservar todas las maldiciones del mundo en su interior, pero también se la podría ver como una salvadora que aprisiona esas maldiciones. Su muerte significaría que todo el mal dentro de ella regresaría al mundo. Esta Jarra de las maldiciones que creó Shamilla se usa para recuperar las maldiciones que escaparon de ella."
+    }
+  },
+  "s4": {
+    "name": "El recipiente de las maldiciones",
+    "description": "Al principio de cada batalla, durante {0} segundos, obtiene El recipiente de las maldiciones, crea un escudo que no se puede cancelar y absorbe {1} de daño. Mientras el escudo está activo, obtiene Inmunidad al Control de multitudes. Al activar la habilidad, consume El recipiente de las maldiciones para tener 4 enemigos como objetivo.",
+    "books": {
+      "0": "Aumenta el Escudo en {0}%.",
+      "1": "Aumenta el Escudo en {0}%.",
+      "2": "Aumenta el Escudo en {0}%."
+    },
+    "light": "Aumenta el Escudo en 80%.",
+    "dark": "Aumenta la duración del efecto El recipiente de las maldiciones en 20 segundos, y se vuelve disipable."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Veloc de ATQ +100",
+    "dark": "Se mejoran todos los efectos de la maldición. [Maldición de la petrificación] La duración de Petrificación se incrementa en 2 segundos. [Maldición del tiempo] La duración de la Maldición del tiempo se incrementa en 3 segundos. [Maldición del dolor] El Daño por tiempo de la Maldición del dolor se incrementa en un 50%."
+  }
+}

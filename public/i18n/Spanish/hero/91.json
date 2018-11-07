@@ -1,0 +1,120 @@
+{
+  "name": "Gladi",
+  "subtitle": "Bestia de la Arena",
+  "description": "El hombre que conquistó la Arena de Orvel. La gente le temía por su destreza en la batalla y comenzó a llamarlo la Bestia de la Arena. Su asombrosa técnica de combate destruye a sus enemigos en fracciones de segundo.",
+  "story": "El hombre que conquistó la Arena de Orvel. Se sienta en el trono de campeones, y a menudo es temido por otros. La gente le llama Puño de bestia. Sin embargo, en realidad es un hombre alegre con una personalidad directa y positiva. Como se puede reflejar por su estilo de pelea, es un hombre atrevido que no duda en hacer lo que piensa. Después de su conquista, Gladi solicitó el derecho de tener su propia tienda de la arena. Supuestamente, su meta real era obtener un monopolio en silverines. Sigue siendo un misterio quién compraría estas plantas, pero parece ser suficiente feliz. Curiosamente, actualmente no vende ningún silverine.",
+  "like": "Silvervine, poderosos oponentes",
+  "dislike": "Personas melancólicas, personas indecisas",
+  "inn": {
+    "idle": "Hmm, aún puedo oler el silvervine...",
+    "recruit": {
+      "greet": "",
+      "talk": [
+        "",
+        "",
+        ""
+      ],
+      "gift": ""
+    },
+    "affinity": {
+      "greet": "¿Eh? Hola, ¿cómo estás?",
+      "talk": [
+        "Esta Vid Plateada... wow, huele muy bien... jajaja!",
+        "Oye! Es un poco gracioso, verte fuera de la arena!"
+      ],
+      "gift": "Uf! Eres un tipo agradable, eh?"
+    },
+    "relationship": {
+      "greet": "¡Oye, tú! ¡Ven y siéntate aquí de una vez!",
+      "talk": [
+        "Jaja! El momento, cuando mi puño aplastó al oponente, fue genial!",
+        "Soy rápido y fuerte, incluso para los estándares de nuestra tribu. Me pregunto cómo están?",
+        "Sientes curiosidad de por qué compré toda esta Vid Plateada incluso cuando nadie me la compra? Bueno, es todo para uso personal!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Puño de Bestia, Mastra",
+    "description": [
+      "Tras un Golpe Crítico, aumenta el Daño Crit en un 20% durante 5 seg. Este efecto se acumula hasta 7 veces.",
+      "Tras un Golpe Crítico, aumenta el Daño Crit en un 24% durante 5 seg. Este efecto se acumula hasta 7 veces.",
+      "Tras un Golpe Crítico, aumenta el Daño Crit en un 29% durante 5 seg. Este efecto se acumula hasta 7 veces.",
+      "Tras un Golpe Crítico, aumenta el Daño Crit en un 35% durante 5 seg. Este efecto se acumula hasta 7 veces.",
+      "Tras un Golpe Crítico, aumenta el Daño Crit en un 42% durante 5 seg. Este efecto se acumula hasta 7 veces.",
+      "Tras un Golpe Crítico, aumenta el Daño Crit en un 50% durante 5 seg. Este efecto se acumula hasta 7 veces."
+    ],
+    "story": "Un par de guanteletes personalizados forjados por Gladi. Son la prueba de su victoria en el campeonato en la Arena de Orvel. Supuestamente, se fabricaron a partir de un par legendario de guanteletes usados por un hombre que era conocido como el dios guerrero hace cientos de años. Estos guanteletes, especiales para aplastar al oponente, mejoran enormemente el poder de quien los utiliza. Sin embargo, el costo físico de usarlos es brutal y una persona normal no puede utilizarlos. A menos que el usuario sea increíblemente flexible y físicamente capaz de soportar el impacto de cada golpe, utilizarlos es casi suicida. Aun así, la flexibilidad y fuerza natural de Gladi le permite usarlos libremente."
+  },
+  "s1": {
+    "name": "Golpes Rápidos",
+    "description": "Golpea al objetivo 7 veces, causando un total de  {0}  Daño Fis. El último golpe aumenta el Daño Fis recibido del objetivo  {1}% durante 10 segundos.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Cuando hay un enemigo, el Daño se incrementa en un 100%.",
+    "dark": "El efecto de incremento del Daño Fis recibido aumenta al 50%."
+  },
+  "s2": {
+    "name": "Llegada del Dios de la Guerra",
+    "description": "Disipa todos los efectos nocivos sobre uno mismo y causa  {0}  Daño Fis a los enemigos cercanos dentro de un radio pequeño, obteniendo el Estado 'Dios de la Guerra' durante 10 segundos. Mientras está en el modo Dios de la Guerra,el ATQ aumenta en  {1}  y todos los ataques automáticos tienen un 30% de probabilidad de consumir un 5% de maná para causar un ataque extra de  {2}  Daño Fis adicional. Al recibir Daño Magico, esquiva todos los Daños Magicos durante 1 segundos. El efecto Esquivar solo se activa 1 vez cada 2 segundos.",
+    "books": {
+      "0": "Los aumentos de ATQ y Daño se incrementan en {0}%.",
+      "1": "Los aumentos de ATQ y Daño se incrementan en {0}%.",
+      "2": "Los aumentos de ATQ y Daño se incrementan en {0}%."
+    },
+    "light": "El estado Dios de la Guerra dura 5 segundos mas",
+    "dark": "La oportunidad de golpe con Daño adicional aumenta en un 20%.",
+    "ut": {
+      "name": "Caja de silverine",
+      "description": [
+        "[Llegada del dios de la guerra] Mientras dura la habilidad, recupera 100 PM cada segundo y acumula 1 [¡Esto va a doler!] al causar Daño físico adicional.",
+        "[Llegada del dios de la guerra] Mientras dura la habilidad, recupera 120 PM cada segundo y acumula 1 [¡Esto va a doler!] al causar Daño físico adicional.",
+        "[Llegada del dios de la guerra] Mientras dura la habilidad, recupera 140 PM cada segundo y acumula 1 [¡Esto va a doler!] al causar Daño físico adicional.",
+        "[Llegada del dios de la guerra] Mientras dura la habilidad, recupera 170 PM cada segundo y acumula 1 [¡Esto va a doler!] al causar Daño físico adicional.",
+        "[Llegada del dios de la guerra] Mientras dura la habilidad, recupera 210 PM cada segundo y acumula 1 [¡Esto va a doler!] al causar Daño físico adicional.",
+        "[Llegada del dios de la guerra] Mientras dura la habilidad, recupera 250 PM cada segundo y acumula 1 [¡Esto va a doler!] al causar Daño físico adicional."
+      ],
+      "story": "Silvervine se utiliza para aumentar exponencialmente la habilidad física. Nada más, solo esta silvervine. Otros pueden intentar masticar la silvervine, beberla, hervirla, pero no funcionará. Gladi solo necesita que esta silvervine tenga el efecto del dios de la guerra."
+    }
+  },
+  "s3": {
+    "name": "Golpe Final!",
+    "description": "Carga energía y corre hacia los enemigos frontales, causando {0} Daño Mágico y aturdiéndolos durante 3 segundos. Si el objetivo es un jefe, el ataque ignora la DEF.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "el Daño se incrementa en un 40%.",
+    "dark": "El costo de maná se reduce en 1.",
+    "ut": {
+      "name": "Corona de laurel de campeón",
+      "description": [
+        "[Golpe Final!] El tiempo de reutilización de la habilidad se reduce en un 30% y en cada activación, el Daño aumenta en un 4%. Este efecto se puede acumular un máximo de 10 veces.",
+        "[Golpe Final!] El tiempo de reutilización de la habilidad se reduce en un 30% y en cada activación, el Daño aumenta en un 4.8%. Este efecto se puede acumular un máximo de 10 veces.",
+        "[Golpe Final!] El tiempo de reutilización de la habilidad se reduce en un 30% y en cada activación, el Daño aumenta en un 5.8%. Este efecto se puede acumular un máximo de 10 veces.",
+        "[Golpe Final!] El tiempo de reutilización de la habilidad se reduce en un 30% y en cada activación, el Daño aumenta en un 7%. Este efecto se puede acumular un máximo de 10 veces.",
+        "[Golpe Final!] El tiempo de reutilización de la habilidad se reduce en un 30% y en cada activación, el Daño aumenta en un 8.4%. Este efecto se puede acumular un máximo de 10 veces.",
+        "[Golpe Final!] El tiempo de reutilización de la habilidad se reduce en un 30% y en cada activación, el Daño aumenta en un 10%. Este efecto se puede acumular un máximo de 10 veces."
+      ],
+      "story": "Corona otorgada al guerrero más fuerte del continente Orbis. Solo la recibe el ganador del torneo de lucha que se celebra cada cuatro años. Se dice que quienes llevan esta corona son capaces de usar la fuerza del Dios de la Guerra."
+    }
+  },
+  "s4": {
+    "name": "Esto dolerá!",
+    "description": "Cada vez que Gladi golpea a un solo objetivo con 5 ataques automáticos, causa  {0}  Daño adicional que ignora la DEF.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Cuando hay un enemigo, el Daño se incrementa en un 100%.",
+    "dark": "Cuando se activa en la Arena, causa 15% de la Salud actual del objetivo como DEF adicional ignorando el Daño Fis."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Veloc de ATQ +100",
+    "dark": "Aumentan todas las DEF en un 8% de ATQ"
+  }
+}

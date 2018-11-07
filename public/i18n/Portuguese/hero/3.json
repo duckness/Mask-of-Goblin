@@ -1,0 +1,120 @@
+{
+  "name": "Cleo",
+  "subtitle": "Feiticeira do Purgatório",
+  "description": "Uma feiticeira da Torre Vermelha, esta menina corajosa usa magia de fogo explosiva para causar dano a vários inimigos, e em seguida inflige um dano ainda maior ao fazer as brasas explodirem.",
+  "story": "A primeira lembrança de Cleo começa na Torre dos Sábios. Criada por Dominiks, a Grande Sábia, como uma órfã, ela é tanto uma feiticeira genial quanto uma encrenqueira. Sua inabilidade de controlar seu próprio poder já causou muitos problemas, incluindo a destruição parcial da Torre Vermelha, onde morava. Apesar disso, sua aparente imunidade à ira da Grande Sábia a fez ser excluída pelos seus colegas. Embora isso a tenha transformado em alguém egoísta e insensível, no fundo ela ainda é uma garota gentil que teme ser abandonada.",
+  "like": "Fogueira, travesseiros (?)",
+  "dislike": "Máquinas",
+  "inn": {
+    "idle": "Ah... que tédio. Queria ter algumas ferramentas mágicas por aqui.",
+    "recruit": {
+      "greet": "Olá! Eu sou Cleo. Um Arquimago!",
+      "talk": [
+        "Quer carne? Posso cozinhar para você?",
+        "Curioso sobre magia de fogo? Hehehe, eu posso ensinar, mas nem todo mundo seria capaz.",
+        "Por que as pessoas me chamam de Feiticeira do Purgatório? Eu não gosto. Podem me chamar de Arquimago!!"
+      ],
+      "gift": "Heh, eu gosto de você."
+    },
+    "affinity": {
+      "greet": "Você demorou! Como ousa fazer o Arquimago esperar?",
+      "talk": [
+        "De quem eu gosto mais, da Frey ou do Roi? Que pergunta mais sem sentido! É claro que é da Frey!",
+        "Onde será que está a minha mãe... Contanto que eu esteja viva, eu devo conseguir encontrá-la, não é?"
+      ],
+      "gift": "Ah! Acho que vai ficar bom no Arquimago! Obrigada!"
+    },
+    "relationship": {
+      "greet": "Hoho, então você veio ver o melhor Arquimago de todos os tempos!",
+      "talk": [
+        "Frey é mais do que um travesseiro para mim!",
+        "Não esqueça. É graças a mim que contornaremos tão rápidos.",
+        "Você vai ficar conosco, não é?"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Flenos, Chama Primal",
+    "description": [
+      "Brasas explodem a cada 4 segundos, causando DAN.M de 80% de ATQ aos inimigos próximos.",
+      "Brasas explodem a cada 4 segundos, causando DAN.M de 96% de ATQ aos inimigos próximos.",
+      "Brasas explodem a cada 4 segundos, causando DAN.M de 114% de ATQ aos inimigos próximos.",
+      "Brasas explodem a cada 4 segundos, causando DAN.M de 138% de ATQ aos inimigos próximos.",
+      "Brasas explodem a cada 4 segundos, causando DAN.M de 166% de ATQ aos inimigos próximos.",
+      "Brasas explodem a cada 4 segundos, causando DAN.M de 200% de ATQ aos inimigos próximos."
+    ],
+    "story": "A essência da Primeira Chama do mundo. O Senhor Elemental do Fogo concedeu esta bela joia a um humano que entrou em contato com ele. No decorrer dos tempos, a joia acabou nas mãos de um arquimago, que a transformou no núcleo do seu cajado. Mais tarde, o arquimago presenteou seu precioso discípulo com o cajado."
+  },
+  "s1": {
+    "name": "Agulha de Fogo",
+    "description": "Ataca um inimigo aleatório 5 vezes, causando um total de {0} DAN M. e adicionando 1 acúmulo de Brasa no inimigo atingido.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "Aumenta o DAN em 40%.",
+    "dark": "Acumula 2 Brasas cada."
+  },
+  "s2": {
+    "name": "Bola de Fogo",
+    "description": "Ataca o alvo e os inimigos perto dele, causando {0} de DAN M. e atordoando-os por 2 segundos. Causa {2} de DAN M. adicional para cada acúmulo de Brasa no inimigo.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "Aumenta o DAN em 40%.",
+    "dark": "O custo de mana aumenta em 1, e ataca um alvo aleatório 2 vezes.",
+    "ut": {
+      "name": "Elixir de Flamel",
+      "description": [
+        "[Bola de Fogo] Aumenta o DAN em 20% e causa um acúmulo de 5 Brasas no inimigo atingido.",
+        "[Bola de Fogo] Aumenta o DAN em 24% e causa um acúmulo de 5 Brasas no inimigo atingido.",
+        "[Bola de Fogo] Aumenta o DAN em 29% e causa um acúmulo de 5 Brasas no inimigo atingido.",
+        "[Bola de Fogo] Aumenta o DAN em 35% e causa um acúmulo de 5 Brasas no inimigo atingido.",
+        "[Bola de Fogo] Aumenta o DAN em 42% e causa um acúmulo de 5 Brasas no inimigo atingido.",
+        "[Bola de Fogo] Aumenta o DAN em 50% e causa um acúmulo de 5 Brasas no inimigo atingido."
+      ],
+      "story": "Um elixir criado pelo alquimista de fogo, Flamel, por meio da condensação da essência de chamas. As chamas de Flamel ardem sem parar, rendendo-lhe elogios de todos os feiticeiros. A essência de chamas feita por ele com as salamandras do Vulcão de Dragia potencializa o efeito de Bolas de Fogo."
+    }
+  },
+  "s3": {
+    "name": "Chuva de Fogo",
+    "description": "Ataca todos os inimigos 8 vezes, causando um total de {0} DAN M. e adicionando 1 acúmulo de Brasa neles. Causa {1} de DAN M. adicional para cada acúmulo de Brasa no inimigo.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "Reduz o tempo de recarga em 3 segundos.",
+    "dark": "Atordoa durante 1 segundo os inimigos com 5 Brasas ou mais.",
+    "ut": {
+      "name": "Pergaminho do Inferno Ardente",
+      "description": [
+        "[Chuva de Fogo] O DAN aumenta em 20%. Após o Golpe Crit em inimigos com mais de 5 acúmulos de Brasa, a recarga do poder será reduzida em 3%.",
+        "[Chuva de Fogo] O DAN aumenta em 24%. Após o Golpe Crit em inimigos com mais de 5 acúmulos de Brasa, a recarga do poder será reduzida em 3%.",
+        "[Chuva de Fogo] O DAN aumenta em 29%. Após o Golpe Crit em inimigos com mais de 5 acúmulos de Brasa, a recarga do poder será reduzida em 3%.",
+        "[Chuva de Fogo] O DAN aumenta em 35%. Após o Golpe Crit em inimigos com mais de 5 acúmulos de Brasa, a recarga do poder será reduzida em 3%.",
+        "[Chuva de Fogo] O DAN aumenta em 42%. Após o Golpe Crit em inimigos com mais de 5 acúmulos de Brasa, a recarga do poder será reduzida em 3%.",
+        "[Chuva de Fogo] O DAN aumenta em 50%. Após o Golpe Crit em inimigos com mais de 5 acúmulos de Brasa, a recarga do poder será reduzida em 3%."
+      ],
+      "story": "Um pergaminho escrito por uma feiticeira do fogo conhecida como a Deusa do Fogo. Deixado pela grande Feiticeira do Fogo de Orvelia, Vesta, quando ela estava na Torre dos Sábios. É muito poderoso, mas também exige muita mana. Cleo pegou o Pergaminho do Inferno em Chamas, considerado um pergaminho proibido, da Torre dos Sábios. Agora ela o usa para melhorar sua Chuva de Fogo."
+    }
+  },
+  "s4": {
+    "name": "Difusão de Chamas",
+    "description": "Ataques normais ganham 20% de chance de atacar 3 inimigos aleatórios, causando {0} de DAN M. ao alvo e inimigos perto dele e adicionando 1 acúmulo de Brasa. Brasa causa um total de {1} de DAN M. ao longo de 20 segundos, reduz a DEF M. do alvo em 5%, acumulando no máx. 5 vezes.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Acumula 2 Brasas em acertos Crít."
+    },
+    "light": "Acúmulo máx. de Brasas alterado para 6.",
+    "dark": "A chance de ativação muda para 30%."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / Chance Crít. +100",
+    "dark": "O DAN de chamas aumenta em 200%."
+  }
+}

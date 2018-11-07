@@ -1,0 +1,120 @@
+{
+  "name": "Sonia",
+  "subtitle": "El Huracán Azul",
+  "description": "Un genio que fue reconocido por la Torre de los Sabios, sin formar parte de ella. Le dieron el título de 'Azul', pero su verdadera identidad es la de un homúnculo. Sus rayos de esferas dejan todo hecho cenizas.",
+  "story": "Un homúnculo de combate creado por un mago en Orvel, quien usaba el corazón de Vikal la bestia del rayo como su núcleo. Después de haber adquirido autoconsciencia en el proceso de creación, huyó del laboratorio y pasó los próximos años en el orfanato de Ricardo. Es capaz de lanzar magia de rayos poderosa a voluntad. Como homúnculo de combate, también posee excelentes habilidades físicas. Por debajo de su apariencia de jovencita, es una máquina de guerra confundida que busca el significado de su existencia. Los magos de la Torre del sabio le otorgaron el título de 'Azul' para indicar su maestría por el lanzamiento del hechizo sin encantamiento. Sin embargo, no confía en los magos y no tiene ningún deseo en asociarse con la Torre.",
+  "like": "Mirianne y todos en el orfanato",
+  "dislike": "Hechiceros, alquimistas",
+  "inn": {
+    "idle": "Hay mucha gente, eh... Mirianne, dónde estás?",
+    "recruit": {
+      "greet": "Eh, ¿yo? Um...",
+      "talk": [
+        "Solo soy buena luchando, de verdad. No esperes demasiado de mí.",
+        "Incluso si no fuera humana, no me tomes a la ligera.",
+        "Deja de mirarme, antes de que te dé un golpe"
+      ],
+      "gift": "Eh, para mí? Ah, um... g... gracias?"
+    },
+    "affinity": {
+      "greet": "¿Hola? Solo pasaba por aquí.",
+      "talk": [
+        "Avísame si quieres entrenar. ¡Por supuesto que va a doler mucho! ¡Hasta podrías electrocutarte!",
+        "¿Eh? ¿Mirianne también está aquí?"
+      ],
+      "gift": "¿Eh? ¿Para mí? ¿De verdad?"
+    },
+    "relationship": {
+      "greet": "Eh, quieres hablar conmigo? Eres raro...",
+      "talk": [
+        "Sientes curiosidad de mí? Bueno... te dije que soy un homúnculo.",
+        "Estilo de lucha? Ah, uso el Núcleo de la Electricidad dentro de mi cuerpo...",
+        "Amigos y familia? Oh... um, Ricardo, Mirianne... y tal vez... tú?"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Yanadis, Ojo de la Tormenta",
+    "description": [
+      "La duración del Shock aumenta en 2 seg. Al atacar automáticamente a un enemigo bajo Shock, todos los tiempos de reutilización se reducen en un 1.6%.",
+      "La duración del Shock aumenta en 3 seg. Al atacar automáticamente a un enemigo bajo Shock, todos los tiempos de reutilización se reducen en un 1,9%.",
+      "La duración del Shock aumenta en 4 seg. Al atacar automáticamente a un enemigo bajo Shock, todos los tiempos de reutilización se reducen en un 2,3%.",
+      "La duración del Shock aumenta en 5 seg. Al atacar automáticamente a un enemigo bajo Shock, todos los tiempos de reutilización se reducen en un 2,7%.",
+      "La duración del Shock aumenta en 6 seg. Al atacar automáticamente a un enemigo bajo Shock, todos los tiempos de reutilización se reducen en un 3,3%.",
+      "La duración del Shock aumenta en 7 seg. Al atacar automáticamente a un enemigo bajo Shock, todos los tiempos de reutilización se reducen en un 4%."
+    ],
+    "story": "Una esfera de electricidad creada por Sonia basada en el núcleo de la bestia que ahora es su propio corazón. Ha mostrado un gran talento en fabricar equipo mágico y esta es la primera arma que ha creado. Le falta un poco de estabilidad, principalmente debido a la impresionante electricidad de contiene. La poderosa tormenta eléctrica creada por esta arma es verdaderamente peligrosa para cualquier enemigo. De hecho, cualquiera que la toque y que no sea Sonia sería rostizado instantáneamente debido a la inmensa corriente que fluye a través de ella."
+  },
+  "s1": {
+    "name": "Rayo de Luz!",
+    "description": "Ataca con una explosión eléctrica, causando {0} Daño Mágico a los enemigos que se encuentran al alcance mientras coloca un campo eléctrico durante 3 seg. El campo eléctrico inflige un total de {1} Daño Mágico en 10 ataques y con un 25% de probabilidad, aturde al enemigo durante 0.5 segundos.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "El costo de maná se reduce en 1.",
+    "dark": "La probabilidad de aturdimiento aumenta un 10%."
+  },
+  "s2": {
+    "name": "Poder del Relámpago!",
+    "description": "Durante 15 segundos, el ATQ aumenta en {0} y toda la DEF se incrementa en {1}. Mientras la habilidad está en uso, cada auto ataque tiene un 30% de probabilidades de causar {2} Daño Mágico adicional a 2 enemigos aleatorios y aturdirlos durante 0.5 segundos.",
+    "books": {
+      "0": "El ATQ y la DEF se incrementan en {0}%.",
+      "1": "El ATQ y la DEF se incrementan en {0}%.",
+      "2": "El ATQ y la DEF se incrementan en {0}%."
+    },
+    "light": "Los aumentos de ATQ y DEF se incrementan en un 40%.",
+    "dark": "Daño adicional se aplica a todos los enemigos.",
+    "ut": {
+      "name": "Tienda de rayo",
+      "description": [
+        "[¡El poder del relámpago!] Cambia el efecto inamovible y aumenta la probabilidad de generar un daño adicional en un 10 %.",
+        "[¡El poder del relámpago!] Cambia el efecto inamovible y aumenta la probabilidad de generar un daño adicional en un 12 %.",
+        "[¡El poder del relámpago!] Cambia el efecto inamovible y aumenta la probabilidad de generar un daño adicional en un 14 %.",
+        "[¡El poder del relámpago!] Cambia el efecto inamovible y aumenta la probabilidad de generar un daño adicional en un 17 %.",
+        "[¡El poder del relámpago!] Cambia el efecto inamovible y aumenta la probabilidad de generar un daño adicional en un 21 %.",
+        "[¡El poder del relámpago!] Cambia el efecto inamovible y aumenta la probabilidad de generar un daño adicional en un 25 %."
+      ],
+      "story": "Una capa que Mirianne hizo para Sonia por enfrentarse a un peligro. Hubo una vez en la que las ropas de Sonia se quemarían por la explosión de electricidad que corría a través de su cuerpo. Mirianne vio eso y arrancó la planta antigua que se dice que crece al ser alcanzada por un rayo. Jaló su hilo y elaboró una capa con él. Sonia vio las manos llenas de ampollas de Mirianne debido a la electricidad y lloró en silencio por un tiempo. Una prenda solo para Sonia que no se puede encontrar en cualquier otra parte."
+    }
+  },
+  "s3": {
+    "name": "Explosión Eléctrica!",
+    "description": "Causa un total de {0} Daño Mágico en 3 ataques a enemigos cercanos en un rango circular. A continuación, provoca una Explosión eléctrica, que causa un total de {1} Daño Mágico en 3 ataques y los aturde durante 5 seg.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Mientras esté en uso, obten inmunidad al Ctrl de Masas",
+    "dark": "La duración del aturdimiento se incrementa en 1 segundos.",
+    "ut": {
+      "name": "Corazón de Baikal",
+      "description": [
+        "[Explosión Eléctrica!] Al atacar al enemigo infligido por Shock Eléctrico, recibe el 100% del ATQ como Daño Mágico adicional y la DEF Mágica y Física del objetivo se reduce en un 10% durante 5 segundos.",
+        "[Explosión Eléctrica!] Al atacar al enemigo infligido por Shock Eléctrico, recibe el 100% del ATQ como Daño Mágico adicional y la DEF Mágica y Física del objetivo se reduce en un 12% durante 5 segundos.",
+        "[Explosión Eléctrica!] Al atacar al enemigo infligido por Shock Eléctrico, recibe el 100% del ATQ como Daño Mágico adicional y la DEF Mágica y Física del objetivo se reduce en un 14% durante 5 segundos.",
+        "[Explosión Eléctrica!] Al atacar al enemigo infligido por Shock Eléctrico, recibe el 100% del ATQ como Daño Mágico adicional y la DEF Mágica y Física del objetivo se reduce en un 17% durante 5 segundos.",
+        "[Explosión Eléctrica!] Al atacar al enemigo infligido por Shock Eléctrico, recibe el 100% del ATQ como Daño Mágico adicional y la DEF Mágica y Física del objetivo se reduce en un 21% durante 5 segundos.",
+        "[Explosión Eléctrica!] Al atacar al enemigo infligido por Shock Eléctrico, recibe el 100% del ATQ como Daño Mágico adicional y la DEF Mágica y Física del objetivo se reduce en un 25% durante 5 segundos."
+      ],
+      "story": "El corazón de la bestia sagrada Vikal. Esta bestia se alimenta de los elementos de la luz y la obscuridad del mundo, por lo que su corazón está lleno de los truenos que se crean por la colisión de estos dos elementos. Si alguien falto de habilidades quisiera tocarlo, sería absorbido por su poder. Pero Sonia, que está hecha del núcleo de los relámpagos, absorbió ese poder y obtuvo una cantidad incalculable de maná."
+    }
+  },
+  "s4": {
+    "name": "Shock",
+    "description": "Con cada ataque, inflige Electricidad a los objetivos que no están bajo Shock y aumenta el Daño Mágico en {0}% durante 10 segundos. La electricidad se puede apilar hasta 30 veces, y la 30ª pila consumirá toda la electricidad causando {1} Daño Mágico y Shock sobre el objetivo durante 7 segundos. Los enemigos atacados con Shock reciben {3}% de Daño Mágico aumentado y cuando son aturdidos, la duración aumenta en {2} segundos.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "La duración del Shock aumenta 2 seg.",
+    "dark": "El efecto de Daño Mágico aumentado recibido cambia a 'Daño Fis y Mágico aumentado recibido '"
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Veloc de ATQ +100",
+    "dark": "Al Atacar, hay un 15% de probabilidad de causar Daño Mágico adicional equivalente al 10% de la Salud Máxima y de generar 1 pila adicional de Electricidad."
+  }
+}

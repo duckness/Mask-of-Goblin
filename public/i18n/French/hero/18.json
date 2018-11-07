@@ -1,0 +1,120 @@
+{
+  "name": "Reina",
+  "subtitle": "L'Éclair",
+  "description": "Une mercenaire qui porte une épée légère à une main. Elle esquive les attaques par des mouvements agile et transperce ses ennemis avec la partie tranchante de son épée.",
+  "story": "Reina von Stein est la fille d'une noble famille de l'empire. Son esprit libre et sa personnalité enthousiaste donnent le sourire à tous ceux qui l'entourent. Elle préfère être libre en tant que mercenaire, plutôt que d'étouffer dans le carcan aristocratique. Après avoir travaillé comme mercenaire pendant longtemps, elle a oublié toute trace de son éducation noble. Même enfant, elle était douée pour le maniement des épées. Au fil des années, elle développa un talent pour la rapière, utilisant le style le plus adapté à son physique délicat. Récemment, elle a refusé un étrange contrat. Depuis, elle a l'impression que quelqu'un la suit et l'observe.",
+  "like": "Les hommes attirants",
+  "dislike": "Les hommes sans intérêt",
+  "inn": {
+    "idle": "Une bonne offre d'emploi! Ah, mais l'employeur est un peu...",
+    "recruit": {
+      "greet": "Wow, beau... Ah, bonjour!",
+      "talk": [
+        "Besoin d'un mercenaire? Je suis l'un des meilleurs.",
+        "Wow, si mignon... oh, ce n'est rien, hehe...",
+        "Vous recherchez Reina, l'Eclair? Hehe, oui, c'est moi!"
+      ],
+      "gift": "Hé? Un cadeau? Hehe, merci. Je vous accorderai un rabais sur le prochain job."
+    },
+    "affinity": {
+      "greet": "Purée, cet endroit est parfait !",
+      "talk": [
+        "Avez-vous des clients à me présenter ? Plutôt beaux, si possible !",
+        "Je n'aime pas les tâches ennuyeuses ! Hé hé !"
+      ],
+      "gift": "Waouh, c'est pour moi ? Vraiment ? Hé hé, vous êtes trop chou !"
+    },
+    "relationship": {
+      "greet": "Hey là, beau! Ça fait un moment!",
+      "talk": [
+        "Les gens de nos jours! Ils pensent que je suis une sorte de pervers, mais c'est un malentendu! J'aime juste le corps des hommes!",
+        "Parfois, j'ai envie d'une vie meilleure. Vous savez, comme dans ces moments où il pleut dehors et que vous devez dormir dans la boue.",
+        "Même lorsque je travaille comme mercenaire, cela n'a parfois aucune saveur. Alors je pense... à ceci ou cela..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Livatis la Foudre",
+    "description": [
+      "Après un Coup Critique réussi, gagne pendant 15 sec une Amélioration de +80 Vit d'Attaque et +20% DEG Crit. Can be stacked up to 5 times max.",
+      "Après un Coup Critique réussi, gagne pendant 15 sec une Amélioration de +90 Vit d'Attaque et +24% DEG Crit. Can be stacked up to 5 times max.",
+      "Après un Coup Critique réussi, gagne pendant 15 sec une Amélioration de +110 Vit d'Attaque et +28% DEG Crit. Can be stacked up to 5 times max.",
+      "Après un Coup Critique réussi, gagne pendant 15 sec une Amélioration de +130 Vit d'Attaque et +34% DEG Crit. Can be stacked up to 5 times max.",
+      "Après un Coup Critique réussi, gagne pendant 15 sec une Amélioration de +160 Vit d'Attaque et +41% DEG Crit. Can be stacked up to 5 times max.",
+      "Après un Coup Critique réussi, gagne pendant 15 sec une Amélioration de +200 Vit d'Attaque et +50% DEG Crit. Can be stacked up to 5 times max."
+    ],
+    "story": "La lignée de la famille Stein remonte aux premiers jours de l'empire. Cependant, l'honneur de cette famille repose sur le talent de ses guerriers, pas de la noblesse de sa lignée. Aria Stein fut une maîtresse d'escrime légendaire. Tout le monde s'en souvient comme une des guerrières les plus réputées de l'empire. C'est elle qui fonda l'honneur de la famille Stein. Reina est sa descendante. L'épée d'Aria, Livatas, appartient actuellement à Reina. Aussi légère qu'une plume, mais assez solide pour résister à n'importe quel coup, cette épée aida Reina a gagner son surnom de « l'Éclair »."
+  },
+  "s1": {
+    "name": "Vol du Papillon",
+    "description": "Poignarde rapidement l'ennemmi, infligeant  {0}  points de DEG P. Le temps de recharge est réinitialisé en cas de coup critique. Gagne également une immunité à tous les DEG.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG de {0}%."
+    },
+    "light": "Le coût en Mana est augmenté de 1 et le nombre de charges de Blessure est maintenant de 10. Inflige des DEG supplémentaires (100% de l'ATQ) aux ennemis ayant 10 charges.",
+    "dark": "Le Temps de recharge est supprimé."
+  },
+  "s2": {
+    "name": "Pointe Tranchante",
+    "description": "Augmente l'ATQ de {1}  points pendant {0}  sec ainsi que les chances de coup critique de {2}. Cet effet ne peut pas être dissipé.",
+    "books": {
+      "0": "Le taux d'augmentation de l'ATQ est augmenté de {0}%.",
+      "1": "Le taux d'augmentation de l'ATQ est augmenté de {0}%.",
+      "2": "Augmente les Chances de Crit de {0}%."
+    },
+    "light": "Le coût en Mana est réduit de 1.",
+    "dark": "Pour un coût de 1 MP supplémentaire, l'effet Chances de Crit est remplacé par une augmentation de 100% des DEG Crit. Bénéficie également d'une augmentation de 25% des DEG sur les Boss.",
+    "ut": {
+      "name": "Anneau de maître",
+      "description": [
+        "[Pointe tranchante] Augmente le boost d'ATQ de 50 % et récupère 40 PM de plus lors d'un coup critique pendant la durée de la compétence.",
+        "[Pointe tranchante] Augmente le boost d'ATQ de 50 % et récupère 48 PM de plus lors d'un coup critique pendant la durée de la compétence.",
+        "[Pointe tranchante] Augmente le boost d'ATQ de 50 % et récupère 58 PM de plus lors d'un coup critique pendant la durée de la compétence.",
+        "[Pointe tranchante] Augmente le boost d'ATQ de 50 % et récupère 70 PM de plus lors d'un coup critique pendant la durée de la compétence.",
+        "[Pointe tranchante] Augmente le boost d'ATQ de 50 % et récupère 84 PM de plus lors d'un coup critique pendant la durée de la compétence.",
+        "[Pointe tranchante] Augmente le boost d'ATQ de 50 % et récupère 100 PM de plus lors d'un coup critique pendant la durée de la compétence."
+      ],
+      "story": "Anneau que Reina a reçu après avoir vaincu son maître. Il est si grand qu’elle le porte à son pouce. Son allure simple et inélégante dissimule le fait que l’esprit du combat se cache dans les lettres runiques dont il est orné. Rien qu’à regarder l’anneau de son maître, Reina se dit qu’elle aura beaucoup de travail aujourd’hui."
+    }
+  },
+  "s3": {
+    "name": "Étoile Filante",
+    "description": "Inflige {0} points de DEG P. aux ennemis avec une attaque en continu. Le dernier coup repousse l'ennemi.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG de {0}%."
+    },
+    "light": "Chaque Coup Crit augmente de 10% les DEG de la dernière attaque.",
+    "dark": "Immunisé contre tous les types de DEG pendant l'utilisation de la compétence.",
+    "ut": {
+      "name": "Médaille de vitesse",
+      "description": [
+        "[Étoile Filante] Les DEG sont augmentés de 20% et chaque Crit rend 200 mana.",
+        "[Étoile Filante] Les DEG sont augmentés de 24% et chaque Crit rend 200 mana.",
+        "[Étoile Filante] Les DEG sont augmentés de 29% et chaque Crit rend 200 mana.",
+        "[Étoile Filante] Les DEG sont augmentés de 35% et chaque Crit rend 200 mana.",
+        "[Étoile Filante] Les DEG sont augmentés de 42% et chaque Crit rend 200 mana.",
+        "[Étoile Filante] Les DEG sont augmentés de 50% et chaque Crit rend 200 mana."
+      ],
+      "story": "Une médaille d’honneur donnée au mercenaire le plus rapide. On dit que c’est un souvenir d’Hersz, le guerrier le plus rapide du monde. Le porteur de cette médaille sent son corps devenir plus léger et capable de prédire les mouvements de l’adversaire."
+    }
+  },
+  "s4": {
+    "name": "Enfant Chanceux",
+    "description": "Après un Coup Critique réussi, l'ATQ augmente de {1} pendant {0} sec. Cumulable jusqu'à 8 fois.",
+    "books": {
+      "0": "Le taux d'augmentation de l'ATQ est augmenté de {0}%.",
+      "1": "Le taux d'augmentation de l'ATQ est augmenté de {0}%.",
+      "2": "La Pénétration DEF est augmentée de {0} pendant la durée de la compétence. Cumulable jusqu'à 5 fois."
+    },
+    "light": "Pour chaque charge, les DEG sont augmentés de 4% pour les ennemis qui ne sont pas des Héros.",
+    "dark": "Si cumulé 5 fois ou plus, les DEG P et les DEG M subis sont réduits de 20 %."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / DEG Crit +20%",
+    "dark": "Les attaques auto donnent 10% de chance d'augmenter les DEG Crit de 100% pendant 5 s."
+  }
+}

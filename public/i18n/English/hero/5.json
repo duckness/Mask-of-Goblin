@@ -1,0 +1,120 @@
+{
+  "name": "Gau",
+  "subtitle": "Barbarian of Frozen Lands",
+  "description": "A barbarian that rules the snowy plains of the frozen land, he undermines the morale of enemies with ear-deafening shouts and charges into them like a storm.",
+  "story": "Gau is a powerful warrior from the Barbarian Kingdom. Whenever he swung his twin axes, a bloodbath would follow. As a warrior, he was feared for his peerless ferocity. However, he suddenly disappeared for 10 years. When he returned, he was a completely changed man. His violent Barbarian tendencies were all gone, even when others criticized him. Instead, he now faces them with smiles and jolly laughter. The kind, warm gaze he now shows to children and animals is especially surprising.",
+  "like": "Children, animals",
+  "dislike": "Destructive and violent people",
+  "inn": {
+    "idle": "You have some business with a barbarian?",
+    "recruit": {
+      "greet": "Nice to meet you. Let's go hunting together sometime.",
+      "talk": [
+        "I look strong? Eh, stop making me blush.",
+        "All those beauties around you, don't make me jealous, buddy!",
+        "I am indeed strong, hah."
+      ],
+      "gift": "What's all this? Thanks, man."
+    },
+    "affinity": {
+      "greet": "It's kind of embarrassing to be doing this.",
+      "talk": [
+        "Have you seen Yanne lately? I wonder how she's doing...",
+        "What? How I know Lewisia? That kid... Even though she's older... It's not like it'll work out just because I like her..."
+      ],
+      "gift": "Thank you. I'll treat you next time."
+    },
+    "relationship": {
+      "greet": "Ha! We meet again! Doing well?",
+      "talk": [
+        "Ah...that little Lei became such a fine lady...and to think that her real age was...hahaha!",
+        "I'll shatter you to pieces! - Well, how was that? The kids laugh when I act like that.",
+        "Hahaha, me and some old dwarf drank a lot last time. Actually, we drank all the alcohol at the Inn! Hahahaha!!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Holy Bird, Numinu",
+    "description": [
+      "Per every 1% of HP lost, ATK is increased by 0.8% and ATK Spd is increased by 8.",
+      "Per every 1% of HP lost, ATK is increased by 1% and ATK Spd is increased by 10.",
+      "Per every 1% of HP lost, ATK is increased by 1.2% and ATK Spd is increased by 12.",
+      "Per every 1% of HP lost, ATK is increased by 1.4% and ATK Spd is increased by 14.",
+      "Per every 1% of HP lost, ATK is increased by 1.7% and ATK Spd is increased by 17.",
+      "Per every 1% of HP lost, ATK is increased by 2% and ATK Spd is increased by 20."
+    ],
+    "story": "It is said that there lives a sacred beast protecting the Barbarians in the Windland Snow Mountain. This beast, capable of dispelling the power of darkness, is supposed to be a blue phoenix composed of ice. Created in the shape of this beast is Numinu, its name means 'holy.' It has been crafted from enchanted ice that never melts. Considered a holy relic among Barbarians, this weapon is bestowed to their mightiest warrior. The wielder of this weapon is the most powerful warrior among Barbarians, and may be considered their king."
+  },
+  "s1": {
+    "name": "Smash",
+    "description": "Deals {0} P.DMG to enemies in range, and the first attack knocks them down for {1} sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Mana cost is reduced by 1.",
+    "dark": "Each use increases DMG by 15%. Stacks 10 times max."
+  },
+  "s2": {
+    "name": "Battle Roar",
+    "description": "All allies' ATK is increased by {1} for {0} sec. Upon activation, dispels all negative effects from allies.",
+    "books": {
+      "0": "ATK boost is increased by {0}%.",
+      "1": "ATK boost is increased by {0}%.",
+      "2": "ATK boost is increased by {0}%."
+    },
+    "light": "ATK boost is increased by 40%.",
+    "dark": "ATK Spd boost of 200 is added to the effect.",
+    "ut": {
+      "name": "Fighter's Horn",
+      "description": [
+        "[Battle Roar] Reduces Mana Cost by 1 and increases ATK Boost by 20%.",
+        "[Battle Roar] Reduces Mana Cost by 1 and increases ATK Boost by 24%.",
+        "[Battle Roar] Reduces Mana Cost by 1 and increases ATK Boost by 29%.",
+        "[Battle Roar] Reduces Mana Cost by 1 and increases ATK Boost by 35%.",
+        "[Battle Roar] Reduces Mana Cost by 1 and increases ATK Boost by 42%.",
+        "[Battle Roar] Reduces Mana Cost by 1 and increases ATK Boost by 50%."
+      ],
+      "story": "Trumpet made with the horn of the guardian beast of Windland Snow Mountain, Orox. Orox of the Snowy Mountain grants noble warriors great power and the ability to see the truth. When a warrior who has received the blessing of Orox blows this horn, it will boost the morale of comrades and bring clarity to their minds."
+    }
+  },
+  "s3": {
+    "name": "Vortex",
+    "description": "Deals {0} P.DMG to all enemies in range. The last attack freezes enemies for {1} sec. Gains CC immunity while casting.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Draws in nearby enemies while casting."
+    },
+    "light": "Cooldown reduced by 3 sec.",
+    "dark": "Immune to all types of DMG while in use.",
+    "ut": {
+      "name": "Barbarian Mug",
+      "description": [
+        "[Vortex] DMG is increased by 50%, and enemies hit by the last attack takes 5% more DMG for 10 sec.",
+        "[Vortex] DMG is increased by 50%, and enemies hit by the last attack takes 6% more DMG for 10 sec.",
+        "[Vortex] DMG is increased by 50%, and enemies hit by the last attack takes 7% more DMG for 10 sec.",
+        "[Vortex] DMG is increased by 50%, and enemies hit by the last attack takes 8.5% more DMG for 10 sec.",
+        "[Vortex] DMG is increased by 50%, and enemies hit by the last attack takes 10.5% more DMG for 10 sec.",
+        "[Vortex] DMG is increased by 50%, and enemies hit by the last attack takes 12.5% more DMG for 10 sec."
+      ],
+      "story": "Mug of the Barbarian King who first settled down in the snowy mountains. When the first Barbarian King settled down in Windland, he swore to become the guardian of the snowy mountains and shared this mug with the holy beings of the mountains. The protect magic of the frost wolf imbued in the Barbarian Mug increases the ATK of Vortex and the effect of Freeze."
+    }
+  },
+  "s4": {
+    "name": "Enrage",
+    "description": "Upon attacking, ATK is increased by {1} for {0} sec. Can be stacked up to 10 times max.",
+    "books": {
+      "0": "ATK boost is increased by {0}%.",
+      "1": "ATK boost is increased by {0}%.",
+      "2": "CC resistance increases by 50 with each stack."
+    },
+    "light": "ATK boost is increased by 40%.",
+    "dark": "Takes 5% more DMG per each stack, but gains a boost of 50 Crit Chance and Lifesteal per each stack as well."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / P. Block +200",
+    "dark": "Heals HP worth 10% of ATK every second, and every 1% of HP lost reduces received DMG by 0.6%."
+  }
+}

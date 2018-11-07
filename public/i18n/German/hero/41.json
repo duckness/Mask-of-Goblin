@@ -1,0 +1,120 @@
+{
+  "name": "Mediana",
+  "subtitle": "Gefährlicher Doktor",
+  "description": "In Zeiten der Not sprang sie als Ersatz für Priester und Heiler ein und lernte so ihre Kunst. Die Medizin aus ihrer Mega-Nadel stärkt Verbündete und schwächt Feinde.",
+  "story": "Eine Kundige der Heilkünste, die sich entfalten konnte, als die Vorräte der Priester gering waren. Sie erbte ihr medizinisches Talent von ihrem Vater, doch als sie in ihrem Wissensdurst mit der Erforschung von Giften begann, überschritt sie eine rote Linie. In der Folge wurde sie aus der medizinischen Gesellschaft ausgeschlossen, doch ihr Tatendrang blieb uneingeschränkt groß. Ihr Grundrespekt für alles Lebendige hinderte sie allerdings daran, experimentelle Ergebnisse für ihre Giftforschung zu erzielen. Als die Dämonen kamen, war sie voll der Freude, endlich seltene und wertvolle Versuchspersonen gefunden zu haben.",
+  "like": "Medizinische Wissenschaft; Testpersonen",
+  "dislike": "Heilende Magie",
+  "inn": {
+    "idle": "Kchkchkch, endlich ein würdiges Testsubjekt,",
+    "recruit": {
+      "greet": "Willkommen. Sind wir uns schon begegnet?",
+      "talk": [
+        "Möchtest du meine neue Medizin werden? Kchkch, hab keine Angst.",
+        "Ich sehne mich auch manchmal nach meinem Vater.",
+        "Für einen kurzen Moment dachte ich an eine sehr effektive Medizinmischung."
+      ],
+      "gift": "Oh, ich danke dir. Darf ich das als Forschungsmaterial benutzen?"
+    },
+    "affinity": {
+      "greet": "Hallo. Ich kam her, um mich auszuruhen. Das ist also gut.",
+      "talk": [
+        "Die neue Droge? Haha, ich teste sie.",
+        "Muss Notizen machen ... Ich muss alle meine Ideen kurz festhalten."
+      ],
+      "gift": "Oh, danke. Ich werde ein neues Gift herstellen können, hahaha ..."
+    },
+    "relationship": {
+      "greet": "Wie geht es dir? Bitte sag es mir, wenn du dich nicht gut fühlst.",
+      "talk": [
+        "Ich weiß, dass ich ein bisschen seltsam bin. Aber so bin ich eben.",
+        "Ich glaube die medizinische Behandlung wird eines Tages besser sein, als magische Heilung.",
+        "Du bist nicht mein Versuchskaninchen, du bist eher wie... mein erster Patient. Ah, nicht für Gifte. Ich sage das als Arzt."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Gnadenschlag, Phistonia",
+    "description": [
+      "Spezialgift-Schaden ist um 40% erhöht und das Ziel erleidet zusätzlich K. Schaden in Höhe von 30% von Medianas AN, wenn es durch einen anderen Verbündeten außer Mediana getroffen wird. Der zusätzliche K. Schadenseffekt kann nur 1 Mal pro Sek. ausgelöst werden.",
+      "Spezialgift-Schaden ist um 48% erhöht und das Ziel erleidet zusätzlich K. Schaden in Höhe von 36% von Medianas AN, wenn es durch einen anderen Verbündeten außer Mediana getroffen wird. Der zusätzliche K. Schadenseffekt kann nur 1 Mal pro Sek. ausgelöst werden.",
+      "Spezialgift-Schaden ist um 57% erhöht und das Ziel erleidet zusätzlich K. Schaden in Höhe von 43% von Medianas AN, wenn es durch einen anderen Verbündeten außer Mediana getroffen wird. Der zusätzliche K. Schadenseffekt kann nur 1 Mal pro Sek. ausgelöst werden.",
+      "Spezialgift-Schaden ist um 69% erhöht und das Ziel erleidet zusätzlich K. Schaden in Höhe von 52% von Medianas AN, wenn es durch einen anderen Verbündeten außer Mediana getroffen wird. Der zusätzliche K. Schadenseffekt kann nur 1 Mal pro Sek. ausgelöst werden.",
+      "Spezialgift-Schaden ist um 83% erhöht und das Ziel erleidet zusätzlich K. Schaden in Höhe von 62% von Medianas AN, wenn es durch einen anderen Verbündeten außer Mediana getroffen wird. Der zusätzliche K. Schadenseffekt kann nur 1 Mal pro Sek. ausgelöst werden.",
+      "Spezialgift-Schaden ist um 100% erhöht und das Ziel erleidet zusätzlich K. Schaden in Höhe von 75% von Medianas AN, wenn es durch einen anderen Verbündeten außer Mediana getroffen wird. Der zusätzliche K. Schadenseffekt kann nur 1 Mal pro Sek. ausgelöst werden."
+    ],
+    "story": "Die Geschichte begann, als Medianas Giftexperimente noch im Geheimen erfolgten. Eines Tages bemerkte ein befreundeter Arzt die riesige Spritze, die sie hergestellt hatte. Von dessen schierer Größe beeindruckt, fragte er sie: „Sieh dir die Größe dieses Dings an. Solltest du ihr nicht wenigstens einen Namen geben?“ Darauf antwortete Mediana locker: „Oh ... Nenn sie einfach ... Piston.“"
+  },
+  "s1": {
+    "name": "Heilsalbe",
+    "description": "Heilt alle Verbündeten um {0} und macht sie immun gegen die nächste schadensverursachende Attacke.",
+    "books": {
+      "0": "Erholung erhöht um {0}%.",
+      "1": "Erholung erhöht um {0}%.",
+      "2": "Erholung erhöht um {0}%."
+    },
+    "light": "Boostet TP eines geheilten Verbündeten für 10 Sek. um 10%.",
+    "dark": "Reduziert Manakosten um 1."
+  },
+  "s2": {
+    "name": "Spezial-Wasserkanone",
+    "description": "Feuert eine Wasserkanone geradeaus, die Verbündete in Reichweite alle 0,5 Sek. für {0} und verursacht gleichzeitig {1} K. Schaden am Gegner.",
+    "books": {
+      "0": "Heilung und Schaden werden um {0}% erhöht.",
+      "1": "Heilung und Schaden werden um {0}% erhöht.",
+      "2": "Heilung und Schaden werden um {0}% erhöht."
+    },
+    "light": "Erhöht Erholung und Schaden um 40%.",
+    "dark": "Immun gegenüber allen Statuseffekten während der Wirkungsdauer.",
+    "ut": {
+      "name": "Spezialtrank der doppelten Reaktion",
+      "description": [
+        "[Spezial-Wasserkanone] Erhöht den Widerstand um 30 % und verringert den Cooldown um 12 %.",
+        "[Spezial-Wasserkanone] Erhöht den Widerstand um 30 % und verringert den Cooldown um 14 %.",
+        "[Spezial-Wasserkanone] Erhöht den Widerstand um 30 % und verringert den Cooldown um 17 %.",
+        "[Spezial-Wasserkanone] Erhöht den Widerstand um 30 % und verringert den Cooldown um 21 %.",
+        "[Spezial-Wasserkanone] Erhöht den Widerstand um 30 % und verringert den Cooldown um 25 %.",
+        "[Spezial-Wasserkanone] Erhöht den Widerstand um 30 % und verringert den Cooldown um 30 %."
+      ],
+      "story": "Ein spezieller Trank, der zwei Arten von Wirkungen hat. Mediana fragte sich, ob es einen Weg gäbe, sich gleichzeitig um Angriff und Heilung zu kümmern. Sie ging in die Bibliothek und las ein staubiges Buch namens „Schleime können auch Kanonen bauen“. Mediana las es nur spaßeshalber, aber sie fand einen Weg, das Prinzip der Kanonen in ihren „Kolben“ einzubauen. Sie war so in der Lage, den Spezialtrank der doppelten Reaktion zu erfinden und damit sowohl Angriff als auch Heilung zu maximieren, wenn sie mit ihrer Spezial-Wasserkanone angreift. Mediana ist dem Autor des Buches, der ihr die Inspiration lieferte, immer noch dankbar."
+    }
+  },
+  "s3": {
+    "name": "Stärkungsarznei",
+    "description": "Injeziert dem Verbündeten mit dem höchsten ANG eine Stärkungsarznei, die seinen ANG um 20%+ {0} von Medianas ANG erhöht und verhindert ein Fallen seiner TP auf unter 5%.",
+    "books": {
+      "0": "Erhöht ANG um {0}%.",
+      "1": "Erhöht ANG um {0}%.",
+      "2": "Erhöht ANG um {0}%."
+    },
+    "light": "Erhöht ANG-Boost um 40%.",
+    "dark": "Erhöht Krit. Chance um 400.",
+    "ut": {
+      "name": "Geheimnisvoller Trank",
+      "description": [
+        "[Stärkungsarznei] Hebt negative Effekte auf und gewährt dem Ziel 2 Sek. lang Immunität gegen Effekte.",
+        "[Stärkungsarznei] Hebt negative Effekte auf und gewährt dem Ziel 3 Sek. lang Immunität gegen Effekte.",
+        "[Stärkungsarznei] Hebt negative Effekte auf und gewährt dem Ziel 4 Sek. lang Immunität gegen Effekte.",
+        "[Stärkungsarznei] Hebt negative Effekte auf und gewährt dem Ziel 5 Sek. lang Immunität gegen Effekte.",
+        "[Stärkungsarznei] Hebt negative Effekte auf und gewährt dem Ziel 6 Sek. lang Immunität gegen Effekte.",
+        "[Stärkungsarznei] Hebt negative Effekte auf und gewährt dem Ziel 7 Sek. lang Immunität gegen Effekte."
+      ],
+      "story": "Ein besonderer Trank, der die Lehren eines Meisters enthält. Der geniale Chirurg und Anatomieexperte Doktor Aldini ist der Meister von Mediana. Doktor Aldini erkannte ihr Talent schon früh und lehrte sie außergewöhnliches medizinisches Wissen, das die Kirche von Lua sich nicht vorstellen könnte. Der unidentifizierbare Trank, der nach dem Spezialrezept ihres Meisters hergestellt wurde, erhöht den Effekt von „Stärkungsarznei“."
+    }
+  },
+  "s4": {
+    "name": "Medianas Spezialgift",
+    "description": "Erhöht die ANG aller Verbündeten um {0} and K. Kritresistenz um {1}. Injeziert dem Gegner beim Angriff ein spezielles Gift, was für 5 Sek. konstant K. Schaden in Höhe von {2} verursacht und seine K. Kritresistenz um {3} reduziert.",
+    "books": {
+      "0": "Erhöht ANG um {0}%.",
+      "1": "Erhöht ANG um {0}%.",
+      "2": "Erhöht K. Block aller Verbündeten um {0}."
+    },
+    "light": "K. Kritresistenz auf 300 geändert.",
+    "dark": "Ziel nimmt 20% extra K. Schaden."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / Effekt-Widerstund +100",
+    "dark": "Verbündete erhalten 2% ANG, wenn Schaden erlitten wird. Effekt kann sich 20 Mal kumulieren."
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Dimael",
+  "subtitle": "Cazador de Sombras",
+  "description": "Un Elfo Obscuro que caza a los enemigos en las sombras. Su ballesta de venganza atraviesa a sus enemigos con obscuridad negra.",
+  "story": "Este elfo obscuro solitario juró venganza contra su propia raza por la muerte de su hermana. Después de haber sobrevivido a duras penas al Desierto de Aegina, lo único que le esperaba en su regreso a casa era la terrible noticia que su hermana había sido asesinada como un sacrificio elfo. Mientras gritaba su nombre en la obscuridad, comenzó a sucumbir en la locura. Eventualmente, hizo un juramento de odio y venganza contra su propia raza, los asesinos de su hermana.",
+  "like": "Su hermana",
+  "dislike": "Sus parientes compañeros que dejaron que su hermana muriera",
+  "inn": {
+    "idle": "Ephigael...",
+    "recruit": {
+      "greet": "Ah... eres tú.",
+      "talk": [
+        "Deja de mirarme.",
+        "No me molestes. Aléjate de mi",
+        "...Ve al punto."
+      ],
+      "gift": "...¿Para mi? Hmph, ¿por qué no? No tiene sentido desperdiciarlo"
+    },
+    "affinity": {
+      "greet": "Este lugar no está tan mal.",
+      "talk": [
+        "Me gustan los sitios con sombra. Detesto la luz resplandeciente.",
+        "La oscuridad es mi fuente principal de poder."
+      ],
+      "gift": "¿Por qué me sigues entregando estas cosas? Odio tener que lidiar con este tipo de objetos problemáticos."
+    },
+    "relationship": {
+      "greet": "Bien, aquí estas. Encontraste algo útil?",
+      "talk": [
+        "Cuándo es la próxima cacería? Espero que sea tan fructífera como la última",
+        "Este poder oscuro es mío ahora. Seguiré utilizándolo como mejor me parezca.",
+        "Mi venganza no ha terminado aún... pero al menos por el momento, me siento a gusto."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Lágrimas de la Luna, Nerius",
+    "description": [
+      "Al atacar a un enemigo, inflige Daño Magico (100% de ATQ) con un 10% de probabilidad, y reduce el tiempo de reutilización de la habilidad en un 10%",
+      "Al atacar a un enemigo, inflige Daño Magico (120% de ATQ) con un 12% de probabilidad, y reduce el tiempo de reutilización de la habilidad en un 10%",
+      "Al atacar a un enemigo, inflige Daño Magico (140% de ATQ) con un 14% de probabilidad, y reduce el tiempo de reutilización de la habilidad en un 10%",
+      "Al atacar a un enemigo, inflige Daño Magico (170% de ATQ) con un 17% de probabilidad, y reduce el tiempo de reutilización de la habilidad en un 10%",
+      "Al atacar a un enemigo, inflige Daño Magico (210% de ATQ) con un 20% de probabilidad, y reduce el tiempo de reutilización de la habilidad en un 10%",
+      "Al atacar a un enemigo, inflige Daño Magico (250% de ATQ) con un 25% de probabilidad, y reduce el tiempo de reutilización de la habilidad en un 10%"
+    ],
+    "story": "Un tesoro de elfos obscuros que utiliza un poder de piedra de luz de luna de Arrovina y una rama de un árbol de luna de la más alta calidad. Nerius es un medio perfecto para la magia de luz de luna y es una de las armas mágicas más poderosas de los elfos obscuros. Sin embargo, se dice que la hermosa luz plateada de la luna puede ser fácilmente teñida por la obscuridad. Un amor sublime se ha convertido en una profundidad obscura y el elfo obscuro que desea venganza ha fusionado esa obscuridad en esta arma."
+  },
+  "s1": {
+    "name": "Rabia Obscura",
+    "description": "Causa {0} Daño Magico al enemigo",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Si hay 1 enemigo, el Daño se incrementa en un 100%.",
+    "dark": "Tiene un 25% de probabilidad de cegar al enemigo durante 5 seg."
+  },
+  "s2": {
+    "name": "Cadenas Negras",
+    "description": "Causa {0} Daño Magico a los enemigos al alcance y encadenalos por {1} seg.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "el Enemigo recibe {0}% mas Daño Magico"
+    },
+    "light": "El costo de maná se reduce en 1.",
+    "dark": "Los enemigos golpeados son atraídos juntos.",
+    "ut": {
+      "name": "Brazalete irrompible",
+      "description": [
+        "[Grillete negro] Aumenta el Daño en un 50 % y aumenta la Debilidad mágica del objetivo en un 10 % durante 10 segundos.",
+        "[Grillete negro] Aumenta el Daño en un 50 % y aumenta la Debilidad mágica del objetivo en un 12 % durante 10 segundos.",
+        "[Grillete negro] Aumenta el Daño en un 50 % y aumenta la Debilidad mágica del objetivo en un 14 % durante 10 segundos.",
+        "[Grillete negro] Aumenta el Daño en un 50 % y aumenta la Debilidad mágica del objetivo en un 17 % durante 10 segundos.",
+        "[Grillete negro] Aumenta el Daño en un 50 % y aumenta la Debilidad mágica del objetivo en un 21 % durante 10 segundos.",
+        "[Grillete negro] Aumenta el Daño en un 50 % y aumenta la Debilidad mágica del objetivo en un 25 % durante 10 segundos."
+      ],
+      "story": "Un brazalete compartido con Epigael hace mucho tiempo. De él cuelga un morrión de las sombras, una joya preciosas entre los elfos oscuros. Se dice que quienes cortan el morrión de las sombras y tienen un hilo de sus almas se encontrarán nuevamente en la próxima vida."
+    }
+  },
+  "s3": {
+    "name": "Oleada de Sombra",
+    "description": "Causa  {0}  Daño Magico sobre los enemigos en una línea recta y dejalos ciegos por  {1}  seg.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "El costo de maná se incrementa en 1 esfera, pero el Daño aumenta en un 100%.",
+    "dark": "Los efectos positivos de todos los enemigos al alcance se disipan.",
+    "ut": {
+      "name": "Ojo de las sombras",
+      "description": [
+        "[Oleada de Sombras] El Daño aumenta en un 50% y la duración de Ceguera aumenta en 2 segundos.",
+        "[Oleada de Sombras] El Daño aumenta en un 50% y la duración de Ceguera aumenta en 2.5 segundos.",
+        "[Oleada de Sombras] El Daño aumenta en un 50% y la duración de Ceguera aumenta en 3 segundos.",
+        "[Oleada de Sombras] El Daño aumenta en un 50% y la duración de Ceguera aumenta en 3.5 segundos.",
+        "[Oleada de Sombras] El Daño aumenta en un 50% y la duración de Ceguera aumenta en 4 segundos.",
+        "[Oleada de Sombras] El Daño aumenta en un 50% y la duración de Ceguera aumenta en 4.5 segundos."
+      ],
+      "story": "Fragmentos de lágrimas de la bestia Heltanios que vivió en el fondo de la Fuente de la vida. Lanza intensa oscuridad y aquellos que ven sus ojos terminan con sus almas robadas por la poderosa energía oscura. Aquellos que se conviertan en el amo de estos ojos obtendrán un gran poder y conocimiento. Cuando Dimael fue capturado en Aegina y estuvo al borde la muerte, María incrustó estos fragmentos de ojo."
+    }
+  },
+  "s4": {
+    "name": "Mancha Negra",
+    "description": "Al auto-atacar, causa  {0}  Daño Magico adicional al objetivo que desafia la defensa.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "el Daño se incrementa en un 40%.",
+    "dark": "Hay un 10% de probabilidad de que la habilidad 1 se dispare tras un auto-ataque."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Veloc de ATQ +100",
+    "dark": "Luego de atacar automáticamente, causa Daño Magico adicional equivalente al 80% de ATQ y recupera 100 de maná. Hay un 10% de probabilidad de causar doble Daño y recuperar el doble del mana"
+  }
+}

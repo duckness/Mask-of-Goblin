@@ -1,0 +1,120 @@
+{
+  "name": "Chase",
+  "subtitle": "Type. 0",
+  "description": "A test subject that has lost his past and a berserk warrior who fights wildly with his overflowing power in battle. A powerful weapon that destroys anything that gets in his way.",
+  "story": "A man who has lost his memory. Test subject Type. 0 that was born as a part of the human enhancement experiment of the empire. As the first type of the Project Evil Knights that were only made to kill, Chase was brought through a secretive contract with the empire to assassinate the sole successor to its throne, Scarlet. However, he went berserk for unknown reasons during a fight against Clause and Demia who were guarding Scarlet, and he abandoned his mission and left. He failed to kill Scarlet and disappeared, so the nobles who had commissioned the assassination found themselves in trouble. In the end, they hired another assassination group, the Laughing Mask, to have him killed. However, Scarlet already gave him a name, Chase, and let him stay by her side.",
+  "like": "Scarlet, Demia, Clause, and friends call him by this name",
+  "dislike": "Memory from the past, test subject number.",
+  "inn": {
+    "idle": "An unfamiliar atmosphere. Unfamiliar landscapes...",
+    "recruit": {
+      "greet": "I don't remember you.",
+      "talk": [
+        "Is there anyone here who knows me?",
+        "I definitely know that I've killed a lot of people. But why...? How come?",
+        "There was someone who was staring at me today. Could it be... Someone might know me?"
+      ],
+      "gift": "Thank you. That's what I should probably say."
+    },
+    "affinity": {
+      "greet": "Hmm...",
+      "talk": [
+        "My name... My own name that they call me by... That's why I'll fight for them.",
+        "My name is Chase... Chase... My name is Chase now..."
+      ],
+      "gift": "Can I... Take this...? Really...?"
+    },
+    "relationship": {
+      "greet": "I don't see her. If I don't find her soon, Demia will be mad.",
+      "talk": [
+        "I felt it with my body. Their power... They probably tried to overpower me without killing me.",
+        "She accepted me with such kindness, even though I tried to kill her... She gave me a name... And she stood in front of me...",
+        "Demia is scary... Clause is nice, but she's scary sometimes. No matter what, though, she is always kind."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Blood Lancer Monolith",
+    "description": [
+      "Increases own Crit DMG by 20%. Upon auto attack, deals P.DMG equal to 30% of ATK with [Flame of Monolith] and recovers HP equal to 20% of DMG dealt. When [Remove Limit] is active, the effect of [Flame of Monolith] is doubled.",
+      "Increases own Crit DMG by 24%. Upon auto attack, deals P.DMG equal to 36% of ATK with [Flame of Monolith] and recovers HP equal to 20% of DMG dealt. When [Remove Limit] is active, the effect of [Flame of Monolith] is doubled.",
+      "Increases own Crit DMG by 28%. Upon auto attack, deals P.DMG equal to 43% of ATK with [Flame of Monolith] and recovers HP equal to 20% of DMG dealt. When [Remove Limit] is active, the effect of [Flame of Monolith] is doubled.",
+      "Increases own Crit DMG by 34%. Upon auto attack, deals P.DMG equal to 52% of ATK with [Flame of Monolith] and recovers HP equal to 20% of DMG dealt. When [Remove Limit] is active, the effect of [Flame of Monolith] is doubled.",
+      "Increases own Crit DMG by 42%. Upon auto attack, deals P.DMG equal to 62% of ATK with [Flame of Monolith] and recovers HP equal to 20% of DMG dealt. When [Remove Limit] is active, the effect of [Flame of Monolith] is doubled.",
+      "Increases own Crit DMG by 50%. Upon auto attack, deals P.DMG equal to 75% of ATK with [Flame of Monolith] and recovers HP equal to 20% of DMG dealt. When [Remove Limit] is active, the effect of [Flame of Monolith] is doubled."
+    ],
+    "story": "A weapon for Enhanced Human Type. 0 that was made after thousands of attempts in one of the laboratories of the empire. Enhanced Human Type. 0 destroyed everything as soon as he woke up from the laboratory in order to find a weapon that could withstand his power. In the end, he tore out the horn of the monster Cannibal, which was known to have swallowed Arrogance out of the 7 sins. This horn went through the hands of the greatest blacksmiths of the empire and became the Blood Lancer Monolith. The flame of sin is burning inside the weapon, and whatever it pierces cannot be healed. The feeling of striking with this weapon is pleasurable enough to make him forget about the lingering attachment to his lost memory."
+  },
+  "s1": {
+    "name": "I'll Break You!",
+    "description": "Prevents the target from receiving positive effects for 4 seconds, and attacks to inflict {0} P.DMG and knocks the target back. Inflicts {1} P.DMG after 1 second to enemies around the target and stuns them for {2} seconds.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Reduces Mana Cost by 1.",
+    "dark": "The inflicted target takes 25% more P.DMG for 10 seconds."
+  },
+  "s2": {
+    "name": "Remove Limit",
+    "description": "Upon activation, [Remove Limit] takes effects. When activated, consumes {0}% of current HP to remove all negative effects on self and deals {1} P.DMG to nearby enemies in range. While [Remove Limit] is activated, consumes {2}% of current HP every 1 second, gains Immunity to CC, and increases Crit DMG by {3}% and ATK Spd by {4}. HP consumption and the increase in Crit DMG and ATK Spd grow larger as time passes. This effect cannot be dispelled, and is automatically deactivated when HP is under 25%.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Enemies hit are stunned for 2 sec.",
+    "dark": "HP consumption per sec is increased by 100% and ATK Spd, Crit DMG boost is doubled.",
+    "ut": {
+      "name": "Handkerchief of Loyalty",
+      "description": [
+        "[Remove Limit] For the skill's duration, deals P.DMG by 40% ATK every second to nearby enemies and increases Recovery by 30%.",
+        "[Remove Limit] For the skill's duration, deals P.DMG by 48% ATK every second to nearby enemies and increases Recovery by 30%.",
+        "[Remove Limit] For the skill's duration, deals P.DMG by 58% ATK every second to nearby enemies and increases Recovery by 30%.",
+        "[Remove Limit] For the skill's duration, deals P.DMG by 70% ATK every second to nearby enemies and increases Recovery by 30%.",
+        "[Remove Limit] For the skill's duration, deals P.DMG by 84% ATK every second to nearby enemies and increases Recovery by 30%.",
+        "[Remove Limit] For the skill's duration, deals P.DMG by 100% ATK every second to nearby enemies and increases Recovery by 30%."
+      ],
+      "story": "An item given to Chase by Scarlet. She gave it to him because she felt sorry for him for not having a name. Chase's name is embroidered in one corner of the handkerchief. It doesn't really match his look, but he carries it all the time. Chase lost his memory and could only figure out who he was by the test subject code marked on his waist. The moment when someone called him by a name was when he finally found a goal in life. He decided to use his overflowing power to protect those who made him feel alive."
+    }
+  },
+  "s3": {
+    "name": "Burn, Spear of Fury",
+    "description": "Charges at an enemy, inflicting {0} P.DMG and knocking it down, and explodes the ground around self to attack 4 times, dealing a total of {1} P.DMG and inflicting Stun for {2} seconds. Recovers HP equal to {3}% of DMG.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Gains Immunity to CC while in use.",
+    "dark": "Increases the Stun duration by 1 second.",
+    "ut": {
+      "name": "Unrelenting Pauldron",
+      "description": [
+        "[Burn, Spear of Fury] Reduces Mana Cost by 1 and increases DMG by 20%.",
+        "[Burn, Spear of Fury] Reduces Mana Cost by 1 and increases DMG by 24%.",
+        "[Burn, Spear of Fury] Reduces Mana Cost by 1 and increases DMG by 29%.",
+        "[Burn, Spear of Fury] Reduces Mana Cost by 1 and increases DMG by 35%.",
+        "[Burn, Spear of Fury] Reduces Mana Cost by 1 and increases DMG by 42%.",
+        "[Burn, Spear of Fury] Reduces Mana Cost by 1 and increases DMG by 50%."
+      ],
+      "story": "Pauldron that Chase wears on one shoulder. It is made up of special ores that are hard to find in the Orbis Continent. It's light but extremely sturdy and unbreakable. An item that Demia managed to get for Chase, since Scarlet was fond of him. Demia didn't show it much, but she was intrigued by how Chase normally seemed so naive, and yet was so enthusiastic when it came to sparring. Demia watched him for a few days, and one day, patting his shoulder, she nonchalantly gave Chase the pauldron. She told him that fighting was important, but it was also important to take care of his own body."
+    }
+  },
+  "s4": {
+    "name": "Remember This in Hell",
+    "description": "Not affected by Lifesteal stats. Instead, increases Max HP by {0} , Crit by {1} , CC ACC by {2} , and ACC by {3}. If receiving damage that leads to death, resurrects for {4} seconds, with increased Crit DMG by {5}%, and increased ATK Spd by {6}. The resurrection effect is only activated once per battle, and the resurrected Chase cannot use skills.",
+    "books": {
+      "0": "HP boost is increased by {0}%.",
+      "1": "HP boost is increased by {0}%.",
+      "2": "HP boost is increased by {0}%."
+    },
+    "light": "Upon the activation of resurrection, increases ATK by 50%.",
+    "dark": "Upon the activation of resurrection, knocks back nearby enemies in range for 3 seconds."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / Crit DMG +20%",
+    "dark": "Per every 1% of HP lost, Crit DMG is increased by 1% and ATK Spd is increased by 4."
+  }
+}

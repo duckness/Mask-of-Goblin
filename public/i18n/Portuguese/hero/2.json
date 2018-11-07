@@ -1,0 +1,120 @@
+{
+  "name": "Frey",
+  "subtitle": "Sacerdotisa da luz",
+  "description": "Uma amiga de infância de Kasel, ela é uma sacerdotisa que serve à Deusa. Ela cura e protege os aliados com o poder da luz.  Com as bençãos da Deusa, ela pode aumentar temporariamente os poderes mágicos e a resistência de alguém.",
+  "story": "Uma sacerdotisa que serve à Deusa Lua, ela é alvo de grandes expectativas da igreja em relação ao seu futuro na instituição. Desde os seus primeiros anos de treinamento, ela impressionou até os sumos sacerdotes com sua fé intensa e talento natural para canalizar o poder de Lua. Ela mesma considera o sacerdócio como seu caminho predestinado, e seu coração bondoso reflete sua determinação. No entanto, ela não tem misericórdia por malfeitores.",
+  "like": "Lua, trabalho atual",
+  "dislike": "Injustiça",
+  "inn": {
+    "idle": "Deusa Lua, que na Luz reside - que nossa fé nunca se abale.",
+    "recruit": {
+      "greet": "Que as bênçãos de Lua estejam com você.",
+      "talk": [
+        "Meu relacionamento com Kasel? Haha, somos como a nossa família. Acho que sou uma espécie de guardião?",
+        "Eu me pergunto como a Alto Sacerdotisa Iris está. Eu não a vi desde que eu fui embora...",
+        "Haha, você não acha que Roi e Cleo formam um belo casal?"
+      ],
+      "gift": "Uau, obrigado."
+    },
+    "affinity": {
+      "greet": "Aí está você. Não se machucou, não é?",
+      "talk": [
+        "Às vezes, eu vejo uma luz intensa nos meus sonhos. Pessoas com asas brancas em frente a um sol radiante...",
+        "De quem eu gosto? I-isso é um segredo meu e de Lua."
+      ],
+      "gift": "Obrigada. Não vou me esquecer da sua consideração."
+    },
+    "relationship": {
+      "greet": "Eu rezo para que Lua cuide de você.",
+      "talk": [
+        "A segurança de Kasel é importante. Ele foi escolhido pela Deusa.",
+        "Todas as decisões podem ser cumpridas com desdém. Eu não me importo, desde que a Deusa esteja feliz.",
+        "O relacionamento entre Deus e sacerdotes não é tão diferente de um relacionamento entre as pessoas comuns. Às vezes... nós discordamos."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Rosmerta, a Autoridade de Deus",
+    "description": [
+      "Enquanto estiver em ataque automático, há 40% de chance de curar o aliado com menor PV atual com um valor equivalente a 42% do ataque do conjurador.",
+      "Enquanto estiver em ataque automático, há 40% de chance de curar o aliado com menor PV atual com um valor equivalente a 50,4% do ataque do conjurador.",
+      "Enquanto estiver em ataque automático, há 40% de chance de curar o aliado com menor PV atual com um valor equivalente a 58,8% do ataque do conjurador.",
+      "Enquanto estiver em ataque automático, há 40% de chance de curar o aliado com menor PV atual com um valor equivalente a 71,4% do ataque do conjurador.",
+      "Enquanto estiver em ataque automático, há 40% de chance de curar o aliado com menor PV atual com um valor equivalente a 86,1% do ataque do conjurador.",
+      "Enquanto estiver em ataque automático, há 40% de chance de curar o aliado com menor PV atual com um valor equivalente a 105% do ataque do conjurador."
+    ],
+    "story": "Os Anjos dizem ser mais próximos de Lua do que qualquer outra raça. Quando um anjo de alta patente morre, seu âmago é transferido para o refúgio dos anjos para ser ressuscitado. No entanto, um anjo desses, Rosmerta, concedeu seu âmago à Igreja de Lua. Este cajado sagrado foi criado a partir da energia divina do âmago."
+  },
+  "s1": {
+    "name": "Luz Milagrosa",
+    "description": "Cura {0} PV do aliado com o menor PV.",
+    "books": {
+      "0": "Aumenta a Recuperação em {0}%.",
+      "1": "Aumenta a Recuperação em {0}%.",
+      "2": "Remove efeitos negativos do alvo."
+    },
+    "light": "Em troca de 1 Custo de Mana adicional, o poder visa a 2 inimigos.",
+    "dark": "Aliados curados recebem 25% de redução de DAN.M durante 10 segundos."
+  },
+  "s2": {
+    "name": "Bênção de Luz",
+    "description": "Conjura um escudo em todos os aliados que absorve {1} de DAN durante {0} segundos. Enquanto o escudo estiver ativado, ganha imunidade a CM.",
+    "books": {
+      "0": "Aumenta os PV do Escudo em {0}%.",
+      "1": "Aumenta os PV do Escudo em {0}%.",
+      "2": "Aumenta a taxa de recuperação do alvo em {0}%, durante o efeito do poder."
+    },
+    "light": "Reforça em 40% a quantidade de Escudo.",
+    "dark": "Aliados sob o efeito de Escudo ganham 20% de ATQ.",
+    "ut": {
+      "name": "Medalha Milagrosa",
+      "description": [
+        "[Bênção de Luz] Aumenta a quantidade de escudo em 50% e recupera 100 Mana a cada segundo por 4s.",
+        "[Bênção de Luz] Aumenta a quantidade de escudo em 50% e recupera 120 Mana a cada segundo por 4s.",
+        "[Bênção de Luz] Aumenta a quantidade de escudo em 50% e recupera 140 Mana a cada segundo por 4s.",
+        "[Bênção de Luz] Aumenta a quantidade de escudo em 50% e recupera 170 Mana a cada segundo por 4s.",
+        "[Bênção de Luz] Aumenta a quantidade de escudo em 50% e recupera 210 Mana a cada segundo por 4s.",
+        "[Bênção de Luz] Aumenta a quantidade de escudo em 50% e recupera 250 Mana a cada segundo por 4s."
+      ],
+      "story": "Medalha feita pela santa milagrosa, Yvonne, com a revelação da deusa. A Medalha Milagrosa é um artefato sagrado que contém a magia da luz. Dizem que a santa Yvonne salvou a cidade invadida pelos demônios com a bênção da luz que fora impulsionada por esta medalha."
+    }
+  },
+  "s3": {
+    "name": "Vingança do Paraíso",
+    "description": "Ataca o alvo e inimigos próximos a ele 6 vezes, causando um total de {0} DAN M. e cegando-os por {1} seg.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta a Chance Crít. em {0}."
+    },
+    "light": "Em troca de 1 Custo de Mana adicional, aumenta o DAN em 80%.",
+    "dark": "Reduz em 2 segundos o tempo de duração da Cegueira e visa a um inimigo aleatório.",
+    "ut": {
+      "name": "Pena do Árbitro Esquecido",
+      "description": [
+        "[Vingança dos Céus] O alvo recebe mais 20% de DAN.M por 10 segundos, e a duração de Cegar aumenta em 1 segundo.",
+        "[Vingança dos Céus] O alvo recebe mais 20% de DAN.M por 10 segundos, e a duração de Cegar aumenta em 1,5 segundo.",
+        "[Vingança dos Céus] O alvo recebe mais 20% de DAN.M por 10 segundos, e a duração de Cegar aumenta em 2 segundos.",
+        "[Vingança dos Céus] O alvo recebe mais 20% de DAN.M por 10 segundos, e a duração de Cegar aumenta em 2,5 segundos.",
+        "[Vingança dos Céus] O alvo recebe mais 20% de DAN.M por 10 segundos, e a duração de Cegar aumenta em 3 segundos.",
+        "[Vingança dos Céus] O alvo recebe mais 20% de DAN.M por 10 segundos, e a duração de Cegar aumenta em 3,5 segundos."
+      ],
+      "story": "Pena do Guardião do Sol. Pena de um anjo que salvou as pessoas lutando contra demônios no passado. Ele deixou sua pena como prova da sua promessa de retornar se o mundo caísse em caos. Um artefato da Igreja de Lua que invoca raios sagrados do sol para cegar o inimigo."
+    }
+  },
+  "s4": {
+    "name": "Graça da Deusa",
+    "description": "Aumenta a DEF M. de 1 aliado com o PV mais baixo em {1} por {0} seg. a cada 15 seg.",
+    "books": {
+      "0": "Taxa de aumento de DEF.M aumentada em {0}%.",
+      "1": "Taxa de aumento de DEF.M aumentada em {0}%.",
+      "2": "Restaura os PV do alvo em {0}%, durante o efeito do poder."
+    },
+    "light": "Reforça em 250 a VEL. ATQ do alvo.",
+    "dark": "Muda para 2 a quantidade de alvos."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / BLQ.M +200",
+    "dark": "Os aliados curados por Frey recebem 5% do ATQ dela como reforço de ATQ, durante 5 segundos."
+  }
+}

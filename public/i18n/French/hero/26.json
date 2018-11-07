@@ -1,0 +1,120 @@
+{
+  "name": "Aisha",
+  "subtitle": "Princesse Violette",
+  "description": "Une noble dame venant d'Orvelia. Un génie qui a atteint le titre de 'Violette' dans la Tour du Sage. Elle utilise son ombrelle fantaisie pour tirer de puissantes boules d'énergie sur ses ennemis.",
+  "story": "La fille d'une noble famille d'Orvel. En tant que magicienne la plus talentueuse de la Tour du Sage, elle a reçu le titre de « Violette » en reconnaissance de ses talents magiques. Elle fut élevée à la Tour des Sages depuis son enfance à la demande de ses parents, mais elle conserve sa dignité d'aristocrate. Lorsqu'elle était enfant, elle ne comprenait pas pourquoi ses parents l'avaient envoyée là, mais elle comprend désormais leur raisonnement. Elle est maintenant de retour chez elle, où la servante qui s'occupe d'elle est aussi proche d'elle qu'une membre de sa famille.",
+  "like": "Le thé avec Priscilla",
+  "dislike": "Les gens grossiers",
+  "inn": {
+    "idle": "Hmm, Je peux aussi bien acheter cette auberge toute entière.",
+    "recruit": {
+      "greet": "Est-ce votre première fois que vous rencontrez la noblesse?",
+      "talk": [
+        "Hmm, de quelle famille êtes-vous?",
+        "This jupe...les finitions étaient assez minables.",
+        "Beurk, je préfère la cuisine de mon chef à cette... nourriture de paysan."
+      ],
+      "gift": "Merci. Pourquoi ne pas venir pour boire le thé de temps en temps?"
+    },
+    "affinity": {
+      "greet": "Cette maison n'est pas si bien que ça.",
+      "talk": [
+        "Euh... Je n'ai pas besoin de nourriture. Je ne pense pas que j'aimerais ça.",
+        "La prochaine fois, j'apporterai une voiture de luxe."
+      ],
+      "gift": "Merci. Si vous voulez quoi que ce soit, dites-le-moi."
+    },
+    "relationship": {
+      "greet": "Ma soeur est sortie pour un moment, ne vous inquiétez pas.",
+      "talk": [
+        "Ne vous faites pas avoir par le sourire des nobles. Ce ne sont que des masques derrière lesquels ils se cachent.",
+        "Je n'aime pas le fait de ne pas pouvoir appeler Priscilla 'Soeur' à la maison. C'est la famille!",
+        "Le titre de Violette... Il n'y a aucune hiérarchie entre Les Sept, mais je n'apprécie pas d'être la dernière couleur du spectre!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Mahitra, Destin Noble",
+    "description": [
+      "Lors d'une attaque, 35% de chance d'infliger des DEG supplémentaires (40% de l'ATQ).",
+      "Lors d'une attaque, 35% de chance d'infliger des DEG supplémentaires (48% de l'ATQ).",
+      "Lors d'une attaque, 35% de chance d'infliger des DEG supplémentaires (57% de l'ATQ).",
+      "Lors d'une attaque, 35% de chance d'infliger des DEG supplémentaires (69% de l'ATQ).",
+      "Lors d'une attaque, 35% de chance d'infliger des DEG supplémentaires (83% de l'ATQ).",
+      "Lors d'une attaque, 35% de chance d'infliger des DEG supplémentaires (100% de l'ATQ)."
+    ],
+    "story": "Dans la Tour du Sage, le titre de Violet indique la plus haute des capacités de mana. Le mana apparemment infini d'Aisha était trop important pour les outils habituels. C'est pour cela que la famille von Daphnel acheta toutes les pierres de mana qu'elle put trouver afin de les amener à Annette, la meilleure technomage du château d'Orvel. Annette accepta avec joie ce nouveau projet. Elle créa peu de temps après Mahitra, une magnifique ombrelle idéale pour une sorcière de noble lignée."
+  },
+  "s1": {
+    "name": "Déluge Mystique",
+    "description": "Inflige {0} points de DEG M. aux ennemis dans une zone restreinte. Chaque Coup Critique réduit le temps de recharge de 1 sec.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les Chances de Crit de {0}."
+    },
+    "light": "S'il y a 1 ennemi, les DEG sont augmentés de 100%.",
+    "dark": "Un Crit permet de récupérer 300 mana."
+  },
+  "s2": {
+    "name": "Rayon de Destruction",
+    "description": "Inflige {0} points de DEG M. aux ennemis, en ligne droite, toutes les 0.5 sec. Après 5 secondes, consomme 3% de mana toutes les 0.5 sec, permettant aux DEG d'être augmentés de 100%.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les Chances de Crit de {0}."
+    },
+    "light": "Le coût en mana du Rayon Amélioré est réduit de moitié.",
+    "dark": "Le coût en Mana du Rayon Amélioré est doublé et l'augmentation des DEG passe de 100% à 200%.",
+    "ut": {
+      "name": "Miroir à main noble",
+      "description": [
+        "[Rayon destructeur] Augmente les DEG de 50 % et récupère 500 PM immédiatement à l'utilisation.",
+        "[Rayon destructeur] Augmente les DEG de 50 % et récupère 600 PM immédiatement à l'utilisation.",
+        "[Rayon destructeur] Augmente les DEG de 50 % et récupère 720 PM immédiatement à l'utilisation.",
+        "[Rayon destructeur] Augmente les DEG de 50 % et récupère 860 PM immédiatement à l'utilisation.",
+        "[Rayon destructeur] Augmente les DEG de 50 % et récupère 1040 PM immédiatement à l'utilisation.",
+        "[Rayon destructeur] Augmente les DEG de 50 % et récupère 1250 PM immédiatement à l'utilisation."
+      ],
+      "story": "Trésor sacré transmis de génération en génération à la famille de von Daphnel. Il s’agit d’un outil ancestral de chaman servant à conserver le mana. Après qu’Aisha a inclus la gemme violette noble avec son mana, son pouvoir s’est révélé. Ce miroir brille désormais de mille feux."
+    }
+  },
+  "s3": {
+    "name": "Pluie Torrentielle",
+    "description": "Inflige {1} points de DEG M. à des ennemis aléatoires pendant {0} sec et réduit la DEF M. de l'ennemi de 5%. Cette réduction est cumulable 5 fois.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les Chances de Crit de {0}."
+    },
+    "light": "Inflige des DEG de zone.",
+    "dark": "La réduction de la DEF M. se cumule maintenant jusqu'à 10 fois.",
+    "ut": {
+      "name": "Anneau de magie infinie",
+      "description": [
+        "[Pluie Torrentielle] Les DEG sont augmentés de 50% et chaque Crit rend 30 mana.",
+        "[Pluie Torrentielle] Les DEG sont augmentés de 50% et chaque Crit rend 36 mana.",
+        "[Pluie Torrentielle] Les DEG sont augmentés de 50% et chaque Crit rend 43 mana.",
+        "[Pluie Torrentielle] Les DEG sont augmentés de 50% et chaque Crit rend 52 mana.",
+        "[Pluie Torrentielle] Les DEG sont augmentés de 50% et chaque Crit rend 62 mana.",
+        "[Pluie Torrentielle] Les DEG sont augmentés de 50% et chaque Crit rend 75 mana."
+      ],
+      "story": "Un anneau offert avec le titre de Violet à la Tour du Sage. C’est un artéfact de la sorcière Eucaletus, qui vivait dans le Marais de la Sagesse. Le pouvoir qu’elle affiche dépend des talents de son porteur. Pour certains, ce peut être une source illimitée de mana. C’est idéal pour Aisha, qui utilise de puissants canons magiques."
+    }
+  },
+  "s4": {
+    "name": "Boost Mystique",
+    "description": "Un Coup Crit inflige {0} points de DEG M. supplémentaires à l'ennemi.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG de {0}%."
+    },
+    "light": "Les DEG sont augmentés de 40%.",
+    "dark": "Ignore le blocage ennemi."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Chances Crit +100",
+    "dark": "Chaque compétence utilise des charges d'Ombre. Chaque charge augmente de 6% la Régénération du Mana et augmente les DEG Crit de 2% (Cumulable 50 fois)."
+  }
+}

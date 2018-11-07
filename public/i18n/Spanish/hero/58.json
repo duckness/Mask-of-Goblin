@@ -1,0 +1,128 @@
+{
+  "name": "Laudia",
+  "subtitle": "Bailarina del oasis",
+  "description": "Una bailarina de una tribu nómade del Desierto de Aegina. Sus movimientos derriten los corazones de la gente, y sus cuchillos afilados arrebatan silenciosamente la vida de sus enemigos.",
+  "story": "Los Trovatias son una tribu nómade del Desierto de Aegina que heredaron la tradición y la religión del antiguo reino del desierto. Laudia es la hija del líder de la tribu y sirve a la clériga del agua, Laias. Además, se encarga de cuidar a la tribu en nombre de su anciano padre. Cuando rezó para pedir ayuda, la diosa dragón Laias y su hermana Lilia despertaron de su largo sueño y cobijaron a Laudia y a su tribu dentro del templo para protegerlos. Desde ese momento, Laudia ha estado derrotando demonios junto con Zafir, el líder de la tribu Mauhata de los guerreros del desierto.",
+  "like": "Laias, Lilia, gente del desierto",
+  "dislike": "Ver a la gente sufrir",
+  "inn": {
+    "idle": "Oh, qué lugar más interesante. ¿Hay algún sitio donde pueda bailar?",
+    "recruit": {
+      "greet": "Hola. Que el poder de la corriente te acompañe.",
+      "talk": [
+        "¿No has visto a la clériga? No pasa desapercibida...",
+        "Bueno, si me ves bailar, no podrás pensar en otra cosa.",
+        "No quiero que este hermoso mundo sufra más destrucción."
+      ],
+      "gift": "Gracias por el regalo. ¿Quieres bailar?"
+    },
+    "affinity": {
+      "greet": "¡Hola! Ahora que tenemos algo más de confianza, ¿te molestaría que te llamara por tu nombre?",
+      "talk": [
+        "Me agrada este lugar. Es tan tranquilo y pacífico.",
+        "Sustituir al líder no es un trabajo sencillo. Tengo que cuidar de todas las personas de mi tribu."
+      ],
+      "gift": "Gracias. Debería comprar bocadillos para los niños..."
+    },
+    "relationship": {
+      "greet": "Me alegra verte. ¿Vienes a verme a mí?",
+      "talk": [
+        "¿Conoces a Lilia y a su hermana, Laias? Son geniales. Estoy segura de que te caerán muy bien.",
+        "Puedo sentir la potente vibración de la corriente y el destino, que solo se encuentran en los guerreros y los héroes verdaderos.",
+        "Creé un baile nuevo. ¿Te gustaría verlo? Incluso podríamos bailar juntos."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Arenas susurrantes, Arlaq",
+    "description": [
+      "[Bendición del oasis] se puede acumular hasta 14 veces. En un ataque automático, el Tiempo de reutilización de todas las habilidades disminuye en un 4 % con un 10 % de probabilidades.",
+      "Bendición del oasis se puede acumular hasta 15 veces. En un ataque automático, el Tiempo de reutilización de todas las habilidades disminuye en un 4,8 % con un 10 % de probabilidades.",
+      "Bendición del oasis se puede acumular hasta 16 veces. En un ataque automático, el Tiempo de reutilización de todas las habilidades disminuye en un 5,8 % con un 10 % de probabilidades.",
+      "Bendición del oasis se puede acumular hasta 17 veces. En un ataque automático, el Tiempo de reutilización de todas las habilidades disminuye en un 7 % con un 10 % de probabilidades.",
+      "Bendición del oasis se puede acumular hasta 18 veces. En un ataque automático, el Tiempo de reutilización de todas las habilidades disminuye en un 8,4 % con un 10 % de probabilidades.",
+      "Bendición del oasis se puede acumular hasta 20 veces. En un ataque automático, el Tiempo de reutilización de todas las habilidades disminuye en un 10 % con un 10 % de probabilidades."
+    ],
+    "story": "Un tesoro exótico que es la manifestación de la pasión ardiente como una llama en el desierto. Se sabe que un par de estas hermosas armas fueron almacenadas en el depósito del antiguo rey dios. Cuando se mueven, emiten un sonido encantador, similar al viendo, con el aroma de una brisa. Es una tentación dulce, pero mortal, igual que un espejismo en el desierto..."
+  },
+  "s1": {
+    "name": "Susurro de arena",
+    "description": "Ataca al objetivo principal y causa {0} de Daño mágico a los enemigos cercanos, lo que disminuye su probabilidad de bloqueo en {2} y la Resistencia al ataque crítico en {3} durante {1} segundo(s). Además, los ataca y les inflige {4} de Daño mágico y los aturde durante {5} segundo(s).",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "El costo de Mana se reduce en 1.",
+    "dark": "El objetivo recibe un 25 % de Daño mágico aumentado durante 10 segundos."
+  },
+  "s2": {
+    "name": "Corriente de encantos",
+    "description": "Aumenta el Ataque propio en {1} y el Daño crítico en un {2}  % durante {0} segundo(s). Luego, se mueve un poco hacia adelante, lo que causa {3} de Daño mágico a los enemigos en el rango de movimiento e inflige Encanto durante {4} segundo(s) si la habilidad se usó en la Arena. Puede activar [Emboscada atrayente] una vez dentro de los 5 segundos después de que se usó.",
+    "books": {
+      "0": "Los aumentos de ATQ y Daño se incrementan en {0}%.",
+      "1": "Los aumentos de ATQ y Daño se incrementan en {0}%.",
+      "2": "Los aumentos de ATQ y Daño se incrementan en {0}%."
+    },
+    "light": "Gana 2 esferas de Mana después del movimiento. El Mana obtenido se consume en el transcurso de 10 segundos.",
+    "dark": "Después de usar Corriente de encantos, se puede usar Emboscada atrayente dos veces en el transcurso de 10 segundos.",
+    "ut": {
+      "name": "Cofre sagrado de Trovatia",
+      "description": [
+        "[Corriente de encantos] Después del movimiento, absorbe Daño equivalente al 160 % del Ataque durante 3 segundos. Luego, crea un escudo inmune al Control de multitudes, y el costo de Mana de [Emboscada atrayente] disminuye en 1.",
+        "[Corriente de encantos] Después del movimiento, absorbe Daño equivalente al 190 % del Ataque durante 3 segundos. Luego, crea un escudo inmune al Control de multitudes, y el costo de Mana de [Emboscada atrayente] disminuye en 1.",
+        "[Corriente de encantos] Después del movimiento, absorbe Daño equivalente al 230 % del Ataque durante 3 segundos. Luego, crea un escudo inmune al Control de multitudes, y el costo de Mana de [Emboscada atrayente] disminuye en 1.",
+        "[Corriente de encantos] Después del movimiento, absorbe Daño equivalente al 270 % del Ataque durante 3 segundos. Luego, crea un escudo inmune al Control de multitudes, y el costo de Mana de [Emboscada atrayente] disminuye en 1.",
+        "[Corriente de encantos] Después del movimiento, absorbe Daño equivalente al 330 % del Ataque durante 3 segundos. Luego, crea un escudo inmune al Control de multitudes, y el costo de Mana de [Emboscada atrayente] disminuye en 1.",
+        "[Corriente de encantos] Después del movimiento, absorbe Daño equivalente al 400 % del Ataque durante 3 segundos. Luego, crea un escudo inmune al Control de multitudes, y el costo de Mana de [Emboscada atrayente] disminuye en 1."
+      ],
+      "story": "Un cofre que contiene los artefactos necesarios para los rituales religiosos del dragón del agua. Algunos ornamentos que contiene fueron elaborados con “lapislázuli celeste”, una gema que representa la plenitud total. Es el objeto más preciado que atesora el padre de Laudia, y solo se entrega a aquellos que son capaces de guiar a toda la tribu Trovatia."
+    },
+    "linked": {
+      "name": "Emboscada atrayente",
+      "description": "Ataca al enemigo objetivo 3 veces, lo que provoca un total de {0} de Daño mágico. Inflige {1} de Daño mágico adicional, e ignora la Defensa del objetivo, a los enemigos Jefe y a los enemigos afectados por Encanto."
+    }
+  },
+  "s3": {
+    "name": "Danza del desierto",
+    "description": "Ataca a los enemigos dentro del rango 30 veces, lo que inflige un total de {0} de Daño mágico. Además, arroja “Cuchillas de Arlaq” a enemigos aleatorios 30 veces, lo que inflige un total de {1} de Daño mágico. El adicional de {2} de Daño se acumula cada vez que la cuchilla ataca al mismo enemigo. [Aceleración deslumbrante] se puede usar una vez durante la activación de la habilidad, y las “Cuchillas de Arlaq” priorizan a los objetivos afectados por Encanto.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Recupera 30 de Mana con cada ataque.",
+    "dark": "El costo de Mana aumenta en 1 y el Daño se incrementa en un 100 %.",
+    "ut": {
+      "name": "Velo de encanto",
+      "description": [
+        "[Danza del desierto] El Tiempo de reutilización de la habilidad disminuye en un 30 % y la Penetración de defensa aumenta en 100 durante la activación de la habilidad.",
+        "[Danza del desierto] El Tiempo de reutilización de la habilidad disminuye en un 30 % y la Penetración de defensa aumenta en 120 durante la activación de la habilidad.",
+        "[Danza del desierto] El Tiempo de reutilización de la habilidad disminuye en un 30 % y la Penetración de defensa aumenta en 140 durante la activación de la habilidad.",
+        "[Danza del desierto] El Tiempo de reutilización de la habilidad disminuye en un 30 % y la Penetración de defensa aumenta en 170 durante la activación de la habilidad.",
+        "[Danza del desierto] El Tiempo de reutilización de la habilidad disminuye en un 30 % y la Penetración de defensa aumenta en 210 durante la activación de la habilidad.",
+        "[Danza del desierto] El Tiempo de reutilización de la habilidad disminuye en un 30 % y la Penetración de defensa aumenta en 250 durante la activación de la habilidad."
+      ],
+      "story": "Un velo legendario que solo podía usar la mejor bailarina del continente. Si se baila con el velo puesto, los espectadores pueden quedar hipnotizados. Laudia lo utilizaba para encantar a sus enemigos con movimientos seductores y conseguir todo lo que deseaba."
+    },
+    "linked": {
+      "name": "Aceleración deslumbrante",
+      "description": "Gana inmunidad al Control de multitudes durante {0} segundo(s) y la Velocidad de ataque aumenta en {1}."
+    }
+  },
+  "s4": {
+    "name": "Bendición del oasis",
+    "description": "Disminuye en un {0}  % la duración del Control de multitudes infligida en uno mismo. Al usar una habilidad, gana [Bendición del oasis] durante {1} segundo(s), lo que aumenta la Penetración de defensa propia en {2} y la Defensa en {3}. El efecto [Bendición del oasis] se puede acumular hasta {4} veces y no se puede disipar.",
+    "books": {
+      "0": "La Penetración de defensa y el aumento de la Defensa se incrementan en un {0}  %.",
+      "1": "La Penetración de defensa y el aumento de la Defensa se incrementan en un {0}  %.",
+      "2": "La Penetración de defensa y el aumento de la Defensa se incrementan en un {0}  %."
+    },
+    "light": "Gana 2 acumulaciones de Bendición del oasis.",
+    "dark": "Por cada acumulación, recibe un 2 % menos de Daño por parte de los enemigos que no son héroes."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Veloc de ATQ +100",
+    "dark": "Al comienzo de cada batalla, gana inmunidad al Control de multitudes durante 7 segundos. Además, la Precisión y la Precisión del control de multitudes aumentan en 300 durante 10 segundos."
+  }
+}

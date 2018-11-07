@@ -1,0 +1,120 @@
+{
+  "name": "Scarlet",
+  "subtitle": "Hoffnungsschimmer",
+  "description": "Die Prinzessin von Orvelia liebt ihre Untertanten sehr. Ihr Schwert schwingt sie, um die Schwachen zu verteidigen und wie ein wahrer Ritter für Gerechtigkeit zu kämpfen.\\Mit ihrem magischen Großschwert verhindert sie Magie und schneidet durch ihre Gegner.",
+  "story": "König Veroglance II. von Orvelia wurde von Tag zu Tag schwächer. Einst war er ein tapferer Monarch, dem sich niemand in den Weg zu stellen getraute. Doch mit dem Alter begann er, Schwäche zu zeigen. Als er schließlich erkrankte scharten sich all jene, die einen Machtanspruch hegten um ihn wie die Fliegen. Scarlet gab ihr Bestes, um ihren Vater in diesem Chaos zu beschützen. Doch der Mann, der nur noch den Worten der Schmeichler um ihn gehorchte, war nicht länger der respektierte König, den sie kannte. Der König hörte nicht auf den Appell seiner Tochter. Die Adeligen waren, gelinde gesagt, wenig erfreut darüber, sie als einzige Tochter des Königs als neue Königin zu akzeptieren. Schnell verdunkelte sich die Atmosphäre im königlichen Palast. Sie wusste, dass die Adeligen weiter Druck auf sie ausüben würden. Doch sie wird niemals aufgeben. Sie ist darauf vorbereitet, für den Schutz ihres Königreiches und ihres Volkes zu kämpfen. Niemals würde sie den Machthungrigen die Kontrolle über das Königreich überlassen. Komme, was wolle ...",
+  "like": "Ehrliche Leute; gerechte Leute",
+  "dislike": "Opportunistische Unterdrücker der Schwachen",
+  "inn": {
+    "idle": "Hmm. Sauberer als erwartet.",
+    "recruit": {
+      "greet": "Ich nehme an, du willst was von mir?",
+      "talk": [
+        "Nur nicht so schüchtern. Komm näher.",
+        "Erzähl mir mehr von dir.",
+        "Dank dir ist dieses Land nicht gefallen! Ich danke dir von ganzem Herzen."
+      ],
+      "gift": "Da... danke..."
+    },
+    "affinity": {
+      "greet": "Schön, dich zu sehen.",
+      "talk": [
+        "Wird dürfen nicht vergessen, dass das Volk das Rückgrat dieses Landes ist.",
+        "Ich mache mir Sorgen wegen der Krankheit meines Vaters."
+      ],
+      "gift": "Danke, wie immer. Ich werde gute Verwendung dafür haben."
+    },
+    "relationship": {
+      "greet": "So sehen wir uns wieder. Setz dich... lass uns reden.",
+      "talk": [
+        "Du hast also auch den Eindruck, dass sich nicht nur die Hauptstadt von Orvel, sondern ganz Orvelia verändert hat...?",
+        "Es wäre eine Lüge, zu sagen, dass ich nicht müde bin... aber ich versuche, wach zu bleiben.",
+        "Es gibt einige vertrauenswürdige Leute um mich herum. Ich verdanke es ihnen, dass ich weitermachen kann... Haha, so eigensinnig und geradeheraus."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Urteilsschwert, Weiße Belona",
+    "description": [
+      "Für jeden Cooldown-Skill ist der Schaden um 8% erhöht.",
+      "Für jeden Cooldown-Skill ist der Schaden um 10% erhöht.",
+      "Für jeden Cooldown-Skill ist der Schaden um 12% erhöht.",
+      "Für jeden Cooldown-Skill ist der Schaden um 14% erhöht.",
+      "Für jeden Cooldown-Skill ist der Schaden um 17% erhöht.",
+      "Für jeden Cooldown-Skill ist der Schaden um 20% erhöht."
+    ],
+    "story": "Das legendärste Schwert in Orvelia. Diese heilige Klinge wurde seit der Geburt des Königreichs innerhalb der Königsfamilie weitergegeben und symbolisiert die wahre Autorität des Monarchen. Auch König Kyle verwendete dieses Schwert, ehe ihn das Heilige Schwert Aea auserwählte. Gesegnet mit der Kraft des Lichts kann diese Klinge alle Magie blockieren, indem sie ihren Fluss durchtrennt. Nur ein adeliger Ritter mit gerechtem Stolz vermag dieses Schwert zu führen. Jene, die es erheben möchten, müssen die Prüfungen der Königsfamilie bestehen, was außer Kyle nur Scarlet gelungen war."
+  },
+  "s1": {
+    "name": "Zugriff!",
+    "description": "Greift alle Frontfeinde an, verursacht {0} K.Schaden und wirft sie für 3 Sek. zu Boden. Verursacht zusätzlich {1} K.Schaden, wenn das Ziel kein Held ist. Heilt TP in Höhe von 30% des verursachten Schadens.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Ziel nimmt 10 Sek lang {0}% erhöhten K.Schaden."
+    },
+    "light": "Reduziert Manakosten um 1.",
+    "dark": "Entfernt alle negativen Effekte bei sich selbst."
+  },
+  "s2": {
+    "name": "Gerichtigkeit waltet",
+    "description": "Entfernt negative Effekte von Verbündeten und positive von Feinden. Verursacht dabei {0} K. Schaden.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Wenn das Ziel kein Held ist, wird es für 4 Sek. betäubt.",
+    "dark": "Erhöht K. Kritresistenz aller Verbündeten für 10 Sek. um 200.",
+    "ut": {
+      "name": "Flügel der Gerechtigkeit",
+      "description": [
+        "[Gerechtigkeit waltet!] Erhöht den Schaden um 20 % und verringert den Cooldown aller Verbündeten um 10 %.",
+        "[Gerechtigkeit waltet!] Erhöht den Schaden um 24 % und verringert den Cooldown aller Verbündeten um 10 %.",
+        "[Gerechtigkeit waltet!] Erhöht den Schaden um 29 % und verringert den Cooldown aller Verbündeten um 10 %.",
+        "[Gerechtigkeit waltet!] Erhöht den Schaden um 35 % und verringert den Cooldown aller Verbündeten um 10 %.",
+        "[Gerechtigkeit waltet!] Erhöht den Schaden um 42 % und verringert den Cooldown aller Verbündeten um 10 %.",
+        "[Gerechtigkeit waltet!] Erhöht den Schaden um 50 % und verringert den Cooldown aller Verbündeten um 10 %."
+      ],
+      "story": "Anhänger, der von Scarlet hergestellt wurde, deren Prinzipien es ihr nicht erlauben, Ungerechtigkeit zu ignorieren oder angesichts von Feigheit niederzuknien. Sie hat den Leuten, denen sie vertraut – Clause und Demia – jeweils einen geschenkt. Die leuchtenden Flügel des königlichen Smaragds, Symbole der Gerechtigkeit, sind in dem Anhänger eingefasst. Wenn man in diesen Anhänger blickt, der die Augen reflektiert, kann man mit sich selbst ins Reine kommen. Sie sieht ihn jedes Mal an, wenn sie Verzweiflung verspürt, weil sie die Leute ansieht, die ihren Vater Veroglance II beschuldigten."
+    }
+  },
+  "s3": {
+    "name": "Schwert des Stolzes",
+    "description": "Verursacht {0} K. Schaden über 3 Attacken und feuert einen Energiestoß aus dem Schwert, der {1} K. Schaden an Feinden in einer geraden Linie verursacht, welche sie für 5 Sek. blendet.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Reduziert Manakosten um 1.",
+    "dark": "Verletzte Gegner erhalten 10 Sek. lang um 40% reduzierte Heilung.",
+    "ut": {
+      "name": "Stolz von Orvelia",
+      "description": [
+        "[Schwert des Stolzes] Erhöht Schaden um 20% und jeder ANG betäubt Gegener 3 Sek. lang.",
+        "[Schwert des Stolzes] Erhöht Schaden um 24% und jeder ANG betäubt Gegener 3 Sek. lang.",
+        "[Schwert des Stolzes] Erhöht Schaden um 29% und jeder ANG betäubt Gegener 3 Sek. lang.",
+        "[Schwert des Stolzes] Erhöht Schaden um 35% und jeder ANG betäubt Gegener 3 Sek. lang.",
+        "[Schwert des Stolzes] Erhöht Schaden um 42% und jeder ANG betäubt Gegener 3 Sek. lang.",
+        "[Schwert des Stolzes] Erhöht Schaden um 50% und jeder ANG betäubt Gegener 3 Sek. lang."
+      ],
+      "story": "Eine Festfahne, die bei der Gründung Orvelias zu Ehren des Königs hergestellt wurde. Immer wenn Scarlet die Fahne im Büro erblickt, denkt sie voller Zorn an die Verräter, die aus ihrem Vater eine bloße Vogelscheuche gemacht haben und an die Schmeichler, die das Land ruinierten. Dies machte Scarlet noch entschlossener, Orvelias ruhmreiche Tage wiederherzustellen und einen stärkeren Thron zu errichten."
+    }
+  },
+  "s4": {
+    "name": "Kriegsgöttin",
+    "description": "Alle Krit.-Wiederstände sind um {0} erhöht. 10%-Chance während eines normalen Angriffs zusätzlich {1} K. Schaden zu verteilen und das Ziel für 1 Sek. zu betäuben.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Krit.-Widerstand um 300 erhöht.",
+    "dark": "Betäubung dauert 2 Sek. länger an, wenn nur noch ein Gegner verbleibt."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / Effekt-Widerstund +100",
+    "dark": "Beim Erleiden von Krit. Schaden 5%-Chance, dass der Angreifer alle positiven Effekte verliert und für 1 Sek. betäubt wird. 8 Sek. Skillcooldown."
+  }
+}

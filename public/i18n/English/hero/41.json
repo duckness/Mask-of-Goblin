@@ -1,0 +1,120 @@
+{
+  "name": "Mediana",
+  "subtitle": "The Dangerous Doctor",
+  "description": "A doctor whose technique originates from eras with scarce numbers of Priests and Healing Magic. She fires medicine from her large needle to empower allies, or weaken the enemy.",
+  "story": "A practitioner of the medical arts developed when priests were short in supply. She inherited her natural medical talent from her father, but her thirst for knowledge crossed the line when she began researching poison. As a result, she was excommunicated from medical society, but her enthusiasm for research was seemingly unaffected. However, her basic respect for life kept her from achieving any experimental results for her poison research. When the Demons appeared, she became overjoyed at finding rare and precious test subjects.",
+  "like": "Medical science, test subjects",
+  "dislike": "Healing magic",
+  "inn": {
+    "idle": "Fufufu, finally, a worthy test subject has appeared.",
+    "recruit": {
+      "greet": "Welcome. Have we met before?",
+      "talk": [
+        "Would you like to test out my new medicine? Fufu, do not be afraid.",
+        "I sometimes long for my disowned father.",
+        "Just a second, I just thought of an extremely effective compound of medicine."
+      ],
+      "gift": "Oh, thank you. May I use this as research material?"
+    },
+    "affinity": {
+      "greet": "Hello. I came to rest, so this is good.",
+      "talk": [
+        "The new drug? Ha ha, I'm testing it out.",
+        "Gotta take notes... I have to jot down all my ideas."
+      ],
+      "gift": "Oh, thank you. I'll be able to create a new poison, hahaha..."
+    },
+    "relationship": {
+      "greet": "How are you doing? Please tell me if you feel sick.",
+      "talk": [
+        "I know I'm a bit strange. But well, that's just how I am.",
+        "One day, I believe that medicine and treatment will do better than healing magic.",
+        "You are not my test subject, you are more like...the final recipient. Ah, not for poisons. I meant that as a doctor."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Merciful Threat, Phistonia",
+    "description": [
+      "Special Poison DMG is increased by 40% and targets inflicted by Poison take 30% of Mediana's ATK as extra P.DMG when hit by allies other than Mediana. Additional P.DMG effect activates only once per 1 sec.",
+      "Special Poison DMG is increased by 48% and targets inflicted by Poison take 36% of Mediana's ATK as extra P.DMG when hit by allies other than Mediana. Additional P.DMG effect activates only once per 1 sec.",
+      "Special Poison DMG is increased by 57% and targets inflicted by Poison take 43% of Mediana's ATK as extra P.DMG when hit by allies other than Mediana. Additional P.DMG effect activates only once per 1 sec.",
+      "Special Poison DMG is increased by 69% and targets inflicted by Poison take 52% of Mediana's ATK as extra P.DMG when hit by allies other than Mediana. Additional P.DMG effect activates only once per 1 sec.",
+      "Special Poison DMG is increased by 83% and targets inflicted by Poison take 62% of Mediana's ATK as extra P.DMG when hit by allies other than Mediana. Additional P.DMG effect activates only once per 1 sec.",
+      "Special Poison DMG is increased by 100% and targets inflicted by Poison take 75% of Mediana's ATK as extra P.DMG when hit by allies other than Mediana. Additional P.DMG effect activates only once per 1 sec."
+    ],
+    "story": "The story goes back to when Mediana's poison experiments were still being kept secret from her peers. One day, a fellow doctor noticed the giant syringe she had made. Impressed by its sheer size, he asked her: 'Look at the size of that thing. Shouldn't you at least give it a name?' To this, Mediana replied, nonchalantly: 'Oh... Just call it... Piston.'"
+  },
+  "s1": {
+    "name": "Healing Salve",
+    "description": "Heals all allies by {0} and makes them immune to the next single hit of DMG.",
+    "books": {
+      "0": "Heal rate is increased by {0}%.",
+      "1": "Heal rate is increased by {0}%.",
+      "2": "Heal rate is increased by {0}%."
+    },
+    "light": "Boosts healed ally ATK by 10% for 10 sec.",
+    "dark": "Mana cost is reduced by 1."
+  },
+  "s2": {
+    "name": "Special Water Cannon",
+    "description": "Fires a water cannon in a frontal direction, healing allies in range of {0} HP every 0.5 sec, and dealing {1} P.DMG to the enemy.",
+    "books": {
+      "0": "DMG and Heal rate are increased by {0}%.",
+      "1": "DMG and Heal rate are increased by {0}%.",
+      "2": "DMG and Heal rate are increased by {0}%."
+    },
+    "light": "DMG and Heal rate are increased by 40%.",
+    "dark": "Gain CC immunity while using said skill.",
+    "ut": {
+      "name": "Special Potion of Double Reaction",
+      "description": [
+        "[Special Water Cannon] Increases Resistance by 30% and reduces Cooldown by 12%.",
+        "[Special Water Cannon] Increases Resistance by 30% and reduces Cooldown by 14%.",
+        "[Special Water Cannon] Increases Resistance by 30% and reduces Cooldown by 17%.",
+        "[Special Water Cannon] Increases Resistance by 30% and reduces Cooldown by 21%.",
+        "[Special Water Cannon] Increases Resistance by 30% and reduces Cooldown by 25%.",
+        "[Special Water Cannon] Increases Resistance by 30% and reduces Cooldown by 30%."
+      ],
+      "story": "A special potion that has two type of effects. Mediana wondered if there was a way to handle attack and recovery at once. She went to the library and read a dusty book called 'Slimes Can Also Make Cannons.' Mediana was reading just for fun, but found a way to apply the principle of cannons into her piston. She was then able to invent the Special Potion of Double Reaction and maximize recovery and attack when using Special Water Cannon. Mediana is still thankful to the author of the book who gave her the inspiration."
+    }
+  },
+  "s3": {
+    "name": "Strengthening Potion",
+    "description": "Injects the ally with the highest ATK with a strengthening potion, increasing their ATK by 20%+ {0} of Mediana's ATK and keeping their HP from falling below 5%.",
+    "books": {
+      "0": "ATK boost is increased by {0}%.",
+      "1": "ATK boost is increased by {0}%.",
+      "2": "ATK boost is increased by {0}%."
+    },
+    "light": "ATK boost is increased by 40%.",
+    "dark": "Crit Chance is boosted by 400.",
+    "ut": {
+      "name": "Mysterious Potion",
+      "description": [
+        "[Strengthening Potion] dispels target's negative effects and target gains immunity to CC for 2 sec.",
+        "[Strengthening Potion] dispels target's negative effects and target gains immunity to CC for 3 sec.",
+        "[Strengthening Potion] dispels target's negative effects and target gains immunity to CC for 4 sec.",
+        "[Strengthening Potion] dispels target's negative effects and target gains immunity to CC for 5 sec.",
+        "[Strengthening Potion] dispels target's negative effects and target gains immunity to CC for 6 sec.",
+        "[Strengthening Potion] dispels target's negative effects and target gains immunity to CC for 7 sec."
+      ],
+      "story": "A special potion that has the teachings of a master. The genius surgeon and expert on anatomy, Doctor Aldini, is Mediana's master. Doctor Aldini recognized her talent early on, and he taught her extraordinary medical knowledge that couldn't have been imagined in the Church of Lua. The unidentifiable potion that was made with her master's special recipe increases the effect of the Strengthening Potion."
+    }
+  },
+  "s4": {
+    "name": "Mediana's Special Poison",
+    "description": "Increases all allies' ATK by {0} and P.Crit Resistance by {1}. Upon attack, injects the enemy with a special poison that deals {2} P.DMG over time for 5 sec and reduces P.Crit Resistance by {3}.",
+    "books": {
+      "0": "ATK boost is increased by {0}%.",
+      "1": "ATK boost is increased by {0}%.",
+      "2": "All allies' P.Block is increased by {0}."
+    },
+    "light": "P.Crit Resistance amount is changed to 300.",
+    "dark": "Target takes 20% increased P.DMG."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / CC Resist +100",
+    "dark": "When Mediana takes DMG, all allies gain 2% ATK. This effect stacks 20 times."
+  }
+}

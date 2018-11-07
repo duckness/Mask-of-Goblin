@@ -1,0 +1,120 @@
+{
+  "name": "Scarlet",
+  "subtitle": "Fé de Prata",
+  "description": "A princesa de Orvelia que ama verdadeiramente seu povo. Ela empunha uma espada para proteger os oprimidos e ajudar a justiça, como uma verdadeira cavaleira. Usando uma montante mágica que remove mana, ela elimina os inimigos.",
+  "story": "Rei Veroglance Segundo de Orvelia estava ficando cada dia mais fraco. Antigamente, ele era um monarca rígido a quem ninguém ousava se opor. No entanto, começou a mostrar sinais de fraqueza com a idade. Quando por fim adoeceu, aqueles que ansiavam por poder passaram a se juntar ao seu redor como moscas. Scarlet tentou proteger seu pai ao máximo em meio a esse caos. Porém, o homem que se deixava levar pelos bajuladores à sua volta não era mais o rei respeitado que ela conheceu. O rei virou as costas para os pedidos da filha. Os nobres não ficaram felizes em aceitá-la, a única filha do rei, como a próxima rainha. O clima no palácio real logo ficou mais sombrio. Ela sabia. Os nobres a pressionavam incessantemente, mas ele nunca cederia. Ela está preparada para lutar pela proteção do seu reino, pela proteção do seu povo. Custe o que custar...",
+  "like": "Pessoas honestas, pessoas em si",
+  "dislike": "Oportunistas, opressores dos fracos",
+  "inn": {
+    "idle": "Hmm. Melhor do que eu esperava.",
+    "recruit": {
+      "greet": "Suponho que você tem algo para tratar comigo?",
+      "talk": [
+        "Não fique tão distante. Chegue mais perto.",
+        "Conte mais da sua história.",
+        "Esse país ainda está se segurando por causa dos seus esforços. Agradeço de todo o meu coração."
+      ],
+      "gift": "... Obri... obrigada..."
+    },
+    "affinity": {
+      "greet": "Bom ver você.",
+      "talk": [
+        "Não podemos nos esquecer que o povo é o alicerce deste país.",
+        "Estou preocupada com a doença do meu pai."
+      ],
+      "gift": "Obrigada, como sempre. Vou fazer bom uso disso."
+    },
+    "relationship": {
+      "greet": "Nos encontraremos novamente. Sente-se... vamos conversar.",
+      "talk": [
+        "Você também acha que, não apenas a capital de Orvel, mas toda Orvelia, mudou...?",
+        "Eu estaria mentindo se eu dissesse que não estou cansada... mas, mesmo assim, eu tento.",
+        "Eu tenho fornecedores confiáveis ao meu lado. Graças a eles, eu ainda consigo seguir em frente... Haha, tão obstinado e direto."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Lâmina da Convicção, Belona Branca",
+    "description": [
+      "Para cada poder em recarga, o DAN aumenta em 8%",
+      "Para cada poder em recarga, o DAN aumenta em 10%",
+      "Para cada poder em recarga, o DAN aumenta em 12%",
+      "Para cada poder em recarga, o DAN aumenta em 14%",
+      "Para cada poder em recarga, o DAN aumenta em 17%",
+      "Para cada poder em recarga, o DAN aumenta em 20%"
+    ],
+    "story": "A espada mais lendária de Orvelia. Esta lâmina sagrada foi passada através da linhagem de Orvelia desde o surgimento do reino, simbolizando a real autoridade do monarca. O Rei Kyle também usou essa espada, até que foi escolhido pela Espada Sagrada de Aea. Abençoada com a poder da luz, essa lâmina é capaz de incapacitar qualquer magia ao interromper seu fluxo. Apenas um cavaleiro de sangue nobre e orgulho íntegro pode empunhar essa espada. Aqueles que desejam erguê-la devem passar pelo teste da família real, uma proeza realizada apenas por Scarlet e Kyle."
+  },
+  "s1": {
+    "name": "Pare!",
+    "description": "Ataca todos os inimigos frontais, causando {0} de DAN F. e derrubando-os por 3 segundos. Se o alvo não for um Herói, causa {1} de DAN F. adicional. Cura uma quantidade de PV equivalente a 30% do DAN causado.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "O alvo recebe mais {0}% de DAN.F durante 10 segundos."
+    },
+    "light": "Reduz o custo de mana em 1.",
+    "dark": "Remove todos os efeitos nocivos em si mesmo após o uso."
+  },
+  "s2": {
+    "name": "Justiça Feita",
+    "description": "Remove efeitos nocivos de todos os aliados e remove efeitos positivos de todos os inimigos, enquanto causa {0} de DAN.F.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "DAN aumenta em {0}%."
+    },
+    "light": "Se o alvo não for um Herói, atordoa-o por 4 segundos.",
+    "dark": "A Resistência Crit.F de todos aliados aumenta em 200 por 10 segundos.",
+    "ut": {
+      "name": "Asas da Justiça",
+      "description": [
+        "[Justiça Feita!] Aumenta o DAN em 20% e reduz em 10% a Recarga de todos os aliados.",
+        "[Justiça Feita!] Aumenta o DAN em 24% e reduz em 10% a Recarga de todos os aliados.",
+        "[Justiça Feita!] Aumenta o DAN em 29% e reduz em 10% a Recarga de todos os aliados.",
+        "[Justiça Feita!] Aumenta o DAN em 35% e reduz em 10% a Recarga de todos os aliados.",
+        "[Justiça Feita!] Aumenta o DAN em 42% e reduz em 10% a Recarga de todos os aliados.",
+        "[Justiça Feita!] Aumenta o DAN em 50% e reduz em 10% a Recarga de todos os aliados."
+      ],
+      "story": "Pingente feito por Scarlet, cujos princípios não permitem que ela ignore injustiças ou se ajoelhe perante a covardia. Ela deu um pingente para cada pessoa na qual confia: Clause e Demia. As asas reluzentes da esmeralda real – que simboliza a justiça – estão embutidas no pingente. Uma pessoa pode se colocar na linha olhando a imagem dos seus olhos refletidos no pingente. Ela olha para ele toda vez que perde as esperanças ao ver pessoas culparem seu pai, Veroglance II."
+    }
+  },
+  "s3": {
+    "name": "Espada do Orgulho",
+    "description": "Causa um total de {0} ao longo de 3 ataques contra o inimigo e dispara uma explosão de energia de uma espada, causando {1} de DAN.F para inimigos em uma linha reta, cegando-os por 5 segundos.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "DAN aumenta em {0}%."
+    },
+    "light": "Reduz o custo de mana em 1.",
+    "dark": "Os inimigos atingidos recebem 40% curas reduzidas por 10 segundos.",
+    "ut": {
+      "name": "Orgulho de Orvelia",
+      "description": [
+        "[Espada da Honra!!] Aumenta o DAN em 20% e cada ATQ inflige Atordoamento ao inimigo por 3 segundos.",
+        "[Espada da Honra!!] Aumenta o DAN em 24% e cada ATQ inflige Atordoamento ao inimigo por 3 segundos.",
+        "[Espada da Honra!!] Aumenta o DAN em 29% e cada ATQ inflige Atordoamento ao inimigo por 3 segundos.",
+        "[Espada da Honra!!] Aumenta o DAN em 35% e cada ATQ inflige Atordoamento ao inimigo por 3 segundos.",
+        "[Espada da Honra!!] Aumenta o DAN em 42% e cada ATQ inflige Atordoamento ao inimigo por 3 segundos.",
+        "[Espada da Honra!!] Aumenta o DAN em 50% e cada ATQ inflige Atordoamento ao inimigo por 3 segundos."
+      ],
+      "story": "Uma bandeira comemorativa que foi feita para enaltecer o rei quando Orvelia foi fundada. Quando ela vê a bandeira no escritório, ela se enerva ao pensar nos traidores que reduziram seu pai a um espantalho e nos bajuladores que arruinaram o país. Isso deixou Scarlet ainda mais determinada a restaurar os dias de glória de Orvelia e estabelecer um poderio ainda mais forte."
+    }
+  },
+  "s4": {
+    "name": "Deusa da Guerra",
+    "description": "Todas as Resistências a Crít aumentam em {0}. Com 10% de chance, causa um adicional de {1} de DAN.F durante o ataque automático e atordoa o inimigo por 1 segundo.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "DAN aumenta em {0}%."
+    },
+    "light": "A Resistência Crít aumenta em 300.",
+    "dark": "Atordoamento dura 2 segundos a mais quando houver apenas um inimigo."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / Resist. CM +100",
+    "dark": "Quando receber DAN Crít, há uma chance de 5% de remover todos os efeitos positivos e de causar atordoamento ao atacante por 1 segundo. A recarga de poder é de 8 segundos."
+  }
+}

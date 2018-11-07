@@ -1,0 +1,120 @@
+{
+  "name": "Kaulah",
+  "subtitle": "Der Blitzschamane",
+  "description": "Als langjähriger Orkhäuptling des Himmel-und-Wind Stammes benutzt er Elementarkräfte mithilfe des Himmels und des Windes. Mächtige Blitze paralysieren Feinde, während Gefährten vom Wind geheilt und gestärkt werden.",
+  "story": "Dieser große Ork-Schamane verfügt über die Stromkraft. Er ist der Häuptling des Himmelwind-Stammes und ein respektierter Ältester der Ork-Allianz. Zahllose Ork-Schamanen wurden von ihm ausgebildet und er wird als deren spiritueller Anführer angesehen. Er ist einer der wenigen Schamanen mit hellseherischen Träumen und auch weise genug, sie richtig zu deuten.",
+  "like": "Verwandte; Weltfrieden",
+  "dislike": "Malduk; Krieg",
+  "inn": {
+    "idle": "Braucht ihr die Hilfe eines Orkschamanen?",
+    "recruit": {
+      "greet": "Lasst mich euch vorstellen. Ich bin Häuptling des Himmelwind-Stammes, Kaulah.",
+      "talk": [
+        "Ich muss sagen, die materielle Zivilisation der Menschen ist wirklich erstaunlich.",
+        "Ich vermisse den Wind der Berggipfel. Ich werde morgen einen naheliegenden Berg besteigen.",
+        "Ich bin geschäftlich unterwegs, aber dieses unbequeme Bett macht es mir unmöglich, prophetische Träume zu träumen."
+      ],
+      "gift": "Ich werde mich an eure Großzügigkeit erinnern."
+    },
+    "affinity": {
+      "greet": "Ich hoffe, dass mein Wind dir dabei hilft, zu ruhen. Wenn auch nur ein wenig.",
+      "talk": [
+        "Ich kann mich einfach nicht an die Stadt gewöhnen. Aber es tut gut, lebendige Menschen zu sehen.",
+        "Der Wind wird immer wehen, auch wenn die Zeit vergangen ist ... So wie dein Mühsal ebenfalls vergehen wird."
+      ],
+      "gift": "Ich werde auf dieser Reise gute Verwendung dafür haben."
+    },
+    "relationship": {
+      "greet": "Dachte ich mir doch, dass ich einen freundschaftlichen Wind gespürt habe. Willkommen zurück, mein Freund.",
+      "talk": [
+        "Stark wie ein Felsen. Sanft wie eine Briese. So fühlt sich deine Aura an.",
+        "Hast du jemals die Spitze der Berge in Ogria bestiegen? Dort oben wartet eine atemberaubende Aussicht.",
+        "Letzte Nacht hatte ich eine Vorahnung. Du hast die Welt gerettet..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Blauwind Coventina",
+    "description": [
+      "Gewährt eine Chance von 10 %, M.Schaden in Höhe von 100 % des ANG zu verursachen und fügt 2 zufälligen Feinden über einen normalen Angriff Elektrischer Schock zu. Wenn das Ziel bereits von Elektrischer Schock betroffen ist, wird es für 2 Sek. betäubt.",
+      "Gewährt eine Chance von 12 %, M.Schaden in Höhe von 120 % des ANG zu verursachen und fügt 2 zufälligen Feinden über einen normalen Angriff Elektrischer Schock zu. Wenn das Ziel bereits von Elektrischer Schock betroffen ist, wird es für 2 Sek. betäubt.",
+      "Gewährt eine Chance von 14 %, M.Schaden in Höhe von 140 % des ANG zu verursachen und fügt 2 zufälligen Feinden über einen normalen Angriff Elektrischer Schock zu. Wenn das Ziel bereits von Elektrischer Schock betroffen ist, wird es für 2 Sek. betäubt.",
+      "Gewährt eine Chance von 17 %, M.Schaden in Höhe von 170 % des ANG zu verursachen und fügt 2 zufälligen Feinden über einen normalen Angriff Elektrischer Schock zu. Wenn das Ziel bereits von Elektrischer Schock betroffen ist, wird es für 2 Sek. betäubt.",
+      "Gewährt eine Chance von 21 %, M.Schaden in Höhe von 210 % des ANG zu verursachen und fügt 2 zufälligen Feinden über einen normalen Angriff Elektrischer Schock zu. Wenn das Ziel bereits von Elektrischer Schock betroffen ist, wird es für 2 Sek. betäubt.",
+      "Gewährt eine Chance von 25 %, M.Schaden in Höhe von 250 % des ANG zu verursachen und fügt 2 zufälligen Feinden über einen normalen Angriff Elektrischer Schock zu. Wenn das Ziel bereits von Elektrischer Schock betroffen ist, wird es für 2 Sek. betäubt."
+    ],
+    "story": "Ein Stab in Gestalt des vierflügeligen Donnervogels. Er wurde tatsächlich aus einer Feder eines Donnervogels hergestellt, einer Bestie, die den Himmelwind-Orks heilig ist. Der Stab hat die Macht, mit dem Himmel zu kommunizieren, das Wetter zu lesen und die Luft zu kontrollieren. Für einen Himmelwind-Schamanen, der die Stromkraft nützt, ist dieser Stab der ultimative Gegenstand."
+  },
+  "s1": {
+    "name": "Blitzstrahl",
+    "description": "Wirft 5 Blitze auf zufällige Feinde und verursacht {0} M.Schaden. Elektrifiziert getroffene Feinde. Wenn das Ziel bereits elektr. ist, wird das Ziel für {1} Sek. betäubt.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht krit. Trefferchance um {0}%."
+    },
+    "light": "Reduziert Manakosten um 1.",
+    "dark": "Ziel nimmt 10 Sek lang 25% erhöhten M.Schaden."
+  },
+  "s2": {
+    "name": "Heilender Regen",
+    "description": "Heilt {1} TP für alle Verbündete für {0} Sek.",
+    "books": {
+      "0": "Erhöht Erholung um {0}%.",
+      "1": "Erhöht Erholung um {0}%.",
+      "2": "Reduziert eingehenden Schaden um {0}% während der Zauberwirkung und verleiht Effekt-Immunität."
+    },
+    "light": "Verbündete nehmen 25% weniger Schaden während der Wirkungsdauer.",
+    "dark": "Heilt Verbündete zusätzlich um 5% ihrer max. TP für 1 extra Mana.",
+    "ut": {
+      "name": "Donnervogelmaske",
+      "description": [
+        "[Heilender Regen] Absorbiert 200 % ANG-Schaden und erschafft einen Schild, der 1 Sek. lang Statuseffekt gewährt, wenn er bei Verbündeten mit vollen TP eingesetzt wird.",
+        "[Heilender Regen] Absorbiert 240 % ANG-Schaden und erschafft einen Schild, der 1 Sek. lang Statuseffekt gewährt, wenn er bei Verbündeten mit vollen TP eingesetzt wird.",
+        "[Heilender Regen] Absorbiert 290 % ANG-Schaden und erschafft einen Schild, der 1 Sek. lang Statuseffekt gewährt, wenn er bei Verbündeten mit vollen TP eingesetzt wird.",
+        "[Heilender Regen] Absorbiert 350 % ANG-Schaden und erschafft einen Schild, der 1 Sek. lang Statuseffekt gewährt, wenn er bei Verbündeten mit vollen TP eingesetzt wird.",
+        "[Heilender Regen] Absorbiert 420 % ANG-Schaden und erschafft einen Schild, der 1 Sek. lang Statuseffekt gewährt, wenn er bei Verbündeten mit vollen TP eingesetzt wird.",
+        "[Heilender Regen] Absorbiert 500 % ANG-Schaden und erschafft einen Schild, der 1 Sek. lang Statuseffekt gewährt, wenn er bei Verbündeten mit vollen TP eingesetzt wird."
+      ],
+      "story": "Maske des Glück verheißenden Donnervogels, der Regen bringt. Wenn die Heilenden Tropfen des Himmelswind-Schamanen einmal anfangen, bleibt die Seele des Donnervogels bei denen, die vom Heilenden Regen berührt wurden und heilt ihre müden Knochen."
+    }
+  },
+  "s3": {
+    "name": "Flinker Wind",
+    "description": "Erhöht für alle Verbündete ANG um {1}% und Angriffsgeschw. um {2}% für {0} Sek.",
+    "books": {
+      "0": "ANG-Erhöhungsrate steigt um {0}%.",
+      "1": "ANG-Erhöhungsrate steigt um {0}%.",
+      "2": "Krit.-Chance steigt um {0}% während der Wirkungsdauer."
+    },
+    "light": "Erhöht ANG-Boost um 40%.",
+    "dark": "Reduziert Cooldown um 3 Sek.",
+    "ut": {
+      "name": "Dekorationsfeder der Himmelwinde",
+      "description": [
+        "[Flinker Wind] Reduziert Manakosten um 1 und gewährt 20% Krit. Schadensboost.",
+        "[Flinker Wind] Reduziert Manakosten um 1 und gewährt 24% Krit. Schadensboost.",
+        "[Flinker Wind] Reduziert Manakosten um 1 und gewährt 29% Krit. Schadensboost.",
+        "[Flinker Wind] Reduziert Manakosten um 1 und gewährt 35% Krit. Schadensboost.",
+        "[Flinker Wind] Reduziert Manakosten um 1 und gewährt 42% Krit. Schadensboost.",
+        "[Flinker Wind] Reduziert Manakosten um 1 und gewährt 50% Krit. Schadensboost."
+      ],
+      "story": "Feder eines Donnervogels, dem Wächter von Regen und Donner. Die hochrangigen Schamanen des Himmelwind-Stammes kommunizieren durch die Federn eines Donnervogels. Schamanen nutzen diesen Federschmuck, wenn sie „Flinker Wind“ einsetzen, um eins mit dem Donnervogel zu werden, was ANG und Angriffsgeschw. aller Verbündeten erhöht."
+    }
+  },
+  "s4": {
+    "name": "Kettenblitz",
+    "description": "Verursacht alle {0} Sek. {1} M.Schaden an 4 Feinden und fügt für {2} Sek. Elektrischer Schock zu. Feinde, die von Elektrischer Schock betroffen sind, erleiden über {3} Sek. insgesamt {4} M.Schaden.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Betäubt Feinde für {0} Sek bei einem krit. Treffer."
+    },
+    "light": "Erhöht Krit. Chance um 400.",
+    "dark": "Erhöht Betäubungsdauer um 3 Sek, wenn nur ein Feind auf dem Schlachtfeld ist."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / Krit. Chance +100",
+    "dark": "Beim Erleiden von Schaden wird die ANG-Geschwindigkeit des angreifenden Feindes für 5 Sek. um 300 verringert. Dieser Effekt wird nur einmal alle 5 Sek. aktiviert."
+  }
+}

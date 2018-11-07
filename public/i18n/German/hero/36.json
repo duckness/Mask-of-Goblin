@@ -1,0 +1,120 @@
+{
+  "name": "Ricardo",
+  "subtitle": "Luas Richter",
+  "description": "Ein nobler Held, welcher die Reiche der Menschen schon seit Ewigkeiten vor Dämonen schützt. Mit einem von der Göttin gesegneten Pfahl zerschmettert er seine Feinde.",
+  "story": "Ein Held, der zahllose Leben vor den Dämonen rettete und der gegenwärtige Kommandant der Heiligen Ritter der Kirche von Lua. Dieser tapfere und erfahrene Ritter jagt seit seiner Jugend überall in Orvelia nach Dämonen. Außerdem ist er der Direktor des Waisenhauses, in dem Kasel, Frey und Clause aufwuchsen. Er bildete in Orvelia zahlreiche Krieger aus und wird als deren spiritueller Anführer betrachtet. Er plant, aufgrund seines Alters von seiner Position abzutreten, doch die Stärke, über die er trotz seiner Jahre verfügt, führte bisher stets zu einer Ablehnung seiner Ruhestandsanfragen.",
+  "like": "Leute; Anderen helfen",
+  "dislike": "Dämonen vor allem jene, die Leute ohne Grund angreifen",
+  "inn": {
+    "idle": "Ihr seht alle gesund und munter aus. Das ist großartig! Hahaha!",
+    "recruit": {
+      "greet": "Hahaha, ach du bist es. Hast du auch ausreichend gegessen?",
+      "talk": [
+        "Ich bin vielleicht schon etwas älter, aber noch lange nicht gebrechlich! Allerdings werde ich, wenn das so weitergeht, nicht so schnell in den Ruhestand gehen. Hahaha!",
+        "Hahaha, meine Hüften schmerzen ein wenig, aber egal. Machen wir weiter!",
+        "Ein Wettbewerb im Armdrücken? Das lasse ich mir keinesfalls entgehen. Zeig mir, was du kannst!"
+      ],
+      "gift": "Haha, mach dir keine Gedanken über mich und leg es einfach in die Spendenbox für das Waisenhaus! Die Kinder brauchen es mehr als ich."
+    },
+    "affinity": {
+      "greet": "Wie geht es dir? Gesundheit ist das Wichtigste im Leben!",
+      "talk": [
+        "Sieht so aus, als hättest du hart trainiert! Kwahahaha!!!",
+        "Schnaps? Ich liebe ihn! Ich kann allerdings nicht mehr so viel davon trinken wie früher!"
+      ],
+      "gift": "Ich werde den Kindern ein paar neue Klamotten kaufen müssen! Hahahaha!"
+    },
+    "relationship": {
+      "greet": "Haha, du siehst gut aus heute!",
+      "talk": [
+        "Wenn man gegen Dämonen kämpft, gibt es viele Opfer... mehr als in Kriegen zwischen Menschen.",
+        "Mein Alter? Haha, ich gehe nicht in den Ruhestand, auch wenn ich alt bin! Außerdem würden sie mich nicht gehen lassen...",
+        "Das Leben ist stetiges Training! Wer rastet, der rostet!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Licht des Gesetzes, Theoria",
+    "description": [
+      "Wenn ein anderer Verbündeter als der Zaubernde Schaden erleidet, besteht eine Chance von 10 %, dass er einen Schild erhält, der für 5 Sek. Schaden in Höhe von 320 % des ANG absorbiert und Immunität gegen Statuseffekte gewährt. Dieser Effekt wird nicht öfter als einmal alle 5 Sek. ausgelöst.",
+      "Wenn ein anderer Verbündeter als der Zaubernde Schaden erleidet, besteht eine Chance von 12 %, dass er einen Schild erhält, der für 5 Sek. Schaden in Höhe von 384 % des ANG absorbiert und Immunität gegen Statuseffekte gewährt. Dieser Effekt wird nicht öfter als einmal alle 5 Sek. ausgelöst.",
+      "Wenn ein anderer Verbündeter als der Zaubernde Schaden erleidet, besteht eine Chance von 14 %, dass er einen Schild erhält, der für 5 Sek. Schaden in Höhe von 460 % des ANG absorbiert und Immunität gegen Statuseffekte gewährt. Dieser Effekt wird nicht öfter als einmal alle 5 Sek. ausgelöst.",
+      "Wenn ein anderer Verbündeter als der Zaubernde Schaden erleidet, besteht eine Chance von 17 %, dass er einen Schild erhält, der für 5 Sek. Schaden in Höhe von 552 % des ANG absorbiert und Immunität gegen Statuseffekte gewährt. Dieser Effekt wird nicht öfter als einmal alle 5 Sek. ausgelöst.",
+      "Wenn ein anderer Verbündeter als der Zaubernde Schaden erleidet, besteht eine Chance von 20 %, dass er einen Schild erhält, der für 5 Sek. Schaden in Höhe von 660 % des ANG absorbiert und Immunität gegen Statuseffekte gewährt. Dieser Effekt wird nicht öfter als einmal alle 5 Sek. ausgelöst.",
+      "Wenn ein anderer Verbündeter als der Zaubernde Schaden erleidet, besteht eine Chance von 25 %, dass er einen Schild erhält, der für 5 Sek. Schaden in Höhe von 800 % des ANG absorbiert und Immunität gegen Statuseffekte gewährt. Dieser Effekt wird nicht öfter als einmal alle 5 Sek. ausgelöst."
+    ],
+    "story": "Als das Heilige Schwert Aea Kyle gewährt wurde, erschien es im Tempel von Lua, nördlich der Königsebenen. Als Kyle das Schwert vom Altar nahm, wurde eine mächtige Lichtwelle freigesetzt, die alles Naheliegende in heiligen Boden verwandelte. Alle Gegenstände im Tempel wurden dadurch zu heiligen Reliquien. Teoria, die mittlere Säule des Tempels, bekam dabei die größte Menge heiliger Energie ab."
+  },
+  "s1": {
+    "name": "Vernichtung",
+    "description": "Fügt Feinden an der Front {0} K.Schaden zu und wirft sie für 3 Sek zu Boden.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Gewährt Effektimmunität, während der Skill aktiv ist."
+    },
+    "light": "Ziel erleidet 25% erhöhten K.Schaden für 10 Sek.",
+    "dark": "Fügt dem Ziel zusätzlich K.Schaden in Höhe von 200% der eigenen M.VERT zu."
+  },
+  "s2": {
+    "name": "Göttlicher Schutz",
+    "description": "Fügt Gegnern in Reichw. {0} K.Schaden zu und betäubt sie 1 Sek. lang. Zusätzlich ist die eigene M.VERT für 10 Sek. um {1} erhöht und fängt 80% des M.Schadens für andere Gruppenmitglieder ab.",
+    "books": {
+      "0": "Erhöht VERT-Boost um {0}%.",
+      "1": "Erhöht VERT-Boost um {0}%.",
+      "2": "Regeneriert 1% der eigenen TP pro Sek für 10 Sek."
+    },
+    "light": "Für 1 extra Mana erhält Ricardo 30% Schadenswiderstand für abgefangenen Schaden.",
+    "dark": "Dieser Skilleffekt kann nicht entfernt werden.",
+    "ut": {
+      "name": "Stolz des Heiligen Kriegers",
+      "description": [
+        "[Göttlicher Schutz] Gewährt Statuseffekt-Immunität und erhöht den M.Widerstand um 10 % für die Dauer des Skills.",
+        "[Göttlicher Schutz] Gewährt Statuseffekt-Immunität und erhöht den M.Widerstand um 12 % für die Dauer des Skills.",
+        "[Göttlicher Schutz] Gewährt Statuseffekt-Immunität und erhöht den M.Widerstand um 14 % für die Dauer des Skills.",
+        "[Göttlicher Schutz] Gewährt Statuseffekt-Immunität und erhöht den M.Widerstand um 17 % für die Dauer des Skills.",
+        "[Göttlicher Schutz] Gewährt Statuseffekt-Immunität und erhöht den M.Widerstand um 21 % für die Dauer des Skills.",
+        "[Göttlicher Schutz] Gewährt Statuseffekt-Immunität und erhöht den M.Widerstand um 25 % für die Dauer des Skills."
+      ],
+      "story": "Schild der Schlichter von Luas heiligen Rittern. Artefakt, das denjenigen von Luas heiligen Rittern verliehen wird, die sich den Titel des Schlichters verdient haben. Ein Artefakt, das mit Luas Segen durchwirkt ist. Es beschützt diejenigen, die unter dem Schutz der Göttin stehen und bestraft Feinde ohne Gnade."
+    }
+  },
+  "s3": {
+    "name": "Göttliches Urteil",
+    "description": "Greift Feinde 3 Mal frontal an. Die ersten 2 Attacken verursachen Feinden {0} K.Schaden und betäuben sie für je 4 Sek. Die letzte Attacke hat eine 20% größere Reichw., fügt Feinden {1} K.Schaden zu und betäubt sie für 4 Sek. Jeder Angriff hat eine 50% Chance, Positiveffekte der Feinde zu entfernen.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Blockt allen Schaden, während der Skill aktiv ist."
+    },
+    "light": "Erhöht Betäubungsdauer um 2 Sek.",
+    "dark": "Reduziert Manakosten um 1.",
+    "ut": {
+      "name": "Eid des Heiligen Kriegers",
+      "description": [
+        "[Göttliches Urteil] 75% Chance, positive Effekte von Feinden aufzuheben und reduziert ANG-Geschw. des Ziels 10 Sek. lang um 100.",
+        "[Göttliches Urteil] 75% Chance, positive Effekte von Feinden aufzuheben und reduziert ANG-Geschw. des Ziels 10 Sek. lang um 120.",
+        "[Göttliches Urteil] 75% Chance, positive Effekte von Feinden aufzuheben und reduziert ANG-Geschw. des Ziels 10 Sek. lang um 140.",
+        "[Göttliches Urteil] 75% Chance, positive Effekte von Feinden aufzuheben und reduziert ANG-Geschw. des Ziels 10 Sek. lang um 170.",
+        "[Göttliches Urteil] 75% Chance, positive Effekte von Feinden aufzuheben und reduziert ANG-Geschw. des Ziels 10 Sek. lang um 210.",
+        "[Göttliches Urteil] 75% Chance, positive Effekte von Feinden aufzuheben und reduziert ANG-Geschw. des Ziels 10 Sek. lang um 250."
+      ],
+      "story": "Das Siegel, welches Ricardo als Pfand des Heiligen Kriegers einsetzte. Wenn sie zum ersten Mal zum Heiligen Krieger ernannt werden, hinterlassen Ritter ihre Namen auf dem Eideszertifikat, zusammen mit ihrem Siegel. Ricardo schuf sein Siegel mit seiner Hingabe an die Kirche von Lua. Er trägt es immer noch bei sich, nach all der Zeit, die vergangen ist."
+    }
+  },
+  "s4": {
+    "name": "Göttlicher Segen",
+    "description": "Erhöht die M.VERT eines Verbündeten 5 Sek lang um {0} , wenn er M.Schaden erleidet. Kumuliert sich bis zu 5 Mal. Ricardo ist von diesem Effekt nicht betroffen.",
+    "books": {
+      "0": "Erhöht VERT-Boost um {0}%.",
+      "1": "Erhöht VERT-Boost um {0}%.",
+      "2": "Dauer wird um 2 Sek. erhöht."
+    },
+    "light": "Erhöht M.VERT-Erhöhungsrate um 40%.",
+    "dark": "Erhöht max. Zähler-Limit auf 8."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / K.Block +200",
+    "dark": "Falls eigene TP unter 40% fallen, können TP 6 Sek. nicht unter 10% fallen und ANG aller Verbündeten ist um 50% der eigenen M. VERT erhöht. Dieser Effekt kann alle 60 Sek. ausgelöst werden."
+  }
+}

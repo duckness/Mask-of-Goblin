@@ -1,0 +1,120 @@
+{
+  "name": "Naila",
+  "subtitle": "Combattante du Vent",
+  "description": "Une Harpie spécialisée dans le combat rapproché avec ses poings. Elle se déplace rapidement entre les ennemis, faisant des ravages dans leurs rangs et les écrase en lançant de puissantes attaques successives.",
+  "story": "Une guerrière honorable et robuste du peuple des Harpies, qui manient la puissance des vents. Sa dignité de guerrière harpie est la chose la plus importante à ses yeux. Elle s'appuie sur une volonté sans faille et son désir de remporter ses combats avec honneur. Ses talents sont exceptionnels, même parmi ses pairs. C'est un modèle exemplaire pour les jeunes guerrières harpies.",
+  "like": "Les compagnons, ceux qui ont la fierté du guerrier",
+  "dislike": "Les lâches et les hypocrites",
+  "inn": {
+    "idle": "Quelle est le problème, guerrier humain?",
+    "recruit": {
+      "greet": "Je veux me marrer avec vous un jour.",
+      "talk": [
+        "Himmullis...",
+        "C'est une chose absurde de penser qu'un pouvoir emprunté devient propriété.",
+        "Je n'oublierai jamais la fierté des harpies Elidora."
+      ],
+      "gift": "Vous savez sûrement comment sont les harpies."
+    },
+    "affinity": {
+      "greet": "Alors c'est à ça que ressemble une maison d'humain ?",
+      "talk": [
+        "Ma sœur m'a toujours dit de garder en mémoire la fierté d'une Harpie.",
+        "Je deviendrai la guerrière Harpie la plus valeureuse du monde."
+      ],
+      "gift": "Je vous revaudrai ça."
+    },
+    "relationship": {
+      "greet": "Comment ça va? Avez-vous continué votre entraînement?",
+      "talk": [
+        "Un vrai guerrier n'arrête jamais d'améliorer ses compétences!",
+        "Honneur, fierté - certains les pensent inutiles, mais elles sont importantes pour moi.",
+        "La prochaine fois, parlons-en ensemble. d'accord?"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Baroru, Ongles Maudits",
+    "description": [
+      "Lors d'un coup critique, inflige des DEG P. (150% de l'ATK) pendant 10sec. L'ennemi reçoit des DEG P. augmentés de 20% pendant la durée.",
+      "Lors d'un coup critique, inflige des DEG P. (180% de l'ATK) pendant 10sec. L'ennemi reçoit des DEG P. augmentés de 24% pendant la durée.",
+      "Lors d'un coup critique, inflige des DEG P. (216% de l'ATK) pendant 10sec. L'ennemi reçoit des DEG P. augmentés de 28% pendant la durée.",
+      "Lors d'un coup critique, inflige des DEG P. (258% de l'ATK) pendant 10sec. L'ennemi reçoit des DEG P. augmentés de 34% pendant la durée.",
+      "Lors d'un coup critique, inflige des DEG P. (310% de l'ATK) pendant 10sec. L'ennemi reçoit des DEG P. augmentés de 41% pendant la durée.",
+      "Lors d'un coup critique, inflige des DEG P. (500% de l'ATK) pendant 10sec. L'ennemi reçoit des DEG P. augmentés de 50% pendant la durée."
+    ],
+    "story": "Une paire de gantelets maudits fabriqués à l'aide des griffes du démon fou Baroro, qui fut vaincu durant la guerre. Ces gantelets font plusieurs fois la taille de mains humaines et sont directement connectés aux nerfs de leur porteur, ce qui lui permet de les contrôler sans effort. Bien qu'ils accordent énormément de puissance, ils brisent également l'esprit du porteur, grignotant peu à peu son âme. Seul un guerrier aux nobles convictions, à la volonté forte et à l'esprit inflexible peut manier ces armes maudites. Elles sont idéales pour le guerrier à la volonté puissante dont l'éclat resplendit même au milieu des ténèbres abyssales."
+  },
+  "s1": {
+    "name": "Vents Déchaînés",
+    "description": "Fonce 2 fois sur l'ennemi, infligeant {0} points de DEG P. à portée et les renverse pendant {1} sec. Si la cible n'est pas un héros, inflige {2}  points de DEG P supplémentaires.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG de {0}%."
+    },
+    "light": "S'il y a 1 ennemi, les DEG sont augmentés de 100%.",
+    "dark": "La cible change pour l'ennemi ayant l'ATQ la plus élevée."
+  },
+  "s2": {
+    "name": "Lecture du Vent",
+    "description": "Les Chances de Parade P. augmentent de {1} pendant {0} sec et l'ATQ augmente de {2}.",
+    "books": {
+      "0": "Le taux d'augmentation de l'ATQ est augmenté de {0}%.",
+      "1": "Le taux d'augmentation de l'ATQ est augmenté de {0}%.",
+      "2": "Le taux d'augmentation de l'ATQ est augmenté de {0}%."
+    },
+    "light": "Le coût en Mana est réduit de 1.",
+    "dark": "Augmente de 30 % les DEG de Naila infligés aux ennemis non-héros pendant la durée de la compétence.",
+    "ut": {
+      "name": "Écharpe d’Himmullis",
+      "description": [
+        "[Lecture du vent] Augmente le boost d'ATQ de 50 % et l'Esquive M. de 100.",
+        "[Lecture du vent] Augmente le boost d'ATQ de 50 % et l'Esquive M. de 120.",
+        "[Lecture du vent] Augmente le boost d'ATQ de 50 % et l'Esquive M. de 140.",
+        "[Lecture du vent] Augmente le boost d'ATQ de 50 % et l'Esquive M. de 170.",
+        "[Lecture du vent] Augmente le boost d'ATQ de 50 % et l'Esquive M. de 210.",
+        "[Lecture du vent] Augmente le boost d'ATQ de 50 % et l'Esquive M. de 250."
+      ],
+      "story": "Écharpe portée par les défunts Himmullis. Naila porte toujours la sienne. Les Himmullis rabâchent sans cesse à Naila qu’elle doit être fière d’être une Harpie. Cette écharpe renferme la tristesse liée à la perte de sa famille, ce qui rend Naila furieuse."
+    }
+  },
+  "s3": {
+    "name": "Bombe Plongeante",
+    "description": "Le héros s'envole et frappe l'ennemi. Inflige {0} points de DEG P. aux ennemis. Les DEG sont augmentés de {1}% sur les ennemis qui ont été renversés. Si la cible n'est pas un héros, inflige {2}  points de DEG P supplémentaires.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Inflige des DEG aux ennemis et applique Étourdissement pendant 3 sec."
+    },
+    "light": "Les DEG sont augmentés de 40%.",
+    "dark": "Réduit le Temps de recharge de 10% pour chaque ennemi qui reçoit des DEG Critiques.",
+    "ut": {
+      "name": "Fierté du vent",
+      "description": [
+        "[Bombe Plongeante] Le Temps de Recharger est réduit de 30% et la cible reçoit 10% de DEG P. supplémentaires pendant 10 sec.",
+        "[Bombe Plongeante] Le Temps de Recharger est réduit de 30% et la cible reçoit 12% de DEG P. supplémentaires pendant 10 sec.",
+        "[Bombe Plongeante] Le Temps de Recharger est réduit de 30% et la cible reçoit 14% de DEG P. supplémentaires pendant 10 sec.",
+        "[Bombe Plongeante] Le Temps de Recharger est réduit de 30% et la cible reçoit 17% de DEG P. supplémentaires pendant 10 sec.",
+        "[Bombe Plongeante] Le Temps de Recharger est réduit de 30% et la cible reçoit 21% de DEG P. supplémentaires pendant 10 sec.",
+        "[Bombe Plongeante] Le Temps de Recharger est réduit de 30% et la cible reçoit 25% de DEG P. supplémentaires pendant 10 sec."
+      ],
+      "story": "Une offrande rituelle d’un ancien peuple religieux qui vénérait le vent. C’est un précieux trésor pour les harpies et on dit qu’il était offert à la guerrière harpie la plus puissante. Celui qui porte ce masque peut utiliser le vent à sa guise et attaquer à la vitesse de la lumière."
+    }
+  },
+  "s4": {
+    "name": "Frappe de la Tornade",
+    "description": "Lors d'une attaque auto, le 5ème coup de la combo a 40% de chance d'infliger {0} points de DEG P. additionnels et les renverse.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG de {0}%."
+    },
+    "light": "Les chances d'activation sont maintenant de 60%.",
+    "dark": "La Vit. ATQ est augmentée de 300 lorsque l'effet se produit."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Esquive P. +100",
+    "dark": "En cas d'Esquive, tous les Temps de recharge des compétences sont réduits de 2%. En outre, l'ATQ est amplifiée de 3% et la Vit. ATQ est augmentée de 30. Les 2 effets sont cumulables 10 fois."
+  }
+}

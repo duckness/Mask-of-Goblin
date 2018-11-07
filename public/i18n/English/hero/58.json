@@ -1,0 +1,128 @@
+{
+  "name": "Laudia",
+  "subtitle": "Dancer of the Oasis",
+  "description": "A dancer from a nomadic tribe in Aegina Desert. Her dance melts people's hearts, and her sharp blades silently take the lives of her enemies.",
+  "story": "Trovatias are a nomadic tribe of Aegina Desert who inherited the tradition and religion of the ancient desert kingdom. Laudia is the daughter of the tribe leader and serves the Priestess of Water, Laias. She also looks after the tribe on behalf of her old father. When she prayed for help, God Dragon Laias and her sister Lilia woke up from their long sleep and led her and her tribe into the shrine, protecting them. Ever since, Laudia has been defeating demons in the desert with Zafir, the leader of the Mauhata tribe of Desert Warriors.",
+  "like": "Laias, Lilia, people in the desert",
+  "dislike": "Watching people suffer",
+  "inn": {
+    "idle": "Oh, what an interesting place. Is there any place for me to dance?",
+    "recruit": {
+      "greet": "Hi. May the Flowing power be with you.",
+      "talk": [
+        "Have you not seen the priestess? She is very noticeable...",
+        "Well, If you watch me dance, you won't be able to think about anything else.",
+        "I do not want to see this beautiful world being destroyed any further."
+      ],
+      "gift": "Thank you for the present. Care to dance?"
+    },
+    "affinity": {
+      "greet": "Hi! Now that we've gotten kind of close, is it okay if I call you by your first name?",
+      "talk": [
+        "I like this place. It's so calm and peaceful.",
+        "Being a deputy leader is not an easy job. I need to take care of all the people in my tribe."
+      ],
+      "gift": "Thank you. I should buy some snacks for the kids..."
+    },
+    "relationship": {
+      "greet": "Nice to see you. Well, are you here to see me?",
+      "talk": [
+        "Have you met Lilia and her sister, Laias? They are so great. I am sure you'll like them very much.",
+        "I can sense the strong vibration of the Flow and fate, which is only found in true warriors and heroes.",
+        "I made a new dance, would you like to see it some time soon? We could even dance together."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Whispering Sands, Arlaq",
+    "description": [
+      "[Blessing of Oasis] can be stacked up to max 14 times, and upon auto attack, all skill cooldown is decreased by 4% with 10% chance.",
+      "[Blessing of Oasis] can be stacked up to max 15 times, and upon auto attack, all skill cooldown is decreased by 4.8% with 10% chance.",
+      "[Blessing of Oasis] can be stacked up to max 16 times, and upon auto attack, all skill cooldown is decreased by 5.8% with 10% chance.",
+      "[Blessing of Oasis] can be stacked up to max 17 times, and upon auto attack, all skill cooldown is decreased by 7% with 10% chance.",
+      "[Blessing of Oasis] can be stacked up to max 18 times, and upon auto attack, all skill cooldown is decreased by 8.4% with 10% chance.",
+      "[Blessing of Oasis] can be stacked up to max 20 times, and upon auto attack, all skill cooldown is decreased by 10% with 10% chance."
+    ],
+    "story": "A rare treasure that is the manifestation of passion burning like a flame in the desert. A pair of these beautiful weapons is known to have been stored in the ancient God King's repositorium. When swung, they beautifully sound like the wind with the scent of a breeze. It is a sweet but lethal temptation, just like a mirage in the desert..."
+  },
+  "s1": {
+    "name": "Whisper of Sand",
+    "description": "Attacks target enemy and deals {0} M.DMG to enemies in close range, decreasing enemy block chance by {2} and Crit resistance by {3} for {1} sec. Additionally, attacks and deals {4} M.DMG and stuns them for {5} sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Mana cost is reduced by 1.",
+    "dark": "Target takes 25% increased M.DMG for 10 sec."
+  },
+  "s2": {
+    "name": "Enchanting Flow",
+    "description": "Increases own ATK by {1} and Crit DMG by {2}% for {0} sec. Then moves a short distance forward, dealing {3} M.DMG to enemies in movement range and Charms them for {4} sec if the skill was used in the Arena. Can activate [Alluring Ambush] once within 5 sec after use.",
+    "books": {
+      "0": "ATK boost and DMG is increased by {0}%",
+      "1": "ATK boost and DMG is increased by {0}%",
+      "2": "ATK boost and DMG is increased by {0}%"
+    },
+    "light": "Gains 2 orbs of mana after movement. Gained Mana is consumed over 10 sec.",
+    "dark": "After using [Enchanting Flow], [Alluring Ambush] can be used twice within 10 sec.",
+    "ut": {
+      "name": "Halidom of Trovatia",
+      "description": [
+        "[Enchanting Flow] After movement, absorbs DMG equal to 160% of ATK for 3 sec, then creates a shield that is immune to CC, and mana cost of [Alluring Ambush] is decreased by 1.",
+        "[Enchanting Flow] After movement, absorbs DMG equal to 190% of ATK for 3 sec, then creates a shield that is immune to CC, and mana cost of [Alluring Ambush] is decreased by 1.",
+        "[Enchanting Flow] After movement, absorbs DMG equal to 230% of ATK for 3 sec, then creates a shield that is immune to CC, and mana cost of [Alluring Ambush] is decreased by 1.",
+        "[Enchanting Flow] After movement, absorbs DMG equal to 270% of ATK for 3 sec, then creates a shield that is immune to CC, and mana cost of [Alluring Ambush] is decreased by 1.",
+        "[Enchanting Flow] After movement, absorbs DMG equal to 330% of ATK for 3 sec, then creates a shield that is immune to CC, and mana cost of [Alluring Ambush] is decreased by 1.",
+        "[Enchanting Flow] After movement, absorbs DMG equal to 400% of ATK for 3 sec, then creates a shield that is immune to CC, and mana cost of [Alluring Ambush] is decreased by 1."
+      ],
+      "story": "A chest containing the artifacts needed for worship rituals for the Dragon of Water. Some ornaments on it are crafted with 'Azure Lapis Lazuli,' a gem that represents complete fullness. It is the dearest thing that Laudia's father treasures, and is only given to those who have the ability to lead the entire Trovatia tribe."
+    },
+    "linked": {
+      "name": "Alluring Ambush",
+      "description": "Attacks target enemy 3 times, dealing a total of {0} M.DMG. Deals extra {1} M.DMG ignoring the target's DEF to Boss enemies and enemies inflicted by Charm."
+    }
+  },
+  "s3": {
+    "name": "Dance of the Desert",
+    "description": "Attacks enemies in range 30 times, dealing a total of {0} M.DMG. Additionally throws the 'Blades of Arlaq' at random enemies 30 times, dealing a total of {1} M.DMG. Extra {2} DMG is stacked every time the blade hits the same enemy. [Blinding Acceleration] can be used once during skill activation, and the 'Blades of Arlaq' prioritize targets inflicted by Charm.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Recovers 30 Mana every hit.",
+    "dark": "Mana cost is increased by 1 and DMG is increased by 100%.",
+    "ut": {
+      "name": "Veil of Charm",
+      "description": [
+        "[Dance of the Desert] Skill cooldown is decreased by 30% and Penetration is increased by 100 during skill activation.",
+        "[Dance of the Desert] Skill cooldown is decreased by 30% and Penetration is increased by 120 during skill activation.",
+        "[Dance of the Desert] Skill cooldown is decreased by 30% and Penetration is increased by 140 during skill activation.",
+        "[Dance of the Desert] Skill cooldown is decreased by 30% and Penetration is increased by 170 during skill activation.",
+        "[Dance of the Desert] Skill cooldown is decreased by 30% and Penetration is increased by 210 during skill activation.",
+        "[Dance of the Desert] Skill cooldown is decreased by 30% and Penetration is increased by 250 during skill activation."
+      ],
+      "story": "A legendary Veil only given to the best dancer in the continent. Performing a dance with it on can mesmerize those who are watching. Laudia used the veil to mesmerize enemies with her seductive dance and achieved everything she wanted."
+    },
+    "linked": {
+      "name": "Blinding Acceleration",
+      "description": "Gains immunity to CC for {0} sec and ATK Spd is increased by {1}."
+    }
+  },
+  "s4": {
+    "name": "Blessing of Oasis",
+    "description": "Decreases CC duration inflicted on self by {0}%. Upon using a skill, gains [Blessing of Oasis] for {1} sec, increasing own Penetration by {2} and DEF by {3}. [Blessing of Oasis] can be stacked up to max {4} times and cannot be dispelled.",
+    "books": {
+      "0": "DEF Penetration and DEF boost are increased by {0}%.",
+      "1": "DEF Penetration and DEF boost are increased by {0}%.",
+      "2": "DEF Penetration and DEF boost are increased by {0}%."
+    },
+    "light": "Gains 2 stack of [Blessing of Oasis].",
+    "dark": "Per each stack, takes 2% less DMG from enemies other than heroes"
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / ATK.Spd +100",
+    "dark": "At the start of each battle, gains immunity to CC for 7 sec, and ACC, CC ACC are increased by 300 for 10 sec."
+  }
+}

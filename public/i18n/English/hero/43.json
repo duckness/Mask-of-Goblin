@@ -1,0 +1,120 @@
+{
+  "name": "Viska",
+  "subtitle": "Demon Eater",
+  "description": "A rogue demon, aiming to devour other demons to raise her own power. She traveled across the rift between dimensions to hunt down the powerful demons currently residing in the Material World. Her spikes exist to rip and tear through enemies.",
+  "story": "A maverick among Demons who seeks to grow her own power by devouring other powerful Demons. She embodies the worst possible meaning of the word Demon. She crossed the dimensional rift to seek out and devour the Demons who traveled to the earthly realm. She placed a limit on her own power and assumed the form of a sickly young girl to further humiliate her victims. She detests weaklings who pretend to be strong. On the other hand, she respects those who recognize their own weaknesses and risk their lives in the pursuit of strength.",
+  "like": "Fighting powerful demons and devouring them afterward",
+  "dislike": "Weaklings",
+  "inn": {
+    "idle": "Eh...no Demons? I feel hungry...",
+    "recruit": {
+      "greet": "Hello~Any snacks? Any Demons?",
+      "talk": [
+        "If I don't find something to eat soon, she'll start a tantrum...eh? Ah, it's nothing. Hahaha....Phew.",
+        "Feeling a bit peckish...Hey, do you know of any Demons in the nearby area that seem strong?",
+        "This? It's the Mark of a Demon Contract. Well, I don't know the specifics."
+      ],
+      "gift": "What's this? Can I eat it?"
+    },
+    "affinity": {
+      "greet": "Oh, I think I smell something delicious?",
+      "talk": [
+        "I'm hungry... Do you have anything good to eat? Nothing? Really?",
+        "Demon souls are the best, but regular food is pretty good, too!"
+      ],
+      "gift": "Something good! Something good!"
+    },
+    "relationship": {
+      "greet": "Hey there. I'm still hungry, you know...",
+      "talk": [
+        "Me? Well, I'm just a normal village girl...who is posessed by a Demon. Nothing more, nothing less.",
+        "My form during battles? Ah, that's Viska, the Demon inside me. Normally, she lets me control my body, but when we fight...",
+        "I don't feel anything about eating Demons. In fact, they rather deserve it... and well, the two of us are now one..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Nightmare Fang, Kitrax",
+    "description": [
+      "Enemies that had their Souls stolen take 25% increased M.DMG. Lasts for 10 sec.",
+      "Enemies that had their Souls stolen take 30% increased M.DMG. Lasts for 10 sec.",
+      "Enemies that had their Souls stolen take 36% increased M.DMG. Lasts for 10 sec.",
+      "Enemies that had their Souls stolen take 43% increased M.DMG. Lasts for 10 sec.",
+      "Enemies that had their Souls stolen take 51% increased M.DMG. Lasts for 10 sec.",
+      "Enemies that had their Souls stolen take 60% increased M.DMG. Lasts for 10 sec."
+    ],
+    "story": "Nightmare Kitrax was known as the best, and the most terrifying, of the succubi. After devouring Kitrax whole, soul and all, Viska came up with her most powerful weapon yet. This spike is the physical manifestation of fear and despair. Death is the only fate of its unfortunate victims. It constantly injects fear into its victim's soul, reducing even the most formidable enemy to mere prey."
+  },
+  "s1": {
+    "name": "Meal Time!!",
+    "description": "Deals {0} M.DMG to frontal enemies in range. For 10 sec, Hit enemies' ATK is reduced by {1}% for and own ATK is increased by {2}. If used while holding 3 or more stacks of Soul, shackles the enemy for 3 sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "ATK boost is increased by {0}%."
+    },
+    "light": "In exchange for 1 additional Mana Cost, cooldown is reduced by 4 sec.",
+    "dark": "Soul condition for Shackle effect is erased."
+  },
+  "s2": {
+    "name": "I'll slice you up!!",
+    "description": "Moves behind the target, dispelling positive effects and dealing {0} M.DMG while inflicting knock down. If used while holding 3 or more stacks of Soul, reduces enemy M.DEF by {1}% for 15 sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Enemy takes {0}% increased M.DMG."
+    },
+    "light": "Mana cost is reduced by 1.",
+    "dark": "Soul condition for M.DEF reduction is erased.",
+    "ut": {
+      "name": "Rampaging Beast's Claw",
+      "description": [
+        "[I'll Slice You Up!] Reduces Cooldown by 30% and adds 8% M.DEF reduction.",
+        "[I'll Slice You Up!] Reduces Cooldown by 30% and adds 10% M.DEF reduction.",
+        "[I'll Slice You Up!] Reduces Cooldown by 30% and adds 12% M.DEF reduction.",
+        "[I'll Slice You Up!] Reduces Cooldown by 30% and adds 14% M.DEF reduction.",
+        "[I'll Slice You Up!] Reduces Cooldown by 30% and adds 17% M.DEF reduction.",
+        "[I'll Slice You Up!] Reduces Cooldown by 30% and adds 20% M.DEF reduction."
+      ],
+      "story": "Claw of the violent magic beast Urgol, who is said to bite off souls. The day Viska decided to hunt in the Material World, she devoured Urgol from the Demon World. Combined with the ability that Viska has to absorb the power of others, it displayed great power, and it is essential to eat Demons who trespassed to the Material World."
+    }
+  },
+  "s3": {
+    "name": "I'll rip you to pieces!!",
+    "description": "Deals {0} M.DMG to enemies in a wide surrounding area, and inflicts Stun for 3 sec. If used while holding 5 stacks of Soul, consumes all stacks to reset the cooldown of this skill.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Enemies nearby are drawn in right before the attack occurs."
+    },
+    "light": "The 5 Soul consuming effect no longer consumes Souls.",
+    "dark": "Mana cost is reduced by 1.",
+    "ut": {
+      "name": "Soul of a Giant Demon",
+      "description": [
+        "[I'll rip you to pieces!!] Gain immunity to CC during skill activation and upon every use, DMG is increased by 4%. This effect is stacked max 10 times.",
+        "[I'll rip you to pieces!!] Gain immunity to CC during skill activation and upon every use, DMG is increased by 4.8%. This effect is stacked max 10 times.",
+        "[I'll rip you to pieces!!] Gain immunity to CC during skill activation and upon every use, DMG is increased by 5.8%. This effect is stacked max 10 times.",
+        "[I'll rip you to pieces!!] Gain immunity to CC during skill activation and upon every use, DMG is increased by 7%. This effect is stacked max 10 times.",
+        "[I'll rip you to pieces!!] Gain immunity to CC during skill activation and upon every use, DMG is increased by 8.4%. This effect is stacked max 10 times.",
+        "[I'll rip you to pieces!!] Gain immunity to CC during skill activation and upon every use, DMG is increased by 10%. This effect is stacked max 10 times."
+      ],
+      "story": "Crystallized form of great demon Curapis's soul, who has the power to get big. He was one of the first demons that Viska hunted in the Demon World, and it is said that it used its big body to dominate his enemies. But battle isn't all about strength, but using one's brain as well. The giant demon was defeated and eaten by a predator who used her brain. The power to get big became Viska's, and she can use it freely now."
+    }
+  },
+  "s4": {
+    "name": "Yummy Souls!",
+    "description": "Enemies attacked with Viska's skills lose Souls. Upon losing their Soul, targets take {0} extra M.DMG, and per each soul stacked, Viska's HP is healed by {1} and Mana is healed by 300. Souls last until they are used, can't be dispelled and can be stacked up to 5 times max.",
+    "books": {
+      "0": "DMG and Heal rate are increased by {0}%.",
+      "1": "DMG and Heal rate are increased by {0}%.",
+      "2": "Enemies that had their Souls stolen lose {0} mana."
+    },
+    "light": "Enemies that had their Souls stolen have their CC resistance reduced by 250 for 10 sec.",
+    "dark": "Per each stacked Soul, ATK is increased by 10%"
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / Crit Chance +100",
+    "dark": "Per each stacked Soul, Crit Chance is increased by 50 and Crit DMG is increased by 30%."
+  }
+}

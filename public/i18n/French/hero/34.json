@@ -1,0 +1,120 @@
+{
+  "name": "Annette",
+  "subtitle": "Technomage Royale",
+  "description": "Une technomage de génie qui attend le jour où tout le monde aura accès à la magie. Son golem technomagique lui sert d'arme pour pulvériser ses ennemis.",
+  "story": "Une technomage de génie du royaume d'Orvelia. Elle est très optimiste et se moque des échecs. Elle rêve d'inventer un appareil permettant à tout le monde de manier la magie. Elle dispose d'un assistant mécanique et magique à qui elle a donné la vie après des années de recherches. Depuis l'arrivée des démons, elle poursuit des recherches pour développer des armes permettant à tout le monde de lutter contre l'envahisseur.",
+  "like": "La technomagie, les fonds de recherche",
+  "dislike": "Les gens qui n'aiment pas la Technomagie",
+  "inn": {
+    "idle": "Wow, des gens partout! C'est très différent de mon laboratoire au château!",
+    "recruit": {
+      "greet": "Bonjour. Est-ce que la technomagie vous intéresse?",
+      "talk": [
+        "Chacun a droit à la magie! Je veux juste commencer ça!",
+        "Le palais royal me donne beaucoup de financement de recherche... mais il manque encore!",
+        "Huh? Ces oeufs ressemblent à ma mignonne ici!"
+      ],
+      "gift": "Hehe! Merci pour le don aux fonds de recherche!"
+    },
+    "affinity": {
+      "greet": "Des expériences, des expériences, des expériences amusantes ! Oh ? Bonjour !",
+      "talk": [
+        "Ces petites merveilles poussent bien ! Je vais bientôt pouvoir les mettre en terre !",
+        "1 merveille par personne ! Qu'en pensez-vous ?"
+      ],
+      "gift": "Hé hé, j'en tirerai une belle recette !"
+    },
+    "relationship": {
+      "greet": "Salut! Avez-vous beaucoup étudié aujourd'hui?",
+      "talk": [
+        "Ouuuaaais!! Maintenant, allons faire une expérience basée sur mes dernières hypothèses!",
+        "Les subventions pour mes recherches ont été augmentées! Grâce à cela, je peux faire beaucoup plus dans mon laboratoire!",
+        "Je veux partager mes mignonnes avec tout le monde!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Rascal, Technomagie Crystalisée",
+    "description": [
+      "Toutes les 1.5 sec, gagne 1 charge Magique et récupère 1% de Mana.",
+      "Toutes les 1.4 sec, gagne 1 charge Magique et récupère 1% de Mana.",
+      "Toutes les 1.3 sec, gagne 1 charge Magique et récupère 1% de Mana.",
+      "Toutes les 1.1 sec, gagne 1 charge Magique et récupère 1% de Mana.",
+      "Toutes les 0.9 sec, gagne 1 charge Magique et récupère 1% de Mana.",
+      "Toutes les 0.7 sec, gagne 1 charge Magique et récupère 1% de Mana."
+    ],
+    "story": "L'essence de la technomagie, créée à partir de la théorie d'Annette. Cinq des meilleurs magiciens de la cour d'Orvel ont concentré leur énergie pour fabriquer cet être magique. Doté d'une volonté propre, il est doué de libre arbitre et capable d'agir en fonction de ses décisions. Bien qu'il partage son mana avec Annette, il peut également puiser dans le mana environnant. Pour cette raison, il représente la première étape d'une démocratisation de la magie, conformément aux souhaits d'Annette."
+  },
+  "s1": {
+    "name": "Rayon Explosif",
+    "description": "Attaque les ennemis en ligne droite, infligeant {0} points de DEG M. aux cibles et augmente les DEG M. qu'ils reçoivent de {1}%. En Surcharge, inflige {2} points de DEG M. additionnels et augmente les DEG M. reçus de {3}%.",
+    "books": {
+      "0": "Les DEG augmentent de {0}%.",
+      "1": "Les DEG augmentent de {0}%.",
+      "2": "Lors d'une utilisation, le nombre de Charges gagnées est augmenté de 30%."
+    },
+    "light": "La cible reçoit 25% de DEG M. supplémentaires pendant 10 sec.",
+    "dark": "Augmente de 40% le nombre de Charge."
+  },
+  "s2": {
+    "name": "Traitement d'Urgence",
+    "description": "Purge tous les effets négatifs des alliés et soigne  {0}  PV pendant 10 secondes tout en augmentant la Résist. Effets Négatifs de 250. En Surcharge, tous les alliés gagnent  {1}  Chances de Crit. et sont immunisés contre tous les Effets.",
+    "books": {
+      "0": "La Récupération augmente de {0}%.",
+      "1": "La Récupération augmente de {0}%.",
+      "2": "Lors de l'utilisation, la quantité de Charge gagnée est augmentée de 30%."
+    },
+    "light": "Le temps de recharge est réduit de 3 sec.",
+    "dark": "Augmente de 40% le nombre de Charge.",
+    "ut": {
+      "name": "Script de soin",
+      "description": [
+        "[Traitement d'urgence] Réduit le coût en mana de 1 point et augmente la récupération de 20 %.",
+        "[Traitement d'urgence] Réduit le coût en mana de 1 point et augmente la récupération de 24 %.",
+        "[Traitement d'urgence] Réduit le coût en mana de 1 point et augmente la récupération de 29 %.",
+        "[Traitement d'urgence] Réduit le coût en mana de 1 point et augmente la récupération de 35 %.",
+        "[Traitement d'urgence] Réduit le coût en mana de 1 point et augmente la récupération de 42 %.",
+        "[Traitement d'urgence] Réduit le coût en mana de 1 point et augmente la récupération de 50 %."
+      ],
+      "story": "Script de soin en cas d’urgence. Ce produit doit son origine à la société secrète de l’ingénierie magique, l’atelier de Babel du mois intitulé « La solution des batailles est en vous ! Scripts vainqueurs pour les batailles à scripts mécaniques ». Élaborée par Annette, cette compétence peut soigner les alliés grâce à l’ingénierie, et ce sans le moindre pouvoir magique."
+    }
+  },
+  "s3": {
+    "name": "Processus d'Élimination",
+    "description": "Cible un ennemi aléatoire et tire une boule d'énergie qui explose, infligeant  {0}  points de DEG M. aux ennemis proches. En Surcharge, inflige  {1}  points de DEG M. et paralyse les ennemis pendant 5 secondes lorsque la boule explose.",
+    "books": {
+      "0": "Les DEG augmentent de {0}%.",
+      "1": "Les DEG augmentent de {0}%.",
+      "2": "Lors de l'utilisation, la quantité de Charge gagnée est augmentée de 30%."
+    },
+    "light": "Les DEG sont augmentés de 40%.",
+    "dark": "La cible reçoit 25% de DEG M. supplémentaires.",
+    "ut": {
+      "name": "Code d'annihilation",
+      "description": [
+        "[Processus d'Élimination] Les DEG sont augmentés de 20% et chaque attaque donne 2 charges de Charge. Peut également être obtenu pendant Surcharge.",
+        "[Processus d'Élimination] Les DEG sont augmentés de 24% et chaque attaque donne 2 charges de Charge. Peut également être obtenu pendant Surcharge.",
+        "[Processus d'Élimination] Les DEG sont augmentés de 29% et chaque attaque donne 2 charges de Charge. Peut également être obtenu pendant Surcharge.",
+        "[Processus d'Élimination] Les DEG sont augmentés de 35% et chaque attaque donne 2 charges de Charge. Peut également être obtenu pendant Surcharge.",
+        "[Processus d'Élimination] Les DEG sont augmentés de 42% et chaque attaque donne 2 charges de Charge. Peut également être obtenu pendant Surcharge.",
+        "[Processus d'Élimination] Les DEG sont augmentés de 50% et chaque attaque donne 2 charges de Charge. Peut également être obtenu pendant Surcharge."
+      ],
+      "story": "Le code top secret de Babel, la société secrète d’ingénierie magique. De la magie pour les gens normaux ! La société secrète de technomagie, Babel, est une société anonyme rêvant de rendre la magie accessible à tous. Ils possèdent tous une technique technomagique de code secret et seuls peuvent l’utiliser ceux qui réussissent à le déchiffrer. Annette déchiffra le code secret en 4 minutes et l’utilise dans le processus d’annihilation."
+    }
+  },
+  "s4": {
+    "name": "Charge",
+    "description": "Gagne 1 charge toutes les 0.5 sec et gagne 10 charges pour chaque orbe de Mana utilisé. Permet d'entrer en état de Surcharge à la 100ème charge accumulée. En Surcharge, l'ATQ est augmentée de {0} pendant 15 sec et chaque attaque auto réduit le Temps de Recharge de la compétence de 10%. Aucun effet ne peut être dissipé et aucune charge ne s'accumule en état de Surcharge.",
+    "books": {
+      "0": "Le taux d'augmentation de l'ATQ est augmenté de {0}%.",
+      "1": "Le taux d'augmentation de l'ATQ est augmenté de {0}%.",
+      "2": "En Surcharge, la Vitesse d'ATQ augmente de {0}."
+    },
+    "light": "Bonus d'ATQ augmenté de 40%.",
+    "dark": "La durée de Surcharge est augmentée de 3 sec."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Vit. ATQ +100",
+    "dark": "Lorsque Surcharge est activée, la Vit. ATQ de tous les alliés est augmentée de 200 et leur ATQ est augmentée de 5% de l'ATQ d'Annette."
+  }
+}

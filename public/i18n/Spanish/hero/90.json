@@ -1,0 +1,120 @@
+{
+  "name": "May",
+  "subtitle": "La Muchacha que Sueña con Riquezas",
+  "description": "La brillante muchacha encargada de un almacén general en la capital de Orvel. Es imposible disgustar a esta chica enérgica y positiva. Ella saca todo tipo de artículos útiles de su cesta, ayudando a sus aliados.",
+  "story": "Una niña que tiene su propia Tienda general en el Castillo Orvel. Es muy fácil de agradar y trata a todo el mundo con alegría y entusiasmo. Sueña con que algún día se convertirá en la comerciante más rica en Orvel, May normalmente caza y reúne su propia mercancía. Gracias al esfuerzo que pone para adquirir bienes, sus precios no son exactamente baratos y la gente muchas veces la critica por esto. Actualmente, se prepara para viajar al Desierto de Aegina después de oír que alguien recientemente descubrió un tesoro ahí.",
+  "like": "Oro",
+  "dislike": "Déficit financiero",
+  "inn": {
+    "idle": "Hmm... ¡Los platos de Juno son los mejores! ¡Este se venderá como pan caliente!",
+    "recruit": {
+      "greet": "",
+      "talk": [
+        "",
+        "",
+        ""
+      ],
+      "gift": ""
+    },
+    "affinity": {
+      "greet": "Ah! Bienvenido, cliente! Oh, espera, esto era la Posada...",
+      "talk": [
+        "También visitarás mi tienda, verdad?",
+        "La comida de Juno es la mejor!"
+      ],
+      "gift": "Jejeje, gracias!"
+    },
+    "relationship": {
+      "greet": "¡He estado trabajando duro todos los días para convertirme en la chica más rica de Orvel!",
+      "talk": [
+        "Hoy, estoy pensando en viajar hasta Elidora Central para recoger algunos artículos nuevos!",
+        "Últimamente, he comenzado a hacer ropa como hobby. Si tengo la oportunidad, también haré algo para ti.",
+        "Sabes que encontraron un tesoro en el desierto de Egina?"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Caja de Fragancia, Etelia",
+    "description": [
+      "Al activar 'Toma esto!', Aplica los efectos de 'Tomalo Todo!' en todos los aliados y reduce el tiempo de reutilización de todas las habilidades en un 10%.",
+      "Al activar 'Toma esto!', Aplica los efectos de 'Tomalo Todo!' en todos los aliados y reduce el tiempo de reutilización de todas las habilidades en un 12%.",
+      "Al activar 'Toma esto!', Aplica los efectos de 'Tomalo Todo!' en todos los aliados y reduce el tiempo de reutilización de todas las habilidades en un 14%.",
+      "Al activar 'Toma esto!', Aplica los efectos de 'Tomalo Todo!' en todos los aliados y reduce el tiempo de reutilización de todas las habilidades en un 17%.",
+      "Al activar 'Toma esto!', Aplica los efectos de 'Tomalo Todo!' en todos los aliados y reduce el tiempo de reutilización de todas las habilidades en un 20%.",
+      "Al activar 'Toma esto!', Aplica los efectos de 'Tomalo Todo!' en todos los aliados y reduce el tiempo de reutilización de todas las habilidades en un 25%."
+    ],
+    "story": "Una cesta curiosa que May siempre la lleva donde sea que vaya en busca de nuevos materiales. Esta cesta misteriosa contiene una cantidad infinita de espacio, y le quita el peso a todo lo que entra. Esto permite que May lleve una cantidad ridícula de elementos de un solo viaje. A simple vista, podría parecer una cesta llena de comida para un picnic. Sin embargo, los rumores afirman que, siempre que la lleva a sus viajes de caza, la llena de... otras cosas dudosas. Al menos eso dicen."
+  },
+  "s1": {
+    "name": "Toma Cualquier cosa!",
+    "description": "El ATQ de todos los aliados aumenta en {0} durante 60 segundos y otorga aleatoriamente uno de los siguientes efectos: 1. Demolición de DEF {1} incrementada, 2. Velocidad de ATQ {2} incrementada, 3. Recuperación de Maná Instantánea en {3}. Todos los efectos se pueden acumular hasta 5 veces como máximo, excepto la Recuperación de Maná.",
+    "books": {
+      "0": "La tasa de aumento de ATQ se incrementa en {0}%.",
+      "1": "La tasa de aumento de ATQ se incrementa en {0}%.",
+      "2": "La tasa de aumento de ATQ se incrementa en {0}%."
+    },
+    "light": "Todos los efectos no desaparecen con 'disipar efecto positivo'.",
+    "dark": "Todos los efectos se pueden acumular un máximo de 7 veces."
+  },
+  "s2": {
+    "name": "Animate!",
+    "description": "Todos los aliados son curados en  {0}  de Salud, y ademas recuperan  {1}% de su Max Salud cada segundo durante 10 seg. Hay un 10% de probabilidad de que los efectos se dupliquen.",
+    "books": {
+      "0": "La tasa de Recuperacion aumenta en {0}%.",
+      "1": "La tasa de Recuperacion aumenta en {0}%.",
+      "2": "La tasa de Recuperacion aumenta en {0}%."
+    },
+    "light": "Aumenta la Resistencia al Ctrl de Masas del aliado en 250 durante 10 seg.",
+    "dark": "Hay un 15% de probabilidad de recuperar 1 esfera de maná.",
+    "ut": {
+      "name": "Pedazo de pastel dulce",
+      "description": [
+        "[¡Ánimo!] Aumenta la Tasa de curación en un 20 % y las probabilidades de duplicar la Tasa de curación en un 20 % adicional.",
+        "[¡Ánimo!] Aumenta la Tasa de curación en un 24 % y las probabilidades de duplicar la Tasa de curación en un 20 % adicional.",
+        "[¡Ánimo!] Aumenta la Tasa de curación en un 29 % y las probabilidades de duplicar la Tasa de curación en un 20 % adicional.",
+        "[¡Ánimo!] Aumenta la Tasa de curación en un 35 % y las probabilidades de duplicar la Tasa de curación en un 20 % adicional.",
+        "[¡Ánimo!] Aumenta la Tasa de curación en un 42 % y las probabilidades de duplicar la Tasa de curación en un 20 % adicional.",
+        "[¡Ánimo!] Aumenta la Tasa de curación en un 50 % y las probabilidades de duplicar la Tasa de curación en un 20 % adicional."
+      ],
+      "story": "Pastel especial hecho por Juno. Huele muy dulce. A May le encanta como refrigerio. Nadie sabe por qué no le dice a nadie qué es lo que le puso."
+    }
+  },
+  "s3": {
+    "name": "No esta a la venta!",
+    "description": "Ataca 3 veces a un objetivo aleatorio y otros enemigos al alcance, causando un total de {0} Daño Mágico y los Aturde durante 4 seg. Hay un 10% de posibilidades de que el rango de habilidades, el Daño y la duración del Aturdimiento se dupliquen.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "El costo de maná se reduce en 1.",
+    "dark": "Todos los ataques se concentrarán en un solo enemigo.",
+    "ut": {
+      "name": "Bola de cristal de origen desconocido",
+      "description": [
+        "[No está a la venta!] El Daño aumenta en un 20% y ataca al enemigo 1 vez más.",
+        "[No está a la venta!] El Daño aumenta en un 24% y ataca al enemigo 1 vez más.",
+        "[No está a la venta!] El Daño aumenta en un 29% y ataca al enemigo 1 vez más.",
+        "[No está a la venta!] El Daño aumenta en un 35% y ataca al enemigo 1 vez más.",
+        "[No está a la venta!] El Daño aumenta en un 42% y ataca al enemigo 1 vez más.",
+        "[No está a la venta!] El Daño aumenta en un 50% y ataca al enemigo 1 vez más."
+      ],
+      "story": "Durante los días de la antigua civilización, alguien robó los hechizos de los sabios y juntó todos sus poderes en una bola de cristal. Al parecer, lo que buscaba era convertirse en el mayor chamán de su tiempo. Sin embargo, no existen registros históricos de esta bola de cristal antes de encontrarse lejos del pueblo, cerca del río Eden. Esta bola de cristal es muy peligrosa, ya que contiene distintos hechizos elementales mezclados entre sí. Aún se desconoce cómo se liberarán sus poderes."
+    }
+  },
+  "s4": {
+    "name": "Toma esto!",
+    "description": "Causa {0} Daño Magico a 4 enemigos aleatorios cada 15 seg, e inflige uno de los siguientes: 1. Daño Magico Constante de {1} (10 seg), 2. Aturdir (2 seg), 3. Congelar (5 seg).",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Se activa cada 12 seg.",
+    "dark": "Aumenta el Daño Magico recibido por el objetivo en un 25%."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Resist Ctrl de Masas +100",
+    "dark": "Cada ataque automático tiene un 30% de probabilidad de curar al aliado con la Salud más baja en un 3% de su Salud. También proporciona 5% de maná al aliado."
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Kaulah",
+  "subtitle": "Chaman del Relampago",
+  "description": "Como el antiguo Cacique Orco de la tribu Sky Wind, utiliza ataques elementales impulsados por el cielo y el viento. Los fuertes rayos paralizan a los enemigos, mientras que los aliados son curados y bendecidos por el viento.",
+  "story": "Este gran orco chaman utiliza el poder del relámpago. Es el jefe de la tribu Skywind y es un respetado anciano de la alianza de Orcos. Ha entrenado a innumerables orcos chamanes y se lo considera un líder espiritual. También es uno de los pocos chamanes que tiene sueños clarividentes y es lo suficientemente sabio para interpretarlos correctamente.",
+  "like": "Parientes compañeros, paz mundial",
+  "dislike": "Malduk, guerra",
+  "inn": {
+    "idle": "¿Necesitas una mano de un Chamán Orco?",
+    "recruit": {
+      "greet": "Permítame presentarme. Yo soy el jefe de la tribu Skywind, Kaulah.",
+      "talk": [
+        "Mientras me quede aquí, llegué a pensar que la civilización material de la humanidad es asombrosa.",
+        "Echo de menos el viento de las cimas de las montañas. Mañana tendré que trepar una montaña cercana.",
+        "Aunque estoy alojado en esta Posada por negocios, esta cama incómoda me impide tener sueños proféticos."
+      ],
+      "gift": "Recordaré tu amabilidad."
+    },
+    "affinity": {
+      "greet": "Espero que mi viento te ayude a descansar, aunque sea por poco tiempo.",
+      "talk": [
+        "Aún no me acostumbro a la ciudad, pero me agrada ver gente animada.",
+        "El viento seguirá soplando aunque el tiempo pase... Al igual que tu mala fortuna, que también pasará."
+      ],
+      "gift": "Le daré un buen uso durante este recorrido."
+    },
+    "relationship": {
+      "greet": "Sentí una brisa amistosa, lo sabía. Bienvenido de nuevo, amigo.",
+      "talk": [
+        "Duro como una roca. Suave como la brisa. Así es como se siente tu aura.",
+        "Alguna vez subiste a la cima de las montañas en Ogria? La verdadera belleza está en la cima de la cumbre.",
+        "Tuve una premonición anoche. Una donde salvaste el mundo..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Viento Azul, Coventina",
+    "description": [
+      "Otorga un 10 % de posibilidad de infligir Daño mágico equivalente al 100 % de Ataque e inflige choque eléctrico en 2 enemigos aleatorios a través de un ataque normal. Si el objetivo ya sufrió un choque eléctrico, lo aturde durante 2 segundos.",
+      "Otorga un 12 % de posibilidad de infligir Daño mágico equivalente al 120 % de Ataque e inflige choque eléctrico en 2 enemigos aleatorios a través de un ataque normal. Si el objetivo ya sufrió un choque eléctrico, lo aturde durante 2 segundos.",
+      "Otorga un 14 % de posibilidad de infligir Daño mágico equivalente al 140 % de Ataque e inflige choque eléctrico en 2 enemigos aleatorios a través de un ataque normal. Si el objetivo ya sufrió un choque eléctrico, lo aturde durante 2 segundos.",
+      "Otorga un 17 % de posibilidad de infligir Daño mágico equivalente al 170 % de Ataque e inflige choque eléctrico en 2 enemigos aleatorios a través de un ataque normal. Si el objetivo ya sufrió un choque eléctrico, lo aturde durante 2 segundos.",
+      "Otorga un 21 % de posibilidad de infligir Daño mágico equivalente al 210 % de Ataque e inflige choque eléctrico en 2 enemigos aleatorios a través de un ataque normal. Si el objetivo ya sufrió un choque eléctrico, lo aturde durante 2 segundos.",
+      "Otorga un 25 % de posibilidad de infligir Daño mágico equivalente al 250 % de Ataque e inflige choque eléctrico en 2 enemigos aleatorios a través de un ataque normal. Si el objetivo ya sufrió un choque eléctrico, lo aturde durante 2 segundos."
+    ],
+    "story": "Un bastón que se parece a un pájaro de trueno con cuatro alas. En efecto, ha sido fabricado a partir de una pluma de un pájaro de trueno, una bestia considerada sagrada entre los orcos de Skywind. El bastón tiene el poder de comunicarse con el cielo, predecir el tiempo y controlar el aire. Para un chamán de Skywind que utiliza el poder del rayo, este bastón es el medio más avanzado."
+  },
+  "s1": {
+    "name": "Rayo",
+    "description": "Lanza 5 rayos sobre los enemigos aleatorios e inflige  {0}  Daño Magico. Además, electrifica a los enemigos golpeados. Cuando un enemigo es electrificado, quedara aturdido por  {1}  seg.",
+    "books": {
+      "0": "Aumenta Daño en {0}%.",
+      "1": "Aumenta Daño en {0}%.",
+      "2": "Aumenta Oportunidad Crit. en {0}."
+    },
+    "light": "El costo de maná se reduce en 1.",
+    "dark": "El objetivo recibe un 25% de Daño Magico aumentado por 10seg"
+  },
+  "s2": {
+    "name": "Lluvia Sanadora",
+    "description": "Restaura  {1}  Salud para todos los aliados por  {0}  segundos.",
+    "books": {
+      "0": "Aumenta Recuperacion en {0}%.",
+      "1": "Aumenta Recuperacion en {0}%.",
+      "2": "Durante el lanzamiento, obten inmunidad a los efectos de estado y aumenta la Reducción de Daño en  {0}."
+    },
+    "light": "Los aliados reciben un 25% menos de Daño mientras que la habilidad está en efecto.",
+    "dark": "A cambio de 1 Maná adicional, cura aliados en un 5% de su Salud Max.",
+    "ut": {
+      "name": "Máscara de pájaro de trueno",
+      "description": [
+        "[Lluvia curativa] Absorbe el Daño de un 200 % del Ataque y crea un escudo que otorga inmunidad al Control de multitudes durante 1 segundos cuando se utiliza con aliados y Salud completa.",
+        "[Lluvia curativa] Absorbe el Daño de un 240 % del Ataque y crea un escudo que otorga inmunidad al Control de multitudes durante 1 segundos cuando se utiliza con aliados y Salud completa.",
+        "[Lluvia curativa] Absorbe el Daño de un 290 % del Ataque y crea un escudo que otorga inmunidad al Control de multitudes durante 1 segundos cuando se utiliza con aliados y Salud completa.",
+        "[Lluvia curativa] Absorbe el Daño de un 350 % del Ataque y crea un escudo que otorga inmunidad al Control de multitudes durante 1 segundos cuando se utiliza con aliados y Salud completa.",
+        "[Lluvia curativa] Absorbe el Daño de un 420 % del Ataque y crea un escudo que otorga inmunidad al Control de multitudes durante 1 segundos cuando se utiliza con aliados y Salud completa.",
+        "[Lluvia curativa] Absorbe el Daño de un 500 % del Ataque y crea un escudo que otorga inmunidad al Control de multitudes durante 1 segundos cuando se utiliza con aliados y Salud completa."
+      ],
+      "story": "La máscara del pájaro de trueno propicio que atrae la lluvia. Una vez que las gotas de curación del chamán Skywind comienzan, el alma del pájaro de trueno permanece cerca de aquellos que fueron golpeados por la Lluvia Sanadora y recupera sus cuerpos cansados."
+    }
+  },
+  "s3": {
+    "name": "Viento Veloz",
+    "description": "Por  {0}  seg, aumenta ATQ en  {1}  y Veloc de ATQ por  {2}  para todos los aliados.",
+    "books": {
+      "0": "ATQ aumenta en {0}%.",
+      "1": "ATQ aumenta en {0}%.",
+      "2": "Durante la duración de esta habilidad, la Tasa Crit. aumenta en  {0}."
+    },
+    "light": "El aumento de ATQ se incrementa en un 40%.",
+    "dark": "El tiempo de reutilización se reduce en 3 segundos.",
+    "ut": {
+      "name": "Decoración de plumas de Skywind",
+      "description": [
+        "[Viento Veloz] El costo de maná se reduce en 1, y el Daño Crít aumenta en un 20%.",
+        "[Viento Veloz] El costo de maná se reduce en 1, y el Daño Crít aumenta en un 24%.",
+        "[Viento Veloz] El costo de maná se reduce en 1, y el Daño Crít aumenta en un 29%.",
+        "[Viento Veloz] El costo de maná se reduce en 1, y el Daño Crít aumenta en un 35%.",
+        "[Viento Veloz] El costo de maná se reduce en 1, y el Daño Crít aumenta en un 42%.",
+        "[Viento Veloz] El costo de maná se reduce en 1, y el Daño Crít aumenta en un 50%."
+      ],
+      "story": "Pluma de un ave de trueno, guardián de la lluvia y los truenos. Los chamanes de alto rango de la tribu Skywind conversan a través de las plumas de un ave de trueno. Los chamanes utilizan este accesorio de pluma cuando utilizan el viento veloz para convertirse en uno con el ave de trueno, aumentando el ATQ y la veloc. ATQ. de todos los aliados."
+    }
+  },
+  "s4": {
+    "name": "Relampago en Cadena",
+    "description": "Inflige {1} Daño mágico a 4 enemigos cada {0} segundos e inflige un choque eléctrico durante {2} segundos. Los enemigos infligidos con el choque eléctrico tomarán un total de Daño mágico de {4} durante más de {3} segundos.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "En un Golpe Crit., los enemigos golpeados son aturdidos por  {0}  seg."
+    },
+    "light": "La Oportunidad Crit se incrementa en un 400.",
+    "dark": "Si hay 1 enemigo, la duración de Aturdimiento se incrementa en 3 segundos."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Oportunidad Crit +100",
+    "dark": "Al recibir Daño, disminuye la Velocidad de ataque del enemigo atacante en 300 durante 5 segundos. Este efecto se activa únicamente una vez cada 5 segundos."
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Luna",
+  "subtitle": "Child of Moonlight",
+  "description": "An unidentified child wielding a slingshot as big as her body. Her projectiles gain strength the further they fly.",
+  "story": "Lulus, very rarely sighted and often considered mythical, are a race of animal hybrids. They live in an extremely cold region, and are very fearful of contacting the outside world. One day, a Lulu child was born with the exact opposite personality that is typical her race. That child is Luna. It's not that she was unhappy with the ways of her people. Nor did she have any grand purpose of experiencing the world outside. She was simply picking flowers, one step at a time. Another step to pick up some frozen branches for her slingshot. And another step to follow the scent of some sweet, red fruit. Before she knew it, she was outside, running toward a carrot field away from the mountain.",
+  "like": "Carrots, friends",
+  "dislike": "Hunger",
+  "inn": {
+    "idle": "Hi! Do you have any carrots?!",
+    "recruit": {
+      "greet": "Hello! Hello to you too! Hello everyone!",
+      "talk": [
+        "Do you know what this is?! Carrots!",
+        "Carrots are carrot-colored! Yay!",
+        "Rabbit? Nah, Luna is Luna!"
+      ],
+      "gift": "Yay, carrots!! Wait? These aren't carrots!!"
+    },
+    "affinity": {
+      "greet": "Hello! Luna is here again!",
+      "talk": [
+        "This place is fun! Luna likes it a lot! Very much!",
+        "Luna will give you a blessing! With carrots!"
+      ],
+      "gift": "This is a real carrot, right?"
+    },
+    "relationship": {
+      "greet": "Luna is doing well!",
+      "talk": [
+        "Luna has lots of friends back home! But Luna doesn't remember where home is!",
+        "Everyone thinks Luna's favorite thing is carrots! And yes, that is correct~!",
+        "Ah, um...do you have a carrot?"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Flower of Eternity, Hyacinth",
+    "description": [
+      "Increases DMG of normal attacks by 20% and the Range by 6%.",
+      "Increases DMG of normal attacks by 24% and the Range by 7.2%.",
+      "]Increases DMG of normal attacks by 29% and the Range by 8.6%.",
+      "Increases DMG of normal attacks by 35% and the Range by 10.5%.",
+      "Increases DMG of normal attacks by 42% and the Range by 12.5%.",
+      "Increases DMG of normal attacks by 50% and the Range by 15%."
+    ],
+    "story": "A slingshot made from hyacinth, a silver tree that only grows in extremely cold regions. It is said that hyacinths have been blessed by the Queen of Ice, and are able to bear bright red fruits even in the coldest weather. Simply holding onto a hyacinth branch allows one to ignore the coldness around the holder. These blessed trees also have the power to call upon snowstorms and frost. Needless to say, these powers are best harnessed by a weapon carved from one of these trees."
+  },
+  "s1": {
+    "name": "Pew!",
+    "description": "Deals {0} M.DMG by shooting a bouncing projectile which bounces 3 times starting from the nearest enemy. The further the enemy, the more DMG inflicted.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "If there is 1 enemy, DMG is increased by 100%.",
+    "dark": "Enemies hit are stunned for 1 sec."
+  },
+  "s2": {
+    "name": "Look out above!",
+    "description": "Deals {0} M.DMG to enemies furthest away in a small range, and stuns them for {1} sec. The further the enemy, the more DMG they will take.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "In exchange for 2 additional Mana Cost, attacks random enemies 3 times.",
+    "dark": "Ignores enemy Block.",
+    "ut": {
+      "name": "Moonlight Carrot",
+      "description": [
+        "[Look Out Above!] Increases DMG by 20% and reduces Cooldown by 10% upon a Crit Hit.",
+        "[Look Out Above!] Increases DMG by 24% and reduces Cooldown by 10% upon a Crit Hit.",
+        "[Look Out Above!] Increases DMG by 29% and reduces Cooldown by 10% upon a Crit Hit.",
+        "[Look Out Above!] Increases DMG by 35% and reduces Cooldown by 10% upon a Crit Hit.",
+        "[Look Out Above!] Increases DMG by 42% and reduces Cooldown by 10% upon a Crit Hit.",
+        "[Look Out Above!] Increases DMG by 50% and reduces Cooldown by 10% upon a Crit Hit."
+      ],
+      "story": "A carrot that grew from receiving moonlight a thousand times. Those hit by this carrot will have all evil stripped away from them, and they'll be able to tell apart good from bad."
+    }
+  },
+  "s3": {
+    "name": "Twinkle Twinkle",
+    "description": "Deals {0} M.DMG to target enemies in range, and reduces target's Crit Chance by {2}% for {1} sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Reduces ACC of hit enemies by 150 for 7 sec.",
+    "dark": "In exchange for 1 additional Mana Cost, knock back the enemy over a long distance.",
+    "ut": {
+      "name": "Never-Melting Snow Flower",
+      "description": [
+        "[Twinkle Twinkle] DMG is increased by 20% and target inflicted with Crit Chance reduction cannot dispel the effect.",
+        "[Twinkle Twinkle] DMG is increased by 24% and target inflicted with Crit Chance reduction cannot dispel the effect.",
+        "[Twinkle Twinkle] DMG is increased by 29% and target inflicted with Crit Chance reduction cannot dispel the effect.",
+        "[Twinkle Twinkle] DMG is increased by 35% and target inflicted with Crit Chance reduction cannot dispel the effect.",
+        "[Twinkle Twinkle] DMG is increased by 42% and target inflicted with Crit Chance reduction cannot dispel the effect.",
+        "[Twinkle Twinkle] DMG is increased by 50% and target inflicted with Crit Chance reduction cannot dispel the effect."
+      ],
+      "story": "A legendary snowfield flower that blossomed from the never melting land of Windland Snow Mountain. It is said that it makes the energy of its master's body flow clearly and beautifully. An item that makes Luna's pure energy shine even brighter."
+    }
+  },
+  "s4": {
+    "name": "Gotcha!",
+    "description": "Every {0} sec, deals a total of {2} M.DMG to the furthest enemy for {1} sec. The further the enemy, the more DMG they will take.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "There is a 20% chance to knock back the enemy far away and inflict knock over for 2 sec.",
+    "dark": "Number of targets changes to 2."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / Crit DMG +20%",
+    "dark": "When auto-attacking, there is a 10% chance to knock back the enemy across a long distance and inflict Stun for 3 sec. Also, increase ATK Spd by 500 for 3 sec."
+  }
+}

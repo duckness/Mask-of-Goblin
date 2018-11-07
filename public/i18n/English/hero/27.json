@@ -1,0 +1,120 @@
+{
+  "name": "Leo",
+  "subtitle": "Eternal Scribe",
+  "description": "The Scribe of the Royal Great Library of Orvelia. Using runes, he heals allies and erases beneficial magic from foes.",
+  "story": "In the royal palace of Orvel, there exists a library that is said to be infinite in space. Leo is a Gnome who has been protecting this library for a very long time. Having memorized every book in the library, he is the most knowledgeable person in the entire palace, and many visit the library, seeking his wisdom. However, he still seems to have difficulty interacting with others.",
+  "like": "Reading, writing, recording",
+  "dislike": "Loneliness",
+  "inn": {
+    "idle": "Wow, there are more people than there are books here.",
+    "recruit": {
+      "greet": "Hello. Nice to meet you.",
+      "talk": [
+        "I want to know everything about this world.",
+        "The world sure is big...",
+        "Come to the library sometime. I'll introduce you to some nice books."
+      ],
+      "gift": "For me? Really?"
+    },
+    "affinity": {
+      "greet": "Oh, it's so cozy!",
+      "talk": [
+        "You don't have that many books! Should I bring you some from my house?",
+        "You can learn anything from books!"
+      ],
+      "gift": "Thank you! I'll invite you to our house sometime!"
+    },
+    "relationship": {
+      "greet": "Hello. What's today's news?",
+      "talk": [
+        "I wrote in a lot of new entries today. Every day brings new knowledge.",
+        "There seems to be a lot of fun things outside. Maybe I should go out a bit more...",
+        "Do you have a minute? I brought a new book..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Phoenix Quill, Belisa",
+    "description": [
+      "At the beginning of each battle, increases P.DEF and M.DEF by 20%, ATK Spd by 200 for 15 sec, and adds an additional effect to the first skill used. Rune of Frailty - Increases Crit Chance by 500. Rune of Healing - Dispels CC inflicted on caster before the skill is cast. Rune of Silence - Increases Silence duration by 1 sec.",
+      "At the beginning of each battle, increases P.DEF and M.DEF by 24%, ATK Spd by 240 for 15 sec, and adds an additional effect to the first skill used. Rune of Frailty - Increases Crit Chance by 500. Rune of Healing - Dispels CC inflicted on caster before the skill is cast. Rune of Silence - Increases Silence duration by 1 sec.",
+      "At the beginning of each battle, increases P.DEF and M.DEF by 29%, ATK Spd by 290 for 15 sec, and adds an additional effect to the first skill used. Rune of Frailty - Increases Crit Chance by 500. Rune of Healing - Dispels CC inflicted on caster before the skill is cast. Rune of Silence - Increases Silence duration by 1 sec.",
+      "At the beginning of each battle, increases P.DEF and M.DEF by 35%, ATK Spd by 350 for 15 sec, and adds an additional effect to the first skill used. Rune of Frailty - Increases Crit Chance by 500. Rune of Healing - Dispels CC inflicted on caster before the skill is cast. Rune of Silence - Increases Silence duration by 1 sec.",
+      "At the beginning of each battle, increases P.DEF and M.DEF by 42%, ATK Spd by 420 for 15 sec, and adds an additional effect to the first skill used. Rune of Frailty - Increases Crit Chance by 500. Rune of Healing - Dispels CC inflicted on caster before the skill is cast. Rune of Silence - Increases Silence duration by 1 sec.",
+      "At the beginning of each battle, increases P.DEF and M.DEF by 50%, ATK Spd by 500 for 15 sec, and adds an additional effect to the first skill used. Rune of Frailty - Increases Crit Chance by 500. Rune of Healing - Dispels CC inflicted on caster before the skill is cast. Rune of Silence - Increases Silence duration by 1 sec."
+    ],
+    "story": "The phoenix is a holy beast that symbolizes eternal life. As elusive as the beast itself is, its feather is considered extremely rare as well. It is said that a quill crafted from a phoenix feather is a powerful magical tool in its own right. Runes drawn with this quill can serve as a powerful medium for Rune Magic."
+  },
+  "s1": {
+    "name": "Rune of Frailty",
+    "description": "Engraves a rune on the target, dealing up to {3} P.DMG that ignores DEF based on missing HP and reducing their P.DEF by {1}% for {0} sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Cooldown is reduced by 2 sec.",
+    "dark": "Target number increased to 2."
+  },
+  "s2": {
+    "name": "Rune of Healing",
+    "description": "Heals {0} HP of all allies.",
+    "books": {
+      "0": "Heal rate is increased by {0}%.",
+      "1": "Heal rate is increased by {0}%.",
+      "2": "Heal rate is increased by {0}%."
+    },
+    "light": "Heal rate is increased by 40%.",
+    "dark": "Increase ally P.DEF for 25% for 10 sec after healing.",
+    "ut": {
+      "name": "Ink of Vitality",
+      "description": [
+        "[Rune of Healing] Increases Heal Rate by 50% and P.Crit Resistance of allies by 100 for 10 sec.",
+        "[Rune of Healing] Increases Heal Rate by 50% and P.Crit Resistance of allies by 120 for 10 sec.",
+        "[Rune of Healing] Increases Heal Rate by 50% and P.Crit Resistance of allies by 140 for 10 sec.",
+        "[Rune of Healing] Increases Heal Rate by 50% and P.Crit Resistance of allies by 170 for 10 sec.",
+        "[Rune of Healing] Increases Heal Rate by 50% and P.Crit Resistance of allies by 210 for 10 sec.",
+        "[Rune of Healing] Increases Heal Rate by 50% and P.Crit Resistance of allies by 250 for 10 sec."
+      ],
+      "story": "Ink made by extracting young leaves from the World Tree. Only 10 droplets can be produced in a year. The magic spells written with this ink grant great vitality to the body. It's very precious and hard to obtain, so Leo doesn't use it unless it's for a special occasion."
+    }
+  },
+  "s3": {
+    "name": "Rune of Silence",
+    "description": "Deals {0} P.DMG to all enemies, and dispels all positive effects. Inflicts Silences on target for {1} sec.",
+    "books": {
+      "0": "Silence duration is increased by {0} sec.",
+      "1": "Silence duration is increased by {0} sec.",
+      "2": "Silence duration is increased by {0} sec."
+    },
+    "light": "Mana cost is reduced by 1.",
+    "dark": "DMG is increased by 200% and the enemy target receives 20% more DMG from all sources for 10 sec. Mana cost is increased by 2.",
+    "ut": {
+      "name": "Scroll of Memories",
+      "description": [
+        "[Rune of Silence] Target takes 15% increased DMG for 10 sec, and target's CC resistance is reduced by 120.",
+        "[Rune of Silence] Target takes 15% increased DMG for 10 sec, and target's CC resistance is reduced by 140.",
+        "[Rune of Silence] Target takes 15% increased DMG for 10 sec, and target's CC resistance is reduced by 170.",
+        "[Rune of Silence] Target takes 15% increased DMG for 10 sec, and target's CC resistance is reduced by 210.",
+        "[Rune of Silence] Target takes 15% increased DMG for 10 sec, and target's CC resistance is reduced by 250.",
+        "[Rune of Silence] Target takes 15% increased DMG for 10 sec, and target's CC resistance is reduced by 300."
+      ],
+      "story": "Ancient sorcery codex. A codex written by respected sorcerers that contains the principle behind magic that uses all of life and creation. It's written in an unknown language, so only part of it can be decoded. If the ancient text system is discovered, it might be possible to use spells without any cost whatsoever."
+    }
+  },
+  "s4": {
+    "name": "Rune of Protection",
+    "description": "Every {0} sec, engraves a rune upon the ally with the lowest HP and recovers a total of {2} HP for {1} sec.",
+    "books": {
+      "0": "Heal rate is increased by {0}%.",
+      "1": "Heal rate is increased by {0}%.",
+      "2": "CC resistance is increased by {0} for the duration."
+    },
+    "light": "Heal rate is increased by 40%.",
+    "dark": "After healing an ally, increase target P.DEF for 40% for a duration of 10 sec."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / P. Block +200",
+    "dark": "Upon attacking, there is a 10% chance of dealing 120% of ATK as P.DMG to a random enemy, while also removing 300 mana and inflicting Silence for 1 sec."
+  }
+}

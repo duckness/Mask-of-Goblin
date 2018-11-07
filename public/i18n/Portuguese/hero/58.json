@@ -1,0 +1,128 @@
+{
+  "name": "Laudia",
+  "subtitle": "Dançarina do Oásis",
+  "description": "Uma dançarina de uma tribo nômade do Deserto Aegina. Sua dança derrete o coração das pessoas e suas lâminas afiadas silenciosamente tiram a vida dos seus inimigos.",
+  "story": "Trovatia é uma tribo nômade do Deserto Aegina que herdou a tradição e religião do antigo reino do deserto. Laudia é a filha do líder da tribo e serve à Sacerdote da Água, Laias. Ela também cuida da tribo em nome do seu velho pai. Quando rezou por ajuda, o Dragão Deus Laias e sua irmã Lilia acordaram do seu longo sono e levaram Laudia e sua tribo para o santuário, protegendo-as pelo caminho. Desde então, Laudia tem derrotado demônios no deserto com Zafir, o líder da tribo Mauhata dos Guerreiros do Deserto.",
+  "like": "Laias, Lilia, pessoas do deserto",
+  "dislike": "Ver as pessoas sofrendo",
+  "inn": {
+    "idle": "Ah, que local interessante. Tem um lugar para eu dançar?",
+    "recruit": {
+      "greet": "Olá. Que o poder do Fluxo esteja com você.",
+      "talk": [
+        "Você não viu a sacerdotisa? Ela é bem fácil de se notar...",
+        "Bem, se me vir dançar, você não conseguirá pensar em mais nada.",
+        "Não quero ver este lindo mundo sendo ainda mais destruído."
+      ],
+      "gift": "Obrigada pelo presente. Quer dançar?"
+    },
+    "affinity": {
+      "greet": "Olá! Agora que estamos mais íntimos, posso lhe chamar pelo primeiro nome?",
+      "talk": [
+        "Gosto deste lugar. É tão calmo e tranquilo.",
+        "Ser uma vice-líder não é um trabalho fácil. Preciso cuidar de todas as pessoas da tribo."
+      ],
+      "gift": "Obrigada. Acho que vou comprar uns lanches para as crianças..."
+    },
+    "relationship": {
+      "greet": "Bom ver você. Bem, você veio me ver?",
+      "talk": [
+        "Você conheceu Lilia e a irmã dela, Laias? Elas são ótimas. Você com certeza vai gostar muito delas.",
+        "Sinto uma forte vibração do Fluxo e do destino, encontrada apenas em verdadeiros guerreiros e heróis.",
+        "Criei uma nova dança. Gostaria de vê-la uma hora dessas? Poderíamos até dançar em par."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Arlaq, Areias Sussurrantes",
+    "description": [
+      "[Bênção do Oásis] pode acumular até 14 vezes, e ao realizar um ataque automático, reduz todos os tempos de recarga em 4% com 10% de chance.",
+      "Bênção do Oásis pode acumular até 15 vezes, e ao realizar um ataque automático, reduz todos os tempos de recarga em 4,8% com 10% de chance.",
+      "Bênção do Oásis pode acumular até 16 vezes, e ao realizar um ataque automático, reduz todos os tempos de recarga em 5,8% com 10% de chance.",
+      "Bênção do Oásis pode acumular até 17 vezes, e ao realizar um ataque automático, reduz todos os tempos de recarga em 7% com 10% de chance.",
+      "Bênção do Oásis pode acumular até 18 vezes, e ao realizar um ataque automático, reduz todos os tempos de recarga em 8,4% com 10% de chance.",
+      "Bênção do Oásis pode acumular até 20 vezes, e ao realizar um ataque automático, reduz todos os tempos de recarga em 10% com 10% de chance."
+    ],
+    "story": "Um raro tesouro que é a manifestação de uma paixão que arde como uma chama no deserto. Sabe-se que um par destas belas armas foi armazenado no repositório do Rei Deus. Ao serem brandidas, elas emitem o belo som do vento e o aroma da brisa. É uma doce e letal tentação, assim como uma miragem no deserto..."
+  },
+  "s1": {
+    "name": "Sussurro de Areia",
+    "description": "Ataca o algo inimigo e causa {0} de DAN M. em inimigos próximos, reduzindo a chance de bloquear do inimigo em {2} e a Resistência Crít em {3} por {1} seg. Além disso, ataca e causa {4} de DAN M., atordoando os inimigos por {5} seg.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "DAN aumenta em {0}%."
+    },
+    "light": "Reduz o custo de Mana em 1.",
+    "dark": "O alvo recebe mais 25% de DAN M. durante 10 seg."
+  },
+  "s2": {
+    "name": "Fluxo Encantador",
+    "description": "Aumenta o ATQ em {1} e o DAN Crít em {2}% por {0} seg. Depois, avança uma curta distância e causa {3} de DAN M. a inimigos dentro de alcance de movimento, Encantando-os por {4} seg. se a habilidade for usada na Arena. Pode ativar [Emboscada Sedutora] uma vez dentro de 5 seg. após o uso.",
+    "books": {
+      "0": "Reforços de ATQ e DAN aumentam em {0}%.",
+      "1": "Reforços de ATQ e DAN aumentam em {0}%.",
+      "2": "Reforços de ATQ e DAN aumentam em {0}%."
+    },
+    "light": "Ganha 2 orbes de Mana após um movimento. O Mana obtido é consumido ao longo de 10 seg.",
+    "dark": "Após usar Fluxo Encantador, Emboscada Sedutora pode ser usada duas vezes dentro de 10 seg.",
+    "ut": {
+      "name": "Sagrado de Trovatia",
+      "description": [
+        "[Fluxo Encantador] Após um movimento, absorve DAN equivalente a 160% do ATQ por 3 seg., cria um escudo imune a CM e reduz em 1 o custo de Mana de [Emboscada Sedutora].",
+        "[Fluxo Encantador] Após um movimento, absorve DAN equivalente a 190% do ATQ por 3 seg., cria um escudo imune a CM e reduz em 1 o custo de Mana de [Emboscada Sedutora].",
+        "[Fluxo Encantador] Após um movimento, absorve DAN equivalente a 230% do ATQ por 3 seg., cria um escudo imune a CM e reduz em 1 o custo de Mana de [Emboscada Sedutora].",
+        "[Fluxo Encantador] Após um movimento, absorve DAN equivalente a 270% do ATQ por 3 seg., cria um escudo imune a CM e reduz em 1 o custo de Mana de [Emboscada Sedutora].",
+        "[Fluxo Encantador] Após um movimento, absorve DAN equivalente a 330% do ATQ por 3 seg., cria um escudo imune a CM e reduz em 1 o custo de Mana de [Emboscada Sedutora].",
+        "[Fluxo Encantador] Após um movimento, absorve DAN equivalente a 400% do ATQ por 3 seg., cria um escudo imune a CM e reduz em 1 o custo de Mana de [Emboscada Sedutora]."
+      ],
+      "story": "Um baú contendo os artefatos necessários para rituais de adoração ao Dragão da Água. Alguns ornamentos colocados sobre ele foram feitos com ‘Lápis-lazúli’, uma pedra que representa a total plenitude. É o objeto mais querido pelo pai de Laudia, e só é cedido àqueles capazes de liderar toda a tribo Trovatia."
+    },
+    "linked": {
+      "name": "Emboscada Sedutora",
+      "description": "Ataca 3 vezes o alvo inimigo, causando um total de {0} de DAN M. Causa {1} de DAN M. extra ignorando a DEF do alvo para inimigos Chefes e inimigos sob efeito de Encanto."
+    }
+  },
+  "s3": {
+    "name": "Dança do Deserto",
+    "description": "Ataca 30 vezes os inimigos dentro de alcance, causando um total de {0} de DAN M. Além disso, arremessa 30 vezes as ‘Lâminas de Arlaq’ em inimigos aleatórios, causando um total de {1} DAN M. Mais {2} de DAN é acumulado toda vez que a lâmina atinge o mesmo inimigo. [Aceleração Ofuscante] pode ser usada uma vez durante a ativação da habilidade, sendo que as ‘Lâminas de Arlaq’ priorizam os alvos sob efeito de Encanto.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "DAN aumenta em {0}%."
+    },
+    "light": "Recupera 30 de Mana a cada acerto.",
+    "dark": "O custo de Mana aumenta em 1 e o DAN aumenta em 100%.",
+    "ut": {
+      "name": "Véu de Encanto",
+      "description": [
+        "[Dança do Deserto] Reduz o tempo de recarga de habilidades em 30% e aumenta a Penetração de DEF em 100 durante a ativação da habilidade.",
+        "[Dança do Deserto] Reduz o tempo de recarga de habilidades em 30% e aumenta a Penetração de DEF em 120 durante a ativação da habilidade.",
+        "[Dança do Deserto] Reduz o tempo de recarga de habilidades em 30% e aumenta a Penetração de DEF em 140 durante a ativação da habilidade.",
+        "[Dança do Deserto] Reduz o tempo de recarga de habilidades em 30% e aumenta a Penetração de DEF em 170 durante a ativação da habilidade.",
+        "[Dança do Deserto] Reduz o tempo de recarga de habilidades em 30% e aumenta a Penetração de DEF em 210 durante a ativação da habilidade.",
+        "[Dança do Deserto] Reduz o tempo de recarga de habilidades em 30% e aumenta a Penetração de DEF em 250 durante a ativação da habilidade."
+      ],
+      "story": "Um lendário véu cedido somente à melhor dançarina do continente. Realizar uma dança com ele é capaz de hipnotizar os espectadores. Laudia usou o véu para hipnotizar os inimigos com a sua dança sedutora e conseguiu tudo o que queria."
+    },
+    "linked": {
+      "name": "Aceleração Ofuscante",
+      "description": "Ganha imunidade a CM por {0} seg. e a Vel de ATQ aumenta em {1}."
+    }
+  },
+  "s4": {
+    "name": "Bênção do Oásis",
+    "description": "Reduz em {0}% a duração de CM em si. Ao usar a habilidade, ganha [Bênção do Oásis] por {1} seg., aumentando a própria Penetração de DEF em {2} e a DEF em {3}. [Bênção do Oásis] pode acumular até {4} vezes e não pode ser removida.",
+    "books": {
+      "0": "A Penetração de DEF e o impulso de DEF aumentam em {0}%.",
+      "1": "A Penetração de DEF e o impulso de DEF aumentam em {0}%.",
+      "2": "A Penetração de DEF e o impulso de DEF aumentam em {0}%."
+    },
+    "light": "Ganha 2 acúmulos de Bênção do Oásis.",
+    "dark": "Para cada acúmulo, recebe 2% menos DAN de inimigos que não forem heróis."
+  },
+  "t5": {
+    "light": "ATK, DEF, PV+15% / Vel ATQ +100",
+    "dark": "No início de cada batalha, ganha imunidade a CM por 7 seg. aumenta a PREC e a PREC de CM em 300 por 10 segundos."
+  }
+}

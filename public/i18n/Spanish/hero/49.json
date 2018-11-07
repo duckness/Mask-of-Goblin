@@ -1,0 +1,120 @@
+{
+  "name": "Ophelia",
+  "subtitle": "Exploradora del Destino",
+  "description": "Una astróloga de Stardust, una compañía que recorre el continente. En lugar de ir en peregrinación como miembro de la asociación de brujas, busca a su alma gemela que alguna vez encontró en sus sueños. Controla las cartas del tarot que flotan a su alrededor para atacar. enemigos distantes.",
+  "story": "Una astróloga que viaja con una tropa errante llamada 'Polvo de estrellas'. Como miembro de la Asociación de Brujas, se supone que vive en una ubicación designada y lee el flujo del destino como parte de su práctica. Sin embargo, actualmente está viajando en búsqueda de un hombre con un destino particular que conoció en un sueño. Cree que el hombre de sus sueños clarividentes está destinado a ser el salvador del mundo. Su prioridad actual es encontrar al hombre y quedarse a su lado. Si se le pregunta cuál es su segunda meta...Se sonroja y pierde cualquier rastro de su calma habitual al hablar de su futuro con el hombre del destino.",
+  "like": "Historias románticas",
+  "dislike": "Insectos voladores",
+  "inn": {
+    "idle": "Quiero mostrarte los susurros de las estrellas.",
+    "recruit": {
+      "greet": "Yo soy la bruja Ofelia",
+      "talk": [
+        "Puedo verlo también en tus ojos... el camino de las estrellas.",
+        "Te miro a los ojos y veo...",
+        "Alguna vez escuchaste los susurros de las estrellas?"
+      ],
+      "gift": "Gracias! Como agradecimiento, te contaré un poco sobre tu destino..."
+    },
+    "affinity": {
+      "greet": "¡Encantada de conocerte!",
+      "talk": [
+        "Un buen amigo me enseñó a mezclar las cartas.",
+        "Me encanta reírme con la gente todos los días."
+      ],
+      "gift": "A cambio, voy a predecir tu futuro."
+    },
+    "relationship": {
+      "greet": "Quieres que te lea la fortuna? Si quieres, debes sentarte conmigo!",
+      "talk": [
+        "Este niño es muy especial para mí. Ah, ten cuidado! Podrías quemarte!",
+        "No me siento mal por desviarme del camino de mi peregrinación. Todavía soy una bruja, y estoy orgullosa de mi profesión.",
+        "Ah! Esta carta me dice que mi compañero fatídico está cerca! Muy cerca también... ah, quizás...?"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Cartas del Destino Del Arcana",
+    "description": [
+      "Al atacar, hay un 77,7% de probabilidades que la Veloc. de ATQ se incrementa en 20 durante 7 segundos, y la recuperación del maná por segundo se incrementa en un 10%. Este efecto se puede acumular un máximo de 15 veces.",
+      "Al atacar, hay un 77,7% de probabilidades que la Veloc. de ATQ se incrementa en 24 durante 7 segundos, y la recuperación del maná por segundo se incrementa en un 12%. Este efecto se puede acumular un máximo de 15 veces.",
+      "Al atacar, hay un 77,7% de probabilidades que la Veloc. de ATQ se incrementa en 29 durante 7 segundos, y la recuperación del maná por segundo se incrementa en un 14%. Este efecto se puede acumular un máximo de 15 veces.",
+      "Al atacar, hay un 77,7% de probabilidades que la Veloc. de ATQ se incrementa en 35 durante 7 segundos, y la recuperación del maná por segundo se incrementa en un 17%. Este efecto se puede acumular un máximo de 15 veces.",
+      "Al atacar, hay un 77,7% de probabilidades que la Veloc. de ATQ se incrementa en 42 durante 7 segundos, y la recuperación del maná por segundo se incrementa en un 21%. Este efecto se puede acumular un máximo de 15 veces.",
+      "Al atacar, hay un 77,7% de probabilidades que la Veloc. de ATQ se incrementa en 50 durante 7 segundos, y la recuperación del maná por segundo se incrementa en un 25%. Este efecto se puede acumular un máximo de 15 veces."
+    ],
+    "story": "La lectura de cartas de Tarot es un método común de adivinar el futuro para las brujas. Algunas brujas utilizan cartas personalizadas apropiadas para sus estilos personales. Las tarjetas de Ophelia también funcionan como prueba de sus pactos entre ella y las criaturas que invoca. Es bastante popular como guía de destino entre las entidades de dimensiones misteriosas y hace pactos con incontables criaturas. Del Arcana, una baraja de tarot cuidadosamente creada por Ophelia, es la prueba física de estas relaciones."
+  },
+  "s1": {
+    "name": "Carta de la Muerte - Carta",
+    "description": "Ataca al enemigo, causando {0} Daño Mágico y aturdiéndolo durante {1} segundos. Consume la carta que posees para infligir efectos adicionales. Al utilizar la habilidad, obtén la carta de la [Muerte]. [Muerte] - El Daño ignora la DEF del enemigo y el aturdimiento aumenta en 5 segundos. [Amor] - Causa un total de {2} Daño Mágico durante 10 segundos y reduce la tasa de curación en un 100%. [Fortuna]: el tiempo de reutilización de las habilidades queda sin efecto",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Durante 10 segundos, el objetivo recibe un 25% de Daño Mágico aumentado",
+    "dark": "El costo de maná se reduce en 1."
+  },
+  "s2": {
+    "name": "Carta del Amor - Elliciad",
+    "description": "Aumenta el Ataque en {1} durante {0} segundo(s) y la Recuperación de Mana/seg. en un {2}  %. Consume una carta en posesión para ganar un efecto adicional según el tipo de carta. Obtiene la carta [Amor] al usarla. [Muerte] - La Penetración de defensa aumenta en 600 mientras dura la habilidad y gana inmunidad al Control de multitudes durante 6 segundos. [Amor] - El efecto se aplica a todos los aliados. [Suerte] - El tiempo de reutilización no se aplica.",
+    "books": {
+      "0": "El ATQ aumenta en {0}%.",
+      "1": "El ATQ aumenta en {0}%.",
+      "2": "El ATQ aumenta en {0}%."
+    },
+    "light": "Recupera el maná del objetivo en 1000.",
+    "dark": "El ATQ se incrementa en un 40%.",
+    "ut": {
+      "name": "Corazón de Elliciad",
+      "description": [
+        "[Carta del amor - Elliciad] Disipa los efectos negativos del objetivo y disminuye el Tiempo de reutilización de todas las habilidades en un 6%.",
+        "[Carta del amor - Elliciad] Disipa los efectos negativos del objetivo y disminuye el Tiempo de reutilización de todas las habilidades en un 7,2%.",
+        "[Carta del amor - Elliciad] Disipa los efectos negativos del objetivo y disminuye el Tiempo de reutilización de todas las habilidades en un 8,6%.",
+        "[Carta del amor - Elliciad] Disipa los efectos negativos del objetivo y disminuye el Tiempo de reutilización de todas las habilidades en un 10,4%.",
+        "[Carta del amor - Elliciad] Disipa los efectos negativos del objetivo y disminuye el Tiempo de reutilización de todas las habilidades en un 12,5%.",
+        "[Carta del amor - Elliciad] Disipa los efectos negativos del objetivo y disminuye el Tiempo de reutilización de todas las habilidades en un 15%."
+      ],
+      "story": "Espíritu de amor, el corazón de Elliciad. Devora amores realizados y no realizados, así que a veces puede ser caliente como la lava o frío como el hielo. El poder que muestra depende de lo contaminada que esté una alma, y puede mostrar una luz extensa de bendición a aquellos con almas puras."
+    }
+  },
+  "s3": {
+    "name": "Carta de la Fortuna - Vellekia",
+    "description": "Ataca al objetivo y a los enemigos cercanos para causar {0} de Daño mágico. Este ataque no se puede errar y causa un 100 % de Daño crítico aumentado. Obtiene la carta [Suerte] al usarla. [Muerte] - El Daño crítico aumenta en un 120 %. [Amor] - Elimina todos los efectos positivos de los enemigos dentro del rango y los silencia durante 2 segundos. [Suerte] - El tiempo de reutilización no se aplica. Recupera 1 esfera de Mana.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "El costo de maná se incrementa en 1 esfera, pero el Daño aumenta en un 100%.",
+    "dark": "Inflige Siempre un Golpe Crítico.",
+    "ut": {
+      "name": "Moneda de la fortuna",
+      "description": [
+        "[Carta de la Fortuna - Vellekia] El costo de maná se reduce en 1 y el Daño aumenta en un 20%.",
+        "[Carta de la Fortuna - Vellekia] El costo de maná se reduce en 1 y el Daño aumenta en un 24%.",
+        "[Carta de la Fortuna - Vellekia] El costo de maná se reduce en 1 y el Daño aumenta en un 29%.",
+        "[Carta de la Fortuna - Vellekia] El costo de maná se reduce en 1 y el Daño aumenta en un 35%.",
+        "[Carta de la Fortuna - Vellekia] El costo de maná se reduce en 1 y el Daño aumenta en un 42%.",
+        "[Carta de la Fortuna - Vellekia] El costo de maná se reduce en 1 y el Daño aumenta en un 50%."
+      ],
+      "story": "La moneda legendaria que, según se dice, ha cambiado el curso de la rueda de la fortuna, que iba en dirección de la destrucción total. Ophelia cree que fue arrojada por Vellekia, el espíritu de la suerte."
+    }
+  },
+  "s4": {
+    "name": "Exploradora del Destino",
+    "description": "El ATQ de todos los aliados se incrementa en {0} , y la Oportunidad Crit. aumenta en 100. Obtén un efecto adicional según la carta que poseas. [Muerte] - el ATQ aumenta en un {2 }%. [Amor] - Se cura por segundo en un {3}% de la Salud máxima. [Fortuna] - La Oportunidad de Evasión Mágica aumenta en 200.",
+    "books": {
+      "0": "El ATQ de todos los aliados se incrementa en {0}%.",
+      "1": "El ATQ de todos los aliados se incrementa en {0}%.",
+      "2": "La Oportunidad Crit. de todos los aliados se incrementa en {0}"
+    },
+    "light": "Al comienzo de cada batalla, obtén la carta de la [Muerte]. Esta carta no tiene un efecto de Daño aumentado",
+    "dark": "Al comienzo de cada batalla, obtén la carta del [Amor]. Esta carta no tiene un efecto de curación."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Daño Crit+20%",
+    "dark": "Al utilizar una habilidad, hay un 7% de posibilidades de que el costo de maná de todas las habilidades se reduzca en 1 durante 7 segundos. Este efecto no se puede disipar."
+  }
+}

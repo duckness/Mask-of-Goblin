@@ -1,0 +1,120 @@
+{
+  "name": "Pavel",
+  "subtitle": "Sorcier du Dragon de Glace",
+  "description": "Un sorcier capable d'utiliser les pouvoirs magiques du Dragon de Glace après avoir été maudit. Il utilise une puissante magie de Glace pour geler ses ennemis.",
+  "story": "Un cas curieux de sorcier humain possédé par l'âme d'un Dragon de Glace. Même s'il a combattu auprès de Kyle voici cent ans, cet ancien sorcier de glace est beaucoup plus vieux que cela. L'âme du dragon est généralement silencieuse, mais il se réveille parfois pour s'adresser à lui comme à un amant. L'empire le considère comme un personnage clé et a confié à Rodina le soin de le surveiller et le protéger. Quant à lui, il préfère vivre en paix, loin des soucis du monde.",
+  "like": "La paix, le silence, la lecture",
+  "dislike": "Le temps chaud, les trucs bruyants",
+  "inn": {
+    "idle": "...Tant de gens.",
+    "recruit": {
+      "greet": "...Avez-vous besoin de quelque chose?",
+      "talk": [
+        "Si fort...",
+        "...J'ai besoin de me refroidir un peu la tête.",
+        "Qu'est-ce que Maître aurait fait..."
+      ],
+      "gift": "...J'accepte."
+    },
+    "affinity": {
+      "greet": "Pourquoi cet endroit est-il si chaud ?",
+      "talk": [
+        "Taisez-vous... Laissez-moi me reposer...",
+        "Je ne ressens aucune froideur à vos côtés..."
+      ],
+      "gift": "Merci."
+    },
+    "relationship": {
+      "greet": "...Vous avez bonne mine.",
+      "talk": [
+        "A l'origine j'étais humain... Alors je peux comprendre.",
+        "Êtes-vous curieux au sujet des dragons...?",
+        "Son âme me chuchote... elle est curieuse votre sujet..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Andarta Andraste, Coeur de Dragon",
+    "description": [
+      "Toutes les 15 sec, applique Gel et inflige des DEG M. (160% de l'ATK) à 2 ennemis aléatoires. Gèle les ennemis pendant 5 sec si ils sont déjà affectés par Gel.",
+      "Toutes les 14 sec, applique Gel et inflige des DEG M. (192% de l'ATK) à 2 ennemis aléatoires. Gèle les ennemis pendant 5 sec si ils sont déjà affectés par Gel.",
+      "Toutes les 12.5 sec, applique Gel et inflige des DEG M. (228% de l'ATK) à 2 ennemis aléatoires. Gèle les ennemis pendant 5 sec si ils sont déjà affectés par Gel.",
+      "Toutes les 11 sec, applique Gel et inflige des DEG M. (276% de l'ATK) à 2 ennemis aléatoires. Gèle les ennemis pendant 5 sec si ils sont déjà affectés par Gel.",
+      "Toutes les 9.5 sec, applique Gel et inflige des DEG M. (332% de l'ATK) à 2 ennemis aléatoires. Gèle les ennemis pendant 5 sec si ils sont déjà affectés par Gel.",
+      "Toutes les 8 sec, applique Gel et inflige des DEG M. (400% de l'ATK) à 2 ennemis aléatoires. Gèle les ennemis pendant 5 sec si ils sont déjà affectés par Gel."
+    ],
+    "story": "Andarta et Andraste étaient deux dragons vaincus par les démons durant la guerre. Ils formaient une paire connectée par l'âme, deux amants qui se comprenaient mieux que quiconque. Même lorsqu'ils moururent, ils refusèrent de se séparer et firent une dernière demande à Pavel, leur camarade. Pavel leur accorda leur dernier vœu, transférant leurs âmes dans leurs cœurs et en les métamorphosant en une paire de gemmes. Même s'ils ont tous deux perdu leur corps, ils restent ensemble, aussi inséparables que jamais."
+  },
+  "s1": {
+    "name": "Vague de Froid",
+    "description": "Inflige {0} points de DEG M. à l'ennemi ciblé et applique Gel pendant {1} sec. Si un autre ennemi est affecté par Gel, il reçoit des DEG et se retrouve également affecté par Gel.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG de {0}%."
+    },
+    "light": "Les DEG sont augmentés de 40%.",
+    "dark": "Pour un coût de 1 MP supplémentaire, la durée de Gel est augmentée de 5 sec."
+  },
+  "s2": {
+    "name": "Lance Gelée",
+    "description": "Attaque 5 fois des ennemis aléatoires, infligeant  {0}  points de DEG M. et applique Gel. Lorsqu'un ennemi affecté par Gel est attaqué, il subit une attaque supplémentaire d'une Lance de glace qui inflige la moitié des DEG. Ces Lances de glace n'influencent pas l'effet de Gel. Les ennemis gelés subissent 50% de DEG supplémentaires de cette attaque.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG de {0}%."
+    },
+    "light": "Le coût en Mana est réduit de 1.",
+    "dark": "La cible change pour l'ennemi ayant l'ATQ la plus élevée.",
+    "ut": {
+      "name": "Broche gelée",
+      "description": [
+        "[Lance de glace] Réduit le temps de recharge de 8 % et donne 40 % de chances de geler l'ennemi pendant 1 sec en infligeant des dégâts à un ennemi en état de Givre. Cet effet ne s'applique pas aux lances créées en plus.",
+        "[Lance de glace] Réduit le temps de recharge de 8 % et donne 48 % de chances de geler l'ennemi pendant 1 sec en infligeant des dégâts à un ennemi en état de Givre. Cet effet ne s'applique pas aux lances créées en plus.",
+        "[Lance de glace] Réduit le temps de recharge de 8 % et donne 58 % de chances de geler l'ennemi pendant 1 sec en infligeant des dégâts à un ennemi en état de Givre. Cet effet ne s'applique pas aux lances créées en plus.",
+        "[Lance de glace] Réduit le temps de recharge de 8 % et donne 70 % de chances de geler l'ennemi pendant 1 sec en infligeant des dégâts à un ennemi en état de Givre. Cet effet ne s'applique pas aux lances créées en plus.",
+        "[Lance de glace] Réduit le temps de recharge de 8 % et donne 84 % de chances de geler l'ennemi pendant 1 sec en infligeant des dégâts à un ennemi en état de Givre. Cet effet ne s'applique pas aux lances créées en plus.",
+        "[Lance de glace] Réduit le temps de recharge de 8 % et donne 100 % de chances de geler l'ennemi pendant 1 sec en infligeant des dégâts à un ennemi en état de Givre. Cet effet ne s'applique pas aux lances créées en plus."
+      ],
+      "story": "Le dragon de glace a offert cette broche au jeune Pavel et l’a imprégnée de son souffle. Maintenant que le dragon de glace et Pavel ne font plus qu’un, Pavel sait qu’il ne doit pas le quitter. Cette broche peut infliger une douleur qui transperce le cœur. Insuffle un frisson au mana de Pavel, ce qui affûte davantage sa magie."
+    }
+  },
+  "s3": {
+    "name": "Conquête Glaciale",
+    "description": "Inflige {0} points de DEG M. à tous les ennemis, les gèle pendant {1} secondes et augmente les DEG de {2}% si ils sont déjà gelés.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG de {0}%."
+    },
+    "light": "Le coût en Mana est réduit de 1.",
+    "dark": "Immunisé aux Contrôles lorsque cette compétence est utilisée.",
+    "ut": {
+      "name": "Cœur de glacier",
+      "description": [
+        "[Conquête Glaciale] Les DEG sont augmentés de 50% et la durée de Gel est augmentée de 1 sec.",
+        "[Conquête Glaciale] Les DEG sont augmentés de 50% et la durée de Gel est augmentée de 1.2 sec.",
+        "[Conquête Glaciale] Les DEG sont augmentés de 50% et la durée de Gel est augmentée de 1.4 sec.",
+        "[Conquête Glaciale] Les DEG sont augmentés de 50% et la durée de Gel est augmentée de 1.7 sec.",
+        "[Conquête Glaciale] Les DEG sont augmentés de 50% et la durée de Gel est augmentée de 2.1 sec.",
+        "[Conquête Glaciale] Les DEG sont augmentés de 50% et la durée de Gel est augmentée de 2.5 sec."
+      ],
+      "story": "Sang gelé de l’esprit hivernal. Pavel l’a découvert au fond de la Caverne de Glace et en a fait des boucles d’oreille. Il en émane un vent glacial et une profonde douleur, mais elles augmentent la mana de Pavel jusqu’à sa limite."
+    }
+  },
+  "s4": {
+    "name": "Frisson de l'Aube",
+    "description": "Inflige {1}  points de DEG M à 3 ennemis toutes les {0}  sec et leur inflige Givre, ce qui réduit leur Vit ATQ de 100 points pendant 8 sec.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG de {0}%."
+    },
+    "light": "La résistance aux Contrôles de la cible est réduite de 250 pendant 10 sec.",
+    "dark": "Gel ne peut pas être dissipé par des Sorts."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / DEG Crit +20%",
+    "dark": "Toutes les 3 sec, attaque tous les ennemis et inflige 50% de l'ATQ sous forme de DEG M. avec 50% de chances d'appliquer Gel. Les ennemis affligés par Gel subissent sur 3 sec des DEG M. à hauteur de 300% de l'ATQ."
+  }
+}

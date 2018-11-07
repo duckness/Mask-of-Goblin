@@ -1,0 +1,120 @@
+{
+  "name": "Laias",
+  "subtitle": "Cleriga Sagrada de Agua",
+  "description": "Una clériga que protege el Oasis del desierto de Aegina. Un dragón de agua que ha vivido por eones. Su agua posee poderosas propiedades curativas.",
+  "story": "Esta hermosa y gentil clériga de agua es, en realidad un dragón azul transformado. En el pasado distante, era venerada por ciertas tribus del desierto. Sin embargo, por algún motivo desconocido ha estado durmiendo durante años. Puede hacer que el agua convierta las tierras fértiles y siempre utilizó su poder para ayudar a la gente. Los humanos, a cambio, construyeron un Templo de la corriente dorado en su honor bajo el lago en un oasis. Un flujo de energía maligna en el desierto la ha despertado y, una vez más, comenzó a utilizar sus poderes para ayudar a quienes la rodean.",
+  "like": "Natación, lavar su cabello",
+  "dislike": "Cualquier cosa que perturbe el orden mundial",
+  "inn": {
+    "idle": "No tengas miedo. Ustedes pueden ser mucho más fuertes.",
+    "recruit": {
+      "greet": "Soy Lorena, una Elfa Elidora.Saludos.",
+      "talk": [
+        "Me divertí mucho.",
+        "Que la bendición de la madre naturaleza ilumine tu camino",
+        "Los seres humanos son criaturas asombrosas, pero tu tienes una seria debilidad. Estas gobernado por la codicia y no puedes resistir la tentación."
+      ],
+      "gift": "Atesoraré esto."
+    },
+    "affinity": {
+      "greet": "Siempre valoro la oportunidad de pasar tiempo contigo.",
+      "talk": [
+        "Te espera un momento muy decisivo. Luz y sombra... Ambas se unirán en un mismo camino...",
+        "¿Te refieres a mi cabello azul? Oh, es un error de mi pasado."
+      ],
+      "gift": "Lo consideraré una muestra de tu generosidad."
+    },
+    "relationship": {
+      "greet": "Has crecido fuerte, justo y puro.",
+      "talk": [
+        "Parece que tienes el alma más pura que he visto en mucho tiempo.",
+        "Sería bueno que estos momentos de paz y tranquilidad duren para siempre... pero eso sería un vicio.",
+        "Nunca te olvidaré. Te recordaré no como el Sabio, sino como un simple elfo."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Círculo Fluido, Eltoirre",
+    "description": [
+      "Luego de un golpe crítico, recupera al aliado con la Salud más baja en un 80% del Daño causado",
+      "Luego de un golpe crítico, recupera al aliado con la Salud más baja en un 96% del Daño causado",
+      "Luego de un golpe crítico, recupera al aliado con la Salud más baja en un 115% del Daño causado",
+      "Luego de un golpe crítico, recupera al aliado con la Salud más baja en un 138% del Daño causado",
+      "Luego de un golpe crítico, recupera al aliado con la Salud más baja en un 166% del Daño causado",
+      "Luego de un golpe crítico, recupera al aliado con la Salud más baja en un 200% del Daño causado"
+    ],
+    "story": "Una cruz egipcia fabricada en la forma de un fénix. Simboliza el ciclo natural de la vida. En los días ancestrales, los nómadas del desierto veneraban al dragón azul del oasis como su protector. A cambio, los bendecía con lluvia y daba vida a sus cultivos. Para mostrar su gratitud, los nómadas le ofrecieron varios tesoros, incluyendo Lazulia, la gema del agua. Aunque no tenía ningún interés en particular en la riqueza material, aceptó su gratitud y utilizó los tesoros para construir un tempo en el oasis. Esta cruz egipcia es el símbolo sagrado del templo y contiene el poder majestuoso del agua."
+  },
+  "s1": {
+    "name": "Gotas de Curacion",
+    "description": "Cura a todos los aliados a un máximo de  {0}  Salud, dependiendo del daño.",
+    "books": {
+      "0": "la tasa de Recuperacion aumenta en {0}%.",
+      "1": "la tasa de Recuperacion aumenta en {0}%.",
+      "2": "la tasa de Recuperacion aumenta en {0}%."
+    },
+    "light": "La cantidad de cura aumentó en un 40%.",
+    "dark": "Tras la curación, la Resistencia Magica Crit aumenta en un 25%."
+  },
+  "s2": {
+    "name": "Escudo de Burbuja",
+    "description": "Protege a un aliado con la menor Salud durante 15 segundos para bloquear el {0}  Daño, y proporcionale inmunidad. Mientras el Escudo esté activo, recupera  {1}  Salud por cada segundo y obten Inmunidad al Control de Masas",
+    "books": {
+      "0": "el Escudo aumenta en {0}%.",
+      "1": "el Escudo aumenta en {0}%.",
+      "2": "el Escudo aumenta en {0}%."
+    },
+    "light": "Aumenta el ATQ del objetivo en un 30%.",
+    "dark": "La Resistencia Crit Magica del objetivo aumenta en 25%",
+    "ut": {
+      "name": "Cristal de oasis",
+      "description": [
+        "[Escudo de burbuja] Reduce el Tiempo de reutilización en un 12 % y disipa los efectos negativos del objetivo.",
+        "[Escudo de burbuja] Reduce el Tiempo de reutilización en un 14 % y disipa los efectos negativos del objetivo.",
+        "[Escudo de burbuja] Reduce el Tiempo de reutilización en un 17 % y disipa los efectos negativos del objetivo.",
+        "[Escudo de burbuja] Reduce el Tiempo de reutilización en un 21 % y disipa los efectos negativos del objetivo.",
+        "[Escudo de burbuja] Reduce el Tiempo de reutilización en un 25 % y disipa los efectos negativos del objetivo.",
+        "[Escudo de burbuja] Reduce el Tiempo de reutilización en un 30 % y disipa los efectos negativos del objetivo."
+      ],
+      "story": "Esencia de agua que protegen los dragones azules. La esencia de un oasis que los dragones azules trajeron al desierto al principio del mundo. Protegerlo y defenderlo es la misión sagrada de la clériga de agua, Laias, y es lo que más le gusta hacer. El cristal de oasis lleva a la clériga de agua quien utiliza el escudo de burbujas hacia la persona que más necesita su ayuda."
+    }
+  },
+  "s3": {
+    "name": "Festival del Agua",
+    "description": "Causa {0} Daño Magico a todos los enemigos cercanos y derribalos. Para todos los aliados (sin incluirte), recupera 2 esferas de maná. Luego, por {1} seg, los enemigos aleatorios serán golpeados por un remolino, causales {2} Daño Magico y derribalos durante 2 segundos.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "El efecto de Daño ocurre cada 3 seg.",
+    "dark": "Cura a todos los aliados en un 15% de su máxima Salud",
+    "ut": {
+      "name": "Papiro de flujos",
+      "description": [
+        "[Festival de la Corriente] El efecto Remolino ataca a 2 enemigos y todos los aliados recuperan 500 de maná adicionales.",
+        "[Festival de la Corriente] El efecto Remolino ataca a 2 enemigos y todos los aliados recuperan 600 de maná adicionales.",
+        "[Festival de la Corriente] El efecto Remolino ataca a 2 enemigos y todos los aliados recuperan 720 de maná adicionales.",
+        "[Festival de la Corriente] El efecto Remolino ataca a 2 enemigos y todos los aliados recuperan 860 de maná adicionales.",
+        "[Festival de la Corriente] El efecto Remolino ataca a 2 enemigos y todos los aliados recuperan 1040 de maná adicionales.",
+        "[Festival de la Corriente] El efecto Remolino ataca a 2 enemigos y todos los aliados recuperan 1250 de maná adicionales."
+      ],
+      "story": "Parte del libro de las escrituras antiguas, el Libro del caos, del que fue arrancado. El Libro del caos es un libro compuesto de escrituras históricas que pasa de un Clérigo de agua a otro y contiene registros de la cultura, la magia y otros campos. Fue sellado en el Templo de la corriente dorado, donde permaneció junto con Laias, pero la mayor parte del libro desapareció mientras Laias dormía. Lo que queda del Papiro de la corriente es un hechizo de potencia del Festival de la corriente."
+    }
+  },
+  "s4": {
+    "name": "Bendición del Dragón de Agua",
+    "description": "Aumenta la DEF Magica de todos los aliados en  {0} , y obten Resistencia a los Golpes Magicos Crit. en {1}.",
+    "books": {
+      "0": "la fuerza de Defensa aumenta en {0}%.",
+      "1": "la fuerza de Defensa aumenta en {0}%.",
+      "2": "la fuerza de Defensa aumenta en {0}%."
+    },
+    "light": "La tasa de incremento de DEF Magica aumenta en un 20% y la Resistencia Magica Crit aumenta en 100",
+    "dark": "Aumenta la Resistencia al Ctrl de Masas en 400."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Bloq Magico +200",
+    "dark": "Laias aumenta la DEF Magica igual al 5% de su ATQ a los aliados que cura, además de darles 75 de maná a cada uno."
+  }
+}

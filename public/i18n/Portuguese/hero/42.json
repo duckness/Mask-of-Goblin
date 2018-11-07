@@ -1,0 +1,120 @@
+{
+  "name": "Oddy",
+  "subtitle": "Relojoeiro da Vida Eterna",
+  "description": "Um relojoeiro que foi amaldiçoado pelos animais divinos, chamados de Pelo-Vermelho. Este relógio mágico ataca e petrifica inimigos e também permite que seus aliados usem poderes mais rápido.",
+  "story": "Muito tempo atrás, ele era um mecânico do palácio real de Orvelia. No entanto, foi amaldiçoado pela criatura mítica conhecida como Colorado e foi transformado em um deles. Desde a sua transformação, ele já viveu por tanto tempo que esqueceu sua própria idade. Quando era Humano, inventou o primeiro relógio portátil, mas ninguém em Orvelia reconheceu seu verdadeiro valor. Para que a sua invenção recebesse o reconhecimento que merecia, ele partiu para o império. No caminho, foi amaldiçoado por um grupo de Colorados que o confundiram com um caçador ilegal. A maldição também afetou seu relógio, dando ao objeto um poder mágico de controlar o fluxo do tempo dentro de um corpo vivo. O próprio tempo de Oddy também parou.",
+  "like": "Relógios",
+  "dislike": "Caçadores ilegais",
+  "inn": {
+    "idle": "Haha!! Orvelia com certeza mudou.",
+    "recruit": {
+      "greet": "Saudações, saudações.",
+      "talk": [
+        "Hmm, temos tempo suficiente. Podemos conversar um pouco?",
+        "Eu já fui humano... mas agora eu sou um Redpur.",
+        "Meu relógio foi encantado com magia. A magia do Redpur..."
+      ],
+      "gift": "Oho... faz um bom tempo desde a última vez que recebi presentes tão humanos!"
+    },
+    "affinity": {
+      "greet": "Hum? Ah, olha você aí.",
+      "talk": [
+        "Não tem tempo? Ha ha, então arrume tempo.",
+        "Nunca viu um Colorado antes? Não me surpreende. Eles ficam sempre escondidos!"
+      ],
+      "gift": "Um presente? Hum, vou ter que arrumar alguma coisa da próxima vez."
+    },
+    "relationship": {
+      "greet": "Boas-vindas!",
+      "talk": [
+        "Ah, eu sinto falta dos meus amigos de Redpur...",
+        "Eu não lembro dos meus dias de humano. Já faz tanto tempo.",
+        "Pensei que fosse a primeira vez de inventar o relógio de bolso, mas aparentemente as civilizações antigas eram muito mais avançadas do que eu esperava."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Tempodiana, Contagem da Sombra da Lua",
+    "description": [
+      "Ao usar Distorção Temporal, todas as recargas dos aliados são reduzidas em 2 segundos, e o ATQ é reforçado em 14% por 10 segundos.",
+      "Ao usar Distorção Temporal, todas as recargas dos aliados são reduzidas em 3 segundos, e o ATQ é reforçado em 17% por 10 segundos.",
+      "Ao usar Distorção Temporal, todas as recargas dos aliados são reduzidas em 4 segundos, e o ATQ é reforçado em 21% por 10 segundos.",
+      "Ao usar Distorção Temporal, todas as recargas dos aliados são reduzidas em 5 segundos, e o ATQ é reforçado em 25% por 10 segundos.",
+      "Ao usar Distorção Temporal, todas as recargas dos aliados são reduzidas em 6 segundos, e o ATQ é reforçado em 30% por 10 segundos.",
+      "Ao usar Distorção Temporal, todas as recargas dos aliados são reduzidas em 7 segundos, e o ATQ é reforçado em 35% por 10 segundos."
+    ],
+    "story": "Depois que o relógio de Oddy foi atingido pela maldição Colorada e ganhou o poder de controlar o tempo de um ser vivo, ele usou o tempo infinito que ganhou para pesquisar seus possíveis usos. Quando, depois de tantos testes, ele criou um relógio que continha a essência da magia do tempo, Oddy descobriu que o segredo da magia Colorada vem do luar e da sombra que ele cria. Ele deu o nome de “Tempodiana” a essa obra-prima, e a apelidou de “Contagem da Sombra Lunar”."
+  },
+  "s1": {
+    "name": "Fenda do Tempo",
+    "description": "Atinge inimigos em linha reta por {0} DAN.M e Petrifica inimigos atingidos.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "Chance de Crít aumenta em {0}."
+    },
+    "light": "DAN aumenta em 40%.",
+    "dark": "Recarga reduzida em 1,5 segundos."
+  },
+  "s2": {
+    "name": "Fragmentos do Tempo",
+    "description": "Ataca 6 inimigos aleatórios, causando um total de {0} DAN.M. Há uma chance de 50% de 'Fragmentos do Tempo' reiniciarão a recarga e não requer mana para o próximo uso.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "Chance de Crít aumenta em {0}."
+    },
+    "light": "O alvo muda para 2 inimigos aleatórios.",
+    "dark": "Enquanto estiver em recarga, os ataques automáticos reduzem a recarga dos 'Fragmentos do Tempo' em 1 segundo.",
+    "ut": {
+      "name": "Coleção Fragmentária",
+      "description": [
+        "[Fragmentos do Tempo] Há 25% de chance de restabelecer a Recarga e aumentar o DAN em 20%.",
+        "[Fragmentos do Tempo] Há 25% de chance de restabelecer a Recarga e aumentar o DAN em 24%.",
+        "[Fragmentos do Tempo] Há 25% de chance de restabelecer a Recarga e aumentar o DAN em 29%.",
+        "[Fragmentos do Tempo] Há 25% de chance de restabelecer a Recarga e aumentar o DAN em 35%.",
+        "[Fragmentos do Tempo] Há 25% de chance de restabelecer a Recarga e aumentar o DAN em 42%.",
+        "[Fragmentos do Tempo] Há 25% de chance de restabelecer a Recarga e aumentar o DAN em 50%."
+      ],
+      "story": "Fragmentos do Tempo que caíram das sombras da lua. Às vezes, Fragmentos do Tempo caem de outra dimensão por conta do efeito da sombra da lua que aparece quando se usa magia do tempo. Os Fragmentos do Tempo são pequenos, mas quando reunidos se tornam uma enorme Coleção Fragmentária de registros, que fornece inspiração contínua ao utilizador."
+    }
+  },
+  "s3": {
+    "name": "Distorção do Tempo",
+    "description": "Causa {0} DAN.M a todos os inimigos e aumenta a Vel de ATQ do aliado em {1} por 15 segundos. Em seguida, todos os poderes de aliados que estiverem recarregando terão suas recargas reduzidas em 50%. Este poder não é afetado pelo próprio efeito e não sua recarga não será reduzida.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "Chance de Crít aumenta em {0}."
+    },
+    "light": "Aumenta o Custo de Mana em 2 e recupera Mana totalmente para todos os aliados.",
+    "dark": "Quando há 5 ou mais inimigos, aumenta o DAN em 100%. Inimigos atingidos tomam 50% de DAN extra por 10s.",
+    "ut": {
+      "name": "Fios do Tempo",
+      "description": [
+        "[Distorção do Tempo] Aumenta o DAN em 20% e remove todos os efeitos negativos dos aliados.",
+        "[Distorção do Tempo] Aumenta o DAN em 24% e remove todos os efeitos negativos dos aliados.",
+        "[Distorção do Tempo] Aumenta o DAN em 29% e remove todos os efeitos negativos dos aliados.",
+        "[Distorção do Tempo] Aumenta o DAN em 35% e remove todos os efeitos negativos dos aliados.",
+        "[Distorção do Tempo] Aumenta o DAN em 42% e remove todos os efeitos negativos dos aliados.",
+        "[Distorção do Tempo] Aumenta o DAN em 50% e remove todos os efeitos negativos dos aliados."
+      ],
+      "story": "Pele do Chefe Pelo Rubro, à sombra da lua. Diz-se que a criatura mitológica, o Chefe Pelo Rubro, usa a sombra da lua durante a lua cheia para atravessar dimensões e dançar. O Chefe Pelo Rubro dança até a sombra da lua desaparecer, e dizem que sua cauda às vezes fica presa na passagem. Os pelos da colorida criatura mitológica ficam presos na fenda do tempo e espaço e pausam o tempo temporariamente. Oddy usa os pelos dos rastros das sombras da lua para fazer um novelo e o usa para Distorção do Tempo."
+    }
+  },
+  "s4": {
+    "name": "Magia do Relógio",
+    "description": "Ao usar a habilidade, os próximos 2 ataques causam {0} de DAN M. adicional, com 30% de chance de petrificar o alvo por 3s. Esse efeito é ativado a cada 1s.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "Chance de Crít aumenta em {0}."
+    },
+    "light": "Muda as instâncias de ganho extra de DAN para 3 vezes pelo uso da habilidade.",
+    "dark": "Muda a chance de Petrificar para 40%."
+  },
+  "t5": {
+    "light": "ATK, DEF, PV+15% / Vel de ATQ +100",
+    "dark": "A cada 10 segundos, reduz a recarga de qualquer poder em recarga de 4 aliados em 1 segundo."
+  }
+}

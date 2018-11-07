@@ -1,0 +1,120 @@
+{
+  "name": "Nyx",
+  "subtitle": "Hachoir Dimentionnel",
+  "description": "Un mage hétérochromique qui contrôle l'espace lui-même. Ses pouvoirs déchirent l'espace pour invoquer des barrages d'épées infinis.",
+  "story": "Un mystérieux sorcier traversant les dimensions et doté d'une hétérochromie facilement reconnaissable. Il arbore le sourire permanent de celui qui connaît déjà tous les secrets de l'univers. Il s'intéresse beaucoup à deux qui possèdent des talents spéciaux et aime les mettre à l'épreuve. Son talent de téléportation spatiale n'est pas limité au royaume des mortels et il semble capable de traverser les dimensions. Personne ne connaît ses véritables motivations, mais il semble toujours prêt à aider les autres.",
+  "like": "Les voyages interdimensionnels, les expériences magiques",
+  "dislike": "Les gens qui n'écoutent pas les autres",
+  "inn": {
+    "idle": "Hmm, est-ce que je vous intéresse?",
+    "recruit": {
+      "greet": "Je sens une aura spéciale en vous.",
+      "talk": [
+        "Y a-t-il un endroit où vous voulez aller?",
+        "Il n'y a pas d'endroit dans ce monde que je ne peux atteindre.",
+        "J'aime les gens intéressants, comme vous."
+      ],
+      "gift": "Pour moi? Hmm, merci."
+    },
+    "affinity": {
+      "greet": "Vous revoilà. Je suis heureux de vous revoir.",
+      "talk": [
+        "Voyager est agréable. Quelle chance de tout pouvoir laisser derrière soi et goûter à la liberté !",
+        "Je collectionne des épées pendant mon temps libre."
+      ],
+      "gift": "Oh, quel beau cadeau ! Merci."
+    },
+    "relationship": {
+      "greet": "Hmm. Je savais que vous viendriez.",
+      "talk": [
+        "Si vous souhaitez aller quelque part, dites-le moi. J'ouvrirais un portail pour vous.",
+        "Ça m'intéresse de savoir comment vous sauvez ce monde.",
+        "Souhaitez-vous connaître ma magie? Haha, cela implique des calculs compliqués."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Magnus Fille, Clé Dimensionnelle",
+    "description": [
+      "Les attaques auto transpercent les ennemis positionnés en ligne droite et les dégâts infligés augmentent de 30 %. De plus, ces derniers augmentent de 4 % à chaque charge de Lames.",
+      "Les attaques auto transpercent les ennemis positionnés en ligne droite et les dégâts infligés augmentent de 36 %. De plus, ces derniers augmentent de 4,8 % à chaque charge de Lames.",
+      "Les attaques auto transpercent les ennemis positionnés en ligne droite et les dégâts infligés augmentent de 43 %. De plus, ces derniers augmentent de 5,7 % à chaque charge de Lames.",
+      "Les attaques auto transpercent les ennemis positionnés en ligne droite et les dégâts infligés augmentent de 52 %. De plus, ces derniers augmentent de 6,9 % à chaque charge de Lames.",
+      "Les attaques auto transpercent les ennemis positionnés en ligne droite et les dégâts infligés augmentent de 62 %. De plus, ces derniers augmentent de 8,3 % à chaque charge de Lames.",
+      "Les attaques auto transpercent les ennemis positionnés en ligne droite et les dégâts infligés augmentent de 75 %. De plus, ces derniers augmentent de 10 % à chaque charge de Lames."
+    ],
+    "story": "Là se trouve une corde universelle reliant différentes dimensions. Cette épée est la clé permettant de trancher ou renouer cette corde. Elle est confiée à l'arbitre dimensionnel ayant juré de protéger l'équilibre de l'univers. Pouvant être dupliquée à l'infini, elle ne confère toutefois son pouvoir qu'à l'Élu."
+  },
+  "s1": {
+    "name": "Lame Dimentionnelle",
+    "description": "Inflige {0} DEG P. aux ennemis ciblés. Chaque ennemi déclanche une Charge de Lames. Le nombre de cibles est égal à 1 + le nombre de Charges de Lames avec un maximum de 5 charges, pendant 20 sec.",
+    "books": {
+      "0": "Les DEG augmentent de {0}%.",
+      "1": "Les DEG augmentent de {0}%.",
+      "2": "Les DEG augmentent de {0}%."
+    },
+    "light": "Lorsqu'il y a plus de 5 ennemis, le temps de recharge de 10 sec est réinitialisé et les DEG sont augmentés de 200 %. Temps de recharge de 20 sec.",
+    "dark": "Le nombre total de charges de Lames est augmenté de 1."
+  },
+  "s2": {
+    "name": "Fendoir Dimentionnel",
+    "description": "Inflige {0} DEG P. aux ennemis ciblés et supprime leurs améliorations. Les ennemis touchés subissent {2} points de DEG P. en {1} sec et sont renversés pendant 3 sec.Le nombre de cibles est égal à 1 + le nombre de Charges de Lames.",
+    "books": {
+      "0": "Les DEG augmentent de {0}%.",
+      "1": "Les DEG augmentent de {0}%.",
+      "2": "Les DEG augmentent de {0}%."
+    },
+    "light": "Le coût en Mana est réduit de 1.",
+    "dark": "La cible reçoit 25% de DEG P. supplémentaires pendant 10 sec.",
+    "ut": {
+      "name": "Épée pourfendeuse des flots",
+      "description": [
+        "[Fendoir dimensionnel] Les dégâts augmentent de 50% et les DEG Crit augmentent de 10% pendant 8 s à chaque ennemi touché. Cet effet est cumulable 5 fois au maximum.",
+        "[Fendoir dimensionnel] Les dégâts augmentent de 50% et les DEG Crit augmentent de 12% pendant 8 s à chaque ennemi touché. Cet effet est cumulable 5 fois au maximum.",
+        "[Fendoir dimensionnel] Les dégâts augmentent de 50% et les DEG Crit augmentent de 14% pendant 8 s à chaque ennemi touché. Cet effet est cumulable 5 fois au maximum.",
+        "[Fendoir dimensionnel] Les dégâts augmentent de 50% et les DEG Crit augmentent de 17% pendant 8 s à chaque ennemi touché. Cet effet est cumulable 5 fois au maximum.",
+        "[Fendoir dimensionnel] Les dégâts augmentent de 50% et les DEG Crit augmentent de 21% pendant 8 s à chaque ennemi touché. Cet effet est cumulable 5 fois au maximum.",
+        "[Fendoir dimensionnel] Les dégâts augmentent de 50% et les DEG Crit augmentent de 25% pendant 8 s à chaque ennemi touché. Cet effet est cumulable 5 fois au maximum."
+      ],
+      "story": "Épée légendaire ayant traversé les époques. Cette épée légendaire fut fabriquée à partir de la lumière du soleil et de l’âme en fusion des souffrants. Elle est nécessaire au fendoir dimensionnel, car elle peut supporter la transition entre les dimensions et peut être affûtée à l’extrême."
+    }
+  },
+  "s3": {
+    "name": "Lames d'Infini",
+    "description": "Inflige {0} points de DEG P. aux ennemis devant vous and the final attack deals {1} points de DEG P. to one enemy, knocking over said enemy for 3 sec.The number of targets for the last attack is equal to 1 + Blade stacks.",
+    "books": {
+      "0": "Les DEG augmentent de {0}%.",
+      "1": "Les DEG augmentent de {0}%.",
+      "2": "Les DEG augmentent de {0}%."
+    },
+    "light": "Le Temps de recharge est réduit de 5 sec.",
+    "dark": "À partir de 5 charges de Lames, les dégâts infligés augmentent de 70 %.",
+    "ut": {
+      "name": "Pierre dimensionnelle",
+      "description": [
+        "[Lames d'Infini] Le coût en mana est réduit de 1 et les DEG sont augmentés de 20%.",
+        "[Lames d'Infini] Le coût en mana est réduit de 1 et les DEG sont augmentés de 24%.",
+        "[Lames d'Infini] Le coût en mana est réduit de 1 et les DEG sont augmentés de 29%.",
+        "[Lames d'Infini] Le coût en mana est réduit de 1 et les DEG sont augmentés de 35%.",
+        "[Lames d'Infini] Le coût en mana est réduit de 1 et les DEG sont augmentés de 42%.",
+        "[Lames d'Infini] Le coût en mana est réduit de 1 et les DEG sont augmentés de 50%."
+      ],
+      "story": "Un objet requis pour les sorciers qui traversent les dimensions. La Pierre Dimensionnelle est une pierre magique adorée par les voyageurs des dimensions et elle contient une énergie illimitée. Cependant, la puissance utilisable dépend des talents de l’individu : seuls les sorciers de haut-rang peuvent l’utiliser de manière efficace."
+    }
+  },
+  "s4": {
+    "name": "Lame Cachée",
+    "description": "Chaque attaque auto tire une lame upplémentaire qui inflige {0} points de DEG P. aux ennemis ciblés. Le nombre de cibles est de 1, augmenté du nombre de charges de Lames.",
+    "books": {
+      "0": "Les DEG augmentent de {0}%.",
+      "1": "Les DEG augmentent de {0}%.",
+      "2": "Les DEG augmentent de {0}%."
+    },
+    "light": "Les DEG sont augmentés de 15% pour chaque ennemi présent sur le terrain.",
+    "dark": "A 10% de chances de dissiper les effets d'Amélioration de l'ennemi."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / DEG Crit +20%",
+    "dark": "Les attaques autos donnent 10% de chances d'appliquer 1 charge de Lames. L'ATQ de Nyx est augmentée de 10% pour chaque charge de Lames accumulée."
+  }
+}

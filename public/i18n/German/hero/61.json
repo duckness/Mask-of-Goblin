@@ -1,0 +1,120 @@
+{
+  "name": "Neraxis",
+  "subtitle": "Obsidian-Arroganz",
+  "description": "Der Nachkomme eines Schwarzdrachen, der dunkle Blitze kontrollierte. Er kämpft dafür, die Welt von den Dämonen zu befreien, insbesondere den Draconics. Die Energie der dunklen Blitze, mit der sein Bunkerbrecher erfüllt ist, durchdringt die Verteidigung des Feindes.",
+  "story": "Schwarzdrachen sind dafür bekannt, die arrogantesten und übellaunigsten aller Drachen zu sein. Sie litten stark unter dem Dämonenkrieg vor 100 Jahren. Armarta verfiel dem Wahnsinn, Ashen Nox raubte sie aus und Draconics fingen an, Jagd auf Drachen zu machen. Neraxis war einer der wenigen Schwarzdrachen, der diesen Tag überlebte, und plant seither seine Rache.",
+  "like": "Laias",
+  "dislike": "Dämonen, Cain, Lilia und alles, was sich ihm in den Weg stellt.",
+  "inn": {
+    "idle": "Hmpf. Was tue ich hier überhaupt ...?",
+    "recruit": {
+      "greet": "Hmpf, was will ein Mensch von mir?",
+      "talk": [
+        "Mit dir zu sprechen, ist wertlos.",
+        "Was willst du?",
+        "Ha, lächerlich."
+      ],
+      "gift": "Ich weiß nicht, was du willst, aber es nutzlos."
+    },
+    "affinity": {
+      "greet": "Hmpf, du schon wieder, Mensch.",
+      "talk": [
+        "Huch? Du willst Hilfe? Hmpf. Lästig.",
+        "Ha, das ist richtig. Schwarzdrachen sind die stärksten!"
+      ],
+      "gift": "Das brauche ich nicht. Warum behältst du es nicht ...?"
+    },
+    "relationship": {
+      "greet": "... Gut, ich bin froh, dich zu sehen! Hmpf ...",
+      "talk": [
+        "Lilia? Ah, dieses nervige Kind? Tsk, sie steht immer im Weg.",
+        "Wieso verschwindet diese Mumie nicht einfach? Manchmal will ich ihn einfach nur töten.",
+        "Wieso ich Laias mag? Hmpf, m-man braucht keinen Grund, um jemanden zu mögen ... Nein, warte! Woher wusstest du das?!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Tosender Drachenschlund, Acravita",
+    "description": [
+      "Verursacht an 2 zufälligen Feinden nach 20 normalen Angriffen M.Schaden in Höhe von 100 % des ANG, betäubt sie für 0,5 Sek. und erhält für 10 Sek. Sturm von Neraxis. Erhöht für die Dauer von Sturm von Neraxis die K.VERT aller Verbündeten um 4 % der K.VERT des Beschwörers sowie die M.VERT um 4 % der M.VERT des Zaubernden.",
+      "Verursacht an 2 zufälligen Feinden nach 19 normalen Angriffen M.Schaden in Höhe von 100 % des ANG, betäubt sie für 0,5 Sek. und erhält für 10 Sek. Sturm von Neraxis. Erhöht für die Dauer von Sturm von Neraxis die K.VERT aller Verbündeten um 4,8 % der K.VERT des Beschwörers sowie die M.VERT um 4,8 % der M.VERT des Zaubernden.",
+      "Verursacht an 2 zufälligen Feinden nach 18 normalen Angriffen M.Schaden in Höhe von 100 % des ANG, betäubt sie für 0,5 Sek. und erhält für 10 Sek. Sturm von Neraxis. Erhöht für die Dauer von Sturm von Neraxis die K.VERT aller Verbündeten um 5,7 % der K.VERT des Beschwörers sowie die M.VERT um 5,7 % der M.VERT des Zaubernden.",
+      "Verursacht an 2 zufälligen Feinden nach 17 normalen Angriffen M.Schaden in Höhe von 100 % des ANG, betäubt sie für 0,5 Sek. und erhält für 10 Sek. Sturm von Neraxis. Erhöht für die Dauer von Sturm von Neraxis die K.VERT aller Verbündeten um 6,9 % der K.VERT des Beschwörers sowie die M.VERT um 6,9 % der M.VERT des Zaubernden.",
+      "Verursacht an 2 zufälligen Feinden nach 16 normalen Angriffen M.Schaden in Höhe von 100 % des ANG, betäubt sie für 0,5 Sek. und erhält für 10 Sek. Sturm von Neraxis. Erhöht für die Dauer von Sturm von Neraxis die K.VERT aller Verbündeten um 8,3 % der K.VERT des Beschwörers sowie die M.VERT um 8,3 % der M.VERT des Zaubernden.",
+      "Verursacht an 2 zufälligen Feinden nach 15 normalen Angriffen M.Schaden in Höhe von 100 % des ANG, betäubt sie für 0,5 Sek. und erhält für 10 Sek. Sturm von Neraxis. Erhöht für die Dauer von Sturm von Neraxis die K.VERT aller Verbündeten um 10 % der K.VERT des Beschwörers sowie die M.VERT um 10 % der M.VERT des Zaubernden."
+    ],
+    "story": "Eine magische Waffe, die aus dem pechschwarzen Metall namens Adamantit gefertigt und mit der dunklen Flamme und dem Blitz eines Schwarzdrachen temperiert wurde. Ihr wohnen der Groll und die Wut der Schwarzdrachen inne, die während des Dämonenkriegs getötet wurden. Neraxis zwang die Zwerge, diese spezielle Waffe für ihn zu schmieden. Dann verfluchte und verzauberte er sie mit den grollerfüllten Seelen der Schwarzdrachen. Jeder, der diese Waffe abgesehen von Neraxis berührt, bekommt die wütenden Schreie rachsüchtiger Drachen zu hören."
+  },
+  "s1": {
+    "name": "Schwarze Blitzklaue",
+    "description": "Zieht Feinde zum Ziel und verursacht {0} M.Schaden. Verursacht nach 1 Sek. {1} M.Schaden um das Ziel und betäubt die Feinde für {2} Sek. Verringert die ANG-Geschwindigkeit getroffener Feinde für {3} Sek. um {4}.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Erhöht die Betäubungsdauer um {0} Sek.",
+    "dark": "Erhöht den M.Schaden, den der getroffene Feind erleidet, für 10 Sek. um 25 %."
+  },
+  "s2": {
+    "name": "Obsidian-Brüllen",
+    "description": "Erhöht ANG, K.VERT und M.VERT aller Verbündeter für {0} Sek. um {1}. Verursacht an allen Feinden {2} M.Schaden und verringert ihren ANG für {3} Sek. um {4}  %.",
+    "books": {
+      "0": "Erhöht den ANG-Boost und VERT-Boost um {0}  %.",
+      "1": "Erhöht den ANG-Boost und VERT-Boost um {0}  %.",
+      "2": "Erhöht den ANG-Boost und VERT-Boost um {0}  %."
+    },
+    "light": "Erhöht die Manakosten um 1 sowie den ANG und den VERT-Boost um {0}  %.",
+    "dark": "Verringert die ANG-Geschwindigkeit des getroffenen Feindes für {0} Sek. um {1}.",
+    "ut": {
+      "name": "Erinnerungen des blauen Gottdrachens",
+      "description": [
+        "[Obsidian-Brüllen] Erhöht den VERT-Boost von Verbündeten um 20 % und hebt bei der Verwendung die positiven Effekte von allen Feinden auf.",
+        "[Obsidian-Brüllen] Erhöht den VERT-Boost von Verbündeten um 24 % und hebt bei der Verwendung die positiven Effekte von allen Feinden auf.",
+        "[Obsidian-Brüllen] Erhöht den VERT-Boost von Verbündeten um 29 % und hebt bei der Verwendung die positiven Effekte von allen Feinden auf.",
+        "[Obsidian-Brüllen] Erhöht den VERT-Boost von Verbündeten um 35 % und hebt bei der Verwendung die positiven Effekte von allen Feinden auf.",
+        "[Obsidian-Brüllen] Erhöht den VERT-Boost von Verbündeten um 42 % und hebt bei der Verwendung die positiven Effekte von allen Feinden auf.",
+        "[Obsidian-Brüllen] Erhöht den VERT-Boost von Verbündeten um 50 % und hebt bei der Verwendung die positiven Effekte von allen Feinden auf."
+      ],
+      "story": "Ein Haarschmuck, den Laias fallen ließ, während sie die von den Dämonen verdorbenen Gewässer läuterte. Neraxis fand und behielt ihn, aber er hat immer noch nicht entschieden, ob er ihn ihr zurückgeben wird. Laias wird ihren verlorenen Haarschmuck wohl nicht allzu schnell zurückbekommen."
+    }
+  },
+  "s3": {
+    "name": "Atem der Zerstörung",
+    "description": "Verursacht 6-mal insgesamt {0} M.Schaden an Feinden in einem großen Bereich rund um das Ziel und verringert ihre M.VERT für {1} Sek. um {2}  %. Jeder Treffer betäubt den Fein für {3} Sek.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Verringert die Manakosten um 1.",
+    "dark": "Verändert die M.VERT-Reduktion auf 30 %.",
+    "ut": {
+      "name": "Wutwirbel",
+      "description": [
+        "[Atem der Zerstörung] Erhöht die Betäubungsdauer um 1 Sek. und verringert den Cooldown von Atem der Zerstörung um 3 Sek.",
+        "[Atem der Zerstörung] Erhöht die Betäubungsdauer um 1 Sek. und verringert den Cooldown von Atem der Zerstörung um 4 Sek.",
+        "[Atem der Zerstörung] Erhöht die Betäubungsdauer um 1 Sek. und verringert den Cooldown von Atem der Zerstörung um 5 Sek.",
+        "[Atem der Zerstörung] Erhöht die Betäubungsdauer um 1 Sek. und verringert den Cooldown von Atem der Zerstörung um 6 Sek.",
+        "[Atem der Zerstörung] Erhöht die Betäubungsdauer um 1 Sek. und verringert den Cooldown von Atem der Zerstörung um 7 Sek.",
+        "[Atem der Zerstörung] Erhöht die Betäubungsdauer um 1 Sek. und verringert den Cooldown von Atem der Zerstörung um 8 Sek."
+      ],
+      "story": "Dieser Pfahl wurde aus Neraxis’ Fangzahn gefertigt und enthält seine glühende Wut. Wenn Neraxis mit dem Pfahl angreift, rast die große Energie, die mit Neraxis’ Kräften verwoben ist, mit entsetzlicher Geschwindigkeit auf den Feind zu. Sie ist stark genug, um alles und jeden zu durchdringen und die Gliedmaßen jener abzutrennen, die sich zu nahe an sie heranwagen."
+    }
+  },
+  "s4": {
+    "name": "Schwarzdrachenhaut",
+    "description": "Erhöht K.VERT und M.VERT um {0} und erleidet um {1}  % weniger K.Schaden und M.Schaden.",
+    "books": {
+      "0": "Erhöht den VERT-Boost um {0}  %.",
+      "1": "Erhöht den VERT-Boost um {0}  %.",
+      "2": "Erhöht den VERT-Boost um {0}  %."
+    },
+    "light": "Angriffsgeschw. wird um 300 erhöht.",
+    "dark": "Wenn die TP unter {0}  % fallen, werden die Skilleffekte um {1}  % erhöht."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / Effekt-Widerstund +100",
+    "dark": "Verringert zu Beginn jedes Kampfes den Schaden, den Feinde, die keinen Helden sind, an allen Verbündeten außer Neraxis verursachen, für {0} Sek. um {1}  %."
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Lilia",
+  "subtitle": "Die Tochter von Sturm und See",
+  "description": "Ein blaues Drachenmädchen, das gerade die Jungtierphase hinter sich hat und die Schwester von Laias, der Priesterin des Wassers. Obwohl sie noch jung und unerfahren ist, zahlen diejenigen, die auf sie herabsehen, meist einen hohen Preis dafür. Sie nutzt die unermüdliche Energie des Wassers, um ihre Feinde zu dezimieren.",
+  "story": "Ein Gottdrache der Oase und eine Schwester der Priesterin des Wassers. Sie ist noch ein junger blauer Drache und liebt ihre viel ältere Schwester sehr. Als Laias von 100 Jahren in einen tiefen Schlaf fiel, weil sie in der Schlacht ihre Kräfte verausgabt hatte, verteidigte Lilia den Schrein des Flusses ganz allein. Erst als sie hörte, wie die Kinder der Wüste verzweifelt beteten, weckte sie die Priesterin des Wassers, um sie zu beschützen. Anders als ihre sanfte und nachdenkliche Schwester ist sie recht streng, und die Art, wie sie die Kräfte von Fluss und Wasser beherrscht ist ebenfalls aggressiver. Sie sieht es als ihre Aufgabe an, ihre wunderschöne Schwester vor unwürdigen, flirtenden Männern zu beschützen.",
+  "like": "Laias, süße Getränke, das Volk der Wüste",
+  "dislike": "Alle, die mit ihrer Schwester flirten (Neraxis, Cain)",
+  "inn": {
+    "idle": "... Z-Zu viele Menschen ...",
+    "recruit": {
+      "greet": "Möge der Fluss mit euch sein!",
+      "talk": [
+        "Ich bin nicht so gutmütig wie meine Schwester.",
+        "Blaue Drachen sollen schwach sein? Da täuschst du dich aber gewaltig.",
+        "Ich bin ein ausgewachsener Drache. Ich bin alt genug!"
+      ],
+      "gift": "Danke, Menschenkind."
+    },
+    "affinity": {
+      "greet": "Hallo, du siehst toll aus!",
+      "talk": [
+        "Die Mission meiner Schwester ist auch meine. Ich werde immer bei ihr sein.",
+        "Das Geheimnis des endlosen Wassers? Ähmm ... Ich habe gehört, dass es die Macht des ersten blauen Drachen ist."
+      ],
+      "gift": "Vielen Dank. Ich werde es für den Schrein des Flusses benutzen."
+    },
+    "relationship": {
+      "greet": "Schön, dich wiederzusehen!",
+      "talk": [
+        "Neraxis? Was für ein Idiot. Er bettelt immer um die Aufmerksamkeit meiner Schwester!",
+        "Cain ...? Iiiieh ... Ich dachte, der sei für immer weg. Ich kann nicht glauben, dass er wieder an meine Schwester ranmacht ...",
+        "Ich liebe meine Schwester am meisten ... aber dich mag ich auch."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Nie versiegende Quelle, Cielamaha",
+    "description": [
+      "50 Manaerholung pro Sek. Chance von 80%, bei einem Angriff zusätzlichen K.Schaden in Höhe von 20% des ANG zu verursachen.",
+      "60 Manaerholung pro Sek. Chance von 80%, bei einem Angriff zusätzlichen K.Schaden in Höhe von 24% des ANG zu verursachen.",
+      "70 Manaerholung pro Sek. Chance von 80%, bei einem Angriff zusätzlichen K.Schaden in Höhe von 28% des ANG zu verursachen.",
+      "85 Manaerholung pro Sek. Chance von 80%, bei einem Angriff zusätzlichen K.Schaden in Höhe von 34% des ANG zu verursachen.",
+      "105 Manaerholung pro Sek. Chance von 80%, bei einem Angriff zusätzlichen K.Schaden in Höhe von 42% des ANG zu verursachen.",
+      "125 Manaerholung pro Sek. Chance von 80%, bei einem Angriff zusätzlichen K.Schaden in Höhe von 50% des ANG zu verursachen."
+    ],
+    "story": "Ein unendlicher Quell, aus der ohne Unterlass Wasser sprudelt. Ein Gefäß, das vom ersten blauen Drachen erschaffen wurde, der alles Wasser auf Erden beherrschte. Es reagiert auf die Vorstellungskraft seines Trägers. Für ein junges, sensibles und kreatives Mädchen wie Lilia ist es der größte Schatz und die größte Waffe."
+  },
+  "s1": {
+    "name": "Gezeitensturm",
+    "description": "Beschwört 8 Sek. lang einen Gezeitensturm auf einem zufälligen Ziel, der an Gegnern in Reichweite alle 0,5 Sek. {0} K.Schaden verursacht. Wird das Ziel getötet, springt der Gezeitensturm zu einem neuen zufälligen Ziel für die verbleibende Dauer.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "ANG-Geschwindigkeit des getroffenen Ziels sinkt 10 Sek. lang um 250.",
+    "dark": "Jede Nutzung erhöht Schaden um 20%. Kumuliert sich bis zu 15 Mal."
+  },
+  "s2": {
+    "name": "Immergrüne Oase",
+    "description": "Erhält bei Aktivierung 15 Sek. lang den Immergüne Oase-Status. Während die Immergrüne Oase wirkt, ist die Manaerholungsrate pro Sek. um 150% und ANG um {0} erhöht. VERT wird um {1} gesteigert.",
+    "books": {
+      "0": "Manaerholung und ANG-Erhöhungsrate sind um {0}% erhöht.",
+      "1": "Manaerholung und ANG-Erhöhungsrate sind um {0}% erhöht.",
+      "2": "Manaerholung und ANG-Erhöhungsrate sind um {0}% erhöht."
+    },
+    "light": "Manakosten werden um 1 erhöht, dafür wird der Effekt zusätzlich auch dem Verbündeten mit dem höchsten ANG gewährt (Nutzer ausgenommen).",
+    "dark": "Effektdauer wird um 5 Sek. gesenkt, Wirkung aller Effekte wird um 100% erhöht.",
+    "ut": {
+      "name": "Herz des Flusses",
+      "description": [
+        "[Immergrüne Oase] Der Effekt kann nicht aufgehoben werden. Erhöht Krit. Schaden während der Dauer um 20%.",
+        "[Immergrüne Oase] Der Effekt kann nicht aufgehoben werden. Erhöht Krit. Schaden während der Dauer um 24%.",
+        "[Immergrüne Oase] Der Effekt kann nicht aufgehoben werden. Erhöht Krit. Schaden während der Dauer um 29%.",
+        "[Immergrüne Oase] Der Effekt kann nicht aufgehoben werden. Erhöht Krit. Schaden während der Dauer um 35%.",
+        "[Immergrüne Oase] Der Effekt kann nicht aufgehoben werden. Erhöht Krit. Schaden während der Dauer um 42%.",
+        "[Immergrüne Oase] Der Effekt kann nicht aufgehoben werden. Erhöht Krit. Schaden während der Dauer um 50%."
+      ],
+      "story": "Eine goldene Kette für Mädchen, die Laias für Lilia mit einem Schutzjuwel versehen hat. Er leuchtet mit der Energie der Wasserelementare darin. Ein Symbol für Laias Sorge um ihre kleine Schwester."
+    }
+  },
+  "s3": {
+    "name": "Himmlischer Wasserfall",
+    "description": "Wirft 15-mal Wassertropfen auf zufällige Gegner und verursacht dabei insgesamt {0} K.Schaden. Zusätzlich werden 5 große Wassertropfen auf ein Ziel und Gegner in dessen Reichweite geworfen, die {1} K.Schaden verursachen. Von großen Wassertropfen getroffene Gegner werden {2} Sek. lang betäubt. Jeder geworfene Wassertropfen kostet {3} Mana und steigert die Manakosten um {4}. Bei 0 Mana endet der Effekt.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Gewährt Effekt-Immunität während der Wirkungsdauer.",
+    "dark": "Pro geworfenem Wassertropfen steigen Manakosten und Manaverbrauchsrate um 100%. Mit jedem geworfenen Tropfen gibt es eine Chance von 50% auf einen zusätzlichen Tropfen.",
+    "ut": {
+      "name": "Bodenloser Kessel der Elementare",
+      "description": [
+        "[Himmlischer Wasserfall] Jeder Angriff hat eine Chance von 7%, einen großen Wassertropfen zu werfen, der 100% des ANG als K.Schaden verursacht und den eigenen Krit. Schaden 7 Sek. lang um 2% erhöht.",
+        "[Himmlischer Wasserfall] Jeder Angriff hat eine Chance von 7%, einen großen Wassertropfen zu werfen, der 100% des ANG als K.Schaden verursacht und den eigenen Krit. Schaden 7 Sek. lang um 2,4% erhöht.",
+        "[Himmlischer Wasserfall] Jeder Angriff hat eine Chance von 7%, einen großen Wassertropfen zu werfen, der 100% des ANG als K.Schaden verursacht und den eigenen Krit. Schaden 7 Sek. lang um 2,8% erhöht.",
+        "[Himmlischer Wasserfall] Jeder Angriff hat eine Chance von 7%, einen großen Wassertropfen zu werfen, der 100% des ANG als K.Schaden verursacht und den eigenen Krit. Schaden 7 Sek. lang um 3,4% erhöht.",
+        "[Himmlischer Wasserfall] Jeder Angriff hat eine Chance von 7%, einen großen Wassertropfen zu werfen, der 100% des ANG als K.Schaden verursacht und den eigenen Krit. Schaden 7 Sek. lang um 4,2% erhöht.",
+        "[Himmlischer Wasserfall] Jeder Angriff hat eine Chance von 7%, einen großen Wassertropfen zu werfen, der 100% des ANG als K.Schaden verursacht und den eigenen Krit. Schaden 7 Sek. lang um 5% erhöht."
+      ],
+      "story": "Ein Kessel, den Lilias alte Kaktusfreunde an ihrem Geburtstag für sie herstellten. Der Kessel bringt stetig das sauberste und reinste Wasser hervor, das es gibt. Wenn jedoch zu viel Wasser auf einmal eingesetzt wird, schließt er seinen Ausguss – eine Funktion, die von den Kakteen hinzugefügt wurde, um Lilia zu helfen, das Wasser zu kontrollieren, bis sie es besser beherrscht."
+    }
+  },
+  "s4": {
+    "name": "Gezeitenreinigung",
+    "description": "Manaerholung bei ANG ist fix, aber der eigene ANG steigt um {0} und Manaerholung pro Sek. wird auf 120 erhöht. Pro 6 Manaerholung pro Sek. steigt der ANG um 1%.",
+    "books": {
+      "0": "Angriffs-Steigungsrate steigt um {0}%.",
+      "1": "Angriffs-Steigungsrate steigt um {0}%.",
+      "2": "Angriffs-Steigungsrate steigt um {0}%."
+    },
+    "light": "Zum Kampfbeginn werden 1.000 Mana regeneriert.",
+    "dark": "Erhöht Schaden gegenüber Bossmonstern um 15%."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / Krit. Schaden +20%",
+    "dark": "Erhöht den ANG um 15 % pro MP-Kugel im Besitz."
+  }
+}

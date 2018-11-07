@@ -1,0 +1,120 @@
+{
+  "name": "Demia",
+  "subtitle": "Fortress of Steel",
+  "description": "This guardian knight carries a gigantic lance and shield. Endures the attack of enemies with absolute fortitude and disturbs enemy lines with her lance.",
+  "story": "Ziltrion Si Demia. The commander of the Guardian Knights of Orvel. She is a mighty and dignified knight who wields a lance and a giant shield. It is said that penetrating her shield is next to impossible. As a knight commander, she cherishes her subordinates, and is prepared to perform any task in service of her land. Having felt the recent change of the atmosphere within the royal palace, she hopes to quickly appoint Clause as the next commander so that she may protect Scarlet from the aggression of the nobles.",
+  "like": "A righteous monarch to serve",
+  "dislike": "Weak-minded people who betray others",
+  "inn": {
+    "idle": "Make yourself fully prepared for the battle tomorrow.",
+    "recruit": {
+      "greet": "Nice to meet you, soldiers. I am Demia Ziltrion, head of the Royal Garrison.",
+      "talk": [
+        "The royal garrison is strong. Nars Horrun will lead the troops in replacement of myself.",
+        "My father has spent years as the head of garrison, too. He wanted me to grow up as a normal child, but his blood runs through my vein.",
+        "I will defeat the Evil King and bring peace back to the realm."
+      ],
+      "gift": "I should share this with my soldiers."
+    },
+    "affinity": {
+      "greet": "Thank you for inviting me.",
+      "talk": [
+        "Please let me know if you find out anything about the Dark Force.",
+        "We are ready to fight anytime. For Orvelia!"
+      ],
+      "gift": "I'll share this with the soldiers."
+    },
+    "relationship": {
+      "greet": "I hear you have been looking for me. What is it?",
+      "talk": [
+        "I worry about the princess. She's still young and gentle...it must be hard.",
+        "Hmph, why can't that tin can stay around and protect the princess...such a bothersome man...",
+        "Me? Um, well...going out to battle alongside you isn't all that bad. It is good exercise."
+      ]
+    }
+  },
+  "uw": {
+    "name": "The Blue Light, Arpheus",
+    "description": [
+      "Increases P.DEF of all allies by 4%. Blocking an enemy attack has a 10% chance to recover 3% Mana and reduce Cooldown of all skills by 1 sec.",
+      "Increases P.DEF of all allies by 4.8%. Blocking an enemy attack has a 12% chance to recover 3.3% Mana and reduce Cooldown of all skills by 1 sec.",
+      "Increases P.DEF of all allies by 5.8%. Blocking an enemy attack has a 14% chance to recover 3.6% Mana and reduce Cooldown of all skills by 1 sec.",
+      "Increases P.DEF of all allies by 7%. Blocking an enemy attack has a 17% chance to recover 3.9% Mana and reduce Cooldown of all skills by 1 sec.",
+      "Increases P.DEF of all allies by 8.4%. Blocking an enemy attack has a 21% chance to recover 4.2% Mana and reduce Cooldown of all skills by 1 sec.",
+      "Increases P.DEF of all allies by 10%. Blocking an enemy attack has a 25% chance to recover 4.5% Mana and reduce Cooldown of all skills by 1 sec."
+    ],
+    "story": "One day, a vein exuding powerful mana was discovered in the territory of Ziltrion. While investigating, Demia found a blue ore, the likes of which she had never seen before. Numerous wizards and alchemists studied this mysterious ore with the characteristics of both gem and metal, but no one could figure out its identity. Jin the blacksmith, however, had a different idea. As soon as he saw the ore, he offered Demia to craft powerful gears out of it, with a big smile on his face. With it, he forged a lance and a shield, glowing blue with mana and tougher than diamond."
+  },
+  "s1": {
+    "name": "Penetration",
+    "description": "Throws a spear at the furthest enemy, dealing {0} P.DMG and drawing the enemy in front of the hero. Then deals {1} P.DMG to enemies in range, stunning them for 3 sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Stun duration is increased by {0} sec."
+    },
+    "light": "In exchange for 1 additional Mana Cost, pull in 2 enemies.",
+    "dark": "All pulled enemies take 25% increased DMG from all sources for 10 sec."
+  },
+  "s2": {
+    "name": "Will to Win",
+    "description": "Upon blocking enemy attack for {0} sec, triggers a shockwave that deals {1} P.DMG to enemies in range, reducing their ATK by {2}%.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Enemy ATK reduction is increased by {0}%."
+    },
+    "light": "Mana cost is reduced by 1.",
+    "dark": "Ally P.DEF is boosted by 20% for 10 sec after activation.",
+    "ut": {
+      "name": "Shield of Resolution",
+      "description": [
+        "[Will to Win] Increases DMG by 50% and P.Weakness of the target by 10% for 10 sec.",
+        "[Will to Win] Increases DMG by 50% and P.Weakness of the target by 12% for 10 sec.",
+        "[Will to Win] Increases DMG by 50% and P.Weakness of the target by 14% for 10 sec.",
+        "[Will to Win] Increases DMG by 50% and P.Weakness of the target by 17% for 10 sec.",
+        "[Will to Win] Increases DMG by 50% and P.Weakness of the target by 21% for 10 sec.",
+        "[Will to Win] Increases DMG by 50% and P.Weakness of the target by 25% for 10 sec."
+      ],
+      "story": "A wooden shield that Demia used as a child for practice. It's been used over a thousand times and is very worn out. Demia uses it to regain her composure when she feels like she has hit a limit. Her pride as a knight of Orvelia resurfaces when she sees this old, worn-out shield."
+    }
+  },
+  "s3": {
+    "name": "Steel Fortress",
+    "description": "Upon DMG block during casting, jump attack DMG is increased by 7%. Also, deals {1} P.DMG to enemy and inflicts stun. After casting, jumps and attacks the enemy, dealing {2} P.DMG and stunning them for {3} sec. Gains immunity to CC while the skill is in use.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Upon jumping into the air, charge at the target with the highest ATK.",
+    "dark": "While casting, all allies take 20% reduced P.DMG.",
+    "ut": {
+      "name": "Aura of Protection",
+      "description": [
+        "[Steel Fortress] Mana cost is reduced by 1 and jump attack's Stun duration is increased by 1 sec.",
+        "[Steel Fortress] Mana cost is reduced by 1 and jump attack's Stun duration is increased by 1.5 sec.",
+        "[Steel Fortress] Mana cost is reduced by 1 and jump attack's Stun duration is increased by 2 sec.",
+        "[Steel Fortress] Mana cost is reduced by 1 and jump attack's Stun duration is increased by 2.5 sec.",
+        "[Steel Fortress] Mana cost is reduced by 1 and jump attack's Stun duration is increased by 3 sec.",
+        "[Steel Fortress] Mana cost is reduced by 1 and jump attack's Stun duration is increased by 3.5 sec."
+      ],
+      "story": "A stone known to protect one's soul from being absorbed by evil. It only shines for a while at dawn, so it's hard to find. One day, when Demia was tired from battle, a comrade put this in her hands. Even though it's a comrade that she can't ever see again... Demia always takes this stone when going out to the battlefield. She does her best to uphold her vow to never let the sacrifices of her comrades be in vain."
+    }
+  },
+  "s4": {
+    "name": "Spearhead",
+    "description": "All allies' P.DEF is increased by {0} and P.Block chance is increased by {1}.",
+    "books": {
+      "0": "DEF boost is increased by {0}%",
+      "1": "DEF boost is increased by {0}%",
+      "2": "DEF boost is increased by {0}%"
+    },
+    "light": "P.DEF is increased by 20% and P. Block is boosted by 50%.",
+    "dark": "Recovers HP equal to 40% of P.DEF upon blocking."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / P. Block +200",
+    "dark": "At the beginning of every battle, decrease the ATK of all enemies by 20% for 6 sec. This effect cannot be dispelled."
+  }
+}

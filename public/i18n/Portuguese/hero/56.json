@@ -1,0 +1,120 @@
+{
+  "name": "Erze",
+  "subtitle": "Sede eterna",
+  "description": "Ela era uma caçadora de vampiros, como sua irmã Seria. No entanto, corrompida pelo próprio poder, ela massacrou seus companheiros e decidiu se tornar uma vampira. Após matar e absorver os poderes do vampiro que a transformou, ela fugiu de Seria, sua irmã mais velha e única sobrevivente, e mudou-se para Orvelia.",
+  "story": "Segunda filha da família ShadowHilt, Erze seguiu o exemplo de Seria, sua querida irmã, e se tornou uma caçadora de vampiros. O físico frágil de Erze a impediu de aprender a lutar com espadas, mas ela ganhou fama como caçadora graças ao seu talento com magia. Um dia, ela caiu em uma armadilha durante uma operação e foi mordida no ombro por um vampiro misterioso. Seu corpo ficou ainda mais debilitado, e ela sofria com dores de cabeça e sede toda noite. Erze sabia o que isso significava, e pelo que estava passando. Ela escondeu a mordida e procurou sozinha por uma cura, afastando-se de seus companheiros. Enquanto isso, Seria foi enviada à Montanha Gélida de Windland para investigar a Princesa Vampira desaparecida há 100 anos. No dia em que sua irmã partiu... - Ahh, Seria... Não consigo mais controlar... Silenciosa e secretamente, Erze começou a cortar a garganta de seus companheiros.",
+  "like": "Seria como irmã, parfait de chocolate, sangue dos corrompidos",
+  "dislike": "Seria como caçadora de vampiros, aranhas",
+  "inn": {
+    "idle": "Eles parecem tão apetitosos... Hum...",
+    "recruit": {
+      "greet": "Conheço uma brincadeira incrível. O que acha de jogar comigo?",
+      "talk": [
+        "Por que está com medo?",
+        "Ora, acha que vou morder você?",
+        "Garanto que você nunca sentiu uma emoção assim."
+      ],
+      "gift": "Haha, isso não é necessário... Por que não mostra seu pescoço?"
+    },
+    "affinity": {
+      "greet": "Eu já te vi antes... Hahaha. Nos encontramos novamente.",
+      "talk": [
+        "Vampiros não são como demônios. Admito que os demônios superiores são até decentes, mas os outros são inúteis.",
+        "O sangue dos corrompidos... me deixa eufórica. Sim, eufórica!"
+      ],
+      "gift": "Você tem bom gosto. E está uma gracinha sempre que te vejo!"
+    },
+    "relationship": {
+      "greet": "Quero que fique com essa lembrança minha. É o dente de quem me mordeu...",
+      "talk": [
+        "Hum, aquela mulher continua me perseguindo... Aquela mulher... Ela... Minha irmã... Que saudade... Mas também quero matá-la... Hihihi!",
+        "Aquele que apareceu na última vez... Estava dando o sangue dele para outros humanos. Nosso sangue é inútil sem nossa determinação. Então ele estava dando o sangue por escolha própria... O que teria recebido em troca? Eu devia ter perguntado antes de matá-lo.",
+        "Não, eu nunca voltaria a ser como antes. Hihi, o que foi? Acha que vou abrir mão do júbilo que sinto agora para voltar àqueles dias de desespero?! Não, jamais! Eu não vou voltar... Mas... se voltasse... seria por um único motivo... Sim... Se eu voltasse... seria por ela."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Perion, Essência da Avareza",
+    "description": [
+      "Cada acerto de habilidade aumenta o ATQ e a Vel. de ATQ em 0,5% por 15 segundos. Este efeito acumula até 80 vezes.",
+      "Cada acerto de habilidade aumenta o ATQ e a Vel. de ATQ em 0,5% por 15 segundos. Este efeito acumula até 90 vezes.",
+      "Cada acerto de habilidade aumenta o ATQ e a Vel. de ATQ em 0,5% por 15 segundos. Este efeito acumula até 110 vezes.",
+      "Cada acerto de habilidade aumenta o ATQ e a Vel. de ATQ em 0,5% por 15 segundos. Este efeito acumula até 130 vezes.",
+      "Cada acerto de habilidade aumenta o ATQ e a Vel. de ATQ em 0,5% por 15 segundos. Este efeito acumula até 160 vezes.",
+      "Cada acerto de habilidade aumenta o ATQ e a Vel. de ATQ em 0,5% por 15 segundos. Este efeito acumula até 200 vezes."
+    ],
+    "story": "Quando tudo isso começou...? Esse tormento acompanhado de uma sede infinita... Mas depois de saciar a sede... Meu coração pulsa com um ódio ardente por você, Seria... Ah, Seria. Não tenho escolha. Preciso deste poder para satisfazer minha sede infinita. Essa essência poderosa de fluxo constante é a única cura para o meu tormento eterno. Ah... Esse êxtase... Mais... Alguém me dê mais..."
+  },
+  "s1": {
+    "name": "Sangue Doce",
+    "description": "Causa {0} de DAN F. a todos os inimigos e rouba PV igual a {1}% do DAN causado. Reduz a Recarga de [Sangue Doce] em {2} seg. a cada acerto, e ganha 1 acúmulo de [Sangue Doce]. [Sangue Doce] pode acumular até {3} vezes, e usar a habilidade com {3} acúmulos de [Sangue Doce] concede {4} acertos adicionais e remove os acúmulos de[Sangue Doce].",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "DAN aumenta em {0}%."
+    },
+    "light": "Recupera 150 de Mana a cada acerto.",
+    "dark": "Cada uso aumenta o DAN em 10%. Acumula-se no máximo 30 vezes."
+  },
+  "s2": {
+    "name": "Sangue Encharcado",
+    "description": "Remove todos os efeitos negativos e ganha imunidade a todos os CM, DAN F. e DAN M. por {0} seg. Causa 1 acúmulo de [Sangue Encharcado] a todos os inimigos, além de 1 acúmulo ao atacar um alvo com [Sangue Encharcado]. [Sangue Encharcado] pode acumular até {1} vezes. Causa {2} DAN F. a inimigos com acúmulos de [Sangue Encharcado] após {0} seg., e rouba PV igual a {3}% do DAN causado. Para cada {4} acúmulo(s) de [Sangue Encharcado], o número de acertos sobe em 1 e remove os acúmulos de [Sangue Encharcado] ao atacar.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "DAN aumenta em {0}%."
+    },
+    "light": "Atordoa o alvo por 3 segundos ao atingir.",
+    "dark": "O custo de mana será reduzido em 1.",
+    "ut": {
+      "name": "Vinho dos Tremores",
+      "description": [
+        "[Sangue Encharcado] Aumenta o DAN de [Sangue Encharcado] em 50% e reduz a Recarga de [Sangue Encharcado] em 5 segundos.",
+        "[Sangue Encharcado] Aumenta o DAN de [Sangue Encharcado] em 50% e reduz a Recarga de [Sangue Encharcado] em 6 segundos.",
+        "[Sangue Encharcado] Aumenta o DAN de [Sangue Encharcado] em 50% e reduz a Recarga de [Sangue Encharcado] em 7 segundos.",
+        "[Sangue Encharcado] Aumenta o DAN de [Sangue Encharcado] em 50% e reduz a Recarga de [Sangue Encharcado] em 8 segundos.",
+        "[Sangue Encharcado] Aumenta o DAN de [Sangue Encharcado] em 50% e reduz a Recarga de [Sangue Encharcado] em 9 segundos.",
+        "[Sangue Encharcado] Aumenta o DAN de [Sangue Encharcado] em 50% e reduz a Recarga de [Sangue Encharcado] em 10 segundos."
+      ],
+      "story": "Vinho feito pela própria Erze com o sangue de sacerdotes. Um de seus maiores prazeres é forçar aqueles considerados sagrados a se ajoelharem. Dentro da garrafa, há uma cruz sangrenta. Quem ouve Erze bebendo o vinho estremece com o tilintar da cruz no interior."
+    }
+  },
+  "s3": {
+    "name": "Liberação de Sangue",
+    "description": "Causa {2} de DAN F. a todos os inimigos a cada {1} seg. por {0} seg. Cada acerto de [Liberação de Sangue] causa um acerto adicional em 1 inimigo aleatório.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "DAN aumenta em {0}%."
+    },
+    "light": "Recupera 75 de Mana a cada acerto.",
+    "dark": "O custo de mana aumenta em 1 orbe, mas o DAN é reforçado em 100%.",
+    "ut": {
+      "name": "Batom da Vergonha",
+      "description": [
+        "[Liberação de Sangue] Aumenta o DAN de [Liberação de Sangue] em 20% e ganha imunidade a CM durante [Liberação de Sangue].",
+        "[Liberação de Sangue] Aumenta o DAN de [Liberação de Sangue] em 24% e ganha imunidade a CM durante [Liberação de Sangue].",
+        "[Liberação de Sangue] Aumenta o DAN de [Liberação de Sangue] em 29% e ganha imunidade a CM durante [Liberação de Sangue].",
+        "[Liberação de Sangue] Aumenta o DAN de [Liberação de Sangue] em 35% e ganha imunidade a CM durante [Liberação de Sangue].",
+        "[Liberação de Sangue] Aumenta o DAN de [Liberação de Sangue] em 42% e ganha imunidade a CM durante [Liberação de Sangue].",
+        "[Liberação de Sangue] Aumenta o DAN de [Liberação de Sangue] em 50% e ganha imunidade a CM durante [Liberação de Sangue]."
+      ],
+      "story": "Batom vermelho escuro feito com o sangue de vítimas que sofreram mortes desonrosas. Aqueles que abandonaram a dignidade humana e entregaram-se aos desejos insaciáveis não puderam escapar de Erze. Morreram em estado de transe completo, mas talvez estivessem felizes por Erze ter abusado deles. Erze usa o batom para marcar o pescoço das presas após se alimentar."
+    }
+  },
+  "s4": {
+    "name": "Sorve-Vidas",
+    "description": "Aumenta o ATQ em {0} e o PV Máx. em {1} ao matar um inimigo. Acumula no máx 50. Ao receber DAN fatal, lança [Sangue Encharcado] e diminui o PV Máx. em {2}%. Esse efeito não é aplicado quando [Sangue Encharcado] estiver em Recarga. Essa habilidade consome todo o Mana ao ativar.",
+    "books": {
+      "0": "Aumenta o Impulso de ATQ e PV Máx. em {0}%.",
+      "1": "Aumenta o Impulso de ATQ e PV Máx. em {0}%.",
+      "2": "Aumenta o Impulso de ATQ e PV Máx. em {0}%."
+    },
+    "light": "Aumenta o PV Máx. em 100% ao matar um inimigo e altera a redução de PV Máx. após lançar [Sangue Encharcado] em si mesmo para 33%.",
+    "dark": "Aumenta o ATQ em 200% ao matar um inimigo, mas o impulso de PV Máx. não se aplica."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / Chance Crít. +100",
+    "dark": "Rouba PV igual a 25% do DAN causado pelo último ataque normal e ganha 1 acúmulo de [Sangue Doce]."
+  }
+}

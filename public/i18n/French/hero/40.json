@@ -1,0 +1,120 @@
+{
+  "name": "Theo",
+  "subtitle": "Chevalier de Loyauté",
+  "description": "Le 1er Chevalier de l'ancienne République de Gray, qui erre dans le monde à la recherche de sa suzeraine disparue, Jane. Sa puissante double lance est très dangeureuse, elle attend puis transperce les démons ennemis, sans pitié.",
+  "story": "Un chevalier ayant servi la République de Gray voici cent ans et un grand admirateur de Jane Gray. Theo fut le premier chevalier de la République et le porteur de Legios, l'Éclair. Durant la bataille de Duchy contre l'Armée Démoniaque, la Forteresse de la Montagne plongea dans le chaos lorsque son sceau fut rompu. Répondant à l'ordre de Jane, Theo partit contenir le danger. En son absence, de puissants officiers démons attaquèrent le palais royal. Theo revint les combattre malgré ses blessures graves, mais il fut incapable de les vaincre seul. Lorsque la bataille fut terminée, il prit le corps de la princesse dans ses bras et pleura dans les ruines du palais. C'est alors qu'une entité mystérieuse lui offrit une chance de défendre sa princesse pour l'éternité. Lorsqu'il accepta, il plongea dans un profond sommeil.",
+  "like": "Ma dame, Jane",
+  "dislike": "Les démons et leurs officiers",
+  "inn": {
+    "idle": "Je suis Theo Phil Grayum de la République Gray.",
+    "recruit": {
+      "greet": "Oh, c'est vous. Nous nous sommes déjà rencontrés, n'est-ce pas?",
+      "talk": [
+        "J'espère la voir une nouvelle fois.",
+        "...Plus de cents hivers sont passés.",
+        "Avez-vous, par hasard, vu cette belle dame aux cheveux blancs?"
+      ],
+      "gift": "Votre coeur des rempli de chaleur."
+    },
+    "affinity": {
+      "greet": "Bonjour.",
+      "talk": [
+        "Tous les démons ne sont pas malveillants... Un peu comme ce chat, voyez-vous.",
+        "Je manie la lance depuis mon plus jeune âge, j'y suis habitué."
+      ],
+      "gift": "Merci. Voilà qui me réchauffe le cœur."
+    },
+    "relationship": {
+      "greet": "Comment allez-vous? Ça fait un moment.",
+      "talk": [
+        "C'était la première fois que je me suis senti si chaud à l'intérieur... comme si le soleil était juste devant mes yeux.",
+        "Beaucoup de gens me demandent - pourquoi aller si loin? Je réponds... J'ai tout simplement vécu en suivant mon coeur.",
+        "Quand nous nous rencontrons enfin, si elle ne me reconnais pas... Je ne sais pas quelle expression je devrais faire..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Legios, l'Éclair",
+    "description": [
+      "Chaque compétence et attaque auto accumule 'Foudre' sur le Héros. Lorsque 50 charges sont atteintes, 'Legios, l'Éclair' s'active, ce qui augmente la Vit. ATQ de 300, les DEG Crit de 100% et la Pénétration de 300 pendant 10 sec. Pendant cette durée, 'Foudre' ne se cumule pas. Cet effet ne peut pas être dissipé.",
+      "Chaque compétence et attaque auto accumule 'Foudre' sur le Héros. Lorsque 50 charges sont atteintes, 'Legios, l'Éclair' s'active, ce qui augmente la Vit. ATQ de 360, les DEG Crit de 120% et la Pénétration de 360 pendant 10 sec. Pendant cette durée, 'Foudre' ne se cumule pas. Cet effet ne peut pas être dissipé.",
+      "Chaque compétence et attaque auto accumule 'Foudre' sur le Héros. Lorsque 50 charges sont atteintes, 'Legios, l'Éclair' s'active, ce qui augmente la Vit. ATQ de 430, les DEG Crit de 144% et la Pénétration de 430 pendant 10 sec. Pendant cette durée, 'Foudre' ne se cumule pas. Cet effet ne peut pas être dissipé.",
+      "Chaque compétence et attaque auto accumule 'Foudre' sur le Héros. Lorsque 50 charges sont atteintes, 'Legios, l'Éclair' s'active, ce qui augmente la Vit. ATQ de 520, les DEG Crit de 173% et la Pénétration de 520 pendant 10 sec. Pendant cette durée, 'Foudre' ne se cumule pas. Cet effet ne peut pas être dissipé.",
+      "Chaque compétence et attaque auto accumule 'Foudre' sur le Héros. Lorsque 50 charges sont atteintes, 'Legios, l'Éclair' s'active, ce qui augmente la Vit. ATQ de 620, les DEG Crit de 208% et la Pénétration de 620 pendant 10 sec. Pendant cette durée, 'Foudre' ne se cumule pas. Cet effet ne peut pas être dissipé.",
+      "Chaque compétence et attaque auto accumule 'Foudre' sur le Héros. Lorsque 50 charges sont atteintes, 'Legios, l'Éclair' s'active, ce qui augmente la Vit. ATQ de 750, les DEG Crit de 250% et la Pénétration de 750 pendant 10 sec. Pendant cette durée, 'Foudre' ne se cumule pas. Cet effet ne peut pas être dissipé."
+    ],
+    "story": "Une lance dont on dit qu'elle aurait été forgée à partir d'un éclair. Un courant électrique parcourt constamment cette lance impressionnante, aussi grande qu'un homme adulte. Forger une lance à partir d'un éclair ne fut pas une mince affaire. Mais après tout, Jin n'avait rien d'un forgeron ordinaire. Il fit fondre une énorme pierre de mana imprégnée de sang de dragon rouge et s'en servit pour emprisonner l'éclair avant de le façonner. Hormis le maître qu'elle s'est choisi, nul ne peut toucher cette arme. Lorsque ses deux pièces sont assemblées, elle libère un intense flux d'énergie évoquant le rugissement d'un dragon."
+  },
+  "s1": {
+    "name": "Crash Final",
+    "description": "Attaque l'ennemi à 16 reprises, infligeant un total de {0} points de DEG M. Chaque Crit augmente les DEG Crit de 3% pendant 10 sec et a 30% de chances d'infliger {1} points de DEG M. supplémentaires tout en appliquant Étourdissement pendant 0.3 sec. L'effet des DEG Crit est cumulable 30 fois.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "Chances de Crit augmentées de {0}."
+    },
+    "light": "S'il y a 1 ennemi, les DEG sont augmentés de 100%.",
+    "dark": "Le temps de recharge est réduit de 2 sec."
+  },
+  "s2": {
+    "name": "Dieu de la Foudre",
+    "description": "Active l'état 'Dieu de la Foudre'. Projette une lance de foudre qui inflige {0} points de DEG M. L'ennemi touché reçoit {1} points de DEG M. pendant 10 sec. Pendant que 'Dieu de la Foudre' est actif, le Mana ne remonte pas pendant 10 sec, mais le taux d'activation de la compétence 'Pour Jane' augmente de 40% et l'ATQ augmente de {2}.",
+    "books": {
+      "0": "Les boosts d'ATQ et de DEG sont augmentés de {0}%.",
+      "1": "Les boosts d'ATQ et de DEG sont augmentés de {0}%.",
+      "2": "Les boosts d'ATQ et de DEG sont augmentés de {0}%."
+    },
+    "light": "Le coût en Mana est réduit de 1.",
+    "dark": "Les DEG sont augmentés de 30% pendant que Dieu de Lumière est actif, mais l'ATQ augmente de 100%.",
+    "ut": {
+      "name": "Collier du Dieu de la Foudre",
+      "description": [
+        "[Dieu de la foudre] La Vit ATQ augmente de 250 points pendant la durée de la compétence, et les chances d'activer Pour Jane augmentent de 8% supplémentaires.",
+        "[Dieu de la foudre] La Vit ATQ augmente de 250 points pendant la durée de la compétence, et les chances d'activer Pour Jane augmentent de 9,6% supplémentaires.",
+        "[Dieu de la foudre] La Vit ATQ augmente de 250 points pendant la durée de la compétence, et les chances d'activer Pour Jane augmentent de 11,5% supplémentaires.",
+        "[Dieu de la foudre] La Vit ATQ augmente de 250 points pendant la durée de la compétence, et les chances d'activer Pour Jane augmentent de 13,8% supplémentaires.",
+        "[Dieu de la foudre] La Vit ATQ augmente de 250 points pendant la durée de la compétence, et les chances d'activer Pour Jane augmentent de 16,5% supplémentaires.",
+        "[Dieu de la foudre] La Vit ATQ augmente de 250 points pendant la durée de la compétence, et les chances d'activer Pour Jane augmentent de 20% supplémentaires."
+      ],
+      "story": "Aussi appelé foudre du ciel, Legios n’en est pas moins une bête sacrée. La puissance de Legios était si grande que lorsqu’il décida d’en faire une arme, la République de Gray ne put la contenir. Ainsi, la plus grande partie fut placée dans la lance de foudre et le reste à différents endroits. C’est ainsi que le collier du Dieu de la Foudre en reçut une partie. L’on raconte que son porteur peut communier avec la lance de foudre et ainsi se rapprocher de la puissance de Legios."
+    }
+  },
+  "s3": {
+    "name": "Explosion de Foudre",
+    "description": "Saute vers l'avant sur un ennemi, frappant avec une lance vers le sol. Touche la cible à 5 reprises et inflige un total de {0} points de DEG M. à la cible et aux ennemis proches. Applique également Étourdissement pendant 3 sec.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "Chances de Crit augmentées de {0}."
+    },
+    "light": "DEG augmentés de 40%.",
+    "dark": "Durée Étourdissement augmentée de 1 sec.",
+    "ut": {
+      "name": "Essence de bouton de fleur",
+      "description": [
+        "[Explosion de Foudre] Le Temps de Rechange de la compétence est réduit de 30% et chaque attaque inflige des DEG M. supplémentaires à hauteur de 40% de l'ATQ.",
+        "[Explosion de Foudre] Le Temps de Rechange de la compétence est réduit de 30% et chaque attaque inflige des DEG M. supplémentaires à hauteur de 48% de l'ATQ.",
+        "[Explosion de Foudre] Le Temps de Rechange de la compétence est réduit de 30% et chaque attaque inflige des DEG M. supplémentaires à hauteur de 58% de l'ATQ.",
+        "[Explosion de Foudre] Le Temps de Rechange de la compétence est réduit de 30% et chaque attaque inflige des DEG M. supplémentaires à hauteur de 70% de l'ATQ.",
+        "[Explosion de Foudre] Le Temps de Rechange de la compétence est réduit de 30% et chaque attaque inflige des DEG M. supplémentaires à hauteur de 84% de l'ATQ.",
+        "[Explosion de Foudre] Le Temps de Rechange de la compétence est réduit de 30% et chaque attaque inflige des DEG M. supplémentaires à hauteur de 100% de l'ATQ."
+      ],
+      "story": "Un héritage de la République de Gray déchue. Un trésor que le sorcier respecté du palais de la République de Gray donna au premier chevalier Theo, qui avait reçu Legios, l’Éclair. L’Essence de Foudre qui a l’énergie de l’Explosion de Foudre en maximise les effets."
+    }
+  },
+  "s4": {
+    "name": "Pour Jane",
+    "description": "Chaque attaque auto a 20% de chances d'infliger {0} points de DEG M. et d'appliquer Étourdissement pendant 0.7 sec.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "Chances de Crit augmentées de {0}."
+    },
+    "light": "DEG augmentés de 40%.",
+    "dark": "Durée Étourdissement augmentée de 0.2 sec."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Chances Crit +100",
+    "dark": "Lorsque 'Dieu de la Foudre' est activé, la récupération de Mana est réduite de moitié. Lorsque la Mana atteint son maximum, l'ATQ est augmentée de 50% pendant 10 sec. Cet effet s'active seulement une fois toutes les 20 sec."
+  }
+}

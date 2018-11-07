@@ -1,0 +1,120 @@
+{
+  "name": "Yanne",
+  "subtitle": "Drachentöterin nYanne",
+  "description": "Eine wandernde Barbarenkriegerin, immer auf der Jagd nach Monstern, die Menschen bedrohen. Sie ist als die Einsame Schlächterin des Wahnsinnigen Drachen Svelta bekannt. Ihre massiven Pfeile können sogar Festungsmauern durchschlagen.",
+  "story": "Eine Barbarenkriegerin, spezialisiert auf den Umgang mit bedrohlichen Monstern. Dank einer körperlichen Eigenheit ist ihre Muskelkraft um ein Vielfaches stärker als die eines normalen Barbarenkriegers. Sie führt ihren Großbogen, der größer ist als sie selbst, mit solcher Leichtigkeit, dass die Leute sie als wandelnde Belagerungswaffe bezeichnen. Sie ist eine gutherzige und hilfsbereite Frau, doch im Kampf offenbart sich ihre barbarische Aggressivität. Einst metzelte sie einen wahnsinnigen Drachen namens Svelta, was ihr den Spitznamen 'Drachentöterin' einbrachte.",
+  "like": "Köstliche Mahlzeiten; Kochen; Monsterjagd",
+  "dislike": "Monster, die nicht körperlich besiegt werden können",
+  "inn": {
+    "idle": "Ahaha, alle scheinen sich prächtig zu amüsieren?",
+    "recruit": {
+      "greet": "Schon eine Weile her... wie ist es dir ergangen?",
+      "talk": [
+        "Monsterjagd? Das macht Spaß und unterstützt außerdem noch die Menschen.",
+        "Monsterfleisch schmeckt gekocht recht gut, weißt du?",
+        "Barbarenkrieger lernen alle wie man kocht. Aber ich glaube, ich bin der Beste von allen, oder?"
+      ],
+      "gift": "Ein Geschenk? Ahaha, danke! Dafür revangiere ich mich nächstes Mal mit einem tollen Essen!"
+    },
+    "affinity": {
+      "greet": "Lange her? Wie ist es dir ergangen?",
+      "talk": [
+        "Das Essen hier ist ziemlich gut.",
+        "Hm. Vielleicht bitte ich Juno nächstes Mal, mir ein Mittagessen zu bereiten?"
+      ],
+      "gift": "Oh, danke! Ich werde gute Verwendung dafür haben."
+    },
+    "relationship": {
+      "greet": "Hey, du siehst gesund aus! Isst du ordentlich?",
+      "talk": [
+        "Hast du mal Drachenfleisch probiert? Es ist ziemlich gut! Nächstes Mal bringe ich dir ein Drachensteak mit!",
+        "Die Arbeit als Monsterjäger ist nicht einfach, aber lohnt sich.",
+        "Barbarenkrieger sind ziemlich stark... Oh ja, mein Körper außergewöhnlich."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Drachenfluch, Svelta",
+    "description": [
+      "10% Chance, bei einem krit. Treffer zusätzlichen K. Schaden zu verursachen (200% der ANG) und 5% Mana zu erholen. Ist das Ziel ein Drache, wird er 1,5 Sek lang betäubt.",
+      "12% Chance, bei einem krit. Treffer zusätzlichen K. Schaden zu verursachen (240% der ANG) und 5% Mana zu erholen. Ist das Ziel ein Drache, wird er 1,5 Sek lang betäubt.",
+      "14% Chance, bei einem krit. Treffer zusätzlichen K. Schaden zu verursachen (290% der ANG) und 5% Mana zu erholen. Ist das Ziel ein Drache, wird er 1,5 Sek lang betäubt.",
+      "17% Chance, bei einem krit. Treffer zusätzlichen K. Schaden zu verursachen (350% der ANG) und 5% Mana zu erholen. Ist das Ziel ein Drache, wird er 1,5 Sek lang betäubt.",
+      "21% Chance, bei einem krit. Treffer zusätzlichen K. Schaden zu verursachen (420% der ANG) und 5% Mana zu erholen. Ist das Ziel ein Drache, wird er 1,5 Sek lang betäubt.",
+      "25% Chance, bei einem krit. Treffer zusätzlichen K. Schaden zu verursachen (500% der ANG) und 5% Mana zu erholen. Ist das Ziel ein Drache, wird er 1,5 Sek lang betäubt."
+    ],
+    "story": "Eine verzauberte Waffe, hergestellt aus Knochen, Sehnen und Haut des Wahnsinnigen Drachen Svelta. Dieser monströse Großbogen, der die Belagerungswaffentechnologie der Dunkelelfen und Zwerge vereint, ist zu schwer, um von einem Menschen aufgehoben oder gezogen zu werden. Nur Leute mit riesiger Muskelkraft wie Yanne können überhaupt daran denken, diesen unvorstellbaren Bogen handzuhaben. Die Seele des Wahnsinnigen Drachen schlummert immer noch in diesem Bogen. Seine grausame Energie steckt in jedem abgefeuerten Pfeil, wodurch sie die Kraft haben, selbst die mächtigste Mauer zu durchschlagen."
+  },
+  "s1": {
+    "name": "Fokussierter Schuss!",
+    "description": "Nimmt Haltung an, konzentriert sich und fügt Feinden in einer geraden Linie {0} K. Schaden zu. Ist das Ziel ein Drache, wird er 3 Sek lang betäubt. Eine längere Konzentrationszeit steigert Schaden und Betäubungsdauer um bis zu {1}%.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Krit. Schaden um {0}%."
+    },
+    "light": "Erhöht Schaden um 40%.",
+    "dark": "Das Ziel erleidet 10 Sek lang 25% zusätzlichen K. Schaden."
+  },
+  "s2": {
+    "name": "Auslöschung!",
+    "description": "Verursacht {0} P. Schaden an einem Gegner und den umstehenden Gegnern. Falls der Gegner ein Drache ist, wird {1} zusätzlicher Schaden verursacht, der die VERT ignoriert.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Krit. Schaden um {0}%."
+    },
+    "light": "Ist nur noch 1 Feind auf dem Schlachtfeld, wird der Schaden um 100% erhöht.",
+    "dark": "Betäubt getroffene Feinde für 2 Sek.",
+    "ut": {
+      "name": "Riesiger Pfeil des plötzlichen Todes",
+      "description": [
+        "[Auslöschung!] Erhöht den Schaden um 20 % und verringert den Cooldown um 12 % bei einem krit. Treffer.",
+        "[Auslöschung!] Erhöht den Schaden um 24 % und verringert den Cooldown um 12 % bei einem krit. Treffer.",
+        "[Auslöschung!] Erhöht den Schaden um 29 % und verringert den Cooldown um 12 % bei einem krit. Treffer.",
+        "[Auslöschung!] Erhöht den Schaden um 35 % und verringert den Cooldown um 12 % bei einem krit. Treffer.",
+        "[Auslöschung!] Erhöht den Schaden um 42 % und verringert den Cooldown um 12 % bei einem krit. Treffer.",
+        "[Auslöschung!] Erhöht den Schaden um 50 % und verringert den Cooldown um 12 % bei einem krit. Treffer."
+      ],
+      "story": "Ein Pfeil, der aus dem Rückgrat des Verrückten Drachen Svelta hergestellt wurde und der mächtige magische Kanonen speit. Er gehört zu Yannes Beute. Die Pfeilspitze besitzt das brennende Rote Auge des Verrückten Drachen und ist immer noch mit seinem Wahnsinn getränkt, immer bereit, den Feind zu verbrennen."
+    }
+  },
+  "s3": {
+    "name": "Keine Gnade!",
+    "description": "Entfernt alle negativen Effekte auf sich selbst und erhöht 30 Sek lang die eigene ANG um {0} und VERT.-Durchdringung um {1}. Während der Wirkungsdauer verbrauchen normale Angriffe 3% Mana und fügen Feinden in einer geraden Linie Schaden zu. Drachen erleiden zusätzlich {2} Schaden, der VERT ignoriert.",
+    "books": {
+      "0": "Erhöht ANG um {0}%.",
+      "1": "Erhöht ANG um {0}%.",
+      "2": "Erhöht ANG um {0}%."
+    },
+    "light": "Erhöht ANG-Geschw. um 250 während der Wirkungsdauer.",
+    "dark": "Während der Wirkungsdauer wird jeglicher erlittener Schaden um 25% reduziert.",
+    "ut": {
+      "name": "Drachen-Steak",
+      "description": [
+        "[Keine Gnade!] Reduziert Manakosten um 1 und erhöht Schaden gegenüber Drachen um 10 %, solange der Skill andauert.",
+        "[Keine Gnade!] Reduziert Manakosten um 1 und erhöht Schaden gegenüber Drachen um 12 %, solange der Skill andauert.",
+        "[Keine Gnade!] Reduziert Manakosten um 1 und erhöht Schaden gegenüber Drachen um 14 %, solange der Skill andauert.",
+        "[Keine Gnade!] Reduziert Manakosten um 1 und erhöht Schaden gegenüber Drachen um 17 %, solange der Skill andauert.",
+        "[Keine Gnade!] Reduziert Manakosten um 1 und erhöht Schaden gegenüber Drachen um 21 %, solange der Skill andauert.",
+        "[Keine Gnade!] Reduziert Manakosten um 1 und erhöht Schaden gegenüber Drachen um 25 %, solange der Skill andauert."
+      ],
+      "story": "T-Bone-Steak, das gleichzeitig wie ein Rumpsteak und ein Filetsteak eines Drachen schmeckt. Der Geschmack ist wirklich köstlich. Die heilige Energie des Drachen wird in den Körper aufgenommen und erhöht Yannes Ausdauer im Kampf auf das Maximum."
+    }
+  },
+  "s4": {
+    "name": "Drachenschlächter",
+    "description": "Erhöht ANG um {0} und max. TP um {1}%. Schaden gegenüber Drachen steigt um {2}%.",
+    "books": {
+      "0": "Erhöht ANG um {0}%.",
+      "1": "Erhöht ANG um {0}%.",
+      "2": "Erhöht ANG um {0}%."
+    },
+    "light": "Alle Verbündeten erleiden 7% weniger Schaden von Drachen.",
+    "dark": "Erhöht Schaden gegenüber Drachen um 15%."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / Krit. Schaden +20%",
+    "dark": "Normale Angriffe ignorieren feindliche Block-Effekte."
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Cassandra",
+  "subtitle": "Vientos de Tentacion",
+  "description": "La Femme Fatale Dueña del Gold Bar. Fiel a su notoriedad, su primera impresión es la de un encanto sexy y erótico. Ella anima a sus aliados con danzas tentadoras.",
+  "story": "Es la dueña del 'Bar de oro', la taberna más grande y lujosa de Vespia. Por debajo de su llamativo exterior, la taberna en realidad se utiliza como un lugar secreto de reuniones para las élites de la sociedad, dónde constantemente se intercambia información secreta inmensurable. Su encanto natural y habilidades de conversación pueden romper barreras personales y ganar la confianza de los demás. Su verdadera identidad es la de una distribuidora de armas e información secreta.",
+  "like": "Vino tinto, nueces, aficionados llamativos",
+  "dislike": "Clientes groseros, cabello graso, mal olor",
+  "inn": {
+    "idle": "Oh, bienvenido ~ Bueno, de todos modos no es mi tienda , pero ~",
+    "recruit": {
+      "greet": "Oh, ¿estás tratando de seducirme ? Ufufu...",
+      "talk": [
+        "Una ronda más para mí ~ Oh, esta persona pagará la cuenta ~",
+        "¿Info sobre armas? Hmm, ahora si que creo que no sé de lo que estás hablando...?",
+        "Fufu, te ves feliz hoy. ¿Me pregunto que está pasando ~?"
+      ],
+      "gift": "Fufu, no tenías que hacerlo ~ Me pregunto cómo debería darte las gracias"
+    },
+    "affinity": {
+      "greet": "¡Ah, hola!",
+      "talk": [
+        "Escuché que algunas personas diluyen el alcohol con agua. Ay, estoy preocupada.",
+        "Es mi trabajo, por eso, mi cuerpo mezcla el día con la noche. Estoy tan cansada."
+      ],
+      "gift": "¡Oh! Gracias, le daré un uso apropiado."
+    },
+    "relationship": {
+      "greet": "Hmm, solo estaba pensando en ti. Aparentemente tú también ~?",
+      "talk": [
+        "Manejar las mentes de las personas es mi trabajo... pero no lo haré contigo.",
+        "Mantén esto en secreto - no solo el Imperio, pero Orvelia también tiene muchos asuntos pendientes... especialmente con el Palacio Real...",
+        "Incluso al compartir una copa de vino con alguien... a veces, me siento como si estuviera solo. Pero contigo es diferente..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Susurro Aureliano, Brisa de Oro",
+    "description": [
+      "Cada 15 segundos, cura al aliado con la Salud más baja en un 200% de ATQ y disipa todos los efectos nocivos.",
+      "Cada 14 segundos, cura al aliado con la Salud más baja en un 240% de ATQ y disipa todos los efectos nocivos.",
+      "Cada 12.5 segundos, cura al aliado con la Salud más baja en un 290% de ATQ y disipa todos los efectos nocivos.",
+      "Cada 11 segundos, cura al aliado con la Salud más baja en un 350% de ATQ y disipa todos los efectos nocivos.",
+      "Cada 9.5 segundos, cura al aliado con la Salud más baja en un 420% de ATQ y disipa todos los efectos nocivos.",
+      "Cada 8 segundos, cura al aliado con la Salud más baja en un 500% de ATQ y disipa todos los efectos nocivos."
+    ],
+    "story": "Cassandra trabaja doble como vendedora de armas. Un día, un elemento robado llegó a su poder e inmediatamente captó su atención. Se trataba de un abanico hermoso adornado con decoraciones de oro y gemas preciosas. De acuerdo con los rumores, cualquier señorita que tuviese este abanico caía inmediatamente en el infortunio. Ha estado circulando el mercado como un elemento maldito. En cuanto lo compró, Cassandra comenzó a investigar sobre su origen. Resulta que, este abanico, nombrado Brisa de oro, había sido creado para utilizarlo como arma oculta. No es demasiado difícil adivinar qué tipo de infortunio podría sufrir quien portase este abanico."
+  },
+  "s1": {
+    "name": "Suavemente~",
+    "description": "Cura a todos los aliados en {0} de Salud y causa Daño Magico igual a  {1}  a todos los enemigos. Los enemigos afectados por esta habilidad son silenciados durante 2 segundos.",
+    "books": {
+      "0": "La Salud y el Daño aumentan en {0}%.",
+      "1": "La Salud y el Daño aumentan en {0}%.",
+      "2": "La duracion del Silencio aumenta en {0} seg."
+    },
+    "light": "Los aliados curados obtienen un aumento de 200 Veloc de ATQ durante 10 seg.",
+    "dark": "Durante 5 segundos, los enemigos golpeados tienen su Maná reducido en 200 cada segundo."
+  },
+  "s2": {
+    "name": "Ferozmente!",
+    "description": "Aumenta el ATQ de todos los aliados en  {0}  durante 15 segundos y aumenta su Oportunidad Crit. en  {1}.",
+    "books": {
+      "0": "el ATQ aumenta en {0}%.",
+      "1": "el ATQ aumenta en {0}%.",
+      "2": "el ATQ aumenta en {0}%."
+    },
+    "light": "El aumento de ATQ se incrementa en un 40%.",
+    "dark": "El costo de maná se reduce en 1.",
+    "ut": {
+      "name": "Ornamento lujoso",
+      "description": [
+        "[¡Ferozmente!] Aumenta la duración en 5 segundos y, además, aumenta el Daño crítico en un 20 %.",
+        "[¡Ferozmente!] Aumenta la duración en 5 segundos y, además, aumenta el Daño crítico en un 24 %.",
+        "[¡Ferozmente!] Aumenta la duración en 5 segundos y, además, aumenta el Daño crítico en un 29 %.",
+        "[¡Ferozmente!] Aumenta la duración en 5 segundos y, además, aumenta el Daño crítico en un 35 %.",
+        "[¡Ferozmente!] Aumenta la duración en 5 segundos y, además, aumenta el Daño crítico en un 42 %.",
+        "[¡Ferozmente!] Aumenta la duración en 5 segundos y, además, aumenta el Daño crítico en un 50 %."
+      ],
+      "story": "Un accesorio lujoso fabricado por el mejor joyero del continente. Un ornamento de edición limitada creado por el joyero Larik. Cualquier persona de la alta sociedad en el Continente Orbis adoraría tener uno. Se dice que su trabajo es la personificación del arte y que sana y concede valor. Solo existen 3 ornamentos lujosos de edición limitada, y uno de ellos obviamente pertenece al maestro del bar dorado."
+    }
+  },
+  "s3": {
+    "name": "Oleada Tentadora",
+    "description": "Causa  {0}  Daño Magico al enemigo con el ATQ más alto. Si el enemigo golpeado es un héroe, Hechizalo durante 7 seg. Los enemigos hechizados golpearán a sus propios aliados con ataques automáticos y no podrán usar habilidades.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "La duracion del Hechizo aumenta en {0} seg"
+    },
+    "light": "El objetivo recibe un 25% de Daño Magico aumentado durante 10 seg.",
+    "dark": "El costo de maná se reduce en 1.",
+    "ut": {
+      "name": "Esencia de oro",
+      "description": [
+        "[Ola Tentadora] El tiempo de reutilización de la habilidad se reduce en un 30% y la duración del Hechizo aumenta en 1 segundo.",
+        "[Ola Tentadora] El tiempo de reutilización de la habilidad se reduce en un 30% y la duración del Hechizo aumenta en 1.5 segundos.",
+        "[Ola Tentadora] El tiempo de reutilización de la habilidad se reduce en un 30% y la duración del Hechizo aumenta en 2 segundos.",
+        "[Ola Tentadora] El tiempo de reutilización de la habilidad se reduce en un 30% y la duración del Hechizo aumenta en 2.5 segundos.",
+        "[Ola Tentadora] El tiempo de reutilización de la habilidad se reduce en un 30% y la duración del Hechizo aumenta en 3 segundos.",
+        "[Ola Tentadora] El tiempo de reutilización de la habilidad se reduce en un 30% y la duración del Hechizo aumenta en 3.5 segundos."
+      ],
+      "story": "Un legendario collar hecho de llama de oro. El legendario rey de oro fabricó este collar de llama de oro para captar la atención de la diosa del amor y la belleza. Su fragancia de esencia de oro crea una oleada tentadora que hace sucumbir a cualquiera y provoca que quien lo lleve sea amado por todos."
+    }
+  },
+  "s4": {
+    "name": "Toque Gentil",
+    "description": "En cada batalla, la primera habilidad utilizada tendrá una reducción de 2 maná de costo. Además, aumenta todas las capacidades de DEF de los aliados en  {0}  durante 5 seg.",
+    "books": {
+      "0": "La fuerza de DEF aumenta en {0}%.",
+      "1": "La fuerza de DEF aumenta en {0}%.",
+      "2": "La fuerza de DEF aumenta en {0}%."
+    },
+    "light": "Todo el Daño sobre los aliados se reduce en un 20% durante 5 seg.",
+    "dark": "El efecto de aumento de DEF tiene su duración incrementada en 5 seg."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Veloc de ATQ +100",
+    "dark": "Al comienzo de cada batalla, un aliado aleatorio es inmune al Daño durante 3 segundos."
+  }
+}

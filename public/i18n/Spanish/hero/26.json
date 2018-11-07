@@ -1,0 +1,120 @@
+{
+  "name": "Aisha",
+  "subtitle": "La Princesa Morada",
+  "description": "Una señora noble que provenía de Orvelia. Una genia que alcanzó el título de 'Violeta' de la Torre del Sabio. Utilizando su suntuosa sombrilla, lanza poderosos cañones de energía hacia el enemigo.",
+  "story": "Hija de una noble familia de Orvel. Como una da las más talentosas magas en la Torre del Sabio, se le ha otorgado el título de 'Púrpura' en reconocimiento por su capacidad mágica. Fue criada en la Torre del Sabio desde su niñez a pedido de sus padres, pero aún mantiene su dignidad como aristócrata. Cuando era una niña, nunca se dio cuenta por qué sus padres la enviaron lejos y por su cuenta, pero ahora entiende sus motivos. Ahora, volvió a casa, y su doncella, a quien ella considera como otro miembro de la familia, siempre está a su servicio.",
+  "like": "Hora del té con Priscilla",
+  "dislike": "Gente brusca",
+  "inn": {
+    "idle": "Hmph, puedes comprar esta Posada entera",
+    "recruit": {
+      "greet": "¿Es tu primera vez conociendo a la nobleza?",
+      "talk": [
+        "Hmm, de que familia eres?",
+        "Esta falda... los últimos toques estaban bastante en mal estado.",
+        "Ugh, prefiero la cocina de mi chef a esta... comida campesina."
+      ],
+      "gift": "Gracias, gracias. ¿Por qué no vienes a tomar el té algún día?"
+    },
+    "affinity": {
+      "greet": "Esta casa no es tan bonita.",
+      "talk": [
+        "Puaj, no necesito comida. No creo que vaya a consumirla.",
+        "La próxima vez, vendré en un auto lujoso."
+      ],
+      "gift": "Gracias. Avísame si quieres algo."
+    },
+    "relationship": {
+      "greet": "Mi hermana salió un momento, así que no te preocupes.",
+      "talk": [
+        "No te dejes engañar por las sonrisas de los nobles. No son más que simples máscaras con las que se esconden.",
+        "No me gusta el hecho de que no puedo decirle a Priscilla 'Hermana' en casa. Ella es como si fuese de la familia!",
+        "El título de Violeta... no hay jerarquía entre Los Siete, pero no me gusta ser el último color del espectro!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Destino Noble, Mahitra",
+    "description": [
+      "Luego de un ataque, hay un 35% de posibilidades de causar Daño adicional por un valor del 40% del ATQ.",
+      "Luego de un ataque, hay un 35% de posibilidades de causar Daño adicional por un valor del 48% del ATQ.",
+      "Luego de un ataque, hay un 35% de posibilidades de causar Daño adicional por un valor del 57% del ATQ.",
+      "Luego de un ataque, hay un 35% de posibilidades de causar Daño adicional por un valor del 69% del ATQ.",
+      "Luego de un ataque, hay un 35% de posibilidades de causar Daño adicional por un valor del 83% del ATQ.",
+      "Luego de un ataque, hay un 35% de posibilidades de causar Daño adicional por un valor del 100% del ATQ."
+    ],
+    "story": "En la Torre del sabio, el título de Purpura indica la cumbre de la capacidad de mana. El mana prácticamente interminable de Aisha fue simplemente demasiado para los medios regulares de salida. Por este motivo, la familia von Daphnel compró todas las mejores piedras de mana que pudo encontrar y las llevó a Annette, la mejor tecnomaga en el Castillo Orvel. Annette felizmente aceptó asumir este nuevo proyecto. Poco después, creó a Mahitra, un hermoso paraguas adecuado para un hechicero aristócrata de destino noble."
+  },
+  "s1": {
+    "name": "Barranco Mistico",
+    "description": "Causa  {0}  Daño Magico a los enemigos dentro de un área pequeña. Luego del golpe crítico, redude el tiempo de reutilización en 1 seg.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Aumenta Oportunidad Crit. en {0}"
+    },
+    "light": "Si hay 1 enemigo, el Daño se incrementa en un 100%.",
+    "dark": "Recupera 300 de maná, luego de un Golpe Crit."
+  },
+  "s2": {
+    "name": "Rayo de Destruccion",
+    "description": "Causa  {0}  Daño Magico a los enemigos en línea recta cada 0,5 segundos. Después de 5 segundos, utiliza 3% de maná cada 0,5 segundos mientras el Daño aumenta en un 100%.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Aumenta Oportunidad Crit. en {0}"
+    },
+    "light": "El costo de maná del Rayo Potenciado es de la mitad.",
+    "dark": "El costo de maná del Rayo Potenciado se duplica y el aumento de Daño se incrementa de 100% a 200%.",
+    "ut": {
+      "name": "Espejo de mano noble",
+      "description": [
+        "[Rayo de destrucción] Aumenta el Daño en un 50 % y recupera 500 PM inmediatamente al momento de uso.",
+        "[Rayo de destrucción] Aumenta el Daño en un 50 % y recupera 600 PM inmediatamente al momento de uso.",
+        "[Rayo de destrucción] Aumenta el Daño en un 50 % y recupera 720 PM inmediatamente al momento de uso.",
+        "[Rayo de destrucción] Aumenta el Daño en un 50 % y recupera 860 PM inmediatamente al momento de uso.",
+        "[Rayo de destrucción] Aumenta el Daño en un 50 % y recupera 1040 PM inmediatamente al momento de uso.",
+        "[Rayo de destrucción] Aumenta el Daño en un 50 % y recupera 1250 PM inmediatamente al momento de uso."
+      ],
+      "story": "Un tesoro sagrado transferido a través de las generaciones a la familia von Daphel. Era la herramienta de un chamán para guardar maná en tiempos ancestrales. Después que Aisha imbuyera la noble gema púrpura con su maná, su poder brotó. Ahora brilla de forma brillante."
+    }
+  },
+  "s3": {
+    "name": "Lluvia Torrencial",
+    "description": "Causa {1} Daño Magico a enemigos aleatorios por {0} seg, y reduce la DEF Magica del enemigo en un 5%. La reducción de DEF Magica se acumula hasta 5 veces.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Aumenta Oportunidad Crit. en {0}"
+    },
+    "light": "Causa Daño AoE",
+    "dark": "El efecto de reducción de DEF Magica se acumula hasta 10 veces máx.",
+    "ut": {
+      "name": "Anillo de magia infinita",
+      "description": [
+        "[Lluvia Torrencial] El Daño aumenta en un 50% y luego del Golpe Crít., el maná se recupera en 30",
+        "[Lluvia Torrencial] El Daño aumenta en un 50% y luego del Golpe Crít., el maná se recupera en 36",
+        "[Lluvia Torrencial] El Daño aumenta en un 50% y luego del Golpe Crít., el maná se recupera en 43",
+        "[Lluvia Torrencial] El Daño aumenta en un 50% y luego del Golpe Crít., el maná se recupera en 52",
+        "[Lluvia Torrencial] El Daño aumenta en un 50% y luego del Golpe Crít., el maná se recupera en 62",
+        "[Lluvia Torrencial] El Daño aumenta en un 50% y luego del Golpe Crít., el maná se recupera en 75"
+      ],
+      "story": "Un anillo otorgado junto con el título de Púrpura de la Torre del Sabio. Es un artefacto perteneciente a la bruja Eucaletus, que vivía en el Pantano de la sabiduría. El poder que despliega depende de la habilidad de quien lo posee. Para algunos, puede ser una fuente ilimitada de maná. Es perfecto para Aisha, quien usa potentes cañones mágicos."
+    }
+  },
+  "s4": {
+    "name": "Amplificador Mistico",
+    "description": "Luego de un golpe crítico, causa  {0}  Daño Magico adicional al enemigo.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "el Daño se incrementa en un 40%.",
+    "dark": "Ignora el Bloqueo enemigo."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Oportunidad Crit +100",
+    "dark": "Cada habilidad acumula Obscuridad. Cada pila aumenta su regeneración de Mana por segundo en un 6% y aumenta su Daño Crit en un 2%. (El número máximo de la pila es 50)"
+  }
+}

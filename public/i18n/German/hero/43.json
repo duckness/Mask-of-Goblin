@@ -1,0 +1,120 @@
+{
+  "name": "Viska",
+  "subtitle": "Dämonenverschlinger",
+  "description": "Ein abtrünniger Dämon, der andere Dämonen verschlingt, um stärker zu werden. Sie reiste durch den Riss zwischen den Dimensionen, um mächtige Dämonen in der Materiellen Welt zu jagen. Ihre Stacheln reißen klaffende Wunden in ihre Feinde.",
+  "story": "Eine Rebellin unter den Dämonen, die ihre eigene Macht vergrößert, in dem sie andere, mächtige Dämonen verschlingt. Sie verkörpert alles, wofür ein Dämon im schlimmsten Sinne steht. Sie überquerte den Dimensionsriss, um die Dämonen auf dem Weg ins Erdenreich aufzuspüren und zu verschlingen. Sie limitierte sich selbst in ihrer Macht und nahm die Gestalt eines kränklichen jungen Mädchens an, um ihre Opfer noch mehr zu demütigen. Sie hasst Schwächlinge, die sich für stark halten. Auf der anderen Seite respektiert sie jene, die ihre eigenen Schwächen eingestehen und ihr Leben auf der Suche nach Stärke riskieren.",
+  "like": "Gegen mächtige Dämonen kämpfen und sie anschließend verschlingen",
+  "dislike": "Schwächlinge",
+  "inn": {
+    "idle": "Häh, keine Dämonen? Aber ich hab doch Hunger...",
+    "recruit": {
+      "greet": "Hallooo? Irgendwelche Snacks? Oder vielleicht Dämonen?",
+      "talk": [
+        "Wenn sie nicht bald was zu essen findet, wird sie echt unangenehm. Ach, schon gut. Hahaha... puh.",
+        "Ich hab immer noch Hunger... Hey, weisst du vielleicht, ob sich hier ein paar starke Dämonen rumtreiben?",
+        "Das hier? Das ist das Siegel des Dämonenvertrages, mehr weiss ich auch nicht."
+      ],
+      "gift": "Was ist das? Kann man das essen?"
+    },
+    "affinity": {
+      "greet": "Oh, rieche ich da etwas Köstliches?",
+      "talk": [
+        "Ich bin hungrig ... hast du etwas Gutes zu essen? Nichts? Wirklich?",
+        "Dämonenseelen sind das Beste, aber normales Essen ist auch ziemlich gut!"
+      ],
+      "gift": "Etwas Gutes! Etwas Gutes!"
+    },
+    "relationship": {
+      "greet": "Hey du. Ich bin immer noch hungrig, weißt du...",
+      "talk": [
+        "Ich? Ich bin nur ein Mädchen aus dem Dorf... das von einem Dämon besessen ist. Nicht mehr und nicht weniger.",
+        "Im Kampf? Ah, das ist Viska, die Dä­mo­nin in mir. Normalerweise lässt sie mich meinen Körper kontrollieren, aber wenn wir kämpfen...",
+        "Ich habe kein Problem damit, Dämonen zu verzehren. Sie verdienen es... und naja, wir beide sind jetzt eins..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Kitrax, die Alptraumkralle",
+    "description": [
+      "Feinde, deren Seele gestohlen wurde, erhalten 25% extra M.Schaden. Dauert 10 Sek an.",
+      "Feinde, deren Seele gestohlen wurde, erhalten 30% extra M.Schaden. Dauert 10 Sek an.",
+      "Feinde, deren Seele gestohlen wurde, erhalten 36% extra M.Schaden. Dauert 10 Sek an.",
+      "Feinde, deren Seele gestohlen wurde, erhalten 43% extra M.Schaden. Dauert 10 Sek an.",
+      "Feinde, deren Seele gestohlen wurde, erhalten 51% extra M.Schaden. Dauert 10 Sek an.",
+      "Feinde, deren Seele gestohlen wurde, erhalten 60% extra M.Schaden. Dauert 10 Sek an."
+    ],
+    "story": "Alptraum Kitrax war als beste und schrecklichste unter den Sukkuben bekannt. Nachdem Viska Kitrax im Ganzen und mit Seele verschlungen hatte, erzeugte sie daraufhin ihre mächtigste Waffe. Dieser Stachel ist die Verkörperung von Angst und Verzweiflung. Der Tod ist das einzige Schicksal seiner unglücklichen Opfer. Er injiziert fortwährend Angst in die Seele des Opfers, wodurch selbst die fähigsten Feinde nur mehr leichte Beute darstellen."
+  },
+  "s1": {
+    "name": "Zeit zum Essen!",
+    "description": "Fügt Feinden in Reichw. {0} M.Schaden zu und verringert ihre ANG 10 Sek lang um {1}%, während die eigene ANG um {2} steigt. Ist der Held im Besitz von 3 Seelen, wird der Feind für 3 Sek gefesselt.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht ANG-Erhöhungsrate um {0}%."
+    },
+    "light": "Reduziert Cooldown um 4 Sek für 1 extra Mana.",
+    "dark": "Seelenbedingung für Gefesselt-Effekt aufgehoben."
+  },
+  "s2": {
+    "name": "Ich schlitz' dich auf!",
+    "description": "Bewegt sich hinter das Ziel, entfernt alle Stärkungszauber, fügt ihm {0} M.Schaden zu und wirft ihn zu Boden. Ist der Held im Besitz von 3 Seelen, wird die M.VERT des Ziels um {1}% verringert.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht M.Schadensempfindlichkeit um {0}% während der Wirkungsdauer."
+    },
+    "light": "Reduziert Manakosten um 1.",
+    "dark": "Seelenbedingung für Verringerung der M. VERT aufgehoben.",
+    "ut": {
+      "name": "Klaue der wütenden Bestie",
+      "description": [
+        "[Ich schlitz' dich auf!] Verringert den Cooldown um 30 % und fügt 8 % M.VERT-Verringerung hinzu.",
+        "[Ich schlitz' dich auf!] Verringert den Cooldown um 30 % und fügt 10 % M.VERT-Verringerung hinzu.",
+        "[Ich schlitz' dich auf!] Verringert den Cooldown um 30 % und fügt 12 % M.VERT-Verringerung hinzu.",
+        "[Ich schlitz' dich auf!] Verringert den Cooldown um 30 % und fügt 14 % M.VERT-Verringerung hinzu.",
+        "[Ich schlitz' dich auf!] Verringert den Cooldown um 30 % und fügt 17 % M.VERT-Verringerung hinzu.",
+        "[Ich schlitz' dich auf!] Verringert den Cooldown um 30 % und fügt 20 % M.VERT-Verringerung hinzu."
+      ],
+      "story": "Klaue der gewalttätigen magischen Bestie Urgol, die ihren Opfern die Seelen herausbeißen können soll. Am Tag, als Viska beschloss, in der materiellen Welt zu jagen, verschlang sie Urgol aus der Dämonenwelt. Zusammen mit ihrer Fähigkeit, die Kräfte von anderen zu absorbieren, kam sie so zu großer Macht. Die Klaue ist außerdem notwendig, um Dämonen zu verschlingen, die in die materiellen Welt auftauchen."
+    }
+  },
+  "s3": {
+    "name": "Ich reiß' dich in Stücke!",
+    "description": "Fügt Feinden in einem großen, kreisförmigen Gebiet {0} M.Schaden zu und betäubt sie für 3 Sek. Sind 5 Seelen im Besitz, werden alle Seelen verbraucht und der Cooldown-Timer zurückgesetzt.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Feinde in Reichw. werden herangezogen, bevor der Skill verwendet wird."
+    },
+    "light": "Kann aktiviert werden, ohne die 5 Seelen zu konsumieren.",
+    "dark": "Reduziert Manakosten um 1.",
+    "ut": {
+      "name": "Seele des Riesendämons",
+      "description": [
+        "[Ich reiß' dich in Stücke!] Erhält bei Aktivierung Immunität gegen Effekte und erhöht Schaden bei jeder Nutzung um 4%. Effekt kann sich bis zu max. 10 Mal kumulieren.",
+        "[Ich reiß' dich in Stücke!] Erhält bei Aktivierung Immunität gegen Effekte und erhöht Schaden bei jeder Nutzung um 4,8%. Effekt kann sich bis zu max. 10 Mal kumulieren.",
+        "[Ich reiß' dich in Stücke!] Erhält bei Aktivierung Immunität gegen Effekte und erhöht Schaden bei jeder Nutzung um 5,8%. Effekt kann sich bis zu max. 10 Mal kumulieren.",
+        "[Ich reiß' dich in Stücke!] Erhält bei Aktivierung Immunität gegen Effekte und erhöht Schaden bei jeder Nutzung um 7%. Effekt kann sich bis zu max. 10 Mal kumulieren.",
+        "[Ich reiß' dich in Stücke!] Erhält bei Aktivierung Immunität gegen Effekte und erhöht Schaden bei jeder Nutzung um 8,4%. Effekt kann sich bis zu max. 10 Mal kumulieren.",
+        "[Ich reiß' dich in Stücke!] Erhält bei Aktivierung Immunität gegen Effekte und erhöht Schaden bei jeder Nutzung um 10%. Effekt kann sich bis zu max. 10 Mal kumulieren."
+      ],
+      "story": "Kristalline Form der Seele des Großdämonen Curapis, der die Kraft besitzt, riesig anzuwachsen. Er war einer der ersten Dämonen, die Viska in der Dämonenwelt jagte und man sagt, dass er seinen mächtigen Körper dazu nutzte, um seine Feinde zu dominieren. Im Kampf geht es jedoch nicht nur um Kraft allein – man muss auch seinen Kopf benutzen. Der riesige Dämon wurde besiegt und von einer Räuberin gefressen, die ihr Gehirn benutzte. Viska erhielt die Kraft des Riesenwachstums und kann sie nun jederzeit einsetzen."
+    }
+  },
+  "s4": {
+    "name": "Lecker, Seelen!",
+    "description": "Gegner, die mit Viskas Skills angegriffen werden, verlieren Seelen. Bei jeder verlorenen Seele erleidet das Ziel {0} zusätzlichen M. Schaden und für jede gesammelte Seele, werden Viskas TP um {1} geheilt und Mana um 300 wiederaufgefüllt. Seelen bestehen solange, bis sie genutzt werden, können nicht abgewehrt und bis zu 5 Mal kumuliert werden.",
+    "books": {
+      "0": "Schaden und Erholungsrate um {0}% erhöht.",
+      "1": "Schaden und Erholungsrate um {0}% erhöht.",
+      "2": "Feinde ohne Seele verlieren {0} Mana."
+    },
+    "light": "Feinde, deren Seelen gestohlen wurden, haben 10 Sek. lang um 250 reduzierten Effekt-Widerstand.",
+    "dark": "Für jede Seele wird ANG um 10% erhöht."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / Krit. Chance +100",
+    "dark": "Für jede Seele im Besitz werden Krit. Trefferchance um 50 und Krit. Schaden um 30 % erhöht."
+  }
+}

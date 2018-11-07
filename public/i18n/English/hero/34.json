@@ -1,0 +1,120 @@
+{
+  "name": "Annette",
+  "subtitle": "Royal Technomagi",
+  "description": "A genius technomagi hoping for the day everyone gains access to magic. Her technomagical golem acts as her weapon, blasting the enemy away.",
+  "story": "A genius technomagi from the Kingdom of Orvelia. She is highly optimistic, and failure never seems to bother her. She dreams of inventing a device that would allow anyone to handle magic one day. She has a magically engineered assistant whom she brought to life after years of research. Following the arrival of the Demons, she incorporated her research into developing weapons that would allow anyone to fight against the invaders.",
+  "like": "Technomagic, research funds",
+  "dislike": "People who look down on Technomagic",
+  "inn": {
+    "idle": "Wow, people everywhere! Very different from my lab at the castle!",
+    "recruit": {
+      "greet": "Hello~ Does technomagic interest you?",
+      "talk": [
+        "Everyone has a right to magic! I just want to kickstart that!",
+        "The royal palace does give me a lot of research funding...but it's still lacking!",
+        "Huh? These eggs look kinda like my cutie here!"
+      ],
+      "gift": "Hehe! Thanks for the donation to the research funds!"
+    },
+    "affinity": {
+      "greet": "Experiments, experiments, such fun experiments! Huh? Hello!",
+      "talk": [
+        "These cuties are growing well! They'll be able to go out to the field soon!",
+        "1 cutie for each person! How's it?"
+      ],
+      "gift": "Heh heh, I'll get lots of funds...!"
+    },
+    "relationship": {
+      "greet": "Hi! Did you study a lot today?",
+      "talk": [
+        "Yeaaaaah!! Now, let's go and do an experiment based on my latest thesis!",
+        "I've gotten a raise on my research fees! Thanks to that, I can do much more in my laboratory!",
+        "I want to share my cuties with everyone!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Crystallized Technomagic, Rascal",
+    "description": [
+      "Every 1.5 sec, gains 1 stack of Charge and recovers 1% mana.",
+      "Every 1.4 sec, gains 1 stack of Charge and recovers 1% mana.",
+      "Every 1.3 sec, gains 1 stack of Charge and recovers 1% mana.",
+      "Every 1.1 sec, gains 1 stack of Charge and recovers 1% mana.",
+      "Every 0.9 sec, gains 1 stack of Charge and recovers 1% mana.",
+      "Every 0.7 sec, gains 1 stack of Charge and recovers 1% mana."
+    ],
+    "story": "The essence of technomagic, created based on Annette's theory. Five of the highest-ranking court wizards of Orvel have poured their energy into creating this magical being. It has its own will, making it capable of making independent decisions and acting on them. While it shares its mana with Annette, it can also utilize any other available mana nearby. As such, it is the first great milestone in Annette's effort to make magic available to all."
+  },
+  "s1": {
+    "name": "Blasting Ray",
+    "description": "Attacks enemies in a straight line, dealing {0} M.DMG, and hit enemies take {1}% increased M.DMG. If the skill is used when in Overcharge state, deals {2} extra M.DMG, and hit enemies take {3}% increased M.DMG.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Upon use, the amount of Charge gained is increased by 30%."
+    },
+    "light": "Target takes 25% increased M.DMG for 10 sec.",
+    "dark": "Charge amount is boosted by 40% upon use."
+  },
+  "s2": {
+    "name": "Emergency Treatment",
+    "description": "Dispels negative effects of all allies and heals a total of {0} HP for 10 sec while increasing CC Resistance by 250. While Overcharged, all allies' Crit Chance is increased by {1} and gains immunity to CC.",
+    "books": {
+      "0": "Heal rate is increased by {0}%.",
+      "1": "Heal rate is increased by {0}%.",
+      "2": "Upon use, the amount of Charge gained is increased by 30%."
+    },
+    "light": "Cooldown is reduced by 3 sec.",
+    "dark": "Charge amount is boosted by 40% upon use.",
+    "ut": {
+      "name": "Script of Healing",
+      "description": [
+        "[Emergency Treatment] Reduces Mana Cost by 1 and increases Heal Rate by 20%.",
+        "[Emergency Treatment] Reduces Mana Cost by 1 and increases Heal Rate by 24%.",
+        "[Emergency Treatment] Reduces Mana Cost by 1 and increases Heal Rate by 29%.",
+        "[Emergency Treatment] Reduces Mana Cost by 1 and increases Heal Rate by 35%.",
+        "[Emergency Treatment] Reduces Mana Cost by 1 and increases Heal Rate by 42%.",
+        "[Emergency Treatment] Reduces Mana Cost by 1 and increases Heal Rate by 50%."
+      ],
+      "story": "A healing script for emergencies. It's a product of the secret society of magic engineering, Babel's workshop for the month, 'Battles are Self-serve! Winning scripts in Mechanic Script Battles.' Created by Annette, it's a skill that can heal allies just through engineering, without borrowing any healing magic powers."
+    }
+  },
+  "s3": {
+    "name": "Process of Elimination",
+    "description": "Fires an exploding energy ball to a random target and nearby enemies in rage, dealing a total of {0} M.DMG. When in Overcharge state, deals a total of {1} M.DMG and inflicts Stun for 5 sec upon explosion.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Upon use, the amount of Charge gained is increased by 30%."
+    },
+    "light": "DMG is increased by 40%.",
+    "dark": "Target takes 25% increased M.DMG.",
+    "ut": {
+      "name": "Code of Annihilation",
+      "description": [
+        "[Process of Elimination] DMG is increased by 20% and upon ATK, gains 2 stack of Charge. This stack can be gained while in Overcharge state.",
+        "[Process of Elimination] DMG is increased by 24% and upon ATK, gains 2 stack of Charge. This stack can be gained while in Overcharge state.",
+        "[Process of Elimination] DMG is increased by 29% and upon ATK, gains 2 stack of Charge. This stack can be gained while in Overcharge state.",
+        "[Process of Elimination] DMG is increased by 35% and upon ATK, gains 2 stack of Charge. This stack can be gained while in Overcharge state.",
+        "[Process of Elimination] DMG is increased by 42% and upon ATK, gains 2 stack of Charge. This stack can be gained while in Overcharge state.",
+        "[Process of Elimination] DMG is increased by 50% and upon ATK, gains 2 stack of Charge. This stack can be gained while in Overcharge state."
+      ],
+      "story": "The top secret code of Babel, the secret society of magic engineering. Magic for normal people! The secret society of technomagi, Babel, is an anonymous society that dreams of making magic available to all. They have each provided a technomagical technique as a secret code, and they've only allowed the use of it to those who can decipher it. Annette deciphered a top secret code in 4 minutes and is using it in the annihilation process."
+    }
+  },
+  "s4": {
+    "name": "Charge",
+    "description": "Gains 1 stack of Charge every 0.5 sec, and gains 10 stacks of Charge per every orb of mana used. Upon the 100th Charge stacked, enters Overcharge state. When in Overcharge, ATK is increased by {0} for 15 sec and each auto attack reduces skill cooldown by 10%. All effects cannot be dispelled, and Charge will not stack during Overcharge state.",
+    "books": {
+      "0": "ATK boost is increased by {0}%.",
+      "1": "ATK boost is increased by {0}%.",
+      "2": "When Overcharged, ATK Spd is increased by {0}."
+    },
+    "light": "ATK boost is increased by 40%.",
+    "dark": "Overcharge duration is increased by 3 sec."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / ATK.Spd +100",
+    "dark": "When Overcharge activates, increase all allies Atk Spd by 200, and increase the ATK of all allies by 5% of Annette's ATK."
+  }
+}

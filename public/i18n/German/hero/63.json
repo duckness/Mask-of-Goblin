@@ -1,0 +1,120 @@
+{
+  "name": "Sonia",
+  "subtitle": "Blauer Orkan",
+  "description": "Ein Genie, welches sogar dem Turm der Weisen bekannt ist, ohne Mitglied zu sein. Ihr wurde der Titel 'die Blaue' verliehen, aber in Wahrheit ist sie ein von Menschen geschaffener Homunculus.\\Ihre Blitzkugeln hinterlassen nicht mal so etwas wie Asche.",
+  "story": "Ein Kampf-Homunculus, mit dem Herz von Vikal, der Blitzbestie als Innerstes, erschaffen von einem Zauberer Orvels. Nachdem sie während des Schöpfungsprozesses begann, sich selbst zu erkennen, floh sie aus dem Labor und verbrachte die nächsten Jahre in Ricardos Waisenhaus. Sie kann nach Belieben mächtige Blitzmagie wirken. Als Kampf-Homunculus verfügt sie außerdem über herausragende körperliche Fähigkeiten. Ungeachtet ihres Erscheinungsbilds als junges Mädchen ist sie eine irregeführte Kriegsmaschine, die nach der wahren Bedeutung ihres Daseins sucht. Die Zauberer im Turm der Weisen verliehen ihr den Titel 'Blau', um sie für ihre meisterhafte spruchlose Magie zu ehren. Und doch misstraut sie den Zauberern und hegt keinen Wunsch, mit dem Turm in Verbindung zu stehen.",
+  "like": "Mirianne und alle anderen im Waisenhaus",
+  "dislike": "Zauberer, Alchemisten",
+  "inn": {
+    "idle": "So viele Leute... huh... Mirianne, wo bist du?",
+    "recruit": {
+      "greet": "Eh, ich? Ehm...",
+      "talk": [
+        "Ich bin nur gut im Kämpfen, wirklich. Erwarte darüber hinaus nicht zu viel von mir.",
+        "Auch wenn ich kein Mensch bin, solltest du mich nicht unterschätzen.",
+        "Hör auf, mich anzustarren, sonst gebe ich dir einen Grund..."
+      ],
+      "gift": "Eh, für mich? Oh... ehm... d... danke..."
+    },
+    "affinity": {
+      "greet": "Hallo? Ich bin nur kurz vorbeigekommen.",
+      "talk": [
+        "Lass mich wissen, wenn du einen Trainingskampf möchtest. Könnte allerdings ziemlich wehtun! Du könntest einen Stromschlag bekommen!",
+        "Was? Mirianne ist auch hier?"
+      ],
+      "gift": "Wie? Für mich? Wirklich?"
+    },
+    "relationship": {
+      "greet": "Eh, du willst mit mir reden? Du bist echt seltsam...",
+      "talk": [
+        "Du willst mehr über mich wissen? Nun... ich habe dir doch schon gesagt, dass ich ein Homunculus bin.",
+        "Mein Kampfstil? Eh, ich nutze die Elektrizität im Kern meines Körpers, um...",
+        "Freunde und Familie? Oh... äh, Ricardo, Mirianne... und vielleicht... du?"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Sturmauge, Yanadis",
+    "description": [
+      "Schockzustand ist um 2 Sek verländert. Wenn ein sich im Schockzustand befindlicher Gegner mit normalen Angriffen attackiert wird, werden alle Cooldowns um 1.6% reduziert.",
+      "Schockzustand ist um 3 Sek verländert. Wenn ein sich im Schockzustand befindlicher Gegner mit normalen Angriffen attackiert wird, werden alle Cooldowns um 1,9% reduziert.",
+      "Schockzustand ist um 4 Sek verländert. Wenn ein sich im Schockzustand befindlicher Gegner mit normalen Angriffen attackiert wird, werden alle Cooldowns um 2,3% reduziert.",
+      "Schockzustand ist um 5 Sek verländert. Wenn ein sich im Schockzustand befindlicher Gegner mit normalen Angriffen attackiert wird, werden alle Cooldowns um 2,7% reduziert.",
+      "Schockzustand ist um 6 Sek verländert. Wenn ein sich im Schockzustand befindlicher Gegner mit normalen Angriffen attackiert wird, werden alle Cooldowns um 3,3% reduziert.",
+      "Schockzustand ist um 7 Sek verländert. Wenn ein sich im Schockzustand befindlicher Gegner mit normalen Angriffen attackiert wird, werden alle Cooldowns um 4% reduziert."
+    ],
+    "story": "Eine elektrische Sphäre, die von Sonia auf der Basis des Bestienkerns erschaffen wurde, der nun ihr eigenes Herz ist. Sie bewies großes Talent bei der Herstellung von Ausrüstung und dies ist die erste Waffe, die sie jemals gefertigt hatte. Ihre Stabilität lässt etwas zu wünschen übrig, was sich durch die schier überwältigende Elektrizität erklärt, die sie enthält. Der mächtige elektrische Sturm, der von dieser Waffe erzeugt wird, ist für jeden Feind gefährlich. Würde jemand anderer außer Sonia diese Waffe berühren, so würde er aufgrund der immensen Spannung umgehend gebraten werden."
+  },
+  "s1": {
+    "name": "Stromstoß!",
+    "description": "Blitze verursachen {0} M. Schaden an Zielen in Reichweite und erschaffen für 3 Sek. ein elektrisches Feld. Dieses verursacht über 10 Attacken hinweg insgesamt {1} M. Schaden und hat eine 25%-Chance den Gegner für 0,5 Sek. zu betäuben.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Reduziert Manakosten um 1.",
+    "dark": "Betäubungschance um 10% erhöht."
+  },
+  "s2": {
+    "name": "Stromkraft!",
+    "description": "Erhöht ANG 15 Sek. lang um {0} und alle VERT um {1}. Normale Angriffe haben eine 30%-Chance {2} zusätzlichen M. Schaden an 2 zufälligen Zielen zu verursachen und sie für 0,5 Sek. zu betäuben, während dieser Skill benutzt wird.",
+    "books": {
+      "0": "ANG und VERT sind um {0}% erhöht.",
+      "1": "ANG und VERT sind um {0}% erhöht.",
+      "2": "ANG und VERT sind um {0}% erhöht."
+    },
+    "light": "ANG und VERT um 40% erhöht.",
+    "dark": "Zusätzlicher Schadenseffekt wirkt jetzt auf allen Gegnern.",
+    "ut": {
+      "name": "Blitzzelt",
+      "description": [
+        "[Macht der Blitze!] Der Effekt kann nicht entfernt werden und erhöht die Chance, zusätzlichen Schaden von 10 % auszulösen.",
+        "[Macht der Blitze!] Der Effekt kann nicht entfernt werden und erhöht die Chance, zusätzlichen Schaden von 12 % auszulösen.",
+        "[Macht der Blitze!] Der Effekt kann nicht entfernt werden und erhöht die Chance, zusätzlichen Schaden von 14 % auszulösen.",
+        "[Macht der Blitze!] Der Effekt kann nicht entfernt werden und erhöht die Chance, zusätzlichen Schaden von 17 % auszulösen.",
+        "[Macht der Blitze!] Der Effekt kann nicht entfernt werden und erhöht die Chance, zusätzlichen Schaden von 21 % auszulösen.",
+        "[Macht der Blitze!] Der Effekt kann nicht entfernt werden und erhöht die Chance, zusätzlichen Schaden von 25 % auszulösen."
+      ],
+      "story": "Ein Umhang, den Mirianne für Sonia hergestellt hat, indem sie Gefahren getrotzt hat. Es gab eine Zeit, in der Sonias Kleidung durch die Explosion der Energie verbrannt wurden, die durch ihren Körper strömt. Mirianne sah dies und pflückte die Ereth-Pflanze, von der es heißt, sich wachse, wenn sie vom Blitz getroffen wird. Sie nahm eine Pflanzenfaser und machte einen Umhang daraus. Sonia sah an Miriannes Händen die von der Elektrizität verursachten Blasen und weinte lange Zeit leise vor sich hin. Ein Kleidungsstück, das Sonia allein gehört und nirgends sonst zu finden ist."
+    }
+  },
+  "s3": {
+    "name": "Elektrische Explosion!",
+    "description": "Verursacht mit 3 Angriffen insgesamt {0} M. Schaden an Gegnern in ringförmiger Reichweite. Verursacht dann eine Elektrische Explosion, die mit 3 Angriffen insgesamt {1} M. Schaden austeilt und für 5 Sek. betäubt.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Gewährt Effekt-Immunität während der Wirkungsdauer.",
+    "dark": "Erhöht Betäubungsdauer um 1 Sek.",
+    "ut": {
+      "name": "Herz des Baikal",
+      "description": [
+        "[Elektrische Explosion!] Fügt unter Schock stehenden Gegenern beim Angriff 100% des ANG als zusätzlichen M.Schaden zu und reduziert M.VERT und P.VERT des Ziels 5 Sek. lang um 10%.",
+        "[Elektrische Explosion!] Fügt unter Schock stehenden Gegenern beim Angriff 100% des ANG als zusätzlichen M.Schaden zu und reduziert M.VERT und P.VERT des Ziels 5 Sek. lang um 12%.",
+        "[Elektrische Explosion!] Fügt unter Schock stehenden Gegenern beim Angriff 100% des ANG als zusätzlichen M.Schaden zu und reduziert M.VERT und P.VERT des Ziels 5 Sek. lang um 14%.",
+        "[Elektrische Explosion!] Fügt unter Schock stehenden Gegenern beim Angriff 100% des ANG als zusätzlichen M.Schaden zu und reduziert M.VERT und P.VERT des Ziels 5 Sek. lang um 17%.",
+        "[Elektrische Explosion!] Fügt unter Schock stehenden Gegenern beim Angriff 100% des ANG als zusätzlichen M.Schaden zu und reduziert M.VERT und P.VERT des Ziels 5 Sek. lang um 21%.",
+        "[Elektrische Explosion!] Fügt unter Schock stehenden Gegenern beim Angriff 100% des ANG als zusätzlichen M.Schaden zu und reduziert M.VERT und P.VERT des Ziels 5 Sek. lang um 25%."
+      ],
+      "story": "Das Herz von Vikal, der eine „heilige Bestie“ genannt wird. Er frisst die Elemente des Lichts und der Dunkelheit auf der Welt, weshalb sein Herz vom Zusammenstoß der beiden Elemente voller Donner ist. Wenn jemand Ungelerntes es berühren sollte, würde er von dessen Macht absorbiert werden. Aber Sonia, die aus dem Kern des Blitzes geschaffen wurde, absorbierte diese Macht und erhielt Mana jenseits aller Vorstellung."
+    }
+  },
+  "s4": {
+    "name": "Stromschock",
+    "description": "Injiziere nicht unter Schock stehenden Gegnern mit jedem Angriff Elektrizität und erhöhe den erlittenen M. Schaden für 10 Sek. um {0}%. Elektrizität kann bis zu 30 MAl kumuliert werden. Der 30 Zähler verbraucht alle Elektrizität, um {1} M. Schaden zu verteilen und das Ziel für 7 Sek. zu schocken. Gegner, die im Schockzustand betäubt werden, haben eine erhöhte Betäubungsdauer von {2} Sek. und erleiden {3}% mehr M. Schaden.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Schockzustand ist um 2 Sek verlängert.",
+    "dark": "Erhält erhöhten M. Schaden' wird durch 'Erhält erhöhten K. und M. Schaden' ersetzt."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / ANG-Geschw. +100",
+    "dark": "15%-Chance beim Angriff zusätzlichen M. Schaden in Höhe von 10% der max. TP zu verursachen und Elektrizität zu injizieren."
+  }
+}

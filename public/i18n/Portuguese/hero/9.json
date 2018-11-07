@@ -1,0 +1,120 @@
+{
+  "name": "Epis",
+  "subtitle": "Demônio Sedutor",
+  "description": "Um demônio hedonista de sangue frio. Usando uma foice enorme, ela colhe as almas dos inimigos. Ela aparece de repente entre os inimigos, cortando tudo ao seu redor.",
+  "story": "Esta brincalhona e sedutora súcubo age de acordo com os seus impulsos. Como é esperado da sua linhagem Demoníaca, ela é uma hedonista impulsionada pelo que acha divertido e agradável. Mesmo durante a Guerra Demoníaca, ela optou por viajar sozinha em vez de se juntar à invasão. A seu ver, lutar junto a Kyle era interessante o suficiente para que ela traísse seu próprio povo. Mais tarde, quando conheceu Kasel, ela se juntou ao seu grupo de bom grado, sabendo que havia encontrado outra aventura divertida. Às vezes, quando encontra homens atraentes, ela os visita em seus sonhos.",
+  "like": "Qualquer coisa que atice o interesse ou a curiosidade",
+  "dislike": "Clima chato",
+  "inn": {
+    "idle": "Hm hmm hmm... (cantarolando)",
+    "recruit": {
+      "greet": "Você está livre hoje?",
+      "talk": [
+        "Você está com vergonha? Que fofo...",
+        "Para onde você está olhando agora? Não se preocupe, eu não contarei a ninguém.",
+        "Hmm... O quê? Você quer experimentar algo emocionante...?"
+      ],
+      "gift": "Oh, para mim? Ooh, e agora, o que você poderia querer em troca...?"
+    },
+    "affinity": {
+      "greet": "Boas vindas, camarada! Você fechou a porta?",
+      "talk": [
+        "Ah, o que você esperava? Ah, que esperteza.",
+        "Quer saber por que um demônio está se aliando aos humanos? É isso mesmo que parece? Ha ha."
+      ],
+      "gift": "Nada mal. Você parece saber um pouco sobre sedução. Então, será que isso faz você ser mais como eu?"
+    },
+    "relationship": {
+      "greet": "Hmm... baseado nas suas expressões, eu diria que você me encontrou nos seus sonhos ontem?",
+      "talk": [
+        "Aha... então, como foi o seu sonho? Foi o suficiente? Ou você gostaria de continuar de onde ele parou...?",
+        "Haaah... Tem uma coisa presa na minha mente. Fico pensando o tempo todo em você... Você sabe por quê?",
+        "Parece que essas roupas estão ficando mais apertadas. Será que ganhamos peso...? Você poderia dar uma olhada para mim no meu quarto?"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Guilhotina, a Sedutora",
+    "description": [
+      "Ao atacar, há 25% de chance de causar DAN.M equivalente a 80% de ATQ e aumenta o próprio ATQ em 2%. O efeito desse reforço de ATQ pode acumular até o máximo de 10 vezes.",
+      "Ao atacar, há 25% de chance de causar DAN.M equivalente a 96% de ATQ e aumenta o próprio ATQ em 2,4%. O efeito desse reforço de ATQ pode acumular até o máximo de 10 vezes.",
+      "Ao atacar, há 25% de chance de causar DAN.M equivalente a 115% de ATQ e aumenta o próprio ATQ em 2,9%. O efeito desse reforço de ATQ pode acumular até o máximo de 10 vezes.",
+      "Ao atacar, há 25% de chance de causar DAN.M equivalente a 138% de ATQ e aumenta o próprio ATQ em 3,5%. O efeito desse reforço de ATQ pode acumular até o máximo de 10 vezes.",
+      "Ao atacar, há 25% de chance de causar DAN.M equivalente a 165% de ATQ e aumenta o próprio ATQ em 4,2%. O efeito desse reforço de ATQ pode acumular até o máximo de 10 vezes.",
+      "Ao atacar, há 25% de chance de causar DAN.M equivalente a 200% de ATQ e aumenta o próprio ATQ em 5%. O efeito desse reforço de ATQ pode acumular até o máximo de 10 vezes."
+    ],
+    "story": "Uma foice letal que se ajusta ao seu portador, Epis. Ela ceifa as almas daqueles que se aproximam para admirar sua beleza. Criada a partir do interior do próprio corpo de Epis, a arma é bem parecida com o súcubo. A foice proporciona prazer extremo às suas vítimas antes de absorver sua energia vital. Parece que, de certa forma, Epis tentou mostrar algum tipo de bondade com essa arma."
+  },
+  "s1": {
+    "name": "Golpe de Absorção",
+    "description": "Causa {0} de DAN.M que ignora a defesa do alvo e recupera PV com base em {1}% do DAN causado.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "Se houver 1 inimigo, aumenta o DAN em 100%.",
+    "dark": "Ignora o bloqueio do inimigo."
+  },
+  "s2": {
+    "name": "Pesadelo",
+    "description": "Desloca-se para trás do inimigo mais longe e causa {0} de DAN.M. Inimigos atingidos ganham uma penalidade que os faz receber 30% de DAN.M adicional durante 10 segundos.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "Reduz o custo de mana em 1.",
+    "dark": "O consumo de mana aumenta em 1, e após o poder, 'Golpe de Absorção' for ativado. Não é possível usar quando não houver inimigos na área.",
+    "ut": {
+      "name": "Caixa do Súcubo",
+      "description": [
+        "[Pesadelo] Aumenta o DAN em 50% e atordoa o inimigo atingido por 2s.",
+        "[Pesadelo] Aumenta o DAN em 50% e atordoa o inimigo atingido por 2,4s.",
+        "[Pesadelo] Aumenta o DAN em 50% e atordoa o inimigo atingido por 2,9s.",
+        "[Pesadelo] Aumenta o DAN em 50% e atordoa o inimigo atingido por 3,5s.",
+        "[Pesadelo] Aumenta o DAN em 50% e atordoa o inimigo atingido por 4,2s.",
+        "[Pesadelo] Aumenta o DAN em 50% e atordoa o inimigo atingido por 5s."
+      ],
+      "story": "Caixa contendo a areia do sono da Rainha do Pesadelo. Uma caixa do Mundo dos Demônios contendo a areia mágica que faz as pessoas adormecerem. Quando o inimigo cai no sono, o item o ataca e causa DAN M. por meio de um pesadelo que não pode ser removido."
+    }
+  },
+  "s3": {
+    "name": "Baile do Diabo",
+    "description": "Causa {0} de DAN.M a todos os inimigos no alcance. Resiste a CM enquanto usar este poder.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Ao causar Acerto Crít., cura do herói o valor equivalente de {0}% do DAN."
+    },
+    "light": "Aumenta o DAN em 40%.",
+    "dark": "Reduz o DAN recebido em 50% enquanto este poder estiver ativado.",
+    "ut": {
+      "name": "Sapato da Sedução",
+      "description": [
+        "[Baile do Diabo] Reduz o custo de mana em 1, e aumenta o DAN em 20%.",
+        "[Baile do Diabo] Reduz o custo de mana em 1, e aumenta o DAN em 24%.",
+        "[Baile do Diabo] Reduz o custo de mana em 1, e aumenta o DAN em 29%.",
+        "[Baile do Diabo] Reduz o custo de mana em 1, e aumenta o DAN em 35%.",
+        "[Baile do Diabo] Reduz o custo de mana em 1, e aumenta o DAN em 42%.",
+        "[Baile do Diabo] Reduz o custo de mana em 1, e aumenta o DAN em 50%."
+      ],
+      "story": "Item valioso para a Epis. Quando Epis chegou ao mundo humano, gostou muito da cultura e participou de um baile de máscaras. A dança de uma garota usando sapatos de salto alto vermelhos chamou sua atenção e ela fez um acordo em troca dos sapatos. Epis usa seus sapatos sedutores e se deixa levar quando inflige dor nos seus inimigos com a sua dança."
+    }
+  },
+  "s4": {
+    "name": "Colheita",
+    "description": "Quanto um inimigo for morto por este herói, aumenta o ATQ em {1} , durante {0} segundos e reduz o tempo de recarga de todos os poderes em 30%.",
+    "books": {
+      "0": "Taxa de aumento de ATQ aumenta em {0}%.",
+      "1": "Taxa de aumento de ATQ aumenta em {0}%.",
+      "2": "Para cada morte, recupera um orbe de mana."
+    },
+    "light": "Cada acúmulo aumenta em 50% a Recuperação de Mana por segundo.",
+    "dark": "Enquanto os acúmulos forem maiores que 5, a Mana sempre estará em 100% e recargas serão reduzidas em um adicional de 1 segundo para cada seugndo."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / DAN Crít. +20%",
+    "dark": "Todos os ataques de Epis diminuem a DEF.M dos inimigos atingidos em 20%, durante 10 segundos. Aumenta o ATQ em 2% por cada inimigo atingido. Quantidade máxima de acúmulos: 10."
+  }
+}

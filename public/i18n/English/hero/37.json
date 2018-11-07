@@ -1,0 +1,120 @@
+{
+  "name": "Tanya",
+  "subtitle": "The Silencing Blade",
+  "description": "An elite assassin of the Laughing Masks, and a former colleague of Roi. In the past, she was a 'cleaner' that hunted down traitors. Her sharp katars never miss their mark.",
+  "story": "An assassin of the Laughing Mask, and Roi's colleague. Although she has a physical advantage over Roi as a Half-Elf, she lacks his worldly wisdom and his ability to connect with others, traits that made him crucial in large-scale operations. This has given her something of an inferiority complex. As the 'Cleaner' of the organization, she was tasked with eliminating any traitors. When Roi abandoned the organization, she set out to chase him to figure out his motivation, leaving all her other tasks behind. Her plans after finding him remain to be seen.",
+  "like": "Roi",
+  "dislike": "Roi, Laughing Mask, Half-Elf blood",
+  "inn": {
+    "idle": "....",
+    "recruit": {
+      "greet": "...Hmph.",
+      "talk": [
+        "...Don't talk to me.",
+        "...Do not attempt to converse with a woman who knows nothing but killing.",
+        "....*sigh*"
+      ],
+      "gift": "...I'll accept...for now."
+    },
+    "affinity": {
+      "greet": "...Hmm.",
+      "talk": [
+        "I refuse to work as a janitor...",
+        "...You might get killed anytime."
+      ],
+      "gift": "...I don't... need it..."
+    },
+    "relationship": {
+      "greet": "... So you came.",
+      "talk": [
+        "Sorry... I am not the talkative type.",
+        "No fun would come of talking to a person like me...",
+        "Why are you interested in someone like me...? I do not understand..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Demon of the Calm, Caethasis",
+    "description": [
+      "Each auto attack has a 10% chance to deal 200% of ATK as extra P.DMG to target, and turns into Stealth mode for 10 sec. Cooldown is 10 sec.",
+      "Each auto attack has a 12% chance to deal 240% of ATK as extra P.DMG to target, and turns into Stealth mode for 10 sec. Cooldown is 10 sec.",
+      "Each auto attack has a 14% chance to deal 290% of ATK as extra P.DMG to target, and turns into Stealth mode for 10 sec. Cooldown is 10 sec.",
+      "Each auto attack has a 17% chance to deal 350% of ATK as extra P.DMG to target, and turns into Stealth mode for 10 sec. Cooldown is 10 sec.",
+      "Each auto attack has a 20% chance to deal 420% of ATK as extra P.DMG to target, and turns into Stealth mode for 10 sec. Cooldown is 10 sec.",
+      "Each auto attack has a 25% chance to deal 500% of ATK as extra P.DMG to target, and turns into Stealth mode for 10 sec. Cooldown is 10 sec."
+    ],
+    "story": "The Demon War dates back to 100 years ago. During this war, the greatest threat to mankind was, without a doubt, the high-ranking Demon officers. Kaitasis, the Demon of the Calm, was especially dangerous among them. Countless wizards and priests were slaughtered by this Demon who specifically targeted magic users for their souls. Eventually, Kaitasis was defeated by Kyle, and its core was sealed away. However, years later, the core came into the possession of the Laughing Mask and it once again served as an instrument of death."
+  },
+  "s1": {
+    "name": "Target Sighted",
+    "description": "Moves behind the enemy with the lowest P.DEF and increase their P.DMG taken by {0}%, while knocking them down and inflicting {1} P.DMG. If in a Stealth state, stun said enemy for 6 sec. If not, gain Stealth for 10 sec. While in a Stealth State, Crit Rate and Dodge Rate rises by 50.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Crit Chance is increased by {0}."
+    },
+    "light": "Reduces the target's Heal Rate by 30%.",
+    "dark": "For 10 sec, target's P.Crit resistance is reduced by 250."
+  },
+  "s2": {
+    "name": "Blade Tornado",
+    "description": "Attacks nearby enemies 3 times and deals a total of {0} P.DMG, inflicting 1 stack of Bleed per each hit. If used in a Stealth state, target's heal rate is reduced by 70%, and Stealth is dispelled. If not, turns into Stealth mode for 10 sec. [Stealth] Crit Rate and Dodge Rate are increased by 50.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Crit Chance is increased by {0}."
+    },
+    "light": "If there is 1 enemy, DMG is increased by 100%.",
+    "dark": "Recovers 200 mana upon a Crit hit.",
+    "ut": {
+      "name": "Laughing Mask All-round Belt",
+      "description": [
+        "[Blade Tornado] Increases DMG by 20% and reduces Cooldown by 8% upon a Crit Hit.",
+        "[Blade Tornado] Increases DMG by 24% and reduces Cooldown by 8% upon a Crit Hit.",
+        "[Blade Tornado] Increases DMG by 29% and reduces Cooldown by 8% upon a Crit Hit.",
+        "[Blade Tornado] Increases DMG by 35% and reduces Cooldown by 8% upon a Crit Hit.",
+        "[Blade Tornado] Increases DMG by 42% and reduces Cooldown by 8% upon a Crit Hit.",
+        "[Blade Tornado] Increases DMG by 50% and reduces Cooldown by 8% upon a Crit Hit."
+      ],
+      "story": "A multi-purpose tool of Laughing Masks used for assassination. It is a unique item for Laughing Masks, known for their speed and efficiency in eliminating their targets. Optimized to the wearer's attacking patterns, it improves the handling of throwing weapons and enhances continuous attacks while casting Blade Tornado."
+    }
+  },
+  "s3": {
+    "name": "Whisper of Death",
+    "description": "Attacks random enemies 6 times and deals a total of {0} P.DMG, then deals one additional attack of {1} extra P.DMG. If used in Stealth state, dispels all enemies' buffs. If not, turns into Stealth mode for 10 sec. [Stealth] Crit Rate and Dodge Rate are increased by 50.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Crit Chance is increased by {0}."
+    },
+    "light": "Mana cost is increased by 1 orb but DMG is boosted by 100%.",
+    "dark": "Cooldown is reduced by 5 sec.",
+    "ut": {
+      "name": "Dagger of Silence",
+      "description": [
+        "[Whisper of Death] DMG is increased by 20% and upon use, immediately gains Stealth. If used in Stealth mode, ATK is increased by 20% for 10 sec.",
+        "[Whisper of Death] DMG is increased by 24% and upon use, immediately gains Stealth. If used in Stealth mode, ATK is increased by 20% for 10 sec.",
+        "[Whisper of Death] DMG is increased by 29% and upon use, immediately gains Stealth. If used in Stealth mode, ATK is increased by 20% for 10 sec.",
+        "[Whisper of Death] DMG is increased by 35% and upon use, immediately gains Stealth. If used in Stealth mode, ATK is increased by 20% for 10 sec.",
+        "[Whisper of Death] DMG is increased by 42% and upon use, immediately gains Stealth. If used in Stealth mode, ATK is increased by 20% for 10 sec.",
+        "[Whisper of Death] DMG is increased by 50% and upon use, immediately gains Stealth. If used in Stealth mode, ATK is increased by 20% for 10 sec."
+      ],
+      "story": "A dagger given to those who complete the first mission of the Laughing Mask. There's a rule that says that assassins should always carry the dagger that has traces of their target. The silent dagger that assassins carry like an amulet consistently whispers to them about death."
+    }
+  },
+  "s4": {
+    "name": "Silent Ambush",
+    "description": "Deals {0} additional P.DMG to the enemy and silences them for {1} sec upon a Critical Hit with the skill. If the target is not a Hero, deals {2} additional P.DMG that ignores DEF and reduces the target's ATK Spd by {4} for {3} sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Silence duration is increased by {0} sec."
+    },
+    "light": "Increases additional DMG against non-Hero enemies by 100%.",
+    "dark": "Increases Silence duration by 0.5 sec."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / Crit DMG +20%",
+    "dark": "Auto attack damage is boosted by 50% while in Stealth mode."
+  }
+}

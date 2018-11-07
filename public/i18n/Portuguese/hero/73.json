@@ -1,0 +1,120 @@
+{
+  "name": "Chase",
+  "subtitle": "Tipo 0",
+  "description": "Uma cobaia que perdeu seu passado, e um guerreiro que luta ferozmente com o seu poder abundante em batalha. Uma arma poderosa que destrói qualquer coisa que se coloca em seu caminho.",
+  "story": "Um homem que perdeu sua memória. Cobaia Tipo 0 que nasceu como parte de um experimento de aprimoramento humano feito pelo império. Como o primeiro tipo do Projeto Cavaleiros Malignos, criados apenas para matar, Chase, por meio de um contrato sigiloso com o império, foi enviado para assassinar a única sucessora do trono, Scarlet. No entanto, por motivos desconhecidos, ele se rebelou e partiu. Ele falhou em matar Scarlet e desapareceu, deixando os nobres que haviam encomendado o assassinato em apuros. Por fim, eles contrataram outro grupo de assassinos, o Máscara Sorridente, para matá-lo. No entanto, Scarlet já havia lhe dado um nome – Chase – e permitido que ele permanecesse ao seu lado.",
+  "like": "Scarlet, Demia, Clause e amigos o chamam por esse nome",
+  "dislike": "Lembrança do passado, número de cobaia.",
+  "inn": {
+    "idle": "Um clima desconhecido. Paisagens desconhecidas...",
+    "recruit": {
+      "greet": "Não me lembro de você.",
+      "talk": [
+        "Tem alguém aqui que me conhece?",
+        "Eu definitivamente sei que matei muita gente. Mas por quê...? Como?",
+        "Tinha alguém me observando hoje. Será que... alguém me conhece?"
+      ],
+      "gift": "Obrigado. É isso que provavelmente deveria dizer."
+    },
+    "affinity": {
+      "greet": "Hum...",
+      "talk": [
+        "Meu nome... O nome pelo qual me chamam... É por isso que lutarei por eles...",
+        "Meu nome é Chase... Chase... Meu nome é Chase agora..."
+      ],
+      "gift": "Posso... pegar isto...? Mesmo...?"
+    },
+    "relationship": {
+      "greet": "Não estou vendo ela. Se eu não encontrá-la logo, Demia vai ficar brava.",
+      "talk": [
+        "Eu sinto no meu corpo. O poder deles... Eles provavelmente tentaram me dominar sem me matar.",
+        "Ela me aceitou com tanta gentileza, mesmo eu tendo tentado matá-la... Ela me deu um nome... E ela se pôs diante de mim...",
+        "A Demia dá medo... O Cause é legal, mas ela dá medo às vezes. Mas, seja como for, ela é sempre gentil."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Monólito Lanceiro de Sangue",
+    "description": [
+      "Aumenta o próprio DAN Crít em 20%. Ao atacar automaticamente, causa DAN F. equivalente a 30% do ATQ com [Chama do Monólito] e recupera PV equivalente a 20% do DAN causado. Enquanto [Remover Limite] está ativo, o efeito [Chama do Monólito] fica dobrado.",
+      "Aumenta o próprio DAN Crít em 24%. Ao atacar automaticamente, causa DAN F. equivalente a 36% do ATQ com [Chama do Monólito] e recupera PV equivalente a 20% do DAN causado. Enquanto [Remover Limite] está ativo, o efeito [Chama do Monólito] fica dobrado.",
+      "Aumenta o próprio DAN Crít em 28%. Ao atacar automaticamente, causa DAN F. equivalente a 43% do ATQ com [Chama do Monólito] e recupera PV equivalente a 20% do DAN causado. Enquanto [Remover Limite] está ativo, o efeito [Chama do Monólito] fica dobrado.",
+      "Aumenta o próprio DAN Crít em 34%. Ao atacar automaticamente, causa DAN F. equivalente a 52% do ATQ com [Chama do Monólito] e recupera PV equivalente a 20% do DAN causado. Enquanto [Remover Limite] está ativo, o efeito [Chama do Monólito] fica dobrado.",
+      "Aumenta o próprio DAN Crít em 42%. Ao atacar automaticamente, causa DAN F. equivalente a 62% do ATQ com [Chama do Monólito] e recupera PV equivalente a 20% do DAN causado. Enquanto [Remover Limite] está ativo, o efeito [Chama do Monólito] fica dobrado.",
+      "Aumenta o próprio DAN Crít em 50%. Ao atacar automaticamente, causa DAN F. equivalente a 75% do ATQ com [Chama do Monólito] e recupera PV equivalente a 20% do DAN causado. Enquanto [Remover Limite] está ativo, o efeito [Chama do Monólito] fica dobrado."
+    ],
+    "story": "Uma arma para o Humano Aprimorado Tipo 0, feita após milhares de tentativas em um dos laboratórios do império. Tentando encontrar uma arma que pudesse suportar seu poder, o Humano Aprimorado Tipo 0 destruiu tudo assim que despertou no laboratório. Por fim, ele arrancou o chifre de um Canibal monstro, que era conhecido por ter engolido a Arrogância dos 7 pecados. Esse chifre passou pelas mãos dos melhores ferreiros do império e se tornou o Monólito Lanceiro de Sangue. A chama do pecado arde dentro da arma, e tudo que ela penetra passa a ser impossível de se curar. A sensação de golpear com essa arma é prazerosa o suficiente para fazê-lo se esquecer do seu apego persistente pela sua memória perdida."
+  },
+  "s1": {
+    "name": "Vou Acabar Com Você!",
+    "description": "Impede o alvo atingido de receber efeitos positivos por 4 segundos e ataca para causar {0} de DAN F., jogando o alvo para trás. Após 1 segundo, causa {1} de DAN F. a inimigos ao redor do alvo, atordoando-os por {2} segundos.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "DAN aumenta em {0}%."
+    },
+    "light": "Reduz o Custo de Mana em 1.",
+    "dark": "O alvo infligido recebe 25% a mais de DAN F. por 10 segundos."
+  },
+  "s2": {
+    "name": "Remover Limite",
+    "description": "Ao ser ativada, [Remover Limite] entra em vigor. Quanto ativada, consome {0}% do PV Atual para remover todos os efeitos negativos de si e causar {1} de DAN F. a inimigos próximos dentro de alcance. Enquanto [Remover Limite] está ativo, consome {2}% do PV Atual a cada 1 segundo, ganha Imunidade a CM e aumenta o DAN Crít em {3}% e a Vel de ATQ em {4}. O consumo de PV e o aumento de DAN Crít e de Vel de ATQ ficam mais fortes com o passar do tempo. Este efeito não pode ser removido e é automaticamente desativado quando o PV fica abaixo de 25%.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "DAN aumenta em {0}%."
+    },
+    "light": "Inimigos atingidos são atordoados por 2 segundos.",
+    "dark": "Consumo de PV por seg. aumenta em 100% e impulsos de Vel de ATQ e de DAN Crít são dobrados.",
+    "ut": {
+      "name": "Lenço da Lealdade",
+      "description": [
+        "[Remover Limite] Enquanto a habilidade durar, concede DAN F. em 40% de ATQ por segundo nos inimigos próximos e aumenta a Recuperação em 30%.",
+        "[Remover Limite] Enquanto a habilidade durar, concede DAN F. em 48% de ATQ por segundo nos inimigos próximos e aumenta a Recuperação em 30%.",
+        "[Remover Limite] Enquanto a habilidade durar, concede DAN F. em 58% de ATQ por segundo nos inimigos próximos e aumenta a Recuperação em 30%.",
+        "[Remover Limite] Enquanto a habilidade durar, concede DAN F. em 70% de ATQ por segundo nos inimigos próximos e aumenta a Recuperação em 30%.",
+        "[Remover Limite] Enquanto a habilidade durar, concede DAN F. em 84% de ATQ por segundo nos inimigos próximos e aumenta a Recuperação em 30%.",
+        "[Remover Limite] Enquanto a habilidade durar, concede DAN F. em 100% de ATQ por segundo nos inimigos próximos e aumenta a Recuperação em 30%."
+      ],
+      "story": "Um item dado a Chase por Scarlet. Ela fez isso por sentir pena dele pelo fato de ele não ter um nome. O nome de Chase está bordado em uma ponta do lenço. Não combina muito com o estilo dele, mas Chase carrega o item consigo o tempo todo. Ele perdeu sua memória e só descobriu quem era por meio do código de cobaia de experimento marcado em sua cintura. O momento em que alguém lhe chamou por um nome foi quando ele finalmente encontrou um objetivo de vida. Ele decidiu usar seu poder abundante para proteger aqueles que o fizeram se sentir vivo."
+    }
+  },
+  "s3": {
+    "name": "Combustão, Lança da Fúria",
+    "description": "Realiza uma Investida contra um inimigo, causando {0} de DAN F. e derrubando-o, e explode o chão ao redor de si para atacar 4 vezes, causando um total de {1} de DAN F. e infligindo Atordoar por {2} segundos. Recupera PV equivalente a {3}% do DAN.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "DAN aumenta em {0}%."
+    },
+    "light": "Ganha imunidade a CM durante o uso.",
+    "dark": "Aumenta a duração de Atordoar em 1 segundo.",
+    "ut": {
+      "name": "Ombreira Implacável",
+      "description": [
+        "[Combustão, Lança da Fúria] Reduz o Custo de Mana em 1 e aumenta o DAN em 20%.",
+        "[Combustão, Lança da Fúria] Reduz o Custo de Mana em 1 e aumenta o DAN em 24%.",
+        "[Combustão, Lança da Fúria] Reduz o Custo de Mana em 1 e aumenta o DAN em 29%.",
+        "[Combustão, Lança da Fúria] Reduz o Custo de Mana em 1 e aumenta o DAN em 35%.",
+        "[Combustão, Lança da Fúria] Reduz o Custo de Mana em 1 e aumenta o DAN em 42%.",
+        "[Combustão, Lança da Fúria] Reduz o Custo de Mana em 1 e aumenta o DAN em 50%."
+      ],
+      "story": "Ombreira usada por Chase em um dos seus ombros. Feita de minérios especiais difíceis de encontrar no Continente Orbis. Leve, mas extremamente robusta e inquebrável. Um item que Demia conseguiu obter para Chase devido ao carinho que Scarlet tem por ele. Demia não demonstrava muito, mas ficou intrigada pela forma com que Chase parecia ser normalmente tão ingênuo, embora se entusiasmasse tanto quanto se tratava de lutas. Demia o observou por um tempo e, certo dia, dando-lhe um tapinha no ombro, ela casualmente lhe deu a ombreira. Ela disse a ele que lutar era importante, mas que também era importante cuidar do próprio corpo."
+    }
+  },
+  "s4": {
+    "name": "Lembre-se Disso No Inferno",
+    "description": "Não é afetado por estatísticas de Roubar Vida. Em vez disso, aumenta o PV Máx em {0} , o Crít em {1} , o CM de PREC em {2} e a PREC em {3}. Se receber dano que vá levar à morte, ressuscita por {4} segundos, com DAN Crít aumentado em {5}% e Vel de ATQ aumentada em {6}. O efeito de ressurreição é ativado apenas uma vez por batalha e o Chase ressuscitado não pode usar habilidades.",
+    "books": {
+      "0": "O impulso de PV aumenta em {0}%.",
+      "1": "O impulso de PV aumenta em {0}%.",
+      "2": "O impulso de PV aumenta em {0}%."
+    },
+    "light": "Quando a ressurreição é ativada, aumenta o ATQ em 50%.",
+    "dark": "Quando a ressurreição é ativada, joga para trás os inimigos próximos dentro de alcance durante 3 segundos."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / DAN Crít. +20%",
+    "dark": "Para cada 1% de PV perdido, o DAN Crít aumenta em 1% e a Vel de ATQ aumenta em 4."
+  }
+}

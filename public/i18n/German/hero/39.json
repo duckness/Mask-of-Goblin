@@ -1,0 +1,120 @@
+{
+  "name": "Cassandra",
+  "subtitle": "Cassandra",
+  "description": "Eine Femme Fatale und Besitzerin der Goldenen Kneipe. Ihre leidenschaftliche, erotische Aura wird ihrem Ruf gerecht. Sie feuert ihre Verbündeten mit verführerischen Tänzen an.",
+  "story": "Sie ist die Besitzerin der 'Goldenen Kneipe', der größten und luxuriösesten Taverne in Vespia. Hinter ihrer protzigen Fassade dient die Taverne in Wahrheit als geheimer Treffpunkt der gesellschaftlichen Elite, an dem ein regelmäßiger Austausch von unbezahlbaren Geheiminformationen stattfindet. Ihr natürlicher Charme und ihre Wortgewandtheit lassen sie schnell persönliche Hindernisse überwinden und das Vertrauen Anderer gewinnen. Ihre wahre Identität ist die einer Händlerin geheimer Informationen und Waffen.",
+  "like": "Rotwein; Nüsse; protzige Fächer",
+  "dislike": "Unangenehme Kunden; Fettiges Haar; Schlechte Gerüche",
+  "inn": {
+    "idle": "Oh hallo, willkommen! Es ist zwar nicht mein Geschäft, aber...",
+    "recruit": {
+      "greet": "Flirtest du etwa mit mir? Chchch...",
+      "talk": [
+        "Noch eine Runde für mich, jaa? Oh und die Person hier übernimmt die Rechnung...",
+        "Waffeninfo? Hmm... ich habe nun wirklich keine Ahnung, wovon du redest...",
+        "Chch, du siehst aber glücklich aus heute. Ich frage mich, was passiert ist?"
+      ],
+      "gift": "Chch, das musste doch nicht sein... wie kann ich mich nur erkenntlich zeigen?"
+    },
+    "affinity": {
+      "greet": "Oh, hallo!",
+      "talk": [
+        "Ich hörte, dass manche Menschen Schnaps mit Wasser verdünnen ... *Seufz ...* Ich bin in Sorge.",
+        "Das ist mein Job, also ist mein Tag-Nacht-Rhythmus gestört. Ich bin so müde."
+      ],
+      "gift": "Oh! Danke, ich werde gute Verwendung dafür haben."
+    },
+    "relationship": {
+      "greet": "Hmm, ich habe gerade an dich gedacht. Du offensichtlich auch an mich... ?",
+      "talk": [
+        "Leute um den Finger zu wickeln ist meine Spezialität... aber keine Sorge, bei dir lasse ich es.",
+        "Verrate es keinem: Nicht nur hier im Königreich, auch in Orvelia gibt es viele gute Angebote... vor allem im königlichen Palast...",
+        "Auch wenn ich in Gesellschaft ein Glas Wein trinke... fühlt es sich oft so an, als wäre ich alleine. Aber mit dir ist das anders..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Goldenes Geflüster, Goldbreeze",
+    "description": [
+      "Der Verbündete mit den wenigsten TP, wird alle 15 Sek. um 200% des ANG geheilt und alle negativen Statuseffekte werden entfernt.",
+      "Der Verbündete mit den wenigsten TP, wird alle 14 Sek. um 240% des ANG geheilt und alle negativen Statuseffekte werden entfernt.",
+      "Der Verbündete mit den wenigsten TP, wird alle 12,5 Sek. um 290% des ANG geheilt und alle negativen Statuseffekte werden entfernt.",
+      "Der Verbündete mit den wenigsten TP, wird alle 11 Sek. um 350% des ANG geheilt und alle negativen Statuseffekte werden entfernt.",
+      "Der Verbündete mit den wenigsten TP, wird alle 9,5 Sek. um 420% des ANG geheilt und alle negativen Statuseffekte werden entfernt.",
+      "Der Verbündete mit den wenigsten TP, wird alle 8 Sek. um 500% des ANG geheilt und alle negativen Statuseffekte werden entfernt."
+    ],
+    "story": "Cassandra arbeitet nebenbei als Waffenhändlerin. Eines Tages gelangte sie in den Besitz eines gestohlenen Gegenstandes, der sofort ihre Aufmerksamkeit erregte. Es handelte sich dabei um einen schönen Fächer, verziert mit Gold und wertvollen Edelsteinen. Den Gerüchten zufolge überkam alle Frauen, denen dieser Fächer gehörte, großes Unglück. Als verfluchtes Objekt wechselte es daher oft seine Besitzer. Als Cassandra den Fächer erwarb, begann sie unverzüglich mit der Erforschung seiner Herkunft. Wie sich herausstellte wurde dieser Fächer, genannt Goldbreeze, als versteckte Waffe erschaffen. Es ist daher nicht allzu schwierig, sich vorzustellen, welches Unglück die Besitzerinnen des Fächers überkommen haben muss."
+  },
+  "s1": {
+    "name": "Vorsichtig~",
+    "description": "Heilt alle Verbündeten um {0} TP und verursacht M.Schaden in Höhe von {1} an allen Feinden. Getroffene Feinde werden 5 Sek lang zum Schweigen gebracht.",
+    "books": {
+      "0": "Heilung und Schaden werden um {0}% erhöht.",
+      "1": "Heilung und Schaden werden um {0}% erhöht.",
+      "2": "Stille-Dauer um {0} Sek erhöht."
+    },
+    "light": "Geheilte Verbündete erhalten ANG-Geschw. Boost von 200 für 10 Sek.",
+    "dark": "Getroffene Feinde verlieren 200 Mana/Sek für 5 Sek."
+  },
+  "s2": {
+    "name": "Heftig!",
+    "description": "Erhöht den ANG deiner Verbündeten um {0} für 15 Sek. und ihre Krit. Chance um {1}.",
+    "books": {
+      "0": "Erhöht ANG um {0}%.",
+      "1": "Erhöht ANG um {0}%.",
+      "2": "Erhöht ANG um {0}%."
+    },
+    "light": "Erhöht ANG-Boost um 40%.",
+    "dark": "Reduziert Manakosten um 1.",
+    "ut": {
+      "name": "Schickes Ornament",
+      "description": [
+        "[Heftig!] Erhöht die Dauer um 5 Sek. und den krit. Schaden um 20 %.",
+        "[Heftig!] Erhöht die Dauer um 5 Sek. und den krit. Schaden um 24 %.",
+        "[Heftig!] Erhöht die Dauer um 5 Sek. und den krit. Schaden um 29 %.",
+        "[Heftig!] Erhöht die Dauer um 5 Sek. und den krit. Schaden um 35 %.",
+        "[Heftig!] Erhöht die Dauer um 5 Sek. und den krit. Schaden um 42 %.",
+        "[Heftig!] Erhöht die Dauer um 5 Sek. und den krit. Schaden um 50 %."
+      ],
+      "story": "Ein luxuriöses Accessoire, das vom größten Juwelier auf dem Kontinent hergestellt wurde. Ein Schmuckstück in limitierter Auflage, gefertigt von Juwelier Larik. Jeder in der High Society auf dem Orbis-Kontinent hätte gern eines davon. Seine Arbeit soll der Inbegriff des Kunsthandwerks sein sowie den Träger heilen und ihm Mut verleihen. Es gibt nur 3 dieser streng limitierten Schmuckstücke und eines davon gehört natürlich dem Meister der Goldenen Kneipe."
+    }
+  },
+  "s3": {
+    "name": "Verführerische Welle",
+    "description": "Erteilt {0} M. Schaden an dem Gegner mit dem höchsten ANG. Falls der Gegner ein Held ist und der Skill in der Arena benutzt wird, wird er für 7. Sek bezaubert. Wenn der Skill in der Arena benutzt wird, verursacht er {1}% zusätzlichen M. Schaden. Bezauberte Gegner greifen ihre Verbündeten mit normalen Angriffen an und können keine Skills benutzen.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Bezaubert-Dauer um {0} Sek erhöht."
+    },
+    "light": "Ziel erleidet 10 Sek lang 25% extra M.Schaden.",
+    "dark": "Reduziert Manakosten um 1.",
+    "ut": {
+      "name": "Goldduft",
+      "description": [
+        "[Verführerische Welle] Reduziert Skill-Cooldown um 30% und erhöht Bezaubert-Dauer um 1 Sek.",
+        "[Verführerische Welle] Reduziert Skill-Cooldown um 30% und erhöht Bezaubert-Dauer um 1,5 Sek.",
+        "[Verführerische Welle] Reduziert Skill-Cooldown um 30% und erhöht Bezaubert-Dauer um 2 Sek.",
+        "[Verführerische Welle] Reduziert Skill-Cooldown um 30% und erhöht Bezaubert-Dauer um 2,5 Sek.",
+        "[Verführerische Welle] Reduziert Skill-Cooldown um 30% und erhöht Bezaubert-Dauer um 3 Sek.",
+        "[Verführerische Welle] Reduziert Skill-Cooldown um 30% und erhöht Bezaubert-Dauer um 3,5 Sek."
+      ],
+      "story": "Eine legendäre goldene Flammenhalskette. Der legendäre Goldkönig schuf diese goldene Flammenhalskette, um die Aufmerksamkeit der Göttin von Liebe und Schönheit zu erregen. Ihr goldener Geruch erschafft eine Verführerische Welle, die jeden dazu bringt, sich auf die Seite des Trägers zu stellen und ihn zu verehren."
+    }
+  },
+  "s4": {
+    "name": "Sanfte Berührung",
+    "description": "Bei jedem Kampf sind die Manakosten des ersten Skills um 2 reduziert. Erhöht außerdem die VERT aller Verbündeten um {0} für 5 Sek.",
+    "books": {
+      "0": "Erhöht VERT um {0}%.",
+      "1": "Erhöht VERT um {0}%.",
+      "2": "Erhöht VERT um {0}%."
+    },
+    "light": "Reduziert allen erlittenen Schaden Verbündeter 5 Sek lang um 20%.",
+    "dark": "Verlängert die Effektdauer der VERT-Erhöhung um 5 Sek."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / ANG-Geschw. +100",
+    "dark": "Gewährt zu Beginn der Schlacht einem zufälligen Helden Schadensimmunität für 3 Sek."
+  }
+}

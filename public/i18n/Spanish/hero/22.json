@@ -1,0 +1,120 @@
+{
+  "name": "Rodina",
+  "subtitle": "Francotirador Tormenta de Nieve",
+  "description": "Ella es un francotirador de un imperio situado en un ambiente extremadamente frío. Ella apunta con calma, no importa la circunstancia. Cuanto más se enfoca, más poderosa se vuelve.",
+  "story": "La mejor francotiradora del imperio y amante de los osos. Le gustan tanto que siempre utiliza accesorios para que parezca que lleva orejas de oso en su sombrero. Por tanto, a veces, caza tigres, pero nunca dispara a un oso. Aunque sus habilidades de tiro son más útiles para asesinar, ella juró nunca usarla por motivos injustos. En cambio, las utiliza para proteger a los demás. Actualmente, vive con Pavel en la Montaña nevada de tierras del viento como su guardia personal delegado por el imperio.",
+  "like": "Osos, osos polares, osos pardos, osos pequeños, osos grandes",
+  "dislike": "Aquellos que no valoran vivir",
+  "inn": {
+    "idle": "Preparativos para el próximo viaje ~ hmhmhm ~ (tarareando)",
+    "recruit": {
+      "greet": "¡Saludos! Que tengas un buen día",
+      "talk": [
+        "Come bien, lucha bien !!",
+        "He oído que los Hongos a la parrilla son deliciosos? Voy a comer uno, yay!",
+        "¿Te gustan las verduras? ¡Las amo!"
+      ],
+      "gift": "¡¡Gracias!! Gracias por las comidas !!"
+    },
+    "affinity": {
+      "greet": "¡Oh, gracias por la invitación!",
+      "talk": [
+        "¡Tengo hambre! Por favor, dame comida.",
+        "¡Vegetales! ¡Hongos!"
+      ],
+      "gift": "¡Gracias por la comida!"
+    },
+    "relationship": {
+      "greet": "Ah !? Saludos !! No has comido todavía!",
+      "talk": [
+        "El arma de un soldado equivale a su vida! Te gustaría ver mi rifle?",
+        "El mago de escarcha que vive en la Caverna de Hielo es mucho más amable de lo que crees! A pesar de que intenta demostrar lo contrario!",
+        "El Sr. Fluss no está aquí? Gracias a él, la vida no es tan mala!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Fusil Personalizado Rodina Mod.0",
+    "description": [
+      "Cada ataque tiene un 20% de probabilidades de causar el equivalente al 200% de ATQ como Daño Fis. adicional y derribar al enemigo. Luego, la Precisión aumenta en 100 durante 10 segundos. Este efecto se puede acumular un máximo de 3 veces",
+      "Cada ataque tiene un 20% de probabilidades de causar el equivalente al 240% de ATQ como Daño Fis. adicional y derribar al enemigo. Luego, la Precisión aumenta en 100 durante 10 segundos. Este efecto se puede acumular un máximo de 3 veces",
+      "Cada ataque tiene un 20% de probabilidades de causar el equivalente al 288% de ATQ como Daño Fis. adicional y derribar al enemigo. Luego, la Precisión aumenta en 100 durante 10 segundos. Este efecto se puede acumular un máximo de 3 veces",
+      "Cada ataque tiene un 20% de probabilidades de causar el equivalente al 344% de ATQ como Daño Fis. adicional y derribar al enemigo. Luego, la Precisión aumenta en 100 durante 10 segundos. Este efecto se puede acumular un máximo de 3 veces",
+      "Cada ataque tiene un 20% de probabilidades de causar el equivalente al 414% de ATQ como Daño Fis. adicional y derribar al enemigo. Luego, la Precisión aumenta en 100 durante 10 segundos. Este efecto se puede acumular un máximo de 3 veces",
+      "Cada ataque tiene un 20% de probabilidades de causar el equivalente al 500% de ATQ como Daño Fis. adicional y derribar al enemigo. Luego, la Precisión aumenta en 100 durante 10 segundos. Este efecto se puede acumular un máximo de 3 veces"
+    ],
+    "story": "La esencia de la tecnología imperial más sofisticada. Requiere precisión sobrehumana, una persona normal no puede manipular este rifle. Ha sido encantado mágicamente para permitir que quien lo dispare vea distancias imposiblemente largas. Sin embargo, incluso la mejor mira de este mundo es inútil en las manos de alguien que no puede apuntar con ella. Por lo tanto, el rendimiento de este rifle depende significativamente de las habilidades de quien lo utiliza. Rodina, dotada de una vista impresionante y control preciso, es una dueña apropiada para este rifle. No se conformó y lo personalizó para su preferencia y lo nombró: Personalización de Rodina."
+  },
+  "s1": {
+    "name": "Fuego Penetrante",
+    "description": "Tras la activación, el personaje toma una postura y comienza a lanzar. Después de lanzar los extremos, causa {0} Daño Fis. sobre los enemigos en línea recta. El Daño aumenta en  {1}% en proporción al tiempo total del lanzamiento. Si el lanzamiento progresa más allá de la 3 ª etapa, derriba al enemigo",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Aumenta Daño Crit. en {0}%."
+    },
+    "light": "el Daño se incrementa en un 40%.",
+    "dark": "Obten inmunidad al Ctrl de Masas mientras usas dicha habilidad."
+  },
+  "s2": {
+    "name": "Objetivo",
+    "description": "El blanco recibe  {0}% de daño adicional de este héroe. Además, aumenta el ATQ en  {1}.",
+    "books": {
+      "0": "El poder de ATQ aumenta en  {0}%.",
+      "1": "El poder de ATQ aumenta en  {0}%.",
+      "2": "Aumenta Daño Crit. en {0}%."
+    },
+    "light": "La Veloc de ATQ aumenta en 250 durante el proceso",
+    "dark": "El costo de maná se reduce en 1.",
+    "ut": {
+      "name": "Soporte de cristal",
+      "description": [
+        "[Apuntar al objetivo] Cambia el objetivo a un enemigo aleatorio cuando muere el objetivo de Rodina, lo que aumenta el Ataque en un 20 % durante 10 segundos.",
+        "[Apuntar al objetivo] Cambia el objetivo a un enemigo aleatorio cuando muere el objetivo de Rodina, lo que aumenta el Ataque en un 24 % durante 10 segundos.",
+        "[Apuntar al objetivo] Cambia el objetivo a un enemigo aleatorio cuando muere el objetivo de Rodina, lo que aumenta el Ataque en un 29 % durante 10 segundos.",
+        "[Apuntar al objetivo] Cambia el objetivo a un enemigo aleatorio cuando muere el objetivo de Rodina, lo que aumenta el Ataque en un 35 % durante 10 segundos.",
+        "[Apuntar al objetivo] Cambia el objetivo a un enemigo aleatorio cuando muere el objetivo de Rodina, lo que aumenta el Ataque en un 42 % durante 10 segundos.",
+        "[Apuntar al objetivo] Cambia el objetivo a un enemigo aleatorio cuando muere el objetivo de Rodina, lo que aumenta el Ataque en un 50 % durante 10 segundos."
+      ],
+      "story": "Un apoyo de un rifle francotirador que Pavel fabricó para que sea acorde con el pequeño cuerpo de Rodina. Ha sido fabricado con cristales, por tanto es muy firme y robusto. Este soporte es suficiente para apuntar a cualquier objetivo."
+    }
+  },
+  "s3": {
+    "name": "Tiro Concentrado",
+    "description": "Dispara a 10 enemigos aleatoriamente. Causa {0} Daño Fis. y aumenta el daño en {1}% para cada ataque posterior.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Aumenta Daño Crit. en {0}%."
+    },
+    "light": "Reduce el tiempo de reutilización un 5% cuando se producen golpes críticos.",
+    "dark": "Ignora el Bloqueo enemigo.",
+    "ut": {
+      "name": "Barranco personalizado VII",
+      "description": [
+        "[Fuego concentrado] Aumenta el daño en un 20 % y causa daño ignorando la defensa del objetivo con los últimos 2 disparos.",
+        "[Fuego concentrado] Aumenta el daño en un 24 % y causa daño ignorando la defensa del objetivo con los últimos 2 disparos.",
+        "[Fuego concentrado] Aumenta el daño en un 29 % y causa daño ignorando la defensa del objetivo con los últimos 2 disparos.",
+        "[Fuego concentrado] Aumenta el daño en un 35 % y causa daño ignorando la defensa del objetivo con los últimos 2 disparos.",
+        "[Fuego concentrado] Aumenta el daño en un 42 % y causa daño ignorando la defensa del objetivo con los últimos 2 disparos.",
+        "[Fuego concentrado] Aumenta el daño en un 50 % y causa daño ignorando la defensa del objetivo con los últimos 2 disparos."
+      ],
+      "story": "Una escopeta que se solicitó al herrero legendario del imperio. Contiene pólvora hecha de un huevo robusto de una pita y el hueso de la mandíbula de una tortuga dragón. Se fabricó pequeña para que Rodina pueda utilizarla fácilmente, pero tiene el poder para destruir cualquier cosa."
+    }
+  },
+  "s4": {
+    "name": "Tiro Rapido",
+    "description": "Cada 10 segundos, hacer 2 ataques consecutivos y causar {0}  Daño Fis.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Aumenta Daño Crit. en {0}%."
+    },
+    "light": "Si hay 1 enemigo, el Daño se incrementa en un 100%.",
+    "dark": "Los enemigos golpeados quedan aturdidos durante 2 seg."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Oportunidad Crit +100",
+    "dark": "Aumenta el ataque en un 20 % durante 10 segundos y define 3 enemigos aleatorios como el objetivo de Rodina al inicio de cada batalla."
+  }
+}

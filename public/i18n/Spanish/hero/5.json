@@ -1,0 +1,120 @@
+{
+  "name": "Gau",
+  "subtitle": "Barbaro de Tierras Congeladas",
+  "description": "Un bárbaro que gobierna las llanuras nevadas de la tierra congelada, socava la moral de los enemigos con gritos de oído-ensordecedores y cargas en ellos como una tormenta.",
+  "story": "Gau es un poderoso guerrero del Reino Bárbaro. Siembre que utiliza sus hachas gemelas se produce un baño de sangre. Como un guerrero, era temido por su ferocidad inigualable. Sin embargo, de repente desapareció durante 10 años. Cuando regresó, era un hombre completamente distinto. Sus tendencias bárbaras desaparecieron, incluso cuando otros le criticaban. En cambio, ahora los enfrenta con sonrisas y carcajadas alegres. La cálida y amable mirada que ahora muestra a los niños y animales es especialmente sorprendente.",
+  "like": "Niños, animales",
+  "dislike": "Personas destructoras y violentas",
+  "inn": {
+    "idle": "Tienes algún asunto con un bárbaro?",
+    "recruit": {
+      "greet": "Encantado de conocerte. Vamos a cazar juntos algún día.",
+      "talk": [
+        "Me veo fuerte? Eh, deja de hacerme sonrojar.",
+        "Todas esas bellezas a tu alrededor, no hagas que me ponga celosa, amigo!",
+        "Soy realmente fuerte, hah."
+      ],
+      "gift": "Que es todo esto? Gracias, hombre."
+    },
+    "affinity": {
+      "greet": "Es un poco vergonzoso estar haciendo esto.",
+      "talk": [
+        "¿Has visto a Yanne últimamente? Me pregunto cómo está...",
+        "¿Qué? ¿Que de dónde conozco a Lewicia? Esa niña... Incluso a pesar de que es más grande... No es que va a funcionar solo porque me agrada..."
+      ],
+      "gift": "Gracias. La próxima vez, yo te regalaré algo."
+    },
+    "relationship": {
+      "greet": "Ha! Nos encontramos de nuevo! Todo bien?",
+      "talk": [
+        "Ah... Lei se ha convertido en una mujer especial... y pensar que su verdadera edad era... ¡jajaja!",
+        "Te haré pedazos! - Bueno, que tal estuvo? Los niños se ríen cuando actúo así.",
+        "Jajaja, un viejo enano y yo bebimos mucho la última vez. De hecho, bebimos todo el alcohol de la Posada! Jajajaja !!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Ave Sagrada, Numinu",
+    "description": [
+      "Por cada 1% de Salud perdida, ATQ aumenta en 0.8% y la Velocidad de ATQ aumenta en 8.",
+      "Por cada 1% de Salud perdida, ATQ aumenta en 1% y la Velocidad de ATQ aumenta en 10.",
+      "Por cada 1% de Salud perdida, ATQ aumenta en 1.2% y la Velocidad de ATQ aumenta en 12.",
+      "Por cada 1% de Salud perdida, ATQ aumenta en 1.4% y la Velocidad de ATQ aumenta en 14",
+      "Por cada 1% de Salud perdida, ATQ aumenta en 1.7% y la Velocidad de ATQ aumenta en 17.",
+      "Por cada 1% de Salud perdida, ATQ aumenta en 2% y la Velocidad de ATQ aumenta en 20."
+    ],
+    "story": "Se dice que ahí vive una bestia sagrada que protege a los bárbaros en la Montaña nevada de las tierras del viento. Esta bestia, capaz de romper el hechizo del poder de obscuridad, se supone que es un fénix azul compuesto de hielo. Creada en la forma de esta bestia es Numinu, su nombre verdadero significa “sagrado”. Ha sido fabricado a partir de un hielo encantado que nunca se derrite. El portador de esta arma es el guerrero más poderoso entre los bárbaros y tal vez sea considerado su rey."
+  },
+  "s1": {
+    "name": "Triturar",
+    "description": "Causa  {0}  Daño Fis. a los enemigos al alcance, y el primer ataque los derriba por  {1}  seg.",
+    "books": {
+      "0": "Aumenta Daño en {0}%.",
+      "1": "Aumenta Daño en {0}%.",
+      "2": "Aumenta Daño en {0}%."
+    },
+    "light": "El costo de maná se reduce en 1.",
+    "dark": "Cada uso aumenta el Daño en un 15%. Acumula 10 veces máx."
+  },
+  "s2": {
+    "name": "Rugido de Batalla",
+    "description": "Todos los aliados obtienen  {1}  ATQ por  {0}  seg. Tras la activación, elimine todos los efectos negativos de todos los aliados.",
+    "books": {
+      "0": "El Poder de Ataque aumenta en  {0}%.",
+      "1": "El Poder de Ataque aumenta en  {0}%.",
+      "2": "El Poder de Ataque aumenta en  {0}%."
+    },
+    "light": "El aumento de ATQ se incrementa en un 40%.",
+    "dark": "Un aumento en la Veloc de ATQ se agrega al efecto",
+    "ut": {
+      "name": "Cuerno de luchador",
+      "description": [
+        "[Rugido de batalla] Reduce el Costo de Mana en 1 e incrementa el Aumento del ataque en un 20 %.",
+        "[Rugido de batalla] Reduce el Costo de Mana en 1 e incrementa el Aumento del ataque en un 24 %.",
+        "[Rugido de batalla] Reduce el Costo de Mana en 1 e incrementa el Aumento del ataque en un 29 %.",
+        "[Rugido de batalla] Reduce el Costo de Mana en 1 e incrementa el Aumento del ataque en un 35 %.",
+        "[Rugido de batalla] Reduce el Costo de Mana en 1 e incrementa el Aumento del ataque en un 42 %.",
+        "[Rugido de batalla] Reduce el Costo de Mana en 1 e incrementa el Aumento del ataque en un 50 %."
+      ],
+      "story": "Trompeta fabricada a partir del cuerno de una bestia guardián de la Montaña nevada Tierras del viento, Orox. Orox de las montañas nevadas concede gran poder a los nobles guerreros y la habilidad de ver la verdad. Cuando un guerrero que ha recibido la bendición de Orox sopla su trompeta, impulsará la moral de los compañeros y aclarará sus mentes."
+    }
+  },
+  "s3": {
+    "name": "Vortice",
+    "description": "Infligir  {0}  Daño Fis. a todos los enemigos al alcance. El último ataque congela a los enemigos por  {1}  seg. Inmune a todos los efectos de estado durante el lanzamiento",
+    "books": {
+      "0": "Aumenta Daño en {0}%.",
+      "1": "Aumenta Daño en {0}%.",
+      "2": "Mientras lanzas, reune a todos los enemigos al alcance"
+    },
+    "light": "El tiempo de reutilización se reduce en 3 segundos.",
+    "dark": "Inmune a todos los tipos de Daño mientras está en uso.",
+    "ut": {
+      "name": "Jarra bárbara",
+      "description": [
+        "[Vórtice] El Daño aumenta en un 50%, y los enemigos golpeados en el último ataque reciben un 5% de Daño adicional durante 10 segundos.",
+        "[Vórtice] El Daño aumenta en un 50%, y los enemigos golpeados en el último ataque reciben un 6% de Daño adicional durante 10 segundos.",
+        "[Vórtice] El Daño aumenta en un 50%, y los enemigos golpeados en el último ataque reciben un 7% de Daño adicional durante 10 segundos.",
+        "[Vórtice] El Daño aumenta en un 50%, y los enemigos golpeados en el último ataque reciben un 8.5% de Daño adicional durante 10 segundos.",
+        "[Vórtice] El Daño aumenta en un 50%, y los enemigos golpeados en el último ataque reciben un 10.5% de Daño adicional durante 10 segundos.",
+        "[Vórtice] El Daño aumenta en un 50%, y los enemigos golpeados en el último ataque reciben un 12.5% de Daño adicional durante 10 segundos."
+      ],
+      "story": "La jarra del rey bárbaro que primero se instaló en las montañas nevadas. Cuando el primer rey bárbaro se instaló en las Tierras del viento, juró convertirse en el primer guardián de las montañas nevadas y compartió esta jarra con los seres sagrados de las montañas. La magia protectora del lobo de escarcha infundido en la jarra bárbara aumenta el ATQ de vórtice y el efecto de congelación."
+    }
+  },
+  "s4": {
+    "name": "Enfurecer",
+    "description": "Al atacar a un enemigo, ATQ aumenta en  {1}  por  {0}  seg. Esto se puede acumular hasta 10 veces máx.",
+    "books": {
+      "0": "El Poder de Ataque aumenta en  {0}%.",
+      "1": "El Poder de Ataque aumenta en  {0}%.",
+      "2": "La resistencia al debilitamiento aumenta en 50 con cada acumulacion"
+    },
+    "light": "El aumento de ATQ se incrementa en un 40%.",
+    "dark": "Obtiene un 5% más de Daño por cada pila, pero obtiene un aumento de 50 de Oportunidad Crit y Vampiro por cada pila también."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Bloq Fis +200",
+    "dark": "Cura la Salud equivalente al 10% de ATQ por cada segundo, y cada 1% de Salud perdida reduce el Daño recibido en 0.6%."
+  }
+}

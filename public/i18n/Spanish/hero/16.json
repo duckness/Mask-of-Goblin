@@ -1,0 +1,120 @@
+{
+  "name": "Rephy",
+  "subtitle": "Guia Espiritual",
+  "description": "Mitad humano y mitad animal, esta criatura guía a las almas usando una lámpara de espíritu. Cura a los aliados con el poder de las almas. Perturba a los enemigos o recupera Mana de aliados con la ayuda de almas también.",
+  "story": "Este guía de almas tamiano puro y bondadoso puede comunicarse con los muertos. La raza tamiana vive en armonía con la naturaleza y tiene la capacidad de leer su flujo y guiar las almas de los muertos. La habilidad como guía de almas de Rephy es excepcional, incluso para un tamiano. Él la utiliza para guiar las almas de aquellos que murieron en el bosque y los ayuda a cruzar al otro lado, con lo que impide que se vuelvan malignos. Entre los tamianos, él es quien mejor puede discernir los caminos de las estrellas; pacifica las almas de los muertos y las guía correctamente hacia la otra vida.",
+  "like": "Almas, gente amable",
+  "dislike": "Provocar daño a los demás",
+  "inn": {
+    "idle": "¿Has oído hablar de la tribu Tamian?",
+    "recruit": {
+      "greet": "Soy Rephy, sabio de la tribu Tamian.",
+      "talk": [
+        "Humano, ven conmigo. Vamos, derrota al malvado rey y protege el bosque.",
+        "¡Nunca te pierdes en este bosque conmigo!",
+        "Es una de nuestras tareas dirigir a los que murieron en el bosque, ayudándoles a volver a donde deben."
+      ],
+      "gift": "un humano me ha dado un regalo! ¡Hooray!"
+    },
+    "affinity": {
+      "greet": "¡Cálido! A las almas les gustará este lugar.",
+      "talk": [
+        "¿Escuchas eso? Las estrellas afuera nos están susurrando.",
+        "¡Humano, te invitaré a nuestro bosque la próxima vez!"
+      ],
+      "gift": "¿Un regalo sorpresa? ¡Los humanos realmente son excelentes amigos!"
+    },
+    "relationship": {
+      "greet": "Hola! Tu alma hoy está tan pura como de costumbre!",
+      "talk": [
+        "Se siente bien estar en el Bosque! Aire puro, vientos refrescantes, hadas danzantes...",
+        "Yo guiaré el camino! Las almas nos ayudarán!",
+        "Las estrellas dicen que hoy será un buen día! Salgamos!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Lampara de Dios, Kurulati",
+    "description": [
+      "Cada 20 segundos, el aliado con la menor Salud se vuelve invisible durante 5 seg. El aliado se vuelve inmune a cualquier daño físico, y la Salud no caerá por debajo del 1%. La Recuperacion de PM aumenta a 120% por segundo.",
+      "Cada 20 segundos, el aliado con la menor Salud se vuelve invisible durante 6 seg. El aliado se vuelve inmune a cualquier daño físico, y la Salud no caerá por debajo del 1%. La Recuperacion de PM aumenta a 120% por segundo.",
+      "Cada 20 segundos, el aliado con la menor Salud se vuelve invisible durante 7 seg. El aliado se vuelve inmune a cualquier daño físico, y la Salud no caerá por debajo del 1%. La Recuperacion de PM aumenta a 120% por segundo.",
+      "Cada 20 segundos, el aliado con la menor Salud se vuelve invisible durante 8 seg. El aliado se vuelve inmune a cualquier daño físico, y la Salud no caerá por debajo del 1%. La Recuperacion de PM aumenta a 120% por segundo.",
+      "Cada 20 segundos, el aliado con la menor Salud se vuelve invisible durante 9 seg. El aliado se vuelve inmune a cualquier daño físico, y la Salud no caerá por debajo del 1%. La Recuperacion de PM aumenta a 120% por segundo.",
+      "Cada 20 segundos, el aliado con la menor Salud se vuelve invisible durante 10 seg. El aliado se vuelve inmune a cualquier daño físico, y la Salud no caerá por debajo del 1%. La Recuperacion de PM aumenta a 120% por segundo."
+    ],
+    "story": "Es el deber de un guía del alma liderar las almas perdidas hacia el camino correcto, para ayudarlas a llegar a la otra vida. Esta lámpara impulsada por una esfera misteriosa creada hace mucho tiempo por un dragón de una tierra distante, es un tesoro de los tamianes. La esfera en su núcleo permite que las almas cercanas se materialicen, facilitando a su portador hablar con ellas directamente. Como tal, es el último medio para una guía de almas. Los jefes tamianes han utilizado esta reliquia para realizar tareas sagradas de un guía de almas durante generaciones. Ahora, frente a un gran peligro que amenaza al mundo, la lámpara ha sido transferida a Rephy, el guía de almas más poderoso que existe."
+  },
+  "s1": {
+    "name": "Alma Curadora",
+    "description": "Cura a 4 aliados con el% de la Salud más baja {2} en relación a la Salud máx. Y cura {1} la Salud adicionalmente por {0} seg. Este efecto no se puede disipar.",
+    "books": {
+      "0": "Aumenta Recuperacion en {0}%.",
+      "1": "Aumenta Recuperacion en {0}%.",
+      "2": "Aumenta {0}% de Recuperacion de PM por segundo."
+    },
+    "light": "El Costo de Maná aumenta en 1 y el rango de habilidad cambia en todos los aliados.",
+    "dark": "Cada cura tiene un 20% de probabilidad de eliminar los efectos negativos."
+  },
+  "s2": {
+    "name": "Salvacion",
+    "description": "Elimina el debilitamiento de todos los aliados y aumenta la DEF Magica en  {1}  por  {0}  segundos.",
+    "books": {
+      "0": "Aumenta el crecimiento de DEF Magica en {0}%.",
+      "1": "Aumenta el crecimiento de DEF Magica en {0}%.",
+      "2": "Aumenta {1} la Resistencia al Debilitamiento por {0} seg."
+    },
+    "light": "El costo de maná se reduce en 1.",
+    "dark": "Aumenta la Defensa mágica en un 10 % adicional de la Defensa mágica del lanzador.",
+    "ut": {
+      "name": "Semilla de nacimiento",
+      "description": [
+        "[Salvación] Incrementa el Aumento de Defensa mágica en un 50 % y reduce el Tiempo de reutilización en un 12 %.",
+        "[Salvación] Incrementa el Aumento de Defensa mágica en un 50 % y reduce el Tiempo de reutilización en un 14 %.",
+        "[Salvación] Incrementa el Aumento de Defensa mágica en un 50 % y reduce el Tiempo de reutilización en un 17 %.",
+        "[Salvación] Incrementa el Aumento de Defensa mágica en un 50 % y reduce el Tiempo de reutilización en un 21 %.",
+        "[Salvación] Incrementa el Aumento de Defensa mágica en un 50 % y reduce el Tiempo de reutilización en un 25 %.",
+        "[Salvación] Incrementa el Aumento de Defensa mágica en un 50 % y reduce el Tiempo de reutilización en un 30 %."
+      ],
+      "story": "Una colección de energía creada cuando nace una vida. Es muy cálida y gentil, así que les gusta a las almas. Rephy la utiliza para hacer fuego en una lámpara para prestarse el poder de las almas. Cuando se coloca una semilla en la lámpara, brilla luminosamente, como cuando el sol nació por primera vez."
+    }
+  },
+  "s3": {
+    "name": "Embestida del Alma",
+    "description": "Causa  {1}  Daño Magico 10 veces a los enemigos en un area cercana y reduce la Veloc de ATQ en  {2}%.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "El objetivo recibe  {0}% Daño incrementado de todas las fuentes."
+    },
+    "light": "Cada golpe elimina 250 maná del objetivo.",
+    "dark": "A cambio de 1 Mana adicional, Silencia enemigos al alcance por 1 seg.",
+    "ut": {
+      "name": "Refugio de las almas",
+      "description": [
+        "[Aceleración del Alma] El costo de maná se reduce en 1 y cura la Salud de todos los aliados en un 8% del Daño.",
+        "[Aceleración del Alma] El costo de maná se reduce en 1 y cura la Salud de todos los aliados en un 10% del Daño.",
+        "[Aceleración del Alma] El costo de maná se reduce en 1 y cura la Salud de todos los aliados en un 12% del Daño.",
+        "[Aceleración del Alma] El costo de maná se reduce en 1 y cura la Salud de todos los aliados en un 14% del Daño.",
+        "[Aceleración del Alma] El costo de maná se reduce en 1 y cura la Salud de todos los aliados en un 17% del Daño.",
+        "[Aceleración del Alma] El costo de maná se reduce en 1 y cura la Salud de todos los aliados en un 20% del Daño."
+      ],
+      "story": "Un ornamento que se utilizó para las ceremonias de homenaje a la realeza difunta en tiempos antiguos. Dentro de la joya verde, hay una lágrima cristalizada de la criatura mítica que provoca la muerte a las personas. Se utiliza como un lugar de reposo para consolar el vacío dentro de las almas."
+    }
+  },
+  "s4": {
+    "name": "Afinacion Espiritual",
+    "description": "Cada 7seg, el aliado con la Salud más baja recupera 1 PM y  {0}  Salud.",
+    "books": {
+      "0": "Aumenta Recuperacion en {0}%.",
+      "1": "Aumenta Recuperacion en {0}%.",
+      "2": "Aumenta {0}% la Recuperacion de PM"
+    },
+    "light": "Utiliza la habilidad cada 5 seg.",
+    "dark": "También suministra 1 esfera de mana al aliado con el ATQ más alto."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Evasion Magica +100",
+    "dark": "Al atacar, hay un 10% de posibilidades de reducir todas las DEF del objetivo en un 20% y reducir todas los reutilizaciones del héroe en un 5%."
+  }
+}

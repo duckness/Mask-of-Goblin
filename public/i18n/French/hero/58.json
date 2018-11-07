@@ -1,0 +1,128 @@
+{
+  "name": "Laudia",
+  "subtitle": "Danseuse de l'oasis",
+  "description": "Cette danseuse est issue d'une tribu nomade du désert Aegina. Quand elle danse, sa grâce fait fondre le cœur de ceux qui la regardent, tandis que ses lames aiguisées ôtent sans un bruit la vie de ses ennemis.",
+  "story": "Les Trovatias sont une tribu nomade du désert Aegina. Ils perpétuent la tradition et la religion de l'antique royaume du désert. Laudia, la fille du chef de cette tribu, sert Laias, la prêtresse de l'eau. Elle veille également sur la tribu au nom de son vieux père. Lorsqu'elle appela à l'aide, Laias et sa sœur Lilia sortirent de leur profond sommeil. Elles l'ont conduite, elle et sa tribu, à l'abri dans l'autel. Depuis lors, Laudia pourfend les démons aux côtés de Zafir, le chef des guerriers du désert de la tribu Mauhata.",
+  "like": "Laias, Lilia et le peuple du désert",
+  "dislike": "Voir les autres souffrir",
+  "inn": {
+    "idle": "Oh, quel endroit intéressant ! Il y a une scène où je pourrais danser ?",
+    "recruit": {
+      "greet": "Bonjour. Que le pouvoir des flots soit avec vous.",
+      "talk": [
+        "Vous n'avez pas vu la prêtresse ? Elle ne passe pas inaperçue...",
+        "Si vous me regardez danser, vous ne pourrez penser à rien d'autre.",
+        "Je ne voudrais pas voir ce monde splendide détruit davantage."
+      ],
+      "gift": "Merci pour ce cadeau. Vous voulez danser ?"
+    },
+    "affinity": {
+      "greet": "Bonjour ! Maintenant que nous sommes un peu plus intimes, on pourrait peut-être oublier les formalités ?",
+      "talk": [
+        "J'aime cet endroit. Il est calme et paisible.",
+        "Ce n'est pas facile de diriger, même en second. Je dois prendre soin de tous les membres de ma tribu."
+      ],
+      "gift": "Merci. Je devrais peut-être acheter des en-cas pour les enfants..."
+    },
+    "relationship": {
+      "greet": "Contente de vous voir. Vous voulez me dire quelque chose ?",
+      "talk": [
+        "Avez-vous fait la connaissance de Lilia et de sa sœur Laias ? Elles sont formidables, je suis certaine que vous vous entendrez à merveille.",
+        "Je perçois la force des flots et du destin, propre aux véritables héros et guerriers.",
+        "J'ai élaboré une nouvelle danse. Vous voulez la voir ? Nous pourrions même danser ensemble."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Arlaq, sables murmurants",
+    "description": [
+      "[Bénédiction de l'oasis] peut être cumulée 14 fois au maximum et lors d'une attaque auto, le temps de recharge de toutes les compétences a 10 % de chances d'être réduit de 4 %.",
+      "Bénédiction de l'oasis peut être cumulée 15 fois au maximum et lors d'une attaque auto, le temps de recharge de toutes les compétences a 10 % de chances d'être réduit de 4,8 %.",
+      "Bénédiction de l'oasis peut être cumulée 16 fois au maximum et lors d'une attaque auto, le temps de recharge de toutes les compétences a 10 % de chances d'être réduit de 5,8 %.",
+      "Bénédiction de l'oasis peut être cumulée 17 fois au maximum et lors d'une attaque auto, le temps de recharge de toutes les compétences a 10 % de chances d'être réduit de 7 %.",
+      "Bénédiction de l'oasis peut être cumulée 18 fois au maximum et lors d'une attaque auto, le temps de recharge de toutes les compétences a 10 % de chances d'être réduit de 8,4 %.",
+      "Bénédiction de l'oasis peut être cumulée 20 fois au maximum et lors d'une attaque auto, le temps de recharge de toutes les compétences a 10 % de chances d'être réduit de 10 %."
+    ],
+    "story": "Ce trésor rarissime symbolise une passion aussi ardente que les flammes du désert. On raconte qu'une paire de ces armes magnifiques serait conservée dans le musée privé de l'ancien dieu-roi. Lorsqu'on les manie, leur son enjôleur rappelle une douce brise d'été. Cette illusion est aussi tentante que mortelle, à la manière d'un mirage dans le désert..."
+  },
+  "s1": {
+    "name": "Murmure des sables",
+    "description": "Attaque l'ennemi ciblé et inflige {0} points de DEG M aux ennemis à portée, réduisant de {2} points leurs chances de bloquer et de {3} points leur Résistance Crit pendant {1} sec. De plus, ces ennemis subissent {4} points de DEG M et sont étourdis pendant {5} sec.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Le coût en mana est réduit de 1 point.",
+    "dark": "La cible reçoit 25 % de DEG M supplémentaires pendant 10 sec."
+  },
+  "s2": {
+    "name": "Flots enchanteurs",
+    "description": "Augmente l'ATQ du lanceur de {1}  points et les DEG Crit de {2}  % pendant {0}  sec. Vous avancez ensuite un peu vers l'avant en infligeant {3}  points de DEG M aux ennemis à portée de ce déplacement. Si cette compétence est utilisée dans l'arène, vous les charmez pendant {4}  sec. Peut déclencher une fois [Embuscade engageante] dans les 5 sec qui suivent l'activation.",
+    "books": {
+      "0": "Les boosts d'ATQ et de DEG sont augmentés de {0}%.",
+      "1": "Les boosts d'ATQ et de DEG sont augmentés de {0}%.",
+      "2": "Les boosts d'ATQ et de DEG sont augmentés de {0}%."
+    },
+    "light": "Octroie 2 orbes de mana à la fin du déplacement. Le mana ainsi gagné est consommé pendant 10 sec.",
+    "dark": "Embuscade engageante peut être déclenchée deux fois dans les 10 sec qui suivent l'activation de Flots enchanteurs.",
+    "ut": {
+      "name": "Refuge sacré de Trovatia",
+      "description": [
+        "[Flots enchanteurs] Après le déplacement, vous absorbez les DEG à hauteur de 160 % de l'ATQ pendant 3 sec, puis générez un bouclier qui vous confère l'immunité contre les contrôles. Le coût en mana d'[Embuscade engageante] est réduit de 1 point.",
+        "[Flots enchanteurs] Après le déplacement, vous absorbez les DEG à hauteur de 190 % de l'ATQ pendant 3 sec, puis générez un bouclier qui vous confère l'immunité contre les contrôles. Le coût en mana d'[Embuscade engageante] est réduit de 1 point.",
+        "[Flots enchanteurs] Après le déplacement, vous absorbez les DEG à hauteur de 230 % de l'ATQ pendant 3 sec, puis générez un bouclier qui vous confère l'immunité contre les contrôles. Le coût en mana d'[Embuscade engageante] est réduit de 1 point.",
+        "[Flots enchanteurs] Après le déplacement, vous absorbez les DEG à hauteur de 270 % de l'ATQ pendant 3 sec, puis générez un bouclier qui vous confère l'immunité contre les contrôles. Le coût en mana d'[Embuscade engageante] est réduit de 1 point.",
+        "[Flots enchanteurs] Après le déplacement, vous absorbez les DEG à hauteur de 330 % de l'ATQ pendant 3 sec, puis générez un bouclier qui vous confère l'immunité contre les contrôles. Le coût en mana d'[Embuscade engageante] est réduit de 1 point.",
+        "[Flots enchanteurs] Après le déplacement, vous absorbez les DEG à hauteur de 400 % de l'ATQ pendant 3 sec, puis générez un bouclier qui vous confère l'immunité contre les contrôles. Le coût en mana d'[Embuscade engageante] est réduit de 1 point."
+      ],
+      "story": "Ce coffre contient les artéfacts nécessaires au rituel du dragon de l'eau. Il est orné de lapis-lazuli azur, une gemme qui symbolise la complétude. Le père de Laudia tient à ce trésor comme à la prunelle de ses yeux ; il n'est transmis qu'aux rares élus capables de diriger la tribu Trovatia."
+    },
+    "linked": {
+      "name": "Embuscade engageante",
+      "description": "Attaque 3 fois l'ennemi ciblé et lui inflige un total de {0} points de DEG M. Inflige également {1} points de DEG M aux boss et aux ennemis sous le charme, et ce malgré la DEF de la cible."
+    }
+  },
+  "s3": {
+    "name": "Danse du désert",
+    "description": "Attaque 30 fois les ennemis à portée et inflige un total de {0}  points de DEG M. Lance également Lames d'Arlaq 30 fois sur des ennemis choisis au hasard et leur inflige un total de {1}  points de DEG M. {2}  points de DEG supplémentaires s'accumulent à chaque fois que les lames touchent le même ennemi. [Accélération aveuglante] peut être déclenchée une fois pendant cette compétence et Lames d'Arlaq vise en priorité les cibles sous le charme.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Restaure 30 points de mana à chaque coup.",
+    "dark": "Le coût en mana est augmenté de 1 et les DEG sont augmentés de 100 %.",
+    "ut": {
+      "name": "Voile de charme",
+      "description": [
+        "[Danse du désert] Le temps de recharge de la compétence est réduit de 30 % et la Pénétration DEF est augmentée de 100 points tant que la compétence est active.",
+        "[Danse du désert] Le temps de recharge de la compétence est réduit de 30 % et la Pénétration DEF est augmentée de 120 points tant que la compétence est active.",
+        "[Danse du désert] Le temps de recharge de la compétence est réduit de 30 % et la Pénétration DEF est augmentée de 140 points tant que la compétence est active.",
+        "[Danse du désert] Le temps de recharge de la compétence est réduit de 30 % et la Pénétration DEF est augmentée de 170 points tant que la compétence est active.",
+        "[Danse du désert] Le temps de recharge de la compétence est réduit de 30 % et la Pénétration DEF est augmentée de 210 points tant que la compétence est active.",
+        "[Danse du désert] Le temps de recharge de la compétence est réduit de 30 % et la Pénétration DEF est augmentée de 250 points tant que la compétence est active."
+      ],
+      "story": "Ce voile mythique n'est remis qu'à la meilleure danseuse du continent. Lorsque l'on danse avec, les spectateurs sont comme hypnotisés. Laudia s'en sert pour envoûter ses ennemis et parvenir à ses fins lors de ses danses."
+    },
+    "linked": {
+      "name": "Accélération aveuglante",
+      "description": "Confère l'immunité contre les contrôles pendant {0}  sec et augmente la Vit ATQ de {1}  points."
+    }
+  },
+  "s4": {
+    "name": "Bénédiction de l'oasis",
+    "description": "Réduit de {0}  % la durée des contrôles affectant le lanceur. À chaque compétence utilisée, déclenche [Bénédiction de l'oasis] pendant {1}  sec, ce qui augmente la Pénétration DEF de {2}  points et la DEF de {3}. [Bénédiction de l'oasis] peut se cumuler {4}  fois au maximum et ne peut pas être dissipée.",
+    "books": {
+      "0": "Les boosts de Pénétration DEF et de DEF augmentent de {0}  %.",
+      "1": "Les boosts de Pénétration DEF et de DEF augmentent de {0}  %.",
+      "2": "Les boosts de Pénétration DEF et de DEF augmentent de {0}  %."
+    },
+    "light": "Applique 2 charges de Bénédiction de l'oasis.",
+    "dark": "Les DEG reçus des ennemis (autres que les héros) sont réduits de 2 % par charge."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Vit. ATQ +100",
+    "dark": "Au début de chaque combat, confère l'immunité contre les contrôles pendant 7 sec, et augmente la précision et la précision des contrôles de 300 points pendant 10 sec."
+  }
+}

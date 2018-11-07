@@ -1,0 +1,120 @@
+{
+  "name": "Jane",
+  "subtitle": "Alabaster-Leiche",
+  "description": "Dieses Mädchen wurde untot nach einer Schlacht gegen die Dunklen Mächte in der Vergangenheit. Sie hat immer ihren Sarg dabei, in dem sie schläft. Sie erholt sich, indem sie ein Mal des Todes auf ihren Feinden hinterlässt.",
+  "story": "Einst war sie die Prinzessin der gefallenen Republik der Grauen. Die Republik der Grauen beschützte zahllose Geheimnisse, darunter die Ruinen und Technologien einer antiken Zivilisation, ehe sie während des Dämonenkrieges von den Dämoneninvasoren von der Landkarte entfernt wurde. Auch Jane verlor ihre Leben bei dem Versuch, diese Geheimnisse zu beschützen. Später wurde sie von Malduk, einem hochrangigen Offizier und Strategen der Dämonenarmee als Untote zurück auf die Welt gebracht. Durch eine seltsame, dunkle Magie erhielt sie ein neues Bewusstsein. Nun begibt sie sich auf eine Reise, um ihr früheres Selbst und ihre verlorenen Gedanken wiederzufinden.",
+  "like": "Ich erinnere mich nicht genau ... Mein ...",
+  "dislike": "Große Knochen ...",
+  "inn": {
+    "idle": "...",
+    "recruit": {
+      "greet": "...Hallo.",
+      "talk": [
+        "Wer bist...du?",
+        "Ich...kenne dich nicht...",
+        "Du...kennst mich?"
+      ],
+      "gift": "Geschenk...? Danke...?"
+    },
+    "affinity": {
+      "greet": "Wo ... ist das ...?",
+      "talk": [
+        "Es ist kalt ... Nein ... Warm ...",
+        "Ich ... kann mich ... nicht erinnern ... Ich ... will ... mich erinnern ..."
+      ],
+      "gift": "Geschenk ...? Warum gibst du mir immer wieder diese Dinge?"
+    },
+    "relationship": {
+      "greet": "Willkommen zurück... Grüße an ihn... wenn er zurückkehrt...",
+      "talk": [
+        "Rotes Licht... warme Hände... sanfte Augen... keine Erinnerung...",
+        "Verlorene Erinnerungen... Leere...",
+        "Der Sarg... sich niemals ändernde Wärme..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Erekura, die unveränderliche Seele",
+    "description": [
+      "Verursacht jede Sekunde 10% des ANG als M. Schaden an umstehenden Gegnern und reduziert ihren ANG um 14%. Stellt 30% Mana wieder her, wenn der Passivskill aktiviert ist.",
+      "Verursacht jede Sekunde 12% des ANG als M. Schaden an umstehenden Gegnern und reduziert ihren ANG um 17%. Stellt 30% Mana wieder her, wenn der Passivskill aktiviert ist.",
+      "Verursacht jede Sekunde 14% des ANG als M. Schaden an umstehenden Gegnern und reduziert ihren ANG um 20%. Stellt 30% Mana wieder her, wenn der Passivskill aktiviert ist.",
+      "Verursacht jede Sekunde 17% des ANG als M. Schaden an umstehenden Gegnern und reduziert ihren ANG um 24%. Stellt 30% Mana wieder her, wenn der Passivskill aktiviert ist.",
+      "Verursacht jede Sekunde 20% des ANG als M. Schaden an umstehenden Gegnern und reduziert ihren ANG um 29%. Stellt 30% Mana wieder her, wenn der Passivskill aktiviert ist.",
+      "Verursacht jede Sekunde 25% des ANG als M. Schaden an umstehenden Gegnern und reduziert ihren ANG um 35%. Stellt 30% Mana wieder her, wenn der Passivskill aktiviert ist."
+    ],
+    "story": "Als Malduks Magie Jane als Untote wiederauferstehen ließ, sollte sie eigentlich nichts fühlen können. Doch sie fühlte sich warm und behaglich, denn eine sonderbare Energie umgab ihren toten Körper, die sie eigentlich nicht spüren hätte dürfen. Als Malduk sie mitnahm, gab sie sich instinktiv der warmen Ausstrahlung hin. Später, als sie durch geheimnisvolle Magie wieder das Bewusstsein erlangte, untersuchte sie zuallererst ihren Sarg, der eine tragische und doch warme Liebe ausstrahlte. In ihm fand sie eine sorgsam eingravierte Botschaft: „In beständiger Liebe für dich.“"
+  },
+  "s1": {
+    "name": "Begräbnisliturgie",
+    "description": "Fügt Feinden in Reichw. {0} M.Schaden zu und betäubt sie für {1} Sek.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Betäubungsdauer um {0} Sek."
+    },
+    "light": "Ziel erleidet 10 Sek lang 25% extra M.Schaden.",
+    "dark": "Für 1 extra Mana erhält der Skill eine 100% Chance, das Ziel heranzuziehen."
+  },
+  "s2": {
+    "name": "Mal des Todes",
+    "description": "Prägt alle Feine mit einem Mal für {0} Sek und verursacht kontinuierlich {1} M. DMG. Feinde mit einem Mal erleiden {2}% erhöhten Magieschaden.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Verringert die Wirkungsdauer um 10 Sek und erhöht Schaden um 250%.",
+    "dark": "Wenn negative Effekte aufgehoben werden, bleibt das eingravierte Mal bestehen.",
+    "ut": {
+      "name": "Vom Tod durchwirktes Kissen",
+      "description": [
+        "[Mal des Todes] Erhöht den ANG um 5 % und den krit. Schaden 20 Sek. lang um 10 %, wenn der markierte Feind stirbt. Dieser Effekt stapelt sich bis zu 8-mal.",
+        "[Mal des Todes] Erhöht den ANG um 5 % und den krit. Schaden 20 Sek. lang um 12 %, wenn der markierte Feind stirbt. Dieser Effekt stapelt sich bis zu 8-mal.",
+        "[Mal des Todes] Erhöht den ANG um 5 % und den krit. Schaden 20 Sek. lang um 14 %, wenn der markierte Feind stirbt. Dieser Effekt stapelt sich bis zu 8-mal.",
+        "[Mal des Todes] Erhöht den ANG um 5 % und den krit. Schaden 20 Sek. lang um 17 %, wenn der markierte Feind stirbt. Dieser Effekt stapelt sich bis zu 8-mal.",
+        "[Mal des Todes] Erhöht den ANG um 5 % und den krit. Schaden 20 Sek. lang um 21 %, wenn der markierte Feind stirbt. Dieser Effekt stapelt sich bis zu 8-mal.",
+        "[Mal des Todes] Erhöht den ANG um 5 % und den krit. Schaden 20 Sek. lang um 25 %, wenn der markierte Feind stirbt. Dieser Effekt stapelt sich bis zu 8-mal."
+      ],
+      "story": "Das Kissen, das Jane zum Einschlafen in ihrem Sarg benutzt. Es enthält die Geister, die mit ihr im Sarg einschliefen. Sie verleihen Jane ständig die Leere des Todes."
+    }
+  },
+  "s3": {
+    "name": "Tag des Ruins",
+    "description": "Fügt Feinden alle {0} Sek {1} M.Schaden zu und heilt Janes TP um {2}% des Schadens. Jane wird immun gegenüber Statuseffekten. Feinde mit Malprägung erleiden erhöhten Schaden.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erholt sich um {0}% MP."
+    },
+    "light": "Erhöht Schaden um 40%.",
+    "dark": "10% Chance, Feinde 1 Sek lang zu betäuben.",
+    "ut": {
+      "name": "Blume des Vergessenen Fürstentums",
+      "description": [
+        "[Tag des Ruins] Erhöht Schaden um 20% und reduziert bei verursachtem Schaden M.VERT des Ziels 5 Sek. lang um 5%. Effekt kann sich bis zu max. 10 Mal kumulieren.",
+        "[Tag des Ruins] Erhöht Schaden um 24% und reduziert bei verursachtem Schaden M.VERT des Ziels 5 Sek. lang um 5%. Effekt kann sich bis zu max. 10 Mal kumulieren.",
+        "[Tag des Ruins] Erhöht Schaden um 29% und reduziert bei verursachtem Schaden M.VERT des Ziels 5 Sek. lang um 5%. Effekt kann sich bis zu max. 10 Mal kumulieren.",
+        "[Tag des Ruins] Erhöht Schaden um 35% und reduziert bei verursachtem Schaden M.VERT des Ziels 5 Sek. lang um 5%. Effekt kann sich bis zu max. 10 Mal kumulieren.",
+        "[Tag des Ruins] Erhöht Schaden um 42% und reduziert bei verursachtem Schaden M.VERT des Ziels 5 Sek. lang um 5%. Effekt kann sich bis zu max. 10 Mal kumulieren.",
+        "[Tag des Ruins] Erhöht Schaden um 50% und reduziert bei verursachtem Schaden M.VERT des Ziels 5 Sek. lang um 5%. Effekt kann sich bis zu max. 10 Mal kumulieren."
+      ],
+      "story": "Eine Blume der Republik, die heute nirgends mehr zu finden ist. Sie ist auch als die „Blume der Grenzen“ bekannt, die Leben und Tod miteinander verbindet und sich von Zerstörung nährt. Eine schmerzhaft schöne Blume. Wenn man sie jemandem schenkt, kann man den letzten Moment dieser Person in einem Traum wahrnehmen."
+    }
+  },
+  "s4": {
+    "name": "Ruhe in Frieden",
+    "description": "Erleidet Jane tödlichen Schaden, geht sie in ihren Sarg und erholt sich um {1} TP über {0} Sek. Jane ist immun gegen jeglichen Schaden, während sie im Sarg ist.",
+    "books": {
+      "0": "Erhöht Erholung um {0}%.",
+      "1": "Erhöht Erholung um {0}%.",
+      "2": "Erhöht Erholung um {0}%."
+    },
+    "light": "Fügt Feinden in Reichw. jede Sek 5% der eigenen max. TP als Schaden zu.",
+    "dark": "Betäubt bei Aktivierung alle Feinde für 2 Sek."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / M.Block +200",
+    "dark": "Jeder Treffer von Janes Angriffen erhöht ihre ANG und Erholungsrate um je 1% (Zähler-Limit: 50)."
+  }
+}

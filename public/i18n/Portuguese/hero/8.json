@@ -1,0 +1,120 @@
+{
+  "name": "Kaulah",
+  "subtitle": "Xamã do Relâmpago",
+  "description": "Como o antigo Cacique Orc da tribo Vento Celeste, ele usa ataques elementais com o poder do céu e do vento. Fortes raios paralisam os inimigos, enquanto os aliados são curados e abençoados pelo vento.",
+  "story": "Esta grande Orc xamã tem o poder do relâmpago. Chefe da Tribo de Vento Celeste, ele é um respeitado ancião da Aliança Orc. Inúmeros Orcs xamãs foram treinados por ele e o consideram seu líder espiritual. Além disso, ele é um dos poucos xamãs que têm sonhos clarividentes, e é sábio o suficiente para interpretá-los adequadamente.",
+  "like": "Conterrâneos, paz mundial",
+  "dislike": "Malduk, guerra",
+  "inn": {
+    "idle": "Você precisa de uma mãozinha do Orc Xamã?",
+    "recruit": {
+      "greet": "Deixe-me apresentar. Eu sou o chefe da tribo Vento Celeste, Kaulah.",
+      "talk": [
+        "Enquanto eu fico aqui. Eu fico pensando que a civilizacao material da humanidade e surpreendente.",
+        "Eu sinto falta do vento das montanhas. Amanhã, eu terei que escalar uma montanha próxima.",
+        "Embora esteja me hospedando nesta estalagem a negócios, esta cama desconfortável não me deixa ter qualquer tipo de sonho profético."
+      ],
+      "gift": "Eu lembrarei da sua bondade."
+    },
+    "affinity": {
+      "greet": "Espero que o meu vento ajude você a descansar, mesmo que seja só um pouquinho.",
+      "talk": [
+        "Ainda não me acostumei com a cidade. Mas é bom ver pessoas animadas.",
+        "O vento continuará soprando, mesmo se o tempo passar... Assim como as suas dificuldades também passarão."
+      ],
+      "gift": "Vou fazer bom uso disso nesta viagem."
+    },
+    "relationship": {
+      "greet": "Pensei que eu sentiria um vento amigável. Bem-vindo de volta, amigo.",
+      "talk": [
+        "Forte como uma rocha. Suave como uma brisa. É assim a sua aura.",
+        "Você já escalou o topo das montanhas de Ogria? É lá que está a bela verdadeira.",
+        "Eu tive uma premonição na noite passada: você salvava o mundo..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Conventina, Vento Azul",
+    "description": [
+      "Concede 10% de chance de causar DAN M. igual a 100% do ATQ e causa Choque Elétrico em 2 inimigos aleatórios através de um ataque normal. Se o alvo já está sofrendo Choque Elétrico, atordoa o alvo por 2s.",
+      "Concede 12% de chance de causar DAN M. igual a 120% do ATQ e causa Choque Elétrico em 2 inimigos aleatórios através de um ataque normal. Se o alvo já está sofrendo Choque Elétrico, atordoa o alvo por 2s.",
+      "Concede 14% de chance de causar DAN M. igual a 140% do ATQ e causa Choque Elétrico em 2 inimigos aleatórios através de um ataque normal. Se o alvo já está sofrendo Choque Elétrico, atordoa o alvo por 2s.",
+      "Concede 17% de chance de causar DAN M. igual a 170% do ATQ e causa Choque Elétrico em 2 inimigos aleatórios através de um ataque normal. Se o alvo já está sofrendo Choque Elétrico, atordoa o alvo por 2s.",
+      "Concede 21% de chance de causar DAN M. igual a 210% do ATQ e causa Choque Elétrico em 2 inimigos aleatórios através de um ataque normal. Se o alvo já está sofrendo Choque Elétrico, atordoa o alvo por 2s.",
+      "Concede 25% de chance de causar DAN M. igual a 250% do ATQ e causa Choque Elétrico em 2 inimigos aleatórios através de um ataque normal. Se o alvo já está sofrendo Choque Elétrico, atordoa o alvo por 2s."
+    ],
+    "story": "Um cajado que se assemelha à ave-tempestade de quatro asas. De fato, ele foi criado a partir de uma pena de uma ave-tempestade, uma fera considerada sagrada entre os Orcs de Vento Celeste. O cajado tem o poder de se comunicar com o céu, decifrar o clima e controlar o ar. Para um xamã de Vento Celeste que usa o poder do relâmpago, este cajado é o que há de melhor."
+  },
+  "s1": {
+    "name": "Seta Trovejante",
+    "description": "Lança 5 setas trovejantes em inimigos aleatórios e causa {0} de DAN.M. Além disso, eletrifica os inimigos atingidos. Quando um inimigo eletrificado é atingido, este é atordoado durante {1} segundos.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta a Chance Crít. em {0}."
+    },
+    "light": "Reduz o custo de mana em 1.",
+    "dark": "O alvo recebe mais 25% de DAN.M durante 10 segundos."
+  },
+  "s2": {
+    "name": "Chuva Curativa",
+    "description": "Restaura {1} PV de todos os aliados durante {0} segundos.",
+    "books": {
+      "0": "Aumenta a Recuperação em {0}%.",
+      "1": "Aumenta a Recuperação em {0}%.",
+      "2": "Ao conjurar, ganha imunidade a penalidades e aumenta a Redução de DAN em {0}."
+    },
+    "light": "Aliados recebem menos 25% de DAN enquanto estiverem sob este efeito.",
+    "dark": "Em troca de 1 Custo de Mana adicional, cura 5% do PV Máx. dos aliados.",
+    "ut": {
+      "name": "Máscara de Ave-tempestade",
+      "description": [
+        "[Chuva Curativa] Absorve DAN de 200% do ATQ e cria um escudo que garante Imunidade a CM por 1s quando usada em aliados com os PV cheios.",
+        "[Chuva Curativa] Absorve DAN de 240% do ATQ e cria um escudo que garante Imunidade a CM por 1s quando usada em aliados com os PV cheios.",
+        "[Chuva Curativa] Absorve DAN de 290% do ATQ e cria um escudo que garante Imunidade a CM por 1s quando usada em aliados com os PV cheios.",
+        "[Chuva Curativa] Absorve DAN de 350% do ATQ e cria um escudo que garante Imunidade a CM por 1s quando usada em aliados com os PV cheios.",
+        "[Chuva Curativa] Absorve DAN de 420% do ATQ e cria um escudo que garante Imunidade a CM por 1s quando usada em aliados com os PV cheios.",
+        "[Chuva Curativa] Absorve DAN de 500% do ATQ e cria um escudo que garante Imunidade a CM por 1s quando usada em aliados com os PV cheios."
+      ],
+      "story": "Máscara da auspiciosa ave-tempestade que traz chuva. Quando as Gotas de Cura do xamã de Vento Celeste começam a cair, a alma da ave-tempestade fica perto de quem foi atingido pela Chuva Curativa, recuperando seu corpo fatigado."
+    }
+  },
+  "s3": {
+    "name": "Vento Veloz",
+    "description": "Aumenta o ATQ em {1} e a VEL. ATQ em {2} de todos os aliados durante {0} segundos.",
+    "books": {
+      "0": "Taxa de aumento de ATQ aumenta em {0}%.",
+      "1": "Taxa de aumento de ATQ aumenta em {0}%.",
+      "2": "Aumenta a Taxa de Crít. em {0} , durante o efeito do poder."
+    },
+    "light": "Aumenta o reforço de ATQ em 40%.",
+    "dark": "Reduz o tempo de recarga em 3 segundos.",
+    "ut": {
+      "name": "Decoração de Pena de Vento Celeste",
+      "description": [
+        "[Vento Célere] O custo de mana é reduzido em 1, e acrescenta 20% do efeito do reforço de DAN Crit.",
+        "[Vento Célere] O custo de mana é reduzido em 1, e acrescenta 24% do efeito do reforço de DAN Crit.",
+        "[Vento Célere] O custo de mana é reduzido em 1, e acrescenta 29% do efeito do reforço de DAN Crit.",
+        "[Vento Célere] O custo de mana é reduzido em 1, e acrescenta 35% do efeito do reforço de DAN Crit.",
+        "[Vento Célere] O custo de mana é reduzido em 1, e acrescenta 42% do efeito do reforço de DAN Crit.",
+        "[Vento Célere] O custo de mana é reduzido em 1, e acrescenta 50% do efeito do reforço de DAN Crit."
+      ],
+      "story": "Pena de uma ave-tempestade, guardiã da chuva e do trovão. Os xamãs de alto nível da Tribo de Vento Celeste comungam com as penas de uma ave-tempestade. Xamãs usam essa pena como acessório ao usar Vento Veloz para se unirem com a ave-tempestade, aumentando ATQ e Vel de ATQ de todos os aliados."
+    }
+  },
+  "s4": {
+    "name": "Cadeia de Raios",
+    "description": "A cada {0} segundos, causa {1} de DAN M. a 4 inimigos e causa Choque Elétrico por {2} s. Inimigos sofrendo de Choque Elétrico levarão um DAN M. total de {4} por {3} s.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Ao realizar um Acerto Crít., os inimigos atingidos são atordoados durante {0} segundos."
+    },
+    "light": "Reforça a Chance Crít. em 400.",
+    "dark": "Se houver 1 inimigo, aumenta em 3 segundos a duração do Atordoamento."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / Chance Crít. +100",
+    "dark": "Ao tomar DAN, diminui Vel de ATQ do inimigo atacante em 300 por 5s. O efeito é ativado apenas uma vez a cada 5s."
+  }
+}

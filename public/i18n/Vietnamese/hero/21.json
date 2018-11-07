@@ -1,0 +1,120 @@
+{
+  "name": "Naila",
+  "subtitle": "Chiến binh của gió",
+  "description": "Một Tiên nữ cánh chim chuyên đấu giáp lá cà bằng các khớp ngón tay của mình. Di chuyển nhanh giữa địch và tiêu diệt chúng. Đập mạnh kẻ thù bằng cách tung ra các đòn tấn công vũ bão liên tiếp.",
+  "story": "Một chiến binh can đảm và đáng kính của tộc Thần cánh chim, những người sở hữu sức mạnh của gió. Đối với nàng, phẩm giá của một chiến binh Thần cánh chim quan trọng hơn mọi thứ khác trên thế giới. Nàng dựa vào sức mạnh ý chí và mong muốn duy trì danh dự chiến binh của mình để hạ gục bất kỳ kẻ thù nào. Nàng có kỹ năng hiếm có, thậm chí trong số những người đồng cấp với mình. Và nàng cũng là hình mẫu lý tưởng cho các chiến binh Thần cánh chim trẻ trung hơn.",
+  "like": "Họ hàng đồng đội, những người sở hữu niềm kiêu hãnh của một chiến binh",
+  "dislike": "Những kẻ hèn nhát, những kẻ đạo đức giả",
+  "inn": {
+    "idle": "Anh có chuyện gì thế, chiến binh con người?",
+    "recruit": {
+      "greet": "Tôi muốn sẽ phân tài cao thấp với anh vào một ngày nào đó.",
+      "talk": [
+        "Himmullis",
+        "Thật lố bịch khi cho rằng sức mạnh của một người nào đó sẽ thuộc về người đó.",
+        "Tôi chưa bao giờ quên niềm kiêu hãnh được là Tiên nữ cánh chim của xứ Elidora."
+      ],
+      "gift": "Ngươi biết tiên nữ cánh chim thích gì rồi đấy."
+    },
+    "affinity": {
+      "greet": "Vậy ra đây là nhà của loài người.",
+      "talk": [
+        "Chị gái ta luôn nhắc ta phải nhớ về niềm kiêu hãnh của một Thần cánh chim.",
+        "Ta sẽ trở thành chiến binh Thần cánh chim giỏi nhất thế gian."
+      ],
+      "gift": "Ta sẽ trả ơn ngươi."
+    },
+    "relationship": {
+      "greet": "Bạn thế nào rồi? Không lười tập luyện đấy chứ?",
+      "talk": [
+        "Một chiến binh thực sự là người có nghĩa vụ phát triển không ngừng!",
+        "Niềm kiêu hãnh, danh dự, Có những tên xem những thứ này không ra gì, nhưng với ta thì rất quan trọng.",
+        "Lần sau tôi muốn nhờ tập luyện cùng, không sao chứ?"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Baroru, Móng tay bị nguyền",
+    "description": [
+      "Khi ra đòn chí mạng gây sát thương vật lý liên tục với mức 150% lực tấn công trong 10 giây, tăng 20% lượng sát thương vật lý đối tượng nhận.",
+      "Khi ra đòn chí mạng gây sát thương vật lý liên tục với mức 180% lực tấn công trong 10 giây, tăng 24% lượng sát thương vật lý đối tượng nhận.",
+      "Khi ra đòn chí mạng gây sát thương vật lý liên tục với mức 216% lực tấn công trong 10 giây, tăng 28% lượng sát thương vật lý đối tượng nhận.",
+      "Khi ra đòn chí mạng gây sát thương vật lý liên tục với mức 258% lực tấn công trong 10 giây, tăng 34% lượng sát thương vật lý đối tượng nhận.",
+      "Khi ra đòn chí mạng gây sát thương vật lý liên tục với mức 310% lực tấn công trong 10 giây, tăng 41% lượng sát thương vật lý đối tượng nhận.",
+      "Khi ra đòn chí mạng gây sát thương vật lý liên tục với mức 500% lực tấn công trong 10 giây, tăng 50% lượng sát thương vật lý đối tượng nhận."
+    ],
+    "story": "Một đôi bao tay sắt bị nguyền rủa, được tạo ra từ móng vuốt của Rồng điên Baroro, kẻ bị đánh bại trong cuộc chiến. To hơn nhiều lần so với cỡ tay của một người bình thường, đôi bao tay này kết nối trực tiếp với thần kinh của người đeo, cho phép người sử dụng dễ dàng điều khiển chúng. Mặc dù có sức mạnh to lớn nhưng chúng cũng tấn công tâm trí người đeo, chậm rãi ăn mòn linh hồn của người đó. Chỉ một chiến binh chân chính có niềm tin cao quý, ý chí mạnh mẽ và tinh thần bất diệt mới có thể sử dụng vũ khí bị nguyền rủa này. Chúng là vũ khí hoàn hảo cho một chiến binh có ý chí mạnh mẽ, sẽ tỏa sáng kể cả trong bóng tối của vực thẳm."
+  },
+  "s1": {
+    "name": "Ngọn gió dữ tợn",
+    "description": "Lao 2 lần về đối thủ phía trước trong phạm vi gây {0} sát thương vật lý cho kẻ địch và quăng ngã chúng trong {1} giây. Nếu mục tiêu không phải là Anh hùng, gây thêm {2} sát thương vật lý.",
+    "books": {
+      "0": "Tăng {0}% sát thương.",
+      "1": "Tăng {0}% sát thương.",
+      "2": "Tăng {0}% sát thương."
+    },
+    "light": "Khi địch còn 1 người, lượng sát thương tăng 100%.",
+    "dark": "Thay đổi đối tượng thành đối thủ có lực tấn công cao nhất."
+  },
+  "s2": {
+    "name": "Gió rít",
+    "description": "Tăng {1} tỷ lệ né vật lý và tăng {2} sức mạnh tấn công của toàn bộ đồng minh trong {0} giây.",
+    "books": {
+      "0": "Tăng  {0}% mức Tăng tấn công",
+      "1": "Tăng  {0}% mức Tăng tấn công",
+      "2": "Tăng  {0}% mức Tăng tấn công"
+    },
+    "light": "Lượng tiêu thụ Mana giảm 1.",
+    "dark": "Trong thời gian kéo dài chiêu, sát thương gây lên địch không phải là anh hùng tăng 30% lượng sát thương do Naila gây ra.",
+    "ut": {
+      "name": "Khăn quàng của Himmullis",
+      "description": [
+        "[Gió rít] Tăng 50% Trợ công và 100 Né tránh đòn phép thuật.",
+        "[Gió rít] Tăng 50% Trợ công và 120 Né tránh đòn phép thuật.",
+        "[Gió rít] Tăng 50% Trợ công và 140 Né tránh đòn phép thuật.",
+        "[Gió rít] Tăng 50% Trợ công và 170 Né tránh đòn phép thuật.",
+        "[Gió rít] Tăng 50% Trợ công và 210 Né tránh đòn phép thuật.",
+        "[Gió rít] Tăng 50% Trợ công và 250 Né tránh đòn phép thuật."
+      ],
+      "story": "Chiếc khăn quàng mà Himmullis đeo. Naila luôn đeo chiếc khăn này. Himmullis từng luôn nhắc Naila phải tự hào khi là một Tiên cánh chim. Chiếc khăn chứa đựng nỗi buồn khi mất gia đình và khiến Naila nổi giận."
+    }
+  },
+  "s3": {
+    "name": "Ném bom bổ nhào",
+    "description": "Nhảy lên không trung và đạp lên đối thủ gây {0} sát thương vật lý trong phạm vi. Tăng {1}% sát thương lên đối thủ bị đẩy ngã Nếu mục tiêu không phải là Anh hùng, gây thêm {2} sát thương vật lý.",
+    "books": {
+      "0": "Tăng {0}% sát thương.",
+      "1": "Tăng {0}% sát thương.",
+      "2": "Gây choáng đối thủ nhận sát thương trong 3 giây."
+    },
+    "light": "Lượng sát thương tăng 40%.",
+    "dark": "Thời gian dùng lại chiêu của mỗi kẻ địch bị sát thương đòn chí mạng sẽ giảm 10%.",
+    "ut": {
+      "name": "Niềm kiêu hãnh của gió",
+      "description": [
+        "Thời gian đợi hồi chiêu của [Ném bom bổ nhào] giảm 30% và trong 10 giây sẽ làm tăng 10% sát thương vật lý đối thủ nhận phải.",
+        "Thời gian đợi hồi chiêu của [Ném bom bổ nhào] giảm 30% và trong 10 giây sẽ làm tăng 12% sát thương vật lý đối thủ nhận phải.",
+        "Thời gian đợi hồi chiêu của [Ném bom bổ nhào] giảm 30% và trong 10 giây sẽ làm tăng 14% sát thương vật lý đối thủ nhận phải.",
+        "Thời gian đợi hồi chiêu của [Ném bom bổ nhào] giảm 30% và trong 10 giây sẽ làm tăng 17% sát thương vật lý đối thủ nhận phải.",
+        "Thời gian đợi hồi chiêu của [Ném bom bổ nhào] giảm 30% và trong 10 giây sẽ làm tăng 21% sát thương vật lý đối thủ nhận phải.",
+        "Thời gian đợi hồi chiêu của [Ném bom bổ nhào] giảm 30% và trong 10 giây sẽ làm tăng 25% sát thương vật lý đối thủ nhận phải."
+      ],
+      "story": "Một lễ vật của những người tôn thờ thần gió cổ đại. Đó là báu vật của Tiên nữ cánh chim, tương truyền được trao cho chiến binh mạnh nhất. Ngay khi đeo chiếc mặt nạ này, người đeo có thể thoải mái dùng sức mạnh của gió. Họ cũng có thể tấn công với tốc độ ánh sáng."
+    }
+  },
+  "s4": {
+    "name": "Lốc xoáy tấn công",
+    "description": "Tấn công lần thứ 5 của tấn công thường gây thêm {0} sát thương vật lý lên đối thủ với xác suất 40% và đẩy ngã.",
+    "books": {
+      "0": "Tăng {0}% sát thương.",
+      "1": "Tăng {0}% sát thương.",
+      "2": "Tăng {0}% sát thương."
+    },
+    "light": "Thay đổi xác suất phát động thành 60%.",
+    "dark": "Khi ra chiêu hiệu ứng, tốc độ tấn công của bản thân tăng 300."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / P.Dodge +100",
+    "dark": "Nếu tránh đòn tấn công, thời gian đợi dùng lại tất cả các chiêu sẽ giảm 2%. Lực tấn công tăng 3%, tốc độ tấn công tăng 30. Hiệu quả tăng lực tấn công, tốc độ tấn công có thể cộng dồn tối đa 10 lần."
+  }
+}

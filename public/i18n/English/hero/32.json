@@ -1,0 +1,120 @@
+{
+  "name": "Lewisia",
+  "subtitle": "The Royal Vermilion Blood",
+  "description": "A vampire princess who fought alongside the heroes from 100 years ago. A pure-blooded immortal vampire, she is currently recovering from her past battles. She wields dominion over all blood, utilizing her minions to attack the enemy.",
+  "story": "A Vampire princess who joined Kyle in his war against the Demons 100 years ago. She is a pure-blood Vampire who has lived for over 500 years. Often considered the Queen of Vampires, she is nigh immortal. The tremendous expenditure of her power during the war against the Demons has taken its toll, and the immortal princess now assumes a child-like form. After the war, she blended into Human society and watched the world change over the next 100 years while slowly restoring her power. When the Demons reappeared and the Holy Sword awoke, Lewisia sensed the sudden shifts of energy. Soon after, she left on a journey to find and observe the newly chosen warrior.",
+  "like": "Traveling leisurely and comfortably",
+  "dislike": "War and disorder",
+  "inn": {
+    "idle": "How energetic. Perfect for recuperation.",
+    "recruit": {
+      "greet": "Greetings, we meet again. Are you staying for a while?",
+      "talk": [
+        "Hm? I admit that garlic is rather spicy, but why do you ask?",
+        "I love the bright sunshine here. Back at home, it is always so dark....Hmm? Why are you looking at me that way?",
+        "Once I recover, I will not be inconvenienced with such a body anymore."
+      ],
+      "gift": "Presents, hmm. An interesting custom. Well, if you insist, I will accept your gift."
+    },
+    "affinity": {
+      "greet": "Hm, it's a great day.",
+      "talk": [
+        "My status as a princess? Hm... I've never really thought about it.",
+        "This place is much better than the dark and damp place where I'm from."
+      ],
+      "gift": "A gift? Thank you. I'll have to prepare something for you next time."
+    },
+    "relationship": {
+      "greet": "Hello. Isn't it quite nice out today?",
+      "talk": [
+        "My body is recovering quickly nowadays. It's all thanks to you.",
+        "Why do I sometimes revert to my younger forms even when I'm getting better? Well, I get bored...and people give me snacks.",
+        "I like this place because it's comfortable... so i plan to stay a bit longer, by your side."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Scarlet Ruler, Dominicia",
+    "description": [
+      "If HP is over 50%, ATK is increased by 20%. If HP is under 50%, takes 10% reduced DMG.",
+      "If HP is over 50%, ATK is increased by 24%. If HP is under 50%, takes 12% reduced DMG.",
+      "If HP is over 50%, ATK is increased by 29%. If HP is under 50%, takes 14% reduced DMG.",
+      "If HP is over 50%, ATK is increased by 35%. If HP is under 50%, takes 17% reduced DMG.",
+      "If HP is over 50%, ATK is increased by 42%. If HP is under 50%, takes 21% reduced DMG.",
+      "If HP is over 50%, ATK is increased by 50%. If HP is under 50%, takes 25% reduced DMG."
+    ],
+    "story": "A staff of blood that has been passed down in the family of the Vampire Lord through the generations. Its crimson color symbolizes the authority, insight, and the absolute power of the Vampire Lord. Deep in the underground of the Galia Plains is the holy land of the Vampires. This legendary staff lies there, ready to appear at the call of the master worthy of it, wherever that may be."
+  },
+  "s1": {
+    "name": "Blood Orb",
+    "description": "Deals {0} M.DMG to target enemy, and target takes 25% increased M.DMG for 10 sec. Per every stacked Blood Curse, DMG is increased by 0.5%. Upon use, consumes 10% of current HP.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Mana cost is increased by 1 orb but DMG is boosted by 100%.",
+    "dark": "Target takes 25% increased M.DMG for 10 sec."
+  },
+  "s2": {
+    "name": "Blood Zone",
+    "description": "Deals {0} M.DMG to target enemy and creates a Blood Zone that lasts for 10 sec around the target. Enemies within the Blood Zone receives {1} M.DMG every 0.5 sec, and M.DEF is reduced by 30%. Per every stacked Blood Curse, DMG is increased by 0.5%. Upon use, consumes 20% of current HP.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "DMG is increased by 40%.",
+    "dark": "Cooldown is reduced by 3 sec.",
+    "ut": {
+      "name": "Spell of Bloody Mist",
+      "description": [
+        "[Blood Zone] Increases DMG by 20% and the effect duration by 2 sec.",
+        "[Blood Zone] Increases DMG by 24% and the effect duration by 2 sec.",
+        "[Blood Zone] Increases DMG by 29% and the effect duration by 2 sec.",
+        "[Blood Zone] Increases DMG by 35% and the effect duration by 2 sec.",
+        "[Blood Zone] Increases DMG by 42% and the effect duration by 2 sec.",
+        "[Blood Zone] Increases DMG by 50% and the effect duration by 2 sec."
+      ],
+      "story": "Magic tool of the successor of blood. The spells of the pure Vampire Lord's family have been passed down through generations.  The successor of Lewisia is Vampire Sir Lusben, and the Spell of Bloody Mist is a gift from him.  Lewisia hates anything that has to do with being a successor, but she likes how the Blood Zone reduces her fatigue, so she enjoys using it."
+    }
+  },
+  "s3": {
+    "name": "Blood Banquet",
+    "description": "Attacks enemies in a straight line 3 times, dealing a total of {0} M.DMG and inflicting Stun for 3 sec. Per every stacked Blood Curse, DMG is increased by 0.5% Upon use, consumes 10% of current HP.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Upon attacking an enemy with over 80 stacks of Blood Curse, all skill cooldown is reduced by 5%.",
+    "dark": "Mana cost is reduced by 1.",
+    "ut": {
+      "name": "Blood of the Ancients",
+      "description": [
+        "[Blood Banquet] DMG is increased by 20%, and upon Crit Hit, recovers 400 mana.",
+        "[Blood Banquet] DMG is increased by 24%, and upon Crit Hit, recovers 400 mana.",
+        "[Blood Banquet] DMG is increased by 29%, and upon Crit Hit, recovers 400 mana.",
+        "[Blood Banquet] DMG is increased by 35%, and upon Crit Hit, recovers 400 mana.",
+        "[Blood Banquet] DMG is increased by 42%, and upon Crit Hit, recovers 400 mana.",
+        "[Blood Banquet] DMG is increased by 50%, and upon Crit Hit, recovers 400 mana"
+      ],
+      "story": "Ancient vampire queen's blood. The more pure-blooded a vampire is, the stronger their mana blood. The greatest of them all is the ancient vampire queen's blood, and vampires who drink her blood will have unlimited life and mana. It is a highly addictive type of blood, so be careful when using it."
+    }
+  },
+  "s4": {
+    "name": "Blood Dominator",
+    "description": "When HP is 50% or above, ATK is increased by {0} and DEF Pen. is increased by 250. Upon attack, inflicts target with Blood Curse, dealing a total of {1} M.DMG over time for 20 sec, and recovering 10% of DMG dealt from Blood Curse as HP. Blood Curse can be stacked max 100 times, and cannot be dispelled.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Max stack of Blood Curse is changed to 200 stacks.",
+    "dark": "All allies' heal rate is increased by 20% and all enemies' heal rate is reduced by 20%."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / Crit Chance +100",
+    "dark": "All skill HP consumption is increased by 50% but cooldowns are reduced by 20%."
+  }
+}

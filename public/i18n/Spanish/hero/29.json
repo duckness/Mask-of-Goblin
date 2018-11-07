@@ -1,0 +1,120 @@
+{
+  "name": "Luna",
+  "subtitle": "Niño luz de Luna",
+  "description": "Un niño no identificado que maneja una honda tan grande como su cuerpo. Sus proyectiles ganan fuerza cuanto más vuelan.",
+  "story": "Los lulus, rara vez vistos y a menudo considerados mítico, son una raza de animales híbridos. Viven en una región extremadamente fría y temen mucho entrar en contacto con el mundo exterior. Un día, una niña lulu nació con una personalidad completamente opuesta a la convencional en su raza. Esa niña es Luna. No es que haya sido infeliz por la forma en que se comportaba la gente de su raza, ni tampoco tenía un gran propósito de experimentar el mundo exterior. Simplemente recogía flores, un paso a la vez. Otro paso para recoger unas ramas congeladas para su resortera. Y otro paso para seguir el aroma de algún fruto rojo y dulce. Antes de darse cuenta, ya estaba fuera, corriendo hacia una plantación de zanahorias lejos de la montaña.",
+  "like": "Zanahorias, amigos",
+  "dislike": "Hambre",
+  "inn": {
+    "idle": "Hola ¿Tienes zanahorias?",
+    "recruit": {
+      "greet": "¡Hola! Hola a ti también ¡Hola a todos!",
+      "talk": [
+        "¿Sabes lo que es esto? Zanahorias",
+        "Las zanahorias son de color zanahoria! Yay!",
+        "Conejo? ¡Nah, Luna es Luna!"
+      ],
+      "gift": "Yay, zanahorias !! Espera ¡Éstas no son zanahorias !!"
+    },
+    "affinity": {
+      "greet": "¡Hola! ¡Volvió Luna!",
+      "talk": [
+        "¡Este lugar es divertido! ¡A Luna le gusta mucho, mucho!",
+        "¡Luna te bendecirá! ¡Con zanahorias!"
+      ],
+      "gift": "Es una zanahoria real, ¿no?"
+    },
+    "relationship": {
+      "greet": "Luna está bien!",
+      "talk": [
+        "Luna tiene muchos amigos en su ciudad natal! Pero ella no recuerda dónde está su hogar!",
+        "Todos creen que la comida favorita de Luna son las zanahorias! Y sí, eso es correcto ~!",
+        "Ah, um... tienes una zanahoria?"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Flor de la Eternidad, Hyacinth",
+    "description": [
+      "Aumenta el daño de ataques normales en un 20 % y el rango en un 6 %.",
+      "Aumenta el daño de ataques normales en un 24 % y el rango en un 7.2 %.",
+      "Aumenta el daño de ataques normales en un 29 % y el rango en un 8.6 %.",
+      "Aumenta el daño de ataques normales en un 35 % y el rango en un 10.5 %.",
+      "Aumenta el daño de ataques normales en un 42 % y el rango en un 12.5 %.",
+      "Aumenta el daño de ataques normales en un 50 % y el rango en un 15 %."
+    ],
+    "story": "Una honda fabricada de jacinto, un árbol plateado que solo crece en regiones extremadamente frías. Se dice que los jacintos fueron bendecidos por la reina del hielo y pueden portar frutos rojos y luminosos incluso con los climas más fríos. El simple hecho de sujetar la rama de un jacinto permite que uno pueda ignorar la frialdad de quien la sostiene. Estos árboles benditos también tienen el poder de invocar tormentas de nieve y heladas. Obviamente, se puede aprovechar mejor estos poderes con un arma fabricada con uno de estos árboles."
+  },
+  "s1": {
+    "name": "Sientate!",
+    "description": "Causa {0} Daño Magico disparando un proyectil que rebota al enemigo más cercano, que rebote 3 veces. Cuanto más lejos esta el enemigo, más Daño recibe",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Si hay 1 enemigo, el Daño se incrementa en un 100%.",
+    "dark": "Los enemigos golpeados quedan aturdidos durante 1 seg."
+  },
+  "s2": {
+    "name": "Mira encima tuyo!",
+    "description": "Causa {0} Daño Magico dentro de un area pequeña centrada en el enemigo más lejano. Aturde a los objetivos por {1} seg. Cuanto más lejos esta el enemigo, más Daño recibe",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "A cambio de 2 Maná adicional, ataca a enemigos aleatorios 3 veces.",
+    "dark": "Ignora el Bloqueo enemigo.",
+    "ut": {
+      "name": "Zanahoria de luz de luna",
+      "description": [
+        "[¡Mira hacia arriba!] Aumenta el Daño en un 20 % y reduce el Tiempo de reutilización en un 10 % al momento del Golpe crítico.",
+        "[¡Mira hacia arriba!] Aumenta el Daño en un 24 % y reduce el Tiempo de reutilización en un 10 % al momento del Golpe crítico.",
+        "[¡Mira hacia arriba!] Aumenta el Daño en un 29 % y reduce el Tiempo de reutilización en un 10 % al momento del Golpe crítico.",
+        "[¡Mira hacia arriba!] Aumenta el Daño en un 35 % y reduce el Tiempo de reutilización en un 10 % al momento del Golpe crítico.",
+        "[¡Mira hacia arriba!] Aumenta el Daño en un 42 % y reduce el Tiempo de reutilización en un 10 % al momento del Golpe crítico.",
+        "[¡Mira hacia arriba!] Aumenta el Daño en un 50 % y reduce el Tiempo de reutilización en un 10 % al momento del Golpe crítico."
+      ],
+      "story": "Una zanahoria que creció tras haber recibido luz de la luna mil veces. Esta zanahoria quitará cualquier malicia de quienes sean golpeados por ella y así podrán diferenciar el bien del mal."
+    }
+  },
+  "s3": {
+    "name": "Parpadear Parpadear",
+    "description": "Causa {0} Daño Magico a los objetivos al alcance, y reduce su Oportunidad Crit en {2}% por {1} seg.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Reduce la precisión de los enemigos golpeados en 150 por 7 segundos",
+    "dark": "A cambio de 1 Maná adicional, derriba al enemigo a larga distancia.",
+    "ut": {
+      "name": "Flor de nieve que no se derrite",
+      "description": [
+        "[Brilla Brilla] El Daño aumenta en un 20% y el objetivo infligido con la reducción de Oportunidad Crít. no puede disipar el efecto.",
+        "[Brilla Brilla] El Daño aumenta en un 24% y el objetivo infligido con la reducción de Oportunidad Crít. no puede disipar el efecto.",
+        "[Brilla Brilla] El Daño aumenta en un 29% y el objetivo infligido con la reducción de Oportunidad Crít. no puede disipar el efecto.",
+        "[Brilla Brilla] El Daño aumenta en un 35% y el objetivo infligido con la reducción de Oportunidad Crít. no puede disipar el efecto.",
+        "[Brilla Brilla] El Daño aumenta en un 42% y el objetivo infligido con la reducción de Oportunidad Crít. no puede disipar el efecto.",
+        "[Brilla Brilla] El Daño aumenta en un 50% y el objetivo infligido con la reducción de Oportunidad Crít. no puede disipar el efecto."
+      ],
+      "story": "Una legendaria flor de los campos nevados que floreció en la Montaña Nevada Tierra del Viento, un lugar donde la nieve nunca se derrite. Se dice que hace que la energía del cuerpo de su maestro fluya de forma clara y bella. Un artículo que hace que la energía pura de Luna brille aún con mayor intensidad."
+    }
+  },
+  "s4": {
+    "name": "Te tengo!",
+    "description": "Cada {0} seg, causa {2} Daño Magico al enemigo más lejano por {1} seg. Cuanto más lejos esta el enemigo, más Daño recibe.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Hay un 20% de probabilidad de derribar al enemigo lejano e infligir un golpe durante 2 seg.",
+    "dark": "El número de objetivos cambia a 2."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Daño Crit+20%",
+    "dark": "Cuando se ataca automáticamente, hay un 10% de probabilidad de derribar al enemigo de larga distancia y aturdirlo durante 3 seg. Además, aumenta la Veloc de ATQ por 500 durante 3 seg."
+  }
+}

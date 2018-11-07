@@ -1,0 +1,120 @@
+{
+  "name": "Selena",
+  "subtitle": "Flecha rompe Viento",
+  "description": "Una Princesa Elfa que, cuida el bosque sagrado. Las flechas llenas de energía lunar siguen su voluntad para rastrear enemigos y  flechas llenas de energía eólica perforan ferozmente al enemigo.",
+  "story": "Ésta noble princesa de elfos admira a la sagrada espada y a su guerrero escogido. Ella lucha con todo lo que está a su alcance para hacer lo correcto, y quiere que los demás hagan los mismo. Es por eso que ofrece una crítica genuina a quien se desvíe del camino de la justicia, aunque sea el guerrero de la sagrada espada. Lamentablemente, su sólida determinación a veces es malentendida por los demás. A menudo visita a su hermana menor, Dosarta en su torre para hacerle compañía.",
+  "like": "Aquellos que trabajan en armonía y toman responsabilidades",
+  "dislike": "Aquellos que abandonan sus propias creencias, aquellos que huyen del peligro",
+  "inn": {
+    "idle": "Oh,Así que los humanos duermen en lugares como este?",
+    "recruit": {
+      "greet": "Esta todo bien? Deseo que tu dia esté lleno de luz",
+      "talk": [
+        "¿Te he llamado la atención?",
+        "Las personas refinadas son siempre bienvenidas.",
+        "Por qué no, supongo que podría escucharte."
+      ],
+      "gift": "Gracias por el regalo. Es bonito."
+    },
+    "affinity": {
+      "greet": "Haberte conocido hizo de este un gran día.",
+      "talk": [
+        "He vivido para proteger el bosque desde que era muy joven. Por eso siempre me encantó la historia de la Espada Sagrada.",
+        "El Guerrero de la Espada Sagrada, que derrotó al Señor Oscuro y trajo paz al mundo hace 100 años... Ahora, debemos crear una nueva leyenda."
+      ],
+      "gift": "¡Esto es...! Muchas gracias por tu generosidad."
+    },
+    "relationship": {
+      "greet": "Hoy parece ser otro día agradable y soleado, lleno de felicidad y calidez.",
+      "talk": [
+        "Quizás he sido demasiado duro con el Guerrero, forzando mis ideales y pensamientos sobre él...",
+        "Visita el Bosque de Elidora en algún momento. Te recibiré personalmente",
+        "Este arco es una muestra especial de amistad que me dio un Elemental del Viento. Si lo deseas, puedes tocarlo."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Vientos Verdes, Notos",
+    "description": [
+      "Al infligir un Golpe Crit., la Veloc de Ataque aumenta en 200 durante 10 seg. Los ataques automáticos dispararán una flecha adicional con un 100% de Daño Fis. Durante la duracion del ataque.",
+      "Al infligir un Golpe Crit., la Veloc de Ataque aumenta en 240 durante 10 seg. Los ataques automáticos dispararán una flecha adicional con un 120% de Daño Fis. Durante la duracion del ataque.",
+      "Al infligir un Golpe Crit., la Veloc de Ataque aumenta en 280 durante 10 seg. Los ataques automáticos dispararán una flecha adicional con un 140% de Daño Fis. Durante la duracion del ataque.",
+      "Al infligir un Golpe Crit., la Veloc de Ataque aumenta en 340 durante 10 seg. Los ataques automáticos dispararán una flecha adicional con un 170% de Daño Fis. Durante la duracion del ataque.",
+      "Al infligir un Golpe Crit., la Veloc de Ataque aumenta en 410 durante 10 seg. Los ataques automáticos dispararán una flecha adicional con un 210% de Daño Fis. Durante la duracion del ataque.",
+      "Al infligir un Golpe Crit., la Veloc de Ataque aumenta en 500 durante 10 seg. Los ataques automáticos dispararán una flecha adicional con un 250% de Daño Fis. Durante la duracion del ataque."
+    ],
+    "story": "Un arco bendecido con el aliento de un Silfo, el elemento del viento. Solo una persona de noble carácter puede sostenerlo. Cuando se desenfunda, el arco se encoca a sí mismo con una flecha mágica mortal creada a partir del aliento del Elemental. Guiada por el Viento Elemental, la flecha nunca falla su objetivo, sin importar donde se oculte. Selena ha compartido lazos especiales con sus Elementales desde niña. Estuvo especialmente apegada a Silfo, quien encantó su arco como señal de su amistad."
+  },
+  "s1": {
+    "name": "Lluvia de Flechas",
+    "description": "Dispara 12 flechas aleatoriamente e inflige  {0}  Daño Fis. sobre el enemigo.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "El Daño se incrementa en un 40%.",
+    "dark": "Hay un 20% de probabilidad de infligir Aturdimiento durante 2 seg."
+  },
+  "s2": {
+    "name": "Embestir",
+    "description": "Convoca 5 flechas que vuelen hacia el enemigo al auto-atacar. Cada flecha inflige  {0}  Daño Fis.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Ignora DEF cuando sólo hay un enemigo.",
+    "dark": "Hace que el enemigo se estremezca durante 0,5 segundos.",
+    "ut": {
+      "name": "Piedra de sello de espíritu de viento",
+      "description": [
+        "[Embestir] Aumenta el Daño en un 20 % y tiene un 15 % de probabilidades de invocar 1 Flecha para embestir en un ataque normal.",
+        "[Embestir] Aumenta el Daño en un 24 % y tiene un 15 % de probabilidades de invocar 1 Flecha para embestir en un ataque normal.",
+        "[Embestir] Aumenta el Daño en un 29 % y tiene un 15 % de probabilidades de invocar 1 Flecha para embestir en un ataque normal.",
+        "[Embestir] Aumenta el Daño en un 35 % y tiene un 15 % de probabilidades de invocar 1 Flecha para embestir en un ataque normal.",
+        "[Embestir] Aumenta el Daño en un 42 % y tiene un 15 % de probabilidades de invocar 1 Flecha para embestir en un ataque normal.",
+        "[Embestir] Aumenta el Daño en un 50 % y tiene un 15 % de probabilidades de invocar 1 Flecha para embestir en un ataque normal."
+      ],
+      "story": "Una piedra en la que está sellado un salvaje elemental de arco de viento. El elemental causó demasiados problemas con sus perversas travesuras, así que el rey Hada lo selló. El agresivo elemental de viento llena las flechas con viento destructivo, lo que aumenta 5 veces o más su poder asesino."
+    }
+  },
+  "s3": {
+    "name": "Claro de Luna",
+    "description": "Dispara una flecha en línea recta, causando Daño Fis. a todos los enemigos al alcance basado en su actual Salud. Causa un máximo de  {0}  Daño Fis. Y destruccion.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Reduce el tiempo de reutilización en 3 seg.",
+    "dark": "Ignora el Bloqueo enemigo.",
+    "ut": {
+      "name": "Flecha de plata",
+      "description": [
+        "[Luz de Luna] El Daño aumenta en un 20% y el objetivo recibe un 20% de Daño Fís. adicional durante 10 segundos.",
+        "[Luz de Luna] El Daño aumenta en un 24% y el objetivo recibe un 20% de Daño Fís. adicional durante 10 segundos.",
+        "[Luz de Luna] El Daño aumenta en un 29% y el objetivo recibe un 20% de Daño Fís. adicional durante 10 segundos.",
+        "[Luz de Luna] El Daño aumenta en un 35% y el objetivo recibe un 20% de Daño Fís. adicional durante 10 segundos.",
+        "[Luz de Luna] El Daño aumenta en un 42% y el objetivo recibe un 20% de Daño Fís. adicional durante 10 segundos.",
+        "[Luz de Luna] El Daño aumenta en un 50% y el objetivo recibe un 20% de Daño Fís. adicional durante 10 segundos."
+      ],
+      "story": "Punta de flecha infundida con la bendición de la diosa de la caza y la luna. Un artefacto antiguo que se pasa de generación en generación al mejor cazador élfico. Se dice que la diosa de la caza y la luna cuidaba a los elfos que protegían el bosque sagrado, y les prestó sus poderes a través del artefacto. La flecha de plata infundida con el poder de la diosa de la luna tiene un poder misterioso que permite a los usuarios vencer a sus enemigos y amplificar el daño."
+    }
+  },
+  "s4": {
+    "name": "Flecha Luz de Luna",
+    "description": "Al atacar, aumenta el Ataque en {1} y la Probabilidad de crítico en {2} durante {0} segundo(s). Este efecto se acumula hasta 3 veces.",
+    "books": {
+      "0": "El Poder de Ataque aumenta en  {0}%.",
+      "1": "El Poder de Ataque aumenta en  {0}%.",
+      "2": "Cada ataque aumenta el Daño Crit. Del heroe en {0}%."
+    },
+    "light": "Numero Maximo de Acumulacion cambia a 5",
+    "dark": "El rango de ataque automático se incrementa en un 20%."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Daño Crit+20%",
+    "dark": "La Oportunidad Crit. se reduce en 300 y el Daño Crit. aumenta en un 100%."
+  }
+}

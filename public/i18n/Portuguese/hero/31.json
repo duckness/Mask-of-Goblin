@@ -1,0 +1,120 @@
+{
+  "name": "Arco",
+  "subtitle": "Flecha do Arco",
+  "description": "Um anjo de alto escalão que desceu sobre este mundo para punir os Demônios Incitadores do caos. Subindo pelo céu, suas flechas precipitam o juízo sobre os malfeitores.",
+  "story": "Um Anjo guerreiro que desceu dos Céus para punir os Demônios e deter a disseminação do caos na Terra. As tarefas que recebeu incluem observar, realizar missões de reconhecimento e executar qualquer Demônio encontrado na Terra. Ele tem um forte senso de responsabilidade, e é rápido e determinado em face de qualquer injustiça. Ele realmente ama a raça humana e todas as formas de vida que habitam a Terra. É por isso que ele almeja impedir que os Demônios profanem este mundo.",
+  "like": "Paz e estabilidade",
+  "dislike": "Demônios",
+  "inn": {
+    "idle": "Hm? Acho que acabei de ver um demônio...",
+    "recruit": {
+      "greet": "Saudações, habitantes da terra.",
+      "talk": [
+        "Minhas asas são tão interessantes assim?",
+        "Sentir o mal é a minha vocação.",
+        "Você pode ver que suas próprias vidas são abençoadas pela deusa."
+      ],
+      "gift": "Que a luz guie o seu caminho."
+    },
+    "affinity": {
+      "greet": "Bom ver você, seguidor(a) da luz.",
+      "talk": [
+        "O destino do mundo está em suas mãos.",
+        "Você, que recebeu a bênção da deusa; o que fará com esse poder?"
+      ],
+      "gift": "Não sei como vou usá-lo, mas agradeço."
+    },
+    "relationship": {
+      "greet": "Que a luz esteja com você, meu amigo.",
+      "talk": [
+        "Demônios... eles são párias que devem ser executados, mas os poucos que nos ajudam... Eu não sei o que fazer com eles.",
+        "Sua existência é como um farol. Mantenha sua alma pura, meu amigo.",
+        "Eu cheguei a pensar que a sua espécie era fraca. Mas, agora, eu aprendi que a força surge de diversas formas."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Sherrkyle, Céu Azul",
+    "description": [
+      "A cada 10 segundos, causa um Sigilo de Julgamento a um inimigo aleatório durante 15 segundos e 168% de ATQ na forma de DAN.M.",
+      "A cada 10 segundos, causa um Sigilo de Julgamento a um inimigo aleatório durante 15 segundos e 201,6% de ATQ na forma de DAN.M.",
+      "A cada 10 segundos, causa um Sigilo de Julgamento a um inimigo aleatório durante 15 segundos e 241,5% de ATQ na forma de DAN.M.",
+      "A cada 10 segundos, causa um Sigilo de Julgamento a um inimigo aleatório durante 15 segundos e 289,8% de ATQ na forma de DAN.M.",
+      "A cada 10 segundos, causa um Sigilo de Julgamento a um inimigo aleatório durante 15 segundos e 348,6% de ATQ na forma de DAN.M.",
+      "A cada 10 segundos, causa um Sigilo de Julgamento a um inimigo aleatório durante 15 segundos e 420% de ATQ na forma de DAN.M."
+    ],
+    "story": "Uma poderosa arma de luz capaz de assumir a forma de uma lança, de um punhal ou de um arco. É um dos tesouros divinos dos Anjos abençoados por um arcanjo. Dizem que ela é capaz de incinerar o mal. Devido à sua versatilidade, a arma é tradicionalmente dada ao batedor mais talentoso. O número de Demônios que pereceram sob sua luz durante a guerra é alto demais para contar."
+  },
+  "s1": {
+    "name": "Flecha Celestial",
+    "description": "Causa {0} de DAN.M e repele 3 inimigos. Quando atingir um inimigo com um Sigilo de Julgamento, este recebe mais 30% de DAN. Os inimigos atingidos com este poder recebem um Sigilo de Julgamento durante 15 segundos.",
+    "books": {
+      "0": "DAN aumentado em {0}%.",
+      "1": "DAN aumentado em {0}%.",
+      "2": "DAN aumentado em {0}%."
+    },
+    "light": "Se houver 1 inimigo, aumenta o DAN em 100%.",
+    "dark": "Atordoa inimigos com um Sigilo durante 1 segundo."
+  },
+  "s2": {
+    "name": "Fulgor da Purificação",
+    "description": "Causa {0} de DAN.M a todos os inimigos numa linha reta. Os inimigos com um Sigilo de Julgamento recebem {1} de DAN.M adicional que ignoram a DEF.M.",
+    "books": {
+      "0": "DAN aumentado em {0}%.",
+      "1": "DAN aumentado em {0}%.",
+      "2": "DAN aumentado em {0}%."
+    },
+    "light": "Reforça a Chance Crít. em 40%.",
+    "dark": "Reduz o tempo de recarga em 3 segundos.",
+    "ut": {
+      "name": "Quadrado Mágico da Busca",
+      "description": [
+        "[Fulgor da Purificação] Reduz o Custo de Mana em 1 e aumenta o DAN em 20%.",
+        "[Fulgor da Purificação] Reduz o Custo de Mana em 1 e aumenta o DAN em 24%.",
+        "[Fulgor da Purificação] Reduz o Custo de Mana em 1 e aumenta o DAN em 29%.",
+        "[Fulgor da Purificação] Reduz o Custo de Mana em 1 e aumenta o DAN em 35%.",
+        "[Fulgor da Purificação] Reduz o Custo de Mana em 1 e aumenta o DAN em 42%.",
+        "[Fulgor da Purificação] Reduz o Custo de Mana em 1 e aumenta o DAN em 50%."
+      ],
+      "story": "O símbolo do Exército de Árbitros do Fogo que lutou uma dura batalha contra os Demônios Anciões. Ao usar o Quadrado Mágico da Busca abençoado por Lua, a Deusa da Luz, Arch se torna um árbitro implacável."
+    }
+  },
+  "s3": {
+    "name": "Árbitro",
+    "description": "Causa {0} de DAN.M aos inimigos no alcance. Os inimigos com um Sigilo de Julgamento recebem mais 50% de DAN.M de ataques e são silenciados durante 5 segundos. Todos os aliados ganham imunidade a DAN.M durante 5 segundos.",
+    "books": {
+      "0": "DAN aumentado em {0}%.",
+      "1": "DAN aumentado em {0}%.",
+      "2": "DAN aumentado em {0}%."
+    },
+    "light": "Confere um sigilo aos inimigos que sofreram dano.",
+    "dark": "Causa aumento de DAN.M e Silêncio ocorrem também aos inimigos sem o Sigilo.",
+    "ut": {
+      "name": "Olho do Paraíso",
+      "description": [
+        "[Árbitro] Aumenta o DAN em 20% e o ATQ de todos os aliados aumenta em 30% durante o efeito de Escudo.M.",
+        "[Árbitro] Aumenta o DAN em 24% e o ATQ de todos os aliados aumenta em 30% durante o efeito de Escudo.M.",
+        "[Árbitro] Aumenta o DAN em 29% e o ATQ de todos os aliados aumenta em 30% durante o efeito de Escudo.M.",
+        "[Árbitro] Aumenta o DAN em 35% e o ATQ de todos os aliados aumenta em 30% durante o efeito de Escudo.M.",
+        "[Árbitro] Aumenta o DAN em 42% e o ATQ de todos os aliados aumenta em 30% durante o efeito de Escudo.M.",
+        "[Árbitro] Aumenta o DAN em 50% e o ATQ de todos os aliados aumenta em 30% durante o efeito de Escudo.M."
+      ],
+      "story": "Ovo da alma do Anjo Arbiter Pilier. Pilier nasceu da primeira chama de Lua, e é o mestre de Arch. Pilier foi o melhor Anjo guerreiro e foi um dos que acabaram com a guerra contra os Demônios. Mas depois de usar todo o seu poder, ele voltou a ser um Olho do Paraíso, que é a forma de ovo da alma, e Arch está preservando a alma de seu mestre."
+    }
+  },
+  "s4": {
+    "name": "O Último Julgamento",
+    "description": "A cada 15 segundos, causa {0} de DAN.M a inimigos infligidos por Sigilo do Julgamento, ignorando a DEF. Durante cada batalha, ao se aproximar do PV de morte, causa {1} de DAN.M aos inimigos infligidos pelos Sigilos do Julgamento e os atordoa por 3 segundos, enquanto conjura um escuro que bloqueia {2} de DAN a todos os aliados por 5 segundos. Ganha imunidade a CM enquanto o escudo estiver sob efeito. Quando o escudo estiver sob efeito, consome toda a mana, e toda a recarga de poder aumenta em 50%.",
+    "books": {
+      "0": "DAN e Escudo aumentados em {0}%.",
+      "1": "DAN e Escudo aumentados em {0}%.",
+      "2": "DAN e Escudo aumentados em {0}%."
+    },
+    "light": "Durante 20 segundos depois de ativar, os ataques automáticos visam a 2 inimigos.",
+    "dark": "Acelera em 3 segundos o efeito."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / Chance Crít. +100",
+    "dark": "Ao realizar um Acerto Crít. cura uma quantidade de PV de um aliado, equivalente a 4% do DAN causado."
+  }
+}

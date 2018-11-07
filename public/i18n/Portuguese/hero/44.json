@@ -1,0 +1,120 @@
+{
+  "name": "Priscilla",
+  "subtitle": "Donzela de Aço",
+  "description": "Pertence formalmente a mais alta ordem do Exército de Orvelia, ela se tornou a criada da maga Aisha; a única filha da nobre família Daphnel Pon. Sua poderosa alabarda corta os inimigos rapidamente.",
+  "story": "Uma antiga oficial das forças armadas de Orvelia. Depois de uma tentativa fracassada de revelar a corrupção dos líderes militares, foi expulsa do seu posto. Buscando esconder sua corrupção, os líderes militares constantemente enviavam assassinos para eliminá-la. A longa e solitária luta estava começando a cobrar seu preço, tanto no aspecto físico quanto no mental. Certo dia, a aristocrática família von Daphnel lhe ofereceu proteção em troca dos seus serviços. Ela aceitou, e desde então trabalha como criada de Aisha na Torre dos Sábios. Até hoje, ela cumpre fielmente seus deveres como criada guarda-costas. No entanto, manda todos os seus pagamentos para um destinatário desconhecido.",
+  "like": "Companheiros de armas, sua senhora, belos trajes para a sua senhora",
+  "dislike": "Desleixo, injustiça",
+  "inn": {
+    "idle": "A senhorita está tirando um cochilo no momento.",
+    "recruit": {
+      "greet": "A senhorita não está no quarto no momento.",
+      "talk": [
+        "...",
+        "Até a próxima oportunidade.",
+        "Não sou mais um soldado."
+      ],
+      "gift": "Eu não estou acostumado a este tipo de presentes, mas obrigado."
+    },
+    "affinity": {
+      "greet": "Olha só quem é. Que bom ver você.",
+      "talk": [
+        "Espero que a minha senhora goste do novo jogo de chá que eu comprei.",
+        "Vou ter que dar uma passada na forja pra afiar meu machado."
+      ],
+      "gift": "Obrigada. Espero que você prepare um chazinho da próxima vez."
+    },
+    "relationship": {
+      "greet": "Então é você... já faz muito tempo.",
+      "talk": [
+        "Talvez os meus antigos subordinados sofreram muito com a explosão da minha jovialidade...",
+        "Ela era uma criança tão pequena, se esforçando tanto para ser adulta... Então, eu senti que eu tinha que protegê-la.",
+        "Eu estou satisfeita com a minha vida no momento. Meu salário é bom o suficiente para me ajudar com as vidas dos meus antigos subordinados também."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Excilius, Dança Turbulenta",
+    "description": [
+      "Quando os poderes 'Ataque Vital' e 'Dança Turbulenta' atingem o inimigo, o tempo de recarga do poder correspondente se reduz em 1 segundo e a VEL. ATQ aumenta em 50 pela quantidade de inimigos atingidos. O reforço de VEL. ATQ pode se acumular até 10 vezes.",
+      "Quando os poderes 'Ataque Vital' e 'Dança Turbulenta' atingem o inimigo, o tempo de recarga do poder correspondente se reduz em 1,2 segundo e a VEL. ATQ aumenta em 50 pela quantidade de inimigos atingidos. O reforço de VEL. ATQ pode se acumular até 10 vezes.",
+      "Quando os poderes 'Ataque Vital' e 'Dança Turbulenta' atingem o inimigo, o tempo de recarga do poder correspondente se reduz em 1,4 segundo e a VEL. ATQ aumenta em 50 pela quantidade de inimigos atingidos. O reforço de VEL. ATQ pode se acumular até 10 vezes.",
+      "Quando os poderes 'Ataque Vital' e 'Dança Turbulenta' atingem o inimigo, o tempo de recarga do poder correspondente se reduz em 1,7 segundo e a VEL. ATQ aumenta em 50 pela quantidade de inimigos atingidos. O reforço de VEL. ATQ pode se acumular até 10 vezes.",
+      "Quando os poderes 'Ataque Vital' e 'Dança Turbulenta' atingem o inimigo, o tempo de recarga do poder correspondente se reduz em 2 segundos e a VEL. ATQ aumenta em 50 pela quantidade de inimigos atingidos. O reforço de VEL. ATQ pode se acumular até 10 vezes.",
+      "Quando os poderes 'Ataque Vital' e 'Dança Turbulenta' atingem o inimigo, o tempo de recarga do poder correspondente se reduz em 2,5 segundos e a VEL. ATQ aumenta em 50 pela quantidade de inimigos atingidos. O reforço de VEL. ATQ pode se acumular até 10 vezes."
+    ],
+    "story": "Durante sua carreira militar, Priscilla derrotou inúmeros inimigos com sua alabarda. Embra a arma tenha ficado em um estado sem conserto depois que sua dona se aposentou, a alabarda foi mais tarde trazida de volta na forma de Exilius. Essa melhoria fazia parte da ordem dada a Annette para que criasse Mahitra para Aisha. Essa nova arma de incrível durabilidade e afiamento também tem o poder de atrair inimigos. Quem viu Priscilla massacrando seus inimigos Demônios usando essa alabarda alega que foi como assistir a uma tempestade irrefreável."
+  },
+  "s1": {
+    "name": "Ataque Vital",
+    "description": "Causa {0} de DAN.F aos inimigos frontais e os atordoa durante 1 segundo. Esse ataque sempre causa acerto Crít.",
+    "books": {
+      "0": "Aumenta o dano em {0}%.",
+      "1": "Aumenta o dano em {0}%.",
+      "2": "Aumenta o dano em {0}%."
+    },
+    "light": "Aumenta em 2 segundos a duração do Atordoamento.",
+    "dark": "Não realiza mais acertos Crít. ilimitados. Aumenta o DAN Crít. em 150%."
+  },
+  "s2": {
+    "name": "Coordenação",
+    "description": "Por 20s, coloca Priscilla e um aliado com o maior ATQ em estado de „Coordenação“ e remove Efeitos Negativos. Priscilla e o aliado em Estado de Coordenação ganham aumento de ATQ igual a 15% do ATQ de Priscilla + {0}.",
+    "books": {
+      "0": "Aumenta a Taxa de Aumento de ATQ em {0}%.",
+      "1": "Aumenta a Taxa de Aumento de ATQ em {0}%.",
+      "2": "Aumenta a Taxa de Aumento de ATQ em {0}%."
+    },
+    "light": "Reforça o DAN Crít. em 80%.",
+    "dark": "Enquanto estiver em estado 'Cooperativo', os ataques automáticos aumentam em 15% o DAN de todas as fontes recebido pelo inimigo.",
+    "ut": {
+      "name": "Jogo de Chá Requintado",
+      "description": [
+        "[Coordenação] Aumenta o Impulso de ATQ em 20% e reduz em 30% a Recarga do Herói que tiver o maior ATQ.",
+        "[Coordenação] Aumenta o Impulso de ATQ em 24% e reduz em 30% a Recarga do Herói que tiver o maior ATQ.",
+        "[Coordenação] Aumenta o Impulso de ATQ em 29% e reduz em 30% a Recarga do Herói que tiver o maior ATQ.",
+        "[Coordenação] Aumenta o Impulso de ATQ em 35% e reduz em 30% a Recarga do Herói que tiver o maior ATQ.",
+        "[Coordenação] Aumenta o Impulso de ATQ em 42% e reduz em 30% a Recarga do Herói que tiver o maior ATQ.",
+        "[Coordenação] Aumenta o Impulso de ATQ em 50% e reduz em 30% a Recarga do Herói que tiver o maior ATQ."
+      ],
+      "story": "As xícaras de cerâmica prediletas de Aisha, as quais Priscilla deixa sempre a postos. Luxuosas xícaras de chá feitas da melhor argila do continente leste, do outro lado do mar. Geralmente empregado na hora do chá com Aisha, o jogo de chá também tem uso quando se utiliza Coordenação com Priscilla."
+    }
+  },
+  "s3": {
+    "name": "Dança Turbulenta",
+    "description": "Causa {0} de DAN.F aos inimigos próximos num alcance circular e os atrai na direção do herói. Quando ativado sob o efeito 'Cooperativo', os inimigos atingidos recebem mais {1}% de DAN.F e DAN.M durante 10 segundos.",
+    "books": {
+      "0": "Aumenta o dano em {0}%.",
+      "1": "Aumenta o dano em {0}%.",
+      "2": "Aumenta o dano em {0}%."
+    },
+    "light": "Ao realizar um Acerto Crít., reduz o tempo de recarga em 10%.",
+    "dark": "Quando houver apenas 1 inimigo, aumenta o DAN em 100%.",
+    "ut": {
+      "name": "Pedra Mágica da Gravidade",
+      "description": [
+        "[Dança Turbulenta] Aumenta o DAN em 20% e inflige o alvo com Atordoamento por 3 segundos.",
+        "[Dança Turbulenta] Aumenta o DAN em 24% e inflige o alvo com Atordoamento por 3 segundos.",
+        "[Dança Turbulenta] Aumenta o DAN em 29% e inflige o alvo com Atordoamento por 3 segundos.",
+        "[Dança Turbulenta] Aumenta o DAN em 35% e inflige o alvo com Atordoamento por 3 segundos.",
+        "[Dança Turbulenta] Aumenta o DAN em 42% e inflige o alvo com Atordoamento por 3 segundos.",
+        "[Dança Turbulenta] Aumenta o DAN em 50% e inflige o alvo com Atordoamento por 3 segundos."
+      ],
+      "story": "A primeira ferramenta mágica feita por um Feiticeiro Violeta. O primeiro presente que Aisha deu. Aisha criou esta ferramenta mágica porque se sentiu mal quando a Priscilla gastou tanta energia ao usar a Dança Turbulenta. A Pedra da Gravidade de Mana alivia a pressão do corpo ao usar a Dança Turbulenta, e aumenta seus efeitos."
+    }
+  },
+  "s4": {
+    "name": "Proficiência em Armas",
+    "description": "O ATQ deste herói aumenta em {0} , a Pen.DEF em {1}.",
+    "books": {
+      "0": "Aumenta a Taxa de Aumento de ATQ em {0}%.",
+      "1": "Aumenta a Taxa de Aumento de ATQ em {0}%.",
+      "2": "Aumenta o DAN Crít. em {0}%."
+    },
+    "light": "Aumenta em 40% o reforço de ATQ.",
+    "dark": "Reforça a chance de Crít. em 250."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / Resist. CM +100",
+    "dark": "Aumenta em 3% o ATQ e DEF.F dos aliados a uma quantidade igual a 3% do seu próprio ATQ e DEF.F."
+  }
+}

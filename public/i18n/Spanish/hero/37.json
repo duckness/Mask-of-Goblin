@@ -1,0 +1,120 @@
+{
+  "name": "Tanya",
+  "subtitle": "La Cuchilla Silenciosa",
+  "description": "Una asesina de élite de las Máscaras de Risa, y una ex colega de Roi. En el pasado, ella era una 'limpiadora' que cazaba traidores. Sus espadas afiladas nunca pierden su marca.",
+  "story": "Una asesina de la Máscara de Risa, y compañera de Roi. Aunque tiene ventaja física sobre Roi al ser una media elfo, no tiene su sabiduría mundial ni su habilidad para conectarse con otros, características que le han hecho crucial en operaciones a gran escala. Esto ha hecho que tenga una especie de complejo de inferioridad. Como la 'Limpiadora' de la organización, se le delegó la tarea de eliminar a cualquier traidor. Cuando Roi abandonó la organización, se dispuso a seguirlo para descubrir su motivación, dejando atrás sus otras tareas. Sus planes después de encontrarlo aún se desconocen.",
+  "like": "Roi",
+  "dislike": "Roi, máscara de risa, sangre de medio elfo",
+  "inn": {
+    "idle": "....",
+    "recruit": {
+      "greet": "Hmph.",
+      "talk": [
+        "No me hables.",
+        "... No trate de conversar con una mujer que no sabe nada más que matar.",
+        "....*suspiro*"
+      ],
+      "gift": "... aceptaré... por ahora."
+    },
+    "affinity": {
+      "greet": "Hum...",
+      "talk": [
+        "Me niego a trabajar de conserje...",
+        "Podrían matarte en cualquier momento..."
+      ],
+      "gift": "No... lo necesito..."
+    },
+    "relationship": {
+      "greet": "... viniste.",
+      "talk": [
+        "Lo siento... no soy muy comunicativo.",
+        "No es divertido hablar con una persona como yo...",
+        "Por qué estás interesado en alguien como yo...? No entiendo..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Demonio Estático, Caethasis",
+    "description": [
+      "Cuando se auto ataca, hay un 10% de probabilidades de que el héroe cause 200% de Daño Fis adicional para obtener un estado Oculto durante 10 seg. Tiene un tiempo de reutilización de 10 seg.",
+      "Cuando se auto ataca, hay un 12% de probabilidades de que el héroe cause 240% de Daño Fis adicional para obtener un estado Oculto durante 10 seg. Tiene un tiempo de reutilización de 10 seg.",
+      "Cuando se auto ataca, hay un 14% de probabilidades de que el héroe cause 290% de Daño Fis adicional para obtener un estado Oculto durante 10 seg. Tiene un tiempo de reutilización de 10 seg.",
+      "Cuando se auto ataca, hay un 17% de probabilidades de que el héroe cause 350% de Daño Fis adicional para obtener un estado Oculto durante 10 seg. Tiene un tiempo de reutilización de 10 seg.",
+      "Cuando se auto ataca, hay un 20% de probabilidades de que el héroe cause 420% de Daño Fis adicional para obtener un estado Oculto durante 10 seg. Tiene un tiempo de reutilización de 10 seg.",
+      "Cuando se auto ataca, hay un 25% de probabilidades de que el héroe cause 500% de Daño Fis adicional para obtener un estado Oculto durante 10 seg. Tiene un tiempo de reutilización de 10 seg."
+    ],
+    "story": "La guerra de demonios data de hace 100 años atrás. Durante esta guerra, la mayor amenaza contra la raza humana eran, sin lugar a dudas, los oficiales demonio de alto rango. Kaitasis, el demonio de la calma, era especialmente peligroso entre ellos. Este demonio asesinó a innumerables hechiceros y clérigos quien identificaba específicamente a usuarios de magia por sus almas. Eventualmente, Kyle derrotó a Kaitasis, y su núcleo se selló. Sin embargo, años más tarde, el núcleo llegó a manos de la Máscara de Risa y una vez más, sirvió como un instrumento de la muerte."
+  },
+  "s1": {
+    "name": "Objetivo Marcado",
+    "description": "Colocate detrás del enemigo con la DEF Fis más baja y aumenta su Daño Fis. recibido en  {0}%, mientras los derribas causa  {1}  Daño Fis. Si esta en un estado Oculto, aturdelo durante 6 seg. Si no esta en estado Oculto, aturdelo durante 10 seg. Mientras se encuentre en estado Oculto, la Tasa Crit y la Tasa de Evasion aumenta en 50.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Aumenta Oportunidad Crit. en {0}"
+    },
+    "light": "Reduce la Tasa de curación del objetivo en un 30 %.",
+    "dark": "Durante 10 segundos, la resistencia Fis. Crit. del objetivo se reduce en 250."
+  },
+  "s2": {
+    "name": "Tornado de Cuchillas",
+    "description": "Ataca a los enemigos cercanos 3 veces para causar  {0}  Daño Fis Total e inflige 1 sangrado por cada golpe. Si se encuentra en estado Oculto, reduce la tasa de Recuperación en un 70%, y si no permanece encendida durante 10 seg.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Aumenta Oportunidad Crit. en {0}"
+    },
+    "light": "Si hay 1 enemigo, el Daño se incrementa en un 100%.",
+    "dark": "Recupera 200 maná al recibir un golpe Crit",
+    "ut": {
+      "name": "Máscara de risa Cinturón de todo uso",
+      "description": [
+        "[Tornado de cuchillas] Aumenta el Daño en un 20 % y reduce el Tiempo de reutilización en un 8 % con un Golpe crítico.",
+        "[Tornado de cuchillas] Aumenta el Daño en un 24 % y reduce el Tiempo de reutilización en un 8 % con un Golpe crítico.",
+        "[Tornado de cuchillas] Aumenta el Daño en un 29 % y reduce el Tiempo de reutilización en un 8 % con un Golpe crítico.",
+        "[Tornado de cuchillas] Aumenta el Daño en un 35 % y reduce el Tiempo de reutilización en un 8 % con un Golpe crítico.",
+        "[Tornado de cuchillas] Aumenta el Daño en un 42 % y reduce el Tiempo de reutilización en un 8 % con un Golpe crítico.",
+        "[Tornado de cuchillas] Aumenta el Daño en un 50 % y reduce el Tiempo de reutilización en un 8 % con un Golpe crítico."
+      ],
+      "story": "Una herramienta multipropósito de las Máscaras sonrientes que se utiliza en los asesinatos. Es un objeto único para las Máscaras sonrientes, famosas por la velocidad y la eficiencia con la que eliminan a sus objetivos. Está optimizada para adaptarse a los patrones de ataque de quien la use, mejora el manejo de las armas que se lanzan y perfecciona los ataques continuos mientras se lanza Tornado de cuchillas."
+    }
+  },
+  "s3": {
+    "name": "Susurro de la Muerte",
+    "description": "Ataca a 6 enemigos aleatorios y causa  {0}  Daño Fis Total, y ataca una vez mas para causar {1} Daño Fis. Si se encuentra en estado Oculto, disipar todos los objetos enemigos. Si no, se activa el estado Oculto durante 10 seg.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Aumenta Oportunidad Crit. en {0}"
+    },
+    "light": "El costo de maná se incrementa en 1 esfera, pero el Daño aumenta en un 100%.",
+    "dark": "El tiempo de reutilización se reduce en 5 segundos.",
+    "ut": {
+      "name": "Daga de silencio",
+      "description": [
+        "[Susurro de la Muerte] El Daño aumenta en un 20% y obtiene el Sigilo inmediatamente al utilizarlo. Si se utiliza en modo de Sigilo, el ATQ aumenta en un 20% durante 10 segundos.",
+        "[Susurro de la Muerte] El Daño aumenta en un 24% y obtiene el Sigilo inmediatamente al utilizarlo. Si se utiliza en modo de Sigilo, el ATQ aumenta en un 20% durante 10 segundos.",
+        "[Susurro de la Muerte] El Daño aumenta en un 29% y obtiene el Sigilo inmediatamente al utilizarlo. Si se utiliza en modo de Sigilo, el ATQ aumenta en un 20% durante 10 segundos.",
+        "[Susurro de la Muerte] El Daño aumenta en un 35% y obtiene el Sigilo inmediatamente al utilizarlo. Si se utiliza en modo de Sigilo, el ATQ aumenta en un 20% durante 10 segundos.",
+        "[Susurro de la Muerte] El Daño aumenta en un 42% y obtiene el Sigilo inmediatamente al utilizarlo. Si se utiliza en modo de Sigilo, el ATQ aumenta en un 20% durante 10 segundos.",
+        "[Susurro de la Muerte] El Daño aumenta en un 50% y obtiene el Sigilo inmediatamente al utilizarlo. Si se utiliza en modo de Sigilo, el ATQ aumenta en un 20% durante 10 segundos."
+      ],
+      "story": "Una daga que se otorga a quienes completan la primera misión de la máscara de risa. Existe una regla que dice que los asesinos siempre deben llevar la daga que tiene rastros de su objetivo. La daga silenciosa que los asesinos llevan como amuleto les susurra constantemente historias de muerte."
+    }
+  },
+  "s4": {
+    "name": "Emboscada Silenciosa",
+    "description": "Causa {0} de Daño físico adicional al enemigo y lo silencia durante {1} segundo(s) al acertar un Golpe crítico con la habilidad. Si el objetivo no es un héroe, inflige {2} de Daño físico adicional que ignora la Defensa y reduce su Velocidad de ataque en {4} durante {3} segundo(s).",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "la duracion del Silencio aumenta en {0} seg."
+    },
+    "light": "Aumenta el Daño adicional contra enemigos que no son héroes en un 100 %.",
+    "dark": "Aumenta la duración de Silenciar en 0,5 segundos."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Daño Crit+20%",
+    "dark": "El daño de ataque automático se incrementa en un 50% mientras se encuentre en modo Escondido."
+  }
+}

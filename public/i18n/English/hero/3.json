@@ -1,0 +1,120 @@
+{
+  "name": "Cleo",
+  "subtitle": "Sorceress of Purgatory",
+  "description": "A sorceress from the Red Tower, this brave girl uses explosive fire magic to deal damage to multiple enemies, and then inflicts even greater damage by causing the embers to explode.",
+  "story": "Cleo's earliest memory begins at the Tower of Sage. Raised by Dominiks the Great Sage as an orphan, she is both a genius wizard and a troublemaker. Her inability to control her own power has often led to trouble, including partial destruction of the Red Tower, her own residence. Despite this, her apparent immunity to the wrath of the Great Sage has caused her to be ostracized from her peers. Although this has led her to become selfish and inconsiderate, deep inside, she is still a kindhearted girl who fears abandonment by others.",
+  "like": "Campfire, pillows (?)",
+  "dislike": "Machines",
+  "inn": {
+    "idle": "Ah~ so bored. I wish there were some fun magic tools lying around.",
+    "recruit": {
+      "greet": "Hello! I'm Cleo. An Archmage!",
+      "talk": [
+        "Want some meat? I can cook it for you?",
+        "Curious about fire magic? Hehehe, I could teach you, but not anyone can do it.",
+        "Why do people call me the Sorceress of Purgatory? I don't like it. Call me an Archmage!!"
+      ],
+      "gift": "Heh, I like you."
+    },
+    "affinity": {
+      "greet": "You're late! How dare you make the Archmage wait!?",
+      "talk": [
+        "Who do I like more, between Frey and Roi? Does that question even make sense? Of course, Frey!",
+        "I wonder where my mom is... As long as I'm alive, I should be able to meet her, right?"
+      ],
+      "gift": "Oh! I think it will fit the Archmage! Thank you!"
+    },
+    "relationship": {
+      "greet": "Oho, so you've come to see the best Archmage ever!",
+      "talk": [
+        "Frey is more than a pillow to me!",
+        "Don't forget. It's thanks to me that we can get around so fast.",
+        "You'll stick around with us, right?"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Primal Flame, Flenos",
+    "description": [
+      "Embers explode every 4 sec, dealing 80% of ATK as M.DMG to enemies nearby.",
+      "Embers explode every 4 sec, dealing 96% of ATK as M.DMG to enemies nearby.",
+      "Embers explode every 4 sec, dealing 114% of ATK as M.DMG to enemies nearby.",
+      "Embers explode every 4 sec, dealing 138% of ATK as M.DMG to enemies nearby.",
+      "Embers explode every 4 sec, dealing 166% of ATK as M.DMG to enemies nearby.",
+      "Embers explode every 4 sec, dealing 200% of ATK as M.DMG to enemies nearby."
+    ],
+    "story": "The essence of the First Flame of the world. The Fire Elemental Lord bestowed this beautiful gem to a human who entered into a contract with him. Over the ages, it ended up in the hands of an archmage, who turned it into the core of his staff. Later, the archmage presented this staff to his precious disciple."
+  },
+  "s1": {
+    "name": "Fire Needle",
+    "description": "Attacks a random enemy 5 times, dealing a total of {0} M.DMG and inflicting 1 stack of Ember on the hit enemy.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "DMG is increased by 40%.",
+    "dark": "Stacks 2 Embers each."
+  },
+  "s2": {
+    "name": "Fire Ball",
+    "description": "Attacks the target and the enemies near it, dealing {0} M.DMG and stunning them for 2 sec. Deals {2} additional M.DMG for each stack of Ember on the enemy.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "DMG is increased by 40%.",
+    "dark": "Mana cost is increased by 1, and attacks a random target 2 times.",
+    "ut": {
+      "name": "Flamel's Elixir",
+      "description": [
+        "[Fire Ball] Increases DMG by 20% and leaves 5 stacks of Ember on the affected enemy.",
+        "[Fire Ball] Increases DMG by 24% and leaves 5 stacks of Ember on the affected enemy.",
+        "[Fire Ball] Increases DMG by 29% and leaves 5 stacks of Ember on the affected enemy.",
+        "[Fire Ball] Increases DMG by 35% and leaves 5 stacks of Ember on the affected enemy.",
+        "[Fire Ball] Increases DMG by 42% and leaves 5 stacks of Ember on the affected enemy.",
+        "[Fire Ball] Increases DMG by 50% and leaves 5 stacks of Ember on the affected enemy."
+      ],
+      "story": "An elixir that fire alchemist Flamel created by condensing flame essence. Flamel's flames continue to burn and burn. Every wizard praises him for his flames, and the flame essence that he made with the salamanders from the Dragia Volcano maximizes the effect of Fire Ball."
+    }
+  },
+  "s3": {
+    "name": "Fire Rain",
+    "description": "Attacks all enemies 8 times, dealing a total of {0} M.DMG and inflicting 1 stack of Ember on them. Deals {1} additional M.DMG for each stack of Ember on the enemy.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Cooldown is reduced by 3 sec.",
+    "dark": "Stuns enemies with 5 Embers or more for 1 sec.",
+    "ut": {
+      "name": "Tome of Purgatory",
+      "description": [
+        "[Fire Rain] DMG is increased by 20%. Upon Crit Hit on enemies with over 5 stacks of Ember, skill cooldown is reduced by 3%.",
+        "[Fire Rain] DMG is increased by 24%. Upon Crit Hit on enemies with over 5 stacks of Ember, skill cooldown is reduced by 3%.",
+        "[Fire Rain] DMG is increased by 29%. Upon Crit Hit on enemies with over 5 stacks of Ember, skill cooldown is reduced by 3%.",
+        "[Fire Rain] DMG is increased by 35%. Upon Crit Hit on enemies with over 5 stacks of Ember, skill cooldown is reduced by 3%.",
+        "[Fire Rain] DMG is increased by 42%. Upon Crit Hit on enemies with over 5 stacks of Ember, skill cooldown is reduced by 3%.",
+        "[Fire Rain] DMG is increased by 50%. Upon Crit Hit on enemies with over 5 stacks of Ember, skill cooldown is reduced by 3%."
+      ],
+      "story": "A scroll written by a fire sorceress who was known as the Goddess of Fire. A scroll left by the greatest Fire Sorceress of Orvelia, Vesta, when she was in the Tower of Sage. It's very powerful, but it also requires a lot of mana. Cleo took the Scroll of Burning Hell from the Tower of Sage, which was considered a forbidden scroll. Now she's using it to enhance her Fire Rain."
+    }
+  },
+  "s4": {
+    "name": "Flame Diffusion",
+    "description": "Normal attacks get a 20% chance to attack 3 random enemies, dealing {0} M.DMG to the target and enemies near it and inflicting 1 stack of Ember. Ember deals a total of {1} M.DMG over 20 sec, reduces the target's M.DEF by 5%, and stacks up to max 5 times.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Stacks 2 Embers upon Crit Hit."
+    },
+    "light": "Ember stack maximum is changed to 6.",
+    "dark": "Activation chance changes to 30%."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / Crit Chance +100",
+    "dark": "Ember DMG is increased by 200%."
+  }
+}

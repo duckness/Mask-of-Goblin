@@ -1,0 +1,120 @@
+{
+  "name": "Zafir",
+  "subtitle": "Príncipe das Tempestades de Areia",
+  "description": "Um descendente do antigo Rei Deus. Um jovem requintado que se dispôs a defender o deserto. A tempestade de areia que ele invoca com a sua flecha traga os inimigos e livra o mundo das suas existências.",
+  "story": "Um Príncipe sucessor do Rei Deus do antigo reino do deserto, possessor do poder de controlar a areia do deserto. No papel do jovem líder da tribo Mauhata de Guerreiros do Deserto, ele foi treinado e criado para ser um sucessor digno do grande rei. Quando a tribo Trovatia, seus irmãos juramentados, estava rezando no Santuário do Fluxo para despertar o Dragão Deus, ele liderou seus guerreiros na derrota de todos os demônios que se aproximavam do oásis. Auxiliado pelo Dragão Deus e por Laudia, a sacerdotisa, ele está cumprindo seu papel de Guerreiro do Deserto e está defendendo seu lar. Ele espera que seus esforços deixem o falecido Rei Deus orgulhoso.",
+  "like": "Gatos, arte em areia, pessoas do deserto",
+  "dislike": "Pessoas que tentam ferir seus entes queridos",
+  "inn": {
+    "idle": "Uau, nunca vi bebidas como estas.",
+    "recruit": {
+      "greet": "Que as bênçãos do Rei Deus estejam com você.",
+      "talk": [
+        "Hum, este lugar é bem diferente dos bares do deserto. Não devemos nos sentar no chão, não é?",
+        "Um Guerreiro do Deserto coloca seu povo acima de qualquer coisa.",
+        "... Eu não gosto muito de lugares cheios, mas este clima despreocupado... Não posso dizer que estou odiando."
+      ],
+      "gift": "Que baita gentileza. Obrigado."
+    },
+    "affinity": {
+      "greet": "Como tem passado?",
+      "talk": [
+        "A profecia diz que a ressurreição do Rei Deus está próxima.",
+        "... Se o tempo permitir, visite Aegina de vez em quando. Serei seu guia."
+      ],
+      "gift": "Os Guerreiros do Deserto também ficarão felizes com a sua presença."
+    },
+    "relationship": {
+      "greet": "Saudações, camarada do deserto.",
+      "talk": [
+        "Gosto de gatos... Nenhuma criatura se compara a eles quando se trata de elegância.",
+        "Nem mesmo as duras tempestades de areia do deserto deixariam um arranhão nos Guerreiros do Deserto.",
+        "Posso até ter o sangue dele correndo nas veias, mas acho que tenho um longo caminho pela frente até poder me considerar um sucessor digno."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Zaries, a Glória do Rei Deus",
+    "description": [
+      "Ao usar uma habilidade, ganha 1 acúmulo de ‘Desejo do Deserto’. ‘Desejo do Deserto’ aumenta o ATQ em 4% e a Penetração de DEF em 20 por 10 seg., podendo acumular até 5 vezes. Esse efeito não pode ser removido.",
+      "Ao usar uma habilidade, ganha 1 acúmulo de ‘Desejo do Deserto’. ‘Desejo do Deserto’ aumenta o ATQ em 4,8% e a Penetração de DEF em 24 por 10 seg., podendo acumular até 5 vezes. Esse efeito não pode ser removido.",
+      "Ao usar uma habilidade, ganha 1 acúmulo de ‘Desejo do Deserto’. ‘Desejo do Deserto’ aumenta o ATQ em 5,6% e a Penetração de DEF em 29 por 10 seg., podendo acumular até 5 vezes. Esse efeito não pode ser removido.",
+      "Ao usar uma habilidade, ganha 1 acúmulo de ‘Desejo do Deserto’. ‘Desejo do Deserto’ aumenta o ATQ em 6,8% e a Penetração de DEF em 35 por 10 seg., podendo acumular até 5 vezes. Esse efeito não pode ser removido.",
+      "Ao usar uma habilidade, ganha 1 acúmulo de ‘Desejo do Deserto’. ‘Desejo do Deserto’ aumenta o ATQ em 8% e a Penetração de DEF em 42 por 10 seg., podendo acumular até 5 vezes. Esse efeito não pode ser removido.",
+      "Ao usar uma habilidade, ganha 1 acúmulo de ‘Desejo do Deserto’. ‘Desejo do Deserto’ aumenta o ATQ em 10% e a Penetração de DEF em 50 por 10 seg., podendo acumular até 5 vezes. Esse efeito não pode ser removido."
+    ],
+    "story": "Uma Arma antiga forjada para o ser mais glorioso da Terra. Só é concedida ao sucessor do Rei Deus, e a pessoa deve passar por extremas provações para provar ser digna de possuí-la. Este arco, que só é concedido ao sucessor escolhido do Rei Deus, tem poder absoluto no deserto."
+  },
+  "s1": {
+    "name": "Julgamento do Deserto",
+    "description": "Causa {0} de DAN F. em inimigos dentro de um amplo alcance, e para cada inimigo atingido, reduz o tempo de recarga de habilidades em 1 seg. Causa {1} de DAN F. em inimigos infligidos por [Marca do Deserto] e remove 1 acúmulo de [Marca do Deserto]. Aumenta o DAN Crít em 5% após cada uso da habilidade. Esse efeito pode acumular até 12 e não pode ser removido.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "DAN aumenta em {0}%."
+    },
+    "light": "O impulso de DAN Crít por cada uso muda para 10%.",
+    "dark": "O inimigo atingido fica sob efeito de Cegueira por 1 seg."
+  },
+  "s2": {
+    "name": "Bênção do Espírito da Areia",
+    "description": "Cria um escudo em volta do aliado com o PV mais baixo e absorve {1} de DAN por {0} seg. Ganha imunidade a CM enquanto o escudo durar. Quando a duração do escudo acaba, ativa ‘Tempestade de Areia’ e causa {2} de DAN F. em inimigos dentro de um amplo alcance, infligindo 2 acúmulos de [Marca do Deserto]. Se o escudo for removido ou destruído, não ativa ‘Tempestade de Areia’.",
+    "books": {
+      "0": "DAN e Escudo aumentados em {0}%.",
+      "1": "DAN e Escudo aumentados em {0}%.",
+      "2": "DAN e Escudo aumentados em {0}%."
+    },
+    "light": "Reduz o tempo de recarga de habilidades em 5 seg.",
+    "dark": "Inimigos atingidos por ‘Tempestade de Areia’ são empurrados para longe e derrubados por 3 seg.",
+    "ut": {
+      "name": "Areia da Miragem",
+      "description": [
+        "[Bênção do Espírito da Areia] O Escudo absorve 20% mais DAN e remove CM de si.",
+        "[Bênção do Espírito da Areia] O Escudo absorve 24% mais DAN e remove CM de si.",
+        "[Bênção do Espírito da Areia] O Escudo absorve 29% mais DAN e remove CM de si.",
+        "[Bênção do Espírito da Areia] O Escudo absorve 35% mais DAN e remove CM de si.",
+        "[Bênção do Espírito da Areia] O Escudo absorve 42% mais DAN e remove CM de si.",
+        "[Bênção do Espírito da Areia] O Escudo absorve 50% mais DAN e remove CM de si."
+      ],
+      "story": "Uma ampulheta que estava soterrada há muito tempo por uma enorme tempestade de areia que atingiu o Deserto Aegina. Quando a areia da ampulheta se move, ela invoca uma miragem de uma cidade antiga voltando à vida. No passado, sumo sacerdote do antigo reino a usava para demonstrar a glória do reino para o seu povo. Ao ver a sua cidade brilhando em tons de ouro, as pessoas ficavam orgulhosas do seu reino."
+    }
+  },
+  "s3": {
+    "name": "Perdição do Deserto",
+    "description": "Causa {0} de DAN F. em inimigos à frente dentro de um amplo alcance e inflige 1 acúmulo de [Marca do Deserto]. Em seguida, invoca ‘Poço de Areia’ por 5 seg., causando {1} de DAN F. a cada 0,5 seg. e reduzindo a DEF F. dos alvos em 30% por 10 seg. ‘Poço de Areia’ tem 25% de chance de infligir 1 acúmulo de [Marca do Deserto] e puxa todos os inimigos dentro de alcance para o centro.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "DAN aumenta em {0}%."
+    },
+    "light": "Reduz o custo de Mana em 1.",
+    "dark": "Aumenta a duração de ‘Poço de Areia’ em 2 seg.",
+    "ut": {
+      "name": "Alma do Oásis",
+      "description": [
+        "[Perdição do Deserto] Reduz o tempo de recarga de habilidades em 30% e aumenta a chance de ativação de efeito em 8%.",
+        "[Perdição do Deserto] Reduz o tempo de recarga de habilidades em 30% e aumenta a chance de ativação de efeito em 9,6%.",
+        "[Perdição do Deserto] Reduz o tempo de recarga de habilidades em 30% e aumenta a chance de ativação de efeito em 11,5%.",
+        "[Perdição do Deserto] Reduz o tempo de recarga de habilidades em 30% e aumenta a chance de ativação de efeito em 13,8%.",
+        "[Perdição do Deserto] Reduz o tempo de recarga de habilidades em 30% e aumenta a chance de ativação de efeito em 16,5%.",
+        "[Perdição do Deserto] Reduz o tempo de recarga de habilidades em 30% e aumenta a chance de ativação de efeito em 20%."
+      ],
+      "story": "Uma espada mágica repassada pelos descendentes do Rei Deus. O nome “Oásis” vem da forma em que era usada para servir o povo em tempos difíceis. Após a queda do reino, seu paradeiro ficou desconhecido para o mundo, até que Zafir a viu em meio às coleções de arte de Kumuro e a comprou por um preço incrivelmente alto. Com a espada finalmente voltando para o descendente digno, Zafir conseguiu herdar os espíritos dos seus antepassados, maximizando os seus potenciais."
+    }
+  },
+  "s4": {
+    "name": "Chamado do Guardião",
+    "description": "Cada ataque automático tem 15% de chance de causar {0} de DAN F. que ignora DEF em todos os inimigos, infligindo 1 acúmulo de [Marca do Deserto]. [Marca do Deserto] pode acumular até 5 vezes.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "DAN aumenta em {0}%."
+    },
+    "light": "Quando houver mais de 5 inimigos, todos os inimigos receberão 5 acúmulos de ‘Marca do Deserto’. Esse efeito é ativado uma vez a cada 20 seg.",
+    "dark": "A chance de ativação muda para 30%."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / Chance Crít. +100",
+    "dark": "Recupera 500 de Mana ao usar uma habilidade. Se houver mais de 5 inimigos, dobra a taxa de recuperação de Mana e aumenta a Vel de ATQ em 500 por 5 seg. Esse efeito não acumula."
+  }
+}

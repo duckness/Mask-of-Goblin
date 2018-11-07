@@ -1,0 +1,120 @@
+{
+  "name": "Epis",
+  "subtitle": "Captivating Demon",
+  "description": "A cold-blooded hedonist demon. Using a huge scythe, she harvests the souls of enemies. She suddenly appears in the midst of enemies, slashing everything around her.",
+  "story": "This playful and bewitching succubus acts on her own whims. As expected of her Demon lineage, she is a hedonist driven by what she finds fun and enjoyable. Even during the Demon War, she chose traveling around on her own over joining the invasion. In her eyes, fighting alongside Kyle was interesting enough for her to even betray her own kind. When she later met Kasel, she gladly joined his party, knowing that she found another fun adventure for herself. When she finds attractive men, she sometimes visits them in their dreams.",
+  "like": "Anything that strikes interest or curiosity",
+  "dislike": "Boring atmosphere",
+  "inn": {
+    "idle": "Hm hmm hmm~ (humming)",
+    "recruit": {
+      "greet": "Are you free today?",
+      "talk": [
+        "Are you blushing? How cute~",
+        "Now just where are you staring at? Don't worry, I won't tell anyone...",
+        "Hmm..what, you want to try something exciting~?"
+      ],
+      "gift": "Oh, for me? Ooh, now then, what could you want in return~?"
+    },
+    "affinity": {
+      "greet": "Welcome, dear! Did you close the door?",
+      "talk": [
+        "Oh, what did you expect? Oh, you are devious.",
+        "You want to know why a demon is siding with the humans? Does it really look like that? Ha ha."
+      ],
+      "gift": "Not bad. You seem to know a little something about seduction. So, does that make you more like me?"
+    },
+    "relationship": {
+      "greet": "Hmm~ based off your expression, I'm assuming you met me in your dreams last night?",
+      "talk": [
+        "Aha~so, how was your dream? Satisfying? Or would you like to continue where it left off...",
+        "Haaaah...There's this thing on my mind. I keep thinking about you...Do you know why~?",
+        "These clothes seem to be getting tighter. I wonder if I've gained weight...? Do you want to check for me, back at my room?"
+      ]
+    }
+  },
+  "uw": {
+    "name": "The Seductress, Guillotine",
+    "description": [
+      "Upon attacking, there is a 25% chance of dealing 80% of ATK as extra M.DMG, and ATK being increased by 2%. ATK boost can be stacked up to 10 times max.",
+      "Upon attacking, there is a 25% chance of dealing 96% of ATK as extra M.DMG, and ATK being increased by 2.4%. ATK boost can be stacked up to 10 times max.",
+      "Upon attacking, there is a 25% chance of dealing 115% of ATK as extra M.DMG, and ATK being increased by 2.9%. ATK boost can be stacked up to 10 times max.",
+      "Upon attacking, there is a 25% chance of dealing 138% of ATK as extra M.DMG, and ATK being increased by 3.5%. ATK boost can be stacked up to 10 times max.",
+      "Upon attacking, there is a 25% chance of dealing 165% of ATK as extra M.DMG, and ATK being increased by 4.2%. ATK boost can be stacked up to 10 times max.",
+      "Upon attacking, there is a 25% chance of dealing 200% of ATK as extra M.DMG, and ATK being increased by 5%. ATK boost can be stacked up to 10 times max."
+    ],
+    "story": "A deadly scythe that matches the characters of its wielder, Epis. It reaps the souls of those who approach it to admire its beauty. Created from within Epis's own body, the weapon is much like a succubus itself. It delivers extreme pleasure to its victims before absorbing their life energy. It seems that, in a way, Epis tried to show some sort of kindness with this weapon."
+  },
+  "s1": {
+    "name": "Absorbing Blow",
+    "description": "Deals {0} M.DMG that ignores enemy DEF, and heals {1}% of DMG as HP.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "If there is 1 enemy, DMG is increased by 100%.",
+    "dark": "Ignores enemy Block."
+  },
+  "s2": {
+    "name": "Nightmare",
+    "description": "Moves behind the furthest enemy and deals {0} M.DMG. Hit enemies take 30% increased M.DMG for 10 sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Mana cost is reduced by 1.",
+    "dark": "Mana consumption is increased by 1, and upon using the skill, 'Absorbing Blow' is activated. Cannot use when there are no enemies in range.",
+    "ut": {
+      "name": "Succubus's Box",
+      "description": [
+        "[Nightmare] Increases DMG by 50% and stuns the affected enemy for 2 sec.",
+        "[Nightmare] Increases DMG by 50% and stuns the affected enemy for 2.4 sec.",
+        "[Nightmare] Increases DMG by 50% and stuns the affected enemy for 2.9 sec.",
+        "[Nightmare] Increases DMG by 50% and stuns the affected enemy for 3.5 sec.",
+        "[Nightmare] Increases DMG by 50% and stuns the affected enemy for 4.2 sec.",
+        "[Nightmare] Increases DMG by 50% and stuns the affected enemy for 5 sec."
+      ],
+      "story": "Box containing the Nightmare Queen's sand of sleep. A box from the Demon World that contains magic sand that causes one to fall asleep. When the enemy falls asleep, attacks the enemy and deals M. DMG through a nightmare that cannot be dispelled."
+    }
+  },
+  "s3": {
+    "name": "Devil's Prom",
+    "description": "Deals {0} M.DMG to all enemies in range. Gains CC immunity while using this skill.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Upon a Crit Hit, heals {0}% of DMG as HP."
+    },
+    "light": "DMG is increased by 40%.",
+    "dark": "DMG taken is reduced by 50% while skill is in use.",
+    "ut": {
+      "name": "Seductress Shoes",
+      "description": [
+        "[Devil's Prom] Mana cost is reduced by 1, and DMG is increased by 20%.",
+        "[Devil's Prom] Mana cost is reduced by 1, and DMG is increased by 24%.",
+        "[Devil's Prom] Mana cost is reduced by 1, and DMG is increased by 29%.",
+        "[Devil's Prom] Mana cost is reduced by 1, and DMG is increased by 35%.",
+        "[Devil's Prom] Mana cost is reduced by 1, and DMG is increased by 42%.",
+        "[Devil's Prom] Mana cost is reduced by 1, and DMG is increased by 50%."
+      ],
+      "story": "Epis's treasured item. When Epis first arrived in the human world, she really got into human culture and attended a masquerade. The dancing of a girl wearing red heels caught her eyes, and she made a deal with her in exchange for the those shoes. Epis wears her seductive heels and get carried away when inflicting pain on her enemies with her dance."
+    }
+  },
+  "s4": {
+    "name": "Harvest",
+    "description": "When an enemy is killed by this hero, ATK is increased by {1} for {0} sec, and all skill cooldown is reduced by 30%.",
+    "books": {
+      "0": "ATK boost is increased by {0}%.",
+      "1": "ATK boost is increased by {0}%.",
+      "2": "Per each kill, recovers 1 orb of mana."
+    },
+    "light": "Each stack increases Mana recovery per sec by 50%.",
+    "dark": "While stack number is higher than 5, Mana is always at 100% and cooldowns are decreased by an additional 1 sec per each sec."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / Crit DMG +20%",
+    "dark": "All of Epis's attacks decrease the M.DEF of hit enemies by 20% for 10 sec. ATK rises by 2% per each enemy hit. Maximum stack number is 10."
+  }
+}

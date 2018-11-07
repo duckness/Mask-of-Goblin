@@ -1,0 +1,128 @@
+{
+  "name": "Kara",
+  "subtitle": "Der Inbegriff antiker Technomagie",
+  "description": "Ein menschenähnlicher Maschinengolem, der von einer Technomagierin einer längst vergessenen Zivilisation erschaffen wurde. Sein Körper ist eine Kombination aus uralter Technologie und dem Inbegriff der Technomagie. Er ist eine mächtige Waffe, die Feinde mittels Fokus-Feuer vernichten kann.",
+  "story": "Ein menschenähnlicher Golem, der aus antiker Technomagie erschaffen wurde. Er sieht aus wie ein menschliches Mädchen, doch er ist eine uralte Waffe ohne Gefühle und dient lediglich als Werkzeug. Er schlummerte in den Ruinen einer antiken Zivilisation weit unter der Galluah-Ebenen. Annette, eine Technomagierin aus dem Königreich Orvel, legte ihn während ihrer Forschung frei und erweckte ihn in einer neuen Ära und Zivilisation ...",
+  "like": "Energieladung, Meister",
+  "dislike": "Befehle können nicht ausgeführt werden. Ineffiziente Art, Dinge zu erledigen",
+  "inn": {
+    "idle": "So viele Menschen. Mehr als ich je gesehen habe.",
+    "recruit": {
+      "greet": "Hallo.",
+      "talk": [
+        "Das Wetter ist heute ... ziemlich schön. Nachts werden ein paar Wolken aufziehen.",
+        "Das Essen hier ist qualitativ hochwertig. Es ist nicht vergiftet, also kein Grund zur Sorge.",
+        "Der Palast ist ruhig, aber es ist hier ziemlich laut."
+      ],
+      "gift": "Das ist also die Währung, die heutzutage verwendet wird. Mein Meister hätte sie gern."
+    },
+    "affinity": {
+      "greet": "Hallo. Noch ein Meister.",
+      "talk": [
+        "Ich bin eine Waffe. Ich habe keine Emotionen. Aber ...",
+        "Ich frage mich, was es bedeutet, am Leben zu sein ..."
+      ],
+      "gift": "Danke. Damit wird die Forschung des Meisters finanziert."
+    },
+    "relationship": {
+      "greet": "Hallo. Hast du gut geschlafen?",
+      "talk": [
+        "Ich verstehe Emotionen nicht besonders gut ... Aber ich frage mich, was das für ein Gefühl ist.",
+        "Ich fühle etwas Vertrautes. Vertraut ... Ist es das?",
+        "Ich frage mich, wie sich Liebe anfühlt. Ich will es wissen."
+      ]
+    }
+  },
+  "uw": {
+    "name": "0-Form Immerwährende Bewegungskanone, Himmelszerstörer",
+    "description": [
+      "Erhöht den ANG pro Sekunde um 1%. Kann bis zu 30-mal gestapelt werden.",
+      "Erhöht den ANG pro Sekunde um 1%. Kann bis zu 40-mal gestapelt werden.",
+      "Erhöht den ANG pro Sekunde um 1%. Kann bis zu 50-mal gestapelt werden.",
+      "Erhöht den ANG pro Sekunde um 1%. Kann bis zu 60-mal gestapelt werden.",
+      "Erhöht den ANG pro Sekunde um 1%. Kann bis zu 70-mal gestapelt werden.",
+      "Erhöht den ANG pro Sekunde um 1%. Kann bis zu 80-mal gestapelt werden."
+    ],
+    "story": "Ein Artefakt aus einer antiken Zivilisation, in dem eine unerschöpfliche Energiequelle steckt. Die Macht dieser Belagerungswaffe kommt der des höchsten Magierranges gleich. Sie wurde in den Ruinen des alten Fürstentums Gray entdeckt und eingelagert, da niemand wusste, wie man sie einsetzte. Lange danach, als Kara ausgegraben wurde und erwachte, teleportierte sich die Waffe an ihre Seite. Die technomagische Waffe des höchsten Ranges wurde auf ähnliche Art und Weise hergestellt wie die Gebirgsfestung."
+  },
+  "s1": {
+    "name": "Antipersonenlaser",
+    "description": "Greift das Ziel 4-mal an, verursacht insgesamt {0} M.Schaden und wirft es zurück. Der letzte Angriff trifft alle Feinde, sie erleiden dabei {1} M.Schaden und werden für {2} Sekunden weggeweht.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "[Antipersonenlaser] – Stellt bei Krit. Treffern 200 MP wieder her. [Belagerungslaser] – Erhöht die Manakosten um 1 und den Schaden um 100%.",
+    "dark": "[Antipersonenlaser] – Entzieht Feinden, die Schaden genommen haben, 300 MP. [Belagerungslaser] – Verringert die Manakosten um 1.",
+    "linked": {
+      "name": "Belagerungslaser",
+      "description": "Greift das Ziel an und verursacht {0} M.Schaden. Krit. Schaden wird um {1}% erhöht."
+    }
+  },
+  "s2": {
+    "name": "Flächenkanone",
+    "description": "Greift ein zufälliges Ziel und nahe Feinde 4-mal an, verursacht insgesamt {0} M.Schaden und betäubt sie für {1} Sekunden.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "[Flächenkanone] – Erhöht die Betäubungsdauer um 1 Sekunde. [Fokus-Feuer] – Fügt 1 weiteren Stapel von Fokus-Feuer hinzu.",
+    "dark": "[Flächenkanone] – Reduziert Manakosten um 1. [Fokus-Feuer] – Erhöht den Stapelanzahl von Fokus-Feuer auf 60.",
+    "ut": {
+      "name": "Aufnahmegerät KARA-00XX",
+      "description": [
+        "[Flächenkanone] Erhöht den Schaden um 50% und verringert 10 Sek. lang die ANG-Geschwindigkeit des Ziels um 100. [Fokus-Feuer] Verringert den Cooldown bei einem Krit. Treffer um 2% und stellt 150 Mana wieder her.",
+        "[Flächenkanone] Erhöht den Schaden um 50% und verringert 10 Sek. lang die ANG-Geschwindigkeit des Ziels um 120. [Fokus-Feuer] Verringert den Cooldown bei einem Krit. Treffer um 2,4% und stellt 150 Mana wieder her.",
+        "[Flächenkanone] Erhöht den Schaden um 50% und verringert 10 Sek. lang die ANG-Geschwindigkeit des Ziels um 140. [Fokus-Feuer] Verringert den Cooldown bei einem Krit. Treffer um 2,9% und stellt 150 Mana wieder her.",
+        "[Flächenkanone] Erhöht den Schaden um 50% und verringert 10 Sek. lang die ANG-Geschwindigkeit des Ziels um 170. [Fokus-Feuer] Verringert den Cooldown bei einem Krit. Treffer um 3,5% und stellt 150 Mana wieder her.",
+        "[Flächenkanone] Erhöht den Schaden um 50% und verringert 10 Sek. lang die ANG-Geschwindigkeit des Ziels um 210. [Fokus-Feuer] Verringert den Cooldown bei einem Krit. Treffer um 4,2% und stellt 150 Mana wieder her.",
+        "[Flächenkanone] Erhöht den Schaden um 50% und verringert 10 Sek. lang die ANG-Geschwindigkeit des Ziels um 250. [Fokus-Feuer] Verringert den Cooldown bei einem Krit. Treffer um 5% und stellt 150 Mana wieder her."
+      ],
+      "story": "Ein Aufnahmegerät und Prozessor, der als Karas Gehirn fungiert. In ihm steckt ein Sammelsurium alten Wissens und es ist weitaus aufnahmefähiger als das eines Menschen. Trotz dieser unglaublichen Funktionen hat es Probleme damit, Emotionen zu erkennen und zu zeigen."
+    },
+    "linked": {
+      "name": "Fokus-Feuer",
+      "description": "Greift ein zufälliges Ziel 15-mal an, verursacht insgesamt {0} M.Schaden und für {1} Sekunden Fokus-Feuer. Verursacht mit jedem Stapel von Fokus-Feuer {2} zusätzlichen M.Schaden am Feind. Fokus-Feuer kann bis zu 30-mal gestapelt werden."
+    }
+  },
+  "s3": {
+    "name": "Belagerungswaffe auslösen",
+    "description": "Kara verwandelt sich in eine Belagerungswaffe und greift den Feind an. Dabei verursacht sie mit jedem Treffer {0} M.Schaden. Im Belagerungswaffen-Modus werden die Skills Antipersonenlaser und Flächenkanone gegen die Skills Belagerungslaser und Fokus-Feuer ausgetauscht. Bei erneuter Anwendung des Skills wird wieder in den Antipersonenwaffen-Modus gewechselt.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Erhöht Schaden um 100%, wenn sich nur 1 Feind in der Nähe befindet.",
+    "dark": "Verringert bei Krit. Treffer alle Skill-Cooldowns um 3%.",
+    "ut": {
+      "name": "Antike Quelle der Macht",
+      "description": [
+        "[Belagerungswaffe auslösen] Erhöht den Schaden um 50% und verringert die M.VERT des Ziels bei Krit. Treffer um 1%. Der M.VERT-Reduktionseffekt kann bis zu 20-mal gestapelt werden.",
+        "[Belagerungswaffe auslösen] Erhöht den Schaden um 50% und verringert die M.VERT des Ziels bei Krit. Treffer um 1%. Der M.VERT-Reduktionseffekt kann bis zu 24-mal gestapelt werden.",
+        "[Belagerungswaffe auslösen] Erhöht den Schaden um 50% und verringert die M.VERT des Ziels bei Krit. Treffer um 1%. Der M.VERT-Reduktionseffekt kann bis zu 29-mal gestapelt werden.",
+        "[Belagerungswaffe auslösen] Erhöht den Schaden um 50% und verringert die M.VERT des Ziels bei Krit. Treffer um 1%. Der M.VERT-Reduktionseffekt kann bis zu 35-mal gestapelt werden.",
+        "[Belagerungswaffe auslösen] Erhöht den Schaden um 50% und verringert die M.VERT des Ziels bei Krit. Treffer um 1%. Der M.VERT-Reduktionseffekt kann bis zu 42-mal gestapelt werden.",
+        "[Belagerungswaffe auslösen] Erhöht den Schaden um 50% und verringert die M.VERT des Ziels bei Krit. Treffer um 1%. Der M.VERT-Reduktionseffekt kann bis zu 50-mal gestapelt werden."
+      ],
+      "story": "Karas Quelle der Macht und eines der größten Meisterwerke einer antiken, längst vergessenen Zivilisation. Annette erschuf Rascal mithilfe der grundlegenden Technologie, doch nicht einmal sie konnte diese spezielle Technologie vollständig entschlüsseln. Ein unerschöpflicher Quell magischer Energie."
+    }
+  },
+  "s4": {
+    "name": "Die Essenz der Technomagie",
+    "description": "Im Antipersonenwaffen-Modus wird die gesamte VERT um {0} erhöht, im Belagerungswaffen-Modus wird der ANG um {1} und der erlittene Schaden um {2}% erhöht, außerdem gewährt er Immunität gegen Statuseffekte. Jedes Mal, wenn an einem Feind Schaden verursacht wird, werden {3} MP wiederhergestellt.",
+    "books": {
+      "0": "ANG und VERT sind um {0}% erhöht.",
+      "1": "ANG und VERT sind um {0}% erhöht.",
+      "2": "ANG und VERT sind um {0}% erhöht."
+    },
+    "light": "MP-Erholung verdreifacht, wenn nur ein Feind auf dem Schlachtfeld ist.",
+    "dark": "[Antipersonenwaffe] – Verringert den ANG um 20%, erhöht die MP-Erholung/Sek. jedoch um 100%. [Belagerungswaffe] – Verringert die gesamte VERT um 60%, erhöht den Krit. Schaden jedoch um 140%."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / Krit. Schaden +20%",
+    "dark": "[Antipersonenwaffe] – Erhöht die Statuseffekt-PRÄZ um 400. [Belagerungswaffe] Erhöht die PRÄZ um 400."
+  }
+}

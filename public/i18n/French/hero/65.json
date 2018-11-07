@@ -1,0 +1,120 @@
+{
+  "name": "Mirianne",
+  "subtitle": "Serviteur du Bleu",
+  "description": "L'assistante et la servante de l'archimage du Bleu, Sonia. Elle agit uniquement pour le bien de Sonia, qui est son employeur, sa soeur et son amie. Elle utilise son esprit vif et son regard aiguisé pour exploiter des faiblesses de l'ennemi avec ses dagues.",
+  "story": "C'est la servante de Sonia et sa presque sœur depuis l'orphelinat. Lorsque son village d'Humains et d'Elfes fut attaqué par les démons, elle fut la seule survivante. Ricardo la trouva et l'amena à son orphelinat. Pour une raison inconnue, elle vécut une croissance explosive à l'âge de six ans. Elle a désormais le corps d'une adulte de dix-huit ans, mais garde un esprit enfantin. Elle est pure et dévouée. Ces traits sont peut-être liés à l'amnésie qui a effacé ses souvenirs d'enfants.",
+  "like": "Sonia et tout le monde à l'orphelinat",
+  "dislike": "Les insectes avec plein de pattes",
+  "inn": {
+    "idle": "Sonia humm, on dirait qu'elle a encore changé de bord.",
+    "recruit": {
+      "greet": "Ah, bonjour! C'est bon de vous voir en forme!",
+      "talk": [
+        "Hehe, Kasel et Frey vont bien?",
+        "je veux aller voir Gramps. Ça fait un moment.",
+        "Ah, je ne suis pas une vraie servante. J'aime juste les vêtements, hehehe."
+      ],
+      "gift": "Ah, merci! Vous n'aviez vraiment pas besoin..."
+    },
+    "affinity": {
+      "greet": "Me revoilà ! Enchantée !",
+      "talk": [
+        "J'ai apporté de beaux vêtements ! Choisissez quelque chose qui m'ira à ravir !",
+        "Hé hé. Je peux venir jouer avec Sonia ?"
+      ],
+      "gift": "Merci ! La prochaine fois, nous irons voir Grand-père ensemble !"
+    },
+    "relationship": {
+      "greet": "Ah, vous êtes venus! Hehe, allez-vous rester un peu?",
+      "talk": [
+        "Cette atmosphère animée ressemble à celle qu'il y avait à l'orphelinat.",
+        "Est-ce que vous avez faim? Voulez-vous un en-cas?",
+        "J'aime ces vêtements, ils sont si beaux et aériens."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Accélération, Riventina",
+    "description": [
+      "Augmente la Vit ATQ de 200 points et attaque les ennemis verrouillés, ce qui leur inflige 200 % de l'ATQ en guise de DEG M supplémentaires à raison d'une fois toutes les 2 secondes.",
+      "Augmente la Vit ATQ de 240 points et attaque les ennemis verrouillés, ce qui leur inflige 240 % de l'ATQ en guise de DEG M supplémentaires à raison d'une fois toutes les 2 secondes.",
+      "Augmente la Vit ATQ de 290 points et attaque les ennemis verrouillés, ce qui leur inflige 290 % de l'ATQ en guise de DEG M supplémentaires à raison d'une fois toutes les 2 secondes.",
+      "Augmente la Vit ATQ de 350 points et attaque les ennemis verrouillés, ce qui leur inflige 350 % de l'ATQ en guise de DEG M supplémentaires à raison d'une fois toutes les 2 secondes.",
+      "Augmente la Vit ATQ de 420 points et attaque les ennemis verrouillés, ce qui leur inflige 420 % de l'ATQ en guise de DEG M supplémentaires à raison d'une fois toutes les 2 secondes.",
+      "Augmente la Vit ATQ de 500 points et attaque les ennemis verrouillés, ce qui leur inflige 500 % de l'ATQ en guise de DEG M supplémentaires à raison d'une fois toutes les 2 secondes."
+    ],
+    "story": "Un équipement magique créé par Sonia, l'archimage du Bleu. Elle est enchantée, ce qui lui confère une vitesse incroyable. Sa magie lui permet également de retrouver son propriétaire quand celui-ci la lance. Il s'agit du plus beau cadeau que Sonia pourrait faire à Mirianne, qu'elle considère comme son amie, voire un membre de sa famille. En d'autres termes, cet objet symbolise l'amour que Sonia voue à Mirianne."
+  },
+  "s1": {
+    "name": "Cible verrouillée",
+    "description": "Attaque 3 fois l'ennemi à la défense magique la plus faible, ce qui lui inflige un total de {0}  points de DEG M et l'étourdit pendant 1 seconde. Si la cible est sous l'effet de 'Verrouillage', elle reçoit [ffC800] {1} points de DEG M. supplémentaires. La dernière attaque verrouille l'ennemi pendant 10 secondes. Le verrouillage ne peut pas être dissipé et le blocage magique de la cible est réduit de 300 points.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Lorsque 1 seul ennemi est présent, les DEG sont augmentés de 100%.",
+    "dark": "La durée d'Étourdissement est augmentée de 1 sec."
+  },
+  "s2": {
+    "name": "Restreindre et Protéger",
+    "description": "Inflige {0} points de DEG M. à l'ennemi ciblé ainsi qu'aux autres ennemis à portée et leur applique Étourdissement pendant 2 sec. Se déplace ensuite vers l'allié ayant la DEP P. la plus faible, en dehors du Héros, et crée un Bouclier pour deux capable de bloquer {1} points de DEG pendant 10 sec. Le Bouclier sera sans effet s'il n'y a pas d'allié. Immunise également aux Contrôles pendant que le Bouclier est actif.",
+    "books": {
+      "0": "DEG et Bouclier sont augmentés de {0}%.",
+      "1": "DEG et Bouclier sont augmentés de {0}%.",
+      "2": "DEG et Bouclier sont augmentés de {0}%."
+    },
+    "light": "Immunisé aux Contrôles lorsque cette compétence est utilisée.",
+    "dark": "La durée d'Étourdissement est augmentée de 2 sec.",
+    "ut": {
+      "name": "Anneau Gémeaux de téléportation instantanée",
+      "description": [
+        "[Restreindre et protéger] Réduit le coût en mana de 1 point et restaure 160 points de mana à chaque coup critique.",
+        "[Restreindre et protéger] Réduit le coût en mana de 1 point et restaure 190 points de mana à chaque coup critique.",
+        "[Restreindre et protéger] Réduit le coût en mana de 1 point et restaure 230 points de mana à chaque coup critique.",
+        "[Restreindre et protéger] Réduit le coût en mana de 1 point et restaure 270 points de mana à chaque coup critique.",
+        "[Restreindre et protéger] Réduit le coût en mana de 1 point et restaure 330 points de mana à chaque coup critique.",
+        "[Restreindre et protéger] Réduit le coût en mana de 1 point et restaure 400 points de mana à chaque coup critique."
+      ],
+      "story": "Anneau acheté par Mirianne à la « Boutique de jouets magiques extraordinaires » d’Orvel. Elle a fait graver son nom et celui de Sonia à l’intérieur. Cet anneau a un jumeau qui permet une fois par jour à l’un de se téléporter à l’emplacement de l’autre. Mais Sonia ne s’en sert jamais, car cela l’ennuie... Cet anneau est peut-être un jouet, mais il rassure Mirianne de savoir qu’il existe une façon de plus de protéger Sonia."
+    }
+  },
+  "s3": {
+    "name": "Assassinat",
+    "description": "Se déplace vers l'ennemi ayant les PV les plus bas et inflige {0} points de DEG M. puis retourne vers l'allié le plus éloigné. Si l'ennemi n'est pas un héros, inflige {1} points de DEG M additionnels qui ignorent la DEF. Triompher d'une cible avec cette compétence déclenche 'Restreindre et Protéger'.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Dissipe les Améliorations de la cible et applique Étourdissement pendant 1 sec.",
+    "dark": "DEG augmentés de 40%.",
+    "ut": {
+      "name": "Poudre magique de la foudre",
+      "description": [
+        "[Assassinat] Les DEG sont augmentés de 50% et chaque Crit augmente l'ATQ du Héros de 10% pendant 10 sec.",
+        "[Assassinat] Les DEG sont augmentés de 50% et chaque Crit augmente l'ATQ du Héros de 12% pendant 10 sec.",
+        "[Assassinat] Les DEG sont augmentés de 50% et chaque Crit augmente l'ATQ du Héros de 14% pendant 10 sec.",
+        "[Assassinat] Les DEG sont augmentés de 50% et chaque Crit augmente l'ATQ du Héros de 17% pendant 10 sec.",
+        "[Assassinat] Les DEG sont augmentés de 50% et chaque Crit augmente l'ATQ du Héros de 21% pendant 10 sec.",
+        "[Assassinat] Les DEG sont augmentés de 50% et chaque Crit augmente l'ATQ du Héros de 25% pendant 10 sec."
+      ],
+      "story": "Superbe amas de matière répartie dans la boule de cristal de Sonia telles des étoiles. Mirianne l’avait collectée pour faire une farce, mais elle est si puissante qu’elle sert finalement à perpétrer des assassinats."
+    }
+  },
+  "s4": {
+    "name": "Cible éliminée",
+    "description": "Si l'ennemi est verrouillé, l'ATQ augmente de {0} et toutes les compétences d'attaque privilégieront les ennemis verrouillés. Une fois ces ennemis vaincus, un autre ennemi est verrouillé pendant 10 secondes.",
+    "books": {
+      "0": "Augmentation de l'ATQ boostée de {0}%.",
+      "1": "Augmentation de l'ATQ boostée de {0}%.",
+      "2": "Augmentation de l'ATQ boostée de {0}%."
+    },
+    "light": "Lorsque des ennemis sont affectés par 'Verrouillage', les Chances de Crit. sont augmentées de 400.",
+    "dark": "Lorsque la cible est verrouillée, les DEG reçus sont réduits de 30%."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / DEG Crit +20%",
+    "dark": "Tuer un ennemi réduit le Temps de Recharge de toutes les compétences de 50% et récupère 1 orbe de Mana."
+  }
+}

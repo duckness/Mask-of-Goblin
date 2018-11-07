@@ -1,0 +1,120 @@
+{
+  "name": "Mitra",
+  "subtitle": "Lobo Batalla Plateada",
+  "description": "También se lo conoce como la Canción de la Locura de Plata. Un hombre sin tacto hasta el punto de sorprender, sin ningún sentido de responsabilidad. Sin embargo, una vez que la batalla comienza, él se convierte en un lobo de plata intocable, convirtiendo el campo de batalla en una zona de carnicería.",
+  "story": "Para algunos, conocido como la canción de la locura plateada, es increíblemente falso en todo lo que hace. No muestra ningún sentido de responsabilidad sobre quienes están a su alrededor. Pero, una vez que entra en combate, se convierte en un lobo plateado que atraviesa el campo de batalla; no distingue entre un amigo y un rival una vez que la locura de la batalle se apodera de él. Quedarse cerca de él en este estado puede ser mucho más peligroso que sujetar una bomba de tiempo.",
+  "like": "Batalla, peleas emocionantes, el olor de la pólvora",
+  "dislike": "Pretensiones, hipocresía",
+  "inn": {
+    "idle": "Haah.... Sólo quiero ir a dormir una siesta.",
+    "recruit": {
+      "greet": "Hey~",
+      "talk": [
+        "Hey, ¿ocurrió una pelea en alguna parte?",
+        "Bleh, no quiero hacer nada ahora mismo.",
+        "A veces, sólo quiero soltarlo todo"
+      ],
+      "gift": "¿Whoa ?! ¡Esto es increíble!"
+    },
+    "affinity": {
+      "greet": "Ah, es un excelente día para tirar.",
+      "talk": [
+        "Las cosas estaban bien por entonces. Puede que sea un tipo estricto, pero, sin duda, sabe cuidar de sus hombres. Por eso, cuando abandonó el ejército... ¡Yo hice lo mismo! ¡Jajaja!",
+        "Ah, me pregunto qué estará haciendo el viejo."
+      ],
+      "gift": "Oh, gracias."
+    },
+    "relationship": {
+      "greet": "Oh, todavía estás vivo! ¡Jajaja!",
+      "talk": [
+        "Estas armas me hacen sentir bien. Son un poco problemáticas... como yo!",
+        "Kahaha! Ya sabes, estos bastardos a veces me susurran, eh. Jala el gatillo, tira de él, tira de él ~! O eso dicen ~",
+        "Sabes que? Aparentemente hay un temible cazarrecompensas del Imperio Naval siguiéndote. Cómo te sientes al respecto, eh? Hehehe..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Rugido de Locura, Velkinoth",
+    "description": [
+      "El auto-ataque aumenta la Entrada sobre la DEF y la Veloc de ATQ en 8. Se acumula hasta 30 veces.",
+      "El auto-ataque aumenta la Entrada sobre la DEF y la Veloc de ATQ en 10. Se acumula hasta 30 veces.",
+      "El auto-ataque aumenta la Entrada sobre la DEF y la Veloc de ATQ en 12. Se acumula hasta 30 veces.",
+      "El auto-ataque aumenta la Entrada sobre la DEF y la Veloc de ATQ en 14. Se acumula hasta 30 veces.",
+      "El auto-ataque aumenta la Entrada sobre la DEF y la Veloc de ATQ en 17. Se acumula hasta 30 veces.",
+      "El auto-ataque aumenta la Entrada sobre la DEF y la Veloc de ATQ en 20. Se acumula hasta 30 veces."
+    ],
+    "story": "Un par de armas mágicas que absorbe la sed de sangre de quien la usa para aumentar su propio arsenal. Cada disparo empuja al usuario cada vez más en lo profundo de la locura de la batalla. Se dice que cuando un artesano maestro crea un arma, desarrolla un alma. Los berkinos parecen tener un alma del dios de la guerra. De acuerdo con la historia, cuando su creador jaló los gatillos por primera vez, de repente se volvió pálido de terror y las lanzó al rio."
+  },
+  "s1": {
+    "name": "Explosion! Explosion!!",
+    "description": "Ataca a un enemigo 2 veces, causando  {0}  Daño Magico. Si la habilidad es critica, se produce una explosión, causando {1}  Daño Fis. adicional a los enemigos cercanos.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "el Daño se incrementa en un 100% cuando hay 1 enemigo.",
+    "dark": "Se acumulan marcas 2 veces"
+  },
+  "s2": {
+    "name": "Hora de Morir!",
+    "description": "Aumenta el ATQ propio en {0} y ACC en {1} durante 20 seg. Al auto-atacar, hay un 15% de probabilidades de utilizar [6ffff] 'Explosion! ¡¡Explosión!!'.",
+    "books": {
+      "0": "El poder de ATQ aumenta en  {0}%.",
+      "1": "El poder de ATQ aumenta en  {0}%.",
+      "2": "El poder de ATQ aumenta en  {0}%."
+    },
+    "light": "Recibe un 20% más de Daño de todas las fuentes a cambio de un 100% adicional en el aumento de ATQ.",
+    "dark": "La Oportunidad de ¡Explosión! ¡Explosión! se incrementa en un 10%.",
+    "ut": {
+      "name": "Caja de barranco del lobo",
+      "description": [
+        "[¡Hora de morir!] Aumenta el Daño crítico en un 20 % mientras dura la habilidad. La Salud no se puede reducir por debajo del 10 % durante 3 segundos.",
+        "[¡Hora de morir!] Aumenta el Daño crítico en un 24 % mientras dura la habilidad. La Salud no se puede reducir por debajo del 10 % durante 3 segundos.",
+        "[¡Hora de morir!] Aumenta el Daño crítico en un 29 % mientras dura la habilidad. La Salud no se puede reducir por debajo del 10 % durante 3 segundos.",
+        "[¡Hora de morir!] Aumenta el Daño crítico en un 35 % mientras dura la habilidad. La Salud no se puede reducir por debajo del 10 % durante 3 segundos.",
+        "[¡Hora de morir!] Aumenta el Daño crítico en un 42 % mientras dura la habilidad. La Salud no se puede reducir por debajo del 10 % durante 3 segundos.",
+        "[¡Hora de morir!] Aumenta el Daño crítico en un 50 % mientras dura la habilidad. La Salud no se puede reducir por debajo del 10 % durante 3 segundos."
+      ],
+      "story": "Caja de barranco del lobo de acero. Los lobos de acero son infames por ser demasiado violentos y por hacer imposible la revitalización de sus enemigos. El lobo de acero más infame solo utiliza la caja de barranco del lobo que recibió del dueño del Bar dorado."
+    }
+  },
+  "s3": {
+    "name": "Baila Conmigo!",
+    "description": "Dispara a un enemigo aleatorio 12 veces, causando  {0}  Daño Fis. Cada vez que causas Daño, dejas una Marca de Muerte que no puede ser eliminada. Cada pila de Marcas de Muerte aumenta el Daño de 'Contienda' en un 1%.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "el Daño se incrementa en un 40%.",
+    "dark": "Apila 2 marcas más por golpe.",
+    "ut": {
+      "name": "Runa de los mercenarios cabeza de lobo",
+      "description": [
+        "[Baila Conmigo!] El Daño aumenta en un 20% y en cada activación, el tiempo de reutilización de la habilidad se reduce en un 5%. Este efecto se puede acumular un máximo de 8 veces.",
+        "[Baila Conmigo!] El Daño aumenta en un 24% y en cada activación, el tiempo de reutilización de la habilidad se reduce en un 5%. Este efecto se puede acumular un máximo de 8 veces.",
+        "[Baila Conmigo!] El Daño aumenta en un 29% y en cada activación, el tiempo de reutilización de la habilidad se reduce en un 5%. Este efecto se puede acumular un máximo de 8 veces.",
+        "[Baila Conmigo!] El Daño aumenta en un 35% y en cada activación, el tiempo de reutilización de la habilidad se reduce en un 5%. Este efecto se puede acumular un máximo de 8 veces.",
+        "[Baila Conmigo!] El Daño aumenta en un 42% y en cada activación, el tiempo de reutilización de la habilidad se reduce en un 5%. Este efecto se puede acumular un máximo de 8 veces.",
+        "[Baila Conmigo!] El Daño aumenta en un 50% y en cada activación, el tiempo de reutilización de la habilidad se reduce en un 5%. Este efecto se puede acumular un máximo de 8 veces."
+      ],
+      "story": "Runa de los mejores mercenarios, los Lobos de Acero. Una runa que simboliza al grupo de mercenarios denominados Lobos de Acero, también llamados «los demonios del campo de batalla». Mitra recibió el nombre de «Lobo de Plata del campo de batalla». Incluso después de abandonar el grupo de mercenarios, Mitra lo lleva consigo como recuerdo de la batalla librada contra el oficial de marina del imperio."
+    }
+  },
+  "s4": {
+    "name": "Eres el Siguiente!",
+    "description": "El ataque automático deja una Marca de Muerte que no puede ser eliminada sobre el enemigo. Luego de los ataques automaticos y la 'Explosion! Explosion !! '- sobre este enemigo, causa  {0}  Daño Fis. adicional. Cada pila de esta marca aumenta el Daño sobre este objetivo en un 2%. El número máximo de pilas es 100.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "La marca máxima se cambia a 200.",
+    "dark": "Todos los tiempos de reutilización se reducen en 0,3 cuando se golpea un objetivo con 100 pilas."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Daño Crit+20%",
+    "dark": "Luego de un Golpe Crit, aumenta el Daño Crit en 0.5% y la Veloc de Atq en 5. El número máximo de la pila es 100."
+  }
+}

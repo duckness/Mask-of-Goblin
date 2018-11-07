@@ -1,0 +1,120 @@
+{
+  "name": "Phillop",
+  "subtitle": "King of Dwarves",
+  "description": "A legendary dragon slayer who has hunted numerous dragons. Despite his small stature, his powerful shield bash destroys enemy formations, usually followed with a final blow.",
+  "story": "He is the stout and upright king of the Dwarves. He fought alongside the Warrior of the Holy Sword against the Demon Army 100 years ago. His heroism in defeating the Dark Dragon Legion, the core division of the Demon Army, is well known throughout the land. In reality, he only sits on the throne out of a sense of obligation. Even as he complains about the boredom of his royal duties, he continues to work diligently.",
+  "like": "Drinks, sand bath, smithing, and crafting",
+  "dislike": "Long conferences, the royal throne, Demons (especially the Dark Dragons)",
+  "inn": {
+    "idle": "Can a human outdrink a dwarf?",
+    "recruit": {
+      "greet": "Woa, ha ha. Y'all remind me of back in the days.",
+      "talk": [
+        "The king of dwarves? The title is nothing but a bother.",
+        "The size of the bed here doesn't quite fit. But I'm not going back home yet!",
+        "To compare to us dwarves, humans never know how to enjoy their life!"
+      ],
+      "gift": "Is this a remembrance of our encounter? Hahaha. I will treasure it."
+    },
+    "affinity": {
+      "greet": "Welcome. Here! Raise your glass!",
+      "talk": [
+        "The war from 100 years ago... I was as young as you when I was with King Kyle...",
+        "Sometimes, I miss my days as a warrior. Back then, I didn't have this many problems."
+      ],
+      "gift": "You didn't have to. I would have preferred liquor, though. Ha ha!"
+    },
+    "relationship": {
+      "greet": "Hello, friend! Have a drink, eh?",
+      "talk": [
+        "I killed plenty of Mad Dragons and Draconics back in my day. Enough to curl any dwarfish beard, eh.",
+        "Need a new weapon? I do have some Dwarfish axes back in my trunk.",
+        "Hahaha, you're a funny one. Yes, if you ever need the aid of the Dwarves, we will be there to help."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Dragon's Ruins, Atein",
+    "description": [
+      "Upon receiving DMG, stacks Dragon Rage for 10 sec. Per each stacked Dragon Rage, ATK and DEF are increased by 0.8%. Can be stacked up to 100 times max.",
+      "Upon receiving DMG, stacks Dragon Rage for 10 sec. Per each stacked Dragon Rage, ATK and DEF are increased by 1%. Can be stacked up to 100 times max.",
+      "Upon receiving DMG, stacks Dragon Rage for 10 sec. Per each stacked Dragon Rage, ATK and DEF are increased by 1.2%. Can be stacked up to 100 times max.",
+      "Upon receiving DMG, stacks Dragon Rage for 10 sec. Per each stacked Dragon Rage, ATK and DEF are increased by 1.4%. Can be stacked up to 100 times max.",
+      "Upon receiving DMG, stacks Dragon Rage for 10 sec. Per each stacked Dragon Rage, ATK and DEF are increased by 1.7%. Can be stacked up to 100 times max.",
+      "Upon receiving DMG, stacks Dragon Rage for 10 sec. Per each stacked Dragon Rage, ATK and DEF are increased by 2%. Can be stacked up to 100 times max."
+    ],
+    "story": "The Dark Dragons are Demons created to slay the dragons, the arbitrators of the world. During the war 100 years ago, these Dark Dragons killed and devoured countless dragons. A few of the surviving dragons have gone insane from the rage and the shame, and they eventually turned into Mad Dragons. They are now nothing more than giant monsters powered by their destructive instincts. Phillop and his Dwarves have been hunting these Dark Dragons and Mad Dragons since the Demon War, gathering their remains to forge legendary items."
+  },
+  "s1": {
+    "name": "Collision",
+    "description": "Deals {0} P.DMG and knocks down the enemy for {1} sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Reduces hit enemies' P.DEF by {1}% for {0} sec."
+    },
+    "light": "Mana cost is reduced by 1.",
+    "dark": "Cooldown is reduced by 10% per each enemy hit."
+  },
+  "s2": {
+    "name": "Headbutt",
+    "description": "Dashes toward the enemy and deals {0} P.DMG, knocking them back. Hit enemy's Attack Spd is reduced by {2}% for {1} sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Reduces target's ATK by {0}%."
+    },
+    "light": "Deals extra P.DMG equal to 10% of max HP.",
+    "dark": "Effect changes to a 3 sec Stun to nearby enemies.",
+    "ut": {
+      "name": "Dwarfish Capricorn Helmet",
+      "description": [
+        "[Headbutt] Reduces Mana Cost by 1 and reduces P.Crit Resistance of the affected enemy by 200 for 10 sec.",
+        "[Headbutt] Reduces Mana Cost by 1 and reduces P.Crit Resistance of the affected enemy by 240 for 10 sec.",
+        "[Headbutt] Reduces Mana Cost by 1 and reduces P.Crit Resistance of the affected enemy by 290 for 10 sec.",
+        "[Headbutt] Reduces Mana Cost by 1 and reduces P.Crit Resistance of the affected enemy by 350 for 10 sec.",
+        "[Headbutt] Reduces Mana Cost by 1 and reduces P.Crit Resistance of the affected enemy by 420 for 10 sec.",
+        "[Headbutt] Reduces Mana Cost by 1 and reduces P.Crit Resistance of the affected enemy by 500 for 10 sec."
+      ],
+      "story": "Ancient Dwarf King's capricorn helmet. It is made from the gold of dragons that was obtained after defeating the greedy dark dragon Bokrug. The magnificent golden horn of the helmet is imbued with the dark dragon's magic that will slow down an enemy who is hit with Headbutt."
+    }
+  },
+  "s3": {
+    "name": "Earth Incarnate",
+    "description": "Increases P.DEF and M.DEF by {1} for {0} sec and heals {2}% of HP. Gains CC immunity.",
+    "books": {
+      "0": "P.DEF boost is increased by {0}%.",
+      "1": "P.DEF boost is increased by {0}%.",
+      "2": "DMG Reduction is increased by {0}."
+    },
+    "light": "Deals 1% of Max HP as DMG per sec to nearby enemies.",
+    "dark": "Stuns nearby enemies for 3 sec.",
+    "ut": {
+      "name": "Dwarven Ceremonial Hammer",
+      "description": [
+        "[Earth Incarnate] For the duration of skill, ATK Spd and Crit chance is increased by 250, and DEF boost is increased by 20%.",
+        "[Earth Incarnate] For the duration of skill, ATK Spd and Crit chance is increased by 250, and DEF boost is increased by 24%.",
+        "[Earth Incarnate] For the duration of skill, ATK Spd and Crit chance is increased by 250, and DEF boost is increased by 29%.",
+        "[Earth Incarnate] For the duration of skill, ATK Spd and Crit chance is increased by 250, and DEF boost is increased by 35%.",
+        "[Earth Incarnate] For the duration of skill, ATK Spd and Crit chance is increased by 250, and DEF boost is increased by 42%.",
+        "[Earth Incarnate] For the duration of skill, ATK Spd and Crit chance is increased by 250, and DEF boost is increased by 50%."
+      ],
+      "story": "A hammer that the ancient Dwarven King received as a gift from the Earth Elemental. It was a gift that the King received for saving the Gnome Kingdom from the attacks of the evil Earth Dragon Azi Dahaka. Upon using Earth Incarnate, this ceremonial hammer, imbued with the blessing of the spirit of the earth, increases DEF with the power of the earth's spirit, and grants immunity to HP recovery and CC."
+    }
+  },
+  "s4": {
+    "name": "Destroy Armor",
+    "description": "Upon attacking, weakens enemy P.DEF by {1} for {0} sec. Can be stacked up to 5 times max.",
+    "books": {
+      "0": "P.DEF reduction is increased by {0}%.",
+      "1": "P.DEF reduction is increased by {0}%.",
+      "2": "Per every stack, enemy P. Dodge chance is reduced by {0}%."
+    },
+    "light": "Enemies with 5 stacks take 1% extra P.DMG based off Max HP per attack.",
+    "dark": "Upon attack, dispel all positive effects and target receives 20% increased P.DMG for 20 sec. Has a cooldown of 20 sec."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / P. Block +200",
+    "dark": "When auto attacking, there is a 10% chance to Stun the target for 2 sec and deal extra DMG worth 10% of own HP."
+  }
+}

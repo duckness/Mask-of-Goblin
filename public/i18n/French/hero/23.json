@@ -1,0 +1,120 @@
+{
+  "name": "Morrah",
+  "subtitle": "Flamme du Diable",
+  "description": "Un Chevalier-Démon qui utilise la lave des Forces Sombres. Il inflige de terribles souffrances à ses ennemis et livre des batailles d'endurance en utilisant sa défense de granit.",
+  "story": "Ancien commandant des Chevaliers du Dragon Noir, c'est la plus vaillante des chevaliers démons de l'Armée Démoniaque. Actuellement, pour une raison inconnue, elle suit la sorcière Maria et l'aide dans son travail. Beaucoup trouvent étrange que l'ancienne championne de l'Armée Démoniaque, qui a massacré d'innombrables ennemis et même dévoré des dragons, travaille actuellement comme simple servante d'une sorcière. Cependant, elle continue de servir fidèlement sa maîtresse.",
+  "like": "Les ennemis puissants, les combats intéressants",
+  "dislike": "Les dragons",
+  "inn": {
+    "idle": "Qu'est-ce que c'est? Voulez-vous mourir?",
+    "recruit": {
+      "greet": "Ne plaisantez pas avec moi.",
+      "talk": [
+        "Je ne combattrai personne dans cette auberge. Mais, vous feriez mieux de rester loin de moi à l'extérieur.",
+        "On dirait que votre vie est pleine de loisirs. Dans ce cas, que diriez-vous de me donner votre tête?",
+        "Ne me parlez pas."
+      ],
+      "gift": "Je veux voir votre sang, pas ça."
+    },
+    "affinity": {
+      "greet": "C'est pitoyable.",
+      "talk": [
+        "Cessez de m'importuner si vous tenez à la vie.",
+        "Ne m'embêtez pas, je n'avais pas le choix."
+      ],
+      "gift": "Vous pensez que ça me plaira ?"
+    },
+    "relationship": {
+      "greet": "Vous êtes là. Est-ce que la prochaine bataille est prévue?",
+      "talk": [
+        "J’ai prêté allégeance à Maria. Mais... J'ai également une dette envers vous.",
+        "Général des Draconniens... Oui, c'est mon passé. Je n'avais pas d'autre but...",
+        "Je suis un Démon créé pour la destruction, un Draconnien...mais pourtant..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Carprain, Flamme de Victoire",
+    "description": [
+      "Toutes les 10 sec, inflige points de DEG M. (80% de l'ATQ) aux ennemis affectés par des charges de Flamme. Chaque charge augmente les DEG de 2%. Les ennemis affectés par des charges de Flamme ont également 14% de chances d'être renversés.",
+      "Toutes les 10 sec, inflige points de DEG M. (96% de l'ATQ) aux ennemis affectés par des charges de Flamme. Chaque charge augmente les DEG de 2%. Les ennemis affectés par des charges de Flamme ont également 16% de chances d'être renversés.",
+      "Toutes les 10 sec, inflige points de DEG M. (115% de l'ATQ) aux ennemis affectés par des charges de Flamme. Chaque charge augmente les DEG de 2%. Les ennemis affectés par des charges de Flamme ont également 20% de chances d'être renversés.",
+      "Toutes les 10 sec, inflige points de DEG M. (138% de l'ATQ) aux ennemis affectés par des charges de Flamme. Chaque charge augmente les DEG de 2%. Les ennemis affectés par des charges de Flamme ont également 24% de chances d'être renversés.",
+      "Toutes les 10 sec, inflige points de DEG M. (166% de l'ATQ) aux ennemis affectés par des charges de Flamme. Chaque charge augmente les DEG de 2%. Les ennemis affectés par des charges de Flamme ont également 29% de chances d'être renversés.",
+      "Toutes les 10 sec, inflige points de DEG M. (200% de l'ATQ) aux ennemis affectés par des charges de Flamme. Chaque charge augmente les DEG de 2%. Les ennemis affectés par des charges de Flamme ont également 35% de chances d'être renversés."
+    ],
+    "story": "Un forgeron réside au cœur du volcan Dragia. Des centaines d'années auparavant, Téméraire, l'ancien Dragon du Feu, créa un ensemble d'équipements enchantés. En utilisant de la lave imprégnée de puissance volcanique, il forgea un bouclier et une épée capables d'incinérer n'importe quoi. Durant la guerre contre les démons, Téméraire les présenta à un guerrier humain. Hélas, on raconte que ce guerrier fut vaincu par Morrah. Depuis, plus personne n'a vu cet équipement légendaire. Du moins pas avant que Morrah ne réapparaisse."
+  },
+  "s1": {
+    "name": "Puissance Brûlante",
+    "description": "Inflige {0} points de DEG M. aux ennemis à portée et les renverse. Applique également 3 charges de Flamme. Pendant les {1} sec suivantes, les attaques auto infligent {2} points de DEG M. et appliquent une charge de Flamme. Flamme inflige des DEG supplémentaires qui sont augmentés de {3}% à chaque charge et reduit la Récupération de 1%.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG de {0}%."
+    },
+    "light": "La Vit. ATQ est augmentée de 200 pendant 15 sec.",
+    "dark": "Réduit le Temps de recharge de 6% pour chaque ennemi touché."
+  },
+  "s2": {
+    "name": "Feu d'Enfer",
+    "description": "Pendant {0} sec, la DEF M. de tous les alliés est augmentée de {1} et les Chances de Blocage M. de {2}. Applique également une charge de Flamme aux ennemis à proximité toutes les {3} sec.",
+    "books": {
+      "0": "Le taux d'augmentation de la DEF M. est augmenté de {0}%.",
+      "1": "Le taux d'augmentation de la DEF M. est augmenté de {0}%.",
+      "2": "Le taux d'augmentation des Chances de Blocage M. est augmenté de {0}%."
+    },
+    "light": "Le taux de Blocage M. est augmenté de 20%.",
+    "dark": "Pendant que Flammes Infernales est actif, inflige des DEG en fonction de la DEF M. aux ennemis à proximité.",
+    "ut": {
+      "name": "Gants en cuir de dragonnet",
+      "description": [
+        "[Flammes infernales] Si vous bloquez l'ATQ M de la cible pendant la durée de cette compétence, la réduction de DEG augmente de 100 points et la résistance aux coups critiques magiques de 250.",
+        "[Flammes infernales] Si vous bloquez l'ATQ M de la cible pendant la durée de cette compétence, la réduction de DEG augmente de 120 points et la résistance aux coups critiques magiques de 250.",
+        "[Flammes infernales] Si vous bloquez l'ATQ M de la cible pendant la durée de cette compétence, la réduction de DEG augmente de 140 points et la résistance aux coups critiques magiques de 250.",
+        "[Flammes infernales] Si vous bloquez l'ATQ M de la cible pendant la durée de cette compétence, la réduction de DEG augmente de 170 points et la résistance aux coups critiques magiques de 250.",
+        "[Flammes infernales] Si vous bloquez l'ATQ M de la cible pendant la durée de cette compétence, la réduction de DEG augmente de 210 points et la résistance aux coups critiques magiques de 250.",
+        "[Flammes infernales] Si vous bloquez l'ATQ M de la cible pendant la durée de cette compétence, la réduction de DEG augmente de 250 points et la résistance aux coups critiques magiques de 250."
+      ],
+      "story": "Gants confectionnés à partir d’os et de peau de dragonnet. Morrah les a fabriqués il y a cent ans en récupérant les dragonnets qu’elle avait tués lors de ses chasses au dragon. Ils sont capables de résister aux flammes de Morrah et confèrent même une plus grande puissance qui attise ces flammes. Morrah apprécie beaucoup ces gants."
+    }
+  },
+  "s3": {
+    "name": "Éruption de Lave",
+    "description": "Inflige {0} points de DEG M. aux ennemis à portée et les renverse. Les DEG sont augmentés de {1}% pour chaque charge de Flamme.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG de {0}%."
+    },
+    "light": "Les DEG sont augmentés de 40%.",
+    "dark": "Restaure les PV à hauteur de 40% des DEG infligés.",
+    "ut": {
+      "name": "Pierre de l'enfer scellée",
+      "description": [
+        "[Éruption de Lave] Les DEG sont augmentés de 20% et la DEF M. de la cible est réduite de 25% pendant 7 sec.",
+        "[Éruption de Lave] Les DEG sont augmentés de 24% et la DEF M. de la cible est réduite de 25% pendant 7 sec.",
+        "[Éruption de Lave] Les DEG sont augmentés de 29% et la DEF M. de la cible est réduite de 25% pendant 7 sec.",
+        "[Éruption de Lave] Les DEG sont augmentés de 35% et la DEF M. de la cible est réduite de 25% pendant 7 sec.",
+        "[Éruption de Lave] Les DEG sont augmentés de 42% et la DEF M. de la cible est réduite de 25% pendant 7 sec.",
+        "[Éruption de Lave] Les DEG sont augmentés de 50% et la DEF M. de la cible est réduite de 25% pendant 7 sec."
+      ],
+      "story": "Un étrange fragment venant de la Faille Dimensionnelle. Dans le fragment se trouve une flamme qui tue tout être vivant. L’énergie de la dimension y est condensée. Il est indispensable pour compléter le plan de Maria."
+    }
+  },
+  "s4": {
+    "name": "Feu Fracassant",
+    "description": "Lors d'un Blocage, inflige {1} points de DEG M. aux ennemis à portée, et applique 3 charges de Flamme.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG de {0}%."
+    },
+    "light": "Augmente la DEF M. ​​de 5% après chaque blocage. Cumulable 10 fois.",
+    "dark": "Si la cible a plus de 100 charges de Flamme, les DEG M. qu'elle reçoit sont augmentés de 40%."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Blocage M. +200",
+    "dark": "Les DEG des charges de Flamme sont augmentés de 100% et le nombre maximum de charges passe à 120."
+  }
+}

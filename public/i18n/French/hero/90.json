@@ -1,0 +1,120 @@
+{
+  "name": "May",
+  "subtitle": "La Fille qui rêve de Richesses",
+  "description": "La brillante fille qui dirige la Boutique Générale de la capitale d'Orvel. Impossible de ne pas aimer cette fille énergique et positive. Elle a toutes sortes d'objets utiles dans son panier qui pourront aider ses alliés.",
+  "story": "Une fille qui tient sa propre Boutique Générale au Château d'Orvel. Elle est adorable et traite tout le monde avec la même gentillesse et le même enthousiasme. Elle rêve de devenir un jour la marchande la plus riche d'Orvel. Elle cherche et récupère elle-même ses propres marchandises. Vu ses efforts pour obtenir ses produits, ses prix ne sont pas bon marché, ce qui lui attire des critiques. Elle se prépare actuellement à partir pour le Désert Aegina, car elle a entendu que quelqu'un y avait trouvé un trésor.",
+  "like": "L'or",
+  "dislike": "Les déficits",
+  "inn": {
+    "idle": "Hmm... les plats de Juno sont les meilleurs... ! Ils vont se vendre comme des petits pains !",
+    "recruit": {
+      "greet": "",
+      "talk": [
+        "",
+        "",
+        ""
+      ],
+      "gift": ""
+    },
+    "affinity": {
+      "greet": "Ah! Bienvenue, monsieur! Oh, attendez, c'était la Taverne...",
+      "talk": [
+        "Vous viendrez aussi à ma boutique, d'accord?",
+        "La tambouille de Juno est la meilleure!"
+      ],
+      "gift": "Hehehe, merci!"
+    },
+    "relationship": {
+      "greet": "J'ai travaillé dur tous les jours pour devenir la fille la plus riche d'Orvel !",
+      "talk": [
+        "Aujourd'hui, je pense faire le trajet vers le Centre d'Elidora pour aller ramasser de nouveaux objets!",
+        "Récemment, je me suis mis à faire des vêtements. Si j'ai l'occasion, je ferai quelque chose pour vous.",
+        "Savez-vous qu'un trésor a été découvert dans le Désert Aegina?"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Etelia, La Boîte de Parfum",
+    "description": [
+      "Activer 'Prenez ça!', applique les effets de 'Prenez tout!' à tous les alliés et réduit le Temps de Recharge de toutes les compétences du Héros de 10%.",
+      "Activer 'Prenez ça!', applique les effets de 'Prenez tout!' à tous les alliés et réduit le Temps de Recharge de toutes les compétences du Héros de 12%.",
+      "Activer 'Prenez ça!', applique les effets de 'Prenez tout!' à tous les alliés et réduit le Temps de Recharge de toutes les compétences du Héros de 14%.",
+      "Activer 'Prenez ça!', applique les effets de 'Prenez tout!' à tous les alliés et réduit le Temps de Recharge de toutes les compétences du Héros de 17%.",
+      "Activer 'Prenez ça!', applique les effets de 'Prenez tout!' à tous les alliés et réduit le Temps de Recharge de toutes les compétences du Héros de 20%.",
+      "Activer 'Prenez ça!', applique les effets de 'Prenez tout!' à tous les alliés et réduit le Temps de Recharge de toutes les compétences du Héros de 25%."
+    ],
+    "story": "Un panier étrange dont May ne se sépare jamais quand elle se met en quête de nouveaux matériaux. Il contient une quantité infinie d'espace et réduit a zéro le poids des objets qu'il recèle. Cela permet à May de rapporter une quantité astronomique d'objets en un seul voyage. À première vue, il pourrait tout aussi bien transporter un pique-nique. Cependant, on prétend que May y cache des choses... douteuses. Mais allez savoir..."
+  },
+  "s1": {
+    "name": "Prenez tout!",
+    "description": "Augmente l'ATQ de tous les alliés de {0} pendant 60 sec et donne aléatoirement un des effets suivants: 1. Pénétration + {1} , 2. Vit ATQ + {2} , 3. Mana + {3}. Tous les effets, sauf la récupération de Mana, sont cumulables 5 fois.",
+    "books": {
+      "0": "ATQ augmentée de {0}%.",
+      "1": "ATQ augmentée de {0}%.",
+      "2": "ATQ augmentée de {0}%."
+    },
+    "light": "Tous les effets ne sont pas dissipés par l'effet de 'dissiper amélioration'.",
+    "dark": "Tous les effets sont cumulables 7 fois."
+  },
+  "s2": {
+    "name": "Courage!",
+    "description": "Tous les alliés sont soignés de {0} PV, et récupèrent {1}% de leurs PV maximum chaque seconde, pendant 10 sec. Les effets ont 10% de chances soient doublés.",
+    "books": {
+      "0": "Taux de Récupération augmenté de {0}%.",
+      "1": "Taux de Récupération augmenté de {0}%.",
+      "2": "Taux de Récupération augmenté de {0}%."
+    },
+    "light": "Augmente la Résistance aux Contrôles des alliés de 250 pendant 10 sec.",
+    "dark": "A 15% de chances de récupérer 1 Orbe de Mana.",
+    "ut": {
+      "name": "Délicieuse part de gâteau",
+      "description": [
+        "[Courage !] Augmente la Récupération de 20 % et donne 20 % de chances de doubler la Récupération.",
+        "[Courage !] Augmente la Récupération de 24 % et donne 20 % de chances de doubler la Récupération.",
+        "[Courage !] Augmente la Récupération de 29 % et donne 20 % de chances de doubler la Récupération.",
+        "[Courage !] Augmente la Récupération de 35 % et donne 20 % de chances de doubler la Récupération.",
+        "[Courage !] Augmente la Récupération de 42 % et donne 20 % de chances de doubler la Récupération.",
+        "[Courage !] Augmente la Récupération de 50 % et donne 20 % de chances de doubler la Récupération."
+      ],
+      "story": "Gâteau préparé spécialement par Juno. Il sent délicieusement bon. May adore en manger au goûter. Personne ne sait vraiment pourquoi elle ne veut pas donner sa recette."
+    }
+  },
+  "s3": {
+    "name": "Pas à vendre!",
+    "description": "Attaque à 3 reprises une cible aléatoire et les autres ennemis à portée, inflige {0} points de DEG M. et applique Étourdissement pendant 4 sec. Il y a 10% de chances que la portée de la compétence, ses DEG et la durée de son Étourdissement soient doublés.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Le coût en Mana est réduit de 1.",
+    "dark": "Toutes les attaques se focalisent sur un seul ennemi.",
+    "ut": {
+      "name": "Boule de cristal d'origine inconnue",
+      "description": [
+        "[Pas à vendre!] Les DEG sont augmentés de 20% et l'ennemi reçoit 1 attaque supplémentaire.",
+        "[Pas à vendre!] Les DEG sont augmentés de 24% et l'ennemi reçoit 1 attaque supplémentaire.",
+        "[Pas à vendre!] Les DEG sont augmentés de 29% et l'ennemi reçoit 1 attaque supplémentaire.",
+        "[Pas à vendre!] Les DEG sont augmentés de 35% et l'ennemi reçoit 1 attaque supplémentaire.",
+        "[Pas à vendre!] Les DEG sont augmentés de 42% et l'ennemi reçoit 1 attaque supplémentaire.",
+        "[Pas à vendre!] Les DEG sont augmentés de 50% et l'ennemi reçoit 1 attaque supplémentaire."
+      ],
+      "story": "À l’époque de l’ancienne civilisation, quelqu’un déroba les sorts des sages et concentra leur pouvoir dans une boule de cristal, sans doute dans le but de devenir le plus grand chaman de tous les temps. Seulement, aucun livre d’histoire n’a jamais mentionné cette boule de cristal, retrouvée très loin du village, près de personne n’a jamais trouvé la moindre trace de cette boule de cristal, près du fleuve Eden. Plusieurs sorts élémentaires sont ainsi rassemblés au même endroit et le danger que cela représente rend incertaine la manière dont ces pouvoirs seront libérés."
+    }
+  },
+  "s4": {
+    "name": "Prenez ça!",
+    "description": "Inflige {0} points de DEG M. à 4 ennemis aléatoires, toutes les 15 sec, et inflige aléatoirement un des effets suivants: 1. DEG M. constants de {1} (10 sec), 2. Étourdissement (2 sec), 3. Gel (5 sec).",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Se déclanche toutes les 12 sec.",
+    "dark": "Augmente les DEG M. reçus par la cible de 25%."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Résist. Contrôles +100",
+    "dark": "Chaque attaque auto a 30% de chances de soigner l'allié avec les PV les plus faibles de 3% des PV du héros. Rend également 5% de Mana à l'allié soigné."
+  }
+}

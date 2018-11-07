@@ -1,0 +1,120 @@
+{
+  "name": "Dimael",
+  "subtitle": "Caçador da Sombra",
+  "description": "Um Elfo Negro que caça inimigos nas sombras. Seu arco vingativo perfura os inimigos com a mais pura escuridão.",
+  "story": "Este solitário Elfo Sombrio jurou vingança contra sua própria raça pela morte de sua irmã. Mal sobrevivendo à sua missão no Deserto de Aegina, a única coisa que o esperava ao voltar para casa era a terrível notícia de que sua irmã havia sido morta como parte de um sacrifício Élfico. Enquanto gritava seu nome no escuro, ele começou a sucumbir à loucura. Por fim, ele fez um juramento de ódio e vingança contra seu próprio povo, os assassinos de sua irmã.",
+  "like": "Sua irmã",
+  "dislike": "Seus conterrâneos que deixaram sua irmã morrer",
+  "inn": {
+    "idle": "Ephigael...",
+    "recruit": {
+      "greet": "Ah... É você.",
+      "talk": [
+        "Pare de encarar.",
+        "Estou incomodado. Me deixa.",
+        "Vá direto ao ponto."
+      ],
+      "gift": "... Pra mim? Hmph, por que não? Não há motivo para deixar ir para o lixo."
+    },
+    "affinity": {
+      "greet": "Este lugar não é tão ruim.",
+      "talk": [
+        "Gosto de áreas mais escuras. Odeio luminosidade excessiva.",
+        "A escuridão é a minha principal fonte de poder."
+      ],
+      "gift": "Por que você fica me dando essas coisas? Odeio ter que lidar com coisas problemáticas como essa."
+    },
+    "relationship": {
+      "greet": "Então, você está aqui. Descobriu algo útil?",
+      "talk": [
+        "Quando será a próxima caça? Espero que seja tão produtiva quanto a última.",
+        "Esse poder das trevas agora é meu. Eu continuarei usando como achar melhor.",
+        "A minha vingança ainda não acabou... mas pelo menos por enquanto, eu estou tranquilo."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Nerius, Lágrimas da Lua",
+    "description": [
+      "Ao atacar um inimigo, há 10% de chance de causar DAN.M (100% do ATQ) e de reduzir o tempo de recarga em 10%.",
+      "Ao atacar um inimigo, há 12% de chance de causar DAN.M (120% do ATQ) e de reduzir o tempo de recarga em 10%.",
+      "Ao atacar um inimigo, há 14% de chance de causar DAN.M (140% do ATQ) e de reduzir o tempo de recarga em 10%.",
+      "Ao atacar um inimigo, há 17% de chance de causar DAN.M (170% do ATQ) e de reduzir o tempo de recarga em 10%.",
+      "Ao atacar um inimigo, há 20% de chance de causar DAN.M (210% do ATQ) e de reduzir o tempo de recarga em 10%.",
+      "Ao atacar um inimigo, há 20% de chance de causar DAN.M (250% do ATQ) e de reduzir o tempo de recarga em 10%."
+    ],
+    "story": "Um tesouro dos Elfos Sombrios criado por meio do uso de uma poderosa pedra do luar de Arrovina e de um galho de árvore lunar da mais alta qualidade. Nerius é a melhor arma para Magia do Luar, além de ser um das armas mágicas mais poderosas dos Elfos Sombrios. No entanto, dizem que a bela luz prateada do luar pode ser facilmente maculada pela escuridão. Um amor sublime se transformou em profunda escuridão, e o elfo sombrio em busca de vingança colocou infundiu essa escuridão nesta arma."
+  },
+  "s1": {
+    "name": "Alvoroço da Escuridão",
+    "description": "Causa {0} de DAN.M ao inimigo.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "Ser houver 1 inimigo, aumenta o dano em 100%.",
+    "dark": "Há 25% de chance de Cegar um inimigo durante 5 segundos."
+  },
+  "s2": {
+    "name": "Grilhão Negro",
+    "description": "Causa {0} de DAN.M e aprisiona os inimigos durante {1} segundos.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Os inimigos recebem mais {0}% de DAN.M, durante o efeito do poder."
+    },
+    "light": "Reduz o custo de mana em 1.",
+    "dark": "Reúne os inimigos atingidos.",
+    "ut": {
+      "name": "Pulseira Inquebrável",
+      "description": [
+        "[Grilhão Negro] Aumenta o DAN em 50% e a Vulnerabilidade M. do alvo em 10% por 10s.",
+        "[Grilhão Negro] Aumenta o DAN em 50% e a Vulnerabilidade M. do alvo em 12% por 10s.",
+        "[Grilhão Negro] Aumenta o DAN em 50% e a Vulnerabilidade M. do alvo em 14% por 10s.",
+        "[Grilhão Negro] Aumenta o DAN em 50% e a Vulnerabilidade M. do alvo em 17% por 10s.",
+        "[Grilhão Negro] Aumenta o DAN em 50% e a Vulnerabilidade M. do alvo em 21% por 10s.",
+        "[Grilhão Negro] Aumenta o DAN em 50% e a Vulnerabilidade M. do alvo em 25% por 10s."
+      ],
+      "story": "Uma pulseira dada a Epigael há muito tempo. Possui um pingente de morrião das sombras, que é uma joia preciosa entre os Elfos Sombrios. Dizem que aqueles que arrancam o pingente têm um pedaço de suas almas tomado pelo morrião das sombras, o que fará com que se encontrem novamente na próxima vida."
+    }
+  },
+  "s3": {
+    "name": "Onda Sombria",
+    "description": "Causa {0} de DAN.M aos inimigos numa linha reta e cega os alvos atingidos durante {1} segundos.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "O custo de mana aumenta em 1 orbe, mas o DAN é reforçado em 100%.",
+    "dark": "Os efeitos positivos de todos os inimigos na área são removidos.",
+    "ut": {
+      "name": "Olho das Sombras",
+      "description": [
+        "[Onda de Sombras] Aumenta o DAN em 50% e a duração de Cegar aumenta em 2 segundos.",
+        "[Onda de Sombras] Aumenta o DAN em 50% e a duração de Cegar aumenta em 2,5 segundos.",
+        "[Onda de Sombras] Aumenta o DAN em 50% e a duração de Cegar aumenta em 3 segundos.",
+        "[Onda de Sombras] Aumenta o DAN em 50% e a duração de Cegar aumenta em 3,5 segundos.",
+        "[Onda de Sombras] Aumenta o DAN em 50% e a duração de Cegar aumenta em 4 segundos.",
+        "[Onda de Sombras] Aumenta o DAN em 50% e a duração de Cegar aumenta em 4,5 segundos."
+      ],
+      "story": "Fragmentos de lágrima da fera Heltanios, que viveu no fundo da Fonte da Vida. Lançava escuridão profunda e, aqueles que viam seus olhos, acabavam tendo suas almas roubadas pela poderosa energia sombria. Aqueles que se tornam mestres desses olhos obterão grande poder e discernimento. Quando Dimael foi capturado em Aegina e estava à beira da morte, Maria imbuiu esses fragmentos de olho."
+    }
+  },
+  "s4": {
+    "name": "Mancha Negra",
+    "description": "Cada ataque automático causa {0} de DAN.M adicional que ignora a DEF.M.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "Aumenta o DAN em 40%.",
+    "dark": "Há 10% de chance de disparar o Poder 1 durante um ataque automático."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / VEL. ATQ +100",
+    "dark": "Enquanto estiver em ataque automático, causa DAN.M adicional igual a 80% do ATQ e recupera 100 de mana. Há 10% de chance de causar o dobro de DAN e de recuperar o dobro de mana."
+  }
+}

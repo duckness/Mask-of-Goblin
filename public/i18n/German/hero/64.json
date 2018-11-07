@@ -1,0 +1,120 @@
+{
+  "name": "Artemia",
+  "subtitle": "Herrscherin des Lichts",
+  "description": "Die Königin von Pentheonia, des Eisernen Königreiches, welches im Kampf gegen die Dämonen vor 1000 Jahren nicht einen Zentimeter zurückwich. Das strahlende Licht ihres Stabes verbrennt Gegner im Namen des Gesetzes zu Asche.",
+  "story": "Penteonia ist ein uneinnehmbares Königreich. Nicht einmal die Dämonenarmee konnte vor 100 Jahren ihre Verteidigung überwinden. Die Herrscherin über dieses eiserne Königreich ist Artemia, die Herrscherin des Lichts. Seit ihrer Kindheit lebte sie mit der Last der Verantwortung durch den Thron, den sie eines Tages besteigen würde. Als sie schließlich erkannte, dass ihr Königreich nur durch die Opfer ihres Volkes den Sieg erringen konnte, schwor sie, sich niemals vor ihrer Pflicht zu drücken. Mutig und beherzt begegnete sie dem Druck der königlichen Verantwortung. Penteonia war historisch gesehen stets ein eigennütziges Königreich und nur an seiner eigenen Sicherheit interessiert. Jetzt, wo Artemia herrscht, ist all das im Wandel begriffen.",
+  "like": "Süße Kuchen; die Augen gerechter Ritter",
+  "dislike": "Dämonen",
+  "inn": {
+    "idle": "Ich habe dich aufgesucht.",
+    "recruit": {
+      "greet": "Ich bin immer für dich da. Vergiss das nicht.",
+      "talk": [
+        "Ist dies ein Zeichen deiner Ehrlichkeit?",
+        "Ich werde mich an dein Gesicht erinnern.",
+        "Krauch nicht vor mir rum. Halte deinen Kopf stolz erhoben."
+      ],
+      "gift": "Danach verlangt es dir? Dann werde ich es in Ehren halten."
+    },
+    "affinity": {
+      "greet": "Kein Grund niederzuknien.",
+      "talk": [
+        "Sieht so aus, als wäre ich nicht die Einzige, die vom Licht auserwählt wurde.",
+        "Ich frage mich, ob es den Kindern der Königlichen Wache auch gut geht."
+      ],
+      "gift": "Danke für deine Großzügigkeit."
+    },
+    "relationship": {
+      "greet": "Es scheint dir gut zu gehen.",
+      "talk": [
+        "Vater und Mutter tragen nicht länger die Bürde der Krone. Sie können ihr gemeinsames Leben nun genießen und müssen sich keine Sorgen machen.",
+        "Einige der Ritter hier in Orvelia sind wahre Schätze, die jeder Herrscher am eigenen Hof ​​haben will.",
+        "Ich werde die Verantwortung tragen, die nun auf meinen Schultern lastet. Aber es ist gut zu wissen, dass du da bist, um die Bürde mit mir zu teilen."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Lobeshymne, Brauxio",
+    "description": [
+      "Erschafft alle 15 Sek. einen Schild mit 200% der ANG, der 10 Sek. lang anhält und die eigene ANG um 20% erhöht. Während der Schild aktiv ist, besteht Immunität gegen Effekte.",
+      "Erschafft alle 15 Sek. einen Schild mit 240% der ANG, der 10 Sek. lang anhält und die eigene ANG um 24% erhöht. Während der Schild aktiv ist, besteht Immunität gegen Effekte.",
+      "Erschafft alle 15 Sek. einen Schild mit 290% der ANG, der 10 Sek. lang anhält und die eigene ANG um 29% erhöht. Während der Schild aktiv ist, besteht Immunität gegen Effekte.",
+      "Erschafft alle 15 Sek. einen Schild mit 350% der ANG, der 10 Sek. lang anhält und die eigene ANG um 35% erhöht. Während der Schild aktiv ist, besteht Immunität gegen Effekte.",
+      "Erschafft alle 15 Sek. einen Schild mit 420% der ANG, der 10 Sek. lang anhält und die eigene ANG um 42% erhöht. Während der Schild aktiv ist, besteht Immunität gegen Effekte.",
+      "Erschafft alle 15 Sek. einen Schild mit 500% der ANG, der 10 Sek. lang anhält und die eigene ANG um 50% erhöht. Während der Schild aktiv ist, besteht Immunität gegen Effekte."
+    ],
+    "story": "Dieser heilige Schatz von Penteonia wurde angeblich aus den Himmeln geschickt, um die Dämonen auszulöschen. Dieser Lichtstab gehorcht nur jenen, die seiner Heiligkeit würdig sind und begann in den Händen der jungen Artemia zu strahlen, als wolle er die zukünftige Herrscherin würdigen. Er ruft die Macht des absoluten Lichts an und lässt die Rache des Himmels auf seine Feinde regnen, während er seinen Besitzer mit göttlichem Licht schützt."
+  },
+  "s1": {
+    "name": "Lichtsäule",
+    "description": "Platziert eine Lichtsäule an der Stelle des Gegners, die über 3 Sek. insgesamt {0} M. Schaden verursacht und die ANG des Gegners für 10 Sek. um {1}% reduziert.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Erhöht Schaden um 40%.",
+    "dark": "Jeder Schlag hat eine 25%-Chance den Gegner für 1 Sek. zu betäuben."
+  },
+  "s2": {
+    "name": "Krititsche Intensität",
+    "description": "Fügt Feinden in einer geraden Linie {0} M. Schaden zu. Dieser Angriff gibt zusätzlich 100% auf den Krit. Schadensmodifizierer.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Reduziert Manakosten um 1.",
+    "dark": "Wenn Lichtsegen 10 Zähler hat, wird der Cooldown um 50% reduziert.",
+    "ut": {
+      "name": "Stolz der Königin",
+      "description": [
+        "[Kritische Intensität] Gewährt Statuseffekt-Immunität und erhöht den Schaden um 20 %.",
+        "[Kritische Intensität] Gewährt Statuseffekt-Immunität und erhöht den Schaden um 24 %.",
+        "[Kritische Intensität] Gewährt Statuseffekt-Immunität und erhöht den Schaden um 29 %.",
+        "[Kritische Intensität] Gewährt Statuseffekt-Immunität und erhöht den Schaden um 35 %.",
+        "[Kritische Intensität] Gewährt Statuseffekt-Immunität und erhöht den Schaden um 42 %.",
+        "[Kritische Intensität] Gewährt Statuseffekt-Immunität und erhöht den Schaden um 50 %."
+      ],
+      "story": "Ohrringe, die aus hellem Kveril hergestellt wurden, einem seltenen Mineral, das nur in Penteonia vorkommen soll. Als Artemia zur Kaiserin gekrönt wurde, erhielt sie die Ohrringe zusammen mit der Krone. Sie verlieren ihr Licht auch in der Nacht nicht und leuchten im Dunkeln sogar noch heller. Sie sind beim Volk bekannt als Juwelen der Prinzipien und der Brillanz. Ein Gegenstand, der die Würde der Königin noch erhöht, wenn er ihre Ohren schmückt."
+    }
+  },
+  "s3": {
+    "name": "Lichturteil",
+    "description": "Greift den Gegner 3 Mal an und verursacht {0} M. Schaden, sowie Betäuben für 5 Sek. Dieser Skillcooldown ist um 30% reduziert, wenn der Gegner dadurch getötet wird.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Cooldown ist um 3 Sek. reduziert.",
+    "dark": "Manakosten sind um 1 erhöht, aber Schaden ist +100%.",
+    "ut": {
+      "name": "Glanz-Krone",
+      "description": [
+        "[Lichturteil] Erhöht Schaden um 20% und stellt beim Töten eines Gegners 700 Mana wieder her.",
+        "[Lichturteil] Erhöht Schaden um 24% und stellt beim Töten eines Gegners 700 Mana wieder her.",
+        "[Lichturteil] Erhöht Schaden um 29% und stellt beim Töten eines Gegners 700 Mana wieder her.",
+        "[Lichturteil] Erhöht Schaden um 35% und stellt beim Töten eines Gegners 700 Mana wieder her.",
+        "[Lichturteil] Erhöht Schaden um 42% und stellt beim Töten eines Gegners 700 Mana wieder her.",
+        "[Lichturteil] Erhöht Schaden um 50% und stellt beim Töten eines Gegners 700 Mana wieder her."
+      ],
+      "story": "Eine Krone, die der König von Penteonia geerbt hat. Ein Teil davon wurde von einem vorherigen Tyrannen zerstört, aber sie wurde wieder repariert. Ein neuer roter Edelstein namens „Seele der Sonne“ wurde in der Mitte der Krone eingefasst. Ihre Ehrfurcht gebietende Form zwingt jeden dazu, als Zeichen des Respekts vor ihr niederzuknien."
+    }
+  },
+  "s4": {
+    "name": "Lichtsegen",
+    "description": "50%-Chance, dass das Ziel und umstehende Gegner {0} M. Schaden erleiden, während Artemia 1 Zähler für Lichtsegen erhält. Dieser Skill kann sich bis zu 10 Mal kumulieren, wobei jeder Zähler ANG um {1} erhöht. Der Zähler erhöht außerdem den an Nicht-Helden verursachten Schaden um {2}% und reduziert den von Nicht-Helden erhaltenen Schaden um {3}%.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Aktivierungschance auf 60% geändert.",
+    "dark": "Max. Zähler-Limit auf 12 erhöht."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / Krit. Chance +100",
+    "dark": "Falls TP unter 50% fallen, erhalte 2 Sek. Schadensimmunität. Effekt wird nur alle 30 Sek. aktiviert."
+  }
+}

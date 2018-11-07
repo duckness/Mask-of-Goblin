@@ -1,0 +1,120 @@
+{
+  "name": "Oddy",
+  "subtitle": "Relojero de Vida Eterna",
+  "description": "Un relojero que fue maldecido por los animales divinos llamado el Redpur. El reloj mágico ataca y petrifica a los enemigos y también permite a sus aliados utilizar habilidades más rápido.",
+  "story": "Hace mucho tiempo fue un mecánico del palacio real de Orvelia. Sin embargo, fue maldecido por la criatura mítica Redpur y se convirtió en un Redpur él mismo. Desde su transformación, ha estado viviendo por tanto tiempo que se olvidó de su propia edad. Cuando era un humano, inventó el primer reloj portátil, pero nadie en Orvelia vio su valor verdadero. Para dar a su invención el reconocimiento que merece, se dirigió al imperio. En su trayecto, fue maldecido por un grupo de Redpurs que lo confundieron con un cazador furtivo. La maldición también afecto al su reloj, dándole poderes mágicos para controlar el flujo del tiempo en un cuerpo viviente. El propio tiempo de Oddy también se detuvo.",
+  "like": "Relojes",
+  "dislike": "Cazadores furtivos",
+  "inn": {
+    "idle": "Jaja ~ !! Orvelia seguro ha cambiado.",
+    "recruit": {
+      "greet": "Saludos, saludos",
+      "talk": [
+        "Hmm, hay suficiente tiempo. ¿ Deseas conversar un rato?",
+        "Solía ​​ser un humano una vez... pero ahora soy un Redpur.",
+        "Mi reloj está hechizado con la magia. La magia Redpur..."
+      ],
+      "gift": "Oho ~ ¡Ha pasado un tiempo desde que recibí esos regalos humanos!"
+    },
+    "affinity": {
+      "greet": "¿Eh? Ah, estás aquí.",
+      "talk": [
+        "¿No tienes tiempo? Ja, ja. Pues hazte un tiempo de donde sea.",
+        "¿Nunca has visto un Redpur? No me sorprende. ¡Se esconden todo el tiempo!"
+      ],
+      "gift": "¿Un regalo? Hum, tendré que preparar algo la próxima vez."
+    },
+    "relationship": {
+      "greet": "Bienvenido Bienvenido!",
+      "talk": [
+        "Ah, extraño a mis amigos de Redpur...",
+        "Realmente no recuerdo mis días como ser humano. Ha pasado bastante tiempo.",
+        "Creía que fui el primero en inventar el reloj de bolsillo, pero aparentemente las civilizaciones antiguas estaban mucho más avanzadas de lo que esperaba."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Cuenta Regresiva Sombra de la Luna, Tempodiana",
+    "description": [
+      "Al utilizar la Distorsión de Tiempo, todos los tiempos de reutilización aliados se reducen adicionalmente en 2 segundos, y su ATQ aumenta en un 14% durante 10 segundos.",
+      "Al utilizar la Distorsión de Tiempo, todos los tiempos de reutilización aliados se reducen adicionalmente en 3 segundos, y su ATQ aumenta en un 17% durante 10 segundos.",
+      "Al utilizar la Distorsión de Tiempo, todos los tiempos de reutilización aliados se reducen adicionalmente en 4 segundos, y su ATQ aumenta en un 21% durante 10 segundos.",
+      "Al utilizar la Distorsión de Tiempo, todos los tiempos de reutilización aliados se reducen adicionalmente en 5 segundos, y su ATQ aumenta en un 25% durante 10 segundos.",
+      "Al utilizar la Distorsión de Tiempo, todos los tiempos de reutilización aliados se reducen adicionalmente en 6 segundos, y su ATQ aumenta en un 30% durante 10 segundos.",
+      "Al utilizar la Distorsión de Tiempo, todos los tiempos de reutilización aliados se reducen adicionalmente en 7 segundos, y su ATQ aumenta en un 35% durante 10 segundos."
+    ],
+    "story": "Después que el reloj de Oddy fue golpeado con la maldición de Redpur y ganó el control del tiempo sobre un ser humano, él utilizó el tiempo infinito que ganó para investigar sus aplicaciones posibles. Cuando finalmente creó un reloj con la esencia de la magia del tiempo después de muchas pruebas, Oddy descubrió que el secreto de la magia de Redpur se originaba de la luz de la luna y de la sombra que crea. Nombró a su obra maestra “Tempodiana”, y le otorgó el apodo de “Cuenta regresiva de sombra de la luna”."
+  },
+  "s1": {
+    "name": "Grieta de Tiempo",
+    "description": "Golpea a los enemigos en una línea recta causando {0} Daño Magico y los Petrifica",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "La Oportunidad Critica aumenta en {0}."
+    },
+    "light": "el Daño se incrementa en un 40%.",
+    "dark": "El tiempo de reutilización se reduce en 1,5 segundos."
+  },
+  "s2": {
+    "name": "Fragmentos del Tiempo",
+    "description": "Ataca a 6 enemigos aleatorios, causando un total de  {0}  Daño Magico. Hay un 50% de probabilidad de que los 'Fragmentos del Tiempo' reinicien su tiempo de reutilización y no requieran maná para el próximo uso.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "La Oportunidad Critica aumenta en {0}."
+    },
+    "light": "El objetivo cambia a 2 enemigos aleatorios.",
+    "dark": "Durante el tiempo de reutilización, los ataques automáticos reducirán el tiempo de reutilización de 'Fragmentos de tiempo' en 1 seg.",
+    "ut": {
+      "name": "Colección de fragmento",
+      "description": [
+        "[Fragmentos temporales] Tiene un 25 % de probabilidades de restablecer el Tiempo de reutilización y aumenta el Daño en un 20 %.",
+        "[Fragmentos temporales] Tiene un 25 % de probabilidades de restablecer el Tiempo de reutilización y aumenta el Daño en un 24 %.",
+        "[Fragmentos temporales] Tiene un 25 % de probabilidades de restablecer el Tiempo de reutilización y aumenta el Daño en un 29 %.",
+        "[Fragmentos temporales] Tiene un 25 % de probabilidades de restablecer el Tiempo de reutilización y aumenta el Daño en un 35 %.",
+        "[Fragmentos temporales] Tiene un 25 % de probabilidades de restablecer el Tiempo de reutilización y aumenta el Daño en un 42 %.",
+        "[Fragmentos temporales] Tiene un 25 % de probabilidades de restablecer el Tiempo de reutilización y aumenta el Daño en un 50 %."
+      ],
+      "story": "Fragmentos de tiempo que cayeron de las sombras de la luna. A veces, los fragmentos del tiempo caen de otra dimensión del efecto de la sombra de la luna que aparece cuando se utiliza la magia del tiempo. Los fragmentos del tiempo son pequeños, pero cuando se juntan, se convierten en una colección gigante de fragmentos de registros, que brindan inspiración interminable al lanzador."
+    }
+  },
+  "s3": {
+    "name": "Distorsion del Tiempo",
+    "description": "Causa {0} Daño Magico a todos los enemigos y aumenta la Veloc de ATQ del aliado en  {1}  durante 15 seg. Luego, todas las habilidades aliadas que esten recargando su tiempo de reutilización sera reducido en un 50%. Esta habilidad no se ve afectada por sí misma y por lo tanto no tendrá su tiempo de reutilización reducido.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "La Oportunidad Critica aumenta en {0}."
+    },
+    "light": "Aumenta el costo de Mana en 2 y recupera el Mana por completo para todos los aliados.",
+    "dark": "Cuando hay 5 o más enemigos, aumenta el Daño en un 100 %. Los enemigos golpeados reciben un 50 % de Daño adicional durante 10 segundos.",
+    "ut": {
+      "name": "Hilos de tiempo",
+      "description": [
+        "[Distorsión del Tiempo] El daño aumenta en un 20% y los efectos negativos de todos los aliados se disipan.",
+        "[Distorsión del Tiempo] El daño aumenta en un 24% y los efectos negativos de todos los aliados se disipan.",
+        "[Distorsión del Tiempo] El daño aumenta en un 29% y los efectos negativos de todos los aliados se disipan.",
+        "[Distorsión del Tiempo] El daño aumenta en un 35% y los efectos negativos de todos los aliados se disipan.",
+        "[Distorsión del Tiempo] El daño aumenta en un 42% y los efectos negativos de todos los aliados se disipan.",
+        "[Distorsión del Tiempo] El daño aumenta en un 50% y los efectos negativos de todos los aliados se disipan."
+      ],
+      "story": "La piel del jefe de los piel roja colgaba de la sombra de la luna. Se dice que esta mítica criatura, el jefe de los piel roja, usa la sombra de la luna durante los días de luna llena para viajar a través de las dimensiones y bailar. El jefe de los piel roja baila hasta que la sombra de la luna desaparece y, según se cuenta, a veces se engancha la cola en el camino. La piel de esta mítica criatura queda enganchada en la grieta espaciotemporal, lo que hace que el tiempo se detenga por un momento. Oddy aprovecha la piel de los rastros de las sombras de la luna para hacer una madeja, que usa eficazmente para distorsionar el tiempo."
+    }
+  },
+  "s4": {
+    "name": "Reloj Magico",
+    "description": "Al utilizar la habilidad, los siguientes 2 ataques infligen {0} Daño mágico adicional con un 30 % de posibilidades de petrificar al objetivo durante 3 segundos. Este efecto se activa cada 1 segundo.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "La Oportunidad Critica aumenta en {0}."
+    },
+    "light": "Cambia las instancias de obtener Daño adicional a partir del uso de la habilidad hasta 3 veces.",
+    "dark": "Cambia la posibilidad de petrificar hasta en un 40 %."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Veloc de ATQ +100",
+    "dark": "Cada 10 seg, cualquier habilidad en el tiempo de reutilización para 4 aliados aleatorios reducen sus reutilizaciones en 1 seg."
+  }
+}

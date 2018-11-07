@@ -1,0 +1,120 @@
+{
+  "name": "Kasel",
+  "subtitle": "Warrior of the Holy Sword",
+  "description": "The Chosen Warrior of the Holy Sword Aea, the sword that saved the world once before. He can push back enemies and enhance himself with the power of this holy sword.",
+  "story": "A squire of the Kingdom of Orvelia. Traumatized by witnessing the deaths of his parents at the hands of the Demons invading the village, and later, the assassination of his sword teacher, he fears the idea of anyone around him dying. His past has driven him to seek out his sworn brother from his early years in the orphanage, Clause, who joined an expedition, but never returned.",
+  "like": "Food from the nature",
+  "dislike": "Fatalism",
+  "inn": {
+    "idle": "Is it ok to rest...even if rest is needed...",
+    "recruit": {
+      "greet": "It's been a while. How are you?",
+      "talk": [
+        "I hope the world becomes peaceful soon.",
+        "This sword...is heavy.",
+        "I don't believe in fate."
+      ],
+      "gift": "Thank you. This will help end the battle quickly."
+    },
+    "affinity": {
+      "greet": "I'm seeing you around quite often. Are you getting to the capital now?",
+      "talk": [
+        "Will all this end once I find the power of the Holy Sword?",
+        "I don't want to be swayed by anyone else. I'll go my own way."
+      ],
+      "gift": "A gift for an unpopular man like myself... Thank you."
+    },
+    "relationship": {
+      "greet": "I am always thankful for your help.",
+      "talk": [
+        "It would be a lie to say it isn't difficult, but that's life, I guess.",
+        "Thank you for sharing my burden. Really.",
+        "There is no such thing as a perfect life. Well, there are some perfect moments, though. Haha..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "The Holy Sword, Aea",
+    "description": [
+      "Each attack has a 35% chance of dealing 160% of ATK as P.DMG.",
+      "Each attack has a 35% chance of dealing 192% of ATK as P.DMG.",
+      "Each attack has a 35% chance of dealing 230% of ATK as P.DMG.",
+      "Each attack has a 35% chance of dealing 276% of ATK as P.DMG.",
+      "Each attack has a 35% chance of dealing 331% of ATK as P.DMG.",
+      "Each attack has a 35% chance of dealing 400% of ATK as P.DMG."
+    ],
+    "story": "A legendary Holy Sword given to the world by Lua. This legendary artifact materialized 100 years ago when the Demons invaded the Orbis Continent through the Dimensional Gate. According to the legend, the Hero King Kyle used this sword to pierce the heart of the Dark Lord Angmund and brought an end to the war. However, the two simply vanished, and only Aea remained."
+  },
+  "s1": {
+    "name": "Judgement Blade",
+    "description": "Deals {0} P.DMG 2 times to frontal enemies in a circle and knocks them down for {1} sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Mana cost is reduced by 1.",
+    "dark": "Ignores DEF when there is only 1 enemy."
+  },
+  "s2": {
+    "name": "Valiant Dash",
+    "description": "Attacks the target 3 times, and then charges behind them to deal {0} P.DMG.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Crit Chance is increased by {0}."
+    },
+    "light": "Mana cost is reduced by 1.",
+    "dark": "Target takes 25% increased P.DMG.",
+    "ut": {
+      "name": "Emperor's Gauntlet",
+      "description": [
+        "[Valiant Dash] Increases DMG by 20% and reduces Cooldown by 10% upon a Crit Hit.",
+        "[Valiant Dash] Increases DMG by 24% and reduces Cooldown by 10% upon a Crit Hit.",
+        "[Valiant Dash] Increases DMG by 29% and reduces Cooldown by 10% upon a Crit Hit.",
+        "[Valiant Dash] Increases DMG by 35% and reduces Cooldown by 10% upon a Crit Hit.",
+        "[Valiant Dash] Increases DMG by 42% and reduces Cooldown by 10% upon a Crit Hit.",
+        "[Valiant Dash] Increases DMG by 50% and reduces Cooldown by 10% upon a Crit Hit."
+      ],
+      "story": "Gauntlet imbued with the blessing of Lua, the Goddess of Light. Gauntlet passed down to the kings of the Orbis Continent. Contains the encouragement of the goddess that allows you to use Valiant Dash towards enemies without any fear."
+    }
+  },
+  "s3": {
+    "name": "Proxy of God",
+    "description": "Deals {0} P.DMG to nearby enemies and inflicts Stun for 3 sec. Additionally, for {1} sec, ATK is increased by {2} and Dodge Rate is increased by {3} , while gaining immunity to CC. This status cannot be dispelled.",
+    "books": {
+      "0": "ATK boost is increased by {0}%.",
+      "1": "ATK boost is increased by {0}%.",
+      "2": "Increases Spd by {0} for the duration of skill."
+    },
+    "light": "Mana cost is reduced by 1.",
+    "dark": "ATK boost is increased by 40%.",
+    "ut": {
+      "name": "Proxy's Insignia",
+      "description": [
+        "[Proxy of God] Additionally, Dodge Rate is increased by 250, and ATK Spd is increased by 100 for the duration of skill.",
+        "[Proxy of God] Additionally, Dodge Rate is increased by 250, and ATK Spd is increased by 120 for the duration of skill.",
+        "[Proxy of God] Additionally, Dodge Rate is increased by 250, and ATK Spd is increased by 140 for the duration of skill.",
+        "[Proxy of God] Additionally, Dodge Rate is increased by 250, and ATK Spd is increased by 170 for the duration of skill.",
+        "[Proxy of God] Additionally, Dodge Rate is increased by 250, and ATK Spd is increased by 210 for the duration of skill.",
+        "[Proxy of God] Additionally, Dodge Rate is increased by 250, and ATK Spd is increased by 250 for the duration of skill."
+      ],
+      "story": "A rune that proves that one is an agent of Lua, the Goddess of Light. The Rune of Proxy is an artifact of the Church of Lua, and it's given to the knight who wields the Aea, the Sword of Light. The Rune of Proxy pushes enemies with the power of light and increases ATK and morale."
+    }
+  },
+  "s4": {
+    "name": "Goddess Strike",
+    "description": "Upon dodging, deals {0} P.DMG to frontal enemies in range, and reduces their ACC by {1} for 5 sec. After hitting the target, recovers 300 mana.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Crit Chance is increased by {0}."
+    },
+    "light": "ACC reduction rate is changed to 250.",
+    "dark": "Casting is boosted and Cooldown is reduced by 1 sec."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / P.Dodge +100",
+    "dark": "Upon attacking, attack 1 extra time dealing 40% of ATK as DMG."
+  }
+}

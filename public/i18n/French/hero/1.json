@@ -1,0 +1,120 @@
+{
+  "name": "Kasel",
+  "subtitle": "Guerrier de l'Épée Sacrée",
+  "description": "Le guerrier élu d'Aea, l'Épée Sacrée qui sauva déjà le monde une fois. Il peut repousser les ennemis et s'améliorer lui-même avec la puissance de l'Épée Sacrée.",
+  "story": "Un écuyer du royaume d'Orvelia. Traumatisé par la mort de ses parents des mains des démons ayant envahi son village puis, par l'assassinat de son maître d'escrime, il ne supporte pas l'idée que ses proches puissent mourir. Son passé l'a poussé à partir à la recherche de son frère de sang, Clause, rencontré durant son enfance à l'orphelinat, disparu alors qu'il était parti en expédition.",
+  "like": "La nourriture de la nature",
+  "dislike": "Le fatalisme",
+  "inn": {
+    "idle": "C'est bon pour se reposer... même si le repos est nécessaire...",
+    "recruit": {
+      "greet": "Ça fait longtemps. Comment ça va?",
+      "talk": [
+        "J'espère que le monde deviendra pacifique bientôt.",
+        "Cette épée...est lourde.",
+        "Je ne crois pas au destin."
+      ],
+      "gift": "Merci. Ça aidera à finir la bataille rapidement."
+    },
+    "affinity": {
+      "greet": "Je vous vois souvent dans le coin. Vous vous rendez à la capitale ?",
+      "talk": [
+        "Si je trouve le pouvoir de l'épée sacrée, est-ce que tout ceci s'arrêtera enfin ?",
+        "Je ne voudrais pas me faire influencer par quelqu'un d'autre. Je vais partir de mon côté."
+      ],
+      "gift": "Un cadeau pour quelqu'un d'impopulaire tel que moi... Merci."
+    },
+    "relationship": {
+      "greet": "Je vous suis toujours reconnaissant pour votre aide.",
+      "talk": [
+        "Dire que ce n'est pas difficile serait de mentir, mais c'est la vie je suppose.",
+        "Merci de partager mon fardeau. Vraiment.",
+        "Il n'y a pas de vie parfaite. Cependant, ils y a des moments parfaits. Ahah..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Aea l'Épée Sacrée",
+    "description": [
+      "Chaque attaque a 35% de chance d'infliger des DEG P. à l'ennemi (160% de l'ATQ)",
+      "Chaque attaque a 35% de chance d'infliger des DEG P. à l'ennemi (192% de l'ATQ)",
+      "Chaque attaque a 35% de chance d'infliger des DEG P. à l'ennemi (230% de l'ATQ)",
+      "Chaque attaque a 35% de chance d'infliger des DEG P. à l'ennemi (276% de l'ATQ)",
+      "Chaque attaque a 35% de chance d'infliger des DEG P. à l'ennemi (331% de l'ATQ)",
+      "Chaque attaque a 35% de chance d'infliger des DEG P. à l'ennemi (400% de l'ATQ)"
+    ],
+    "story": "Une Épée Sacré légendaire donnée au monde par Lua. Cet artéfact légendaire se matérialisa il y a cent ans, lorsque les démons envahirent le continent via la Porte Dimensionnelle. D'après la légende, le roi héros Kyle l'utilisa pour transpercer le cœur du Seigneur des Ténèbres Angmund et mettre fin à la guerre. Cependant, ils disparurent tous les deux, ne laissant qu'Aea."
+  },
+  "s1": {
+    "name": "Lame de Jugement",
+    "description": "Inflige 2 fois {0}  points de DEG P aux ennemis situés en face en cercle et les renverse pendant {1}  sec.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG de {0}%."
+    },
+    "light": "Coût en mana réduit de 1.",
+    "dark": "Ignore la DEF lorsqu'il n'y a qu'un seul ennemi."
+  },
+  "s2": {
+    "name": "Ruée Vaillante",
+    "description": "Attaque 3 fois la cible, puis fonce derrière elle pour infliger {0}  points de DEG P.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente Chances de Critique de {0}."
+    },
+    "light": "Coût en mana réduit de 1.",
+    "dark": "La cible reçoit des DEG P. augmentés de 25%.",
+    "ut": {
+      "name": "Gantelet d’empereur",
+      "description": [
+        "[Ruée vaillante] Augmente les DEG de 20 % et réduit le temps de recharge de 10 % lorsque vous assénez un coup critique.",
+        "[Ruée vaillante] Augmente les DEG de 24 % et réduit le temps de recharge de 10 % lorsque vous assénez un coup critique.",
+        "[Ruée vaillante] Augmente les DEG de 29 % et réduit le temps de recharge de 10 % lorsque vous assénez un coup critique.",
+        "[Ruée vaillante] Augmente les DEG de 35 % et réduit le temps de recharge de 10 % lorsque vous assénez un coup critique.",
+        "[Ruée vaillante] Augmente les DEG de 42 % et réduit le temps de recharge de 10 % lorsque vous assénez un coup critique.",
+        "[Ruée vaillante] Augmente les DEG de 50 % et réduit le temps de recharge de 10 % lorsque vous assénez un coup critique."
+      ],
+      "story": "Gantelet imprégné de la bénédiction de Lua, Déesse de la Lumière. Il a été transmis par les rois du continent Orbis et renferme les encouragements de la déesse vous permettant d’utiliser Ruée Vaillante vers vos ennemis sans la moindre peur."
+    }
+  },
+  "s3": {
+    "name": "Autorité de Dieu",
+    "description": "Inflige {0} points de DEG P. aux ennemis à portée et applique Étourdissement pendant 3 sec. Pendant {1} sec supplémentaires, l'ATQ est augmentée de {2} et l'Esquive de {3} , tout en étant immunisé aux Contrôles. Ceci ne peut pas être dissipé.",
+    "books": {
+      "0": "Le taux d'augmentation d'Attaque augmente de {0}%.",
+      "1": "Le taux d'augmentation d'Attaque augmente de {0}%.",
+      "2": "Augmente la vitesse de {0} pendant la durée."
+    },
+    "light": "Coût en mana réduit de 1.",
+    "dark": "Bonus d'ATQ augmenté de 40%.",
+    "ut": {
+      "name": "Rune d'autorité",
+      "description": [
+        "[Autorité de Dieu] Le Taux de Blocage est augmenté de 250 et la Vit.ATQ de 100 pendant la durée de la compétence.",
+        "[Autorité de Dieu] Le Taux de Blocage est augmenté de 250 et la Vit.ATQ de 120 pendant la durée de la compétence.",
+        "[Autorité de Dieu] Le Taux de Blocage est augmenté de 250 et la Vit.ATQ de 140 pendant la durée de la compétence.",
+        "[Autorité de Dieu] Le Taux de Blocage est augmenté de 250 et la Vit.ATQ de 170 pendant la durée de la compétence.",
+        "[Autorité de Dieu] Le Taux de Blocage est augmenté de 250 et la Vit.ATQ de 210 pendant la durée de la compétence.",
+        "[Autorité de Dieu] Le Taux de Blocage est augmenté de 250 et la Vit.ATQ de 250 pendant la durée de la compétence."
+      ],
+      "story": "Une rune prouvant qu’on est un agent de Lua, déesse de la Lumière. La Rune d’autorité est un artéfact de l’Église de Lua et elle est offerte au chevalier maniant Aea, l’Épée de Lumière. La Rune d’autorité repousse les ennemis grâce au pouvoir de la lumière et augmente l’ATQ et le moral."
+    }
+  },
+  "s4": {
+    "name": "Frappe de la Déesse",
+    "description": "Réussir une Esquive inflige {0} points de DEG P. aux ennemis de devant et réduit leur Précision de {1} pendant 5 sec. Après que la cible soit touchée, donne 300 PM.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les Chances de Critique de {0}."
+    },
+    "light": "La réduction de la Précision est maintenant de 250.",
+    "dark": "L'incantation est améliorée et le Temps de recharge est réduit de 1 sec."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Esquive P. +100",
+    "dark": "Lors d'une attaque, lancer 1 autre attaque inflige des DEG supplémentaires (40% de l'ATQ)."
+  }
+}

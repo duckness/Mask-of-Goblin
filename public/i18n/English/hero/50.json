@@ -1,0 +1,120 @@
+{
+  "name": "Requina",
+  "subtitle": "Merchant of Poison",
+  "description": "A merchant who wanders the continent, selling poison to those in need. Utilizes a blowpipe to poison and disable her enemies.",
+  "story": "A curious merchant who deals every kind of poison known to mankind. She is a daughter of two wandering alchemists who traveled over from a distant nation. Other merchants call her 'the Merchant of Death,' but she has a different opinion. She claims that no poison is inherently evil, and that how one is used determines its nature. Like a true merchant, she believes that any tool is as good or evil as the one who uses it. Since the reappearance of the Demons, she has been traveling around, searching for the right poison to battle against the invaders.",
+  "like": "Developing new poisons, those who understand the joy of developing new drugs",
+  "dislike": "People who are prejudiced against poisons",
+  "inn": {
+    "idle": "Hmm, is there nobody that might buy my wares?",
+    "recruit": {
+      "greet": "Hello! Is there a poison you might need?",
+      "talk": [
+        "Poisons can be used as medicine! They aren't as bad as people make them out to be.",
+        "Ah, well, it is true that most poisons are used for bad things.",
+        "Hmm, where is that lady that bought my poisons last time?"
+      ],
+      "gift": "Wow, thanks! I'll use this to increase my ware selection!!"
+    },
+    "affinity": {
+      "greet": "Nice to meet you! I brought some poison for you! Pick what you want!",
+      "talk": [
+        "Poison is amazing! Once you fall for it, you can't go back!",
+        "This weed hasn't been growing. Should I sell some rare poison instead? What do you think?"
+      ],
+      "gift": "Oh, thank you! I'll let you buy some special Requina-style poison! Heh heh."
+    },
+    "relationship": {
+      "greet": "Welcome back~ hahaha, today was a haul!",
+      "talk": [
+        "Doctors, assassins, chemists and alchemists...all of them are my important clients!",
+        "Why I use poison darts? Well, they're quiet and easy to use! Well, they wouldn't be quite nice in the wrong hands...but~",
+        "Poisons that work on Demons? I'm researching that. I have a few close to perfection...wanna see?"
+      ]
+    }
+  },
+  "uw": {
+    "name": "The Flute of Silent Winds Rakshathar",
+    "description": [
+      "Max stack of Tickle Tickle Potion is increased to 55. Each auto attack has a 10% chance of attacking a random enemy, dealing 20% of ATK as DMG and inflicting Silence for 1 sec.",
+      "Max stack of Tickle Tickle Potion is increased to 60. Each auto attack has a 10% chance of attacking a random enemy, dealing 24% of ATK as DMG and inflicting Silence for 1 sec.",
+      "Max stack of Tickle Tickle Potion is increased to 65. Each auto attack has a 10% chance of attacking a random enemy, dealing 29% of ATK as DMG and inflicting Silence for 1 sec.",
+      "Max stack of Tickle Tickle Potion is increased to 70. Each auto attack has a 10% chance of attacking a random enemy, dealing 35% of ATK as DMG and inflicting Silence for 1 sec.",
+      "Max stack of Tickle Tickle Potion is increased to 75. Each auto attack has a 10% chance of attacking a random enemy, dealing 42% of ATK as DMG and inflicting Silence for 1 sec.",
+      "Max stack of Tickle Tickle Potion is increased to 80. Each auto attack has a 10% chance of attacking a random enemy, dealing 50% of ATK as DMG and inflicting Silence for 1 sec."
+    ],
+    "story": "A hyper-accurate blowgun made by Requina herself. A special muting piece added at the end makes this already-quiet weapon almost completely silent. As the appearance of Demons began to hurt her business, she decided to utilize anything she could, not just poisons. She sought help from her elementalist friend, who imbued the blowgun with the wind's blessing. This gave the weapon firepower equal to that of a magic cannon. After adding Requina's ultra-deadly, Demon-slaying poison to it, it became a powerful and deadly weapon capable of killing any living being."
+  },
+  "s1": {
+    "name": "Tears of Mr. Python!",
+    "description": "Attacks 2 enemies and deals {0} P.DMG, while poisoning them with Tears of Mr. Python that cannot be dispelled for {1} sec. Enemies inflicted with Tears of Mr. Python cannot recover mana, takes 30% increased DMG, and their Block chance is reduced by 500.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Mana cost is reduced by 1.",
+    "dark": "Reduces target's mana by 1200."
+  },
+  "s2": {
+    "name": "Screechy Grass Extract!",
+    "description": "Attacks a random enemy 3 times and deals a total of {0} DMG, while poisoning them with Screechy Grass Extract for {1} sec. Enemies inflicted with Screechy Grass Extract have their ATK reduced by {2}%, and Crit Chance by {3}.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "If there is 1 enemy, DMG is increased by 100%.",
+    "dark": "Stuns the target for 1 sec.",
+    "ut": {
+      "name": "Basilisk's Poisonous Fang",
+      "description": [
+        "[Screechy Grass Extract!] Skill cooldown is decreased by 30% and deals 3% of ATK as additional P.DMG per each stacked Tickle Tickle Potion! of target.",
+        "[Screechy Grass Extract!] Skill cooldown is decreased by 30% and deals 3.6% of ATK as additional P.DMG per each stacked Tickle Tickle Potion! of target.",
+        "[Screechy Grass Extract!] Skill cooldown is decreased by 30% and deals 4.3% of ATK as additional P.DMG per each stacked Tickle Tickle Potion! of target.",
+        "[Screechy Grass Extract!] Skill cooldown is decreased by 30% and deals 5.2% of ATK as additional P.DMG per each stacked Tickle Tickle Potion! of target.",
+        "[Screechy Grass Extract!] Skill cooldown is decreased by 30% and deals 6.2% of ATK as additional P.DMG per each stacked Tickle Tickle Potion! of target.",
+        "[Screechy Grass Extract!] Skill cooldown is decreased by 30% and deals 7.5% of ATK as additional P.DMG per each stacked Tickle Tickle Potion! of target."
+      ],
+      "story": "A nasty fang of a Basilisk that only absorbs evil energy. Its poison is actually strong enough to melt souls. If the poison from the fang is mixed up with screechy grass, it could become a tremendous drug that no organism could survive. Requina's heart is beating hard with anticipation."
+    }
+  },
+  "s3": {
+    "name": "More! Stronger!",
+    "description": "Own ATK is increased by {1} for {0} sec and the effect of [Tears of Mr. Python], [Screechy Grass Extract], [Tickle Tickle Potion] is doubled. Also, target of [Tears of Mr. Python], [Screechy Grass Extract!], [Tickle Tickle Potion] is increased by 1.",
+    "books": {
+      "0": "ATK boost is increased by {0}%.",
+      "1": "ATK boost is increased by {0}%.",
+      "2": "ATK boost is increased by {0}%."
+    },
+    "light": "For the duration, auto attack DMG is increased by 100%.",
+    "dark": "Mana cost is reduced by 1.",
+    "ut": {
+      "name": "Sparkling Potion",
+      "description": [
+        "[More! Stronger!] Attacks additional 1 target and ATK Spd is increased by 100 for the duration.",
+        "[More! Stronger!] Attacks additional 1 target and ATK Spd is increased by 120 for the duration.",
+        "[More! Stronger!] Attacks additional 1 target and ATK Spd is increased by 140 for the duration.",
+        "[More! Stronger!] Attacks additional 1 target and ATK Spd is increased by 170 for the duration.",
+        "[More! Stronger!] Attacks additional 1 target and ATK Spd is increased by 210 for the duration.",
+        "[More! Stronger!] Attacks additional 1 target and ATK Spd is increased by 250 for the duration."
+      ],
+      "story": "Medicine made from boiling the powder of the seventieth rainbow and the tongue of the giant beast Kiselaton who can cross hell. It is full of brilliant colors. The moment one drinks it, it burns the insides, but it is said that whoever drinks it slowly dies in happiness."
+    }
+  },
+  "s4": {
+    "name": "Tickle Tickle Potion!",
+    "description": "Upon attack, poisons target enemy with Tickle Tickle Potion for {0} sec which deals a total of {1} P.DMG over time, and cannot be dispelled. Tickle Tickle Potion can be stacked max 50 times.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Tickle Tickle Potion! is stacked 3 at a time.",
+    "dark": "Target takes 20% increased P.DMG."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / Crit Chance +100",
+    "dark": "Upon auto attacking an enemy with 50 or more stacks of Tickle Tickle Potion, deals 200% of ATK as extra P.DMG that ignores DEF."
+  }
+}

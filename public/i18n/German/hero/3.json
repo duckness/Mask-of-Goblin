@@ -1,0 +1,120 @@
+{
+  "name": "Cleo",
+  "subtitle": "Zauberin des Fegefeuers",
+  "description": "Eine Magierin aus dem Roten Turm. Dieses mutige Mädchen benutzt explosive Feuermagie, um mehrere Feinde zu verbrennen und fügt ihnen sogar größeren Schaden zu, indem sie die Glut explodiert.",
+  "story": "Cleos früheste Erinnerung beginnt im Turm der Weisen. Sie wurde von Dominiks, dem Urweisen aufgezogen und ist gleichermaßen geniale Zauberin wie Unruhestifterin. Die Tatsache, dass sie ihre eigenen Kräfte nicht zu kontrollieren vermag, verursachte oftmals Probleme, darunter die teilweise Zerstörung des Roten Turms, ihrer eigenen Wohnstätte. Ihre scheinbare Immunität gegenüber dem Zorn des Urweisen sorgte aber dafür, dass sie von ihren Gleichaltrigen ausgegrenzt wurde. Obwohl sie dadurch selbstsüchtig und leichtfertig wurde, ist sie tief im Inneren immer noch ein gutherziges Mädchen, das sich davor fürchtet, von allen allein gelassen zu werden.",
+  "like": "Lagerfeuer; Kissen (?)",
+  "dislike": "Maschinen",
+  "inn": {
+    "idle": "Örks,... sooo langweilig. Wenn es hier wenigstens ein paar magische Werkzeuge gäbe.",
+    "recruit": {
+      "greet": "Hallo! Ich bin Erzmagierin Cleo!",
+      "talk": [
+        "Möchtest du etwas Fleisch? Ich könnte es für dich kochen?",
+        "Neugierig auf Feuermagie? Hehehe, ich kann dich unterrichten, aber nicht jeder ist dafür geschaffen.",
+        "Warum nennen mich die Leute Magierin des Fegefeuers? Ich finde das gar nicht gut. Nenn mich Erzmagierin!"
+      ],
+      "gift": "Hehe, ich mag dich."
+    },
+    "affinity": {
+      "greet": "Du bist spät dran! Wie kannst du den Erzmagier warten lassen!?",
+      "talk": [
+        "Wen ich mehr mag, Frey oder Roi? Was soll diese Frage eigentlich? Frey natürlich!",
+        "Ich frage mich, wo meine Mutter ist ... So lange ich am Leben bin, sollte ich sie treffen können, stimmt’s?"
+      ],
+      "gift": "Oh! Ich denke, das wird dem Erzmagier passen! Danke dir!"
+    },
+    "relationship": {
+      "greet": "Oho, du bist also hergekommen um die beste Erzmagierin zu sehen, die jemals existiert hat!",
+      "talk": [
+        "Frey ist für mich mehr als ein Kissen!",
+        "Vergiss niemals, nur dank mir können wir uns so schnell fortbewegen.",
+        "Du bleibst doch bei uns, oder?"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Flenos, die Urflamme",
+    "description": [
+      "Gluten explodieren alle 4 Sek, die nahligenden Feinden 80% der ANG in M.Schaden zufügen.",
+      "Gluten explodieren alle 4 Sek, die nahligenden Feinden 96% der ANG in M.Schaden zufügen.",
+      "Gluten explodieren alle 4 Sek, die nahligenden Feinden 114% der ANG in M.Schaden zufügen.",
+      "Gluten explodieren alle 4 Sek, die nahligenden Feinden 138% der ANG in M.Schaden zufügen.",
+      "Gluten explodieren alle 4 Sek, die nahligenden Feinden 166% der ANG in M.Schaden zufügen.",
+      "Gluten explodieren alle 4 Sek, die nahligenden Feinden 200% der ANG in M.Schaden zufügen."
+    ],
+    "story": "Die Essenz der ersten Flamme der Welt. Der Feuerlord schenkte diesen schönen Edelstein einem Menschen, der einen Vertrag mit ihm geschlossen hatte. Im Laufe der Zeitalter gelangte er in die Hände eines Erzmagiers, der ihn zum Kern seines Stabes machte. Später gab der Erzmagier diesen Stab an seinen geschätzten Schüler weiter."
+  },
+  "s1": {
+    "name": "Feuernadel",
+    "description": "Greift einen zufälligen Feind 5-mal an, verursacht insgesamt {0} M.Schaden und fügt dem getroffenen Feind 1 Stapel Glut zu.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Erhöht Schaden um 40%.",
+    "dark": "Kumuliert je 2 Gluten."
+  },
+  "s2": {
+    "name": "Feuerball",
+    "description": "Greift das Ziel und Feinde in seiner Nähe an, verursacht {0} M.Schaden und betäubt sie für 2 Sek. Verursacht für jeden Stapel Glut auf dem Feind {2} zusätzlichen M.Schaden.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Erhöht Schaden um 40%.",
+    "dark": "Manakosten sind um 1 erhöht und es wird ein zufälliges Ziel 2 Mal attackiert.",
+    "ut": {
+      "name": "Flamels Elixier",
+      "description": [
+        "[Feuerball] Erhöht den Schaden um 20 % und hinterlässt 5 Stapel Glut beim betroffenen Feind.",
+        "[Feuerball] Erhöht den Schaden um 24 % und hinterlässt 5 Stapel Glut beim betroffenen Feind.",
+        "[Feuerball] Erhöht den Schaden um 29 % und hinterlässt 5 Stapel Glut beim betroffenen Feind.",
+        "[Feuerball] Erhöht den Schaden um 35 % und hinterlässt 5 Stapel Glut beim betroffenen Feind.",
+        "[Feuerball] Erhöht den Schaden um 42 % und hinterlässt 5 Stapel Glut beim betroffenen Feind.",
+        "[Feuerball] Erhöht den Schaden um 50 % und hinterlässt 5 Stapel Glut beim betroffenen Feind."
+      ],
+      "story": "Ein Elixier, das der Alchemist Flamel herstellte, indem er Flammenessenz kondensierte. Flamels Flammen hören nie auf zu brennen. Jeder Magier lobt ihn für seine Flammen und die von ihm aus den Salamandern des Dragia-Vulkans geschaffene Flammenessenz maximiert den Effekt des Feuerballs."
+    }
+  },
+  "s3": {
+    "name": "Feuerregen",
+    "description": "Greift alle Feinde 8-mal an, verursacht insgesamt {0} M.Schaden und fügt ihnen 1 Stapel Glut zu. Verursacht für jeden Stapel Glut auf dem Feind {1} zusätzlichen M.Schaden.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Reduziert Cooldown um 3 Sek.",
+    "dark": "Betäubt Feinde mit 5 oder mehr Gluten 1 Sek lang.",
+    "ut": {
+      "name": "Schriftrolle der Sengenden Hölle",
+      "description": [
+        "[Feuerregen] Erhöht Schaden um 20%. Bei krit. Treffern auf Gegner mit mehr als 5 Gluten, wird der Skill-Cooldown um 3% reduziert.",
+        "[Feuerregen] Erhöht Schaden um 24%. Bei krit. Treffern auf Gegner mit mehr als 5 Gluten, wird der Skill-Cooldown um 3% reduziert.",
+        "[Feuerregen] Erhöht Schaden um 29%. Bei krit. Treffern auf Gegner mit mehr als 5 Gluten, wird der Skill-Cooldown um 3% reduziert.",
+        "[Feuerregen] Erhöht Schaden um 35%. Bei krit. Treffern auf Gegner mit mehr als 5 Gluten, wird der Skill-Cooldown um 3% reduziert.",
+        "[Feuerregen] Erhöht Schaden um 42%. Bei krit. Treffern auf Gegner mit mehr als 5 Gluten, wird der Skill-Cooldown um 3% reduziert.",
+        "[Feuerregen] Erhöht Schaden um 50%. Bei krit. Treffern auf Gegner mit mehr als 5 Gluten, wird der Cooldown um 3% reduziert."
+      ],
+      "story": "Eine Schriftrolle, geschrieben von einer Magierin, die als die Göttin des Feuers bekannt war. Eine Schriftrolle, die von Vesta, der größten Feuermagierin von Orvelia hinterlassen wurde, als sie sich im Turm der Weisen aufhielt. Sie ist sehr mächtig, benötigt aber auch eine große Menge an Mana. Cleo nahm die Schriftrolle der Sengenden Hölle, die als verbotene Schriftrolle galt, aus dem Turm der Weisen. Jetzt benutzt sie sie, um damit ihren Feuerregen zu verstärken."
+    }
+  },
+  "s4": {
+    "name": "Flammen-Diffusion",
+    "description": "Normale Angriffe erhalten eine Chance von 20 %, 3 zufällige Feinde anzugreifen und dem Ziel und Feinden in seiner Nähe {0} M.Schaden sowie 1 Stapel Glut zuzufügen. Glut verursacht über 20 Sek. insgesamt {1} M.Schaden, verringert die M.VERT des Ziels um 5 % und kann bis zu 5-mal gestapelt werden.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Legt bei krit. Treffern 2 Gluten auf."
+    },
+    "light": "Erhöht max. Glutenanzahl pro Feind auf 6.",
+    "dark": "Aktivierungschance ändert sich auf 30%."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / Krit. Chance +100",
+    "dark": "Glut Schaden ist um 200% erhöht."
+  }
+}

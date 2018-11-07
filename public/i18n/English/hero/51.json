@@ -1,0 +1,120 @@
+{
+  "name": "Aselica",
+  "subtitle": "Guardian of the Sun",
+  "description": "As a knight of the righteous heavens, she punishes evil with her sword and protects the weak with her shield. She has descended in order to defeat the Demons who are ruining the earthly realm. Her beautiful sword and shield are wielded to smite enemies and protect her comrades with their light.",
+  "story": "A powerful angel who defends the haven of angels. Even among the Angels who wield the power of light, she has a special connection to the sun, whose divine light she uses to fight against darkness. She is tasked with the protection of the souls of other angels awaiting resurrection. When the Holy Sword reappeared in the world, she heeded the divine call to join the new protector of the world. She will see to it that no chosen warrior would ever succumb to the darkness again.",
+  "like": "Fellow kinsmen, enforcing order",
+  "dislike": "Demons",
+  "inn": {
+    "idle": "So this is where the Hero resides...",
+    "recruit": {
+      "greet": "May the Sun's blessing be with you.",
+      "talk": [
+        "I will not lose to mere Demons.",
+        "The Sun does not discriminate, and shares its light with all.",
+        "Do you know a man named Arch?"
+      ],
+      "gift": "This is of no use to me...but still, thank you."
+    },
+    "affinity": {
+      "greet": "Warrior. So, this is your resting place.",
+      "talk": [
+        "The Demons are evil. They must be annihilated, no matter what.",
+        "Don't forget that the sun is always shining behind you."
+      ],
+      "gift": "Humans can be very thoughtful. Anyway, thank you."
+    },
+    "relationship": {
+      "greet": "I feel the warmth of the sun from you. Did anything good happen?",
+      "talk": [
+        "So there are Demons attempting to save the world. How odd.",
+        "The Sanctuary of the Angels is where we all return to at some point.",
+        "I am your Guardian - and thus, I offer up my arms to you."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Solar Halo, Ignisius",
+    "description": [
+      "When a normal attack hits the enemy 5 times, the target takes 20% more M.DMG for 10 seconds and is stunned for 0.5 seconds.",
+      "When a normal attack hits the enemy 5 times, the target takes 24% more M.DMG for 10 seconds and is stunned for 0.5 seconds.",
+      "When a normal attack hits the enemy 5 times, the target takes 29% more M.DMG for 10 seconds and is stunned for 0.5 seconds.",
+      "When a normal attack hits the enemy 5 times, the target takes 35% more M.DMG for 10 seconds and is stunned for 0.5 seconds.",
+      "When a normal attack hits the enemy 5 times, the target takes 42% more M.DMG for 10 seconds and is stunned for 0.5 seconds.",
+      "When a normal attack hits the enemy 5 times, the target takes 50% more M.DMG for 10 seconds and is stunned for 0.5 seconds."
+    ],
+    "story": "Legends speak of a mysterious metal, gold as the glorious rays of the sun, blue as the pure sky, and white as the blinding light. This holy sword and shield set has been forged from that special metal that only Angels can handle. These are divine relics of protection, created to banish the darkness and fill the world with light. Bestowed only to the most righteous Guardian Knight of the Angels, these relics can instantly incinerate any Demon that faces their light."
+  },
+  "s1": {
+    "name": "Sword of the Sun",
+    "description": "Deals {0} M.DMG to enemy and surrounding enemies within range, and inflicts Stun for {1} sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Stun duration is increased by {0} sec."
+    },
+    "light": "After activation, increases ATK Spd by 350 for 5 sec.",
+    "dark": "Reduces cooldown by 2 sec."
+  },
+  "s2": {
+    "name": "Blessing of the Sun",
+    "description": "Imbues the Blessing of the Sun to the ally with the highest ATK, reducing cooldown of all skills by 20% and increasing ATK by {0} for 15 sec.",
+    "books": {
+      "0": "ATK boost is increased by {0}%.",
+      "1": "ATK boost is increased by {0}%.",
+      "2": "ATK boost is increased by {0}%."
+    },
+    "light": "Increases Mana Cost by 1, and grants the effect to the 2 allies with the highest ATK.",
+    "dark": "Used while ignoring negative effects on self and removes negative effects on the target ally.",
+    "ut": {
+      "name": "Bracelet of the Sun",
+      "description": [
+        "[Blessing of the Sun] Reduces Mana Cost by 1 and target takes 10% decreased P.DMG for 10 sec.",
+        "[Blessing of the Sun] Reduces Mana Cost by 1 and target takes 12% decreased P.DMG for 10 sec.",
+        "[Blessing of the Sun] Reduces Mana Cost by 1 and target takes 14% decreased P.DMG for 10 sec.",
+        "[Blessing of the Sun] Reduces Mana Cost by 1 and target takes 17% decreased P.DMG for 10 sec.",
+        "[Blessing of the Sun] Reduces Mana Cost by 1 and target takes 21% decreased P.DMG for 10 sec.",
+        "[Blessing of the Sun] Reduces Mana Cost by 1 and target takes 25% decreased P.DMG for 10 sec."
+      ],
+      "story": "Bracelet made by the Archangels to protect the Angels when they descend down to earth. It contains the sun, so it shines brilliantly. When the angels feel fear, it is said that the sunlight from the bracelet protects their souls. And the fates of the angels are intertwined in the bracelet, so when they feel like their lives are threatened, they can feel each other's pain instinctively."
+    }
+  },
+  "s3": {
+    "name": "Judgment of the Sun",
+    "description": "Takes position, focuses to heal HP of nearby allies, excluding self, 8 times for a total of {0} , and increases their P.DEF by {1} for 5 sec. Deals a total of {2} M.DMG on enemies within range over 8 times, and decreases their M.DEF by {3} for 5 sec. After the end of the casting, heals HP of allies within range, excluding self, by {4} , and deals {5} M.DMG on enemies, and knocks them down for 3 sec.",
+    "books": {
+      "0": "DMG and Heal rate are increased by {0}%.",
+      "1": "DMG and Heal rate are increased by {0}%.",
+      "2": "DMG and Heal rate are increased by {0}%."
+    },
+    "light": "Reduces Mana Cost by 1.",
+    "dark": "Increases the duration of M.DEF reduction effect by 5 sec.",
+    "ut": {
+      "name": "Guardian's Trumpet",
+      "description": [
+        "[Judgment of the Sun] Gains Immunity to CC while in use, and increases P.DEF Boost and M.DEF Reduction by 20%.",
+        "[Judgment of the Sun] Gains Immunity to CC while in use, and increases P.DEF Boost and M.DEF Reduction by 24%.",
+        "[Judgment of the Sun] Gains Immunity to CC while in use, and increases P.DEF Boost and M.DEF Reduction by 29%.",
+        "[Judgment of the Sun] Gains Immunity to CC while in use, and increases P.DEF Boost and M.DEF Reduction by 35%.",
+        "[Judgment of the Sun] Gains Immunity to CC while in use, and increases P.DEF Boost and M.DEF Reduction by 42%.",
+        "[Judgment of the Sun] Gains Immunity to CC while in use, and increases P.DEF Boost and M.DEF Reduction by 50%."
+      ],
+      "story": "The trumpet that is said to be blown by the leader of the Archangels when the catastrophe that will end the Material World arrives. It is said that once the guardians hear the sound of the trumpet, they wake up and come down to protect this land."
+    }
+  },
+  "s4": {
+    "name": "Curse of the Sun",
+    "description": "Upon attack, inflicts Curse of the Sun on the target for 10 sec. Enemies with 10 stacks of Curses of the Sun will consume the stack to receive {0} M.DMG, and become inflicted with Blind for {1} sec, having their ATK reduced by {2}% for 10 sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Changes ATK Reduction to 30%.",
+    "dark": "Activates the effect upon reaching the 7th stack of Curse of the Sun."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / P. Block +200",
+    "dark": "At the beginning of the first battle, increases P.DEF of the ally with the highest ATK by 20% of P.DEF. This effect cannot be dispelled."
+  }
+}

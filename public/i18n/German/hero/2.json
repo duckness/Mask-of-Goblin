@@ -1,0 +1,120 @@
+{
+  "name": "Frey",
+  "subtitle": "Priesterin des Lichts",
+  "description": "Kasels Kindheitsfreundin. Sie ist eine Priesterin, die der Göttin dient. Sie heilt und beschützt ihre Gefährten mit der Macht des Lichts. Mit dem Segen der Göttin kann sie die magischen Kräfte und Resistenzen einer Person erhöhen.",
+  "story": "Eine angehende Priesterin in den Diensten der Göttin Lua. Die Kirche hat hohe Erwartungen an sie als zukünftige Priesterin. Seit den ersten Tagen ihrer Ausbildung begeisterte sie mit ihrem starken Glauben und ihrer natürlichen Gabe, Luas Macht zu beschwören selbst die Hohepriester. Sie selbst sieht das Priestertum als ihre Bestimmung und ihr gütiges Herz spiegelt ihre Entschlossenheit wider. Für Frevler hat sie allerdings keine Gnade übrig.",
+  "like": "Lua; derzeitige Arbeit",
+  "dislike": "Ungerechtigkeit",
+  "inn": {
+    "idle": "Göttin Lua, in der das Licht innewohnt - lass uns stark in unserem Glauben bleiben.",
+    "recruit": {
+      "greet": "Möge Luas Segen stets mit dir sein.",
+      "talk": [
+        "Meine Beziehung zu Kasel? Haha, wir sind schon wie Familie. Ich bin halt irgendwie sein Beschützer?",
+        "Ich frage mich, wie es Hohepriesterin Iris geht. Ich habe sie nicht mehr gesehen, seit sie verschwunden ist.",
+        "Haha, geben Roi und Cleo nicht ein süßes Pärchen ab?"
+      ],
+      "gift": "Wow, danke."
+    },
+    "affinity": {
+      "greet": "Da bist du ja. Du hast dich doch nicht verletzt, oder?",
+      "talk": [
+        "Manchmal sehe ich in meinen Träumen ein gleißendes Licht. Menschen mit weißen Flügeln, mit einer leuchtenden Sonne im Hintergrund ...",
+        "Wen ich mag? D-Das ist ein Geheimnis zwischen mir und Lua."
+      ],
+      "gift": "Danke. Ich werde dein Mitgefühl niemals vergessen."
+    },
+    "relationship": {
+      "greet": "Ich bete innig dafür, dass Lua über dich wacht.",
+      "talk": [
+        "Kasels Sicherheit ist wichtig, schließlich wurde er von der Göttin auserwählt.",
+        "Alle Entscheidungen können verachtet werden. Aber solange die Göttin damit einverstanden ist, soll es mir egal sein.",
+        "Die Beziehung zwischen der Göttin und ihren Priestern ist gar nicht so anders, als die zwischen Normalsterblichen. Manchmal... gibt es Meinungsverschiedenheiten."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Rosmerta, Autorität Gottes",
+    "description": [
+      "40% Chance, während normaler Attacken den Helden mit der niedrigsten TP für 42% des Angriffs zu heilen.",
+      "40% Chance, während normaler Attacken den Helden mit der niedrigsten TP für 50.4% des Angriffs zu heilen.",
+      "40% Chance, während normaler Attacken den Helden mit der niedrigsten TP für 58.8% des Angriffs zu heilen.",
+      "40% Chance, während normaler Attacken den Helden mit der niedrigsten TP für 71.4% des Angriffs zu heilen.",
+      "40% Chance, während normaler Attacken den Helden mit der niedrigsten TP für 86.1% des Angriffs zu heilen.",
+      "40% Chance, während normaler Attacken den Helden mit der niedrigsten TP für 105% des Angriffs zu heilen."
+    ],
+    "story": "Es heißt, die Engel wären Lua ähnlicher als jedes andere Volk. Stirbt ein hochrangiger Engel, so wird sein verbleibender Kern zwecks Auferstehung zum Hafen der Engel gebracht. Doch ein solcher Engel, Rosmerta, vermachte ihren Kern der Kirche von Lua. Dieser heilige Stab wurde aus der göttlichen Energie des Kerns erzeugt."
+  },
+  "s1": {
+    "name": "Wundersames Licht",
+    "description": "Heilt den Verbündeten mit der niedrigsten TP um {0} TP.",
+    "books": {
+      "0": "Erhöht Erholung um {0}%.",
+      "1": "Erhöht Erholung um {0}%.",
+      "2": "Entfernt neg. Effekte vom Ziel."
+    },
+    "light": "Skill trifft 2 Feinde für 1 extra Mana.",
+    "dark": "Geheilte Verbündete nehmen 25% weniger M.Schaden für 10 Sek."
+  },
+  "s2": {
+    "name": "Segen des Lichts",
+    "description": "Zaubert ein Schild auf Verbündete, das {0} Sek lang {1} absorbiert.",
+    "books": {
+      "0": "Erhöht Schild-TP um {0}%.",
+      "1": "Erhöht Schild-TP um {0}%.",
+      "2": "Erhöht die Erholungsrate d. Ziels um {0}% für die Wirkungsdauer."
+    },
+    "light": "Erhöht Schild-TP um 40%.",
+    "dark": "Vom Schild geschützte Verb. erhalten +20% ANG.",
+    "ut": {
+      "name": "Wundersame Medaille",
+      "description": [
+        "[Segen des Lichts] Erhöht die Schildmenge um 50 % und stellt 4 Sekunden lang jede Sekunde 100 Mana wieder her.",
+        "[Segen des Lichts] Erhöht die Schildmenge um 50 % und stellt 4 Sekunden lang jede Sekunde 120 Mana wieder her.",
+        "[Segen des Lichts] Erhöht die Schildmenge um 50 % und stellt 4 Sekunden lang jede Sekunde 140 Mana wieder her.",
+        "[Segen des Lichts] Erhöht die Schildmenge um 50 % und stellt 4 Sekunden lang jede Sekunde 170 Mana wieder her.",
+        "[Segen des Lichts] Erhöht die Schildmenge um 50 % und stellt 4 Sekunden lang jede Sekunde 210 Mana wieder her.",
+        "[Segen des Lichts] Erhöht die Schildmenge um 50 % und stellt 4 Sekunden lang jede Sekunde 250 Mana wieder her."
+      ],
+      "story": "Medaille, die mit der Offenbarung der Göttin von Yvonne, der Heiligen der Wunder geschaffen wurde. Die Medaille der Wunder ist ein heiliges Artefakt, welches die Magie des Lichts enthält. Es heißt, dass die Heilige Yvonne mit dem durch die Medaille verstärkten Segen des Lichts die Stadt rettete, die von den Dämonen angegriffen wurde."
+    }
+  },
+  "s3": {
+    "name": "Himmlische Rache",
+    "description": "Greift das Ziel und Feinde in seiner Nähe 6-mal an, verursacht dabei insgesamt {0} M.Schaden und blendet sie für {1} Sek.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht krit. Trefferchance um {0}%."
+    },
+    "light": "In exchange for 1 additional Mana Cost, Erhöht Schaden um 80%.",
+    "dark": "Reduziert Blendungsdauer um 2 Sek und wählt ein zufälliges Ziel aus.",
+    "ut": {
+      "name": "Feder des Vergessenen Schlichters",
+      "description": [
+        "[Himmlische Rache] Erhöht erlittenen M.Schaden 10 Sek. lang um 20% und Blendungsdauer um 1 Sek.",
+        "[Himmlische Rache] Erhöht erlittenen M.Schaden 10 Sek. lang um 10% und Blendungsdauer um 1,5 Sek.",
+        "[Himmlische Rache] Erhöht erlittenen M.Schaden 10 Sek. lang um 10% und Blendungsdauer um 2 Sek.",
+        "[Himmlische Rache] Erhöht erlittenen M.Schaden 10 Sek. lang um 10% und Blendungsdauer um 2,5 Sek.",
+        "[Himmlische Rache] Erhöht erlittenen M.Schaden 10 Sek. lang um 10% und Blendungsdauer um 3 Sek.",
+        "[Himmlische Rache] Erhöht erlittenen M.Schaden 10 Sek. lang um 10% und Blendungsdauer um 3,5 Sek."
+      ],
+      "story": "Feder des Wächters der Sonne. Feder eines Engels, der in der Vergangenheit die Menschheit durch den Kampf gegen die Dämonen gerettet hat. Er ließ seine Feder als Versprechen zurück, wiederzukommen, wenn die Welt erneut im Chaos versinken sollte. Ein Artefakt der Kirche von Lua, das heilige Strahlen der Sonne beschwört, um den Feind zu blenden."
+    }
+  },
+  "s4": {
+    "name": "Anmut der Göttin",
+    "description": "Erhöht alle 15 Sek. die M.VERT von 1 Verbündeten mit den wenigsten TP für {0} Sek. um {1}.",
+    "books": {
+      "0": "M.VERT Erhöhungsrate steigt um {0}%.",
+      "1": "M.VERT Erhöhungsrate steigt um {0}%.",
+      "2": "Regeneriert die TP des Ziels um {0}% für die Wirkungsdauer."
+    },
+    "light": "Erhöht ANG-Geschw. des Ziels um 250.",
+    "dark": "Erhöht die Anzahl der Ziele auf 2."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / M.Block +200",
+    "dark": "Von Frey geheilte Verbündete erhalten 5% ihrer ANG als ANG-Boost für 5 Sek."
+  }
+}

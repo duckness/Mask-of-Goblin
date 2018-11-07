@@ -1,0 +1,120 @@
+{
+  "name": "Shea",
+  "subtitle": "Aria fantastique",
+  "description": "Cette mystérieuse jeune femme soigne ses alliés grâce à ses chants mélodieux. Sa superbe voix, portée par le son de sa harpe magique, a le pouvoir de soigner les blessures.",
+  "story": "« À entendre la douce mélodie du champ de bataille, je me demande si je suis vraiment au beau milieu d'un combat. » « L'épée tomba de ma main. Et de la main de tous les autres soldats. » « J'avais l'impression que la jeune femme se trouvait sur un tout autre niveau de l'existence, bien loin du nôtre. » L'histoire incroyable de la jeune femme aux cheveux roses, dont l'apparition soudaine interrompit le combat, se répandit rapidement. Sa mélodie douce, captivante, et sa présence aussi discrète que charmante conquirent l'imaginaire de chacun. Toutefois, personne ne sut vraiment d'où elle venait et où elle allait. « Elle me parut étrange. Sa façon de s'adresser au vide, comme s'il y avait quelqu'un... » Bien entendu, certains ont émis des hypothèses plus convaincantes concernant sa position, mais sa beauté mystérieuse coupa court à toute spéculation.",
+  "like": "Somptueuse mélodie, douce brise",
+  "dislike": "Fantômes, goules à citrouille",
+  "inn": {
+    "idle": "Lalala..lalala..la..ah?",
+    "recruit": {
+      "greet": "Un soleil radieux, que cette journée soit encore une haureuse journée.",
+      "talk": [
+        "L'entendez-vous? La mélodie qui flotte au dessus du vent...",
+        "Humm. Avez-vous vu ma harpe par-ici?",
+        "Shuwanheit et moi nous sommes rencontrés dans la forêt, vous savez."
+      ],
+      "gift": "Merci pour ça, je vais jouer une chanson pour vous."
+    },
+    "affinity": {
+      "greet": "Je suis ici pour vous bénir de nouveau !",
+      "talk": [
+        "Vous avez l’air heureux. Je sens une mélodie aveuglante en vous.",
+        "C’est la musique des esprits de la forêt. Est-ce qu’elle vous réchauffe le cœur ?"
+      ],
+      "gift": "Merci. Schwanheit sera très content."
+    },
+    "relationship": {
+      "greet": "Votre harmonie et pleine de chaleur et de réconfort.",
+      "talk": [
+        "Vous ne savez peut-être pas, mais Shuwanheit est plutôt bavard.",
+        "Shuwanheit change parfois le ton de la musique, en fonction de son humeur.",
+        "Un jour, j'espère jouer votre propre chanson."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Schwanheite, mélodie charmante",
+    "description": [
+      "Lorsque une charge de Transe est générée, le Temps de Recharge de toutes les compétences est réduit de 10% et le Héros récupère 200 de Mana.",
+      "Lorsque une charge de Transe est générée, le Temps de Recharge de toutes les compétences est réduit de 12% et le Héros récupère 240 de Mana.",
+      "Lorsque une charge de Transe est générée, le Temps de Recharge de toutes les compétences est réduit de 14% et le Héros récupère 290 de Mana.",
+      "Lorsque une charge de Transe est générée, le Temps de Recharge de toutes les compétences est réduit de 17% et le Héros récupère 350 de Mana.",
+      "Lorsque une charge de Transe est générée, le Temps de Recharge de toutes les compétences est réduit de 20% et le Héros récupère 420 de Mana.",
+      "Lorsque une charge de Transe est générée, le Temps de Recharge de toutes les compétences est réduit de 25% et le Héros récupère 500 de Mana."
+    ],
+    "story": "Certaines pièces d'équipement aussi puissantes qu'impressionnantes peuvent dialoguer avec leur porteur, voire parfois le contrôler. Schwanheit figure parmi ces armes redoutables. Cette harpe, qui insiste pour se faire appeler « M. Schute », peut considérablement amplifier le mana de son porteur et en asperger tout autour de lui. Une fois le mana ainsi éparpillé, il ne peut plus servir à de la magie offensive. En revanche, s'il est utilisé intelligemment, cela peut s'avérer tout à fait redoutable. M. Schute est plutôt bavard, mais seulement envers ceux qu'il considère comme ses amis. En ce moment, il ne s'adresse qu'à Shea."
+  },
+  "s1": {
+    "name": "Mélodie de la nature verte",
+    "description": "Soigne d'un total de {0}  PV tous les alliés en 8 fois et réduit les dégâts reçus par tous les alliés de {1}  % pendant 8 secondes. Si Transe est accumulée 3 fois, le taux de soin de cette compétence augmente de 100 % et la réduction de dégâts passe à {2}  %.",
+    "books": {
+      "0": "Taux de Récupération augmenté de {0}%.",
+      "1": "Taux de Récupération augmenté de {0}%.",
+      "2": "Taux de Récupération augmenté de {0}%."
+    },
+    "light": "Restaure 15 % des PV de tous les alliés.",
+    "dark": "Augmente la Résistance crit. des alliés de 250 points pendant 8 secondes."
+  },
+  "s2": {
+    "name": "Chant du vent bleu",
+    "description": "Restaure un total de {0}  PM à tous les alliés en 8 fois, soigne de {1}  PV une cible dont les PM sont au max., et réduit la durée de contrôle de {2}  % pendant 8 secondes. Si Transe est accumulée 3 fois, les taux de récupération de PM et de soin de cette compétence augmentent de 50 % et tous les alliés sont immunisés contre les contrôles pendant 8 secondes.",
+    "books": {
+      "0": "Augmente de {0}% la Récupération des PM.",
+      "1": "Augmente de {0}% la Récupération des PM.",
+      "2": "Augmente de {0}% la Récupération des PM."
+    },
+    "light": "Restaure 500 PM pour tous les alliés.",
+    "dark": "Augmente la Vit ATQ des alliés de 250 points pendant 8 secondes.",
+    "ut": {
+      "name": "Fleur venteuse",
+      "description": [
+        "[Chant du vent bleu] Augmente la Précision de 250 pendant 8 sec et récupère 160 PM chaque fois qu'un allié utilise une compétence.",
+        "[Chant du vent bleu] Augmente la Précision de 250 pendant 8 sec et récupère 190 PM chaque fois qu'un allié utilise une compétence.",
+        "[Chant du vent bleu] Augmente la Précision de 250 pendant 8 sec et récupère 230 PM chaque fois qu'un allié utilise une compétence.",
+        "[Chant du vent bleu] Augmente la Précision de 250 pendant 8 sec et récupère 270 PM chaque fois qu'un allié utilise une compétence.",
+        "[Chant du vent bleu] Augmente la Précision de 250 pendant 8 sec et récupère 330 PM chaque fois qu'un allié utilise une compétence.",
+        "[Chant du vent bleu] Augmente la Précision de 250 pendant 8 sec et récupère 400 PM chaque fois qu'un allié utilise une compétence."
+      ],
+      "story": "Fleur retrouvée sur la tête de Shea le lendemain de son interprétation de Bonheur du vent. D’après Schwanheit, cette fleur est aussi un cadeau des fées de la forêt en remerciement de sa douce musique. Elle renferme le souhait de Shea de voir le vent répandre la joie à travers le monde."
+    }
+  },
+  "s3": {
+    "name": "Danse de la passion rouge",
+    "description": "Inflige un total de {0}  points de DEG M à tous les ennemis en 8 fois et augmente l'attaque de tous les alliés de {1}  points pendant 8 secondes. Si Transe est accumulée 3 fois, le boost de DEG et d'ATQ de cette compétence augmente de 100 % et les améliorations des ennemis sont automatiquement annulées.",
+    "books": {
+      "0": "Augmentation de l'ATQ boostée de {0}%.",
+      "1": "Augmentation de l'ATQ boostée de {0}%.",
+      "2": "Augmentation de l'ATQ boostée de {0}%."
+    },
+    "light": "Réduit de 10 % le temps de recharge des compétences de tous les alliés.",
+    "dark": "Les ennemis subissent 15 % de dégâts supplémentaires pendant 8 secondes.",
+    "ut": {
+      "name": "Couronne de fée",
+      "description": [
+        "[Danse de la Passion Rouge] Applique Silence pendant 2 sec sur les ennemis et les DEG Crit de tous les alliés sont augmentés de 20% pendant la durée de la compétence.",
+        "[Danse de la Passion Rouge] Applique Silence pendant 2 sec sur les ennemis et les DEG Crit de tous les alliés sont augmentés de 24% pendant la durée de la compétence.",
+        "[Danse de la Passion Rouge] Applique Silence pendant 2 sec sur les ennemis et les DEG Crit de tous les alliés sont augmentés de 29% pendant la durée de la compétence.",
+        "[Danse de la Passion Rouge] Applique Silence pendant 2 sec sur les ennemis et les DEG Crit de tous les alliés sont augmentés de 35% pendant la durée de la compétence.",
+        "[Danse de la Passion Rouge] Applique Silence pendant 2 sec sur les ennemis et les DEG Crit de tous les alliés sont augmentés de 42% pendant la durée de la compétence.",
+        "[Danse de la Passion Rouge] Applique Silence pendant 2 sec sur les ennemis et les DEG Crit de tous les alliés sont augmentés de 50% pendant la durée de la compétence."
+      ],
+      "story": "Chapelet retrouvé sur la tête de Shea le lendemain de son interprétation de Berceuse pour les rêves dans la forêt. D’après Schwanheit, il s’agit d’un cadeau des fées de la forêt en remerciement de sa douce musique. Il paraît que des objets passés entre les mains des fées comme celui-ci ont le pouvoir de rendre à une âme sa forme la plus pure."
+    }
+  },
+  "s4": {
+    "name": "Transe",
+    "description": "À la fin de la compétence, 1 charge de Transe est générée. Transe est cumulable 3 fois et si la compétence est utilisée avec 3 charges de Transe, les charges sont consommées pour soigner {0} PV à tous les alliés. Transe ne peut pas être dissipé.",
+    "books": {
+      "0": "Taux de Récupération augmenté de {0}%.",
+      "1": "Taux de Récupération augmenté de {0}%.",
+      "2": "Taux de Récupération augmenté de {0}%."
+    },
+    "light": "Augmente de 100 % la restauration des PV de Soin.",
+    "dark": "Si une compétence est utilisée lorsque Transe est accumulée 3 fois, des DEG M sont infligés aux ennemis au lieu de soigner les alliés. De plus, toutes les DEF sont réduites de 10 % pendant 10 s."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Résist. Contrôles +100",
+    "dark": "Au début de chaque bataille, Transe est accumulée 1 fois de plus et 500 PM sont restaurés."
+  }
+}

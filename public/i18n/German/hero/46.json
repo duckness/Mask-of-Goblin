@@ -1,0 +1,120 @@
+{
+  "name": "Zafir",
+  "subtitle": "Prinz der Sandstürme",
+  "description": "Ein Abkömmling des uralten Gottkönigs. Ein kultivierter junger Mann, der sich erhob, um die Wüste zu verteidigen. Der Sandsturm, den er mit seinem Pfeil beschwört, verschlingt seine Feinde und tilgt sie aus der Welt.",
+  "story": "Ein Prinz und Nachfolger des Gottkönigs des uralten Wüstenkönigreiches, der die Macht besitzt, den Wüstensand zu beherrschen. Als junger Anführer des Mauhata-Stammes der Wüstenkrieger wurde er hart trainiert und ausgebildet, um ein würdiger Nachfolger des Gottkönigs zu werden. Als die Mitglieder des Trovatia-Stammes, ihre eingeschworenen Brüder, am Schrein des Flusses beteten, um den Gottdrachen zu erwecken, führte er seine Krieger an, um alle Dämonen zu besiegen, die sich der Oase näherten. Zusammen mit dem Gottdrachen und Laudia, ihrer Priesterin, erfüllt er seine Rolle als Wüstenkrieger und verteidigt seine Heimat. Er hofft, dass seine Anstrengungen den verstorbenen Gottkönig mit stolz erfüllen.",
+  "like": "Katzen, Sandkunst, das Volk der Wüste",
+  "dislike": "Jeder, der den Menschen schaden will, die ihm nahestehen.",
+  "inn": {
+    "idle": "Wow, solche Getränke habe ich noch nie gesehen.",
+    "recruit": {
+      "greet": "Möge der Segen des Gottkönigs mit euch sein.",
+      "talk": [
+        "Ähm, dieser Ort ist ganz anders als die Bars in der Wüste. Wir setzen uns nicht auf den Boden, oder?",
+        "Ein Wüstenkrieger stellt sein Volk vor alles andere.",
+        "... Ich mag Orte voller Leute nicht besonders, aber diese sorglose Atmosphäre ... dagegen habe ich nichts."
+      ],
+      "gift": "Solch übermäßige Güte. Danke euch."
+    },
+    "affinity": {
+      "greet": "Wie ist es dir ergangen?",
+      "talk": [
+        "Laut der Prophezeiung ist die Wiederauferstehung des Gottkönigs nahe.",
+        "... Wenn es die Zeit zulässt, musst du einmal nach Aegina kommen. Ich werde dir alles zeigen."
+      ],
+      "gift": "Die Wüstenkrieger werden sich darauf freuen, dass du da bist."
+    },
+    "relationship": {
+      "greet": "Sei gegrüßt, mein Wüstenfreund.",
+      "talk": [
+        "Ich mag Katzen ... Kein anderes Wesen kann ihnen in Bezug auf Eleganz das Wasser reichen.",
+        "Selbst die heftigen Sandstürme der Wüste können den Wüstenkriegern nichts anhaben.",
+        "Sein Blut mag in meinen Adern fließen, aber ich glaube, ich habe noch einen langen Weg vor mir, bis ich mich als würdigen Nachfolger bezeichnen kann."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Ruhm des Gottkönigs, Zaries",
+    "description": [
+      "Erhält bei der Nutzung eines Skills 1 Zähler ‚Willen der Wüste‘. ‚Willen der Wüste‘ erhöht 10 Sek. lang ANG um 4%, Durchdringung um 20 und kann maximal 5-mal kumuliert werden. Der Effekt kann nicht aufgehoben werden.",
+      "Erhält bei der Nutzung eines Skills 1 Zähler ‚Willen der Wüste‘. ‚Willen der Wüste‘ erhöht 10 Sek. lang ANG um 4,8%, Durchdringung um 24 und kann maximal 5-mal kumuliert werden. Der Effekt kann nicht aufgehoben werden.",
+      "Erhält bei der Nutzung eines Skills 1 Zähler ‚Willen der Wüste‘. ‚Willen der Wüste‘ erhöht 10 Sek. lang ANG um 5,6%, Durchdringung um 29 und kann maximal 5-mal kumuliert werden. Der Effekt kann nicht aufgehoben werden.",
+      "Erhält bei der Nutzung eines Skills 1 Zähler ‚Willen der Wüste‘. ‚Willen der Wüste‘ erhöht 10 Sek. lang ANG um 6,8%, Durchdringung um 35 und kann maximal 5-mal kumuliert werden. Der Effekt kann nicht aufgehoben werden.",
+      "Erhält bei der Nutzung eines Skills 1 Zähler ‚Willen der Wüste‘. ‚Willen der Wüste‘ erhöht 10 Sek. lang ANG um 8%, Durchdringung um 42 und kann maximal 5-mal kumuliert werden. Der Effekt kann nicht aufgehoben werden.",
+      "Erhält bei der Nutzung eines Skills 1 Zähler ‚Willen der Wüste‘. ‚Willen der Wüste‘ erhöht 10 Sek. lang ANG um 10%, Durchdringung um 50 und kann maximal 5-mal kumuliert werden. Der Effekt kann nicht aufgehoben werden."
+    ],
+    "story": "Eine uralte Waffe, die für das ruhmreichste Wesen auf Erden geschmiedet wurde. Es ist nur dem Nachfolger des Gottkönigs erlaubt, diese Waffe zu tragen, und man muss sich enormen Prüfungen unterziehen, um sich ihr als würdig zu erweisen. Dieser Bogen, der nur dem auserwählten Nachfolger des Gottkönigs erlaubt ist, besitzt in der Wüste absolute Macht."
+  },
+  "s1": {
+    "name": "Urteil der Wüste",
+    "description": "Verursacht {0} K.Schaden an Gegnern im weiten Umkreis und senkt den Skill-Cooldown um 1 Sek. pro getroffenem Gegner. Verursacht {1} K.Schaden an Gegnern, die unter dem [Mal der Wüste] leiden und entfernt 1 Zähler [Mal der Wüste]. Bei jeder Skillnutzung wird der Krit. Schaden um 5% erhöht. Der Effekt kann bis zu 12-mal kumuliert werden und ist nicht aufhebbar.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Krit. Schadenserhöhung pro Nutzung erhöht sich auf 10%.",
+    "dark": "Getroffene Gegner sind 1 Sek. geblendet."
+  },
+  "s2": {
+    "name": "Segen des Sandgeists",
+    "description": "Erschafft einen Schild um den Verbündeten mit den wenigsten TP, der {0} Sek. lang {1} Schaden absorbiert und gegen Statuseffekte immun macht. Nach der Schilddauer wird Sandsturm aktiviert und verursacht an Gegnern in weitem Umkreis {2} K.Schaden und 2 Zähler [Mal der Wüste]. Wenn der Schild aufgehoben oder zerstört wird, wird Sandsturm nicht aktiviert.",
+    "books": {
+      "0": "Erhöht Schaden und Schild-TP um {0}%.",
+      "1": "Erhöht Schaden und Schild-TP um {0}%.",
+      "2": "Erhöht Schaden und Schild-TP um {0}%."
+    },
+    "light": "Skill-Cooldown wird um 5 Sek. gesenkt.",
+    "dark": "Vom ‚Sandsturm‘ getroffene Gegner werden weit nach hinten und 3 Sek. lang zu Boden geworfen.",
+    "ut": {
+      "name": "Sand der Illusionen",
+      "description": [
+        "[Segen des Sandgeists] Schild absorbiert 20% mehr Schaden und hebt Statuseffekte des Nutzers auf.",
+        "[Segen des Sandgeists] Schild absorbiert 24% mehr Schaden und hebt Statuseffekte des Nutzers auf.",
+        "[Segen des Sandgeists] Schild absorbiert 29% mehr Schaden und hebt Statuseffekte des Nutzers auf.",
+        "[Segen des Sandgeists] Schild absorbiert 35% mehr Schaden und hebt Statuseffekte des Nutzers auf.",
+        "[Segen des Sandgeists] Schild absorbiert 42% mehr Schaden und hebt Statuseffekte des Nutzers auf.",
+        "[Segen des Sandgeists] Schild absorbiert 50% mehr Schaden und hebt Statuseffekte des Nutzers auf."
+      ],
+      "story": "Eine Sanduhr, die lange Zeit von einem Sandsturm in der Aegina-Wüste unter der Erde vergraben war. Wenn sich der Sand in der Sanduhr bewegt, ruft er damit die Illusion einer uralten Stadt ins Leben. Der Hohepriester des uralten Königreiches nutzte dies, um seinem Volk den Ruhm des vergangenen Königreiches zu zeigen. Als sie sahen, wie ihre Stadt golden glänzte, wurden die Menschen von Stolz auf ihr Königreich erfüllt."
+    }
+  },
+  "s3": {
+    "name": "Verderben der Wüste",
+    "description": "Verursacht {0} K.Schaden an Gegnern in weitem Umkreis vor einem und belegt diese mit 1 Zähler [Mal der Wüste]. Beschwört dann 5 Sek. lang eine Sandgrube, die alle 0,5 Sek. {1} K.Schaden verursacht und 10 Sek. lang K.VERT um 30% senkt. Die Sandgrube hat eine 25% Chance, Gegnern 1 Zähler [Mal der Wüste] aufzuerlegen, und zieht alle Gegner in Reichweite zu ihrem Mittelpunkt.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Reduziert Manakosten um 1.",
+    "dark": "Dauer von ‚Sandgrube‘ wird um 2 Sek. erhöht.",
+    "ut": {
+      "name": "Seele der Oase",
+      "description": [
+        "[Verderben der Wüste] Bei Skill-Aktivierung wird der Skill-Cooldown um 30% gesenkt und die Chance auf Aktivierung des Effekts um 8% erhöht.",
+        "[Verderben der Wüste] Bei Skill-Aktivierung wird der Skill-Cooldown um 30% gesenkt und die Chance auf Aktivierung des Effekts um 9,6% erhöht.",
+        "[Verderben der Wüste] Bei Skill-Aktivierung wird der Skill-Cooldown um 30% gesenkt und die Chance auf Aktivierung des Effekts um 11,5% erhöht.",
+        "[Verderben der Wüste] Bei Skill-Aktivierung wird der Skill-Cooldown um 30% gesenkt und die Chance auf Aktivierung des Effekts um 13,8% erhöht.",
+        "[Verderben der Wüste] Bei Skill-Aktivierung wird der Skill-Cooldown um 30% gesenkt und die Chance auf Aktivierung des Effekts um 16,5% erhöht.",
+        "[Verderben der Wüste] Bei Skill-Aktivierung wird der Skill-Cooldown um 30% gesenkt und die Chance auf Aktivierung des Effekts um 20% erhöht."
+      ],
+      "story": "Ein magisches Schwert, das unter den Nachkommen des Gottkönigs weitergereicht wurde. Der Name „Oase“ stammt daher, dass es benutzt wurde, um dem Volk in schweren Zeiten zu dienen. Nachdem das Königreich gefallen war, war sein Standort unbekannt, bis Zafir es in Kumuros Kunstsammlung entdeckte und zu einem unglaublich hohen Preis kaufte. Als das Schwert nun endlich wieder zum würdigen Nachkommen zurückgekehrt war, konnte Zafir die Geister seiner Vorfahren erben, was sein Potenzial auf sein Maximum brachte."
+    }
+  },
+  "s4": {
+    "name": "Ruf des Wächters",
+    "description": "Jeder normale Angriff hat eine Chance von 15%, bei allen Gegnern {0} K.Schaden zu verursachen, der VERT ignoriert und 1 Zähler [Mal der Wüste] verleiht. Gegner können maximal 5 Zähler [Mal der Wüste] ansammeln.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Bei mehr als 5 Gegnern erhalten alle Gegner 5 Zähler ‚Mal der Wüste‘. Dieser Effekt wird einmal alle 20 Sek. aktiviert.",
+    "dark": "Aktivierungschance ändert sich auf 30%."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / Krit. Chance +100",
+    "dark": "Regeneriert 500 Mana bei Nutzung eines Skills. Bei mehr als 5 Gegnern wird die Manaerholungsrate verdoppelt und die Angriffsgeschw. 5 Sek. lang um 500 erhöht. Dieser Effekt ist nicht kumulierbar."
+  }
+}

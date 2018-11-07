@@ -1,0 +1,120 @@
+{
+  "name": "Cassandra",
+  "subtitle": "Cơn gió đầy mê hoặc Cassandra",
+  "description": "Nữ chính Femme Fatale của Gold Bar, đúng như tên gọi của một ác nữ, quả bom mê lực của sự quyến rũ và gợi tình đập vào ngay từ ấn tượng ban đầu.  Luôn là sự khích lệ đầy lạ thường đến với những đồng minh khác.",
+  "story": "Nàng là chủ sở hữu 'Gold Bar', quán rượu to và xa hoa nhất tại Vespia. Bên dưới vẻ ngoài hào nhoáng, vai trò thực sự của quán rượu là nơi gặp gỡ bí mật của thành phần tinh nhuệ trong xã hội, nơi thông tin bí mật vô giá không ngừng được trao đổi. Vẻ quyến rũ tự nhiên và kỹ năng chuyện trò của nàng có thể dễ dàng phá tan phòng ngự cá nhân và giành được niềm tin của người khác. Danh tính thật của nàng là người mua bán thông tin bí mật và vũ khí.",
+  "like": "Rượu vang đỏ, quả hạch, những chiếc quạt sặc sỡ",
+  "dislike": "Những khách hàng cáu kỉnh Tóc bết Mùi hôi",
+  "inn": {
+    "idle": "Ôi chao, nhanh vào đây~ Dù đây không phải là cửa hàng của ta~",
+    "recruit": {
+      "greet": "Ôi, ngươi đang có ý đồ gì với ta đấy à? Hố hố",
+      "talk": [
+        "Lại đây làm 1 chén nào~ tính tiền với vị này nhé~",
+        "Thông tin vũ khí? Hử? Lần đầu tiên ta nghe đến...?",
+        "Hú, hôm nay tâm trạng có vẻ tốt nhỉ? Có chuyện gì vui à?"
+      ],
+      "gift": "Hihi, lại còn tặng cho mấy thứ này nữa~ ân tình này làm sao báo đáp đây."
+    },
+    "affinity": {
+      "greet": "Ồ, xin chào!",
+      "talk": [
+        "Nghe nói có mấy người pha rượu với nước... *Thở dài...* Ta lo quá.",
+        "Công việc đòi hỏi ta phải thức thâu đêm suốt sáng. Ta mệt quá rồi."
+      ],
+      "gift": "Ồ! Cảm ơn, ta sẽ tận dụng nó."
+    },
+    "relationship": {
+      "greet": "Ôi, đúng lúc tôi đang nghĩđến bạn.. Ồ hố ~ chúng ta hợp nhau nhỉ?",
+      "talk": [
+        "Lấy lòng người khác là việc của tôi... Nhưng tôi không muốn lấy lòng của bạn.",
+        "Chuyện này chỉ mình bạn biết thôi nhé? Không chỉ có đế quốc, mà cả Orvelia cũng đang diễn ra nhiều thanh toán, đặc biệt là vương thành Orvel... Thế mới nói~",
+        "Có chia sẻ chén rượu với ai thì.. Vẫn có nhiều lúc cảm thấy cô đơn... Nhưng, bạn thì khác."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Lời thầm thì lấp lánh, Goldbreeze",
+    "description": [
+      "Trong mỗi 15 giây hồi phục thể lực suy giảm nhất của đồng minh ngang với 200% lực tấn công của bản thân và gỡ bỏ các hiệu ứng có hại.",
+      "Trong mỗi 14 giây hồi phục thể lực suy giảm nhất của đồng minh ngang với 240% lực tấn công của bản thân và gỡ bỏ các hiệu ứng có hại.",
+      "Trong mỗi 12.5 giây hồi phục thể lực suy giảm nhất của đồng minh ngang với 290% lực tấn công của bản thân và gỡ bỏ các hiệu ứng có hại.",
+      "Trong mỗi 11 giây hồi phục thể lực suy giảm nhất của đồng minh ngang với 350% lực tấn công của bản thân và gỡ bỏ các hiệu ứng có hại.",
+      "Trong mỗi 9.5 giây hồi phục thể lực suy giảm nhất của đồng minh ngang với 420% lực tấn công của bản thân và gỡ bỏ các hiệu ứng có hại.",
+      "Trong mỗi 8 giây hồi phục thể lực suy giảm nhất của đồng minh ngang với 500% lực tấn công của bản thân và gỡ bỏ các hiệu ứng có hại."
+    ],
+    "story": "Cassandra là một người buôn bán vũ khí. Một ngày nọ, có một món hàng ăn cắp rơi vào tay cô ta và ngay lập tức được cô ta chú ý. Đó là một chiếc quạt rất đẹp được trang trí bằng vàng và đá quý. Người ta đồn rằng bất kỳ người phụ nữ nào sở hữu chiếc quạt này đều sẽ sớm gặp phải mối bất hạnh khủng khiếp. Chiếc quạt đã trôi dạt trong khu chợ như một món hàng bị nguyền rủa. Ngay sau khi mua, Cassandra bắt đầu điều tra nguồn gốc của chiếc quạt. Và cô ta phát hiện ra rằng chiếc quạt này có tên là Goldbreeze, được chế tạo như một loại vũ khí bí mật. Không quá khó để đoán được sự bất hạnh mà những người chủ của nó phải chịu khi không hề hay biết điều này."
+  },
+  "s1": {
+    "name": "Yên nào ~",
+    "description": "Hồi phục {0} thể lực toàn bộ đồng minh và gây sát thương phép thuật {1} lên toàn bộ đối thủ. Đối thủ dính đòn bị trạng thái câm trong 2 giây.",
+    "books": {
+      "0": "Tăng {0}% lượng sát thương và trị thương.",
+      "1": "Tăng {0}% lượng sát thương và trị thương.",
+      "2": "Tăng thời gian kéo dài trạng thái câm {0} giây."
+    },
+    "light": "Tăng 200 tốc độ tấn công của đồng minh nhận hồi phục trong 10 giây.",
+    "dark": "Đối thủ nhận sát thương giảm 200 mana mỗi giây trong vòng 5 giây."
+  },
+  "s2": {
+    "name": "Đòn chí mạng !",
+    "description": "Tăng {0} lực tấn công của toàn bộ đồng minh trong 15 giây và {1} xác suất đòn chí mạng.",
+    "books": {
+      "0": "Tăng {0}% lượng tăng lực tấn công",
+      "1": "Tăng {0}% lượng tăng lực tấn công",
+      "2": "Tăng {0}% lượng tăng lực tấn công"
+    },
+    "light": "Tăng 40% lượng tăng lực tấn công.",
+    "dark": "Lượng tiêu thụ Mana giảm 1.",
+    "ut": {
+      "name": "Trang sức lộng lẫy",
+      "description": [
+        "[Dữ dội!] Tăng 5 giây thời gian tác dụng và tăng thêm 20% Sát thương chí mạng.",
+        "[Dữ dội!] Tăng 5 giây thời gian tác dụng và tăng thêm 24% Sát thương chí mạng.",
+        "[Dữ dội!] Tăng 5 giây thời gian tác dụng và tăng thêm 29% Sát thương chí mạng.",
+        "[Dữ dội!] Tăng 5 giây thời gian tác dụng và tăng thêm 35% Sát thương chí mạng.",
+        "[Dữ dội!] Tăng 5 giây thời gian tác dụng và tăng thêm 42% Sát thương chí mạng.",
+        "[Dữ dội!] Tăng 5 giây thời gian tác dụng và tăng thêm 50% Sát thương chí mạng."
+      ],
+      "story": "Một món trang sức xa xỉ được làm từ bàn tay nghệ nhân đá quý giỏi nhất lục địa. Một món trang sức bản giới hạn do nghệ nhân đá quý Larik chế tạo. Bất cứ ai có địa vị cao ở Lục địa Orbis cũng muốn có một món đồ như vậy. Các tác phẩm của ông được xem như nghệ thuật thu nhỏ, có khả năng trị thương và mang lại sự can đảm. Chỉ có 3 món Trang sức lộng lẫy phiên bản giới hạn, hiển nhiên một trong số đó thuộc về chủ nhân của Gold Bar."
+    }
+  },
+  "s3": {
+    "name": "Gẩy tay mê hoặc",
+    "description": "Gây {0} sát thương phép thuật lên đối thủ có lực tấn công mạnh nhất, khi sử dụng chiêu tại Đấu trường gây trạng thái Mê hoặc lên đối tượng trong 7 giây. Nếu không phải là Đấu trường khi sử dụng tăng {1}% sát thương phép thuật. Đối thủ đang trong trạng thái Mê hoặc không thể sử dụng kĩ năng và tấn công chính đồng minh của mình bằng tấn công thường.",
+    "books": {
+      "0": "Tăng {0}% lượng sát thương.",
+      "1": "Tăng {0}% lượng sát thương.",
+      "2": "Tăng thời gian kéo dài mê hoặc trong {0} giây."
+    },
+    "light": "Làm tăng 25% sát thương phép nhận được của đối phương trong 10 giây.",
+    "dark": "Lượng tiêu thụ Mana giảm 1.",
+    "ut": {
+      "name": "Hương cấm kị",
+      "description": [
+        "Thời gian đợi hồi chiêu của [Gẩy tay mê hoặc] giảm 30% và thời gian kéo dài hiệu ứng Mê hoặc tăng 1 giây.",
+        "Thời gian đợi hồi chiêu của [Gẩy tay mê hoặc] giảm 30% và thời gian kéo dài hiệu ứng Mê hoặc tăng 1.5 giây.",
+        "Thời gian đợi hồi chiêu của [Gẩy tay mê hoặc] giảm 30% và thời gian kéo dài hiệu ứng Mê hoặc tăng 2 giây.",
+        "Thời gian đợi hồi chiêu của [Gẩy tay mê hoặc] giảm 30% và thời gian kéo dài hiệu ứng Mê hoặc tăng 2.5 giây.",
+        "Thời gian đợi hồi chiêu của [Gẩy tay mê hoặc] giảm 30% và thời gian kéo dài hiệu ứng Mê hoặc tăng 3 giây.",
+        "Thời gian đợi hồi chiêu của [Gẩy tay mê hoặc] giảm 30% và thời gian kéo dài hiệu ứng Mê hoặc tăng 3.5 giây."
+      ],
+      "story": "Một mặt dây chuyền có ngọn lửa bằng vàng huyền thoại. Kim vương huyền thoại đã làm ra mặt dây chuyền này để dụ dỗ Nữ thần tình yêu và sắc đẹp. Mùi hương của vàng tạo ra một Làn sóng mê hoặc, với sức mạnh thu hút và khiến người khác yêu quý mình."
+    }
+  },
+  "s4": {
+    "name": "Ngón đàn nhẹ nhàng",
+    "description": "Giảm 2 khoang mana cần thiết của kĩ năng sử dụng tùy theo kĩ năng sử dụng lần đầu mỗi khi bắt đầu vào trận, tăng {0} lực phòng thủ của tất cả đồng minh trong 5 giây.",
+    "books": {
+      "0": "Tăng {0}% chỉ số tăng lực phòng thủ.",
+      "1": "Tăng {0}% chỉ số tăng lực phòng thủ.",
+      "2": "Tăng {0}% chỉ số tăng lực phòng thủ."
+    },
+    "light": "Giảm 20% lượng sát thương nhận của toàn bộ anh hùng trong 5 giây.",
+    "dark": "Tăng 5 giây thời gian kéo dài của hiệu quả tăng lực phòng thủ."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / ATK.Spd +100",
+    "dark": "Tạo trạng thái miễn dịch sát thương lên 1 đồng minh bất kì trong 3 giây mỗi khi bắt đầu vào trận."
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Sonia",
+  "subtitle": "O Furacão Azul",
+  "description": "Um gênio reconhecido pelos Sábios da Torre, mesmo não sendo parte dela. Ela ganhou o título de 'Azul', mas sua identidade real é a de um homúnculo. Seus orbes de relâmpago não deixam sequer traços de cinzas em seu caminho.",
+  "story": "Uma homúnculo de combate criada por um feiticeiro de Orvel, que usou o coração de Vikal, a Fera do Raio, no cerne de sua criação. Depois de obter uma consciência no processo de criação, ela fugiu do laboratório e passou os anos seguintes no orfanato de Ricardo. Ela é capaz de lançar poderosas magias de raio à vontade. Como uma homúnculo de combate, ela ostenta excelentes habilidades físicas. Por baixo da sua aparência de frágil, ela é uma máquina de guerra confusa em busca do significado de sua existência. Os feiticeiros da Torre dos Sábios lhe deram o título de 'Azul' para indicar sua maestria em lançar feitiços sem precisar entoá-los. No entanto, ela não confia em feiticeiros e não tem vontade alguma de se associar à Torre.",
+  "like": "Mirianne e todos do orfanato",
+  "dislike": "Feiticeiros, alquimistas",
+  "inn": {
+    "idle": "Há muitas pessoas, hã... Mirianne, onde você está?",
+    "recruit": {
+      "greet": "Eh, eu? Hm...",
+      "talk": [
+        "Eu só sirvo para lutar, sério. Não espere nada além de mim.",
+        "Mesmo não sendo humano, não me subestime.",
+        "Pare de olhar, antes que eu acabe com você."
+      ],
+      "gift": "Ah, para mim? Ah... hm... obri... obrigada?"
+    },
+    "affinity": {
+      "greet": "Olá? Acabei de chegar.",
+      "talk": [
+        "Se quiser treinar, é só falar. Vai doer muito, é claro! Posso até eletrocutar você!",
+        "Hum? Mirianne está aqui também?"
+      ],
+      "gift": "Hum? Pra mim? Mesmo?"
+    },
+    "relationship": {
+      "greet": "Ah, quer falar comigo? Você é não é normal...",
+      "talk": [
+        "Curiosa a meu respeito? Bem... eu disse que era um homúnculo.",
+        "Estilo de luta? Ah, eu uso o Núcleo de Eletricidade dentro do meu corpo para...",
+        "Amigos e família? Ah... hm, Ricardo, Mirianne... e talvez... você?"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Olho da Tempestade, Yanadis",
+    "description": [
+      "A duração de Choque aumenta em 2 segundos. Quando atacar automaticamente um inimigo sob o efeito de Choque, todas as recargas são reduzidas em 1.6%.",
+      "A duração de Choque aumenta em 3 segundos. Quando atacar automaticamente um inimigo sob o efeito de Choque, todas as recargas são reduzidas em 1,9%.",
+      "A duração de Choque aumenta em 4 segundos. Quando atacar automaticamente um inimigo sob o efeito de Choque, todas as recargas são reduzidas em 2,3%.",
+      "A duração de Choque aumenta em 5 segundos. Quando atacar automaticamente um inimigo sob o efeito de Choque, todas as recargas são reduzidas em 2,7%.",
+      "A duração de Choque aumenta em 6 segundos. Quando atacar automaticamente um inimigo sob o efeito de Choque, todas as recargas são reduzidas em 3,3%.",
+      "A duração de Choque aumenta em 7 segundos. Quando atacar automaticamente um inimigo sob o efeito de Choque, todas as recargas são reduzidas em 4%."
+    ],
+    "story": "Uma esfera de eletricidade criada por Sonia com base no âmago de fera que agora é o seu próprio coração. Sonia demonstrou grande talento fazendo equipamentos mágicos e essa é a primeira arma que ela criou. A esfera não tem muita estabilidade, o que deve-se, sobretudo, à enorme quantidade de energia que carrega. A poderosa tempestade elétrica criada por essa arma é verdadeiramente perigosa para qualquer inimigo. Na verdade, se qualquer pessoa, além de Sonia, a tocasse, esse alguém seria instantaneamente queimado pela imensa corrente elétrica que flui pela arma."
+  },
+  "s1": {
+    "name": "Relâmpago!",
+    "description": "Lança um relâmpago à frente, causando {0} de DAN.M a inimigos na área e criando um campo elétrico por 3 segundos. O campo elétrico inflige um total de {1} de DAN.M ao longo de 10 ataques e com 25% de chance, atordoa o inimigo por 0,5 segundos.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "DAN aumenta em {0}%."
+    },
+    "light": "Reduz o custo de mana em 1.",
+    "dark": "A chance de atordoamento aumenta em 10%."
+  },
+  "s2": {
+    "name": "O poder do Relâmpago!",
+    "description": "Durante 15 segundos, o ATQ aumenta em {0} e toda a DEF aumenta em {1}. Enquanto o poder estiver em uso, cada ataque automático tem 30% de chance de causar {2} de DAN.M extra para 2 inimigos aleatórios e os atordoa por 0,5 segundos.",
+    "books": {
+      "0": "Reforços de ATQ e DEF aumentam em {0}%.",
+      "1": "Reforços de ATQ e DEF aumentam em {0}%.",
+      "2": "Reforços de ATQ e DEF aumentam em {0}%."
+    },
+    "light": "Reforços de ATQ e DEF aumentam em 40%.",
+    "dark": "O efeito de DAN adicional se aplica a todos os inimigos.",
+    "ut": {
+      "name": "Manto do Relâmpago",
+      "description": [
+        "[Poder do Relâmpago!] Altera o efeito irremovível e aumenta a chance de causar mais dano em um adicional de 10%.",
+        "[Poder do Relâmpago!] Altera o efeito irremovível e aumenta a chance de causar mais dano em um adicional de 12%.",
+        "[Poder do Relâmpago!] Altera o efeito irremovível e aumenta a chance de causar mais dano em um adicional de 14%.",
+        "[Poder do Relâmpago!] Altera o efeito irremovível e aumenta a chance de causar mais dano em um adicional de 17%.",
+        "[Poder do Relâmpago!] Altera o efeito irremovível e aumenta a chance de causar mais dano em um adicional de 21%.",
+        "[Poder do Relâmpago!] Altera o efeito irremovível e aumenta a chance de causar mais dano em um adicional de 25%."
+      ],
+      "story": "Um manto que Mirianne fez para Sonia por meio do enfrentamento de um perigo. Houve um tempo em que as roupas de Sonia se queimavam com a explosão de eletricidade que percorria seu corpo. Mirianne notou isso e colheu a planta ereth, que dizem crescer ao ser atingida por um raio. Ela puxou a linha da planta e finalizou o manto com ela. Sonia viu as bolhas causadas pela eletricidade nas mãos de Mirianne e chorou em silêncio por muito tempo. Uma peça de roupa feita exclusivamente para Sonia e impossível de se encontrar em qualquer outro lugar."
+    }
+  },
+  "s3": {
+    "name": "Explosão Elétrica!",
+    "description": "Causa um total de {0} de DAN.M ao longo de 3 ataques para inimigos próximos em uma área circular. Em seguida, causa uma Explosão Elétrica, causando um total de {1} de DAN.M ao longo de 3 ataques e os atordoam por 5 segundos.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "DAN aumenta em {0}%."
+    },
+    "light": "Enquanto estiver em uso, ganha imunidade a CM.",
+    "dark": "Aumenta em 1 segundos a duração do Atordoamento.",
+    "ut": {
+      "name": "Coração de Baikal",
+      "description": [
+        "[Explosão Elétrica!] Quando atacar um inimigo infligido por Choque, o inimigo recebe 100% do ATQ como DAN.M extra e reduz a DEF.M e DEF.F do alvo em 10% por 5 segundos.",
+        "[Explosão Elétrica!] Quando atacar um inimigo infligido por Choque, o inimigo recebe 100% do ATQ como DAN.M extra e reduz a DEF.M e DEF.F do alvo em 12% por 5 segundos.",
+        "[Explosão Elétrica!] Quando atacar um inimigo infligido por Choque, o inimigo recebe 100% do ATQ como DAN.M extra e reduz a DEF.M e DEF.F do alvo em 14% por 5 segundos.",
+        "[Explosão Elétrica!] Quando atacar um inimigo infligido por Choque, o inimigo recebe 100% do ATQ como DAN.M extra e reduz a DEF.M e DEF.F do alvo em 17% por 5 segundos.",
+        "[Explosão Elétrica!] Quando atacar um inimigo infligido por Choque, o inimigo recebe 100% do ATQ como DAN.M extra e reduz a DEF.M e DEF.F do alvo em 21% por 5 segundos.",
+        "[Explosão Elétrica!] Quando atacar um inimigo infligido por Choque, o inimigo recebe 100% do ATQ como DAN.M extra e reduz a DEF.M e DEF.F do alvo em 25% por 5 segundos."
+      ],
+      "story": "Coração de Vikal, chamado de fera sagrada. Ele come os elementos de luz e sombras do mundo, então seu coração é repleto de trovões, da colisão entre os dois elementos. Se alguém inapto o tocasse, seria absorvido por seu poder. Mas Sonia, que é formada pelo cerne dos relâmpagos, absorveu esse poder e obteve mana além do imaginável."
+    }
+  },
+  "s4": {
+    "name": "Choque",
+    "description": "A cada ataque, injeta Eletricidade aos alvos que não estiverem em Choque e aumenta DAN.M recebido em {0}% por 10 segundos. Eletricidade pode ser acumulada até 30 vezes, e o 30° acúmulo consumirá toda a Eletricidade para causar {1} de DAN.M e Choque ao alvo por 7 segundos. Inimigos atingidos por Choque recebem {3}% de DAN.M aumentado, e quando eles estiverem sob o efeito de Atordoamento, a duração aumenta em {2} segundos.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "DAN aumenta em {0}%."
+    },
+    "light": "A duração de Choque aumenta em 2 segundos.",
+    "dark": "O efeito do DAN.M aumentado recebido é alterado para 'DAN F e M aumentado recebido'"
+  },
+  "t5": {
+    "light": "ATK, DEF, PV +15% / Vel de ATQ +100",
+    "dark": "Após atacar, há 15% de chance de causar DAN.M adicional em 10% de PV Máx e injeta 1 acúmulo extra de Eletricidade."
+  }
+}

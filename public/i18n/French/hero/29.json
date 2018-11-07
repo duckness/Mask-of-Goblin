@@ -1,0 +1,120 @@
+{
+  "name": "Luna",
+  "subtitle": "Enfant du Clair de Lune",
+  "description": "Une enfant non identifiée qui porte un lance-pierres aussi gros que son corps. Plus ses projectiles vont loin, plus ils gagnent en force.",
+  "story": "Les Lulus, que l'on aperçoit rarement, sont considérés comme une race mythique d'hybrides animaux. Ils vivent dans des régions extrêmement froides et ont très peur d'entrer en contact avec le monde extérieur. Un jour, un enfant Lulu est né avec une personnalité totalement opposée à celle de sa race. Il s'agissait de Luna. Elle ne détestait pas pour autant les habitudes de son peuple et ne cherchait pas forcément à explorer le monde extérieur. Elle commença par cueillir des fleurs, puis ramasser des branches gelées pour faire une fronde. Ensuite, elle suivit l'odeur appétissante d'un fruit. Puis, sans même sans rendre compte, elle descendit de la montagne pour explorer un champ de carottes.",
+  "like": "Les carottes, les amis",
+  "dislike": "La faim",
+  "inn": {
+    "idle": "Salut! Avez-vous des carottes?!",
+    "recruit": {
+      "greet": "Bonjour! Bonjour à vous aussi! Bonjour à tous!",
+      "talk": [
+        "Savez-vous ce que c'est?! Des carottes!",
+        "Les carottes sont colorées aux carottes! Ouais!",
+        "Lapin? Nan, Luna est Luna!"
+      ],
+      "gift": "Ouais carottes !! Attendez? Ce ne sont pas des carottes!!"
+    },
+    "affinity": {
+      "greet": "Bonjour ! C'est encore Luna !",
+      "talk": [
+        "Cet endroit est amusant ! Luna aime ! Beaucoup !",
+        "Vous allez recevoir la bénédiction de Luna ! À base de carottes !"
+      ],
+      "gift": "C'est une vraie carotte, je me trompe ?"
+    },
+    "relationship": {
+      "greet": "Luna fait bien les choses!",
+      "talk": [
+        "Luna a beaucoup d'amis à la maison! Mais Luna ne se souvient pas où est la maison!",
+        "Tout le monde pense que les carottes sont les choses favorites de Luna! Et oui, c'est vrai!",
+        "Ah, hum... Avez-vous une carotte?"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Hyacinth, Fleur d'Eternité",
+    "description": [
+      "Augmente les dégâts des attaques normales de 20 % et la portée de 6 %.",
+      "Augmente les dégâts des attaques normales de 24 % et la portée de 7.2 %.",
+      "Augmente les dégâts des attaques normales de 29% et la portée de 8.6 %.",
+      "Augmente les dégâts des attaques normales de 35% et la portée de 10.5 %.",
+      "Augmente les dégâts des attaques normales de 42 % et la portée de 12.5 %.",
+      "Augmente les dégâts des attaques normales de 50% et la portée de 15 %."
+    ],
+    "story": "Une fronde faite d'hyacinthe, un arbre argenté ne poussant que dans les régions extrêmement froides. On dit que les hyacinthes ont été bénies par la Reine de Glace et qu'elles peuvent donner des fruits rouge vif, même lorsqu'il fait glacial. Tenir une branche d'hyacinthe permet d'ignorer le froid. Ces arbres bénis ont également le pouvoir de déclencher des tempêtes de neige et de givre. Ces pouvoirs sont mieux utilisés avec une arme taillée dans un de ces arbres."
+  },
+  "s1": {
+    "name": "Pew!",
+    "description": "Inflige {0} points de DEG M. en tirant un projectile qui tournoie 3 fois sur l'ennemi le plus proche. Plus l'ennemi est éloigné, plus il reçoit des DEG.",
+    "books": {
+      "0": "Augmente les dégâts de {0}%.",
+      "1": "Augmente les dégâts de {0}%.",
+      "2": "Augmente les dégâts de {0}%."
+    },
+    "light": "S'il y a 1 ennemi, les DEG sont augmentés de 100%.",
+    "dark": "Les ennemis touchés subissent Étourdissement pendant 1 sec."
+  },
+  "s2": {
+    "name": "Chaud devant!",
+    "description": "Inflige {0} points de DEG M. dans une zone restreinte autour de l'ennemi le plus éloigné. Étourdissement est appliqué pendant {1} sec. Plus l'ennemi est éloigné, plus il reçoit des DEG.",
+    "books": {
+      "0": "Augmente les dégâts de {0}%.",
+      "1": "Augmente les dégâts de {0}%.",
+      "2": "Augmente les dégâts de {0}%."
+    },
+    "light": "Pour un coût de 2 MP supplémentaires, attaque aléatoirement les ennemis à 3 reprises.",
+    "dark": "Ignore le blocage ennemi.",
+    "ut": {
+      "name": "Carotte du clair de lune",
+      "description": [
+        "[Chaud devant !] Augmente les DEG de 20 % et réduit le temps de recharge de 10 % lorsque vous assénez un coup critique.",
+        "[Chaud devant !] Augmente les DEG de 24 % et réduit le temps de recharge de 10 % lorsque vous assénez un coup critique.",
+        "[Chaud devant !] Augmente les DEG de 29 % et réduit le temps de recharge de 10 % lorsque vous assénez un coup critique.",
+        "[Chaud devant !] Augmente les DEG de 35 % et réduit le temps de recharge de 10 % lorsque vous assénez un coup critique.",
+        "[Chaud devant !] Augmente les DEG de 42 % et réduit le temps de recharge de 10 % lorsque vous assénez un coup critique.",
+        "[Chaud devant !] Augmente les DEG de 50 % et réduit le temps de recharge de 10 % lorsque vous assénez un coup critique."
+      ],
+      "story": "Carotte ayant reçu mille fois la lumière du clair de lune. Être touché par cette carotte signifie que les ténèbres vous quittent entièrement et que vous pourrez dorénavant discerner le bien et le mal."
+    }
+  },
+  "s3": {
+    "name": "Brille Brille",
+    "description": "Inflige {0} points de DEG M. aux ennemis à portée et réduit leur Chance de Crit de {2}% pendant {1} sec.",
+    "books": {
+      "0": "Augmente les dégâts de {0}%.",
+      "1": "Augmente les dégâts de {0}%.",
+      "2": "Augmente les dégâts de {0}%."
+    },
+    "light": "Réduit la Précision des ennemis touchés de 150 pendant 7 sec.",
+    "dark": "Pour un coût de 1 MP supplémentaire, l'ennemi est repoussé sur une longue distance.",
+    "ut": {
+      "name": "Fleur des neiges éternelles",
+      "description": [
+        "[Brille Brille] Les DEG sont augmentés de 20% et l'effet de Réduction des Chances de Crit ne peut pas être dissipé.",
+        "[Brille Brille] Les DEG sont augmentés de 24% et l'effet de Réduction des Chances de Crit ne peut pas être dissipé.",
+        "[Brille Brille] Les DEG sont augmentés de 29% et l'effet de Réduction des Chances de Crit ne peut pas être dissipé.",
+        "[Brille Brille] Les DEG sont augmentés de 35% et l'effet de Réduction des Chances de Crit ne peut pas être dissipé.",
+        "[Brille Brille] Les DEG sont augmentés de 42% et l'effet de Réduction des Chances de Crit ne peut pas être dissipé.",
+        "[Brille Brille] Les DEG sont augmentés de 50% et l'effet de Réduction des Chances de Crit ne peut pas être dissipé."
+      ],
+      "story": "Une fleur de Champ enneigé légendaire qui pousse dans les terres perpétuellement gelées de la Montagne Enneigée Terre-Venteuse. On dit qu’elle permet à l’énergie du corps de son possesseur de circuler librement et magnifiquement. Cet objet permet à l’énergie pure de Luna de briller encore plus fort."
+    }
+  },
+  "s4": {
+    "name": "Je t'ai eu!",
+    "description": "Toutes les {0} sec, inflige {2} points de DEG M. à l'ennemi le plus éloigné pendant {1} sec. Plus l'ennemi est éloigné, plus il reçoit des DEG.",
+    "books": {
+      "0": "Augmente les dégâts de {0}%.",
+      "1": "Augmente les dégâts de {0}%.",
+      "2": "Augmente les dégâts de {0}%."
+    },
+    "light": "A 20% de chances de repousser l'ennemi assez loin et de le renverser pendant 2 sec.",
+    "dark": "Le nombre de cibles est maintenant de 2."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / DEG Crit +20%",
+    "dark": "Les attaques auto ont 10% de chances de Repousser l'ennemi sur une longue distance et d'appliquer Étourdissement pendant 3 sec. La Vit. ATQ est également augmentée de 500 pendant 3 sec."
+  }
+}

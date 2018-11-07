@@ -1,0 +1,120 @@
+{
+  "name": "Laias",
+  "subtitle": "Sacerdotisa da Água",
+  "description": "Uma sacerdotisa que protege o Oásis do deserto da Aegina. Um dragão de água que viveu por várias eras. Sua água foi imbuída de poderosas propriedades de cura.",
+  "story": "Esta bela e gentil sacerdotisa da água é, na verdade, um dragão azul transformado. Num passado remoto, ela era venerada por certas tribos do deserto. No entanto, por algum motivo desconhecido, ela está adormecida há eras. Ela é capaz de dominar a água para tornar uma terra fértil e sempre usou seus poderes para ajudar seu povo. Os humanos, em retribuição, construíram sob o lago no oásis o Santuário Dourado do Fluxo em sua homenagem. Um fluxo de energia maligna no deserto a despertou e ela, mais uma vez, começou a usar seus poderes para ajudar os que a rodeiam.",
+  "like": "Nadar, lavar o cabelo",
+  "dislike": "Qualquer coisa que perturbe a ordem mundial",
+  "inn": {
+    "idle": "Não tenha medo. Você pode ser muito mais forte.",
+    "recruit": {
+      "greet": "Eu sou Lorraine, uma elfo Elidora. Saudaões.",
+      "talk": [
+        "Eu me diverti.",
+        "Que a benção da mãe natureza possa iluminar o seu caminho.",
+        "Os seres humanos são criaturas surpreendentes, mas vocês tem uma fraqueza grave. Vocês são governados pela ganância e não podem resistir a tentação."
+      ],
+      "gift": "Eu valorizarei isso."
+    },
+    "affinity": {
+      "greet": "A oportunidade de passar tempo com você é sempre bem-vinda.",
+      "talk": [
+        "Uma importante encruzilhada lhe espera. Luz e sombra... convergirão num só caminho...",
+        "Está falando do meu cabelo azul? Ah, é um erro do meu passado."
+      ],
+      "gift": "Vou considerar isso como um presente dado pela sua generosidade."
+    },
+    "relationship": {
+      "greet": "Você ficou forte, justo e puro.",
+      "talk": [
+        "Parece que você tem a alma mais pura que eu já vi há um bom tempo.",
+        "Seria ótimo se esses momentos de paz durassem para sempre... mas isso acabaria sendo algo ruim no final.",
+        "Nunca esquecerei você. Não como um Sábio, mas como um elfo comum."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Eltoirre, Círculo Fluente",
+    "description": [
+      "Ao realizar um acerto crítico, recupera o aliado com menor PV a uma quantidade equivalente a 80% do DAN causado.",
+      "Ao realizar um acerto crítico, recupera o aliado com menor PV a uma quantidade equivalente a 96% do DAN causado.",
+      "Ao realizar um acerto crítico, recupera o aliado com menor PV a uma quantidade equivalente a 115% do DAN causado.",
+      "Ao realizar um acerto crítico, recupera o aliado com menor PV a uma quantidade equivalente a 138% do DAN causado.",
+      "Ao realizar um acerto crítico, recupera o aliado com menor PV a uma quantidade equivalente a 166% do DAN causado.",
+      "Ao realizar um acerto crítico, recupera o aliado com menor PV a uma quantidade equivalente a 200% do DAN causado."
+    ],
+    "story": "Uma cruz ansata criada na forma de uma fênix, que simboliza o ciclo natural da vida. Antigamente, os nômades do deserto veneravam o dragão azul do oásis e a consideravam sua protetora. Em troca, o dragão fêmeo os abençoou com chuva e deu vida às suas plantações. Para mostrar sua gratidão, os nômades ofereceram-lhe vários tesouros, incluindo Lazulia, a pedra da água. Embora não tenha nenhum interesse particular em riquezas materiais, ela aceitou a gratidão deles e usou os tesouros para construir um templo dentro do oásis. Essa cruz ansata é o símbolo sagrado do templo e contém o imenso poder da água."
+  },
+  "s1": {
+    "name": "Gotas de Cura",
+    "description": "Cura até no máximo {0} PV de todos os aliados, dependendo da quantidade de vida perdida.",
+    "books": {
+      "0": "Aumenta a taxa de Recuperação em {0}%.",
+      "1": "Aumenta a taxa de Recuperação em {0}%.",
+      "2": "Aumenta a taxa de Recuperação em {0}%."
+    },
+    "light": "Reforça a quantidade de Cura em 40%.",
+    "dark": "Ao curar, aumenta a Resistência Crít em 25% por 10 segundos."
+  },
+  "s2": {
+    "name": "Escudo de Bolha",
+    "description": "Protege um aliado com o menor PV durante 15 segundos, bloqueia até {0} de DAN e concede Imunidade. Enquanto o Escudo estiver ativado, recupera {1} PV a cada segundo e ganha Imunidade a CM.",
+    "books": {
+      "0": "Escudo aumentado em {0}%.",
+      "1": "Escudo aumentado em {0}%.",
+      "2": "Escudo aumentado em {0}%."
+    },
+    "light": "Aumenta em 30% o ATQ do alvo.",
+    "dark": "Em troca de 2 Custos de Mana adicionais, ataca 3 vezes inimigos aleatórios.",
+    "ut": {
+      "name": "Cristal do Oásis",
+      "description": [
+        "[Escudo de Bolha] Reduz a Recarga em 12% e remove os Efeitos Negativos do alvo.",
+        "[Escudo de Bolha] Reduz a Recarga em 14% e remove os Efeitos Negativos do alvo.",
+        "[Escudo de Bolha] Reduz a Recarga em 17% e remove os Efeitos Negativos do alvo.",
+        "[Escudo de Bolha] Reduz a Recarga em 21% e remove os Efeitos Negativos do alvo.",
+        "[Escudo de Bolha] Reduz a Recarga em 25% e remove os Efeitos Negativos do alvo.",
+        "[Escudo de Bolha] Reduz a Recarga em 30% e remove os Efeitos Negativos do alvo."
+      ],
+      "story": "Essência de água protegida pelos Dragões Azuis. A essência de um oásis trazida pelos Dragões Azuis para o deserto no princípio do mundo. Protegê-la e defendê-la é a missão sagrada de Laias, a Sacerdotisa da Água, e isso é o que ela mais gosta de fazer. O Cristal do Oásis guia a Sacerdotisa da Água que usa o Escudo de Bolha até a pessoa que mais necessita de sua ajuda."
+    }
+  },
+  "s3": {
+    "name": "Festival do Fluxo",
+    "description": "Causa {0} de DAN.M e derruba todos os inimigos próximos. Todos os aliados (sem incluir a si próprio) recuperam 2 orbes de mana. Em seguida, durante {1} segundos, inimigos aleatórios serão atingidos por um redemoinho, receberão {2} de DAN.M e serão derrubados durante 2 segundos.",
+    "books": {
+      "0": "DAN aumentado em {0}%.",
+      "1": "DAN aumentado em {0}%.",
+      "2": "DAN aumentado em {0}%."
+    },
+    "light": "A cada 3 segundos, ocorrem bônus de DAN.",
+    "dark": "Cura 15% do PV máx. de todos os aliados.",
+    "ut": {
+      "name": "Papiro dos Fluxos",
+      "description": [
+        "[Festival do Fluxo] O efeito de Redemoinho atinge 2 inimigos e todos os aliados recuperam 500 de mana extra.",
+        "[Festival do Fluxo] O efeito de Redemoinho atinge 2 inimigos e todos os aliados recuperam 600 de mana extra.",
+        "[Festival do Fluxo] O efeito de Redemoinho atinge 2 inimigos e todos os aliados recuperam 720 de mana extra.",
+        "[Festival do Fluxo] O efeito de Redemoinho atinge 2 inimigos e todos os aliados recuperam 860 de mana extra.",
+        "[Festival do Fluxo] O efeito de Redemoinho atinge 2 inimigos e todos os aliados recuperam 1040 de mana extra.",
+        "[Festival do Fluxo] O efeito de Redemoinho atinge 2 inimigos e todos os aliados recuperam 1250 de mana extra."
+      ],
+      "story": "Um fragmento da antiga escritura, o Livro do Caos, que foi perdido. O Livro do Caos é uma escritura histórica que é passada para o Sacerdote da Água, e contém registros de cultura, magia, e muitas áreas. Ele foi selado no Santuário Dourado do Fluxo junto com Laias, mas a maior parte do livro sumiu enquanto ela dormia. O Papiro do Fluxo que restou é um feitiço de vigor do Festival do Fluxo."
+    }
+  },
+  "s4": {
+    "name": "Bênção do Dragão da Água",
+    "description": "Aumenta a DEF.M de todos os aliados em até {0} e ganha {1} de Resistência a Acertos Crít. de Magia.",
+    "books": {
+      "0": "Reforço de Defesa aumentado em {0}%.",
+      "1": "Reforço de Defesa aumentado em {0}%.",
+      "2": "Reforço de Defesa aumentado em {0}%."
+    },
+    "light": "Aumenta a taxa de aumento de DEF.M em 20% e a Resistência Crít.M em 10%",
+    "dark": "Aumenta a própria Resistência a CM em 400."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / BLQ.M +200",
+    "dark": "Laias aumenta a DEF.M dos aliados que ela curar, a uma quantidade igual a 5% do seu ATQ, e concede a cada um deles 75 de mana."
+  }
+}

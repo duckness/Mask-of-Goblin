@@ -1,0 +1,120 @@
+{
+  "name": "Requina",
+  "subtitle": "Marchande de Poison",
+  "description": "Une marchande qui parcourt le continent, vendant du poison à ceux qui en ont besoin. Utilise une sarbacane pour empoisonner et neutraliser ses ennemis.",
+  "story": "Une étrange marchande qui fait commerce de tous les poisons connus de l'homme. C'est la fille de deux alchimistes errants venant d'une nation lointaine. Les autres marchands l'appellent la « marchande de mort », mais elle n'est pas d'accord. Elle dit que les poisons ne sont pas nécessairement maléfiques, seule leur utilisation détermine leur nature. Comme tout vrai marchand, elle pense que les outils sont neutres, contrairement à ceux qui les utilisent. Depuis l'apparition des démons, elle voyage en cherchant le bon poison contre les envahisseurs.",
+  "like": "Développer de nouveaux poisons, ceux qui comprennent les joies de concevoir de nouvelles concoctions",
+  "dislike": "Les gens pleins de préjugés sur les poisons",
+  "inn": {
+    "idle": "Hum, personne pour acheter mes marchandises?",
+    "recruit": {
+      "greet": "Bonjour! Y a-t-il un poison dont vous pourriez avoir besoin?",
+      "talk": [
+        "Les poisons peuvent être utilisés comme médicaments! Ils ne sont pas aussi mauvais que ce que les gens peuvent croire.",
+        "Ah, eh bien, c'est vrai que la majorité des poisons sont utilisés pour faire de mauvaises choses.",
+        "Hum, où est cette dame qui a acheté mes poisons la dernière fois?"
+      ],
+      "gift": "Wow, merci! Je vais utiliser ça pour augmenter ma sélection de marchandises!!"
+    },
+    "affinity": {
+      "greet": "Enchantée ! Je vous ai apporté du poison ! Choisissez celui qui vous plaît !",
+      "talk": [
+        "C'est formidable, le poison ! Une fois qu'on y a goûté, on ne peut plus s'en passer !",
+        "Cette herbe n'a pas poussé. Devrais-je vendre un poison rare à la place ? Qu'en pensez-vous ?"
+      ],
+      "gift": "Oh, merci ! Vous aurez droit à du poison spécial, façon Requina ! Hé hé."
+    },
+    "relationship": {
+      "greet": "Bienvenue hahaha, sacrées ventes aujourd'hui!",
+      "talk": [
+        "Docteurs, assassins, chimistes and alchimistes... Ils sont tous des clients important pour moi!",
+        "Pourquoi est-ce que j'utilise des fléchettes empoisonnées? Eh bien, elles sont silencieuses et facile à utiliser! Mais elles seraient moins sympa entre de mauvaises mains...",
+        "Des poisons qui marchent sur les Démons? J'en recherche. J'en ai un peu qui sont proches de la perfection... Vous voulez voir?"
+      ]
+    }
+  },
+  "uw": {
+    "name": "La Flûte des Vents Silencieux Rakshathar",
+    "description": [
+      "Le nombre maximum de charges de Potion Guili-Guili est maintenant de 55. Chaque attaque auto a 10% de chances d'attaquer un ennemi aléatoire, d'infliger des DEG à hauteur de 20% de l'ATQ et d'appliquer Silence pendant 1 sec.",
+      "Le nombre maximum de charges des Potion Guili-Guili est maintenant de 60. Chaque attaque auto a 10% de chances d'attaquer un ennemi aléatoire, d'infliger des DEG à hauteur de 24% de l'ATQ et d'appliquer Silence pendant 1 sec.",
+      "Le nombre maximum de charges des Potion Guili-Guili est maintenant de 65. Chaque attaque auto a 10% de chances d'attaquer un ennemi aléatoire, d'infliger des DEG à hauteur de 29% de l'ATQ et d'appliquer Silence pendant 1 sec.",
+      "Le nombre maximum de charges des Potion Guili-Guili est maintenant de 70. Chaque attaque auto a 10% de chances d'attaquer un ennemi aléatoire, d'infliger des DEG à hauteur de 35% de l'ATQ et d'appliquer Silence pendant 1 sec.",
+      "Le nombre maximum de charges des Potion Guili-Guili est maintenant de 75. Chaque attaque auto a 10% de chances d'attaquer un ennemi aléatoire, d'infliger des DEG à hauteur de 42% de l'ATQ et d'appliquer Silence pendant 1 sec.",
+      "Le nombre maximum de charges des Potion Guili-Guili est maintenant de 80. Chaque attaque auto a 10% de chances d'attaquer un ennemi aléatoire, d'infliger des DEG à hauteur de 50% de l'ATQ et d'appliquer Silence pendant 1 sec."
+    ],
+    "story": "Sarbacane ultra précise fabriquée par Requina en personne. Un atténuateur ajouté à son extrémité rend cette arme déjà silencieuse presque inaudible. L'apparition des démons ayant commencé à ralentir ses affaires, elle décida d'utiliser tout ce qui se présentait, en sus des poisons. Elle requit l'aide d'un ami élémentaliste qui imprégna la sarbacane de la bénédiction du vent, lui conférant ainsi une puissance de feu comparable à celle d'un canon magique. Une fois le redoutable poison anti-démon ajouté, la sarbacane devint une arme aussi puissante que létale capable de venir à bout de n'importe quel être vivant."
+  },
+  "s1": {
+    "name": "Larmes de Mr. Python!",
+    "description": "Attaque 2 ennemis et inflige {0} points de DEG P. tout en les empoisonnant avec Larmes de Mr. Python. Les ennemis affectés par Larmes de Mr. Python ne récupèrent plus de mana, subissent des DEG augmentés de 30% et leurs Chances de Bloquer sont réduites de 500.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Le coût en mana est réduit de 1.",
+    "dark": "Réduit la mana de la cible de 1200."
+  },
+  "s2": {
+    "name": "Extrait d'Herbe Stridente!",
+    "description": "Attaque à 3 reprises des ennemis aléatoires, leur inflige un total de {0} DEG et les empoisonne avec Extrait d'Herbe Stridente pendant {1} sec. Les ennemis affectés par Extrait d'Herbe Stridente voient leur ATQ réduite de {2}% et leurs Chances de Crit de {3}.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "S'il n'y a qu'1 seul ennemi, les DEG sont augmentés de 100%.",
+    "dark": "Applique Étourdissement sur la cible pendant 1 sec.",
+    "ut": {
+      "name": "Croc venimeux de basilic",
+      "description": [
+        "[Extrait d'herbe stridente !] Le temps de recharge des compétences diminue de 30% et vous infligez 3% de l'ATQ en guise de DEG P pour chaque potion Guili-Guili ! que possède la cible.",
+        "[Extrait d'herbe stridente !] Le temps de recharge des compétences diminue de 30% et vous infligez 3,6% de l'ATQ en guise de DEG P pour chaque potion Guili-Guili ! que possède la cible.",
+        "[Extrait d'herbe stridente !] Le temps de recharge des compétences diminue de 30% et vous infligez 4,3% de l'ATQ en guise de DEG P pour chaque potion Guili-Guili ! que possède la cible.",
+        "[Extrait d'herbe stridente !] Le temps de recharge des compétences diminue de 30% et vous infligez 5,2% de l'ATQ en guise de DEG P pour chaque potion Guili-Guili ! que possède la cible.",
+        "[Extrait d'herbe stridente !] Le temps de recharge des compétences diminue de 30% et vous infligez 6,2% de l'ATQ en guise de DEG P pour chaque potion Guili-Guili ! que possède la cible.",
+        "[Extrait d'herbe stridente !] Le temps de recharge des compétences diminue de 30% et vous infligez 7,5% de l'ATQ en guise de DEG P pour chaque potion Guili-Guili ! que possède la cible."
+      ],
+      "story": "Vilain croc de basilic capable d’absorber l’énergie maléfique. Son poison est si fort qu’il peut faire fondre l’âme. S’il venait à être mélangé avec de l’herbe stridente, nul ne pourrait survivre à cette préparation. Le cœur de Requina en est déjà tout bouleversé."
+    }
+  },
+  "s3": {
+    "name": "Plus! Plus fort!",
+    "description": "L'ATQ du Héros est augmentée de {1} pendant {0} sec et l'effet de [Larmes de Mr. Python], [Extrait d'Herbe Stridente], [Potion Guili-Guili] est doublé. Augmente également de 1 le nombre de cibles de [Larmes de Mr. Python], [Extrait d'Herbe Stridente], [Potion Guili-Guili]",
+    "books": {
+      "0": "Le taux d'augmentation d'ATQ est augmenté de {0}%.",
+      "1": "Le taux d'augmentation d'ATQ est augmenté de {0}%.",
+      "2": "Le taux d'augmentation d'ATQ est augmenté de {0}%."
+    },
+    "light": "Pendant la durée, les DEG des attaques auto sont augmentés de 100%.",
+    "dark": "Le coût en mana est réduit de 1.",
+    "ut": {
+      "name": "Potion étincelante",
+      "description": [
+        "[Plus! Plus fort!] Attaque 1 cible supplémentaire et augmente la Vit ATQ de 100 pendant la durée.",
+        "[Plus! Plus fort!] Attaque 1 cible supplémentaire et augmente la Vit ATQ de 120 pendant la durée.",
+        "[Plus! Plus fort!] Attaque 1 cible supplémentaire et augmente la Vit ATQ de 140 pendant la durée.",
+        "[Plus! Plus fort!] Attaque 1 cible supplémentaire et augmente la Vit ATQ de 170 pendant la durée.",
+        "[Plus! Plus fort!] Attaque 1 cible supplémentaire et augmente la Vit ATQ de 210 pendant la durée.",
+        "[Plus! Plus fort!] Attaque 1 cible supplémentaire et augmente la Vit ATQ de 250 pendant la durée."
+      ],
+      "story": "Un remède créé en faisant bouillir le septième arc-en-ciel et la langue d’une bête géante Kiselaton qui peut franchir l’enfer. Il est plein de couleurs brillantes. Celui qui le boit ressent une brûlure interne, mais celui qui le sirote meurt doucement en plein bonheur."
+    }
+  },
+  "s4": {
+    "name": "Potion Guili-Guili",
+    "description": "Lors d'une attaque, la cible ennemie est empoisonnée avec Potion Guili-Guili pendant {0} sec, infligeant un total de {1} points de DEG P. sur la durée, effet non dissipable. Potion Guili-Guili est cumulable 50 fois.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "3 charges de Potion Guili-Guili sont accumulées d'un coup!.",
+    "dark": "La cible reçoit 20% de DEG P. supplémentaires."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Chances Crit +100",
+    "dark": "Les attaques auto sur un ennemi avec 50 charges ou plus de Potion Guili-Guili infligent des DEG P. supplémentaires à hauteur de 200% de l'ATQ et qui ignorent la DEF."
+  }
+}

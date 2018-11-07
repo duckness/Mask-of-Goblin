@@ -1,0 +1,120 @@
+{
+  "name": "Shea",
+  "subtitle": "Aria de fantasía",
+  "description": "Esta misteriosa muchacha sana a las personas con sus melodías cautivadoras. Utiliza su hermosa voz y los encantadores sonidos de su harpa mágica para sanar a los demás.",
+  "story": "'Escuchar esa hermosa melodía en el campo de batalla me hace dudar si realmente estoy en medio de un campo de batalla”. 'La espada se deslizó de mi mano y cayó. A los otros soldados les ocurrió lo mismo”. 'Daba la sensación de que la muchacha estaba en un plano existencial totalmente distinto, apartada de todos nosotros”. El sensacional relato de la muchacha con cabello rosado, cuya repentina aparición e interpretación detuvieron la batalla, se extendió rápidamente. Su hermosa y cautivadora melodía, además de su presencia cándida y tímida, invadió la imaginación de todos. Sin embargo, nadie sabía realmente de dónde venía o hacia dónde iba. 'Me parecía algo extraña: le hablaba al aire, como si hubiera alguien más allí...”. Por supuesto que algunos sugirieron teorías más verosímiles sobre el paradero de la muchacha, pero su misteriosa belleza ahogó toda especulación.",
+  "like": "Hermosa melodía, brisas suaves",
+  "dislike": "Fantasmas, espectros de calabaza",
+  "inn": {
+    "idle": "Lalala ~ lalala ~ la... ah?",
+    "recruit": {
+      "greet": "Sol Radiante, deja que hoy sea otro día feliz.",
+      "talk": [
+        "Puedes oirlo? La melodía flotando en la cima del viento...",
+        "Hmmm ~ Has visto mi arpa por aquí?",
+        "Shuwanheit y yo nos conocimos en el bosque"
+      ],
+      "gift": "Gracias ~ por eso, tocaré una canción para ti."
+    },
+    "affinity": {
+      "greet": "¡Estoy aquí para bendecirte de nuevo!",
+      "talk": [
+        "Te ves contento, puedo sentir una melodía deslumbrante que proviene de ti.",
+        "Es la música de los espíritus del bosque. ¿No te hace sentir protegido?"
+      ],
+      "gift": "Gracias. Schwanheit estará muy contenta."
+    },
+    "relationship": {
+      "greet": "Tu armonía está llena de calidez y confort.",
+      "talk": [
+        "Puede que no lo sepas, pero Shuwanheit es bastante parlanchín",
+        "Shuwanheit a veces cambia el tono de la música, dependiendo de su estado de ánimo.",
+        "Algún día, espero tocar tu propia canción."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Melodía encantadora, Schwanheite",
+    "description": [
+      "Cuando Trance está acumulado, el tiempo de reutilización de habilidades se reduce en un 10% y recupera el propio Maná en 200.",
+      "Cuando Trance está acumulado, el tiempo de reutilización de habilidades se reduce en un 12% y recupera el propio Maná en 240.",
+      "Cuando Trance está acumulado, el tiempo de reutilización de habilidades se reduce en un 14% y recupera el propio Maná en 290.",
+      "Cuando Trance está acumulado, el tiempo de reutilización de habilidades se reduce en un 17% y recupera el propio Maná en 350.",
+      "Cuando Trance está acumulado, el tiempo de reutilización de habilidades se reduce en un 20% y recupera el propio Maná en 420.",
+      "Cuando Trance está acumulado, el tiempo de reutilización de habilidades se reduce en un 25% y recupera el propio Maná en 500."
+    ],
+    "story": "Estos poderosos y magníficos equipos que pueden conversar con las personas que los manejan e, incluso, dominar a los propios dueños. Schwanheit se incluye entre estas increíbles armas. Esta arpa, que insiste con que la llamen “señor Schute”, puede amplificar considerablemente el Mana de quien la usa y rociarlo su alrededor. Dado que el Mana está esparcido, no se puede usar efectivamente como magia ofensiva. No obstante, dependiendo de cómo se use, puede ser extremadamente eficaz de otras maneras. Al señor Schute le encanta conversar, pero solo con aquellos a quienes considera amigos. Actualmente, solo habla con Shea."
+  },
+  "s1": {
+    "name": "Melodía de la naturaleza verde",
+    "description": "Cura un total de {0} de salud para todos los aliados 8 veces, y todos los aliados reciben un daño reducido en un {1}  % durante 8 segundos. Si se utiliza cuando se acumulan hasta 3 efectos de Trance, la velocidad de curación de esta habilidad aumenta en un 100 % y cambia el efecto de reducción de daño al {2}  %.",
+    "books": {
+      "0": "La tasa de Recuperacion aumenta en {0}%.",
+      "1": "La tasa de Recuperacion aumenta en {0}%.",
+      "2": "La tasa de Recuperacion aumenta en {0}%."
+    },
+    "light": "Cura un 15% de salud de todos los aliados cuando se usa.",
+    "dark": "Aumenta la Resistencia a ataque crítico de todos los aliados en 250 durante 8 segundos."
+  },
+  "s2": {
+    "name": "Canción del viento azul",
+    "description": "Recupera un total de {0} de PM para todos los aliados 8 veces, cura {1} de salud para un objetivo con PM máximo y reduce la duración del control de multitudes en un {2}  % durante 8 segundos. Si se utiliza cuando se acumulan hasta 3 efectos de Trance, la velocidad de curación y de recuperación PM de esta habilidad aumenta en un 50 % y todos los aliados ganan inmunidad al control de multitudes durante 8 segundos.",
+    "books": {
+      "0": "Aumenta {0}% la Recuperacion de PM",
+      "1": "Aumenta {0}% la Recuperacion de PM",
+      "2": "Aumenta {0}% la Recuperacion de PM"
+    },
+    "light": "Cura 500 de PM de todos los aliados cuando se usa.",
+    "dark": "Aumenta la Velocidad de ataque de todos los aliados en 250 durante 8 segundos.",
+    "ut": {
+      "name": "Flor ventosa",
+      "description": [
+        "[Canción del viento azul] Aumenta la Precisión en 250 durante 8 segundos y recupera 160 PM cada vez que un aliado utiliza una habilidad.",
+        "[Canción del viento azul] Aumenta la Precisión en 250 durante 8 segundos y recupera 190 PM cada vez que un aliado utiliza una habilidad.",
+        "[Canción del viento azul] Aumenta la Precisión en 250 durante 8 segundos y recupera 230 PM cada vez que un aliado utiliza una habilidad.",
+        "[Canción del viento azul] Aumenta la Precisión en 250 durante 8 segundos y recupera 270 PM cada vez que un aliado utiliza una habilidad.",
+        "[Canción del viento azul] Aumenta la Precisión en 250 durante 8 segundos y recupera 330 PM cada vez que un aliado utiliza una habilidad.",
+        "[Canción del viento azul] Aumenta la Precisión en 250 durante 8 segundos y recupera 400 PM cada vez que un aliado utiliza una habilidad."
+      ],
+      "story": "Una flor que estuvo en la cabeza de Shea el día después de interpretar Felicidad del viento. Según Schwanheit, también fue un obsequio de las hadas del bosque por su preciosa música. Contiene el deseo de Shea de que el viento llevará la felicidad por todo el mundo."
+    }
+  },
+  "s3": {
+    "name": "Baile de pasión roja",
+    "description": "Provoca un total de {0} de daño mágico a todos los enemigos 8 veces y aumenta el ataque de todos los aliados en un {1} durante 8 segundos. Si se utiliza cuando se acumulan hasta 3 efectos de Trance, el aumento del daño y del ataque de esta habilidad es de un 100 % y todas las potenciaciones de los enemigos se cancelan constantemente.",
+    "books": {
+      "0": "El ATQ aumenta en {0}%.",
+      "1": "El ATQ aumenta en {0}%.",
+      "2": "El ATQ aumenta en {0}%."
+    },
+    "light": "Reduce en un 10% el tiempo de reutilización de las habilidades para todos los aliados cuando se usa.",
+    "dark": "Todos los enemigos reciben un 15 % más de Daño durante 8 segundos.",
+    "ut": {
+      "name": "Corona de Hada",
+      "description": [
+        "[Danza de Pasión Roja] Al activarse, los enemigos son Silenciados durante 2 segundos, y el Daño Crít. de todos los aliados aumenta en un 20% mientras la habilidad esté en uso.",
+        "[Danza de Pasión Roja] Al activarse, los enemigos son Silenciados durante 2 segundos, y el Daño Crít. de todos los aliados aumenta en un 24% mientras la habilidad esté en uso.",
+        "[Danza de Pasión Roja] Al activarse, los enemigos son Silenciados durante 2 segundos, y el Daño Crít. de todos los aliados aumenta en un 29% mientras la habilidad esté en uso.",
+        "[Danza de Pasión Roja] Al activarse, los enemigos son Silenciados durante 2 segundos, y el Daño Crít. de todos los aliados aumenta en un 35% mientras la habilidad esté en uso.",
+        "[Danza de Pasión Roja] Al activarse, los enemigos son Silenciados durante 2 segundos, y el Daño Crít. de todos los aliados aumenta en un 42% mientras la habilidad esté en uso.",
+        "[Danza de Pasión Roja] Al activarse, los enemigos son Silenciados durante 2 segundos, y el Daño Crít. de todos los aliados aumenta en un 50% mientras la habilidad esté en uso."
+      ],
+      "story": "Una corona que llevaba puesta Shea el día después de interpretar la canción de cuna a los sueños en el bosque. Según Schwanheit, fue un obsequio de las hadas del bosque por su preciosa música. Se dice que los artículos que pasaron por las manos de las hadas tienen el poder de hacer que un alma vuelva a su forma más pura."
+    }
+  },
+  "s4": {
+    "name": "Trance",
+    "description": "Al finalizar la habilidad, se acumulará 1 pila de Trance adicional. Esta se puede acumular hasta un máximo de 3 veces, y si la habilidad se utiliza cuando hay 3 pilas de Trance acumuladas, curará la {0} Salud de todos los aliados. Trance no se puede disipar.",
+    "books": {
+      "0": "La tasa de Recuperacion aumenta en {0}%.",
+      "1": "La tasa de Recuperacion aumenta en {0}%.",
+      "2": "La tasa de Recuperacion aumenta en {0}%."
+    },
+    "light": "Aumenta en un 100% la tasa de curación de Trance.",
+    "dark": "Si se usa una habilidad cuando hay 3 pilas de Trance, inflige Daño mágico a los enemigos en lugar de curar a los aliados, y reduce toda la DEF en un 10% durante 10 segundos."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Resist Ctrl de Masas +100",
+    "dark": "Al principio de cada batalla, agrega 1 pila de Trance y recupera 500 PM."
+  }
+}

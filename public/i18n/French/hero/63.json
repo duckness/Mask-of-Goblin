@@ -1,0 +1,120 @@
+{
+  "name": "Sonia",
+  "subtitle": "La Tornade Bleue",
+  "description": "Un génie reconnu par la Tour des Sages, sans en faire partie. On lui a donné le titre de 'bleu', mais sa véritable identité et celle d'un homunculus. Ses orbes de foudre ne laissent même pas de cendres dans leur sillage.",
+  "story": "Une homoncule de combat créée par un sorcier d'Orvel, qui utilisa le cœur de Vikal la Bête Éclair comme noyau. Après avoir acquis une conscience propre lors du processus de création, elle fuit le laboratoire et passa quelques années à l'orphelinat de Ricardo. Elle est capable de lancer des sorts de foudre puissants à volonté. En tant qu'homoncule de combat, elle dispose également d'excellentes capacités. Sous son apparence de jeune fille, elle reste une machine de guerre troublée et cherchant la signification de son existence. Les sorciers de la Tour du Sage lui donnèrent le titre de « Bleue », qui indique sa maîtrise du lancement de sorts sans incantations. Cependant, elle ne fait pas confiance aux sorciers et ne souhaite pas être associée à la Tour.",
+  "like": "Mirianne et tout le monde à l'orphelinat",
+  "dislike": "Les sorciers, les alchimistes",
+  "inn": {
+    "idle": "Il y a beaucoup de gens, heu... Mirianne, où êtes-vous?",
+    "recruit": {
+      "greet": "Euh, moi? Hum...",
+      "talk": [
+        "Je ne suis bonne qu'à me battre, vraiment. N'en attendez pas plus de moi.",
+        "Même si je ne suis pas humaine, ne me prenez pas à la légère.",
+        "Arrêtez de regarder, avant que je ne vous électrocute vraiment."
+      ],
+      "gift": "Hé, pour moi? Ah, heu...m...merci?"
+    },
+    "affinity": {
+      "greet": "Bonjour. Je ne fais que passer.",
+      "talk": [
+        "Si vous voulez vous entraîner, dites-le-moi. Je ne vous cache pas que vous souffrirez ! Vous pourriez recevoir quelques coups de jus !",
+        "Comment ? Mirianne est là aussi ?"
+      ],
+      "gift": "Comment ? Pour moi ? Vraiment ?"
+    },
+    "relationship": {
+      "greet": "Hé, vous voulez me parler? Vous êtes bizarre...",
+      "talk": [
+        "Vous êtes curieux à mon sujet? Eh bien... je vous ai dit que j'étais un homunculus.",
+        "Mon style de combat? Ah, j'utilise l'électricité qui est en moi pour...",
+        "Mes amis et ma famille? Oh...hum, Ricardo, Mirianne... et peut-être... vous?"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Oeil du Cyclone, Yanadis",
+    "description": [
+      "La durée de Décharge Électrique est augmentée de 2 sec. Infliger une attaque auto pendant que l'ennemi subit Décharge Électrique réduit tous les Temps de Recharges de 1.6%.",
+      "La durée de Décharge Électrique est augmentée de 3 sec. Infliger une attaque auto pendant que l'ennemi subit Décharge Électrique réduit tous les Temps de Recharges de 1.9%.",
+      "La durée de Décharge Électrique est augmentée de 4 sec. Infliger une attaque auto pendant que l'ennemi subit Décharge Électrique réduit tous les Temps de Recharges de 2.3%.",
+      "La durée de Décharge Électrique est augmentée de 5 sec. Infliger une attaque auto pendant que l'ennemi subit Décharge Électrique réduit tous les Temps de Recharges de 2.7%.",
+      "La durée de Décharge Électrique est augmentée de 6 sec. Infliger une attaque auto pendant que l'ennemi subit Décharge Électrique réduit tous les Temps de Recharges de 3.3%.",
+      "La durée de Décharge Électrique est augmentée de 7 sec. Infliger une attaque auto pendant que l'ennemi subit Décharge Électrique réduit tous les Temps de Recharges de 4%."
+    ],
+    "story": "Une sphère d'électricité créée par Sonia, basée sur le noyau bestial qui lui sert aujourd'hui de cœur. Sonia a démontré un talent certain pour fabriquer de l'équipement magique. Il s'agit là de la première arme qu'elle ait jamais créée. Elle manque de stabilité à cause de l'immense flux électrique qu'elle contient. La puissante tempête électrique générée par cette arme représente une véritable menace pour n'importe quel ennemi. En vérité, à part Sonia, quiconque touche cette arme est instantanément grillé par l'intense courant qui la traverse."
+  },
+  "s1": {
+    "name": "Frappe d'Éclair!",
+    "description": "Cause une explosion électrique vers l'avant, inflige {0} points de DEG M. aux ennemis à portée et place un Champ Électrique pendant 3 sec. Le Champ Électrique inflige un total de {1} points de DEG M.DMG sur 10 attaques et a 25% de chances d'appliquer Étourdissement à l'ennemi pendant 0.5 sec.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Le coût en Mana est réduit de 1.",
+    "dark": "Les chances d'appliquer Étourdissement sont augmentées de 10%."
+  },
+  "s2": {
+    "name": "Puissance de la Foudre!",
+    "description": "Pendant 15 sec, l'ATQ est augmentée de {0} et toutes les DEF de {1}. Pendant l'utilisation de cette compétence, chaque attaque auto a 30% de chances d'infliger {2} points de DEG M. supplémentaires à 2 ennemis aléatoires et de leur appliquer Étourdissement pendant 0.5 sec.",
+    "books": {
+      "0": "Les boosts ATK et DEF sont augmentés de {0}%.",
+      "1": "Les boosts ATK et DEF sont augmentés de {0}%.",
+      "2": "Les boosts ATK et DEF sont augmentés de {0}%."
+    },
+    "light": "Les boosts ATK et DEF sont augmentés de 40%.",
+    "dark": "Les DEG supplémentaires s'appliquent à tous les ennemis.",
+    "ut": {
+      "name": "Manteau éclair",
+      "description": [
+        "[Puissance de la foudre !] Rend l'effet inamovible et augmente les chances de déclencher des dégâts supplémentaires de 10 %.",
+        "[Puissance de la foudre !] Rend l'effet inamovible et augmente les chances de déclencher des dégâts supplémentaires de 12 %.",
+        "[Puissance de la foudre !] Rend l'effet inamovible et augmente les chances de déclencher des dégâts supplémentaires de 14 %.",
+        "[Puissance de la foudre !] Rend l'effet inamovible et augmente les chances de déclencher des dégâts supplémentaires de 17 %.",
+        "[Puissance de la foudre !] Rend l'effet inamovible et augmente les chances de déclencher des dégâts supplémentaires de 21 %.",
+        "[Puissance de la foudre !] Rend l'effet inamovible et augmente les chances de déclencher des dégâts supplémentaires de 25 %."
+      ],
+      "story": "Manteau que Mirianne a confectionné pour Sonia en affrontant un terrible danger. En effet, l’électricité qui parcourt le corps de Sonia mit un jour feu à ses vêtements. Voyant cela, Mirianne arracha de l’ereth, cette plante supposée pousser dans la terre frappée par la foudre. Elle en tira des fils avec lesquels elle confectionna un manteau. Sonia vit les mains brûlées de Mirianne à cause de l’électricité, mais celle-ci souffrait en silence. Ce vêtement unique en son genre fut conçu spécialement pour Sonia."
+    }
+  },
+  "s3": {
+    "name": "Explosion Électrique!",
+    "description": "Inflige un total de {0} points de DEG M. sur 3 attaques aux ennemis proches dans une zone circulaire. Ceci provoque une Explosion Électrique qui inflige un total de {1} points de DEG M. sur 3 attaques et applique Étourdissement pendant 5 sec.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Donne une immunité aux Contrôles.",
+    "dark": "La durée d'Étourdissement est augmentée de 1 sec.",
+    "ut": {
+      "name": "Cœur de Baikal",
+      "description": [
+        "[Explosion Électrique!] Lors d'une attaque sur un ennemi affecté par Décharge Électrique, celui-ci reçoit des DEG M. supplémentaires à hauteur de 100% de l'ATQ et ses DEF M. et P. sont réduites de 10% pendant 5 sec.",
+        "[Explosion Électrique!] Lors d'une attaque sur un ennemi affecté par Décharge Électrique, celui-ci reçoit des DEG M. supplémentaires à hauteur de 100% de l'ATQ et ses DEF M. et P. sont réduites de 12% pendant 5 sec.",
+        "[Explosion Électrique!] Lors d'une attaque sur un ennemi affecté par Décharge Électrique, celui-ci reçoit des DEG M. supplémentaires à hauteur de 100% de l'ATQ et ses DEF M. et P. sont réduites de 14% pendant 5 sec.",
+        "[Explosion Électrique!] Lors d'une attaque sur un ennemi affecté par Décharge Électrique, celui-ci reçoit des DEG M. supplémentaires à hauteur de 100% de l'ATQ et ses DEF M. et P. sont réduites de 17% pendant 5 sec.",
+        "[Explosion Électrique!] Lors d'une attaque sur un ennemi affecté par Décharge Électrique, celui-ci reçoit des DEG M. supplémentaires à hauteur de 100% de l'ATQ et ses DEF M. et P. sont réduites de 21% pendant 5 sec.",
+        "[Explosion Électrique!] Lors d'une attaque sur un ennemi affecté par Décharge Électrique, celui-ci reçoit des DEG M. supplémentaires à hauteur de 100% de l'ATQ et ses DEF M. et P. sont réduites de 25% pendant 5 sec."
+      ],
+      "story": "Le cœur de Vikal, qu’on appelle la bête sacrée. Il mange les éléments de lumière et de ténèbres du monde, son cœur est donc rempli de cette collision entre les deux éléments. Si quelqu’un de malhabile le touche, il serait absorbé par sa puissance. Cependant, Sonia est faite de foudre pure et elle a pu absorber son pouvoir et obtenir une mana inimaginable."
+    }
+  },
+  "s4": {
+    "name": "Décharge",
+    "description": "Chaque attaque injecte de l'Électricité dans les cibles qui ne sont pas déjà sous Décharge Électrique et augmente les DEG M. reçus de {0}% pendant 10 sec. L'Électricité est cumulable 30 fois et la 30ème charge consomme toute l'Électricité stockée pour infliger {1} points de DEG M. et appliquer Décharge Électrique sur la cible pendant 7 sec. Les ennemis affectés par Décharge Électrique subissent {3}% de DEG M. supplémentaires et lorsqu'ils subissent un Étourdissement, sa durée est augmentée de {2} sec.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "La durée de Choc est augmentée de 2 sec.",
+    "dark": "L'augmentation des DEG M. reçus change en augmentation des DEG P. et M. reçus."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Vit. ATQ +100",
+    "dark": "Chaque attaque a 15% de chances d'infliger des DEG M. supplémentaires à hauteur de 10% des PV Max et d'infliger une Électrocution."
+  }
+}

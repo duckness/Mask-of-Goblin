@@ -1,0 +1,120 @@
+{
+  "name": "Kaulah",
+  "subtitle": "Shaman of Lightning",
+  "description": "As the longtime Orc Chieftain of the Sky Wind tribe, he uses elemental attacks powered by the sky and wind. Strong bolts of lightning paralyze enemies, while allies are healed and blessed by the wind.",
+  "story": "This great Orc shaman wields the power of lightning. He is the chieftain of the Skywind Tribe and a respected elder of the Orc Alliance. He has trained countless Orc shamans and is considered their spiritual leader. He is also one of the few shamans who has clairvoyant dreams, and he is wise enough to properly interpret them.",
+  "like": "Fellow kinsmen, world peace",
+  "dislike": "Malduk, war",
+  "inn": {
+    "idle": "Do you need a hand from an Ork shaman?",
+    "recruit": {
+      "greet": "Let me introduce myself. I am the chief of the Skywind tribe, Kaulah.",
+      "talk": [
+        "As I stay here, I came to think that the material civilization of humankind is astonishing.",
+        "I miss the wind of the mountaintops. I will have to climb up a nearby mountain, tomorrow.",
+        "Though I'm staying in this Inn on business, this uncomfortable bed stops me from having any prophetic dreams."
+      ],
+      "gift": "I will remember your kindness."
+    },
+    "affinity": {
+      "greet": "I hope my wind helps you rest, even if it's for a little while.",
+      "talk": [
+        "I still can't get used to the city. But it's good to see lively people.",
+        "The wind will keep blowing, even if time passes... Just like your hardships will also pass."
+      ],
+      "gift": "I'll use it well during this trip."
+    },
+    "relationship": {
+      "greet": "I thought I felt a friendly wind. Welcome back, friend.",
+      "talk": [
+        "Tough as a boulder. Gentle as the breeze. That is how your aura feels.",
+        "Have you ever climbed to the top of the mountains in Ogria? True beauty awaits on top of the summit.",
+        "I had a premonition last night. One where you saved the world..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "The Bluewind, Coventina",
+    "description": [
+      "Grants a 10% chance to deal M.DMG equal to 100% of ATK and inflicts Electric Shock on 2 random enemies through a normal attack. If the target is already inflicted with Electric Shock, stuns the target for 2 sec.",
+      "Grants a 12% chance to deal M.DMG equal to 120% of ATK stat and inflicts Electric Shock on 2 random enemies through a normal attack. If the target is already inflicted with Electric Shock, stuns the target for 2 sec.",
+      "Grants a 14% chance to deal M.DMG equal to 140% of ATK stat and inflicts Electric Shock on 2 random enemies through a normal attack. If the target is already inflicted with Electric Shock, stuns the target for 2 sec.",
+      "Grants a 17% chance to deal M.DMG equal to 170% of ATK stat and inflicts Electric Shock on 2 random enemies through a normal attack. If the target is already inflicted with Electric Shock, stuns the target for 2 sec.",
+      "Grants a 21% chance to deal M.DMG equal to 210% of ATK stat and inflicts Electric Shock on 2 random enemies through a normal attack. If the target is already inflicted with Electric Shock, stuns the target for 2 sec.",
+      "Grants a 25% chance to deal M.DMG equal to 250% of ATK stat and inflicts Electric Shock on 2 random enemies through a normal attack. If the target is already inflicted with Electric Shock, stuns the target for 2 sec."
+    ],
+    "story": "A staff resembling the four-winged thunderbird. Indeed, it has been crafted from a feather of a thunderbird, a beast considered holy among the Skywind Orcs. The staff has the power to communicate with the sky, read the weather, and control the air. To a Skywind shaman who uses the power of lightning, this staff is the ultimate medium."
+  },
+  "s1": {
+    "name": "Thunderbolt",
+    "description": "Drops 5 lightning bolts upon a random enemy, dealing {0} M.DMG and inflicting Electrify. Electrified enemy is stunned for {1} sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Crit Chance is increased by {0}."
+    },
+    "light": "Mana cost is reduced by 1.",
+    "dark": "Target takes 25% increased M.DMG for 10 sec."
+  },
+  "s2": {
+    "name": "Healing Rain",
+    "description": "HP of all allies is healed by {1} for {0} sec.",
+    "books": {
+      "0": "Heal rate is increased by {0}%.",
+      "1": "Heal rate is increased by {0}%.",
+      "2": "While in use, DMG Reduction is increased by {0} , and gains CC immunity."
+    },
+    "light": "Allies take 25% less DMG while skill is in effect.",
+    "dark": "In exchange for 1 additional Mana Cost, additionally heal allies by 5% of their Max HP.",
+    "ut": {
+      "name": "Thunderbird Mask",
+      "description": [
+        "[Healing Rain] Absorbs DMG of 200% ATK and creates a shield that grants Immunity to CC for 1 sec when used upon allies with full HP.",
+        "[Healing Rain] Absorbs DMG of 240% ATK and creates a shield that grants Immunity to CC for 1 sec when used upon allies with full HP.",
+        "[Healing Rain] Absorbs DMG of 290% ATK and creates a shield that grants Immunity to CC for 1 sec when used upon allies with full HP.",
+        "[Healing Rain] Absorbs DMG of 350% ATK and creates a shield that grants Immunity to CC for 1 sec when used upon allies with full HP.",
+        "[Healing Rain] Absorbs DMG of 420% ATK and creates a shield that grants Immunity to CC for 1 sec when used upon allies with full HP.",
+        "[Healing Rain] Absorbs DMG of 500% ATK and creates a shield that grants Immunity to CC for 1 sec when used upon allies with full HP."
+      ],
+      "story": "Mask of the auspicious thunderbird that brings rain. Once the Healing Droplets of the Skywind shaman begin, the soul of the thunderbird stays by those who were hit by Healing Rain and recovers their tired bodies."
+    }
+  },
+  "s3": {
+    "name": "Swift Wind",
+    "description": "For {0} sec, all allies' ATK is increased by {1} , and ATK Spd is increased by {2}.",
+    "books": {
+      "0": "ATK boost is increased by {0}%.",
+      "1": "ATK boost is increased by {0}%.",
+      "2": "Crit Chance is increased by {0} for the duration of skill."
+    },
+    "light": "ATK boost is increased by 40%.",
+    "dark": "Cooldown is reduced by 3 sec.",
+    "ut": {
+      "name": "Skywind Feather Decoration",
+      "description": [
+        "[Swift Wind] Mana cost is reduced by 1, and Crit DMG 20% boost effect is added.",
+        "[Swift Wind] Mana cost is reduced by 1, and Crit DMG 24% boost effect is added.",
+        "[Swift Wind] Mana cost is reduced by 1, and Crit DMG 29% boost effect is added.",
+        "[Swift Wind] Mana cost is reduced by 1, and Crit DMG 35% boost effect is added.",
+        "[Swift Wind] Mana cost is reduced by 1, and Crit DMG 42% boost effect is added.",
+        "[Swift Wind] Mana cost is reduced by 1, and Crit DMG 50% boost effect is added."
+      ],
+      "story": "Feather from a thunderbird, guardian of rain and thunder. The high ranking shamans of the Skywind Tribe commune through the feathers of a thunderbird. Shamans use this feather accessory when using Swift Wind to become one with the thunderbird, increasing ATK and ATK Spd of all allies."
+    }
+  },
+  "s4": {
+    "name": "Chain Lightning",
+    "description": "Deals {1} M.DMG to 4 enemies every {0} sec, and inflicts Electric Shock for {2} sec. Enemies inflicted with Electric Shock will take a total M.DMG of {4} over {3} sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Upon a Crit Hit, hit enemies are stunned for {0} sec."
+    },
+    "light": "Crit Chance is increased by 400.",
+    "dark": "If there is 1 enemy, Stun duration is increased by 3 sec."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / Crit Chance +100",
+    "dark": "When taking DMG, decreases ATK Spd of the attacking enemy by 300 for 5 sec. This effect is activated only once every 5 sec."
+  }
+}

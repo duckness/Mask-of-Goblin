@@ -1,0 +1,120 @@
+{
+  "name": "Baudouin",
+  "subtitle": "Rufião Sagrado",
+  "description": "Um sacerdote livre da Ordem de Lua. Ele usa uma explosão sagrada para proteger a equipe, que cura aliados e causa dano a inimigos ao mesmo tempo.",
+  "story": "Na qualidade do sacerdote mais improvável da Igreja de Lua, Baudouin é, numa só palavra, um rebelde. Desde a infância, ele sempre foi uma ovelha negra na Igreja de Lua, que enfatiza a devoção. Ele entrou para a igreja com a ajuda do Sumo Sacerdote Berman, mas a vida religiosa era terrivelmente inadequada para ele. Um dia, no entanto, ele repentinamente decidiu abandonar seus modos não convencionais e começou a seguir o caminho do sumo sacerdócio.",
+  "like": "Lua",
+  "dislike": "Lua",
+  "inn": {
+    "idle": "Ufa, vejo que temos vinho de qualidade aqui! Outra garrafa para mim, senhorita!",
+    "recruit": {
+      "greet": "Oi, como vai? Você parece bem forte, né?",
+      "talk": [
+        "Apertado e abafado não é meu estilo!",
+        "Oh, quer rir? Eu não vou perder uma festa da lesma!",
+        "Como Deus decreta, um homem deveria viver pelo seu punho!"
+      ],
+      "gift": "Hahahaha, você não é a generosa!! Claro, vamos tomar uma bebida!"
+    },
+    "affinity": {
+      "greet": "Esse clima selvagem e desenfreado! Adoro!",
+      "talk": [
+        "Violência deve ser retribuída com violência! É isso que os deuses disseram! Hahahaha!",
+        "Camarada! Vamos beber alguma coisa!"
+      ],
+      "gift": "Hahahahaha, vou retribuir com a bênção de Lua!"
+    },
+    "relationship": {
+      "greet": "Uau! Hã, parece que você foi agraciado pela Deusa! Você está praticamente brilhando!",
+      "talk": [
+        "Se eu fosse ao Império naquele tempo... pai, será que eu estava mesmo certo...",
+        "Eh, a Ordem de Lua não é o que você pensa que é, sabe? Independente de ser um Deus ou não, ela não passa de um agrupamento de pessoas.",
+        "Queria dizer algo para você. Curta a vida enquanto pode! Você sabe, a vida é curta! Não se arrependa de nada!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Genesis, Livro de Deus",
+    "description": [
+      "Aumenta a velocidade de conjuração de todas as habilidades. A cada habilidade usada, aumenta o ATQ em 2% e a DEF em 2% para todos os aliados. O efeito pode acumular até 7 vezes.",
+      "Aumenta a velocidade de conjuração de todas as habilidades. A cada habilidade usada, aumenta o ATQ em 2,4% e a DEF em 2,4% para todos os aliados. O efeito pode acumular até 7 vezes.",
+      "Aumenta a velocidade de conjuração de todas as habilidades. A cada habilidade usada, aumenta o ATQ em 2,9% e a DEF em 2,9% para todos os aliados. O efeito pode acumular até 7 vezes.",
+      "Aumenta a velocidade de conjuração de todas as habilidades. A cada habilidade usada, aumenta o ATQ em 3,5% e a DEF em 3,5% para todos os aliados. O efeito pode acumular até 7 vezes.",
+      "Aumenta a velocidade de conjuração de todas as habilidades. A cada habilidade usada, aumenta o ATQ em 4,2% e a DEF em 4,2% para todos os aliados. O efeito pode acumular até 7 vezes.",
+      "Aumenta a velocidade de conjuração de todas as habilidades. A cada habilidade usada, aumenta o ATQ em 5% e a DEF em 5% para todos os aliados. O efeito pode acumular até 7 vezes."
+    ],
+    "story": "Mesmo entre as relíquias sagradas concedidas aos sumo sacerdotes da Igreja de Lua, o Livro de Gênesis Divino é especial. De acordo com a lenda, esse livro, protegido ao longo dos tempos pelos Grandes Sacerdotes da igreja, foi escrito pela própria Lua. Iris, o Grande Sacerdote atual, ao receber uma revelação sobre Baudouin, confiou esse livro ao seu padrasto, Berman. Depois, o livro foi dado a Baudouin quando ele se tornou sumo sacerdote. Dizem que essa relíquia divina fornece energia sagrada infinita ao seu proprietário, assim como o poder de desbloquear o verdadeiro potencial daqueles que têm fé."
+  },
+  "s1": {
+    "name": "Nova Sagrada",
+    "description": "Conjura uma explosão sagrada no aliado com menos PV, curando {0} PV dele e de todos os aliados próximos. Inimigos próximos recebem {1} de DAN.M, reduzindo a VEL. ATQ em {3}%, durante {2} segundos.",
+    "books": {
+      "0": "Aumenta a Recuperação e o DAN em {0}%.",
+      "1": "Aumenta a Recuperação e o DAN em {0}%.",
+      "2": "Aumenta a Recuperação e o DAN em {0}%."
+    },
+    "light": "O DAN e taxa de Cura aumenta em 40%.",
+    "dark": "Inimigos atingidos são atordoados por 1 segundos."
+  },
+  "s2": {
+    "name": "Lança de Luz",
+    "description": "Causa {0} de DAN.M, inflige repulsão, e prende o alvo por {1} segundos. Inimigos atingidos por grilhão recebem 25% de DAN.M aumentado.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "Reduz o custo de mana em 1.",
+    "dark": "Altera a quantidade de alvos para 2.",
+    "ut": {
+      "name": "Último Capítulo da Bíblia",
+      "description": [
+        "[Lança de Luz] Concede Imunidade a CM enquanto durar a habilidade e aumenta a Vulnerabilidade M. do alvo em 10% por 10s.",
+        "[Lança de Luz] Concede Imunidade a CM enquanto durar a habilidade e aumenta a Vulnerabilidade M. do alvo em 12% por 10s.",
+        "[Lança de Luz] Concede Imunidade a CM enquanto durar a habilidade e aumenta a Vulnerabilidade M. do alvo em 14% por 10s.",
+        "[Lança de Luz] Concede Imunidade a CM enquanto durar a habilidade e aumenta a Vulnerabilidade M. do alvo em 17% por 10s.",
+        "[Lança de Luz] Concede Imunidade a CM enquanto durar a habilidade e aumenta a Vulnerabilidade M. do alvo em 21% por 10s.",
+        "[Lança de Luz] Concede Imunidade a CM enquanto durar a habilidade e aumenta a Vulnerabilidade M. do alvo em 25% por 10s."
+      ],
+      "story": "O último capítulo da lenda horripilante e assustadora demais para ser inclusa na Bíblia. Fala sobre a luz sagrada capaz de matar o inimigo mais sombrio do mundo."
+    }
+  },
+  "s3": {
+    "name": "Santuário Sagrado",
+    "description": "Concede invisibilidade a todos os aliados durante {0} segundos e recupera {1} PV durante o efeito do poder.",
+    "books": {
+      "0": "Aumenta a Recuperação em {0}%.",
+      "1": "Aumenta a Recuperação em {0}%.",
+      "2": "Aumenta VEL. ATQ em {0} , durante o efeito do poder."
+    },
+    "light": "Reduz o custo de mana em 1.",
+    "dark": "Em troca de 1 Custo de Mana adicional e de uma redução de 3 segundos da Invencibilidade, todos os aliados ganham 50% de ATQ.",
+    "ut": {
+      "name": "Terço Antigo",
+      "description": [
+        "[Santuário Sagrado] Aumenta o ATQ em 25% durante o efeito do poder e recupera 120 de Mana por segundo.",
+        "[Santuário Sagrado] Aumenta o ATQ em 25% durante o efeito do poder e recupera 140 de Mana por segundo.",
+        "[Santuário Sagrado] Aumenta o ATQ em 25% durante o efeito do poder e recupera 170 de Mana por segundo.",
+        "[Santuário Sagrado] Aumenta o ATQ em 25% durante o efeito do poder e recupera 200 de Mana por segundo.",
+        "[Santuário Sagrado] Aumenta o ATQ em 25% durante o efeito do poder e recupera 250 de Mana por segundo.",
+        "[Santuário Sagrado] Aumenta o ATQ em 25% durante o efeito do poder e recupera 300 de Mana por segundo."
+      ],
+      "story": "O rosário que a sacerdotisa Evelyn da Igreja de Lua carregou até sua morte. É como se a voz sagrada de Lua pudesse ser ouvida vinda do rosário, orando para que o mundo não desabe. A inegável energia sagrada envolve o corpo e maximiza o poder de Baudouin."
+    }
+  },
+  "s4": {
+    "name": "Treinamento de Deus",
+    "description": "Ao atacar um inimigo, há 20% de chance de causar {0} de DAN.M e Atordoar durante {1} segundos.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "Reforça em 10% a chance de ativação.",
+    "dark": "Reforça em 20% o alcance do ataque."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / BLQ.M +200",
+    "dark": "Ao atacar com Nova Sagrada e Lança de Luz, causa DAN.M adicional igual a 100% do ATQ e reduz em 20% o tempo de recarga do poder usado."
+  }
+}

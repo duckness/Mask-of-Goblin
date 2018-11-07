@@ -1,0 +1,120 @@
+{
+  "name": "Fluss",
+  "subtitle": "Fluttering Blade",
+  "description": "The vice-captain of the Imperial Guard. His sonic blade cuts through even magic. He is capable of attacking the most dangerous foes first.",
+  "story": "As the son of the commander of the Imperial Knights, he has received rigorous training since early childhood to become a proper swordsman. No one can question his title as the fastest swordsman in the imperial palace. The number of enemy knights he felled in the fields of battle is a testament to his skills. He quickly rose to the rank as the vice-captain of the Imperial Guard and is the subject of everyone's admiration. Although he is aware of his beautiful appearance, he detests those who approach him for his outer beauty. He considers inner beauty more important than what is visible. However, he's slightly hypocritical in that he occasionally falls for his own beauty.",
+  "like": "Your eyes",
+  "dislike": "Those who do not understand romance",
+  "inn": {
+    "idle": "Not too different from the Inns back at the Empire, I warrant.",
+    "recruit": {
+      "greet": "Quite the hard-worker, you are.",
+      "talk": [
+        "Ah, the cool breeze of the Empire - how I miss it so.",
+        "Constant training is the way to improve your skills.",
+        "There is only one other person with whom I could speak so freely..."
+      ],
+      "gift": "A toast to your spirit."
+    },
+    "affinity": {
+      "greet": "I brought some flowers since you invited me.",
+      "talk": [
+        "People are like swords. You have to continue to cultivate yourself to become a true knight.",
+        "I really don't like Pavel. To leave Rodina like that..."
+      ],
+      "gift": "Cheers to your kindness."
+    },
+    "relationship": {
+      "greet": "A toast to your...no, I'll stop right there.",
+      "talk": [
+        "My house wasn't originally part of the Empire.",
+        "This flower is an offering to my ancestor's homeland. It is a symbol, a memoir to remember their fallen homeland.",
+        "Our Order is just a front, mostly comprised of inexperienced children from noble families. The truly fearful warriors are elsewhere..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Twinswords of Fury, Veralta",
+    "description": [
+      "Increases ATK by 12% and ATK Spd by 120 for 30 sec every 7 sec. This effect can stack up to 3 times and cannot be removed.",
+      "Increases ATK by 14% and ATK Spd by 140 for 30 sec every 7 sec. This effect can stack up to 3 times and cannot be removed.",
+      "Increases ATK by 17% and ATK Spd by 170 for 30 sec every 7 sec. This effect can stack up to 3 times and cannot be removed.",
+      "Increases ATK by 20% and ATK Spd by 200 for 30 sec every 7 sec. This effect can stack up to 3 times and cannot be removed.",
+      "Increases ATK by 25% and ATK Spd by 250 for 30 sec every 7 sec. This effect can stack up to 3 times and cannot be removed.",
+      "Increases ATK by 30% and ATK Spd by 300 for 30 sec every 7 sec. This effect can stack up to 3 times and cannot be removed."
+    ],
+    "story": "A set of enchanted weapons bestowed upon Fluss's grandfather, a knight hailing from the Republic of Gray, and passed down as family treasures. They are capable of gradually enhancing the physical abilities of their wielder, allowing him to break the boundaries of human limitations and gain supernatural power and speed. Because the effect is gradual, there is no sudden stress to the wielder's body. Each piece is called Blood and Rose, respectively. The names originated from the swirl of blood splatter and flower petals that follow whenever Fluss swings these twin swords. No other warrior has been able to utilize their potential as Fluss does."
+  },
+  "s1": {
+    "name": "Tempest Blade",
+    "description": "Attacks the target and the enemies near it 3 times, dealing a total of {0} P.DMG. If the target is not a Hero, inflicts a total of {1} additional P.DMG over 5 sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Ignores DEF when there is only 1 enemy.",
+    "dark": "Upon a Crit Hit, cooldown is reduced by 6%."
+  },
+  "s2": {
+    "name": "Flashstep",
+    "description": "Moves to the enemy with the highest ATK and Inflicts Silence for 2 sec. Own M.DMG reduction is increased by {1} for {0} sec. Engraves the enemy with a Mark for {2} sec, and own attack prioritizes the Marked target. When attacking enemies inflicted with Mark, deals {3} extra P.DMG.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "In exchange for 1 additional Mana Cost, cooldown is reduced by 5 sec.",
+    "dark": "Dispels positive effects from enemy.",
+    "ut": {
+      "name": "Tempting Perfume",
+      "description": [
+        "[Flashstep] Changes the Mark irremovable and increases ATK by 20% for 10 sec once the enemy with the mark is killed.",
+        "[Flashstep] Changes the Mark irremovable and increases ATK by 24% for 10 sec once the enemy with the mark is killed.",
+        "[Flashstep] Changes the Mark irremovable and increases ATK by 29% for 10 sec once the enemy with the mark is killed.",
+        "[Flashstep] Changes the Mark irremovable and increases ATK by 35% for 10 sec once the enemy with the mark is killed.",
+        "[Flashstep] Changes the Mark irremovable and increases ATK by 42% for 10 sec once the enemy with the mark is killed.",
+        "[Flashstep] Changes the Mark irremovable and increases ATK by 50% for 10 sec once the enemy with the mark is killed."
+      ],
+      "story": "Perfume containing the first Vivienne roses of the year. Vivienne roses are beautiful but deadly. Those affected by the smell will hallucinate and just stare in awe as their opponent moves."
+    }
+  },
+  "s3": {
+    "name": "Bloody Petals",
+    "description": "Deals a total of {0} P.DMG to an enemy over 16 hits, and suppresses the target while casting. This DMG ignores the target's Block effects.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Each Critical Hit increases the last hit's DMG by 10%.",
+    "dark": "While in cooldown, auto attack DMG is boosted by 50%.",
+    "ut": {
+      "name": "Immortal Rose",
+      "description": [
+        "[Bloody Petals] DMG is increased by 20% and dodges all M.ATK during the duration of skill.",
+        "[Bloody Petals] DMG is increased by 24% and dodges all M.ATK during the duration of skill.",
+        "[Bloody Petals] DMG is increased by 29% and dodges all M.ATK during the duration of skill.",
+        "[Bloody Petals] DMG is increased by 35% and dodges all M.ATK during the duration of skill.",
+        "[Bloody Petals] DMG is increased by 42% and dodges all M.ATK during the duration of skill.",
+        "[Bloody Petals] DMG is increased by 50% and dodges all M.ATK during the duration of skill."
+      ],
+      "story": "A rose that will never wither, even if it's been picked. It's a flower that Fluss loves. It reminds Fluss about the duty of a knight, which is the basis for his strong will that allows him to be confident in battle."
+    }
+  },
+  "s4": {
+    "name": "Spell Cutter",
+    "description": "Every {0} sec, upon taking M.DMG, deals {1} P.DMG to the attacker, and dodges all M.ATK for {2} sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Upon dodging, raise own ATK by 3%. Stacks up to 10 times.",
+    "dark": "Has a 30% chance to stun enemies for 3 sec."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / M.Dodge +100",
+    "dark": "Upon attacking, deal extra P.DMG equal to 20% of ATK to the enemy. There is also a 10% chance of dealing double P.DMG and dispelling positive effects."
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Ricardo",
+  "subtitle": "El Jucio de Lua",
+  "description": "Un héroe noble que ha protegido el reino de los humanos desde la amenaza de los Demonios durante mucho tiempo. Utilizando un pilar bendecido por la diosa, aplastará a sus enemigos.",
+  "story": "Un héroe que salvó innumerables vidas contra los demonios, y el comandante actual de los caballeros sagrados de la Iglesia de Lua. Este valiente y experto caballero ha estado cazando demonios en toda Orvelia desde que era joven. También es el director del orfanato donde Kasel, Frey y Clause crecieron. Entrenó a incontables guerreros en Orvelia y se lo considera un líder espiritual. Se está preparando para renunciar al cargo debido a su edad, pero su fuerza que derrota a la edad siempre ha provocado el rechazo de su solicitud de renuncia.",
+  "like": "Gente, ayudar a otros",
+  "dislike": "Demonios, especialmente aquellos que atacan a personas sin motivo",
+  "inn": {
+    "idle": "Veo que estás saludable. ¡Muy bien! Jajajaja !!",
+    "recruit": {
+      "greet": "Jajaja, eres tú, ¿eh? ¿Has estado comiendo bien?",
+      "talk": [
+        "Puedo ser viejo, pero todavía estoy perfectamente bien! Aunque no puedo decir cuándo podré retirarme a este ritmo. ¡¡Jajaja!!",
+        "Jajaja, mis caderas duelen un poco, pero eh, no importa. ¡Todavía puedo continuar!",
+        "¿Competencia de Pulso? No hay forma de que me pierda esto. ¡¡Vamos!!"
+      ],
+      "gift": "Jaja, no importa. ¡Solo pónlo en la caja de donaciones para el orfanato! Los niños necesitarán eso más que yo."
+    },
+    "affinity": {
+      "greet": "¿Cómo estás? ¡La salud es lo más importante!",
+      "talk": [
+        "¡Parece que estuviste entrenando duro! ¡Ja, ja, ja, ja!",
+        "¿Alcohol? Me encanta, aunque ya no puedo beber tanto como antes."
+      ],
+      "gift": "¡Tendré que comprar ropa nueva para los niños! ¡Ja, ja, ja, ja!"
+    },
+    "relationship": {
+      "greet": "Jaja, te ves bien hoy!",
+      "talk": [
+        "Cuando peleas con Demonios, hay muchas víctimas que son civiles... incluso más que en los casos de guerras normales entre humanos.",
+        "Mi edad? Jajaja, no sería extraño si me retirara ahora mismo! Igualmente no me permitirían hacerlo...",
+        "La vida es una serie de entrenamientos constantes! No te relajes!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Luz del Juicio, Theoria",
+    "description": [
+      "Cuando un aliado que no es el lanzador recibe Daño, hay un 10 % de probabilidades de que se lance un escudo sobre ellos que absorbe Daño equivalente al 320 % del Ataque durante 5 segundos, al mismo tiempo que otorga inmunidad al Control de multitudes. Este efecto no se activa más de una vez en 5 segundos.",
+      "Cuando un aliado que no es el lanzador recibe Daño, hay un 12 % de probabilidades de que se lance un escudo sobre ellos que absorbe Daño equivalente al 384 % del Ataque durante 5 segundos, al mismo tiempo que otorga inmunidad al Control de multitudes. Este efecto no se activa más de una vez en 5 segundos.",
+      "Cuando un aliado que no es el lanzador recibe Daño, hay un 14 % de probabilidades de que se lance un escudo sobre ellos que absorbe Daño equivalente al 460 % del Ataque durante 5 segundos, al mismo tiempo que otorga inmunidad al Control de multitudes. Este efecto no se activa más de una vez en 5 segundos.",
+      "Cuando un aliado que no es el lanzador recibe Daño, hay un 17 % de probabilidades de que se lance un escudo sobre ellos que absorbe Daño equivalente al 552 % del Ataque durante 5 segundos, al mismo tiempo que otorga inmunidad al Control de multitudes. Este efecto no se activa más de una vez en 5 segundos.",
+      "Cuando un aliado que no es el lanzador recibe Daño, hay un 20 % de probabilidades de que se lance un escudo sobre ellos que absorbe Daño equivalente al 660 % del Ataque durante 5 segundos, al mismo tiempo que otorga inmunidad al Control de multitudes. Este efecto no se activa más de una vez en 5 segundos.",
+      "Cuando un aliado que no es el lanzador recibe Daño, hay un 25 % de probabilidades de que se lance un escudo sobre ellos que absorbe Daño equivalente al 800 % del Ataque durante 5 segundos, al mismo tiempo que otorga inmunidad al Control de multitudes. Este efecto no se activa más de una vez en 5 segundos."
+    ],
+    "story": "Cuando se otorgó la sagrada espada Aea a Kyle, apareció en el Templo de Lua ubicada al norte de las Llanuras del Rey. Cuando Kyle sacó la espada del altar, liberó una potente onda de luz que convirtió todos los alrededores en un suelo sagrado. Todo lo que estaba dentro del templo se convirtió en reliquias sagradas. Teoría, el pilar central del templo, absorbió la mayor cantidad de energía sagrada entre todos."
+  },
+  "s1": {
+    "name": "Destruccion",
+    "description": "Causa {0}  Daño Fis. a los enemigos frontales y los derriba durante 3 seg.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Obtiene inmunidad al Ctrl de Masas al utilizarlo"
+    },
+    "light": "El objetivo recibe 25% de Daño Fis aumentado durante 10 seg.",
+    "dark": "Proporciona P.DMG adicional igual al 200% de M.DEF."
+  },
+  "s2": {
+    "name": "Proteccion Divina",
+    "description": "Causa {0} Daño Físico a enemigos al alcance y los aturde durante 1 segundo. Además, la DEF Mágica propia aumenta en {1} durante 10 segundos, y recibe el 80% de Daño Mágico en lugar de los aliados.",
+    "books": {
+      "0": "Amplificacion de Defensa aumenta en {0}%.",
+      "1": "Amplificacion de Defensa aumenta en {0}%.",
+      "2": "Recupera 1% de la Salud propia por seg durante 10 seg."
+    },
+    "light": "A cambio de 1 Maná adicional, Ricardo gana 30% de resistencia al Daño del Daño recibido debido a la cobertura brindada a los aliados.",
+    "dark": "El efecto de esta habilidad no puede ser disipado.",
+    "ut": {
+      "name": "Orgullo de guerrero sagrado",
+      "description": [
+        "[Protección divina] Gana inmunidad al Control de multitudes y aumenta la Resistencia mágica en un 10 % mientras dura la habilidad.",
+        "[Protección divina] Gana inmunidad al Control de multitudes y aumenta la Resistencia mágica en un 12 % mientras dura la habilidad.",
+        "[Protección divina] Gana inmunidad al Control de multitudes y aumenta la Resistencia mágica en un 14 % mientras dura la habilidad.",
+        "[Protección divina] Gana inmunidad al Control de multitudes y aumenta la Resistencia mágica en un 17 % mientras dura la habilidad.",
+        "[Protección divina] Gana inmunidad al Control de multitudes y aumenta la Resistencia mágica en un 21 % mientras dura la habilidad.",
+        "[Protección divina] Gana inmunidad al Control de multitudes y aumenta la Resistencia mágica en un 25 % mientras dura la habilidad."
+      ],
+      "story": "Escudo del árbitro de los caballeros sagrados de Lua. Artefacto otorgado a aquellos que se han ganado el título de árbitro de los caballeros sagrados de Lua. Un artefacto imbuido con la bendición de la diosa Lua, protege a aquellos bajo la benevolencia de dios y castiga a los enemigos sin piedad."
+    }
+  },
+  "s3": {
+    "name": "Juicio Divino",
+    "description": "Ataca 3 veces a los enemigos frontales. Los primeros 2 ataques causan {0} Daño Fis. a los enemigos y los aturde durante 4 segundos a cada uno, y el último ataque tiene un 20% de amplio alcance y causa  {1}  Daño Fis. a los enemigos mientras los aturde durante 4 seg. Cada ataque tiene un 50% de probabilidad de eliminar los efectos positivos del enemigo.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Bloquea todo el Daño mientras esta habilidad este en uso"
+    },
+    "light": "La duración del aturdimiento se incrementa en 2 segundos.",
+    "dark": "El costo de maná se reduce en 1.",
+    "ut": {
+      "name": "Voto de guerrero sagrado",
+      "description": [
+        "[Juicio Divino] Disipa los efectos positivos de los enemigos con un 75% de probabilidades, y reduce la Veloc. de ATQ del objetivo en 100 por 10 segundos.",
+        "[Juicio Divino] Disipa los efectos positivos de los enemigos con un 75% de probabilidades, y reduce la Veloc. de ATQ del objetivo en 120 por 10 segundos.",
+        "[Juicio Divino] Disipa los efectos positivos de los enemigos con un 75% de probabilidades, y reduce la Veloc. de ATQ del objetivo en 140 por 10 segundos.",
+        "[Juicio Divino] Disipa los efectos positivos de los enemigos con un 75% de probabilidades, y reduce la Veloc. de ATQ del objetivo en 170 por 10 segundos.",
+        "[Juicio Divino] Disipa los efectos positivos de los enemigos con un 75% de probabilidades, y reduce la Veloc. de ATQ del objetivo en 210 por 10 segundos.",
+        "[Juicio Divino] Disipa los efectos positivos de los enemigos con un 75% de probabilidades, y reduce la Veloc. de ATQ del objetivo en 250 por 10 segundos."
+      ],
+      "story": "El sello que Ricardo usó para la promesa del guerrero sagrado. Cuando los caballeros son nombrados guerreros sagrados, dejan sus nombres en el certificado de juramento con sus sellos. Ricardo creó su sello teniendo en cuenta su afecto por la Iglesia de Lua. Después de todo este tiempo, sigue llevándolo consigo."
+    }
+  },
+  "s4": {
+    "name": "Bendicion Divina",
+    "description": "Cuando cualquier otro aliado recibe Daño Magico, aumenta su DEF Magica en  {0}  durante 5 seg. Se acumula hasta un máx de 5 veces, y Ricardo no está sujeto a este efecto.",
+    "books": {
+      "0": "Amplificacion de Defensa aumenta en {0}%.",
+      "1": "Amplificacion de Defensa aumenta en {0}%.",
+      "2": "Duracion aumenta en 2 seg"
+    },
+    "light": "La tasa de aumento de DEF Magica se incrementa en un 40%.",
+    "dark": "La cantidad de pila máxima se aumenta a 8."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Bloq Fis +200",
+    "dark": "Cuando la Salud propia baja al 40%, no caerá por debajo del 10% durante 6 segundos, y el ATQ de todos los aliados se incrementa en un 50% equivalente a la propia DEF Mágica. Este efecto se activa una vez cada 60 segundos."
+  }
+}

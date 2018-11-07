@@ -1,0 +1,120 @@
+{
+  "name": "Clause",
+  "subtitle": "Knight of Iron Defense",
+  "description": "Kasel's 'older brother'. A true knight, he is a man of steel who protects allies at the front of the battlefield. He blocks the attacks of the enemies while taking them down, earning him the reputation akin to a castle wall.",
+  "story": "This upright and righteous man protects Orvel as one of its knights. Many people consider him a dependable defender of Orvel, but due to his lack of interest in wealth and success, his actual rank within the order has never been very high. He grew up together with Kasel and Frey in the same orphanage, and he loves his land as the home of those precious to him. He recently volunteered to join the expedition to investigate the King's Plains.",
+  "like": "His new family",
+  "dislike": "Causing harm to friends",
+  "inn": {
+    "idle": "Hahaha! All these familiar faces!",
+    "recruit": {
+      "greet": "Oh, there you are! How are you?",
+      "talk": [
+        "How about applying for the Guardian Knights?",
+        "You look as trustworthy as ever.",
+        "Sometimes, the mouthguard of my helmet feels like it's trying to suffocate me. Hahaha!!"
+      ],
+      "gift": "Normally, I wouldn't accept - but I shall accept it as your sincerity."
+    },
+    "affinity": {
+      "greet": "Ha ha! The Guardian Knights also need to rest. Come, take a seat here.",
+      "talk": [
+        "I didn't expect Kasel to get that strong. He used to cry and follow me everywhere... And now he's the master of the Holy Sword... Ha ha.",
+        "Am I jealous of Kasel? No way! He's my brother, and I'm proud of him."
+      ],
+      "gift": "All this... I'm flattered. I'll have to work even harder."
+    },
+    "relationship": {
+      "greet": "Hahaha, good to see you again!",
+      "talk": [
+        "My justice isn't really anything too fancy. A belief that I will never be ashamed of - that is my justice.",
+        "A high-ranking position doesn't mean you can get a lot done. It might get you stuck in the castle with all the paperwork.",
+        "I know I need to help that person, but right now, there are more pressing matters - the people suffering all across Orvelia."
+      ]
+    }
+  },
+  "uw": {
+    "name": "The Guardian, Exian",
+    "description": [
+      "When HP falls below 35%, all allies' P.DMG Reduction is increased by 200 and ATK is increased by 100% of P.DEF. Gains CC immunity.",
+      "When HP falls below 35%, all allies' P.DMG Reduction is increased by 240 and ATK is increased by 120% of P.DEF. Gains CC immunity.",
+      "When HP falls below 35%, all allies' P.DMG Reduction is increased by 280 and ATK is increased by 144% of P.DEF. Gains CC immunity.",
+      "When HP falls below 35%, all allies' P.DMG Reduction is increased by 340 and ATK is increased by 173% of P.DEF. Gains CC immunity.",
+      "When HP falls below 35%, all allies' P.DMG Reduction is increased by 410 and ATK is increased by 207% of P.DEF. Gains CC immunity.",
+      "When HP falls below 35%, all allies' P.DMG Reduction is increased by 500 and ATK is increased by 250% of P.DEF. Gains CC immunity."
+    ],
+    "story": "A sword and shield set engraved with various Runes and infused with ancient magic. These legendary items are said to have been created eons ago by an ancient dragon named Exian, using its own scales. As one of the royal treasures of Orvel, the sword is bestowed only to the knight of the most honorable principles. Its wielder shall serve as the defender of the kingdom and its people, and the protector of life."
+  },
+  "s1": {
+    "name": "Cut Ground",
+    "description": "Leaps into the air and deals {0} P.DMG to enemies in range, stunning them for {1} sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Stun duration is increased by {0} sec."
+    },
+    "light": "Cooldown is reduced by 2 sec.",
+    "dark": "In exchange for 1 additional Mana Cost, the skill has a 100% chance to draw the target in."
+  },
+  "s2": {
+    "name": "Shield Strike",
+    "description": "Deals {0} P.DMG proportional to DEF to enemies in range and knocks them back. Hit enemies' DEF is reduced by {1}%. Upon blocking an attack, skill cooldown is reduced by 0.5 sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Target's Spd is reduced by {0}%."
+    },
+    "light": "Target takes 25% increased P.DMG for 10 sec.",
+    "dark": "Stuns the enemy for 1 sec.",
+    "ut": {
+      "name": "Firm Determination",
+      "description": [
+        "[Shield Strike] Reduces P.Crit Resistance of the affected enemy by 500 and Crit Chance by 100 for 10 sec.",
+        "[Shield Strike] Reduces P.Crit Resistance of the affected enemy by 500 and Crit Chance by 120 for 10 sec.",
+        "[Shield Strike] Reduces P.Crit Resistance of the affected enemy by 500 and Crit Chance by 140 for 10 sec.",
+        "[Shield Strike] Reduces P.Crit Resistance of the affected enemy by 500 and Crit Chance by 170 for 10 sec.",
+        "[Shield Strike] Reduces P.Crit Resistance of the affected enemy by 500 and Crit Chance by 210 for 10 sec.",
+        "[Shield Strike] Reduces P.Crit Resistance of the affected enemy by 500 and Crit Chance by 250 for 10 sec."
+      ],
+      "story": "Old wooden shield of the knight of the Iron Wall. It's a precious shield that Clause used when he first started training. He has since engraved the names of his deceased comrades in order to remember his determination as a guardian knight. Each time he pushes away enemies with the shield, the knight's firm determination helps him tap into power beyond his limits."
+    }
+  },
+  "s3": {
+    "name": "Guardian Shield",
+    "description": "All allies' P.DEF is increased by {1} for {0} sec and P.Crit Resistance is increased by {2}%.",
+    "books": {
+      "0": "DEF boost is increased by {0}%.",
+      "1": "DEF boost is increased by {0}%.",
+      "2": "DEF boost is increased by {0}%."
+    },
+    "light": "DEF boost is increased by 40%.",
+    "dark": "Receives 25% reduced P.DMG for the duration.",
+    "ut": {
+      "name": "Guardian Knight Insignia",
+      "description": [
+        "[Guardian Shield] Upon activation, removes negative effects on self, and DEF boost is increased by 20%.",
+        "[Guardian Shield] Upon activation, removes negative effects on self, and DEF boost is increased by 24%.",
+        "[Guardian Shield] Upon activation, removes negative effects on self, and DEF boost is increased by 29%.",
+        "[Guardian Shield] Upon activation, removes negative effects on self, and DEF boost is increased by 35%.",
+        "[Guardian Shield] Upon activation, removes negative effects on self, and DEF boost is increased by 42%.",
+        "[Guardian Shield] Upon activation, removes negative effects on self, and DEF boost is increased by 50%."
+      ],
+      "story": "Rune of the Orvel Guardian Knights. A Gold Lion Rune that is given to knights when they first join the Guardian Knights, along with the vow that they will give their lives to protect the kingdom. The rune from the Guardian Knights bolsters a knight's iron will and loyalty, increasing the effectiveness of the Guardian Shield."
+    }
+  },
+  "s4": {
+    "name": "Vow of Knights",
+    "description": "Upon blocking, deals {0} P.DMG to frontal enemies and decreases ATK of affected targets by {2}% for {1} sec. Recovers 300 MP after hitting the target.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Casting time is greatly boosted.",
+    "dark": "Reduce an additional 10% of ATK."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / P. Block +200",
+    "dark": "When an ally other than this hero is hit by an attack, increase all allies P.DEF by 20% and P.Crit Resist by 20%. (10 sec Cooldown)"
+  }
+}

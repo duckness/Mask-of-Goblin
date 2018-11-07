@@ -1,0 +1,120 @@
+{
+  "name": "Arch",
+  "subtitle": "Flecha de Pureza",
+  "description": "Un ángel de alto rango que descendió sobre este mundo para castigar a los Demonios que incitaban al caos. Navegando a través del cielo, sus flechas acechan a los malhechores.",
+  "story": "Un ángel guerrero que descendió de los cielos para castigar a los demonios y detener el caos de expandirse en la tierra. Sus tareas delegadas incluyen la exploración, el reconocimiento y la ejecución de cualquier demonio que encuentre en la tierra. Tiene un fuerte sentido de responsabilidad y es rápido y decisivo contra cualquier injusticia. Realmente ama a la humanidad y a toda la vida que habita en la tierra. Es por eso que lucha para evitar que los demonios profanen este mundo.",
+  "like": "Paz y estabilidad",
+  "dislike": "Demonios",
+  "inn": {
+    "idle": "Mmm Creo que acabo de ver un demonio...",
+    "recruit": {
+      "greet": "Saludos, habitantes de la tierra.",
+      "talk": [
+        "¿Son mis alas tan interesantes?",
+        "Aniquilar el mal es mi deber.",
+        "Vean que sus propias vidas son bendecidas por la diosa."
+      ],
+      "gift": "Que la luz guíe tu camino."
+    },
+    "affinity": {
+      "greet": "Qué bueno verte, discípulo de la luz.",
+      "talk": [
+        "El destino del mundo está en tus manos.",
+        "Tú, que recibiste la bendición de la diosa, ¿qué harás con ese poder?"
+      ],
+      "gift": "No sé cómo voy a usarlo, pero gracias."
+    },
+    "relationship": {
+      "greet": "Que la luz esté contigo, mi amigo.",
+      "talk": [
+        "Los Demonios... son basura que deben ser ejecutados, pero no sé qué hacer con los pocos que nos ayudan",
+        "Tu existencia es como un faro brillante. Mantén tu alma pura, mi amigo.",
+        "Creía que tu especie era débil. Pero ahora, he aprendido que la fuerza viene en muchas formas."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Cielo Despejado Azul, Sherrkyle",
+    "description": [
+      "Cada 10 segundos, estampa una Ficha de Arbitro sobre un enemigo aleatorio durante 15 seg y causa 168% de ATQ de Daño Magico.",
+      "Cada 10 segundos, estampa una Ficha de Arbitro sobre un enemigo aleatorio durante 15 seg y causa 201.6% de ATQ de Daño Magico.",
+      "Cada 10 segundos, estampa una Ficha de Arbitro sobre un enemigo aleatorio durante 15 seg y causa 241.5% de ATQ de Daño Magico.",
+      "Cada 10 segundos, estampa una Ficha de Arbitro sobre un enemigo aleatorio durante 15 seg y causa 289.8% de ATQ de Daño Magico.",
+      "Cada 10 segundos, estampa una Ficha de Arbitro sobre un enemigo aleatorio durante 15 seg y causa 348.6% de ATQ de Daño Magico.",
+      "Cada 10 segundos, estampa una Ficha de Arbitro sobre un enemigo aleatorio durante 15 seg y causa 420% de ATQ de Daño Magico."
+    ],
+    "story": "Un arma poderosa de luz que puede tomar la forma de una lanza, una daga o un arco. Uno de los tesoros divinos de los ángeles benditos por un arcángel Se dice que es capaz de incinerar el mal. Debido a su versatilidad, ha sido otorgada tradicionalmente al explorador más talentoso. El número de demonios que murió bajo su luz durante la guerra es demasiado alto para contar."
+  },
+  "s1": {
+    "name": "Flecha Celestial",
+    "description": "Causa {0} Daño Magico a 3 enemigos y derribalos. Cuando un enemigo que posee fichas de arbitro es golpeado, recibe 30% más de Daño adicional. Los enemigos golpeados por esta habilidad se les estampa una ficha de arbitro por 15 segundos.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Si hay 1 enemigo, el Daño se incrementa en un 100%.",
+    "dark": "Aturde a los enemigos con un Sigilo durante 1 seg."
+  },
+  "s2": {
+    "name": "Resplandor Purificante",
+    "description": "Causa {0}  Daño Magico a todos los enemigos en línea recta. Enemigos con una ficha de arbitro reciben {1} Daño Magico adicional.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "La Oportunidad Crit se incrementa en un 40%.",
+    "dark": "El tiempo de reutilización se reduce en 3 segundos.",
+    "ut": {
+      "name": "Cuadrado mágico de persecución",
+      "description": [
+        "[Resplandor purificador] Reduce el Costo de Mana en 1 y aumenta el Daño en un 20 %.",
+        "[Resplandor purificador] Reduce el Costo de Mana en 1 y aumenta el Daño en un 24 %.",
+        "[Resplandor purificador] Reduce el Costo de Mana en 1 y aumenta el Daño en un 29 %.",
+        "[Resplandor purificador] Reduce el Costo de Mana en 1 y aumenta el Daño en un 35 %.",
+        "[Resplandor purificador] Reduce el Costo de Mana en 1 y aumenta el Daño en un 42 %.",
+        "[Resplandor purificador] Reduce el Costo de Mana en 1 y aumenta el Daño en un 50 %."
+      ],
+      "story": "El símbolo del ejército de árbitros de fuego que libró una feroz batalla contra los antiguos demonios. Al usar el Cuadrado mágico de persecución bendecido por Lua, la diosa de la luz, Arch se convierte en un árbitro despiadado."
+    }
+  },
+  "s3": {
+    "name": "Arbitro",
+    "description": "Causa {0} Daño Magico a los enemigos al alcance, y los enemigos con fichas de arbitro reciben un 50% más de Daño Magico de los ataques y se silencian durante 5 seg. Todos los aliados obtienen inmunidad al Daño Magico durante 5 seg.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Inflige un sigilo a los enemigos dañados.",
+    "dark": "El aumento de Daño Magico y el efecto Silencio afectan a los enemigos sin necesidad de Sigilo",
+    "ut": {
+      "name": "Ojo del cielo",
+      "description": [
+        "[Arbitro] El Daño aumenta en un 20% y el ATQ de todos los aliados en un 30% al activarse el Escudo Mágico.",
+        "[Arbitro] El Daño aumenta en un 24% y el ATQ de todos los aliados en un 30% al activarse el Escudo Mágico.",
+        "[Arbitro] El Daño aumenta en un 29% y el ATQ de todos los aliados en un 30% al activarse el Escudo Mágico.",
+        "[Arbitro] El Daño aumenta en un 35% y el ATQ de todos los aliados en un 30% al activarse el Escudo Mágico.",
+        "[Arbitro] El Daño aumenta en un 42% y el ATQ de todos los aliados en un 30% al activarse el Escudo Mágico.",
+        "[Arbitro] El Daño aumenta en un 50% y el ATQ de todos los aliados en un 30% al activarse el Escudo Mágico."
+      ],
+      "story": "El huevo alma del ángel árbitro Pilier. Pilier nació de la primera llama de Lua y es el amo de Arch. Pilier fue el mejor ángel guerrero y quien podía terminar la guerra contra los demonios. Pero, después de usar todo su poder, Pilier volvió a ser un ojo del cielo, que es la forma del huevo de alma. Actualmente, es Arch quien conserva su alma de amo."
+    }
+  },
+  "s4": {
+    "name": "El Ultimo Juicio",
+    "description": "Cada 15 segundos, causa {0} Daño Mágico a los enemigos infligidos por Sigilo de Juicio, ignorando la DEF. Al menos una vez por batalla, al alcanzar la Salud cercana a la muerte, causa {1} Daño Mágico a los enemigos infligidos el Sigilo de Juicio y los aturde durante 3 segundos, mientras lanza un escudo que bloquea {2} el Daño en todos los aliados durante 5 segundos. Obtiene inmunidad al Ctrl de Masas mientras el escudo está activado Cuando se activa el escudo, consume todo el maná y el tiempo de reutilización de las habilidades aumenta en un 50%.",
+    "books": {
+      "0": "El Daño y el Escudo aumentan en {0}%.",
+      "1": "El Daño y el Escudo aumentan en {0}%.",
+      "2": "El Daño y el Escudo aumentan en {0}%."
+    },
+    "light": "Durante 20 segundos después de la activación, los ataques automáticos atacan a 2 enemigos.",
+    "dark": "El efecto se produce 3 segundos más rápido."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Oportunidad Crit +100",
+    "dark": "Luego de un golpe crítico, cura la Salud de todos los aliados en un 4% del Daño repartido."
+  }
+}

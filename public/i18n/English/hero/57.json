@@ -1,0 +1,120 @@
+{
+  "name": "Lilia",
+  "subtitle": "The Daughter of Storm and Sea",
+  "description": "A Blue Dragon girl who has just passed her Hatchling period and a sister of Laias, the Priestess of Water. Although she is still inexperienced and young, those who look down on her tend to pay dearly. She uses the relentless energy of water to decimate her enemies.",
+  "story": "A God Dragon of the Oasis and a sister of the Priestess of Water. Laias. She is still a young Blue Dragon who loves her sister who is much older than her. When Laias fell into a deep sleep after exhausting her powers in the battle 100 years ago, Lilia defended the Shrine of Flow on her own. It was when she heard the children of the desert making desperate prayers that she finally woke up the Priestess of Water to protect them. Unlike her mild and thoughtful sister, she is somewhat strict, and the way she controls the power of flow and water is more aggressive, too. She feels the need to protect her beautiful sister against flirting, unworthy men.",
+  "like": "Laias, sweet drinks, people in the desert",
+  "dislike": "Those flirting with her sister (Neraxis, Cain)",
+  "inn": {
+    "idle": "...T-too many humans...",
+    "recruit": {
+      "greet": "May the Flow be with you!",
+      "talk": [
+        "I am not as kind as my sister.",
+        "Blue Dragons are weak? You couldn't be more wrong.",
+        "I am a grown-up Dragon. I am old enough!"
+      ],
+      "gift": "Thanks, human child."
+    },
+    "affinity": {
+      "greet": "Hello, you look great!",
+      "talk": [
+        "My sister's mission is mine, too. I will always be with her.",
+        "The mystery of endless water? Umm...I heard that it is the power of the First Blue Dragon."
+      ],
+      "gift": "Thank you so much. I will use this for the Shrine of Flow."
+    },
+    "relationship": {
+      "greet": "Good to see you, again!",
+      "talk": [
+        "Neraxis? What a jerk. He always begs for my sister's attention!",
+        "Cain...? Errrgh... I thought he was gone for good. I can't believe he's making a pass at my sister again...",
+        "I love my sister the most... but I like you as well."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Infinite Spring, Cielamaha",
+    "description": [
+      "Mana is recovered by 50 per each sec, and upon each ATK there is an 80% chance of dealing 20% of ATK as P.DMG.",
+      "Mana is recovered by 60 per each sec, and upon each ATK there is an 80% chance of dealing 24% of ATK as P.DMG.",
+      "Mana is recovered by 70 per each sec, and upon each ATK there is an 80% chance of dealing 28% of ATK as P.DMG.",
+      "Mana is recovered by 85 per each sec, and upon each ATK there is an 80% chance of dealing 34% of ATK as P.DMG.",
+      "Mana is recovered by 105 per each sec, and upon each ATK there is an 80% chance of dealing 42% of ATK as P.DMG.",
+      "Mana is recovered by 125 per each sec, and upon each ATK there is an 80% chance of dealing 50% of ATK as P.DMG."
+    ],
+    "story": "An infinite spring that endlessly spouts water. It is a jar made by the first Blue Dragon, who ruled all waters on earth. It reacts to the imagination of the user. To a young, sensitive and creative girl like Lilia, it is the greatest treasure and weapon."
+  },
+  "s1": {
+    "name": "Aqua Tempest",
+    "description": "For 8 sec, summons Aqua Tempest to a random target and enemies in target's range and deals {0} P.DMG every 0.5 sec. If the target is killed, Aqua Tempest is summoned to attack another random target for the remaining time.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Hit target's ATK Spd is decreased by 250 for 10 sec.",
+    "dark": "Each use increases DMG by 20%. Stacks 15 times max."
+  },
+  "s2": {
+    "name": "Everlasting Oasis",
+    "description": "When activated, turns into the Everlasting Oasis state for 15 sec. During the Everlasting Oasis state, mana recovery rate per sec is increased by 150% and ATK is increased by {0}. Additionally, all DEF is increased by {1}.",
+    "books": {
+      "0": "Mana recovery and ATK boost are increased by {0}%.",
+      "1": "Mana recovery and ATK boost are increased by {0}%.",
+      "2": "Mana recovery and ATK boost are increased by {0}%."
+    },
+    "light": "Mana cost is increased by 1 and is additionally activated on the ally with the highest ATK excluding self.",
+    "dark": "Skill duration is decreased by 5 sec and all effects are increased by 100%.",
+    "ut": {
+      "name": "Heart of Flow",
+      "description": [
+        "[Everlasting Oasis] The effect cannot be dispelled, and Crit DMG is increased by 20% during skill duration.",
+        "[Everlasting Oasis] The effect cannot be dispelled, and Crit DMG is increased by 24% during skill duration.",
+        "[Everlasting Oasis] The effect cannot be dispelled, and Crit DMG is increased by 29% during skill duration.",
+        "[Everlasting Oasis] The effect cannot be dispelled, and Crit DMG is increased by 35% during skill duration.",
+        "[Everlasting Oasis] The effect cannot be dispelled, and Crit DMG is increased by 42% during skill duration.",
+        "[Everlasting Oasis] The effect cannot be dispelled, and Crit DMG is increased by 50% during skill duration."
+      ],
+      "story": "A gold necklace for girls that Laias crafted for Lilia with a Gem of Protection. It gleams with the energy of water elementals in it. It is a symbol of Laias's care for her little sister."
+    }
+  },
+  "s3": {
+    "name": "Celestial Cataract",
+    "description": "Throws water drops 15 times to random enemies, dealing a total of {0} P.DMG. Additionally, throws big water drops 5 times to target and other enemies in target's range, dealing {1} P.DMG. Enemies hit by the big water drop are inflicted by Stun for {2} sec. Per each water drop thrown, {3} mana is consumed, and mana consumption rate is increased by {4}. Stops use when mana becomes 0.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "While in use, gain immunity to CC.",
+    "dark": "Per each water drop thrown, mana cost and mana consumption rate are increased by 100%, and per each water drop thrown, there is a 50% chance of throwing an extra water drop.",
+    "ut": {
+      "name": "Bottomless Kettle of Elementals",
+      "description": [
+        "[Celestial Cataract] Upon each ATK there is a 7% chance of throwing a big water drop, dealing 100% of ATK as P.DMG and increasing own Crit DMG by 2% for 7 sec.",
+        "[Celestial Cataract] Upon each ATK there is a 7% chance of throwing a big water drop, dealing 100% of ATK as P.DMG and increasing own Crit DMG by 2.4% for 7 sec.",
+        "[Celestial Cataract] Upon each ATK there is a 7% chance of throwing a big water drop, dealing 100% of ATK as P.DMG and increasing own Crit DMG by 2.9% for 7 sec.",
+        "[Celestial Cataract] Upon each ATK there is a 7% chance of throwing a big water drop, dealing 100% of ATK as P.DMG and increasing own Crit DMG by 3.5% for 7 sec.",
+        "[Celestial Cataract] Upon each ATK there is a 7% chance of throwing a big water drop, dealing 100% of ATK as P.DMG and increasing own Crit DMG by 4.2% for 7 sec.",
+        "[Celestial Cataract] Upon each ATK there is a 7% chance of throwing a big water drop, dealing 100% of ATK as P.DMG and increasing own Crit DMG by 5% for 7 sec."
+      ],
+      "story": "A kettle that Lilia's old cacti friends made for her on her birthday. The kettle infinitely produces the cleanest and purest water there is. However, if too much water is used at once, it shuts its spout, which is a featured added by the Cacti to help Lilia stay in control of the water until she becomes more skilled at it."
+    }
+  },
+  "s4": {
+    "name": "Aqua Purification",
+    "description": "Mana recovery upon ATK is fixed, but own ATK is increased by {0} and mana recovery per sec is increased to 120. Per 6 mana recovery per sec, ATK is increased by 1%.",
+    "books": {
+      "0": "ATK boost is increased by {0}%.",
+      "1": "ATK boost is increased by {0}%.",
+      "2": "ATK boost is increased by {0}%."
+    },
+    "light": "At the start of each battle, recovers 1000 mana.",
+    "dark": "Deals 15% increased DMG to Boss monsters."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / Crit DMG +20%",
+    "dark": "ATK is increased by 15% per 1 orb of mana."
+  }
+}

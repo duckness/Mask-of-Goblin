@@ -1,0 +1,120 @@
+{
+  "name": "Baudouin",
+  "subtitle": "Heiliger Grobian",
+  "description": "Ein freilaufender Priester des Lua-Ordens. Er verwendet heilige Explosionen, um die Gruppe zu beschützen. Die Explosionen heilen Verbündete, während sie Feinden Schaden zufügen.",
+  "story": "Baudouin ist der ungewöhnlichste Priester der Kirche von Lua und ist, kurz gesagt, ein Eigenbrötler. Seit seiner Kindheit war er stets ein schwarzes Schaf in der Kirche von Lua, die Wert auf Frömmigkeit legt. Er trat der Kirche mithilfe des Hohepriesters Berman bei, doch das religiöse Leben war äußerst schlecht für ihn geeignet. Und doch entschied er sich eines Tages dazu, sein früheres, abartiges Leben zu beenden und begab sich auf den Pfad des Hohepriestertums.",
+  "like": "Lua",
+  "dislike": "Lua",
+  "inn": {
+    "idle": "Puh, ich sehe etliche Qualitätsweine hier! Noch eine Flasche für mich, Liebes!",
+    "recruit": {
+      "greet": "Hey, wie geht's? Du siehst ziemlich stark aus, huh?",
+      "talk": [
+        "Formal und starr sein ist nich' mein Ding!",
+        "Oh, willst du dich raufen? Ich verlier' nie eine Schlägerei!",
+        "Ein Mann sollte sein Leben mit der Faust leben, wie es die Götter vorgesehen haben!"
+      ],
+      "gift": "Gahahaha, du bist aber großzügig!! Klar, lass uns einen trinken!"
+    },
+    "affinity": {
+      "greet": "Diese wilde und unbändige Atmosphäre! Ich liebe das!",
+      "talk": [
+        "Gewalt sollte man am besten mit Gewalt begegnen! So haben es die Götter gesagt! Kwahahaha!",
+        "Mein Freund! Lasst uns Einen trinken!"
+      ],
+      "gift": "Kwahahaha, dafür werde ich dir Luas Segen geben!"
+    },
+    "relationship": {
+      "greet": "Wow! Du scheinst ja wirklich von der Göttin gesegnet zu sein! Du leuchtest quasi!",
+      "talk": [
+        "Wenn ich damals ins Königreich gegangen wäre... mein Vater hatte wohl doch recht.",
+        "Hm, der Orden von Lua ist nicht das, was du denkst. Göttin oder nicht, das ist einfach nur ein Haufen Leute.",
+        "Es gibt etwas, was ich dir mitgeben will: Genieß dein Leben, solange du kannst! Es ist kurz! Und wir bereuen nur das, was wir nicht getan haben!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Genesis, Alt und Neu",
+    "description": [
+      "Erhöht die Wirkgeschwindigkeit aller Skills und erhöht bei jedem Skill-Einsatz den ANG und die VERT aller Verbündeten um 2 %. Dieser Effekt ist bis zu 7-mal stapelbar.",
+      "Erhöht die Wirkgeschwindigkeit aller Skills und erhöht bei jedem Skill-Einsatz den ANG und die VERT aller Verbündeten um 2,4 %. Dieser Effekt ist bis zu 7-mal stapelbar.",
+      "Erhöht die Wirkgeschwindigkeit aller Skills und erhöht bei jedem Skill-Einsatz den ANG und die VERT aller Verbündeten um 2,9 %. Dieser Effekt ist bis zu 7-mal stapelbar.",
+      "Erhöht die Wirkgeschwindigkeit aller Skills und erhöht bei jedem Skill-Einsatz den ANG und die VERT aller Verbündeten um 3,5 %. Dieser Effekt ist bis zu 7-mal stapelbar.",
+      "Erhöht die Wirkgeschwindigkeit aller Skills und erhöht bei jedem Skill-Einsatz den ANG und die VERT aller Verbündeten um 4,2 %. Dieser Effekt ist bis zu 7-mal stapelbar.",
+      "Erhöht die Wirkgeschwindigkeit aller Skills und erhöht bei jedem Skill-Einsatz den ANG und die VERT aller Verbündeten um 5 %. Dieser Effekt ist bis zu 7-mal stapelbar."
+    ],
+    "story": "Selbst unter den heiligen Reliquien der Hohepriester der Kirche von Lua ist das Buch der Götter besonders. Glaubt man der Legende schrieb Lua dieses Buch, das über die Jahre von den Großpriestern der Kirche bewahrt wurde, selbst. Iris, der gegenwärtige Großpriester vertraute das Buch seinem Stiefvater Berman an, nachdem er wegen Baudouin eine Offenbarung hatte. Später erhielt Baudouin das Buch, als er zum Hohepriester wurde. Es heißt, dass diese göttliche Reliquie seinen Besitzer mit unendlicher heiliger Energie versorgt und ihn ermächtigt, das wahre Potential aller Gläubigen zu erschließen."
+  },
+  "s1": {
+    "name": "Heilige Nova",
+    "description": "Heilt den Verbündeten mit der niedrigsten TP und Verbündeten in Umgebung um {0} TP. Feinde nahe der Heilung werden {2} Sek lang um {3}% verlangsamt.",
+    "books": {
+      "0": "Erhöht Erholung und Schaden um {0}%.",
+      "1": "Erhöht Erholung und Schaden um {0}%.",
+      "2": "Erhöht Erholung und Schaden um {0}%."
+    },
+    "light": "Schaden und Heilrate um 40% erhöht.",
+    "dark": "Betäubt getroffene Feinde für 1 Sek."
+  },
+  "s2": {
+    "name": "Speer des Lichts",
+    "description": "Verursacht {0} M. Schaden, wirft den Gegner zurück und fesselt den Gegner für {1} Sek. Gefesselte Gegner erleiden 25% mehr M. Schaden.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Reduziert Manakosten um 1.",
+    "dark": "Anzahl der Ziele steigt auf 2.",
+    "ut": {
+      "name": "Letztes Kapitel der Bibel",
+      "description": [
+        "[Speer des Lichts] Gewährt Statuseffekt-Immunität für die Dauer des Skills und erhöht die M.Schwäche des Ziels 10 Sek. lang um 10 %.",
+        "[Speer des Lichts] Gewährt Statuseffekt-Immunität für die Dauer des Skills und erhöht die M.Schwäche des Ziels 10 Sek. lang um 12 %.",
+        "[Speer des Lichts] Gewährt Statuseffekt-Immunität für die Dauer des Skills und erhöht die M.Schwäche des Ziels 10 Sek. lang um 14 %.",
+        "[Speer des Lichts] Gewährt Statuseffekt-Immunität für die Dauer des Skills und erhöht die M.Schwäche des Ziels 10 Sek. lang um 17 %.",
+        "[Speer des Lichts] Gewährt Statuseffekt-Immunität für die Dauer des Skills und erhöht die M.Schwäche des Ziels 10 Sek. lang um 21 %.",
+        "[Speer des Lichts] Gewährt Statuseffekt-Immunität für die Dauer des Skills und erhöht die M.Schwäche des Ziels 10 Sek. lang um 25 %."
+      ],
+      "story": "Das letzte Kapitel der Legende, das zu furchtbar und angsteinflößend war, um es in die Bibel aufzunehmen. Es spricht vom heiligen Licht, das den dunkelsten Feind der Welt tötet."
+    }
+  },
+  "s3": {
+    "name": "Heiliger Schutz",
+    "description": "Gewährt allen Verbündeten Unbesiegbarkeit für {0} Sek und heilt {1} TP während der Wirkungsdauer.",
+    "books": {
+      "0": "Erhöht Erholung um {0}%.",
+      "1": "Erhöht Erholung um {0}%.",
+      "2": "Erhöht Angriffsgeschw. um {0}% für die Wirkungsdauer."
+    },
+    "light": "Reduziert Manakosten um 1.",
+    "dark": "Im Gegenzug für 2 extra Mana und eine 3 Sek-Reduzierung der Unbesiegbarkeitsdauer erhalten alle Verbündete +50% ANG.",
+    "ut": {
+      "name": "Alter Rosenkranz",
+      "description": [
+        "[Heiliger Schutz] Erhöht ANG um 25% und stellt 120 Mana pro Sek. wieder her während d. Wirkungsdauer.",
+        "[Heiliger Schutz] Erhöht ANG um 25% und stellt 140 Mana pro Sek. wieder her während d. Wirkungsdauer.",
+        "[Heiliger Schutz] Erhöht ANG um 25% und stellt 170 Mana pro Sek. wieder her während d. Wirkungsdauer.",
+        "[Heiliger Schutz] Erhöht ANG um 25% und stellt 200 Mana pro Sek. wieder her während d. Wirkungsdauer.",
+        "[Heiliger Schutz] Erhöht ANG um 25% und stellt 250 Mana pro Sek. wieder her während d. Wirkungsdauer.",
+        "[Heiliger Schutz] Erhöht ANG um 25% und stellt 300 Mana pro Sek. wieder her während d. Wirkungsdauer."
+      ],
+      "story": "Der Rosenkranz, den die heilige Priesterin Evelyn der Kirche von Lua bis zu ihrem Tod bei sich trug. Es ist, als könne man Luas Stimme aus dem Rosenkranz hören, die dafür betet, dass die Welt nicht zusammenbricht. Die unbestreitbare heilige Energie umfängt den Körper und maximiert Baudouins Kraft."
+    }
+  },
+  "s4": {
+    "name": "Gottes Training",
+    "description": "20% Chance, mit einem Angriff {0} M.Schaden zuzufügen und den Feind {1} Sek lang zu betäuben.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Erhöht Aktivierungschance um 10%.",
+    "dark": "Erhöht Angriffsreichw. um 20%."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / M.Block +200",
+    "dark": "Beim Angriff mit Heiliger Nova oder Speer des Lichts wird 100% der ANG als zusätzlicher M.Schaden verursacht. Reduziert den Cooldown des benutzten Skills um 20%."
+  }
+}

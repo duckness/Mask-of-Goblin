@@ -1,0 +1,120 @@
+{
+  "name": "Ezekiel",
+  "subtitle": "The Cursed Blood",
+  "description": "A mixed-blood between high-rank demon and human, Ezekiel is damned to curse his own existence. Slashes his powerful demonic right arm to tear apart his enemies.",
+  "story": "The son of Lucikiel is a powerful Demon officer who brought down the Republic of Gray. Usually considerate and careful, he is actually half Human. In battle, his Demon blood takes over, turning him arrogant and violent. He inherited this power from his father, whom he never even knew. However, he takes pride in his power and does not try to hide it. Since he is only partly Demon, only a single arm undergoes the transformation. However, even just this single arm contains immense power, and it's certainly not easy for him to fully control it yet. If he loses the control of the arm, the only wise decision is to immediately get as far away from him as possible.",
+  "like": "Caramel pudding, sweetened juice",
+  "dislike": "Weaklings who act tough, idiots who think they know everything",
+  "inn": {
+    "idle": "What'cha looking at?",
+    "recruit": {
+      "greet": "What? Say again?",
+      "talk": [
+        "Hah, how bothersome...",
+        "Just go on your way.",
+        "Why y'all acting all chummy with me? Hah..."
+      ],
+      "gift": "Wha...what is this...oh well, yeah, I'll accept it..."
+    },
+    "affinity": {
+      "greet": "I'm tired because I didn't get enough sleep.",
+      "talk": [
+        "I-I wonder what that fool from the Republic of Gray is up to nowadays.",
+        "You mean my hair? It looks great, right? This hair sticking up is what makes this style."
+      ],
+      "gift": "Oh, thank you!"
+    },
+    "relationship": {
+      "greet": "Oh? So, you've already talked with the lame kid?",
+      "talk": [
+        "I don't care that my father's a Demon. I'm strong, thanks to that!",
+        "That kiddo is too much of a softie. Nobody can hurt us!",
+        "Yeah, sometimes I can't control my own power. But hey, it's still fun in its own way! Hahaha!!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Jailer of Despair Barbatos",
+    "description": [
+      "Fury duration is increased by 2 sec and when in Fury state, Crit DMG is increased by 80%.",
+      "Fury duration is increased by 3 sec and when in Fury state, Crit DMG is increased by 90%.",
+      "Fury duration is increased by 4 sec and when in Fury state, Crit DMG is increased by 100%.",
+      "Fury duration is increased by 5 sec and when in Fury state, Crit DMG is increased by 110%.",
+      "Fury duration is increased by 6 sec and when in Fury state, Crit DMG is increased by 120%.",
+      "Fury duration is increased by 7 sec and when in Fury state, Crit DMG is increased by 130%."
+    ],
+    "story": "Ezekiel's father was one of the highest-ranking Demons. Although he does not know his father's name or face, he is aware of the tremendous power of the Demon blood he inherited. The Demon blood flowing within his veins also gave him a second personality. When his human blood prevails, Ezekiel is a young man of excellent character. At other times, he is an immensely powerful and arrogant Demon, just like his father. Barbatos, Jailer of Despair, manifests itself when Ezekiel's Demon blood is in full power. Taking the form of one of his arms, this weapon is powerful enough to slash through dimensions and sever the space itself. It is the physical representation of his father's power."
+  },
+  "s1": {
+    "name": "Destructive Instinct",
+    "description": "Swipes nearby enemies in a circular range and deals {0} M.DMG. Then strikes the ground, dealing {1} M.DMG and knocking down enemies for 3 sec. [Fury] - Consumes 15% of current HP to activate. Effect range increases and swipe attack draws in enemies.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "DMG is increased by 40%.",
+    "dark": "After activation, ATK is increased by 40% for 5 sec."
+  },
+  "s2": {
+    "name": "Dawning Despair",
+    "description": "Dashes to an enemy with the highest ATK and deals {0} M.DMG to enemies in range, reducing their ATK Spd by {1}. [Fury] - Consumes 10% of current HP to activate. Effect range increases, Stuns target for {2} sec, and increases own ATK Spd by {4} for {3} sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Mana cost is reduced by 1.",
+    "dark": "When activated during Fury state, ignores target DEF.",
+    "ut": {
+      "name": "Wild Beast's Choker",
+      "description": [
+        "[Dawning Despair] Gains Immunity to CC for the skill's duration and increases ATK Spd by 100 for 10 sec.",
+        "[Dawning Despair] Gains Immunity to CC for the skill's duration and increases ATK Spd by 120 for 10 sec.",
+        "[Dawning Despair] Gains Immunity to CC for the skill's duration and increases ATK Spd by 140 for 10 sec.",
+        "[Dawning Despair] Gains Immunity to CC for the skill's duration and increases ATK Spd by 170 for 10 sec.",
+        "[Dawning Despair] Gains Immunity to CC for the skill's duration and increases ATK Spd by 210 for 10 sec.",
+        "[Dawning Despair] Gains Immunity to CC for the skill's duration and increases ATK Spd by 250 for 10 sec."
+      ],
+      "story": "Choker made with the skin of a powerful beast. Loot that celebrates the manticore that Ezekiel hunted after a hard battle against the Demons when he was young. Ezekiel remembers the joy of killing the manticore every time he touches the violent beast's choker, just before he charges at the formidable enemy in front of him."
+    }
+  },
+  "s3": {
+    "name": "Strike of Doom",
+    "description": "Charges energy and attacks target enemy, dealing {0} M.DMG and inflicting Stun for {1} sec. [Fury] - Consumes 20% of current HP to activate. Attacks enemies in range of target and DMG is tripled.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Becomes immune to CC during activation.",
+    "dark": "If there is 1 enemy, DMG is increased by 100%.",
+    "ut": {
+      "name": "Sealing Binds",
+      "description": [
+        "[Strike of Doom] DMG is increased by 20% and gains 1 additional stack of Cursed Blood after using the skill.",
+        "[Strike of Doom] DMG is increased by 24% and gains 1 additional stack of Cursed Blood after using the skill.",
+        "[Strike of Doom] DMG is increased by 29% and gains 1 additional stack of Cursed Blood after using the skill.",
+        "[Strike of Doom] DMG is increased by 35% and gains 1 additional stack of Cursed Blood after using the skill.",
+        "[Strike of Doom] DMG is increased by 42% and gains 1 additional stack of Cursed Blood after using the skill.",
+        "[Strike of Doom] DMG is increased by 50% and gains 1 additional stack of Cursed Blood after using the skill."
+      ],
+      "story": "A bond containing the mana of an unknown priest. Young Ezekiel used to go berserk frequently. If anyone insulted his mom, he would allow his boiling demon blood to take over. Once he return to his senses, he would stare at his wounded arm and his terrified mom. When he was older, Ezekiel was getting rid of demons when he got into an argument with a bigger priest of Lua. He went berserk, just like any other day. Ezekiel was alone when he came to, and he was taken aback by the bond on his cursed arm. When he tried to take it off, he found that the priest's magic couldn't be shaken off so easily. However, he stopped going berserk and losing his consciousness after that. He's gained greater control over his mana, so it's now one of his most treasured items."
+    }
+  },
+  "s4": {
+    "name": "Cursed Blood",
+    "description": "Ezekiel gains 1 stack of 'Cursed Blood' at the end of skill. Upon the 4th stack, consumes Cursed Blood to reset all skill cooldown, dealing {0} M.DMG to nearby enemies and knocking them down for 3 sec, while activating Fury for {1} sec, that cannot be dispelled. While in Fury state, goes into an auto-battle mode that cannot be controlled, and ATK is increased by {2} , auto attack DMG is doubled, and all Skill effect are reinforced. Cannot gain Cursed Blood during Fury state, except for when killing an enemy.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "When in Fury state, heal rate is increased by 50%.",
+    "dark": "Per every stacked 'Cursed Blood', takes 12% reduced DMG."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / ATK.Spd +100",
+    "dark": "When in Fury state, auto attack deals DMG that ignores DEF."
+  }
+}

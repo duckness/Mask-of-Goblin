@@ -1,0 +1,120 @@
+{
+  "name": "Chase",
+  "subtitle": "Type 0",
+  "description": "Rat de laboratoire amnésique et guerrier incontrôlable qui déploie une puissance phénoménale au combat. Cette arme redoutable détruit tout sur son passage.",
+  "story": "Ce cobaye amnésique de type 0 vit le jour dans le cadre des expérimentations de l'empire visant à améliorer le genre humain. Il appartient au premier type du projet Chevaliers du mal, dont le seul but était de tuer, et sa mise au monde résulte d'un contrat secret conclu avec l'empire pour assassiner Scarlet, la seule héritière du trône. Cependant, lors d'un combat contre Clause et Demia qui défendaient Scarlet, il devint incontrôlable, abandonna sa mission et prit la poudre d'escampette. Il ne réussit pas à la tuer et disparut, ce qui plaça les commanditaires de l'assassinat en bien mauvaise posture. En fin de compte, ils ont fait appel au Masque rieur, un autre groupe d'assassins, pour se débarrasser de lui. Entre temps, Scarlet lui avait déjà donné un nom, Chase, et le laissa vivre à ses côtés.",
+  "like": "Se faire appeler par son prénom par Scarlet, Demia, Clause et ses amis",
+  "dislike": "Les souvenirs du passé, son numéro de cobaye.",
+  "inn": {
+    "idle": "Atmosphère inhabituelle... Paysages inhabituels...",
+    "recruit": {
+      "greet": "Je ne me souviens pas de vous.",
+      "talk": [
+        "Quelqu'un ici me reconnaît-il ?",
+        "Ce dont je suis certain, c'est d'avoir fait un grand nombre de victimes. Mais dans quel but ? Dans quelles circonstances ?",
+        "Quelqu'un m'a regardé avec insistance aujourd'hui. Se pourrait-il... qu'on m'ait reconnu ?"
+      ],
+      "gift": "Merci. Voilà ce que je devrais certainement dire."
+    },
+    "affinity": {
+      "greet": "Hum...",
+      "talk": [
+        "Mon nom... Celui par lequel ils m'appellent... C'est pour ça que je me battrai pour eux.",
+        "Je m'appelle Chase... Chase... À présent, je m'appelle Chase..."
+      ],
+      "gift": "Est-ce que je peux... prendre ça ? C'est vrai ?"
+    },
+    "relationship": {
+      "greet": "Je ne la vois pas. Si je ne la retrouve pas rapidement, Demia va me passer un savon.",
+      "talk": [
+        "Je l'ai ressentie dans ma chair. Leur puissance... Ils ont certainement voulu me mater sans me tuer.",
+        "Bien que j'aie essayé de la tuer, elle m'a accueilli avec tant de bonté... Elle m'a donné un nom... et s'est battue pour moi...",
+        "Demia me fait peur... Clause est sympathique, mais peut faire peur aussi. Quant à elle, elle est toujours gentille."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Monolithe lancier de sang",
+    "description": [
+      "Augmente vos DEG Crit de 20 %. Lors d'une attaque auto, vous infligez des DEG P à hauteur de 30 % de l'ATQ avec [Flamme monolithique] et récupérez des PV à hauteur de 20 % des DEG infligés. Lorsque [Dépassement de limite] est activé, l'effet de [Flamme monolithique] est doublé.",
+      "Augmente vos DEG Crit de 24 %. Lors d'une attaque auto, vous infligez des DEG P à hauteur de 36 % de l'ATQ avec [Flamme monolithique] et récupérez des PV à hauteur de 20 % des DEG infligés. Lorsque [Dépassement de limite] est activé, l'effet de [Flamme monolithique] est doublé.",
+      "Augmente vos DEG Crit de 28 %. Lors d'une attaque auto, vous infligez des DEG P à hauteur de 43 % de l'ATQ avec [Flamme monolithique] et récupérez des PV à hauteur de 20 % des DEG infligés. Lorsque [Dépassement de limite] est activé, l'effet de [Flamme monolithique] est doublé.",
+      "Augmente vos DEG Crit de 34 %. Lors d'une attaque auto, vous infligez des DEG P à hauteur de 52 % de l'ATQ avec [Flamme monolithique] et récupérez des PV à hauteur de 20 % des DEG infligés. Lorsque [Dépassement de limite] est activé, l'effet de [Flamme monolithique] est doublé.",
+      "Augmente vos DEG Crit de 42 %. Lors d'une attaque auto, vous infligez des DEG P à hauteur de 62 % de l'ATQ avec [Flamme monolithique] et récupérez des PV à hauteur de 20 % des DEG infligés. Lorsque [Dépassement de limite] est activé, l'effet de [Flamme monolithique] est doublé.",
+      "Augmente vos DEG Crit de 50 %. Lors d'une attaque auto, vous infligez des DEG P à hauteur de 75 % de l'ATQ avec [Flamme monolithique] et récupérez des PV à hauteur de 20 % des DEG infligés. Lorsque [Dépassement de limite] est activé, l'effet de [Flamme monolithique] est doublé."
+    ],
+    "story": "Arme pour l'humain amélioré de type 0 créé dans les laboratoires de l'empire au terme de milliers de tentatives. Dès son réveil, l'humain amélioré de type 0 détruisit tout sur son passage dans le but de découvrir une arme à la hauteur de sa puissance. En fin de compte, il arracha la corne du monstre Cannibale, connu pour avoir avalé l'orgueil parmi les péchés capitaux. Cette corne passa entre les mains des meilleurs forgerons de l'empire et devint le Monolithe lancier de sang. Les flammes du péché brûlent dans cette arme, et ce qu'elle transperce perd immédiatement tout espoir de guérison. Manier cette arme lui procure suffisamment de satisfaction pour dissiper les regrets qu'il a d'avoir perdu la mémoire."
+  },
+  "s1": {
+    "name": "Je vais te pulvériser !",
+    "description": "Empêche la cible de bénéficier d'améliorations pendant 4 secondes et l'attaque, lui infligeant {0} points de DEG P et la repoussant. Inflige {1} points de DEG P aux ennemis situés autour de la cible après 1 seconde et les étourdit pendant {2} secondes.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Réduit le coût en mana de 1 point.",
+    "dark": "La cible touchée subit 25 % de DEG P supplémentaires pendant 10 secondes."
+  },
+  "s2": {
+    "name": "Dépassement de limite",
+    "description": "Active [Dépassement de limite]. À l'activation, consomme {0}% des PV actuels pour dissiper tous les effets négatifs qui pèsent sur le héros et inflige {1} points de DEG P aux ennemis alentour à portée. Après activation de [Dépassement de limite], consomme {2}% des PV actuels chaque seconde, confère une immunité aux contrôles et augmente les DEG Crit de {3}% ainsi que la Vit ATQ de {4}. La consommation de PV et l'augmentation des DEG Crit et de la Vit ATQ s'amplifient avec le temps. Cet effet ne peut pas être annulé et se dissipe automatiquement lorsque vos PV descendent en dessous de 25%.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Les ennemis touchés subissent Étourdissement pendant 2 sec.",
+    "dark": "La consommation de PV par sec est augmentée de 100% et la Vit ATQ, les DEG Crit et le Booster de DEG sont doublés.",
+    "ut": {
+      "name": "Mouchoir de la loyauté",
+      "description": [
+        "[Dépassement de limite] Pendant la durée de la compétence, inflige des DEG P de 40 % de l'ATQ toutes les secondes aux ennemis proches et augmente la Récupération de 30 %.",
+        "[Dépassement de limite] Pendant la durée de la compétence, inflige des DEG P de 48 % de l'ATQ toutes les secondes aux ennemis proches et augmente la Récupération de 30 %.",
+        "[Dépassement de limite] Pendant la durée de la compétence, inflige des DEG P de 58 % de l'ATQ toutes les secondes aux ennemis proches et augmente la Récupération de 30 %.",
+        "[Dépassement de limite] Pendant la durée de la compétence, inflige des DEG P de 70 % de l'ATQ toutes les secondes aux ennemis proches et augmente la Récupération de 30 %.",
+        "[Dépassement de limite] Pendant la durée de la compétence, inflige des DEG P de 84 % de l'ATQ toutes les secondes aux ennemis proches et augmente la Récupération de 30 %.",
+        "[Dépassement de limite] Pendant la durée de la compétence, inflige des DEG P de 100 % de l'ATQ toutes les secondes aux ennemis proches et augmente la Récupération de 30 %."
+      ],
+      "story": "Cadeau que Scarlet offrit à Chase pour le consoler de ne pas avoir de nom. « Chase » est brodé dans un coin de ce mouchoir. Il dénote un peu avec son style, mais Chase le porte tout le temps. Il a perdu la mémoire et n'a pu découvrir son identité qu'à l'aide du code inscrit sur sa taille. Il n'a pu trouver de raison de vivre qu'après qu'on lui ait donné un nom. Il décida de mettre sa surpuissance au profit de ceux qui l'aident à se sentir vivant."
+    }
+  },
+  "s3": {
+    "name": "Brûle, lance de fureur !",
+    "description": "Charge un ennemi, lui inflige {0}  points de DEG P et le renverse, puis explose le sol autour du héros en assénant 4 attaques qui infligent un total de {1}  points de DEG P ainsi qu'Étourdissement pendant {2}  secondes. Restaure les PV à hauteur de {3}  % des DEG.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Confère une immunité contre les contrôles.",
+    "dark": "Augmente la durée d'Étourdissement de 1 seconde.",
+    "ut": {
+      "name": "Épaulière implacable",
+      "description": [
+        "[Brûle, lance de fureur] Réduit le coût en mana de 1 point et augmente les DEG de 20 %.",
+        "[Brûle, lance de fureur] Réduit le coût en mana de 1 point et augmente les DEG de 24 %.",
+        "[Brûle, lance de fureur] Réduit le coût en mana de 1 point et augmente les DEG de 29 %.",
+        "[Brûle, lance de fureur] Réduit le coût en mana de 1 point et augmente les DEG de 35 %.",
+        "[Brûle, lance de fureur] Réduit le coût en mana de 1 point et augmente les DEG de 42 %.",
+        "[Brûle, lance de fureur] Réduit le coût en mana de 1 point et augmente les DEG de 50 %."
+      ],
+      "story": "Épaulière portée par Chase et fabriquée dans des minerais spéciaux difficiles à trouver sur le continent Orbis. Elle a beau être légère, elle est résistante et même incassable. Demia réussit à se procurer cette épaulière pour l'offrir à Chase, étant donné que Scarlet s'était prise d'affection pour lui. Bien qu'elle ne le montrât pas, la naïveté de Chase étonnait profondément Demia, car elle contrastait avec sa fascination pour le combat. Elle l'observa pendant quelques jours, puis lui remit cette épaulière en lui tapant sur l'épaule avec désinvolture. Elle lui dit qu'il était certes important de se battre, mais plus encore de protéger son corps."
+    }
+  },
+  "s4": {
+    "name": "N'oublie pas ça en enfer",
+    "description": "Vol de vie est sans effet. À la place, les PV max augmentent de {0}  points, les chances de coup critique de {1} , la précision des contrôles de {2} et la précision de {3}. En cas de dégâts mortels, vous ressuscitez pendant {4}  secondes, vos DEG Crit augmentent de {5}  % et votre Vit ATQ de {6}. Cette résurrection n'est possible qu'une seule fois par combat et une fois ressuscité, Chase ne peut pas utiliser de compétences.",
+    "books": {
+      "0": "Augmentation du boost de PV de {0}%.",
+      "1": "Augmentation du boost de PV de {0}%.",
+      "2": "Augmentation du boost de PV de {0}%."
+    },
+    "light": "À l'activation de résurrection, l'ATQ augmente de 50 %.",
+    "dark": "À l'activation de résurrection, les ennemis alentour à portée sont renversés pendant 3 secondes."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / DEG Crit +20%",
+    "dark": "Pour chaque 1% de PV perdu, les DEG Crit augmentent de 1% et la Vit ATQ augmente de 4."
+  }
+}

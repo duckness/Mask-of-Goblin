@@ -1,0 +1,120 @@
+{
+  "name": "Viska",
+  "subtitle": "Devorador de Demonios",
+  "description": "Una demonia asesina, con el objetivo de devorar a otros demonios para elevar su propio poder. Viajó a través de la grieta entre las dimensiones para cazar a los demonios de gran alcance que residen actualmente en el mundo material. Sus espinas existen para cortar y desgarrar a los enemigos.",
+  "story": "Una inconformista entre los demonios quien busca incrementar su propio poder devorando a otros demonios poderosos. Encarna el peor significado posible de la palabra demonio. Cruzó la grieta dimensional para buscar y devorar los demonios que viajaron al reino terrenal. Colocó un límite en su propio poder y tomó la forma de una niña enfermiza para humillar aún más a sus víctimas. Ella detesta a los debiluchos que se hacen a los fuertes. Por otro lado, respeta a quienes reconocen sus propias debilidades y arriesgan sus vidas en búsqueda de fuerza.",
+  "like": "Pelear contra poderosos demonios y devorarlos después",
+  "dislike": "Débiles",
+  "inn": {
+    "idle": "Eh no hay Demonios? Tengo hambre...",
+    "recruit": {
+      "greet": "Hola ~ ¿Algún refrigerio? ¿Algún Demonio?",
+      "talk": [
+        "Si no encuentro algo para comer pronto, ella comenzará a enojarse... ¿eh? Ah, no es nada. Jajaja... Phew.",
+        "Sintiéndome un poco hambriento... ¿Sabes de algún demonio cerca que parezca fuerte?",
+        "¿Esta? Es la marca de un Contrato Demoníaco. Bueno, no sé los detalles."
+      ],
+      "gift": "¿Qué es esto? ¿Puedo comerlo?"
+    },
+    "affinity": {
+      "greet": "Oh, me parece que algo huele delicioso.",
+      "talk": [
+        "Tengo hambre... ¿Tienes algo bueno de comer? ¿Nada? ¿En serio?",
+        "¡Las almas de los demonios son mis preferidas, pero la comida normal también me gusta!"
+      ],
+      "gift": "¡Algo rico! ¡Algo rico!"
+    },
+    "relationship": {
+      "greet": "Hola. Todavía tengo hambre, ya sabes...",
+      "talk": [
+        "Yo? Bueno, solo soy una chica normal de la aldea... que es poseída por un Demonio. Nada más y nada menos.",
+        "Mi forma durante las batallas? Ah, esa es Viska, el Demonio dentro mío. Normalmente, ella me deja controlar mi cuerpo, pero cuando luchamos...",
+        "No siento nada al comer demonios. De hecho, más bien se lo merecen... y bueno, ahora los dos somos uno..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Colmillo de Pesadilla, Kitrax",
+    "description": [
+      "los Enemigos a los que les robaron las Almas reciben 25% mas de Daño Magico. Dura por 10 seg.",
+      "los Enemigos a los que les robaron las Almas reciben 30% mas de Daño Magico. Dura por 10 seg.",
+      "los Enemigos a los que les robaron las Almas reciben 36% mas de Daño Magico. Dura por 10 seg.",
+      "los Enemigos a los que les robaron las Almas reciben 43% mas de Daño Magico. Dura por 10 seg.",
+      "los Enemigos a los que les robaron las Almas reciben 51% mas de Daño Magico. Dura por 10 seg.",
+      "los Enemigos a los que les robaron las Almas reciben 60% mas de Daño Magico. Dura por 10 seg."
+    ],
+    "story": "Pesadilla Kitrax era conocida como la mejor y la más aterradora de los súcubo. Después de devorar entero a Kitrax, alma y todo, Viska apareció con su arma más poderosa hasta entonces. Esta espina es la manifestación física del miedo y desespero. La muerte es el único destino de sus víctimas desafortunadas. Constantemente inyectan miedo en el alma de su víctima y reducen incluso al enemigo más formidable en una simple presa."
+  },
+  "s1": {
+    "name": "Hora de Comer!!",
+    "description": "Causa  {0}  Daño Magico a los enemigos al alcance y reduce su ATQ en  {1}% durante 10 seg mientras aumentas tu propio ATQ en  {2}. Cuando poseas 3 pilas de Almas, encadena al enemigo durante 3 seg.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "El poder de ATQ aumenta en  {0}%."
+    },
+    "light": "A cambio de 1 Maná adicional, el tiempo de reutilización se reduce en 4 seg.",
+    "dark": "El estado del Alma del efecto para Encadenar es eliminado"
+  },
+  "s2": {
+    "name": "Te cortare !!",
+    "description": "Muevete detrás del enemigo, para disipar los efectos positivos y causar  {0}  Daño Magico para luego derribarlos. Cuando poseas 3 pilas de Almas, se reduce la DEF Magica del enemigo en  {1}%.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "el Enemigo recibe {0}% mas Daño Magico durante el proceso"
+    },
+    "light": "El costo de maná se reduce en 1.",
+    "dark": "El estado del Alma de la DEF Mágica es eliminado",
+    "ut": {
+      "name": "Garra de bestia furiosa",
+      "description": [
+        "[¡Te cortaré en pedacitos!] Reduce el Tiempo de reutilización en un 30 % y agrega un 8 % de reducción de Defensa mágica.",
+        "[¡Te cortaré en pedacitos!] Reduce el Tiempo de reutilización en un 30 % y agrega un 10 % de reducción de Defensa mágica.",
+        "[¡Te cortaré en pedacitos!] Reduce el Tiempo de reutilización en un 30 % y agrega un 12 % de reducción de Defensa mágica.",
+        "[¡Te cortaré en pedacitos!] Reduce el Tiempo de reutilización en un 30 % y agrega un 14 % de reducción de Defensa mágica.",
+        "[¡Te cortaré en pedacitos!] Reduce el Tiempo de reutilización en un 30 % y agrega un 17 % de reducción de Defensa mágica.",
+        "[¡Te cortaré en pedacitos!] Reduce el Tiempo de reutilización en un 30 % y agrega un 20 % de reducción de Defensa mágica."
+      ],
+      "story": "Garra de la bestia mágica y violenta, Urgol. Quien se dice que arranca las almas a mordiscos. El día que Viska decidió cazar en el Mundo material, ella devoró a Urgol del Mundo de demonios. En combinación con la capacidad que Viska tiene para absorber el poder de otros, mostró tener gran poder y es esencial para devorar demonios que traspasan al Mundo material."
+    }
+  },
+  "s3": {
+    "name": "Te hare pedazos!!",
+    "description": "Causa {0} de daño mágico a los enemigos en un amplio entorno cercano y aturde durante 3 seg. Si se utiliza cuando se tienen 5 pilas de almas, las consume para restablecer el tiempo de reutilización de esta habilidad.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Los Enemigos cercanos se acomodan a la derecha antes del ataque."
+    },
+    "light": "Cuando posees 5 almas, tu alma no sera consumida",
+    "dark": "El costo de maná se reduce en 1.",
+    "ut": {
+      "name": "Alma del demonio gigante",
+      "description": [
+        "[Te haré pedazos!] Obtiene inmunidad al Ctrl de Masas al activarse la habilidad y en cada uso, el Daño aumenta en un 4%. Este efecto se acumula un máximo de 10 veces.",
+        "[Te haré pedazos!] Obtiene inmunidad al Ctrl de Masas al activarse la habilidad y en cada uso, el Daño aumenta en un 4.8%. Este efecto se acumula un máximo de 10 veces.",
+        "[Te haré pedazos!] Obtiene inmunidad al Ctrl de Masas al activarse la habilidad y en cada uso, el Daño aumenta en un 5.8%. Este efecto se acumula un máximo de 10 veces.",
+        "[Te haré pedazos!] Obtiene inmunidad al Ctrl de Masas al activarse la habilidad y en cada uso, el Daño aumenta en un 7%. Este efecto se acumula un máximo de 10 veces.",
+        "[Te haré pedazos!] Obtiene inmunidad al Ctrl de Masas al activarse la habilidad y en cada uso, el Daño aumenta en un 8.4%. Este efecto se acumula un máximo de 10 veces.",
+        "[Te haré pedazos!] Obtiene inmunidad al Ctrl de Masas al activarse la habilidad y en cada uso, el Daño aumenta en un 10%. Este efecto se acumula un máximo de 10 veces."
+      ],
+      "story": "Forma cristalizada del alma del gran demonio Curapis, quien tiene el poder de aumentar de tamaño. Fue uno de los primeros demonios que Viska cazó en el Mundo de los Demonios, y se dice que usaba su corpulencia para dominar a sus enemigos. Pero la batalla no solo se trata de usar la fuerza, sino también de aplicar la inteligencia. Este demonio gigante fue derrotado y posteriormente engullido por una depredadora que supo actuar con astucia. El poder de aumentar de tamaño pasó a Viska, quien ahora puede usarlo a su antojo."
+    }
+  },
+  "s4": {
+    "name": "Almas Deliciosas!",
+    "description": "Los enemigos que son atacados con las habilidades de Viska pierden sus almas. Al perderla, reciben {0} de daño mágico adicional, y por cada alma acumulada, la salud de Viska se cura en {1} y el mana se cura en 300. Las almas duran hasta que son utilizadas, no se pueden disipar y se pueden acumular hasta 5 veces como máximo.",
+    "books": {
+      "0": "el Daño y la Recuperacion aumentan en {0}%.",
+      "1": "el Daño y la Recuperacion aumentan en {0}%.",
+      "2": "los Enemigos a los que les robaron las Almas, pierden {0} mana."
+    },
+    "light": "La resistencia al control de masas de los enemigos cuyas almas fueron robadas se reduce en 250 durante 10 seg.",
+    "dark": "Por cada Alma acumulada, el ATQ aumenta en un 10%"
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Oportunidad Crit +100",
+    "dark": "Por cada alma acumulada, la oportunidad crit. se incrementa en 50 y el daño crit. aumenta en un 30%."
+  }
+}

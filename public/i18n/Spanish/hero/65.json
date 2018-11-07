@@ -1,0 +1,120 @@
+{
+  "name": "Mirianne",
+  "subtitle": "Sirviente de Azul",
+  "description": "La asistente y doncella del archimago Azul, Sonia. Ella actúa sólo por el bien de Sonia, quien es su patrona, hermana y amiga. Utilizando sus ojos penetrantes y su mente, manipula la debilidad del enemigo con sus dagas.",
+  "story": "Ella es la doncella de Sonia y amiga casi hermana desde el orfanato. Cuando su pueblo de humanos y elfos fue atacado por los demonios, ella fue la única sobreviviente. Ricardo la encontró y la llevó al orfanato. Por algún motivo desconocido, ella sufrió un crecimiento explosivo cuando tenía seis años. Su cuerpo se parece al de una chica de 18 años, pero aún tiene la mentalidad de una niña. Ella es extremadamente pura y devocional. Tal vez estas cualidades se relacionan a la pérdida de sus recuerdos de niña.",
+  "like": "Sonia y todos en el orfanato",
+  "dislike": "Insectos con muchas patas",
+  "inn": {
+    "idle": "Sonia ~ Umm, parece que se fue nuevamente",
+    "recruit": {
+      "greet": "Ah, hola! Es bueno verte bien!",
+      "talk": [
+        "Hehe, está todo bien con Kasel y Frey?",
+        "Quiero visitar a mi abuelo. Ha pasado un tiempo.",
+        "Ah, no soy una verdadera doncella. Solo me gusta la ropa, jejeje."
+      ],
+      "gift": "Ah gracias! Realmente no hacia falta..."
+    },
+    "affinity": {
+      "greet": "¡He vuelto! ¡Encantada de conocerte!",
+      "talk": [
+        "Traje atuendos muy bonitos. ¡Elige algo que me quede bien!",
+        "Je, je. ¿Puedo ir a jugar con Sonia?"
+      ],
+      "gift": "¡Gracias! Vayamos a visitar al abuelo la próxima vez."
+    },
+    "relationship": {
+      "greet": "Ah, viniste! Jeje, vas a descansar un rato?",
+      "talk": [
+        "Esta bulliciosa atmósfera me recuerda a mis tiempos en el orfanato ~",
+        "Tienes hambre? Quieres un bocadillo?",
+        "Me encantan estas prendas, son tan bonitas y revoltosas ~"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Riventina, Aceleración Sin Fin",
+    "description": [
+      "Aumenta la veloc. de ATQ en 200 y ataca a enemigos bloqueados y provoca un daño de ATQ del 200% como daño mágico adicional. El efecto del daño adicional se produce una vez cada 2 seg.",
+      "Aumenta la veloc. de ATQ en 240 y ataca a enemigos bloqueados y provoca un daño de ATQ del 240% como daño mágico adicional. El efecto del daño adicional se produce una vez cada 2 seg.",
+      "Aumenta la veloc. de ATQ en 290 y ataca a enemigos bloqueados y provoca un daño de ATQ del 290% como daño mágico adicional. El efecto del daño adicional se produce una vez cada 2 seg.",
+      "Aumenta la veloc. de ATQ en 350 y ataca a enemigos bloqueados y provoca un daño de ATQ del 350% como daño mágico adicional. El efecto del daño adicional se produce una vez cada 2 seg.",
+      "Aumenta la veloc. de ATQ en 420 y ataca a enemigos bloqueados y provoca un daño de ATQ del 420% como daño mágico adicional. El efecto del daño adicional se produce una vez cada 2 seg.",
+      "Aumenta la veloc. de ATQ en 500 y ataca a enemigos bloqueados y provoca un daño de ATQ del 500% como daño mágico adicional. El efecto del daño adicional se produce una vez cada 2 seg."
+    ],
+    "story": "Un equipo mágico creado por Sonia, la archimaga de Azul. Está encantada con magia que permite alcanzar velocidades increíbles. También está encantada con un hechizo especial que siempre lo guía de vuelta a su dueño después que es lanzado. Es el mejor regalo que Sonia podría darle a Mirianne, a quien considera familia y amiga. En otras palabras, es una expresión única de amor reservada solo para Mirianne."
+  },
+  "s1": {
+    "name": "Objetivo Bloqueado",
+    "description": "Ataca 3 veces al enemigo con la DEF Mágica más baja causando un total de {0} de Daño Mágico y lo aturde durante 1 segundo, y si el objetivo está bajo el efecto de 'Objetivo Bloqueado', recibe {1} Daño Mágico adicional. El último ataque inflige el efecto de 'Objetivo Bloqueado' al enemigo durante 10 seg. El 'Objetivo Bloqueado' no se puede disipar y la tasa de Bloqueo Mágico del objetivo disminuye en 300.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Cuando hay un enemigo, el Daño se incrementa en un 100%.",
+    "dark": "La duración del aturdimiento se incrementa en 1 segundos."
+  },
+  "s2": {
+    "name": "Restringir y Proteger",
+    "description": "Causa {0} Daño Mágico al enemigo que tiene como objetivo y a otros enemigos al alcance, y los aturde durante 2 segundos. Luego se une a un aliado con la DEF Fis más baja y crea un Escudo para los dos que puede bloquear {1} el Daño durante 10 segundos. El Escudo será ineficaz cuando no haya un aliado. Obtiene inmunidad al Ctrl de Masas mientras el Escudo esté activo.",
+    "books": {
+      "0": "El Daño y el Escudo aumentan en {0}%.",
+      "1": "El Daño y el Escudo aumentan en {0}%.",
+      "2": "El Daño y el Escudo aumentan en {0}%."
+    },
+    "light": "Obten inmunidad al Ctrl de Masas mientras usas dicha habilidad.",
+    "dark": "La duración del aturdimiento se incrementa en 2 segundos.",
+    "ut": {
+      "name": "Anillo de géminis de teletransporte instantáneo",
+      "description": [
+        "[Restringir y proteger] Reduce el Costo de Mana en 1 y recupera 160 de Mana con cada Golpe crítico.",
+        "[Restringir y proteger] Reduce el Costo de Mana en 1 y recupera 190 de Mana con cada Golpe crítico.",
+        "[Restringir y proteger] Reduce el Costo de Mana en 1 y recupera 230 de Mana con cada Golpe crítico.",
+        "[Restringir y proteger] Reduce el Costo de Mana en 1 y recupera 270 de Mana con cada Golpe crítico.",
+        "[Restringir y proteger] Reduce el Costo de Mana en 1 y recupera 330 de Mana con cada Golpe crítico.",
+        "[Restringir y proteger] Reduce el Costo de Mana en 1 y recupera 400 de Mana con cada Golpe crítico."
+      ],
+      "story": "Anillo que Mirianne compró en la “Muy asombrosa tienda de juguetes mágicos” en Orvel. Ella gravó su nombre y el de Sonia en el anillo. Ambos forman un conjunto, y le permite a cada una a transportarse al lugar donde está la otra una vez al día. Aunque, Sonia no lo utiliza ya que es problemático... Puede ser un juguete, pero Mirianne está contenta que hay una forma más de proteger a Sonia."
+    }
+  },
+  "s3": {
+    "name": "Asesinato",
+    "description": "Ataca a un enemigo con la Salud más baja, causando {0} Daño Mágico, luego regresa al aliado más lejano. Si el enemigo no es un héroe, causa {1} Daño Mágico adicional que ignora la DEF. Al derrotar a un objetivo con esta habilidad se activa instantáneamente 'Restringir y Proteger'.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Disipa los efectos positivos del objetivo y lo Aturde durante 1 segundo.",
+    "dark": "el Daño se incrementa en un 40%.",
+    "ut": {
+      "name": "Polvo mágico de relámpago",
+      "description": [
+        "[Asesinato] El Daño aumenta en un 50% y luego del Golpe Crít. aumenta el ATQ propio en un 10% durante 10 segundos.",
+        "[Asesinato] El Daño aumenta en un 50% y luego del Golpe Crít. aumenta el ATQ propio en un 12% durante 10 segundos.",
+        "[Asesinato] El Daño aumenta en un 50% y luego del Golpe Crít. aumenta el ATQ propio en un 14% durante 10 segundos.",
+        "[Asesinato] El Daño aumenta en un 50% y luego del Golpe Crít. aumenta el ATQ propio en un 17% durante 10 segundos.",
+        "[Asesinato] El Daño aumenta en un 50% y luego del Golpe Crít. aumenta el ATQ propio en un 21% durante 10 segundos.",
+        "[Asesinato] El Daño aumenta en un 50% y luego del Golpe Crít. aumenta el ATQ propio en un 25% durante 10 segundos."
+      ],
+      "story": "Una colección de materia preciosa que se esparce sobre la bola de cristal de Sonia como si fueran estrellas. Mirianne la recolectó para hacer una broma, pero tiene tanto poder que suele usarse como una herramienta asesina."
+    }
+  },
+  "s4": {
+    "name": "Objetivo Eliminado",
+    "description": "Si el enemigo está bajo “objetivo bloqueado”, el ATQ aumenta en {0} y todos los ataques por habilidad le dan prioridad a los enemigos bloqueados. Cuando los enemigos bloqueados mueren, el “objetivo bloqueado” inflige daño a otro enemigo durante 10 seg.",
+    "books": {
+      "0": "El ATQ aumenta en {0}%.",
+      "1": "El ATQ aumenta en {0}%.",
+      "2": "El ATQ aumenta en {0}%."
+    },
+    "light": "Cuando hay enemigos infligidos por 'Objetivo Bloqueado', la Oportunidad Crit. aumenta en 400.",
+    "dark": "Recibe un 30% de Daño reducido cuando el enemigo está bajo Objetivo Bloqueado"
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Daño Crit+20%",
+    "dark": "Al matar a un enemigo,el tiempo de reutilización de la habilidad se reduce en un 50% y recupera 1 esfera de maná."
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Neraxis",
+  "subtitle": "Arrogance d'obsidienne",
+  "description": "Descendant d'un dragon noir maître de la foudre noire, il s'est donné pour mission d'éradiquer les démons, en particulier les draconics. L'énergie de foudre noire contenue dans son pieu mécanique perce les défenses ennemies.",
+  "story": "Les dragons noirs sont réputés pour leur sale caractère et leur arrogance. Il y a 100 ans, la Guerre des démons leur a porté un sacré coup. Armarta fut gagné par la folie, Ashen Nox les a dépouillés, et les draconics commencèrent à traquer les dragons. Neraxis fut l'un des rares survivants et prépare sa revanche depuis lors.",
+  "like": "Laias",
+  "dislike": "Les démons, Cain, Lilia, et tout ce qui se trouve sur son passage.",
+  "inn": {
+    "idle": "Humpf. Mais qu'est-ce que je fiche ici ?",
+    "recruit": {
+      "greet": "Humpf, qu'est-ce qu'il me veut, l'humain ?",
+      "talk": [
+        "Vous ne valez pas la peine que je vous parle.",
+        "Qu'est-ce que vous voulez ?",
+        "Pff, ridicule."
+      ],
+      "gift": "Je ne sais pas ce que vous voulez, mais ça ne sert à rien."
+    },
+    "affinity": {
+      "greet": "Humpf, vous revoilà, l'humain.",
+      "talk": [
+        "Hein ? Vous voulez de l'aide ? Humpf, quel ennui...",
+        "Ah, exact. Les dragons noirs sont les plus forts !"
+      ],
+      "gift": "J'ai pas besoin de ça. Pourquoi gardez-vous..."
+    },
+    "relationship": {
+      "greet": "... Bon, d'accord, je suis content de vous voir ! Humpf...",
+      "talk": [
+        "Lilia ? Ah, la gamine agaçante ? Tss, elle ne fait que me gêner.",
+        "Mais pourquoi elle ne fiche pas le camp, cette momie ? Il y a des jours où j'ai vraiment envie de le tuer.",
+        "Pourquoi j'apprécie Laias ? Humpf, mais euh, ce sont des choses qui arrivent sans raison... Mais attendez ! Comment l'avez-vous su ?"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Acravita, dragon rugissant",
+    "description": [
+      "Après avoir asséné 20 attaques normales, inflige des DEG M à hauteur de 100 % de l'ATQ à 2 ennemis choisis au hasard, les étourdit pendant 0,5 sec et évolue en Tempête de Neraxis pendant 10 sec. Tempête de Neraxis augmente la DEF P de tous les alliés à hauteur de 4 % de la DEF P du lanceur, et la DEF M à hauteur de 4 %.",
+      "Après avoir asséné 19 attaques normales, inflige des DEG M à hauteur de 100 % de l'ATQ à 2 ennemis choisis au hasard, les étourdit pendant 0,5 sec et évolue en Tempête de Neraxis pendant 10 sec. Tempête de Neraxis augmente la DEF P de tous les alliés à hauteur de 4,8 % de la DEF P du lanceur, et la DEF M à hauteur de 4,8 %.",
+      "Après avoir asséné 18 attaques normales, inflige des DEG M à hauteur de 100 % de l'ATQ à 2 ennemis choisis au hasard, les étourdit pendant 0,5 sec et évolue en Tempête de Neraxis pendant 10 sec. Tempête de Neraxis augmente la DEF P de tous les alliés à hauteur de 5,7 % de la DEF P du lanceur, et la DEF M à hauteur de 5,7 %.",
+      "Après avoir asséné 17 attaques normales, inflige des DEG M à hauteur de 100 % de l'ATQ à 2 ennemis choisis au hasard, les étourdit pendant 0,5 sec et évolue en Tempête de Neraxis pendant 10 sec. Tempête de Neraxis augmente la DEF P de tous les alliés à hauteur de 6,9 % de la DEF P du lanceur, et la DEF M à hauteur de 6,9 %.",
+      "Après avoir asséné 16 attaques normales, inflige des DEG M à hauteur de 100 % de l'ATQ à 2 ennemis choisis au hasard, les étourdit pendant 0,5 sec et évolue en Tempête de Neraxis pendant 10 sec. Tempête de Neraxis augmente la DEF P de tous les alliés à hauteur de 8,3 % de la DEF P du lanceur, et la DEF M à hauteur de 8,3 %.",
+      "Après avoir asséné 15 attaques normales, inflige des DEG M à hauteur de 100 % de l'ATQ à 2 ennemis choisis au hasard, les étourdit pendant 0,5 sec et évolue en Tempête de Neraxis pendant 10 sec. Tempête de Neraxis augmente la DEF P de tous les alliés à hauteur de 10 % de la DEF P du lanceur, et la DEF M à hauteur de 10 %."
+    ],
+    "story": "Arme fabriquée à partir d'un métal d'un noir parfait appelé adamantite et forgée dans les flammes noires avec la foudre d'un dragon noir. Elle renferme la rancune et la rage des dragons noirs massacrés lors de la Guerre des démons. Neraxis avait menacé les nains pour qu'ils forgent cette arme. Il l'a ensuite maudite et y a incrusté l'âme des dragons noirs, débordante de rancune. Mis à part Neraxis, il suffit d'effleurer cette arme pour entendre les rugissements de rage des dragons vengeurs."
+  },
+  "s1": {
+    "name": "Griffe de foudre noire",
+    "description": "Attire les ennemis devant la cible et leur inflige {0}  points de DEG M. Inflige également {1}  points de DEG M autour de la cible au bout de 1 sec et étourdit les ennemis pendant {2}  sec. Réduit la Vit ATQ des ennemis touchés de {4}  points pendant {3}  sec.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Augmente la durée d'Étourdissement de {0}  sec.",
+    "dark": "Augmente les DEG M subis par l'ennemi de 25 % pendant 10 sec."
+  },
+  "s2": {
+    "name": "Rugissement d'obsidienne",
+    "description": "Augmente l'ATQ, la DEF P et la DEF M de tous les alliés de {1}  points pendant {0}  sec. Inflige {2}  points de DEG M à tous les ennemis et réduit leur ATQ de {4}  % pendant {3}  sec.",
+    "books": {
+      "0": "Augmente le boost d'ATQ et de DEF de {0}  %.",
+      "1": "Augmente le boost d'ATQ et de DEF de {0}  %.",
+      "2": "Augmente le boost d'ATQ et de DEF de {0}  %."
+    },
+    "light": "Augmente le coût en mana de 1 point et le boost d'ATQ et de DEF de {0}  %.",
+    "dark": "Réduit la Vit ATQ de l'ennemi touché de {1}  points pendant {0}  sec.",
+    "ut": {
+      "name": "Souvenirs du dieu-dragon bleu",
+      "description": [
+        "[Rugissement d'obsidienne] Augmente le boost de DEF des alliés de 20 % et dissipe les effets positifs dont bénéficient tous les ennemis.",
+        "[Rugissement d'obsidienne] Augmente le boost de DEF des alliés de 24 % et dissipe les effets positifs dont bénéficient tous les ennemis.",
+        "[Rugissement d'obsidienne] Augmente le boost de DEF des alliés de 29 % et dissipe les effets positifs dont bénéficient tous les ennemis.",
+        "[Rugissement d'obsidienne] Augmente le boost de DEF des alliés de 35 % et dissipe les effets positifs dont bénéficient tous les ennemis.",
+        "[Rugissement d'obsidienne] Augmente le boost de DEF des alliés de 42 % et dissipe les effets positifs dont bénéficient tous les ennemis.",
+        "[Rugissement d'obsidienne] Augmente le boost de DEF des alliés de 50 % et dissipe les effets positifs dont bénéficient tous les ennemis."
+      ],
+      "story": "Accessoire capillaire égaré par Laias pendant qu'elle purifiait les eaux souillées par les démons. Neraxis l'a trouvé et conservé, mais il ne sait pas encore s'il va le rendre ou non. Laias n'est pas près de retrouver son bien."
+    }
+  },
+  "s3": {
+    "name": "Souffle de la destruction",
+    "description": "Inflige sur 6 coups un total de {0}  points de DEG M aux ennemis situés dans une grande zone autour de la cible et réduit leur DEF M de {2}  % pendant {1}  sec. Chaque coup étourdit l'ennemi pendant {3}  sec.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Réduit le coût en mana de 1 point.",
+    "dark": "Bascule la réduction de DEF M à 30 %.",
+    "ut": {
+      "name": "Vortex de rage",
+      "description": [
+        "[Souffle de la destruction] Augmente la durée d'Étourdissement de 1 sec et réduit de 3 sec le temps de recharge de Souffle de la destruction.",
+        "[Souffle de la destruction] Augmente la durée d'Étourdissement de 1 sec et réduit de 4 sec le temps de recharge de Souffle de la destruction.",
+        "[Souffle de la destruction] Augmente la durée d'Étourdissement de 1 sec et réduit de 5 sec le temps de recharge de Souffle de la destruction.",
+        "[Souffle de la destruction] Augmente la durée d'Étourdissement de 1 sec et réduit de 6 sec le temps de recharge de Souffle de la destruction.",
+        "[Souffle de la destruction] Augmente la durée d'Étourdissement de 1 sec et réduit de 7 sec le temps de recharge de Souffle de la destruction.",
+        "[Souffle de la destruction] Augmente la durée d'Étourdissement de 1 sec et réduit de 8 sec le temps de recharge de Souffle de la destruction."
+      ],
+      "story": "Fabriqué à partir d'un de ses crocs, ce pieu renferme la rage ardente de Neraxis. Lorsqu'il l'utilise pour attaquer ses ennemis, l'énergie qu'il contient, mêlée à la puissance de Neraxis, déferle sur les ennemis à une vitesse vertigineuse. Il est suffisamment puissant pour pénétrer tout ce qu'il rencontre et démembrer ceux qui s'en approchent."
+    }
+  },
+  "s4": {
+    "name": "Peau de dragon noir",
+    "description": "Augmente la DEF P et la DEF M de {0}  points et réduit les DEG P et DEG M subis de {1}  %.",
+    "books": {
+      "0": "Augmente le boost de DEF de {0}  %.",
+      "1": "Augmente le boost de DEF de {0}  %.",
+      "2": "Augmente le boost de DEF de {0}  %."
+    },
+    "light": "La Vit ATQ est augmentée de 300",
+    "dark": "Lorsque les PV chutent en dessous de {0}  %, l'effet des compétences augmente de {1}  %."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Résist. Contrôles +100",
+    "dark": "Au début de chaque combat, réduit les DEG que les ennemis non-héros infligent à tous les alliés (à l'exception de Neraxis) de {1}  % pendant {0}  sec."
+  }
+}

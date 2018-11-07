@@ -1,0 +1,120 @@
+{
+  "name": "Veronica",
+  "subtitle": "Das Auge der Einsicht",
+  "description": "Sie ist das Genie aus dem Turm der Weisen und konnte die Formel für Runenmagie wiederherstellen. Momentan ist sie die Geldgeberin Orvels und die oberste Gildenleiterin aller Gilden. Mithilfe starker analytischer Skills und Runenmagie fesselt sie ihre Feinde.",
+  "story": "Ein geniale Gelehrte aus dem Turm der Weisen, die sich an alles Gesehene zu erinnern vermag. Nachdem sie ihre eigenen Theorien und Systeme der Runenmagie entwickelt hatte, wurde ihr schnell langweilig und sie begann, ein neues Gebiet zu ergründen. Bald wurde sie zur höchsten königlichen Finanzsekretärin ernannt. Unglücklicherweise weigerten sich viele Politiker, jemanden aus dem einfachen Volk als ihre Vorgesetzte zu akzeptieren. Nach unzähligen Lügen und falschen Gerüchten entschied sich Veronica, den Palast aus freien Stücken zu verlassen. Doch sie ließ sich davon nicht unterkriegen und beschritt schon bald neue Wege. Sie begab sich zur Gildenallianz von Orvel, wo man sie ausschließlich nach ihren Fähigkeiten beurteilte. Wie erwartet wurde sie aufgrund ihrer unglaublichen Wahrnehmung und ihrer analytischen Gabe zu einer unverzichtbaren Agentin zahlloser Gilden.",
+  "like": "Intelligente Leute; schnelle Ergebnisse; saubere Dokumente",
+  "dislike": "Unordentliche Zimmer; ineffizientes Arbeiten",
+  "inn": {
+    "idle": "Hmm, es ist eine Weile her, das ich mich hingesetzt und ausgeruht habe.",
+    "recruit": {
+      "greet": "",
+      "talk": [
+        "",
+        "",
+        ""
+      ],
+      "gift": ""
+    },
+    "affinity": {
+      "greet": "Ich hoffe, du wirst weiterhin gegen die bösen Monster kämpfen, die Orvel bedrohen.",
+      "talk": [
+        "Runenmagie? Hmm, ich habe einiges im Turm der Weisen gelernt. Ich kenne auch ein paar alte Runen...",
+        "Gilden zu verwalten ist nicht einfach. Es gibt einfach zu viele Gilden..."
+      ],
+      "gift": "Oh, das wäre doch nicht nötig gewesen... oooh, oooh. Dankeschön!"
+    },
+    "relationship": {
+      "greet": "Ich war eine Weile nicht mehr hier... es fühlt sich vertraut an und doch so anders.",
+      "talk": [
+        "Wie läuft es mit deiner Gilde? Ich helfe dir gern, so gut ich kann.",
+        "Ich würde gern mehr helfen, aber es ist nicht immer einfach. Ich werde daran arbeiten.",
+        "Huhu, ich frage mich, ob ich dir beim nächsten Raid helfen kann."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Unendlicher Aufzeichner, Accordio",
+    "description": [
+      "Jeglicher Schaden durch Skills verursacht einen zusätzlichen M.Schaden im Ausmaß von 50 % des ANG. Zusätzlich erhöht sich der maximale „Wissen des Hauptgeldgebers“-Stapel auf 9.",
+      "Jeglicher Schaden durch Skills verursacht einen zusätzlichen M.Schaden im Ausmaß von 60 % des ANG. Zusätzlich erhöht sich der maximale „Wissen des Hauptgeldgebers“-Stapel auf 10.",
+      "Jeglicher Schaden durch Skills verursacht einen zusätzlichen M.Schaden im Ausmaß von 70 % des ANG. Zusätzlich erhöht sich der maximale „Wissen des Hauptgeldgebers“-Stapel auf 11.",
+      "Jeglicher Schaden durch Skills verursacht einen zusätzlichen M.Schaden im Ausmaß von 85 % des ANG. Zusätzlich erhöht sich der maximale „Wissen des Hauptgeldgebers“-Stapel auf 12.",
+      "Jeglicher Schaden durch Skills verursacht einen zusätzlichen M.Schaden im Ausmaß von 100 % des ANG. Zusätzlich erhöht sich der maximale „Wissen des Hauptgeldgebers“-Stapel auf 13.",
+      "Jeglicher Schaden durch Skills verursacht einen zusätzlichen M.Schaden im Ausmaß von 125 % des ANG. Zusätzlich erhöht sich der maximale „Wissen des Hauptgeldgebers“-Stapel auf 15."
+    ],
+    "story": "Ihre Erlaubnis wird benötigt, um wichtige Gegenstände in der Gildenallianz zu verarbeiten. Ein Bürogegenstand, der vom Gründer der Gildenallianz hoch geschätzt wird. Ein Set, bestehend aus einer Schreibfeder und einem Aktenordner. Die Feder besitzt eine Manakugel, benötigt als Mana anstelle von Tinte, und man muss damit auf magischem Pergament schreiben, auf dem mit einer normalen Feder nicht geschrieben werden kann. Die vom Schreiber geschriebenen Buchstaben Können nicht ohne das Mana des Schreibers gelöscht werden. Außerdem kann unbegrenzt viel Text auf das magische Pergament geschrieben werden und es besitzt eine Funktion, nach bereits Geschriebenem zu suchen. Es macht Veronicas Arbeit so viel effektiver. Natürlich ist es nützlich für die Arbeit, aber außerhalb der Arbeit ..."
+  },
+  "s1": {
+    "name": "Das wird jetzt ein wenig wehtun!",
+    "description": "Verursacht {0} M.Schaden an feindlichen und im Umkreis befindlichen Einheiten innerhalb der Reichweite und betäubt sie für {1} Sek.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Erhöht Schaden um 100 %, wenn ein Feind zugegen ist.",
+    "dark": "Ändert Anzahl der Ziele zu 2."
+  },
+  "s2": {
+    "name": "Ich werde dir helfen!",
+    "description": "Verleiht allen Verbündeten eine Rune, durch die ihr ANG um {0} und jeder Schaden an Bossen 10 Sek. lang um 15 % erhöht wird.",
+    "books": {
+      "0": "Erhöht ANG-Erhöhungsrate um {0}%.",
+      "1": "Erhöht ANG-Erhöhungsrate um {0}%.",
+      "2": "Erhöht ANG-Erhöhungsrate um {0}%."
+    },
+    "light": "Erhöht den ANG-Boost um 40 %.",
+    "dark": "Reduziert Cooldown um 5 Sek.",
+    "ut": {
+      "name": "Stiftspitze des festen Willens",
+      "description": [
+        "[Lass mich dir helfen] Verringert die Manakosten um 1 und erhöht die Skill-Dauer um 1,6 Sek.",
+        "[Lass mich dir helfen] Verringert die Manakosten um 1 und erhöht die Skill-Dauer um 1,9 Sek.",
+        "[Lass mich dir helfen] Verringert die Manakosten um 1 und erhöht die Skill-Dauer um 2,3 Sek.",
+        "[Lass mich dir helfen] Verringert die Manakosten um 1 und erhöht die Skill-Dauer um 2,7 Sek.",
+        "[Lass mich dir helfen] Verringert die Manakosten um 1 und erhöht die Skill-Dauer um 3,3 Sek.",
+        "[Lass mich dir helfen] Verringert die Manakosten um 1 und erhöht die Skill-Dauer um 4 Sek."
+      ],
+      "story": "Stiftspitze, die Veronica immer bei sich trägt. Sie hat sie 100 Tage lang in der Quelle des Versprechens eingelegt, wie der Schmied Jin es ihr empfahl. Mit der Kraft der Magie färben sich die mit diesem Stift geschriebenen Buchstaben rot, wenn die Handlungen nicht entsprechend ausgeführt werden. Veronica sagt, es sei hilfreich beim Verwalten von Vorräten."
+    }
+  },
+  "s3": {
+    "name": "Geh mir aus den Augen!",
+    "description": "Verursacht am Ziel und an Feinden in einem großen Umgebungsbereich 2-mal {0} M.Schaden, wirft sie für 5 Sek. zu Boden. Getroffene Feinde nehmen für 10 Sek. 30% mehr M.Schaden.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Erhöht Manakosten um 1 und Schaden um 100 %.",
+    "dark": "Ziel erleidet während der Wirkungsdauer mehr M.Schaden und P.Schaden.",
+    "ut": {
+      "name": "Siegel des Gilden-Verwalters",
+      "description": [
+        "[Geh mir aus den Augen!] Erhöht Schaden um 20% und für jeden getroffenen Gegner wird der Cooldown um 10% reduziert.",
+        "[Geh mir aus den Augen!] Erhöht Schaden um 24% und für jeden getroffenen Gegner wird der Cooldown um 10% reduziert.",
+        "[Geh mir aus den Augen!] Erhöht Schaden um 29% und für jeden getroffenen Gegner wird der Cooldown um 10% reduziert.",
+        "[Geh mir aus den Augen!] Erhöht Schaden um 35% und für jeden getroffenen Gegner wird der Cooldown um 10% reduziert.",
+        "[Geh mir aus den Augen!] Erhöht Schaden um 42% und für jeden getroffenen Gegner wird der Cooldown um 10% reduziert.",
+        "[Geh mir aus den Augen!] Erhöht Schaden um 50% und für jeden getroffenen Gegner wird der Cooldown um 10% reduziert."
+      ],
+      "story": "Ein Siegel, das dem besten Gilden-Verwalter von Orvel verliehen wurde. Keine Gildenangelegenheit kann ohne dieses Siegel geregelt werden. Die pedantische Veronica stempelt kein Dokument, wenn es nicht perfekt ist. Ein Gegenstand, der Veronicas professionellen Stolz verkörpert."
+    }
+  },
+  "s4": {
+    "name": "Wissen des Hauptgeldgebers",
+    "description": "Erhöht ANG aller Verbündeten um {0}. Gewährt sofort Top Finanzwissen, sobald der Skill dreimal benutzt wird. Erhöht eigenen Krischer Schaden um 30% und alle Skilleffekte um jeweils 10% für jeden Top Finanzwissen-Zähler. Top Finanzwissen kann bis zu 5 Mal kumulieren und nicht entfernt werden.",
+    "books": {
+      "0": "Erhöht ANG-Erhöhungsrate um {0}%.",
+      "1": "Erhöht ANG-Erhöhungsrate um {0}%.",
+      "2": "Erhöht ANG-Erhöhungsrate um {0}%."
+    },
+    "light": "Füllt bei Aktivierung die MP des Beschwörers um 2 Kugeln auf.",
+    "dark": "Erhöht den ANG des Beschwörers bei Aktivierung 10 Sek. lang um 50 %."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / Krit. Chance +100",
+    "dark": "Reduziert den Cooldown aller Skills des Beschwörers alle 20 Sek. um 15 %."
+  }
+}

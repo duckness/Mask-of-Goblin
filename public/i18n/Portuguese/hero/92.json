@@ -1,0 +1,120 @@
+{
+  "name": "Veronica",
+  "subtitle": "O Olho do Discernimento",
+  "description": "Ela é o gênio da Torre dos Sábios que restabeleceu a fórmula da Runa Mágica. Atualmente, ela é a financista de Orvel e Diretora Chefe das Guildas. Suas fortes habilidades analíticas e sua Magia Rúnica podem acorrentar seus inimigos.",
+  "story": "Uma estudiosa genial da Torre dos Sábios que se lembra de tudo que vê. Após desenvolver suas próprias teorias e sistemas de Magia Rúnica, ela logo se entediou e passou para um assunto diferente. Pouco depois, ela foi nomeada secretária de finanças real com a patente mais alta. Infelizmente, muitos políticos se recusaram a aceitar uma plebeia como seu superior. Depois de muitas mentiras e rumores maldosos, Veronica por fim decidiu deixar o palácio. Porém, isso não foi uma derrota para ela, que logo partiu para conquistar um novo caminho. Ela se dirigiu à Aliança da Guilda de Orvel, onde seria julgada unicamente por suas habilidades. Como era de se esperar, suas habilidades analíticas e incrível percepção a tornaram indispensável para diversas guildas.",
+  "like": "Pessoas inteligentes, resultados rápidos, documentos honestos",
+  "dislike": "Lugares bagunçados, trabalhar sem eficiência",
+  "inn": {
+    "idle": "Hum, faz tempo que eu não simplesmente sento e relaxo.",
+    "recruit": {
+      "greet": "",
+      "talk": [
+        "",
+        "",
+        ""
+      ],
+      "gift": ""
+    },
+    "affinity": {
+      "greet": "Eu espero que você continue cuidando das feras malignas que continuam atacando Orvel.",
+      "talk": [
+        "magia rúnica? Hmm, eu aprendi um pouco na Torre dos Sábios, eu também conheço algumas Runas Antigas...",
+        "Gerenciamento de Guilda não é fácil. Existem tantas guildas..."
+      ],
+      "gift": "Ah, você não precisava... haha. Bem, eu aceito de bom grado."
+    },
+    "relationship": {
+      "greet": "Faz um bom tempo que não venho aqui... parece que está perto, mas tão longe.",
+      "talk": [
+        "Como estão as atividades da guilda? Eu farei meu melhor para ajudar.",
+        "Eu quero ajudar mais, mas não é fácil. Eu tentarei mais.",
+        "Huhu, gostaria de poder ajudar na sua próxima incursão."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Viagem Infinita, Accordio",
+    "description": [
+      "Todo o DAN de habilidades inflige um DAN M. adicional de 50% do ATQ. Além disso, o máximo de acúmulos do Conhecimento da Maior Financista aumenta para 9.",
+      "Todo o DAN de habilidades inflige um DAN M. adicional de 60% do ATQ. Além disso, o máximo de acúmulos do Conhecimento do Maior Financista aumenta para 10.",
+      "Todo o DAN de habilidades inflige um DAN M. adicional de 70% do ATQ. Além disso, o máximo de acúmulos do Conhecimento do Maior Financista aumenta para 11.",
+      "Todo o DAN de habilidades inflige um DAN M. adicional de 85% do ATQ. Além disso, o máximo de acúmulos do Conhecimento do Maior Financista aumenta para 12.",
+      "Todo o DAN de habilidades inflige um DAN M. adicional de 100% do ATQ. Além disso, o máximo de acúmulos do Conhecimento do Maior Financista aumenta para 13.",
+      "Todo o DAN de habilidades inflige um DAN M. adicional de 125% do ATQ. Além disso, o máximo de acúmulos do Conhecimento do Maior Financista aumenta para 15."
+    ],
+    "story": "Sua aprovação é necessária para processar qualquer item importante na Aliança da Guilda. Um item de escritório apreciado pelo fundador da Aliança da Guilda. Um conjunto com uma caneta de pena e uma pasta. A caneta tem uma bola de mana inserida, portanto requer mana em vez de tinta, e deve ser usada em pergaminho mágico, que não pode ser riscado com uma caneta comum. As letras feitas pelo escritor não podem ser apagadas sem o mana do escritor. Além disso, o texto pode ser escrito no pergaminho mágico sem limites, e ele tem uma opção para buscar coisas que já foram escritas antes. Isso faz com que o trabalho da Veronica seja muito mais eficiente. É claro que isso que útil quando usado no trabalho, mas fora do trabalho..."
+  },
+  "s1": {
+    "name": "Isso vai doer um pouco!",
+    "description": "Causa {0} de DAN M. no inimigo e em inimigos dentro de alcance, além de infligir Atordoamento por {1} seg.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "DAN aumenta em {0}%."
+    },
+    "light": "Aumenta o DAN em 100% quando houver 1 inimigo.",
+    "dark": "Altera a quantidade de alvos para 2."
+  },
+  "s2": {
+    "name": "Vou te ajudar!",
+    "description": "Concede uma Runa para todos os aliados que aumenta seus ATQ em {0} e qualquer DAN a chefes em 15% por 10 seg.",
+    "books": {
+      "0": "Aumenta a Taxa de Aumento de ATQ em {0}%.",
+      "1": "Aumenta a Taxa de Aumento de ATQ em {0}%.",
+      "2": "Aumenta a Taxa de Aumento de ATQ em {0}%."
+    },
+    "light": "Aumenta o Impulso de ATQ em 40%.",
+    "dark": "Reduz o tempo de recarga em 5 seg.",
+    "ut": {
+      "name": "Caneta Tinteiro da Força de Vontade",
+      "description": [
+        "[Permita-me Ajudar] Reduz o Custo de Mana em 1 e aumenta a duração da habilidade em 1,6s.",
+        "[Permita-me Ajudar] Reduz o Custo de Mana em 1 e aumenta a duração da habilidade em 1,9s.",
+        "[Permita-me Ajudar] Reduz o Custo de Mana em 1 e aumenta a duração da habilidade em 2,3s.",
+        "[Permita-me Ajudar] Reduz o Custo de Mana em 1 e aumenta a duração da habilidade em 2,7s.",
+        "[Permita-me Ajudar] Reduz o Custo de Mana em 1 e aumenta a duração da habilidade em 3,3s.",
+        "[Permita-me Ajudar] Reduz o Custo de Mana em 1 e aumenta a duração da habilidade em 4s."
+      ],
+      "story": "Caneta-tinteiro que Veronica sempre carrega consigo. Ela a havia mergulhado na Nascente da Promessa por cem dias, assim como o Ferreiro Jin havia aconselhado. Com o poder da magia, as letras escritas por esta caneta ficam vermelhas quando as ações não são realizadas de acordo. Veronica diz que ajuda muito na administração de suprimentos."
+    }
+  },
+  "s3": {
+    "name": "Dê o fora daqui!",
+    "description": "Ataca o alvo e inimigos em uma ampla área ao redor por 2 vezes para causar {0} de DAN M., derrubando-os por 5 seg. Inimigos atingidos recebem DAN M. aumentado em 30% por 10 seg.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "DAN aumenta em {0}%."
+    },
+    "light": "Aumenta o Custo de Mana em 1 e o DAN em 100%.",
+    "dark": "O alvo recebe mais DAN M. e DAN F.",
+    "ut": {
+      "name": "Selo de Administrador da Guilda",
+      "description": [
+        "[Dê o fora daqui!] Aumenta o DAN em 20% para cada inimigo atingido, reduz a recarga em 10%.",
+        "[Dê o fora daqui!] Aumenta o DAN em 24% para cada inimigo atingido, reduz a recarga em 10%.",
+        "[Dê o fora daqui!] Aumenta o DAN em 29% para cada inimigo atingido, reduz a recarga em 10%.",
+        "[Dê o fora daqui!] Aumenta o DAN em 35% para cada inimigo atingido, reduz a recarga em 10%.",
+        "[Dê o fora daqui!] Aumenta o DAN em 42% para cada inimigo atingido, reduz a recarga em 10%.",
+        "[Dê o fora daqui!] Aumenta o DAN em 50% para cada inimigo atingido, reduz a recarga em 10%."
+      ],
+      "story": "Um selo para o melhor administrador da Guilda de Orvel. Nenhuma questão da guilda pode ser processada sem este selo. A meticulosa Veronica não carimba um documento se ele não estiver perfeito. Um item que mostra o espírito profissional da Veronica."
+    }
+  },
+  "s4": {
+    "name": "Conhecimento da Maior Financista",
+    "description": "O ATQ de todos os aliados aumenta em {0} e, após usar o poder 3 vezes, ganha instantaneamente o Conhecimento do Melhor Financiador. Para cada acúmulo do Conhecimento do Melhor Financiador, o próprio DAN Crít. aumenta em 30%, e todos os efeitos de poder aumentam em 10% cada. O Conhecimento do Melhor Financiador pode ser acumulado no máximo até 5 vezes e não pode ser removido.",
+    "books": {
+      "0": "Aumenta a Taxa de Aumento de ATQ em {0}%.",
+      "1": "Aumenta a Taxa de Aumento de ATQ em {0}%.",
+      "2": "Aumenta a Taxa de Aumento de ATQ em {0}%."
+    },
+    "light": "Recupera o PM do utilizador em 2 orbes ao ser ativada.",
+    "dark": "Ao ser ativada, aumenta o ATQ do utilizador em 50% por 10 seg."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / Chance Crít. +100",
+    "dark": "Reduz o tempo de recarga de todas as habilidades do utilizador em 15% a cada 20 seg."
+  }
+}

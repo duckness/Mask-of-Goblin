@@ -1,0 +1,120 @@
+{
+  "name": "Mitra",
+  "subtitle": "Lobo Prateado de Batalha",
+  "description": "Ele também é chamado de Canção da Loucura Prateada. Um homem surpreendentemente desajeitado, sem qualquer senso de resposabilidade. Porém, assim que a batalha começa, ele se torna um Lobo Prateado intocável, transformando o campo de batalha em uma zona de carnificina.",
+  "story": "Conhecido por alguns como a Canção da Loucura Prateada, ele faz tudo com uma incrível falta de sinceridade. Não demonstra qualquer senso de responsabilidade em relação aos que o rodeiam. Quando entra em combate, porém, se transforma em um lobo prateado intocável que sai num rompante pelo campo de batalha. Nada se sabe sobre o seu passado. Uma coisa é certa: ele não vê diferença entre aliados e inimigos quando a loucura da batalha toma conta da sua mente. Ficar perto dele quando ele está nesse estado pode ser muito mais perigoso do que segurar uma bomba-relógio.",
+  "like": "Batalhas, lutas empolgantes, cheiro de pólvora",
+  "dislike": "Pretensões, hipocrisia",
+  "inn": {
+    "idle": "Haha... Eu quero tirar uma soneca.",
+    "recruit": {
+      "greet": "Voc...",
+      "talk": [
+        "Ei, alguma luta aconteceu por aí?",
+        "Blá, não quero fazer nada agora.",
+        "Às vezes, eu só quero descontrair."
+      ],
+      "gift": "Nossa! Isso é incrível!"
+    },
+    "affinity": {
+      "greet": "Hum, hoje é um ótimo dia pra atirar.",
+      "talk": [
+        "As coisas eram boas naquela época. Aquele velho pode ser rígido, mas ele com certeza cuida dos homens que comanda. Então, quando ele saiu do exército... eu saí também! Hahaha!",
+        "Ah, o que será que o velho está fazendo?"
+      ],
+      "gift": "Hahaha, obrigado."
+    },
+    "relationship": {
+      "greet": "Oh, você ainda está vivo! Hahaha!",
+      "talk": [
+        "Essas minhas armas me fazem muito bem. Elas também são meio perturbadas... como eu!",
+        "Hahaha! Você sabe, esses idiotas sussurram para mim às vezes: 'Puxa o gatilho, puxa, puxa...!!! Ou algo assim...",
+        "Quer saber? Aparentemente, existe um caçador de recompensas assustador por aí, que já foi a Marinha Imperial também, que está na sua cola. Como se sente? Hahaha..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Velkinoth, Rugido da Loucura",
+    "description": [
+      "Atacar automaticamente aumenta a Pen. DEF e a VEL. ATQ em 8. Acumula-se até 30 vezes.",
+      "Atacar automaticamente aumenta a Pen. DEF e a VEL. ATQ em 10. Acumula-se até 30 vezes.",
+      "Atacar automaticamente aumenta a Pen. DEF e a VEL. ATQ em 12. Acumula-se até 30 vezes.",
+      "Atacar automaticamente aumenta a Pen. DEF e a VEL. ATQ em 14. Acumula-se até 30 vezes.",
+      "Atacar automaticamente aumenta a Pen. DEF e a VEL. ATQ em 17. Acumula-se até 30 vezes.",
+      "Atacar automaticamente aumenta a Pen. DEF e a VEL. ATQ em 20. Acumula-se até 30 vezes."
+    ],
+    "story": "Um par de armas mágicas que absorve a sede se sangue do usuário para aumentar seu próprio poder de fogo. Cada puxar do gatilho força o usuário cada vez mais além na loucura da batalha. Dizem que, quando um artesão mestre cria uma arma, ela desenvolve uma alma. Berkinos parecem ter a alma do deus da guerra. De acordo com a história, quando seu criador puxou seus gatilhos pela primeira vez, ele repentinamente ficou pálido de medo e as jogou num rio."
+  },
+  "s1": {
+    "name": "Bang! Bang!!",
+    "description": "Ataca 2 vezes um inimigo, causando {0} de DAN.F em cada vez. Se houver acerto crítico, ocorre uma explosão e causa {1} de DAN.F adicional aos inimigos próximos.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "Aumenta o DAN em 100% quando houver 1 inimigo.",
+    "dark": "Acumula a Marca duas vezes."
+  },
+  "s2": {
+    "name": "Hora de Morrer!!",
+    "description": "Aumenta o seu próprio ATQ em {0} e PREC em {1} , durante 20 segundos. Enquanto estiver em ataque automático, há 15% de chance de usar 'Bang! Bang!!'.",
+    "books": {
+      "0": "Aumenta a Taxa de Aumento de ATQ em {0}%.",
+      "1": "Aumenta a Taxa de Aumento de ATQ em {0}%.",
+      "2": "Aumenta a Taxa de Aumento de ATQ em {0}%."
+    },
+    "light": "Recebe mais 20% de DAN de todas as fontes em troca de um adicional de 100% de aumento de ATQ.",
+    "dark": "Aumenta a chance de Bang! Bang! em 10%.",
+    "ut": {
+      "name": "Caixa de Barragem do Lobo",
+      "description": [
+        "[Hora de Morrer!] Aumenta o DAN Crít. em 20% enquanto durar a habilidade. Os PVs não podem ficar abaixo de 10% por 3s.",
+        "[Hora de Morrer!] Aumenta o DAN Crít. em 24% enquanto durar a habilidade. Os PVs não podem ficar abaixo de 10% por 3s.",
+        "[Hora de Morrer!] Aumenta o DAN Crít. em 29% enquanto durar a habilidade. Os PVs não podem ficar abaixo de 10% por 3s.",
+        "[Hora de Morrer!] Aumenta o DAN Crít. em 35% enquanto durar a habilidade. Os PVs não podem ficar abaixo de 10% por 3s.",
+        "[Hora de Morrer!] Aumenta o DAN Crít. em 42% enquanto durar a habilidade. Os PVs não podem ficar abaixo de 10% por 3s.",
+        "[Hora de Morrer!] Aumenta o DAN Crít. em 50% enquanto durar a habilidade. Os PVs não podem ficar abaixo de 10% por 3s."
+      ],
+      "story": "Caixa de barragem especial do Lobo de Aço. Os Lobos de Aço tinham a má fama de serem violentos demais e de tornarem impossível a revitalização dos seus inimigos. O Lobo Prateado mais infame usa apenas a Caixa de Barragem do Lobo, que obteve com o dono do Bar de Ouro."
+    }
+  },
+  "s3": {
+    "name": "Dança Comigo!!",
+    "description": "Dispara rajadas 12 vezes com a arma num alvo aleatório, causando no total {0} de DAN.F. Sempre que causar DAN, deixa uma Marca da Morte que não pode ser removida. Cada acúmulo de Marca da Morte aumenta em 1% do DAN do 'Tiroteio'.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "Aumenta o DAN em 40%.",
+    "dark": "Acumula mais 2 marcar por golpe.",
+    "ut": {
+      "name": "Runa dos Mercenários Lupinos",
+      "description": [
+        "[Dance Comigo] Aumenta o DAN em 20% e para cada ativação, reduz a recarga do poder em 5%. Esse efeito pode ser acumulado no máximo em 8 vezes.",
+        "[Dance Comigo] Aumenta o DAN em 24% e para cada ativação, reduz a recarga do poder em 5%. Esse efeito pode ser acumulado no máximo em 8 vezes.",
+        "[Dance Comigo] Aumenta o DAN em 29% e para cada ativação, reduz a recarga do poder em 5%. Esse efeito pode ser acumulado no máximo em 8 vezes.",
+        "[Dance Comigo] Aumenta o DAN em 35% e para cada ativação, reduz a recarga do poder em 5%. Esse efeito pode ser acumulado no máximo em 8 vezes.",
+        "[Dance Comigo] Aumenta o DAN em 42% e para cada ativação, reduz a recarga do poder em 5%. Esse efeito pode ser acumulado no máximo em 8 vezes.",
+        "[Dance Comigo] Aumenta o DAN em 50% e para cada ativação, reduz a recarga do poder em 5%. Esse efeito pode ser acumulado no máximo em 8 vezes."
+      ],
+      "story": "Runa dos maiores mercenários, os Lobos de Aço. Uma runa que simboliza os mercenários Lobos de Aço, que eram chamados de demônios do campo de batalha. Mitra era chamado de Lobo Prateado das batalhas. Mesmo depois de deixar os mercenários, ele carrega a lembrança da batalha contra o oficial da marinha do império."
+    }
+  },
+  "s4": {
+    "name": "Você é o Próximo!!",
+    "description": "Realizar ataques automáticos deixam no inimigo uma Marca da Morte que não pode ser removida. Os ataques automáticos e 'Bang! Bang!!' seguintes causam {0} de DAN.F extra. Cada acúmulo dessa marca aumenta em 2% o DAN causado por esse poder. Quantidade máxima de acúmulos: 100.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "Altera a quantidade máx. de marcas para 200.",
+    "dark": "Todas os tempos de recarga diminuem 0,3 segundo ao acertar um alvo com 100 acúmulos."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / DAN Crít. +20%",
+    "dark": "Ao realizar um Acerto Crít., aumenta o DAN Crít. em 0,5% e a VEL. ATQ em 5. Quantidade máx. de acúmulos: 100."
+  }
+}

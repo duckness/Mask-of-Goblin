@@ -1,0 +1,120 @@
+{
+  "name": "Frey",
+  "subtitle": "Nữ Linh mục của Ánh sáng",
+  "description": "Một người bạn từ nhỏ của Kasel, cô ấy cũng là một nữ Linh mục phục vụ Nữ thần. Cô ấy trị thương và bảo vệ mọi thành viên bằng sức mạnh của ánh sáng. Với phước lành của Nữ thần, cô ấy có thể tăng sức mạnh phép thuật và sức kháng cự tạm thời.",
+  "story": "Một nữ tu học việc đang phục vụ Nữ thần Lua, với nhiều hy vọng của nhà thờ rằng nàng sẽ trở thành nữ tu trong tương lai. Ngay từ những năm đầu được dạy dỗ, nàng đã khiến các thầy cả cũng phải sửng sốt với niềm tin mãnh liệt cũng như tài năng thiên bẩm của mình hướng về quyền năng của Lua. Chính bản thân nàng cũng coi giáo giới là con đường định mệnh của mình và lòng tốt của nàng cho thấy quyết tâm đó. Tuy nhiên, nàng không dung thứ cho những kẻ làm điều ác.",
+  "like": "Lua, công việc hiện tại",
+  "dislike": "Sự bất công",
+  "inn": {
+    "idle": "Hỡi thần ánh sáng Lua, xin hãy ban cho chúng con sức mạnh phi thường.",
+    "recruit": {
+      "greet": "Cầu cho lời chúc phúc của Lua sẽ luôn bên bạn.",
+      "talk": [
+        "Quan hệ giữa tôi và Kasel? Hihi, là gia đình. Tôi chắc là người bảo vệ?",
+        "Không biết ngài Iris dạo này thế nào rồi. Từ khi rời khỏi nhà linh mục, tôi hoàn toàn không thấy bóng dáng của ngài ấy...",
+        "Hihi, cậu không thấy Roi và Cleo là một đôi rất hợp nhau không?"
+      ],
+      "gift": "Ôi, cảm ơn."
+    },
+    "affinity": {
+      "greet": "Ngươi đây rồi. Ngươi không bị thương chứ?",
+      "talk": [
+        "Đôi khi trong giấc mơ, ta nhìn thấy một tia sáng chói lòa. Những người có đôi cánh trắng, sau lưng là vầng hào quang rực rỡ...",
+        "Ta thích ai ấy à? Đó...đó là bí mật giữa ta với Lua."
+      ],
+      "gift": "Cảm ơn nhé. Ta sẽ không quên sự chu đáo của ngươi."
+    },
+    "relationship": {
+      "greet": "Tôi đang thành tâm cầu cho Nữ thần Lua sẽ dõi theo và bảo vệ cậu.",
+      "talk": [
+        "An toàn của Kasel là một việc hệ trọng, vì cậu ấy là người được Lua lựa chọn.",
+        "Mọi lựa chọn đều kéo theo những lời đàm tiếu. Nếu Lua đã thấy được, tôi chỉ cần theo vậy là được.",
+        "Mối quan hệ giữa thần linh và linh mục cũng như giữa con người với nhau. Thân linh cũng có lúc hờn oán."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Rosmerta, Nhà chức trách của Chúa",
+    "description": [
+      "Khi tấn công, phục hồi 42% sức mạnh tấn công của một đồng minh có HP thấp nhất với xác suất 40%.",
+      "Khi tấn công, phục hồi 50.4% sức mạnh tấn công của một đồng minh có HP thấp nhất với xác suất 40%.",
+      "Khi tấn công, phục hồi 58.8% sức mạnh tấn công của một đồng minh có HP thấp nhất với xác suất 40%.",
+      "Khi tấn công, phục hồi 71.4% sức mạnh tấn công của một đồng minh có HP thấp nhất với xác suất 40%.",
+      "Khi tấn công, phục hồi 86.1% sức mạnh tấn công của một đồng minh có HP thấp nhất với xác suất 40%.",
+      "Khi tấn công, phục hồi 105% sức mạnh tấn công của một đồng minh có HP thấp nhất với xác suất 40%."
+    ],
+    "story": "Tương truyền các Thiên thần gần gũi với Lua hơn bất kỳ chủng tộc nào khác. Khi một thiên thần cấp cao qua đời, nhân còn lại được chuyển đến nơi ẩn náu của các thiên thần để chờ hồi sinh. Tuy nhiên, một thiên thần như vậy, Rosmerta, đã trao nhân của mình cho Nhà thờ Lua. Cây quyền trượng thần thánh này đã được tạo nên từ năng lượng thiêng liêng của nhân đó."
+  },
+  "s1": {
+    "name": "Ánh sáng huyền diệu",
+    "description": "Hồi {0} máu cho 1 đồng minh có lượng Máu thấp nhất",
+    "books": {
+      "0": "Tăng hồi máu {0}%.",
+      "1": "Tăng hồi máu {0}%.",
+      "2": "Loại bỏ hiệu ứng xấu khỏi mục tiêu."
+    },
+    "light": "Lượng tiêu thụ Mana tăng 1 và đối tượng đổi thành 2 người.",
+    "dark": "Tăng 25% lượng giảm sát thương phép phải nhận của đồng minh được hồi phục trong 10 giây.."
+  },
+  "s2": {
+    "name": "Phúc lành của ánh sáng",
+    "description": "Tạo khiên chắn hấp thụ {1} sát thương cho tất cả đồng minh trong {0} giây. Trong khi lá chắn có hiệu lực miễn nhiễm trạng thái xấu.",
+    "books": {
+      "0": "Lá chắn bảo vệ tăng {0}%",
+      "1": "Lá chắn bảo vệ tăng {0}%",
+      "2": "Tăng hồi máu cho đối tượng {0}% trong thời gian xuất kỹ năng."
+    },
+    "light": "Lượng màn chắn bảo hộ tăng 40%.",
+    "dark": "Sức tấn công của đối tượng đang nhận màn chắn bảo hộ sẽ tăng 20%.",
+    "ut": {
+      "name": "Huy chương kỳ diệu",
+      "description": [
+        "[Phúc lành của ánh sáng] Tăng 50% lượng khiên và hồi phục 100 Mana mỗi giây trong 4 giây.",
+        "[Phúc lành của ánh sáng] Tăng 50% lượng khiên và hồi phục 120 Mana mỗi giây trong 4 giây.",
+        "[Phúc lành của ánh sáng] Tăng 50% lượng khiên và hồi phục 140 Mana mỗi giây trong 4 giây.",
+        "[Phúc lành của ánh sáng] Tăng 50% lượng khiên và hồi phục 170 Mana mỗi giây trong 4 giây.",
+        "[Phúc lành của ánh sáng] Tăng 50% lượng khiên và hồi phục 210 Mana mỗi giây trong 4 giây.",
+        "[Phúc lành của ánh sáng] Tăng 50% lượng khiên và hồi phục 250 Mana mỗi giây trong 4 giây."
+      ],
+      "story": "Huy chương do thánh nữ phép màu Yvonne làm ra, chứa đựng lời thổ lộ của nữ thần. Huy chương kỳ diệu là một cổ vật thiêng liêng chứa đựng phép thuật ánh sáng. Tương truyền, thánh nữ Yvonne đã giải cứu cả thành phố bị lũ ác quỷ xâm lăng bằng phước lành ánh sáng mà chiếc huy chương này khuếch đại."
+    }
+  },
+  "s3": {
+    "name": "Sự báo thù của Thiên đường",
+    "description": "Tấn công mục tiêu và kẻ địch gần đó 6 lần, gây tổng cộng {0} sát thương phép thuật và làm mù chúng trong {1} giây.",
+    "books": {
+      "0": "Tăng {0}% sát thương.",
+      "1": "Tăng {0}% sát thương.",
+      "2": "Tăng {0}% xác suất chí mạng."
+    },
+    "light": "Lượng tiêu thụ mana tăng 1, lượng sát thương tăng 80%.",
+    "dark": "Thời gian kéo dài bị mù giảm 2 giây, nhưng đối tượng thay đổi thành đối thủ ngẫu nhiên.",
+    "ut": {
+      "name": "Lông vũ của phán xử bỏ quên",
+      "description": [
+        "Làm tăng 20% sát thương phép nhận phải ở đối tượng [Sự báo thù của Thiên đường] trong 10 giây, thời gian kéo dài mù tăng 1 giây.",
+        "Làm tăng 20% sát thương phép nhận phải ở đối tượng [Sự báo thù của Thiên đường] trong 10 giây, thời gian kéo dài mù tăng 1.5 giây.",
+        "Làm tăng 20% sát thương phép nhận phải ở đối tượng [Sự báo thù của Thiên đường] trong 10 giây, thời gian kéo dài mù tăng 2 giây.",
+        "Làm tăng 20% sát thương phép nhận phải ở đối tượng [Sự báo thù của Thiên đường] trong 10 giây, thời gian kéo dài mù tăng 2.5 giây.",
+        "Làm tăng 20% sát thương phép nhận phải ở đối tượng [Sự báo thù của Thiên đường] trong 10 giây, thời gian kéo dài mù tăng 3 giây.",
+        "Làm tăng 20% sát thương phép nhận phải ở đối tượng [Sự báo thù của Thiên đường] trong 10 giây, thời gian kéo dài mù tăng 3.5 giây."
+      ],
+      "story": "Lông vũ của Hộ vệ mặt trời. Lông vũ của một Thiên thần xưa kia từng chiến đấu với lũ Ác quỷ để bảo vệ con người. Chàng để lại chiếc lông vũ làm tín vật, hứa sẽ trở lại khi thế giới rơi vào hỗn loạn. Một cổ vật của Nhà thờ Lua, triệu hồi hào quang thần thánh để làm lóa mắt kẻ địch."
+    }
+  },
+  "s4": {
+    "name": "Vẻ duyên dáng của Nữ thần",
+    "description": "Cứ mỗi 15 giây, tăng phòng thủ phép thuật của 1 đồng minh có lượng máu thấp nhất thêm {1} trong {0} giây.",
+    "books": {
+      "0": "Tăng {0}% chỉ số tăng phòng thủ phép thuật.",
+      "1": "Tăng {0}% chỉ số tăng phòng thủ phép thuật.",
+      "2": "Hồi {0}% thể lực của đối tượng trong thời gian xuất kỹ năng."
+    },
+    "light": "Tốc độ tấn công của đối tượng tăng 250.",
+    "dark": "Đối tượng đổi thành 2 người."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / M. Block +200",
+    "dark": "Đồng minh được nhận hồi phục bởi Frey được tăng lực tấn công tương đương 5% sức tấn công của Frey trong vòng 5 giây."
+  }
+}

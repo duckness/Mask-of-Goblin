@@ -1,0 +1,120 @@
+{
+  "name": "Reina",
+  "subtitle": "Relâmpago",
+  "description": "Um mercenário que maneja uma espada leve de uma mão. Desvia ataques com movimentos ágeis e perfura o inimigo com a ponta afiada de sua espada.",
+  "story": "Reina von Stein nasceu de uma nobre família do império. Seu espírito livre e personalidade enérgica parecem alegrar até mesmo os que a rodeiam. Ela prefere uma vida de liberdade como mercenária à vida sufocante dos aristocratas. Depois de trabalhar como mercenária por um bom tempo, seu comportamento já perdeu todos os vestígios da sua criação nobre. Mesmo quando criança, ela já demonstrava um talento natural com espadas. Com o passar dos anos, ela aprofundou suas habilidades com um florete, usando um estilo mais adequado ao seu físico ágil. Recentemente, ela recusou um estranho contrato. Desde então, ela vem sentindo como se alguém a estivesse seguindo e observando.",
+  "like": "Homens atraentes",
+  "dislike": "Homens desinteressantes",
+  "inn": {
+    "idle": "Uma boa oferta de emprego! Ah, mas o empregador é um pouco...",
+    "recruit": {
+      "greet": "Uau, lindo...Ah, oi!",
+      "talk": [
+        "Precisa de um mercenário? Eu sou um dos melhores.",
+        "Uau, que fofo...oh, não é nada, hehe...",
+        "Procurando Reina, o Relâmpago Instantâneo? Hehe, sim, sou eu mesmo!"
+      ],
+      "gift": "Eh? Um presente? hehe, obrigado. Eu vou te dar um desconto no próximo trabalho."
+    },
+    "affinity": {
+      "greet": "Nossa, esse lugar é incrível.",
+      "talk": [
+        "Você tem algum cliente pra me apresentar? De preferência alguém atraente!!!",
+        "Não gosto de trabalhos entediantes! He he!"
+      ],
+      "gift": "Uau! Pra mim? Mesmo? He he, você é demais!"
+    },
+    "relationship": {
+      "greet": "Ei, bonitão! Há quanto tempo!",
+      "talk": [
+        "As pessoas de hoje em dia! Elas pensam que eu sou algum tipo de pervertida, mas é só um mal-entendido! Eu apenas gosto de apreciar os corpos masculinos!",
+        "Às vezes, penso em uma vida melhor. Você sabe, como nos momentos em que está chovendo lá fora e você precisa dormir na lama.",
+        "Mesmo trabalhando como mercenária, às vezes os trabalhos são bem saborosos. E me fazem pensar... sobre uma coisa e outra..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Livatis, Relâmpago Instantâneo",
+    "description": [
+      "Após um Acerto Crít. bem-sucedido, ganha 80 de VEL. ATQ e bônus de 20% de DAN Crít. durante 15 segundos. Pode se acumular até no máximo 5 vezes.",
+      "Após um Acerto Crít. bem-sucedido, ganha 90 de VEL. ATQ e bônus de 24% de DAN Crít. durante 15 segundos. Pode se acumular até no máximo 5 vezes.",
+      "Após um Acerto Crít. bem-sucedido, ganha 110 de VEL. ATQ e bônus de 28% de DAN Crít. durante 15 segundos. Pode se acumular até no máximo 5 vezes.",
+      "Após um Acerto Crít. bem-sucedido, ganha 130 de VEL. ATQ e bônus de 34% de DAN Crít. durante 15 segundos. Pode se acumular até no máximo 5 vezes.",
+      "Após um Acerto Crít. bem-sucedido, ganha 160 de VEL. ATQ e bônus de 41% de DAN Crít. durante 15 segundos. Pode se acumular até no máximo 5 vezes.",
+      "Após um Acerto Crít. bem-sucedido, ganha 200 de VEL. ATQ e bônus de 50% de DAN Crít. durante 15 segundos. Pode se acumular até no máximo 5 vezes."
+    ],
+    "story": "A família Stein ostenta uma longa linhagem que data do início do império. A honra da família, no entanto, origina-se das habilidades dos seus guerreiros, e não da sua ascendência nobre. Aria Stein foi uma mestra espadachim lendária. Lembrada como uma das guerreiras mais habilidosas da história do império, ela criou a base para a honra da família Stein. Reina é uma das suas descendentes e a espada de Aria, Livatas, atualmente pertence a Reina. Leve como uma pena, porém robusta o suficiente para suportar qualquer golpe, a espada ajudou Reina a ganhar o apelido de “Flash”."
+  },
+  "s1": {
+    "name": "Flutuar como uma Borboleta",
+    "description": "Apunhala rapidamente o inimigo, causando {0} de DAN.F. Ao realizar um acerto crítico, acumula Ferimentos e reinicia o tempo de recarga. Cada acúmulo de Ferimentos aumenta em 20% o DAN causado por essa habilidade. Ganha imunidade a todo o DAN enquanto usar essa habilidade.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "Aumenta o custo de mana em 1 e a altera para 10 a quantidade máxima de acúmulos de Ferimento. Causa aos inimigos com 10 Ferimentos DAN adicional igual a 100% do ATQ.",
+    "dark": "Remove o tempo de recarga."
+  },
+  "s2": {
+    "name": "Extremidade Afiada",
+    "description": "Aumenta o ATQ em {1} por {0} s e aumenta Chance Crít em {2}. Esse efeito não pode ser removido.",
+    "books": {
+      "0": "Aumenta a Taxa de Aumento de ATQ em {0}%.",
+      "1": "Aumenta a Taxa de Aumento de ATQ em {0}%.",
+      "2": "Aumenta a Chance Crít. em {0}."
+    },
+    "light": "Reduz o custo de mana em 1.",
+    "dark": "Em troca de 1 Custo de Mana adicional, altera a Chance Crít. para um reforço de 100% de DAN. Ganha reforço de 25% de DAN contra Chefes.",
+    "ut": {
+      "name": "Anel do Mestre",
+      "description": [
+        "[Extremidade Afiada] Aumenta o Impulso de ATQ em 50% e recupera um adicional de 40 PM ao realizar um acerto Crít. enquanto durar a habilidade.",
+        "[Extremidade Afiada] Aumenta o Impulso de ATQ em 50% e recupera um adicional de 48 PM ao realizar um acerto Crít. enquanto durar a habilidade.",
+        "[Extremidade Afiada] Aumenta o Impulso de ATQ em 50% e recupera um adicional de 58 PM ao realizar um acerto Crít. enquanto durar a habilidade.",
+        "[Extremidade Afiada] Aumenta o Impulso de ATQ em 50% e recupera um adicional de 70 PM ao realizar um acerto Crít. enquanto durar a habilidade.",
+        "[Extremidade Afiada] Aumenta o Impulso de ATQ em 50% e recupera um adicional de 84 PM ao realizar um acerto Crít. enquanto durar a habilidade.",
+        "[Extremidade Afiada] Aumenta o Impulso de ATQ em 50% e recupera um adicional de 100 PM ao realizar um acerto Crít. enquanto durar a habilidade."
+      ],
+      "story": "O anel que Reina recebeu após derrotar seu mestre. Por ser grande demais, ela o usa no dedão. Parece simples e deselegante, mas o espírito combatente está escondido dentro das letras rúnicas gravadas no anel. Olhar o anel do seu mestre a faz sentir que conseguirá mais trabalho naquele dia."
+    }
+  },
+  "s3": {
+    "name": "Estrela Cadente",
+    "description": "Causa {0} de DAN.F ao inimigo com um ataque contínuo. O último acerto lança o inimigo pelos ares.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "Cada acerto crít. Reforça em 10% o DAN do último ataque.",
+    "dark": "Ganha imunidade a todos os tipos de DAN ao usar este poder.",
+    "ut": {
+      "name": "Medalha da Velocidade",
+      "description": [
+        "[Estrela Cadente] Aumenta o DAN em 20% e, após um Golpe Crítico, recupera mana em 200.",
+        "[Estrela Cadente] Aumenta o DAN em 24% e, após um Golpe Crítico, recupera mana em 200.",
+        "[Estrela Cadente] Aumenta o DAN em 29% e, após um Golpe Crítico, recupera mana em 200.",
+        "[Estrela Cadente] Aumenta o DAN em 35% e, após um Golpe Crítico, recupera mana em 200.",
+        "[Estrela Cadente] Aumenta o DAN em 42% e, após um Golpe Crítico, recupera mana em 200.",
+        "[Estrela Cadente] Aumenta o DAN em 50% e, após um Golpe Crítico, recupera mana em 200."
+      ],
+      "story": "Uma medalha honrosa dada ao mercenário mais rápido. Dizem ser uma recordação de Hersz, o guerreiro mais rápido do mundo. Essa medalha fará o corpo do seu usuário parecer mais leve e permitirá prever os movimentos do adversário."
+    }
+  },
+  "s4": {
+    "name": "Criança Sortuda",
+    "description": "Após um Acerto Crít. bem-sucedido, o ATQ aumenta em {1} , durante {0} segundos. Pode se acumular até no máximo 8 vezes.",
+    "books": {
+      "0": "Aumenta a Taxa de Aumento de ATQ em {0}%.",
+      "1": "Aumenta a Taxa de Aumento de ATQ em {0}%.",
+      "2": "Aumenta a Penetração da DEF em {0} , durante o efeito do poder."
+    },
+    "light": "Para cada acúmulo, o DAN aumenta em 4% para inimigos que não sejam heróis.",
+    "dark": "Com 5 ou mais acúmulos, redução de 20% no DAN F. e no DAN M."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / DAN Crít. +20%",
+    "dark": "Enquanto estiver em ataque automático, há 10% de chance de aumentar em 100% do DAN Crít. durante 5 segundos."
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Demia",
+  "subtitle": "Fortaleza de Aço",
+  "description": "Este cavaleiro guardião carrega uma lança gigantesca e um escudo. Resiste ao ataque dos inimigos com absoluta fortitude e perturba as linhas inimigas com sua lança.",
+  "story": "Ziltrion Si Demia. A comandante dos Cavaleiros Guardiões de Orvel. Ela é uma grandiosa e digna cavaleira que brande uma lança e um escudo gigante. Dizem que penetrar seu escudo é quase impossível. Como uma comandante cavaleira, ela aprecia seus subordinados e está preparada para realizar qualquer tarefa a serviço da sua terra. Sentindo a recente mudança no clima do palácio real, ela espera designar rapidamente Clause como o próximo comandante para que possa proteger Scarlet da agressão dos nobres.",
+  "like": "Servir um monarca íntegro",
+  "dislike": "Pessoas pobres de espírito que traem os outros",
+  "inn": {
+    "idle": "Prepare-se completamente para a batalha de amanhã.",
+    "recruit": {
+      "greet": "Prazer em conhecer vocês, soldados. Meu nome é Demia Ziltrion, chefe da Guarnição Real.",
+      "talk": [
+        "A guarnição real é forte. Nars Horrun me substituiu na liderança das tropas.",
+        "Meu pai também passou anos como chefe das tropas. Ele queria que eu crescesse como uma criança normal, mas seu sangue corre em minhas veias.",
+        "Eu vou derrotar o rei malvado e trazer a paz de volta ao reino."
+      ],
+      "gift": "Eu deveria compartilhar isso com meus soldados."
+    },
+    "affinity": {
+      "greet": "Obrigada por me convidar.",
+      "talk": [
+        "Por favor, conte-me se descobrir algo sobre a Força Sombria.",
+        "Estamos prontos pra lutar a qualquer momento. Por Orvelia!"
+      ],
+      "gift": "Vou compartilhar isso com os soldados."
+    },
+    "relationship": {
+      "greet": "Ouvi dizer que você estava procurando por mim. O que quer?",
+      "talk": [
+        "Temo pela princesa. Ela ainda é jovem e gentil... deve ser difícil.",
+        "Hunf, por que aquele latão não fica por perto para proteger a princesa... que homem incômodo...",
+        "Eu? Hm, bem... sair para lutar ao seu lado não é uma má ideia. É um bom exercício."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Arfeu, a Luz Azul",
+    "description": [
+      "Aumenta a DEF F. de todos os aliados em 4%. Bloquear um ataque inimigo tem 10% de chance de recuperar 3% de Mana e reduzir a Recarga de todas as habilidades em 1 segundo.",
+      "Aumenta a DEF F. de todos os aliados em 4,8%. Bloquear um ataque inimigo tem 12% de chance de recuperar 3,3% de Mana e reduzir a Recarga de todas as habilidades em 1 segundo.",
+      "Aumenta a DEF F. de todos os aliados em 5,8%. Bloquear um ataque inimigo tem 14% de chance de recuperar 3,6% de Mana e reduzir a Recarga de todas as habilidades em 1 segundo.",
+      "Aumenta a DEF F. de todos os aliados em 7%. Bloquear um ataque inimigo tem 17% de chance de recuperar 3,9% de Mana e reduzir a Recarga de todas as habilidades em 1 segundo.",
+      "Aumenta a DEF F. de todos os aliados em 8,4%. Bloquear um ataque inimigo tem 21% de chance de recuperar 4,2% de Mana e reduzir a Recarga de todas as habilidades em 1 segundo.",
+      "Aumenta a DEF F. de todos os aliados em 10%. Bloquear um ataque inimigo tem 25% de chance de recuperar 4,5% de Mana e reduzir a Recarga de todas as habilidades em 1 segundo."
+    ],
+    "story": "Certo dia, um veio que liberava um forte mana foi descoberto no território de Ziltrion. Ao investigá-lo, Demia encontrou um minério azul que nunca tinha visto antes. Vários feiticeiros e alquimistas estudaram esse misterioso minério com características de gema e de metal, mas ninguém conseguiu descobrir sua identidade. Porém, Jin, o ferreiro, tinha uma ideia diferente. Assim que viu o minério, ele, com um grande sorriso no rosto, ofereceu a Demia o seu serviço para a fabricação de equipamentos poderosos a partir do material. Com o minério, ele forjou uma lança e um escudo mais fortes que diamante e possuidores de um brilho azul de mana."
+  },
+  "s1": {
+    "name": "Penetração",
+    "description": "Causa {0} de DAN.F ao inimigo que está mais longe e o puxa na direção do herói, causando {1} de DAN.F e atordoando os inimigos próximos.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Ampliar duração de Atordoar por {0} segundos."
+    },
+    "light": "Em troca de 1 Custo de Mana adicional, puxa dois inimigos 2.",
+    "dark": "Todos os inimigos puxados recebem mais 25% de DAN de todas as fontes durante 10 segundos."
+  },
+  "s2": {
+    "name": "Vontade de Vencer",
+    "description": "Ao bloquear DAN no período de {0} segundos, ativa uma onda de choque que causa {1} de DAN.F aos inimigos nas proximidades e diminui o ATQ deles em {2}%.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "A redução de ATQ inimiga aumenta em {0}%"
+    },
+    "light": "Reduz o custo de mana em 1.",
+    "dark": "A DEF.P do aliado é reforçada em 20%, durante 10 segundos depois de ativada.",
+    "ut": {
+      "name": "Escudo da Resolução",
+      "description": [
+        "[Vontade de Vencer] Aumenta o DAN em 50% e a Vulnerabilidade F. do alvo em 10% por 10s.",
+        "[Vontade de Vencer] Aumenta o DAN em 50% e a Vulnerabilidade F. do alvo em 12% por 10s.",
+        "[Vontade de Vencer] Aumenta o DAN em 50% e a Vulnerabilidade F. do alvo em 14% por 10s.",
+        "[Vontade de Vencer] Aumenta o DAN em 50% e a Vulnerabilidade F. do alvo em 17% por 10s.",
+        "[Vontade de Vencer] Aumenta o DAN em 50% e a Vulnerabilidade F. do alvo em 21% por 10s.",
+        "[Vontade de Vencer] Aumenta o DAN em 50% e a Vulnerabilidade F. do alvo em 25% por 10s."
+      ],
+      "story": "Um escudo de madeira usado por Demia em seus treinamentos quando criança. Foi usado mais de mil vezes e está muito gasto. Demia o usa para recuperar sua compostura quando sente que atingiu seu limite. Seu orgulho de cavaleira de Orvelia ressurge quando ela vê este velho escudo desgastado."
+    }
+  },
+  "s3": {
+    "name": "Fortaleza de Aço",
+    "description": "Ao bloquear DAN durante o lançamento, o DAN do ataque com salto aumenta em 7%. Além disso, causa {1} de DAN.F ao inimigo e inflige atordoamento. Ao lançar, salta e golpeia o inimigo, causando {2} de DAN.F e atordoando-o por {3} segundos. Ganha imunidade a CM enquanto o poder estiver em uso.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "Ao pular para o ar, avança contra o alvo com o maior ATQ.",
+    "dark": "Enquanto realiza uma conjuração, todos os aliados recebem 20% de DAN.F reduzido.",
+    "ut": {
+      "name": "Energia de Proteção",
+      "description": [
+        "[Fortaleza de Aço] Reduz o custo de mana em 1 e a duração do Atordoamento do ataque com salvo aumenta em 1 segundo.",
+        "[Fortaleza de Aço] Reduz o custo de mana em 1 e a duração do Atordoamento do ataque com salvo aumenta em 1,5 segundo.",
+        "[Fortaleza de Aço] Reduz o custo de mana em 1 e a duração do Atordoamento do ataque com salvo aumenta em 2 segundos.",
+        "[Fortaleza de Aço] Reduz o custo de mana em 1 e a duração do Atordoamento do ataque com salvo aumenta em 2,5 segundos.",
+        "[Fortaleza de Aço] Reduz o custo de mana em 1 e a duração do Atordoamento do ataque com salvo aumenta em 3 segundos.",
+        "[Fortaleza de Aço] Reduz o custo de mana em 1 e a duração do Atordoamento do ataque com salvo aumenta em 3,5 segundos."
+      ],
+      "story": "Uma pedra conhecida por proteger almas de serem absorvidas pelo mal. Brilha apenas por um curto tempo ao amanhecer, então é difícil encontrá-la. Um dia, quando Demia estava cansada da batalha, um companheiro a colocou em suas mãos. Mesmo que seja um companheiro que ela nunca mais verá... Demia sempre leva essa pedra ao campo de batalha. Ela dá o seu melhor para manter sua promessa de nunca deixar os sacrifícios dos seus companheiros serem em vão."
+    }
+  },
+  "s4": {
+    "name": "Ponta de Lança",
+    "description": "Aumenta a Defesa Física da equipe do jogador em {0} e a Taxa de Bloqueio Físico em {1}.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "Aumenta a DEF.F em 20% e a DEF.M em 50%.",
+    "dark": "Ao bloquear, recupera quantidade de PV equivalente a 40% da DEF.F."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / BLQ.F +200",
+    "dark": "No início de cada batalha, reduz o ATQ de todos os inimigos em 20% por 6 segundos. Este efeito não pode ser removido."
+  }
+}

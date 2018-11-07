@@ -1,0 +1,120 @@
+{
+  "name": "Nyx",
+  "subtitle": "O Cutelo das Dimensões,",
+  "description": "Um mago heterocromático que controla o espaço. Seus poderes rasgam o espaço para invocar barreiras infinitas de espadas.",
+  "story": "Um misterioso feiticeiro que atravessa dimensões que possui uma distinta heterocromia. O sorriso eterno em seu rosto parece vir da sabedoria de alguém que vê o universo inteiro. Ele mostra grande interesse em pessoas com habilidades especiais, e gosta de testá-las. Sua habilidade de teletransporte parece ir além do reino mortal, possibilitando que ele viaje entre dimensões. Não se sabe ao certo qual é a sua motivação, mas parece que suas intenções são sempre de ajudar os outros.",
+  "like": "Viagens interdimensionais, experimentos mágicos",
+  "dislike": "Pessoas que não escutam as outras",
+  "inn": {
+    "idle": "Hmm, você tem interesse em mim?",
+    "recruit": {
+      "greet": "Eu sinto uma aura especial vinda de você.",
+      "talk": [
+        "Você gostaria ir a algum lugar?",
+        "Não há lugar no mundo que seja inacessível para mim.",
+        "Gosto de pessoas interessantes, como você."
+      ],
+      "gift": "Para mim? Hmm, obrigado."
+    },
+    "affinity": {
+      "greet": "Nos encontramos novamente. Bom ver você.",
+      "talk": [
+        "Viajar é divertido. É uma oportunidade de largar tudo e curtir um pouco a liberdade.",
+        "Meu hobby é colecionar espadas."
+      ],
+      "gift": "Ah, que belo presente! Obrigado."
+    },
+    "relationship": {
+      "greet": "Hmm. Eu sabia que você estava chegando.",
+      "talk": [
+        "Se quiser ir para qualquer lugar, basta me dizer. Eu vou abrir um portal para você.",
+        "Eu tenho interesse em ver como você salvou esse mundo.",
+        "Quer conhecer minha magia? Haha, isso envolve alguns cálculos complicados."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Magnus Fille, Chave Dimensional",
+    "description": [
+      "Os ataques automáticos penetram alvos numa linha reta e ganham 30% de DAN adicional. Para cada acúmulo de lâmina, o DAN. aumenta em 4%.",
+      "Os ataques automáticos penetram alvos numa linha reta e ganham 36% de DAN adicional. Para cada acúmulo de lâmina, o DAN. aumenta em 4,8%.",
+      "Os ataques automáticos penetram alvos numa linha reta e ganham 43% de DAN adicional. Para cada acúmulo de lâmina, o DAN. aumenta em 5,7%.",
+      "Os ataques automáticos penetram alvos numa linha reta e ganham 52% de DAN adicional. Para cada acúmulo de lâmina, o DAN. aumenta em 6,9%.",
+      "Os ataques automáticos penetram alvos numa linha reta e ganham 62% de DAN adicional. Para cada acúmulo de lâmina, o DAN. aumenta em 8,3%.",
+      "Os ataques automáticos penetram alvos numa linha reta e ganham 75% de DAN adicional. Para cada acúmulo de lâmina, o DAN. aumenta em 10%."
+    ],
+    "story": "Existe uma linha universal que conecta diferentes dimensões. Esta espada é a chave que pode romper e reconectar essa linha. Ela é concedida ao mediador dimensional que jurou proteger o equilíbrio do universo. Ela pode ser duplicada infinitamente, mas só concederá seus poderes ao escolhido."
+  },
+  "s1": {
+    "name": "Lâmina Dimensional",
+    "description": "Causa {0} DAN.F aos alvos. Cada inimigo fornece um Acúmulo de Lâmina. A quantidade de alvos é equivalente a 1 + Acúmulos de Lâmina, e o número máximo de acúmulos é 5 (por 20 segundos).",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "Quando houver mais de 5 inimigos, o tempo de recarga de 10 seg. é restaurado e o DAN é aumentado em 200%. Tem um tempo de recarga de 20 seg.",
+    "dark": "Aumenta em 1 a quantidade máx. de acúmulos de Lâmina."
+  },
+  "s2": {
+    "name": "Cutelo Dimensional",
+    "description": "Causa {0} de DAN.F aos inimigos-alvo e remove bônus. Os inimigos atingidos recebem {2} de DAN.F durante {1} segundos e não derrubados durante 3 segundos. A quantidade de alvos é igual a 1 + acúmulos de Lâminas.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "Reduz o custo de mana em 1.",
+    "dark": "O alvo recebe mais 25% de DAN.F durante 10 segundos.",
+    "ut": {
+      "name": "Espada Cortafluxo",
+      "description": [
+        "[Cutelo Dimensional] O DAN aumenta em 50% e o próprio DAN Crít aumenta em 10% por 8 seg. para cada inimigo atingido. Esse efeito pode acumular até 5 vezes.",
+        "[Cutelo Dimensional] O DAN aumenta em 50% e o próprio DAN Crít aumenta em 12% por 8 seg. para cada inimigo atingido. Esse efeito pode acumular até 5 vezes.",
+        "[Cutelo Dimensional] O DAN aumenta em 50% e o próprio DAN Crít aumenta em 14% por 8 seg. para cada inimigo atingido. Esse efeito pode acumular até 5 vezes.",
+        "[Cutelo Dimensional] O DAN aumenta em 50% e o próprio DAN Crít aumenta em 17% por 8 seg. para cada inimigo atingido. Esse efeito pode acumular até 5 vezes.",
+        "[Cutelo Dimensional] O DAN aumenta em 50% e o próprio DAN Crít aumenta em 21% por 8 seg. para cada inimigo atingido. Esse efeito pode acumular até 5 vezes.",
+        "[Cutelo Dimensional] O DAN aumenta em 50% e o próprio DAN Crít aumenta em 25% por 8 seg. para cada inimigo atingido. Esse efeito pode acumular até 5 vezes."
+      ],
+      "story": "Uma espada lendária que transcendeu eras. Uma espada lendária feita com a luz do sol e com as almas derretidas daqueles que sofrem. É um dos itens necessários para o uso do Cutelo Dimensional, já que é muito afiado e durável o suficiente para suportar a dimensão."
+    }
+  },
+  "s3": {
+    "name": "Lâminas da Infinitude",
+    "description": "Causa {0} de DAN.F aos inimigos frontais e o ataque final causa {1} de DAN.F a um inimigo, derrubando-o durante 3 segundos. A quantidade de alvos é igual a + acúmulos de Lâminas.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "Reduz o tempo de espera em 5 segundos.",
+    "dark": "Quando há 5 ou mais acúmulos de lâmina, o DAN aumenta em 70%.",
+    "ut": {
+      "name": "Pedra Dimensional",
+      "description": [
+        "[Lâminas do Infinito] Reduz o custo de mana em 1 e aumenta o DAN em 20%.",
+        "[Lâminas do Infinito] Reduz o custo de mana em 1 e aumenta o DAN em 24%.",
+        "[Lâminas do Infinito] Reduz o custo de mana em 1 e aumenta o DAN em 29%.",
+        "[Lâminas do Infinito] Reduz o custo de mana em 1 e aumenta o DAN em 35%.",
+        "[Lâminas do Infinito] Reduz o custo de mana em 1 e aumenta o DAN em 42%.",
+        "[Lâminas do Infinito] Reduz o custo de mana em 1 e aumenta o DAN em 50%."
+      ],
+      "story": "Um item necessário para que feiticeiros atravessem dimensões. A Pedra Dimensional é uma pedra mágica adorada por aqueles que atravessam dimensões, e contém energia ilimitada. Entretanto, o poder que pode ser usado dela depende da habilidade individual de cada um. Apenas feiticeiros de alta patente podem usá-la efetivamente."
+    }
+  },
+  "s4": {
+    "name": "Lâmina Oculta",
+    "description": "A cada ataque automático, dispara uma lâmina adicional e causa {0} de DAN.F aos inimigos-alvo. A quantidade de alvos é igual a 1 + acúmulos de Lâminas.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "Aumenta o DAN em 15% para cada inimigo no campo de batalha.",
+    "dark": "Há 10% de chance de remover bônus."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / DAN Crít. +20%",
+    "dark": "Enquanto estiver em ataque automático, há 10% de chance de acumular 1 Lâmina. Reforça o ataque de Nyx em 10% por acúmulo de Lâmina."
+  }
+}

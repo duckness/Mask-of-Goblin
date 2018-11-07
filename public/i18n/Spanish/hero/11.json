@@ -1,0 +1,120 @@
+{
+  "name": "Maria",
+  "subtitle": "Bruja Caida",
+  "description": "La santa que bendijo al héroe que salvó el mundo hace mucho tiempo. El cuervo maldito, indignado dispara plumas a los enemigos y rompe completamente la formación del enemigo.",
+  "story": "A pesar de que era una doncella sagrada de Lua en el pasado, eventualmente se corrompió. Ahora, esta bruja cínica y comandante de cuervos maldice a su antigua diosa de la obscuridad. Hubo una época en la que era amiga de Kyle y era una heroína del pueblo. Sin embargo, cuando Kyle desapareció, ella también se ocultó del mundo. Eventualmente, regresó como la bruja caída, amenazando a la humanidad como la cabecilla del Ejército de demonios. Sin embargo, recientemente, parece estar planeando algún plan, no como comandante de los demonios, sino que completamente por su cuenta.",
+  "like": "Corromper a los creyentes de Lua",
+  "dislike": "Lua y su iglesia",
+  "inn": {
+    "idle": "¿Qué es esto? ¿Un novato?",
+    "recruit": {
+      "greet": "No saludes a las Fuerzas Obscuras tan casualmente, chico.",
+      "talk": [
+        "No te preocupes. Me quedo sólo por la noche. Mi habitación está arriba, ¿te molestaría subir? Jajaja...",
+        "Eres bastante a mi gusto. En el sentido de que quiero despedazarte, por supuesto...",
+        "¿Sabes lo que realmente me gustaría ver? A ti, rogando por tu vida de rodillas."
+      ],
+      "gift": "Un regalo pintoresco, digno de un novato como tu."
+    },
+    "affinity": {
+      "greet": "¿Qué necesitas?",
+      "talk": [
+        "Te falta experiencia. Aún te queda un largo camino por recorrer antes de poder enfrentarlos.",
+        "No sabes... Así que no conoces la apariencia real de Lua. Es mejor así."
+      ],
+      "gift": "Ja, ja. Muy bien. Esto servirá para alimentar a los cuervos."
+    },
+    "relationship": {
+      "greet": "..Hmph, viniste. Veo que ya no eres un simple principiante.",
+      "talk": [
+        "Cuando te veo, me acuerdo de él en su juventud... mmm...",
+        "Odio a Lua por lo que hizo... pero tú, tú eres diferente.",
+        "Eres extraña, al aceptar a una bruja corrupta en tu comunidad... qué lindo."
+      ]
+    }
+  },
+  "uw": {
+    "name": "el Mensajero de Lea, Cocytus",
+    "description": [
+      "Luego de un Golpe Crítico, causa un Daño Magico continuo al enemigo igual al 300% de ATQ durante 10 segundos y reduce su tasa de recuperación en un 50%.",
+      "Luego de un Golpe Crítico, causa un Daño Magico continuo al enemigo igual al 375% de ATQ durante 10 segundos y reduce su tasa de recuperación en un 50%.",
+      "Luego de un Golpe Crítico, causa un Daño Magico continuo al enemigo igual al 450% de ATQ durante 10 segundos y reduce su tasa de recuperación en un 50%.",
+      "Luego de un Golpe Crítico, causa un Daño Magico continuo al enemigo igual al 525% de ATQ durante 10 segundos y reduce su tasa de recuperación en un 50%.",
+      "Luego de un Golpe Crítico, causa un Daño Magico continuo al enemigo igual al 625% de ATQ durante 10 segundos y reduce su tasa de recuperación en un 50%.",
+      "Luego de un Golpe Crítico, causa un Daño Magico continuo al enemigo igual al 750% de ATQ durante 10 segundos y reduce su tasa de recuperación en un 50%."
+    ],
+    "story": "Un cuervo misterioso que puede viajar a través de dimensiones. Su inteligencia y astucia son ciertamente diferentes de los de una simple ave. En realidad, es un monstruo lleno de energía obscura, prácticamente como Demonios. En efecto, se dice que esta bestia es tan poderosa como un demonio de alto rango. Algunos afirman que ocasionalmente vuela a través de los campos de batalla, hablando en idiomas humanos. La mayoría de la identidad de esta criatura aún está cubierta en misterio."
+  },
+  "s1": {
+    "name": "Tormenta de Cuervos",
+    "description": "Causa  {0}  Daño Magico a los enemigos al alcance y derribalos. También disminuye DEF Magica en  {2}% por  {1}  seg.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Disminuye la velocidad de los enemigos golpeados en  {0}%."
+    },
+    "light": "el Daño se incrementa en un 40%.",
+    "dark": "Tiene un 20% de probabilidad de infligir un Encadenado de 3 seg."
+  },
+  "s2": {
+    "name": "Garra de Esclavitud",
+    "description": "Infligir  {0}  Daño Magico hasta en 2 enemigos y encadenarlos por  {1}  seg. Los enemigos apuntados reciben un continuo Daño Magico adicional.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Aumenta el Daño Magico recibido por el enemigo en  {0}% mientras esta habilidad está en efecto."
+    },
+    "light": "El costo de maná se incrementa en 1 y la habilidad apunta a 3 enemigos.",
+    "dark": "La duración del encadenado se incrementa en 1,5 seg.",
+    "ut": {
+      "name": "Escarpes de espíritu",
+      "description": [
+        "[Garra de esclavitud] Aumenta el Daño en un 50 % y aumenta la Debilidad mágica del enemigo afectado en un 10 % durante 10 segundos.",
+        "[Garra de esclavitud] Aumenta el Daño en un 50 % y aumenta la Debilidad mágica del enemigo afectado en un 12 % durante 10 segundos.",
+        "[Garra de esclavitud] Aumenta el Daño en un 50 % y aumenta la Debilidad mágica del enemigo afectado en un 14 % durante 10 segundos.",
+        "[Garra de esclavitud] Aumenta el Daño en un 50 % y aumenta la Debilidad mágica del enemigo afectado en un 17 % durante 10 segundos.",
+        "[Garra de esclavitud] Aumenta el Daño en un 50 % y aumenta la Debilidad mágica del enemigo afectado en un 21 % durante 10 segundos.",
+        "[Garra de esclavitud] Aumenta el Daño en un 50 % y aumenta la Debilidad mágica del enemigo afectado en un 25 % durante 10 segundos."
+      ],
+      "story": "Una armadura de garras que María regaló al mensajero de Lea. La armadura de garras está fabricada con oro elegante que tiene una maldición que nunca abandonará al enemigo que la sujete. Los enemigos afectados por los escarpes del mensajero se volverán indefensos contra los ataques de magia y recibirán un tremendo daño."
+    }
+  },
+  "s3": {
+    "name": "Area de Obscuridad",
+    "description": "Reune enemigos al alcance y causa  {0}  Daño Magico. El último ataque aturde a los enemigos durante 3 seg",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "El objetivo recibe un 25% de Daño Magico aumentado por 10seg",
+    "dark": "El costo de maná se reduce en 1.",
+    "ut": {
+      "name": "Dije de obscuridad",
+      "description": [
+        "[Area de Obscuridad] El Daño aumenta en un 20% y el último ataque reduce la DEF Mágica y Física del objetivo en un 30% durante 7 segundos.",
+        "[Area de Obscuridad] El Daño aumenta en un 24% y el último ataque reduce la DEF Mágica y Física del objetivo en un 30% durante 7 segundos.",
+        "[Area de Obscuridad] El Daño aumenta en un 29% y el último ataque reduce la DEF Mágica y Física del objetivo en un 30% durante 7 segundos.",
+        "[Area de Obscuridad] El Daño aumenta en un 35% y el último ataque reduce la DEF Mágica y Física del objetivo en un 30% durante 7 segundos.",
+        "[Area de Obscuridad] El Daño aumenta en un 42% y el último ataque reduce la DEF Mágica y Física del objetivo en un 30% durante 7 segundos.",
+        "[Area de Obscuridad] El Daño aumenta en un 50% y el último ataque reduce la DEF Mágica y Física del objetivo en un 30% durante 7 segundos."
+      ],
+      "story": "Cenizas de un mensajero gris que anuncia el final. Estas son las cenizas del cuervo que entró volando a la iglesia de Lua justo antes de que colapsara la República de Gray cien años atrás. Todos ignoraron al mensajero amenazante, y solo la clériga María se preocupó hasta su último día. Incluso después de su muerte, ha ayudado a María a ampliar su área de oscuridad al verter su energía oscura sobre ella."
+    }
+  },
+  "s4": {
+    "name": "Viento Negro",
+    "description": "Disminuye ATQ de enemigos dañados por Maria en {1} por {0} segundos.",
+    "books": {
+      "0": "ATQ disminuye en {0}%.",
+      "1": "ATQ disminuye en {0}%.",
+      "2": "Disminuye la Oportunidad Crit. del enemigo en  {0}%"
+    },
+    "light": "La reducción de ATQ se incrementa en un 40%.",
+    "dark": "Reduce la Resistencia Magica Crit enemiga en un 25% durante 10 seg."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Oportunidad Crit +100",
+    "dark": "Luego de un Golpe Crítico, la resistencia al Ctrl de Masas del objetivo se reduce en 250 durante 10 segundos, y todo el tiempo de reutilización de las habilidades, excluyendo la habilidad en uso, se reduce en un 2%."
+  }
+}

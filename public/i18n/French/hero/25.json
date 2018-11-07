@@ -1,0 +1,120 @@
+{
+  "name": "Jane",
+  "subtitle": "Corps d'Albâtre",
+  "description": "Cette fille est devenue mort-vivante après avoir autrefois combattu les Forces Obscures. Elle traine avec elle le cerceuil dans lequel elle dort. Elle se rétablit en laissant une marque de mort sur ses ennemis.",
+  "story": "Elle était autrefois la princesse de l'ancienne République de Gray, rayée de la carte par les envahisseurs démoniaques durant la guerre démoniaque et qui détenait d'innombrables secrets, notamment les ruines et technologies d'une ancienne civilisation. Jane périt pour protéger ces secrets. Plus tard, elle fut ramenée à la vie sous forme de mort-vivant par Malduk, un officier de haut rang et stratège de l'Armée Démoniaque. Elle reçut une nouvelle conscience grâce à une ancienne magie maléfique. Elle cherche désormais à partir à la recherche de son passé et ses souvenirs perdus.",
+  "like": "Je ne me souviens pas trop... Mon...",
+  "dislike": "Les gros os...",
+  "inn": {
+    "idle": "...",
+    "recruit": {
+      "greet": "...Bonjour.",
+      "talk": [
+        "Qui êtes... vous?",
+        "Je... ne vous connais pas...",
+        "Vous... me connaissez?"
+      ],
+      "gift": "Cadeau...? Merci...?"
+    },
+    "affinity": {
+      "greet": "Quel est... cet endroit ?",
+      "talk": [
+        "Il fait froid... Non... chaud...",
+        "Je ne me souviens pas... Je veux... me souvenir..."
+      ],
+      "gift": "Un cadeau ? Pourquoi m'offrez-vous sans cesse des cadeaux ?"
+    },
+    "relationship": {
+      "greet": "Bienvenue...un salut... pour lui... lorsqu'il rentrera...",
+      "talk": [
+        "Éclair rouge... mains chaudes... yeux doux... pas de mémoire...",
+        "Souvenir perdus... le vide...",
+        "Le cercueil... la chaleur qui ne change jamais..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Erekura, Esprit Inchangé",
+    "description": [
+      "Chaque seconde, inflige 10% de l'ATQ sous forme de DEG M. aux ennemis à portée et réduit leur ATQ de 14%. Lorsque la compétence passive est activée, 30% de mana sont récupérés.",
+      "Chaque seconde, inflige 12% de l'ATQ sous forme de DEG M. aux ennemis à portée et réduit leur ATQ de 17%. Lorsque la compétence passive est activée, 30% de mana sont récupérés.",
+      "Chaque seconde, inflige 14% de l'ATQ sous forme de DEG M. aux ennemis à portée et réduit leur ATQ de 20%. Lorsque la compétence passive est activée, 30% de mana sont récupérés.",
+      "Chaque seconde, inflige 17% de l'ATQ sous forme de DEG M. aux ennemis à portée et réduit leur ATQ de 24%. Lorsque la compétence passive est activée, 30% de mana sont récupérés.",
+      "Chaque seconde, inflige 20% de l'ATQ sous forme de DEG M. aux ennemis à portée et réduit leur ATQ de 29%. Lorsque la compétence passive est activée, 30% de mana sont récupérés.",
+      "Chaque seconde, inflige 25% de l'ATQ sous forme de DEG M. aux ennemis à portée et réduit leur ATQ de 35%. Lorsque la compétence passive est activée, 30% de mana sont récupérés."
+    ],
+    "story": "Lorsque la magie de Malduk ranima Jane sous la forme d'une morte-vivante, elle n'aurait rien dû ressentir. Cependant, elle se sentit à l'aise dans l'énergie mystérieuse entourant sa dépouille. Lorsque Malduk l'appela, elle tenta instinctivement de toucher cette douce présence. Plus tard, quand la magie mystérieuse lui fit reprendre conscience, elle commença par inspecter son cercueil, illuminé d'amour tragique. Elle y trouva le message suivant soigneusement gravé : « Mon amour pour toi reste inchangé. »"
+  },
+  "s1": {
+    "name": "Rites Funéraires",
+    "description": "Inflige {0} points de DEG M. aux ennemis à portée et leur applique Étourdissement pendant {1} sec.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente la durée d'Étourdissement pendant {0} sec."
+    },
+    "light": "La cible reçoit 25% de DEG M. supplémentaires pendant 10 sec.",
+    "dark": "Pour un coût de 1 MP supplémentaire, la compétence a 100% de chances d'attirer la cible."
+  },
+  "s2": {
+    "name": "Marque de la Mort",
+    "description": "Marque chaque ennemi pendant {0} sec inflige constamment {1} points de DEG M. L'ennemi reçoit {2}% de DEG M. supplémentaires lorsqu'il est affecté par cette marque.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG de {0}%."
+    },
+    "light": "La durée est réduite à 10 secondes et les DEG sont augmentés de 250%.",
+    "dark": "La Marque Gravée n'est pas dissipée lors d'une dissipation des effets négatifs.",
+    "ut": {
+      "name": "Coussin imprégné de mort",
+      "description": [
+        "[Marque de la mort] Augmente l'ATQ de 5 % et les DEG Crit de 10 % pendant 20 sec lorsque l'ennemi marqué meurt. Effet cumulable jusqu'à 8 fois.",
+        "[Marque de la mort] Augmente l'ATQ de 5 % et les DEG Crit de 12 % pendant 20 sec lorsque l'ennemi marqué meurt. Effet cumulable jusqu'à 8 fois.",
+        "[Marque de la mort] Augmente l'ATQ de 5 % et les DEG Crit de 14 % pendant 20 sec lorsque l'ennemi marqué meurt. Effet cumulable jusqu'à 8 fois.",
+        "[Marque de la mort] Augmente l'ATQ de 5 % et les DEG Crit de 17 % pendant 20 sec lorsque l'ennemi marqué meurt. Effet cumulable jusqu'à 8 fois.",
+        "[Marque de la mort] Augmente l'ATQ de 5 % et les DEG Crit de 21 % pendant 20 sec lorsque l'ennemi marqué meurt. Effet cumulable jusqu'à 8 fois.",
+        "[Marque de la mort] Augmente l'ATQ de 5 % et les DEG Crit de 25 % pendant 20 sec lorsque l'ennemi marqué meurt. Effet cumulable jusqu'à 8 fois."
+      ],
+      "story": "Jane enlace ce coussin pour dormir dans le cercueil. Il renferme les esprits endormis avec elle. Ce sont eux qui confèrent en permanence à Jane la vacuité de la mort."
+    }
+  },
+  "s3": {
+    "name": "Jour de Ruine",
+    "description": "Inflige {1} points de DEG M. aux ennemis toutes les {0} sec, et soigne les propres PV du héros de {2}% des DEG. Applique une immunité à tous les effets. Les DEG sont augmentés sur les ennemis marqués.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Récupère {0}% des PM."
+    },
+    "light": "Les DEG sont augmentés de 40%.",
+    "dark": "A 10% de chances d'appliquer Étourdissement pendant 1 sec.",
+    "ut": {
+      "name": "Fleur du duché oublié",
+      "description": [
+        "[Jour de Ruine] Les DEG sont augmentés de 20% et à chaque fois que des DEG sont infligés, la DEF M. de la cible est réduite de 5% pendant 5 sec. Cumulable 10 fois.",
+        "[Jour de Ruine] Les DEG sont augmentés de 24% et à chaque fois que des DEG sont infligés, la DEF M. de la cible est réduite de 5% pendant 5 sec. Cumulable 10 fois.",
+        "[Jour de Ruine] Les DEG sont augmentés de 29% et à chaque fois que des DEG sont infligés, la DEF M. de la cible est réduite de 5% pendant 5 sec. Cumulable 10 fois.",
+        "[Jour de Ruine] Les DEG sont augmentés de 35% et à chaque fois que des DEG sont infligés, la DEF M. de la cible est réduite de 5% pendant 5 sec. Cumulable 10 fois.",
+        "[Jour de Ruine] Les DEG sont augmentés de 42% et à chaque fois que des DEG sont infligés, la DEF M. de la cible est réduite de 5% pendant 5 sec. Cumulable 10 fois.",
+        "[Jour de Ruine] Les DEG sont augmentés de 50% et à chaque fois que des DEG sont infligés, la DEF M. de la cible est réduite de 5% pendant 5 sec. Cumulable 10 fois."
+      ],
+      "story": "Une fleur de la République qui est désormais introuvable. On la connaît sous le nom de Fleur des Frontières connectant la vie et la mort et se nourrissant de destruction. C’est une fleur douloureusement belle. Si vous l’offrez à quelqu’un, vous pourrez partager les derniers instants de cette personne dans un rêve."
+    }
+  },
+  "s4": {
+    "name": "Repose en Paix",
+    "description": "Lorsqu'elle reçoit un coup fatal, Jane entre dans son cercueil, récupère {1} PV pendant {0} sec et est immunisée à tous les DEG un fois dans le cercueil.",
+    "books": {
+      "0": "Augmente la Récupération de {0}%.",
+      "1": "Augmente la Récupération de {0}%.",
+      "2": "Augmente la Récupération de {0}%."
+    },
+    "light": "À l'intérieur du cercueil, les DEG infligé aux ennemis proches sont de 5% des PV max.",
+    "dark": "Applique Étourdissement pendant 2 sec à tous les ennemis."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Blocage M. +200",
+    "dark": "Chaque attaques de Jane augmente son ATQ et son Taux Récupération de 1% (Cumulable 50 fois)."
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Kasel",
+  "subtitle": "Guerreiro da Espada Sagrada",
+  "description": "O Guerreiro Escolhido da Espada Sagrada Aea, a espada que já salvou o mundo uma vez. Ele pode empurrar os inimigos para trás e se fortalecer com o poder desta espada sagrada.",
+  "story": "Um escudeiro do Reino de Orvelia. Devido ao trauma de ter presenciado a morte dos seus pais nas mãos dos Demônios que invadiam a vila, e depois o assassinato do seu professor de esgrima, ele teme demais a ideia da morte de alguém próximo. Seu passado o fez procurar seu irmão de consideração da época em que viveu no orfanato, Clause, o qual se juntou a uma expedição e nunca mais voltou.",
+  "like": "Comida natural",
+  "dislike": "Fatalismo",
+  "inn": {
+    "idle": "Não tem problema em descansar... casa você precise...",
+    "recruit": {
+      "greet": "Faz um tempo. Como você está?",
+      "talk": [
+        "Espero que o mundo fique em paz em breve.",
+        "Essa espada... é pesada.",
+        "Não acredito no destino."
+      ],
+      "gift": "Obrigado. Isso deve ajudar a pôr um fim na batalha rapidamente."
+    },
+    "affinity": {
+      "greet": "Vejo você bastante por aqui. Está indo pra capital agora?",
+      "talk": [
+        "Será que tudo isso irá acabar quando eu encontrar o poder da Espada Sagrada?",
+        "Não quero me deixar influenciar por mais ninguém. Vou seguir o meu caminho."
+      ],
+      "gift": "Um presente para um homem tão impopular como eu... Obrigado."
+    },
+    "relationship": {
+      "greet": "Eu sempre serei agradecido pela sua ajuda.",
+      "talk": [
+        "Não estaria mentindo se eu dissesse que não será difícil, mas é a vida, eu acho.",
+        "Obrigado por compartilhar meu fardo. Sério.",
+        "Não existe isso de vida perfeita. Bem, mas há alguns momentos perfeitos. Haha..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "A Espada Sagrada, Aea",
+    "description": [
+      "Cada ataque tem 35% de chance de causar DAN.F ao inimigo (160% do ATQ)",
+      "Cada ataque tem 35% de chance de causar DAN.F ao inimigo (192% do ATQ)",
+      "Cada ataque tem 35% de chance de causar DAN.F ao inimigo (230% do ATQ)",
+      "Cada ataque tem 35% de chance de causar DAN.F ao inimigo (276% do ATQ)",
+      "Cada ataque tem 35% de chance de causar DAN.F ao inimigo (331% do ATQ)",
+      "Cada ataque tem 35% de chance de causar DAN.F ao inimigo (400% do ATQ)"
+    ],
+    "story": "Uma Espada Sagrada lendária cedida ao mundo por Lua. Esse artefato lendário se materializou há 100 anos quando os Demônios invadiram o Continente Orbis por meio do Portal Dimensional. De acordo com a lenda, o Rei Herói Kyle usou essa espada para perfurar o coração do Senhor das Trevas, Angmund, e pôs um fim na guerra. No entanto, os dois simplesmente desapareceram, e apenas Aea permaneceu."
+  },
+  "s1": {
+    "name": "Lâmina do Julgamento",
+    "description": "Causa {0} de DAN F. 2 vezes a inimigos frontais em um círculo e os derruba por {1} seg.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "Reduz em 1 o custo de mana.",
+    "dark": "Ignora a DEF enquanto houver apenas 1 inimigo."
+  },
+  "s2": {
+    "name": "Arremetida Corajosa",
+    "description": "Ataca o alvo 3 vezes e avança por trás dele para causar {0} de DAN F.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta a Chance Crít. em {0}."
+    },
+    "light": "Reduz em 1 o custo de mana.",
+    "dark": "O alvo recebe mais 25% de DAN.F.",
+    "ut": {
+      "name": "Manopla do Imperador",
+      "description": [
+        "[Arremetida Corajosa] Aumenta o DAN em 20% e reduz a Recarga em 10% ao realizar um acerto Crít.",
+        "[Arremetida Corajosa] Aumenta o DAN em 24% e reduz a Recarga em 10% ao realizar um acerto Crít.",
+        "[Arremetida Corajosa] Aumenta o DAN em 29% e reduz a Recarga em 10% ao realizar um acerto Crít.",
+        "[Arremetida Corajosa] Aumenta o DAN em 35% e reduz a Recarga em 10% ao realizar um acerto Crít.",
+        "[Arremetida Corajosa] Aumenta o DAN em 42% e reduz a Recarga em 10% ao realizar um acerto Crít.",
+        "[Arremetida Corajosa] Aumenta o DAN em 50% e reduz a Recarga em 10% ao realizar um acerto Crít."
+      ],
+      "story": "Manopla agraciada pela bênção de Lua, a Deusa da Luz. Manopla herdada pelos reis do Continente Orbis. Contém o incentivo da deusa que permite que o usuário use Arremetida Corajosa em inimigos sem precisar ter qualquer receio."
+    }
+  },
+  "s3": {
+    "name": "Procurador Divino",
+    "description": "Causa {0} de DAN.F aos inimigos próximos e inflige Atordoamento por 3 segundos. Além disso, por {1} segundos, o ATQ aumenta em {2} e a Taxa de Esquiva aumenta em {3} , enquanto ganha imunidade a CM. Esse status não pode ser removido.",
+    "books": {
+      "0": "Taxa de aumento de ataque aumenta em {0}%.",
+      "1": "Taxa de aumento de ataque aumenta em {0}%.",
+      "2": "Aumenta a velocidade em {0} , durante o efeito do poder."
+    },
+    "light": "Reduz em 1 o custo de mana.",
+    "dark": "Aumenta em 40% o reforço de ATQ.",
+    "ut": {
+      "name": "Runa de Representação",
+      "description": [
+        "[Representante de Deus] A Taxa de Esquiva aumenta em 250, e a Vel de ATQ aumenta em 100 durante o efeito do poder.",
+        "[Representante de Deus] A Taxa de Esquiva aumenta em 250, e a Vel de ATQ aumenta em 120 durante o efeito do poder.",
+        "[Representante de Deus] A Taxa de Esquiva aumenta em 250, e a Vel de ATQ aumenta em 140 durante o efeito do poder.",
+        "[Representante de Deus] A Taxa de Esquiva aumenta em 250, e a Vel de ATQ aumenta em 170 durante o efeito do poder.",
+        "[Representante de Deus] A Taxa de Esquiva aumenta em 250, e a Vel de ATQ aumenta em 210 durante o efeito do poder.",
+        "[Representante de Deus] A Taxa de Esquiva aumenta em 250, e a Vel de ATQ aumenta em 250 durante o efeito do poder."
+      ],
+      "story": "Uma runa que prova que se é agente de Lua, a Deusa da Luz. A Runa de Representante é um artefato da Igreja de Lua dado ao cavaleiro que empunha a Aea, a Espada de Luz. A Runa de Representante afasta inimigos com o poder da luz e aumenta o ATQ e o moral."
+    }
+  },
+  "s4": {
+    "name": "Ataque da Deusa",
+    "description": "Ao esquivar, causa {0} de DAN.F para inimigos frontais e reduz a PREC em {1} por 5 segundos. Ao acertar o alvo, ganha 300 de mana.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta a Chance Crít. em {0}."
+    },
+    "light": "Taxa de redução de PREC é alterada para 250.",
+    "dark": "Reforça conjuração e reduz o tempo de recarga em 1 segundo."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / ESQ.F +100",
+    "dark": "Ao atacar, ataca mais uma vez, causando DAN igual a 40% do ATQ."
+  }
+}

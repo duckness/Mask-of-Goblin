@@ -1,0 +1,120 @@
+{
+  "name": "Rephy",
+  "subtitle": "Geistiger Führer",
+  "description": "Halb Mensch und halb Tier, führt diese Kreature die Seelem mithilfe einer Seelenlampe. Heilt Gefährten mit der Kraft der Seelen. Unterbricht Feinde oder regeneriert die Mana Verbündeter mithilfe der Seelen.",
+  "story": "Dieser reine und gutherzige Tamian-Seelenführer kann mit den Toten kommunizieren. Das Volk der Tamian lebt im Einklang mit der Natur und verfügt über die Fähigkeit, ihren Verlauf zu deuten und die Seelen der Toten zu führen. Selbst für einen Tamian ist Rephy ein außerordentlicher Seelenführer. Er geleitet die Seelen der im Wald verstorbenen, hilft ihnen beim Übergang und beschützt sie vor dem Bösen. Er ist der fähigste der Tamian, wenn es darum geht, die Sterne zu deuten, die Seelen der Toten zu befrieden und sie angemessen ins Jenseits zu führen.",
+  "like": "Seelen; gütige Leute",
+  "dislike": "Anderen Schaden zuzufügen",
+  "inn": {
+    "idle": "Habt ihr etwas vom Tamian-Stamm gehört?",
+    "recruit": {
+      "greet": "Ich bin Rephy, Weiser des Tamian-Stammes.",
+      "talk": [
+        "Mensch, komm mit mir. Lass uns den Dunklen Lord besiegen und den Wald beschützen.",
+        "Mit mir wirst du dich nie wieder im Wald verlaufen!",
+        "Es ist eines unserer Pflichten, die im Wald verstorbenen zu führen, damit sie ihr Ziel sicher erreichen.."
+      ],
+      "gift": "Ich habe ein Geschenk von einem Menschen erhalten! Hurra!"
+    },
+    "affinity": {
+      "greet": "Es ist warm! Die Seelen werden diesen Ort mögen!",
+      "talk": [
+        "Kannst du das hören? Die Sterne vor dem Fenster flüstern uns etwas zu!",
+        "Mensch, beim nächsten Mal lade ich dich in unseren Wald ein!"
+      ],
+      "gift": "Ein Überraschungsgeschenk? Menschen sind wahrlich gute Freunde!"
+    },
+    "relationship": {
+      "greet": "Hi! Deine Seele ist so rein wie eh und je.",
+      "talk": [
+        "Der Wald fühlt sich gut an! Saubere Luft, eine frische Brise, tanzende Feen...",
+        "Überlass mir die Führung! Die Seelen werden uns helfen!",
+        "Die Sterne sagen, dass heute ein guter Tag wird! Lass uns rausgehen!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Kurulati, die Lampe Gottes",
+    "description": [
+      "Alle 20 Sek wird der Held mit der niedrigsten TP unsichtbar für 5 Seks. Der Verbündete wird immun gegen K.Schaden, und die TP fallen nicht unter 1%. MP Erholungsrate steigt auf 120% pro Sek.",
+      "Alle 20 Sek wird der Held mit der niedrigsten TP unsichtbar für 6 Seks. Der Verbündete wird immun gegen K.Schaden, und die TP fallen nicht unter 1%. MP Erholungsrate steigt auf 120% pro Sek.",
+      "Alle 20 Sek wird der Held mit der niedrigsten TP unsichtbar für 7 Seks. Der Verbündete wird immun gegen K.Schaden, und die TP fallen nicht unter 1%. MP Erholungsrate steigt auf 120% pro Sek.",
+      "Alle 20 Sek wird der Held mit der niedrigsten TP unsichtbar für 8 Seks. Der Verbündete wird immun gegen K.Schaden, und die TP fallen nicht unter 1%. MP Erholungsrate steigt auf 120% pro Sek.",
+      "Alle 20 Sek wird der Held mit der niedrigsten TP unsichtbar für 9 Seks. Der Verbündete wird immun gegen K.Schaden, und die TP fallen nicht unter 1%. MP Erholungsrate steigt auf 120% pro Sek.",
+      "Alle 20 Sek wird der Held mit der niedrigsten TP unsichtbar für 10 Seks. Der Verbündete wird immun gegen K.Schaden, und die TP fallen nicht unter 1%. MP Erholungsrate steigt auf 120% pro Sek."
+    ],
+    "story": "Es ist die Pflicht einer Seelenführerin, die verlorenen Seelen zurück auf den richtigen Pfad zu geleiten, und ihnen beim Übergang ins Jenseits zur Seite zu stehen. Diese Lampe, erleuchtet von einer geheimnisvollen Kugel, die vor langer Zeit von einem Drachen aus einem weit entfernten Land erschaffen wurde, ist ein Schatz der Tamian. Der Kern der Kugel erlaubt Seelen in der Nähe, sich zu materialisieren, wodurch ihr Besitzer direkt mit ihnen kommunizieren kann. Insofern ist sie das optimale Werkzeug für eine Seelenführerin. Tamian-Häuptlinge verwendeten diese Reliquie seit Generationen, um damit die heiligen Pflichten einer Seelenführerin zu verrichten. Jetzt, wo die Welt von großer Gefahr bedroht wird, ging die Lampe an Rephy, der mächtigsten Seelenführerin von allen."
+  },
+  "s1": {
+    "name": "Seelenheilung",
+    "description": "Heilt die 4 Verbündeten mit den wenigsten TP für {2}% der Max TP und heilt weitere {1} TP über {0} Sek. Effekt kann nicht aufgehoben werden.",
+    "books": {
+      "0": "Erhöht Erholung um {0}%.",
+      "1": "Erhöht Erholung um {0}%.",
+      "2": "Erhöht MP Erholungsrate/Sek um {0}%."
+    },
+    "light": "Manakosten um 1 erhöht und Skilleffektreichweite wird auf alle Verbündete geändert.",
+    "dark": "20% Chance, mit jeder Heilung negative Effekte zu entfernen."
+  },
+  "s2": {
+    "name": "Errettung",
+    "description": "Entfernt Debuffs von allen Verbündeten und erhöht die M.VERT um {1} für {0} Sek.",
+    "books": {
+      "0": "Erhöht M.VERT-Erhöhungsrate um {0}%.",
+      "1": "Erhöht M.VERT-Erhöhungsrate um {0}%.",
+      "2": "Erhöht Debuff-Widerstand um {1} für {0} Sek."
+    },
+    "light": "Reduziert Manakosten um 1.",
+    "dark": "Erhöht M.VERT zusätzlich um 10 % der M.VERT des Beschwörers.",
+    "ut": {
+      "name": "Saat der Geburt",
+      "description": [
+        "[Errettung] Erhöht den M.VERT-Boost um 50 % und verringert den Cooldown um 12 %.",
+        "[Errettung] Erhöht den M.VERT-Boost um 50 % und verringert den Cooldown um 14 %.",
+        "[Errettung] Erhöht den M.VERT-Boost um 50 % und verringert den Cooldown um 17 %.",
+        "[Errettung] Erhöht den M.VERT-Boost um 50 % und verringert den Cooldown um 21 %.",
+        "[Errettung] Erhöht den M.VERT-Boost um 50 % und verringert den Cooldown um 25 %.",
+        "[Errettung] Erhöht den M.VERT-Boost um 50 % und verringert den Cooldown um 30 %."
+      ],
+      "story": "Eine Sammlung der Energie, die freigesetzt wird, wenn ein Leben geboren wird. Sie ist sehr warm und gütig, weshalb Seelen sie mögen. Rephy nutzt sie, um in einer Lampe ein Feuer zu entfachen, um die Kraft der Seelen zu nutzen. Wenn eine Saat in eine Lampe gesetzt wird, leuchtet sie hell, als wäre die Sonne neu geboren."
+    }
+  },
+  "s3": {
+    "name": "Seelensturm",
+    "description": "Verursacht 10 mal {1} M.Schaden an Gegnern im Umfeld und reduziert Angriffsgeschw. um {2}%.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Das Ziel erleidet {0}% zusätzlichen Schaden."
+    },
+    "light": "Jeder Treffer entfernt 250 Mana vom Ziel.",
+    "dark": "Bringt Feinde in Reichw. für 1 Sek zum Schweigen für 1 extra Mana.",
+    "ut": {
+      "name": "Seelenhafen",
+      "description": [
+        "[Seelensturm] Reduziert Manakosten um 1 und heilt alle Verbündete um 8% des Schadens.",
+        "[Seelensturm] Reduziert Manakosten um 1 und heilt alle Verbündete um 10% des Schadens.",
+        "[Seelensturm] Reduziert Manakosten um 1 und heilt alle Verbündete um 12% des Schadens.",
+        "[Seelensturm] Reduziert Manakosten um 1 und heilt alle Verbündete um 14% des Schadens.",
+        "[Seelensturm] Reduziert Manakosten um 1 und heilt alle Verbündete um 17% des Schadens.",
+        "[Seelensturm] Reduziert Manakosten um 1 und heilt alle Verbündete um 20% des Schadens."
+      ],
+      "story": "Ein Ornament, das in grauer Vorzeit für Gedenkfeiern verstorbener Könige benutzt wurde. In dem grünen Juwel befindet sich eine kristallisierte Träne des mythischen Wesens, das Menschen in den Tod führt. Es wird als Ruhestätte verwendet, um der Leere innerhalb von Seelen Trost zu spenden."
+    }
+  },
+  "s4": {
+    "name": "Spirituelle Anpassung",
+    "description": "Alle 7 Sek erhält der Held mit der niedrigsten TP 1 MP und {0} TP.",
+    "books": {
+      "0": "Erhöht Erholung um {0}%.",
+      "1": "Erhöht Erholung um {0}%.",
+      "2": "Erhöht MP Erholung um {0}%."
+    },
+    "light": "Benutzt den Skill alle 5 Sek.",
+    "dark": "Gewährt dem Verbündeten mit der höchsten ANG ebenfalls 1 Mana."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / M.Ausw.-Chance +100",
+    "dark": "Beim Angriff besteht eine 10% Chance die VERT des Ziels um 20% und alle Helden-Cooldowns um 5% zu reduzieren."
+  }
+}

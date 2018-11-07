@@ -1,0 +1,120 @@
+{
+  "name": "Fluss",
+  "subtitle": "Flatternde Klinge",
+  "description": "Vize-Hauptmann der kaiserlichen Garde. Seine Schallwellen-Klinge schneidet sogar Magie. Er kann die gefährlichsten Feinde zuerst ausschalten.",
+  "story": "Als Sohn des Kommandanten der Imperialen Ritter wurde er bereits in frühester Kindheit einer strengen Ausbildung zum Schwertkämpfer unterzogen. Es ist unbestritten, dass er der schnellste Schwertkämpfer im imperialen Palast ist. Davon zeugt nicht zuletzt die Anzahl der von ihm auf dem Schlachtfeld besiegten feindlichen Ritter. Schon bald wurde er zum Vize-Hauptmann der Kaiserlichen Wache ernannt und von allen bewundert. Obwohl er sich seines schönen Erscheinungsbildes bewusst ist, verachtet er jene, die ihn wegen seiner oberflächlichen Schönheit ansprechen. Für ihn sind innere Werte weit wichtiger als alles Sichtbare. Allerdings ist er etwas heuchlerisch und gelegentlich von seiner eigenen Schönheit durchaus angetan.",
+  "like": "Deine Augen",
+  "dislike": "Jene ohne Sinn für Romantik",
+  "inn": {
+    "idle": "Nicht viel anders als die Tavernen im Imperium, hmm.",
+    "recruit": {
+      "greet": "Du bist ein fleißiges Kerlchen.",
+      "talk": [
+        "Ah, die kühle Brise des Imperiums - wie sehr ich sie vermisse.",
+        "Regelmäßiges Training ist der beste Weg, um deine Fähigkeiten zu verbessern.",
+        "Es gibt nur eine weitere Person, mit der ich derart offen sprechen konnte..."
+      ],
+      "gift": "Lass uns auf deinen Kampfgeist anstoßen."
+    },
+    "affinity": {
+      "greet": "Ich habe ein paar Blumen als Gastgeschenk mitgebracht.",
+      "talk": [
+        "Menschen sind wie Schwerter. Man muss sich ständig veredeln, um ein wahrer Ritter zu werden.",
+        "Ich mag Pavel wirklich nicht. Rodina so zu verlassen ..."
+      ],
+      "gift": "Danke für deine Güte."
+    },
+    "relationship": {
+      "greet": "Auf dich... nein, ich höre lieber damit auf.",
+      "talk": [
+        "Ursprunglich gehörte mein Haus nicht zum Königreich.",
+        "Diese Blume ist eine Darbietung an das Heimatland meiner Vorfahren. Es ist ein Symbol, eine Denkschrift, um ihr gefallenes Heimatland niemals zu vergessen.",
+        "Unser Orden ist doch nur eine Attrappe, zusammengesetzt aus den unerfahrenen Kindern adeliger Familien. Die wahren, gefürchteten Krieger sind anderswo..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Veralta, die wütenden Zwillingsschwerter",
+    "description": [
+      "Erhöht den ANG um 12 % und die ANG-Geschwindigkeit alle 7 Sek. für 30 Sek. um 120. Dieser Effekt ist bis zu 3-mal stapelbar und kann nicht entfernt werden.",
+      "Erhöht den ANG um 14 % und die ANG-Geschwindigkeit alle 7 Sek. für 30 Sek. um 140. Dieser Effekt ist bis zu 3-mal stapelbar und kann nicht entfernt werden.",
+      "Erhöht den ANG um 17 % und die ANG-Geschwindigkeit alle 7 Sek. für 30 Sek. um 170. Dieser Effekt ist bis zu 3-mal stapelbar und kann nicht entfernt werden.",
+      "Erhöht den ANG um 20 % und die ANG-Geschwindigkeit alle 7 Sek. für 30 Sek. um 200. Dieser Effekt ist bis zu 3-mal stapelbar und kann nicht entfernt werden.",
+      "Erhöht den ANG um 25 % und die ANG-Geschwindigkeit alle 7 Sek. für 30 Sek. um 250. Dieser Effekt ist bis zu 3-mal stapelbar und kann nicht entfernt werden.",
+      "Erhöht den ANG um 30 % und die ANG-Geschwindigkeit alle 7 Sek. für 30 Sek. um 300. Dieser Effekt ist bis zu 3-mal stapelbar und kann nicht entfernt werden."
+    ],
+    "story": "Ein Set verzauberter Waffen von Fluss’ Großvater, einem Ritter aus der Republik der Grauen, das als Familienschatz weitergegeben wurde. Die Waffen sind in der Lage, die Körperkraft ihres Besitzers zu steigern, um die Grenzen der menschlichen Leistungsfähigkeit zu überwinden und übernatürliche Kraft und Geschwindigkeit zu erlangen. Weil der Effekt allmählich eintritt, wird der Körper des Trägers keiner plötzlichen Belastung ausgesetzt. Die Teile werden als Blut und Rose bezeichnet. Diese Namen entstanden durch den Wirbel aus Blut und Blütenblättern, der stets auftrat, wenn Fluss diese Zwillingsschwerter führte. Kein anderer Krieger konnte deren Potential jemals so nutzen wie Fluss selbst."
+  },
+  "s1": {
+    "name": "Sturmklinge",
+    "description": "Greift das Ziel und Feinde in seiner Nähe 3-mal an und verursacht insgesamt {0} K.Schaden. Verursacht insgesamt über 5 Sek. zusätzlich {1} K.Schaden, wenn das Ziel kein Held ist.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Ignoriert VERT, wenn nur ein Feind auf dem Schlachtfeld ist.",
+    "dark": "Jeder kritische Treffer reduziert Cooldown um 6%."
+  },
+  "s2": {
+    "name": "Blitzschritt",
+    "description": "Bewegt sich zum Feind mit der höchsten ANG und bringt ihn 2 Sek. lang zum Schweigen. Verringert erlittenen M. Schaden für {0} Sek. lang um {1}. Markiert den Gegner für {2} Sek. und priorisiert ihn dadurch für eigene Angriffe. Angriffe an markierten Gegnern verursachen {3} zusätzlichen K. Schaden.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Reduziert Cooldown um 5 Sek für 1 extra Mana.",
+    "dark": "Entfernt positive Effekte vom Feind.",
+    "ut": {
+      "name": "Verführerisches Parfum",
+      "description": [
+        "[Blitzschritt] Das Mal kann nicht entfernt werden und erhöht den ANG 10 Sek. lang um 20 %, sobald der Feind mit dem Mal getötet wurde.",
+        "[Blitzschritt] Das Mal kann nicht entfernt werden und erhöht den ANG 10 Sek. lang um 24 %, sobald der Feind mit dem Mal getötet wurde.",
+        "[Blitzschritt] Das Mal kann nicht entfernt werden und erhöht den ANG 10 Sek. lang um 29 %, sobald der Feind mit dem Mal getötet wurde.",
+        "[Blitzschritt] Das Mal kann nicht entfernt werden und erhöht den ANG 10 Sek. lang um 35 %, sobald der Feind mit dem Mal getötet wurde.",
+        "[Blitzschritt] Das Mal kann nicht entfernt werden und erhöht den ANG 10 Sek. lang um 42 %, sobald der Feind mit dem Mal getötet wurde.",
+        "[Blitzschritt] Das Mal kann nicht entfernt werden und erhöht den ANG 10 Sek. lang um 50 %, sobald der Feind mit dem Mal getötet wurde."
+      ],
+      "story": "Parfum, das die ersten Vivienne-Rosen des Jahres enthält. Vivienne-Rosen sind wunderschön, aber tödlich. Diejenigen, die von dem Duft betört werden, bekommen Halluzinationen und starren den Feind nur bewundernd an."
+    }
+  },
+  "s3": {
+    "name": "Blutige Blüten",
+    "description": "Verursacht über 16 Treffer insgesamt {0} K.Schaden an einem Feind und unterdrückt das Ziel beim Wirken. Dieser Schaden ignoriert die Block-Effekte des Ziels.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Jeder kritische Treffer erhöht den Schaden des letzten Treffers um 10%.",
+    "dark": "Erhöht den Schaden normaler Angriffe um 50%, während der Skill sich im Cooldown befindet.",
+    "ut": {
+      "name": "Rose der Unsterblichkeit",
+      "description": [
+        "[Blutige Blüten] Erhöht Schaden um 20% und weicht allen M.ANG während d. Wirkungsdauer aus.",
+        "[Blutige Blüten] Erhöht Schaden um 24% und weicht allen M.ANG während d. Wirkungsdauer aus.",
+        "[Blutige Blüten] Erhöht Schaden um 29% und weicht allen M.ANG während d. Wirkungsdauer aus.",
+        "[Blutige Blüten] Erhöht Schaden um 35% und weicht allen M.ANG während d. Wirkungsdauer aus.",
+        "[Blutige Blüten] Erhöht Schaden um 42% und weicht allen M.ANG während d. Wirkungsdauer aus.",
+        "[Blutige Blüten] Erhöht Schaden um 50% und weicht allen M.ANG während d. Wirkungsdauer aus."
+      ],
+      "story": "Eine Rose, die nie verwelkt, selbst wenn die gepflückt wird. Fluss liebt diese Blume: Sie erinnert sie an die Pflichten eines Ritters, die die Grundlage für dessenstarken Willen bildet und esihmermöglicht, im Kampf zuversichtlich zu sein."
+    }
+  },
+  "s4": {
+    "name": "Zauber trennen",
+    "description": "Alle {0} Sek, wenn Fluss M.Schaden erleidet, fügt er dem Angreifer {1} K.Schaden zu und erhöht Flusses M. Ausweichchance um {3}% für {2} Sek.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Ausweichen erhöht eigene ANG um 3%. Kumuliert sich bis zu 10 Mal.",
+    "dark": "30% Chance, Feinde für 3 Sek zu bezäuben."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / M.Ausw.-Chance +100",
+    "dark": "Angriffe verursachen 20% der ANG als zusätzlichen K.Schaden. 10% Chance, doppelten K.Schaden zu verursachen und dabei positive Effekte zu entfernen."
+  }
+}

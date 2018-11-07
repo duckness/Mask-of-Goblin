@@ -1,0 +1,120 @@
+{
+  "name": "Requina",
+  "subtitle": "Mercader del Veneno",
+  "description": "Un mercader que deambula por el continente, vendiendo veneno a los que lo necesitan. Utiliza una cerbatana para envenenar y eliminar a sus enemigos.",
+  "story": "Una curiosa comerciante que vende todo tipo de veneno conocido por el hombre. Es la hija de dos alquimistas errantes que viajaron a través de una nación lejana. Los demás comerciantes la llaman 'comerciante de la muerte', pero ella opina distinto. Afirma que ningún veneno es inherentemente maligno, y que la forma en que se lo utiliza determina su naturaleza. Como una verdadera comerciante, cree que cualquier herramienta es igual de buena o maligna como la persona que la utiliza. Desde la reaparición de los demonios, ha estado viajando por el mundo en busca del veneno adecuado para combatir contra los invasores.",
+  "like": "Desarrollo de nuevos venenos, aquellos quienes entienden la alegría de desarrollar nuevas drogas",
+  "dislike": "Personas que tienen prejuicios contra los venenos",
+  "inn": {
+    "idle": "Hmm, no hay nadie que quiera comprar mis productos?",
+    "recruit": {
+      "greet": "Hola! Hay algún veneno que puedas necesitar?",
+      "talk": [
+        "Los venenos se pueden usar como medicina! No son tan malos como las personas piensan.",
+        "Ah, bueno, es cierto que la mayoría de los venenos se utilizan para cosas malas.",
+        "Hmm, dónde está esa señora que compró mis venenos la última vez?"
+      ],
+      "gift": "Wow gracias! Usaré esto para aumentar mi selección de productos!"
+    },
+    "affinity": {
+      "greet": "¡Encantada de conocerte! Te traje algunos venenos. ¡Elige lo que quieras!",
+      "talk": [
+        "El veneno es fantástico. ¡Una vez que lo pruebas, no puedes dejar de usarlo!",
+        "Esta hierba no está creciendo. ¿Qué te parece? ¿Debería vender veneno exótico en cambio?"
+      ],
+      "gift": "¡Oh, gracias! Te dejaré comprar veneno con el toque especial de Requina, je, je."
+    },
+    "relationship": {
+      "greet": "Bienvenido de nuevo ~ jajaja, hoy ha sido un largo viaje!",
+      "talk": [
+        "Médicos, asesinos, químicos y alquimistas... todos ellos son mis clientes importantes!",
+        "Por qué uso dardos venenosos? Bien, son silenciosos y fáciles de usar! Bueno, no serían muy útiles en las manos equivocadas... pero ~",
+        "Venenos que funcionan en Demonios? Estoy investigando eso. Tengo algunos casi perfectos...quieres verlos?"
+      ]
+    }
+  },
+  "uw": {
+    "name": "La Flauta de los Vientos Silenciosos Rakshathar",
+    "description": [
+      "La Pila Máxima de la Poción de Cosquillas Cosquillas aumenta a 55. Cada autoataque tiene un 10% de posibilidades de atacar a un enemigo aleatorio, causando un Daño equivalente al 20% del ATQ y silenciándolo durante 1 segundo.",
+      "La Pila Máxima de la Poción de Cosquillas Cosquillas aumenta a 60. Cada autoataque tiene un 10% de posibilidades de atacar a un enemigo aleatorio, causando un Daño equivalente al 24% del ATQ y silenciándolo durante 1 segundo.",
+      "La Pila Máxima de la Poción de Cosquillas Cosquillas aumenta a 65. Cada autoataque tiene un 10% de posibilidades de atacar a un enemigo aleatorio, causando un Daño equivalente al 29% del ATQ y silenciándolo durante 1 segundo.",
+      "La Pila Máxima de la Poción de Cosquillas Cosquillas aumenta a 70. Cada autoataque tiene un 10% de posibilidades de atacar a un enemigo aleatorio, causando un Daño equivalente al 35% del ATQ y silenciándolo durante 1 segundo.",
+      "La Pila Máxima de la Poción de Cosquillas Cosquillas aumenta a 75. Cada autoataque tiene un 10% de posibilidades de atacar a un enemigo aleatorio, causando un Daño equivalente al 42% del ATQ y silenciándolo durante 1 segundo.",
+      "La Pila Máxima de la Poción de Cosquillas Cosquillas aumenta a 80. Cada autoataque tiene un 10% de posibilidades de atacar a un enemigo aleatorio, causando un Daño equivalente al 50% del ATQ y silenciándolo durante 1 segundo."
+    ],
+    "story": "Una cerbatana superprecisa fabricada por la propia Requina. Una pieza silenciadora especial agregada en su extremo hace que esta arma, que de por sí no hace ruido, sea casi completamente silenciosa. Como la presencia de los demonios comenzaron a dañar su negocio, ella decidió utilizar todo lo que podía, no solo venenos. Buscó ayuda de su amigo elementalista, quien impregnó la cerbatana con la bendición del viento. Esto le dio al arma una potencia de disparo igual a la de un cañón mágico. Después de añadir el veneno de Requina ultramortal y matademonios, se convirtió un arma poderosa y mortal capaz de matar a cualquier ser viviente."
+  },
+  "s1": {
+    "name": "Lágrimas del Sr. Python!",
+    "description": "Ataca a 2 enemigos y causa {0} Daño Mágico, mientras los envenena con Lágrimas del Sr. Python. Los Enemigos infligidos con Lágrimas del Sr. Python no pueden recuperar el maná, reciben Daño aumentado en un 30% y su oportunidad de Bloqueo se reduce en 500.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "El costo de maná se reduce en 1.",
+    "dark": "Reduce el maná del objetivo en 1200."
+  },
+  "s2": {
+    "name": "Extracto de Hierba Crujiente!",
+    "description": "Ataca a enemigos aleatorios 3 veces y causa un total de {0} Daño, mientras los envenena con Extracto de Hierba Crujiente durante {1} segundos. Los enemigos infligidos con el Extracto de Hierba Crujiente reducen su ATQ en {2}% y su Oportunidad Crit. en {3}.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Si hay 1 enemigo, el Daño aumenta en un 100%.",
+    "dark": "Aturde al objetivo durante 1 seg.",
+    "ut": {
+      "name": "Colmillo venenoso de basilisco",
+      "description": [
+        "[¡Extracto de hierba crujiente!] El Tiempo de reutilización disminuye en un 30% e inflige un 3% del Ataque como Daño físico adicional por cada acumulación del objetivo de ¡Poción de cosquillas!",
+        "[¡Extracto de hierba crujiente!] El Tiempo de reutilización disminuye en un 30% e inflige un 3,6% del Ataque como Daño físico adicional por cada acumulación del objetivo de ¡Poción de cosquillas!",
+        "[¡Extracto de hierba crujiente!] El Tiempo de reutilización disminuye en un 30% e inflige un 4,3% del Ataque como Daño físico adicional por cada acumulación del objetivo de ¡Poción de cosquillas!",
+        "[¡Extracto de hierba crujiente!] El Tiempo de reutilización disminuye en un 30% e inflige un 5,2% del Ataque como Daño físico adicional por cada acumulación del objetivo de ¡Poción de cosquillas!",
+        "[¡Extracto de hierba crujiente!] El Tiempo de reutilización disminuye en un 30% e inflige un 6,2% del Ataque como Daño físico adicional por cada acumulación del objetivo de ¡Poción de cosquillas!",
+        "[¡Extracto de hierba crujiente!] El Tiempo de reutilización disminuye en un 30% e inflige un 7,5% del Ataque como Daño físico adicional por cada acumulación del objetivo de ¡Poción de cosquillas!"
+      ],
+      "story": "Un colmillo asqueroso del basilisco que solo absorbe energía maligna. En realidad, su veneno es lo suficientemente fuerte para derretir almas. Si el veneno del fango se mezcla con césped crujiente, podría convertirse en una droga tremenda a la que ningún ser vivo podría sobrevivir. El corazón de Requina late fuerte con la anticipación."
+    }
+  },
+  "s3": {
+    "name": "Más! Más Fuerte!",
+    "description": "El propio ATQ se incrementa en {1} durante {0} segundo y el efecto de [Lágrimas del Sr. Python], [Extracto de Hierba Crujiente], [Poción de Cosquillas Cosquillas] se duplica. Además, el objetivo de [Lágrimas del Sr. Python], [Extracto de Hierba Crujiente!], [Poción de Cosquillas Cosquillas] aumenta en 1.",
+    "books": {
+      "0": "La tasa de ATQ aumenta en {0}%.",
+      "1": "La tasa de ATQ aumenta en {0}%.",
+      "2": "La tasa de ATQ aumenta en {0}%."
+    },
+    "light": "el Daño del auto ataque aumenta en un 100% durante todo el proceso",
+    "dark": "El costo de maná se reduce en 1.",
+    "ut": {
+      "name": "Poción brillante",
+      "description": [
+        "[Más! Más Fuerte!] Ataca 1 objetivo adicional y la Velocidad de ATQ aumenta en 100",
+        "[Más! Más Fuerte!] Ataca 1 objetivo adicional y la Velocidad de ATQ aumenta en 120",
+        "[Más! Más Fuerte!] Ataca 1 objetivo adicional y la Velocidad de ATQ aumenta en 140",
+        "[Más! Más Fuerte!] Ataca 1 objetivo adicional y la Velocidad de ATQ aumenta en 170",
+        "[Más! Más Fuerte!] Ataca 1 objetivo adicional y la Velocidad de ATQ aumenta en 210",
+        "[Más! Más Fuerte!] Ataca 1 objetivo adicional y la Velocidad de ATQ aumenta en 250"
+      ],
+      "story": "Líquido medicinal que se fabrica hirviendo el polvo del septuagésimo arco iris y la lengua de Kiselaton, una bestia gigante capaz de cruzar el infierno. Está lleno de colores brillantes. Inmediatamente después de beberlo, se siente un ardor por dentro, pero se dice que quien lo bebe lentamente muere sintiéndose plenamente feliz."
+    }
+  },
+  "s4": {
+    "name": "Pocíon de Cosquillas Cosquillas!",
+    "description": "Los venenos atacan al enemigo con Poción de Cosquillas Cosquillas durante {0} segundos, causando un total de {1} Daño Fis.mientras dure, y no se puede disipar. Poción de Cosquillas Cosquillas se puede acumular un máximo 50 veces.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "la Poción de Cosquillas Cosquillas! se acumula por 3 a la vez",
+    "dark": "El objetivo recibe un 20% de Daño Fis. aumentado"
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Oportunidad Crit +100",
+    "dark": "Al atacar automáticamente a un enemigo con 50 o más pilas de la Poción de Cosquillas Cosquillas, causa un 200% del ATQ como Daño Fis. adicional que ignora la DEF."
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Artemia",
+  "subtitle": "Impératrice de Lumière",
+  "description": "La Reine de Pentheonia, le Royaume Absolu qui n'a pas bougé d'un pouce face aux Démons il y a 100. Son bâton contient une lumière brillante de justice, elle l'utilise pour réduire ses ennemis en cendres.",
+  "story": "Penteonia est un royaume impénétrable. Même l'Armée Démoniaque ne put briser ses défenses il y a cent ans. Artemia, Impératrice de la Lumière, règne sur ce royaume. Depuis son enfance, elle s'est préparée à la responsabilité du trône qui l'attendait. Lorsqu'elle comprit enfin que la victoire de son royaume ne pouvait s'obtenir que par les sacrifices de son peuple, elle jura de ne jamais ignorer son devoir. Elle endosse la responsabilité et les pressions de sa charge royale avec courage. Penteonia a longtemps été un royaume égoïste, uniquement intéressé par sa propre sécurité. Désormais, avec Artemia comme dirigeant, tout va changer.",
+  "like": "Les gâteaux sucrés, les yeux des chevaliers vertueux",
+  "dislike": "Les démons",
+  "inn": {
+    "idle": "Je suis venu vous chercher.",
+    "recruit": {
+      "greet": "N'oubliez pas que je suis là pour vous.",
+      "talk": [
+        "Est-ce votre marque de sincérité?",
+        "Je devrais me souvenir de votre visage.",
+        "Ne tremblez pas devant moi. Redressez la tête avec fierté."
+      ],
+      "gift": "C'est si précieux pour vous? Je le chérirais aussi."
+    },
+    "affinity": {
+      "greet": "Inutile de vous agenouiller.",
+      "talk": [
+        "Il semble que je ne suis pas la seule à avoir été choisie par la lumière.",
+        "Je me demande comment s'en sortent les jeunes de la Garde royale."
+      ],
+      "gift": "Merci pour votre générosité."
+    },
+    "relationship": {
+      "greet": "Vous semblez bien aller.",
+      "talk": [
+        "Père et Mère ne supportent plus le lourd fardeau de la couronne. Ils profitent maintenant de leur vie ensemble, loin des soucis.",
+        "Peu de Chevaliers ici à Orvelia sont assez précieux pour faire partie de la cour de n'importe quel dirigeant.",
+        "Je ne m'esquiverai pas face aux responsabilités qui me tombent entre les mains. Malgré tout, c'est bien de vous avoir avec moi pour partager ce fardeau."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Brauxio, Gloire Rayonnante",
+    "description": [
+      "Toutes les 15 sec, un Bouclier est créé pendant 10 sec à hauteur de 200% de l'ATQ. L'ATQ augmente également de 20% et une immunité aux Contrôles est active pendant toute la durée du Bouclier.",
+      "Toutes les 15 sec, un Bouclier est créé pendant 10 sec à hauteur de 240% de l'ATQ. L'ATQ augmente également de 24% et une immunité aux Contrôles est active pendant toute la durée du Bouclier.",
+      "Toutes les 15 sec, un Bouclier est créé pendant 10 sec à hauteur de 290% de l'ATQ. L'ATQ augmente également de 29% et une immunité aux Contrôles est active pendant toute la durée du Bouclier.",
+      "Toutes les 15 sec, un Bouclier est créé pendant 10 sec à hauteur de 350% de l'ATQ. L'ATQ augmente également de 35% et une immunité aux Contrôles est active pendant toute la durée du Bouclier.",
+      "Toutes les 15 sec, un Bouclier est créé pendant 10 sec à hauteur de 420% de l'ATQ. L'ATQ augmente également de 42% et une immunité aux Contrôles est active pendant toute la durée du Bouclier.",
+      "Toutes les 15 sec, un Bouclier est créé pendant 10 sec à hauteur de 500% de l'ATQ. L'ATQ augmente également de 50% et une immunité aux Contrôles est active pendant toute la durée du Bouclier."
+    ],
+    "story": "Ce trésor sacré de Penteonia aurait, dit-on, été envoyé par les Célestes afin d'éradiquer les démons. Ce bâton léger réputé pour ne répondre qu'aux saints rayonnait d'une formidable intensité dans les mains de la jeune Artemia, comme pour rendre hommage à la future impératrice. Cette arme puise dans l'énergie de la lumière absolue, déchaînant l'ire des cieux sur ses ennemis tout en protégeant son porteur d'une lumière divine."
+  },
+  "s1": {
+    "name": "Pilier de Lumière",
+    "description": "Place un Pilier de Lumière à l'emplacement de l'ennemi et inflige un total de {0} points de DEG M. en 3 sec et réduit l'ATQ ennemie de {1}% pendant 10 sec.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "DEG augmentés de 40%.",
+    "dark": "Chaque coup a 25% de chances d'appliquer Étourdissement pendant 1 sec."
+  },
+  "s2": {
+    "name": "Intensité Critique",
+    "description": "Inflige {0} points de DEG M. aux ennemis en ligne droite. Cette attaque ajoute 100% aux DEG Crit.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Coût en Mana réduit de 1.",
+    "dark": "Lorsque Bénédiction de Lumière atteint 10 charges, le Temps de Recharge est réduit de 50%.",
+    "ut": {
+      "name": "Fierté de la reine",
+      "description": [
+        "[Intensité critique] Donne l'immunité aux contrôles et augmente les DEG de 20 %.",
+        "[Intensité critique] Donne l'immunité aux contrôles et augmente les DEG de 24 %.",
+        "[Intensité critique] Donne l'immunité aux contrôles et augmente les DEG de 29 %.",
+        "[Intensité critique] Donne l'immunité aux contrôles et augmente les DEG de 35 %.",
+        "[Intensité critique] Donne l'immunité aux contrôles et augmente les DEG de 42 %.",
+        "[Intensité critique] Donne l'immunité aux contrôles et augmente les DEG de 50 %."
+      ],
+      "story": "Boucles d’oreille confectionnées à partir de kveril de lumière, un minéral rare qui ne semble exister qu’à Penteonia. Lorsqu’Artemia fut couronnée impératrice, elle les reçut en même temps que la couronne. Leur brillant ne s’estompe pas pendant la nuit. À vrai dire, elles semblent même luire davantage. Ces boucles d’oreille sont communément appelées les joyaux de principe et de brillance. En brillant de mille feux à ses oreilles, ce bijou rehausse la dignité de la reine."
+    }
+  },
+  "s3": {
+    "name": "Jugement de Lumière",
+    "description": "Attaque l'ennemi à 3 reprises, infligeant {0} points de DEG M. et applique Étourdissement pendant 5 sec. Le Temps de Recharge de cette compétence est réduit de 30% lorsque l'ennemi est tué.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Temps de Recharge réduit de 3 sec.",
+    "dark": "Le coût en Mana est augmenté de 1 orbe mes les DEG sont augmentés de 100%.",
+    "ut": {
+      "name": "Couronne de brillance",
+      "description": [
+        "[Jugement de Lumière] Les DEG sont augmentés de 20% et tuer un ennemi donne 700 mana.",
+        "[Jugement de Lumière] Les DEG sont augmentés de 24% et tuer un ennemi donne 700 mana.",
+        "[Jugement de Lumière] Les DEG sont augmentés de 29% et tuer un ennemi donne 700 mana.",
+        "[Jugement de Lumière] Les DEG sont augmentés de 35% et tuer un ennemi donne 700 mana.",
+        "[Jugement de Lumière] Les DEG sont augmentés de 42% et tuer un ennemi donne 700 mana.",
+        "[Jugement de Lumière] Les DEG sont augmentés de 50% et tuer un ennemi donne 700 mana."
+      ],
+      "story": "Une couronne héritée par le roi de Penteonia. Une partie a été brisée par un tyran précédent, mais elle a été réparée. Une nouvelle gemme rouge, appelée âme du Soleil a été incrustée au milieu de la couronne. Sa forme est si digne qu’on se sent obligé de s’agenouiller devant en signe de respect."
+    }
+  },
+  "s4": {
+    "name": "Bénédiction de Lumière",
+    "description": "Lors d'une attaque, il y a 50% de chances que le cible et les ennemis proches reçoivent {0} points de DEG M. pendant qu'Artemia gagne 1 charge de Bénédiction de Lumière. Cet effet est cumulable 10 fois. Chaque charge augmente l'ATQ de {1} et les DEG infligés aux ennemis non-Héros de {2}%. Réduit également les DEG reçus des ennemis non-Héros de {3}%.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Chance d'Activation maintenant à 60%.",
+    "dark": "Maximum de charges augmenté à 12."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Chances Crit +100",
+    "dark": "Lorsque les PV tombent sous les 50%, le Héros gagne une immunité à tous les DEG pendant 2 sec. Cet effet ne peut s'activer qu'une fois toutes les 30 sec."
+  }
+}

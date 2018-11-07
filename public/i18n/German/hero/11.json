@@ -1,0 +1,120 @@
+{
+  "name": "Maria",
+  "subtitle": "Gefallene Hexe",
+  "description": "Einst war sie die Heilige, die den Retter der alten Welt segnete. Die verfluchte, wütende Krähe schießt scharfe Federn auf die Feinde und bricht die feindliche Formation auf.",
+  "story": "Obwohl sie früher eine Heilige Jungfrau von Lua war, wurde sie eines Tages verdorben. Jetzt verflucht diese zynische, Krähen kommandierende Hexe ihre ehemalige Göttin aus der Dunkelheit heraus. Es gab eine Zeit, als sie mit Kyle befreundet und eine Volksheldin war. Als Kyle aber verschwand, versteckte sie sich ebenfalls vor der Welt. Schließlich kam sie als gefallene Hexe zurück, um als Speerspitze der Dämonenarmee die Menschheit zu bedrohen. Dieser Tage scheint sie eine Verschwörung zu planen, doch alleine und nicht mehr als Dämonenführerin.",
+  "like": "Verdirbt die Verehrer Luas",
+  "dislike": "Lua und ihre Kirche",
+  "inn": {
+    "idle": "Was willst du, Grünschnabel?",
+    "recruit": {
+      "greet": "Begrüße die Dunklen Mächte nicht so leichtfertig, Kind.",
+      "talk": [
+        "Keine Sorge. Ich bleibe nur für eine Nacht. Mein Zimmer ist oben, willst du mit raufkommen? Hahaha...",
+        "Hmm, du gefällst mir. 'Gefallen' natürlich in dem Sinne, dass ich dich gerne in Stücke reißen würde...",
+        "Weißt du, was ich gerne sehen würde? Dich auf Knien, während du um dein Leben bettelst."
+      ],
+      "gift": "Was für ein kurioses Geschenk, eines Grünschnabels würdig."
+    },
+    "affinity": {
+      "greet": "Also, was brauchst du?",
+      "talk": [
+        "Du scheinst immer noch etwas ahnungslos. Du hast noch einen langen Weg vor dir, ehe du ihnen entgegentreten kannst.",
+        "Du weißt es nicht ... Also weißt du nicht, wie Lua wirklich aussieht. Besser, du weißt es nicht."
+      ],
+      "gift": "Haha ... In Ordnung. Das wird ein gutes Krähenfutter abgeben."
+    },
+    "relationship": {
+      "greet": "... hmpf. Du bist also doch aufgetaucht. Und wie ich sehen kann, nicht länger ein Anfänger.",
+      "talk": [
+        "Wenn ich dich so ansehe, erinnert es mich an seine Jugend... hm...",
+        "Ich hasse Lua für das, was sie getan hat. Aber du... du bist anders.",
+        "Du bist ja wirklich ein sonderbarer Fall, akzeptierst so eine verschlagene Hexe zu akzeptieren. Wie niedlich."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Leas Bote Kokutos",
+    "description": [
+      "Verursacht 10 Sek lang stetig M.Schaden (300% d. ANG) alle 10 Sek, und reduziert Erholungsrate um 50%.",
+      "Verursacht 10 Sek lang stetig M.Schaden (375% d. ANG) alle 10 Sek, und reduziert Erholungsrate um 50%.",
+      "Verursacht 10 Sek lang stetig M.Schaden (450% d. ANG) alle 10 Sek, und reduziert Erholungsrate um 50%.",
+      "Verursacht 10 Sek lang stetig M.Schaden (525% d. ANG) alle 10 Sek, und reduziert Erholungsrate um 50%.",
+      "Verursacht 10 Sek lang stetig M.Schaden (625% d. ANG) alle 10 Sek, und reduziert Erholungsrate um 50%.",
+      "Verursacht 10 Sek lang stetig M.Schaden (750% d. ANG) alle 10 Sek, und reduziert Erholungsrate um 50%."
+    ],
+    "story": "Ein geheimnisvoller Rabe mit der Fähigkeit, zwischen den Dimensionen zu reisen. Seine Intelligenz und Gerissenheit übersteigen jene eines normalen Vogels deutlich. In Wahrheit handelt es sich dabei um ein Monster voller dunkler Energie, fast wie ein Dämon. Tatsächlich heißt es, dass diese Bestie so mächtig wie ein hochrangiger Dämon wäre. Manche behaupten, dass er gelegentlich über Schlachtfelder fliegt und in menschlichen Sprachen spricht. Viele Aspekte dieser Kreatur sind nach wie vor geheimnisumwoben."
+  },
+  "s1": {
+    "name": "Rabensturm",
+    "description": "Fügt Feinden in Reichw. {0} M.Schaden zu, wirft sie zu Boden und verringert ihre M.VERT um {2}% für {1} Sek.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "ANG-Geschw. des getroffenen Feindes wird um {0}% verringert."
+    },
+    "light": "Erhöht Schaden um 40%.",
+    "dark": "20% Chance, das Ziel 3 Sek lang zu fesseln."
+  },
+  "s2": {
+    "name": "Klaue der Fesselung",
+    "description": "Fügt 2 Feinden {0} M.Schaden zu und fesselt sie für {1} Sek.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht erlittenen M.Schaden um {0}% während d. Skill-Wirkungsdauer."
+    },
+    "light": "Erhöht Manakosten um 1. Skill trifft 3 Feinde.",
+    "dark": "Erhöht Fesseldauer um 1,5 Sek.",
+    "ut": {
+      "name": "Geister-Panzerschuh",
+      "description": [
+        "[Klaue der Fesselung] Erhöht den Schaden um 50 % und die M.Schwäche des betroffenen Feindes 10 Sek. lang um 10 %.",
+        "[Klaue der Fesselung] Erhöht den Schaden um 50 % und die M.Schwäche des betroffenen Feindes 12 Sek. lang um 10 %.",
+        "[Klaue der Fesselung] Erhöht den Schaden um 50 % und die M.Schwäche des betroffenen Feindes 14 Sek. lang um 10 %.",
+        "[Klaue der Fesselung] Erhöht den Schaden um 50 % und die M.Schwäche des betroffenen Feindes 17 Sek. lang um 10 %.",
+        "[Klaue der Fesselung] Erhöht den Schaden um 50 % und die M.Schwäche des betroffenen Feindes 21 Sek. lang um 10 %.",
+        "[Klaue der Fesselung] Erhöht den Schaden um 50 % und die M.Schwäche des betroffenen Feindes 25 Sek. lang um 10 %."
+      ],
+      "story": "Eine Klauenrüstung, die Maria Leas Boten überreichte. Die Klauenrüstung, die mit edlem Gold gefertigt ist, enthält einen Bindungsfluch, der einen erfassten Feind nie wieder loslässt. Feinde, die vom Panzerschuh des Boten erfasst wunden, sind magischen Angriffen schutzlos ausgeliefert und erleiden großen Schaden."
+    }
+  },
+  "s3": {
+    "name": "Sog der Dunkelheit",
+    "description": "Zieht Feinde in Reichw. zum Mittelpunkt und verursacht {0} M.Schaden. Der letzte Angriff betäubt Feinde für 3 Sek.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Ziel nimmt 10 Sek lang 25% erhöhten M.Schaden.",
+    "dark": "Reduziert Manakosten um 1.",
+    "ut": {
+      "name": "Halskette der Dunkelheit",
+      "description": [
+        "[Sog der Dunkelheit] Erhöht Schaden um 20% und der letzte Angriff verringert die P.VERT und M.VERT des Ziels für 7 Sek. umd 30%.",
+        "[Sog der Dunkelheit] Erhöht Schaden um 24% und der letzte Angriff verringert die P.VERT und M.VERT des Ziels für 7 Sek. umd 30%.",
+        "[Sog der Dunkelheit] Erhöht Schaden um 29% und der letzte Angriff verringert die P.VERT und M.VERT des Ziels für 7 Sek. umd 30%.",
+        "[Sog der Dunkelheit] Erhöht Schaden um 35% und der letzte Angriff verringert die P.VERT und M.VERT des Ziels für 7 Sek. umd 30%.",
+        "[Sog der Dunkelheit] Erhöht Schaden um 42% und der letzte Angriff verringert die P.VERT und M.VERT des Ziels für 7 Sek. umd 30%.",
+        "[Sog der Dunkelheit] Erhöht Schaden um 50% und der letzte Angriff verringert die P.VERT und M.VERT des Ziels für 7 Sek. umd 30%."
+      ],
+      "story": "Asche eines grauen Boten, die das Ende ankündigt. Dies ist die Asche des Raben, der vor hundert Jahren in die Kirche von Lua flog, kurz bevor die Republik der Grauen zerbrach. Alle ignorierten diesen unheilvollen Boten und nur Priesterin Maria kümmerte sich um ihn bis zu seinem letzten Tag. Selbst nach seinem Tod hat er Maria geholfen, ihren Bereich der Dunkelheit zu vergrößern, indem er seine dunkle Energie über ihr verbreitet."
+    }
+  },
+  "s4": {
+    "name": "Schwarzer Wind",
+    "description": "ANG der Feinde, die von Maria Schaden erleiden, ist {0} Sek lang um {1} reduziert.",
+    "books": {
+      "0": "ANG Verringerungs-Rate erhöht um {0}%.",
+      "1": "ANG Verringerungs-Rate erhöht um {0}%.",
+      "2": "Verringert die krit. Trefferchance des Feindes um {0}% während d. Wirkungsdauer."
+    },
+    "light": "Erhöht ANG-Reduzierung um 40%.",
+    "dark": "Reduziert feindliche M. Krit.-Widerstand 10 Sek lang um 25%."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / Krit. Chance +100",
+    "dark": "Die Effekt-Resistenz des Ziels ist bei einem Krit. Treffer für 10 Sek. um 250 reduziert und alle Skill-Cooldowns, inklusive des genutzten Skills, sind um 2% reduziert."
+  }
+}

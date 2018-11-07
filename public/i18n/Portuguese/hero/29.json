@@ -1,0 +1,120 @@
+{
+  "name": "Luna",
+  "subtitle": "Criança do Luar",
+  "description": "Uma crianca não identificada que porta um estilingue tão grande quanto seu corpo. Seus projéteis ganham força proporcionalmente à distância que eles voam.",
+  "story": "Lulus, que raramente são vistos e são geralmente considerados seres míticos, constituem uma raça de animais híbridos. Um dia, uma criança Lulu nasceu com a personalidade oposta àquela que é típica da sua raça. Essa criança era Luna. Ela não tinha nada contra os modos do seu povo, e nem tinha um grande propósito para vivenciar o mundo lá fora. Ela estava simplesmente colhendo flores, um passo de cada vez. Outro passo para pegar alguns galhos congelados para o seu estilingue. E mais um passo para seguir o cheiro de uma doce fruta vermelha. Quando deu por si, estava lá fora, se afastando da montanha e correndo na direção de uma plantação de cenouras.",
+  "like": "Cenouras, amigos",
+  "dislike": "Fome",
+  "inn": {
+    "idle": "Oi! Você tem uma cenoura?!",
+    "recruit": {
+      "greet": "Oi! Oi para você tambem! Oi a todos!",
+      "talk": [
+        "Você sabe o que é isso? Cenouras!",
+        "Cenouras com cor de cenoura! Yay!",
+        "Coelho? Nah, Luna é Luna!"
+      ],
+      "gift": "Yay, cenouras!! Esperar? Estas não são cenouras!!"
+    },
+    "affinity": {
+      "greet": "Olá! Luna está aqui novamente!",
+      "talk": [
+        "Este lugar é divertido! Luna gosta muito! Muito mesmo!",
+        "Luna vai abençoar você! Com cenouras!"
+      ],
+      "gift": "Isto é uma cenoura de verdade, certo?"
+    },
+    "relationship": {
+      "greet": "Luna está indo muito bem!",
+      "talk": [
+        "Luna tem vários amigos em casa! Mas Luna não lembra onde fica sua casa!",
+        "Todos pensam que a coisa preferida de Luna é cenouras! E, sim, isso é verdade!",
+        "Ah, hm... você tem uma cenoura?"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Hyacinth, Flor da Eternidade",
+    "description": [
+      "Aumenta o DAN de ataques normais em 20% e o Alcance em 6%.",
+      "Aumenta o DAN de ataques normais em 24% e o Alcance em 7.2%.",
+      "Aumenta o DAN de ataques normais em 29% e o Alcance em 8.6%.",
+      "Aumenta o DAN de ataques normais em 35% e o Alcance em 10.5%.",
+      "Aumenta o DAN de ataques normais em 42% e o Alcance em 12.5%.",
+      "Aumenta o DAN de ataques normais em 50% e o Alcance em 15%."
+    ],
+    "story": "Um estilingue feito de jacinto, uma árvore prateada que cresce em regiões de frio extremo. Dizem que jacintos foram abençoados pela Rainha do Gelo e que produzem frutos de um vermelho vivo mesmo nos climas mais frios. O simples ato de segurar um galho de jacinto permite que uma pessoa ignore o frio ao seu redor. Essas árvores abençoadas têm o poder de invocar nevascas e geadas. É evidente que os poderes são mais bem aproveitados com uma arma entalhada a partir de uma dessas árvores."
+  },
+  "s1": {
+    "name": "Pew!",
+    "description": "Causa {0} de DAN.M ao inimigo mais próximo disparando um projétil propagante que se propaga 3 vezes. Quanto mais distante o inimigo estiver, maior será o DAN causado.",
+    "books": {
+      "0": "Aumenta o dano em {0}%.",
+      "1": "Aumenta o dano em {0}%.",
+      "2": "Aumenta o dano em {0}%."
+    },
+    "light": "Se houver 1 inimigo, aumenta o DAN em 100%.",
+    "dark": "Inimigos atingidos são atordoados por 1 segundos."
+  },
+  "s2": {
+    "name": "Cuidado Aí Em Cima!",
+    "description": "Causa {0} de DAN.M numa área pequena centrada no inimigo mais distante. Atordoa os alvos durante {1} segundos. Quanto distante o inimigo estiver, maior será o dano causado.",
+    "books": {
+      "0": "Aumenta o dano em {0}%.",
+      "1": "Aumenta o dano em {0}%.",
+      "2": "Aumenta o dano em {0}%."
+    },
+    "light": "Em troca de 2 Custos de Mana adicionais, ataca 3 vezes inimigos aleatórios.",
+    "dark": "Ignora o Bloqueio inimigo.",
+    "ut": {
+      "name": "Cenoura do Luar",
+      "description": [
+        "[Cuidado Aí Em Cima!] Aumenta o DAN em 20% e reduz a Recarga em 10% ao realizar um acerto Crít.",
+        "[Cuidado Aí Em Cima!] Aumenta o DAN em 24% e reduz a Recarga em 10% ao realizar um acerto Crít.",
+        "[Cuidado Aí Em Cima!] Aumenta o DAN em 29% e reduz a Recarga em 10% ao realizar um acerto Crít.",
+        "[Cuidado Aí Em Cima!] Aumenta o DAN em 35% e reduz a Recarga em 10% ao realizar um acerto Crít.",
+        "[Cuidado Aí Em Cima!] Aumenta o DAN em 42% e reduz a Recarga em 10% ao realizar um acerto Crít.",
+        "[Cuidado Aí Em Cima!] Aumenta o DAN em 50% e reduz a Recarga em 10% ao realizar um acerto Crít."
+      ],
+      "story": "Uma cenoura que cresceu após receber luz do luar por mil vezes. Quem é atingido por esta cenoura tem a maldade removida de si e passa a ser capaz de distinguir o bem do mal."
+    }
+  },
+  "s3": {
+    "name": "Brilha Brilha",
+    "description": "Causa {0} de DAN.M aos alvos no alcance e reduz a Chance Crít. em {2}%, durante {1} segundos.",
+    "books": {
+      "0": "Aumenta o dano em {0}%.",
+      "1": "Aumenta o dano em {0}%.",
+      "2": "Aumenta o dano em {0}%."
+    },
+    "light": "Reduz a PREC dos inimigos atingidos em 150 por 7 segundos.",
+    "dark": "Em troca de 1 Custo de Mana adicional, repele o inimigo para bem longe.",
+    "ut": {
+      "name": "Flor da Neve Indissolúvel",
+      "description": [
+        "[Brilha Brilha] Aumenta o DAN em 20% e o alvo atingido com redução de Chance de Crit não pode remover o efeito.",
+        "[Brilha Brilha] Aumenta o DAN em 24% e o alvo atingido com redução de Chance de Crit não pode remover o efeito.",
+        "[Brilha Brilha] Aumenta o DAN em 29% e o alvo atingido com redução de Chance de Crit não pode remover o efeito.",
+        "[Brilha Brilha] Aumenta o DAN em 35% e o alvo atingido com redução de Chance de Crit não pode remover o efeito.",
+        "[Brilha Brilha] Aumenta o DAN em 42% e o alvo atingido com redução de Chance de Crit não pode remover o efeito.",
+        "[Brilha Brilha] Aumenta o DAN em 50% e o alvo atingido com redução de Chance de Crit não pode remover o efeito."
+      ],
+      "story": "Uma flor lendária de campo de neve que floresceu nas terras que nunca degelam na Montanha Gélida da Terra dos Ventos. Dizem que ela faz com que a energia corporal de seu mestre flua livre e lindamente. Um item que faz a energia pura de Luna brilhar ainda mais."
+    }
+  },
+  "s4": {
+    "name": "Peguei Você!",
+    "description": "A cada {0} segundos, causa {2} DAN.M ao inimigo mais distante durante {1} segundos. Quando mais distante o inimigo estiver, maior será o DAN causado.",
+    "books": {
+      "0": "Aumenta o dano em {0}%.",
+      "1": "Aumenta o dano em {0}%.",
+      "2": "Aumenta o dano em {0}%."
+    },
+    "light": "Há 20% de chance de repelir o inimigo para bem longe e derrubá-lo durante 2 segundos.",
+    "dark": "Altera a quantidade de alvos para 2."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / DAN Crít. +20%",
+    "dark": "Quando atacar automaticamente, há 10% de chance de repelir o inimigo para longe e Atordoar durante 3 segundos. Aumenta a VEL. ATQ em 500, durante 3 segundos."
+  }
+}

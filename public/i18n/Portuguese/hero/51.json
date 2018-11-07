@@ -1,0 +1,120 @@
+{
+  "name": "Aselica",
+  "subtitle": "Guardiã do Sol",
+  "description": "Como uma amazona dos virtuosos céus, ela pune o mal com a sua espada e protege os fracos com o seu escudo. Ela desceu até o nosso mundo a fim de derrotar os Demônios que estavam destruindo o reino terrestre. Sua bela espada e escudo são brandidos para derrotar inimigos e proteger seus companheiros com a sua luz.",
+  "story": "Um poderoso anjo que defende o refúgio dos seus companheiros. Mesmo entre os Anjos que brandem o poder da luz, ela tem uma conexão especial com o sol, cuja luz divina usa para lutar contra a escuridão. Ela tem a tarefa de proteger as almas de outros anjos que aguardam a ressurreição. Quando a Espada Sagrada ressurgiu, ela atendeu ao chamado divino para se juntar ao novo protetor do mundo. Ela irá garantir que nenhum guerreiro escolhido jamais sucumba à escuridão novamente.",
+  "like": "Conterrâneos, impor ordem",
+  "dislike": "Demônios",
+  "inn": {
+    "idle": "Então é aqui que mora o Herói...",
+    "recruit": {
+      "greet": "Que a bênção do Sol esteja com você.",
+      "talk": [
+        "Eu não perderei para meros Demônios.",
+        "O Sol não discrimina, e compartilha sua luz com todos.",
+        "Você conhece um homem chamado Arch?"
+      ],
+      "gift": "Isso não utilidade alguma para mim... mas, ainda assim, obrigada."
+    },
+    "affinity": {
+      "greet": "Guerreiro(a). Então é aqui que você descansa.",
+      "talk": [
+        "Os Demônios são malignos. Devem ser aniquilados, custe o que custar.",
+        "Não se esqueça de que o sol está sempre brilhando atrás de você."
+      ],
+      "gift": "Humanos podem ser muito atenciosos. Enfim, obrigada."
+    },
+    "relationship": {
+      "greet": "Eu sinto o calor do sol vindo de você. Aconteceu alguma coisa boa?",
+      "talk": [
+        "Então, havia Demônios tentando salvar o mundo. Que estranho.",
+        "O Santuário dos Anjos é para onde todos nós voltamos mais cedo ou mais tarde.",
+        "Eu sou sua Guardiã - e, por isso, eu ofereço minhas armas para você."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Aura Solar, Ignisius",
+    "description": [
+      "Quando um ataque normal atinge o inimigo 5 vezes, o alvo recebe 20% mais DAN M. por 10 segundos e fica atordoado por 0,5 segundos.",
+      "Quando um ataque normal atinge o inimigo 5 vezes, o alvo recebe 24% mais DAN M. por 10 segundos e fica atordoado por 0,5 segundos.",
+      "Quando um ataque normal atinge o inimigo 5 vezes, o alvo recebe 29% mais DAN M. por 10 segundos e fica atordoado por 0,5 segundos.",
+      "Quando um ataque normal atinge o inimigo 5 vezes, o alvo recebe 35% mais DAN M. por 10 segundos e fica atordoado por 0,5 segundos.",
+      "Quando um ataque normal atinge o inimigo 5 vezes, o alvo recebe 42% mais DAN M. por 10 segundos e fica atordoado por 0,5 segundos.",
+      "Quando um ataque normal atinge o inimigo 5 vezes, o alvo recebe 50% mais DAN M. por 10 segundos e fica atordoado por 0,5 segundos."
+    ],
+    "story": "As lendas falam de um metal misterioso, dourado como os gloriosos raios do sol, azul como o céu e branco como a luz ofuscante. Este conjunto sagrado de espada e escudo foi forjado com esse metal especial que apenas Anjos são capazes de manusear. Esses itens são relíquias divinas de proteção, criados para banir a escuridão e deixar o mundo cheio de luz. Concedidas apenas ao mais íntegro dos Cavaleiros Guardiões dos Anjos, essas relíquias podem instantaneamente incinerar qualquer Demônio que encarar sua luz."
+  },
+  "s1": {
+    "name": "Espada do Sol",
+    "description": "Causa {0} de DAN M. no inimigo e em inimigos dentro de alcance, além de infligir Atordoamento por {1} seg.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "Aumenta a duração do Atordoamento em {0} segundos."
+    },
+    "light": "Após ativação, aumenta a Vel. de ATQ em 350 por 5 seg.",
+    "dark": "Reduz o tempo de recarga em 2 seg."
+  },
+  "s2": {
+    "name": "Bênção do Sol",
+    "description": "Imbui a Bênção do Sol no aliado com maior ATQ, reduzindo o tempo de recarga de todas as habilidades em 20% e aumentando o ATQ em {0} por 15 seg.",
+    "books": {
+      "0": "Aumenta a Taxa de Aumento de ATQ em {0}%.",
+      "1": "Aumenta a Taxa de Aumento de ATQ em {0}%.",
+      "2": "Aumenta a Taxa de Aumento de ATQ em {0}%."
+    },
+    "light": "Aumenta o Custo de Mana em 1 e concede o efeito aos 2 aliados com maior ATQ.",
+    "dark": "Usada enquanto ignora efeitos negativos em si e remove efeitos negativos no aliado alvo.",
+    "ut": {
+      "name": "Pulseira do Sol",
+      "description": [
+        "[Bênção do Sol] Reduz o Custo de Mana em 1 e diminui a DAN.F do alvo em 10% por 10s.",
+        "[Bênção do Sol] Reduz o Custo de Mana em 1 e diminui a DAN.F do alvo em 12% por 10s.",
+        "[Bênção do Sol] Reduz o Custo de Mana em 1 e diminui a DAN.F do alvo em 14% por 10s.",
+        "[Bênção do Sol] Reduz o Custo de Mana em 1 e diminui a DAN.F do alvo em 17% por 10s.",
+        "[Bênção do Sol] Reduz o Custo de Mana em 1 e diminui a DAN.F do alvo em 21% por 10s.",
+        "[Bênção do Sol] Reduz o Custo de Mana em 1 e diminui a DAN.F do alvo em 25% por 10s."
+      ],
+      "story": "Pulseira feita pelos Arcanjos para proteger os Anjos quando eles descem para a Terra. Por ter o sol dentro de si, a pulseira reluz intensamente. Dizem que, quando os anjos sentem medo, a luz do sol da pulseira protege suas almas. Os destinos dos anjos são entrelaçados na pulseira, e dessa forma, eles instintivamente sentem a dor do outro quando suas vidas são ameaçadas."
+    }
+  },
+  "s3": {
+    "name": "Julgamento do Sol",
+    "description": "Assume posição, foca para recuperar PV de aliados próximos (exceto do utilizador) por 8 vezes num total de {0} e aumenta suas DEF F. em {1} por 5 seg. Também inflige um total de {2} de DAN M. por 8 vezes em inimigos dentro de alcance, além de reduzir suas DEF F. em {3} por 5 seg. Terminada a utilização, recupera PV de aliados dentro de alcance (exceto do utilizador) em {4}. Também inflige {5} de DAN M. em inimigos e os derruba por 3 seg.",
+    "books": {
+      "0": "DAN e Recuperação aumentam em {0}%.",
+      "1": "DAN e Recuperação aumentam em {0}%.",
+      "2": "DAN e Recuperação aumentam em {0}%."
+    },
+    "light": "Reduz o Custo de Mana em 1.",
+    "dark": "Aumenta em 5 seg. a duração do efeito de redução de DEF M.",
+    "ut": {
+      "name": "Trompete do Guardião",
+      "description": [
+        "[Julgamento do Sol] Ganha imunidade a CM enquanto estiver em uso, mas aumenta o Reforço de DEF.F e Redução de DEF.M em 20%.",
+        "[Julgamento do Sol] Ganha imunidade a CM enquanto estiver em uso, mas aumenta o Reforço de DEF.F e Redução de DEF.M em 24%.",
+        "[Julgamento do Sol] Ganha imunidade a CM enquanto estiver em uso, mas aumenta o Reforço de DEF.F e Redução de DEF.M em 29%.",
+        "[Julgamento do Sol] Ganha imunidade a CM enquanto estiver em uso, mas aumenta o Reforço de DEF.F e Redução de DEF.M em 35%.",
+        "[Julgamento do Sol] Ganha imunidade a CM enquanto estiver em uso, mas aumenta o Reforço de DEF.F e Redução de DEF.M em 42%.",
+        "[Julgamento do Sol] Ganha imunidade a CM enquanto estiver em uso, mas aumenta o Reforço de DEF.F e Redução de DEF.M em 50%."
+      ],
+      "story": "Um trompete que dizem só poder ser usado pelo líder dos Arcanjos quando a catástrofe que destruirá o Mundo Material chegar. Dizem que quando os guardiões ouvem o som do trompete, eles despertam e descem para proteger este mundo."
+    }
+  },
+  "s4": {
+    "name": "Maldição do Sol",
+    "description": "Ao atacar o alvo, coloca os inimigos em estado de Maldição do Sol por 10 seg. Inimigos com 10 Maldições do Sol acumuladas irão consumi-las e receberão {0} de DAN M., além de serem cegados por {1} seg. e de terem seu ATQ reduzido em {2}% por 10 seg.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "DAN aumenta em {0}%."
+    },
+    "light": "Altera a Redução de ATQ para 30%.",
+    "dark": "Ativa o efeito quando a Maldição do Sol acumula 7 vezes."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / BLQ.F +200",
+    "dark": "No início da primeira batalha, aumenta a DEF F. do aliado com o ATQ mais alto em 20% da DEF F. Esse efeito não pode ser removido."
+  }
+}

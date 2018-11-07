@@ -1,0 +1,120 @@
+{
+  "name": "Scarlet",
+  "subtitle": "Foi d'Argent",
+  "description": "Une princesse d'Orvelia qui aime vraiment son peuple. Elle porte son épée pour protéger les faibles et soutient la justice, comme un vrai chevalier. Elle tranche ses ennemis avec une Grande Épée magique qui perturbe la Mana.",
+  "story": "Le roi Veroglance II d'Orvelia s'affaiblissait de jour en jour. Il était autrefois un puissant monarque que personne n'osait contredire. Cependant, il commença à faire preuve de faiblesse avec l'âge. Lorsqu'il finit par tomber malade, les aspirants au pouvoir commencèrent à s'amasser autour de lui comme des mouches autour d'un festin. Scarlet tenta de protéger son père dans tout ce chaos. Hélas, le roi, manipulé par les flatteurs qui l'entouraient, n'était plus l'homme qu'il était autrefois. Il refusa d'écouter les conseils de sa fille. Les nobles ne voulaient plus d'elle, la seule enfant du roi, comme nouvelle reine. L'atmosphère du château devient de plus en plus irrespirable du fait des pressions des nobles. Cependant, elle refuse de plier. Elle est prête à se battre pour protéger son royaume et son peuple. Elle fera tout pour empêcher les gens assoiffés de pouvoir prendre le contrôle du royaume.",
+  "like": "Les gens honnêtes, juste les gens",
+  "dislike": "Les opportunistes, les oppresseurs des faibles",
+  "inn": {
+    "idle": "Hum. Plus propre que prévu.",
+    "recruit": {
+      "greet": "Je suppose que vous avez des affaires avec moi?",
+      "talk": [
+        "Ne soyez pas si distant. Approchez.",
+        "Dites-m'en plus sur votre histoire.",
+        "Ce pays est encore debout grâce à vos efforts. Je vous remercie du plus profond de mon coeur."
+      ],
+      "gift": "... Mer... Merci..."
+    },
+    "affinity": {
+      "greet": "Heureuse de vous voir.",
+      "talk": [
+        "N'oublions pas que les gens sont le pilier de ce pays.",
+        "La maladie de mon père m'inquiète."
+      ],
+      "gift": "Comme toujours, je vous remercie. J'en ferai bon usage."
+    },
+    "relationship": {
+      "greet": "Nous nous recroisons. Prenez un siège... parlons.",
+      "talk": [
+        "Pensez-vous que non seulement la capitale d'Orvel, mais également la globalité d'Orvelia, a changé...?",
+        "Je mentirais si je disais que je ne suis pas fatigué... Quand bien même, j'essaie de ne pas l'être.",
+        "J'ai des serviteurs dignes de confiance avec moi. Grâce à eux, je peux toujours continuer... Haha, tellement obstiné et direct, celui-là."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Lame de Conviction, Belona Blanche",
+    "description": [
+      "Pour chaque Compétence en recharge, les DMG sont augmentés de 8%.",
+      "Pour chaque Compétence en recharge, les DMG sont augmentés de 10%.",
+      "Pour chaque Compétence en recharge, les DMG sont augmentés de 12%.",
+      "Pour chaque Compétence en recharge, les DMG sont augmentés de 14%.",
+      "Pour chaque Compétence en recharge, les DMG sont augmentés de 17%.",
+      "Pour chaque Compétence en recharge, les DMG sont augmentés de 20%."
+    ],
+    "story": "L'épée la plus légendaire de tout Orvelia. Cette lame sacrée s'est transmise de génération en génération au sein de la famille royale d'Orvelia depuis l'avènement du royaume et symbolise l'autorité du monarque. Le roi Kyle a également déjà manié cette épée, jusqu'à être choisi par Aea l'Épée Sacrée. Bénie par le pouvoir de la lumière, sa lame peut neutraliser n'importe quelle magie en tranchant son flux. Seul un chevalier vertueux et de noble lignage peut brandir cette épée. Ceux qui souhaitent s'en servir doivent d'abord réussir l'épreuve de la famille royale, un exploit que seule Scarlet est parvenue à accomplir après Kyle."
+  },
+  "s1": {
+    "name": "Taille!",
+    "description": "Attaque tous les ennemis situés en face, ce qui leur inflige {0}  points de DEG P et les renverse pendant 3 sec. Si la cible n'est pas un héros, inflige {1}  points de DEG P supplémentaires. Restaure les PV à hauteur de 30 % des DEG infligés.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "La cible reçoit {0}% de DEG P. supplémentaires pendant 10 sec."
+    },
+    "light": "Le coût en Mana est réduit de 1.",
+    "dark": "Permet de dissiper tous les Effets Négatifs sur le Héros"
+  },
+  "s2": {
+    "name": "Justice Servie",
+    "description": "Dissipe les effets négatifs sur tous les alliés et dissipe les améliorations de tous les ennemis, tout en infligeant {0} points de DEG P.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Si la cible n'est pas un héros, elle est étourdie pendant 4 sec.",
+    "dark": "La Résistance aux Crit P. de tous les alliés est augmentée de 200 pendant 10 sec.",
+    "ut": {
+      "name": "Ailes de la justice",
+      "description": [
+        "[Justice servie] Augmente les DEG de 20 % et réduit le temps de recharge de tous les alliés de 10 %.",
+        "[Justice servie] Augmente les DEG de 24 % et réduit le temps de recharge de tous les alliés de 10 %.",
+        "[Justice servie] Augmente les DEG de 29 % et réduit le temps de recharge de tous les alliés de 10 %.",
+        "[Justice servie] Augmente les DEG de 35 % et réduit le temps de recharge de tous les alliés de 10 %.",
+        "[Justice servie] Augmente les DEG de 42 % et réduit le temps de recharge de tous les alliés de 10 %.",
+        "[Justice servie] Augmente les DEG de 50 % et réduit le temps de recharge de tous les alliés de 10 %."
+      ],
+      "story": "Pendentif confectionné par Scarlet, dont les principes sont tels qu’elle ne peut plier face à l’injustice ou rester indifférente face à la lâcheté. Elle en a offert un à tous les gens qui lui sont indispensables, c’est-à-dire Clause et Demia. Les ailes brillantes de l’émeraude royale, symboles de justice, sont incrustées dans le pendentif. Il suffit de regarder le reflet de ses yeux dans le pendentif pour sentir tous ses problèmes s’évaporer. Scarlet le regarde pour trouver du réconfort à chaque fois que les gens accusent son père Veroglance II."
+    }
+  },
+  "s3": {
+    "name": "Épée de Fierté",
+    "description": "Inflige un total de {0} point de DEG P. sur un total de 3 attaques sur l'ennemi ciblé et l'Épée lance une explosion d'énergie qui inflige {1} points de DEG P. aux ennemis en ligne droite en les aveuglant pendant 5 sec.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Le coût en Mana est réduit de 1.",
+    "dark": "Les soins sur les ennemis touchés sont réduits de 40% pendant 10 sec.",
+    "ut": {
+      "name": "Fierté d'Orvelia",
+      "description": [
+        "[Épée de Fierté] Les DEG sont augmentés de 20% et chaque attaque applique Étourdissement sur l'ennemi pendant 3 sec.",
+        "[Épée de Fierté] Les DEG sont augmentés de 24% et chaque attaque applique Étourdissement sur l'ennemi pendant 3 sec.",
+        "[Épée de Fierté] Les DEG sont augmentés de 29% et chaque attaque applique Étourdissement sur l'ennemi pendant 3 sec.",
+        "[Épée de Fierté] Les DEG sont augmentés de 35% et chaque attaque applique Étourdissement sur l'ennemi pendant 3 sec.",
+        "[Épée de Fierté] Les DEG sont augmentés de 42% et chaque attaque applique Étourdissement sur l'ennemi pendant 3 sec.",
+        "[Épée de Fierté] Les DEG sont augmentés de 50% et chaque attaque applique Étourdissement sur l'ennemi pendant 3 sec."
+      ],
+      "story": "Un drapeau de fête pour célébrer le roi lors de la fondation d’Orvelia. Lorsque Scarlet le voit, elle est furieuse en pensant aux sujets traîtres qui réduisirent son père à un simple épouvantail et aux flatteurs qui ruinèrent le pays. Scarlet est encore plus déterminée à restaurer la gloire d’antan d’Orvelia et de rendre le trône plus fort."
+    }
+  },
+  "s4": {
+    "name": "Déesse de la Guerre",
+    "description": "Toutes les Résistances aux Crit sont augmentées de {0}. Les attaques auto ont 10% de chances d'infliger {1} points de DEG P. supplémentaires et d'appliquer Étourdissement pendant 1 sec sur la cible.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "La Résistance aux Crit augmente de 300.",
+    "dark": "S'il n'y a qu'un seul ennemi, la durée des Étourdissement est augmentée de 2 sec."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Résist. Contrôles +100",
+    "dark": "Si le Héros subit des DEG Crit, il y a 5% de chances que toutes les Améliorations soient dissipées sur l'attaquant et qu'il subisse Étourdissement pendant 1 sec. Temps de Recharge: 8 sec."
+  }
+}

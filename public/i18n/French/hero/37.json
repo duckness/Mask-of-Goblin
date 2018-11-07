@@ -1,0 +1,120 @@
+{
+  "name": "Tanya",
+  "subtitle": "Lame Silencieuse",
+  "description": "Assassin d'élite des Masques Rieurs et ancienne collègue de Roy. Autrefois, elle était 'nettoyeuse' et traquait les traitres. Ses dagues tranchantes ne ratent jamais leur cible.",
+  "story": "Une assassin du Masque Rieur. Même si en tant que Demi-Elfe, elle a l'avantage physique sur Roi, elle n'a pas sa sagesse ni sa capacité à nouer des contacts avec les autres, des talents essentiels pour toute opération de grande ampleur. C'est pour cela qu'elle a développé un genre de complexe d'infériorité. En tant que « nettoyeuse » de l'organisation, elle avait pour tâche d'éliminer les traîtres. Lorsque Roi abandonna l'organisation, elle se lança à sa poursuite pour comprendre ses motivations, en lâchant toutes ses autres tâches. Nul ne sait ce qu'elle fera une fois qu'elle l'aura retrouvé.",
+  "like": "Roi",
+  "dislike": "Roi, le Masque Rieur, le sang de Demi-Elfe",
+  "inn": {
+    "idle": "...",
+    "recruit": {
+      "greet": "...Hmmpf.",
+      "talk": [
+        "...Ne me parlez pas.",
+        "...N'essayez pas de discuter avec une femme qui ne sait rien faire d'autre que tuer.",
+        "...*soupir*"
+      ],
+      "gift": "... Je vais accepter... pour l'instant."
+    },
+    "affinity": {
+      "greet": "Hum...",
+      "talk": [
+        "Je refuse de travailler comme concierge...",
+        "On peut se faire tuer à tout moment."
+      ],
+      "gift": "Je n'ai... pas besoin de ça..."
+    },
+    "relationship": {
+      "greet": "... Alors vous êtes venu.",
+      "talk": [
+        "Désolé... Je ne suis pas du genre causant.",
+        "Ce ne serait pas très drôle de discuter avec quelqu'un comme moi...",
+        "Pourquoi vous intéressez-vous à quelqu'un comme moi...? Je ne comprends pas..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Caethasis, Demon de la Tranquilité",
+    "description": [
+      "Les attaques auto donnent 10% de chance au Héros d'infliger 200% de DEG P. additionnels à la cible et donne Furtivité pendant 10 sec. Temps de recharge: 10 sec.",
+      "Les attaques auto donnent 12% de chance au Héros d'infliger 240% de DEG P. additionnels à la cible et donne Furtivité pendant 10 sec. Temps de recharge: 10 sec.",
+      "Les attaques auto donnent 14% de chance au Héros d'infliger 290% de DEG P. additionnels à la cible et donne Furtivité pendant 10 sec. Temps de recharge: 10 sec.",
+      "Les attaques auto donnent 17% de chance au Héros d'infliger 350% de DEG P. additionnels à la cible et donne Furtivité pendant 10 sec. Temps de recharge: 10 sec.",
+      "Les attaques auto donnent 20% de chance au Héros d'infliger 420% de DEG P. additionnels à la cible et donne Furtivité pendant 10 sec. Temps de recharge: 10 sec.",
+      "Les attaques auto donnent 25% de chance au Héros d'infliger 500% de DEG P. additionnels à la cible et donne Furtivité pendant 10 sec. Temps de recharge: 10 sec."
+    ],
+    "story": "La guerre démoniaque remonte à cent ans. Durant cette guerre, la plus grande menace que connut l'humanité fut incontestablement les officiers démoniaques supérieurs. Caethasis, le Démon de la Tranquillité, était le plus dangereux d'entre eux. Convoitant spécifiquement l'âme des utilisateurs de la magie, il massacra un nombre incalculable de sorciers et de prêtres. Caethasis finit par être vaincu par Kyle et son noyau scellé. Cependant, des années plus tard, le Masque Rieur entra en possession de son noyau, le hissant de nouveau au rang d'instrument de mort."
+  },
+  "s1": {
+    "name": "Cible Acquise",
+    "description": "Le Héros se déplace derrière l'ennemi avec la plus faible DEF P. et augmente les DEG P. qu'il reçoit de {0}%. Renverse également l'ennemi et inflige {1} points de DEG P. Si Furtivité est active, applique Étourdissement sur la cible pendant 6 sec. Sinon, donne Furtivité pour 10 sec. Pendant Furtivité, les Chances de Crit et le l'Esquive sont augmentés de 50.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "Chances de Crit augmentées de {0}."
+    },
+    "light": "Réduit de 30 % la récupération de la cible.",
+    "dark": "Pendant 10 sec, la résistance aux Crit P. de la cible est réduite de 250."
+  },
+  "s2": {
+    "name": "Tornade de Lames",
+    "description": "Attaque à 3 reprises les ennemis proches et inflige un total de {0} points de DEG P. et applique 1 Saignement par coup. Si Furtivité est active, la Récupération est réduite de 70%. Sinon, donne Furtivité pour 10 sec.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "Chances de Crit augmentées de {0}."
+    },
+    "light": "S'il y a 1 ennemi, les DEG sont augmentés de 100%.",
+    "dark": "Un Coup Crit permet la récupération de 200 Mana.",
+    "ut": {
+      "name": "Ceinture Masque Rieur",
+      "description": [
+        "[Tornade de lames] Augmente les DEG de 20 % et réduit le temps de recharge de 8 % lorsque vous assénez un coup critique.",
+        "[Tornade de lames] Augmente les DEG de 24 % et réduit le temps de recharge de 8 % lorsque vous assénez un coup critique.",
+        "[Tornade de lames] Augmente les DEG de 29 % et réduit le temps de recharge de 8 % lorsque vous assénez un coup critique.",
+        "[Tornade de lames] Augmente les DEG de 35 % et réduit le temps de recharge de 8 % lorsque vous assénez un coup critique.",
+        "[Tornade de lames] Augmente les DEG de 42 % et réduit le temps de recharge de 8 % lorsque vous assénez un coup critique.",
+        "[Tornade de lames] Augmente les DEG de 50 % et réduit le temps de recharge de 8 % lorsque vous assénez un coup critique."
+      ],
+      "story": "Cet outil multifonction sert aux membres du Masque rieur pour commettre leurs assassinats. Il est propre au Masque rieur, dont les membres sont connus pour leur vitesse et leur efficacité dans l'élimination de leurs cibles. Optimisé d'après le schéma d'attaque de son porteur, il permet d'améliorer la manipulation des armes de jet et renforce les attaques continues pendant Tornade de lames."
+    }
+  },
+  "s3": {
+    "name": "Chuchotement de la mort",
+    "description": "Attaque aléatoirement 6 ennemis et inflige un total de {0} points de DEG P. Lance également une attaque finale pour {1} points de DEG P. Si Furtivité est active, toutes les Améliorations de l'ennemi sont retirées. Sinon, donne Furtivité pour 10 sec.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "Chances de Crit augmentées de {0}."
+    },
+    "light": "Le coût en Mana est augmenté de 1 orbe mes les DEG sont augmentés de 100%.",
+    "dark": "Le Temps de recharge est réduit de 5 sec.",
+    "ut": {
+      "name": "Dague de silence",
+      "description": [
+        "[Chuchotement de la mort] Augmente les DEG de 20% et donne Furtivité. Si le mode Furtivité est déjà activé, l'ATQ est aussi augmentée de 20% pendant 10 sec.",
+        "[Chuchotement de la mort] Augmente les DEG de 24% et donne Furtivité. Si le mode Furtivité est déjà activé, l'ATQ est aussi augmentée de 20% pendant 10 sec.",
+        "[Chuchotement de la mort] Augmente les DEG de 29% et donne Furtivité. Si le mode Furtivité est déjà activé, l'ATQ est aussi augmentée de 20% pendant 10 sec.",
+        "[Chuchotement de la mort] Augmente les DEG de 35% et donne Furtivité. Si le mode Furtivité est déjà activé, l'ATQ est aussi augmentée de 20% pendant 10 sec.",
+        "[Chuchotement de la mort] Augmente les DEG de 42% et donne Furtivité. Si le mode Furtivité est déjà activé, l'ATQ est aussi augmentée de 20% pendant 10 sec.",
+        "[Chuchotement de la mort] Augmente les DEG de 50% et donne Furtivité. Si le mode Furtivité est déjà activé, l'ATQ est aussi augmentée de 20% pendant 10 sec."
+      ],
+      "story": "Une dague donnée à ceux qui complètent la première mission du Masque Rieur. La règle oblige les assassins à toujours porter la dague qui piste sa cible. La dague que les assassins portent comme une amulette leur murmure constamment des propos sur la mort."
+    }
+  },
+  "s4": {
+    "name": "Ambuscade Silencieuse",
+    "description": "Inflige {0}  points de DEG P supplémentaires à l'ennemi et le réduit au silence pendant {1}  sec lorsqu'un coup critique est porté pendant la compétence. Si la cible n'est pas un héros, inflige {2}  points de DEG P supplémentaires malgré la DEF et réduit la Vit ATQ de la cible de {4}  points pendant {3}  sec.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "Durée du Silence augmentée de {0} sec."
+    },
+    "light": "Augmente de 100 % les DEG supplémentaires infligés aux ennemis non-héros.",
+    "dark": "Augmente de 0,5 sec la durée de Silence."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / DEG Crit +20%",
+    "dark": "Les dégâts des attaques auto sont augmentés de 50% en mode Furtif."
+  }
+}

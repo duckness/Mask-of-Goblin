@@ -1,0 +1,120 @@
+{
+  "name": "Gau",
+  "subtitle": "Bárbaro das Terras Gélidas",
+  "description": "Um bárbaro que governa as planícies nevadas da terra congelada, ele enfraquece o moral dos inimigos com gritos ensurdecedores e investidas tempestuosas.",
+  "story": "Gau é um poderoso guerreiro do Reino Bárbaro. Sempre que brande seus dois machados, ele provoca um banho de sangue. Como um guerreiro, ele é temido por sua ferocidade inigualável. No entanto, desapareceu repentinamente por 10 anos. Quando voltou, ele tinha se tornado uma pessoa totalmente diferente. Suas tendências Bárbaras de violência haviam desaparecido mesmo quando criticado pelos outros. Pelo contrário, ele agora os encara com sorrisos e uma risada alegre. O sorriso gentil e caloroso que ele exibe para as crianças e animais é especialmente surpreendente.",
+  "like": "Crianças, animais",
+  "dislike": "Pessoas destrutivas e violentas",
+  "inn": {
+    "idle": "Você tem contato com algum bárbaro?",
+    "recruit": {
+      "greet": "Prazer em conhece você. Vamos caçar juntos algum dia.",
+      "talk": [
+        "Eu pareço forte? Eh, você está me deixando sem jeito.",
+        "Todas aquelas belezas a sua volta, não me faça sentir ciumes, amigo!",
+        "Eu sou realmente forte, hah."
+      ],
+      "gift": "O que é isso tudo? Obrigado, cara."
+    },
+    "affinity": {
+      "greet": "É meio embaraçoso fazer isso.",
+      "talk": [
+        "Tem visto a Yanne ultimamente? Como será que ela está...",
+        "O quê? Como eu conheço a Lewisia? Aquela garota... Mesmo sendo mais velha... Não é como se fosse dar certo só porque eu gosto dela..."
+      ],
+      "gift": "Obrigado. Da próxima vez, eu retribuo."
+    },
+    "relationship": {
+      "greet": "Ha! Nos encontramos de novo! Como vai?",
+      "talk": [
+        "Ah... a pequena Lei se tornou uma bela moça... e só de pensar na idade verdadeira dela... hahaha!",
+        "Eu vou fazer você em pedacinhos! - Bem, como me saí? As crianças riem quando eu faço isso.",
+        "Hahaha, um velho anão e eu bebemos muito da última vez. Na verdade, bebemos todo o álcool da Pousada! Hahahaha!!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Numinu, Pássaro Sagrado",
+    "description": [
+      "Para cada 1% de PV perdido, o ATQ aumenta em 0,8% e a VEL. ATQ em 8.",
+      "Para cada 1% de PV perdido, o ATQ aumenta em 1% e a VEL. ATQ em 10.",
+      "Para cada 1% de PV perdido, o ATQ aumenta em 1,2% e a VEL. ATQ em 12.",
+      "Para cada 1% de PV perdido, o ATQ aumenta em 1,4% e a VEL. ATQ em 14.",
+      "Para cada 1% de PV perdido, o ATQ aumenta em 1,7% e a VEL. ATQ em 17.",
+      "Para cada 1% de PV perdido, o ATQ aumenta em 2% e a VEL. ATQ em 20."
+    ],
+    "story": "Dizem que existe uma fera sagrada que protege os Bárbaros da Montanha Gélida da Terra dos Ventos. Essa fera, capaz de dissipar o poder da escuridão, é supostamente uma fênix azul feita de gelo. A arma Numinu foi criada à forma dessa fera, e seu nome significa “sagrado”. Ela foi fabricada com um gelo encantado que nunca derrete. Considerada uma relíquia sagrada entre os Bárbaros, essa arma é concedida ao seu guerreiro mais poderoso. O portador desta arma é o mais forte guerreiro dos Bárbaros e pode ser considerado o rei desse povo."
+  },
+  "s1": {
+    "name": "Golpear",
+    "description": "Causa {0} de DAN.F aos inimigos no alcance, derrubando-os durante {1} segundos no primeiro ataque.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "Reduz o custo de mana em 1.",
+    "dark": "Cada uso aumenta o DAN em 15%. Acumula-se no máximo 10 vezes."
+  },
+  "s2": {
+    "name": "Rugido de Batalha",
+    "description": "Todos os aliados ganham {1} de ATQ durante {0} segundos. Ao ativar, remove todos os efeitos negativos dos aliados.",
+    "books": {
+      "0": "Taxa de aumento de ataque aumenta em {0}%.",
+      "1": "Taxa de aumento de ataque aumenta em {0}%.",
+      "2": "Taxa de aumento de ataque aumenta em {0}%."
+    },
+    "light": "Aumenta o reforço de ATQ em 40%.",
+    "dark": "Adiciona o reforço de Vel de ATQ de 200 ao efeito.",
+    "ut": {
+      "name": "Chifre do Combatente",
+      "description": [
+        "[Rugido de Batalha] Reduz o Custo de Mana em 1 e aumenta o Impulso de ATQ em 20%.",
+        "[Rugido de Batalha] Reduz o Custo de Mana em 1 e aumenta o Impulso de ATQ em 24%.",
+        "[Rugido de Batalha] Reduz o Custo de Mana em 1 e aumenta o Impulso de ATQ em 29%.",
+        "[Rugido de Batalha] Reduz o Custo de Mana em 1 e aumenta o Impulso de ATQ em 35%.",
+        "[Rugido de Batalha] Reduz o Custo de Mana em 1 e aumenta o Impulso de ATQ em 42%.",
+        "[Rugido de Batalha] Reduz o Custo de Mana em 1 e aumenta o Impulso de ATQ em 50%."
+      ],
+      "story": "Olifante feito com o chifre de Orox, a fera guardiã da Montanha Gélida da Terra dos Ventos. Orox da Montanha Gélida concede a nobres guerreiros um grande poder e a capacidade de ver a verdade. Quando um guerreiro munido da bênção de Orox sopra este olifante, seus companheiros têm sua motivação aumentada e suas mentes elucidadas."
+    }
+  },
+  "s3": {
+    "name": "Vórtice",
+    "description": "Causa {0} de DAN.F aos inimigos no alcance, congelando-os no durante {1} segundos no último ataque. Imune a penalidades ao conjurar.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Ao conjurar, reúne todos os inimigos no alcance."
+    },
+    "light": "Reduz o tempo de recarga em 3 segundos.",
+    "dark": "Imune a todos os tipos de DAN enquanto estiver ativado.",
+    "ut": {
+      "name": "Caneca do Bárbaro",
+      "description": [
+        "[Vortex] Aumenta o DAN em 50% e os inimigos atingidos pelo último ataque recebem mais 5% de DAN por 10 segundos.",
+        "[Vortex] Aumenta o DAN em 50% e os inimigos atingidos pelo último ataque recebem mais 6% de DAN por 10 segundos.",
+        "[Vortex] Aumenta o DAN em 50% e os inimigos atingidos pelo último ataque recebem mais 7% de DAN por 10 segundos.",
+        "[Vortex] Aumenta o DAN em 50% e os inimigos atingidos pelo último ataque recebem mais 8,5% de DAN por 10 segundos.",
+        "[Vortex] Aumenta o DAN em 50% e os inimigos atingidos pelo último ataque recebem mais 10,5% de DAN por 10 segundos.",
+        "[Vortex] Aumenta o DAN em 50% e os inimigos atingidos pelo último ataque recebem mais 12,5% de DAN por 10 segundos."
+      ],
+      "story": "Caneca do Rei Bárbaro que se assentou primeiro nas montanhas nevadas. Quando o primeiro Rei Bárbaro chegou à Terra dos Ventos, jurou se tornar o guardião montanhas nevadas e partilhou esta caneca com os seres sagrados das montanhas. A magia de proteção do lobo do gelo imbuída na Caneca Bárbara aumenta o ATQ do Vórtice e o efeito de Congelar."
+    }
+  },
+  "s4": {
+    "name": "Enfurecer",
+    "description": "Ao atacar um inimigo, aumenta o ATQ em {1} , durante {0} segundos. Esse efeito pode se acumular até no máximo 10 vezes.",
+    "books": {
+      "0": "Taxa de aumento de ataque aumenta em {0}%.",
+      "1": "Aumenta a taxa de aumento de ATQ em {0}%.",
+      "2": "Resistência a penalidades aumenta em 50 a cada acúmulo."
+    },
+    "light": "Aumenta em 40% o reforço de ATQ.",
+    "dark": "Ganha um reforço de 50 de Chance Crít. e Roubo de Vida por cada acúmulo, mas recebe mais 5% de DAN por cada acúmulo."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / BLQ.F +200",
+    "dark": "Cura PV equivalente a 10% do ATQ por segundo. Cada 1% do PV perdido reduz em 0,6% o DAN recebido."
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Rodina",
+  "subtitle": "Scharfschütze des Blizzards",
+  "description": "Eine Scharfschützin, die aus einem Reich mit extrem kalten Bedingungen stammt. Sie zielt mit absolut ruhiger Hand, egal in welche Situation. Je mehr sie sich konzentriert, desto tödlicher wird sie.",
+  "story": "Die beste Scharfschützin des Imperiums und eine große Bärenliebhaberin. Sie mag sie so sehr, dass sie stets Bärenohren nachempfundene Accessoires auf ihrem Hut trägt. Gelegentlich jagt sie Tiger, doch einen Bären würde sie niemals schießen. Obwohl ihre Schießkunst perfekt für Attentate geeignet wäre, schwor sie, diese niemals unrechtmäßig einzusetzen. Stattdessen nützt sie sie, um Andere zu beschützen. Momentan lebt sie mit Pavel im Windland-Schneegebirge, als seine persönliche, vom Imperium bestellte Wache.",
+  "like": "Bären; Eisbären; Grizzlybären; kleine Bären; große Bären",
+  "dislike": "Jene, die das Leben nicht wertschätzen",
+  "inn": {
+    "idle": "Vorbereitungen für die nächste Reise ~hmhmhm~ (summt)",
+    "recruit": {
+      "greet": "Grüße! Habt einen schönen Tag~",
+      "talk": [
+        "Mit vollem Magen kämpft es sich besser!!",
+        "Gegrillte Pilze sollen also so schmackhaft sein? Dann werde ich es probieren, juhu!!",
+        "Magst du Gemüse? Ich liebe es!"
+      ],
+      "gift": "Danke!! Danke für all das Essen!!"
+    },
+    "affinity": {
+      "greet": "Oh! Danke für die Einladung!",
+      "talk": [
+        "Ich bin hungrig! Bitte gib mir zu essen!",
+        "Gemüse! Pilze!"
+      ],
+      "gift": "Hab Dank für das Essen!"
+    },
+    "relationship": {
+      "greet": "Ah?! Grüße! Hast du schon etwas gegessen?",
+      "talk": [
+        "Die Waffe eines Soldaten ist so wichtig wie sein Leben! Möchtest du mein gut gepflegtes Gewehr sehen?",
+        "Der Frostmagier, der in dieser Eishöhe wohnt, ist viel einfühlsamer als du glaubst! Er versucht es zwanghaft zu verbergen, deswegen tue ich so, als wüsste ich es nicht.",
+        "Ist Sir Fluss nicht hier? Dank ihm ist das Leben nicht annähernd so schlimm!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Rodina Spezial Gewehr Mod.0",
+    "description": [
+      "20% Chance, bei einem Angriff zusätzlichen K. Schaden (200% d. ANG) zuzufügen und den Feind zurückzuwerfen. Anschließend ist PRÄZ für 10 Sek. um 100 erhöht. Dieser Effekt kann sich max. 3 Mal kumulieren.",
+      "20% Chance, bei einem Angriff zusätzlichen K. Schaden (240% d. ANG) zuzufügen und den Feind zurückzuwerfen. Anschließend ist PRÄZ für 10 Sek. um 100 erhöht. Dieser Effekt kann sich max. 3 Mal kumulieren.",
+      "20% Chance, bei einem Angriff zusätzlichen K. Schaden (288% d. ANG) zuzufügen und den Feind zurückzuwerfen. Anschließend ist PRÄZ für 10 Sek. um 100 erhöht. Dieser Effekt kann sich max. 3 Mal kumulieren.",
+      "20% Chance, bei einem Angriff zusätzlichen K. Schaden (344% d. ANG) zuzufügen und den Feind zurückzuwerfen. Anschließend ist PRÄZ für 10 Sek. um 100 erhöht. Dieser Effekt kann sich max. 3 Mal kumulieren.",
+      "20% Chance, bei einem Angriff zusätzlichen K. Schaden (414% d. ANG) zuzufügen und den Feind zurückzuwerfen. Anschließend ist PRÄZ für 10 Sek. um 100 erhöht. Dieser Effekt kann sich max. 3 Mal kumulieren.",
+      "20% Chance, bei einem Angriff zusätzlichen K. Schaden (500% d. ANG) zuzufügen und den Feind zurückzuwerfen. Anschließend ist PRÄZ für 10 Sek. um 100 erhöht. Dieser Effekt kann sich max. 3 Mal kumulieren."
+    ],
+    "story": "Der Inbegriff hochentwickelter imperialer Technologie. Dieses Gewehr benötigt übermenschliche Präzision und kann nicht von einer normalen Person genutzt werden. Es wurde verzaubert, um dem Schützen eine Sicht über schier unmögliche Distanzen zu gewähren. Doch selbst das größte Zielfernrohr ist nutzlos, wenn es von jemandem benutzt wird, der nicht damit zielen kann. Die Leistung des Gewehrs hängt also stark von den Fähigkeiten seiner Benutzer ab. Rodina, allerdings, ist mit ihrer enormen Sehkraft und ihrer Genauigkeit eine angemessene Besitzerin des Gewehrs. Sie ging noch einen Schritt weiter, passte es nach ihren Vorstellungen an und nannte es „Rodina Spezial“."
+  },
+  "s1": {
+    "name": "Durchdringender Schuss",
+    "description": "Bei Aktivierung nimmt Rodina Haltung an und beginnt die Beschwörung. Nach der Beschwörung fügt sie Feiden in einer Linie {0} K.Schaden zu. Der Schaden erhöht sich um {1}%, abhängig von der Beschwörungsdauer. 3 mal aufgeladene Zauber wirft getroffene Feinde um.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht krit. Schaden um {0}%."
+    },
+    "light": "Erhöht Schaden um 40%.",
+    "dark": "Immun gegenüber allen Statuseffekten während der Wirkungsdauer."
+  },
+  "s2": {
+    "name": "Ziel Anvisieren",
+    "description": "Das Ziel erleidet {0}% erhöhten Schaden von Rodina. Zusätzlich erhöht sich ANG um {1}.",
+    "books": {
+      "0": "Erhöht ANG-Erhöhungsrate um {0}%.",
+      "1": "Erhöht ANG-Erhöhungsrate um {0}%.",
+      "2": "Erhöht krit. Schaden um {0}% für die Wirkungsdauer."
+    },
+    "light": "Erhöht ANG-Geschw. um 250 während der Wirkungsdauer.",
+    "dark": "Reduziert Manakosten um 1.",
+    "ut": {
+      "name": "Kristallene Unterstützung",
+      "description": [
+        "[Ziel Anvisieren] Wechselt auf einen zufälligen Feind, wenn Rodinas Ziel stirbt. Erhöht den ANG 10 Sek. lang um 20 %.",
+        "[Ziel Anvisieren] Wechselt auf einen zufälligen Feind, wenn Rodinas Ziel stirbt. Erhöht den ANG 10 Sek. lang um 24 %.",
+        "[Ziel Anvisieren] Wechselt auf einen zufälligen Feind, wenn Rodinas Ziel stirbt. Erhöht den ANG 10 Sek. lang um 29 %.",
+        "[Ziel Anvisieren] Wechselt auf einen zufälligen Feind, wenn Rodinas Ziel stirbt. Erhöht den ANG 10 Sek. lang um 35 %.",
+        "[Ziel Anvisieren] Wechselt auf einen zufälligen Feind, wenn Rodinas Ziel stirbt. Erhöht den ANG 10 Sek. lang um 42 %.",
+        "[Ziel Anvisieren] Wechselt auf einen zufälligen Feind, wenn Rodinas Ziel stirbt. Erhöht den ANG 10 Sek. lang um 50 %."
+      ],
+      "story": "Ein Scharfschützengewehr, das von Pavel so angefertigt wurde, dass es zu Rodinas kleinem Körper passt. Es ist aus Kristallen hergestellt, ist also sehr hart und stabil. So ist es in der Lage, auf jedes Ziel zu schießen."
+    }
+  },
+  "s3": {
+    "name": "Fokus-Feuer",
+    "description": "Feuert 10 mal zufällig auf Feinde. Verursacht {0} K.Schaden und erhöht Schaden um {1}% für jeden weiteren Angriff.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht krit. Schaden um {0}%."
+    },
+    "light": "Reduziert bei jedem kritischen Treffer den Cooldown um 5%.",
+    "dark": "Ignoriert feindliche Blockeffekte.",
+    "ut": {
+      "name": "Spezielles Sperrfeuer VII",
+      "description": [
+        "[Fokus-Feuer] Erhöht Schaden um 20 % und fügt mit den letzten 2 Schüssen ungeachtet der VERT des Ziels Schaden zu.",
+        "[Fokus-Feuer] Erhöht Schaden um 24 % und fügt mit den letzten 2 Schüssen ungeachtet der VERT des Ziels Schaden zu.",
+        "[Fokus-Feuer] Erhöht Schaden um 29 % und fügt mit den letzten 2 Schüssen ungeachtet der VERT des Ziels Schaden zu.",
+        "[Fokus-Feuer] Erhöht Schaden um 35 % und fügt mit den letzten 2 Schüssen ungeachtet der VERT des Ziels Schaden zu.",
+        "[Fokus-Feuer] Erhöht Schaden um 42 % und fügt mit den letzten 2 Schüssen ungeachtet der VERT des Ziels Schaden zu.",
+        "[Fokus-Feuer] Erhöht Schaden um 50 % und fügt mit den letzten 2 Schüssen ungeachtet der VERT des Ziels Schaden zu."
+      ],
+      "story": "Ein Sperrfeuer, für das der legendäre Schmied des Kaiserreiches beauftragt wurde. Es enthält Schießpulver aus dem robusten Ei eines Pitta und dem Kieferknochen einer Drachenschildkröte. Es wurde klein gefertigt, so dass Rodina es leicht benutzen kann, aber sie besitzt die Kraft, alles zu zerstören."
+    }
+  },
+  "s4": {
+    "name": "Schnellfeuer",
+    "description": "Greift alle 10 Sek mit 2 aufeinanderfolgenden Attacken an und verursacht {0} K.Schaden.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht krit. Schaden um {0}%."
+    },
+    "light": "Erhöht Schaden um 100%, wenn nur 1 Feind auf dem Schlachtfeld ist.",
+    "dark": "Betäubt getroffene Feinde für 2 Sek."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / Krit. Chance +100",
+    "dark": "Erhöht ANG 10 Sekunden lang um 20 % und legt am Anfang jedes Kampfes 3 zufällige Feinde als Rodinas Ziele fest."
+  }
+}

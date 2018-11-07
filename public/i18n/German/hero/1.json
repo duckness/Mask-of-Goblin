@@ -1,0 +1,120 @@
+{
+  "name": "Kasel",
+  "subtitle": "Krieger des Heiligen Schwertes",
+  "description": "Der auserwählte Krieger des Heiligen Schwertes Aea, das Schwert, das die Welt bereits einmal rettete. Er kann Feinde zurückwerfen und sich selbst mit der Macht des heiligen Schwertes stärken.",
+  "story": "Ein Knappe des Königreichs von Orvelia. Traumatisiert von der Ermordung seiner Eltern durch Dämonen, die sein Dorf überfielen und wegen des Meuchelmords an seinem Schwertkampflehrer vermag er es nicht länger, ihm nahestehende Menschen sterben zu sehen. Die Vergangenheit trieb ihn dazu, nach Clause, seinem Blutsbruder aus früheren Tagen im Waisenhaus zu suchen, der sich einer Expedition anschloss, ohne jemals zurückzukehren.",
+  "like": "Essen aus der Natur",
+  "dislike": "Fatalismus",
+  "inn": {
+    "idle": "Ist es in Ordnung sich auszuruhen... selbst, wenn es dringend benötigt wird..?",
+    "recruit": {
+      "greet": "Schon ne Weile her. Wie geht es dir?",
+      "talk": [
+        "Ich hoffe die Welt wird bald friedlicher.",
+        "Dieses Schwert... ist ganz schön schwer.",
+        "Ich glaube nicht an so etwas wie Schicksal."
+      ],
+      "gift": "Danke. Das wird den Kampf hoffentlich schnell beendet."
+    },
+    "affinity": {
+      "greet": "Ich treffe dich hier recht häufig. Wirst du nun in die Hauptstadt gehen?",
+      "talk": [
+        "Wird all das zu Ende gehen, wenn ich die Macht des heiligen Schwertes finde?",
+        "Ich möchte nicht von jemandem beeinflusst werden. Ich gehe meinen eigenen Weg."
+      ],
+      "gift": "Ein Geschenk für einen missachteten Mann wie mich ... Danke sehr."
+    },
+    "relationship": {
+      "greet": "Für deine Hilfe bin ich stets dankbar.",
+      "talk": [
+        "Es wäre gelogen zu sagen, dass es nicht anstrengend ist, aber so ist das Leben nun mal.",
+        "Danke, dass du diese Last mit mir trägst. Wirklich.",
+        "So etwas wie das perfekte Leben existiert nicht. Naja, es gibt vielleicht ein paar perfekte Momente. Haha."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Aea, das heilige Schwert",
+    "description": [
+      "Jeder Angriff hat eine 35% Chance, dem Feind K.Schaden zuzufügen (160% der Angriffskr.)",
+      "Jeder Angriff hat eine 35% Chance, dem Feind K.Schaden zuzufügen (192% der Angriffskr.)",
+      "Jeder Angriff hat eine 35% Chance, dem Feind K.Schaden zuzufügen (230% der Angriffskr.)",
+      "Jeder Angriff hat eine 35% Chance, dem Feind K.Schaden zuzufügen (276% der Angriffskr.)",
+      "Jeder Angriff hat eine 35% Chance, dem Feind K.Schaden zuzufügen (331% der Angriffskr.)",
+      "Jeder Angriff hat eine 35% Chance, dem Feind K.Schaden zuzufügen (400% der Angriffskr.)"
+    ],
+    "story": "Ein legendäres Heiliges Schwert, das Lua der Welt vermachte. Dieses legendäre Artefakt wurde vor 100 Jahren materialisiert, als die Dämonen durch das Dimensionstor in den Orbis-Kontinent einmarschierten. Der Legende nach verwendete der Held König Kyle dieses Schwert, um das Herz des Dunklen Lords Angmund zu durchbohren und so den Krieg zu beenden. Doch die zwei verschwanden daraufhin und nur Aea blieb zurück."
+  },
+  "s1": {
+    "name": "Urteilsklinge",
+    "description": "Fügt Frontfeinden zweimal {0} K.Schaden in einem Kreis zu und wirft sie für {1} Sek. zu Boden.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Reduziert Manakosten um 1.",
+    "dark": "Ignoriert VERT, wenn nur ein Feind auf dem Schlachtfeld ist."
+  },
+  "s2": {
+    "name": "Tollkühner Vorstoß",
+    "description": "Greift das Ziel 3-mal an und stürmt dann hinter es, um ihm {0} K.Schaden zuzufügen.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht krit. Trefferchance um {0}%."
+    },
+    "light": "Reduziert Manakosten um 1.",
+    "dark": "Ziel erleidet 25% zusätzlichen K.Schaden.",
+    "ut": {
+      "name": "Kaiserlicher Kampfhandschuh",
+      "description": [
+        "[Tollkühner Vorstoß] Erhöht den Schaden um 20 % und verringert den Cooldown um 10 % bei einem krit. Treffer.",
+        "[Tollkühner Vorstoß] Erhöht den Schaden um 24 % und verringert den Cooldown um 10 % bei einem krit. Treffer.",
+        "[Tollkühner Vorstoß] Erhöht den Schaden um 29 % und verringert den Cooldown um 10 % bei einem krit. Treffer.",
+        "[Tollkühner Vorstoß] Erhöht den Schaden um 35 % und verringert den Cooldown um 10 % bei einem krit. Treffer.",
+        "[Tollkühner Vorstoß] Erhöht den Schaden um 42 % und verringert den Cooldown um 10 % bei einem krit. Treffer.",
+        "[Tollkühner Vorstoß] Erhöht den Schaden um 50 % und verringert den Cooldown um 10 % bei einem krit. Treffer."
+      ],
+      "story": "Kampfhandschuh, der vom Segen Luas durchwirkt ist, der Göttin des Lichts. Kampfhandschuh, der unter den Königen des Orbis-Kontinents weitergegeben wurde. Enthält die Ermutigung der Göttin, durch die man furchtlos den „Tollkühnen Vorstoß“ auf den Feind einsetzen kann."
+    }
+  },
+  "s3": {
+    "name": "Göttlicher Wille",
+    "description": "Verursacht {0} P. Schaden an umstehenden Gegnern und betäubt sie für 3 Sek. Für {1} Sek.,sind außerdem ANG um {2} und Ausweichrate {3} erhöht, während Effektimmunität eintritt. Effekt kann nicht aufgehoben werden.",
+    "books": {
+      "0": "Angriffs-Steigungsrate steigt um {0}%.",
+      "1": "Angriffs-Steigungsrate steigt um {0}%.",
+      "2": "Erhöht Geschw. um {0}% während d. Wirkungsdauer."
+    },
+    "light": "Reduziert Manakosten um 1.",
+    "dark": "Erhöht ANG-Boost um 40%.",
+    "ut": {
+      "name": "Rune des Willens",
+      "description": [
+        "[Göttlicher Wille] Erhöht Ausweichrate um 250 und Angriffsgeschw. um 100 für die Wirkungsdauer.",
+        "[Göttlicher Wille] Erhöht Ausweichrate um 250 und Angriffsgeschw. um 120 für die Wirkungsdauer.",
+        "[Göttlicher Wille] Erhöht Ausweichrate um 250 und Angriffsgeschw. um 140 für die Wirkungsdauer.",
+        "[Göttlicher Wille] Erhöht Ausweichrate um 250 und Angriffsgeschw. um 170 für die Wirkungsdauer.",
+        "[Göttlicher Wille] Erhöht Ausweichrate um 250 und Angriffsgeschw. um 210 für die Wirkungsdauer.",
+        "[Göttlicher Wille] Erhöht Ausweichrate um 250 und Angriffsgeschw. um 250 für die Wirkungsdauer."
+      ],
+      "story": "Eine Rune, die den Träger als Agenten von Lua ausweist, der Göttin des Lichts. Die Rune des Willens ist ein Artefakt der Kirche von Lua und wird dem Ritter verliehen, welcher Aea trägt, das Schwert des Lichts. Die Rune des Willens stößt Feinde mit der Kraft des Lichts von sich und erhöht ANG und Moral."
+    }
+  },
+  "s4": {
+    "name": "Stoß der Göttin",
+    "description": "Verursache beim Ausweichen {0} K. Schaden an frontal stehenden Feinden und reduziere ihre PRÄZ für 5 Sek. um {1}. After hitting the target, gain 300 mana.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht krit. Trefferchance um {0}%."
+    },
+    "light": "PRÄZ-Verringerungsrate wurde auf 250 verringert.",
+    "dark": "Verkürzt Zauberdauer und reduziert Cooldown um 1 Sek."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / K.Ausw.-Chance +100",
+    "dark": "Holt beim Angriff zu einem weiteren Schlag aus, der 40% der ANG als Schaden verursacht."
+  }
+}

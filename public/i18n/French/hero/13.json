@@ -1,0 +1,120 @@
+{
+  "name": "Lorraine",
+  "subtitle": "Grande Savante Elidoran",
+  "description": "La druidesse elfe qui a rejoint les Forces Alliées Humaines lors de l'invasion du Seigneur des Ténèbres. En communion avec la nature, elle attaque ses ennemis en utilisant des arbres.",
+  "story": "La Grande Sage Elidora est la plus sage de tous les druides. En tant qu'héroïne ayant combattu l'invasion démoniaque cent ans plus tôt, elle est souvent considérée comme la personne la plus sage de tout le Continent Orbis. Elle a formé et entraîné d'innombrables Elfes et possède une intelligence et des pouvoirs à la hauteur de son âge. On raconte que même le roi d'Elidora et ses enfants furent ses étudiants. Comme elle a récemment senti une étrange perturbation dans la Forêt Elidora, elle prépare l'arrivée du porteur de l'Épée Sacrée.",
+  "like": "La forêt tranquille, les belles chansons",
+  "dislike": "Tout ce qui fait du mal à la Nature",
+  "inn": {
+    "idle": "N'ayez pas peur. Vous pouvez être beaucoup plus fort.",
+    "recruit": {
+      "greet": "Je suis Lorraine, une Elfe Elidora. Salutations.",
+      "talk": [
+        "J'ai passé un bon moment.",
+        "Que la bénédiction de mère nature illumine votre chemin.",
+        "Les êtres humains sont des créatures étonnantes, mais vous avez une sérieuse faiblesse. Vous êtes gouverné par la cupidité et ne pouvez pas résister à la tentation."
+      ],
+      "gift": "Je vais en prendre très grand soin."
+    },
+    "affinity": {
+      "greet": "Je chéris chaque occasion que nous avons de passer du temps ensemble.",
+      "talk": [
+        "Vous arriverez bientôt à un tournant crucial. L'ombre et la lumière s'entremêleront et ne vous proposeront qu'un seul chemin...",
+        "Mes cheveux bleus ? Oh, une erreur de jeunesse."
+      ],
+      "gift": "Je vais considérer ceci comme un gage de votre générosité."
+    },
+    "relationship": {
+      "greet": "Vous êtes devenu fort, juste et pur.",
+      "talk": [
+        "Vous semblez avoir l'âme la plus pure que j'ai vue depuis un bon moment.",
+        "Ce serait bien si ces temps de bonheur et de paix pouvaient durer éternellement...mais ce serait un péché.",
+        "Je ne vous oublierai jamais. Pas en tant que Sage, mais comme un simple elfe."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Roburu, Volonté de l'Arbre Monde",
+    "description": [
+      "Toutes les 7 sec, inflige des DEG M. équivalents à 40% de l'ATQ aux ennemis affectés par le poison, et réduit la DEF M. de 10%. Chaque charge de poison augmente ces DEG de 20%.",
+      "Toutes les 7 sec, inflige des DEG M. équivalents à 48% de l'ATQ aux ennemis affectés par le poison, et réduit la DEF M. de 12%. Chaque charge de poison augmente ces DEG de 20%.",
+      "Toutes les 7 sec, inflige des DEG M. équivalents à 57% de l'ATQ aux ennemis affectés par le poison, et réduit la DEF M. de 14%. Chaque charge de poison augmente ces DEG de 20%.",
+      "Toutes les 7 sec, inflige des DEG M. équivalents à 69% de l'ATQ aux ennemis affectés par le poison, et réduit la DEF M. de 17%. Chaque charge de poison augmente ces DEG de 20%.",
+      "Toutes les 7 sec, inflige des DEG M. équivalents à 83% de l'ATQ aux ennemis affectés par le poison, et réduit la DEF M. de 20%. Chaque charge de poison augmente ces DEG de 20%.",
+      "Toutes les 7 sec, inflige des DEG M. équivalents à 100% de l'ATQ aux ennemis affectés par le poison, et réduit la DEF M. de 25%. Chaque charge de poison augmente ces DEG de 20%."
+    ],
+    "story": "La légende raconte qu'une fois tous les cent ans, l'Arbre-Monde accorde l'une de ses branches à un élu. La branche octroie la vie éternelle à son propriétaire, ainsi que d'immenses pouvoirs et connaissances. En fusionnant la branche avec la Pierre de la Forêt, un trésor elfique, Lorraine créa ce bâton. Elle peut désormais faire appel aux forces de la nature et rester connectée à l'Arbre-Monde partout où elle va."
+  },
+  "s1": {
+    "name": "Forêt de Ronces",
+    "description": "Attaque 3 fois des ennemis à portée choisis aléatoirement et inflige {0} points de DEG M. à chaque fois. Chaque attaque applique également 1 charge de poison, cumulable.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Chaque coup critique applique 2 charges de Poison."
+    },
+    "light": "Le nombre de coups touchés est augmenté de 1.",
+    "dark": "Les ennemis ayant au moins 5 charges de poison subissent Entrave pendant 3 sec."
+  },
+  "s2": {
+    "name": "Enchevêtrement",
+    "description": "Inflige, en ligne droite, {0} points de DEG M. aux ennemis et applique 2 charges de Poison. Applique également un effet d'Entrave pendant {1} sec. Après un temps, inflige une grosse quantité de DEG, basés sur le nombre de charges de Poison.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG M. infligé à l'ennemi de {0}% pendant la durée de la compétence."
+    },
+    "light": "Les DEG sont augmentés de 40%.",
+    "dark": "Les ennemis touchés par l'explosion finale subissent Étourdissement pendant 2 sec.",
+    "ut": {
+      "name": "Belladone mortelle",
+      "description": [
+        "[Enchevêtrement] Réduit le coût en mana de 1 point et draine 200 PM à l'ennemi affecté.",
+        "[Enchevêtrement] Réduit le coût en mana de 1 point et draine 240 PM à l'ennemi affecté.",
+        "[Enchevêtrement] Réduit le coût en mana de 1 point et draine 290 PM à l'ennemi affecté.",
+        "[Enchevêtrement] Réduit le coût en mana de 1 point et draine 350 PM à l'ennemi affecté.",
+        "[Enchevêtrement] Réduit le coût en mana de 1 point et draine 420 PM à l'ennemi affecté.",
+        "[Enchevêtrement] Réduit le coût en mana de 1 point et draine 500 PM à l'ennemi affecté."
+      ],
+      "story": "Belladone, aussi belle que toxique. Seul le Grand Sage peut manipuler cette dangereuse plante. Mélangée à des vignes, la belladone empoisonne les ennemis et anéantit leurs défenses contre les attaques magiques."
+    }
+  },
+  "s3": {
+    "name": "Fureur de la Forêt",
+    "description": "Inflige {0} DEG M. aux ennemis à portée et les renverse pendant 3 sec. Les ennemis empoisonnés subissent {1}% de dégâts supplémentaires par charge de poison.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG de {0}%."
+    },
+    "light": "Le coût en Mana est augmenté de 1 orbe mes les DEG sont augmentés de 100%.",
+    "dark": "Les ennemis ayant au moins 5 charges de poison perdent leurs Améliorations.",
+    "ut": {
+      "name": "Racine de l'Arbre-Monde",
+      "description": [
+        "[Fureur de la Forêt] Les DEG sont augmentés de 20%. Le Temps de Recharge est réduit de 4% lors d'un Crit sur un ennemi ayant plus de 5 charges de Poison.",
+        "[Fureur de la Forêt] Les DEG sont augmentés de 24%. Le Temps de Recharge est réduit de 4% lors d'un Crit sur un ennemi ayant plus de 5 charges de Poison.",
+        "[Fureur de la Forêt] Les DEG sont augmentés de 29%. Le Temps de Recharge est réduit de 4% lors d'un Crit sur un ennemi ayant plus de 5 charges de Poison.",
+        "[Fureur de la Forêt] Les DEG sont augmentés de 35%. Le Temps de Recharge est réduit de 4% lors d'un Crit sur un ennemi ayant plus de 5 charges de Poison.",
+        "[Fureur de la Forêt] Les DEG sont augmentés de 42%. Le Temps de Recharge est réduit de 4% lors d'un Crit sur un ennemi ayant plus de 5 charges de Poison.",
+        "[Fureur de la Forêt] Les DEG sont augmentés de 50%. Le Temps de Recharge est réduit de 4% lors d'un Crit sur un ennemi ayant plus de 5 charges de Poison."
+      ],
+      "story": "La preuve de l’unité entre les Druides et l’Arbre-Monde. Les grands sages d’Elidora ont toujours maintenu un lien puissant avec l’Arbre-Monde. Ses racines sont la preuve de ce lien puissant avec les druides. Elles attaquent les ennemis avec des DEG surnaturels à chaque fois que les druides font appel à la Fureur de la Forêt pour prouver la furie et la colère de la nature."
+    }
+  },
+  "s4": {
+    "name": "Lamefeuille",
+    "description": "Lorsque vous assénez une attaque normale, un ennemi aléatoire est pris pour cible 3 fois, avec 30 % de chances d'infliger {0}  points de DEG M ainsi que 1 charge de poison pendant 20 secondes, ce qui inflige un total de {1}  points de DEG M pendant cette durée.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG de {0}%."
+    },
+    "light": "Le nombre maximum de charges de Poison est maintenant de 6.",
+    "dark": "A 20% de chances d'appliquer Entrave pendant 2 sec aux ennemis touchés."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Chances Crit +100",
+    "dark": "Toutes les 5 sec, cible tous les ennemis et attaque avec 30% de chances d'infliger Forêt de ronces à chaque ennemi."
+  }
+}

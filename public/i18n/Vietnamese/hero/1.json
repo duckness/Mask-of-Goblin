@@ -1,0 +1,120 @@
+{
+  "name": "Kasel",
+  "subtitle": "Chiến binh của Kiếm thánh",
+  "description": "Được chọn bởi Kiếm thánh Aea, chiến binh này nắm giữ thanh gươm có thể hạn chế sự di chuyển của kẻ thù. Khi vung thanh gươm này, anh ấy có thể đẩy lùi kẻ thù và tự cường hoá bằng sức mạnh của kiếm thánh.",
+  "story": "Một cận vệ của Vương quốc Orvelia. Bị thương tổn tinh thần khi phải chứng kiến bố mẹ chết trong tay lũ Ác quỷ xâm chiếm ngôi làng và sau đó là sư phụ dạy kiếm bị ám sát, anh trở nên sợ hãi khi nghĩ đến việc bất kỳ người nào quanh mình qua đời. Quá khứ đã thúc đẩy anh tìm kiếm người anh em kết nghĩa từ thời còn nhỏ trong trại trẻ mồ côi. Đó là Clause, người đã gia nhập quân viễn chinh nhưng chưa một lần trở lại.",
+  "like": "Thức ăn từ thiên nhiên",
+  "dislike": "Thuyết định mệnh",
+  "inn": {
+    "idle": "Mọi người bảo cần phải nghỉ ngơi nên mới đang nghỉ... nhưng thật sự tôi nghỉ thế này liệu có ổn không.",
+    "recruit": {
+      "greet": "Lâu ngày không gặp. Bạn vẫn ổn chứ?",
+      "talk": [
+        "Thật mong sớm sẽ hòa bình trờ lại.",
+        "Nặng thật đấy, thanh gươm này.",
+        "Tôi không tin những thứ gọi là định mệnh."
+      ],
+      "gift": "Xin cảm ơn. Nó sẽ rất hữu ích cho việc kết thúc trận đấu này."
+    },
+    "affinity": {
+      "greet": "Dạo này hay gặp ngươi quá nhỉ. Giờ ngươi định đến thủ đô đó sao?",
+      "talk": [
+        "Liệu mọi chuyện có kết thúc khi ta tìm được sức mạnh của Kiếm thánh không?",
+        "Ta không muốn khuất phục trước bất kỳ ai. Ta sẽ tìm lối đi riêng."
+      ],
+      "gift": "Món quà cho kẻ mờ nhạt như ta ư... Cảm ơn nhé."
+    },
+    "relationship": {
+      "greet": "Tôi luôn thấy biết ơn và cảm kích vì đã đồng hành cùng tôi dù tôi vẫn còn kém cỏi.",
+      "talk": [
+        "Nếu nói là không mệt thì là nói dối, nhưng có cuộc đời nào mà không phải nỗ lực đâu.",
+        "Thành thật cảm ơn vì đã gánh vác thanh gươm quá đỗi nặng nề với tôi.",
+        "Đi đâu cũng không có cuộc đời hoàn hảo được. Mặc dù có thể sẽ có lúc nào đó ta đón nhận khoảnh khắc hoàn hảo."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Kiếm thánh Aea",
+    "description": [
+      "Mỗi đòn tấn công có 35% cơ hội gây sát thương vật lý cho kẻ địch tương đương 160% sức mạnh tấn công",
+      "Mỗi đòn tấn công có 35% cơ hội gây sát thương vật lý cho kẻ địch tương đương 192% sức mạnh tấn công",
+      "Mỗi đòn tấn công có 35% cơ hội gây sát thương vật lý cho kẻ địch tương đương 230% sức mạnh tấn công",
+      "Mỗi đòn tấn công có 35% cơ hội gây sát thương vật lý cho kẻ địch tương đương 276% sức mạnh tấn công",
+      "Mỗi đòn tấn công có 35% cơ hội gây sát thương vật lý cho kẻ địch tương đương 331% sức mạnh tấn công",
+      "Mỗi đòn tấn công có 35% cơ hội gây sát thương vật lý cho kẻ địch tương đương 400% sức mạnh tấn công"
+    ],
+    "story": "Một thanh Kiếm thánh huyền thoại được Lua trao cho thế giới. Vũ khí huyền thoại này được chế tác 100 năm trước, khi Ác quỷ xâm chiếm Lục địa Orbis thông qua Cổng không gian. Theo truyền thuyết, Vị vua anh hùng Kyle đã dùng thanh kiếm này đâm vào tim Chúa tể hắc ám Angmund và kết thúc cuộc chiến. Tuy nhiên, cả hai đều biến mất và chỉ còn lại Aea."
+  },
+  "s1": {
+    "name": "Lưỡi đao phán quyết",
+    "description": "Gây {0} sát thương vật lý 2 lần lên kẻ địch phía trước theo vòng tròn và đốn ngã chúng trong {1} giây.",
+    "books": {
+      "0": "Tăng {0}% sát thương.",
+      "1": "Tăng {0}% sát thương.",
+      "2": "Tăng {0}% sát thương."
+    },
+    "light": "Lượng tiêu thụ Mana giảm 1.",
+    "dark": "Khi địch còn 1 người, bỏ qua lực phòng thủ."
+  },
+  "s2": {
+    "name": "Nhát chém gan dạ",
+    "description": "Tấn công mục tiêu 3 lần, rồi đánh thốc vào phía sau chúng và gây {0} sát thương vật lý.",
+    "books": {
+      "0": "Tăng {0}% sát thương.",
+      "1": "Tăng {0}% sát thương.",
+      "2": "Tăng {0}% xác suất chí mạng."
+    },
+    "light": "Lượng tiêu thụ Mana giảm 1.",
+    "dark": "Sát thương vật lý nhận được tăng 25%.",
+    "ut": {
+      "name": "Găng tay đế vương",
+      "description": [
+        "[Nhát chém gan dạ] Tăng 20% Sát thương và giảm 10% Thời gian hồi chiêu khi có Đòn chí mạng.",
+        "[Nhát chém gan dạ] Tăng 24% Sát thương và giảm 10% Thời gian hồi chiêu khi có Đòn chí mạng.",
+        "[Nhát chém gan dạ] Tăng 29% Sát thương và giảm 10% Thời gian hồi chiêu khi có Đòn chí mạng.",
+        "[Nhát chém gan dạ] Tăng 35% Sát thương và giảm 10% Thời gian hồi chiêu khi có Đòn chí mạng.",
+        "[Nhát chém gan dạ] Tăng 42% Sát thương và giảm 10% Thời gian hồi chiêu khi có Đòn chí mạng.",
+        "[Nhát chém gan dạ] Tăng 50% Sát thương và giảm 10% Thời gian hồi chiêu khi có Đòn chí mạng."
+      ],
+      "story": "Găng tay được yểm phước lành của Nữ thần ánh sáng Lua. Găng tay này được truyền cho các đời vua của Lục địa Orbis. Chứa lời khích lệ của nữ thần, cho phép bạn giáng Nhát chém gan dạ về phía kẻ địch mà không hề sợ hãi."
+    }
+  },
+  "s3": {
+    "name": "Đại diện của Chúa",
+    "description": "Gây {0} sát thương vật lý lên đối thủ xung quanh, gây choáng trong 3 giây.Thêm vào đó, trong vòng {1} giây tăng {2} lực tấn công của bản thân và tăng {3} xác suất né, miễn nhiễm trạng thái xấu. Trạng thái này không thể gỡ bỏ.",
+    "books": {
+      "0": "Tăng {0}% lượng tăng lực tấn công",
+      "1": "Tăng {0}% lượng tăng lực tấn công",
+      "2": "Tăng {0}% tốc độ trong thời gian kéo dài hiệu ứng."
+    },
+    "light": "Lượng tiêu thụ Mana giảm 1.",
+    "dark": "Lượng tăng sức tấn công tăng lên 40%.",
+    "ut": {
+      "name": "Dấu ấn của người tạm quyền",
+      "description": [
+        "Trong thời gian kéo dài [Đại diện của Chúa], tỉ lệ né tăng thêm 250 và tốc độ tấn công tăng 100.",
+        "Trong thời gian kéo dài [Đại diện của Chúa], tỉ lệ né tăng thêm 250 và tốc độ tấn công tăng 120.",
+        "Trong thời gian kéo dài [Đại diện của Chúa], tỉ lệ né tăng thêm 250 và tốc độ tấn công tăng 140.",
+        "Trong thời gian kéo dài [Đại diện của Chúa], tỉ lệ né tăng thêm 250 và tốc độ tấn công tăng 170.",
+        "Trong thời gian kéo dài [Đại diện của Chúa], tỉ lệ né tăng thêm 250 và tốc độ tấn công tăng 210.",
+        "Trong thời gian kéo dài [Đại diện của Chúa], tỉ lệ né tăng thêm 250 và tốc độ tấn công tăng 250."
+      ],
+      "story": "Một loại cổ tự chứng minh một người là hiện thân của Lua, Nữ thần ánh sáng. Cổ tự hiện thân là một cổ vật của Nhà thờ Lua, được trao cho các hiệp sĩ dùng Gươm ánh sáng Aea. Cổ tự hiện thân đẩy lui kẻ địch bằng sức mạnh ánh sáng, tăng ATK và nhuệ khí."
+    }
+  },
+  "s4": {
+    "name": "Cú đánh của Nữ thần",
+    "description": "Khi né, gây {0} sát thương vật lý lên đối thủ trong phạm vi phía trước và giảm {1} xác suất trúng đòn của đối thủ trong 5 giây. Sau khi trúng đòn hồi phục 300 mana.",
+    "books": {
+      "0": "Tăng {0}% sát thương.",
+      "1": "Tăng {0}% sát thương.",
+      "2": "Tăng {0}% xác suất chí mạng."
+    },
+    "light": "Thay đổi lượng giảm xác suất trúng đòn xuống 250",
+    "dark": "Tốc độ triển phát chiêu nhanh hơn và thời gian hồi chiêu giảm 1 giây."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / P.Dodge +100",
+    "dark": "Khi tấn công, gây thêm sát thương tương đương 40% lực tấn công của bản thân."
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Phillop",
+  "subtitle": "Rey de los Enanos",
+  "description": "Un legendario asesino de dragones que ha cazado un gran numero de dragones.  A pesar de su pequeña estatura, su poderoso golpe de escudo destruye las formaciones enemigas, generalmente seguido con un golpe final.",
+  "story": "Él es el robusto y correcto Rey de los enanos. Peleó junto al guerrero de la sagrada espada contra el Ejército de demonios hace 100 años. Su heroísmo está derrotando la legión del dragón oscuro, la principal división del Ejército de demonios, es reconocido por toda la tierra. En realidad, solo se sienta en el trono por obligación. A pesar de que se queja sobre el aburrimiento de sus deberes de la realeza, sigue trabajando de forma diligente.",
+  "like": "Bebidas, baño de arena, herrería y artesanía",
+  "dislike": "Conferencias largas, el trono real, demonios (especialmente dragones oscuros)",
+  "inn": {
+    "idle": "Pueden los humanos seguir el dominio del enano?",
+    "recruit": {
+      "greet": "Woa, ha ha. Todos me recuerdan a mi tiempo atrás",
+      "talk": [
+        "El rey de los enanos? El título no es más que una molestia.",
+        "El tamaño de la cama aquí no encaja. Pero no voy a volver a casa todavía!",
+        "Al compararse con nosotros los enanos, los seres humanos nunca saben cómo disfrutar de su vida!"
+      ],
+      "gift": "Es esto un recuerdo de nuestro encuentro? Hahaha. Lo atesoraré."
+    },
+    "affinity": {
+      "greet": "Te doy la bienvenida. ¡Brindemos! ¡Salud!",
+      "talk": [
+        "La guerra de hace 100 años... Yo era tan joven como tú cuando luchaba junto al rey Kyle.",
+        "A veces, extraño mis días de guerrero. En aquella época, no tenía tantos problemas."
+      ],
+      "gift": "No tenías que molestarte. ¡Aunque me hubiera gustado más una botella de licor! ¡Ja, ja!"
+    },
+    "relationship": {
+      "greet": "Hola amigo! Tomemos un trago, ok?",
+      "talk": [
+        "Maté muchos Dragones Locos y Dracónicos en mi época. Lo suficiente como para curvar cualquier barba enana, eh.",
+        "Necesitas un arma nueva? Tengo algunas hachas Enanas en mi baúl.",
+        "Jajaja, eres graciosa. Sí, si alguna vez necesitas la ayuda de los Enanos, estaremos allí para ayudarte."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Ruinas del Dragón, Atein",
+    "description": [
+      "Al recibir Daño, acumula Furia del Dragon que dura 10 segundos. El ATQ y DEF del héroe aumentan un 0,8%. Se puede acumular hasta 100 veces Máx.",
+      "Al recibir Daño, acumula Furia del Dragon que dura 10 segundos. El ATQ y DEF del héroe aumentan un 1%. Se puede acumular hasta 100 veces Máx.",
+      "Al recibir Daño, acumula Furia del Dragon que dura 10 segundos. El ATQ y DEF del héroe aumentan un 1,2%. Se puede acumular hasta 100 veces Máx.",
+      "Al recibir Daño, acumula Furia del Dragon que dura 10 segundos. El ATQ y DEF del héroe aumentan un 1,4%. Se puede acumular hasta 100 veces Máx.",
+      "Al recibir Daño, acumula Furia del Dragon que dura 10 segundos. El ATQ y DEF del héroe aumentan un 1,7%. Se puede acumular hasta 100 veces Máx.",
+      "Al recibir Daño, acumula Furia del Dragon que dura 10 segundos. El ATQ y DEF del héroe aumentan un 2%. Se puede acumular hasta 100 veces Máx."
+    ],
+    "story": "Los dragones obscuros son demonios creados para matar a los dragones, los árbitros del mundo. Durante la guerra de hace 100 años, estos dragones obscuros mataron y devoraron a incontables dragones. Algunos de los dragones sobrevivientes se han vuelto locos por la furia y la vergüenza, y eventualmente se convirtieron en Dragones locos. Ahora no son nada más que monstruos impulsados por sus restrictivos instintos. Phillop y sus enanos han estado cazando estos dragones desde la guerra de demonios y reunieron sus restos para forjar elementos legendarios."
+  },
+  "s1": {
+    "name": "Colision",
+    "description": "Causa  {0}  Daño Fis. y derriba al enemigo durante  {1}  segundos.",
+    "books": {
+      "0": "Aumenta Daño en {0}%.",
+      "1": "Aumenta Daño en {0}%.",
+      "2": "Disminuye  {1}% DEF Fis de enemigos dañados por  {0}  seg."
+    },
+    "light": "El costo de maná se reduce en 1.",
+    "dark": "El tiempo de reutilización se reduce en un 10% por cada golpe enemigo."
+  },
+  "s2": {
+    "name": "Cabezazo",
+    "description": "Golpea al enemigo e inflige  {0}  Daño Fis.. Reduce la veloc. de ataque de enemigos dañados en  {2}% por  {1}  seg.",
+    "books": {
+      "0": "Aumenta Daño en {0}%.",
+      "1": "Aumenta Daño en {0}%.",
+      "2": "Reduce ATQ enemigo en {0}%."
+    },
+    "light": "Causa Daño Fis adicional igual al 10% de la Salud máxima.",
+    "dark": "Aturde a los enemigos cercanos durante 3 seg",
+    "ut": {
+      "name": "Casco capricorniano enano",
+      "description": [
+        "[Cabezazo] Reduce el Costo de Mana en 1 y reduce la Resistencia al golpe crítico físico del enemigo afectado en 200 durante 10 segundos.",
+        "[Cabezazo] Reduce el Costo de Mana en 1 y reduce la Resistencia al golpe crítico físico del enemigo afectado en 240 durante 10 segundos.",
+        "[Cabezazo] Reduce el Costo de Mana en 1 y reduce la Resistencia al golpe crítico físico del enemigo afectado en 290 durante 10 segundos.",
+        "[Cabezazo] Reduce el Costo de Mana en 1 y reduce la Resistencia al golpe crítico físico del enemigo afectado en 350 durante 10 segundos.",
+        "[Cabezazo] Reduce el Costo de Mana en 1 y reduce la Resistencia al golpe crítico físico del enemigo afectado en 420 durante 10 segundos.",
+        "[Cabezazo] Reduce el Costo de Mana en 1 y reduce la Resistencia al golpe crítico físico del enemigo afectado en 500 durante 10 segundos."
+      ],
+      "story": "Casco capricorniano del rey anciano ancestral. Fabricado de oro de dragones que se obtuvo después de derrotar al dragón oscuro y codicioso, Bokrug. El magnífico cuerno de oro se ha imbuido con la magia del dragón oscuro que ralentizará a un enemigo golpeado con un cabezazo."
+    }
+  },
+  "s3": {
+    "name": "Tierra Encarnada",
+    "description": "Tras la activación, aumenta DEF en  {1}  por  {0}  seg y obten inmunidad del estado. Además, cura la  {2}% Salud.",
+    "books": {
+      "0": "la tasa de DEF Fis. Aumenta en {0}%.",
+      "1": "la tasa de DEF Fis. Aumenta en {0}%.",
+      "2": "la Reduccion del Daño aumenta en {0}."
+    },
+    "light": "Causa 1% de la Salud MAX como Daño por segundo a enemigos cercanos.",
+    "dark": "Ataca a enemigos cercanos durante 3 seg.",
+    "ut": {
+      "name": "Martillo ceremonial de enanos",
+      "description": [
+        "[Encarnación de la Tierra] Al activarse la habilidad, la Veloc. de ATQ y la Oportunidad Crít. aumentan en 250, y la DEF en un 20%.",
+        "[Encarnación de la Tierra] Al activarse la habilidad, la Veloc. de ATQ y la Oportunidad Crít. aumentan en 250, y la DEF en un 24%.",
+        "[Encarnación de la Tierra] Al activarse la habilidad, la Veloc. de ATQ y la Oportunidad Crít. aumentan en 250, y la DEF en un 29%.",
+        "[Encarnación de la Tierra] Al activarse la habilidad, la Veloc. de ATQ y la Oportunidad Crít. aumentan en 250, y la DEF en un 35%.",
+        "[Encarnación de la Tierra] Al activarse la habilidad, la Veloc. de ATQ y la Oportunidad Crít. aumentan en 250, y la DEF en un 42%.",
+        "[Encarnación de la Tierra] Al activarse la habilidad, la Veloc. de ATQ y la Oportunidad Crít. aumentan en 250, y la DEF en un 50%."
+      ],
+      "story": "Un martillo que el rey de los enanos antiguos recibió como regalo de los elementos de la tierra. Fue el primer regalo que el rey recibió por salvar el reino de los duendes de los ataques del malvado dragón de tierra, Azi Dahaka. Al utilizar la tierra encarnada, este martillo ceremonial, infundido con la bendición del espíritu de la tierra, aumenta la DEF con el poder del espíritu de la tierra y otorga inmunidad de recuperación de salud y control."
+    }
+  },
+  "s4": {
+    "name": "Destruir Armadura",
+    "description": "Al atacar a un enemigo, debilita su DEF Fis en  {1}  por  {0}  seg. Se puede acumular hasta 5 veces máx.",
+    "books": {
+      "0": "la reduccion de DEF Fis. Aumenta en {0}%.",
+      "1": "la reduccion de DEF Fis. Aumenta en {0}%.",
+      "2": "La probabilidad de Evasion Fis. del enemigo se reduce en  {0}% por cada acumulacion"
+    },
+    "light": "Los enemigos con 5 pilas reciben 1% de Daño Fis adicional basado en la Salud MAX por ataque.",
+    "dark": "Al atacar, disipa todos los efectos positivos y el objetivo recibe un 20% de aumento de Daño Fis durante 20 seg. Tiene un tiempo de reutilización de 20 seg."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Bloq Fis +200",
+    "dark": "Cuando se ataca automáticamente, hay una probabilidad del 10% de aturdir al objetivo durante 2 segundos y causar un Daño adicional de 10% de su propia Salud"
+  }
+}

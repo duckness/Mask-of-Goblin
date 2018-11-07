@@ -1,0 +1,120 @@
+{
+  "name": "Priscilla",
+  "subtitle": "Doncella de Acero",
+  "description": "Oficialmente uno de los más altos grados del ejército de Orvelia, se convirtió en doncella del genio mago, Aisha; la hija soltera de la noble familia Daphnel Pon. Su alabarda poderosa corta a todos los enemigos rápidamente.",
+  "story": "Una antigua oficial de las fuerzas armada de Orvelia. Después de un fallido intento de revelar la corrupción de líderes militares, fue retirada de su cargo. Con el fin de ocultar su corrupción, los líderes militares constantemente enviaban asesinos para eliminarla. La larga y solitaria pelea estaba comenzando a afectarla, física y mentalmente. Un día, la familia aristócrata von Daphnel le ofreció protección a cambio de sus servicios. Aceptó, y ha estado trabajando como la doncella de Aisha en la Torre del sabio desde entonces. Hasta ahora, realiza sus tareas fielmente como una doncella protectora. Sin embargo, ella envía todos sus pagos a un destinatario no revelado.",
+  "like": "Camaradas en armas, su señora, trajes bonitos para su señora",
+  "dislike": "Desorden, injusticia",
+  "inn": {
+    "idle": "Mi Señora está durmiendo la siesta en este momento.",
+    "recruit": {
+      "greet": "Mi Señora no está actualmente en su habitación.",
+      "talk": [
+        "...",
+        "Hablaremos en la próxima oportunidad.",
+        "Ya no soy un soldado."
+      ],
+      "gift": "No estoy acostumbrado a tales regalos, pero gracias."
+    },
+    "affinity": {
+      "greet": "Eres tú. Qué bueno verte.",
+      "talk": [
+        "Espero que a mi señora le guste el nuevo juego de té que compré.",
+        "Debo pasar por la herrería para afilar mi hacha."
+      ],
+      "gift": "Gracias. Espero que la próxima vez preparares una infusión."
+    },
+    "relationship": {
+      "greet": "Finalmente apareces... ha pasado un tiempo.",
+      "talk": [
+        "Quizás mis antiguos subordinados sufrieron demasiado por mis arrebatos juveniles...",
+        "Ella era una niña pequeña, que se esforzaba mucho por ser una adulta... Entonces, sentí que tenía que protegerla.",
+        "Estoy satisfecho con mi vida actual. Mi salario es lo suficientemente bueno como para permitirme ayudar con las vidas de mis antiguos subordinados también."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Danza de la Tormenta, Excilius",
+    "description": [
+      "Cuando las habilidades 'Golpe Vital' y 'Baile Turbulento' golpean al enemigo, reduce el tiempo de reutilización de la habilidad correspondiente en 1 seg. Y aumenta la Veloc de ATQ en 50 por cada número de enemigos. El aumento de Veloc de ATQ puede ser acumulado hasta 10 veces.",
+      "Cuando las habilidades 'Golpe Vital' y 'Baile Turbulento' golpean al enemigo, reduce el tiempo de reutilización de la habilidad correspondiente en 1.2 seg. Y aumenta la Veloc de ATQ en 50 por cada número de enemigos. El aumento de Veloc de ATQ puede ser acumulado hasta 10 veces.",
+      "Cuando las habilidades 'Golpe Vital' y 'Baile Turbulento' golpean al enemigo, reduce el tiempo de reutilización de la habilidad correspondiente en 1.4 seg. Y aumenta la Veloc de ATQ en 50 por cada número de enemigos. El aumento de Veloc de ATQ puede ser acumulado hasta 10 veces.",
+      "Cuando las habilidades 'Golpe Vital' y 'Baile Turbulento' golpean al enemigo, reduce el tiempo de reutilización de la habilidad correspondiente en 1.7 seg. Y aumenta la Veloc de ATQ en 50 por cada número de enemigos. El aumento de Veloc de ATQ puede ser acumulado hasta 10 veces.",
+      "Cuando las habilidades 'Golpe Vital' y 'Baile Turbulento' golpean al enemigo, reduce el tiempo de reutilización de la habilidad correspondiente en 2 seg. Y aumenta la Veloc de ATQ en 50 por cada número de enemigos. El aumento de Veloc de ATQ puede ser acumulado hasta 10 veces.",
+      "Cuando las habilidades 'Golpe Vital' y 'Baile Turbulento' golpean al enemigo, reduce el tiempo de reutilización de la habilidad correspondiente en 2.5 seg. Y aumenta la Veloc de ATQ en 50 por cada número de enemigos. El aumento de Veloc de ATQ puede ser acumulado hasta 10 veces."
+    ],
+    "story": "Durante su carrera militar, Priscilla derribó a incontables enemigos con su alabarda. A pesar de que la alabarda estaba en un estado de abandono después de su retiro, Exilius la resucitó posteriormente. Esta mejora era parte de la orden enviada de Annette para crear a Mahitra para Aisha. Esta nueva arma afilada como una navaja e increíblemente durable incluso tiene el poder mágico de atraer a sus enemigos. Aquellos que vieron a Priscilla asesinando a sus enemigos demonios usando esta alabarda afirman que era como ver una tormenta imparable."
+  },
+  "s1": {
+    "name": "Golpe Vital",
+    "description": "Causa  {0}  Daño Fis. a los enemigos frontales y los aturde durante 1 seg. Este ataque es Critico",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "La duración del aturdimiento se incrementa en 2 segundos.",
+    "dark": "Ya no posees el efecto de Golpe Crit, y tu Daño Crit se incrementa en un 150%."
+  },
+  "s2": {
+    "name": "Coordinacion",
+    "description": "Durante 20 segundos, coloca a Priscilla y a un aliado con el Ataque más alto en un estado de coordinación, y disipa los efectos negativos. Priscilla y el aliado en estado de coordinación obtienen un amplificador de Ataque igual a más del 15 % del Ataque de Priscilla {0}.",
+    "books": {
+      "0": "La tasa de ATQ aumenta en {0}%.",
+      "1": "La tasa de ATQ aumenta en {0}%.",
+      "2": "La tasa de ATQ aumenta en {0}%."
+    },
+    "light": "Daño Crit se incrementa en un 80%.",
+    "dark": "Durante el estado Co-Op, los ataques automáticos aumentan el Daño recibido del objetivo de todas las fuentes en un 15%.",
+    "ut": {
+      "name": "Juego de té lujoso",
+      "description": [
+        "[Coordinación] Incrementa el Aumento del ataque en un 20% y reduce el tiempo de reutilización del héroe con el Ataque más alto en un 30%.",
+        "[Coordinación] Incrementa el Aumento del ataque en un 24% y reduce el tiempo de reutilización del héroe con el Ataque más alto en un 30%.",
+        "[Coordinación] Incrementa el Aumento del ataque en un 29% y reduce el tiempo de reutilización del héroe con el Ataque más alto en un 30%.",
+        "[Coordinación] Incrementa el Aumento del ataque en un 35% y reduce el tiempo de reutilización del héroe con el Ataque más alto en un 30%.",
+        "[Coordinación] Incrementa el Aumento del ataque en un 42% y reduce el tiempo de reutilización del héroe con el Ataque más alto en un 30%.",
+        "[Coordinación] Incrementa el Aumento del ataque en un 50% y reduce el tiempo de reutilización del héroe con el Ataque más alto en un 30%."
+      ],
+      "story": "Tazas favoritas de porcelana de té de Aisha que Priscilla siempre tiene listas. Tazas de té lujosas hechas de la mejor arcilla del continente oriental al otro lado del mar. Normalmente se utiliza para la hora del té con Aisha, pero también se utiliza cuando se usa coordinación con Priscilla."
+    }
+  },
+  "s3": {
+    "name": "Baile Turbulento",
+    "description": "Causa  {0}  Daño Fis. a los enemigos cercanos en un rango circular y los atrae hacia sí mismo. Cuando se activa bajo el efecto de 'Co-op', los enemigos que son golpeados reciben  {1}% de Daño Fis. Y Magico adicional durante 10 seg.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Tras un golpe Crit, el tiempo de reutilización se reduce en un 10%.",
+    "dark": "Cuando sólo hay un enemigo, el Daño se incrementa en un 100%.",
+    "ut": {
+      "name": "Piedra mágica de gravedad",
+      "description": [
+        "[Danza Turbulenta] El Daño aumenta en un 20% y Aturde al objetivo durante 3 segundos.",
+        "[Danza Turbulenta] El Daño aumenta en un 24% y Aturde al objetivo durante 3 segundos.",
+        "[Danza Turbulenta] El Daño aumenta en un 29% y Aturde al objetivo durante 3 segundos.",
+        "[Danza Turbulenta] El Daño aumenta en un 35% y Aturde al objetivo durante 3 segundos.",
+        "[Danza Turbulenta] El Daño aumenta en un 42% y Aturde al objetivo durante 3 segundos.",
+        "[Danza Turbulenta] El Daño aumenta en un 50% y Aturde al objetivo durante 3 segundos."
+      ],
+      "story": "La primera herramienta mágica creada por una hechicera de Púrpura. El primer obsequio entregado por Aisha. Aisha creó esta herramienta mágica porque tenía pena de todo el poder que había consumido Priscilla al usar el Baile Turbulento. La Piedra de Gravedad hecha de maná libera la presión que sufre el cuerpo cuando se usa el baile turbulento e incrementa sus efectos."
+    }
+  },
+  "s4": {
+    "name": "Dominio de Armas",
+    "description": "El ATQ de este héroe aumenta en  {0} , y la entrada de DEF Aumenta en  {1}.",
+    "books": {
+      "0": "La tasa de ATQ aumenta en {0}%.",
+      "1": "La tasa de ATQ aumenta en {0}%.",
+      "2": "Daño Crit. Aumenta en {0}%."
+    },
+    "light": "El aumento de ATQ se incrementa en un 40%.",
+    "dark": "La Oportunidad Crit se incrementa en 250."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Resist Ctrl de Masas +100",
+    "dark": "Aumenta el ATQ y DEF Fis de todos los aliados en un 3% del ATQ y DEF Fis propias."
+  }
+}

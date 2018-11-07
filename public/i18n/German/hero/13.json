@@ -1,0 +1,120 @@
+{
+  "name": "Lorraine",
+  "subtitle": "Großgelehrte Elidorans",
+  "description": "Die Elfdruidin, die den menschlichen Streitkräften dabei half, die Invasion des Dunklen Lords zurückzuschlagen. Mit der Macht der Natur greift sie ihre Feine mit Bäumen an.",
+  "story": "Die Urweise von Elidora ist die Weiseste unter den Druiden. Sie ist eine jener Helden, die vor 100 Jahren gegen die Dämoneninvasoren kämpften und wird oft als weiseste Person des gesamten Orbis-Kontinents bezeichnet. Sie lehrte und bildete unzählige Elfen aus und verfügt aufgrund ihres Alters über einen scharfen Verstand und mystische Kräfte. Es heißt, dass der gegenwärtige König von Elidora und dessen Kinder ebenfalls ihre Schüler waren. Nachdem sie vor Kurzem eine befremdliche Unruhe im Elidora-Wald wahrnahm, bereitet sie nun den Weg für den Führer des Heiligen Schwertes.",
+  "like": "Ruhige Wälder; schöne Lieder",
+  "dislike": "Alles, was der Natur Schaden zufügt",
+  "inn": {
+    "idle": "Keine Angst. Ihr könnt noch viel stärker werden.",
+    "recruit": {
+      "greet": "Ich bin Lorraine, eine Elidoranische Elfe. Grüße.",
+      "talk": [
+        "Dank euch habe ich mich amüsiert.",
+        "Möge der Segen der Mutter Natur euren Weg erleuchten.",
+        "Menschen sind erstaunliche Kreaturen, aber ihr habt auch eine entscheidende Schwäche. Ihr werdet von Gier getrieben und könnt Versuchungen nicht widerstehen."
+      ],
+      "gift": "Das werde ich gut aufbewahren."
+    },
+    "affinity": {
+      "greet": "Ich freue mich immer über die Gelegenheit, Zeit mit dir zu verbringen.",
+      "talk": [
+        "Vor dir liegt eine wichtige Kreuzung. Licht und Schatten ... vereinigen sich zu einem gemeinsamen Weg ...",
+        "Du meinst meine blauen Haare? Ach, das ist eine Jugendsünde."
+      ],
+      "gift": "Ich sehe das als Geschenk. Als Gabe deiner Großzügigkeit."
+    },
+    "relationship": {
+      "greet": "Du bist stark, gerecht und rein geworden.",
+      "talk": [
+        "Du hast die reinste Seele, die ich seit sehr langer Zeit zu Gesicht bekomme.",
+        "Es wäre wirklich schön, wenn diese friedvolle Zeit ewig andauern könnte, aber das wäre eine Illusion.",
+        "Ich werde dich niemals vergessen. Nicht als einen Weisen, aber als einfachen Elfen."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Roburu, der Wille des Weltbaums",
+    "description": [
+      "Fügt alle 7 Sek Feinden mit Gift-Zählern M.Schaden zu (40% d. ANG) und verringert ihre M.VERT um 10%. Jeder Gift-Zähler erhöht den Schaden um 20%.",
+      "Fügt alle 7 Sek Feinden mit Gift-Zählern M.Schaden zu (48% d. ANG) und verringert ihre M.VERT um 12%. Jeder Gift-Zähler erhöht den Schaden um 20%.",
+      "Fügt alle 7 Sek Feinden mit Gift-Zählern M.Schaden zu (57% d. ANG) und verringert ihre M.VERT um 14%. Jeder Gift-Zähler erhöht den Schaden um 20%.",
+      "Fügt alle 7 Sek Feinden mit Gift-Zählern M.Schaden zu (69% d. ANG) und verringert ihre M.VERT um 17%. Jeder Gift-Zähler erhöht den Schaden um 20%.",
+      "Fügt alle 7 Sek Feinden mit Gift-Zählern M.Schaden zu (83% d. ANG) und verringert ihre M.VERT um 20%. Jeder Gift-Zähler erhöht den Schaden um 20%.",
+      "Fügt alle 7 Sek Feinden mit Gift-Zählern M.Schaden zu (100% d. ANG) und verringert ihre M.VERT um 25%. Jeder Gift-Zähler erhöht den Schaden um 20%."
+    ],
+    "story": "Der Legende nach beschenkt der Weltenbaum einmal alle 100 Jahre einen Auserwählten mit einem seiner Zweige. Der Zweig versprüht ewiges Leben und verleiht seinem Besitzer immense Macht und großes Wissen. Lorraine schuf diesen Stab, indem sie den Zweig mit dem Stein des Waldes, einem Elfenschatz, vereinigte. Jetzt kann sie die Kräfte der Natur anrufen und ihre Verbindung mit dem Weltenbaum aufrechterhalten, wo auch immer sie gerade sein mag."
+  },
+  "s1": {
+    "name": "Dornenbusch-Wald",
+    "description": "Greift zufällig Feinde in Reichw. 3mal an und verursacht je {0} M.Schaden. Jeder Angriff legt einen Gift-Zähler auf.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Hinterlässt nach einem Kritischen Treffer 2 Giftzähler."
+    },
+    "light": "Erhöht Trefferzahl um 1.",
+    "dark": "Feinde mit 5 oder mehr Giftzählern werden bei einem Treffer 3 Sek lang gefesselt."
+  },
+  "s2": {
+    "name": "Verworrene Reben",
+    "description": "Fügt Feinden in einer geraden Linie {0} M.Schaden zu und fesselt sie für {1} Sek. Während d. Wirkungsdauer wird alle {2} Sek 1 Gift-Zähler hinzugefügt. Nach einer Zeit werden die Gift-Zähler für großen Schaden zurückgesetzt.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht erlittenen M.Schaden um {0}% während d. Skill-Wirkungsdauer."
+    },
+    "light": "Erhöht Schaden um 40%.",
+    "dark": "Enemies hit by the final explosion effect are stunned for 2 Sek",
+    "ut": {
+      "name": "Tödliche Belladonna",
+      "description": [
+        "[Verworrene Reben] Verringert die Manakosten um 1 und entzieht dem betroffenen Feind 200 MP.",
+        "[Verworrene Reben] Verringert die Manakosten um 1 und entzieht dem betroffenen Feind 240 MP.",
+        "[Verworrene Reben] Verringert die Manakosten um 1 und entzieht dem betroffenen Feind 290 MP.",
+        "[Verworrene Reben] Verringert die Manakosten um 1 und entzieht dem betroffenen Feind 350 MP.",
+        "[Verworrene Reben] Verringert die Manakosten um 1 und entzieht dem betroffenen Feind 420 MP.",
+        "[Verworrene Reben] Verringert die Manakosten um 1 und entzieht dem betroffenen Feind 500 MP."
+      ],
+      "story": "Die wunderschöne, aber giftige Belladonna. Eine gefährliche Pflanze, die nur der Große Weise handhaben kann. Die kleine Belladonna, die in Ranken verschlungen ist, kann Feinde vergiften und sie schutzlos gegen magische Angriffe machen."
+    }
+  },
+  "s3": {
+    "name": "Zorn des Waldes",
+    "description": "Verursacht Feinden in Reichw. {0} M.Schaden. Für jeden Gift-Zähler wird der Schaden um {1}% erhöht.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Manakosten sind um 1 erhöht, aber Schaden ist +100%.",
+    "dark": "Feinde mit 5 oder mehr Giftzählern verlieren ihre positiven Effekte.",
+    "ut": {
+      "name": "Weltenbaumwurzel",
+      "description": [
+        "[Zorn des Waldes] Erhöht Schaden um 20%. Bei krit. Treffern auf Gegner mit mehr als 5 Giftzählern, wird der Skill-Cooldown um 4% reduziert.",
+        "[Zorn des Waldes] Erhöht Schaden um 24%. Bei krit. Treffern auf Gegner mit mehr als 5 Giftzählern, wird der Skill-Cooldown um 4% reduziert.",
+        "[Zorn des Waldes] Erhöht Schaden um 29%. Bei krit. Treffern auf Gegner mit mehr als 5 Giftzählern, wird der Skill-Cooldown um 4% reduziert.",
+        "[Zorn des Waldes] Erhöht Schaden um 35%. Bei krit. Treffern auf Gegner mit mehr als 5 Giftzählern, wird der Skill-Cooldown um 4% reduziert.",
+        "[Zorn des Waldes] Erhöht Schaden um 42%. Bei krit. Treffern auf Gegner mit mehr als 5 Giftzählern, wird der Skill-Cooldown um 4% reduziert.",
+        "[Zorn des Waldes] Erhöht Schaden um 50%. Bei krit. Treffern auf Gegner mit mehr als 5 Giftzählern, wird der Skill-Cooldown um 4% reduziert."
+      ],
+      "story": "Ein Zeichen der Einheit zwischen den Druiden und dem Weltenbaum. Die großen Weisen von Elidora pflegten schon immer eine tiefe Verbindung zum Weltenbaum. Die Wurzeln des Weltenbaums sind der Beweis für die tiefe Verbundenheit mit den Druiden. Sie greifen Feinde mit übernatürlichem Schaden an, wann immer Druiden den „Zorn des Waldes“ anrufen, um die Wut und die Feindseligkeit der Natur zu zeigen."
+    }
+  },
+  "s4": {
+    "name": "Klingenblatt",
+    "description": "Bei einem normalen Angriff wird ein zufälliger Feind 3-mal angegriffen. Dabei besteht eine Chance von 30 %, {0} M.Schaden und 20 Sekunden lang 1 Giftzähler zuzufügen. Gift verursacht insgesamt {1} M.Schaden über 20 Sekunden.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Erhöht Giftzähler-Limit auf 6.",
+    "dark": "20% Chance, getroffene Feinde für 2 Sek zu fesseln."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / Krit. Chance +100",
+    "dark": "Visiert alle Feinde alle 5 Sekunden an und greift jeden Feind mit einer Wahrscheinlichkeit von 30% mit Dornenbuschwald an."
+  }
+}

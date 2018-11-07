@@ -1,0 +1,120 @@
+{
+  "name": "Baudouin",
+  "subtitle": "Rufian Sagrado",
+  "description": "Un clérigo libre de la Orden de Lua. El utiliza una santa explosión para proteger al grupo, que cura aliados y daña a los enemigos",
+  "story": "Como el menos probable clérigo de la Iglesia de Lua, se puede describir a Baudouin en una sola palabra: inconformista. Desde que era un niño, siempre fue la oveja negra en la Iglesia de Lua que enfatiza la devoción. Entró a la iglesia con la ayuda del sumo sacerdote Berman, pero la vida religiosa era dolorosamente inapropiada para él. Sin embargo, un día, de repente decidió salir de su camino disfuncional y comenzó a seguir el camino del sacerdocio.",
+  "like": "Lua",
+  "dislike": "Lua",
+  "inn": {
+    "idle": "Whew, veo un poco de vino de calidad aquí! ¡Otra botella para mí, señorita!",
+    "recruit": {
+      "greet": "¿Hola! Qué tal? Te ves muy fuerte, ¿eh?",
+      "talk": [
+        "Dura y formal no es mi estilo!",
+        "Oh, ¿quieres pelear? No voy a perder en un combate!",
+        "¡Como Dios decreta, un hombre debe vivir por su puño!"
+      ],
+      "gift": "Gahahaha, ¿no eres la generosa !! Claro, vamos a tomar una copa!"
+    },
+    "affinity": {
+      "greet": "¡Me encanta esta atmósfera salvaje y descontrolada!",
+      "talk": [
+        "Habría que responder a la violencia con más violencia. ¡Así lo declararon los dioses, ja, ja, ja!",
+        "¡Mi cómplice! ¡Vamos a beber algo!"
+      ],
+      "gift": "¡Ja, ja, ja! ¡Te daré la bendición de Lua a cambio!"
+    },
+    "relationship": {
+      "greet": "Guauu! Pareces realmente bendecido por la Diosa! Estás reluciente!",
+      "talk": [
+        "Si hubiera ido al Imperio en ese momento... Padre... realmente tenías razón.",
+        "Eh, la Orden de Lua no es lo que crees que es, sabes? Diosa o no, solo es un grupo de personas.",
+        "Hay una cosa que quiero decirte. Disfruta la vida mientras puedas! Ya sabes, la vida es corta! No debes arrepentirte de nada!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Libro de Dios, Génesis",
+    "description": [
+      "Aumenta la velocidad de lanzamiento de todas las habilidades, y con cada uso de una habilidad, aumenta el Ataque en un 2 % y la Defensa en un 2 % para todos los aliados. Este efecto se puede acumular hasta 7 veces.",
+      "Aumenta la velocidad de lanzamiento de todas las habilidades, y con cada uso de una habilidad, aumenta el Ataque en un 2,4 % y la Defensa en un 2,4 % para todos los aliados. Este efecto se puede acumular hasta 7 veces.",
+      "Aumenta la velocidad de lanzamiento de todas las habilidades, y con cada uso de una habilidad, aumenta el Ataque en un 2,9 % y la Defensa en un 2,9 % para todos los aliados. Este efecto se puede acumular hasta 7 veces.",
+      "Aumenta la velocidad de lanzamiento de todas las habilidades, y con cada uso de una habilidad, aumenta el Ataque en un 3,5 % y la Defensa en un 3,5 % para todos los aliados. Este efecto se puede acumular hasta 7 veces.",
+      "Aumenta la velocidad de lanzamiento de todas las habilidades, y con cada uso de una habilidad, aumenta el Ataque en un 4,2 % y la Defensa en un 4,2 % para todos los aliados. Este efecto se puede acumular hasta 7 veces.",
+      "Aumenta la velocidad de lanzamiento de todas las habilidades, y con cada uso de una habilidad, aumenta el Ataque en un 5 % y la Defensa en un 5 % para todos los aliados. Este efecto se puede acumular hasta 7 veces."
+    ],
+    "story": "Incluso entre las reliquias sagradas otorgadas a los clérigos de la Iglesia de Lua, el libro de dios Génesis es especial. De acuerdo con la leyenda, este libro, protegido durante décadas por los grandes clérigos de la iglesia, lo escribió la misma Lua. Iris, el actual gran clérigo, después de recibir una revelación sobre Baudouin, confió este libro a su padre adoptivo, Berman. Luego, el libro fue otorgado a Baudouin cuando se convirtió en clérigo. Se dice que esta reliquia divina brinda energía infinita a su dueño, junto con el poder de desbloquear el verdadero potencial de aquellos que tienen fe."
+  },
+  "s1": {
+    "name": "Explosion Sagrada",
+    "description": "Inicia una explosión sagrada en el aliado con la Salud más baja, sanando al aliado y los aliados cercanos por {0} de Salud. Los enemigos cercanos reciben  {1} Daño Magico, y su Veloc de Ataque se reduce en {3}% por  {2}  seg.",
+    "books": {
+      "0": "Aumenta la Recuperacion y el Daño en {0}%.",
+      "1": "Aumenta la Recuperacion y el Daño en {0}%.",
+      "2": "Aumenta la Recuperacion y el Daño en {0}%."
+    },
+    "light": "La tasa de Daño y Curación aumenta en un 40%.",
+    "dark": "Los enemigos golpeados quedan aturdidos durante 1 seg."
+  },
+  "s2": {
+    "name": "Lanza de Luz",
+    "description": "Causa {0} Daño Mágico, derriba y encadena al enemigo durante {1} seg. Los enemigos encadenados reciben un 25% de Daño Mágico incrementado.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "El costo de maná se reduce en 1.",
+    "dark": "El número de objetivos cambia a 2.",
+    "ut": {
+      "name": "Último capítulo de la biblia",
+      "description": [
+        "[Lanza de luz] Gana inmunidad al Control de multitudes mientras dura la habilidad y aumenta la Debilidad mágica del objetivo en un 10 % durante 10 segundos.",
+        "[Lanza de luz] Gana inmunidad al Control de multitudes mientras dura la habilidad y aumenta la Debilidad mágica del objetivo en un 12 % durante 10 segundos.",
+        "[Lanza de luz] Gana inmunidad al Control de multitudes mientras dura la habilidad y aumenta la Debilidad mágica del objetivo en un 14 % durante 10 segundos.",
+        "[Lanza de luz] Gana inmunidad al Control de multitudes mientras dura la habilidad y aumenta la Debilidad mágica del objetivo en un 17 % durante 10 segundos.",
+        "[Lanza de luz] Gana inmunidad al Control de multitudes mientras dura la habilidad y aumenta la Debilidad mágica del objetivo en un 21 % durante 10 segundos.",
+        "[Lanza de luz] Gana inmunidad al Control de multitudes mientras dura la habilidad y aumenta la Debilidad mágica del objetivo en un 25 % durante 10 segundos."
+      ],
+      "story": "El último capítulo de la leyenda que fue demasiado horrorosa y aterradora para colocar en la biblia. Habla sobre la luz sagrada que mata al enemigo más oscuro de este mundo."
+    }
+  },
+  "s3": {
+    "name": "Santuario Sagrado",
+    "description": "Concede invencibilidad a todos los aliados por {0}  seg y recupera  {1}  la Salud durante el tiempo que dure.",
+    "books": {
+      "0": "Aumenta la Recuperacion en {0}%.",
+      "1": "Aumenta la Recuperacion en {0}%.",
+      "2": "Aumenta la Veloc de Ataque en {0}"
+    },
+    "light": "El costo de maná se reduce en 1.",
+    "dark": "A cambio de 2 Maná adicional y una reducción de 3 segundos de duración de Invincibilidad, todos los aliados obtienen 50% de ATQ.",
+    "ut": {
+      "name": "Rosario antiguo",
+      "description": [
+        "[Santuario Sagrado] El ATQ aumenta en un 25% al activarse la habilidad y recupera 120 de maná por segundo.",
+        "[Santuario Sagrado] El ATQ aumenta en un 25% al activarse la habilidad y recupera 140 de maná por segundo.",
+        "[Santuario Sagrado] El ATQ aumenta en un 25% al activarse la habilidad y recupera 170 de maná por segundo.",
+        "[Santuario Sagrado] El ATQ aumenta en un 25% al activarse la habilidad y recupera 200 de maná por segundo.",
+        "[Santuario Sagrado] El ATQ aumenta en un 25% al activarse la habilidad y recupera 250 de maná por segundo.",
+        "[Santuario Sagrado] El ATQ aumenta en un 25% al activarse la habilidad y recupera 300 de maná por segundo."
+      ],
+      "story": "El rosario que la clériga sagrada, Evelyn de la Iglesia de Lua, utilizó hasta su muerte. Es como si la voz sagrada de Lua pudiera escucharse desde el rosario, rezando para que el mundo no colapse. La innegable energía sagrada envuelve el cuerpo y maximiza el poder de Baudouin."
+    }
+  },
+  "s4": {
+    "name": "Entrenamiento de Dios",
+    "description": "Al atacar a un enemigo, hay un 20% de probabilidad de infligir  {0}  Daño Magico y aturdirlo por  {1}  seg.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "La probabilidad de activación aumenta un 10%.",
+    "dark": "El rango de ataque se incrementa en un 20%."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Bloq Magico +200",
+    "dark": "Al atacar con Explosion Sagrada y Flecha de Luz, causa un Daño Magico adicional igual al 100% del ATQ y reduce el tiempo de reutilización de la habilidad usada en un 20%."
+  }
+}

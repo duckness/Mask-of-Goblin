@@ -1,0 +1,120 @@
+{
+  "name": "Phillop",
+  "subtitle": "Roi des Nains",
+  "description": "Un légendaire chasseur de Dragons qui en a tué de nombreux... Bien qu'il soit de petite taille, ses coups de bouclier détruisent les formations ennemies et sont habituellement suivis du coup de grâce.",
+  "story": "C'est le puissant et honnête roi des Nains. Il y a cent ans de cela, il combattit au côté du Guerrier de l'Épée Sacrée contre l'armée des démons. Tout le pays connaît ses exploits héroïques face à la légion du Dragon Noir, la principale division de l'armée des démons. En réalité, il n'occupe le trône que par obligation. Même s'il se plaint de ses devoirs royaux, il continue de travailler consciencieusement.",
+  "like": "Les boissons, les bains de sable, la forge et l'artisanat",
+  "dislike": "Les longues conférences, le trône royal, les démons (surtout les Dragons Noirs)",
+  "inn": {
+    "idle": "Un humain peut il boire d'avantage qu'un Nain?",
+    "recruit": {
+      "greet": "Wow, ha ha. Vous me rappelez le bon vieux temps.",
+      "talk": [
+        "Le roi des nains? Ce titre n'est rien d'autre qu'une tare.",
+        "La taille du lit ne convient pas. Mais je ne rentre pas encore à la maison!",
+        "Comparé à nous les nains, les humains ne savent pas profiter de la vie!"
+      ],
+      "gift": "Est-ce un souvenir de notre affrontement? Hahaha. je le garderais précieusement."
+    },
+    "affinity": {
+      "greet": "Bienvenue. Allez ! Levez votre verre !",
+      "talk": [
+        "La guerre d'il y a cent ans... J'avais votre âge lorsque j'étais au côté du roi Kyle...",
+        "Le temps où j'étais un guerrier me manque parfois. À l'époque, je n'avais pas autant de problèmes."
+      ],
+      "gift": "Il ne fallait pas. En plus, j'aurais préféré de l'alcool, ah ah !"
+    },
+    "relationship": {
+      "greet": "Bonjour, ami! On prend un verre, eh?",
+      "talk": [
+        "J'ai tué plein de Dragons fous et de Draconniens dans ma journée. Suffisamment pour faire friser n'importe quelle barbe naine, eh.",
+        "Besoin d'une nouvelle arme? J'ai des haches de Nains dans ma malle.",
+        "Hahaha, vous êtes marrant. Oui, si vous avez un jour besoin de l'aide des Nains, nous serons là pour vous aider."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Atein, Ruines du Dragon",
+    "description": [
+      "Lorsque vous subissez des DEG, Rage du Dragon vous est appliqué pendant 10 sec. ATQ et DEF du Héros augmente de 0.8%. Cumulable jusqu'à 100 fois.",
+      "Lorsque vous subissez des DEG, Rage du Dragon vous est appliqué pendant 10 sec. ATQ et DEF du Héros augmente de 1%. Cumulable jusqu'à 100 fois.",
+      "Lorsque vous subissez des DEG, Rage du Dragon vous est appliqué pendant 10 sec. ATQ et DEF du Héros augmente de 1.2%. Cumulable jusqu'à 100 fois.",
+      "Lorsque vous subissez des DEG, Rage du Dragon vous est appliqué pendant 10 sec. ATQ et DEF du Héros augmente de 1.4%. Cumulable jusqu'à 100 fois.",
+      "Lorsque vous subissez des DEG, Rage du Dragon vous est appliqué pendant 10 sec. ATQ et DEF du Héros augmente de 1.7%. Cumulable jusqu'à 100 fois",
+      "Lorsque vous subissez des DEG, Rage du Dragon vous est appliqué pendant 10 sec. ATQ et DEF du Héros augmente de 2%. Cumulable jusqu'à 100 fois."
+    ],
+    "story": "Les Dragons Noirs sont des démons créés pour tuer les dragons, les arbitres du monde. Durant la guerre, il y a un siècle, ils tuèrent et dévorèrent d'innombrables dragons. Quelques-uns des dragons survivants devinrent fous de colère et se transformèrent en Dragons Fous. Ce ne sont plus que des monstres géants, poussés par leurs instincts destructeurs. Phillop et ses Nains pourchassent ces Dragons Noirs et Dragons Fous depuis la Guerre Démoniaque, rassemblant leurs dépouilles pour forger des objets légendaires."
+  },
+  "s1": {
+    "name": "Choc",
+    "description": "Inflige {0} points de DEG P. et renverse l'ennemi pendant {1} sec.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Diminue de {1}% la DEF P. des ennemis touchés pendant {0} sec."
+    },
+    "light": "Coût en Mana réduit de 1.",
+    "dark": "Temps de recharge réduit de 10% pour chaque ennemi touché."
+  },
+  "s2": {
+    "name": "Coup de Tête",
+    "description": "Fonce sur l'ennemi et inflige {0} points de DEG P. Réduit également la Vitesse d'Attaque des ennemis touchés de {2}% pendant {1} sec.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Diminiue l'ATQ ennemie de {0}%."
+    },
+    "light": "Inflige des points de DEG P. supplémentaires équivalents à 10% des PV max.",
+    "dark": "Effet Repousser changé en Étourdissement de 3 sec.",
+    "ut": {
+      "name": "Casque Capricorne nain",
+      "description": [
+        "[Coup de tête] Réduit le coût en mana de 1 et réduit la résistance Crit P. de l'ennemi affecté de 200 pendant 10 sec.",
+        "[Coup de tête] Réduit le coût en mana de 1 et réduit la résistance Crit P. de l'ennemi affecté de 240 pendant 10 sec.",
+        "[Coup de tête] Réduit le coût en mana de 1 et réduit la résistance Crit P. de l'ennemi affecté de 290 pendant 10 sec.",
+        "[Coup de tête] Réduit le coût en mana de 1 et réduit la résistance Crit P. de l'ennemi affecté de 350 pendant 10 sec.",
+        "[Coup de tête] Réduit le coût en mana de 1 et réduit la résistance Crit P. de l'ennemi affecté de 420 pendant 10 sec.",
+        "[Coup de tête] Réduit le coût en mana de 1 et réduit la résistance Crit P. de l'ennemi affecté de 500 pendant 10 sec."
+      ],
+      "story": "Casque antique Capricorne de roi nain. Il a été fabriqué avec l’or des dragons récupéré après avoir vaincu Bokrug, le dragon noir cupide. La splendide corne dorée de ce casque est imprégnée de la magie du dragon noir et ralentira tout ennemi touché par Coup de Tête."
+    }
+  },
+  "s3": {
+    "name": "Incarnation Terrestre",
+    "description": "Lorsque activé, augmente la DEF de {1} pendant {0} sec et immunise contre tous les effets. Soigne également {2}% des PV.",
+    "books": {
+      "0": "Le taux de récupération des points de DEF P. augmente de {0}%.",
+      "1": "Le taux de récupération des points de DEF P. augmente de {0}%.",
+      "2": "Réduit les DEG de {0} supplémentaires."
+    },
+    "light": "Inflige 1% des PV max par sec aux ennemis proches.",
+    "dark": "Effet changé en Étourdissement de 3 sec aux ennemis proches.",
+    "ut": {
+      "name": "Marteau de cérémonie nain",
+      "description": [
+        "[Incarnation Terrestre] Pour la durée de la compétence, Vit ATQ et Chances de Crit sont augmentées de 250 et le boost de DEF est augmenté de 20%.",
+        "[Incarnation Terrestre] Pour la durée de la compétence, Vit ATQ et Chances de Crit sont augmentées de 250 et le boost de DEF est augmenté de 24%.",
+        "[Incarnation Terrestre] Pour la durée de la compétence, Vit ATQ et Chances de Crit sont augmentées de 250 et le boost de DEF est augmenté de 29%.",
+        "[Incarnation Terrestre] Pour la durée de la compétence, Vit ATQ et Chances de Crit sont augmentées de 250 et le boost de DEF est augmenté de 35%.",
+        "[Incarnation Terrestre] Pour la durée de la compétence, Vit ATQ et Chances de Crit sont augmentées de 250 et le boost de DEF est augmenté de 42%.",
+        "[Incarnation Terrestre] Pour la durée de la compétence, Vit ATQ et Chances de Crit sont augmentées de 250 et le boost de DEF est augmenté de 50%."
+      ],
+      "story": "Un marteau reçu en cadeau par le roi nain de la part de l’Élémental de terre. Le roi reçut ce cadeau pour avoir sauvé le royaume des gnomes des attaques du terrible Dragon de Terre Azi Dahaka. En utilisant Incarnation Terrestre, son marteau de cérémonie béni par l’esprit de la terre, il voit sa DEF augmentée et obtient l’immunité à la récupération de PV et Résist. Contrôles."
+    }
+  },
+  "s4": {
+    "name": "Destruction d'Armure",
+    "description": "Lors d'une l'attaque, réduit la DEF P. de l'ennemi de {1} pendant {0} sec. Cumulable jusqu'à 5 fois.",
+    "books": {
+      "0": "Réduit la DEF P. de {0}% supplémentaires.",
+      "1": "Réduit la DEF P. de {0}% supplémentaires.",
+      "2": "Réduit les chances d'Esquive P. de l'ennemi de {0}% par application."
+    },
+    "light": "Les ennemis ayant 5 charges subissent 1% de DEG P. supplémentaire basés à chaque attaque sur les PV max.",
+    "dark": "Retire tous les effets positifs et la cible reçoit 20% de DEG P. supplémentaires pendant 20 sec. Temps de recharge: 20 sec."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Blocage P. +200",
+    "dark": "Les attaques auto donnent 10% de chances d'appliquer Étourdissement pendant 2 sec à la cible et d'infliger des DEG supplémentaires à hauteur de 10% de PV du héros."
+  }
+}

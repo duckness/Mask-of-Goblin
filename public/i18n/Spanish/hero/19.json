@@ -1,0 +1,120 @@
+{
+  "name": "Pavel",
+  "subtitle": "Hechicero Dragon de Hielo",
+  "description": "Un mago capaz de usar los poderes mágicos del Dragón de Hielo después de haber sido maldecido. El usa poderosa magia helada para congelar enemigos.",
+  "story": "Un caso curioso de un mago humano poseído por el alma de un dragón de hielo. Ha luchado junto a Kyle hace 100 años, este mago de hielo ancestral ya existía mucho antes de entonces. El alma del dragón normalmente está dormida, pero despierta ocasionalmente para hablar con él a través de la voz de una amante. El imperio lo considera una figura clave, y ha mandado a Rodina a controlarlo y a protegerlo. Sin embargo, él solo desea vivir en paz y tranquilo, alejado de las preocupaciones del mundo.",
+  "like": "Paz, silencio, lectura",
+  "dislike": "Agua caliente, cosas ruidosas",
+  "inn": {
+    "idle": "...Tanta gente.",
+    "recruit": {
+      "greet": "...¿Necesitas algo?",
+      "talk": [
+        "Tan ruidoso...",
+        "Necesito refrescarme un poco la cabeza.",
+        "¿Qué habría hecho el Maestro..."
+      ],
+      "gift": "..Acepto."
+    },
+    "affinity": {
+      "greet": "¿Por qué este lugar es tan cálido?",
+      "talk": [
+        "Silencio... Déjame descansar...",
+        "No siento que transmitas frialdad..."
+      ],
+      "gift": "Gracias."
+    },
+    "relationship": {
+      "greet": "...Te ves bien.",
+      "talk": [
+        "Fui un ser humano al principio... así que te entiendo",
+        "Sientes curiosidad por los dragones...?",
+        "Su alma me susurra... tiene curiosidad sobre ti..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Corazon de Dragón, Andarta Andraste",
+    "description": [
+      "Cada 15 segundos, infligir Escarcha y causar Daño Magico (160% de ATQ) a 2 enemigos aleatorios. Congele al enemigo durante 5 segundos si ya están infligidos con Escarcha.",
+      "Cada 15 segundos, infligir Escarcha y causar Daño Magico (192% de ATQ) a 2 enemigos aleatorios. Congele al enemigo durante 5 segundos si ya están infligidos con Escarcha.",
+      "Cada 15 segundos, infligir Escarcha y causar Daño Magico (228% de ATQ) a 2 enemigos aleatorios. Congele al enemigo durante 5 segundos si ya están infligidos con Escarcha.",
+      "Cada 15 segundos, infligir Escarcha y causar Daño Magico (276% de ATQ) a 2 enemigos aleatorios. Congele al enemigo durante 5 segundos si ya están infligidos con Escarcha.",
+      "Cada 15 segundos, infligir Escarcha y causar Daño Magico (332% de ATQ) a 2 enemigos aleatorios. Congele al enemigo durante 5 segundos si ya están infligidos con Escarcha.",
+      "Cada 15 segundos, infligir Escarcha y causar Daño Magico (400% de ATQ) a 2 enemigos aleatorios. Congele al enemigo durante 5 segundos si ya están infligidos con Escarcha."
+    ],
+    "story": "Andarta y Andraste eran dos dragones que fueron derrotados por los demonios durante la guerra. Eran un par conectados en el alma. Eran amantes que se entendían mejor que nadie. Incluso al morir, se negaron a separarse y le hicieron un último pedido a Pavel, su camarada. Pavel, les concedió su deseo final transfiriendo sus almas en sus corazones y luego convirtiéndolos en un par de gemas. Aunque ambos perdieron sus cuerpos, permanecen juntos e inseparables para siempre."
+  },
+  "s1": {
+    "name": "Una Cuña Fria",
+    "description": "Causa  {0}  Daño Magico al enemigo y Congelalo por  {1}  seg. Si alguno de los enemigos es infligido con Escarcha, causales Daño y Congelalos tambien.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "el Daño se incrementa en un 40%.",
+    "dark": "A cambio de 1 Maná adicional, la duración del Congelamiento se incrementa en 5 seg."
+  },
+  "s2": {
+    "name": "Lanza de Hielo",
+    "description": "Ataca a enemigos aleatorios 5 veces causando  {0}  Daño Magico y congelalos. Cuando un enemigo congelado es atacado, utiliza una lanza de hielo adicional que causa la mitad del Daño. Estas Lanzas adicionales no infligen congelacion. Los enemigos congelados reciben 50% más de Daño en este ataque.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "El costo de maná se reduce en 1.",
+    "dark": "El objetivo cambia al enemigo con el ATQ más alto.",
+    "ut": {
+      "name": "Broche congelado",
+      "description": [
+        "[Lanza de hielo] Reduce el Tiempo de reutilización en un 8 % y tiene una probabilidad del 40 % de congelar al enemigo durante 1 segundo al dañarlo en el estado de Escarcha. Este efecto no se aplica a lanzas creadas adicionalmente.",
+        "[Lanza de hielo] Reduce el Tiempo de reutilización en un 8 % y tiene una probabilidad del 48 % de congelar al enemigo durante 1 segundo al dañarlo en el estado de Escarcha. Este efecto no se aplica a lanzas creadas adicionalmente.",
+        "[Lanza de hielo] Reduce el Tiempo de reutilización en un 8 % y tiene una probabilidad del 58 % de congelar al enemigo durante 1 segundo al dañarlo en el estado de Escarcha. Este efecto no se aplica a lanzas creadas adicionalmente.",
+        "[Lanza de hielo] Reduce el Tiempo de reutilización en un 8 % y tiene una probabilidad del 70 % de congelar al enemigo durante 1 segundo al dañarlo en el estado de Escarcha. Este efecto no se aplica a lanzas creadas adicionalmente.",
+        "[Lanza de hielo] Reduce el Tiempo de reutilización en un 8 % y tiene una probabilidad del 84 % de congelar al enemigo durante 1 segundo al dañarlo en el estado de Escarcha. Este efecto no se aplica a lanzas creadas adicionalmente.",
+        "[Lanza de hielo] Reduce el Tiempo de reutilización en un 8 % y tiene una probabilidad del 100 % de congelar al enemigo durante 1 segundo al dañarlo en el estado de Escarcha. Este efecto no se aplica a lanzas creadas adicionalmente."
+      ],
+      "story": "El dragón de hielo regaló este broche a un joven Pavel y lo imbuyó con su aliento. Pero después que el dragón de hielo y Pavel se convirtieran en uno, recuerda a Pavel a no abandonarlo. Puede infligir dolor que perfora el corazón. Imbuye un niño en el maná de Pavel y provoca que su magia sea incluso más precisa."
+    }
+  },
+  "s3": {
+    "name": "Conquista Helada",
+    "description": "Causa  {0}  Daño Magico a todos los enemigos. Congelar a los enemigos por  {1}  segundos, y aumentar el Daño causado en  {2}% si ya están congelados.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "El costo de maná se reduce en 1.",
+    "dark": "Obten inmunidad al Ctrl de Masas mientras usas dicha habilidad.",
+    "ut": {
+      "name": "Corazón de glaciar",
+      "description": [
+        "[Conquista Helada] El Daño aumenta en un 50% y la duración de Congelar aumenta en 1 segundo.",
+        "[Conquista Helada] El Daño aumenta en un 50% y la duración de Congelar aumenta en 1.2 segundo.",
+        "[Conquista Helada] El Daño aumenta en un 50% y la duración de Congelar aumenta en 1.4 segundo.",
+        "[Conquista Helada] El Daño aumenta en un 50% y la duración de Congelar aumenta en 1.7 segundo.",
+        "[Conquista Helada] El Daño aumenta en un 50% y la duración de Congelar aumenta en 2.1 segundo.",
+        "[Conquista Helada] El Daño aumenta en un 50% y la duración de Congelar aumenta en 2.5 segundo."
+      ],
+      "story": "Sangre helada del espíritu del invierno. Pavel la encontró en el fondo de la Cueva de hielo y la convirtió en aretes. Se puede sentir un dolor severo y un intenso frío al utilizarlos, pero aumenta el mana de Pavel hasta el límite."
+    }
+  },
+  "s4": {
+    "name": "Escalofrios del Amanecer",
+    "description": "Causa {1} de Daño mágico a 3 enemigos cada {0} segundo(s) e inflige Escarcha para reducir su Velocidad de ataque en 100 durante 8 segundos.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "La resistencia al Ctrl de Masas del objetivo se reduce en 250 durante 10 segundos.",
+    "dark": "La escarcha no se puede despejar con las habilidades de dispersion"
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Daño Crit+20%",
+    "dark": "Cada 3 segundos, ataca a todos los enemigos y causa un 50% del ATQ como Daño Mágico, Congelándolo con un 50% de probabilidades. Los enemigos ya Congelados reciben un 300% de ATQ como Daño Mágico durante 3 segundos."
+  }
+}

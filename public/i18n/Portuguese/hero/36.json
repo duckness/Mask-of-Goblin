@@ -1,0 +1,120 @@
+{
+  "name": "Ricardo",
+  "subtitle": "Julgamento de Lua",
+  "description": "Um nobre herói que protegeu o reino dos humanos contra a ameaça dos Demônios há muito tempo. Utilizando a torre abençoada pela deusa, ele destrói seus inimigos.",
+  "story": "Um herói que salvou inúmeras vidas das ameaças Demoníacas, além de ser o atual comandante dos Cavaleiros Sagrados da Igreja de Lua. Este corajoso e experiente cavaleiro caça Demônios por toda Orvelia desde a juventude. Ele é também o diretor do orfanato onde Kasel, Frey e Clause cresceram. Treinou inúmeros guerreiros em Orvelia que o consideram um líder espiritual. Está se preparando para renunciar à sua posição devido à sua idade, mas sua força atemporal sempre levou seus pedidos de aposentadoria a serem negados.",
+  "like": "Pessoas, ajudar os outros",
+  "dislike": "Demônios, principalmente os que atacam pessoas sem motivo",
+  "inn": {
+    "idle": "Vejo que está saudável. Muito bom! Hahahaha!!",
+    "recruit": {
+      "greet": "Hahaha, é você não é? Você tem se alimentado bem?",
+      "talk": [
+        "Posso ser velho, mas ainda estou em ótima forma! Porém, não sei dizer quando conseguirei me aposentar neste ritmo. Hahaha!!",
+        "Hahaha, meus quadris doem um pouco, mas tanto faz. Eu consigo continuar!",
+        "Competição de queda de braço?! Não perco isso por nada. Manda ver!!"
+      ],
+      "gift": "Haha, não se preocupe comigo. Coloquei na caixa de doação do orfanato! As crianças precisam mais do que eu."
+    },
+    "affinity": {
+      "greet": "Como você está? A saúde é o mais importante!",
+      "talk": [
+        "Parece que você tem treinado bastante! Hahahaha!!!",
+        "Bebida? Adoro! Embora eu não possa mais beber como antigamente!"
+      ],
+      "gift": "Vou ter que comprar umas roupas novas pras crianças! Hahahaha!"
+    },
+    "relationship": {
+      "greet": "Haha, você está bem hoje!",
+      "talk": [
+        "Quando lutar com Demônios, sempre existirá diversas casualidades de civis... ainda mais que nos casos de guerras normais entre humanos.",
+        "Minha idade? Hahaha, não seria estranho se eu estivesse aposentado nesse momento! Eles não deixariam...",
+        "A vida é uma série de treino constante! Não relaxe nos exercícios agora!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Theoria, Luz do Julgamento",
+    "description": [
+      "Quando um aliado que não seja o conjurador recebe DAN, há 10% de chance de ganhar um escudo que absorve DAN igual a 320% do ATQ por 5 segundos e concede imunidade a CM. Este efeito não é acionado mais de uma vez em 5 segundos.",
+      "Quando um aliado que não seja o conjurador recebe DAN, há 12% de chance de ganhar um escudo que absorve DAN igual a 384% do ATQ por 5 segundos e concede imunidade a CM. Este efeito não é acionado mais de uma vez em 5 segundos.",
+      "Quando um aliado que não seja o conjurador recebe DAN, há 14% de chance de ganhar um escudo que absorve DAN igual a 460% do ATQ por 5 segundos e concede imunidade a CM. Este efeito não é acionado mais de uma vez em 5 segundos.",
+      "Quando um aliado que não seja o conjurador recebe DAN, há 17% de chance de ganhar um escudo que absorve DAN igual a 552% do ATQ por 5 segundos e concede imunidade a CM. Este efeito não é acionado mais de uma vez em 5 segundos.",
+      "Quando um aliado que não seja o conjurador recebe DAN, há 20% de chance de ganhar um escudo que absorve DAN igual a 660% do ATQ por 5 segundos e concede imunidade a CM. Este efeito não é acionado mais de uma vez em 5 segundos.",
+      "Quando um aliado que não seja o conjurador recebe DAN, há 25% de chance de ganhar um escudo que absorve DAN igual a 800% do ATQ por 5 segundos e concede imunidade a CM. Este efeito não é acionado mais de uma vez em 5 segundos."
+    ],
+    "story": "Quando a Espada Sagrada de Aea foi concedida a Kyle, ela apareceu no Templo de Lua localizado ao norte das Planícies do Rei. Quando Kyle removeu a espada do altar, ela liberou uma poderosa onda de luz que transformou toda a redondeza num território sagrado. Tudo que havia dentro do Templo foi transformado em relíquias sagradas. Teoria, o pilar central do Templo, absorveu a maior quantidade de energia sagrada."
+  },
+  "s1": {
+    "name": "Destruição",
+    "description": "Causa {0} de DAN.F e derruba os inimigos frontais durante 3 segundos.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Ganha imunidade a CM durante o uso."
+    },
+    "light": "O alvo recebe mais 25% de DAN.F durante 10 segundos.",
+    "dark": "Causa DAN.F adicional equivalente a 200% da DEF.M."
+  },
+  "s2": {
+    "name": "Proteção Divina",
+    "description": "Causa {0} de DAN.F a inimigos na área e inflige Atordoamento por 1 segundo. Além disso, a DEF.M aumenta em {1} por 10 segundos, e recebe 80% do DAN.M em vez dos aliados.",
+    "books": {
+      "0": "Reforço de Defesa aumentado em {0}%.",
+      "1": "Reforço de Defesa aumentado em {0}%.",
+      "2": "Recupera 1% do próprio PV por segundo durante 10 segundos."
+    },
+    "light": "Em troca de 1 Custo de Mana adicional, Ricardo ganha 30% de resistência a DAN do DAN recebido ao proteger seus aliados.",
+    "dark": "Os efeitos deste poder não podem ser removidos.",
+    "ut": {
+      "name": "Orgulho do Guerreiro Sagrado",
+      "description": [
+        "[Proteção Divina] Concede Imunidade a CM e aumenta a Resistência M. em 10% enquanto durar a habilidade.",
+        "[Proteção Divina] Concede Imunidade a CM e aumenta a Resistência M. em 12% enquanto durar a habilidade.",
+        "[Proteção Divina] Concede Imunidade a CM e aumenta a Resistência M. em 14% enquanto durar a habilidade.",
+        "[Proteção Divina] Concede Imunidade a CM e aumenta a Resistência M. em 17% enquanto durar a habilidade.",
+        "[Proteção Divina] Concede Imunidade a CM e aumenta a Resistência M. em 21% enquanto durar a habilidade.",
+        "[Proteção Divina] Concede Imunidade a CM e aumenta a Resistência M. em 25% enquanto durar a habilidade."
+      ],
+      "story": "Escudo do árbitro dos Cavaleiros Sagrados de Lua. Artefato dado àqueles que receberam o título de Árbitro dos Cavaleiros Sagrados de Lua. Um artefato portador da bênção da Deusa Lua que protege aqueles sob a benevolência divina e pune inimigos sem misericórdia."
+    }
+  },
+  "s3": {
+    "name": "Julgamento Divino",
+    "description": "Ataca 3 vezes os inimigos frontais. Os primeiros 2 ataques causam {0} DAN.F, cada ataque atordoa os inimigos durante 4 segundos. O último ataque tem alcance 20% mais amplo, causa {1} de DAN.F e atordoa os inimigos durante 4 segundos. Cada ataque tem 50% de chance de remover efeitos positivos do inimigo.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Bloqueia todo o DAN enquanto esse poder estiver ativado."
+    },
+    "light": "Aumenta em 2 segundos a duração do Atordoamento.",
+    "dark": "Reduz o custo de mana em 1.",
+    "ut": {
+      "name": "Voto do Guerreiro Sagrado",
+      "description": [
+        "[Julgamento Divino] Remove os efeitos positivos dos inimigos com 75% de chance e reduz a Vel de ATQ do alvo em 100.",
+        "[Julgamento Divino] Remove os efeitos positivos dos inimigos com 75% de chance e reduz a Vel de ATQ do alvo em 120.",
+        "[Julgamento Divino] Remove os efeitos positivos dos inimigos com 75% de chance e reduz a Vel de ATQ do alvo em 140.",
+        "[Julgamento Divino] Remove os efeitos positivos dos inimigos com 75% de chance e reduz a Vel de ATQ do alvo em 170.",
+        "[Julgamento Divino] Remove os efeitos positivos dos inimigos com 75% de chance e reduz a Vel de ATQ do alvo em 210.",
+        "[Julgamento Divino] Remove os efeitos positivos dos inimigos com 75% de chance e reduz a Vel de ATQ do alvo em 250."
+      ],
+      "story": "O selo que Ricardo usou para seu juramento de Guerreiro Sagrado. Ao serem nomeados Guerreiros Sagrados, os cavaleiros deixam seu nome no certificado de juramento junto ao seu selo. Ricardo fez seu selo com seu apreço pela Igreja de Lua. Ele ainda o leva consigo, mesmo depois de tanto tempo."
+    }
+  },
+  "s4": {
+    "name": "Bênção Divina",
+    "description": "Quando qualquer outro aliado receber DAN.M, a DEF.M deste aumenta em {0} , durante 5 segundos. Acumula-se até no máximo 5 vezes, e Ricardo não é atingido por esse efeito.",
+    "books": {
+      "0": "Reforço de Defesa aumentado em {0}%.",
+      "1": "Reforço de Defesa aumentado em {0}%.",
+      "2": "Aumenta a duração em 2 segundos."
+    },
+    "light": "Reforça em 40% a taxa de aumento de DEF.M.",
+    "dark": "Reforça para 8 a contagem máxima de acúmulos."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / BLQ.F +200",
+    "dark": "Quando o próprio PV estiver abaixo de 40%, o PV não poderá ficar menor que 10% por 6 segundos, e o ATQ de todos os aliados aumenta em 50% da própria DEF.M. Esse efeito é ativado apenas uma vez a cada 60 segundos."
+  }
+}

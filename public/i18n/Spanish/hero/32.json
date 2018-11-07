@@ -1,0 +1,120 @@
+{
+  "name": "Lewicia",
+  "subtitle": "La Sangre Real Bermellon",
+  "description": "Una princesa vampira que luchó junto a los héroes de hace 100 años. Un vampiro inmortal de sangre pura, ella se está recuperando de sus batallas pasadas. Ella ejerce dominio sobre toda la sangre, utilizando sus secuaces para atacar al enemigo.",
+  "story": "Una princesa vampiro que se unió a Kyle en su guerra contra los demonios hace 100 años. Ella es una vampiro pura sangre que ha vivido más de 500 años. A menudo considerada como la reina de los vampiros, es prácticamente inmortal. Los efectos del gran gasto de poder durante la guerra contra demonios la ha afectado, y ahora la princesa inmortal adquirió la forma de una niña. Después de la guerra, se mezcló entre la sociedad de humanos y observó el cambio en el mundo durante los próximos 100 años mientras lentamente recuperaba su poder. Cuando los demonios reaparecieron y la sagrada espada despertó, Lewicia sintió los cambios repentinos de energía. Poco después, emprendió un viaje para encontrar y observar al recién escogido guerrero.",
+  "like": "Viaje de diversión y con comodidad",
+  "dislike": "La guerra y el desorden",
+  "inn": {
+    "idle": "Qué enérgico. Perfecto para la recuperación.",
+    "recruit": {
+      "greet": "Saludos, nos encontramos nuevamente. ¿Te vas a quedar por un tiempo?",
+      "talk": [
+        "¿Hm? Admito que el ajo es bastante picante, pero ¿por qué lo preguntas?",
+        "Me encanta el brillo del sol aquí. En casa, siempre está tan oscuro... ¿Hmm? ¿Por qué me miras de esa manera?",
+        "Una vez que me recupere, ya no tendré inconvenientes con el cuerpo."
+      ],
+      "gift": "Regalos, hmm. Una costumbre interesante Bueno, si insistes, aceptaré tu regalo."
+    },
+    "affinity": {
+      "greet": "Hum, es un gran día.",
+      "talk": [
+        "¿Mi estatus como princesa? Hum, nunca lo he pensado, realmente.",
+        "Este sitio es mucho más agradable que el lugar oscuro y húmedo de donde vengo."
+      ],
+      "gift": "¿Un regalo? Gracias. Tendré que preparar algo para ti la próxima vez."
+    },
+    "relationship": {
+      "greet": "Hola. No está bastante agradable el día hoy?",
+      "talk": [
+        "Mi cuerpo se está recuperando rápidamente hoy en día. Todo es gracias a ti.",
+        "Por qué a veces retrocedo incluso cuando estoy mejorando? Bueno, me aburro... y espero que la gente me de bocadillos.",
+        "Por qué a veces retrocedo incluso cuando estoy mejorando? Bueno, me aburro... y espero que la gente me de bocadillos."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Gobernante Escarlata, Dominicia",
+    "description": [
+      "Si la Salud está por encima del 50%, el ATQ se incrementa en un 20%. Si la Salud está por debajo del 50%, recibe un 10% de Daño reducido.",
+      "Si la Salud está por encima del 50%, el ATQ se incrementa en un 24%. Si la Salud está por debajo del 50%, recibe un 12% de Daño reducido.",
+      "Si la Salud está por encima del 50%, el ATQ se incrementa en un 29%. Si la Salud está por debajo del 50%, recibe un 14% de Daño reducido.",
+      "Si la Salud está por encima del 50%, el ATQ se incrementa en un 35%. Si la Salud está por debajo del 50%, recibe un 17% de Daño reducido.",
+      "Si la Salud está por encima del 50%, el ATQ se incrementa en un 42%. Si la Salud está por debajo del 50%, recibe un 21% de Daño reducido.",
+      "Si la Salud está por encima del 50%, el ATQ se incrementa en un 50%. Si la Salud está por debajo del 50%, recibe un 25% de Daño reducido."
+    ],
+    "story": "Un bastón de sangre que ha sido transferido en la familia del señor vampiro a través de generaciones. Su color carmesí simboliza la autoridad, el conocimiento y el absoluto poder del señor vampiro. En lo profundo del subterráneo de las Llanuras de Galia se encuentra la tierra sagrada de los vampiros. Este bastón legendario se encuentra ahí, listo para aparecer ante la llamada del maestro que lo valga, donde sea que esto ocurra."
+  },
+  "s1": {
+    "name": "Esfera de Sangre",
+    "description": "Causa {0} Daño Mágico al enemigo, y recibe un 25% de Daño Mágico aumentado durante 10 segundos. Por cada Maldición Sangrienta apilada, el Daño aumenta en un 0.5%. Al utilizarlo, consume un 10% de la Salud actual",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "El costo de maná se incrementa en 1 esfera, pero el Daño aumenta en un 100%.",
+    "dark": "El objetivo recibe un 25% de Daño Magico aumentado durante 10 seg."
+  },
+  "s2": {
+    "name": "Zona de Sangre",
+    "description": "Causa {0} Daño Mágico al enemigo y crea una Zona Sangrienta que dura 10 segundos alrededor del objetivo. Los enemigos dentro de la Zona Sangrienta reciben {1} de Daño Mágico cada 0.5 segundos, y la DEF Mágica se reduce en un 30%. Por cada Maldición Sangrienta acumulada, el Daño aumenta en un 0.5%. Al utilizarlo, consume un 20% de la Salud actual.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "el Daño se incrementa en un 40%.",
+    "dark": "El tiempo de reutilización se reduce en 3 segundos.",
+    "ut": {
+      "name": "Hechizo de niebla sangrienta",
+      "description": [
+        "[Zona de sangre] Aumenta el Daño en un 20 % y la duración del efecto en 2 segundos.",
+        "[Zona de sangre] Aumenta el Daño en un 24 % y la duración del efecto en 2 segundos.",
+        "[Zona de sangre] Aumenta el Daño en un 29 % y la duración del efecto en 2 segundos.",
+        "[Zona de sangre] Aumenta el Daño en un 35 % y la duración del efecto en 2 segundos.",
+        "[Zona de sangre] Aumenta el Daño en un 42 % y la duración del efecto en 2 segundos.",
+        "[Zona de sangre] Aumenta el Daño en un 50 % y la duración del efecto en 2 segundos."
+      ],
+      "story": "Herramienta mágica del sucesor de sangre. Los hechizos de la familia del señor vampiro han sido pasados de generación en generación. El sucesor de Lewisia es el vampiro Sir Lusben, cuyo regalo es el hechizo de niebla sangrienta. Lewisia odia cualquier cosa que tenga que ver con ser un sucesor, pero le gusta cómo la zona de sangre reduce su fatiga, así que disfruta de su uso."
+    }
+  },
+  "s3": {
+    "name": "Banquete de Sangre",
+    "description": "Ataca 3 veces a los enemigos en línea recta, causando un total de {0} Daño Mágico y los aturde durante 3 segundos. Por cada Maldición Sangrienta acumulada,el Daño aumenta en un 0.5% Al utilizarlo, consume un 10% de la Salud actual.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Al atacar a un enemigo con más de 80 pilas de Maldición Sangrienta, el tiempo de reutilización de las habilidades se reduce en un 5%.",
+    "dark": "El costo de maná se reduce en 1.",
+    "ut": {
+      "name": "Sangre antigua",
+      "description": [
+        "[Banquete de Sangre] El Daño aumenta en un 20%, y luego del Golpe Crít., el maná se recupera en 400",
+        "[Banquete de Sangre] El Daño aumenta en un 24%, y luego del Golpe Crít., el maná se recupera en 400",
+        "[Banquete de Sangre] El Daño aumenta en un 29%, y luego del Golpe Crít., el maná se recupera en 400",
+        "[Banquete de Sangre] El Daño aumenta en un 35%, y luego del Golpe Crít., el maná se recupera en 400",
+        "[Banquete de Sangre] El Daño aumenta en un 42%, y luego del Golpe Crít., el maná se recupera en 400",
+        "[Banquete de Sangre] El Daño aumenta en un 50%, y luego del Golpe Crít., el maná se recupera en 400"
+      ],
+      "story": "La sangre de la antigua reina vampira. Cuanto más pura es la sangre de un vampiro, más potente es su sangre de maná. La sangre de la antigua reina vampira es la mejor sangre de toda su especie, y los vampiros que la beben consiguen vitalidad y maná ilimitados. Es un tipo de sangre muy adictivo, por lo que hay que tener mucho cuidado al usarla."
+    }
+  },
+  "s4": {
+    "name": "El Dominante de Sangre",
+    "description": "Cuando la salud es del 50% o superior, el ATQ aumenta en {0} y la Pen. de DEF aumenta en 250. Al atacar, inflige al objetivo con maldición sangrienta, provoca un total de {1} de daño mágico durante 20 seg., y recupera el 10% del daño causado por maldición sangrienta convirtiéndolo en salud. La maldición sangrienta se puede acumular como máximo 100 veces y no se puede disipar.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "El máximo de pilas de Maldición Sangrienta cambia a 200.",
+    "dark": "La tasa de curación de todos los aliados aumenta un 20% y la tasa de curación de todos los enemigos se reduce en un 20%."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Oportunidad Crit +100",
+    "dark": "El consumo de Salud de todas las habilidades se incrementa en un 50%, pero los tiempos de reutilización se reducen en un 20%."
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "name": "Kara",
+  "subtitle": "Epítome da Tecnomagia Ancestral",
+  "description": "Um Golem mecânico tipo humano feito por um tecnomago de uma civilização antiga há muito esquecida. Seu corpo é uma aglomeração de tecnologia ancestral e é a epítome da tecnomagia. Ela é uma arma poderosa capaz de aniquilar o inimigo com um potente fogo concentrado.",
+  "story": "Um Golem tipo humano feito de tecnomagia ancestral, embora a sua aparência seja idêntica à de uma garota humana. Ela é uma arma ancestral sem sentimentos feita com o único propósito de ser uma ferramenta. Esteve adormecida nas ruínas de uma civilização antiga, nas profundezas subterrâneas das Planícies de Galluah. Foi desenterrada por Annette, uma tecnomaga do Reino de Orvel, durante uma escavação de sua pesquisa, e despertou em uma nova era com uma nova civilização...",
+  "like": "Carga de energia, Mestre",
+  "dislike": "Ordens que não podem ser cumpridas, formas ineficientes de fazer as coisas",
+  "inn": {
+    "idle": "Tantos humanos. Mais do que eu jamais vi antes.",
+    "recruit": {
+      "greet": "Olá.",
+      "talk": [
+        "O clima hoje está... bem limpo. Haverá algumas nuvens à noite.",
+        "A comida aqui é de alta qualidade. Não tem veneno, então não precisa se preocupar.",
+        "O lugar é tranquilo, mas aqui é barulhento."
+      ],
+      "gift": "Então é essa a moeda usada hoje em dia. Meu Mestre ia gostar."
+    },
+    "affinity": {
+      "greet": "Olá. Outro Mestre.",
+      "talk": [
+        "Sou uma arma. Não tenho emoções. Mas...",
+        "Me pergunto o que significa estar viva..."
+      ],
+      "gift": "Obrigada. Será usado para fundar a pesquisa do mestre."
+    },
+    "relationship": {
+      "greet": "Olá. Dormiu bem?",
+      "talk": [
+        "Não entendo emoções muito bem... mas me pergunto o que é este sentimento.",
+        "Sinto algo familiar. Familiar... É isso?",
+        "Estou curiosa em relação ao amor. Quero saber como é sentir isso."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Destroçador do Paraíso, Canhão de Ação Perpétua Versão 0",
+    "description": [
+      "Aumenta o ATQ em 1% a cada segundo. Pode acumular até 30 vezes.",
+      "Aumenta o ATQ em 1% a cada segundo. Pode acumular até 40 vezes.",
+      "Aumenta o ATQ em 1% a cada segundo. Pode acumular até 50 vezes.",
+      "Aumenta o ATQ em 1% a cada segundo. Pode acumular até 60 vezes.",
+      "Aumenta o ATQ em 1% a cada segundo. Pode acumular até 70 vezes.",
+      "Aumenta o ATQ em 1% a cada segundo. Pode acumular até 80 vezes."
+    ],
+    "story": "Um artefato de uma civilização antiga com um motor que lhe fornece poder ilimitado. É uma arma poderosa com o poder de uma arma de cerco, aproximando-se do poder da magia mais superior. Essa arma foi encontrada nas ruínas da antiga República Gray, mas permaneceu guardada, pois ninguém sabia como usá-la. Muito tempo depois, Kara foi desenterrada e, após despertar, a arma teleportou-se para o seu lado. Essa arma tecnomágica superior foi feita de forma semelhante à Fortaleza da Montanha."
+  },
+  "s1": {
+    "name": "Laser Antipessoal",
+    "description": "Ataca o alvo 4 vezes, causando um total de {0} de DAN M. e infligindo Repelir. Ataca todos os inimigos com o golpe final, causando {1} de DAN M. e estourando-os para longe por {2} segundos.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "[Laser Antipessoal] - Recupera 200 de PM ao realizar um Acerto Crít. [Laser de Cerco] - Aumenta o Custo de Mana em 1 e o DAN em 100%.",
+    "dark": "[Laser Antipessoal] - Reduz 300 de PM do inimigo que levou o DAN. [Laser de Cerco] - Reduz o Custo de Mana em 1.",
+    "linked": {
+      "name": "Laser de Cerco",
+      "description": "Ataca o alvo, causando {0} de DAN M. O DAN Crít é aplicado com {1}% de aumento."
+    }
+  },
+  "s2": {
+    "name": "Canhão de Dispersão",
+    "description": "Ataca 4 vezes um alvo aleatório e inimigos próximos dentro de alcance, causando um total de {0} de DAN M. e atordoando-os por {1} segundos.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "[Canhão de Dispersão] - Aumenta a duração de Atordoar em 1 segundo. [Fogo Concentrado] - Acumula 1 Fogo Concentrado extra.",
+    "dark": "[Canhão de Dispersão] - Reduz o Custo de Mana em 1. [Fogo Focalizado] - Aumenta o Acúmulo Máx de Fogo Concentrado para 60.",
+    "ut": {
+      "name": "Dispositivo de Gravação KARA-00XX",
+      "description": [
+        "[Canhão de Dispersão] Aumenta o DAN em 50% e reduz a Vel de ATQ do alvo em 100 por 10 seg. [Fogo Concentrado] Reduz o tempo de Recarga em 2% ao realizar um Acerto Crít. e recupera 150 de Mana.",
+        "[Canhão de Dispersão] Aumenta o DAN em 50% e reduz a Vel de ATQ do alvo em 120 por 10 seg. [Fogo Concentrado] Reduz o tempo de Recarga em 2,4% ao realizar um Acerto Crít. e recupera 150 de Mana.",
+        "[Canhão de Dispersão] Aumenta o DAN em 50% e reduz a Vel de ATQ do alvo em 140 por 10 seg. [Fogo Concentrado] Reduz o tempo de Recarga em 2,9% ao realizar um Acerto Crít. e recupera 150 de Mana.",
+        "[Canhão de Dispersão] Aumenta o DAN em 50% e reduz a Vel de ATQ do alvo em 170 por 10 seg. [Fogo Concentrado] Reduz o tempo de Recarga em 3,5% ao realizar um Acerto Crít. e recupera 150 de Mana.",
+        "[Canhão de Dispersão] Aumenta o DAN em 50% e reduz a Vel de ATQ do alvo em 210 por 10 seg. [Fogo Concentrado] Reduz o tempo de Recarga em 4,2% ao realizar um Acerto Crít. e recupera 150 de Mana.",
+        "[Canhão de Dispersão] Aumenta o DAN em 50% e reduz a Vel de ATQ do alvo em 250 por 10 seg. [Fogo Concentrado] Reduz o tempo de Recarga em 5% ao realizar um Acerto Crít. e recupera 150 de Mana."
+      ],
+      "story": "Um dispositivo de gravação e processador que funciona como cérebro para Kara. É um tesouro cheio de sabedoria ancestral, e sua capacidade ultrapassa de longe aquela dos humanos. Apesar de ser um dispositivo incrível, ele tem dificuldade de registrar e replicar emoções."
+    },
+    "linked": {
+      "name": "Fogo Concentrado",
+      "description": "Ataca 15 vezes um alvo aleatório, causando um total de {0} de DAN M. e infligindo Fogo Concentrado por {1} segundos. Causa {2} de DAN M. extra com cada Foco Concentrado acumulado no inimigo. Fogo Concentrado pode acumular até 30 vezes."
+    }
+  },
+  "s3": {
+    "name": "Lançar Arma de Cerco",
+    "description": "Kara fica em modo de Arma de Cerco e ataca o inimigo, causando {0} de DAN M. com cada acerto. Quando está em modo de Arma de Cerco, muda as habilidades Laser Antipessoal e Canhão de Dispersão para as habilidades Laser de Cerco e Fogo Concentrado. Quando a habilidade é usada novamente, volta para o modo de Arma Antipessoal.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "Aumenta o DAN em 100% quando houver apenas 1 inimigo.",
+    "dark": "Reduz o tempo de recarga em 3% ao realizar um Acerto Crít.",
+    "ut": {
+      "name": "Fonte de Poder Antigo",
+      "description": [
+        "[Lançar Arma de Cerco] Aumenta o DAN em 50% e reduz a DEF M. em 1% ao realizar um Acero Crít. O Efeito de Redução de DEF M. pode acumular até 20 vezes.",
+        "[Lançar Arma de Cerco] Aumenta o DAN em 50% e reduz a DEF M. em 1% ao realizar um Acero Crít. O Efeito de Redução de DEF M. pode acumular até 24 vezes.",
+        "[Lançar Arma de Cerco] Aumenta o DAN em 50% e reduz a DEF M. em 1% ao realizar um Acero Crít. O Efeito de Redução de DEF M. pode acumular até 29 vezes.",
+        "[Lançar Arma de Cerco] Aumenta o DAN em 50% e reduz a DEF M. em 1% ao realizar um Acero Crít. O Efeito de Redução de DEF M. pode acumular até 35 vezes.",
+        "[Lançar Arma de Cerco] Aumenta o DAN em 50% e reduz a DEF M. em 1% ao realizar um Acero Crít. O Efeito de Redução de DEF M. pode acumular até 42 vezes.",
+        "[Lançar Arma de Cerco] Aumenta o DAN em 50% e reduz a DEF M. em 1% ao realizar um Acero Crít. O Efeito de Redução de DEF M. pode acumular até 50 vezes."
+      ],
+      "story": "A fonte de poder de Kara e uma das maiores obras primas de uma civilização antiga há muito esquecida. É a tecnologia básica que Annette utilizou para fazer Rascal, mas nem ela conseguiu descobrir tudo sobre essa tecnologia especial. Um motor permanente cria poder mágico ilimitado de forma constante."
+    }
+  },
+  "s4": {
+    "name": "Essência de Tecnomagia",
+    "description": "Quando está em modo de Arma Antipessoal, aumenta toda a DEF em {0} e, quando está em modo de Arma de Cerco, aumenta o ATQ em {1} , recebe {2}% a mais de DAN e ganha Imunidade a CM. Recupera {3} de PM toda vez que DAN é causado a um inimigo.",
+    "books": {
+      "0": "Reforços de ATQ e DEF aumentam em {0}%.",
+      "1": "Reforços de ATQ e DEF aumentam em {0}%.",
+      "2": "Reforços de ATQ e DEF aumentam em {0}%."
+    },
+    "light": "Triplica a Recuperação de PM quando houver apenas um inimigo.",
+    "dark": "[Arma Antipessoal] - Reduz o ATQ em 20%, mas aumenta a Recuperação de PM/Seg. em 100%. [Arma de Cerco] - Reduz toda a DEF em 60%, mas aumenta o DAN Crít em 140%."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / DAN Crít. +20%",
+    "dark": "[Arma Antipessoal] - Aumenta a PREC de CM em 400. [Arma de Cerco] - Aumenta a PREC em 400."
+  }
+}

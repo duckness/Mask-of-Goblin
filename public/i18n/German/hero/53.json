@@ -1,0 +1,120 @@
+{
+  "name": "Shamilla",
+  "subtitle": "Das Gefäß der Flüche",
+  "description": "Eine hochrangige Dämonin, die 30 Millionen Arten von Flüchen in sich trägt. Sie ist fasziniert vom Willen der Menschen, die sich nicht dem Schmerz und Leid unterwerfen. Sie benutzt Pfeil und Bogen der Verderbnis, um ihre Feinde mit verschiedenen Flüchen zu belegen.",
+  "story": "Eine mächtige Dämonin, die einst zu den Offizieren gehörte, die dem Dunklen Lord Angmund dienten. Sie vermag es, sämtliche Flüche der Welt zu beherrschen. Doch ihr wahres Ziel besteht weder darin, den Dunklen Lord wiederzubeleben noch die Weltherrschaft an sich zu reißen. Sie glaubt, alles, was auf der Welt geschieht, wäre nur Teil eines großen Dramas und sie das Publikum. Sie handelt wie eine Drehbuchautorin, die Szenarien überarbeitet, die Fäden im Hintergrund zieht und gespannt darauf wartet, wie sich die Szene schlussendlich entwickelt.",
+  "like": "Unerwartete Situationen. Menschen die gegen den Strom anschwimmen",
+  "dislike": "Langweilige Szenarien, offensichtliche Geschichten",
+  "inn": {
+    "idle": "Oh, so viele Menschen mit mächtigen Seelen ... Hahahaha ...",
+    "recruit": {
+      "greet": "Haha, kann ich dir helfen?",
+      "talk": [
+        "Deine Seele ist etwas Besonderes ... Haha, das ist interessant.",
+        "Ein Dämon? Ich habe keine Ahnung, wovon du sprichst.",
+        "Ist das menschliche Leben nicht die größte Form von Kunst?"
+      ],
+      "gift": "Oh ... Ein Geschenk für mich. Haha, und was ist dein Ziel ...?"
+    },
+    "affinity": {
+      "greet": "Oh, hallo. Du bist schon wieder zurück?",
+      "talk": [
+        "Warum ich verheimlicht habe, dass ich ein Dämon bin? Haha, wäre es nicht besser, nicht so offensichtliche Fragen zu stellen?",
+        "Auch wenn es ein gut durchdachtes Szenario war, ein wenig Dramaturgie schadet nie. Hahaha ..."
+      ],
+      "gift": "Ich habe mir ein anderes Geschenk gewünscht ... Haha, aber das ist auch gut."
+    },
+    "relationship": {
+      "greet": "Haha, du zeigst mir heute auch etwas Nettes, oder?",
+      "talk": [
+        "Mein Ziel ... Haha. Sagen wir einfach, ich will etwas probieren, dass so frisch ist, wie es frischer nicht sein könnte.",
+        "Du bist lustig. Deshalb will ich dich auch noch etwas genauer beobachten. Hm hm hm!",
+        "Ah, das ist gut. Dein ängstlicher Blick, wenn du versuchst, gegen dein Schicksal anzukämpfen ..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Schwingen der Verderbnis, Apoliox",
+    "description": [
+      "Gewährt alle 20 Sekunden „Das Gefäß der Flüche“ und erhöht den ANG für 10 Sekunden um 20 %.",
+      "Gewährt alle 19 Sekunden „Das Gefäß der Flüche“ und erhöht den ANG für 10 Sekunden um 24 %.",
+      "Gewährt alle 18 Sekunden „Das Gefäß der Flüche“ und erhöht den ANG für 10 Sekunden um 29 %.",
+      "Gewährt alle 16 Sekunden „Das Gefäß der Flüche“ und erhöht den ANG für 10 Sekunden um 35 %.",
+      "Gewährt alle 14 Sekunden „Das Gefäß der Flüche“ und erhöht den ANG für 10 Sekunden um 42 %.",
+      "Gewährt alle 12 Sekunden „Das Gefäß der Flüche“ und erhöht den ANG für 10 Sekunden um 50 %."
+    ],
+    "story": "Flüche entstehen aus negativen Gefühlen wie Hass, Eifersucht und Feindseligkeit. Sie sind der beste Nährboden für Shamilla. Die Schwingen erlangten ihre Macht während des Dämonenkrieges, indem sie die Flüche unzähliger Menschen absorbierten, die andere Menschen in Angst versetzten. Jene, die die Federn berührten, waren an viele Flüche gebunden und wurden in einen Strudel der Emotionen gezogen. In diesem Abgrund hallt fesselndes Gelächter wider. Das Gelächter eines Dämons, der sich an unterschiedlichen menschlichen Gefühle gütlich tut."
+  },
+  "s1": {
+    "name": "Fluch der Versteinerung",
+    "description": "Greift einen Feind an, verursacht {0} M.Schaden und für {1} Sekunden Fluch der Versteinerung. Dieser Fluch kann nicht entfernt werden. Feinde, die mit dem Fluch der Versteinerung belegt sind, haben eine um {2} verringerte ANG-Geschwindigkeit. Dieser Effekt verstärkt sich mit der Zeit bis auf {3}%. Endet der Fluch, wird das Ziel für {4} Sekunden versteinert.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Cooldown ist um 3 Sek. reduziert.",
+    "dark": "Entzieht dem Feind, der Schaden genommen hat, 500 MP."
+  },
+  "s2": {
+    "name": "Fluch der Zeit",
+    "description": "Greift einen Feind an, verursacht {0} M.Schaden und für {1} Sekunden Fluch der Zeit, der alle Skill-Cooldowns um {2} Sekunden erhöht. Skill-Cooldowns von Feinden, die mit Fluch der Zeit belegt sind, werden alle {3} Sekunden um {4} Sekunden erhöht.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Manakosten sind um 1 reduziert.",
+    "dark": "Entfernt positive Effekte vom Ziel.",
+    "ut": {
+      "name": "Herz eines uralten Dämons",
+      "description": [
+        "[Fluch der Zeit] Erhöht den Cooldown zusätzlich um 0,7 Sek. und verringert die M.VERT des Ziels 10 Sek. lang um 10 %.",
+        "[Fluch der Zeit] Erhöht den Cooldown zusätzlich um 0,7 Sek. und verringert die M.VERT des Ziels 10 Sek. lang um 12 %.",
+        "[Fluch der Zeit] Erhöht den Cooldown zusätzlich um 0,7 Sek. und verringert die M.VERT des Ziels 10 Sek. lang um 14 %.",
+        "[Fluch der Zeit] Erhöht den Cooldown zusätzlich um 0,7 Sek. und verringert die M.VERT des Ziels 10 Sek. lang um 17 %.",
+        "[Fluch der Zeit] Erhöht den Cooldown zusätzlich um 0,7 Sek. und verringert die M.VERT des Ziels 10 Sek. lang um 21 %.",
+        "[Fluch der Zeit] Erhöht den Cooldown zusätzlich um 0,7 Sek. und verringert die M.VERT des Ziels 10 Sek. lang um 25 %."
+      ],
+      "story": "Ein seltsames Juwel, aus dem das verbitterte Geflüster uralter Dämonen hervordringt. Ein verfluchter Gegenstand, der mit den vergessenen Seelen uralter Dämonen gefüllt ist. Tagtäglich versuchen sie, zu entkommen, doch das lässt sich nicht so einfach zu. Ihre Seele hat alle Flüche der Welt aufgenommen, sie ist tief und dunkel wie der Abgrund."
+    }
+  },
+  "s3": {
+    "name": "Fluch des Schmerzes",
+    "description": "Greift einen Feind an, verursacht {0} M.Schaden und wirft ihn zurück. Belegt ihn außerdem für {1} Sekunden mit Fluch des Schmerzes, der insgesamt {2} M. Schaden über Zeit verursacht.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Ziel erleidet 10 Sek lang 25% extra M.Schaden.",
+    "dark": "Erhöht Schaden um 40%.",
+    "ut": {
+      "name": "Das Gefäß der Flüche",
+      "description": [
+        "[Fluch des Schmerzes] Schaden wird um 20% erhöht und erhält einen Stapel von „Das Gefäß der Flüche“, nachdem ein Feind getötet wurde.",
+        "[Fluch des Schmerzes] Schaden wird um 24% erhöht und erhält einen Stapel von „Das Gefäß der Flüche“, nachdem ein Feind getötet wurde.",
+        "[Fluch des Schmerzes] Schaden wird um 29% erhöht und erhält einen Stapel von „Das Gefäß der Flüche“, nachdem ein Feind getötet wurde.",
+        "[Fluch des Schmerzes] Schaden wird um 35% erhöht und erhält einen Stapel von „Das Gefäß der Flüche“, nachdem ein Feind getötet wurde.",
+        "[Fluch des Schmerzes] Schaden wird um 42% erhöht und erhält einen Stapel von „Das Gefäß der Flüche“, nachdem ein Feind getötet wurde.",
+        "[Fluch des Schmerzes] Schaden wird um 50% erhöht und erhält einen Stapel von „Das Gefäß der Flüche“, nachdem ein Feind getötet wurde."
+      ],
+      "story": "Shamilla war dazu verflucht, alle Flüche der Welt in sich zu tragen. Man könnte sie auch als Retterin sehen, die all diese Flüche in sich einschließt. Mit ihrem Tod würde all das Böse, das sie in sich trägt, wieder auf die Welt losgelassen werden. Shamilla hat dieses Gefäß der Flüche hergestellt, um die Flüche einzufangen, die sie ausgespien hat."
+    }
+  },
+  "s4": {
+    "name": "Das Gefäß der Flüche",
+    "description": "Zu Beginn jedes Kampfes wird für {0} Sekunden Das Gefäß der Flüche gewährt. Dabei wird ein Schild erzeugt, der nicht abgebrochen werden kann und {1} Schaden absorbiert. Der Schild gewährt für die gesamte Dauer Immunität gegen Statuseffekte. Bei der Aktivierung des Skills werden 4 Feinde als Ziel ausgewählt und Das Gefäß der Flüche wird verbraucht.",
+    "books": {
+      "0": "Erhöht Schild-TP um {0}%.",
+      "1": "Erhöht Schild-TP um {0}%.",
+      "2": "Erhöht Schild-TP um {0}%."
+    },
+    "light": "Erhöht Schild-TP um 80%.",
+    "dark": "Erhöht die Dauer von „Das Gefäß der Flüche“ um 20 Sekunden, und wird dispellierbar."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / ANG-Geschw. +100",
+    "dark": "Sämtliche Effekte von Flüchen werden erhöht. [Fluch der Versteinerung] Dauer der Versteinerung wird um 2 Sek. erhöht. [Fluch der Zeit] Dauer wird um 3 Sek. erhöht. [Fluch des Schmerzes] Schaden über Zeit um 50% erhöht."
+  }
+}

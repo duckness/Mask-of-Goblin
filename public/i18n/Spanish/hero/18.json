@@ -1,0 +1,120 @@
+{
+  "name": "Reina",
+  "subtitle": "Relampago",
+  "description": "Un mercenario que maneja una espada ligera y con una sola mano. Evade ataques con movimientos ágiles y perfora al enemigo con el extremo afilado de su espada.",
+  "story": "Reina von Stein nació como hija de una noble familia del imperio. Su libre espíritu y personalidad energética parecen alegrar a quienes están a su alrededor. Ella prefiere una vida de libertad como una mercenaria en vez de la vida sofocante de un aristócrata. Después de trabajar como mercenaria durante un tiempo ya ha perdido todo rastro de buenos modales de su noble crianza. Incluso cuando era niña, mostraba tener un talento natural con las espadas. Con el transcurso de los años, ha desarrollado sus habilidades con un estoque, usando un estilo que se encaja mejor a su pequeño cuerpo. Recientemente, rechazó un contrato raro. Desde entonces, ha estado sintiendo como si alguien la estuviera siguiendo y observando.",
+  "like": "Hombres atractivos",
+  "dislike": "Hombres poco interesantes",
+  "inn": {
+    "idle": "Una buena oferta de trabajo! Ah, pero el empleador es un poco...",
+    "recruit": {
+      "greet": "Qué guapo... ¡Ah, hola!",
+      "talk": [
+        "¿Necesitas un mercenario? Soy uno de los mejores.",
+        "Wow, que ricura... oh, no es nada, jeje...",
+        "Buscando a Reina, el Relámpago? Hehe, sí, ese soy yo!"
+      ],
+      "gift": "¿Eh? ¿Un regalo? Jeje gracias. Te daré un descuento en el próximo trabajo."
+    },
+    "affinity": {
+      "greet": "¡Ah, este lugar es increíble!",
+      "talk": [
+        "¿Tienes algún cliente para presentarme? ¡Alguien atractivo, si es posible!",
+        "¡Je, je, no me gustan los trabajos aburridos!"
+      ],
+      "gift": "¿Oh, para mí? ¿De verdad? ¡Je, je, eres genial!"
+    },
+    "relationship": {
+      "greet": "Hola Guapo! Tiempo sin verte!",
+      "talk": [
+        "Las personas hoy en día piensan que soy una especie de pervertida, pero es todo un malentendido! Solo me gustan los cuerpos de los hombres!",
+        "A veces, me recuerda a una vida mejor. Ya sabes, como en esos momentos en que llueve afuera y tienes que dormir en el barro.",
+        "Incluso mientras trabajas como mercenario, a veces las misiones no son muy agradables. Me hace pensar... sobre esto y aquello..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Relámpago, Livatis",
+    "description": [
+      "Luego de un Golpe Crit. exitoso, obten una Veloc de Ataque de 80 y 20% de Daño Critico durante 15 seg. Se puede acumular hasta 5 veces máx.",
+      "Luego de un Golpe Crit. exitoso, obten una Veloc de Ataque de 90 y 24% de Daño Critico durante 15 seg. Se puede acumular hasta 5 veces máx.",
+      "Luego de un Golpe Crit. exitoso, obten una Veloc de Ataque de 110 y 28% de Daño Critico durante 15 seg. Se puede acumular hasta 5 veces máx.",
+      "Luego de un Golpe Crit. exitoso, obten una Veloc de Ataque de 130 y 34% de Daño Critico durante 15 seg. Se puede acumular hasta 5 veces máx.",
+      "Luego de un Golpe Crit. exitoso, obten una Veloc de Ataque de 160 y 41% de Daño Critico durante 15 seg. Se puede acumular hasta 5 veces máx.",
+      "Luego de un Golpe Crit. exitoso, obten una Veloc de Ataque de 200 y 50% de Daño Critico durante 15 seg. Se puede acumular hasta 5 veces máx."
+    ],
+    "story": "La familia Stein posee una larga ascendencia que data de los primeros días del imperio. Sin embargo, el honor de la familia surge de las habilidades de sus guerreros, no de su noble linaje. Aria Stein fue una maestra legendaria de la espada. Recordada como una de las guerreras más habilidosas en la historia del imperio, estableció las bases del honor de la familia Stein. Reina es su descendiente. La espada de Aria, Livatas, actualmente le pertenece a Reina. Leve como una pluma pero suficientemente fuerte para aguantar cualquier golpe, esta espada ayudó a Reina a ganarse el apodo de “Relámpago”."
+  },
+  "s1": {
+    "name": "Vuela Como una Mariposa",
+    "description": "Apuñala al enemigo rápidamente, causando {0} Daño Fis. Tras un golpe crítico, deja bastantes heridas y reinicia el tiempo de reutilización. Cada herida aumenta el Daño en un 20%. Obten inmunidad a todos los Daños mientras utilizas esta habilidad.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "El costo de maná se incrementa en 1 y el max de pila de Heridas se cambia a 10. Causa el 100% de ATQ como Daño adicional a los enemigos con 10 heridas.",
+    "dark": "Se quita el tiempo de reutilización."
+  },
+  "s2": {
+    "name": "Extremo Afilado",
+    "description": "Aumenta el Ataque en {1} durante {0} segundos y aumenta la probabilidad de crítico en {2}. Este efecto no se puede disipar.",
+    "books": {
+      "0": "El poder de ATQ aumenta en  {0}%.",
+      "1": "El poder de ATQ aumenta en  {0}%.",
+      "2": "Aumenta Oportunidad Crit. en {0}.%"
+    },
+    "light": "El costo de maná se reduce en 1.",
+    "dark": "A cambio de 1 Mana adicional, el efecto de Oportunidad Crit se cambia a un 100% de aumento de Daño Crit. También obten un aumento del 25% de Daño hacia los Jefes.",
+    "ut": {
+      "name": "Anillo del maestro",
+      "description": [
+        "[Extremo filoso] Incrementa el Aumento del ataque en un 50 % y recupera 40 PM adicionales ante un Golpe crítico mientras dura la habilidad.",
+        "[Extremo filoso] Incrementa el Aumento del ataque en un 50 % y recupera 48 PM adicionales ante un Golpe crítico mientras dura la habilidad.",
+        "[Extremo filoso] Incrementa el Aumento del ataque en un 50 % y recupera 58 PM adicionales ante un Golpe crítico mientras dura la habilidad.",
+        "[Extremo filoso] Incrementa el Aumento del ataque en un 50 % y recupera 70 PM adicionales ante un Golpe crítico mientras dura la habilidad.",
+        "[Extremo filoso] Incrementa el Aumento del ataque en un 50 % y recupera 84 PM adicionales ante un Golpe crítico mientras dura la habilidad.",
+        "[Extremo filoso] Incrementa el Aumento del ataque en un 50 % y recupera 100 PM adicionales ante un Golpe crítico mientras dura la habilidad."
+      ],
+      "story": "El anillo que la reina recibió después de derrotar a su maestro. Es demasiado grande, así que lo utiliza en su pulgar. Parece simple y torpe, pero el espíritu de pelea está escondido en las letras de runa gravadas en el anillo. El mirar el anillo de su maestro le hace sentir que recibirá más trabajo hoy."
+    }
+  },
+  "s3": {
+    "name": "Estrella Fugaz",
+    "description": "Inflige  {0}  Daño Fis. al enemigo con un ataque continuo. El último golpe derrota al enemigo.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Cada golpe crit aumenta el Daño del último ataque en un 10%.",
+    "dark": "Obtiene inmunidad a todos los Daños mientras se utiliza la habilidad.",
+    "ut": {
+      "name": "Medalla de velocidad",
+      "description": [
+        "[Estrella Fugaz] El Daño aumenta en un 20% y luego del Golpe Crít., el maná se recupera en 200",
+        "[Estrella Fugaz] El Daño aumenta en un 24% y luego del Golpe Crít., el maná se recupera en 200",
+        "[Estrella Fugaz] El Daño aumenta en un 29% y luego del Golpe Crít., el maná se recupera en 200",
+        "[Estrella Fugaz] El Daño aumenta en un 35% y luego del Golpe Crít., el maná se recupera en 200",
+        "[Estrella Fugaz] El Daño aumenta en un 42% y luego del Golpe Crít., el maná se recupera en 200",
+        "[Estrella Fugaz] El Daño aumenta en un 50% y luego del Golpe Crít., el maná se recupera en 200"
+      ],
+      "story": "Una medalla honorable entregada al mercenario más veloz. Se dice que es un recuerdo de Hersz, el guerrero más veloz del mundo. Utilizar esta medalla hará que el cuerpo de quien la posea se sienta más liviano y podrán predecir los movimientos de los rivales."
+    }
+  },
+  "s4": {
+    "name": "Niño Afortunado",
+    "description": "Luego de un Golpe Crit. exitoso, el ATQ aumenta en  {1}  por  {0}  seg. Se puede acumular hasta 8 veces máx.",
+    "books": {
+      "0": "El poder de ATQ aumenta en  {0}%.",
+      "1": "El poder de ATQ aumenta en  {0}%.",
+      "2": "La Entrada sobre la DEF aumenta en {0} por la duracion de esta habilidad."
+    },
+    "light": "Por cada pila, el Daño se incrementa en un 4% para los enemigos y no para los héroes.",
+    "dark": "Con 5 o más acumulaciones, recibe un 20 % de Daño físico y Daño mágico reducidos."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Daño Crit+20%",
+    "dark": "Cuando se ataca automáticamente, hay un 10% de probabilidad de aumentar el Daño Crit en un 100% durante 5 seg"
+  }
+}

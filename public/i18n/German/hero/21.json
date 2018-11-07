@@ -1,0 +1,120 @@
+{
+  "name": "Naila",
+  "subtitle": "Kämpfer des Windes",
+  "description": "Eine Harpie, die auf Nahkampf mit ihren Fäusten spezialisiert ist. Bewegt sich schnell zwischen den Feinden und verursacht Chaos in ihren Rängen. Vernichtet Feinde mit verheerenden Schlagkombinationen.",
+  "story": "Eine tapfere und ehrenhafte Kriegerin der Harpien, die die Macht des Windes kontrollieren. Ihre Würde als Harpienkriegerin ist ihr wichtiger als alles andere auf der Welt. Mithilfe ihrer Willenskraft und dem Wunsch, ihre Kriegerehre zu bewahren kann sie jeden Gegner besiegen. Ihre Skills sind selbst für ihresgleichen außergewöhnlich und sie ist ein ideales Vorbild für jüngere Harpienkrieger.",
+  "like": "Angehörige; jene mit dem Stolz eines Kriegers",
+  "dislike": "Angsthasen, Heuchler",
+  "inn": {
+    "idle": "Was ist los, Menschenkrieger?",
+    "recruit": {
+      "greet": "Eines Tages würde ich gern ein paar Runden gegen dich kämpfen.",
+      "talk": [
+        "Himmullis...",
+        "Es ist absurd zu denken, dass eine geliehene Kraft seine eigene wäre.",
+        "Ich vergesse nie den Stolz der Harpien Elidoras."
+      ],
+      "gift": "Du weißt aber gut, was Harpien mögen."
+    },
+    "affinity": {
+      "greet": "So sieht also das Haus eines Menschen aus.",
+      "talk": [
+        "Meine Schwester hat mir immer geraten, den Stolz einer Harpie zu bewahren.",
+        "Ich werde die beste Harpienkriegerin der Welt werden."
+      ],
+      "gift": "Ich werde es dir zurückzahlen."
+    },
+    "relationship": {
+      "greet": "Wie geht es dir? Wie läuft dein Training?",
+      "talk": [
+        "Ein echter Krieger hört nie auf seine Fähigkeiten zu verbessern!",
+        "Ehre, Stolz - manche halten das für unnütz, aber mir bedeutet es was.",
+        "Nächstes Mal kämpfen wir Einer gegen Einen. Einverstanden?"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Baroru, die verfluchten Nägel",
+    "description": [
+      "Bei einem krit. Treffer wird dem Feind 10 Sek lang konstant Schaden (150%) zugefügt. Der Feind erleidet 20% erhöhten K.Schaden während der Wirkungsdauer.",
+      "Bei einem krit. Treffer wird dem Feind 10 Sek lang konstant Schaden (180%) zugefügt. Der Feind erleidet 24% erhöhten K.Schaden während der Wirkungsdauer.",
+      "Bei einem krit. Treffer wird dem Feind 10 Sek lang konstant Schaden (216%) zugefügt. Der Feind erleidet 28% erhöhten K.Schaden während der Wirkungsdauer.",
+      "Bei einem krit. Treffer wird dem Feind 10 Sek lang konstant Schaden (258%) zugefügt. Der Feind erleidet 34% erhöhten K.Schaden während der Wirkungsdauer.",
+      "Bei einem krit. Treffer wird dem Feind 10 Sek lang konstant Schaden (310%) zugefügt. Der Feind erleidet 41% erhöhten K.Schaden während der Wirkungsdauer.",
+      "Bei einem krit. Treffer wird dem Feind 10 Sek lang konstant Schaden (500%) zugefügt. Der Feind erleidet 50% erhöhten K.Schaden während der Wirkungsdauer."
+    ],
+    "story": "Ein verfluchtes Paar Kampfhandschuhe aus den Klauen des Wahnsinnigen Dämons Baroro, der während des Kriegs besiegt worden war. Die Handschuhe sind um ein Vielfaches größer als menschliche Hände und verbinden sich direkt mit dem Nervensystem ihres Trägers, wodurch dieser sie ohne Anstrengung führen kann. Sie verfügen zwar über eine immense Kraft, doch korrumpieren auch den Verstand ihres Trägers und fressen dessen Seele langsam auf. Nur ein Krieger mit wahrhaft edlen Absichten, einem starken Willen und einem unsterblichen Geist vermag es, mit diesen verfluchten Waffen umzugehen. Sie sind die perfekten Waffen für einen Krieger mit starkem Willen, der selbst in der Dunkelheit des Abgrunds zu strahlen vermag."
+  },
+  "s1": {
+    "name": "Wilder Wind",
+    "description": "Rast 2 mal auf Feinde in Reichweite zu und verusacht {0} K.Schaden. Feinde werden {1} Sek umgeworfen. Verursacht zusätzlich {2} K.Schaden, wenn das Ziel kein Held ist.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Erhöht Schaden um 100%, wenn nur 1 Feind auf dem Schlachtfeld ist.",
+    "dark": "Wechselt das Ziel zu dem Gegner mit dem höchsten ANG."
+  },
+  "s2": {
+    "name": "Wind lesen",
+    "description": "Erhöht K. Ausw. Chance um {1}% für {0} Sek und ANG um {2}.",
+    "books": {
+      "0": "Erhöht ANG-Erhöhungsrate um {0}%.",
+      "1": "Erhöht ANG-Erhöhungsrate um {0}%.",
+      "2": "Erhöht ANG-Erhöhungsrate um {0}%."
+    },
+    "light": "Reduziert Manakosten um 1.",
+    "dark": "Erhöht Nailas den verursachten Schaden an Feinden, die keine Helden sind, um 30 % für die Wirkungsdauer.",
+    "ut": {
+      "name": "Himmullis’ Schal",
+      "description": [
+        "[Wind lesen] Erhöht den ANG-Boost um 50 % und M.Ausweichen um 100.",
+        "[Wind lesen] Erhöht den ANG-Boost um 50 % und M.Ausweichen um 120.",
+        "[Wind lesen] Erhöht den ANG-Boost um 50 % und M.Ausweichen um 140.",
+        "[Wind lesen] Erhöht den ANG-Boost um 50 % und M.Ausweichen um 170.",
+        "[Wind lesen] Erhöht den ANG-Boost um 50 % und M.Ausweichen um 210.",
+        "[Wind lesen] Erhöht den ANG-Boost um 50 % und M.Ausweichen um 250."
+      ],
+      "story": "Der Schal, den der tote Himmullis trug. Naila trägt ihn immer bei sich. Himmullis predigte Naila immer wieder, dass sie stolz darauf sein solle, eine Harpyie zu sein. Der Schal enthält die Trauer über den Verlust von Familie, was Naila wütend macht."
+    }
+  },
+  "s3": {
+    "name": "Sturzflug",
+    "description": "Fliegt in die Höhe und streckt die Feinde von oben nieder. Fügt Feinden {0} K.Schaden zu. Umgeworfene Feinde erleiden {1}% zusätzlichen Schaden. Verursacht zusätzlich {2} K.Schaden, wenn das Ziel kein Held ist.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Fügt Feinden Schaden zu und betäubt sie für 3 Sek."
+    },
+    "light": "Erhöht Schaden um 40%.",
+    "dark": "Reduziert Cooldown um 10% für jeden kritisch getroffenen Feind.",
+    "ut": {
+      "name": "Stolz des Windes",
+      "description": [
+        "[Sturzflug] Reduziert Skill-Cooldown um 30% und Ziel erleidet 10 Sek. lang 10% mehr K. Schaden.",
+        "[Sturzflug] Reduziert Skill-Cooldown um 30% und Ziel erleidet 10 Sek. lang 12% mehr K. Schaden.",
+        "[Sturzflug] Reduziert Skill-Cooldown um 30% und Ziel erleidet 10 Sek. lang 14% mehr K. Schaden.",
+        "[Sturzflug] Reduziert Skill-Cooldown um 30% und Ziel erleidet 10 Sek. lang 17% mehr K. Schaden.",
+        "[Sturzflug] Reduziert Skill-Cooldown um 30% und Ziel erleidet 10 Sek. lang 21% mehr K. Schaden.",
+        "[Sturzflug] Reduziert Skill-Cooldown um 30% und Ziel erleidet 10 Sek. lang 25% mehr K. Schaden."
+      ],
+      "story": "Ein Ritualopfer uralter Religionsangehöriger, die den Wind anbeteten. Es ist ein unter den Harpyien ein wertvoller Schatz und es heißt, dass es dem mächtigsten Harpyienkrieger verliehen wird. In dem Moment, in dem man die Maske trägt, kann man den Wind nutzen. Außerdem verleiht es die Fähigkeit, mit Lichtgeschwindigkeit anzugreifen."
+    }
+  },
+  "s4": {
+    "name": "Tornado-Schlag",
+    "description": "Jeder 5. Treffer normaler Angriffe hat eine 40% Chance, zusätzlich {0} Schaden zuzufügen und den Feind umzuwerfen.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Aktivierungschance ändert sich auf 60%.",
+    "dark": "Erhöht bei Aktivierung die eigene ANG-Geschw. um 300."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / K.Ausw.-Chance +100",
+    "dark": "Ausweichen reduziert alle Skill-Cooldowns um 2%, erhöht ANG um 3% und ANG-Geschw. um 30. ANG- und ANG-Geschw.-Boost kumulieren sich bis zu 10 Mal."
+  }
+}

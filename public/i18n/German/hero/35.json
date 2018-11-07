@@ -1,0 +1,120 @@
+{
+  "name": "Mitra",
+  "subtitle": "Der silberne Schlachtwolf",
+  "description": "Auch Lied des Silbernen Wahnsinns genannt. Ein taktloser Mann ohne jegliches Verantwortungsgefühl. Aber in der Schlacht wird er zum unantastbaren Silberwolf, der das Schlachtfeld mit Blut tränkt.",
+  "story": "Er ist manchen als Lied des Silbernen Wahnsinns bekannt und unglaublich unsicher in allen seinen Tätigkeiten. Er fühlt sich keineswegs für irgendjemanden um ihn herum verantwortlich. Verfällt er jedoch in den Kampfmodus, verwandelt er sich in einen unantastbaren Silberwolf, der über das Schlachtfeld stürmt. Über seine Vergangenheit ist nichts bekannt. Eines ist sicher: hat ihn der Rausch des Kampfes einmal erfasst, vermag er nicht zwischen Freund und Feind zu unterscheiden. In diesem Zustand in seiner Nähe zu verweilen ist weit gefährlicher, als eine tickende Bombe in Händen zu halten.",
+  "like": "Schlachten; aufregende Kämpfe; den Geruch von Schießpulver",
+  "dislike": "Überheblichkeit, Scheinheiligkeit",
+  "inn": {
+    "idle": "Hmmm... Ich will einfach nur schlafen.",
+    "recruit": {
+      "greet": "Yo!",
+      "talk": [
+        "Hey, gab's hier etwa nen Kampf?",
+        "Blergh, ich hab gar keine Lust irgendwas zu machen.",
+        "Manchmal will ich einfach nur entspannen."
+      ],
+      "gift": "Echt jetzt?! Das ist großartig!"
+    },
+    "affinity": {
+      "greet": "Oh, das ist ein großartiger Tag zum Schießen.",
+      "talk": [
+        "Damals war alles besser. Der Alte ist vielleicht streng, aber er kümmert sich gut um seine Männer. Als er also die Armee verließ... habe ich auch aufgehört! Hahaha!",
+        "Oh, ich frage mich, was der alte Mann macht."
+      ],
+      "gift": "Oh, danke."
+    },
+    "relationship": {
+      "greet": "Oh, du lebst noch! Hahaha!",
+      "talk": [
+        "Mit diesen Waffen habe ich ein gutes Gefühl. Außerdem sind sie ein wenig demoliert... genau wie ich!",
+        "Tihihihi! Weißt du, manchmal flüstern diese Kerle mir zu: Zieh den Abzug, zieh, zieh!!! Hihihihi!",
+        "Weißt du was? Da war so ein unheimlicher Kopfgeldjäger in der kaiserlichen Marine. Wie ist das wohl, wenn so ein Kerl versucht dich zu erwischen? Hehehe..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Velkinoth, Schrei des Wahnsinns",
+    "description": [
+      "Normale Angriffe erhöhen VERT.-Durchdringung und ANG-Geschw. um 8. Kumuliert sich bis zu 30 Male.",
+      "Normale Angriffe erhöhen VERT.-Durchdringung und ANG-Geschw. um 10. Kumuliert sich bis zu 30 Male.",
+      "Normale Angriffe erhöhen VERT.-Durchdringung und ANG-Geschw. um 12. Kumuliert sich bis zu 30 Male.",
+      "Normale Angriffe erhöhen VERT.-Durchdringung und ANG-Geschw. um 14. Kumuliert sich bis zu 30 Male.",
+      "Normale Angriffe erhöhen VERT.-Durchdringung und ANG-Geschw. um 17. Kumuliert sich bis zu 30 Male.",
+      "Normale Angriffe erhöhen VERT.-Durchdringung und ANG-Geschw. um 20. Kumuliert sich bis zu 30 Male."
+    ],
+    "story": "Ein Paar magischer Waffen, die den Kampfrausch ihres Benutzers zur Stärkung ihrer eigenen Feuerkraft nützen. Jedes Mal, wenn ihre Abzüge betätigt werden, taucht ihr Träger tiefer und tiefer in den Wahn des Kampfes ein. Es heißt, dass eine Waffe, die von einem Meisterhandwerker geschaffen wird, selbst eine Seele entwickelt. Berkinos scheinen die Seele des Kriegsgottes in sich zu tragen. Die Geschichte besagt, dass ihr Erzeuger bei ihrem ersten Gebrauch vor Schreck erblasste und sie in einen Fluss warf."
+  },
+  "s1": {
+    "name": "Peng! Peng!!",
+    "description": "Greift Feinde 2 Mal an und fügt ihnen jeweils {0} K.Schaden zu. Ist der Skill ein kritischer Treffer, verursacht er naheliegenden Feinden {1} zusätzlichen K.Schaden.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Erhöht Schaden um 100%, wenn nur 1 Feind auf dem Schlachtfeld ist.",
+    "dark": "Das Mal fügt 2 Zähler hinzu."
+  },
+  "s2": {
+    "name": "Zeit zum Sterben!!",
+    "description": "Erhöht 20 Sek lang eigenen ANG um {0} und PRÄZ um {1}. Normale Angriffe haben eine 15% Chance, 'Peng! Peng!!' auszulösen.",
+    "books": {
+      "0": "ANG-Erhöhungsrate steigt um {0}%.",
+      "1": "ANG-Erhöhungsrate steigt um {0}%.",
+      "2": "ANG-Erhöhungsrate steigt um {0}%."
+    },
+    "light": "Erhöht erlittenen Schaden aller Art um 20% für eine 100% ANG-Erhöhung.",
+    "dark": "Erhöht Peng!! Peng!! Chance um 10%.",
+    "ut": {
+      "name": "Wolfs-Sperrfeuerkiste",
+      "description": [
+        "[Zeit zum Sterben!] Erhöht den krit. Schaden um 20 % für die Dauer des Skills. TP können 3 Sek. lang nicht unter 10 % fallen.",
+        "[Zeit zum Sterben!] Erhöht den krit. Schaden um 24 % für die Dauer des Skills. TP können 3 Sek. lang nicht unter 10 % fallen.",
+        "[Zeit zum Sterben!] Erhöht den krit. Schaden um 29 % für die Dauer des Skills. TP können 3 Sek. lang nicht unter 10 % fallen.",
+        "[Zeit zum Sterben!] Erhöht den krit. Schaden um 35 % für die Dauer des Skills. TP können 3 Sek. lang nicht unter 10 % fallen.",
+        "[Zeit zum Sterben!] Erhöht den krit. Schaden um 42 % für die Dauer des Skills. TP können 3 Sek. lang nicht unter 10 % fallen.",
+        "[Zeit zum Sterben!] Erhöht den krit. Schaden um 50 % für die Dauer des Skills. TP können 3 Sek. lang nicht unter 10 % fallen."
+      ],
+      "story": "Besondere Sperrfeuerkiste der Stählernen Wölfe. Die Stählernen Wölfe waren dafür berüchtigt, zu gewalttätig zu sein, sodass ihre Feinde nicht wiederbelebt werden konnten. Der berühmteste Stählerne Wolf nutzt nur die maximierte Wolfs-Sperrfeuerkiste, die er vom Besitzer der Goldenen Kneipe erhielt."
+    }
+  },
+  "s3": {
+    "name": "Tanz mit mir!!",
+    "description": "Feuert sein Gewehr 12 Male auf zufällige Feinde und verursacht insg. {0} K.Schaden. Hinterlässt mit jedem Treffer ein Mal des Todes, das nicht entfernt werden kann. Jedes Mal des Todes erhöht 'Wildfeuer's Schaden um 1%.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Erhöht Schaden um 40%.",
+    "dark": "Fügt für jeden Treffer zwei zusätzliche Zähler hinzu.",
+    "ut": {
+      "name": "Rune der Wolfskopf-Söldner",
+      "description": [
+        "[Tanz mit mir!!] Erhöht Schaden um 20% und reduziert Skill-Cooldown um 5% bei jeder Aktivierung. Effekt kann sich bis zu max. 8 Mal kumulieren.",
+        "[Tanz mit mir!!] Erhöht Schaden um 24% und reduziert Skill-Cooldown um 5% bei jeder Aktivierung. Effekt kann sich bis zu max. 8 Mal kumulieren.",
+        "[Tanz mit mir!!] Erhöht Schaden um 29% und reduziert Skill-Cooldown um 5% bei jeder Aktivierung. Effekt kann sich bis zu max. 8 Mal kumulieren.",
+        "[Tanz mit mir!!] Erhöht Schaden um 35% und reduziert Skill-Cooldown um 5% bei jeder Aktivierung. Effekt kann sich bis zu max. 8 Mal kumulieren.",
+        "[Tanz mit mir!!] Erhöht Schaden um 42% und reduziert Skill-Cooldown um 5% bei jeder Aktivierung. Effekt kann sich bis zu max. 8 Mal kumulieren.",
+        "[Tanz mit mir!!] Erhöht Schaden um 50% und reduziert Skill-Cooldown um 5% bei jeder Aktivierung. Effekt kann sich bis zu max. 8 Mal kumulieren."
+      ],
+      "story": "Rune der größten Söldner: der Stählernen Wölfe. Eine Rune, welche die Söldnertruppe der Stählernen Wölfe symbolisiert, die einst die „Dämonen des Schlachtfelds“ genannt wurden. Mitra erhielt den Namen „Silberner Wolf des Schlachtfelds“. Selbst nachdem er die Söldner verließ, trägt er die Rune als Erinnerung an die Schlacht gegen den Marineoffizier des Kaiserreiches bei sich."
+    }
+  },
+  "s4": {
+    "name": "Jetzt bist du dran!!",
+    "description": "Jeder normale Angriff hinterlässt am Ziel ein Mal des Todes, das nicht entfernt werden kann. Folgende normale Angriffe und 'Peng! Peng!!' auf dasselbe Ziel verursacht {0} extra K.Schaden. Jedes Mal erhöht den Schaden des Skills um 2%. Max. Kumulierung: 100.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Erhöht das Mal-Limit auf 200.",
+    "dark": "Reduziert alle Cooldowns um 0.3, wenn ein Ziel mit 100 Zählern getroffen wird."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / Krit. Schaden +20%",
+    "dark": "Erhöht Krit. Schaden um 0.5% und ANG-Geschw. um 5 bei einem kritischen Treffer. Kumuliert sich bis zu 100 Mal."
+  }
+}

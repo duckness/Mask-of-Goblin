@@ -1,0 +1,120 @@
+{
+  "name": "Mirianne",
+  "subtitle": "Serva do Azul",
+  "description": "A assistente e a criada do arquimaga de Azul, Sonia. Ela age apenas de acordo com as vontade de Sonia, que é sua chefe, irmã e amiga. Usando seus olhos e mentes aguçados, ela explora as fraquezas do inimigos com suas adagas.",
+  "story": "Ela é criada de Sonia, assim como sua irmã de consideração do orfanato. Quando sua vila de Humanos e Elfos foi atacada pelos Demônios, ela foi a única sobrevivente. Ricardo a encontrou e a levou para o seu orfanato. Por algum motivo desconhecido, ela passou por uma fase de crescimento repentino quando tinha 6 anos. Seu corpo agora se parece com o de uma pessoa de 18 anos, mas ela ainda tem a mente de uma criança. Ela é extremamente pura e devota. Talvez esses atributos estejam relacionados à perda das suas memórias da infância.",
+  "like": "Sonia e todos do orfanato",
+  "dislike": "Insetos com muitas pernas",
+  "inn": {
+    "idle": "Sonia... Hm, parece que ela sumiu novamente.",
+    "recruit": {
+      "greet": "Ah, olá! Que bom que você está saudável!",
+      "talk": [
+        "Haha, Kasel e Frey está indo bem?",
+        "Eu quero visitar o Vovô. Já faz um bom tempo.",
+        "Ah, eu não sou uma donzela de verdade. Eu só gosto das roupas, hahaha."
+      ],
+      "gift": "Ah, obrigada! Você não precisava..."
+    },
+    "affinity": {
+      "greet": "Estou aqui de novo! Prazer em conhecer você!",
+      "talk": [
+        "Eu comprei umas roupas lindas! Por favor, escolha algo que vá me servir!",
+        "He he. Posso vir brincar com a Sonia?"
+      ],
+      "gift": "Obrigada! Vamos eu e você ver o vovô da próxima vez!"
+    },
+    "relationship": {
+      "greet": "Ah, você veio! Haha, você quer descansar um pouco?",
+      "talk": [
+        "Essa atmosfera agitada faz a gente se sentir em casa novamente, no orfanato...",
+        "Está com fome? Quer um lanche?",
+        "Eu adoro essas roupas, elas são lindas e esvoaçantes..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Aceleração Infinita, Riventina",
+    "description": [
+      "Aumenta a VEL de ATQ em 200 e ataca inimigos sob mira, causando 200% de ATQ como DAN.M. extra. Efeito de dano extra ocorre a cada 2 seg.",
+      "Aumenta a VEL de ATQ em 240 e ataca inimigos sob mira, causando 240% de ATQ como DAN.M. extra. Efeito de dano extra ocorre a cada 2 seg.",
+      "Aumenta a VEL de ATQ em 290 e ataca inimigos sob mira, causando 290% de ATQ como DAN.M. extra. Efeito de dano extra ocorre a cada 2 seg.",
+      "Aumenta a VEL de ATQ em 350 e ataca inimigos sob mira, causando 350% de ATQ como DAN.M. extra. Efeito de dano extra ocorre a cada 2 seg.",
+      "Aumenta a VEL de ATQ em 420 e ataca inimigos sob mira, causando 420% de ATQ como DAN.M. extra. Efeito de dano extra ocorre a cada 2 seg.",
+      "Aumenta a VEL de ATQ em 500 e ataca inimigos sob mira, causando 500% de ATQ como DAN.M. extra. Efeito de dano extra ocorre a cada 2 seg."
+    ],
+    "story": "Um equipamento mágico criado por Sonia, a Arquimaga do Azul. Ele é encantado com uma magia que o permite alcançar velocidades incríveis. O equipamento também é encantado com um feitiço especial que sempre o guia de volta para o seu dono após ser arremessado. Esse é o melhor presente que Sonia poderia dar a Mirianne, a quem ela considera como amiga e como parte da família. Em outras palavras, o equipamento é uma prova de amor única reservada apenas para Mirianne."
+  },
+  "s1": {
+    "name": "Mira Travada no Alvo",
+    "description": "Ataca o inimigo com a menor DEF.M 3 vezes, causando um total de {0} de DAN.M e infligindo atordoamento por 1 seg, e se o alvo estiver sob 'Mira Travada', o alvo recebe mais {1} de DAN.M. O último ataque inflige ‘Mira Travada no Alvo’ no inimigo por 10 seg. Mira Travada não pode ser removida, e a taxa de Bloqueio M. do alvo é reduzida em 300.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Quando houver 1 inimigo, reforça o DAN em 100%.",
+    "dark": "Aumenta em 1 segundos a duração do Atordoamento."
+  },
+  "s2": {
+    "name": "Conter e Proteger",
+    "description": "Causa {0} de DAN.M ao alvo e outros inimigos na área, e os atordoa por 2 segundos. Em seguida, desloca-se até o aliado com a menor DEF.F, além de você, e cria um escudo para os dois que pode bloquear {1} de DAN por segundos. O escudo não terá eficiência se não houver algum aliado por perto. Ganha imunidade a CM durante o efeito do escudo.",
+    "books": {
+      "0": "DAN e Escudo aumentados em {0}%.",
+      "1": "DAN e Escudo aumentados em {0}%.",
+      "2": "DAN e Escudo aumentados em {0}%."
+    },
+    "light": "Ganha imunidade a CM enquanto usar este poder.",
+    "dark": "Aumenta em 2 segundos a duração do Atordoamento.",
+    "ut": {
+      "name": "Anel Gêmeo de Teletransporte Instantâneo",
+      "description": [
+        "[Conter e Proteger] Reduz o Custo de Mana em 1 e recupera 160 de Mana ao realizar um acerto Crít.",
+        "[Conter e Proteger] Reduz o Custo de Mana em 1 e recupera 190 de Mana ao realizar um acerto Crít.",
+        "[Conter e Proteger] Reduz o Custo de Mana em 1 e recupera 230 de Mana ao realizar um acerto Crít.",
+        "[Conter e Proteger] Reduz o Custo de Mana em 1 e recupera 270 de Mana ao realizar um acerto Crít.",
+        "[Conter e Proteger] Reduz o Custo de Mana em 1 e recupera 330 de Mana ao realizar um acerto Crít.",
+        "[Conter e Proteger] Reduz o Custo de Mana em 1 e recupera 400 de Mana ao realizar um acerto Crít."
+      ],
+      "story": "Anel que Mirianne comprou na ‘Loja Incrível de Brinquedos Mágicos’ em Orvel. Ela gravou o nome de Sonia e o seu no item. O anel forma um conjunto que permite que se teleportem para a localização uma da outra uma vez por dia. Porem, Sonia não usa o seu por ser um pouco problemático... Pode até ser um brinquedo, mas Mirianne se alegra por possuir mais uma forma de proteger Sonia."
+    }
+  },
+  "s3": {
+    "name": "Assassinato",
+    "description": "Desloca-se até um inimigo com o menor PV, causa {0} de DAN.M e em seguida volta ao aliado mais distante. Se o inimigo não for um herói, causa {1} de DAN.M adicional que ignora DEF. Derrotar um alvo com esse poder ativa instantaneamente 'Conter e Proteger'.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Remove os efeitos positivos e inflige atordoamento por 1 segundo.",
+    "dark": "DAN aumenta em 40%.",
+    "ut": {
+      "name": "Pó Mágico do Relâmpago",
+      "description": [
+        "[Assassinato] Aumenta o DAN em 50% e, após o Golpe Crit, aumenta o próprio ATQ em 10% por 10 segundos.",
+        "[Assassinato] Aumenta o DAN em 50% e, após o Golpe Crit, aumenta o próprio ATQ em 12% por 10 segundos.",
+        "[Assassinato] Aumenta o DAN em 50% e, após o Golpe Crit, aumenta o próprio ATQ em 14% por 10 segundos.",
+        "[Assassinato] Aumenta o DAN em 50% e, após o Golpe Crit, aumenta o próprio ATQ em 17% por 10 segundos.",
+        "[Assassinato] Aumenta o DAN em 50% e, após o Golpe Crit, aumenta o próprio ATQ em 21% por 10 segundos.",
+        "[Assassinato] Aumenta o DAN em 50% e, após o Golpe Crit, aumenta o próprio ATQ em 25% por 10 segundos."
+      ],
+      "story": "Uma coleção de um belo material disperso na bola de cristal de Sonia como estrelas. Mirianne a coletou para fazer uma brincadeira, mas ela é tão poderosa que está sendo usada como ferramenta para assassinatos."
+    }
+  },
+  "s4": {
+    "name": "Alvo Eliminado",
+    "description": "Se o inimigo estiver sob Mira Travada, o ATQ aumenta em {0} e todos os ataques de habilidade priorizam o alvo. Quando o alvo morre, outro inimigo é colocado sob Mira Travada por 10 seg.",
+    "books": {
+      "0": "Aumento de ATQ reforçado em {0}%.",
+      "1": "Aumento de ATQ reforçado em {0}%.",
+      "2": "Aumento de ATQ reforçado em {0}%."
+    },
+    "light": "Quando houver inimigos infligidos por 'Mira Travada no Alvo', a Chance de Crit aumenta em 400.",
+    "dark": "Recebe 30% de DAN reduzido quando o inimigo estiver sobre Mira Travada."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / DAN Crít. +20%",
+    "dark": "Após eliminar um inimigo, toda a recarga do poder será reduzida em 50%, e recupera 1 orbe de mana."
+  }
+}

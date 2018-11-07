@@ -1,0 +1,120 @@
+{
+  "name": "Lorena",
+  "subtitle": "Gran Erudita",
+  "description": "La elfa druida que se unió a las Fuerzas Aliadas Humanas cuando el Señor Obscuro invadió. Unido a la naturaleza ataca a enemigos usando árboles.",
+  "story": "La gran sabia de Elidora es la más sabia de los druidas. Como una de los heroínas que peleó contra los invasores demonio hace más de 100 años, se la considera la persona más sabia en todo el continente Orbis. Ha enseñado y entrenado a un sinnúmero de elfos y posee un profundo conocimiento y poderes místicos que le benefician a su edad. Se dice que incluso el rey actual de Elidora, al igual que sus hijos fueron sus estudiantes. Recientemente ha sentido una perturbación extraña del Bosque de Elidora, está preparando el camino para el portador de la sagrada espada.",
+  "like": "Bosque tranquilo, canciones hermosas",
+  "dislike": "Cualquier cosa que haga daño a la naturaleza",
+  "inn": {
+    "idle": "No tengas miedo. Ustedes pueden ser mucho más fuertes.",
+    "recruit": {
+      "greet": "Soy Lorena, una Elfa Elidora.Saludos.",
+      "talk": [
+        "Me divertí mucho.",
+        "Que la bendición de la madre naturaleza ilumine tu camino",
+        "Los seres humanos son criaturas asombrosas, pero tu tienes una seria debilidad. Estas gobernado por la codicia y no puedes resistir la tentación."
+      ],
+      "gift": "Atesoraré esto."
+    },
+    "affinity": {
+      "greet": "Siempre valoro la oportunidad de pasar tiempo contigo.",
+      "talk": [
+        "Te espera un momento muy decisivo. Luz y sombra... Ambas se unirán en un mismo camino...",
+        "¿Te refieres a mi cabello azul? Oh, es un error de mi pasado."
+      ],
+      "gift": "Lo consideraré una muestra de tu generosidad."
+    },
+    "relationship": {
+      "greet": "Has crecido fuerte, justo y puro.",
+      "talk": [
+        "Parece que tienes el alma más pura que he visto en mucho tiempo.",
+        "Sería bueno que estos momentos de paz y tranquilidad duren para siempre... pero eso sería un vicio.",
+        "Nunca te olvidaré. Te recordaré no como el Sabio, sino como un simple elfo."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Arbol del Mundo, Roburu",
+    "description": [
+      "Cada 7 seg, causa Daño Magico igual al 40% de ATQ a los enemigos afectados con veneno, y reduce la DEF Magica en un 10%. Cada dosis de veneno aumenta esta Daño en un 20%.",
+      "Cada 7 seg, causa Daño Magico igual al 48% de ATQ a los enemigos afectados con veneno, y reduce la DEF Magica en un 12%. Cada dosis de veneno aumenta esta Daño en un 20%.",
+      "Cada 7 seg, causa Daño Magico igual al 57% de ATQ a los enemigos afectados con veneno, y reduce la DEF Magica en un 14%. Cada dosis de veneno aumenta esta Daño en un 20%.",
+      "Cada 7 seg, causa Daño Magico igual al 69% de ATQ a los enemigos afectados con veneno, y reduce la DEF Magica en un 17%. Cada dosis de veneno aumenta esta Daño en un 20%.",
+      "Cada 7 seg, causa Daño Magico igual al 83% de ATQ a los enemigos afectados con veneno, y reduce la DEF Magica en un 20%. Cada dosis de veneno aumenta esta Daño en un 20%.",
+      "Cada 7 seg, causa Daño Magico igual al 100% de ATQ a los enemigos afectados con veneno, y reduce la DEF Magica en un 25%. Cada dosis de veneno aumenta esta Daño en un 20%."
+    ],
+    "story": "La leyenda dice que, una vez cada 100 cien años, el Árbol de mundo otorga una de sus ramas al elegido. La rama irradia vida eterna y concede poder y conocimiento inmensos a su propietario. Lorena creó este bastón al fusionar la rama con la piedra del bosque, un tesoro elfo. Ahora, puede llamar a las fuerzas de la naturaleza y permanecer conectada con el Árbol del mundo donde sea que vaya."
+  },
+  "s1": {
+    "name": "Bosque Espinoso",
+    "description": "Ataca a los enemigos aleatorios al alcance 3 veces y causa  {0}  Daño Magico. Cada ataque acumula dosis de veneno.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Deja 2 acumulaciones de Veneno con un Golpe crítico."
+    },
+    "light": "El número de visitas se incrementa en 1.",
+    "dark": "Los enemigos con 5 o más pilas de veneno son encadenados durante 3 seg."
+  },
+  "s2": {
+    "name": "Viña Enredada",
+    "description": "Causa {0} Daño Magico a los enemigos en una línea recta y acumula 2 dosis de Veneno. Además, encadena a los enemigos golpeados por  {1}  seg. Después de un cierto período de tiempo, causa una gran cantidad de Daño basado en el número de dosis de Veneno",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Aumenta el Daño Magico recibido por el enemigo en {0}% mientras esta habilidad este en efecto."
+    },
+    "light": "el Daño se incrementa en un 40%.",
+    "dark": "Los enemigos afectados por el efecto de explosión final quedan aturdidos durante 2 seg.",
+    "ut": {
+      "name": "Belladonna mortal",
+      "description": [
+        "[Vid enredada] Reduce el Costo de Mana en 1 y drena 200 PM del enemigo afectado.",
+        "[Vid enredada] Reduce el Costo de Mana en 1 y drena 240 PM del enemigo afectado.",
+        "[Vid enredada] Reduce el Costo de Mana en 1 y drena 290 PM del enemigo afectado.",
+        "[Vid enredada] Reduce el Costo de Mana en 1 y drena 350 PM del enemigo afectado.",
+        "[Vid enredada] Reduce el Costo de Mana en 1 y drena 420 PM del enemigo afectado.",
+        "[Vid enredada] Reduce el Costo de Mana en 1 y drena 500 PM del enemigo afectado."
+      ],
+      "story": "La hermosa pero venenosa belladonna. Es una planta peligrosa que solo los grandes sabios pueden manipular. La pequeña cantidad de belladonna que se mezcla con raíces envenena a los enemigos y los convierte indefensos contra ataques de magia."
+    }
+  },
+  "s3": {
+    "name": "Ira del Bosque",
+    "description": "Causa  {0}  Daño Magico a los enemigos al alcance y derribalos durante 3 seg. Los enemigos envenenados reciben  {1}% más Daño por cada dosis de veneno.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "El costo de maná se incrementa en 1 esfera, pero el Daño aumenta en un 100%.",
+    "dark": "Los enemigos con 5 o más pilas de veneno pierden sus efectos positivos.",
+    "ut": {
+      "name": "Raíz del árbol del mundo",
+      "description": [
+        "[Ira del Bosque] El Daño aumenta en un 20%. Al Golpear Críticamente a los enemigos con más de 5 pilas de Veneno, el tiempo de reutilización de la habilidad se reduce en un 4%.",
+        "[Ira del Bosque] El Daño aumenta en un 24%. Al Golpear Críticamente a los enemigos con más de 5 pilas de Veneno, el tiempo de reutilización de la habilidad se reduce en un 4%.",
+        "[Ira del Bosque] El Daño aumenta en un 29%. Al Golpear Críticamente a los enemigos con más de 5 pilas de Veneno, el tiempo de reutilización de la habilidad se reduce en un 4%.",
+        "[Ira del Bosque] El Daño aumenta en un 35%. Al Golpear Críticamente a los enemigos con más de 5 pilas de Veneno, el tiempo de reutilización de la habilidad se reduce en un 4%.",
+        "[Ira del Bosque] El Daño aumenta en un 42%. Al Golpear Críticamente a los enemigos con más de 5 pilas de Veneno, el tiempo de reutilización de la habilidad se reduce en un 4%.",
+        "[Ira del Bosque] El Daño aumenta en un 50%. Al Golpear Críticamente a los enemigos con más de 5 pilas de Veneno, el tiempo de reutilización de la habilidad se reduce en un 4%."
+      ],
+      "story": "Prueba de la unidad entre los druidas y el árbol del mundo. Los grandes sabios de Elidora siempre han mantenido un vínculo profundo con el árbol del mundo. Las raíces del Árbol del Mundo son prueba del vínculo profundo con los druidas. Atacan enemigos con daño supernatural cuando los druidas gritan a la Ira del bosque para mostrar la furia y hostilidad de la naturaleza."
+    }
+  },
+  "s4": {
+    "name": "Hoja de Cuchilla",
+    "description": "Al provocar un ataque normal, ataca a un enemigo aleatorio 3 veces con un 30 % de probabilidades de infligir {0} de Daño mágico y 1 pila de Veneno durante 20 segundos. El efecto Veneno inflige un total de {1} de Daño mágico durante 20 segundos.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "El máximo de la pila de veneno se cambia a 6.",
+    "dark": "Hay un 20% de probabilidad de que los enemigos golpeados queden encadenados durante 2 segundos."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Oportunidad Crit +100",
+    "dark": "Cada 5 segundos, ataca a todos los enemigos objetivos con Bosque espinoso y una probabilidad del 30% para cada enemigo."
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Lilia",
+  "subtitle": "Fille de la tempête et de la mer",
+  "description": "Ce dragon bleu adolescent est la sœur de Laias, la prêtresse de l'eau. Bien qu'elle soit encore inexpérimentée, ceux qui lui manquent de respect le regrettent amèrement. Elle puise son énergie dans l'eau pour anéantir ses ennemis.",
+  "story": "Dieu-dragon de l'oasis et sœur de Laias, la prêtresse de l'eau. Elle n'est encore qu'un jeune dragon bleu débordant d'amour pour sa grande sœur. Il y a cent ans, lorsque Laias tomba dans un profond sommeil après avoir épuisé toutes ses forces au combat, Lilia dut défendre l'Autel des flots toute seule. Ce n'est que lorsqu'elle entendit les prières désespérées des enfants du désert qu'elle réveilla la prêtresse de l'eau pour les protéger. Contrairement à sa sœur, douce et attentionnée, elle se montre stricte, et sa manière de contrôler la force de l'eau est aussi plus agressive. Elle pense devoir protéger sa magnifique sœur contre les hommes, qu'elle trouve indignes et impudiques.",
+  "like": "Laias, les boissons sucrées et le peuple du désert",
+  "dislike": "Les hommes qui tournent autour de sa sœur (Neraxis, Cain)",
+  "inn": {
+    "idle": "Il y a... trop d'humains...",
+    "recruit": {
+      "greet": "Que les flots soient avec vous !",
+      "talk": [
+        "Je ne suis pas aussi gentille que ma sœur.",
+        "Faibles, les dragons bleus ? Vous vous trompez complètement.",
+        "Je suis assez grande. Je suis un dragon adulte !"
+      ],
+      "gift": "Merci, enfant humain."
+    },
+    "affinity": {
+      "greet": "Bonjour, vous avez bonne mine !",
+      "talk": [
+        "Les objectifs de ma sœur sont aussi les miens. Je serai toujours à ses côtés.",
+        "Le mystère de l'eau infinie ? Hum... Il me semble qu'il s'agit du pouvoir du premier dragon bleu."
+      ],
+      "gift": "Merci infiniment. Je m'en servirai pour l'Autel des flots."
+    },
+    "relationship": {
+      "greet": "Contente de vous revoir !",
+      "talk": [
+        "Neraxis ? Quel imbécile ! Il cherche toujours à accaparer l'attention de ma sœur !",
+        "Cain ? Beurk... Je croyais qu'il était parti pour de bon. Je n'arrive pas à croire qu'il fasse encore du gringue à ma sœur...",
+        "J'aime ma sœur plus que tout. Et vous... je vous aime bien aussi."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Cielamaha, source infinie",
+    "description": [
+      "Le mana est récupéré à raison de 50 points par sec et à chaque ATQ, vous avez 80 % de chances d'infliger 20 % de l'ATQ sous forme de DEG P.",
+      "Le mana est récupéré à raison de 60 points par sec et à chaque ATQ, vous avez 80 % de chances d'infliger 24 % de l'ATQ sous forme de DEG P.",
+      "Le mana est récupéré à raison de 70 points par sec et à chaque ATQ, vous avez 80 % de chances d'infliger 28 % de l'ATQ sous forme de DEG P.",
+      "Le mana est récupéré à raison de 85 points par sec et à chaque ATQ, vous avez 80 % de chances d'infliger 34 % de l'ATQ sous forme de DEG P.",
+      "Le mana est récupéré à raison de 105 points par sec et à chaque ATQ, vous avez 80 % de chances d'infliger 42 % de l'ATQ sous forme de DEG P.",
+      "Le mana est récupéré à raison de 125 points par sec et à chaque ATQ, vous avez 80 % de chances d'infliger 50 % de l'ATQ sous forme de DEG P."
+    ],
+    "story": "Une source dont l'eau jaillit éternellement. Cette jarre fut fabriquée par le premier dragon bleu, maître des mers et des océans. Elle réagit à l'imagination de son porteur. Pour une jeune fille sensible et imaginative comme Lilia, cette jarre n'est pas seulement un trésor, c'est une arme."
+  },
+  "s1": {
+    "name": "Tempête marine",
+    "description": "Active Tempête marine pendant 8 sec sur une cible choisie au hasard ainsi que sur les ennemis à sa portée et inflige {0} points de DEG P toutes les 0,5 sec. Si la cible est vaincue, Tempête marine s'active sur une autre cible choisie au hasard pendant la durée restante.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "La Vit ATQ de la cible touchée diminue de 250 points pendant 10 sec.",
+    "dark": "Chaque utilisation augmente les DEG de 20%. Cumulable 15 fois."
+  },
+  "s2": {
+    "name": "Oasis éternelle",
+    "description": "Après activation, Oasis éternelle est déclenchée pendant 15 sec. Pendant Oasis éternelle, le taux de récupération du mana augmente de 150 % et l'ATQ augmente de {0}  points. De plus, toutes les DEF augmentent de {1}  points.",
+    "books": {
+      "0": "Les boosts de récupération de mana et d'ATQ augmentent de {0}  %.",
+      "1": "Les boosts de récupération de mana et d'ATQ augmentent de {0}  %.",
+      "2": "Les boosts de récupération de mana et d'ATQ augmentent de {0}  %."
+    },
+    "light": "Le coût en mana est augmenté de 1 point et l'activation vaut aussi pour l'allié autre que le lanceur qui possède l'ATQ la plus élevée.",
+    "dark": "La durée de la compétence est réduite de 5 sec et tous les effets augmentent de 100 %.",
+    "ut": {
+      "name": "Cœur des flots",
+      "description": [
+        "[Oasis éternelle] L'effet ne peut pas être dissipé et les DEG Crit augmentent de 20 % pendant la durée de la compétence.",
+        "[Oasis éternelle] L'effet ne peut pas être dissipé et les DEG Crit augmentent de 24 % pendant la durée de la compétence.",
+        "[Oasis éternelle] L'effet ne peut pas être dissipé et les DEG Crit augmentent de 29 % pendant la durée de la compétence.",
+        "[Oasis éternelle] L'effet ne peut pas être dissipé et les DEG Crit augmentent de 35 % pendant la durée de la compétence.",
+        "[Oasis éternelle] L'effet ne peut pas être dissipé et les DEG Crit augmentent de 42 % pendant la durée de la compétence.",
+        "[Oasis éternelle] L'effet ne peut pas être dissipé et les DEG Crit augmentent de 50 % pendant la durée de la compétence."
+      ],
+      "story": "Ce collier en or, serti d'une gemme de protection, fut fabriqué par Laias pour Lilia. Il irradie de l'énergie des élémentaires d'eau qu'il contient. Il symbolise l'amour de Laias pour sa petite sœur."
+    }
+  },
+  "s3": {
+    "name": "Cascade céleste",
+    "description": "Lance 15 fois des gouttes d'eau sur des ennemis choisis au hasard et leur inflige un total de {0}  points de DEG P. De plus, vous lancez 5 fois de grosses gouttes d'eau sur la cible et les ennemis à portée, ce qui leur inflige {1}  points de DEG P. Les ennemis touchés par les grosses gouttes d'eau sont étourdis pendant {2}  sec. À chaque goutte d'eau lancée, {3}  points de mana sont consommés et le coût en mana augmente de {4}  points. La compétence s'arrête lorsque le mana atteint 0.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Donne une immunité aux Contrôles.",
+    "dark": "À chaque goutte d'eau lancée, le coût en mana et le taux de consommation du mana augmentent de 100 %, et vous avez 50 % de chances de lancer une goutte d'eau supplémentaire.",
+    "ut": {
+      "name": "Marmite sans fond d'élémentaires",
+      "description": [
+        "[Cascade céleste] À chaque ATQ, vous avez 7% de chances de lancer une grosse goutte d'eau qui inflige 100% de l'ATQ sous forme de DEG P et augmente les DEG Crit du lanceur de 2% pendant 7 sec.",
+        "[Cascade céleste] À chaque ATQ, vous avez 7% de chances de lancer une grosse goutte d'eau qui inflige 100% de l'ATQ sous forme de DEG P et augmente les DEG Crit du lanceur de 2,4% pendant 7 sec.",
+        "[Cascade céleste] À chaque ATQ, vous avez 7% de chances de lancer une grosse goutte d'eau qui inflige 100% de l'ATQ sous forme de DEG P et augmente les DEG Crit du lanceur de 2,8% pendant 7 sec.",
+        "[Cascade céleste] À chaque ATQ, vous avez 7% de chances de lancer une grosse goutte d'eau qui inflige 100% de l'ATQ sous forme de DEG P et augmente les DEG Crit du lanceur de 3,4% pendant 7 sec.",
+        "[Cascade céleste] À chaque ATQ, vous avez 7% de chances de lancer une grosse goutte d'eau qui inflige 100% de l'ATQ sous forme de DEG P et augmente les DEG Crit du lanceur de 4,2% pendant 7 sec.",
+        "[Cascade céleste] À chaque ATQ, vous avez 7% de chances de lancer une grosse goutte d'eau qui inflige 100% de l'ATQ sous forme de DEG P et augmente les DEG Crit du lanceur de 5% pendant 7 sec."
+      ],
+      "story": "Cette marmite fut forgée par les vieux amis cactus de Lilia pour son anniversaire. Elle produit sans discontinuer l'eau la plus pure qui soit. Cependant, lorsqu'une certaine quantité d'eau a été utilisée, plus rien ne coule. Cette caractéristique a été imaginée par les cactus pour empêcher Lilia de perdre le contrôle de l'eau, au moins jusqu'à ce qu'elle se fasse la main."
+    }
+  },
+  "s4": {
+    "name": "Purification marine",
+    "description": "Lors de l'attaque, la récupération de mana est fixe, mais l'ATQ du lanceur augmente de {0}  points et le taux de récupération de mana est de 120 par sec. Tous les 6 points de mana récupérés par seconde, l'ATQ augmente de 1 %.",
+    "books": {
+      "0": "Le taux d'augmentation d'Attaque augmente de {0}%.",
+      "1": "Le taux d'augmentation d'Attaque augmente de {0}%.",
+      "2": "Le taux d'augmentation d'Attaque augmente de {0}%."
+    },
+    "light": "Restaure 1 000 points de mana au début de chaque combat.",
+    "dark": "Inflige 15 % de DEG supplémentaires aux boss."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / DEG Crit +20%",
+    "dark": "Augmente l'ATQ de 15 % par orbe de PM en votre possession."
+  }
+}

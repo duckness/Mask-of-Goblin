@@ -1,0 +1,120 @@
+{
+  "name": "Veronica",
+  "subtitle": "The Eye of Discernment",
+  "description": "She is the genius from the Tower of Sage who reestablished the formula for Rune Magic. Currently, she is Orvel's financier and the Chief Guild Officer that directs all guilds. Her strong analytical skills and Rune Magic can shackle her enemies.",
+  "story": "A genius scholar from the Tower of Sage who remembers everything she sees. After developing her own theories and systems of Rune Magic, she quickly grew bored and moved onto a different subject. Soon, she was appointed as the highest ranking royal secretary of finance. Unfortunately, many politicians refused to accept a commoner as their superior. After many lies and ill rumors, Veronica eventually decided to leave the palace on her own. But this was hardly a defeat for her, and she soon set out to conquer a new path. She headed to the Orvel Guild Alliance, where she would be measured only by her abilities and nothing else. As expected, her incredible perception and analytical skills made her an indispensable asset to numerous guilds.",
+  "like": "Smart people, fast results, clean documents",
+  "dislike": "Messy rooms, working inefficiently",
+  "inn": {
+    "idle": "Hmm, it's been a while since I just sat back and relaxed.",
+    "recruit": {
+      "greet": "",
+      "talk": [
+        "",
+        "",
+        ""
+      ],
+      "gift": ""
+    },
+    "affinity": {
+      "greet": "I hope you will continue to take care of the evil beasts that continue to attack Orvel.",
+      "talk": [
+        "Rune magic? Hmm, I've learned some at the Tower of Sages. I do also know some Ancient Runes...",
+        "Guild management isn't easy. There are way too many guilds..."
+      ],
+      "gift": "Oh, you didn't need to...haah. Well, I thankfully accept."
+    },
+    "relationship": {
+      "greet": "I haven't been here in a while...it feels close, and yet so far.",
+      "talk": [
+        "How are your guild activities going? I will help the best I can.",
+        "I do want to help more, but it isn't easy. I will try harder.",
+        "Fufu, I wonder if I can help you on your next raid."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Infinite Charter, Accordio",
+    "description": [
+      "All DMG from skills inflicts an additional M.DMG by 50% of ATK. Additionally, the Top Financier's Knowledge max stack increases to 9.",
+      "All DMG from skills inflicts an additional M.DMG by 60% of ATK. Additionally, the Top Financier's Knowledge max stack increases to 10.",
+      "All DMG from skills inflicts an additional M.DMG by 70% of ATK. Additionally, the Top Financier's Knowledge max stack increases to 11.",
+      "All DMG from skills inflicts an additional M.DMG by 85% of ATK. Additionally, the Top Financier's Knowledge max stack increases to 12.",
+      "All DMG from skills inflicts an additional M.DMG by 100% of ATK. Additionally, the Top Financier's Knowledge max stack increases to 13.",
+      "All DMG from skills inflicts an additional M.DMG by 125% of ATK. Additionally, the Top Financier's Knowledge max stack increases to 15."
+    ],
+    "story": "Her approval is needed to process any important items in the Guild Alliance. An office item cherished by the founder of the Guild Alliance. A feather pen and folder put together in a set. The pen has a mana ball embedded in it so it requires mana instead of ink, and it must be used on a magic parchment that cannot be written on with a regular pen. The letters that are written by the writer cannot be erased without the writer's mana. Also, text can be written on the magic parchment without any limit, and it has a function to search for stuff one has written before. It makes Veronica's work that much more effective. Of course, it's useful when it's used for work, but outside of work..."
+  },
+  "s1": {
+    "name": "This will hurt a little!",
+    "description": "Deals {0} M.DMG to enemy and surrounding enemies within range, and inflicts Stun for {1} sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "DMG is increased by 100% when there is 1 enemy.",
+    "dark": "Number of targets changes to 2."
+  },
+  "s2": {
+    "name": "Let me help you.",
+    "description": "Grants a Rune to all allies to increase their ATK by {0} and any DMG to bosses by 15% for 10 sec.",
+    "books": {
+      "0": "ATK boost is increased by {0}%.",
+      "1": "ATK boost is increased by {0}%.",
+      "2": "ATK boost is increased by {0}%."
+    },
+    "light": "ATK Boost is increased by 40%.",
+    "dark": "Reduces cooldown by 5 sec.",
+    "ut": {
+      "name": "Pen Point of Firm Will",
+      "description": [
+        "[Let Me Help You] Reduces Mana Cost by 1 and increases skill duration by 1.6 sec.",
+        "[Let Me Help You] Reduces Mana Cost by 1 and increases skill duration by 1.9 sec.",
+        "[Let Me Help You] Reduces Mana Cost by 1 and increases skill duration by 2.3 sec.",
+        "[Let Me Help You] Reduces Mana Cost by 1 and increases skill duration by 2.7 sec.",
+        "[Let Me Help You] Reduces Mana Cost by 1 and increases skill duration by 3.3 sec.",
+        "[Let Me Help You] Reduces Mana Cost by 1 and increases skill duration by 4 sec."
+      ],
+      "story": "Pen point that Veronica always carries around. She had soaked it in the Spring of Promise for 100 days, just like Blacksmith Jin had advised. With the power of magic, the letters written by this pen turn red when the actions are not carried out accordingly. Veronica says it's very helpful when managing supplies."
+    }
+  },
+  "s3": {
+    "name": "Get out of my sight!",
+    "description": "Attacks target and enemies in a wide surrounding area 2 times to deal {0} M.DMG, and knocks them down for 5 sec. Hit enemies take 30% increased M.DMG for 10 sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Increases Mana Cost by 1 and DMG by 100%.",
+    "dark": "Target takes increased M.DMG and P.DMG.",
+    "ut": {
+      "name": "Seal of Guild Manager",
+      "description": [
+        "[Get out of my sight!] DMG is increased by 20% and per each enemy hit, cooldown is reduced by 10%.",
+        "[Get out of my sight!] DMG is increased by 24% and per each enemy hit, cooldown is reduced by 10%.",
+        "[Get out of my sight!] DMG is increased by 29% and per each enemy hit, cooldown is reduced by 10%.",
+        "[Get out of my sight!] DMG is increased by 35% and per each enemy hit, cooldown is reduced by 10%.",
+        "[Get out of my sight!] DMG is increased by 42% and per each enemy hit, cooldown is reduced by 10%.",
+        "[Get out of my sight!] DMG is increased by 50% and per each enemy hit, cooldown is reduced by 10%."
+      ],
+      "story": "A seal given to the best guild manager of Orvel. All guild affairs can't be processed without this seal. The meticulous Veronica doesn't stamp a document unless it's perfect. An item that shows Veronica's professional spirit."
+    }
+  },
+  "s4": {
+    "name": "Top Financier's Knowledge",
+    "description": "All Allies' ATK is increased by {0} , and upon using the skill 3 times, instantly gains The Top Financier's Knowledge. Per each stack of Top Financier's Knowledge, own Crit DMG is increased by 30%, and all skill effects are increased by 10% each. Top Financier's Knowledge can be stacked up to max 5 times, and cannot be dispelled.",
+    "books": {
+      "0": "ATK boost is increased by {0}%.",
+      "1": "ATK boost is increased by {0}%.",
+      "2": "ATK boost is increased by {0}%."
+    },
+    "light": "Recovers the caster's MP by 2 orbs when activated.",
+    "dark": "When activated, increases the caster's ATK by 50% for 10 sec."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / Crit Chance +100",
+    "dark": "Reduces the cooldown of the caster's all skills by 15% every 20 sec."
+  }
+}

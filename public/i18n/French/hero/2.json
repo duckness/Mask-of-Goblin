@@ -1,0 +1,120 @@
+{
+  "name": "Frey",
+  "subtitle": "Prêtresse de la Lumière",
+  "description": "Une amie d'enfance de Kasel, cette prêtresse sert la Déesse Lua. Elle soigne et protège ses alliés avec la puissance de la lumière. Avec les bénédictions de la Déesse, elle peut temporairement augmenter les pouvoirs et les résistances.",
+  "story": "Une apprentie prêtresse servant la déesse Lua. L'Église attend beaucoup de son accession au poste de prêtresse. Depuis ses premières années de formation, elle a stupéfait les plus grands prêtres par sa foi puissante et son talent naturel pour canaliser la puissance de Lua. Elle considère que la prêtrise est sa destinée naturelle et elle fait preuve d'autant de bienveillance que de volonté. Cependant, elle ne montre aucune pitié envers les malfaisants.",
+  "like": "Lua, son travail actuel",
+  "dislike": "L'injustice",
+  "inn": {
+    "idle": "Déesse Lua, en qui la Lumière ne vacille jamais - ne laissez jamais notre foi vaciller.",
+    "recruit": {
+      "greet": "Puissent la bénédiction de Lua être avec vous.",
+      "talk": [
+        "Ma relation avec Kasel? Haha, c'est comme la famille. Je suppose que je suis comme son gardien?",
+        "Je me demande comment va la Grande Prêtresse Iris. Je ne l'ai plus revue depus que je suis parti...",
+        "Haha, Roy et Cleo forment un beau couple non?"
+      ],
+      "gift": "Wow, merci."
+    },
+    "affinity": {
+      "greet": "Et voilà. Vous ne vous êtes pas fait mal, j'espère ?",
+      "talk": [
+        "Dans mes rêves, je vois parfois une vive lumière. Des êtres aux ailes blanches, et derrière eux, un soleil éblouissant.",
+        "Qui j'apprécie ? C'est un secret entre Lua et moi."
+      ],
+      "gift": "Merci. Je n'oublierai jamais votre gentillesse."
+    },
+    "relationship": {
+      "greet": "Je prie sincèrement Lua de veiller sur vous.",
+      "talk": [
+        "La sécurité de Kasel est importante. Il a été choisi par la Déesse, après tout.",
+        "Toutes les decisions peuvent être accueillies avec mépris. Ça ne me dérange pas, du moment que cela convient à la Déesse.",
+        "La relation entre Dieu et les Prêtres n'est pas si différente de la relation entre les gens normaux. Parfois... Nous ne sommes pas d'accord."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Rosmerta, Autorité de Dieu",
+    "description": [
+      "En cas d'attaque automatique, pour une chance de 40%, soigne l'allié avec les PV les plus bas pour 42% de l'attaque du lanceur de sort.",
+      "En cas d'attaque automatique, pour une chance de 40%, soigne l'allié avec les PV les plus bas pour 50.4% de l'attaque du lanceur de sort.",
+      "En cas d'attaque automatique, pour une chance de 40%, soigne l'allié avec les PV les plus bas pour 58.8% de l'attaque du lanceur de sort.",
+      "En cas d'attaque automatique, pour une chance de 40%, soigne l'allié avec les PV les plus bas pour 71.4% de l'attaque du lanceur de sort.",
+      "En cas d'attaque automatique, pour une chance de 40%, soigne l'allié avec les PV les plus bas pour 86.1% de l'attaque du lanceur de sort.",
+      "En cas d'attaque automatique, pour une chance de 40%, soigne l'allié avec les PV les plus bas pour 105% de l'attaque du lanceur de sort."
+    ],
+    "story": "On dit que les anges sont plus proches de Lua que toutes les autres races. Lorsqu'un ange de haut rang meurt, son noyau est transféré dans le havre des anges pour ressusciter. Cependant, une de ces anges, Rosmerta, donna son noyau à l'Église de Lua. Ce bâton sacré a été créé à l'aide de l'énergie divine du noyau."
+  },
+  "s1": {
+    "name": "Lumière Miraculeuse",
+    "description": "Soigne l'allié ayant le moins de PV de {0} PV.",
+    "books": {
+      "0": "Augmente la Récupération de {0}%.",
+      "1": "Augmente la Récupération de {0}%.",
+      "2": "Enlève les effets néfastes de la cible."
+    },
+    "light": "Pour un coût de 1 MP supplémentaire, la compétence touche 2 cibles.",
+    "dark": "Les DEG M. infligés aux alliés soignés sont réduits de 25% pendant 10 sec."
+  },
+  "s2": {
+    "name": "Bénédiction de Lumière",
+    "description": "Lance sur tous les alliés un bouclier qui absorbe {1} DEG pour {0} secondes.",
+    "books": {
+      "0": "Augmente les PV Bouclier de  {0}%.",
+      "1": "Augmente les PV Bouclier de {0}%.",
+      "2": "Augmente le taux de récupération de la cible par  {0}% pour la durée de la compétence."
+    },
+    "light": "Bouclier augmenté de 40%",
+    "dark": "Les alliés protégés gagnent 20% d'ATQ.",
+    "ut": {
+      "name": "Médaille miraculeuse",
+      "description": [
+        "[Bénédiction de lumière] Augmente la valeur du bouclier de 50 % et récupère 100 mana toutes les secondes pendant 4 sec.",
+        "[Bénédiction de lumière] Augmente la valeur du bouclier de 50 % et récupère 120 mana toutes les secondes pendant 4 sec.",
+        "[Bénédiction de lumière] Augmente la valeur du bouclier de 50 % et récupère 140 mana toutes les secondes pendant 4 sec.",
+        "[Bénédiction de lumière] Augmente la valeur du bouclier de 50 % et récupère 170 mana toutes les secondes pendant 4 sec.",
+        "[Bénédiction de lumière] Augmente la valeur du bouclier de 50 % et récupère 210 mana toutes les secondes pendant 4 sec.",
+        "[Bénédiction de lumière] Augmente la valeur du bouclier de 50 % et récupère 250 mana toutes les secondes pendant 4 sec."
+      ],
+      "story": "Médaille confectionnée par Yvonne, la sainte patronne des miracles, grâce à la révélation de la déesse. La médaille miraculeuse est un artéfact sacré renfermant la magie de la lumière. L’on raconte que la sainte patronne Yvonne a sauvé la ville contre les démons grâce à la bénédiction de la lumière décuplée par cette médaille."
+    }
+  },
+  "s3": {
+    "name": "Vengeance Céleste",
+    "description": "Attaque 6 fois la cible et les ennemis près d'elle, ce qui leur inflige un total de {0}  points de DEG M et les aveugle pendant {1}  sec.",
+    "books": {
+      "0": "Augmenter DEG de  {0}%.",
+      "1": "Augmenter DEG de {0}%.",
+      "2": "Augmenter la Chance de Crit de  {0}."
+    },
+    "light": "Pour un coût de 1 MP supplémentaire, les DEG sont augmentés de 80%.",
+    "dark": "Durée d'Aveuglement réduite de 2 sec et cible maintenant un ennemi aléatoire.",
+    "ut": {
+      "name": "Plume de l'arbitre oublié",
+      "description": [
+        "[Vengeance Céleste] Les DEG M. sur la cible sont augmentés de 20% pendant 10 sec et la durée d'Aveuglement est augmentée de 1 sec.",
+        "[Vengeance Céleste] Les DEG M. sur la cible sont augmentés de 20% pendant 10 sec et la durée d'Aveuglement est augmentée de 1.5 sec.",
+        "[Vengeance Céleste] Les DEG M. sur la cible sont augmentés de 20% pendant 10 sec et la durée d'Aveuglement est augmentée de 2 sec.",
+        "[Vengeance Céleste] Les DEG M. sur la cible sont augmentés de 20% pendant 10 sec et la durée d'Aveuglement est augmentée de 2.5 sec.",
+        "[Vengeance Céleste] Les DEG M. sur la cible sont augmentés de 20% pendant 10 sec et la durée d'Aveuglement est augmentée de 3 sec.",
+        "[Vengeance Céleste] Les DEG M. sur la cible sont augmentés de 20% pendant 10 sec et la durée d'Aveuglement est augmentée de 3.5 sec."
+      ],
+      "story": "Plume de la Gardienne du soleil. Plume d’un ange ayant autrefois sauvé des gens en combattant des démons. Il laissa cette plume comme preuve de sa promesse de revenir un jour si jamais le monde sombrait dans le chaos. Un artéfact de l’Église de Lua invoquant les rayons sacrés du soleil pour aveugler l’ennemi."
+    }
+  },
+  "s4": {
+    "name": "Grâce de la Déesse",
+    "description": "Augmente la DEF M de 1 allié aux PV les plus bas de {1} toutes les 15 sec pendant {0}  sec.",
+    "books": {
+      "0": "Le taux d'augmentation de DEF M. est augmenté de  {0}%.",
+      "1": "Le taux d'augmentation de DEF M. est augmenté de  {0}%.",
+      "2": "Restaure les PV à la cible de  {0}% pour la durée de la compétence."
+    },
+    "light": "La Vit. ATQ est augmentée de 250.",
+    "dark": "Le nombre de cibles est maintenant de 2."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Blocage M. +200",
+    "dark": "Les alliés soignés par Frey reçoivent 5% de son ATQ pendant 5 secondes."
+  }
+}

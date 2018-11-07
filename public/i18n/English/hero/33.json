@@ -1,0 +1,120 @@
+{
+  "name": "Nyx",
+  "subtitle": "Dimension Cleaver",
+  "description": "A heterochromic mage that controls space itself. His powers rip through space to summon infinite sword barrages.",
+  "story": "A mysterious dimension-crossing wizard with distinctly recognizable heterochromia. The perpetual smile on his face seems to come from the wisdom of someone who sees through the entire universe. He shows great interest in those with special abilities and enjoys testing them. His space teleportation ability seems to surpass the realm of mortals, and he can even travel across dimensions. It is unsure what his true motivation is, but it seems certain enough that he always intends to help others.",
+  "like": "Interdimensional travel, magic experiments",
+  "dislike": "People who do not listen to others",
+  "inn": {
+    "idle": "Hmm, do you have interest in me?",
+    "recruit": {
+      "greet": "I sense a special aura from you.",
+      "talk": [
+        "Do you have somewhere you wish to go?",
+        "There is no place in this world I cannot reach.",
+        "I like interesting people, like you."
+      ],
+      "gift": "For me? Hmm, thank you."
+    },
+    "affinity": {
+      "greet": "We meet again. Nice to see you.",
+      "talk": [
+        "Traveling is fun. It's a chance to put everything down and enjoy freedom for a while.",
+        "My hobby is collecting swords."
+      ],
+      "gift": "Oh, this is such a nice gift. Thank you."
+    },
+    "relationship": {
+      "greet": "Hmm. I knew you were coming.",
+      "talk": [
+        "If you wish to go anywhere, tell me. I shall open a portal for you.",
+        "I have an interest in seeing how you save this world.",
+        "Do you wish to know about my magic? Haha, it involves some complicated calculations."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Dimensional Key, Magnus Fille",
+    "description": [
+      "Auto Attack penetrates through enemies in a straight line and DMG is increased by 30%. Per each blade stack, DMG is increased by an extra 4%.",
+      "Auto Attack penetrates through enemies in a straight line and DMG is increased by 36%. Per each blade stack, DMG is increased by an extra 4.8%.",
+      "Auto Attack penetrates through enemies in a straight line and DMG is increased by 43%. Per each blade stack, DMG is increased by an extra 5.7%.",
+      "Auto Attack penetrates through enemies in a straight line and DMG is increased by 52%. Per each blade stack, DMG is increased by an extra 6.9%.",
+      "Auto Attack penetrates through enemies in a straight line and DMG is increased by 62%. Per each blade stack, DMG is increased by an extra 8.3%.",
+      "Auto Attack penetrates through enemies in a straight line and DMG is increased by 75%. Per each blade stack, DMG is increased by an extra 10%."
+    ],
+    "story": "There exists a universal string that connects different dimensions. This sword is the key that can sever and reconnect this string. It is bestowed upon the dimensional arbitrator sworn to protect the balance of the universe. It can be duplicated indefinitely, but will only grant its powers to the chosen one."
+  },
+  "s1": {
+    "name": "Dimension Blade",
+    "description": "Deals {0} P.DMG to target enemies and gains 1 stack of Blade per each hit enemy. The number of target increases depending on the number of Blade stacks. Blade can be stacked up to max 5 times, and lasts for 20 sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "When there are over 5 enemies, 10 sec cooldown is reset, and DMG is increased by 200%. Has a cooldown of 20 sec.",
+    "dark": "Max Blade stack is increased by 1."
+  },
+  "s2": {
+    "name": "Dimension Cleaver",
+    "description": "Dispels all positive effects of target enemy and deals {0} P.DMG. Hit enemies take {2} P.DMG for {1} sec, and are knocked down for 3 sec. The number of target increases depending on the number of Blade stacks.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Mana cost is reduced by 1.",
+    "dark": "Target receives 25% increased P.DMG for 10 sec.",
+    "ut": {
+      "name": "Sword of Flow Cutting",
+      "description": [
+        "[Dimension Cleaver] DMG is increased by 50% and own Crit DMG is increased by 10% for 8 sec per each hit enemies. This effect can be stacked max 5 times.",
+        "[Dimension Cleaver] DMG is increased by 50% and own Crit DMG is increased by 12% for 8 sec per each hit enemies. This effect can be stacked max 5 times.",
+        "[Dimension Cleaver] DMG is increased by 50% and own Crit DMG is increased by 14% for 8 sec per each hit enemies. This effect can be stacked max 5 times.",
+        "[Dimension Cleaver] DMG is increased by 50% and own Crit DMG is increased by 17% for 8 sec per each hit enemies. This effect can be stacked max 5 times.",
+        "[Dimension Cleaver] DMG is increased by 50% and own Crit DMG is increased by 21% for 8 sec per each hit enemies. This effect can be stacked max 5 times.",
+        "[Dimension Cleaver] DMG is increased by 50% and own Crit DMG is increased by 25% for 8 sec per each hit enemies. This effect can be stacked max 5 times."
+      ],
+      "story": "A legendary sword that has transcended eras. A legendary sword that was made with the light of the sun and the melted souls of those in pain. It is one of the required items for Dimension Cleaver since it is durable enough to withstand dimension and can be made very sharp."
+    }
+  },
+  "s3": {
+    "name": "Infinity Blades",
+    "description": "Deals {0} P.DMG to frontal enemies in range, and the final attack deals {1} P.DMG to one enemy, inflicting knockdown for 3 sec. The number of target for the last attack increases depending on the number of Blade stacks.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Cooldown is reduced by 5 sec.",
+    "dark": "When there are 5 blade stacks or more, DMG is increased by 70%.",
+    "ut": {
+      "name": "Dimension Stone",
+      "description": [
+        "[Infinity Blades] Mana cost is reduced by 1 and DMG is increased by 20%.",
+        "[Infinity Blades] Mana cost is reduced by 1 and DMG is increased by 24%.",
+        "[Infinity Blades] Mana cost is reduced by 1 and DMG is increased by 29%.",
+        "[Infinity Blades] Mana cost is reduced by 1 and DMG is increased by 35%.",
+        "[Infinity Blades] Mana cost is reduced by 1 and DMG is increased by 42%.",
+        "[Infinity Blades] Mana cost is reduced by 1 and DMG is increased by 50%"
+      ],
+      "story": "A required item for wizards who go through dimensions. The Dimensional Stone is a magic stone that is loved by those who go through dimensions, and it contains unlimited energy. However, the power that one can use from it depends on the individual's ability. Only high ranking wizards can use it effectively."
+    }
+  },
+  "s4": {
+    "name": "Hidden Blade",
+    "description": "Each auto attack fires an additional blade that deals {0} P.DMG. The number of target increases depending on the number of Blade stacks.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "DMG is increased by 15% per each enemy on the field.",
+    "dark": "There is a 10% chance of dispelling enemy positive effects."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / Crit DMG +20%",
+    "dark": "When auto attacking, there is a 10% chance of stacking 1 stack of Blade. Nyx's ATK is boosted by 10% per each Blade Stack he holds."
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Epis",
+  "subtitle": "Demonio Cautivante",
+  "description": "Un demonio hedonista de sangre fría. Utilizando una enorme guadaña, ella cosecha las almas de los enemigos. Aparece repentinamente en medio de los enemigos, cortando todo a su alrededor.",
+  "story": "Esta fascinante y juguetona súcubo actúa bajo sus propios caprichos. Como es de esperarse de su linaje de demonio, es una hedonista impulsada por lo que ella considera divertido y disfrutable. Incluso durante la guerra de demonios, decidió viajar por su cuenta en vez de unirse a la invasión. Según ella, pelear junto a Kyle era bastante interesante como para traicionar a su propia raza. Luego, cuando conoció a Kasel, se unió contenta a su equipo, sabiendo que encontraría otra aventura para ella. Cuando encuentra hombres atractivos, a veces los visita en sus sueños.",
+  "like": "Cualquier cosas que llama el interés o la curiosidad",
+  "dislike": "Atmósfera aburrida",
+  "inn": {
+    "idle": "Hm hmm hmm ~ (tarareando)",
+    "recruit": {
+      "greet": "¿Estás libre hoy?",
+      "talk": [
+        "¿Te sonrojas? Que lindo~",
+        "Ahora, ¿dónde estás mirando? No te preocupes, no se lo diré a nadie...",
+        "Hmm.. ¿qué, quieres probar algo emocionante ~?"
+      ],
+      "gift": "Oh, para mí? Ooh, ahora, entonces, ¿qué podrías querer a cambio ~?"
+    },
+    "affinity": {
+      "greet": "¡Hola, corazón! ¿Cerraste la puerta?",
+      "talk": [
+        "¿Qué esperabas? Oh, no tienes escrúpulos.",
+        "¿Quieres saber por qué un demonio se pone del lado de los humanos? ¿En serio crees eso? Ja, ja."
+      ],
+      "gift": "Nada mal. Parece que algo aprendiste sobre la seducción. ¿Eso significa que eres más como yo?"
+    },
+    "relationship": {
+      "greet": "Hmm ~ de acuerdo a tu expresión, asumo que me viste en tus sueños anoche?",
+      "talk": [
+        "Aha ~ entonces, cómo fue tu sueño? Satisfactorio? O te gustaría continuar donde lo dejaste...",
+        "Haaaah... Hay algo en mi mente. Sigo pensando en ti... Sabes por qué ~?",
+        "Esta ropa parece cada vez mas ajustada. Me pregunto si he aumentado de peso... te gustaría ayudarme, en mi habitación?"
+      ]
+    }
+  },
+  "uw": {
+    "name": "La Seductora, Guillotine",
+    "description": [
+      "Al atacar, hay un 25% de posibilidades de causar Daño Mágico con un valor equivalente al 80% de ATQ y aumentar el propio ATQ en un 2%. Este efecto de aumento de ATQ puede acumularse hasta un máximo de 10 veces.",
+      "Al atacar, hay un 25% de posibilidades de causar Daño Mágico con un valor equivalente al 96% de ATQ y aumentar el propio ATQ en un 2.4%. Este efecto de aumento de ATQ puede acumularse hasta un máximo de 10 veces.",
+      "Al atacar, hay un 115% de posibilidades de causar Daño Mágico con un valor equivalente al 80% de ATQ y aumentar el propio ATQ en un 2.9%. Este efecto de aumento de ATQ puede acumularse hasta un máximo de 10 veces.",
+      "Al atacar, hay un 25% de posibilidades de causar Daño Mágico con un valor equivalente al 138% de ATQ y aumentar el propio ATQ en un 3.5%. Este efecto de aumento de ATQ puede acumularse hasta un máximo de 10 veces.",
+      "Al atacar, hay un 25% de posibilidades de causar Daño Mágico con un valor equivalente al 165% de ATQ y aumentar el propio ATQ en un 4.2%. Este efecto de aumento de ATQ puede acumularse hasta un máximo de 10 veces.",
+      "Al atacar, hay un 25% de posibilidades de causar Daño Mágico con un valor equivalente al 200% de ATQ y aumentar el propio ATQ en un 5%. Este efecto de aumento de ATQ puede acumularse hasta un máximo de 10 veces."
+    ],
+    "story": "Una guadaña mortal que imita el mismo carácter de su portador, Epis. Recoge las almas de quienes se aproximan a admirar su belleza. Creada a partir del propio cuerpo de Epis, el arma es prácticamente un súcubo. Brinda extremo placer a sus víctimas antes de absorber la energía de sus vidas. Parece ser que, de alguna forma, Epis intentó mostrar una especie de bondad con esta arma."
+  },
+  "s1": {
+    "name": "Golpe Absorvente",
+    "description": "Causa  {0}  Daño Magico cuerpo a cuerpo y recupera la Salud basado en  {1}% del Daño infligido.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Si hay 1 enemigo, el Daño se incrementa en un 100%.",
+    "dark": "Ignora el Bloqueo enemigo."
+  },
+  "s2": {
+    "name": "Pesadilla",
+    "description": "Muevete detrás del enemigo más lejano y causale  {0}  Daño Magico. Al Golpear los enemigos causaras un 30% extra de Daño Magico por 10 seg.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "El costo de maná se reduce en 1.",
+    "dark": "El consumo de maná se incrementa en 1, y al utilizar la habilidad, se activa 'Golpe de Absorción'. No se puede utilizar cuando no hay enemigos al alcance",
+    "ut": {
+      "name": "Caja de súcubo",
+      "description": [
+        "[Pesadilla] Aumenta el Daño en un 50 % y aturde al enemigo afectado durante 2 segundo.",
+        "[Pesadilla] Aumenta el Daño en un 50 % y aturde al enemigo afectado durante 2,4 segundos.",
+        "[Pesadilla] Aumenta el Daño en un 50 % y aturde al enemigo afectado durante 2,9 segundos.",
+        "[Pesadilla] Aumenta el Daño en un 50 % y aturde al enemigo afectado durante 3,5 segundos.",
+        "[Pesadilla] Aumenta el Daño en un 50 % y aturde al enemigo afectado durante 4,2 segundos.",
+        "[Pesadilla] Aumenta el Daño en un 50 % y aturde al enemigo afectado durante 5 segundos."
+      ],
+      "story": "La caja que contiene la arena para dormir de la reina Pesadilla. Una caja del Mundo de demonios que contiene arena mágica que provoca que cualquiera se duerma. Cuando el enemigo se duerme, ataca al enemigo y provoca daño mágico a través de una pesadilla que no puede disiparse."
+    }
+  },
+  "s3": {
+    "name": "Baile del Diablo",
+    "description": "Causa  {0}  Daño Magico a todos los enemigos al alcance. Resiste el Control de Masas mientras usas esta habilidad.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Al causar un Golpe Crit, cura al heroe en {0}% del Daño."
+    },
+    "light": "El Daño se incrementa en un 40%.",
+    "dark": "El Daño recibido se reduce en un 50% mientras se usa la habilidad.",
+    "ut": {
+      "name": "Zapato de seducción",
+      "description": [
+        "[Baile del Diablo] El costo de maná se reduce en 1, y el Daño aumenta en un 20%.",
+        "[Baile del Diablo] El costo de maná se reduce en 1, y el Daño aumenta en un 24%.",
+        "[Baile del Diablo] El costo de maná se reduce en 1, y el Daño aumenta en un 29%.",
+        "[Baile del Diablo] El costo de maná se reduce en 1, y el Daño aumenta en un 35%.",
+        "[Baile del Diablo] El costo de maná se reduce en 1, y el Daño aumenta en un 42%.",
+        "[Baile del Diablo] El costo de maná se reduce en 1, y el Daño aumenta en un 50%."
+      ],
+      "story": "El artículo atesorado de Epis. Cuando Epis llegó por primera vez al mundo humano, se sumergió de lleno en la cultura humana y asistió un baile de máscaras. El baile de una muchacha con tacones rojos le llamó la atención, e hizo un trato con ella a cambio de esos zapatos. Epis utiliza sus tacones seductores y se deja llevar cuando inflige daño a sus enemigos con su baile."
+    }
+  },
+  "s4": {
+    "name": "Cosecha",
+    "description": "Cuando un enemigo es asesinado por este héroe, aumenta ATQ en  {1}  por  {0}  seg y reduce la reutilizacion en un 30%.",
+    "books": {
+      "0": "ATQ aumenta en {0}%.",
+      "1": "ATQ aumenta en {0}%.",
+      "2": "Por cada muerte, recupera 1 esfera de mana"
+    },
+    "light": "Cada pila aumenta la recuperación de Mana por segundo en un 50%.",
+    "dark": "Mientras que el número de pila es superior a 5, el Mana siempre está al 100% y los tiempos de reutilización se reducen en 1 segundo adicional por cada segundo."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Daño Crit+20%",
+    "dark": "Todos los ataques de Epis reducen la DEF Magica de los enemigos golpeados en un 20% durante 10 seg. El ATQ aumenta un 2% por cada golpe enemigo. El número máximo de pilas es 10."
+  }
+}

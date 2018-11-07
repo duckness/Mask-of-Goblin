@@ -1,0 +1,120 @@
+{
+  "name": "Neraxis",
+  "subtitle": "Arrogância Obsidiana",
+  "description": "Descendente de um dragão negro que controlava relâmpagos sombrios. Ele luta para eliminar os demônios do mundo, principalmente os Draconianos. A energia de relâmpago sombrio imbuída em seu Bate-Estaca atravessa a defesa inimiga.",
+  "story": "Dragões Negros são considerados os mais arrogantes e temperamentais da espécie. Eles sofreram muito com a Guerra dos Demônios há 100 anos. Armarta enlouqueceu, Ashen Nox os roubou, e os Draconianos começaram a caçar dragões. Neraxis foi um dos poucos Dragões Negros sobreviventes, e tem planejado sua vingança desde então.",
+  "like": "Laias",
+  "dislike": "Demônios, Cain, Lilia e tudo o que ficar em seu caminho.",
+  "inn": {
+    "idle": "Hunf. Por que estou aqui...?",
+    "recruit": {
+      "greet": "Hunf, o que um humano quer comigo?",
+      "talk": [
+        "Não vale a pena falar com você.",
+        "O que você quer?",
+        "Haha, que ridículo."
+      ],
+      "gift": "Não sei o que você quer, mas é inútil."
+    },
+    "affinity": {
+      "greet": "Hunf, você de novo, humano.",
+      "talk": [
+        "Hã? Você quer ajuda? Humpf. Que estorvo.",
+        "Haha, é isso mesmo. Os Dragões Negros são os mais fortes!"
+      ],
+      "gift": "Não preciso disso. Por que insiste...?"
+    },
+    "relationship": {
+      "greet": "... Tudo bem, estou feliz por ver você! Hunf...",
+      "talk": [
+        "Lilia? Ah, aquela criança irritante? Tsc, ela sempre atrapalha.",
+        "Por que aquela múmia não some? Às vezes tenho vontade de matá-lo.",
+        "Por que eu gosto de Laias? Hunf, n-não preciso de um motivo pra gostar de alguém... Não, espere! Como sabe disso?!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Rugido do Dragão, Acravita",
+    "description": [
+      "Após acertar 20 ataques normais, causa DAN M. igual a 100% do ATQ a 2 inimigos aleatórios, atordoa-os por 0,5 segundo e aciona Tempestade de Neraxis por 10 segundos. Durante Tempestade de Neraxis, aumenta a DEF F. de todos os aliados em 4% da DEF F. do conjurador, e a DEF M. em 4% da DEF M. do conjurador.",
+      "Após acertar 19 ataques normais, causa DAN M. igual a 100% do ATQ a 2 inimigos aleatórios, atordoa-os por 0,5 segundo e aciona Tempestade de Neraxis por 10 segundos. Durante Tempestade de Neraxis, aumenta a DEF F. de todos os aliados em 4,8% da DEF F. do conjurador, e a DEF M. em 4,8% da DEF M. do conjurador.",
+      "Após acertar 18 ataques normais, causa DAN M. igual a 100% do ATQ a 2 inimigos aleatórios, atordoa-os por 0,5 segundo e aciona Tempestade de Neraxis por 10 segundos. Durante Tempestade de Neraxis, aumenta a DEF F. de todos os aliados em 5,7% da DEF F. do conjurador, e a DEF M. em 5,7% da DEF M. do conjurador.",
+      "Após acertar 17 ataques normais, causa DAN M. igual a 100% do ATQ a 2 inimigos aleatórios, atordoa-os por 0,5 segundo e aciona Tempestade de Neraxis por 10 segundos. Durante Tempestade de Neraxis, aumenta a DEF F. de todos os aliados em 6,9% da DEF F. do conjurador, e a DEF M. em 6,9% da DEF M. do conjurador.",
+      "Após acertar 16 ataques normais, causa DAN M. igual a 100% do ATQ a 2 inimigos aleatórios, atordoa-os por 0,5 segundo e aciona Tempestade de Neraxis por 10 segundos. Durante Tempestade de Neraxis, aumenta a DEF F. de todos os aliados em 8,3% da DEF F. do conjurador, e a DEF M. em 8,3% da DEF M. do conjurador.",
+      "Após acertar 15 ataques normais, causa DAN M. igual a 100% do ATQ a 2 inimigos aleatórios, atordoa-os por 0,5 segundo e aciona Tempestade de Neraxis por 10 segundos. Durante Tempestade de Neraxis, aumenta a DEF F. de todos os aliados em 10% da DEF F. do conjurador, e a DEF M. em 10% da DEF M. do conjurador."
+    ],
+    "story": "Equipamento mágico feito de um metal preto chamado Adamantino, reforçado com a chama negra e o relâmpago de um Dragão Negro. Carrega o rancor e fúria dos Dragões Negros mortos durante a Guerra dos Demônios. Neraxis ameaçou os anões para que forjassem esta arma especial. Então, ele a amaldiçoou e encantou com as almas rancorosas de Dragões Negros. Qualquer um além de Neraxis que tocar esta arma poderá ouvir o rugido furioso de dragões vingativos."
+  },
+  "s1": {
+    "name": "Garra de Relâmpago Negro",
+    "description": "Atrai os inimigos em direção ao alvo e causa {0} de DAN M. Causa {1} de DAN M. ao redor do alvo após 1 segundo e o atordoa por {2} segundos. Reduz a Vel. de ATQ dos inimigos atingidos em {4} por {3} segundos.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "DAN aumenta em {0}%."
+    },
+    "light": "Aumenta a duração do Atordoamento em {0} seg.",
+    "dark": "Aumenta o DAN M. que o inimigo atingido recebe em 25% por 10 segundos."
+  },
+  "s2": {
+    "name": "Rugido Obsidiano",
+    "description": "Aumenta o ATQ, DEF F. E DEF M. de todos os aliados em {1} por {0} segundos. Causa {2} de DAN M. a todos os inimigos e reduz o ATQ deles em {4}% por {3} segundos.",
+    "books": {
+      "0": "Aumenta o Impulso de ATQ e de DEF em {0}%.",
+      "1": "Aumenta o Impulso de ATQ e de DEF em {0}%.",
+      "2": "Aumenta o Impulso de ATQ e de DEF em {0}%."
+    },
+    "light": "Aumenta o Custo de Mana em 1 e o Impulso de ATQ e DEF em {0}%.",
+    "dark": "Reduz a Vel. de ATQ do inimigo atingido em {1} por {0} seg.",
+    "ut": {
+      "name": "Recordações do Dragão Deus Azul",
+      "description": [
+        "[Rugido Obsidiano] Aumenta o Impulso de DEF dos aliados em 20% e remove efeitos positivos de todos os inimigos ao usar Rugido Obsidiano.",
+        "[Rugido Obsidiano] Aumenta o Impulso de DEF dos aliados em 24% e remove efeitos positivos de todos os inimigos ao usar Rugido Obsidiano.",
+        "[Rugido Obsidiano] Aumenta o Impulso de DEF dos aliados em 29% e remove efeitos positivos de todos os inimigos ao usar Rugido Obsidiano.",
+        "[Rugido Obsidiano] Aumenta o Impulso de DEF dos aliados em 35% e remove efeitos positivos de todos os inimigos ao usar Rugido Obsidiano.",
+        "[Rugido Obsidiano] Aumenta o Impulso de DEF dos aliados em 42% e remove efeitos positivos de todos os inimigos ao usar Rugido Obsidiano.",
+        "[Rugido Obsidiano] Aumenta o Impulso de DEF dos aliados em 50% e remove efeitos positivos de todos os inimigos ao usar Rugido Obsidiano."
+      ],
+      "story": "Um acessório para cabelo que Laias deixou cair enquanto purificava as águas corrompidas por demônios. Neraxis o encontrou e guardou, mas ainda não decidiu se devolverá o objeto. É improvável que Laias recupere seu acessório perdido tão cedo."
+    }
+  },
+  "s3": {
+    "name": "Sopro da Destruição",
+    "description": "Causa um total de {0} DAN M. a inimigos dentro de uma grande área ao redor do alvo por 6 segundos e reduz a DEF M. deles em {2}% por {1} segundos. Cada acerto atordoa o inimigo por {3} segundos.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "DAN aumenta em {0}%."
+    },
+    "light": "Reduz o Custo de Mana em 1.",
+    "dark": "Altera a Redução de DEF M. para 30%.",
+    "ut": {
+      "name": "Vórtice de Fúria",
+      "description": [
+        "[Sopro da Destruição] Aumenta a duração do Atordoamento em 1 segundo e reduz a Recarga de Sopro da Destruição em 3 segundos.",
+        "[Sopro da Destruição] Aumenta a duração do Atordoamento em 1 segundo e reduz a Recarga de Sopro da Destruição em 4 segundos.",
+        "[Sopro da Destruição] Aumenta a duração do Atordoamento em 1 segundo e reduz a Recarga de Sopro da Destruição em 5 segundos.",
+        "[Sopro da Destruição] Aumenta a duração do Atordoamento em 1 segundo e reduz a Recarga de Sopro da Destruição em 6 segundos.",
+        "[Sopro da Destruição] Aumenta a duração do Atordoamento em 1 segundo e reduz a Recarga de Sopro da Destruição em 7 segundos.",
+        "[Sopro da Destruição] Aumenta a duração do Atordoamento em 1 segundo e reduz a Recarga de Sopro da Destruição em 8 segundos."
+      ],
+      "story": "Feita com a própria presa de Neraxis, essa estaca carrega sua fúria ardente. Ao usá-la para atacar, a grande energia, mesclada aos poderes de Neraxis, rodopia até o inimigo a uma velocidade apavorante. É poderosa o suficiente para atravessar qualquer coisa e arrancar os membros de qualquer um que se aproxime."
+    }
+  },
+  "s4": {
+    "name": "Couro de Dragão Negro",
+    "description": "Aumenta a DEF F. e a DEF M. em {0} e reduz o DAN F. e DAN M. recebidos em {1}%.",
+    "books": {
+      "0": "Aumenta o Impulso de DEF em {0}%.",
+      "1": "Aumenta o Impulso de DEF em {0}%.",
+      "2": "Aumenta o Impulso de DEF em {0}%."
+    },
+    "light": "A Vel de ATQ aumenta em 300",
+    "dark": "Quando o PV cair abaixo de {0}%, o efeito das habilidades aumenta em {1}%."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / Resist. CM +100",
+    "dark": "No início de cada batalha, reduz o DAN que inimigos não Heróis causam a todos os aliados, exceto Neraxis, em {1}% por {0} seg."
+  }
+}

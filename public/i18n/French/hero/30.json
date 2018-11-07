@@ -1,0 +1,120 @@
+{
+  "name": "Laias",
+  "subtitle": "Prêtresse Sacrée de l'Eau",
+  "description": "Une prêtresse qui garde l'Oasis du Désert d'Aegina. Un Dragon d'Eau qui a vécu pendant des âges. Son eau contient de puissantes propriétés de soin.",
+  "story": "Cette prêtresse de l'eau belle et gentille est en réalité un dragon bleu métamorphosé. Dans un lointain passé, elle était vénérée par certaines tribus du désert. Cependant, pour des raisons inconnues, elle dormit pendant une éternité. Capable de manipuler l'eau pour rendre des terres fertiles, elle a toujours utilisé ses pouvoirs pour aider les humains. En retour, ils lui bâtirent un Autel des flots doré sous le lac de l'oasis. Un flux d'énergie maléfique dans le désert l'a réveillée, et elle a recommencé à utiliser ses pouvoirs pour aider ceux qui l'entourent.",
+  "like": "Nager, se laver les cheveux",
+  "dislike": "Tout ce qui dérange l'ordre du monde",
+  "inn": {
+    "idle": "N'ayez pas peur. Vous pouvez être beaucoup plus fort.",
+    "recruit": {
+      "greet": "Je suis Lorraine, une Elfe Elidora. Salutations.",
+      "talk": [
+        "J'ai passé un bon moment.",
+        "Que la bénédiction de mère nature illumine votre chemin.",
+        "Les êtres humains sont des créatures étonnantes, mais vous avez une sérieuse faiblesse. Vous êtes gouverné par la cupidité et ne pouvez pas résister à la tentation."
+      ],
+      "gift": "Je vais en prendre très grand soin."
+    },
+    "affinity": {
+      "greet": "Je chéris chaque occasion que nous avons de passer du temps ensemble.",
+      "talk": [
+        "Vous arriverez bientôt à un tournant crucial. L'ombre et la lumière s'entremêleront et ne vous proposeront qu'un seul chemin...",
+        "Mes cheveux bleus ? Oh, une erreur de jeunesse."
+      ],
+      "gift": "Je vais considérer ceci comme un gage de votre générosité."
+    },
+    "relationship": {
+      "greet": "Vous êtes devenu fort, juste et pur.",
+      "talk": [
+        "Vous semblez avoir l'âme la plus pure que j'ai vue depuis un bon moment.",
+        "Ce serait bien si ces temps de bonheur et de paix pouvaient durer éternellement...mais ce serait un péché.",
+        "Je ne vous oublierai jamais. Pas en tant que Sage, mais comme un simple elfe."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Eltoirre, Cercle Flottant",
+    "description": [
+      "Lors d'un Coup Critique, rend à l'allié ayant le moins de PV 80% des DEG infligés.",
+      "Lors d'un Coup Critique, rend à l'allié ayant le moins de PV 96% des DEG infligés.",
+      "Lors d'un Coup Critique, rend à l'allié ayant le moins de PV 115% des DEG infligés.",
+      "Lors d'un Coup Critique, rend à l'allié ayant le moins de PV 138% des DEG infligés.",
+      "Lors d'un Coup Critique, rend à l'allié ayant le moins de PV 166% des DEG infligés.",
+      "Lors d'un Coup Critique, rend à l'allié ayant le moins de PV 200% des DEG infligés."
+    ],
+    "story": "Une ankh taillée en forme de phénix symbolisant le cycle naturel de la vie. Dans les temps anciens, les nomades du désert vénéraient le Dragon Bleu de l'oasis. En retour, elle leur accordait de la pluie et donnait vie à leurs récoltes. Pour prouver leur gratitude, les nomades lui offraient divers trésors, comme la Lazulia, la gemme de l'eau. Même si elle n'avait aucun besoin de fortunes matérielles, elle acceptait leur gratitude et utilisait les trésors pour bâtir un temple au sein de l'oasis. Cet ankh est le symbole sacré du temple et contient la puissance de l'eau."
+  },
+  "s1": {
+    "name": "Goutelettes de Soin",
+    "description": "Soigne tous les alliés d'un maximum de {0} PV, en fonction de leurs PV restants.",
+    "books": {
+      "0": "Augmente le taux de Récupération de {0}%.",
+      "1": "Augmente le taux de Récupération de {0}%.",
+      "2": "Augmente le taux de Récupération de {0}%."
+    },
+    "light": "Soins augmentés de 40%.",
+    "dark": "Utiliser des Soins augmente la Résistance aux Crit M. de 25% pendant 10 sec."
+  },
+  "s2": {
+    "name": "Bulle Protectrice",
+    "description": "Protège l'allié ayant le moins de PV avec un bouclier pendant 15 sec pour Bloquer jusqu'à {0} DEG, et immunise contre tous les effets. Pendant la durée du Bouclier, {1} PV sont rendus par seconde.",
+    "books": {
+      "0": "Augmente Bouclier de {0}%.",
+      "1": "Augmente Bouclier de {0}%.",
+      "2": "Augmente Bouclier de {0}%."
+    },
+    "light": "Augmente l'ATQ de la cible de 30%.",
+    "dark": "La Résistance aux Crit. M. de la cible est augmentée de 25%.",
+    "ut": {
+      "name": "Cristal d’oasis",
+      "description": [
+        "[Bulle protectrice] Réduit le temps de recharge de 12 % et dissipe les effets négatifs dont souffre la cible.",
+        "[Bulle protectrice] Réduit le temps de recharge de 14 % et dissipe les effets négatifs dont souffre la cible.",
+        "[Bulle protectrice] Réduit le temps de recharge de 17 % et dissipe les effets négatifs dont souffre la cible.",
+        "[Bulle protectrice] Réduit le temps de recharge de 21 % et dissipe les effets négatifs dont souffre la cible.",
+        "[Bulle protectrice] Réduit le temps de recharge de 25 % et dissipe les effets négatifs dont souffre la cible.",
+        "[Bulle protectrice] Réduit le temps de recharge de 30 % et dissipe les effets négatifs dont souffre la cible."
+      ],
+      "story": "Essence aqueuse protégée par les dragons bleus. Il s’agit de l’essence d’une oasis apportée dans le désert par les dragons bleus au commencement du monde. Laias, prêtresse sacrée de l’eau, a pour sainte mission de la protéger. Par chance, elle adore ça. Ce cristal d’oasis amène la prêtresse de l’eau maniant la Bulle Protectrice à la personne qui a le plus besoin de son aide."
+    }
+  },
+  "s3": {
+    "name": "Festival d'Influx",
+    "description": "Inflige {0} points de DEG M. aux ennemis à proximité et les renverse. Récupère 2 orbes de mana opur tous les alliés (sans compter le héros). Pendant {1} sec, des ennemis choisis au hasard sont ensuite frappés par un tourbillon et subissent {2} points de DEG M. tout en étant renversés pendant 2 sec.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG de {0}%."
+    },
+    "light": "L'effet des DEG se produit toutes les 3 sec.",
+    "dark": "Soigne tous les alliés de 15% de leur PV max.",
+    "ut": {
+      "name": "Papyrus des flots",
+      "description": [
+        "[Festival d'Influx] L'effet Tourbillon affecte 2 ennemis et tous les alliés récupèrent 500 mana supplémentaires.",
+        "[Festival d'Influx] L'effet Tourbillon affecte 2 ennemis et tous les alliés récupèrent 600 mana supplémentaires.",
+        "[Festival d'Influx] L'effet Tourbillon affecte 2 ennemis et tous les alliés récupèrent 720 mana supplémentaires.",
+        "[Festival d'Influx] L'effet Tourbillon affecte 2 ennemis et tous les alliés récupèrent 860 mana supplémentaires.",
+        "[Festival d'Influx] L'effet Tourbillon affecte 2 ennemis et tous les alliés récupèrent 1040 mana supplémentaires.",
+        "[Festival d'Influx] L'effet Tourbillon affecte 2 ennemis et tous les alliés récupèrent 1250 mana supplémentaires."
+      ],
+      "story": "Cet extrait provient du Livre du Chaos, un ancien grimoire disparu. Le Livre du Chaos était un texte sacré, qui fut transmis au Prêtre de l’Eau. Il contenait des archives sur la culture, la magie et autres sujets essentiels. Il fut scellé dans l'Autel des flots doré avec Laias, mais sa plus grande partie disparut pendant son sommeil. Le seul texte préservé, le Papyrus des flots, est un sort d’amélioration du Festival d'influx."
+    }
+  },
+  "s4": {
+    "name": "Bénédiction du Dragon d'Eau",
+    "description": "Augmente la DEF M. de tous les alliés de {0} et gagne une Résistance aux Coups Critiques Magiques de {1}.",
+    "books": {
+      "0": "Augmente le Boost de Défense de {0}%.",
+      "1": "Augmente le Boost de Défense de {0}%.",
+      "2": "Augmente le Boost de Défense de {0}%."
+    },
+    "light": "Le taux de récupération de la DEF M. augmente de 20%, et la Résistance aux Crit M. augmente de 100.",
+    "dark": "Augmente la résistance aux Contrôles du héros de 400."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Blocage M. +200",
+    "dark": "Laias augmente la DEF M. des alliés qu'elle soigne à hauteur de 5% de son ATQ, et leur donne également 75 Mana chacun."
+  }
+}

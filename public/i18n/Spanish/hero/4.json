@@ -1,0 +1,120 @@
+{
+  "name": "Roi",
+  "subtitle": "Asesino Veloz",
+  "description": "Él es un ex asesino con un pasado oculto. Se especializa en blancos únicos, lanzando fuertes e interminables ataques contra enemigos mientras sortea sus puntos ciegos.",
+  "story": "Él es el escolta de Cleo y la protege a pedido de Dominik. Solía pertenecer a un grupo de asesinos, arriesgó su vida y se convirtió en asesino por un motivo desconocido. Al haber vivido como asesino, en raras ocasiones muestra respeto hacia otros, pero las dificultades por las que pasó lo transformaron en un hombre experimentado y astuto que trata con justicia a quienes le ayudan.",
+  "like": "Yo actual",
+  "dislike": "Yo pasado",
+  "inn": {
+    "idle": "......",
+    "recruit": {
+      "greet": "Qué sucede",
+      "talk": [
+        "Agradecería que no preguntaras por el pasado.",
+        "Ha pasado un tiempo desde que está todo tranquilo.Solo espero que Cleo no lo arruine",
+        "Deja de tratar de armarme una pareja con Cleo. Frey ya es suficiente. Solo estoy haciendo esto porque debe hacerse."
+      ],
+      "gift": "No sé si merezco esto..."
+    },
+    "affinity": {
+      "greet": "Oye, deberías descansar un poco.",
+      "talk": [
+        "¿No te harta todo esto? Cleo es mi responsabilidad. Escuché que va a asumir un papel importante.",
+        "¿Alguna vez hiciste algo que lamentaras después? Si crees que vas a arrepentirte, detente ahora mismo."
+      ],
+      "gift": "Siempre te acuerdas... Gracias."
+    },
+    "relationship": {
+      "greet": "Ah, has venido.",
+      "talk": [
+        "Ayuda a Kasel cuando puedas. Él tiene una carga pesada",
+        "Si bien no soy del tipo devoto, confío en Lua. Después de todo no puedo hacer mucho más que orar por la gente que maté...",
+        "Ya no lloro por mi pasado. No puedo cambiarlo. Sin embargo lo que si se puede cambiar es el futuro."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Aliento de Espectro, Redeal",
+    "description": [
+      "Cada ataque automático tiene 25% de probabilidad de infligir Daño Fis. al enemigo (50% del ATQ) e infligir sangrado",
+      "Cada ataque automático tiene 28% de probabilidad de infligir Daño Fis. al enemigo (60% del ATQ) e infligir sangrado",
+      "Cada ataque automático tiene 31% de probabilidad de infligir Daño Fis. al enemigo (72% del ATQ) e infligir sangrado",
+      "Cada ataque automático tiene 34% de probabilidad de infligir Daño Fis. al enemigo (86% del ATQ) e infligir sangrado",
+      "Cada ataque automático tiene 37% de probabilidad de infligir Daño Fis. al enemigo (103% del ATQ) e infligir sangrado",
+      "Cada ataque automático tiene 40% de probabilidad de infligir Daño Fis. al enemigo (125% del ATQ) e infligir sangrado"
+    ],
+    "story": "El grupo de asesinos, conocido como la Máscara de risa ha sido el maestro del submundo de Orvel por mucho tiempo. Solo el mejor asesino de la Máscara de risa puede hacer uso de este hermoso par de dagas. Se dice que las heridas infringidas por estas dagas nunca sanan, y que sus víctimas inevitablemente sangran hasta morir. De acuerdo con la leyenda, estas dagas se realizaron desde la guadaña del cosechador nefasto."
+  },
+  "s1": {
+    "name": "Despiadado",
+    "description": "Ataca a un enemigo aleatorio 3 veces, lo que causa un total de {0} Daño físico y les inflige 1 acumulación de Sangrar que causa {2} de daño Físico durante {1} segundo(s). Sangrar se puede acumular hasta 3 veces.",
+    "books": {
+      "0": "Aumenta el Daño en {0}%.",
+      "1": "Aumenta el Daño en {0}%.",
+      "2": "Aumenta el Daño Crit. en {0}%."
+    },
+    "light": "El costo de maná se reduce en 1.",
+    "dark": "El objetivo recibe 25% de aumento de Daño Fis durante 10 seg."
+  },
+  "s2": {
+    "name": "Carpa de la Obscuridad",
+    "description": "ATQ aumenta en {1} por {0} seg y evita todos los ataques de Daño Fis.",
+    "books": {
+      "0": "ATQ aumenta en {0}%.",
+      "1": "ATQ aumenta en {0}%.",
+      "2": "Aumenta la Veloc. De ATQ en {0} de la duracion"
+    },
+    "light": "El aumento de ATQ se incrementa en un 40%.",
+    "dark": "El ataque automático de Daño se incrementa en un 100% durante todo el proceso.",
+    "ut": {
+      "name": "Capucha de Soma",
+      "description": [
+        "[Cortina de oscuridad] Incrementa el Aumento del ataque en un 20 % y gana resistencia al Control de multitudes en 400 mientras dura la habilidad.",
+        "[Cortina de oscuridad] Incrementa el Aumento del ataque en un 24 % y gana resistencia al Control de multitudes en 400 mientras dura la habilidad.",
+        "[Cortina de oscuridad] Incrementa el Aumento del ataque en un 29 % y gana resistencia al Control de multitudes en 400 mientras dura la habilidad.",
+        "[Cortina de oscuridad] Incrementa el Aumento del ataque en un 35 % y gana resistencia al Control de multitudes en 400 mientras dura la habilidad.",
+        "[Cortina de oscuridad] Incrementa el Aumento del ataque en un 42 % y gana resistencia al Control de multitudes en 400 mientras dura la habilidad.",
+        "[Cortina de oscuridad] Incrementa el Aumento del ataque en un 50 % y gana resistencia al Control de multitudes en 400 mientras dura la habilidad."
+      ],
+      "story": "Una capucha peligrosa hecha con el método secreto de la máscara de risa. Se fabricó con la legendaria soma que se dice brinda vitalidad eterna y el secreto de la máscara de risa. La sangre de soma aumenta la moral de un asesino dentro de la cortina obscura, aumenta su ATQ y le concede destreza al maximizar la evasión fís."
+    }
+  },
+  "s3": {
+    "name": "Garra de Cuchilla",
+    "description": "Muevete detrás del enemigo con la Salud más baja y causa [FFC800] {0}  Daño Magico. Cada acumulacion de Sangrado en el enemigo inflige  {1}% Daño adicional. Todas las acumulaciones de sangrado se eliminan después. Cuando ocurre un golpe critico, se recupera 2 PM y restablece el tiempo de reutilización de la habilidad.",
+    "books": {
+      "0": "Aumenta el Daño en {0}%.",
+      "1": "Aumenta el Daño en {0}%.",
+      "2": "Aumenta el Daño Crit. en {0}%."
+    },
+    "light": "A cambio de 1 Maná adicional, el Daño causado se incrementa en un 100%.",
+    "dark": "Se quita el tiempo de reutilización.",
+    "ut": {
+      "name": "Máscara agrietada",
+      "description": [
+        "[Garra de Cuchilla] El Daño aumenta en un 20%, y luego del Golpe Crít., el maná se recupera en 300.",
+        "[Garra de Cuchilla] El Daño aumenta en un 24%, y luego del Golpe Crít., el maná se recupera en 300.",
+        "[Garra de Cuchilla] El Daño aumenta en un 29%, y luego del Golpe Crít., el maná se recupera en 300.",
+        "[Garra de Cuchilla] El Daño aumenta en un 35%, y luego del Golpe Crít., el maná se recupera en 300.",
+        "[Garra de Cuchilla] El Daño aumenta en un 42%, y luego del Golpe Crít., el maná se recupera en 300.",
+        "[Garra de Cuchilla] El Daño aumenta en un 50%, y luego del Golpe Crít., el maná se recupera en 300."
+      ],
+      "story": "La máscara que destruyó Roi cuando abandonó a los asesinos de la máscara de risa. Los asesinos apuntan despiadadamente a los puntos vitales de sus enemigos y utilizan máscaras para reprimir sus emociones cuando eliminan sus objetivos. Roi enfrenta la máscara dividida y mata a sus enemigos desde atrás con sus garras de cuchilla para proteger a sus amigos."
+    }
+  },
+  "s4": {
+    "name": "Hachazo",
+    "description": "Si se acierta un ataque normal como Golpe crítico, ataca al objetivo 6 veces para causar un total de {0} Daño físico adicional.",
+    "books": {
+      "0": "Aumenta el Daño en {0}%.",
+      "1": "Aumenta el Daño en {0}%.",
+      "2": "Aumenta el Daño Crit. en {0}%."
+    },
+    "light": "Cada ataque recupera 300 de maná.",
+    "dark": "Tiene un 50% de probabilidad de acumular una pila de Sangrado."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Daño Crit+20%",
+    "dark": "Luego de un Golpe Crítico, hay un 10% de probabilidades que la Veloc. de ATQ aumente en 300 y el Daño Crit. aumente en un 60% durante 5 segundos. No se accionará nuevamente durante la activación del efecto."
+  }
+}

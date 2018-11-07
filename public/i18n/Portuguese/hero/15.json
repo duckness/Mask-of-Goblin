@@ -1,0 +1,120 @@
+{
+  "name": "Clause",
+  "subtitle": "Cavaleiro da Defesa Férrea",
+  "description": "O 'irmão mais velho' de Kasel. Um verdadeiro cavaleiro, ele é um homem de aço que protege aliados no fronte de batalha. Ele bloqueia os ataques dos inimigos enquanto os derruba, que lhe concede a reputação semelhante a muralha de um castelo.",
+  "story": "Este homem rígido e íntegro protege Orvel no papel de um dos seus cavaleiros. Muitos o consideram um confiável defensor de Orvel, mas devido à sua falta de interesse em riqueza e sucesso, sua posição na ordem nunca foi muito alta. Ele cresceu junto a Kasel e Frey no mesmo orfanato, e ama sua terra por ser o lar daqueles que quer bem. Recentemente, ele ofereceu juntar-se à expedição de investigação das Planícies do Rei.",
+  "like": "Sua nova família",
+  "dislike": "Prejudicar amigos",
+  "inn": {
+    "idle": "Hahaha! Quantos rostos conhecidos!",
+    "recruit": {
+      "greet": "Oh, aí está você! Como vai?",
+      "talk": [
+        "Que tal se candidatar aos Cavaleiros da Guarda?",
+        "Você parece ser confiável.",
+        "Às vezes, eu acho que o visor do meu elmo vai me sufocar. Hahaha!!"
+      ],
+      "gift": "Normalmente, eu não aceitaria, mas aceitarei por causa da sua sinceridade."
+    },
+    "affinity": {
+      "greet": "Ha ha! Os Cavaleiros Guardiões também precisam de descanso. Venha, sente-se aqui.",
+      "talk": [
+        "Não esperava que Kasel ficasse tão forte. Ele costumava chorar e me seguir por todo canto... E agora ele e o mestre da Espada Sagrada... Ha ha.",
+        "Se estou com ciúmes do Kasel? De jeito nenhum! Ele é meu irmão, e estou orgulhoso dele."
+      ],
+      "gift": "Tudo isso... Estou lisonjeado. Vou ter que trabalhar mais duro ainda."
+    },
+    "relationship": {
+      "greet": "Hahaha, bom ver você novamente!",
+      "talk": [
+        "Minha justiça não é extravagante. Uma crença da qual eu nunca me envergonharei.",
+        "Uma posição no alto escalão não significa que você tenha muitos poderes em suas mãos. Você pode acabar preso no castelo, lidando com toda aquela burocracia.",
+        "Eu sei que preciso ajudar aquela pessoa, mas no momento, há outros assuntos mais urgentes: as pessoas sofrendo em toda Orvelia."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Exian, o Guardião",
+    "description": [
+      "Quanto o PV for reduzido para menos de 35% dos PV máx., a Redução de DAN.F de todos os aliados aumenta em 200. Concede ATQ igual a 100% da DEF.F e imunidade a penalidades.",
+      "Quanto o PV for reduzido para menos de 35% dos PV máx., a Redução de DAN.F de todos os aliados aumenta em 240. Concede ATQ igual a 120% da DEF.F e imunidade a penalidades.",
+      "Quanto o PV for reduzido para menos de 35% dos PV máx., a Redução de DAN.F de todos os aliados aumenta em 280. Concede ATQ igual a 144% da DEF.F e imunidade a penalidades.",
+      "Quanto o PV for reduzido para menos de 35% dos PV máx., a Redução de DAN.F de todos os aliados aumenta em 340. Concede ATQ igual a 173% da DEF.F e imunidade a penalidades.",
+      "Quanto o PV for reduzido para menos de 35% dos PV máx., a Redução de DAN.F de todos os aliados aumenta em 410. Concede ATQ igual a 207% da DEF.F e imunidade a penalidades.",
+      "Quanto o PV for reduzido para menos de 35% dos PV máx., a Redução de DAN.F de todos os aliados aumenta em 500. Concede ATQ igual a 250% da DEF.F e imunidade a penalidades."
+    ],
+    "story": "Um conjunto de espada e escudo entalhado com diversas Runas e infundido com magia ancestral. Dizem que esses itens lendários foram criados há eras por um dragão ancião chamado Exian, que usou suas próprias escamas para a sua criação. Como parte dos tesouros reais de Orvel, a espada é concedida apenas ao cavaleiro com os princípios mais honrosos. Seu portador deve servir como defensor do reino e do seu povo e como o protetor da vida."
+  },
+  "s1": {
+    "name": "Abrir o Solo",
+    "description": "Causa {0} de DAN.F aos inimigos no alcance, atordoando-os durante {1} segundos.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta a duração do Atordoamento para {0} segundos."
+    },
+    "light": "Reduz o tempo de recarga em 2 segundos.",
+    "dark": "Em troca de 1 Custo de Mana adicional, o poder tem 100% de chance de atrair o alvo."
+  },
+  "s2": {
+    "name": "Ataque com Escudo",
+    "description": "Repele e causa {0} de DAN.F baseados na DEF.F aos inimigos no alcance. Reduz em {1}% a DEF dos inimigos. Bloquear um ataque reduz o tempo de recarga em 0,5 segundos.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Diminui a velocidade do alvo em {0}%."
+    },
+    "light": "O alvo recebe mais 25% de DAN.F durante 10 segundos.",
+    "dark": "Atordoa o inimigo durante 1 segundo.",
+    "ut": {
+      "name": "Forte Determinação",
+      "description": [
+        "[Ataque com Escudo] Reduz a Resistência a Crít F. em 500 e a Chance Crít. do inimigo atingido em 100 por 10s.",
+        "[Ataque com Escudo] Reduz a Resistência a Crít F. em 500 e a Chance Crít. do inimigo atingido em 120 por 10s.",
+        "[Ataque com Escudo] Reduz a Resistência a Crít F. em 500 e a Chance Crít. do inimigo atingido em 140 por 10s.",
+        "[Ataque com Escudo] Reduz a Resistência a Crít F. em 500 e a Chance Crít. do inimigo atingido em 170 por 10s.",
+        "[Ataque com Escudo] Reduz a Resistência a Crít F. em 500 e a Chance Crít. do inimigo atingido em 210 por 10s.",
+        "[Ataque com Escudo] Reduz a Resistência a Crít F. em 500 e a Chance Crít. do inimigo atingido em 250 por 10s."
+      ],
+      "story": "Velho escudo de madeira do cavaleiro do Muro de Ferro. Um escudo precioso usado por Clause no início do seu treinamento. Desde então, ele gravou os nomes dos seus companheiros falecidos como um lembrete de sua determinação de cavaleiro guardião. Toda vez que ele empurra inimigos com o escudo, a firme determinação do cavaleiro o ajuda a utilizar poderes além do seu limite."
+    }
+  },
+  "s3": {
+    "name": "Escudo Guardião",
+    "description": "Aumenta a DEF.F de todos os aliados em {1} , durante {0} segundos. Reduz em {2}% a chance de receber um acerto crítico.",
+    "books": {
+      "0": "Taxa de aumento de DEF.F aumentada em {0}%.",
+      "1": "Taxa de aumento de DEF.F aumentada em {0}%.",
+      "2": "Taxa de aumento de DEF.F aumentada em {0}%."
+    },
+    "light": "Reforça em 40% a taxa de aumento de DEF.",
+    "dark": "Recebe redução de 25% de DAN.F durante o efeito do poder.",
+    "ut": {
+      "name": "Runa dos Cavaleiros",
+      "description": [
+        "[Escudo Guardião] Após ativação, remove efeitos negativos em si mesmo, e aumenta o reforço de DEF em 20%.",
+        "[Escudo Guardião] Após ativação, remove efeitos negativos em si mesmo, e aumenta o reforço de DEF em 24%.",
+        "[Escudo Guardião] Após ativação, remove efeitos negativos em si mesmo, e aumenta o reforço de DEF em 29%.",
+        "[Escudo Guardião] Após ativação, remove efeitos negativos em si mesmo, e aumenta o reforço de DEF em 35%.",
+        "[Escudo Guardião] Após ativação, remove efeitos negativos em si mesmo, e aumenta o reforço de DEF em 42%.",
+        "[Escudo Guardião] Após ativação, remove efeitos negativos em si mesmo, e aumenta o reforço de DEF em 50%."
+      ],
+      "story": "Runa dos Cavaleiros Guardiões de Orvel. Uma runa de Leão Dourado que é dada aos cavaleiros quando entram nos Cavaleiros Guardiões, junto com a promessa de que darão suas vidas para proteger o reino. A runa dos Cavaleiros Guardiões reforça a determinação e lealdade inabaláveis de um cavaleiro, aumentando a eficácia do Escudo Guardião."
+    }
+  },
+  "s4": {
+    "name": "Voto dos Cavaleiros",
+    "description": "Após bloquear, causa {0} de DAN F. em frente e reduz o ATQ dos inimigos atingidos em {2}% por {1} seg. Recupera 300 PM após atingir o alvo.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "Reforça enormemente o tempo de conjuração.",
+    "dark": "Reduz mais 10% do ATQ."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / BLQ.F +200",
+    "dark": "Quando um aliado além deste herói for atingido por um ataque, aumenta a DEF.F de todos os aliados em 20% e a Resist. a Crít em 20% durante 5 segundos. (10 segundos de Recarga)"
+  }
+}

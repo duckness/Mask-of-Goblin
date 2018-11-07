@@ -1,0 +1,120 @@
+{
+  "name": "Lilia",
+  "subtitle": "Filha da Tormenta e do Mar",
+  "description": "Uma garota Dragão Azul que acabou de passar por sua fase de Cria, além de ser irmã de Laias, a Sacerdotisa da Água. Embora ela ainda seja jovem e inexperiente, quem a menospreza tende a pagar caro. Ela usa a energia implacável da água para dizimar seus inimigos.",
+  "story": "Um Dragão Deus do Oásis, irmã da Sacerdotisa da Água, Laias. Ela ainda é um Dragão Azul jovem que ama a sua irmã muito mais velha. Quando Laias caiu num sono profundo após esgotar seus poderes numa batalha 100 anos atrás, Lilia defendeu o Santuário do Fluxo sozinha. Quando ouviu os filhos do deserto orando desesperadamente, ela finalmente acordou a Sacerdotisa da Água para que os protegesse. Diferentemente da sua irmã meiga e gentil, ela é um pouco severa, e a forma como controla o poder do fluxo e da água também é mais agressiva. Ela sente a necessidade de proteger sua bela irmã de homens sedutores e indignos.",
+  "like": "Laias, bebidas adocicadas, pessoas do deserto",
+  "dislike": "Quem flerta com a sua irmã (Neraxis, Cain)",
+  "inn": {
+    "idle": "... Hu-humanos demais...",
+    "recruit": {
+      "greet": "Que o Fluxo esteja com você!",
+      "talk": [
+        "Não sou tão gentil quanto a minha irmã.",
+        "Dragões Azuis são fracos? Isso é muito equivocado.",
+        "Sou um Dragão adulto. Tenho idade bastante!"
+      ],
+      "gift": "Obrigada, criança humana."
+    },
+    "affinity": {
+      "greet": "Olá, você está com a aparência ótima!",
+      "talk": [
+        "A missão da irmã é minha também. Eu sempre ficarei com ela.",
+        "O mistério da água infinita? Hum... Ouvi falar que é o poder do Primeiro Dragão Azul."
+      ],
+      "gift": "Muito obrigada. Vou usar isso para o Santuário do Fluxo."
+    },
+    "relationship": {
+      "greet": "Bom ver você de novo!",
+      "talk": [
+        "Neraxis? Que idiota. Ele sempre fica implorando pela atenção da minha irmã!",
+        "Cain...? Arrrgh... Achei que ele já era. Não acredito que está cantando a minha irmã de novo...",
+        "A minha irmã é quem eu mais amo... mas eu gosto de você também."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Cielamaha, a Nascente Infinita",
+    "description": [
+      "Recupera 50 de Mana por seg., e a após cada ATQ, há 80% de chance de causar DAN F. equivalente a 20% do ATQ.",
+      "Recupera 60 de Mana por seg., e a após cada ATQ, há 80% de chance de causar DAN F. equivalente a 24% do ATQ.",
+      "Recupera 70 de Mana por seg., e a após cada ATQ, há 80% de chance de causar DAN F. equivalente a 28% do ATQ.",
+      "Recupera 85 de Mana por seg., e a após cada ATQ, há 80% de chance de causar DAN F. equivalente a 34% do ATQ.",
+      "Recupera 105 de Mana por seg., e a após cada ATQ, há 80% de chance de causar DAN F. equivalente a 42% do ATQ.",
+      "Recupera 125 de Mana por seg., e a após cada ATQ, há 80% de chance de causar DAN F. equivalente a 50% do ATQ."
+    ],
+    "story": "Uma nascente infinita que jorra água sem parar. Um jarro feito pelo primeiro Dragão Azul, que dominava todas as águas da Terra. Reage à imaginação do usuário. Para uma garota jovem, sensível e criativa como Lilia, é um grande tesouro e uma bela arma."
+  },
+  "s1": {
+    "name": "Tempestade d’Água",
+    "description": "Por 8 segundos, invoca Tempestade d'Água em um alvo aleatório e em inimigos dentro de alcance do alvo, causando {0} de DAN F. a cada 0,5 seg. Se o alvo for eliminado, a Tempestade d'Água é invocada para atacar outro alvo aleatório durante o tempo restante.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "DAN aumenta em {0}%."
+    },
+    "light": "Reduz a Vel de ATQ do alvo atingido em 250 por 10 seg.",
+    "dark": "Cada uso aumenta o DAN em 20%. Acumula-se no máximo 15 vezes."
+  },
+  "s2": {
+    "name": "Oásis Infinito",
+    "description": "Ao ser ativada, fica no estado de Oásis Infinito por 15 seg. Durante o estado de Oásis Infinito, a taxa de recuperação de Mana por seg. aumenta em 150% e o ATQ aumenta em {0}. Além disso, toda a DEF aumenta em {1}.",
+    "books": {
+      "0": "Aumenta a Recuperação de Mana e o impulso de ATQ em {0}%.",
+      "1": "Aumenta a Recuperação de Mana e o impulso de ATQ em {0}%.",
+      "2": "Aumenta a Recuperação de Mana e o impulso de ATQ em {0}%."
+    },
+    "light": "Aumenta o custo de Mana em 1 e é ativada mais uma vez no aliado com o ATQ mais alto (exceto o utilizador).",
+    "dark": "Reduz a duração da habilidade em 5 seg. e aumenta a duração de todos os efeitos em 100%.",
+    "ut": {
+      "name": "Coração do Fluxo",
+      "description": [
+        "[Oásis Infinito] O efeito não pode ser removido e o DAN Crít aumenta em 20% durante a habilidade.",
+        "[Oásis Infinito] O efeito não pode ser removido e o DAN Crít aumenta em 24% durante a habilidade.",
+        "[Oásis Infinito] O efeito não pode ser removido e o DAN Crít aumenta em 29% durante a habilidade.",
+        "[Oásis Infinito] O efeito não pode ser removido e o DAN Crít aumenta em 35% durante a habilidade.",
+        "[Oásis Infinito] O efeito não pode ser removido e o DAN Crít aumenta em 42% durante a habilidade.",
+        "[Oásis Infinito] O efeito não pode ser removido e o DAN Crít aumenta em 50% durante a habilidade."
+      ],
+      "story": "Um colar feminino de ouro que Laias fez para Lilia com uma Pedra da Proteção. O colar reluz com a energia dos elementais da água nele contidos. É um símbolo do amor de Laias pela sua irmã mais nova."
+    }
+  },
+  "s3": {
+    "name": "Cataratas Celestiais",
+    "description": "Joga gotas d’água 15 vezes em inimigos aleatórios, causando um total de {0} de DAN F. Além disso, arremessa grossas gotas de água no alvo e em outros inimigos dentro de alcance do alvo por 5 vezes, causando {1} de DAN F. Inimigos atingidos pelas gotas grossas de água ficam atordoados por {2} seg. Para cada gota jogada, consome {3} de Mana e aumenta o custo de Mana em {4}. Encerra o uso quando o Mana chega a 0.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "DAN aumenta em {0}%."
+    },
+    "light": "Enquanto estiver em uso, ganha imunidade a CM.",
+    "dark": "Para cada gota d’água jogada, aumenta o custo e a taxa de consumo de Mana em 100% com 50% de chance de jogar uma gota extra.",
+    "ut": {
+      "name": "Infindável Chaleira de Elementais",
+      "description": [
+        "[Cataratas Celestiais] Após cada ATQ, há 7% de chance de jogar uma gota grossa de água, causando DAN F. equivalente a 100% do ATQ e aumentando o próprio DAN Crít em 2% por 7 segundos.",
+        "[Cataratas Celestiais] Após cada ATQ, há 7% de chance de jogar uma gota grossa de água, causando DAN F. equivalente a 100% do ATQ e aumentando o próprio DAN Crít em 2,4% por 7 segundos.",
+        "[Cataratas Celestiais] Após cada ATQ, há 7% de chance de jogar uma gota grossa de água, causando DAN F. equivalente a 100% do ATQ e aumentando o próprio DAN Crít em 2,8% por 7 segundos.",
+        "[Cataratas Celestiais] Após cada ATQ, há 7% de chance de jogar uma gota grossa de água, causando DAN F. equivalente a 100% do ATQ e aumentando o próprio DAN Crít em 3,4% por 7 segundos.",
+        "[Cataratas Celestiais] Após cada ATQ, há 7% de chance de jogar uma gota grossa de água, causando DAN F. equivalente a 100% do ATQ e aumentando o próprio DAN Crít em 4,2% por 7 segundos.",
+        "[Cataratas Celestiais] Após cada ATQ, há 7% de chance de jogar uma gota grossa de água, causando DAN F. equivalente a 100% do ATQ e aumentando o próprio DAN Crít em 5% por 7 segundos."
+      ],
+      "story": "Uma chaleira que os antigos amigos cactos de Lilia fizeram para ela no seu aniversário. Fornece produção infinita da mais pura e limpa água que existe. No entanto, se muita água for usada de uma vez, ela fecha o seu bico, uma característica adicionada pelos Cactos para ajudar Lilia a permanecer no controle da água enquanto aprimora as suas habilidades."
+    }
+  },
+  "s4": {
+    "name": "Purificação Aquífera",
+    "description": "A Recuperação de Mana após um ATQ fica fixa, mas o próprio ATQ aumenta em {0} e a Recuperação de Mana por seg. aumenta em 120. Aumenta o ATQ em 1% a cada 6 de Recuperação de Mana por seg.",
+    "books": {
+      "0": "Taxa de aumento de ataque aumenta em {0}%.",
+      "1": "Taxa de aumento de ataque aumenta em {0}%.",
+      "2": "Taxa de aumento de ataque aumenta em {0}%."
+    },
+    "light": "Recupera 1.000 de Mana no início de cada batalha.",
+    "dark": "Causa 15% mais DAN em monstros Chefes."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / DAN Crít. +20%",
+    "dark": "Aumenta o ATQ em 15% por orbe de PM possuído."
+  }
+}

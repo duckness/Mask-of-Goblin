@@ -1,0 +1,120 @@
+{
+  "name": "Demia",
+  "subtitle": "Fortaleza de Acero",
+  "description": "Este caballero guardián lleva una lanza y un escudo gigantesco. Mantiene el ataque de los enemigos con absoluta fortaleza y perturba las lineas enemigas con su lanza.",
+  "story": "Ziltrion Si Demia. La comandante de los caballeros guardianes de Orvel. Es una caballera digna y poderosa que porta una lanza y un escudo gigante. Se dice que es casi imposible penetrar su escudo. Como comandante de caballeros, ella aprecia a sus subordinados, y está preparada para realizar cualquier misión por su tierra. Al haber sentido el cambio reciente en la atmósfera en el palacio real, ella espera nombrar pronto a Clause como su nuevo comandante para que ella pueda proteger a Scarlet del ataque de los nobles.",
+  "like": "Un monarca correcto para servir",
+  "dislike": "Gente de mentalidad débil y que traicionan a los demás",
+  "inn": {
+    "idle": "Prepárate para la batalla mañana.",
+    "recruit": {
+      "greet": "Encantada de conocerlos, soldados. Soy Demia Ziltrion, jefa del Cuartel Real.",
+      "talk": [
+        "El Cuartel Real es fuerte. Nars Horrun dirigirá a las tropas sustituyendome",
+        "Mi padre también ha pasado años como jefe de cuartel. Quería que creciera como un niño normal, pero su sangre corre a través de mis venas.",
+        "Derrotaré al Rey Maligno y traeré la paz de vuelta al reino."
+      ],
+      "gift": "Debo compartir esto con mis soldados."
+    },
+    "affinity": {
+      "greet": "Gracias por invitarme.",
+      "talk": [
+        "Avísame si descubres algo sobre la Fuerza Oscura.",
+        "Estamos listos para luchar en cualquier momento. ¡Por Orvelia!"
+      ],
+      "gift": "Compartiré esto con los soldados."
+    },
+    "relationship": {
+      "greet": "Supe que estabas buscándome. Qué sucede?",
+      "talk": [
+        "Me preocupa la princesa porque todavía es joven y gentil... debe ser difícil.",
+        "Hmph, por qué no puede quedarse y proteger a la princesa... que hombre tan molesto...",
+        "Yo? Um, bueno... Ir a la batalla contigo no es tan malo. Es un buen ejercicio."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Luz Azul, Arpheus",
+    "description": [
+      "Aumenta la Defensa física de todos los aliados en un 4 %. Bloquear un ataque enemigo tiene un 10 % de probabilidades de recuperar un 3 % de Mana y reducir el tiempo de reutilización de todas las habilidades en 1 segundo.",
+      "Aumenta la Defensa física de todos los aliados en un 4,8 %. Bloquear un ataque enemigo tiene un 12 % de probabilidades de recuperar un 3,3 % de Mana y reducir el tiempo de reutilización de todas las habilidades en 1 segundo.",
+      "Aumenta la Defensa física de todos los aliados en un 5,8 %. Bloquear un ataque enemigo tiene un 14 % de probabilidades de recuperar un 3,6 % de Mana y reducir el tiempo de reutilización de todas las habilidades en 1 segundo.",
+      "Aumenta la Defensa física de todos los aliados en un 7 %. Bloquear un ataque enemigo tiene un 17 % de probabilidades de recuperar un 3,9 % de Mana y reducir el tiempo de reutilización de todas las habilidades en 1 segundo.",
+      "Aumenta la Defensa física de todos los aliados en un 8,4 %. Bloquear un ataque enemigo tiene un 21 % de probabilidades de recuperar un 4,2 % de Mana y reducir el tiempo de reutilización de todas las habilidades en 1 segundo.",
+      "Aumenta la Defensa física de todos los aliados en un 10 %. Bloquear un ataque enemigo tiene un 25 % de probabilidades de recuperar un 4,5 % de Mana y reducir el tiempo de reutilización de todas las habilidades en 1 segundo."
+    ],
+    "story": "Un día, se descubrió una veta que expulsaba mana poderosa en el territorio de Ziltrion. Al investigarla, Demia encontró oro azul, una apariencia que ella nunca antes había visto. Varios hechiceros y alquimistas estudiaron este misterioso mineral con las características de una gema y de un metal, pero nadie pudo descifrar su identidad. Sin embargo, Jin, el herrero, tenía una idea distinta. En cuanto vio el mineral, ofreció a Demia fabricar equipos poderosos a partir de él, con una enorme sonrisa en su cara. Con él, forjó una lanza y un escudo, un azul brillante con mana y más resistente que el diamante."
+  },
+  "s1": {
+    "name": "Entrada",
+    "description": "Arroja una lanza al enemigo más lejano, causando  {0}  Daño Fis y arrastrando al enemigo frente al héroe. Luego, causa  {1}  Daño Fis. a los enemigos cercanos y aturdelos durante 3 seg.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Aumenta la duración del aturdimiento por  {0}  seg."
+    },
+    "light": "A cambio de 1 Costo de Maná adicional, atrae 2 enemigos.",
+    "dark": "Todos los enemigos atraidos reciben un 25% más de Daño de todas las fuentes durante 10 seg."
+  },
+  "s2": {
+    "name": "Voluntad para Ganar",
+    "description": "Al Bloquar el Daño dentro de  {0}  segundos se activará una onda de choque que causa  {1}  Daño Fis. a los enemigos alrededor y disminuirá su ATQ en  {2} %.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "La reduccion del ATQ Enemigo aumenta en {0}%."
+    },
+    "light": "El costo de maná se reduce en 1.",
+    "dark": "La DEF Fis del aliado se incrementa en un 20% durante 10 segundos después de la activación.",
+    "ut": {
+      "name": "Escudo de resolución",
+      "description": [
+        "[Voluntad para ganar] Aumenta el Daño en un 50 % y aumenta la Debilidad física del objetivo en un 10 % durante 10 segundos.",
+        "[Voluntad para ganar] Aumenta el Daño en un 50 % y aumenta la Debilidad física del objetivo en un 12 % durante 10 segundos.",
+        "[Voluntad para ganar] Aumenta el Daño en un 50 % y aumenta la Debilidad física del objetivo en un 14 % durante 10 segundos.",
+        "[Voluntad para ganar] Aumenta el Daño en un 50 % y aumenta la Debilidad física del objetivo en un 17 % durante 10 segundos.",
+        "[Voluntad para ganar] Aumenta el Daño en un 50 % y aumenta la Debilidad física del objetivo en un 21 % durante 10 segundos.",
+        "[Voluntad para ganar] Aumenta el Daño en un 50 % y aumenta la Debilidad física del objetivo en un 25 % durante 10 segundos."
+      ],
+      "story": "Un escudo de madera que Demia utilizó cuando era una niña para practicar. Ha sido utilizado más de mil veces y está muy gastado. Demia lo utiliza para recuperar su compostura cuando siente que ha llegado al límite. Su orgullo como caballera de Orvelia resurge cuando ve este viejo y gastado escudo."
+    }
+  },
+  "s3": {
+    "name": "Fortaleza de Acero",
+    "description": "Al bloquear el Daño durante el lanzamiento, el Daño de ataque se incrementa en un 7%. Además, causa {1} Daño Fis. al enemigo y lo aturde. Luego de lanzar, salta y golpea al enemigo, causando {2} Daño Fis y aturdiéndolos por {3} seg. Obtiene inmunidad al Ctrl de Masas mientras la habilidad está en uso.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Al saltar en el aire, apunta al objetivo con el ATQ más alto.",
+    "dark": "Durante el lanzamiento, todos los aliados reciben un 20% de Daño Fis. reducido.",
+    "ut": {
+      "name": "Energía de protección",
+      "description": [
+        "[Fortaleza de Acero] El costo de maná se reduce en 1 y la duración del Aturdimiento del ataque de asalto aumenta en 1 segundo.",
+        "[Fortaleza de Acero] El costo de maná se reduce en 1 y la duración del Aturdimiento del ataque de asalto aumenta en 1.5 segundos.",
+        "[Fortaleza de Acero] El costo de maná se reduce en 1 y la duración del Aturdimiento del ataque de asalto aumenta en 2 segundos.",
+        "[Fortaleza de Acero] El costo de maná se reduce en 1 y la duración del Aturdimiento del ataque de asalto aumenta en 2.5 segundos.",
+        "[Fortaleza de Acero] El costo de maná se reduce en 1 y la duración del Aturdimiento del ataque de asalto aumenta en 3 segundos.",
+        "[Fortaleza de Acero] El costo de maná se reduce en 1 y la duración del Aturdimiento del ataque de asalto aumenta en 3.5 segundos."
+      ],
+      "story": "Una piedra conocida por proteger el alma de ser absorbida por el mal. Solo brilla durante un poco durante la madrugada, así que es difícil encontrarla. Un día, cuando Demia estaba cansada de pelear, un compañero se la colocó en sus manos. Aunque fue un compañero que jamás pudo volver a ver... Demia siempre lleva esta piedra cuando sale al campo de batalla. Hace lo imposible por mantener su promesa de hacer valer los sacrificios que hicieron sus compañeros."
+    }
+  },
+  "s4": {
+    "name": "Punta de Lanza",
+    "description": "Aumenta la Defensa Física del jugador en  {0}  y aumenta la tasa de Bloqueo Físico en  {1}.",
+    "books": {
+      "0": "Increase DEF by {0}%.",
+      "1": "Increase DEF by {0}%.",
+      "2": "Increase DEF by {0}%."
+    },
+    "light": "La DEF Fis se incrementa en un 20% y Bloqueo Fis se incrementa en un 50%.",
+    "dark": "Recupera la Salud equivalente al 40% de la DEF Fis al bloquear."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Bloq Fis +200",
+    "dark": "Al comienzo de cada batalla, reduce el ATQ de todos los enemigos en un 20% durante 6 seg. Este efecto no se puede disipar."
+  }
+}

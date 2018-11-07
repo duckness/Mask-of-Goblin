@@ -1,0 +1,120 @@
+{
+  "name": "Clause",
+  "subtitle": "Chevalier Defense de Fer",
+  "description": "Frère ainé de Kasel. Véritable chevalier, c'est un homme d'acier qui protège ses alliés sur le front du champ de bataille. Il bloque les attaques des ennemis en les mettant à terre, ce qui lui a valu une réputation de muraille.",
+  "story": "Cet homme sage et vertueux protège Orvel en tant que chevalier. Beaucoup de gens le considèrent comme un fidèle défenseur d'Orvel, mais du fait de son manque d'intérêt pour la fortune et le succès, il n'a jamais accédé à un rang élevé au sein de l'ordre. Il a grandi auprès de Kasel et Frey dans le même orphelinat, et il aime les terres qui abritent ceux qui lui sont proches. Il s'est récemment porté volontaire pour l'expédition d'enquête dans les Plaines du Roi.",
+  "like": "Sa nouvelle famille",
+  "dislike": "Faire du mal aux amis",
+  "inn": {
+    "idle": "Hahaha! Tous ces visages familiers!",
+    "recruit": {
+      "greet": "Oh, vous voilà! Comment allez-vous?",
+      "talk": [
+        "Que diriez-vous de postuler chez les Chevaliers Gardiens?",
+        "Vous semblez plus que jamais digne de confiance.",
+        "Parfois, j'ai l'impression que le protège-dents de mon casque essaye de m'étouffer. Hahaha!!"
+      ],
+      "gift": "Normallement, je ne devrais pas accepter - mais je l'accepterai tout comme votre sincérité."
+    },
+    "affinity": {
+      "greet": "Ah ah ! Les Chevaliers-Gardiens doivent se reposer aussi. Allez, venez vous asseoir.",
+      "talk": [
+        "Je ne pensais pas que Kasel deviendrait aussi fort. Il me suivait partout et pleurait tout le temps... Et le voilà maître de l'épée sacrée... Ah ah.",
+        "Si je suis jaloux de Kasel ? Mais pas du tout ! C'est mon frère, je suis fier de lui."
+      ],
+      "gift": "Tout ça... Vous m'en voyez flatté. Je vais devoir travailler encore plus dur."
+    },
+    "relationship": {
+      "greet": "Hahaha, c'est bon de vous revoir!",
+      "talk": [
+        "Ma justice n'est vraiment pas surfaite. Une chose en laquelle je n'aurais jamais honte de croire - c'est ma justice.",
+        "Une position de haut-rang ne signifie pas que vous devez faire beaucoup. Ça pourrait vous bloquer au château avec toute la paperasse.",
+        "Je sais que j'ai besoin d'aider cette personne, mais maintenant, il y a des choses plus urgentes - les gens qui souffrent partout sur Orvalia."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Exian Gardien",
+    "description": [
+      "Lorsque les PV passent sous les 35% de leur maximum, la Réduction des DEG P. de tous les alliés est augmentée de 200. L'ATQ devient aussi égale à 100% de la DEF P. Gagne également l'immunité à tous les effets.",
+      "Lorsque les PV passent sous les 35% de leur maximum, la Réduction des DEG P. de tous les alliés est augmentée de 240. L'ATQ devient aussi égale à 120% de la DEF P. Gagne également l'immunité à tous les effets.",
+      "Lorsque les PV passent sous les 35% de leur maximum, la Réduction des DEG P. de tous les alliés est augmentée de 280. L'ATQ devient aussi égale à 144% de la DEF P. Gagne également l'immunité à tous les effets.",
+      "Lorsque les PV passent sous les 35% de leur maximum, la Réduction des DEG P. de tous les alliés est augmentée de 340. L'ATQ devient aussi égale à 173% de la DEF P. Gagne également l'immunité à tous les effets.",
+      "Lorsque les PV passent sous les 35% de leur maximum, la Réduction des DEG P. de tous les alliés est augmentée de 410. L'ATQ devient aussi égale à 207% de la DEF P. Gagne également l'immunité à tous les effets.",
+      "Lorsque les PV passent sous les 35% de leur maximum, la Réduction des DEG P. de tous les alliés est augmentée de 500. L'ATQ devient aussi égale à 250% de la DEF P. Gagne également l'immunité à tous les effets."
+    ],
+    "story": "Une épée et un bouclier gravés de diverses runes et imprégnés d'ancienne magie. Ces objets légendaires ont été créés il y a une éternité par un ancien Dragon nommé Exian, à l'aide de ses propres écailles. L'épée est un des trésors royaux d'Orvel, accordée uniquement au chevalier le plus honorable. Son porteur doit servir en tant que défenseur du royaume et de son peuple, protecteur de la vie."
+  },
+  "s1": {
+    "name": "Sol Déchiré",
+    "description": "Inflige {0} points de DEG P. aux ennemis à portée, applique également Étourdissement pendant {1} sec.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Prolonge la durée de l'Étourdissement de {0} sec."
+    },
+    "light": "Le temps de recharge est réduit de 2 sec.",
+    "dark": "Pour un coût de 1 MP supplémentaire, la compétence a 100% de chances d'attirer la cible."
+  },
+  "s2": {
+    "name": "Coup de Bouclier",
+    "description": "Inflige {0} points de DEG P. (basés sur DEF P.) aux ennemis à portée et les renverse. Les ennemis touchés voient leur DEF réduite de {1}%. Le temps de recharge est réduit de 0.5 sec pour chaque attaque bloquée.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Réduit la vitesse de la cible de {0}%."
+    },
+    "light": "La cible reçoit 25% de DEG P. supplémentaires pendant 10 sec.",
+    "dark": "Applique Étourdissement pendant 1 sec.",
+    "ut": {
+      "name": "Détermination inébranlable",
+      "description": [
+        "[Coup de bouclier] Réduit la résistance Crit P. de l'ennemi affecté de 500 et ses chances de coup critique de 100 pendant 10 sec.",
+        "[Coup de bouclier] Réduit la résistance Crit P. de l'ennemi affecté de 500 et ses chances de coup critique de 120 pendant 10 sec.",
+        "[Coup de bouclier] Réduit la résistance Crit P. de l'ennemi affecté de 500 et ses chances de coup critique de 140 pendant 10 sec.",
+        "[Coup de bouclier] Réduit la résistance Crit P. de l'ennemi affecté de 500 et ses chances de coup critique de 170 pendant 10 sec.",
+        "[Coup de bouclier] Réduit la résistance Crit P. de l'ennemi affecté de 500 et ses chances de coup critique de 210 pendant 10 sec.",
+        "[Coup de bouclier] Réduit la résistance Crit P. de l'ennemi affecté de 500 et ses chances de coup critique de 250 pendant 10 sec."
+      ],
+      "story": "Vieux bouclier en bois appartenant au chevalier du Mur de Fer. Il est néanmoins précieux, car il s’agit du premier bouclier que Clause a manié au début de son entraînement. Il y a gravé le nom de ses camarades tombés au combat pour renforcer sa détermination de Chevalier Gardien. À chaque fois qu’il repousse un ennemi avec ce bouclier, sa détermination inébranlable l’aide à dépasser ses limites."
+    }
+  },
+  "s3": {
+    "name": "Bouclier du Gardien",
+    "description": "Augmente la DEF P. de tous les alliés de {1} pendant {0} sec. Réduit également les chancs d'être touché par unCoup Critique de {2}%.",
+    "books": {
+      "0": "Le taux d'augmentation de la DEF P. est augmenté de {0}%.",
+      "1": "Le taux d'augmentation de la DEF P. est augmenté de {0}%.",
+      "2": "Le taux d'augmentation de la DEF P. est augmenté de {0}%."
+    },
+    "light": "Le taux de récupération de la DEF est augmenté de 40%.",
+    "dark": "Les DEG P. reçus sont réduits de 25% pour la durée.",
+    "ut": {
+      "name": "Rune des chevaliers",
+      "description": [
+        "[Bouclier du Gardien] Lors de l'activation, les effets négatifs sont retirés du Héros et le boost de DEF est augmenté de 20%.",
+        "[Bouclier du Gardien] Lors de l'activation, les effets négatifs sont retirés du Héros et le boost de DEF est augmenté de 24%.",
+        "[Bouclier du Gardien] Lors de l'activation, les effets négatifs sont retirés du Héros et le boost de DEF est augmenté de 29%.",
+        "[Bouclier du Gardien] Lors de l'activation, les effets négatifs sont retirés du Héros et le boost de DEF est augmenté de 35%.",
+        "[Bouclier du Gardien] Lors de l'activation, les effets négatifs sont retirés du Héros et le boost de DEF est augmenté de 42%.",
+        "[Bouclier du Gardien] Lors de l'activation, les effets négatifs sont retirés du Héros et le boost de DEF est augmenté de 50%."
+      ],
+      "story": "Rune des Chevaliers Gardiens d’Orvel. Une rune de Lion d’or donnée aux chevaliers lorsqu’ils rejoignent les Chevaliers Gardiens, lorsqu’ils font le vœu de donner leur vie pour protéger le royaume. La rune des Chevaliers Gardiens améliore la volonté d’acier du chevalier et augmente l’efficacité de Bouclier du Gardien."
+    }
+  },
+  "s4": {
+    "name": "Serment des Chevaliers",
+    "description": "Lors d'une parade, inflige {0}  points de DEG P aux ennemis situés en face et réduit de {2}  % l'ATQ des cibles touchées pendant {1}  sec. Restaure 300 PM après avoir touché la cible.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG de {0}%."
+    },
+    "light": "Le temps d'incantation est fortement réduit.",
+    "dark": "Réduit l'ATQ de 10% supplémentaires."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Blocage P. +200",
+    "dark": "Quand un allié autre que ce héros est touché par une attaque, la DEF P. et la Résist. aux Crit P. des alliés sont augmentées de 20%, pendant 5 sec (10 sec de recharge)."
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Rephy",
+  "subtitle": "Spiritual Guide",
+  "description": "Half-human and half-animal, this creature guides souls using a spirit lamp. Heals allies with the power of souls. Disturbs enemies or recovers Mana of allies with the help of souls as well.",
+  "story": "This pure and kindhearted Tamian soul guide can communicate with the dead. The Tamian race lives in harmony with nature, and they have the ability to read its flow and guide the souls of the dead. Rephy's ability as a soul guide is exceptional, even for a Tamian. He uses it to guide the souls of those who died in the forest and help them pass on, preventing them from turning evil. He is the most capable among the Tamians in discerning the paths of the stars, pacifying the souls of the dead, and properly guiding them to the afterlife.",
+  "like": "Souls, kind people",
+  "dislike": "Causing harm to others",
+  "inn": {
+    "idle": "Have you heard of the Tamian tribe?",
+    "recruit": {
+      "greet": "I'm Rephy, sage of the Tamian tribe.",
+      "talk": [
+        "Human, come with me. Let's go, defeat the evil king and protect the forest.",
+        "You never get lost in this forest with me!",
+        "It is one of our tasks to guide those who died in the forest, helping them return to where they must.."
+      ],
+      "gift": "I got a gift from a human! Hooray!"
+    },
+    "affinity": {
+      "greet": "It's warm! The souls will like this place!",
+      "talk": [
+        "Can you hear that? The stars outside the window are whispering to us!",
+        "Human, I'll invite you to our forest next time!"
+      ],
+      "gift": "A surprise gift? Humans really are good friends!"
+    },
+    "relationship": {
+      "greet": "Hi! Your soul is as pure as usual!",
+      "talk": [
+        "The forest feels good! Clear air, refreshing winds, dancing fairies...",
+        "Leave the guiding to me! The souls will help us!",
+        "The stars say, today will be a good day! Let's go out!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "God's Lamp, Kurulati",
+    "description": [
+      "Every 20 sec, an ally with the lowest HP turns invisible for 5 sec. An invisible ally becomes immune to P.DMG, and HP will not drop below 1%. MP Recovery per sec is increased to 120%.",
+      "Every 20 sec, an ally with the lowest HP turns invisible for 6 sec. An invisible ally becomes immune to P.DMG, and HP will not drop below 1%. MP Recovery per sec is increased to 144%.",
+      "Every 20 sec, an ally with the lowest HP turns invisible for 7 sec. An invisible ally becomes immune to P.DMG, and HP will not drop below 1%. MP Recovery per sec is increased to 172%.",
+      "Every 20 sec, an ally with the lowest HP turns invisible for 8 sec. An invisible ally becomes immune to P.DMG, and HP will not drop below 1%. MP Recovery per sec is increased to 207%.",
+      "Every 20 sec, an ally with the lowest HP turns invisible for 9 sec. An invisible ally becomes immune to P.DMG, and HP will not drop below 1%. MP Recovery per sec is increased to 248%.",
+      "Every 20 sec, an ally with the lowest HP turns invisible for 10 sec. An invisible ally becomes immune to P.DMG, and HP will not drop below 1%. MP Recovery per sec is increased to 300%."
+    ],
+    "story": "It is the duty of a soul guide to lead the lost souls onto the right path, to help them move on to the next life. This lamp, powered by a mysterious orb created long ago by a dragon from a distant land, is a treasure of the Tamians. The orb at its core allows nearby souls to materialize, making it possible for its wielder to talk to them directly. As such, it is the ultimate medium for a soul guide. Tamian chieftains have used this relic to carry out the sacred duties of a soul guide for generations. Now, in the face a great danger that threatens the world, the lamp has been passed on to Rephy, the most powerful soul guide in existence."
+  },
+  "s1": {
+    "name": "Healing Soul",
+    "description": "Heals 4 allies with lowest HP {2}% of Max HP, and heals extra {1} HP over {0} sec. This effect cannot be dispelled.",
+    "books": {
+      "0": "Heal rate is increased by {0}%.",
+      "1": "Heal rate is increased by {0}%.",
+      "2": "MP recovery rate per sec is increased by {0}%."
+    },
+    "light": "Mana Cost is increased by 1 and skill effect range changes to all allies.",
+    "dark": "Each heal has a 20% chance to remove negative effects."
+  },
+  "s2": {
+    "name": "Salvation",
+    "description": "Dispels all negative effects. M.DEF is increased by {1} for {0} sec.",
+    "books": {
+      "0": "M.DEF boost is increased by {0}%.",
+      "1": "M.DEF boost is increased by {0}%.",
+      "2": "CC Resistance is increased by {1} for {0} sec."
+    },
+    "light": "Mana cost is reduced by 1.",
+    "dark": "Increases M.DEF by additional 10% of the caster's M.DEF.",
+    "ut": {
+      "name": "Seed of Birth",
+      "description": [
+        "[Salvation] Increases M.DEF Boost by 50% and reduces Cooldown by 12%.",
+        "[Salvation] Increases M.DEF Boost by 50% and reduces Cooldown by 14%.",
+        "[Salvation] Increases M.DEF Boost by 50% and reduces Cooldown by 17%.",
+        "[Salvation] Increases M.DEF Boost by 50% and reduces Cooldown by 21%.",
+        "[Salvation] Increases M.DEF Boost by 50% and reduces Cooldown by 25%.",
+        "[Salvation] Increases M.DEF Boost by 50% and reduces Cooldown by 30%."
+      ],
+      "story": "A collection of the energy that is created when a life is born. It's very warm and gentle, so souls like it. Rephy uses it to start a fire in a lamp to borrow the power of the souls. When a seed is put in a lamp, it shines brightly, like when the sun was first born."
+    }
+  },
+  "s3": {
+    "name": "Soulrush",
+    "description": "Deals a total of {1} M.DMG over 10 attacks to enemies within range. Hit enemies' ATK Spd is reduced by {2}%.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Target takes {0}% increased P.DMG and M.DMG."
+    },
+    "light": "Each hit removes 250 mana from the target.",
+    "dark": "In exchange for 1 additional Mana Cost, Silence enemies in range for 1 sec.",
+    "ut": {
+      "name": "Haven of Souls",
+      "description": [
+        "[Soulrush] Mana cost is reduced by 1 and heals all allies' HP by 8% of DMG.",
+        "[Soulrush] Mana cost is reduced by 1 and heals all allies' HP by 10% of DMG.",
+        "[Soulrush] Mana cost is reduced by 1 and heals all allies' HP by 12% of DMG.",
+        "[Soulrush] Mana cost is reduced by 1 and heals all allies' HP by14% of DMG.",
+        "[Soulrush] Mana cost is reduced by 1 and heals all allies' HP by 17% of DMG.",
+        "[Soulrush] Mana cost is reduced by 1 and heals all allies' HP by 20% of DMG."
+      ],
+      "story": "An ornament that was used for the memorial ceremonies of deceased royalty in ancient times. Inside the green jewel, there's a crystallized tear of the mythical creature that leads people to death. It's used as a resting places to comfort the emptiness within souls."
+    }
+  },
+  "s4": {
+    "name": "Spiritual Tuning",
+    "description": "Every 7 sec, an ally with the lowest Hp recovers 1 orb of mana and {0} HP.",
+    "books": {
+      "0": "Heal rate is increased by {0}%.",
+      "1": "Heal rate is increased by {0}%.",
+      "2": "MP recovery rate is increased by {0}%."
+    },
+    "light": "Uses the skill every 5 sec.",
+    "dark": "Also supplies 1 orb of mana to the ally with the highest ATK."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / M.Dodge +100",
+    "dark": "Upon attacking, there is a 10% chance to reduce all DEF of the target by 20% and reduce all the hero's cooldowns by 5%."
+  }
+}

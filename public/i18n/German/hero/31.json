@@ -1,0 +1,120 @@
+{
+  "name": "Arch",
+  "subtitle": "Pfeil der Reinheit",
+  "description": "Ein hochrangiger Engel, der zur Menschenwelt hinabstieg, um die wütenden Dämonen zu bestrafen. Er saust durch die Lüfte und feuert Lichtpfeile auf die Missetäter.",
+  "story": "Ein Engelskrieger, der aus den Himmeln herabstieg, um Dämonen zu bestrafen und der Ausbreitung des Chaos auf der Erde Einhalt zu gebieten. Seine Pflichten umfassen Spähen, Aufklärung und die Exekution aller auf der Erde entdeckten Dämonen. Er hat ein starkes Verantwortungsgefühl und tritt schnell und bestimmt gegen alles Unrecht auf. Er liebt die Menschheit und alle Lebensformen, die die Welt bewohnen. Deshalb ist er bemüht, die Dämonen daran zu hindern, diese Welt zu entweihen.",
+  "like": "Frieden und Stabilität",
+  "dislike": "Dämonen",
+  "inn": {
+    "idle": "Hm?! Da war ein Dämon, glaube ich...",
+    "recruit": {
+      "greet": "Grüße, Erdlinge.",
+      "talk": [
+        "Sind meine Flügel so interessant?",
+        "Meine Mission ist es, das Böse zu zerschmettern.",
+        "Möge die Göttin all eure Leben segnen."
+      ],
+      "gift": "Möge das Licht euren Weg leiten."
+    },
+    "affinity": {
+      "greet": "Schön dich zu sehen, Jünger des Lichts.",
+      "talk": [
+        "Das Schicksal der Welt liegt in deinen Händen.",
+        "Was wirst du mit der Macht anstellen, die du durch den Segen der Göttin erhalten hast?"
+      ],
+      "gift": "Ich weiß nicht, wie ich sie einsetzen werde, aber danke."
+    },
+    "relationship": {
+      "greet": "Möge das Licht mit dir sein, mein Freund.",
+      "talk": [
+        "Dämonen... Abschaum, der vernichtet werden sollte. Aber die paar wenigen, die uns helfen... da weiß ich auch nicht, was wir mit ihnen machen sollen.",
+        "Deine Existenz ist wie ein helles Leuchtfeuer. Pass gut auf deine reine Seele auf, mein Freund.",
+        "Ich dachte früher immer, deine Art sei schwach. Aber ich habe inzwischen gelernt, dass es verschiedenen Arten von Stärke gibt."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Sherrkyle, klarer blauer Himmel",
+    "description": [
+      "Belegt alle 10 Sek einen zufälligen Feind mit einem Urteilssiegel für 15 Sek und fügt ihm 168% des ANG als M.Schaden zu.",
+      "Belegt alle 10 Sek einen zufälligen Feind mit einem Urteilssiegel für 15 Sek und fügt ihm 201.6% des ANG als M.Schaden zu.",
+      "Belegt alle 10 Sek einen zufälligen Feind mit einem Urteilssiegel für 15 Sek und fügt ihm 241.5% des ANG als M.Schaden zu.",
+      "Belegt alle 10 Sek einen zufälligen Feind mit einem Urteilssiegel für 15 Sek und fügt ihm 289.8% des ANG als M.Schaden zu.",
+      "Belegt alle 10 Sek einen zufälligen Feind mit einem Urteilssiegel für 15 Sek und fügt ihm 348.6% des ANG als M.Schaden zu.",
+      "Belegt alle 10 Sek einen zufälligen Feind mit einem Urteilssiegel für 15 Sek und fügt ihm 420% des ANG als M.Schaden zu."
+    ],
+    "story": "Eine mächtige Lichtwaffe, die die Form eines Speeres, Dolches oder Bogens annehmen kann. Einer der göttlichen Schätze der Engel, gesegnet durch einen Erzengel. Es heißt, sie wäre in der Lage, das Böse zu entzünden. Wegen ihrer Vielseitigkeit gab man sie traditionell dem talentiertesten Späher. Die Zahl der Dämonen, die angesichts ihres Lichts ihr Ende fanden, ist schier unendlich."
+  },
+  "s1": {
+    "name": "Himmlischer Pfeil",
+    "description": "Fügt 3 Feinden {0} M.Schaden zu und wirft sie zurück. Wenn ein Feind mit einem Urteilssiegel getroffen wird, nimmt er 30% Extra-Schaden. Getroffenen Feinden wird 15 Sek. lang ein Urteilssiegel auferlegt.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Erhöht Schaden um 100%, wenn nur 1 Feind auf dem Schlachtfeld ist.",
+    "dark": "Stuns enemies with a Sigil for 1 Sek"
+  },
+  "s2": {
+    "name": "Reinigende Flamme",
+    "description": "Fügt allen Feinden in einer Linie {0} M.Schaden zu. Feinde mit einem Urteilssiegel erleiden {1} zusätzl. M.Schaden, der ihre M.VERT ignoriert.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Erhöht Krit. Chance um 40%.",
+    "dark": "Reduziert Cooldown um 3 Sek.",
+    "ut": {
+      "name": "Magisches Quadrat der Verfolgung",
+      "description": [
+        "[Reinigende Flamme] Verringert die Manakosten um 1 und erhöht den Schaden um 20 %.",
+        "[Reinigende Flamme] Verringert die Manakosten um 1 und erhöht den Schaden um 24 %.",
+        "[Reinigende Flamme] Verringert die Manakosten um 1 und erhöht den Schaden um 29 %.",
+        "[Reinigende Flamme] Verringert die Manakosten um 1 und erhöht den Schaden um 35 %.",
+        "[Reinigende Flamme] Verringert die Manakosten um 1 und erhöht den Schaden um 42 %.",
+        "[Reinigende Flamme] Verringert die Manakosten um 1 und erhöht den Schaden um 50 %."
+      ],
+      "story": "Das Symbol der Armee der Feuerschlichter, die einen erbitterten Kampf gegen uralte Dämonen fochten. Bei Benutzung des von Lua, der Göttin des Lichts gesegneten Magischen Quadrats der Verfolgung wird Arch zu einem gnadenlosen Schlichter."
+    }
+  },
+  "s3": {
+    "name": "Schlichter",
+    "description": "Fügt Feinden in Reichw. {0} M.Schaden zu. Feinde mit einem Urteilssiegel erleiden 50% extra M.Schaden und werden 5 Sek lang zum Schweigen gebracht. Alle Verb. werden 5 Sek lang immun gegen M.Schaden.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Legt getroffenen Feinden ein Urteilssiegel auf.",
+    "dark": "Selbst Feinde ohne Stigma erleiden erhöhten M.Schaden und können keine Skills benutzen.",
+    "ut": {
+      "name": "Himmelsauge",
+      "description": [
+        "[Schlichter] Erhöht Schaden um 20% und ANG aller Verbündeten um 30% während der Wirkdauer des M.Schilds.",
+        "[Schlichter] Erhöht Schaden um 24% und ANG aller Verbündeten um 30% während der Wirkdauer des M.Schilds.",
+        "[Schlichter] Erhöht Schaden um 29% und ANG aller Verbündeten um 30% während der Wirkdauer des M.Schilds.",
+        "[Schlichter] Erhöht Schaden um 35% und ANG aller Verbündeten um 30% während der Wirkdauer des M.Schilds.",
+        "[Schlichter] Erhöht Schaden um 42% und ANG aller Verbündeten um 30% während der Wirkdauer des M.Schilds.",
+        "[Schlichter] Erhöht Schaden um 50% und ANG aller Verbündeten um 30% während der Wirkdauer des M.Schilds."
+      ],
+      "story": "Das Seelen-Ei des Engelsschlichters Pilier. Pilier wurde aus Luas erster Flamme geboren und ist der Meister von Arch. Pilier war der Beste unter den Engelskriegern und einer von denen, die den Krieg gegen die Dämonen beendeten. Nachdem er jedoch all seine Kraft aufgebraucht hatte, kehrte er zurück und wurde wieder ein Himmlisches Auge, seine Gestalt als Seelen-Ei, und Arch trägt die Seele seines Meisters immer bei sich."
+    }
+  },
+  "s4": {
+    "name": "Das jüngste Gericht",
+    "description": "Verursacht alle 15 Sek. {0} M. Schaden an Feinden mit Urteilssiegel und ignoriert VERT. Verursacht bei todesnahem Status ein Mal pro Kampf {1} M. Schaden an Feinden mit Urteilssiegel und betäubt sie für 3 Sek. Beschwört zeitgleich einen Schild, der für 5 Sek. {2} des Schadens an Verbündeten blockt. Effekt-Resistenz bei bestehendem Schild. Verbraucht alles Mana und alle Skill-Cooldowns sind um 50% erhöht, wenn der Schildeffekt wirkt.",
+    "books": {
+      "0": "Erhöht Schaden und Schild-TP um {0}%.",
+      "1": "Erhöht Schaden und Schild-TP um {0}%.",
+      "2": "Erhöht Schaden und Schild-TP um {0}%."
+    },
+    "light": "Erleidet der Held einen tödlichen Treffer, greift der Held 20 Sek lang 2 Feinde mit jedem normalen Angriff an.",
+    "dark": "Aktiviert Effekte 3 Sek schneller."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / Krit. Chance +100",
+    "dark": "Heilt alle Verbündete um 4% des verursachten Schadens bei einem kritischen Treffer."
+  }
+}

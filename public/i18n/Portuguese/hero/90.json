@@ -1,0 +1,120 @@
+{
+  "name": "May",
+  "subtitle": "Garota Sonhadora",
+  "description": "A brilhante garota que comanda uma Loja na Capital de Orvel. É impossível não gostar de sua energia e positividade. Ela carrega todo tipo de itens úteis de sua cesta para ajudar seus aliados.",
+  "story": "Uma garota que administra sua própria Loja Geral no Castelo de Orvel. Ela é altamente simpática e trata todos com alegria e entusiasmo. Sonhando tornar-se um dia a mercadora mais abastada de Orvel, May geralmente procura e coleta sua própria mercadoria. Por conta do esforço que faz para adquirir seus produtos, seus preços não são muito baratos. e as pessoas a criticam por isso. Atualmente, ela está se preparando para viajar até o Deserto de Aegina depois que ouviu falar que alguém recentemente descobriu um tesouro no local.",
+  "like": "Ouro",
+  "dislike": "Déficit financeiro",
+  "inn": {
+    "idle": "Hum... Os pratos da Juno são melhores...! Isso vai vender igual água!",
+    "recruit": {
+      "greet": "",
+      "talk": [
+        "",
+        "",
+        ""
+      ],
+      "gift": ""
+    },
+    "affinity": {
+      "greet": "Ah! Boas-vindas, cliente! Ah, espera, essa era a Pousada...",
+      "talk": [
+        "Você vai visitar a minha loja também, não é?",
+        "A comida de Juno é a melhor!"
+      ],
+      "gift": "Hahaha, obrigada!"
+    },
+    "relationship": {
+      "greet": "Tenho trabalhado duro todo dia para me tornar a garota mais rica de Orvel!",
+      "talk": [
+        "Hoje, estou pensando em viajar para Elidora Central para coletar itens novos!",
+        "Ultimamente, eu comecei a fabricar roupas como passatempo. Se eu tiver a chance, eu farei algo por você também.",
+        "Você sabe que havia um tesouro encontrado no Deserto Aegina?"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Etelia, A Caixa de Fragrâncias",
+    "description": [
+      "Ao ativar 'Pega isso!', aplica os efeitos de 'Pega tudo!' a todos os aliados e reduz a recarga de todos os poderes em 10%.",
+      "Ao ativar 'Pega isso!', aplica os efeitos de 'Pega tudo!' a todos os aliados e reduz a recarga de todos os poderes em 12%.",
+      "Ao ativar 'Pega isso!', aplica os efeitos de 'Pega tudo!' a todos os aliados e reduz a recarga de todos os poderes em 14%.",
+      "Ao ativar 'Pega isso!', aplica os efeitos de 'Pega tudo!' a todos os aliados e reduz a recarga de todos os poderes em 17%.",
+      "Ao ativar 'Pega isso!', aplica os efeitos de 'Pega tudo!' a todos os aliados e reduz a recarga de todos os poderes em 20%.",
+      "Ao ativar 'Pega isso!', aplica os efeitos de 'Pega tudo!' a todos os aliados e reduz a recarga de todos os poderes em 25%."
+    ],
+    "story": "Uma curiosa cesta que May sempre carrega para onde vai quando está em busca de novos materiais. Essa cesta misteriosa contém espaço infinito e anula o peso de tudo que é nela colocado. Isso permite que May traga uma quantidade absurda de itens com uma única viagem. À prima vista, pode parecer que há apenas comida de piquenique na cesta. No entanto, há rumores de que, sempre que May a leva em suas caçadas, ela leva... outros itens duvidosos. Pelo menos é o que dizem."
+  },
+  "s1": {
+    "name": "Leve Qualquer Coisa!",
+    "description": "O ATQ de todos os aliados aumenta em {0} por 60 segundos, e concede aleatoriamente um dos seguintes efeitos: 1. Aumento de {1} em Penetração de DEF, 2. Aumento de {2} em Vel de ATQ, 3. Recuperação instantânea de Mana em {3}. Todos os efeitos, menos Recuperação de Mana, podem ser acumulados até 5 vezes.",
+    "books": {
+      "0": "Aumenta a Taxa de Aumento de ATQ em {0}%.",
+      "1": "Aumenta a Taxa de Aumento de ATQ em {0}%.",
+      "2": "Aumenta a Taxa de Aumento de ATQ em {0}%."
+    },
+    "light": "Todos os efeitos não são removidos pelo efeito de 'remover efeito positivo'.",
+    "dark": "Todos os efeitos podem ser acumulados no máx 7 vezes."
+  },
+  "s2": {
+    "name": "Anime-se!",
+    "description": "Cura {0} PV de todos os aliados e recupera {1}% de seu PV máx. a cada segundo durante 10 segundos. Há 10% de chance de duplicar os efeitos.",
+    "books": {
+      "0": "Aumenta a taxa de Recuperação em {0}%.",
+      "1": "Aumenta a taxa de Recuperação em {0}%.",
+      "2": "Aumenta a taxa de Recuperação em {0}%."
+    },
+    "light": "Aumenta a resistência a CM do aliado em 250, durante 10 segundos.",
+    "dark": "Há 15% de chance de recuperar 1 orbe de mana.",
+    "ut": {
+      "name": "Delicioso Pedaço de Bolo",
+      "description": [
+        "[Anime-se!] Aumenta a Taxa de Cura em 20% e a chance adicional de uma Taxa de Cura dupla em 20%.",
+        "[Anime-se!] Aumenta a Taxa de Cura em 24% e a chance adicional de uma Taxa de Cura dupla em 20%.",
+        "[Anime-se!] Aumenta a Taxa de Cura em 29% e a chance adicional de uma Taxa de Cura dupla em 20%.",
+        "[Anime-se!] Aumenta a Taxa de Cura em 35% e a chance adicional de uma Taxa de Cura dupla em 20%.",
+        "[Anime-se!] Aumenta a Taxa de Cura em 42% e a chance adicional de uma Taxa de Cura dupla em 20%.",
+        "[Anime-se!] Aumenta a Taxa de Cura em 50% e a chance adicional de uma Taxa de Cura dupla em 20%."
+      ],
+      "story": "Bolo especial feito por Juno. Tem um aroma muito adocicado. May adora comê-lo no lanche. Não se sabe por que Juno não conta para ninguém quais são os ingredientes."
+    }
+  },
+  "s3": {
+    "name": "Não Está à Venda!",
+    "description": "Ataca um alvo aleatório e outros inimigos em área 3 vezes, causando um total de {0} de DAN.M e infligindo Atordoamento por 4 segundos. Há 10% de chance de que o alcance do poder, DAN e duração do Atordoamento sejam dobrados.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "Reduz o custo de mana em 1.",
+    "dark": "Todos os ataques serão focados num único inimigo.",
+    "ut": {
+      "name": "Bola de Cristal de Origem Desconhecida",
+      "description": [
+        "[Não está à venda!] Aumenta o DAN em 20% e ataca o inimigo mais 1 vez.",
+        "[Não está à venda!] Aumenta o DAN em 24% e ataca o inimigo mais 1 vez.",
+        "[Não está à venda!] Aumenta o DAN em 29% e ataca o inimigo mais 1 vez.",
+        "[Não está à venda!] Aumenta o DAN em 35% e ataca o inimigo mais 1 vez.",
+        "[Não está à venda!] Aumenta o DAN em 42% e ataca o inimigo mais 1 vez.",
+        "[Não está à venda!] Aumenta o DAN em 50% e ataca o inimigo mais 1 vez."
+      ],
+      "story": "Nos dias da antiga civilização, alguém roubou os feitiços dos sábios e reuniu seu poder em uma única bola de cristal. Parece ter sido parte de um plano para se tornar o maior xamã da época. Mas não há registros históricos dessa bola de cristal, e ela foi encontrada longe do vilarejo, perto do Rio do Éden. Diferentes feitiços elementares estão misturados em um lugar, tornando-a perigosa, e não se sabe como seus poderes serão liberados."
+    }
+  },
+  "s4": {
+    "name": "Tome isto!",
+    "description": "Causa {0} de DAN.M a 4 inimigos aleatórios a cada 15 segundos e causa aleatoriamente um dos poderes seguintes: 1. {1} de DAN.M Constante (10 segundos), 2. Atordoamento (2 segundos) 3. Congelamento (5 segundos).",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "Ativa a cada 12 segundos.",
+    "dark": "Aumenta em 25% o DAN.F recebido pelo alvo."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / Resist. CM +100",
+    "dark": "Cada ataque automático tem 30% de chance de curar o aliado com o menor PV a uma quantidade igual e 3% do PV deles. Concede 5% de mana ao aliado."
+  }
+}

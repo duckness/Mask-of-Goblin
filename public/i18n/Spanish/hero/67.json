@@ -1,0 +1,128 @@
+{
+  "name": "Kara",
+  "subtitle": "Paradigma de la antigua tecnomagia",
+  "description": "Un Gólem máquina humanoide fabricado por un tecnomago de una civilización olvidada hace mucho tiempo. Su cuerpo es una acumulación de tecnología antigua y el paradigma de la tecnomagia. Es un arma poderosa que puede aniquilar al enemigo con un fuego concentrado poderoso.",
+  "story": "Un Gólem humanoide fabricado con tecnomagia antigua. Su aspecto es el de una muchacha humana, pero en realidad es un arma antigua sin sentimientos, creada solo para ser una herramienta. Estaba dormida en las ruinas de una antigua civilización, en las profundidades de las Llanuras de Galluah. Fue desenterrada durante una expedición por Annette, una tecnomaga del reino de Orvel, y despertada en una nueva era de una nueva civilización...",
+  "like": "Carga de energía, Maestro",
+  "dislike": "Órdenes que no se pueden llevar a cabo, métodos ineficientes de hacer las cosas",
+  "inn": {
+    "idle": "Muchos humanos. Muchos más de los que he visto alguna vez.",
+    "recruit": {
+      "greet": "Hola.",
+      "talk": [
+        "El clima de hoy es... muy bueno. Habrá algunas nubes por la noche.",
+        "La comida aquí es de alta calidad. No tiene veneno, así que no debes preocuparte.",
+        "El palacio es silencioso, pero este lugar es ruidoso."
+      ],
+      "gift": "Esta es la moneda que se usa en la actualidad. A mi maestro le gustaría."
+    },
+    "affinity": {
+      "greet": "Hola, otro maestro.",
+      "talk": [
+        "Soy un arma. No tengo emociones. Pero...",
+        "Me pregunto qué se sentirá estar viva..."
+      ],
+      "gift": "Gracias. Será útil para financiar la búsqueda del maestro."
+    },
+    "relationship": {
+      "greet": "Hola, ¿dormiste bien?",
+      "talk": [
+        "No comprendo muy bien las emociones... Me pregunto qué es este sentimiento.",
+        "Siento algo familiar. Familiar... ¿Es esto?",
+        "Me pregunto cómo se sentirá el amor. Quiero saberlo."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Cañón de movimiento perpetuo 0-forma, destructor del cielo",
+    "description": [
+      "Aumenta el Ataque en un 1% cada segundo. Se acumula hasta 30 veces.",
+      "Aumenta el Ataque en un 1% cada segundo. Se acumula hasta 40 veces.",
+      "Aumenta el Ataque en un 1% cada segundo. Se acumula hasta 50 veces.",
+      "Aumenta el Ataque en un 1% cada segundo. Se acumula hasta 60 veces.",
+      "Aumenta el Ataque en un 1% cada segundo. Se acumula hasta 70 veces.",
+      "Aumenta el Ataque en un 1% cada segundo. Se acumula hasta 80 veces."
+    ],
+    "story": "Un artefacto de una antigua civilización con un motor que proporciona poder ilimitado. Es una potente arma con el poder de un arma de asedio, y ese poder se asemeja al de la magia de los rangos más altos. Esta arma fue hallada en las ruinas de la antigua República de Gray, pero permaneció almacenada porque nadie sabía cómo usarla. Mucho tiempo después, Kara fue desenterrada y, una vez que la despertaron, se teletransportó a su lado. Es el arma de tecnomagia con el rango más alto fabricada de un modo similar al de la Fortaleza de la montaña."
+  },
+  "s1": {
+    "name": "Láser antipersonal",
+    "description": "Ataca al objetivo 4 veces, lo que inflige un total de {0} de Daño mágico y retroceso. Ataca a todos los enemigos con el golpe final, lo que inflige {1} de Daño mágico y los vuela durante {2} segundos.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "[Láser antipersonal] - Recupera 200 de PM en un Golpe crítico. [Láser de asedio] - Aumenta el Costo de Mana en 1 y el Daño en un 100%.",
+    "dark": "[Láser antipersonal] - Reduce 300 de PM del enemigo que recibió el Daño. [Láser de asedio] - Reduce el costo de Mana en 1.",
+    "linked": {
+      "name": "Láser de asedio",
+      "description": "Ataca al objetivo e inflige {0} de Daño mágico. Se aplica Daño crítico con un aumento del {1}%."
+    }
+  },
+  "s2": {
+    "name": "Cañón de área extensa",
+    "description": "Ataca a un objetivo aleatorio y a otros enemigos cercanos dentro del alcance 4 veces, lo que inflige un total de {0} de Daño mágico y los aturde durante {1} segundos.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "[Cañón de área extensa] - Aumenta el efecto Aturdir en 1 segundo. [Fuego concentrado] - Acumula 1 Fuego concentrado adicional.",
+    "dark": "[Cañón de área extensa] - Reduce el Costo de Mana en 1. [Fuego concentrado] - Aumenta el número máximo de la pila de Fuego concentrado a 60.",
+    "ut": {
+      "name": "Dispositivo de registro KARA-00XX",
+      "description": [
+        "[Cañón de área amplia] Aumenta el Daño en un 50% y reduce la Velocidad de ataque del objetivo en 100 durante 10 segundos. [Fuego concentrado] Reduce el Tiempo de reutilización en un 2% con un Golpe crítico y recupera 150 de Mana.",
+        "[Cañón de área amplia] Aumenta el Daño en un 50% y reduce la Velocidad de ataque del objetivo en 120 durante 10 segundos. [Fuego concentrado] Reduce el Tiempo de reutilización en un 2,4% con un Golpe crítico y recupera 150 de Mana.",
+        "[Cañón de área amplia] Aumenta el Daño en un 50% y reduce la Velocidad de ataque del objetivo en 140 durante 10 segundos. [Fuego concentrado] Reduce el Tiempo de reutilización en un 2,9% con un Golpe crítico y recupera 150 de Mana.",
+        "[Cañón de área amplia] Aumenta el Daño en un 50% y reduce la Velocidad de ataque del objetivo en 170 durante 10 segundos. [Fuego concentrado] Reduce el Tiempo de reutilización en un 3,5% con un Golpe crítico y recupera 150 de Mana.",
+        "[Cañón de área amplia] Aumenta el Daño en un 50% y reduce la Velocidad de ataque del objetivo en 210 durante 10 segundos. [Fuego concentrado] Reduce el Tiempo de reutilización en un 4,2% con un Golpe crítico y recupera 150 de Mana.",
+        "[Cañón de área amplia] Aumenta el Daño en un 50% y reduce la Velocidad de ataque del objetivo en 250 durante 10 segundos. [Fuego concentrado] Reduce el Tiempo de reutilización en un 5% con un Golpe crítico y recupera 150 de Mana."
+      ],
+      "story": "Un dispositivo de registro y procesador que funciona como el cerebro de Kara. Es un tesoro repleto de sabiduría ancestral, y su capacidad supera ampliamente la de los humanos. A pesar de ser un dispositivo tan increíble, tiene dificultades para registrar y copiar emociones."
+    },
+    "linked": {
+      "name": "Fuego concentrado",
+      "description": "Ataca a un objetivo aleatorio 15 veces, lo que inflige un total de {0} de Daño mágico, e inflige Fuego concentrado durante {1} segundos. Inflige {2} de Daño mágico adicional con cada pila de Fuego concentrado al enemigo. El efecto Fuego concentrado se puede acumular hasta 30 veces."
+    }
+  },
+  "s3": {
+    "name": "Liberar arma de asedio",
+    "description": "Kara activa el modo Arma de asedio y ataca al enemigo, lo que inflige {0} de Daño mágico con cada ataque. Cuando está activado el modo Arma de asedio, cambia las habilidades Láser antipersonal y Cañón de área extensa a Láser de asedio y Fuego concentrado. Cuando se vuelve a usar la habilidad, regresa al modo Arma antipersonal.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Aumenta el Daño en un 100% cuando hay 1 enemigo.",
+    "dark": "El tiempo de reutilización de las habilidades se reduce en un 3% con un Golpe crítico.",
+    "ut": {
+      "name": "Fuente antigua de poder",
+      "description": [
+        "[Liberar arma de asedio] Aumenta el Daño en un 50% y disminuye la Defensa mágica del objetivo en un 1% con un Golpe crítico. El efecto de Reducción de Defensa mágica se puede acumular hasta 20 veces.",
+        "[Liberar arma de asedio] Aumenta el Daño en un 50% y disminuye la Defensa mágica del objetivo en un 1% con un Golpe crítico. El efecto de Reducción de Defensa mágica se puede acumular hasta 24 veces.",
+        "[Liberar arma de asedio] Aumenta el Daño en un 50% y disminuye la Defensa mágica del objetivo en un 1% con un Golpe crítico. El efecto de Reducción de Defensa mágica se puede acumular hasta 29 veces.",
+        "[Liberar arma de asedio] Aumenta el Daño en un 50% y disminuye la Defensa mágica del objetivo en un 1% con un Golpe crítico. El efecto de Reducción de Defensa mágica se puede acumular hasta 35 veces.",
+        "[Liberar arma de asedio] Aumenta el Daño en un 50% y disminuye la Defensa mágica del objetivo en un 1% con un Golpe crítico. El efecto de Reducción de Defensa mágica se puede acumular hasta 42 veces.",
+        "[Liberar arma de asedio] Aumenta el Daño en un 50% y disminuye la Defensa mágica del objetivo en un 1% con un Golpe crítico. El efecto de Reducción de Defensa mágica se puede acumular hasta 50 veces."
+      ],
+      "story": "La fuente de poder de Kara y una de las grandes obras maestras de una antigua civilización ya olvidada. Es la tecnología básica que usó Annette para fabricar a Rascal, pero ni siquiera ha logrado descubrir todo sobre esta tecnología especial. Un motor permanente que genera poder mágico ilimitado de forma continua."
+    }
+  },
+  "s4": {
+    "name": "Esencia de la tecnomagia",
+    "description": "Cuando está activado el modo Arma antipersonal, aumenta toda la Defensa en {0} , y cuando está activado el modo Arma de asedio, aumenta el Ataque en {1} , recibe un {2}% más de Daño y gana Inmunidad al Control de multitudes. Recupera {3} de PM cada vez que un enemigo recibe Daño.",
+    "books": {
+      "0": "El ATQ y la DEF se incrementan en {0}%.",
+      "1": "El ATQ y la DEF se incrementan en {0}%.",
+      "2": "El ATQ y la DEF se incrementan en {0}%."
+    },
+    "light": "La recuperación de PM se triplica cuando hay 1 enemigo.",
+    "dark": "[Arma antipersonal] - Disminuye el Ataque en un 20%, pero aumenta la Recuperación PM/seg en un 100%. [Arma de asedio] - Disminuye toda la Defensa en un 60%, pero aumenta el Daño crítico en un 140%."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Daño Crit+20%",
+    "dark": "[Arma antipersonal] - Aumenta la Precisión de Control de multitudes en 400. [Arma de asedio] - Aumenta la Precisión en 400."
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Laias",
+  "subtitle": "Holy Priestess of Water",
+  "description": "A priestess that guards the Oasis of the Aegina Desert. A Water Dragon that has lived for eons. Her water holds powerful healing properties.",
+  "story": "This beautiful and gentle priestess of water is actually a morphed blue dragon. In the distant past, she was worshipped by certain desert tribes. However, she has been sleeping for ages for some unknown reason. She can command water to turn lands fertile, and she always used her powers to help her people. In return, the humans built the golden Shrine of Flow in her honor under the lake in the oasis. A flow of evil energy in the desert has awakened her from her sleep, and she has once again begun using her powers to help those around her.",
+  "like": "Swimming, washing her hair",
+  "dislike": "Anything that disrupts the world's order",
+  "inn": {
+    "idle": "Do not be afraid. Ye may be much stronger.",
+    "recruit": {
+      "greet": "I'm Lorraine, an Elidora Elf. Salutations.",
+      "talk": [
+        "I had a good time.",
+        "May the blessing of mother nature light thy way.",
+        "Human beings are astounding creatures, but you have a serious weakness. You are ruled by greed and cannot resist temptation."
+      ],
+      "gift": "I will treasure this."
+    },
+    "affinity": {
+      "greet": "I always welcome the chance to spend time with you.",
+      "talk": [
+        "A major crossroad awaits you. Light and shadow... will converge into one path...",
+        "You mean my blue hair? Ah, it's a mistake from my past."
+      ],
+      "gift": "I'll consider it as a gift given out of your generosity."
+    },
+    "relationship": {
+      "greet": "You have grown strong, just, and pure.",
+      "talk": [
+        "You seem to have the purest soul I've seen in a while.",
+        "It would be nice if these times of peaceful enjoyment could last forever...but that would be a vice.",
+        "I will never forget you. Not as the Sage, but as a simple elf."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Flowing Circle, Eltoirre",
+    "description": [
+      "Upon a Crit Hit, heals the ally with the lowest HP by 80% of DMG dealt to target.",
+      "Upon a Crit Hit, heals the ally with the lowest HP by 96% of DMG dealt to target.",
+      "Upon a Crit Hit, heals the ally with the lowest HP by 115% of DMG dealt to target.",
+      "Upon a Crit Hit, heals the ally with the lowest HP by 138% of DMG dealt to target.",
+      "Upon a Crit Hit, heals the ally with the lowest HP by 166% of DMG dealt to target.",
+      "Upon a Crit Hit, heals the ally with the lowest HP by 200% of DMG dealt to target."
+    ],
+    "story": "An ankh crafted in the shape of a phoenix. It symbolizes the natural cycle of life. In the ancient days, the nomads of the desert worshipped the blue dragon of the oasis as their protector. In return, she blessed them with rain and gave life to their crops. To show their gratitude, the nomads offered her various treasures, including Lazulia, the gem of water. Although she had no particular interest in material wealth, she accepted their gratitude, and used the treasures to build a temple within the oasis. This ankh is the sacred symbol of the temple, and contains the mighty power of water."
+  },
+  "s1": {
+    "name": "Healing Droplets",
+    "description": "Heals max {0} HP of all allies, proportional to their lost HP.",
+    "books": {
+      "0": "Heal rate is increased by {0}%.",
+      "1": "Heal rate is increased by {0}%.",
+      "2": "Heal rate is increased by {0}%."
+    },
+    "light": "Heal rate is increased by 40%.",
+    "dark": "Upon healing, M. Crit Resistance rises by 25%."
+  },
+  "s2": {
+    "name": "Bubble Shield",
+    "description": "Shields an ally with the lowest HP for 15 sec to block {0} DMG, and grants CC Immunity. While Shield is in effect, heals {1} HP per sec, and gains Immunity to CC.",
+    "books": {
+      "0": "Shield is increased by {0}%.",
+      "1": "Shield is increased by {0}%.",
+      "2": "Shield is increased by {0}%."
+    },
+    "light": "Increases target ATK by 30%.",
+    "dark": "Target's M. Crit Resistance is increased by 25%.",
+    "ut": {
+      "name": "Oasis Crystal",
+      "description": [
+        "[Bubble Shield] Reduces Cooldown by 12% and dispels Negative Effects from the target.",
+        "[Bubble Shield] Reduces Cooldown by 14% and dispels Negative Effects from the target.",
+        "[Bubble Shield] Reduces Cooldown by 17% and dispels Negative Effects from the target.",
+        "[Bubble Shield] Reduces Cooldown by 21% and dispels Negative Effects from the target.",
+        "[Bubble Shield] Reduces Cooldown by 25% and dispels Negative Effects from the target.",
+        "[Bubble Shield] Reduces Cooldown by 30% and dispels Negative Effects from the target."
+      ],
+      "story": "Water essence that the Blue Dragons protect. The essence of an oasis that the Blue Dragons brought to the desert at the beginning of the world. Protecting and defending this is the sacred mission of the Priestess of Water Laias, and it is her favorite thing to do. The Oasis Crystal leads the Priestess of Water who uses the Bubble Shield to the person who most needs her help."
+    }
+  },
+  "s3": {
+    "name": "Festival of the Flow",
+    "description": "Deals {0} M.DMG to nearby enemies and knocks them down. All allies, excluding self, recovers 2 orbs of mana. Afterwards, for {1} sec, creates a whirlpool that deals {2} M.DMG to random enemies and knocks them down for 2 sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "DMG effect occurs every 3 sec.",
+    "dark": "Heals all allies by 15% of their max HP.",
+    "ut": {
+      "name": "Papyrus of the Flow",
+      "description": [
+        "[Festival of the Flow] Whirlpool effect targets 2 enemies and all allies recover additional 500 mana.",
+        "[Festival of the Flow] Whirlpool effect targets 2 enemies and all allies recover additional 600 mana.",
+        "[Festival of the Flow] Whirlpool effect targets 2 enemies and all allies recover additional 720 mana.",
+        "[Festival of the Flow] Whirlpool effect targets 2 enemies and all allies recover additional 860 mana.",
+        "[Festival of the Flow] Whirlpool effect targets 2 enemies and all allies recover additional 1040 mana.",
+        "[Festival of the Flow] Whirlpool effect targets 2 enemies and all allies recover additional 1250 mana."
+      ],
+      "story": "A sample of the ancient scripture, the Book of Chaos, that was swept away. The Book of Chaos is a historic scripture that is passed down to the Priest of Water, and it has records of culture, magic, and various fields. It was sealed in the golden Shrine of Flow along with Laias, but most of the book disappeared while she was asleep. The remaining Papyrus of the Flow is a boosting spell of the Festival of the Flow."
+    }
+  },
+  "s4": {
+    "name": "Blessing of the Water Dragon",
+    "description": "All allies' M.DEF is increased by {0} , and M.Crit Hit Resistance is increased by {1}.",
+    "books": {
+      "0": "Defense Boost is increased by {0}%.",
+      "1": "Defense Boost is increased by {0}%.",
+      "2": "Defense Boost is increased by {0}%."
+    },
+    "light": "M.DEF increase rate increases by 20%, and M. Crit Resistance increases by 100",
+    "dark": "Increases self CC Resist by 400."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / M. Block +200",
+    "dark": "Laias increases M.DEF equal of 5% of her ATK to allies she heals, as well as giving them 75 mana each."
+  }
+}

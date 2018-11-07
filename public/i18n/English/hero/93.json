@@ -1,0 +1,120 @@
+{
+  "name": "Loman",
+  "subtitle": "The Gatekeeper of Trust",
+  "description": "The Gatekeeper of the Orvel Monarchy. Without royal permission, no one can even get one step past Loman. The great power from his halberd forces his enemies to kneel before him.",
+  "story": "If one were to choose the most trustworthy among the Guardian Knights, Loman's name would be one of the first to come to mind. The royal family trusts him so much that they appointed Loman as the Gatekeeper of the Orvel Monarchy. He is usually a gentle and friendly man, but becomes uncompromising when anyone tries to approach his king without royal permission. No one who has seen his halberd, the one bestowed by Scarlet, split the air has ever returned alive. While off duty, however, he is a sensitive man who enjoys wood carving as a hobby.",
+  "like": "Clause, Demia, Jelly, Wood Carving",
+  "dislike": "Mint, Ginseng",
+  "inn": {
+    "idle": "I just came out during my break. This is a very nice place. I should drop by more often.",
+    "recruit": {
+      "greet": "",
+      "talk": [
+        "",
+        "",
+        ""
+      ],
+      "gift": ""
+    },
+    "affinity": {
+      "greet": "Come on in. I was working on one of my wood carvings just now, would you like to take a look?",
+      "talk": [
+        "My family has guarded the Orvel Monarchy for centuries. When I came to the castle, my father gave me our family heirloom.",
+        "This halberd seems to be pretty special. I asked Jin, and he told me that it holds the essence of some ancient divine beast."
+      ],
+      "gift": "What? I must tell you, I won't open the vault or labyrinth for you. Ha ha."
+    },
+    "relationship": {
+      "greet": "Guarding the monarchy is an important and solemn duty, but sometimes I feel a little jealous of my colleagues since they can come and go as they place.",
+      "talk": [
+        "I'll do all I can to repay Her Highness for the trust she has in me.",
+        "Wood carving is an old hobby of mine. Before I realized it, my room became crammed with my woodwork. Haha.",
+        "I saw someone with long hair, just shouting cheers all day long. I can see a lot of funny people who live their lives their own way."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Wave of Protection, Gaiamenes",
+    "description": [
+      "Pride of Orvelia' is stacked on every use of skills. 'Pride of Orvelia' cannot be dispelled, and when stacked 3 times, 'Blessing of Orvelia' is activated, dealing 200% of ATK as P.DMG to enemies within a wide range and increasing P.Weakness of the targets by 25% for 20 seconds. 'Blessing of Orvelia' also increases M.DEF by 10% for 10 seconds.",
+      "Pride of Orvelia' is stacked on every use of skills. 'Pride of Orvelia' cannot be dispelled, and when stacked 3 times, 'Blessing of Orvelia' is activated, dealing 240% of ATK as P.DMG to enemies within a wide range and increasing P.Weakness of the targets by 30% for 20 seconds. 'Blessing of Orvelia' also increases M.DEF by 12% for 10 seconds.",
+      "Pride of Orvelia' is stacked on every use of skills. 'Pride of Orvelia' cannot be dispelled, and when stacked 3 times, 'Blessing of Orvelia' is activated, dealing 290% of ATK as P.DMG to enemies within a wide range and increasing P.Weakness of the targets by 36% for 20 seconds. 'Blessing of Orvelia' also increases M.DEF by 14% for 10 seconds.",
+      "Pride of Orvelia' is stacked on every use of skills. 'Pride of Orvelia' cannot be dispelled, and when stacked 3 times, 'Blessing of Orvelia' is activated, dealing 350% of ATK as P.DMG to enemies within a wide range and increasing P.Weakness of the targets by 43% for 20 seconds. 'Blessing of Orvelia' also increases M.DEF by 17% for 10 seconds.",
+      "Pride of Orvelia' is stacked on every use of skills. 'Pride of Orvelia' cannot be dispelled, and when stacked 3 times, 'Blessing of Orvelia' is activated, dealing 420% of ATK as P.DMG to enemies within a wide range and increasing P.Weakness of the targets by 51% for 20 seconds. 'Blessing of Orvelia' also increases M.DEF by 21% for 10 seconds.",
+      "Pride of Orvelia' is stacked on every use of skills. 'Pride of Orvelia' cannot be dispelled, and when stacked 3 times, 'Blessing of Orvelia' is activated, dealing 500% of ATK as P.DMG to enemies within a wide range and increasing P.Weakness of the targets by 60% for 20 seconds. 'Blessing of Orvelia' also increases M.DEF by 25% for 10 seconds."
+    ],
+    "story": "The halberd held by an ancient guardian statue defending the gate of the labyrinth that was recently discovered at the Royal Underground. The old, eroded statue was holding the halberd firmly in its hands, as if showing its determination to protect the labyrinth against intruders. Loman, who was in charge of the labyrinth excavation, felt something indescribably sublime from the statue and showed due courtesy in front of it. At that moment, the statue dropped its halberd to the ground and began to crumble away. The halberd itself seemed unaffected by time and was imbued with a mysterious energy. 'That statue suddenly crumbled and dropped the halberd...' Scarlet said, glancing over the report. 'Yes, ma'am.' Scarlet then gazed at Loman. 'The unyielding sincerity of protecting a place until his very body collapses... I know a man like that.' 'Pardon, ma'am?' He looked at Scarlet with a puzzled face as she handed over the halberd, smiling."
+  },
+  "s1": {
+    "name": "Cut Ground",
+    "description": "Deals {0} P.DMG to frontal enemies within range and knocks them down for {1} sec, increasing P.Weakness of the affected targets by {3}% for {2} sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Blocks all DMG while the skill is in use."
+    },
+    "light": "Cooldown is reduced by 3 sec.",
+    "dark": "Increases P.Weakness of the affected target by 25% for 10 seconds."
+  },
+  "s2": {
+    "name": "Shrouding Creed",
+    "description": "Removes negative effects from all allies. Casts a shield upon all allies that absorbs {1} DMG for {0} second(s) and reduces all DMG to allies by {3}% for {2} second(s). The shield grants immunity to CC while it lasts.",
+    "books": {
+      "0": "Shield is increased by {0}%.",
+      "1": "Shield is increased by {0}%.",
+      "2": "Shield is increased by {0}%."
+    },
+    "light": "Reduces Cooldown by 5 seconds.",
+    "dark": "The shield lasts 5 seconds longer.",
+    "ut": {
+      "name": "Wooden Doll Miniature",
+      "description": [
+        "[Shrouding Creed] Reduces Mana Cost by 1 and recovers target's Mana by 400.",
+        "[Shrouding Creed] Reduces Mana Cost by 1 and recovers target's Mana by 480.",
+        "[Shrouding Creed] Reduces Mana Cost by 1 and recovers target's Mana by 580.",
+        "[Shrouding Creed] Reduces Mana Cost by 1 and recovers target's Mana by 700.",
+        "[Shrouding Creed] Reduces Mana Cost by 1 and recovers target's Mana by 840.",
+        "[Shrouding Creed] Reduces Mana Cost by 1 and recovers target's Mana by 1000."
+      ],
+      "story": "Loman used to carve small sculptures as big as his hand while sorting out his thoughts when things went wrong. As he smoothed out their edges, he'd feel at peace, recalling how he was when he was just learning the basics. It was just a pastime at first, but soon it became his hobby, a passion that filled his room with hundreds of sculptures. And one day, Loman started to make wooden dolls to give to his friends and his men. Back then, sorcerous dolls known to protect hearts from evil were popular in Orvelia. Loman asked an old shaman who practiced ancient folk remedies to enchant his wooden dolls with a spell of protection, and he gave them to his colleagues."
+    }
+  },
+  "s3": {
+    "name": "Knight's Creed",
+    "description": "Hits frontal enemies within range 3 times. First 2 hits deal {0} P.DMG and stun enemies for {1} second(s) while the last hit attacks enemies in wider range 2 times, dealing {2} P.DMG in total. The last hit stuns enemies for 5 seconds and leaves [Mark of Creed] on the enemies, damaging them for {3} second(s). Targets with [Mark of Creed] take additional {4} P.DMG from allies excluding caster. Additional DMG effect is activated only once every {5} second(s).",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "When there is 1 enemy, DMG is boosted by 100%.",
+    "dark": "While in use, gains immunity to CC.",
+    "ut": {
+      "name": "Sea of Invocation",
+      "description": [
+        "[Knight's Creed] Reduces Cooldown by 30%, and increases P.Weakness of the target by 10% for 10 seconds.",
+        "[Knight's Creed] Reduces Cooldown by 30%, and increases P.Weakness of the target by 12% for 10 seconds.",
+        "[Knight's Creed] Reduces Cooldown by 30%, and increases P.Weakness of the target by 14% for 10 seconds.",
+        "[Knight's Creed] Reduces Cooldown by 30%, and increases P.Weakness of the target by 17% for 10 seconds.",
+        "[Knight's Creed] Reduces Cooldown by 30%, and increases P.Weakness of the target by 21% for 10 seconds.",
+        "[Knight's Creed] Reduces Cooldown by 30%, and increases P.Weakness of the target by 25% for 10 seconds."
+      ],
+      "story": "An heirloom of Loman's family, this special pendant is bestowed by the first King of Orvelia to Loman's family in honor of their service and loyalty to protect the Orvel Monarchy. Its true origin is unknown, but it is believed to be an accessory that has the spirit of the Guardian of Orbis Continent from an ancient civilization. The owners of this item have said the same thing. When they resolve to stake their lives to defend what is important to them, they invoke a mighty power like the waves of the sea. People now believe this blue gem invokes spirits, and it started to be called the Sea of Invocation. Loman received it as an heirloom from his father when he entered the castle, and he always keeps it with him."
+    }
+  },
+  "s4": {
+    "name": "The Last Gatekeeper",
+    "description": "Stacks [Endurance] every second. [Endurance] cannot be dispelled, and when stacked {0} times, deals {1} P.DMG, ignoring DEF on nearby enemies and reduces ATK of affected enemies by 20% for {2} second(s). A successful block grants 1 additional [Endurance] stack. This effect is activated only once every {3} second(s).",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Increases the number of 'Endurance' stacked every second by 1.",
+    "dark": "Decreases ATK Spd of the affected enemy by 200 for 10 sec."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / M. Block +200",
+    "dark": "Upon successfully blocking M.DMG, all allies have their M.Block increased by 200 and M.DEF by 10% of Loman's M.DEF for 5 sec. This effect is activated only once every 5 seconds."
+  }
+}

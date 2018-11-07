@@ -1,0 +1,120 @@
+{
+  "name": "Ophelia",
+  "subtitle": "Pathfinder of Fate",
+  "description": "An astrologist of Stardust, a troupe that wanders through the continent. Instead of going on a pilgrimage as a member of the witch's association, searches for the destined soulmate she once encountered in her dreams. Controls the tarot cards floating around her to attack enemies in distance.",
+  "story": "An astrologer traveling with a wandering troupe called 'Stardust.' As a member of the Witch Association, she is supposed to reside in a designated location and read the flow of fate as part of her practice. However, she is currently traveling in search of a man with a particular destiny she met in a dream. She believes that the man from her clairvoyant dream is destined to become the savior of the world. Her current priority is to find the man, and then stay at his side. If asked about her second goal... She blushes and loses all traces of her usual calmness telling about her future with the man of destiny.",
+  "like": "Romantic stories",
+  "dislike": "Flying insects",
+  "inn": {
+    "idle": "I want to show you the whispers of the stars.",
+    "recruit": {
+      "greet": "I am the Witch named Ophelia.",
+      "talk": [
+        "I can see it within your eyes too...the path of the stars.",
+        "I look into your eyes, and see...",
+        "Have you ever heard the whispers of the stars?"
+      ],
+      "gift": "Thank you! As thanks, I will tell you a bit about your destiny..."
+    },
+    "affinity": {
+      "greet": "Nice to meet you!",
+      "talk": [
+        "I learned to shuffle cards from a good friend.",
+        "I love having a good laugh with people every day."
+      ],
+      "gift": "I'll tell you your fortune in return."
+    },
+    "relationship": {
+      "greet": "Do you want your fortune told? If you do, sit with me!",
+      "talk": [
+        "This child is very special to me. Ah, be careful! You might get burned!",
+        "I don't feel bad for straying off the path of my pilgrimage. I am still a witch, and I have pride in my profession.",
+        "Ah! This card tells me that my fateful partner is near! Very close too...ah, perhaps...?"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Cards of Destiny Del Arcana",
+    "description": [
+      "Upon attack, there is a 77.7% chance that for 7 sec, ATK Spd is increased by 20, and mana recovery per sec is increased by 10%. This effect can be stacked max 15 times.",
+      "Upon attack, there is a 77.7% chance that for 7 sec, ATK Spd is increased by 24, and mana recovery per sec is increased by 12%. This effect can be stacked max 15 times.",
+      "Upon attack, there is a 77.7% chance that for 7 sec, ATK Spd is increased by 29, and mana recovery per sec is increased by 14%. This effect can be stacked max 15 times.",
+      "Upon attack, there is a 77.7% chance that for 7 sec, ATK Spd is increased by 35, and mana recovery per sec is increased by 17%. This effect can be stacked max 15 times.",
+      "Upon attack, there is a 77.7% chance that for 7 sec, ATK Spd is increased by 42, and mana recovery per sec is increased by 21%. This effect can be stacked max 15 times.",
+      "Upon attack, there is a 77.7% chance that for 7 sec, ATK Spd is increased by 50, and mana recovery per sec is increased by 25%. This effect can be stacked max 15 times."
+    ],
+    "story": "Tarot card reading is a common fortune telling method for witches. Some witches use customized cards to suit their personal styles. Ophelia's cards also function as the proof of the pacts between her and the creatures she summons. Quite popular as a guide of destiny among the entities of the mysterious dimensions, she has made pacts with countless creatures. Del Arcana, a powerful tarot deck carefully assembled by Ophelia, is the physical proof of these relationships."
+  },
+  "s1": {
+    "name": "Card of Death - Carta",
+    "description": "Attacks enemy target, dealing {0} M.DMG and inflicting Stun for {1} sec. Consumes the card in possession to inflict additional effects. Upon using the skill, gains the card of [Death]. [Death] - DMG ignores target's DEF and Stun duration increases by 5 sec. [Love] - Deals a total of {2} M.DMG over time for 10 sec and reduces heal rate by 100%. [Fortune] - Skill Cooldown does not take effect.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "For 10 sec, target takes 25% increased M.DMG.",
+    "dark": "Mana cost is reduced by 1."
+  },
+  "s2": {
+    "name": "Card of Love - Elliciad",
+    "description": "Increases ATK by {1} for {0} sec and Mana Recovery/Sec by {2}%. Consumes a card in possession to gain an additional effect according to the card type. Gains [Love] card upon use. [Death] - DEF Penetration increases by 600 for the duration of skill and gains immunity to CC for 6 sec. [Love] - The effect applies to all allies. [Luck] - Cooldown does not apply.",
+    "books": {
+      "0": "ATK boost is increased by {0}%.",
+      "1": "ATK boost is increased by {0}%.",
+      "2": "ATK boost is increased by {0}%."
+    },
+    "light": "Recovers target's mana by 1000.",
+    "dark": "ATK boost is increased by 40%.",
+    "ut": {
+      "name": "Elliciad's Heart",
+      "description": [
+        "[Card of Love - Elliciad] Dispels Negative Effects of the target and all skill cooldown are decreased by 6%.",
+        "[Card of Love - Elliciad] Dispels Negative Effects of the target and all skill cooldown are decreased by 7.2%.",
+        "[Card of Love - Elliciad] Dispels Negative Effects of the target and all skill cooldown are decreased by 8.6%.",
+        "[Card of Love - Elliciad] Dispels Negative Effects of the target and all skill cooldown are decreased by 10.4%.",
+        "[Card of Love - Elliciad] Dispels Negative Effects of the target and all skill cooldown are decreased by 12.5%.",
+        "[Card of Love - Elliciad] Dispels Negative Effects of the target and all skill cooldown are decreased by 15%."
+      ],
+      "story": "Spirit of love, Elliciad's heart. It eats both fulfilled and unfulfilled loves, so it can sometimes be as hot as lava, or as cold as ice. The power it displays depends on how contaminated a soul is, and it can display an extensive light of blessing to those with pure souls."
+    }
+  },
+  "s3": {
+    "name": "Card of Fortune - Vellekia",
+    "description": "Attacks the target and the enemies near it to deal {0} M.DMG. This attack cannot miss and deals 100% increased Crit DMG. Gains [Luck] card upon use. [Death] - Crit DMG increases by 120%. [Love] - Removes all positive effects from enemies in range and silences them for 2 sec. [Luck] - Cooldown does not apply. Recovers 1 orb of Mana.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Mana cost is increased by 1 orb but DMG is boosted by 100%.",
+    "dark": "Always inflicts a Crit Hit.",
+    "ut": {
+      "name": "Coin of Fortune",
+      "description": [
+        "[Card of Fortune - Vellekia] Mana cost is reduced by 1 and DMG is increased by 20%.",
+        "[Card of Fortune - Vellekia] Mana cost is reduced by 1 and DMG is increased by 24%.",
+        "[Card of Fortune - Vellekia] Mana cost is reduced by 1 and DMG is increased by 29%.",
+        "[Card of Fortune - Vellekia] Mana cost is reduced by 1 and DMG is increased by 35%.",
+        "[Card of Fortune - Vellekia] Mana cost is reduced by 1 and DMG is increased by 42%.",
+        "[Card of Fortune - Vellekia] Mana cost is reduced by 1 and DMG is increased by 50%."
+      ],
+      "story": "The legendary coin that is said to have changed the course of the wheel of fortune, which was headed toward destruction. Ophelia believes that it was thrown by the spirit of luck, Vellekia."
+    }
+  },
+  "s4": {
+    "name": "Pathfinder of Fate",
+    "description": "All allies' ATK is increased by {0} , and Crit Chance is increased by 100. Ophelia gains additional effect according to the card in possession. [Death] - ATK is increased by {2}%. [Love] - Per each sec, heals {3}% of max HP. [Fortune] - M.Dodge Chance is increased by 200.",
+    "books": {
+      "0": "All allies' ATK boost is increased by {0}%.",
+      "1": "All allies' ATK boost is increased by {0}%.",
+      "2": "All allies' Crit Chance boost is increased by {0}."
+    },
+    "light": "At the start of each battle, gains the card of [Death]. This card does not have DMG boost effect.",
+    "dark": "At the start of each battle, gains the card of [Love]. This card does not have heal effect."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / Crit DMG +20%",
+    "dark": "Upon using a skill, there is a 7% chance that mana cost of all skill is reduced by 1 for 7 sec. This effect cannot be dispelled."
+  }
+}

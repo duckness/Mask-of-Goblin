@@ -1,0 +1,120 @@
+{
+  "name": "Phillop",
+  "subtitle": "Der Zwergenkönig",
+  "description": "Ein legendärer Drachentöter, der zahlreiche Drachenjagden hinter sich hat. Trotz seiner kleinen Statur kann er mit seinem Schildschlag feindliche Formationen zerstören, meist gefolgt von einem tödlichen Axtschwung.",
+  "story": "Er ist der tapfere und aufrichtige König der Zwerge. Gemeinsam mit dem Krieger des Heiligen Schwertes kämpfte er vor 100 Jahren gegen die Dämonenarmee. Für seine Heldentat, den Sieg über die Dunkle Drachenlegion, das Herzstück der Dämonenarmee, ist er im ganzen Land bekannt. Doch in Wahrheit sitzt er nur aus Pflichtbewusstsein auf seinem Thron. Selbst wenn er sich über die Eintönigkeit seiner königlichen Pflichten beschwert, erledigt er sie dennoch stets mit großer Sorgfalt.",
+  "like": "Drinks; Sandbäder; Schmiedekunst und Handwerk",
+  "dislike": "Lange Konferenzen; den königlichen Thron; Dämonen (vor allem Dunkeldrachen)",
+  "inn": {
+    "idle": "Kann ein Mensch so trinken wie ein Zwerg?",
+    "recruit": {
+      "greet": "Hahaha, ihr erinnert mich an die guten alten Zeigen.",
+      "talk": [
+        "Der König der Zwerge? Dieser Titel ist nichts als eine Last.",
+        "Die Bettgröße passt einfach nicht. Aber noch geh' ich nicht heim!",
+        "Verglichen zu uns Zwergen wissen Menschen einfach nicht, wie man das Leben genießt!"
+      ],
+      "gift": "Ist das ein Andenken an unser Treffen? Hahaha, ich werde es gut aufbewahren."
+    },
+    "affinity": {
+      "greet": "Willkommen! Hier! Hoch die Gläser!",
+      "talk": [
+        "Der Krieg vor hundert Jahren ... Ich war so jung wie du, als ich bei König Kyle war ...",
+        "Manchmal vermisse ich meine Zeit als Krieger. Damals hatte ich nicht so viele Probleme."
+      ],
+      "gift": "Das wäre nicht nötig gewesen. Ich hätte allerdings Schnaps bevorzugt. Haha!"
+    },
+    "relationship": {
+      "greet": "Hallo, mein Freund! Schon am trinken, hm?",
+      "talk": [
+        "Damals habe ich vielen wahnsinnigen Drachen und gleichartigem Gesindel den Gar ausgemacht. Genug jedenfalls, dass sich jeder Zwergenbart vor Erstaunen kräuselt, heh.",
+        "Brauchst du eine neue Waffe? Ich habe noch ein paar Zwergenäxte in meiner Truhe.",
+        "Hahaha, du bist vielleicht ein Scherzkeks. Na klar, falls du jemals die Hilfe der Zwerge brauchst, helfe ich dir aus der Klemme."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Atein, die Drachenruinen",
+    "description": [
+      "Phillop erhält Drachen-Wut für 10 Sek, wenn er Schaden erleidet. Sein ANG und VERT steigen je um 0.8%. Drachen-Wut kann bis zu 100mal gestapelt werden.",
+      "Phillop erhält Drachen-Wut für 10 Sek, wenn er Schaden erleidet. Sein ANG und VERT steigen je um 1%. Drachen-Wut kann bis zu 100mal gestapelt werden.",
+      "Phillop erhält Drachen-Wut für 10 Sek, wenn er Schaden erleidet. Sein ANG und VERT steigen je um 1.2%. Drachen-Wut kann bis zu 100mal gestapelt werden.",
+      "Phillop erhält Drachen-Wut für 10 Sek, wenn er Schaden erleidet. Sein ANG und VERT steigen je um 1.4%. Drachen-Wut kann bis zu 100mal gestapelt werden.",
+      "Phillop erhält Drachen-Wut für 10 Sek, wenn er Schaden erleidet. Sein ANG und VERT steigen je um 1.7%. Drachen-Wut kann bis zu 100mal gestapelt werden.",
+      "Phillop erhält Drachen-Wut für 10 Sek, wenn er Schaden erleidet. Sein ANG und VERT steigen je um 2%. Drachen-Wut kann bis zu 100mal gestapelt werden."
+    ],
+    "story": "Die Dunkeldrachen sind Dämonen, die erschaffen wurden, um die Drachen, die Richter der Welt, zu erschlagen. Während des Krieges vor 100 Jahren töteten und verschlangen diese Dunkeldrachen zahllose Drachen. Ein paar der überlebenden Drachen wurden vor Zorn und Schande wahnsinnig und verwandelten sich in Wahnsinnige Drachen. Nun sind sie nichts weiter als riesige Monster, die von ihren zerstörerischen Instinkten angetrieben werden. Phillop und seine Zwerge jagten die Dunkeldrachen und die Wahnsinnigen Drachen seit dem Dämonenkrieg und sammeln deren Überreste, um legendäre Gegenstände zu schmieden."
+  },
+  "s1": {
+    "name": "Zusammenstoß",
+    "description": "Fügt {0} K.Schaden zu und wirft den Feind für {1} Sek zu Boden.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Verringert K.VERT um {1}% getroffener Feinde für {0} Sek."
+    },
+    "light": "Reduziert Manakosten um 1.",
+    "dark": "Reduziert Cooldown um 10% für jeden Treffer."
+  },
+  "s2": {
+    "name": "Kopfnuß",
+    "description": "Prescht zum Feind vor und verursacht {0} K.Schaden. Reduziert Angriffsgeschw. getroffener Feinde um {2}% für {1} Sek.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Verringert Feind-ANG um {0}%."
+    },
+    "light": "Verursacht 10% der max. TP als zusätzlichen K.Schaden.",
+    "dark": "Zurückwerfen-Effekt ändert sich zu 3 Sek-Betäubung.",
+    "ut": {
+      "name": "Zwergischer Steinbockhelm",
+      "description": [
+        "[Kopfnuss] Verringert die Manakosten um 1 und den K.krit Widerstand des betroffenen Feindes 10 Sekunden lang um 200.",
+        "[Kopfnuss] Verringert die Manakosten um 1 und den K.krit Widerstand des betroffenen Feindes 10 Sekunden lang um 240.",
+        "[Kopfnuss] Verringert die Manakosten um 1 und den K.krit Widerstand des betroffenen Feindes 10 Sekunden lang um 290.",
+        "[Kopfnuss] Verringert die Manakosten um 1 und den K.krit Widerstand des betroffenen Feindes 10 Sekunden lang um 350.",
+        "[Kopfnuss] Verringert die Manakosten um 1 und den K.krit Widerstand des betroffenen Feindes 10 Sekunden lang um 420.",
+        "[Kopfnuss] Verringert die Manakosten um 1 und den K.krit Widerstand des betroffenen Feindes 10 Sekunden lang um 500."
+      ],
+      "story": "Der Steinbockhelm des uralten Zwergenkönigs. Er wurde aus dem Gold von Drachen geschaffen, das nach dem Sieg über den dunklen Drachen Bokrug geborgen wurde. Das prächtige goldene Horn des Helms ist mit dunkler Drachenmagie durchwirkt, die einen Feind verlangsamt, der von „Kopfnuss“ getroffen wurde."
+    }
+  },
+  "s3": {
+    "name": "Eins mit der Erde",
+    "description": "Erhöht VERT um {1} für {0} Sek und verleiht Effekt-Immunität bei Aktivierung. Heilt zusätzlich {2}% TP.",
+    "books": {
+      "0": "K.VERT-Erhöhungsrate steigt um {0}%.",
+      "1": "K.VERT-Erhöhungsrate steigt um {0}%.",
+      "2": "K.VERT-Erhöhungsrate steigt um {0}%."
+    },
+    "light": "Fügt Feinden in Reichw. 1% der max. TP als Schaden/Sek zu.",
+    "dark": "Ändert Effekt zu einem Angriff, der Feinde in Reichw. 3 Sek lang betäubt.",
+    "ut": {
+      "name": "Zeremonienhammer der Zwergen",
+      "description": [
+        "[Eins mit der Erde] Erhöht Angriffsgeschw. und krit. Trefferchance um 250, K.VERT-Erhöhugsrate erhöht sich um 20% während d. Wirkungsdauer.",
+        "[Eins mit der Erde] Erhöht Angriffsgeschw. und krit. Trefferchance um 250, K.VERT-Erhöhugsrate erhöht sich um 24% während d. Wirkungsdauer.",
+        "[Eins mit der Erde] Erhöht Angriffsgeschw. und krit. Trefferchance um 250, K.VERT-Erhöhugsrate erhöht sich um 29% während d. Wirkungsdauer.",
+        "[Eins mit der Erde] Erhöht Angriffsgeschw. und krit. Trefferchance um 250, K.VERT-Erhöhugsrate erhöht sich um 35% während d. Wirkungsdauer.",
+        "[Eins mit der Erde] Erhöht Angriffsgeschw. und krit. Trefferchance um 250, K.VERT-Erhöhugsrate erhöht sich um 42% während d. Wirkungsdauer.",
+        "[Eins mit der Erde] Erhöht Angriffsgeschw. und krit. Trefferchance um 250, K.VERT-Erhöhugsrate erhöht sich um 50% während d. Wirkungsdauer."
+      ],
+      "story": "Ein Hammer, den der uralte Zwergenkönig als Geschenk von einem Erdelementar erhielt. Er war ein Geschenk, das der König dafür erhielt, dass er das Königreich der Gnome vor den Angriffen des bösartigen Erddrachen Azi Dhaka beschützte. Beim Einsatz von „Eins mit der Erde“ erhöht dieser mit dem Segen des Erdgeistes durchwirkte Zeremonienhammer die VERT durch die Macht des Erdgeistes und verleiht Immunität gegen TP-Erholung und Effekte."
+    }
+  },
+  "s4": {
+    "name": "Rüstung zerreißen",
+    "description": "Verringert beim Angriff die K.VERT des Feindes um {1} für {0} Sek. Kann bis zu 5mal gestapelt werden.",
+    "books": {
+      "0": "K.VERT Reduzierung erhöht um {0}%.",
+      "1": "K.VERT Reduzierung erhöht um {0}%.",
+      "2": "Verringert feindliche K. Ausw.-Chance um {0}% pro Stapelung."
+    },
+    "light": "Feinde mit 5 Zählern erleiden 1% extra K.Schaden, basierend auf den max TP pro Angriff.",
+    "dark": "Alle positiven Effekte werden beim Angriff entfernt und das Ziel erhält für 20 Sek. 20% mehr K.Schaden. 20 Sek. Cooldown."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / K.Block +200",
+    "dark": "10% Chance, bei einem normalen Angriff den Feind für 2 Sek zu betäuben und extra Schaden in Höhe von 10% der eigenen TP zu verursachen."
+  }
+}

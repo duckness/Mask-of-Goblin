@@ -34,7 +34,7 @@ export default {
             return this.$store.state.artifactID;
         }
       },
-      set(newID) {
+      async set(newID) {
         if (newID !== null) {
           switch (this.$route.name) {
             case "hero":
@@ -42,14 +42,24 @@ export default {
                 name: "hero",
                 params: { id: this.getHeroList[newID] }
               });
-              this.$store.commit("setHeroID", this.getHeroList[newID]);
+              // this.$store.commit("setHeroID", this.getHeroList[newID]);
+              await this.$store.dispatch("changeItem", {
+                mutation: "setHeroID",
+                kind: "hero",
+                num: this.getHeroList[newID]
+              });
               break;
             case "artifact":
               this.$router.push({
                 name: "artifact",
                 params: { id: this.getArtifactList[newID] }
               });
-              this.$store.commit("setArtifactID", this.getArtifactList[newID]);
+              // this.$store.commit("setArtifactID", this.getArtifactList[newID]);
+              await this.$store.dispatch("changeItem", {
+                mutation: "setArtifactID",
+                kind: "artifact",
+                num: this.getArtifactList[newID]
+              });
               break;
           }
         }

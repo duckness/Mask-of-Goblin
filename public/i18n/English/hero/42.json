@@ -1,0 +1,120 @@
+{
+  "name": "Oddy",
+  "subtitle": "Clocksmith of Eternal Life",
+  "description": "A clocksmith that was cursed by the divine animals called the Redpur. His magical clock attacks and petrifies enemies and also allows his allies to use abilites faster.",
+  "story": "He was a mechanic of the royal palace of Orvelia in the distant past. However, he was cursed by the mythical creature Redpur and turned into a Redpur himself. Ever since the transformation, he has been living for so long that he forgot his own age. When he was Human, he invented the first portable watch, but no one in Orvelia saw its true value. To give his invention the recognition it deserved, he set out to the empire. On his way, he was cursed by a group of Redpurs who mistook him for a poacher. The curse also affected his watch, giving it a magical power to control the time flow within a living body. Oddy's own time stopped as well.",
+  "like": "Clocks",
+  "dislike": "Poachers",
+  "inn": {
+    "idle": "Haha~!! Orvelia sure has changed.",
+    "recruit": {
+      "greet": "Greetings, greetings.",
+      "talk": [
+        "Hmm, there's enough time. Shall we talk for a bit?",
+        "I used to be a human once...but now I'm a Redpur.",
+        "My watch is enchanted with magic. The magic of the Redpur..."
+      ],
+      "gift": "Oho~it's been a while since I received such human-like presents!"
+    },
+    "affinity": {
+      "greet": "Hmm? Oh, you're here.",
+      "talk": [
+        "You don't have time? Ha ha, then just make time.",
+        "You've never seen a Redpur before? Not surprised. They're always hiding!"
+      ],
+      "gift": "A gift? Hm, I'll have to prepare something next time."
+    },
+    "relationship": {
+      "greet": "Welcome, welcome!",
+      "talk": [
+        "Ah, I miss my Redpur friends...",
+        "I don't really remember my days as a human. It has been so long.",
+        "I thought I was the first to invent the pocket watch, but apparently ancient civilizations were far more advanced than I expected."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Moonshade Countdown, Tempodiana",
+    "description": [
+      "Upon using Time Distortion, All allies' skill cooldown is reduced by extra 2 sec, and ATK is increased by 14% for 10 sec.",
+      "Upon using Time Distortion, All allies' skill cooldown is reduced by extra 3 sec, and ATK is increased by 17% for 10 sec.",
+      "Upon using Time Distortion, All allies' skill cooldown is reduced by extra 4 sec, and ATK is increased by 21% for 10 sec.",
+      "Upon using Time Distortion, All allies' skill cooldown is reduced by extra 5 sec, and ATK is increased by 25% for 10 sec.",
+      "Upon using Time Distortion, All allies' skill cooldown is reduced by extra 6 sec, and ATK is increased by 30% for 10 sec.",
+      "Upon using Time Distortion, All allies' skill cooldown is reduced by extra 7 sec, and ATK is increased by 35% for 10 sec."
+    ],
+    "story": "After Oddy's watch was zapped with the Redpur curse and gained the power to control time over a living being, he used the infinite time he gained to research its possible applications. When he finally created a watch containing the essence of time magic after so many trials, Oddy found out that the secret of Redpur magic originated from moonlight and the shadow it creates. He named his masterpiece 'Tempodiana,' and gave it the nickname 'Moonshade Countdown.'"
+  },
+  "s1": {
+    "name": "Time Fracture",
+    "description": "Deals {0} M.DMG to enemies in a straight line, and inflicts Petrify for 3 sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Crit Chance is increased by {0}."
+    },
+    "light": "DMG is increased by 40%.",
+    "dark": "Cooldown is reduced by 1.5 sec."
+  },
+  "s2": {
+    "name": "Time Fragments",
+    "description": "Attacks random enemies 6 times, dealing a total of {0} M.DMG. With 50% chance, 'Time Fragments' cooldown resets and consumes no mana for the next single activation.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Crit Chance is increased by {0}."
+    },
+    "light": "Target changes to 2 random enemies.",
+    "dark": "While in cooldown, auto-attacks will reduce the cooldown of 'Time Fragments' by 1 sec.",
+    "ut": {
+      "name": "Fragment Collection",
+      "description": [
+        "[Time Fragments] Has a 25% chance to reset Cooldown and increases DMG by 20%.",
+        "[Time Fragments] Has a 25% chance to reset Cooldown and increases DMG by 24%.",
+        "[Time Fragments] Has a 25% chance to reset Cooldown and increases DMG by 29%.",
+        "[Time Fragments] Has a 25% chance to reset Cooldown and increases DMG by 35%.",
+        "[Time Fragments] Has a 25% chance to reset Cooldown and increases DMG by 42%.",
+        "[Time Fragments] Has a 25% chance to reset Cooldown and increases DMG by 50%."
+      ],
+      "story": "Time Fragments that fell from the shadows of the moon. Sometimes, Time Fragments fall from another dimension from the effect of the shadow of the moon that appears when using time magic. The Time Fragments are small, but when gathered, they become a giant Fragment Collection of records, which give ceaseless inspiration to the caster."
+    }
+  },
+  "s3": {
+    "name": "Time Distortion",
+    "description": "Deals {0} M.DMG to all enemies and increases all allies' ATK Spd by {1} for 15 sec. All allies' skill cooldown is reduced by 50%. 'Time Distortion' is not affected by skill cooldown reduction.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Crit Chance is increased by {0}."
+    },
+    "light": "Increases Mana Cost by 2 and fully recovers Mana for all allies.",
+    "dark": "When there are 5 or more enemies, increases DMG by 100%. Hit Enemies take extra 50% DMG for 10 sec.",
+    "ut": {
+      "name": "Threads of Time",
+      "description": [
+        "[Time Distortion] DMG is increased by 20% and all allies' negative effects are dispelled.",
+        "[Time Distortion] DMG is increased by 24% and all allies' negative effects are dispelled.",
+        "[Time Distortion] DMG is increased by 29% and all allies' negative effects are dispelled.",
+        "[Time Distortion] DMG is increased by 35% and all allies' negative effects are dispelled.",
+        "[Time Distortion] DMG is increased by 42% and all allies' negative effects are dispelled.",
+        "[Time Distortion] DMG is increased by 50% and all allies' negative effects are dispelled."
+      ],
+      "story": "Fur of the Red Fur chief hung in the shadow of the moon. It is said that the mythical creature, the Red Fur Chief, uses the shadow of the moon during full moon to go through dimensions and dance. The Red Fur Chief dances until the shadow of the moon disappears, and it is said that his tail sometimes gets stuck in the pathway. The fur of the colorful mythical creature gets stuck in the rift of time and space and stops time temporarily. Oddy uses the fur from the traces of the shadows of the moon to make a skein and uses it effectively for Time Distortion."
+    }
+  },
+  "s4": {
+    "name": "Clock Magic",
+    "description": "Upon using the skill, next 2 attacks deal {0} additional M.DMG with a 30% chance to petrify the target for 3 sec. This effect activates every 1 sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Crit Chance is increased by {0}."
+    },
+    "light": "Changes the instances of gaining extra DMG from using the skill to 3 times.",
+    "dark": "Changes the chance to Petrify to 40%."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / ATK.Spd +100",
+    "dark": "Every 10 sec, any skills on cooldown for 4 random allies have their cooldowns reduced by 1 sec."
+  }
+}

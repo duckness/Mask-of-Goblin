@@ -1,0 +1,120 @@
+{
+  "name": "Crow",
+  "subtitle": "Die strafende Kugel",
+  "description": "Früher war er Marineoffizier, doch jetzt ist er ein Kopfgeldjäger und Problemlöser. Er ist zynisch und misstraut prinzipiell jedem. Seine Waffen werden in drei Kategorien klassifiziert.",
+  "story": "Deckname: Jagdhund. Ein Kopfgeldjäger, bekannt als Höllenhund. Es heißt, dass niemand diesem ehemaligen Offizier der imperialen Marine entkommen würde, wenn er einmal die Fährte aufgenommen hatte. Der einzige Trost für Verbrecher ist die Tatsache, dass dieser Mann seine Motivation nicht allein von der Höhe des Kopfgelds ableitet. Es gibt zwar viele Theorien, doch die glaubwürdigste ist, dass er nach Rache dürstet. Man sagt, in manchen Momenten könne sich sein kaltes Herz allerdings scheinbar erwärmen: nämlich dann, wenn er eine alte Halskette hervorkramt, die niemand je zu Gesicht bekommen hat.",
+  "like": "Zuckerstangen, eine Halskette mit einer Erinnerung, das vergessene Gezeter einer geliebten Person",
+  "dislike": "Piraten, Götter, die ihm alles nahmen. Und nun, Tabak",
+  "inn": {
+    "idle": "Steh mir nicht im Weg.",
+    "recruit": {
+      "greet": "Was habe ich mit dir zu tun?",
+      "talk": [
+        "Ich werde nur eine Aufgabe annehmen. Denk gut nach, bevor du sprichst.",
+        "Es ist schwer hier Munition zu finden...",
+        "Das ist doch keine Zigarette, nur was Süßes."
+      ],
+      "gift": "Hmm, ich kann mir mit dem Geld neue Zigar... ich meine Süßigkeiten kaufen."
+    },
+    "affinity": {
+      "greet": "Warum hast du mich gerufen? Sag einfach, was du brauchst.",
+      "talk": [
+        "Er hat mir echt Kopfschmerzen bereitet, selbst als er noch unter meinem Kommando stand. Aber ich glaube nicht, dass er so etwas tun würde. Deshalb habe ich das Angebot angenommen.",
+        "Die Anderen konnten seinen Irrsinn anscheinend nicht aushalten. Darum habe ich die Führung übernommen."
+      ],
+      "gift": "Gib mir Süßigkeiten."
+    },
+    "relationship": {
+      "greet": "Was willst... ach, du bist es.",
+      "talk": [
+        "Orvel ist ein guter Ort. Selbst die Luft ist anders als im Königreich.",
+        "Ich habe geglaubt, dass ich bei der Marine mein ganzes Leben auf See verbringe. Rückblickend war das die schlechteste Entscheidung aller Zeiten.",
+        "Es gab zwei Leute, die mir wichtig waren. Ich kann sie nicht mehr treffen... aber ja, haha ​... Beide haben Zigarettenqualm gehasst."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Höllenhund, Akistra",
+    "description": [
+      "Der normale Angriff verschießt eine zusätzliche Kugel, die 50% des ANG als K.Schaden verursacht. Beim Ende des Skills wird 'Höllenhund, Akistra' aktiviert und erhöht ANG und Krit Schaden 20 Sek. lang um 30%. 'Höllenhund, Akistra' wird nur einmal alle 20 Sek. aktiviert.",
+      "Der normale Angriff verschießt eine zusätzliche Kugel, die 60% des ANG als K.Schaden verursacht. Beim Ende des Skills wird 'Höllenhund, Akistra' aktiviert und erhöht ANG und Krit Schaden 20 Sek. lang um 36%. 'Höllenhund, Akistra' wird nur einmal alle 20 Sek. aktiviert.",
+      "Der normale Angriff verschießt eine zusätzliche Kugel, die 70% des ANG als K.Schaden verursacht. Beim Ende des Skills wird 'Höllenhund, Akistra' aktiviert und erhöht ANG und Krit Schaden 20 Sek. lang um 43%. 'Höllenhund, Akistra' wird nur einmal alle 20 Sek. aktiviert.",
+      "Der normale Angriff verschießt eine zusätzliche Kugel, die 85% des ANG als K.Schaden verursacht. Beim Ende des Skills wird 'Höllenhund, Akistra' aktiviert und erhöht ANG und Krit Schaden 20 Sek. lang um 52%. 'Höllenhund, Akistra' wird nur einmal alle 20 Sek. aktiviert.",
+      "Der normale Angriff verschießt eine zusätzliche Kugel, die 100% des ANG als K.Schaden verursacht. Beim Ende des Skills wird 'Höllenhund, Akistra' aktiviert und erhöht ANG und Krit Schaden 20 Sek. lang um 62%. 'Höllenhund, Akistra' wird nur einmal alle 20 Sek. aktiviert.",
+      "Der normale Angriff verschießt eine zusätzliche Kugel, die 125% des ANG als K.Schaden verursacht. Beim Ende des Skills wird 'Höllenhund, Akistra' aktiviert und erhöht ANG und Krit Schaden 20 Sek. lang um 75%. 'Höllenhund, Akistra' wird nur einmal alle 20 Sek. aktiviert."
+    ],
+    "story": "Es handelt sich dabei unbestreitbar um die neueste imperiale technomagische Technologie. Sie kann auf drei Arten verwendet werden, wobei der letzte von ihnen eine Magie nützt, die so zerstörerisch ist, dass man ihren Gebrauch beschränken musste. Valance, der Leiter der imperialen Waffenentwicklungsorganisation Magos Le’Flamme meint, die neue Waffe Archistra wurde direkt nach ihrer Entwicklung von Crow, einem ehemaligen und unehrenhaft entlassenen Marineoffizier gestohlen. Ob Crow es tatsächlich geschafft hatte, eine der wichtigsten Organisationen des Imperiums zu unterwandern und Archistra zu stehlen, muss noch untersucht werden ... Es ist ebenfalls denkbar, dass Valance sie ihm aufgrund ihrer langen Freundschaft einfach aushändigte."
+  },
+  "s1": {
+    "name": "Ziel wird eliminiert.",
+    "description": "Verursacht über 15-mal insgesamt {0} K.Schaden an Gegnern vor dir und hinterlässt 40 Sek. lang 2 „Bissmale des Jagdhunds“. Das Bissmal kann bis zu 100-mal gestapelt werden.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Stellt 30 Mana wieder her, jedes Mal wenn Schaden verursacht wird.",
+    "dark": "Gewährt Effektimmunität, während der Skill aktiv ist."
+  },
+  "s2": {
+    "name": "Kampf ist zwecklos.",
+    "description": "Verursacht {0} durch 10 Angriffe auf einen temporären Feind und schießt eine Frostkugel, die dem Ziel und umgebenden Feinden {1} K.Schaden zufügt und sie 4 Sek. lang einfriert. Die Frostkugel schafft zudem ein gefrorenes Gebiet, das 6 Sek. lang alle 2 Sek. {2} K.Schaden verursacht und zu 50% Feinde 2 Sek. lang einfriert.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Reduziert Cooldown um 3 Sek.",
+    "dark": "Frostchance des gefrorenen Bereichs erhöht sich um 30%.",
+    "ut": {
+      "name": "Kälte-Sperrfeuer",
+      "description": [
+        "[Widerstand ist zwecklos] Verringert die Manakosten um 1 und hat eine Chance von 10 %, das Ziel bei jedem Treffer 3 Sek. lang einzufrieren.",
+        "[Widerstand ist zwecklos] Verringert die Manakosten um 1 und hat eine Chance von 12 %, das Ziel bei jedem Treffer 3 Sek. lang einzufrieren.",
+        "[Widerstand ist zwecklos] Verringert die Manakosten um 1 und hat eine Chance von 14 %, das Ziel bei jedem Treffer 3 Sek. lang einzufrieren.",
+        "[Widerstand ist zwecklos] Verringert die Manakosten um 1 und hat eine Chance von 17 %, das Ziel bei jedem Treffer 3 Sek. lang einzufrieren.",
+        "[Widerstand ist zwecklos] Verringert die Manakosten um 1 und hat eine Chance von 21 %, das Ziel bei jedem Treffer 3 Sek. lang einzufrieren.",
+        "[Widerstand ist zwecklos] Verringert die Manakosten um 1 und hat eine Chance von 25 %, das Ziel bei jedem Treffer 3 Sek. lang einzufrieren."
+      ],
+      "story": "Magos Le’Flamme, die kaiserliche Waffenentwicklungsorganisation, hat es geschafft, die Bodenfrostrakete zu verbessern. Sie versuchten, sie auf die neue Waffe Akistra zu bauen, um sie zu testen. Crow stahl jedoch Akistra, und damit auch die ausgerüstete Rakete. Diese Rakete enthält einen mächtigen Frost und ist stark genug, um das ganze umgebende Land einzufrieren."
+    }
+  },
+  "s3": {
+    "name": "Auch Götter sterben.",
+    "description": "Nimmt Haltung an, konzentriert sich, um einen Laserstrahl abzufeuern, der frontal stehenden Gegnern in Reichweite {0} K. Schaden zufügt. Verbraucht Jagdhundreißzahnmarke, um {1} zusätzlichen K. Schaden pro Zähler zuzufügen. Abhängig von der Konzentrationszeit erhöht sich die Effektreichweite und der Schaden erhöht um bis zu {2}%. Wirft den Feind zurück, sobald die Konzentration abgeschlossen ist.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Erhöht Cooldown um 10 Sek. und Schaden um 100 %.",
+    "dark": "Reduziert Manakosten um 1.",
+    "ut": {
+      "name": "Halskette der Erinnerungen",
+      "description": [
+        "[Auch Götter sterben] Gewährt Effekt-Immunität während der Wirkungsdauer und erhöht Schaden um 20%.",
+        "[Auch Götter sterben] Gewährt Effekt-Immunität während der Wirkungsdauer und erhöht Schaden um 24%.",
+        "[Auch Götter sterben] Gewährt Effekt-Immunität während der Wirkungsdauer und erhöht Schaden um 29%.",
+        "[Auch Götter sterben] Gewährt Effekt-Immunität während der Wirkungsdauer und erhöht Schaden um 35%.",
+        "[Auch Götter sterben] Gewährt Effekt-Immunität während der Wirkungsdauer und erhöht Schaden um 42%.",
+        "[Auch Götter sterben] Gewährt Effekt-Immunität während der Wirkungsdauer und erhöht Schaden um 50%."
+      ],
+      "story": "Ein kostbarer Anhänger, der das Bild von Crows verstorbener Frau und Tochter enthält. Er starrt das Bild oft an, während er Bonbons lutscht, wobei er extrem traurig, und doch ruhig scheint. Der Anhänger ist für ihn wertvoller als sein eigenes Leben; es sollte also von niemandem angerührt werden. Selbst ein Gott würde dafür mit dem Leben bezahlen."
+    }
+  },
+  "s4": {
+    "name": "Jagdvorbereitung",
+    "description": "Crow ist nicht von Änderungen der Angriffsgeschw. betroffen. Sein ANG wird um {0} und sein Krit Schaden um {1}% erhöht. Regeneriert {2} MP pro Sek. Außerdem hinterlässt jeder normale Angriff 40 Sek. lang ein 'Bissmal des Jagdhundes' am Ziel.",
+    "books": {
+      "0": "Erhöht ANG-Erhöhungsrate um {0}%.",
+      "1": "Erhöht ANG-Erhöhungsrate um {0}%.",
+      "2": "Erhöht ANG-Erhöhungsrate um {0}%."
+    },
+    "light": "Bossmonster nimmt 15% höheren Schaden.",
+    "dark": "Erhöht Mana-Erholung um 40%."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / Krit. Schaden +20%",
+    "dark": "Erhöht Manakosten aller Skills um 1 und Schaden um 75 %."
+  }
+}

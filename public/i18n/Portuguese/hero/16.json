@@ -1,0 +1,120 @@
+{
+  "name": "Rephy",
+  "subtitle": "Guia Espiritual",
+  "description": "Meio humano e meio animal, essa criatura guia as almas usando uma lâmpada espiritual. Cura aliados com o poder das almas. Perturba inimigos ou recupera Mana de aliados com a ajuda de almas também.",
+  "story": "Este puro e bondoso guia de almas Tamiano é capaz de se comunicar com os mortos. A raça Tamiana vive em harmonia com a natureza, conseguindo ler seu fluxo e guiar as almas dos mortos. A habilidade de Rephy de guiar almas é excepcional, até mesmo para um Tamiano. Ela a usa para guiar as almas daqueles que pereceram na floresta e ajudá-los a seguir em frente, impedindo que se tornem malignos. Ele é o mais capaz entre os Tamianos no que diz respeito a perceber os caminhos das estrelas, pacificar as almas dos mortos e adequadamente guiá-las para o além.",
+  "like": "Almas, pessoas gentis",
+  "dislike": "Prejudicar os outros",
+  "inn": {
+    "idle": "Você já ouviu falar da Tribo Tamian?",
+    "recruit": {
+      "greet": "Eu sou Rephy, sábio da Tribo Tamian.",
+      "talk": [
+        "Humano, venha comigo. Vamos derrotar o rei malvado e proteger a floresta.",
+        "Você nunca se perde nessa floresta comigo!",
+        "É uma de nossas tarefas guiar aqueles que morreram na floresta, ajudando eles a voltar para onde eles devem."
+      ],
+      "gift": "Eu recebi um presente de um ser humano! Hooray!"
+    },
+    "affinity": {
+      "greet": "Que quentinho! As almas vão gostar deste lugar!",
+      "talk": [
+        "Está ouvindo isso? As estrelas lá fora estão sussurrando pra nós!",
+        "Humano(a), vou convidar você para ir até a nossa floresta da próxima vez!"
+      ],
+      "gift": "Um presente surpresa? Humanos são mesmo bons amigos!"
+    },
+    "relationship": {
+      "greet": "Olá! Sua alma continua pura como sempre!",
+      "talk": [
+        "A floresta é tão agradável! O ar limpo, os ventos refrescantes, as fadas dançando...",
+        "Deixe que eu guio! As almas nos ajudarão!",
+        "As estrelas dizem que hoje será um belo dia! Vamos sair!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Kurulati, Lâmpada de Deus",
+    "description": [
+      "A cada 20 segundos, o aliado com o menor PV fica invisível durante 5 segundos, ganha imunidade a ataques físicos e seu PV não descerá abaixo de 1%. Recuperação de PM aumenta para 120% por segundo.",
+      "A cada 20 segundos, o aliado com o menor PV fica invisível durante 6 segundos, ganha imunidade a ataques físicos e seu PV não descerá abaixo de 1%. Recuperação de PM aumenta para 120% por segundo.",
+      "A cada 20 segundos, o aliado com o menor PV fica invisível durante 7 segundos, ganha imunidade a ataques físicos e seu PV não descerá abaixo de 1%. Recuperação de PM aumenta para 120% por segundo.",
+      "A cada 20 segundos, o aliado com o menor PV fica invisível durante 8 segundos, ganha imunidade a ataques físicos e seu PV não descerá abaixo de 1%. Recuperação de PM aumenta para 120% por segundo.",
+      "A cada 20 segundos, o aliado com o menor PV fica invisível durante 9 segundos, ganha imunidade a ataques físicos e seu PV não descerá abaixo de 1%. Recuperação de PM aumenta para 120% por segundo.",
+      "A cada 20 segundos, o aliado com o menor PV fica invisível durante 10 segundos, ganha imunidade a ataques físicos e seu PV não descerá abaixo de 1%. Recuperação de PM aumenta para 120% por segundo."
+    ],
+    "story": "O dever de um guia de almas é conduzir as almas perdidas ao longo do caminho certo, ajudando-as a seguir em frente para a próxima vida. Esta lamparina, que funciona à base de um orbe misterioso criado há muito tempo por um dragão de uma terra distante, é um tesouro dos Tamians. O orbe em seu núcleo permite que almas próximas se materializem, possibilitando que seu portador fale com elas diretamente. Assim, esta arma é o que há de melhor para um guia de almas. Chefes Tamianos usam esta relíquia há gerações para executar os deveres sagrados de um guia de almas. Agora, perante um grande perigo que ameaça o mundo, a lamparina foi passada para Rephy, o mais poderoso guia de almas que existe."
+  },
+  "s1": {
+    "name": "Alma Curativa",
+    "description": "Cura 4 aliados com o menor PV {2}% do PV máx, e cura extra {1} PV ao longo de {0} segundos. Esse efeito não pode ser removido.",
+    "books": {
+      "0": "Aumenta a Recuperação em {0}%.",
+      "1": "Aumenta a Recuperação em {0}%.",
+      "2": "Aumenta {0}% da Recuperação de PM por segundo."
+    },
+    "light": "Custo de Mana aumenta em 1 e a área de efeito do poder muda para todos os aliados.",
+    "dark": "Cada cura tem 20% de chance de remover penalidades."
+  },
+  "s2": {
+    "name": "Salvação",
+    "description": "Remove todas as penalidades dos aliados e aumenta a DEF.M em {1} , durante {0} segundos.",
+    "books": {
+      "0": "Aumenta a evolução de DEF.M em {0}%.",
+      "1": "Aumenta a evolução de DEF.M em {0}%.",
+      "2": "Durante {0} segundos, aumenta Resistência a CM em {1}."
+    },
+    "light": "Reduz o custo de mana em 1.",
+    "dark": "Aumenta a DEF M. em mais 10% da DEF M. do utilizador.",
+    "ut": {
+      "name": "Semente da Origem",
+      "description": [
+        "[Salvação] Aumenta o Impulso de DEF M. em 50% e reduz a Recarga em 12%.",
+        "[Salvação] Aumenta o Impulso de DEF M. em 50% e reduz a Recarga em 14%.",
+        "[Salvação] Aumenta o Impulso de DEF M. em 50% e reduz a Recarga em 17%.",
+        "[Salvação] Aumenta o Impulso de DEF M. em 50% e reduz a Recarga em 21%.",
+        "[Salvação] Aumenta o Impulso de DEF M. em 50% e reduz a Recarga em 25%.",
+        "[Salvação] Aumenta o Impulso de DEF M. em 50% e reduz a Recarga em 30%."
+      ],
+      "story": "Uma coleção da energia criada no nascimento de uma vida. O item é cálido e delicado, o que faz com que seja apreciado por almas. Rephy o usa para acender o fogo de uma lamparina a fim de utilizar o poder das almas. Quando uma semente é colocada na lamparina, ela reluz intensamente, como quando o sol nasceu pela primeira vez."
+    }
+  },
+  "s3": {
+    "name": "Aceleração da Alma",
+    "description": "Causa {1} DAN.M nos inimigos em área 10 vezes e reduz a Vel de ATQ em {2}%.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta {0}% do DAN.M causado ao inimigo."
+    },
+    "light": "Cada acerto remove 250 de mana do alvo.",
+    "dark": "Em troca de 1 Custo de Mana adicional, Silencia os inimigos no alcance durante 1 segundo.",
+    "ut": {
+      "name": "Refúgio das Almas",
+      "description": [
+        "[Aceleração da Alma] Reduz o custo de mana em 1 e cura o PV de todos os aliados em 8% do DAN.",
+        "[Aceleração da Alma] Reduz o custo de mana em 1 e cura o PV de todos os aliados em 10% do DAN.",
+        "[Aceleração da Alma] Reduz o custo de mana em 1 e cura o PV de todos os aliados em 12% do DAN.",
+        "[Aceleração da Alma] Reduz o custo de mana em 1 e cura o PV de todos os aliados em 14% do DAN.",
+        "[Aceleração da Alma] Reduz o custo de mana em 1 e cura o PV de todos os aliados em 17% do DAN.",
+        "[Aceleração da Alma] Reduz o custo de mana em 1 e cura o PV de todos os aliados em 20% do DAN."
+      ],
+      "story": "Um ornamento que era usado para as cerimônias funerárias da realeza na antiguidade. Dentro da joia verde há uma lágrima cristalizada da criatura mítica que guia as pessoas à morte. É usado como local de descanso para confortar o vazio dentro das almas."
+    }
+  },
+  "s4": {
+    "name": "Harmonia Espiritual",
+    "description": "A cada 7 segundos, o aliado com o menor PV recupera 1 PM e {0} PV.",
+    "books": {
+      "0": "Aumenta a Recuperação em {0}%.",
+      "1": "Aumenta a Recuperação em {0}%.",
+      "2": "Aumenta {0}% da Recuperação de PM."
+    },
+    "light": "Usa a habilidade a cada 5 segundos.",
+    "dark": "Concede 1 orbe de mana ao aliado com PV mais alto."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / ESQ.M +100",
+    "dark": "Ao atacar, há 10% de chance de reduzir toda a DEF do alvo em 20% e reduzir todas as recargas do herói em 5%."
+  }
+}

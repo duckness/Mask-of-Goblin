@@ -1,0 +1,120 @@
+{
+  "name": "Mitra",
+  "subtitle": "Loup d'Argent des Batailles",
+  "description": "Aussi appelé Chant de Folie d'Argent, cet homme indélicat n'a aucun sens de la responsabilité. Pourtant, une fois le combat commencé, il devient un Loup d'Argent intouchable, transformant le champ de bataille en carnage.",
+  "story": "On le connaît sous le nom de Chant de Folie d'Argent. Il est impossible de lui faire confiance. Il ne montre aucun sens des responsabilités. Par contre, au combat, il devient un loup argenté intouchable qui dévaste le champ de bataille. Personne ne connaît son passé. Une seule chose est certaine : une fois qu'il sombre dans la folie du combat, il ne fait plus la différence entre amis et ennemis. Rester près de lui quand il est dans cet état revient à jouer avec une bombe à retardement.",
+  "like": "Se battre, les combats excitants, l'odeur de la poudre",
+  "dislike": "Les prétentions, l'hypocrisie",
+  "inn": {
+    "idle": "Haah... J'ai juste envie d'aller faire une petite sieste.",
+    "recruit": {
+      "greet": "Yo",
+      "talk": [
+        "He, est-ce qu'un combat est en cours quelque part?",
+        "Hmmm, je ne veux rien faire pour le moment.",
+        "Parfois, j'ai juste envie de me lâcher."
+      ],
+      "gift": "Wow?! C'est incroyable!"
+    },
+    "affinity": {
+      "greet": "Oh, quelle belle journée pour tirer !",
+      "talk": [
+        "Les choses allaient bien à l'époque. Ce vieux gars est strict, mais il prend soin de ses hommes. Alors, quand il a quitté l'armée... j'ai fait de même ! Ha ha ha !",
+        "Oh, je me demande ce que fait le vieil homme."
+      ],
+      "gift": "Oh, merci."
+    },
+    "relationship": {
+      "greet": "Oh, vous êtes toujours en vie! Hahaha!",
+      "talk": [
+        "Je me sens bien avec ces armes! Elles sont aussi un peu foireuses... Comme moi!",
+        "Rahaha! Vous savez, ces bâtards me chuchotent parfois, eh. Appuie sur la gachette, appuie, appuie!!! Quelque chose du genre.",
+        "Vous savez quoi? Apparemment, un terrible chasseur de primes, passé par la Marine Impériale, qui en a après vous. Qu'est-ce que ça fait, hein? Hehehe..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Velkinoth, Rugissement de la Folie",
+    "description": [
+      "Les attaques auto augmentent la Pen. DEF et la Vit. d'ATQ de 8. Cumulable 30 fois.",
+      "Les attaques auto augmentent la Pen. DEF et la Vit. d'ATQ de 10. Cumulable 30 fois.",
+      "Les attaques auto augmentent la Pen. DEF et la Vit. d'ATQ de 12. Cumulable 30 fois.",
+      "Les attaques auto augmentent la Pen. DEF et la Vit. d'ATQ de 14. Cumulable 30 fois.",
+      "Les attaques auto augmentent la Pen. DEF et la Vit. d'ATQ de 17. Cumulable 30 fois.",
+      "Les attaques auto augmentent la Pen. DEF et la Vit. d'ATQ de 20. Cumulable 30 fois."
+    ],
+    "story": "Une paire d'armes magiques absorbant la frénésie guerrière de leur porteur pour accroître leur puissance de feu. Chaque pression de leurs gâchettes stimule la soif de sang de leur utilisateur. On dit que lorsqu'un maître-artisan crée une arme, celle-ci développe une âme. Les Berkinos semblent posséder l'âme d'un dieu de la guerre. Si l'on en croit la légende, quand leur créateur appuya pour la première fois sur la détente, il devint soudainement livide de peur et les jeta dans un fleuve."
+  },
+  "s1": {
+    "name": "Bang! Bang!!",
+    "description": "Attaque l'ennemi à 2 reprises, inflige {0} points de DEG P. à chaque fois. Lors d'un coup critique, une explosion se produit, inffligeant {1} points de DEG P. supplémentaires aux ennemis à portée.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Les DEG sont augmentés de 100% lorsqu'il y a 1 ennemi.",
+    "dark": "Marquer a maintenant 2 charges."
+  },
+  "s2": {
+    "name": "C'est le Moment de Mourir",
+    "description": "Augmente l'ATQ de {0} et la Précision de {1} pendant 20 sec. Les attaques auto ont 15% de chance de déclencher 'Bang! Bang!!'.",
+    "books": {
+      "0": "Le Taux d'augmentation de l'ATQ est augmenté de {0}%.",
+      "1": "Le Taux d'augmentation de l'ATQ est augmenté de {0}%.",
+      "2": "Le Taux d'augmentation de l'ATQ est augmenté de {0}%."
+    },
+    "light": "Reçoit 20% de DEG supplémentaires de toutes les sources en échange d'un bonus de 100% à l'ATQ.",
+    "dark": "Les chances de Bang! Bang! sont augmentées de 10%.",
+    "ut": {
+      "name": "Boîte de déluge du loup",
+      "description": [
+        "[C'est le moment de mourir] Augmente les DEG Crit de 20 % pendant la durée de la compétence. Les PV ne peuvent pas tomber en dessous de 10 % pendant 3 sec.",
+        "[C'est le moment de mourir] Augmente les DEG Crit de 24 % pendant la durée de la compétence. Les PV ne peuvent pas tomber en dessous de 10 % pendant 3 sec.",
+        "[C'est le moment de mourir] Augmente les DEG Crit de 29 % pendant la durée de la compétence. Les PV ne peuvent pas tomber en dessous de 10 % pendant 3 sec.",
+        "[C'est le moment de mourir] Augmente les DEG Crit de 35 % pendant la durée de la compétence. Les PV ne peuvent pas tomber en dessous de 10 % pendant 3 sec.",
+        "[C'est le moment de mourir] Augmente les DEG Crit de 42 % pendant la durée de la compétence. Les PV ne peuvent pas tomber en dessous de 10 % pendant 3 sec.",
+        "[C'est le moment de mourir] Augmente les DEG Crit de 50 % pendant la durée de la compétence. Les PV ne peuvent pas tomber en dessous de 10 % pendant 3 sec."
+      ],
+      "story": "Boîte de déluge du loup d’acier. Les loups d’acier étaient réputés pour être trop agressifs et ainsi rendre impossible toute réanimation de leurs victimes. Le loup d’argent le plus tristement célèbre ne se sert que de la boîte de déluge du loup optimisée que la propriétaire de la Barre d’Or lui a offerte."
+    }
+  },
+  "s3": {
+    "name": "Danse avec moi",
+    "description": "Tire à 12 reprises avec son arme sur un ennmi aléatoire, inflige un total de {0} points de DEG P. Chaque fois que des DEG sont infligés, une Marque de la Mort est appliquée (ne peut pas être enlevé). Chaque charge de Marque de la Mort augmente les dégâts de 'Shootout' de 1%.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Les DEG sont augmentés de 40%.",
+    "dark": "Ajoute 2 marques supplémentaires par coup.",
+    "ut": {
+      "name": "Rune des mercenaires à tête de loup",
+      "description": [
+        "[Danse avec moi] Les DEG sont augmentés de 20% et pour chaque activation, le Temps de Recharge de la compétence est réduit de 5%. Cumulable 8 fois.",
+        "[Danse avec moi] Les DEG sont augmentés de 24% et pour chaque activation, le Temps de Recharge de la compétence est réduit de 5%. Cumulable 8 fois.",
+        "[Danse avec moi] Les DEG sont augmentés de 29% et pour chaque activation, le Temps de Recharge de la compétence est réduit de 5%. Cumulable 8 fois.",
+        "[Danse avec moi] Les DEG sont augmentés de 35% et pour chaque activation, le Temps de Recharge de la compétence est réduit de 5%. Cumulable 8 fois.",
+        "[Danse avec moi] Les DEG sont augmentés de 42% et pour chaque activation, le Temps de Recharge de la compétence est réduit de 5%. Cumulable 8 fois.",
+        "[Danse avec moi] Les DEG sont augmentés de 50% et pour chaque activation, le Temps de Recharge de la compétence est réduit de 5%. Cumulable 8 fois."
+      ],
+      "story": "Rune des plus grands mercenaires, les Loups d’Acier. Une rune symbolisant les mercenaires des Loups d’Acier, qui étaient surnommés les démons du champ de bataille. Mitra fut surnommé le Loup d’Argent du champ de bataille. Même après avoir quitté les mercenaires, il se souvient encore des combats contre l’officier naval de l’empire."
+    }
+  },
+  "s4": {
+    "name": "Vous êtes le Prochain",
+    "description": "Les attaques auto appliquent Marque de la Mort sur l'ennemi. Enchaîner des attaques auto et 'Bang! Bang!!' sur l'ennemi inflige {0} points de DEG P. supplémentaires. Chaque charge de Marque de la Mort augmente les dégâts de cette compétence sur cette cible de 2%. Cumulable 100 fois.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Le maximum de Marque est maintenant de 200.",
+    "dark": "Tous les Temps de recharge sont réduits de 0,3 lorsqu'une cible affectée par 100 charges est touchée."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / DEG Crit +20%",
+    "dark": "Un Crit Hit augmente les DEG Crit de 0.5% et la Vit. ATQ de 5. Cumulable 100 fois."
+  }
+}

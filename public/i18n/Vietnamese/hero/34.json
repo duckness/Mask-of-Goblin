@@ -1,0 +1,120 @@
+{
+  "name": "Annette",
+  "subtitle": "Nhà phát minh Cung điện Hoàng gia",
+  "description": "Một nhà phát minh thiên tài luôn hy vọng đến một ngày mọi người đều có thể tiếp cận với phép thuật. Con Robot Quái vật đá của cô nàng chính là vũ khí, giúp tiêu diệt mọi kẻ thù",
+  "story": "Một pháp nghệ sư thiên tài từ Vương quốc Orvelia. Nàng là người rất lạc quan và dường như thất bại chưa bao giờ khiến nàng bận tâm. Nàng mơ ước sẽ phát minh ra một thiết bị cho phép bất kỳ người nào cũng có thể sử dụng phép thuật một ngày nào đó. Nàng có một phụ tá được tạo ra nhờ phép thuật, là kết quả sau nhiều năm nghiên cứu của nàng. Sau khi Ác quỷ xuất hiện, nàng đã đưa nghiên cứu của mình vào việc phát triển các vũ khí cho phép bất kỳ người nào cũng có thể chiến đấu chống lại những kẻ xâm lược.",
+  "like": "Khoa học phép thuật, vốn nghiên cứu",
+  "dislike": "Những người coi thường Khoa học phép thuật",
+  "inn": {
+    "idle": "Waa, Thật đông đúc! Thật khác với phòng nghiên cứu của ta ở lâu đài!",
+    "recruit": {
+      "greet": "Xin chào? Bạn có hứng thú với khoa học phép thuật không?",
+      "talk": [
+        "Tất cả mọi người đều có quyền được sử dụng phép thuật! Đó chỉ là lý do mà ta muốn tạo ra thôi!",
+        "Nếu làm việc ở lâu đài, phí nghiên cứu cũng nhiều...mặc dù vậy vẫn thiếu!",
+        "Hm? Trứng bán ở đây, thật trông giống mấy nhóc xinh xắn của ta phải không?"
+      ],
+      "gift": "Hehe! Cám ơn vì chi phí hỗ trợ nghiên cứu!"
+    },
+    "affinity": {
+      "greet": "Thí nghiệm, thí nghiệm, thí nghiệm thật vui! Ôi? Xin chào!",
+      "talk": [
+        "Mấy bé này lớn nhanh như thổi vậy! Chẳng bao lâu nữa là chúng ra trận được rồi!",
+        "Mỗi người nhận một bé! Được chứ?"
+      ],
+      "gift": "He he, ta sẽ có nhiều tiền lắm đây...!"
+    },
+    "relationship": {
+      "greet": "Chào! Hôm nay bạn đã học được gì rồi?",
+      "talk": [
+        "Tốt~~~lắm! Cùng đi thử nghiệm lý thuyết mới của tôi nào!",
+        "Dạo này ở vương quốc hay hỗ trợ kinh phí lắm! Nhờ vậy mà nghiên cứu của ta cũng được tiến hành ổn định~",
+        "Tôi muốn nhanh có thể chia sẻ những em đáng yêu của tôi cho tất cả mọi người."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Tinh thể Phát minh, Rascal",
+    "description": [
+      "Mỗi 1.5 giây, cộng dồn một lượt Nạp phép và hồi 1% mana",
+      "Mỗi 1.4 giây, cộng dồn một lượt Nạp phép và hồi 1% mana",
+      "Mỗi 1.3 giây, cộng dồn một lượt Nạp phép và hồi 1% mana",
+      "Mỗi 1.1 giây, cộng dồn một lượt Nạp phép và hồi 1% mana",
+      "Mỗi 0.9 giây, cộng dồn một lượt Nạp phép và hồi 1% mana",
+      "Mỗi 0.7 giây, cộng dồn một lượt Nạp phép và hồi 1% mana"
+    ],
+    "story": "Linh hồn màu nhiệm, được tạo dựa trên thuyết Annette. Năm vị pháp sư hàng đầu của lâu đài Orvel đã dồn năng lượng của họ để tạo ra sinh vật kỳ diệu này. Nó có ý chí riêng, cho phép nó đưa ra những quyết định độc lập và thực hiện hành động. Nó chia sẻ mana với Annette và cũng có thể sử dụng bất kỳ nguồn mana nào ở gần. Như vậy, đây là cột mốc quan trọng đầu tiên trong nỗ lực mang phép thuật đến với tất cả mọi người của Annette."
+  },
+  "s1": {
+    "name": "Tia sát thương",
+    "description": "Tấn công kẻ địch theo một đường thẳng, gây {0} sát thương phép cho mục tiêu và tăng sát thương phép địch phải chịu lên {1}%. Nếu sử dụng chiêu khi đã nạp đầy, gây thêm {2} sát thương phép và tăng sát thương phép địch phải chịu lên {3}%.",
+    "books": {
+      "0": "Tăng {0}% sát thương",
+      "1": "Tăng {0}% sát thương",
+      "2": "Khi sử dụng, số lượt Nạp phép tăng 30%"
+    },
+    "light": "Làm tăng 25% sát thương phép nhận được của đối phương trong 10 giây.",
+    "dark": "Tăng 40% lượng hồi phép nhận được khi sử dụng."
+  },
+  "s2": {
+    "name": "Trị thương Khẩn cấp",
+    "description": "Loại bỏ mọi hiệu ứng xấu trên đồng minh và hồi thể lực tương đương {0} trong vòng 10 giây, đồng thời tăng 250 chỉ số kháng hiệu ứng xấu. Nếu sử dụng chiêu khi đã nạp đầy, tất cả đồng minh sẽ nhận thêm {1} Xác xuất chí mạng và miễn nhiễm với trạng thái xấu.",
+    "books": {
+      "0": "Tăng {0}% hồi máu",
+      "1": "Tăng {0}% hồi máu",
+      "2": "Khi sử dụng, số lượt Nạp phép tăng 30%"
+    },
+    "light": "Thời gian đợi dùng chiêu lại giảm 3 giây.",
+    "dark": "Tăng 40% lượng nạp nhận khi sử dụng.",
+    "ut": {
+      "name": "Bản thảo trị thương",
+      "description": [
+        "[Trị thương Khẩn cấp] Giảm 1 Tiêu hao mana và tăng 20% Hồi máu.",
+        "[Trị thương Khẩn cấp] Giảm 1 Tiêu hao mana và tăng 24% Hồi máu.",
+        "[Trị thương Khẩn cấp] Giảm 1 Tiêu hao mana và tăng 29% Hồi máu.",
+        "[Trị thương Khẩn cấp] Giảm 1 Tiêu hao mana và tăng 35% Hồi máu.",
+        "[Trị thương Khẩn cấp] Giảm 1 Tiêu hao mana và tăng 42% Hồi máu.",
+        "[Trị thương Khẩn cấp] Giảm 1 Tiêu hao mana và tăng 50% Hồi máu."
+      ],
+      "story": "Một bản thảo trị thương trong tình huống khẩn cấp. Đây là sản phẩm của cộng đồng công nghệ phép thuật bí mật, giới thiệu trong hội thảo tháng của Babel có tên 'Tự phục vụ trong chiến đấu! Bản thảo đoạt giải nhất Cuộc thi bản thảo cơ khí'. Đây là sản phẩm của Annette, một kỹ năng trị thương cho đồng minh bằng công nghệ mà không cần bất kỳ nguồn sức mạnh phép thuật nào."
+    }
+  },
+  "s3": {
+    "name": "Kết liễu",
+    "description": "Phát nổ quả cầu năng lượng về phía địch ngẫu nhiên và xung quanh đó, gây tổng {0} sát thương phép. Nếu sử dụng chiêu khi đã nạp đầy, lúc quả cầu nổ sẽ gây {1} sát thương phép và làm choáng tất cả kẻ địch trong vòng 5 giây.",
+    "books": {
+      "0": "Tăng {0}% sát thương",
+      "1": "Tăng {0}% sát thương",
+      "2": "Khi sử dụng, số lượt Nạp phép tăng 30%"
+    },
+    "light": "Lượng sát thương tăng 40%.",
+    "dark": "Làm tăng 25% sát thương phép đối phương nhận phải.",
+    "ut": {
+      "name": "Mã hủy diệt",
+      "description": [
+        "Lượng sát thương của [Kết liễu] tăng 20%, nhận thêm 2 cộng dồn khi tấn công. Cộng dồn này có thể nhận được kể cả lúc ở trạng thái đã nạp đầy.",
+        "Lượng sát thương của [Kết liễu] tăng 24%, nhận thêm 2 cộng dồn khi tấn công. Cộng dồn này có thể nhận được kể cả lúc ở trạng thái đã nạp đầy.",
+        "Lượng sát thương của [Kết liễu] tăng 29%, nhận thêm 2 cộng dồn khi tấn công. Cộng dồn này có thể nhận được kể cả lúc ở trạng thái đã nạp đầy.",
+        "Lượng sát thương của [Kết liễu] tăng 35%, nhận thêm 2 cộng dồn khi tấn công. Cộng dồn này có thể nhận được kể cả lúc ở trạng thái đã nạp đầy.",
+        "Lượng sát thương của [Kết liễu] tăng 42%, nhận thêm 2 cộng dồn khi tấn công. Cộng dồn này có thể nhận được kể cả lúc ở trạng thái đã nạp đầy.",
+        "Lượng sát thương của [Kết liễu] tăng 50%, nhận thêm 2 cộng dồn khi tấn công. Cộng dồn này có thể nhận được kể cả lúc ở trạng thái đã nạp đầy."
+      ],
+      "story": "Mã tuyệt mật của Babel, một cộng đồng bí mật chuyên nghiên cứu về ma thuật. Pháp thuật cho người thường! Cộng đồng pháp nghệ bí mật Babel là một tổ chức ẩn danh với mong muốn mang pháp thuật đến cho mọi người. Từng người cung cấp kỹ thuật pháp nghệ dưới dạng mã bí mật và chỉ cho phép những người có thể giải mã sử dụng. Annette giải được mã bí mật trong 4 phút và hiện đang dùng trong công cuộc hủy diệt."
+    }
+  },
+  "s4": {
+    "name": "Nạp phép",
+    "description": "Mỗi 0.5 giây nạp 1, với mỗi mana đã tiêu thụ nạp thêm 10. Khi nạp dồn đến 100 chuyển hóa sang trạng thái Nạp Phép Đầy, tăng {0} lực tấn công trong 15 giây và tấn công thường làm giảm 10% thời gian sử dụng chiêu. Mọi hiệu quả không thể gỡ bỏ và khi ở trạng thái Nạp Phép Đầy sẽ không thể nạp dồn thêm.",
+    "books": {
+      "0": "Tăng  {0}% mức Tăng tấn công",
+      "1": "Tăng  {0}% mức Tăng tấn công",
+      "2": "Khi ở trạng thái Nạp Phép Đầy, tăng {0} tốc độ tấn công."
+    },
+    "light": "Chỉ số tăng sức tấn công tăng 40%.",
+    "dark": "Tăng 3 giây thời gian kéo dài nạp."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / ATK.Spd +100",
+    "dark": "Nếu ra chiêu khi hồi chiêu đầy, cung cấp hiệu ứng 200 tốc độ tấn công lên toàn bộ đồng minh, sức tấn công của toàn bộ đồng minh tăng một mức 5% sức tấn công của Annette."
+  }
+}

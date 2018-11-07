@@ -1,0 +1,120 @@
+{
+  "name": "Cleo",
+  "subtitle": "Sorcière du Purgatoire",
+  "description": "Une sorcière de la Tour Rouge, elle utilise la magie explosive du feu pour infliger des dégâts à de multiples ennemis et inflige des dégâts encore plus élevés en faisant exploser les braises.",
+  "story": "Les premiers souvenirs de Cleo remontent à la Tour du Sage. Orpheline élevée par Dominiks le Grand Sage, elle est à la fois une magicienne de génie et une fauteuse de troubles. Son incapacité à contrôler son propre pouvoir l'a souvent plongé dans le pétrin, notamment lorsqu'elle détruisit en partie la Tour Rouge, sa propre résidence. Cependant, elle s'est trouvée mise à l'écart de ses pairs, car le Grand Sage ne se fâchait jamais après elle. Cela a fait d'elle une fille égocentrique et irréfléchie. Néanmoins, au fond de son cœur, elle reste une petite fille bienveillante qui craint d'être rejetée par les autres.",
+  "like": "Les feux de camp, les oreillers (?)",
+  "dislike": "Les machines",
+  "inn": {
+    "idle": "Ah... quel ennui. J'espérais qu'il y aurait des objets magiques amusants par-ici.",
+    "recruit": {
+      "greet": "Bonjour! Je suis Cleo. Un Archimage!",
+      "talk": [
+        "Vous voulez de la viande? Je peux la cuisiner pour vous.",
+        "Curiosité à propos de la Magie du Feu? Hehehe, je pourrais vous apprendre, mais tout le monde ne peut pas le faire.",
+        "Pourquoi les gens m'appellent-ils la Sorcière du Purgatoire? Je n'aime pas ça. Appelez-moi Archimage!!"
+      ],
+      "gift": "Heh, je vous aime bien."
+    },
+    "affinity": {
+      "greet": "Vous êtes en retard ! De quel droit faites-vous ainsi attendre l'archimage ?",
+      "talk": [
+        "Qui je préfère entre Frey et Roi ? Cette question n'a pas de sens ! Frey, bien sûr !",
+        "Je me demande où est ma mère... Tant que je suis en vie, je devrais pouvoir la voir, non ?"
+      ],
+      "gift": "Oh ! Voilà qui ira très bien à l'archimage ! Merci !"
+    },
+    "relationship": {
+      "greet": "Oho, vous êtes donc venu voir le meilleur Archimage de tous les temps!",
+      "talk": [
+        "Frey est plus qu'un oreiller pour moi!",
+        "N'oubliez pas. C'est grâce à moi que nous sommes parvenus jusqu'ici aussi vite.",
+        "Vous restez avec nous, nest-ce pas?"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Flenos, Flamme Primitive",
+    "description": [
+      "Les braises explosent toutes les 4 secondes, infligeant aux ennemis à proximité 80% des dégâts de l'ATQ sous forme de DEG M.",
+      "Les braises explosent toutes les 4 secondes, infligeant aux ennemis à proximité 96% des dégâts de l'ATQ sous forme de DEG M.",
+      "Les braises explosent toutes les 4 secondes, infligeant aux ennemis à proximité 114% des dégâts de l'ATQ sous forme de DEG M.",
+      "Les braises explosent toutes les 4 secondes, infligeant aux ennemis à proximité 138% des dégâts de l'ATQ sous forme de DEG M.",
+      "Les braises explosent toutes les 4 secondes, infligeant aux ennemis à proximité 166% des dégâts de l'ATQ sous forme de DEG M.",
+      "Les braises explosent toutes les 4 secondes, infligeant aux ennemis à proximité 200% des dégâts de l'ATQ sous forme de DEG M."
+    ],
+    "story": "L'essence de la Première Flamme du monde. Le seigneur des Élementaires de Feu offrit cette gemme magnifique à un Humain qui était entré en contact avec lui. Au fil du temps, elle finit entre les mains d'un archimage, qui l'inséra au sein de son bâton. Plus tard, l'archimage offrit le bâton à son précieux disciple."
+  },
+  "s1": {
+    "name": "Pointe de Feu",
+    "description": "Attaque 5 fois un ennemi choisi au hasard, ce qui lui inflige {0}  points de DEG M ainsi que 1 charge de Braises.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG de {0}%."
+    },
+    "light": "Les DEG sont augmentés de 40%.",
+    "dark": "Accumule 2 Braises chacun."
+  },
+  "s2": {
+    "name": "Boule de Feu",
+    "description": "Attaque la cible et les ennemis près d'elle, ce qui leur inflige {0}  points de DEG M et les étourdit pendant 2 sec. Inflige {2}  points de DEG M supplémentaires pour chaque charge de Braises infligée à l'ennemi.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG de {0}%."
+    },
+    "light": "Les DEG sont augmentés de 40%.",
+    "dark": "Le coût en Mana est augmenté de 1 et attaque une cible aléatoire à 2 reprises.",
+    "ut": {
+      "name": "Élixir de Flamel",
+      "description": [
+        "[Boule de feu] Augmente les DEG de 20 % et accumule 5 Braises sur l'ennemi affecté.",
+        "[Boule de feu] Augmente les DEG de 24 % et accumule 5 Braises sur l'ennemi affecté.",
+        "[Boule de feu] Augmente les DEG de 29 % et accumule 5 Braises sur l'ennemi affecté.",
+        "[Boule de feu] Augmente les DEG de 35 % et accumule 5 Braises sur l'ennemi affecté.",
+        "[Boule de feu] Augmente les DEG de 42 % et accumule 5 Braises sur l'ennemi affecté.",
+        "[Boule de feu] Augmente les DEG de 50 % et accumule 5 Braises sur l'ennemi affecté."
+      ],
+      "story": "Élixir obtenu par Flamel, l’alchimiste de feu, en condensant des essences de flamme. Tous les sorciers du monde envient le feu de Flamel, qui brûle sans interruption. L’essence de flamme qu’il a obtenue grâce aux salamandres du volcan Dragia décuple les effets de Boule de Feu."
+    }
+  },
+  "s3": {
+    "name": "Pluie de Feu",
+    "description": "Attaque 8 fois tous les ennemis, ce qui leur inflige un total de {0}  points de DEG M ainsi que 1 charge de Braises. Inflige {1}  points de DEG M supplémentaires pour chaque charge de Braises infligée à l'ennemi.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG de {0}%."
+    },
+    "light": "Temps de recharge réduit de 3 sec.",
+    "dark": "À partir de 5 charges de Braise, applique Étourdissement pendant 1 sec.",
+    "ut": {
+      "name": "Parchemin d'enfer brûlant",
+      "description": [
+        "[Pluie de Feu] Les DEG sont augmentés de 20% et le Temps de Recharge de la Compétence est réduit de 3% lors d'un Crit sur un ennemi ayant plus de 5 charges de Braise.",
+        "[Pluie de Feu] Les DEG sont augmentés de 24% et le Temps de Recharge de la Compétence est réduit de 3% lors d'un Crit sur un ennemi ayant plus de 5 charges de Braise.",
+        "[Pluie de Feu] Les DEG sont augmentés de 29% et le Temps de Recharge de la Compétence est réduit de 3% lors d'un Crit sur un ennemi ayant plus de 5 charges de Braise.",
+        "[Pluie de Feu] Les DEG sont augmentés de 35% et le Temps de Recharge de la Compétence est réduit de 3% lors d'un Crit sur un ennemi ayant plus de 5 charges de Braise.",
+        "[Pluie de Feu] Les DEG sont augmentés de 42% et le Temps de Recharge de la Compétence est réduit de 3% lors d'un Crit sur un ennemi ayant plus de 5 charges de Braise.",
+        "[Pluie de Feu] Les DEG sont augmentés de 50% et le Temps de Recharge de la Compétence est réduit de 3% lors d'un Crit sur un ennemi ayant plus de 5 charges de Braise."
+      ],
+      "story": "Un parchemin rédigé par une sorcière de feu connue sous le nom de Déesse du Feu. Un parchemin laissé par la grande Sorcière du Feu d’Orvelia, Vesta, lorsqu’elle était à la Tour du Sage. Il est très puissant, mais demande beaucoup de mana. Cleo prit le Parchemin d’enfer brûlant dans la Tour du Sage, alors que c’est un parchemin interdit. Elle l’utilise désormais pour améliorer sa Pluie de Feu."
+    }
+  },
+  "s4": {
+    "name": "Diffusion de Flammes",
+    "description": "Les attaques normales ont 20 % de chances d'attaquer 3 ennemis choisis au hasard, infligeant {0}  points de DEG M à la cible et aux ennemis près d'elle, ainsi que 1 charge de Braises. La compétence Braises inflige un total de {1}  points de DEG M pendant 20 sec, réduit la DEF M de la cible de 5 % et peut être cumulée 5 fois au maximum.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Chaque coup critique ajoute 2 Braises."
+    },
+    "light": "Braise: nombre de charges maximum changé",
+    "dark": "Les chances d'activation passent à 30 %."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Chances Crit +100",
+    "dark": "Les DEG de Feu sont augmentés 200%."
+  }
+}

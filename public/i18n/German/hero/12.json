@@ -1,0 +1,120 @@
+{
+  "name": "Miruru",
+  "subtitle": "Verfluchte Piratenkaiserin",
+  "description": "Die legendäre Piratin, verflucht und in ein kleines Mädchen verwandelt. Ihre Präzision mit ihren Kanonenbällen sucht ihresgleichen.",
+  "story": "Einst befuhr sie die See als Piratenkaiserin und versetzte die Herzen der Seefahrer in Angst und Schrecken. Doch ein verfluchter Gegenstand verwandelte sie in ein Kind und alle loyalen Verbündeten und Crewmitglieder verließen sie kurz darauf. Weil sie aber niemand ist, der schnell aufgibt, begann sie von Grund auf neu und träumt nun davon, ihren früheren Ruhm wiederzuerlangen. Unglücklicherweise sorgte der Kindheitsfluch aber auch dafür, dass ihre Denkweise wieder unreif wurde. Trotzdem verfolgt sie ihren Traum. Momentan befehligt sie die zweiten Miruru-Piraten, bestehend aus Goblins und Gnollen.",
+  "like": "Schätze und alles was glitzert",
+  "dislike": "Die Marine",
+  "inn": {
+    "idle": "Wie wär's mit einer Allianz? Ich geb' dir 10% von allem, was wir finden!",
+    "recruit": {
+      "greet": "Freut mich auch~!!",
+      "talk": [
+        "Gemeinsam können wir alles tun! Sogar mit diesem verfluchten Kindskörper!",
+        "Das Meer ruft!",
+        "Eines Tages werde ich meine wirkliche Form wiedererlangen."
+      ],
+      "gift": "Gold! Es ist Gold!"
+    },
+    "affinity": {
+      "greet": "Willkommen! Mein Lieblings-Ehren-Untergebener!!!",
+      "talk": [
+        "Hmm ... Meine Vergangenheit? Immer, wenn ich mich an etwas erinnern will ... macht es bumm!!! Und ich falle aus dem Bett.",
+        "Aber an etwas kann ich mich erinnern. An einen brennenden Durst ... und an Schrift auf einer Landkarte ... Der Brunnen des Lebens?"
+      ],
+      "gift": "Du bist wahrlich mein Untertan! Jetzt ist der Schatz der Miruru-Piraten komplett!"
+    },
+    "relationship": {
+      "greet": "Hey! Willkommen zurück!",
+      "talk": [
+        "Lasst uns heute ebenfalls hart arbeiten! Für die Miruru-Piraten!",
+        "Hast du Schätze mitgebracht? Wo denn? Wo denn? Zeig mal!",
+        "Meine Kanone? Ja, die hab ich selber hergestellt. Ist das nicht total mega? Total mega, oder?"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Leviathan, die ultimative Waffe",
+    "description": [
+      "Verursacht bei Feinden, die von Boooooom! betroffen sind, mit einer Chance von 50 % K.Schaden in Höhe von 100 % des ANG und das Ziel erleidet 10 Sekunden lang um 20 % erhöhten K.Schaden.",
+      "Verursacht bei Feinden, die von Boooooom! betroffen sind, mit einer Chance von 50 % K.Schaden in Höhe von 120 % des ANG und das Ziel erleidet 10 Sekunden lang um 24 % erhöhten K.Schaden.",
+      "Verursacht bei Feinden, die von Boooooom! betroffen sind, mit einer Chance von 50 % K.Schaden in Höhe von 140 % des ANG und das Ziel erleidet 10 Sekunden lang um 29 % erhöhten K.Schaden.",
+      "Verursacht bei Feinden, die von Boooooom! betroffen sind, mit einer Chance von 50 % K.Schaden in Höhe von 170 % des ANG und das Ziel erleidet 10 Sekunden lang um 35 % erhöhten K.Schaden.",
+      "Verursacht bei Feinden, die von Boooooom! betroffen sind, mit einer Chance von 50 % K.Schaden in Höhe von 210 % des ANG und das Ziel erleidet 10 Sekunden lang um 42 % erhöhten K.Schaden.",
+      "Verursacht bei Feinden, die von Boooooom! betroffen sind, mit einer Chance von 50 % K.Schaden in Höhe von 250 % des ANG und das Ziel erleidet 10 Sekunden lang um 50 % erhöhten K.Schaden."
+    ],
+    "story": "Früher, als Miruru noch als Piratenkaiserin herrschte, wurde sie von Seefahrern gefürchtet und stellte eine große Bedrohung für die Seestreitkräfte von Orvelia und dem Imperium dar. Die Kanonen auf ihrem Schiff jagten vor allem der Marine Angst ein. Die mächtigste unter ihnen war Leviathan, die Hauptkanone des Schiffs. Als Miruru verflucht worden war, nahm sie auf der Flucht vor ihrer meuternden Besatzung eine Sache mit: Leviathan, die stärkste Kanone ihres Arsenals, deren Wert als Waffe wesentlich höher ist als jedes Gold oder andere Beute. Nach zahlreichen Modifikationen dient dieser ehemalige Schrecken der Meere ihr nun als mobile Artillerie."
+  },
+  "s1": {
+    "name": "Baaaam!",
+    "description": "Verursacht {0} K.Schaden an allen Feinden und wirft sie zurück.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Erhöht den K.Schaden, den das Ziel erleidet, für 10 Sek. um 25 %.",
+    "dark": "ANG wird bei Aktivierung für 10 Sek. um 35% erhöht."
+  },
+  "s2": {
+    "name": "Roll Roll~",
+    "description": "Verursacht Feinden in Reichw. 3mal {0} K.Schaden. Jeder Angriff hat eine {1}% Chance, den Feind für {2} Sek zurückzuwerfen.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Erhöht Schaden um 40%.",
+    "dark": "Reduziert Cooldown um 8% für jeden Feind, der Schaden erleidet.",
+    "ut": {
+      "name": "Sextant des Piratenkönigs",
+      "description": [
+        "[Rollen] Erhöht den Schaden bei jeder Verwendung um 4 % und stellt 120 MP bei einem krit. Treffer wieder her. Dieser Effekt stapelt sich bis zu 10-mal.",
+        "[Rollen] Erhöht den Schaden bei jeder Verwendung um 4,8 % und stellt 120 MP bei einem krit. Treffer wieder her. Dieser Effekt stapelt sich bis zu 10-mal.",
+        "[Rollen] Erhöht den Schaden bei jeder Verwendung um 5,8 % und stellt 120 MP bei einem krit. Treffer wieder her. Dieser Effekt stapelt sich bis zu 10-mal.",
+        "[Rollen] Erhöht den Schaden bei jeder Verwendung um 7 % und stellt 120 MP bei einem krit. Treffer wieder her. Dieser Effekt stapelt sich bis zu 10-mal.",
+        "[Rollen] Erhöht den Schaden bei jeder Verwendung um 8,4 % und stellt 120 MP bei einem krit. Treffer wieder her. Dieser Effekt stapelt sich bis zu 10-mal.",
+        "[Rollen] Erhöht den Schaden bei jeder Verwendung um 10 % und stellt 120 MP bei einem krit. Treffer wieder her. Dieser Effekt stapelt sich bis zu 10-mal."
+      ],
+      "story": "Sextant des Piratenkönigs Olga, der als Erster den neuen Kontinent entdeckte. Piratenkönig Olga fuhr jenseits des Orbis-Kontinents, um einen weiteren Kontinent zu entdecken, nachdem er eine Offenbarung von den Göttern erhalten hatte. Der Sextant kann die exaktesten Ort- und Winkelbestimmungen der Welt vornehmen. Miruru benutzt den Sextanten, um den Schaden von Rollbombenangriffen zu verstärken, aber sie weiß nicht mehr, wo sie ihn eigentlich her hat."
+    }
+  },
+  "s3": {
+    "name": "Miruru Piraten!",
+    "description": "Greift ein zufälliges Ziel und Feinde in seiner Nähe 5-mal an, verursacht insgesamt {1} K.Schaden und verringert ihre ANG-Geschwindigkeit um {2}. Verursacht zusätzlich {3} K.Schaden, wenn das Ziel kein Held ist.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Erhöht Schaden um 100%, wenn nur 1 Feind auf dem Schlachtfeld ist.",
+    "dark": "Entfernt ANG-Geschw. Schwächungseffekt und fügt einen Betäubungseffekt für 3 Sek hinzu.",
+    "ut": {
+      "name": "Miruru-Kanonenkugel",
+      "description": [
+        "[Miruru Piraten!] Erhöht Schaden um 50% und reduziert Skill-Cooldown um 12%.",
+        "[Miruru Piraten!] Erhöht Schaden um 50% und reduziert Skill-Cooldown um 14%.",
+        "[Miruru Piraten!] Erhöht Schaden um 50% und reduziert Skill-Cooldown um 17%.",
+        "[Miruru Piraten!] Erhöht Schaden um 50% und reduziert Skill-Cooldown um 21%.",
+        "[Miruru Piraten!] Erhöht Schaden um 50% und reduziert Skill-Cooldown um 25%.",
+        "[Miruru Piraten!] Erhöht Schaden um 50% und reduziert Skill-Cooldown um 30%."
+      ],
+      "story": "Kanonenkugel, in die das Symbol der Miruru-Piraten eingraviert ist. Miruru erinnert sich noch lebhaft an ihre ruhmreiche Vergangenheit. Ihre im Wind flatternde Haiflagge und die Geräusche von Explosionen, die sie befehligte. Angsterfüllte Feinde und deren sinkende Schiffe – das sind Erinnerungen, die sie hütet wie einen Schatz. Miruru benutzt besondere Kanonenkugeln, um Feinde anzugreifen, während sie darauf wartet, dass die ruhmreichen Tage noch einmal zurückkehren mögen."
+    }
+  },
+  "s4": {
+    "name": "Boooooom!",
+    "description": "Bei einem normalen Angriff wird eine zusätzliche Kugel verschossen. Diese hat eine Chance von 60 %, allen Feinden {0} K.Schaden zuzufügen.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Bei einem kritischen Treffer wird ANG 10 Sekunden lang um 0,5 % erhöht. Der Effekt kann bis zu 100-mal gestapelt werden.",
+    "dark": "Aktivierungschance ändert sich auf 80%."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / Krit. Chance +100",
+    "dark": "Miruru erhält Dunkelheits-Zähler, basierend auf der Anzahl der Feinde, die sie trifft. Erreicht der Zähler 50, rastet Miruru aus und erhält 800 ANG-Geschw. und 20% erhöhten ANG für 10 Sek."
+  }
+}

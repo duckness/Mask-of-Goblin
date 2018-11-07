@@ -1,0 +1,120 @@
+{
+  "name": "Gladi",
+  "subtitle": "Bête de l'Arène",
+  "description": "L'homme qui a conquis l'Arène d'Orvel. Les gens avaient peur de lui à cause de ses prouesses pendant les battailles et ont commencé à l'appeler la Bête de l'Arène. Son incroyable technique de combat détruit ses ennemis en quelques fractions de secondes.",
+  "story": "L'homme qui domina l'Arène d'Orvel est assis sur le trône du champion et tout le monde le craint. Les gens le surnomment Poing-de-Bête. Cependant, c'est un individu joyeux doté d'une personnalité positive et honnête. Cela se ressent dans son style de combat, car il se montre audacieux et n'hésite pas à suivre son instinct. Après ses victoires, Gladi demanda à tenir la Boutique de l'Arène. Son but semble être d'obtenir le monopole des vignes d'argent. Personne ne sait qui achètera ses plantes, mais cela semble le satisfaire. Curieusement, il ne vend même pas ses vignes d'argent.",
+  "like": "Les vignes d'argent, les adversaires puissants",
+  "dislike": "Les gens moroses, les gens indécis",
+  "inn": {
+    "idle": "Hmm, je sens encore la vigne d'argent...",
+    "recruit": {
+      "greet": "",
+      "talk": [
+        "",
+        "",
+        ""
+      ],
+      "gift": ""
+    },
+    "affinity": {
+      "greet": "Hein ? Oh, comment ça va ?",
+      "talk": [
+        "Cette vigne argentée, quand même... wow, elle sent très bon... hahaha!!",
+        "Hey! Ça fait drôle de vous voir en-dehors de l'Arène!"
+      ],
+      "gift": "Wahou! Vous êtes vraiment un gars sympa!"
+    },
+    "relationship": {
+      "greet": "Hé, vous ! Venez donc vous asseoir !",
+      "talk": [
+        "Haha! Le moment où mon poing écrase mon adversaire - c'était énorme!",
+        "Je suis fort et rapide, même par rapport à ceux de notre tribu. Je me demande comment ils vont?",
+        "Vous êtes curieux de savoir pourquoi j'achète toute cette vigne argentée sans même la revendre? Eh bien, c'est pour un usage personnel!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Mastra, Poing-de-Bête",
+    "description": [
+      "Chaque Coup Crit. augmente les DEG Crit. 20% pendant 5 sec. Cumulable 7 fois.",
+      "Chaque Coup Crit. augmente les DEG Crit. 24% pendant 5 sec. Cumulable 7 fois.",
+      "Chaque Coup Crit. augmente les DEG Crit. 29% pendant 5 sec. Cumulable 7 fois.",
+      "Chaque Coup Crit. augmente les DEG Crit. 35% pendant 5 sec. Cumulable 7 fois.",
+      "Chaque Coup Crit. augmente les DEG Crit. 42% pendant 5 sec. Cumulable 7 fois.",
+      "Chaque Coup Crit. augmente les DEG Crit. 50% pendant 5 sec. Cumulable 7 fois."
+    ],
+    "story": "Une paire de gantelets personnalisés forgés pour Gladi, prouvant qu'il est sorti vainqueur du championnat à l'Arène d'Orvel. D'après la rumeur, elle aurait été forgée à partir d'une paire de gantelets ayant appartenu à un homme connu comme étant le dieu de la guerre il y a plusieurs centaines d'années. Spécialisés dans l'écrasement de l'adversaire, ces gantelets augmentent drastiquement la puissance de leur porteur. Néanmoins, le contrecoup physique est particulièrement violent, si bien qu'aucun humain ordinaire ne peut prétendre à les porter. À moins d'être exceptionnellement souple et capable d'encaisser l'impact de chaque coup, il s'avère quasi suicidaire d'y avoir recours. La force et la souplesse naturelles de Gladi lui permettent de s'en servir sans problème."
+  },
+  "s1": {
+    "name": "Frappes Rapides",
+    "description": "Frappe la cible à 7 reprises, infligeant un total de {0} poitns de DEG P. Le dernier coup augmente les DEG P. reçus par la cible de {1}% pendant 10 sec.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Lorsque 1 seul ennemi est présent, les DEG sont augmentés de 100%.",
+    "dark": "L'augmentation des DEG P. reçus est maintenant de 50%."
+  },
+  "s2": {
+    "name": "Avènement du Dieu de la Guerre",
+    "description": "Dissipe les effets négatifs sur le Héros, inflige {0} points de DEG P. à courte portée et donne l'amélioration 'Dieu de la Guerre' pendant 10 sec. Celle-ci augmente l'ATQ de {1} et donne à toutes les attaques auto 30% de chances d'échanger 5% de mana contre {2} points de DEG P. supplémentaires. Subir des DEG M. permet d'esquiver les DEG M. pendant 1 sec (activable 1 fois toutes les 2 sec).",
+    "books": {
+      "0": "Les boosts d'ATQ et de DEG sont augmentés de {0}%.",
+      "1": "Les boosts d'ATQ et de DEG sont augmentés de {0}%.",
+      "2": "Les boosts d'ATQ et de DEG sont augmentés de {0}%."
+    },
+    "light": "L'état Dieu de la Guerre dure 5 sec supplémentaires.",
+    "dark": "Les chances d'infliger des DEG supplémentaires sont augmentées de 20%.",
+    "ut": {
+      "name": "Boîte de vigne d’argent",
+      "description": [
+        "[Avènement du Dieu de la Guerre] Pendant la durée de la compétence, récupère 100 PM toutes les secondes et accumule 1 [Ça va faire mal !] en infligeant des DEG P supplémentaires.",
+        "[Avènement du Dieu de la Guerre] Pendant la durée de la compétence, récupère 120 PM toutes les secondes et accumule 1 [Ça va faire mal !] en infligeant des DEG P supplémentaires.",
+        "[Avènement du Dieu de la Guerre] Pendant la durée de la compétence, récupère 140 PM toutes les secondes et accumule 1 [Ça va faire mal !] en infligeant des DEG P supplémentaires.",
+        "[Avènement du Dieu de la Guerre] Pendant la durée de la compétence, récupère 170 PM toutes les secondes et accumule 1 [Ça va faire mal !] en infligeant des DEG P supplémentaires.",
+        "[Avènement du Dieu de la Guerre] Pendant la durée de la compétence, récupère 210 PM toutes les secondes et accumule 1 [Ça va faire mal !] en infligeant des DEG P supplémentaires.",
+        "[Avènement du Dieu de la Guerre] Pendant la durée de la compétence, récupère 250 PM toutes les secondes et accumule 1 [Ça va faire mal !] en infligeant des DEG P supplémentaires."
+      ],
+      "story": "La vigne d’argent est utilisée pour décupler les capacités physiques de manière exponentielle. Cette vigne d’argent et rien d’autre. Certains ont essayé d’en mâcher, d’en boire, d’en faire bouillir... en vain. L’effet de cette vigne d’argent est indispensable à Gladi pour bénéficier de l’effet du Dieu de la Guerre."
+    }
+  },
+  "s3": {
+    "name": "Coup de poing ultime!",
+    "description": "Le Héros se charge d'énergie et sprinte frontalement vers les ennemis, inflige {0} points de DEG P. aux ennemis à portée et applique Étourdissement pendant 3 sec. Si la cible est un Boss, les attaques ignorent la DEF de la cible.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "DEG augmentés de 40%.",
+    "dark": "Le coût en Mana est réduit de 1.",
+    "ut": {
+      "name": "Lauriers de champion",
+      "description": [
+        "[Coup de poing ultime!] Le temps de recharge de la compétence est réduit de 30% et pour chaque activation, les DEG sont augmentés de 4%. Cumulable 10 fois.",
+        "[Coup de poing ultime!] Le temps de recharge de la compétence est réduit de 30% et pour chaque activation, les DEG sont augmentés de 4.8%. Cumulable 10 fois.",
+        "[Coup de poing ultime!] Le temps de recharge de la compétence est réduit de 30% et pour chaque activation, les DEG sont augmentés de 5.8%. Cumulable 10 fois.",
+        "[Coup de poing ultime!] Le temps de recharge de la compétence est réduit de 30% et pour chaque activation, les DEG sont augmentés de 7%. Cumulable 10 fois.",
+        "[Coup de poing ultime!] Le temps de recharge de la compétence est réduit de 30% et pour chaque activation, les DEG sont augmentés de 8.4%. Cumulable 10 fois.",
+        "[Coup de poing ultime!] Le temps de recharge de la compétence est réduit de 30% et pour chaque activation, les DEG sont augmentés de 10%. Cumulable 10 fois."
+      ],
+      "story": "Couronne remise au plus valeureux guerrier du continent Orbis, vainqueur du tournoi organisé tous les 4 ans. L’on raconte que ceux qui la portent sont capables de s’approprier la force du Dieu de la Guerre."
+    }
+  },
+  "s4": {
+    "name": "Ça va faire mal!",
+    "description": "Chaque fois que Gladi touche une cible unique avec 5 attaques auto, il inflige {0} points de DEG supplémentaires qui ignorent la DEF.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Lorsque 1 seul ennemi est présent, les DEG sont augmentés de 100%.",
+    "dark": "Lorsque activé en Arène, inflge 15% des PV actuel de la cible sous forme de DEG P. supplémentaires qui ignorent la DEF."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Vit. ATQ +100",
+    "dark": "Augmente toutes les DEF de 8% de l'ATQ."
+  }
+}

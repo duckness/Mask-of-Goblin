@@ -1,0 +1,120 @@
+{
+  "name": "Frey",
+  "subtitle": "Priestess of Light",
+  "description": "A childhood friend of Kasel's, she is a priestess who serves the Goddess. She heals and protects allies with the power of light. With the blessings of the Goddess, she can temporarily increase one's magic powers and resistance.",
+  "story": "An apprentice priestess serving the Goddess Lua, the church has high expectations of her as a future priestess. From the early years of her training, she has amazed even the high priests with her strong faith and natural talent for channeling Lua's power. She herself considers priesthood her destined path, and her kind heart reflects her resolve. However, she shows no mercy toward evildoers.",
+  "like": "Lua, current job",
+  "dislike": "Injustice",
+  "inn": {
+    "idle": "Goddess Lua, whom within the Light resides - let our faith never waver.",
+    "recruit": {
+      "greet": "May Lua's blessing be with you.",
+      "talk": [
+        "My relationship with Kasel? Haha, we're like family. I guess I'm like his guardian?",
+        "I wonder how High Priestess Iris is doing. I haven't seen her ever since I left...",
+        "Haha, don't Roi and Cleo make a nice couple?"
+      ],
+      "gift": "Wow, thank you."
+    },
+    "affinity": {
+      "greet": "There you are. You didn't get hurt, did you?",
+      "talk": [
+        "I see a bright light in my dreams sometimes. People with white wings with a brilliant sun behind them...",
+        "Who I like? Th-that's a secret between me and Lua."
+      ],
+      "gift": "Thank you. I won't forget your thoughtfulness."
+    },
+    "relationship": {
+      "greet": "I sincerely pray that Lua watches over you.",
+      "talk": [
+        "Kasel's safety is important. He was chosen by the Goddess, after all.",
+        "All decisions can be met with disdain. I do not mind, as long as the Goddess is happy with it.",
+        "The relationship between God and priests is not so different from a relationship between simple people. Sometimes...we disagree."
+      ]
+    }
+  },
+  "uw": {
+    "name": "God's Authority, Rosmerta",
+    "description": [
+      "Each auto attack has a 40% chance of healing the ally with the lowest HP by 42% of ATK.",
+      "Each auto attack has a 40% chance of healing the ally with the lowest HP by 50.4% of ATK.",
+      "Each auto attack has a 40% chance of healing the ally with the lowest HP by 58.8% of ATK.",
+      "Each auto attack has a 40% chance of healing the ally with the lowest HP by 71.4% of ATK.",
+      "Each auto attack has a 40% chance of healing the ally with the lowest HP by 86.1% of ATK.",
+      "Each auto attack has a 40% chance of healing the ally with the lowest HP by 105% of ATK."
+    ],
+    "story": "The Angels are said to be closer to Lua than any other race. When a high ranking angel dies, the remaining core is transferred to the haven of angels for resurrection. However, one such angel, Rosmerta, bestowed her core to the Church of Lua. This holy staff has been created from the core's divine energy."
+  },
+  "s1": {
+    "name": "Miraculous Light",
+    "description": "Heals {0} HP of an ally with the lowest HP.",
+    "books": {
+      "0": "Heal rate is increased by {0}%.",
+      "1": "Heal rate is increased by {0}%.",
+      "2": "Removes negative effects from the target."
+    },
+    "light": "In exchange for 1 additional Mana Cost, the skill targets 2 allies.",
+    "dark": "Healed allies take 25% reduced M.DMG for 10 sec."
+  },
+  "s2": {
+    "name": "Blessings of Light",
+    "description": "Cast a shield on all allies that absorbs {1} DMG for {0} sec. While the shield is in effect, gain Immunity to CC.",
+    "books": {
+      "0": "Shield is increased by {0}%.",
+      "1": "Shield is increased by {0}%.",
+      "2": "Target's Heal rate is increased by {0}% for the duration of skill."
+    },
+    "light": "Shield is increased by 40%.",
+    "dark": "Shielded allies gain 20% ATK.",
+    "ut": {
+      "name": "Miraculous Medal",
+      "description": [
+        "[Blessings of Light] Increases shield amount by 50% and recovers 100 Mana every second for 4 sec.",
+        "[Blessings of Light] Increases shield amount by 50% and recovers 120 Mana every second for 4 sec.",
+        "[Blessings of Light] Increases shield amount by 50% and recovers 140 Mana every second for 4 sec.",
+        "[Blessings of Light] Increases shield amount by 50% and recovers 170 Mana every second for 4 sec.",
+        "[Blessings of Light] Increases shield amount by 50% and recovers 210 Mana every second for 4 sec.",
+        "[Blessings of Light] Increases shield amount by 50% and recovers 250 Mana every second for 4 sec."
+      ],
+      "story": "Medal made by the saintess of miracles, Yvonne, with the revelation of the goddess. The Medal of Miracles is a sacred artifact that contains the magic of light. It is said that saintess Yvonne saved the city that was invaded by the demons with the blessing of light that was boosted with this medal."
+    }
+  },
+  "s3": {
+    "name": "Heaven's Vengeance",
+    "description": "Attacks the target and the enemies near it 6 times, dealing a total of {0} M.DMG and blinding them for {1} sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Crit Chance is increased by {0}."
+    },
+    "light": "In exchange for 1 additional Mana Cost, DMG is increased by 80%.",
+    "dark": "Blind duration is reduced by 2 sec and now targets a random enemy.",
+    "ut": {
+      "name": "Forgotten Arbiter's Feather",
+      "description": [
+        "[Heaven's Vengeance] Target takes 20% increased M.DMG for 10 sec, and Blind duration is increased by 1 sec.",
+        "[Heaven's Vengeance] Target takes 20% increased M.DMG for 10 sec, and Blind duration is increased by 1.5 sec.",
+        "[Heaven's Vengeance] Target takes 20% increased M.DMG for 10 sec, and Blind duration is increased by 2 sec.",
+        "[Heaven's Vengeance] Target takes 20% increased M.DMG for 10 sec, and Blind duration is increased by 2.5 sec.",
+        "[Heaven's Vengeance] Target takes 20% increased M.DMG for 10 sec, and Blind duration is increased by 3 sec.",
+        "[Heaven's Vengeance] Target takes 20% increased M.DMG for 10 sec, and Blind duration is increased by 3.5 sec."
+      ],
+      "story": "Feather from the Guardian of the Sun. Feather of an Angel who saved the people by fighting against the Demons in the past. He left his feather as proof of his promise to return once again if the world falls into chaos. An artifact of the Church of Lua that summons holy rays of the sun to blind the enemy."
+    }
+  },
+  "s4": {
+    "name": "Goddess Grace",
+    "description": "Increases M.DEF of 1 ally with the lowest HP by {1} for {0} sec every 15 sec.",
+    "books": {
+      "0": "M.DEF boost is increased by {0}%.",
+      "1": "M.DEF boost is increased by {0}%.",
+      "2": "Heals target's HP by {0}% for the duration of skill."
+    },
+    "light": "Target's ATK Spd. is boosted by 250.",
+    "dark": "Number of targets changes to 2."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / M. Block +200",
+    "dark": "Allies healed by Frey receive 5% of her ATK as an ATK buff for 5 sec."
+  }
+}

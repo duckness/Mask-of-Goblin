@@ -1,0 +1,120 @@
+{
+  "name": "Fluss",
+  "subtitle": "Lâmina Esvoaçante",
+  "description": "O vice-capitão da Guarda Imperial. Sua lâmina sônica corta ate mesmo magia. Ele é capaz de atacar os inimigos mais perigosos primeiro.",
+  "story": "Como filho do comandante dos Cavaleiros Imperiais, ele recebeu um treinamento rigoroso desde a infância para se tornar um bom espadachim. Ninguém pode questionar seu título como o espadachim mais ágil do palácio imperial. A quantidade de cavaleiros inimigos que ele derrubou nos campos de batalha é uma prova das suas habilidades. Ele rapidamente alcançou a patente de vice-capitão da Guarda Imperial, sendo admirado por todos. Embora tenha ciência da sua bela aparência, ele detesta que se aproximem dele por sua beleza exterior. Ele considera a beleza interior mais importante do que o que é visível. No entanto, ele é um pouco hipócrita, e às vezes se deixa levar pela própria beleza.",
+  "like": "Teus olhos",
+  "dislike": "Quem não entende romance",
+  "inn": {
+    "idle": "Não é muito diferente das Estalagens no Império, eu garanto.",
+    "recruit": {
+      "greet": "Você é muito trabalhador.",
+      "talk": [
+        "Ah, a brisa do império - como eu sinto falta disso.",
+        "O treinamento constante é a forma de melhorar seus poderes.",
+        "Existe apenas uma outra pessoa com quem eu poderia falar com tanta liberdade..."
+      ],
+      "gift": "Um brinde ao seu espírito."
+    },
+    "affinity": {
+      "greet": "Eu trouxe algumas flores, já que você me convidou.",
+      "talk": [
+        "As pessoas são como espadas. Você deve continuar a evoluir até se tornar um cavaleiro de verdade.",
+        "Eu realmente não gosto do Pavel. Deixar a Rodina daquele jeito..."
+      ],
+      "gift": "Um viva pra sua gentileza!"
+    },
+    "relationship": {
+      "greet": "Um brinde ao seu... não, pare por aí.",
+      "talk": [
+        "Minha casa não fazia parte originalmente do Império.",
+        "Essa flor é uma oferenda à terra natal dos meus ancestrais. É um símbolo, uma memória para lembrar da sua terra destruída.",
+        "Nossa Ordem é apenas uma fachada, formada em sua maior parte por crianças inexperientes de famílias nobres. Os verdadeiros guerreiros temíveis estão em outro lugar..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Veralta, Espadas Gêmeas da Fúria",
+    "description": [
+      "Aumenta o ATQ em 12% e a Vel. de ATQ em 120 por 30 segundos a cada 7 segundos. O efeito pode acumular até 3 vezes e não pode ser removido.",
+      "Aumenta o ATQ em 14% e a Vel. de ATQ em 140 por 30 segundos a cada 7 segundos. O efeito pode acumular até 3 vezes e não pode ser removido.",
+      "Aumenta o ATQ em 17% e a Vel. de ATQ em 170 por 30 segundos a cada 7 segundos. O efeito pode acumular até 3 vezes e não pode ser removido.",
+      "Aumenta o ATQ em 20% e a Vel. de ATQ em 200 por 30 segundos a cada 7 segundos. O efeito pode acumular até 3 vezes e não pode ser removido.",
+      "Aumenta o ATQ em 25% e a Vel. de ATQ em 250 por 30 segundos a cada 7 segundos. O efeito pode acumular até 3 vezes e não pode ser removido.",
+      "Aumenta o ATQ em 30% e a Vel. de ATQ em 300 por 30 segundos a cada 7 segundos. O efeito pode acumular até 3 vezes e não pode ser removido."
+    ],
+    "story": "Um conjunto de armas encantadas concedidas ao avô de Fluss, um cavaleiro oriundo da República Gray, e passado adiante como tesouros de família. Essas armas são capazes de gradualmente melhorar as habilidades físicas do portador, permitindo que ele rompa as barreiras das limitações humanas e ganhe poder e velocidade sobrenaturais. Devido ao fato de o efeito ser gradual, não há tensão imediata no corpo do portador. Cada peça é chamada Sangue e Rosa, respectivamente. Os nomes surgiram da espiral de sangue respingado e das pétalas de flores que acompanham cada golpe que Fluss desfere com essas espadas gêmeas. Nenhum outro guerreiro é capaz de utilizar todo o seu potencial como Fluss utiliza."
+  },
+  "s1": {
+    "name": "Tempestade de Lâminas",
+    "description": "Ataca o alvo e os inimigos perto dele 3 vezes, causando um total de {0} de DAN F. Se o alvo não for um Herói, causa um total de {1} de DAN F. adicional ao longo de 5 segundos.",
+    "books": {
+      "0": "Aumenta o dano em {0}%.",
+      "1": "Aumenta o dano em {0}%.",
+      "2": "Aumenta o dano em {0}%."
+    },
+    "light": "Ignora a DEF enquanto houver apenas 1 inimigo.",
+    "dark": "Ao realizar um Acerto Crít., reduz o tempo de recarga em 6%."
+  },
+  "s2": {
+    "name": "Passos Céleres",
+    "description": "Desloca-se até o inimigo com maior ATQ e inflige Silenciar por 2 segundos. A redução de DAN.M é aumentada em {1} por {0} segundos. Grava uma Marca num inimigo por {2} segundos, e o prioriza atacar o alvo marcado. Quando estiver atacando inimigo infligidos pela marca, causa {3} de DAN.F extra.",
+    "books": {
+      "0": "Aumenta o dano em {0}%.",
+      "1": "Aumenta o dano em {0}%.",
+      "2": "Aumenta o dano em {0}%."
+    },
+    "light": "Em troca de 1 Custo de Mana adicional, reduz o tempo de recarga em 5 segundos.",
+    "dark": "Remove penalidades do inimigo.",
+    "ut": {
+      "name": "Perfume Tentador",
+      "description": [
+        "[Passos Céleres] Altera a Marca irremovível e aumenta o ATQ em 20% por 10s assim que o inimigo com a marca for morto.",
+        "[Passos Céleres] Altera a Marca irremovível e aumenta o ATQ em 24% por 10s assim que o inimigo com a marca for morto.",
+        "[Passos Céleres] Altera a Marca irremovível e aumenta o ATQ em 29% por 10s assim que o inimigo com a marca for morto.",
+        "[Passos Céleres] Altera a Marca irremovível e aumenta o ATQ em 35% por 10s assim que o inimigo com a marca for morto.",
+        "[Passos Céleres] Altera a Marca irremovível e aumenta o ATQ em 42% por 10s assim que o inimigo com a marca for morto.",
+        "[Passos Céleres] Altera a Marca irremovível e aumenta o ATQ em 50% por 10s assim que o inimigo com a marca for morto."
+      ],
+      "story": "Perfume que contém as primeiras rosas Vivienne do ano. Rosas Vivienne são belas, porém letais. Quem é afetado pelo aroma é tomado por alucinações e fica apenas olhando, maravilhado, enquanto o adversário se move."
+    }
+  },
+  "s3": {
+    "name": "Pétalas Sangrentas",
+    "description": "Causa um total de {0} DAN F. a um inimigo com 16 golpes, e suprime o alvo durante a conjuração. Este DAN ignora efeitos de Bloqueio do alvo.",
+    "books": {
+      "0": "Aumenta o dano em {0}%.",
+      "1": "Aumenta o dano em {0}%.",
+      "2": "Aumenta o dano em {0}%."
+    },
+    "light": "Cada Acerto Crít. aumenta em 10% do DAN do último acerto.",
+    "dark": "Enquanto estiver em tempo de recarga, aumenta em 50% o DAN do ataque automático.",
+    "ut": {
+      "name": "Rosa da Imortalidade",
+      "description": [
+        "[Pétalas de Sangue] Aumenta o DAN em 20% e esquiva-se de qualquer ATQ.M durante o efeito do poder.",
+        "[Pétalas de Sangue] Aumenta o DAN em 24% e esquiva-se de qualquer ATQ.M durante o efeito do poder.",
+        "[Pétalas de Sangue] Aumenta o DAN em 29% e esquiva-se de qualquer ATQ.M durante o efeito do poder.",
+        "[Pétalas de Sangue] Aumenta o DAN em 35% e esquiva-se de qualquer ATQ.M durante o efeito do poder.",
+        "[Pétalas de Sangue] Aumenta o DAN em 42% e esquiva-se de qualquer ATQ.M durante o efeito do poder.",
+        "[Pétalas de Sangue] Aumenta o DAN em 50% e esquiva-se de qualquer ATQ.M durante o efeito do poder."
+      ],
+      "story": "Uma rosa que jamaisirámurchar,mesmo se for colhida. É uma flor que Fluss adora. Lembra a Fluss do dever de um cavaleiro, o que é a base para sua determinação que permite queeleseja confiante em batalha."
+    }
+  },
+  "s4": {
+    "name": "Cortador de Feitiços",
+    "description": "Causa {1} de DAN.F aos inimigos que causaram DAN.M a este herói a cada {0} segundos e se esquiva de todo o DAN.M seguinte durante {2} segundos.",
+    "books": {
+      "0": "Aumenta o dano em {0}%.",
+      "1": "Aumenta o dano em {0}%.",
+      "2": "Aumenta o dano em {0}%."
+    },
+    "light": "Ao esquivar-se, aumenta o próprio ATQ em 3%. Acumula-se até 10 vezes.",
+    "dark": "Há 30% de chance de atordoar os inimigos durante 3 segundos."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / ESQ.M +100",
+    "dark": "Ao atacar, causa DAN.F adicional igual a 20% do ATQ. Há 10% de chance de causar o dobro de DAN.F e remover bônus."
+  }
+}

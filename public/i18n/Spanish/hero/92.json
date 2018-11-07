@@ -1,0 +1,120 @@
+{
+  "name": "Veronica",
+  "subtitle": "El ojo de la perspicacia",
+  "description": "Ella es la genio de la Torre del Sabio, quien restableció la fórmula para la magia de runas. Actualmente, se encarga de las finanzas de Orvel y es la primera oficial del clan, que administra todos los clanes. Con su gran capacidad de análisis y su magia de runas, puede aprisionar a sus enemigos.",
+  "story": "Una estudiante genio de la Torre del sabio que se acuerda todo lo que ve. Después de desarrollar sus propias teorías y sistemas de magia runa, rápidamente se aburrió y cambió a un tema distinto. En poco tiempo, fue nombrada como la secretaria de finanzas real de más alto rango. Desafortunadamente, muchos políticos se negaron a aceptar a una plebeya como su superior. Después de muchas mentiras y rumores de enfermedad, Verónica eventualmente decidió dejar el palacio por su cuenta. Pero esto no significó una derrota para ella, y en poco tiempo se dispuso a conquistar su propio camino. Se dirigió a la alianza del clan de Orvel, donde solo se medirían sus habilidades y nada más. Como era de esperarse, su increíble percepción y habilidades analíticas la convirtieron en un elemento indispensable para varios clanes.",
+  "like": "Personas inteligentes, resultados rápidos, documentos limpios",
+  "dislike": "Cuartos desordenados, trabajo de forma ineficiente",
+  "inn": {
+    "idle": "Hmm, ha pasado bastante desde la última vez que tuve tiempo de relajarme.",
+    "recruit": {
+      "greet": "",
+      "talk": [
+        "",
+        "",
+        ""
+      ],
+      "gift": ""
+    },
+    "affinity": {
+      "greet": "Espero que continúes cuidando a las malvadas bestias que están atacando a Orvelia.",
+      "talk": [
+        "Runa mágica? Hmm, he aprendido algo en la Torre de los Sabios. También conozco algunas Runas Antiguas...",
+        "Administrar un Clan no es fácil. Hay demasiados clanes..."
+      ],
+      "gift": "Oh, no hacia falta... haah. Bueno, afortunadamente acepto."
+    },
+    "relationship": {
+      "greet": "No he estado aquí en un tiempo... se siente cerca, y lejos a la vez.",
+      "talk": [
+        "Cómo van las actividades en tu clan? Te brindaré mi ayuda",
+        "Quiero seguir ayudándote, pero no es fácil. Trataré de esforzarme aún más",
+        "Fufu, me pregunto si puedo ayudarte en tu próximo Raid"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Registro infinito, Accordio",
+    "description": [
+      "Todo el daño de las habilidades inflige un daño mágico adicional por un 50% de ATQ. Además, el máximo para acumular del Conocimiento de la financista principal aumenta a 9.",
+      "Todo el daño de las habilidades inflige un daño mágico adicional por un 60% de ATQ. Además, el máximo para acumular del Conocimiento de la financista principal aumenta a 10.",
+      "Todo el daño de las habilidades inflige un daño mágico adicional por un 70% de ATQ. Además, el máximo para acumular del Conocimiento de la financista principal aumenta a 11.",
+      "Todo el daño de las habilidades inflige un daño mágico adicional por un 85% de ATQ. Además, el máximo para acumular del Conocimiento de la financista principal aumenta a 12.",
+      "Todo el daño de las habilidades inflige un daño mágico adicional por un 100% de ATQ. Además, el máximo para acumular del Conocimiento de la financista principal aumenta a 13.",
+      "Todo el daño de las habilidades inflige un daño mágico adicional por un 125% de ATQ. Además, el máximo para acumular del Conocimiento de la financista principal aumenta a 15."
+    ],
+    "story": "Se necesita su aprobación para procesar cualquier artículo importante en la alianza del clan. Un artículo de oficina preciado para el fundador de la Alianza del Clan. Una pluma y una carpeta juntos como parte de un set. La pluma tiene incrustada una bola de maná, por lo que requiere maná en lugar de tinta, y se debe usar con un pergamino mágico en el que no se puede escribir con una pluma común. Las letras escritas no se pueden borrar sin el maná de quien las escribió. Además, se pueden escribir textos en el pergamino mágico de forma ilimitada, y tiene una función que permite buscar aquello que uno ya había escrito. Gracias a esto, el trabajo de Verónica es mucho más eficaz. Sin duda, su uso resulta útil en el trabajo, pero en otro ámbito..."
+  },
+  "s1": {
+    "name": "¡Esto va a doler un poco!",
+    "description": "Provoca {0} de daño mágico al enemigo y a los enemigos que estén dentro del rango, y los aturde durante {1} segundos.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Aumenta el daño en un 100% cuando hay 1 enemigo.",
+    "dark": "El número de objetivos cambia a 2."
+  },
+  "s2": {
+    "name": "Yo te ayudo.",
+    "description": "Otorga una runa a todos los aliados para aumentar su ATQ en {0} y cualquier daño a los jefes en un 15% durante 10 segundos.",
+    "books": {
+      "0": "La tasa de aumento de ATQ se incrementa en {0}%.",
+      "1": "La tasa de aumento de ATQ se incrementa en {0}%.",
+      "2": "La tasa de aumento de ATQ se incrementa en {0}%."
+    },
+    "light": "Aumenta la amplificación de ATQ en un 40%.",
+    "dark": "Reduce el tiempo de reutilización en 5 segundos.",
+    "ut": {
+      "name": "Punta de bolígrafo de voluntad firme",
+      "description": [
+        "[Déjame ayudarte] Reduce el Costo de Mana en 1 y aumenta la duración de la habilidad en 1,6 segundos.",
+        "[Déjame ayudarte] Reduce el Costo de Mana en 1 y aumenta la duración de la habilidad en 1,9 segundos.",
+        "[Déjame ayudarte] Reduce el Costo de Mana en 1 y aumenta la duración de la habilidad en 2,3 segundos.",
+        "[Déjame ayudarte] Reduce el Costo de Mana en 1 y aumenta la duración de la habilidad en 2,7 segundos.",
+        "[Déjame ayudarte] Reduce el Costo de Mana en 1 y aumenta la duración de la habilidad en 3,3 segundos.",
+        "[Déjame ayudarte] Reduce el Costo de Mana en 1 y aumenta la duración de la habilidad en 4 segundos."
+      ],
+      "story": "Punta de bolígrafo que Verónica siempre lleva consigo. Lo sumergió en el manantial de promesa durante 100 días, tal como lo aconsejó Jin, el herrero. Con el poder de la magia, las letras escritas por este bolígrafo se convierten en rojas cuando las acciones no se realizan como deberían. Verónica dice que es de mucha ayuda cuando gestiona suministros."
+    }
+  },
+  "s3": {
+    "name": "¡Fuera de mi vista!",
+    "description": "Ataca al objetivo y a los enemigos en un área circundante extensa 2 veces para infligir {0} de Daño mágico y los derriba durante 5 segundos. También aumenta el Daño mágico de los enemigos afectados en un 30% durante 10 segundos.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Aumenta el costo de Mana en 1 y el daño en un 100%.",
+    "dark": "El objetivo recibe Daño mágico y Daño físico aumentado.",
+    "ut": {
+      "name": "Sello del Administrador del Clan",
+      "description": [
+        "[¡Fuera de mi vista!] El Daño aumenta en un 20% y por cada enemigo golpeado, el tiempo de reutilización se reduce en un 10%.",
+        "[¡Fuera de mi vista!] El Daño aumenta en un 24% y por cada enemigo golpeado, el tiempo de reutilización se reduce en un 10%.",
+        "[¡Fuera de mi vista!] El Daño aumenta en un 29% y por cada enemigo golpeado, el tiempo de reutilización se reduce en un 10%.",
+        "[¡Fuera de mi vista!] El Daño aumenta en un 35% y por cada enemigo golpeado, el tiempo de reutilización se reduce en un 10%.",
+        "[¡Fuera de mi vista!] El Daño aumenta en un 42% y por cada enemigo golpeado, el tiempo de reutilización se reduce en un 10%.",
+        "[¡Fuera de mi vista!] El Daño aumenta en un 50% y por cada enemigo golpeado, el tiempo de reutilización se reduce en un 10%."
+      ],
+      "story": "Un sello que se le otorga al mejor administrador del clan de Orvel. No se puede procesar ningún asunto de un clan sin este sello. Verónica, dada su forma de ser tan meticulosa, no sella ningún documento a menos que esté perfecto. Este es un artículo que pone en evidencia el espíritu profesional de Verónica."
+    }
+  },
+  "s4": {
+    "name": "Conocimiento de la financista principal",
+    "description": "El ATQ de todos los aliados aumenta en {0} , y al utilizar la habilidad 3 veces, obtiene instantáneamente el Conocimiento del Financiero Top. Por cada pila de Conocimiento del Financiero Top, el Daño Crit. propio aumenta en un 30%, y todos los efectos de habilidades aumentan en un 10%. El Conocimiento del Financiero Top se puede acumular hasta un máximo de 5 veces y no se puede disipar.",
+    "books": {
+      "0": "La tasa de aumento de ATQ se incrementa en {0}%.",
+      "1": "La tasa de aumento de ATQ se incrementa en {0}%.",
+      "2": "La tasa de aumento de ATQ se incrementa en {0}%."
+    },
+    "light": "Recupera los PM del lanzador en 2 esferas cuando se activa.",
+    "dark": "Cuando se activa, aumenta el ATQ del lanzador en un 50% durante 10 segundos."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Oportunidad Crit +100",
+    "dark": "Reduce el tiempo de reutilización de todas las habilidades del lanzador en un 15% cada 20 segundos."
+  }
+}

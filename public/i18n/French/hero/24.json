@@ -1,0 +1,120 @@
+{
+  "name": "Baudouin",
+  "subtitle": "Sacré Bandit",
+  "description": "Un prêtre marginal de l'Ordre de Lua. Il utilise une explosion sacrée pour protéger le groupe et soigne ses alliés tout en faisant des dégâts aux ennemis.",
+  "story": "Baudouin est le prêtre le plus improbable de l'Église de Lua. En gros, c'est une tête brûlée. Depuis son enfance, il a toujours été considéré comme le mouton noir de la pieuse Église de Lua. Il a réussi à entrer à l'Église grâce au Haut Prêtre Berman, mais la vie religieuse ne lui convenait pas. Un jour, il décida tout de même d'abandonner son comportement déviant et commença à suivre la voie menant à la haute prêtrise.",
+  "like": "Lua",
+  "dislike": "Lua",
+  "inn": {
+    "idle": "Wow, je vois un vin de qualité ici! Une autre bouteille pour moi, mon cher!",
+    "recruit": {
+      "greet": "Hé, qu'est-ce qu'il y a? Vous avez l'air assez fort, hein?",
+      "talk": [
+        "Raide et bouché n'est pas mon style!",
+        "Oh, tu veux te battre? Je ne perd jamais dans une bagarre!",
+        "Comme Dieu le dis, un homme doit vivre par son poing!"
+      ],
+      "gift": "Ahahah, n'est-ce pas généreux! Bien sûr, prenons un verre!"
+    },
+    "affinity": {
+      "greet": "Cette ambiance sauvage et sans limites, j'adore ça !",
+      "talk": [
+        "Il faut répondre au sang par le sang ! Voilà ce qu'ont dit les dieux ! Bouah ah ah !",
+        "Mon acolyte ! Buvons un verre !"
+      ],
+      "gift": "Bouah ah ah, je vous donnerai la bénédiction de Lua en échange !"
+    },
+    "relationship": {
+      "greet": "Wow! Hum, vous semblez vraiment être béni par la Déesse! Vous brillez presque!",
+      "talk": [
+        "Si j'étais allé dans l'Empire à ce moment-là... père, est-ce que j'ai bien fait...",
+        "He, l'Ordre de Lua n'est pas ce que vous pensez, vous savez? Dieu ou non, c'est juste un groupe de personnes.",
+        "Il y a une chose que je veux vous dire. Aimez la vie pendant que vous pouvez! Vous savez, la vie est courte! Vous ne voulez rien regretter!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Genesis, Ancien et Nouveau",
+    "description": [
+      "Augmente la vitesse de lancement de toutes les compétences, et à chaque utilisation d'une compétence, augmente l'ATQ de 2 % et la DEF de 2 % pour tous les alliés. Cet effet peut être cumulé jusqu'à 7 fois.",
+      "Augmente la vitesse de lancement de toutes les compétences, et à chaque utilisation d'une compétence, augmente l'ATQ de 2,4 % et la DEF de 2,4 % pour tous les alliés. Cet effet peut être cumulé jusqu'à 7 fois.",
+      "Augmente la vitesse de lancement de toutes les compétences, et à chaque utilisation d'une compétence, augmente l'ATQ de 2,9 % et la DEF de 2,9 % pour tous les alliés. Cet effet peut être cumulé jusqu'à 7 fois.",
+      "Augmente la vitesse de lancement de toutes les compétences, et à chaque utilisation d'une compétence, augmente l'ATQ de 3,5 % et la DEF de 3,5 % pour tous les alliés. Cet effet peut être cumulé jusqu'à 7 fois.",
+      "Augmente la vitesse de lancement de toutes les compétences, et à chaque utilisation d'une compétence, augmente l'ATQ de 4,2 % et la DEF de 4,2 % pour tous les alliés. Cet effet peut être cumulé jusqu'à 7 fois.",
+      "Augmente la vitesse de lancement de toutes les compétences, et à chaque utilisation d'une compétence, augmente l'ATQ de 5 % et la DEF de 5 % pour tous les alliés. Cet effet peut être cumulé jusqu'à 7 fois."
+    ],
+    "story": "Même parmi les reliques sacrées accordées aux hauts prêtres de l'Église de Lua, le Genesis, Ancien et Nouveau est spécial. D'après la légende, ce livre, gardé durant des siècles par les grands prêtres de l'Église, fut écrit par Lua en personne. Iris, le grand prêtre actuel, en recevant une révélation, confia le livre à son beau-père, Berman. Plus tard, il fut offert à Baudouin lorsqu'il devint haut prêtre. On dit que cette relique divine offre une énergie infinie à son propriétaire, ainsi que la puissance nécessaire pour débloquer le vrai potentiel de ceux qui ont la foi."
+  },
+  "s1": {
+    "name": "Nova Sacrée",
+    "description": "Cible l'allié ayant le moins de PV, le soigne ainsi que tous les alliés à proximité de {0} PV. Réduit également la vitesse des ennemis proches de la cible de {3}% pendant {2} secondes.",
+    "books": {
+      "0": "Augmente la Récupération et les DEG de {0}%.",
+      "1": "Augmente la Récupération et les DEG de {0}%.",
+      "2": "Augmente la Récupération et les DEG de {0}%."
+    },
+    "light": "Les DEG et les Soins sont augmentés de 40%.",
+    "dark": "Les ennemis touchés subissent Étourdissement pendant 1 sec."
+  },
+  "s2": {
+    "name": "Lance de Lumière",
+    "description": "Inflige {0} points de DEG M. puis renverse et entrave l'ennemi ciblé pendant {1} sec. Les DEG M. reçus par les ennemis qui subissent Entrave sont augmentés de 25%.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG de {0}%."
+    },
+    "light": "Le coût en Mana est réduit de 1.",
+    "dark": "Le nombre de cibles est maintenant de 2.",
+    "ut": {
+      "name": "Dernier chapitre de la Bible",
+      "description": [
+        "[Lance de lumière] Gagne l'immunité aux contrôles pendant la durée de la compétence et augmente la Resist M. Faible de la cible de 10 % pendant 10 sec.",
+        "[Lance de lumière] Gagne l'immunité aux contrôles pendant la durée de la compétence et augmente la Resist M. Faible de la cible de 12 % pendant 10 sec.",
+        "[Lance de lumière] Gagne l'immunité aux contrôles pendant la durée de la compétence et augmente la Resist M. Faible de la cible de 14 % pendant 10 sec.",
+        "[Lance de lumière] Gagne l'immunité aux contrôles pendant la durée de la compétence et augmente la Resist M. Faible de la cible de 17 % pendant 10 sec.",
+        "[Lance de lumière] Gagne l'immunité aux contrôles pendant la durée de la compétence et augmente la Resist M. Faible de la cible de 21 % pendant 10 sec.",
+        "[Lance de lumière] Gagne l'immunité aux contrôles pendant la durée de la compétence et augmente la Resist M. Faible de la cible de 25 % pendant 10 sec."
+      ],
+      "story": "Dernier chapitre de la légende, bien trop horrible pour figurer dans la Bible. Il traite de la lumière sacrée capable de pourfendre l’ennemi gagné par les plus grandes ténèbres."
+    }
+  },
+  "s3": {
+    "name": "Sanctuaire Sacré",
+    "description": "Applique Invincibilité à tous les alliés pendant {0} sec et récupère des {1} PV pendant la durée.",
+    "books": {
+      "0": "Augmente la Récupération de {0}%.",
+      "1": "Augmente la Récupération de {0}%.",
+      "2": "Augmente la Vitesse d'ATQ de {0} pendant la durée."
+    },
+    "light": "Le coût en Mana est réduit de 1.",
+    "dark": "Pour un coût de 2 MP supplémentaires et d'une réduction de 3 secondes de la durée d'Invincibilité, l'ATQ de tous les alliés augmente de 50%.",
+    "ut": {
+      "name": "Vieux rosaire",
+      "description": [
+        "[Sanctuaire Sacré] L'ATQ est augmentée de 25% pendant la durée de la compétence et 120 mana sont récupérés à chaque seconde.",
+        "[Sanctuaire Sacré] L'ATQ est augmentée de 25% pendant la durée de la compétence et 140 mana sont récupérés à chaque seconde.",
+        "[Sanctuaire Sacré] L'ATQ est augmentée de 25% pendant la durée de la compétence et 170 mana sont récupérés à chaque seconde.",
+        "[Sanctuaire Sacré] L'ATQ est augmentée de 25% pendant la durée de la compétence et 200 mana sont récupérés à chaque seconde.",
+        "[Sanctuaire Sacré] L'ATQ est augmentée de 25% pendant la durée de la compétence et 250 mana sont récupérés à chaque seconde.",
+        "[Sanctuaire Sacré] L'ATQ est augmentée de 25% pendant la durée de la compétence et 300 mana sont récupérés à chaque seconde."
+      ],
+      "story": "Le rosaire que la sainte prêtresse Evelyn de l’Église de Lua porta jusqu’à sa mort. On dirait que la voix de Lua en personne s’entend dans le rosaire, priant pour que le monde ne s’écroule pas. Une sainteté indéniable engouffre le corps et maximise les pouvoirs de Baudouin."
+    }
+  },
+  "s4": {
+    "name": "Formation de Dieu",
+    "description": "Lors de l'attaque d'un ennemi, 20% de chances d'infliger {0} points de DEG M. et d'appliquer Étourdissement pendant {1} sec.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG de {0}%."
+    },
+    "light": "Les chances d'activation sont augmentées de 10%.",
+    "dark": "La portée de l'attaque est augmentée de 20%."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Blocage M. +200",
+    "dark": "Une attaque avec Nova Sacrée et Lance de Lumière inflige des DEG M. supplémentaires à hauteur de 100% de l'ATQ et réduit le Temps de recharge de la compétences de 20%."
+  }
+}

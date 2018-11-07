@@ -1,0 +1,120 @@
+{
+  "name": "Nyx",
+  "subtitle": "Destructor de Dimension",
+  "description": "Un mago heterocrómico que controla el espacio en sí. Sus poderes rasgan a través del espacio para convocar infinidad de barreras de espada.",
+  "story": "Un mago misterioso que cruza dimensiones con heterocromia notablemente reconocible. La sonrisa perpetua en su rostro parece provenir de la sabiduría de alguien que ve a través del universo. Muestra bastante interés en aquellos con habilidades especiales y disfruta ponerlos a prueba. Su habilidad de transportarse en el espacio permite sobrepasar el reino de los mortales, y puede viajar a través de dimensiones. No está seguro cuál es su motivación, pero parece tener caro que siempre pretende ayudar a los demás.",
+  "like": "Viaje entre dimensiones, experimentos de magia",
+  "dislike": "Gente que no escucha a los demás",
+  "inn": {
+    "idle": "Hmm, ¿tienes interés en mí?",
+    "recruit": {
+      "greet": "Siento un aura especial en ti.",
+      "talk": [
+        "Deseas ir a algun lado?",
+        "No hay lugar en este mundo que no pueda alcanzar",
+        "Me gustan las personas interesantes, como tú."
+      ],
+      "gift": "¿Para mí? Hmm, gracias."
+    },
+    "affinity": {
+      "greet": "Nos volvemos a encontrar. Qué bueno verte.",
+      "talk": [
+        "Viajar es divertido. Es una oportunidad para dejar todo y disfrutar de la libertad durante un tiempo.",
+        "Mi pasatiempo es coleccionar espadas."
+      ],
+      "gift": "Oh, qué bonito regalo. Gracias."
+    },
+    "relationship": {
+      "greet": "Hmm. Sabía que vendrías.",
+      "talk": [
+        "Si quieres ir a algún lado, dime. Abriré un portal para ti.",
+        "Me interesa saber como salvas este mundo",
+        "Deseas saber sobre mi magia? Jaja, implica algunos cálculos complicados."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Llave Dimensional, Magnus Fille",
+    "description": [
+      "Los ataques automáticos dañan a los enemigos en línea recta y el daño se incrementa en un 30%. Por cada pila de cuchillas, el daño se incrementa en un 4% adicional.",
+      "Los ataques automáticos dañan a los enemigos en línea recta y el daño se incrementa en un 36%. Por cada pila de cuchillas, el daño se incrementa en un 4,8% adicional.",
+      "Los ataques automáticos dañan a los enemigos en línea recta y el daño se incrementa en un 43%. Por cada pila de cuchillas, el daño se incrementa en un 5,7% adicional.",
+      "Los ataques automáticos dañan a los enemigos en línea recta y el daño se incrementa en un 52%. Por cada pila de cuchillas, el daño se incrementa en un 6,9% adicional.",
+      "Los ataques automáticos dañan a los enemigos en línea recta y el daño se incrementa en un 62%. Por cada pila de cuchillas, el daño se incrementa en un 8,3% adicional.",
+      "Los ataques automáticos dañan a los enemigos en línea recta y el daño se incrementa en un 75%. Por cada pila de cuchillas, el daño se incrementa en un 10% adicional."
+    ],
+    "story": "Existe un enlace universal que conecta diferentes dimensiones. Esta espada es la llave que puede interrumpir y reconectar este enlace. Se otorga al árbitro dimensional que juró proteger el equilibrio del universo. Se puede duplicar de forma indefinida, pero solo concede sus poderes al elegido."
+  },
+  "s1": {
+    "name": "Cuchilla de Dimension",
+    "description": "Causa {0}  Daño Fis. para atacar enemigos. Cada enemigo proporciona una Pila de Cuchillas. El número de objetivos es igual a 1 + Pila de Cuchillas, y el número máximo de pilas es 5.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Cuando hay más de 5 enemigos, se restablecen los 10 segundos del tiempo de reutilización y el Daño aumenta en un 200 %. Tiene un tiempo de reutilización de 20 segundos.",
+    "dark": "El numero Max de acumulacion de Cuchillas se incrementa en 1."
+  },
+  "s2": {
+    "name": "Corte de Dimension",
+    "description": "Causa  {0}  Daño Fisico a los enemigos que son objetivo y elimina los estados positivos. Los enemigos golpeados reciben  {2}  Daño Fis. por  {1}  seg y son golpeados durante 3 seg. El número de objetivos es igual a 1 + Pila de Cuchillas",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "El costo de maná se reduce en 1.",
+    "dark": "El objetivo recibe 25% de Daño Fis aumentado durante 10 seg.",
+    "ut": {
+      "name": "Espada de corte de flujo",
+      "description": [
+        "[Cuchillo dimensional] El Daño aumenta en un 50% y el Daño crítico propio aumenta en un 10% durante 8 segundos por cada enemigo afectado. Este efecto se puede acumular hasta 5 veces.",
+        "[Cuchillo dimensional] El Daño aumenta en un 50% y el Daño crítico propio aumenta en un 12% durante 8 segundos por cada enemigo afectado. Este efecto se puede acumular hasta 5 veces.",
+        "[Cuchillo dimensional] El Daño aumenta en un 50% y el Daño crítico propio aumenta en un 14% durante 8 segundos por cada enemigo afectado. Este efecto se puede acumular hasta 5 veces.",
+        "[Cuchillo dimensional] El Daño aumenta en un 50% y el Daño crítico propio aumenta en un 17% durante 8 segundos por cada enemigo afectado. Este efecto se puede acumular hasta 5 veces.",
+        "[Cuchillo dimensional] El Daño aumenta en un 50% y el Daño crítico propio aumenta en un 21% durante 8 segundos por cada enemigo afectado. Este efecto se puede acumular hasta 5 veces.",
+        "[Cuchillo dimensional] El Daño aumenta en un 50% y el Daño crítico propio aumenta en un 25% durante 8 segundos por cada enemigo afectado. Este efecto se puede acumular hasta 5 veces."
+      ],
+      "story": "Una espada legendaria que ha trascendido eras. Una espada legendaria hecha con la luz del sol y las almas derretidas de quienes están en dolor. Es uno de los artículos requeridos por la corte de dimensión ya que dura lo suficiente como para tolerar la dimensión y puede estar muy afilada."
+    }
+  },
+  "s3": {
+    "name": "Cuchillas del Infinito",
+    "description": "Causa  {0}  Daño Fis a enemigos frontales y como ataque final causa {1}  Daño Fis. a un enemigo, derribandolo durante 3 seg. El número de objetivos para el último ataque es igual a 1 + Pila de Cuchillas",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "El tiempo de reutilización se reduce en 5 segundos.",
+    "dark": "Cuando hay 5 pilas de cuchillas o más, el daño se incrementa en un 70%.",
+    "ut": {
+      "name": "Piedra de dimensión",
+      "description": [
+        "[Cuchillas del Infinito] El costo de maná se reduce en 1 y el Daño aumenta en un 20%.",
+        "[Cuchillas del Infinito] El costo de maná se reduce en 1 y el Daño aumenta en un 24%.",
+        "[Cuchillas del Infinito] El costo de maná se reduce en 1 y el Daño aumenta en un 29%.",
+        "[Cuchillas del Infinito] El costo de maná se reduce en 1 y el Daño aumenta en un 35%.",
+        "[Cuchillas del Infinito] El costo de maná se reduce en 1 y el Daño aumenta en un 42%.",
+        "[Cuchillas del Infinito] El costo de maná se reduce en 1 y el Daño aumenta en un 50%."
+      ],
+      "story": "Un artículo necesario para los hechiceros que viajan a través de las dimensiones. La Piedra de Dimensión es una piedra mágica que es adorada por quienes viajan a través de las dimensiones, ya que contiene energía ilimitada. Sin embargo, el poder que otorga depende de la habilidad del individuo que la usa. Solo los hechiceros con una alta clasificación pueden usarla de modo eficaz."
+    }
+  },
+  "s4": {
+    "name": "Cuchilla Escondida",
+    "description": "Cada ataque automático, dispara una cuchilla adicional y causa {0}  Daño Fis. A los enemigos. El número de objetivos es igual a 1 + Pila de Cuchillas",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "El Daño se incrementa en un 15% por cada enemigo en el campo.",
+    "dark": "Hay un 10% de probabilidad de disipar los efectos positivos del enemigo."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Daño Crit+20%",
+    "dark": "Cuando se ataca automáticamente, hay un 10% de probabilidad de acumular una pila de Cuchillas. El ATQ de Nyx se incrementa en un 10% por cada pila de Cuchillas que posee."
+  }
+}

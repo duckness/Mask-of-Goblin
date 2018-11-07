@@ -1,0 +1,120 @@
+{
+  "name": "Morrah",
+  "subtitle": "Chama do Diabo",
+  "description": "Um cavaleiro demônio que usa a lava das Forças das Trevas. Causa uma dor contínua em seus inimigos e trava batalhas de resistência usando sua defesa implacável.",
+  "story": "Antiga comandante dos Cavaleiros do Dragão Sombrio, ela é a cavaleira demônio mais galante do Exército Demoníaco. Atualmente, por algum motivo desconhecido, ela está seguindo a bruxa Maria, auxiliando-a em seu trabalho. Muitos acham estranho o fato de que a antiga campeã do Exército Demoníaco – que massacrava inúmeros inimigos e até mesmo devorava dragões – agora trabalhe como serva de uma mera bruxa. No entanto, ela continua a servir fielmente sua mestre.",
+  "like": "Inimigos formidáveis, lutas dignas",
+  "dislike": "Dragões",
+  "inn": {
+    "idle": "O que é isso? Você quer morrer?",
+    "recruit": {
+      "greet": "Não se meta comigo.",
+      "talk": [
+        "Eu não lutarei com ninguém dentro dessa estalagem. Mas você ficaria melhor longe de mim, lá fora.",
+        "Parece que sua vida está cheia de lazer. Nesse caso, que tal me dar a sua cabeça?",
+        "Não fale comigo."
+      ],
+      "gift": "Eu quero ver seu sangue, não isso."
+    },
+    "affinity": {
+      "greet": "Que mesquinho.",
+      "talk": [
+        "Pare de me incomodar se não quiser morrer.",
+        "Não me enche. Eu não tive escolha."
+      ],
+      "gift": "Você achou que eu ia gostar disso?"
+    },
+    "relationship": {
+      "greet": "Você está aqui. A próxima batalha foi decidida?",
+      "talk": [
+        "Eu jurei lealdade a Maria. Porém... eu tenho uma dívida a pagar para você.",
+        "General dos Dragônicos... Sim, isso foi o meu passado. Eu não tinha outros objetivos...",
+        "Eu sou um Demônio criado para a destruição, um Dragônico... mas ainda assim..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Carprain, Chama da Vitória",
+    "description": [
+      "A cada 10 segundos, causa DAN.M (80% do ATQ) aos inimigos que têm acúmulos de Chama. Cada acúmulo aumenta o DAN em 2%. Há 14% de chance de que inimigos com acúmulos de Chama possam ser derrubados.",
+      "A cada 10 segundos, causa DAN.M (96% do ATQ) aos inimigos que têm acúmulos de Chama. Cada acúmulo aumenta o DAN em 2%. Há 16% de chance de que inimigos com acúmulos de Chama possam ser derrubados.",
+      "A cada 10 segundos, causa DAN.M (115% do ATQ) aos inimigos que têm acúmulos de Chama. Cada acúmulo aumenta o DAN em 2%. Há 20% de chance de que inimigos com acúmulos de Chama possam ser derrubados.",
+      "A cada 10 segundos, causa DAN.M (138% do ATQ) aos inimigos que têm acúmulos de Chama. Cada acúmulo aumenta o DAN em 2%. Há 24% de chance de que inimigos com acúmulos de Chama possam ser derrubados.",
+      "A cada 10 segundos, causa DAN.M (166% do ATQ) aos inimigos que têm acúmulos de Chama. Cada acúmulo aumenta o DAN em 2%. Há 29% de chance de que inimigos com acúmulos de Chama possam ser derrubados.",
+      "A cada 10 segundos, causa DAN.M (200% do ATQ) aos inimigos que têm acúmulos de Chama. Cada acúmulo aumenta o DAN em 2%. Há 35% de chance de que inimigos com acúmulos de Chama possam ser derrubados."
+    ],
+    "story": "No núcleo do Vulcão de Dragia, existe uma forja. Há centenas de anos, Temeraire, o dragão ancião de fogo, criou um conjunto de equipamentos encantados. Usando lava infundida com o poder do fogo vulcânico, ele forjou um escudo e uma espada capazes de incinerar qualquer coisa. Durante a guerra contra os Demônios, Temeraire apresentou esses itens para um guerreiro humano. Infelizmente, dizem que o guerreiro foi derrotado por Morrah. Desde então, ninguém viu esses equipamentos lendários. Isto é, até que Morrah reapareceu na linha de frente."
+  },
+  "s1": {
+    "name": "Poder Ardente",
+    "description": "Causa {0} de DAN.M aos inimigos no alcance e os derruba. Gera 3 acúmulos de Chama. Em seguida, durante {1} segundos, ataques automáticos causam {2} de DAN.M e acumulam 1 Chama no inimigo. Cada acúmulo de Chama aumenta o DAN da Chama em {3}%. Cada acúmulo de Chama causa dano separadamente e reduz a Recuperação em 1%.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "Aumenta a VEL. ATQ em 200, durante 15 segundos.",
+    "dark": "Reduz o tempo de recarga em 6% por cada inimigo atingido."
+  },
+  "s2": {
+    "name": "Fogo do Inferno",
+    "description": "Por {0} segundos, aumenta a DEF.M de todos os aliados em {1} , e também aumenta a Chance de Bloqueio.M em {2}. Além disso, acumula Chama nos inimigos próximos a cada {3} segundos.",
+    "books": {
+      "0": "Aumenta a taxa de aumento de DEF.M em {0}%.",
+      "1": "Aumenta a taxa de aumento de DEF.M em {0}%.",
+      "2": "Aumenta a taxa de aumento da Chance de BLQ.M em {0}%."
+    },
+    "light": "Reforça em 20% a taxa de BLQ.M.",
+    "dark": "Enquanto Fogo do Inferno estiver ativado, causa DAN baseado na própria DEF.M aos inimigos ao redor.",
+    "ut": {
+      "name": "Luvas de Couro de Cria",
+      "description": [
+        "[Fogo Infernal] Ao bloquear ATQ M. do alvo durante a habilidade, a redução de DAN aumenta em 100 e a resistência a Crít M. aumenta em 250.",
+        "[Fogo Infernal] Ao bloquear ATQ M. do alvo durante a habilidade, a redução de DAN aumenta em 120 e a resistência a Crít M. aumenta em 250.",
+        "[Fogo Infernal] Ao bloquear ATQ M. do alvo durante a habilidade, a redução de DAN aumenta em 140 e a resistência a Crít M. aumenta em 250.",
+        "[Fogo Infernal] Ao bloquear ATQ M. do alvo durante a habilidade, a redução de DAN aumenta em 170 e a resistência a Crít M. aumenta em 250.",
+        "[Fogo Infernal] Ao bloquear ATQ M. do alvo durante a habilidade, a redução de DAN aumenta em 210 e a resistência a Crít M. aumenta em 250.",
+        "[Fogo Infernal] Ao bloquear ATQ M. do alvo durante a habilidade, a redução de DAN aumenta em 250 e a resistência a Crít M. aumenta em 250."
+      ],
+      "story": "Luvas feitas com pele e ossos de uma Cria sombria. Há cem anos, Morrah fez estas luvas recolhendo as Crias que matava quando saía para caçar dragões. São tão duráveis que resistem até às chamas de Morrah, e ainda concedem maior poder que faz as chamas queimarem ainda mais. Morrah gosta muito destas luvas."
+    }
+  },
+  "s3": {
+    "name": "Erupção de Lava",
+    "description": "Causa {0} de DAN.M e derruba os inimigos no alcance. O dano aumenta em {1}% para cada acúmulo de Chama.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "Aumenta o DAN em 40%.",
+    "dark": "Cura uma quantidade de PV equivalente a 40% do DAN causado.",
+    "ut": {
+      "name": "Pedra Selada do Inferno",
+      "description": [
+        "[Erupção de Lava] Aumenta o DAN em 20% e reduz a DEF.M do alvo em 25% por 7 segundos.",
+        "[Erupção de Lava] Aumenta o DAN em 24% e reduz a DEF.M do alvo em 25% por 7 segundos.",
+        "[Erupção de Lava] Aumenta o DAN em 29% e reduz a DEF.M do alvo em 25% por 7 segundos.",
+        "[Erupção de Lava] Aumenta o DAN em 35% e reduz a DEF.M do alvo em 25% por 7 segundos.",
+        "[Erupção de Lava] Aumenta o DAN em 42% e reduz a DEF.M do alvo em 25% por 7 segundos.",
+        "[Erupção de Lava] Aumenta o DAN em 50% e reduz a DEF.M do alvo em 25% por 7 segundos."
+      ],
+      "story": "Um estranho fragmento que veio do Portal Dimensional. Dentro do fragmento, há uma chama que mata tudo que for vivo. A energia de sua dimensão está condensada dentro dele. É absolutamente necessário para concluir o plano de Maria."
+    }
+  },
+  "s4": {
+    "name": "Golpe de Fogo",
+    "description": "Após Bloquear, causa {1} de DAN.M a inimigos na áera, e inflige 3 acúmulos de Fogo.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "Aumenta a própria DEF.M em 5% por cada bloqueio. Quantidade máx. de acúmulos: 10.",
+    "dark": "O Alvo com mais de 100 acúmulos de Fogo recebe 40% a mais de DAN.M."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / BLQ.M +200",
+    "dark": "O DAN de acúmulo de Fogo aumenta em 100% e o número máximo de acúmulos aumenta para 120."
+  }
+}

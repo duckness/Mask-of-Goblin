@@ -1,0 +1,120 @@
+{
+  "name": "Scarlet",
+  "subtitle": "Faith of Silver",
+  "description": "A princess of Orvelia that truly loves her people. She wields her sword to protect the weak and support justice, as a true knight. Using a magical greatsword that disrupts mana, she cuts through her enemies.",
+  "story": "King Veroglance the Second of Orvelia grew weaker by the day. He was once a stout monarch whom no one dared to cross. However, he, too, began to show weakness with age. When he finally fell ill, those with aspirations of power began gathering around him like flies. Scarlet tried her hardest to protect her father in this chaos. But the man being swayed by the flatterers around him was no longer the respected king she once knew. The king turned his back on his daughter's pleas. The nobles were unhappy to accept her, the king's only child, as the next queen, to say the least. The atmosphere of the royal palace darkened quickly. She knows. The nobles would pressure her incessantly. But she would never yield. She is prepared to fight to protect her kingdom, to protect her people. She would never let those who are greedy for power to take control of the kingdom. No matter what...",
+  "like": "Honest people Just people",
+  "dislike": "Opportunists Oppressors of the weak",
+  "inn": {
+    "idle": "Hmm. Cleaner than expected.",
+    "recruit": {
+      "greet": "I assume you have business with me?",
+      "talk": [
+        "Do not be so distant. Come closer.",
+        "Tell me more of your story.",
+        "This country is still standing due to your efforts. I thank you with all my heart."
+      ],
+      "gift": "...Tha... thank you..."
+    },
+    "affinity": {
+      "greet": "Good to see you.",
+      "talk": [
+        "We must not forget that the people are the backbone of this country.",
+        "I'm worried about my father's illness."
+      ],
+      "gift": "Thank you as always. I'll use it well."
+    },
+    "relationship": {
+      "greet": "We meet again. Take a seat... let us talk.",
+      "talk": [
+        "Do you also think not only the capital of Orvel, but the entirety of Orvelia, has changed...?",
+        "It would be a lie to say I am not tired... but even so, I try not to be.",
+        "I have trustworthy retainers at my side. Thanks to them, I can still go on... Haha, so obstinate and straightforward, that one."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Blade of Conviction, White Belona",
+    "description": [
+      "Per every skill in cooldown, DMG is increased by 8%.",
+      "Per every skill in cooldown, DMG is increased by 10%.",
+      "Per every skill in cooldown, DMG is increased by 12%.",
+      "Per every skill in cooldown, DMG is increased by 14%.",
+      "Per every skill in cooldown, DMG is increased by 17%.",
+      "Per every skill in cooldown, DMG is increased by 20%."
+    ],
+    "story": "The most legendary sword in Orvelia. This sacred blade has been passed down the royal lineage of Orvelia since the kingdom's birth, symbolizing the true authority of the monarch. King Kyle used this sword as well, until he was chosen by the Holy Sword Aea. Blessed with the power of light, its blade can disable any magic by cutting through its flow. Only a knight of noble bloodline and righteous pride can wield this sword. Those who wish to lift it must pass the trial of the royal family, a feat only accomplished by Scarlet, aside from Kyle."
+  },
+  "s1": {
+    "name": "Halt!",
+    "description": "Attacks all frontal enemies, dealing {0} P.DMG and knocking them down for 3 sec. If the target is not a Hero, deals {1} additional P.DMG. Heals HP equal to 30% of DMG dealt.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Target takes {0}% increased P.DMG for 10 sec."
+    },
+    "light": "Mana cost is reduced by 1.",
+    "dark": "Dispels all harmful effects on oneself upon use."
+  },
+  "s2": {
+    "name": "Justice Served!",
+    "description": "Dispels negative effects of all allies and dispels positive effects of all enemies, while dealing {0} P.DMG.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "If the target is not a Hero, stuns them for 4 sec.",
+    "dark": "All allies' P.Crit Resistance is increased by 200 for 10 sec.",
+    "ut": {
+      "name": "Wings of Justice",
+      "description": [
+        "[Justice Served!] Increases DMG by 20% and reduces Cooldown of all allies by 10%.",
+        "[Justice Served!] Increases DMG by 24% and reduces Cooldown of all allies by 10%.",
+        "[Justice Served!] Increases DMG by 29% and reduces Cooldown of all allies by 10%.",
+        "[Justice Served!] Increases DMG by 35% and reduces Cooldown of all allies by 10%.",
+        "[Justice Served!] Increases DMG by 42% and reduces Cooldown of all allies by 10%.",
+        "[Justice Served!] Increases DMG by 50% and reduces Cooldown of all allies by 10%."
+      ],
+      "story": "Pendant made by Scarlet, whose principles won't let her ignore injustice or kneel in the face of cowardice. She gifted one each to the people she relies on: Clause and Demia. The shining wings of the royal emerald, which symbolize justice, are embedded inside the pendant. One can straighten oneself out by staring at the pendant that reflects one's eyes. She looks at it each time she feels despair by looking at the people who lay blame on her father Veroglance II."
+    }
+  },
+  "s3": {
+    "name": "Sword of Honor!!",
+    "description": "Attacks an enemy 3 times, dealing a total of {0} P.DMG. Fires an energy blast from the sword, dealing {1} P.DMG to enemies in a straight line, blinding them for 5 sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Mana cost is reduced by 1.",
+    "dark": "Damaged enemies receive 40% reduced heals for 10 sec.",
+    "ut": {
+      "name": "Pride of Orvelia",
+      "description": [
+        "[Sword of Honor!!] DMG is increased by 20% and each ATK inflicts Stun on enemy for 3 sec.",
+        "[Sword of Honor!!] DMG is increased by 24% and each ATK inflicts Stun on enemy for 3 sec.",
+        "[Sword of Honor!!] DMG is increased by 29% and each ATK inflicts Stun on enemy for 3 sec.",
+        "[Sword of Honor!!] DMG is increased by 35% and each ATK inflicts Stun on enemy for 3 sec.",
+        "[Sword of Honor!!] DMG is increased by 42% and each ATK inflicts Stun on enemy for 3 sec.",
+        "[Sword of Honor!!] DMG is increased by 50% and each ATK inflicts Stun on enemy for 3 sec."
+      ],
+      "story": "A celebratory flag that was made to praise the king when Orvelia was first founded. Whenever she sees the flag in the office, it angers her to think of the treacherous subjects who reduced her father to a scarecrow and the flatterers who ruined the country. This made Scarlet even more determined to restore Orvelia's days of glory and to establish a stronger throne."
+    }
+  },
+  "s4": {
+    "name": "Goddess of War",
+    "description": "All Crit Resistance increases by {0}. With 10% chance, deals additional {1} P.DMG during auto attack and stuns target enemy for 1 sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Crit Resistance increases to 300.",
+    "dark": "Stun duration lasts for 2 more sec when there is only one enemy."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / CC Resist +100",
+    "dark": "When receiving Critical DMG, there is a 5% chance the attacker is dispelled of all positive effects and is stunned for 1 sec. Skill cooldown is 8 sec."
+  }
+}

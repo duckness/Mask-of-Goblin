@@ -1,0 +1,120 @@
+{
+  "name": "Epis",
+  "subtitle": "Bezauberndes Dämon",
+  "description": "Ein kaltblütiger, hedonistischer Dämon. Mit ihrer großen Sense sammelt sie die Seelen ihrer Feinde. Sie erscheint plötzlich bei den Feinden auf und schlitzt alle um sie herum auf.",
+  "story": "Dieser verspielte und bezaubernde Sukkubus handelt frei nach ihren Launen. Wie man es aufgrund ihrer Dämonenabstammung erwarten kann, ist sie ein Genussmensch und macht allein das, was ihr Spaß und Amüsement bringt. Sogar während des Dämonenkriegs reiste sie allein herum, anstatt sich der Invasion anzuschließen. Den Kampf an der Seite von Kyle fand sie interessant genug, um ihre eigene Rasse zu verraten. Als sie später Kasel kennenlernte, wusste sie, dass sich ihr die Chance auf ein weiteres lustiges Abenteuer bot und so schloss sie sich seiner Gruppe an. Wenn sie auf attraktive Männer trifft, besucht sie sie gelegentlich in ihren Träumen.",
+  "like": "Alles, was Interesse oder Neugier hervorruft",
+  "dislike": "Langweilige Atmosphäre",
+  "inn": {
+    "idle": "Hm hmm hmm~ (summt)",
+    "recruit": {
+      "greet": "Hast du heute Zeit?",
+      "talk": [
+        "Wirst du etwa rot? Wie süß~",
+        "Wo starrst du denn hin? Keine Sorge, ich sag's keinem...",
+        "Hmm..was, du willst etwas aufregendes versuchen~?"
+      ],
+      "gift": "Oh, für mich? Ohh, nun, was könntest du dafür wohl wollen~?"
+    },
+    "affinity": {
+      "greet": "Sei willkommen! Hast du die Türe geschlossen?",
+      "talk": [
+        "Oh, was hast du erwartet? Oh, du bist hinterhältig.",
+        "Du möchtest wissen, warum ein Dämon auf der Seite der Menschen steht? Sieht das wirklich so aus? Haha."
+      ],
+      "gift": "Nicht schlecht. Du kennst dich offenbar mit Verführung aus. Macht dich das also mehr wie mich?"
+    },
+    "relationship": {
+      "greet": "Hm, deinem Gesichtsausdruck nach zu urteilen hast du mich gestern Nacht in deinen Träumen getroffen, richtig?",
+      "talk": [
+        "Aha, also wie war denn dein Traum? Befriedigend? Oder möchtest du lieber da weitermachen, wo er aufgehört hat...",
+        "Haaah! Ich habe da diese Sache im Kopf. Und zwar dich, ich denke immerzu an dich... und weisst du warum?",
+        "Diese Klamotten scheinen immer enger zu werden. Habe ich etwa zugenommen..? Möchtest du mir vielleicht helfen es herauszufinden, zum Beispiel in meinem Zimmer?"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Faszinierende Guillotine",
+    "description": [
+      "25%-ige Chance beim Angriff M. Schaden in Höhe von 80% des ANG anzurichten und den eigenen ANG um 2% zu erhöhen. Dieser ANG-Boost kann sich bis zu 10 Mal kumulieren.",
+      "25%-ige Chance beim Angriff M. Schaden in Höhe von 96% des ANG anzurichten und den eigenen ANG um 2,4% zu erhöhen. Dieser ANG-Boost kann sich bis zu 10 Mal kumulieren.",
+      "25%-ige Chance beim Angriff M. Schaden in Höhe von 115% des ANG anzurichten und den eigenen ANG um 2,9% zu erhöhen. Dieser ANG-Boost kann sich bis zu 10 Mal kumulieren.",
+      "25%-ige Chance beim Angriff M. Schaden in Höhe von 138% des ANG anzurichten und den eigenen ANG um 3,5% zu erhöhen. Dieser ANG-Boost kann sich bis zu 10 Mal kumulieren.",
+      "25%-ige Chance beim Angriff M. Schaden in Höhe von 165% des ANG anzurichten und den eigenen ANG um 4,2% zu erhöhen. Dieser ANG-Boost kann sich bis zu 10 Mal kumulieren.",
+      "25%-ige Chance beim Angriff M. Schaden in Höhe von 200% des ANG anzurichten und den eigenen ANG um 5% zu erhöhen. Dieser ANG-Boost kann sich bis zu 10 Mal kumulieren."
+    ],
+    "story": "Eine tödliche Sense, die zum Charakter ihres Führers, Epis, passt. Sie rafft die Seelen jener, die an sie herantreten, um ihre Schönheit zu bewundern. Diese Waffe, die aus Epis’ eigenem Körper erschaffen wurde, ist selbst wie ein Sukkubus. Sie verschafft ihren Opfern größte Befriedigung, ehe sie ihnen die Lebensenergie aussaugt. Es scheint so, als hätte Epis mit dieser Waffe versucht, ein wenig Güte zu zeigen."
+  },
+  "s1": {
+    "name": "Lebensraub",
+    "description": "Fügt dem Feind {0} M.Schaden zu und heilt sich selbst um {1}% des Schadens.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Erhöht Schaden um 100%, wenn nur 1 Feind auf dem Schlachtfeld ist.",
+    "dark": "Ignoriert feindliche Blockeffekte."
+  },
+  "s2": {
+    "name": "Alptraum",
+    "description": "Begibt sich hinter den entferntesten Feind und richtet {0} M.Schaden an.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Reduziert Manakosten um 1.",
+    "dark": "Manaverbrauch ist um 1 erhöht und bei Benutzung des Skills wird 'Lebensraub' aktiviert. Kann nicht genutzt werden, wenn keine Gegner in Reichweite sind.",
+    "ut": {
+      "name": "Sukkubus-Kiste",
+      "description": [
+        "[Alptraum] Erhöht den Schaden um 50 % und betäubt den betroffenen Feind 2 Sek. lang.",
+        "[Alptraum] Erhöht den Schaden um 50 % und betäubt den betroffenen Feind 2,4 Sek. lang.",
+        "[Alptraum] Erhöht den Schaden um 50 % und betäubt den betroffenen Feind 2,9 Sek. lang.",
+        "[Alptraum] Erhöht den Schaden um 50 % und betäubt den betroffenen Feind 3,5 Sek. lang.",
+        "[Alptraum] Erhöht den Schaden um 50 % und betäubt den betroffenen Feind 4,2 Sek. lang.",
+        "[Alptraum] Erhöht den Schaden um 50 % und betäubt den betroffenen Feind 5 Sek. lang."
+      ],
+      "story": "Kiste, die den Schlafsand der Alptraumkönigin enthält. Eine Kiste aus der Dämonenwelt, die Magie und Sand enthält, die jeden in Schlaf versetzen. Wenn der Feind einschläft, wird er angegriffen und ihm wird durch einen Alptraum, der nicht entfernt werden kann, M. Schaden zugefügt."
+    }
+  },
+  "s3": {
+    "name": "Des Teufels Ball",
+    "description": "Fügt Feinden in Reichw. {0} M.Schaden zu.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Heilt Epis um {0}% des zugefügten Schadens bei einem krit. Treffer."
+    },
+    "light": "Erhöht Schaden um 40%.",
+    "dark": "Reduziert erlittenen Schaden um 50%, solange der Skill aktiv ist.",
+    "ut": {
+      "name": "Schuh der Verführung",
+      "description": [
+        "Des Teufels Ball] Reduziert Manakosten um 1 und erhöht Schaden um 20%.",
+        "Des Teufels Ball] Reduziert Manakosten um 1 und erhöht Schaden um 24%.",
+        "Des Teufels Ball] Reduziert Manakosten um 1 und erhöht Schaden um 29%.",
+        "Des Teufels Ball] Reduziert Manakosten um 1 und erhöht Schaden um 35%.",
+        "Des Teufels Ball] Reduziert Manakosten um 1 und erhöht Schaden um 42%.",
+        "Des Teufels Ball] Reduziert Manakosten um 1 und erhöht Schaden um 50%."
+      ],
+      "story": "Epis‘ geschätzter Gegenstand. Als Epis zum ersten Mal in der Menschenwelt ankam, interessierte sie sich sehr für menschliche Kultur und besuchte einen Maskenball. Der Tanz eines Mädchens mit roten Absätzen zog ihren Blick auf sich und sie ging im Austausch gegen diese Schuhe einen Handel mit ihr ein. Epis trägt ihre verführerischen Absätze und kann sich nicht bremsen, wenn sie ihren Feinden mit ihrem Tanz Schmerzen zufügt."
+    }
+  },
+  "s4": {
+    "name": "Ernte",
+    "description": "For each kill, increase M.ATK by {1} for {0} Sek.",
+    "books": {
+      "0": "ANG-Erhöhungsrate steigt um {0}%.",
+      "1": "ANG-Erhöhungsrate steigt um {0}%.",
+      "2": "Erhole 1 Mana-Kugel für jeden Todesstoß."
+    },
+    "light": "Jeder Zähler erhöht die Mana-Regeneration pro Sek um 50%.",
+    "dark": "Solange der Zähler höher als 5 ist, ist Mana immer auf 100%. Cooldowns werden pro Sek um je eine Sek reduziert."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / Krit. Schaden +20%",
+    "dark": "Alle Angriffe von Epis verringern 10 Sek lang die M.VERT getroffener Feinde um 20%. Erhöht ANG um 2% für jeden Treffer. Kumuliert sich bis zu 10 Mal."
+  }
+}

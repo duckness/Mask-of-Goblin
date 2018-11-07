@@ -1,0 +1,120 @@
+{
+  "name": "Lakrak",
+  "subtitle": "Hand Cannon's Hunter",
+  "description": "A white goblin skilled in mechanical engineering, he uses a hand cannon to inflict explosive damage, harass enemies with special bullets, and inflict fatal damage to them.",
+  "story": "This eccentric albino Goblin enjoys developing powerful weapons more than anything else. Having been harassed and ostracized by other Goblins due to his skin color, he feels no compassion toward his kind. He would gladly shoot, blow up, and smash even a fellow Goblin to test his weapons. However, he also expresses his gratitude to those who help him, and this is how he became Roi's friend. Unfortunately, he is terrible at remembering faces, so he often tries to shoot Roi before he recalls who he is.",
+  "like": "Gunpowder, guns, cannons",
+  "dislike": "Foolish Goblins",
+  "inn": {
+    "idle": "No goblins here! Good place.",
+    "recruit": {
+      "greet": "Ach!! You weapon look good!!",
+      "talk": [
+        "You fought goblins?! Won?! Kakakak, good!!",
+        "Ach, surprised me!! Eck, help experiment?! Good!! Right now!!!",
+        "Interested in Handcannons?! You good!! Smart!!"
+      ],
+      "gift": "Present?! Weapon mod fund?!! Good!! Add extra gunpowder!!"
+    },
+    "affinity": {
+      "greet": "Welcome!!! You want see my research?",
+      "talk": [
+        "I want say human language well! A-B-C-Dee!!! D always problem!!!",
+        "No human like you! Distinct! You distinct friend! Now I have Roi and you!!!"
+      ],
+      "gift": "You bring something good!? I know good thing! Great!!!"
+    },
+    "relationship": {
+      "greet": "Kukakak! Today's research good!!",
+      "talk": [
+        "Gunpowder! Explosions!!! Kakakak!!",
+        "Experiments! Experiments! More experiments! Weapon development fun!",
+        "Good research data, thanks!! Best friends!!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Lakrak MK-1",
+    "description": [
+      "Gains a 25% chance to obtain a stack of Gunpowder upon attacking. Each stack of Gunpowder increases ATK by 3%, ATK Spd by 30, and DMG to non-Hero enemies by 3%. Gunpowder stacks up to 7 times and cannot be removed.",
+      "Gains a 25% chance to obtain a stack of Gunpowder upon attacking. Each stack of Gunpowder increases ATK by 3.6%, ATK Spd by 36, and DMG to non-Hero enemies by 3.6%. Gunpowder stacks up to 7 times and cannot be removed.",
+      "Gains a 25% chance to obtain a stack of Gunpowder upon attacking. Each stack of Gunpowder increases ATK by 4.3%, ATK Spd by 43, and DMG to non-Hero enemies by 4.3%. Gunpowder stacks up to 7 times and cannot be removed.",
+      "Gains a 25% chance to obtain a stack of Gunpowder upon attacking. Each stack of Gunpowder increases ATK by 5.1%, ATK Spd by 51, and DMG to non-Hero enemies by 5.1%. Gunpowder stacks up to 7 times and cannot be removed.",
+      "Gains a 25% chance to obtain a stack of Gunpowder upon attacking. Each stack of Gunpowder increases ATK by 6.2%, ATK Spd by 62, and DMG to non-Hero enemies by 6.2%. Gunpowder stacks up to 7 times and cannot be removed.",
+      "Gains a 25% chance to obtain a stack of Gunpowder upon attacking. Each stack of Gunpowder increases ATK by 7.5%, ATK Spd by 75, and DMG to non-Hero enemies by 7.5%. Gunpowder stacks up to 7 times and cannot be removed."
+    ],
+    "story": "The destructive yet artistic magnum opus of a quirky Goblin inventor. This single-hand cannon packs the maximum amount of firepower a single Goblin can physically handle. Despite the dangerous amount of gunpowder used, this weapon has fortunately not blown up yet."
+  },
+  "s1": {
+    "name": "Rapid Fire",
+    "description": "Attacks all frontal enemies in a straight line, dealing {0} P.DMG and pushing them back. If the target is not a Hero, deals {1} additional P.DMG and stuns them for {2} sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "DMG is increased by 40%.",
+    "dark": "Stuns the enemy for 3 sec."
+  },
+  "s2": {
+    "name": "Smoke Bomb",
+    "description": "Deals {0} P.DMG to enemies in range and inflicts Blind for 4 sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Deals DMG and Stuns the enemy for 1 sec."
+    },
+    "light": "Mana cost is reduced by 1.",
+    "dark": "Blind duration is increased by 2 sec.",
+    "ut": {
+      "name": "Special Gas Mask",
+      "description": [
+        "[Smoke Bomb] Reduces Cooldown by 30% and increases blind duration by 1 sec.",
+        "[Smoke Bomb] Reduces Cooldown by 30% and increases blind duration by 1.2 sec.",
+        "[Smoke Bomb] Reduces Cooldown by 30% and increases blind duration by 1.4 sec.",
+        "[Smoke Bomb] Reduces Cooldown by 30% and increases blind duration by 1.7 sec.",
+        "[Smoke Bomb] Reduces Cooldown by 30% and increases blind duration by 2.1 sec.",
+        "[Smoke Bomb] Reduces Cooldown by 30% and increases blind duration by 2.5 sec."
+      ],
+      "story": "A high-performing mask that was made with special materials that Lakrak obtained from around the Orbis Continent. This mask is made from Harpy's first feather, a dragon's scales, a leaf from the World Tree, and the empire's mithril, which are all hard to find. This mask protects one from poisonous gas as well as the blinding effect of Smoke Bombs."
+    }
+  },
+  "s3": {
+    "name": "Glue Bomb",
+    "description": "Attaches a Glue Bomb to a random enemy that explodes in {0} sec. The explosion deals max {1} P.DMG proportional to enemy's current HP to enemies in range, and inflicts Stun for 3 sec. Upon attaching the Glue Bomb, target is inflicted with Stun for 2 sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Mana cost is increased by 1, and attacks a random target 2 times.",
+    "dark": "Mana cost is reduced by 1.",
+    "ut": {
+      "name": "Goblincraft Special High-Density Gunpowder",
+      "description": [
+        "[Glue Bomb] DMG is increased by 50%, and upon Crit Hit, recovers 200 mana.",
+        "[Glue Bomb] DMG is increased by 50%, and upon Crit Hit, recovers 240 mana.",
+        "[Glue Bomb] DMG is increased by 50%, and upon Crit Hit, recovers 290 mana.",
+        "[Glue Bomb] DMG is increased by 50%, and upon Crit Hit, recovers 350 mana.",
+        "[Glue Bomb] DMG is increased by 50%, and upon Crit Hit, recovers 420 mana.",
+        "[Glue Bomb] DMG is increased by 50%, and upon Crit Hit, recovers 500 mana."
+      ],
+      "story": "Gunpowder made with Lakrak's dangerous secret recipe. Lakrak believed that simple explosions weren't effective enough in terms of battle strategy, so he added some formic acid and stinging nettle poison to add a stunning effect. It requires an extremely accurate filtering process, and he uses it in secret to avoid abuse."
+    }
+  },
+  "s4": {
+    "name": "Load Cannon",
+    "description": "Each auto attack has a 15% chance of firing a bomb that deals {1} P.DMG to enemies in range and stuns them for 2 sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Activation chance is boosted by 10%.",
+    "dark": "Target takes 25% increased P.DMG."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / Crit DMG +20%",
+    "dark": "Upon a Critical Hit, gain 5% Crit DMG and 30 CC Accuracy. Stacks up to 10 times."
+  }
+}

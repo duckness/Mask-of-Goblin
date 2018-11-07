@@ -1,0 +1,120 @@
+{
+  "name": "Annette",
+  "subtitle": "Tecnomaga Real",
+  "description": "Um gênio tecnomago que espera o dia em que todo mundo tenha acesso à magia. O seu golem tecnomágico atua como sua arma, disparando contra o inimigo.",
+  "story": "Uma tecnomaga genial do Reino de Orvelia. Ela é altamente otimista e o fracasso nunca parece incomodá-la. Ela sonha em um dia inventar um dispositivo que permita o uso de magia por qualquer pessoa. Após anos de pesquisa, ela usou magia para criar seu assistente. Depois da chegada dos Demônios, ela mudou o foco da sua pesquisa para o desenvolvimento de armas que permitissem que qualquer um pudesse lutar contra os invasores.",
+  "like": "Tecnomagia, fundos para pesquisas",
+  "dislike": "Pessoas que menosprezam Tecnomagia",
+  "inn": {
+    "idle": "Uau, quantas pessoas! Muito diferente do meu laboratório no castelo!",
+    "recruit": {
+      "greet": "Olá... um tecnomago interessa você?",
+      "talk": [
+        "Todos têm direito à magia! Eu quero popularizar isso!",
+        "O palácio real contribui generosamente para o meu fundo de pesquisas... mas ainda não é o suficiente!",
+        "Hã? Estes ovos se parecem com o meu queridinho aqui!"
+      ],
+      "gift": "Hehe! Obrigado pela doação para o fundo de pesquisa!"
+    },
+    "affinity": {
+      "greet": "Experimentos, experimentos, experimentos divertidos! Hum? Olá!",
+      "talk": [
+        "Essas belezinhas estão crescendo rápido! Logo vai estar tudo pronto pra botar em prática!",
+        "1 dessas belezinhas por pessoa! Que tal?"
+      ],
+      "gift": "He he, vou conseguir muitos recursos...!"
+    },
+    "relationship": {
+      "greet": "Oi! Você estudou muito hoje?",
+      "talk": [
+        "Ééééé!! Agora, vamos fazer um experimento de acordo com a minha tese mais recente!",
+        "Eu consegui aumentar os investimentos na minha pesquisa! Graças a isso, eu posso fazer muito mais no meu laboratório!",
+        "Eu quero compartilhar minhas belezuras com todos!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Rascal, Technomágico Cristalizado",
+    "description": [
+      "A cada 1,5 segundo, ganha 1 acúmulo Investida Mágica e recupera 1% de mana.",
+      "A cada 1,4 segundo, ganha 1 acúmulo Investida Mágica e recupera 1% de mana.",
+      "A cada 1,3 segundo, ganha 1 acúmulo Investida Mágica e recupera 1% de mana.",
+      "A cada 1,1 segundo, ganha 1 acúmulo Investida Mágica e recupera 1% de mana.",
+      "A cada 0,9 segundo, ganha 1 acúmulo Investida Mágica e recupera 1% de mana.",
+      "A cada 0,7 segundo, ganha 1 acúmulo Investida Mágica e recupera 1% de mana."
+    ],
+    "story": "A essência da tecnomagia, criada com base na teoria de Annette. Cinco dos feiticeiros de mais alta patente da corte de Orvel aplicaram todos os seus esforços na criação dessa criatura mágica. Embora compartilhe seu mana com Annette, a essência também é capaz de tomar decisões independentes e executá-las. Assim, ela é o primeiro marco na tentativa de Annette de tornar a magia disponível para todos."
+  },
+  "s1": {
+    "name": "Raio Explosivo",
+    "description": "Ataca os inimigos numa linha reta, causando {0} de DAN.M aos alvos e aumentando em {1}% o DAN.M recebido. Quando estiver Sobrecarregado, causa {2} de DAN.M adicional e aumenta em {3}% o DAN.M recebido.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Ao usar, aumenta em 30% a quantidade de Investida obtida."
+    },
+    "light": "O alvo recebe mais 25% de DAN.M durante 10 segundos.",
+    "dark": "Ao usar, reforça em 40% a quantidade de Investida."
+  },
+  "s2": {
+    "name": "Tratamento de Emergência",
+    "description": "Remove todas as penalidades dos aliados, cura {0} PV durante 10 segundos e aumenta a Resistência a Penalidades em 250. Enquanto estiver Sobrecarregado, todos os aliados ganham {1} de Chance Crít. e imunidade a efeitos de status.",
+    "books": {
+      "0": "Recuperação aumentada em {0}%.",
+      "1": "Recuperação aumentada em {0}%.",
+      "2": "Ao usar, aumenta em 30% a quantidade de Investida obtida."
+    },
+    "light": "Reduz o tempo de espera em 3 segundos.",
+    "dark": "Ao usar, reforça em 40% a quantidade de Investida.",
+    "ut": {
+      "name": "Script de Cura",
+      "description": [
+        "[Tratamento de Emergência] Reduz o Custo de Mana em 1 e aumenta a Taxa de Cura em 20%.",
+        "[Tratamento de Emergência] Reduz o Custo de Mana em 1 e aumenta a Taxa de Cura em 24%.",
+        "[Tratamento de Emergência] Reduz o Custo de Mana em 1 e aumenta a Taxa de Cura em 29%.",
+        "[Tratamento de Emergência] Reduz o Custo de Mana em 1 e aumenta a Taxa de Cura em 35%.",
+        "[Tratamento de Emergência] Reduz o Custo de Mana em 1 e aumenta a Taxa de Cura em 42%.",
+        "[Tratamento de Emergência] Reduz o Custo de Mana em 1 e aumenta a Taxa de Cura em 50%."
+      ],
+      "story": "Um script de cura para emergências. Foi produzido pela sociedade secreta de engenharia mágica, a oficina do mês de Babel, ‘Self-service de batalhas! Ganhe scripts em Batalhas de Scripts Mecânicos.’ Elaborado por Annette, é capaz de curar aliados usando apenas engenharia, sem a necessidade de utilizar poderes mágicos de cura."
+    }
+  },
+  "s3": {
+    "name": "Processo de Eliminação",
+    "description": "Mira num inimigo aleatório, dispara uma bola de energia que explode causando {0} de DAN.M aos inimigos próximos. Quando estiver Sobrecarregado, causa {1} de DAN.M e atordoa os inimigos durante 5 segundos quando a bola explodir.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Ao usar, aumenta em 30% a quantidade de Investida obtida."
+    },
+    "light": "Aumenta o DAN em 40%.",
+    "dark": "O alvo recebe mais 25% de DAN.M.",
+    "ut": {
+      "name": "Código da Aniquilação",
+      "description": [
+        "[Processo de Eliminação] Aumenta o DAN em 20% e após o ATQ, ganha 2 acúmulos de Carga. Esse acúmulo pode ser obtido enquanto estiver no estado Sobrecarregado.",
+        "[Processo de Eliminação] Aumenta o DAN em 24% e após o ATQ, ganha 2 acúmulos de Carga. Esse acúmulo pode ser obtido enquanto estiver no estado Sobrecarregado.",
+        "[Processo de Eliminação] Aumenta o DAN em 29% e após o ATQ, ganha 2 acúmulos de Carga. Esse acúmulo pode ser obtido enquanto estiver no estado Sobrecarregado.",
+        "[Processo de Eliminação] Aumenta o DAN em 35% e após o ATQ, ganha 2 acúmulos de Carga. Esse acúmulo pode ser obtido enquanto estiver no estado Sobrecarregado.",
+        "[Processo de Eliminação] Aumenta o DAN em 42% e após o ATQ, ganha 2 acúmulos de Carga. Esse acúmulo pode ser obtido enquanto estiver no estado Sobrecarregado.",
+        "[Processo de Eliminação] Aumenta o DAN em 50% e após o ATQ, ganha 2 acúmulos de Carga. Esse acúmulo pode ser obtido enquanto estiver no estado Sobrecarregado."
+      ],
+      "story": "O código altamente secreto de Babel, a sociedade secreta da engenharia mágica. Magia para pessoas normais! A sociedade secreta dos tecnomagos, Bebel, é uma sociedade anônima que sonha em tornar a magia disponível para todos. Cada um deles ofereceu uma técnica tecnomágica como código secreto e permitiram seu uso apenas para quem conseguir decifrá-lo. Annette decifrou um código ultrassecreto em 4 minutos e o está aplicando no processo de aniquilação."
+    }
+  },
+  "s4": {
+    "name": "Investida",
+    "description": "Ganha 1 recarga a cada 0,5 segundos, e ganha 10 recargas por orbe de mana usado. Quando acumular 100 recargas, chegará ao estato Sobrecarregado, no qual o ATQ aumenta em {0} por 15 segundos e cada ataque automático reduz a recarga do poder em 10%. Todos os efeitos não podem ser removidos e a recarga não acumulará durante o estado Sobrecarregado.",
+    "books": {
+      "0": "Aumenta a Taxa de Aumento de ATQ em {0}%.",
+      "1": "Aumenta a Taxa de Aumento de ATQ em {0}%.",
+      "2": "Quanto estiver Sobrecarregado, a VEL. ATQ aumenta em {0}."
+    },
+    "light": "Aumenta em 40% o reforço de ATQ.",
+    "dark": "Aumenta a duração da Sobrecarga em 3 segundos."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / VEL. ATQ +100",
+    "dark": "Ao ativar a Sobrecarga, aumenta em 200 a VEL. ATQ em 200 e o ATQ dos aliados a uma quantidade igual a 5% do ATQ de Annette."
+  }
+}

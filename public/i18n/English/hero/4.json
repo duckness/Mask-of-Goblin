@@ -1,0 +1,120 @@
+{
+  "name": "Roi",
+  "subtitle": "Swift Assassin",
+  "description": "He is a former assassin with a hidden past. He specializes in single targets, launching strong, endless attacks on enemies while dashing around their blind spots.",
+  "story": "He is Cleo's escort and is protecting her at Dominiks's request. A former member of a group of assassins, he risked his life and went rogue for some unknown reason. Having lived as an assassin, he rarely shows much respect toward others, but his hardships have made him an experienced and shrewd man who treats those who help him with fairness.",
+  "like": "Current self",
+  "dislike": "Past self",
+  "inn": {
+    "idle": "......",
+    "recruit": {
+      "greet": "What is it.",
+      "talk": [
+        "I would appreciate if you didn't ask about the past.",
+        "It's been a while since it was so peaceful. I just hope Cleo doesn't start anything.",
+        "Stop trying to couple me with Cleo. Frey is enough, already. I'm only doing this because it must be done."
+      ],
+      "gift": "I don't know if I deserve this...."
+    },
+    "affinity": {
+      "greet": "Hey, you should take a rest now.",
+      "talk": [
+        "Aren't you sick of this? Cleo is my responsibility... I heard she'll be taking on an important role now.",
+        "Have you ever done something you regretted? If you think you'll regret it, then stop right now."
+      ],
+      "gift": "You never forget... Thanks."
+    },
+    "relationship": {
+      "greet": "Ah, you've come.",
+      "talk": [
+        "Help Kasel when you can. He has a heavy burden.",
+        "While I'm not the devout type, I also rely on Lua. I can't do much but pray for the people I've killed, after all...",
+        "I do not mourn my past anymore. It can't be changed. What can be changed, however, is the future."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Specter's Breath, Redeal",
+    "description": [
+      "Each auto attack has a 25% chance of inflicting 1 stack of Bleed, and dealing 50% of ATK as extra DMG.",
+      "Each auto attack has a 28% chance of inflicting 1 stack of Bleed, and dealing 60% of ATK as extra DMG.",
+      "Each auto attack has a 31% chance of inflicting 1 stack of Bleed, and dealing 72% of ATK as extra DMG.",
+      "Each auto attack has a 34% chance of inflicting 1 stack of Bleed, and dealing 86% of ATK as extra DMG.",
+      "Each auto attack has a 37% chance of inflicting 1 stack of Bleed, and dealing 103% of ATK as extra DMG.",
+      "Each auto attack has a 40% chance of inflicting 1 stack of Bleed, and dealing 125% of ATK as extra DMG."
+    ],
+    "story": "The group of assassins known as the Laughing Mask has been the master of the Orvel's underworld for a long time. Only the best assassin of the Laughing Mask is allowed to wield this dreadful pair of daggers. It is said that the wounds inflicted by these daggers never heal, and that their victims inevitably bleed to death. According to the legend, these daggers were made from the scythe of the Grim Reaper."
+  },
+  "s1": {
+    "name": "Merciless",
+    "description": "Attacks a random enemy 3 times, dealing a total of {0} P.DMG and inflicting 1 stack of Bleed on them that deals {2} P.DMG over {1} sec. Bleed can be stacked up to max 3 times.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Crit DMG is increased by {0}%."
+    },
+    "light": "Mana cost is reduced by 1.",
+    "dark": "Target takes 25% increased P.DMG for 10 sec."
+  },
+  "s2": {
+    "name": "Curtain of Darkness",
+    "description": "For {0} sec, ATK is increased by {1} and Dodges all P.DMG attacks.",
+    "books": {
+      "0": "ATK boost is increased by {0}%.",
+      "1": "ATK boost is increased by {0}%.",
+      "2": "ATK Spd is increased by {0} for the duration of skill."
+    },
+    "light": "ATK boost is increased by 40%.",
+    "dark": "Auto attack DMG is boosted by 100% for the duration.",
+    "ut": {
+      "name": "Soma's Hood",
+      "description": [
+        "[Curtain of Darkness] Increases ATK Boost by 20% and gains CC resist by 400 for the skill's duration.",
+        "[Curtain of Darkness] Increases ATK Boost by 24% and gains CC resist by 400 for the skill's duration.",
+        "[Curtain of Darkness] Increases ATK Boost by 29% and gains CC resist by 400 for the skill's duration.",
+        "[Curtain of Darkness] Increases ATK Boost by 35% and gains CC resist by 400 for the skill's duration.",
+        "[Curtain of Darkness] Increases ATK Boost by 42% and gains CC resist by 400 for the skill's duration.",
+        "[Curtain of Darkness] Increases ATK Boost by 50% and gains CC resist by 400 for the skill's duration."
+      ],
+      "story": "A dangerous hood made with the secret method of the Laughing Mask. It was made with the legendary soma that is said to provide endless vitality and the secret of the Laughing Mask. Soma's hood increases the morale of an assassin inside the dark curtain, increasing their ATK, and granting dexterity, maximizing P. Dodge."
+    }
+  },
+  "s3": {
+    "name": "Blade Claw",
+    "description": "Moves behind the enemy with the lowest HP and deals [FFC800] {0} P.DMG. Per every stacked Bleed, DMG is increased by {1}% and all stacks of Bleed are removed after the attack. Upon Crit Hit, recovers 2 MP and skill cooldown is reset.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Crit DMG is increased by {0}%."
+    },
+    "light": "In exchange for 1 additional Mana Cost, DMG dealt is increased by 100%.",
+    "dark": "Cooldown is removed.",
+    "ut": {
+      "name": "Cracked Mask",
+      "description": [
+        "[Blade Claw] DMG is increased by 20%, and Upon Crit Hit, mana is recovered by 300.",
+        "[Blade Claw] DMG is increased by 24%, and Upon Crit Hit, mana is recovered by 300.",
+        "[Blade Claw] DMG is increased by 29%, and Upon Crit Hit, mana is recovered by 300.",
+        "[Blade Claw] DMG is increased by 35%, and Upon Crit Hit, mana is recovered by 300.",
+        "[Blade Claw] DMG is increased by 42%, and Upon Crit Hit, mana is recovered by 300.",
+        "[Blade Claw] DMG is increased by 50%, and Upon Crit Hit, mana is recovered by 300."
+      ],
+      "story": "The mask that Roi destroyed when he left the Laughing Mask assassins. Assassins mercilessly aim for their enemy's vital points, and they wear masks to suppress their emotions when they eliminate their targets. Roi faces the split mask, and goes behind his enemies to kill them with his Blade Claws to protect his friends."
+    }
+  },
+  "s4": {
+    "name": "Hack",
+    "description": "If a normal attack is landed as a Critical Hit, attacks the target 6 times to deal a total of {0} additional P.DMG.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Crit DMG is increased by {0}%."
+    },
+    "light": "Each attack recovers 300 mana.",
+    "dark": "Has a 50% chance to stack 1 stack of Bleed."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / Crit DMG +20%",
+    "dark": "Upon a Crit Hit, there is a 10% chance of ATK Spd increasing by 300 and Crit DMG increasing by 60% for 5 sec. Does not activate again during activation."
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Ricardo",
+  "subtitle": "Jugement de Lua",
+  "description": "Un noble héros qui a longtemps gardé le monde des humains contre la menace des démons. Il écrase ses ennemis en utilisant un pilier qui a été béni par la déesse.",
+  "story": "Un héros ayant sauvé d'innombrables vies face aux démons. C'est le commandant actuel des Chevaliers Sacrés de l'Église de Lua. Ce chevalier courageux et chevronné pourchasse les démons dans tout Orvelia depuis sa tendre enfance. Il est également le maître de l'orphelinat où Kasel, Frey et Clause ont grandi. Il a entraîné énormément de guerriers d'Orvelia, qui le considèrent comme un chef spirituel. Du fait de son âge, il se prépare à abandonner son poste, mais sa puissance est telle qu'on lui a toujours refusé son départ en retraite.",
+  "like": "Les gens, aider les autres",
+  "dislike": "Les démons, surtout ceux qui attaquent les gens sans raison",
+  "inn": {
+    "idle": "Je constate que vous êtes tous en bonne santé. C'est bien! Hahahaha!!",
+    "recruit": {
+      "greet": "Hahaha, c'est toi, hein? Est-ce que vous avez bien mangé?",
+      "talk": [
+        "Je suis peut-être vieux, mais je vais toujours parfaitement bien! Malgré tout, je ne peux pas dire quand je pourrai prendre ma retraite à ce rythme-là. Hahaha!!",
+        "Hahaha, mes hanches sont douloureuses, mais tant pis. Je peux encore continuer!",
+        "Une compétition de bras de fer!? Pas moyen que je rate ça. Allez!!"
+      ],
+      "gift": "Haha, ne faites pas attention à moi. Mettez juste vos dons pour l'orphelinat dans la boîte! Les enfants en auront plus besoin que moi."
+    },
+    "affinity": {
+      "greet": "Comment allez-vous ? La santé, c'est primordial !",
+      "talk": [
+        "On dirait que vous vous êtes beaucoup entraîné ! Bouah ah ah !",
+        "L'alcool ? J'adore ça ! Malheureusement, je ne peux plus en boire autant qu'avant !"
+      ],
+      "gift": "Je vais devoir acheter de nouveaux vêtements pour les enfants ! Ah ah ah !"
+    },
+    "relationship": {
+      "greet": "Haha, vous avez bonne mine aujourd'hui!",
+      "talk": [
+        "Lorsqu’on se bat avec les Démons, il y a toujours beaucoup de victimes civiles... encore plus que dans les guerres normales entre les humains.",
+        "Mon âge? Hahaha, il n'y aurait rien de bizarre à ce que je prenne ma retraite maintenant! Ils ne me laissent pas, quoique...",
+        "La vie est un apprentissage perpétuel! Ne vous relâchez pas sur l'exercice maintenant!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Theoria, Jugement de Lumière",
+    "description": [
+      "Lorsqu'un allié autre que le lanceur subit des DEG, il y a 10 % de chances pour qu'un bouclier soit généré autour de lui, capable d'absorber les DEG à hauteur de 320 % de l'ATQ pendant 5 sec et qui confère l'immunité contre les contrôles. Cet effet ne peut pas se produire plus d'une fois toutes les 5 sec.",
+      "Lorsqu'un allié autre que le lanceur subit des DEG, il y a 12 % de chances pour qu'un bouclier soit généré autour de lui, capable d'absorber les DEG à hauteur de 384 % de l'ATQ pendant 5 sec et qui confère l'immunité contre les contrôles. Cet effet ne peut pas se produire plus d'une fois toutes les 5 sec.",
+      "Lorsqu'un allié autre que le lanceur subit des DEG, il y a 14 % de chances pour qu'un bouclier soit généré autour de lui, capable d'absorber les DEG à hauteur de 460 % de l'ATQ pendant 5 sec et qui confère l'immunité contre les contrôles. Cet effet ne peut pas se produire plus d'une fois toutes les 5 sec.",
+      "Lorsqu'un allié autre que le lanceur subit des DEG, il y a 17 % de chances pour qu'un bouclier soit généré autour de lui, capable d'absorber les DEG à hauteur de 552 % de l'ATQ pendant 5 sec et qui confère l'immunité contre les contrôles. Cet effet ne peut pas se produire plus d'une fois toutes les 5 sec.",
+      "Lorsqu'un allié autre que le lanceur subit des DEG, il y a 20 % de chances pour qu'un bouclier soit généré autour de lui, capable d'absorber les DEG à hauteur de 660 % de l'ATQ pendant 5 sec et qui confère l'immunité contre les contrôles. Cet effet ne peut pas se produire plus d'une fois toutes les 5 sec.",
+      "Lorsqu'un allié autre que le lanceur subit des DEG, il y a 25 % de chances pour qu'un bouclier soit généré autour de lui, capable d'absorber les DEG à hauteur de 800 % de l'ATQ pendant 5 sec et qui confère l'immunité contre les contrôles. Cet effet ne peut pas se produire plus d'une fois toutes les 5 sec."
+    ],
+    "story": "Quand Aea l'Épée Sacrée fut confiée à Kyle, elle apparut au temple de Lua, situé au nord des Plaines du Roi. Lorsque Kyle la retira de l'autel, la lame libéra une puissante vague de lumière qui consacra les terres avoisinantes. Tous les objets contenus dans le temple devinrent immédiatement de saintes reliques. Teoria, le pilier central du temple, absorba l'essentiel de l'énergie divine."
+  },
+  "s1": {
+    "name": "Destruction",
+    "description": "Inflige {0} points de DEG P. aux ennemis qui font face au héros et les renverse pendant 3 sec.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "Immunise contre les sorts de Contrôle."
+    },
+    "light": "La cible reçoit 25% de DEG P. supplémentaires pendant 10 sec.",
+    "dark": "Inflige des DEG P. supplémentaires équivalents à 200% de la DEF M."
+  },
+  "s2": {
+    "name": "Protection Divine",
+    "description": "Inflige {0} points de DEG P. aux ennemis à portée des applique Étourdissement pendant 1 sec. La DEF M. du Héros augmente également de {1} pendant 10 sec, et il reçoit 80% des DEG M. à la place des alliés.",
+    "books": {
+      "0": "Bonus de Défense augmenté de {0}%.",
+      "1": "Bonus de Défense augmenté de {0}%.",
+      "2": "Récupère 1% des PV du héros par seconde, pendant 10 sec."
+    },
+    "light": "Pour un coût de 1 MP supplémentaire, Ricardo gagne 30% de résistance aux DEG reçus pour couvrir ses alliés.",
+    "dark": "L'effet de cette compétence ne peut pas être dissipé.",
+    "ut": {
+      "name": "Fierté du guerrier saint",
+      "description": [
+        "[Protection divine] Donne l'immunité aux contrôles et augmente la Résist M. Forte de 10 % pendant la durée de la compétence.",
+        "[Protection divine] Donne l'immunité aux contrôles et augmente la Résist M. Forte de 12 % pendant la durée de la compétence.",
+        "[Protection divine] Donne l'immunité aux contrôles et augmente la Résist M. Forte de 14 % pendant la durée de la compétence.",
+        "[Protection divine] Donne l'immunité aux contrôles et augmente la Résist M. Forte de 17 % pendant la durée de la compétence.",
+        "[Protection divine] Donne l'immunité aux contrôles et augmente la Résist M. Forte de 21 % pendant la durée de la compétence.",
+        "[Protection divine] Donne l'immunité aux contrôles et augmente la Résist M. Forte de 25 % pendant la durée de la compétence."
+      ],
+      "story": "Bouclier de l’arbitre des Chevaliers Sacrés de Lua. Cet artéfact est offert à ceux qui ont gagné le titre d’arbitre des Chevaliers Sacrés de Lua. Il est imprégné de la bénédiction de la déesse Lua et protège ceux qui bénéficient de la bienveillance des dieux tout en punissant sans merci les ennemis."
+    }
+  },
+  "s3": {
+    "name": "Jugement Divin",
+    "description": "Attaque frontalement les ennemis à 3 reprises. Les 2 premières attaques infligent {0} points de DEG P. aux ennemis et applique Étourdissement pendant 4 sec à chaque fois. La dernière attaque a une portée 20% plus importante et inflige {1} points de DEG P. en appliquant Étourdissement pendant 4 sec. Chaque attaque a 50% de chances de retirer un effet bénéfique sur l'ennemi.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "Bloque tous les DEG."
+    },
+    "light": "La durée d'Étourdissement est augmentée de 2 sec.",
+    "dark": "Le coût en Mana est réduit de 1.",
+    "ut": {
+      "name": "Vœu du guerrier saint",
+      "description": [
+        "[Jugement Divin] Dissipe toutes les Améliorations sur les ennemis avec 75% de réussite et réduit la Vit ATQ de la cible de 100 pendant 10 sec.",
+        "[Jugement Divin] Dissipe toutes les Améliorations sur les ennemis avec 75% de réussite et réduit la Vit ATQ de la cible de 120 pendant 10 sec.",
+        "[Jugement Divin] Dissipe toutes les Améliorations sur les ennemis avec 75% de réussite et réduit la Vit ATQ de la cible de 140 pendant 10 sec.",
+        "[Jugement Divin] Dissipe toutes les Améliorations sur les ennemis avec 75% de réussite et réduit la Vit ATQ de la cible de 170 pendant 10 sec.",
+        "[Jugement Divin] Dissipe toutes les Améliorations sur les ennemis avec 75% de réussite et réduit la Vit ATQ de la cible de 210 pendant 10 sec.",
+        "[Jugement Divin] Dissipe toutes les Améliorations sur les ennemis avec 75% de réussite et réduit la Vit ATQ de la cible de 250 pendant 10 sec."
+      ],
+      "story": "Le sceau utilisé par Ricardo pour le serment du guerrier saint. Lorsqu’ils sont nommés pour la première fois comme guerrier saint, les chevaliers déposent leur sur le certificat de serment avec leur sceau. Ricardo fit ce sceau avec toute son affection pour l’Église de Lua. Il le porte toujours, même après tout ce temps."
+    }
+  },
+  "s4": {
+    "name": "Bénédiction Divine",
+    "description": "Lorsqu'un allié subit des DEG M. sa DEF M. est augmentée de {0} pendant 5 sec. Cumulable 5 fois, et Ricardo ne peut pas bénéficier de cet effet.",
+    "books": {
+      "0": "Bonus de Défense augmenté de {0}%.",
+      "1": "Bonus de Défense augmenté de {0}%.",
+      "2": "Durée augmentée de 2 sec."
+    },
+    "light": "Le taux de récupération de la DEF M. est augmenté de 40%.",
+    "dark": "Le nombre maximal de charges est maintenant de 8."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Blocage P. +200",
+    "dark": "Lorsque les PV du Héros tombent sous les 40%, ils ne peuvent aller sous les 10% pendant 6 sec, et l'ATQ de tous les alliés est augmentée de 50% de la DEF M. du Héros. Cet effect ne peut être activé qu'une seule fois toutes les 60 sec."
+  }
+}

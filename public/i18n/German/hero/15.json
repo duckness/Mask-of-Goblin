@@ -1,0 +1,120 @@
+{
+  "name": "Clause",
+  "subtitle": "Ritter der eisernen Verteidigung",
+  "description": "Kasels 'älterer Bruder'. Ein wahrer Ritter, der seine Verbündeten wie eine Mauer aus Stahl beschützt. Seine Fähigkeit, Angriffe der Feinde abzublocken und sie gleichzeitig niederzuschlagen hat ihm seinen Ruf als 'Festungsmauer' eingebracht.",
+  "story": "Dieser aufrichtige und gerechte Mann ist einer der Ritter und Beschützer Orvels. Viele Leute halten ihn für einen verlässlichen Verteidiger Orvels, doch aufgrund seines mangelnden Interesses an Reichtum und Erfolg bekleidete er innerhalb des Ordens nie einen höheren Rang. Er wuchs gemeinsam mit Kasel und Frey im selben Waisenhaus auf und liebt sein Land als die Heimat jener, die ihm etwas bedeuten. Vor Kurzem meldete er sich freiwillig für die Expedition zur Untersuchung der Königsebenen.",
+  "like": "Seine neue Familie",
+  "dislike": "Freunden Schaden zuzufügen",
+  "inn": {
+    "idle": "Hahaha! Alle diese bekannten Gesichter!",
+    "recruit": {
+      "greet": "Oh, da bist du ja! Wie geht es dir?",
+      "talk": [
+        "Wie wäre es, wenn du dich mal bei den Rittern vorstellst?",
+        "Du siehst so vertrauenswürdig aus wie immer.",
+        "Manchmal glaube ich, der Mundschutz meines Helms versucht mich zu ersticken, hahaha!"
+      ],
+      "gift": "Normalweise würde ich nicht annehmen, aber ich mache eine Ausnahme, auf Grund deiner Aufrichtigkeit."
+    },
+    "affinity": {
+      "greet": "Haha! Auch Ritter der Wache müssen sich mal ausruhen. Komm, setz dich hierhin.",
+      "talk": [
+        "Ich habe nicht erwartet, dass Kasel so stark wird. Früher weinte er viel und folgte mir überall hin ... Und jetzt ist er der Meister des Heiligen Schwertes ... Haha.",
+        "Ob ich eifersüchtig auf Kasel bin? Nein! Er ist mein Bruder und ich bin stolz auf ihn."
+      ],
+      "gift": "All das ... Ich fühle mich geschmeichelt. Ich werde noch härter arbeiten müssen."
+    },
+    "relationship": {
+      "greet": "Hahaha, schön dich wiederzusehen!",
+      "talk": [
+        "Meine Gerechtigkeit ist gar nicht so ein großes Ding. Nur der Glaube daran, dass ich mich nie dafür schämen werde - das ist meine Gerechtigkeit.",
+        "So eine hohe Position inne zu haben bedeutet nicht, dass man eine Menge Verantwortung übernimmt. Es kann auch dafür sorgen, dass du mit einem Haufen Papierkram im Schloss feststeckst.",
+        "Ich weiß, dass ich dieser Person helfen sollte, aber im Moment gibt es Wichtigeres zutun - in ganz Orvelia leiden die Menschen."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Wächter Exian",
+    "description": [
+      "Wenn Clauses TP unter 25% fällt, erhält das ganze Team eine 20% K.Schadensreduktion. Erhöht ANG um 100% der K.VERT und erhält Immunität gegen Statuseffekte.",
+      "Wenn Clauses TP unter 25% fällt, erhält das ganze Team eine 24% K.Schadensreduktion. Erhöht ANG um 120% der K.VERT und erhält Immunität gegen Statuseffekte.",
+      "Wenn Clauses TP unter 25% fällt, erhält das ganze Team eine 28% K.Schadensreduktion. Erhöht ANG um 144% der K.VERT und erhält Immunität gegen Statuseffekte.",
+      "Wenn Clauses TP unter 25% fällt, erhält das ganze Team eine 34% K.Schadensreduktion. Erhöht ANG um 173% der K.VERT und erhält Immunität gegen Statuseffekte.",
+      "Wenn Clauses TP unter 25% fällt, erhält das ganze Team eine 41% K.Schadensreduktion. Erhöht ANG um 207% der K.VERT und erhält Immunität gegen Statuseffekte.",
+      "Wenn Clauses TP unter 25% fällt, erhält das ganze Team eine 50% K.Schadensreduktion. Erhöht ANG um 250% der K.VERT und erhält Immunität gegen Statuseffekte."
+    ],
+    "story": "Ein Set aus Schwert und Schild, graviert mit verschiedenen Runen und voller antiker Magie. Es heißt, diese legendären Gegenstände wurden vor Äonen von einem antiken Drachen namens Exian aus dessen eigenen Schuppen geschaffen. Das Schwert ist einer der königlichen Schätze von Orvel und wird nur dem ehrenhaftesten Ritter verliehen. Sein Führer soll als Verteidiger des Königreichs und des Volkes sowie als Beschützer des Lebens dienen."
+  },
+  "s1": {
+    "name": "Boden aufreißen",
+    "description": "Fügt Feinden in Reichw. {0} K.Schaden zu und betäubt sie für {1} Sek.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Reduziert Cooldown um 2 Sek.",
+    "dark": "Für 1 extra Mana erhält der Skill eine 100% Chance, Feinde zu sich heranzuziehen."
+  },
+  "s2": {
+    "name": "Schildhieb",
+    "description": "Fügt Feinden in Reichw. basierend auf ihrer K.VERT {0} K.Schaden zu und wirft sie zurück. Getroffene Feinde haben um {1}% reduzierte VERT. Beim Blocken einer Attacke wird der Cooldown um 0,5 Sek. reduziert.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Verringert die Geschw. des Feindes um {0}%."
+    },
+    "light": "Ziel nimmt 10 Sek lang 25% erhöhten K.Schaden.",
+    "dark": "Betäubt den Feind 1 Sek lang.",
+    "ut": {
+      "name": "Feste Entschlossenheit",
+      "description": [
+        "[Schildhieb] Verringert den K.krit. Widerstand des betroffenen Feindes um 500 und die krit. Chance 10 Sek. lang um 100.",
+        "[Schildhieb] Verringert den K.krit. Widerstand des betroffenen Feindes um 500 und die krit. Chance 10 Sek. lang um 120.",
+        "[Schildhieb] Verringert den K.krit. Widerstand des betroffenen Feindes um 500 und die krit. Chance 10 Sek. lang um 140.",
+        "[Schildhieb] Verringert den K.krit. Widerstand des betroffenen Feindes um 500 und die krit. Chance 10 Sek. lang um 170.",
+        "[Schildhieb] Verringert den K.krit. Widerstand des betroffenen Feindes um 500 und die krit. Chance 10 Sek. lang um 210.",
+        "[Schildhieb] Verringert den K.krit. Widerstand des betroffenen Feindes um 500 und die krit. Chance 10 Sek. lang um 250."
+      ],
+      "story": "Alter Holzschild des Ritters der Eisernen Mauer. Ein kostbarer Schild, den Clause benutzte, als er mit seinem ersten Training begann. Seitdem hat er die Namen all seiner gefallenen Gefährten hineingraviert, um ihn an seine Entschlossenheit als Ritterwache zu erinnern. Jedes Mal, wenn er mit seinem Schild Feinde von sich schiebt, hilft ihm die feste ritterliche Entschlossenheit, Kräfte jenseits seiner Grenzen freizusetzen."
+    }
+  },
+  "s3": {
+    "name": "Wächterschild",
+    "description": "Erhöht die K.VERT von Verbündeten um {1} für {0} Sek.",
+    "books": {
+      "0": "K.VERT-Erhöhugsrate erhöht sich um {0}%.",
+      "1": "K.VERT-Erhöhugsrate erhöht sich um {0}%.",
+      "2": "K.VERT-Erhöhugsrate erhöht sich um {0}%."
+    },
+    "light": "Erhöht VERT-Erhöhungsrate um 40%.",
+    "dark": "Reduziert erlittenen K.Schaden um 25% während der Wirkungsdauer.",
+    "ut": {
+      "name": "Rune der Ritter",
+      "description": [
+        "[Wächterschild] Entfernt neg. Effekte bei Aktivierung und erhöht VERT um 20%.",
+        "[Wächterschild] Entfernt neg. Effekte bei Aktivierung und erhöht VERT um 24%.",
+        "[Wächterschild] Entfernt neg. Effekte bei Aktivierung und erhöht VERT um 29%.",
+        "[Wächterschild] Entfernt neg. Effekte bei Aktivierung und erhöht VERT um 35%.",
+        "[Wächterschild] Entfernt neg. Effekte bei Aktivierung und erhöht VERT um 42%.",
+        "[Wächterschild] Entfernt neg. Effekte bei Aktivierung und erhöht VERT um 50%."
+      ],
+      "story": "Rune der Ritterwache von Orvel. Eine goldene Löwenrune, die Rittern verliehen wird, wenn sie der Ritterwache beitreten und ihren Eid leisten, dass sie das Königreich mit ihrem Leben verteidigen. Die Rune der Ritterwache verstärkt den eisernen Willen eines Ritters und dessen Treue und erhöht die Effektivität des „Wächterschilds“."
+    }
+  },
+  "s4": {
+    "name": "Eid der Ritter",
+    "description": "Verursacht nach einem Block {0} K.Schaden auf Frontfeinde und verringert den ANG getroffener Feinde {1} Sek. lang um {2}  %. Stellt nach einem Treffer auf einen Feind 300 MP wieder her.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Reduziert Zauberdauer dramatisch.",
+    "dark": "Verringert zusätzlich 10% ANG."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / K.Block +200",
+    "dark": "Erhöht K.VERT und K.Krit.-Widerstand aller Verbündeten für 5 Sek. um 20%, wenn ein Verbündeter des Helden getroffen wird (Cooldown: 10 Sek)."
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Yanne",
+  "subtitle": "Pourfendeuse de Dragon",
+  "description": "Une guerrière Barbare qui parcourt les terres, pourchassant les monstres qui tourmentent la population. Pourfendeuse solitaire de Svelta, le Dragon Fou. Ses flèches massives et puissantes peuvent même transpercer des murs de châteaux.",
+  "story": "Une guerrière barbare spécialisée dans l'extermination de monstres menaçants. Grâce à un trait physique unique, sa force musculaire est bien plus importante que celle d'un barbare normal. Elle manie un arc long plus gros qu'elle avec tant d'aisance que les gens disent qu'elle est une arme de siège ambulante. Même si c'est une femme aimable qui aime aider les autres, dès qu'elle est au combat, son agressivité barbare remonte à la surface. Une fois, elle a tué un dragon fou du nom de Svelta, un exploit qui lui a permis de gagner le surnom de Pourfendeuse de Dragon.",
+  "like": "Les plats délicieux, cuisiner, chasser les monstres",
+  "dislike": "Les monstres impossibles à vaincre physiquement",
+  "inn": {
+    "idle": "Ahaha, tout le monde à l'air de s'amuser?",
+    "recruit": {
+      "greet": "Ça fait longtemps, tout s'est bien passé pour vous?",
+      "talk": [
+        "La chasse aux monstre? C'est fun, mais c'est encore mieux en sachant que j’aide des gens dans le processus.",
+        "La viande de monstre est très bonne quand elle est bien préparée, vous savez?",
+        "Les Guerriers Barbares ont tous appris comment cuisiner. Mais je pense que je suis un meilleur cuisinier."
+      ],
+      "gift": "Un cadeau? Ahaha, merci! La prochaine fois, je vous préparerai un repas!"
+    },
+    "affinity": {
+      "greet": "Ça fait longtemps ! Comment allez-vous ?",
+      "talk": [
+        "La nourriture n'est pas mauvaise, ici.",
+        "Hum. La prochaine fois, je demanderai peut-être à Juno de préparer le déjeuner."
+      ],
+      "gift": "Oh, merci ! J'en ferai bon usage."
+    },
+    "relationship": {
+      "greet": "Hé, vous avez l'air en forme! Est-ce que vous mangez convenablement?",
+      "talk": [
+        "Avez-vous déjà essayé la viande de Dragon? C'est très bon. J'apporterai des steaks de Dragon la prochaine fois!",
+        "Chasseur de monstres n'est pas un métier facile, mais ça en vaut la peine.",
+        "Les guerriers barbares sont tous très forts... Mais mon corps est très spécial."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Svelta, Dragon Fléau",
+    "description": [
+      "Un Coup Crit a 10% de chances d'infliger des DEG P. à hauteur de 200% de l'ATQ et de rendre 5% de Mana. Si la cible est un Dragon, il subit un Étourdissement pendant 1.5 sec.",
+      "Un Coup Crit a 12% de chances d'infliger des DEG P. à hauteur de 240% de l'ATQ et de rendre 5% de Mana. Si la cible est un Dragon, il subit un Étourdissement pendant 1.5 sec.",
+      "Un Coup Crit a 14% de chances d'infliger des DEG P. à hauteur de 290% de l'ATQ et de rendre 5% de Mana. Si la cible est un Dragon, il subit un Étourdissement pendant 1.5 sec.",
+      "Un Coup Crit a 17% de chances d'infliger des DEG P. à hauteur de 350% de l'ATQ et de rendre 5% de Mana. Si la cible est un Dragon, il subit un Étourdissement pendant 1.5 sec.",
+      "Un Coup Crit a 21% de chances d'infliger des DEG P. à hauteur de 420% de l'ATQ et de rendre 5% de Mana. Si la cible est un Dragon, il subit un Étourdissement pendant 1.5 sec.",
+      "Un Coup Crit a 25% de chances d'infliger des DEG P. à hauteur de 500% de l'ATQ et de rendre 5% de Mana. Si la cible est un Dragon, il subit un Étourdissement pendant 1.5 sec."
+    ],
+    "story": "Une arme enchantée fabriquée à base d'ossements, de tendons et de fragments de peau du dragon fou Svelta. Trop lourd pour être soulevé par un humain ordinaire et encore moins bandé, cet arc long monstrueux combine les technologies de siège des Elfes Noirs et des Nains. Seuls les individus à la musculature exceptionnelle tels que Yanne peuvent espérer pouvoir manier cet arc ridicule. L'âme du dragon fou est toujours emprisonnée dans cette arme. Son énergie féroce se transmet à chaque flèche qu'il décoche, leur conférant la puissance nécessaire pour transpercer même les murs les plus solides."
+  },
+  "s1": {
+    "name": "Tir Focalisé!",
+    "description": "En posture de visée, inflige {0} points de DEG P. aux ennemis en ligne droite. Si la cible est un Dragon, il subit un Étourdissement pendant 3 sec. Un temps de visée élevé augmente les DEG et le temps de l'Étourdissement de {1}%.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG Crit. augmentés de {0}."
+    },
+    "light": "DEG augmentés de 40%.",
+    "dark": "La cible subit 25% de DEG P. supplémentaires pendant 10 sec."
+  },
+  "s2": {
+    "name": "Anéantissement!",
+    "description": "Inflige {0} points de DEG P. à un ennemi et ses alliés à portée. Si la cible est un Dragon, il subit {1} points de DEG additionnels qui ignorent la DEF.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG Crit. augmentés de {0}."
+    },
+    "light": "Lorsque 1 seul ennemi est présent, les DEG sont augmentés de 100%.",
+    "dark": "Les ennemis touchés subissent Étourdissement pendant 2 sec.",
+    "ut": {
+      "name": "Flèche géante de la mort subite",
+      "description": [
+        "[Anéantissement !] Augmente les DEG de 20 % et réduit le temps de recharge de 12 % lorsque vous assénez un coup critique.",
+        "[Anéantissement !] Augmente les DEG de 24 % et réduit le temps de recharge de 12 % lorsque vous assénez un coup critique.",
+        "[Anéantissement !] Augmente les DEG de 29 % et réduit le temps de recharge de 12 % lorsque vous assénez un coup critique.",
+        "[Anéantissement !] Augmente les DEG de 35 % et réduit le temps de recharge de 12 % lorsque vous assénez un coup critique.",
+        "[Anéantissement !] Augmente les DEG de 42 % et réduit le temps de recharge de 12 % lorsque vous assénez un coup critique.",
+        "[Anéantissement !] Augmente les DEG de 50 % et réduit le temps de recharge de 12 % lorsque vous assénez un coup critique."
+      ],
+      "story": "Flèche taillée dans la colonne vertébrale de Svelta le dragon fou, capable de décocher des déflagrations magiques. Cet objet appartient à Yanne. La tête de flèche comporte l’œil rouge en feu du dragon fou. La flèche tout entière suinte sa folie et s’apprête à mettre le feu à l’ennemi."
+    }
+  },
+  "s3": {
+    "name": "Aucune retenue!",
+    "description": "Retire tous les effets négatifs sur le Héros, augmente l'ATQ de {0} pendant 30 sec et la Pen. DEF de {1}. Pendant la durée, les attaques auto sont modifiées. Elles consomment 3% de mana en échange de l'aptitude à infliger des DEG aux ennemis en ligne droite. Inflige également {2} points de DEG P. additionnels aux Dragons en ignorant leur DEF.",
+    "books": {
+      "0": "Augmentation de l'ATQ boostée de {0}%.",
+      "1": "Augmentation de l'ATQ boostée de {0}%.",
+      "2": "Augmentation de l'ATQ boostée de {0}%."
+    },
+    "light": "Vit. ATQ augmentée de 250 pendant la durée.",
+    "dark": "Pendant la durée, tous les DEG reçus sont réduits de 25%.",
+    "ut": {
+      "name": "Steak de dragon",
+      "description": [
+        "[Aucune retenue !] Réduit le coût en mana de 1 point et augmente de 10 % les dégâts infligés aux dragons pendant toute la durée de la compétence.",
+        "[Aucune retenue !] Réduit le coût en mana de 1 point et augmente de 12 % les dégâts infligés aux dragons pendant toute la durée de la compétence.",
+        "[Aucune retenue !] Réduit le coût en mana de 1 point et augmente de 14 % les dégâts infligés aux dragons pendant toute la durée de la compétence.",
+        "[Aucune retenue !] Réduit le coût en mana de 1 point et augmente de 17 % les dégâts infligés aux dragons pendant toute la durée de la compétence.",
+        "[Aucune retenue !] Réduit le coût en mana de 1 point et augmente de 21 % les dégâts infligés aux dragons pendant toute la durée de la compétence.",
+        "[Aucune retenue !] Réduit le coût en mana de 1 point et augmente de 25 % les dégâts infligés aux dragons pendant toute la durée de la compétence."
+      ],
+      "story": "Un gros steak permettant de goûter à la fois la surlonge et le filet d’un dragon. Le goût est exquis. L’énergie du dragon pénètre dans le corps et augmente l’endurance de combat de Yanne à son maximum."
+    }
+  },
+  "s4": {
+    "name": "Poufendeur de Dragon",
+    "description": "ATQ augmentée de {0} et PV augmentés de {1}%. Les DEG infligés aux Dragons sont également augmentés de {2}%.",
+    "books": {
+      "0": "Augmentation de l'ATQ boostée de {0}%.",
+      "1": "Augmentation de l'ATQ boostée de {0}%.",
+      "2": "Augmentation de l'ATQ boostée de {0}%."
+    },
+    "light": "Tous les alliés reçoivent 7% de DEG en moins des Dragons.",
+    "dark": "Les DEG sur les Dragons sont augmentés de 15%"
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / DEG Crit +20%",
+    "dark": "Les attaques auto ignorent les Blocages annemis."
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Morrah",
+  "subtitle": "Devil's Flame",
+  "description": "A demon knight that uses the lava of the Dark Forces. Inflicts relentless burning pain on enemies, and fights battles of endurance utilizing her granite-like defense.",
+  "story": "The former commander of the Dark Dragon Knights, she's the most gallant demon knight of the Demon Army. Currently, for some unknown reason, she is following the witch Maria and assisting her work. Many find it strange that the former champion of the Demon Army, who slaughtered countless enemies and even devoured dragons, now works for a mere witch as her servant. Nevertheless, she continues to faithfully serve her master.",
+  "like": "Formidable enemies, worthy fights",
+  "dislike": "Dragons",
+  "inn": {
+    "idle": "What is it? Do you want to die?",
+    "recruit": {
+      "greet": "Do not mess with me.",
+      "talk": [
+        "I will not fight anyone within this Inn. But, you'd better stay away from me outside.",
+        "Seems like your life is filled with leisure. In that case, how about giving me your head?",
+        "Don't talk to me."
+      ],
+      "gift": "I want to see your blood, not this."
+    },
+    "affinity": {
+      "greet": "How shabby.",
+      "talk": [
+        "Stop bothering me if you don't want to die.",
+        "Don't bother me. I didn't have a choice."
+      ],
+      "gift": "You think I'd like this?"
+    },
+    "relationship": {
+      "greet": "You're here. Is the next battle decided?",
+      "talk": [
+        "I have pledged my allegience to Maria. However...I have a debt to pay to you as well.",
+        "General of the Draconics...Yes, that was my past. I didn't have any other goals...",
+        "I am a Demon created for destruction, a Draconic...but still..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Flame of Victory, Carprain",
+    "description": [
+      "Every 10 sec, deals 80% of ATK as M.DMG to enemies inflicted with Flame and has a 14% chance of knocking them down. Per every stacked Flame, DMG is increased by 2%.",
+      "Every 10 sec, deals 96% of ATK as M.DMG to enemies inflicted with Flame and has a 16% chance of knocking them down. Per every stacked Flame, DMG is increased by 2%.",
+      "Every 10 sec, deals 115% of ATK as M.DMG to enemies inflicted with Flame and has a 20% chance of knocking them down. Per every stacked Flame, DMG is increased by 2%.",
+      "Every 10 sec, deals 138% of ATK as M.DMG to enemies inflicted with Flame and has a 24% chance of knocking them down. Per every stacked Flame, DMG is increased by 2%.",
+      "Every 10 sec, deals 166% of ATK as M.DMG to enemies inflicted with Flame and has a 29% chance of knocking them down. Per every stacked Flame, DMG is increased by 2%.",
+      "Every 10 sec, deals 200% of ATK as M.DMG to enemies inflicted with Flame and has a 35% chance of knocking them down. Per every stacked Flame, DMG is increased by 2%."
+    ],
+    "story": "In the heart of the Dragia Volcano, there exists a smithy. Hundreds of years ago, Temeraire, the ancient fire dragon, created a set of magically enchanted gear. Using lava infused with the power of the volcanic fire, he forged a shield and a sword capable of incinerating anything. During the war against Demons, Temeraire presented these to a human warrior. Unfortunately, the warrior is said to have been defeated by Morrah. No one has seen this legendary gear since then. That is, until Morrah reappeared on the front line."
+  },
+  "s1": {
+    "name": "Burning Power",
+    "description": "Deals {0} M.DMG to enemies in range and knocks them down, inflicting 3 stacks of Flame. Then for {1} sec, each auto attack deals {2} M.DMG and inflicts 1 stack of Flame on enemy. Per each stacked Flame, DMG is increased by {3}%. Each Flame stack deals separate M.DMG and reduces Heal rate by 1%.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "ATK Spd. is increased by 200 for 15 sec.",
+    "dark": "Reduces cooldown by 6% per each enemy hit."
+  },
+  "s2": {
+    "name": "Hellfire",
+    "description": "For {0} sec, all allies' M.DEF is increased by {1} and M.Block Chance is increased by {2}. Additionally, every {3} sec, inflicts 1 stack of Flame on nearby enemies.",
+    "books": {
+      "0": "M.DEF boost is increased by {0}%.",
+      "1": "M.DEF boost is increased by {0}%.",
+      "2": "M.Block Chance boost is increased by {0}%."
+    },
+    "light": "M.Block rate is boosted by 20%.",
+    "dark": "While Hellfire is active, deal DMG based on own M.DEF to nearby enemies.",
+    "ut": {
+      "name": "Hatchling Leather Gloves",
+      "description": [
+        "[Hellfire] Upon blocking target's M.ATK during the skill's duration, DMG reduction is increased by 100 and M.Crit resistance is increased by 250.",
+        "[Hellfire] Upon blocking target's M.ATK during the skill's duration, DMG reduction is increased by 120 and M.Crit resistance is increased by 250.",
+        "[Hellfire] Upon blocking target's M.ATK during the skill's duration, DMG reduction is increased by 140 and M.Crit resistance is increased by 250.",
+        "[Hellfire] Upon blocking target's M.ATK during the skill's duration, DMG reduction is increased by 170 and M.Crit resistance is increased by 250.",
+        "[Hellfire] Upon blocking target's M.ATK during the skill's duration, DMG reduction is increased by 210 and M.Crit resistance is increased by 250.",
+        "[Hellfire] Upon blocking target's M.ATK during the skill's duration, DMG reduction is increased by 250 and M.Crit resistance is increased by 250."
+      ],
+      "story": "Gloves made with a dark Hatchling's bones and skin. Morrah made it a hundred years ago by collecting the Hatchlings she killed when she went out to hunt dragons. It's very durable to even withstand Morrah's flames, and even imbues a stronger power to let those flames blaze up even more. Morrah really likes these gloves."
+    }
+  },
+  "s3": {
+    "name": "Lava Eruption",
+    "description": "Deals {0} M.DMG to enemies in range and inflict knock down. Per every stacked Flame, DMG is increased by {1}%.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "DMG is increased by 40%.",
+    "dark": "Heals HP equal to 40% of DMG dealt.",
+    "ut": {
+      "name": "Hellish Sealing Stone",
+      "description": [
+        "[Lava Eruption] DMG is increased by 20% and target's M.DEF is decreased by 25% for 7 sec.",
+        "[Lava Eruption] DMG is increased by 24% and target's M.DEF is decreased by 25% for 7 sec.",
+        "[Lava Eruption] DMG is increased by 29% and target's M.DEF is decreased by 25% for 7 sec.",
+        "[Lava Eruption] DMG is increased by 35% and target's M.DEF is decreased by 25% for 7 sec.",
+        "[Lava Eruption] DMG is increased by 42% and target's M.DEF is decreased by 25% for 7 sec.",
+        "[Lava Eruption] DMG is increased by 50% and target's M.DEF is decreased by 25% for 7 sec."
+      ],
+      "story": "A strange fragment that came from the Dimensional Rift. Inside the fragment, there's a flame that kills anything that is living. The energy from its dimension is condensed within it. It's absolutely needed to complete Maria's plan."
+    }
+  },
+  "s4": {
+    "name": "Fire Smash",
+    "description": "Upon Block, deals {1} M.DMG to enemies in range, and inflicts 3 stack of Flame.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Increases own M.DEF by 5% per each block. Max stack is 10.",
+    "dark": "Target with over 100 stacks of Flame takes 40% increased M.DMG."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / M. Block +200",
+    "dark": "Flame stack DMG is increased by 100%, and max stack number is changed to 120"
+  }
+}

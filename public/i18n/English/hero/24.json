@@ -1,0 +1,120 @@
+{
+  "name": "Baudouin",
+  "subtitle": "Holy Ruffian",
+  "description": "A freewheeling priest from the Order of Lua. He uses a holy explosion to protect the party, which heals allies and damages enemies at once.",
+  "story": "As the most unlikely priest in the Church of Lua, Baudouin is, in a word, a maverick. Since childhood, he has always been a black sheep in the Church of Lua that emphasizes piety. He entered the church with the help of the High Priest Berman, but the religious life was painfully ill-suited for him. One day, however, he suddenly decided to quit his deviant ways, and started following the path of the high priesthood.",
+  "like": "Lua",
+  "dislike": "Lua",
+  "inn": {
+    "idle": "Whew, I see some quality wine in here! Another bottle for me, missy!",
+    "recruit": {
+      "greet": "Hey, whats up? You look pretty strong, eh?",
+      "talk": [
+        "Stiff and stuffy isn't my style!",
+        "Oh, wanna brawl? I ain't gonna lose in a slugfest!",
+        "As god decrees, a man should live by his fist!"
+      ],
+      "gift": "Gahahaha, ain't you the generous one!! Sure, let's have a drink!"
+    },
+    "affinity": {
+      "greet": "This wild and unrestrained atmosphere! I love it!",
+      "talk": [
+        "Violence should be met with violence! That's what the gods have said! Kwahahaha!",
+        "My friend! Let's have a drink!"
+      ],
+      "gift": "Kwahahaha, I'll give you Lua's blessing in return!"
+    },
+    "relationship": {
+      "greet": "Wow! Huh, you seem to be really blessed by the Goddess! You're practically shining!",
+      "talk": [
+        "If I went to the Empire at that time...father, was I really right...",
+        "Eh, the Order of Lua isn't what you think it is, you know? God or not, it's still just a group of people.",
+        "There's one thing I want to say to you. Enjoy life while you can! You know, life is short! You don't want to regret anything!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "God's Book, Genesis",
+    "description": [
+      "Increases the casting speed of all skills, and upon every skill use, increases ATK by 2% and DEF by 2% for all allies. This effect can stack up to 7 times.",
+      "Increases the casting speed of all skills, and upon every skill use, increases ATK by 2.4% and DEF by 2.4% for all allies. This effect can stack up to 7 times.",
+      "Increases the casting speed of all skills, and upon every skill use, increases ATK by 2.9% and DEF by 2.9% for all allies. This effect can stack up to 7 times.",
+      "Increases the casting speed of all skills, and upon every skill use, increases ATK by 3.5% and DEF by 3.5% for all allies. This effect can stack up to 7 times.",
+      "Increases the casting speed of all skills, and upon every skill use, increases ATK by 4.2% and DEF by 4.2% for all allies. This effect can stack up to 7 times.",
+      "Increases the casting speed of all skills, and upon every skill use, increases ATK by 5% and DEF by 5% for all allies. This effect can stack up to 7 times."
+    ],
+    "story": "Even among the holy relics bestowed to the high priests of the Church of Lua, the God's Book Genesis is special. According to the legend, this book, guarded throughout the ages by the Grand Priests of the church, was written by Lua herself. Iris, the current Grand Priest, upon receiving a revelation regarding Baudouin, entrusted this book to his step father, Berman. Later, the book was given to Baudouin when he became a high priest. It is said that this divine relic provides infinite holy energy to its owner, along with the power to unlock the true potential of those who have faith."
+  },
+  "s1": {
+    "name": "Holy Nova",
+    "description": "Targets the ally with the lowest HP and allies nearby to heal {0} HP. Deals {1} M.DMG to enemies near the target, and reduces enemy ATK Spd by {3}% for {2} sec.",
+    "books": {
+      "0": "DMG and Heal rate are increased by {0}%.",
+      "1": "DMG and Heal rate are increased by {0}%.",
+      "2": "DMG and Heal rate are increased by {0}%."
+    },
+    "light": "DMG and Heal rate is increased by 40%.",
+    "dark": "Enemies hit are stunned for 1 sec."
+  },
+  "s2": {
+    "name": "Spear of Light",
+    "description": "Deals {0} M.DMG, inflicts knockback, and shackles the target enemy for {1} sec. Enemies inflicted by shackle take 25% increased M.DMG while the effect lasts.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Mana cost is reduced by 1.",
+    "dark": "Number of targets changes to 2.",
+    "ut": {
+      "name": "Last Chapter of the Bible",
+      "description": [
+        "[Spear of Light] Gains Immunity to CC for the skill's duration and increases M.Weakness of the target by 10% for 10 sec.",
+        "[Spear of Light] Gains Immunity to CC for the skill's duration and increases M.Weakness of the target by 12% for 10 sec.",
+        "[Spear of Light] Gains Immunity to CC for the skill's duration and increases M.Weakness of the target by 14% for 10 sec.",
+        "[Spear of Light] Gains Immunity to CC for the skill's duration and increases M.Weakness of the target by 17% for 10 sec.",
+        "[Spear of Light] Gains Immunity to CC for the skill's duration and increases M.Weakness of the target by 21% for 10 sec.",
+        "[Spear of Light] Gains Immunity to CC for the skill's duration and increases M.Weakness of the target by 25% for 10 sec."
+      ],
+      "story": "The last chapter of the legend that was too horrifying and terrifying to put in the Bible. It talks about the holy light that kills the darkest enemy in the world."
+    }
+  },
+  "s3": {
+    "name": "Holy Sanctuary",
+    "description": "Grants Invincibility to all allies for {0} sec and heals {1} HP for the duration of skill.",
+    "books": {
+      "0": "Heal rate is increased by {0}%.",
+      "1": "Heal rate is increased by {0}%.",
+      "2": "ATK Spd is increased by {0} for the duration of skill."
+    },
+    "light": "Mana cost is reduced by 1.",
+    "dark": "In exchange for 2 additional Mana Cost and a 3 sec reduction of Invincibility duration, all allies gain 50% ATK.",
+    "ut": {
+      "name": "Well-Worn Rosary",
+      "description": [
+        "[Holy Sanctuary] ATK is increased by 25% for the duration of skill, and recovers 120 Mana per sec.",
+        "[Holy Sanctuary] ATK is increased by 25% for the duration of skill, and recovers 140 Mana per sec.",
+        "[Holy Sanctuary] ATK is increased by 25% for the duration of skill, and recovers 170 Mana per sec.",
+        "[Holy Sanctuary] ATK is increased by 25% for the duration of skill, and recovers 200 Mana per sec.",
+        "[Holy Sanctuary] ATK is increased by 25% for the duration of skill, and recovers 250 Mana per sec.",
+        "[Holy Sanctuary] ATK is increased by 25% for the duration of skill, and recovers 300 Mana per sec."
+      ],
+      "story": "The rosary that holy priest Evelyn of the Church of Lua carried until her death. It's as if Lua's holy voice can be heard from the rosary, praying that the world won't collapse. The undeniable holy energy engulfs the body, and it maximizes Baudouin's power."
+    }
+  },
+  "s4": {
+    "name": "Training of God",
+    "description": "Each attack has a 20% chance of dealing {0} M.DMG to target and inflicting stun for {1} sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Activation chance is boosted by 10%.",
+    "dark": "Attack range is boosted by 20%."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / M. Block +200",
+    "dark": "When attacking with Holy Nova and Spear of Light, deal extra M.DMG equal to 100% of ATK and reduce the used skill's cooldown by 20%."
+  }
+}

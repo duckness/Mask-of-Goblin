@@ -1,0 +1,128 @@
+{
+  "name": "Laudia",
+  "subtitle": "Tänzerin der Oase",
+  "description": "Eine Tänzerin aus einem Nomadenstamm in der Aegina-Wüste. Ihr Tanz lässt die Herzen der Menschen schmelzen und ihre scharfen Klingen nehmen ihren Feinden das Leben.",
+  "story": "Die Trovatia sind ein Nomadenstamm der Aegina-Wüste, die die Traditionen und die Religion des uralten Wüstenkönigreiches geerbt haben. Laudia ist die Tochter des Stammesführers und dient der Priesterin des Wassers, Laias. Außerdem kümmert sie sich für ihren Vater um den Stamm. Als sie um Hilfe betete, erwachten der Gottdrache Lilia und ihre Schwester Lilia aus ihrem langen Schlaf und führten sie und ihren Stamm in den Schrein, um sie zu beschützen. Seitdem bekämpfte Laudia Dämonen in der Wüste, zusammen mit Zafir, dem Anführer des Mauhata-Stammes der Wüstenkrieger.",
+  "like": "Laias, Lilia, das Volk der Wüste",
+  "dislike": "Anzusehen, wenn Menschen leiden",
+  "inn": {
+    "idle": "Oh, was für ein interessanter Ort. Gibt es hier irgendwo einen Platz, an dem ich tanzen kann?",
+    "recruit": {
+      "greet": "Hallo. Möge die fließende Kraft mit euch sein.",
+      "talk": [
+        "Hast du die Priesterin nicht gesehen? Sie ist sehr auffällig ...",
+        "Nun, wenn du mich tanzen siehst, wirst du nicht an viel Anderes denken können.",
+        "Ich will nicht zusehen, wie diese wunderschöne Welt noch weiter zerstört wird."
+      ],
+      "gift": "Danke für das Geschenk. Möchtest du tanzen?"
+    },
+    "affinity": {
+      "greet": "Hallo! Jetzt, da wir uns ja schon besser kennen, wäre es okay, wenn ich dich mit deinem Vornamen anreden würde?",
+      "talk": [
+        "Dieser Ort gefällt mir. Er ist so ruhig und friedlich.",
+        "Es ist keine leichte Aufgabe, stellvertretender Anführer zu sein. Ich muss mich um die Menschen meines Stammes kümmern."
+      ],
+      "gift": "Danke. Ich sollte ein paar Knabbereien für die Kinder kaufen ..."
+    },
+    "relationship": {
+      "greet": "Schön, dich zu sehen. Bist du hier, um mich zu treffen?",
+      "talk": [
+        "Hast du schon Lilia und ihre Schwester Laias kennengelernt? Sie sind so toll. Ich bin sicher, dass du sie sehr mögen wirst.",
+        "Ich kann die starken Schwingungen von Fluss und Schicksal spüren, die man nur bei wahren Kriegern und Helden findet.",
+        "Ich habe mir einen neuen Tanz ausgedacht, willst du ihn bald mal sehen? Wir könnten zusammen tanzen."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Flüsternder Sand, Arlaq",
+    "description": [
+      "[Segen der Oase] kann bis zu 14-mal kumuliert werden. Normale Angriffe haben eine Chance von 10% alle Skill-Cooldowns um 4% zu senken.",
+      "Segen der Oase kann bis zu 15-mal kumuliert werden. Normale Angriffe haben eine Chance von 10% alle Skill-Cooldowns um 4,8% zu senken.",
+      "Segen der Oase kann bis zu 16-mal kumuliert werden. Normale Angriffe haben eine Chance von 10% alle Skill-Cooldowns um 5,8% zu senken.",
+      "Segen der Oase kann bis zu 17-mal kumuliert werden. Normale Angriffe haben eine Chance von 10% alle Skill-Cooldowns um 7% zu senken.",
+      "Segen der Oase kann bis zu 18-mal kumuliert werden. Normale Angriffe haben eine Chance von 10% alle Skill-Cooldowns um 8,4% zu senken.",
+      "Segen der Oase kann bis zu 20-mal kumuliert werden. Normale Angriffe haben eine Chance von 10% alle Skill-Cooldowns um 10% zu senken."
+    ],
+    "story": "Ein seltener Schatz, der die Leidenschaft verkörpert, die wie eine Flamme in der Wüste lodert. Ein Paar dieser wunderschönen Waffen soll sich im Lager des uralten Gottkönigs befinden. Wenn man sie schwingt, klingen sie schön wie der Wind. Eine süße und gleichzeitig tödliche Verlockung, genau wie eine Fata Morgana in der Wüste ..."
+  },
+  "s1": {
+    "name": "Flüstern des Sandes",
+    "description": "Greift das Ziel im Nahkampf an, verursacht {0} M.Schaden, verringert {1} Sek. lang die Blockchance um {2} und den Krit. Widerstand um {3}. Ein zusätzlicher Angriff verursacht {4} M.Schaden und betäubt {5} Sek. lang.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Manakosten sind um 1 reduziert.",
+    "dark": "Ziel erleidet 10 Sek. lang um 25 % erhöhten M.Schaden."
+  },
+  "s2": {
+    "name": "Verzauberndes Fließen",
+    "description": "Erhöht {0} Sek. lang eigenen ANG um {1} und Krit. Schaden um {2}%. Bewegt sich dann eine kurze Strecke vorwärts und verursacht bei Gegnern in Bewegungsreichweite {3} M.Schaden und bezaubert sie {4} Sek. lang, wenn der Skill in der Arena benutzt wurde. Kann innerhalb von 5 Sek. nach Benutzung einmalig [Verlockender Hinterhalt] aktivieren.",
+    "books": {
+      "0": "ANG und Schaden werden um {0}% erhöht.",
+      "1": "ANG und Schaden werden um {0}% erhöht.",
+      "2": "ANG und Schaden werden um {0}% erhöht."
+    },
+    "light": "Erhalte nach Bewegung 2 Mana. Erhaltenes Mana wird innerhalb von 10 Sek. verbraucht.",
+    "dark": "Nach der Nutzung von Verzauberndes Fließen kann innerhalb von 10 Sek. zweimal Verlockender Hinterhalt benutzt werden.",
+    "ut": {
+      "name": "Heiligtum von Trovatia",
+      "description": [
+        "[Verzauberndes Fließen] Absorbiert nach Bewegung 3 Sek. lang Schaden in Höhe von 160% des ANG. Danach wird ein Schild erschaffen, der immun gegen Statuseffekte ist und die Manakosten von [Verlockender Hinterhalt] werden um 1 gesenkt.",
+        "[Verzauberndes Fließen] Absorbiert nach Bewegung 3 Sek. lang Schaden in Höhe von 190% des ANG. Danach wird ein Schild erschaffen, der immun gegen Statuseffekte ist und die Manakosten von [Verlockender Hinterhalt] werden um 1 gesenkt.",
+        "[Verzauberndes Fließen] Absorbiert nach Bewegung 3 Sek. lang Schaden in Höhe von 230% des ANG. Danach wird ein Schild erschaffen, der immun gegen Statuseffekte ist und die Manakosten von [Verlockender Hinterhalt] werden um 1 gesenkt.",
+        "[Verzauberndes Fließen] Absorbiert nach Bewegung 3 Sek. lang Schaden in Höhe von 270% des ANG. Danach wird ein Schild erschaffen, der immun gegen Statuseffekte ist und die Manakosten von [Verlockender Hinterhalt] werden um 1 gesenkt.",
+        "[Verzauberndes Fließen] Absorbiert nach Bewegung 3 Sek. lang Schaden in Höhe von 330% des ANG. Danach wird ein Schild erschaffen, der immun gegen Statuseffekte ist und die Manakosten von [Verlockender Hinterhalt] werden um 1 gesenkt.",
+        "[Verzauberndes Fließen] Absorbiert nach Bewegung 3 Sek. lang Schaden in Höhe von 400% des ANG. Danach wird ein Schild erschaffen, der immun gegen Statuseffekte ist und die Manakosten von [Verlockender Hinterhalt] werden um 1 gesenkt."
+      ],
+      "story": "Eine Truhe mit Artefakten, die für Rituale zur Anbetung des Wasserdrachen benötigt werden. Ein Teil des Schmucks darauf ist aus „Azurblauem Lapislazuli“ gefertigt, einem Edelstein, der Fülle verkörpert. Sie ist der größte Schatz von Laudias Vater und wird nur denen verliehen, welche den ganzen Trovatia-Stamm führen können."
+    },
+    "linked": {
+      "name": "Verlockender Hinterhalt",
+      "description": "Greift das Ziel dreimal an und verursacht insgesamt {0} M.Schaden. Fügt Bossgegnern und verzauberten Gegnern zusätzlich {1} M.Schaden zu und umgeht dabei ihre VERT."
+    }
+  },
+  "s3": {
+    "name": "Tanz der Wüste",
+    "description": "Greift Gegner in Reichweite 30-mal an und verursacht insgesamt {0} M.Schaden. Wirft außerdem die Klingen des Arlaq 30-mal auf zufällige Gegner und verursacht dabei insgesamt {1} M.Schaden. Jedes Mal, wenn die Klingen den gleichen Gegner treffen, wird zusätzlich {2} Schaden hinzugefügt. [Blendende Beschleunigung] kann einmal während der Skillaktivierung benutzt werden. Die Klingen des Arlaq treffen bevorzugt bezauberte Gegner.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Regeneriert bei jedem Angriff 30 Mana.",
+    "dark": "Manakosten sind um 1 erhöht, aber der Schaden wird um 100% gesteigert.",
+    "ut": {
+      "name": "Schleier der Bezauberung",
+      "description": [
+        "[Tanz der Wüste] Bei Skill-Aktivierung wird der Skill-Cooldown um 30% gesenkt und Durchdringung um 100 erhöht.",
+        "[Tanz der Wüste] Bei Skill-Aktivierung wird der Skill-Cooldown um 30% gesenkt und Durchdringung um 120 erhöht.",
+        "[Tanz der Wüste] Bei Skill-Aktivierung wird der Skill-Cooldown um 30% gesenkt und Durchdringung um 140 erhöht.",
+        "[Tanz der Wüste] Bei Skill-Aktivierung wird der Skill-Cooldown um 30% gesenkt und Durchdringung um 170 erhöht.",
+        "[Tanz der Wüste] Bei Skill-Aktivierung wird der Skill-Cooldown um 30% gesenkt und Durchdringung um 210 erhöht.",
+        "[Tanz der Wüste] Bei Skill-Aktivierung wird der Skill-Cooldown um 30% gesenkt und Durchdringung um 250 erhöht."
+      ],
+      "story": "Ein legendärer Schleier, der nur der besten Tänzerin auf dem Kontinent verliehen wird. Wenn mit ihm ein Tanz vollführt wird, werden alle Zuschauer bezaubert. Laudia setzte den Schleier mit ihrem betörenden Tanz ein und erreichte so alles, was sie wollte."
+    },
+    "linked": {
+      "name": "Blendende Beschleunigung",
+      "description": "Gewährt {0} Sek. lang Immunität gegen Statuseffekte und erhöht die Angriffsgeschw. um {1}."
+    }
+  },
+  "s4": {
+    "name": "Segen der Oase",
+    "description": "Senkt Dauer von auf den Nutzer wirkenden Statuseffekten um {0}%. Bei Benutzung eines Skills wird [Segen der Oase] {1} Sek. lang gewährt, so dass Durchdringung um {2} und VERT um {3} steigt. [Segen der Oase] kann bis zu {4} -mal kumuliert werden und ist nicht aufhebbar.",
+    "books": {
+      "0": "Durchdringung und VERT sind um {0}% erhöht.",
+      "1": "Durchdringung und VERT sind um {0}% erhöht.",
+      "2": "Durchdringung und VERT sind um {0}% erhöht."
+    },
+    "light": "Erhält 2 Zähler für Segen der Oase.",
+    "dark": "Senkt erlittenen Schaden für jeden Zähler um 2%, ausgenommen Schaden durch Helden."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / ANG-Geschw. +100",
+    "dark": "Gewährt zu Kampfbeginn 7 Sek. lang Immunität gegen Statuseffekte. Steigert 10 Sek. lang PRÄZ und Statuseffekt-PRÄZ um 300."
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Tanya",
+  "subtitle": "Lâmina do Silêncio",
+  "description": "Uma assassino de elite das Máscaras Sorridente e um ex-colega de Roi. Ela era a encarregada de caçar traidores. Suas kataras afiadas nunca erram o alvo.",
+  "story": "Uma assassina da Máscara Sorridente e colega de Roi. Embora seja uma meio-elfa e, por isso, tenha uma vantagem física em relação a Roi, ela não tem sua sabedoria sobre o mundo nem sua habilidade de formar conexões com os outros, atributos que o fazem ser essencial em grandes operações. Isso fez com que ela adquirisse certo complexo de inferioridade. Como a encarregada da 'limpeza' no grupo, sua tarefa é eliminar qualquer traidor. Quando Roi deixou a organização, ela partiu para descobrir seus motivos, deixando todos os seus outros afazeres para trás. Seus planos para quando encontrá-lo ainda são desconhecidos.",
+  "like": "Roi",
+  "dislike": "Roi, Máscara Sorridente, sangue Meio-Elfo",
+  "inn": {
+    "idle": "....",
+    "recruit": {
+      "greet": "... Hmpf.",
+      "talk": [
+        "... Não fale comigo.",
+        "... Não tente conversar com uma mulher que só sabe matar.",
+        "... *suspiro*"
+      ],
+      "gift": "... Eu aceito... por ora."
+    },
+    "affinity": {
+      "greet": "... Hum.",
+      "talk": [
+        "Me recuso a trabalhar como zeladora...",
+        "... Você fica sempre correndo risco de vida."
+      ],
+      "gift": "... Eu não... preciso..."
+    },
+    "relationship": {
+      "greet": "... Então você veio.",
+      "talk": [
+        "Desculpa... eu não sou de falar muito.",
+        "Nenhuma diversão viria de uma conversa com uma pessoa como eu...",
+        "Por que você se interessou em alguém como eu...? Eu não entendo..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Caethasis, Demônio da Calma",
+    "description": [
+      "Enquanto estiver em ataque automático, há 10% de chance de causar 200% de DAN.F adicional ao alvo e ganhar Furtividade durante 10 segundos. Tempo de Recarga: 10 segundos.",
+      "Enquanto estiver em ataque automático, há 12% de chance de causar 240% de DAN.F adicional ao alvo e ganhar Furtividade durante 10 segundos. Tempo de Recarga: 10 segundos.",
+      "Enquanto estiver em ataque automático, há 14% de chance de causar 290% de DAN.F adicional ao alvo e ganhar Furtividade durante 10 segundos. Tempo de Recarga: 10 segundos.",
+      "Enquanto estiver em ataque automático, há 17% de chance de causar 350% de DAN.F adicional ao alvo e ganhar Furtividade durante 10 segundos. Tempo de Recarga: 10 segundos.",
+      "Enquanto estiver em ataque automático, há 20% de chance de causar 420% de DAN.F adicional ao alvo e ganhar Furtividade durante 10 segundos. Tempo de Recarga: 10 segundos.",
+      "Enquanto estiver em ataque automático, há 25% de chance de causar 500% de DAN.F adicional ao alvo e ganhar Furtividade durante 10 segundos. Tempo de Recarga: 10 segundos."
+    ],
+    "story": "A Guerra dos Demônios data de 100 anos atrás. Durante essa guerra, a maior ameaça à humanidade era, sem dúvida, os oficiais Demônios de alta patente. Kaitasis, o Demônio da Calma, era especialmente perigoso. Inúmeros feiticeiros e sacerdotes foram massacrados por esse Demônio que especificamente buscava usuários de magia para obter suas almas. Por fim, Kaitasis foi derrotado por Kyle e seu âmago foi enclausurado. No entanto, anos depois, o âmago caiu nas mãos da Máscara Sorridente e voltou a servir como um instrumento da morte."
+  },
+  "s1": {
+    "name": "Alvo Avistado",
+    "description": "Desloca-se para trás do inimigo com menor DEF.F, aumenta o DAN.F recebido por ele em {0}%, e o derruba causando {1} de DAN.F. Enquanto estiver em Furtividade, atordoa o alvo inimigo durante 6 segundos. Caso contrário, ganha Furtividade durante 10 segundos. Enquanto estiver em Furtividade, a Taxa de Crít. e a Taxa de Esquiva aumentam em 50.",
+    "books": {
+      "0": "Aumenta o dano em {0}%.",
+      "1": "Aumenta o dano em {0}%.",
+      "2": "Aumenta a Chance Crít. em {0}."
+    },
+    "light": "Reduz a Taxa de Cura do alvo em 30%.",
+    "dark": "Por 10 segundos, a resistência a Crit.F é reduzida em 250."
+  },
+  "s2": {
+    "name": "Tornado de Lâminas",
+    "description": "Ataca 3 vezes os inimigos próximos para causar no total {0} de DAN.F e Sangramento em cada ataque. Se estiver em Furtividade, reduz a Taxa de Recuperação em 70%. Caso contrário, ganha Furtividade durante 10 segundos.",
+    "books": {
+      "0": "Aumenta o dano em {0}%.",
+      "1": "Aumenta o dano em {0}%.",
+      "2": "Aumenta a Chance Crít. em {0}."
+    },
+    "light": "Se houve 1 inimigo, aumenta o dano em 100%.",
+    "dark": "Recupera 500 de mana ao realizar um acerto Crít.",
+    "ut": {
+      "name": "Cinto da Máscara Sorridente",
+      "description": [
+        "[Tornado de Lâminas] Aumenta o DAN em 20% e reduz a Recarga em 8% ao realizar um acerto Crít.",
+        "[Tornado de Lâminas] Aumenta o DAN em 24% e reduz a Recarga em 8% ao realizar um acerto Crít.",
+        "[Tornado de Lâminas] Aumenta o DAN em 29% e reduz a Recarga em 8% ao realizar um acerto Crít.",
+        "[Tornado de Lâminas] Aumenta o DAN em 35% e reduz a Recarga em 8% ao realizar um acerto Crít.",
+        "[Tornado de Lâminas] Aumenta o DAN em 42% e reduz a Recarga em 8% ao realizar um acerto Crít.",
+        "[Tornado de Lâminas] Aumenta o DAN em 50% e reduz a Recarga em 8% ao realizar um acerto Crít."
+      ],
+      "story": "Uma multiferramenta das Máscaras Sorridentes, usada para assassinatos. Um item único das Máscaras Sorridentes, que são conhecidas pela sua velocidade e eficiência na eliminação dos seus alvos. Otimizada para os padrões de ataque do usuário, ela melhora o manuseio de arremesso de armas e aprimora ataques contínuos ao lançar Tornado de Lâminas."
+    }
+  },
+  "s3": {
+    "name": "Sussurro da Morte",
+    "description": "Ataca 6 inimigos aleatórios e causa no total {0} de DAN.F. Ataca uma última vez causando {1} de DAN.F. Se estiver em Furtividade, remove todos os bônus do inimigo. Caso contrário, ganha Furtividade. Aumenta a Chance Crít. em {0} , durante 10 segundos.",
+    "books": {
+      "0": "Aumenta o dano em {0}%.",
+      "1": "Aumenta o dano em {0}%.",
+      "2": "Aumenta a Chance Crít. em {0}."
+    },
+    "light": "O custo de mana aumenta em 1 orbe, mas o DAN é reforçado em 100%.",
+    "dark": "Reduz em 5 segundos o tempo de recarga.",
+    "ut": {
+      "name": "Punhal do Silêncio",
+      "description": [
+        "[Sussurro da Morte] Aumenta o DAN em 20% e, após o uso, ganha imediatamente Furtividade. Se usado no modo Furtivo, o ATQ aumenta em 20% por 10 segundos.",
+        "[Sussurro da Morte] Aumenta o DAN em 24% e, após o uso, ganha imediatamente Furtividade. Se usado no modo Furtivo, o ATQ aumenta em 20% por 10 segundos.",
+        "[Sussurro da Morte] Aumenta o DAN em 29% e, após o uso, ganha imediatamente Furtividade. Se usado no modo Furtivo, o ATQ aumenta em 20% por 10 segundos.",
+        "[Sussurro da Morte] Aumenta o DAN em 35% e, após o uso, ganha imediatamente Furtividade. Se usado no modo Furtivo, o ATQ aumenta em 20% por 10 segundos.",
+        "[Sussurro da Morte] Aumenta o DAN em 42% e, após o uso, ganha imediatamente Furtividade. Se usado no modo Furtivo, o ATQ aumenta em 20% por 10 segundos.",
+        "[Sussurro da Morte] Aumenta o DAN em 50% e, após o uso, ganha imediatamente Furtividade. Se usado no modo Furtivo, o ATQ aumenta em 20% por 10 segundos."
+      ],
+      "story": "Um punhal concedido aos que concluírem a primeira missão da Máscara Sorridente. Há uma regra que diz que assassinos devem sempre levar consigo o punhal que tem traços de seu alvo. O punhal silencioso que assassinos carregam como um amuleto está sempre lhes sussurrando sobre a morte."
+    }
+  },
+  "s4": {
+    "name": "Emboscada Silenciosa",
+    "description": "Causa {0} de DAN F. adicional ao inimigo e silencia-o por {1} seg. quando uma habilidade causa Acerto Crítico. Se o alvo não for um Herói, causa {2} de DAN F. adicional que ignora a DEF e reduz a Vel. de ATQ do alvo em {4} por {3} seg.",
+    "books": {
+      "0": "Aumenta o dano em {0}%.",
+      "1": "Aumenta o dano em {0}%.",
+      "2": "Aumenta a duração do Silêncio em {0} segundos."
+    },
+    "light": "Aumenta o DAN adicional contra inimigos não Heróis em 100%.",
+    "dark": "Aumenta a duração de Silenciar em 0,5%."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / DAN Crít. +20%",
+    "dark": "Aumenta em 50% o dano do ataque automático enquanto estiver em Furtividade."
+  }
+}

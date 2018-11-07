@@ -1,0 +1,120 @@
+{
+  "name": "Luna",
+  "subtitle": "Đứa con của Ánh trăng",
+  "description": "Một đứa bé không rõ danh tính luôn vác theo cái ná cao su to bằng cả người mình. Đạn phóng của cô bé càng bay xa càng trở nên mạnh hơn.",
+  "story": "Rất hiếm khi bị bắt gặp và thường được cho là chỉ có trong truyền thuyết, Lulu là một chủng tộc thú lai. Chúng sống tại một vùng cực kỳ lạnh giá và rất sợ phải tiếp xúc với thế giới bên ngoài. Ngày nọ, một Lulu con được sinh ra với tính cách hoàn toàn trái ngược với tính cách điển hình của chủng tộc mình. Đó chính là Luna. Không phải là cô bé không hài lòng với cách sống của chủng tộc mình. Cô bé cũng không có bất kỳ mục đích lớn lao nào như trải nghiệm thế giới bên ngoài. Cô bé chỉ đơn giản đang nhặt hoa, bước từng bước một. Thêm một bước để nhặt một vài cành cây đóng băng cho súng cao su của mình. Và thêm một bước nữa, đi theo mùi thơm của một loại quả ngọt ngào đỏ tươi nào đó. Trước khi nhận ra thì cô bé đã ra ngoài, chạy về phía cánh đồng cà rốt cách xa ngọn núi.",
+  "like": "Cà rốt, các chị",
+  "dislike": "Đói",
+  "inn": {
+    "idle": "Chào! Bạn có cà rốt không ?!",
+    "recruit": {
+      "greet": "Chào bạn! Xin chào bạn! Chào mọi người!",
+      "talk": [
+        "Bạn có biết cái này là cái gì không?! Cà rốt!",
+        "Cà rốt có màu cà rốt! Yay!",
+        "Con thỏ? Không, Luna là Luna!"
+      ],
+      "gift": "Yay, cà rốt !! Đợi đã? Đây không phải là cà rốt !!"
+    },
+    "affinity": {
+      "greet": "Xin chào! Luna lại đến rồi này!",
+      "talk": [
+        "Chỗ này thật là vui! Luna thích lắm! Lắm luôn ấy!",
+        "Luna sẽ ban phước cho ngươi! Bằng cà rốt!"
+      ],
+      "gift": "Đây là cà rốt thật hả?"
+    },
+    "relationship": {
+      "greet": "Luna vẫn rất ổn!",
+      "talk": [
+        "Luna có rất nhiều bạn ở quê hươnG! Nhưng nhà ở đâu thì lại không nhớ ra!",
+        "Mọi người đều nghĩ Luna thích nhất là cà rốt! Ừ, chính xác~!",
+        "Này.. uhm.. à.. tôi... bạn có cà rốt không?"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Hyacinth, Bông hoa Vĩnh cửu",
+    "description": [
+      "Tăng 20% sát thương của đòn tấn công thường và 6% tầm đánh.",
+      "Tăng 24% sát thương của đòn tấn công thường và 7.2% tầm đánh.",
+      "]Tăng 29% sát thương của đòn tấn công thường và 8.6% tầm đánh.",
+      "Tăng 35% sát thương của đòn tấn công thường và 10.5% tầm đánh.",
+      "Tăng 42% sát thương của đòn tấn công thường và 12.5% tầm đánh.",
+      "Tăng 50% sát thương của đòn tấn công thường và 15% tầm đánh."
+    ],
+    "story": "Súng cao su làm từ cây lan dạ hương, một loại cây bạc chỉ mọc ở những vùng cực kỳ lạnh giá. Tương truyền cây lan dạ hương đã được Nữ hoàng băng giá ban phúc và có thể cho ra quả đỏ tươi kể cả trong thời tiết lạnh nhất. Chỉ cần bám vào một cành cây lan dạ hương là có thể lờ đi cái lạnh quanh mình. Loại cây được ban phúc này cũng có sức mạnh tạo bão tuyết và đông giá. Khỏi cần phải nói, những quyền năng này sẽ được sử dụng hiệu quả nhất nhờ một vũ khí làm từ một trong những cây lan dạ hương."
+  },
+  "s1": {
+    "name": "Pew!",
+    "description": "Bật nhảy tấn công 3 lần tới từ đối thủ gần và gây {0} sát thương phép. Cự li giữa đối thủ càng xa sát thương càng tăng cao.",
+    "books": {
+      "0": "Tăng {0}% sát thương.",
+      "1": "Tăng {0}% sát thương.",
+      "2": "Tăng {0}% sát thương."
+    },
+    "light": "Khi địch còn 1 người, lượng sát thương tăng 100%.",
+    "dark": "Gây choáng đối thủ nhận sát thương trong 1 giây."
+  },
+  "s2": {
+    "name": "Hãy nhìn lên!",
+    "description": "Gây {0} sát thương phép trong phạm vi nhỏ lấy kẻ địch ở xa nhất làm trung tâm. Gây choáng mục tiêu trong {1} giây. Mục tiêu càng ở xa thì càng gây nhiều sát thương hơn.",
+    "books": {
+      "0": "Tăng {0}% sát thương.",
+      "1": "Tăng {0}% sát thương.",
+      "2": "Tăng {0}% sát thương."
+    },
+    "light": "Lượng tiêu thụ mana tăng 2 và tấn công 3 lần lên địch ngẫu nhiên.",
+    "dark": "Bỏ qua hiệu ứng chặn của đối phương",
+    "ut": {
+      "name": "Cà rốt ánh trăng",
+      "description": [
+        "[Cẩn thận phía trên!] Tăng 20% Sát thương và giảm 10% Thời gian hồi chiêu khi có Đòn chí mạng.",
+        "[Cẩn thận phía trên!] Tăng 24% Sát thương và giảm 10% Thời gian hồi chiêu khi có Đòn chí mạng.",
+        "[Cẩn thận phía trên!] Tăng 29% Sát thương và giảm 10% Thời gian hồi chiêu khi có Đòn chí mạng.",
+        "[Cẩn thận phía trên!] Tăng 35% Sát thương và giảm 10% Thời gian hồi chiêu khi có Đòn chí mạng.",
+        "[Cẩn thận phía trên!] Tăng 42% Sát thương và giảm 10% Thời gian hồi chiêu khi có Đòn chí mạng.",
+        "[Cẩn thận phía trên!] Tăng 50% Sát thương và giảm 10% Thời gian hồi chiêu khi có Đòn chí mạng."
+      ],
+      "story": "Củ cà rốt sinh trưởng sau hàng nghìn lần tắm ánh trăng. Những người bị vật phẩm này đánh trúng sẽ thoát khỏi tà lực và biết phân biệt giữa chính và tà."
+    }
+  },
+  "s3": {
+    "name": "Lấp la Lấp lánh",
+    "description": "Gây {0} sát thương phép cho mục tiêu trong phạm vi, và giảm {2}% Xác suất chí mạng của mục tiêu trong {1} giây",
+    "books": {
+      "0": "Tăng {0}% sát thương.",
+      "1": "Tăng {0}% sát thương.",
+      "2": "Tăng {0}% sát thương."
+    },
+    "light": "Giảm 150 xác suất trúng đòn của đối thủ nhận sát thương trong 7 giây.",
+    "dark": "Lượng tiêu thụ mana tăng 1 và quăng địch ra xa.",
+    "ut": {
+      "name": "Hoa tuyết không tan",
+      "description": [
+        "Lượng sát thương của [Lấp la Lấp lánh] tăng 20%, đổi hiệu ứng giảm xác suất chí mạng thành không thể gỡ bỏ.",
+        "Lượng sát thương của [Lấp la Lấp lánh] tăng 24%, đổi hiệu ứng giảm xác suất chí mạng thành không thể gỡ bỏ.",
+        "Lượng sát thương của [Lấp la Lấp lánh] tăng 29%, đổi hiệu ứng giảm xác suất chí mạng thành không thể gỡ bỏ.",
+        "Lượng sát thương của [Lấp la Lấp lánh] tăng 35%, đổi hiệu ứng giảm xác suất chí mạng thành không thể gỡ bỏ.",
+        "Lượng sát thương của [Lấp la Lấp lánh] tăng 42%, đổi hiệu ứng giảm xác suất chí mạng thành không thể gỡ bỏ.",
+        "Lượng sát thương của [Lấp la Lấp lánh] tăng 50%, đổi hiệu ứng giảm xác suất chí mạng thành không thể gỡ bỏ."
+      ],
+      "story": "Một đóa hóa trên đồng tuyết huyền thoại, nở rộ trên vùng đất băng vĩnh cửu của Núi tuyết Windland. Tương truyền, nó làm cho dòng năng lượng của chủ nhân lưu chuyển rõ ràng và thông thuận hơn. Một vật phẩm giúp năng lượng thuần khiết của Luna tỏa sáng hơn."
+    }
+  },
+  "s4": {
+    "name": "Gotcha!",
+    "description": "Mỗi {0} giây, gây {2} sát thương phép thuật lên kẻ địch ở xa nhất trong {1} giây. Địch càng ở xa thì càng gây nhiều sát thương hơn.",
+    "books": {
+      "0": "Tăng {0}% sát thương.",
+      "1": "Tăng {0}% sát thương.",
+      "2": "Tăng {0}% sát thương."
+    },
+    "light": "Đẩy địch ra xa với xác suât 20% và làm ngã trong 2 giây.",
+    "dark": "Đối tượng đổi thành 2 người."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / Crit DMG +20%",
+    "dark": "Khi tấn công thường, đẩy địch ra xa 8m với xác suất 10% và làm địch ngất xỉu trong 3 giây. Và tăng 500 tốc độ tấn công trong 3 giây."
+  }
+}

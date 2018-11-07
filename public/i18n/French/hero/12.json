@@ -1,0 +1,120 @@
+{
+  "name": "Miruru",
+  "subtitle": "Maudite Impératrice Pirate",
+  "description": "La légendaire pirate qui fut maudite et transformée en petite fille. Elle a l'aptitude extraordinaire de tirer des boulets de canon directement sur la tête de ses ennemis.",
+  "story": "Elle voguait autrefois sur les flots en tant qu'impératrice des pirates, inspirant la peur chez les marins. Hélas, un objet maudit la transforma en enfant et tous ses alliés et membres d'équipage la quittèrent. Comme elle n'était pas du genre à abandonner, elle recommença à zéro et rêve désormais de retrouver sa gloire d'antan. Malheureusement, la malédiction d'enfance fait qu'elle a également des pensées immatures. Cependant, elle continue de suivre ses rêves. En ce moment, elle commande les pirates de Miruru composés de Gobelins et Gnolls.",
+  "like": "Les trésors et tout ce qui brille",
+  "dislike": "La Marine",
+  "inn": {
+    "idle": "Que diriez-vous d'une alliance? Je peux vous donner 10% de toutes les découvertes!",
+    "recruit": {
+      "greet": "Heureux de vous rencontrer, aussi!",
+      "talk": [
+        "Ensemble, nous pouvons faire n'importe quoi! Même avec ce corps maudit!",
+        "La mer nous appelle!",
+        "Je retrouverai mon apparence un jour."
+      ],
+      "gift": "Or! C'est de l'or!"
+    },
+    "affinity": {
+      "greet": "Bienvenue ! Mon subordonné d'honneur préféré !",
+      "talk": [
+        "Hum... Mon passé ? À chaque fois que j'essaie de me rappeler quelque chose... Bam ! Je tombe du lit.",
+        "Mais il y a quelque chose dont je me souviens. Une soif inextinguible... et des inscriptions sur une carte... La fontaine de la Vie ?"
+      ],
+      "gift": "Vous êtes un digne subordonné ! À présent, le trésor des pirates de Miruru est rempli !"
+    },
+    "relationship": {
+      "greet": "Hey, bienvenue!!",
+      "talk": [
+        "Laissez-nous travailler dur aujourd'hui! Pour l'amour des Pirates Miruru!",
+        "Avez-vous apporté quelque trésor? Où? Où? Où? Montrez-moi!",
+        "Mon canon? Ouais, je l'ai fait moi-même! Il est formidale, d'accord? D'accord?!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Leviathan, Arme Ultime",
+    "description": [
+      "A 50 % de chances d'infliger des DEG P à hauteur de 100 % de l'ATQ aux ennemis touchés par la compétence Bouuuuum ! et la cible subit 20 % de DEG P en plus pendant 10 secondes.",
+      "A 50 % de chances d'infliger des DEG P à hauteur de 120 % de l'ATQ aux ennemis touchés par la compétence Bouuuuum ! et la cible subit 24 % de DEG P en plus pendant 10 secondes.",
+      "A 50 % de chances d'infliger des DEG P à hauteur de 140 % de l'ATQ aux ennemis touchés par la compétence Bouuuuum ! et la cible subit 29 % de DEG P en plus pendant 10 secondes.",
+      "A 50 % de chances d'infliger des DEG P à hauteur de 170 % de l'ATQ aux ennemis touchés par la compétence Bouuuuum ! et la cible subit 35 % de DEG P en plus pendant 10 secondes.",
+      "A 50 % de chances d'infliger des DEG P à hauteur de 210 % de l'ATQ aux ennemis touchés par la compétence Bouuuuum ! et la cible subit 42 % de DEG P en plus pendant 10 secondes.",
+      "A 50 % de chances d'infliger des DEG P à hauteur de 250 % de l'ATQ aux ennemis touchés par la compétence Bouuuuum ! et la cible subit 50 % de DEG P en plus pendant 10 secondes."
+    ],
+    "story": "Lorsque Miruru régnait comme impératrice des pirates, elle était crainte de tous les marins et des forces navales d'Orvelia et de l'empire. Les canons de son navire étaient particulièrement terrifiants. Le plus puissant d'entre eux était le Léviathan, le canon principal du navire. Après avoir été maudite, elle emporta une seule chose en fuyant la mutinerie de son équipage. L'efficacité de cette arme vaut en effet tout l'or et les butins du monde. Le Léviathan est l'arme la plus puissante de son arsenal. Après de nombreuses modifications, l'ancienne terreur de la mer sert désormais d'artillerie mobile."
+  },
+  "s1": {
+    "name": "Baaaam!",
+    "description": "Inflige {0}  points de DEG P à tous les ennemis et les repousse.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG de {0}%."
+    },
+    "light": "Augmente les DEG P subis par la cible de 25 % pendant 10 sec.",
+    "dark": "Lorsque activé, l'ATQ est augmentée de 35% pendant 10 sec."
+  },
+  "s2": {
+    "name": "Rouleau",
+    "description": "Inflige {0} points de DEG P. 3 fois aux ennemis à portée. Chaque attaque a {1}% de chance de renverser l'ennemi pendant {2} sec.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG de {0}%."
+    },
+    "light": "Les DEG sont augmentés de 40%.",
+    "dark": "Pour chaque ennemi qui subit des DEG, le Temps de recharge est réduit de 8%.",
+    "ut": {
+      "name": "Sextant de roi pirate",
+      "description": [
+        "[Rouleau] Augmente les DEG de 4 % à chaque utilisation et récupère 120 PM lorsque vous assénez un coup critique. Cet effet est cumulable au maximum 10 fois.",
+        "[Rouleau] Augmente les DEG de 4,8 % à chaque utilisation et récupère 120 PM lorsque vous assénez un coup critique. Cet effet est cumulable au maximum 10 fois.",
+        "[Rouleau] Augmente les DEG de 5,8 % à chaque utilisation et récupère 120 PM lorsque vous assénez un coup critique. Cet effet est cumulable au maximum 10 fois.",
+        "[Rouleau] Augmente les DEG de 7 % à chaque utilisation et récupère 120 PM lorsque vous assénez un coup critique. Cet effet est cumulable au maximum 10 fois.",
+        "[Rouleau] Augmente les DEG de 8,4 % à chaque utilisation et récupère 120 PM lorsque vous assénez un coup critique. Cet effet est cumulable au maximum 10 fois.",
+        "[Rouleau] Augmente les DEG de 10 % à chaque utilisation et récupère 120 PM lorsque vous assénez un coup critique. Cet effet est cumulable au maximum 10 fois."
+      ],
+      "story": "Sextant du roi pirate Olga, le premier à avoir découvert le nouveau continent. Le roi pirate Olga franchit le continent Orbis en quête de nouvelles terres suite à une révélation divine. Ce sextant peut déterminer l’angle et la position n’importe où dans le monde et avec une grande précision. Miruru utilise ce sextant pour décupler les dégâts occasionnés par les bombes roulantes, mais elle ne se souvient pas du tout comment elle l’a récupéré."
+    }
+  },
+  "s3": {
+    "name": "Pirates de Miruru!",
+    "description": "Attaque 5 fois une cible choisie au hasard et les ennemis près d'elle, ce qui leur inflige un total de {1}  points de DEG P et réduit leur Vit ATQ de {2}  points. Si la cible n'est pas un héros, inflige {3}  points de DEG P supplémentaires.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG de {0}%."
+    },
+    "light": "S'il y a 1 ennemi, les DEG sont augmentés de 100%.",
+    "dark": "Supprime l'Affaiblissement de Vit. ATQ et applique un Étourdissement de 3 sec.",
+    "ut": {
+      "name": "Boulet de canon miruru",
+      "description": [
+        "[Pirates de Miruru!] Les DEG sont augmentés de 50% et le Temps de Recharge de la compétence est réduit de 12%.",
+        "[Pirates de Miruru!] Les DEG sont augmentés de 50% et le Temps de Recharge de la compétence est réduit de 14%.",
+        "[Pirates de Miruru!] Les DEG sont augmentés de 50% et le Temps de Recharge de la compétence est réduit de 17%.",
+        "[Pirates de Miruru!] Les DEG sont augmentés de 50% et le Temps de Recharge de la compétence est réduit de 21%.",
+        "[Pirates de Miruru!] Les DEG sont augmentés de 50% et le Temps de Recharge de la compétence est réduit de 25%.",
+        "[Pirates de Miruru!] Les DEG sont augmentés de 50% et le Temps de Recharge de la compétence est réduit de 30%."
+      ],
+      "story": "Un boulet de canon gravé du symbole des pirates de Miruru. Miruru se souvient encore de son glorieux passé. Son drapeau flottant orné d’un requin et le son des explosions qu’elle ordonnait. Ces doux souvenirs des navires ennemis coulant dans la terreur restent gravés en elle. Miruru utilise des boulets de canon spéciaux pour attaquer ses ennemis, tout en attendant les jours heureux où elle pourra revenir à son poste."
+    }
+  },
+  "s4": {
+    "name": "Boooooom!",
+    "description": "Lorsque vous assénez une attaque normale, vous tirez une balle supplémentaire qui a 60 % de chances d'infliger {0}  points de DEG P à tous les ennemis.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG de {0}%."
+    },
+    "light": "Chaque coup critique augmente l'attaque de 0,5 % pendant 10 secondes. Cet effet est cumulable 100 fois au maximum.",
+    "dark": "Les chances d'activation sont maintenant de 80%."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Chances Crit +100",
+    "dark": "Miruru accumule des charges d'Ombre en fonction du nombre d'ennemis touchés. Quand elle atteint 50 charges, elle devient berserk, ce qui augmente sa Vit. ATQ de 800 et son ATQ de 20% pendant 10 sec."
+  }
+}

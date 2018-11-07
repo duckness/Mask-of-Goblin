@@ -1,0 +1,120 @@
+{
+  "name": "Demia",
+  "subtitle": "Forteresse d'Acier",
+  "description": "Ce Chevalier-Gardien porte une lance gigantesque et un bouclier. Résiste à l'attaque des ennemis avec un courage absolu et sème le trouble dans les lignes avec sa lance.",
+  "story": "Ziltrion Si Demia. Le commandant des Chevaliers Gardiens d'Orvel. C'est un chevalier puissant et digne maniant la lance et un bouclier géant. On dit qu'il est presque impossible de pénétrer son bouclier. En tant que commandant des chevaliers, elle prend soin de ses subordonnées et elle est prête à effectuer n'importe quelle tâche pour son pays. Vu le changement d'atmosphère dans le palais royal, elle espère pouvoir nommer rapidement Clause en tant que commandant afin qu'elle puisse protéger Scarlet de l'agression des nobles.",
+  "like": "Un monarque vertueux à servir",
+  "dislike": "Les gens sans volonté qui trahissent les autres",
+  "inn": {
+    "idle": "Soyez complètement préparé pour la bataille de demain.",
+    "recruit": {
+      "greet": "Ravie de vous rencontrer, soldats. Je suis Demia Ziltrion, chef de la Garnison Royale.",
+      "talk": [
+        "La Garnison Royale est forte. Nars Horrun dirigera les troupes à ma place.",
+        "Mon père a aussi passé des années comme chef de la garnison. Il voulait que je grandisse comme un enfant normal, mais son sang coule dans mes veines.",
+        "Je vais vaincre le Seigneur Ténébreux et ramener la paix dans le royaume."
+      ],
+      "gift": "Je devrais partager cela avec mes soldats."
+    },
+    "affinity": {
+      "greet": "Merci de m'avoir invitée.",
+      "talk": [
+        "Si vous trouvez quoi que ce soit à propos de la Force Obscure, n'hésitez pas à me le faire savoir.",
+        "Nous sommes prêts à nous battre à tout moment. Pour Orvelia !"
+      ],
+      "gift": "Je vais partager ceci avec les soldats."
+    },
+    "relationship": {
+      "greet": "J'entends que vous me cherchiez. Qu'est-ce que c'est?",
+      "talk": [
+        "Je m'inquiète pour la princesse. Elle est encore jeune et douce... ça doit être dur.",
+        "Hmm, ne peut-il pas rester dans le coin et protéger la princesse... Quel homme ennuyeux...",
+        "Moi? Um, eh bien... Sortir et me battre à vos côtés n'est pas si mal. C'est un bon exercice."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Arpheus de la Lumière Bleue",
+    "description": [
+      "Augmente la DEF P de tous les alliés de 4 %. Tout blocage d'une attaque ennemie accorde 10 % de chances de restaurer 3 % de mana et de réduire le temps de recharge de toutes les compétences de 1 sec.",
+      "Augmente la DEF P de tous les alliés de 4,8 %. Tout blocage d'une attaque ennemie accorde 12 % de chances de restaurer 3,3 % de mana et de réduire le temps de recharge de toutes les compétences de 1 sec.",
+      "Augmente la DEF P de tous les alliés de 5,8 %. Tout blocage d'une attaque ennemie accorde 14 % de chances de restaurer 3,6 % de mana et de réduire le temps de recharge de toutes les compétences de 1 sec.",
+      "Augmente la DEF P de tous les alliés de 7 %. Tout blocage d'une attaque ennemie accorde 17 % de chances de restaurer 3,9 % de mana et de réduire le temps de recharge de toutes les compétences de 1 sec.",
+      "Augmente la DEF P de tous les alliés de 8,4 %. Tout blocage d'une attaque ennemie accorde 21 % de chances de restaurer 4,2 % de mana et de réduire le temps de recharge de toutes les compétences de 1 sec.",
+      "Augmente la DEF P de tous les alliés de 10 %. Tout blocage d'une attaque ennemie accorde 25 % de chances de restaurer 4,5 % de mana et de réduire le temps de recharge de toutes les compétences de 1 sec."
+    ],
+    "story": "Un jour, une veine de mana puissante fut découverte dans le territoire de Ziltrion. En enquêtant là-dessus, Demia découvrit un minerai bleu qu'elle n'avait encore jamais vu. De nombreux sorciers et alchimistes étudièrent ce minerai étrange présentant des caractéristiques des gemmes et du métal, sans pouvoir l'identifier clairement. Jin le forgeron eut une idée différente : dès qu'il vit le minerai, il proposa joyeusement à Demia de fabriquer de puissants équipements avec. Il forgea une lance et un bouclier, luisant de mana bleu et plus solide que le diamant."
+  },
+  "s1": {
+    "name": "Pénétration",
+    "description": "Projette une lance sur l'ennemi le plus éloigné, inflige {0} points de DEG P. et traine l'ennemi devant le Héros. Inflige ensuite {1} points de DEG P. aux ennemis à portée et applique Étourdissement pendant 3 sec.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente la durée d'Étourdissement pendant {0} sec."
+    },
+    "light": "Pour un coût de 1 MP supplémentaire, 2 ennemis sont attrapés.",
+    "dark": "Tous les ennemis attrapés subissent 25% de DEG supplémentaires de toutes les sources pendant 10 sec."
+  },
+  "s2": {
+    "name": "Volonté Gagneuse",
+    "description": "Bloquer les DEG dans les {0} seconds va activer une onde de choc qui inflige {1} points de DEG P. aux ennemis à proximité et réduit leur ATQ de {2}%.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "La réduction de l'ATQ ennemie augmente de {0}%."
+    },
+    "light": "Le coût en Mana est réduit de 1.",
+    "dark": "La DEF P. des alliés est augmentée de 20% pendant 10 secondes après activation.",
+    "ut": {
+      "name": "Bouclier de résolution",
+      "description": [
+        "[Volonté gagneuse] Augmente les DEG de 50 % et augmente la Resist P. Faible de la cible de 10 % pendant 10 sec.",
+        "[Volonté gagneuse] Augmente les DEG de 50 % et augmente la Resist P. Faible de la cible de 12 % pendant 10 sec.",
+        "[Volonté gagneuse] Augmente les DEG de 50 % et augmente la Resist P. Faible de la cible de 14 % pendant 10 sec.",
+        "[Volonté gagneuse] Augmente les DEG de 50 % et augmente la Resist P. Faible de la cible de 17 % pendant 10 sec.",
+        "[Volonté gagneuse] Augmente les DEG de 50 % et augmente la Resist P. Faible de la cible de 21 % pendant 10 sec.",
+        "[Volonté gagneuse] Augmente les DEG de 50 % et augmente la Resist P. Faible de la cible de 25 % pendant 10 sec."
+      ],
+      "story": "Bouclier en bois que Demia utilisait pour s’entraîner pendant son enfance. Il a été ainsi manié des milliers de fois, d’où son usure avancée. Demia s’en sert encore aujourd’hui pour retrouver son sang-froid lorsqu’elle pense avoir franchi une limite. Sa fierté de chevalier d’Orvelia réapparaît lorsqu’elle contemple ce vieux bouclier usé."
+    }
+  },
+  "s3": {
+    "name": "Fortresse d'Acier",
+    "description": "Bloquer des DEG pendant une incantation augmente de 7% les DEG de l'attaque sautée. Inflige également {1} points de DEG P. à l'ennemi et applique Étourdissement. Après l'incantation, saute puis frappe l'ennemi en infligeant {2} points de DEG P. et applique Étourdissement pendant {3} sec. Gagne une immunité aux Contrôles pendant l'utilisation de la compétence.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG de {0}%."
+    },
+    "light": "Sauter dans les airs charge la cible ayant l'ATQ la plus élevée.",
+    "dark": "Pendant l'incantation, les DEG P. reçus par tous les alliés sont réduits de 20%.",
+    "ut": {
+      "name": "Énergie de protection",
+      "description": [
+        "[Fortresse d'Acier] Le coût en mana est réduit de 1 et la durée de l'Étourdissement du Saut d'Attaque est augmentée de 1 sec.",
+        "[Fortresse d'Acier] Le coût en mana est réduit de 1 et la durée de l'Étourdissement du Saut d'Attaque est augmentée de 1.5 sec.",
+        "[Fortresse d'Acier] Le coût en mana est réduit de 1 et la durée de l'Étourdissement du Saut d'Attaque est augmentée de 2 sec.",
+        "[Fortresse d'Acier] Le coût en mana est réduit de 1 et la durée de l'Étourdissement du Saut d'Attaque est augmentée de 2.5 sec.",
+        "[Fortresse d'Acier] Le coût en mana est réduit de 1 et la durée de l'Étourdissement du Saut d'Attaque est augmentée de 3 sec.",
+        "[Fortresse d'Acier] Le coût en mana est réduit de 1 et la durée de l'Étourdissement du Saut d'Attaque est augmentée de 3.5 sec."
+      ],
+      "story": "Une pierre censée protéger l’âme contre son absorption par le mal. Elle ne brille qu’un instant à l’aube, elle est donc dure à trouver. Un jour, quand Demia fut fatiguée par le combat, un camarade lui mit dans les mains. Hélas, elle ne revit jamais ce camarade... Demia emporte toujours la pierre lorsqu’elle part sur un champ de bataille. Elle fait de son mieux pour respecter son vœu et que le sacrifice de son camarade ne soit pas vain."
+    }
+  },
+  "s4": {
+    "name": "Fer de Lance",
+    "description": "Augmente la Défense Physique de tous les membres du groupe de {0} et augmente le taux de Blocage Physique de {1}.",
+    "books": {
+      "0": "Augmente la DEF de {0}%.",
+      "1": "Augmente la DEF de {0}%.",
+      "2": "Augmente la DEF de {0}%."
+    },
+    "light": "La DEF P. est augmentée de 20% et le Blocage P. est augmenté de 50%.",
+    "dark": "Un blocage permet la récupèration de PV à hauteur de 40% de la DEF P."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Blocage P. +200",
+    "dark": "Au début de chaque bataille, l'ATQ de tous les ennemis est réduite de 20% pendant 6 sec. Cet effet ne peut as être dissipé."
+  }
+}

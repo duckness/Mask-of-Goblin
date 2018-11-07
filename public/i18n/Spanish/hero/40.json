@@ -1,0 +1,120 @@
+{
+  "name": "Theo",
+  "subtitle": "Caballero de la Lealtad",
+  "description": "El Primer Caballero de la perdida República de Gray, que deambula por el mundo en busca de su señor perdido, Jane. Sus lanzas duales tienen un poder peligroso, en espera de atravesar a los demonios enemigos sin piedad.",
+  "story": "Un caballero que sirvió a la República de Gray hace 100 años y un admirador de Jane Gray. Theo fue el primer caballero de la República y el portador del Relámpago Legios. Durante la batalla de Duchy contra el ejército de demonios, hubieron disturbios en la Fortaleza de la montaña cuando se robó su sello. A pedido de Jane, Theo se desplazó a contenerlos. En su ausencia, los poderosos oficiales demonio atacaron el palacio real. Theo volvió a luchar con ellos a pesar de su terrible lesión, pero fue incapaz de derrotarlos por sí solo. Cuando se terminó la batalla, sostuvo el cuerpo de la princesa en sus brazos y gritó desde las ruinas del palacio. De repente, una entidad misteriosa le ofreció una oportunidad para defender a su princesa por toda la eternidad. Cuando lo aceptó, entró en un sueño profundo.",
+  "like": "Mi señora, Jane",
+  "dislike": "Demonios y sus oficiales",
+  "inn": {
+    "idle": "Soy Theo Phil Grayum de la República Gris.",
+    "recruit": {
+      "greet": "Oh, eres tú. Nos hemos visto antes, verdad?",
+      "talk": [
+        "Deseo verla una vez más.",
+        "... Han pasado más de cien inviernos.",
+        "Has visto, por casualidad, a una hermosa dama de cabello blanco?"
+      ],
+      "gift": "Tu corazón está lleno de amabilidad."
+    },
+    "affinity": {
+      "greet": "Hola.",
+      "talk": [
+        "No todos los demonios son malvados... Como ese tipo, ¿sabes?",
+        "He usado lanzas desde que era muy joven. Estoy acostumbrado a empuñar una lanza."
+      ],
+      "gift": "Gracias por tu calidez."
+    },
+    "relationship": {
+      "greet": "Cómo estás? Hace bastante que no te veo",
+      "talk": [
+        "Fue la primera vez que me sentí tan cálido por dentro... como si el Sol estuviera parado justo delante de mis ojos.",
+        "Mucha gente me pregunta - por qué ir tan lejos?....Simplemente he estado viviendo de la manera en que mi corazón me lo ordena.",
+        "Si ella no me reconoce cuando finalmente nos encontremos... No sabría que pensar..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Golpe de Relámpago, Legios",
+    "description": [
+      "Cada ataque automático y de habilidad acumula 'Rayo' en tí mismo. Al obtener 50 pilas se activará 'Golpe de Relámpago, Legios', aumentando la velocidad de ATQ en 300, Daño Crit en un 100% y DEF de entrada en 300 durante 10 segundos. Mientras está en este estado, el Rayo no se acumulará. Este efecto no se puede disipar.",
+      "Cada ataque automático y de habilidad acumula 'Rayo' en tí mismo. Al obtener 50 pilas se activará 'Golpe de Relámpago, Legios', aumentando la velocidad de ATQ en 360, Daño Crit en un 120% y DEF de entrada en 360 durante 10 segundos. Mientras está en este estado, el Rayo no se acumulará. Este efecto no se puede disipar.",
+      "Cada ataque automático y de habilidad acumula 'Rayo' en tí mismo. Al obtener 50 pilas se activará 'Golpe de Relámpago, Legios', aumentando la velocidad de ATQ en 430, Daño Crit en un 144% y DEF de entrada en 430 durante 10 segundos. Mientras está en este estado, el Rayo no se acumulará. Este efecto no se puede disipar.",
+      "Cada ataque automático y de habilidad acumula 'Rayo' en tí mismo. Al obtener 50 pilas se activará 'Golpe de Relámpago, Legios', aumentando la velocidad de ATQ en 520, Daño Crit en un 173% y DEF de entrada en 520 durante 10 segundos. Mientras está en este estado, el Rayo no se acumulará. Este efecto no se puede disipar.",
+      "Cada ataque automático y de habilidad acumula 'Rayo' en tí mismo. Al obtener 50 pilas se activará 'Golpe de Relámpago, Legios', aumentando la velocidad de ATQ en 620, Daño Crit en un 208% y DEF de entrada en 620 durante 10 segundos. Mientras está en este estado, el Rayo no se acumulará. Este efecto no se puede disipar.",
+      "Cada ataque automático y de habilidad acumula 'Rayo' en tí mismo. Al obtener 50 pilas se activará 'Golpe de Relámpago, Legios', aumentando la velocidad de ATQ en 750, Daño Crit en un 250% y DEF de entrada en 750 durante 10 segundos. Mientras está en este estado, el Rayo no se acumulará. Este efecto no se puede disipar."
+    ],
+    "story": "Una lanza que se dice se forjó con un rayo. La electricidad fluye constantemente en esta lanza impresionante que es tan alta como un hombre adulto promedio. Forjar una lanza de un rayo fue una tremenda tarea. Pero, al mismo tiempo, Jin no era cualquier herrero. Él derritió una piedra de mana enorme y la fusionó con la sangre de dragón. Utilizó esto para contener el rayo antes de forjarlo en una lanza. Además de su maestro elegido, ninguna otra persona puede tocar esta arma. Cuando se combinan sus dos piezas, repele un flujo de energía enorme que se asemeja al rugido de un dragón."
+  },
+  "s1": {
+    "name": "Choque Final",
+    "description": "Ataca al enemigo 16 veces, causando un total de {0} Daño Magico. Luego de cada golpe crítico, aumenta el Daño Critico en un 3% durante 10 seg, y hay un 30% de probabilidades de causar {1} Daño Magico adicional y aturdir durante 0.3 seg. El efecto de aumento de Daño Crit. puede acumularse hasta 30 veces.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Aumenta Oportunidad Crit. en {0}"
+    },
+    "light": "Si hay 1 enemigo, el Daño se incrementa en un 100%.",
+    "dark": "El tiempo de reutilización se reduce en 2 segundos."
+  },
+  "s2": {
+    "name": "Dios del Relámpago",
+    "description": "Al activarse, se emplea el estado 'Dios del Relámpago'. Arroja una lanza de relámpago al enemigo para causar {0} Daño Magico. El enemigo golpeado recibira {1} Daño Magico aumentado durante 10 segundos. Mientras esté en el estado 'Dios del Relámpago', el Maná no se recuperará durante 10 segundos, pero la tas de activación de la habilidad 'Por Jane' se incrementará en un 40% y el ATQ en {2}.",
+    "books": {
+      "0": "Los aumentos de ATQ y Daño se incrementan en {0}%.",
+      "1": "Los aumentos de ATQ y Daño se incrementan en {0}%.",
+      "2": "Los aumentos de ATQ y Daño se incrementan en {0}%."
+    },
+    "light": "El costo de maná se reduce en 1.",
+    "dark": "El Daño recibido en el estado Dios Relampago se incrementa en un 30% pero la tasa de ATQ aumenta en un 100%.",
+    "ut": {
+      "name": "Collar del dios del relámpago",
+      "description": [
+        "[Dios del relámpago] La Velocidad de ataque aumenta en 250 mientras dura la habilidad, y la probabilidad de activar «Para Jane» aumenta en un 8% adicional.",
+        "[Dios del relámpago] La Velocidad de ataque aumenta en 250 mientras dura la habilidad, y la probabilidad de activar «Para Jane» aumenta en un 9,6% adicional.",
+        "[Dios del relámpago] La Velocidad de ataque aumenta en 250 mientras dura la habilidad, y la probabilidad de activar «Para Jane» aumenta en un 11,5% adicional.",
+        "[Dios del relámpago] La Velocidad de ataque aumenta en 250 mientras dura la habilidad, y la probabilidad de activar «Para Jane» aumenta en un 13,8% adicional.",
+        "[Dios del relámpago] La Velocidad de ataque aumenta en 250 mientras dura la habilidad, y la probabilidad de activar «Para Jane» aumenta en un 16,5% adicional.",
+        "[Dios del relámpago] La Velocidad de ataque aumenta en 250 mientras dura la habilidad, y la probabilidad de activar «Para Jane» aumenta en un 20% adicional."
+      ],
+      "story": "Llamado rayo caído del cielo. Legios también es conocido como bestia sagrada. El poder de Legios fue tan fuerte que cuando se transformó en arma, la Republica de Gray no podía contener todo su poder. Así que se colocó el pedazo más grande en la lanza de rayo y los pedazos restantes se colocaron en distintos lugares. Uno de esos pedazos se colocó en el collar del dios del rayo. Se dice que cualquiera que utilice este collar puede conversar con la lanza de rayo y puede acercarse al poder de Legios."
+    }
+  },
+  "s3": {
+    "name": "Explosión de Relámpago",
+    "description": "Salta hacia un enemigo, golpeandolo con una lanza hasta derribarlo. Golpea al enemigo 5 veces y causa un total de {0} Daño Magico al objetivo y enemigos cercanos y los aturde durante 3 segundos.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Aumenta Oportunidad Crit. en {0}"
+    },
+    "light": "Daño se incrementa en un 40%.",
+    "dark": "La duración del aturdimiento aumenta 1 seg.",
+    "ut": {
+      "name": "Esencia de capullos de flores",
+      "description": [
+        "[Explosión de Relámpago] El tiempo de reutilización de la habilidad se reduce en un 30% y al atacar, causa Daño Mágico equivalente al 40% del ATQ",
+        "[Explosión de Relámpago] El tiempo de reutilización de la habilidad se reduce en un 30% y al atacar, causa Daño Mágico equivalente al 48% del ATQ",
+        "[Explosión de Relámpago] El tiempo de reutilización de la habilidad se reduce en un 30% y al atacar, causa Daño Mágico equivalente al 58% del ATQ",
+        "[Explosión de Relámpago] El tiempo de reutilización de la habilidad se reduce en un 30% y al atacar, causa Daño Mágico equivalente al 70% del ATQ",
+        "[Explosión de Relámpago] El tiempo de reutilización de la habilidad se reduce en un 30% y al atacar, causa Daño Mágico equivalente al 84% del ATQ",
+        "[Explosión de Relámpago] El tiempo de reutilización de la habilidad se reduce en un 30% y al atacar, causa Daño Mágico equivalente al 100% del ATQ"
+      ],
+      "story": "Legado de la derrotada República de Gray. Un tesoro que un respetado hechicero del palacio de la República de Gray le dio al primer caballero Theo, quien recibió el Golpe de Relámpago Legios. La Esencia de Relámpago, que contiene la energía del golpe de relámpago, maximiza el efecto de la Explosión de Relámpago."
+    }
+  },
+  "s4": {
+    "name": "Para Jane",
+    "description": "Cada ataque automatico tiene un 20% de probabilidades de causar {0} Daño Magico y aturdir durante 0.7 segundos.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Aumenta Oportunidad Crit. en {0}"
+    },
+    "light": "Daño se incrementa en un 40%.",
+    "dark": "La duración del aturdimiento aumenta en 0,2 segundos."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Oportunidad Crit +100",
+    "dark": "Cuando 'Dios del Relámpago' se activa, recupera la mitad del maná. Cuando el maná está al máximo, el ATQ se incrementa en un 50% durante 10 segundos. Este efecto solo se activa una vez cada 20 segundos."
+  }
+}

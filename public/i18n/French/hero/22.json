@@ -1,0 +1,120 @@
+{
+  "name": "Rodina",
+  "subtitle": "Sniper du Blizzard",
+  "description": "Un sniper venu d'un empire situé dans un environnement très froid. Elle vise calmement quelque soient les circonstances. Plus elle se concentre et plus elle devient puissante.",
+  "story": "La meilleure tireuse d'élite de l'empire est une amoureuse des ours. Elle les aime tellement qu'elle porte toujours des accessoires ressemblant à des oreilles d'ours sur son chapeau. Elle chasse parfois les tigres, mais jamais elle ne tirera sur un ours. Même si ses talents au tir sont plus adaptés à l'assassinat, elle a juré de ne jamais les utiliser pour des raisons injustes. Au contraire, elle met ses talents au service des autres. Elle vit actuellement avec Pavel dans la Montagne Enneigée Terre-Venteuse et lui sert de garde du corps délégué par l'empire.",
+  "like": "Les ours, les ours polaires, les grizzlis, les petits ours, les gros ours",
+  "dislike": "Ceux qui n'ont aucun respect pour la vie",
+  "inn": {
+    "idle": "Préparations pour le prochain voyage -hmhmhm- (bourdonnement)",
+    "recruit": {
+      "greet": "Salutations! Passez une bonne journée",
+      "talk": [
+        "Mangez bien, battez-vous bien!!",
+        "Alors, j'ai entendu dire que les Champignons grillés étaient délicieux? Je vais en prendre un, ahah!!",
+        "Aimez-vous les légumes? Je les adore!"
+      ],
+      "gift": "Merci!! Merci pour les repas!!"
+    },
+    "affinity": {
+      "greet": "Oh ! Merci pour votre invitation !",
+      "talk": [
+        "J'ai faim ! Donnez-moi à manger, s'il vous plaît !",
+        "Des légumes ! Des champignons !"
+      ],
+      "gift": "Merci pour la nourriture !"
+    },
+    "relationship": {
+      "greet": "Ah!? Salutations!! Avez-vous déjà mangé?!",
+      "talk": [
+        "Le fusil d'un soldat est comme sa vie! Voulez-vous voir le mien qui est bien entretenu?",
+        "Le mage de givre qui vit dans la Caverne de Glace est bien plus doux que vous ne le pensez! Il essaye toujours de prétendre le contraire, alors je ferme les yeux!",
+        "Mr Fluss n'est pas ici? Grâce à lui, la vie n'est pas si mal!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Rodina Fusil Personnalisé Mod.0",
+    "description": [
+      "Chaque attaque a 20% de chances d'infliger des DEG P. supplémentaires à hauteur de 200% de l'ATQ et de repousser l'ennemi. La Précision est ensuite augmentée de 100 pendant 10 sec. Cumulable 3 fois.",
+      "Chaque attaque a 20% de chances d'infliger des DEG P. supplémentaires à hauteur de 240% de l'ATQ et de repousser l'ennemi. La Précision est ensuite augmentée de 100 pendant 10 sec. Cumulable 3 fois.",
+      "Chaque attaque a 20% de chances d'infliger des DEG P. supplémentaires à hauteur de 288% de l'ATQ et de repousser l'ennemi. La Précision est ensuite augmentée de 100 pendant 10 sec. Cumulable 3 fois.",
+      "Chaque attaque a 20% de chances d'infliger des DEG P. supplémentaires à hauteur de 344% de l'ATQ et de repousser l'ennemi. La Précision est ensuite augmentée de 100 pendant 10 sec. Cumulable 3 fois.",
+      "Chaque attaque a 20% de chances d'infliger des DEG P. supplémentaires à hauteur de 414% de l'ATQ et de repousser l'ennemi. La Précision est ensuite augmentée de 100 pendant 10 sec. Cumulable 3 fois.",
+      "Chaque attaque a 20% de chances d'infliger des DEG P. supplémentaires à hauteur de 500% de l'ATQ et de repousser l'ennemi. La Précision est ensuite augmentée de 100 pendant 10 sec. Cumulable 3 fois."
+    ],
+    "story": "L'essence même de la technologie impériale la plus sophistiquée. Ce fusil demande une précision surhumaine et ne peut être manié par une personne normale. Il a été magiquement enchanté pour permettre au tireur de voir à une portée incroyablement longue. Cependant, même le meilleur télescope du monde est inutile dans les mains de celui qui ne sait pas l'utiliser, c'est pourquoi les performances de ce fusil dépendent beaucoup du talent de son utilisateur. Rodina, qui a une superbe vision et un sang-froid parfait, est la propriétaire idéale de ce fusil. Elle l'a même personnalisé en le surnommant « Rodina Fusil Personnalisé »."
+  },
+  "s1": {
+    "name": "Tir Pénétrant",
+    "description": "Lorsque activé, le personnage commence une incantation qui inflige {0} points de DEG P. aux ennemis qui sont dans la même ligne droite. Les DEG sont augmentés de {1}% en fonction du temps d'incantation. Si l'incantation va au-delà du 3ème niveau, les ennemis sont renversés.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG Crit de {0}%."
+    },
+    "light": "Les DEG sont augmentés de 40%.",
+    "dark": "Immunisé aux Contrôles lorsque cette compétence est utilisée."
+  },
+  "s2": {
+    "name": "Visée",
+    "description": "La cible reçoit de ce héros des dégâts augmentés de {0}% et augmente aussi l'ATQ de {1}.",
+    "books": {
+      "0": "Le taux d'augmentation de l'ATQ est augmenté de {0}%.",
+      "1": "Le taux d'augmentation de l'ATQ est augmenté de {0}%.",
+      "2": "Augmente les DEG Crit de {0}% for the duration."
+    },
+    "light": "Vit. ATQ augmentée de 250 pendant la durée.",
+    "dark": "Le coût en Mana est réduit de 1.",
+    "ut": {
+      "name": "Soutien en cristal",
+      "description": [
+        "[Visée] Cible un ennemi aléatoire quand la cible de Rodina meurt, augmentant l'ATQ de 20 % pendant 10 sec.",
+        "[Visée] Cible un ennemi aléatoire quand la cible de Rodina meurt, augmentant l'ATQ de 24 % pendant 10 sec.",
+        "[Visée] Cible un ennemi aléatoire quand la cible de Rodina meurt, augmentant l'ATQ de 29 % pendant 10 sec.",
+        "[Visée] Cible un ennemi aléatoire quand la cible de Rodina meurt, augmentant l'ATQ de 35 % pendant 10 sec.",
+        "[Visée] Cible un ennemi aléatoire quand la cible de Rodina meurt, augmentant l'ATQ de 42 % pendant 10 sec.",
+        "[Visée] Cible un ennemi aléatoire quand la cible de Rodina meurt, augmentant l'ATQ de 50 % pendant 10 sec."
+      ],
+      "story": "Fusil de précision fabriqué par Pavel pour correspondre à la taille de Rodina. Fait de cristaux, il est solide et résistant. Ce soutien est capable de verrouiller n’importe quelle cible."
+    }
+  },
+  "s3": {
+    "name": "Feu Focalisé",
+    "description": "Tire 10 coups sur des ennemis aléatoires. Inflige {0} points de DEG P. et augmente les dégâts de {1}% pour chaque attaque suivante.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG Crit de {0}%."
+    },
+    "light": "Réduit le Temps de recharge de 5% lorsqu'un Coup Crit se produit.",
+    "dark": "Ignore le blocage ennemi.",
+    "ut": {
+      "name": "Déluge sur mesure VII",
+      "description": [
+        "[Feu focalisé] Augmente les dégâts de 20 % et inflige des dégâts ignorant la DEF de la cible avec les 2 derniers coups.",
+        "[Feu focalisé] Augmente les dégâts de 24 % et inflige des dégâts ignorant la DEF de la cible avec les 2 derniers coups.",
+        "[Feu focalisé] Augmente les dégâts de 29 % et inflige des dégâts ignorant la DEF de la cible avec les 2 derniers coups.",
+        "[Feu focalisé] Augmente les dégâts de 35 % et inflige des dégâts ignorant la DEF de la cible avec les 2 derniers coups.",
+        "[Feu focalisé] Augmente les dégâts de 42 % et inflige des dégâts ignorant la DEF de la cible avec les 2 derniers coups.",
+        "[Feu focalisé] Augmente les dégâts de 50 % et inflige des dégâts ignorant la DEF de la cible avec les 2 derniers coups."
+      ],
+      "story": "Un barrage commandé au forgeron légendaire de l’empire. Il contient de la poudre à canon fait à partir de l’œuf solide de pitta et de la mâchoire d’une tortue dragon. Il fut miniaturisé afin que Rodina l’utilise aisément, mais il a le pouvoir de tout détruire."
+    }
+  },
+  "s4": {
+    "name": "Tir Rapide",
+    "description": "Toutes les 10 secondes, produit 2 attaques consécutives et inflige {0} points de DEG P.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG Crit de {0}%."
+    },
+    "light": "S'il y a 1 ennemi, les DEG sont augmentés de 100%.",
+    "dark": "Les ennemis touchés subissent Étourdissement pendant 2 sec."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Chances Crit +100",
+    "dark": "Augmente l'ATQ de 20 % pendant 10 secondes et définit 3 ennemis aléatoires comme cible de Rodina au début de chaque bataille."
+  }
+}

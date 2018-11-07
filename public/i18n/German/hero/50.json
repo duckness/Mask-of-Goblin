@@ -1,0 +1,120 @@
+{
+  "name": "Requina",
+  "subtitle": "Gifthändlerin",
+  "description": "Eine über den Kontinent wandernde Händlerin, mit Giften ausgerüstet für jene, die sie brauchen. Sie benutzt ein Blasrohr, um ihre Feinde zu vergiften und auszuschalten.",
+  "story": "Eine neugierige Händlerin, die mit allen menschenbekannten Giften handelt. Sie ist die Tochter zweier wandernder Alchemisten, die aus einer entfernten Nation eingereist waren. Andere Händler bezeichnen sie als 'die Händlerin des Todes', doch sie ist andere Meinung. Sie behauptet, dass kein Gift grundsätzlich böse ist und dass dessen wahre Natur allein durch seine Verwendung bestimmt wird. Wie jede gute Händlerin ist sie der Meinung, dass ein Werkzeug nur so gut oder böse ist wie jener, der es einsetzt. Seit dem Wiedererscheinen der Dämonen reist sie herum und sucht nach dem richtigen Gift für den Einsatz gegen die Eindringlinge.",
+  "like": "Entwicklung neuer Gifte und jene, die den Spaß an der Entwicklung neuer Drogen verstehen",
+  "dislike": "Leute, die Vorurteile gegenüber Giften haben",
+  "inn": {
+    "idle": "Hmm, möchte denn niemand meine Waren kaufen?",
+    "recruit": {
+      "greet": "Hallo! Brauchst du vielleicht ein bestimmtes Gift?",
+      "talk": [
+        "Gifte können auch als Medizin verwendet werden! Sie sind nicht so schlecht wie die Leute glauben.",
+        "Ah, es stimmt, dass die meisten Gifte für schlechte Dinge verwendet werden.",
+        "Hmm, wo ist die Dame, die letztes Mal Gift bei mir gekauft hat?"
+      ],
+      "gift": "Uh, danke! Ich kann das nutzen, um mein Angebot zu erweitern!!!"
+    },
+    "affinity": {
+      "greet": "Schön, dich kennenzulernen! Ich habe dir ein wenig Gift mitgebracht! Such dir aus, was du möchtest!",
+      "talk": [
+        "Gift ist großartig! Wenn man einmal auf den Geschmack gekommen ist, will man nie wieder was anderes!",
+        "Dieses Kraut ist nicht gewachsen. Sollte ich stattdessen seltenes Gift verkaufen? Was meinst du?"
+      ],
+      "gift": "Oh, danke! Ich werde dir ein wenig spezielles Requina-Gift verkaufen! Hehe."
+    },
+    "relationship": {
+      "greet": "Willkommen zurück! Hihihi, ich habe heute echt viel verkauft!",
+      "talk": [
+        "Ärzte, Attentäter, Apotheker, Alchemisten... ich beliefere sie alle!",
+        "Warum ich Giftpfeile verwende? Sie sind leise und leicht zu handhaben! Nur sollten sie nicht in die falschen Hände geraten...",
+        "Gifte, die man gegen Dämonen einsetzen kann? Ich schaue mal nach. Ich hätte da ein paar... willst du sie sehen?"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Flöte der Stillen Winde Rakshathar",
+    "description": [
+      "Max. Anzahl von Kille-Kille-Trank ist auf 55 erhöht. Jeder Angriff hat eine 10%-Chance einen zufälligen Gegner anzugreifen und 20% des ANG als Schaden zu verursachen, sowie 1 Sek. lang Schweigen auszulösen.",
+      "Max. Anzahl von Kille-Kille-Trank ist auf 60 erhöht. Jeder Angriff hat eine 10%-Chance einen zufälligen Gegner anzugreifen und 24% des ANG als Schaden zu verursachen, sowie 1 Sek. lang Schweigen auszulösen.",
+      "Max. Anzahl von Kille-Kille-Trank ist auf 65 erhöht. Jeder Angriff hat eine 10%-Chance einen zufälligen Gegner anzugreifen und 29% des ANG als Schaden zu verursachen, sowie 1 Sek. lang Schweigen auszulösen.",
+      "Max. Anzahl von Kille-Kille-Trank ist auf 70erhöht. Jeder Angriff hat eine 10%-Chance einen zufälligen Gegner anzugreifen und 35% des ANG als Schaden zu verursachen, sowie 1 Sek. lang Schweigen auszulösen.",
+      "Max. Anzahl von Kille-Kille-Trank ist auf 75erhöht. Jeder Angriff hat eine 10%-Chance einen zufälligen Gegner anzugreifen und 42% des ANG als Schaden zu verursachen, sowie 1 Sek. lang Schweigen auszulösen.",
+      "Max. Anzahl von Kille-Kille-Trank ist auf 80 erhöht. Jeder Angriff hat eine 10%-Chance einen zufälligen Gegner anzugreifen und 50% des ANG als Schaden zu verursachen, sowie 1 Sek. lang Schweigen auszulösen."
+    ],
+    "story": "Ein äußerst treffsicheres Blasrohr, das von Requina selbst hergestellt wurde. Ein spezieller Schalldämpfer am Ende macht diese ohnehin leise Waffe fast komplett lautlos. Als die Anwesenheit der Dämonen ihrem Geschäft zu schaden begann, entschied sie sich dazu, nicht nur Gifte, sondern auch alles Nützliche gegen sie einzusetzen. Sie suchte Hilfe bei ihrem elementaren Freund, der das Blasrohr mit dem Segen des Windes versah. Dadurch erhielt die Waffe eine Feuerkraft, die der einer magischen Kanone gleicht. Nachdem Requina ihr tödliches, Dämonen schlachtendes Gift hinzufügte, wurde daraus eine mächtige und tödliche Waffe, die fähig ist, jedes Lebewesen zu töten."
+  },
+  "s1": {
+    "name": "Tränen des Mr. Python!",
+    "description": "Greift 2 Feinde an und verursacht {0} P. Schaden, während sie von Tränen des Mr. Python vergiftet werden. Von Tränen des Mr. Python getroffene Gegner regenerieren kein Mana, nehmen 30% mehr Schaden und haben eine reduzierte Blockchance von 500.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Manakosten sind um 1 reduziert.",
+    "dark": "Reduziert Mana des Ziels um 1200."
+  },
+  "s2": {
+    "name": "Kreischgras-Extrakt!",
+    "description": "Greift zufällige Gegner 3 Mal an und verursacht insgesamt {0} Schaden, während sie mit Kreischgras-Extrakt für {1} Sek. vergiftet werden. Von Kreischgras-Extrakt getroffene Gegner haben um {2}% reduzierten ANG und um {3} reduzierte Krit. Chance.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Ist nur noch 1 Feind auf dem Schlachtfeld, wird der Schaden um 100% erhöht.",
+    "dark": "Betäubt das Ziel für 1 Sek.",
+    "ut": {
+      "name": "Basilisken-Giftzahn",
+      "description": [
+        "[Kreischgras-Extrakt!] Verringert den Skill-Cooldown um 30% und verursacht 3% des ANG als zusätzlichen K. Schaden pro Stapel 'Kille-Kille-Trank!' auf dem Ziel.",
+        "[Kreischgras-Extrakt!] Verringert den Skill-Cooldown um 30% und verursacht 3,6% des ANG als zusätzlichen K. Schaden pro Stapel 'Kille-Kille-Trank!' auf dem Ziel.",
+        "[Kreischgras-Extrakt!] Verringert den Skill-Cooldown um 30% und verursacht 4,3% des ANG als zusätzlichen K. Schaden pro Stapel 'Kille-Kille-Trank!' auf dem Ziel.",
+        "[Kreischgras-Extrakt!] Verringert den Skill-Cooldown um 30% und verursacht 5,2% des ANG als zusätzlichen K. Schaden pro Stapel 'Kille-Kille-Trank!' auf dem Ziel.",
+        "[Kreischgras-Extrakt!] Verringert den Skill-Cooldown um 30% und verursacht 6,2% des ANG als zusätzlichen K. Schaden pro Stapel 'Kille-Kille-Trank!' auf dem Ziel.",
+        "[Kreischgras-Extrakt!] Verringert den Skill-Cooldown um 30% und verursacht 7,5% des ANG als zusätzlichen K. Schaden pro Stapel 'Kille-Kille-Trank!' auf dem Ziel."
+      ],
+      "story": "Der üble Fangzahn eines Basilisken, der nur böse Energie absorbiert. Sein Gift ist tatsächlich stark genug, um Seelen zum Schmelzen zu bringen. Wenn das Gift des Zahns mit Kreischgras gemischt wird, kann es zu einer starken Droge werden, die kein Organismus überleben kann. Requinas Herz schlägt vor lauter Vorfreude schneller."
+    }
+  },
+  "s3": {
+    "name": "Mehr! Stärker!",
+    "description": "Die eigene ANG ist für {0} Sek. um {1} erhöht und die Effekte von [Tränen des Mr. Python], [Kreischgras-Extrakt] und [Kille-Kille-Trank] sind verdoppelt. Zusätzliche sind die Anzahl der Ziele von [Tränen des Mr. Python], [Kreischgras-Extrakt] und [Kille-Kille-Trank] um 1 erhöht.",
+    "books": {
+      "0": "Erhöht ANG-Erhöhungsrate um {0}%.",
+      "1": "Erhöht ANG-Erhöhungsrate um {0}%.",
+      "2": "Erhöht ANG-Erhöhungsrate um {0}%."
+    },
+    "light": "Schaden normaler Angriffe ist für die Dauer um 100% erhöht.",
+    "dark": "Manakosten sind um 1 reduziert.",
+    "ut": {
+      "name": "Leuchtender Trank",
+      "description": [
+        "[Mehr! Stärker!] Greift 1 zusätzliches Ziel an und erhöht ANG-Geschw. um 100 für die Wirkungsdauer.",
+        "[Mehr! Stärker!] Greift 1 zusätzliches Ziel an und erhöht ANG-Geschw. um 120 für die Wirkungsdauer.",
+        "[Mehr! Stärker!] Greift 1 zusätzliches Ziel an und erhöht ANG-Geschw. um 140 für die Wirkungsdauer.",
+        "[Mehr! Stärker!] Greift 1 zusätzliches Ziel an und erhöht ANG-Geschw. um 170 für die Wirkungsdauer.",
+        "[Mehr! Stärker!] Greift 1 zusätzliches Ziel an und erhöht ANG-Geschw. um 210 für die Wirkungsdauer.",
+        "[Mehr! Stärker!] Greift 1 zusätzliches Ziel an und erhöht ANG-Geschw. um 250 für die Wirkungsdauer."
+      ],
+      "story": "Medizin, die durch das Kochen des Pulvers vom siebzigsten Regenbogen und der Zunge der riesigen Bestie Kiselaton gewonnen wird, welche die Hölle durchqueren kann. Trinkt man es, verbrennt es sofort die Eingeweide, aber es heißt, dass derjenige, der es langsam trinkt, glücklich stirbt."
+    }
+  },
+  "s4": {
+    "name": "Kille-Kille-Trank!",
+    "description": "Vergiftet das feindliche Ziel beim Angriff für {0} Sek. mit Kille-Kille-Trank, was insgesamt {1} P. Schaden verursacht und nicht entfernt werden kann. Kille-Kille-Trank kann bis zu 50 Mal kumuliert werden.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Kille-Kille-Trank! bekommt jedes Mal 3 Zähler.",
+    "dark": "Ziel nimmt 20% mehr P. Schaden."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / Krit. Chance +100",
+    "dark": "Beim Angriff eines Gegners mit 50 oder mehr Kille-Kille-Trank-Zählern, wird 200% des ANG aus VERT ignorierender, zusätzlicher P. Schaden ausgeteilt."
+  }
+}

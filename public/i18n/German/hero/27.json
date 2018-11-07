@@ -1,0 +1,120 @@
+{
+  "name": "Leo",
+  "subtitle": "Ewiger Schreiber",
+  "description": "Der ewige Gelehrte der königlichen Großbibliothek Orvelias. Mithilfe von Runen heilt er Verbündete und löscht Stärkungszauber von Feinden.",
+  "story": "Im königlichen Palast von Orvel existiert eine Bibliothek, von der man behauptet, sie wäre unendlich groß. Leo ist ein Gnom, der diese Bibliothek seit einer Ewigkeit schützt. Weil er jedes Buch der Bibliothek auswendig beherrscht, ist er die weiseste Person des gesamten Palastes. Viele besuchen die Bibliothek, um von seiner Weisheit zu profitieren. Doch, so scheint es, hat er immer noch Schwierigkeiten im Umgang mit anderen Leuten.",
+  "like": "Lesen; Schreiben; Dokumentieren",
+  "dislike": "Einsamkeit",
+  "inn": {
+    "idle": "Wow, hier sind mehr Menschen, als es Bücher gibt.",
+    "recruit": {
+      "greet": "Hallo. Freut mich, euch kennenzulernen.",
+      "talk": [
+        "Ich will alles über diese Welt wissen.",
+        "Die Welt ist so groß...",
+        "Kommt demnächst mal in der Bücherei vorbei. Ich kann euch tolle Bücher empfehlen."
+      ],
+      "gift": "Für mich? Wirklich?"
+    },
+    "affinity": {
+      "greet": "Oh, so bequem!",
+      "talk": [
+        "Du hast nicht sehr viele Bücher! Soll ich dir welche von mir daheim mitbringen?",
+        "Du kannst aus Büchern vieles lernen!"
+      ],
+      "gift": "Danke! Ich werde dich beizeiten zu uns einladen!"
+    },
+    "relationship": {
+      "greet": "Hallo. Was sind die heutigen Neuigkeiten?",
+      "talk": [
+        "Ich habe heute viele neue Einträge verfasst. Jeder Tag bringt neues Wissen.",
+        "Es gibt draußen wohl viele spassige Dinge zutun. Vielleicht sollte ich auch mal mehr rausgehen...",
+        "Hast du eine Minute Zeit? Ich habe ein neues Buch gekauft..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Belisa, die Phoenixfeder",
+    "description": [
+      "Erhöht zu Beginn jedes Kampfes die K.VERT und M.VERT um 20 %, die ANG-Geschwindigkeit für 15 Sek. um 200 und fügt dem ersten eingesetzten Skill einen zusätzlichen Effekt hinzu. Rune der Schwäche: Erhöht die krit. Chance um 500. Rune der Heilung: Hebt Statuseffekte auf dem Zaubernden auf, ehe der Skill gewirkt wird. Rune des Schweigens: Erhöht die Dauer von Schweigen um 1 Sek.",
+      "Erhöht zu Beginn jedes Kampfes die K.VERT und M.VERT um 24 %, die ANG-Geschwindigkeit für 15 Sek. um 240 und fügt dem ersten eingesetzten Skill einen zusätzlichen Effekt hinzu. Rune der Schwäche: Erhöht die krit. Chance um 500. Rune der Heilung: Hebt Statuseffekte auf dem Zaubernden auf, ehe der Skill gewirkt wird. Rune des Schweigens: Erhöht die Dauer von Schweigen um 1 Sek.",
+      "Erhöht zu Beginn jedes Kampfes die K.VERT und M.VERT um 29 %, die ANG-Geschwindigkeit für 15 Sek. um 290 und fügt dem ersten eingesetzten Skill einen zusätzlichen Effekt hinzu. Rune der Schwäche: Erhöht die krit. Chance um 500. Rune der Heilung: Hebt Statuseffekte auf dem Zaubernden auf, ehe der Skill gewirkt wird. Rune des Schweigens: Erhöht die Dauer von Schweigen um 1 Sek.",
+      "Erhöht zu Beginn jedes Kampfes die K.VERT und M.VERT um 35 %, die ANG-Geschwindigkeit für 15 Sek. um 350 und fügt dem ersten eingesetzten Skill einen zusätzlichen Effekt hinzu. Rune der Schwäche: Erhöht die krit. Chance um 500. Rune der Heilung: Hebt Statuseffekte auf dem Zaubernden auf, ehe der Skill gewirkt wird. Rune des Schweigens: Erhöht die Dauer von Schweigen um 1 Sek.",
+      "Erhöht zu Beginn jedes Kampfes die K.VERT und M.VERT um 42 %, die ANG-Geschwindigkeit für 15 Sek. um 420 und fügt dem ersten eingesetzten Skill einen zusätzlichen Effekt hinzu. Rune der Schwäche: Erhöht die krit. Chance um 500. Rune der Heilung: Hebt Statuseffekte auf dem Zaubernden auf, ehe der Skill gewirkt wird. Rune des Schweigens: Erhöht die Dauer von Schweigen um 1 Sek.",
+      "Erhöht zu Beginn jedes Kampfes die K.VERT und M.VERT um 50 %, die ANG-Geschwindigkeit für 15 Sek. um 500 und fügt dem ersten eingesetzten Skill einen zusätzlichen Effekt hinzu. Rune der Schwäche: Erhöht die krit. Chance um 500. Rune der Heilung: Hebt Statuseffekte auf dem Zaubernden auf, ehe der Skill gewirkt wird. Rune des Schweigens: Erhöht die Dauer von Schweigen um 1 Sek."
+    ],
+    "story": "Der Phönix ist eine heilige Kreatur, die das ewige Leben symbolisiert. Genauso wie das Tier selbst sind auch dessen Federn extrem selten. Es heißt, dass ein Federkiel, der aus einer Phönixfeder hergestellt wurde, selbst ein mächtiges magisches Werkzeug sei. Runen, die mit dieser Feder geschrieben werden, sind ein mächtiges Mittel für Runenmagie."
+  },
+  "s1": {
+    "name": "Rune der Schwäche",
+    "description": "Graviert eine Rune in das Ziel ein, verursacht bis zu {3} K.Schaden, der die VERT basierend auf den fehlenden TP ignoriert, und verringert ihre K.VERT für {0} Sek. um {1}  %.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Reduziert Cooldown um 2 Sek.",
+    "dark": "Erhöht Anzahl der Ziele auf 2."
+  },
+  "s2": {
+    "name": "Rune der Heilung",
+    "description": "Heilt die gesamte Party um {0} TP.",
+    "books": {
+      "0": "Erhöht Heilung um {0}%.",
+      "1": "Erhöht Heilung um {0}%.",
+      "2": "Erhöht Heilung um {0}%."
+    },
+    "light": "Heal amount boosted by 40%.",
+    "dark": "Increase ally P.DEF for 25% for 10 sec after healing.",
+    "ut": {
+      "name": "Tinte der Lebenskraft",
+      "description": [
+        "[Rune der Heilung] Erhöht die Heilungsrate um 50 % und den K.krit. Widerstand der Verbündeten 10 Sek. lang um 100.",
+        "[Rune der Heilung] Erhöht die Heilungsrate um 50 % und den K.krit. Widerstand der Verbündeten 10 Sek. lang um 120.",
+        "[Rune der Heilung] Erhöht die Heilungsrate um 50 % und den K.krit. Widerstand der Verbündeten 10 Sek. lang um 140.",
+        "[Rune der Heilung] Erhöht die Heilungsrate um 50 % und den K.krit. Widerstand der Verbündeten 10 Sek. lang um 170.",
+        "[Rune der Heilung] Erhöht die Heilungsrate um 50 % und den K.krit. Widerstand der Verbündeten 10 Sek. lang um 210.",
+        "[Rune der Heilung] Erhöht die Heilungsrate um 50 % und den K.krit. Widerstand der Verbündeten 10 Sek. lang um 250."
+      ],
+      "story": "Tinte, die aus jungen Blättern des Weltenbaums extrahiert wurde. Nur 10 Tropfen können im Jahr produziert werden. Die Zaubersprüche, die mit dieser Tinte niedergeschrieben werden, verleihen dem Körper große Lebenskraft. Sie ist sehr kostbar und schwer zu bekommen, weshalb Leo sie nur zu wirklich besonderen Anlässen benutzt."
+    }
+  },
+  "s3": {
+    "name": "Rune des Schweigens",
+    "description": "Fügt dem gesamten feindlichen Team {0} K.Schaden zu, entfernt Buffs und bringt sie für {1} Sek zum Schweigen.",
+    "books": {
+      "0": "Erhöht Schweigedauer um {0} Sek.",
+      "1": "Erhöht Schweigedauer um {0} Sek.",
+      "2": "Erhöht Schweigedauer um {0} Sek."
+    },
+    "light": "Reduziert Manakosten um 1.",
+    "dark": "Erhöht Schaden um 200% und der Gegner erhält 20% mehr Schaden. Manakosten sind um 2 erhöht.",
+    "ut": {
+      "name": "Schriftrolle der Erinnerung",
+      "description": [
+        "[Rune des Schweigens] Ziel nimmt 10 Sek. lang um 15% erhöhten Schaden und Effekt-Resistenz des Ziels ist um 120 reduziert.",
+        "[Rune des Schweigens] Ziel nimmt 10 Sek. lang um 15% erhöhten Schaden und Effekt-Resistenz des Ziels ist um 140 reduziert.",
+        "[Rune des Schweigens] Ziel nimmt 10 Sek. lang um 15% erhöhten Schaden und Effekt-Resistenz des Ziels ist um 170 reduziert.",
+        "[Rune des Schweigens] Ziel nimmt 10 Sek. lang um 15% erhöhten Schaden und Effekt-Resistenz des Ziels ist um 210 reduziert.",
+        "[Rune des Schweigens] Ziel nimmt 10 Sek. lang um 15% erhöhten Schaden und Effekt-Resistenz des Ziels ist um 250 reduziert.",
+        "[Rune des Schweigens] Ziel nimmt 10 Sek. lang um 15% erhöhten Schaden und Effekt-Resistenz des Ziels ist um 300 reduziert."
+      ],
+      "story": "Uralter Zauberkodex. Ein Kodex, der von angesehenen Zauberern geschrieben wurde und die Prinzipien hinter einer Magie beinhaltet, die alles Leben und die ganze Schöpfung nutzt. Er ist in einer unbekannten Sprache verfasst, also kann nur ein Teil davon entziffert werden. Wenn das uralte Textsystem entschlüsselt würde, wäre es vielleicht möglich, Zauber ohne jegliche Kosten einzusetzen."
+    }
+  },
+  "s4": {
+    "name": "Rune des Schutzes",
+    "description": "Prägt den Verbündeten mit der niedrigsten TP alle {0} Sek mit einer Rune und heilt {2} TP über {1} Sek.",
+    "books": {
+      "0": "Erhöht Heilung um {0}%.",
+      "1": "Erhöht Heilung um {0}%.",
+      "2": "Erhöht Debuff-Resistenz um {0}% für die Wirkungsdauer."
+    },
+    "light": "Erhöht Heilungsmenge um 40%.",
+    "dark": "Wird ein Verbündeter geheilt, erhöht sich seine K.VERT 10 Sek lang um 40%."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / K.Block +200",
+    "dark": "10% Chance, bei einem Angriff einem zufälligen Feind 120% der ANG als K.Schaden zuzufügen. Zerstört zudem 300 Mana und verursacht Stille für 1 Sek."
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Veronica",
+  "subtitle": "L'œil du discernement",
+  "description": "C'est le génie de la Tour des Sages qui a rétabli la formule de la magie runique. Elle est actuellement la trésorière d'Orvel et l'officier des chefs de guilde, elle dirige donc toutes les guildes. Sa capacité d'analyse et sa magie runique en font le cauchemar de ses ennemis.",
+  "story": "Une érudite de génie de la Tour du Sage, qui se souvient de tout ce qu'elle voit. Après avoir développé ses propres théories et systèmes de magie runique, elle s'ennuya rapidement et passa à un autre sujet. Elle fut rapidement élue au poste de secrétaire royale des Finances. Malheureusement, de nombreux hommes politiques refusèrent qu'une femme du peuple devienne leur supérieure. Après une campagne de mensonges et de rumeurs, Veronica décida finalement de quitter le palais d'elle-même. Cependant, elle ne prit pas cela comme une défaite et partit conquérir une autre voie. Elle se rendit à l'Alliance de la Guilde d'Orvel, où elle savait que seuls ses talents seraient pris en compte. Comme elle s'y attendait, sa perception incroyable et ses talents d'analyse la rendirent indispensable à de nombreuses guildes.",
+  "like": "Les gens intelligents, les résultats rapides, les documents propres",
+  "dislike": "Les chambres mal rangées, le travail inefficace",
+  "inn": {
+    "idle": "Hum, ça fait longtemps que je n'ai pas pris le temps de me détendre.",
+    "recruit": {
+      "greet": "",
+      "talk": [
+        "",
+        "",
+        ""
+      ],
+      "gift": ""
+    },
+    "affinity": {
+      "greet": "J'espère que vous allez continuer à vous occuper des monstres diaboliques qui continuent d'attaquer Orvel.",
+      "talk": [
+        "Une rune magique? Hum, j'en ai appris quelques-unes à la Tour des Sages. Je connais également quelques Runes Antiques.",
+        "La gestion de guilde n'est pas simple. Il y a beaucoup trop de guildes..."
+      ],
+      "gift": "Oh, vous n'aviez pas besoin de... haah. Eh bien, j'accepte volontiers."
+    },
+    "relationship": {
+      "greet": "Je ne suis pas venu ici depuis un bon moment... ça semble si proche, et si lointain.",
+      "talk": [
+        "Comment vont les activités de votre guilde? J'aiderai du mieux que je peux.",
+        "Je veux aider plus, mais ce n'est pas facile. J'essaierai encore plus.",
+        "Huhu, je me demande si je pourrais vous aider pour votre prochain raid."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Accordio, jalonneur infini",
+    "description": [
+      "Tous les DEG des compétences infligent des DEG M supplémentaires correspondant à 50 % de l'ATQ. De plus, le nombre de charges max de Connaissance Ultime du Trésorier passe à 9.",
+      "Tous les DEG des compétences infligent des DEG M supplémentaires correspondant à 60 % de l'ATQ. De plus, le nombre de charges max de Connaissance Ultime du Trésorier passe à 10.",
+      "Tous les DEG des compétences infligent des DEG M supplémentaires correspondant à 70 % de l'ATQ. De plus, le nombre de charges max de Connaissance Ultime du Trésorier passe à 11.",
+      "Tous les DEG des compétences infligent des DEG M supplémentaires correspondant à 85 % de l'ATQ. De plus, le nombre de charges max de Connaissance Ultime du Trésorier passe à 12.",
+      "Tous les DEG des compétences infligent des DEG M supplémentaires correspondant à 100 % de l'ATQ. De plus, le nombre de charges max de Connaissance Ultime du Trésorier passe à 13.",
+      "Tous les DEG des compétences infligent des DEG M supplémentaires correspondant à 125 % de l'ATQ. De plus, le nombre de charges max de Connaissance Ultime du Trésorier passe à 15."
+    ],
+    "story": "Son autorisation est nécessaire pour traiter des objets importants au sein de l’alliance de guildes. Objet de bureau extrêmement précieux aux yeux de la fondatrice de l’alliance de guildes. Une plume et un dossier réunis ensemble. La plume est incrustée d’une boule de mana, ce qui fait qu’elle consomme du mana plutôt que de l’encre. Elle doit de plus écrire sur du parchemin magique, insensible aux plumes classiques. Tout ce qui est ainsi écrit ne peut plus être effacé sans le mana de l’auteur. Aussi, le parchemin magique est infini et comporte une fonction de recherche pour repérer ce qui a été écrit précédemment. Voilà qui rend Veronica bien plus efficace. Bien sûr, tout ceci est utile pour le travail. Pour le reste..."
+  },
+  "s1": {
+    "name": "Ça va piquer un peu !",
+    "description": "Inflige {0}  points de DEG M à la cible et aux ennemis à portée et les étourdit pendant {1}  s.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Augmente les DEG de 100 % lorsqu'il y a 1 ennemi.",
+    "dark": "Le nombre de cibles passe à 2."
+  },
+  "s2": {
+    "name": "Je vais vous aider.",
+    "description": "Accorde une Rune à tous les alliés pour augmenter leur ATQ de {0} et tous les DEG aux boss de 15 % pendant 10 sec.",
+    "books": {
+      "0": "ATQ augmentée de {0}%.",
+      "1": "ATQ augmentée de {0}%.",
+      "2": "ATQ augmentée de {0}%."
+    },
+    "light": "Augmente le boost d'ATQ de 40 %.",
+    "dark": "Réduit le temps de recharge de 5 s.",
+    "ut": {
+      "name": "Pointe de stylo de volonté inébranlable",
+      "description": [
+        "[Laissez-moi vous aider] Réduit le coût en mana de 1 point et augmente la durée de la compétence de 1,6 sec.",
+        "[Laissez-moi vous aider] Réduit le coût en mana de 1 point et augmente la durée de la compétence de 1,9 sec.",
+        "[Laissez-moi vous aider] Réduit le coût en mana de 1 point et augmente la durée de la compétence de 2,3 sec.",
+        "[Laissez-moi vous aider] Réduit le coût en mana de 1 point et augmente la durée de la compétence de 2,7 sec.",
+        "[Laissez-moi vous aider] Réduit le coût en mana de 1 point et augmente la durée de la compétence de 3,3 sec.",
+        "[Laissez-moi vous aider] Réduit le coût en mana de 1 point et augmente la durée de la compétence de 4 sec."
+      ],
+      "story": "Pointe de stylo que Veronica garde toujours sur elle. Elle l’a trempée dans la source des Promesses pendant 100 jours, tout comme Jin le forgeron lui avait conseillé. Grâce à la magie, ce qui a été écrit avec ce stylo devient rouge lorsque les choses ne se sont pas déroulées correctement. D’après Veronica, cela l’aide énormément pour gérer son inventaire."
+    }
+  },
+  "s3": {
+    "name": "Hors de ma vue !",
+    "description": "Attaque 2 fois la cible et les ennemis dans une large zone environnante pour leur infliger {0} points de DEG M et les renverser pendant 5 secondes. Les ennemis touchés subissent 30% de DEG M en plus pendant 10 secondes.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Augmente le coût en mana de 1 et les DEG de 100 %.",
+    "dark": "La cible reçoit davantage de DEG M et DEG P.",
+    "ut": {
+      "name": "Sceau de Manager de la guilde",
+      "description": [
+        "[Hors de ma vue!] Les DEG sont augmentés de 20% et pour chaque ennemi touché, le Temps de Recharge est réduit de 10%.",
+        "[Hors de ma vue!] Les DEG sont augmentés de 24% et pour chaque ennemi touché, le Temps de Recharge est réduit de 10%.",
+        "[Hors de ma vue!] Les DEG sont augmentés de 29% et pour chaque ennemi touché, le Temps de Recharge est réduit de 10%.",
+        "[Hors de ma vue!] Les DEG sont augmentés de 35% et pour chaque ennemi touché, le Temps de Recharge est réduit de 10%.",
+        "[Hors de ma vue!] Les DEG sont augmentés de 42% et pour chaque ennemi touché, le Temps de Recharge est réduit de 10%.",
+        "[Hors de ma vue!] Les DEG sont augmentés de 50% et pour chaque ennemi touché, le Temps de Recharge est réduit de 10%."
+      ],
+      "story": "Sceau remis au meilleur manager de guilde d’Orvel. Toutes les affaires de guilde nécessitent ce sceau pour être abouties. La méticuleuse Veronica ne tamponne aucun document tant qu’il n’est pas parfait, c’est dire si cet objet reflète le professionnalisme de Veronica."
+    }
+  },
+  "s4": {
+    "name": "Connaissance Ultime du Trésorier",
+    "description": "L'ATQ de tous les alliés est augmentée de {0} et lors de la 3ème utilisation de la compétence, le Héros obtient instantanément Connaissance du Meilleur Financier. Pour chaque charge de Connaissance du Meilleur Financier, DAN Crít. du Héros augmente de 30% et les effets de toutes les compétences sont augmentés de 10% chacun. Connaissance du Meilleur Financier est cumulable 5 fois et ne peut pas être dissipé.",
+    "books": {
+      "0": "ATQ augmentée de {0}%.",
+      "1": "ATQ augmentée de {0}%.",
+      "2": "ATQ augmentée de {0}%."
+    },
+    "light": "Le lanceur regagne 2 orbes de PM lors de l'activation.",
+    "dark": "Augmente l'ATQ des alliés soignés de 50 % pendant 10 sec."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Chances Crit +100",
+    "dark": "Réduit le temps de recharge de toutes les compétences du lanceur de 15 % toutes les 20 sec."
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Tanya",
+  "subtitle": "Die Klinge der Stille",
+  "description": "Ein Elite-Assassine der Lachenden Masken, und ein ehemaliger Kollege von Roi. In ihrer Vergangenheit jagte sie Verräter ihrer Organisation. Ihre scharfen Klingen verfehlen nie ihr Ziel.",
+  "story": "Eine Assassinin der Lachenden Maske und Kollegin von Roi. Obwohl sie als Halbelfin gegenüber Roi einen körperlichen Vorteil hat, fehlen ihr seine irdische Weisheit und seine Fähigkeit, sich mit anderen zu vernetzen – Fähigkeiten, die ihn für groß angelegte Unternehmungen unersetzbar gemacht hatten. Dadurch hat sie einen gewissen Minderwertigkeitskomplex. Als 'Säuberungskommando' der Organisation wurde sie damit betraut, Verräter zu eliminieren. Als Roi der Organisation den Rücken kehrte, ließ sie all ihre Aufgaben zurück, um ihm nachzustellen und seine Beweggründe herauszufinden. Es ist nicht bekannt, was sie vorhat, sobald sie ihn gefunden hat.",
+  "like": "Roi",
+  "dislike": "Roi, die Lachende Maske, Halbelfenblut",
+  "inn": {
+    "idle": "...",
+    "recruit": {
+      "greet": "... Hmpf.",
+      "talk": [
+        "... Lass mich in Ruhe.",
+        "... Leg dich nicht mit einer Frau an, die nichts als Töten kennt.",
+        "... *seufz*"
+      ],
+      "gift": "... Ich nehme an... erst mal."
+    },
+    "affinity": {
+      "greet": "... Hmm.",
+      "talk": [
+        "Ich weigere mich, als Hausmeister zu arbeiten ...",
+        "... Du könntest jederzeit getötet werden."
+      ],
+      "gift": "...Ich brauche ... es nicht ..."
+    },
+    "relationship": {
+      "greet": "... Du bist gekommen.",
+      "talk": [
+        "Tut mir Leid... Ich bin nicht so der gesprächige Typ.",
+        "Glaub mir, du hättest keinen Spaß mit mir.",
+        "Warum interessierst du dich für mich? Ich verstehe das nicht..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Caethasis, Dämon der Stille",
+    "description": [
+      "10% Chance, bei normalen Angriffen 200% zusätzlichen K.Schaden zu verursachen und Schattenform für 10 Sek zu erhalten. Hat einen Cooldown von 10 Sek.",
+      "12% Chance, bei normalen Angriffen 240% zusätzlichen K.Schaden zu verursachen und Schattenform für 10 Sek zu erhalten. Hat einen Cooldown von 10 Sek.",
+      "14% Chance, bei normalen Angriffen 290% zusätzlichen K.Schaden zu verursachen und Schattenform für 10 Sek zu erhalten. Hat einen Cooldown von 10 Sek.",
+      "17% Chance, bei normalen Angriffen 350% zusätzlichen K.Schaden zu verursachen und Schattenform für 10 Sek zu erhalten. Hat einen Cooldown von 10 Sek.",
+      "20% Chance, bei normalen Angriffen 420% zusätzlichen K.Schaden zu verursachen und Schattenform für 10 Sek zu erhalten. Hat einen Cooldown von 10 Sek.",
+      "25% Chance, bei normalen Angriffen 500% zusätzlichen K.Schaden zu verursachen und Schattenform für 10 Sek zu erhalten. Hat einen Cooldown von 10 Sek."
+    ],
+    "story": "Der Dämonenkrieg fand vor 100 Jahren statt. Während des Krieges stellten die hochrangigen Dämonenoffiziere zweifellos die größte Bedrohung für die Menschheit dar. Kaitasis, der Dämon der Stille, war besonders gefährlich. Zahllose Zauberer und Priester wurden von diesem Dämon erschlagen, der es wegen ihrer Seelen besonders auf magische Opfer abgesehen hatte. Schließlich konnte Kyle Kaitasis besiegen und sein Kern wurde versiegelt. Jahre später gelangte der Kern in den Besitz der Lachenden Maske und diente erneut als Instrument des Todes."
+  },
+  "s1": {
+    "name": "Ziel gesichtet",
+    "description": "Geht hinter den Feind mit der niedrigsten K.VERT, erhöht ihre K.Schadensempfindlichkeit um {0}%, wirft ihn zu Boden und fügt ihm {1} K.Schaden zu. In Schattenform wird das Ziel 6 Sek lang betäubt. Wenn nicht in Schattenform, erhalte Schattenform für 10 Sek. Schattenform gewährt 50 Krit-Rate und Ausw.-Rate.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Krit.-Chance um {0}%."
+    },
+    "light": "Verringert die Heilungsrate des Ziels um 30 %.",
+    "dark": "Verringert die K. Kritresistenz des Ziels für 10 Sek. um 250."
+  },
+  "s2": {
+    "name": "Klingen-Tornado",
+    "description": "Greift Feinde in Reichw. 3 Mal für insg. {0} K.Schaden an und verursacht Blutung mit jedem Treffer. In Schattenform reduziert jeder Angriff die Erholungsrate der Ziele um 70%. Wenn nicht in Schattenform, erhalte Schattenform für 10 Sek.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Krit.-Chance um {0}%."
+    },
+    "light": "Erhöht Schaden um 100%, wenn nur 1 Feind auf dem Schlachtfeld ist.",
+    "dark": "Erholt sich um 200 Mana bei einem kritischen Treffer.",
+    "ut": {
+      "name": "Allzweckgürtel der lachenden Maske",
+      "description": [
+        "[Klingentornado] Erhöht den Schaden um 20 % und verringert den Cooldown um 8 % bei einem krit. Treffer.",
+        "[Klingentornado] Erhöht den Schaden um 24 % und verringert den Cooldown um 8 % bei einem krit. Treffer.",
+        "[Klingentornado] Erhöht den Schaden um 29 % und verringert den Cooldown um 8 % bei einem krit. Treffer.",
+        "[Klingentornado] Erhöht den Schaden um 35 % und verringert den Cooldown um 8 % bei einem krit. Treffer.",
+        "[Klingentornado] Erhöht den Schaden um 42 % und verringert den Cooldown um 8 % bei einem krit. Treffer.",
+        "[Klingentornado] Erhöht den Schaden um 50 % und verringert den Cooldown um 8 % bei einem krit. Treffer."
+      ],
+      "story": "Ein Mehrzweck-Werkzeug, dass die Lachenden Masken für Morde nutzen. Ein einzigartiges Werkzeug der Lachenden Masken, die für ihre Geschwindigkeit und Effizienz beim Töten ihrer Ziele bekannt sind. Es ist für die Angriffsmuster seines Trägers optimiert und verbessert den Umgang mit Wurfwaffen und verstärkt Kombo-Angriffe beim Wirken von Klingentornado."
+    }
+  },
+  "s3": {
+    "name": "Geflüster des Todes",
+    "description": "Greift 6 Feinde zufällig an und verursacht insg. {0} K.Schaden, gefolgt von einem letzten Angriff für {1} K.Schaden. In Schattenform entfernt dieser Angriff alle Stärkungszauber der Ziele. Wenn nicht in Schattenform, erhalte Schattenform für 10 Sek.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Krit.-Chance um {0}%."
+    },
+    "light": "Manakosten sind um 1 erhöht, aber Schaden ist +100%.",
+    "dark": "Reduziert Cooldown um 5 Sek.",
+    "ut": {
+      "name": "Dolch des Schweigens",
+      "description": [
+        "[Geflüster des Todes] Erhöht Schaden um 20% und gewährt Schattenform. Erhöhte in Schattenform 10 Sek. lang ANG um 20%.",
+        "[Geflüster des Todes] Erhöht Schaden um 24% und gewährt Schattenform. Erhöhte in Schattenform 10 Sek. lang ANG um 20%.",
+        "[Geflüster des Todes] Erhöht Schaden um 29% und gewährt Schattenform. Erhöhte in Schattenform 10 Sek. lang ANG um 20%.",
+        "[Geflüster des Todes] Erhöht Schaden um 35% und gewährt Schattenform. Erhöhte in Schattenform 10 Sek. lang ANG um 20%.",
+        "[Geflüster des Todes] Erhöht Schaden um 42% und gewährt Schattenform. Erhöhte in Schattenform 10 Sek. lang ANG um 20%.",
+        "[Geflüster des Todes] Erhöht Schaden um 50% und gewährt Schattenform. Erhöhte in Schattenform 10 Sek. lang ANG um 20%."
+      ],
+      "story": "Ein Dolch, der denjenigen überreicht wird, die ihre erste Mission für die Lachende Maske ausführen. Es gibt eine Regel, die besagt, dass Assassinen immer einen Dolch bei sich tragen sollten, auf dem sich Spuren ihres Ziels befinden. Der stumme Dolch, den Assassinen wie ein Amulett tragen, flüstert ihnen ständig etwas vom Tod zu."
+    }
+  },
+  "s4": {
+    "name": "Leiser Hinterhalt",
+    "description": "Verursacht zusätzlich {0} K.Schaden an Feinden und bringt sie bei einem kritischen Treffer mit dem Skill für {1} Sek. zum Schweigen. Verursacht zusätzlich {2} K.Schaden, der die VERT ignoriert und die ANG-Geschwindigkeit des Ziels für {3} Sek. um {4} verringert, wenn es kein Held ist.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Stille-Dauer um {0} Sek erhöht."
+    },
+    "light": "Erhöht den zusätzlichen Schaden gegen Feinde, die keine Helden sind, um 100 %.",
+    "dark": "Erhöht die Dauer von Schweigen um 0,5 Sek."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / Krit. Schaden +20%",
+    "dark": "Erhöht den Schaden normaler Angriffe um 50% im Schleichmodus."
+  }
+}

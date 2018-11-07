@@ -1,0 +1,120 @@
+{
+  "name": "Ezekiel",
+  "subtitle": "O Sangue Amaldiçoado,",
+  "description": "Um híbrido de demônio de alta classe e humano, Ezekiel está fadado a amaldiçoar sua própria existência. Ele usa seu poderoso braço direito demoníaco para partir seus inimigos ao meio.",
+  "story": "O filho de Lucikiel é um poderoso oficial Demônio que derrubou a República Gray. Geralmente atencioso e cuidadoso, ele é na verdade meio Humano. Em batalha, seu sangue Demoníaco assume o controle e o transforma em uma criatura arrogante e violenta. Ele herdou o poder do seu pai, a quem nunca chegou a conhecer. No entanto, ele tem orgulho do seu poder e não tenta escondê-lo. Visto ser parcialmente Demônio, apenas um de seus braços passa pela transformação. No entanto, mesmo esse único braço contém um poder imenso, e ele ainda tem dificuldade em controlá-lo por completo. Se ele perde o controle do braço, a única decisão sábia é imediatamente afastar-se dele o máximo possível.",
+  "like": "Pudim de caramelo, suco adoçado",
+  "dislike": "Fracotes que bancam os durões, idiotas que acham que sabem tudo",
+  "inn": {
+    "idle": "Tá olhando o quê?",
+    "recruit": {
+      "greet": "O quê? Vai dizer de novo?",
+      "talk": [
+        "Ah, que importuno...",
+        "Siga seu caminho.",
+        "Por que vocês estão forçando intimidade comigo? Ha..."
+      ],
+      "gift": "O q... que é isso... ah, bem, sim, eu aceito..."
+    },
+    "affinity": {
+      "greet": "Estou cansado porque não dormi direito.",
+      "talk": [
+        "O-o que será que aquele tolo da República Gray está aprontando hoje em dia.",
+        "Ah, meu cabelo? Ficou ótimo, não acha? Essa mecha espetada pra cima é a alma do penteado."
+      ],
+      "gift": "Ah, obrigado!"
+    },
+    "relationship": {
+      "greet": "Oh? Então, você já falou com aquela criança patética?",
+      "talk": [
+        "Eu não ligo que o meu pai seja um Demônio. Graças a isso, eu sou forte!",
+        "Aquela criança é muito molenga. Ninguém pode nos machucar!",
+        "É, às vezes eu não consigo controlar meu próprio poder. Mas, ei, ainda assim é divertido! Hahaha!!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Carcereiro do Desespero, Barbatos",
+    "description": [
+      "A duração de Fúria aumenta em 2 segundos quando estiver no estado de Fúria, o DAN Crit aumenta em 80%.",
+      "A duração de Fúria aumenta em 3 segundos quando estiver no estado de Fúria, o DAN Crit aumenta em 90%.",
+      "A duração de Fúria aumenta em 4 segundos quando estiver no estado de Fúria, o DAN Crit aumenta em 100%.",
+      "A duração de Fúria aumenta em 5 segundos quando estiver no estado de Fúria, o DAN Crit aumenta em 110%.",
+      "A duração de Fúria aumenta em 6 segundos quando estiver no estado de Fúria, o DAN Crit aumenta em 120%.",
+      "A duração de Fúria aumenta em 7 segundos quando estiver no estado de Fúria, o DAN Crit aumenta em 130%."
+    ],
+    "story": "O pai de Ezekiel era um dos Demônios de patente mais alta. Embora não saiba qual é o nome ou a aparência do seu pai, ele tem ciência do tremendo poder do sangue demoníaco que herdou. O sangue de Demônio que corre em suas veias também lhe deu uma segunda personalidade. Quando seu sangue humano prevalece, Ezekiel é um jovem de excelente caráter. Em outros momentos, ele é um Demônio imensamente poderoso e arrogante, assim como seu pai. Barbatos, Carcereiro do Desespero, se manifesta quando o sangue de Demônios de Ezekiel está a toda força. Assumindo a forma de um dos seus braços, esta arma é potente o suficiente para talhar dimensões e cortar o próprio espaço. Ela é a representação física do poder do pai de Ezekiel."
+  },
+  "s1": {
+    "name": "Instinto Destrutivo",
+    "description": "Ataca os inimigos próximos em uma área circular e causa {0} de DAN.M. Em seguida, golpeia o chão, causando {1} de DAN.M e derrubando inimigos por 3 segundos. [Fúria] - Consome 15% do PV atual para ativar. A área de efeito aumenta e o ataque amplo atrai inimigos.",
+    "books": {
+      "0": "Aumenta o dano em {0}%.",
+      "1": "Aumenta o dano em {0}%.",
+      "2": "Aumenta o dano em {0}%."
+    },
+    "light": "O DAN aumenta em 40%.",
+    "dark": "Após a ativação, o ATQ aumenta em 40% por 5 segundos."
+  },
+  "s2": {
+    "name": "Desespero Crescente",
+    "description": "Realiza uma investida na direção do inimigo com o maior ATQ e causa {0} de DAN.M aos inimigos na área, reduzindo a Vel de ATQ em {1}. [Fúria] - Consome 10% do PV atual para ativar. A área de efeito aumenta, Atordoa o alvo por {2} segundos, e aumenta a própria Vel de ATQ em {4} por {3} segundos.",
+    "books": {
+      "0": "Aumenta o dano em {0}%.",
+      "1": "Aumenta o dano em {0}%.",
+      "2": "Aumenta o dano em {0}%."
+    },
+    "light": "O custo de mana será reduzido em 1.",
+    "dark": "Quando ativado durante o estado de Fúria, ignora a DEF do alvo.",
+    "ut": {
+      "name": "Gargantilha da Fera Selvagem",
+      "description": [
+        "[Desespero Crescente] Concede Imunidade a CM enquanto durar a habilidade e aumenta a Vel. de ATQ em 100 por 10s.",
+        "[Desespero Crescente] Concede Imunidade a CM enquanto durar a habilidade e aumenta a Vel. de ATQ em 120 por 10s.",
+        "[Desespero Crescente] Concede Imunidade a CM enquanto durar a habilidade e aumenta a Vel. de ATQ em 140 por 10s.",
+        "[Desespero Crescente] Concede Imunidade a CM enquanto durar a habilidade e aumenta a Vel. de ATQ em 170 por 10s.",
+        "[Desespero Crescente] Concede Imunidade a CM enquanto durar a habilidade e aumenta a Vel. de ATQ em 210 por 10s.",
+        "[Desespero Crescente] Concede Imunidade a CM enquanto durar a habilidade e aumenta a Vel. de ATQ em 250 por 10s."
+      ],
+      "story": "Gargantilha feita da pele de uma fera poderosa. Espólio que celebra a manticora caçada por Ezekiel após uma dura batalha contra os Demônios quando ele era jovem. Toda vez que toca na gargantilha da fera violenta logo antes de investir contra o terrível inimigo, Ezekiel se lembra da alegria de matar a manticora."
+    }
+  },
+  "s3": {
+    "name": "Ataque da Perdição",
+    "description": "Coleta energia e ataca o inimigo, causando {0} de DAN.M e infligindo Atordoamento por {1} segundos. [Fúria] - Consome 20% do PV atual para ativar. Ataca inimigos na área do alvo e triplica o DAN.",
+    "books": {
+      "0": "Aumenta o dano em {0}%.",
+      "1": "Aumenta o dano em {0}%.",
+      "2": "Aumenta o dano em {0}%."
+    },
+    "light": "Torna-se imune a CM durante a ativação.",
+    "dark": "Se houver 1 inimigo, o DAN aumenta em 100%.",
+    "ut": {
+      "name": "Elo Selador",
+      "description": [
+        "[Golpe da Perdição] Aumenta o DAN em 20% e ganha 1 acúmulo extra do Sangue Amaldiçoado após usar o poder.",
+        "[Golpe da Perdição] Aumenta o DAN em 24% e ganha 1 acúmulo extra do Sangue Amaldiçoado após usar o poder.",
+        "[Golpe da Perdição] Aumenta o DAN em 29% e ganha 1 acúmulo extra do Sangue Amaldiçoado após usar o poder.",
+        "[Golpe da Perdição] Aumenta o DAN em 35% e ganha 1 acúmulo extra do Sangue Amaldiçoado após usar o poder.",
+        "[Golpe da Perdição] Aumenta o DAN em 42% e ganha 1 acúmulo extra do Sangue Amaldiçoado após usar o poder.",
+        "[Golpe da Perdição] Aumenta o DAN em 50% e ganha 1 acúmulo extra do Sangue Amaldiçoado após usar o poder."
+      ],
+      "story": "Uma amarra contendo o mana de um sacerdote desconhecido. O jovem Ezekiel costumava se descontrolar com frequência. Se alguém insultasse sua mãe, ele permitia que seu sangue demoníaco fervesse e o dominasse. Quando voltava a se acalmar, ele encarava seu braço ferido e sua mãe apavorada. Quando era um pouco mais velho, Ezekiel estava se livrando de demônios quando entrou numa discussão com um sacerdote maior de Lua. Ele se descontrolou, como qualquer outro dia. Ezekiel estava sozinho quando voltou a si, e se espantou com a amarra em seu braço amaldiçoado. Quando tentou removê-la, descobriu que a magia do sacerdote não podia ser descartada tão facilmente. No entanto, ele parou de perder o a calma e a consciência depois disso. Ele ganhou maior controle sobre seu mana e então agora este é um de seus itens mais queridos."
+    }
+  },
+  "s4": {
+    "name": "Sangue Amaldiçoado",
+    "description": "Ezekiel ganha 1 acúmulo de 'Maldição de Sangue' no fim do poder. Após o 4° acúmulo, consome Maldição de SAngue para reiniciar a recarga do poder, causando {0} de DAN.M aos inimigos próximos e os derrubando por 3 segundos, enquanto ativa Fúria por {1} seugndos, que não pode ser removido. Enquanto estiver no estado de Fúria, entra em um modo de batalha automática que não pode ser controlado, e o ATQ aumenta em {2} , o DAN do ataque automático é dobrado e o efeito do Poder é reforçado. Não é possível ganhar Maldição de Sangue durante o estado de Fúria, exceto para quando matar um inimigo.",
+    "books": {
+      "0": "Aumenta o dano em {0}%.",
+      "1": "Aumenta o dano em {0}%.",
+      "2": "Aumenta o dano em {0}%."
+    },
+    "light": "Quando estiver no estado de Fúria, a taxa de cura aumenta em 50%.",
+    "dark": "Para cada acúmulo de 'Maldição de Sangue', recebe 12% de DAN reduzido."
+  },
+  "t5": {
+    "light": "ATK, DEF, PV +15% / Vel de ATQ +100",
+    "dark": "Quando estiver no estado de Fúria, o ataque automático causa DAN que ignora DEF."
+  }
+}

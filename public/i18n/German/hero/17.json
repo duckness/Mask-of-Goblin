@@ -1,0 +1,120 @@
+{
+  "name": "Dimael",
+  "subtitle": "Schattenjäger",
+  "description": "Ein Dunkelelf, der Feinde aus dem Schatten heraus jagt. Seine brutale Armbrust durchdringt Feinde mit pechschwarzer Dunkelheit.",
+  "story": "Dieser einsame Dunkelelf schwor, für den Tod seiner Schwester Rache an seinem eigenen Volk zu nehmen. Nachdem er seinen Einsatz in der Aegina-Wüste knapp überlebt hatte, erwartete ihn zuhause nur die schreckliche Kunde, dass seine Schwester von den Elfen geopfert worden war. Als er ihren Namen in die Dunkelheit geschrien hatte, begann er, dem Wahnsinn zu erliegen. Schließlich schwor er einen Eid des Hasses und der Rache gegen sein eigenes Volk, die Mörder seiner Schwester.",
+  "like": "Seine Schwester",
+  "dislike": "Seine Verwandten, die seine Schwester sterben ließen",
+  "inn": {
+    "idle": "Epigael...",
+    "recruit": {
+      "greet": "Ah..du bist es.",
+      "talk": [
+        "Hör auf, mich anzustarren.",
+        "Geh mir nicht auf die Nerven. Lass mich in Ruhe.",
+        "...Komm zum Punkt."
+      ],
+      "gift": "...Für mich? Hmpf, warum nicht. Kein Grund, es zu verschwenden."
+    },
+    "affinity": {
+      "greet": "Dieser Ort ist nicht so schlecht.",
+      "talk": [
+        "Ich mag schattige Plätze. Ich hasse blendende Helligkeit.",
+        "Die Dunkelheit ist die primäre Quelle meiner Macht."
+      ],
+      "gift": "Warum gibst du mir immer wieder diese Dinge? Ich hasse es, mich mit diesen problembehafteten Dingen herumzuschlagen."
+    },
+    "relationship": {
+      "greet": "Da bist du also. Irgendetwas Hilfreiches gefunden?",
+      "talk": [
+        "Wann ist die nächste Jagd? Ich hoffe sie wird ebenso erfolgreich.",
+        "Diese schwarze Macht gehört nun mir. Und ich werde damit machen, was ich für richtig erachte.",
+        "Meine Rache ist noch nicht vorbei... aber für den Moment bin ich zufriedengestellt."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Nerius, Tränen des Mondes",
+    "description": [
+      "Jeder Angriff hat eine 10% Chance, zusätzlichen M.Schaden (100% d. ANG) zu verursachen und dabei den Skill-Cooldown um 10% zu verringern.",
+      "Jeder Angriff hat eine 12% Chance, zusätzlichen M.Schaden (120% d. ANG) zu verursachen und dabei den Skill-Cooldown um 10% zu verringern.",
+      "Jeder Angriff hat eine 14% Chance, zusätzlichen M.Schaden (140% d. ANG) zu verursachen und dabei den Skill-Cooldown um 10% zu verringern.",
+      "Jeder Angriff hat eine 17% Chance, zusätzlichen M.Schaden (170% d. ANG) zu verursachen und dabei den Skill-Cooldown um 10% zu verringern.",
+      "Jeder Angriff hat eine 20% Chance, zusätzlichen M.Schaden (210% d. ANG) zu verursachen und dabei den Skill-Cooldown um 10% zu verringern.",
+      "Jeder Angriff hat eine 25% Chance, zusätzlichen M.Schaden (250% d. ANG) zu verursachen und dabei den Skill-Cooldown um 10% zu verringern."
+    ],
+    "story": "Ein Schatz der Dunkelelfen, der mithilfe eines mächtigen Mondlichtsteins aus Arrovina und einem Zweig des Mondbaums der höchsten Qualität erschaffen wurde. Nerius ist das perfekte Mittel für Mondlichtmagie und eine der mächtigsten magischen Waffen der Dunkelelfen. Doch es heißt, dass das wunderschöne silberne Licht des Mondes leicht von der Dunkelheit befleckt werden kann. Eine außergewöhnliche Liebe, verwandelt in tiefe Dunkelheit, und jener Dunkelelf, der nach Rache trachtet, bannte diese Dunkelheit in diese Waffe."
+  },
+  "s1": {
+    "name": "Dunkles Toben",
+    "description": "Fügt dem Feind {0} M.Schaden zu.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Erhöht Schaden um 100%, wenn nur 1 Feind auf dem Schlachtfeld ist.",
+    "dark": "25% Chance, den Feind 5 Sek lang zu blenden."
+  },
+  "s2": {
+    "name": "Schwarze Fessel",
+    "description": "Fügt Feiden in Reichw. {0} M.Schaden zu und fesselt sie für {1} Sek.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Feind erleitet {0}% mehr Schaden während der Wirkungsdauer."
+    },
+    "light": "Reduziert Manakosten um 1.",
+    "dark": "Getroffene Feinde werden zusammengezogen.",
+    "ut": {
+      "name": "Unzerstörbarer Armreif",
+      "description": [
+        "[Schwarze Fessel] Erhöht den Schaden um 50 % und die M.Schwäche des Ziels 10 Sek. lang um 10 %.",
+        "[Schwarze Fessel] Erhöht den Schaden um 50 % und die M.Schwäche des Ziels 10 Sek. lang um 12 %.",
+        "[Schwarze Fessel] Erhöht den Schaden um 50 % und die M.Schwäche des Ziels 10 Sek. lang um 14 %.",
+        "[Schwarze Fessel] Erhöht den Schaden um 50 % und die M.Schwäche des Ziels 10 Sek. lang um 17 %.",
+        "[Schwarze Fessel] Erhöht den Schaden um 50 % und die M.Schwäche des Ziels 10 Sek. lang um 21 %.",
+        "[Schwarze Fessel] Erhöht den Schaden um 50 % und die M.Schwäche des Ziels 10 Sek. lang um 25 %."
+      ],
+      "story": "Eine Halskette, die Epigael vor langer Zeit erhielt. Sie besitzt einen eingefassten Schatten-Morion, ein für die Dunkelelfen kostbares Juwel. Es heißt, dass diejenigen, die den Schatten-Morion losschneiden, durch einen Seelenfaden verbunden werden, der dazu führt, dass sie sich im nächsten Leben wiedertreffen."
+    }
+  },
+  "s3": {
+    "name": "Schattenwelle",
+    "description": "Fügt Feinden in einer geraden Linie {0} M.Schaden zu und blendet getroffene Feinde für {1} Sek.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Manakosten sind um 1 erhöht, aber Schaden ist +100%.",
+    "dark": "Positive Effekte aller Gegner in Reichweite werden aufgehoben.",
+    "ut": {
+      "name": "Schattenauge",
+      "description": [
+        "[Schattenwelle] Erhöht Schaden um 50% und Blendungsdauer um 2 Sek.",
+        "[Schattenwelle] Erhöht Schaden um 50% und Blendungsdauer um 2,5 Sek.",
+        "[Schattenwelle] Erhöht Schaden um 50% und Blendungsdauer um 3 Sek.",
+        "[Schattenwelle] Erhöht Schaden um 50% und Blendungsdauer um 3,5 Sek.",
+        "[Schattenwelle] Erhöht Schaden um 50% und Blendungsdauer um 4 Sek.",
+        "[Schattenwelle] Erhöht Schaden um 50% und Blendungsdauer um 4,5 Sek."
+      ],
+      "story": "Tränenfragmente der Bestie Heltanios, die am Grund des Lebensbrunnens hauste. Sie speit schwarze Finsternis aus und alle, die ihre Augen sehen, deren Seelen werden von der mächtigen dunklen Energie geraubt. Diejenigen, die diesen Augen Herr werden können, erhalten große Macht und Erkenntnis. Als Dimael in Aegina gefangen genommen wurde und dem Tode nahe war, bettete Maria diese Augenfragmente ein."
+    }
+  },
+  "s4": {
+    "name": "Schwarzes Mal",
+    "description": "Während normaler Attacken verursacht der lezte Angriff der Kombo {0} zusätzlichen M.Schaden, der die feindliche M.VERT ignoriert.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Erhöht Schaden um 40%.",
+    "dark": "10% Chance, bei einem normalen Angriff Skill 1 auszulösen."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / ANG-Geschw. +100",
+    "dark": "Normale Angriffe verursachen 80% der ANG als zusätzlichen M.Schaden und geben dem Held 100 Mana zurück. 10% Chance auf doppelten Schaden und Mana-Regeneration."
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Naila",
+  "subtitle": "Wind's Fighter",
+  "description": "A harpy that specializes in melee combat using her knuckles. Quickly moves between the enemy, wreaking havoc upon them. Smashes enemies by launching powerful consecutive attacks.",
+  "story": "A stout and honorable warrior of the Harpies, the wielders of the power of wind. Her dignity as a Harpy warrior is more important to her than anything else in the world. She draws upon her willpower and desire to uphold her warrior's honor to bring down any enemy. Her skills are exceptional, even among her peers, and she is the ideal role model for younger Harpy warriors.",
+  "like": "Fellow kinsmen, those who possess a warrior's pride",
+  "dislike": "Cowards, hypocrites",
+  "inn": {
+    "idle": "What is the matter, human warrior?",
+    "recruit": {
+      "greet": "I want to spar with you one day.",
+      "talk": [
+        "Himmullis...",
+        "It is an absurd thing to think that a borrowed power is one's own.",
+        "I never forget the pride of Elidora harpies."
+      ],
+      "gift": "You sure know what harpies like."
+    },
+    "affinity": {
+      "greet": "So, this is what a human's house looks like.",
+      "talk": [
+        "My sister always told me to remember the pride of a Harpy.",
+        "I will become the best Harpy warrior in the world."
+      ],
+      "gift": "I'll pay you back."
+    },
+    "relationship": {
+      "greet": "How are you doing? Did you continue your training?",
+      "talk": [
+        "A true warrior never stops developing their skills!",
+        "Honor, pride - some may call them useless, but they are important to me.",
+        "Next time, let's spar, one on one. Alright?"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Cursed Claws, Baroro",
+    "description": [
+      "Upon a Crit Hit, deals 150% of ATK as P.DMG over time for 10sec. Target takes 20% increased P.DMG for the duration of skill.",
+      "Upon a Crit Hit, deals 180% of ATK as P.DMG over time for 10sec. Target takes 24% increased P.DMG for the duration of skill.",
+      "Upon a Crit Hit, deals 216% of ATK as P.DMG over time for 10sec. Target takes 28% increased P.DMG for the duration of skill.",
+      "Upon a Crit Hit, deals 258% of ATK as P.DMG over time for 10sec. Target takes 34% increased P.DMG for the duration of skill.",
+      "Upon a Crit Hit, deals 310% of ATK as P.DMG over time for 10sec. Target takes 41% increased P.DMG for the duration of skill.",
+      "Upon a Crit Hit, deals 500% of ATK as P.DMG over time for 10sec. Target takes 50% increased P.DMG for the duration of skill."
+    ],
+    "story": "A cursed pair of gauntlets crafted from the claws of the Mad Demon Baroro, which was defeated during the war. Several times the size of the average human hands, these gauntlets directly connect to the nerves of the wearer, allowing the wielder to control them effortlessly. Although they grant immense power, they also break into the mind of the wearer, slowing eating away at the soul. Only a true warrior of noble conviction, strong will and undying spirit may handle these cursed weapons. They are the perfect weapons for a warrior with a strong will that shines even in the darkness of the abyss."
+  },
+  "s1": {
+    "name": "Fierce Winds",
+    "description": "Dashes toward the enemy 2 times, dealing {0} P.DMG to enemies in range, knocking them down for {1} sec. If the target is not a Hero, deals {2} additional P.DMG.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "If there is 1 enemy, DMG is increased by 100%.",
+    "dark": "Target changes to the enemy with the highest ATK."
+  },
+  "s2": {
+    "name": "Wind Reading",
+    "description": "All allies' P.Dodge Chance is increased by {1} for {0} sec, and ATK is increased by {2}.",
+    "books": {
+      "0": "ATK boost is increased by {0}%.",
+      "1": "ATK boost is increased by {0}%.",
+      "2": "ATK boost is increased by {0}%."
+    },
+    "light": "Mana cost is reduced by 1.",
+    "dark": "Increases Naila's DMG dealt on non-Hero enemies by 30% for the duration of skill.",
+    "ut": {
+      "name": "Himmullis's Scarf",
+      "description": [
+        "[Wind Reading] Increases ATK Boost by 50% and M.Dodge by 100.",
+        "[Wind Reading] Increases ATK Boost by 50% and M.Dodge by 120.",
+        "[Wind Reading] Increases ATK Boost by 50% and M.Dodge by 140.",
+        "[Wind Reading] Increases ATK Boost by 50% and M.Dodge by 170.",
+        "[Wind Reading] Increases ATK Boost by 50% and M.Dodge by 210.",
+        "[Wind Reading] Increases ATK Boost by 50% and M.Dodge by 250."
+      ],
+      "story": "The scarf that the dead Himmullis had on. Naila always has it on her. Himmullis use to always tell Naila to be proud of being a Harpy. The scarf contains the sadness of losing family, and this makes Naila furious."
+    }
+  },
+  "s3": {
+    "name": "Dive Bomb",
+    "description": "Flies up and strikes {0} P.DMG to enemies in range. Knocked down enemies take {1}% increased DMG. If the target is not a Hero, deals {2} additional P.DMG.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Hit enemies are stunned for 3 sec."
+    },
+    "light": "DMG is increased by 40%.",
+    "dark": "Reduces cooldown by 10% per each enemy that takes Critical DMG.",
+    "ut": {
+      "name": "Tempest Pride",
+      "description": [
+        "[Dive Bomb] Skill cooldown is reduced by 30% and target takes 10% more P.DMG for 10 sec.",
+        "[Dive Bomb] Skill cooldown is reduced by 30% and target takes 12% more P.DMG for 10 sec.",
+        "[Dive Bomb] Skill cooldown is reduced by 30% and target takes 14% more P.DMG for 10 sec.",
+        "[Dive Bomb] Skill cooldown is reduced by 30% and target takes 17% more P.DMG for 10 sec.",
+        "[Dive Bomb] Skill cooldown is reduced by 30% and target takes 21% more P.DMG for 10 sec.",
+        "[Dive Bomb] Skill cooldown is reduced by 30% and target takes 25% more P.DMG for 10 sec."
+      ],
+      "story": "A ritual offering of ancient religious people who worshipped the wind. It is a precious treasure among the Harpies, and it is said to be given to the most powerful Harpy warrior. The moment one wears this mask, they'll be able to freely use the wind. They can also attack at the speed of light."
+    }
+  },
+  "s4": {
+    "name": "Tornado Strike",
+    "description": "Every 5th auto attack has a 40% chance of dealing extra {0} P.DMG to target and knocking them down.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Activation chance changes to 60%.",
+    "dark": "Atk Spd is boosted by 300 when effect takes place."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / P.Dodge +100",
+    "dark": "Upon dodging, all skill cooldowns are reduced by 2%. Also, ATK is boosted by 3%, and Atk Spd is boosted by 30. The ATK and Atk Spd Boosts can stack up to 10 times."
+  }
+}

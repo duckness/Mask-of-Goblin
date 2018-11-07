@@ -1,0 +1,128 @@
+{
+  "name": "Kara",
+  "subtitle": "Incarnation de la technomagie antique",
+  "description": "Golem humanoïde mécanique construit par un technomage d'une civilisation oubliée. Son corps est un concentré de technologie antique et l'archétype de la technomagie. Elle est une arme redoutable qui peut neutraliser l'ennemi grâce à des tirs aussi précis que puissants.",
+  "story": "Golem humanoïde issu de la technomagie antique, son apparence est pourtant celle d'une petite fille ordinaire. Mais ne vous y fiez pas, elle n'est qu'un outil, une arme séculaire sans sentiment. Elle demeurait en sommeil dans les ruines d'une ancienne civilisation, enfouie sous les plaines Galluah. C'est Annette, une technomage du royaume d'Orvel, qui la mit au jour pendant ses recherches. Après son réveil, elle se retrouva dans une nouvelle ère, au cœur d'une nouvelle civilisation...",
+  "like": "Les charges d'énergie, le maître",
+  "dislike": "Les ordres qui ne sont pas exécutés, les façons inefficaces de faire les choses",
+  "inn": {
+    "idle": "Tellement d'humains... plus que je n'en ai jamais vu.",
+    "recruit": {
+      "greet": "Bonjour.",
+      "talk": [
+        "Aujourd'hui le temps est... dégagé. Quelques nuages feront leur apparition dans la nuit.",
+        "La nourriture est excellente ici. Il n'y a pas de poison, c'est sans danger.",
+        "C'est bruyant ici, pas comme au palais."
+      ],
+      "gift": "C'est ça, la monnaie du jour ? Mon maître appréciera."
+    },
+    "affinity": {
+      "greet": "Bonjour. Un autre maître.",
+      "talk": [
+        "Je suis une arme. Je n'ai pas d'émotions. Mais je...",
+        "Je me demande ce que cela fait d'être vivant..."
+      ],
+      "gift": "Merci. Je m'en servirai pour financer les recherches du maître."
+    },
+    "relationship": {
+      "greet": "Bonjour. Avez-vous bien dormi ?",
+      "talk": [
+        "Je ne comprends pas très bien les émotions... Je me demande de quel sentiment il s'agit.",
+        "Je ressens une espèce de familiarité. Serait-ce cela, l'amitié ?",
+        "Je voudrais tellement ressentir de l'amour..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Pourfendeur des cieux, canon à mouvement perpétuel de type 0",
+    "description": [
+      "Augmente l'ATQ de 1% chaque seconde. Cumulable 30 fois.",
+      "Augmente l'ATQ de 1% chaque seconde. Cumulable 40 fois.",
+      "Augmente l'ATQ de 1% chaque seconde. Cumulable 50 fois.",
+      "Augmente l'ATQ de 1% chaque seconde. Cumulable 60 fois.",
+      "Augmente l'ATQ de 1% chaque seconde. Cumulable 70 fois.",
+      "Augmente l'ATQ de 1% chaque seconde. Cumulable 80 fois."
+    ],
+    "story": "Cet artéfact provenant d'une civilisation antique est doté d'un moteur qui fournit une énergie illimitée. Sa puissance, comparable à celle d'une arme de siège, pourrait même égaler la magie la plus sophistiquée. Cette arme fut retrouvée dans les ruines de la vieille République de Gray, mais resta entreposée, car personne ne savait comment l'utiliser. Bien des années plus tard, Kara fut mise au jour et lorsqu'elle s'éveilla, l'arme se téléporta à ses côtés. Cette arme technomagique de premier plan fut conçue de manière comparable à la Forteresse de la Montagne."
+  },
+  "s1": {
+    "name": "Laser antipersonnel",
+    "description": "Attaque 4 fois la cible en lui infligeant un total de {0} points de DEG M et en la renversant. Le dernier coup attaque tous les ennemis, ce qui leur inflige {1} points de DEG M et les écarte pendant {2} secondes.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "[Laser antipersonnel] - Restaure 200 PM lors d'un coup critique. [Laser de siège] - Augmente le coût en mana de 1 point et les DEG de 100%.",
+    "dark": "[Laser antipersonnel] - Retire 300 PM à l'ennemi qui a subi les dégâts. [Laser de siège] - Réduit le coût en mana de 1 point.",
+    "linked": {
+      "name": "Laser de siège",
+      "description": "Attaque la cible, infligeant {0} points de DEG M. Les DEG Crit sont {1}% plus élevés."
+    }
+  },
+  "s2": {
+    "name": "Canon à large spectre",
+    "description": "Attaque 4 fois une cible au hasard ainsi que les ennemis alentour à portée, infligeant un total de {0} points de DEG M et les étourdissant pendant {1} secondes.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "[Canon à large spectre] - Augmente la durée d'Étourdissement de 1 seconde. [Tir focalisé] - Ajoute une charge de Tir focalisé.",
+    "dark": "[Canon à large spectre] - Réduit le coût en mana de 1 point. [Tir focalisé] - Étend à 60 le nombre maximal de charges de Tir focalisé.",
+    "ut": {
+      "name": "Dispositif d'enregistrement KARA-00XX",
+      "description": [
+        "[Canon à large spectre] Augmente les DEG de 50% et réduit la Vit ATQ de la cible de 100 points pendant 10 s. [Tir focalisé] À chaque coup critique, réduit le temps de recharge de 2% et restaure 150 points de mana.",
+        "[Canon à large spectre] Augmente les DEG de 50% et réduit la Vit ATQ de la cible de 120 points pendant 10 s. [Tir focalisé] À chaque coup critique, réduit le temps de recharge de 2,4% et restaure 150 points de mana.",
+        "[Canon à large spectre] Augmente les DEG de 50% et réduit la Vit ATQ de la cible de 140 points pendant 10 s. [Tir focalisé] À chaque coup critique, réduit le temps de recharge de 2,9% et restaure 150 points de mana.",
+        "[Canon à large spectre] Augmente les DEG de 50% et réduit la Vit ATQ de la cible de 170 points pendant 10 s. [Tir focalisé] À chaque coup critique, réduit le temps de recharge de 3,5% et restaure 150 points de mana.",
+        "[Canon à large spectre] Augmente les DEG de 50% et réduit la Vit ATQ de la cible de 210 points pendant 10 s. [Tir focalisé] À chaque coup critique, réduit le temps de recharge de 4,2% et restaure 150 points de mana.",
+        "[Canon à large spectre] Augmente les DEG de 50% et réduit la Vit ATQ de la cible de 250 points pendant 10 s. [Tir focalisé] À chaque coup critique, réduit le temps de recharge de 5% et restaure 150 points de mana."
+      ],
+      "story": "Processeur et enregistreur faisant office de cerveau pour Kara. C'est un véritable trésor imprégné de sagesse ancestrale, et sa capacité dépasse de loin celle de n'importe quel humain. Bien que cet appareil soit des plus sophistiqués, il peine à enregistrer et retranscrire les émotions."
+    },
+    "linked": {
+      "name": "Tir focalisé",
+      "description": "Attaque 15 fois une cible au hasard, infligeant un total de {0} points de DEG M ainsi que Tir focalisé pendant {1} secondes. Inflige à l'ennemi {2} points de DEG M supplémentaires à chaque charge de Tir focalisé. Tir focalisé peut être cumulé 30 fois."
+    }
+  },
+  "s3": {
+    "name": "Sortir l'arme de siège",
+    "description": "Kara passe en mode Arme de siège et attaque l'ennemi, infligeant {0} points de DEG M à chaque coup. En mode Arme de siège, les compétences Laser antipersonnel et Canon à large spectre deviennent Laser de siège et Tir focalisé. Lorsque la compétence est réutilisée, le mode redevient Arme antipersonnel.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Augmente les DEG de 100% lorsqu'un seul ennemi est présent.",
+    "dark": "Réduit le temps de recharge de toutes les compétences de 3% lorsque vous assénez un coup critique.",
+    "ut": {
+      "name": "Source d'alimentation antique",
+      "description": [
+        "[Sortir l'arme de siège] Augmente les DEG de 50% et réduit la DEF M de l'ennemi de 1% lorsque vous assénez un coup critique. La réduction de la DEF M est cumulable 20 fois.",
+        "[Sortir l'arme de siège] Augmente les DEG de 50% et réduit la DEF M de l'ennemi de 1% lorsque vous assénez un coup critique. La réduction de la DEF M est cumulable 24 fois.",
+        "[Sortir l'arme de siège] Augmente les DEG de 50% et réduit la DEF M de l'ennemi de 1% lorsque vous assénez un coup critique. La réduction de la DEF M est cumulable 29 fois.",
+        "[Sortir l'arme de siège] Augmente les DEG de 50% et réduit la DEF M de l'ennemi de 1% lorsque vous assénez un coup critique. La réduction de la DEF M est cumulable 35 fois.",
+        "[Sortir l'arme de siège] Augmente les DEG de 50% et réduit la DEF M de l'ennemi de 1% lorsque vous assénez un coup critique. La réduction de la DEF M est cumulable 42 fois.",
+        "[Sortir l'arme de siège] Augmente les DEG de 50% et réduit la DEF M de l'ennemi de 1% lorsque vous assénez un coup critique. La réduction de la DEF M est cumulable 50 fois."
+      ],
+      "story": "Il s'agit de la source d'alimentation de Kara, mais aussi du plus grand chef-d'œuvre d'une ancienne civilisation oubliée. Cette même technologie servit à Annette pour fabriquer le Rascal, mais même elle n'en comprit pas tous les aspects. Ce moteur perpétuel génère un pouvoir magique illimité."
+    }
+  },
+  "s4": {
+    "name": "Essence technomagique",
+    "description": "En mode Arme antipersonnel, toutes les DEF sont réduites de {0} , tandis qu'en mode Arme de siège, l'ATQ augmente de {1} , les DEG subis augmentent de {2}% et le héros est immunisé contre les contrôles. Restaure {3} PM chaque fois que l'ennemi subit des dégâts.",
+    "books": {
+      "0": "Les boosts ATK et DEF sont augmentés de {0}%.",
+      "1": "Les boosts ATK et DEF sont augmentés de {0}%.",
+      "2": "Les boosts ATK et DEF sont augmentés de {0}%."
+    },
+    "light": "La récupération des PM triple lorsqu'un seul ennemi est présent.",
+    "dark": "[Arme antipersonnel] - Réduit l'ATQ de 20%, mais augmente la récupération de PM/sec de 100%. [Arme de siège] - Réduit toutes les DEF de 60%, mais augmente les DEG Crit de 140%."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / DEG Crit +20%",
+    "dark": "[Arme antipersonnel] - Augmente la précision des contrôles de 400. [Arme de siège] - Augmente la précision de 400."
+  }
+}

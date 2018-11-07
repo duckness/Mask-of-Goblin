@@ -1,0 +1,128 @@
+{
+  "name": "Laudia",
+  "subtitle": "Vũ công ốc đảo",
+  "description": "Một vũ công đến từ bộ tộc du cư trên Sa mạc Aegina. Vũ điệu của cô làm tan chảy trái tim người xem, còn lưỡi kiếm sắc lẹm âm thầm lấy mạng kẻ địch.",
+  "story": "Trovatia là một bộ tộc du cư trên Sa mạc Aegina, thừa kế truyền thống và tín ngưỡng của vương quốc sa mạc cổ đại. Laudia là con gái của tộc trưởng và phục vụ cho Nữ linh mục của nước Laias. Cô cũng thay người cha già chăm lo cho bộ tộc. Khi cô cầu xin giúp đỡ, Thần rồng Laias và cô em gái Lilia đã thức tỉnh sau giấc ngủ say, đưa Laudia cùng bộ tộc vào thần điện và che chở cho họ. Kể từ đó, Laudia không ngừng xông pha diệt trừ lũ ác quỷ trên sa mạc cùng Zafir, thủ lĩnh bộ tộc Mauhata của những Chiến binh sa mạc.",
+  "like": "Laias, Lilia, cư dân sa mạc",
+  "dislike": "Chứng kiến người dân lầm than",
+  "inn": {
+    "idle": "Ồ, nơi này hay đấy. Có chỗ nào để ta nhảy một điệu không?",
+    "recruit": {
+      "greet": "Xin chào. Nguyện cầu sức mạnh Dòng chảy luôn ở bên ngươi.",
+      "talk": [
+        "Ngươi chưa gặp nữ linh mục sao? Ai gặp người rồi thì khó mà quên được...",
+        "Chà, một khi xem ta nhảy thì ngươi chẳng còn tâm trí nghĩ đến chuyện khác nữa đâu.",
+        "Ta không muốn thấy thế giới tươi đẹp này bị tàn phá thêm nữa."
+      ],
+      "gift": "Cảm ơn món quà của ngươi. Nhảy một điệu nhé?"
+    },
+    "affinity": {
+      "greet": "Chào! Vì hai ta đã khá thân thiết rồi, ta gọi tên ngươi được chứ?",
+      "talk": [
+        "Ta thích nơi này. Thật yên tĩnh và thanh bình.",
+        "Làm tộc phó không dễ gì đâu nhé. Ta phải chăm lo cho mọi người trong tộc."
+      ],
+      "gift": "Cảm ơn. Ta sẽ mua ít đồ ăn vặt cho lũ nhóc..."
+    },
+    "relationship": {
+      "greet": "Hân hạnh được gặp mặt. Ngươi đến gặp ta đấy sao?",
+      "talk": [
+        "Ngươi đã gặp Lilia với chị cô ấy là Laias chưa? Họ rất tốt bụng. Thể nào ngươi cũng mến họ cho xem.",
+        "Ta cảm nhận được sự rung động mạnh mẽ của Dòng chảy và định mệnh mà chỉ những chiến binh và anh hùng đích thực mới có được.",
+        "Ta vừa sáng tác điệu nhảy mới đấy, ngươi có muốn xem không? Chúng ta có thể cùng nhảy nữa đấy."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Dòng cát thầm thì, Arlaq",
+    "description": [
+      "[Phước lành của ốc đảo] có thể cộng dồn tối đa 14 lần và khi tấn công thường, nhận 10% xác suất giảm 4% thời gian hồi của tất cả các kĩ năng.",
+      "Phước lành của ốc đảo có thể cộng dồn tối đa 15 lần và khi tấn công thường, nhận 10% xác suất giảm 4,8% thời gian hồi của tất cả các kĩ năng.",
+      "Phước lành của ốc đảo có thể cộng dồn tối đa 16 lần và khi tấn công thường, nhận 10% xác suất giảm 5,8% thời gian hồi của tất cả các kĩ năng.",
+      "Phước lành của ốc đảo có thể cộng dồn tối đa 17 lần và khi tấn công thường, nhận 10% xác suất giảm 7% thời gian hồi của tất cả các kĩ năng.",
+      "Phước lành của ốc đảo có thể cộng dồn tối đa 18 lần và khi tấn công thường, nhận 10% xác suất giảm 8,4% thời gian hồi của tất cả các kĩ năng.",
+      "Phước lành của ốc đảo có thể cộng dồn tối đa 20 lần và khi tấn công thường, nhận 10% xác suất giảm 10% thời gian hồi của tất cả các kĩ năng."
+    ],
+    "story": "Một bảo vật quý hiếm minh chứng cho nhiệt huyết cháy bỏng chốn sa mạc. Tương truyền, cặp vũ khí tuyệt đẹp này được lưu giữ trong kho tàng của Thần vương cổ đại. Khi vung lên, chúng phát ra thanh âm êm ái như cơn gió thoảng. Vũ khí này tựa như một viên đạn bọc đường, như ảo cảnh nơi sa mạc hoang vu..."
+  },
+  "s1": {
+    "name": "Lời thì thầm của cát",
+    "description": "Tấn công kẻ địch mục tiêu và gây {0} sát thương phép thuật cho những kẻ địch ở gần, giảm {2} xác suất đỡ đòn và {3} Kháng cự đòn chí mạng của kẻ địch trong {1} giây. Ngoài ra, tấn công và gây {4} sát thương phép thuật, đồng thời gây choáng trong {5} giây.",
+    "books": {
+      "0": "Tăng {0}% lượng sát thương.",
+      "1": "Tăng {0}% lượng sát thương.",
+      "2": "Tăng {0}% lượng sát thương."
+    },
+    "light": "Mức tiêu hao mana giảm 1.",
+    "dark": "Mục tiêu chịu thêm 25% Sát thương phép thuật trong 10 giây."
+  },
+  "s2": {
+    "name": "Dòng chảy mê hoặc",
+    "description": "Tăng {1} Tấn công và {2}% Sát thương chí mạng cho bản thân trong {0} giây. Sau đó, tiến lên trước một quãng ngắn, gây {3} Sát thương phép thuật cho những kẻ địch trong phạm vi di chuyển, gây Mê hoặc trong {4} giây nếu kĩ năng được sử dụng ở Đấu trường. Sau khi sử dụng, có thể kích hoạt [Cạm bẫy cám dỗ] một lần trong 5 giây.",
+    "books": {
+      "0": "Lượng tăng sức tấn công và lượng sát thương tăng {0}%.",
+      "1": "Lượng tăng sức tấn công và lượng sát thương tăng {0}%.",
+      "2": "Lượng tăng sức tấn công và lượng sát thương tăng {0}%."
+    },
+    "light": "Nhận 2 quả cầu mana sau khi di chuyển. Mana thu được sẽ tiêu hao trong 10 giây.",
+    "dark": "Sau khi sử dụng Dòng chảy mê hoặc, có thể dùng Cạm bẫy cám dỗ hai lần trong 10 giây.",
+    "ut": {
+      "name": "Linh vật của Trovatia",
+      "description": [
+        "[Dòng chảy mê hoặc] Sau khi di chuyển, hấp thu Sát thương tương đương 160% Tấn công trong 3 giây, sau đó tạo kết giới miễn nhiễm trạng thái chế ngự và mức tiêu hao mana của [Cạm bẫy cám dỗ] giảm 1.",
+        "[Dòng chảy mê hoặc] Sau khi di chuyển, hấp thu Sát thương tương đương 190% Tấn công trong 3 giây, sau đó tạo kết giới miễn nhiễm trạng thái chế ngự và mức tiêu hao mana của [Cạm bẫy cám dỗ] giảm 1.",
+        "[Dòng chảy mê hoặc] Sau khi di chuyển, hấp thu Sát thương tương đương 230% Tấn công trong 3 giây, sau đó tạo kết giới miễn nhiễm trạng thái chế ngự và mức tiêu hao mana của [Cạm bẫy cám dỗ] giảm 1.",
+        "[Dòng chảy mê hoặc] Sau khi di chuyển, hấp thu Sát thương tương đương 270% Tấn công trong 3 giây, sau đó tạo kết giới miễn nhiễm trạng thái chế ngự và mức tiêu hao mana của [Cạm bẫy cám dỗ] giảm 1.",
+        "[Dòng chảy mê hoặc] Sau khi di chuyển, hấp thu Sát thương tương đương 330% Tấn công trong 3 giây, sau đó tạo kết giới miễn nhiễm trạng thái chế ngự và mức tiêu hao mana của [Cạm bẫy cám dỗ] giảm 1.",
+        "[Dòng chảy mê hoặc] Sau khi di chuyển, hấp thu Sát thương tương đương 400% Tấn công trong 3 giây, sau đó tạo kết giới miễn nhiễm trạng thái chế ngự và mức tiêu hao mana của [Cạm bẫy cám dỗ] giảm 1."
+      ],
+      "story": "Một chiếc rương chứa những cổ vật cần cho lễ tế Rồng nước. Trên rương có một vài họa tiết khảm bằng 'Lưu ly thiên thanh', một loại ngọc tượng trưng cho sự trọn vẹn. Đây là vật mà cha của Laudia trân trọng nhất, chỉ được trao cho người đủ năng lực dẫn dắt cả bộ tộc Trovatia."
+    },
+    "linked": {
+      "name": "Cạm bẫy cám dỗ",
+      "description": "Tấn công kẻ địch mục tiêu 3 lần, gây tổng cộng {0} sát thương phép thuật. Gây thêm {1} Sát thương phép thuật bỏ qua phòng thủ lên Boss và những địch bị dính trạng thái Mê hoặc."
+    }
+  },
+  "s3": {
+    "name": "Vũ điệu của sa mạc",
+    "description": "Tấn công kẻ địch trong phạm vi 30 lần, gây tổng cộng {0} Sát thương phép thuật. Ngoài ra, ném 'Lưỡi dao Arlaq' vào kẻ địch ngẫu nhiên 30 lần, gây tổng cộng {1} Sát thương phép thuật. {2} Sát thương được cộng dồn mỗi khi lưỡi dao đánh trúng cùng một kẻ địch. Sau khi kích hoạt kĩ năng, có thể sử dụng [Gia tốc chói lòa] một lần, và 'Lưỡi dao Arlaq' sẽ ưu tiên nhắm vào kẻ địch bị Mê hoặc.",
+    "books": {
+      "0": "Tăng {0}% lượng sát thương.",
+      "1": "Tăng {0}% lượng sát thương.",
+      "2": "Tăng {0}% lượng sát thương."
+    },
+    "light": "Hồi phục 30 Mana mỗi lần đánh trúng.",
+    "dark": "Mức tiêu hao mana tăng thêm 1 và mức Sát thương tăng 100%.",
+    "ut": {
+      "name": "Mạng che quyến rũ",
+      "description": [
+        "[Vũ điệu của sa mạc] Khi kích hoạt kĩ năng, thời gian hồi chiêu giảm 30% và Xuyên phòng thủ tăng 100.",
+        "[Vũ điệu của sa mạc] Khi kích hoạt kĩ năng, thời gian hồi chiêu giảm 30% và Xuyên phòng thủ tăng 120.",
+        "[Vũ điệu của sa mạc] Khi kích hoạt kĩ năng, thời gian hồi chiêu giảm 30% và Xuyên phòng thủ tăng 140.",
+        "[Vũ điệu của sa mạc] Khi kích hoạt kĩ năng, thời gian hồi chiêu giảm 30% và Xuyên phòng thủ tăng 170.",
+        "[Vũ điệu của sa mạc] Khi kích hoạt kĩ năng, thời gian hồi chiêu giảm 30% và Xuyên phòng thủ tăng 210.",
+        "[Vũ điệu của sa mạc] Khi kích hoạt kĩ năng, thời gian hồi chiêu giảm 30% và Xuyên phòng thủ tăng 250."
+      ],
+      "story": "Tấm mạng che trong truyền thuyết, chỉ được trao cho vũ công giỏi nhất lục địa. Khi kết hợp với món đồ này, điệu nhảy sẽ mê hoặc tâm trí người xem. Laudia dùng tấm mạng che này để thôi miên kẻ địch bằng điệu nhảy quyến rũ và đạt được mọi thứ như ý nguyện."
+    },
+    "linked": {
+      "name": "Gia tốc chói lòa",
+      "description": "Nhận miễn nhiễm trạng thái chế ngự trong {0} giây và tăng {1} Tốc độ tấn công."
+    }
+  },
+  "s4": {
+    "name": "Phước lành của ốc đảo",
+    "description": "Giảm {0}% thời gian bản thân nhiễm Trạng thái chế ngự. Khi sử dụng kĩ năng, nhận [Phước lành của ốc đảo] trong {1} giây, tăng {2} Xuyên phòng thủ và {3} Phòng thủ của bản thân. [Phước lành của ốc đảo] có thể cộng dồn tối đa {4} lần và không thể gỡ bỏ.",
+    "books": {
+      "0": "Hỗ trợ Phòng thủ và Xuyên phòng thủ tăng {0}%.",
+      "1": "Hỗ trợ Phòng thủ và Xuyên phòng thủ tăng {0}%.",
+      "2": "Hỗ trợ Phòng thủ và Xuyên phòng thủ tăng {0}%."
+    },
+    "light": "Nhận 2 lần cộng dồn Phước lành của ốc đảo.",
+    "dark": "Với mỗi lần cộng dồn, mức Sát thương phải chịu từ kẻ địch không phải anh hùng giảm 2%"
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / ATK.Spd +100",
+    "dark": "Đầu mỗi trận đấu, nhận miễn nhiễm trạng thái chế ngự trong 7 giây và Độ chính xác, Độ chính xác của trạng thái chế ngự tăng 300 trong 10 giây."
+  }
+}

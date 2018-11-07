@@ -1,0 +1,120 @@
+{
+  "name": "Mediana",
+  "subtitle": "Le Dangereux Docteur",
+  "description": "Un docteur ayant des techniques très anciennes dont quelques Magies de Prêtre et autres Soins. Elle pratique sa médecine avec une grande aiguille pour renforcer ses alliés, ou affaiblir ses ennemis.",
+  "story": "Pratiquante des arts médicaux développés lorsque les prêtres étaient peu nombreux, elle hérita des talents naturels de son père, mais sa soif de connaissance se révéla néfaste lorsqu'elle se mit à étudier les poisons. En conséquence, elle fut chassée de la société médicale, mais elle garda le même enthousiasme pour ses recherches. Cependant, son respect pour la vie humaine l'empêcha de mettre en pratique ses découvertes sur les poisons. Avec l'apparition des démons, elle fut ravie de trouver des sujets de test rares et précieux.",
+  "like": "La science médicale, les sujets d'expérience",
+  "dislike": "La magie guérisseuse",
+  "inn": {
+    "idle": "Huhu, finalement, un sujet de test intéressant est apparu.",
+    "recruit": {
+      "greet": "Bienvenue. Nous sommes-nous déjà rencontrés?",
+      "talk": [
+        "Voudriez vous tester mon nouveau médicament? Huhu, n'ayez pas peur.",
+        "Parfois, mon père me manque.",
+        "Juste une seconde, je viens juste de penser à un mélange de médicaments extrêmement efficace."
+      ],
+      "gift": "Oh, merci. Puis-je utiliser ceci comme composant de recherche?"
+    },
+    "affinity": {
+      "greet": "Bonjour. Je suis venue me reposer, tout va bien.",
+      "talk": [
+        "Ce nouveau médicament ? Ah, ah, c'est un essai.",
+        "Il faut que je prenne des notes... pour me souvenir de toutes mes idées."
+      ],
+      "gift": "Oh, merci. Je vais pouvoir fabriquer un nouveau poison, ah ah ah..."
+    },
+    "relationship": {
+      "greet": "Est-ce que vous allez bien? S'il vous plaît dites-moi si vous vous sentez malade.",
+      "talk": [
+        "Je sais que je suis un peu étrange. Mais bon, je suis comme ça.",
+        "Un jour, je suis persuadé que la médecine et les traitements feront mieux que la magie de soin.",
+        "Vous n'êtes pas mon cobaye, vous êtes plutôt... le récipient final. Ah, pas pour les poisons, je disais ça juste en tant que docteur."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Phistonia, Menace Miséricordieuse",
+    "description": [
+      "Les DEG du Poison Spécial sont augmentés de 40% et la cible affectée reçoit des DEG P. supplémentaires équivalents à 30% de l'ATQ de Mediana lorsqu'elle est touchée par un allié en-dehors de Mediana. Les DEG P. additionnels peuvent se produire seulement 1 fois par seconde.",
+      "Les DEG du Poison Spécial sont augmentés de 48% et la cible affectée reçoit des DEG P. supplémentaires équivalents à 36% de l'ATQ de Mediana lorsqu'elle est touchée par un allié en-dehors de Mediana. Les DEG P. additionnels peuvent se produire seulement 1 fois par seconde.",
+      "Les DEG du Poison Spécial sont augmentés de 57% et la cible affectée reçoit des DEG P. supplémentaires équivalents à 43% de l'ATQ de Mediana lorsqu'elle est touchée par un allié en-dehors de Mediana. Les DEG P. additionnels peuvent se produire seulement 1 fois par seconde.",
+      "Les DEG du Poison Spécial sont augmentés de 69% et la cible affectée reçoit des DEG P. supplémentaires équivalents à 52% de l'ATQ de Mediana lorsqu'elle est touchée par un allié en-dehors de Mediana. Les DEG P. additionnels peuvent se produire seulement 1 fois par seconde.",
+      "Les DEG du Poison Spécial sont augmentés de 83% et la cible affectée reçoit des DEG P. supplémentaires équivalents à 62% de l'ATQ de Mediana lorsqu'elle est touchée par un allié en-dehors de Mediana. Les DEG P. additionnels peuvent se produire seulement 1 fois par seconde.",
+      "Les DEG du Poison Spécial sont augmentés de 100% et la cible affectée reçoit des DEG P. supplémentaires équivalents à 75% de l'ATQ de Mediana lorsqu'elle est touchée par un allié en-dehors de Mediana. Les DEG P. additionnels peuvent se produire seulement 1 fois par seconde."
+    ],
+    "story": "L'histoire remonte à l'époque où les expériences sur le poison de Mediana étaient encore inconnues de ses pairs. Un jour, un confrère remarqua l'énorme seringue qu'elle avait conçue. Impressionné par sa taille, il lui demanda : « Regardez-moi la taille de cet engin ! Ne devriez-vous pas lui donner un nom ? » À cela, Mediana répondit nonchalamment : « Oh, vous n'avez qu'à l'appeler... Piston. »"
+  },
+  "s1": {
+    "name": "Salve de Guérison",
+    "description": "Soigne tous les alliés pour {0} PV et les immunise contre le prochain coup de DEG reçu.",
+    "books": {
+      "0": "La Récupération augmente de {0}%.",
+      "1": "La Récupération augmente de {0}%.",
+      "2": "La Récupération augmente de {0}%."
+    },
+    "light": "Augmente les PV des alliés soignés de 10% pendant 10 sec.",
+    "dark": "Le coût en Mana est réduit de 1."
+  },
+  "s2": {
+    "name": "Canon à Eau Spécial",
+    "description": "Un canon à eau tire en ligne droite, soignant les alliés à portée pour {0} PV toutes les 0.5 sec, tout en infligeant {1} points de DEG P. à l'ennemi.",
+    "books": {
+      "0": "Les montants des Soins et des DEG sont augmentés de {0}%.",
+      "1": "Les montants des Soins et des DEG sont augmentés de {0}%.",
+      "2": "Les montants des Soins et des DEG sont augmentés de {0}%."
+    },
+    "light": "Augmente la Récupération et les DEG de 40%.",
+    "dark": "Immunisé aux Contrôles lorsque cette compétence est utilisée.",
+    "ut": {
+      "name": "Potion spéciale de réaction double",
+      "description": [
+        "[Canon à eau spécial] Augmente la résistance de 30 % et réduit le temps de recharge de 12 %.",
+        "[Canon à eau spécial] Augmente la résistance de 30 % et réduit le temps de recharge de 14 %.",
+        "[Canon à eau spécial] Augmente la résistance de 30 % et réduit le temps de recharge de 17 %.",
+        "[Canon à eau spécial] Augmente la résistance de 30 % et réduit le temps de recharge de 21 %.",
+        "[Canon à eau spécial] Augmente la résistance de 30 % et réduit le temps de recharge de 25 %.",
+        "[Canon à eau spécial] Augmente la résistance de 30 % et réduit le temps de recharge de 30 %."
+      ],
+      "story": "Potion spéciale produisant deux types d’effet. Mediana se demandait s’il était possible d’asséner des attaques tout en récupérant de la santé. Elle se rendit à la bibliothèque et lut un vieux livre poussiéreux intitulé « Les limons font d’excellents canons ». Mediana ne le lut que pour s’amuser, mais elle trouva un moyen d’appliquer le principe des canons à son piston. C’est alors qu’elle mit au point la potion spéciale de réaction double et put optimiser la récupération et l’attaque en utilisant Canon à Eau Spécial. Aujourd’hui encore, Mediana remercie l’auteur de ce livre de l’avoir tant inspirée."
+    }
+  },
+  "s3": {
+    "name": "Potion Revigorante",
+    "description": "Injecte une potion revigorante à l'allié ayant l'ATQ la plus élevée, augmentant ainsi son ATQ de 20%+ {0} de l'ATQ de Mediana Empêche également ses PV de descendre sous les 5%.",
+    "books": {
+      "0": "Augmentation de l'ATQ boostée de {0}%.",
+      "1": "Augmentation de l'ATQ boostée de {0}%.",
+      "2": "Augmentation de l'ATQ boostée de {0}%."
+    },
+    "light": "Boost d'ATQ augmenté de 40%.",
+    "dark": "Chances de Crit augmentées de 400.",
+    "ut": {
+      "name": "Potion de mystère",
+      "description": [
+        "[Potion Revigorante] Dissipe les effets négatifs sur la cible et lui donne une immunité aux Contrôles pendant 2 sec.",
+        "[Potion Revigorante] Dissipe les effets négatifs sur la cible et lui donne une immunité aux Contrôles pendant 3 sec.",
+        "[Potion Revigorante] Dissipe les effets négatifs sur la cible et lui donne une immunité aux Contrôles pendant 4 sec.",
+        "[Potion Revigorante] Dissipe les effets négatifs sur la cible et lui donne une immunité aux Contrôles pendant 5 sec.",
+        "[Potion Revigorante] Dissipe les effets négatifs sur la cible et lui donne une immunité aux Contrôles pendant 6 sec.",
+        "[Potion Revigorante] Dissipe les effets négatifs sur la cible et lui donne une immunité aux Contrôles pendant 7 sec."
+      ],
+      "story": "Une potion spéciale contenant les enseignements d’un maître. Le chirurgien de génie et expert en anatomie, le docteur Aldini, est le maître de Mediana. Le docteur Aldini avait rapidement reconnu son talent et lui avait enseigné d’admirables connaissances médicales qui n’auraient pu être découvertes par l’Église de Lua. La potion non identifiable créée avec la recette spéciale de son maître augmente les effets de la Potion Revigorante."
+    }
+  },
+  "s4": {
+    "name": "Poison Spécial de Mediana",
+    "description": "Augmente l'ATQ de tous les alliés de {0} et la Résistance aux Crit P. de {1}. Toute attaque sur un ennemi lui injecte également un poison spécial qui inflige des DEG P. constants à hauteur de {2} pendant 5 sec tout en réduisant sa Résistance aux Crit P. de {3}.",
+    "books": {
+      "0": "Augmentation de l'ATQ boostée de {0}%.",
+      "1": "Augmentation de l'ATQ boostée de {0}%.",
+      "2": "Augmente le Blocage P. de tous les alliés de {0}."
+    },
+    "light": "La Résistance aux Crit.P est maintenant de 300.",
+    "dark": "Les DEG P. sont augmentés de 20% sur la cible."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Résist. Contrôles +100",
+    "dark": "Subir des DEG augmente l'ATQ des alliés de 2%. Cumulable 20 fois."
+  }
+}

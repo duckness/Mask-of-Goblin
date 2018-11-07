@@ -1,0 +1,120 @@
+{
+  "name": "Zafir",
+  "subtitle": "Prince des tempêtes de sable",
+  "description": "Il est le descendant de l'ancien dieu-roi. Ce jeune homme raffiné s'est battu corps et âme pour défendre le désert. La tempête de sable qu'il invoque avec ses flèches engloutit ses ennemis, qui disparaissent instantanément.",
+  "story": "Prince et héritier de l'ancien dieu-roi, il a le pouvoir de contrôler les sables du désert. En tant que jeune chef des guerriers du désert de la tribu Mauhata, il fut entraîné et éduqué pour succéder au grand roi. Lorsque leurs frères d'armes de la tribu Trovatia allèrent prier à l'Autel des flots pour éveiller le dieu-dragon, il ordonna à ses hommes de vaincre tous les démons qui approchaient l'oasis. Avec l'aide du dieu-dragon et de Laudia, sa prêtresse, il remplit son rôle de guerrier du désert : défendre son territoire. Il espère ainsi se montrer à la hauteur des attentes du regretté dieu-roi.",
+  "like": "Les chats, les dessins dans le sable et le peuple du désert",
+  "dislike": "Ceux qui essaient de nuire aux personnes qui lui sont chères",
+  "inn": {
+    "idle": "Ça alors ! C'est la première fois que je vois ce genre de boisson.",
+    "recruit": {
+      "greet": "Que la bénédiction du dieu-roi soit avec vous.",
+      "talk": [
+        "Hum, cet endroit ne ressemble en rien aux bars du désert. On ne s'assied pas par terre, si ?",
+        "Un vrai guerrier du désert fait passer les intérêts de son peuple avant les siens.",
+        "Je n'apprécie guère les endroits bondés, mais cette ambiance insouciante... Ça ne me déplaît pas."
+      ],
+      "gift": "Quelle extraordinaire gentillesse ! Je vous remercie."
+    },
+    "affinity": {
+      "greet": "Comment allez-vous ?",
+      "talk": [
+        "La prophétie dit que la résurrection du dieu-roi est imminente.",
+        "Si le destin vous le permet, venez visiter Aegina à l'occasion. Je serai votre guide."
+      ],
+      "gift": "Les guerriers du désert seront heureux d'apprendre que vous allez bien."
+    },
+    "relationship": {
+      "greet": "Salutations, cher ami du désert.",
+      "talk": [
+        "J'aime les chats... En termes d'élégance, ces créatures sont sans rivales.",
+        "La plus violente des tempêtes de sable n'égratigne même pas un guerrier du désert.",
+        "Son sang coule peut-être dans mes veines, mais il me reste du chemin à parcourir pour que je me considère comme son digne héritier."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Zaries, gloire du dieu-roi",
+    "description": [
+      "Lors de l'utilisation d'une compétence, vous accumulez 1 charge de Volonté du désert, ce qui augmente l'ATQ de 4 % et la Pénétration DEF de 20 pendant 10 sec. Cet effet est cumulable 5 fois au maximum et ne peut pas être dissipé.",
+      "Lors de l'utilisation d'une compétence, vous accumulez 1 charge de Volonté du désert, ce qui augmente l'ATQ de 4,8 % et la Pénétration DEF de 24 pendant 10 sec. Cet effet est cumulable 5 fois au maximum et ne peut pas être dissipé.",
+      "Lors de l'utilisation d'une compétence, vous accumulez 1 charge de Volonté du désert, ce qui augmente l'ATQ de 5,6 % et la Pénétration DEF de 29 pendant 10 sec. Cet effet est cumulable 5 fois au maximum et ne peut pas être dissipé.",
+      "Lors de l'utilisation d'une compétence, vous accumulez 1 charge de Volonté du désert, ce qui augmente l'ATQ de 6,8 % et la Pénétration DEF de 35 pendant 10 sec. Cet effet est cumulable 5 fois au maximum et ne peut pas être dissipé.",
+      "Lors de l'utilisation d'une compétence, vous accumulez 1 charge de Volonté du désert, ce qui augmente l'ATQ de 8 % et la Pénétration DEF de 42 pendant 10 sec. Cet effet est cumulable 5 fois au maximum et ne peut pas être dissipé.",
+      "Lors de l'utilisation d'une compétence, vous accumulez 1 charge de Volonté du désert, ce qui augmente l'ATQ de 10 % et la Pénétration DEF de 50 pendant 10 sec. Cet effet est cumulable 5 fois au maximum et ne peut pas être dissipé."
+    ],
+    "story": "Cette arme antique fut forgée par l'être le plus admirable qui soit. Pour se montrer digne de posséder cet arc, il faut se soumettre à des épreuves inouïes, car il ne peut être porté que par l'héritier du dieu-roi. Il confère un pouvoir absolu dans le désert."
+  },
+  "s1": {
+    "name": "Jugement du désert",
+    "description": "Inflige {0}  points de DEG P aux ennemis dans une large zone. À chaque ennemi touché, le temps de recharge de la compétence est réduit de 1 sec. Inflige {1}  points de DEG P aux ennemis touchés par [Marque du désert] et supprime 1 [Marque du désert]. À chaque utilisation de compétence, les DEG Crit augmentent de 5 %. Cet effet est cumulable 12 fois au maximum et ne peut être dissipé.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Le boost de DEG Crit par utilisation passe à 10 %.",
+    "dark": "L'ennemi touché est victime d'Aveuglement pendant 1 sec."
+  },
+  "s2": {
+    "name": "Bénédiction de l'esprit des sables",
+    "description": "Génère un bouclier autour de l'allié aux PV les plus bas. Il absorbe {1}  points de DEG pendant {0}  sec et confère l'immunité contre les contrôles. Une fois la durée du bouclier écoulée, Tempête de sable est activée et inflige {2}  points de DEG P aux ennemis dans une large zone, appliquant 2 [Marques du désert]. Si le bouclier est dissipé ou détruit, Tempête de sable ne s'active pas.",
+    "books": {
+      "0": "DEG et Bouclier sont augmentés de {0}%.",
+      "1": "DEG et Bouclier sont augmentés de {0}%.",
+      "2": "DEG et Bouclier sont augmentés de {0}%."
+    },
+    "light": "Le temps de recharge est réduit de 5 sec.",
+    "dark": "Les ennemis touchés par Tempête de sable sont repoussés très loin et renversés pendant 3 sec.",
+    "ut": {
+      "name": "Sable des mirages",
+      "description": [
+        "[Bénédiction de l'esprit des sables] Le bouclier absorbe 20 % de DEG supplémentaires et dissipe le contrôle qui pèse sur le lanceur.",
+        "[Bénédiction de l'esprit des sables] Le bouclier absorbe 24 % de DEG supplémentaires et dissipe le contrôle qui pèse sur le lanceur.",
+        "[Bénédiction de l'esprit des sables] Le bouclier absorbe 29 % de DEG supplémentaires et dissipe le contrôle qui pèse sur le lanceur.",
+        "[Bénédiction de l'esprit des sables] Le bouclier absorbe 35 % de DEG supplémentaires et dissipe le contrôle qui pèse sur le lanceur.",
+        "[Bénédiction de l'esprit des sables] Le bouclier absorbe 42 % de DEG supplémentaires et dissipe le contrôle qui pèse sur le lanceur.",
+        "[Bénédiction de l'esprit des sables] Le bouclier absorbe 50 % de DEG supplémentaires et dissipe le contrôle qui pèse sur le lanceur."
+      ],
+      "story": "Ce sablier resta enfoui pendant des lustres à la suite d'une colossale tempête de sable qui s'abattit sur le désert Aegina. Lorsque le sable s'en écoule, il reflète le mirage de la renaissance d'une civilisation antique. Le grand prêtre de ce royaume oublié s'en servait pour souligner la gloire du royaume devant ses fidèles. La vision de leur cité, brillante et parée d'or, les emplissait toujours d'une grande fierté."
+    }
+  },
+  "s3": {
+    "name": "Malédiction du désert",
+    "description": "Inflige {0}  points de DEG P aux ennemis situés en face dans une large zone et applique 1 [Marque du désert]. Ensuite, Puits de sable est activé pendant 5 sec, ce qui inflige {1}  points de DEG P toutes les 0,5 sec et réduit la DEF P de 30 % pendant 10 sec. Puits de sable a 25 % de chances d'appliquer 1 [Marque du désert] et d'attirer vers le centre tous les ennemis à portée.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Le coût en mana est réduit de 1 point.",
+    "dark": "La durée de Puits de sable augmente de 2 sec.",
+    "ut": {
+      "name": "Âme de l'oasis",
+      "description": [
+        "[Malédiction du désert] Le temps de recharge de la compétence est réduit de 30 % et les chances d'activation de l'effet augmentent de 8 %.",
+        "[Malédiction du désert] Le temps de recharge de la compétence est réduit de 30 % et les chances d'activation de l'effet augmentent de 9,6 %.",
+        "[Malédiction du désert] Le temps de recharge de la compétence est réduit de 30 % et les chances d'activation de l'effet augmentent de 11,5 %.",
+        "[Malédiction du désert] Le temps de recharge de la compétence est réduit de 30 % et les chances d'activation de l'effet augmentent de 13,8 %.",
+        "[Malédiction du désert] Le temps de recharge de la compétence est réduit de 30 % et les chances d'activation de l'effet augmentent de 16,5 %.",
+        "[Malédiction du désert] Le temps de recharge de la compétence est réduit de 30 % et les chances d'activation de l'effet augmentent de 20 %."
+      ],
+      "story": "Cette épée magique se transmet de génération en génération parmi les descendants du dieu-roi. Son nom, Oasis, vient de l'aide providentielle qu'elle leur a apportée dans l'adversité. Après la chute du royaume, elle fut perdue. Zafir l'aperçut dans la collection d'art de Kumuro et l'acheta à un prix inconcevable. Une fois l'épée restituée à son propriétaire légitime, Zafir hérita de l'esprit de ses ancêtres, ce qui décupla son potentiel."
+    }
+  },
+  "s4": {
+    "name": "Appel du gardien",
+    "description": "Chaque attaque auto a 15 % de chances d'infliger {0}  points de DEG P malgré la DEF de tous les ennemis, appliquant au passage 1 [Marque du désert]. [Marque du désert] est cumulable 5 fois au maximum.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Lorsque plus de 5 ennemis sont présents, ils accumulent tous 5 Marques du désert. Cet effet peut être activé une fois toutes les 20 sec.",
+    "dark": "Les chances d'activation passent à 30 %."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Chances Crit +100",
+    "dark": "Restaure 500 points de mana lors de l'utilisation d'une compétence. Si plus de 5 ennemis sont présents, le taux de récupération du mana est doublé et la Vit ATQ augmente de 500 points pendant 5 sec. Cet effet ne peut pas être cumulé."
+  }
+}

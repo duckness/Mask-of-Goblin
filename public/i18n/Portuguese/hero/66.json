@@ -1,0 +1,120 @@
+{
+  "name": "Shea",
+  "subtitle": "Ária da Fantasia",
+  "description": "Esta misteriosa garota cura as pessoas com as suas melodias cativantes. Sua linda voz e o belo som de sua harpa mágica têm poder curativo.",
+  "story": "'Ouvindo a bela melodia no campo de batalha faz com que eu me pergunte se estou mesmo no meio de um campo de batalha.” 'Eu deixei a espada cair da minha mão. Todos os outros soldados presentes também soltaram suas espadas.” 'Parecia que a garota estava em um plano de existência totalmente diferente, distante dos demais.” Esse incrível conto de uma garota de cabelos rosas – cuja aparição e apresentação repentina parou a batalha – rapidamente se espalhou. Sua bela melodia cativante e sua presença tímida e adorável cativou a imaginação de todos. No entanto, ninguém sabia ao certo de onde ela viera e para onde estava indo. 'Ela me pareceu um pouco estranha, o modo como estava conversando com o nada, como se houvesse alguém ali...” É claro que alguns apontaram teorias mais convincentes sobre o paradeiro da garota, mas sua beleza misteriosa abafou toda a especulação.",
+  "like": "Lindas melodias, brisas suaves",
+  "dislike": "Fantasmas, ghouls de abóbora",
+  "inn": {
+    "idle": "Lalala... lalala... ah?",
+    "recruit": {
+      "greet": "Sol Radiante, que amanhã seja outro dia feliz.",
+      "talk": [
+        "Vocês estão ouvindo? A melodia flutuando pelo vento...",
+        "Hmm... Você viu a minha harpa por aqui?",
+        "Shuwanheit e eu nos conhecemos pela primeira vez na floresta, sabe."
+      ],
+      "gift": "Obrigada... por isso, eu vou tocar uma música para você."
+    },
+    "affinity": {
+      "greet": "Estou aqui para abençoar você novamente!",
+      "talk": [
+        "Parece feliz. Posso sentir uma melodia deslumbrante vindo de você.",
+        "É a música dos espíritos da floresta. Ela não faz você se aquecer?"
+      ],
+      "gift": "Obrigada. Schwanheit ficará feliz."
+    },
+    "relationship": {
+      "greet": "Sua harmonia é repleta de calor e conforto.",
+      "talk": [
+        "Talvez você não saiba, mas Shuwanheit é bem tagarela.",
+        "Shuwanheit costuma mudar o tom da música, dependendo do humor.",
+        "Às vezes, eu gostaria de tocar sua própria música."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Melodia Encantadora, Schwanheite",
+    "description": [
+      "Quando Transe for acumulado, todas as recargas do poder serão reduzidas em 10% e recupera a própria Mana em 200.",
+      "Quando Transe for acumulado, todas as recargas do poder serão reduzidas em 12% e recupera a própria Mana em 240.",
+      "Quando Transe for acumulado, todas as recargas do poder serão reduzidas em 14% e recupera a própria Mana em 290.",
+      "Quando Transe for acumulado, todas as recargas do poder serão reduzidas em 17% e recupera a própria Mana em 350.",
+      "Quando Transe for acumulado, todas as recargas do poder serão reduzidas em 20% e recupera a própria Mana em 420.",
+      "Quando Transe for acumulado, todas as recargas do poder serão reduzidas em 25% e recupera a própria Mana em 500."
+    ],
+    "story": "Estes potentes e imponentes equipamentos são capazes de conversar com quem os utiliza e, às vezes, até dominam seus próprios donos. Schwanheit é considerado uma dessas armas incríveis. Essa harpa, que insiste em ser chamada de “Sr. Schute”, é capaz amplificar consideravelmente o mana do utilizador, pulverizando-o em volta de quem a manuseia. No entanto, dependendo de como é usada, ela pode se mostrar extremamente eficaz de outras maneiras. O Sr. Schute é bem tagarela, mas apenas com aqueles que considera seus amigos. Hoje em dia, ele fala apenas com Shea."
+  },
+  "s1": {
+    "name": "Melodia da Natureza Verde",
+    "description": "Cura um total de {0} de PV para todos os aliados por 8 vezes, e os aliados levam DAN reduzido em {1}% por 8 segundos. Se usada enquanto o Transe estiver acumulado 3 vezes, a Taxa de Cura dessa habilidade aumentará em 100% e alterará o Efeito de Redução de DAN para {2}%.",
+    "books": {
+      "0": "Aumenta a taxa de Recuperação em {0}%.",
+      "1": "Aumenta a taxa de Recuperação em {0}%.",
+      "2": "Aumenta a taxa de Recuperação em {0}%."
+    },
+    "light": "Cura 15% de PV de todos os aliados ao ser usada.",
+    "dark": "Aumenta a Resistência Crít de todos os aliados em 250 durante 8 segundos."
+  },
+  "s2": {
+    "name": "Canção do Vento Azul",
+    "description": "Recupera um total de {0} de PM para todos os aliados por 8 vezes, cura {1} de PV de um alvo com PM máx. e reduz a duração de CM em {2}% por 8 segundos. Se usada enquanto o Transe estiver acumulado 3 vezes, a Taxa de Cura e de Recuperação de PM dessa habilidade aumentará em 50% e todos os aliados ganharão Imunidade a CM durante 8 segundos.",
+    "books": {
+      "0": "Aumenta {0}% da Recuperação de PM.",
+      "1": "Aumenta {0}% da Recuperação de PM.",
+      "2": "Aumenta {0}% da Recuperação de PM."
+    },
+    "light": "Cura 500 de MP de todos os aliados ao ser usada.",
+    "dark": "Aumenta a Vel de ATQ de todos os aliados em 250 durante 8 segundos.",
+    "ut": {
+      "name": "Flor Tempestuosa",
+      "description": [
+        "[Canção do Vento Azul] Aumenta a PREC em 250 por 8s e recupera 160 PM a cada vez que um aliado usar uma habilidade.",
+        "[Canção do Vento Azul] Aumenta a PREC em 250 por 8s e recupera 190 PM a cada vez que um aliado usar uma habilidade.",
+        "[Canção do Vento Azul] Aumenta a PREC em 250 por 8s e recupera 230 PM a cada vez que um aliado usar uma habilidade.",
+        "[Canção do Vento Azul] Aumenta a PREC em 250 por 8s e recupera 270 PM a cada vez que um aliado usar uma habilidade.",
+        "[Canção do Vento Azul] Aumenta a PREC em 250 por 8s e recupera 330 PM a cada vez que um aliado usar uma habilidade.",
+        "[Canção do Vento Azul] Aumenta a PREC em 250 por 8s e recupera 400 PM a cada vez que um aliado usar uma habilidade."
+      ],
+      "story": "Uma flor que estava na cabeça de Shea um dia após apresentar a canção Felicidade do Vento. Segundo Schwanheit, a flor foi um presente das fadas da floresta em agradecimento por sua bela canção. Contém o desejo de Shea de que o vento leve a felicidade pelo mundo todo."
+    }
+  },
+  "s3": {
+    "name": "Dança Rubra da Paixão",
+    "description": "Causa um total de {0} de DAN M. em todos os inimigos por 8 vezes e aumenta o ATQ de todos os aliados em {1} por 8 segundos. Se usada enquanto o Transe estiver acumulado 3 vezes, os Impulsos de DAN e de ATQ dessa habilidade aumentarão em 100% e todos os bônus dos inimigos serão continuamente cancelados.",
+    "books": {
+      "0": "Aumento de ATQ reforçado em {0}%.",
+      "1": "Aumento de ATQ reforçado em {0}%.",
+      "2": "Aumento de ATQ reforçado em {0}%."
+    },
+    "light": "Reduz o tempo de recarga de habilidades em 10% para todos os aliados ao ser usada.",
+    "dark": "Todos os inimigos recebem 15% de DAN a mais durante 8 segundos.",
+    "ut": {
+      "name": "Coroa da Fada",
+      "description": [
+        "[Dança da Paixão Rubra] Durante a ativação, os inimigos são infligidos com Silenciar por 2 segundos, e o DAN Crit de todos os aliados aumentam em 20% durante o efeito do poder.",
+        "[Dança da Paixão Rubra] Durante a ativação, os inimigos são infligidos com Silenciar por 2 segundos, e o DAN Crit de todos os aliados aumentam em 24% durante o efeito do poder.",
+        "[Dança da Paixão Rubra] Durante a ativação, os inimigos são infligidos com Silenciar por 2 segundos, e o DAN Crit de todos os aliados aumentam em 29% durante o efeito do poder.",
+        "[Dança da Paixão Rubra] Durante a ativação, os inimigos são infligidos com Silenciar por 2 segundos, e o DAN Crit de todos os aliados aumentam em 35% durante o efeito do poder.",
+        "[Dança da Paixão Rubra] Durante a ativação, os inimigos são infligidos com Silenciar por 2 segundos, e o DAN Crit de todos os aliados aumentam em 42% durante o efeito do poder.",
+        "[Dança da Paixão Rubra] Durante a ativação, os inimigos são infligidos com Silenciar por 2 segundos, e o DAN Crit de todos os aliados aumentam em 50% durante o efeito do poder."
+      ],
+      "story": "Uma grinalda que estava na cabeça de Shea um dia depois que ela interpretou Canção de Ninar aos Sonhos na floresta. Segundo Schwanheit, foi um presente das fadas da floresta por sua pela canção. Diz-se que itens que passaram pelas mãos de fadas têm o poder de reverter uma alma de volta à sua forma mais pura."
+    }
+  },
+  "s4": {
+    "name": "Transe",
+    "description": "No final do poder, terá mais 1 acúmulo de Transe. Transe pode ser acumulado até no máximo 3 vezes, e se o poder for usado quando Transe acumular até 3 vezes, consome o acúmulo para curar {0} de PV de todos os aliados. Transe não pode ser removido.",
+    "books": {
+      "0": "Aumenta a taxa de Recuperação em {0}%.",
+      "1": "Aumenta a taxa de Recuperação em {0}%.",
+      "2": "Aumenta a taxa de Recuperação em {0}%."
+    },
+    "light": "Aumenta a taxa de Cura do Transe em 100%.",
+    "dark": "Se uma habilidade for usada quando houver 3 acúmulos de Transe, inflige DAN M. nos inimigos em vez de curar aliados e reduz toda a DEF em 10% por 10 seg."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / Resist. CM +100",
+    "dark": "No início de cada batalha, adiciona 1 acúmulo de Transe e recupera 500 de MP."
+  }
+}

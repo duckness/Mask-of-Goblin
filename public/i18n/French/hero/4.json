@@ -1,0 +1,120 @@
+{
+  "name": "Roy",
+  "subtitle": "Assassin Rapide",
+  "description": "Autrefois assassin, son passé reste inconnu. Il est spécialiste des cibles isolées, il lance sans fin de puissantes attaques sur ses ennemis tout en courant autour d'eux sans être vu.",
+  "story": "Dominiks lui a demandé de servir d'escorte à Cleo et de la protéger. Cet ancien membre d'un groupe d'assassins a risqué sa vie avant de vivre en solitaire pour des raisons inconnues. Du fait de son passé d'assassin, il manque souvent de respect envers les autres, mais les épreuves qu'il a traversées ont fait de lui un homme expérimenté et futé, qui traite honnêtement ceux qui lui viennent en aide.",
+  "like": "Sa propre personne",
+  "dislike": "Son passé",
+  "inn": {
+    "idle": "......",
+    "recruit": {
+      "greet": "Qu'est-ce que c'est.",
+      "talk": [
+        "J'apprécierais que vous ne demandiez rien à propos du passé.",
+        "Ça fait un moment que ça n'a pas été aussi calme. J'espère juste que Cleo ne va rien déclencher.",
+        "Arrêtez d'essayer de me mettre en couple avec Cleo. Il y a déjà Frey, ça suffit. Je fais ça uniquement parce que ça doit être fait."
+      ],
+      "gift": "Je ne sais pas si je mérite ça..."
+    },
+    "affinity": {
+      "greet": "Dites, vous devriez vous reposer un peu.",
+      "talk": [
+        "Vous n'en avez pas marre, de tout ça ? Je suis responsable de Cleo... Et il paraît qu'elle va jouer un rôle important, à présent.",
+        "Vous avez déjà fait quelque chose que vous avez regretté ? Eh bien, si vous pensez que vous allez le regretter, arrêtez tout de suite."
+      ],
+      "gift": "Vous n'oubliez jamais... Merci."
+    },
+    "relationship": {
+      "greet": "Ah, Vous êtes venu.",
+      "talk": [
+        "Aidez Kasel quand vous le pouvez. Il a un lourd fardeau.",
+        "Bien que je ne soit pas du genre dévot, je compte aussi sur Lua. Je ne peux rien faire d'autre que prier pour des gens que j'ai tué, après tout...",
+        "Je ne dois plus me lamenter sur le passé. Il ne peut pas être changé. Mais ce qui peut être changé, c'est le futur."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Redeal, Souffle du Spectre",
+    "description": [
+      "Chaque attaque automatique a 25% de chance d'infliger des DEG P. sur l'ennemi (50% de l'ATQ) et applique l'effet Saignement",
+      "Chaque attaque automatique a 28% de chance d'infliger des DEG P. sur l'ennemi (60% de l'ATQ) et applique l'effet Saignement",
+      "Chaque attaque automatique a 31% de chance d'infliger des DEG P. sur l'ennemi (72% de l'ATQ) et applique l'effet Saignement",
+      "Chaque attaque automatique a 34% de chance d'infliger des DEG P. sur l'ennemi (86% de l'ATQ) et applique l'effet Saignement",
+      "Chaque attaque automatique a 37% de chance d'infliger des DEG P. sur l'ennemi (103% de l'ATQ) et applique l'effet Saignement",
+      "Chaque attaque automatique a 40% de chance d'infliger des DEG P. sur l'ennemi (125% de l'ATQ) et applique l'effet Saignement"
+    ],
+    "story": "Le groupe d'assassins connu sous le nom de Masque Rieur a longtemps régné sur le monde de la pègre d'Orvel. Seul le meilleur assassin du Masque Rieur a le droit de manier cette terrible paire de dagues. On dit que les blessures infligées ne guérissent jamais et que ses victimes saignent à mort. D'après la légende, ces dagues furent forgées à partir de la faux de la Faucheuse."
+  },
+  "s1": {
+    "name": "Impitoyable",
+    "description": "Attaque 3 fois un ennemi choisi au hasard, ce qui lui inflige un total de {0}  points de DEG P ainsi que 1 charge de Saignement, qui inflige {2}  points de DEG P pendant {1}  sec. Saignement peut être accumulé jusqu'à 3 fois.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG Crit de {0}%."
+    },
+    "light": "Coût en mana réduit de 1.",
+    "dark": "La cible subit 25% de DEG P. supplémentaires pendant 10 sec."
+  },
+  "s2": {
+    "name": "Rideau de l'Ombre",
+    "description": "ATQ augmentée de {1} pendant {0} sec et esquive toutes les attaques de DEG P.",
+    "books": {
+      "0": "Le taux d'augmentation de l'ATQ est augmenté de  {0}%.",
+      "1": "Le taux d'augmentation de l'ATQ est augmenté de  {0}%.",
+      "2": "Augmente la Vit. d'ATQ de  {0}  pour la durée."
+    },
+    "light": "Bonus d'ATQ augmenté de 40%.",
+    "dark": "Les DEG des attaques auto sont augmentés de 100% pendant la durée.",
+    "ut": {
+      "name": "Capuche de soma",
+      "description": [
+        "[Rideau de l'ombre] Augmente le boost d'ATQ de 20 % et donne une résistance aux contrôles de 400 pendant la durée de la compétence.",
+        "[Rideau de l'ombre] Augmente le boost d'ATQ de 24 % et donne une résistance aux contrôles de 400 pendant la durée de la compétence.",
+        "[Rideau de l'ombre] Augmente le boost d'ATQ de 29 % et donne une résistance aux contrôles de 400 pendant la durée de la compétence.",
+        "[Rideau de l'ombre] Augmente le boost d'ATQ de 35 % et donne une résistance aux contrôles de 400 pendant la durée de la compétence.",
+        "[Rideau de l'ombre] Augmente le boost d'ATQ de 42 % et donne une résistance aux contrôles de 400 pendant la durée de la compétence.",
+        "[Rideau de l'ombre] Augmente le boost d'ATQ de 50 % et donne une résistance aux contrôles de 400 pendant la durée de la compétence."
+      ],
+      "story": "Capuche menaçante confectionnée selon la méthode secrète du Masque Rieur. Elle a été élaborée à partir du soma légendaire, supposé conférer une vitalité infinie, et du secret du Masque Rieur. La capuche de soma améliore le moral d’un assassin à l’intérieur d’un rideau noir, ce qui augmente son ATQ et sa dextérité, permettant ainsi d’améliorer son Esquive P."
+    }
+  },
+  "s3": {
+    "name": "GriffeLame",
+    "description": "Attaque par derrière l'ennemi ayant le moins de PV et inflige [FFC800] {0}  DEG P. Chaque application de Saignement sur l'ennemi inflige  {1}% points de DEG supplémentaires. Les effets de Saignement sont ensuite retirés. En cas de Crit, 2 PM sont restitués et le temps de recharge de la compétence est réinitialisé.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG Crit de {0}%."
+    },
+    "light": "Pour un coût de 1 MP supplémentaire, les DEG infligés sont augmentés de 100%.",
+    "dark": "Le Temps de recharge est supprimé.",
+    "ut": {
+      "name": "Masque fêlé",
+      "description": [
+        "[GriffeLame] Les DEG sont augmentés de 20% et chaque Crit rend 300 mana.",
+        "[GriffeLame] Les DEG sont augmentés de 24% et chaque Crit rend 300 mana.",
+        "[GriffeLame] Les DEG sont augmentés de 29% et chaque Crit rend 300 mana.",
+        "[GriffeLame] Les DEG sont augmentés de 35% et chaque Crit rend 300 mana.",
+        "[GriffeLame] Les DEG sont augmentés de 42% et chaque Crit rend 300 mana.",
+        "[GriffeLame] Les DEG sont augmentés de 50% et chaque Crit rend 300 mana."
+      ],
+      "story": "Le masque que Roi détruisit lorsqu’il quitta les assassins du Masque Rieur. Les assassins visent les points vitaux de leurs ennemis et ils portent des masques pour cacher leurs émotions lorsqu’ils éliminent leurs cibles. Roi fait face au masque brisé et se glisse derrière ses ennemis pour les tuer avec sa GriffeLame afin de protéger ses amis."
+    }
+  },
+  "s4": {
+    "name": "Piratage",
+    "description": "Si une attaque normale aboutit à un coup critique, la cible est attaquée 6 fois, ce qui lui inflige un total de {0}  points de DEG P supplémentaires.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG Crit de {0}%."
+    },
+    "light": "Chaque attaque rend 300 PM.",
+    "dark": "A 50% de chances d'appliquer 1 charge de Saignement."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / DEG Crit +20%",
+    "dark": "Lors d'un Crit, il y a 10% de chances d'augmenter la Vit ATQ de 300 et les DEG Crit de 60% pendant 5 sec. Ne peut pas se déclencher pendant la durée d'activation."
+  }
+}

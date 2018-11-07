@@ -1,0 +1,120 @@
+{
+  "name": "Viska",
+  "subtitle": "Mangeuse de Démons",
+  "description": "Une démone rebelle, qui cherche à dévorer les autres démons pour asseoir son propre pouvoir. Elle a voyagé dans la faille dimensionnelle pour chasser les puissants démons du Monde Matériel. Ses pointes ne sont là que pour déchirer ses ennemis.",
+  "story": "Une tête brûlée parmi les démons cherchant à gagner en puissance en dévorant d'autres démons puissants. Elle est le symbole vivant de ce qui existe de pire chez les démons. Elle traversa la fissure dimensionnelle pour trouver et dévorer les démons qui se sont rendus sur le royaume terrestre. Elle a limité son propre pouvoir en prenant l'aspect d'une jeune fille malade, afin de mieux humilier ses victimes. Elle déteste les faibles qui se prétendent forts. D'un autre côté, elle respecte ceux qui sont conscients de leur propre faiblesse et qui risquent leur vie pour gagner en puissance.",
+  "like": "Combattre de puissants démons et les dévorer ensuite",
+  "dislike": "Les faibles",
+  "inn": {
+    "idle": "Eh... pas de Démons? J'ai faim...",
+    "recruit": {
+      "greet": "Salut. Une petite collation? Des Démons?",
+      "talk": [
+        "Si je ne trouve pas quelque chose à manger rapidement, elle va faire sa crise... Eh? Ah, c'est rien du tout. Ahahah... Fiou.",
+        "J'ai la dalle... Hé, savez-vous s'il y a des Démons un peu costauds dans le coin?",
+        "Ça? La marque d'un pacte avec un Démon. Je n'en connais pas les détails."
+      ],
+      "gift": "Qu'est-ce que c'est? Est-ce que je peux le manger?"
+    },
+    "affinity": {
+      "greet": "Oh, je crois sentir quelque chose de délicieux !",
+      "talk": [
+        "J'ai faim... Vous avez quelque chose à manger ? Rien du tout ? Vraiment ?",
+        "L'âme des démons est ce qu'il y a de meilleur, mais la nourriture normale, ce n'est pas mal non plus !"
+      ],
+      "gift": "Quelque chose de bon ! Quelque chose de bon !"
+    },
+    "relationship": {
+      "greet": "Hé ici. J'ai toujours faim, vous savez...",
+      "talk": [
+        "Moi? Eh bien, je suis juste une fille normale du village... possédée par un Démon. Ni plus, ni moins.",
+        "Ma forme pendant les batailles? Ah, c'est Viska, le Démon qui est en moi. Normalement, elle me laisse le contrôle de mon corps, mais quand nous nous battons...",
+        "Je ne ressens rien en mangeant des Démons. En fait, ils le méritent plutôt... Et, nous deux ne sommes maintenant plus qu'un..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Kitrax, Croc Cauchemardesque",
+    "description": [
+      "Les ennemis dont l'âme a été volée reçoivent 25% points de DEG M. supplémentaires. Dure 10 sec.",
+      "Les ennemis dont l'âme a été volée reçoivent 30% points de DEG M. supplémentaires. Dure 10 sec.",
+      "Les ennemis dont l'âme a été volée reçoivent 36% points de DEG M. supplémentaires. Dure 10 sec.",
+      "Les ennemis dont l'âme a été volée reçoivent 43% points de DEG M. supplémentaires. Dure 10 sec.",
+      "Les ennemis dont l'âme a été volée reçoivent 51% points de DEG M. supplémentaires. Dure 10 sec.",
+      "Les ennemis dont l'âme a été volée reçoivent 60% points de DEG M. supplémentaires. Dure 10 sec."
+    ],
+    "story": "Kitrax, le Croc Cauchemardesque, était considérée comme la plus redoutable des succubes. Après avoir dévoré Kitrax corps et âme, Viska acquit son arme la plus puissante. Cet épieu constitue la représentation physique de la peur et du désespoir. La mort est l'unique sort réservé à ses infortunées victimes. Cette arme instille constamment la peur dans l'âme de sa victime, changeant les adversaires les plus impressionnants à de simples proies apeurées."
+  },
+  "s1": {
+    "name": "L'heure du Repas!!",
+    "description": "Inflige {0} points de DEG M. aux ennemis à portée et réduit leur ATQ de {1}% pendant 10 sec. Augmente également l'ATQ du Héros de {2}. 3 charges d'Âmes entravent l'ennemi pendant 3 sec.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "Le taux d'augmentation d'ATQ est augmenté de {0}%."
+    },
+    "light": "Pour un coût de 1 MP supplémentaire, le Temps de recharge est réduit de 4 sec.",
+    "dark": "La condition de l'Âme pour l'Entrave est supprimé."
+  },
+  "s2": {
+    "name": "Démembrement!!",
+    "description": "Le Héros se déplace derrière la cible, retire ses Améliorations et lui inflige {0} points de DEG M. et le renverse. 3 charges d'Âmes réduisent la DEF M. de l'ennemi de {1}%.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "L'ennemi reçoit {0}% de DEG M. supplémentaires pendant la durée."
+    },
+    "light": "Le coût en Mana est réduit de 1.",
+    "dark": "La condition de l'Âme pour la réduction de DEF M. est supprimée.",
+    "ut": {
+      "name": "Griffe de bête en furie",
+      "description": [
+        "[Démembrement !] Réduit le temps de recharge de 30 % et ajoute 8 % de réduction de DEF M.",
+        "[Démembrement !] Réduit le temps de recharge de 30 % et ajoute 10 % de réduction de DEF M.",
+        "[Démembrement !] Réduit le temps de recharge de 30 % et ajoute 12 % de réduction de DEF M.",
+        "[Démembrement !] Réduit le temps de recharge de 30 % et ajoute 14 % de réduction de DEF M.",
+        "[Démembrement !] Réduit le temps de recharge de 30 % et ajoute 17 % de réduction de DEF M.",
+        "[Démembrement !] Réduit le temps de recharge de 30 % et ajoute 20 % de réduction de DEF M."
+      ],
+      "story": "Griffe d’Urgol, la bête magique violente qui mangerait les âmes. Le jour où Viska décida de chasser dans le monde matériel, elle dévora Urgol du monde des démons. Associée à la capacité de Viska d’absorber le pouvoir d’autrui, cette griffe libéra ainsi un pouvoir immense. Elle est indispensable pour dévorer les démons qui ont péri dans le monde matériel."
+    }
+  },
+  "s3": {
+    "name": "Je vais vous déchirer!!",
+    "description": "Inflige {0}  points de DEG M aux ennemis situés l'intérieur de la vaste zone d'impact et les étourdit pendant 3 secondes. Si vous avez accumulé 5 charges d'âmes, celles-ci sont consommées pour réinitialiser le temps de recharge de la compétence.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "Les ennemis proches sont encerclés juste avant l'attaque."
+    },
+    "light": "L'effet qui consommait 5 Âmes n'en consomme plus.",
+    "dark": "Le coût en Mana est réduit de 1.",
+    "ut": {
+      "name": "Âme de démon géant",
+      "description": [
+        "[Je vais vous déchirer!!] Donne une immunité aux Contrôles pendant la durée de la compétence et à chaque utilisation, les DEG sont augmentés de 4%. Cumulable 10 fois.",
+        "[Je vais vous déchirer!!] Donne une immunité aux Contrôles pendant la durée de la compétence et à chaque utilisation, les DEG sont augmentés de 4.8%. Cumulable 10 fois.",
+        "[Je vais vous déchirer!!] Donne une immunité aux Contrôles pendant la durée de la compétence et à chaque utilisation, les DEG sont augmentés de 5.8%. Cumulable 10 fois.",
+        "[Je vais vous déchirer!!] Donne une immunité aux Contrôles pendant la durée de la compétence et à chaque utilisation, les DEG sont augmentés de 7%. Cumulable 10 fois.",
+        "[Je vais vous déchirer!!] Donne une immunité aux Contrôles pendant la durée de la compétence et à chaque utilisation, les DEG sont augmentés de 8.4%. Cumulable 10 fois.",
+        "[Je vais vous déchirer!!] Donne une immunité aux Contrôles pendant la durée de la compétence et à chaque utilisation, les DEG sont augmentés de 10%. Cumulable 10 fois."
+      ],
+      "story": "Une forme cristallisée de l’âme du grand démon Curapis, qui a le pouvoir de devenir énorme. Il fut un des premiers démons chassés par Viska dans le monde des démons et on dit qu’il utilisait son corps énorme pour dominer ses ennemis. Cependant, le combat n’est pas qu’une question de force, il faut faire preuve d’intelligence. Le démon géant fut vaincu et dévoré par une prédatrice plus futée. Viska obtient le pouvoir de devenir énorme et elle l’utilise librement à présent."
+    }
+  },
+  "s4": {
+    "name": "Âmes Délicieuses!",
+    "description": "Les ennemis attaqués avec les compétences de Viska perdent leurs âmes. Lorsqu'elles n'ont plus d'âmes, les cibles reçoivent {0}  points de DEG M supplémentaires pour chaque âme accumulée, Viska récupère {1}  PV et 300 mana. Les âmes perdurent jusqu'à leur utilisation, ne peuvent pas être dissipées et sont cumulables 5 fois.",
+    "books": {
+      "0": "DEG et Récupération augmentés de {0}%.",
+      "1": "DEG et Récupération augmentés de {0}%.",
+      "2": "Les ennemie dont l'Âme a été volée perdent {0} PM."
+    },
+    "light": "La résistance aux Contrôles des ennemis qui ont perdu leurs âmes est réduite de 250 points pendant 10 secondes.",
+    "dark": "Pour chaque charge d'Âme, l'ATQ est augmentée de 10%"
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Chances Crit +100",
+    "dark": "Pour chaque âme accumulée, les chances de coup critique augmentent de 50 points et les DEG Crit augmentent de 30 %"
+  }
+}

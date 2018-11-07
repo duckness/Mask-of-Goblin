@@ -1,0 +1,120 @@
+{
+  "name": "Fluss",
+  "subtitle": "Cuchilla Ondeante",
+  "description": "El vice capitán de la Guardia Imperial. Su hoja sónica corta incluso la magia. Es capaz de atacar primero a los enemigos más peligrosos.",
+  "story": "Como hijo del comandante de los caballeros imperiales, ha recibido entrenamiento riguroso desde su niñez para convertirse en un verdadero espadachín. Nadie puede dudar de su título como el espadachín más rápido en el palacio imperial. El número de caballeros enemigos que ha derrotado en el campo de batalla es un testamento de sus habilidades. Subió rápidamente al rango como vice capitán de la Guardia Imperial y es el sujeto admirado por todos. Aunque es consciente de su hermosa apariencia, odia a quienes se le aproximan por su belleza exterior. Él considera que la belleza interna es más importante de lo que es visible. Sin embargo, es un tanto hipócrita cuando, a veces, es cautivado por su propia belleza.",
+  "like": "Tus ojos",
+  "dislike": "Aquellos que no entienden el romance",
+  "inn": {
+    "idle": "No es muy diferente de las Posadas en el Imperio, lo garantizo.",
+    "recruit": {
+      "greet": "Eres un gran trabajador",
+      "talk": [
+        "Ah, la brisa fresca del Imperio - cómo la extraño.",
+        "El entrenamiento constante es la manera de mejorar tus habilidades.",
+        "Sólo hay otra persona con la que podría hablar tan libremente..."
+      ],
+      "gift": "Un brindis por tu espíritu."
+    },
+    "affinity": {
+      "greet": "Ya que me invitaste, traje unas flores.",
+      "talk": [
+        "Las personas son como espadas. Debes seguir cultivándote para convertirte en un caballero de verdad.",
+        "Pavel me cae muy mal. Abandonar a Rodina de esa manera..."
+      ],
+      "gift": "Agradezco tu amabilidad."
+    },
+    "relationship": {
+      "greet": "Un brindis por tu... no, mejor ahí me detengo",
+      "talk": [
+        "Mi casa no era originalmente parte del Imperio.",
+        "Esta flor es una ofrenda a la tierra de mis ancestros. Es un símbolo, un recuerdo de su tierra caída.",
+        "Nuestra Orden es solo una fachada, en su mayoría compuesta por niños sin experiencia de familias nobles. Los verdaderos guerreros temerosos están en otra parte..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Espadas Gemelas de Furia, Veralta",
+    "description": [
+      "Aumenta el Ataque en un 12 % y la Velocidad de ataque en 120 durante 30 segundos cada 7 segundos. Este efecto se puede acumular hasta 3 veces y no se puede eliminar.",
+      "Aumenta el Ataque en un 14 % y la Velocidad de ataque en 140 durante 30 segundos cada 7 segundos. Este efecto se puede acumular hasta 3 veces y no se puede eliminar.",
+      "Aumenta el Ataque en un 17 % y la Velocidad de ataque en 170 durante 30 segundos cada 7 segundos. Este efecto se puede acumular hasta 3 veces y no se puede eliminar.",
+      "Aumenta el Ataque en un 20 % y la Velocidad de ataque en 200 durante 30 segundos cada 7 segundos. Este efecto se puede acumular hasta 3 veces y no se puede eliminar.",
+      "Aumenta el Ataque en un 25 % y la Velocidad de ataque en 250 durante 30 segundos cada 7 segundos. Este efecto se puede acumular hasta 3 veces y no se puede eliminar.",
+      "Aumenta el Ataque en un 30 % y la Velocidad de ataque en 300 durante 30 segundos cada 7 segundos. Este efecto se puede acumular hasta 3 veces y no se puede eliminar."
+    ],
+    "story": "Un conjunto de armas encantadas otorgadas al abuelo de Fluss, un caballero natural de la República de Gray, y transferidas como tesoros familiares. Son capaces de mejorar gradualmente las habilidades físicas de su portador, permitiéndole romper las barreras de los límites humanos y obtener poder y velocidad sobrenaturales. Debido a su efecto gradual, no hay estrés repentino para el cuerpo del portador. Cada pieza se llama Sangre y Rosa, respectivamente. Los nombres provienen del remolino de sangre salpicada y los pétalos de flores que aparecen cuando Fluss agita sus espadas gemelas. Ningún otro guerrero ha sido capaz de utilizar su potencial como Fluss lo hace."
+  },
+  "s1": {
+    "name": "Cuchilla de la Tempestad",
+    "description": "Ataca al objetivo y a los enemigos cercanos 3 veces, lo que causa un total de {0} de Daño físico. Si el objetivo no es un héroe, inflige un total de {1} de Daño físico adicional durante 5 segundos.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Ignora DEF cuando sólo hay un enemigo.",
+    "dark": "Luego de un Golpe Crit, el tiempo de reutilización se reduce en un 6%."
+  },
+  "s2": {
+    "name": "Paso de Destello",
+    "description": "Se dirige hacia el enemigo con el ATQ más alto y lo Silencia durante 2 seg. La reducción de Daño Mágico se incrementa en {1} por {0} seg. Deja una Marca sobre el enemigo por {2} segundos, y el ataque prioriza el objetivo marcado. Al atacar a los enemigos Marcados, causa {3} Daño Fis. adicional.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "A cambio de 1 Mana adicional, el tiempo de reutilización se reduce en 5 segundos.",
+    "dark": "Disipa los efectos positivos del enemigo.",
+    "ut": {
+      "name": "Perfume tentador",
+      "description": [
+        "[Paso de destello] Cambia la marca inamovible y aumenta el Ataque en un 20 % durante 10 segundos una vez que se elimina al enemigo con la marca.",
+        "[Paso de destello] Cambia la marca inamovible y aumenta el Ataque en un 24 % durante 10 segundos una vez que se elimina al enemigo con la marca.",
+        "[Paso de destello] Cambia la marca inamovible y aumenta el Ataque en un 29 % durante 10 segundos una vez que se elimina al enemigo con la marca.",
+        "[Paso de destello] Cambia la marca inamovible y aumenta el Ataque en un 35 % durante 10 segundos una vez que se elimina al enemigo con la marca.",
+        "[Paso de destello] Cambia la marca inamovible y aumenta el Ataque en un 42 % durante 10 segundos una vez que se elimina al enemigo con la marca.",
+        "[Paso de destello] Cambia la marca inamovible y aumenta el Ataque en un 50 % durante 10 segundos una vez que se elimina al enemigo con la marca."
+      ],
+      "story": "Perfume que contiene las primeras rosas del año de Vivienne. Las rosas de Vivienne son hermosas pero mortales. Aquellos afectados por el olor alucinarán y se quedarán mirando en asombro mientras sus oponentes se mueven."
+    }
+  },
+  "s3": {
+    "name": "Petalos Sangrientos",
+    "description": "Causa un total de {0} de Daño físico a un enemigo durante 16 ataques, y aplasta al objetivo mientras se lanza. Este Daño ignora los efectos de Bloquear del objetivo.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Cada golpe crítico incrementa el Daño del último golpe en un 10%.",
+    "dark": "Durante el tiempo de reutilización, el Daño del ataque automático aumenta en un 50%.",
+    "ut": {
+      "name": "Rosa de la inmortalidad",
+      "description": [
+        "[Pétalos Sangrientos] El Daño aumenta en un 20% y evade todos los ATQ Mágicos al activarse la habilidad.",
+        "[Pétalos Sangrientos] El Daño aumenta en un 24% y evade todos los ATQ Mágicos al activarse la habilidad.",
+        "[Pétalos Sangrientos] El Daño aumenta en un 29% y evade todos los ATQ Mágicos al activarse la habilidad.",
+        "[Pétalos Sangrientos] El Daño aumenta en un 35% y evade todos los ATQ Mágicos al activarse la habilidad.",
+        "[Pétalos Sangrientos] El Daño aumenta en un 42% y evade todos los ATQ Mágicos al activarse la habilidad.",
+        "[Pétalos Sangrientos] El Daño aumenta en un 50% y evade todos los ATQ Mágicos al activarse la habilidad."
+      ],
+      "story": "Una rosa que nunca se marchitará, ni siquiera después de cortarla. A Fluss le encanta esta flor. Le recuerda los deberes de los caballeros, que son la base de su férrea determinación, su principal característica que le permite estar segurode símismoen el campo de batalla."
+    }
+  },
+  "s4": {
+    "name": "Cortador de Hechizos",
+    "description": "Causa {1}  Daño Fisico a los enemigos que le causaron Daño Magico a este héroe cada {0} seg, y esquiva todos los siguientes Daños Magicos por {2} seg.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Al esquivar, eleva el ATQ en un 3%. Se acumula hasta 10 veces.",
+    "dark": "Tiene un 30% de probabilidad de aturdir a los enemigos durante 3 seg."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Evasion Magica +100",
+    "dark": "Al atacar, causa Daño Fis adicional igual al 20% del ATQ al enemigo. También hay un 10% de probabilidad de causar el doble de Daño Fis y disipar los efectos positivos."
+  }
+}

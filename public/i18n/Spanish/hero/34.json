@@ -1,0 +1,120 @@
+{
+  "name": "Annette",
+  "subtitle": "Tecnico Real",
+  "description": "Una genia tecnomaga que espera que algun día todos accedan a la magia. Su golem tecnomágico actúa como su arma, alejando al enemigo",
+  "story": "Una tecnomaga genio del reino de Orvelia. Es altamente optimista y las derrotas nunca parecen molestarla. Sueña con un día inventar un dispositivo que permita a cualquiera hacer magia. Ha diseñado mágicamente a su asistente que ha traído a la vida después de años de investigación. Después de la llegada de los demonios, ella incorporó su investigación a desarrollar armas que permitirían a cualquiera luchar contra los invasores.",
+  "like": "Tecnomagia, fondos de investigación",
+  "dislike": "Gente que menosprecia la tecnomagia",
+  "inn": {
+    "idle": "Wow, hay gente por todas partes! Muy diferente de mi laboratorio en el castillo!",
+    "recruit": {
+      "greet": "Hola ~ ¿Te interesa la tecnomagia?",
+      "talk": [
+        "Todo el mundo tiene derecho a la magia! Sólo deseo que se cumpla!",
+        "El palacio real me brinda bastante financiación para investigar... pero todavía falta!",
+        "Huh? No parecía un huevo, cariño?"
+      ],
+      "gift": "Jeje ¡Gracias por la donación a los fondos de investigación!"
+    },
+    "affinity": {
+      "greet": "¡Experimentos! ¡Cómo me divierten los experimentos! ¿Eh? ¿Hola?",
+      "talk": [
+        "¡Los pequeños están creciendo cada vez más! ¡Pronto podré enviarlos a la acción!",
+        "Un pequeñito para cada uno, ¿qué tal?"
+      ],
+      "gift": "Je, je. ¡Conseguiré muchos fondos!"
+    },
+    "relationship": {
+      "greet": "Hola! Estudiaste mucho hoy?",
+      "talk": [
+        "Siiiiiiii !! Ahora, vamos a hacer un experimento basado en mi última tésis.",
+        "Obtuve un aumento en mis honorarios de investigación! Gracias a eso, puedo hacer mucho más en mi laboratorio!",
+        "Quiero compartir mis chicas con todos!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Tecno Magia Cristalizada, Rascal",
+    "description": [
+      "Cada 1,5 segundos, obten 1 pila de Carga Mágica y recupera 1% de maná.",
+      "Cada 1,4 segundos, obten 1 pila de Carga Mágica y recupera 1% de maná.",
+      "Cada 1,3 segundos, obten 1 pila de Carga Mágica y recupera 1% de maná.",
+      "Cada 1,1 segundos, obten 1 pila de Carga Mágica y recupera 1% de maná.",
+      "Cada 0,9 segundos, obten 1 pila de Carga Mágica y recupera 1% de maná.",
+      "Cada 0,7 segundos, obten 1 pila de Carga Mágica y recupera 1% de maná."
+    ],
+    "story": "La esencia de tecnomagia, creada basada en la teoría de Annete. Cinco de los hechiceros de corte de más alto rango de Orvel han puesto sus energías para crear este mágico ser. Tiene su propia voluntad, por lo cual es capaz de tomar decisiones independientes y reaccionar ante ellas. A pesar que comparte mana con Annette, también utiliza cualquier otro mana disponible cercano. Como tal, es primer gran hito proveniente del esfuerzo de Annette para hacer que la magia esté disponible para todos."
+  },
+  "s1": {
+    "name": "Rayo Explosivo",
+    "description": "Ataca a los enemigos en una línea recta, causando  {0}  Daño Magico a objetivos y aumentando su Daño Magico recibido en  {1}%. Mientras estes Sobrecargado, causa {2}  Daño Magico adicional y aumenta su Daño Magico recibido en  {3}%.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Durante el uso, la cantidad de Carga obtenida aumenta en un 30%."
+    },
+    "light": "El objetivo recibe un 25% de Daño Magico aumentado durante 10 seg.",
+    "dark": "La cantidad de la carga se incrementa en un 40% cuando se utiliza."
+  },
+  "s2": {
+    "name": "Tratamiento de Emergencia",
+    "description": "Borrar todos los efectos negativos de los aliados y curar la  {0}  Salud durante 10 seg mientras aumenta la Resistencia al Debilitamiento en 250. Al estar Sobrecargado, todos los aliados obtienen  {1}  Oportunidad Crit y son inmunes a los efectos.",
+    "books": {
+      "0": "la Recuperacion aumenta en {0}%.",
+      "1": "la Recuperacion aumenta en {0}%.",
+      "2": "Durante el uso, la cantidad de Carga obtenida aumenta en un 30%."
+    },
+    "light": "El tiempo de reutilización se reduce en 3 segundos.",
+    "dark": "La cantidad de la carga se incrementa en un 40% cuando se utiliza.",
+    "ut": {
+      "name": "Misiva de sanación",
+      "description": [
+        "[Tratamiento de emergencia] Reduce el Costo de Mana en 1 y aumenta la Tasa de curación en un 20 %.",
+        "[Tratamiento de emergencia] Reduce el Costo de Mana en 1 y aumenta la Tasa de curación en un 24 %.",
+        "[Tratamiento de emergencia] Reduce el Costo de Mana en 1 y aumenta la Tasa de curación en un 29 %.",
+        "[Tratamiento de emergencia] Reduce el Costo de Mana en 1 y aumenta la Tasa de curación en un 35 %.",
+        "[Tratamiento de emergencia] Reduce el Costo de Mana en 1 y aumenta la Tasa de curación en un 42 %.",
+        "[Tratamiento de emergencia] Reduce el Costo de Mana en 1 y aumenta la Tasa de curación en un 50 %."
+      ],
+      "story": "Una misiva de sanación para emergencias. Es un producto de la sociedad secreta de ingeniería mágica, el taller de Babel durante el mes, “¡Las batallas se sirven solas! Al ganar misivas en las batallas de misivas mecánicas”. Creado por Annette, es una habilidad que puede sanar a los aliados simplemente por medio de ingeniería, sin prestarse ningún poder mágico de sanación."
+    }
+  },
+  "s3": {
+    "name": "Proceso de Eliminacion",
+    "description": "Apunta a un enemigo aleatorio, disparando una bola de energía que explota causando  {0}  Daño Magico a enemigos cercanos. Al estar Sobrecargado causa  {1}  Daño Magico y aturde a los enemigos durante 5 segundos cuando explote la bola.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Durante el uso, la cantidad de Carga obtenida aumenta en un 30%."
+    },
+    "light": "el Daño se incrementa en un 40%.",
+    "dark": "El Objetivo recibe un 25% de Daño Magico aumentado",
+    "ut": {
+      "name": "Código de aniquilación",
+      "description": [
+        "[Proceso de Eliminación] El Daño aumenta en un 20% y luego del ATQ, obtiene 2 pilas de Carga. Esta pila se puede obtener en estado de Sobrecarga.",
+        "[Proceso de Eliminación] El Daño aumenta en un 24% y luego del ATQ, obtiene 2 pilas de Carga. Esta pila se puede obtener en estado de Sobrecarga.",
+        "[Proceso de Eliminación] El Daño aumenta en un 29% y luego del ATQ, obtiene 2 pilas de Carga. Esta pila se puede obtener en estado de Sobrecarga.",
+        "[Proceso de Eliminación] El Daño aumenta en un 35% y luego del ATQ, obtiene 2 pilas de Carga. Esta pila se puede obtener en estado de Sobrecarga.",
+        "[Proceso de Eliminación] El Daño aumenta en un 42% y luego del ATQ, obtiene 2 pilas de Carga. Esta pila se puede obtener en estado de Sobrecarga.",
+        "[Proceso de Eliminación] El Daño aumenta en un 50% y luego del ATQ, obtiene 2 pilas de Carga. Esta pila se puede obtener en estado de Sobrecarga."
+      ],
+      "story": "El código ultrasecreto de Babel, la sociedad secreta de la ingeniería mágica. Para la gente común, ¡simplemente magia! La sociedad secreta de tecnomagia, Babel, es una sociedad anónima cuyo mayor deseo es hacer que la magia esté disponible para todos. Ambas sociedades usaron una técnica tecnomágica como código secreto y solo permitieron su uso a quienes pudieran descifrarlo. Annette logró descifrar un código ultrasecreto en cuatro minutos y lo usa durante el proceso de aniquilación."
+    }
+  },
+  "s4": {
+    "name": "Carga",
+    "description": "Obtiene 1 pila de Carga cada 0.5 seg y 10 pilas de Carga por cada esfera de maná utilizado. Luego de acumular la pila de Carga número 100, entra en un estado de Sobrecarga. Cuando está en Sobrecarga, se aumenta el ATQ {0} durante 15 segundos y cada ataque automático reduce el tiempo de reutilización de la habilidad en un 10%. No se pueden disipar todos los efectos y la Carga no se acumulará durante el estado de Sobrecarga.",
+    "books": {
+      "0": "El poder de ATQ aumenta en  {0}%.",
+      "1": "El poder de ATQ aumenta en  {0}%.",
+      "2": "Cuando se Sobrecarga, la Veloc de ATQ aumenta en  {0}."
+    },
+    "light": "El aumento de ATQ se incrementa en un 40%.",
+    "dark": "La duración de sobrecarga se incrementa en 3 seg."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Veloc de ATQ +100",
+    "dark": "Cuando se activa la sobrecarga, aumenta la Veloc de Atq de todos los aliados por 200 y aumenta el ATQ de todos los aliados en un 5% del ATQ de Annette."
+  }
+}

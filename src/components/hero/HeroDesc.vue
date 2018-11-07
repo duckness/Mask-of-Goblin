@@ -62,10 +62,10 @@ export default {
   },
   computed: {
     linkWiki: function() {
-      return "http://www.kingsraid.wiki/index.php?title=" + this.hero.nameEN;
+      return "http://www.kingsraid.wiki/index.php?title="; // + this.hero.nameEN;
     },
     linkBuilder: function() {
-      return "https://angryraids.ml/#/" + this.hero.nameEN;
+      return "https://angryraids.ml/#/"; // + this.hero.nameEN;
     }
   }
 };

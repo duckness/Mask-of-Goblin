@@ -1,0 +1,120 @@
+{
+  "name": "Kaulah",
+  "subtitle": "Chaman de la Foudre",
+  "description": "Depuis longtemps chef de la tribu des orcs Vent-du-Ciel, il utilise des attaques élémentaires alimentées par le ciel et les vents. Ses puissantes boules de foudre paralysent ses ennemis, pendant qu'il soigne et bénit ses alliés grâce au vent.",
+  "story": "Ce grand chaman orque manie la puissance de l'éclair. Il est le chef de la tribu Vent du Ciel et le doyen respecté de l'Alliance orque. Il a formé d'innombrables chamans orques qui le considèrent comme leur leader spirituel. Il est également un des rares chamans ayant des rêves clairvoyants et la sagesse nécessaire pour les interpréter.",
+  "like": "Les compagnons, la paix mondiale",
+  "dislike": "Malduk, la guerre",
+  "inn": {
+    "idle": "Avez-vous besoin d'une main de Chaman Orc?",
+    "recruit": {
+      "greet": "Laissez-moi me présenter. je suis le chef de la tribu Vent du Ciel, Kaulah.",
+      "talk": [
+        "Je reste ici, j'en suis arrivé à penser que la civilisation matérialiste de l'humanité est étonnante.",
+        "Le vent du sommet des montagnes me manque. Je vais devoir escalader une montagne proche, demain.",
+        "Bien que je reste dans cette auberge pour affaires, ce lit inconfortable m'empêche d'avoir des rêves prophétiques."
+      ],
+      "gift": "Je me souviendrai de votre gentillesse."
+    },
+    "affinity": {
+      "greet": "Puisse ma brise vous aider à vous reposer, ne serait-ce qu'un court instant.",
+      "talk": [
+        "Je ne m'habitue pas à la ville, mais c'est agréable de croiser des gens pleins d'entrain.",
+        "La brise continuera de souffler malgré le temps qui passe... Vos difficultés passeront, elles aussi."
+      ],
+      "gift": "J'en ferai bon usage pendant ce voyage."
+    },
+    "relationship": {
+      "greet": "Il me semblait avoir senti un vent amical. Bienvenue, mon ami.",
+      "talk": [
+        "Dur comme la roche. Doux comme la brise. C'est comme ceci que votre aura se ressent.",
+        "Avez-vous déjà escaladé le sommet des montagnes à Ogria? Une vraie beauté attend tout au sommet.",
+        "J'ai eu une prémonition la nuit dernière. Une de celles où vous sauvez le monde..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Coventina Vente-Bleue",
+    "description": [
+      "Accorde 10 % de chances d'infliger des DEG M à hauteur de 100 % de l'ATQ et inflige Choc électrique avec une attaque normale à 2 ennemis choisis au hasard. Si la cible est déjà touchée par Choc électrique, elle sera étourdie pendant 2 sec.",
+      "Accorde 12 % de chances d'infliger des DEG M à hauteur de 120 % de l'ATQ et inflige Choc électrique avec une attaque normale à 2 ennemis choisis au hasard. Si la cible est déjà touchée par Choc électrique, elle sera étourdie pendant 2 sec.",
+      "Accorde 14 % de chances d'infliger des DEG M à hauteur de 140 % de l'ATQ et inflige Choc électrique avec une attaque normale à 2 ennemis choisis au hasard. Si la cible est déjà touchée par Choc électrique, elle sera étourdie pendant 2 sec.",
+      "Accorde 17 % de chances d'infliger des DEG M à hauteur de 170 % de l'ATQ et inflige Choc électrique avec une attaque normale à 2 ennemis choisis au hasard. Si la cible est déjà touchée par Choc électrique, elle sera étourdie pendant 2 sec.",
+      "Accorde 21 % de chances d'infliger des DEG M à hauteur de 210 % de l'ATQ et inflige Choc électrique avec une attaque normale à 2 ennemis choisis au hasard. Si la cible est déjà touchée par Choc électrique, elle sera étourdie pendant 2 sec.",
+      "Accorde 25 % de chances d'infliger des DEG M à hauteur de 250 % de l'ATQ et inflige Choc électrique avec une attaque normale à 2 ennemis choisis au hasard. Si la cible est déjà touchée par Choc électrique, elle sera étourdie pendant 2 sec."
+    ],
+    "story": "Un bâton ressemblant à un oiseau-tonnerre à quatre ailes. Il fut effectivement créé à partir d'une plume d'oiseau-tonnerre, une créature sacrée chez les Orques Vent du Ciel. Le bâton donne le pouvoir de communiquer avec les cieux, de déchiffrer le temps et de contrôler les airs. Pour un chaman Vent du Ciel maîtrisant la foudre, ce bâton est l'outil idéal."
+  },
+  "s1": {
+    "name": "Éclair",
+    "description": "Abat 5 éclairs sur des ennemis aléatoires et inflige {0} points de DEG M. Provoque également une électrocution des ennemis. Lorsqu'ils sont touchés en ayant cet effet, ils subissent un Étourdissement pendant {1} sec.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les Chances de Crit de {0}."
+    },
+    "light": "Le coût en Mana est réduit de 1.",
+    "dark": "La cible subit 25% de DEG M. supplémentaires pendant 10 secondes."
+  },
+  "s2": {
+    "name": "Pluie de Soin",
+    "description": "Rend {1} PV à tous les alliés pendant {0} sec.",
+    "books": {
+      "0": "Augmente la Récupération de {0}%.",
+      "1": "Augmente la Récupération de {0}%.",
+      "2": "Pendant l'incantation, gagne une immunité à tous les effets et améliore la réduction des DEG de {0}."
+    },
+    "light": "Les alliés subissent 25% DEG en moins lorsque cette compétence est active.",
+    "dark": "Pour un coût de 1 MP supplémentaire, les alliés sont également soignés de 5% de leur PV Max.",
+    "ut": {
+      "name": "Masque oiseau-tonnerre",
+      "description": [
+        "[Pluie de soin] Absorbe des DEG égaux à 200 % de l'ATQ et crée un bouclier accordant l'immunité au contrôle pendant 1 sec après utilisation sur des alliés avec PV au max.",
+        "[Pluie de soin] Absorbe des DEG égaux à 240 % de l'ATQ et crée un bouclier accordant l'immunité au contrôle pendant 1 sec après utilisation sur des alliés avec PV au max.",
+        "[Pluie de soin] Absorbe des DEG égaux à 290 % de l'ATQ et crée un bouclier accordant l'immunité au contrôle pendant 1 sec après utilisation sur des alliés avec PV au max.",
+        "[Pluie de soin] Absorbe des DEG égaux à 350 % de l'ATQ et crée un bouclier accordant l'immunité au contrôle pendant 1 sec après utilisation sur des alliés avec PV au max.",
+        "[Pluie de soin] Absorbe des DEG égaux à 420 % de l'ATQ et crée un bouclier accordant l'immunité au contrôle pendant 1 sec après utilisation sur des alliés avec PV au max.",
+        "[Pluie de soin] Absorbe des DEG égaux à 500 % de l'ATQ et crée un bouclier accordant l'immunité au contrôle pendant 1 sec après utilisation sur des alliés avec PV au max."
+      ],
+      "story": "Masque de l’oiseau-tonnerre annonciateur de pluie. Une fois tombées les Gouttelettes de Soin du chaman Vent du Ciel, l’âme de l’oiseau-tonnerre reste auprès de ceux qui ont été touchés par Pluie de Soin et soigne leur enveloppe charnelle."
+    }
+  },
+  "s3": {
+    "name": "Vent Rapide",
+    "description": "Pendant {0} sec, augmente l'ATQ de {1} et la Vitesse d'ATQ de {2} pour tous les alliés.",
+    "books": {
+      "0": "Le taux de récupération d'ATQ augmente de {0}%.",
+      "1": "Le taux de récupération d'ATQ augmente de {0}%.",
+      "2": "Pour la durée de la compétence, le taux de Crit. est augmenté de {0}."
+    },
+    "light": "Bonus d'ATQ augmenté de 40%.",
+    "dark": "Temps de recharge réduit de 3 sec.",
+    "ut": {
+      "name": "Décoration à plumes de Vent du Ciel",
+      "description": [
+        "[Vent Rapide] Le coût en mana est réduit de 1 et un boost de 20% aux DEG Crit est ajouté.",
+        "[Vent Rapide] Le coût en mana est réduit de 1 et un boost de 24% aux DEG Crit est ajouté.",
+        "[Vent Rapide] Le coût en mana est réduit de 1 et un boost de 29% aux DEG Crit est ajouté.",
+        "[Vent Rapide] Le coût en mana est réduit de 1 et un boost de 35% aux DEG Crit est ajouté.",
+        "[Vent Rapide] Le coût en mana est réduit de 1 et un boost de 42% aux DEG Crit est ajouté.",
+        "[Vent Rapide] Le coût en mana est réduit de 1 et un boost de 50% aux DEG Crit est ajouté."
+      ],
+      "story": "Plume d’un Oiseau-tonnerre, gardien de la pluie et du tonnerre. Les plus grands chamanes de la tribu Vent du ciel entrent en communion grâce aux plumes de l’Oiseau-tonnerre. Les chamanes utilisent cet accessoire en plume lorsqu’ils utilisent Vent Rapide pour ne faire plus qu’un avec l’Oiseau-tonnerre, augmentant l’ATQ et la Vit ATQ de tous les alliés."
+    }
+  },
+  "s4": {
+    "name": "Chaine d'Éclair",
+    "description": "Inflige {1}  points de DEG M à 4 ennemis toutes les {0}  sec et inflige Choc électrique pendant {2}  sec. Les ennemis touchés par Choc électrique subissent un total de {4}  points de DEG M pendant {3}  sec.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Lors d'un coup critique, les ennemis touchés subissent un Étourdissement pendant {0} sec."
+    },
+    "light": "Chances de Crit augmentées de 400.",
+    "dark": "S'il y a 1 ennemi, la durée d'Étourdissement est augmentée de 3 sec."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Chances Crit +100",
+    "dark": "Lorsque vous subissez des DEG, la Vit ATQ de l'ennemi qui porte les coups est réduite de 300 points pendant 5 sec. Cet effet ne s'active qu'une fois toutes les 5 sec."
+  }
+}

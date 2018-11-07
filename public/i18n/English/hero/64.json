@@ -1,0 +1,120 @@
+{
+  "name": "Artemia",
+  "subtitle": "Empress of Light",
+  "description": "The Queen of Pentheonia, the Ironclad Kingdom which did not budge an inch against the Demons 100 years ago. Her staff holds a brilliant light, burning with justice and she uses it to burn her enemies to ashes.",
+  "story": "Penteonia is an impenetrable kingdom. Even the Demon Army could not breach its defense 100 years ago. Ruling over this iron kingdom is Artemia, the Empress of Light. Ever since childhood, she has lived under the weight of responsibility of the throne she would eventually inherit. When she finally realized that the victory of her kingdom was only made possible by the sacrifices of her people, she swore to never hide from her duties. She would face the pressure of royal responsibility with courage. Penteonia has historically been a selfish kingdom, only interested in its own safety. Now, with Artemia as its ruler, everything is about to change.",
+  "like": "Sweet cakes, the eyes of righteous knights",
+  "dislike": "Demons",
+  "inn": {
+    "idle": "I have come to seek you.",
+    "recruit": {
+      "greet": "You shall not forget I am here for you.",
+      "talk": [
+        "Is this your token of sincerity?",
+        "I shall remember your face.",
+        "Do not cower before me. Raise your head in pride."
+      ],
+      "gift": "Is this what you prize? I shall cherish it too."
+    },
+    "affinity": {
+      "greet": "No need to kneel.",
+      "talk": [
+        "It looks like I'm not the only one who was chosen by the light.",
+        "I wonder if the Royal Guard kids are doing well."
+      ],
+      "gift": "Thank you for your generosity."
+    },
+    "relationship": {
+      "greet": "You seem to be doing well.",
+      "talk": [
+        "Father and Mother no longer bear the heavy burden of the crown. They now enjoy their lives together, without worry.",
+        "Few of the Knights here at Orvelia are gems that any ruler would want at their court.",
+        "I shall not avoid the responsibility that falls into my hands. However, it is nice that I have you to share my burdens with."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Brilliant Praise, Brauxio",
+    "description": [
+      "Every 15 sec, creates a Shield for 10 sec that blocks DMG proportional to 200% of own ATK, and ATK is increased by 20%. While the Shield is in effect, gains immunity to CC.",
+      "Every 15 sec, creates a Shield for 10 sec that blocks DMG proportional to 240% of own ATK, and ATK is increased by 24%. While the Shield is in effect, gains immunity to CC.",
+      "Every 15 sec, creates a Shield for 10 sec that blocks DMG proportional to 290% of own ATK, and ATK is increased by 29%. While the Shield is in effect, gains immunity to CC.",
+      "Every 15 sec, creates a Shield for 10 sec that blocks DMG proportional to 350% of own ATK, and ATK is increased by 35%. While the Shield is in effect, gains immunity to CC.",
+      "Every 15 sec, creates a Shield for 10 sec that blocks DMG proportional to 420% of own ATK, and ATK is increased by 42%. While the Shield is in effect, gains immunity to CC.",
+      "Every 15 sec, creates a Shield for 10 sec that blocks DMG proportional to 500% of own ATK, and ATK is increased by 50%. While the Shield is in effect, gains immunity to CC."
+    ],
+    "story": "This sacred treasure of Penteonia is said to have been sent from the Heavens to eradicate the Demons. This Light Staff, known to respond only to those worthy of sainthood, radiated with splendid light in the hands of the young Artemia, as if to honor the future empress. It calls upon the power of absolute light, unleashing heaven's vengeance upon its enemies while protecting its wielder with divine light."
+  },
+  "s1": {
+    "name": "Pillar of Light",
+    "description": "Places a Pillar of Light on target enemy, dealing a total of {0} M.DMG for 3 sec and reducing enemy ATK by {1}% for 10 sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "DMG is increased by 40%.",
+    "dark": "Each hit has a 25% chance to stun the enemy for 1 sec."
+  },
+  "s2": {
+    "name": "Critical Intensity",
+    "description": "Deals {0} M.DMG to frontal enemies in a straight line. This attack's Crit DMG is increased by 100%.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Mana cost reduced by 1.",
+    "dark": "When Blessing of Light reaches 10 stacks, cooldown is reduced by 50%.",
+    "ut": {
+      "name": "Queen's Pride",
+      "description": [
+        "[Critical Intensity] Gains Immunity to CC and increases DMG by 20%.",
+        "[Critical Intensity] Gains Immunity to CC and increases DMG by 24%.",
+        "[Critical Intensity] Gains Immunity to CC and increases DMG by 29%.",
+        "[Critical Intensity] Gains Immunity to CC and increases DMG by 35%.",
+        "[Critical Intensity] Gains Immunity to CC and increases DMG by 42%.",
+        "[Critical Intensity] Gains Immunity to CC and increases DMG by 50%."
+      ],
+      "story": "Earrings made from light kveril, a rare mineral that is said to only come out in Penteonia. When Artemia was crowned Empress, she received it along with the crown. It doesn't lose its light even at night, and it actually shines even more brightly in the dark. It's known as the jewel of principles and brilliance amongst the people. An item that raises the dignity of the queen as they shine from her ears."
+    }
+  },
+  "s3": {
+    "name": "Light's Judgment",
+    "description": "Attacks all enemies 3 times, dealing a total of {0} M.DMG and stunning them for 5 sec. Per each killed enemy with this skill, cooldown is reduced by 30%.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Cooldown is reduced by 3 sec.",
+    "dark": "Mana cost is increased by 1 orb but DMG is boosted by 100%.",
+    "ut": {
+      "name": "Crown of Brilliance",
+      "description": [
+        "[Light's Judgment] DMG is increased by 20% and upon killing an enemy, recovers 700 mana.",
+        "[Light's Judgment] DMG is increased by 24% and upon killing an enemy, recovers 700 mana.",
+        "[Light's Judgment] DMG is increased by 29% and upon killing an enemy, recovers 700 mana.",
+        "[Light's Judgment] DMG is increased by 35% and upon killing an enemy, recovers 700 mana.",
+        "[Light's Judgment] DMG is increased by 42% and upon killing an enemy, recovers 700 mana.",
+        "[Light's Judgment] DMG is increased by 50% and upon killing an enemy, recovers 700 mana."
+      ],
+      "story": "A crown that is passed down to the king of Penteonia. A part of it had been broken by a previous tyrant, but it's been repaired. A new red gem called the Soul of the Sun has been embedded at the center of the crown. Its dignified form compels one to kneel before it in a show of respect."
+    }
+  },
+  "s4": {
+    "name": "Blessing of Light",
+    "description": "Each attack has a 50% chance of dealing {0} M.DMG to target and nearby enemies, while Artemia gains 1 stack of Blessing of Light. Blessing of Light can be stacked up to 10 times max. Per every stack, ATK is increased by {1} , DMG dealt to enemies other than heroes is increased by {2}% and DMG received by enemies other than heroes is reduced by {3}%.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Activation chance is changed to 60%.",
+    "dark": "Maximum stack count is increased to 12."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / Crit Chance +100",
+    "dark": "When HP falls below 50%, gain 2 sec of immunity to all DMG. This effect activates only once every 30 sec."
+  }
+}

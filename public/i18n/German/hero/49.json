@@ -1,0 +1,120 @@
+{
+  "name": "Ophelia",
+  "subtitle": "Schicksals-Wegfinderin",
+  "description": "Eine Sternenstaub-Astrologin und Performerin, die durch die Welt reist. Anstatt eine Pilgerfahrt zu unternehmen, wie die Mitglieder der Hexenvereinigung, sucht sie nach ihrem Seelenverwandten, der ihr einst im Traum begegnete. Ihre umherfliegenden Tarotkarten greifen weiter wegstehende Feinde an.",
+  "story": "Eine Astrologin und Teil einer Wandertruppe namens 'Sternenstaub'. Als Mitglied der Hexenvereinigung ist sie angewiesen, an einem bestimmten Ort zu verweilen und als Teil ihrer Praxis den Lauf des Schicksals zu lesen. Gegenwärtig ist sie auf Reisen und sucht nach einem Mann mit einem bestimmten Schicksal, der ihr im Traum erschienen ist. Sie glaubt, dass der Man aus ihrem hellseherischen Traum dazu bestimmt ist, der Retter der Welt zu werden. Ihre Priorität ist das Auffinden dieses Mannes, um anschließend bei ihm zu bleiben. Fragt man sie nach ihrem zweiten Ziel ... errötet sie, ist plötzlich gar nicht mehr so ruhig wie sonst und schwärmt von ihrer Zukunft mit dem Mann ihres Schicksals.",
+  "like": "Romantische Geschichten",
+  "dislike": "Fliegende Insekten",
+  "inn": {
+    "idle": "Ich möchte dir das Flüstern der Sterne zeigen.",
+    "recruit": {
+      "greet": "Ich bin Ophelia, die Hexe.",
+      "talk": [
+        "Ich kann ihn in deinen Augen sehen... den Pfad der Sterne.",
+        "Ich schaue dir in die Augen und sehe...",
+        "Hast du je das Flüstern der Sterne gehört?"
+      ],
+      "gift": "Danke! Um mich erkenntlich zu zeigen, erzähle ich dir ein wenig über dein Schicksal..."
+    },
+    "affinity": {
+      "greet": "Freut mich, dich kennenzulernen!",
+      "talk": [
+        "Ein guter Freund brachte mir bei, Karten zu mischen.",
+        "Ich freue mich jeden Tag darüber, mich mit Leuten amüsieren zu können."
+      ],
+      "gift": "Im Gegenzug werde ich dir deine Zukunft voraussagen."
+    },
+    "relationship": {
+      "greet": "Soll ich dir die Zukunft vorhersagen? Komm und setz dich zu mir.",
+      "talk": [
+        "Dieses Kind ist mir besonders wichtig. Ohje, pass auf! Verbrenn dich nicht!",
+        "Ich bereue es nicht, den mir vorbestimmten Pfad verlassen zu haben. Ich bin noch immer eine Hexe und stolz darauf.",
+        "Ah! Diese Karte sagt mir, der mir bestimmter Partner ist nah! Sehr nah... Oh, vielleicht...?"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Karten des Schicksals Arcana",
+    "description": [
+      "77,7%-Chance beim Angriff für 7 Sek. lang Angriffsgeschw. um 20 und Mana-Regeneration um 10% pro Sek. zu erhöhen. Effekt kann sich bis zu max. 15 Mal kumulieren.",
+      "77,7%-Chance beim Angriff für 7 Sek. lang Angriffsgeschw. um 24 und Mana-Regeneration um 12% pro Sek. zu erhöhen. Effekt kann sich bis zu max. 15 Mal kumulieren.",
+      "77,7%-Chance beim Angriff für 7 Sek. lang Angriffsgeschw. um 29 und Mana-Regeneration um 14% pro Sek. zu erhöhen. Effekt kann sich bis zu max. 15 Mal kumulieren.",
+      "77,7%-Chance beim Angriff für 7 Sek. lang Angriffsgeschw. um 35 und Mana-Regeneration um 17% pro Sek. zu erhöhen. Effekt kann sich bis zu max. 15 Mal kumulieren.",
+      "77,7%-Chance beim Angriff für 7 Sek. lang Angriffsgeschw. um 42 und Mana-Regeneration um 21% pro Sek. zu erhöhen. Effekt kann sich bis zu max. 15 Mal kumulieren.",
+      "77,7%-Chance beim Angriff für 7 Sek. lang Angriffsgeschw. um 50 und Mana-Regeneration um 25% pro Sek. zu erhöhen. Effekt kann sich bis zu max. 15 Mal kumulieren."
+    ],
+    "story": "Tarot-Kartenlegen ist unter Hexen eine beliebte Methode der Zukunftsvorhersage. Manche Hexen verwenden eigene Karten, um ihren persönlichen Stil einfließen zu lassen. Ophelias Karten fungieren auch als Zeugnis der Pakte zwischen ihr selbst und den von ihr erschaffenen Kreaturen. Sie paktierte mit zahllosen Kreaturen und ist unter den Wesen der geheimnisvollen Dimensionen als sehr beliebte Schicksalsführerin bekannt. Del Arcana, ein mächtiges, von Ophelia zusammengestelltes Tarot-Kartendeck, ist der materielle Beweis dieser Beziehungen."
+  },
+  "s1": {
+    "name": "Karte des Todes - Carta",
+    "description": "Greift den Gegner an, verursacht {0} M. Schaden und betäubt {1} Sek. lang. Verbraucht im Besitz befindliche Karte, um zusätzliche Effekte zu verursachen. Bei Nutzung des Skills gibt es die Karte des [Todes]. [Tod] - Schaden ignoriert VERT des Ziels und erhöht die Betäubungsdauer um 5 Sek. [Liebe] - Verursacht über 10 Sek. insgesamt {2} M. Schaden und reduziert die Heilrate um 100%. [Glück] - Kein Skill-Cooldown.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Nimmt 10 Sek. lang 25% zusätzlichen M. Schaden.",
+    "dark": "Manakosten sind um 1 reduziert."
+  },
+  "s2": {
+    "name": "Karte der Liebe - Elliciad",
+    "description": "Erhöht den ANG für {0} Sek. um {1} und die Manaregeneration/Sek. um {2}  %. Verbraucht eine Karte, um einen zusätzlichen Effekt je nach Kartentyp zu erhalten. Erhält bei Verwendung die Karte [Liebe]. [Tod] – Durchdringung erhöht sich für die Dauer des Skills um 600 und gewährt für 6 Sek. Immunität gegen Statuseffekte. [Liebe] – Der Effekt wird auf alle Verbündete angewandt. [Glück] – Cooldown wird nicht angewandt.",
+    "books": {
+      "0": "Erhöht ANG um {0}%.",
+      "1": "Erhöht ANG um {0}%.",
+      "2": "Erhöht ANG um {0}%."
+    },
+    "light": "Stellt 1000 Mana beim Ziel wieder her.",
+    "dark": "Erhöht ANG-Boost um 40%.",
+    "ut": {
+      "name": "Elliciads Herz",
+      "description": [
+        "[Karte der Liebe - Elliciad] Entfernt Negative Effekte vom Ziel und alle Skill-Cooldowns werden um 6% verringert.",
+        "[Karte der Liebe - Elliciad] Entfernt Negative Effekte vom Ziel und alle Skill-Cooldowns werden um 7,2% verringert.",
+        "[Karte der Liebe - Elliciad] Entfernt Negative Effekte vom Ziel und alle Skill-Cooldowns werden um 8,6% verringert.",
+        "[Karte der Liebe - Elliciad] Entfernt Negative Effekte vom Ziel und alle Skill-Cooldowns werden um 10,4% verringert.",
+        "[Karte der Liebe - Elliciad] Entfernt Negative Effekte vom Ziel und alle Skill-Cooldowns werden um 12,5% verringert.",
+        "[Karte der Liebe - Elliciad] Entfernt Negative Effekte vom Ziel und alle Skill-Cooldowns werden um 15% verringert."
+      ],
+      "story": "Das Herz von Elliciad, dem Geist der Liebe. Es nährt sich sowohl von erfüllter als auch unerfüllter Liebe, kann also so heiß sein wie Lava, oder so kalt wie Eis. Die Kraft, die es zeigt, hängt davon ab, wie verunreinigt eine Seele ist und es kann für diejenigen mit reinen Seelen ein starkes Licht des Segens bewirken."
+    }
+  },
+  "s3": {
+    "name": "Karte des Glücks - Vellekia",
+    "description": "Greift das Ziel und Feinde in seiner Nähe an und verursacht {0} M.Schaden. Dieser Angriff kann nicht verfehlen und verursacht um 100 % erhöhten Krit. Schaden. Erhält bei Verwendung die Karte [Glück]. [Tod] – Krit. Schaden erhöht sich um 120 %. [Liebe] – Entfernt alle positiven Effekte von Feinden in Reichweite und bringt sie für 2 Sek. zum Schweigen. [Glück] – Cooldown wird nicht angewandt. Regeneriert 1 Manakugel.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Manakosten sind um 1 erhöht, aber Schaden ist +100%.",
+    "dark": "Verursacht immer einen Krit. Treffer.",
+    "ut": {
+      "name": "Glücksmünze",
+      "description": [
+        "[Karte des Glücks - Vellekia] Reduziert Manakosten um 1 und erhöht Schaden um 20%.",
+        "[Karte des Glücks - Vellekia] Reduziert Manakosten um 1 und erhöht Schaden um 24%.",
+        "[Karte des Glücks - Vellekia] Reduziert Manakosten um 1 und erhöht Schaden um 29%.",
+        "[Karte des Glücks - Vellekia] Reduziert Manakosten um 1 und erhöht Schaden um 35%.",
+        "[Karte des Glücks - Vellekia] Reduziert Manakosten um 1 und erhöht Schaden um 42%.",
+        "[Karte des Glücks - Vellekia] Reduziert Manakosten um 1 und erhöht Schaden um 50%."
+      ],
+      "story": "Die legendäre Münze, welche die Richtung des Schicksalsrades geändert haben soll, das sich in Richtung Vernichtung drehte. Ophelia glaubt daran, dass sie von Vellekia, dem Geist des Glücks geworfen wurde."
+    }
+  },
+  "s4": {
+    "name": "Schicksals-Wegfinder",
+    "description": "ANG aller Verbündeten ist um {0} und Krit. Chance um 100 erhöht. Zusätzliche Effekte je nach im Besitz befindlicher Karte. [Tod] - ANG ist um {2}% erhöht. [Liebe] - Heilt jede Sek. lang {3}% der max. TP. [Glück] - M. Ausw.-Chance ist um 200 erhöht.",
+    "books": {
+      "0": "ANG aller Verbündeten ist um {0}% erhöht.",
+      "1": "ANG aller Verbündeten ist um {0}% erhöht.",
+      "2": "Krit. Chance aller Verbündeten ist um {0} erhöht."
+    },
+    "light": "Erhalte beim Kampfbeginn die Karte des [Todes]. Diese Karte hat keinen Schadensboost-Effekt.",
+    "dark": "Erhalte beim Kampfbeginn die Karte der [Liebe]. Diese Karte hat keinen Heilungseffekt."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / Krit. Schaden +20%",
+    "dark": "7%-Chance, dass bei Benutzung des Skills die Manakosten aller Skills für 7 Sek. um 1 reduziert sind. Effekt kann nicht aufgehoben werden."
+  }
+}

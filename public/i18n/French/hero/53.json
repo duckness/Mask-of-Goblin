@@ -1,0 +1,120 @@
+{
+  "name": "Shamilla",
+  "subtitle": "Porteuse de malédictions",
+  "description": "Démone de haut rang qui renferme 30 millions de malédictions différentes. Elle est très étonnée de voir les humains fuir la douleur et l'angoisse. Elle utilise un arc et des flèches de la corruption pour infliger de multiples malédictions à ses ennemis.",
+  "story": "Puissante démone autrefois au service d'Angmund, le Seigneur des ténèbres, elle peut concentrer toutes les malédictions du monde. Cependant, son véritable dessein n'est pas de ramener le Seigneur des ténèbres d'entre les morts ni de dominer le monde. Tous les événements qui se produisent dans le monde sont une gigantesque pièce, et elle aime à penser qu'elle en est le public. Ses actes sont semblables aux corrections qu'apporterait un dramaturge à son scénario. Elle tire les ficelles en coulisse et se régale à l'avance de voir son œuvre prendre vie.",
+  "like": "Les situations inattendues, les gens qui se battent contre la marche des choses",
+  "dislike": "Les histoires ennuyeuses, et celles qui sont trop évidentes",
+  "inn": {
+    "idle": "Waouh, tellement d'âmes puissantes... Ah ah ah...",
+    "recruit": {
+      "greet": "Ah ah, en quoi puis-je vous aider ?",
+      "talk": [
+        "Votre âme est particulière... Ah ah, voilà qui est intéressant.",
+        "Une démone ? Je ne vois pas de quoi vous parlez.",
+        "La vie humaine n'est-elle pas la forme d'art la plus aboutie ?"
+      ],
+      "gift": "Oh, vous m'offrez un cadeau. Ah ah, quelle est l'occasion ?"
+    },
+    "affinity": {
+      "greet": "Oh, bonjour. Vous êtes déjà de retour ?",
+      "talk": [
+        "Pourquoi je n'ai pas dit que j'étais une démone ? Ah ah, à votre avis, la réponse n'est-elle pas évidente ?",
+        "Même si le scénario est extrêmement bien préparé, un peu de théâtralité ne fait pas de mal. Ah ah ah..."
+      ],
+      "gift": "J'aurais souhaité un autre type de cadeau... Ah ah, mais c'est très bien quand même."
+    },
+    "relationship": {
+      "greet": "Ah ah, vous me montrerez de beaux endroits aujourd'hui aussi, j'espère.",
+      "talk": [
+        "Mon rêve... Ah ah. Je voudrais goûter quelque chose de frais, de totalement nouveau pour moi.",
+        "Vous êtes drôle. C'est pour cela que je veux vous voir de plus près. Hmm hmm !",
+        "Oh, c'est formidable. Votre contenance face au danger, votre lutte contre le sort !"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Apoliox, les ailes de la corruption",
+    "description": [
+      "Confère Porteuse de malédictions toutes les 20 secondes et augmente l'ATQ de 20 % pendant 10 secondes.",
+      "Confère Porteuse de malédictions toutes les 19 secondes et augmente l'ATQ de 24 % pendant 10 secondes.",
+      "Confère Porteuse de malédictions toutes les 18 secondes et augmente l'ATQ de 29 % pendant 10 secondes.",
+      "Confère Porteuse de malédictions toutes les 16 secondes et augmente l'ATQ de 35 % pendant 10 secondes.",
+      "Confère Porteuse de malédictions toutes les 14 secondes et augmente l'ATQ de 42 % pendant 10 secondes.",
+      "Confère Porteuse de malédictions toutes les 12 secondes et augmente l'ATQ de 50 % pendant 10 secondes."
+    ],
+    "story": "Les malédictions sont issues des sentiments négatifs tels que la haine, la jalousie et la rancœur. Shamilla s'en régale. Ses puissantes ailes qui ont poussé au cours de la guerre des démons en absorbant les malédictions d'innombrables victimes terrifient les bonnes gens. Il suffit d'en toucher les plumes pour être frappé de multiples malédictions et sombrer dans un tourbillon d'émotions. Au fond de ce gouffre, un rire aussi tentateur qu'enjôleur résonne à l'infini. C'est le rire d'un démon qui se gausse des sentiments humains."
+  },
+  "s1": {
+    "name": "Malédiction de pétrification",
+    "description": "Attaque un ennemi et lui inflige {0} points de DEG M ainsi que Malédiction de pétrification pendant {1} secondes (ne peut pas être annulé). La Vit ATQ de l'ennemi sous le coup de Malédiction de pétrification est réduite de {2} et cet effet s'amplifie avec le temps jusqu'à atteindre un maximum de {3}%. Une fois l'effet de la malédiction dissipé, la cible est pétrifiée pendant {4} secondes.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Temps de Recharge réduit de 3 sec.",
+    "dark": "Retire 500 PM à l'ennemi qui a subi les dégâts."
+  },
+  "s2": {
+    "name": "Malédiction du temps",
+    "description": "Attaque un ennemi et lui inflige {0}  points de DEG M ainsi que Malédiction du temps pendant {1}  secondes, ce qui allonge tous ses temps de recharge de compétence de {2}  secondes. Tous les temps de recharge de l'ennemi sous le coup de Malédiction du temps augmentent de {4}  secondes toutes les {3}  secondes.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Le coût en mana est réduit de 1.",
+    "dark": "Dissipe les améliorations de la cible.",
+    "ut": {
+      "name": "Cœur de démon antique",
+      "description": [
+        "[Malédiction du temps] Augmente le temps de recharge de 0,7 sec et réduit la DEF M de la cible de 10 % pendant 10 sec.",
+        "[Malédiction du temps] Augmente le temps de recharge de 0,7 sec et réduit la DEF M de la cible de 12 % pendant 10 sec.",
+        "[Malédiction du temps] Augmente le temps de recharge de 0,7 sec et réduit la DEF M de la cible de 14 % pendant 10 sec.",
+        "[Malédiction du temps] Augmente le temps de recharge de 0,7 sec et réduit la DEF M de la cible de 17 % pendant 10 sec.",
+        "[Malédiction du temps] Augmente le temps de recharge de 0,7 sec et réduit la DEF M de la cible de 21 % pendant 10 sec.",
+        "[Malédiction du temps] Augmente le temps de recharge de 0,7 sec et réduit la DEF M de la cible de 25 % pendant 10 sec."
+      ],
+      "story": "Bijou inhabituel qui exhale les plaintes amères de démons antiques. Cet objet maudit est imprégné des âmes de démons depuis longtemps oubliés. Elles tentent de s'enfuir sans cesse, mais Shamilla ne les laisse pas faire. Son âme ayant accueilli toutes les malédictions du monde, elle est un abysse aussi sombre que profond."
+    }
+  },
+  "s3": {
+    "name": "Malédiction de douleur",
+    "description": "Attaque un ennemi en lui infligeant {0} points de DEG M et en le renversant. Inflige également Malédiction de douleur pendant {1} secondes, ce qui applique un total de {2} points de DEG M sur la durée.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "La cible reçoit 25% de DEG M. supplémentaires pendant 10 sec.",
+    "dark": "DEG augmentés de 40%.",
+    "ut": {
+      "name": "Bocal de malédictions",
+      "description": [
+        "[Malédiction de douleur] Augmente les DEG de 20% et gagne une charge de Porteuse de malédictions lorsqu'un ennemi est tué.",
+        "[Malédiction de douleur] Augmente les DEG de 24% et gagne une charge de Porteuse de malédictions lorsqu'un ennemi est tué.",
+        "[Malédiction de douleur] Augmente les DEG de 29% et gagne une charge de Porteuse de malédictions lorsqu'un ennemi est tué.",
+        "[Malédiction de douleur] Augmente les DEG de 35% et gagne une charge de Porteuse de malédictions lorsqu'un ennemi est tué.",
+        "[Malédiction de douleur] Augmente les DEG de 42% et gagne une charge de Porteuse de malédictions lorsqu'un ennemi est tué.",
+        "[Malédiction de douleur] Augmente les DEG de 50% et gagne une charge de Porteuse de malédictions lorsqu'un ennemi est tué."
+      ],
+      "story": "Shamilla a reçu la malédiction de contenir toutes les malédictions du monde, mais elle peut aussi être vue comme celle qui les canalise. Si elle venait à mourir, tout le mal qu'elle retient en elle serait libéré. Ce bocal a été fabriqué par Shamilla pour recueillir toutes les malédictions qu'elle a évacuées."
+    }
+  },
+  "s4": {
+    "name": "Porteuse de malédictions",
+    "description": "Au début de chaque bataille, confère Porteuse de malédictions pendant {0}  secondes, génère un bouclier qui ne peut pas être dissipé et absorbe {1}  points de dégâts. Pendant que le bouclier est actif, il procure une immunité contre les contrôles. À l'activation de la compétence, Porteuse de malédictions est utilisée pour cibler 4 ennemis.",
+    "books": {
+      "0": "Augmente les PV Bouclier de  {0}%.",
+      "1": "Augmente les PV Bouclier de  {0}%.",
+      "2": "Augmente les PV Bouclier de  {0}%."
+    },
+    "light": "Augmente les PV Bouclier de 80%.",
+    "dark": "Augmente la durée de Porteuse de malédictions de 20 secondes, et devient dissipable."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Vit. ATQ +100",
+    "dark": "Tous les effets de malédiction sont augmentés. La durée de pétrification de [Malédiction de pétrification] augmente de 2 s. La durée de malédiction de [Malédiction du temps] augmente de 3 s. Les dégâts sur la durée de malédiction de [Malédiction de douleur] augmentent de 50%."
+  }
+}

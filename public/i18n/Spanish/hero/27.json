@@ -1,0 +1,120 @@
+{
+  "name": "Leo",
+  "subtitle": "Escriba Eterno",
+  "description": "El Escribano de la Real Gran Biblioteca de Orvelia. Al utilizar runas, cura a los aliados y borra la magia beneficiosa de los enemigos.",
+  "story": "En el palacio real de Orvel, hay una biblioteca que se dice que es infinita en el espacio. Leo es un duende que ha estado protegiendo esta biblioteca durante mucho tiempo. Se ha memorizado cada libro en la biblioteca, es la persona con mayor conocimiento en todo el palacio y muchos visitan el palacio en busca de su sabiduría. Sin embargo, parece aún tener dificultades para interactuar con otros.",
+  "like": "Lectura, escritura, grabación",
+  "dislike": "Soledad",
+  "inn": {
+    "idle": "Wow, hay más gente que hay libros aquí.",
+    "recruit": {
+      "greet": "Hola. Encantada de conocerte.",
+      "talk": [
+        "Quiero saber todo sobre este mundo.",
+        "El mundo es infinitamente grande...",
+        "Ven a la biblioteca algún día. Te presentaré algunos buenos libros."
+      ],
+      "gift": "¿Para mi? De Verdad?"
+    },
+    "affinity": {
+      "greet": "¡Qué acogedor!",
+      "talk": [
+        "No tienes muchos libros. ¿Quieres que te traiga algunos de mi casa?",
+        "¡Puedes aprender lo que sea de los libros!"
+      ],
+      "gift": "¡Gracias! ¡Te invitaré a nuestra casa alguna vez!"
+    },
+    "relationship": {
+      "greet": "Hola. Qué novedades hay hoy?",
+      "talk": [
+        "Hubo muchos registros nuevos hoy. Aprendo algo nuevo todos los días",
+        "Parece que hay muchas cosas divertidas afuera. Tal vez debería salir un poco más...",
+        "Tienes un minuto? Traje un libro nuevo..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Pluma de Fénix, Belisa",
+    "description": [
+      "Al comienzo de cada batalla, aumenta la Defensa física y la Defensa mágica en un 20 % y la Velocidad de ataque en 200 durante 15 segundos, y agrega un efecto adicional a la primera habilidad que se usa. Runa de la fragilidad: aumenta la Probabilidad de crítico en 500. Runa de la curación: disipa el Control de multitudes infligido en el lanzador antes de que se lance la habilidad. Runa del silencio: aumenta la duración de Silenciar en 1 segundo.",
+      "Al comienzo de cada batalla, aumenta la Defensa física y la Defensa mágica en un 24 % y la Velocidad de ataque en 240 durante 15 segundos, y agrega un efecto adicional a la primera habilidad que se usa. Runa de la fragilidad: aumenta la Probabilidad de crítico en 500. Runa de la curación: disipa el Control de multitudes infligido en el lanzador antes de que se lance la habilidad. Runa del silencio: aumenta la duración de Silenciar en 1 segundo.",
+      "Al comienzo de cada batalla, aumenta la Defensa física y la Defensa mágica en un 29 % y la Velocidad de ataque en 290 durante 15 segundos, y agrega un efecto adicional a la primera habilidad que se usa. Runa de la fragilidad: aumenta la Probabilidad de crítico en 500. Runa de la curación: disipa el Control de multitudes infligido en el lanzador antes de que se lance la habilidad. Runa del silencio: aumenta la duración de Silenciar en 1 segundo.",
+      "Al comienzo de cada batalla, aumenta la Defensa física y la Defensa mágica en un 35 % y la Velocidad de ataque en 350 durante 15 segundos, y agrega un efecto adicional a la primera habilidad que se usa. Runa de la fragilidad: aumenta la Probabilidad de crítico en 500. Runa de la curación: disipa el Control de multitudes infligido en el lanzador antes de que se lance la habilidad. Runa del silencio: aumenta la duración de Silenciar en 1 segundo.",
+      "Al comienzo de cada batalla, aumenta la Defensa física y la Defensa mágica en un 42 % y la Velocidad de ataque en 420 durante 15 segundos, y agrega un efecto adicional a la primera habilidad que se usa. Runa de la fragilidad: aumenta la Probabilidad de crítico en 500. Runa de la curación: disipa el Control de multitudes infligido en el lanzador antes de que se lance la habilidad. Runa del silencio: aumenta la duración de Silenciar en 1 segundo.",
+      "Al comienzo de cada batalla, aumenta la Defensa física y la Defensa mágica en un 50 % y la Velocidad de ataque en 500 durante 15 segundos, y agrega un efecto adicional a la primera habilidad que se usa. Runa de la fragilidad: aumenta la Probabilidad de crítico en 500. Runa de la curación: disipa el Control de multitudes infligido en el lanzador antes de que se lance la habilidad. Runa del silencio: aumenta la duración de Silenciar en 1 segundo."
+    ],
+    "story": "El fénix es una bestia sagrada que simboliza vida eterna. Tan elusivo como la propia bestia, sus plumas también se consideran extremadamente raras. Se dice que una pluma de escribir creada a partir de la pluma de un fénix es una herramienta mágica por sí sola. Las runas dibujadas con esta pluma pueden servir como un medio poderoso para la magia de runas."
+  },
+  "s1": {
+    "name": "Runa de la Fragilidad",
+    "description": "Graba una runa en el objetivo, lo que causa hasta {3} de Daño Fis. que ignora la Defensa según la Salud faltante y reduce su Defensa física en un {1}  % durante {0} segundo(s).",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "El tiempo de reutilización se reduce en 2 segundos.",
+    "dark": "El número de objetivos aumentó a 2."
+  },
+  "s2": {
+    "name": "Runa de la Curacion",
+    "description": "Cura la Salud del grupo en {0}",
+    "books": {
+      "0": "la Curacion aumenta en {0}%.",
+      "1": "la Curacion aumenta en {0}%.",
+      "2": "la Curacion aumenta en {0}%."
+    },
+    "light": "La cantidad de Curacion aumentó en un 40%.",
+    "dark": "Aumenta la DEF Fis del aliado en un 25% durante 10 segundos después de la cicatrización.",
+    "ut": {
+      "name": "Tinta de vitalidad",
+      "description": [
+        "[Runa de la curación] Aumenta la Tasa de curación en un 50 % y la Resistencia al golpe crítico físico de los aliados en 100 durante 10 segundos.",
+        "[Runa de la curación] Aumenta la Tasa de curación en un 50 % y la Resistencia al golpe crítico físico de los aliados en 120 durante 10 segundos.",
+        "[Runa de la curación] Aumenta la Tasa de curación en un 50 % y la Resistencia al golpe crítico físico de los aliados en 140 durante 10 segundos.",
+        "[Runa de la curación] Aumenta la Tasa de curación en un 50 % y la Resistencia al golpe crítico físico de los aliados en 170 durante 10 segundos.",
+        "[Runa de la curación] Aumenta la Tasa de curación en un 50 % y la Resistencia al golpe crítico físico de los aliados en 210 durante 10 segundos.",
+        "[Runa de la curación] Aumenta la Tasa de curación en un 50 % y la Resistencia al golpe crítico físico de los aliados en 250 durante 10 segundos."
+      ],
+      "story": "Tinta hecha al extraer hojas jóvenes del árbol del mundo. Solo se pueden producir diez hojas en un año. Los hechizos mágicos escritos con esta tinta conceden gran vitalidad al cuerpo. Es muy preciosa y difícil de obtener, así que Leo no la utiliza a menos que sea por un motivo especial."
+    }
+  },
+  "s3": {
+    "name": "Runa del Silencio",
+    "description": "Causa  {0}  Daño Fis. a todo el equipo enemigo, y elimina los aficionados. También silencia al enemigo por  {1}  seg.",
+    "books": {
+      "0": "la duracion del Silencio aumenta en {0} seg.",
+      "1": "la duracion del Silencio aumenta en {0} seg.",
+      "2": "la duracion del Silencio aumenta en {0} seg."
+    },
+    "light": "El costo de maná se reduce en 1.",
+    "dark": "El Daño se incrementa en 200% y el objetivo enemigo recibe 20% más de Daño de todas las fuentes durante 10 seg. El costo de maná se incrementa en 2.",
+    "ut": {
+      "name": "Pergamino de memoria",
+      "description": [
+        "[Runa del Silencio] El objetivo recibe un 15% de Daño aumentado durante 10 segundos, y la resistencia al Ctrl de Masas del mismo se reduce en 120.",
+        "[Runa del Silencio] El objetivo recibe un 15% de Daño aumentado durante 10 segundos, y la resistencia al Ctrl de Masas del mismo se reduce en 140.",
+        "[Runa del Silencio] El objetivo recibe un 15% de Daño aumentado durante 10 segundos, y la resistencia al Ctrl de Masas del mismo se reduce en 170.",
+        "[Runa del Silencio] El objetivo recibe un 15% de Daño aumentado durante 10 segundos, y la resistencia al Ctrl de Masas del mismo se reduce en 210.",
+        "[Runa del Silencio] El objetivo recibe un 15% de Daño aumentado durante 10 segundos, y la resistencia al Ctrl de Masas del mismo se reduce en 250.",
+        "[Runa del Silencio] El objetivo recibe un 15% de Daño aumentado durante 10 segundos, y la resistencia al Ctrl de Masas del mismo se reduce en 300."
+      ],
+      "story": "Antiguo códice de hechicería. Un códice escrito por hechiceros respetados que contiene los principios detrás de la magia que usa todo aquello que tiene vida y existe gracias a la creación. Está escrito en un lenguaje desconocido, por lo que solo es posible descifrar una parte. Si se descubre el sistema de este antiguo texto, tal vez se puedan usar hechizos sin costo alguno."
+    }
+  },
+  "s4": {
+    "name": "Runa de la Proteccion",
+    "description": "Cada  {0}  seg, estampa una runa sobre el aliado con la menor Salud y por  {1}  seg, recupera  {2}  la Salud",
+    "books": {
+      "0": "la Curacion aumenta en {0}%.",
+      "1": "la Curacion aumenta en {0}%.",
+      "2": "Durante el proceso, aumenta la resistencia al debilitamiento en {0}."
+    },
+    "light": "La cantidad de Curacion aumentó en un 40%.",
+    "dark": "Después de curar a un aliado, aumenta la DEF Fis del objetivo en un 40% durante 10 segundos."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Bloq Fis +200",
+    "dark": "Al atacar, hay un 10% de probabilidad de causar 120% de ATQ como Daño Fis. a un enemigo aleatorio, mientras que también quita 300 de maná e inflige Silencio durante 1 seg."
+  }
+}

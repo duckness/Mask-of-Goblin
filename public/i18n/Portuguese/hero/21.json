@@ -1,0 +1,120 @@
+{
+  "name": "Naila",
+  "subtitle": "Lutadora de Vento",
+  "description": "Uma harpia que se especializou em combate corpo a corpo, usando suas soqueiras. Move-se rapidamente entre o inimigo, causando grande destruição por onde passa. Destrói inimigos lançando poderosos ataques consecutivos.",
+  "story": "Uma rígida e honrosa guerreira das Harpias, as portadoras do poder do vento. Sua dignidade como guerreira da Harpia é mais importante para ela do que qualquer outra coisa no mundo. Ela utiliza sua força de vontade e seu desejo de defender sua honra de guerreira para derrotar qualquer inimigo. Suas habilidades são excepcionais, mesmo entre seus colegas, e ela é um exemplo para os jovens guerreiros da Harpia.",
+  "like": "Conterrâneos, pessoas que possuem o orgulho de um guerreiro",
+  "dislike": "Covardes, hipócritas",
+  "inn": {
+    "idle": "Qual é o problema, guerreiro humano?",
+    "recruit": {
+      "greet": "Quero lutar com você um dia.",
+      "talk": [
+        "Himmullis...",
+        "É absurdo pensar que um poder emprestado é seu.",
+        "Eu nunca esquecerei do orgulho das harpias de Elidora."
+      ],
+      "gift": "Você com certeza sabe o que as harpias gostam."
+    },
+    "affinity": {
+      "greet": "Então é assim que é a casa de um humano.",
+      "talk": [
+        "Minha irmã sempre me disse pra me lembrar do orgulho de uma Harpia.",
+        "Me tornarei a melhor guerreira Harpia do mundo."
+      ],
+      "gift": "Vou recompensar você."
+    },
+    "relationship": {
+      "greet": "Como você vai? Continua treinando?",
+      "talk": [
+        "Um verdadeiro guerreiro nunca para de desenvolver suas habilidades!",
+        "Honra, orgulho... alguns podem dizer que são inúteis, mas elas são importantes para mim.",
+        "Da próxima vez, vamos discutir, só eu e você. Certo?"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Baroru, Garras Malditas",
+    "description": [
+      "Ao realizar um Acerto Crít., causa DAN.F (150% do ATQ) constante durante de 10 segundos. Os inimigos recebem DAN aumentado em 20% enquanto o poder durar.",
+      "Ao realizar um Acerto Crít., causa DAN.F (180% do ATQ) constante durante de 10 segundos. Os inimigos recebem DAN aumentado em 24% enquanto o poder durar.",
+      "Ao realizar um Acerto Crít., causa DAN.F (216% do ATQ) constante durante de 10 segundos. Os inimigos recebem DAN aumentado em 28% enquanto o poder durar.",
+      "Ao realizar um Acerto Crít., causa DAN.F (258% do ATQ) constante durante de 10 segundos. Os inimigos recebem DAN aumentado em 34% enquanto o poder durar.",
+      "Ao realizar um Acerto Crít., causa DAN.F (310% do ATQ) constante durante de 10 segundos. Os inimigos recebem DAN aumentado em 41% enquanto o poder durar.",
+      "Ao realizar um Acerto Crít., causa DAN.F (500% do ATQ) constante durante de 10 segundos. Os inimigos recebem DAN aumentado em 50% enquanto o poder durar."
+    ],
+    "story": "Um par de manoplas amaldiçoado criado a partir das garras do Demônio Insano Baroro, que foi derrotado durante a guerra. Muitas vezes maior que o tamanho de mãos humanas normais, essas manoplas se conectam diretamente aos nervos do utilizador, permitindo que ele as controle facilmente. Embora concedam imenso poder, elas também invadem a mente do portador, lentamente se alimentando da sua alma. Apenas um verdadeiro guerreiro com nobre convicção, força de vontade e essência imortal pode lidar com essas armas amaldiçoadas. Elas são as armas perfeitas para um guerreiro com uma força de vontade que brilha até na escuridão do abismo."
+  },
+  "s1": {
+    "name": "Ventos Tenazes",
+    "description": "Investe duas vezes contra o inimigo, causando {0} de DAN.F aos inimigos no alcance, derrubando-os durante {1} sec. Se o alvo não for um Herói, causa {2} de DAN F. adicional.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "Ser houver 1 inimigo, aumenta o dano em 100%.",
+    "dark": "O alvo muda para o inimigo com o ATQ mais alto."
+  },
+  "s2": {
+    "name": "Leitura do Vento",
+    "description": "Chance de ESQ.F aumenta em {1} , durante {0} segundos e o ATQ em {2}.",
+    "books": {
+      "0": "Aumenta a Taxa de Aumento de ATQ em {0}%.",
+      "1": "Aumenta a Taxa de Aumento de ATQ em {0}%.",
+      "2": "Aumenta a Taxa de Aumento de ATQ em {0}%."
+    },
+    "light": "Reduz o custo de mana em 1.",
+    "dark": "Aumenta DAN de Naila causado em inimigos não Heróis em 30% durante o efeito do poder.",
+    "ut": {
+      "name": "Cachecol de Himmullis",
+      "description": [
+        "[Leitura do Vento] Aumenta o Impulso de ATQ em 50% e a Esquiva M. em 100.",
+        "[Leitura do Vento] Aumenta o Impulso de ATQ em 50% e a Esquiva M. em 120.",
+        "[Leitura do Vento] Aumenta o Impulso de ATQ em 50% e a Esquiva M. em 140.",
+        "[Leitura do Vento] Aumenta o Impulso de ATQ em 50% e a Esquiva M. em 170.",
+        "[Leitura do Vento] Aumenta o Impulso de ATQ em 50% e a Esquiva M. em 210.",
+        "[Leitura do Vento] Aumenta o Impulso de ATQ em 50% e a Esquiva M. em 250."
+      ],
+      "story": "O cachecol vestido por Himmullis quando morreu. Naila sempre o carrega consigo. Himmullis sempre pedia que Naila se orgulhasse de ser uma Harpia. O cachecol contém a tristeza da perda de familiares, algo que deixa Naila furiosa."
+    }
+  },
+  "s3": {
+    "name": "Bomba de Submersão",
+    "description": "Voa para o alto e ataca o inimigo abaixo. Causa {0} de DAN.F aos inimigos. Aumenta em {1}% o DAN aos inimigos que foram derrubados. Se o alvo não for um Herói, causa {2} de DAN F. adicional.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Causa DAN ao inimigo e o atordoa durante 3 segundos."
+    },
+    "light": "Aumenta o DAN em 40%.",
+    "dark": "Reduz o tempo de recarga em 10% por cada inimigo que receber DAN Crít.",
+    "ut": {
+      "name": "Orgulho do Vento",
+      "description": [
+        "[Bomba Submersa] Reduz a recarga do poder em 30% e o alvo recebe mais 10% de DAN.F por 10 segundos.",
+        "[Bomba Submersa] Reduz a recarga do poder em 30% e o alvo recebe mais 12% de DAN.F por 10 segundos.",
+        "[Bomba Submersa] Reduz a recarga do poder em 30% e o alvo recebe mais 14% de DAN.F por 10 segundos.",
+        "[Bomba Submersa] Reduz a recarga do poder em 30% e o alvo recebe mais 17% de DAN.F por 10 segundos.",
+        "[Bomba Submersa] Reduz a recarga do poder em 30% e o alvo recebe mais 21% de DAN.F por 10 segundos.",
+        "[Bomba Submersa] Reduz a recarga do poder em 30% e o alvo recebe mais 25% de DAN.F por 10 segundos."
+      ],
+      "story": "Uma oferenda ritual de um povo religioso antigo que adorava o vento. É um tesouro precioso entre as Harpias, e dizem que é dada à guerreira Harpia mais poderosa. Quando alguém usa essa máscara, é capaz de usar livremente o vento. Também poderá atacar na velocidade da luz."
+    }
+  },
+  "s4": {
+    "name": "Ataque Giratório",
+    "description": "Ao atacar automaticamente, o quinto acerto tem 40% de chance de causar {0} de DAN.F adicional e derrubar os inimigos.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "A chance de ativação muda para 60%.",
+    "dark": "Reforça a VEL. ATQ em 300 quando ativar este poder."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / ESQ.F +100",
+    "dark": "Ao esquivar-se, o tempo de recarga de todos os poderes é reduzido em 2%. Reforça em 3% o ATQ e em 30 a VEL. ATQ. O ATQ e a VEL. ATQ podem se acumular 10 vezes."
+  }
+}

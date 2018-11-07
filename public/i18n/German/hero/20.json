@@ -1,0 +1,120 @@
+{
+  "name": "Demia",
+  "subtitle": "Festung aus Stahl",
+  "description": "Ein Ritter mit einer riesigen Lanze und einem Riesenschild. Widersteht feindlichen Angriffen mit absoluter Kraft und durchbricht Feindlinien mit ihrer Lanze.",
+  "story": "Ziltrion Si Demia. Die Kommandantin der Ritterwache von Orvel. Sie ist eine mächtige und ehrwürdige Ritterin, die eine Lanze und einen riesigen Schild führt. Es heißt, es wäre nahezu unmöglich, ihren Schild zu durchbrechen. Als Ritterkommandantin hat sie ein großes Herz für ihre Untergebenen und ist bereit, jede nötige Pflicht im Dienste ihres Landes zu erfüllen. Da sie den jüngsten Atmosphärenwechsel innerhalb des königlichen Palasts bemerkt hat, hofft sie, Clause so bald wie möglich als neuen Kommandanten ernennen zu können, um Scarlet vor dem Zorn der Adeligen beschützen zu können.",
+  "like": "Einem gerechten Monarchen zu dienen",
+  "dislike": "Kleingeistige Leute, die andere betrügen",
+  "inn": {
+    "idle": "Bereitet euch sorgfältig für den Kampf morgen vor.",
+    "recruit": {
+      "greet": "Freut mich, euch kennenzulernen, Soldaten. Ich bin Demia Ziltrion, Leiterin der Königsgarnison.",
+      "talk": [
+        "Die Königsgarnison ist stark. Nars Horrun wird die Truppen an meiner Statt führen.",
+        "Mein Vater hat ebenfalls jahrelang als Leiter der Garnison gedient. Er wollte, dass ich als ein normales Kind aufwachse, aber sein Blut fließt durch meine Adern.",
+        "Ich werde den Dunklen Lord besiegen und unserer Welt Frieden schenken."
+      ],
+      "gift": "Das sollte ich mit meinen Soldaten teilen."
+    },
+    "affinity": {
+      "greet": "Vielen Dank für deine Einladung.",
+      "talk": [
+        "Bitte sag mir, wenn du etwas über die Dunkle Macht herausfinden solltest.",
+        "Wir sind stets bereit zu kämpfen! Für Orvelia!"
+      ],
+      "gift": "Ich werde es mit den Soldaten teilen."
+    },
+    "relationship": {
+      "greet": "Ich hörte, dass du nach mir suchst. Warum?",
+      "talk": [
+        "Ich sorge mich um die Prinzessin. Sie ist noch so jung und sanftmütig... es muss schwer sein.",
+        "Hmpf, warum kann dieser Blecheimer nicht hierbleiben und auf die Prinzessin aufpassen? So eine lästige Person...",
+        "Ich? Nun, ähm... also neben dir zu kämpfen ist gar nicht so schlecht. Es ist zumindest ein gutes Training."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Arpheus des Blauen Lichts",
+    "description": [
+      "Erhöht die K.VERT von allen Verbündeten um 4 %. Wenn ein feindlicher Angriff geblockt wird, besteht eine Chance von 10 %, 3 % Mana zu regenerieren und den Cooldown von allen Skills um 1. Sek. zu verringern.",
+      "Erhöht die K.VERT von allen Verbündeten um 4,8 %. Wenn ein feindlicher Angriff geblockt wird, besteht eine Chance von 12 %, 3,3 % Mana zu regenerieren und den Cooldown von allen Skills um 1. Sek. zu verringern.",
+      "Erhöht die K.VERT von allen Verbündeten um 5,8 %. Wenn ein feindlicher Angriff geblockt wird, besteht eine Chance von 14 %, 3,6 % Mana zu regenerieren und den Cooldown von allen Skills um 1. Sek. zu verringern.",
+      "Erhöht die K.VERT von allen Verbündeten um 7 %. Wenn ein feindlicher Angriff geblockt wird, besteht eine Chance von 17 %, 3,9 % Mana zu regenerieren und den Cooldown von allen Skills um 1. Sek. zu verringern.",
+      "Erhöht die K.VERT von allen Verbündeten um 8,4 %. Wenn ein feindlicher Angriff geblockt wird, besteht eine Chance von 21 %, 4,2 % Mana zu regenerieren und den Cooldown von allen Skills um 1. Sek. zu verringern.",
+      "Erhöht die K.VERT von allen Verbündeten um 10 %. Wenn ein feindlicher Angriff geblockt wird, besteht eine Chance von 25 %, 4,5 % Mana zu regenerieren und den Cooldown von allen Skills um 1. Sek. zu verringern."
+    ],
+    "story": "Eines Tages wurde im Territorium von Ziltrion eine Ader mächtigen Manas entdeckt. Als Demia diese untersuchte, fand sie ein blaues Erz, das sie noch nie zuvor gesehen hatte. Zahlreiche Zauberer und Alchemisten studierten dieses geheimnisvolle Erz, das zugleich Edelstein und Metall war, doch niemand vermochte, ihre Zusammensetzung zu ergründen. Jin, der Schmied, hatte allerdings eine andere Idee. Als er das Erz erblickte, bot er Demia mit einem breiten Grinsen an, daraus mächtige Ausrüstung zu schmieden. Tatsächlich schmiedete er daraus eine Lanze und einen Schild, beide mit dem blauen Schimmern des Manas und härter als ein Diamant."
+  },
+  "s1": {
+    "name": "Durdringung",
+    "description": "Wirft einen Speer auf den entferntesten Gegner, verursacht {0} P.Schaden und zieht den Gegner zu sich heran. Verursacht anschließend {1} P.Schaden an umstehenden Gegnern und betäubt sie für 3 Sek.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Betäubungsdauer um {0} Sek."
+    },
+    "light": "Zieht für 1 extra Mana 2 Feinde zu sich heran.",
+    "dark": "Alle herangezogenen Feinde erleiden 25% erhöhten Schaden für 10 Sek."
+  },
+  "s2": {
+    "name": "Siegeswille",
+    "description": "Wird Schaden innerhalb von {0} Sek geblockt, wird eine Schockwelle ausgelöst, die Feinden in der Umgebung {1} K.Schaden zufügt und ihre ANG um {0}% verringert.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Feind-ANG Reduktion erhöht um {0}%."
+    },
+    "light": "Reduziert Manakosten um 1.",
+    "dark": "Erhöht bei Aktivierung die K.VERT des Verbündeten um 20% für 10 Sek.",
+    "ut": {
+      "name": "Schild der Entschlossenheit",
+      "description": [
+        "[Siegeswille] Erhöht den Schaden um 50 % und die K.Schwäche des Ziels 10 Sek. lang um 10 %.",
+        "[Siegeswille] Erhöht den Schaden um 50 % und die K.Schwäche des Ziels 12 Sek. lang um 10 %.",
+        "[Siegeswille] Erhöht den Schaden um 50 % und die K.Schwäche des Ziels 14 Sek. lang um 10 %.",
+        "[Siegeswille] Erhöht den Schaden um 50 % und die K.Schwäche des Ziels 17 Sek. lang um 10 %.",
+        "[Siegeswille] Erhöht den Schaden um 50 % und die K.Schwäche des Ziels 21 Sek. lang um 10 %.",
+        "[Siegeswille] Erhöht den Schaden um 50 % und die K.Schwäche des Ziels 25 Sek. lang um 10 %."
+      ],
+      "story": "Ein hölzerner Schild, mit dem Demia als Kind übte. Er wurde schon über tausend Mal benutzt und ist sehr abgewetzt. Demia setzt ihn ein, um ihre Beherrschung wiederzuerlangen, wenn sie spürt, dass sie an ihre Grenzen stößt. Ihr Stolz als Ritterin von Orvelia kommt wieder hoch, wenn sie diesen alten, abgenutzten Schild sieht."
+    }
+  },
+  "s3": {
+    "name": "Stählerne Festung",
+    "description": "Erhöht Sprungangriffsschaden um 7%, wenn Schaden während des Beschwörens geblockt wird. Verursacht außerdem {1} K. Schaden an Feinden und betäubt sie. Springt nach dem Beschwören auf den Gegner zu und verursacht {2} K. Schaden und betäubt ihn für {3} Sek. Effekt-Resistenz beim Wirken des Skills.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Greift nach einem Sprung in die Luft, den Gegner mit dem höchsten ANG an.",
+    "dark": "Alle Verbündeten erleiden beim wirken 20% weniger K. Schaden.",
+    "ut": {
+      "name": "Energie des Schutzes",
+      "description": [
+        "[Stählerne Festung] Reduziert Manakosten um 1 und erhöht Betäubungsdauer des Sprungangriffs um 1 Sek.",
+        "[Stählerne Festung] Reduziert Manakosten um 1 und erhöht Betäubungsdauer des Sprungangriffs um 1,5 Sek.",
+        "[Stählerne Festung] Reduziert Manakosten um 1 und erhöht Betäubungsdauer des Sprungangriffs um 2 Sek.",
+        "[Stählerne Festung] Reduziert Manakosten um 1 und erhöht Betäubungsdauer des Sprungangriffs um 2,5 Sek.",
+        "[Stählerne Festung] Reduziert Manakosten um 1 und erhöht Betäubungsdauer des Sprungangriffs um 3 Sek.",
+        "[Stählerne Festung] Reduziert Manakosten um 1 und erhöht Betäubungsdauer des Sprungangriffs um 3,5 Sek."
+      ],
+      "story": "Ein Stein, der die Seele davor bewahrt, vom Bösen übernommen zu werden. Er leuchtet nur für kurze Zeit im Morgengrauen, ist also schwer zu finden. Eines Tages, als Demia müde vom Kampf war, legte ihr ein Gefährte dies in die Hände. Auch wenn es ein Gefährte ist, den sie nie wieder sehen kann, ... nimmt Demia diesen Stein immer mit, wenn sie in die Schlacht zieht. Sie tut ihr Bestes, um ihren Schwur aufrechtzuerhalten, die Opfer ihrer Gefährten nicht umsonst werden zu lassen."
+    }
+  },
+  "s4": {
+    "name": "Speerspitze",
+    "description": "Erhöht die K.VERT des Spieler-Teams um {0} und die K. Blockrate um {1}%.",
+    "books": {
+      "0": "Erhöht VERT um {0}%.",
+      "1": "Erhöht VERT um {0}%.",
+      "2": "Erhöht VERT um {0}%."
+    },
+    "light": "Erhöht K.VERT um 20% und K.Block um 50%.",
+    "dark": "Heilt beim erfolgreichen Block die eigene TP um 40% der K.VERT."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / K.Block +200",
+    "dark": "Verringert den ANG der Gegner am Anfang jedes Kampfes für 6 Sek. um 20%. Effekt kann nicht aufgehoben werden."
+  }
+}

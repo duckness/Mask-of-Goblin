@@ -1,0 +1,120 @@
+{
+  "name": "Jane",
+  "subtitle": "Cadaver de Porcelana",
+  "description": "Esta chica se ha convertido en un muerto viviente después de luchar contra las Fuerzas Obscuras en el pasado. Arrastra el ataúd en el que duerme y se recupera dejando una marca de muerte a sus enemigos.",
+  "story": "Una vez fue la princesa de la caída Republica de Gray. La Republica de Gray, borrada del mapa por los invasores demonio durante la guerra de demonios. Fue la protectora de incontables secretos, incluso las ruinas y tecnologías de una civilización ancestral. Jane, también, perdió su vida para proteger aquellos secretos. Después, Malduk, un oficial de alto rango y estratega del ejército de demonios, la trajo de vuelta al mundo como muerto viviente. Una magia obscura y desconocida le dio una nueva consciencia. Ahora, busca emprender el viaje para reencontrarse a sí misma en el pasado y recuperar sus recuerdos perdidos.",
+  "like": "No recuerdo exactamente... Mi...",
+  "dislike": "Huesos grandes...",
+  "inn": {
+    "idle": "...",
+    "recruit": {
+      "greet": "...Hola.",
+      "talk": [
+        "¿Quién eres tú?",
+        "Yo no te conozco",
+        "Tu...me conoces?"
+      ],
+      "gift": "Regalo...? Gracias...?"
+    },
+    "affinity": {
+      "greet": "¿Dónde... estamos?",
+      "talk": [
+        "Hace frío... No, más bien... calor...",
+        "No... recuerdo. Quiero... recordar..."
+      ],
+      "gift": "¿Un regalo? ¿Por qué me sigues entregando cosas?"
+    },
+    "relationship": {
+      "greet": "Bienvenido nuevamente... envíale un saludo a él... cuando regrese...",
+      "talk": [
+        "Relámpago Rojo... manos cálidas... ojos amables... no recuerdo...",
+        "Recuerdos perdidos... vacío...",
+        "El ataúd... el calor que nunca cambia..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Mente Inmutable, Erekura",
+    "description": [
+      "Por cada segundo, causa Daño Mágico a los enemigos cercanos equivalente al 10% del ATQ , y reduce el ATQ enemigo en un 14%. Cuando la habilidad pasiva se activa, recupera el 30% de maná.",
+      "Por cada segundo, causa Daño Mágico a los enemigos cercanos equivalente al 12% del ATQ , y reduce el ATQ enemigo en un 17%. Cuando la habilidad pasiva se activa, recupera el 30% de maná.",
+      "Por cada segundo, causa Daño Mágico a los enemigos cercanos equivalente al 14% del ATQ , y reduce el ATQ enemigo en un 20%. Cuando la habilidad pasiva se activa, recupera el 30% de maná.",
+      "Por cada segundo, causa Daño Mágico a los enemigos cercanos equivalente al 17% del ATQ , y reduce el ATQ enemigo en un 24%. Cuando la habilidad pasiva se activa, recupera el 30% de maná.",
+      "Por cada segundo, causa Daño Mágico a los enemigos cercanos equivalente al 20% del ATQ , y reduce el ATQ enemigo en un 29%. Cuando la habilidad pasiva se activa, recupera el 30% de maná.",
+      "Por cada segundo, causa Daño Mágico a los enemigos cercanos equivalente al 25% del ATQ , y reduce el ATQ enemigo en un 35%. Cuando la habilidad pasiva se activa, recupera el 30% de maná."
+    ],
+    "story": "Cuando la magia de Malduk resucitó a Jane como una inmortal, no debería haber sentido nada. Sin embargo, se sintió cálida y cómoda, como una energía misteriosa que rodeaba todo su cuerpo. No debería haber sido capaz ni siquiera de sentirla. Pero cuando Malduk la tomó, instintivamente alcanzó la presencia cálida. Posteriormente, cuando una magia misteriosa la trajo de vuelta a la conciencia, la primera cosa que hizo fue inspeccionar su ataúd, que irradiaba amor trágico pero cálido. Dentro, encontró el siguiente mensaje gravado cuidadosamente: “Mi invariable amor por ti”."
+  },
+  "s1": {
+    "name": "Ceremonia Funebre",
+    "description": "Causa  {0}  Daño Magico a los enemigos al alcance, aturdiéndolos por  {1}  segundos.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Aumenta la duración del aturdimiento por  {0}  seg."
+    },
+    "light": "El objetivo recibe un 25% de Daño Magico aumentado durante 10 seg.",
+    "dark": "A cambio de 1 Maná adicional, la habilidad tiene un 100% de probabilidad de atraer al objetivo."
+  },
+  "s2": {
+    "name": "Marca de la Muerte",
+    "description": "Deja una marca en cada enemigo por {0}  seg y causa constantemente  {1}  Daño Magico. El enemigo recibe  {2}% más de Daño Magico cuando tiene esta marca",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "La duración se reduce a 10 segundos y el Daño aumenta en un 250%.",
+    "dark": "La Marca Grabada no desaparece cuando se disipan los efectos negativos.",
+    "ut": {
+      "name": "Cojín de muerte imbuida",
+      "description": [
+        "[Marca de la muerte] Aumenta el Ataque en un 5 % y el Daño crítico en un 10 % durante 20 segundos cuando muere el enemigo marcado. Este efecto se acumula hasta 8 veces.",
+        "[Marca de la muerte] Aumenta el Ataque en un 5 % y el Daño crítico en un 12 % durante 20 segundos cuando muere el enemigo marcado. Este efecto se acumula hasta 8 veces.",
+        "[Marca de la muerte] Aumenta el Ataque en un 5 % y el Daño crítico en un 14 % durante 20 segundos cuando muere el enemigo marcado. Este efecto se acumula hasta 8 veces.",
+        "[Marca de la muerte] Aumenta el Ataque en un 5 % y el Daño crítico en un 17 % durante 20 segundos cuando muere el enemigo marcado. Este efecto se acumula hasta 8 veces.",
+        "[Marca de la muerte] Aumenta el Ataque en un 5 % y el Daño crítico en un 21 % durante 20 segundos cuando muere el enemigo marcado. Este efecto se acumula hasta 8 veces.",
+        "[Marca de la muerte] Aumenta el Ataque en un 5 % y el Daño crítico en un 25 % durante 20 segundos cuando muere el enemigo marcado. Este efecto se acumula hasta 8 veces."
+      ],
+      "story": "El cojín que Jane abraza para dormir dentro de su ataúd. Está imbuido con los espíritus que se durmieron con ella dentro del ataúd. Constantemente bridan a Jane la sensación de vacío de la muerte."
+    }
+  },
+  "s3": {
+    "name": "Dia de la Destruccion",
+    "description": "Inflige {1}  Daño Magico sobre los enemigos cada  {0}  seg y cura tu propia Salud con  {2}% de Daño. Obten inmunidad a los efectos. El Daño aumenta si los enemigos están marcados.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Recupera {0}% PM."
+    },
+    "light": "el Daño se incrementa en un 40%.",
+    "dark": "Tiene un 10% de probabilidad de Aturdir a los enemigos durante 1 segundo.",
+    "ut": {
+      "name": "Flor de los duques olvidados",
+      "description": [
+        "[Día de Ruina] El Daño aumenta en un 20% y con cada Daño causado la DEF Mágica del objetivo se reduce en un 5% durante 5 segundos. Este efecto se puede acumular un máximo de 10 veces.",
+        "[Día de Ruina] El Daño aumenta en un 24% y con cada Daño causado la DEF Mágica del objetivo se reduce en un 5% durante 5 segundos. Este efecto se puede acumular un máximo de 10 veces.",
+        "[Día de Ruina] El Daño aumenta en un 29% y con cada Daño causado la DEF Mágica del objetivo se reduce en un 5% durante 5 segundos. Este efecto se puede acumular un máximo de 10 veces.",
+        "[Día de Ruina] El Daño aumenta en un 35% y con cada Daño causado la DEF Mágica del objetivo se reduce en un 5% durante 5 segundos. Este efecto se puede acumular un máximo de 10 veces.",
+        "[Día de Ruina] El Daño aumenta en un 42% y con cada Daño causado la DEF Mágica del objetivo se reduce en un 5% durante 5 segundos. Este efecto se puede acumular un máximo de 10 veces.",
+        "[Día de Ruina] El Daño aumenta en un 50% y con cada Daño causado la DEF Mágica del objetivo se reduce en un 5% durante 5 segundos. Este efecto se puede acumular un máximo de 10 veces."
+      ],
+      "story": "Una flor de la República que ya no se puede encontrar. También se la conoce como la flor de las fronteras que conecta la vida y la muerte, y se nutre de la destrucción. Una flor bellamente dolorosa. Si se la regalas a alguien, podrás compartir el último momento de vida de esa persona en un sueño."
+    }
+  },
+  "s4": {
+    "name": "Descansa en Paz",
+    "description": "Al recibir un golpe mortal, entra en su ataúd por  {0}  seg. Recupera la Salud igual a  {1}  + 6% de Salud Max. Obten inmunidad a todos los Daños mientras estés dentro de dicho ataúd.",
+    "books": {
+      "0": "Aumenta Recuperacion en {0}%.",
+      "1": "Aumenta Recuperacion en {0}%.",
+      "2": "Aumenta Recuperacion en {0}%."
+    },
+    "light": "Mientras estes dentro del ataúd, causa Daño de 5% equivalente de la maxima Salud a los enemigos cercanos.",
+    "dark": "Tras la activación, aturdir a todos los enemigos durante 2 seg."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Bloq Magico +200",
+    "dark": "Cada golpe de los ataques de Jane incrementa su ATQ y la Tasa de Recuperación en 1% cada uno. (El número máximo de la pila es 50)"
+  }
+}

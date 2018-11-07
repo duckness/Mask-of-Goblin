@@ -1,0 +1,120 @@
+{
+  "name": "Aisha",
+  "subtitle": "The Violet Princess",
+  "description": "A noble lady hailing from Orvelia. A genius who attained the title of ‘Violet’ from the Tower of the Sage. Using her fancy parasol, she fires powerful energy cannons towards the enemy.",
+  "story": "A daughter of a noble family from Orvel. As one of the most talented wizards in the Tower of Sage, she has been granted the title of 'Purple' in recognition of her magic capability. She was raised in the Tower of Sage since childhood at her parents' request, but she still retains her dignity as an aristocrat. As a child, she never realized why her parents sent her away on her own, but now she understands their reasons. Now, she is back home, and is always attended by her handmaiden, who is like another member of the family to her.",
+  "like": "Tea time with Priscilla",
+  "dislike": "Rude people",
+  "inn": {
+    "idle": "Hmph, may as well just buy this entire Inn.",
+    "recruit": {
+      "greet": "Is it your first time meeting nobility?",
+      "talk": [
+        "Hmm, what family are you from?",
+        "This skirt...the last touches were quite shabby.",
+        "Ugh, I prefer my chef's cooking to this...peasant food."
+      ],
+      "gift": "My, thank you. Why not come over for tea sometime?"
+    },
+    "affinity": {
+      "greet": "This house isn't that nice.",
+      "talk": [
+        "Ugh... I don't need food. I don't think I'll like it.",
+        "I'll bring a luxurious car next time I come."
+      ],
+      "gift": "Thank you. Let me know if you want anything."
+    },
+    "relationship": {
+      "greet": "Sister went out for a while, so do not worry.",
+      "talk": [
+        "Do not be mislead by the smiles of nobles. Their smiles are but mere masks to hide themselves with.",
+        "I do not like the fact that I cannot call Priscilla 'Sister' at home. She's just like family!",
+        "The title of Violet...there is no hiearchy between The Seven, but I dislike being the last color of the spectrum!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Noble Fate, Mahitra",
+    "description": [
+      "Each attack has a 35% chance of dealing 40% of ATK as extra M.DMG.",
+      "Each attack has a 35% chance of dealing 48% of ATK as extra M.DMG.",
+      "Each attack has a 35% chance of dealing 57% of ATK as extra M.DMG.",
+      "Each attack has a 35% chance of dealing 69% of ATK as extra M.DMG.",
+      "Each attack has a 35% chance of dealing 83% of ATK as extra M.DMG.",
+      "Each attack has a 35% chance of dealing 100% of ATK as extra M.DMG."
+    ],
+    "story": "In the Tower of Sage, the title of Purple indicates the pinnacle of mana capacity. Aisha's seemingly endless mana was simply too much for regular means of output. For this reason, the von Daphnel family bought out all the best mana stones they could find, and took them to Annette, the best technomagi in Orvel Castle. Annette gladly agreed to take on this new project. Soon after, she created Mahitra, a beautiful umbrella befitting an aristocratic wizard of noble destiny."
+  },
+  "s1": {
+    "name": "Mystic Barrage",
+    "description": "Deals {0} M.DMG to enemies within a small range. Upon a Crit Hit, cooldown is reduced by 1 sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Crit Chance is increased by {0}."
+    },
+    "light": "If there is 1 enemy, DMG is increased by 100%.",
+    "dark": "Upon a Crit Hit, recovers 300 mana."
+  },
+  "s2": {
+    "name": "Destruction Ray",
+    "description": "Every 0.5 sec, deals {0} M.DMG to enemies in a straight line. After 5 sec, consumes 3% of mana every 0.5 sec while DMG is increased by 100%. Max duration is 10 sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Crit Chance is increased by {0}."
+    },
+    "light": "The mana cost of the Boosted Ray is half.",
+    "dark": "The mana cost of the Boosted Ray is doubled and the DMG increase is boosted from 100% to 200%.",
+    "ut": {
+      "name": "Noble Hand Mirror",
+      "description": [
+        "[Destruction Ray] Increases DMG by 50% and recovers 500 MP immediately upon use.",
+        "[Destruction Ray] Increases DMG by 50% and recovers 600 MP immediately upon use.",
+        "[Destruction Ray] Increases DMG by 50% and recovers 720 MP immediately upon use.",
+        "[Destruction Ray] Increases DMG by 50% and recovers 860 MP immediately upon use.",
+        "[Destruction Ray] Increases DMG by 50% and recovers 1040 MP immediately upon use.",
+        "[Destruction Ray] Increases DMG by 50% and recovers 1250 MP immediately upon use."
+      ],
+      "story": "A sacred treasure passed down through generations of the von Daphnel family. It was a shaman tool to save mana in ancient times. After Aisha embedded the Noble Purple gem with her mana, its power came out. Now it shines brilliantly."
+    }
+  },
+  "s3": {
+    "name": "Torrential Rainfall",
+    "description": "Deals {1} M.DMG to random enemies for {0} sec, and reduces target's M.DEF by 5%. Can be stacked up to max 5 times.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Crit Chance is increased by {0}."
+    },
+    "light": "Deals AoE DMG.",
+    "dark": "M.DEF reduction effect now stacks up to 10 times max.",
+    "ut": {
+      "name": "Ring of Infinite Mana",
+      "description": [
+        "[Torrential Rainfall] DMG is increased by 50% and upon Crit Hit, recovers 30 mana.",
+        "[Torrential Rainfall] DMG is increased by 50% and upon Crit Hit, recovers 36 mana.",
+        "[Torrential Rainfall] DMG is increased by 50% and upon Crit Hit, recovers 43 mana.",
+        "[Torrential Rainfall] DMG is increased by 50% and upon Crit Hit, recovers 52 mana.",
+        "[Torrential Rainfall] DMG is increased by 50% and upon Crit Hit, recovers 62 mana.",
+        "[Torrential Rainfall] DMG is increased by 50% and upon Crit Hit, recovers 75 mana."
+      ],
+      "story": "A ring that was given along with the title of Purple from the Tower of Sage. It is an artifact of witch Eucaletus, who lived in the Swamp of Wisdom. The power it displays depends on the owner's ability. For some, it could be a source of unlimited mana. It's perfect for Aisha, who uses powerful magic cannons."
+    }
+  },
+  "s4": {
+    "name": "Mystic Boost",
+    "description": "Upon a Crit Hit, deals extra {0} M.DMG to the enemy.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "DMG is increased by 40%.",
+    "dark": "Ignores enemy Block."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / Crit Chance +100",
+    "dark": "Each skill use stacks Darkness. Each stack boosts her Mana regen per sec by 6% and boosts her Crit DMG by 2%. (Maximum Stack number is 50)"
+  }
+}

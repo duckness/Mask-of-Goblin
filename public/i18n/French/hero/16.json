@@ -1,0 +1,120 @@
+{
+  "name": "Rephy",
+  "subtitle": "Guide Spirituel",
+  "description": "Mi-humain et mi-animal, cette créature guide les âmes en utilisant une lampe d'esprit. Elle gène ses ennemis, soigne ses alliés avec la puissance des âmes et et les aide à récupérer leur Mana.",
+  "story": "Ce guide des âmes tamien est un homme doux et pur, capable de communiquer avec les morts. Vivant en harmonie avec la nature, les Tamiens possèdent la capacité de lire ses flux et de guider les âmes des morts. Les talents de guide des âmes de Rephy sont exceptionnels, même pour un Tamien. Il les met à profit pour guider les âmes de ceux qui sont morts dans la forêt et les aider à passer dans l'au-delà, ce qui les empêche de devenir maléfiques. Il est le Tamien le plus doué pour ce qui est de déchiffrer les voies des étoiles, pacifier les âmes des morts et les guider sans accroc dans l'au-delà.",
+  "like": "Les âmes, les gens gentils",
+  "dislike": "Faire du mal aux autres",
+  "inn": {
+    "idle": "Avez-vous entendu parler de la tribu Tamian?",
+    "recruit": {
+      "greet": "Je suis Rephy, sage de la tribu Tamian.",
+      "talk": [
+        "Humain, venez avec moi. Allons vaincre le Seigneur Obscure et protéger la forêt.",
+        "Vous ne vous perdez jamais avec moi dans cette forêt!",
+        "C'est une de nos tâches de guider ceux qui sont morts dans la forêt, en les aidant à revenir là où ils doivent..."
+      ],
+      "gift": "J'ai eu un cadeau d'un humain! Hourra!"
+    },
+    "affinity": {
+      "greet": "Il fait chaud ! Les âmes apprécieront cet endroit !",
+      "talk": [
+        "Vous entendez ? Les étoiles derrière la fenêtre nous chuchotent quelque chose !",
+        "Humain, la prochaine fois, je vous inviterai dans notre forêt !"
+      ],
+      "gift": "Une surprise ? Les humains sont vraiment de bons amis !"
+    },
+    "relationship": {
+      "greet": "Salutations! Votre âme est aussi pure que d'habitude!",
+      "talk": [
+        "La forêt se sent bien! Air pur, vents frais, fées dansantes...",
+        "Laissez-moi guider! Les âmes nous aideront!",
+        "Les étoiles disent qu'aujourd'hui sera une belle journée! Sortons!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Kurulati, Lampe de Dieu",
+    "description": [
+      "Toutes les 20 sec, l'allié ayant le moins de PV devient invisible pendant 5 sec. Il devient également immunisé aux dégâts physiques, ses PV ne peuvent pas descendre en-dessous de 1%. Sa Récupération de PM augmente de 120% par seconde.",
+      "Toutes les 20 sec, l'allié ayant le moins de PV devient invisible pendant 6 sec. Il devient également immunisé aux dégâts physiques, ses PV ne peuvent pas descendre en-dessous de 1%. Sa Récupération de PM augmente de 120% par seconde.",
+      "Toutes les 20 sec, l'allié ayant le moins de PV devient invisible pendant 7 sec. Il devient également immunisé aux dégâts physiques, ses PV ne peuvent pas descendre en-dessous de 1%. Sa Récupération de PM augmente de 120% par seconde.",
+      "Toutes les 20 sec, l'allié ayant le moins de PV devient invisible pendant 8 sec. Il devient également immunisé aux dégâts physiques, ses PV ne peuvent pas descendre en-dessous de 1%. Sa Récupération de PM augmente de 120% par seconde.",
+      "Toutes les 20 sec, l'allié ayant le moins de PV devient invisible pendant 9 sec. Il devient également immunisé aux dégâts physiques, ses PV ne peuvent pas descendre en-dessous de 1%. Sa Récupération de PM augmente de 120% par seconde.",
+      "Toutes les 20 sec, l'allié ayant le moins de PV devient invisible pendant 10 sec. Il devient également immunisé aux dégâts physiques, ses PV ne peuvent pas descendre en-dessous de 1%. Sa Récupération de PM augmente de 120% par seconde."
+    ],
+    "story": "Le devoir du guide des âmes consiste à mener les âmes perdues sur le droit chemin et les aider à passer dans la vie d'après. Cette lampe, alimentée par un orbe mystérieux créé il y a bien longtemps par un dragon d'une terre lointaine, est un trésor des Tamiens. Le cœur de l'orbe permet aux âmes proches de se matérialiser, ce qui permet à son porteur de leur parler. C'est donc l'outil ultime pour un guide des âmes. Les chefs Tamiens utilisèrent cette relique pour mener les devoirs sacrés des guides des âmes pendant des générations. Désormais, face au grand danger menaçant l'existence du monde, la lampe a été confiée à Rephy, le plus puissant guide des âmes existant."
+  },
+  "s1": {
+    "name": "Guérison Spirituelle",
+    "description": "Soigne 4 alliés ayant les PV les plus bas pour {2}% des PV Max, et soigne {1} PV supplémentaires en {0} sec. Cet effet ne peut pas être dissipé.",
+    "books": {
+      "0": "Augmente la Récupération de {0}%.",
+      "1": "Augmente la Récupération de {0}%.",
+      "2": "Augmente la Régénération de MP de {0}% par seconde."
+    },
+    "light": "Le coût en Mana est augmenté de 1 et l'effet de la compétence s'étend à tous les alliés.",
+    "dark": "Chaque sort de soin a 20% de chances de dissiper les effets négatifs."
+  },
+  "s2": {
+    "name": "Rédemption",
+    "description": "Supprime les effets négatifs de tous les alliés et augmente la DEF M. de  {1}  pendant  {0}  sec.",
+    "books": {
+      "0": "Augmente la progression de la DEF M. de {0}%.",
+      "1": "Augmente la progression de la DEF M. de {0}%.",
+      "2": "Pendant {0} sec, la Résistance aux Contrôles est augmentée de {1}."
+    },
+    "light": "Le coût en Mana est réduit de 1.",
+    "dark": "Augmente la DEF M à hauteur de 10 % de la DEF M du lanceur.",
+    "ut": {
+      "name": "Graine de vie",
+      "description": [
+        "[Rédemption] Augmente le boost de DEF M. de 50 % et réduit le temps de recharge de 12 %.",
+        "[Rédemption] Augmente le boost de DEF M. de 50 % et réduit le temps de recharge de 14 %.",
+        "[Rédemption] Augmente le boost de DEF M. de 50 % et réduit le temps de recharge de 17 %.",
+        "[Rédemption] Augmente le boost de DEF M. de 50 % et réduit le temps de recharge de 21 %.",
+        "[Rédemption] Augmente le boost de DEF M. de 50 % et réduit le temps de recharge de 25 %.",
+        "[Rédemption] Augmente le boost de DEF M. de 50 % et réduit le temps de recharge de 30 %."
+      ],
+      "story": "Concentration d’énergie générée à chaque naissance. Elle est douce et chaude, c’est pour cela que les âmes l’apprécient. Rephy s’en sert pour allumer une lampe et ainsi emprunter la puissance des âmes. Lorsqu’une graine est placée dans une lampe, elle émet une vive lumière comparable à celle du soleil au moment de sa naissance."
+    }
+  },
+  "s3": {
+    "name": "Tempête de l'Âme",
+    "description": "Inflige à 10 reprises {1} points de DEG M. aux ennemis dans la zone et réduit la Vit ATQ de {2}%.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Les DEG de toutes les sources sont augmentés de {0}% sur la cible."
+    },
+    "light": "Chaque coup touché retire 250 PM à la cible.",
+    "dark": "Pour un coût de 1 MP supplémentaire, les ennemis à portée sont réduits au Silence pendant 1 sec.",
+    "ut": {
+      "name": "Havre des âmes",
+      "description": [
+        "[Tempête de l'Âme] Le coût en mana est réduit de 1 et tous les alliés sont soignés de 8% des DEG.",
+        "[Tempête de l'Âme] Le coût en mana est réduit de 1 et tous les alliés sont soignés de 10% des DEG.",
+        "[Tempête de l'Âme] Le coût en mana est réduit de 1 et tous les alliés sont soignés de 12% des DEG.",
+        "[Tempête de l'Âme] Le coût en mana est réduit de 1 et tous les alliés sont soignés de 14% des DEG.",
+        "[Tempête de l'Âme] Le coût en mana est réduit de 1 et tous les alliés sont soignés de 17% des DEG.",
+        "[Tempête de l'Âme] Le coût en mana est réduit de 1 et tous les alliés sont soignés de 20% des DEG."
+      ],
+      "story": "Un ornement utilisé pour les cérémonies mémorielles des rois défunts des anciens temps. Au sein du joyau vert se trouve une larme cristallisée d’une créature mythique menant les gens à leur mort. On l’utiliser pour apaiser le vide régnant dans certaines âmes."
+    }
+  },
+  "s4": {
+    "name": "Réglage Spirituel",
+    "description": "Toutes les 7 sec, l'allié ayant le moins de PV récupère 1 PM et {0} PV.",
+    "books": {
+      "0": "Augmente la Récupération de {0}%.",
+      "1": "Augmente la Récupération de {0}%.",
+      "2": "Augmente de {0}% la Récupération des PM."
+    },
+    "light": "Utilise la compétence toutes les 5 sec.",
+    "dark": "Fournit également 1 orbe de mana à l'allié disposant de l'ATQ la plus élevée."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Esquive M. +100",
+    "dark": "Lors d'une attaque, il y a 10% de chances de réduire toutes les DEF de la cible de 20% et de réduire tous les Temps de Recharge du Héros de 5%."
+  }
+}

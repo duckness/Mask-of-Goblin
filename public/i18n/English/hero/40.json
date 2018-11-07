@@ -1,0 +1,120 @@
+{
+  "name": "Theo",
+  "subtitle": "Knight of Loyalty",
+  "description": "The 1st Knight of the long lost Republic of Gray, who wanders the world in search of his long lost liege, Jane. His dual spears hold a dangerous power, lying in wait to pierce enemy demons mercilessly.",
+  "story": "A knight who served the Republic of Gray 100 years ago, and an admirer of Jane Gray. Theo was the First Knight of the Republic and the wielder of the Lightning Legios. During the Duchy's battle against the Demon Army, the Mountain Fortress went on a rampage when its seal was lifted. Under Jane's order, Theo set out to contain it. In his absence, powerful Demon officers attacked the royal palace. Theo returned to fight them despite heavy injury, but was unable to defeat them by himself. When the battle was over, he held the body of the princess in his arms and cried out from the ruins of the palace. Suddenly, a mysterious entity offered him a chance to defend his princess for all eternity. When he accepted, he fell into a deep slumber.",
+  "like": "My lady, Jane",
+  "dislike": "Demons and their officers",
+  "inn": {
+    "idle": "I am Theo Phil Grayum of the Gray Republic.",
+    "recruit": {
+      "greet": "Oh, it's you. We've met before, have we not?",
+      "talk": [
+        "I wish to see her once more.",
+        "...More than a hundred winters have passed.",
+        "Have you, by any chance, seen a beautiful white-haired lady?"
+      ],
+      "gift": "Your heart is filled with warmth."
+    },
+    "affinity": {
+      "greet": "Hello.",
+      "talk": [
+        "Not all demons are evil... Like that cat, you know.",
+        "I've used a spear ever since I was young. I'm used to wielding a spear."
+      ],
+      "gift": "Thank you. My heart is warming up."
+    },
+    "relationship": {
+      "greet": "How are you? It has been a while.",
+      "talk": [
+        "It was the first time I felt so warm inside...as if the Sun was standing just before my eyes.",
+        "A lot of people ask me - why go so far? I say...I have merely been living the way my heart tells me to.",
+        "If she doesn't recognize me when we finally meet...I do not know what expression I should make..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Lightning Bolt, Legios",
+    "description": [
+      "Each auto attack and skill attack stacks 'Lightning' on self. Upon the 50th stack, 'Lightning Bolt, Legios' activates, and for 10 sec, ATK Spd is increased by 300, Crit DMG is increased by 100%, and Penetration is increased by 300. While 'Lightning Bolt, Legios' is activated, Lightning will not stack. This effect cannot be dispelled.",
+      "Each auto attack and skill attack stacks 'Lightning' on self. Upon the 50th stack, 'Lightning Bolt, Legios' activates, and for 10 sec, ATK Spd is increased by 360, Crit DMG is increased by 120%, and Penetration is increased by 360. While 'Lightning Bolt, Legios' is activated, Lightning will not stack. This effect cannot be dispelled.",
+      "Each auto attack and skill attack stacks 'Lightning' on self. Upon the 50th stack, 'Lightning Bolt, Legios' activates, and for 10 sec, ATK Spd is increased by 430, Crit DMG is increased by 144%, and Penetration is increased by 430. While 'Lightning Bolt, Legios' is activated, Lightning will not stack. This effect cannot be dispelled.",
+      "Each auto attack and skill attack stacks 'Lightning' on self. Upon the 50th stack, 'Lightning Bolt, Legios' activates, and for 10 sec, ATK Spd is increased by 520, Crit DMG is increased by 173%, and Penetration is increased by 520. While 'Lightning Bolt, Legios' is activated, Lightning will not stack. This effect cannot be dispelled.",
+      "Each auto attack and skill attack stacks 'Lightning' on self. Upon the 50th stack, 'Lightning Bolt, Legios' activates, and for 10 sec, ATK Spd is increased by 620, Crit DMG is increased by 208%, and Penetration is increased by 620. While 'Lightning Bolt, Legios' is activated, Lightning will not stack. This effect cannot be dispelled.",
+      "Each auto attack and skill attack stacks 'Lightning' on self. Upon the 50th stack, 'Lightning Bolt, Legios' activates, and for 10 sec, ATK Spd is increased by 750, Crit DMG is increased by 250%, and Penetration is increased by 750. While 'Lightning Bolt, Legios' is activated, Lightning will not stack. This effect cannot be dispelled."
+    ],
+    "story": "A spear said to have been forged from a bolt of lightning. Electricity constantly flows around this impressive spear that stands as tall as an average adult male. Forging a spear from lightning was a tremendous task. But then again, Jin was no ordinary blacksmith. He smelted a huge mana stone infused with a red dragon's blood. He used this to contain the lightning before forging it into a spear. Aside from its chosen master, no person can touch this weapon. When its two pieces are combined, it lets out a tremendous flux of energy that resembles a dragon's roar."
+  },
+  "s1": {
+    "name": "Final Crash",
+    "description": "Attacks 16 times, dealing a total of {0} M.DMG to enemies in range. Upon each Crit Hit, Crit DMG is increased by 3% for 10 sec, and there is a 30% chance to deal {1} extra M.DMG, inflicting stun for 0.3 sec. Crit DMG boost can be stacked up to 30 times max.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Crit Chance is increased by {0}."
+    },
+    "light": "If there is 1 enemy, DMG is increased by 100%.",
+    "dark": "Cooldown is reduced by 2 sec."
+  },
+  "s2": {
+    "name": "God of Lightning",
+    "description": "Upon casting, activates 'God of Lightning' and throws a spear of lightning at the enemy, dealing {0} M.DMG. Hit enemy takes {1}% increased M.DMG for 10 sec. While in 'God of Lightning' state, cannot recover mana for 10 sec, but activation chance of 'For Jane' is increased by 40% and ATK is increased by {2}.",
+    "books": {
+      "0": "ATK boost and DMG is increased by {0}%",
+      "1": "ATK boost and DMG is increased by {0}%",
+      "2": "ATK boost and DMG is increased by {0}%"
+    },
+    "light": "Mana cost is reduced by 1.",
+    "dark": "DMG taken while in Lightning God state is increased by 30% but ATK increase rate is increased by 100%.",
+    "ut": {
+      "name": "God of Lightning's Necklace",
+      "description": [
+        "[God of Lightning] ATK Spd is increased by 250 for the duration of skill, and the activation chance of 'For Jane' is increased by an additional 8%.",
+        "[God of Lightning] ATK Spd is increased by 250 for the duration of skill, and the activation chance of 'For Jane' is increased by an additional 9.6%.",
+        "[God of Lightning] ATK Spd is increased by 250 for the duration of skill, and the activation chance of 'For Jane' is increased by an additional 11.5%.",
+        "[God of Lightning] ATK Spd is increased by 250 for the duration of skill, and the activation chance of 'For Jane' is increased by an additional 13.8%.",
+        "[God of Lightning] ATK Spd is increased by 250 for the duration of skill, and the activation chance of 'For Jane' is increased by an additional 16.5%.",
+        "[God of Lightning] ATK Spd is increased by 250 for the duration of skill, and the activation chance of 'For Jane' is increased by an additional 20%."
+      ],
+      "story": "Called a thunderbolt from the sky. Legios is also called a holy beast. The power of Legios was so strong that when they made it into a weapon, the Republic of Gray couldn't contain all of its power. So the greatest piece was put in the Spear of Lightning, and the remaining pieces were put into different places. One of those pieces was put into God of Lightning's Necklace. It is said that anyone with this necklace can commune with the Spear of Lightning and get closer to the power of Legios."
+    }
+  },
+  "s3": {
+    "name": "Lightning Explosion",
+    "description": "Jumps and strikes, thrusting the spear to the ground and hitting target enemy and enemies in range 5 times, dealing a total of {0} M.DMG and inflicting Stun for 3 sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Crit Chance is increased by {0}."
+    },
+    "light": "DMG is increased by 40%.",
+    "dark": "Stun duration is increased by 1 sec.",
+    "ut": {
+      "name": "Essence of Red Lightning",
+      "description": [
+        "[Lightning Explosion] Skill cooldown is reduced by 30% and upon attack, deals 40% of ATK as extra M.DMG.",
+        "[Lightning Explosion] Skill cooldown is reduced by 30% and upon attack, deals 48% of ATK as extra M.DMG.",
+        "[Lightning Explosion] Skill cooldown is reduced by 30% and upon attack, deals 58% of ATK as extra M.DMG.",
+        "[Lightning Explosion] Skill cooldown is reduced by 30% and upon attack, deals 70% of ATK as extra M.DMG.",
+        "[Lightning Explosion] Skill cooldown is reduced by 30% and upon attack, deals 84% of ATK as extra M.DMG.",
+        "[Lightning Explosion] Skill cooldown is reduced by 30% and upon attack, deals 100% of ATK as extra M.DMG."
+      ],
+      "story": "Legacy of the fallen Republic of Gray. A treasure that a respected palace wizard of the Republic of Gray gave to the 1st Knight Theo, who received the Lightning Bolt Legios. The Lightning Essence that has the energy of the Lightning Bolt maximizes the effect of Lightning Explosion."
+    }
+  },
+  "s4": {
+    "name": "For Jane",
+    "description": "Each auto attack has a 20% chance of dealing {0} M.DMG and inflicting Stun for 0.7 sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Crit Chance is increased by {0}."
+    },
+    "light": "DMG is increased by 40%.",
+    "dark": "Stun duration is increased by 0.2 sec."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / Crit Chance +100",
+    "dark": "When 'God of Lightning' is activated, recovers half mana instead. When mana is full, ATK is increased by 50% for 10 sec. This effect only activates once every 20 sec."
+  }
+}

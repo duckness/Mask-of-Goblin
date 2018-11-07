@@ -1,0 +1,120 @@
+{
+  "name": "Jane",
+  "subtitle": "Alabaster Corpse",
+  "description": "This girl has become an undead after fighting the Dark Forces in the past. She drags along the coffin that she sleeps in. She recovers herself by leaving a mark of death on her enemies.",
+  "story": "She was once the princess of the fallen Republic of Gray. The Republic of Gray, wiped off the map by the Demon invaders during the Demon War, was the protector of countless secrets, including the ruins and technologies of an ancient civilization. Jane, too, lost her life to protect those secrets. Later, she was brought back to the world as an undead by Malduk, a high-ranking officer and a strategist of the Demon Army. She was given a new consciousness by a strange, dark magic. Now, she seeks to go on a journey to find her past self and her lost memories.",
+  "like": "I don't remember exactly... My...",
+  "dislike": "Large bones...",
+  "inn": {
+    "idle": "...",
+    "recruit": {
+      "greet": "...Hello.",
+      "talk": [
+        "Who are...you?",
+        "I...don't know you...",
+        "You...know me?"
+      ],
+      "gift": "Present...? Thanks...?"
+    },
+    "affinity": {
+      "greet": "Where... is this...?",
+      "talk": [
+        "It's cold... No... Warm...",
+        "I... don't... remember... I... want... to remember..."
+      ],
+      "gift": "Gift...? Why do you keep giving me things?"
+    },
+    "relationship": {
+      "greet": "Welcome back...a greeting...for him...when he returns...",
+      "talk": [
+        "Red lightning...warm hands...gentle eyes...no memory...",
+        "Lost memories...emptiness....",
+        "The coffin...the never changing warmth..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Unchanging Mind, Erekura",
+    "description": [
+      "Per every sec, deals 10% of ATK as M.DMG to nearby enemies, and reduces their ATK by 14%. When the passive skill is activated, recovers 30% of mana.",
+      "Per every sec, deals 12% of ATK as M.DMG to nearby enemies, and reduces their ATK by 17%. When the passive skill is activated, recovers 30% of mana.",
+      "Per every sec, deals 14% of ATK as M.DMG to nearby enemies, and reduces their ATK by 20%. When the passive skill is activated, recovers 30% of mana.",
+      "Per every sec, deals 17% of ATK as M.DMG to nearby enemies, and reduces their ATK by 24%. When the passive skill is activated, recovers 30% of mana.",
+      "Per every sec, deals 20% of ATK as M.DMG to nearby enemies, and reduces their ATK by 29%. When the passive skill is activated, recovers 30% of mana.",
+      "Per every sec, deals 25% of ATK as M.DMG to nearby enemies, and reduces their ATK by 35%. When the passive skill is activated, recovers 30% of mana."
+    ],
+    "story": "When Malduk's magic resurrected Jane as an undead, she should not have felt anything. Yet, she felt warm and comfortable as mysterious energy surrounded her dead body. She should not have been able to even feel it. But when Malduk took her, she instinctively reached out to the warm presence. Later, when a mysterious magic brought her back to consciousness, the first thing she did was to inspect her coffin, which radiated with tragic yet warm love. Inside, she found the following message carefully engraved: 'My unchanging love for you.'"
+  },
+  "s1": {
+    "name": "Funeral Rites",
+    "description": "Deals {0} M.DMG to enemies in range, stunning them for {1} sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Stun duration is increased by {0} sec."
+    },
+    "light": "Target takes 25% increased M.DMG for 10 sec.",
+    "dark": "In exchange for 1 additional Mana Cost, the skill has a 100% chance to draw the target in."
+  },
+  "s2": {
+    "name": "Mark of Death",
+    "description": "Engraves a Mark on all enemies for {0} sec and deals {1} M.DMG over time. Enemies engraved with Mark takes {2}% more M.DMG.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Duration is reduced to 10 sec and DMG is boosted by 250%.",
+    "dark": "Engraved Mark is not be dispelled when negative effects are dispelled.",
+    "ut": {
+      "name": "Death-imbued Cushion",
+      "description": [
+        "[Mark of Death] Increases ATK by 5% and Crit DMG by 10% for 20 sec when the marked enemy dies. This effect stacks up to 8 times.",
+        "[Mark of Death] Increases ATK by 5% and Crit DMG by 12% for 20 sec when the marked enemy dies. This effect stacks up to 8 times.",
+        "[Mark of Death] Increases ATK by 5% and Crit DMG by 14% for 20 sec when the marked enemy dies. This effect stacks up to 8 times.",
+        "[Mark of Death] Increases ATK by 5% and Crit DMG by 17% for 20 sec when the marked enemy dies. This effect stacks up to 8 times.",
+        "[Mark of Death] Increases ATK by 5% and Crit DMG by 21% for 20 sec when the marked enemy dies. This effect stacks up to 8 times.",
+        "[Mark of Death] Increases ATK by 5% and Crit DMG by 25% for 20 sec when the marked enemy dies. This effect stacks up to 8 times."
+      ],
+      "story": "The cushion that Jane hugs to sleep inside the coffin. It's imbued with the spirits that fell asleep with her inside the coffin. They constantly give the hollowness of death to Jane."
+    }
+  },
+  "s3": {
+    "name": "Day of Ruin",
+    "description": "For {0} sec, deals a total of {1} M.DMG to all enemies and recovers {2}% of DMG as own HP. Gains immunity to CC. Marked enemies take increased DMG.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "MP is recovered by {0}%."
+    },
+    "light": "DMG is increased by 40%.",
+    "dark": "Has a 10% chance to Stun enemies for 1 sec.",
+    "ut": {
+      "name": "Flowers of a Forgotten Dukedom",
+      "description": [
+        "[Day of Ruin] DMG is increased by 20% and with every DMG dealt, target's M.DEF is reduced by 5% for 5 sec. This effect can be stacked max 10 times.",
+        "[Day of Ruin] DMG is increased by 24% and with every DMG dealt, target's M.DEF is reduced by 5% for 5 sec. This effect can be stacked max 10 times.",
+        "[Day of Ruin] DMG is increased by 29% and with every DMG dealt, target's M.DEF is reduced by 5% for 5 sec. This effect can be stacked max 10 times.",
+        "[Day of Ruin] DMG is increased by 35% and with every DMG dealt, target's M.DEF is reduced by 5% for 5 sec. This effect can be stacked max 10 times.",
+        "[Day of Ruin] DMG is increased by 42% and with every DMG dealt, target's M.DEF is reduced by 5% for 5 sec. This effect can be stacked max 10 times.",
+        "[Day of Ruin] DMG is increased by 50% and with every DMG dealt, target's M.DEF is reduced by 5% for 5 sec. This effect can be stacked max 10 times."
+      ],
+      "story": "A flower of the Republic that can no longer be found. It is also known as the Flower of Boundaries that connects life and death, and it gets its nourishment from destruction. A painfully beautiful flower. If you gift it to someone, you will be able to share that person's last moment in a dream."
+    }
+  },
+  "s4": {
+    "name": "Rest in Peace",
+    "description": "Upon taking a deathblow, enters a coffin for {0} sec and heals {1} + 6% of Max HP. Gains immunity to all DMG while inside the coffin.",
+    "books": {
+      "0": "Heal rate is increased by {0}%.",
+      "1": "Heal rate is increased by {0}%.",
+      "2": "Heal rate is increased by {0}%."
+    },
+    "light": "While inside the Coffin, deal DMG worth 5% of max HP to nearby enemies.",
+    "dark": "Upon activation, stun all enemies for 2 sec."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / M. Block +200",
+    "dark": "Each hit of Jane's attacks increase her ATK and Recovery Rate by 1% each. (Maximum stack number is 50)"
+  }
+}

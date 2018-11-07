@@ -1,0 +1,120 @@
+{
+  "name": "Priscilla",
+  "subtitle": "Demoiselle d'Acier",
+  "description": "Officiellement l'une des plus hautes gradées de l'Armée d'Orvelia, elle est devenue la domestique d'Aisha, la mage de génie; Fille unique de la noble famille Daphnel Pon. Sa puissante hallebarde tranche rapidement tous ses ennemis.",
+  "story": "Un ancien officier des forces armées d'Orvelia. Après avoir échoué à dévoiler la corruption des chefs militaires, elle fut dégradée. Pour mieux cacher leurs magouilles, les chefs militaires envoient constamment des assassins pour l'éliminer. Son combat interminable et solitaire commençait à lui peser, physiquement comme mentalement. Un jour, la famille aristocratique des von Daphnel lui proposa sa protection en échange de ses services. Elle accepta et travaille depuis comme servante d'Aisha dans la Tour des Sages. Depuis ce jour, elle mène son travail fidèlement et envoie tous ses salaires à un destinataire inconnu.",
+  "like": "Les camarades de combat, sa dame, de beaux costumes pour sa dame",
+  "dislike": "Le désordre, l'injustice",
+  "inn": {
+    "idle": "Milady fait une sieste pour le moment.",
+    "recruit": {
+      "greet": "Milady n'est pas dans sa chambre actuellement.",
+      "talk": [
+        "...",
+        "Nous parlerons à la prochaine occasion.",
+        "Je ne suis plus un soldat."
+      ],
+      "gift": "Je ne suis pas habitué à recevoir de tels cadeaux, mais je vous remercie."
+    },
+    "affinity": {
+      "greet": "C'est vous. Heureuse de vous voir.",
+      "talk": [
+        "J'espère que ma maîtresse appréciera le service à thé que j'ai acheté.",
+        "Je dois me rendre à la forge pour affûter ma hache."
+      ],
+      "gift": "Merci. La prochaine fois, j'espère qu'on prendra le thé."
+    },
+    "relationship": {
+      "greet": "Alors c'est vous... Ça fait un moment.",
+      "talk": [
+        "Peut-être que mes anciens subalternes ont trop souffert de mes colères de jeunesse...",
+        "Elle était si petite et essayait tellement de faire l'adulte... Alors, j'ai senti que je devais la protéger.",
+        "Je suis satisfait de ma vie actuelle. Mes revenus sont suffisamment décents pour que je puisse aussi aider mes anciens subordonnés."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Excilius, Danse Tumultueuse",
+    "description": [
+      "Lorsque les compétences 'Frappe Vitale' et 'Danse Tournoyante' touchent un ennemi, leur temps de recharge respectif est réduit de de 1 sec et la Vit. d'ATQ est augmentée de 50 par ennemi touché. L'augmentation de la Vit. d'ATQ est cumulable 10 fois.",
+      "Lorsque les compétences 'Frappe Vitale' et 'Danse Tournoyante' touchent un ennemi, leur temps de recharge respectif est réduit de de 1,2 sec et la Vit. d'ATQ est augmentée de 50 par ennemi touché. L'augmentation de la Vit. d'ATQ est cumulable 10 fois.",
+      "Lorsque les compétences 'Frappe Vitale' et 'Danse Tournoyante' touchent un ennemi, leur temps de recharge respectif est réduit de de 1,4 sec et la Vit. d'ATQ est augmentée de 50 par ennemi touché. L'augmentation de la Vit. d'ATQ est cumulable 10 fois.",
+      "Lorsque les compétences 'Frappe Vitale' et 'Danse Tournoyante' touchent un ennemi, leur temps de recharge respectif est réduit de de 1,7 sec et la Vit. d'ATQ est augmentée de 50 par ennemi touché. L'augmentation de la Vit. d'ATQ est cumulable 10 fois.",
+      "Lorsque les compétences 'Frappe Vitale' et 'Danse Tournoyante' touchent un ennemi, leur temps de recharge respectif est réduit de de 2 sec et la Vit. d'ATQ est augmentée de 50 par ennemi touché. L'augmentation de la Vit. d'ATQ est cumulable 10 fois.",
+      "Lorsque les compétences 'Frappe Vitale' et 'Danse Tournoyante' touchent un ennemi, leur temps de recharge respectif est réduit de de 2,5 sec et la Vit. d'ATQ est augmentée de 50 par ennemi touché. L'augmentation de la Vit. d'ATQ est cumulable 10 fois."
+    ],
+    "story": "Durant sa carrière militaire, Priscilla terrassa d'innombrables ennemis à l'aide de sa hallebarde. Si l'arme a été négligée une fois sa propriétaire à la retraite, elle fut par la suite ressuscitée sous le nom d'Exilius. Cette amélioration survint à l'occasion d'une commande reçue par Annette visant à créer Mahitra pour Aisha. Cette nouvelle arme tranchante comme une lame de rasoir et incroyablement résistante possède même le pouvoir d'attirer ses ennemis. Ceux qui ont eu l'occasion de voir Priscilla en action affirment qu'ils ont eu l'impression de regarder une irrésistible tempête se déchaîner."
+  },
+  "s1": {
+    "name": "Frappe Vitale",
+    "description": "Inflige {0} points de DEG P. frontalement aux ennemis en appliquant Étourdissement pendant 1 sec. Cette attaque est toujours un coup critique.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "La durée d'Étourdissement est augmentée de 2 sec.",
+    "dark": "Plus de Crit aléatoires et les DEG Crit sont augmentés de 150%."
+  },
+  "s2": {
+    "name": "Coordination",
+    "description": "Pendant 20 sec, place Priscilla et l'allié à l'ATQ la plus élevée dans un état de Coordination et dissipe les effets négatifs. En état de Coordination, Priscilla et l'allié à l'ATQ la plus élevée reçoivent un boost d'ATQ à hauteur de 15 % de l'ATQ de Priscilla +  {0}.",
+    "books": {
+      "0": "ATQ augmentée de {0}%.",
+      "1": "ATQ augmentée de {0}%.",
+      "2": "ATQ augmentée de {0}%."
+    },
+    "light": "Les DEG Crit sont augmentés de 80%.",
+    "dark": "En Co-Op, les attaques auto augmentent de 15% les DEG reçu par la cible de toutes les sources.",
+    "ut": {
+      "name": "Service à thé raffiné",
+      "description": [
+        "[Coordination] Augmente le boost d'ATQ de 20% et réduit le temps de recharge du héros avec l'ATQ la plus élevée de 30%.",
+        "[Coordination] Augmente le boost d'ATQ de 24% et réduit le temps de recharge du héros avec l'ATQ la plus élevée de 30%.",
+        "[Coordination] Augmente le boost d'ATQ de 29% et réduit le temps de recharge du héros avec l'ATQ la plus élevée de 30%.",
+        "[Coordination] Augmente le boost d'ATQ de 35% et réduit le temps de recharge du héros avec l'ATQ la plus élevée de 30%.",
+        "[Coordination] Augmente le boost d'ATQ de 42% et réduit le temps de recharge du héros avec l'ATQ la plus élevée de 30%.",
+        "[Coordination] Augmente le boost d'ATQ de 50% et réduit le temps de recharge du héros avec l'ATQ la plus élevée de 30%."
+      ],
+      "story": "Tasses de thé en céramique d’Aisha que Priscilla sort en toute occasion. Ces tasses de thé de luxe ont été fabriquées dans la meilleure argile du continent oriental par-delà l’océan. Elles servent principalement à prendre le thé avec Aisha, mais aussi à accomplir Coordination avec Priscilla."
+    }
+  },
+  "s3": {
+    "name": "Danse Tounoyante",
+    "description": "Inflige {0} points de DEG P. aux ennemis à portée circulaire. Si l'activation a lieu sous l'effet 'Co-op', les ennemis touchés subissent {1}% de DEG M. et P. supplémentaires pendant 10 sec.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Un Coup Crit réduit le Temps de recharge de 10%.",
+    "dark": "Quand il n'y a qu'un seul ennemi, les DEG sont augmentés de 100%.",
+    "ut": {
+      "name": "Pierre magique de gravité",
+      "description": [
+        "[Danse Tounoyante] Augmente les DEG de 20% et applique Étourdissement sur la cible pendant 3 sec.",
+        "[Danse Tounoyante] Augmente les DEG de 24% et applique Étourdissement sur la cible pendant 3 sec.",
+        "[Danse Tounoyante] Augmente les DEG de 29% et applique Étourdissement sur la cible pendant 3 sec.",
+        "[Danse Tounoyante] Augmente les DEG de 35% et applique Étourdissement sur la cible pendant 3 sec.",
+        "[Danse Tounoyante] Augmente les DEG de 42% et applique Étourdissement sur la cible pendant 3 sec.",
+        "[Danse Tounoyante] Augmente les DEG de 50% et applique Étourdissement sur la cible pendant 3 sec."
+      ],
+      "story": "Le premier outil magique fabriqué par un sorcier de Violet. Le premier cadeau reçu par Aisha gave. Aisha créa cet outil magique, car elle trouvait triste que Priscilla utilise tant de magie pour sa Danse Tournoyante. La Pierre Mana de Gravité soulage la pression du corps lors de l’utilisation de la Danse Tournoyante et augmente ses effets."
+    }
+  },
+  "s4": {
+    "name": "Maîtrise des Armes",
+    "description": "L'ATQ de ce Héros augmente de {0} et la Pen. DEF augmente de {1}.",
+    "books": {
+      "0": "Le taux d'augmentation d'ATQ est augmenté de {0}%.",
+      "1": "Le taux d'augmentation d'ATQ est augmenté de {0}%.",
+      "2": "DEG Crit augmentés de {0}%."
+    },
+    "light": "Bonus d'ATQ augmenté de 40%.",
+    "dark": "Chances de Crit augmentées de 250."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Résist. Contrôles +100",
+    "dark": "Augmente l'ATQ et la DEF P. de tous les alliés de 3% de leurs propres ATQ et DEF P."
+  }
+}

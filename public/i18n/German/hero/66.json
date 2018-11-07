@@ -1,0 +1,120 @@
+{
+  "name": "Shea",
+  "subtitle": "Arie der Fantasie",
+  "description": "Dieses geheimnisvolle Mädchen heilt Leute mithilfe ihrer bezaubernden Melodien. Ihre wunderschöne Stimme und die lieblichen Klänge ihrer Zauberharfe haben heilende Wirkung.",
+  "story": "„Wenn ich die wundervolle Melodie auf dem Schlachtfeld höre, frage ich mich, ob ich mich wirklich in der Mitte eines solchen befinde.' „Mein Schwert glitt aus meiner Hand. Auch alle anderen anwesenden Soldaten ließen ihre Schwerter fallen.' „Mein Gefühl sagte mir, dass das Mädchen auf einer völlig anderen Ebene existierte und von uns anderen entkoppelt war.' Die fantastische Geschichte des Mädchens mit dem rosaroten Haar, dessen plötzliches Erscheinen die Schlacht beendet hatte, verbreitete sich schnell. Ihre wundervolle, bezaubernde Weise und ihre artige, liebliche Erscheinung ließ niemanden kalt. Niemand wusste allerdings wirklich, woher sie gekommen war oder wohin sie ging. „Sie erschien mir seltsam, so wie sie scheinbar mit dem Nichts sprach, als wäre dort jemand, mit dem sie kommunizieren könnte ...' Manche hatten zwar überzeugendere Theorien über den Verbleib des Mädchens geliefert, doch ihre geheimnisvolle Schönheit hatte jegliche Spekulationen erstickt.",
+  "like": "Wunderschöne Melodie, sanfte Brisen",
+  "dislike": "Geister, Kürbis-Ghule",
+  "inn": {
+    "idle": "Lalala~lalala~la...ah?",
+    "recruit": {
+      "greet": "Strahlender Sonnenschein. Heute wird doch noch ein guter Tag.",
+      "talk": [
+        "Kannst du es hören? Die Melodie des Windes?",
+        "Hmmm... hast du meine Harfe gesehen?",
+        "Shuwanheit und ich haben uns das erste Mal im Wald getroffen."
+      ],
+      "gift": "Danke! Dafür spiele ich dir ein Lied."
+    },
+    "affinity": {
+      "greet": "Ich bin hier, um Euch erneut zu segnen!",
+      "talk": [
+        "Ihr seht glücklich aus. Ich spüre eine blendende Melodie von Euch.",
+        "Das ist die Musik der Geister des Waldes. Gibt es Euch nicht auch ein warmes Gefühl?"
+      ],
+      "gift": "Danke Euch. Schwanheit wird sehr glücklich sein."
+    },
+    "relationship": {
+      "greet": "Deine Harmonie ist voller Wärme und Freundlichkeit.",
+      "talk": [
+        "Du weißt es vielleicht nicht, aber Shuwanheit ist ziemlich gesprächig.",
+        "Shuwanheit ändert manchmal die Tonart der Musik, abhängig von seiner Stimmung.",
+        "Eines Tages hoffe ich, dein Lied zu spielen."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Bezaubernde Melodie, Schwanheite",
+    "description": [
+      "Reduziert alle Skill-Cooldowns um 10% und stellt 200 Mana wieder her, wenn Trance einen Zähler erhält.",
+      "Reduziert alle Skill-Cooldowns um 12% und stellt 240 Mana wieder her, wenn Trance einen Zähler erhält.",
+      "Reduziert alle Skill-Cooldowns um 14% und stellt 290 Mana wieder her, wenn Trance einen Zähler erhält.",
+      "Reduziert alle Skill-Cooldowns um 17% und stellt 350 Mana wieder her, wenn Trance einen Zähler erhält.",
+      "Reduziert alle Skill-Cooldowns um 20% und stellt 420 Mana wieder her, wenn Trance einen Zähler erhält.",
+      "Reduziert alle Skill-Cooldowns um 25% und stellt 500 Mana wieder her, wenn Trance einen Zähler erhält."
+    ],
+    "story": "Diese mächtige und ehrfurchtsgebietende Ausrüstung steht in Wechselwirkung zu ihren Trägern und kann ihre Besitzer sogar dominieren. Schwanheit zählt zu diesen überwältigenden Waffen. Diese Harfe, die lieber „Mr. Schute“ genannt werden möchte, verstärkt das Mana des Benutzers deutlich und versprüht es um ihn herum. Weil das verstärkte Mana verstreut wird, kann es nicht effektiv für offensive Magie genutzt werden. Doch bei anderer Verwendung kann es sich durchaus als sehr effektiv herausstellen. Mr. Schute ist eine ziemliche Quasselstrippe, aber nur, wenn er unter Freunden ist. Dieser Tage spricht er nur mit Shea."
+  },
+  "s1": {
+    "name": "Melodie der grünen Natur",
+    "description": "Heilt über 8 Runden insgesamt {0}  TP aller Verbündeten, und alle Verbündeten nehmen 8 Sekunden lang um {1}  % weniger Schaden. Wenn die Fähigkeit bei 3 Stapeln Trance benutzt wird, erhöht sich die Heilungsrate um 100 % und der Schaden-Reduktionseffekt ändert sich auf {2}  %.",
+    "books": {
+      "0": "Erhöht Erholungsrate um {0}%.",
+      "1": "Erhöht Erholungsrate um {0}%.",
+      "2": "Erhöht Erholungsrate um {0}%."
+    },
+    "light": "Heilt alle Verbündeten um 15% ihrer TP.",
+    "dark": "Erhöht den Krit. Widerstand aller Verbündeten für 8 Sekunden um 250."
+  },
+  "s2": {
+    "name": "Gesang des blauen Windes",
+    "description": "Heilt über 8 Runden insgesamt {0}  MP aller Verbündeten, regeneriert {1}  TP eines Ziels mit maximalen MP und reduziert die Statuseffekt-Dauer 8 Sekunden lang um {2}  %. Wenn die Fähigkeit bei 3 Stapeln Trance benutzt wird, erhöhen sich MP-Erholung und Heilungsrate um 50 %, und alle Verbündeten sind 8 Sekunden lang immun gegenüber Statuseffekten.",
+    "books": {
+      "0": "Erhöht MP Erholung um {0}%.",
+      "1": "Erhöht MP Erholung um {0}%.",
+      "2": "Erhöht MP Erholung um {0}%."
+    },
+    "light": "Regeneriert bei allen Verbündeten 500 MP.",
+    "dark": "Erhöht den ANG-Geschw. aller Verbündeten für 8 Sekunden um 250.",
+    "ut": {
+      "name": "Windblume",
+      "description": [
+        "[Gesang des blauen Windes] Erhöht 8 Sek. lang die PRÄZ um 250 und stellt jedes Mal 160 MP her, wenn ein Verbündeter einen Skill einsetzt.",
+        "[Gesang des blauen Windes] Erhöht 8 Sek. lang die PRÄZ um 250 und stellt jedes Mal 190 MP her, wenn ein Verbündeter einen Skill einsetzt.",
+        "[Gesang des blauen Windes] Erhöht 8 Sek. lang die PRÄZ um 250 und stellt jedes Mal 230 MP her, wenn ein Verbündeter einen Skill einsetzt.",
+        "[Gesang des blauen Windes] Erhöht 8 Sek. lang die PRÄZ um 250 und stellt jedes Mal 270 MP her, wenn ein Verbündeter einen Skill einsetzt.",
+        "[Gesang des blauen Windes] Erhöht 8 Sek. lang die PRÄZ um 250 und stellt jedes Mal 330 MP her, wenn ein Verbündeter einen Skill einsetzt.",
+        "[Gesang des blauen Windes] Erhöht 8 Sek. lang die PRÄZ um 250 und stellt jedes Mal 400 MP her, wenn ein Verbündeter einen Skill einsetzt."
+      ],
+      "story": "Der Kranz schmückte am Tag, nachdem sie „Glück des Windes“ aufführte, den Kopf von Shea. Schwanheit zufolge war er außerdem ein Geschenk der Feen des Waldes für ihre wunderschöne Musik. Er enthält Sheas Wunsch, dass der Wind Glück über die Welt bringen möge."
+    }
+  },
+  "s3": {
+    "name": "Tanz der roten Leidenschaft",
+    "description": "Fügt über 8 Runden allen Feinden insgesamt {0} M.Schaden zu und erhöht ANG aller Verbündeten 8 Sekunden lang um {1}. Wenn die Fähigkeit bei 3 Stapeln Trance benutzt wird, erhöhen sich Schaden und ANG-Boost um 100 %. Gleichzeitig werden die Buffs aller Feinde aufgehoben.",
+    "books": {
+      "0": "Erhöht ANG um {0}%.",
+      "1": "Erhöht ANG um {0}%.",
+      "2": "Erhöht ANG um {0}%."
+    },
+    "light": "Reduziert bei allen Verbündeten die Skill-Cooldowns um 10%.",
+    "dark": "Alle Gegner erleiden für 8 Sekunden 15% mehr Schaden.",
+    "ut": {
+      "name": "Feenkrone",
+      "description": [
+        "[Tanz der roten Leidenschaft] Bei Wirkung werden Feinde 2 Sek. lang zum Schweigen gebracht und Krit. Schaden aller Verbündeter ist während der Wirkungsdauer um 20% erhöht.",
+        "[Tanz der roten Leidenschaft] Bei Wirkung werden Feinde 2 Sek. lang zum Schweigen gebracht und Krit. Schaden aller Verbündeter ist während der Wirkungsdauer um 24% erhöht.",
+        "[Tanz der roten Leidenschaft] Bei Wirkung werden Feinde 2 Sek. lang zum Schweigen gebracht und Krit. Schaden aller Verbündeter ist während der Wirkungsdauer um 29% erhöht.",
+        "[Tanz der roten Leidenschaft] Bei Wirkung werden Feinde 2 Sek. lang zum Schweigen gebracht und Krit. Schaden aller Verbündeter ist während der Wirkungsdauer um 35% erhöht.",
+        "[Tanz der roten Leidenschaft] Bei Wirkung werden Feinde 2 Sek. lang zum Schweigen gebracht und Krit. Schaden aller Verbündeter ist während der Wirkungsdauer um 42% erhöht.",
+        "[Tanz der roten Leidenschaft] Bei Wirkung werden Feinde 2 Sek. lang zum Schweigen gebracht und Krit. Schaden aller Verbündeter ist während der Wirkungsdauer um 50% erhöht."
+      ],
+      "story": "Der Kranz schmückte am Tag, nachdem sie im Wald das Schlaflied für die Träume vollführte, den Kopf von Shea. Schwanheit zufolge war er ein Geschenk der Feen des Waldes für ihre wunderschöne Musik. Es heißt, dass Gegenstände, welche die Hände von Feen berühren, die Kraft besitzen, eine Seele zu ihrer reinsten Form zurückzubringen."
+    }
+  },
+  "s4": {
+    "name": "Trance",
+    "description": "Am Ende des Skills wird 1 weitere Trance kumiliert. Trance kann maximal 3 Zähler erreichen. Wenn der Skill verwendet wird, wenn Trance 3 Zähler hat, wird der Stapel verbraucht, um {0} TP aller Verbündeten zu heilen. Trance kann nicht entfernt werden.",
+    "books": {
+      "0": "Erhöht Erholungsrate um {0}%.",
+      "1": "Erhöht Erholungsrate um {0}%.",
+      "2": "Erhöht Erholungsrate um {0}%."
+    },
+    "light": "Erhöht die Heilungsrate von Trance um 100%.",
+    "dark": "Wenn ein Skill bei 3 Stapeln Trance benutzt wird, wird statt der Heilung von Verbündeten Feinden M.Schaden zugefügt und ihre VERT 10 Sek. lang um 10% gesenkt."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / Effekt-Widerstund +100",
+    "dark": "Am Anfang jedes Kampfes werden 1 Stapel Trance und 500 MP regeneriert."
+  }
+}

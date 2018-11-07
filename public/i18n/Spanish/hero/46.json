@@ -1,0 +1,120 @@
+{
+  "name": "Zafir",
+  "subtitle": "Príncipe de las tormentas de arena",
+  "description": "Un descendiente del rey dios. Un muchacho refinado que luchó en defensa del desierto. La tormenta de arena que invoca con su flecha envuelve a sus enemigos y los elimina de la faz de la tierra.",
+  "story": "Un príncipe y heredero del rey dios del antiguo reino del desierto que tiene el poder para controlar la arena del desierto. Como el joven líder de la tribu Mauhata de guerreros del desierto, fue entrenado y formado para convertirse en el digno heredero del gran rey. Cuando los miembros de la tribu Trovatia, sus fieles hermanos, rezaban en el Templo de la corriente para despertar a la diosa dragón, él estuvo al frente de los guerreros que eliminaron a todos los demonios que se acercaban al oasis. Con la ayuda de la diosa dragón y de Laudia, su clériga, cumple su rol como guerrero del desierto en defensa de su hogar. Anhela que sus esfuerzos hagan sentir orgulloso al difunto rey dios.",
+  "like": "Gatos, arte con arena, gente del desierto",
+  "dislike": "Aquellos que intentan lastimar a sus seres queridos",
+  "inn": {
+    "idle": "Oh, nunca vi tragos como estos.",
+    "recruit": {
+      "greet": "Que el rey dios te bendiga.",
+      "talk": [
+        "Umm, este lugar es muy diferente de las tabernas del desierto. No nos sentamos en el suelo, ¿o sí?",
+        "Su pueblo es lo más importante para un guerrero del desierto.",
+        "No me suelen atraer los lugares con mucha gente, pero este ambiente despreocupado... No me cae tan mal."
+      ],
+      "gift": "Qué gran amabilidad. Gracias."
+    },
+    "affinity": {
+      "greet": "¿Cómo has estado?",
+      "talk": [
+        "La profecía dice que está cerca la resurrección del rey dios.",
+        "Si el tiempo lo permite, ve a Aegina alguna vez. Yo seré tu guía."
+      ],
+      "gift": "Los guerreros del desierto también se alegrarán de que estés allí."
+    },
+    "relationship": {
+      "greet": "Saludos, amigo del desierto.",
+      "talk": [
+        "Me gustan los gatos... No existe otra criatura remotamente así de elegante.",
+        "Las feroces tormentas de arena del desierto no les hicieron ni un rasguño a los guerreros del desierto.",
+        "Aunque su sangre fluya por mis venas, me queda un largo camino antes de considerarme un digno heredero."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Gloria del rey dios, Zaries",
+    "description": [
+      "Al usar una habilidad, gana 1 acumulación de “Voluntad del desierto”. “Voluntad del desierto” aumenta el Ataque en un 4 % y la Penetración de defensa en 20 durante 10 segundos. Además, se puede acumular hasta 5 veces. Este efecto no se puede disipar.",
+      "Al usar una habilidad, gana 1 acumulación de “Voluntad del desierto”. “Voluntad del desierto” aumenta el Ataque en un 4,8 % y la Penetración de defensa en 24 durante 10 segundos. Además, se puede acumular hasta 5 veces. Este efecto no se puede disipar.",
+      "Al usar una habilidad, gana 1 acumulación de “Voluntad del desierto”. “Voluntad del desierto” aumenta el Ataque en un 5,6 % y la Penetración de defensa en 29 durante 10 segundos. Además, se puede acumular hasta 5 veces. Este efecto no se puede disipar.",
+      "Al usar una habilidad, gana 1 acumulación de “Voluntad del desierto”. “Voluntad del desierto” aumenta el Ataque en un 6,8 % y la Penetración de defensa en 35 durante 10 segundos. Además, se puede acumular hasta 5 veces. Este efecto no se puede disipar.",
+      "Al usar una habilidad, gana 1 acumulación de “Voluntad del desierto”. “Voluntad del desierto” aumenta el Ataque en un 8 % y la Penetración de defensa en 42 durante 10 segundos. Además, se puede acumular hasta 5 veces. Este efecto no se puede disipar.",
+      "Al usar una habilidad, gana 1 acumulación de “Voluntad del desierto”. “Voluntad del desierto” aumenta el Ataque en un 10 % y la Penetración de defensa en 50 durante 10 segundos. Además, se puede acumular hasta 5 veces. Este efecto no se puede disipar."
+    ],
+    "story": "Un arma antigua forjada para el ser más glorioso de la tierra. Destinada exclusivamente al heredero del rey dios, uno debería atravesar pruebas extremas para probar que es digno de tenerla. Este arco, que solo se permite que lo posea el heredero elegido del rey dios, tiene poder absoluto en el desierto."
+  },
+  "s1": {
+    "name": "Juicio del desierto",
+    "description": "Inflige {0} de Daño físico a los enemigos en un rango amplio, y por cada enemigo afectado, el Tiempo de reutilización de la habilidad disminuye en 1 segundo. Inflige {1} de Daño físico a los enemigos afectados por el efecto [Marca del desierto] y elimina 1 acumulación de [Marca del desierto]. Con cada uso de la habilidad, el Daño crítico aumenta en un 5 %. Este efecto se puede acumular hasta 12 veces y no se puede disipar.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "El aumento del Daño crítico por uso cambia al 10%.",
+    "dark": "El enemigo afectado sufre el efecto Cegar durante 1 segundo."
+  },
+  "s2": {
+    "name": "Bendición del espíritu de la arena",
+    "description": "Crea un escudo alrededor del aliado con Salud más baja que absorbe {1} de Daño durante {0} segundo(s). Gana inmunidad al Control de multitudes mientras dura el escudo. Cuando finaliza la duración del escudo, se activa “Tormenta de arena” y causa {2} de Daño físico a los enemigos en un rango amplio, lo que inflige 2 acumulaciones de [Marca del desierto]. Si el escudo se disipa o se destruye, “Tormenta de arena” no se activa.",
+    "books": {
+      "0": "El Daño y el Escudo aumentan en {0}%.",
+      "1": "El Daño y el Escudo aumentan en {0}%.",
+      "2": "El Daño y el Escudo aumentan en {0}%."
+    },
+    "light": "El Tiempo de reutilización de la habilidad disminuye en 5 segundos.",
+    "dark": "Los enemigos afectados por “Tormenta de arena” retroceden una distancia considerable y son derribados durante 3 segundos.",
+    "ut": {
+      "name": "Arena del espejismo",
+      "description": [
+        "[Bendición del espíritu de arena] El Escudo absorbe un 20 % más de Daño y disipa el Control de multitudes infligido en uno mismo.",
+        "[Bendición del espíritu de arena] El Escudo absorbe un 24 % más de Daño y disipa el Control de multitudes infligido en uno mismo.",
+        "[Bendición del espíritu de arena] El Escudo absorbe un 29 % más de Daño y disipa el Control de multitudes infligido en uno mismo.",
+        "[Bendición del espíritu de arena] El Escudo absorbe un 35 % más de Daño y disipa el Control de multitudes infligido en uno mismo.",
+        "[Bendición del espíritu de arena] El Escudo absorbe un 42 % más de Daño y disipa el Control de multitudes infligido en uno mismo.",
+        "[Bendición del espíritu de arena] El Escudo absorbe un 50 % más de Daño y disipa el Control de multitudes infligido en uno mismo."
+      ],
+      "story": "Un reloj de arena enterrado hace mucho tiempo por una enorme tormenta de arena que azotó el Desierto de Aegina. Cuando la arena del reloj se mueve, trae el espejismo de una ciudad antigua que regresa a la vida. El alto clérigo del antiguo reino lo usaba para mostrar las glorias pasadas a sus habitantes. Al ver su ciudad dorada resplandeciente, la gente sentía orgullo del reino."
+    }
+  },
+  "s3": {
+    "name": "Maldición del desierto",
+    "description": "Causa {0} de Daño físico a los enemigos frontales en un rango amplio e inflige 1 acumulación de [Marca del desierto]. Luego, invoca “Foso de arena” durante 5 segundos, lo que causa {1} de Daño físico cada 0,5 segundos, y disminuye su Defensa física en un 30 % durante 10 segundos. “Foso de arena” tiene un 25 % de probabilidades de infligir 1 acumulación de [Marca del desierto] y atrae hacia el centro a todos los enemigos dentro del rango.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "El costo de Mana disminuye en 1.",
+    "dark": "La duración de “Foso de arena” aumenta en 2 segundos.",
+    "ut": {
+      "name": "Alma del oasis",
+      "description": [
+        "[Maldición del desierto] El Tiempo de reutilización de la habilidad disminuye en un 30 % y las probabilidades de activación del efecto aumentan en un 8 %.",
+        "[Maldición del desierto] El Tiempo de reutilización de la habilidad disminuye en un 30 % y las probabilidades de activación del efecto aumentan en un 9,6 %.",
+        "[Maldición del desierto] El Tiempo de reutilización de la habilidad disminuye en un 30 % y las probabilidades de activación del efecto aumentan en un 11,5 %.",
+        "[Maldición del desierto] El Tiempo de reutilización de la habilidad disminuye en un 30 % y las probabilidades de activación del efecto aumentan en un 13,8 %.",
+        "[Maldición del desierto] El Tiempo de reutilización de la habilidad disminuye en un 30 % y las probabilidades de activación del efecto aumentan en un 16,5 %.",
+        "[Maldición del desierto] El Tiempo de reutilización de la habilidad disminuye en un 30 % y las probabilidades de activación del efecto aumentan en un 20 %."
+      ],
+      "story": "Una espada mágica heredada por los descendientes del rey dios. El nombre “oasis” hace referencia a cómo se usaba para ayudar a las personas en tiempos difíciles. Tras la caída del reino, se ignoraba su paradero, hasta que Zafir la vio entre las colecciones de arte de Kumuro y la compró a un precio exorbitante. Con la espada de regreso a su justo descendiente, Zafir pudo heredar el alma de su progenitor, lo que maximizó su potencial."
+    }
+  },
+  "s4": {
+    "name": "Llamado del guardián",
+    "description": "Cada ataque automático tiene un 15 % de probabilidades de causar {0} de Daño físico que ignora la Defensa a todos los enemigos, e inflige 1 acumulación de [Marca del desierto]. [Marca del desierto] se puede acumular hasta 5 veces.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Cuando hay más de 5 enemigos, todos reciben 5 acumulaciones de “Marca del desierto”. Este efecto se activa una vez cada 20 segundos.",
+    "dark": "Las probabilidades de activación cambian al 30 %."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Oportunidad Crit +100",
+    "dark": "Recupera 500 de Mana con el uso de una habilidad. Si hay más de 5 enemigos, la tasa de recuperación de Mana se duplica y la Velocidad de ataque aumenta en 500 durante 5 segundos. Este efecto no se puede acumular."
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Mirianne",
+  "subtitle": "Servant of Blue",
+  "description": "The assistant and maid of the archmage of Blue, Sonia. She acts only for the sake of Sonia, who is her employer, sister and friend. Using her keen eyes and mind, she exploits the enemy's weakness with her daggers.",
+  "story": "She is Sonia's maid and sister-like friend from the orphanage. When her village of Humans and Elves was attacked by the Demons, she was the only survivor. Ricardo found her and took her into his orphanage. For some unknown reason, she experienced explosive growth phase at the age of 6. Her body now resembles that of an 18-year-old, but she still has the mind of a child. She is pure and devotional to a fault. Perhaps these traits are related to the loss of her childhood memories.",
+  "like": "Sonia, and everyone at the orphanage",
+  "dislike": "Bugs with many legs",
+  "inn": {
+    "idle": "Sonia~ Umm, she seems to have gone poof again.",
+    "recruit": {
+      "greet": "Ah, hello! It's good that you seem healthy!",
+      "talk": [
+        "Hehe, are Kasel and Frey doing well?",
+        "I want to visit Gramps. It's been a while.",
+        "Ah, I'm not a real maid. I just like the clothes, hehehe."
+      ],
+      "gift": "Ah, thank you! You really didn't need to..."
+    },
+    "affinity": {
+      "greet": "I'm here again! Nice to meet you!",
+      "talk": [
+        "I brought some pretty clothes! Please pick something that will fit me!",
+        "Heh heh. Can I come play with Sonia?"
+      ],
+      "gift": "Thank you! Let's go see Grandpa together next time!"
+    },
+    "relationship": {
+      "greet": "Ah, you came! Hehe, will you rest for a bit?",
+      "talk": [
+        "This bustling atmosphere feels like back home at the orphanage~",
+        "Are you hungry? Would you like a snack?",
+        "I love these clothes, they're so pretty and fluttery~"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Endless Acceleration, Riventina",
+    "description": [
+      "Increases ATK Spd by 200, and attacks on Locked On enemies, dealing 200% of ATK as extra M.DMG. Extra damage effect occurs once in 2 sec.",
+      "Increases ATK Spd by 240, and attacks on Locked On enemies, dealing 240% of ATK as extra M.DMG. Extra damage effect occurs once in 2 sec.",
+      "Increases ATK Spd by 290, and attacks on Locked On enemies, dealing 290% of ATK as extra M.DMG. Extra damage effect occurs once in 2 sec.",
+      "Increases ATK Spd by 350, and attacks on Locked On enemies, dealing 350% of ATK as extra M.DMG. Extra damage effect occurs once in 2 sec.",
+      "Increases ATK Spd by 420, and attacks on Locked On enemies, dealing 420% of ATK as extra M.DMG. Extra damage effect occurs once in 2 sec.",
+      "Increases ATK Spd by 500, and attacks on Locked On enemies, dealing 500% of ATK as extra M.DMG. Extra damage effect occurs once in 2 sec."
+    ],
+    "story": "A magic gear created by Sonia, the Archmage of Blue. It is enchanted with magic that allows it to reach incredible speeds. It is also enchanted with a special spell that always guides it back to its owner after it's thrown. It is the best gift Sonia could give to Mirianne, who is both a family and a friend to her. In other words, it's a unique expression of love reserved only for Mirianne."
+  },
+  "s1": {
+    "name": "Target Lock On",
+    "description": "Attacks the enemy with the lowest M.DEF 3 times, dealing a total of {0} M.DMG and inflicting stun for 1 sec, and if the target is under 'Target Lock On', target takes additional {1} M.DMG. The last attack inflicts 'Target Lock On' on the enemy for 10 sec. Lock On cannot be dispelled, and the target's M.Block rate has decreased by 300.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "When there is 1 enemy, DMG is boosted by 100%.",
+    "dark": "Stun duration is increased by 1 sec."
+  },
+  "s2": {
+    "name": "Restrain and Protect",
+    "description": "Deals {0} M.DMG to target enemy and other enemies in range, and Stuns them for 2 sec. Then moves to an ally with the lowest P.DEF, excluding self, and creates Shield for two that can block {1} DMG for 10 sec. Shield will be ineffective when there is no ally. Gains immunity to CC while the Shield lasts.",
+    "books": {
+      "0": "DMG and Shield are increased by {0}%.",
+      "1": "DMG and Shield are increased by {0}%.",
+      "2": "DMG and Shield are increased by {0}%."
+    },
+    "light": "Gain CC immunity while using said skill.",
+    "dark": "Stun duration is increased by 2 sec.",
+    "ut": {
+      "name": "Gemini Ring of Instant Teleportation",
+      "description": [
+        "[Restrain and Protect] Reduces Mana Cost by 1 and upon Crit hit recovers 160 Mana.",
+        "[Restrain and Protect] Reduces Mana Cost by 1 and upon Crit hit recovers 190 Mana.",
+        "[Restrain and Protect] Reduces Mana Cost by 1 and upon Crit hit recovers 230 Mana.",
+        "[Restrain and Protect] Reduces Mana Cost by 1 and upon Crit hit recovers 270 Mana.",
+        "[Restrain and Protect] Reduces Mana Cost by 1 and upon Crit hit recovers 330 Mana.",
+        "[Restrain and Protect] Reduces Mana Cost by 1 and upon Crit hit recovers 400 Mana."
+      ],
+      "story": "Ring that Mirianne purchased at the 'Amazing Magic Toy Shop' in Orvel. She engraved Sonia's and her name in the ring. The two make a set, and it allows each other to teleport to the location of the other once a day. Though, Sonia doesn't use it since it's troublesome... It may be a toy, but Mirianne is happy that there's one more way for her to protect Sonia."
+    }
+  },
+  "s3": {
+    "name": "Assassination",
+    "description": "Moves to an enemy with the lowest HP, deals {0} M.DMG then returns to the furthest ally. If the enemy is not a hero, deals {1} additional M.DMG that ignores DEF. Defeating a target with this skill instantly triggers 'Restrain and Protect'.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Dispels target's positive effects and inflicts Stun for 1 sec.",
+    "dark": "DMG is increased by 40%.",
+    "ut": {
+      "name": "Magic Powder of Lightning",
+      "description": [
+        "[Assassination] DMG is increased by 50% and upon Crit Hit increases own ATK by 10% for 10 sec.",
+        "[Assassination] DMG is increased by 50% and upon Crit Hit increases own ATK by 12% for 10 sec.",
+        "[Assassination] DMG is increased by 50% and upon Crit Hit increases own ATK by 14% for 10 sec.",
+        "[Assassination] DMG is increased by 50% and upon Crit Hit increases own ATK by 17% for 10 sec.",
+        "[Assassination] DMG is increased by 50% and upon Crit Hit increases own ATK by 21% for 10 sec.",
+        "[Assassination] DMG is increased by 50% and upon Crit Hit increases own ATK by 25% for 10 sec."
+      ],
+      "story": "A collection of beautiful matter that is sprayed in Sonia's crystal ball like stars. Mirianne collected it to pull a prank, but it's so powerful that it's being used as a tool for assassination."
+    }
+  },
+  "s4": {
+    "name": "Target Eliminated",
+    "description": "If an enemy is inflicted by 'Target Lock On', ATK increases by {0} and all attacks skills prioritize Locked On enemies. When the Locked On enemies dies, 'Target Lock On' is inflicted on another enemy for 10 sec.",
+    "books": {
+      "0": "ATK boost is increased by {0}%.",
+      "1": "ATK boost is increased by {0}%.",
+      "2": "ATK boost is increased by {0}%."
+    },
+    "light": "When there are enemies inflicted by 'Target Lock On', Crit Chance is increased by 400.",
+    "dark": "Receives 30% reduced DMG when enemy is inflicted by 'Target Lock On'."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / Crit DMG +20%",
+    "dark": "Upon killing an enemy, all skill cooldown is reduced by 50%, and recovers 1 orb of mana."
+  }
+}

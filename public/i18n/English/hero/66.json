@@ -1,0 +1,120 @@
+{
+  "name": "Shea",
+  "subtitle": "Aria of Fantasy",
+  "description": "This mysterious girl heals people with her captivating tunes. She heals people with her beautiful voice and the lovely sounds of her magic harp.",
+  "story": "'Listening to the beautiful melody on the battlefield makes me wonder if I am truly in the middle of a battlefield.' 'I dropped the sword from my hand. All the other soldiers present also dropped their swords.' 'It felt as though the girl was in an entirely different plane of existence, removed from the rest of us.' The sensational tale of the pink-haired girl, whose sudden appearance and performance stopped the battle, quickly spread. Her beautiful, captivating melody and her demure, lovely presence has captured everyone's imagination. However, no one really knew where she came from or where she was headed. 'She seemed kind of strange to me, the way she was talking to thin air, as if there was somebody there...' Of course, some have suggested more convincing theories on the girl’s whereabouts, but her mysterious beauty has drowned out all speculation.",
+  "like": "Beautiful melody, soft breezes",
+  "dislike": "Ghosts, pumpkin ghouls",
+  "inn": {
+    "idle": "Lalala~lalala~la...ah?",
+    "recruit": {
+      "greet": "Radiant Sun, let today be another happy day.",
+      "talk": [
+        "Can you hear it? The melody floating on top of the wind...",
+        "Hmmm~ Have you seen my harp around here?",
+        "Shuwanheit and I first met in the forest, you know."
+      ],
+      "gift": "Thank you~ for that, I'll play a song for you."
+    },
+    "affinity": {
+      "greet": "I'm here to bless you again!",
+      "talk": [
+        "You look happy. I can feel a blinding melody from you.",
+        "This is the music of the spirits from the forest. Doesn't it make you feel so warm?"
+      ],
+      "gift": "Thank you. Schwanheit will be very happy."
+    },
+    "relationship": {
+      "greet": "Your harmony is full of warmth and comfort.",
+      "talk": [
+        "You might not know, but Shuwanheit is quite the chatty one.",
+        "Shuwanheit sometimes changes the tone of the music, depending on his mood.",
+        "Someday, I hope to play your very own song."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Charming Melody , Schwanheite",
+    "description": [
+      "When Trance is stacked, all skill cooldown is reduced by 10%, and recovers own Mana by 200.",
+      "When Trance is stacked, all skill cooldown is reduced by 12%, and recovers own Mana by 240.",
+      "When Trance is stacked, all skill cooldown is reduced by 14%, and recovers own Mana by 290.",
+      "When Trance is stacked, all skill cooldown is reduced by 17%, and recovers own Mana by 350.",
+      "When Trance is stacked, all skill cooldown is reduced by 20%, and recovers own Mana by 420.",
+      "When Trance is stacked, all skill cooldown is reduced by 25%, and recovers own Mana by 500."
+    ],
+    "story": "This powerful and awe-inspiring equipment that can converse with their wielders, sometimes even dominating the owners themselves. Schwanheit is counted among these awesome weapons. This harp, which insists that it be called 'Mr. Schute,' can significantly amplify the wielder’s mana and spray it all around the wielder. Since the amplified mana is scattered about, it cannot be effectively used as offensive magic. However, depending on how it's used it can prove to be extremely effective in other ways. Mr. Schute is quite a chatterbox, but only to those he considers as his friends. These days he only talks to Shea."
+  },
+  "s1": {
+    "name": "Green Nature's Melody",
+    "description": "Heals a total of {0} HP for all allies over 8 times, and all allies take reduced DMG by {1}% for 8 seconds. If used when Trance is stacked up to 3, this skill's Heal rate increases by 100% and changes the DMG Reduction Effect to {2}%.",
+    "books": {
+      "0": "Heal rate is increased by {0}%.",
+      "1": "Heal rate is increased by {0}%.",
+      "2": "Heal rate is increased by {0}%."
+    },
+    "light": "Heals 15% HP of all allies when used.",
+    "dark": "Increases Crit Resistance of all allies by 250 for 8 seconds."
+  },
+  "s2": {
+    "name": "Blue Wind's Song",
+    "description": "Recovers a total of {0} MP for all allies over 8 times, heals {1} HP for a target with max MP, and reduces the duration of CC by {2}% for 8 seconds. If used when Trance is stacked up to 3, this skill's MP Recovery and Heal rate increase by 50% and all allies will gain Immunity to CC for 8 seconds.",
+    "books": {
+      "0": "MP recovery rate is increased by {0}%.",
+      "1": "MP recovery rate is increased by {0}%.",
+      "2": "MP recovery rate is increased by {0}%."
+    },
+    "light": "Heals 500 MP of all allies when used.",
+    "dark": "Increases ATK Spd of all allies by 250 for 8 seconds.",
+    "ut": {
+      "name": "Windy Flower",
+      "description": [
+        "[Blue Wind's Song] Increases ACC by 250 for 8 sec and recovers 160 MP every time an ally uses a skill.",
+        "[Blue Wind's Song] Increases ACC by 250 for 8 sec and recovers 190 MP every time an ally uses a skill.",
+        "[Blue Wind's Song] Increases ACC by 250 for 8 sec and recovers 230 MP every time an ally uses a skill.",
+        "[Blue Wind's Song] Increases ACC by 250 for 8 sec and recovers 270 MP every time an ally uses a skill.",
+        "[Blue Wind's Song] Increases ACC by 250 for 8 sec and recovers 330 MP every time an ally uses a skill.",
+        "[Blue Wind's Song] Increases ACC by 250 for 8 sec and recovers 400 MP every time an ally uses a skill."
+      ],
+      "story": "A flower that was by Shea's head the day after she performed Happiness from the Wind. According to Schwanheit, it was also a gift from the fairies of the forest for her beautiful music. It contains Shea's wish that the wind will carry happiness all over the world."
+    }
+  },
+  "s3": {
+    "name": "Dance of Red Passion",
+    "description": "Deals a total of {0} M.DMG. to all enemies over 8 times, and increases ATK of all allies by {1} for 8 seconds. If used when Trance is stacked up to 3, this skill's DMG and ATK Boost increase by 100%, and all enemies' buffs are continuously canceled.",
+    "books": {
+      "0": "ATK boost is increased by {0}%.",
+      "1": "ATK boost is increased by {0}%.",
+      "2": "ATK boost is increased by {0}%."
+    },
+    "light": "Reduces skill cooldown for all allies by 10% when used.",
+    "dark": "All enemies take 15% more DMG for 8 seconds.",
+    "ut": {
+      "name": "Fairy's Crown",
+      "description": [
+        "[Dance of Red Passion] Upon activation, enemies are inflicted with Silence for 2 sec, and all allies' Crit DMG is increased by 20% for the duration of skill.",
+        "[Dance of Red Passion] Upon activation, enemies are inflicted with Silence for 2 sec, and all allies' Crit DMG is increased by 24% for the duration of skill.",
+        "[Dance of Red Passion] Upon activation, enemies are inflicted with Silence for 2 sec, and all allies' Crit DMG is increased by 29% for the duration of skill.",
+        "[Dance of Red Passion] Upon activation, enemies are inflicted with Silence for 2 sec, and all allies' Crit DMG is increased by 35% for the duration of skill.",
+        "[Dance of Red Passion] Upon activation, enemies are inflicted with Silence for 2 sec, and all allies' Crit DMG is increased by 42% for the duration of skill.",
+        "[Dance of Red Passion] Upon activation, enemies are inflicted with Silence for 2 sec, and all allies' Crit DMG is increased by 50% for the duration of skill."
+      ],
+      "story": "A chaplet that was by Shea's head the day after she performed Lullaby to the Dreams in the forest. According to Schwanheit, it was a gift from the fairies of the forest for her beautiful music. It is said that items that went through the hands of fairies have the power to return a soul back to its purest form."
+    }
+  },
+  "s4": {
+    "name": "Trance",
+    "description": "At the end of the skill, 1 more Trance is stacked. Trance can be stacked up to max 3 times, and if the skill is used when Trance is stacked up to 3, consumes the stack to heal {0} HP of all allies. Trance cannot be dispelled.",
+    "books": {
+      "0": "Heal rate is increased by {0}%.",
+      "1": "Heal rate is increased by {0}%.",
+      "2": "Heal rate is increased by {0}%."
+    },
+    "light": "Increases Heal rate of Trance by 100%.",
+    "dark": "If a skill is used when there are 3 Trance stacks, inflicts M.DMG to enemies instead of healing allies, and reduces all DEF by 10% for 10 sec."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / CC Resist +100",
+    "dark": "At the start of every battle, adds 1 Trance stack recovers 500 MP."
+  }
+}

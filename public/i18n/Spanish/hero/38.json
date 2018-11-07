@@ -1,0 +1,120 @@
+{
+  "name": "Ezekiel",
+  "subtitle": "La Sangre Maldita",
+  "description": "Un híbrido con sangre de demonios de alto rango y humanos, Ezekiel está condenado a maldecir su propia existencia. Utiliza su poderoso brazo derecho demoníaco para desgarrar a sus enemigos.",
+  "story": "El hijo de Lucikiel es un poderoso oficial demonio que acabó con la República de Gray. Normalmente considerado y cuidadoso, actualmente es medio humano. En el campo de batalla, su sangre de demonio se apodera de él, y lo convierte en arrogante y violento. Heredó este poder de su padre, a quien nunca conoció. Sin embargo, se enorgullece de su poder y no intenta ocultarlo. Como solo es parcialmente demonio, solo un brazo sufre la transformación. Pero, incluso este brazo por sí solo contiene inmenso poder, y evidentemente no le es fácil poder controlarlo en su totalidad aún. Si pierde el control del brazo, la única decisión inteligente es inmediatamente alejarse de él lo máximo posible.",
+  "like": "Pudín de caramelo, jugo endulzado",
+  "dislike": "Débiles que se hacen a los fuertes, idiotas que creen que lo saben todo",
+  "inn": {
+    "idle": "Qué estás mirando?",
+    "recruit": {
+      "greet": "Qué? Puedes repetirlo?",
+      "talk": [
+        "Ja, qué molesto...",
+        "Sigue tu camino.",
+        "Por qué están siendo amistosos conmigo? Hah..."
+      ],
+      "gift": "Qué... qué es esto... bueno, sí, lo acepto..."
+    },
+    "affinity": {
+      "greet": "Estoy cansado porque no dormí lo suficiente.",
+      "talk": [
+        "Me pregunto qué es de la vida de ese tonto de la República de Gray.",
+        "¿Te refieres a mi cabello? Se ve genial, ¿no? Este mechón hacia arriba es lo que marca el estilo."
+      ],
+      "gift": "¡Oh, gracias!"
+    },
+    "relationship": {
+      "greet": "Oh? Bueno, ya saludaste al chico raro?",
+      "talk": [
+        "No me importa que mi padre sea un Demonio. Soy fuerte, gracias a eso!",
+        "Ese chico es demasiado blando. Nadie puede lastimarnos!",
+        "Sí, a veces no puedo controlar mi propio poder. Pero bueno, sigue siendo divertido de alguna manera! Jajaja!!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "El Carcelero de la Desesperación Barbatos",
+    "description": [
+      "La duración de la Furia se incrementa en 2 segundos y cuando el Estado de Furia se encuentra activado, el Daño Crit. aumenta en un 80%.",
+      "La duración de la Furia se incrementa en 3 segundos y cuando el Estado de Furia se encuentra activado, el Daño Crit. aumenta en un 90%.",
+      "La duración de la Furia se incrementa en 4 segundos y cuando el Estado de Furia se encuentra activado, el Daño Crit. aumenta en un 100%.",
+      "La duración de la Furia se incrementa en 5 segundos y cuando el Estado de Furia se encuentra activado, el Daño Crit. aumenta en un 110%.",
+      "La duración de la Furia se incrementa en 6 segundos y cuando el Estado de Furia se encuentra activado, el Daño Crit. aumenta en un 120%.",
+      "La duración de la Furia se incrementa en 7 segundos y cuando el Estado de Furia se encuentra activado, el Daño Crit. aumenta en un 130%."
+    ],
+    "story": "El padre de Ezekiel fue uno de los demonios de más alto rango. Aunque no sabe el nombre de su padre ni sabe cómo es su cara, él es consciente del tremendo poder de la sangre de demonio que heredó. La sangre de demonio que fluye en sus venas también le dio una segunda personalidad. Cuando prevalece su sangre humana, Ezekiel es un hombre joven de carácter excelente. En otras ocasiones, es un demonio inmensamente poderosos y arrogante, igual que su padre. Barbatos, carcelero de la desesperación, se manifiesta cuando la sangre del demonio Ezekiel está en completo poder y toma la forma de uno de sus brazos. Esta arma tiene suficiente poder como para cortar dimensiones y separar el mismo espacio. Es la representación física del poder de su padre."
+  },
+  "s1": {
+    "name": "Instinto Destructivo",
+    "description": "Ataca a los enemigos cercanos en un rango circular y causa {0} Daño Mágico. Luego golpea el suelo, causando {1} Daño Mágico y derribando enemigos durante 3 seg. [Furia] - Consume el 15% de la Salud actual al activarse. El alcance del efecto aumenta y el ataque atrae a los enemigos",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "El Daño aumenta en un 40%",
+    "dark": "Al activarse, el ATQ aumenta en un 40% durante 5 segundos."
+  },
+  "s2": {
+    "name": "Desesperación del Alba",
+    "description": "Golpea al enemigo con el ATQ más alto y causa {0} Daño Mágico a los enemigos al alcance, lo que reduce su Veloc. de ATQ en {1}. [Furia] - Consume el 10% de la Salud actual al activarse. El alcance del efecto aumenta, aturde al objetivo durante {2} segundos y aumenta la propia Veloc. de ATQ en {4} durante {3} segundos",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "El costo de Maná se reduce en 1.",
+    "dark": "Cuando se activa durante el Estado de Furia, ignora la DEF del objetivo",
+    "ut": {
+      "name": "Gargantilla de bestia salvaje",
+      "description": [
+        "[Despertar de la desesperación] Gana inmunidad al Control de multitudes mientras dura la habilidad y aumenta la Velocidad de ataque en un 100 % durante 10 segundos.",
+        "[Despertar de la desesperación] Gana inmunidad al Control de multitudes mientras dura la habilidad y aumenta la Velocidad de ataque en un 120 % durante 10 segundos.",
+        "[Despertar de la desesperación] Gana inmunidad al Control de multitudes mientras dura la habilidad y aumenta la Velocidad de ataque en un 140 % durante 10 segundos.",
+        "[Despertar de la desesperación] Gana inmunidad al Control de multitudes mientras dura la habilidad y aumenta la Velocidad de ataque en un 170 % durante 10 segundos.",
+        "[Despertar de la desesperación] Gana inmunidad al Control de multitudes mientras dura la habilidad y aumenta la Velocidad de ataque en un 210 % durante 10 segundos.",
+        "[Despertar de la desesperación] Gana inmunidad al Control de multitudes mientras dura la habilidad y aumenta la Velocidad de ataque en un 250 % durante 10 segundos."
+      ],
+      "story": "Gargantilla fabricada con la piel de una bestia poderosa. Botín que celebra la manticora que Ezekiel cazó después de una dura batalla contra los demonios cuando era joven. Ezekiel recuerda la alegría de matar a la manticora cada vez que toca la gargantilla de la bestia violenta, justo antes de atacar al formidable enemigo en frente suyo."
+    }
+  },
+  "s3": {
+    "name": "Golpe de Destrucción",
+    "description": "Reúne energía y ataca al enemigo, causando {0} Daño Mágico y aturdiéndolo durante {1} segundos. [Furia] - Consume el 20% de la Salud actual al activarse. Ataca a los enemigos cercanos al objetivo y el Daño se triplica.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Se vuelve inmune al Ctrl de Masas mientras está activado",
+    "dark": "Si hay 1 enemigo, el Daño aumenta en un 100%.",
+    "ut": {
+      "name": "Vínculo de sello",
+      "description": [
+        "[Golpe de la Muerte] El Daño aumenta en un 20% y obtiene 1 pila adicional de Sangre Maldita al utilizar la habilidad.",
+        "[Golpe de la Muerte] El Daño aumenta en un 24% y obtiene 1 pila adicional de Sangre Maldita al utilizar la habilidad.",
+        "[Golpe de la Muerte] El Daño aumenta en un 29% y obtiene 1 pila adicional de Sangre Maldita al utilizar la habilidad.",
+        "[Golpe de la Muerte] El Daño aumenta en un 35% y obtiene 1 pila adicional de Sangre Maldita al utilizar la habilidad.",
+        "[Golpe de la Muerte] El Daño aumenta en un 42% y obtiene 1 pila adicional de Sangre Maldita al utilizar la habilidad.",
+        "[Golpe de la Muerte] El Daño aumenta en un 50% y obtiene 1 pila adicional de Sangre Maldita al utilizar la habilidad."
+      ],
+      "story": "Una venda que contiene el maná de un clérigo desconocido. El joven Ezekiel solía perder el control de sí mismo bastante a menudo. Si alguien insultaba a su madre, lo que hacía era dejarse llevar por su ferviente sangre de demonio. Cuando volvía en sí, se quedaba mirando su brazo ensangrentado y a su aterrorizada madre. Una vez, cuando ya era mayor, Ezekiel se estaba deshaciendo de los demonios cuando empezó a discutir con un clérigo de Lua más grande que él. Como de costumbre, Ezekiel enloqueció. Cuando recobró el control de sí mismo, no había nadie a su alrededor, y se sorprendió al ver una venda en su brazo maldito. Cuando intentó quitársela, se dio cuenta de que la magia de un clérigo no era algo de lo que podía librarse tan fácilmente. Sin embargo, después de ese episodio, ya no enloqueció ni perdió la conciencia otra vez. Ha logrado tener un mayor control sobre su maná, que ahora se ha convertido en uno de sus artículos más preciados."
+    }
+  },
+  "s4": {
+    "name": "Maldición Sangrienta",
+    "description": "Ezekiel obtiene 1 pila de 'Maldición Sangrienta' al finalizar la habilidad. En la cuarta pila, consume Maldición Sangrienta para reiniciar el tiempo de reutilización de las habilidades, causando {0} Daño Mágico a los enemigos cercanos y derribándolos durante 3 segundos, mientras se activa Furia durante {1} segundos, la cual no puede ser disipada. Mientras se encuentra en Estado de Furia, se activa un modo de batalla automática que no se puede controlar, y el ATQ se incrementa en {2} , el Daño del autoataque se duplica y todo el Efecto de la Habilidad es reforzado. No se puede obtener Maldición Sangrienta durante el Estado de Furia, excepto cuando se mata a un enemigo.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Cuando se encuentra en Estado de Furia, la tasa de curación aumenta un 50%.",
+    "dark": "Por cada 'Maldición Sangrienta' acumulada, recibe un 12% de Daño reducido."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Veloc de ATQ +100",
+    "dark": "Cuando se encuentra en Estado de Furia, el autoataque causa Daño que ignora la DEF."
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Theo",
+  "subtitle": "Cavaleiro da Lealdade",
+  "description": "O primeiro cavaleiro da há muito perdida República dos Gray, que vagam pelo mundo em busca da suserana perdida, Jane. Suas lanças duplas são imbuídas de grande poder, aguardando para perfurar demônios inimigos sem misericórida.",
+  "story": "Um cavaleiro que serviu à República Gray 100 anos atrás e um admirador de Jane Gray. Theo foi o Primeiro Cavaleiro da República e o portador do Raio de Legios. Durante a batalha de Duchy contra o Exército Demoníaco, a Fortaleza da Montanha criou um alvoroço quando seu selo foi rompido. Sob as ordens de Jane, Theo partiu para conter a situação. Durante a sua ausência, poderosos oficiais Demoníacos atacaram o palácio real. Theo voltou para enfrentá-los mesmo estando gravemente ferido, mas foi incapaz de derrotá-los sozinho. Quando a batalha acabou, ele segurou o corpo da princesa em seus braços e gritou sua tristeza em meio às ruínas do palácio. De repente, uma entidade misteriosa lhe ofereceu uma chance de defender sua princesa por toda a eternidade. Ao aceitar o acordo, ele caiu num sono profundo.",
+  "like": "Minha senhora, Jane",
+  "dislike": "Demônios e seus oficiais",
+  "inn": {
+    "idle": "Eu sou Theo Phil Grayum, da República Gray.",
+    "recruit": {
+      "greet": "Oh, é você. Nós já nos conhecemos, não é?",
+      "talk": [
+        "Eu quero vê-la mais uma vez.",
+        "... Mais de cem invernos já se passaram.",
+        "Por acaso, você viu uma bela senhorita de cabelos brancos?"
+      ],
+      "gift": "Você tem um coração muito bom."
+    },
+    "affinity": {
+      "greet": "Olá.",
+      "talk": [
+        "Nem todos os demônios são malvados... Tipo aquele gato, sabe.",
+        "Eu uso uma lança desde que era jovem. Estou acostumado a manusear lanças."
+      ],
+      "gift": "Obrigado. Meu coração está se sensibilizando."
+    },
+    "relationship": {
+      "greet": "Como vai? Já faz um bom tempo.",
+      "talk": [
+        "Essa foi a primeira vez que eu senti um calor tão bom por dentro... como se o Sol estivesse diante de meus olhos.",
+        "Várias pessoas me perguntam - por que ir tão longe? Eu digo... eu estou vivendo como meu coração me pede.",
+        "Se ela não me reconhecer quando finalmente nos encontrarmos... eu não sei que expressão eu faria..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Raio de Luz, Legios",
+    "description": [
+      "Cada ataque automático e ataque com poder acumula 'Relâmpago'. Ao realizar 50 acúmulos, 'Raio de Luz, Legios' será ativado, aumentando a Vel de ATQ em 300, DAN Crít em 100% e Pen de DEF em 300 por 10 segundos. Enquanto estiver neste estado, os Raios não serão acumulados. Este efeito não pode ser dissipado.",
+      "Cada ataque automático e ataque com poder acumula 'Relâmpago'. Ao realizar 50 acúmulos, 'Raio de Luz, Legios' será ativado, aumentando a Vel de ATQ em 360, DAN Crít em 120% e Pen de DEF em 360 por 10 segundos. Enquanto estiver neste estado, os Raios não serão acumulados. Este efeito não pode ser dissipado.",
+      "Cada ataque automático e ataque com poder acumula 'Relâmpago'. Ao realizar 50 acúmulos, 'Raio de Luz, Legios' será ativado, aumentando a Vel de ATQ em 430, DAN Crít em 144% e Pen de DEF em 430 por 10 segundos. Enquanto estiver neste estado, os Raios não serão acumulados. Este efeito não pode ser dissipado.",
+      "Cada ataque automático e ataque com poder acumula 'Relâmpago'. Ao realizar 50 acúmulos, 'Raio de Luz, Legios' será ativado, aumentando a Vel de ATQ em 520, DAN Crít em 173% e Pen de DEF em 520 por 10 segundos. Enquanto estiver neste estado, os Raios não serão acumulados. Este efeito não pode ser dissipado.",
+      "Cada ataque automático e ataque com poder acumula 'Relâmpago'. Ao realizar 50 acúmulos, 'Raio de Luz, Legios' será ativado, aumentando a Vel de ATQ em 620, DAN Crít em 208% e Pen de DEF em 620 por 10 segundos. Enquanto estiver neste estado, os Raios não serão acumulados. Este efeito não pode ser dissipado.",
+      "Cada ataque automático e ataque com poder acumula 'Relâmpago'. Ao realizar 50 acúmulos, 'Raio de Luz, Legios' será ativado, aumentando a Vel de ATQ em 750, DAN Crít em 250% e Pen de DEF em 750 por 10 segundos. Enquanto estiver neste estado, os Raios não serão acumulados. Este efeito não pode ser dissipado."
+    ],
+    "story": "Uma lança que dizem ter sido forjada a partir de um relâmpago. Essa lança impressionante tem um fluxo constante de eletricidade e apresenta a altura de um humano comum do sexo masculino. Forjar uma lança a partir de relâmpagos foi uma façanha extraordinária. Por outro lado, Jin não era um ferreiro comum. Ele fundiu uma enorme pedra de mana infundida com o sangue de um dragão vermelho. Ele usou isso para conter o relâmpago antes de transformá-lo numa lança. Tirando o seu mestre escolhido, nenhuma outra pessoa pode tocar nessa arma. Quando suas duas peças se juntam, ela libera um enorme fluxo de energia parecido com um rugido de dragão."
+  },
+  "s1": {
+    "name": "Choque Final",
+    "description": "Ataca o inimigo 16 vezes, causando um total de {0} de DAN.M. Em cada golpe crítico, aumenta DAN.Crít em 3% por 10 segundos e há uma chance de 30% de causar {1} de DAN.M adicional e infligir atordoamento por 0,3 segundos. O efeito de aumento de DAN Crít pode acumular até 30 vezes.",
+    "books": {
+      "0": "Aumenta o dano em {0}%.",
+      "1": "Aumenta o dano em {0}%.",
+      "2": "Aumenta a Chance Crít. em {0}."
+    },
+    "light": "Se houver 1 inimigo, o DAN aumenta em 100%.",
+    "dark": "A recarga é reduzida em 2 segundos."
+  },
+  "s2": {
+    "name": "Deus dos Raios",
+    "description": "Após a ativação, recebe o estato 'Deus dos Raios'. Atire uma lança de raios na direção do inimigo para infligir {0} de DAN.M. O inimigo atingido receberá {0} de DAN.M aumentado por 10 segundos. Enquanto estiver no estado 'Deus dos Raios', não será possível recuperar Mana por 10 segundos, mas a taxa de ativação do poder 'Para Jane' será aumentada em 40% e o ATQ em {2}.",
+    "books": {
+      "0": "",
+      "1": "",
+      "2": ""
+    },
+    "light": "O custo de Mana é reduzido em 1.",
+    "dark": "O DAN recebido enquanto o estado Deus dos Raios aumenta em 30%, mas a taxa de aumento do ATQ aumenta em 100%.",
+    "ut": {
+      "name": "Colar do Deus do Relâmpago",
+      "description": [
+        "[Deus do Relâmpago] A Vel de ATQ aumenta em 250 durante a habilidade e a chance de ativação de ‘Por Jane’ aumenta mais 8%.",
+        "[Deus do Relâmpago] A Vel de ATQ aumenta em 250 durante a habilidade e a chance de ativação de ‘Por Jane’ aumenta mais 9,6%.",
+        "[Deus do Relâmpago] A Vel de ATQ aumenta em 250 durante a habilidade e a chance de ativação de ‘Por Jane’ aumenta mais 11,5%.",
+        "[Deus do Relâmpago] A Vel de ATQ aumenta em 250 durante a habilidade e a chance de ativação de ‘Por Jane’ aumenta mais 13,8%.",
+        "[Deus do Relâmpago] A Vel de ATQ aumenta em 250 durante a habilidade e a chance de ativação de ‘Por Jane’ aumenta mais 16,5%.",
+        "[Deus do Relâmpago] A Vel de ATQ aumenta em 250 durante a habilidade e a chance de ativação de ‘Por Jane’ aumenta mais 20%."
+      ],
+      "story": "Chamado de seta trovejante do céu, Legios também é chamado de fera sagrada. O poder de Legios era tão forte que, quando o transformaram em uma arma, a República Gray não foi capaz de conter toda a sua força. Assim, a maior parte foi colocada na Lança de Raios, e as restantes foram postas em locais diferentes. Uma dessas partes foi colocada no Colar do Deus do Relâmpago. Dizem que qualquer pessoa que use este colar consegue comungar com a Lança de Raios e chegar mais perto do poder de Legios."
+    }
+  },
+  "s3": {
+    "name": "Explosão dos Raios",
+    "description": "Salta contra um inimigo à frente, golpeando com uma lança em direção ao chão. Atinge o inimigo 5 vezes e causa um total de {0} de DAN.M ao alvo e inimigos próximos. Além disso, inflige Atordoamento por 3 segundos.",
+    "books": {
+      "0": "Aumenta o dano em {0}%.",
+      "1": "Aumenta o dano em {0}%.",
+      "2": "Aumenta a Chance Crít. em {0}."
+    },
+    "light": "O DAN aumenta em 40%.",
+    "dark": "A duração do atordoamento aumenta em 1 segundo.",
+    "ut": {
+      "name": "Essência de Botões de Flores",
+      "description": [
+        "[Explosão de Relâmpago] Reduz a recarga do poder em 30% e, após o ataque, causa 40% do ATQ como DAN.M extra.",
+        "[Explosão de Relâmpago] Reduz a recarga do poder em 30% e, após o ataque, causa 48% do ATQ como DAN.M extra.",
+        "[Explosão de Relâmpago] Reduz a recarga do poder em 30% e, após o ataque, causa 58% do ATQ como DAN.M extra.",
+        "[Explosão de Relâmpago] Reduz a recarga do poder em 30% e, após o ataque, causa 70% do ATQ como DAN.M extra.",
+        "[Explosão de Relâmpago] Reduz a recarga do poder em 30% e, após o ataque, causa 84% do ATQ como DAN.M extra.",
+        "[Explosão de Relâmpago] Reduz a recarga do poder em 30% e, após o ataque, causa 100% do ATQ como DAN.M extra."
+      ],
+      "story": "Legado da derrotada República Gray. Um tesouro que um respeitado feiticeiro do palácio da República Gray deu ao primeiro cavaleiro Theo, que recebeu o Raio Legios. A Essência de Raio que tem a energia do Raio amplifica o efeito da Explosão de Raios."
+    }
+  },
+  "s4": {
+    "name": "Para Jane",
+    "description": "Para cada ataque automático, há uma chance de 20% de causar {0} de DAN.M e infligir Atordoamento por 0,7 segundos.",
+    "books": {
+      "0": "Aumenta o dano em {0}%.",
+      "1": "Aumenta o dano em {0}%.",
+      "2": "Aumenta a Chance Crít. em {0}."
+    },
+    "light": "O DAN aumenta em 40%.",
+    "dark": "A duração do atordoamento aumenta em 0,2 segundo."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / Chance Crít. +100",
+    "dark": "Quando 'Deus do Relâmpago' estiver ativo, recupera metade da mana. Quando a mana chegar ao máximo, o ATQ aumenta em 50% por 10 segundos. Esse efeito ativa apenas uma vez a cada 20 segundos."
+  }
+}

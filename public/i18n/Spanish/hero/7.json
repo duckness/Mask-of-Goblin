@@ -1,0 +1,120 @@
+{
+  "name": "Lakrak",
+  "subtitle": "Cazador Cañon de Mano",
+  "description": "Un duende blanco experto en ingeniería mecánica, utiliza un cañón de mano para infligir daño explosivo, hostigar a los enemigos con balas especiales, e infligirles daños mortales.",
+  "story": "Este excéntrico duende albino disfruta desarrollar armas potentes más que cualquier otra cosa. Al haber sido acosado y hecho a un lado por otros Duendes debido al color de su piel, no siente compasión hacia sus pares. No tendría problemas en disparar, hacer explotar o incluso aplastar a un compañero duende con el fin de probar sus armas. Sin embargo, también expresa su gratitud a quienes le ayudan, y fue así como se convirtió en el amigo de Roi. Lamentablemente, no es su fuerte recordar caras, así que muy a menudo intenta disparar a Roi antes de acordarse quién es.",
+  "like": "Pólvora, armas, cañones",
+  "dislike": "Duendes tontos",
+  "inn": {
+    "idle": "¡No hay duendes aquí! Buen lugar.",
+    "recruit": {
+      "greet": "Ach !! ¡Tu arma se ve bien!",
+      "talk": [
+        "Has luchado contra los duendes ?! ¡¿Ganaste?! Kakakak, bien !!",
+        "Ach, me sorprendió! Eck, ayuda para experimentar ?! ¡¡Bueno!! ¡¡¡Ahora mismo!!!",
+        "Interesado en los Cañones de mano?! ¡Eres bueno! ¡¡Inteligente!!"
+      ],
+      "gift": "¡¿Regalo?! ¿Encontraste el arma? !! ¡¡Bueno!! Añade pólvora extra !!"
+    },
+    "affinity": {
+      "greet": "¡Te doy la bienvenida! ¿Quieres ver investigación?",
+      "talk": [
+        "¡Quiero hablar idioma humano bien! ¡A, b, c, di! ¡La d siempre problema!",
+        "¡Ningún humano como tú! ¡Diferente! ¡Amigo diferente! ¡Ahora tengo Roi y tú!"
+      ],
+      "gift": "¿Traes algo bueno? ¡Yo veo cosa buena! ¡Genial!"
+    },
+    "relationship": {
+      "greet": "Kukakak! La investigación de hoy es buena !!",
+      "talk": [
+        "¡Pólvora! Explosiones !!! Kakakak !!",
+        "Experimentos! Experimentos! Más experimentos! Diversión para desarrollar armas!",
+        "Gracias por la info de investigación !! Eres un buen amigo!!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Lakrak MK-1",
+    "description": [
+      "Obtiene un 25 % de probabilidades de conseguir una acumulación de Pólvora al atacar. Cada acumulación de Pólvora aumenta el Ataque en un 3 %, la Velocidad de ataque en 30 y el Daño a los enemigos que no son héroes en un 3 %. Pólvora se acumula hasta 7 veces y no se puede eliminar.",
+      "Obtiene un 25 % de probabilidades de conseguir una acumulación de Pólvora al atacar. Cada acumulación de Pólvora aumenta el Ataque en un 3,6 %, la Velocidad de ataque en 36 y el Daño a los enemigos que no son héroes en un 3,6 %. Pólvora se acumula hasta 7 veces y no se puede eliminar.",
+      "Obtiene un 25 % de probabilidades de conseguir una acumulación de Pólvora al atacar. Cada acumulación de Pólvora aumenta el Ataque en un 4,3 %, la Velocidad de ataque en 43 y el Daño a los enemigos que no son héroes en un 4,3 %. Pólvora se acumula hasta 7 veces y no se puede eliminar.",
+      "Obtiene un 25 % de probabilidades de conseguir una acumulación de Pólvora al atacar. Cada acumulación de Pólvora aumenta el Ataque en un 5,1 %, la Velocidad de ataque en 51 y el Daño a los enemigos que no son héroes en un 5,1 %. Pólvora se acumula hasta 7 veces y no se puede eliminar.",
+      "Obtiene un 25 % de probabilidades de conseguir una acumulación de Pólvora al atacar. Cada acumulación de Pólvora aumenta el Ataque en un 6,2 %, la Velocidad de ataque en 62 y el Daño a los enemigos que no son héroes en un 6,2 %. Pólvora se acumula hasta 7 veces y no se puede eliminar.",
+      "Obtiene un 25 % de probabilidades de conseguir una acumulación de Pólvora al atacar. Cada acumulación de Pólvora aumenta el Ataque en un 7,5 %, la Velocidad de ataque en 75 y el Daño a los enemigos que no son héroes en un 7,5 %. Pólvora se acumula hasta 7 veces y no se puede eliminar."
+    ],
+    "story": "La obra maestra destructiva pero artística de un inventor duende extravagante. Este cañón de una sola mano posee la mayor cantidad de arsenal que un Goblin puede manipular físicamente. A pesar de la peligrosa cantidad de pólvora utilizada, esta arma afortunadamente aún no ha estallado."
+  },
+  "s1": {
+    "name": "Fuego Rapido",
+    "description": "Ataca a todos los enemigos frontales en línea recta, lo que causa {0} de Daño físico y los empuja hacia atrás. Si el objetivo no es un héroe, le inflige {1} de Daño físico adicional y lo aturde durante {2} segundo(s).",
+    "books": {
+      "0": "Aumenta Daño en {0}%.",
+      "1": "Aumenta Daño en {0}%.",
+      "2": "Aumenta Daño en {0}%."
+    },
+    "light": "El Daño se incrementa en un 40%.",
+    "dark": "Ataca al enemigo durante 3 seg."
+  },
+  "s2": {
+    "name": "Bomba de Humo",
+    "description": "Causa {0} Daño Fis. A los enemigos al alcance y dejalos ciegos por 4 seg.",
+    "books": {
+      "0": "Aumenta Daño en {0}%.",
+      "1": "Aumenta Daño en {0}%.",
+      "2": "Causa Daño al enemigo y Aturdelos durante 1 s."
+    },
+    "light": "El costo de maná se reduce en 1.",
+    "dark": "La duración de Cegar aumenta en 2 seg.",
+    "ut": {
+      "name": "Máscara de gas especial",
+      "description": [
+        "[Bomba de humo] Reduce el Tiempo de reutilización en un 30 % y aumenta la duración de Cegar en 1 segundo.",
+        "[Bomba de humo] Reduce el Tiempo de reutilización en un 30 % y aumenta la duración de Cegar en 1,2 segundos.",
+        "[Bomba de humo] Reduce el Tiempo de reutilización en un 30 % y aumenta la duración de Cegar en 1,4 segundos.",
+        "[Bomba de humo] Reduce el Tiempo de reutilización en un 30 % y aumenta la duración de Cegar en 1,7 segundos.",
+        "[Bomba de humo] Reduce el Tiempo de reutilización en un 30 % y aumenta la duración de Cegar en 2,1 segundos.",
+        "[Bomba de humo] Reduce el Tiempo de reutilización en un 30 % y aumenta la duración de Cegar en 2,5 segundos."
+      ],
+      "story": "Una máscara de alto rendimiento fabricada con materiales especiales que Lakrak obtuvo del Continente Orbis. Esta máscara fue fabricada a partir de la primera pluma de la arpía, la escama de un dragón, una hoja del árbol del mundo y el mitril del imperio, que son difíciles de encontrar. Esta máscara protege a uno contra gases venenosos al igual que contra el efecto cegador de las bombas de humo."
+    }
+  },
+  "s3": {
+    "name": "Bomba de Pegamento",
+    "description": "Coloca una Bomba de Pegamento que explota en {0} seg a un enemigo aleatorio. La explosión causa {1} Daño Fis. Máximo a los enemigos al alcance proporcional a la Salud de los mismos y los aturde durante 3 segundos. Al colocar la Bomba de Pegamento, el objetivo es aturdido durante 2 segundos.",
+    "books": {
+      "0": "Aumenta Daño en {0}%.",
+      "1": "Aumenta Daño en {0}%.",
+      "2": "Aumenta Daño en {0}%."
+    },
+    "light": "El Costo de Maná aumenta en 1 y ataca a un objetivo aleatorio 2 veces.",
+    "dark": "El costo de maná se reduce en 1.",
+    "ut": {
+      "name": "Explosivo especial de alta densidad de duendes",
+      "description": [
+        "[Bomba de Pegamento] El Daño aumenta en un 50%, y luego del Golpe Crít., el maná se recupera en 200",
+        "[Bomba de Pegamento] El Daño aumenta en un 50%, y luego del Golpe Crít., el maná se recupera en 240",
+        "[Bomba de Pegamento] El Daño aumenta en un 50%, y luego del Golpe Crít., el maná se recupera en 290",
+        "[Bomba de Pegamento] El Daño aumenta en un 50%, y luego del Golpe Crít., el maná se recupera en 350",
+        "[Bomba de Pegamento] El Daño aumenta en un 50%, y luego del Golpe Crít., el maná se recupera en 420",
+        "[Bomba de Pegamento] El Daño aumenta en un 50%, y luego del Golpe Crít., el maná se recupera en 500"
+      ],
+      "story": "Pólvora hecha con la receta secreta y peligrosa de Lakrak. Lakrak creyó que las explosiones simples no eran lo suficientemente efectivas en términos de estrategia de batalla, así que agregó un poco de ácido fórmico y veneno de ortiga mayor para generar un efecto increíble. Requiere un proceso de filtración extremadamente preciso y lo utiliza en secreto para evitar el abuso."
+    }
+  },
+  "s4": {
+    "name": "Carga del Cañon",
+    "description": "Los ataques automáticos tienen un 15% de probabilidad de disparar una bomba que causa {1} Daño Mágico a los objetivos al alcance y los aturde durante 2 segundos.",
+    "books": {
+      "0": "Aumenta Daño en {0}%.",
+      "1": "Aumenta Daño en {0}%.",
+      "2": "Aumenta Daño en {0}%."
+    },
+    "light": "La oportunidad de activación aumenta un 10%.",
+    "dark": "El objetivo recibe un 25% de Daño Fis aumentado"
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Daño Crit+20%",
+    "dark": "Luego de un Golpe Crítico, obten 5% de Daño Crit y 30 de Precisión del Ctrl de Masas. Se acumula hasta 10 veces."
+  }
+}

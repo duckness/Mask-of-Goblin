@@ -1,0 +1,120 @@
+{
+  "name": "Gau",
+  "subtitle": "Barbare des Terres Gelées",
+  "description": "Un barbare qui règne sur les plaines enneigées des Terres Gelées, il sape le moral des ennemis avec ses cris assourdissants et les charge directement, tel une tempête.",
+  "story": "Gau est un puissant guerrier du royaume barbare. Dès qu'il maniait ses deux haches, un bain de sang s'ensuivait. Sa férocité légendaire avait fait de lui un guerrier redouté. Cependant, il disparut soudainement pendant dix ans et, à son retour, il avait changé du tout au tout. Ses tendances violentes avaient disparu, même lorsque les autres le critiquaient. Au lieu de cela, il répond par des sourires et un rire jovial. C'est particulièrement surprenant de le voir sourire avec bonté aux enfants et aux animaux.",
+  "like": "Les enfants, les animaux",
+  "dislike": "Les gens destructeurs et violents",
+  "inn": {
+    "idle": "Vous faites des affaires avec un barbare?",
+    "recruit": {
+      "greet": "Heureux de vous rencontrer. Chassons ensemble de temps en temps.",
+      "talk": [
+        "J'ai l'air fort? Eh, ne me faites pas rougir.",
+        "Toutes ces beautés autour de vous, ne me rendez pas jalouse, mon pote!",
+        "Je suis fort en effet, hah."
+      ],
+      "gift": "Qu'est-ce que c'est que tout ça? Merci, mec."
+    },
+    "affinity": {
+      "greet": "Ceci me met un peu mal à l'aise.",
+      "talk": [
+        "Vous avez vu Yanne, récemment ? Je me demande comment elle va...",
+        "Quoi ? Comment je connais Lewisia ? Cette gamine... Même si elle est plus âgée... Tout ne va pas s'arranger simplement parce que je l'apprécie..."
+      ],
+      "gift": "Merci. La prochaine fois, c'est moi qui vous offrirai quelque chose."
+    },
+    "relationship": {
+      "greet": "Ha! Nous nous rencontrons à nouveau!! Ça va?",
+      "talk": [
+        "Ah... cette petite Lei est devenue une si belle femme... et de penser que son âge réel était... hahaha!",
+        "Je vais te tailler en pièces! - Eh bien, quoi? Les enfants rient quand j’agis de la sorte.",
+        "Hahaha, moi est un vieux nain avons beaucoup bu la dernière fois. En fait, nous avons bu tout l'alcool à la Taverne! Hahahaha!!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Numinu, Oiseau Sacré",
+    "description": [
+      "Pour chaque 1% de PV perdus, l'ATQ augmente de 0.8% et la Vitesse d'ATQ augmente de 8.",
+      "Pour chaque 1% de PV perdus, l'ATQ augmente de 1% et la Vitesse d'ATQ augmente de 10.",
+      "Pour chaque 1% de PV perdus, l'ATQ augmente de 1.2% et la Vitesse d'ATQ augmente de 12.",
+      "Pour chaque 1% de PV perdus, l'ATQ augmente de 1.4% et la Vitesse d'ATQ augmente de 14.",
+      "Pour chaque 1% de PV perdus, l'ATQ augmente de 1.7% et la Vitesse d'ATQ augmente de 17.",
+      "Pour chaque 1% de PV perdus, l'ATQ augmente de 2% et la Vitesse d'ATQ augmente de 20."
+    ],
+    "story": "On dit qu'une bête sacrée protège les barbares de la Montagne Enneigée Terre-Venteuse. Cette bête, capable de dissiper la puissance des ténèbres, est un phénix bleu composé de glace. Numinu a été créé sous la forme de cette bête. Son nom signifie « sacré ». Il a été conçu dans une glace qui ne fond jamais. Les barbares considèrent cette arme comme une relique sacrée et la donnent à leur meilleur guerrier. Celui qui la manie doit être leur plus fort de tous les barbares, au point d'être considéré comme leur roi."
+  },
+  "s1": {
+    "name": "Fracasser",
+    "description": "Inflige {0} points de DEG P. aux ennemis à portée et la première attaque renverse l'ennemi pendant {1} sec.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG de {0}%."
+    },
+    "light": "Coût en Mana réduit de 1.",
+    "dark": "Chaque utilisation augmente les DEG de 15%. Cumulable 10 fois."
+  },
+  "s2": {
+    "name": "Cri de Bataille",
+    "description": "Tous les alliés bénéficient de {1} ATQ pendant {0} sec. A l'activation, retire tous les effets négatifs sur tous les alliés.",
+    "books": {
+      "0": "Le taux d'augmentation d'Attaque augmente de  {0}%.",
+      "1": "Le taux d'augmentation d'Attaque augmente de  {0}%.",
+      "2": "Le taux d'augmentation d'Attaque augmente de  {0}%."
+    },
+    "light": "Bonus d'ATK augmenté de 40%.",
+    "dark": "Un bonus de 200 à la Vit. ATQ est ajouté à l'effet.",
+    "ut": {
+      "name": "Corne de combattant",
+      "description": [
+        "[Rugissement de bataille] Réduit le coût en mana de 1 point et augmente le boost d'ATQ de 20 %.",
+        "[Rugissement de bataille] Réduit le coût en mana de 1 point et augmente le boost d'ATQ de 24 %.",
+        "[Rugissement de bataille] Réduit le coût en mana de 1 point et augmente le boost d'ATQ de 29 %.",
+        "[Rugissement de bataille] Réduit le coût en mana de 1 point et augmente le boost d'ATQ de 35 %.",
+        "[Rugissement de bataille] Réduit le coût en mana de 1 point et augmente le boost d'ATQ de 42 %.",
+        "[Rugissement de bataille] Réduit le coût en mana de 1 point et augmente le boost d'ATQ de 50 %."
+      ],
+      "story": "Trompette fabriquée à partir d’une corne d’Orox, la bête gardienne de la montagne enneigée de Terre-Venteuse. Orox de la montagne enneigée accorde aux nobles guerriers une grande puissance ainsi que la capacité de discerner la vérité. Une fois qu’un guerrier a reçu la bénédiction d’Orox, il lui suffit de souffler dans cette trompette pour enflammer le moral de ses camarades et doter leur esprit d’une grande clarté."
+    }
+  },
+  "s3": {
+    "name": "Vortex",
+    "description": "Inflige {0} points de DEG P. aux ennemis à portée. La dernière attaque gèle les ennemis pendant {1} sec. Immunité à tous les effets pendant l'incantation.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Pendant l'incantation, rassemble tous les ennemis à portée."
+    },
+    "light": "Temps de recharge réduit de 3 sec.",
+    "dark": "Immunise contre tous les types de DEG.",
+    "ut": {
+      "name": "Coupe barbare",
+      "description": [
+        "[Vortex] Les DEG sont augmentés de 50% et les ennemis touchés par la dernière attaque subissent 5% de DEG supplémentaires pendant 10 sec.",
+        "[Vortex] Les DEG sont augmentés de 50% et les ennemis touchés par la dernière attaque subissent 6% de DEG supplémentaires pendant 10 sec.",
+        "[Vortex] Les DEG sont augmentés de 50% et les ennemis touchés par la dernière attaque subissent 7% de DEG supplémentaires pendant 10 sec.",
+        "[Vortex] Les DEG sont augmentés de 50% et les ennemis touchés par la dernière attaque subissent 8.5% de DEG supplémentaires pendant 10 sec.",
+        "[Vortex] Les DEG sont augmentés de 50% et les ennemis touchés par la dernière attaque subissent 10.5% de DEG supplémentaires pendant 10 sec.",
+        "[Vortex] Les DEG sont augmentés de 50% et les ennemis touchés par la dernière attaque subissent 12.5% de DEG supplémentaires pendant 10 sec."
+      ],
+      "story": "La coupe du roi barbare qui s’installa en premier dans les montagnes neigeuses. Lorsque le premier roi barbare s’installa à Terre-Venteuse, il jura de devenir le gardien des montagnes enneigées et partagea sa coupe avec les êtres sacrés des montagnes. La Coupe barbare est imprégnée de la magie protectrice du loup de givre, ce qui augmente l’ATQ de Vortex et l’effet de Gel."
+    }
+  },
+  "s4": {
+    "name": "Enrager",
+    "description": "En attaquant un ennemi, l'ATQ augmente de  {1}  pendant  {0}  sec. Peut être cumulé jusqu'à un maximum de 10 fois.",
+    "books": {
+      "0": "Le taux d'augmentation d'Attaque augmente de  {0}%.",
+      "1": "Le taux d'augmentation d'Attaque augmente de  {0}%.",
+      "2": "La résistance au affaiblissements augmente de 50 pour chaque application."
+    },
+    "light": "Bonus d'ATK augmenté de 40%.",
+    "dark": "Subit 5% de DEG supplémentaires par charge, mais gagne un bonus de 50 aux Chances de Crit et au Vol de Vie pour chaque charge."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Blocage P. +200",
+    "dark": "Soigne les PV pour 10% de l'ATQ chaque seconde et pour chaque 1% de PV perdu, les DEG reçus sont réduits de 0,6%."
+  }
+}

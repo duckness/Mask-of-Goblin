@@ -1,0 +1,120 @@
+{
+  "name": "Leo",
+  "subtitle": "Escriba Eterno",
+  "description": "O Escriba da Grande Biblioteca Real de Orvelia. Usando runas, ele cura aliados e apaga a magia benéfica dos inimigos.",
+  "story": "No palácio real de Orvel, existe uma biblioteca onde dizem haver um espaço infinito. Leo é um Gnomo que protege essa biblioteca há muito tempo. Ele memorizou todos os livros ali presentes, e é a pessoa de maior conhecimento de todo o palácio, e muitos visitam o local em busca da sua sabedoria. No entanto, ele ainda parece ter dificuldade em interagir com os outros.",
+  "like": "Ler, escrever, gravar",
+  "dislike": "Solidão",
+  "inn": {
+    "idle": "Uau, tem mais pessoas do que livros aqui.",
+    "recruit": {
+      "greet": "Oi. Prazer em te conhecer.",
+      "talk": [
+        "Eu quero saber tudo sobre esse mundo.",
+        "O mundo com certeza é grande...",
+        "Venha para a biblioteca algum dia. Eu te apresentarei alguns livros bons."
+      ],
+      "gift": "Para mim? Mesmo?"
+    },
+    "affinity": {
+      "greet": "Ah, é tão aconchegante!",
+      "talk": [
+        "Você não tem tantos livros assim! Quer que eu traga alguns da minha casa?",
+        "Dá pra aprender de tudo com livros!"
+      ],
+      "gift": "Obrigado! Um dia desses, vou convidar você pra ir à minha casa!"
+    },
+    "relationship": {
+      "greet": "Olá. Quais são as novidades de hoje?",
+      "talk": [
+        "Eu escrevi várias entradas hoje. Cada dia traz um novo conhecimento.",
+        "Parece que há várias coisas divertidas lá fora. Talvez eu deva sair um pouco mais...",
+        "Você tem um minutinho? Trouxe um livro novo..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Belisa, Pena de Fênix",
+    "description": [
+      "No início de cada batalha, aumenta a DEF F. e a DEF M. em 20%, a Vel. de ATQ em 200 por 15 segundos, e a primeira habilidade usada tem um efeito adicional. Runa da Fragilidade - Aumenta a Chance de Crítico em 500. Runa da Cura - Remove efeitos de CM causados no conjurador antes de lançar a habilidade. Runa do Silêncio - Aumenta a duração de Silenciar em 1 segundo.",
+      "No início de cada batalha, aumenta a DEF F. e a DEF M. em 24%, a Vel. de ATQ em 240 por 15 segundos, e a primeira habilidade usada tem um efeito adicional. Runa da Fragilidade - Aumenta a Chance de Crítico em 500. Runa da Cura - Remove efeitos de CM causados no conjurador antes de lançar a habilidade. Runa do Silêncio - Aumenta a duração de Silenciar em 1 segundo.",
+      "No início de cada batalha, aumenta a DEF F. e a DEF M. em 29%, a Vel. de ATQ em 290 por 15 segundos, e a primeira habilidade usada tem um efeito adicional. Runa da Fragilidade - Aumenta a Chance de Crítico em 500. Runa da Cura - Remove efeitos de CM causados no conjurador antes de lançar a habilidade. Runa do Silêncio - Aumenta a duração de Silenciar em 1 segundo.",
+      "No início de cada batalha, aumenta a DEF F. e a DEF M. em 35%, a Vel. de ATQ em 350 por 15 segundos, e a primeira habilidade usada tem um efeito adicional. Runa da Fragilidade - Aumenta a Chance de Crítico em 500. Runa da Cura - Remove efeitos de CM causados no conjurador antes de lançar a habilidade. Runa do Silêncio - Aumenta a duração de Silenciar em 1 segundo.",
+      "No início de cada batalha, aumenta a DEF F. e a DEF M. em 42%, a Vel. de ATQ em 420 por 15 segundos, e a primeira habilidade usada tem um efeito adicional. Runa da Fragilidade - Aumenta a Chance de Crítico em 500. Runa da Cura - Remove efeitos de CM causados no conjurador antes de lançar a habilidade. Runa do Silêncio - Aumenta a duração de Silenciar em 1 segundo.",
+      "No início de cada batalha, aumenta a DEF F. e a DEF M. em 50%, a Vel. de ATQ em 500 por 15 segundos, e a primeira habilidade usada tem um efeito adicional. Runa da Fragilidade - Aumenta a Chance de Crítico em 500. Runa da Cura - Remove efeitos de CM causados no conjurador antes de lançar a habilidade. Runa do Silêncio - Aumenta a duração de Silenciar em 1 segundo."
+    ],
+    "story": "A fênix é uma fera sagrada que simboliza a vida eterna. Tão evasiva quanto a própria fera, suas penas também são consideradas extremamente raras. Dizem que uma caneta de pena fabricada com a pena de uma fênix é uma poderosa ferramenta mágica por si só. Runas desenhadas com essa caneta de pena podem ser um poderoso meio para Magia Rúnica."
+  },
+  "s1": {
+    "name": "Runa da Fragilidade",
+    "description": "Grava uma runa no alvo, causando até {3} de DAN F. que ignora a DEF com base no PV perdido, além de reduzir a DEF F. em {1}% por {0} seg.",
+    "books": {
+      "0": "Aumenta o dano em {0}%.",
+      "1": "Aumenta o dano em {0}%.",
+      "2": "Aumenta o dano em {0}%."
+    },
+    "light": "Reduz o tempo de recarga em 2 segundos.",
+    "dark": "Aumenta a quantidade de alvos em 2."
+  },
+  "s2": {
+    "name": "Runa de Cura",
+    "description": "Cura {0} PV de toda a equipe.",
+    "books": {
+      "0": "Aumenta a Cura em {0}%.",
+      "1": "Aumenta a Cura em {0}%.",
+      "2": "Aumenta a Cura em {0}%."
+    },
+    "light": "Reforça a quantidade de Cura em 40%.",
+    "dark": "Aumenta a DEF.F aliada em 25%, durante 10 segundos depois de ser curado.",
+    "ut": {
+      "name": "Tinta da Vitalidade",
+      "description": [
+        "[Runa da Cura] Aumenta a Taxa de Cura em 50% e a Resistência a Crít F. dos aliados em 100 por 10s.",
+        "[Runa da Cura] Aumenta a Taxa de Cura em 50% e a Resistência a Crít F. dos aliados em 120 por 10s.",
+        "[Runa da Cura] Aumenta a Taxa de Cura em 50% e a Resistência a Crít F. dos aliados em 140 por 10s.",
+        "[Runa da Cura] Aumenta a Taxa de Cura em 50% e a Resistência a Crít F. dos aliados em 170 por 10s.",
+        "[Runa da Cura] Aumenta a Taxa de Cura em 50% e a Resistência a Crít F. dos aliados em 210 por 10s.",
+        "[Runa da Cura] Aumenta a Taxa de Cura em 50% e a Resistência a Crít F. dos aliados em 250 por 10s."
+      ],
+      "story": "Tinta feita pela extração de folhas jovens da Árvore do Mundo. A capacidade de produção é de apenas 10 gotas por ano. Os feitiços mágicos escritos com esta tinta concedem grande vitalidade ao corpo. É muito preciosa e de difícil obtenção, então Leo a usa apenas em ocasiões especiais."
+    }
+  },
+  "s3": {
+    "name": "Runa do Silêncio",
+    "description": "Causa {0} de DAN.F a toda a equipe e remove bônus. Silencia o inimigo durante {1} segundos.",
+    "books": {
+      "0": "Aumenta a duração do Silêncio em {0} segundos.",
+      "1": "Aumenta a duração do Silêncio em {0} segundos.",
+      "2": "Aumenta a duração do Silêncio em {0} segundos."
+    },
+    "light": "Reduz o custo de mana em 1.",
+    "dark": "DAN aumenta em 200% e o inimigo recebe 20% a mais de DAN de todas as fontes. O custo de mana aumenta em 2.",
+    "ut": {
+      "name": "Pergaminho da Memória",
+      "description": [
+        "[Runa do Silêncio] O alvo recebe 15% a mais de DAN por 10 segundos, e reduz a resistência a CM em 120.",
+        "[Runa do Silêncio] O alvo recebe 15% a mais de DAN por 10 segundos, e reduz a resistência a CM em 140.",
+        "[Runa do Silêncio] O alvo recebe 15% a mais de DAN por 10 segundos, e reduz a resistência a CM em 170.",
+        "[Runa do Silêncio] O alvo recebe 15% a mais de DAN por 10 segundos, e reduz a resistência a CM em 210.",
+        "[Runa do Silêncio] O alvo recebe 15% a mais de DAN por 10 segundos, e reduz a resistência a CM em 250.",
+        "[Runa do Silêncio] O alvo recebe 15% a mais de DAN por 10 segundos, e reduz a resistência a CM em 300."
+      ],
+      "story": "Códice de feitiçaria antiga. Um códice escrito por respeitados feiticeiros que contém o princípio por trás da magia que usa toda a vida e criação. É escrito em uma língua desconhecida, então apenas uma parcela pôde ser decodificada. Se o antigo sistema de textos for desvendado, talvez seja possível usar feitiços sem custo algum."
+    }
+  },
+  "s4": {
+    "name": "Runa de Proteção",
+    "description": "A cada {0} segundos, grava uma runa no aliado com menos PV e recupera {2} PV durante {1} segundos.",
+    "books": {
+      "0": "Aumenta a Cura em {0}%.",
+      "1": "Aumenta a Cura em {0}%.",
+      "2": "Aumenta a resistência a penalidades em {0} , durante o efeito do poder."
+    },
+    "light": "Reforça a quantidade de Cura em 40%.",
+    "dark": "Depois de curar um aliado, aumenta a DEF.F do alvo em 40%, durante 10 segundos."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / BLQ.F +200",
+    "dark": "Ao atacar, há 10% de chance de causar a um inimigo aleatório DAN.F igual a 120% do ATQ. Remove 300 de mana e causa Silêncio durante 1 segundos."
+  }
+}

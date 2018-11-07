@@ -1,0 +1,120 @@
+{
+  "name": "Roi",
+  "subtitle": "Assassino Rápido",
+  "description": "Ele é um ex-assassino com um passado misterioso. É especialista em alvos solitários, lançando ataques fortes e intermináveis contra inimigos, enquanto se aproveita dos pontos cegos dos oponentes para se esquivar.",
+  "story": "Ele acompanha Cleo a pedido de Dominiks. Um antigo membro de um grupo de assassinos, ele arriscou a vida e se rebelou por algum motivo desconhecido. Por ter vivido como um assassino, ele raramente demonstra muito respeito para com os outros, mas suas dificuldades fizeram dele um homem experiente e astuto que trata de forma justa aqueles que o ajudam.",
+  "like": "Seu eu atual",
+  "dislike": "Seu antigo eu",
+  "inn": {
+    "idle": "......",
+    "recruit": {
+      "greet": "O que foi?",
+      "talk": [
+        "Ficaria muito grato se você não perguntasse sobre o passado.",
+        "Faz um tempo desde que tivemos tantos tempos de paz. Espero que Cleo não mude isso.",
+        "Pare de tentar me juntar com Cleo. Frey já é o suficiente. Só estou fazendo isso porque é o que deve ser feito."
+      ],
+      "gift": "Não sei se mereço isso..."
+    },
+    "affinity": {
+      "greet": "Ei, você deveria ir descansar agora.",
+      "talk": [
+        "Você já não se cansou disso? Cleo é responsabilidade minha... Ouvi dizer que ela vai assumir um papel importante agora.",
+        "Já fez algo de que se arrependeu? Se você acha que vai se arrepender, então pare agora."
+      ],
+      "gift": "Você nunca se esquece... Obrigado."
+    },
+    "relationship": {
+      "greet": "Ah, você veio.",
+      "talk": [
+        "Ajude Kasel quando puder. Ele tem uma grande obrigação.",
+        "Enquanto eu faço o tipo devoto, eu também confio em Lua. Não posso fazer muito além de rezar pelas pessoas que matei...",
+        "Não lamento mais pelo passado. Ele nunca vai mudar. Apenas o futuro pode mudar."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Redeal, o Sopro do Espectro",
+    "description": [
+      "Cada ataque automático tem 25% de chance de causar ao inimigo DAN.F (50% do ATQ) e Sangramento.",
+      "Cada ataque automático tem 28% de chance de causar ao inimigo DAN.F (60% do ATQ) e Sangramento.",
+      "Cada ataque automático tem 31% de chance de causar ao inimigo DAN.F (72% do ATQ) e Sangramento.",
+      "Cada ataque automático tem 34% de chance de causar ao inimigo DAN.F (86% do ATQ) e Sangramento.",
+      "Cada ataque automático tem 37% de chance de causar ao inimigo DAN.F (103% do ATQ) e Sangramento.",
+      "Cada ataque automático tem 40% de chance de causar ao inimigo DAN.F (125% do ATQ) e Sangramento."
+    ],
+    "story": "O grupo de assassinos conhecido como a Máscara Sorridente tem dominado o submundo de Orvel por muito tempo. Somente o melhor assassino da Máscara Sorridente recebe permissão para empunhar este terrível par de punhais. Dizem que os ferimentos causados por estes punhais nunca se curam, e que suas vítimas inevitavelmente sangram até a morte. De acordo com a lenda, eles foram feitos a partir da foice da Morte."
+  },
+  "s1": {
+    "name": "Impiedoso",
+    "description": "Ataca um inimigo aleatório 3 vezes, causando um total de {0} DAN F. e adicionando 1 acúmulo de Sangrar causando {2} de DAN F. ao longo de {1} seg. Sangrar pode acumular no máximo 3 vezes.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN Crít. em {0}%."
+    },
+    "light": "Reduz em 1 o custo de mana.",
+    "dark": "O alvo recebe mais 25% de DAN.F durante 10 segundos."
+  },
+  "s2": {
+    "name": "Cortina de Escuridão",
+    "description": "ATQ aumenta em {1} , durante {0} segundos e se esquiva de ataques de DAN.F.",
+    "books": {
+      "0": "Taxa de aumento de ATQ é aumentada em {0}%.",
+      "1": "Taxa de aumento de ATQ é aumentada em {0}%.",
+      "2": "Aumenta a VEL. ATQ em {0} , durante o efeito do poder."
+    },
+    "light": "Aumenta em 40% o reforço de ATQ.",
+    "dark": "Reforça em 100% o DAN do ataque automático enquanto o poder durar.",
+    "ut": {
+      "name": "Capuz de Soma",
+      "description": [
+        "[Cortina de Escuridão] Aumenta o Impulso de ATQ em 20% e ganha resistência de 400 CM enquanto durar a habilidade.",
+        "[Cortina de Escuridão] Aumenta o Impulso de ATQ em 24% e ganha resistência de 400 CM enquanto durar a habilidade.",
+        "[Cortina de Escuridão] Aumenta o Impulso de ATQ em 29% e ganha resistência de 400 CM enquanto durar a habilidade.",
+        "[Cortina de Escuridão] Aumenta o Impulso de ATQ em 35% e ganha resistência de 400 CM enquanto durar a habilidade.",
+        "[Cortina de Escuridão] Aumenta o Impulso de ATQ em 42% e ganha resistência de 400 CM enquanto durar a habilidade.",
+        "[Cortina de Escuridão] Aumenta o Impulso de ATQ em 50% e ganha resistência de 400 CM enquanto durar a habilidade."
+      ],
+      "story": "Um perigoso capuz com a técnica secreta da Máscara Sorridente. O item foi feito com a lendária bebida chamada soma, a qual dizem fornecer vitalidade eterna, além do segredo da Máscara Sorridente. O capuz de Soma aumenta a motivação do assassino dentro da cortina das trevas, aumentando seu ATQ e concedendo destreza, o que maximiza a Esquiva F."
+    }
+  },
+  "s3": {
+    "name": "Garra de Lâminas",
+    "description": "Desloca-se para trás do inimigo com o menor PV e causa [FFC800] {0} de DAN.F. Cada acúmulo de Sangramento causa {1}% de DAN adicional. Em seguida, todos os acúmulos são removidos. Em caso de acerto Crít, recupera 2 PM e reinicia o tempo de recarga do poder.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN Crít. em {0}%."
+    },
+    "light": "Em troca de 1 Custo de Mana Adicional, aumenta em 100% o DAN causado.",
+    "dark": "Remove o tempo de recarga.",
+    "ut": {
+      "name": "Máscara Rachada",
+      "description": [
+        "[Garra de Lâminas] Aumenta o DAN em 20%, e, após um Golpe Crit, recupera 300 de mana.",
+        "[Garra de Lâminas] Aumenta o DAN em 24%, e, após um Golpe Crit, recupera 300 de mana.",
+        "[Garra de Lâminas] Aumenta o DAN em 29%, e, após um Golpe Crit, recupera 300 de mana.",
+        "[Garra de Lâminas] Aumenta o DAN em 35%, e, após um Golpe Crit, recupera 300 de mana.",
+        "[Garra de Lâminas] Aumenta o DAN em 42%, e, após um Golpe Crit, recupera 300 de mana.",
+        "[Garra de Lâminas] Aumenta o DAN em 50%, e, após um Golpe Crit, recupera 300 de mana."
+      ],
+      "story": "A máscara que Roi destruiu quando deixou os Assassinos da Máscara Sorridente. Os Assassinos miram sem piedade nos pontos vitais dos seus inimigos e usam máscaras para omitir suas emoções quando eliminam seus alvos. Roi encara a máscara partida e vai atrás dos seus inimigos para matá-los com suas Garras de Lâminas e proteger seus amigos."
+    }
+  },
+  "s4": {
+    "name": "Talhar",
+    "description": "Se um ataque normal tiver um Acerto Crítico, ataca o alvo 6 vezes para causar um total de {0} de DAN F. adicional.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN Crít. em {0}%."
+    },
+    "light": "Cada ataque recupera 300 de mana.",
+    "dark": "Há 50% de chance de acumular 1 Sangramento."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / DAN Crít. +20%",
+    "dark": "Após um Golpe Crit, há 10% de chance de aumentar a Vel de ATQ em 300 e o DAN Crit em 60% por 5 segundos. Não ativa novamente durante a ativação."
+  }
+}

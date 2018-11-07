@@ -1,0 +1,120 @@
+{
+  "name": "Oddy",
+  "subtitle": "Horloger de la Vie Éternelle",
+  "description": "Un horloger qui a été maudit par les animaux divins appelés les Redpur. Son horloge magique attaque, pétrifie ses enemies et permet aussi à ses alliés d'utiliser plus rapidement leurs compétences.",
+  "story": "Il travaillait comme ouvrier au palais royal d'Orvelia il y a bien longtemps. Cependant, il fut maudit par un Redpur, une créature mythique, et se transforma lui-même en Redpur. Depuis sa transformation, il a vécu si longtemps qu'il ne se souvient plus de son âge. Lorsqu'il était humain, il inventa la première montre portable, mais personne à Orvelia ne reconnut son talent. Pour faire connaître son invention, il partit rejoindre l'empire. Sur la route, il fut maudit par un groupe de Redpurs l'ayant confondu avec un braconnier. La malédiction affecta également sa montre, en lui accordant un pouvoir magique permettant de contrôler le flux du temps dans un corps vivant. Quant à Oddy, le temps s'est arrêté pour lui.",
+  "like": "Les horloges",
+  "dislike": "Les contrebandiers",
+  "inn": {
+    "idle": "Haha!! C'est sûr Orvelia a changé.",
+    "recruit": {
+      "greet": "Salutations, Salutations.",
+      "talk": [
+        "Hmm, nous avons le temps. Pouvons-nous parler un peu?",
+        "J'étais un humain autrefois... Mais maintenant, je suis un Redpur.",
+        "Ma montre est enchantée avec de la magie. La magie des Redpur..."
+      ],
+      "gift": "Oho! Ça fait longtemps que je n'ai pas reçu de tels cadeaux humains!"
+    },
+    "affinity": {
+      "greet": "Hum ? Oh, vous êtes là.",
+      "talk": [
+        "Vous n'avez pas le temps ? Alors, fabriquez-en, ah ah.",
+        "Vous n'aviez jamais vu de Redpur avant ? Pas étonnant, ils se cachent tout le temps !"
+      ],
+      "gift": "Un cadeau ? Hum, il faudra que je prépare quelque chose, la prochaine fois."
+    },
+    "relationship": {
+      "greet": "Bienvenue, bienvenue!",
+      "talk": [
+        "Ah, mes amis Redpur me manquent...",
+        "Je ne me souviens pas vraiment de moi en humain. Ça fait tellement longtemps.",
+        "Je pensais être le premier à inventer la montre de poche, mais apparemment les civilisations anciennes étaient bien plus avancées que ce que je croyais."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Tempodiana, Compte à Rebours d'Ombrelune",
+    "description": [
+      "Utiliser Distorsion Temporelle réduit les Temps de Recharge de tous les alliés de 2 sec, et leur ATQ est boostée de 14% pendant 10 sec.",
+      "Utiliser Distorsion Temporelle réduit les Temps de Recharge de tous les alliés de 3 sec, et leur ATQ est boostée de 17% pendant 10 sec.",
+      "Utiliser Distorsion Temporelle réduit les Temps de Recharge de tous les alliés de 4 sec, et leur ATQ est boostée de 21% pendant 10 sec.",
+      "Utiliser Distorsion Temporelle réduit les Temps de Recharge de tous les alliés de 5 sec, et leur ATQ est boostée de 25% pendant 10 sec.",
+      "Utiliser Distorsion Temporelle réduit les Temps de Recharge de tous les alliés de 6 sec, et leur ATQ est boostée de 30% pendant 10 sec.",
+      "Utiliser Distorsion Temporelle réduit les Temps de Recharge de tous les alliés de 7 sec, et leur ATQ est boostée de 35% pendant 10 sec."
+    ],
+    "story": "Une fois sa montre frappée par la malédiction des Redpur et dotée du pouvoir de contrôler le temps pour les êtres vivants, Oddy mit à profit le temps infini dont il bénéficiait pour chercher des applications possibles à son pouvoir. Après maints efforts, il finit par créer une montre contenant l'essence de la magie temporelle et découvrit que la magie des Redpur tirait son origine du rayonnement lunaire et des zones d'ombre qu'il génère. Il baptisa son chef-d'œuvre « Tempodiana » et le surnomma « Compte à Rebours d'Ombrelune »."
+  },
+  "s1": {
+    "name": "Fracture Temporelle",
+    "description": "Touche les ennemis en ligne droite pour {0} points de DEG M. et les Pétrifie.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "Chances de Crit. augmentées de {0}."
+    },
+    "light": "DEG augmentés de 40%.",
+    "dark": "Temps de Recharge réduit de 1,5 sec."
+  },
+  "s2": {
+    "name": "Fragments du Temps",
+    "description": "Attaque 6 ennemis aléatoires, infligeant un total de {0} points de DEG M. 'Fragments du Temps' a 50% de chances de réinitialiser son Temps de Recharge et de ne pas consommer de mana lors de sa prochaine utilisation.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "Chances de Crit. augmentées de {0}."
+    },
+    "light": "2 ennemis choisis au hasard sont pris pour cible.",
+    "dark": "Pendant le Temps de Recharge, les attaques auto réduisent le Temps de Recharge de 'Fragments du Temps' de 1 sec.",
+    "ut": {
+      "name": "Collection de fragments",
+      "description": [
+        "[Fragments du temps] A 25 % de chances de réinitialiser le temps de recharge et augmente les DEG de 20 %.",
+        "[Fragments du temps] A 25 % de chances de réinitialiser le temps de recharge et augmente les DEG de 24 %.",
+        "[Fragments du temps] A 25 % de chances de réinitialiser le temps de recharge et augmente les DEG de 29 %.",
+        "[Fragments du temps] A 25 % de chances de réinitialiser le temps de recharge et augmente les DEG de 35 %.",
+        "[Fragments du temps] A 25 % de chances de réinitialiser le temps de recharge et augmente les DEG de 42 %.",
+        "[Fragments du temps] A 25 % de chances de réinitialiser le temps de recharge et augmente les DEG de 50 %."
+      ],
+      "story": "Fragments du Temps tombés de la face cachée de la lune. Parfois, il arrive que des fragments du temps tombent d’une autre dimension sous l’effet de la face cachée de la lune, révélée par la magie temporelle. Les fragments du temps ont beau être petits, lorsqu’ils sont rassemblés, ils forment une collection gigantesque qui donne au lanceur une inspiration sans limites."
+    }
+  },
+  "s3": {
+    "name": "Distorsion Temporelle",
+    "description": "Inflige {0} points de DEG M. à tous les ennemis et augmente l'ATQ des alliés de {1} pendant 15 sec. Toutes les compétences des alliés en recharge voient leur Temps de Recharge réduit de 50%. Cet effet ne s'applique pas à cette même compétence.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "Chances de Crit. augmentées de {0}."
+    },
+    "light": "Augmente le coût en mana de 2 point et restaure entièrement le mana de tous les alliés.",
+    "dark": "Lorsqu'au moins 5 ennemis sont présents, les DEG augmentent de 100 %. Les ennemis touchés subissent 50 % de DEG supplémentaires pendant 10 sec.",
+    "ut": {
+      "name": "Fils du temps",
+      "description": [
+        "[Distorsion Temporelle] Les DEG sont augmentés de 20% et tous les effets négatifs sont dissipés sur les alliés.",
+        "[Distorsion Temporelle] Les DEG sont augmentés de 24% et tous les effets négatifs sont dissipés sur les alliés.",
+        "[Distorsion Temporelle] Les DEG sont augmentés de 29% et tous les effets négatifs sont dissipés sur les alliés.",
+        "[Distorsion Temporelle] Les DEG sont augmentés de 35% et tous les effets négatifs sont dissipés sur les alliés.",
+        "[Distorsion Temporelle] Les DEG sont augmentés de 42% et tous les effets négatifs sont dissipés sur les alliés.",
+        "[Distorsion Temporelle] Les DEG sont augmentés de 50% et tous les effets négatifs sont dissipés sur les alliés."
+      ],
+      "story": "La fourrure du Chef à Fourrure Rouge qui est suspendue à la lueur de la lune. On raconte que la créature mythique, le Chef à Fourrure Rouge, utilise l’ombre de la pleine lune pour traverser les dimensions en dansant. Le Chef à Fourrure Rouge danse jusqu’à disparition de l’ombre de la lune et on dit que sa queue reste parfois coincée dans le passage. La fourrure de la créature mythique reste bloquée dans le flux de l’espace-temps, ce qui arrête temporairement le temps. Oddy utilise la fourrure avec les traces de l’ombre de la lune pour créer une peau et l’utiliser avec efficacité lors de la Distorsion Temporelle."
+    }
+  },
+  "s4": {
+    "name": "Horloge Magique",
+    "description": "Après utilisation de cette compétence, les 2 prochaines attaques infligent {0}  points de DEG M supplémentaires, avec 30 % de chances de pétrifier la cible pendant 3 sec. Cet effet ne s'active qu'une fois toutes les 1 sec.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "Chances de Crit. augmentées de {0}."
+    },
+    "light": "Les DEG supplémentaires accordés par la compétence sont multipliés par 3.",
+    "dark": "Les chances de pétrifier passent à 40 %."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Vit. ATQ +100",
+    "dark": "Toutes les 10 sec, toutes les compétences en recharge de 4 alliés aléatoires voient leur Temps de Recharge réduit de 1 sec."
+  }
+}

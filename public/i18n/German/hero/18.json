@@ -1,0 +1,120 @@
+{
+  "name": "Reina",
+  "subtitle": "Der Blitz",
+  "description": "Eine Söldnerin mit einem leichten, einhändigen Schwert. Weicht Angriffen geschickt aus und durchbohrt ihre Feinde mit ihrer Schwertspitze.",
+  "story": "Reina von Stein wurde als Tochter einer adeligen Familie des Imperiums geboren. Ihr freier Geist und ihre energetische Persönlichkeit scheinen sogar ihr Umfeld aufzuheitern. Sie bevorzugt ein freies Leben als Söldnerin im Gegensatz zum erdrückenden Dasein einer Aristokratin. Während ihrer langen Tätigkeit als Söldnerin gingen die Spuren ihrer adeligen Erziehung nach und nach verloren. Schon als Kind war sie ein wahres Naturtalent im Umgang mit Schwertern. Im Lauf der Jahre entwickelte sie ihre Fähigkeiten mit dem Degen und einen Stil, der ihrem geschmeidigen Körperbau entspricht. Vor Kurzem lehnte sie einen seltsamen Vertrag ab. Seitdem hat sie das Gefühl, dass ihr jemand folgt und sie beobachtet.",
+  "like": "Attraktive Männer",
+  "dislike": "Uninteressante Männer",
+  "inn": {
+    "idle": "Ein gutes Arbeitsangebot! Aber der Arbeitgeber ist etwas...",
+    "recruit": {
+      "greet": "Huch, schöner...Ah, hallo!",
+      "talk": [
+        "Brauchst du einen Söldner? Ich bin die beste!",
+        "Wow, so ein Süßer...oh, es ist nichts, hehe...",
+        "Suchst du nach Reina dem Blitz? Hehe, ja, das bin ich!"
+      ],
+      "gift": "Äh? Ein Geschenk? Hehe, danke. Ich geb' dir beim nächsten Auftrag 'nen Rabatt."
+    },
+    "affinity": {
+      "greet": "Oh, dieser Ort ist großartig!",
+      "talk": [
+        "Willst du mich nicht ein paar Kunden vorstellen? Am besten gutaussehende, wenn möglich!!!",
+        "Ich mag keine langweilige Arbeit! Hehe!"
+      ],
+      "gift": "Wow! Für mich? Wirklich? Hehe, du bist großartig!"
+    },
+    "relationship": {
+      "greet": "Na aber hallo, Schönheit! Lange nicht gesehen!",
+      "talk": [
+        "Leute heutzutage! Denken ich bin total pervers, dabei ist das alles nur ein Missverständnis! Ich bin nun mal ein Fan schöner Männerkörper!",
+        "Manchmal träume ich von einem besseren Leben. Du weisst schon; wenn's draußen regnet und du im Matsch schlafen musst.",
+        "Die Arbeit als Söldner ist nicht immer erfüllend. Manchmal denke ich an... dieses und jenes..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Livatis, das Blitzschwert",
+    "description": [
+      "Nach einem krit. Treffer erhöht sich die Angriffsgeschw. um 8% und der krit. Schaden um 20% für 15 Sek. Kann bis zu max. 5 mal gestapelt werden.",
+      "Nach einem krit. Treffer erhöht sich die Angriffsgeschw. um 9% und der krit. Schaden um 24% für 15 Sek. Kann bis zu max. 5 mal gestapelt werden.",
+      "Nach einem krit. Treffer erhöht sich die Angriffsgeschw. um 11% und der krit. Schaden um 28% für 15 Sek. Kann bis zu max. 5 mal gestapelt werden.",
+      "Nach einem krit. Treffer erhöht sich die Angriffsgeschw. um 13% und der krit. Schaden um 34% für 15 Sek. Kann bis zu max. 5 mal gestapelt werden.",
+      "Nach einem krit. Treffer erhöht sich die Angriffsgeschw. um 16% und der krit. Schaden um 41% für 15 Sek. Kann bis zu max. 5 mal gestapelt werden.",
+      "Nach einem krit. Treffer erhöht sich die Angriffsgeschw. um 20% und der krit. Schaden um 50% für 15 Sek. Kann bis zu max. 5 mal gestapelt werden."
+    ],
+    "story": "Der große Stammbaum der Stein-Familie datiert zurück zu den frühesten Tagen des Imperiums. Die Ehrwürdigkeit der Familie erklärt sich allerdings durch ihre fähigen Krieger und hängt nicht in erster Linie mit ihrem adeligen Blut zusammen. Aria Stein war eine legendäre Meisterin der Klinge. Als eine der talentiertesten Kriegerinnen in der Geschichte des Imperiums war sie es, die den Grundstein für den Ruhm der Stein-Familie legte. Arias Schwert, Livatas, ist heute im Besitz von Reina. Das Schwert, durch das Reina den Spitznamen „Blitz“ erlangte, ist leicht wie eine Feder und doch stark genug, um jedem Schwertstreich zu widerstehen."
+  },
+  "s1": {
+    "name": "Fliege wie ein Schmetterling",
+    "description": "Verursacht {0} K.Schaden. Bei einem krit. Treffer wird der Skill-Cooldown zurückgesetzt.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Manakosten steigen um 1. Wunde-Zählerlimit steigt auf 10 und fügt Feinden mit 10 Wunden 100% der ANG als zusätzlichen Schaden zu.",
+    "dark": "Entfernt den Cooldown."
+  },
+  "s2": {
+    "name": "Klingenspitze",
+    "description": "Erhöht ANG {0} Sek. lang um {1} und die Krit. Chance um {2}. Dieser Effekt kann nicht entfernt werden.",
+    "books": {
+      "0": "Erhöht ANG-Erhöhungsrate um {0}%.",
+      "1": "Erhöht ANG-Erhöhungsrate um {0}%.",
+      "2": "Erhöht krit. Trefferw. um {0}%."
+    },
+    "light": "Reduziert Manakosten um 1.",
+    "dark": "Ändert für 1 extra Mana die Krit. Chance auf einen 100% Krit. Schadensboost. Gewährt auch 25% Schadensboost gegen Bosse.",
+    "ut": {
+      "name": "Meisterring",
+      "description": [
+        "[Klingenspitze] Erhöht den ANG-Boost um 50 % und stellt zusätzliche bei einem krit. Treffer für die Dauer des Skills 40 MP wieder her.",
+        "[Klingenspitze] Erhöht den ANG-Boost um 50 % und stellt zusätzliche bei einem krit. Treffer für die Dauer des Skills 48 MP wieder her.",
+        "[Klingenspitze] Erhöht den ANG-Boost um 50 % und stellt zusätzliche bei einem krit. Treffer für die Dauer des Skills 58 MP wieder her.",
+        "[Klingenspitze] Erhöht den ANG-Boost um 50 % und stellt zusätzliche bei einem krit. Treffer für die Dauer des Skills 70 MP wieder her.",
+        "[Klingenspitze] Erhöht den ANG-Boost um 50 % und stellt zusätzliche bei einem krit. Treffer für die Dauer des Skills 84 MP wieder her.",
+        "[Klingenspitze] Erhöht den ANG-Boost um 50 % und stellt zusätzliche bei einem krit. Treffer für die Dauer des Skills 100 MP wieder her."
+      ],
+      "story": "Der Ring, den Reina erhielt, nachdem sie ihren Meister besiegte. Er ist so groß, dass sie ihn auf ihrem Daumen trägt. Er sieht einfach und plump aus, aber der Geiste des Kampfes ist in den eingravierten Runenlettern in dem Ring verborgen. Immer wenn sie den Ring ihres Meisters ansieht, fühlt sie sich, als würde sie noch Arbeit vor sich haben."
+    }
+  },
+  "s3": {
+    "name": "Sternschnuppe",
+    "description": "Fügt dem Feind {0} K.Schaden mit einer Kombo-Attacke zu. Der letzte Schlag wirft den Feind zurück.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Jeder kritische Treffer erhöht den Schaden des letzten Angriffs um 10%.",
+    "dark": "Erhält absolute Schadensimmunität, während der Wirkungsdauer.",
+    "ut": {
+      "name": "Geschwindigkeitsmedaille",
+      "description": [
+        "[Sternschnuppe] Erhöht Schaden um 20% und und stellt bei Krit. Treffern 200 Mana wieder her.",
+        "[Sternschnuppe] Erhöht Schaden um 24% und und stellt bei Krit. Treffern 200 Mana wieder her.",
+        "[Sternschnuppe] Erhöht Schaden um 29% und und stellt bei Krit. Treffern 200 Mana wieder her.",
+        "[Sternschnuppe] Erhöht Schaden um 35% und und stellt bei Krit. Treffern 200 Mana wieder her.",
+        "[Sternschnuppe] Erhöht Schaden um 42% und und stellt bei Krit. Treffern 200 Mana wieder her.",
+        "[Sternschnuppe] Erhöht Schaden um 50% und und stellt bei Krit. Treffern 200 Mana wieder her."
+      ],
+      "story": "Eine ehrenhafte Medaille, die dem schnellsten Söldner verliehen wird. Sie soll ein Andenken von Hersz sein, dem schnellsten Krieger der Welt. Wer diese Medaille trägt, dessen Körper fühlt sich leichter an und er kann die Bewegungen seines Feindes vorhersehen."
+    }
+  },
+  "s4": {
+    "name": "Glückskind",
+    "description": "Nach einem krit. Treffer erhöht sich ANG um {1} für {0} Sek. Kann bis zu max. 8 mal gestapelt werden.",
+    "books": {
+      "0": "Erhöht ANG-Erhöhungsrate um {0}%.",
+      "1": "Erhöht ANG-Erhöhungsrate um {0}%.",
+      "2": "VERT-Durchdringung erhöht sich um {0}% während d. Skill-Wirkungsdauer."
+    },
+    "light": "Erhöht Schaden für jeden Zähler um 4%, für alle Gegner außer Helden.",
+    "dark": "Erleidet bei 5 oder mehr Zählern um 20 % weniger K.Schaden und M.Schaden."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / Krit. Schaden +20%",
+    "dark": "10% Chance, mit normalen Angriffen den Krit. Schaden um 100% für 5 Sek zu erhöhen."
+  }
+}

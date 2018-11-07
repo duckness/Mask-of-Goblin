@@ -1,0 +1,120 @@
+{
+  "name": "Oddy",
+  "subtitle": "Oddy,",
+  "description": "Ein Uhrenmacher, der von den heiligen Tieren namens Redpur verflucht wurde. Seine magische Uhr attackiert und versteinert Feinde und erlaubt es seinen Verbündeten, ihre Skills schneller zu benutzen.",
+  "story": "Vor langer Zeit war er ein Mechaniker im königlichen Palast von Orvelia. Doch die mythischen Redpur-Kreaturen verfluchten ihn, wodurch er selbst zu einem Redpur wurde. Seit seiner Verwandlung vergingen Ewigkeiten, woraufhin er sein eigenes Alter vergaß. Als er noch ein Mensch war, erfand er die erste tragbare Uhr, doch niemand in Orvelia erkannte ihren Wert. Um seiner Erfindung die nötige Anerkennung zu verschaffen, machte er sich auf, ins Imperium zu reisen. Unterwegs wurde er von einer Gruppe Redpur verflucht, die ihn für einen Wilderer hielten. Der Fluch veränderte auch seine Uhr, wodurch sie die magische Fähigkeit bekam, den Zeitfluss in einem lebenden Körper zu kontrollieren. Außerdem hielt Oddys eigene Zeit ebenfalls an.",
+  "like": "Uhren",
+  "dislike": "Wilderer",
+  "inn": {
+    "idle": "Haha! Orvelia hat sich ganz schön verändert.",
+    "recruit": {
+      "greet": "Seid gegrüßt.",
+      "talk": [
+        "Hmm, wir haben durchaus genug Zeit. Sollen wir uns kurz unterhalten?",
+        "Früher war ich menschlich... aber jetzt bin ich ein Redpur.",
+        "Meine Uhr ist mit Magie versehen. Die Magie der Redpur..."
+      ],
+      "gift": "Oho, ist schon eine ganze Weile her, seit ich solche menschlichen Geschenke bekam!"
+    },
+    "affinity": {
+      "greet": "Hmm? Oh, du bist hier.",
+      "talk": [
+        "Du hast keine Zeit? Haha, dann nimm sie dir.",
+        "Du hast noch nie einen Redpur gesehen? Wenig überraschend. Sie verstecken sich immer!"
+      ],
+      "gift": "Ein Geschenk? Hm, ich muss nächstes Mal etwas vorbereiten."
+    },
+    "relationship": {
+      "greet": "Willkommen, willkommen!",
+      "talk": [
+        "Ach, ich vermisse meine Redpur-Freunde.",
+        "Ich erinnere mich nicht mehr an meine Tage als Mensch. Es ist schon so lange her.",
+        "Ich dachte, ich hätte die Taschenuhr als erstes erfunden, aber anscheinend waren die alten Zivilisationen viel weiter fortgeschritten als ich erwartet habe."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Zeit des Mondschattens, Tempodiana",
+    "description": [
+      "Nach der Nutzung von Zeitkrümmung sind die Cooldowns aller Verbündeten um 2 Sek. reduziert und ihr ANG für 10 Sek. um 14% erhöht.",
+      "Nach der Nutzung von Zeitkrümmung sind die Cooldowns aller Verbündeten um 3 Sek. reduziert und ihr ANG für 10 Sek. um 17% erhöht.",
+      "Nach der Nutzung von Zeitkrümmung sind die Cooldowns aller Verbündeten um 4 Sek. reduziert und ihr ANG für 10 Sek. um 21% erhöht.",
+      "Nach der Nutzung von Zeitkrümmung sind die Cooldowns aller Verbündeten um 5 Sek. reduziert und ihr ANG für 10 Sek. um 25% erhöht.",
+      "Nach der Nutzung von Zeitkrümmung sind die Cooldowns aller Verbündeten um 6 Sek. reduziert und ihr ANG für 10 Sek. um 30% erhöht.",
+      "Nach der Nutzung von Zeitkrümmung sind die Cooldowns aller Verbündeten um 7 Sek. reduziert und ihr ANG für 10 Sek. um 35% erhöht."
+    ],
+    "story": "Nachdem Oddys Uhr mit dem Fluch der Redpur belegt wurde und die Macht der Zeitkontrolle über lebendige Wesen erlangte, nützte er die gewonnene, unendliche Zeit, deren Anwendungsmöglichkeiten zu erforschen. Als er schließlich nach vielen Versuchen eine Uhr erschaffen hatte, die die Essenz der Zeitmagie enthielt, fand Oddy heraus, dass das Geheimnis der Redpur-Magie dem Mondlicht und den so erzeugten Schatten entstammt. Er nannte sein Meisterwerk „Tempodiana“ und gab ihr den Spitznamen „Zeit des Mondschattens“."
+  },
+  "s1": {
+    "name": "Zeitriss",
+    "description": "Fügt Feinden in einer Linie M.Schaden in Höhe von {0} zu und versteinert sie.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Krit. Chance um {0}%."
+    },
+    "light": "Erhöht Schaden um 40%.",
+    "dark": "Reduziert Cooldown um 1.5 Sek."
+  },
+  "s2": {
+    "name": "Zeitfragmente",
+    "description": "Greift 6 zufällige Gegner an und verursacht einen Gesamtschaden von {0} M. Schaden. 50% Chance, dass der Cooldown für 'Zeitfragmente' zurückgesetzt wird und der Skill beim nächsten Mal kein Mana verbraucht.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Krit. Chance um {0}%."
+    },
+    "light": "Ziel ändert sich zu 2 zufällige Feinde.",
+    "dark": "Während des Cooldowns reduzieren normale Angriffe den Cooldown von 'Zeitfragmente' um 1 Sek.",
+    "ut": {
+      "name": "Fragmentsammlung",
+      "description": [
+        "[Zeitfragmente] Hat eine Chance von 25 %, den Cooldown zurückzusetzen, und erhöht den Schaden um 20 %.",
+        "[Zeitfragmente] Hat eine Chance von 25 %, den Cooldown zurückzusetzen, und erhöht den Schaden um 24 %.",
+        "[Zeitfragmente] Hat eine Chance von 25 %, den Cooldown zurückzusetzen, und erhöht den Schaden um 29 %.",
+        "[Zeitfragmente] Hat eine Chance von 25 %, den Cooldown zurückzusetzen, und erhöht den Schaden um 35 %.",
+        "[Zeitfragmente] Hat eine Chance von 25 %, den Cooldown zurückzusetzen, und erhöht den Schaden um 42 %.",
+        "[Zeitfragmente] Hat eine Chance von 25 %, den Cooldown zurückzusetzen, und erhöht den Schaden um 50 %."
+      ],
+      "story": "Zeitfragmente, die aus dem Schatten des Mondes fielen. Manchmal sorgt der Effekt des Mondschattens, der erscheint, wenn Zeitmagie gewirkt wird, dafür, dass Zeitfragmente aus anderen Dimensionen fallen. Die Zeitfragmente sind zwar klein, aber wenn man mehrere davon sammelt, werden sie zu einer riesigen Fragmentsammlung, die dem Beschwörer unentwegt Inspirationen bieten."
+    }
+  },
+  "s3": {
+    "name": "Zeitkrümmung",
+    "description": "Verursacht {0} M. Schaden an allen Feinden und erhöht Angriffsgeschw. der Verbündeten um {1} für 15 Sek. Anschließend wird bei Verbündeten-Skills, die noch Cooldown haben, dieser um 50% reduziert. Dieser Skill wird davon jedoch nicht beeinflusst.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Krit. Chance um {0}%."
+    },
+    "light": "Erhöht die Manakosten um 2 und stellt das Mana aller Verbündeten wieder zur Gänze her.",
+    "dark": "Erhöht bei 5 oder mehr Feinden den Schaden um 100 %. Getroffene Feinde erleiden für 10 Sek. zusätzlich 50 % Schaden.",
+    "ut": {
+      "name": "Garn der Zeit",
+      "description": [
+        "[Zeitkrümmung] Erhöht Schaden um 20% und hebt negative Effekte auf allen Verbündeten auf.",
+        "[Zeitkrümmung] Erhöht Schaden um 24% und hebt negative Effekte auf allen Verbündeten auf.",
+        "[Zeitkrümmung] Erhöht Schaden um 29% und hebt negative Effekte auf allen Verbündeten auf.",
+        "[Zeitkrümmung] Erhöht Schaden um 35% und hebt negative Effekte auf allen Verbündeten auf.",
+        "[Zeitkrümmung] Erhöht Schaden um 42% und hebt negative Effekte auf allen Verbündeten auf.",
+        "[Zeitkrümmung] Erhöht Schaden um 50% und hebt negative Effekte auf allen Verbündeten auf."
+      ],
+      "story": "Fell des Rotfellhäuptlings, das im Schatten des Mondes aufgehängt wurde. Das mythische Wesen „Rotfellhäuptling“ soll den Mondschatten bei Vollmond nutzen, um Dimensionen zu durchqueren und zu tanzen. Der Rotfellhäuptling tanzt, bis der Mondschatten verschwindet und es heißt, dass sein Schwanz manchmal auf dem Pfad steckenbleibt. Das Fell des farbenfrohen mythischen Wesens verbleibt so eine Weile im Riss zwischen Raum und Zeit. Oddy bindet das Fell aus den Spuren der Schatten des Mondes zu einer Strähne zusammen und nutzt diese für die „Zeitkrümmung“."
+    }
+  },
+  "s4": {
+    "name": "Uhrmagie",
+    "description": "Beim Einsatz des Skills verursachen die nächsten 2 Angriffe {0} zusätzlichen M.Schaden mit einer Chance von 30 %, das Ziel für 3 Sek. zu versteinern. Dieser Effekt wird 1-mal pro Sek. aktiviert.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Krit. Chance um {0}%."
+    },
+    "light": "Ändert die Gelegenheiten, zusätzlichen Schaden durch Benutzung des Skills zu erhalten, auf 3-mal.",
+    "dark": "Ändert die Chance, zu versteinern, um 40 %."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / ANG-Geschw. +100",
+    "dark": "Reduziert alle 10 Sek den Cooldown von 4 zufälligen Helden um 1 Sek."
+  }
+}

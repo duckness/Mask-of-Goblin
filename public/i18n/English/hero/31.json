@@ -1,0 +1,120 @@
+{
+  "name": "Arch",
+  "subtitle": "Arrow of Purity",
+  "description": "A high-ranking angel that descended upon this world to punish the chaos-inciting Demons. Soaring through the sky, his arrows rain judgment upon evildoers.",
+  "story": "An Angel warrior who descended from the Heavens to punish the Demons and stop the spread of chaos on earth. His delegated tasks include scouting, reconnaissance, and execution of any Demons found on earth. He has a strong sense of responsibility and is quick and decisive against any injustice. He truly loves Mankind and all the life forms that inhabit the earth. This is why he strives to prevent the Demons from defiling this world.",
+  "like": "Peace and stability",
+  "dislike": "Demons",
+  "inn": {
+    "idle": "Hm?! I think I just saw a demon...",
+    "recruit": {
+      "greet": "Greetings, earth dwellers.",
+      "talk": [
+        "Are my wings that interesting?",
+        "Smiting evil is my call.",
+        "May you see that your very lives are blessed by the goddess."
+      ],
+      "gift": "May the light guide your way."
+    },
+    "affinity": {
+      "greet": "It's good to see you, follower of the light.",
+      "talk": [
+        "The fate of the world is in your hands.",
+        "You, who received the blessing of the goddess, what will you do with that power?"
+      ],
+      "gift": "I don't know how I'll use it, but thank you."
+    },
+    "relationship": {
+      "greet": "May the light be with you, my friend.",
+      "talk": [
+        "Demons... they are scum that must be executed, but the few that help us... I do not know what to do with them.",
+        "Your existence is like a bright beacon. Keep your soul pure, my friend.",
+        "I once thought that your kind were weak. But now, I have learned that strength comes in many forms."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Clear Blue Sky, Sherrkyle",
+    "description": [
+      "Every 10 sec, inflicts a Judgement Sigil upon a random enemy for 15 sec and deals 168% of ATK as M.DMG.",
+      "Every 10 sec, inflicts a Judgement Sigil upon a random enemy for 15 sec and deals 201.6% of ATK as M.DMG.",
+      "Every 10 sec, inflicts a Judgement Sigil upon a random enemy for 15 sec and deals 241.5% of ATK as M.DMG.",
+      "Every 10 sec, inflicts a Judgement Sigil upon a random enemy for 15 sec and deals 289.8% of ATK as M.DMG.",
+      "Every 10 sec, inflicts a Judgement Sigil upon a random enemy for 15 sec and deals 348.8% of ATK as M.DMG.",
+      "Every 10 sec, inflicts a Judgement Sigil upon a random enemy for 15 sec and deals 420% of ATK as M.DMG."
+    ],
+    "story": "A powerful weapon of light that can take the form of a spear, a dagger, or a bow. One of the divine treasures of the Angels blessed by an archangel. It is said to be capable of incinerating evil. Due to its versatility, it has traditionally been given to the most talented scout. The number of Demons who perished under its light during the war is too high to count."
+  },
+  "s1": {
+    "name": "Celestial Arrow",
+    "description": "Deals {0} M.DMG to 3 enemies and knock them back. Enemies with a Judgement sigil takes 30% extra DMG. Enemies hit by this skill are inflicted with a Judgement Sigil for 15 sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "If there is 1 enemy, DMG is increased by 100%.",
+    "dark": "Stuns enemies with a Sigil for 1 sec."
+  },
+  "s2": {
+    "name": "Purifying Blaze",
+    "description": "Deals {0} M.DMG to frontal enemies in a straight line. Enemies with a Judgement Sigil takes {1} extra M.DMG that ignores DEF.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Crit Chance is increased by 40%.",
+    "dark": "Cooldown is reduced by 3 sec.",
+    "ut": {
+      "name": "Magic Square of Pursuit",
+      "description": [
+        "[Purifying Blaze] Reduces Mana Cost by 1 and increases DMG by 20%.",
+        "[Purifying Blaze] Reduces Mana Cost by 1 and increases DMG by 24%.",
+        "[Purifying Blaze] Reduces Mana Cost by 1 and increases DMG by 29%.",
+        "[Purifying Blaze] Reduces Mana Cost by 1 and increases DMG by 35%.",
+        "[Purifying Blaze] Reduces Mana Cost by 1 and increases DMG by 42%.",
+        "[Purifying Blaze] Reduces Mana Cost by 1 and increases DMG by 50%."
+      ],
+      "story": "The symbol of Fire Arbiter Army that fought a fierce battle against Ancient Demons. When using the Magic Square of Pursuit blessed by Lua, the Goddess of Light, Arch becomes a merciless arbiter."
+    }
+  },
+  "s3": {
+    "name": "Arbiter",
+    "description": "Deals {0} M.DMG to enemies in range, and enemies with Judgement Sigil takes 50% more M.DMG for 5 sec, while being inflicted with Silence. All allies become immune to M.DMG for 5 sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Inflicts a sigil upon damaged enemies.",
+    "dark": "M.DMG increase and Silence effect occur to enemies with no Sigil as well.",
+    "ut": {
+      "name": "Eye of Heaven",
+      "description": [
+        "[Arbiter] DMG is increased by 20% and all allies' ATK is increased by 30% for the duration of M.Shield.",
+        "[Arbiter] DMG is increased by 24% and all allies' ATK is increased by 30% for the duration of M.Shield.",
+        "[Arbiter] DMG is increased by 29% and all allies' ATK is increased by 30% for the duration of M.Shield.",
+        "[Arbiter] DMG is increased by 35% and all allies' ATK is increased by 30% for the duration of M.Shield.",
+        "[Arbiter] DMG is increased by 42% and all allies' ATK is increased by 30% for the duration of M.Shield.",
+        "[Arbiter] DMG is increased by 50% and all allies' ATK is increased by 30% for the duration of M.Shi"
+      ],
+      "story": "Angel Arbiter Pilier's soul egg. Pilier was born from Lua's first flame, and is Arch's master. Pilier was the best Angel warrior and was the one to end the war against the Demons. But after using all of his power, he went back to being an Eye of Heaven, which is the soul egg form, and Arch is holding onto his master's soul."
+    }
+  },
+  "s4": {
+    "name": "The Last Judgment",
+    "description": "Every 15 sec, deals {0} M.DMG ignoring DEF to enemies inflicted by Judgement Sigil. Once during every battle, upon reaching near death HP, deals {1} M.DMG to enemies inflicted by Judgement Sigils and stuns them for 3 sec, while casting a shield that blocks {2} DMG to all allies for 5 sec. Gains immunity to CC while the shield is in effect. When the shield effect takes place, consumes all mana, and all skill cooldown is increased by 50%.",
+    "books": {
+      "0": "DMG and Shield are increased by {0}%.",
+      "1": "DMG and Shield are increased by {0}%.",
+      "2": "DMG and Shield are increased by {0}%."
+    },
+    "light": "For 20 sec after activation, auto attacks target 2 enemies.",
+    "dark": "Effect occurs 3 sec faster."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / Crit Chance +100",
+    "dark": "Upon a Critical Hit, heal all ally HP by 4% of DMG dealt."
+  }
+}

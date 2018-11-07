@@ -1,0 +1,120 @@
+{
+  "name": "Neraxis",
+  "subtitle": "Obsidian Arrogance",
+  "description": "The descendant of a black dragon that controlled dark lightning. He fights to rid the world of the demons, especially the Draconics. The energy of dark lightning imbued in his Pile Bunker penetrates the enemy's defense.",
+  "story": "Black dragons are notorious for being the most arrogant and ill-tempered out of all dragons. They suffered greatly from the Demon War 100 years ago. Armarta went mad, Ashen Nox robbed them, and Draconics started hunting down dragons. Neraxis was one of the few black dragon that survived that day, and he has been working and plotting to realize his revenge.",
+  "like": "Laias",
+  "dislike": "Demons, Cain, Lilia, and everything that gets in his way.",
+  "inn": {
+    "idle": "Hmpf. What am I even doing here...?",
+    "recruit": {
+      "greet": "Hmph, what does a human want with me?",
+      "talk": [
+        "You're not worth talking to.",
+        "What do you want?",
+        "Ha, ridiculous."
+      ],
+      "gift": "I don't know what you want, but it's no use."
+    },
+    "affinity": {
+      "greet": "Hmph, it's you again, human.",
+      "talk": [
+        "Huh? You want help? Hmpf. Bothersome.",
+        "Ha, that's right. Black dragons are the strongest!"
+      ],
+      "gift": "I don't need that. Why do you keep...?"
+    },
+    "relationship": {
+      "greet": "...Fine, I'm glad to see you! Hmpf...",
+      "talk": [
+        "Lilia? Ah, that annoying kid? Tsk, she always gets in the way.",
+        "Why won't that mummy get lost? Sometimes I really want to kill him.",
+        "Why do I like Laias? Hmph, y-you don't need a reason to like someone... No, wait! How did you know!?"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Roaring Dragonmaw, Acravita",
+    "description": [
+      "After landing 20 normal attacks, deals M.DMG equal to 100% of ATK to 2 random enemies, stuns them for 0.5 sec, and becomes Storm of Neraxis for 10 sec. For the duration of Storm of Neraxis, increases P.DEF of all allies by 4% of caster's P.DEF and M.DEF by 4% of the caster's M.DEF.",
+      "After landing 19 normal attacks, deals M.DMG equal to 100% of ATK to 2 random enemies, stuns them for 0.5 sec, and becomes Storm of Neraxis for 10 sec. For the duration of Storm of Neraxis, increases P.DEF of all allies by 4.8% of caster's P.DEF and M.DEF by 4.8% of the caster's M.DEF.",
+      "After landing 18 normal attacks, deals M.DMG equal to 100% of ATK to 2 random enemies, stuns them for 0.5 sec, and becomes Storm of Neraxis for 10 sec. For the duration of Storm of Neraxis, increases P.DEF of all allies by 5.7% of caster's P.DEF and M.DEF by 5.7% of the caster's M.DEF.",
+      "After landing 17 normal attacks, deals M.DMG equal to 100% of ATK to 2 random enemies, stuns them for 0.5 sec, and becomes Storm of Neraxis for 10 sec. For the duration of Storm of Neraxis, increases P.DEF of all allies by 6.9% of caster's P.DEF and M.DEF by 6.9% of the caster's M.DEF.",
+      "After landing 16 normal attacks, deals M.DMG equal to 100% of ATK to 2 random enemies, stuns them for 0.5 sec, and becomes Storm of Neraxis for 10 sec. For the duration of Storm of Neraxis, increases P.DEF of all allies by 8.3% of caster's P.DEF and M.DEF by 8.3% of the caster's M.DEF.",
+      "After landing 15 normal attacks, deals M.DMG equal to 100% of ATK to 2 random enemies, stuns them for 0.5 sec, and becomes Storm of Neraxis for 10 sec. For the duration of Storm of Neraxis, increases P.DEF of all allies by 10% of caster's P.DEF and M.DEF by 10% of the caster's M.DEF."
+    ],
+    "story": "A magic gear crafted with pitch-black metal called Adamantite, tempered with the dark flame and the lightning of a black dragon. It holds the grudge and rage of black dragons that were killed during the Demon War. Neraxis threatened the dwarves to forge this special weapon for him. Then, he cursed and enchanted it with the grudge-filled souls of black dragons. Anyone who touches this weapon beside Neraxis will hear the raging roars of vengeful dragons."
+  },
+  "s1": {
+    "name": "Black Lightning Claw",
+    "description": "Draws enemies towards the target and deals {0} M.DMG. Deals {1} M.DMG around the target after 1 sec and stuns them for {2} sec. Reduces ATK Spd of hit enemies by {4} for {3} sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Increases Stun duration by {0} sec.",
+    "dark": "Increases the M.DMG that the hit enemy takes by 25% for 10 sec."
+  },
+  "s2": {
+    "name": "Obsidian Roar",
+    "description": "Increases ATK, P.DEF, and M.DEF of all allies by {1} for {0} sec. Deals {2} M.DMG to all enemies and reduces their ATK by {4}% for {3} sec.",
+    "books": {
+      "0": "Increases ATK Boost and DEF Boost by {0}%.",
+      "1": "Increases ATK Boost and DEF Boost by {0}%.",
+      "2": "Increases ATK Boost and DEF Boost by {0}%."
+    },
+    "light": "Increases Mana Cost by 1 and ATK and DEF Boost by {0}%.",
+    "dark": "Reduces ATK Spd of the hit enemy by {1} for {0} sec.",
+    "ut": {
+      "name": "Memories of the Blue God Dragon",
+      "description": [
+        "[Obsidian Roar] Increases DEF Boost of allies by 20% and dispels positive effects from all enemies upon using Obsidian Roar.",
+        "[Obsidian Roar] Increases DEF Boost of allies by 24% and dispels positive effects from all enemies upon using Obsidian Roar.",
+        "[Obsidian Roar] Increases DEF Boost of allies by 29% and dispels positive effects from all enemies upon using Obsidian Roar.",
+        "[Obsidian Roar] Increases DEF Boost of allies by 35% and dispels positive effects from all enemies upon using Obsidian Roar.",
+        "[Obsidian Roar] Increases DEF Boost of allies by 42% and dispels positive effects from all enemies upon using Obsidian Roar.",
+        "[Obsidian Roar] Increases DEF Boost of allies by 50% and dispels positive effects from all enemies upon using Obsidian Roar."
+      ],
+      "story": "A hair accessory that Laias dropped while cleansing the waters corrupted by demons. Neraxis found it and kept it, but he still hasn't decided whether he'll give it back. It's not likely that Laias will get her lost hair accessory any time soon."
+    }
+  },
+  "s3": {
+    "name": "Breath of Destruction",
+    "description": "Deals a total of {0} M.DMG to enemies within a large area around the target over 6 times and reduces their M.DEF by {2}% for {1} sec. Each hit stuns the enemy for {3} sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Reduce Mana Cost by 1.",
+    "dark": "Changes M.DEF Reduction to 30%.",
+    "ut": {
+      "name": "Rage Vortex",
+      "description": [
+        "[Breath of Destruction] Increases Stun duration by 1 sec and reduces Cooldown of Breath of Destruction by 3 sec.",
+        "[Breath of Destruction] Increases Stun duration by 1 sec and reduces Cooldown of Breath of Destruction by 4 sec.",
+        "[Breath of Destruction] Increases Stun duration by 1 sec and reduces Cooldown of Breath of Destruction by 5 sec.",
+        "[Breath of Destruction] Increases Stun duration by 1 sec and reduces Cooldown of Breath of Destruction by 6 sec.",
+        "[Breath of Destruction] Increases Stun duration by 1 sec and reduces Cooldown of Breath of Destruction by 7 sec.",
+        "[Breath of Destruction] Increases Stun duration by 1 sec and reduces Cooldown of Breath of Destruction by 8 sec."
+      ],
+      "story": "Crafted with his own fang, this stake holds Neraxis's burning rage. When Neraxis attacks with the stake, the great energy, entangled with Neraxis's powers, swirls at the enemy at a terrifying speed. It is powerful enough to penetrate all things, and rip off the limbs of those who come near it."
+    }
+  },
+  "s4": {
+    "name": "Black Dragon Hide",
+    "description": "Increases P.DEF and M.DEF by {0} and takes reduced P.DMG and M.DMG by {1}%.",
+    "books": {
+      "0": "Increases DEF Boost by {0}%.",
+      "1": "Increases DEF Boost by {0}%.",
+      "2": "Increases DEF Boost by {0}%."
+    },
+    "light": "ATK Spd is increased by 300",
+    "dark": "When HP falls below {0}%, skill effects are increased by {1}%."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / CC Resist +100",
+    "dark": "At the beginning of every battle, reduces DMG that non-Hero enemies deal to all allies except Neraxis by {1}% for {0} sec."
+  }
+}

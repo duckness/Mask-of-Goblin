@@ -1,0 +1,120 @@
+{
+  "name": "Dimael",
+  "subtitle": "Thợ săn bóng tối",
+  "description": "Một tiên bóng tối chuyên săn giết kẻ thù trong bóng tối. Bắn chiếc nỏ đầy thù hận bằng sự tối tăm để xuyên thủng kẻ thù không thương tiếc.",
+  "story": "Vị Tiên bóng tối cô đơn này đã thề sẽ trả thù chính chủng tộc của mình vì cái chết của chị gái. May mắn sống sót sau khi theo quân đến Sa mạc Aegina, điều duy nhất chờ đợi anh khi quay về nhà là cái tin khủng khiếp: chị gái của anh đã bị giết để làm Tiên hiến tế. Khi hét lên tên chị gái trong bóng tối, anh bắt đầu rơi vào trạng thái điên loạn. Cuối cùng, anh đưa ra lời thề sẽ thù ghét và trả thù chính chủng tộc của mình, những kẻ đã giết chết chị gái anh.",
+  "like": "Chị gái của anh",
+  "dislike": "Họ hàng đồng đội của anh, những người đã để mặc chị anh phải chết",
+  "inn": {
+    "idle": "Ephigael...",
+    "recruit": {
+      "greet": "Ah..Là bạn sao.",
+      "talk": [
+        "Đừng có nhìn chằm chằm như thế.",
+        "Thật khó chịu. Để mặc tôi.",
+        "Nói vào trọng tâm đi."
+      ],
+      "gift": "...Cho tôi? Hmph, tại sao không. Không có lý gì để lãng phí nó cả."
+    },
+    "affinity": {
+      "greet": "Chỗ này cũng không đến nỗi tệ.",
+      "talk": [
+        "Ta thích những nơi râm mát. Ánh sáng chói lóa làm ta khó chịu.",
+        "Bóng tối là cội nguồn sức mạnh của ta."
+      ],
+      "gift": "Sao ngươi cứ tặng ta những thứ này mãi vậy? Ta ghét mấy chuyện phiền toái thế này."
+    },
+    "relationship": {
+      "greet": "Ừm, đến rồi. Nào, bạn có gì cần tìm?",
+      "talk": [
+        "Lần săn mồi sau là khi nào vậy? Hi vọng thành quả lần sau cũng được khấm khá như lần trước.",
+        "Sức mạnh bóng tối này cũng chính là sức mạnh của ta. Phải biết tận dụng hết mức có thể.",
+        "Phục thù vẫn chưa hoàn toàn chấm dứt... nhưng ít ra khi ở đây, tôi thấy có chút an tâm."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Nerius, Nước mắt mặt trăng",
+    "description": [
+      "Khi tấn công gây sát thương phép ngang mức 100% lực tấn công với xác suất 10%, giảm 10% thời gian sử dụng lại tất cả chiêu.",
+      "Khi tấn công gây sát thương phép ngang mức 120% lực tấn công với xác suất 12%, giảm 10% thời gian sử dụng lại tất cả chiêu.",
+      "Khi tấn công gây sát thương phép ngang mức 140% lực tấn công với xác suất 14%, giảm 10% thời gian sử dụng lại tất cả chiêu.",
+      "Khi tấn công gây sát thương phép ngang mức 170% lực tấn công với xác suất 17%, giảm 10% thời gian sử dụng lại tất cả chiêu.",
+      "Khi tấn công gây sát thương phép ngang mức 210% lực tấn công với xác suất 20%, giảm 10% thời gian sử dụng lại tất cả chiêu.",
+      "Khi tấn công gây sát thương phép ngang mức 250% lực tấn công với xác suất 25%, giảm 10% thời gian sử dụng lại tất cả chiêu."
+    ],
+    "story": "Một báu vật của Tiên bóng tối, được tạo ra nhờ viên đá ánh trăng đầy sức mạnh từ Arrovina và một cành cây trên mặt trăng có chất lượng tốt nhất. Nerius là công cụ hoàn hảo cho Phép thuật ánh trăng và là một trong những vũ khí phép thuật mạnh nhất của Tiên bóng tối. Tuy nhiên, người ta cho rằng ánh sáng bạc tuyệt đẹp của mặt trăng có thể dễ dàng bị bóng tối vấy bẩn. Tình yêu cao thượng đã biến thành bóng tối sâu thẳm và vị tiên bóng tối khao khát được trả thù đã hợp nhất bóng tối trong vũ khí này."
+  },
+  "s1": {
+    "name": "Cơn thịnh nộ bóng tối",
+    "description": "Gây {0} sát thương phép thuật cho 1 kẻ địch.",
+    "books": {
+      "0": "Tăng {0}% sát thương.",
+      "1": "Tăng {0}% sát thương.",
+      "2": "Tăng {0}% sát thương."
+    },
+    "light": "Khi địch còn 1 người, lượng sát thương tăng 100%.",
+    "dark": "Khi tấn công sẽ làm đối phương rơi vào trạng thái bị mù trong 5 giây với xác suất 25%."
+  },
+  "s2": {
+    "name": "Xích đen",
+    "description": "Gây {0} sát thương phép thuật cho kẻ địch trong phạm vi và cùm chúng lại trong {1} giây.",
+    "books": {
+      "0": "Tăng {0}% sát thương.",
+      "1": "Tăng {0}% sát thương.",
+      "2": "Tăng {0}% lượng sát thương phép thuật nhận của đối tượng."
+    },
+    "light": "Lượng tiêu thụ Mana giảm 1.",
+    "dark": "Kéo đối phương bị dính chiêu về phía mình.",
+    "ut": {
+      "name": "Vòng tay không thể vỡ",
+      "description": [
+        "[Xích đen] Tăng 50% Sát thương và thêm 10% Tăng sát thương phép thuật đối với mục tiêu trong 10 giây.",
+        "[Xích đen] Tăng 50% Sát thương và thêm 12% Tăng sát thương phép thuật đối với mục tiêu trong 10 giây.",
+        "[Xích đen] Tăng 50% Sát thương và thêm 14% Tăng sát thương phép thuật đối với mục tiêu trong 10 giây.",
+        "[Xích đen] Tăng 50% Sát thương và thêm 17% Tăng sát thương phép thuật đối với mục tiêu trong 10 giây.",
+        "[Xích đen] Tăng 50% Sát thương và thêm 21% Tăng sát thương phép thuật đối với mục tiêu trong 10 giây.",
+        "[Xích đen] Tăng 50% Sát thương và thêm 25% Tăng sát thương phép thuật đối với mục tiêu trong 10 giây."
+      ],
+      "story": "Một chiếc vòng tay được trao cho Epigael từ rất lâu về trước. Trên chiếc vòng có treo thạch anh đen, một loại đá quý của Tiên bóng tối. Tương truyền, những người cắt viên thạch anh đen sẽ có một sợi dây nối linh hồn, dẫn họ gặp lại nhau trong kiếp sau."
+    }
+  },
+  "s3": {
+    "name": "Làn sóng bóng đêm",
+    "description": "Nhắm tới một kẻ địch để gây {0} sát thương phép thuật theo một đường thẳng và làm mù kẻ địch trong {1} giây.",
+    "books": {
+      "0": "Tăng {0}% sát thương.",
+      "1": "Tăng {0}% sát thương.",
+      "2": "Tăng {0}% sát thương."
+    },
+    "light": "Tăng lượng mana sử dụng thêm 1 và tăng 100% lượng sát thương.",
+    "dark": "Hủy hiệu quả có lợi của toàn bộ đối thủ trong phạm vi.",
+    "ut": {
+      "name": "Đôi mắt của bóng hình",
+      "description": [
+        "Lượng sát thương của [Làn sóng bóng đêm] tăng 50%, thời gian kéo dài hiệu ứng mù tăng 2 giây.",
+        "Lượng sát thương của [Làn sóng bóng đêm] tăng 50%, thời gian kéo dài hiệu ứng mù tăng 2.5 giây.",
+        "Lượng sát thương của [Làn sóng bóng đêm] tăng 50%, thời gian kéo dài hiệu ứng mù tăng 3 giây.",
+        "Lượng sát thương của [Làn sóng bóng đêm] tăng 50%, thời gian kéo dài hiệu ứng mù tăng 3.5 giây.",
+        "Lượng sát thương của [Làn sóng bóng đêm] tăng 50%, thời gian kéo dài hiệu ứng mù tăng 4 giây.",
+        "Lượng sát thương của [Làn sóng bóng đêm] tăng 50%, thời gian kéo dài hiệu ứng mù tăng 4.5 giây."
+      ],
+      "story": "Mảnh ghép nước mắt của quái vật Heltanios, sinh sống dưới đáy Suối nguồn sinh lực. Nó phun ra bóng tối dày đặc. Những người nhìn vào mắt nó sẽ bị nguồn năng lượng hắc ám cực mạnh cướp mất linh hồn. Những kẻ trở thành chủ nhân của những con mắt này sẽ có được sức mạnh và nhãn quang vĩ đại. Khi Dimael bị giam giữ ở Aegina và đứng trước bờ vực tử vong, Maria đã khảm những mảnh ghép này."
+    }
+  },
+  "s4": {
+    "name": "Đốm đen",
+    "description": "Khi tấn công tự động, gây thêm {0} sát thương phép bỏ qua phòng thủ của địch.",
+    "books": {
+      "0": "Tăng {0}% sát thương.",
+      "1": "Tăng {0}% sát thương.",
+      "2": "Tăng {0}% sát thương."
+    },
+    "light": "Lượng sát thương tăng 40%.",
+    "dark": "Trong tấn công thường có thể sử dụng chiêu 1 với xác suất 10%."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / ATK.Spd +100",
+    "dark": "Khi tấn công thường, gây sát thương phép thêm 80% và hồi phục 100 mana. Hồi phục thêm mana và sát thương phép lên 2 lần với xác suất 10%."
+  }
+}

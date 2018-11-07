@@ -1,0 +1,120 @@
+{
+  "name": "Yanne",
+  "subtitle": "Caçadora de Dragões",
+  "description": "Uma guerreira bárbara que viaja por todas as terras, caçando monstros que causam problemas para as pessoas. A Única Assassina do Dragão Louco Svelta. Suas enormes flechas poderosas são capazes de perfurar até mesmo as muralhas de um castelo.",
+  "story": "Uma guerreira Bárbara especialista em lidar com monstros que ameaçam as pessoas. Graças a um atributo físico único, sua força muscular é muitas vezes mais potente do que aquela de um guerreiro Bárbaro comum. Ela empunha um arco longo maior que o seu próprio corpo com tanta facilidade que as pessoas a chamam de arma de cerco ambulante. Embora seja uma mulher bondosa que gosta de ajudar as pessoas, quando ela entra em combate sua agressividade de Bárbara começa a aparecer. Certa vez, ela matou um dragão chamado Svelta, uma façanha que lhe deu o nome de Caça-Dragões.",
+  "like": "Pratos deliciosos, cozinhar, caçar monstros",
+  "dislike": "Monstros que não podem ser derrotados fisicamente",
+  "inn": {
+    "idle": "Hahaha, estão se divertindo?",
+    "recruit": {
+      "greet": "Há quanto tempo... como você está?",
+      "talk": [
+        "Caça aos montros? É bem divertido, mas ainda melhor porque eu posso ajudar pessoas no processo.",
+        "Carne de monstro é muito boa quando cozinhada da forma correta, sabia?",
+        "Guerreiros Bárbaros aprendem como cozinhar. Bem, acho que sou melhor cozinho, né?"
+      ],
+      "gift": "Um presente? Haha, obrigado! Fico te devendo uma refeição da próxima vez!"
+    },
+    "affinity": {
+      "greet": "Quanto tempo. Como tem passado?",
+      "talk": [
+        "A comida aqui é bem gostosa.",
+        "Hum. Talvez eu peça pra Juno me preparar um almoço da próxima vez."
+      ],
+      "gift": "Ah, obrigada! vou fazer bom uso disso."
+    },
+    "relationship": {
+      "greet": "Ei, você parece saudável! Está comendo direito?",
+      "talk": [
+        "Já tentou comer carne de Dragão? É muito boa. Da próxima vez, eu trago um filé pra você!",
+        "Trabalhar como caçador de monstros não é nada fácil, mas vale a pena.",
+        "Guerreiros bárbaros são muito fortes... mas o meu corpo é especial."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Svelta, Ruína do Dragão",
+    "description": [
+      "Após Golpe Crítico, há uma chance de 10% de causar DAN.F equivalente a 200% de ATQ e recupera 5% de Mana. Se o alvo for um Dragão, causa Atordoamento por 1,5 segundo.",
+      "Após Golpe Crítico, há uma chance de 12% de causar DAN.F equivalente a 240% de ATQ e recupera 5% de Mana. Se o alvo for um Dragão, causa Atordoamento por 1,5 segundo.",
+      "Após Golpe Crítico, há uma chance de 14% de causar DAN.F equivalente a 290% de ATQ e recupera 5% de Mana. Se o alvo for um Dragão, causa Atordoamento por 1,5 segundo.",
+      "Após Golpe Crítico, há uma chance de 17% de causar DAN.F equivalente a 350% de ATQ e recupera 5% de Mana. Se o alvo for um Dragão, causa Atordoamento por 1,5 segundo.",
+      "Após Golpe Crítico, há uma chance de 21% de causar DAN.F equivalente a 420% de ATQ e recupera 5% de Mana. Se o alvo for um Dragão, causa Atordoamento por 1,5 segundo.",
+      "Após Golpe Crítico, há uma chance de 25% de causar DAN.F equivalente a 500% de ATQ e recupera 5% de Mana. Se o alvo for um Dragão, causa Atordoamento por 1,5 segundo."
+    ],
+    "story": "Uma arma encantada feita dos ossos, tendões e pedaços de couro do Dragão Louco, Svelta. Pesado demais para que um ser humano sequer consiga erguê-lo, quanto mais empunhá-lo, este enorme arco longo é uma combinação das tecnologias de armas de cerco dos Elfos Sombrios e dos Anões. Apenas quem tem incrível força muscular – como Yanne – pode ter a esperança de manusear esse arco absurdo. A alma do Dragão Louco ainda está contida nesse arco. Sua energia feroz está presente em cada flecha disparada, concedendo-lhes o poder de estilhaçar até mesmo o mais resistente muro."
+  },
+  "s1": {
+    "name": "Tiro Certo!",
+    "description": "Assume uma posição, foca por um instante e causa {0} de DAN.F a inimigos em linha reta. Se o alvo for um dragão, causa Atordomaneto por 3 segundos. Quanto mais ela foca, a duração de DAN e Atordoamento aumenta em {1}%.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "DAN Crít aumenta em {0}%."
+    },
+    "light": "DAN aumenta em 40%.",
+    "dark": "O alvo recebe 25% de DAN.F adicional por 10 segundos."
+  },
+  "s2": {
+    "name": "Queda!",
+    "description": "Causa {0} DAN.F a um inimigo e outros inimigos próximos. Se o alvo for um dragão, causa {1} de DAN adicional que ignora DEF.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "DAN Crít aumenta em {0}%."
+    },
+    "light": "Quando houver 1 inimigo, reforça o DAN em 100%.",
+    "dark": "Inimigos atingidos são atordoados por 2 segundos.",
+    "ut": {
+      "name": "Flecha Gigante de Morte Súbita",
+      "description": [
+        "[Queda!] Aumenta o DAN em 20% e reduz a Recarga em 12% ao realizar um acerto Crít.",
+        "[Queda!] Aumenta o DAN em 24% e reduz a Recarga em 12% ao realizar um acerto Crít.",
+        "[Queda!] Aumenta o DAN em 29% e reduz a Recarga em 12% ao realizar um acerto Crít.",
+        "[Queda!] Aumenta o DAN em 35% e reduz a Recarga em 12% ao realizar um acerto Crít.",
+        "[Queda!] Aumenta o DAN em 42% e reduz a Recarga em 12% ao realizar um acerto Crít.",
+        "[Queda!] Aumenta o DAN em 50% e reduz a Recarga em 12% ao realizar um acerto Crít."
+      ],
+      "story": "Uma flecha feita da espinha dorsal do Dragão Louco Svelta, capaz de expelir poderosos canhões mágicos. É um espólio de Yanne. A ponta exibe o olho vermelho ardente do Dragão Vermelho e a flecha ainda porta sua loucura, que está sempre pronta para queimar o inimigo."
+    }
+  },
+  "s3": {
+    "name": "Sem Volta!",
+    "description": "Remove todos os efeitos nocivos de si mesmo por 30 segundos, aumenta o ATQ em {0} e Penalidades de DEF em {1}. Akém disso, durante o efeito, ataques automáticos são alterados. Eles consomem 3% de mana em troca da capacidade de causar DAN a todos os inimigos em linha reta. Além disso, causa {2} DAN.F adicional que ignora DEF a de Dragões.",
+    "books": {
+      "0": "Aumento de ATQ reforçado em {0}%.",
+      "1": "Aumento de ATQ reforçado em {0}%.",
+      "2": "Aumento de ATQ reforçado em {0}%."
+    },
+    "light": "Vel de ATQ é reforçada em 250 durante o efeito.",
+    "dark": "Durante o efeito, todo o DAN recebido é reduzido em 25%.",
+    "ut": {
+      "name": "Bife de Dragão",
+      "description": [
+        "[Sem Hesitar!] Reduz o Custo de Mana em 1 e aumenta o DAN a Dragões em 10% enquanto a habilidade durar.",
+        "[Sem Hesitar!] Reduz o Custo de Mana em 1 e aumenta o DAN a Dragões em 12% enquanto a habilidade durar.",
+        "[Sem Hesitar!] Reduz o Custo de Mana em 1 e aumenta o DAN a Dragões em 14% enquanto a habilidade durar.",
+        "[Sem Hesitar!] Reduz o Custo de Mana em 1 e aumenta o DAN a Dragões em 17% enquanto a habilidade durar.",
+        "[Sem Hesitar!] Reduz o Custo de Mana em 1 e aumenta o DAN a Dragões em 21% enquanto a habilidade durar.",
+        "[Sem Hesitar!] Reduz o Custo de Mana em 1 e aumenta o DAN a Dragões em 25% enquanto a habilidade durar."
+      ],
+      "story": "Um bife de costela que tem o sabor do lombo e do filé mignon do dragão ao mesmo tempo. O sabor é realmente maravilhoso. A energia sagrada do dragão entra no corpo e aumenta o vigor de batalha de Yanne ao máximo."
+    }
+  },
+  "s4": {
+    "name": "Caçadora de Dragões",
+    "description": "ATQ reforçado em {0} , e PV Máx é reforçado em {1}%. Além disso, o DAN causado a Dragões aumenta em {2}%.",
+    "books": {
+      "0": "Aumento de ATQ reforçado em {0}%.",
+      "1": "Aumento de ATQ reforçado em {0}%.",
+      "2": "Aumento de ATQ reforçado em {0}%."
+    },
+    "light": "Todos os aliados recebem 7% de DAN reduzido de Dragões.",
+    "dark": "Causa 15% a mais de DAN a Dragões."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / DAN Crít. +20%",
+    "dark": "Ataques automáticos ignoram os efeitos de Bloqueio inimigos."
+  }
+}

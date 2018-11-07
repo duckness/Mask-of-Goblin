@@ -1,0 +1,120 @@
+{
+  "name": "Aisha",
+  "subtitle": "Princesa Violeta",
+  "description": "Uma senhora nobre oriunda de Orvelia. Como um gênio, ela alcançou o título de 'Violeta' da Torre do Sábio. Usando seu guarda-sol extravagante, ela aciona canhões de energia na direção do inimigo.",
+  "story": "Ela é filha de uma família nobre de Orvel. Como uma das feiticeiras mais talentosas da Torre dos Sábios, ela obteve o título de 'Violeta' em reconhecimento à sua habilidade mágica. A pedido dos seus pais, ela foi criada na Torre dos Sábios, mas ainda mantém sua honra de aristocrata. Quando criança, ela nunca compreendeu por que seus pais a mandaram para longe, sozinha, mas agora entende seus motivos. Agora ela voltou para casa, e é sempre servida por suas criadas, que são como membros da família para ela.",
+  "like": "Hora do chá com Priscilla",
+  "dislike": "Pessoas rudes",
+  "inn": {
+    "idle": "Humm, pode também comprar esta estalagem inteira.",
+    "recruit": {
+      "greet": "Essa é a sua primeira vez que conhece a nobreza?",
+      "talk": [
+        "Hmm, de que familia voce é?",
+        "Esta saia... os últimos toques eram bastante ruins.",
+        "Ugh, Eu prefiro meu chefe para cozinhar essa... comida camponesa."
+      ],
+      "gift": "Minha nossa, obrigado. Por que não aparece para o chá algum dia?"
+    },
+    "affinity": {
+      "greet": "Essa casa nem é tão legal assim.",
+      "talk": [
+        "Ugh... Não preciso de comida. Acho que não vou gostar.",
+        "Vou trazer um carro de luxo da próxima vez que vier."
+      ],
+      "gift": "Obrigada. Se precisar de alguma coisa, é só dizer."
+    },
+    "relationship": {
+      "greet": "Minha irmã saiu por um tempo, então não se preocupe.",
+      "talk": [
+        "Não se deixe enganar pelos sorrisos dos nobres. São apenas máscaras para esconder que eles realmente são.",
+        "Não gosto de não poder chamar Priscilla de 'Irmã' em casa. Ela já faz parte da família!",
+        "O título de Violeta... não há hierarquia entre Os Sete, mas eu não gosto de ser a última cor do espectro!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Mahitra, Destino Nobre",
+    "description": [
+      "Ao atacar, há 35% de chance de causar DAN adicional equivalente a 40% do ATQ.",
+      "Ao atacar, há 35% de chance de causar DAN adicional equivalente a 48% do ATQ.",
+      "Ao atacar, há 35% de chance de causar DAN adicional equivalente a 57% do ATQ.",
+      "Ao atacar, há 35% de chance de causar DAN adicional equivalente a 69% do ATQ.",
+      "Ao atacar, há 35% de chance de causar DAN adicional equivalente a 83% do ATQ.",
+      "Ao atacar, há 35% de chance de causar DAN adicional equivalente a 100% do ATQ."
+    ],
+    "story": "Na Torre dos Sábios, o título de Violeta indica o ápice da capacidade de mana. O mana aparentemente infinito de Aisha era demasiado para meios comuns de saída. Por esse motivo, a família von Daphnel obteve todas as pedras de mana que pôde encontrar e as levou para Annette, a melhor tecnomaga do Castelo de Orvel. Annette, de bom grado, aceitou assumir esse novo projeto. Logo depois, ela criou Mahitra, um belo guarda-chuva digno de uma feiticeira aristocrata de nobre destino."
+  },
+  "s1": {
+    "name": "Barragem Mística",
+    "description": "Causa {0} de DAN.M aos inimigos numa área pequena. Ao realizar um acerto crítico, reduz o tempo de recarga em 1 segundo.",
+    "books": {
+      "0": "DAN aumentado em {0}%.",
+      "1": "DAN aumentado em {0}%.",
+      "2": "Chance Crít. Aumentada em {0}."
+    },
+    "light": "Se houver 1 inimigo, aumenta o DAN em 100%.",
+    "dark": "Recupera 300 de mana após um Golpe Crit."
+  },
+  "s2": {
+    "name": "Raio da Destruição",
+    "description": "Causa {0} de DAN.M aos inimigos numa linha reta a cada 0,5 segundos. Após 5 segundos, usa 3% de mana a cada 0,5 segundos e aumenta o dano em 100%.",
+    "books": {
+      "0": "DAN aumentado em {0}%.",
+      "1": "DAN aumentado em {0}%.",
+      "2": "Chance Crít. Aumentada em {0}."
+    },
+    "light": "O custo do Raio Reforçado é reduzido à metade.",
+    "dark": "Duplica o custo de mana do Raio Reforçado e reforça o aumento de DAN de 100% para 200%.",
+    "ut": {
+      "name": "Espelho de Mão Nobre",
+      "description": [
+        "[Raio da Destruição] Aumenta o DAN em 50% e recupera 500 PM imediatamente após o uso.",
+        "[Raio da Destruição] Aumenta o DAN em 50% e recupera 600 PM imediatamente após o uso.",
+        "[Raio da Destruição] Aumenta o DAN em 50% e recupera 720 PM imediatamente após o uso.",
+        "[Raio da Destruição] Aumenta o DAN em 50% e recupera 860 PM imediatamente após o uso.",
+        "[Raio da Destruição] Aumenta o DAN em 50% e recupera 1040 PM imediatamente após o uso.",
+        "[Raio da Destruição] Aumenta o DAN em 50% e recupera 1250 PM imediatamente após o uso."
+      ],
+      "story": "Um tesouro sagrado passado por várias gerações na família von Daphnel. Em tempos antigos, era uma ferramenta xamanística para economizar mana. Depois que Aisha incorporou a gema Roxa Nobre ao seu mana, seu poder apareceu. Agora, ele reluz intensamente."
+    }
+  },
+  "s3": {
+    "name": "Precipitação Torrencial",
+    "description": "Causa {1} de DAN.M a inimigos aleatórios durante {0} segundos e reduz a DEF.M do inimigo em 5%. A redução da DEF.M se acumula 5 vezes.",
+    "books": {
+      "0": "DAN aumentado em {0}%.",
+      "1": "DAN aumentado em {0}%.",
+      "2": "Chance Crít. Aumentada em {0}."
+    },
+    "light": "Causa DAN AdE.",
+    "dark": "Acumula o efeito de redução de DEF.M até no máximo 10 vezes.",
+    "ut": {
+      "name": "Anel da Magia Infinita",
+      "description": [
+        "[Chuva Torrencial] Aumenta o DAN em 50% e, após o Golpe Crit, recupera 30 de mana.",
+        "[Chuva Torrencial] Aumenta o DAN em 50% e, após o Golpe Crit, recupera 36 de mana.",
+        "[Chuva Torrencial] Aumenta o DAN em 50% e, após o Golpe Crit, recupera 43 de mana.",
+        "[Chuva Torrencial] Aumenta o DAN em 50% e, após o Golpe Crit, recupera 52 de mana.",
+        "[Chuva Torrencial] Aumenta o DAN em 50% e, após o Golpe Crit, recupera 62 de mana.",
+        "[Chuva Torrencial] Aumenta o DAN em 50% e, após o Golpe Crit, recupera 75 de mana."
+      ],
+      "story": "Um anel que foi dado junto ao título de Violeta da Torre dos Sábios. É um artefato da feiticeira Eucaletus, que vivia no Pântano da Sabedoria. O poder que ele revela depende das habilidades do atual dono. Para alguns, pode ser uma fonte ilimitada de mana. É perfeito para Aisha, que usa potentes canhões mágicos."
+    }
+  },
+  "s4": {
+    "name": "Reforço Místico",
+    "description": "Ao realizar um acerto crítico, causa {0} de DAN.M adicional ao inimigo.",
+    "books": {
+      "0": "DAN aumentado em {0}%.",
+      "1": "DAN aumentado em {0}%.",
+      "2": "DAN aumentado em {0}%."
+    },
+    "light": "Aumenta o DAN em 40%.",
+    "dark": "Ignora o Bloqueio inimigo."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / Chance Crít. +100",
+    "dark": "Ao usar cada poder, acumula-se Escuridão. Cada acúmulo reforça a sua regeneração de Mana por segundo em 6% e reforça seu DAN Crít. em 2%. Quantidade máx. de acúmulos: 50."
+  }
+}

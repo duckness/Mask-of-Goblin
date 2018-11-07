@@ -1,0 +1,120 @@
+{
+  "name": "Mirianne",
+  "subtitle": "Zofe der Blauen",
+  "description": "Die Assistentin und Zofe der Erzmagierin 'die Blaue', Sonia. Sie fügt sich ganz den Sonias Wünschen, die ihre Auftraggeberin, Schwester und Freundin ist. Mit ihren scharfen Augen und ihrem noch schärferen Verstand sie ihren Dolch geschickt an den Schwachpunkten des Feindes an.",
+  "story": "Sie ist Sonias Magd und enge Freundin aus dem Waisenhaus. Als ihr Dorf, in dem Menschen und Elfen lebten, von den Dämonen angegriffen wurde, konnte sie als einzige überleben. Ricardo fand sie und nahm sie mit in sein Waisenhaus. Aus unbekannten Gründen begann sie im Alter von sechs Jahren plötzlich explosionsartig zu wachsen. Nun gleicht ihr Körper jenem einer 18-jährigen, doch ihr Verstand ist immer noch der eines Kindes. Sie ist rein und übertrieben fromm. Diese Eigenschaften hängen möglicherweise mit dem Verlust ihrer Kindheitserinnerungen zusammen.",
+  "like": "Sonia und alle anderen im Waisenhaus",
+  "dislike": "Insekten mit vielen Beinen",
+  "inn": {
+    "idle": "Sonia... Hmmm, die scheint sich mal wieder in Luft aufgelöst zu haben.",
+    "recruit": {
+      "greet": "Oh, hallo! Es ist gut, dich wohlauf zu sehen!",
+      "talk": [
+        "Hehe, wie geht es Kasel und Frey?",
+        "Ich möchte Gramps besuchen. Es ist schon eine Weile her.",
+        "Nah, ich bin nicht wirklich eine Magd. Aber ich liebe diese Kleider, hihihi."
+      ],
+      "gift": "Oh, danke! Das wäre doch nicht nötig gewesen..."
+    },
+    "affinity": {
+      "greet": "Ich bin wieder hier! Freut mich, dich zu sehen!",
+      "talk": [
+        "Ich habe einige schöne Kleider mitgebracht! Bitte wähle etwas aus, das mir passen könnte!",
+        "Hehe. Kann ich kommen, um mit Sonia zu spielen?"
+      ],
+      "gift": "Danke! Lass uns beim nächsten Mal gemeinsam Großvater besuchen!"
+    },
+    "relationship": {
+      "greet": "Oh, du bist hierher gekommen! Willst du dich ein wenig ausruhen?",
+      "talk": [
+        "Die Stimmung hier erinnert mich an das Waisenhaus, in dem ich aufgewachsen bin.",
+        "Hast du Hunger? Möchtest du eine Kleinigkeit essen?",
+        "Ich liebe diese Kleider. Sie sind so schön und seidig."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Endlose Beschleunigung, Riventina",
+    "description": [
+      "Erhöht ANG-Geschw. um 200 sowie Attacken auf ausgewählte Ziele. Verursacht 200 % von ANG als zusätzlichen M.Schaden. Zusatzschaden-Effekt tritt nur einmal alle 2 Sek. auf.",
+      "Erhöht ANG-Geschw. um 240 sowie Attacken auf ausgewählte Ziele. Verursacht 240 % von ANG als zusätzlichen M.Schaden. Zusatzschaden-Effekt tritt nur einmal alle 2 Sek. auf.",
+      "Erhöht ANG-Geschw. um 290 sowie Attacken auf ausgewählte Ziele. Verursacht 290 % von ANG als zusätzlichen M.Schaden. Zusatzschaden-Effekt tritt nur einmal alle 2 Sek. auf.",
+      "Erhöht ANG-Geschw. um 350 sowie Attacken auf ausgewählte Ziele. Verursacht 350 % von ANG als zusätzlichen M.Schaden. Zusatzschaden-Effekt tritt nur einmal alle 2 Sek. auf.",
+      "Erhöht ANG-Geschw. um 420 sowie Attacken auf ausgewählte Ziele. Verursacht 420 % von ANG als zusätzlichen M.Schaden. Zusatzschaden-Effekt tritt nur einmal alle 2 Sek. auf.",
+      "Erhöht ANG-Geschw. um 500 sowie Attacken auf ausgewählte Ziele. Verursacht 500 % von ANG als zusätzlichen M.Schaden. Zusatzschaden-Effekt tritt nur einmal alle 2 Sek. auf."
+    ],
+    "story": "Ein magischer Ausrüstungsgegenstand, der von Sonia, der Erzmagierin von Blau erschaffen wurde. Er ist mit Magie verzaubert, die es ihm erlaubt, enorme Geschwindigkeiten zu erreichen. Außerdem ist er mit einem speziellen Zauber ausgestattet, der ihn nach dem Wurf stets in die Hände seines Besitzers zurückkehren lässt. Sonia hätte Mirianne, die wie eine Schwester für sie ist, nicht besser beschenken können. Mit anderen Worten handelt es sich dabei um eine Liebesbekundung, die nur Mirianne gilt."
+  },
+  "s1": {
+    "name": "Zielerfassung",
+    "description": "Greift den Feind mit der niedrigsten M. VERT an und verursacht mit 3 Angriffen insgesamt {0} M. Schaden, sowie 1 Sek. lang Betäubung. Wenn das Ziel unter 'Zielerfassung' steht, erleidet es zusätzlich {1} M. Schaden. Die letzte Attacke versetzt den Gegner für 10 Sek. Zielerfassung kann nicht abgewehrt werden und die M.Blockrate des Ziels ist um 300 verringert.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Ist nur noch 1 Feind auf dem Schlachtfeld, wird der Schaden um 100% erhöht.",
+    "dark": "Erhöht Betäubungsdauer um 1 Sek."
+  },
+  "s2": {
+    "name": "Bändigen und Beschützen",
+    "description": "Verursacht {0} M. Schaden am Ziel und allen Gegnern in Reichweite. Erschafft dann für den Verbündeten mit der niedrigsten K. VERT einen Schild für zwei, der 10 Sek. lang {1} Schaden abhält. Wenn es keinen Verbündeten gibt, wird kein Schild erschaffen. Der beschützte Verbündete und man selbst sind für die Dauer des Schildes gegen CC immun.",
+    "books": {
+      "0": "Erhöht Schaden und Schild-TP um {0}%.",
+      "1": "Erhöht Schaden und Schild-TP um {0}%.",
+      "2": "Erhöht Schaden und Schild-TP um {0}%."
+    },
+    "light": "Immun gegenüber allen Statuseffekten während der Wirkungsdauer.",
+    "dark": "Erhöht Betäubungsdauer um 2 Sek.",
+    "ut": {
+      "name": "Zwillingsring der sofortigen Teleportation",
+      "description": [
+        "[Bändigen und Beschützen] Verringert die Manakosten um 1 und stellt bei einem Krit. Treffer 160 Mana wieder her.",
+        "[Bändigen und Beschützen] Verringert die Manakosten um 1 und stellt bei einem Krit. Treffer 190 Mana wieder her.",
+        "[Bändigen und Beschützen] Verringert die Manakosten um 1 und stellt bei einem Krit. Treffer 230 Mana wieder her.",
+        "[Bändigen und Beschützen] Verringert die Manakosten um 1 und stellt bei einem Krit. Treffer 270 Mana wieder her.",
+        "[Bändigen und Beschützen] Verringert die Manakosten um 1 und stellt bei einem Krit. Treffer 330 Mana wieder her.",
+        "[Bändigen und Beschützen] Verringert die Manakosten um 1 und stellt bei einem Krit. Treffer 400 Mana wieder her."
+      ],
+      "story": "Ring, den Mirianne im „Sehr Unglaublichen Magischen Spielzeugladen“ in Orvel kaufte. Sie gravierte ihren und Sonias Namen in den Ring. Die beiden bilden ein Paar, das es ihnen erlaubt, sich einmal am Tag zum jeweils anderen zu teleportieren. Sonia benutzt ihn jedoch nicht, da dies recht beschwerlich ist ... Der Ring mag zwar nur ein Spielzeug sein, aber Mirianne ist froh, dass es noch eine Möglichkeit gibt, Sonia zu beschützen."
+    }
+  },
+  "s3": {
+    "name": "Auslöschung",
+    "description": "Verursacht {0} M. Schaden am Gegner mit den wenigsten TP und springt zum am weit entferntesten Verbündeten zurück. Falls der Gegner kein Held ist, wird zusätzlich VERT ignorierender M. Schaden in Höhe von {1} verursacht. Besiege ein Ziel mit diesem Skill, löst sofort 'Bändigen und Beschützen' aus.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Entfernt alle positiven Effekte des Ziels und betäubt es für 1 Sek.",
+    "dark": "Erhöht Schaden um 40%.",
+    "ut": {
+      "name": "Magisches Blitzpulver",
+      "description": [
+        "[Auslöschung] Erhöht Schaden um 50% und bei Krit. Treffern ANG 10 Sek. lang um 10%.",
+        "[Auslöschung] Erhöht Schaden um 50% und bei Krit. Treffern ANG 10 Sek. lang um 12%.",
+        "[Auslöschung] Erhöht Schaden um 50% und bei Krit. Treffern ANG 10 Sek. lang um 14%.",
+        "[Auslöschung] Erhöht Schaden um 50% und bei Krit. Treffern ANG 10 Sek. lang um 17%.",
+        "[Auslöschung] Erhöht Schaden um 50% und bei Krit. Treffern ANG 10 Sek. lang um 21%.",
+        "[Auslöschung] Erhöht Schaden um 50% und bei Krit. Treffern ANG 10 Sek. lang um 25%."
+      ],
+      "story": "Eine Sammlung wunderschönen Materials, das im Innern von Sonias Kristallkugel wie Sterne verstreut ist. Mirianne sammelte das Pulver, um einen Streich zu spielen, aber es ist so mächtig, dass es als Mordwerkzeug genutzt wird."
+    }
+  },
+  "s4": {
+    "name": "Ziel ausgelöscht",
+    "description": "Wenn ein Feind unter Zielerfassung steht, ist ANG um {0} erhöht und alle Angriffe priorisieren das ausgewählte Ziel. Stirbt der ausgewählte Feind, wird die Zielerfassung 10 Sek. lang auf einen anderen Feind angewandt.",
+    "books": {
+      "0": "Erhöht ANG um {0}%.",
+      "1": "Erhöht ANG um {0}%.",
+      "2": "Erhöht ANG um {0}%."
+    },
+    "light": "Wenn sich Gegner in 'Zielerfassung' befinden, ist die krit. Trefferchance um 400 erhöht.",
+    "dark": "30% weniger Schaden, wenn sich Gegner in Zielerfassung befindet."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / Krit. Schaden +20%",
+    "dark": "Reduziert beim Töten eines Gegners alle Skill-Cooldowns um 50% und gibt 1 Manakugel zurück."
+  }
+}

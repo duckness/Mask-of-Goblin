@@ -1,0 +1,120 @@
+{
+  "name": "Mitra",
+  "subtitle": "The Silver Battle Wolf",
+  "description": "He is also called the Song of Silver Madness. A tactless man to the point of surprise, without any sense of responsibility. However, once the battle begins, he becomes an untouchable Silver Wolf, churning the battlefield into a zone of carnage.",
+  "story": "Known to some as the Song of the Silver Madness, he is incredibly insincere in everything he does. He shows absolutely no sense of responsibility in regard to those around him. Once he engages in a combat, though, he turns into an untouchable silver wolf that storms across the battlefield. Nothing is known about his past. One thing is certain: he does not distinguish between friend and foe once the madness of battle takes over him. Staying near him when he's in this state may be far more dangerous than holding onto a ticking time bomb.",
+  "like": "Battle, exciting fights, the smell of gunpowder",
+  "dislike": "Pretensions Hypocrisy",
+  "inn": {
+    "idle": "Haah....I just wanna go take a nap.",
+    "recruit": {
+      "greet": "Yo~",
+      "talk": [
+        "Hey, did a fight happen somewhere?",
+        "Bleh, I don't wanna do anything right now.",
+        "Sometimes, I just wanna let loose."
+      ],
+      "gift": "Whoa?! This is amazing!"
+    },
+    "affinity": {
+      "greet": "Oh, it's a great day for shooting.",
+      "talk": [
+        "Things were good back then. That old guy may be strict, but he sure takes good care of his men. So when he left the army... I quit, too! Hahaha!",
+        "Oh, I wonder what the old man is doing."
+      ],
+      "gift": "Oh, thank you."
+    },
+    "relationship": {
+      "greet": "Oh, you're still alive! Hahaha!",
+      "talk": [
+        "These guns of mine make me feel good. They're also kind of messed up...like me!",
+        "Kahaha! You know, these bastards whisper to me sometimes, eh. Pull the trigger, pull it, pull it~!!! Or so they say~",
+        "There's apparently a scary bounty hunter and former Imperial Navy on your tail. What does that feel like, eh? Hehehe..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Roar of Madness, Velkinoth",
+    "description": [
+      "Each auto attack increases Penetration and ATK Spd by 8. Can be stacked up to 30 times max.",
+      "Each auto attack increases Penetration and ATK Spd by 10. Can be stacked up to 30 times max.",
+      "Each auto attack increases Penetration and ATK Spd by 12. Can be stacked up to 30 times max.",
+      "Each auto attack increases Penetration and ATK Spd by 14. Can be stacked up to 30 times max.",
+      "Each auto attack increases Penetration and ATK Spd by 17. Can be stacked up to 30 times max.",
+      "Each auto attack increases Penetration and ATK Spd by 20. Can be stacked up to 30 times max."
+    ],
+    "story": "A pair of magical weapons that absorb the bloodlust of their user to enhance their own firepower. Each pull of their triggers pushes the user deeper and deeper into the craze of the battle. It is said that when a master craftsman creates a weapon, it develops a soul. Berkinos seem to have the soul of the war god. According to the story, when their creator pulled their triggers for the first time, he suddenly turned pale with terror and threw them into a river."
+  },
+  "s1": {
+    "name": "Bang! Bang!!",
+    "description": "Attacks an enemy 2 times, dealing {0} P.DMG each. Upon Crit Hit, an explosion occurs, dealing {1} extra P.DMG to enemies in range.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "DMG is increased by 100% when there is 1 enemy.",
+    "dark": "Mark stacks 2 times."
+  },
+  "s2": {
+    "name": "Time to Die!!",
+    "description": "For 20 sec, ATK is increased by {0} , and ACC is increased by {1}. Each auto attack has a 15% chance of activating 'Bang! Bang!!'.",
+    "books": {
+      "0": "ATK boost is increased by {0}%.",
+      "1": "ATK boost is increased by {0}%.",
+      "2": "ATK boost is increased by {0}%."
+    },
+    "light": "Takes 20% more DMG from all sources in exchange for an extra 100% in ATK increase.",
+    "dark": "Bang! Bang! chance is increased by 10%.",
+    "ut": {
+      "name": "Wolf's Barrage Box",
+      "description": [
+        "[Time to Die!] Increases Crit DMG by 20% for the skill's duration. HP cannot be reduced below 10% for 3 sec.",
+        "[Time to Die!] Increases Crit DMG by 24% for the skill's duration. HP cannot be reduced below 10% for 3 sec.",
+        "[Time to Die!] Increases Crit DMG by 29% for the skill's duration. HP cannot be reduced below 10% for 3 sec.",
+        "[Time to Die!] Increases Crit DMG by 35% for the skill's duration. HP cannot be reduced below 10% for 3 sec.",
+        "[Time to Die!] Increases Crit DMG by 42% for the skill's duration. HP cannot be reduced below 10% for 3 sec.",
+        "[Time to Die!] Increases Crit DMG by 50% for the skill's duration. HP cannot be reduced below 10% for 3 sec."
+      ],
+      "story": "Steel Wolf's special barrage box. The Steel Wolves were infamous for being too violent and making it impossible to revitalize their enemies. The most infamous Silver Wolf only uses the maximized Wolf Barrage Box that he got from the owner of the Gold Bar."
+    }
+  },
+  "s3": {
+    "name": "Dance with me!!",
+    "description": "Sprays gunshot at a random enemy 12 times, dealing a total of {0} P.DMG. Each damage inflicts 1 stack of Mark of Death that cannot be dispelled. Per every stacked Mark of Death, 'Dance with me!!' DMG is increased by 1%.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "DMG is increased by 40%.",
+    "dark": "Stacks 2 more mark per hit.",
+    "ut": {
+      "name": "Wolfhead Mercenary Insignia",
+      "description": [
+        "[Dance with me!!] DMG is increased by 20% and per every activation, skill cooldown is reduced by 5%. This effect can be stacked max 8 times.",
+        "[Dance with me!!] DMG is increased by 24% and per every activation, skill cooldown is reduced by 5%. This effect can be stacked max 8 times.",
+        "[Dance with me!!] DMG is increased by 29% and per every activation, skill cooldown is reduced by 5%. This effect can be stacked max 8 times.",
+        "[Dance with me!!] DMG is increased by 35% and per every activation, skill cooldown is reduced by 5%. This effect can be stacked max 8 times.",
+        "[Dance with me!!] DMG is increased by 42% and per every activation, skill cooldown is reduced by 5%. This effect can be stacked max 8 times.",
+        "[Dance with me!!] DMG is increased by 50% and per every activation, skill cooldown is reduced by 5%. This effect can be stacked max 8 times."
+      ],
+      "story": "Rune of the greatest mercenaries, the Steel Wolves. A rune that symbolizes the mercenary Steel Wolves, who were called the demons of the battlefield. Mitra was called the Silver Wolf of the battlefield. Even after he's left the mercenaries, he carries it in remembrance of the battle against the naval officer of the empire."
+    }
+  },
+  "s4": {
+    "name": "You're Next!!",
+    "description": "Each auto attack inflicts a Mark of Death to enemies that cannot be dispelled. When auto attack and 'Bang! Bang!!' hits the target, deals {0} extra P.DMG. Per every stack, skill DMG is increased by 2%. Can be stacked up to 100 times max.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Mark maximum is changed to 200.",
+    "dark": "All cooldowns are reduced by 0.3 when hitting a target with 100 stacks."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / Crit DMG +20%",
+    "dark": "Upon a Crit Hit, increase Crit DMG by 0.5% and Atk Spd by 5. Max stack number is 100."
+  }
+}

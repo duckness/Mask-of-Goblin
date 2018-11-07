@@ -1,0 +1,120 @@
+{
+  "name": "Crow",
+  "subtitle": "La balle terrassante",
+  "description": "Cet ancien officier de marine s'est reconverti en chasseur de primes et tueur à gages. D'un cynisme vertigineux, il n'accorde pas sa confiance facilement et sait manipuler trois types d'armes à feu.",
+  "story": "Nom de code : chien de chasse. Ce chasseur de primes est surnommé Cerbère. L'on raconte que nul ne peut échapper à cet ancien officier de la marine impériale une fois qu'il a verrouillé sa cible. La seule chose qui peut consoler les criminels, c'est qu'il n'est pas motivé uniquement par les primes. Tandis que les théories à son sujet font légion, la plus convaincante d'entre elles évoque une revanche. D'après certains, le cœur de cet homme sans pitié semble parfois se réchauffer. Cela survient lorsqu'il sort de sa poche un vieux pendentif que personne n'a jamais vraiment vu.",
+  "like": "Sucre d'orge, pendentif de conservation d'un souvenir, les réflexions oubliées d'un être cher",
+  "dislike": "Pirates, les dieux qui lui ont tout pris. Et maintenant, son tabac",
+  "inn": {
+    "idle": "Ne vous mettez pas en travers de mon chemin.",
+    "recruit": {
+      "greet": "Quelles affaires avez-vous avec moi?",
+      "talk": [
+        "Je prendrai seulement 1 travail. Réfléchissez bien avant de parler.",
+        "C'est difficile de trouver des munitions par-ici...",
+        "Ce n'est pas une cigarette, c'est seulement un bonbon."
+      ],
+      "gift": "Hum, avec cet argent, je peux acheter de nouvelles cig... non, j'aurais seulement plus de bonbons."
+    },
+    "affinity": {
+      "greet": "Pourquoi m'avez-vous appelé ? De quoi avez-vous besoin ?",
+      "talk": [
+        "C'était une sacrée prise de tête, même sous mon commandement. Mais je ne crois pas qu'il ferait une chose pareille. C'est pourquoi j'ai accepté cette offre.",
+        "Bien entendu, les autres ne supportaient plus sa folie, c'est pour cela que j'ai pris les commandes."
+      ],
+      "gift": "Donnez-moi des bonbons."
+    },
+    "relationship": {
+      "greet": "Quelle affaire... ah, c'est vous.",
+      "talk": [
+        "Orvel est un bel endroit. Même l'air est différent de celui de l'Empire.",
+        "J'ai pensé que, dans la Marine, je serai en mer toute ma vie. Rétrospectivement, partir en mer a été la pire décision.",
+        "Il y avait deux personnes qui m'étaient chères, je ne peux plus les voir... mais oui, ahah... Elles détestaient toutes les deux la fumée de cigarette."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Akistra, chien de l'enfer",
+    "description": [
+      "L'attaque normale tire une balle supplémentaire qui inflige 50 % de l'ATQ sous forme de DEG P. À la fin de la compétence, Akistra, chien de l'enfer, est activé, ce qui augmente l'ATQ et les DEG Crit de 30 % pendant 20 s. Akistra, chien de l'enfer ne peut être activé qu'une fois toutes les 20 s.",
+      "L'attaque normale tire une balle supplémentaire qui inflige 60 % de l'ATQ sous forme de DEG P. À la fin de la compétence, Akistra, chien de l'enfer, est activé, ce qui augmente l'ATQ et les DEG Crit de 36 % pendant 20 s. Akistra, chien de l'enfer ne peut être activé qu'une fois toutes les 20 s.",
+      "L'attaque normale tire une balle supplémentaire qui inflige 70 % de l'ATQ sous forme de DEG P. À la fin de la compétence, Akistra, chien de l'enfer, est activé, ce qui augmente l'ATQ et les DEG Crit de 43 % pendant 20 s. Akistra, chien de l'enfer ne peut être activé qu'une fois toutes les 20 s.",
+      "L'attaque normale tire une balle supplémentaire qui inflige 85 % de l'ATQ sous forme de DEG P. À la fin de la compétence, Akistra, chien de l'enfer, est activé, ce qui augmente l'ATQ et les DEG Crit de 52 % pendant 20 s. Akistra, chien de l'enfer ne peut être activé qu'une fois toutes les 20 s.",
+      "L'attaque normale tire une balle supplémentaire qui inflige 100 % de l'ATQ sous forme de DEG P. À la fin de la compétence, Akistra, chien de l'enfer, est activé, ce qui augmente l'ATQ et les DEG Crit de 62 % pendant 20 s. Akistra, chien de l'enfer ne peut être activé qu'une fois toutes les 20 s.",
+      "L'attaque normale tire une balle supplémentaire qui inflige 125 % de l'ATQ sous forme de DEG P. À la fin de la compétence, Akistra, chien de l'enfer, est activé, ce qui augmente l'ATQ et les DEG Crit de 75 % pendant 20 s. Akistra, chien de l'enfer ne peut être activé qu'une fois toutes les 20 s."
+    ],
+    "story": "Il s'agit sans aucun doute de la pointe de la technomagie impériale. Cet objet se décline en trois modes, dont l'un d'entre eux fait appel à une magie si dévastatrice que son utilisation est réglementée. D'après Valance, le chef de Magos Le'Flamme, l'organisation impériale dédiée au développement des armes, Archistra, la toute dernière, a été volée aussitôt après sa production par Crow, un ancien officier de la marine renvoyé de manière indigne. Il reste toutefois à savoir comment Crow aurait réussi à infiltrer l'une des organisations capitales de l'empire pour dérober Archistra... On pourrait aussi soupçonner Valance de lui avoir tout simplement remis l'arme, étant donné qu'ils sont amis de longue date."
+  },
+  "s1": {
+    "name": "La cible sera éliminée.",
+    "description": "Inflige un total de {0}  points de DEG P sur 15 coups aux ennemis situés en face, et appose 2 Crocs du chien de chasse pendant 40 sec. 100 Crocs du chien de chasse peuvent être cumulés au maximum.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Pour chaque point de DEG infligé, 30 Mana sont récupérés.",
+    "dark": "Immunise contre les sorts de Contrôle."
+  },
+  "s2": {
+    "name": "Lutter n'a aucun sens.",
+    "description": "Inflige {0}  points de DEG P en attaquant 10 fois un ennemi temporaire, puis tire une balle de givre qui inflige {1}  points de DEG P aux ennemis alentour et les gèle pendant 4 s. La balle de givre spéciale génère une zone de gel qui dure 6 s et inflige {2}  points de DEG P toutes les 2 s, avec 50 % de chances de geler les ennemis pendant 2 s.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Le Temps de Recharge est réduit de 3 sec.",
+    "dark": "La zone de gel a 30 % de chances de plus de geler les ennemis.",
+    "ut": {
+      "name": "Déluge glacé",
+      "description": [
+        "[Toute résistance est futile] Réduit le coût en mana de 1 point et, à chaque frappe, a 10 % de chances de geler la cible pendant 3 sec.",
+        "[Toute résistance est futile] Réduit le coût en mana de 1 point et, à chaque frappe, a 12 % de chances de geler la cible pendant 3 sec.",
+        "[Toute résistance est futile] Réduit le coût en mana de 1 point et, à chaque frappe, a 14 % de chances de geler la cible pendant 3 sec.",
+        "[Toute résistance est futile] Réduit le coût en mana de 1 point et, à chaque frappe, a 17 % de chances de geler la cible pendant 3 sec.",
+        "[Toute résistance est futile] Réduit le coût en mana de 1 point et, à chaque frappe, a 21 % de chances de geler la cible pendant 3 sec.",
+        "[Toute résistance est futile] Réduit le coût en mana de 1 point et, à chaque frappe, a 25 % de chances de geler la cible pendant 3 sec."
+      ],
+      "story": "Magos Le’Flamme, l’organisation impériale dédiée au développement des armes, vient d’améliorer le missile Frisson terrestre. Elle en a équipé Akistra, la toute nouvelle arme, mais Crow l’a dérobée et a donc emporté le missile en même temps. Ce dernier contient un froid si intense qu’il peut geler le sol autour de lui."
+    }
+  },
+  "s3": {
+    "name": "Même les Dieux mourront.",
+    "description": "Prend position et se concentre pour tirer un laser qui inflige {0} points de DEG P. frontalement aux ennemis à portée et consomme Marque du Chien de Chasse sur la cible pour infliger {1} points de DEG P. supplémentaires pour chaque charge. La portée de l'effet augmente en fonction du temps de concentration et les DEG augmentent jusqu'à un maximum de {2}%. Une fois la concentration terminée, l'ennemi est repoussé sur une longue distance.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Augmente le temps de recharge de 10 s et les DEG de 100 %.",
+    "dark": "Réduit le coût en mana de 1.",
+    "ut": {
+      "name": "Pendentif mémoriel",
+      "description": [
+        "[Même les Dieux mourront] Donne l'immunité aux Contrôles pendant l'activation de la compétence et augmente les DEG de 20%.",
+        "[Même les Dieux mourront] Donne l'immunité aux Contrôles pendant l'activation de la compétence et augmente les DEG de 24%.",
+        "[Même les Dieux mourront] Donne l'immunité aux Contrôles pendant l'activation de la compétence et augmente les DEG de 29%.",
+        "[Même les Dieux mourront] Donne l'immunité aux Contrôles pendant l'activation de la compétence et augmente les DEG de 35%.",
+        "[Même les Dieux mourront] Donne l'immunité aux Contrôles pendant l'activation de la compétence et augmente les DEG de 42%.",
+        "[Même les Dieux mourront] Donne l'immunité aux Contrôles pendant l'activation de la compétence et augmente les DEG de 50%."
+      ],
+      "story": "Précieux pendentif renfermant le portrait de feues la femme et la fille de Crow. Il le contemple souvent d’un air calme et triste pendant qu’il suce un bonbon. Il tient à ce pendentif plus qu’à sa propre vie, alors mieux vaut ne pas y toucher. Vous pourriez bien être un dieu que vous le paieriez quand même de votre vie."
+    }
+  },
+  "s4": {
+    "name": "Préparation à la Chasse",
+    "description": "Crow n'est pas concerné par les variations de la Vit ATQ. L'ATQ augmente de {0} et les DEG Crit de {1}  %. Récupère {2}  PM chaque seconde. Les attaques normales apposent également le Croc du chien de chasse à la cible pendant 40 s.",
+    "books": {
+      "0": "Le taux d'augmentation d'ATQ est augmenté de {0}%.",
+      "1": "Le taux d'augmentation d'ATQ est augmenté de {0}%.",
+      "2": "Le taux d'augmentation d'ATQ est augmenté de {0}%."
+    },
+    "light": "Le Monstre-Boss reçoit de DEG augmentés de 15%.",
+    "dark": "La récupération de mana augmente de 40 %."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / DEG Crit +20%",
+    "dark": "Augmente le coût en mana de toutes les compétences de 1 et les DEG de 75 %."
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Clause",
+  "subtitle": "Caballero Defensa de Hierro",
+  "description": "El 'hermano mayor' de Kasel. Un verdadero caballero, es un hombre de acero que protege aliados en el frente del campo de batalla. El bloquea los ataques de los enemigos mientras los derriba, ganándose la reputacion de muro de castillo.",
+  "story": "Este hombre correcto y justo protege a Orvel como uno de sus caballeros. Mucha gente lo considera un defensor confiable de Orvel, pero debido a su falta de interés en la riqueza y el éxito, su rango actual dentro de la orden nunca ha sido muy alto. Creció junto a Kasel y a Frey en el mismo orfanato, y ama a su tierra como el hogar de todo lo que es preciado para él. Recientemente se ofreció como voluntario para unirse a la expedición a investigar las Llanuras del Rey.",
+  "like": "Su nueva familia",
+  "dislike": "Provocar daño a los amigos",
+  "inn": {
+    "idle": "Jajaja! Todas estas caras familiares!",
+    "recruit": {
+      "greet": "Oh, ahí estás! Cómo estás?",
+      "talk": [
+        "Qué te parece postularse para los Caballeros Guardianes?",
+        "Te ves tan confiable como siempre.",
+        "A veces, siento como si el protector bucal de mi casco estuviera tratando de sofocarme. Jajaja!!"
+      ],
+      "gift": "Normalmente, no lo acepto, pero esta vez lo haré debido a tu sinceridad."
+    },
+    "affinity": {
+      "greet": "¡Ja, ja! Los Caballeros guardianes también necesitan descansar. Ven, siéntate aquí.",
+      "talk": [
+        "No esperaba que Kasel se volviera tan fuerte. Se la pasaba llorando y me seguía a todas partes... Y ahora, es el amo de la Espada Sagrada, ja, ja.",
+        "¿Estoy celoso de Kasel? ¡De ninguna manera! Es mi hermano, y estoy orgulloso de él."
+      ],
+      "gift": "Me siento halagado por todo esto. Tendré que esforzarme aún más."
+    },
+    "relationship": {
+      "greet": "Jajaja, es bueno verte de nuevo!",
+      "talk": [
+        "Mi justicia no es realmente algo demasiado elegante. Es solo una creencia de la que nunca me avergonzaré",
+        "Una posición de alto rango no significa que hago de todo. A veces puedes quedarte encerrado en el castillo con todo el papeleo.",
+        "Sé que necesito ayudar a esa persona, pero en este momento, hay cosas más importantes: las personas que sufren en toda Orvelia."
+      ]
+    }
+  },
+  "uw": {
+    "name": "El Guardián, Exian",
+    "description": [
+      "Cuando la Salud se reduce a menos del 35% del máximo , aumenta la Reduccion de Daño Fis. En todos los aliados en 200. También, obtienes un ATQ igual al 100% de la DEF Fis., e inmunidad a los efectos.",
+      "Cuando la Salud se reduce a menos del 35% del máximo , aumenta la Reduccion de Daño Fis. En todos los aliados en 240. También, obtienes un ATQ igual al 120% de la DEF Fis., e inmunidad a los efectos.",
+      "Cuando la Salud se reduce a menos del 35% del máximo , aumenta la Reduccion de Daño Fis. En todos los aliados en 280. También, obtienes un ATQ igual al 144% de la DEF Fis., e inmunidad a los efectos.",
+      "Cuando la Salud se reduce a menos del 35% del máximo , aumenta la Reduccion de Daño Fis. En todos los aliados en 340. También, obtienes un ATQ igual al 173% de la DEF Fis., e inmunidad a los efectos.",
+      "Cuando la Salud se reduce a menos del 35% del máximo , aumenta la Reduccion de Daño Fis. En todos los aliados en 410. También, obtienes un ATQ igual al 207% de la DEF Fis., e inmunidad a los efectos.",
+      "Cuando la Salud se reduce a menos del 35% del máximo , aumenta la Reduccion de Daño Fis. En todos los aliados en 500. También, obtienes un ATQ igual al 250% de la DEF Fis., e inmunidad a los efectos."
+    ],
+    "story": "Una espada y escudo gravados con varias runas e infundidas con magia ancestral. Se dice que un dragón ancestral llamado Exian creó estos elementos legendarios hace eras, utilizando sus propias escalas. Como uno de los tesoros reales de Orvel, la espada se otorga solamente al caballero con los principios más honorables. Su portador será el defensor del reino y de su gente, y el protector de la vida."
+  },
+  "s1": {
+    "name": "Corte de Suelo",
+    "description": "Causa {0}  Daño Magico a los enemigos al alcance, aturdiendolos por  {1}  segundos.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Aumenta la duración del aturdimiento por  {0}  seg."
+    },
+    "light": "El tiempo de reutilización se reduce en 2 segundos.",
+    "dark": "A cambio de 1 Maná adicional, la habilidad tiene un 100% de probabilidad de atraer al objetivo."
+  },
+  "s2": {
+    "name": "Golpe de Escudo",
+    "description": "Causa {0} Daño Fis. basado en DEF Fis. a los enemigos al alcance y derribalos. Los enemigos golpeados tienen su DEF reducida en un {1}%. Al bloquear un ataque, el tiempo de reutilización se reduce en 0,5 segundos.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Disminuye la velocidad del objetivo en {0}%."
+    },
+    "light": "El objetivo recibe 25% de aumento de Daño Fis durante 10 seg.",
+    "dark": "Atude al enemigo durante 1 seg.",
+    "ut": {
+      "name": "Determinación firme",
+      "description": [
+        "[Golpe de escudo] Reduce la Resistencia al golpe crítico físico del enemigo afectado en 500 y la Probabilidad de crítico en 100 durante 10 segundos.",
+        "[Golpe de escudo] Reduce la Resistencia al golpe crítico físico del enemigo afectado en 500 y la Probabilidad de crítico en 120 durante 10 segundos.",
+        "[Golpe de escudo] Reduce la Resistencia al golpe crítico físico del enemigo afectado en 500 y la Probabilidad de crítico en 140 durante 10 segundos.",
+        "[Golpe de escudo] Reduce la Resistencia al golpe crítico físico del enemigo afectado en 500 y la Probabilidad de crítico en 170 durante 10 segundos.",
+        "[Golpe de escudo] Reduce la Resistencia al golpe crítico físico del enemigo afectado en 500 y la Probabilidad de crítico en 210 durante 10 segundos.",
+        "[Golpe de escudo] Reduce la Resistencia al golpe crítico físico del enemigo afectado en 500 y la Probabilidad de crítico en 250 durante 10 segundos."
+      ],
+      "story": "Viejo escudo de madera del caballero del Muro de hierro. Es un escudo precioso que Clause utilizó cuando comenzó a entrenar. Desde entonces gravó los nombres de sus camaradas difuntos para recordar su determinación como un caballero guardián. Cada vez que aparta a los enemigos con el escudo, la firme determinación del caballero le ayuda a acceder a un poder superior a sus límites."
+    }
+  },
+  "s3": {
+    "name": "Escudo Guardian",
+    "description": "Aumenta la DEF Fis. de todos los aliados en  {1}  por  {0}  seg. Además, reduce la posibilidad de ser golpeado críticamente en  {2}%.",
+    "books": {
+      "0": "la tasa de aumento de DEF Fis. Se eleva en {0}%.",
+      "1": "la tasa de aumento de DEF Fis. Se eleva en {0}%.",
+      "2": "la tasa de aumento de DEF Fis. Se eleva en {0}%."
+    },
+    "light": "La tasa de aumento de DEF se incrementa en un 40%.",
+    "dark": "Recibe un 25% de Daño Fis reducido durante el proceso",
+    "ut": {
+      "name": "Runa de los caballeros",
+      "description": [
+        "[Escudo Guardián] Al activarse, elimina los efectos negativos propios, y la DEF aumenta en un 20%.",
+        "[Escudo Guardián] Al activarse, elimina los efectos negativos propios, y la DEF aumenta en un 24%.",
+        "[Escudo Guardián] Al activarse, elimina los efectos negativos propios, y la DEF aumenta en un 29%.",
+        "[Escudo Guardián] Al activarse, elimina los efectos negativos propios, y la DEF aumenta en un 35%.",
+        "[Escudo Guardián] Al activarse, elimina los efectos negativos propios, y la DEF aumenta en un 42%.",
+        "[Escudo Guardián] Al activarse, elimina los efectos negativos propios, y la DEF aumenta en un 50%."
+      ],
+      "story": "Runa de los caballeros guardianes de Orvel. Una runa de león de oro que se entrega a los caballeros cuando se unen por primera vez a los caballeros guardianes, junto con la promesa de que darán sus vidas para proteger al reino. La runa de los caballeros guardianes respalda la voluntad de hierro y lealtad del caballero, aumentando la efectividad del escudo guardián."
+    }
+  },
+  "s4": {
+    "name": "Voto de Caballeros",
+    "description": "Con el bloqueo, causa {0} de Daño físico a los enemigos frontales y disminuye el Ataque de los enemigos afectados en un {2}% durante {1} segundo(s). Recupera 300 PM después de atacar al objetivo.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "El tiempo de lanzamiento esta altamente potenciado.",
+    "dark": "Reduce un 10% adicional del ATQ."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Bloq Fis +200",
+    "dark": "Cuando un aliado que no sea este héroe es golpeado en un ataque, aumenta la DEF Fis de todos los aliados en un 20% y la Resistencia Fis Crit en un 20%. (10 segundos de reutilizacion)"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Ophelia",
+  "subtitle": "Desbravadora do Destino,",
+  "description": "Uma astróloga das Estrelas, uma trupe que vaga pelo continente. Em vez de sair em peregrinação como mentro do círculo das bruxas, busca pela alma gêmea que ela encontrou em seus sonhos. Controla as cartas de tarô que flutuam ao seu redor para atacar os inimigos à distância.",
+  "story": "Uma astróloga que viaja com uma trupe errante chamada 'Estrelas'. Como membro da Associação das Bruxas, ela deveria residir num local determinado e ler o fluxo do destino como parte do seu exercício. No entanto, ela atualmente está viajando em busca de um homem com um destino em particular que conheceu num sonho. Ela acredita que o homem do seu sonho clarividente está destinado a se tornar o salvador do mundo. Sua atual prioridade é encontrar o homem, e então ficar ao seu lado. Se lhe perguntarem sobre o seu segundo objetivo... ela fica vermelha e perde todos os vestígios da sua normal tranquilidade ao falar sobre o seu futuro com o homem do destino.",
+  "like": "Histórias românticas",
+  "dislike": "Insetos voadores",
+  "inn": {
+    "idle": "Quero mostrar a vocês os sussurros das estrelas.",
+    "recruit": {
+      "greet": "Eu sou a Bruxa chamada Ophelia.",
+      "talk": [
+        "Eu consigo ver nos seus olhos também... o caminho das estrelas.",
+        "Eu olho em seus olhos e vejo...",
+        "Você já ouviu os sussurros das estrelas?"
+      ],
+      "gift": "Obrigado! Como agradecimento, eu contarei um pouco mais sobre o seu destino..."
+    },
+    "affinity": {
+      "greet": "Prazer em conhecer você!",
+      "talk": [
+        "Aprendi a embaralhar cartas com um bom amigo meu.",
+        "Adoro dar umas risadas com as pessoas todo dia."
+      ],
+      "gift": "Como retribuição, vou ler a sua sorte."
+    },
+    "relationship": {
+      "greet": "Você quer saber do seu futuro? Se quiser, sente-se aqui!",
+      "talk": [
+        "Esta criança é muito importante para mim. Ah, cuidado! Você pode se queimar!",
+        "Eu não me sinto mal por desviar do caminho da minha peregrinação. Eu ainda sou uma bruxa, e me orgulho da minha profissão.",
+        "Ah! Essa carta diz que o meu parceiro leal está perto! Muito perto... ah, talvez...?"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Cartas do Destino de Arcana",
+    "description": [
+      "Após o ataque, há 77,7% de chance de aumentar a Vel de ATQ em 20 por 7 segundos, e a recuperação de mana por segundo aumentar em 10%. Esse efeito pode ser acumulado no máximo em 15 vezes.",
+      "Após o ataque, há 77,7% de chance de aumentar a Vel de ATQ em 24 por 7 segundos, e a recuperação de mana por segundo aumentar em 12%. Esse efeito pode ser acumulado no máximo em 15 vezes.",
+      "Após o ataque, há 77,7% de chance de aumentar a Vel de ATQ em 29 por 7 segundos, e a recuperação de mana por segundo aumentar em 14%. Esse efeito pode ser acumulado no máximo em 15 vezes.",
+      "Após o ataque, há 77,7% de chance de aumentar a Vel de ATQ em 35 por 7 segundos, e a recuperação de mana por segundo aumentar em 17%. Esse efeito pode ser acumulado no máximo em 15 vezes.",
+      "Após o ataque, há 77,7% de chance de aumentar a Vel de ATQ em 42 por 7 segundos, e a recuperação de mana por segundo aumentar em 21%. Esse efeito pode ser acumulado no máximo em 15 vezes.",
+      "Após o ataque, há 77,7% de chance de aumentar a Vel de ATQ em 50 por 7 segundos, e a recuperação de mana por segundo aumentar em 25%. Esse efeito pode ser acumulado no máximo em 15 vezes."
+    ],
+    "story": "Para as bruxas, ler cartas de tarô é um método comum de ler a sorte. Algumas usam cartas personalizadas de acordo com seus os estilos pessoais. As cartas de Ophelia são prova dos pactos entre ela e as criaturas que ela evoca. Sendo bem popular como uma guia do destino entre as entidades das misteriosas dimensões, ela fez pactos com inúmeras criaturas. Del Arcana, um poderoso baralho de tarô minuciosamente montado por Ophelia, é a prova física dessas relações."
+  },
+  "s1": {
+    "name": "Carta da Morte - Carta",
+    "description": "Ataca o inimigo, causando {0} de DAN.M e infligindo Atordoamento por {1} segundos. Consome a carta em sua posse para infligir efeitos adicionais. Ao usar o poder, ganha a carta de [Morte]. [Morte] - o DAN ignora a DEF do alvo e a duração do Atordoamento aumenta em 5 segundo. [Amor] - Causa um total de {2} de DAN.M ao longo do tempo por 10 segundos e reduz a taxa de cura em 100%. [Fortuna] - A recarga do Poder não tem efeito.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "DAN aumenta em {0}%."
+    },
+    "light": "Durante 10 segundos, o alvo recebe 25% de DAN.M aumentado.",
+    "dark": "O custo de mana será reduzido em 1."
+  },
+  "s2": {
+    "name": "Carta do Amor - Elliciad",
+    "description": "Aumenta o ATQ em {1} por {0} seg. e a Recuperação de Mana/Seg. em {2}%. Consome uma carta em sua posse para ganhar um efeito adicional segundo o tipo de carta. Ganha a carta [Amor] após o uso. [Morte] - Penetração de DEF aumenta em 600 durante a habilidade, e concede imunidade a CM por 6 segundos. [Amor] - O efeito se aplica a todos os aliados. [Sorte] - Recarga não se aplica.",
+    "books": {
+      "0": "Aumento de ATQ reforçado em {0}%.",
+      "1": "Aumento de ATQ reforçado em {0}%.",
+      "2": "Aumento de ATQ reforçado em {0}%."
+    },
+    "light": "Recupera a mana do alvo em 1000.",
+    "dark": "O reforço de ATQ aumenta em 40%.",
+    "ut": {
+      "name": "Coração de Elliciad",
+      "description": [
+        "[Carta do Amor - Elliciad] Remove Efeitos Negativos do alvo e todos os tempos de recarga são reduzidos em 6%.",
+        "[Carta do Amor - Elliciad] Remove Efeitos Negativos do alvo e todos os tempos de recarga são reduzidos em 7,2%.",
+        "[Carta do Amor - Elliciad] Remove Efeitos Negativos do alvo e todos os tempos de recarga são reduzidos em 8,6%.",
+        "[Carta do Amor - Elliciad] Remove Efeitos Negativos do alvo e todos os tempos de recarga são reduzidos em 10,4%.",
+        "[Carta do Amor - Elliciad] Remove Efeitos Negativos do alvo e todos os tempos de recarga são reduzidos em 12,5%.",
+        "[Carta do Amor - Elliciad] Remove Efeitos Negativos do alvo e todos os tempos de recarga são reduzidos em 15%."
+      ],
+      "story": "Espírito do amor, coração de Elliciad. Se alimenta tanto de amores correspondidos quanto dos que não são, de forma que pode ser quente como lava ou frio como gelo. O poder que emana depende do quão contaminada a alma está, de forma que manifesta uma vasta luz de bênção para os que têm alma pura."
+    }
+  },
+  "s3": {
+    "name": "Carta da Fortuna - Vellekia",
+    "description": "Ataca o alvo e os inimigos perto dele para causar {0} de DAN M. Não é possível errar este ataque, e ele causa 100% de Dano Crítico aumentado. Ganha a carta [Sorte] após o uso. [Morte] - Aumenta o Dano Crítico em 120%. [Amor] - Remove todos os efeitos positivos dos inimigos dentro do alcance e silencia-os por 2 segundos. [Sorte] - Recarga não se aplica. Recupera 1 orbe de Mana.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "DAN aumenta em {0}%."
+    },
+    "light": "O custo de mana aumenta em 1 orbe, mas o DAN é reforçado em 100%.",
+    "dark": "Sempre inflige um Golpe Crit.",
+    "ut": {
+      "name": "Moeda da Fortuna",
+      "description": [
+        "[Carta de Fortuna - Vellekia] Reduz o custo de mana em 1 e aumenta o DAN em 20%.",
+        "[Carta de Fortuna - Vellekia] Reduz o custo de mana em 1 e aumenta o DAN em 24%.",
+        "[Carta de Fortuna - Vellekia] Reduz o custo de mana em 1 e aumenta o DAN em 29%.",
+        "[Carta de Fortuna - Vellekia] Reduz o custo de mana em 1 e aumenta o DAN em 35%.",
+        "[Carta de Fortuna - Vellekia] Reduz o custo de mana em 1 e aumenta o DAN em 42%.",
+        "[Carta de Fortuna - Vellekia] Reduz o custo de mana em 1 e aumenta o DAN em 50%."
+      ],
+      "story": "A lendária moeda que dizem ter mudado o curso da roda da fortuna, que seguia rumo à destruição. Ophelia acredita que ela foi jogada pelo espírito da sorte, Vellekia."
+    }
+  },
+  "s4": {
+    "name": "Desbravadora do Destino",
+    "description": "O ATQ de todos os aliados aumenta em {0} , e a Chance de Crit aumenta em 100. Ganha efeito adicional de acordo com a carta em sua posse. [Morte] - o ATQ aumenta em {2}%, [Amor] - Para cada segundo, cura {3}% do PV máx. [Fortuna] - a Chance de Esquiva.M aumenta em 200.",
+    "books": {
+      "0": "O reforço de ATQ de todos os aliados aumenta em {0}%.",
+      "1": "O reforço de ATQ de todos os aliados aumenta em {0}%.",
+      "2": "O reforço de Chance de Crit de todos os aliados aumenta em {0}."
+    },
+    "light": "No início de cada batalha, ganha a carta de [Morte]. Essa carta não tem o efetio de Reforço de DAN.",
+    "dark": "No início de cada batalha, ganha a carta de [Amor]. Essa carta não tem o efetio de cura."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / DAN Crít. +20%",
+    "dark": "Após usar um poder, há 7% de chance de que o custo de mana de todos os poderes sejam reduzidos em 1 por 7 segundos. Não é possível remover esse feito."
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Annette",
+  "subtitle": "Königliche Technomagierin",
+  "description": "Eine Genie-Technomagierin, die darauf hofft, eines Tages allen Menschen die Magie zugänglich zu machen. Ihre Waffe ist ihr Golem, der für sie ihre Feinde zerschmettert.",
+  "story": "Eine geniale Technomagierin aus dem Königreich von Orvelia. Sie ist stets optimistisch und Fehlschläge scheinen sie nicht zu stören. Sie träumt davon, ein Gerät zu erfinden, das jedem für einen Tag magische Kräfte verleiht. Sie besitzt einen magischen Assistenten, den sie nach Jahren der Forschung zum Leben erweckte. Nachdem die Dämonen auf die Erde gekommen waren, konzentrierte sie ihre Forschung auf die Entwicklung von Waffen, die jedem den Kampf gegen die Eindringlinge ermöglichen sollten.",
+  "like": "Technomagie; Forschungsgelder",
+  "dislike": "Leute, die die Technomagie belächeln",
+  "inn": {
+    "idle": "Huch, so viele Menschen! Es ist so anders als in meinem Labor im Schloss.",
+    "recruit": {
+      "greet": "Hallo~ Bist du an Technomagie interessiert?",
+      "talk": [
+        "Jeder hat das Recht auf Magie! Ich werde dafür sorgen!",
+        "Das Königspalast gibt mir viel Forschungsgeld... aber es ist nicht genug!",
+        "Huch? Diese Eier sehen meinem Liebling hier sehr ähnlich!"
+      ],
+      "gift": "Hehe! Danke für die Forschungsspenden!"
+    },
+    "affinity": {
+      "greet": "Experimente, Experimente, lustige Experimente! Hm? Hallo!",
+      "talk": [
+        "Diese Lieblinge wachsen gut! Bald können sie raus aufs Feld!",
+        "1 Liebling pro Person! Ist das gut?"
+      ],
+      "gift": "Hehe, ich werde viel einnehmen ...!"
+    },
+    "relationship": {
+      "greet": "Hi! Hast du heute viel gelernt?",
+      "talk": [
+        "Yeaaaaaah! Dann mal los! Lass uns meine letzte Theorie in einem Experiment testen!",
+        "Die Mittel zur Unterstützung meiner Forschung wurde erhöht! Jetzt kann ich viel besser in meinem Labor arbeiten!",
+        "Ich möchte meine Lieben mit allen teilen!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Rascal, der kristallisierte Technomagier",
+    "description": [
+      "Erhalte alle 1.5 Sek 1 Ladung und erhole 1% Mana.",
+      "Erhalte alle 1.4 Sek 1 Ladung und erhole 1% Mana.",
+      "Erhalte alle 1.3 Sek 1 Ladung und erhole 1% Mana.",
+      "Erhalte alle 1.1 Sek 1 Ladung und erhole 1% Mana.",
+      "Erhalte alle 0.9 Sek 1 Ladung und erhole 1% Mana.",
+      "Erhalte alle 0.7 Sek 1 Ladung und erhole 1% Mana."
+    ],
+    "story": "Der Inbegriff der Technomagie, erschaffen auf der Basis von Annettes Theorien. Fünf der höchstrangigen Hofzauberer von Orvel ließen ihre Energie in die Schöpfung dieses magischen Lebewesens fließen. Es hat seinen eigenen Willen und kann unabhängige Entscheidungen treffen sowie entsprechend handeln. Es teilt sein Mana mit Annette und kann außerdem jedes in der Nähe verfügbare Mana nutzen. Seine Schaffung ist der erste Meilenstein in Annettes Bemühungen, Magie für jedermann zugänglich zu machen."
+  },
+  "s1": {
+    "name": "Zerstörungsstrahl",
+    "description": "Greift Feinde in einer geraden Linie an, fügt Zielen {0} M.Schaden zu und erhöht ihre M.Schadensempfindlichkeit um {1}%. Ist Überladung aktiv, verursacht es {2} zusätzlichen M.Schaden und erhöht M.Schadensempfindlichkeit um {3}%.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht die Auflademenge um 30% bei Benutzung."
+    },
+    "light": "Ziel erleidet 10 Sek lang 25% extra M.Schaden.",
+    "dark": "Charge amount is boosted by 40% upon use."
+  },
+  "s2": {
+    "name": "Notbehandlung",
+    "description": "Klärt alle neg. Effekte von Verb., heilt sie um {0} TP über 10 Sek und erhöht ihren Schwächungszauber-Widerstand um 250. Bei Überladung erhalten alle Verb. {1} Krit Chance und sind effektimmun.",
+    "books": {
+      "0": "Erholung erhöht um {0}%.",
+      "1": "Erholung erhöht um {0}%.",
+      "2": "Erhöht die Auflademenge um 30% bei Benutzung."
+    },
+    "light": "Reduziert Cooldown um 3 Sek.",
+    "dark": "Bei Benutzung wird die Auflademenge um 40% erhöht.",
+    "ut": {
+      "name": "Manuskript der Heilung",
+      "description": [
+        "[Notbehandlung] Verringert die Manakosten um 1 und erhöht die Heilungsrate um 20 %.",
+        "[Notbehandlung] Verringert die Manakosten um 1 und erhöht die Heilungsrate um 24 %.",
+        "[Notbehandlung] Verringert die Manakosten um 1 und erhöht die Heilungsrate um 29 %.",
+        "[Notbehandlung] Verringert die Manakosten um 1 und erhöht die Heilungsrate um 35 %.",
+        "[Notbehandlung] Verringert die Manakosten um 1 und erhöht die Heilungsrate um 42 %.",
+        "[Notbehandlung] Verringert die Manakosten um 1 und erhöht die Heilungsrate um 50 %."
+      ],
+      "story": "Ein Heilmanuskript für Notfälle. Es wurde von Babel, der Geheimgesellschaft des magischen Ingenieurwesens angefertigt in deren monatlichem Workshop „Kämpfe sind Selbstzweck! Siegversprechende Skripte in mechanischen Skriptkämpfen.“ Es wurde von Annette angefertigt und ist eine Fähigkeit, die Verbündete nur mithilfe von Ingenieurwesen heilt, ohne jede Art von heilender Magie."
+    }
+  },
+  "s3": {
+    "name": "Elimierungsprozess",
+    "description": "Wählt zufällig ein Ziel und feuert einen explodierenden Energieball, der dem Ziel und nahestehenden Feinden {0} M.Schaden zufügt. Ist Überladung aktiv, erleiden Feinde {1} M.Schaden und werden 5 Sek lang betäubt, wenn der Ball explodiert.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht die Auflademenge um 30% bei Benutzung."
+    },
+    "light": "Erhöht Schaden um 40%.",
+    "dark": "Ziel erleitet 25% erhöhten M.Schaden.",
+    "ut": {
+      "name": "Zerstörungskodex",
+      "description": [
+        "[Elimierungsprozess] Erhöht Schaden um 20% und erhält beim ANG 2 Ladungen. Kann erhalten werden während Überladung aktiv ist.",
+        "[Elimierungsprozess] Erhöht Schaden um 24% und erhält beim ANG 2 Ladungen. Kann erhalten werden während Überladung aktiv ist.",
+        "[Elimierungsprozess] Erhöht Schaden um 29% und erhält beim ANG 2 Ladungen. Kann erhalten werden während Überladung aktiv ist.",
+        "[Elimierungsprozess] Erhöht Schaden um 35% und erhält beim ANG 2 Ladungen. Kann erhalten werden während Überladung aktiv ist.",
+        "[Elimierungsprozess] Erhöht Schaden um 42% und erhält beim ANG 2 Ladungen. Kann erhalten werden während Überladung aktiv ist.",
+        "[Elimierungsprozess] Erhöht Schaden um 50% und erhält beim ANG 2 Ladungen. Kann erhalten werden während Überladung aktiv ist."
+      ],
+      "story": "Der streng geheime Code von Babel, der Geheimgesellschaft des magischen Ingenieurwesens. Magie für normale Menschen! Babel, die Geheimgesellschaft der Technomagi ist eine anonyme Gesellschaft, die davon, träumt, Magie für jeden nutzbar zu machen. Jeder von ihnen besitzt eine technomagische Technik als geheimen Code und sie gestatten es nur denjenigen, ihn zu benutzen, die ihn entziffern können. Annette konnte einen streng geheimen Code in 4 Minuten knacken und benutzt ihn zur Zerstörung."
+    }
+  },
+  "s4": {
+    "name": "Aufladen",
+    "description": "Erhalte alle 0,5 Sek. 1 Ladung. Erhalte für jede benutzte Manakugel 10 Ladungen. Betrete bei 100 Ladungen den Überladung-Zustand und erhalte {0} ANG für 15 Sek, während normale Angriffe Cooldowns um 10% reduzieren. Effekte können nicht aufgehoben werden und während Überladung können keine Ladungen gesammelt werden.",
+    "books": {
+      "0": "ANG-Erhöhungsrate um {0}% erhöht.",
+      "1": "ANG-Erhöhungsrate um {0}% erhöht.",
+      "2": "Erhöht die ANG-Geschw. um {0} , wenn überladen."
+    },
+    "light": "Erhöht ANG-Boost um 40%.",
+    "dark": "Erhöht die Wirkungsdauer von Überladung um 3 Sek."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / ANG-Geschw. +100",
+    "dark": "Wird Überladung aktiviert, erhalten alle Verbündete 200 ANG-Geschw. und einen ANG-Boost in Höhe von 5% der ANG von Annette."
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Miruru",
+  "subtitle": "Emperatriz Pirata Maldita",
+  "description": "El pirata legendario que fue maldecido y se convirtió en una niña. Ella tiene la capacidad increíble de lanzar balas de cañón en la cabeza del enemigo.",
+  "story": "Una vez navegó por los mares como la emperatriz pirata, infundiendo miedo en los corazones de los marineros. Sin embargo, un elemento maldito la ha convertido en una niña y todos sus fieles aliados y tripulación la abandonaron pronto. Como no es de rendirse, comenzó nuevamente desde cero, y ahora sueña con volver a su antigua gloria. Lamentablemente, la maldición de la niñez también ha afectado para que piense de forma inmadura. Aún así, continúa persiguiendo su sueño. Actualmente, lidera el segundo Miruru de piratas que está formado por duendes y gnolls",
+  "like": "Tesoros o cualquier cosa que brilla",
+  "dislike": "La fuerza naval",
+  "inn": {
+    "idle": "¿Qué tal una alianza? ¡Puedo darte el 10% de todos los hallazgos!",
+    "recruit": {
+      "greet": "¡Estoy encantado de conocerte también!",
+      "talk": [
+        "Juntos, podemos hacer cualquier cosa! Incluso con este cuerpo maldito!",
+        "¡El mar nos llama!",
+        "Algún día tendré nuevamente mi apariencia original!"
+      ],
+      "gift": "¡Oro! ¡Es oro!"
+    },
+    "affinity": {
+      "greet": "¡Te doy la bienvenida! ¡Mi subordinado de honor principal!",
+      "talk": [
+        "Hum... ¿Mi pasado? Cada vez que intento recordar algo, de repente, ¡pum! Y me caigo de la cama.",
+        "Pero hay algo que sí recuerdo. Una increíble sed... y escribir en un mapa... ¿La Fuente de la Vida?"
+      ],
+      "gift": "¡De verdad eres mi subordinado! ¡Ahora, el tesoro de los Piratas de Miroru está completo!"
+    },
+    "relationship": {
+      "greet": "Hey tú ~ Bienvenida nuevamente!",
+      "talk": [
+        "Trabajaremos duro hoy también! Por el bien de los Piratas de Miruru!",
+        "Trajiste algún tesoro? Dónde? Dónde? Dónde? Muéstrame!",
+        "Mi cañón? Sí, lo hice yo mismo! Es increíble, verdad? verdad?"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Arma Final, Leviathan",
+    "description": [
+      "Causa Daño físico equivalente al 100 % del Ataque a los enemigos afectados por la habilidad ¡Bum! con un 50 % de probabilidad, y el objetivo recibe un 20 % más de Daño físico durante 10 segundos.",
+      "Causa Daño físico equivalente al 120 % del Ataque a los enemigos afectados por la habilidad ¡Bum! con un 50 % de probabilidad, y el objetivo recibe un 24 % más de Daño físico durante 10 segundos.",
+      "Causa Daño físico equivalente al 140 % del Ataque a los enemigos afectados por la habilidad ¡Bum! con un 50 % de probabilidad, y el objetivo recibe un 29 % más de Daño físico durante 10 segundos.",
+      "Causa Daño físico equivalente al 170 % del Ataque a los enemigos afectados por la habilidad ¡Bum! con un 50 % de probabilidad, y el objetivo recibe un 35 % más de Daño físico durante 10 segundos.",
+      "Causa Daño físico equivalente al 210 % del Ataque a los enemigos afectados por la habilidad ¡Bum! con un 50 % de probabilidad, y el objetivo recibe un 42 % más de Daño físico durante 10 segundos.",
+      "Causa Daño físico equivalente al 250 % del Ataque a los enemigos afectados por la habilidad ¡Bum! con un 50 % de probabilidad, y el objetivo recibe un 50 % más de Daño físico durante 10 segundos."
+    ],
+    "story": "Hace tiempo cuando Miruru reinaba como la emperatriz pirata, era temida por los marineros y era una gran amenaza para la fuerza naval de Orvelia y del imperio. Los cañones en su barco eran especialmente aterradores para la fuerza naval. Los más poderosos eran los Leviatán, el cañón principal del barco. Después de haber sido maldecido, se llevó una cosa mientras huía de su tripulación amotinada. Su valor como un arma es, de hecho, más valiosa que cualquier botín u oro. Se llevo consigo a Leviatán, el cañón más poderoso de su arsenal. Después de varias modificaciones, el que una vez era el terror del mar ahora sirve como artillería móvil."
+  },
+  "s1": {
+    "name": "Baaaam!",
+    "description": "Inflige {0} de Daño físico a todos los enemigos y los empuja hacia atrás.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Aumenta el Daño físico que recibe el objetivo en un 25 % durante 10 segundos.",
+    "dark": "Al activarlo, aumenta el ATQ en un 35% durante 10 segundos."
+  },
+  "s2": {
+    "name": "Darse Vuelta",
+    "description": "Inflige  {0}  Daño Fis. 3 veces a los enemigos en el alcance. Cada ataque tiene una oportunidad del {1}% de derribar al enemigo durante  {2}  segundos.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "DMG se incrementa en un 40%.",
+    "dark": "Para cada enemigo que toma DMG, reduzca el tiempo de reutilización un 8%.",
+    "ut": {
+      "name": "Sextante del rey pirata",
+      "description": [
+        "[Dar la vuelta] Aumenta el Daño en un 4 % con cada uso y recupera 120 PM en un Golpe crítico. Este efecto se acumula hasta 10 veces.",
+        "[Dar la vuelta] Aumenta el Daño en un 4,8 % con cada uso y recupera 120 PM en un Golpe crítico. Este efecto se acumula hasta 10 veces.",
+        "[Dar la vuelta] Aumenta el Daño en un 5,8 % con cada uso y recupera 120 PM en un Golpe crítico. Este efecto se acumula hasta 10 veces.",
+        "[Dar la vuelta] Aumenta el Daño en un 7 % con cada uso y recupera 120 PM en un Golpe crítico. Este efecto se acumula hasta 10 veces.",
+        "[Dar la vuelta] Aumenta el Daño en un 8.4 % con cada uso y recupera 120 PM en un Golpe crítico. Este efecto se acumula hasta 10 veces.",
+        "[Dar la vuelta] Aumenta el Daño en un 10 % con cada uso y recupera 120 PM en un Golpe crítico. Este efecto se acumula hasta 10 veces."
+      ],
+      "story": "Sextante del rey pirata Olga, quien fue el primero en descubrir el nuevo continente. El rey pirata Olga, pasó por el Continente Orbis para encontrar un nuevo continente, después de una revelación de los dioses. El sextante puede calcular la ubicación y el ángulo más preciso en el mundo. Miruru utiliza el sextante para aumentar el daño de los ataques de bomba rodante pero no recuerda cómo llegó a sus manos."
+    }
+  },
+  "s3": {
+    "name": "Piratas de Miruru!",
+    "description": "Ataca a un objetivo aleatorio y a los enemigos cercanos 5 veces, lo que causa un total de {1} de Daño físico y reduce su Velocidad de ataque en {2}. Si el objetivo no es un héroe, inflige {3} de Daño físico adicional.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Si hay 1 enemigo, el Daño se incrementa en un 100%.",
+    "dark": "Elimina el efecto debuff de ATK Spd y añade un Stun de 3 segundos.",
+    "ut": {
+      "name": "Bala de cañón de Miroru",
+      "description": [
+        "[Piratas de Miruru!] El Daño aumenta en un 50% y el tiempo de reutilización de la habilidad se reduce en un 12%.",
+        "[Piratas de Miruru!] El Daño aumenta en un 50% y el tiempo de reutilización de la habilidad se reduce en un 14%.",
+        "[Piratas de Miruru!] El Daño aumenta en un 50% y el tiempo de reutilización de la habilidad se reduce en un 17%.",
+        "[Piratas de Miruru!] El Daño aumenta en un 50% y el tiempo de reutilización de la habilidad se reduce en un 21%.",
+        "[Piratas de Miruru!] El Daño aumenta en un 50% y el tiempo de reutilización de la habilidad se reduce en un 25%.",
+        "[Piratas de Miruru!] El Daño aumenta en un 50% y el tiempo de reutilización de la habilidad se reduce en un 30%."
+      ],
+      "story": "Bala de cañón infundida con el símbolo de los piratas de Miroru. Miroru aún recuerda vívidamente su pasado glorioso. Su bandera ondeante decorada con un tiburón y los sonidos de las explosiones que estuvieron a su cargo. Esos recuerdos apreciados de los barcos enemigos hundiéndose en terror aún forman parte de su corazón. Miroru utiliza balas de cañón especiales para atacar a sus enemigos, mientras espera que regresen los días de gloria."
+    }
+  },
+  "s4": {
+    "name": "Boooooom!",
+    "description": "Al provocar un ataque normal, dispara una bala adicional con un 60 % de probabilidad de infligir {0} de Daño físico a todos los enemigos.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Aumenta el Ataque en un 0,5 % durante 10 segundos al recibir un Golpe crítico. Este efecto se puede acumular hasta 100 veces.",
+    "dark": "La oportunidad de activación cambia al 80%."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Oportunidad Crit +100",
+    "dark": "Miruru acumula la obscuridad dependiendo del número de enemigos que golpea. Cuando alcanza 50 pilas, se vuelve loca, aumentando su Veloc de Atq en 800 y su ATQ en un 20%."
+  }
+}

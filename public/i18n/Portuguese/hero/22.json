@@ -1,0 +1,120 @@
+{
+  "name": "Rodina",
+  "subtitle": "Atiradora da Nevasca",
+  "description": "Ela é uma atiradora de um império localizado em um ambiente extremamente frio. Ela mira calmamente, não importa a circunstância. Quanto mais foco, mais poderosa ela se torna.",
+  "story": "A melhor franco-atiradora do exército e uma aficionada por ursos. Ela gosta tanto deles que sempre usa acessórios que se assemelham a orelhas de urso em seu chapéu. Então, ela às vezes caça tigres, mas nunca irá atirar num urso. Embora suas habilidades de tiro sejam mais adequadas para assassinatos, ela jurou nunca usá-las injustamente. Em vez disso, ela as usa para proteger. Atualmente, ela mora com Pavel na Montanha Gélida da Terra dos Ventos, servindo como sua guarda pessoal delegada pelo império.",
+  "like": "Ursos, ursos polares, ursos pardos, ursinhos, ursos grandes",
+  "dislike": "Quem não dá valor à vida",
+  "inn": {
+    "idle": "Preparativos para a próxima jornada ~hmhmhm~ (zumbido)",
+    "recruit": {
+      "greet": "Saudações! Tenha um bom dia...",
+      "talk": [
+        "Coma bem, lute bem!!",
+        "Então, eu ouvi que cogumelos grelhados são deliciosos? Eu quero um, yay!!",
+        "Você gosta de vegetais? Eu amo!"
+      ],
+      "gift": "Obrigado!! Obrigado pelas refeições!!"
+    },
+    "affinity": {
+      "greet": "Ah! Obrigada pelo convite!",
+      "talk": [
+        "Estou com fome! Me dê comida, por favor!",
+        "Vegetais! Muhroom!"
+      ],
+      "gift": "Obrigada pela comida!"
+    },
+    "relationship": {
+      "greet": "Ah!? Saudações!! Você já comeu!",
+      "talk": [
+        "A arma de um soldado é igual a sua vida! Gostaria de ver meu rifle em perfeito estado!?",
+        "O mago de gelo que vive na Caverna do Gelo é muito mais gentil do que você imagina! Ele ainda tenta fingir o contrário, então eu me faço de desentendida.",
+        "Sir Fluss não está aqui? Graças a ele, a minha vida não é uma tragédia total!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Rifle Personalizado Rodina Mod.0",
+    "description": [
+      "Cada ataque tem 20% de chance de causar 200% de ATQ como DAN.F adicional e de repelir o inimigo. Em seguida, a PREC aumenta em 100 por 10 segundos. Esse efeito pode ser acumulado no máximo até 3 vezes.",
+      "Cada ataque tem 20% de chance de causar 240% de ATQ como DAN.F adicional e de repelir o inimigo. Em seguida, a PREC aumenta em 100 por 10 segundos. Esse efeito pode ser acumulado no máximo até 3 vezes.",
+      "Cada ataque tem 20% de chance de causar 288% de ATQ como DAN.F adicional e de repelir o inimigo. Em seguida, a PREC aumenta em 100 por 10 segundos. Esse efeito pode ser acumulado no máximo até 3 vezes.",
+      "Cada ataque tem 20% de chance de causar 344% de ATQ como DAN.F adicional e de repelir o inimigo. Em seguida, a PREC aumenta em 100 por 10 segundos. Esse efeito pode ser acumulado no máximo até 3 vezes.",
+      "Cada ataque tem 20% de chance de causar 414% de ATQ como DAN.F adicional e de repelir o inimigo. Em seguida, a PREC aumenta em 100 por 10 segundos. Esse efeito pode ser acumulado no máximo até 3 vezes.",
+      "Cada ataque tem 20% de chance de causar 500% de ATQ como DAN.F adicional e de repelir o inimigo. Em seguida, a PREC aumenta em 100 por 10 segundos. Esse efeito pode ser acumulado no máximo até 3 vezes."
+    ],
+    "story": "A essência da mais sofisticada tecnologia imperial. Este fuzil exige força sobre-humana e não pode ser manuseado por uma pessoa comum. Ele recebeu encantamentos mágicos para permitir que o atirador enxergue a distâncias impossivelmente longas. Porém, até mesmo a melhor mira do mundo fica inútil nas mãos de alguém que não sabe usá-la. Dessa forma, o desempenho deste fuzil depende muito das habilidades do seu usuário. Rodina, que tem o dom de uma excelente visão e de um controle preciso, é uma proprietária adequada para este fuzil. Ela foi além e personalizou a arma ao seu gosto, chamando-a de Rodina Sob Medida."
+  },
+  "s1": {
+    "name": "Tiro Penetrante",
+    "description": "Ao ativar, o personagem se posiciona e inicia a conjuração. Depois de finalizada, causa {0} de DAN.F aos inimigos numa linha reta. Aumenta-se o DAN em {1}%, proporcional ao tempo total de conjuração. Se esta prosseguir além da terceira fase, derrubam-se os inimigos.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN Crít. em {0}%."
+    },
+    "light": "Aumenta o DAN em 40%.",
+    "dark": "Ganha imunidade a CM enquanto usar este poder."
+  },
+  "s2": {
+    "name": "Mira Precisa",
+    "description": "O alvo recebe {0}% de dano aumentado deste herói. Além disso, aumenta o ATQ em {1}.",
+    "books": {
+      "0": "Aumenta a Taxa de Aumento de ATQ em {0}%.",
+      "1": "Aumenta a Taxa de Aumento de ATQ em {0}%.",
+      "2": "Aumenta o DAN Crít. em {0}%, durante o efeito do poder."
+    },
+    "light": "Vel de ATQ é reforçada em 250 durante o efeito.",
+    "dark": "Reduz o custo de mana em 1.",
+    "ut": {
+      "name": "Suporte de Cristal",
+      "description": [
+        "[Mira Precisa] Altera o alvo para um inimigo aleatório quando o alvo de Rodina é morto, aumentando o ATQ em 20% por 10s.",
+        "[Mira Precisa] Altera o alvo para um inimigo aleatório quando o alvo de Rodina é morto, aumentando o ATQ em 24% por 10s.",
+        "[Mira Precisa] Altera o alvo para um inimigo aleatório quando o alvo de Rodina é morto, aumentando o ATQ em 29% por 10s.",
+        "[Mira Precisa] Altera o alvo para um inimigo aleatório quando o alvo de Rodina é morto, aumentando o ATQ em 35% por 10s.",
+        "[Mira Precisa] Altera o alvo para um inimigo aleatório quando o alvo de Rodina é morto, aumentando o ATQ em 42% por 10s.",
+        "[Mira Precisa] Altera o alvo para um inimigo aleatório quando o alvo de Rodina é morto, aumentando o ATQ em 50% por 10s."
+      ],
+      "story": "Um suporte de rifle de precisão que Pavel criou para se acomodar ao corpo pequeno de Rodina. Por ser feito de cristais, é bem firme e robusto. Este suporte propicia boa mira em qualquer alvo."
+    }
+  },
+  "s3": {
+    "name": "Fogo Focalizado",
+    "description": "Dispara 10 tiros em inimigos aleatórios. Causa {0} de DAN.F e o aumenta em {1}% para cada ataque seguinte.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN Crít. em {0}%."
+    },
+    "light": "Reduz em 5% o tempo de recarga quando houver Acerto Crít.",
+    "dark": "Ignora o Bloqueio inimigo.",
+    "ut": {
+      "name": "Barragem Personalizada VII",
+      "description": [
+        "[Fogo Focalizado] Aumenta o DAN em 20% e causa dano que ignora a DEF do alvo nos últimos 2 disparos.",
+        "[Fogo Focalizado] Aumenta o DAN em 24% e causa dano que ignora a DEF do alvo nos últimos 2 disparos.",
+        "[Fogo Focalizado] Aumenta o DAN em 29% e causa dano que ignora a DEF do alvo nos últimos 2 disparos.",
+        "[Fogo Focalizado] Aumenta o DAN em 35% e causa dano que ignora a DEF do alvo nos últimos 2 disparos.",
+        "[Fogo Focalizado] Aumenta o DAN em 42% e causa dano que ignora a DEF do alvo nos últimos 2 disparos.",
+        "[Fogo Focalizado] Aumenta o DAN em 50% e causa dano que ignora a DEF do alvo nos últimos 2 disparos."
+      ],
+      "story": "Uma barragem solicitada ao lendário ferreiro do império. Contém pólvora feita de ovo resistente de uma pita e o osso maxilar de uma tartaruga dragão. Foi feita pequena para que Rodina possa a usar facilmente, mas possui o poder para destruir qualquer coisa."
+    }
+  },
+  "s4": {
+    "name": "Tiro Rápido",
+    "description": "A cada 10 segundos, realiza dois ataques consecutivos e causa {0} de DAN.F",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN Crít. em {0}%."
+    },
+    "light": "Ser houver 1 inimigo, aumenta o dano em 100%.",
+    "dark": "Inimigos atingidos são atordoados por 2 segundos."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / Chance Crít. +100",
+    "dark": "Aumenta o ATQ em 20% por 10 segundos e designa 3 inimigos aleatórios para serem alvos de Rodina no início de cada batalha."
+  }
+}

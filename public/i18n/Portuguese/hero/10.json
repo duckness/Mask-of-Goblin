@@ -1,0 +1,120 @@
+{
+  "name": "Selene",
+  "subtitle": "Flecha Corta-vento",
+  "description": "Uma princesa Elfa com um ar de nobreza, ela guarda a floresta sagrada. As flechas cheias de energia da lua seguem a vontade dela de localizar inimigos, e flechas cheias de energia eólica perfuram ferozmente o inimigo.",
+  "story": "Esta nobre princesa Élfica admira a Espada Sagrada e seu guerreiro escolhido. Ela almeja fazer o certo tanto quanto pode, e deseja que os outros façam o mesmo. É por isso que ela faz críticas construtivas a todos que se desviam do caminho da integridade, mesmo que seja o Guerreiro da Espada Sagrada. Infelizmente, sua forte determinação às vezes é mal compreendida pelos outros. Ela sempre visita sua irmã mais nova, Dosarta, para fazer-lhe companhia.",
+  "like": "Quem trabalha em harmonia e assume responsabilidades",
+  "dislike": "Quem abandona suas próprias convicções, quem foge do perigo",
+  "inn": {
+    "idle": "Oh, então os humanos dormem em lugares como esses?",
+    "recruit": {
+      "greet": "Como você tem ido? Que seu dia seja cheio de luz.",
+      "talk": [
+        "Eu chamei sua atenção?",
+        "Pessoas refinadas são sempre bem-vindas.",
+        "Porque não? Acho que eu poderia ouvir você."
+      ],
+      "gift": "Obrigado pelo presente. É lindo."
+    },
+    "affinity": {
+      "greet": "Encontrar você fez de hoje um ótimo dia.",
+      "talk": [
+        "Eu vivo pra proteger a floresta desde que era jovem. É por isso que sempre amei a história da Espada Sagrada.",
+        "O Guerreiro da Espada Sagrada que 100 anos atrás derrotou o Senhor das Trevas e trouxe paz ao mundo... Agora, temos que criar uma nova lenda."
+      ],
+      "gift": "Isso é...! Agradeço sua generosidade."
+    },
+    "relationship": {
+      "greet": "Parece que hoje será mais um belo dia ensolarado, cheio de alegrias e calor.",
+      "talk": [
+        "Talvez eu tenha sido muito dura com o Guerreiro, forçando meus ideais e pensamentos...",
+        "Visite a Floresta de Elidora quando puder. Eu receberei você pessoalmente.",
+        "Este arco é um símbolo especial de amizade dado a mim pelo Elemento do Vento. Se você quiser, você pode tocá-lo."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Notos, Vento Verde",
+    "description": [
+      "Ao causar um Acerto Crít., a VEL. ATQ aumenta em 200 durante 10 segundos. Enquanto o efeito durar, os ataques automáticos dispararão uma flecha adicional equivalente a 100% do DAN.F",
+      "Ao causar um Acerto Crít., a VEL. ATQ aumenta em 240 durante 10 segundos. Enquanto o efeito durar, os ataques automáticos dispararão uma flecha adicional equivalente a 120% do DAN.F",
+      "Ao causar um Acerto Crít., a VEL. ATQ aumenta em 280 durante 10 segundos. Enquanto o efeito durar, os ataques automáticos dispararão uma flecha adicional equivalente a 140% do DAN.F",
+      "Ao causar um Acerto Crít., a VEL. ATQ aumenta em 340 durante 10 segundos. Enquanto o efeito durar, os ataques automáticos dispararão uma flecha adicional equivalente a 170% do DAN.F",
+      "Ao causar um Acerto Crít., a VEL. ATQ aumenta em 410 durante 10 segundos. Enquanto o efeito durar, os ataques automáticos dispararão uma flecha adicional equivalente a 210% do DAN.F",
+      "Ao causar um Acerto Crít., a VEL. ATQ aumenta em 500 durante 10 segundos. Enquanto o efeito durar, os ataques automáticos dispararão uma flecha adicional equivalente a 250% do DAN.F"
+    ],
+    "story": "Um arco abençoado com o sopro de Sylph, a Elemental do Vento. Apenas uma pessoa de caráter nobre pode brandi-lo. Quando a corda do arco é puxada, a arma encaixa uma flecha mágica letal criada do sopro da Elemental. Guiado pela Elemental do Vento, a flecha nunca erra seu alvo, independentemente de onde ele esteja se escondendo. Selene tem laços especiais com Elementais desde a infância. Ela era particularmente chegada a Sylph, que enfeitiçou seu arco como prova da sua amizade."
+  },
+  "s1": {
+    "name": "Chuva de Flechas",
+    "description": "Dispara 10 flechar aleatoriamente e causa {0} de DAN.F ao inimigo.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "Aumenta o DAN em 40%.",
+    "dark": "Há 20% de chance de Atordoar durante 2 segundos."
+  },
+  "s2": {
+    "name": "Impulso",
+    "description": "Evoca 5 flechas que voam em direção ao inimigo que atacam automaticamente. Cada flecha causa {0} de DAN.F.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "Ignora a DEF enquanto houver apenas 1 inimigo.",
+    "dark": "Faz o alvo recuar durante 0,5 segundo.",
+    "ut": {
+      "name": "Pedra do Selo do Espírito do Vento",
+      "description": [
+        "[Adrenalina] Aumenta o DAN em 20% e tem 15% de chance de conjurar 1 Flecha de Adrenalina ao realizar um ataque normal.",
+        "[Adrenalina] Aumenta o DAN em 24% e tem 15% de chance de conjurar 1 Flecha de Adrenalina ao realizar um ataque normal.",
+        "[Adrenalina] Aumenta o DAN em 29% e tem 15% de chance de conjurar 1 Flecha de Adrenalina ao realizar um ataque normal.",
+        "[Adrenalina] Aumenta o DAN em 35% e tem 15% de chance de conjurar 1 Flecha de Adrenalina ao realizar um ataque normal.",
+        "[Adrenalina] Aumenta o DAN em 42% e tem 15% de chance de conjurar 1 Flecha de Adrenalina ao realizar um ataque normal.",
+        "[Adrenalina] Aumenta o DAN em 50% e tem 15% de chance de conjurar 1 Flecha de Adrenalina ao realizar um ataque normal."
+      ],
+      "story": "Uma pedra na qual está selado um impulsivo elemental do vento arqueiro. O elemental causou todo tipo de confusão com seus truques malignos, sendo, portanto, selado pelo Rei Fada. O hostil elemental do vento infunde flechas com um vento destruidor, aumentando seu poder de baixa em 5 vezes ou mais."
+    }
+  },
+  "s3": {
+    "name": "Clarão do Luar",
+    "description": "Dispara uma flecha numa linha reta, causando DAN.F a todos os inimigos no alcance, com base em seus PV atuais. Causa um máximo de {0} de DAN.F e atordoa.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "Reduz o tempo de recarga em 3 segundos.",
+    "dark": "Ignora o Bloqueio inimigo.",
+    "ut": {
+      "name": "Flecha de Prata",
+      "description": [
+        "[Luz do Luar] Aumenta o DAN em 20% e o alvo recebe 20% de DAN.F adicional por 10 segundos.",
+        "[Luz do Luar] Aumenta o DAN em 20% e o alvo recebe 24% de DAN.F adicional por 10 segundos.",
+        "[Luz do Luar] Aumenta o DAN em 20% e o alvo recebe 29% de DAN.F adicional por 10 segundos.",
+        "[Luz do Luar] Aumenta o DAN em 20% e o alvo recebe 35% de DAN.F adicional por 10 segundos.",
+        "[Luz do Luar] Aumenta o DAN em 20% e o alvo recebe 42% de DAN.F adicional por 10 segundos.",
+        "[Luz do Luar] Aumenta o DAN em 20% e o alvo recebe 50% de DAN.F adicional por 10 segundos."
+      ],
+      "story": "Ponta de flecha imbuída com a bênção da Deusa da Caça e da Lua. Um artefato antigo que é passado para o melhor caçador élfico. É dito que a Deusa da Caça e da Lua cuidava dos elfos que protegiam a floresta sagrada e ela emprestou seu poder a eles através do artefato. A flecha de prata imbuída com o poder da Deusa da Lua possui um poder misterioso que permite que o usuário derrote seu inimigo e aumente seu DAN."
+    }
+  },
+  "s4": {
+    "name": "Flecha do Luar",
+    "description": "Ao atacar, aumenta o ATQ em {1} e a Chance Crít em {2} por {0} seg. Esse efeito acumula até 3 vezes.",
+    "books": {
+      "0": "Aumenta a redução de DEF em {0}%",
+      "1": "Aumenta a redução de DEF em {0}%",
+      "2": "Cada ataque aumenta o DAN. Crít do herói em {0}%."
+    },
+    "light": "O limite de acúmulos é alterado para 5.",
+    "dark": "Reforça o alcance o ataque automático em 20%."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / DAN Crít. +20%",
+    "dark": "A Chance Crit reduz em 300 e DAN Crit aumenta em 100%."
+  }
+}

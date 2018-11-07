@@ -1,0 +1,120 @@
+{
+  "name": "Mediana",
+  "subtitle": "La Doctora Peligrosa",
+  "description": "Una Doctora cuya técnica se origina en épocas con escasos números de Clérigos y Magia Curativa. Ella dispara medicina desde su gran aguja para fortalecer a los aliados, o debilitar al enemigo.",
+  "story": "Una practicante de las artes médicas desarrolladas cuando los clérigos tenían pocas provisiones. Heredó su talento médico natural de su padre, pero su sed por conocimiento cruzó la línea cuando comenzó a investigar con veneno. Como resultado, fue excomulgada de la sociedad médica, pero su entusiasmo por la investigación prácticamente no se vio afectado. Sin embargo, su básico respeto por la vida evitó que alcanzara cualquier resultado experimental en su investigación con veneno. Cuando aparecieron los demonios, se alegró al encontrar sujetos de prueba raros y valiosos.",
+  "like": "Ciencia médica, sujetos de prueba",
+  "dislike": "Magia sanadora",
+  "inn": {
+    "idle": "Fufufu, finalmente, un sujeto digno de prueba ha aparecido.",
+    "recruit": {
+      "greet": "Bienvenido. Nos hemos visto antes?",
+      "talk": [
+        "Te gustaría probar mi nueva medicina? Fufu, no tengas miedo.",
+        "A veces extraño a mi padre que está lejos de mí",
+        "Espera un segundo, he creado un compuesto de medicina extremadamente efectivo."
+      ],
+      "gift": "Oh gracias. Puedo usar esto como material de investigación?"
+    },
+    "affinity": {
+      "greet": "Hola, vine a descansar. Este lugar se ve bien.",
+      "talk": [
+        "¿La nueva droga? Ja, ja. La estoy probando.",
+        "Debo tomar notas... Tengo que escribir todas mis ideas."
+      ],
+      "gift": "Oh, gracias. Podré crear un veneno nuevo, ja, ja, ja..."
+    },
+    "relationship": {
+      "greet": "Cómo estás? Por favor, dime si te sientes mal.",
+      "talk": [
+        "Sé que soy un poco extraño. Pero bueno, así es como soy.",
+        "Algún día, la medicina y el tratamiento serán mejores que la magia curativa.",
+        "No eres mi sujeto de prueba, eres más bien como... el resultado final. Ah, no lo digo por los venenos. Quise decir eso como si fuese un doctor."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Amenaza Misericordiosa, Phistonia",
+    "description": [
+      "El Daño de Veneno Especial se incrementa en un 40%, y los objetivos infligidos reciben Daño Fis. adicional igual al 30% del ATQ de Mediana cuando son alcanzados por aliados que no sean Mediana. El efecto de Daño Fis adicional se activa solo una vez por cada segundo.",
+      "El Daño de Veneno Especial se incrementa en un 48%, y los objetivos infligidos reciben Daño Fis. adicional igual al 36% del ATQ de Mediana cuando son alcanzados por aliados que no sean Mediana. El efecto de Daño Fis adicional se activa solo una vez por cada segundo.",
+      "El Daño de Veneno Especial se incrementa en un 57%, y los objetivos infligidos reciben Daño Fis. adicional igual al 43% del ATQ de Mediana cuando son alcanzados por aliados que no sean Mediana. El efecto de Daño Fis adicional se activa solo una vez por cada segundo.",
+      "El Daño de Veneno Especial se incrementa en un 69%, y los objetivos infligidos reciben Daño Fis. adicional igual al 52% del ATQ de Mediana cuando son alcanzados por aliados que no sean Mediana. El efecto de Daño Fis adicional se activa solo una vez por cada segundo.",
+      "El Daño de Veneno Especial se incrementa en un 83%, y los objetivos infligidos reciben Daño Fis. adicional igual al 62% del ATQ de Mediana cuando son alcanzados por aliados que no sean Mediana. El efecto de Daño Fis adicional se activa solo una vez por cada segundo.",
+      "El Daño de Veneno Especial se incrementa en un 100%, y los objetivos infligidos reciben Daño Fis. adicional igual al 75% del ATQ de Mediana cuando son alcanzados por aliados que no sean Mediana. El efecto de Daño Fis adicional se activa solo una vez por cada segundo."
+    ],
+    "story": "La historia se origina cuando los experimentos con veneno de Mediana aún se mantenían en secreto de sus compañeros. Un día, un amigo doctor se dio cuenta de la enorme jeringa que había fabricado. Impresionado por su enorme tamaño, le preguntó:: “Mira el tamaño de esa cosa. ¿No crees que al menos deberías darle un nombre?' Entonces, Mediana respondió, despreocupada: 'Oh... Simplemente puedes llamarla... Pistón”."
+  },
+  "s1": {
+    "name": "Ungüento Curativo",
+    "description": "Cura a todos los aliados en {0} y los hace inmunes al proximo golpe que cause Daño",
+    "books": {
+      "0": "la Recuperacion aumenta en {0}%.",
+      "1": "la Recuperacion aumenta en {0}%.",
+      "2": "la Recuperacion aumenta en {0}%."
+    },
+    "light": "Aumenta la Salud del aliado curado en un 10% durante 10 seg.",
+    "dark": "El costo de maná se reduce en 1."
+  },
+  "s2": {
+    "name": "Cañón de Agua Especial",
+    "description": "Dispara un cañón de agua en linea recta, curando a los aliados al alcance por {0} cada 0.5 segundos, mientras causa {1} Daño Fis. al enemigo.",
+    "books": {
+      "0": "La Salud y el Daño aumentan en {0}%.",
+      "1": "La Salud y el Daño aumentan en {0}%.",
+      "2": "La Salud y el Daño aumentan en {0}%."
+    },
+    "light": "Aumenta la Recuperacion y el Daño en 40%.",
+    "dark": "Obten inmunidad al Ctrl de Masas mientras usas dicha habilidad.",
+    "ut": {
+      "name": "Poción especial de doble reacción",
+      "description": [
+        "[Cañón de agua especial] Aumenta la Resistencia en un 30 % y reduce el Tiempo de reutilización en un 12 %.",
+        "[Cañón de agua especial] Aumenta la Resistencia en un 30 % y reduce el Tiempo de reutilización en un 14 %.",
+        "[Cañón de agua especial] Aumenta la Resistencia en un 30 % y reduce el Tiempo de reutilización en un 17 %.",
+        "[Cañón de agua especial] Aumenta la Resistencia en un 30 % y reduce el Tiempo de reutilización en un 21 %.",
+        "[Cañón de agua especial] Aumenta la Resistencia en un 30 % y reduce el Tiempo de reutilización en un 25 %.",
+        "[Cañón de agua especial] Aumenta la Resistencia en un 30 % y reduce el Tiempo de reutilización en un 30 %."
+      ],
+      "story": "Una poción especial que tiene dos tipos de efectos. Mediana se preguntaba si había alguna forma de recibir un ataque y recuperarse de una sola vez. Fue a la librería y leyó un libro polvoriento llamado “Los limos también pueden fabricar cañones”. Mediana estaba leyendo por diversión, pero encontró una forma de aplicar el principio de los cañones en su pistón. Luego, fue capaz de inventar la poción especial de doble reacción y maximizar la recuperación y el ataque al utilizar el cañón de agua especial. Mediana aún está agradecida con el autor del libro que le dio la inspiración."
+    }
+  },
+  "s3": {
+    "name": "Poción Fortificante",
+    "description": "Inyecta al aliado con el ATQ más alto con una poción fortificante, incrementando su ATQ en 20% + {0} del ATQ de Mediana y evitando que su Salud caiga por debajo del 5%.",
+    "books": {
+      "0": "el ATQ aumenta en {0}%.",
+      "1": "el ATQ aumenta en {0}%.",
+      "2": "el ATQ aumenta en {0}%."
+    },
+    "light": "El aumento de ATQ se incrementa en un 40%.",
+    "dark": "La Oportunidad Crit se incrementa en un 400.",
+    "ut": {
+      "name": "Poción del misterio",
+      "description": [
+        "[Poción de Fortalecimiento] Disipa los efectos negativos del objetivo y obtiene inmunidad al Ctrl de Masas durante 2 segundos.",
+        "[Poción de Fortalecimiento] Disipa los efectos negativos del objetivo y obtiene inmunidad al Ctrl de Masas durante 3 segundos.",
+        "[Poción de Fortalecimiento] Disipa los efectos negativos del objetivo y obtiene inmunidad al Ctrl de Masas durante 4 segundos.",
+        "[Poción de Fortalecimiento] Disipa los efectos negativos del objetivo y obtiene inmunidad al Ctrl de Masas durante 5 segundos.",
+        "[Poción de Fortalecimiento] Disipa los efectos negativos del objetivo y obtiene inmunidad al Ctrl de Masas durante 6 segundos.",
+        "[Poción de Fortalecimiento] Disipa los efectos negativos del objetivo y obtiene inmunidad al Ctrl de Masas durante 7 segundos."
+      ],
+      "story": "Una poción especial que tiene las enseñanzas de un maestro. El doctor Aldini, un excelso cirujano experto en anatomía, es el maestro de Mediana. Aldini supo reconocer el talento de Mediana desde temprano y le enseño conocimientos médicos extraordinarios que nunca podría haber obtenido en la Iglesia de Lua. Esta poción, que es imposible de identificar y está hecha con la receta especial de su maestro, aumenta los efectos de la poción fortificante."
+    }
+  },
+  "s4": {
+    "name": "Veneno Especial de Mediana",
+    "description": "Aumenta todos los ATQ aliados en {0} y la Resistencia Fis. Crit en {1}. Además, al atacar a un objetivo, inyecta a dicho enemigo con un veneno especial que causa Daño Fis. constante igual a {2} durante 5 segundos mientras reduce su Resistencia Fis..Crit en {3} [ -].",
+    "books": {
+      "0": "el ATQ aumenta en {0}%.",
+      "1": "el ATQ aumenta en {0}%.",
+      "2": "Aumenta el Bloqueo Fis. de todos los aliados en {0}."
+    },
+    "light": "La suma de Resistencia Fis. Crit se cambia a 300.",
+    "dark": "El objetivo recibe un 20% de Daño Fis aumentado"
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Resist Ctrl de Masas +100",
+    "dark": "Al recibir Daño, todos los aliados obtienen un ATQ del 2%. Este efecto se acumula 20 veces."
+  }
+}

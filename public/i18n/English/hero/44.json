@@ -1,0 +1,120 @@
+{
+  "name": "Priscilla",
+  "subtitle": "Maid of Steel",
+  "description": "Formally one of the highest order of the Orvelian Army, she became the maid of the genius mage, Aisha; the single daughter of the noble Daphnel Pon family. Her powerful halberd cuts down all enemies swiftly.",
+  "story": "A former officer of Orvelia's armed forces. After a failed attempt to reveal the corruption of military leaders, she was driven out from her position. Wanting to conceal their corruption, the military leaders constantly sent out assassins to eliminate her. The long and lonely fight was beginning to take its toll on her, physically and mentally. One day, the aristocratic von Daphnel family offered her protection in exchange for her service. She accepted, and has been working as Aisha's maid in the Tower of Sage ever since. To this day, she faithfully carries out her duties as a maid bodyguard. However, she sends all her payments to an undisclosed recipient.",
+  "like": "Comrades in arms, her lady, cute outfits for her lady",
+  "dislike": "Untidiness, injustice",
+  "inn": {
+    "idle": "Milady is napping at the moment.",
+    "recruit": {
+      "greet": "Milady isn't currently at her room.",
+      "talk": [
+        "...",
+        "We'll talk at the next opportunity.",
+        "I am no longer a soldier."
+      ],
+      "gift": "I am not used to such presents, but thank you."
+    },
+    "affinity": {
+      "greet": "It's you. Good to see you.",
+      "talk": [
+        "I hope my lady likes the new tea set I bought.",
+        "I'll have to stop by the forge to sharpen my axe."
+      ],
+      "gift": "Thank you. I hope you prepare some fresh tea next time."
+    },
+    "relationship": {
+      "greet": "So it's you... it's been a while.",
+      "talk": [
+        "Perhaps my past subordinates have suffered too much from my youthful outbursts...",
+        "She was such a small child, trying so hard to be an adult... So, I felt that I had to protect her.",
+        "I am satisfied with my current life. My wages are decent enough to let me help with my past subordinates' lives, too."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Tumultuous Dance, Excilius",
+    "description": [
+      "When attacking the enemy with 'Vital Strike' or 'Turbulent Dance', per every hit enemy, corresponding skill's cooldown is reduced by 1 sec and ATK Spd is increased by 50 for 5 sec. ATK Spd boost can be stacked up to 10 times max.",
+      "When attacking the enemy with 'Vital Strike' or 'Turbulent Dance', per every hit enemy, corresponding skill's cooldown is reduced by 1.2 sec and ATK Spd is increased by 50 for 5 sec. ATK Spd boost can be stacked up to 10 times max.",
+      "When attacking the enemy with 'Vital Strike' or 'Turbulent Dance', per every hit enemy, corresponding skill's cooldown is reduced by 1.4 sec and ATK Spd is increased by 50 for 5 sec. ATK Spd boost can be stacked up to 10 times max.",
+      "When attacking the enemy with 'Vital Strike' or 'Turbulent Dance', per every hit enemy, corresponding skill's cooldown is reduced by 1.7 sec and ATK Spd is increased by 50 for 5 sec. ATK Spd boost can be stacked up to 10 times max.",
+      "When attacking the enemy with 'Vital Strike' or 'Turbulent Dance', per every hit enemy, corresponding skill's cooldown is reduced by 2 sec and ATK Spd is increased by 50 for 5 sec. ATK Spd boost can be stacked up to 10 times max.",
+      "When attacking the enemy with 'Vital Strike' or 'Turbulent Dance', per every hit enemy, corresponding skill's cooldown is reduced by 2.5 sec and ATK Spd is increased by 50 for 5 sec. ATK Spd boost can be stacked up to 10 times max."
+    ],
+    "story": "During her military career, Priscilla felled countless enemies with her halberd. Although the halberd fell into a state of disrepair following her retirement, it was later resurrected as Exilius. This upgrade was a part of the order sent to Annette to create Mahitra for Aisha. This razor-sharp and incredibly durable new weapon even has the magical power to draw its enemies in. Those who have seen Priscilla slaughtering her Demon foes using this halberd claim that it was like watching an unstoppable storm."
+  },
+  "s1": {
+    "name": "Vital Strike",
+    "description": "Deals {0} P.DMG to frontal enemies in range and stuns them for 1 sec. This attack always inflicts a Crit Hit.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Stun duration is increased by 2 sec.",
+    "dark": "No longer Crits unconditionally, and Crit DMG is increased by 150%."
+  },
+  "s2": {
+    "name": "Coordination",
+    "description": "For 20 sec, places Priscilla and an ally with the highest ATK in 'Coordination' state, and dispels Negative Effects. Priscilla and the ally in Coordination State get an ATK boost equal to 15% of Priscilla's ATK + {0}.",
+    "books": {
+      "0": "ATK boost is increased by {0}%.",
+      "1": "ATK boost is increased by {0}%.",
+      "2": "ATK boost is increased by {0}%."
+    },
+    "light": "Crit DMG is increased by 80%.",
+    "dark": "While in Co-Op state, auto attacks increase the target's received DMG from all sources by 15%.",
+    "ut": {
+      "name": "Fancy Tea Set",
+      "description": [
+        "[Coordination] Increases ATK Boost by 20% and reduces Cooldown of the Hero with the highest ATK by 30%.",
+        "[Coordination] Increases ATK Boost by 24% and reduces Cooldown of the Hero with the highest ATK by 30%.",
+        "[Coordination] Increases ATK Boost by 29% and reduces Cooldown of the Hero with the highest ATK by 30%.",
+        "[Coordination] Increases ATK Boost by 35% and reduces Cooldown of the Hero with the highest ATK by 30%.",
+        "[Coordination] Increases ATK Boost by 42% and reduces Cooldown of the Hero with the highest ATK by 30%.",
+        "[Coordination] Increases ATK Boost by 50% and reduces Cooldown of the Hero with the highest ATK by 30%."
+      ],
+      "story": "Aisha's favorite ceramic tea cups that Priscilla has ready at all times. Luxurious tea cups made from the best clay of the eastern continent across the sea. It's mostly used for tea time with Aisha, but it is also used when using Coordination with Priscilla."
+    }
+  },
+  "s3": {
+    "name": "Turbulent Dance",
+    "description": "Deals {0} P.DMG to nearby enemies in a circular range and draws them towards herself. If activated while in the 'Coordination' state, hit enemies take {1}% extra P.DMG and M. DMG for 10 sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Upon a Crit hit, cooldown is reduced by 10%.",
+    "dark": "When there is only 1 enemy, DMG is increased by 100%.",
+    "ut": {
+      "name": "Magical Stone of Gravity",
+      "description": [
+        "[Turbulent Dance] DMG is increased by 20% and target is inflicted by Stun for 3 sec.",
+        "[Turbulent Dance] DMG is increased by 24% and target is inflicted by Stun for 3 sec.",
+        "[Turbulent Dance] DMG is increased by 29% and target is inflicted by Stun for 3 sec.",
+        "[Turbulent Dance] DMG is increased by 35% and target is inflicted by Stun for 3 sec.",
+        "[Turbulent Dance] DMG is increased by 42% and target is inflicted by Stun for 3 sec.",
+        "[Turbulent Dance] DMG is increased by 50% and target is inflicted by Stun for 3 sec."
+      ],
+      "story": "The first magic tool made by a wizard of Purple. The first gift that Aisha gave. Aisha created this magic tool because she felt bad that Priscilla used up so much power when using Turbulent Dance. The Mana Stone of Gravity relieves the pressure from the body when using Turbulent Dance, and it increases its effect."
+    }
+  },
+  "s4": {
+    "name": "Weapon Mastery",
+    "description": "Own ATK is increased by {0} , and Penetration is increased by {1}.",
+    "books": {
+      "0": "ATK boost is increased by {0}%.",
+      "1": "ATK boost is increased by {0}%.",
+      "2": "Crit DMG is increased by {0}%."
+    },
+    "light": "ATK boost is increased by 40%.",
+    "dark": "Crit Chance is increased by 250."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / CC Resist +100",
+    "dark": "Increase all allies' ATK and P.DEF by 3% of own ATK and P.DEF."
+  }
+}

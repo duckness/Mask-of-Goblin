@@ -1,0 +1,120 @@
+{
+  "name": "Lewisia",
+  "subtitle": "Realeza de Sangue Vermelho",
+  "description": "Uma princessa vampira que lutou ao lado de heróis de 100 anos atrás. Uma imortal de sangue puro, que atualmente se recupera das batalhas do passado. Ela excerce poder sobre todos os tipos de sangue, usando seus lacaios para atacar o inimigo.",
+  "story": "Uma princesa Vampira que se juntou a Kyle em sua guerra contra os Demônios 100 anos atrás. Ela é uma Vampira puro-sangue que está viva há 500 anos. Ela é imortal, e geralmente considerada Rainha dos Vampiros. O gasto massivo do seu poder durante a guerra contra os Demônios teve seu preço, e a princesa imortal agora possui uma forma infantil. Depois da guerra, ela se misturou à sociedade humana e assistiu às mudanças do mundo pelos próximos 100 anos enquanto lentamente recuperava seu poder. Quando os demônios reapareceram e a Espada Sagrada despertou, Lewisia percebeu mudanças repentinas de energia. Logo depois, ela partiu em uma jornada para encontrar e observar o guerreiro recém-escolhido.",
+  "like": "Viajar confortavelmente sem pressa",
+  "dislike": "Guerra e desordem",
+  "inn": {
+    "idle": "Isso é vigoroso. Perfeito para recuperação.",
+    "recruit": {
+      "greet": "Saudações, nos encontramos novamente. Pretende passar um tempo por aqui?",
+      "talk": [
+        "Hm? Admito que alho é um pouco picante, mas por que pergunta?",
+        "Eu amo o brilho do nascer do sol daqui. De onde venho, é escuro o tempo todo... Hmm? Por que você está olhando para mim deste jeito?",
+        "Assim que eu me recuperar, eu não serei mais incomodado com um corpo assim."
+      ],
+      "gift": "Presentes, hmm. Um traje interessante. Bem, se insistir, eu aceito seu presente."
+    },
+    "affinity": {
+      "greet": "Hum, hoje é um ótimo dia.",
+      "talk": [
+        "Minha condição de princesa? Hum... Nunca parei pra pensar sobre isso.",
+        "Aqui é bem melhor do que aquele lugar úmido e escuro de onde eu vim."
+      ],
+      "gift": "Um presente? Obrigada. Vou ter que arrumar alguma coisa pra você da próxima vez."
+    },
+    "relationship": {
+      "greet": "Olá. Está muito bom aqui fora, não é?",
+      "talk": [
+        "Meu corpo está se recuperando rapidamente hoje em dia. Tudo graças a você.",
+        "Por que às vezes eu reverto para minhas formas mais jovens quando eu estou ficando melhor? Bem, eu me entedio fácil... e as pessoas me dão lanche.",
+        "Eu gosto desse lugar porque é confortável... então eu planejo ficar mais um pouco ao seu lado."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Dominicia, Regente Escarlate",
+    "description": [
+      "Se o PV estiver acima de 50%, o ATQ aumenta em 20%. Se o PV estiver abaixo de 50%, recebe 10% de DAN reduzido.",
+      "Se o PV estiver acima de 50%, o ATQ aumenta em 24%. Se o PV estiver abaixo de 50%, recebe 12% de DAN reduzido.",
+      "Se o PV estiver acima de 50%, o ATQ aumenta em 29%. Se o PV estiver abaixo de 50%, recebe 14% de DAN reduzido.",
+      "Se o PV estiver acima de 50%, o ATQ aumenta em 35%. Se o PV estiver abaixo de 50%, recebe 17% de DAN reduzido.",
+      "Se o PV estiver acima de 50%, o ATQ aumenta em 42%. Se o PV estiver abaixo de 50%, recebe 21% de DAN reduzido.",
+      "Se o PV estiver acima de 50%, o ATQ aumenta em 50%. Se o PV estiver abaixo de 50%, recebe 25% de DAN reduzido."
+    ],
+    "story": "Um cajado de sangue que tem sido passado através das gerações da família do Vampiro Soberano. Seu tom carmesim simboliza a autoridade, discernimento e poder absoluto do Vampiro Soberano. Nas profundezas subterrâneas das Planícies de Galia, fica a terra sagrada dos Vampiros. Esse cajado lendário encontra-se lá, pronto para aparecer ao chamado de um mestre digno, independentemente de quem seja."
+  },
+  "s1": {
+    "name": "Orbe de Sangue",
+    "description": "Causa {0} de DAN.M ao inimigo, o alvo recebe 25% de DAN.M aumentado por 10 segundos. Para cada acúmulo de Maldição de Sangue, o DAN aumenta em 0,5%. Após o uso, consome 10% do PV atual.",
+    "books": {
+      "0": "DAN aumentado em {0}%.",
+      "1": "DAN aumentado em {0}%.",
+      "2": "DAN aumentado em {0}%."
+    },
+    "light": "O custo de mana aumenta em 1 orbe, mas o DAN é reforçado em 100%.",
+    "dark": "O alvo recebe mais 25% de DAN.M durante 10 segundos."
+  },
+  "s2": {
+    "name": "Zona de Sangue",
+    "description": "Causa {0} de DAN.M ao inimigo e cria um Zona de Sangue que dura 10 segundos ao redor do alvo. Inimigos com Zona de Sangue recebem {1} de DAN.M a cada 0,5 segundos, e a DEF.M é reduzida em 30%. Para cada acúmulo de Maldição de Sangue, o DAN aumenta em 0,5%. Após o uso, consome 20% do PV atual.",
+    "books": {
+      "0": "DAN aumentado em {0}%.",
+      "1": "DAN aumentado em {0}%.",
+      "2": "DAN aumentado em {0}%."
+    },
+    "light": "Aumenta o DAN em 40%.",
+    "dark": "Reduz o tempo de espera em 3 segundos.",
+    "ut": {
+      "name": "Feitiço de Névoa Sanguinária",
+      "description": [
+        "[Zona de Sangue] Aumenta o DAN em 20% e a duração do efeito por 2s.",
+        "[Zona de Sangue] Aumenta o DAN em 24% e a duração do efeito por 2s.",
+        "[Zona de Sangue] Aumenta o DAN em 29% e a duração do efeito por 2s.",
+        "[Zona de Sangue] Aumenta o DAN em 35% e a duração do efeito por 2s.",
+        "[Zona de Sangue] Aumenta o DAN em 42% e a duração do efeito por 2s.",
+        "[Zona de Sangue] Aumenta o DAN em 50% e a duração do efeito por 2s."
+      ],
+      "story": "Ferramenta mágica do sucessor de sangue. Os feitiços da pura família do Vampiro Soberano foram passado por gerações. O sucessor de Lewisia é o Vampiro Sir Lusben, e o Feitiço de Névoa Sanguinária é um presente seu. Lewisia odeia qualquer coisa que tenha a ver com ser uma sucessora, mas ela gosta de usar a Zona de Sangue e da forma como ela reduz sua fadiga."
+    }
+  },
+  "s3": {
+    "name": "Banquete de Sangue",
+    "description": "Ataca inimigos em uma linha reta 3 vezes, causando um total de {0} de DAN.M e infligindo Atordoamento por 3 segundos. Para cada acúmulo de Maldição de Sangue, o DAN aumenta em 0,5%. Após o uso, consome 10% do PV atual.",
+    "books": {
+      "0": "DAN aumentado em {0}%.",
+      "1": "DAN aumentado em {0}%.",
+      "2": "DAN aumentado em {0}%."
+    },
+    "light": "Após atacar um inimigo com mais de 80 acúmulos de Maldição de Sangue, toda a recarga do poder é reduzida em 5%.",
+    "dark": "Reduz o custo de mana em 1.",
+    "ut": {
+      "name": "Sangue Ancestral",
+      "description": [
+        "[Banquete de Sangue] Aumenta o DAN em 20% e, após o Golpe Crit, recupera 400 de mana.",
+        "[Banquete de Sangue] Aumenta o DAN em 24% e, após o Golpe Crit, recupera 400 de mana.",
+        "[Banquete de Sangue] Aumenta o DAN em 29% e, após o Golpe Crit, recupera 400 de mana.",
+        "[Banquete de Sangue] Aumenta o DAN em 35% e, após o Golpe Crit, recupera 400 de mana.",
+        "[Banquete de Sangue] Aumenta o DAN em 42% e, após o Golpe Crit, recupera 400 de mana.",
+        "[Banquete de Sangue] Aumenta o DAN em 50% e, após o Golpe Crit, recupera 400 de mana."
+      ],
+      "story": "Sangue da antiga rainha vampira. Quanto mais puro for o sangue de um vampiro, mais forte é seu sangue de mana. O melhor de todos eles é o sangue da antiga rainha vampira, e vampiros que bebem seu sangue têm mana e vida ilimitados. É um tipo de sangue muito viciante, então tenha cuidado ao usá-lo."
+    }
+  },
+  "s4": {
+    "name": "Dominador de Sangue",
+    "description": "Quando o PV estiver em 50% ou acima, o ATQ aumenta em {0} e a Penalidade de DEF aumenta em 250. Após o ataque, inflige Maldição de Sangue ao alvo, causando um total de {1} de DAN.M ao longo de 20 seg. e recuperando 10% de DAN causado por Maldição de Sangue em PV. Maldição de Sangue pode ser acumulada até 100 vezes e não pode ser removida.",
+    "books": {
+      "0": "DAN aumentado em {0}%.",
+      "1": "DAN aumentado em {0}%.",
+      "2": "DAN aumentado em {0}%."
+    },
+    "light": "O acúmulo máximo de Maldição de Sangue é alterado para 200.",
+    "dark": "A taxa de cura de todos os aliados aumenta para 20% e a taxa de cura de todos os inimigos é reduzida em 20%."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / Chance Crít. +100",
+    "dark": "Todo o consumo de PV com poderes aumenta em 50%, mas as recargas são reduzidas em 20%."
+  }
+}

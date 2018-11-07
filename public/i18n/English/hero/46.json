@@ -1,0 +1,120 @@
+{
+  "name": "Zafir",
+  "subtitle": "Prince of Sandstorms",
+  "description": "A descendant of the ancient God King. A refined young man who stood up to defend the desert. The sandstorm he summons with his arrow engulfs his enemies, ridding the world of their existence.",
+  "story": "A Prince and successor to the God King of the ancient desert kingdom who possesses the power to control desert sand. As the young leader of the Mauhata tribe of Desert Warriors, he has been trained and educated to be the worthy successor to the great king. When the Trovatia tribe, their sworn brothers, were praying at the Shrine of Flow to awake the God Dragon, he led his warriors to defeat all demons approaching the oasis. Assisted by the God Dragon and Laudia, her priestess, he is fulfilling his role as a Desert Warrior defending his home. He hopes that his efforts make the late God King proud.",
+  "like": "Cats, sand art, people in the desert",
+  "dislike": "Those who try to harm the people that he cares for",
+  "inn": {
+    "idle": "Wow, I've never seen drinks like these.",
+    "recruit": {
+      "greet": "May the blessings of the God King be with you.",
+      "talk": [
+        "Umm, this place is very different from the bars in the desert. We don't sit on the floor, do we?",
+        "A Desert Warrior puts their people before anything else.",
+        "...I don't particularly fancy crowded places, but this carefree atmosphere... I can't say I hate it."
+      ],
+      "gift": "Such tremendous kindness. Thank you."
+    },
+    "affinity": {
+      "greet": "How have you been?",
+      "talk": [
+        "The prophecy says the resurrection of the God King is near.",
+        "...If time allows, visit Aegina sometimes. I will be your guide."
+      ],
+      "gift": "The Desert Warriors will be happy that you are there as well."
+    },
+    "relationship": {
+      "greet": "Greetings, my desert friend.",
+      "talk": [
+        "I like cats... No creature comes even close when it comes to elegance.",
+        "Even the fierce sand storms in the desert could not leave a scuff on Desert Warriors.",
+        "I might have his blood flowing in my veins, but I think I have a long way to go to call myself a worthy successor."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Glory of the God King, Zaries",
+    "description": [
+      "Upon using a skill, gains 1 stack of 'Will of Desert'. 'Will of Desert' increases ATK by 4% and Penetration by 20 for 10 sec, and can be stacked up to max 5 times. This effect cannot be dispelled.",
+      "Upon using a skill, gains 1 stack of 'Will of Desert'. 'Will of Desert' increased ATK by 4.8% and Penetration by 24 for 10 sec, and can be stacked up to max 5 times. This effect cannot be dispelled.",
+      "Upon using a skill, gains 1 stack of 'Will of Desert'. 'Will of Desert' increased ATK by 5.6% and Penetration by 29 for 10 sec, and can be stacked up to max 5 times. This effect cannot be dispelled.",
+      "Upon using a skill, gains 1 stack of 'Will of Desert'. 'Will of Desert' increased ATK by 6.8% and Penetration by 35 for 10 sec, and can be stacked up to max 5 times. This effect cannot be dispelled.",
+      "Upon using a skill, gains 1 stack of 'Will of Desert'. 'Will of Desert' increased ATK by 8% and Penetration by 42 for 10 sec, and can be stacked up to max 5 times. This effect cannot be dispelled.",
+      "Upon using a skill, gains 1 stack of 'Will of Desert'. 'Will of Desert' increases ATK by 10% and Penetration by 50 for 10 sec, and can be stacked up to max 5 times. This effect cannot be dispelled."
+    ],
+    "story": "An ancient Weapon forged for the most glorious being on earth. Only permitted to the successor to the God King, one should undergo tremendous ordeals to prove his worth as its owner. This bow, allowed only for the chosen successor to the God King, has absolute power in the desert."
+  },
+  "s1": {
+    "name": "Judgment of the Desert",
+    "description": "Deals {0} P.DMG enemies in a wide range, and per each hit enemy, skill cooldown is decreased by 1 sec. Deals {1} P.DMG to enemies inflicted by [Mark of Desert] and removes 1 stack of [Mark of Desert]. Upon each skill use, Crit DMG is increased by 5%. This effect can be stacked up to max 12 times and cannot be dispelled.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Crit DMG boost per use changes to 10%.",
+    "dark": "Hit enemy is inflicted by Blind for 1 sec."
+  },
+  "s2": {
+    "name": "Blessing of the Sand Spirit",
+    "description": "Creates a shield around the ally with the lowest HP that absorbs {1} DMG for {0} sec. Gains immunity to CC while the shield lasts. When the shield duration is over, 'Sand Storm' is activated and deals {2} P.DMG to enemies in a wide range, inflicting 2 stacks of [Mark of Desert]. If the shield is dispelled or destroyed, 'Sand Storm' does not activate.",
+    "books": {
+      "0": "DMG and Shield are increased by {0}%.",
+      "1": "DMG and Shield are increased by {0}%.",
+      "2": "DMG and Shield are increased by {0}%."
+    },
+    "light": "Skill cooldown is decreased by 5 sec.",
+    "dark": "Enemies hit by 'Sand Storm' are knocked back far away and are knocked down for 3 sec.",
+    "ut": {
+      "name": "Sand of Mirage",
+      "description": [
+        "[Blessing of the Sand Spirit] Shield absorbs 20% more DMG and dispels CC inflicted on self.",
+        "[Blessing of the Sand Spirit] Shield absorbs 24% more DMG and dispels CC inflicted on self.",
+        "[Blessing of the Sand Spirit] Shield absorbs 29% more DMG and dispels CC inflicted on self.",
+        "[Blessing of the Sand Spirit] Shield absorbs 35% more DMG and dispels CC inflicted on self.",
+        "[Blessing of the Sand Spirit] Shield absorbs 42% more DMG and dispels CC inflicted on self.",
+        "[Blessing of the Sand Spirit] Shield absorbs 50% more DMG and dispels CC inflicted on self."
+      ],
+      "story": "An hourglass that was buried underground for a long time by an enormous sandstorm that struck Aegina Desert. When the sand in the hourglass moves, it calls for the mirage of an ancient city coming back to life. The high priest of the ancient kingdom used this to show the glory of the kingdom to its people in the past. Seeing their city shining in gold, people grew proud of their kingdom."
+    }
+  },
+  "s3": {
+    "name": "Doom of the Desert",
+    "description": "Deals {0} P.DMG to frontal enemies in a wide range and inflicts 1 stack of [Mark of Desert]. Then summons 'Pit of Sand' for 5 sec, dealing {1} P.DMG every 0.5 sec, and decreasing their P.DEF by 30% for 10 sec. 'Pit of Sand' has a 25% chance of inflicting 1 stack of [Mark of Desert] and draws in all enemies in range to the center.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Mana cost is decreased by 1.",
+    "dark": "Duration of 'Pit of Sand' is increased by 2 sec.",
+    "ut": {
+      "name": "Soul of Oasis",
+      "description": [
+        "[Doom of the Desert] Skill cooldown is decreased by 30% and effect activation chance is increased by 8%.",
+        "[Doom of the Desert] Skill cooldown is decreased by 30% and effect activation chance is increased by 9.6%.",
+        "[Doom of the Desert] Skill cooldown is decreased by 30% and effect activation chance is increased by 11.5%.",
+        "[Doom of the Desert] Skill cooldown is decreased by 30% and effect activation chance is increased by 13.8%.",
+        "[Doom of the Desert] Skill cooldown is decreased by 30% and effect activation chance is increased by 16.5%.",
+        "[Doom of the Desert] Skill cooldown is decreased by 30% and effect activation chance is increased by 20%."
+      ],
+      "story": "A magical sword passed down through the God King's descendants. The name 'Oasis' comes from how it was used to serve the people in dire times. After the kingdom fell, its whereabouts was unknown to the world until Zafir saw it among Kumuro's art collections and bought it at an incredibly high price. With the sword finally returning to the worthy descendant, Zafir was able to inherit his forefather's spirits, maximizing his potentials."
+    }
+  },
+  "s4": {
+    "name": "Calling of the Guardian",
+    "description": "Each auto attack has a 15% chance of dealing {0} P.DMG that ignores DEF to all enemies, inflicting 1 stack of [Mark of Desert]. [Mark of Desert] can be stacked up to max 5 times.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "When there are over 5 enemies, all enemies are inflicted with 5 stacks of 'Mark of Desert'. This effect is activated once every 20 sec.",
+    "dark": "Activation chance changes to 30%."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / Crit Chance +100",
+    "dark": "Recovers 500 mana upon using a skill. If there are over 5 enemies, mana recovery rate is doubled and ATK Spd is increased by 500 for 5 sec. This effect cannot be stacked."
+  }
+}

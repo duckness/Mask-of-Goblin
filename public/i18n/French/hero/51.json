@@ -1,0 +1,120 @@
+{
+  "name": "Aselica",
+  "subtitle": "Gardienne du soleil",
+  "description": "Portant le titre de Chevalier des cieux vertueux, elle pourfend les forces maléfiques de son épée et protège les faibles de son bouclier. Son objectif est de vaincre les démons qui saccagent le monde matériel. Son épée et son bouclier majestueux terrassent ses ennemis et leur lumière protège ses camarades.",
+  "story": "Une ange puissante défendant leur havre. Même parmi les anges maniant le pouvoir de la lumière, elle a un lien particulier avec le soleil, dont elle utilise la lumière divine pour lutter contre les ténèbres. Elle a pour tâche de protéger les âmes des autres anges attendant leur résurrection. Lors que l'Épée Sacrée réapparut, elle répondit à l'appel divin de rejoindre le nouveau protecteur du monde. Elle fera en sorte que le guerrier élu ne succombe pas au pouvoir des ténèbres.",
+  "like": "Les compagnons, faire respecter la loi",
+  "dislike": "Les démons",
+  "inn": {
+    "idle": "Alors c'est ici que le Héros habite...",
+    "recruit": {
+      "greet": "Puissent les bénédiction du soleil être avec vous.",
+      "talk": [
+        "Je ne perdrais pas contre de simples Démons.",
+        "Le soleil ne fait pas de discrimination et partage sa lumière avec tout le monde.",
+        "Connaissez-vous un homme nommé Arch?"
+      ],
+      "gift": "Cela ne m'est d'aucune utilité... mais merci quand même."
+    },
+    "affinity": {
+      "greet": "Guerrier. Alors voici vos quartiers ?",
+      "talk": [
+        "Les démons sont malveillants. Il faut les exterminer coûte que coûte.",
+        "N'oubliez pas que le soleil brille toujours derrière vous."
+      ],
+      "gift": "Les humains peuvent se montrer attentionnés. Bref, merci à vous."
+    },
+    "relationship": {
+      "greet": "Je sens la chaleur du soleil en vous... Est-ce que quelque chose de bon s'est produit?",
+      "talk": [
+        "Ainsi, des démons essayent de sauver le monde. Comme c'est étrange.",
+        "Le Sanctuaire des Anges est le lieu vers lequel nous retournons tous à un moment donné.",
+        "Je suis votre gardien - et de ce fait, je vous offre mes bras."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Ignisius, halo solaire",
+    "description": [
+      "Lorsque l'ennemi est touché 5 fois par une attaque normale, la cible subit 20 % de DEG M supplémentaires pendant 10 secondes et est étourdie pendant 0,5 seconde.",
+      "Lorsque l'ennemi est touché 5 fois par une attaque normale, la cible subit 24 % de DEG M supplémentaires pendant 10 secondes et est étourdie pendant 0,5 seconde.",
+      "Lorsque l'ennemi est touché 5 fois par une attaque normale, la cible subit 29 % de DEG M supplémentaires pendant 10 secondes et est étourdie pendant 0,5 seconde.",
+      "Lorsque l'ennemi est touché 5 fois par une attaque normale, la cible subit 35 % de DEG M supplémentaires pendant 10 secondes et est étourdie pendant 0,5 seconde.",
+      "Lorsque l'ennemi est touché 5 fois par une attaque normale, la cible subit 42 % de DEG M supplémentaires pendant 10 secondes et est étourdie pendant 0,5 seconde.",
+      "Lorsque l'ennemi est touché 5 fois par une attaque normale, la cible subit 50 % de DEG M supplémentaires pendant 10 secondes et est étourdie pendant 0,5 seconde."
+    ],
+    "story": "Les légendes évoquent un mystérieux métal, aussi doré que les glorieux rayons du soleil, bleu que l'azur du ciel et blanc que la lumière aveuglante. Cette épée et ce bouclier sacrés ont été forgés dans ce métal que seuls les anges peuvent travailler. Ces divines reliques protectrices furent créées afin de bannir les ténèbres et d'inonder le monde de lumière. Confiées aux parangons des Chevaliers Gardiens angéliques, elles peuvent instantanément incinérer les démons qu'elles éclairent de leur lumière."
+  },
+  "s1": {
+    "name": "Épée du soleil",
+    "description": "Inflige {0}  points de DEG M à la cible et aux ennemis à portée et les étourdit pendant {1}  s.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "Augmente la durée d'Étourdissement pendant {0} sec."
+    },
+    "light": "Après activation, la Vit ATQ augmente de 350 pendant 5 s.",
+    "dark": "Réduit le temps de recharge de 2 s."
+  },
+  "s2": {
+    "name": "Bénédiction du soleil",
+    "description": "Confère la Bénédiction du soleil à l'allié qui possède l'ATQ la plus élevée, ce qui réduit de 20 % le temps de recharge de toutes ses compétences et augmente son ATQ de {0} pendant 15 s.",
+    "books": {
+      "0": "Le taux d'augmentation d'ATQ est augmenté de {0}%.",
+      "1": "Le taux d'augmentation d'ATQ est augmenté de {0}%.",
+      "2": "Le taux d'augmentation d'ATQ est augmenté de {0}%."
+    },
+    "light": "Augmente le coût en mana de 1 et accorde cet effet aux 2 alliés qui ont l'ATQ la plus élevée.",
+    "dark": "À l'utilisation, ignore leseffets négatifs qui pèsent sur le lanceur et dissipe ceux qui pèsent sur l'allié ciblé.",
+    "ut": {
+      "name": "Bracelet du soleil",
+      "description": [
+        "[Bénédiction du Soleil] Réduit le coût en mana de 1 et diminue les DEG P de la cible de 10% pendant 10 sec.",
+        "[Bénédiction du Soleil] Réduit le coût en mana de 1 et diminue les DEG P de la cible de 12% pendant 10 sec.",
+        "[Bénédiction du Soleil] Réduit le coût en mana de 1 et diminue les DEG P de la cible de 14% pendant 10 sec.",
+        "[Bénédiction du Soleil] Réduit le coût en mana de 1 et diminue les DEG P de la cible de 17% pendant 10 sec.",
+        "[Bénédiction du Soleil] Réduit le coût en mana de 1 et diminue les DEG P de la cible de 21% pendant 10 sec.",
+        "[Bénédiction du Soleil] Réduit le coût en mana de 1 et diminue les DEG P de la cible de 25% pendant 10 sec."
+      ],
+      "story": "Bracelet confectionné par les archanges pour protéger les anges lors de leur venue sur terre. Il renferme le soleil, c’est pourquoi il brille de mille feux. Lorsque les anges sont effrayés, l’on raconte que la lumière du soleil contenue dans le bracelet protège leur âme. Le sort des tous les anges étant mêlé à l’intérieur du bracelet, à chaque fois que la vie de l’un d’entre eux est en danger, les autres le ressentent instantanément."
+    }
+  },
+  "s3": {
+    "name": "Jugement du soleil",
+    "description": "Prend position et se concentre pour restaurer les PV des alliés à proximité (à l'exception du lanceur de sort), et ce 8 fois jusqu'à un total de {0}. Augmente également leur DEF P de {1} pendant 5 s. Permet aussi d'infliger 8 fois un total de {2}  points de DEG M aux ennemis à portée et de réduire leur DEF M de {3} pendant 5 s. À la fin de l'incantation, les alliés à portée récupèrent {4}  PV (à l'exception du lanceur de sort). Inflige également {5}  points de DEG M aux ennemis et les renverse pendant 3 s.",
+    "books": {
+      "0": "DEG et Récupération augmentés de {0}%.",
+      "1": "DEG et Récupération augmentés de {0}%.",
+      "2": "DEG et Récupération augmentés de {0}%."
+    },
+    "light": "Réduit le coût en mana de 1.",
+    "dark": "Augmente de 5 s la durée de la réduction de la DEF M.",
+    "ut": {
+      "name": "Trompette de gardien",
+      "description": [
+        "[Jugement du Soleil] Procure une immunité aux Contrôles pendant l'utilisation et augmente le boost de DEF P. ainsi que la Réduction de DEF M. de 20%.",
+        "[Jugement du Soleil] Procure une immunité aux Contrôles pendant l'utilisation et augmente le boost de DEF P. ainsi que la Réduction de DEF M. de 24%.",
+        "[Jugement du Soleil] Procure une immunité aux Contrôles pendant l'utilisation et augmente le boost de DEF P. ainsi que la Réduction de DEF M. de 29%.",
+        "[Jugement du Soleil] Procure une immunité aux Contrôles pendant l'utilisation et augmente le boost de DEF P. ainsi que la Réduction de DEF M. de 35%.",
+        "[Jugement du Soleil] Procure une immunité aux Contrôles pendant l'utilisation et augmente le boost de DEF P. ainsi que la Réduction de DEF M. de 42%.",
+        "[Jugement du Soleil] Procure une immunité aux Contrôles pendant l'utilisation et augmente le boost de DEF P. ainsi que la Réduction de DEF M. de 50%."
+      ],
+      "story": "Cette trompette est supposée être utilisée par le chef des archanges lors de la catastrophe qui signera la fin du monde matériel. L’on raconte que lorsque les gardiens entendront le son de cette trompette, ils se réveilleront et viendront protéger cette terre."
+    }
+  },
+  "s4": {
+    "name": "Malédiction du soleil",
+    "description": "Lorsque vous attaquez la cible, les ennemis se retrouvent sous le coup de la Malédiction du soleil pendant 10 s. Ceux qui en auront accumulé 10 subiront {0}  points de DEG M, seront aveuglés pendant {1}  s et leur ATQ sera réduite de {2}  % pendant 10 s.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "La réduction de l'ATQ passe à 30 %.",
+    "dark": "S'active lorsque la Malédiction du soleil est accumulée 7 fois."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Blocage P. +200",
+    "dark": "Au début de la première bataille, la DEF P de l'allié à l'ATQ la plus élevée augmente à hauteur de 20 % de la DEF P. Cet effet ne peut pas être dissipé."
+  }
+}

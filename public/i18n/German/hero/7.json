@@ -1,0 +1,120 @@
+{
+  "name": "Lakrak",
+  "subtitle": "Jäger mit der Handkanone",
+  "description": "Ein weißer Goblin, extrem begabt in mechanischer Ingenieurskunst. Er verursacht Explosivschaden mit seiner Handkanone, unterbricht Feinde mit Spezialkugeln und verursacht tödlichen Schaden an ihnen.",
+  "story": "Dieser verschrobene Albino-Goblin hat an nichts mehr Spaß, als an der Entwicklung mächtiger Waffen. Weil er von anderen Goblins aufgrund seiner Hautfarbe belästigt und ausgegrenzt wurde, hat er keinerlei Mitgefühl mit seiner eigenen Rasse. Bereitwillig erschießt, zerschmettert oder sprengt er andere Goblins, um seine Waffen zu testen. Doch er zeigt jenen, die ihm helfen, seine Dankbarkeit. So wurde er auch zu Rois Freund. Unglücklicherweise ist er sehr schlecht darin, sich Gesichter zu merken, weshalb er öfter versucht, Roi zu erschießen, ehe er sich daran erinnert, wer er eigentlich ist.",
+  "like": "Schießpulver; Gewehre; Kanonen",
+  "dislike": "Alberne Goblins",
+  "inn": {
+    "idle": "Keine Goblins hier! Guter Platz.",
+    "recruit": {
+      "greet": "Ack!! Du Waffe gut aussehen!!",
+      "talk": [
+        "Du kämpfen Goblins?! Gewinnen?! Kakakak, gut!!",
+        "Ack, überraschen mich!! Ack, Experiment helfen?! Okay!! Sofort!!",
+        "Interesse Handkanonen?! Du gut!! Schlau!!"
+      ],
+      "gift": "Geschenk?! Waffe Umbau Geld?!! Gut!! Extra Schießpulver!!"
+    },
+    "affinity": {
+      "greet": "Willkommen!!! Du wollen meine Forschung begutachten?",
+      "talk": [
+        "Ich möchte Menschensprache beherrschen gut! A-B-C-Deeh!!! D immer Problem!!!",
+        "Kein Mensch wie du! Eindeutig! Du eindeutig Freund! Jetzt ich habe Roi und dich!!!"
+      ],
+      "gift": "Du gebracht etwas Gutes!? Ich kenne gute Dinge! Großartig!!!"
+    },
+    "relationship": {
+      "greet": "Kukakak! Heute Forschung gut!",
+      "talk": [
+        "Schwarzpulver! Explosionen! Kakakak!",
+        "Experimente! Experimente! Mehr Experimente! Waffen entwickeln Spaß macht!",
+        "Daten für Forschung sehr gut, danke! Sehr beste Freunde!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Lakrak MK-1",
+    "description": [
+      "Erhält eine Chance von 25 %, beim Angreifen einen Stapel Schießpulver zu erhalten. Jeder Stapel Schießpulver erhöht den ANG um 3 %, die ANG-Geschwindigkeit um 30 und den Schaden an Feinden, die keine Helden sind, um 3 %. Schießpulver ist bis zu 7-mal stapelbar und kann nicht entfernt werden.",
+      "Erhält eine Chance von 25 %, beim Angreifen einen Stapel Schießpulver zu erhalten. Jeder Stapel Schießpulver erhöht den ANG um 3,6 %, die ANG-Geschwindigkeit um 36 und den Schaden an Feinden, die keine Helden sind, um 3,6 %. Schießpulver ist bis zu 7-mal stapelbar und kann nicht entfernt werden.",
+      "Erhält eine Chance von 25 %, beim Angreifen einen Stapel Schießpulver zu erhalten. Jeder Stapel Schießpulver erhöht den ANG um 4,3 %, die ANG-Geschwindigkeit um 43 und den Schaden an Feinden, die keine Helden sind, um 4,3 %. Schießpulver ist bis zu 7-mal stapelbar und kann nicht entfernt werden.",
+      "Erhält eine Chance von 25 %, beim Angreifen einen Stapel Schießpulver zu erhalten. Jeder Stapel Schießpulver erhöht den ANG um 5,1 %, die ANG-Geschwindigkeit um 51 und den Schaden an Feinden, die keine Helden sind, um 5,1 %. Schießpulver ist bis zu 7-mal stapelbar und kann nicht entfernt werden.",
+      "Erhält eine Chance von 25 %, beim Angreifen einen Stapel Schießpulver zu erhalten. Jeder Stapel Schießpulver erhöht den ANG um 6,2 %, die ANG-Geschwindigkeit um 62 und den Schaden an Feinden, die keine Helden sind, um 6,2 %. Schießpulver ist bis zu 7-mal stapelbar und kann nicht entfernt werden.",
+      "Erhält eine Chance von 25 %, beim Angreifen einen Stapel Schießpulver zu erhalten. Jeder Stapel Schießpulver erhöht den ANG um 7,5 %, die ANG-Geschwindigkeit um 75 und den Schaden an Feinden, die keine Helden sind, um 7,5 %. Schießpulver ist bis zu 7-mal stapelbar und kann nicht entfernt werden."
+    ],
+    "story": "Das zerstörerische und doch künstlerische Opus Magnum eines schrulligen Goblin-Erfinders. Diese Einhandkanone verfügt über die maximale Feuerkraft, die ein Goblin körperlich handzuhaben vermag. Trotz der gefährlich großen Menge des verwendeten Schießpulvers ist diese Waffe glücklicherweise bislang nicht explodiert."
+  },
+  "s1": {
+    "name": "Schnellfeuer",
+    "description": "Greift alle Frontfeinde in einer gerade Linie an, verursacht {0} K.Schaden und wirft sie zurück. Verursacht zusätzlich {1} K.Schaden und betäubt das Ziel für {2} Sek., wenn es kein Held ist.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Erhöht Schaden um 40%.",
+    "dark": "Betäubt den Feind für 3 Sek."
+  },
+  "s2": {
+    "name": "Rauchbombe",
+    "description": "Fügt Feinden in Reichw. {0} K.Schaden zu und blendet sie für 4 Sek.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Fügt Feinden Schaden zu und betäubt sie für 1 Sek."
+    },
+    "light": "Reduziert Manakosten um 1.",
+    "dark": "Erhöht Blendungsdauer um 2 Sek.",
+    "ut": {
+      "name": "Spezialgasmaske",
+      "description": [
+        "[Rauchbombe] Verringert den Cooldown um 30 % und erhöht die Blendungsdauer um 1 Sek.",
+        "[Rauchbombe] Verringert den Cooldown um 30 % und erhöht die Blendungsdauer um 1,2 Sek.",
+        "[Rauchbombe] Verringert den Cooldown um 30 % und erhöht die Blendungsdauer um 1,4 Sek.",
+        "[Rauchbombe] Verringert den Cooldown um 30 % und erhöht die Blendungsdauer um 1,7 Sek.",
+        "[Rauchbombe] Verringert den Cooldown um 30 % und erhöht die Blendungsdauer um 2,1 Sek.",
+        "[Rauchbombe] Verringert den Cooldown um 30 % und erhöht die Blendungsdauer um 2,5 Sek."
+      ],
+      "story": "Eine Hochleistungsmaske, die aus speziellen Materialien geschaffen wurde, die Lakrak aus dem ganzen Orbis-Kontinent zusammensammelte. Diese Maske ist aus der ersten Feder einer Harpyie, einer Drachenschuppe, einem Blatt des Weltenbaums und dem Mithril des Kaiserreiches hergestellt – alles schwer zu findende Materialien. Die Maske schützt vor giftigem Gas und dem Blindheitseffekt von Rauchbomben."
+    }
+  },
+  "s3": {
+    "name": "Leim-Bombe",
+    "description": "Wirft eine Leim-Bombe auf einen zufälligen Feind. Die Bombe explodiert nach {0} Sek. für {1} K. Schaden proportional zu den aktuellen TP des Feindes an Feinden in Reichweite und betäubt für 3 Sek. Beim direkten Angriff auf die Leim-Bombe wird das Ziel für 2 Sek. betäubt.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Manakosten sind um 1 erhöht und es wird ein zufälliges Ziel 2 Mal attackiert.",
+    "dark": "Reduziert Manakosten um 1.",
+    "ut": {
+      "name": "Speziell verdichteter Goblin-Sprengstoff",
+      "description": [
+        "[Leim-Bombe] Erhöht Schaden um 50% und stellt bei Krit. Treffern 200 Mana wieder her.",
+        "[Leim-Bombe] Erhöht Schaden um 50% und stellt bei Krit. Treffern 240 Mana wieder her.",
+        "[Leim-Bombe] Erhöht Schaden um 50% und stellt bei Krit. Treffern 290 Mana wieder her.",
+        "[Leim-Bombe] Erhöht Schaden um 50% und stellt bei Krit. Treffern 350 Mana wieder her.",
+        "[Leim-Bombe] Erhöht Schaden um 50% und stellt bei Krit. Treffern 420 Mana wieder her.",
+        "[Leim-Bombe] Erhöht Schaden um 50% und stellt bei Krit. Treffern 500 Mana wieder her."
+      ],
+      "story": "Schießpulver, das mittels Lakraks gefährlichen Geheimrezept hergestellt wurde. Lakrak glaubte, dass einfache Explosionen für Kampfstrategien nicht effektiv genug seien, also fügte er etwas Ameisensäure und Brennnesselgift hinzu, um einen Betäubungseffekt zu erzielen. Es benötigt einen extrem genauen Filterprozess und er benutzt es im Geheimen, um einem Missbrauch vorzubeugen."
+    }
+  },
+  "s4": {
+    "name": "Kanone laden",
+    "description": "Normale Angriffen haben eine 15%-ige Chance eine Bombe abzufeuern, die {1} K. Schaden an Feinden in Reichweite verursacht und sie für 2 Sek. betäubt.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Erhöht Aktivierungschance um 10%.",
+    "dark": "Ziel nimmt 25% erhöhten K.Schaden."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / Krit. Schaden +20%",
+    "dark": "Erhöht bei einem krit. Treffer krit. Schaden um 5% und Statuseffekt-Präzision um 30. Kumuliert sich bis zu 10 Mal."
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Lilia",
+  "subtitle": "La hija de la tormenta y el mar",
+  "description": "Una muchacha dragón azul que acaba de finalizar su período de Cría y hermana de Laias, la clériga del agua. A pesar de ser joven e inexperta, quienes la menosprecian suelen pagarlo muy caro. Ella usa la energía implacable del agua para aniquilar a sus enemigos.",
+  "story": "Una diosa dragón del oasis y hermana de la clériga del agua, Laias. Todavía es un dragón azul joven que adora a su hermana mucho mayor. Cuando Laias cayó en un sueño profundo después de agotar sus poderes en la batalla de hace 100 años, Lilia defendió el Templo de la corriente sola. Cuando escuchó las plegarias desesperadas de los niños del desierto, finalmente despertó a la clériga del agua para que los protegiera. A diferencia de su hermana tranquila y reflexiva, ella es un poco estricta, y la forma en que controla el poder de la corriente y del agua también es algo agresiva. Ella siente la necesidad de proteger a su hermana de los hombres que la cortejan, pero que no la merecen.",
+  "like": "Laias, tragos dulces, gente del desierto",
+  "dislike": "Aquellos que cortejan a su hermana (Neraxis, Cain)",
+  "inn": {
+    "idle": "Demasiados... humanos...",
+    "recruit": {
+      "greet": "¡Que la corriente te acompañe!",
+      "talk": [
+        "No soy tan amable como mi hermana.",
+        "¿Que los dragones azules son débiles? Nada más lejos de la verdad.",
+        "Soy un dragón grande. ¡Ya tengo edad suficiente!"
+      ],
+      "gift": "Gracias, niño humano."
+    },
+    "affinity": {
+      "greet": "¡Hola, te ves genial!",
+      "talk": [
+        "La misión de mi hermana también es mi misión. Siempre estaré a su lado.",
+        "¿El misterio del agua infinita? Hum... Escuché que se trataba del poder del primer dragón azul."
+      ],
+      "gift": "Muchas gracias. Usaré eso para el Templo de la corriente."
+    },
+    "relationship": {
+      "greet": "¡Me alegra volver a verte!",
+      "talk": [
+        "¿Neraxis? Que idiota. Siempre quiere llamar la atención de mi hermana.",
+        "¿Cain? Eh... Creí que se había ido para siempre. No puedo creer que esté coqueteando con mi hermana otra vez...",
+        "Quiero a mi hermana más que a nadie... pero tú también me agradas."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Fuente infinita, Cielamaha",
+    "description": [
+      "El Mana se recupera en 50 por cada segundo. Con cada Ataque, hay un 80 % de probabilidades de infligir un 20 % del Ataque como Daño físico.",
+      "El Mana se recupera en 60 por cada segundo. Con cada Ataque, hay un 80 % de probabilidades de infligir un 24 % del Ataque como Daño físico.",
+      "El Mana se recupera en 70 por cada segundo. Con cada Ataque, hay un 80 % de probabilidades de infligir un 28 % del Ataque como Daño físico.",
+      "El Mana se recupera en 85 por cada segundo. Con cada Ataque, hay un 80 % de probabilidades de infligir un 34 % del Ataque como Daño físico.",
+      "El Mana se recupera en 105 por cada segundo. Con cada Ataque, hay un 80 % de probabilidades de infligir un 42 % del Ataque como Daño físico.",
+      "El Mana se recupera en 125 por cada segundo. Con cada Ataque, hay un 80 % de probabilidades de infligir un 50 % del Ataque como Daño físico."
+    ],
+    "story": "Una fuente infinita de la que brota agua sin parar. Es un jarro creado por el primer dragón azul, quien controlaba toda el agua de la tierra. Reacciona ante la imaginación de quien la usa. Para una niña joven, sensible y creativa como Lilia, es el tesoro y el arma más increíble."
+  },
+  "s1": {
+    "name": "Tempestad de agua",
+    "description": "Durante 8 segundos, invoca el efecto Tempestad de agua sobre un objetivo aleatorio y sobre los enemigos en el rango del objetivo. Además, causa {0} de Daño físico cada 0,5 segundos. Si el objetivo muere, Tempestad de agua se invoca para atacar a otro objetivo aleatorio durante el tiempo restante.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "La Velocidad de ataque del objetivo afectado disminuye en 250 durante 10 segundos.",
+    "dark": "Cada uso aumenta el Daño en un 20%. Acumula 15 veces máx."
+  },
+  "s2": {
+    "name": "Oasis eterno",
+    "description": "Cuando se activa, se convierte al estado Oasis eterno durante 15 segundos. Mientras dura el estado Oasis eterno, la tasa de Recuperación de Mana por segundo aumenta en un 150 % y el Ataque aumenta en {0}. Además, toda la Defensa aumenta en {1}.",
+    "books": {
+      "0": "La Recuperación de Mana y el Aumento del ataque se incrementan en un {0}  %.",
+      "1": "La Recuperación de Mana y el Aumento del ataque se incrementan en un {0}  %.",
+      "2": "La Recuperación de Mana y el Aumento del ataque se incrementan en un {0}  %."
+    },
+    "light": "El costo de Mana aumenta en 1 y se activa adicionalmente en el aliado que tenga el Ataque más alto (excepto uno mismo).",
+    "dark": "La duración de la habilidad disminuye en 5 segundos y todos los efectos aumentan en un 100 %.",
+    "ut": {
+      "name": "Corazón de corriente",
+      "description": [
+        "[Oasis eterno] El efecto no se puede disipar, y el Daño crítico aumenta en un 20 % mientras dura la habilidad.",
+        "[Oasis eterno] El efecto no se puede disipar, y el Daño crítico aumenta en un 24 % mientras dura la habilidad.",
+        "[Oasis eterno] El efecto no se puede disipar, y el Daño crítico aumenta en un 29 % mientras dura la habilidad.",
+        "[Oasis eterno] El efecto no se puede disipar, y el Daño crítico aumenta en un 35 % mientras dura la habilidad.",
+        "[Oasis eterno] El efecto no se puede disipar, y el Daño crítico aumenta en un 42 % mientras dura la habilidad.",
+        "[Oasis eterno] El efecto no se puede disipar, y el Daño crítico aumenta en un 50 % mientras dura la habilidad."
+      ],
+      "story": "Un collar de oro que Laias elaboró para Lilia con una gema de protección. Brilla con la energía de los elementales del agua que contiene. Es un símbolo del cariño que siente Laias por su hermana pequeña."
+    }
+  },
+  "s3": {
+    "name": "Catarata celestial",
+    "description": "Arroja gotas de agua 15 veces a enemigos aleatorios, lo que causa un total de {0} de Daño físico. Además, arroja gotas grandes de agua 5 veces al objetivo y a otros enemigos dentro del rango, lo que causa {1} de Daño físico. Los enemigos alcanzados por la gota grande de agua reciben el efecto Aturdir durante {2} segundo(s). Por cada gota de agua arrojada, se consume {3} de Mana, y el costo de Mana aumenta en {4}. Su uso se detiene cuando el Mana llega a 0.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Mientras esté en uso, obten inmunidad al Ctrl de Masas",
+    "dark": "Por cada gota de agua arrojada, el costo de Mana y la tasa de consumo de Mana aumentan en un 100 %. Por cada gota de agua arrojada, hay un 50 % de probabilidades de arrojar una gota adicional.",
+    "ut": {
+      "name": "Tetera sin fondo de elementales",
+      "description": [
+        "[Catarata celestial] Con cada Ataque, hay un 7% de probabilidades de arrojar una gota grande de agua, lo que inflige un 100% del Ataque como Daño físico y aumenta el Daño crítico propio en un 2% durante 7 segundos.",
+        "[Catarata celestial] Con cada Ataque, hay un 7% de probabilidades de arrojar una gota grande de agua, lo que inflige un 100% del Ataque como Daño físico y aumenta el Daño crítico propio en un 2,4% durante 7 segundos.",
+        "[Catarata celestial] Con cada Ataque, hay un 7% de probabilidades de arrojar una gota grande de agua, lo que inflige un 100% del Ataque como Daño físico y aumenta el Daño crítico propio en un 2,8% durante 7 segundos.",
+        "[Catarata celestial] Con cada Ataque, hay un 7% de probabilidades de arrojar una gota grande de agua, lo que inflige un 100% del Ataque como Daño físico y aumenta el Daño crítico propio en un 3,4% durante 7 segundos.",
+        "[Catarata celestial] Con cada Ataque, hay un 7% de probabilidades de arrojar una gota grande de agua, lo que inflige un 100% del Ataque como Daño físico y aumenta el Daño crítico propio en un 4,2% durante 7 segundos.",
+        "[Catarata celestial] Con cada Ataque, hay un 7% de probabilidades de arrojar una gota grande de agua, lo que inflige un 100% del Ataque como Daño físico y aumenta el Daño crítico propio en un 5% durante 7 segundos."
+      ],
+      "story": "Una tetera que elaboraron los amigos cactus de Lilia para su cumpleaños. Produce infinitamente el agua más pura y limpia que existe. No obstante, si se usa demasiada agua a la vez, la boca de la tetera se cierra. Los cactus agregaron esta característica para ayudar a Lilia a controlar el agua hasta que perfeccione sus habilidades."
+    }
+  },
+  "s4": {
+    "name": "Purificación de agua",
+    "description": "La Recuperación de Mana sobre el Ataque está fijada, pero el Ataque propio aumenta en {0} y la Recuperación de Mana por segundo aumenta en 120. Por cada 6 Recuperaciones de Mana por segundo, el Ataque aumenta en un 1 %.",
+    "books": {
+      "0": "aumenta la tasa de Ataque en {0}%.",
+      "1": "aumenta la tasa de Ataque en {0}%.",
+      "2": "aumenta la tasa de Ataque en {0}%."
+    },
+    "light": "Al comienzo de cada batalla, recupera 1000 de Mana.",
+    "dark": "Causa un 15 % de Daño aumentado a los Jefes monstruos."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Daño Crit+20%",
+    "dark": "Aumenta el Ataque en un 15 % por esfera de PM obtenida."
+  }
+}

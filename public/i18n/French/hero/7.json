@@ -1,0 +1,120 @@
+{
+  "name": "Lakrak",
+  "subtitle": "Chasseur du Canon à Main",
+  "description": "Un Gobelin blanc, compétent en ingénieurie mécanique, il utilise un canon à main pour infliger des dégâts explosifs, il harcèle ses ennemis avec de projectiles spéciaux et leur inflige des dégâts souvent fatals.",
+  "story": "Ce Gobelin albinos excentrique adore plus que tout développer des armes puissantes. Après avoir été harcelé et ostracisé par les autres Gobelins du fait de sa couleur de peau, il n'éprouve plus aucune compassion pour ceux de son espèce. Il préfère tirer, exploser et fracasser un de ses comparses gobelins pour tester une de ses armes. Cependant, il sait faire preuve de gratitude envers ceux qui l'aident et c'est ainsi qu'il est devenu l'ami de Roy. Malheureusement, il a une mémoire effroyable pour se souvenir des visages et il tente souvent de tirer sur Roy avant de se souvenir qu'il s'agit de son ami.",
+  "like": "La poudre à canon, les armes à feu, les canons",
+  "dislike": "Les Gobelins stupides",
+  "inn": {
+    "idle": "Pas de gobelins ici! Bel endroit.",
+    "recruit": {
+      "greet": "Ach!! Votre arme a l'air bien!!",
+      "talk": [
+        "Vous avez affronté des gobelins?! Gagné?! Kakakak, bien!!",
+        "Ach, surprenez-moi!! Eck, aide pour expérience?! Bien!! Maintenant!!!",
+        "Intéressé par les Canons à Main?! Vous bon!! Malin!!"
+      ],
+      "gift": "Présent?! Argent modification arme?!! Bien!! Ajout poudre extra!!"
+    },
+    "affinity": {
+      "greet": "Bienvenue ! Vous voir mes recherches ?",
+      "talk": [
+        "Je voudrais dire bien le langage humain ! A, B, C, Dè ! C'est D qui problème !",
+        "Pas humain comme vous ! Différent ! Vous ami différent ! Maintenant, j'ai Roi et vous !"
+      ],
+      "gift": "Vous apporter quelque chose bien ? Je reconnais choses bien ! Génial !"
+    },
+    "relationship": {
+      "greet": "Kukakak! Recherche d'aujourd'hui bonne!!",
+      "talk": [
+        "Poudre à canon! Explosions!!! Kakakak!!",
+        "Expériences! Expériences! Plus d'expériences! Déeveloppement d'arme fun!",
+        "Bonnes donnée pour recherche, merci!! Meilleurs amis!!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Lakrak MK-1",
+    "description": [
+      "Accorde 25 % de chances d'accumuler une charge de Poudre à canon lors de l'attaque. Chaque charge de Poudre à canon augmente l'ATQ de 3 %, la Vit ATQ de 30 points et les DEG infligés aux ennemis non-héros de 3 %. Poudre à canon peut être accumulée jusqu'à 7 fois et ne peut pas être dissipée.",
+      "Accorde 25 % de chances d'accumuler une charge de Poudre à canon lors de l'attaque. Chaque charge de Poudre à canon augmente l'ATQ de 3,6 %, la Vit ATQ de 36 points et les DEG infligés aux ennemis non-héros de 3,6 %. Poudre à canon peut être accumulée jusqu'à 7 fois et ne peut pas être dissipée.",
+      "Accorde 25 % de chances d'accumuler une charge de Poudre à canon lors de l'attaque. Chaque charge de Poudre à canon augmente l'ATQ de 4,3 %, la Vit ATQ de 43 points et les DEG infligés aux ennemis non-héros de 4,3 %. Poudre à canon peut être accumulée jusqu'à 7 fois et ne peut pas être dissipée.",
+      "Accorde 25 % de chances d'accumuler une charge de Poudre à canon lors de l'attaque. Chaque charge de Poudre à canon augmente l'ATQ de 5,1 %, la Vit ATQ de 51 points et les DEG infligés aux ennemis non-héros de 5,1 %. Poudre à canon peut être accumulée jusqu'à 7 fois et ne peut pas être dissipée.",
+      "Accorde 25 % de chances d'accumuler une charge de Poudre à canon lors de l'attaque. Chaque charge de Poudre à canon augmente l'ATQ de 6,2 %, la Vit ATQ de 62 points et les DEG infligés aux ennemis non-héros de 6,2 %. Poudre à canon peut être accumulée jusqu'à 7 fois et ne peut pas être dissipée.",
+      "Accorde 25 % de chances d'accumuler une charge de Poudre à canon lors de l'attaque. Chaque charge de Poudre à canon augmente l'ATQ de 7,5 %, la Vit ATQ de 75 points et les DEG infligés aux ennemis non-héros de 7,5 %. Poudre à canon peut être accumulée jusqu'à 7 fois et ne peut pas être dissipée."
+    ],
+    "story": "Le chef-d'œuvre destructeur, mais artistique, d'un inventeur gobelin futé. Ce canon à une main offre la meilleure puissance de feu qu'un Gobelin seul puisse manier. Malgré la dangereuse quantité de poudre utilisée, cette arme n'a encore jamais explosé. Heureusement."
+  },
+  "s1": {
+    "name": "Tir Rapide",
+    "description": "Attaque tous les ennemis situés en face et en ligne droite, ce qui leur inflige {0}  points de DEG P et les repousse. Si la cible n'est pas un héros, l'attaque leur inflige {1}  points de DEG P supplémentaires et les étourdit pendant {2}  sec.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG de {0}%."
+    },
+    "light": "Les DEG sont augmentés de 40%.",
+    "dark": "Applique Étourdissement pendant 3 sec."
+  },
+  "s2": {
+    "name": "Bombe Fumigène",
+    "description": "Inflige {0} points de DEG P. aux ennemis à portée et applique Aveuglement pendant 4 sec.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Inflige des DEG à l'ennemi et applique Étourdissement pendant 1 sec."
+    },
+    "light": "Le coût en Mana est réduit de 1.",
+    "dark": "La durée d'Aveuglement augmente de 2 sec.",
+    "ut": {
+      "name": "Masque à gaz spécial",
+      "description": [
+        "[Bombe fumigène] Réduit le temps de recharge de 30 % et augmente la durée d'aveuglement de 1 sec.",
+        "[Bombe fumigène] Réduit le temps de recharge de 30 % et augmente la durée d'aveuglement de 1,2 sec.",
+        "[Bombe fumigène] Réduit le temps de recharge de 30 % et augmente la durée d'aveuglement de 1,4 sec.",
+        "[Bombe fumigène] Réduit le temps de recharge de 30 % et augmente la durée d'aveuglement de 1,7 sec.",
+        "[Bombe fumigène] Réduit le temps de recharge de 30 % et augmente la durée d'aveuglement de 2,1 sec.",
+        "[Bombe fumigène] Réduit le temps de recharge de 30 % et augmente la durée d'aveuglement de 2,5 sec."
+      ],
+      "story": "Masque haute performance fabriqué à partir de matériaux spéciaux rassemblés par Lakrak dans tout le continent Orbis. Ce masque contient plusieurs ingrédients rarissimes : une première plume de Harpie, une écaille de dragon, une feuille de l’Arbre Monde et du mithril impérial. Il protège contre le gaz toxique et l’effet aveuglant des bombes fumigènes."
+    }
+  },
+  "s3": {
+    "name": "Bombe de Colle",
+    "description": "Attache une Bombe de Colle qui explose après {0} sec sur un ennemi aléatoire. L'explosion inflige aux ennemis à portée un maximum de {1} points de DEG P. proportionnellement à leurs PV actuels et applique Étourdissement pendant 3 sec. Lorsque la Bombe de Colle est attachée, la cible est affectée par Étourdissement pendant 2 sec.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG de {0}%."
+    },
+    "light": "Le coût en Mana est augmenté de 1 et attaque une cible aléatoire à 2 reprises.",
+    "dark": "Coût en mana réduit de 1.",
+    "ut": {
+      "name": "Explosif spécial haute densité gobelin",
+      "description": [
+        "[Bombe de Colle] Les DEG sont augmentés de 50% et chaque Crit rend 200 mana.",
+        "[Bombe de Colle] Les DEG sont augmentés de 50% et chaque Crit rend 240 mana.",
+        "[Bombe de Colle] Les DEG sont augmentés de 50% et chaque Crit rend 290 mana.",
+        "[Bombe de Colle] Les DEG sont augmentés de 50% et chaque Crit rend 350 mana.",
+        "[Bombe de Colle] Les DEG sont augmentés de 50% et chaque Crit rend 420 mana.",
+        "[Bombe de Colle] Les DEG sont augmentés de 50% et chaque Crit rend 500 mana."
+      ],
+      "story": "De la poudre à canon fabriquée avec la dangereuse recette de Lakrak. Lakrak pensait que de simples explosions n’étaient pas assez efficaces pour les stratégies de bataille, il ajouta donc de l’acide formique et du poison d’ortie pour obtenir un résultat stupéfiant. Il fait en sorte de bien la filtrer et ne divulgue pas son secret pour éviter les abus."
+    }
+  },
+  "s4": {
+    "name": "Charge de Canon",
+    "description": "Les attaques auto ont 15% de chances de lancer une bombe qui inflige {1} points de DEG P. aux cibles à portée tout en appliquant Étourdissement pendant 2 sec.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG de {0}%."
+    },
+    "light": "Les chances d'activation sont augmentées de 10%.",
+    "dark": "La cible subit 25% de DEG P. supplémentaires"
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / DEG Crit +20%",
+    "dark": "Un Coup Crit. augmente de 5% les DEG Crit. et de 30 la Précision des Contrôles. Cumulable 10 fois."
+  }
+}

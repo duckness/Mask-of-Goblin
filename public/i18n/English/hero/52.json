@@ -1,0 +1,120 @@
+{
+  "name": "Crow",
+  "subtitle": "The Punishing Bullet",
+  "description": "He was a former naval officer, but is now a bounty hunter and a troubleshooter. He is cynical and doesn't trust people easily. His guns are categorized into three types.",
+  "story": "Code name: Hound. A bounty hunter known as the hound of hell. It is said that no one can escape from this former Imperial Navy officer once he targets them. The only consolation for criminals is that this man isn’t motivated by their bounties alone. While there are many theories, the most convincing one is that he’s after revenge. There are moments when this cold-hearted man seems to warm up, they say. It's when he pulls out an old pendant, which nobody has actually seen.",
+  "like": "Candy canes, a pendant safeguarding a memory, the forgotten nagging of a loved one",
+  "dislike": "Pirates, Gods who have taken everything away from him. And now, tobacco",
+  "inn": {
+    "idle": "Don't get in my way.",
+    "recruit": {
+      "greet": "What business do you have with me?",
+      "talk": [
+        "I will take only 1 job. Think carefully before you speak.",
+        "It's hard to find ammunition around here...",
+        "This isn't a cigarette, it's merely candy."
+      ],
+      "gift": "Hmm, with this money, I can buy new cig...no, I'll just get some more candy."
+    },
+    "affinity": {
+      "greet": "Why did you call me? Just tell me what you need.",
+      "talk": [
+        "He was a real headache, even when he was under my command. But I don't think he'd do something like that. That's why I accepted that offer.",
+        "Obviously, the others couldn't bear his madness. That's why I took charge."
+      ],
+      "gift": "Give me candy."
+    },
+    "relationship": {
+      "greet": "What business...ah, it's you.",
+      "talk": [
+        "Orvel is a good place. Even the air is different from the Empire.",
+        "I thought, as part of the Navy, I would be out at sea for my entire life. In retrospect, going out to sea was the worst decision ever.",
+        "I had two people I cared about dearly. I cannot meet them anymore... but yes, haha... they both hated cigarette smoke."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Hellhound, Akistra",
+    "description": [
+      "The normal attack shoots an additional bullet that deals 50% of ATK as P.DMG. When the skill ends, 'Hellhound, Akistra' is activated, increasing ATK by 30% and Crit DMG by 30% for 20 sec. 'Hellhound, Akistra' is only activated once at 20 sec.",
+      "The normal attack shoots an additional bullet that deals 60% of ATK as P.DMG. When the skill ends, 'Hellhound, Akistra' is activated, increasing ATK by 36% and Crit DMG by 36% for 20 sec. 'Hellhound, Akistra' is only activated once at 20 sec.",
+      "The normal attack shoots an additional bullet that deals 70% of ATK as P.DMG. When the skill ends, 'Hellhound, Akistra' is activated, increasing ATK by 43% and Crit DMG by 43% for 20 sec. 'Hellhound, Akistra' is only activated once at 20 sec.",
+      "The normal attack shoots an additional bullet that deals 85% of ATK as P.DMG. When the skill ends, 'Hellhound, Akistra' is activated, increasing ATK by 52% and Crit DMG by 52% for 20 sec. 'Hellhound, Akistra' is only activated once at 20 sec.",
+      "The normal attack shoots an additional bullet that deals 100% of ATK as P.DMG. When the skill ends, 'Hellhound, Akistra' is activated, increasing ATK by 62% and Crit DMG by 62% for 20 sec. 'Hellhound, Akistra' is only activated once at 20 sec.",
+      "The normal attack shoots an additional bullet that deals 125% of ATK as P.DMG. When the skill ends, 'Hellhound, Akistra' is activated, increasing ATK by 75% and Crit DMG by 75% for 20 sec. 'Hellhound, Akistra' is only activated once at 20 sec."
+    ],
+    "story": "It is unarguably the culmination of the latest imperial technomagi technology. It can transform into three modes, the last of which uses magic that is so devastating that its use has to be restricted. According to Valance, the head of the imperial weapons development organization Magos Le’Flamme, the new weapon Archistra was stolen, immediately after its development, by Crow, a former naval officer who was dishonorably discharged. It remains to be confirmed whether Crow really did manage to infiltrate one of the Empire's most important organizations to steal Archistra... It's also possible that Valance simply handed it over to him, given their long friendship."
+  },
+  "s1": {
+    "name": "Target will be Eliminated.",
+    "description": "Deals a total of {0} P.DMG to enemies in front over 15 times and leaves 2 'Hunting Dog's Fang Marks' for 40 sec. Hunting Dog's Fang Mark stacks up to max 100 times.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Upon each DMG dealt, recovers 30 Mana.",
+    "dark": "Gains immunity to CC while in use."
+  },
+  "s2": {
+    "name": "Struggle is Meaningless.",
+    "description": "Attacks a random enemy 10 times and deals a total of {0} P.DMG. Shoots a Frost Bullet that deals {1} P.DMG to target and surrounding enemies, freezing them for 4 sec. The special Frost Bullet creates a freezing area for 6 seconds that deals {2} P.DMG every 2 sec, with a 50% chance to freeze for 2 sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Cooldown is reduced by 3 sec.",
+    "dark": "Freezing chance of the Freezing Area increases by 30%.",
+    "ut": {
+      "name": "Cold Barrage",
+      "description": [
+        "[Struggle is Meaningless] Reduces Mana Cost by 1 and has a 10% chance to freeze target for 3 sec upon every strike.",
+        "[Struggle is Meaningless] Reduces Mana Cost by 1 and has a 12% chance to freeze target for 3 sec upon every strike.",
+        "[Struggle is Meaningless] Reduces Mana Cost by 1 and has a 14% chance to freeze target for 3 sec upon every strike.",
+        "[Struggle is Meaningless] Reduces Mana Cost by 1 and has a 17% chance to freeze target for 3 sec upon every strike.",
+        "[Struggle is Meaningless] Reduces Mana Cost by 1 and has a 21% chance to freeze target for 3 sec upon every strike.",
+        "[Struggle is Meaningless] Reduces Mana Cost by 1 and has a 25% chance to freeze target for 3 sec upon every strike."
+      ],
+      "story": "Magos Le'Flamme, the imperial weapons development organization, succeeded in enhancing the Ground Chill Missile. They tried to equip it on the new weapon Akistra to test it out. However, Crow stole Akistra, so the missile that was equipped on it was stolen as well. This missile contains a powerful chill, and it's enough to freeze the surrounding land."
+    }
+  },
+  "s3": {
+    "name": "Even Gods shall Die.",
+    "description": "Takes position and focuses to shoot a laser, dealing {0} P.DMG to frontal enemies within range, and consumes target's stack of Hunting Dog's Fang Mark to deal {1} additional P.DMG per each stack. Depending on the focusing time, the effect's range increases, and DMG is increased up to max {2}%. Once the focus is completed, knocks back the enemy far away.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Increases cooltime by 10 sec and DMG by 100%.",
+    "dark": "Reduces Mana Cost by 1.",
+    "ut": {
+      "name": "Pendant of Memories",
+      "description": [
+        "[Even Gods shall Die] Gains immunity to CC during skill activation and DMG is increased by 20%.",
+        "[Even Gods shall Die] Gains immunity to CC during skill activation and DMG is increased by 24%.",
+        "[Even Gods shall Die] Gains immunity to CC during skill activation and DMG is increased by 29%.",
+        "[Even Gods shall Die] Gains immunity to CC during skill activation and DMG is increased by 35%.",
+        "[Even Gods shall Die] Gains immunity to CC during skill activation and DMG is increased by 42%.",
+        "[Even Gods shall Die] Gains immunity to CC during skill activation and DMG is increased by 50%."
+      ],
+      "story": "A precious pendant containing the picture of Crow's deceased wife and daughter. He's frequently stares at the picture while sucking on candy, looking extremely sad and yet calm. It's a pendant even more precious than his life, so you better not lay a finger on it. Even if you are a god, you will have to pay with your life."
+    }
+  },
+  "s4": {
+    "name": "Hunting Preparation",
+    "description": "Crow is not affected by changes in ATK Spd. ATK increases by {0} and Crit DMG by {1}%. Recovers {2} Mana every second. It also leaves a 'Hunting Dog's Fang Mark' to target for 40 sec when dealing a normal attack.",
+    "books": {
+      "0": "ATK boost is increased by {0}%.",
+      "1": "ATK boost is increased by {0}%.",
+      "2": "ATK boost is increased by {0}%."
+    },
+    "light": "Boss monster takes 15% increased DMG.",
+    "dark": "Mana recovery increases by 40%."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / Crit DMG +20%",
+    "dark": "Increases Mana Cost of all skills by 1 and DMG by 75%."
+  }
+}

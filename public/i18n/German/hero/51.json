@@ -1,0 +1,120 @@
+{
+  "name": "Aselica",
+  "subtitle": "Wächterin der Sonne",
+  "description": "Als Ritterin des gerechten Himmels bestraft sie das Böse mit ihrem Schwert und schützt die Schwachen mit ihrem Schild. Sie stieg herab, um die Dämonen zu besiegen, die das Erdenreich bedrohen. Mit wunderschönem Schwert und Schild zerschmettert sie ihre Feinde und schützt ihre Kameraden mit ihrem Licht.",
+  "story": "Als mächtiger Engel beschützt sie den Engelshafen. Sogar unter den Engeln, die die Macht des Lichts kontrollieren, hat sie eine besondere Verbindung zur Sonne, deren göttliches Licht sie sich im Kampf gegen die Dunkelheit zunutze macht. Sie ist mit dem Schutz der Seelen anderer Engel in Erwartung der Auferstehung betraut. Als das Heilige Schwert wieder auf der Welt erschienen war, erhörte sie den göttlichen Ruf, sich dem neuen Beschützer der Welt anzuschließen. Sie kümmert sich darum, dass kein auserwählter Krieger jemals wieder der Dunkelheit erliegen möge.",
+  "like": "Angehörige; Recht und Ordnung",
+  "dislike": "Dämonen",
+  "inn": {
+    "idle": "Hier also ist der Held...",
+    "recruit": {
+      "greet": "Möge die Sonne dich segnen.",
+      "talk": [
+        "Ich werde nicht gegen einfache Dämonen verlieren.",
+        "Die Sonne bevorzugt niemanden und scheint für alle.",
+        "Kennst du einen Mann namens Arch?"
+      ],
+      "gift": "Das nützt mir nichts... aber trotzdem, danke."
+    },
+    "affinity": {
+      "greet": "Krieger. Dies ist also dein Ruheplatz.",
+      "talk": [
+        "Die Dämonen sind böse. Sie müssen vernichtet werden, um jeden Preis.",
+        "Vergiss nicht, dass die Sonne stets hinter dir scheint."
+      ],
+      "gift": "Menschen können sehr rücksichtsvoll sein. Wie dem auch sei, danke dir."
+    },
+    "relationship": {
+      "greet": "Ich fühle die Wärme der Sonne in dir. Ist etwas Gutes passiert?",
+      "talk": [
+        "Es gibt also Dämonen, die versuchen, die Welt zu retten. Wie merkwürdig.",
+        "Wir alle kehren irgendwann zum Heiligtum der Engel zurück.",
+        "Ich bin dein Wächter mit meinem Schwert und meinem Schild."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Sonnen-Heiligenschein, Ignisius",
+    "description": [
+      "Wenn ein normaler Angriff den Feind 5-mal trifft, erleidet das Ziel für 10 Sekunden um 20 % erhöhten M.Schaden und wird 0,5 Sekunden lang betäubt.",
+      "Wenn ein normaler Angriff den Feind 5-mal trifft, erleidet das Ziel für 10 Sekunden um 24 % erhöhten M.Schaden und wird 0,5 Sekunden lang betäubt.",
+      "Wenn ein normaler Angriff den Feind 5-mal trifft, erleidet das Ziel für 10 Sekunden um 29 % erhöhten M.Schaden und wird 0,5 Sekunden lang betäubt.",
+      "Wenn ein normaler Angriff den Feind 5-mal trifft, erleidet das Ziel für 10 Sekunden um 35 % erhöhten M.Schaden und wird 0,5 Sekunden lang betäubt.",
+      "Wenn ein normaler Angriff den Feind 5-mal trifft, erleidet das Ziel für 10 Sekunden um 42 % erhöhten M.Schaden und wird 0,5 Sekunden lang betäubt.",
+      "Wenn ein normaler Angriff den Feind 5-mal trifft, erleidet das Ziel für 10 Sekunden um 50 % erhöhten M.Schaden und wird 0,5 Sekunden lang betäubt."
+    ],
+    "story": "Die Legende erzählt von einem geheimnisvollen Metall, golden wie die Strahlen der Sonne, blau wie der reine Himmel und weiß wie ein blendendes Licht. Dieses heilige Set aus Schwert und Schild wurde aus jenem speziellen Metall geschmiedet, das nur von Engeln gehandhabt werden kann. Diese göttlichen Reliquien des Schutzes wurden erschaffen, um die Dunkelheit zu bannen und die Welt mit Licht zu durchfluten. Nur der redlichste aller Wachritter der Engel darf sie führen und sie sind in der Lage, jeden Dämon, der ihres Lichts gewahr wird, zu entzünden."
+  },
+  "s1": {
+    "name": "Schwert der Sonne",
+    "description": "Verursacht {0} M.Schaden an feindlichen und im Umkreis befindlichen Einheiten innerhalb der Reichweite und betäubt sie für {1} Sek.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Betäubungsdauer um {0} Sek."
+    },
+    "light": "Nach der Aktivierung wird die Angriffsgeschw. 5 Sek. lang um 350 erhöht.",
+    "dark": "Reduziert Cooldown um 2 Sek."
+  },
+  "s2": {
+    "name": "Segen der Sonne",
+    "description": "Verleiht dem Verbündeten mit dem höchsten ANG den Segen der Sonne, wodurch der Cooldown aller Skills um 20 % reduziert und ANG 15 Sek. lang um {0} erhöht wird.",
+    "books": {
+      "0": "Erhöht ANG-Erhöhungsrate um {0}%.",
+      "1": "Erhöht ANG-Erhöhungsrate um {0}%.",
+      "2": "Erhöht ANG-Erhöhungsrate um {0}%."
+    },
+    "light": "Erhöht Manakosten um 1 und verleiht den Effekt den 2 Verbündeten mit dem höchsten ANG.",
+    "dark": "Bei Verwendung werden negative Effekte bei sich selbst ignoriert und negative Effekte vom verbündeten Ziel entfernt.",
+    "ut": {
+      "name": "Armreif der Sonne",
+      "description": [
+        "[Segen der Sonne] Reduziert Manakosten um 1 und das Ziel nimmt 10 Sek lang 10% weniger K.Schaden.",
+        "[Segen der Sonne] Reduziert Manakosten um 1 und das Ziel nimmt 12 Sek lang 10% weniger K.Schaden.",
+        "[Segen der Sonne] Reduziert Manakosten um 1 und das Ziel nimmt 14 Sek lang 10% weniger K.Schaden.",
+        "[Segen der Sonne] Reduziert Manakosten um 1 und das Ziel nimmt 17 Sek lang 10% weniger K.Schaden.",
+        "[Segen der Sonne] Reduziert Manakosten um 1 und das Ziel nimmt 21 Sek lang 10% weniger K.Schaden.",
+        "[Segen der Sonne] Reduziert Manakosten um 1 und das Ziel nimmt 25 Sek lang 10% weniger K.Schaden."
+      ],
+      "story": "Armreif, der von den Erzengeln geschaffen wurde, um die Engel zu schützen, wenn sie auf die Erde herabsteigen. Er enthält die Sonne, also leuchtet er strahlend hell. Wenn die Engel Furcht empfinden, soll das Sonnenlicht aus dem Armreif ihre Seelen schützen. Und die Schicksale der Engel sind in dem Armreif miteinander verwoben, wenn sich also ein Engel in Lebensgefahr befindet, spüren die anderen instinktiv dessen Schmerz."
+    }
+  },
+  "s3": {
+    "name": "Urteil der Sonne",
+    "description": "Bezieht Position, um die TP naher Verbündeter mit Ausnahme des Beschwörers 8 Mal um insgesamt mindestens {0} aufzufüllen, und erhöht deren K.VERT 5 Sek. lang um {1}. Fügt außerdem 8 Feinden innerhalb der Reichweite insgesamt {2} M.Schaden zu und verringert ihre M.VERT 5 Sek. lang um {3}. Nach dem Ende des Beschwörens werden die TP von Verbündeten innerhalb der Reichweite mit Ausnahme des Beschwörers um {4} aufgefüllt. Fügt außerdem Feinden {5} M.Schaden zu und betäubt sie für 3 Sek.",
+    "books": {
+      "0": "Schaden und Erholungsrate um {0}% erhöht.",
+      "1": "Schaden und Erholungsrate um {0}% erhöht.",
+      "2": "Schaden und Erholungsrate um {0}% erhöht."
+    },
+    "light": "Reduziert Manakosten um 1.",
+    "dark": "Erhöht die Dauer des M.VERT-Reduktionseffekts um 5 Sek.",
+    "ut": {
+      "name": "Wächtertrompete",
+      "description": [
+        "[Urteil der Sonne] Gewährt Effektimmunität, während der Skill aktiv ist und erhöht K.VERT-Erhöhungsrate und M.VERT-Reduzierungseffekt um 20%.",
+        "[Urteil der Sonne] Gewährt Effektimmunität, während der Skill aktiv ist und erhöht K.VERT-Erhöhungsrate und M.VERT-Reduzierungseffekt um 24%.",
+        "[Urteil der Sonne] Gewährt Effektimmunität, während der Skill aktiv ist und erhöht K.VERT-Erhöhungsrate und M.VERT-Reduzierungseffekt um 29%.",
+        "[Urteil der Sonne] Gewährt Effektimmunität, während der Skill aktiv ist und erhöht K.VERT-Erhöhungsrate und M.VERT-Reduzierungseffekt um 35%.",
+        "[Urteil der Sonne] Gewährt Effektimmunität, während der Skill aktiv ist und erhöht K.VERT-Erhöhungsrate und M.VERT-Reduzierungseffekt um 42%.",
+        "[Urteil der Sonne] Gewährt Effektimmunität, während der Skill aktiv ist und erhöht K.VERT-Erhöhungsrate und M.VERT-Reduzierungseffekt um 50%."
+      ],
+      "story": "Die Trompete, die der Anführer der Erzengel blasen soll, wenn die Katastrophe kommt, welche die materielle Welt vernichten wird. Es heißt, dass die Wächter erwachen, wenn sie den Ton dieser Trompete hören, und herabsteigen, um dieses Land zu beschützen."
+    }
+  },
+  "s4": {
+    "name": "Fluch der Sonne",
+    "description": "Beim Angriff werden Feinde 10 Sek. lang mit dem Sonnenfluch belegt. Sobald Feinde mit 10 Sonnenflüchen belegt wurden, werden diese verbraucht und sie erleiden {0} M.Schaden, werden für {1} Sek. geblendet und ihr ANG wird 10 Sek. lang um {2} reduziert.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Verändert die ANG-Reduktion auf 30 %.",
+    "dark": "Aktiviert den Effekt, sobald 7 Sonnenflüche gestapelt wurden."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / K.Block +200",
+    "dark": "Erhöht zu Beginn des ersten Kampfes K.VERT des Verbündeten mit dem höchsten ANG um 20 % der K.VERT. Der Effekt kann nicht aufgehoben werden."
+  }
+}

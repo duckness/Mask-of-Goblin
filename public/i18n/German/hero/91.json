@@ -1,0 +1,120 @@
+{
+  "name": "Gladi",
+  "subtitle": "Arenabiest",
+  "description": "Dieser Mann hat die Arena von Orvelia gemeistert. Aus Ehrfurcht vor seinen Kampffähigkeiten, begannen die Leute ihn Arenabiest zu nennen. Seine Kampftechniken machen seine Gegner innerhalb einer Milisekunde zu Staub.",
+  "story": "Der Mann, der die Arena von Orvel eroberte. Er, der auf dem Thron des Champions sitzt, wird häufig von anderen gefürchtet. Für die Leute ist er schlicht 'die Biestpranke'. In Wahrheit ist er eigentlich ein frohsinniger Mann mit einer positiven und aufrichtigen Persönlichkeit. Wie sein Kampfstil vermuten lässt, ist er ein kühner Mann, der nicht davor zurückschreckt, nach eigenem Willen zu handeln. Nach seiner Eroberung verlangte Gladi das Recht, einen Arena-Shop führen zu dürfen. Vermutlich war sein wahres Ziel aber die Erlangung eines Monopols auf Silberweinreben. Es ist nach wie vor ein Rätsel, wer diese Pflanzen kaufen soll, doch er scheint damit glücklich zu sein. Erstaunlicherweise verkauft er momentan nicht einmal irgendwelche Silberweine.",
+  "like": "Silberwein; mächtige Gegner",
+  "dislike": "Trübsinnige Leute; unentschlossene Leute",
+  "inn": {
+    "idle": "Hmm, ich kann den Silberwein noch riechen ...",
+    "recruit": {
+      "greet": "",
+      "talk": [
+        "",
+        "",
+        ""
+      ],
+      "gift": ""
+    },
+    "affinity": {
+      "greet": "Hm? Hey, wie geht‘s?",
+      "talk": [
+        "Ach, dieser Silberrebensaft... oh man, der riecht wirklich gut... hahaha!!!",
+        "Hallo! Es ist irgendwie witzig, dich mal außerhalb der Arena zu treffen!"
+      ],
+      "gift": "Ui! Du bist echt liebenswürdig!"
+    },
+    "relationship": {
+      "greet": "He du! Komm schon her und setz dich!",
+      "talk": [
+        "Haha! Dieser Moment, als meine Faust den Gegner voll erwischt hat - einfach großartig!",
+        "Ich bin ziemlich schnell und stark, sogar für jemanden aus meinem Stamm. Ich frage mich, wie es ihnen geht?",
+        "Du fragst dich, warum ich so viel Silberrebensaft kaufe und ihn gar nicht weiter verkaufe? Hahaha, der ist für mich!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Biestpranke, Mastra",
+    "description": [
+      "Bei einem kritischen Treffer wird der Krit.Schaden für 5 Sek. um 20% erhöht. Effekt kumuliert sich bis zu 7 Mal.",
+      "Bei einem kritischen Treffer wird der Krit.Schaden für 5 Sek. um 24% erhöht. Effekt kumuliert sich bis zu 7 Mal.",
+      "Bei einem kritischen Treffer wird der Krit.Schaden für 5 Sek. um 29% erhöht. Effekt kumuliert sich bis zu 7 Mal.",
+      "Bei einem kritischen Treffer wird der Krit.Schaden für 5 Sek. um 35% erhöht. Effekt kumuliert sich bis zu 7 Mal.",
+      "Bei einem kritischen Treffer wird der Krit.Schaden für 5 Sek. um 42% erhöht. Effekt kumuliert sich bis zu 7 Mal.",
+      "Bei einem kritischen Treffer wird der Krit.Schaden für 5 Sek. um 50% erhöht. Effekt kumuliert sich bis zu 7 Mal."
+    ],
+    "story": "Ein Paar Kampfhandschuhe, die speziell für Gladi angefertigt wurden. Sie sind der Beweis seines Sieges in der Meisterschaft der Orvel-Arena. Angeblich wurden sie aus dem legendären Paar Handschuhe eines Mannes geschmiedet, der vor hunderten von Jahren als Kriegsgott bekannt war. Diese Handschuhe verstärken die Macht ihres Trägers und wurden für das Zermalmen der Feinde spezialisiert. Die körperliche Anstrengung ihrer Verwendung ist allerdings brutal und keine normale Person vermag sie zu führen. Ist ihr Träger muss äußerst beweglich und körperlich dazu in der Lage sein, dem Rückstoß der Schläge zu widerstehen, sonst ist ihre Verwendung glatt selbstmörderisch. Gladis natürliche Kraft und Beweglichkeit allerdings erlauben es ihm, sie nach Belieben einzusetzen."
+  },
+  "s1": {
+    "name": "Flinkschläge",
+    "description": "Trifft das Ziel 7 Mal und verursacht insgesamt {0} K. Schaden. Der letzte Schlag erhöht die Anfälligkeit des Ziels für K. Schaden um {1}% für 10 Sekunden.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Ist nur noch 1 Feind auf dem Schlachtfeld, wird der Schaden um 100% erhöht.",
+    "dark": "K.Schadensempfindlichkeit wird auf 50% geändert."
+  },
+  "s2": {
+    "name": "Ankunft des Kriegsgottes",
+    "description": "Entfernt alle neg. Effekte und verursacht {0} K. Schaden an Feinden im Umfeld. Verleiht 'Kriegsgott' für 10 Sek. ANG ist um {1} erhöht und Auto-Angriffe haben eine 30%-Chance, für 5% Mana einen Extra-Angriff mit {2} extra K. Schaden zu verursachen. Nach Erleiden von M. Schaden, weicht man für 1 Sek. jeglichem M. Schaden aus. Ausweichen kann nur 1 Mal alle 2 Sek. aktiviert werden.",
+    "books": {
+      "0": "ANG und Schaden werden um {0}% erhöht.",
+      "1": "ANG und Schaden werden um {0}% erhöht.",
+      "2": "ANG und Schaden werden um {0}% erhöht."
+    },
+    "light": "Kriegsgott-Zustand dauert 5 Sek. länger an.",
+    "dark": "Chance auf zusätzlichen Schaden um 20% erhöht.",
+    "ut": {
+      "name": "Silberwein-Kiste",
+      "description": [
+        "[Ankunft des Kriegsgottes] Stellt für die Dauer des Skills jede Sekunde 100 MP wieder her und stapelt 1 [Das wird wehtun!] beim Zufügen von zusätzlichem K.Schaden.",
+        "[Ankunft des Kriegsgottes] Stellt für die Dauer des Skills jede Sekunde 120 MP wieder her und stapelt 1 [Das wird wehtun!] beim Zufügen von zusätzlichem K.Schaden.",
+        "[Ankunft des Kriegsgottes] Stellt für die Dauer des Skills jede Sekunde 140 MP wieder her und stapelt 1 [Das wird wehtun!] beim Zufügen von zusätzlichem K.Schaden.",
+        "[Ankunft des Kriegsgottes] Stellt für die Dauer des Skills jede Sekunde 170 MP wieder her und stapelt 1 [Das wird wehtun!] beim Zufügen von zusätzlichem K.Schaden.",
+        "[Ankunft des Kriegsgottes] Stellt für die Dauer des Skills jede Sekunde 210 MP wieder her und stapelt 1 [Das wird wehtun!] beim Zufügen von zusätzlichem K.Schaden.",
+        "[Ankunft des Kriegsgottes] Stellt für die Dauer des Skills jede Sekunde 250 MP wieder her und stapelt 1 [Das wird wehtun!] beim Zufügen von zusätzlichem K.Schaden."
+      ],
+      "story": "Silberwein wird verwendet, um die körperlichen Fähigkeiten exponentiell zu verstärken. Nichts anderes, nur dieser Silberwein. Andere mögen versuchen, Silberwein zu kauen, zu trinken, zu kochen, aber es funktioniert nicht. Gladi braucht nur diesen Silberwein, um die Kraft eines Kriegsgottes zu erhalten."
+    }
+  },
+  "s3": {
+    "name": "Ultimativschlag!",
+    "description": "Sammle Energie, um die Gegnerfront zu durchbrechen und verursache dabei {0} K. Schaden an allen Gegnern im Umkreis, sowie Betäubung für 3 Sek. Dieser Effekt ignoriert die VERT, Wenn der Gegner ein Boss ist.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Erhöht Schaden um 40%.",
+    "dark": "Reduziert Manakosten um 1.",
+    "ut": {
+      "name": "Lorbeerkranz des Champions",
+      "description": [
+        "[Ultimativschlag!] Reduziert Skill-Cooldown um 30% und erhöhrt Schaden um 4% bei jeder Aktivierung. Effekt kann sich bis zu max. 10 Mal kumulieren.",
+        "[Ultimativschlag!] Reduziert Skill-Cooldown um 30% und erhöhrt Schaden um 4,8% bei jeder Aktivierung. Effekt kann sich bis zu max. 10 Mal kumulieren.",
+        "[Ultimativschlag!] Reduziert Skill-Cooldown um 30% und erhöhrt Schaden um 5,8% bei jeder Aktivierung. Effekt kann sich bis zu max. 10 Mal kumulieren.",
+        "[Ultimativschlag!] Reduziert Skill-Cooldown um 30% und erhöhrt Schaden um 7% bei jeder Aktivierung. Effekt kann sich bis zu max. 10 Mal kumulieren.",
+        "[Ultimativschlag!] Reduziert Skill-Cooldown um 30% und erhöhrt Schaden um 8,4% bei jeder Aktivierung. Effekt kann sich bis zu max. 10 Mal kumulieren.",
+        "[Ultimativschlag!] Reduziert Skill-Cooldown um 30% und erhöhrt Schaden um 10% bei jeder Aktivierung. Effekt kann sich bis zu max. 10 Mal kumulieren."
+      ],
+      "story": "Kranz, der dem stärksten Krieger des Orbis-Kontinents verliehen wird. Er wird nur dem Sieger des Kampfturniers überreicht, das alle 4 Jahre stattfindet. Diejenigen, die diesen Kranz tragen sollen in der Lage sein, sich die Kraft des Kriegsgottes zu leihen."
+    }
+  },
+  "s4": {
+    "name": "Das wird wehtun!",
+    "description": "Jedesmal, wenn Gladi ein einzelnes Ziel mit 5 normalen Angriffen attackierst, werden {0} extra Schaden verursacht, die VERT ignorieren.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Ist nur noch 1 Feind auf dem Schlachtfeld, wird der Schaden um 100% erhöht.",
+    "dark": "Bei Nutzung innerhalb der Arena, wird K. Schaden in Höhe von 15% der aktuellen LP des Ziels verursacht, der die VERT ignoriert."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / ANG-Geschw. +100",
+    "dark": "Erhöht alle VERT um 8% des ANG."
+  }
+}

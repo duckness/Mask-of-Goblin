@@ -1,0 +1,120 @@
+{
+  "name": "Artemia",
+  "subtitle": "Imperatriz da Luz",
+  "description": "A Rainha de Pentheonia, do Reino Invulnerável, que não moveu uma palha contra os Demônios há 100 anos. Seu cajado contém uma luz brilhante, queimando com justiça e ela a usa para transformar os inimigos em cinzas.",
+  "story": "Penteonia é um reino impenetrável. Nem mesmo o Exército Demoníaco conseguiu quebrar suas defesas 100 anos atrás. No comando desse reino de ferro fica Artemia, a Imperadora da Luz. Desde a infância, ela vive sob o peso da responsabilidade do trono que um dia herdaria. Quando finalmente percebeu que a vitória do seu reino só seria possível por meio do sacrifício do seu povo, ela jurou nunca se esconder dos seus deveres. Ela encararia a pressão da responsabilidade real com coragem. Penteonia é um reino historicamente egoísta, interessado apenas em sua própria segurança. Agora, com Artemia no comando, tudo está prestes a mudar.",
+  "like": "Bolos, os olhos de cavaleiros íntegros",
+  "dislike": "Demônios",
+  "inn": {
+    "idle": "Vim até aqui para vê-lo.",
+    "recruit": {
+      "greet": "Não esqueça que estou aqui por sua causa.",
+      "talk": [
+        "É assim que você demonstra sinceridade?",
+        "Lembrarei do seu rosto.",
+        "Não se acovarde diante de mim. Erga sua cabeça com orgulho."
+      ],
+      "gift": "É por isso que você preza? Devo fazer o mesmo."
+    },
+    "affinity": {
+      "greet": "Não precisa se ajoelhar.",
+      "talk": [
+        "Parece que não fui a única escolhida pela luz.",
+        "Será que os garotos da Guarda Real estão bem?"
+      ],
+      "gift": "Agradeço sua generosidade."
+    },
+    "relationship": {
+      "greet": "Parece que você está indo bem.",
+      "talk": [
+        "Pai e Mãe não carregam mais a grande responsabilidade da coroa. Agora, eles curtem suas vidas juntos, sem preocupação.",
+        "Poucos dos Cavaleiros aqui em Orvelia são gemas que qualquer governante quer cortejar.",
+        "Eu não vou evitar a responsabilidade que cai em minha mãos. Porém, é legal eu ter você para compartilhar meus deveres."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Louvor Brilhante, Brauxio",
+    "description": [
+      "A cada 15 segundos, cria um Escudo equivalente a 200% do ATQ que dura 10 segundos, que também aumenta o próprio ATQ em 20%. Durante o efeito do Escudo, você ganha imunidade a CM.",
+      "A cada 15 segundos, cria um Escudo equivalente a 240% do ATQ por 10 segundos, que também aumenta o próprio ATQ em 24%. Enquanto o Escudo estiver sob efeito, ganha imunidade a CM.",
+      "A cada 15 segundos, cria um Escudo equivalente a 290% do ATQ por 10 segundos, que também aumenta o próprio ATQ em 29%. Enquanto o Escudo estiver sob efeito, ganha imunidade a CM.",
+      "A cada 15 segundos, cria um Escudo equivalente a 350% do ATQ por 10 segundos, que também aumenta o próprio ATQ em 35%. Enquanto o Escudo estiver sob efeito, ganha imunidade a CM.",
+      "A cada 15 segundos, cria um Escudo equivalente a 420% do ATQ por 10 segundos, que também aumenta o próprio ATQ em 42%. Enquanto o Escudo estiver sob efeito, ganha imunidade a CM.",
+      "A cada 15 segundos, cria um Escudo equivalente a 500% do ATQ por 10 segundos, que também aumenta o próprio ATQ em 50%. Enquanto o Escudo estiver sob efeito, ganha imunidade a CM."
+    ],
+    "story": "Dizem que este tesouro sagrado de Penteonia foi enviado de Elios para erradicar os Demônios. Este Cajado da Luz, que só responde àqueles dignos de santidade, irradia uma luz esplêndida nas mãos da jovem Artemia, como se honrasse a futura imperatriz. A arma invoca o poder da luz absoluta, libertando a vingança do céu em seus inimigos enquanto protege o portador com luz divina."
+  },
+  "s1": {
+    "name": "Pilar de Luz",
+    "description": "Posiciona o Pilar de Luz na área do inimigo, causando um total de {0} de DAN.M acima de 3 segundos e reduzindo o ATQ inimigo em {1}% por 10 segundos.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "DMG is increased by 40%.",
+    "dark": "Cada golpe tem uma chance de 25% de atordoar o inimigo por 1 segundo."
+  },
+  "s2": {
+    "name": "Intensidade Crítica",
+    "description": "Causa {0} de DAN.M a inimigos em linha reta. Este ataque acrescenta 100% de seu modificador de DAN Crít.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Mana cost reduced by 1.",
+    "dark": "Quando a Bênção de Luz chega a 10 acúmulos, a recarga é reduzida em 50%.",
+    "ut": {
+      "name": "Orgulho da Rainha",
+      "description": [
+        "[Intensidade Crítica] Concede Imunidade a CM e aumenta a DAN em 20%.",
+        "[Intensidade Crítica] Concede Imunidade a CM e aumenta a DAN em 24%.",
+        "[Intensidade Crítica] Concede Imunidade a CM e aumenta a DAN em 29%.",
+        "[Intensidade Crítica] Concede Imunidade a CM e aumenta a DAN em 35%.",
+        "[Intensidade Crítica] Concede Imunidade a CM e aumenta a DAN em 42%.",
+        "[Intensidade Crítica] Concede Imunidade a CM e aumenta a DAN em 50%."
+      ],
+      "story": "Brincos feitos de krevil leve, um mineral raro que dizem existir apenas em Penteonia. Quando Artemia foi coroada como Imperatriz, ela recebeu estes brincos juntamente com sua coroa. Eles não perdem o brilho nem durante a noite; na verdade, brilham ainda mais no escuro. São conhecidos como as joias dos princípios e da genialidade. Um item que aumenta a dignidade da rainha ao brilhar em suas orelhas."
+    }
+  },
+  "s3": {
+    "name": "Julgamento de Luz",
+    "description": "Ataca o inimigo 3 vezes, causando {0} de DAN.M e atordoando o inimigo por 5 segundos. A recarga deste poder é reduzida em 30% quando mata o inimigo.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "A recarga é reduzido em 3 segundos.",
+    "dark": "O custo de mana aumenta em 1 orbe, mas o DAN é reforçado em 100%.",
+    "ut": {
+      "name": "Coroa da Genialidade",
+      "description": [
+        "[Julgamento da Luz] Aumenta o DAN em 20% e, após eliminar um inimigo, recupera 700 de mana.",
+        "[Julgamento da Luz] Aumenta o DAN em 24% e, após eliminar um inimigo, recupera 700 de mana.",
+        "[Julgamento da Luz] Aumenta o DAN em 29% e, após eliminar um inimigo, recupera 700 de mana.",
+        "[Julgamento da Luz] Aumenta o DAN em 35% e, após eliminar um inimigo, recupera 700 de mana.",
+        "[Julgamento da Luz] Aumenta o DAN em 42% e, após eliminar um inimigo, recupera 700 de mana.",
+        "[Julgamento da Luz] Aumenta o DAN em 50% e, após eliminar um inimigo, recupera 700 de mana."
+      ],
+      "story": "Uma coroa passada ao rei de Penteonia. Parte dela havia sido quebrada por um tirano anterior, mas ela foi restaurada. Uma nova gema vermelha chamada Alma do Sol foi encrustada no centro da coroa. Sua forma distinta compele as pessoas a se ajoelharem diante dela e lhe mostrarem respeito."
+    }
+  },
+  "s4": {
+    "name": "Bênção de Luz",
+    "description": "Ao atacar, há uma chance de 50% de que os inimigos atingidos e próximos receberão {0} de DAN.M enquanto Artemia ganha 1 acúmulo de Bênção de Luz. Este poder pode acumular até 10 vezes. Cada acúmulo aumenta o ATQ em {1}. Cada acúmulo também aumenta o DAN causado a inimigos não heróis em {2}% e reduz o DAN recebido por inimigos não heróis em {3}%.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "A chance de ativação é altarada para 60%.",
+    "dark": "A contagem máxima de acúmulo aumenta para 12."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / Chance Crít. +100",
+    "dark": "Quando o PV ficar abaixo de 50%, ganha 2 segundos de imunidade a todos os DAN. Este efeito ativa apenas uma vez a cada 30 segundos."
+  }
+}

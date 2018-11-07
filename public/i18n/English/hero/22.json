@@ -1,0 +1,120 @@
+{
+  "name": "Rodina",
+  "subtitle": "Blizard's Sniper",
+  "description": "She is a sniper from an empire located in an extremely cold environment. She aims calmly no matter the circumstance. The more she focuses, the more powerful she becomes.",
+  "story": "The empire's top ranking sniper, and a lover of bears. She likes them so much that she always wears accessories resembling a bear's ears on her hat. So, she'll sometimes hunts tigers, but she'll never shoot a bear. Although her shooting skills are most suitable for assassination, she swore to never use them for unjust reasons. Instead, she uses them to protect others. Currently, she lives with Pavel in the Windland Snow Mountain as his personal guard delegated by the empire.",
+  "like": "Bears, polar bears, grizzly bears, small bears, large bears",
+  "dislike": "Those who do not value live",
+  "inn": {
+    "idle": "Preparations for the next journey ~hmhmhm~ (humming)",
+    "recruit": {
+      "greet": "Salutations! Have a good day~",
+      "talk": [
+        "Eat well, fight well!!",
+        "So, I've heard grilled Muhrooms are delicious? I'll have one, yay!!",
+        "Do you like veggies? I love them!"
+      ],
+      "gift": "Thank you!! Thank you for the meals!!"
+    },
+    "affinity": {
+      "greet": "Oh! Thank you for the invite!",
+      "talk": [
+        "I'm hungry! Please give me food!",
+        "Vegetables! Muhroom!"
+      ],
+      "gift": "Thank you for the food!"
+    },
+    "relationship": {
+      "greet": "Ah!? Salutations!! Have you eaten yet!",
+      "talk": [
+        "A soldier's gun is equal to their life! Would you like to see my well-maintained rifle!?",
+        "The frost mage who lives in the Ice Cavern is far more gentle than you think! He still tries to pretend otherwise, so I turn a blind eye!",
+        "Is Sir Fluss not here? Thanks to him, life isn't all that bad!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Rodina Custom Rifle Mod.0",
+    "description": [
+      "Each attack has a 20% chance of dealing 200% of ATK as extra P.DMG and knocking back the enemy. Afterwards, ACC is increased by 100 for 10 sec. This effect can be stacked up to 3 times max.",
+      "Each attack has a 20% chance of dealing 240% of ATK as extra P.DMG and knocking back the enemy. Afterwards, ACC is increased by 100 for 10 sec. This effect can be stacked up to 3 times max.",
+      "Each attack has a 20% chance of dealing 288% of ATK as extra P.DMG and knocking back the enemy. Afterwards, ACC is increased by 100 for 10 sec. This effect can be stacked up to 3 times max.",
+      "Each attack has a 20% chance of dealing 344% of ATK as extra P.DMG and knocking back the enemy. Afterwards, ACC is increased by 100 for 10 sec. This effect can be stacked up to 3 times max.",
+      "Each attack has a 20% chance of dealing 414% of ATK as extra P.DMG and knocking back the enemy. Afterwards, ACC is increased by 100 for 10 sec. This effect can be stacked up to 3 times max.",
+      "Each attack has a 20% chance of dealing 500% of ATK as extra P.DMG and knocking back the enemy. Afterwards, ACC is increased by 100 for 10 sec. This effect can be stacked up to 3 times max."
+    ],
+    "story": "The essence of the most sophisticated imperial technology. Requiring superhuman precision, this rifle cannot be handled by a regular person. It has been magically enchanted to allow the shooter to see impossibly long distances. Even the greatest scope in the world, however, is useless in the hands of someone who can't aim with it. As such, the performance of this rifle has significantly depended on the skills of its users. Rodina, gifted with superb vision and precise control, is a suitable owner of this rifle. She went one step further and customized it to her preference, naming it Rodina Custom."
+  },
+  "s1": {
+    "name": "Penetration Shot",
+    "description": "Upon activation, takes up a stance and starts casting. After casting ends, deals {0} P.DMG upon enemies in a straight line. DMG is increased by {1}% in proportion to the total casting time. If casting progresses beyond the 3rd stage, knock over enemies.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Crit DMG is increased by {0}%."
+    },
+    "light": "DMG is increased by 40%.",
+    "dark": "Gain CC immunity while using said skill."
+  },
+  "s2": {
+    "name": "Target Aim",
+    "description": "Target receives {0}% increased damage from this hero. In addition, own ATK is increased by {1}.",
+    "books": {
+      "0": "ATK boost is increased by {0}%.",
+      "1": "ATK boost is increased by {0}%.",
+      "2": "Crit DMG is increased by {0}% for the duration of skill"
+    },
+    "light": "ATK Spd is boosted by 250 for the duration.",
+    "dark": "Mana cost is reduced by 1.",
+    "ut": {
+      "name": "Crystal Support",
+      "description": [
+        "[Target Aim] Changes the target to a random enemy when Rodina's target dies, increasing ATK by 20% for 10 sec.",
+        "[Target Aim] Changes the target to a random enemy when Rodina's target dies, increasing ATK by 24% for 10 sec.",
+        "[Target Aim] Changes the target to a random enemy when Rodina's target dies, increasing ATK by 29% for 10 sec.",
+        "[Target Aim] Changes the target to a random enemy when Rodina's target dies, increasing ATK by 35% for 10 sec.",
+        "[Target Aim] Changes the target to a random enemy when Rodina's target dies, increasing ATK by 42% for 10 sec.",
+        "[Target Aim] Changes the target to a random enemy when Rodina's target dies, increasing ATK by 50% for 10 sec."
+      ],
+      "story": "A sniper rifle support that Pavel made so that it would fit Rodina's small body. It's made of crystals so it's very firm and sturdy. This support is enough to aim at any target."
+    }
+  },
+  "s3": {
+    "name": "Focused Fire",
+    "description": "Fires 10 shots at random. Deals {0} DMG upon attack, and per each attack, DMG is increased by {1}%.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Crit DMG is increased by {0}%."
+    },
+    "light": "Reduces cooldown by 5% when Critical Hits occur.",
+    "dark": "Ignores enemy Block.",
+    "ut": {
+      "name": "Custom Bullet VII",
+      "description": [
+        "[Focused Fire] Increases DMG by 20% and inflicts damage ignoring the target's DEF with the last 2 shots.",
+        "[Focused Fire] Increases DMG by 24% and inflicts damage ignoring the target's DEF with the last 2 shots.",
+        "[Focused Fire] Increases DMG by 29% and inflicts damage ignoring the target's DEF with the last 2 shots.",
+        "[Focused Fire] Increases DMG by 35% and inflicts damage ignoring the target's DEF with the last 2 shots.",
+        "[Focused Fire] Increases DMG by 42% and inflicts damage ignoring the target's DEF with the last 2 shots.",
+        "[Focused Fire] Increases DMG by 50% and inflicts damage ignoring the target's DEF with the last 2 shots."
+      ],
+      "story": "A barrage that was requested to the legendary blacksmith of the empire. It contains gunpowder made from the sturdy egg of a pitta and the jaw bone of a dragon turtle. It was made small so that Rodina can use it easily, but it has the power to destroy anything."
+    }
+  },
+  "s4": {
+    "name": "Rapid Shot",
+    "description": "Every 10 sec, attacks the target 2 times, dealing a total of {0} P.DMG.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Crit DMG is increased by {0}%."
+    },
+    "light": "If there is 1 enemy, DMG is increased by 100%.",
+    "dark": "Enemies hit are stunned for 2 sec."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / Crit Chance +100",
+    "dark": "Increases ATK by 20% for 10 seconds and sets 3 random enemies as Rodina's target at the start of every battle."
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "name": "Kara",
+  "subtitle": "Hiện thân pháp nghệ cổ",
+  "description": "Một Quái vật đá hình người được chế tạo từ pháp nghệ của một nền văn minh cổ đại bị quên lãng. Thân thể của cô là sự kết hợp giữa công nghệ cổ đại và pháp nghệ thu nhỏ. Cô là một vũ khí cực mạnh có khả năng hủy diệt quân địch bằng ngọn lửa hội tụ đầy uy lực.",
+  "story": "Một Quái vật đá hình người được tạo ra bằng pháp nghệ cổ, nhưng lại có vẻ ngoài chẳng khác nào một cô gái phàm trần. Cô là một vũ khí cổ đại không có tình cảm và chỉ đóng vai trò như một công cụ. Cô ngủ quên trong phế tích của nền văn minh cổ đại, tận sâu bên dưới Bình nguyên Galluah. Trong một cuộc nghiên cứu, Annette, một pháp nghệ sư ở Vương quốc Orvel, đã tìm thấy và đưa cô đến với kỷ nguyên mới, nền văn minh mới...",
+  "like": "Nạp năng lượng, Chủ nhân",
+  "dislike": "Mệnh lệnh không thể thực hiện, cách hành động không hiệu quả",
+  "inn": {
+    "idle": "Đông đúc quá. Ta chưa từng thấy nhiều người như vậy.",
+    "recruit": {
+      "greet": "Xin chào!",
+      "talk": [
+        "Tiết trời hôm nay... Khá là trong trẻo. Tối nay sẽ có mây rải rác.",
+        "Đồ ở đây đều là món thượng hạng. Đừng lo, không có độc đâu.",
+        "Hoàng cung thật yên ắng, còn ở đây lại quá ồn ào."
+      ],
+      "gift": "Thời nay dùng loại tiền này hả? Chủ nhân ta hẳn sẽ thích thú lắm."
+    },
+    "affinity": {
+      "greet": "Xin chào. Lại một vị Chủ nhân nữa.",
+      "talk": [
+        "Ta là một vũ khí. Ta không có cảm xúc. Thế nhưng...",
+        "Sống là thế nào nhỉ..."
+      ],
+      "gift": "Cảm ơn nhé. Ta sẽ dùng thứ này để hỗ trợ nghiên cứu của chủ nhân."
+    },
+    "relationship": {
+      "greet": "Xin chào. Đêm qua ngủ ngon chứ?",
+      "talk": [
+        "Ta không hiểu lắm về cảm xúc... Không rõ cảm giác này là gì nhỉ?",
+        "Một cảm giác thật quen thuộc. Thân thương... Là vậy sao?",
+        "Yêu thương là sao nhỉ? Ta muốn biết quá."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Đại bác di động bất diệt kiểu 0, Phá thiên",
+    "description": [
+      "Tăng 1% sức mạnh tấn công mỗi giây. Có thể cộng dồn đến 30 lần.",
+      "Tăng 1% sức mạnh tấn công mỗi giây. Có thể cộng dồn đến 40 lần.",
+      "Tăng 1% sức mạnh tấn công mỗi giây. Có thể cộng dồn đến 50 lần.",
+      "Tăng 1% sức mạnh tấn công mỗi giây. Có thể cộng dồn đến 60 lần.",
+      "Tăng 1% sức mạnh tấn công mỗi giây. Có thể cộng dồn đến 70 lần.",
+      "Tăng 1% sức mạnh tấn công mỗi giây. Có thể cộng dồn đến 80 lần."
+    ],
+    "story": "Một bảo vật của nền văn minh cổ, có cơ chế cấp nguồn sức mạnh vô hạn. Nó mang uy lực của vũ khí công hãm và có sức công phá ngang ngửa phép thuật tối thượng. Vũ khí này được tìm thấy trong phế tích của Công quốc Gray xưa kia, nhưng lại bị xếp xó vì không ai biết cách sử dụng. Mãi đến khi Kara được phát hiện và thức tỉnh thì vũ khí này mới đến bên cô. Một vũ khí pháp nghệ thượng hạng được chế tạo giống như Mountain Fortress."
+  },
+  "s1": {
+    "name": "Laser sát thương",
+    "description": "Tấn công mục tiêu 4 lần, gây tổng cộng {0} sát thương phép thuật và tung đòn đánh bật. Tấn công toàn bộ quân địch bằng cú đánh cuối cùng, gây {1} sát thương phép thuật và thổi bay chúng trong {2} giây.",
+    "books": {
+      "0": "Tăng {0}% sát thương",
+      "1": "Tăng {0}% sát thương",
+      "2": "Tăng {0}% sát thương"
+    },
+    "light": "[Laser sát thương] - Hồi phục 200 MP khi có đòn chí mạng. [Laser công hãm] - Tăng 1 điểm mức Tiêu hao mana và tăng 100% sát thương.",
+    "dark": "[Laser sát thương] - Giảm 300 MP của kẻ địch chịu sát thương. [Laser công hãm] - Giảm 1 điểm mức Tiêu hao mana.",
+    "linked": {
+      "name": "Laser công hãm",
+      "description": "Tấn công mục tiêu, gây {0} sát thương phép thuật. Sát thương chí mạng được áp dụng cao hơn {1}%."
+    }
+  },
+  "s2": {
+    "name": "Đại bác diện rộng",
+    "description": "Tấn công một mục tiêu ngẫu nhiên và quân địch đứng gần trong phạm vi 4 lần, gây tổng cộng {0} sát thương phép thuật và gây choáng trong {1} giây.",
+    "books": {
+      "0": "Tăng {0}% sát thương",
+      "1": "Tăng {0}% sát thương",
+      "2": "Tăng {0}% sát thương"
+    },
+    "light": "[Đại bác diện rộng] - Tăng thời gian Choáng thêm 1 giây. [Lửa hội tụ] - Cộng dồn Lửa hội tụ thêm 1 lần.",
+    "dark": "[Đại bác diện rộng] - Giảm 1 điểm mức Tiêu hao mana. [Lửa hội tụ] - Tăng số lần Cộng dồn tối đa của Lửa hội tụ lên 60.",
+    "ut": {
+      "name": "Máy ghi chép KARA-00XX",
+      "description": [
+        "[Đại bác diện rộng] Tăng 50% sát thương và làm giảm 100 tốc độ tấn công của đối tượng trong 10 giây. [Lửa hội tụ] Giảm 2% thời gian đợi hồi chiêu và hồi phục 150 mana khi phát sinh chí mạng.",
+        "[Đại bác diện rộng] Tăng 50% sát thương và làm giảm 120 tốc độ tấn công của đối tượng trong 10 giây. [Lửa hội tụ] Giảm 2.4% thời gian đợi hồi chiêu và hồi phục 150 mana khi phát sinh chí mạng.",
+        "[Đại bác diện rộng] Tăng 50% sát thương và làm giảm 140 tốc độ tấn công của đối tượng trong 10 giây. [Lửa hội tụ] Giảm 2.9% thời gian đợi hồi chiêu và hồi phục 150 mana khi phát sinh chí mạng.",
+        "[Đại bác diện rộng] Tăng 50% sát thương và làm giảm 170 tốc độ tấn công của đối tượng trong 10 giây. [Lửa hội tụ] Giảm 3.5% thời gian đợi hồi chiêu và hồi phục 150 mana khi phát sinh chí mạng.",
+        "[Đại bác diện rộng] Tăng 50% sát thương và làm giảm 210 tốc độ tấn công của đối tượng trong 10 giây. [Lửa hội tụ] Giảm 4.2% thời gian đợi hồi chiêu và hồi phục 150 mana khi phát sinh chí mạng.",
+        "[Đại bác diện rộng] Tăng 50% sát thương và làm giảm 250 tốc độ tấn công của đối tượng trong 10 giây. [Lửa hội tụ] Giảm 5% thời gian đợi hồi chiêu và hồi phục 150 mana khi phát sinh chí mạng."
+      ],
+      "story": "Một thiết bị ghi chép và bộ xử lý đóng vai trò não bộ của Kara. Nó là một báu vật chứa đựng trí tuệ cổ xưa và có khả năng tiếp nhận vượt xa trí óc con người. Mặc dù là một thiết bị kỳ diệu nhưng nó không ghi lại và mô phỏng được cảm xúc."
+    },
+    "linked": {
+      "name": "Lửa hội tụ",
+      "description": "Tấn công một mục tiêu ngẫu nhiên 15 lần, gây tổng cộng {0} sát thương phép thuật và phát động Lửa hội tụ trong {1} giây. Gây thêm {2} sát thương phép thuật với mỗi lần cộng dồn Lửa hội tụ trên kẻ địch. Có thể cộng dồn Lửa hội tụ đến 30 lần."
+    }
+  },
+  "s3": {
+    "name": "Vũ khí công hãm dạng phóng",
+    "description": "Kara chuyển sang chế độ Vũ khí công hãm và tấn công kẻ địch, gây {0} sát thương phép thuật với mỗi lần đánh trúng. Khi ở chế độ Vũ khí công hãm, thay đổi kỹ năng Laser sát thương và Đại bác diện rộng thành kỹ năng Laser công hãm và Lửa hội tụ. Khi dùng tiếp kỹ năng này, chuyển về chế độ Vũ khí sát thương.",
+    "books": {
+      "0": "Tăng {0}% sát thương",
+      "1": "Tăng {0}% sát thương",
+      "2": "Tăng {0}% sát thương"
+    },
+    "light": "Khi địch chỉ còn 1 người, lượng sát thương tăng 100%.",
+    "dark": "Giảm 3% toàn bộ thời gian hồi chiêu khi có đòn chí mạng.",
+    "ut": {
+      "name": "Nguồn sức mạnh cổ đại",
+      "description": [
+        "[Vũ khí công hãm dạng phóng] Tăng 50% sát thương và giảm 1% phòng thủ phép thuật của mục tiêu khi có đòn chí mạng. Có thể cộng dồn Hiệu ứng giảm phòng thủ phép thuật đến 20 lần.",
+        "[Vũ khí công hãm dạng phóng] Tăng 50% sát thương và giảm 1% phòng thủ phép thuật của mục tiêu khi có đòn chí mạng. Có thể cộng dồn Hiệu ứng giảm phòng thủ phép thuật đến 24 lần.",
+        "[Vũ khí công hãm dạng phóng] Tăng 50% sát thương và giảm 1% phòng thủ phép thuật của mục tiêu khi có đòn chí mạng. Có thể cộng dồn Hiệu ứng giảm phòng thủ phép thuật đến 29 lần.",
+        "[Vũ khí công hãm dạng phóng] Tăng 50% sát thương và giảm 1% phòng thủ phép thuật của mục tiêu khi có đòn chí mạng. Có thể cộng dồn Hiệu ứng giảm phòng thủ phép thuật đến 35 lần.",
+        "[Vũ khí công hãm dạng phóng] Tăng 50% sát thương và giảm 1% phòng thủ phép thuật của mục tiêu khi có đòn chí mạng. Có thể cộng dồn Hiệu ứng giảm phòng thủ phép thuật đến 42 lần.",
+        "[Vũ khí công hãm dạng phóng] Tăng 50% sát thương và giảm 1% phòng thủ phép thuật của mục tiêu khi có đòn chí mạng. Có thể cộng dồn Hiệu ứng giảm phòng thủ phép thuật đến 50 lần."
+      ],
+      "story": "Nguồn sức mạnh của Kara và một trong những kiệt tác vĩ đại nhất của nền văn minh cổ đại đã chìm vào quên lãng từ lâu. Đó là công nghệ cơ bản mà Annette từng dùng để chế tạo Rascal, nhưng kể cả cô cũng không nắm được hết công nghệ đặc biệt này. Một vũ khí trường tồn không ngừng tạo ra nguồn sức mạnh phép thuật vô hạn."
+    }
+  },
+  "s4": {
+    "name": "Tinh hoa pháp nghệ",
+    "description": "Khi ở chế độ Vũ khí sát thương, tăng {0} toàn bộ lực thủ, còn khi ở chế độ Vũ khí công hãm, tăng {1} sức mạnh tấn công, chịu thêm {2}% sát thương và được miễn nhiễm trạng thái chế ngự. Hồi phục {3} MP mỗi lần gây sát thương cho một kẻ địch.",
+    "books": {
+      "0": "Lượng tăng sức tấn công và lực phòng thủ tăng {0}%.",
+      "1": "Lượng tăng sức tấn công và lực phòng thủ tăng {0}%.",
+      "2": "Lượng tăng sức tấn công và lực phòng thủ tăng {0}%."
+    },
+    "light": "Mức Hồi MP tăng gấp ba khi chỉ còn 1 kẻ địch.",
+    "dark": "[Vũ khí sát thương] - Giảm 20% sức mạnh tấn công nhưng tăng 100% khả năng Hồi MP mỗi giây. [Vũ khí công hãm] - Giảm 60% toàn bộ lực thủ nhưng tăng 140% sát thương chí mạng."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / Crit DMG +20%",
+    "dark": "[Vũ khí sát thương] - Tăng độ chính xác ở trạng thái chế ngự thêm 400. [Vũ khí công hãm] - Tăng độ chính xác thêm 400."
+  }
+}

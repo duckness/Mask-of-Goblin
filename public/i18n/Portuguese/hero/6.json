@@ -1,0 +1,120 @@
+{
+  "name": "Phillop",
+  "subtitle": "Rei dos Anões",
+  "description": "Um lendário caçador de dragões. Apesar de sua pequena estatura, seu poderoso golpe de escudo destrói formações inimigas, geralmente seguidas de um golpe final.",
+  "story": "Ele é o forte e rígido rei dos Anões. Há 100 anos, ele lutou ao lado do Guerreiro da Espada Sagrada contra o Exército Demoníaco. Seu heroísmo ao derrotar a Legião do Dragão das Trevas, a principal divisão do Exército Demoníaco, é conhecido em todo o território. Na verdade, ele só se senta no trono por um sentimento de obrigação. Mesmo quando reclama do tédio dos seus deveres reais, ele continua a trabalhar com diligência.",
+  "like": "Bebidas, banho de areia, metalurgia e artesanato",
+  "dislike": "Longas reuniões, o trono real, Demônios (principalmente os Dragões Sombrios)",
+  "inn": {
+    "idle": "Um humano pode beber mais que um anão?",
+    "recruit": {
+      "greet": "Nossa, haha. Vocês fazem eu me lembrar dos velhos tempos.",
+      "talk": [
+        "O rei dos anões? O título não é nada além de um incômodo",
+        "O tamanho da cama não é adequado. Mas eu não vou voltar para casa!",
+        "Em comparação a nós anões, humanos nunca sabem como aproveitar a vida!"
+      ],
+      "gift": "Esta é uma lembrança do nosso encontro? Haaha. Eu o valorizei."
+    },
+    "affinity": {
+      "greet": "Boas vindas. Aqui! Vamos brindar!",
+      "talk": [
+        "A guerra de 100 anos atrás... Eu era tão jovem quanto você quando estive com o Rei Kyle...",
+        "Às vezes, eu sinto saudade dos meus dias de guerreiro. Naquela época, eu não tinha tantos problemas."
+      ],
+      "gift": "Não precisava. Mas eu preferiria uma bebida. Ha ha!"
+    },
+    "relationship": {
+      "greet": "Olá, amigo! Vai uma bebida, hein?",
+      "talk": [
+        "Eu matei vários Dragões Loucos e Dragônicos no meu tempo, o suficiente para enrolar a barba de qualquer anão.",
+        "Precisa de uma arma nova? Eu tenho alguns machados de Anão no meu baú.",
+        "Hahaha, você é divertido. Sim, se precisar da ajuda dos Anões, estaremos aqui para ajudar."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Atein, Ruínas do Dragão",
+    "description": [
+      "Ao receber DAN, acumula Fúria do Dragão com duração de 10 segundos. Aumenta o ATQ e DEF do herói em 0,8%. Pode se acumular até no máximo 100 vezes.",
+      "Ao receber DAN, acumula Fúria do Dragão com duração de 10 segundos. Aumenta o ATQ e DEF do herói em 1%. Pode se acumular até no máximo 100 vezes.",
+      "Ao receber DAN, acumula Fúria do Dragão com duração de 10 segundos. Aumenta o ATQ e DEF do herói em 1,2%. Pode se acumular até no máximo 100 vezes.",
+      "Ao receber DAN, acumula Fúria do Dragão com duração de 10 segundos. Aumenta o ATQ e DEF do herói em 1,4%. Pode se acumular até no máximo 100 vezes.",
+      "Ao receber DAN, acumula Fúria do Dragão com duração de 10 segundos. Aumenta o ATQ e DEF do herói em 1,7%. Pode se acumular até no máximo 100 vezes.",
+      "Ao receber DAN, acumula Fúria do Dragão com duração de 10 segundos. Aumenta o ATQ e DEF do herói em 2%. Pode se acumular até no máximo 100 vezes."
+    ],
+    "story": "Os Dragões Sombrios são Demônios criados para matar os dragões, os mediadores deste mundo. Durante a guerra de 100 anos atrás, esses Dragões Sombrios mataram e devoraram inúmeros dragões. Alguns dos dragões que sobreviveram enlouqueceram pela fúria e vergonha, e, por fim, se transformaram em Dragões Loucos. Eles não são nada além de monstros gigantes movidos por seus instintos destrutivos. Phillop e seus Anões caçam esses Dragões Sombrios e Dragões Loucos desde a Guerra dos Demônios, coletando seus restos para forjar itens lendários."
+  },
+  "s1": {
+    "name": "Colisão",
+    "description": "Causa {0} de DAN.F e derruba o inimigo durante {1} segundos.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Reduz {1}% de DEF.F dos inimigos atingidos durante {0} segundos."
+    },
+    "light": "Reduz o custo de mana em 1.",
+    "dark": "Reduz o tempo de recarga em 10% por cada inimigo atingido."
+  },
+  "s2": {
+    "name": "Cabeçada",
+    "description": "Investe contra o inimigo e causa {0} de DAN.F. Reduz a VEL. ATQ dos inimigos atingidos em {2}%, durante {1} segundos.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Reduz o ATQ inimigo em {0}%."
+    },
+    "light": "Causa DAN.F adicional igual a 10% do PV Máx.",
+    "dark": "Transforma o Empurrão num Atordoamento de 3 segundos.",
+    "ut": {
+      "name": "Elmo Capricorniano Anão",
+      "description": [
+        "[Cabeçada] Reduz o Custo de Mana em 1 e a Resistência a Crít F. do inimigo atingido em 200 por 10s.",
+        "[Cabeçada] Reduz o Custo de Mana em 1 e a Resistência a Crít F. do inimigo atingido em 240 por 10s.",
+        "[Cabeçada] Reduz o Custo de Mana em 1 e a Resistência a Crít F. do inimigo atingido em 290 por 10s.",
+        "[Cabeçada] Reduz o Custo de Mana em 1 e a Resistência a Crít F. do inimigo atingido em 350 por 10s.",
+        "[Cabeçada] Reduz o Custo de Mana em 1 e a Resistência a Crít F. do inimigo atingido em 420 por 10s.",
+        "[Cabeçada] Reduz o Custo de Mana em 1 e a Resistência a Crít F. do inimigo atingido em 500 por 10s."
+      ],
+      "story": "Elmo capricorniano do Rei Anão Ancião. O item foi feito do ouro de dragões obtido após a derrota do ganancioso dragão Bokrug. O magnífico chifre do elmo foi saturado com a magia do dragão sombrio, que desacelera inimigos atingidos por Cabeçadas."
+    }
+  },
+  "s3": {
+    "name": "Terra Encarnada",
+    "description": "Ao ativar, aumenta a DEF em {1} , durante {0} segundos e ganha imunidade a penalidades. Além disso, cura {2}% de PV.",
+    "books": {
+      "0": "Taxa de aumento de DEF.F aumenta em {0}%.",
+      "1": "Taxa de aumento de DEF.F aumenta em {0}%.",
+      "2": "Redução de DAN aumenta em {0}."
+    },
+    "light": "Causa DAN por segundo igual 1% do PV Máx. aos inimigos próximos.",
+    "dark": "Transforma o efeito num Atordoamento de 3 segundos aos inimigos próximos.",
+    "ut": {
+      "name": "Martelo Cerimonial Anão",
+      "description": [
+        "[Encarnado na Terra] Durante o efeito do poder, a Vel de ATQ e Chance de Crit aumentam em 250, e o reforço de DEF aumenta em 20%.",
+        "[Encarnado na Terra] Durante o efeito do poder, a Vel de ATQ e Chance de Crit aumentam em 250, e o reforço de DEF aumenta em 24%.",
+        "[Encarnado na Terra] Durante o efeito do poder, a Vel de ATQ e Chance de Crit aumentam em 250, e o reforço de DEF aumenta em 29%.",
+        "[Encarnado na Terra] Durante o efeito do poder, a Vel de ATQ e Chance de Crit aumentam em 250, e o reforço de DEF aumenta em 35%.",
+        "[Encarnado na Terra] Durante o efeito do poder, a Vel de ATQ e Chance de Crit aumentam em 250, e o reforço de DEF aumenta em 42%.",
+        "[Encarnado na Terra] Durante o efeito do poder, a Vel de ATQ e Chance de Crit aumentam em 250, e o reforço de DEF aumenta em 50%."
+      ],
+      "story": "Um martelo que o antigo Rei Anão recebeu como presente do Elemental da Terra. Foi um presente que o rei recebeu por salvar o Reino Gnomo dos ataques do maligno Dragão de Terra Azi Dahaka. Ao usar Terra Encarnada, esse martelo cerimonial, imbuído com a bênção do espírito da terra, aumenta DEF com o poder do espírito da terra e garante imunidade à recuperação de PV e CM."
+    }
+  },
+  "s4": {
+    "name": "Destruir Armadura",
+    "description": "Ao atacar um inimigo, enfraquece sua DEF.F em {1} , durante {0} segundos. Pode se acumular até no máximo 5 vezes.",
+    "books": {
+      "0": "Aumenta a redução de DEF.F em {0}%.",
+      "1": "Aumenta a redução de DEF.F em {0}%.",
+      "2": "Reduz a chance de ESQ.F em {0}% por acúmulo."
+    },
+    "light": "Inimigos com 5 acúmulos recebem 1% adicional por ataque de DAN.F baseado no PV Máx.",
+    "dark": "Ao atacar, remove todos os efeitos positivos e o alvo recebe 20% a mais de DAN.F por 20 segundos. Recarga: 20 segundos."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / BLQ.F +200",
+    "dark": "Enquanto estiver em ataque automático, há 10% de chance de Atordoar o alvo durante 2 segundos e causar DAN adicional igual a 10% do próprio PV."
+  }
+}

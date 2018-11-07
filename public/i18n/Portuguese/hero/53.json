@@ -1,0 +1,120 @@
+{
+  "name": "Shamilla",
+  "subtitle": "A Hospedeira de Maldições",
+  "description": "Um Demônio de alta patente que carrega 30 milhões de tipos de maldição dentro de si. É intrigada pela força de vontade dos seres humanos que não se submetem à dor e angústia. Usa o Arco e as Flechas da Corrupção para atormentar os inimigos com várias maldições diferentes.",
+  "story": "Um poderoso Demônio que fazia parte dos oficiais que serviam Angmund, o Senhor das Trevas. Ela é capaz de conter todas as maldições do mundo, mas o seu objetivo não é a ressurreição do Senhor das Trevas ou a dominação do mundo. Tudo que acontece no mundo faz parte de uma dramatização da qual ela se vê como a audiência. Suas ações são como as de uma roteirista que revisa o cenário, mexendo os pauzinhos nas sombras e observando como as cenas escritas por ela se desenrolam.",
+  "like": "Situações inesperadas, pessoas que lutam contra o fluxo das coisas",
+  "dislike": "Cenários entediantes, histórias óbvias",
+  "inn": {
+    "idle": "Ah, tantas pessoas com almas poderosas... Hahahaha...",
+    "recruit": {
+      "greet": "Haha, posso lhe ajudar?",
+      "talk": [
+        "A sua alma é muito especial... Haha, isso é interessante.",
+        "Um Demônio? Bem, não faço ideia do que você está dizendo.",
+        "A vida humana não é a maior forma de arte?"
+      ],
+      "gift": "Ah... Um presente para mim. Haha, e então, qual é o seu objetivo...?"
+    },
+    "affinity": {
+      "greet": "Ah, olá. Já voltou?",
+      "talk": [
+        "Por que escondi o fato de ser um Demônio? Haha, não seria melhor não fazer perguntas tão óbvias?",
+        "Mesmo que seja um cenário bem planejado, é sempre bom um pouco de dramatização. Hahaha..."
+      ],
+      "gift": "Eu queria outro tipo de presente... Haha, mas isso também é legal."
+    },
+    "relationship": {
+      "greet": "Haha, você também vai me mostrar uma cena legal hoje, não é?",
+      "talk": [
+        "Meu objetivo... Haha. Digamos que seja provar algo novo que eu nunca provei antes.",
+        "Você é uma pessoa engraçada. É por isso que eu quero observar você mais de perto. Hum hum hum!",
+        "Ah, isso é bom. A sua aparência quando está em perigo, tentando lutar contra o seu destino...!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Apoliox, Asas da Corrupção",
+    "description": [
+      "A cada 20 segundos, obtém A Hospedeira de Maldições e aumenta o ATQ em 20% por 10 segundos.",
+      "A cada 19 segundos, obtém A Hospedeira de Maldições e aumenta o ATQ em 24% por 10 segundos.",
+      "A cada 18 segundos, obtém A Hospedeira de Maldições e aumenta o ATQ em 29% por 10 segundos.",
+      "A cada 16 segundos, obtém A Hospedeira de Maldições e aumenta o ATQ em 35% por 10 segundos.",
+      "A cada 14 segundos, obtém A Hospedeira de Maldições e aumenta o ATQ em 42% por 10 segundos.",
+      "A cada 12 segundos, obtém A Hospedeira de Maldições e aumenta o ATQ em 50% por 10 segundos."
+    ],
+    "story": "Maldições nascem de sentimentos negativos, como ódio, inveja e rancor. Esses são os melhores alimentos para Shamilla. As asas, que se tornaram poderosas durante a Guerra dos Demônios ao absorverem as maldições de inúmeros indivíduos, são aterrorizantes para pessoas normais. Dizem que quem é tocado pelas penas fica vinculado a várias maldições e cai em um vórtice de emoções. Nesse abismo, ressoa uma risada cativante e sedutora: a risada de um demônio que gosta de diferentes tipos de sentimentos humanos."
+  },
+  "s1": {
+    "name": "Maldição de Petrificação",
+    "description": "Ataca um inimigo e causa {0} de DAN M., além de infligir Maldição de Petrificação por {1} segundos, a qual não pode ser removida. O inimigo sob a Maldição de Petrificação terá Vel de ATQ reduzida em {2} , e esse efeito ficará mais forte até um máximo de {3}% com o passar do tempo. Quando a maldição acaba, petrifica o alvo por {4} segundos.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "DAN aumenta em {0}%."
+    },
+    "light": "A recarga é reduzido em 3 segundos.",
+    "dark": "Reduz 500 de PM do inimigo que levou o DAN."
+  },
+  "s2": {
+    "name": "Maldição do Tempo",
+    "description": "Ataca um inimigo e causa {0} de DAN M., além de infligir Maldição do Tempo por {1} segundos, aumentando todas as recargas de habilidade em {2} segundos. Todas as recargas de habilidade do inimigo sob a Maldição do Tempo aumentam em {4} segundos a cada {3} segundos.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "DAN aumenta em {0}%."
+    },
+    "light": "O custo de mana será reduzido em 1.",
+    "dark": "Remove os efeitos positivos do alvo.",
+    "ut": {
+      "name": "Coração do Demônio Ancião",
+      "description": [
+        "[Maldição do Tempo] Aumenta a Recarga em 0,7s e reduz a DEF M. do alvo em 10% por 10s.",
+        "[Maldição do Tempo] Aumenta a Recarga em 0,7s e reduz a DEF M. do alvo em 12% por 10s.",
+        "[Maldição do Tempo] Aumenta a Recarga em 0,7s e reduz a DEF M. do alvo em 14% por 10s.",
+        "[Maldição do Tempo] Aumenta a Recarga em 0,7s e reduz a DEF M. do alvo em 17% por 10s.",
+        "[Maldição do Tempo] Aumenta a Recarga em 0,7s e reduz a DEF M. do alvo em 21% por 10s.",
+        "[Maldição do Tempo] Aumenta a Recarga em 0,7s e reduz a DEF M. do alvo em 25% por 10s."
+      ],
+      "story": "Uma joia da qual se pode ouvir os sussurros rancorosos de demônios anciões. Um item amaldiçoado cheio de almas de demônios anciões há muito esquecidos. Eles querem escapar todos os dias, mas ela não permite que eles saiam tão facilmente. Sua alma aceitou todas as maldições do mundo, sendo tão oculta e obscura quanto o abismo."
+    }
+  },
+  "s3": {
+    "name": "Maldição da Dor",
+    "description": "Ataca um inimigo, causando {0} de DAN M. e infligindo Repelir no alvo. Também inflige Maldição da Dor por {1} segundos, causando um total de {2} de DAN M. no decorrer do tempo.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "DAN aumenta em {0}%."
+    },
+    "light": "O alvo recebe mais 25% de DAN.M durante 10 segundos.",
+    "dark": "DAN aumenta em 40%.",
+    "ut": {
+      "name": "O Frasco de Maldições",
+      "description": [
+        "[Maldição da Dor] Aumenta o DAN em 20% e ganha um acúmulo de ‘A Hospedeira de Maldições’ ao matar um inimigo.",
+        "[Maldição da Dor] Aumenta o DAN em 24% e ganha um acúmulo de ‘A Hospedeira de Maldições’ ao matar um inimigo.",
+        "[Maldição da Dor] Aumenta o DAN em 29% e ganha um acúmulo de ‘A Hospedeira de Maldições’ ao matar um inimigo.",
+        "[Maldição da Dor] Aumenta o DAN em 35% e ganha um acúmulo de ‘A Hospedeira de Maldições’ ao matar um inimigo.",
+        "[Maldição da Dor] Aumenta o DAN em 42% e ganha um acúmulo de ‘A Hospedeira de Maldições’ ao matar um inimigo.",
+        "[Maldição da Dor] Aumenta o DAN em 50% e ganha um acúmulo de ‘A Hospedeira de Maldições’ ao matar um inimigo."
+      ],
+      "story": "Shamilla foi amaldiçoada a conter todas as maldições do mundo dentro de si, mas também pode ser vista como uma salvadora que segura todas essas pragas. Sua morte significaria que todo o mal que ela contém dentro de si voltaria para o mundo. Este Frasco de Maldições que Shamilla fez é usado para recuperar as maldições expelidas por ela."
+    }
+  },
+  "s4": {
+    "name": "A Hospedeira de Maldições",
+    "description": "No início de cada batalha, durante {0} segundos, obtém A Hospedeira de Maldições, cria um escudo que não pode ser cancelado e absorve {1} de dano. Ganha Imunidade a CM enquanto o escudo durar. Quando a habilidade é ativada, consome A Hospedeira de Maldições para ter 4 inimigos como alvo.",
+    "books": {
+      "0": "Aumenta os PV do Escudo em {0}%.",
+      "1": "Aumenta os PV do Escudo em {0}%.",
+      "2": "Aumenta os PV do Escudo em {0}%."
+    },
+    "light": "Aumenta os PV do Escudo em 80%.",
+    "dark": "Aumenta a duração da Hospedeira de Maldições em 20 segundos, e se torna descartável."
+  },
+  "t5": {
+    "light": "ATK, DEF, PV+15% / Vel ATQ +100",
+    "dark": "Todos os efeitos de maldição são aumentados. [Maldição de Petrificação] Duração de Petrificação é aumentada em 2 seg. [Maldição do Tempo] Duração da Maldição do Tempo é aumentada em 3 seg. [Maldição da Dor] Aumenta a duração da Maldição da Dor em 50%."
+  }
+}

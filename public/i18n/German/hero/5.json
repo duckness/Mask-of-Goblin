@@ -1,0 +1,120 @@
+{
+  "name": "Gau",
+  "subtitle": "Barbar der gefrorenen Länder",
+  "description": "Ein Barbar, der über die schneebedeckten Ebenen des Frostlandes herrscht. Er zerstört die feindliche Moral mit ohrbetäubenden Schreien und stürmt wie ein Sturm auf seine Feinde zu.",
+  "story": "Gau ist ein mächtiger Krieger aus dem Barbaren-Königreich. Wo immer er seine beiden Äxte schwang, folgte ein Blutbad. Für seine unvergleichliche Grausamkeit war er als Krieger bekannt. Doch urplötzlich war er für zehn Jahre verschollen. Als er zurückkehrte, war er ein anderer Mann geworden. Seine brutale Barbarenart war verschwunden, sogar, wenn Andere Kritik an ihm übten. Nun begegnete er ihnen mit einem Lächeln oder heiterem Gelächter. Sein warmer, gütiger Blick, den er heute für Kinder und Tiere übrighat, ist besonders verwunderlich.",
+  "like": "Kinder; Tiere",
+  "dislike": "Zerstörerische und gewalttätige Leute",
+  "inn": {
+    "idle": "Was wollt ihr von einem Barbaren?",
+    "recruit": {
+      "greet": "Freut mich, dich kennenzulernen. Lass uns irgendwann zusammen auf die Jagd gehen.",
+      "talk": [
+        "Ich sehe stark aus? Ah hör auf, ich werd' noch rot.",
+        "All diese Schönheiten, die mit dir reisen. Ich bin neidisch!",
+        "Ich bin tatsächlich stark, haha."
+      ],
+      "gift": "Was ist das alles? Danke, Mann."
+    },
+    "affinity": {
+      "greet": "Es ist etwas unangenehm, das zu tun.",
+      "talk": [
+        "Hast du Yanne in letzter Zeit gesehen? Ich frage mich, wie es ihr geht ...",
+        "Was? Woher ich Lewisia kenne? Dieses Kind ... Selbst wenn sie jetzt älter ist ... Nur weil ich sie mag, wird es noch lange nicht funktionieren ..."
+      ],
+      "gift": "Danke dir. Ich werde mich nächstes Mal um dich kümmern."
+    },
+    "relationship": {
+      "greet": "Hah! So treffen wir uns also erneut! Alles gut?",
+      "talk": [
+        "Ah... aus der kleinen Lei ist eine feine Dame geworden... nicht zu glauben, dass ihr wahres Alter... hahahaha!",
+        "Ich zerschlage dich in kleine Stücke! - Nun, wie war das? Die Kinder lachen, wenn ich mich so verhalte.",
+        "Hahaha, ein alter Zwerg und ich haben letztes Mal ganz schön viel gebechert. Genaugenommen haben wir sämtlichen Alkohol in der Schenke vernichtet! Hahahaha!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Numinu, der heilige Vogel",
+    "description": [
+      "Pro 1% TP-Verlust steigen Angriffswert und -geschw. um 0.8%.",
+      "Pro 1% TP-Verlust steigen Angriffswert und -geschw. um 1%.",
+      "Pro 1% TP-Verlust steigen Angriffswert und -geschw. um 1.2%.",
+      "Pro 1% TP-Verlust steigen Angriffswert und -geschw. um 1.4%.",
+      "Pro 1% TP-Verlust steigen Angriffswert und -geschw. um 1.7%.",
+      "Pro 1% TP-Verlust steigen Angriffswert und -geschw. um 2%."
+    ],
+    "story": "Es heißt, dass im Windland-Schneegebirge eine heilige Bestie lebt, die die Barbaren beschützt. Diese Bestie, angeblich ein Blauphönix aus Eis, vermag die Macht der Dunkelheit zu verbannen. Numinu, was so viel bedeutet wie „heilig“ wurde der Form dieser Bestie nachempfunden. Sie wurde aus verwunschenem Eis gefertigt, das niemals schmilzt. Die Waffe, die von den Barbaren als heilige Reliquie angesehen wird, wird ihrem mächtigsten Krieger verliehen. Jener, der diese Waffe führt, ist der stärkste Krieger unter den Barbaren und kann als deren König eingestuft werden."
+  },
+  "s1": {
+    "name": "Zerschmettern",
+    "description": "Fügt Feinden in Reichw. {0} K.Schaden zu. Der letzte Angriff wirft Feinde für {1} Sek um.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Reduziert Manakosten um 1.",
+    "dark": "Jede Nutzung erhöht Schaden um 15%. Kumuliert sich bis zu 10 Mal."
+  },
+  "s2": {
+    "name": "Kriegsschrei",
+    "description": "Erhöht Angriffswert aller Verb. um {1} für {0} Sek. Bei Wirkung werden alle Debuff vom Helden entfernt.",
+    "books": {
+      "0": "Angriffs-Steigungsrate steigt um {0}%.",
+      "1": "Angriffs-Steigungsrate steigt um {0}%.",
+      "2": "Angriffs-Steigungsrate steigt um {0}%."
+    },
+    "light": "Erhöht ANG-Boost um 40%.",
+    "dark": "ANG-Geschw. Boost von 200 wird zum Effekt hinzugefügt.",
+    "ut": {
+      "name": "Horn des Kämpfers",
+      "description": [
+        "[Kriegsschrei] Verringert die Manakosten um 1 und erhöht den ANG-Boost um 20 %.",
+        "[Kriegsschrei] Verringert die Manakosten um 1 und erhöht den ANG-Boost um 24 %.",
+        "[Kriegsschrei] Verringert die Manakosten um 1 und erhöht den ANG-Boost um 29 %.",
+        "[Kriegsschrei] Verringert die Manakosten um 1 und erhöht den ANG-Boost um 35 %.",
+        "[Kriegsschrei] Verringert die Manakosten um 1 und erhöht den ANG-Boost um 42 %.",
+        "[Kriegsschrei] Verringert die Manakosten um 1 und erhöht den ANG-Boost um 50 %."
+      ],
+      "story": "Trompete, die aus dem Horn von Orox, der Wächterbestie des Windland-Schneegebirges geschaffen wurde. Orox aus dem Schneegebirge verleiht edlen Kriegern große Kräfte und die Fähigkeit, die Wahrheit zu sehen. Wenn ein Krieger, der Orox’ Segen erhalten hat, dieses Horn bläst, verbessert dies die Moral von Gefährten und macht ihren Verstand wieder klar."
+    }
+  },
+  "s3": {
+    "name": "Wirbel",
+    "description": "Fügt allen Feinden in Reichw. {0} K.Schaden zu. Die letzte Attacke friert Feinde {1} Sek lang ein. Immun gegenüber allen Effekten während Wirkung.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Zieht alle Feinde zu sich heran während d. Skillwirkung."
+    },
+    "light": "Reduziert Cooldown um 3 Sek.",
+    "dark": "Immun gegenüber allen Schadensarten während der Wirkungsdauer.",
+    "ut": {
+      "name": "Barbarenbecher",
+      "description": [
+        "[Wirbel] Erhöht Schaden um 50% und Gegner, die vom letzten Angriff getroffen werden, erleiden 10 Sek. lang 5% mehr Schaden.",
+        "[Wirbel] Erhöht Schaden um 50% und Gegner, die vom letzten Angriff getroffen werden, erleiden 10 Sek. lang 6% mehr Schaden.",
+        "[Wirbel] Erhöht Schaden um 50% und Gegner, die vom letzten Angriff getroffen werden, erleiden 10 Sek. lang 7% mehr Schaden.",
+        "[Wirbel] Erhöht Schaden um 50% und Gegner, die vom letzten Angriff getroffen werden, erleiden 10 Sek. lang 8,5% mehr Schaden.",
+        "[Wirbel] Erhöht Schaden um 50% und Gegner, die vom letzten Angriff getroffen werden, erleiden 10 Sek. lang 10,5% mehr Schaden.",
+        "[Wirbel] Erhöht Schaden um 50% und Gegner, die vom letzten Angriff getroffen werden, erleiden 10 Sek. lang 12,5% mehr Schaden."
+      ],
+      "story": "Becher des Barbarenkönigs, der sich als Erster in den verschneiten Bergen niederließ. Als sich der erste Barbarenkönig in Windland niederließ, schwor er, der Wächter der verschneiten Berge zu werden und teilte seinen Becher mit den heiligen Wesen der Berge. Die Schutzmagie des Frostwolfes, von denen der Barbarenbecher durchwirkt ist, erhöht den ANG von „Wirbel“ und den Effekt von „Frost“."
+    }
+  },
+  "s4": {
+    "name": "Zorn",
+    "description": "Mit jedem Angriff steigt der Angriffswert um {1} für {0} Sek. Dieser Effekt kann bis zu 10mal gestapelt werden.",
+    "books": {
+      "0": "Angriffs-Steigungsrate steigt um {0}%.",
+      "1": "Angriffs-Steigungsrate steigt um {0}%.",
+      "2": "Debuff-Widerstand steigt um 5% mit jeder Stapelung."
+    },
+    "light": "Erhöht ANG-Boost um 40%.",
+    "dark": "Nimmt 5% extra Schaden pro Zähler, aber erhält dafür 50 Krit. Chance und Lebensraub pro Zähler."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / K.Block +200",
+    "dark": "Heilt die TP jede Sek um 10% der ANG. Für jedes 1% verlorener TP reduziert den erlittenen Schaden um 0.6%."
+  }
+}

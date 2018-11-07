@@ -1,0 +1,120 @@
+{
+  "name": "Mediana",
+  "subtitle": "A Perigosa Médic",
+  "description": "Uma médica cujas técnicas remontam à eras de escassez de Sacerdotes e Magia de Cura. Ela dispara remédios de sua ernome injeção para fortalecer aliados, ou enfraquecer o inimigo.",
+  "story": "Uma praticante das artes medicinais desenvolvidas quando os sacerdotes se encontravam em escassez de provisões. Ela herdou seu talento natural para a medicina do seu pai, mas sua sede por conhecimento passou dos limites quando começou a pesquisar venenos. Por causa disso, ela foi banida da sociedade médica, mas seu entusiasmo por pesquisa não pareceu ter sido afetado. No entanto, seu respeito básico pela vida a impediu de alcançar qualquer resultado experimental em suas pesquisas sobre veneno. Quando os Demônios apareceram, ela ficou extasiada por encontrar cobaias raras e preciosas para os seus testes.",
+  "like": "Medicina, cobaias",
+  "dislike": "Magia de cura",
+  "inn": {
+    "idle": "Huhuhu, finalmente, um sujeito digno do teste apareceu.",
+    "recruit": {
+      "greet": "Boas-vindas. Já nos conhecemos?",
+      "talk": [
+        "Você gostaria de testar meu novo remédio? Huhu, não fique com medo.",
+        "Às vezes, eu sinto falta do meu pai que está tão longe de mim.",
+        "Só um instante, acabei de pensar em um composto extremamente eficaz."
+      ],
+      "gift": "Oh, obrigado. Posso usar como material de pesquisa?"
+    },
+    "affinity": {
+      "greet": "Olá. Eu vim descansar, então isso está bom.",
+      "talk": [
+        "A substância nova? Ha ha, estou testando.",
+        "Preciso tomar nota... Tenho que anotar todas as minhas ideias."
+      ],
+      "gift": "Ok, obrigada. Vou conseguir criar um novo veneno, hahaha..."
+    },
+    "relationship": {
+      "greet": "Como está? Diga se você se sente doente.",
+      "talk": [
+        "Eu sei que sou um pouco estranho. Mas, é assim que eu sou.",
+        "Um dia, eu acredito que remédios e tratamento adequado serão melhores do que magia de cura.",
+        "Você não é meu objeto de estudo, você está mais para... o recipiente final. Ah, não para venenos. Eu quis dizer como médico."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Ameaça Misericordiosa, Phistonia",
+    "description": [
+      "DAN de veneno especial aumenta em 40%, e os alvos atingidos recebem DAN.F adicional equivalente a 30% de ATQ de Mediana quando for atingido por outros aliados. O efeito do DAN.F adicional ativa apenas 1 vez por cada segundo.",
+      "DAN de veneno especial aumenta em 48%, e os alvos atingidos recebem DAN.F adicional equivalente a 36% de ATQ de Mediana quando for atingido por outros aliados. O efeito do DAN.F adicional ativa apenas 1 vez por cada segundo.",
+      "DAN de veneno especial aumenta em 57%, e os alvos atingidos recebem DAN.F adicional equivalente a 43% de ATQ de Mediana quando for atingido por outros aliados. O efeito do DAN.F adicional ativa apenas 1 vez por cada segundo.",
+      "DAN de veneno especial aumenta em 69%, e os alvos atingidos recebem DAN.F adicional equivalente a 52% de ATQ de Mediana quando for atingido por outros aliados. O efeito do DAN.F adicional ativa apenas 1 vez por cada segundo.",
+      "DAN de veneno especial aumenta em 83%, e os alvos atingidos recebem DAN.F adicional equivalente a 62% de ATQ de Mediana quando for atingido por outros aliados. O efeito do DAN.F adicional ativa apenas 1 vez por cada segundo.",
+      "DAN de veneno especial aumenta em 100%, e os alvos atingidos recebem DAN.F adicional equivalente a 75% de ATQ de Mediana quando for atingido por outros aliados. O efeito do DAN.F adicional ativa apenas 1 vez por cada segundo."
+    ],
+    "story": "Esta história é de quando os experimentos com venenos de Mediana ainda eram mantidos em segredo dos seus colegas. Certo dia, outro médico notou uma enorme seringa que ela havia feito. Impressionado pelo tamanho do objeto, ele lhe perguntou: “Olha só o tamanho dessa coisa. Você não vai pelo menos dar um nome pra isso?” Diante disso, Mediana respondeu, indiferente: “Ah... Pode chamá-la de... Pistão.”"
+  },
+  "s1": {
+    "name": "Bálsamo Curativo",
+    "description": "Cura todos os aliados em {0} e os torna imunes ao próximo golpe que cause DAN.",
+    "books": {
+      "0": "Recuperação aumentada em {0}%.",
+      "1": "Recuperação aumentada em {0}%.",
+      "2": "Recuperação aumentada em {0}%."
+    },
+    "light": "Reforça o PV do aliado curado em 10% por 10 segundos.",
+    "dark": "Reduz o custo de mana em 1."
+  },
+  "s2": {
+    "name": "Canhão de Água Especial",
+    "description": "Dispara um canhão de água em linha reta, curando aliados na área por {0} a cada 0,5 segundos, enquanto causa {1} de DAN.F ao inimigo.",
+    "books": {
+      "0": "Heal and DMG amounts are increased by {0}%.",
+      "1": "Heal and DMG amounts are increased by {0}%.",
+      "2": "Heal and DMG amounts are increased by {0}%."
+    },
+    "light": "Aumenta a Recuperação e o DAN em 40%.",
+    "dark": "Ganha imunidade a CM enquanto usar este poder.",
+    "ut": {
+      "name": "Poção Especial de Reação Dupla",
+      "description": [
+        "[Canhão de Água Especial] Aumenta a Resistência em 30% e reduz a Recarga em 12%.",
+        "[Canhão de Água Especial] Aumenta a Resistência em 30% e reduz a Recarga em 14%.",
+        "[Canhão de Água Especial] Aumenta a Resistência em 30% e reduz a Recarga em 17%.",
+        "[Canhão de Água Especial] Aumenta a Resistência em 30% e reduz a Recarga em 21%.",
+        "[Canhão de Água Especial] Aumenta a Resistência em 30% e reduz a Recarga em 25%.",
+        "[Canhão de Água Especial] Aumenta a Resistência em 30% e reduz a Recarga em 30%."
+      ],
+      "story": "Uma poção especial com dois tipos de efeito. Mediana ponderava se existia uma forma de usar ataque e recuperação ao mesmo tempo. Ela foi à biblioteca e leu um livro empoeirado chamado ‘Visgos Também Podem Fazer Canhões.’ Mediana só estava lendo por diversão, mas encontrou uma maneira de aplicar o princípio de canhões em seu pistão. Então, ela conseguiu inventar a Poção Especial de Reação Dupla e maximizar a recuperação e o ataque ao usar o Canhão de Água Especial. Mediana ainda é grata ao autor do livro que lhe deu inspiração."
+    }
+  },
+  "s3": {
+    "name": "Poção de Fortalecimento",
+    "description": "Imbui um aliado com o maior ATQ com uma poção de fortalecimento, aumentando o ATQ em 20%+ {0} do ATQ de Mediana e impedindo que o PV fique abaixo de 5%.",
+    "books": {
+      "0": "ATK increase amount is boosted by {0}%.",
+      "1": "ATK increase amount is boosted by {0}%.",
+      "2": "ATK increase amount is boosted by {0}%."
+    },
+    "light": "ATK boost is increased by 40%.",
+    "dark": "Reforça a Chance Crít. em 400.",
+    "ut": {
+      "name": "Poção do Mistério",
+      "description": [
+        "[Poção de Fortalecimento] Remove os efeitos negativos do alvo e o alvo ganha imunidade a CM por 2 segundos.",
+        "[Poção de Fortalecimento] Remove os efeitos negativos do alvo e o alvo ganha imunidade a CM por 3 segundos.",
+        "[Poção de Fortalecimento] Remove os efeitos negativos do alvo e o alvo ganha imunidade a CM por 4 segundos.",
+        "[Poção de Fortalecimento] Remove os efeitos negativos do alvo e o alvo ganha imunidade a CM por 5 segundos.",
+        "[Poção de Fortalecimento] Remove os efeitos negativos do alvo e o alvo ganha imunidade a CM por 6 segundos.",
+        "[Poção de Fortalecimento] Remove os efeitos negativos do alvo e o alvo ganha imunidade a CM por 7 segundos."
+      ],
+      "story": "Uma poção especial que tem os ensinamentos de um mestre. O genial cirurgião e especialista em anatomia, Doutor Aldini, é o mestre de Mediana. Doutor Aldini reconheceu seu talento logo cedo, e ensinou a ela extraordinários conhecimentos médicos que não poderiam ter sido imaginados na Igreja de Lua. A poção indistinguível que foi feita com a receita especial de seu mestre aumenta o efeito da Poção de Fortalecimento."
+    }
+  },
+  "s4": {
+    "name": "Veneno Especial de Mediana",
+    "description": "Aumenta todos os ATQs de aliados em {0} e Resistência a Crít.F em {1}. Além disso, ao atacar o alvo, injeta um veneno especial no inimigo que causa DAN.F constante equivalente a {2} por 5 segundos enquanto também reduz a Resistência à Crít.F em {3}.",
+    "books": {
+      "0": "ATK increase amount is boosted by {0}%.",
+      "1": "ATK increase amount is boosted by {0}%.",
+      "2": "Aumenta o Bloqueio Físico de todos os aliados em {0}."
+    },
+    "light": "A Resistência a Crít.F é alterada para 300.",
+    "dark": "O alvo recebe 20% de DAN.F aumentado."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / Resist. CM +100",
+    "dark": "Quando receber DAN, todos os aliados ganham 2% de ATQ. Este efeito acumula 20 vezes."
+  }
+}

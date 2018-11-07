@@ -1,0 +1,120 @@
+{
+  "name": "Lorraine",
+  "subtitle": "Grand Elidoran Scholar",
+  "description": "The elf druid who joined the Human Allied Forces when the Dark Lord invaded. Communes with nature and attacks enemies using trees.",
+  "story": "The Great Sage of Elidora is the wisest of the Druids. As one of the heroes who fought against the Demon invaders 100 years ago, she is often considered the wisest person on the entire Orbis Continent. She has taught and trained countless Elves, and possesses keen insight and mystic powers befitting her age. It is said that even the current king of Elidora as well as his children were all once her students. Having recently sensed a strange disturbance from the Elidora Forest, she is preparing the path for the wielder of the Holy Sword.",
+  "like": "Tranquil forest, beautiful songs",
+  "dislike": "Anything that harms nature",
+  "inn": {
+    "idle": "Do not be afraid. Ye may be much stronger.",
+    "recruit": {
+      "greet": "I'm Lorraine, an Elidora Elf. Salutations.",
+      "talk": [
+        "I had a good time.",
+        "May the blessing of mother nature light thy way.",
+        "Human beings are astounding creatures, but you have a serious weakness. You are ruled by greed and cannot resist temptation."
+      ],
+      "gift": "I will treasure this."
+    },
+    "affinity": {
+      "greet": "I always welcome the chance to spend time with you.",
+      "talk": [
+        "A major crossroad awaits you. Light and shadow... will converge into one path...",
+        "You mean my blue hair? Ah, it's a mistake from my past."
+      ],
+      "gift": "I'll consider it as a gift given out of your generosity."
+    },
+    "relationship": {
+      "greet": "You have grown strong, just, and pure.",
+      "talk": [
+        "You seem to have the purest soul I've seen in a while.",
+        "It would be nice if these times of peaceful enjoyment could last forever...but that would be a vice.",
+        "I will never forget you. Not as the Sage, but as a simple elf."
+      ]
+    }
+  },
+  "uw": {
+    "name": "World Tree's Will, Roburu",
+    "description": [
+      "Every 7 sec, deals 40% of ATK as M.DMG to enemies inflicted with Poison, and reduces enemy M.DEF by 10%. Per every stacked Poison, DMG is increased by 20%.",
+      "Every 7 sec, deals 48% of ATK as M.DMG to enemies inflicted with Poison, and reduces enemy M.DEF by 12%. Per every stacked Poison, DMG is increased by 20%.",
+      "Every 7 sec, deals 57% of ATK as M.DMG to enemies inflicted with Poison, and reduces enemy M.DEF by 14%. Per every stacked Poison, DMG is increased by 20%.",
+      "Every 7 sec, deals 69% of ATK as M.DMG to enemies inflicted with Poison, and reduces enemy M.DEF by 17%. Per every stacked Poison, DMG is increased by 20%.",
+      "Every 7 sec, deals 83% of ATK as M.DMG to enemies inflicted with Poison, and reduces enemy M.DEF by 20%. Per every stacked Poison, DMG is increased by 20%.",
+      "Every 7 sec, deals 100% of ATK as M.DMG to enemies inflicted with Poison, and reduces enemy M.DEF by 25%. Per every stacked Poison, DMG is increased by 20%."
+    ],
+    "story": "The legend has it that, once every 100 years, the World Tree bestows one of its branches to a chosen one. The branch radiates with eternal life, granting immense power and knowledge to its owner. Fusing the branch with the Stone of the Forest, an Elven treasure, Lorraine created this staff. Now, she can call upon the forces of nature and remain connected to the World Tree wherever she goes."
+  },
+  "s1": {
+    "name": "Thornbush Forest",
+    "description": "Attacks 3 times at random, dealing {0} M.DMG to enemies in range and inflicting 1 stack of Poison with each attack.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Leaves 2 stacks of Poison upon a Critical Hit."
+    },
+    "light": "Hit count is increased by 1.",
+    "dark": "Enemies with 5 or more stacks of Poison are shackled for 3 sec upon hit."
+  },
+  "s2": {
+    "name": "Tangled Vine",
+    "description": "Deals {0} M.DMG to enemies in a straight line, stacking 2 Poison and shackling them for {1} sec. After some time, deals a large amount of DMG based on the number of Poison stacks.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Target takes {0}% increased M.DMG for the duration of skill."
+    },
+    "light": "DMG is increased by 40%.",
+    "dark": "Enemies hit by the final explosion effect are stunned for 2 sec.",
+    "ut": {
+      "name": "Deadly Belladonna",
+      "description": [
+        "[Tangled Vine] Reduces Mana Cost by 1 and drains 200 MP from the affected enemy.",
+        "[Tangled Vine] Reduces Mana Cost by 1 and drains 240 MP from the affected enemy.",
+        "[Tangled Vine] Reduces Mana Cost by 1 and drains 290 MP from the affected enemy.",
+        "[Tangled Vine] Reduces Mana Cost by 1 and drains 350 MP from the affected enemy.",
+        "[Tangled Vine] Reduces Mana Cost by 1 and drains 420 MP from the affected enemy.",
+        "[Tangled Vine] Reduces Mana Cost by 1 and drains 500 MP from the affected enemy."
+      ],
+      "story": "The beautiful but poisonous Belladonna. It's a dangerous plant that only the Great Sage can handle. The little Belladonna that is mixed up with vines poisons enemies and makes them defenseless against magic attacks."
+    }
+  },
+  "s3": {
+    "name": "Wrath of the Forest",
+    "description": "Deals {0} M.DMG to enemies in range and knocks them down for 3 sec. Enemies inflicted by Poison takes {1}% more DMG per every stack.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Mana cost is increased by 1 orb but DMG is boosted by 100%.",
+    "dark": "Enemies with 5 or more stacks of Poison lose their positive effects.",
+    "ut": {
+      "name": "Root of the World Tree",
+      "description": [
+        "[Wrath of the Forest] DMG is increased by 20%. Upon Crit Hit on enemies with over 5 stacks of Poison, skill cooldown is reduced by 4%.",
+        "[Wrath of the Forest] DMG is increased by 24%. Upon Crit Hit on enemies with over 5 stacks of Poison, skill cooldown is reduced by 4%.",
+        "[Wrath of the Forest] DMG is increased by 29%. Upon Crit Hit on enemies with over 5 stacks of Poison, skill cooldown is reduced by 4%.",
+        "[Wrath of the Forest] DMG is increased by 35%. Upon Crit Hit on enemies with over 5 stacks of Poison, skill cooldown is reduced by 4%.",
+        "[Wrath of the Forest] DMG is increased by 42%. Upon Crit Hit on enemies with over 5 stacks of Poison, skill cooldown is reduced by 4%.",
+        "[Wrath of the Forest] DMG is increased by 50%. Upon Crit Hit on enemies with over 5 stacks of Poison, skill cooldown is reduced by 4%."
+      ],
+      "story": "Proof of the unity between the Druids and the World Tree. The great sages of Elidora have always maintained a deep bond with the World Tree. The roots of the World Tree are proof of the deep bond with the Druids. They attack enemies with supernatural DMG whenever Druids shout the Wrath of the Forest to show nature's fury and hostility."
+    }
+  },
+  "s4": {
+    "name": "Blade Leaf",
+    "description": "When dealing a normal attack, attacks a random enemy 3 times with a 30% chance of inflicting {0} M.DMG and 1 stack of Poison for 20 seconds. Poison inflicts a total of {1} M.DMG over 20 seconds.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Poison stack maximum is changed to 6.",
+    "dark": "There is a 20% chance that hit enemies are shackled for 2 sec."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / Crit Chance +100",
+    "dark": "Every 5 sec, targets all enemies and attacks with 'Thornbush Forest' with 30% chance on each enemy."
+  }
+}

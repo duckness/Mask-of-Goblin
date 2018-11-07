@@ -1,0 +1,120 @@
+{
+  "name": "Shamilla",
+  "subtitle": "The Vessel of Curses",
+  "description": "A high-ranking Demon that carries 30 million types of curses inside her. Intrigued by the will of humans who don't submit to pain and anguish. Uses the Bow and Arrows of Corruption to torment enemies with many different curses.",
+  "story": "A powerful Demon who used to be one of the officers serving Dark Lord Angmund. She is capable of holding all of the curses in the world. But her real goal isn't the resurrection of the Dark Lord, nor world domination. Everything that happens in the world is a part of a drama, and she thinks of herself as the audience. Her actions are like that of a scriptwriter who revises the scenario, pulling the strings from the shadows and looking forward to how the scenes she's written play out.",
+  "like": "Unexpected situations, people who fight against the flow of things",
+  "dislike": "Boring scenarios, obvious stories",
+  "inn": {
+    "idle": "Oh, so many people with powerful souls... Hahahaha...",
+    "recruit": {
+      "greet": "Haha, can I help you?",
+      "talk": [
+        "Your soul is very special... Haha, this is interesting.",
+        "A Demon? Well, I have no idea what you're saying.",
+        "Isn't a human's life the greatest form of art?"
+      ],
+      "gift": "Oh... A present for me. Haha, so what's your goal...?"
+    },
+    "affinity": {
+      "greet": "Oh, hello. You're back again?",
+      "talk": [
+        "Why did I hide the fact that I'm a Demon? Haha, wouldn't it be better to not ask such obvious questions?",
+        "Even if it is a well planned scenario, some dramatization is good, too. Hahaha..."
+      ],
+      "gift": "I wanted a different type of present... Haha, but this is good, too."
+    },
+    "relationship": {
+      "greet": "Haha, you'll show me a nice scene today too, right?",
+      "talk": [
+        "My goal... Haha. Let's say it's to taste something fresh that I've never experienced before.",
+        "You're funny. That's why I want to watch you a bit more up close. Hm hm hm!",
+        "Ah, that's good. The way you look in peril, trying to fight your fate...!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Wings of Corruption, Apoliox",
+    "description": [
+      "Every 20 seconds, obtains The Vessel of Curses and increases ATK by 20% for 10 seconds.",
+      "Every 19 seconds, obtains The Vessel of Curses and increases ATK by 24% for 10 seconds.",
+      "Every 18 seconds, obtains The Vessel of Curses and increases ATK by 29% for 10 seconds.",
+      "Every 16 seconds, obtains The Vessel of Curses and increases ATK by 35% for 10 seconds.",
+      "Every 14 seconds, obtains The Vessel of Curses and increases ATK by 42% for 10 seconds.",
+      "Every 12 seconds, obtains The Vessel of Curses and increases ATK by 50% for 10 seconds."
+    ],
+    "story": "Curses are born from negative feelings such as hatred, jealousy, and resentment. These are the best food for Shamilla. The wings that grew powerful during the Demon War by absorbing the curses of countless people are terrifying to normal people. Those who are touched by the feathers are said to be bound by many curses, and they fall into a vortex of emotions. In that abyss, a captivating and seductive laughter echoes. The laughter of a demon that enjoys the different kinds of human feelings."
+  },
+  "s1": {
+    "name": "Curse of Petrification",
+    "description": "Attacks an enemy dealing {0} M.DMG and inflicting Curse of Petrification for {1} seconds that can't be dispelled. The enemy under the Curse of Petrification will have ATK Spd reduced by {2} , and this effect gets stronger up to max {3}% as time passes. When the curse ends, petrifies the target for {4} seconds.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Cooldown is reduced by 3 sec.",
+    "dark": "Reduces 500 MP of the enemy that took the DMG."
+  },
+  "s2": {
+    "name": "Curse of Time",
+    "description": "Attacks an enemy inflicting {0} M.DMG and also inflicts Curse of Time for {1} seconds, increasing all skill cooldown by {2} seconds. All skill cooldowns of the enemy under the Curse of Time increases by {4} seconds every {3} seconds.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Mana cost is reduced by 1.",
+    "dark": "Dispels positive effects from the target.",
+    "ut": {
+      "name": "Ancient Demon's Heart",
+      "description": [
+        "[Curse of Time] Additionally increases Cooldown by 0.7 sec and reduces M.DEF of the target by 10% for 10 sec.",
+        "[Curse of Time] Additionally increases Cooldown by 0.7 sec and reduces M.DEF of the target by 12% for 10 sec.",
+        "[Curse of Time] Additionally increases Cooldown by 0.7 sec and reduces M.DEF of the target by 14% for 10 sec.",
+        "[Curse of Time] Additionally increases Cooldown by 0.7 sec and reduces M.DEF of the target by 17% for 10 sec.",
+        "[Curse of Time] Additionally increases Cooldown by 0.7 sec and reduces M.DEF of the target by 21% for 10 sec.",
+        "[Curse of Time] Additionally increases Cooldown by 0.7 sec and reduces M.DEF of the target by 25% for 10 sec."
+      ],
+      "story": "A strange jewel from which the resentful whispers of ancient demons can be heard. A cursed item filled with the souls of long forgotten ancient demons. They wish to escape every day, but she won't let them out that easily. Her soul has accepted all the curses of the world, so it is as deep and dark as the abyss."
+    }
+  },
+  "s3": {
+    "name": "Curse of Pain",
+    "description": "Attacks en enemy dealing {0} M.DMG and inflicting knockback. Also inflicts Curse of Pain for {1} seconds, dealing a total of {2} M.DMG over time.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Target takes 25% increased M.DMG for 10 sec.",
+    "dark": "DMG is increased by 40%.",
+    "ut": {
+      "name": "The Jar of Curses",
+      "description": [
+        "[Curse of Pain] DMG is increased by 20%, and gains a stack of 'The Vessel of Curses' upon killing an enemy.",
+        "[Curse of Pain] DMG is increased by 24%, and gains a stack of 'The Vessel of Curses' upon killing an enemy.",
+        "[Curse of Pain] DMG is increased by 29%, and gains a stack of 'The Vessel of Curses' upon killing an enemy.",
+        "[Curse of Pain] DMG is increased by 35%, and gains a stack of 'The Vessel of Curses' upon killing an enemy.",
+        "[Curse of Pain] DMG is increased by 42%, and gains a stack of 'The Vessel of Curses' upon killing an enemy.",
+        "[Curse of Pain] DMG is increased by 50%, and gains a stack of 'The Vessel of Curses' upon killing an enemy."
+      ],
+      "story": "Shamilla has been cursed to hold all the curses in the world inside her, but could also be seen as a savior who binds all those curses. Her death would mean that all the evil she holds within would go back out into the world. This Jar of Curses that Shamilla made is used to retrieve the curses that Shamilla spat out."
+    }
+  },
+  "s4": {
+    "name": "The Vessel of Curses",
+    "description": "At the beginning of every battle, for {0} seconds, obtains The Vessel of Curses, creates a shield that cannot be canceled, and absorbs {1} damage. For the duration of the shield, gains Immunity to CC. Upon the activation of the skill, consumes The Vessel of Curses to have 4 enemies as the target.",
+    "books": {
+      "0": "Shield is increased by {0}%.",
+      "1": "Shield is increased by {0}%.",
+      "2": "Shield is increased by {0}%."
+    },
+    "light": "Shield is increased by 80%.",
+    "dark": "The Vessel of Curses duration is increased by 20 sec, and becomes dispellable."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / ATK.Spd +100",
+    "dark": "All effects of curse are enhanced. [Curse of Petrification] Petrification duration is increased by 2 sec. [Curse of Time] Curse of Time duration is increased by 3 sec. [Curse of Pain] Curse of Pain DOT is increased by 50%."
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Gladi",
+  "subtitle": "Beast of the Arena",
+  "description": "The man who conquered the Arena of Orvel. People feared him for his battle prowess and began calling him the Beast of the Arena. His amazing combat technique destroys his enemies in split seconds.",
+  "story": "The man who conquered the Orvel Arena. Sitting on the throne of the champion, he is often feared by others. People refer to him as Beast Fist. However, he is actually a cheerful man with a positive and straightforward personality. As reflected by his fighting style, he is a bold man who does not hesitate to act upon his will. After his conquest, Gladi requested the right to run an Arena Shop. Supposedly, his real goal was to gain a monopoly on silvervines. It still remains a mystery as to who will actually buy these plants, but he seems happy enough. Curiously enough, he's currently not even selling any silvervines.",
+  "like": "Silvervine, powerful opponents",
+  "dislike": "Gloomy people, indecisive people",
+  "inn": {
+    "idle": "Hmm, I can still smell the silvervine...",
+    "recruit": {
+      "greet": "",
+      "talk": [
+        "",
+        "",
+        ""
+      ],
+      "gift": ""
+    },
+    "affinity": {
+      "greet": "Huh? Hey, how's it going?",
+      "talk": [
+        "This Silver Vine, you know...wow, it smells really good...hahaha!!",
+        "Hey! It's kinda funny, seeing you outside of the arena!"
+      ],
+      "gift": "Whew! You're quite the nice guy, eh?"
+    },
+    "relationship": {
+      "greet": "Hey, you! Come and sit here already!",
+      "talk": [
+        "Haha! That moment, when my fist crushed my opponent - that was great!",
+        "I'm fast and strong, even by the standards of our tribe. I wonder how they're doing?",
+        "You're curious why I buy all this Silver Vine even when nobody buys it from me? Well, it's all for personal use!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Beast Fist, Mastra",
+    "description": [
+      "Upon a Crit Hit, Crit. DMG is increased by 20% for 5 sec. This effect can be stacked up to 7 times max.",
+      "Upon a Crit Hit, Crit. DMG is increased by 24% for 5 sec. This effect can be stacked up to 7 times max.",
+      "Upon a Crit Hit, Crit. DMG is increased by 29% for 5 sec. This effect can be stacked up to 7 times max.",
+      "Upon a Crit Hit, Crit. DMG is increased by 35% for 5 sec. This effect can be stacked up to 7 times max.",
+      "Upon a Crit Hit, Crit. DMG is increased by 42% for 5 sec. This effect can be stacked up to 7 times max.",
+      "Upon a Crit Hit, Crit. DMG is increased by 50% for 5 sec. This effect can be stacked up to 7 times max."
+    ],
+    "story": "A pair of gauntlets custom forged for Gladi. They are the proof of his winning the championship at the Orvel Arena. Supposedly, these were crafted from a legendary pair of gauntlets used by a man who was known as the War God hundreds of years ago. These gauntlets, specialized for smashing the opponent, greatly enhance the power of their wearer. However, the physical cost of using them is brutal, and no normal person can handle them. Unless the wearer is incredibly flexible, and physically capable of withstanding the impact of each blow, using them is almost suicidal. Nevertheless, Gladi's natural strength and flexibility allow him to use them freely."
+  },
+  "s1": {
+    "name": "Quick Strikes",
+    "description": "Strikes the target 7 times, dealing a total of {0} P.DMG. The last hit increases the target's P.DMG taken by {1}% for 10 sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "When there is 1 enemy, DMG is boosted by 100%.",
+    "dark": "P.DMG taken increase effect amount is changed to 50%."
+  },
+  "s2": {
+    "name": "Advent of the War God",
+    "description": "Dispel all negative effects on self and deal {0} P.DMG to nearby enemies within a small radius, gaining the Status 'War God' for 10 sec. While in War God mode, ATK is boosted by {1} and all auto attacks have a 30% chance to consume 5% mana to deal an extra attack of {2} extra P.DMG. Upon taking M.DMG, dodge all M.DMG for 1 sec. Dodge effect only activates 1 time in every 2 sec.",
+    "books": {
+      "0": "ATK boost and DMG is increased by {0}%",
+      "1": "ATK boost and DMG is increased by {0}%",
+      "2": "ATK boost and DMG is increased by {0}%"
+    },
+    "light": "War God state lasts 5 seconds longer.",
+    "dark": "Additional DMG hit chance rises by 20%.",
+    "ut": {
+      "name": "Silvervine Box",
+      "description": [
+        "[Advent of the War God] For the skill's duration, recovers 100 MP every second and stacks 1 [This will hurt!] upon inflicting additional P.DMG.",
+        "[Advent of the War God] For the skill's duration, recovers 120 MP every second and stacks 1 [This will hurt!] upon inflicting additional P.DMG.",
+        "[Advent of the War God] For the skill's duration, recovers 140 MP every second and stacks 1 [This will hurt!] upon inflicting additional P.DMG.",
+        "[Advent of the War God] For the skill's duration, recovers 170 MP every second and stacks 1 [This will hurt!] upon inflicting additional P.DMG.",
+        "[Advent of the War God] For the skill's duration, recovers 210 MP every second and stacks 1 [This will hurt!] upon inflicting additional P.DMG.",
+        "[Advent of the War God] For the skill's duration, recovers 250 MP every second and stacks 1 [This will hurt!] upon inflicting additional P.DMG."
+      ],
+      "story": "Silvervine is used to exponentially boost physical ability. Nothing else, but this silvervine. Others may try chewing silvervine, drink it, boil it, but it won't work. Gladi just needs this silvervine to have the effect of the War God."
+    }
+  },
+  "s3": {
+    "name": "Ultimate Punch!",
+    "description": "Charges energy and sprints toward frontal enemies, dealing {0} P.DMG to enemies in range and inflicting stun for 3 sec. If the target is a boss, attack ignores target DEF.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "DMG is increased by 40%.",
+    "dark": "Mana cost is reduced by 1.",
+    "ut": {
+      "name": "Champion's Laurel Wreath",
+      "description": [
+        "[Ultimate Punch!] Skill cooldown is reduced by 30% and per each activation DMG is increased by 4%. This effect can be stacked max 10 times.",
+        "[Ultimate Punch!] Skill cooldown is reduced by 30% and per each activation DMG is increased by 4.8%. This effect can be stacked max 10 times.",
+        "[Ultimate Punch!] Skill cooldown is reduced by 30% and per each activation DMG is increased by 5.8%. This effect can be stacked max 10 times.",
+        "[Ultimate Punch!] Skill cooldown is reduced by 30% and per each activation DMG is increased by 7%. This effect can be stacked max 10 times.",
+        "[Ultimate Punch!] Skill cooldown is reduced by 30% and per each activation DMG is increased by 8.4%. This effect can be stacked max 10 times.",
+        "[Ultimate Punch!] Skill cooldown is reduced by 30% and per each activation DMG is increased by 10%. This effect can be stacked max 10 times."
+      ],
+      "story": "Wreath given to the strongest warrior of Orbis Continent. It's only given to the winner of the fighting tournament that happens every 4 years. Those who wear this wreath are said to be able to borrow the strength of the War God."
+    }
+  },
+  "s4": {
+    "name": "This will hurt!",
+    "description": "Upon hitting a single target with 5 auto attacks, deals {0} extra DMG that ignores DEF.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "When there is 1 enemy, DMG is boosted by 100%.",
+    "dark": "When activated in the Arena, deal 15% of the target's current HP as additional P.DMG that ignores DEF."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / ATK.Spd +100",
+    "dark": "Increases all DEF by 8% of ATK."
+  }
+}

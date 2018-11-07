@@ -1,0 +1,120 @@
+{
+  "name": "Pavel",
+  "subtitle": "Feiticeiro do Dragão de Gelo",
+  "description": "Um feiticeiro capaz de usar os poderes do Dragão de Gelo, depois de ser amaldiçoado. Ele usa uma poderosa magia de gelo para congelar inimigos.",
+  "story": "Um curioso caso de um feiticeiro humano possuído pela alma de um dragão de gelo. Tendo lutado junto a Kyle 100 anos atrás, a existência deste feiticeiro do gelo ancião data de muito tempo antes disso. A alma do dragão geralmente fica adormecida, mas desperta ocasionalmente para falar com ele na voz de uma amante. O império o considera uma figura central, e enviou Rodina para monitorá-lo e protegê-lo. Ele mesmo, no entanto, deseja apenas viver na paz e tranquilidade, longe das preocupações do mundo.",
+  "like": "Paz, silêncio, leitura",
+  "dislike": "Clima quente, coisas altas",
+  "inn": {
+    "idle": "...Tantas pessoas.",
+    "recruit": {
+      "greet": "...Você precisa de algo?",
+      "talk": [
+        "Tão alto...",
+        "...Preciso refrescar minha cabeça um pouco.",
+        "O que o mestre faria..."
+      ],
+      "gift": "...Eu aceito"
+    },
+    "affinity": {
+      "greet": "Por que este lugar é tão quente...?",
+      "talk": [
+        "Silêncio... Deixe-me descansar agora...",
+        "Não sinto frieza vindo de você..."
+      ],
+      "gift": "... Obrigado."
+    },
+    "relationship": {
+      "greet": "... Você parece está bem.",
+      "talk": [
+        "Originalmente, eu era um humano... então eu consigo entender.",
+        "Você está curioso sobre os dragões...?",
+        "A alma dela sussurra para mim... ela está curiosa a seu respeito..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Andarta Andraste, Corações de Dragão",
+    "description": [
+      "A cada 15 segundos, causa efeito Gélido e DAN.M (160% do ATQ) a 2 inimigos aleatórios. Congela o inimigo durante 5 segundos se já estiver sob o efeito Gélido.",
+      "A cada 14 segundos, causa efeito Gélido e DAN.M (192% do ATQ) a 2 inimigos aleatórios. Congela o inimigo durante 5 segundos se já estiver sob o efeito Gélido.",
+      "A cada 12,5 segundos, causa efeito Gélido e DAN.M (228% do ATQ) a 2 inimigos aleatórios. Congela o inimigo durante 5 segundos se já estiver sob o efeito Gélido.",
+      "A cada 11 segundos, causa efeito Gélido e DAN.M (276% do ATQ) a 2 inimigos aleatórios. Congela o inimigo durante 5 segundos se já estiver sob o efeito Gélido.",
+      "A cada 9,5 segundos, causa efeito Gélido e DAN.M (332% do ATQ) a 2 inimigos aleatórios. Congela o inimigo durante 5 segundos se já estiver sob o efeito Gélido.",
+      "A cada 8 segundos, causa efeito Gélido e DAN.M (400% do ATQ) a 2 inimigos aleatórios. Congela o inimigo durante 5 segundos se já estiver sob o efeito Gélido."
+    ],
+    "story": "Andarta e Andraste foram dois dragões derrotados pelos Demônios durante a guerra. Eles eram amantes interligados pela alma e entendiam um ao outro melhor do que qualquer outra pessoa. Mesmo ao morrer, eles se recusaram a ficar separados e fizeram um último pedido para Pavel, seu companheiro. Pavel realizou seu último desejo transferindo suas almas para os seus corações e, então, transformando-os em um par de joias. Mesmo os dois tendo perdido seus corpos, eles permanecem juntos e inseparáveis como sempre."
+  },
+  "s1": {
+    "name": "Cunha de Ruptura do Gelo",
+    "description": "Causa {0} de DAN.M aos alvos inimigos e causa Congelamento durante {1} segundos. Se os inimigos estiverem sob o efeito Gélido, estes também receberão DAN e Congelamento.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "Aumenta o DAN em 40%.",
+    "dark": "Em troca de 1 Custo de Mana adicional, reforça a duração de Congelamento em 5 segundos."
+  },
+  "s2": {
+    "name": "Lança de Gelo",
+    "description": "Ataca 5 vezes inimigos aleatórios causando {0} de DAN.M e o efeito Gélido. Quando um inimigo sob o efeito Gélido é atacado, ataca-se com uma Lança de Gelo adicional que causa a metade de DAN. Essas Lanças adicionais não causam o efeito Gélido. Inimigos congelados recebem mais 50% de DAN desse ATQ.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "Reduz o custo de mana em 1.",
+    "dark": "O alvo muda para o inimigo com o ATQ mais alto.",
+    "ut": {
+      "name": "Broche Congelado",
+      "description": [
+        "[Lança de Gelo] Reduz a Recarga em 8% e tem 40% de chance de congelar um inimigo por 1s ao causar dano no inimigo sob efeito Gélido. O efeito não é aplicado em lanças adicionais que forem criadas.",
+        "[Lança de Gelo] Reduz a Recarga em 8% e tem 48% de chance de congelar um inimigo por 1s ao causar dano no inimigo sob efeito Gélido. O efeito não é aplicado em lanças adicionais que forem criadas.",
+        "[Lança de Gelo] Reduz a Recarga em 8% e tem 58% de chance de congelar um inimigo por 1s ao causar dano no inimigo sob efeito Gélido. O efeito não é aplicado em lanças adicionais que forem criadas.",
+        "[Lança de Gelo] Reduz a Recarga em 8% e tem 70% de chance de congelar um inimigo por 1s ao causar dano no inimigo sob efeito Gélido. O efeito não é aplicado em lanças adicionais que forem criadas.",
+        "[Lança de Gelo] Reduz a Recarga em 8% e tem 84% de chance de congelar um inimigo por 1s ao causar dano no inimigo sob efeito Gélido. O efeito não é aplicado em lanças adicionais que forem criadas.",
+        "[Lança de Gelo] Reduz a Recarga em 8% e tem 100% de chance de congelar um inimigo por 1s ao causar dano no inimigo sob efeito Gélido. O efeito não é aplicado em lanças adicionais que forem criadas."
+      ],
+      "story": "O dragão de gelo imbuiu seu poder neste broche e o deu de presente para Pavel, na época ainda jovem. Mas depois que se fundiu ao dragão de gelo, Pavel vê o item como um lembrete de não abandonar o dragão. O acessório é capaz de causar uma dor que penetra o coração. O broche deixa o mana de Pavel imbuído de gelidez, tornando sua magia ainda mais aguçada."
+    }
+  },
+  "s3": {
+    "name": "Conquista Gelada",
+    "description": "Causa {0} de DAN.M a todos os inimigos. Congela os inimigos sob o efeito Gélido durante {1} segundos. Se já estiverem Congelados, o DAN causado aumenta em {2}%.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "Reduz o custo de mana em 1.",
+    "dark": "Ganha imunidade a CM enquanto usar este poder.",
+    "ut": {
+      "name": "Coração da Geleira",
+      "description": [
+        "[Conquista Gélida] Aumenta o DAN em 50% e a duração de Congelar aumenta em 1 segundo.",
+        "[Conquista Gélida] Aumenta o DAN em 50% e a duração de Congelar aumenta em 1,2 segundo.",
+        "[Conquista Gélida] Aumenta o DAN em 50% e a duração de Congelar aumenta em 1,4 segundo.",
+        "[Conquista Gélida] Aumenta o DAN em 50% e a duração de Congelar aumenta em 1,7 segundo.",
+        "[Conquista Gélida] Aumenta o DAN em 50% e a duração de Congelar aumenta em 2,1 segundo.",
+        "[Conquista Gélida] Aumenta o DAN em 50% e a duração de Congelar aumenta em 2,5 segundo."
+      ],
+      "story": "Sangue congelado do espírito do inverno. Pavel o encontrou no fundo de uma Caverna de Gelo e o transformou em brincos. Pode-se sentir um frio desagradável e uma dor severa deles, mas aumenta a mana de Pavel ao seu limite."
+    }
+  },
+  "s4": {
+    "name": "Calafrio do Amanhecer",
+    "description": "Causa {1} de DAN M. a 3 inimigos a cada {0} seg. e provoca o efeito Gélido, reduzindo a Vel. de ATQ deles em 100 por 8 seg.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "A resistência a CM do alvo é reduzida em 250 por 10 segundos.",
+    "dark": "Congelar não pode ser removido por poderes de remoção."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / DAN Crít. +20%",
+    "dark": "A cada 3 segundos, ataca todos os inimigos e causa 50% de ATQ como DAN.M, infligindo Congelar com 50% de chance. Inimigos já atingidos com Congelar recebem 300% de ATQ como DAN.M ao longo de 3 segundos."
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Pavel",
+  "subtitle": "Eisdrachen-Magier",
+  "description": "Ein Magier, der durch einen Fluch die Magie des Eisdrachen beherrscht. Er beschwört mächtige Eismagie, um Feinde einzufrieren.",
+  "story": "Der seltene Fall eines menschlichen Zauberers, der von der Seele eines Eisdrachen besessen ist. Dieser antike Eiszauberer kämpfte vor 100 Jahren an Kyles Seite, doch er existierte schon lange vorher. Normalerweise schläft die Drachenseele, doch gelegentlich erwacht sie und spricht mit lieblichen Worten zu ihm. Das Imperium hält ihn für eine Schlüsselfigur und hat Rodina entsandt, um ihn zu beobachten und zu beschützen. Er selbst wünscht sich nichts als ein Leben in Ruhe und Frieden, fernab aller weltlichen Sorgen.",
+  "like": "Frieden; Ruhe; Lesen",
+  "dislike": "Heißes Wetter; laute Dinge",
+  "inn": {
+    "idle": "...So viele Menschen.",
+    "recruit": {
+      "greet": "...Brauchst du etwas?",
+      "talk": [
+        "So laut...",
+        "...Ich muss mich etwas erholen.",
+        "Was hätte mein Meister getan..."
+      ],
+      "gift": "...Ich werde es annehmen."
+    },
+    "affinity": {
+      "greet": "Was ist es hier so warm ...?",
+      "talk": [
+        "Sei still ... Lass mich jetzt ruhen ...",
+        "Von dir geht keine Kälte aus ..."
+      ],
+      "gift": "... Danke."
+    },
+    "relationship": {
+      "greet": "... du siehst gut aus.",
+      "talk": [
+        "Ich war einmal ein Mensch... also verstehe ich das.",
+        "Bist du neugierig auf Drachen..?",
+        "Ihre Seele flüstert mir zu... sie ist neugierig auf dich..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Andarta Andraste, das Drachenherz",
+    "description": [
+      "Fügt 2 zufälligen Feinden alle 15 Sek M.Schaden(160% d. ANG) zu und verursacht Frost. Friert Feinde für 5 Sek ein, wenn sie bereits unter Frost leiden.",
+      "Fügt 2 zufälligen Feinden alle 14 Sek M.Schaden(192% d. ANG) zu und verursacht Frost. Friert Feinde für 5 Sek ein, wenn sie bereits unter Frost leiden.",
+      "Fügt 2 zufälligen Feinden alle 12.5 Sek M.Schaden(228% d. ANG) zu und verursacht Frost. Friert Feinde für 5 Sek ein, wenn sie bereits unter Frost leiden.",
+      "Fügt 2 zufälligen Feinden alle 11 Sek M.Schaden(276% d. ANG) zu und verursacht Frost. Friert Feinde für 5 Sek ein, wenn sie bereits unter Frost leiden.",
+      "Fügt 2 zufälligen Feinden alle 9.5 Sek M.Schaden(332% d. ANG) zu und verursacht Frost. Friert Feinde für 5 Sek ein, wenn sie bereits unter Frost leiden.",
+      "Fügt 2 zufälligen Feinden alle 8 Sek M.Schaden(400% d. ANG) zu und verursacht Frost. Friert Feinde für 5 Sek ein, wenn sie bereits unter Frost leiden."
+    ],
+    "story": "Andarta und Andraste waren zwei Drachen, die während des Krieges von den Dämonen besiegt wurden. Die Seelen des Paares waren miteinander verwoben. Sie liebten sich und verstanden einander besser als irgendjemand sonst. Selbst im Sterben weigerten sie sich, sich voneinander zu entfernen und rangen Pavel, ihrem Kameraden, eine letzte Bitte ab. Pavel erfüllte ihnen ihren letzten Wunsch, indem er ihre Seelen in ihre Herzen überführte und diese anschließend in ein Paar Edelsteine verwandelte. Trotz des Verlusts ihrer Körper konnten die beiden so zusammenbleiben und sind so unzertrennlich wie zuvor."
+  },
+  "s1": {
+    "name": "Frostkeil",
+    "description": "Fügt Feinden mit Frost {0} M.Schaden zu und friert sie für {1} Sek ein.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Erhöht Schaden um 40%.",
+    "dark": "Erhöht die Gefrierdauer um 5 Sek für 1 extra Mana."
+  },
+  "s2": {
+    "name": "Eisspeer",
+    "description": "Greift Feinde zufällig 5 mal an, verusacht Frost und fügt {0} M.Schaden zu. Erhöht Schaden um 50%, wenn Feinde eingefroren sind.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Reduziert Manakosten um 1.",
+    "dark": "Wechselt das Ziel zu dem Gegner mit dem höchsten ANG.",
+    "ut": {
+      "name": "Frostbrosche",
+      "description": [
+        "[Eisspeer] Verringert den Cooldown um 8 % und hat eine Chance von 40 %, den Feind 1 Sek. lang bei einem Treffer im Frostzustand einzufrieren. Dieser Effekt gilt nicht bei zusätzlich erschaffenen Speeren.",
+        "[Eisspeer] Verringert den Cooldown um 8 % und hat eine Chance von 48 %, den Feind 1 Sek. lang bei einem Treffer im Frostzustand einzufrieren. Dieser Effekt gilt nicht bei zusätzlich erschaffenen Speeren.",
+        "[Eisspeer] Verringert den Cooldown um 8 % und hat eine Chance von 58 %, den Feind 1 Sek. lang bei einem Treffer im Frostzustand einzufrieren. Dieser Effekt gilt nicht bei zusätzlich erschaffenen Speeren.",
+        "[Eisspeer] Verringert den Cooldown um 8 % und hat eine Chance von 70 %, den Feind 1 Sek. lang bei einem Treffer im Frostzustand einzufrieren. Dieser Effekt gilt nicht bei zusätzlich erschaffenen Speeren.",
+        "[Eisspeer] Verringert den Cooldown um 8 % und hat eine Chance von 84 %, den Feind 1 Sek. lang bei einem Treffer im Frostzustand einzufrieren. Dieser Effekt gilt nicht bei zusätzlich erschaffenen Speeren.",
+        "[Eisspeer] Verringert den Cooldown um 8 % und hat eine Chance von 100 %, den Feind 1 Sek. lang bei einem Treffer im Frostzustand einzufrieren. Dieser Effekt gilt nicht bei zusätzlich erschaffenen Speeren."
+      ],
+      "story": "Der Eisdrache schenkte diese Brosche dem jungen Pavel und erfüllte sie mit seinem Odem. Aber seit der Eisdrache und Pavel eins wurden, erinnert die Brosche Pavel daran, ihn nicht zu verlassen. Sie kann Schmerzen zufügen, die bis ins Herz stechen. Erfüllt Pavels Mana mit Frost, was seine Magie noch schneidender werden lässt."
+    }
+  },
+  "s3": {
+    "name": "Eisige Eroberung",
+    "description": "Fügt allen Feinden {0} M.Schaden zu. Friert Feinde mit Frost für {1} Sek ein und erhöht den verursachten Schaden um {2}%, wenn der Feind bereits eingefroren ist.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Reduziert Manakosten um 1.",
+    "dark": "Immun gegenüber allen Statuseffekten während der Wirkungsdauer.",
+    "ut": {
+      "name": "Gletscherherz",
+      "description": [
+        "[Eisige Eroberung] Erhöht Schaden um 50% und Gefrierdauer um 1 Sek.",
+        "[Eisige Eroberung] Erhöht Schaden um 50% und Gefrierdauer um 1,2 Sek.",
+        "[Eisige Eroberung] Erhöht Schaden um 50% und Gefrierdauer um 1,4 Sek.",
+        "[Eisige Eroberung] Erhöht Schaden um 50% und Gefrierdauer um 1,7 Sek.",
+        "[Eisige Eroberung] Erhöht Schaden um 50% und Gefrierdauer um 2,1 Sek.",
+        "[Eisige Eroberung] Erhöht Schaden um 50% und Gefrierdauer um 2,5 Sek."
+      ],
+      "story": "Gefrorenes Blut des Wintergeistes. Pavel fand es tief in der Eishöhle und stellte daraus Ohrringe her. Es verursacht rauen Frost und starke Schmerzen, aber es erhöht Pavels Mana bis zu seiner Grenze."
+    }
+  },
+  "s4": {
+    "name": "Frostige Hand",
+    "description": "Verursacht alle {0} Sek. an 3 Feinden {1} M.Schaden und fügt ihnen Frost zu, der ihre ANG-Geschwindigkeit für 8 Sek. um 100 verringert.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Effekt-Resistenz des Ziels ist für 10 Sek. um 250 reduziert.",
+    "dark": "Frost kann nicht mit Skills entfernt werden."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / Krit. Schaden +20%",
+    "dark": "Greift alle 3 Sek. alle Gegner an und verursacht 50% des ANG als M. Schaden, mit 50%-Chance, Frost zu verursachen. Gegner, die bereits unter Frost stehen, erhalten 3 Sek. lang 300% des ANG als M. Schaden."
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Crow",
+  "subtitle": "A Bala da Punição",
+  "description": "Um antigo oficial da marinha que agora se tornou um caçador de recompensas e um conciliador. É cínico e não confia facilmente nas pessoas. Suas armas são categorizadas em três tipos.",
+  "story": "Codinome: Cão de Caça. Um ex-caçador de recompensas conhecido como cão do inferno. Dizem que ninguém consegue escapar deste ex-oficial da Marinha Imperial quando ele seleciona um alvo. O único prêmio de consolação para os criminosos é que esse homem não é motivado apenas por suas recompensas. Apesar de haver várias teorias, a mais convincente é a de que ele está atrás de vingança. Dizem que há momentos em que o coração gelado desse homem parece derreter um pouco. É nesses momentos que ele pega um pingente antigo, que ninguém nunca viu de verdade.",
+  "like": "Bengalas doces, um pingente que guarda uma lembrança, a implicância esquecida de um ente querido",
+  "dislike": "Piratas, Deuses que tiraram tudo dele. E, agora, tabaco",
+  "inn": {
+    "idle": "Não fique no meu caminho.",
+    "recruit": {
+      "greet": "O que você quer comigo?",
+      "talk": [
+        "Eu aceito apenas 1 por trabalho. Pense bem antes de dizer qualquer coisa.",
+        "É difícil encontrar munição por aqui...",
+        "Isso não é um cigaro, é só um doce."
+      ],
+      "gift": "Hmm, com esse dinheiro, eu posso comprar um novo cig... não, eu vou ficar com mais alguns doces."
+    },
+    "affinity": {
+      "greet": "Por que me chamou? Só diga o que quer.",
+      "talk": [
+        "Ele era uma verdadeira dor de cabeça, mesmo quando estava sob o meu comando. Mas não acho que ele faria algo assim.",
+        "Obviamente, os outros não aguentaram a loucura dele. Foi por isso que eu assumi o comando."
+      ],
+      "gift": "Me dá uns doces."
+    },
+    "relationship": {
+      "greet": "Que... ah, é você.",
+      "talk": [
+        "Orvel é um bom lugar. Até o ar é diferente do Império.",
+        "Eu pensei, como membro da Marinha, que eu ficaria no mar pelo resto da minha vida. Olhando para trás, sair do mar foi a pior decisão que já tomei.",
+        "Eu me importava de verdade com duas pessoas. Mas não posso mais encontrá-las... mas, sim, haha... elas também odiavam fumaça de cigarro."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Cão do Inferno, Akistra",
+    "description": [
+      "O ataque normal dispara uma bala adicional que causa 50% de ATQ como DAN F. Quando a habilidade acaba, “Cão do Inferno, Akistra” é ativado, aumentando o ATQ em 30% e o DAN Crít. em 30% por 20 seg. “Cão do Inferno, Akistra” só é ativado uma vez a cada 20 seg.",
+      "O ataque normal dispara uma bala adicional que causa 60% de ATQ como DAN F. Quando a habilidade acaba, “Cão do Inferno, Akistra” é ativado, aumentando o ATQ em 36% e o DAN Crít. em 36% por 20 seg. “Cão do Inferno, Akistra” só é ativado uma vez a cada 20 seg.",
+      "O ataque normal dispara uma bala adicional que causa 70% de ATQ como DAN F. Quando a habilidade acaba, “Cão do Inferno, Akistra” é ativado, aumentando o ATQ em 43% e o DAN Crít. em 43% por 20 seg. “Cão do Inferno, Akistra” só é ativado uma vez a cada 20 seg.",
+      "O ataque normal dispara uma bala adicional que causa 85% de ATQ como DAN F. Quando a habilidade acaba, “Cão do Inferno, Akistra” é ativado, aumentando o ATQ em 52% e o DAN Crít. em 52% por 20 seg. “Cão do Inferno, Akistra” só é ativado uma vez a cada 20 seg.",
+      "O ataque normal dispara uma bala adicional que causa 100% de ATQ como DAN F. Quando a habilidade acaba, “Cão do Inferno, Akistra” é ativado, aumentando o ATQ em 62% e o DAN Crít. em 62% por 20 seg. “Cão do Inferno, Akistra” só é ativado uma vez a cada 20 seg.",
+      "O ataque normal dispara uma bala adicional que causa 125% de ATQ como DAN F. Quando a habilidade acaba, “Cão do Inferno, Akistra” é ativado, aumentando o ATQ em 75% e o DAN Crít. em 75% por 20 seg. “Cão do Inferno, Akistra” só é ativado uma vez a cada 20 seg."
+    ],
+    "story": "É indiscutível que este é o ápice da mais nova tecnologia tecnomágica. Pode se transformar em três modos, sendo que o último usa uma magia tão devastadora que sua utilização precisa ser restringida. De acordo com Valance, chefe da organização imperial de desenvolvimento armamentista Magos Le’Flamme, a nova arma, Archistra, foi roubada por Crow, um ex-oficial da marinha que obteve uma dispensa desonrosa, imediatamente após ser desenvolvida. Ainda precisa ser confirmado se Crow realmente conseguiu se infiltrar numa das organizações mais importantes do Império para roubar Archistra... Também é possível que Valance tenha simplesmente entregado a arma a ele, considerando a longa amizade dos dois."
+  },
+  "s1": {
+    "name": "O Alvo será Eliminado.",
+    "description": "Causa um total de {0} de DAN F. a inimigos em frente por 15 vezes e deixa 2 'Marcas de Presas de Cão de Caça' por 40s. Marcas de Presa de Cão de Caça acumulam até no máx. 100 vezes.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "DAN aumenta em {0}%."
+    },
+    "light": "A cada DAN causado, recupera 30 de Mana.",
+    "dark": "Ganha imunidade a CM durante o uso."
+  },
+  "s2": {
+    "name": "Lutar é Perda de Tempo.",
+    "description": "Causa {0} de DAN F. atacando um inimigo temporário 10 vezes e dispara uma Bala de Gelo que causa {1} de DAN F. no alvo e em inimigos ao redor, congelando-os por 4 seg. A Bala de Gelo especial cria uma área de congelamento por 6 seg. que causa {2} de DAN F. a cada 2 seg., com uma chance de congelamento de 50% por 2 seg.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "DAN aumenta em {0}%."
+    },
+    "light": "Reduz a recarga em 3 segundos.",
+    "dark": "Chance de Congelamento da Área de Congelamento aumenta em 30%.",
+    "ut": {
+      "name": "Barragem Fria",
+      "description": [
+        "[Resistir é Inútil] Reduz o Custo de Mana em 1 e há 10% de chance de congelar o alvo por 3s a cada golpe.",
+        "[Resistir é Inútil] Reduz o Custo de Mana em 1 e há 12% de chance de congelar o alvo por 3s a cada golpe.",
+        "[Resistir é Inútil] Reduz o Custo de Mana em 1 e há 14% de chance de congelar o alvo por 3s a cada golpe.",
+        "[Resistir é Inútil] Reduz o Custo de Mana em 1 e há 17% de chance de congelar o alvo por 3s a cada golpe.",
+        "[Resistir é Inútil] Reduz o Custo de Mana em 1 e há 21% de chance de congelar o alvo por 3s a cada golpe.",
+        "[Resistir é Inútil] Reduz o Custo de Mana em 1 e há 25% de chance de congelar o alvo por 3s a cada golpe."
+      ],
+      "story": "Magos Le’Flamme, a organização imperial de desenvolvimento armamentista, obteve sucesso na melhoria do Míssil Resfriado. Tentaram integrá-lo à arma Akistra para testá-lo, mas Crow roubou a arma, levando também o míssil nela equipado. Ele contém uma poderosa gelidez capaz de congelar a terra ao redor."
+    }
+  },
+  "s3": {
+    "name": "Até os Deuses Morrerão.",
+    "description": "Assume uma posição e se concentra para disparar um laser, causando {0} de DAN.F a inimigos frontais na área, e consome o acúmulo do alvo de Marca da Presa do Cão de Caça para causar {1} de DAN.F adicional por cada acúmulo. Dependendo do tempo de concentração, a área do efeito será aumentada, e o DAN aumenta até no máximo de {2}%. Assim que a concentração for concluída, repele o inimigo para longe.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "DAN aumenta em {0}%."
+    },
+    "light": "Aumenta o tempo de recarga em 10 seg. e o DAN em 100%.",
+    "dark": "Reduz o Custo de Mana em 1.",
+    "ut": {
+      "name": "Pingente das Memórias",
+      "description": [
+        "[Até os Deuses Morrerão] Ganha imunidade a CM durante a ativação do poder e aumenta o DAN em 20%.",
+        "[Até os Deuses Morrerão] Ganha imunidade a CM durante a ativação do poder e aumenta o DAN em 24%.",
+        "[Até os Deuses Morrerão] Ganha imunidade a CM durante a ativação do poder e aumenta o DAN em 29%.",
+        "[Até os Deuses Morrerão] Ganha imunidade a CM durante a ativação do poder e aumenta o DAN em 35%.",
+        "[Até os Deuses Morrerão] Ganha imunidade a CM durante a ativação do poder e aumenta o DAN em 42%.",
+        "[Até os Deuses Morrerão] Ganha imunidade a CM durante a ativação do poder e aumenta o DAN em 50%."
+      ],
+      "story": "Um precioso pingente contendo a fotografia das falecidas filha e esposa do Crow. Ele costuma fitar a fotografia enquanto come doces, parecendo extremamente triste, mas tranquilo. É um pingente mais precioso que sua vida, então é melhor você não tocar nele. Mesmo se você for um deus, você pagará com a sua vida."
+    }
+  },
+  "s4": {
+    "name": "Prepação da Caça",
+    "description": "Crow não é afetado por mudanças na Vel. de ATQ. O ATQ aumenta em {0} e o DAN Crít. aumenta em {1}%. Recupera {2} de MP a cada seg. Também deixa 'Marca da Presa do Cão de Caça' no alvo por 40 seg. ao usar um ataque normal.",
+    "books": {
+      "0": "Aumenta a Taxa de Aumento de ATQ em {0}%.",
+      "1": "Aumenta a Taxa de Aumento de ATQ em {0}%.",
+      "2": "Aumenta a Taxa de Aumento de ATQ em {0}%."
+    },
+    "light": "Chefes recebem 15% a mais de DAN.",
+    "dark": "Aumenta recuperação de Mana em 40%."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / DAN Crít. +20%",
+    "dark": "Aumenta o Custo de Mana de todas as habilidades em 1 e aumenta o DAN em 75%."
+  }
+}

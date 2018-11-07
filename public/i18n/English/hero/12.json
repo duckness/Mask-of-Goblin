@@ -1,0 +1,120 @@
+{
+  "name": "Miruru",
+  "subtitle": "Cursed Pirate Empress",
+  "description": "The legendary pirate who was cursed and turned into a little girl. She has the amazing ability to drop cannonballs right on the enemy's head.",
+  "story": "She once roamed the seas as the pirate empress, instilling fear in sailors' hearts. However, a cursed item has turned her into a child, and all her loyal allies and crew members soon left her. Not one to give up, she started again from the scratch, and now dreams of returning to her former glory. Unfortunately, the curse of childhood has made her way of thinking immature as well. Even so, she continues to chase her dream. Currently, she commands the second Miruru Pirates consisting of Goblins and Gnolls.",
+  "like": "Treasures or anything that sparkles",
+  "dislike": "The Navy",
+  "inn": {
+    "idle": "How about an alliance? I can give you 10% of all findings!",
+    "recruit": {
+      "greet": "Nice to meet you, too!",
+      "talk": [
+        "Together, we can do anything! Even with this cursed body!",
+        "The sea is calling us !",
+        "I will get back my appearance someday."
+      ],
+      "gift": "Gold! It's gold!"
+    },
+    "affinity": {
+      "greet": "Welcome! My Number One honorary subordinate!!!",
+      "talk": [
+        "Hm... My past? Whenever I try to remember something... I go bam!!! And I just fall from the bed.",
+        "But there's something I remember. A burning thirst... and writing on a map... The Fountain of Life?"
+      ],
+      "gift": "You really are my subordinate! Now, the treasure trove of the Miruru Pirates is full!"
+    },
+    "relationship": {
+      "greet": "Heya~ welcome back!!",
+      "talk": [
+        "Let us work hard today as well! For the sake of the Miruru Pirates!",
+        "Did you bring any treasure? Where? Where? Where? Show me!",
+        "My cannon? Yeah, I made it myself! It's awesome, right? Right?!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Ultimate Weapon, Leviathan",
+    "description": [
+      "Deals P.DMG equal to 100% of ATK to the enemies inflicted by the Boooooom! skill at a 50% chance, and the target takes 20% more P.DMG for 10 seconds.",
+      "Deals P.DMG equal to 120% of ATK to the enemies inflicted by the Boooooom! skill at a 50% chance, and the target takes 24% more P.DMG for 10 seconds.",
+      "Deals P.DMG equal to 140% of ATK to the enemies inflicted by the Boooooom! skill at a 50% chance, and the target takes 29% more P.DMG for 10 seconds.",
+      "Deals P.DMG equal to 170% of ATK to the enemies inflicted by the Boooooom! skill at a 50% chance, and the target takes 35% more P.DMG for 10 seconds.",
+      "Deals P.DMG equal to 210% of ATK to the enemies inflicted by the Boooooom! skill at a 50% chance, and the target takes 42% more P.DMG for 10 seconds.",
+      "Deals P.DMG equal to 250% of ATK to the enemies inflicted by the Boooooom! skill at a 50% chance, and the target takes 50% more P.DMG for 10 seconds."
+    ],
+    "story": "Back when Miruru reigned as the pirate empress, she was feared by sailors and a major threat to the naval forces of Orvelia and the empire. The cannons on her ship were especially terrifying to the Navy. The most powerful of them was the Leviathan, the ship's main cannon. After being cursed, she took one thing with her as she fled from her mutinous crew. Its value as a weapon is in fact far more valuable than any gold or loot. She took with her the Leviathan, the most powerful cannon in her arsenal. After numerous modifications, the once-terror of the sea now serves as a mobile artillery."
+  },
+  "s1": {
+    "name": "Baaaam!",
+    "description": "Deals {0} P.DMG to all enemies and pushes them back.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Increase P.DMG that the target takes by 25% for 10 sec.",
+    "dark": "Upon activation, ATK is increased by 35% for 10 sec."
+  },
+  "s2": {
+    "name": "Roll Over",
+    "description": "Deals {0} P.DMG 3 times to frontal enemies, and each attack has a {1}% chance of knocking them down for {2} sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "DMG is increased by 40%.",
+    "dark": "For each enemy that takes DMG, reduce cooldown by 8%.",
+    "ut": {
+      "name": "Pirate King's Sextant",
+      "description": [
+        "[Roll Over] increases DMG by 4% on every use and recovers 120 MP upon a Crit Hit. This effect stacks up to max 10 times.",
+        "[Roll Over] increases DMG by 4.8% on every use and recovers 120 MP upon a Crit Hit. This effect stacks up to max 10 times.",
+        "[Roll Over] increases DMG by 5.8% on every use and recovers 120 MP upon a Crit Hit. This effect stacks up to max 10 times.",
+        "[Roll Over] increases DMG by 7% on every use and recovers 120 MP upon a Crit Hit. This effect stacks up to max 10 times.",
+        "[Roll Over] increases DMG by 8.4% on every use and recovers 120 MP upon a Crit Hit. This effect stacks up to max 10 times.",
+        "[Roll Over] increases DMG by 10% on every use and recovers 120 MP upon a Crit Hit. This effect stacks up to max 10 times."
+      ],
+      "story": "Sextant of Pirate King Olga, who was the first to discover the new continent. Pirate King Olga went past the Orbis Continent to find a new continent, following a revelation from the gods. The sextant can calculate the most accurate location and angle in the world. Miruru uses the sextant to boost the damage from rolling bomb attacks, but she doesn't remember how she ended up with it."
+    }
+  },
+  "s3": {
+    "name": "Miruru Pirates!",
+    "description": "Attacks a random target and the enemies near it 5 times, dealing a total of {1} P.DMG and reducing their ATK Spd by {2}. If the target is not a Hero, deals {3} additional P.DMG.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "If there is 1 enemy, DMG is increased by 100%.",
+    "dark": "Removes ATK Spd debuff effect and adds a 3 sec Stun.",
+    "ut": {
+      "name": "Miruru Cannonball",
+      "description": [
+        "[Miruru Pirates!] DMG is increased by 50%, and skill cooldown is reduced by 12%.",
+        "[Miruru Pirates!] DMG is increased by 50%, and skill cooldown is reduced by 14%.",
+        "[Miruru Pirates!] DMG is increased by 50%, and skill cooldown is reduced by 17%.",
+        "[Miruru Pirates!] DMG is increased by 50%, and skill cooldown is reduced by 21%.",
+        "[Miruru Pirates!] DMG is increased by 50%, and skill cooldown is reduced by 25%.",
+        "[Miruru Pirates!] DMG is increased by 50%, and skill cooldown is reduced by 30%."
+      ],
+      "story": "Cannonball engraved with the symbol of the Miruru Pirates. Miruru still vividly remembers her glorious past. Her fluttering flag emblazoned with a shark, and the sounds of explosions that were at her command. Those fond memories of enemy ships sinking in terror still remain within her. Miruru is using special cannonballs to attack enemies, while waiting for the glorious days to come back once again."
+    }
+  },
+  "s4": {
+    "name": "Boooooom!",
+    "description": "When dealing a normal attack, shoots additional bullet with a 60% chance of dealing {0} P.DMG to all enemies.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Increases ATK by 0.5% for 10 seconds upon a Crit Hit. This effect can be stacked up to max 100 times.",
+    "dark": "Activation chance changes to 80%."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / Crit Chance +100",
+    "dark": "Miruru stacks Darkness depending on the number of enemies she hits. When she reaches 50 stacks, she goes berserk, boosting her Atk Spd by 800 and her ATK by 20%."
+  }
+}

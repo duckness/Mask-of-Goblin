@@ -1,0 +1,120 @@
+{
+  "name": "Gau",
+  "subtitle": "Kẻ thô lỗ của vùng đất băng giá",
+  "description": "Một kẻ thô lỗ trị vì bình nguyên tuyết của vùng đất băng giá, làm suy yếu nhuệ khí chiến đấu của kẻ thù bằng tiếng hét chói tai và rồi nhảy bổ vào chúng.",
+  "story": "Gau là một chiến binh mạnh mẽ đến từ Vương quốc Barbarian. Mỗi khi anh vung lên cây rìu đôi của mình, không tránh khỏi sẽ có một trận tắm máu. Là một chiến binh, anh khiến mọi người sợ hãi vì sự tàn bạo không có giới hạn của mình. Tuy nhiên, anh đột ngột biến mất trong 10 năm. Khi trở lại, anh đã trở thành một người hoàn toàn khác. Xu hướng bạo lực của người Barbarian đã hoàn toàn biến mất, kể cả khi những người khác chỉ trích anh. Thay vào đó, giờ anh đối mặt với họ bằng nụ cười mỉm và tiếng cười vui vẻ. Ánh nhìn ân cần, ấm áp anh dành cho trẻ nhỏ và động vật khiến mọi người đặc biệt bất ngờ.",
+  "like": "Trẻ em, động vật",
+  "dislike": "Những kẻ phá hoại và bạo lực",
+  "inn": {
+    "idle": "Bạn có việc gì với một Barbarian ư?",
+    "recruit": {
+      "greet": "Rất vui được gặp bạn. Đôi khi chúng ta nên đi săn cùng nhau.",
+      "talk": [
+        "Trông tôi khỏe lắm sao? Ê, đừng có làm tôi đỏ mặt như một cô gái thẹn.",
+        "Bạn đang đứng cạnh toàn những cô gái xinh đẹp đấy. Đừng có làm tôi ganh tị, anh bạn!",
+        "Tôi vốn nổi tiếng là khỏe mà, Ha"
+      ],
+      "gift": "Những chuyện này là gì đây? Cám ơn anh bạn."
+    },
+    "affinity": {
+      "greet": "Làm thế này cũng ngại ra phết.",
+      "talk": [
+        "Dạo này ngươi có gặp Yanne không? Không biết cô ấy ra sao rồi...",
+        "Cái gì? Làm cách nào mà ta biết Lewisia ư? Nhóc đó... Mặc dù cô ấy lớn tuổi hơn... Có phải cứ thích là yêu nhau được luôn đâu..."
+      ],
+      "gift": "Cảm ơn nhé. Lần tới ta mời."
+    },
+    "relationship": {
+      "greet": "Ơ! Lại gặp ở đây nhỉ! Vẫn ổn chứ?",
+      "talk": [
+        "À... Lewisia cô bé đó đột nhiên trở thành một thiếu nữ xinh đẹp... Tuổi tác của nó cũng... Hờ hờ!",
+        "Ta sẽ chặt ra thành từng mảnh!!- Thế nào? Bọn nhỏ hơi bị thích tiếng gào thét này đấy.",
+        "Lần trước ta có uống rượu với một tên Dwarf. 2 người bọn ta đã uống hết sạch rượu ở quán trọ đấy! Haha!!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Numinu, Chim thánh",
+    "description": [
+      "Mỗi khi mất 1% máu, Sức mạnh tấn công tăng 0,8% và tốc độ tấn công tăng 8.",
+      "Mỗi khi mất 1% máu, Sức mạnh tấn công tăng 1% và tốc độ tấn công tăng 10.",
+      "Mỗi khi mất 1% máu, Sức mạnh tấn công tăng 1,2% và tốc độ tấn công tăng 12.",
+      "Mỗi khi mất 1% máu, Sức mạnh tấn công tăng 1,4% và tốc độ tấn công tăng 14.",
+      "Mỗi khi mất 1% máu, Sức mạnh tấn công tăng 1,7% và tốc độ tấn công tăng 17.",
+      "Mỗi khi mất 1% máu, Sức mạnh tấn công tăng 2% và tốc độ tấn công tăng 20."
+    ],
+    "story": "Tương truyền có một mãnh thú thiêng bảo vệ người Barbaria sống trong Núi tuyết Windland. Người ta cho rằng mãnh thú với năng lực xua tan sức mạnh bóng tối này là phượng hoàng xanh có cấu tạo từ băng đá. Được tạo nên từ hình dáng của mãnh thú này là Numinu, một cái tên có nghĩa là 'thần thánh'. Numinu được chế tác từ một loại băng đá được phù phép không bao giờ tan chảy. Được người Barbaria coi là thánh tích, vũ khí này được trao cho chiến binh vĩ đại nhất. Người sử dụng vũ khí này phải là chiến binh Barbaria hùng mạnh nhất và có thể được coi là vua của người Barbaria."
+  },
+  "s1": {
+    "name": "Đập",
+    "description": "Gây {0} sát thương vật lý lên kẻ địch trong phạm vi, và lần tấn công đầu tiên sẽ đẩy ngã kẻ địch trong {1} giây.",
+    "books": {
+      "0": "Tăng {0}% sát thương.",
+      "1": "Tăng {0}% sát thương.",
+      "2": "Tăng {0}% sát thương."
+    },
+    "light": "Lượng tiêu thụ Mana giảm 1.",
+    "dark": "Mỗi lần sử dụng, lượng sát thương tăng 15%. Cộng dồn tối đa 10."
+  },
+  "s2": {
+    "name": "Gầm vang chiến đấu",
+    "description": "Tăng {1} lực tấn công của toàn bộ đồng minh trong {0} giây. Khi xuất chiêu gỡ bỏ hiệu ứng xấu của đồng minh.",
+    "books": {
+      "0": "Tăng {0}% chỉ số tăng lực tấn công",
+      "1": "Tăng {0}% chỉ số tăng lực tấn công",
+      "2": "Tăng {0}% chỉ số tăng lực tấn công"
+    },
+    "light": "Chỉ số tăng sức tấn công tăng 40%.",
+    "dark": "Thêm hiệu ứng tăng 200 tốc độ tấn công.",
+    "ut": {
+      "name": "Sừng của chiến binh",
+      "description": [
+        "[Gầm vang chiến đấu] Giảm 1 Tiêu hao mana và tăng 20% Trợ công.",
+        "[Gầm vang chiến đấu] Giảm 1 Tiêu hao mana và tăng 24% Trợ công.",
+        "[Gầm vang chiến đấu] Giảm 1 Tiêu hao mana và tăng 29% Trợ công.",
+        "[Gầm vang chiến đấu] Giảm 1 Tiêu hao mana và tăng 35% Trợ công.",
+        "[Gầm vang chiến đấu] Giảm 1 Tiêu hao mana và tăng 42% Trợ công.",
+        "[Gầm vang chiến đấu] Giảm 1 Tiêu hao mana và tăng 50% Trợ công."
+      ],
+      "story": "Chiếc kèn làm bằng sừng của Orox, quái thú bảo vệ Núi tuyết Windland. Orox trên Núi tuyết truyền cho những chiến binh cao thượng sức mạnh to lớn và khả năng nhìn thấy sự thật. Khi một chiến binh được Orox phù hộ thổi chiếc kèn này, chiến hữu của họ sẽ phấn chấn hơn và suy nghĩ sáng suốt hơn."
+    }
+  },
+  "s3": {
+    "name": "Gió cuốn",
+    "description": "Gây {0} sát thương vật lý cho kẻ địch xung quanh, đóng băng chúng trong {1} giây. Khi xuất chiêu, miễn nhiễm mọi hiệu ứng xấu",
+    "books": {
+      "0": "Tăng {0}% sát thương.",
+      "1": "Tăng {0}% sát thương.",
+      "2": "Khi xuất chiêu, tập hợp kẻ địch trong phạm vi ảnh hưởng."
+    },
+    "light": "Thời gian đợi dùng chiêu lại giảm 3 giây.",
+    "dark": "Trong lúc dùng chiêu, mọi sát thương sẽ được miễn nhiễm.",
+    "ut": {
+      "name": "Chén rượu Babarian",
+      "description": [
+        "Lượng sát thương [Gió cuốn] tăng 50%, đòn đánh cuối cùng làm tăng 5% tất cả sát thương đối thương nhận phải trong 10 giây.",
+        "Lượng sát thương [Gió cuốn] tăng 50%, đòn đánh cuối cùng làm tăng 6% tất cả sát thương đối thương nhận phải trong 10 giây.",
+        "Lượng sát thương [Gió cuốn] tăng 50%, đòn đánh cuối cùng làm tăng 7% tất cả sát thương đối thương nhận phải trong 10 giây.",
+        "Lượng sát thương [Gió cuốn] tăng 50%, đòn đánh cuối cùng làm tăng 8.5% tất cả sát thương đối thương nhận phải trong 10 giây.",
+        "Lượng sát thương [Gió cuốn] tăng 50%, đòn đánh cuối cùng làm tăng 10.5% tất cả sát thương đối thương nhận phải trong 10 giây.",
+        "Lượng sát thương [Gió cuốn] tăng 50%, đòn đánh cuối cùng làm tăng 12.5% tất cả sát thương đối thương nhận phải trong 10 giây."
+      ],
+      "story": "Chiếc cốc của Vua Barbaria, người đầu tiên định cư trên dãy núi tuyết. Khi vị Vua Barbaria đầu tiên đặt chân đến Windland, ông thề sẽ bảo vệ những ngọn núi tuyết và trao chiếc cốc này cho những sinh vật thần thánh trên dãy núi. Phép thuật bảo vệ của sói băng chất chứa trong chiếc Cốc Barbaria sẽ tăng sức mạnh tấn công của Lốc xoáy và hiệu ứng của Đóng băng."
+    }
+  },
+  "s4": {
+    "name": "Phẫn nộ",
+    "description": "Khi tấn công kẻ địch, sức mạnh tấn công tăng {1} trong {0} giây. Cộng dồn tối đa 10 lần.",
+    "books": {
+      "0": "Tăng {0}% chỉ số tăng lực tấn công",
+      "1": "Tăng {0}% chỉ số tăng lực tấn công",
+      "2": "Mỗi lần cộng dồn kỹ năng, kháng hiệu ứng xấu tăng 50"
+    },
+    "light": "Chỉ số tăng sức tấn công tăng 40%.",
+    "dark": "Sát thương nhận được với tất cả cộng dồn tăng 5%, tỉ lệ đòn chí mạng cộng dồn thêm 50 và xuất huyết thêm 50."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / P. Block +200",
+    "dark": "Hồi phục thể lực trên giây tương ứng 10% sức tấn công, mọi sát thương nhận giảm 0.6% mỗi khi thể lực giảm 1%."
+  }
+}

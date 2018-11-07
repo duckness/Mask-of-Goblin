@@ -1,0 +1,120 @@
+{
+  "name": "Reina",
+  "subtitle": "Lightning Flash",
+  "description": "A mercenary who wields a light, one-handed sword. Dodges attacks with nimble movements and pierces the enemy with the sharp end of her sword.",
+  "story": "Reina von Stein was born the daughter of a noble family of the empire. Her free spirit and energetic personality seem to brighten up even those around her. She prefers a life of freedom as a mercenary over the suffocating life of an aristocrat. After working as a mercenary for a long time, and she's already lost all traces of her noble upbringing in her manners. Even as a child, she showed a natural talent with swords. Over the years, she developed her skills with a rapier, using a style that best suited her lithe physique. Recently, she turned down a strange contract. Ever since then, she has been feeling as if someone has been following and watching her.",
+  "like": "Attractive men",
+  "dislike": "Uninteresting men",
+  "inn": {
+    "idle": "A good job offer! Ah, but the employer is a bit...",
+    "recruit": {
+      "greet": "Whoa, handsome...Ah, hello!",
+      "talk": [
+        "Need a mercenary? I'm one of the best.",
+        "Wow, such a cutie...oh, it's nothing, hehe...",
+        "Looking for Reina, the Lightning Flash? Hehe, yep, that's me!"
+      ],
+      "gift": "Eh? A present? Hehe, thanks. I'll give you a discount on the next job."
+    },
+    "affinity": {
+      "greet": "Eek, this place is amazing!",
+      "talk": [
+        "Do you have any clients to introduce me to? Someone good-looking if possible!!!",
+        "I don't like boring work! Heh heh!"
+      ],
+      "gift": "Wow! For me? Really? Heh heh, you're the best!"
+    },
+    "relationship": {
+      "greet": "Hey there, good looking! It's been a while!",
+      "talk": [
+        "People these days! They think I'm some kind of pervert, but that's a misunderstanding! I just like men's bodies!",
+        "At times, I grow reminiscent of the better life. You know, like in moments where it's raining outside and you have to sleep in the mud.",
+        "Even while working as a mercenary, sometimes the jobs are't quite savory. It makes me think...about this and that..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Lightning Flash, Livatis",
+    "description": [
+      "Upon a Crit Hit, ATK Spd is increased by 80 and Crit DMG is increased by 20% for 15 sec. Can be stacked up to 5 times max.",
+      "Upon a Crit Hit, ATK Spd is increased by 90 and Crit DMG is increased by 24% for 15 sec. Can be stacked up to 5 times max.",
+      "Upon a Crit Hit, ATK Spd is increased by 110 and Crit DMG is increased by 28% for 15 sec. Can be stacked up to 5 times max.",
+      "Upon a Crit Hit, ATK Spd is increased by 130 and Crit DMG is increased by 34% for 15 sec. Can be stacked up to 5 times max.",
+      "Upon a Crit Hit, ATK Spd is increased by 160 and Crit DMG is increased by 41% for 15 sec. Can be stacked up to 5 times max.",
+      "Upon a Crit Hit, ATK Spd is increased by 200 and Crit DMG is increased by 50% for 15 sec. Can be stacked up to 5 times max."
+    ],
+    "story": "The Stein family boasts a long lineage that dates back to the early days of the empire. The honor of the family, however, stems from the skills of its warriors, not its noble bloodline. Aria Stein was a legendary master of the blade. Remembered as one of the most skilled warriors in the history of the empire, she laid the foundation of the Stein family honor. Reina is her descendant. Aria's sword, Livatas, currently belongs to Reina. Light as a feather yet strong enough to withstand any strike, this sword helped Reina earn the nickname 'Flash.'"
+  },
+  "s1": {
+    "name": "Float Like a Butterfly",
+    "description": "Rapidly stabs the enemy, dealing {0} P.DMG. Upon a Crit Hit, stacks 1 Wound and resets cooldown. Per every stacked Wound, DMG dealt by Float Like a Butterfly is increased by 20%. Gains immunity to all DMG while the skill is in use.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Mana cost is increased by 1 and Wound stack max is changed to 10. Deals 100% of ATK as extra DMG to enemies with 10 Wounds.",
+    "dark": "Cooldown is removed."
+  },
+  "s2": {
+    "name": "Sharp End",
+    "description": "Increases ATK by {1} for {0} sec and increases Crit Chance by {2}. This effect cannot be dispelled.",
+    "books": {
+      "0": "ATK boost is increased by {0}%.",
+      "1": "ATK boost is increased by {0}%.",
+      "2": "Crit Chance boost is increased by {0}%."
+    },
+    "light": "Mana cost is reduced by 1.",
+    "dark": "In exchange for 1 additional Mana Cost, Crit Chance effect is changed to a 100% Crit DMG boost. Also gains a 25% DMG boost towards Bosses.",
+    "ut": {
+      "name": "Master's Ring",
+      "description": [
+        "[Sharp End] Increases ATK Boost by 50% and recovers additional 40 MP upon a Crit Hit for the skill's duration.",
+        "[Sharp End] Increases ATK Boost by 50% and recovers additional 48 MP upon a Crit Hit for the skill's duration.",
+        "[Sharp End] Increases ATK Boost by 50% and recovers additional 58 MP upon a Crit Hit for the skill's duration.",
+        "[Sharp End] Increases ATK Boost by 50% and recovers additional 70 MP upon a Crit Hit for the skill's duration.",
+        "[Sharp End] Increases ATK Boost by 50% and recovers additional 84 MP upon a Crit Hit for the skill's duration.",
+        "[Sharp End] Increases ATK Boost by 50% and recovers additional 100 MP upon a Crit Hit for the skill's duration."
+      ],
+      "story": "The ring that Reina received after defeating her master. It's too big, so she wears it on her thumb. It looks simple and ungainly, but the spirit of fighting is hidden within the rune letters engraved in the ring. Staring at the ring of her master makes her feel like she will be getting more work today."
+    }
+  },
+  "s3": {
+    "name": "Shooting Star",
+    "description": "Inflicts {0} P.DMG upon enemy with a continuous attack. The last hit blows the enemy away.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Each crit boosts the last attack's DMG by 10%.",
+    "dark": "Gain immunity to all DMG while using skill.",
+    "ut": {
+      "name": "Medal of Swiftness",
+      "description": [
+        "[Shooting Star] DMG is increased by 20% and upon Crit Hit, mana is recovered by 200.",
+        "[Shooting Star] DMG is increased by 24% and upon Crit Hit, mana is recovered by 200.",
+        "[Shooting Star] DMG is increased by 29% and upon Crit Hit, mana is recovered by 200.",
+        "[Shooting Star] DMG is increased by 35% and upon Crit Hit, mana is recovered by 200.",
+        "[Shooting Star] DMG is increased by 42% and upon Crit Hit, mana is recovered by 200.",
+        "[Shooting Star] DMG is increased by 50% and upon Crit Hit, mana is recovered by 200."
+      ],
+      "story": "A honorable medal given to the fastest mercenary. It's said to be a keepsake from Hersz, the fastest warrior in the world. Wearing this medal will make the bearer's body feel lighter, and they'll be able to predict the opponent's movements."
+    }
+  },
+  "s4": {
+    "name": "Lucky Child",
+    "description": "Upon a Crit Hit, ATK is increased by {1} for {0} sec. Can be stacked up to 8 times max.",
+    "books": {
+      "0": "ATK boost is increased by {0}%.",
+      "1": "ATK boost is increased by {0}%.",
+      "2": "Penetration is increased by {0} for the duration of skill."
+    },
+    "light": "Per each stack, DMG is increased by 4% to enemies other than heroes.",
+    "dark": "When there are 5 or more stacks, takes 20% reduced P.DMG and M.DMG."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / Crit DMG +20%",
+    "dark": "When auto attacking, there is a 10% chance to increase Crit DMG by 100% for 5 sec."
+  }
+}

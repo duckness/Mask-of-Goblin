@@ -1,0 +1,120 @@
+{
+  "name": "May",
+  "subtitle": "Das Mädchen, was von Reichtümern träumt",
+  "description": "Dieses schlaue Mädchen führt einen Gemischtwarenladen in der Hauptstadt von Orvelia. Es gibt niemanden, der sie nicht von ihrer Energie anstecken lässt. Im Kampf unterstützt sie ihre Freunde mit allererlei Sachen aus ihrem Korb.",
+  "story": "Ein Mädchen, das ihren eigenen Gemischtwarenladen in Schloss Orvel betreibt. Sie ist äußerst sympathisch und behandelt ihr Gegenüber stets mit Heiterkeit und Eifer. May träumt davon, eines Tages die reichste Händlerin in Orvel zu werden und jagt und sammelt ihre Handelsware üblicherweise selbst. Weil der Arbeitsaufwand für das Beschaffen ihrer Güter hoch ist, sind ihre Preise nicht gerade niedrig, weshalb sie von den Leuten oftmals kritisiert wird. Momentan bereitet sie sich auf eine Reise in die Aegina-Wüste vor, denn sie hatte gehört, dass dort jemand kürzlich einen Schatz entdeckt hätte.",
+  "like": "Gold",
+  "dislike": "Finanzielles Defizit",
+  "inn": {
+    "idle": "Hmm ... Junos Gerichte sind die Besten ...! Das wird sich verkaufen wie warme Semmeln!",
+    "recruit": {
+      "greet": "",
+      "talk": [
+        "",
+        "",
+        ""
+      ],
+      "gift": ""
+    },
+    "affinity": {
+      "greet": "Ah! Willkommen, verehrter Kunde! Oh, warte, das hier ist ja das Gasthaus...",
+      "talk": [
+        "Du kommst doch auch in meinen Laden, oder?",
+        "Junos Essen ist das beste!"
+      ],
+      "gift": "Hehehe, danke!"
+    },
+    "relationship": {
+      "greet": "Ich habe jeden Tag hart daran gearbeitet, das reichste Mädchen in Orvel zu werden!",
+      "talk": [
+        "Ich denke, heute fahre ich ins Zentrum von Elidora, um ein paar Sachen zu besorgen!",
+        "Ich habe angefangen in meiner Freizeit Kleidung zu nähen. Vielleicht kann ich auch mal was für dich machen.",
+        "Wusstest du, dass in der Aegina-Wüste ein Schatz gefunden wurde?"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Aromakiste, Etelia",
+    "description": [
+      "Wird 'Nimm das!' aktiviert, erhalten alle Verbündete die Effekte von 'Nimm alles!'. Der Cooldown aller Skills wird um 10% reduziert.",
+      "Wird 'Nimm das!' aktiviert, erhalten alle Verbündete die Effekte von 'Nimm alles!'. Der Cooldown aller Skills wird um 12% reduziert.",
+      "Wird 'Nimm das!' aktiviert, erhalten alle Verbündete die Effekte von 'Nimm alles!'. Der Cooldown aller Skills wird um 14% reduziert.",
+      "Wird 'Nimm das!' aktiviert, erhalten alle Verbündete die Effekte von 'Nimm alles!'. Der Cooldown aller Skills wird um 17% reduziert.",
+      "Wird 'Nimm das!' aktiviert, erhalten alle Verbündete die Effekte von 'Nimm alles!'. Der Cooldown aller Skills wird um 20% reduziert.",
+      "Wird 'Nimm das!' aktiviert, erhalten alle Verbündete die Effekte von 'Nimm alles!'. Der Cooldown aller Skills wird um 25% reduziert."
+    ],
+    "story": "Ein seltsamer Korb, den May immer dann trug, wenn sie auf der Suche nach neuen Materialien ist. Dieser geheimnisvolle Korb hat unendliches Fassungsvermögen und alles, was damit befördert wird, verliert sein Gewicht. Mit seiner Hilfe kann May auf einer einzigen Reise eine riesige Anzahl an Gegenständen transportieren. Auf den ersten Blick sieht er aus wie ein Picknickkorb. Doch Gerüchten zufolge belädt sie ihn mit fragwürdigen Dingen, wenn sie auf die Jagd geht ... So sagt man jedenfalls."
+  },
+  "s1": {
+    "name": "Nimm alles!",
+    "description": "Erhöht ANG aller Verbündeten für 60 Sek. um {0} und gewährt zufällig einen der folgenden Effekte: 1. Erhöht VERT-Durchdringung um {1} , 2. Erhöht Angriffsgeschw. um {2} , 3. Sofortige Mana-Regeneration um {3}. Alle Effekte außer Mana-Regeneration können bis zu 5 Mal kumulieren.",
+    "books": {
+      "0": "Erhöht ANG-Erhöhungsrate um {0}%.",
+      "1": "Erhöht ANG-Erhöhungsrate um {0}%.",
+      "2": "Erhöht ANG-Erhöhungsrate um {0}%."
+    },
+    "light": "Keiner der Effekte kann durch Skills zum Entfernen von Effekten aufgehoben werden.",
+    "dark": "Alle Effekte können max. 7 Mal kumulieren."
+  },
+  "s2": {
+    "name": "Kopf hoch!",
+    "description": "Heilt alle Verbündete um {0} TP und heilt sie 10 Sek lang um {1}% ihrer max TP pro Sek. 10% Chance auf Effektverdoppelung.",
+    "books": {
+      "0": "Erhöht Erholungsrate um {0}%.",
+      "1": "Erhöht Erholungsrate um {0}%.",
+      "2": "Erhöht Erholungsrate um {0}%."
+    },
+    "light": "Erhöht Effektwiderstand von Verbündeten 10 Sek lang um 250.",
+    "dark": "15% Chance 1 Mana zu regenerieren.",
+    "ut": {
+      "name": "Süßes Kuchenstück",
+      "description": [
+        "[Kopf hoch!] Erhöht die Heilungsrate um 20 % und die Chance auf eine doppelte Heilungsrate um zusätzliche 20 %.",
+        "[Kopf hoch!] Erhöht die Heilungsrate um 24 % und die Chance auf eine doppelte Heilungsrate um zusätzliche 20 %.",
+        "[Kopf hoch!] Erhöht die Heilungsrate um 29 % und die Chance auf eine doppelte Heilungsrate um zusätzliche 20 %.",
+        "[Kopf hoch!] Erhöht die Heilungsrate um 35 % und die Chance auf eine doppelte Heilungsrate um zusätzliche 20 %.",
+        "[Kopf hoch!] Erhöht die Heilungsrate um 42 % und die Chance auf eine doppelte Heilungsrate um zusätzliche 20 %.",
+        "[Kopf hoch!] Erhöht die Heilungsrate um 50 % und die Chance auf eine doppelte Heilungsrate um zusätzliche 20 %."
+      ],
+      "story": "Spezieller von Juno gebackener Kuchen. Er riecht sehr süß. May liebt ihn als Imbiss. Niemand weiß, warum sie niemandem sagt, was sie als Zutaten verwendet hat."
+    }
+  },
+  "s3": {
+    "name": "Nicht zum Verkauf!",
+    "description": "Greift ein zufälliges Ziel und nahestehende Feinde 3 Mal an, verursacht {0} M. Schaden und betäubt sie für 4 Sek., 10% Chance auf Verdoppelung von Skill-Reichweite, Schaden und Betäubungsdauer.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Reduziert Manakosten um 1.",
+    "dark": "Fokussiert alle Angriffe auf einen einzelnen Feind.",
+    "ut": {
+      "name": "Kristallkugel unbekannter Herkunft",
+      "description": [
+        "[Nicht zum Verkauf!] Erhöht Schaden um 20% und greift den Gegener 1 Mal mehr an.",
+        "[Nicht zum Verkauf!] Erhöht Schaden um 24% und greift den Gegener 1 Mal mehr an.",
+        "[Nicht zum Verkauf!] Erhöht Schaden um 29% und greift den Gegener 1 Mal mehr an.",
+        "[Nicht zum Verkauf!] Erhöht Schaden um 35% und greift den Gegener 1 Mal mehr an.",
+        "[Nicht zum Verkauf!] Erhöht Schaden um 42% und greift den Gegener 1 Mal mehr an.",
+        "[Nicht zum Verkauf!] Erhöht Schaden um 50% und greift den Gegener 1 Mal mehr an."
+      ],
+      "story": "In den Tagen der antiken Zivilisation stahl jemand die Zauber der Weisen und fasste deren Macht in eine einzelne Kristallkugel ein. Es scheint ein Plan gewesen zu sein, der mächtigste Schamane seiner Zeit zu werden. Es gibt jedoch keine historischen Aufzeichnungen über diese Kristallkugel und sie wurde weit weg vom Dorf gefunden, nahe dem Fluss Eden. Verschiedene elementare Zauber sind an einem Ort gebündelt, was die Kugel gefährlich macht; man weiß nie, auf welche Weise ihre Macht losgelassen wird."
+    }
+  },
+  "s4": {
+    "name": "Nimm das!",
+    "description": "Fügt 4 zufälligen Feinden alle 15 Sek {0} M.Schaden zu und verursacht zufällig eines dieser Effekte: 1. Konstant {1} M.Schaden (10 Sek), 2. Betäubung (2 Sek), 3. Einfrieren (5 Sek).",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Wird alle 12 Sek aktiviert.",
+    "dark": "Erhöht erlittenen M.Schaden des Ziels um 25%."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / Effekt-Widerstund +100",
+    "dark": "Jeder normale Angriff hat eine 30% Chance, den Verbündeten mit der niedrigsten TP um 3% ihrer TP zu heilen. Gibt ihnen ebenfalls 5% Mana zurück."
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Requina",
+  "subtitle": "Mercador de Veneno,",
+  "description": "Um comerciante que viaja pelo continente, vendendo veneno para quem precisa. Utiliza um fole para envenenar e incapacitar inimigos.",
+  "story": "Uma mercadora curiosa que vende qualquer tipo de veneno conhecido pelo homem. Ela é filha de dois alquimistas errantes que vieram de uma nação distante. Outros comerciantes a chamam de 'Mercadora da Morte', mas ela tem uma opinião diferente. Ela alega que nenhum veneno é intrinsecamente maligno, e que é a maneira como é usado que determina sua natureza. Como uma verdadeira mercadora, ela acredita que qualquer ferramenta é tão benigna ou maligna quanto aquele que a usa. Desde a reaparição dos Demônios, ela tem viajado por aí, procurando o veneno certo para enfrentar os invasores.",
+  "like": "Desenvolver novos venenos, pessoas que entendem a alegria de criar novas substâncias",
+  "dislike": "Pessoas que têm preconceito contra venenos",
+  "inn": {
+    "idle": "Hmm, será que existe alguém que possa comprar minhas mercadorias?",
+    "recruit": {
+      "greet": "Olá! Você está precisando de algum remédio?",
+      "talk": [
+        "Venenos podem ser usados como remédio! Eles não são tão ruins como as pessoas dizem.",
+        "Ah, bem, é verdade que a maioria dos venenos são usados para fins desprezíveis.",
+        "Hmm, onde está a senhorita que comprou meus venenos da última vez?"
+      ],
+      "gift": "Uau, obrigada! Eu usarei isso para aumentar minha coleção de mercadorias?"
+    },
+    "affinity": {
+      "greet": "Prazer em conhecer você! Comprei uns venenos pra você! Escolha o que quiser!",
+      "talk": [
+        "Venenos são demais! Quando você se apaixona por eles, não tem volta!",
+        "Esta erva não está crescendo. Será que devo vender um veneno raro em vez disso? O que acha?"
+      ],
+      "gift": "Ah, obrigada! Vou deixar você comprar um veneno especial à la Requina! He he."
+    },
+    "relationship": {
+      "greet": "Boas-vindas... hahaha, hoje foi uma loucura!",
+      "talk": [
+        "Médicos, assassinos, químicos e alquimistas... todos eles são clientes importantes!",
+        "Por que eu uso dardos de veneno? Bem, eles são silenciosos e fáceis de usar! Bem, não é recomendado deixar que caiam em mãos erradas... mas...",
+        "Venenos que funcionem com Demônios? Estou pesquisando. Eu tenho alguns quase perfeitos... quer ver?"
+      ]
+    }
+  },
+  "uw": {
+    "name": "A Flauta dos Ventos Silenciosos, Rakshathar",
+    "description": [
+      "O acúmulo máximo da Poção de Cócegas aumenta para 55. Cada ataque automático tem uma chance de 10% de atacar um inimigo aleatório, causando 20% do ATQ como DAN e infligindo Silenciar por 1 segundo.",
+      "O acúmulo máximo da Poção de Cócegas aumenta para 60. Cada ataque automático tem uma chance de 10% de atacar um inimigo aleatório, causando 24% do ATQ como DAN e infligindo Silenciar por 1 segundo.",
+      "O acúmulo máximo da Poção de Cócegas aumenta para 65. Cada ataque automático tem uma chance de 10% de atacar um inimigo aleatório, causando 29% do ATQ como DAN e infligindo Silenciar por 1 segundo.",
+      "O acúmulo máximo da Poção de Cócegas aumenta para 70. Cada ataque automático tem uma chance de 10% de atacar um inimigo aleatório, causando 35% do ATQ como DAN e infligindo Silenciar por 1 segundo.",
+      "O acúmulo máximo da Poção de Cócegas aumenta para 75. Cada ataque automático tem uma chance de 10% de atacar um inimigo aleatório, causando 42% do ATQ como DAN e infligindo Silenciar por 1 segundo.",
+      "O acúmulo máximo da Poção de Cócegas aumenta para 80. Cada ataque automático tem uma chance de 10% de atacar um inimigo aleatório, causando 50% do ATQ como DAN e infligindo Silenciar por 1 segundo."
+    ],
+    "story": "Uma zarabatana de incrível precisão feita pela própria Requina. Uma peça silenciadora especial adicionada à extremidade faz essa arma, que já é discreta, ficar quase totalmente silenciosa. Quando as aparições de Demônios começaram a prejudicar seus negócios, ela decidiu usar tudo o que podia, e não apenas venenos. Ela buscou a ajuda de um amigo elementalista, que imbuiu a zarabatana com a bênção do vento. Isso deu à arma um poder de fogo igual àquele de um canhão mágico. Após adicionar o veneno ultramortal matador de Demônios de Requina, a zarabatana se tornou uma arma capaz de matar qualquer ser vivo."
+  },
+  "s1": {
+    "name": "Lágrimas do Sr. Python!",
+    "description": "Ataca 2 inimigos e causa {0} de DAN.F, enquanto os envenena com Lágrimas do Sr. Python. Os inimigos infligidos com Lágrimas do Sr. Python não podem recuperar mana, recebem 30% de DAN aumentado, e a chance de BLOQ será reduzida em 500.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "DAN aumenta em {0}%."
+    },
+    "light": "O custo de mana será reduzido em 1.",
+    "dark": "Reduz a mana do alvo em 1200."
+  },
+  "s2": {
+    "name": "Extrato de Erva Berrante!",
+    "description": "Ataca inimigos aleatórios 3 vezes e causa um total de {0} de DAN, enquanto os envenena com Extrato de Erva Berrante por {1} segundos. Os inimigos infligidos com Extrato de Erva Berrante terão seus ataques reduzidos em {2}%, e a Chance de Crit em {3}.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "DAN aumenta em {0}%."
+    },
+    "light": "Se houver 1 inimigo, o DAN aumenta em 100%.",
+    "dark": "Atordoa o alvo por 1 segundo.",
+    "ut": {
+      "name": "Presa Venenosa do Basilisco",
+      "description": [
+        "[Extrato de Erva Berrante!] O tempo de recarga de habilidades é reduzido em 30% e causa 3% de ATQ em forma de DAN F. extra para cada Poção de Cócegas! acumulada do alvo.",
+        "[Extrato de Erva Berrante!] O tempo de recarga de habilidades é reduzido em 30% e causa 3,6% de ATQ em forma de DAN F. extra para cada Poção de Cócegas! acumulada do alvo.",
+        "[Extrato de Erva Berrante!] O tempo de recarga de habilidades é reduzido em 30% e causa 4,3% de ATQ em forma de DAN F. extra para cada Poção de Cócegas! acumulada do alvo.",
+        "[Extrato de Erva Berrante!] O tempo de recarga de habilidades é reduzido em 30% e causa 5,2% de ATQ em forma de DAN F. extra para cada Poção de Cócegas! acumulada do alvo.",
+        "[Extrato de Erva Berrante!] O tempo de recarga de habilidades é reduzido em 30% e causa 6,2% de ATQ em forma de DAN F. extra para cada Poção de Cócegas! acumulada do alvo.",
+        "[Extrato de Erva Berrante!] O tempo de recarga de habilidades é reduzido em 30% e causa 7,5% de ATQ em forma de DAN F. extra para cada Poção de Cócegas! acumulada do alvo."
+      ],
+      "story": "Uma terrível presa de um Basilisco que absorve apenas energia maligna. Seu veneno é forte o bastante para derreter almas. Se o veneno da presa for misturado com erva berrante, ele pode se tornar uma tremenda droga à qual nenhum organismo sobreviveria. O coração de Requina está batendo forte pela expectativa."
+    }
+  },
+  "s3": {
+    "name": "Mais! Mais forte!",
+    "description": "O próprio ATQ aumenta em [ {1} por {0} segundo e o efeito de [Lágrimas do Sr. Python], [Extrato de Erva Berrante], [Poção de Cócegas] será dobrado. Além disso, o alvo de [Lágrimas do Sr. Python], [Extrato de Erva Berrante!], [Poção de Cócegas] aumenta em 1.",
+    "books": {
+      "0": "Aumenta a Taxa de Aumento de ATQ em {0}%.",
+      "1": "Aumenta a Taxa de Aumento de ATQ em {0}%.",
+      "2": "Aumenta a Taxa de Aumento de ATQ em {0}%."
+    },
+    "light": "Durante o efeito, o DAN do ataque automático aumenta em 100%.",
+    "dark": "O custo de mana será reduzido em 1.",
+    "ut": {
+      "name": "Poção Reluzente",
+      "description": [
+        "[Mais! Mais Forte!] Ataca mais 1 alvo e aumenta a Vel de ATQ em 100 durante o efeito.",
+        "[Mais! Mais Forte!] Ataca mais 1 alvo e aumenta a Vel de ATQ em 120 durante o efeito.",
+        "[Mais! Mais Forte!] Ataca mais 1 alvo e aumenta a Vel de ATQ em 140 durante o efeito.",
+        "[Mais! Mais Forte!] Ataca mais 1 alvo e aumenta a Vel de ATQ em 170 durante o efeito.",
+        "[Mais! Mais Forte!] Ataca mais 1 alvo e aumenta a Vel de ATQ em 210 durante o efeito.",
+        "[Mais! Mais Forte!] Ataca mais 1 alvo e aumenta a Vel de ATQ em 250 durante o efeito."
+      ],
+      "story": "Medicamento feito com a fervura do septuagésimo arco-íris e a língua da gigantesca fera Kiselaton, que é capaz de cruzar o inferno. É cheio de cores vivas. Assim que alguém o ingere, ele queima as vísceras, mas dizem que quem beber lentamente morrerá feliz."
+    }
+  },
+  "s4": {
+    "name": "Poção de Cócegas!",
+    "description": "Após o ataque, envenena o alvo com Poção de Cócegas por {0} segundos, que causa um total de {1} de DAN.F ao longo do tempo e não poderá ser removido. Poção de Cócegas pode ser acumulado até o máximo de 50 vezes.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "DAN aumenta em {0}%."
+    },
+    "light": "Poção de Cócegas! acumula 3 por vez.",
+    "dark": "O alvo recebe 20% de DAN.F aumentado."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV+15% / Chance Crít. +100",
+    "dark": "Após atacar automaticamente um inimigo com 50 ou mais acúmulos de Poção de Cócegas, causa 200% de ATQ como DAN.F extra que ignora DEF."
+  }
+}

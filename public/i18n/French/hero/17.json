@@ -1,0 +1,120 @@
+{
+  "name": "Dimael",
+  "subtitle": "Chasseur de l'Ombre",
+  "description": "Un Elfe Noir qui chasse ses ennemis dans l'ombre. Son arbalète transperce ses ennemis avec une obscurité des plus noires.",
+  "story": "Cet Elfe Noir solitaire a juré de venger la mort de sa sœur, tuée par sa propre race. Après avoir survécu de justesse à son déploiement dans le Désert Aegina, il retourna chez lui pour découvrir avec horreur que sa sœur avait été tuée lors d'un sacrifice elfique. Hurlant son nom dans les ténèbres, il succomba à la folie. Il finit par jurer qu'il se vengerait des siens, les meurtriers de sa sœur.",
+  "like": "Sa sœur",
+  "dislike": "Ses compagnons qui ont laissé mourir sa sœur",
+  "inn": {
+    "idle": "Epigael...",
+    "recruit": {
+      "greet": "Ah..c'est vous.",
+      "talk": [
+        "Arrêtez de regarder.",
+        "Ennuyeux. Laissez-moi.",
+        "...Allez au point."
+      ],
+      "gift": "...Pour moi? Hmm, pourquoi pas. Aucun intérêt à le laisser se gaspiller."
+    },
+    "affinity": {
+      "greet": "Cet endroit n'est pas trop mal.",
+      "talk": [
+        "J'aime les endroits ombragés et je déteste être ébloui par la lumière.",
+        "La plus grande partie de ma puissance provient des ténèbres."
+      ],
+      "gift": "Pourquoi continuez-vous à m'offrir ces choses ? Je déteste devoir faire face à des choses pénibles comme cela."
+    },
+    "relationship": {
+      "greet": "Ainsi, vous voici. Vous trouvez quelque chose d'intéressant?",
+      "talk": [
+        "Quand est la prochaine chasse? J'espère qu'elle sera aussi fructueuse que la dernière.",
+        "Le sombre pouvoir et à moi maintenant. Je continuerai à l'utiliser comme bon me semble.",
+        "Ma revanche n'est pas vraiment terminée... Mais pour l'instant au moins, je me sens à l'aise."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Nerius, Larmes de la Lune",
+    "description": [
+      "Attaquer un ennemi confère 10% de chance d'infliger des DEG M. (100% de l'ATK) et réduit le temps de recharge de la compétence de 10%",
+      "Attaquer un ennemi confère 12% de chance d'infliger des DEG M. (120% de l'ATK) et réduit le temps de recharge de la compétence de 10%",
+      "Attaquer un ennemi confère 14% de chance d'infliger des DEG M. (140% de l'ATK) et réduit le temps de recharge de la compétence de 10%",
+      "Attaquer un ennemi confère 17% de chance d'infliger des DEG M. (170% de l'ATK) et réduit le temps de recharge de la compétence de 10%",
+      "Attaquer un ennemi confère 20% de chance d'infliger des DEG M. (210% de l'ATK) et réduit le temps de recharge de la compétence de 10%",
+      "Attaquer un ennemi confère 25% de chance d'infliger des DEG M. (250% de l'ATK) et réduit le temps de recharge de la compétence de 10%"
+    ],
+    "story": "Un trésor des Elfes noirs fut créé à l'aide d'une puissante pierre de rayon de lune d'Arrovina et d'une branche d'arbre de lune de la meilleure qualité. Nerius est idéal pour la magie Clair de Lune et c'est l'une des armes magiques les plus puissantes des Elfes noirs. Cependant, on dit que sa superbe lueur lunaire peut facilement être souillée par les ténèbres. Un amour sublime s'est retrouvé plongé dans une obscurité profonde et l'Elfe noir cherchant à se venger a fusionné les ténèbres dans cette arme."
+  },
+  "s1": {
+    "name": "Sombre Carnage",
+    "description": "Inflige {0} points de DEG M. à l'ennemi.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG de {0}%."
+    },
+    "light": "S'il y a 1 ennemi, les DEG sont augmentés de 100%.",
+    "dark": "A 25% de chances d'appliquer Aveuglement à l'ennemi pendant 5 sec."
+  },
+  "s2": {
+    "name": "Entrave Noire",
+    "description": "Inflige {0} points de DEG M. aux ennemis à portée et les Entrave pendant {1} sec.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "L'ennemi reçoit {0}% de DEG M. supplémentaires pendant la durée."
+    },
+    "light": "Le coût en Mana est réduit de 1.",
+    "dark": "Les ennemis touchés sont attirés ensemble.",
+    "ut": {
+      "name": "Bracelet incassable",
+      "description": [
+        "[Entrave noire] Augmente les DEG de 50 % et augmente la Resist M. Faible de la cible de 10 % pendant 10 sec.",
+        "[Entrave noire] Augmente les DEG de 50 % et augmente la Resist M. Faible de la cible de 12 % pendant 10 sec.",
+        "[Entrave noire] Augmente les DEG de 50 % et augmente la Resist M. Faible de la cible de 14 % pendant 10 sec.",
+        "[Entrave noire] Augmente les DEG de 50 % et augmente la Resist M. Faible de la cible de 17 % pendant 10 sec.",
+        "[Entrave noire] Augmente les DEG de 50 % et augmente la Resist M. Faible de la cible de 21 % pendant 10 sec.",
+        "[Entrave noire] Augmente les DEG de 50 % et augmente la Resist M. Faible de la cible de 25 % pendant 10 sec."
+      ],
+      "story": "Bracelet porté par Epigael il y a fort longtemps. Il comporte du morion de l’ombre, joyaux infiniment précieux aux yeux des elfes noirs. L’on raconte que les âmes de ceux qui taillent le morion de l’ombre sont liées par un fil et qu’ils se reverront dans leur prochaine vie."
+    }
+  },
+  "s3": {
+    "name": "Vague de l'Ombre",
+    "description": "Inflige {0} points de DEG M. aux ennemis situés dans la ligne droite et applique Aveuglement pendant {1} sec.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG de {0}%."
+    },
+    "light": "Le coût en Mana est augmenté de 1 orbe mes les DEG sont augmentés de 100%.",
+    "dark": "Les Améliorations de tous les ennemis à portée sont dissipées.",
+    "ut": {
+      "name": "Œil des ombres",
+      "description": [
+        "[Vague de l'Ombre] Les DEG sont augmentés de 50% et la dure d'Aveuglement est augmentée de 2 sec.",
+        "[Vague de l'Ombre] Les DEG sont augmentés de 50% et la dure d'Aveuglement est augmentée de 2.5 sec.",
+        "[Vague de l'Ombre] Les DEG sont augmentés de 50% et la dure d'Aveuglement est augmentée de 3 sec.",
+        "[Vague de l'Ombre] Les DEG sont augmentés de 50% et la dure d'Aveuglement est augmentée de 3.5 sec.",
+        "[Vague de l'Ombre] Les DEG sont augmentés de 50% et la dure d'Aveuglement est augmentée de 4 sec.",
+        "[Vague de l'Ombre] Les DEG sont augmentés de 50% et la dure d'Aveuglement est augmentée de 4.5 sec."
+      ],
+      "story": "Fragments de larmes de la bête Heltanios, qui vivait au fond de la Fontaine de Vie. Elle libérait des ténèbres pures et ceux qui croisaient son regard se faisaient dérober l’âme par la puissante énergie ténébreuse. Ceux qui maîtrisent ses yeux obtiennent énormément de puissance et de connaissances. Lorsque Dimael fut capturé à Aegina et se retrouva aux portes de la mort, Maria incrusta ces fragments d’yeux."
+    }
+  },
+  "s4": {
+    "name": "Tache Noire",
+    "description": "Pendant une attaque auto, le dernier coup de de la combo inflige {0} points de DEG M. supplémentaires qui ignorent la DEF M. de l'ennemi.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG de {0}%."
+    },
+    "light": "Les DEG sont augmentés de 40%.",
+    "dark": "Il y a 10% de chances que la compétence se déclanche lors d'une attaque auto."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Vit. ATQ +100",
+    "dark": "Les attaques auto infligent des DEG M. supplémentaires à hauteur de 80% de l'ATQ et récupérent 100 Mana. Il y a 10% d'infliger des DEG doublés et de récupérer le double de Mana."
+  }
+}

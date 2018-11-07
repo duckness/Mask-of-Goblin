@@ -1,0 +1,120 @@
+{
+  "name": "Chase",
+  "subtitle": "Typ. 0",
+  "description": "Ein Testsubjekt, das sich nicht an seine Vergangenheit erinnern kann. Er ist ein Berserker, der sich mit seiner unbändigen Macht in die Schlacht stürzt. Eine mächtige Waffe, die alles vernichtet, was sich ihm in den Weg stellt.",
+  "story": "Ein Mann, der sein Gedächtnis verloren hat. Testsubjekt Typ. 0 entstand bei einem Experiment des Reichs zur Verbesserung der Menschen. Chase war der Prototyp der Project Evil Knights, die lediglich als Mordwerkzeuge dienten. Das Reich beauftragte ihn heimlich, Scarlet, die einzige Thronfolgerin, zu ermorden. Allerdings verfiel er während seines Kampfes gegen Scarlets Wachen, Clause und Demia, in Raserei. Er brach seine Mission ab und verschwand, ohne Scarlet zu töten. Das bedeutete natürlich Ärger für die Adeligen, die den Mord in Auftrag gegeben hatten. Letztendlich heuerten sie mit der Lachenden Maske eine andere Assassinengruppe an, die ihn ermorden sollte. Doch Scarlet hatte ihn bereits bei sich aufgenommen und ihm den Namen Chase gegeben.",
+  "like": "Scarlet, Demia, Clause und seine Freunde nennen ihn beim Namen",
+  "dislike": "Erinnerung an die Vergangenheit, Testsubjektnummer.",
+  "inn": {
+    "idle": "Eine ungewohnte Atmosphäre. Ungewohnte Landschaften ...",
+    "recruit": {
+      "greet": "Ich erinnere mich nicht an dich.",
+      "talk": [
+        "Ist hier jemand, der mich kennt?",
+        "Ich weiß nur, dass ich viele Menschen getötet habe. Aber warum ...? Wieso?",
+        "Heute hat mich jemand angestarrt. Wäre es möglich ... dass mich doch jemand kennt?"
+      ],
+      "gift": "Danke. Das sollte ich vermutlich sagen."
+    },
+    "affinity": {
+      "greet": "Hmm ...",
+      "talk": [
+        "Mein Name ... Mein eigener Name, bei dem sie mich nennen ... Deshalb kämpfe ich für sie.",
+        "Mein Name ist Chase ... Chase ... Ich heiße jetzt Chase ..."
+      ],
+      "gift": "Darf ich ... das nehmen ...? Wirklich ...?"
+    },
+    "relationship": {
+      "greet": "Ich sehe sie nicht. Wenn ich sie nicht bald finde, wird Demia wütend werden.",
+      "talk": [
+        "Ich habe es mit meinem Körper gespürt. Ihre Macht ... Sie haben wahrscheinlich versucht, mich zu überwältigen, ohne mich dabei zu töten.",
+        "Sie hat mich so herzlich aufgenommen, obwohl ich versucht habe, sie umzubringen ... Sie hat mir einen Namen gegeben ... Und sie hat sich vor mich gestellt ...",
+        "Demia macht mir Angst ... Clause ist nett, aber sie kann manchmal auch beängstigend sein. Doch sie ist immer nett."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Blutlancier-Monolith",
+    "description": [
+      "Erhöht den eigenen Krit. Schaden um 20 %. Bei einem automatischen Angriff wird K.Schaden in Höhe von 30 % des ANG mit [Flamme des Monolithen] verursacht und TP in Höhe von 20 % des Schadens wiederhergestellt. Wenn [Limit entfernen] aktiv ist, wird der Effekt von [Flamme des Monolithen] verdoppelt.",
+      "Erhöht den eigenen Krit. Schaden um 24 %. Bei einem automatischen Angriff wird K.Schaden in Höhe von 36 % des ANG mit [Flamme des Monolithen] verursacht und TP in Höhe von 20 % des Schadens wiederhergestellt. Wenn [Limit entfernen] aktiv ist, wird der Effekt von [Flamme des Monolithen] verdoppelt.",
+      "Erhöht den eigenen Krit. Schaden um 28 %. Bei einem automatischen Angriff wird K.Schaden in Höhe von 43 % des ANG mit [Flamme des Monolithen] verursacht und TP in Höhe von 20 % des Schadens wiederhergestellt. Wenn [Limit entfernen] aktiv ist, wird der Effekt von [Flamme des Monolithen] verdoppelt.",
+      "Erhöht den eigenen Krit. Schaden um 34 %. Bei einem automatischen Angriff wird K.Schaden in Höhe von 52 % des ANG mit [Flamme des Monolithen] verursacht und TP in Höhe von 20 % des Schadens wiederhergestellt. Wenn [Limit entfernen] aktiv ist, wird der Effekt von [Flamme des Monolithen] verdoppelt.",
+      "Erhöht den eigenen Krit. Schaden um 42 %. Bei einem automatischen Angriff wird K.Schaden in Höhe von 62 % des ANG mit [Flamme des Monolithen] verursacht und TP in Höhe von 20 % des Schadens wiederhergestellt. Wenn [Limit entfernen] aktiv ist, wird der Effekt von [Flamme des Monolithen] verdoppelt.",
+      "Erhöht den eigenen Krit. Schaden um 50 %. Bei einem automatischen Angriff wird K.Schaden in Höhe von 75 % des ANG mit [Flamme des Monolithen] verursacht und TP in Höhe von 20 % des Schadens wiederhergestellt. Wenn [Limit entfernen] aktiv ist, wird der Effekt von [Flamme des Monolithen] verdoppelt."
+    ],
+    "story": "Eine Waffe für den verbesserten Menschen, Typ. 0, die nach tausenden Versuchen in einem Labor des Reichs hergestellt wurde. Nachdem der verbesserte Mensch, Typ. 0, im Labor erwachte, vernichtete er alles, um eine Waffe zu finden, die seiner Macht standhalten konnte. Schlussendlich riss er dem Monsterkannibalen das Horn aus, das die Arroganz der 7 Sünden verschlungen haben soll. Der beste Schmied des Reichs fertigte aus dem Horn den Blutlancier-Monolithen an. Die Flamme der Sünde lodert im Inneren der Waffe, und was auch immer sie durchringt, kann nicht geheilt werden. Er genießt es so sehr, diese Waffe zu führen, dass er dabei sein verlorenes Gedächtnis vergisst, das damit in Verbindung steht."
+  },
+  "s1": {
+    "name": "Ich werde dich zerbrechen!",
+    "description": "Verhindert für 4 Sekunden, dass das Ziel positive Effekte erhält und greift an, um {0} K.Schaden zu verursachen und das Ziel zurückzuwerfen. Verursacht nach 1 Sekunde {1} K.Schaden an Feinden rund um das Ziel und betäubt sie für {2} Sekunden.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Reduziert Manakosten um 1.",
+    "dark": "Das betroffene Ziel erleidet für 10 Sekunden 25 % zusätzlichen K.Schaden."
+  },
+  "s2": {
+    "name": "Limit entfernen",
+    "description": "Bei der Verwendung wird [Limit entfernen] aktiviert. Dabei werden {0}% der aktuellen TP verbraucht, um alle negativen Effekte von sich selbst zu entfernen und {1} K.Schaden an nahen Feinden in Reichweite zu verursachen. Solange [Limit entfernen] aktiv ist, werden pro Sekunde {2}% der aktuellen TP verbraucht. Gewährt Immunität gegen Statuseffekte, der Krit. Schaden wird um {3}% und die ANG-Geschwindigkeit um {4} erhöht. Der TP-Verbrauch und die Erhöhung des Krit. Schadens und der ANG-Geschwindigkeit werden mit der Zeit stärker. Dieser Effekt kann nicht entfernt werden und wird automatisch deaktiviert, sobald die TP unter 25% sinken.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Betäubt getroffene Feinde für 2 Sek.",
+    "dark": "TP-Verbrauch pro Sekunde ist um 100% erhöht und Boost für ANG-Geschwindigkeit und Krit. Schaden ist doppelt so hoch.",
+    "ut": {
+      "name": "Tuch der Loyalität",
+      "description": [
+        "[Limit entfernen] Fügt jede Sekunde für die Dauer des Skills K.Schaden mit 40 % ANG an nahen Feinden zu und erhöht die Erholung um 30 %.",
+        "[Limit entfernen] Fügt jede Sekunde für die Dauer des Skills K.Schaden mit 48 % ANG an nahen Feinden zu und erhöht die Erholung um 30 %.",
+        "[Limit entfernen] Fügt jede Sekunde für die Dauer des Skills K.Schaden mit 58 % ANG an nahen Feinden zu und erhöht die Erholung um 30 %.",
+        "[Limit entfernen] Fügt jede Sekunde für die Dauer des Skills K.Schaden mit 70 % ANG an nahen Feinden zu und erhöht die Erholung um 30 %.",
+        "[Limit entfernen] Fügt jede Sekunde für die Dauer des Skills K.Schaden mit 84 % ANG an nahen Feinden zu und erhöht die Erholung um 30 %.",
+        "[Limit entfernen] Fügt jede Sekunde für die Dauer des Skills K.Schaden mit 100 % ANG an nahen Feinden zu und erhöht die Erholung um 30 %."
+      ],
+      "story": "Scarlet hat Chase diesen Gegenstand überlassen. Sie hatte Mitleid mit ihm, weil er namenlos war. An einer Ecke des Tuchs ist sein Name eingestickt. Es steht ihm zwar nicht besonders gut, doch er trägt es immer bei sich. Chase hat sein Gedächtnis verloren und konnte nur an dem Testsubjekt-Code an seiner Hüfte erkennen, wer er wirklich war. In dem Moment, als er mit einem Namen gerufen wurde, hatte er endlich wieder ein Lebensziel. Er entschloss sich dazu, seine unbändige Macht dafür einzusetzen, jene zu beschützen, durch die er sich lebendig fühlt."
+    }
+  },
+  "s3": {
+    "name": "Verbrennung, Speer der Wut",
+    "description": "Stürmt auf einen Feind zu, verursacht {0} K.Schaden und wirft ihn zu Boden. Anschließend werden in unmittelbarer Nähe 4 Explosionen ausgelöst, die insgesamt {1} K.Schaden verursachen und für {2} Sekunden betäuben. Stellt TP in Höhe von {3}  % des Schadens wieder her.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Gewährt Immunität gegen Statuseffekte, während der Skill aktiv ist.",
+    "dark": "Erhöht die Betäubungsdauer um 1 Sekunde.",
+    "ut": {
+      "name": "Unerbittliche Schulterplatte",
+      "description": [
+        "[Verbrennung, Speer der Wut] Reduziert die Manakosten um 1 und erhöht den Schaden um 20 %.",
+        "[Verbrennung, Speer der Wut] Reduziert die Manakosten um 1 und erhöht den Schaden um 24 %.",
+        "[Verbrennung, Speer der Wut] Reduziert die Manakosten um 1 und erhöht den Schaden um 29 %.",
+        "[Verbrennung, Speer der Wut] Reduziert die Manakosten um 1 und erhöht den Schaden um 35 %.",
+        "[Verbrennung, Speer der Wut] Reduziert die Manakosten um 1 und erhöht den Schaden um 42 %.",
+        "[Verbrennung, Speer der Wut] Reduziert die Manakosten um 1 und erhöht den Schaden um 50 %."
+      ],
+      "story": "Eine Schulterplatte, die Chase auf einer seiner Schultern trägt. Sie wurde aus speziellen Erzen hergestellt, die auf dem Orbis-Kontinent nur schwer zu finden sind. Sie ist leicht, aber äußerst widerstandsfähig und nahezu unzerstörbar. Demia überließ Chase diesen Gegenstand, da Scarlet sehr von ihm angetan war. Demia zeigte es nicht oft, aber sie war fasziniert davon, dass Chase gleichzeitig so naiv und bei Kämpfen so unglaublich enthusiastisch sein konnte. Demia beobachtete Chase eine Weile und eines Tages klopfte sie ihm auf die Schulter und übergab ihm die Schulterplatte. Sie sagte ihm, dass Kämpfen zwar wichtig sei, doch dass man dabei stets auf seinen Körper achten müsse."
+    }
+  },
+  "s4": {
+    "name": "Denk in der Hölle daran",
+    "description": "Wird nicht durch Lebensraub beeinflusst. Stattdessen werden die Max. TP um {0} , Krit um {1} , Statuseffekt-PRÄZ um {2} und PRÄZ um {3} erhöht. Beim Erleiden von fatalem Schaden wird das Ziel für {4} Sekunden wiederbelebt, der Krit. Schaden um {5}  % und die ANG-Geschwindigkeit um {6} erhöht. Der Wiederbelebungseffekt kann nur einmal pro Kampf aktiviert werden und der wiederbelebte Chase kann keine Skills einsetzen.",
+    "books": {
+      "0": "TP-Boost um {0}% erhöht.",
+      "1": "TP-Boost um {0}% erhöht.",
+      "2": "TP-Boost um {0}% erhöht."
+    },
+    "light": "Bei der Aktivierung der Wiederbelebung wird der ANG um 50 % erhöht.",
+    "dark": "Bei der Aktivierung der Wiederbelebung werden nahe Feinde in Reichweite für 3 Sekunden zurückgeworfen."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / Krit. Schaden +20%",
+    "dark": "Pro 1% TP-Verlust wird der Krit. Schaden um 1% und die ANG-Geschwindigkeit um 4 erhöht."
+  }
+}

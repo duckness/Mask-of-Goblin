@@ -1,0 +1,120 @@
+{
+  "name": "Cassandra",
+  "subtitle": "Tempting Winds",
+  "description": "The Femme Fatale Owner of the Gold Bar. True to her notoriety, her first impression is that of a sexy, erotic charmer. She cheers on her allies with tempting dances.",
+  "story": "She's the owner of 'Gold Bar,' the biggest and the most luxurious tavern in Vespia. Beneath its flashy exterior, the tavern actually serves as a secret meeting place for the social elites, where invaluable secret information is constantly exchanged. Her natural charm and conversation skills can easily break down personal barriers and win the trust of others. Her true identity is a dealer of secret information and weapons.",
+  "like": "Red wine, nuts, flashy fans",
+  "dislike": "Nasty customers Greasy hair Bad odor",
+  "inn": {
+    "idle": "Oh my, welcome~ Well, it's not my shop anyway, but~",
+    "recruit": {
+      "greet": "Oh, are you hitting on me? Ufufu...",
+      "talk": [
+        "One more round for me~Oh, this person here will take the check~",
+        "Weapon info? Hmm, now I don't think I know what you're talking about...?",
+        "Fufu, you look happy today. What's going on, I wonder~?"
+      ],
+      "gift": "Fufu, you didn't have to~ I wonder how I should show my gratitude."
+    },
+    "affinity": {
+      "greet": "Oh, hello!",
+      "talk": [
+        "I heard some people dilute liquor with water... *Sigh...* I'm worried.",
+        "It's my job, so my body mixes up day and night. I'm so tired."
+      ],
+      "gift": "Oh! Thank you, I'll use it well."
+    },
+    "relationship": {
+      "greet": "Hmm, I was just thinking about you. Apparently you were, too~?",
+      "talk": [
+        "Winning over the minds of people is my job...but I won't do that on you.",
+        "Keep this secret - not only the Empire, but Orvelia is also holding many deals as of late...especially those from the Royal Palace...",
+        "Even while sharing a glass of wine...sometimes, it feels as if I'm alone. With you, though..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Aurelian Whisper, Goldbreeze",
+    "description": [
+      "Every 15 sec, heals an ally with the lowest HP by 200% of ATK and dispels all negative effects.",
+      "Every 14 sec, heals an ally with the lowest HP by 240% of ATK and dispels all negative effects.",
+      "Every 12.5 sec, heals an ally with the lowest HP by 290% of ATK and dispels all negative effects.",
+      "Every 11 sec, heals an ally with the lowest HP by 350% of ATK and dispels all negative effects.",
+      "Every 9.5 sec, heals an ally with the lowest HP by 420% of ATK and dispels all negative effects.",
+      "Every 8 sec, heals an ally with the lowest HP by 500% of ATK and dispels all negative effects."
+    ],
+    "story": "Cassandra works double as an arms dealer. One day, a stolen item came into her possession which immediately caught her attention. It was a beautiful fan adorned with gold decorations and precious gems. According to the rumors, every single lady who possessed this fan soon fell into great misfortune. It has been circulating the market as a cursed item. As soon as she bought it, Cassandra began investigating its origin. As it turned out, this fan, named Goldbreeze, had been created to serve as a concealed weapon. It shouldn't be too hard to guess as to what kind of misfortune the unaware owners of this fan might have suffered."
+  },
+  "s1": {
+    "name": "Softly~",
+    "description": "Heals all allies by {0} HP and deals {1} M.DMG to all enemies. Hit enemies are inflicted by Silence for 2 sec.",
+    "books": {
+      "0": "DMG and Heal rate are increased by {0}%.",
+      "1": "DMG and Heal rate are increased by {0}%.",
+      "2": "Silence duration is increased by {0} sec."
+    },
+    "light": "Healed allies gain a 200 ATK Spd boost for 10 sec.",
+    "dark": "For 5 sec, hit enemies have their Mana reduced by 200 every second."
+  },
+  "s2": {
+    "name": "Fiercely!",
+    "description": "For 15 sec, all allies' ATK is increased by {0} and Crit Chance is increased by {1}.",
+    "books": {
+      "0": "ATK boost is increased by {0}%.",
+      "1": "ATK boost is increased by {0}%.",
+      "2": "ATK boost is increased by {0}%."
+    },
+    "light": "ATK boost is increased by 40%.",
+    "dark": "Mana cost is reduced by 1.",
+    "ut": {
+      "name": "Fancy Ornament",
+      "description": [
+        "[Fiercely!] Increases duration by 5 sec and additionally increases Crit DMG by 20%.",
+        "[Fiercely!] Increases duration by 5 sec and additionally increases Crit DMG by 24%.",
+        "[Fiercely!] Increases duration by 5 sec and additionally increases Crit DMG by 29%.",
+        "[Fiercely!] Increases duration by 5 sec and additionally increases Crit DMG by 35%.",
+        "[Fiercely!] Increases duration by 5 sec and additionally increases Crit DMG by 42%.",
+        "[Fiercely!] Increases duration by 5 sec and additionally increases Crit DMG by 50%."
+      ],
+      "story": "A luxurious accessory made by the greatest jeweler in the continent. A limited edition ornament created by jeweler Larik. Any person in high society on the Orbis Continent would love to have one. His work is said to be the epitome of art, and it is said to heal and grant courage. There are only 3 of the limited edition Fancy Ornaments, and one of them obviously belongs to the master of the Gold Bar."
+    }
+  },
+  "s3": {
+    "name": "Tempting Wave",
+    "description": "Deals {0} M.DMG to an enemy with the highest ATK. If this skill is used in Arena, inflicts Charm on the target for 7 sec. If this skill is used outside the Arena, enemy takes {1}% increased M.DMG. Charmed enemies cannot use any skills, and deals auto attack to own allies.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Charm duration is increased by {0} sec."
+    },
+    "light": "Target takes 25% increased M.DMG for 10 sec.",
+    "dark": "Mana cost is reduced by 1.",
+    "ut": {
+      "name": "Golden Fragrance",
+      "description": [
+        "[Tempting Wave] Skill cooldown is reduced by 30% and Charm duration is increased by 1 sec.",
+        "[Tempting Wave] Skill cooldown is reduced by 30% and Charm duration is increased by 1.5 sec.",
+        "[Tempting Wave] Skill cooldown is reduced by 30% and Charm duration is increased by 2 sec.",
+        "[Tempting Wave] Skill cooldown is reduced by 30% and Charm duration is increased by 2.5 sec.",
+        "[Tempting Wave] Skill cooldown is reduced by 30% and Charm duration is increased by 3 sec.",
+        "[Tempting Wave] Skill cooldown is reduced by 30% and Charm duration is increased by 3.5 sec."
+      ],
+      "story": "A legendary gold flame necklace pendant. The legendary Gold King made this gold flame necklace pendant to get the attention of the Goddess of Love and Beauty. Its gold scent creates a Tempting Wave that makes anyone join their side and be loved by everyone."
+    }
+  },
+  "s4": {
+    "name": "Gentle Touch",
+    "description": "At the start of each battle, reduces mana cost by 2 orbs for a single skill, and all allies' DEF is increased by {0} for 5 sec.",
+    "books": {
+      "0": "DEF boost is increased by {0}%.",
+      "1": "DEF boost is increased by {0}%.",
+      "2": "DEF boost is increased by {0}%."
+    },
+    "light": "All DMG upon allies is reduced by 20% for 5 sec.",
+    "dark": "DEF increase effect has its duration increased by 5 sec."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / ATK.Spd +100",
+    "dark": "At the beginning of each battle, a random ally is immune to DMG for 3 sec."
+  }
+}

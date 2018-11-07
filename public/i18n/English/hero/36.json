@@ -1,0 +1,120 @@
+{
+  "name": "Ricardo",
+  "subtitle": "Lua's Judgment",
+  "description": "A noble hero who has guarded the realm of humans from the threat of the Demons for a long time. Utilizing a pillar blessed by the goddess, he crushes his enemies.",
+  "story": "A hero who saved countless lives from the Demons, and the current commander of the Holy Knights of the Church of Lua. This brave and seasoned knight has been hunting down Demons all across Orvelia since his younger days. He is also the headmaster of the orphanage where Kasel, Frey, and Clause grew up. He trained countless warriors in Orvelia and is considered their spiritual leader. He is preparing to step down from the position due to his age, but his age-defying strength has always led to the denial of his retirement request.",
+  "like": "People, helping others",
+  "dislike": "Demons, especially those who attack people for no reason",
+  "inn": {
+    "idle": "I see you're all healthy. Good! Hahahaha!!",
+    "recruit": {
+      "greet": "Hahaha, it's you, eh? Have you been eating well?",
+      "talk": [
+        "I may be old, but I'm still perfectly fine! Although, I can't tell when I'll be able to retire at this rate. Hahaha!!",
+        "Hahaha, my hips ache a bit, but eh, whatever. I can still go on!",
+        "Arm wrestling competition!? There's no way I'm missing this. Bring it on!!"
+      ],
+      "gift": "Haha, don't mind me. Just put it in the donation box for the orphanage! The kids will need that more than I do."
+    },
+    "affinity": {
+      "greet": "How are you? Health is the most important thing!",
+      "talk": [
+        "It looks like you've been training hard! Kwahahaha!!!",
+        "Liquor? I love it! Though, I can't drink as much as I used to!"
+      ],
+      "gift": "I'll have to buy some new clothes for the kids! Hahahaha!"
+    },
+    "relationship": {
+      "greet": "Haha, you look good today!",
+      "talk": [
+        "When fighting with Demons, there are always a lot of civilian casualties... even more than the cases of normal wars between humans.",
+        "My age? Hahaha, it wouldn't be odd if I retired right now! They won't let me, though...",
+        "Life is a series of constant training! Don't slack off on exercise, now!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Light of Judgment, Theoria",
+    "description": [
+      "When an ally other than the caster takes DMG, there is a 10% chance that a shield is cast upon them to absorb DMG equal to 320% of ATK for 5 sec while granting immunity to CC. This effect does not trigger more than once in 5 sec.",
+      "When an ally other than the caster takes DMG, there is a 12% chance that a shield is cast upon them to absorb DMG equal to 384% of ATK for 5 sec while granting immunity to CC. This effect does not trigger more than once in 5 sec.",
+      "When an ally other than the caster takes DMG, there is a 14% chance that a shield is cast upon them to absorb DMG equal to 460% of ATK for 5 sec while granting immunity to CC. This effect does not trigger more than once in 5 sec.",
+      "When an ally other than the caster takes DMG, there is a 17% chance that a shield is cast upon them to absorb DMG equal to 552% of ATK for 5 sec while granting immunity to CC. This effect does not trigger more than once in 5 sec.",
+      "When an ally other than the caster takes DMG, there is a 20% chance that a shield is cast upon them to absorb DMG equal to 660% of ATK for 5 sec while granting immunity to CC. This effect does not trigger more than once in 5 sec.",
+      "When an ally other than the caster takes DMG, there is a 25% chance that a shield is cast upon them to absorb DMG equal to 800% of ATK for 5 sec while granting immunity to CC. This effect does not trigger more than once in 5 sec."
+    ],
+    "story": "When the Holy Sword Aea was bestowed upon Kyle, it appeared in the Temple of Lua located north of the King's Plains. When Kyle removed the sword from the altar, it released a powerful wave of light that turned the entire vicinity into a sacred ground. Everything contained within the Temple was turned into holy relics. Teoria, the central pillar of the Temple, absorbed the greatest amount of holy energy of them all."
+  },
+  "s1": {
+    "name": "Destruction",
+    "description": "Deals {0} P.DMG to frontal enemies in range and knocks them down for 3 sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Gains immunity to CC while in use."
+    },
+    "light": "Target receives 25% increased P.DMG for 10 sec.",
+    "dark": "Deals extra P.DMG equal to 200% of M.DEF."
+  },
+  "s2": {
+    "name": "Divine Protection",
+    "description": "Deals {0} P.DMG to enemies in range and inflicts Stun for 1 sec. Additionally, own M.DEF is increased by {1} for 10 sec, and takes 80% of M.DMG instead of allies.",
+    "books": {
+      "0": "Defense Boost is increased by {0}%.",
+      "1": "Defense Boost is increased by {0}%.",
+      "2": "For 10 sec, heals 1% of own HP per sec."
+    },
+    "light": "In exchange for 1 additional Mana Cost, Ricardo gains 30% DMG resistance to DMG taken due to covering for allies.",
+    "dark": "This skill's effect cannot be dispelled.",
+    "ut": {
+      "name": "Pride of Holy Warrior",
+      "description": [
+        "[Divine Protection] Gains Immunity to CC and increases M.Resistance by 10% for the skill's duration.",
+        "[Divine Protection] Gains Immunity to CC and increases M.Resistance by 12% for the skill's duration.",
+        "[Divine Protection] Gains Immunity to CC and increases M.Resistance by 14% for the skill's duration.",
+        "[Divine Protection] Gains Immunity to CC and increases M.Resistance by 17% for the skill's duration.",
+        "[Divine Protection] Gains Immunity to CC and increases M.Resistance by 21% for the skill's duration.",
+        "[Divine Protection] Gains Immunity to CC and increases M.Resistance by 25% for the skill's duration."
+      ],
+      "story": "Shield of the arbiter of Lua's Holy Knights. Artifact given to those who've earned the title of Arbiter from the Lua's Holy Knights. An artifact imbued with Goddess Lua's blessing, it protects those under the benevolence of the god, and punishes enemies without mercy."
+    }
+  },
+  "s3": {
+    "name": "Divine Judgment",
+    "description": "Attacks frontal enemies in a straight line 3 times. The first 2 attacks deal {0} P.DMG to enemies and stun them for 4 sec, and the last attack deals {1} P.DMG to enemies in a 20% wider range, while stunning them for 4 sec. Each attack has a 50% chance of dispelling positive effects from the enemy.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Blocks all DMG while the skill is in use."
+    },
+    "light": "Stun duration is increased by 2 sec.",
+    "dark": "Mana cost is reduced by 1.",
+    "ut": {
+      "name": "Templar Vow",
+      "description": [
+        "[Divine Judgment] dispels enemies' positive effects with 75% chance, and reduces target's ATK Spd by 100 for 10 sec.",
+        "[Divine Judgment] dispels enemies' positive effects with 75% chance, and reduces target's ATK Spd by 120 for 10 sec.",
+        "[Divine Judgment] dispels enemies' positive effects with 75% chance, and reduces target's ATK Spd by 140 for 10 sec.",
+        "[Divine Judgment] dispels enemies' positive effects with 75% chance, and reduces target's ATK Spd by 170 for 10 sec.",
+        "[Divine Judgment] dispels enemies' positive effects with 75% chance, and reduces target's ATK Spd by 210 for 10 sec.",
+        "[Divine Judgment] dispels enemies' positive effects with 75% chance, and reduces target's ATK Spd by 250 for 10 sec."
+      ],
+      "story": "The seal that Ricardo used for the pledge of the Holy Warrior. When first appointed as a Holy Warrior, knights leave their names on the certificate of oath with their seals. Ricardo made his seal with his affection for the Church of Lua. He still carries it now, after all this time."
+    }
+  },
+  "s4": {
+    "name": "Divine Blessing",
+    "description": "When allies excluding self take M.DMG, increases their M.DEF by {0} for 5 sec. Can be stacked up to 5 times max.",
+    "books": {
+      "0": "Defense Boost is increased by {0}%.",
+      "1": "Defense Boost is increased by {0}%.",
+      "2": "Duration is increased by 2 sec."
+    },
+    "light": "M.DEF increase rate is boosted by 40%.",
+    "dark": "Max stack count is boosted to 8."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / P. Block +200",
+    "dark": "When own HP goes below 40%, HP does not go under 10% for 6 sec, and all allies' ATK is increased by 50% of own M.DEF. This effect is activated once every 60 sec."
+  }
+}

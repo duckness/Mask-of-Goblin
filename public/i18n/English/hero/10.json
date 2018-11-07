@@ -1,0 +1,120 @@
+{
+  "name": "Selene",
+  "subtitle": "Wind-piercing Arrow",
+  "description": "An Elf Princess with a lofty air, she guards the sacred forest. Arrows filled with moon energy follow her will to track down enemies, and arrows filled with wind energy fiercely pierce the enemy.",
+  "story": "This noble Elven princess admires the Holy Sword and its chosen warrior. She strives as much as she can to do what's right, and wants others to do the same. This is why she offers genuine criticism to anyone who strays from the path of righteousness, even if it's the Warrior of the Holy Sword. Unfortunately, her stout resolve is sometimes taken the wrong way by others. She often visits her younger sister Dosarta at her tower to keep her company.",
+  "like": "Those who work in harmony and take responsibilities",
+  "dislike": "Those who abandon their own beliefs Those who flee from danger",
+  "inn": {
+    "idle": "Oh, so humans sleep in places like this?",
+    "recruit": {
+      "greet": "Have you been doing well? May your day be full of light.",
+      "talk": [
+        "Have I caught your attention?",
+        "Refined people are always welcome.",
+        "Why not, I guess I could hear you out."
+      ],
+      "gift": "Thank you for the gift. It's beautiful."
+    },
+    "affinity": {
+      "greet": "Today was a great day, having met you.",
+      "talk": [
+        "I've lived to protect the forest since I was young. That's why I always loved the story of the Holy Sword.",
+        "The Warrior of the Holy Sword who defeated the Dark Lord and brought peace to the world 100 years ago... Now we must create a new legend."
+      ],
+      "gift": "This is...! Thank you for your generosity."
+    },
+    "relationship": {
+      "greet": "Today seems to be another nice, sunny day - full of the happiness and warmth.",
+      "talk": [
+        "Perhaps I've been too hard on the Warrior, forcing my ideals and thoughts on him...",
+        "Visit Elidora Forest at some time. I will greet you personally.",
+        "This bow is a special token of friendship given to me by a Wind Elemental. You may touch it if you want."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Green Winds, Notos",
+    "description": [
+      "Upon a Crit Hit, ATK Spd is increased by 200 for 10 sec, and for the duration of skill, each auto attack fires an arrow that deals extra 100% P.DMG.",
+      "Upon a Crit Hit, ATK Spd is increased by 240 for 10 sec, and for the duration of skill, each auto attack fires an arrow that deals extra 120% P.DMG.",
+      "Upon a Crit Hit, ATK Spd is increased by 280 for 10 sec, and for the duration of skill, each auto attack fires an arrow that deals extra 140% P.DMG.",
+      "Upon a Crit Hit, ATK Spd is increased by 340 for 10 sec, and for the duration of skill, each auto attack fires an arrow that deals extra 170% P.DMG.",
+      "Upon a Crit Hit, ATK Spd is increased by 410 for 10 sec, and for the duration of skill, each auto attack fires an arrow that deals extra 210% P.DMG.",
+      "Upon a Crit Hit, ATK Spd is increased by 500 for 10 sec, and for the duration of skill, each auto attack fires an extra arrow that deals 250% P.DMG."
+    ],
+    "story": "A bow blessed with the breath of Sylph, the Wind Elemental. Only a person of noble character may wield it. When drawn, the bow nocks itself with a deadly magic arrow created from the breath of the Elemental. Guided by the Wind Elemental, the arrow never misses its target, no matter where it's hiding. Selene has shared special bonds with Elementals since childhood. She was especially close to Sylph, who enchanted her bow as a sign of their friendship."
+  },
+  "s1": {
+    "name": "Arrow Rain",
+    "description": "Shoots 12 arrows to random enemies and deals a total of {0} P.DMG.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "DMG is increased by 40%.",
+    "dark": "There is a 20% chance to inflict Stun for 2 sec."
+  },
+  "s2": {
+    "name": "Rush",
+    "description": "Upon attacking, summons 5 arrows that launch towards the enemy. Each arrow deals {0} P.DMG.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Ignores DEF when there is only 1 enemy.",
+    "dark": "Makes the enemy flinch for 0.5 sec.",
+    "ut": {
+      "name": "Wind Spirit Seal Stone",
+      "description": [
+        "[Rush] Increases DMG by 20% and has a 15% chance to summon 1 Rush Arrow upon a normal attack.",
+        "[Rush] Increases DMG by 24% and has a 15% chance to summon 1 Rush Arrow upon a normal attack.",
+        "[Rush] Increases DMG by 29% and has a 15% chance to summon 1 Rush Arrow upon a normal attack.",
+        "[Rush] Increases DMG by 35% and has a 15% chance to summon 1 Rush Arrow upon a normal attack.",
+        "[Rush] Increases DMG by 42% and has a 15% chance to summon 1 Rush Arrow upon a normal attack.",
+        "[Rush] Increases DMG by 50% and has a 15% chance to summon 1 Rush Arrow upon a normal attack."
+      ],
+      "story": "A stone in which a reckless wind bow elemental is sealed. The elemental caused all kinds of trouble with its evil tricks, so it was sealed by the Fairy King. The belligerent wind elemental infuses arrows with destructive wind, increasing its killing power by 5 times or more."
+    }
+  },
+  "s3": {
+    "name": "Moonlight Flash",
+    "description": "Fires an arrow in a straight line, dealing P.DMG to all enemies in range proportional to their current HP. Deals a maximum of {0} P.DMG and inflicts knock down.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Reduces cooldown by 3 sec.",
+    "dark": "Ignores enemy Block.",
+    "ut": {
+      "name": "Silver Arrow",
+      "description": [
+        "[Moonlight Flash] DMG is increased by 20% and target takes 20% additional P.DMG for 10 sec.",
+        "[Moonlight Flash] DMG is increased by 24% and target takes 20% additional P.DMG for 10 sec.",
+        "[Moonlight Flash] DMG is increased by 29% and target takes 20% additional P.DMG for 10 sec.",
+        "[Moonlight Flash] DMG is increased by 35% and target takes 20% additional P.DMG for 10 sec.",
+        "[Moonlight Flash] DMG is increased by 42% and target takes 20% additional P.DMG for 10 sec.",
+        "[Moonlight Flash] DMG is increased by 50% and target takes 20% additional P.DMG for 10 sec."
+      ],
+      "story": "Arrowhead imbued with the blessing of the Goddess of Hunting and the Moon. An ancient artifact that is passed down to the best Elven hunter. It is said that the Goddess of Hunting and the Moon cared for the Elves who protected the holy forest, and she lent her power to them through the artifact. The silver arrow imbued with the power of the Goddess of the Moon has a mysterious power that allows the user to defeat his enemy and boost DMG."
+    }
+  },
+  "s4": {
+    "name": "Moonlight Arrow",
+    "description": "Upon attacking, increases ATK by {1} and Crit Chance by {2} for {0} sec. This effect stacks up to 3 times.",
+    "books": {
+      "0": "ATK boost is increased by {0}%.",
+      "1": "ATK boost is increased by {0}%.",
+      "2": "Each attack increases hero's Crit DMG by {0}%."
+    },
+    "light": "Max stack number is changed to 5.",
+    "dark": "Auto attack range is boosted by 20%."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / Crit DMG +20%",
+    "dark": "Own Crit Chance is decreased by 300 and Crit DMG is increased by 100%."
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "name": "Nyx",
+  "subtitle": "Dimensionsschneider",
+  "description": "Ein heterochromischer Magier, der Dimensionsräume kontrolliert. Seine Kräfte kreieren Risse in die Raumstruktur, aus denen unendlich viele magische Schwerter beschwört werden.",
+  "story": "Ein geheimnisvoller, Dimensionen überschreitender Zauberer mit klar erkennbarer Heterochromie. Das immerwährende Lächeln auf seinem Gesicht signalisiert die Weisheit von jemandem, der durch das gesamte Universum sieht. Er zeigt großes Interesse an Leuten mit speziellen Fähigkeiten und schätzt es, diese zu testen. Seine Fähigkeit, sich durch den Raum teleportieren zu können, scheint ihn vom Reich der Sterblichen zu entkoppeln und er vermag es sogar, durch Dimensionen zu reisen. Seine wirkliche Motivation ist unbekannt, doch es scheint sicher, dass er immer danach trachtet, anderen zu helfen.",
+  "like": "Interdimensionale Reisen; magische Experimente",
+  "dislike": "Leute, die nicht auf Andere hören",
+  "inn": {
+    "idle": "Hmm, bist du an mir interessiert?",
+    "recruit": {
+      "greet": "Du hast eine besondere Aura an dir.",
+      "talk": [
+        "Willst du zu einem bestimmten Ort?",
+        "Es gibt keinen Ort auf der Welt, den ich nicht erreichen kann.",
+        "Ich mag interessante Leute wie dich."
+      ],
+      "gift": "Für mich? Hmm, danke sehr."
+    },
+    "affinity": {
+      "greet": "Wir werden uns wiedersehen. Schön, dich zu sehen.",
+      "talk": [
+        "Reisen macht Spaß. Man bekommt die Möglichkeit, alles fallenzulassen und sich eine Zeit lang an der Freiheit zu erfreuen.",
+        "Mein Hobby ist das Sammeln von Schwertern."
+      ],
+      "gift": "Oh, was für ein schönes Geschenk. Hab Dank."
+    },
+    "relationship": {
+      "greet": "Hm, ich wusste du würdest auftauchen.",
+      "talk": [
+        "Falls du irgendwo hin willst, sag es mir einfach. Ich öffne dann ein Portal für dich.",
+        "Ich möchte sehen, wie du diese Welt rettest.",
+        "Möchtest du mehr über meine Maige wissen? Haha, also dazu braucht es ein paar komplizierte Berechnungen."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Magnus Fille, der Dimensionsschlüssel",
+    "description": [
+      "Autom. Angriffe penetrieren Feinde in einer geraden Linie und verursachen 30 % zusätzlichen Schaden. Mit jedem Klingenzähler wird der Schaden zusätzlich um 4 % erhöht.",
+      "Autom. Angriffe penetrieren Feinde in einer geraden Linie und verursachen 36 % zusätzlichen Schaden. Mit jedem Klingenzähler wird der Schaden zusätzlich um 4,8 % erhöht.",
+      "Autom. Angriffe penetrieren Feinde in einer geraden Linie und verursachen 43 % zusätzlichen Schaden. Mit jedem Klingenzähler wird der Schaden zusätzlich um 5,7 % erhöht.",
+      "Autom. Angriffe penetrieren Feinde in einer geraden Linie und verursachen 52 % zusätzlichen Schaden. Mit jedem Klingenzähler wird der Schaden zusätzlich um 6,9 % erhöht.",
+      "Autom. Angriffe penetrieren Feinde in einer geraden Linie und verursachen 62 % zusätzlichen Schaden. Mit jedem Klingenzähler wird der Schaden zusätzlich um 8,3 % erhöht.",
+      "Autom. Angriffe penetrieren Feinde in einer geraden Linie und verursachen 75 % zusätzlichen Schaden. Mit jedem Klingenzähler wird der Schaden zusätzlich um 10 % erhöht."
+    ],
+    "story": "Es existiert ein universelles Band, das unterschiedliche Dimensionen verbindet. Dieses Schwert ist der Schlüssel zur Trennung und Wiederverbindung dieses Bandes. Es wird dem Richter der Dimensionen verliehen, der geschworen hatte, die Balance des Universums zu beschützen. Es kann unbegrenzt vervielfältigt werden, doch gewährt seine Macht nur dem Auserwählten."
+  },
+  "s1": {
+    "name": "Dimensionsklinge",
+    "description": "Fügt Zielen {0} K.Schaden zu. Jeder getroffene Feind wird mit einem Klingenzähler versehen. Je mehr Feinde mit Klingen versehen sind, desto mehr Ziele können angegriffen werden. Jede Klinge ist 20 Sek lang aktiv, und jedes Ziel kann bis zu 5 Klingen kumulieren.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Sind mehr als 5 Feinde anwesend, wird der Cooldown von 10 Sekunden zurückgesetzt und der Schaden um 200% erhöht. Hat einen Cooldown von 20 Sekunden.",
+    "dark": "Erhöht das Klingenzähler-Limit um 1."
+  },
+  "s2": {
+    "name": "Dimensions-Zerstücklungbeil",
+    "description": "Fügt Feinden {0} K.Schaden zu und entfernt positive Statuseffekte. Getroffene Feinde nehmen {2} K.Schaden über {1} Sek und werden für 3 Sek zu Boden geworfen. Die Anzahl der Ziele ist gleich 1 + Anz. des Klingenzählers.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Reduziert Manakosten um 1.",
+    "dark": "Ziel erleidet 25% erhöhten K.Schaden für 10 Sek.",
+    "ut": {
+      "name": "Schwert des Flussschneidens",
+      "description": [
+        "[Dimensions-Zerstücklungbeil] Erhöht den Schaden für jeden getroffenen Feind für 8 Sekunden um 50% und den Krit. Schaden um 10%. Dieser Effekt kann 5-mal gestapelt werden.",
+        "[Dimensions-Zerstücklungbeil] Erhöht den Schaden für jeden getroffenen Feind für 8 Sekunden um 50% und den Krit. Schaden um 12%. Dieser Effekt kann 5-mal gestapelt werden.",
+        "[Dimensions-Zerstücklungbeil] Erhöht den Schaden für jeden getroffenen Feind für 8 Sekunden um 50% und den Krit. Schaden um 14%. Dieser Effekt kann 5-mal gestapelt werden.",
+        "[Dimensions-Zerstücklungbeil] Erhöht den Schaden für jeden getroffenen Feind für 8 Sekunden um 50% und den Krit. Schaden um 17%. Dieser Effekt kann 5-mal gestapelt werden.",
+        "[Dimensions-Zerstücklungbeil] Erhöht den Schaden für jeden getroffenen Feind für 8 Sekunden um 50% und den Krit. Schaden um 21%. Dieser Effekt kann 5-mal gestapelt werden.",
+        "[Dimensions-Zerstücklungbeil] Erhöht den Schaden für jeden getroffenen Feind für 8 Sekunden um 50% und den Krit. Schaden um 25%. Dieser Effekt kann 5-mal gestapelt werden."
+      ],
+      "story": "Ein legendäres Schwert, das Äonen überdauert hat. Ein legendäres Schwer, das mit dem Licht der Sonne und den schmelzenden Seelen der gequälten erschaffen wurde. Es ist einer der benötigen Gegenstände für das Dimensionsschwert, da es stabil genug ist, um Dimensionsreisen zu überstehen und sehr scharf geschliffen werden kann."
+    }
+  },
+  "s3": {
+    "name": "Klingen der Unendlichkeit",
+    "description": "Fügt Feinden an der Front {0} K.Schaden zu. Der letzte Angriff fügt einem Feind {1} K.Schaden zu und wirft ihn für 3 Sek zu Boden. Die Anzahl der Feinde, die vom letzten Angriff getroffen werden, ist gleich 1 + die Anz. des Klingenzählers.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Reduziert Cooldown um 5 Sek.",
+    "dark": "Bei 5 oder mehr Klingenzählern wird der Schaden um 70 % erhöht.",
+    "ut": {
+      "name": "Dimensionsstein",
+      "description": [
+        "[Klingen der Unendlichkeit] Reduziert Manakosten um 1 und erhöht Schaden um 20%.",
+        "[Klingen der Unendlichkeit] Reduziert Manakosten um 1 und erhöht Schaden um 24%.",
+        "[Klingen der Unendlichkeit] Reduziert Manakosten um 1 und erhöht Schaden um 29%.",
+        "[Klingen der Unendlichkeit] Reduziert Manakosten um 1 und erhöht Schaden um 35%.",
+        "[Klingen der Unendlichkeit] Reduziert Manakosten um 1 und erhöht Schaden um 42%.",
+        "[Klingen der Unendlichkeit] Reduziert Manakosten um 1 und erhöht Schaden um 50%."
+      ],
+      "story": "Ein Gegenstand, der von Magiern benötigt werden, die Dimensionen durchqueren. Der Dimensionsstein ist ein magischer Stein, der bei denen beliebt ist, die durch Dimensionen wandeln und er enthält unbegrenzte Energie. Die Macht, die man von ihm erhalten kann hängt allerdings von den Fähigkeiten des Nutzers ab. Nur hochrangige Magier können ihn effektiv einsetzen."
+    }
+  },
+  "s4": {
+    "name": "Verborgene Klinge",
+    "description": "Feuert mit jedem autom. Angriff eine zusätzliche Klinge und fügt Klingen-Zielen {0} K.Schaden zu. Die Anzahl der Ziele ist gleich 1 + Anz. des Klingenzählers.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Für jeden Feind auf dem Schlachtfeld wird der Schaden um 15% erhöht.",
+    "dark": "10% Chance, feindliche positive Effekte zu entfernen."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / Krit. Schaden +20%",
+    "dark": "10% Chance, bei normalen Angriffen 1 Klingen-Zähler hinzuzufügen. Jeder Klingen-Zähler erhöht Nyxs ANG um je 10%."
+  }
+}

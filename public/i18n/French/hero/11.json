@@ -1,0 +1,120 @@
+{
+  "name": "Maria",
+  "subtitle": "Sorcière Déchue",
+  "description": "La sainte qui a béni le héros qui sauva le monde autrefois. Ce corbeau maudit et tire des plumes tranchantes sur les ennemis et casse complètement leur formation.",
+  "story": "Bien qu'elle ait été une Sainte Guerrière de Lua, elle finit par sombrer dans la corruption. Désormais, cette sorcière cynique, qui commande aux corbeaux, se terre dans les ténèbres et maudit son ancienne déesse. À une époque, elle était amie avec Kyle et l'héroïne de son peuple. Cependant, lorsque Kyle disparut, elle fit de même. Elle finit par revenir, mais elle était devenue une sorcière déchue, menaçant l'humanité à l'avant-garde de l'Armée Démoniaque. Ces derniers temps, elle semble manigancer quelque chose pour son propre compte et pas celui des démons.",
+  "like": "Corrompre les croyants de Lua",
+  "dislike": "Lua et son Église",
+  "inn": {
+    "idle": "Qu'est-ce que c'est ça? Un jeunot?",
+    "recruit": {
+      "greet": "Ne saluez pas les Forces Obscures de façon si décontractée, gamin.",
+      "talk": [
+        "Ne vous inquiétez pas. Je reste juste pour la nuit. Ma chambre est à l'étage, vous pensez à monter? Hahaha...",
+        "Vous êtes tout à fait à mon goût. Dans le sens où je veux vous tailler en pièces, bien sûr...",
+        "Savez-vous ce que j'aimerais vraiment voir? Vous, suppiant sur les genoux pour le restant de votre vie."
+      ],
+      "gift": "Un cadeau pittoresque, adapté pour un gamin tel que vous."
+    },
+    "affinity": {
+      "greet": "De quoi avez-vous besoin ?",
+      "talk": [
+        "Vous n'avez pas encore l'air de tout maîtriser. Il vous reste du chemin à parcourir avant de pouvoir les affronter.",
+        "Vous ne savez pas... Bien, vous ne savez pas à quoi ressemble Lua, c'est mieux ainsi."
+      ],
+      "gift": "Ah ah... Très bien. Les corbeaux vont être ravis."
+    },
+    "relationship": {
+      "greet": "...Hmm, c'est vous. Je vois, vous n'êtes plus un simple novice.",
+      "talk": [
+        "Quand je vous regarde, je le revois dans sa jeunesse... hmm...",
+        "Je déteste Lua pour ce qu'elle a fait... Mais vous, vous êtes différent.",
+        "Vous êtes étrange, prendre une sorcière corrompue sous votre aile... C'est mignon..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Kokutos, Messager de Lea",
+    "description": [
+      "Lors d'un coup critique, inflige en continu des DEG M. équivalents à 300% de l'ATQ à l'ennemi pendant 10 sec. Réduit également son taux de récupération de 50%.",
+      "Lors d'un coup critique, inflige en continu des DEG M. équivalents à 375% de l'ATQ à l'ennemi pendant 10 sec. Réduit également son taux de récupération de 50%.",
+      "Lors d'un coup critique, inflige en continu des DEG M. équivalents à 450% de l'ATQ à l'ennemi pendant 10 sec. Réduit également son taux de récupération de 50%.",
+      "Lors d'un coup critique, inflige en continu des DEG M. équivalents à 525% de l'ATQ à l'ennemi pendant 10 sec. Réduit également son taux de récupération de 50%.",
+      "Lors d'un coup critique, inflige en continu des DEG M. équivalents à 625% de l'ATQ à l'ennemi pendant 10 sec. Réduit également son taux de récupération de 50%.",
+      "Lors d'un coup critique, inflige en continu des DEG M. équivalents à 750% de l'ATQ à l'ennemi pendant 10 sec. Réduit également son taux de récupération de 50%."
+    ],
+    "story": "Un corbeau mystérieux voyageant entre les dimensions. Son intelligence et sa sagacité ne sont pas celles d'un oiseau ordinaire. En réalité, c'est un monstre plein d'énergie ténébreuse, comme les démons. On dit d'ailleurs que cette bête est aussi puissante qu'un démon de haut rang. Certains disent qu'il survole parfois le champ de bataille en parlant des langues humaines. L'identité de cette créature reste nimbée de mystère."
+  },
+  "s1": {
+    "name": "Tempête du Corbeau",
+    "description": "Inflige {0} points de DEG M. aux ennemis à portée et les renverse. Réduit également la DEF M. de {2}% pendant {1} sec.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Réduit la vitesse d'ATQ ennemie de {0}%."
+    },
+    "light": "Les DEG sont augmentés de 40%.",
+    "dark": "A 20% de chances d'appliquer Entrave pendant de 3 sec."
+  },
+  "s2": {
+    "name": "Griffe de Restriction",
+    "description": "Inflige {0} points de DEG M. à 2 ennemis maximum et les entrave pendant {1} sec. Les ennemis ciblés reçoivent également des DEG M. additionnels en continue.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG M. subis par l'ennemi de {0}% pendant la durée de la compétence."
+    },
+    "light": "Le coût en Mana est augmenté de 1 et la compétence cible 3 ennemis.",
+    "dark": "La durée d'Entrave augmente de 1,5 sec.",
+    "ut": {
+      "name": "Sabaton d’esprit",
+      "description": [
+        "[Griffe de Restriction] Augmente les DEG de 50 % et augmente la Resist M. Faible de la cible de 10 % pendant 10 sec.",
+        "[Griffe de Restriction] Augmente les DEG de 50 % et augmente la Resist M. Faible de la cible de 12 % pendant 10 sec.",
+        "[Griffe de Restriction] Augmente les DEG de 50 % et augmente la Resist M. Faible de la cible de 14 % pendant 10 sec.",
+        "[Griffe de Restriction] Augmente les DEG de 50 % et augmente la Resist M. Faible de la cible de 17 % pendant 10 sec.",
+        "[Griffe de Restriction] Augmente les DEG de 50 % et augmente la Resist M. Faible de la cible de 21 % pendant 10 sec.",
+        "[Griffe de Restriction] Augmente les DEG de 50 % et augmente la Resist M. Faible de la cible de 25 % pendant 10 sec."
+      ],
+      "story": "Armure de griffes offerte par Maria au messager de Lea. Cette armure fabriquée en or raffiné renferme une malédiction d’entrave qui n’offre aucun répit à celui qui en est victime. Les ennemis touchés par ce sabaton de messager seront sans défense face aux attaques magiques et subiront de lourds dégâts."
+    }
+  },
+  "s3": {
+    "name": "Zone Ténébreuse",
+    "description": "Attire les ennemis qui sont à portée vers le milieu et leur inflige {0} points de DEG M. La dernière attaque applique un Étourdissement pendant 3 sec.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG de {0}%."
+    },
+    "light": "La cible subit 25% de DEG M. supplémentaires pendant 10 secondes.",
+    "dark": "Le coût en Mana est réduit de 1.",
+    "ut": {
+      "name": "Pendentif de l'ombre",
+      "description": [
+        "[Zone Ténébreuse] Les DEG sont augmentés de 20% et la dernière attaque réduit les DEF P. et M. de la cible de 30% pendant 7 sec.",
+        "[Zone Ténébreuse] Les DEG sont augmentés de 24% et la dernière attaque réduit les DEF P. et M. de la cible de 30% pendant 7 sec.",
+        "[Zone Ténébreuse] Les DEG sont augmentés de 29% et la dernière attaque réduit les DEF P. et M. de la cible de 30% pendant 7 sec.",
+        "[Zone Ténébreuse] Les DEG sont augmentés de 35% et la dernière attaque réduit les DEF P. et M. de la cible de 30% pendant 7 sec.",
+        "[Zone Ténébreuse] Les DEG sont augmentés de 42% et la dernière attaque réduit les DEF P. et M. de la cible de 30% pendant 7 sec.",
+        "[Zone Ténébreuse] Les DEG sont augmentés de 50% et la dernière attaque réduit les DEF P. et M. de la cible de 30% pendant 7 sec."
+      ],
+      "story": "Cendres d’un messager gris annonçant la fin de tout. Ce sont les cendres d’un corbeau ayant volé dans l’Église de Lua juste avant l’effondrement de la République de Gray il y a une centaine d’années de cela. Tout le monde ignora ce mauvais présage et seule la prêtresse Maria s’occupa de l’oiseau jusqu’à ses derniers jours. Même après sa mort, il a aidé Maria à développer ses connaissances des ténèbres en lui infusant de l’énergie sombre."
+    }
+  },
+  "s4": {
+    "name": "Vent Noir",
+    "description": "Réduit l'ATQ des ennemis touchés par Maria de {1} pendant {0} sec.",
+    "books": {
+      "0": "Le taux de réduction de l'ATQ est augmenté de {0}%.",
+      "1": "Le taux de réduction de l'ATQ est augmenté de {0}%.",
+      "2": "Réduit les Chances de Critique de l'ennemi de {0}% pendant la durée."
+    },
+    "light": "L'ATQ est réduite de 40% supplémentaires.",
+    "dark": "Réduit la Résistance aux DEG M. Critiques de 25% pendant 10 sec."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Chances Crit +100",
+    "dark": "Infliger un Crit réduit la résistance aux Contrôles de 250 pendant 10 sec et tous les Temps de Rechange, sauf la compétence en cours, sont réduits de 2%."
+  }
+}

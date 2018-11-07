@@ -1,0 +1,120 @@
+{
+  "name": "Kasel",
+  "subtitle": "Guerrero de la Espada Sagrada",
+  "description": "El Guerrero Escogido de la Espada Sagrada Aea, la espada que salvó al mundo una vez antes. El puede alejar a los enemigos y mejorar con el poder de esta espada sagrada",
+  "story": "Un escudero del Reino de Orvelia. Traumatizado por presenciar la muerte de sus padres a manos de los demonios que invadieron el pueblo, y después, el asesinato de su maestro de espada, ahora teme la idea de que alguien cercano muera. Su pasado le ha llevado a buscar a su hermano de sangre desde que era un niño en el orfanato, Clause, quien se unió a una expedición pero nunca más regreso.",
+  "like": "Comida de la naturaleza",
+  "dislike": "Fatalismo",
+  "inn": {
+    "idle": "Está bien descansar... incluso cuando lo necesitas............",
+    "recruit": {
+      "greet": "Ha pasado un tiempo. Cómo estás?",
+      "talk": [
+        "Espero que el mundo se pacifique pronto.",
+        "Esta espada... es pesada.",
+        "No creo en el destino."
+      ],
+      "gift": "Gracias. Esto ayudará a terminar la batalla rápidamente."
+    },
+    "affinity": {
+      "greet": "Te veo por aquí muy seguido. ¿Te diriges a la capital ahora?",
+      "talk": [
+        "¿Terminará todo esto una vez que encuentre el poder de la Espada Sagrada?",
+        "No quiero dejarme influenciar por nadie. Seguiré mi propio camino."
+      ],
+      "gift": "Un regalo para un hombre tan poco popular como yo... Gracias."
+    },
+    "relationship": {
+      "greet": "Siempre estoy agradecido por tu ayuda.",
+      "talk": [
+        "Sería una mentira decir que no es difícil, pero así es la vida, supongo.",
+        "Gracias por compartir mi carga. De Verdad.",
+        "No existe tal cosa como una vida perfecta. Bueno, sin embargo hay algunos momentos perfectos Jaja..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "La Espada Sagrada, Aea",
+    "description": [
+      "Cada ataque tiene un 35% de oportunidad de causar Daño Fis. Al enemigo (160% del ATQ)",
+      "Cada ataque tiene un 35% de oportunidad de causar Daño Fis. Al enemigo (192% del ATQ)",
+      "Cada ataque tiene un 35% de oportunidad de causar Daño Fis. Al enemigo (230% del ATQ)",
+      "Cada ataque tiene un 35% de oportunidad de causar Daño Fis. Al enemigo (276% del ATQ)",
+      "Cada ataque tiene un 35% de oportunidad de causar Daño Fis. Al enemigo (331% del ATQ)",
+      "Cada ataque tiene un 35% de oportunidad de causar Daño Fis. Al enemigo (400% del ATQ)"
+    ],
+    "story": "Una legendaria sagrada espada otorgada al mundo por Lua. Este artefacto legendario materializado hace 100 años cuando los demonios invadieron el Continente Orbis a través de la Puerta dimensional. De acuerdo con la leyenda, el héroe rey Kyle utilizó su espada para atravesar el corazón del señor obscuro Angmund y acabar con la guerra. Sin embargo, los dos simplemente desaparecieron y solo quedó Aea."
+  },
+  "s1": {
+    "name": "Cuchilla del Juicio",
+    "description": "Causa {0} de Daño físico 2 veces a los enemigos frontales en un círculo y los derriba durante {1}  segundo(s).",
+    "books": {
+      "0": "Aumento el Daño en {0}%.",
+      "1": "Aumento el Daño en {0}%.",
+      "2": "Aumento el Daño en {0}%."
+    },
+    "light": "El costo de Mana se reduce en 1",
+    "dark": "Ignora DEF cuando sólo hay un enemigo."
+  },
+  "s2": {
+    "name": "Valiente Dash",
+    "description": "Ataca al objetivo 3 veces y embiste contra ellos desde atrás para infligir {0} de Daño físico.",
+    "books": {
+      "0": "Aumento el Daño en {0}%.",
+      "1": "Aumento el Daño en {0}%.",
+      "2": "la Oportunidad Crit. Aumenta en {0}."
+    },
+    "light": "El costo de Mana se reduce en 1",
+    "dark": "El objetivo recibe un 25% de Daño Fis aumentado",
+    "ut": {
+      "name": "Guantelete del emperador",
+      "description": [
+        "[Arremetida valiente] Aumenta el Daño en un 20 % y reduce el Tiempo de reutilización en un 10 % con un Golpe crítico.",
+        "[Arremetida valiente] Aumenta el Daño en un 24 % y reduce el Tiempo de reutilización en un 10 % con un Golpe crítico.",
+        "[Arremetida valiente] Aumenta el Daño en un 29 % y reduce el Tiempo de reutilización en un 10 % con un Golpe crítico.",
+        "[Arremetida valiente] Aumenta el Daño en un 35 % y reduce el Tiempo de reutilización en un 10 % con un Golpe crítico.",
+        "[Arremetida valiente] Aumenta el Daño en un 42 % y reduce el Tiempo de reutilización en un 10 % con un Golpe crítico.",
+        "[Arremetida valiente] Aumenta el Daño en un 50 % y reduce el Tiempo de reutilización en un 10 % con un Golpe crítico."
+      ],
+      "story": "Guantelete imbuido con la bendición de Lua, la diosa de la luz. Guantelete transferido a los reyes del Continente Orbis. Contiene el valor de la diosa que te permite usar el Valiente Dash hacia los enemigos sin ningún miedo."
+    }
+  },
+  "s3": {
+    "name": "Agente de Dios",
+    "description": "Causa {0} Daño Fis. a los enemigos cercanos y los aturde durante 3 segundos. Además, por {1}  seg, el ATQ se incrementa en {2} y la Tasa de Evasión se incrementa en {3} , mientras obtienes inmunidad al Ctrl de Masas. Este estado no se puede disipar.",
+    "books": {
+      "0": "aumenta la tasa de Ataque en {0}%.",
+      "1": "aumenta la tasa de Ataque en {0}%.",
+      "2": "la velocidad Aumenta en {0} de duracion"
+    },
+    "light": "El costo de Mana se reduce en 1",
+    "dark": "El aumento de ATQ se incrementa en un 40%.",
+    "ut": {
+      "name": "Runa de apoderado",
+      "description": [
+        "[Mensajero de Dios] La Tasa de Evasión aumenta en 250, y la Veloc. de ATQ en 100 al activarse la habilidad",
+        "[Mensajero de Dios] La Tasa de Evasión aumenta en 250, y la Veloc. de ATQ en 120 al activarse la habilidad",
+        "[Mensajero de Dios] La Tasa de Evasión aumenta en 250, y la Veloc. de ATQ en 140 al activarse la habilidad",
+        "[Mensajero de Dios] La Tasa de Evasión aumenta en 250, y la Veloc. de ATQ en 170 al activarse la habilidad",
+        "[Mensajero de Dios] La Tasa de Evasión aumenta en 250, y la Veloc. de ATQ en 210 al activarse la habilidad",
+        "[Mensajero de Dios] La Tasa de Evasión aumenta en 250, y la Veloc. de ATQ en 250 al activarse la habilidad"
+      ],
+      "story": "Una runa que prueba que una es un agente de Lua, la diosa de la luz. La runa de apoderado es un artefacto de la Iglesia de Lua, y se le entrega al caballero que empuña a Aea, la espada de la luz. La runa de apoderado aleja a los enemigos con el poder de la luz y aumenta el ATQ y la moral."
+    }
+  },
+  "s4": {
+    "name": "Golpe de Diosa",
+    "description": "Al esquivar,causa {0} Daño Mágico a los enemigos frontales y reduce su precisión en {1} durante 5 segundos. Después de eliminar el objetivo, obtén 300 de maná.",
+    "books": {
+      "0": "Aumento el Daño en {0}%.",
+      "1": "Aumento el Daño en {0}%.",
+      "2": "la Oportunidad Crit. Aumenta en {0}."
+    },
+    "light": "La tasa de reducción de Precisión ha cambiado a 250",
+    "dark": "El lanzamiento se refuerza y ​​el Tiempo de reutilización se reduce en 1 segundo."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Evasion Fis +100",
+    "dark": "Al atacar, hazlo en un tiempo extra causando el 40% de ATQ como Daño."
+  }
+}

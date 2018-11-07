@@ -1,0 +1,120 @@
+{
+  "name": "Cleo",
+  "subtitle": "Nữ phù thủy chuộc tội",
+  "description": "Một nữ phù thủy đến từ Tháp Đỏ, cô gái dũng cảm này sử dụng phép thuật lửa thực sự mạnh để thiêu cháy nhiều kẻ thù, và sau đó gây ra sát thương lớn hơn bằng cách làm cho than hồng phát nổ.",
+  "story": "Ký ức đầu tiên mà Cleo có được là ở Tháp hiền triết. Được Triết gia vĩ đại Dominiks nuôi lớn từ khi còn là một đứa trẻ mồ côi, nàng vừa là phù thủy thiên tài vừa là kẻ chuyên gây rối. Vì không thể kiểm soát sức mạnh của chính mình, nàng thường gặp phải rắc rối, trong đó có việc phá hủy một phần Tháp đỏ, nơi ở của chính nàng. Bất chấp điều đó, vì rõ ràng luôn miễn dịch trước cơn thịnh nộ của Triết gia vĩ đại mà nàng bị bạn bè tẩy chay. Mặc dù điều này khiến nàng trở nên ích kỷ và vô tâm nhưng sâu bên trong, nàng vẫn là một cô gái tốt bụng lo sợ bị những người khác bỏ rơi.",
+  "like": "Lửa trại, gối (?)",
+  "dislike": "Máy móc",
+  "inn": {
+    "idle": "A~ chán quá. Ước gì có trang bị phép thuật nào đó.",
+    "recruit": {
+      "greet": "Chào? Tên tôi là Cleo. Tôi là một đại phù thủy.",
+      "talk": [
+        "Có muốn ăn thịt không? Tôi nướng cho nhé?",
+        "Bạn tò mò về phép thuật của lửa? Hehe, tôi cũng muốn dạy cho lắm nhưng không phải ai cũng có thể học được.",
+        "Tại sao lại gọi tôi là phù thủy luyện ngục nhỉ? Thật là không hài lòng chút nào. Tôi là một đại phù thủy."
+      ],
+      "gift": "Tôi thích bạn."
+    },
+    "affinity": {
+      "greet": "Ngươi đến muộn rồi! Sao ngươi dám để một Phù thủy phải chờ cơ chứ!?",
+      "talk": [
+        "Giữa Frey và Roi, ta thích ai hơn ư? Hỏi gì mà vô nghĩa quá vậy? Đương nhiên là Frey rồi!",
+        "Chẳng biết mẹ ta đang ở chốn nào... Chừng nào còn sống thì ta vẫn còn cơ hội gặp bà, đúng chứ?"
+      ],
+      "gift": "Ồ! Ta thấy nó hợp với Phù thủy đó! Cảm ơn nhé!"
+    },
+    "relationship": {
+      "greet": "Hô hô, ngươi đến diện kiến đại phù thủy này đấy à.",
+      "talk": [
+        "Với tôi, Frey còn hơn cả một cái gối nữa!",
+        "Đừng quên. Nhờ có tôi mà mọi người có thể di chuyển nhanh được.",
+        "Bạn sẽ đi cùng tôi chứ?"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Flenos, Ngọn lửa nguyên thủy",
+    "description": [
+      "Mỗi 4 giây Mồi Lửa phát nổ giây sát thương phép thuật tương đương 80% lực tấn công lên đối thủ xung quanh.",
+      "Mỗi 4 giây Mồi Lửa phát nổ giây sát thương phép thuật tương đương 96% lực tấn công lên đối thủ xung quanh.",
+      "Mỗi 4 giây Mồi Lửa phát nổ giây sát thương phép thuật tương đương 114% lực tấn công lên đối thủ xung quanh.",
+      "Mỗi 4 giây Mồi Lửa phát nổ giây sát thương phép thuật tương đương 138% lực tấn công lên đối thủ xung quanh.",
+      "Mỗi 4 giây Mồi Lửa phát nổ giây sát thương phép thuật tương đương 166% lực tấn công lên đối thủ xung quanh.",
+      "Mỗi 4 giây Mồi Lửa phát nổ giây sát thương phép thuật tương đương 200% lực tấn công lên đối thủ xung quanh."
+    ],
+    "story": "Bản chất Ngọn lửa đầu tiên trên thế giới. Chúa lửa đã trao viên ngọc tuyệt đẹp này cho một người giao kèo với mình. Qua nhiều thời đại, viên ngọc này rơi vào tay một pháp sư, người đã đưa viên ngọc vào nhân trong cây quyền trượng của mình. Sau này, pháp sư đã cho các học trò yêu quý của mình xem cây quyền trượng này."
+  },
+  "s1": {
+    "name": "Kim lửa",
+    "description": "Tấn công một kẻ địch ngẫu nhiên 5 lần, gây tổng cộng {0} sát thương phép thuật và đặt một lần cộng dồn Mồi lửa lên kẻ địch trúng đòn.",
+    "books": {
+      "0": "Tăng {0}% sát thương.",
+      "1": "Tăng {0}% sát thương.",
+      "2": "Tăng {0}% sát thương."
+    },
+    "light": "Lượng sát thương tăng 40%.",
+    "dark": "Cộng dồn thêm 2 đốm lửa."
+  },
+  "s2": {
+    "name": "Cầu lửa",
+    "description": "Tấn công mục tiêu và kẻ địch gần đó, gây {0} sát thương phép thuật và làm choáng chúng trong 2 giây. Gây thêm {2} sát thương phép thuật cho mỗi lần cộng dồn Mồi lửa lên kẻ địch.",
+    "books": {
+      "0": "Tăng {0}% sát thương.",
+      "1": "Tăng {0}% sát thương.",
+      "2": "Tăng {0}% xác suất chí mạng."
+    },
+    "light": "Lượng sát thương tăng 40%.",
+    "dark": "Tăng 1 lượng tiêu thị mana, tấn công 2 lần đối thủ tùy ý.",
+    "ut": {
+      "name": "Thần dược của Flamel",
+      "description": [
+        "[Cầu lửa] Tăng 20% Sát thương và để lại 5 lần cộng dồn Mồi lửa trên kẻ địch bị ảnh hưởng.",
+        "[Cầu lửa] Tăng 24% Sát thương và để lại 5 lần cộng dồn Mồi lửa trên kẻ địch bị ảnh hưởng.",
+        "[Cầu lửa] Tăng 29% Sát thương và để lại 5 lần cộng dồn Mồi lửa trên kẻ địch bị ảnh hưởng.",
+        "[Cầu lửa] Tăng 35% Sát thương và để lại 5 lần cộng dồn Mồi lửa trên kẻ địch bị ảnh hưởng.",
+        "[Cầu lửa] Tăng 42% Sát thương và để lại 5 lần cộng dồn Mồi lửa trên kẻ địch bị ảnh hưởng.",
+        "[Cầu lửa] Tăng 50% Sát thương và để lại 5 lần cộng dồn Mồi lửa trên kẻ địch bị ảnh hưởng."
+      ],
+      "story": "Một loại thần dược mà nhà giả kim lửa Flamel tạo ra bằng cách cô đọng tinh chất lửa. Những ngọn lửa của Flamel cháy mãi. Phù thủy nào cũng tán dương ông khi thấy những ngọn lửa này. Tinh chất lửa mà ông tạo ra từ giống rồng lửa ở Núi lửa Dragia tăng tối đa hiệu ứng của Cầu lửa."
+    }
+  },
+  "s3": {
+    "name": "Mưa lửa",
+    "description": "Tấn công tất cả kẻ địch 8 lần, gây tổng cộng {0} sát thương phép thuật và đặt một lần cộng dồn Mồi lửa lên chúng. Gây thêm {1} sát thương phép thuật cho mỗi lần cộng dồn Mồi lửa lên kẻ địch.",
+    "books": {
+      "0": "Tăng {0}% sát thương.",
+      "1": "Tăng {0}% sát thương.",
+      "2": "Tăng {0}% sát thương."
+    },
+    "light": "Thời gian đợi dùng chiêu lại giảm 3 giây.",
+    "dark": "Kẻ địch bị dính trên 5 đốm lửa sẽ bị ngất xỉu trong 1 giây.",
+    "ut": {
+      "name": "Sách phép chuộc tội",
+      "description": [
+        "Lượng sát thương [Mưa lửa] tăng 20%, nếu ra đòn chí mạng lên đối tượng có trên 5 cộng dồn Thiêu đốt, thời gian đợi hồi chiêu giảm 3%.",
+        "Lượng sát thương [Mưa lửa] tăng 24%, nếu ra đòn chí mạng lên đối tượng có trên 5 cộng dồn Thiêu đốt, thời gian đợi hồi chiêu giảm 3%.",
+        "Lượng sát thương [Mưa lửa] tăng 29%, nếu ra đòn chí mạng lên đối tượng có trên 5 cộng dồn Thiêu đốt, thời gian đợi hồi chiêu giảm 3%.",
+        "Lượng sát thương [Mưa lửa] tăng 35%, nếu ra đòn chí mạng lên đối tượng có trên 5 cộng dồn Thiêu đốt, thời gian đợi hồi chiêu giảm 3%.",
+        "Lượng sát thương [Mưa lửa] tăng 42%, nếu ra đòn chí mạng lên đối tượng có trên 5 cộng dồn Thiêu đốt, thời gian đợi hồi chiêu giảm 3%.",
+        "Lượng sát thương [Mưa lửa] tăng 50%, nếu ra đòn chí mạng lên đối tượng có trên 5 cộng dồn Thiêu đốt, thời gian đợi hồi chiêu giảm 3%."
+      ],
+      "story": "Một cuộn giấy do nữ phù thủy lửa viết, được gọi là Nữ thần lửa. Một cuộn giấy của Vesta, Nữ phù thủy lửa vĩ đại của Orvelia để lại khi ở trong Tháp hiền triết. Nó có uy lực mạnh nhưng cũng tốn nhiều mana. Cleo lấy Cuộn giấy hỏa ngục, được xem là tài liệu cấm, ra khỏi Tháp hiền triết. Giờ đây, cô ấy dùng nó để cường hóa chiêu Mưa lửa."
+    }
+  },
+  "s4": {
+    "name": "Khuếch tán lửa",
+    "description": "Đòn tấn công thường có 20% cơ hội tấn công 3 kẻ địch ngẫu nhiên, gây {0} sát thương phép thuật lên mục tiêu và kẻ địch gần đó, đồng thời đặt 1 lần cộng dồn Mồi lửa. Mồi lửa gây tổng cộng {1} sát thương phép thuật trong 20 giây và làm giảm 5% phòng thủ phép thuật cũng như cộng dồn tối đa 5 lần.",
+    "books": {
+      "0": "Tăng {0}% sát thương.",
+      "1": "Tăng {0}% sát thương.",
+      "2": "Khi ra đòn chí mạng cộng đồn mỗi 2 lần mồi lửa."
+    },
+    "light": "Số lượng cộng dồn đốm lửa tối đa thay đổi thành 6.",
+    "dark": "Xác suất kích hoạt đổi thành 30%."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / Crit Chance +100",
+    "dark": "Tăng 200% lượng sát thương của Đốm lửa."
+  }
+}

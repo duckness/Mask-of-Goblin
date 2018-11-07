@@ -1,0 +1,120 @@
+{
+  "name": "Crow",
+  "subtitle": "La bala del castigo",
+  "description": "Solía ser un oficial de la marina, pero ahora se dedica a cazar recompensas y a resolver problemas. Es un cínico que no confía en las personas con facilidad. Sus armas se clasifican en tres tipos.",
+  "story": "Alias: Hound. Un cazarrecompensas conocido como el sabueso del infierno. Se dice que nadie logra escapar de este oficial de la Marina imperial una vez que los convierte en su blanco. El único consuelo para los criminales es que las recompensas no son la única motivación de este hombre. Si bien existen muchas teorías, la más convincente sugiere que está buscando venganza. Dicen que, en algunos momentos, este hombre sin corazón parecería demostrar emociones. Es cuando toma un antiguo dije que nadie ha visto realmente.",
+  "like": "Bastones de caramelo, un dije que conserva un recuerdo, la molestia olvidada de un ser querido",
+  "dislike": "Piratas, dioses que le han quitado todo. Y ahora, el tabaco",
+  "inn": {
+    "idle": "No te metas en mi camino.",
+    "recruit": {
+      "greet": "Qué asuntos tienes conmigo?",
+      "talk": [
+        "Tomaré solo 1 trabajo. Piensa cuidadosamente antes de hablar.",
+        "Es difícil encontrar municiones por aquí...",
+        "Esto no es un cigarrillo, es simplemente un dulce."
+      ],
+      "gift": "Hmm, con este dinero, puedo comprar un cigarrillo nuevo... no, mejor buscaré más dulces."
+    },
+    "affinity": {
+      "greet": "¿Para qué me llamaste? Solo dime qué necesitas.",
+      "talk": [
+        "Era un verdadero dolor de cabeza, aun cuando lo tenía bajo mis órdenes. Pero creo que no sería capaz de hacer algo así. Es por eso que acepté la oferta.",
+        "Obviamente, los demás no podían lidiar con su locura. Por eso me hice cargo."
+      ],
+      "gift": "Quiero dulces."
+    },
+    "relationship": {
+      "greet": "Qué asunto... ah, eres tú.",
+      "talk": [
+        "Orvelia es un buen lugar. Incluso el aire es diferente al del Imperio.",
+        "Pensé que, como parte de la Armada, estaría en el mar toda mi vida. Sin embargo, salir al mar fue la peor decisión de mi vida",
+        "Tenía dos personas que me importaban bastante. No puedo verlos más... pero sí, jaja... ambos odiaban el humo del cigarrillo."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Sabueso infernal, Akistra",
+    "description": [
+      "El ataque normal dispara una bala adicional que causa 50% de ATQ como Daño físico. Al finalizar la habilidad, se activa 'Sabueso infernal, Akistra', lo que aumenta el ATQ en un 30% y el Daño crítico en un 30% durante 20 segundos. 'Sabueso infernal, Akistra' solo se activa una vez a los 20 segundos.",
+      "El ataque normal dispara una bala adicional que causa 60% de ATQ como Daño físico. Al finalizar la habilidad, se activa 'Sabueso infernal, Akistra', lo que aumenta el ATQ en un 36% y el Daño crítico en un 36% durante 20 segundos. 'Sabueso infernal, Akistra' solo se activa una vez a los 20 segundos.",
+      "El ataque normal dispara una bala adicional que causa 70% de ATQ como Daño físico. Al finalizar la habilidad, se activa 'Sabueso infernal, Akistra', lo que aumenta el ATQ en un 43% y el Daño crítico en un 43% durante 20 segundos. 'Sabueso infernal, Akistra' solo se activa una vez a los 20 segundos.",
+      "El ataque normal dispara una bala adicional que causa 85% de ATQ como Daño físico. Al finalizar la habilidad, se activa 'Sabueso infernal, Akistra', lo que aumenta el ATQ en un 52% y el Daño crítico en un 52% durante 20 segundos. 'Sabueso infernal, Akistra' solo se activa una vez a los 20 segundos.",
+      "El ataque normal dispara una bala adicional que causa 100% de ATQ como Daño físico. Al finalizar la habilidad, se activa 'Sabueso infernal, Akistra', lo que aumenta el ATQ en un 62% y el Daño crítico en un 62% durante 20 segundos. 'Sabueso infernal, Akistra' solo se activa una vez a los 20 segundos.",
+      "El ataque normal dispara una bala adicional que causa 125% de ATQ como Daño físico. Al finalizar la habilidad, se activa 'Sabueso infernal, Akistra', lo que aumenta el ATQ en un 75% y el Daño crítico en un 75% durante 20 segundos. 'Sabueso infernal, Akistra' solo se activa una vez a los 20 segundos."
+    ],
+    "story": "Es, sin dudas, la cumbre de la tecnología más avanzada de la tecnomagia imperial. Puede transformarse en tres modos, el último de los cuales utiliza magia tan devastadora que debe limitarse su uso. Según Valance, a cargo de la organización que desarrolla armas imperiales, Magos Le’Flamme, quien robó la nueva arma, Archistra, inmediatamente después de su desarrollo fue Crow, un exoficial naval que fue dado de baja por conducta deshonrosa. Resta confirmar si Crow realmente logró infiltrarse en una de las organizaciones más importantes del imperio para robar Archistra. También es posible que Valance simplemente se la haya entregado, considerando su larga amistad."
+  },
+  "s1": {
+    "name": "El Enemigo será eliminado",
+    "description": "Inflige un total de {0} de Daño físico a los enemigos en el frente durante 15 veces y deja 2 Marcas del colmillo del Perro de caza durante 40 segundos. Este efecto se puede acumular hasta 100 veces.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Por cada Daño causado, recupera 30 de Maná.",
+    "dark": "Obtiene inmunidad al Ctrl de Masas al utilizarlo"
+  },
+  "s2": {
+    "name": "Luchar no tiene Sentido.",
+    "description": "Causa {0} de Daño físico atacando a un enemigo temporal 10 veces y dispara una Bala de Escarcha que causa {1} de Daño físico al objetivo y los enemigos alrededor, y los congela durante 4 segundos. La Bala de Escarcha especial crea un área de congelamiento durante 6 segundos que causa {2} de Daño físico cada 2 segundos, con un 50% de probabilidades de congelar durante 2 segundos.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "El tiempo de reutilización se reduce en 3 segundos.",
+    "dark": "Las probabilidades de congelamiento en el Área de Congelamiento aumentan en un 30%.",
+    "ut": {
+      "name": "Barranco frío",
+      "description": [
+        "[Luchar no tiene sentido] Reduce el Costo de Mana en 1 y tiene un 10 % de posibilidades de congelar el objetivo durante 3 segundos al momento de cada golpe.",
+        "[Luchar no tiene sentido] Reduce el Costo de Mana en 1 y tiene un 12 % de posibilidades de congelar el objetivo durante 3 segundos al momento de cada golpe.",
+        "[Luchar no tiene sentido] Reduce el Costo de Mana en 1 y tiene un 14 % de posibilidades de congelar el objetivo durante 3 segundos al momento de cada golpe.",
+        "[Luchar no tiene sentido] Reduce el Costo de Mana en 1 y tiene un 17 % de posibilidades de congelar el objetivo durante 3 segundos al momento de cada golpe.",
+        "[Luchar no tiene sentido] Reduce el Costo de Mana en 1 y tiene un 21 % de posibilidades de congelar el objetivo durante 3 segundos al momento de cada golpe.",
+        "[Luchar no tiene sentido] Reduce el Costo de Mana en 1 y tiene un 25 % de posibilidades de congelar el objetivo durante 3 segundos al momento de cada golpe."
+      ],
+      "story": "Magos Le’Flamme, la organización imperial de desarrollo de armas, tuvo éxito para optimizar el misil terrestre de escalofríos. Intentaron equiparlo en la nueva arma Akistra para probarlo. Sin embargo, Crow robó a Akistra, así que el misil que se equipó también fue robado. Este misil contiene un escalofrío potente, y es suficiente para congelar la tierra circundante."
+    }
+  },
+  "s3": {
+    "name": "Incluso los Dioses Morirán.",
+    "description": "Se coloca en posición y enfoca para disparar un láser, causando {0} Daño Fís. a los enemigos frontales al alcance, y consume la pila de Marca de Colmillos de Perro de Caza causando {1} Daño Fís. adicional por cada pila. Dependiendo del tiempo de enfoque, el rango del efecto aumenta, y el Daño aumenta hasta un máximo de {2}%. Una vez que se completa el enfoque, derriba al enemigo lejos.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Aumenta el tiempo de reutilización en 10 segundos y el Daño en un 100%.",
+    "dark": "Reduce el costo de Mana en 1.",
+    "ut": {
+      "name": "Dije de recuerdos",
+      "description": [
+        "[Incluso los Dioses Morirán] Obtiene inmunidad al Ctrl de Masas al activarse la habilidad y el Daño aumenta en un 20%.",
+        "[Incluso los Dioses Morirán] Obtiene inmunidad al Ctrl de Masas al activarse la habilidad y el Daño aumenta en un 24%.",
+        "[Incluso los Dioses Morirán] Obtiene inmunidad al Ctrl de Masas al activarse la habilidad y el Daño aumenta en un 29%.",
+        "[Incluso los Dioses Morirán] Obtiene inmunidad al Ctrl de Masas al activarse la habilidad y el Daño aumenta en un 35%.",
+        "[Incluso los Dioses Morirán] Obtiene inmunidad al Ctrl de Masas al activarse la habilidad y el Daño aumenta en un 42%.",
+        "[Incluso los Dioses Morirán] Obtiene inmunidad al Ctrl de Masas al activarse la habilidad y el Daño aumenta en un 50%."
+      ],
+      "story": "Un precioso dije con una foto de la esposa y la hija ya fallecidas de Crow. Suele mirar la foto bastante a menudo mientras come un caramelo. En esos momentos, se lo puede ver con una profunda tristeza, pero su rostro también denota tranquilidad. Es un dije que valora más que a su propia vida, así que asegúrate de ni siquiera tocarlo. Aun si eres un dios, lo pagarás con tu vida."
+    }
+  },
+  "s4": {
+    "name": "Preparación de Caza",
+    "description": "A Crow no le afectan los cambios en la velocidad de ATQ. El ATQ aumenta en {0} y el Daño crítico en un {1}%. Recupera {2} de PM cada segundo. También aplica la Marca del Colmillo del Perro de Caza al objetivo durante 40 segundos cuando se realiza un ataque normal.",
+    "books": {
+      "0": "La tasa de ATQ aumenta en {0}%.",
+      "1": "La tasa de ATQ aumenta en {0}%.",
+      "2": "La tasa de ATQ aumenta en {0}%."
+    },
+    "light": "El Jefe Monstruo reciben un 15% de Daño aumentado",
+    "dark": "La recuperación de Mana aumenta en un 40%."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Daño Crit+20%",
+    "dark": "Aumenta el Costo de Mana en 1 para todas las habilidades y el Daño en un 75%."
+  }
+}

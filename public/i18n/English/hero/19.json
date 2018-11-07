@@ -1,0 +1,120 @@
+{
+  "name": "Pavel",
+  "subtitle": "Wizard of Ice Dragon",
+  "description": "A wizard capable of using the Ice Dragon's magic powers after being cursed. He uses powerful icebound magic to freeze enemies.",
+  "story": "A curious case of a human wizard possessed by the soul of an ice dragon. Having fought alongside Kyle 100 years ago, this ancient ice wizard has actually existed far before even then. The dragon's soul is usually asleep, but wakes up occasionally to speak to him in the voice of a lover. The empire considers him a key figure, and has dispatched Rodina to monitor and protect him. He himself, however, only wishes to live in peace and quiet, away from the concerns of the world.",
+  "like": "Peace, silence, reading",
+  "dislike": "Hot weather, loud things",
+  "inn": {
+    "idle": "...So many people.",
+    "recruit": {
+      "greet": "...Do you need something?",
+      "talk": [
+        "So loud...",
+        "...I need to cool my head a bit.",
+        "What would Master have done..."
+      ],
+      "gift": "..I accept."
+    },
+    "affinity": {
+      "greet": "Why is this place so warm...?",
+      "talk": [
+        "Be quiet... Let me rest now...",
+        "I can't feel any coldness from you..."
+      ],
+      "gift": "....Thank you."
+    },
+    "relationship": {
+      "greet": "...You look well.",
+      "talk": [
+        "I was originally human...so I can understand.",
+        "Are you curious about dragons...?",
+        "Her soul whispers to me...she is curious about you..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Dragon Hearts, Andarta Andraste",
+    "description": [
+      "Every 15 sec, deals 160% of ATK as M.DMG to 2 random enemies and inflicts Frost. Enemies already inflicted with Frost will become inflicted with Freeze for 5 sec.",
+      "Every 14 sec, deals 192% of ATK as M.DMG to 2 random enemies and inflicts Frost. Enemies already inflicted with Frost will become inflicted with Freeze for 5 sec.",
+      "Every 12.5 sec, deals 228% of ATK as M.DMG to 2 random enemies and inflicts Frost. Enemies already inflicted with Frost will become inflicted with Freeze for 5 sec.",
+      "Every 11 sec, deals 276% of ATK as M.DMG to 2 random enemies and inflicts Frost. Enemies already inflicted with Frost will become inflicted with Freeze for 5 sec.",
+      "Every 9.5 sec, deals 332% of ATK as M.DMG to 2 random enemies and inflicts Frost. Enemies already inflicted with Frost will become inflicted with Freeze for 5 sec.",
+      "Every 8 sec, deals 400% of ATK as M.DMG to 2 random enemies and inflicts Frost. Enemies already inflicted with Frost will become inflicted with Freeze for 5 sec."
+    ],
+    "story": "Andarta and Andraste were two dragons who were defeated by the Demons during the war. They were a pair connected at the soul. They were lovers who understood each other better than anyone. Even as they lay dying, they refused to stay apart, and made one final request to Pavel, their comrade. Pavel granted their final wish by transferring their souls into their hearts, and then turning them into a pair of gems. Even though the two have lost their bodies, they remain together, and as inseparable as ever."
+  },
+  "s1": {
+    "name": "Wedge of Cold Snap",
+    "description": "Deal {0} M.DMG to the targeted enemy and inflict Freeze for {1} sec. If any enemies are inflicted with Frost, deal DMG and inflict Freeze to them as well.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "DMG is increased by 40%.",
+    "dark": "In exchange for 1 additional Mana Cost, Freeze duration is boosted by 5 sec."
+  },
+  "s2": {
+    "name": "Ice Spear",
+    "description": "Attacks random enemies 5 times, dealing {0} M.DMG and inflicting Frost. When attacking enemies inflicted with Frost, creates an additional spear that deals extra half DMG. Additional spears do not inflict Frost. Enemies inflicted with Freeze take 50% increased DMG.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Mana cost is reduced by 1.",
+    "dark": "Target changes to the enemy with the highest ATK.",
+    "ut": {
+      "name": "Frozen Brooch",
+      "description": [
+        "[Ice Spear] Reduces Cooldown by 8% and has a 40% chance to freeze the enemy for 1 sec upon damaging the enemy in Frost state. This effect is not applied to additionally created spears.",
+        "[Ice Spear] Reduces Cooldown by 8% and has a 48% chance to freeze the enemy for 1 sec upon damaging the enemy in Frost state. This effect is not applied to additionally created spears.",
+        "[Ice Spear] Reduces Cooldown by 8% and has a 58% chance to freeze the enemy for 1 sec upon damaging the enemy in Frost state. This effect is not applied to additionally created spears.",
+        "[Ice Spear] Reduces Cooldown by 8% and has a 70% chance to freeze the enemy for 1 sec upon damaging the enemy in Frost state. This effect is not applied to additionally created spears.",
+        "[Ice Spear] Reduces Cooldown by 8% and has a 84% chance to freeze the enemy for 1 sec upon damaging the enemy in Frost state. This effect is not applied to additionally created spears.",
+        "[Ice Spear] Reduces Cooldown by 8% and has a 100% chance to freeze the enemy for 1 sec upon damaging the enemy in Frost state. This effect is not applied to additionally created spears."
+      ],
+      "story": "The dragon of ice gifted this brooch to a young Pavel, and imbued it with its breath. But after the dragon of ice and Pavel became one, it reminds Pavel to not leave him. It can inflict pain that pierces the heart. Imbues a chill to Pavel's mana, making his magic even sharper."
+    }
+  },
+  "s3": {
+    "name": "Icy Conquest",
+    "description": "Deals {0} M.DMG to all enemies. Enemies inflicted with Frost becomes inflicted with Freeze for {1} sec. Enemies inflicted with Freeze take {2}% increased DMG.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Mana cost is reduced by 1.",
+    "dark": "Gain CC immunity while using said skill.",
+    "ut": {
+      "name": "Glacial Heart",
+      "description": [
+        "[Icy Conquest] DMG is increased by 50% and Freeze duration is increased by 1 sec.",
+        "[Icy Conquest] DMG is increased by 50% and Freeze duration is increased by 1.2 sec.",
+        "[Icy Conquest] DMG is increased by 50% and Freeze duration is increased by 1.4 sec.",
+        "[Icy Conquest] DMG is increased by 50% and Freeze duration is increased by 1.7 sec.",
+        "[Icy Conquest] DMG is increased by 50% and Freeze duration is increased by 2.1 sec.",
+        "[Icy Conquest] DMG is increased by 50% and Freeze duration is increased by 2.5 sec."
+      ],
+      "story": "Frozen blood of the winter spirit. Pavel found it deep inside the Ice Cave and made it into earrings. A harsh chill and severe pain can be felt from it, but it increases Pavel's mana to its limit."
+    }
+  },
+  "s4": {
+    "name": "Chill of Early Dawn",
+    "description": "Deals {1} M.DMG to 3 enemies every {0} sec and inflicts Frost on them to reduce their ATK Spd by 100 for 8 sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Target's CC resistance is reduced by 250 for 10 sec.",
+    "dark": "Frost cannot be dispelled by dispel skills."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / Crit DMG +20%",
+    "dark": "Every 3 sec, attacks all enemies and deals 50% of ATK as M.DMG, inflicting Frost with 50% chance. Enemies already inflicted with Frost takes 300% of ATK as M.DMG over time for 3 sec."
+  }
+}

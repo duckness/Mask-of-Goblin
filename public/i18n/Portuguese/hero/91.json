@@ -1,0 +1,120 @@
+{
+  "name": "Gladi",
+  "subtitle": "Fera da Arena",
+  "description": "O homem que conquistou a Arena de Orvel. O povo temia suas proezas em batalha e começou a chamá-lo de Fera da Arena. Sua incrível técnica de combate destrói os inimigos em um piscar de olhos.",
+  "story": "O homem que conquistou a Arena de Orvel. Sentado no trono do campeão, ele é muitas vezes temido pelos outros. As pessoas se referem a ele como Punho de Fera. No entanto, ele é na verdade um homem alegre com uma personalidade positiva e sincera. Como o seu estilo de luta já reflete, ele é um homem ousado que não hesita em ir atrás do que quer. Depois da sua conquista, Gladi solicitou o direito de comandar a Loja da Arena. Supostamente, seu real objetivo era obter um monopólio de vinhaprata. Quem de fato irá comprar essas plantas ainda é um mistério, mas ele parece bastante feliz. O curioso é que atualmente ele nem está vendendo vinhaprata.",
+  "like": "Vinhaprata, adversários fortes",
+  "dislike": "Pessoas melancólicas, pessoas indecisas",
+  "inn": {
+    "idle": "Hum, ainda sinto cheiro de vinhaprata...",
+    "recruit": {
+      "greet": "",
+      "talk": [
+        "",
+        "",
+        ""
+      ],
+      "gift": ""
+    },
+    "affinity": {
+      "greet": "Hein? Ei, como vai?",
+      "talk": [
+        "Essa Vinha de Prata, sabe... uau, que cheiro bom... hahaha!!",
+        "Ei! É bem divertido ver você do outro lado da arena!"
+      ],
+      "gift": "Ufa! Você é um cara bem legal, hã?"
+    },
+    "relationship": {
+      "greet": "Ei, você! Vem logo aqui e se sente!",
+      "talk": [
+        "Haha! Aquele momento, quando o meu punho esmagou meu oponente, aquilo foi maravilhoso!",
+        "Eu sou rápido e forte, mesmo pelos padrões da nossa tribo. Como será que eles estão indo?",
+        "Você está se perguntando por que eu comprei essa Vinha de Prata mesmo que ninguém queira comprar de mim? Bem, é tudo para uso pessoal!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Mastra, Punho de Fera",
+    "description": [
+      "Após um Golpe Crítico, aumenta o DAN Crít em 20% por 5 segundos. Este efeito acumula até 7 vezes.",
+      "Após um Golpe Crítico, aumenta o DAN Crít em 24% por 5 segundos. Este efeito acumula até 7 vezes.",
+      "Após um Golpe Crítico, aumenta o DAN Crít em 29% por 5 segundos. Este efeito acumula até 7 vezes.",
+      "Após um Golpe Crítico, aumenta o DAN Crít em 35% por 5 segundos. Este efeito acumula até 7 vezes.",
+      "Após um Golpe Crítico, aumenta o DAN Crít em 42% por 5 segundos. Este efeito acumula até 7 vezes.",
+      "Após um Golpe Crítico, aumenta o DAN Crít em 50% por 5 segundos. Este efeito acumula até 7 vezes."
+    ],
+    "story": "Um par de manoplas personalizado para Gladi. Elas são prova da sua vitória no campeonato da Arena de Orvel. Elas foram supostamente fabricadas a partir de um par de manoplas lendárias usadas por um homem que, centenas de anos atrás, era conhecido como o Deus da Guerra. Essas manoplas, especializadas em esmagar o oponente, aumenta muito o poder do seu usuário. No entanto, o custo físico de usá-las é brutal, e nenhuma pessoa normal é capaz de manuseá-las. A menos que o portador seja incrivelmente flexível e fisicamente capaz de suportar o impacto de cada golpe, usá-las é quase um suicídio. De qualquer forma, a força e flexibilidade natural de Gladi permitem que ele as use livremente."
+  },
+  "s1": {
+    "name": "Rajadas Rápidas",
+    "description": "Ataca o alvo 7 vezes, causando um total de {0} DAN.F. O último ataque aumenta o DAN.F recebido pelo alvo em {1}% por 10 segundos.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "DAN aumenta em {0}%."
+    },
+    "light": "Quando houver 1 inimigo, reforça o DAN em 100%.",
+    "dark": "O efeito de aumento de DAN.F recebido é alterado para 50%."
+  },
+  "s2": {
+    "name": "Advento do Deus da Guerra",
+    "description": "Dissipa todos os efeitos nocivos de si mesmo e causa {0} de DAN.F a inimigos próximos em um raio pequeno, ganhando o Status 'Deus da Guerra' por 10 segundos. Enquanto estiver no modo Deus da Guerra, o ATQ é reforçado em {1} e todos os ataques automáticos têm uma chance de 30% para consumir 5% de mana para causar um ataque extra de {2} de DAN.F extra. Após receber DAN.M, esquiva-se de todo o DAN.M por 1 segundo. O efeito de Esquiva é ativado apenas 1 vez a cada 2 segundos.",
+    "books": {
+      "0": "Reforços de ATQ e DAN aumentam em {0}%.",
+      "1": "Reforços de ATQ e DAN aumentam em {0}%.",
+      "2": "Reforços de ATQ e DAN aumentam em {0}%."
+    },
+    "light": "O estado de Deus da Guerra dura 5 mais segundos.",
+    "dark": "Chance de acertar DAN adicional aumenta em 20%.",
+    "ut": {
+      "name": "Caixa de Vinhaprata",
+      "description": [
+        "[Advento do Deus da Guerra] Enquanto a habilidade durar, recupera 100 PM por segundo e acumula 1 [Isso vai Doer!] ao infligir DAN F. adicional.",
+        "[Advento do Deus da Guerra] Enquanto a habilidade durar, recupera 120 PM por segundo e acumula 1 [Isso vai Doer!] ao infligir DAN F. adicional.",
+        "[Advento do Deus da Guerra] Enquanto a habilidade durar, recupera 140 PM por segundo e acumula 1 [Isso vai Doer!] ao infligir DAN F. adicional.",
+        "[Advento do Deus da Guerra] Enquanto a habilidade durar, recupera 170 PM por segundo e acumula 1 [Isso vai Doer!] ao infligir DAN F. adicional.",
+        "[Advento do Deus da Guerra] Enquanto a habilidade durar, recupera 210 PM por segundo e acumula 1 [Isso vai Doer!] ao infligir DAN F. adicional.",
+        "[Advento do Deus da Guerra] Enquanto a habilidade durar, recupera 250 PM por segundo e acumula 1 [Isso vai Doer!] ao infligir DAN F. adicional."
+      ],
+      "story": "Usa-se vinhaprata para obter um impulso exponencial das habilidades físicas. Nada mais, apenas esta vinhaprata. As pessoas podem tentar mastigar vinhaprata, bebê-la, ferventá-la, mas não vai funcionar. Gladi só precisa desta vinhaprata para ter o efeito do Deus da Guerra."
+    }
+  },
+  "s3": {
+    "name": "Soco Supremo",
+    "description": "Carrega energia e avança na direção de inimigos à frente, causando {0} de DAN.F para inimigos na área e infligindo Atordoamento por 3 segundos. Se o alvo for um chefe, o ataque ignora a DEF do alvo.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "DAN aumenta em {0}%."
+    },
+    "light": "DAN aumenta em 40%.",
+    "dark": "Reduz o custo de mana em 1.",
+    "ut": {
+      "name": "Coroa Triunfal do Campeão",
+      "description": [
+        "[Soco Final!] Reduz a recarga do poder em 30% e, para cada ativação, aumenta o DAN em 4%. Esse efeito pode ser acumulado até 10 vezes.",
+        "[Soco Final!] Reduz a recarga do poder em 30% e, para cada ativação, aumenta o DAN em 4,8%. Esse efeito pode ser acumulado até 10 vezes.",
+        "[Soco Final!] Reduz a recarga do poder em 30% e, para cada ativação, aumenta o DAN em 5,8%. Esse efeito pode ser acumulado até 10 vezes.",
+        "[Soco Final!] Reduz a recarga do poder em 30% e, para cada ativação, aumenta o DAN em 7%. Esse efeito pode ser acumulado até 10 vezes.",
+        "[Soco Final!] Reduz a recarga do poder em 30% e, para cada ativação, aumenta o DAN em 8,4%. Esse efeito pode ser acumulado até 10 vezes.",
+        "[Soco Final!] Reduz a recarga do poder em 30% e, para cada ativação, aumenta o DAN em 10%. Esse efeito pode ser acumulado até 10 vezes."
+      ],
+      "story": "Grinalda concedida ao mais forte guerreiro do Continente Orbis. Ela só é dada ao vencedor do torneio de luta que ocorre a cada 4 anos. Diz-se que aqueles que usam essa grinalda podem pegar emprestada a força do Deus da Guerra."
+    }
+  },
+  "s4": {
+    "name": "Isso vai Doer!",
+    "description": "Sempre que Gladi atinge um único alvo com 5 ataques automáticos, causa {0} de DAN extra que ignora DEF.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "DAN aumenta em {0}%."
+    },
+    "light": "Quando houver 1 inimigo, reforça o DAN em 100%.",
+    "dark": "Quando ativado na Arena, causa 15% do PV atual do alvo como DAN.F adicional que ignora DEF."
+  },
+  "t5": {
+    "light": "ATK, DEF, PV+15% / Vel ATQ +100",
+    "dark": "Aumenta toda a DEF em 8% de ATQ."
+  }
+}

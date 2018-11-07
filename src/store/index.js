@@ -2,70 +2,56 @@ import Vue from "vue";
 import Vuex from "vuex";
 import vuexI18n from "vuex-i18n";
 import axios from "axios";
-// eslint-disable-next-line
-// import router from '@/router'
 
 Vue.use(Vuex);
 
 const lang = {
   en: {
-    location: "./i18n/English.json",
-    strings: require("./i18n/English.json"),
-    loaded: true
+    location: "/i18n/English/",
+    loaded: false
   },
   "zh-Hans": {
-    location: "/i18n/ChineseSimplified.json",
-    strings: null,
+    location: "/i18n/ChineseSimplified/",
     loaded: false
   },
   "zh-Hant": {
-    location: "/i18n/ChineseTraditional.json",
-    strings: null,
+    location: "/i18n/ChineseTraditional/",
     loaded: false
   },
   fr: {
-    location: "/i18n/French.json",
-    strings: null,
+    location: "/i18n/French/",
     loaded: false
   },
   de: {
-    location: "/i18n/German.json",
-    strings: null,
+    location: "/i18n/German/",
     loaded: false
   },
   ja: {
-    location: "/i18n/Japanese.json",
-    strings: null,
+    location: "/i18n/Japanese/",
     loaded: false
   },
   ko: {
-    location: "/i18n/Korean.json",
-    strings: null,
+    location: "/i18n/Korean/",
     loaded: false
   },
   pt: {
-    location: "/i18n/Portuguese.json",
-    strings: null,
+    location: "/i18n/Portuguese/",
     loaded: false
   },
   ru: {
-    location: "/i18n/Russian.json",
-    strings: null,
+    location: "/i18n/Russian/",
     loaded: false
   },
   es: {
-    location: "/i18n/Spanish.json",
-    strings: null,
+    location: "/i18n/Spanish/",
     loaded: false
   },
   th: {
-    location: "/i18n/Thai.json",
-    strings: null,
+    location: "/i18n/Thai/",
     loaded: false
   },
   vi: {
-    location: "/i18n/Vietnamese.json",
-    strings: null,
+    location: "/i18n/Vietnamese/",
     loaded: false
   }
 };
@@ -76,13 +62,20 @@ const state = {
   heroID: "1",
   data: require("@/data.json"),
   star: 0,
-  level: 0
+  level: 0,
+  lang: lang,
+  heroList: {},
+  artifactList: {}
 };
 
 const getters = {
+  // sidebar navigation
   getNav: function() {
     if (state.route.name === "hero") {
       const hero = getters.getHero();
+      if (!hero) {
+        return null;
+      }
       var d = {
         type: "hero",
         name: hero.name,
@@ -115,24 +108,17 @@ const getters = {
     }
   },
   getArtifactList: function() {
-    var artifacts = {};
-    for (var artifact in lang[state.locale].strings["artifact"]) {
-      artifacts[
-        lang[state.locale].strings["artifact"][artifact]["name"]
-      ] = artifact;
-    }
-    return artifacts;
+    return state.artifactList;
   },
   getHeroList: function() {
-    var heroes = {};
-    for (var hero in lang[state.locale].strings["hero"]) {
-      if (lang[state.locale].strings["hero"][hero]["name"] !== "") {
-        heroes[lang[state.locale].strings["hero"][hero]["name"]] = hero;
-      }
-    }
-    return heroes;
+    return state.heroList;
   },
   getArtifact: function() {
+    if (
+      !Vue.i18n.keyExists("artifact." + state.artifactID + ".name", "strict")
+    ) {
+      return null;
+    }
     return {
       image: require("@/components/artifact/images/" +
         state.artifactID +
@@ -145,10 +131,13 @@ const getters = {
   },
   getHero: function() {
     var prefix = "hero." + state.heroID;
+    if (!Vue.i18n.keyExists(prefix + ".name", "strict")) {
+      return null;
+    }
     return {
       image: require("@/components/hero/images/" + state.heroID + "/hero.png"),
       name: Vue.i18n.translate(prefix + ".name"),
-      nameEN: lang.en.strings["hero"][state.heroID]["name"],
+      // nameEN: lang.en.strings["hero"][state.heroID]["name"],
       subtitle: Vue.i18n.translate(prefix + ".subtitle"),
       class: Vue.i18n.translate("ui." + h.getClass()),
       description: Vue.i18n.translate(prefix + ".description"),
@@ -186,7 +175,28 @@ const actions = {
   async setLocale({ commit }, locale) {
     locale = h.parseLocale(locale);
     await h.changeLocale(locale);
+    commit("setArtifactList", lang[locale].artifact.names);
+    commit("setHeroList", lang[locale].hero.names);
     commit("setLocale", locale);
+  },
+  async changeItem({ commit }, params) {
+    h.createIfNotExist(lang, state.locale, params.kind, params.num);
+    await h.getLocaleText(state.locale, params.kind, params.num);
+    commit(params.mutation, params.num);
+  },
+  async initialLoad({ commit }, params) {
+    var locale = h.parseLocale(navigator.language);
+    h.createIfNotExist(lang, locale, params.kind, params.num);
+    h.createIfNotExist(lang, locale, "hero", "1");
+    h.createIfNotExist(lang, locale, "artifact", "1");
+    h.createIfNotExist(lang, locale, "hero");
+    h.createIfNotExist(lang, locale, "artifact");
+    await store.dispatch("setLocale", locale);
+    await h.getLocaleText(locale, params.kind, params.num);
+    await h.getLocaleText(locale, "hero", "1");
+    await h.getLocaleText(locale, "artifact", "1");
+    commit("setHeroList", state.lang[state.locale].hero.names);
+    commit("setArtifactList", state.lang[state.locale].artifact.names);
   }
 };
 
@@ -196,6 +206,12 @@ const mutations = {
   },
   setHeroID: function(state, newID) {
     state.heroID = newID;
+  },
+  setHeroList: function(state, list) {
+    state.heroList = list;
+  },
+  setArtifactList: function(state, list) {
+    state.artifactList = list;
   },
   setLocale: function(state, locale) {
     Vue.i18n.set(locale);
@@ -320,12 +336,44 @@ const h = {
   numberWithinBounds: function(min, max, number) {
     return number < min ? min : number > max ? max : number;
   },
+  createIfNotExist: function(dict, ...args) {
+    let d = dict;
+    for (let i = 0; i < args.length; i++) {
+      if (!d[args[i]]) {
+        d[args[i]] = {};
+      }
+      d = d[args[i]];
+    }
+  },
+  getLocaleText: async function(locale, kind, num) {
+    if (!lang[locale][kind][num].loaded) {
+      lang[locale][kind][num].loaded = true;
+      var result = await axios(
+        lang[locale].location + kind + "/" + num + ".json"
+      );
+      Vue.i18n.add(locale, { [kind]: { [num]: result.data } });
+    }
+  },
   changeLocale: async function(locale) {
     if (!lang[locale].loaded) {
       lang[locale].loaded = true;
-      var result = await axios(lang[locale].location);
-      lang[locale].strings = result.data;
-      Vue.i18n.add(locale, result.data);
+      var hero = await axios(lang[locale].location + "hero/names.json");
+      var artifact = await axios(lang[locale].location + "artifact/names.json");
+      var ui = await axios(lang[locale].location + "ui.json");
+      h.createIfNotExist(lang, locale, "artifact", state.artifactID);
+      h.createIfNotExist(lang, locale, "hero", state.heroID);
+      await h.getLocaleText(locale, "artifact", state.artifactID);
+      await h.getLocaleText(locale, "hero", state.heroID);
+      h.createIfNotExist(lang, locale, "hero");
+      h.createIfNotExist(lang, locale, "artifact");
+      lang[locale].hero.names = hero.data;
+      lang[locale].artifact.names = artifact.data;
+      Vue.i18n.add(locale, { ui: ui.data });
+    } else {
+      h.createIfNotExist(lang, locale, "artifact", state.artifactID);
+      h.createIfNotExist(lang, locale, "hero", state.heroID);
+      await h.getLocaleText(locale, "artifact", state.artifactID);
+      await h.getLocaleText(locale, "hero", state.heroID);
     }
   },
   parseLocale: function(locale) {
@@ -352,21 +400,12 @@ const store = new Vuex.Store({
   mutations
 });
 
-// Vue.use(vuexI18n.plugin, store)
-
-// only ask for translation ONCE from the server as all the strings are in a single JSON
-// would otherwise FLOOD the server with requests for the JSON
-
 Vue.use(vuexI18n.plugin, store, {
   moduleName: "i18n",
-  onTranslationNotFound(locale) {
-    return h.changeLocale(locale);
+  // eslint-disable-next-line
+  async onTranslationNotFound(locale) {
+    // return await h.changeLocale(locale);
   }
 });
-
-Vue.i18n.add("en", lang.en.strings);
-Vue.i18n.set("en");
-Vue.i18n.fallback("en");
-store.dispatch("setLocale", navigator.language);
 
 export default store;

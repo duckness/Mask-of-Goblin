@@ -1,0 +1,120 @@
+{
+  "name": "Maria",
+  "subtitle": "Fallen Witch",
+  "description": "The saint who blessed the hero that saved the world long ago. The cursed, outraged crow shoots sharp feathers at enemies and completely breaks the enemy's formation.",
+  "story": "Although she was a Holy Maiden of Lua in the past, she eventually fell into corruption. Now, this cynical, crow-commanding witch curses her former Goddess from the darkness. There was a time when she was a friend of Kyle and a heroine of the people. However, when Kyle disappeared, she hid herself from the world as well. She eventually came back as a fallen witch, threatening mankind as the spearhead of the Demon Army. These days, however, she appears to be plotting some scheme, not as a Demon commander, but completely on her own.",
+  "like": "Corrupting the believers of Lua",
+  "dislike": "Lua and her church",
+  "inn": {
+    "idle": "What's this? A greenhorn?",
+    "recruit": {
+      "greet": "Don't greet the Dark Forces so casually, kid.",
+      "talk": [
+        "Don't worry. I'm staying for just the night. My room is upstairs, mind coming up? Hahaha...",
+        "You're quite to my liking. In the sense that I want to rip you apart, of course...",
+        "Do you know what I'd really like to see? You, begging for your life on your knees."
+      ],
+      "gift": "A quaint gift, befitting of a greenhorn such as you."
+    },
+    "affinity": {
+      "greet": "So what do you need?",
+      "talk": [
+        "You still seem kind of clueless. You've still got a long way to go until you can face them.",
+        "You don't know... So, you don't know what Lua really looks like. It's better if you don't."
+      ],
+      "gift": "Ha ha... Alright. This will be good feed for the crows."
+    },
+    "relationship": {
+      "greet": "..Hmph, you came. I see, you are no longer a mere novice.",
+      "talk": [
+        "When I look at you, I am reminded of him in his youth...hmm...",
+        "I hate Lua for what she did...but you, you are different.",
+        "You are an odd one, accepting a corrupted witch into your fold...how cute."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Lea's Messenger, Cocytus",
+    "description": [
+      "Upon a critical hit, deal continuous M. DMG equal to 300% of ATK to the enemy for 10 sec and reduce their recovery rate by 50%.",
+      "Upon a critical hit, deal continuous M. DMG equal to 375% of ATK to the enemy for 10 sec and reduce their recovery rate by 50%.",
+      "Upon a critical hit, deal continuous M. DMG equal to 450% of ATK to the enemy for 10 sec and reduce their recovery rate by 50%.",
+      "Upon a critical hit, deal continuous M. DMG equal to 525% of ATK to the enemy for 10 sec and reduce their recovery rate by 50%.",
+      "Upon a critical hit, deal continuous M. DMG equal to 625% of ATK to the enemy for 10 sec and reduce their recovery rate by 50%.",
+      "Upon a critical hit, deal continuous M. DMG equal to 750% of ATK to the enemy for 10 sec and reduce their recovery rate by 50%."
+    ],
+    "story": "A mysterious raven that can travel across dimensions. Its intelligence and shrewdness are certainly not those of a mere bird. In truth, it is a monster filled with dark energy, much like Demons. Indeed, it is said that this beast is as powerful as a high-ranking Demon. Some claim that it occasionally flies over fields of battle, speaking in human languages. Much of this creature's identity is still shrouded in mystery."
+  },
+  "s1": {
+    "name": "Raven Storm",
+    "description": "Deals {0} M.DMG to enemies in range and knocks them back. M.DEF is reduced by {2}% for {1} sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Reduces ATK Spd by {0}% for the duration of skill."
+    },
+    "light": "DMG is increased by 40%.",
+    "dark": "Has a 20% chance of inflicting a 3 sec Shackle."
+  },
+  "s2": {
+    "name": "Claw of Restriction",
+    "description": "Deals {0} M.DMG to 2 enemies and shackles them for {1} sec. Targeted enemies receive extra M.DMG over time.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Enemy takes increased M.DMG by {0}% for the duration of skill."
+    },
+    "light": "Mana cost is increased by 1 and the skill targets 3 enemies.",
+    "dark": "Shackle duration is increased by 1.5 sec.",
+    "ut": {
+      "name": "Spirit's Sabaton",
+      "description": [
+        "[Claw of Restriction] Increases DMG by 50% and increases M.Weakness of the affected enemy by 10% for 10 sec.",
+        "[Claw of Restriction] Increases DMG by 50% and increases M.Weakness of the affected enemy by 12% for 10 sec.",
+        "[Claw of Restriction] Increases DMG by 50% and increases M.Weakness of the affected enemy by 14% for 10 sec.",
+        "[Claw of Restriction] Increases DMG by 50% and increases M.Weakness of the affected enemy by 17% for 10 sec.",
+        "[Claw of Restriction] Increases DMG by 50% and increases M.Weakness of the affected enemy by 21% for 10 sec.",
+        "[Claw of Restriction] Increases DMG by 50% and increases M.Weakness of the affected enemy by 25% for 10 sec."
+      ],
+      "story": "A claw armor that Maria gifted to Lea's messenger. The claw armor that is made with fancy gold contains a binding curse that never lets go of any enemy that it grabs. Enemies bound by the messenger's Sabaton will become defenseless against magic attacks and will receive great damage."
+    }
+  },
+  "s3": {
+    "name": "Area of Darkness",
+    "description": "Draws in nearby enemies towards the center and deals {0} M.DMG. The last attack stuns enemies for 3 sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Target takes 25% increased M.DMG for 10 sec.",
+    "dark": "Mana cost is reduced by 1.",
+    "ut": {
+      "name": "Pendant of Darkness",
+      "description": [
+        "[Area of Darkness] DMG is increased by 20%, and the last attack reduces target's P.DEF and M.DEF by 30% for 7 sec.",
+        "[Area of Darkness] DMG is increased by 24%, and the last attack reduces target's P.DEF and M.DEF by 30% for 7 sec.",
+        "[Area of Darkness] DMG is increased by 29%, and the last attack reduces target's P.DEF and M.DEF by 30% for 7 sec.",
+        "[Area of Darkness] DMG is increased by 35%, and the last attack reduces target's P.DEF and M.DEF by 30% for 7 sec.",
+        "[Area of Darkness] DMG is increased by 42%, and the last attack reduces target's P.DEF and M.DEF by 30% for 7 sec.",
+        "[Area of Darkness] DMG is increased by 50%, and the last attack reduces target's P.DEF and M.DEF by 30% for 7 sec."
+      ],
+      "story": "Ashes of a grey messenger that announces the end. These are the ashes of the raven that flew into the Church of Lua right before the Republic of Gray collapsed a hundred years ago. Everyone ignored the ominous messenger, and only Priestess Maria cared for it until its last day. Even after its death, it has helped Maria expand her area of darkness by pouring its dark energy on her."
+    }
+  },
+  "s4": {
+    "name": "Black Wind",
+    "description": "Enemies damaged by Maria has their ATK reduced by {1} for {0} sec.",
+    "books": {
+      "0": "ATK reduction rate is increased by {0}%.",
+      "1": "ATK reduction rate is increased by {0}%.",
+      "2": "Enemy Crit Chance is reduced by {0}% for the duration of skill."
+    },
+    "light": "ATK reduction is increased by 40%.",
+    "dark": "Reduces enemy M. Crit Resistance by 25% for 10 sec."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / Crit Chance +100",
+    "dark": "Upon a Crit Hit, target's CC resistance is reduced by 250 for 10 sec, and all Skill Cooldown, excluding the skill in use, is reduced by 2% each."
+  }
+}

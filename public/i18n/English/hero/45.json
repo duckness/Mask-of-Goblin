@@ -1,0 +1,120 @@
+{
+  "name": "Yanne",
+  "subtitle": "Dragon Slayer",
+  "description": "A Barbarian warrior that travels the lands, hunting down monsters that trouble the people. The Lone Slayer of the Mad Dragon Svelta. Her massive, powerful arrows are capable of piercing through even castle walls.",
+  "story": "A Barbarian warrior who specializes in dealing with monsters that threaten people. Thanks to a unique physical trait, her muscular strength is several times stronger than that of a normal Barbarian warrior. She wields a greatbow larger than her own body with such ease that people call her a walking siege weapon. While she is a kindhearted woman who enjoys helping others, once engaged in a combat, her Barbarian aggressiveness begins to surface. She once slayed a mad dragon named Svelta, a feat that earned her the nickname Dragon Slayer.",
+  "like": "Delicious dishes, cooking, monster hunting",
+  "dislike": "Monsters that cannot be defeated physically",
+  "inn": {
+    "idle": "Ahaha, everyone seems to be having fun?",
+    "recruit": {
+      "greet": "It's been a while~ have you been well?",
+      "talk": [
+        "Monster hunting? It's quite fun, but its even better because I can help people in the process.",
+        "Monster meat is pretty good when cooked right, you know?",
+        "Barbarian Warriors all learn how to cook. Well, I think I'm the best cook though, eh?"
+      ],
+      "gift": "A present? Ahaha, thanks! I'll treat you to a meal next time!"
+    },
+    "affinity": {
+      "greet": "Long time? How have you been?",
+      "talk": [
+        "The food here is pretty good.",
+        "Hm. Maybe next time I'll ask Juno to make me some lunch?"
+      ],
+      "gift": "Oh, thank you! I'll use it well."
+    },
+    "relationship": {
+      "greet": "Heya, you look healthy! Are you eating properly?",
+      "talk": [
+        "Ever tried Dragon meat? It's pretty good. I'll bring some Dragon steak next time!",
+        "Work as a monster hunter isn't easy, but it's worth it.",
+        "Barbarian warriors are all pretty strong...but my body is pretty special."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Dragonbane, Svelta",
+    "description": [
+      "Upon a Crit Hit, there is a 10% chance of dealing 200% of ATK as P.DMG, and recovering 5% of Mana. If the target is a Dragon, inflicts Stun for 1.5 sec.",
+      "Upon a Crit Hit, there is a 12% chance of dealing 240% of ATK as P.DMG, and recovering 5% of Mana. If the target is a Dragon, inflicts Stun for 1.5 sec.",
+      "Upon a Crit Hit, there is a 14% chance of dealing 290% of ATK as P.DMG, and recovering 5% of Mana. If the target is a Dragon, inflicts Stun for 1.5 sec.",
+      "Upon a Crit Hit, there is a 17% chance of dealing 350% of ATK as P.DMG, and recovering 5% of Mana. If the target is a Dragon, inflicts Stun for 1.5 sec.",
+      "Upon a Crit Hit, there is a 21% chance of dealing 420% of ATK as P.DMG, and recovering 5% of Mana. If the target is a Dragon, inflicts Stun for 1.5 sec.",
+      "Upon a Crit Hit, there is a 25% chance of dealing 500% of ATK as P.DMG, and recovering 5% of Mana. If the target is a Dragon, inflicts Stun for 1.5 sec."
+    ],
+    "story": "An enchanted weapon made from the bones, tendons, and pieces of hide the Mad Dragon Svelta. Too heavy for a normal human to even lift, let alone draw, this monstrous greatbow is a combination of the siege weapon technologies from the Dark Elves and Dwarves. Only those with incredible muscular strength such as Yanne can hope to handle this ridiculous bow. The Mad Dragon's soul still remains in this bow. Her ferocious energy rides on every arrow it fires, granting it the power to shatter through even the mightiest of walls."
+  },
+  "s1": {
+    "name": "Focus Shot!",
+    "description": "Taking up a stance, focuses for a while and deals {0} P.DMG to enemies in a straight line. If the target is a dragon, inflicts Stun for 3 sec. The longer she focuses, DMG and Stun duration are increased by {1}%.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Crit DMG is increased by {0}%."
+    },
+    "light": "DMG is increased by 40%.",
+    "dark": "Target takes 25% additional P.DMG for 10 sec."
+  },
+  "s2": {
+    "name": "Wipeout!",
+    "description": "Deals {0} P.DMG to target enemy and other enemies in range. If the target is a Dragon, deals {1} extra DMG that ignores DEF.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Crit DMG is increased by {0}%."
+    },
+    "light": "When there is 1 enemy, DMG is boosted by 100%.",
+    "dark": "Enemies hit are stunned for 2 sec.",
+    "ut": {
+      "name": "Giant Arrow of Sudden Death",
+      "description": [
+        "[Wipeout!] Increases DMG by 20% and reduces Cooldown by 12% upon a Crit Hit.",
+        "[Wipeout!] Increases DMG by 24% and reduces Cooldown by 12% upon a Crit Hit",
+        "[Wipeout!] Increases DMG by 29% and reduces Cooldown by 12% upon a Crit Hit",
+        "[Wipeout!] Increases DMG by 35% and reduces Cooldown by 12% upon a Crit Hit",
+        "[Wipeout!] Increases DMG by 42% and reduces Cooldown by 12% upon a Crit Hit",
+        "[Wipeout!] Increases DMG by 50% and reduces Cooldown by 12% upon a Crit Hit"
+      ],
+      "story": "An arrow made from Mad Dragon Svelta's spine, who spews out powerful magic cannons. It's Yanne's loot. The arrowhead has the Mad Dragon's burning red eye. It's still imbued with its madness, always ready to burn the enemy."
+    }
+  },
+  "s3": {
+    "name": "No Holding Back!",
+    "description": "Removes all negative effects on self. For 30 sec, ATK is increased by {0} and Penetration is increased by {1}. For the duration of skill, auto attacks are changed to consuming 3% mana to deal DMG to all enemies in a straight line and deals {2} extra P.DMG to Dragons ignoring DEF.",
+    "books": {
+      "0": "ATK boost is increased by {0}%.",
+      "1": "ATK boost is increased by {0}%.",
+      "2": "ATK boost is increased by {0}%."
+    },
+    "light": "ATK Spd is boosted by 250 for the duration.",
+    "dark": "For the duration, all DMG taken is reduced by 25%.",
+    "ut": {
+      "name": "Dragon Steak",
+      "description": [
+        "[No Holding Back!] Reduces Mana Cost by 1 and increases DMG to Dragons by 10% for the skill's duration.",
+        "[No Holding Back!] Reduces Mana Cost by 1 and increases DMG to Dragons by 12% for the skill's duration.",
+        "[No Holding Back!] Reduces Mana Cost by 1 and increases DMG to Dragons by 14% for the skill's duration.",
+        "[No Holding Back!] Reduces Mana Cost by 1 and increases DMG to Dragons by 17% for the skill's duration.",
+        "[No Holding Back!] Reduces Mana Cost by 1 and increases DMG to Dragons by 21% for the skill's duration.",
+        "[No Holding Back!] Reduces Mana Cost by 1 and increases DMG to Dragons by 25% for the skill's duration."
+      ],
+      "story": "T-bone steak from which you can taste a dragon's sirloin and tenderloin at the same time. The taste is truly wonderful. The dragon's holy energy enters the body, and increases Yanne's battle stamina to the max."
+    }
+  },
+  "s4": {
+    "name": "Dragon Slayer",
+    "description": "ATK is increased by {0} , and Max HP is increased by {1}%. Also, DMG dealt to Dragons is increased by {2}%.",
+    "books": {
+      "0": "ATK boost is increased by {0}%.",
+      "1": "ATK boost is increased by {0}%.",
+      "2": "ATK boost is increased by {0}%."
+    },
+    "light": "All allies take 7% reduced DMG from Dragons.",
+    "dark": "Deals 15% more DMG to Dragons."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / Crit DMG +20%",
+    "dark": "Auto-attacks ignore enemy Block effects."
+  }
+}

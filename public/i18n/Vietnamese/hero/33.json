@@ -1,0 +1,120 @@
+{
+  "name": "Nyx",
+  "subtitle": "Lưỡi đao Không gian",
+  "description": "Một pháp sư dị đoan có khả năng kiểm soát không gian.\\NNăng lượng của ông ta phóng qua không gian để triệu hồi hàng rào tạo thành từ các thanh kiếm vô cực.",
+  "story": "Một thủ thuật bí ẩn vượt qua các chiều không gian với tạp sắc dị sắc khác biệt rõ rệt. Nụ cười vĩnh cửu trên khuôn mặt của anh dường như xuất phát từ sự thông thái của người đã nhìn thấu toàn bộ vũ trụ. Anh thể hiện sự quan tâm tột bậc với những người có năng lực đặc biệt và thích thú thử những năng lực đó. Khả năng dịch chuyển tức thời trong không gian của anh dường như còn vượt trội hơn cả vương quốc của người chết và anh thậm chí có thể di chuyển qua nhiều chiều không gian khác nhau. Không ai biết chắc động cơ thực sự của anh là gì nhưng dường như có thể chắc chắn là anh luôn có ý định giúp đỡ người khác.",
+  "like": "Du hành giữa các chiều không gian, thử nghiệm phép thuật",
+  "dislike": "Những người không lắng nghe người khác",
+  "inn": {
+    "idle": "Ohh, bạn có hứng thú với ta hả?",
+    "recruit": {
+      "greet": "Anh bạn, tôi cảm thấy một bầu không khí hơi kì lạ ở đây đấy.",
+      "talk": [
+        "Bạn có nơi nào đó muốn tới không?",
+        "Không có nơi nào trên thế giới này mà ta không thể tới được",
+        "Ta thích những người thú vị như anh bạn đấy"
+      ],
+      "gift": "Cho ta hả? Cám ơn nhé"
+    },
+    "affinity": {
+      "greet": "Lại gặp nhau rồi. Rất vui được gặp ngươi.",
+      "talk": [
+        "Được đi đây đó thật vui. Đó là dịp để tạm gác lại mọi chuyện và tận hưởng giây phút tự do.",
+        "Sở thích của ta là sưu tầm kiếm."
+      ],
+      "gift": "Ồ, một món quà đẹp tuyệt. Cảm ơn nhé."
+    },
+    "relationship": {
+      "greet": "Hừm, ta thừa biết bạn rồi sẽ đến đấy thôi.",
+      "talk": [
+        "Bạn muốn đi đến bất cứ đâu, cứ nói. Ta sẽ mở ra cửa không gian.",
+        "Làm sao mà bạn cứu thế giới đây, thú vị đấy.",
+        "Bạn muốn biết về sức mạnh của ta ư? Hiu hiu, cách tính hơi phức tạp đấy."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Chìa khóa Không gian, Magnus Fille",
+    "description": [
+      "Tấn công thường sẽ xuyên qua phạm vi đường thẳng, làm tăng 30% lượng sát thương. Mỗi 1 cộng dồn Lưỡi dao sẽ làm tăng thêm 4% lượng sát thương gây ra.",
+      "Tấn công thường sẽ xuyên qua phạm vi đường thẳng, làm tăng 36% lượng sát thương. Mỗi 1 cộng dồn Lưỡi dao sẽ làm tăng thêm 4.8% lượng sát thương gây ra.",
+      "Tấn công thường sẽ xuyên qua phạm vi đường thẳng, làm tăng 43% lượng sát thương. Mỗi 1 cộng dồn Lưỡi dao sẽ làm tăng thêm 5.7% lượng sát thương gây ra.",
+      "Tấn công thường sẽ xuyên qua phạm vi đường thẳng, làm tăng 52% lượng sát thương. Mỗi 1 cộng dồn Lưỡi dao sẽ làm tăng thêm 6.9% lượng sát thương gây ra.",
+      "Tấn công thường sẽ xuyên qua phạm vi đường thẳng, làm tăng 62% lượng sát thương. Mỗi 1 cộng dồn Lưỡi dao sẽ làm tăng thêm 8.3% lượng sát thương gây ra.",
+      "Tấn công thường sẽ xuyên qua phạm vi đường thẳng, làm tăng 75% lượng sát thương. Mỗi 1 cộng dồn Lưỡi dao sẽ làm tăng thêm 10% lượng sát thương gây ra."
+    ],
+    "story": "Có một sợi dây vũ trụ kết nối các chiều không gian khác nhau. Thanh kiếm này là chìa khóa để chia cắt và kết nối lại sợi dây đó. Nó được ban cho người phân xử không gian, người bị ràng buộc bởi lời thề bảo vệ sự cân bằng của vũ trụ. Nó có thể được nhân đôi vô thời hạn nhưng sẽ chỉ trao sức mạnh cho người được chọn."
+  },
+  "s1": {
+    "name": "Lưỡi kiếm Không gian",
+    "description": "Gây {0} sát thương vật lý lên đối thủ mục tiêu nhận 1 cộng dồn Lưỡi kiếm trên mỗi đối tượng trúng đòn. Tăng số lượng đối thủ tấn công dựa trên số lượng cộng dồn Lưỡi kiếm và cộng dồn liên tục Lưỡi kiếm trong 20 giây, duy trì tối đa 5 lần cộng dồn.",
+    "books": {
+      "0": "Tăng {0}% sát thương",
+      "1": "Tăng {0}% sát thương",
+      "2": "Tăng {0}% sát thương"
+    },
+    "light": "Khi có trên 5 đối thủ, thời gian đợi hồi chiêu biến mất trong 10 giây, lượng sát thương tăng 200%. Thời gian đợi hồi chiêu 20 giây được áp dụng.",
+    "dark": "Số cộng dồn tối đa của lưỡi đao tăng thêm 1."
+  },
+  "s2": {
+    "name": "Đại đao Không gian",
+    "description": "Gây {0} sát thương vật lý lên kẻ địch mục tiêu và loại bỏ các trạng thái có lợi của địch. Kẻ địch trúng đòn sẽ nhận {2} sát thương vật lý trong {1} giây và bị đánh ngã trong 3 giây. Số mục tiêu tấn công tăng tương ứng với số lượt cộng dồn hiệu ứng Lưỡi kiếm",
+    "books": {
+      "0": "Tăng {0}% sát thương",
+      "1": "Tăng {0}% sát thương",
+      "2": "Tăng {0}% sát thương"
+    },
+    "light": "Lượng tiêu thụ Mana giảm 1.",
+    "dark": "Tăng 25% sát thương vật lý mà đối phương nhận được trong 10 giây.",
+    "ut": {
+      "name": "Gươm cắt dòng chảy",
+      "description": [
+        "[Đại đao Không gian] Lượng sát thương tăng 50% và làm tăng thêm 10% sát thương chí mạng của bản thân trong 8 giây với mỗi 1 địch nhận phải sát thương. Hiệu ứng này cộng dồn tối đa 5 lần.",
+        "[Đại đao Không gian] Lượng sát thương tăng 50% và làm tăng thêm 12% sát thương chí mạng của bản thân trong 8 giây với mỗi 1 địch nhận phải sát thương. Hiệu ứng này cộng dồn tối đa 5 lần.",
+        "[Đại đao Không gian] Lượng sát thương tăng 50% và làm tăng thêm 14% sát thương chí mạng của bản thân trong 8 giây với mỗi 1 địch nhận phải sát thương. Hiệu ứng này cộng dồn tối đa 5 lần.",
+        "[Đại đao Không gian] Lượng sát thương tăng 50% và làm tăng thêm 17% sát thương chí mạng của bản thân trong 8 giây với mỗi 1 địch nhận phải sát thương. Hiệu ứng này cộng dồn tối đa 5 lần.",
+        "[Đại đao Không gian] Lượng sát thương tăng 50% và làm tăng thêm 21% sát thương chí mạng của bản thân trong 8 giây với mỗi 1 địch nhận phải sát thương. Hiệu ứng này cộng dồn tối đa 5 lần.",
+        "[Đại đao Không gian] Lượng sát thương tăng 50% và làm tăng thêm 25% sát thương chí mạng của bản thân trong 8 giây với mỗi 1 địch nhận phải sát thương. Hiệu ứng này cộng dồn tối đa 5 lần."
+      ],
+      "story": "Một thanh gươm huyền thoại tồn tại suốt nhiều kỷ nguyên. Một thanh gươm huyền thoại được làm từ ánh mặt trời và linh hồn tan chảy của những người chịu đau khổ. Đó là một trong những vật phẩm bắt buộc để dùng chiêu Lưỡi đao không gian vì đủ chắc chắn để chịu được sức ép không gian và có thể mài sắc."
+    }
+  },
+  "s3": {
+    "name": "Lưỡi kiếm Vô cực",
+    "description": "Gây {0} sát thương vật lý lên kẻ địch ở hàng trước, và lượt tấn công cuối cùng gây {1} sát thương vật lý lên một kẻ địch, đẩy ngã trong thời gian 3 giây. Số lượng mục tiêu của lần tấn công cuối cùng tăng bằng với số lượt cộng dồn Hiệu ứng Lưỡi kiếm",
+    "books": {
+      "0": "Tăng {0}% sát thương",
+      "1": "Tăng {0}% sát thương",
+      "2": "Tăng {0}% sát thương"
+    },
+    "light": "Thời gian đợi dùng chiêu lại giảm 5 giây.",
+    "dark": "Khi có trên 5 cộng dồn Lưỡi dao, lượng sát thương sẽ tăng 70%.",
+    "ut": {
+      "name": "Đá đa chiều",
+      "description": [
+        "Lượng tiêu thụ mana của [Lưỡi kiếm Vô cực] giảm 1 và lượng sát thương tăng 20%.",
+        "Lượng tiêu thụ mana của [Lưỡi kiếm Vô cực] giảm 1 và lượng sát thương tăng 24%.",
+        "Lượng tiêu thụ mana của [Lưỡi kiếm Vô cực] giảm 1 và lượng sát thương tăng 29%.",
+        "Lượng tiêu thụ mana của [Lưỡi kiếm Vô cực] giảm 1 và lượng sát thương tăng 35%.",
+        "Lượng tiêu thụ mana của [Lưỡi kiếm Vô cực] giảm 1 và lượng sát thương tăng 42%.",
+        "Lượng tiêu thụ mana của [Lưỡi kiếm Vô cực] giảm 1 và lượng sát thương tăng 50%."
+      ],
+      "story": "Một vật phẩm bắt buộc đối với các phù thủy băng qua nhiều không gian. Đá không gian là một loại đá ma thuật được những người băng qua các không gian quý trọng. Nó chứa nguồn năng lượng vô tận. Tuy nhiên, tùy theo khả năng của từng người mà nguồn sức mạnh khai thác được sẽ khác nhau. Chỉ những phù thủy hạng cao mới có thể sử dụng hiệu quả."
+    }
+  },
+  "s4": {
+    "name": "Lưỡi kiếm Tiềm ẩn",
+    "description": "Khi tấn công tự động, đâm một lưỡi kiếm và gây {0} sát thương vật lý cho kẻ địch mục tiêu. Số mục tiêu tấn công tăng bằng với số lần cộng dồn hiệu ứng Lưỡi kiếm",
+    "books": {
+      "0": "Tăng {0}% sát thương",
+      "1": "Tăng {0}% sát thương",
+      "2": "Tăng {0}% sát thương"
+    },
+    "light": "Tăng 15% lượng sát thương lên mỗi kẻ địch.",
+    "dark": "Gỡ bỏ hiệu ứng có lợi của đối phương với xác suất 10%."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / Crit DMG +20%",
+    "dark": "Khi tấn công thường, cộng dồn 1 lưỡi đao lên bản thân với xác suất 10%. Tăng 10% sức tấn công của bản thân theo số cộng dồn lưỡi đao."
+  }
+}

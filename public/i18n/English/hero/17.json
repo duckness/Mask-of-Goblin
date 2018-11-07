@@ -1,0 +1,120 @@
+{
+  "name": "Dimael",
+  "subtitle": "Shadow Hunter",
+  "description": "A Dark Elf who hunts enemies in the shadows. His vengeful crossbow pierces his enemies with pitch-black darkness.",
+  "story": "This lonely Dark Elf swore vengeance against his own race for the death of his sister. Having barely survived his deployment to the Aegina Desert, the only thing waiting for him back home was the dreadful news that his sister had been killed as an Elven sacrifice. As he cried out her name in the darkness, he began succumbing to madness. Eventually, he swore an oath of hatred and vengeance against his own kind, the murderers of his sister.",
+  "like": "His sister",
+  "dislike": "His fellow kinsmen who let his sister die",
+  "inn": {
+    "idle": "Ephigael...",
+    "recruit": {
+      "greet": "Ah..it's you.",
+      "talk": [
+        "Stop staring.",
+        "Bothersome. Leave me be.",
+        "...Get to the point."
+      ],
+      "gift": "...For me? Hmph, why not. No point in letting it go to waste."
+    },
+    "affinity": {
+      "greet": "This place isn't so bad.",
+      "talk": [
+        "I like shaded areas. I hate the glaring brightness.",
+        "Darkness is my primal source of my power."
+      ],
+      "gift": "Why do you keep giving me these things? I hate dealing with troublesome things like this."
+    },
+    "relationship": {
+      "greet": "So, you're here. Find anything useful?",
+      "talk": [
+        "When is the next hunt? I do hope it is as fruitful as the last.",
+        "This dark power is mine now. I shall continue to wield it as I see fit.",
+        "My revenge isn't truly over...but at least for the time being, I feel at ease."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Tears of the Moon, Nerius",
+    "description": [
+      "Each attack has a 10% chance of dealing 100% of ATK as M.DMG, and all skill cooldown is reduced by 10%.",
+      "Each attack has a 12% chance of dealing 120% of ATK as M.DMG, and all skill cooldown is reduced by 10%.",
+      "Each attack has a 14% chance of dealing 140% of ATK as M.DMG, and all skill cooldown is reduced by 10%.",
+      "Each attack has a 17% chance of dealing 170% of ATK as M.DMG, and all skill cooldown is reduced by 10%.",
+      "Each attack has a 20% chance of dealing 210% of ATK as M.DMG, and all skill cooldown is reduced by 10%.",
+      "Each attack has a 25% chance of dealing 250% of ATK as M.DMG, and all skill cooldown is reduced by 10%."
+    ],
+    "story": "A treasure of the Dark Elves created using a powerful moonlight stone from Arrovina and a moon tree branch of the highest quality. Nerius is a perfect medium for Moonlight Magic, and it is one of the most powerful magic weapons of the Dark Elves. However, it is said that the beautiful silver light of the moon can easily be tainted by darkness. A sublime love has turned into deep darkness, and the dark elf longing for vengeance has fused that darkness into this weapon."
+  },
+  "s1": {
+    "name": "Dark Rampage",
+    "description": "Deals {0} M.DMG to an enemy.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "If there is 1 enemy, DMG is increased by 100%.",
+    "dark": "Has a 25% chance of Blinding the enemy for 5 sec."
+  },
+  "s2": {
+    "name": "Black Shackle",
+    "description": "Deals {0} M.DMG to enemies in range and shackles them for {1} sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "Target takes {0}% increased M.DMG."
+    },
+    "light": "Mana cost is reduced by 1.",
+    "dark": "Hit enemies are drawn together.",
+    "ut": {
+      "name": "Unbreakable Bracelet",
+      "description": [
+        "[Black Shackle] Increases DMG by 50% and increases M.Weakness of the target by 10% for 10 sec.",
+        "[Black Shackle] Increases DMG by 50% and increases M.Weakness of the target by 12% for 10 sec.",
+        "[Black Shackle] Increases DMG by 50% and increases M.Weakness of the target by 14% for 10 sec.",
+        "[Black Shackle] Increases DMG by 50% and increases M.Weakness of the target by 17% for 10 sec.",
+        "[Black Shackle] Increases DMG by 50% and increases M.Weakness of the target by 21% for 10 sec.",
+        "[Black Shackle] Increases DMG by 50% and increases M.Weakness of the target by 25% for 10 sec."
+      ],
+      "story": "A bracelet that was shared with Epigael a long time ago. It has shadow morion hanging, which is a precious jewel amongst the Dark Elves. It is said that those who cut off the shadow morion and will have a thread of their souls, which will lead them to meet again in the next life."
+    }
+  },
+  "s3": {
+    "name": "Shadow Wave",
+    "description": "Deals {0} M.DMG to enemies in a straight line and inflicts Blind for {1} sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Mana cost is increased by 1 orb but DMG is boosted by 100%.",
+    "dark": "Dispels positive effects of all enemies in range.",
+    "ut": {
+      "name": "Eye of Shadows",
+      "description": [
+        "[Shadow Wave] DMG is increased by 50% and Blind duration is increased by 2 sec.",
+        "[Shadow Wave] DMG is increased by 50% and Blind duration is increased by 2.5 sec.",
+        "[Shadow Wave] DMG is increased by 50% and Blind duration is increased by 3 sec.",
+        "[Shadow Wave] DMG is increased by 50% and Blind duration is increased by 3.5 sec.",
+        "[Shadow Wave] DMG is increased by 50% and Blind duration is increased by 4 sec.",
+        "[Shadow Wave] DMG is increased by 50% and Blind duration is increased by 4.5 sec."
+      ],
+      "story": "Tear fragments of the beast Heltanios, who lived at the bottom of the Fountain of Life. It spews out pitch darkness, and those who see its eyes end up having their souls stolen by the powerful dark energy. Those who become the master of these eyes will obtain great power and insight. When Dimael was captured in Aegina and was at the brink of death, Maria embedded these eye fragments."
+    }
+  },
+  "s4": {
+    "name": "Black Stain",
+    "description": "Each auto attack deals extra {0} M.DMG that ignores target's M.DEF.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "DMG is increased by 40%.",
+    "dark": "There is a 10% chance that Skill 1 is fired upon an auto-attack."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / ATK.Spd +100",
+    "dark": "Upon auto attacking, deal extra M.DMG worth 80% of ATK and recover 100 mana. There is a 10% chance of dealing double DMG and recovering double mana."
+  }
+}

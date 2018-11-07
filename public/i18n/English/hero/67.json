@@ -1,0 +1,128 @@
+{
+  "name": "Kara",
+  "subtitle": "Epitome of Ancient Technomagic",
+  "description": "A human-type machine Golem made by a technomagi of a long forgotten ancient civilization. Her body is an agglomeration of ancient technology and the epitome of technomagic. She's a strong weapon that can annihilate the enemy with powerful focused fire.",
+  "story": "A human-type Golem that was made with ancient technomagic, but her appearance is just like that of a human girl. But she's an ancient weapon that has no feelings and was just made to be a tool. She was asleep in the ruins of an ancient civilization, deep underground in Galluah Plains. She was excavated by Annette, a technomagi in the Kingdom of Orvel, during her research and awakened in a new era with a new civilization...",
+  "like": "Energy charge, Master",
+  "dislike": "Orders that cannot be carried out, inefficient way of doing things",
+  "inn": {
+    "idle": "So many humans. More than I've ever seen.",
+    "recruit": {
+      "greet": "Hello.",
+      "talk": [
+        "Today's weather is... It's pretty clear. There will be some clouds at night.",
+        "The food here is high quality. It doesn't have poison, so no need to worry.",
+        "The palace is quiet, but this place is noisy."
+      ],
+      "gift": "So, this is the currency used today. My Master would like it."
+    },
+    "affinity": {
+      "greet": "Hello. Another Master.",
+      "talk": [
+        "I'm a weapon. I have no emotions. But...",
+        "I wonder what it means to be alive..."
+      ],
+      "gift": "Thank you. It will be used to fund the master's research."
+    },
+    "relationship": {
+      "greet": "Hello. Did you sleep well?",
+      "talk": [
+        "I don't understand emotions very well... But I wonder what this feeling is.",
+        "I feel something familiar. Familiar... Is this it?",
+        "I'm curious what love feels like. I want to know."
+      ]
+    }
+  },
+  "uw": {
+    "name": "0-Form Perpetual Motion Cannon, Heaven Shatterer",
+    "description": [
+      "Increases ATK by 1% every second. Can be stacked up to 30 times.",
+      "Increases ATK by 1% every second. Can be stacked up to 40 times.",
+      "Increases ATK by 1% every second. Can be stacked up to 50 times.",
+      "Increases ATK by 1% every second. Can be stacked up to 60 times.",
+      "Increases ATK by 1% every second. Can be stacked up to 70 times.",
+      "Increases ATK by 1% every second. Can be stacked up to 80 times."
+    ],
+    "story": "An artifact from an ancient civilization that has an engine that provides unlimited power. It's a mighty weapon with the power of a siege weapon, and its power comes close to that of the highest-rank magic. This weapon was found in the ruins of the old Republic of Gray, but it remained in storage since no one knew how to use it. Long after that, Kara was excavated and once she awakened, it teleported to her side. The highest-ranking technomagic weapon that was made in a similar way as the Mountain Fortress."
+  },
+  "s1": {
+    "name": "Anti-personnel Laser",
+    "description": "Attacks the target 4 times, dealing a total of {0} M.DMG and inflicting knockback. Attacks all enemies with the last blow, dealing {1} M.DMG and blowing them away for {2} seconds.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "[Anti-personnel Laser] - Recovers 200 MP upon a Crit Hit. [Siege Laser] - Increases Mana Cost by 1 and DMG by 100%.",
+    "dark": "[Anti-personnel Laser] - Reduces 300 MP of the enemy that took the DMG. [Siege Laser] - Reduces Mana Cost by 1.",
+    "linked": {
+      "name": "Siege Laser",
+      "description": "Attacks the target inflicting {0} M.DMG. Crit DMG is applied {1}% higher."
+    }
+  },
+  "s2": {
+    "name": "Wide-area Cannon",
+    "description": "Attacks a random target and nearby enemies in range 4 times, inflicting a total of {0} M.DMG and stunning them for {1} seconds.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "[Wide-area Cannon] - Increases the Stun duration by 1 second. [Focused Fire] - Stacks 1 additional Focused Fire.",
+    "dark": "[Wide-area Cannon] - Reduces Mana Cost by 1. [Focused Fire] - Increases the Max Stack of Focused Fire to 60.",
+    "ut": {
+      "name": "Recording Device KARA-00XX",
+      "description": [
+        "[Wide-area Cannon] Increases DMG by 50% and reduces ATK Spd of the target by 100 for 10 sec. [Focused Fire] Reduces Cooldown by 2% upon a Crit Hit and recovers 150 Mana.",
+        "[Wide-area Cannon] Increases DMG by 50% and reduces ATK Spd of the target by 120 for 10 sec. [Focused Fire] Reduces Cooldown by 2.4% upon a Crit Hit and recovers 150 Mana.",
+        "[Wide-area Cannon] Increases DMG by 50% and reduces ATK Spd of the target by 140 for 10 sec. [Focused Fire] Reduces Cooldown by 2.9% upon a Crit Hit and recovers 150 Mana.",
+        "[Wide-area Cannon] Increases DMG by 50% and reduces ATK Spd of the target by 170 for 10 sec. [Focused Fire] Reduces Cooldown by 3.5% upon a Crit Hit and recovers 150 Mana.",
+        "[Wide-area Cannon] Increases DMG by 50% and reduces ATK Spd of the target by 210 for 10 sec. [Focused Fire] Reduces Cooldown by 4.2% upon a Crit Hit and recovers 150 Mana.",
+        "[Wide-area Cannon] Increases DMG by 50% and reduces ATK Spd of the target by 250 for 10 sec. [Focused Fire] Reduces Cooldown by 5% upon a Crit Hit and recovers 150 Mana."
+      ],
+      "story": "A recording device and processor that works as Kara's brain. It's a treasure that is filled with ancient wisdom, and its capacity far surpasses that of humans. Despite being such an incredible device, it has a hard time recording and replicating emotions."
+    },
+    "linked": {
+      "name": "Focused Fire",
+      "description": "Attacks a random target 15 times, inflicting a total of {0} M.DMG, and inflicts Focused Fire for {1} seconds. Inflicts {2} extra M.DMG with each stack of Focused Fire on the enemy. Focused Fire can be stacked up to 30 times."
+    }
+  },
+  "s3": {
+    "name": "Release Siege Weapon",
+    "description": "Kara turns into Siege Weapon mode and attacks the enemy, inflicting {0} M.DMG with each hit. When in Siege Weapon mode, changes Anti-personnel Laser and Wide-area Cannon skills to Siege Laser and Focused Fire skills. When the skill is used again, returns to Anti-personnel Weapon mode.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Increases DMG by 100% when there is only 1 enemy.",
+    "dark": "Reduces all skill cooldown by 3% upon a Crit Hit.",
+    "ut": {
+      "name": "Ancient Power Source",
+      "description": [
+        "[Release Siege Weapon] Increases DMG by 50% and decreases the target's M.DEF by 1% upon a Crit Hit. M.DEF Reduction Effect can be stacked up to 20 times.",
+        "[Release Siege Weapon] Increases DMG by 50% and decreases the target's M.DEF by 1% upon a Crit Hit. M.DEF Reduction Effect can be stacked up to 24 times.",
+        "[Release Siege Weapon] Increases DMG by 50% and decreases the target's M.DEF by 1% upon a Crit Hit. M.DEF Reduction Effect can be stacked up to 29 times.",
+        "[Release Siege Weapon] Increases DMG by 50% and decreases the target's M.DEF by 1% upon a Crit Hit. M.DEF Reduction Effect can be stacked up to 35 times.",
+        "[Release Siege Weapon] Increases DMG by 50% and decreases the target's M.DEF by 1% upon a Crit Hit. M.DEF Reduction Effect can be stacked up to 42 times.",
+        "[Release Siege Weapon] Increases DMG by 50% and decreases the target's M.DEF by 1% upon a Crit Hit. M.DEF Reduction Effect can be stacked up to 50 times."
+      ],
+      "story": "Kara's source of power and one of the greatest masterpieces of an ancient civilization that has been long forgotten. It's the basic technology that Annette used to make the Rascal, but not even she has been able to figure out everything about this special technology. A permanent engine that continuously creates unlimited magic power."
+    }
+  },
+  "s4": {
+    "name": "Essence of Technomagic",
+    "description": "When in Anti-personnel Weapon mode, increases all DEF by {0} , and when in Siege Weapon mode, increases ATK by {1} , takes {2}% more DMG, and gains Immunity to CC. Recovers {3} MP each time DMG is dealt to an enemy.",
+    "books": {
+      "0": "ATK and DEF boosts are increased by {0}%.",
+      "1": "ATK and DEF boosts are increased by {0}%.",
+      "2": "ATK and DEF boosts are increased by {0}%."
+    },
+    "light": "MP Recovery triples when there is only one enemy.",
+    "dark": "[Anti-personnel Weapon] - Decreases ATK by 20%, but increases MP Recovery/Sec by 100%. [Siege Weapon] - Decreases all DEF by 60%, but increases Crit DMG by 140%."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / Crit DMG +20%",
+    "dark": "[Anti-personnel Weapon] - Increases CC ACC by 400. [Siege Weapon] - Increases ACC by 400."
+  }
+}

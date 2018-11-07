@@ -1,0 +1,120 @@
+{
+  "name": "Cassandra",
+  "subtitle": "Ventos da Tentação",
+  "description": "A Femme Fatale, Dona do Bar de Ouro. Honrando sua notoriedade, a primeira impressão que ela deixa é de uma encantadora erótica e sexy. Ela anima os aliados com danças tentadoras.",
+  "story": "Ela é a proprietária do 'Bar de Ouro', a maior e mais luxuosa taverna em Vespia. Por baixo da aparência chamativa, a taverna é um ponto de encontro secreto para elites sociais, onde informações secretas de valor inestimável são constantemente trocadas. Seu charme natural e sociabilidade podem facilmente romper barreiras pessoais e ganhar a confiança das pessoas. Sua real identidade é a de uma negociante de armas e informações secretas.",
+  "like": "Vinho tinto, castanhas, leques espalhafatosos",
+  "dislike": "Clientes desagradáveis, cabelo oleoso, mau cheiro",
+  "inn": {
+    "idle": "Minha nossa, bem-vindo... bem, não é minha loja mesmo, mas...",
+    "recruit": {
+      "greet": "Oh, você está dando em cima de mim? Ufufu...",
+      "talk": [
+        "Mais uma rodada para mim... Oh, essa pessoa vai ficar com a conta...",
+        "Informações de arma? Hmm, agora eu acho que não faço ideia sobre o que você está falando....?",
+        "Fufu, você parece estar feliz hoje. O que será que aconteceu?"
+      ],
+      "gift": "Fufu, não precisava... Como eu poderia mostrar minha gratidão?"
+    },
+    "affinity": {
+      "greet": "Ah, olá!",
+      "talk": [
+        "Ouvi dizer que tem gente que dilui bebida alcoólica em água... *Suspira...* Estou preocupada.",
+        "É o meu trabalho, então o meu corpo confunde o dia com a noite. Estou muito cansada."
+      ],
+      "gift": "Ah! Obrigada, vou fazer bom uso disso."
+    },
+    "relationship": {
+      "greet": "Hmm, eu estava pensando justamente em você. Aparentemente você também, não é...?",
+      "talk": [
+        "Conquistar as mentes das pessoas é o meu trabalho... mas eu não farei isso com você.",
+        "Mantenha o segredo - não apenas o Império, mas Orvelia também está com vários acordos como antes... especialmente os do Palácio Real...",
+        "Mesmo enquanto compartilha uma taça de vinho... às vezes, parece que estou sozinho. Mas com você..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Brisa de Ouro, Sussuro Aureliano",
+    "description": [
+      "A cada 15 segundos, cura o aliado com o menor PV em 200% de ATQ e dissipa todos os efeitos nocivos.",
+      "A cada 14 segundos, cura o aliado com o menor PV em 240% de ATQ e dissipa todos os efeitos nocivos..",
+      "A cada 12,5 segundos, cura o aliado com o menor PV em 290% de ATQ e dissipa todos os efeitos nocivos.",
+      "A cada 11 segundos, cura o aliado com o menor PV em 350% de ATQ e dissipa todos os efeitos nocivos.",
+      "A cada 9,5 segundos, cura o aliado com o menor PV em 420% de ATQ e dissipa todos os efeitos nocivos.",
+      "A cada 8 segundos, cura o aliado com o menor PV em 500% de ATQ e dissipa todos os efeitos nocivos."
+    ],
+    "story": "Cassandra faz hora extra como traficante de armas. Um dia, um item roubado caiu em suas mãos e imediatamente chamou sua atenção. Era um lindo leque adornado com decorações em ouro e pedras preciosas. De acordo com os rumores, todas as mulheres que o possuíram logo caíram numa onda de grande azar. O leque tem circulado no mercado como um item amaldiçoado. Assim que o comprou, Cassandra começou a investigar sua origem. Ao que parece, esse leque, chamado Brisa de Ouro, foi criado para ser uma arma disfarçada. Não é difícil imaginar que tipo de azar as donas desavisadas desse leque podem ter passado."
+  },
+  "s1": {
+    "name": "Silenciosamente~",
+    "description": "Cura todos os aliados em {0} de PV e causa DAN.M equivalente a {1} para todos os inimigos. Inimigos atingidos por este poder são silenciados por 2 segundos.",
+    "books": {
+      "0": "Cura e DAN aumentam em {0}%.",
+      "1": "Cura e DAN aumentam em {0}%.",
+      "2": "Duração de silêncio aumenta em {0} segundos."
+    },
+    "light": "Aliados curados ganham 200 de reforço de Vel de ATQ por 10 segundos.",
+    "dark": "Por 5 segundos, inimigos atingidos terão uma redução de Mana em 200 por segundo."
+  },
+  "s2": {
+    "name": "Ferozmente!",
+    "description": "Aumenta o ATQ de todos os aliados em {0} por 15 segundos e aumenta a Chance de Crít em {1}.",
+    "books": {
+      "0": "O aumento de ATQ é reforçado em {0}%.",
+      "1": "O aumento de ATQ é reforçado em {0}%.",
+      "2": "O aumento de ATQ é reforçado em {0}%."
+    },
+    "light": "O reforço de ATQ aumenta em 40%.",
+    "dark": "Reduz o custo de mana em 1.",
+    "ut": {
+      "name": "Ornamento Requintado",
+      "description": [
+        "[Ferozmente!] Aumenta a duração por 5s, além de aumentar o DAN Crít. em 20%.",
+        "[Ferozmente!] Aumenta a duração por 5s, além de aumentar o DAN Crít. em 24%.",
+        "[Ferozmente!] Aumenta a duração por 5s, além de aumentar o DAN Crít. em 29%.",
+        "[Ferozmente!] Aumenta a duração por 5s, além de aumentar o DAN Crít. em 35%.",
+        "[Ferozmente!] Aumenta a duração por 5s, além de aumentar o DAN Crít. em 42%.",
+        "[Ferozmente!] Aumenta a duração por 5s, além de aumentar o DAN Crít. em 50%."
+      ],
+      "story": "Um acessório luxuoso feito pelo melhor joalheiro do continente. Um ornamento de edição limitada criado pelo joalheiro Larik. Qualquer integrante da alta sociedade do Continente Orbis adoraria ter um destes. Dizem que o trabalho do joalheiro é a epítome da arte e que é capaz de curar e fornecer coragem. Existem apenas 3 itens da edição limitada de Ornamentos Requintados, e uma delas obviamente pertence ao dono do Bar de Ouro."
+    }
+  },
+  "s3": {
+    "name": "Onda de Tentação",
+    "description": "Causa {0} DAN.M a um inimigo com o ATQ mais alto, e quando o poder for usado na Arena, enfeitiça o alvo por 7 segundos. Se o poder for conjurado fora da Arena, causará {1}% de DAN.M adicional. Inimigos enfeitiçados atacarão seus aliados com ataques automáticos e não poderão usar poderes.",
+    "books": {
+      "0": "DAN aumentado em {0}%.",
+      "1": "DAN aumentado em {0}%.",
+      "2": "Duração do encanto aumentada em {0} segundos."
+    },
+    "light": "O alvo recebe mais 25% de DAN.M durante 10 segundos.",
+    "dark": "Reduz o custo de mana em 1.",
+    "ut": {
+      "name": "Aroma do Ouro",
+      "description": [
+        "[Onda de Tentação] Reduz a recarga do poder em 30% e a duração de Feitiço aumenta em 1 segundo.",
+        "[Onda de Tentação] Reduz a recarga do poder em 30% e a duração de Feitiço aumenta em 1,5 segundo.",
+        "[Onda de Tentação] Reduz a recarga do poder em 30% e a duração de Feitiço aumenta em 2 segundos.",
+        "[Onda de Tentação] Reduz a recarga do poder em 30% e a duração de Feitiço aumenta em 2,5 segundos.",
+        "[Onda de Tentação] Reduz a recarga do poder em 30% e a duração de Feitiço aumenta em 3 segundos.",
+        "[Onda de Tentação] Reduz a recarga do poder em 30% e a duração de Feitiço aumenta em 3,5 segundos."
+      ],
+      "story": "Um lendário pingente de chama dourada. O lendário Rei de Ouro fez este pingente com uma chama dourada para chamar a atenção da Deusa do Amor e da Beleza. Seu aroma de ouro cria uma Onda de Tentação que faz com que qualquer pessoa se juntar ao seu lado e ser amada por todos."
+    }
+  },
+  "s4": {
+    "name": "Toque Gentil",
+    "description": "A cada batalha, o primeiro poder usado terá uma redução de 2 mana de custo. Além disso, aumenta a DEF dos aliados em {0} por 5 segundos.",
+    "books": {
+      "0": "Aumento de DEF reforçado em {0}%.",
+      "1": "Aumento de DEF reforçado em {0}%.",
+      "2": "Aumento de DEF reforçado em {0}%."
+    },
+    "light": "Todo o DAN sobre aliados é reduzido em 20% por 5 segundos.",
+    "dark": "O efeito do aumento de DEF aumenta a duração em 5 segundos."
+  },
+  "t5": {
+    "light": "ATK, DEF, PV +15% / Vel de ATQ +100",
+    "dark": "No começo de cada batalha, um aliado aleatório fica imune a DAN por 3 segundos."
+  }
+}

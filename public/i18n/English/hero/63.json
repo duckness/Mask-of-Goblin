@@ -1,0 +1,120 @@
+{
+  "name": "Sonia",
+  "subtitle": "The Blue Hurricane",
+  "description": "A genius who was acknowledged by the Tower of Sages, while not being part of it. She was given the title of 'Blue', but her true identity is that of a homunculus. Her orbs of lightning do not even leave ash in their wake.",
+  "story": "A combat homunculus created by a wizard in Orvel, who used the heart of Vikal the Lightning Beast as her core. After gaining self-awareness in the creation process, she fled the laboratory and spent the next few years at Ricardo's orphanage. She is capable of casting powerful lightning magic at will. As a combat homunculus, she boasts excellent physical abilities as well. Beneath her appearance as a young girl, she is a confused war machine searching for the meaning of her existence. The wizards of the Tower of Sage bestowed her the title of 'Blue' to indicate her mastery over chant-less spell casting. However, she distrusts wizards and has no desire to associate herself with the Tower.",
+  "like": "Mirianne, and everyone at the orphanage",
+  "dislike": "Wizards, alchemists",
+  "inn": {
+    "idle": "There are a lot of people, huh...Mirianne, where are you?",
+    "recruit": {
+      "greet": "Eh, me? Um...",
+      "talk": [
+        "I'm only good at fighting, really. Don't expect too much from me.",
+        "Even if I'm not human, don't take me lightly.",
+        "Stop staring, before I shock you real good."
+      ],
+      "gift": "Eh, for me? Ah, um...t...thanks?"
+    },
+    "affinity": {
+      "greet": "Hello? I just stopped by.",
+      "talk": [
+        "If you want to spar, let me know. Of course, it'll hurt a lot! You might get electrocuted!",
+        "Huh? Mirianne is here, too?"
+      ],
+      "gift": "Huh? For me? Really?"
+    },
+    "relationship": {
+      "greet": "Eh, you want to talk to me? You're weird...",
+      "talk": [
+        "You're curious about me? Well...I did tell you I'm a homunculus.",
+        "Fighting style? Ah, I use the Core of Electricity inside my body to...",
+        "Friends and family? Oh...um, Ricardo, Mirianne...and maybe...you?"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Eye of the Storm, Yanadis",
+    "description": [
+      "Shock duration is increased by 2 sec. When auto attacking an enemy inflicted by Shock, all cooldowns are reduced by 1.6%.",
+      "Shock duration is increased by 3 sec. When auto attacking an enemy inflicted by Shock, all cooldowns are reduced by 1.9%.",
+      "Shock duration is increased by 4 sec. When auto attacking an enemy inflicted by Shock, all cooldowns are reduced by 2.3%",
+      "Shock duration is increased by 5 sec. When auto attacking an enemy inflicted by Shock, all cooldowns are reduced by 2.7%.",
+      "Shock duration is increased by 6 sec. When auto attacking an enemy inflicted by Shock, all cooldowns are reduced by 3.3%.",
+      "Shock duration is increased by 7 sec. When auto attacking an enemy inflicted by Shock, all cooldowns are reduced by 4%."
+    ],
+    "story": "A sphere of electricity created by Sonia based on the beast core that is now her own heart. She has shown great talent in making magic gear, and this is the first weapon she ever created. It's a bit lacking in stability, mostly due to the overwhelming electricity it contains. The powerful electrical storm created by this weapon is truly dangerous for any enemy. In fact, anyone besides Sonia who touches it would be instantly fried by the immense current that flows through it."
+  },
+  "s1": {
+    "name": "Lightning Strike!",
+    "description": "Causes an electric explosion ahead, dealing {0} M.DMG to enemies in range and placing an electric field for 3 sec. The electric field deals a total of {1} M.DMG over 10 attacks and with 25% chance, stuns the enemy for 0.5 sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Mana cost is reduced by 1.",
+    "dark": "Stun chance is increased by 10%."
+  },
+  "s2": {
+    "name": "Power of Lightning!",
+    "description": "For 15 sec, ATK is increased by {0} and all DEF is increased by {1}. While the skill is in use, each auto attack has a 30% chance of dealing extra {2} M.DMG to 2 random enemies and stunning them for 0.5 sec.",
+    "books": {
+      "0": "ATK and DEF boosts are increased by {0}%.",
+      "1": "ATK and DEF boosts are increased by {0}%.",
+      "2": "ATK and DEF boosts are increased by {0}%."
+    },
+    "light": "ATK and DEF boosts are increased by 40%.",
+    "dark": "Additional DMG effect applies to all enemies.",
+    "ut": {
+      "name": "Lightning Tent",
+      "description": [
+        "[Power of Lightning!] Changes the effect irremovable and increases the chance to trigger an additional damage by 10% additionally.",
+        "[Power of Lightning!] Changes the effect irremovable and increases the chance to trigger an additional damage by 12% additionally.",
+        "[Power of Lightning!] Changes the effect irremovable and increases the chance to trigger an additional damage by 14% additionally.",
+        "[Power of Lightning!] Changes the effect irremovable and increases the chance to trigger an additional damage by 17% additionally.",
+        "[Power of Lightning!] Changes the effect irremovable and increases the chance to trigger an additional damage by 21% additionally.",
+        "[Power of Lightning!] Changes the effect irremovable and increases the chance to trigger an additional damage by 25% additionally."
+      ],
+      "story": "A cloak that Mirianne made for Sonia by braving a danger. There was a time when Sonia's clothes would burn from the explosion of the electricity that ran through her body. Mirianne saw that and plucked out the ereth plant that is said to grow by being struck by lightning. She pulled out its thread and completed a cloak with it. Sonia saw Mirianne's blistered hands from the electricity, and she cried in silence for a long time. A piece of clothing just for Sonia that can't be found anywhere else."
+    }
+  },
+  "s3": {
+    "name": "Electric Explosion!",
+    "description": "Deals a total of {0} M.DMG over 3 attacks to nearby enemies in a circular range. Then causes an Electric Explosion, dealing a total of {1} M.DMG over 3 attacks and stunning them for 5 sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "While in use, gain immunity to CC.",
+    "dark": "Stun duration is increased by 1 sec.",
+    "ut": {
+      "name": "Heart of Baikal",
+      "description": [
+        "[Electric Explosion!] When attacking enemy inflicted by Shock, enemy takes 100% of ATK as extra M.DMG and target's M.DEF and P.DEF is reduced by 10% for 5 sec.",
+        "[Electric Explosion!] When attacking enemy inflicted by Shock, enemy takes 100% of ATK as extra M.DMG and target's M.DEF and P.DEF is reduced by 12% for 5 sec.",
+        "[Electric Explosion!] When attacking enemy inflicted by Shock, enemy takes 100% of ATK as extra M.DMG and target's M.DEF and P.DEF is reduced by 14% for 5 sec.",
+        "[Electric Explosion!] When attacking enemy inflicted by Shock, enemy takes 100% of ATK as extra M.DMG and target's M.DEF and P.DEF is reduced by 17% for 5 sec.",
+        "[Electric Explosion!] When attacking enemy inflicted by Shock, enemy takes 100% of ATK as extra M.DMG and target's M.DEF and P.DEF is reduced by 21% for 5 sec.",
+        "[Electric Explosion!] When attacking enemy inflicted by Shock, enemy takes 100% of ATK as extra M.DMG and target's M.DEF and P.DEF is reduced by 25% for 5 sec."
+      ],
+      "story": "Heart of Vikal, who is called a holy beast. He eats the elements of light and dark from the world, so his heart is full of thunder from the collision between the two elements. If someone unskilled were to touch it, he would be absorbed by its power. But Sonia, who is made up of the core of lightning, absorbed that power and obtained mana that is beyond imaginable."
+    }
+  },
+  "s4": {
+    "name": "Shock",
+    "description": "With every attack, injects Electricity to targets not inflicted by Shock and increases M.DMG taken by {0}% for 10 sec. Electricity can be stacked up to 30 times, and the 30th stack will consume all Electricity to deal {1} M.DMG and Shock the target for 7 sec. Enemies inflicted by Shock take {3}% increased M.DMG, and when they are inflicted by Stun, the duration is increased by {2} sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Shock duration is increased by 2 sec.",
+    "dark": "Increased M.DMG taken' effect changes to 'Increased P. and M. DMG taken'."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / ATK.Spd +100",
+    "dark": "Upon attack, with 15% chance deals extra M.DMG by 10% of Max HP and injects 1 extra stack of Electricity."
+  }
+}

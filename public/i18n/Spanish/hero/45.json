@@ -1,0 +1,120 @@
+{
+  "name": "Yanne",
+  "subtitle": "Cazador de Dragones",
+  "description": "Un guerrero bárbaro que recorre las tierras, cazando monstruos que molestan al pueblo. El asesino solitario del Dragón Loco Svelta. Sus masivas y poderosas flechas son capaces de atravesar incluso las paredes del castillo.",
+  "story": "Una guerrera bárbara que se especializa en lidiar con monstruos que amenazan a las personas. Gracias a un único atributo físico, su fortaleza muscular es muchas veces más fuerte que la de un guerrero bárbaro normal. Ella porta un gran arco más grande que su propio cuerpo con tal facilidad que las personas le llaman un arma de asedio andante. A pesar que es una mujer de corazón bondadoso que disfruta ayudando a los demás, una vez que entra en combate, su agresividad bárbara emerge a la superficie. Una vez mató a un dragón llamado Svelta, una hazaña que le otorgó el apodo de Cazadora de dragones.",
+  "like": "Platos deliciosos, cocina, caza de monstruos",
+  "dislike": "Monstruos que no se pueden derrotar físicamente",
+  "inn": {
+    "idle": "Ahaha, ¿Parece que todos se están divirtiendo?",
+    "recruit": {
+      "greet": "Ha pasado un tiempo ~ ¿has estado bien?",
+      "talk": [
+        "Cazar Monstruos? Es bastante divertido, pero es aún mejor porque puedo ayudar a la gente mientras tanto",
+        "La carne de monstruo es bastante buena cuando se cocina bien, ¿sabes?",
+        "Los Guerreros Bárbaros aprenden a cocinar. Bueno, creo que soy el mejor cocinero, eh?"
+      ],
+      "gift": "¿Un regalo? Ahaha, gracias! ¡Te invitaré a comer la próxima vez!"
+    },
+    "affinity": {
+      "greet": "Tanto tiempo. ¿Cómo has estado?",
+      "talk": [
+        "La comida aquí es bastante buena.",
+        "Hum. Quizás la próxima vez le pida a Juno que prepare un almuerzo."
+      ],
+      "gift": "¡Oh, gracias! Le daré un uso apropiado."
+    },
+    "relationship": {
+      "greet": "Hey tú, te ves saludable! Estás comiendo bien?",
+      "talk": [
+        "Has probado alguna vez carne de dragón? Es bastante buena. Traeré algún filete de Dragón la próxima vez!",
+        "Trabajar como cazador de monstruos no es fácil, pero vale la pena.",
+        "Los guerreros bárbaros son muy fuertes... pero mi cuerpo es muy especial."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Colmillo de Pesadilla, Kitrax",
+    "description": [
+      "Luego de un Golpe Crítico, hay un 10% de probabilidad de causar Daño Fis. igual al 200% de ATQ y recuperar 5% de Mana. Si el objetivo es un Dragón, aturdelo durante 1,5 seg.",
+      "Luego de un Golpe Crítico, hay un 12% de probabilidad de causar Daño Fis. igual al 240% de ATQ y recuperar 5% de Mana. Si el objetivo es un Dragón, aturdelo durante 1,5 seg.",
+      "Luego de un Golpe Crítico, hay un 14% de probabilidad de causar Daño Fis. igual al 290% de ATQ y recuperar 5% de Mana. Si el objetivo es un Dragón, aturdelo durante 1,5 seg.",
+      "Luego de un Golpe Crítico, hay un 17% de probabilidad de causar Daño Fis. igual al 350% de ATQ y recuperar 5% de Mana. Si el objetivo es un Dragón, aturdelo durante 1,5 seg.",
+      "Luego de un Golpe Crítico, hay un 21% de probabilidad de causar Daño Fis. igual al 420% de ATQ y recuperar 5% de Mana. Si el objetivo es un Dragón, aturdelo durante 1,5 seg.",
+      "Luego de un Golpe Crítico, hay un 25% de probabilidad de causar Daño Fis. igual al 500% de ATQ y recuperar 5% de Mana. Si el objetivo es un Dragón, aturdelo durante 1,5 seg."
+    ],
+    "story": "Una arma encantada hecha a partir de huesos, tendones y pedazos de piel del dragón loco Svelta. Demasiado pesada para que un humano común y corriente la levante, y mucho menos cargarla. Este arco grande y monstruoso es una combinación de tecnologías de armas de asedio de los elfos obscuros y de los enanos. Solo aquellos con una increíble masa muscular como Yanne pueden intentar cargar con este arco. El alma del dragón loco aún permanece en este arco. La energía feroz viaja en cada flecha que dispara y garantiza que el poder destroce incluso las paredes más poderosas."
+  },
+  "s1": {
+    "name": "Disparo Enfocado!",
+    "description": "Colocate en posicion, enfócate y causa  {0}  Daño Magico a los enemigos en línea recta. Si el objetivo es un dragón, aturdelo por 3 seg. Cuanto más tiempo te enfoques, la duración del Daño y Aturdimiento se incrementaran en  {1}%.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Crit. Aumenta en {0}%."
+    },
+    "light": "el Daño se incrementa en un 40%.",
+    "dark": "El objetivo recibe 25% de Daño Fis adicional durante 10 seg."
+  },
+  "s2": {
+    "name": "Aniquilar!",
+    "description": "Causa  {0}  Daño Fis a un enemigo y a otros enemigos cercanos. Si el objetivo es un Dragon, causa {1}  Daño adicional",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Crit. Aumenta en {0}%."
+    },
+    "light": "Cuando hay un enemigo, el Daño se incrementa en un 100%.",
+    "dark": "Los enemigos golpeados quedan aturdidos durante 2 seg.",
+    "ut": {
+      "name": "Flecha gigante de muerte súbita",
+      "description": [
+        "[¡Masacre!] Aumenta el Daño en un 20 % y reduce el Tiempo de reutilización en un 12 % con un Golpe crítico.",
+        "[¡Masacre!] Aumenta el Daño en un 24 % y reduce el Tiempo de reutilización en un 12 % con un Golpe crítico.",
+        "[¡Masacre!] Aumenta el Daño en un 29 % y reduce el Tiempo de reutilización en un 12 % con un Golpe crítico.",
+        "[¡Masacre!] Aumenta el Daño en un 35 % y reduce el Tiempo de reutilización en un 12 % con un Golpe crítico.",
+        "[¡Masacre!] Aumenta el Daño en un 42 % y reduce el Tiempo de reutilización en un 12 % con un Golpe crítico.",
+        "[¡Masacre!] Aumenta el Daño en un 50 % y reduce el Tiempo de reutilización en un 12 % con un Golpe crítico."
+      ],
+      "story": "Una flecha fabricada de la espina del dragón loco, Svelta, que lanza poderosos cañones mágicos. Es el botín de Yanne. La punta de flecha tiene el ojo rojo en llamas del dragón loco. Sigue imbuida con su locura, siempre lista para quemar al enemigo."
+    }
+  },
+  "s3": {
+    "name": "Sin Detenerse!",
+    "description": "Elimina todos los efectos dañinos sobre tí mismo y durante 30 segundos, aumenta el ATQ en  {0}  y la Entrada de DEF. en  {1}. También, durante el proceso, los ataques automáticos se cambian. Consumen 3% de maná a cambio de la capacidad de causar Daño a todos los enemigos en una línea recta. También causa  {2}  Daño Fis adicional.",
+    "books": {
+      "0": "El ATQ aumenta en {0}%.",
+      "1": "El ATQ aumenta en {0}%.",
+      "2": "El ATQ aumenta en {0}%."
+    },
+    "light": "La Veloc de ATQ aumenta en 250 durante el proceso",
+    "dark": "Durante el proceso, todo el Daño recibido se reduce en un 25%.",
+    "ut": {
+      "name": "Filete de dragón",
+      "description": [
+        "[¡Sin Detenerse!] Reduce el costo de mana en 1 y aumenta el daño a los dragones en un 10 % mientras dure la habilidad.",
+        "[¡Sin Detenerse!] Reduce el costo de mana en 1 y aumenta el daño a los dragones en un 12 % mientras dure la habilidad.",
+        "[¡Sin Detenerse!] Reduce el costo de mana en 1 y aumenta el daño a los dragones en un 14 % mientras dure la habilidad.",
+        "[¡Sin Detenerse!] Reduce el costo de mana en 1 y aumenta el daño a los dragones en un 17 % mientras dure la habilidad.",
+        "[¡Sin Detenerse!] Reduce el costo de mana en 1 y aumenta el daño a los dragones en un 21 % mientras dure la habilidad.",
+        "[¡Sin Detenerse!] Reduce el costo de mana en 1 y aumenta el daño a los dragones en un 25 % mientras dure la habilidad."
+      ],
+      "story": "Filete de costilla que permite degustar del lomo y del solomillo de un dragón al mismo tiempo. Su sabor es verdaderamente exquisito. La energía sagrada del dragón ingresa en el cuerpo y aumenta la energía para la batalla de Yanne al máximo."
+    }
+  },
+  "s4": {
+    "name": "Cazador de Dragones",
+    "description": "El ATQ aumenta en  {0} , y la Salud Max aumenta en  {1}%. Además, el Daño causado en Dragones se incrementa en  {2}%.",
+    "books": {
+      "0": "El ATQ aumenta en {0}%.",
+      "1": "El ATQ aumenta en {0}%.",
+      "2": "El ATQ aumenta en {0}%."
+    },
+    "light": "Todos los aliados reciben un 7% de Daño reducido por parte de los Dragones.",
+    "dark": "Causa 15% más de Daño a los Dragones"
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Daño Crit+20%",
+    "dark": "Los ataques automáticos ignoran los efectos del bloqueo enemigo."
+  }
+}

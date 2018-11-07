@@ -1,0 +1,120 @@
+{
+  "name": "Erze",
+  "subtitle": "Éternelle assoiffée",
+  "description": "Elle était autrefois chasseuse de vampires, comme sa sœur Seria. Corrompue par ses propres pouvoirs, elle se mit à massacrer ses semblables et choisit de devenir elle-même un vampire. Après avoir tué et absorbé les pouvoirs du vampire qui l'a métamorphosée, elle réussit à échapper à sa grande sœur Seria, seule survivante, et partit en direction d'Orvelia.",
+  "story": "Benjamine de la famille ShadowHilt, Erze choisit de devenir chasseuse de vampires comme sa sœur adorée, Seria. De par sa carrure fluette, Erze n'apprit jamais le maniement de l'épée, mais réussit à se forger une solide réputation de chasseuse grâce à ses talents de magicienne. Alors qu'elle se trouvait en mission, elle tomba dans un piège et fut mordue à l'épaule par un mystérieux vampire. De plus en plus faible, elle souffrait de migraines fréquentes et de soifs nocturnes quotidiennes. Erze savait ce qu'il se passait et ce qu'il allait lui arriver. Elle dissimula sa morsure et essaya de trouver un remède, s'éloignant de ses semblables. Pendant ce temps, Seria fut envoyée à la montagne enneigée de Terre-venteuse à la recherche de la princesse vampire disparue depuis 100 ans. Le jour où sa sœur partit... - Ahh, Seria... Je n'ai plus la force de lutter... Erze se mit discrètement à trancher la gorge de ses semblables.",
+  "like": "Seria en tant que sœur, le parfait au chocolat, le sang des corrompus",
+  "dislike": "Seria en tant que chasseuse de vampires, les araignées",
+  "inn": {
+    "idle": "Han... Tout a l'air si appétissant...",
+    "recruit": {
+      "greet": "Je connais un jeu palpitant, ça vous dit ?",
+      "talk": [
+        "Qu'est-ce qui vous fait si peur ?",
+        "Quoi, vous avez peur que je vous morde ?",
+        "Vous n'aurez jamais autant palpité, je vous le garantis."
+      ],
+      "gift": "Ah ah, c'est inutile... Tendez-moi votre cou, tout ira bien..."
+    },
+    "affinity": {
+      "greet": "Ce n'est pas la première fois qu'on se voit... Ah ah ah. Comme on se retrouve.",
+      "talk": [
+        "Les vampires n'ont rien à voir avec les démons. Ceux de haut rang passent encore, mais dans l'ensemble, ils ne valent rien.",
+        "Le sang des corrompus a un goût de... d'extase. Oui, d'extase !"
+      ],
+      "gift": "Vous avez un goût agréable. Et vous êtes encore plus adorable à chaque fois que je vous vois !"
+    },
+    "relationship": {
+      "greet": "Prenez ceci pour vous rappeler de moi. Cette dent appartient à celui qui m'a mordue...",
+      "talk": [
+        "Hum, cette femme me court toujours après... Cette femme... est... ma sœur... Elle me manque... et en même temps, je veux la tuer... Hé hé !",
+        "C'est celui qui est venu la dernière fois. Il donnait son sang aux humains. Notre sang ne vaut rien sans notre volonté. Ça signifie qu'il donnait son sang volontairement... Je me demande ce qu'il a reçu en échange. J'aurais dû lui demander avant de le tuer.",
+        "Non, je ne retournerai jamais à ma vie d'avant. Hé hé, quoi ? Vous pensez que j'abandonnerais ce frisson et retournerais à mon quotidien désespéré ? Vous vous trompez ! C'est hors de question... mais... si je le faisais... Il n'y a qu'une chose qui m'y pousserait... Oui... Si je le faisais... ça serait pour elle."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Perion, concentré d'avidité",
+    "description": [
+      "Chaque coup de compétence augmente l'ATQ et la Vit ATQ de 0,5 % pendant 15 sec. Cet effet peut être cumulé jusqu'à 80 fois.",
+      "Chaque coup de compétence augmente l'ATQ et la Vit ATQ de 0,5 % pendant 15 sec. Cet effet peut être cumulé jusqu'à 90 fois.",
+      "Chaque coup de compétence augmente l'ATQ et la Vit ATQ de 0,5 % pendant 15 sec. Cet effet peut être cumulé jusqu'à 110 fois.",
+      "Chaque coup de compétence augmente l'ATQ et la Vit ATQ de 0,5 % pendant 15 sec. Cet effet peut être cumulé jusqu'à 130 fois.",
+      "Chaque coup de compétence augmente l'ATQ et la Vit ATQ de 0,5 % pendant 15 sec. Cet effet peut être cumulé jusqu'à 160 fois.",
+      "Chaque coup de compétence augmente l'ATQ et la Vit ATQ de 0,5 % pendant 15 sec. Cet effet peut être cumulé jusqu'à 200 fois."
+    ],
+    "story": "Quand cela a-t-il commencé ? Cette soif inextinguible et la souffrance qui l'accompagne... Et quand j'étanche enfin ma soif... La haine que je te porte fait trembler mon cœur, Seria...... Ah, Seria. Je n'ai plus le choix. Il me faut cette puissance pour étancher ma soif éternelle. Cette source intarissable de puissance est le seul remède à ma souffrance infinie. Ah... Douce extase ! Plus... Il m'en faut plus."
+  },
+  "s1": {
+    "name": "Sang suave",
+    "description": "Inflige {0}  points de DEG P à tous les ennemis et leur dérobe des PV à hauteur de {1}  % des DEG infligés. Réduit le temps de recharge de [Sang suave] de {2}  sec à chaque coup porté et accumule 1 charge de [Sang suave]. [Sang suave] peut être accumulé jusqu'à {3}  fois, et son utilisation lorsque {3}  charges de [Sang suave] sont accumulées accorde {4}  coups supplémentaires et supprime les charges de [Sang suave].",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Restaure 150 points de mana à chaque coup.",
+    "dark": "Chaque utilisation augmente les DEG de 10%. Cumulable 30 fois."
+  },
+  "s2": {
+    "name": "Hémorragie",
+    "description": "Dissipe tous les effets négatifs et confère l'immunité contre tous les contrôles, les DEG P et les DEG M pendant {0}  sec. Inflige 1 charge de [Hémorragie] à tous les ennemis, ainsi que 1 charge supplémentaire en infligeant [Hémorragie] à la cible. [Hémorragie] peut être accumulée jusqu'à {1}  fois. Inflige {2}  points de DEG P aux ennemis touchés par [Hémorragie] au bout de {0}  sec, et leur dérobe des PV à hauteur de {3}  % des DEG infligés. Toutes les {4}  charges de [Hémorragie], le nombre de coups augmente de 1 et l'attaque supprime les charges d'[Hémorragie].",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Étourdit la cible pendant 3 sec.",
+    "dark": "Le coût en mana est réduit de 1.",
+    "ut": {
+      "name": "Vin de frisson",
+      "description": [
+        "[Hémorragie] Augmente les DEG d'[Hémorragie] de 50 % et réduit le temps de recharge d'[Hémorragie] de 5 sec.",
+        "[Hémorragie] Augmente les DEG d'[Hémorragie] de 50 % et réduit le temps de recharge d'[Hémorragie] de 6 sec.",
+        "[Hémorragie] Augmente les DEG d'[Hémorragie] de 50 % et réduit le temps de recharge d'[Hémorragie] de 7 sec.",
+        "[Hémorragie] Augmente les DEG d'[Hémorragie] de 50 % et réduit le temps de recharge d'[Hémorragie] de 8 sec.",
+        "[Hémorragie] Augmente les DEG d'[Hémorragie] de 50 % et réduit le temps de recharge d'[Hémorragie] de 9 sec.",
+        "[Hémorragie] Augmente les DEG d'[Hémorragie] de 50 % et réduit le temps de recharge d'[Hémorragie] de 10 sec."
+      ],
+      "story": "Vin élaboré par Erze elle-même à partir du sang de prêtres déchus. Son plus grand plaisir consiste à faire s'agenouiller devant elle ceux qui étaient auparavant considérés comme sacrés. Dans chaque bouteille se trouve une croix ensanglantée, et ceux qui entendent Erze boire une gorgée de vin tremblent au son de la croix qui tinte contre le verre."
+    }
+  },
+  "s3": {
+    "name": "Délivrance sanguine",
+    "description": "Toutes les {1}  sec, inflige {2}  points de DEG P à tous les ennemis pendant {0}  sec. Chaque coup de [Délivrance sanguine] assène un coup supplémentaire à 1 ennemi choisi au hasard.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Restaure 75 points de mana à chaque coup.",
+    "dark": "Le coût en Mana est augmenté de 1 orbe mes les DEG sont augmentés de 100%.",
+    "ut": {
+      "name": "Rouge à lèvres de la honte",
+      "description": [
+        "[Délivrance sanguine] Augmente les DEG de [Délivrance sanguine] de 20 % et confère l'immunité contre les contrôles pendant la durée de [Délivrance sanguine].",
+        "[Délivrance sanguine] Augmente les DEG de [Délivrance sanguine] de 24 % et confère l'immunité contre les contrôles pendant la durée de [Délivrance sanguine].",
+        "[Délivrance sanguine] Augmente les DEG de [Délivrance sanguine] de 29 % et confère l'immunité contre les contrôles pendant la durée de [Délivrance sanguine].",
+        "[Délivrance sanguine] Augmente les DEG de [Délivrance sanguine] de 35 % et confère l'immunité contre les contrôles pendant la durée de [Délivrance sanguine].",
+        "[Délivrance sanguine] Augmente les DEG de [Délivrance sanguine] de 42 % et confère l'immunité contre les contrôles pendant la durée de [Délivrance sanguine].",
+        "[Délivrance sanguine] Augmente les DEG de [Délivrance sanguine] de 50 % et confère l'immunité contre les contrôles pendant la durée de [Délivrance sanguine]."
+      ],
+      "story": "Rouge à lèvres dont la teinte provient du sang de ceux qui sont morts dans la honte. Ceux qui ont renoncé à leur dignité d'humain et cédé à leur insatiable désir n'ont pu échapper à Erze. Ils sont certes morts en extase, et peut-être même qu'ils seraient heureux de servir encore à Erze. Erze utilise ce rouge à lèvres pour laisser une trace sur le cou de ses proies après avoir bu leur sang."
+    }
+  },
+  "s4": {
+    "name": "Buveur de vie",
+    "description": "Augmente l'ATQ de {0}  points et les PV max de {1} à chaque ennemi vaincu. Peut être cumulé jusqu'à 50 fois. Si vous recevez des DEG mortels, lance [Hémorragie] et réduit les PV max de {2}  %. Cet effet ne se produit pas si [Hémorragie] est en train de recharger. Cette compétence consomme tout le mana.",
+    "books": {
+      "0": "Augmente le boost d'ATQ et de PV max de {0}  %.",
+      "1": "Augmente le boost d'ATQ et de PV max de {0}  %.",
+      "2": "Augmente le boost d'ATQ et de PV max de {0}  %."
+    },
+    "light": "Augmente les PV max de 100 % lorsqu'un ennemi est vaincu et bascule la réduction de PV max à 33 % après avoir lancé automatiquement [Hémorragie].",
+    "dark": "Augmente l'ATQ de 200 % lorsqu'un ennemi est vaincu, mais l'augmentation des PV max ne s'applique pas."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Chances Crit +100",
+    "dark": "Dérobe des PV à hauteur de 25 % des DEG infligés par la dernière attaque normale et accumule 1 charge de [Sang suave]."
+  }
+}

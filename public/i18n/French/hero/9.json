@@ -1,0 +1,120 @@
+{
+  "name": "Epis",
+  "subtitle": "Fascinante Démone",
+  "description": "Une démone hédoniste à sang froid. En utilisant une faux gigantesque, elle récolte les âmes de ses ennemis. Elle apparaît soudainement au milieu d'eux, tranchant tout autour d'elle.",
+  "story": "Cette succube joyeuse et envoûtante vit en suivant ses caprices. Comme on peut s'y attendre, du fait de son héritage démoniaque, c'est une hédoniste qui ne fait que des choses amusantes et agréables. Même durant la guerre démoniaque, elle choisit de voyager seule plutôt que de se joindre à l'invasion. Elle trouvait que combattre au côté de Kyle était assez intéressant pour justifier de trahir les siens. Plus tard, lorsqu'elle rencontra Kasel, elle se joignit à son groupe avec plaisir en sachant qu'elle passerait des moments amusants. Lorsqu'elle tombe sur des hommes attirants, elle leur rend souvent visite dans leurs rêves.",
+  "like": "Tout ce qui pique l'intérêt ou la curiosité",
+  "dislike": "Une atmosphère ennuyeuse",
+  "inn": {
+    "idle": "Hm hmm hmm (bourdonnement)",
+    "recruit": {
+      "greet": "Es-tu libre aujourd'hui?",
+      "talk": [
+        "Est-ce que tu rougis? C'est mignon.",
+        "Maintenant, où regardez-vous? Ne t'inquiètes pas, je ne le dirai à personne...",
+        "Hmm..quoi, vous voulez essayer quelque chose d'excitant?"
+      ],
+      "gift": "Oh, pour moi? Ooh, maintenant quoi, que pourriez-vous vouloir en retour?"
+    },
+    "affinity": {
+      "greet": "Bienvenue ! Avez-vous refermé la porte ?",
+      "talk": [
+        "Oh, à quoi vous attendiez-vous ? Vous avez l'esprit mal placé.",
+        "Pourquoi une démone s'allie-t-elle aux humains ? C'est vraiment ce que vous croyez ? Ah ah."
+      ],
+      "gift": "Pas mal. Vous semblez vous y connaître en matière de séduction. Cela nous ferait-il un point commun ?"
+    },
+    "relationship": {
+      "greet": "Hmm, d'après votre expression, je suppose que vous m'avez rencontré dans vos rêves de nuit dernière?",
+      "talk": [
+        "Aha, alors comment était votre rêve? Satisfaisant? Ou voulez-vous continuer là où il s'est arrêté...",
+        "Haaaah... J'ai cette chose à l'esprit. Je n'arrête pas de penser à vous... Vous avez pourquoi?",
+        "Ces vêtements ont l'air de se resserrer. Je me demande si j'ai pris du poids...? Voulez-vous bien monter voir dans ma chambre?"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Guillotine Fascinante",
+    "description": [
+      "Lors d'une attaque, donne 25% de chances d'infliger des DEG M. équivalents à 80% de l'ATQ et augmente l'ATQ de 2%. Ce boost d'ATQ est cumulable 10 fois.",
+      "Lors d'une attaque, donne 25% de chances d'infliger des DEG M. équivalents à 96% de l'ATQ et augmente l'ATQ de 2.4%. Ce boost d'ATQ est cumulable 10 fois.",
+      "Lors d'une attaque, donne 25% de chances d'infliger des DEG M. équivalents à 115% de l'ATQ et augmente l'ATQ de 2.9%. Ce boost d'ATQ est cumulable 10 fois.",
+      "Lors d'une attaque, donne 25% de chances d'infliger des DEG M. équivalents à 138% de l'ATQ et augmente l'ATQ de 3.5%. Ce boost d'ATQ est cumulable 10 fois.",
+      "Lors d'une attaque, donne 25% de chances d'infliger des DEG M. équivalents à 165% de l'ATQ et augmente l'ATQ de 4.2%. Ce boost d'ATQ est cumulable 10 fois.",
+      "Lors d'une attaque, donne 25% de chances d'infliger des DEG M. équivalents à 200% de l'ATQ et augmente l'ATQ de 5%. Ce boost d'ATQ est cumulable 10 fois."
+    ],
+    "story": "Une faux mortelle adaptée à la personnalité de son porteur, Epis. Elle fauche l'âme de tous ceux qui s'approchent pour admirer sa beauté. Créée à partir du propre corps d'Epis, elle ressemble à une succube, offrant un plaisir extrême à ses victimes avant d'absorber leur énergie vitale. On dirait qu'Epis a voulu faire preuve d'un peu de bonté avec cette arme."
+  },
+  "s1": {
+    "name": "Vol de Vie",
+    "description": "Inflige {0} points de DEG M. en ignorant la défense de l'ennemi et rend {1}% des DEG infligés sous forme de PV.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG de {0}%."
+    },
+    "light": "S'il y a 1 ennemi, les DEG sont augmentés de 100%.",
+    "dark": "Ignore le blocage ennemi."
+  },
+  "s2": {
+    "name": "Cauchemar",
+    "description": "Se déplace derrière l'ennemi le plus éloigné et inflige {0} points de DEG M. Applique également un effet négatif qui augmente de 30% tous les dégâts qu'ils reçoivent pendant 10 sec.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG de {0}%."
+    },
+    "light": "Le coût en Mana est réduit de 1.",
+    "dark": "La consommation de Mana est augmentée de 1 et utiliser cette compétence active 'Coup Absorbant'. Inutilisable lorsqu'il n'y a aucun ennemi à portée.",
+    "ut": {
+      "name": "Boîte de succube",
+      "description": [
+        "[Cauchemar] Augmente les DEG de 50 % et étourdit l'ennemi affecté pendant 2 sec.",
+        "[Cauchemar] Augmente les DEG de 50 % et étourdit l'ennemi affecté pendant 2,4 sec.",
+        "[Cauchemar] Augmente les DEG de 50 % et étourdit l'ennemi affecté pendant 2,9 sec.",
+        "[Cauchemar] Augmente les DEG de 50 % et étourdit l'ennemi affecté pendant 3,5 sec.",
+        "[Cauchemar] Augmente les DEG de 50 % et étourdit l'ennemi affecté pendant 4,2 sec.",
+        "[Cauchemar] Augmente les DEG de 50 % et étourdit l'ennemi affecté pendant 5 sec."
+      ],
+      "story": "Boîte renfermant les sables du sommeil de la reine des cauchemars. Cette boîte provient du monde des démons et contient du sable magique qui provoque le sommeil. Une fois l’ennemi endormi, toute attaque à son encontre inflige des DEG M. par l’intermédiaire d’un cauchemar irrépressible."
+    }
+  },
+  "s3": {
+    "name": "Bal du Diable",
+    "description": "Inflige {0} points de DEG M. à tous les ennemis à portée. Tous les sorts de contrôle (CC) sont résistés pendant l'utilisation de cette compétence.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Lors d'un Coup Critique, soigne le héros pour {0}% des DEG."
+    },
+    "light": "Les DEG sont augmentés de 40%.",
+    "dark": "Le DEG reçus sont réduits de 50% lorsque cette compétence est utilisée.",
+    "ut": {
+      "name": "Soulier de séduction",
+      "description": [
+        "[Bal du Diable] Le coût en mana est réduit de 1 et les DEG sont augmentés de 20%.",
+        "[Bal du Diable] Le coût en mana est réduit de 1 et les DEG sont augmentés de 24%.",
+        "[Bal du Diable] Le coût en mana est réduit de 1 et les DEG sont augmentés de 29%.",
+        "[Bal du Diable] Le coût en mana est réduit de 1 et les DEG sont augmentés de 35%.",
+        "[Bal du Diable] Le coût en mana est réduit de 1 et les DEG sont augmentés de 42%.",
+        "[Bal du Diable] Le coût en mana est réduit de 1 et les DEG sont augmentés de 50%."
+      ],
+      "story": "L’objet adoré d’Epis. Lorsqu’Epis arriva dans le monde humain, elle s’éprit de la culture humaine et assista à une mascarade. Une fille dansant en talons hauts attira son regard et elle passa un marché avec elle pour récupérer ces chaussures. Epis porte des talons de séductrice et se laisse emporter dans sa danse dangereuse pour ses ennemis."
+    }
+  },
+  "s4": {
+    "name": "Moisson",
+    "description": "Lorsqu'un ennemi est tué par ce héros, l'ATK est augmentée de  {1}  pendant  {0}  sec et tous les temps de recharges de toutes les compétences sont réduits de 30%.",
+    "books": {
+      "0": "Le taux de récupération de l'ATQ est augmenté de {0}%.",
+      "1": "Le taux de récupération de l'ATQ est augmenté de {0}%.",
+      "2": "Récupération de 1 orbe de mana pour chaque ennemi tué."
+    },
+    "light": "Chaque charge augmente de 50% la récupération de Mana par sec.",
+    "dark": "Si le nombre de charges est supérieur à 5, les PM reste à 100% et les Temps de recharge diminuent de 1 sec supplémentaire à chaque seconde."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / DEG Crit +20%",
+    "dark": "Toutes les attaques d'Epis réduisent la DEF M. de 20% des ennemis touchés pendant 10 sec. L'ATQ augmente de 2% pour chaque ennemi touché. Cumulable 10 fois."
+  }
+}

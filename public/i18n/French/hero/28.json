@@ -1,0 +1,120 @@
+{
+  "name": "Fluss",
+  "subtitle": "Lame Virevoltante",
+  "description": "Le vice-capitaine de la Garde Impériale. Sa lame sonique coupe même la magie. Il est capable de se focaliser d'abord sur les ennemis les plus dangereux.",
+  "story": "En tant que fils du commandant des Chevaliers Impériaux, il a reçu un entraînement rigoureux depuis sa tendre enfance afin de devenir un combattant hors pair. Personne ne conteste son titre d'épéiste le plus rapide de tout le palais impérial. Il a prouvé son talent à maintes reprises en tuant des chevaliers ennemis sur le champ de bataille. Il a rapidement progressé dans les rangs pour devenir vice-capitaine de la Garde impériale et tout le monde l'admire. Même s'il est conscient de son apparence magnifique, il a horreur de se faire aborder uniquement pour sa beauté. Il considère que la beauté intérieure est plus importante. Cependant, il fait parfois preuve de vanité.",
+  "like": "Vos yeux",
+  "dislike": "Ceux qui ne comprennent rien à la romance",
+  "inn": {
+    "idle": "Pas trop différent des auberges de l'Empire, je vous le garantie.",
+    "recruit": {
+      "greet": "Vous êtes un gros travailleur.",
+      "talk": [
+        "Ah, la brise fraîche de l'Empire - Comme ça me manque.",
+        "Une formation constante est le moyen d'améliorer vos compétences.",
+        "Il n'y a qu'une seule autre personne avec qui je peux parler si librement..."
+      ],
+      "gift": "Un toast à votre esprit."
+    },
+    "affinity": {
+      "greet": "Je vous ai apporté des fleurs pour vous remercier de votre invitation.",
+      "talk": [
+        "Les gens sont comme des épées. Il faut sans cesse s'affûter pour devenir un vrai chevalier.",
+        "Je n'apprécie vraiment pas Pavel. Quitter ainsi Rodina..."
+      ],
+      "gift": "À votre gentillesse."
+    },
+    "relationship": {
+      "greet": "Un toast pour votre...non, je vais arrêter là.",
+      "talk": [
+        "À l'origine, ma maison ne faisait pas partie de l'Empire.",
+        "Cette fleur est une offrande à la patrie de mon ancêtre. C'est un symbole, une mémoire pour se souvenir de leur patrie déchue.",
+        "Notre Ordre est juste une façade, principalement composée d'enfants inexpérimentés issus des familles nobles. Les vrais guerriers craintifs sont ailleurs..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Veralta, Épées-jumelles de Fureur",
+    "description": [
+      "Augmente l'ATQ de 12 % et la Vit ATQ de 120 points toutes les 7 sec pendant 30 sec. Cet effet peut être cumulé jusqu'à 3 fois et ne peut pas être dissipé.",
+      "Augmente l'ATQ de 14 % et la Vit ATQ de 140 points toutes les 7 sec pendant 30 sec. Cet effet peut être cumulé jusqu'à 3 fois et ne peut pas être dissipé.",
+      "Augmente l'ATQ de 17 % et la Vit ATQ de 170 points toutes les 7 sec pendant 30 sec. Cet effet peut être cumulé jusqu'à 3 fois et ne peut pas être dissipé.",
+      "Augmente l'ATQ de 20 % et la Vit ATQ de 200 points toutes les 7 sec pendant 30 sec. Cet effet peut être cumulé jusqu'à 3 fois et ne peut pas être dissipé.",
+      "Augmente l'ATQ de 25 % et la Vit ATQ de 250 points toutes les 7 sec pendant 30 sec. Cet effet peut être cumulé jusqu'à 3 fois et ne peut pas être dissipé.",
+      "Augmente l'ATQ de 30 % et la Vit ATQ de 300 points toutes les 7 sec pendant 30 sec. Cet effet peut être cumulé jusqu'à 3 fois et ne peut pas être dissipé."
+    ],
+    "story": "Une paire d'armes enchantées offerte au grand-père de Fluss, un chevalier de la République de Gray, et passée de père en fils. Ces armes augmentent peu à peu les capacités physiques de leur porteur et lui permettent de dépasser les limites humaines en gagnant une vitesse et des pouvoirs surhumains. Comme l'effet est graduel, le corps ne subit pas de stress soudain. Les pièces s‘appellent Sang et Rose, en l'honneur des effluves de sang et de pétales qui apparaissent chaque fois que Fluss manie ces épées jumelles. Nul autre guerrier n'a pu les utiliser à leur plein potentiel."
+  },
+  "s1": {
+    "name": "Lame-Tempête",
+    "description": "Attaque 3 fois la cible et les ennemis près d'elle, ce qui leur inflige un total de {0}  points de DEG P. Si la cible n'est pas un héros, inflige un total de {1}  points de DEG P supplémentaires pendant 5 sec.",
+    "books": {
+      "0": "Augmente les dégâts de {0}%.",
+      "1": "Augmente les dégâts de {0}%.",
+      "2": "Augmente les dégâts de {0}%."
+    },
+    "light": "Ignore la DEF lorsqu'il n'y a qu'un seul ennemi.",
+    "dark": "Un Coup Crit réduit le Temps de recharge de 6%."
+  },
+  "s2": {
+    "name": "Flashstep",
+    "description": "Se déplace vers l'ennemi ayant l'ATQ la plus élevée et applique Silence pendant 2 sec. La réduction des DEG M. est augmentée de {1} pendant {0} sec. Marque l'ennemi ciblé pendant {2} sec, les attaques du Héros se focalisent alors sur la cible marquée. Attaquer les ennemis marqués inflige {3} points de DEG P. supplémentaires.",
+    "books": {
+      "0": "Augmente les dégâts de {0}%.",
+      "1": "Augmente les dégâts de {0}%.",
+      "2": "Augmente les dégâts de {0}%."
+    },
+    "light": "Pour un coût de 1 MP supplémentaire, le Temps de recharge est réduit de 5 sec.",
+    "dark": "Dissipe les effets d'Amélioration de l'ennemi.",
+    "ut": {
+      "name": "Parfum tentant",
+      "description": [
+        "[Pas de l'éclair] Rend la marque inamovible et augmente l'ATQ de 20 % pendant 10 sec une fois l'ennemi marqué tué.",
+        "[Pas de l'éclair] Rend la marque inamovible et augmente l'ATQ de 24 % pendant 10 sec une fois l'ennemi marqué tué.",
+        "[Pas de l'éclair] Rend la marque inamovible et augmente l'ATQ de 29 % pendant 10 sec une fois l'ennemi marqué tué.",
+        "[Pas de l'éclair] Rend la marque inamovible et augmente l'ATQ de 35 % pendant 10 sec une fois l'ennemi marqué tué.",
+        "[Pas de l'éclair] Rend la marque inamovible et augmente l'ATQ de 42 % pendant 10 sec une fois l'ennemi marqué tué.",
+        "[Pas de l'éclair] Rend la marque inamovible et augmente l'ATQ de 50 % pendant 10 sec une fois l'ennemi marqué tué."
+      ],
+      "story": "Parfum contenant les premières roses Vivienne de l’année. Les roses Vivienne sont aussi belles que mortelles. Il suffit de sentir leur arôme pour être victime d’hallucinations et rester bouche bée pendant que l’adversaire assène ses coups."
+    }
+  },
+  "s3": {
+    "name": "Pétales Sanglants",
+    "description": "Inflige un total de {0}  points de DEG P à un ennemi en 16 coups et supprime la cible pendant l'incantation. Les DEG ignorent les effets de blocage de la cible.",
+    "books": {
+      "0": "Augmente les dégâts de {0}%.",
+      "1": "Augmente les dégâts de {0}%.",
+      "2": "Augmente les dégâts de {0}%."
+    },
+    "light": "Chaque Coup Crit augmente les DEG du dernier coup de 10%.",
+    "dark": "Pendant le Temps de recharge, les DEG des attaques automatiques sont augmentés de 50%.",
+    "ut": {
+      "name": "Rose d'immortalité",
+      "description": [
+        "[Pétales Sanglants] Les DEG sont augmentés de 20% et toutes les ATQ M. sont esquivées pendant la durée de la compétence.",
+        "[Pétales Sanglants] Les DEG sont augmentés de 24% et toutes les ATQ M. sont esquivées pendant la durée de la compétence.",
+        "[Pétales Sanglants] Les DEG sont augmentés de 29% et toutes les ATQ M. sont esquivées pendant la durée de la compétence.",
+        "[Pétales Sanglants] Les DEG sont augmentés de 35% et toutes les ATQ M. sont esquivées pendant la durée de la compétence.",
+        "[Pétales Sanglants] Les DEG sont augmentés de 42% et toutes les ATQ M. sont esquivées pendant la durée de la compétence.",
+        "[Pétales Sanglants] Les DEG sont augmentés de 50% et toutes les ATQ M. sont esquivées pendant la durée de la compétence."
+      ],
+      "story": "Une rose qui ne fane jamais, même lorsqu’elle est cueillie. C’est une fleur que Fluss adore, car elle lui rappelle les devoirs du Chevalier, qui est la base de la volonté de fer lui permettant d’être confiantau combat."
+    }
+  },
+  "s4": {
+    "name": "Coupe-Sort",
+    "description": "Inflige {1} points de DEG P. aux ennemis qui ont infligé des DEG M. à ce héros au moins une fois dans les {0} sec et esquive tous les DEG M. suivants pendant {2} sec.",
+    "books": {
+      "0": "Augmente les dégâts de {0}%.",
+      "1": "Augmente les dégâts de {0}%.",
+      "2": "Augmente les dégâts de {0}%."
+    },
+    "light": "Esquiver augmente l'ATQ de 3%. Cumulable 10 fois.",
+    "dark": "A 30% de chances d'appliquer Étourdissement pendant 3 sec."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Esquive M. +100",
+    "dark": "Une attaque inflige des DEG P supplémentaires à hauteur de 20% de l'ATQ. Il y a également 10% de chances d'infliger le double de DEG P. et de dissiper les Améliorations sur l'ennemi."
+  }
+}

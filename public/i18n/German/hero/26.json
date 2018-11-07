@@ -1,0 +1,120 @@
+{
+  "name": "Aisha",
+  "subtitle": "Violette Prinzessin",
+  "description": "Eine adelige Dame aus Orvelia. Ein Genie, das den Titel 'Violett' im Turm der Weisen erhielt. Mit ihrem prunkvollem Sonnenschirm schießt sie Energiestrahlen auf ihre Feinde.",
+  "story": "Eine Tochter einer Adelsfamilie aus Orvel. Als eine der talentiertesten Zauberinnen im Turm der Weisen wurde ihr aufgrund ihrer magischen Fähigkeiten der Titel 'Lila' verliehen. Sie wurde auf Geheiß ihrer Eltern seit ihrer Kindheit im Turm der Weisen aufgezogen, doch ihre aristokratische Würde hat sie nie abgelegt. Als Kind konnte sie nicht verstehen, warum ihre Eltern sie allein fortgeschickt hatten, doch heute versteht sie deren Gründe. Jetzt, nach ihrer Rückkehr in die Heimat, wird sie stets von ihrer Magd begleitet, die für sie wie ein weiteres Familienmitglied ist.",
+  "like": "Tee mit Priscilla",
+  "dislike": "Unhöfliche Leute",
+  "inn": {
+    "idle": "Hmpf, vielleicht sollte ich die ganze Taverne kaufen.",
+    "recruit": {
+      "greet": "Ist das das erste Mal, dass du eine Adelige triffst?",
+      "talk": [
+        "Hmm, welcher Familie gehörst du denn an?",
+        "Dieser Rock...die letzte Verarbeitung war ziemlich schäbig.",
+        "*Würg* Mein persönlicher Koch ist so viel besser als dieser...Pöbelfraß..."
+      ],
+      "gift": "Huch, danke sehr. Warum kommst du nicht einmal auf einen Tee vorbei?"
+    },
+    "affinity": {
+      "greet": "So schön ist das Haus nicht.",
+      "talk": [
+        "Uff ... Ich brauche kein Essen. Ich glaube nicht, dass es mir schmecken würde.",
+        "Wenn ich das nächste Mal komme, bringe ich einen luxuriöses Wagen mit."
+      ],
+      "gift": "Danke. Sag mir, wenn du irgendetwas brauchen solltest."
+    },
+    "relationship": {
+      "greet": "Meine Schwester ist für eine Weile weg, also mach dir keine Sorgen.",
+      "talk": [
+        "Fall nicht auf das Lächeln der Adeligen herein. Für sie ist es nur eine Maske, hinter der sie ihre wahren Absichten verstecken.",
+        "Ich finde es nicht gut, dass ich Priscilla zu Hause nicht 'Schwester' nennen kann. Für mich ist sie doch meine Familie!",
+        "Der Titel 'Violett'... es gibt keine Hierarchie bei den Sieben, aber es ist trotzdem die letzte Farbe im Spektrum!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Mahitra, das noble Schicksal",
+    "description": [
+      "35% Chance, bei einem Angriff zusätzlichen Schaden in Höhe von 40% der ANG zu verursachen.",
+      "35% Chance, bei einem Angriff zusätzlichen Schaden in Höhe von 48% der ANG zu verursachen.",
+      "35% Chance, bei einem Angriff zusätzlichen Schaden in Höhe von 57% der ANG zu verursachen.",
+      "35% Chance, bei einem Angriff zusätzlichen Schaden in Höhe von 69% der ANG zu verursachen.",
+      "35% Chance, bei einem Angriff zusätzlichen Schaden in Höhe von 83% der ANG zu verursachen.",
+      "35% Chance, bei einem Angriff zusätzlichen Schaden in Höhe von 100% der ANG zu verursachen."
+    ],
+    "story": "Im Turm der Weisen bezeichnet der Titel „Lila“ den Inbegriff der Manakapazität. Aishas scheinbar unendliches Mana überstieg normale Mengen schlicht zu sehr. Deshalb kaufte die von Daphnel-Familie all die besten Manasteine, die sie finden konnte und brachte sie Annette, der besten Technomagierin von Schloss Orvel. Annette willigte ein, das neue Projekt anzunehmen. Kurz darauf erschuf sie Mahitra, einen wunderschönen, für aristokratische Zauberer mit edlen Absichten angemessenen Schirm."
+  },
+  "s1": {
+    "name": "Mystisches Sperrfeuer",
+    "description": "Fügt Feinden in einem kleinen Bereich {0} M.Schaden zu. Bei einem Krit. Treffer wird der Cooldown um 1 Sek reduziert.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Krit. Trefferchance um {0}%."
+    },
+    "light": "Erhöht Schaden um 100%, wenn nur 1 Feind auf dem Schlachtfeld ist.",
+    "dark": "Stellt bei Krit. Treffer 300 Mana wieder her."
+  },
+  "s2": {
+    "name": "Zerstörungsstrahl",
+    "description": "Fügt Feinden in einer geraden Linie alle 0.5 Sek {0} M.Schaden zu. Nach 5 Sek wird alle 0.5 Sek 3% Mana verbraucht, und der Schaden steigt um 100%.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Krit. Trefferchance um {0}%."
+    },
+    "light": "Halbiert die Manakosten für Verstärkungsstrahl.",
+    "dark": "Verdoppelt die Manakosten für Verstärkungsstrahl und verdoppelt den Schaden von 100% auf 200%.",
+    "ut": {
+      "name": "Vornehmer Handspiegel",
+      "description": [
+        "[Zerstörungsstrahl] Erhöht den Schaden um 50 % und stellt bei Verwendung sofort 500 MP wieder her.",
+        "[Zerstörungsstrahl] Erhöht den Schaden um 50 % und stellt bei Verwendung sofort 600 MP wieder her.",
+        "[Zerstörungsstrahl] Erhöht den Schaden um 50 % und stellt bei Verwendung sofort 720 MP wieder her.",
+        "[Zerstörungsstrahl] Erhöht den Schaden um 50 % und stellt bei Verwendung sofort 860 MP wieder her.",
+        "[Zerstörungsstrahl] Erhöht den Schaden um 50 % und stellt bei Verwendung sofort 1.040 MP wieder her.",
+        "[Zerstörungsstrahl] Erhöht den Schaden um 50 % und stellt bei Verwendung sofort 1.250 MP wieder her."
+      ],
+      "story": "Ein heiliger Schatz, der innerhalb der Familie Daphnel über Generationen weitergegeben wurde. Er war vor langer Zeit ein Schamanenwerkzeug, um Mana zu sparen. Nachdem Aisha ihr Mana in das Edle Violette Juwel fließen ließ, kam seine Kraft zum Vorschein. Jetzt leuchtet er strahlend hell."
+    }
+  },
+  "s3": {
+    "name": "Reißender Regenfall",
+    "description": "Fügt Feinden zufällig {0} Sek lang {1} M.Schaden zu und reduziert ihre M.VERT um 5%. Die M.VERT Reduktion kumuliert sich bis zu 5 Mal.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Krit. Trefferchance um {0}%."
+    },
+    "light": "Verursacht Flächenschaden.",
+    "dark": "M.VERT-Reduzierungseffekt kumuliert sich nun bis zu 10 Mal.",
+    "ut": {
+      "name": "Ring der Unendlichen Magie",
+      "description": [
+        "[Reißender Regenfall] Erhöht Schaden um 50% und stellt bei Krit. Treffern 30 Mana wieder her.",
+        "[Reißender Regenfall] Erhöht Schaden um 50% und stellt bei Krit. Treffern 36 Mana wieder her.",
+        "[Reißender Regenfall] Erhöht Schaden um 50% und stellt bei Krit. Treffern 43 Mana wieder her.",
+        "[Reißender Regenfall] Erhöht Schaden um 50% und stellt bei Krit. Treffern 52 Mana wieder her.",
+        "[Reißender Regenfall] Erhöht Schaden um 50% und stellt bei Krit. Treffern 62 Mana wieder her.",
+        "[Reißender Regenfall] Erhöht Schaden um 50% und stellt bei Krit. Treffern 75 Mana wieder her."
+      ],
+      "story": "Ein Ring, der zusammen mit dem Titel „Lila“ vom Turm der Weisen verliehen wurde. Er ist ein Artefakt der Hexe Eucaletus, di im Sumpf der Weisheit lebte. Die Macht, die er ausstrahlt, hängt von den Fähigkeiten des Trägers ab. Für manche könnte er eine Quelle unbegrenzten Manas sein. Er ist perfekt für Aisha, die mächtige magische Kanonen einsetzt."
+    }
+  },
+  "s4": {
+    "name": "Mystischer Boost",
+    "description": "Fügt dem Feind bei einem Krit. Treffer {0} zusätzlichen M.Schaden zu.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Erhöht Schaden um 40%.",
+    "dark": "Ignoriert feindliche Blockeffekte."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / Krit. Chance +100",
+    "dark": "Jede Skillnutzung erhöht den Dunkelheits-Zähler um 1. Jeder Zähler erhöht ihre Mana-Regeneration/Sek um 6% und ihren Krit. Schaden um 2% (Zähler-Limit: 50)."
+  }
+}

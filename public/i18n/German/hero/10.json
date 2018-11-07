@@ -1,0 +1,120 @@
+{
+  "name": "Selene",
+  "subtitle": "Windschneide-Pfeil",
+  "description": "Die Elfenprinzessin mit der erhabenen Aura dient als Wächterin des heiligen Waldes. Mit Mondenergie gefüllten Pfeilen verfolgen sie ihre Feinde,\\während ihre Windenergie-erfüllten Pfeile ihre Feinde gnadenlos niederstrecken.",
+  "story": "Diese adelige Elfenprinzessin bewundert das Heilige Schwert und dessen erwählten Krieger. Sie strebt mit aller Kraft danach, das Rechte zu tun und erwartet dies auch von Anderen. Aus diesem Grund übt sie überzeugt Kritik an jenen, die vom Pfad der Rechtschaffenheit abkommen, selbst, wenn es sich dabei um den Krieger des Heiligen Schwertes handelt. Unglücklicherweise wird ihre tapfere Entschlossenheit manchmal missverstanden. Sie besucht oft ihre jüngere Schwester Dosarta in ihrem Turm, um ihr Gesellschaft zu leisten.",
+  "like": "Jene, die in Harmonie arbeiten und Verantwortung übernehmen",
+  "dislike": "Jene, die sich von ihrem Glauben abwenden; Jene, die vor der Gefahr fliehen",
+  "inn": {
+    "idle": "Oh, Menschlinge schlafen in Orten wie diese?",
+    "recruit": {
+      "greet": "Wie ist es euch ergangen? Möge euer Tag voller Licht sein.",
+      "talk": [
+        "Warum schaut ihr mich so an?",
+        "Kultivierte Leute sind immer herzlich willkommen.",
+        "Zuhören kann ich, warum nicht?"
+      ],
+      "gift": "Danke euch für das Geschenk. Es ist wunderschön."
+    },
+    "affinity": {
+      "greet": "Heute war ein guter Tag. Schön, dich getroffen zu haben.",
+      "talk": [
+        "Ich lebe für den Schutz des Waldes, seit ich sehr jung bin. Darum habe ich die Geschichte des Heiligen Schwertes immer geliebt.",
+        "Der Krieger des Heiligen Schwertes, der den Dunklen Lord besiegte und der Welt vor 100 Jahren den Frieden brachte ... Nun müssen wir eine neue Legende erschaffen."
+      ],
+      "gift": "Das ist ...! Danke dir für deine Großzügigkeit."
+    },
+    "relationship": {
+      "greet": "Heute scheint ein dieser schönen, sonnigen Tage zu sein. Voller Freude und Wärme.",
+      "talk": [
+        "Vielleicht war ich ungerecht zu diesem Krieger und habe ihm meine Ideale und Vorstellungen aufgezwungen...",
+        "Besuch den Elidora-Wald doch auch mal. Ich komme dich dann persönlich begrüßen.",
+        "Dieser Bogen wurde mir von einem Wind-Element als Zeichen unserer Freundschaft überreicht. Du kannst ihn gerne auch ein mal halten, wenn du möchtest."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Grünwind Notos",
+    "description": [
+      "Nach einem krit. Treffer erhöht sich die Angriffsgeschw. um 20% für 10 Sek. Während dieser Dauer wird mit jedem normalen Angrff ein zusätzlicher Pfeil mit 100% K.Schaden abgefeuert.",
+      "Nach einem krit. Treffer erhöht sich die Angriffsgeschw. um 24% für 10 Sek. Während dieser Dauer wird mit jedem normalen Angrff ein zusätzlicher Pfeil mit 120% K.Schaden abgefeuert.",
+      "Nach einem krit. Treffer erhöht sich die Angriffsgeschw. um 28% für 10 Sek. Während dieser Dauer wird mit jedem normalen Angrff ein zusätzlicher Pfeil mit 140% K.Schaden abgefeuert.",
+      "Nach einem krit. Treffer erhöht sich die Angriffsgeschw. um 34% für 10 Sek. Während dieser Dauer wird mit jedem normalen Angrff ein zusätzlicher Pfeil mit 170% K.Schaden abgefeuert.",
+      "Nach einem krit. Treffer erhöht sich die Angriffsgeschw. um 41% für 10 Sek. Während dieser Dauer wird mit jedem normalen Angrff ein zusätzlicher Pfeil mit 210% K.Schaden abgefeuert.",
+      "Nach einem krit. Treffer erhöht sich die Angriffsgeschw. um 50% für 10 Sek. Während dieser Dauer wird mit jedem normalen Angrff ein zusätzlicher Pfeil mit 250% K.Schaden abgefeuert."
+    ],
+    "story": "Ein Bogen, gesegnet mit dem Atem Sylphs, des Wind-Elementars. Nur eine Person mit edlem Charakter vermag ihn zu führen. Wird er gezogen, spannt er sich selbst mit einem tödlichen, magischen Pfeil, der aus dem Atem des Elementars gefertigt ist. Vom Wind-Elementar geleitet verfehlt dieser Bogen niemals sein Ziel, egal wo es sich versteckt. Selene hat seit der Kindheit eine besondere Verbindung zu Elementaren. Zu Sylph hatte sie eine besonders intensive Beziehung und als Zeichen ihrer Freundschaft verzauberte diese dafür ihren Bogen."
+  },
+  "s1": {
+    "name": "Pfeilregen",
+    "description": "Schießt 12 Pfeile zufällig auf Feinde und verusacht {0} K.Schaden.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Erhöht Schaden um 40%.",
+    "dark": "20% Chance, das Ziel 2 Sek lang zu betäuben."
+  },
+  "s2": {
+    "name": "Ansturm",
+    "description": "Beschwört 5 Pfeile, die automatisch beim Angriff Feinde anvisieren. Jeder Pfeil verursacht {0} K.Schaden.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Ignoriert VERT, wenn nur ein Feind auf dem Schlachtfeld ist.",
+    "dark": "Das Ziel zuckt für 0.5 Sek zusammen.",
+    "ut": {
+      "name": "Windgeist-Siegelstein",
+      "description": [
+        "[Ansturm] Erhöht den Schaden um 20 % und hat eine Chance von 15 %, 1 Ansturm-Pfeil bei einem normalen Angriff zu beschwören.",
+        "[Ansturm] Erhöht den Schaden um 24 % und hat eine Chance von 15 %, 1 Ansturm-Pfeil bei einem normalen Angriff zu beschwören.",
+        "[Ansturm] Erhöht den Schaden um 29 % und hat eine Chance von 15 %, 1 Ansturm-Pfeil bei einem normalen Angriff zu beschwören.",
+        "[Ansturm] Erhöht den Schaden um 35 % und hat eine Chance von 15 %, 1 Ansturm-Pfeil bei einem normalen Angriff zu beschwören.",
+        "[Ansturm] Erhöht den Schaden um 42 % und hat eine Chance von 15 %, 1 Ansturm-Pfeil bei einem normalen Angriff zu beschwören.",
+        "[Ansturm] Erhöht den Schaden um 50 % und hat eine Chance von 15 %, 1 Ansturm-Pfeil bei einem normalen Angriff zu beschwören."
+      ],
+      "story": "Ein Stein, in dem ein rücksichtsloser Windbogengeist eingeschlossen ist. Das Elementar richtete mit seinen bösen Streichen allerhand Ärger an, weshalb es vom Feenkönig eingeschlossen wurde. Das angriffslustige Windelementar durchwirkt Pfeile mit zerstörerischem Wund und erhöht so ihre Zerstörungskraft mindestens um das Fünffache."
+    }
+  },
+  "s3": {
+    "name": "Mondlicht-Blitz",
+    "description": "Fügt Feinden in einer Reihe {0} K.Schaden zu und wirft sie zu Boden. Der Schaden ist vom Rest-TP des Feindes abhängig.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Reduziert Cooldown um 3 Sek.",
+    "dark": "Ignoriert feindliche Blockeffekte.",
+    "ut": {
+      "name": "Silberpfeil",
+      "description": [
+        "[Mondlicht-Blitz] Erhöht Schaden um 20% und das Ziel erleidet 10 Sek. lang 20% zusätzlichen K. Schaden.",
+        "[Mondlicht-Blitz] Erhöht Schaden um 24% und das Ziel erleidet 10 Sek. lang 20% zusätzlichen K. Schaden.",
+        "[Mondlicht-Blitz] Erhöht Schaden um 29% und das Ziel erleidet 10 Sek. lang 20% zusätzlichen K. Schaden.",
+        "[Mondlicht-Blitz] Erhöht Schaden um 35% und das Ziel erleidet 10 Sek. lang 20% zusätzlichen K. Schaden.",
+        "[Mondlicht-Blitz] Erhöht Schaden um 42% und das Ziel erleidet 10 Sek. lang 20% zusätzlichen K. Schaden.",
+        "[Mondlicht-Blitz] Erhöht Schaden um 50% und das Ziel erleidet 10 Sek. lang 20% zusätzlichen K. Schaden."
+      ],
+      "story": "Eine Pfeilspitze, die vom Segen der Göttin der Jagd und des Mondes durchwirkt ist. Ein uraltes Artefakt, das dem besten Elfenjäger vererbt wird. Es heißt, dass sich die Göttin der Jagd und des Mondes um die Elfen kümmerte, die den heiligen Wald beschützten und sie verlieh ihnen durch dieses Artefakt ihre Macht. Der silberne Pfeil mit der Macht der Mondgöttin besitzt eine mysteriöse Kraft, die es dem Träger erlaubt, seinen Feind zu besiegen und den Schaden zu erhöhen."
+    }
+  },
+  "s4": {
+    "name": "Mondlicht-Pfeil",
+    "description": "Nach dem Angriff erhöht sich {0} Sek. lang der ANG um {1} und die Krit. Chance um {2}. Stapelt sich bis zu 3 Mal.",
+    "books": {
+      "0": "Angriffs-Steigungsrate steigt um {0}%.",
+      "1": "Angriffs-Steigungsrate steigt um {0}%.",
+      "2": "Jede Attacke erhöht die krit. Schaden d. Helden um {0}%."
+    },
+    "light": "Max. Kumulation wurde auf 5 geändert.",
+    "dark": "Erhöht normale Angriffsreichw. um 20%."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / Krit. Schaden +20%",
+    "dark": "Reduziert eigene Krit.Chance um 300 und erhöht Krit. Schaden um 100%."
+  }
+}
