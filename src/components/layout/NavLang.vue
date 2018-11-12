@@ -1,15 +1,17 @@
 <template>
   <b-dropdown v-model="locale">
-    <a 
-      slot="trigger" 
-      class="navbar-item">
+    <a
+      slot="trigger"
+      class="navbar-item"
+    >
       {{ locale }}&nbsp;
       <icon name="angle-down" />
     </a>
-    <b-dropdown-item 
-      v-for="language in languages" 
-      :key="language.id" 
-      :value="language">
+    <b-dropdown-item
+      v-for="language in languages"
+      :key="language.id"
+      :value="language"
+    >
       {{ language }}
     </b-dropdown-item>
   </b-dropdown>
@@ -19,7 +21,7 @@
 import "vue-awesome/icons/angle-down";
 
 export default {
-  data: function() {
+  data: function () {
     return {
       languages: {
         en: "English",
@@ -39,10 +41,10 @@ export default {
   },
   computed: {
     locale: {
-      get() {
+      get () {
         return this.languages[this.$store.state.locale];
       },
-      async set(newLocale) {
+      async set (newLocale) {
         const langload = this.$loading.open({
           container: null
         });

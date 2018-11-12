@@ -7,7 +7,7 @@ export default {
       required: true
     }
   },
-  render: function(createElement) {
+  render: function (createElement) {
     return createElement(
       "h" + this.header,
       {

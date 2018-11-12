@@ -5,7 +5,8 @@
     :open-on-focus="true"
     :placeholder="getPlaceholder"
     icon="searchicon"
-    @select="option => itemID = option">
+    @select="option => itemID = option"
+  >
     <template slot="empty">-</template>
   </b-autocomplete>
 </template>
@@ -17,7 +18,7 @@ import Search from "../svg/Search.vue";
 
 export default {
   name: "NavSearch",
-  data() {
+  data () {
     return {
       name: ""
     };
@@ -25,7 +26,7 @@ export default {
   computed: {
     ...mapGetters(["getArtifactList", "getHeroList"]),
     itemID: {
-      get() {
+      get () {
         switch (this.$route.name) {
           case "":
           case "hero":
@@ -34,7 +35,7 @@ export default {
             return this.$store.state.artifactID;
         }
       },
-      async set(newID) {
+      async set (newID) {
         if (newID !== null) {
           switch (this.$route.name) {
             case "hero":
@@ -65,7 +66,7 @@ export default {
         }
       }
     },
-    itemList: function() {
+    itemList: function () {
       switch (this.$route.name) {
         case "hero":
           return Object.keys(this.getHeroList).sort();
@@ -73,10 +74,10 @@ export default {
           return Object.keys(this.getArtifactList).sort();
       }
     },
-    getPlaceholder: function() {
+    getPlaceholder: function () {
       return this.itemList[0];
     },
-    filteredDataArray: function() {
+    filteredDataArray: function () {
       var index = this.itemList.indexOf(this.name);
       if (index > -1) {
         var newList = this.itemList.slice();
@@ -100,7 +101,7 @@ export default {
       }
     }
   },
-  mounted() {
+  mounted () {
     this.$nextTick(() => {
       new Vue(Search).$mount(".mdi-searchicon");
     });

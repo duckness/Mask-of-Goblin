@@ -1,5 +1,5 @@
 export const softcap = {
-  data: function() {
+  data: function () {
     return {
       crit: {
         MaxK: 2000,
@@ -164,7 +164,7 @@ export const softcap = {
     };
   },
   methods: {
-    actualStat: function(statType, istat) {
+    actualStat: function (statType, istat) {
       var actual = 0;
       // variable names are fucked cause vespa
       if (istat === 0) {
@@ -199,10 +199,10 @@ export const softcap = {
       actual = Math.round(actual) / 10;
       return actual.toFixed(1);
     },
-    attenuate: function(x, k, a, b) {
+    attenuate: function (x, k, a, b) {
       return Math.floor((k * 1000000) / (a * x * x + b * x + 1000000));
     },
-    attenuateInv: function(x, k, a, b) {
+    attenuateInv: function (x, k, a, b) {
       return k - Math.floor((k * 1000000) / (a * x * x + b * x + 1000000));
     }
   }

@@ -14,10 +14,12 @@
             <strong>Mana Cost: </strong>
             <span
               v-if="skill.mana > 0"
-              class="orbs">
+              class="orbs"
+            >
               <orb
                 v-for="orb in skill.mana"
-                :key="orb" />
+                :key="orb"
+              />
             </span>
             <span v-else>{{ skill.mana }}</span>
           <br></span>

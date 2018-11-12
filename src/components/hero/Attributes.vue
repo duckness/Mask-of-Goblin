@@ -2,7 +2,8 @@
   <div>
     <anchoritem
       :header="3"
-      to="attrs">Attributes</anchoritem>
+      to="attrs"
+    >Attributes</anchoritem>
     <div class="media-content">
       <div class="content">
         <div class="columns">
@@ -13,7 +14,8 @@
                 <input
                   v-model.number="mpatkValue"
                   class="input"
-                  type="number">
+                  type="number"
+                >
               </div>
             </div>
             <label class="label">{{ $t('ui.aspd') }}</label>
@@ -22,7 +24,8 @@
                 <input
                   v-model.number="aspdValue"
                   class="input"
-                  type="number">
+                  type="number"
+                >
               </div>
             </div>
           </div>
@@ -62,7 +65,8 @@
           <tbody>
             <tr
               v-for="key in Object.keys(attributes.stats)"
-              :key="key">
+              :key="key"
+            >
               <td>{{ $t('ui.' + key) }}</td>
               <td>{{ attributes.stats[key] }}</td>
             </tr>
@@ -95,17 +99,17 @@ export default {
       required: true
     }
   },
-  data: function() {
+  data: function () {
     return {
       mpatkValue: 0,
       aspdValue: 1000
     };
   },
   computed: {
-    effCycle: function() {
+    effCycle: function () {
       return this.effDuration(this.auto.duration);
     },
-    effHits: function() {
+    effHits: function () {
       var s = "";
       for (var i = 0; i < this.auto.hits.length; i++) {
         s +=
@@ -115,32 +119,32 @@ export default {
       }
       return s.slice(0, -2);
     },
-    effMpatkhit: function() {
+    effMpatkhit: function () {
       return this.attributes.stats.mpatk * this.mpatkCapped;
     },
-    effMpatksec: function() {
+    effMpatksec: function () {
       var avgHitsPerSec = this.auto.hits.length / this.effCycle;
       return this.effMpatkhit * avgHitsPerSec;
     },
-    mpatkCapped: function() {
+    mpatkCapped: function () {
       return 1 + this.actualStat(this.mpatk, this.mpatkValue) / 100.0;
     },
-    aspdCapped: function() {
+    aspdCapped: function () {
       return this.actualStat(this.aspd, this.aspdValue) / 100.0;
     }
   },
   methods: {
-    effHitsHelper: function(arr) {
+    effHitsHelper: function (arr) {
       var a = [];
       for (var i = 0; i < arr.length; i++) {
         a.push(this.rounding(arr[i] / this.aspdCapped));
       }
       return a;
     },
-    effDuration: function(time_) {
+    effDuration: function (time_) {
       return time_ / this.aspdCapped;
     },
-    rounding: function(decimal) {
+    rounding: function (decimal) {
       return Math.round(decimal * 1000) / 1000;
     }
   }

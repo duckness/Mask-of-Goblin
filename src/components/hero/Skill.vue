@@ -1,35 +1,41 @@
 <template>
   <div>
     <sect>
-      <anchoritem 
-        :to="skillId" 
-        :header="3">{{ skillFull }}</anchoritem>
+      <anchoritem
+        :to="skillId"
+        :header="3"
+      >{{ skillFull }}</anchoritem>
       <skilldesc :skill="skill" />
     </sect>
     <sect v-if="'linked' in skill">
-      <anchoritem 
-        :to="skillId + 'linked'" 
-        :header="4">Linked</anchoritem>
+      <anchoritem
+        :to="skillId + 'linked'"
+        :header="4"
+      >Linked</anchoritem>
       <skilldesc :skill="skill.linked" />
     </sect>
     <sect>
-      <anchoritem 
-        :to="skillId + 't3'" 
-        :header="4">Transcendence 3</anchoritem>
-      <transcendence 
-        :light="skill.transcendence.light" 
-        :dark="skill.transcendence.dark" />
+      <anchoritem
+        :to="skillId + 't3'"
+        :header="4"
+      >Transcendence 3</anchoritem>
+      <transcendence
+        :light="skill.transcendence.light"
+        :dark="skill.transcendence.dark"
+      />
     </sect>
     <sect>
-      <anchoritem 
-        :to="skillId + 'books'" 
-        :header="4">Books</anchoritem>
+      <anchoritem
+        :to="skillId + 'books'"
+        :header="4"
+      >Books</anchoritem>
       <skillbooks :books="skill.books" />
     </sect>
     <sect v-if="'treasure' in skill">
-      <anchoritem 
-        :to="skillId + 'ut'" 
-        :header="4">{{ $t('ui.treasure') }}</anchoritem>
+      <anchoritem
+        :to="skillId + 'ut'"
+        :header="4"
+      >{{ $t('ui.treasure') }}</anchoritem>
       <treasure :treasure="skill.treasure" />
     </sect>
   </div>
@@ -64,10 +70,10 @@ export default {
     }
   },
   computed: {
-    skillId: function() {
+    skillId: function () {
       return "s" + this.num;
     },
-    skillFull: function() {
+    skillFull: function () {
       return "Skill " + this.num;
     }
   }

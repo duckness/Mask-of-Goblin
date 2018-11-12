@@ -1,20 +1,23 @@
 <template>
   <div id="hero-options">
-    <star-selector 
-      :size="size" 
-      v-bind="$attrs" />
+    <star-selector
+      :size="size"
+      v-bind="$attrs"
+    />
     <b-field :custom-class="size">
       <p class="control">
-        <button 
-          :class="iconClass" 
-          class="button is-static">{{ $t("ui.level") }}</button>
+        <button
+          :class="iconClass"
+          class="button is-static"
+        >{{ $t("ui.level") }}</button>
       </p>
-      <b-input 
-        v-model="level" 
-        :size="size" 
-        v-bind="$attrs" 
-        type="number" 
-        expanded />
+      <b-input
+        v-model="level"
+        :size="size"
+        v-bind="$attrs"
+        type="number"
+        expanded
+      />
     </b-field>
   </div>
 </template>
@@ -34,20 +37,20 @@ export default {
       default: ""
     }
   },
-  data: function() {
+  data: function () {
     return {
       starselected: false
     };
   },
   computed: {
-    iconClass: function() {
+    iconClass: function () {
       return this.size + " is-" + Object.keys(this.$attrs).join(" is-");
     },
     level: {
-      get() {
+      get () {
         return this.$store.state.level;
       },
-      set(newlevel) {
+      set (newlevel) {
         this.$store.commit("levelChange", newlevel);
       }
     }

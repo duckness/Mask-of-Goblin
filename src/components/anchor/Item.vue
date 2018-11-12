@@ -1,17 +1,21 @@
 <template>
   <span class="container">
-    <a 
-      :id="to" 
-      class="anchor" />
-    <ah 
-      :header="header" 
-      class="title header">
-      <a 
-        :href="'#' + to" 
-        class="anchor-link">
-        <icon 
-          class="anchor-icon is-hidden-mobile" 
-          name="link" />
+    <a
+      :id="to"
+      class="anchor"
+    />
+    <ah
+      :header="header"
+      class="title header"
+    >
+      <a
+        :href="'#' + to"
+        class="anchor-link"
+      >
+        <icon
+          class="anchor-icon is-hidden-mobile"
+          name="link"
+        />
         <slot />
       </a>
     </ah>

@@ -1,8 +1,9 @@
 <template>
   <div>
-    <anchoritem 
-      :header="3" 
-      to="uw">{{ $t('ui.weapon') }}</anchoritem>
+    <anchoritem
+      :header="3"
+      to="uw"
+    >{{ $t('ui.weapon') }}</anchoritem>
     <article class="media">
       <figure class="media-left">
         <p class="image is-128x128">
@@ -14,9 +15,10 @@
           <strong class="title is-5">{{ weapon.name }} </strong>
           <small class="subtitle is-6">({{ attack + ' ' + $t('ui.atk') }})</small>
           <br> {{ weapon.description[star] }}
-          <div 
-            v-if="additionalInfo !== ''" 
-            class="content is-small">
+          <div
+            v-if="additionalInfo !== ''"
+            class="content is-small"
+          >
             <strong class="is-6">Notes</strong>
             <br>
             <span>{{ additionalInfo }}</span>
@@ -44,7 +46,7 @@ export default {
       required: true
     }
   },
-  data() {
+  data () {
     return {
       additionalInfo: ""
     };

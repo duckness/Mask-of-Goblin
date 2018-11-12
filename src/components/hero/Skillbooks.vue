@@ -1,9 +1,10 @@
 <template>
   <div>
     <ol class="no-margin-ol">
-      <li 
-        v-for="book in books" 
-        :key="book">{{ book }}</li>
+      <li
+        v-for="book in books"
+        :key="book"
+      >{{ book }}</li>
     </ol>
   </div>
 </template>

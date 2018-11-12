@@ -1,11 +1,13 @@
 <template>
   <b-field
     id="star-selector-field"
-    :custom-class="size">
+    :custom-class="size"
+  >
     <p class="control">
       <button
         :class="iconClass"
-        class="button is-static">★</button>
+        class="button is-static"
+      >★</button>
     </p>
     <b-select
       id="star-selector-input"
@@ -13,12 +15,14 @@
       :size="size"
       v-bind="$attrs"
       expanded
-      @focus="scrollHandler()">
+      @focus="scrollHandler()"
+    >
       <option
         v-for="awakening in starLevel"
         :key="awakening.value"
         :value="awakening.value"
-        class="has-text-grey">{{ awakening.text }}</option>
+        class="has-text-grey"
+      >{{ awakening.text }}</option>
     </b-select>
   </b-field>
 </template>
@@ -33,7 +37,7 @@ export default {
       default: ""
     }
   },
-  data: function() {
+  data: function () {
     return {
       starLevel: [
         { text: "0", value: 0 },
@@ -48,31 +52,31 @@ export default {
     };
   },
   computed: {
-    iconClass: function() {
+    iconClass: function () {
       return this.size + " is-" + Object.keys(this.$attrs).join(" is-");
     },
     star: {
-      get() {
+      get () {
         return this.$store.state.star;
       },
-      set(newStar) {
+      set (newStar) {
         this.$store.commit("starChange", newStar);
       }
     }
   },
   // this and below functions are a hack to ensure it doesn't scroll to top on focus
-  mounted() {
+  mounted () {
     document.addEventListener("scroll", this.scrollListener);
     this.yCurrent = window.scrollY;
   },
-  beforeDestroy() {
+  beforeDestroy () {
     document.removeEventListener("scroll", this.scrollListener);
   },
   methods: {
-    scrollListener: function() {
+    scrollListener: function () {
       this.yCurrent = window.scrollY;
     },
-    scrollHandler: function() {
+    scrollHandler: function () {
       window.scrollTo(0, this.yCurrent);
       // scroll event unfocuses the select box, we just focus it again
       document.getElementById("star-selector-input").click();

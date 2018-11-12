@@ -1,7 +1,8 @@
 <template>
-  <div 
-    id="artifact-options" 
-    class="columns">
+  <div
+    id="artifact-options"
+    class="columns"
+  >
     <div class="column" />
     <div class="column is-narrow">
       <star-selector />

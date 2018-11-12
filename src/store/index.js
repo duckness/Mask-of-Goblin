@@ -70,7 +70,7 @@ const state = {
 
 const getters = {
   // sidebar navigation
-  getNav: function() {
+  getNav: function () {
     if (state.route.name === "hero") {
       const hero = getters.getHero();
       if (!hero) {
@@ -107,13 +107,13 @@ const getters = {
       return null;
     }
   },
-  getArtifactList: function() {
+  getArtifactList: function () {
     return state.artifactList;
   },
-  getHeroList: function() {
+  getHeroList: function () {
     return state.heroList;
   },
-  getArtifact: function() {
+  getArtifact: function () {
     if (
       !Vue.i18n.keyExists("artifact." + state.artifactID + ".name", "strict")
     ) {
@@ -129,7 +129,7 @@ const getters = {
       )
     };
   },
-  getHero: function() {
+  getHero: function () {
     var prefix = "hero." + state.heroID;
     if (!Vue.i18n.keyExists(prefix + ".name", "strict")) {
       return null;
@@ -163,28 +163,28 @@ const getters = {
       s4: h.getSkill(prefix + ".s4", "s4")
     };
   },
-  getUAtk: function() {
+  getUAtk: function () {
     return h.getUnique(h.getClassStats().uatk);
   },
-  getUHP: function() {
+  getUHP: function () {
     return h.getUnique(11500);
   }
 };
 
 const actions = {
-  async setLocale({ commit }, locale) {
+  async setLocale ({ commit }, locale) {
     locale = h.parseLocale(locale);
     await h.changeLocale(locale);
     commit("setArtifactList", lang[locale].artifact.names);
     commit("setHeroList", lang[locale].hero.names);
     commit("setLocale", locale);
   },
-  async changeItem({ commit }, params) {
+  async changeItem ({ commit }, params) {
     h.createIfNotExist(lang, state.locale, params.kind, params.num);
     await h.getLocaleText(state.locale, params.kind, params.num);
     commit(params.mutation, params.num);
   },
-  async initialLoad({ commit }, params) {
+  async initialLoad ({ commit }, params) {
     var locale = h.parseLocale(navigator.language);
     h.createIfNotExist(lang, locale, params.kind, params.num);
     h.createIfNotExist(lang, locale, "hero", "1");
@@ -201,26 +201,26 @@ const actions = {
 };
 
 const mutations = {
-  setArtifactID: function(state, newID) {
+  setArtifactID: function (state, newID) {
     state.artifactID = newID;
   },
-  setHeroID: function(state, newID) {
+  setHeroID: function (state, newID) {
     state.heroID = newID;
   },
-  setHeroList: function(state, list) {
+  setHeroList: function (state, list) {
     state.heroList = list;
   },
-  setArtifactList: function(state, list) {
+  setArtifactList: function (state, list) {
     state.artifactList = list;
   },
-  setLocale: function(state, locale) {
+  setLocale: function (state, locale) {
     Vue.i18n.set(locale);
     state.locale = locale;
   },
-  starChange: function(state, newStar) {
+  starChange: function (state, newStar) {
     state.star = Number(newStar);
   },
-  levelChange: function(state, newlevel) {
+  levelChange: function (state, newlevel) {
     // need to set the value twice to ensure the input value is refreshed
     state.level = Number(newlevel);
     state.level = h.levelValidation(newlevel);
@@ -228,17 +228,17 @@ const mutations = {
 };
 
 const h = {
-  getClass: function() {
+  getClass: function () {
     return state.data.hero[state.heroID].class;
   },
-  getAuto: function() {
+  getAuto: function () {
     var suffix = state.data.hero[state.heroID];
     return {
       hits: suffix.auto.time,
       duration: suffix.auto.duration
     };
   },
-  getAttributes: function() {
+  getAttributes: function () {
     var suffix = state.data.hero[state.heroID];
     var attrs = {
       dmgtype:
@@ -255,10 +255,10 @@ const h = {
     };
     return { ...attrs, ...h.getClassStats().attributes };
   },
-  getClassStats: function() {
+  getClassStats: function () {
     return state.data.class[h.getClass()];
   },
-  getSkill: function(prefix, skillNum) {
+  getSkill: function (prefix, skillNum) {
     var s = state.data.hero[state.heroID][skillNum];
     var d = {
       image: require("@/components/hero/images/" +
@@ -310,12 +310,12 @@ const h = {
     }
     return d;
   },
-  addIfExists: function(d, skill, attr) {
+  addIfExists: function (d, skill, attr) {
     if (attr in skill) {
       d[attr] = skill[attr];
     }
   },
-  getUnique: function(baseVal) {
+  getUnique: function (baseVal) {
     return Math.floor(
       (Math.floor(
         (state.data.scaling.star[state.star] *
@@ -326,17 +326,17 @@ const h = {
         1000
     );
   },
-  levelValidation: function(level) {
+  levelValidation: function (level) {
     level = Number(level);
     var minLevel = 0;
     var maxLevel = 90;
     var newLevel = h.numberWithinBounds(minLevel, maxLevel, level);
     return newLevel;
   },
-  numberWithinBounds: function(min, max, number) {
+  numberWithinBounds: function (min, max, number) {
     return number < min ? min : number > max ? max : number;
   },
-  createIfNotExist: function(dict, ...args) {
+  createIfNotExist: function (dict, ...args) {
     let d = dict;
     for (let i = 0; i < args.length; i++) {
       if (!d[args[i]]) {
@@ -345,7 +345,7 @@ const h = {
       d = d[args[i]];
     }
   },
-  getLocaleText: async function(locale, kind, num) {
+  getLocaleText: async function (locale, kind, num) {
     if (!lang[locale][kind][num].loaded) {
       lang[locale][kind][num].loaded = true;
       var result = await axios(
@@ -354,7 +354,7 @@ const h = {
       Vue.i18n.add(locale, { [kind]: { [num]: result.data } });
     }
   },
-  changeLocale: async function(locale) {
+  changeLocale: async function (locale) {
     if (!lang[locale].loaded) {
       lang[locale].loaded = true;
       var hero = await axios(lang[locale].location + "hero/names.json");
@@ -376,7 +376,7 @@ const h = {
       await h.getLocaleText(locale, "hero", state.heroID);
     }
   },
-  parseLocale: function(locale) {
+  parseLocale: function (locale) {
     var l = locale.split("-");
     if (l[0].toLowerCase() === "zh") {
       var tradtional = ["TW", "HK", "HANT"];

@@ -4,7 +4,8 @@
       <div class="content has-text-centered">
         <span class="is-italic">Made with <icon
           id="heart-logo"
-          name="heart" /> by duckness/TRAPPED</span>
+          name="heart"
+        /> by duckness/TRAPPED</span>
       </div>
     </div>
   </footer>

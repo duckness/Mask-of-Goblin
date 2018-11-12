@@ -1,7 +1,8 @@
 <template>
-  <icon 
-    id="searchicon" 
-    name="search" />
+  <icon
+    id="searchicon"
+    name="search"
+  />
 </template>
 
 <script>

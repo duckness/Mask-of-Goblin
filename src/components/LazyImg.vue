@@ -13,14 +13,14 @@ export default {
       required: true
     }
   },
-  data: function() {
+  data: function () {
     return {
       image: new Image(),
       imgsrc: this.src
     };
   },
   watch: {
-    src: function(newval) {
+    src: function (newval) {
       const loadingComponent = this.$loading.open({
         container: this.$refs.loadimg
       });

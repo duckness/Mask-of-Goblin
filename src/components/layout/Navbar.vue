@@ -7,15 +7,18 @@
       <div class="navbar-item">
         <a
           id="github-link"
-          href="https://github.com/duckness/Mask-of-Goblin"><icon
-            id="github-logo"
-            name="brands/github" /></a>
+          href="https://github.com/duckness/Mask-of-Goblin"
+        ><icon
+          id="github-logo"
+          name="brands/github"
+        /></a>
       </div>
       <lang />
       <div
         :class="{ 'is-active':isActive }"
         class="navbar-burger burger"
-        @click="isActive = !isActive">
+        @click="isActive = !isActive"
+      >
         <span />
         <span />
         <span />
@@ -23,28 +26,34 @@
     </div>
     <div
       :class="{ 'is-active':isActive }"
-      class="navbar-menu">
+      class="navbar-menu"
+    >
       <router-link
         :to="heroLink"
-        class="navbar-item">
+        class="navbar-item"
+      >
         {{ $t("ui.hero") }}
       </router-link>
       <router-link
         :to="artifactLink"
-        class="navbar-item">
+        class="navbar-item"
+      >
         {{ $t("ui.artifact") }}
       </router-link>
       <router-link
         to="/calc"
-        class="navbar-item">
+        class="navbar-item"
+      >
         Calc
       </router-link>
       <div
         v-if="!isCalc"
-        class="navbar-end">
+        class="navbar-end"
+      >
         <div
           v-if="this.$route.name === 'hero'"
-          class="navbar-item is-hidden-tablet">
+          class="navbar-item is-hidden-tablet"
+        >
           <options />
         </div>
         <div class="navbar-item">
@@ -70,7 +79,7 @@ export default {
     search: NavSearch,
     options: Options
   },
-  data() {
+  data () {
     return {
       isActive: false,
       name: "",
@@ -79,13 +88,13 @@ export default {
   },
   computed: {
     ...mapState(["artifactID", "heroID"]),
-    artifactLink: function() {
+    artifactLink: function () {
       return "/artifact/" + this.artifactID;
     },
-    heroLink: function() {
+    heroLink: function () {
       return "/hero/" + this.heroID;
     },
-    isCalc: function() {
+    isCalc: function () {
       return this.$route.name === "calc";
     }
   }

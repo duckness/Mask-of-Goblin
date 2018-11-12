@@ -1,7 +1,8 @@
 <template>
   <article
     id="hero"
-    class="media">
+    class="media"
+  >
     <figure class="media-left">
       <p class="image is-128x128">
         <lazyimg :src="hero.image" />
@@ -23,7 +24,8 @@
             <span>{{ hero.t5.light }}</span>
             <div
               v-if="false"
-              class="content is-small">
+              class="content is-small"
+            >
               <strong class="is-6">Notes</strong>
               <br>
               <span>{{ hero.t5.lightInfo }}</span>
@@ -34,7 +36,8 @@
             <span>{{ hero.t5.dark }}</span>
             <div
               v-if="false"
-              class="content is-small">
+              class="content is-small"
+            >
               <strong class="is-6">Notes</strong>
               <br>
               <span>{{ hero.t5.darkInfo }}</span>
@@ -61,10 +64,10 @@ export default {
     }
   },
   computed: {
-    linkWiki: function() {
+    linkWiki: function () {
       return "http://www.kingsraid.wiki/index.php?title="; // + this.hero.nameEN;
     },
-    linkBuilder: function() {
+    linkBuilder: function () {
       return "https://angryraids.ml/#/"; // + this.hero.nameEN;
     }
   }

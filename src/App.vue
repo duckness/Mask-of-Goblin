@@ -1,14 +1,17 @@
 <template>
   <div
     v-if="!isLoading"
-    id="app">
+    id="app"
+  >
     <navbar />
     <section
       id="content"
-      class="section">
+      class="section"
+    >
       <div
         id="container"
-        class="container">
+        class="container"
+      >
         <div class="columns is-centered">
           <navmenu v-if="this.$route.name === 'hero'" />
           <div class="column is-three-quarters">
@@ -34,14 +37,14 @@ export default {
     navmenu: NavMenu,
     mogfooter: MogFooter
   },
-  data: function() {
+  data: function () {
     return {
       isLoading: true
     };
   },
   computed: {
     ...mapGetters(["getHero", "getArtifact"]),
-    rootUrl: function() {
+    rootUrl: function () {
       if (window.location.port === "") {
         return window.location.protocol + "//" + window.location.hostname;
       } else {
@@ -54,7 +57,7 @@ export default {
         );
       }
     },
-    meta: function() {
+    meta: function () {
       if (this.isLoading) {
         return {
           image: "",
@@ -88,7 +91,7 @@ export default {
       }
     }
   },
-  metaInfo: function() {
+  metaInfo: function () {
     return {
       htmlAttrs: {
         lang: this.locale
@@ -115,7 +118,7 @@ export default {
     };
   },
   watch: {
-    $route(to) {
+    $route (to) {
       // make sure back button doesn't act funky
       if (to.name === "hero") {
         // this.$store.commit("setHeroID", to.params.id);
@@ -134,7 +137,7 @@ export default {
       }
     }
   },
-  async mounted() {
+  async mounted () {
     this.initialLoad();
     this.$nextTick(() => {
       if (this.$route.name === "hero") {
@@ -148,7 +151,7 @@ export default {
     });
   },
   methods: {
-    initialLoad: async function() {
+    initialLoad: async function () {
       await this.loadingCircle(
         this.$store.dispatch("initialLoad", {
           kind: this.$route.name,
@@ -156,7 +159,7 @@ export default {
         })
       );
     },
-    loadingCircle: async function(f) {
+    loadingCircle: async function (f) {
       const loader = this.$loading.open({
         container: null
       });
