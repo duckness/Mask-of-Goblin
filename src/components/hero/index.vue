@@ -38,7 +38,6 @@ import HeroDesc from "./HeroDesc.vue";
 import Attributes from "./Attributes.vue";
 import Skill from "./Skill.vue";
 import Weapon from "./Weapon.vue";
-import Options from "./Options.vue";
 
 export default {
   name: "Hero",
@@ -46,8 +45,7 @@ export default {
     herodesc: HeroDesc,
     attributes: Attributes,
     skill: Skill,
-    weapon: Weapon,
-    options: Options
+    weapon: Weapon
   },
   computed: {
     ...mapGetters({

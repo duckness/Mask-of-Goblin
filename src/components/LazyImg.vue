@@ -24,9 +24,9 @@ export default {
       const loadingComponent = this.$loading.open({
         container: this.$refs.loadimg
       });
-      this.image.onload = () => (
+      this.image.onload = () => ((
         (this.imgsrc = this.image.src), loadingComponent.close()
-      );
+      ));
       this.image.src = newval;
     }
   }

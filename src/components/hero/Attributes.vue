@@ -79,14 +79,12 @@
 
 <script>
 import { softcap } from "@/mixins/softcap";
-import LazyImg from "@/components/LazyImg.vue";
 import AnchorItem from "@/components/anchor/Item.vue";
 
 export default {
   name: "Attributes",
   components: {
-    anchoritem: AnchorItem,
-    lazyimg: LazyImg
+    anchoritem: AnchorItem
   },
   mixins: [softcap],
   props: {

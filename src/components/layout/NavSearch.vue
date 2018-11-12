@@ -93,7 +93,7 @@ export default {
               .indexOf(this.name.toLowerCase()) >= 0
           );
         });
-        if (newList_.length == 0) {
+        if (newList_.length === 0) {
           return this.itemList;
         } else {
           return newList_;
