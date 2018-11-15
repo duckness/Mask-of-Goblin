@@ -98,7 +98,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style scoped>
 .navbar {
   max-width: 100%;
   position: fixed;
@@ -112,17 +112,5 @@ export default {
   width: auto;
   height: 1.25rem;
   vertical-align: -0.25rem;
-}
-ul.is-unstyled {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  min-width: 80px;
-  li {
-    margin: 0 0 8px;
-  }
-  li:last-child {
-    margin: 0;
-  }
 }
 </style>

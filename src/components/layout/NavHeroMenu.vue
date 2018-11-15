@@ -58,5 +58,17 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
+ul.is-unstyled {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  min-width: 80px;
+  li {
+    margin: 0 0 8px;
+  }
+  li:last-child {
+    margin: 0;
+  }
+}
 </style>
