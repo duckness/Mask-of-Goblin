@@ -59,9 +59,4 @@ export default {
 </script>
 
 <style>
-ul.is-unstyled {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
 </style>
