@@ -28,12 +28,7 @@
       :class="{ 'is-active':isActive }"
       class="navbar-menu"
     >
-      <router-link
-        :to="heroLink"
-        class="navbar-item"
-      >
-        {{ $t("ui.hero") }}
-      </router-link>
+      <heromenu />
       <router-link
         :to="artifactLink"
         class="navbar-item"
@@ -70,6 +65,7 @@ import { mapState } from "vuex";
 import Logo from "@/components/svg/Logo.vue";
 import NavLang from "./NavLang.vue";
 import NavSearch from "./NavSearch.vue";
+import NavHeroMenu from "./NavHeroMenu.vue";
 import Options from "@/components/hero/Options.vue";
 
 export default {
@@ -77,6 +73,7 @@ export default {
     logo: Logo,
     lang: NavLang,
     search: NavSearch,
+    heromenu: NavHeroMenu,
     options: Options
   },
   data () {
