@@ -172,25 +172,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import "~bulma/sass/utilities/_all";
-@import "~bulmaswatch/solar/variables";
-
-$title-color: $white;
-$subtitle-color: lighten($grey-alt, 10);
-$text: lighten($grey, 10);
-$table-color: lighten($grey, 10);
-$table-background-color: transparent;
-$table-row-hover-background-color: $grey-dark;
-$table-striped-row-even-hover-background-color: $grey-dark;
-
-$input-color: $grey-lighter;
-$input-icon-color: darken($grey, 10);
-$input-background-color: $grey-darker;
-$input-border-color: darken($grey, 10);
-$input-hover-color: $grey-light;
-
-@import "~bulma";
-@import "~bulmaswatch/solar/overrides";
+@import "~bulmaswatch/superhero/bulmaswatch";
 @import "~buefy/src/scss/buefy";
 
 #app {
@@ -240,5 +222,8 @@ h4.is-h4 {
   font-size: 1rem;
   text-transform: uppercase;
   font-weight: 700;
+}
+.title {
+  font-weight: 600;
 }
 </style>
