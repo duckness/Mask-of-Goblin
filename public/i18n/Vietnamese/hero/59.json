@@ -36,12 +36,12 @@
   "uw": {
     "name": "Phúc lành ánh sáng, Benedicia",
     "description": [
-      "Khi bắt đầu trận chiến, giảm 10% sát thương vật lý mà tất cả các đồng minh phải chịu trong 30 giây. Tăng 100 điểm tốc độ tấn công của mục tiêu trong 30 giây.",
-      "Khi bắt đầu trận chiến, giảm 12% sát thương vật lý mà tất cả các đồng minh phải chịu trong 30 giây. Tăng 120 điểm tốc độ tấn công của mục tiêu trong 30 giây.",
-      "Khi bắt đầu trận chiến, giảm 14% sát thương vật lý mà tất cả các đồng minh phải chịu trong 30 giây. Tăng 140 điểm tốc độ tấn công của mục tiêu trong 30 giây.",
-      "Khi bắt đầu trận chiến, giảm 17% sát thương vật lý mà tất cả các đồng minh phải chịu trong 30 giây. Tăng 170 điểm tốc độ tấn công của mục tiêu trong 30 giây.",
-      "Khi bắt đầu trận chiến, giảm 21% sát thương vật lý mà tất cả các đồng minh phải chịu trong 30 giây. Tăng 210 điểm tốc độ tấn công của mục tiêu trong 30 giây.",
-      "Khi bắt đầu trận chiến, giảm 25% sát thương vật lý mà tất cả các đồng minh phải chịu trong 30 giây. Tăng 250 điểm tốc độ tấn công của mục tiêu trong 30 giây."
+      "Trong 30 giây sau khi trận chiến bắt đầu, giảm 10% Sát thương vật lý mà toàn bộ đồng minh phải gánh chịu và tăng cho họ 100 Tốc độ tấn công.",
+      "Trong 30 giây sau khi trận chiến bắt đầu, giảm 12% Sát thương vật lý mà toàn bộ đồng minh phải gánh chịu và tăng cho họ 120 Tốc độ tấn công.",
+      "Trong 30 giây sau khi trận chiến bắt đầu, giảm 14% Sát thương vật lý mà toàn bộ đồng minh phải gánh chịu và tăng cho họ 140 Tốc độ tấn công.",
+      "Trong 30 giây sau khi trận chiến bắt đầu, giảm 17% Sát thương vật lý mà toàn bộ đồng minh phải gánh chịu và tăng cho họ 170 Tốc độ tấn công.",
+      "Trong 30 giây sau khi trận chiến bắt đầu, giảm 21% Sát thương vật lý mà toàn bộ đồng minh phải gánh chịu và tăng cho họ 210 Tốc độ tấn công.",
+      "Trong 30 giây sau khi trận chiến bắt đầu, giảm 25% Sát thương vật lý mà toàn bộ đồng minh phải gánh chịu và tăng cho họ 250 Tốc độ tấn công."
     ],
     "story": "Một lá cờ được ban phước, tượng trưng cho mặt trời, mặt trăng và cả bầu trời. Nó ẩn chứa sức mạnh và giáo lý của Đấng sáng thế Lua. Khi ngài phất cờ, sức mạnh ánh sáng lan tỏa, giúp các đồng minh bình tâm, phá tan uy quyền bóng tối. Thánh tích được trao cho Lucias, người từng cầm hiệu kỳ trong đội ngũ Thánh hiệp sĩ của Lua."
   },
@@ -70,7 +70,7 @@
   },
   "s2": {
     "name": "Vùng tín tâm",
-    "description": "Mở ra [Vùng tín tâm] ở vị trí của bản thân trong {0} giây. Tăng {1} Sức tấn công cho đồng minh trong [Vùng tín tâm]. Hồi {4} thể lực của đối tượng đồng minh trong thời gian xuất kỹ năng. Liên tục loại bỏ hiệu ứng có hại của đồng minh trong phạm vi. Kẻ địch trong vùng này nhận phải {2} sát thương vật lý trên mỗi giây. Kẻ địch trúng đòn bị choáng trong {3} giây.",
+    "description": "Tạo ra [Vùng tín tâm] tại vị trí của bản thân trong {0} giây. Tăng {1} điểm Tấn công của đồng minh trong [Vùng tín tâm] và liên tục giải trừ hiệu ứng có hại trên người họ. Hồi {4} máu cho đồng minh trong vùng mỗi giây. Gây {2} Sát thương vật lý lên kẻ địch bên trong [Vùng tín tâm] mỗi giây và làm choáng chúng trong {3} giây.",
     "books": {
       "0": "Tăng phục hồi và sát thương {0}%.",
       "1": "Tăng phục hồi và sát thương {0}%.",
@@ -93,13 +93,13 @@
   },
   "s3": {
     "name": "Vết đốm",
-    "description": "Tăng {1} tỷ lệ né vật lý và tăng {2} sức mạnh tấn công của toàn bộ đồng minh trong {0} giây.Trong thời gian hiệu lực của kỹ năng, đòn tấn công thường gây thêm {3} sát thương vật lý, khiến mục tiêu chịu thêm {5}% sát thương vật lý trong {4} giây.Hiệu ứng mất dần khi người dùng kỹ năng chết.",
+    "description": "Tăng {1} điểm Né tránh vật lý và {2} điểm Tấn công của tất cả đồng minh trong {0} giây. Hiệu ứng sẽ bị giải trừ khi bản thân chết. Đòn tấn công thường gây thêm {3} Sát thương vật lý lên các mục tiêu trong {0} giây và tăng {5}% Sát thương vật lý mà mục tiêu phải gánh chịu trong {4} giây.",
     "books": {
       "0": "Lượng tăng sức tấn công và lượng sát thương tăng {0}%.",
       "1": "Lượng tăng sức tấn công và lượng sát thương tăng {0}%.",
       "2": "Lượng tăng sức tấn công và lượng sát thương tăng {0}%."
     },
-    "light": "Giảm 150 xác suất trúng đòn của đối thủ nhận sát thương trong 5 giây.",
+    "light": "[Vết đốm] Giảm 150 Độ chính xác của mục tiêu phải nhận thêm Sát thương vật lý từ kỹ năng này trong 5 giây.",
     "dark": "Nhận miễn nhiễm trạng thái chế ngự trong thời gian hiệu lực của kỹ năng.",
     "ut": {
       "name": "Sao mai khảo cứu",

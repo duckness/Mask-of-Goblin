@@ -36,12 +36,12 @@
   "uw": {
     "name": "Bênção de Luz, Benedicia",
     "description": [
-      "Quando a batalha começa, reduz em 10% o DAN F. recebido por todos os aliados por 30 seg. Aumenta em 100 a Vel. de ATQ do alvo por 30 seg.",
-      "Quando a batalha começa, reduz em 12% o DAN F. recebido por todos os aliados por 30 seg. Aumenta em 120 a Vel. de ATQ do alvo por 30 seg.",
-      "Quando a batalha começa, reduz em 14% o DAN F. recebido por todos os aliados por 30 seg. Aumenta em 140 a Vel. de ATQ do alvo por 30 seg.",
-      "Quando a batalha começa, reduz em 17% o DAN F. recebido por todos os aliados por 30 seg. Aumenta em 170 a Vel. de ATQ do alvo por 30 seg.",
-      "Quando a batalha começa, reduz em 21% o DAN F. recebido por todos os aliados por 30 seg. Aumenta em 210 a Vel. de ATQ do alvo por 30 seg.",
-      "Quando a batalha começa, reduz em 25% o DAN F. recebido por todos os aliados por 30 seg. Aumenta em 250 a Vel. de ATQ do alvo por 30 seg."
+      "Durante 30 seg. após o início da batalha, reduz em 10% o DAN F. sofrido por todos os aliados e aumenta em 100 sua Vel. de ATQ.",
+      "Durante 30 seg. após o início da batalha, reduz em 12% o DAN F. sofrido por todos os aliados e aumenta em 120 sua Vel. de ATQ.",
+      "Durante 30 seg. após o início da batalha, reduz em 14% o DAN F. sofrido por todos os aliados e aumenta em 140 sua Vel. de ATQ.",
+      "Durante 30 seg. após o início da batalha, reduz em 17% o DAN F. sofrido por todos os aliados e aumenta em 170 sua Vel. de ATQ.",
+      "Durante 30 seg. após o início da batalha, reduz em 21% o DAN F. sofrido por todos os aliados e aumenta em 210 sua Vel. de ATQ.",
+      "Durante 30 seg. após o início da batalha, reduz em 25% o DAN F. sofrido por todos os aliados e aumenta em 250 sua Vel. de ATQ."
     ],
     "story": "Uma bandeira abençoada que representa o Sol, a Lua e todo o céu. Ela contém o poder e os ensinos de quem a criou, Lua. O poder da luz se espalha quando ele balança a bandeira, tranquilizando seus aliados e derrotando os poderes da escuridão. Uma relíquia concedida a Lucias, que costumava ser um porta-bandeira dos Cavaleiros Sagrados de Lua."
   },
@@ -70,7 +70,7 @@
   },
   "s2": {
     "name": "Zona da Fé",
-    "description": "Revela a [Zona da Fé] no local do conjurador por {0} seg. Aumenta o ATQ dos aliados que estão na [Zona da Fé] em {1}. Os inimigos que estão na zona recebem {2} de DAN F. a cada segundo. Os inimigos atingidos são atordoados por {3} seg.Restaura os PV do alvo em {4} , durante o efeito do poder.Remove continuamente os efeitos negativos dos aliados.",
+    "description": "Cria a [Zona de Fé] no próprio local por {0} seg. Aumenta o ATQ de aliados na [Zona de Fé] em {1} e remove os efeitos negativos deles continuamente. Cura aliados na área em {4} a cada segundo. Causa {2} de DAN F. nos inimigos dentro da [Zona de Fé] a cada segundo, e os atordoa por {3} seg.",
     "books": {
       "0": "Aumenta a Recuperação e o DAN em {0}%.",
       "1": "Aumenta a Recuperação e o DAN em {0}%.",
@@ -93,13 +93,13 @@
   },
   "s3": {
     "name": "Estigma",
-    "description": "Chance de ESQ.F aumenta em {1} , durante {0} segundos e o ATQ em {2}.Enquanto a habilidade durar, os ataques normais causam {3} de DAN F. adicional e fazem o alvo receber {5}% de DAN F. a mais por {4} seg.O efeito acaba quando o conjurador morre.",
+    "description": "Aumenta a Esquiva F. de todos os aliados em {1} e seu ATQ em {2} por {0} seg. Os efeitos serão removidos quando você morre. Ataques normais causam mais {3} de DAN F. aos alvos por {0} seg., e aumentam em {5}% o DAN F. sofrido pelo alvo por {4} seg.",
     "books": {
       "0": "Reforços de ATQ e DAN aumentam em {0}%.",
       "1": "Reforços de ATQ e DAN aumentam em {0}%.",
       "2": "Reforços de ATQ e DAN aumentam em {0}%."
     },
-    "light": "Reduz a PREC dos inimigos atingidos em 150 por 5 segundos.",
+    "light": "[Estigma] Reduz em 150 a PREC dos alvos sofrendo DAN F. adicional dessa habilidade durante 5 seg.",
     "dark": "Concede Imunidade a CM enquanto durar a habilidade.",
     "ut": {
       "name": "Ensino da Estrela da Manhã",

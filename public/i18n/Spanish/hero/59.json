@@ -36,12 +36,12 @@
   "uw": {
     "name": "Bendición de luz, Benedicia",
     "description": [
-      "Cuando comienza la batalla, reduce el daño físico que reciben todos los aliados en un 10 % durante 30 segundos. Aumenta la velocidad de ataque del objetivo en 100 durante 30 segundos.",
-      "Cuando comienza la batalla, reduce el daño físico que reciben todos los aliados en un 12 % durante 30 segundos. Aumenta la velocidad de ataque del objetivo en 120 durante 30 segundos.",
-      "Cuando comienza la batalla, reduce el daño físico que reciben todos los aliados en un 14 % durante 30 segundos. Aumenta la velocidad de ataque del objetivo en 140 durante 30 segundos.",
-      "Cuando comienza la batalla, reduce el daño físico que reciben todos los aliados en un 17 % durante 30 segundos. Aumenta la velocidad de ataque del objetivo en 170 durante 30 segundos.",
-      "Cuando comienza la batalla, reduce el daño físico que reciben todos los aliados en un 21 % durante 30 segundos. Aumenta la velocidad de ataque del objetivo en 210 durante 30 segundos.",
-      "Cuando comienza la batalla, reduce el daño físico que reciben todos los aliados en un 25 % durante 30 segundos. Aumenta la velocidad de ataque del objetivo en 250 durante 30 segundos."
+      "Durante 30 segundos después del comienzo de la batalla, reduce en un 10 % el Daño físico que reciben todos los aliados y aumenta su Velocidad de ataque en 100.",
+      "Durante 30 segundos después del comienzo de la batalla, reduce en un 12 % el Daño físico que reciben todos los aliados y aumenta su Velocidad de ataque en 120.",
+      "Durante 30 segundos después del comienzo de la batalla, reduce en un 14 % el Daño físico que reciben todos los aliados y aumenta su Velocidad de ataque en 140.",
+      "Durante 30 segundos después del comienzo de la batalla, reduce en un 17 % el Daño físico que reciben todos los aliados y aumenta su Velocidad de ataque en 170.",
+      "Durante 30 segundos después del comienzo de la batalla, reduce en un 21 % el Daño físico que reciben todos los aliados y aumenta su Velocidad de ataque en 210.",
+      "Durante 30 segundos después del comienzo de la batalla, reduce en un 25 % el Daño físico que reciben todos los aliados y aumenta su Velocidad de ataque en 250."
     ],
     "story": "Una bandera bendecida que representa el sol, la luna y todo el cielo. Contiene el poder y las enseñanzas del Creador, Lua. El poder de la luz se extiende cuando flamea la bandera, trayendo paz a las mentes de sus aliados y venciendo los poderes de la oscuridad. Un objeto sagrado que se otorgó a Lucias, que solía tener la bandera en los Caballeros sagrados de Lua."
   },
@@ -70,7 +70,7 @@
   },
   "s2": {
     "name": "Zona de fe",
-    "description": "Desdobla la [Zona de fe] en la ubicación del lanzador durante {0} segundos. Aumenta el Ataque de los aliados en la [Zona de fe] en {1}. Los enemigos de la zona reciben {2} de daño físico por cada segundo. Los enemigos golpeados están aturdidos durante {3} segundos.Restaura la Salud del objetivo en {4} durante la duracion de la habilidad.Disipa continuamente los efectos negativos de los aliados.",
+    "description": "Arma [Zona de fe] en la ubicación propia durante {0} seg. Aumenta el Ataque de los aliados en la [Zona de fe] en {1} y disipa continuamente los efectos negativos sobre ellos. Cura a los aliados en el área en {4} cada segundo. Inflige Daño físico de {2} a los enemigos dentro de [Zona de fe] cada segundo y los aturde durante {3} seg.",
     "books": {
       "0": "Aumenta la Recuperacion y el Daño en {0}%.",
       "1": "Aumenta la Recuperacion y el Daño en {0}%.",
@@ -93,13 +93,13 @@
   },
   "s3": {
     "name": "Estigma",
-    "description": "la Oportunidad de Evasion Fis. Aumenta en  {1}  por  {0}  seg y el ATQ aumenta en  {2}.Para la duración de la habilidad, los ataques normales infligen {3} de daño físico adicional y hacen que el objetivo reciba {5}  % de daño físico adicional durante {4} segundos.El efecto se disipa cuando muere el lanzador.",
+    "description": "Aumenta la Evasión física de todos los aliados en {1} y su Ataque en {2} durante {0} seg. Los efectos se disiparán al morir. Los ataques normales infligen {3} de Daño físico adicional a los objetivos durante {0} seg., y aumenta el Daño físico que recibe el objetivo en un {5}  % durante {4} seg.",
     "books": {
       "0": "Los aumentos de ATQ y Daño se incrementan en {0}%.",
       "1": "Los aumentos de ATQ y Daño se incrementan en {0}%.",
       "2": "Los aumentos de ATQ y Daño se incrementan en {0}%."
     },
-    "light": "Reduce la precisión de los enemigos golpeados en 150 por 5 segundos",
+    "light": "[Estigma] Disminuye en 150 la Precisión de los objetivos que reciben Daño físico adicional de esta habilidad durante 5 segundos.",
     "dark": "Gana inmunidad al Control de multitudes para la duración de la habilidad.",
     "ut": {
       "name": "Enseñanza del lucero del alba",

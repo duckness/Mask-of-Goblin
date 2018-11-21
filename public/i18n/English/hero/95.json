@@ -1,0 +1,132 @@
+{
+  "name": "Nicky",
+  "subtitle": "Chief Guard of Cruelty",
+  "description": "A female warrior, the Chief Guard at Orvel Stockade where the worst monsters are imprisoned. Instills fear inside monsters as her skills and power are comparable to those of the Beast of the Arena Gladi. Her powerful mace crushes the bones and shreds the flesh off her enemies.",
+  "story": "Chief Guard who manages the Orvel Stockade. In the past, she was once a warrior at the Orvel Arena, and a rival to Gladi. When Gladi began to spend more time running a shop than conquering the Arena, Nicky lost interest too and found another job. Somewhat skilled in training monsters, she applied to be the Stockade's Chief Guard, which is a dangerous yet well-paid job. While the inmates usually refrain from doing anything out of their fear for her, from time to time, they would lose all sense of reason and cause a scene. With each incident like that, her mace drew blood, leaving the inmates to cower in fear again.",
+  "like": "Simple things, orderly things",
+  "dislike": "Unruly troublemakers",
+  "inn": {
+    "idle": "Where have you been wandering? Let's go get some drinks!",
+    "recruit": {
+      "greet": "",
+      "talk": [
+        "",
+        "",
+        ""
+      ],
+      "gift": ""
+    },
+    "affinity": {
+      "greet": "Hey! Why are you meandering around! Come over here!",
+      "talk": [
+        "I'm starting to grow tired of bullying those monsters.",
+        "Is there anyone who can actually put up a good fight? What about you? Let's do it!"
+      ],
+      "gift": "Present? Wow, really?"
+    },
+    "relationship": {
+      "greet": "Those who act suspiciously ought to have their faces smashed in, don't you agree?",
+      "talk": [
+        "How's work? Nothing special. Just smacking anyone who misbehaves.",
+        "It's way better here than the somber stockade!",
+        "Boring Gladi, she hasn't been showing up in the Arena nowadays."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Mace of Rehabilitation, Hartnon",
+    "description": [
+      "Grants Grudge of Hartnon effect to enemies dealt by normal and skill attack by 20% chance. For 5 sec, Grudge of Hartnon reduces ATK Spd by 100, increases P.DMG taken by the targets by 10%, deals DMG equal to 40% Nicky's ATK every second, and reduces Mana by 60. This effect cannot be stacked.",
+      "Grants Grudge of Hartnon effect to enemies dealt by normal and skill attack by 20% chance. For 5 sec, Grudge of Hartnon reduces ATK Spd by 120, increases P.DMG taken by the target by 12%, deals DMG equal to 48% Nicky's ATK every second, and reduces Mana by 72. This effect cannot be stacked.",
+      "Grants Grudge of Hartnon effect to enemies dealt by normal and skill attack by 20% chance. For 5 sec, Grudge of Hartnon reduces ATK Spd by 140, increases the P.DMG taken by the target by 14%, deals DMG equal to 56% of Nicky's ATK every second, and reduces Mana by 86. This effect cannot be stacked.",
+      "Grants Grudge of Hartnon effect to enemies dealt by normal and skill attack by 20% chance. For 5 sec, Grudge of Hartnon reduces ATK Spd by 170, increases P.DMG taken by the target by 17%, deals DMG equal to 68% of Nicky's ATK every second, and reduces Mana by 104. This effect cannot be stacked.",
+      "Grants Grudge of Hartnon effect to enemies dealt by normal and skill attack by 20% chance. For 5 sec, Grudge of Hartnon reduces ATK Spd by 200, increases P.DMG taken by the target by 20%, deals DMG equal to 80% of Nicky's ATK every second, and reduces Mana by 124. This effect cannot be stacked.",
+      "Grants Grudge of Hartnon effect to enemies dealt by normal and skill attack by 20% chance. For 5 sec, Grudge of Hartnon reduces ATK Spd by 250, increases P.DMG taken by the target by 25%, deals DMG equal to 100% of Nicky's ATK every second, and reduces Mana by 150. This effect cannot be stacked."
+    ],
+    "story": "The mace wielded by the Chief Guard to keep the inmates under control. It is known as the Mace of Rehabilitation for the unruly monsters in captivity. Although it was passed down from one Stockade Chief Guard in Orvelia to another across generations, soon after Nicky became the new chief, she broke a part of the mace while mercilessly swinging it at the prisoners. -......... She was staring at the broken mace when she turned her eyes to the prisoners. Her eyes stopped at the Hell Beast Hartnon whose entire body was covered with horns. A cruel grin appeared on her face. - You! You've got a pretty eyeball for a piece of trash! In time, the monster's eye went through Blacksmith Jin's hands and became Nicky's new mace. The new mace was perfect for her. The horns sprouting from the mace exuded an excruciating curse, while the deep grudge ingrained in the monster's iris offering ensured a soul-crushing pain. The inmates began to call the new mace 'Hartnon' in remembrance of the beast sacrificed for the weapon. Nicky felt a surge of incomparable pleasure whenever she'd swing the new mace at the prisoners."
+  },
+  "s1": {
+    "name": "Mace of Rehabilitation",
+    "description": "Deals P.DMG of {0} to enemy target and nearby enemies within narrow range, and stuns them for {1} sec. Target is placed in Disarmament for {2} sec. Enemies in Disarmament will have their P.Block changed to 0. This effect cannot be removed.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Decreases ACC of target by 200 for 10 sec.",
+    "dark": "Reduces Mana Cost by 1.",
+    "ut": {
+      "name": "Special Boots of Stockade",
+      "description": [
+        "[Mace of Rehabilitation] Reduces P.DEF of hit enemy by 25% for 10 sec, and adds Reduction Effect on Heal Rate by 30% in Disarmament state.",
+        "[Mace of Rehabilitation] Reduces P.DEF of hit enemy by 25% for 10 sec, and adds Reduction Effect on Heal Rate by 36% in Disarmament state.",
+        "[Mace of Rehabilitation] Reduces P.DEF of hit enemy by 25% for 10 sec, and adds Reduction Effect on Heal Rate by 43% in Disarmament state.",
+        "[Mace of Rehabilitation] Reduces P.DEF of hit enemy by 25% for 10 sec, and adds Reduction Effect on Heal Rate by 52% in Disarmament state.",
+        "[Mace of Rehabilitation] Reduces P.DEF of hit enemy by 25% for 10 sec, and adds Reduction Effect on Heal Rate by 62% in Disarmament state.",
+        "[Mace of Rehabilitation] Reduces P.DEF of hit enemy by 25% for 10 sec, and adds Reduction Effect on Heal Rate by 75% in Disarmament state."
+      ],
+      "story": "A pair of boots made with the leather of monsters rampaging in the Stockade. On the first day that Nicky started working as the chief guard, she was upset to see the monsters wreaking havoc in the place. As the monsters lunged at her, she swung her mace and smashed their skulls with a cold smile on her face. Nicky then skinned the monsters and made a pair of boots out of their leather. Since then, none of the prisoners at the Stockade have ever given her any trouble."
+    }
+  },
+  "s2": {
+    "name": "Merciless Gale",
+    "description": "Sets in position, and swings her weapon to attack enemies in circular range for {0} times. Each hit deals P.DMG of {1} , and stuns the target for {2} sec. Whenever the weapon is swung, increases own ATK Spd, skill DMG and Duration of stun. Increases own ATK Spd up to {3} , own skill DMG up to {4}%, and Duration of stun up to {5} sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Dispels enemies' positive effects by 25% chance upon every hit.",
+    "dark": "Increases DMG to Non-Hero enemies by 50%.",
+    "ut": {
+      "name": "Pendant of War God",
+      "description": [
+        "[Merciless Gale] Increases DMG by 50% and reduces Cooldown by 1.6% for each enemy hit.",
+        "[Merciless Gale] Increases DMG by 50% and reduces Cooldown by 1.9% for each enemy hit.",
+        "[Merciless Gale] Increases DMG by 50% and reduces Cooldown by 2.3% for each enemy hit.",
+        "[Merciless Gale] Increases DMG by 50% and reduces Cooldown by 2.7% for each enemy hit.",
+        "[Merciless Gale] Increases DMG by 50% and reduces Cooldown by 3.3% for each enemy hit.",
+        "[Merciless Gale] Increases DMG by 50% and reduces Cooldown by 4% for each enemy hit."
+      ],
+      "story": "A pendant acquired from a fight with the Gladi, Nicky's lifelong rival. It is known that in the past, the War God of Orbis Continent imbued his power into the pendant so that it could be used for possible future crisis. Inside the jewel is a flame, blazing like the soul of a fighter. When it came to the auction house, Gladi and Nicky fought days and nights for it, neither having the upper hand. Was what happened next an act of mischief by the Goddess? When the fight grew particularly fierce, the wind delivered the scent of silver vine. Gladi, lured by the sweet scent, gave up the fight and ran outside. Eventually, Nicky won the pendant."
+    }
+  },
+  "s3": {
+    "name": "Last Execution",
+    "description": "Sets in position, focuses, and attacks enemies in wide frontal range to deal {0} P.DMG and knock them back for {1} sec. Depending on the time spent focusing, increases the distance of knockback and falling down time up to {2} sec. Increases DMG up to {3}%, and if Nicky focuses fully, removes Positive Effect on enemies in range. Deals additional DMG of {4} to Non-Hero enemy, and makes it to take {6}% increased P.DMG for {5} sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Reduces Mana Cost by 1.",
+    "dark": "Increases Mana Cost by 1 and DMG by 100%.",
+    "ut": {
+      "name": "Merciless Skull Knuckle",
+      "description": [
+        "[Last Execution] Reduces Cooldown by 30% and increases own DMG to Boss by 4% per use. This effect can be stacked up to max 10 times.",
+        "[Last Execution] Reduces Cooldown by 30% and increases own DMG to Boss by 4.8% per use. This effect can be stacked up to max 10 times.",
+        "[Last Execution] Reduces Cooldown by 30% and increases own DMG to Boss by 5.8% per use. This effect can be stacked up to max 10 times.",
+        "[Last Execution] Reduces Cooldown by 30% and increases own DMG to Boss by 7% per use. This effect can be stacked up to max 10 times.",
+        "[Last Execution] Reduces Cooldown by 30% and increases own DMG to Boss by 8.4% per use. This effect can be stacked up to max 10 times.",
+        "[Last Execution] Reduces Cooldown by 30% and increases own DMG to Boss by 10% per use. This effect can be stacked up to max 10 times."
+      ],
+      "story": "A strange knuckle bought from Cassandra while she was visiting Orvelia. Cassandra met Nicky at the Inn, cursing and complaining about her disobedient prisoners, and sold her this item. According to Cassandra, the skulls on the knuckle are made from the bones of high wizards, and the one with red eyes has the ability to cause hallucinations and endlessly torture enemies. Nicky is using it, along with her mace, to punish felons."
+    }
+  },
+  "s4": {
+    "name": "Massacre Instinct",
+    "description": "Increases own ATK by {0} and Crit Chance by {1}. When own HP is below {2}%, Cruel Madness effect will be activated. With Cruel Madness effect removes all own Negative Effects, and for {3} sec, increases own ATK by {4} , takes {5}% reduced DMG, and gains immunity to CC. This effect will be activated once every {6} sec.",
+    "books": {
+      "0": "ATK boost is increased by {0}%.",
+      "1": "ATK boost is increased by {0}%.",
+      "2": "ATK boost is increased by {0}%."
+    },
+    "light": "Increases Cruel Madness duration by 5 sec.",
+    "dark": "Boss monster takes 15% increased DMG."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / ATK.Spd +100",
+    "dark": "Increases own CC Resist by 500."
+  }
+}

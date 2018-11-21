@@ -36,12 +36,12 @@
   "uw": {
     "name": "Délicatesse de la lumière, Benedicia",
     "description": [
-      "Au début du combat, réduit de 10 % les DEG P subis par tous les alliés pendant 30 sec. Augmente la Vit ATQ de la cible de 100 points pendant 30 sec.",
-      "Au début du combat, réduit de 12 % les DEG P subis par tous les alliés pendant 30 sec. Augmente la Vit ATQ de la cible de 120 points pendant 30 sec.",
-      "Au début du combat, réduit de 14 % les DEG P subis par tous les alliés pendant 30 sec. Augmente la Vit ATQ de la cible de 140 points pendant 30 sec.",
-      "Au début du combat, réduit de 17 % les DEG P subis par tous les alliés pendant 30 sec. Augmente la Vit ATQ de la cible de 170 points pendant 30 sec.",
-      "Au début du combat, réduit de 21 % les DEG P subis par tous les alliés pendant 30 sec. Augmente la Vit ATQ de la cible de 210 points pendant 30 sec.",
-      "Au début du combat, réduit de 25 % les DEG P subis par tous les alliés pendant 30 sec. Augmente la Vit ATQ de la cible de 250 points pendant 30 sec."
+      "Au début du combat, réduit les DEG P subis par tous les alliés de 10 % et augmente leur Vit ATQ de 100 points pendant 30 sec.",
+      "Au début du combat, réduit les DEG P subis par tous les alliés de 12 % et augmente leur Vit ATQ de 120 points pendant 30 sec.",
+      "Au début du combat, réduit les DEG P subis par tous les alliés de 14 % et augmente leur Vit ATQ de 140 points pendant 30 sec.",
+      "Au début du combat, réduit les DEG P subis par tous les alliés de 17 % et augmente leur Vit ATQ de 170 points pendant 30 sec.",
+      "Au début du combat, réduit les DEG P subis par tous les alliés de 21 % et augmente leur Vit ATQ de 210 points pendant 30 sec.",
+      "Au début du combat, réduit les DEG P subis par tous les alliés de 25 % et augmente leur Vit ATQ de 250 points pendant 30 sec."
     ],
     "story": "Drapeau béni représentant le soleil, la lune et tout le ciel. Il renferme les enseignements et le pouvoir de Lua, la créatrice. Lorsque Lucias agite ce drapeau, il répand le pouvoir de la lumière, apaisant l'esprit de ses alliés en repoussant les ténèbres. Cet objet saint fut remis à Lucias, autrefois porte-drapeau des Chevaliers sacrés de Lua."
   },
@@ -70,7 +70,7 @@
   },
   "s2": {
     "name": "Zone de foi",
-    "description": "Déploie une [Zone de foi] à l'emplacement du lanceur pendant {0}  sec. Dans la [Zone de foi], l'ATQ des alliés augmente de {1}  points, tandis que les ennemis subissent {2}  points de DEG P chaque seconde. Les ennemis touchés sont étourdis pendant {3}  sec.Restaure les PV à la cible de {4} pour la durée de la compétence.Dissipe en continu les effets négatifs qui pèsent sur les alliés.",
+    "description": "Déploie une [Zone de foi] à l'emplacement du lanceur pendant {0}  sec. Dans la [Zone de foi], l'ATQ des alliés augmente de {1}  points et les effets négatifs qui pèsent sur eux sont dissipés en continu. Restaure chaque seconde {4}  PV aux alliés. Inflige chaque seconde {2}  points de DEG P aux ennemis situés dans la [Zone de foi] et les étourdit pendant {3}  sec.",
     "books": {
       "0": "Augmente la Récupération et les DEG de {0}%.",
       "1": "Augmente la Récupération et les DEG de {0}%.",
@@ -93,13 +93,13 @@
   },
   "s3": {
     "name": "Stigmates",
-    "description": "Les Chances de Parade P. augmentent de {1} pendant {0} sec et l'ATQ augmente de {2}.Pendant la durée de la compétence, les attaques normales infligent {3}  points de DEG P supplémentaires et la cible subit {5}  % de DEG P supplémentaires pendant {4}  sec.L'effet s'estompe lorsque le lanceur meurt.",
+    "description": "Augmente les chances d'Esquive P de tous les alliés de {1}  points et leur ATQ de {2} pendant {0}  sec. L'effet se dissipe si le lanceur meurt. Les attaques normales infligent {3}  points de DEG P supplémentaires à la cible pendant {0}  sec, et les DEG P qu'elle reçoit augmentent de {5}  % pendant {4}  sec.",
     "books": {
       "0": "Les boosts d'ATQ et de DEG sont augmentés de {0}%.",
       "1": "Les boosts d'ATQ et de DEG sont augmentés de {0}%.",
       "2": "Les boosts d'ATQ et de DEG sont augmentés de {0}%."
     },
-    "light": "Réduit la Précision des ennemis touchés de 150 pendant 5 sec.",
+    "light": "[Stigmates] Réduit la précision de la cible, qui reçoit 150 points de DEG P supplémentaires pendant 5 sec.",
     "dark": "Confère l'immunité contre les contrôles pendant la durée de la compétence.",
     "ut": {
       "name": "Enseignements de l'étoile du Berger",

@@ -36,12 +36,12 @@
   "uw": {
     "name": "Lichtsegen Benedicia",
     "description": [
-      "Verringert zu Kampfbeginn den K.Schaden, den Verbündete erleiden, für 30 Sek. um 10 %. Erhöht die ANG-Geschwindigkeit des Ziels für 30 Sek. um 100.",
-      "Verringert zu Kampfbeginn den K.Schaden, den Verbündete erleiden, für 30 Sek. um 12 %. Erhöht die ANG-Geschwindigkeit des Ziels für 30 Sek. um 120.",
-      "Verringert zu Kampfbeginn den K.Schaden, den Verbündete erleiden, für 30 Sek. um 14 %. Erhöht die ANG-Geschwindigkeit des Ziels für 30 Sek. um 140.",
-      "Verringert zu Kampfbeginn den K.Schaden, den Verbündete erleiden, für 30 Sek. um 17 %. Erhöht die ANG-Geschwindigkeit des Ziels für 30 Sek. um 170.",
-      "Verringert zu Kampfbeginn den K.Schaden, den Verbündete erleiden, für 30 Sek. um 21 %. Erhöht die ANG-Geschwindigkeit des Ziels für 30 Sek. um 210.",
-      "Verringert zu Kampfbeginn den K.Schaden, den Verbündete erleiden, für 30 Sek. um 25 %. Erhöht die ANG-Geschwindigkeit des Ziels für 30 Sek. um 250."
+      "Verringert nach Kampfbeginn den K.Schaden, den alle Verbündeten erleiden, für 30 Sek. um 10 % und erhöht ihre ANG-Geschwindigkeit um 100.",
+      "Verringert nach Kampfbeginn den K.Schaden, den alle Verbündeten erleiden, für 30 Sek. um 12 % und erhöht ihre ANG-Geschwindigkeit um 120.",
+      "Verringert nach Kampfbeginn den K.Schaden, den alle Verbündeten erleiden, für 30 Sek. um 14 % und erhöht ihre ANG-Geschwindigkeit um 140.",
+      "Verringert nach Kampfbeginn den K.Schaden, den alle Verbündeten erleiden, für 30 Sek. um 17 % und erhöht ihre ANG-Geschwindigkeit um 170.",
+      "Verringert nach Kampfbeginn den K.Schaden, den alle Verbündeten erleiden, für 30 Sek. um 21 % und erhöht ihre ANG-Geschwindigkeit um 210.",
+      "Verringert nach Kampfbeginn den K.Schaden, den alle Verbündeten erleiden, für 30 Sek. um 25 % und erhöht ihre ANG-Geschwindigkeit um 250."
     ],
     "story": "Eine gesegnete Fahne, die die Sonne, den Mond und den gesamten Himmel repräsentiert. Ihr wohnen die Macht und die Lehren der Schöpferin Lua inne. Wenn er die Fahne schwenkt, verbreitet sich die Macht des Lichts, wodurch seine Verbündeten geistigen Frieden finden und die Macht der Dunkelheit besiegt wird. Hierbei handelt es sich um ein Heiligtum, das Lucias anvertraut wurde, der in seiner Zeit als Heiliger Ritter von Lua ebenfalls ein Fahnenträger war."
   },
@@ -70,7 +70,7 @@
   },
   "s2": {
     "name": "Glaubenszone",
-    "description": "Ruft unter dem Beschwörer für {0} Sek. die [Glaubenszone] herbei. Erhöht den ANG von Verbündeten in der [Glaubenszone] um {1}. Feinde in der Zone erleiden pro Sekunde {2} K.Schaden. Getroffene Feinde werden für {3} Sek. betäubt.Regeneriert die TP des Ziels um {4} für die Wirkungsdauer.Entfernt kontinuierlich negative Effekte von Verbündeten.",
+    "description": "Baut am eigenen Standort für {0} Sek. die [Glaubenszone] auf. Erhöht den ANG von Verbündeten in der [Glaubenszone] um {1} und entfernt kontinuierlich negative Effekte von ihnen. Heilt pro Sekunde Verbündete in der Nähe um {4}. Feinde in der [Glaubenszone] erleiden pro Sekunde K.Schaden von {2} und werden für {3} Sek. betäubt.",
     "books": {
       "0": "Erhöht Erholung und Schaden um {0}%.",
       "1": "Erhöht Erholung und Schaden um {0}%.",
@@ -93,13 +93,13 @@
   },
   "s3": {
     "name": "Stigmata",
-    "description": "Erhöht K. Ausw. Chance um {1} für {0} Sek und ANG um {2}.Während der Wirkungsdauer verursachen normale Angriffe zusätzlich {3} K.Schaden und erhöhen den K.Schaden, den das Ziel erleidet, für {4} Sek. um {5}  %.Der Effekt verschwindet, wenn der Beschwörer stirbt.",
+    "description": "Erhöht für {0} Sek K.Ausweichen aller Verbündeter um {1} und ihren ANG um {2}. Effekte werden bei eigenem Tod aufgehoben. Normale Angriffe fügen den Zielen für {0} Sek. zusätzlich K.Schaden von {3} zu und erhöhen den K.Schaden, den das Ziel erleidet, für {4} Sek. um {5}  %.",
     "books": {
       "0": "ANG und Schaden werden um {0}% erhöht.",
       "1": "ANG und Schaden werden um {0}% erhöht.",
       "2": "ANG und Schaden werden um {0}% erhöht."
     },
-    "light": "Verringert die PRÄZ der Gegner für 5 Sek. um 150.",
+    "light": "[Stigmata] Verringert die PRÄZ der Ziele, die zusätzlichen K.Schaden durch diesen Skill erleiden, für 5 Sek. um 150.",
     "dark": "Wird während der Wirkungsdauer immun gegen Statuseffekte.",
     "ut": {
       "name": "Lehre des Morgensterns",
