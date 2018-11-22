@@ -47,7 +47,7 @@
   },
   "s1": {
     "name": "Chùy phục sinh",
-    "description": "Gây {0} Sát thương vật lý lên kẻ địch được chọn và các kẻ địch gần đó trong phạm vi hẹp, rồi làm choáng chúng trong {1} giây. Mục tiêu sẽ bị Giải giới trong {2} giây. Kẻ địch trong trạng thái Giải giới sẽ thay đổi điểm Đỡ đòn vật lý về 0. Không thể loại bỏ hiệu ứng này.",
+    "description": "Gây {0} Sát thương vật lý lên đối tượng địch và các kẻ địch gần đó trong phạm vi hẹp, rồi làm choáng chúng trong {1} giây. Mục tiêu sẽ bị Giải giới trong [64fff] {2} giây. Kẻ địch trong trạng thái Giải giới sẽ bị thay đổi Xác suất chặn vật lý về 0. Không thể loại bỏ hiệu ứng này.",
     "books": {
       "0": "Tăng {0}% sát thương",
       "1": "Tăng {0}% sát thương",
@@ -58,12 +58,12 @@
     "ut": {
       "name": "Giày nhà ngục đặc biệt",
       "description": [
-        "[Chùy phục sinh] Giảm 25% Phòng thủ vật lý của kẻ địch trúng chiêu trong 10 giây và thêm 30% hiệu ứng giảm Tỷ lệ hồi máu khi ở trạng thái Giải giới.",
-        "[Chùy phục sinh] Giảm 25% Phòng thủ vật lý của kẻ địch trúng chiêu trong 10 giây và thêm 36% hiệu ứng giảm Tỷ lệ hồi máu khi ở trạng thái Giải giới.",
-        "[Chùy phục sinh] Giảm 25% Phòng thủ vật lý của kẻ địch trúng chiêu trong 10 giây và thêm 43% hiệu ứng giảm Tỷ lệ hồi máu khi ở trạng thái Giải giới.",
-        "[Chùy phục sinh] Giảm 25% Phòng thủ vật lý của kẻ địch trúng chiêu trong 10 giây và thêm 52% hiệu ứng giảm Tỷ lệ hồi máu khi ở trạng thái Giải giới.",
-        "[Chùy phục sinh] Giảm 25% Phòng thủ vật lý của kẻ địch trúng chiêu trong 10 giây và thêm 62% hiệu ứng giảm Tỷ lệ hồi máu khi ở trạng thái Giải giới.",
-        "[Chùy phục sinh] Giảm 25% Phòng thủ vật lý của kẻ địch trúng chiêu trong 10 giây và thêm 75% hiệu ứng giảm Tỷ lệ hồi máu khi ở trạng thái Giải giới."
+        "[Chùy phục sinh] Giảm 25% Phòng thủ vật lý của kẻ địch trúng chiêu trong 10 giây và thêm hiệu ứng giảm 30% Lực hồi phục khi ở trạng thái ‘Giải giới’.",
+        "[Chùy phục sinh] Giảm 25% Phòng thủ vật lý của kẻ địch trúng chiêu trong 10 giây và thêm hiệu ứng giảm 36% Lực hồi phục khi ở trạng thái ‘Giải giới’.",
+        "[Chùy phục sinh] Giảm 25% Phòng thủ vật lý của kẻ địch trúng chiêu trong 10 giây và thêm hiệu ứng giảm 43% Lực hồi phục khi ở trạng thái ‘Giải giới’.",
+        "[Chùy phục sinh] Giảm 25% Phòng thủ vật lý của kẻ địch trúng chiêu trong 10 giây và thêm hiệu ứng giảm 52% Lực hồi phục khi ở trạng thái ‘Giải giới’.",
+        "[Chùy phục sinh] Giảm 25% Phòng thủ vật lý của kẻ địch trúng chiêu trong 10 giây và thêm hiệu ứng giảm 62% Lực hồi phục khi ở trạng thái ‘Giải giới’.",
+        "[Chùy phục sinh] Giảm 25% Phòng thủ vật lý của kẻ địch trúng chiêu trong 10 giây và thêm hiệu ứng giảm 75% Lực hồi phục khi ở trạng thái ‘Giải giới’."
       ],
       "story": "Một đôi giày đặc biệt, làm bằng da của lũ quái vật điên cuồng ở Nhà ngục. Vào ngày đầu tiên Nicky trở thành quản ngục trưởng, cô vô cùng bực bội khi thấy bọn quái vật quậy phá nơi này. Khi lũ quái vật nhào tới, cô nở một nụ cười lạnh lùng, rồi vung chùy đập nát đầu chúng. Sau đó, Nicky lột da lũ quái vật và làm thành một đôi giày. Kể từ đó, không tên tù nào ở Nhà ngục dám giở trò gì với cô nữa."
     }
@@ -77,7 +77,7 @@
       "2": "Tăng {0}% sát thương"
     },
     "light": "Mỗi lần đánh trúng sẽ có 25% xác suất giải trừ hiệu ứng có lợi của kẻ địch.",
-    "dark": "Tăng 50% Sát thương lên kẻ địch không phải anh hùng.",
+    "dark": "Tăng 100% Sát thương lên kẻ địch không phải anh hùng.",
     "ut": {
       "name": "Dây chuyền của Thần chiến tranh",
       "description": [
@@ -104,12 +104,12 @@
     "ut": {
       "name": "Tay gấu đầu lâu tàn nhẫn",
       "description": [
-        "[Tử hình] Giảm 30% Thời gian hồi chiêu và tăng 4% Sát thương của bản thân lên Boss mỗi lần sử dụng. Hiệu ứng này có thể cộng dồn tối đa 10 lần.",
-        "[Tử hình] Giảm 30% Thời gian hồi chiêu và tăng 4,8% Sát thương của bản thân lên Boss mỗi lần sử dụng. Hiệu ứng này có thể cộng dồn tối đa 10 lần.",
-        "[Tử hình] Giảm 30% Thời gian hồi chiêu và tăng 5,8% Sát thương của bản thân lên Boss mỗi lần sử dụng. Hiệu ứng này có thể cộng dồn tối đa 10 lần.",
-        "[Tử hình] Giảm 30% Thời gian hồi chiêu và tăng 7% Sát thương của bản thân lên Boss mỗi lần sử dụng. Hiệu ứng này có thể cộng dồn tối đa 10 lần.",
-        "[Tử hình] Giảm 30% Thời gian hồi chiêu và tăng 8,4% Sát thương của bản thân lên Boss mỗi lần sử dụng. Hiệu ứng này có thể cộng dồn tối đa 10 lần.",
-        "[Tử hình] Giảm 30% Thời gian hồi chiêu và tăng 10% Sát thương của bản thân lên Boss mỗi lần sử dụng. Hiệu ứng này có thể cộng dồn tối đa 10 lần."
+        "[Tử hình] Giảm 30% Thời gian hồi chiêu và mỗi lần sử dụng sẽ tăng 4% Sát thương của bản thân gây lên Boss. Hiệu ứng này có thể cộng dồn tối đa 10 lần.",
+        "[Tử hình] Giảm 30% Thời gian hồi chiêu và mỗi lần sử dụng sẽ tăng 4.8% Sát thương của bản thân gây lên Boss. Hiệu ứng này có thể cộng dồn tối đa 10 lần.",
+        "[Tử hình] Giảm 30% Thời gian hồi chiêu và mỗi lần sử dụng sẽ tăng 5.8% Sát thương của bản thân gây lên Boss. Hiệu ứng này có thể cộng dồn tối đa 10 lần.",
+        "[Tử hình] Giảm 30% Thời gian hồi chiêu và mỗi lần sử dụng sẽ tăng 7% Sát thương của bản thân gây lên Boss. Hiệu ứng này có thể cộng dồn tối đa 10 lần.",
+        "[Tử hình] Giảm 30% Thời gian hồi chiêu và mỗi lần sử dụng sẽ tăng 8.4% Sát thương của bản thân gây lên Boss. Hiệu ứng này có thể cộng dồn tối đa 10 lần.",
+        "[Tử hình] Giảm 30% Thời gian hồi chiêu và mỗi lần sử dụng sẽ tăng 10% Sát thương của bản thân gây lên Boss. Hiệu ứng này có thể cộng dồn tối đa 10 lần."
       ],
       "story": "Món vũ khí tay gấu kỳ lạ mua được từ Cassandra khi cô ấy ghé thăm Orvelia. Cassandra gặp Nicky đang chửi rủa nhặng xị đám tù nhân khó bảo ở Quán trọ và bán món đồ này cho cô ta. Theo lời Cassandra, những hình đầu lâu trên tay gấu này được làm bằng xương của những phù thủy cấp cao, cái tay gấu có đôi mắt đỏ còn có khả năng gây ảo giác và không ngừng tra tấn kẻ địch. Nicky đang dùng nó cùng với cây chùy để trừng phạt đám trọng phạm."
     }

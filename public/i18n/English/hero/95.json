@@ -36,18 +36,18 @@
   "uw": {
     "name": "Mace of Rehabilitation, Hartnon",
     "description": [
-      "Grants Grudge of Hartnon effect to enemies dealt by normal and skill attack by 20% chance. For 5 sec, Grudge of Hartnon reduces ATK Spd by 100, increases P.DMG taken by the targets by 10%, deals DMG equal to 40% Nicky's ATK every second, and reduces Mana by 60. This effect cannot be stacked.",
-      "Grants Grudge of Hartnon effect to enemies dealt by normal and skill attack by 20% chance. For 5 sec, Grudge of Hartnon reduces ATK Spd by 120, increases P.DMG taken by the target by 12%, deals DMG equal to 48% Nicky's ATK every second, and reduces Mana by 72. This effect cannot be stacked.",
-      "Grants Grudge of Hartnon effect to enemies dealt by normal and skill attack by 20% chance. For 5 sec, Grudge of Hartnon reduces ATK Spd by 140, increases the P.DMG taken by the target by 14%, deals DMG equal to 56% of Nicky's ATK every second, and reduces Mana by 86. This effect cannot be stacked.",
-      "Grants Grudge of Hartnon effect to enemies dealt by normal and skill attack by 20% chance. For 5 sec, Grudge of Hartnon reduces ATK Spd by 170, increases P.DMG taken by the target by 17%, deals DMG equal to 68% of Nicky's ATK every second, and reduces Mana by 104. This effect cannot be stacked.",
-      "Grants Grudge of Hartnon effect to enemies dealt by normal and skill attack by 20% chance. For 5 sec, Grudge of Hartnon reduces ATK Spd by 200, increases P.DMG taken by the target by 20%, deals DMG equal to 80% of Nicky's ATK every second, and reduces Mana by 124. This effect cannot be stacked.",
-      "Grants Grudge of Hartnon effect to enemies dealt by normal and skill attack by 20% chance. For 5 sec, Grudge of Hartnon reduces ATK Spd by 250, increases P.DMG taken by the target by 25%, deals DMG equal to 100% of Nicky's ATK every second, and reduces Mana by 150. This effect cannot be stacked."
+      "Grants Grudge of Hartnon effect to enemies hit by normal and skill attack by 20% chance. For 5 sec, Grudge of Hartnon reduces ATK Spd by 100, increases P.DMG taken by the targets by 10%, deals DMG equal to 40% Nicky's ATK every second, and reduces Mana by 60. This effect cannot be stacked.",
+      "Grants Grudge of Hartnon effect to enemies hit by normal and skill attack by 20% chance. For 5 sec, Grudge of Hartnon reduces ATK Spd by 120, increases P.DMG taken by the target by 12%, deals DMG equal to 48% Nicky's ATK every second, and reduces Mana by 72. This effect cannot be stacked.",
+      "Grants Grudge of Hartnon effect to enemies hit by normal and skill attack by 20% chance. For 5 sec, Grudge of Hartnon reduces ATK Spd by 140, increases the P.DMG taken by the target by 14%, deals DMG equal to 56% of Nicky's ATK every second, and reduces Mana by 86. This effect cannot be stacked.",
+      "Grants Grudge of Hartnon effect to enemies hit by normal and skill attack by 20% chance. For 5 sec, Grudge of Hartnon reduces ATK Spd by 170, increases P.DMG taken by the target by 17%, deals DMG equal to 68% of Nicky's ATK every second, and reduces Mana by 104. This effect cannot be stacked.",
+      "Grants Grudge of Hartnon effect to enemies hit by normal and skill attack by 20% chance. For 5 sec, Grudge of Hartnon reduces ATK Spd by 200, increases P.DMG taken by the target by 20%, deals DMG equal to 80% of Nicky's ATK every second, and reduces Mana by 124. This effect cannot be stacked.",
+      "Grants Grudge of Hartnon effect to enemies hit by normal and skill attack by 20% chance. For 5 sec, Grudge of Hartnon reduces ATK Spd by 250, increases P.DMG taken by the target by 25%, deals DMG equal to 100% of Nicky's ATK every second, and reduces Mana by 150. This effect cannot be stacked."
     ],
     "story": "The mace wielded by the Chief Guard to keep the inmates under control. It is known as the Mace of Rehabilitation for the unruly monsters in captivity. Although it was passed down from one Stockade Chief Guard in Orvelia to another across generations, soon after Nicky became the new chief, she broke a part of the mace while mercilessly swinging it at the prisoners. -......... She was staring at the broken mace when she turned her eyes to the prisoners. Her eyes stopped at the Hell Beast Hartnon whose entire body was covered with horns. A cruel grin appeared on her face. - You! You've got a pretty eyeball for a piece of trash! In time, the monster's eye went through Blacksmith Jin's hands and became Nicky's new mace. The new mace was perfect for her. The horns sprouting from the mace exuded an excruciating curse, while the deep grudge ingrained in the monster's iris offering ensured a soul-crushing pain. The inmates began to call the new mace 'Hartnon' in remembrance of the beast sacrificed for the weapon. Nicky felt a surge of incomparable pleasure whenever she'd swing the new mace at the prisoners."
   },
   "s1": {
     "name": "Mace of Rehabilitation",
-    "description": "Deals P.DMG of {0} to enemy target and nearby enemies within narrow range, and stuns them for {1} sec. Target is placed in Disarmament for {2} sec. Enemies in Disarmament will have their P.Block changed to 0. This effect cannot be removed.",
+    "description": "Deals P.DMG of {0} to enemy target and nearby enemies within narrow range, and stuns them for {1} sec. Hit enemies are inflicted with Disarmament for {2} sec. Enemies in Disarmament will have their P.Block changed to 0. This effect cannot be removed.",
     "books": {
       "0": "DMG is increased by {0}%.",
       "1": "DMG is increased by {0}%.",
@@ -77,7 +77,7 @@
       "2": "DMG is increased by {0}%."
     },
     "light": "Dispels enemies' positive effects by 25% chance upon every hit.",
-    "dark": "Increases DMG to Non-Hero enemies by 50%.",
+    "dark": "Increases DMG to Non-Hero enemies by 100%.",
     "ut": {
       "name": "Pendant of War God",
       "description": [
@@ -93,7 +93,7 @@
   },
   "s3": {
     "name": "Last Execution",
-    "description": "Sets in position, focuses, and attacks enemies in wide frontal range to deal {0} P.DMG and knock them back for {1} sec. Depending on the time spent focusing, increases the distance of knockback and falling down time up to {2} sec. Increases DMG up to {3}%, and if Nicky focuses fully, removes Positive Effect on enemies in range. Deals additional DMG of {4} to Non-Hero enemy, and makes it to take {6}% increased P.DMG for {5} sec.",
+    "description": "Sets in position, focuses, and attacks enemies in wide frontal range to deal {0} P.DMG and knock them back for {1} sec. Depending on the time spent focusing, increases the distance of knockback and knock down duration for up to {2} sec. Increases DMG up to {3}%, and if Nicky focuses fully, removes Positive Effect on enemies in range. Deals additional DMG of {4} to Non-Hero enemy, and they take {6}% increased P.DMG for {5} sec.",
     "books": {
       "0": "DMG is increased by {0}%.",
       "1": "DMG is increased by {0}%.",
@@ -116,7 +116,7 @@
   },
   "s4": {
     "name": "Massacre Instinct",
-    "description": "Increases own ATK by {0} and Crit Chance by {1}. When own HP is below {2}%, Cruel Madness effect will be activated. With Cruel Madness effect removes all own Negative Effects, and for {3} sec, increases own ATK by {4} , takes {5}% reduced DMG, and gains immunity to CC. This effect will be activated once every {6} sec.",
+    "description": "Increases own ATK by {0} and Crit Chance by {1}. When own HP is below {2}%, Cruel Madness effect will be activated. Cruel Madness effect removes all own Negative Effects, and for {3} sec, increases own ATK by {4} , takes {5}% reduced DMG, and gains immunity to CC. This effect will be activated once every {6} sec.",
     "books": {
       "0": "ATK boost is increased by {0}%.",
       "1": "ATK boost is increased by {0}%.",
