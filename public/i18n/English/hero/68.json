@@ -1,0 +1,144 @@
+{
+  "name": "Nia",
+  "subtitle": "Darkness-swallowing Eyes",
+  "description": "The young leader of a barbarian tribe living in the depths of the southern jungle. She inherited the demonic blood and Demonic Eyes of Petrification from her ancestors. She restrains her enemies and finishes them off with vicious slashes.",
+  "story": "An old legend has it that there was a demon that used humans as its test subjects for body modification. He cloned, fused, and modified numerous beast and human bodies with his magic. It was said that one of the test subjects that came to possess great power escaped the laboratory and created a tribe among humans. The leader of the tribe is known to have developed a mysterious ability called Demonic Eyes of Petrification. The demonic eyes, very similar to the cursed eyes of a rare beast Basilisk, are known to have the curse to turn everything they stared at into stones. Nia, the young leader of Krakashu Tribe, currently possesses these demonic eyes. This young beast, as swift as a leopard, is hunting down demons and demonic beasts to avenge her forefathers.",
+  "like": "Meat, people who give her meat, resting her head on other people's lap, sunbathing",
+  "dislike": "Vegetable, people from Vespia Empire, Demons, Demonic Beasts, being tested, cold weather",
+  "inn": {
+    "idle": "Grrr... Humans... Too many...",
+    "recruit": {
+      "greet": "*Sniff, sniff* Smell of light... and darkness...",
+      "talk": [
+        "...When... is time to eat...?",
+        "Hungry... hungry... Time to hunt...",
+        "Grrrr... This smell... of predator..."
+      ],
+      "gift": "I can't eat this..."
+    },
+    "affinity": {
+      "greet": "*Sniff, sniff* Something smell kind of familiar...",
+      "talk": [
+        "Hunting is...exciting. I can run around... like I want.",
+        "Bone Mask... material? Heh... That ugly but also cute... with nose... and horn..."
+      ],
+      "gift": "This... I don't need... Give me... meat... Huh? I can buy meat?"
+    },
+    "relationship": {
+      "greet": "*Sniff* Food... eat together...?",
+      "talk": [
+        "Is that... meat? Meat... I like. Yummy...",
+        "Demons... tested... my ancestors... turned them... into demonic beasts... Bad...",
+        "Grrrr... Maybe I like patting on head... a little too much... Heh heh..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Rending Chaos, Zakadras",
+    "description": [
+      "Crit Chance is increased by 200 and Crit DMG is increased by 40%.",
+      "Crit Chance is increased by 240 and Crit DMG is increased by 48%.",
+      "Crit Chance is increased by 290 and Crit DMG is increased by 58%.",
+      "Crit Chance is increased by 350 and Crit DMG is increased by 70%.",
+      "Crit Chance is increased by 420 and Crit DMG is increased by 84%.",
+      "Crit Chance is increased by 500 and Crit DMG is increased by 100%."
+    ],
+    "story": "A weapon forged from special metal that a shaman from Krakashu, the tribe of darkness, made by melting down living demonic beasts. The metal was then forged by the best smith in the Jungle and was reborn as a magical weapon to punish demons. A huge pair of claws embrace curse, grudge, and rage. These claws are the symbol that represents the leader of Krakashu, and they're also a medium of the spell that appeases the wrath of their forefathers. Nia became the tribe leader at such a young age and has yet to tap into all the darkness that the weapon holds, but deep at night, often when she's about to fall asleep, she can hear the howling grudge of her forefathers from the weapon."
+  },
+  "s1": {
+    "name": "Scar of Barbarism",
+    "description": "Deals {0} P.DMG to 1 enemy. Then, moves forward while continuously attacking the nearby area and knocking back hit enemies to deal a total of {1} P.DMG. The last strike deals {2} P.DMG to frontal enemies and knocks them down for {3} sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Increases DMG by 40%.",
+    "dark": "Recovers own Mana by 50 upon every hit.",
+    "ut": {
+      "name": "Flower of Jungle",
+      "description": [
+        "[Scar of Barbarism] Reduces Mana Cost by 1 and reduces P.Crit Resistance of the affected enemy by 200 for 10 sec.",
+        "[Scar of Barbarism] Reduces Mana Cost by 1 and reduces P.Crit Resistance of the affected enemy by 240 for 10 sec.",
+        "[Scar of Barbarism] Reduces Mana Cost by 1 and reduces P.Crit Resistance of the affected enemy by 290 for 10 sec.",
+        "[Scar of Barbarism] Reduces Mana Cost by 1 and reduces P.Crit Resistance of the affected enemy by 350 for 10 sec.",
+        "[Scar of Barbarism] Reduces Mana Cost by 1 and reduces P.Crit Resistance of the affected enemy by 420 for 10 sec.",
+        "[Scar of Barbarism] Reduces Mana Cost by 1 and reduces P.Crit Resistance of the affected enemy by 500 for 10 sec."
+      ],
+      "story": "The deep Jungle of Darkness sits in southern Vespia. It is the home, the hunting ground, and the battlefield of the Krakashu tribe. The people in the Empire treat them as barbarians, but they are emotional and sensitive beings that present flowers to their beloved ones. For the Krakashu tribe, the bouquet of flowers means 'return home safe and sound.' This bouquet of flowers handmade by Nia's tribe members holds a spell that keeps the flowers from withering as long as Nia is healthy."
+    },
+    "linked": {
+      "name": "Enhanced Scar of Barbarism",
+      "description": "Deals {0} P.DMG to 1 enemy. Then, moves to random enemies while continuously attacking the nearby area and knocking back hit enemies to deal a total of {1} P.DMG. The last strike deals {2} P.DMG to frontal enemies and knocks them down for {3} sec."
+    }
+  },
+  "s2": {
+    "name": "On the Hunt",
+    "description": "Moves behind the farthest enemy to deal {0} P.DMG, and inflicts [Hunt Mark] to all enemies for {1} sec. Enemies under [Hunt Mark] take {2}% increased P.DMG and have their Heal Rate reduced by {3}%. Dispels all positive effects from enemies with [Enhanced Hunt Mark].",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Stuns targets for 1 sec when [Hunt Mark] is inflicted, and for 3 sec when [Enhanced Hunt Mark] is inflicted.",
+    "dark": "[Hunt Mark] and [Enhanced Hunt Mark] cannot be dispelled by skills that remove negative effects.",
+    "ut": {
+      "name": "Gift of Hunter",
+      "description": [
+        "[On the Hunt] Increases DMG by 50% and P.DMG increase inflicted by [Hunt Mark] and [Enhanced Hunt Mark] by an additional 8%.",
+        "[On the Hunt] Increases DMG by 50% and P.DMG increase inflicted by [Hunt Mark] and [Enhanced Hunt Mark] by an additional 10%.",
+        "[On the Hunt] Increases DMG by 50% and P.DMG increase inflicted by [Hunt Mark] and [Enhanced Hunt Mark] by an additional 12%.",
+        "[On the Hunt] Increases DMG by 50% and P.DMG increase inflicted by [Hunt Mark] and [Enhanced Hunt Mark] by an additional 14%.",
+        "[On the Hunt] Increases DMG by 50% and P.DMG increase inflicted by [Hunt Mark] and [Enhanced Hunt Mark] by an additional 17%.",
+        "[On the Hunt] Increases DMG by 50% and P.DMG increase inflicted by [Hunt Mark] and [Enhanced Hunt Mark] by an additional 20%."
+      ],
+      "story": "The fame of Dragon Slayer Yanne spread not only to the Orbis Continent, but also to the Vespia empire. Yanne, a skilled monster hunter, was requested by a noble in the empire to hunt down the monsters inhabiting the Jungle of Darkness. However, the empire's ulterior motive was to drive away the natives so that they could develop the jungle and use it for their own sake. Without knowing the truth, Yanne walked into the jungle. The Krakashu tribe, led by the young leader, Nia, mistook Yanne as an imperial invader and attacked her. After Yanne subdued the tribespeople rather effortlessly with her superhuman strength, she had a talk with Nia and figured out the truths. She apologized to Nia for entering their land without permission, and gave her the necklace she made herself as a sign of reconciliation and friendship."
+    },
+    "linked": {
+      "name": "Enhanced On the Hunt",
+      "description": "Moves behind the farthest enemy to deal {0} P.DMG that ignores DEF, and inflicts [Enhanced Hunt Mark] to all enemies for {1} sec. Enemies under [Enhanced Hunt Mark] take {2}% increased P.DMG, have their Heal Rate reduced by {3}%, and their ATK Spd by {4}%. Dispels all positive effects from enemies with [Hunt Mark]."
+    }
+  },
+  "s3": {
+    "name": "Demonic Eyes of Petrification",
+    "description": "Deals {0} P.DMG to frontal enemies {1} times, and petrifies them for {2} sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Gains immunity to CC for the skill duration.",
+    "dark": "Increases DMG to Non-Hero enemies by 100% for the skill duration.",
+    "ut": {
+      "name": "Bone Mask of Spell",
+      "description": [
+        "[Demonic Eyes of Petrification] Pulls enemies to the front upon casting, and reduces Mana of enemies by 200 upon hit.",
+        "[Demonic Eyes of Petrification] Pulls enemies to the front upon casting, and reduces Mana of enemies by 240 upon hit.",
+        "[Demonic Eyes of Petrification] Pulls enemies to the front upon casting, and reduces Mana of enemies by 290 upon hit.",
+        "[Demonic Eyes of Petrification] Pulls enemies to the front upon casting, and reduces Mana of enemies by 350 upon hit.",
+        "[Demonic Eyes of Petrification] Pulls enemies to the front upon casting, and reduces Mana of enemies by 420 upon hit.",
+        "[Demonic Eyes of Petrification] Pulls enemies to the front upon casting, and reduces Mana of enemies by 500 upon hit."
+      ],
+      "story": "A magical mask made with the skull of Prektrek, the beast of spell. Since Nia disliked traditional masks which covered her entire face, the bone mask was modified into a helmet. The main use of bone masks is to keep the tribe leaders' demonic eyes from going berserk. However, the mask wasn't significant to Nia because her demonic eyes, despite their enormous powers, were very stable. It is what Nia uses to remember her father, who was called by the Blue Star when she succeeded the Demonic Eyes of Petrification. They say that she made her bone mask with a skull that closely resembled her father's bone mask. A little bit of trivia: The beast Prektrek is known to be distantly related to Goblins..."
+    },
+    "linked": {
+      "name": "Enhanced Demonic Eyes of Petrification",
+      "description": "Deals {0} P.DMG that ignores DEF to frontal enemies in a wider range {1} times, and petrifies them for {2} sec."
+    }
+  },
+  "s4": {
+    "name": "Demonic Blood",
+    "description": "Gains 1 stack of [Demonic Blood] upon casting a skill. It can be stacked up to max {0} times, and upon gaining {0} stacks, Cooldown of all skills is reset and [Enhanced Skill] becomes available. Using the [Enhanced Skill] removes [Demonic Blood] stacks. Upon gaining each stack of [Demonic Blood], increases own ATK by {2} and All Dodge Chance by {3} for {1} sec. This effect can stack up to 10 times.",
+    "books": {
+      "0": "ATK boost is increased by {0}%.",
+      "1": "ATK boost is increased by {0}%.",
+      "2": "ATK boost is increased by {0}%."
+    },
+    "light": "Increases ATK Boost and All Dodge Chance Boost by 50%.",
+    "dark": "Dispels own negative effects upon gaining 4 stacks of [Demonic Blood]."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / ATK.Spd +100",
+    "dark": "Normal attacks and [Enhanced Scar of Barbarism] deal additional P.DMG equal to 25% of ATK that ignores DEF."
+  }
+}

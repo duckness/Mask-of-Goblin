@@ -1,0 +1,144 @@
+{
+  "name": "Nia",
+  "subtitle": "Yeux dévoreurs d'ombre",
+  "description": "Jeune chef d'une lointaine tribu barbare vivant dans la jungle australe. Ses ancêtres lui ont transmis du sang de démon et les yeux démoniaques de pétrification. Elle peut immobiliser ses ennemis et les achever d'une frappe féroce.",
+  "story": "Une légende raconte qu'un démon se servait d'humains comme cobayes pour ses expériences transmorphiques. Il clona, combina et modifia ainsi d'innombrables corps humains à l'aide de sa magie. On dit également que l'un de ses cobayes acquit un grand pouvoir, s'enfuit du laboratoire et fonda une tribu parmi d'autres humains. Il était réputé pour avoir développé une compétence mystérieuse appelée Yeux démoniaques de pétrification. Ces yeux semblables à ceux d'un basilic, une créature rarissime, changent tout ce qu'ils voient en pierre. C'est aujourd'hui Nia, le chef de la tribu Krakashu, qui les possède. Cette jeune créature, aussi vive qu'un léopard, chasse les démons et les bêtes démoniaques pour venger ses ancêtres.",
+  "like": "La viande, les gens qui lui donnent de la viande, reposer sa tête sur les genoux des gens, lézarder au soleil",
+  "dislike": "Les légumes, le peuple de l'empire Vespia, les bêtes démoniaques, faire l'objet d'expériences, avoir froid",
+  "inn": {
+    "idle": "Grrr... Trop... d'humains...",
+    "recruit": {
+      "greet": "*Sniff, sniff* Je sens la lumière... et l'ombre...",
+      "talk": [
+        "Quand... manger ?",
+        "Faim... Faim... Chasser maintenant...",
+        "Grrrr... Je sens... prédateur..."
+      ],
+      "gift": "Peux pas manger ça..."
+    },
+    "affinity": {
+      "greet": "*Sniff, sniff* Je sens quelque chose familier...",
+      "talk": [
+        "Chasser est...palpitant. Je peux courir... comme je veux.",
+        "Matériau... de masque d'os ? Hé... Cette chose affreuse, mais gentille... avec le nez... et les cornes..."
+      ],
+      "gift": "Ça... Pas besoin... Donnez-moi... viande... Hein ? Je peux acheter viande ?"
+    },
+    "relationship": {
+      "greet": "*Sniff* Nourriture... Manger ensemble ?",
+      "talk": [
+        "C'est... de la viande ? J'aime... viande. Miam...",
+        "Des démons... ont transformé... mes ancêtres... en... bêtes démoniaques... Méchants...",
+        "Grrrr... On dirait que j'aime... un peu trop... caresse sur tête... Hé hé..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Zakadras, broyeur du chaos",
+    "description": [
+      "Chances de Crit augmentées de 200 et DEG Crit augmentés de 40%.",
+      "Chances de Crit augmentées de 240 et DEG Crit augmentés de 48%.",
+      "Chances de Crit augmentées de 290 et DEG Crit augmentés de 58%.",
+      "Chances de Crit augmentées de 350 et DEG Crit augmentés de 70%.",
+      "Chances de Crit augmentées de 420 et DEG Crit augmentés de 84%.",
+      "Chances de Crit augmentées de 500 et DEG Crit augmentés de 100%."
+    ],
+    "story": "Une arme fabriquée à partir d'un métal spécial forgé par un chaman de la tribu Krakashu, obtenu en faisant fondre des bêtes démoniaques vivantes. Il fut ensuite travaillé par le meilleur forgeron de la jungle pour devenir une arme magique pourfendeuse de démons, composée d'une paire de griffes renfermant fléau, rancune et rage. Elles sont le symbole du chef des Krakashu et peuvent apaiser la colère de leurs ancêtres. Nia devint très jeune le chef de la tribu. Elle doit encore découvrir la profondeur des ombres que renferme l'arme, mais souvent la nuit, alors qu'elle s'apprête à s'endormir, elle peut entendre à travers elle les hurlements de rancune de ses ancêtres."
+  },
+  "s1": {
+    "name": "Stigmate de la barbarie",
+    "description": "Inflige {0}  points de DEG P à 1 ennemi. Vous avancez ensuite en infligeant des dégâts de zone en continu et en repoussant les ennemis touchés, leur infligeant un total de {1}  points de DEG P. Le dernier coup inflige {2}  points de DEG P aux ennemis situés en face et les renverse pendant {3}  sec.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Augmente les DEG de 40 %.",
+    "dark": "Restaure 50 points de mana à chaque coup.",
+    "ut": {
+      "name": "Fleur de la jungle",
+      "description": [
+        "[Stigmate de la barbarie] Réduit le coût en mana de 1 et réduit la résistance Crit P. de l'ennemi affecté de 200 pendant 10 sec.",
+        "[Stigmate de la barbarie] Réduit le coût en mana de 1 et réduit la résistance Crit P. de l'ennemi affecté de 240 pendant 10 sec.",
+        "[Stigmate de la barbarie] Réduit le coût en mana de 1 et réduit la résistance Crit P. de l'ennemi affecté de 290 pendant 10 sec.",
+        "[Stigmate de la barbarie] Réduit le coût en mana de 1 et réduit la résistance Crit P. de l'ennemi affecté de 350 pendant 10 sec.",
+        "[Stigmate de la barbarie] Réduit le coût en mana de 1 et réduit la résistance Crit P. de l'ennemi affecté de 420 pendant 10 sec.",
+        "[Stigmate de la barbarie] Réduit le coût en mana de 1 et réduit la résistance Crit P. de l'ennemi affecté de 500 pendant 10 sec."
+      ],
+      "story": "La Jungle de l'ombre trône au sud de Vespia. Elle est la terre nourricière, le terrain de chasse et le champ de bataille de la tribu Krakashu. Le peuple de l'empire la considère comme barbare, mais elle est constituée d'êtres sensibles qui s'offrent des fleurs pour témoigner leur affection. Dans cette tribu, un bouquet de fleurs signifie « rentre à la maison sain et sauf ». Les fleurs de ce bouquet, confectionné par les membres de la tribu de Nia, sont protégées par un sort qui les empêche de faner tant que Nia sera en bonne santé."
+    },
+    "linked": {
+      "name": "Stigmate de la barbarie renforcé",
+      "description": "Inflige {0}  points de DEG P à 1 ennemi. Vous avancez ensuite vers des ennemis au hasard en infligeant des dégâts de zone en continu et en repoussant les ennemis touchés, leur infligeant un total de {1}  points de DEG P. Le dernier coup inflige {2}  points de DEG P aux ennemis situés en face et les renverse pendant {3}  sec."
+    }
+  },
+  "s2": {
+    "name": "En chasse",
+    "description": "Se place derrière l'ennemi le plus éloigné pour lui infliger {0}  points de DEG P, et infliger [Marque de chasse] à tous les ennemis pendant {1}  sec. Les ennemis touchés par [Marque de chasse] subissent {2}  % de DEG P supplémentaires et leur récupération est réduite de {3}  %. Dissipe tous les effets positifs dont bénéficient les ennemis sous [Marque de chasse améliorée].",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Étourdit la cible pendant 1 sec si [Marque de chasse] est présente, et pendant 3 sec si [Marque de chasse améliorée] est présente.",
+    "dark": "[Marque de chasse] et [Marque de chasse améliorée] ne peuvent pas être dissipées par les compétences qui retirent les effets négatifs.",
+    "ut": {
+      "name": "Cadeau de chasseur",
+      "description": [
+        "[En chasse] Augmente les DEG de 50 % ainsi que le boost de DEG P apporté par [Marque de chasse] et [Marque de chasse améliorée] de 8 % supplémentaires.",
+        "[En chasse] Augmente les DEG de 50 % ainsi que le boost de DEG P apporté par [Marque de chasse] et [Marque de chasse améliorée] de 10 % supplémentaires.",
+        "[En chasse] Augmente les DEG de 50 % ainsi que le boost de DEG P apporté par [Marque de chasse] et [Marque de chasse améliorée] de 12 % supplémentaires.",
+        "[En chasse] Augmente les DEG de 50 % ainsi que le boost de DEG P apporté par [Marque de chasse] et [Marque de chasse améliorée] de 14 % supplémentaires.",
+        "[En chasse] Augmente les DEG de 50 % ainsi que le boost de DEG P apporté par [Marque de chasse] et [Marque de chasse améliorée] de 17 % supplémentaires.",
+        "[En chasse] Augmente les DEG de 50 % ainsi que le boost de DEG P apporté par [Marque de chasse] et [Marque de chasse améliorée] de 20 % supplémentaires."
+      ],
+      "story": "La réputation de Yanne, la pourfendeuse de dragons, ne se limite pas au continent Orbis, elle a aussi atteint l'empire Vespia. Yanne, chasseuse de monstres émérite, reçut d'un noble de cet empire la mission de chasser tous les monstres qui peuplaient la Jungle de l'ombre. Toutefois, la véritable intention de l'empire était de chasser les autochtones afin d'exploiter la jungle à leurs propres fins. Yanne se rendit dans la jungle en toute innocence, et la tribu Krakashu la prit pour un envahisseur impérial et s'en prit à elle sur l'ordre de Nia. Grâce à ses superpouvoirs, Yanne maîtrisa cette attaque sans effort. Elle put alors parler avec Nia et découvrir la vérité. Elle s'excusa auprès de Nia de s'être rendue sur les terres de la tribu sans permission, et lui offrit le collier qu'elle avait fabriqué en signe de réconciliation et d'amitié."
+    },
+    "linked": {
+      "name": "En chasse améliorée",
+      "description": "Se place derrière l'ennemi le plus éloigné pour lui infliger {0}  points de DEG P ignorant sa DEF, et infliger [Marque de chasse améliorée] à tous les ennemis pendant {1}  sec. Les ennemis touchés par [Marque de chasse améliorée] subissent {2}  % de DEG P supplémentaires, leur récupération est réduite de {3}  % et leur Vit ATQ de {4}  %. Dissipe tous les effets positifs dont bénéficient les ennemis sous [Marque de chasse]."
+    }
+  },
+  "s3": {
+    "name": "Yeux démoniaques de pétrification",
+    "description": "Inflige {1}  fois {0}  points de DEG P aux ennemis situés en face et les pétrifie pendant {2}  sec.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Confère l'immunité contre les contrôles pendant la durée de la compétence.",
+    "dark": "Augmente les DEG infligés aux ennemis non-héros de 100 % pendant la durée de la compétence.",
+    "ut": {
+      "name": "Masque d'os des sorts",
+      "description": [
+        "[Yeux démoniaques de pétrification] Au moment du lancement, attire les ennemis vers l'avant et réduit leur mana de 200 points par coup.",
+        "[Yeux démoniaques de pétrification] Au moment du lancement, attire les ennemis vers l'avant et réduit leur mana de 240 points par coup.",
+        "[Yeux démoniaques de pétrification] Au moment du lancement, attire les ennemis vers l'avant et réduit leur mana de 290 points par coup.",
+        "[Yeux démoniaques de pétrification] Au moment du lancement, attire les ennemis vers l'avant et réduit leur mana de 350 points par coup.",
+        "[Yeux démoniaques de pétrification] Au moment du lancement, attire les ennemis vers l'avant et réduit leur mana de 420 points par coup.",
+        "[Yeux démoniaques de pétrification] Au moment du lancement, attire les ennemis vers l'avant et réduit leur mana de 500 points par coup."
+      ],
+      "story": "Un masque confectionné avec un crâne de Prektrek, la bête des sorts, et façonné par la magie. Nia n'appréciait pas beaucoup les masques traditionnels qui couvraient tout son visage, et elle décida de se faire un casque à partir d'un masque d'os. Ces masques servent principalement à réfréner les yeux démoniaques, mais ceux de Nia étant extrêmement stables malgré leur grande puissance, ce n'était donc pas important pour elle. Nia s'en sert plutôt pour se souvenir de son père, appelé par l'Étoile bleue lorsqu'elle acquit Yeux démoniaques de pétrification. On raconte qu'elle fabriqua son masque afin qu'il ressemble le plus possible au masque d'os de son père. Pour information, Prektrek est un lointain cousin des gobelins..."
+    },
+    "linked": {
+      "name": "Yeux démoniaques de pétrification améliorés",
+      "description": "Inflige {1}  fois {0}  points de DEG P aux ennemis situés en face dans une vaste zone en ignorant leur DEF, et les pétrifie pendant {2}  sec."
+    }
+  },
+  "s4": {
+    "name": "Sang démoniaque",
+    "description": "Chaque lancement de compétence confère 1 charge de [Sang démoniaque]. Ces charges peuvent se cumuler jusqu'à {0}  fois, et lorsqu'elles atteignent le nombre de {0} , le temps de recharge de toutes les compétences est réinitialisé et [Compétence améliorée] devient disponible. [Compétence améliorée] retire les charges de [Sang démoniaque]. À chaque charge de [Sang démoniaque], l'ATQ augmente de {2}  points et toutes chances d'esquiver de {3} pendant {1}  sec. Cet effet peut être cumulé jusqu'à 10 fois.",
+    "books": {
+      "0": "Augmentation de l'ATQ boostée de {0}%.",
+      "1": "Augmentation de l'ATQ boostée de {0}%.",
+      "2": "Augmentation de l'ATQ boostée de {0}%."
+    },
+    "light": "Augmente le boost d'ATQ et toutes chances d'esquiver de 50 %.",
+    "dark": "Dissipe les effets négatifs au bout de 4 charges de [Sang démoniaque]."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Vit. ATQ +100",
+    "dark": "Les attaques normales et [Stigmate de la barbarie renforcé] infligent davantage de DEG P ignorant la DEF, à hauteur de 25 % de l'ATQ."
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "name": "Nia",
+  "subtitle": "Olhos Devoradores da Escuridão",
+  "description": "Jovem líder de uma tribo bárbara que vive nas profundezas da selva do sul. Ela herdou o sangue demoníaco e os Olhos Demoníacos da Petrificação de seus ancestrais. Ela prende e elimina os inimigos com golpes cruéis.",
+  "story": "Segundo uma antiga lenda, um demônio usava humanos como cobaias para modificação corporal. Ele clonava, fundia e modificava diversos corpos humanos e de feras com sua magia. Dizem que uma de suas cobaias se tornou muito poderosa, fugiu do laboratório e criou uma tribo entre os humanos. O líder da tribo desenvolveu uma habilidade misteriosa chamada Olhos Demoníacos da Petrificação. Os olhos demoníacos, muito semelhantes aos olhos amaldiçoados da fera rara Basilisco, eram capazes de transformar tudo em pedra. Os olhos demoníacos foram herdados por Nia, a líder da Tribo Krakashu. Esta jovem fera, ágil como um leopardo, caça demônios e bestas demoníacas para vingar seus antepassados.",
+  "like": "Carne, gente que lhe dá carne, descansar a cabeça no colo dos outros, banhos de sol",
+  "dislike": "Verduras, pessoas do Império Vespia, Bestas Demoníacas, ser testada, clima frio",
+  "inn": {
+    "idle": "Grrr... Humanos... demais...",
+    "recruit": {
+      "greet": "*Func, func* Cheiro de luz... e trevas...",
+      "talk": [
+        "Quando... é hora de comer...?",
+        "Fome... fome... Hora de caçar...",
+        "Grrrr... Esse cheiro... de predador..."
+      ],
+      "gift": "Não posso comer isso."
+    },
+    "affinity": {
+      "greet": "*Func, func* Esse cheiro é meio familiar...",
+      "talk": [
+        "Caçar é... empolgante. Posso correr... como quiser.",
+        "Material... de Máscara de Osso? Hehe... Que feio, mas bonitinho... com nariz... e chifre..."
+      ],
+      "gift": "Isso... Não preciso... Me dá... carne... Hã? Dá pra comprar carne?"
+    },
+    "relationship": {
+      "greet": "*Func* Comida... Comer juntos...?",
+      "talk": [
+        "É... carne? Carne... eu gosto. Delícia...",
+        "Demônios... testaram... meus ancestrais... transformaram... em bestas demoníacas... Ruim...",
+        "Grrrr... Acho que gosto de tapinha na cabeça... até demais... Hehe..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Zakadras, Caos Cortante",
+    "description": [
+      "Chance de Crit aumenta em 200 e DAN Crit aumenta em 40%.",
+      "Chance de Crit aumenta em 240 e DAN Crit aumenta em 48%.",
+      "Chance de Crit aumenta em 290 e DAN Crit aumenta em 58%.",
+      "Chance de Crit aumenta em 350 e DAN Crit aumenta em 70%.",
+      "Chance de Crit aumenta em 420 e DAN Crit aumenta em 84%.",
+      "Chance de Crit aumenta em 500 e DAN Crit aumenta em 100%."
+    ],
+    "story": "Arma forjada de um metal especial criado por um xamã de Krakashu, a tribo da escuridão, derretendo bestas demoníacas vivas. O metal foi forjado pelo melhor ferreiro da Selva e renasceu como uma arma mágica para punir demônios. Um imenso par de garras carregadas de maldição, rancor e fúria. As garras são o símbolo que representa o líder dos Krakashu, e também um meio de lançar o feitiço que aplaca a ira de seus antepassados. Nia se tornou líder da tribo ainda muito jovem e não dominou toda a escuridão que a arma contém. Mas à noite, geralmente quando está prestes a dormir, ela escuta o uivo ressentido de seus antepassados ecoando da arma."
+  },
+  "s1": {
+    "name": "Cicatriz da Barbárie",
+    "description": "Causa {0} de DAN F. a 1 inimigo. Então, avança enquanto ataca continuamente a área próxima e derruba inimigos atingidos, causando um total de {1} de DAN F. O último golpe causa {2} de DAN F. a inimigos frontais e os derruba por {3} segundos.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "Aumenta o DAN em 40%.",
+    "dark": "Recupera o próprio Mana em 50 a cada golpe.",
+    "ut": {
+      "name": "Flor da Selva",
+      "description": [
+        "[Cicatriz da Barbárie] Reduz o Custo de Mana em 1 e a Resistência a Crít F. do inimigo atingido em 200 por 10s.",
+        "[Cicatriz da Barbárie] Reduz o Custo de Mana em 1 e a Resistência a Crít F. do inimigo atingido em 240 por 10s.",
+        "[Cicatriz da Barbárie] Reduz o Custo de Mana em 1 e a Resistência a Crít F. do inimigo atingido em 290 por 10s.",
+        "[Cicatriz da Barbárie] Reduz o Custo de Mana em 1 e a Resistência a Crít F. do inimigo atingido em 350 por 10s.",
+        "[Cicatriz da Barbárie] Reduz o Custo de Mana em 1 e a Resistência a Crít F. do inimigo atingido em 420 por 10s.",
+        "[Cicatriz da Barbárie] Reduz o Custo de Mana em 1 e a Resistência a Crít F. do inimigo atingido em 500 por 10s."
+      ],
+      "story": "A Selva da Escuridão fica no sul de Vespia. É o lar, zona de caça e campo de batalha da tribo Krakashu. O Império os trata como bárbaros, mas é um povo sensível e emotivo que presenteia seus entes queridos com flores. Para a tribo Krakashu, o buquê de flores significa 'volte são e salvo para casa'. Este buquê feito pelos membros da tribo tem um feitiço que impede as flores de murcharem enquanto Nia tiver saúde."
+    },
+    "linked": {
+      "name": "Cicatriz da Barbárie Melhorada",
+      "description": "Causa {0} de DAN F. a 1 inimigo. Então, avança em direção a inimigos aleatórios enquanto ataca continuamente a área próxima e derruba inimigos atingidos, causando um total de {1} de DAN F. O último golpe causa {2} de DAN F. a inimigos frontais e os derruba por {3} segundos."
+    }
+  },
+  "s2": {
+    "name": "Caçada",
+    "description": "Vai para trás do inimigo mais distante para causar {0} de DAN F. e impor [Marca da Caça] a todos os inimigos por {1} segundos. Inimigos com a [Marca da Caça] recebem DAN F. aumentado em {2}% e têm a Taxa de Cura reduzida em {3}%. Remove todos os efeitos positivos dos inimigos com [Marca da Caça Melhorada].",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "Atordoa o alvo por 1 segundo ao impor [Marca da Caça] é imposta, e por 3 segundos ao impor [Marca da Caça Melhorada].",
+    "dark": "[Marca da Caça] e [Marca da Caça Melhorada] não podem ser removidas por habilidades que removem efeitos negativos.",
+    "ut": {
+      "name": "Presente da Caçadora",
+      "description": [
+        "[Caçada] Aumenta o DAN em 50% e aumenta o DAN F. causado por [Marca da Caça] e [Marca da Caça Melhorada] em mais 8%.",
+        "[Caçada] Aumenta o DAN em 50% e aumenta o DAN F. causado por [Marca da Caça] e [Marca da Caça Melhorada] em mais 10%.",
+        "[Caçada] Aumenta o DAN em 50% e aumenta o DAN F. causado por [Marca da Caça] e [Marca da Caça Melhorada] em mais 12%.",
+        "[Caçada] Aumenta o DAN em 50% e aumenta o DAN F. causado por [Marca da Caça] e [Marca da Caça Melhorada] em mais 14%.",
+        "[Caçada] Aumenta o DAN em 50% e aumenta o DAN F. causado por [Marca da Caça] e [Marca da Caça Melhorada] em mais 17%.",
+        "[Caçada] Aumenta o DAN em 50% e aumenta o DAN F. causado por [Marca da Caça] e [Marca da Caça Melhorada] em mais 20%."
+      ],
+      "story": "A fama de Yanne, Caçadora de Dragões, chegou não só ao Continente Orbis, mas também ao império Vespia. Yanne, uma habilidosa caçadora de monstros, foi procurada por um nobre do império para caçar os monstros da Selva da Escuridão. Porém, o verdadeiro objetivo do império era espantar o povo nativo, visando desenvolver a região e explorá-la em proveito próprio. Yanne foi para a selva sem saber a verdade, e a tribo Krakashu a confundiu com um invasor imperial. Ela foi atacada por um grupo liderado por Nia, a jovem líder. Com seus poderes, Yanne derrotou o povo da tribo com relativa facilidade e conversou com Nia. Quando descobriu a verdade, Yanne se desculpou por entrar no território sem permissão. Como símbolo de amizade e reconciliação, Yanne presenteou Nia com um colar que ela mesma fez."
+    },
+    "linked": {
+      "name": "Caçada Melhorada",
+      "description": "Vai para trás do inimigo mais distante para causar {0} de DAN F. que ignora DEF e impor [Marca da Caça Melhorada] a todos os inimigos por {1} segundos. Inimigos com a [Marca da Caça Melhorada] recebem DAN F. aumentado em {2}% e têm a Taxa de Cura reduzida em {3}% e a Vel. de ATQ em {4}%. Remove todos os efeitos positivos dos inimigos com [Marca da Caça]."
+    }
+  },
+  "s3": {
+    "name": "Olhos Demoníacos da Petrificação",
+    "description": "Causa {0} de DAN F. a inimigos frontais {1} vezes, petrificando-os por {2} segundos.",
+    "books": {
+      "0": "Aumenta o DAN em {0}%.",
+      "1": "Aumenta o DAN em {0}%.",
+      "2": "Aumenta o DAN em {0}%."
+    },
+    "light": "Ganha imunidade a CM enquanto a habilidade durar.",
+    "dark": "Aumenta em 100% o DAN a inimigos não Heróis durante a habilidade.",
+    "ut": {
+      "name": "Máscara de Osso Enfeitiçada",
+      "description": [
+        "[Olhos Demoníacos da Petrificação] Puxa os inimigos para a frente ao lançar, e reduz o Mana dos inimigos em 200 ao atingir.",
+        "[Olhos Demoníacos da Petrificação] Puxa os inimigos para a frente ao lançar, e reduz o Mana dos inimigos em 240 ao atingir.",
+        "[Olhos Demoníacos da Petrificação] Puxa os inimigos para a frente ao lançar, e reduz o Mana dos inimigos em 290 ao atingir.",
+        "[Olhos Demoníacos da Petrificação] Puxa os inimigos para a frente ao lançar, e reduz o Mana dos inimigos em 350 ao atingir.",
+        "[Olhos Demoníacos da Petrificação] Puxa os inimigos para a frente ao lançar, e reduz o Mana dos inimigos em 420 ao atingir.",
+        "[Olhos Demoníacos da Petrificação] Puxa os inimigos para a frente ao lançar, e reduz o Mana dos inimigos em 500 ao atingir."
+      ],
+      "story": "Máscara feita do crânio de Prektrek, a fera do feitiço, e processada com magia. Nia não gosta de máscaras tradicionais que cobrem o rosto inteiro, e transformou a máscara de osso em elmo. A principal utilidade de tais máscaras é impedir o descontrole dos olhos demoníacos dos líderes da tribo. Porém, apesar do imenso poder dos olhos de Nia, eles eram muito estáveis, e a máscara jamais teve esse significado para ela. Nia a usa para lembrar do pai, convocado pela Estrela Azul quando ela se tornou sucessora dos Olhos Demoníacos da Petrificação. Dizem que Nia fez a máscara com o crânio que mais parecia o da máscara de osso do pai. Curiosidade: a fera Prektrek tem uma ligação distante com Goblins..."
+    },
+    "linked": {
+      "name": "Olhos Demoníacos da Petrificação Melhorados",
+      "description": "Causa {0} de DAN F. que ignora DEF a inimigos frontais em uma área mais ampla {1} vezes, petrificando-os por {2} segundos."
+    }
+  },
+  "s4": {
+    "name": "Sangue Demoníaco",
+    "description": "Ganha 1 acúmulo de [Sangue Demoníaco] ao lançar uma habilidade. Pode ser acumulado até {0} vezes. Ao ganhar {0} acúmulos, restabelece a Recarga de todas as habilidades e a [Habilidade Melhorada] fica disponível. Usar a [Habilidade Melhorada] remove os acúmulos de [Sangue Demoníaco]. Ao ganhar cada acúmulo de [Sangue Demoníaco], aumenta o próprio ATQ em {2} e Todas as Chances de Esquiva em {3} por {1} segundos. O efeito pode acumular até 10 vezes.",
+    "books": {
+      "0": "Aumento de ATQ reforçado em {0}%.",
+      "1": "Aumento de ATQ reforçado em {0}%.",
+      "2": "Aumento de ATQ reforçado em {0}%."
+    },
+    "light": "Aumenta o Impulso de ATQ e Todas as Chances de Esquiva em 50%.",
+    "dark": "Remove os próprios efeitos negativos ao ganhar 4 acúmulos de [Sangue Demoníaco]."
+  },
+  "t5": {
+    "light": "ATK, DEF, PV+15% / Vel ATQ +100",
+    "dark": "Ataques normais e [Cicatriz da Barbárie Melhorada] causam mais DAN F. equivalente a 25% do ATQ, ignorando DEF."
+  }
+}

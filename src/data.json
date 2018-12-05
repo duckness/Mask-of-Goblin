@@ -7289,6 +7289,145 @@
         "light": null
       }
     },
+    "68": {
+      "index": 68,
+      "class": "assassin",
+      "type": "physical",
+      "position": {
+        "type": "forward",
+        "weight": 500
+      },
+      "mpatk": 310,
+      "mpsec": 60,
+      "auto": {
+        "range": 2000,
+        "rangeType": "Melee",
+        "time": [
+          [
+            0.3,
+            0.7
+          ],
+          [
+            1.0,
+            1.1,
+            1.2,
+            1.9
+          ]
+        ],
+        "duration": 2.5
+      },
+      "s1": {
+        "description": [
+          "???",
+          "???",
+          "???",
+          2
+        ],
+        "mana": 3,
+        "cooldown": 15,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null,
+        "linked": [
+          "???",
+          "???",
+          "???",
+          4
+        ]
+      },
+      "s2": {
+        "description": [
+          "???",
+          12,
+          20,
+          25
+        ],
+        "mana": 3,
+        "cooldown": 15,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null,
+        "linked": [
+          "???",
+          12,
+          40,
+          50,
+          25
+        ]
+      },
+      "s3": {
+        "description": [
+          "???",
+          "???",
+          3
+        ],
+        "mana": 4,
+        "cooldown": 30,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null,
+        "linked": [
+          "???",
+          "???",
+          5
+        ]
+      },
+      "s4": {
+        "description": [
+          4,
+          20,
+          "???",
+          20
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
+    },
     "73": {
       "index": 73,
       "class": "warrior",
