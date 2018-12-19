@@ -36,18 +36,18 @@
   "uw": {
     "name": "Kokutos, Sứ giả của Lea",
     "description": [
-      "Khi ra đòn chí mạng, gây sát thương phép liên tục tương đương với 300% sức mạnh tấn công lên Kẻ địch trong 10 giây và giảm 50% tỷ lệ hồi máu của địch.",
-      "Khi ra đòn chí mạng, gây sát thương phép liên tục tương đương với 375% sức mạnh tấn công lên Kẻ địch trong 10 giây và giảm 50% tỷ lệ hồi máu của địch.",
-      "Khi ra đòn chí mạng, gây sát thương phép liên tục tương đương với 450% sức mạnh tấn công lên Kẻ địch trong 10 giây và giảm 50% tỷ lệ hồi máu của địch.",
-      "Khi ra đòn chí mạng, gây sát thương phép liên tục tương đương với 525% sức mạnh tấn công lên Kẻ địch trong 10 giây và giảm 50% tỷ lệ hồi máu của địch.",
-      "Khi ra đòn chí mạng, gây sát thương phép liên tục tương đương với 625% sức mạnh tấn công lên Kẻ địch trong 10 giây và giảm 50% tỷ lệ hồi máu của địch.",
-      "Khi ra đòn chí mạng, gây sát thương phép liên tục tương đương với 750% sức mạnh tấn công lên Kẻ địch trong 10 giây và giảm 50% tỷ lệ hồi máu của địch."
+      "Khi có đòn chí mạng, giảm 50% Tỷ lệ hồi máu của mục tiêu và tăng 2% Sát thương chí mạng của bản thân trong 10 giây. Mức tăng Sát thương chí mạng có thể cộng dồn tối đa 20 lần.",
+      "Khi có đòn chí mạng, giảm 50% Tỷ lệ hồi máu của mục tiêu và tăng 2,4% Sát thương chí mạng của bản thân trong 10 giây. Mức tăng Sát thương chí mạng có thể cộng dồn tối đa 20 lần.",
+      "Khi có đòn chí mạng, giảm 50% Tỷ lệ hồi máu của mục tiêu và tăng 2,9% Sát thương chí mạng của bản thân trong 10 giây. Mức tăng Sát thương chí mạng có thể cộng dồn tối đa 20 lần.",
+      "Khi có đòn chí mạng, giảm 50% Tỷ lệ hồi máu của mục tiêu và tăng 3,5% Sát thương chí mạng của bản thân trong 10 giây. Mức tăng Sát thương chí mạng có thể cộng dồn tối đa 20 lần.",
+      "Khi có đòn chí mạng, giảm 50% Tỷ lệ hồi máu của mục tiêu và tăng 4,2% Sát thương chí mạng của bản thân trong 10 giây. Mức tăng Sát thương chí mạng có thể cộng dồn tối đa 20 lần.",
+      "Khi có đòn chí mạng, giảm 50% Tỷ lệ hồi máu của mục tiêu và tăng 5% Sát thương chí mạng của bản thân trong 10 giây. Mức tăng Sát thương chí mạng có thể cộng dồn tối đa 20 lần."
     ],
     "story": "Một con quạ bí ẩn có thể di chuyển giữa các chiều không gian. Trí thông minh và sự khôn ngoan của nó chắc chắn không phải của một con chim đơn thuần. Trên thực tế, nó là một con quái vật ngập tràn năng lượng hắc ám, rất giống Ác quỷ. Quả thật, tương truyền mãnh thú này cũng hùng mạnh như một Ác quỷ cấp cao. Một vài người khẳng định đôi khi nó bay qua các chiến trường, nói ngôn ngữ của loài người. Danh tính của sinh vật này phần lớn vẫn bị bức màn bí ẩn che phủ."
   },
   "s1": {
     "name": "Bão quạ",
-    "description": "Gây {0} sát thương phép thuật cho kẻ địch trong phạm vi và đẩy địch ra xa. Giảm {2}% phòng thủ phép thuật trong vòng {1} giây.",
+    "description": "Gây {0} Sát thương phép thuật cho kẻ địch ở tuyến đầu và đẩy lùi chúng. Giảm {2}% Phòng thủ phép thuật của kẻ địch trúng đòn trong {1} giây. Gây thêm {3} Sát thương phép thuật cho kẻ địch không phải là anh hùng.",
     "books": {
       "0": "Tăng {0}% sát thương.",
       "1": "Tăng {0}% sát thương.",
@@ -70,7 +70,7 @@
   },
   "s2": {
     "name": "Móng vuốt hạn chế",
-    "description": "Gây {0} sát thương phép lên 2 đối thủ trong {1} giây. Đối tượng chịu sát thương nhận thêm sát lương liên tục.",
+    "description": "Gây {0} Sát thương phép thuật cho 2 kẻ địch và trói buộc chúng trong {1} giây. Kẻ địch trúng đòn sẽ chịu {3} Sát thương phép thuật trong {2} giây.",
     "books": {
       "0": "Tăng {0}% sát thương.",
       "1": "Tăng {0}% sát thương.",
@@ -93,7 +93,7 @@
   },
   "s3": {
     "name": "Khu vực bóng tối",
-    "description": "Kéo đối thủ trong phạm vi về phía trung tâm và gây {0} sát thương phép thuật. Tấn công cuối cùng gây choáng đối thủ trong 3 giây.",
+    "description": "Kéo kẻ địch xung quanh về vị trí trung tâm 5 lần và gây tổng cộng {0} Sát thương phép thuật. Đòn đánh cuối sẽ làm kẻ địch choáng trong 3 giây. Gây tổng cộng {1} Sát thương phép thuật cho kẻ địch không phải là anh hùng.",
     "books": {
       "0": "Tăng {0}% sát thương.",
       "1": "Tăng {0}% sát thương.",

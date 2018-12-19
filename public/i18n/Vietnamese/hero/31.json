@@ -36,18 +36,18 @@
   "uw": {
     "name": "Bầu trời xanh trong, Sherrkyle",
     "description": [
-      "Mỗi 10 giây, ghi dấu một Dấu Ấn Phán Xử lên một kẻ địch ngẫu nhiên trong 15 giây và gây sát thương phép tương đương 168% sức mạnh tấn công.",
-      "Mỗi 10 giây, ghi dấu một Dấu Ấn Phán Xử lên một kẻ địch ngẫu nhiên trong 15 giây và gây sát thương phép tương đương 201.6% sức mạnh tấn công.",
-      "Mỗi 10 giây, ghi dấu một Dấu Ấn Phán Xử lên một kẻ địch ngẫu nhiên trong 15 giây và gây sát thương phép tương đương 241.5% sức mạnh tấn công.",
-      "Mỗi 10 giây, ghi dấu một Dấu Ấn Phán Xử lên một kẻ địch ngẫu nhiên trong 15 giây và gây sát thương phép tương đương 289.8% sức mạnh tấn công.",
-      "Mỗi 10 giây, ghi dấu một Dấu Ấn Phán Xử lên một kẻ địch ngẫu nhiên trong 15 giây và gây sát thương phép tương đương 348.6% sức tấn công.",
-      "Mỗi 10 giây, ghi dấu một Dấu Ấn Phán Xử lên một kẻ địch ngẫu nhiên trong 15 giây và gây sát thương phép tương đương 420% sức tấn công."
+      "Sau mỗi 10 giây, đặt Dấu ấn phán quyết kéo dài 15 giây lên 1 kẻ địch bất kỳ, sau đó gây Sát thương phép thuật tương đương 200% mức Tấn công. Bỏ qua Phòng thủ nếu mục tiêu không phải là Anh hùng.",
+      "Sau mỗi 10 giây, đặt Dấu ấn phán quyết kéo dài 15 giây lên 1 kẻ địch bất kỳ, sau đó gây Sát thương phép thuật tương đương 240% mức Tấn công. Bỏ qua Phòng thủ nếu mục tiêu không phải là Anh hùng.",
+      "Sau mỗi 10 giây, đặt Dấu ấn phán quyết kéo dài 15 giây lên 1 kẻ địch bất kỳ, sau đó gây Sát thương phép thuật tương đương 290% mức Tấn công. Bỏ qua Phòng thủ nếu mục tiêu không phải là Anh hùng.",
+      "Sau mỗi 10 giây, đặt Dấu ấn phán quyết kéo dài 15 giây lên 1 kẻ địch bất kỳ, sau đó gây Sát thương phép thuật tương đương 350% mức Tấn công. Bỏ qua Phòng thủ nếu mục tiêu không phải là Anh hùng.",
+      "Sau mỗi 10 giây, đặt Dấu ấn phán quyết kéo dài 15 giây lên 1 kẻ địch bất kỳ, sau đó gây Sát thương phép thuật tương đương 420% mức Tấn công. Bỏ qua Phòng thủ nếu mục tiêu không phải là Anh hùng.",
+      "Sau mỗi 10 giây, đặt Dấu ấn phán quyết kéo dài 15 giây lên 1 kẻ địch bất kỳ, sau đó gây Sát thương phép thuật tương đương 500% mức Tấn công. Bỏ qua Phòng thủ nếu mục tiêu không phải là Anh hùng."
     ],
     "story": "Một thứ vũ khí ánh sáng quyền năng, có thể mang hình dạng ngọn giáo, con dao găm hoặc cây cung. Một trong những báu vật thần thánh của Thiên thần do tổng lãnh thiên thần ban phước. Nó được biết đến với khả năng thiêu đốt quỷ dữ. Nhờ có tính linh hoạt, nó thường được trao cho lính trinh sát giỏi nhất. Số Ác quỷ bị tiêu diệt trong cuộc chiến dưới ánh sáng của vũ khí này không thể kể xiết."
   },
   "s1": {
     "name": "Mũi tên Thiên đường",
-    "description": "Gây {0} sát thương phép lên 3 kẻ địch và đẩy lùi chúng. Tăng thêm 30% sát thương gây ra bằng kĩ năng này lên đối tượng có Dấu ấn phán xử. Kẻ địch bị trúng kỹ năng này sẽ phải mang Dấu Ấn Phán Xử trong 15 giây.",
+    "description": "Gây {0} Sát thương phép thuật cho 3 kẻ địch và đẩy lùi chúng, đặt Dấu ấn phán quyết lên địch trong 15 giây. Gây thêm {1} Sát thương phép thuật cho kẻ địch không phải là anh hùng và khiến chúng chịu thêm {2}% Sát thương phép thuật trong 10 giây.",
     "books": {
       "0": "Tăng {0}% sát thương.",
       "1": "Tăng {0}% sát thương.",
@@ -70,7 +70,7 @@
   },
   "s2": {
     "name": "Lưỡi dao Thanh trừng",
-    "description": "Gây {0} sát thương phép lên đối thủ trong phạm vi đường thẳng phía trước. Đối thủ mang Dấu Phán Xử nhận thêm {1} sát thương phép, bất chấp phòng thủ.",
+    "description": "Gây {0} Sát thương phép thuật cho kẻ địch ở tuyến đầu theo đường thẳng. Gây thêm {1} Sát thương phép thuật bỏ qua Phòng thủ đối với các mục tiêu có Dấu ấn phán quyết, giảm {2}% Tỷ lệ hồi máu của mục tiêu trong 10 giây.",
     "books": {
       "0": "Tăng {0}% sát thương.",
       "1": "Tăng {0}% sát thương.",
@@ -93,7 +93,7 @@
   },
   "s3": {
     "name": "Người Phán xử",
-    "description": "Gây {0} sát thương phép cho kẻ địch trong phạm vi và kẻ địch có Dấu Phán xử sẽ nhận thêm 50% sát thương phép từ đòn tấn công và bị câm trong 5 giây. Giúp tất cả đồng minh Miễn nhiễm Sát thương phép trong 5 giây",
+    "description": "Gây {0} Sát thương phép thuật cho mục tiêu và kẻ địch trong phạm vi xung quanh. Kẻ địch có Dấu ấn phán quyết sẽ chịu thêm 50% Sát thương phép thuật và bị câm lặng trong 5 giây. Sau đó, tất cả đồng minh được miễn nhiễm Sát thương phép thuật trong 5 giây.",
     "books": {
       "0": "Tăng {0}% sát thương.",
       "1": "Tăng {0}% sát thương.",

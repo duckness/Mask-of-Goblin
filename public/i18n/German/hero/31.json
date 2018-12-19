@@ -36,18 +36,18 @@
   "uw": {
     "name": "Sherrkyle, klarer blauer Himmel",
     "description": [
-      "Belegt alle 10 Sek einen zufälligen Feind mit einem Urteilssiegel für 15 Sek und fügt ihm 168% des ANG als M.Schaden zu.",
-      "Belegt alle 10 Sek einen zufälligen Feind mit einem Urteilssiegel für 15 Sek und fügt ihm 201.6% des ANG als M.Schaden zu.",
-      "Belegt alle 10 Sek einen zufälligen Feind mit einem Urteilssiegel für 15 Sek und fügt ihm 241.5% des ANG als M.Schaden zu.",
-      "Belegt alle 10 Sek einen zufälligen Feind mit einem Urteilssiegel für 15 Sek und fügt ihm 289.8% des ANG als M.Schaden zu.",
-      "Belegt alle 10 Sek einen zufälligen Feind mit einem Urteilssiegel für 15 Sek und fügt ihm 348.6% des ANG als M.Schaden zu.",
-      "Belegt alle 10 Sek einen zufälligen Feind mit einem Urteilssiegel für 15 Sek und fügt ihm 420% des ANG als M.Schaden zu."
+      "Markiert alle 10 Sek. 1 zufälligen Gegner mit Urteilssiegel, das 15 Sek. andauert, und fügt dann M.Schaden in Höhe von 200% ANG zu. Ignoriert VERT, wenn das Ziel kein Held ist.",
+      "Markiert alle 10 Sek. 1 zufälligen Gegner mit Urteilssiegel, das 15 Sek. andauert, und fügt dann M.Schaden in Höhe von 240% ANG zu. Ignoriert VERT, wenn das Ziel kein Held ist.",
+      "Markiert alle 10 Sek. 1 zufälligen Gegner mit Urteilssiegel, das 15 Sek. andauert, und fügt dann M.Schaden in Höhe von 290% ANG zu. Ignoriert VERT, wenn das Ziel kein Held ist.",
+      "Markiert alle 10 Sek. 1 zufälligen Gegner mit Urteilssiegel, das 15 Sek. andauert, und fügt dann M.Schaden in Höhe von 350% ANG zu. Ignoriert VERT, wenn das Ziel kein Held ist.",
+      "Markiert alle 10 Sek. 1 zufälligen Gegner mit Urteilssiegel, das 15 Sek. andauert, und fügt dann M.Schaden in Höhe von 420% ANG zu. Ignoriert VERT, wenn das Ziel kein Held ist.",
+      "Markiert alle 10 Sek. 1 zufälligen Gegner mit Urteilssiegel, das 15 Sek. andauert, und fügt dann M.Schaden in Höhe von 500% ANG zu. Ignoriert VERT, wenn das Ziel kein Held ist."
     ],
     "story": "Eine mächtige Lichtwaffe, die die Form eines Speeres, Dolches oder Bogens annehmen kann. Einer der göttlichen Schätze der Engel, gesegnet durch einen Erzengel. Es heißt, sie wäre in der Lage, das Böse zu entzünden. Wegen ihrer Vielseitigkeit gab man sie traditionell dem talentiertesten Späher. Die Zahl der Dämonen, die angesichts ihres Lichts ihr Ende fanden, ist schier unendlich."
   },
   "s1": {
     "name": "Himmlischer Pfeil",
-    "description": "Fügt 3 Feinden {0} M.Schaden zu und wirft sie zurück. Wenn ein Feind mit einem Urteilssiegel getroffen wird, nimmt er 30% Extra-Schaden. Getroffenen Feinden wird 15 Sek. lang ein Urteilssiegel auferlegt.",
+    "description": "Fügt 3 Feinden {0} M.Schaden zu, stößt sie zurück und hinterlässt 15 Sek. lang ein Urteilssiegel auf ihnen. Fügt Feinden, die keine Helden sind, {1} zusätzl. M.Schaden zu und lässt sie 10 Sek. lang {2}% erhöhten Schaden erleiden.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -70,7 +70,7 @@
   },
   "s2": {
     "name": "Reinigende Flamme",
-    "description": "Fügt allen Feinden in einer Linie {0} M.Schaden zu. Feinde mit einem Urteilssiegel erleiden {1} zusätzl. M.Schaden, der ihre M.VERT ignoriert.",
+    "description": "Fügt allen Feinden in einer Linie vorne {0} M.Schaden zu. Verursacht {1} zusätzl. M.Schaden, der VERT bei Zielen mit Urteilssiegel ignoriert, und reduziert 10 Sek. lang ihre Heilungsrate um {2}%.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -93,7 +93,7 @@
   },
   "s3": {
     "name": "Schlichter",
-    "description": "Fügt Feinden in Reichw. {0} M.Schaden zu. Feinde mit einem Urteilssiegel erleiden 50% extra M.Schaden und werden 5 Sek lang zum Schweigen gebracht. Alle Verb. werden 5 Sek lang immun gegen M.Schaden.",
+    "description": "Fügt dem Ziel und Feinden in der Nähe {0} M.Schaden zu. Feinde mit Urteilssiegel erleiden 50% erhöhten M.Schaden und sie verstummen 5 Sek. lang. Gewährt danach allen Verbündeten 5 Sek. lang Immunität gegen M.Schaden.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",

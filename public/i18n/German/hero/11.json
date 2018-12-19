@@ -36,18 +36,18 @@
   "uw": {
     "name": "Leas Bote Kokutos",
     "description": [
-      "Verursacht 10 Sek lang stetig M.Schaden (300% d. ANG) alle 10 Sek, und reduziert Erholungsrate um 50%.",
-      "Verursacht 10 Sek lang stetig M.Schaden (375% d. ANG) alle 10 Sek, und reduziert Erholungsrate um 50%.",
-      "Verursacht 10 Sek lang stetig M.Schaden (450% d. ANG) alle 10 Sek, und reduziert Erholungsrate um 50%.",
-      "Verursacht 10 Sek lang stetig M.Schaden (525% d. ANG) alle 10 Sek, und reduziert Erholungsrate um 50%.",
-      "Verursacht 10 Sek lang stetig M.Schaden (625% d. ANG) alle 10 Sek, und reduziert Erholungsrate um 50%.",
-      "Verursacht 10 Sek lang stetig M.Schaden (750% d. ANG) alle 10 Sek, und reduziert Erholungsrate um 50%."
+      "Reduziert bei einem Kritischen Treffer Heilungsrate des Ziels um 50% und erhöht den eigenen Krit. Schaden 10 Sek. lang um 2%. Dieser Effekt kann bist zu 20-mal kumuliert werden.",
+      "Reduziert bei einem Kritischen Treffer Heilungsrate des Ziels um 50% und erhöht den eigenen Krit. Schaden 10 Sek. lang um 2,4%. Dieser Effekt kann bist zu 20-mal kumuliert werden.",
+      "Reduziert bei einem Kritischen Treffer Heilungsrate des Ziels um 50% und erhöht den eigenen Krit. Schaden 10 Sek. lang um 2,9%. Dieser Effekt kann bist zu 20-mal kumuliert werden.",
+      "Reduziert bei einem Kritischen Treffer Heilungsrate des Ziels um 50% und erhöht den eigenen Krit. Schaden 10 Sek. lang um 3,5%. Dieser Effekt kann bist zu 20-mal kumuliert werden.",
+      "Reduziert bei einem Kritischen Treffer Heilungsrate des Ziels um 50% und erhöht den eigenen Krit. Schaden 10 Sek. lang um 4,2%. Dieser Effekt kann bist zu 20-mal kumuliert werden.",
+      "Reduziert bei einem Kritischen Treffer Heilungsrate des Ziels um 50% und erhöht den eigenen Krit. Schaden 10 Sek. lang um 5%. Dieser Effekt kann bist zu 20-mal kumuliert werden."
     ],
     "story": "Ein geheimnisvoller Rabe mit der Fähigkeit, zwischen den Dimensionen zu reisen. Seine Intelligenz und Gerissenheit übersteigen jene eines normalen Vogels deutlich. In Wahrheit handelt es sich dabei um ein Monster voller dunkler Energie, fast wie ein Dämon. Tatsächlich heißt es, dass diese Bestie so mächtig wie ein hochrangiger Dämon wäre. Manche behaupten, dass er gelegentlich über Schlachtfelder fliegt und in menschlichen Sprachen spricht. Viele Aspekte dieser Kreatur sind nach wie vor geheimnisumwoben."
   },
   "s1": {
     "name": "Rabensturm",
-    "description": "Fügt Feinden in Reichw. {0} M.Schaden zu, wirft sie zu Boden und verringert ihre M.VERT um {2}% für {1} Sek.",
+    "description": "Fügt Feinden in Reichw. vorne {0} M.Schaden zu und stößt sie zurück. Verringert M.VERT von getr. Feinden {1} Sek. lang um {2}%. Fügt Feinden, die keine Helden sind, zusätzliche {3} M.Schaden zu.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -70,7 +70,7 @@
   },
   "s2": {
     "name": "Klaue der Fesselung",
-    "description": "Fügt 2 Feinden {0} M.Schaden zu und fesselt sie für {1} Sek.",
+    "description": "Fügt 2 Feinden {0} M.Schaden zu und fesselt sie {1} Sek. lang. Getroffene Feinde erleiden {3} M.Schaden über {2} Sek.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -93,7 +93,7 @@
   },
   "s3": {
     "name": "Sog der Dunkelheit",
-    "description": "Zieht Feinde in Reichw. zum Mittelpunkt und verursacht {0} M.Schaden. Der letzte Angriff betäubt Feinde für 3 Sek.",
+    "description": "Zieht Feinde in Reichw. 5-mal zum Mittelpunkt und verursacht insgesamt {0} M.Schaden. Der letzte Angriff betäubt Feinde 3 Sek. Fügt Feinden, die keine Helden sind, zusätzliche {1} M.Schaden zu.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",

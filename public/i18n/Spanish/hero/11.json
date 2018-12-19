@@ -36,18 +36,18 @@
   "uw": {
     "name": "el Mensajero de Lea, Cocytus",
     "description": [
-      "Luego de un Golpe Crítico, causa un Daño Magico continuo al enemigo igual al 300% de ATQ durante 10 segundos y reduce su tasa de recuperación en un 50%.",
-      "Luego de un Golpe Crítico, causa un Daño Magico continuo al enemigo igual al 375% de ATQ durante 10 segundos y reduce su tasa de recuperación en un 50%.",
-      "Luego de un Golpe Crítico, causa un Daño Magico continuo al enemigo igual al 450% de ATQ durante 10 segundos y reduce su tasa de recuperación en un 50%.",
-      "Luego de un Golpe Crítico, causa un Daño Magico continuo al enemigo igual al 525% de ATQ durante 10 segundos y reduce su tasa de recuperación en un 50%.",
-      "Luego de un Golpe Crítico, causa un Daño Magico continuo al enemigo igual al 625% de ATQ durante 10 segundos y reduce su tasa de recuperación en un 50%.",
-      "Luego de un Golpe Crítico, causa un Daño Magico continuo al enemigo igual al 750% de ATQ durante 10 segundos y reduce su tasa de recuperación en un 50%."
+      "En un Golpe crítico, reduce la Tasa de curación del objetivo en un 50 % y aumenta el Daño crítico propio en un 2 % durante 10 segundos. El Daño crítico se puede acumular hasta un máximo de 20 veces.",
+      "En un Golpe crítico, reduce la Tasa de curación del objetivo en un 50 % y aumenta el Daño crítico propio en un 2,4 % durante 10 segundos. El Daño crítico se puede acumular hasta un máximo de 20 veces.",
+      "En un Golpe crítico, reduce la Tasa de curación del objetivo en un 50 % y aumenta el Daño crítico propio en un 2,9 % durante 10 segundos. El Daño crítico se puede acumular hasta un máximo de 20 veces.",
+      "En un Golpe crítico, reduce la Tasa de curación del objetivo en un 50 % y aumenta el Daño crítico propio en un 3,5 % durante 10 segundos. El Daño crítico se puede acumular hasta un máximo de 20 veces.",
+      "En un Golpe crítico, reduce la Tasa de curación del objetivo en un 50 % y aumenta el Daño crítico propio en un 4,2 % durante 10 segundos. El Daño crítico se puede acumular hasta un máximo de 20 veces.",
+      "En un Golpe crítico, reduce la Tasa de curación del objetivo en un 50 % y aumenta el Daño crítico propio en un 5 % durante 10 segundos. El Daño crítico se puede acumular hasta un máximo de 20 veces."
     ],
     "story": "Un cuervo misterioso que puede viajar a través de dimensiones. Su inteligencia y astucia son ciertamente diferentes de los de una simple ave. En realidad, es un monstruo lleno de energía obscura, prácticamente como Demonios. En efecto, se dice que esta bestia es tan poderosa como un demonio de alto rango. Algunos afirman que ocasionalmente vuela a través de los campos de batalla, hablando en idiomas humanos. La mayoría de la identidad de esta criatura aún está cubierta en misterio."
   },
   "s1": {
     "name": "Tormenta de Cuervos",
-    "description": "Causa  {0}  Daño Magico a los enemigos al alcance y derribalos. También disminuye DEF Magica en  {2}% por  {1}  seg.",
+    "description": "Inflige {0} de Daño mágico a los enemigos en un rango frontal y los empuja hacia atrás. Reduce la Defensa mágica de los enemigos golpeados en un {2}  % durante {1} segundo(s). Inflige {3} de Daño mágico a los enemigos que no son héroes.",
     "books": {
       "0": "Daño Aumenta en {0}%.",
       "1": "Daño Aumenta en {0}%.",
@@ -70,7 +70,7 @@
   },
   "s2": {
     "name": "Garra de Esclavitud",
-    "description": "Infligir  {0}  Daño Magico hasta en 2 enemigos y encadenarlos por  {1}  seg. Los enemigos apuntados reciben un continuo Daño Magico adicional.",
+    "description": "Inflige {0} de Daño mágico hasta en 2 enemigos y encadenarlos por {1} segundo(s). Los enemigos golpeados recibirán {3} de Daño mágico durante {2} segundos.",
     "books": {
       "0": "Daño Aumenta en {0}%.",
       "1": "Daño Aumenta en {0}%.",
@@ -93,7 +93,7 @@
   },
   "s3": {
     "name": "Area de Obscuridad",
-    "description": "Reune enemigos al alcance y causa  {0}  Daño Magico. El último ataque aturde a los enemigos durante 3 seg",
+    "description": "Reúne enemigos al alcance del centro 5 veces y causa un total de {0} de Daño mágico. El último ataque aturde a los enemigos durante 3 segundo(s). Inflige {1} de Daño mágico adicional a los enemigos que no son héroes.",
     "books": {
       "0": "Daño Aumenta en {0}%.",
       "1": "Daño Aumenta en {0}%.",

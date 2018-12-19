@@ -99,7 +99,7 @@
       "1": "ATK boost is increased by {0}%.",
       "2": "Crit Chance is increased by {0} for the duration of skill."
     },
-    "light": "ATK boost is increased by 40%.",
+    "light": "Recovers 1 orb of Mana for all allies.",
     "dark": "Cooldown is reduced by 3 sec.",
     "ut": {
       "name": "Skywind Feather Decoration",
@@ -116,14 +116,14 @@
   },
   "s4": {
     "name": "Chain Lightning",
-    "description": "Deals {1} M.DMG to 4 enemies every {0} sec, and inflicts Electric Shock for {2} sec. Enemies inflicted with Electric Shock will take a total M.DMG of {4} over {3} sec.",
+    "description": "Deals {1} M.DMG to 4 enemies every {0} sec, inflicts Electric Shock for {2} sec, and stuns them for 1 sec upon a Critical Hit. Enemies under Electric Shock take a total of {4} M.DMG over {3} sec.",
     "books": {
       "0": "DMG is increased by {0}%.",
       "1": "DMG is increased by {0}%.",
-      "2": "Upon a Crit Hit, hit enemies are stunned for {0} sec."
+      "2": "DMG is increased by {0}%."
     },
-    "light": "Crit Chance is increased by 400.",
-    "dark": "If there is 1 enemy, Stun duration is increased by 3 sec."
+    "light": "Electric Shock effect becomes irremovable.",
+    "dark": "Increases Stun duration by 0.7 sec."
   },
   "t5": {
     "light": "ATK, DEF, HP+15% / Crit Chance +100",

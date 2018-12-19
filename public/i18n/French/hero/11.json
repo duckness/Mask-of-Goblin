@@ -36,18 +36,18 @@
   "uw": {
     "name": "Kokutos, Messager de Lea",
     "description": [
-      "Lors d'un coup critique, inflige en continu des DEG M. équivalents à 300% de l'ATQ à l'ennemi pendant 10 sec. Réduit également son taux de récupération de 50%.",
-      "Lors d'un coup critique, inflige en continu des DEG M. équivalents à 375% de l'ATQ à l'ennemi pendant 10 sec. Réduit également son taux de récupération de 50%.",
-      "Lors d'un coup critique, inflige en continu des DEG M. équivalents à 450% de l'ATQ à l'ennemi pendant 10 sec. Réduit également son taux de récupération de 50%.",
-      "Lors d'un coup critique, inflige en continu des DEG M. équivalents à 525% de l'ATQ à l'ennemi pendant 10 sec. Réduit également son taux de récupération de 50%.",
-      "Lors d'un coup critique, inflige en continu des DEG M. équivalents à 625% de l'ATQ à l'ennemi pendant 10 sec. Réduit également son taux de récupération de 50%.",
-      "Lors d'un coup critique, inflige en continu des DEG M. équivalents à 750% de l'ATQ à l'ennemi pendant 10 sec. Réduit également son taux de récupération de 50%."
+      "En cas de coup critique, réduit la récupération de la cible de 50 % et augmente les DEG Crit de 2 % pendant 10 sec. L'augmentation des DEG Crit peut se cumuler jusqu'à 20 fois.",
+      "En cas de coup critique, réduit la récupération de la cible de 50 % et augmente les DEG Crit de 2,4 % pendant 10 sec. L'augmentation des DEG Crit peut se cumuler jusqu'à 20 fois.",
+      "En cas de coup critique, réduit la récupération de la cible de 50 % et augmente les DEG Crit de 2,9 % pendant 10 sec. L'augmentation des DEG Crit peut se cumuler jusqu'à 20 fois.",
+      "En cas de coup critique, réduit la récupération de la cible de 50 % et augmente les DEG Crit de 3,5 % pendant 10 sec. L'augmentation des DEG Crit peut se cumuler jusqu'à 20 fois.",
+      "En cas de coup critique, réduit la récupération de la cible de 50 % et augmente les DEG Crit de 4,2 % pendant 10 sec. L'augmentation des DEG Crit peut se cumuler jusqu'à 20 fois.",
+      "En cas de coup critique, réduit la récupération de la cible de 50 % et augmente les DEG Crit de 5 % pendant 10 sec. L'augmentation des DEG Crit peut se cumuler jusqu'à 20 fois."
     ],
     "story": "Un corbeau mystérieux voyageant entre les dimensions. Son intelligence et sa sagacité ne sont pas celles d'un oiseau ordinaire. En réalité, c'est un monstre plein d'énergie ténébreuse, comme les démons. On dit d'ailleurs que cette bête est aussi puissante qu'un démon de haut rang. Certains disent qu'il survole parfois le champ de bataille en parlant des langues humaines. L'identité de cette créature reste nimbée de mystère."
   },
   "s1": {
     "name": "Tempête du Corbeau",
-    "description": "Inflige {0} points de DEG M. aux ennemis à portée et les renverse. Réduit également la DEF M. de {2}% pendant {1} sec.",
+    "description": "Inflige {0}  points de DEG M aux ennemis à portée situés en face et les repousse. Réduit la DEF M des ennemis touchés de {2}  % pendant {1}  sec. Inflige {3}  points de DEG M supplémentaires aux ennemis non-héros.",
     "books": {
       "0": "Augmente les DEG de {0}%.",
       "1": "Augmente les DEG de {0}%.",
@@ -70,7 +70,7 @@
   },
   "s2": {
     "name": "Griffe de Restriction",
-    "description": "Inflige {0} points de DEG M. à 2 ennemis maximum et les entrave pendant {1} sec. Les ennemis ciblés reçoivent également des DEG M. additionnels en continue.",
+    "description": "Inflige {0}  points de DEG M à 2 ennemis et les immobilise pendant {1}  sec. Les ennemis touchés reçoivent {3}  points de DEG M en {2}  sec.",
     "books": {
       "0": "Augmente les DEG de {0}%.",
       "1": "Augmente les DEG de {0}%.",
@@ -93,7 +93,7 @@
   },
   "s3": {
     "name": "Zone Ténébreuse",
-    "description": "Attire les ennemis qui sont à portée vers le milieu et leur inflige {0} points de DEG M. La dernière attaque applique un Étourdissement pendant 3 sec.",
+    "description": "Attire 5 fois les ennemis proches vers le centre et leur inflige un total de {0}  points de DEG M. La dernière attaque étourdit les ennemis pendant 3 sec. Inflige {1}  points de DEG M supplémentaires aux ennemis non-héros.",
     "books": {
       "0": "Augmente les DEG de {0}%.",
       "1": "Augmente les DEG de {0}%.",

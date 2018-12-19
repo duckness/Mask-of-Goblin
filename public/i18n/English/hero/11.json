@@ -36,18 +36,18 @@
   "uw": {
     "name": "Lea's Messenger, Cocytus",
     "description": [
-      "Upon a critical hit, deal continuous M. DMG equal to 300% of ATK to the enemy for 10 sec and reduce their recovery rate by 50%.",
-      "Upon a critical hit, deal continuous M. DMG equal to 375% of ATK to the enemy for 10 sec and reduce their recovery rate by 50%.",
-      "Upon a critical hit, deal continuous M. DMG equal to 450% of ATK to the enemy for 10 sec and reduce their recovery rate by 50%.",
-      "Upon a critical hit, deal continuous M. DMG equal to 525% of ATK to the enemy for 10 sec and reduce their recovery rate by 50%.",
-      "Upon a critical hit, deal continuous M. DMG equal to 625% of ATK to the enemy for 10 sec and reduce their recovery rate by 50%.",
-      "Upon a critical hit, deal continuous M. DMG equal to 750% of ATK to the enemy for 10 sec and reduce their recovery rate by 50%."
+      "Upon a Critical Hit, reduces Heal Rate of the target by 50% and increases own Crit DMG by 2% for 10 sec. Crit DMG increase effect can be stacked up to max 20 times.",
+      "Upon a Critical Hit, reduces Heal Rate of the target by 50% and increases own Crit DMG by 2.4% for 10 sec. Crit DMG increase effect can be stacked up to max 20 times.",
+      "Upon a Critical Hit, reduces Heal Rate of the target by 50% and increases own Crit DMG by 2.9% for 10 sec. Crit DMG increase effect can be stacked up to max 20 times.",
+      "Upon a Critical Hit, reduces Heal Rate of the target by 50% and increases own Crit DMG by 3.5% for 10 sec. Crit DMG increase effect can be stacked up to max 20 times.",
+      "Upon a Critical Hit, reduces Heal Rate of the target by 50% and increases own Crit DMG by 4.2% for 10 sec. Crit DMG increase effect can be stacked up to max 20 times.",
+      "Upon a Critical Hit, reduces Heal Rate of the target by 50% and increases own Crit DMG by 5% for 10 sec. Crit DMG increase effect can be stacked up to max 20 times."
     ],
     "story": "A mysterious raven that can travel across dimensions. Its intelligence and shrewdness are certainly not those of a mere bird. In truth, it is a monster filled with dark energy, much like Demons. Indeed, it is said that this beast is as powerful as a high-ranking Demon. Some claim that it occasionally flies over fields of battle, speaking in human languages. Much of this creature's identity is still shrouded in mystery."
   },
   "s1": {
     "name": "Raven Storm",
-    "description": "Deals {0} M.DMG to enemies in range and knocks them back. M.DEF is reduced by {2}% for {1} sec.",
+    "description": "Deals {0} M.DMG to enemies in frontal range and pushes them back. Reduces M.DEF of hit enemies by {2}% for {1} sec. Deals additional {3} M.DMG to Non-Hero enemies.",
     "books": {
       "0": "DMG is increased by {0}%.",
       "1": "DMG is increased by {0}%.",
@@ -70,7 +70,7 @@
   },
   "s2": {
     "name": "Claw of Restriction",
-    "description": "Deals {0} M.DMG to 2 enemies and shackles them for {1} sec. Targeted enemies receive extra M.DMG over time.",
+    "description": "Deals {0} M.DMG to 2 enemies, and shackles them for {1} sec. Hit enemies will take {3} M.DMG over {2} sec.",
     "books": {
       "0": "DMG is increased by {0}%.",
       "1": "DMG is increased by {0}%.",
@@ -93,7 +93,7 @@
   },
   "s3": {
     "name": "Area of Darkness",
-    "description": "Draws in nearby enemies towards the center and deals {0} M.DMG. The last attack stuns enemies for 3 sec.",
+    "description": "Draws in nearby enemies towards the center 5 times and deals a total of {0} M.DMG. The last attack stuns enemies for 3 sec. Deals additional {1} M.DMG to Non-Hero enemies.",
     "books": {
       "0": "DMG is increased by {0}%.",
       "1": "DMG is increased by {0}%.",

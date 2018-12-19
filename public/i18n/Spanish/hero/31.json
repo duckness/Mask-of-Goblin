@@ -36,18 +36,18 @@
   "uw": {
     "name": "Cielo Despejado Azul, Sherrkyle",
     "description": [
-      "Cada 10 segundos, estampa una Ficha de Arbitro sobre un enemigo aleatorio durante 15 seg y causa 168% de ATQ de Daño Magico.",
-      "Cada 10 segundos, estampa una Ficha de Arbitro sobre un enemigo aleatorio durante 15 seg y causa 201.6% de ATQ de Daño Magico.",
-      "Cada 10 segundos, estampa una Ficha de Arbitro sobre un enemigo aleatorio durante 15 seg y causa 241.5% de ATQ de Daño Magico.",
-      "Cada 10 segundos, estampa una Ficha de Arbitro sobre un enemigo aleatorio durante 15 seg y causa 289.8% de ATQ de Daño Magico.",
-      "Cada 10 segundos, estampa una Ficha de Arbitro sobre un enemigo aleatorio durante 15 seg y causa 348.6% de ATQ de Daño Magico.",
-      "Cada 10 segundos, estampa una Ficha de Arbitro sobre un enemigo aleatorio durante 15 seg y causa 420% de ATQ de Daño Magico."
+      "Cada 10 segundos, marca la Ficha del árbitro en 1 enemigo aleatorio que dura 15 segundos, e inflige Daño mágico equivalente al 200 % de Ataque. Ignora la Defensa si el objetivo no es un héroe.",
+      "Cada 10 segundos, marca la Ficha del árbitro en 1 enemigo aleatorio que dura 15 segundos, e inflige Daño mágico equivalente al 240 % de Ataque. Ignora la Defensa si el objetivo no es un héroe.",
+      "Cada 10 segundos, marca la Ficha del árbitro en 1 enemigo aleatorio que dura 15 segundos, e inflige Daño mágico equivalente al 290 % de Ataque. Ignora la Defensa si el objetivo no es un héroe.",
+      "Cada 10 segundos, marca la Ficha del árbitro en 1 enemigo aleatorio que dura 15 segundos, e inflige Daño mágico equivalente al 350 % de Ataque. Ignora la Defensa si el objetivo no es un héroe.",
+      "Cada 10 segundos, marca la Ficha del árbitro en 1 enemigo aleatorio que dura 15 segundos, e inflige Daño mágico equivalente al 420 % de Ataque. Ignora la Defensa si el objetivo no es un héroe.",
+      "Cada 10 segundos, marca la Ficha del árbitro en 1 enemigo aleatorio que dura 15 segundos, e inflige Daño mágico equivalente al 500 % de Ataque. Ignora la Defensa si el objetivo no es un héroe."
     ],
     "story": "Un arma poderosa de luz que puede tomar la forma de una lanza, una daga o un arco. Uno de los tesoros divinos de los ángeles benditos por un arcángel Se dice que es capaz de incinerar el mal. Debido a su versatilidad, ha sido otorgada tradicionalmente al explorador más talentoso. El número de demonios que murió bajo su luz durante la guerra es demasiado alto para contar."
   },
   "s1": {
     "name": "Flecha Celestial",
-    "description": "Causa {0} Daño Magico a 3 enemigos y derribalos. Cuando un enemigo que posee fichas de arbitro es golpeado, recibe 30% más de Daño adicional. Los enemigos golpeados por esta habilidad se les estampa una ficha de arbitro por 15 segundos.",
+    "description": "Inflige {0} de Daño mágico a 3 enemigos y los empuja hacia atrás, dejando una Ficha de árbitro durante 15 segundos. Inflige {1} de Daño mágico adicional a los héroes de daño mágico y los hace recibir {2}  % de Daño mágico adicional durante 10 segundos.",
     "books": {
       "0": "Daño Aumenta en {0}%.",
       "1": "Daño Aumenta en {0}%.",
@@ -70,7 +70,7 @@
   },
   "s2": {
     "name": "Resplandor Purificante",
-    "description": "Causa {0}  Daño Magico a todos los enemigos en línea recta. Enemigos con una ficha de arbitro reciben {1} Daño Magico adicional.",
+    "description": "Inflige {0} de Daño mágico a todos los enemigos en línea recta. Causa {1} de Daño mágico adicional que ignora la Defensa de los enemigos con la Ficha del árbitro y reduce su Tasa de curación en un {2}  % durante 10 segundos.",
     "books": {
       "0": "Daño Aumenta en {0}%.",
       "1": "Daño Aumenta en {0}%.",
@@ -93,7 +93,7 @@
   },
   "s3": {
     "name": "Arbitro",
-    "description": "Causa {0} Daño Magico a los enemigos al alcance, y los enemigos con fichas de arbitro reciben un 50% más de Daño Magico de los ataques y se silencian durante 5 seg. Todos los aliados obtienen inmunidad al Daño Magico durante 5 seg.",
+    "description": "Causa {0} de Daño mágico a todos los objetivos y enemigos cercanos. Los enemigos con Ficha del árbitro reciben 50 % de Daño mágico incrementado y se silencian durante 5 segundos. Luego otorga inmunidad al Daño mágico a todos los aliados durante 5 segundos.",
     "books": {
       "0": "Daño Aumenta en {0}%.",
       "1": "Daño Aumenta en {0}%.",

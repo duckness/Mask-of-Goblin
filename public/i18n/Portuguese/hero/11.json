@@ -36,18 +36,18 @@
   "uw": {
     "name": "Kokutos, Mensageiro de Lea",
     "description": [
-      "Cada acerto crítico causa DMG.M contínuo igual a 300% de ATQ ao inimigo durante 10 segundos e reduz a sua taxa de recuperação em 50%.",
-      "Cada acerto crítico causa DMG.M contínuo igual a 375% de ATQ ao inimigo durante 10 segundos e reduz a sua taxa de recuperação em 50%.",
-      "Cada acerto crítico causa DMG.M contínuo igual a 450% de ATQ ao inimigo durante 10 segundos e reduz a sua taxa de recuperação em 50%.",
-      "Cada acerto crítico causa DMG.M contínuo igual a 525% de ATQ ao inimigo durante 10 segundos e reduz a sua taxa de recuperação em 50%.",
-      "Cada acerto crítico causa DMG.M contínuo igual a 625% de ATQ ao inimigo durante 10 segundos e reduz a sua taxa de recuperação em 50%.",
-      "Cada acerto crítico causa DMG.M contínuo igual a 750% de ATQ ao inimigo durante 10 segundos e reduz a sua taxa de recuperação em 50%."
+      "Após um Acerto Crítico, reduz a Taxa de Cura do alvo em 50% e aumenta o próprio DAN Crít em 2% por 10 seg. O aumento de DAN Crít pode ser acumulado até 20 vezes.",
+      "Após um Acerto Crítico, reduz a Taxa de Cura do alvo em 50% e aumenta o próprio DAN Crít em 2,4% por 10 seg. O aumento de DAN Crít pode ser acumulado até 20 vezes.",
+      "Após um Acerto Crítico, reduz a Taxa de Cura do alvo em 50% e aumenta o próprio DAN Crít em 2,9% por 10 seg. O aumento de DAN Crít pode ser acumulado até 20 vezes.",
+      "Após um Acerto Crítico, reduz a Taxa de Cura do alvo em 50% e aumenta o próprio DAN Crít em 3,5% por 10 seg. O aumento de DAN Crít pode ser acumulado até 20 vezes.",
+      "Após um Acerto Crítico, reduz a Taxa de Cura do alvo em 50% e aumenta o próprio DAN Crít em 4,2% por 10 seg. O aumento de DAN Crít pode ser acumulado até 20 vezes.",
+      "Após um Acerto Crítico, reduz a Taxa de Cura do alvo em 50% e aumenta o próprio DAN Crít em 5% por 10 seg. O aumento de DAN Crít pode ser acumulado até 20 vezes."
     ],
     "story": "Um corvo misterioso capaz de viajar entre dimensões. Sua inteligência e perspicácia certamente não são como as de um mero pássaro. Na verdade, ele é um monstro cheio de energia sombria, tal como demônios. De fato, dizem que esta fera é tão poderosa quanto um Demônio de alta patente. Alguns alegam que, às vezes, ele sobrevoa os campos de batalha falando em línguas humanas. Boa parte da identidade dessa criatura ainda é rodeada de mistério."
   },
   "s1": {
     "name": "Tempestade do Corvo",
-    "description": "Causa {0} de DAN.M ao inimigos no alcance e os repele. Diminui a DEF.M em {2}%, durante {1} segundos.",
+    "description": "Causa {0} de DAN M. aos inimigos no alcance frontal e os empurra. Reduz a DEF M. dos inimigos atingidos em {2}% por {1} seg. Causa {3} de DAN M. adicional a inimigos Não Heróis.",
     "books": {
       "0": "Aumenta o DAN em {0}%.",
       "1": "Aumenta o DAN em {0}%.",
@@ -70,7 +70,7 @@
   },
   "s2": {
     "name": "Garra da Restrição",
-    "description": "Causa {0} de DAN.M em até 2 inimigos os aprisiona durante {1} segundos. Os inimigos alvos recebem DAN.M adicional e constante.",
+    "description": "Causa {0} de DAN M. a 2 inimigos e os aprisiona durante {1} seg. Inimigos atingidos receberão {3} de DAN M. durante {2} seg.",
     "books": {
       "0": "Aumenta o DAN em {0}%.",
       "1": "Aumenta o DAN em {0}%.",
@@ -93,7 +93,7 @@
   },
   "s3": {
     "name": "Área da Escuridão",
-    "description": "Atrai os inimigos no alcance em direção ao centro e causa {0} de DAN.M. O último ataque atordoa os inimigos durante 3 segundos.",
+    "description": "Atrai os inimigos no alcance em direção ao centro 5 vezes e causa um total de {0} de DAN M. O último ataque atordoa os inimigos durante 3 seg. Causa {1} de DAN M. adicional a inimigos Não Heróis.",
     "books": {
       "0": "Aumenta o DAN em {0}%.",
       "1": "Aumenta o DAN em {0}%.",

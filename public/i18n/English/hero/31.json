@@ -36,18 +36,18 @@
   "uw": {
     "name": "Clear Blue Sky, Sherrkyle",
     "description": [
-      "Every 10 sec, inflicts a Judgement Sigil upon a random enemy for 15 sec and deals 168% of ATK as M.DMG.",
-      "Every 10 sec, inflicts a Judgement Sigil upon a random enemy for 15 sec and deals 201.6% of ATK as M.DMG.",
-      "Every 10 sec, inflicts a Judgement Sigil upon a random enemy for 15 sec and deals 241.5% of ATK as M.DMG.",
-      "Every 10 sec, inflicts a Judgement Sigil upon a random enemy for 15 sec and deals 289.8% of ATK as M.DMG.",
-      "Every 10 sec, inflicts a Judgement Sigil upon a random enemy for 15 sec and deals 348.8% of ATK as M.DMG.",
-      "Every 10 sec, inflicts a Judgement Sigil upon a random enemy for 15 sec and deals 420% of ATK as M.DMG."
+      "Every 10 sec, marks Judgment Sigil on 1 random enemy for 15 sec, then deals M.DMG equal to 200% of ATK. Ignores DEF if the target is not a Hero.",
+      "Every 10 sec, marks Judgment Sigil on 1 random enemy for 15 sec, then deals M.DMG equal to 240% of ATK. Ignores DEF if the target is not a Hero.",
+      "Every 10 sec, marks Judgment Sigil on 1 random enemy for 15 sec, then deals M.DMG equal to 290% of ATK. Ignores DEF if the target is not a Hero.",
+      "Every 10 sec, marks Judgment Sigil on 1 random enemy for 15 sec, then deals M.DMG equal to 350% of ATK. Ignores DEF if the target is not a Hero.",
+      "Every 10 sec, marks Judgment Sigil on 1 random enemy for 15 sec, then deals M.DMG equal to 420% of ATK. Ignores DEF if the target is not a Hero.",
+      "Every 10 sec, marks Judgment Sigil on 1 random enemy for 15 sec, then deals M.DMG equal to 500% of ATK. Ignores DEF if the target is not a Hero."
     ],
     "story": "A powerful weapon of light that can take the form of a spear, a dagger, or a bow. One of the divine treasures of the Angels blessed by an archangel. It is said to be capable of incinerating evil. Due to its versatility, it has traditionally been given to the most talented scout. The number of Demons who perished under its light during the war is too high to count."
   },
   "s1": {
     "name": "Celestial Arrow",
-    "description": "Deals {0} M.DMG to 3 enemies and knock them back. Enemies with a Judgement sigil takes 30% extra DMG. Enemies hit by this skill are inflicted with a Judgement Sigil for 15 sec.",
+    "description": "Deals {0} M.DMG to 3 enemies and push them back, leaving a Judgment Sigil on them for 15 sec. Deals additional {1} M.DMG to Non-Hero enemies and causes them to take {2}% increased M.DMG for 10 sec.",
     "books": {
       "0": "DMG is increased by {0}%.",
       "1": "DMG is increased by {0}%.",
@@ -70,7 +70,7 @@
   },
   "s2": {
     "name": "Purifying Blaze",
-    "description": "Deals {0} M.DMG to frontal enemies in a straight line. Enemies with a Judgement Sigil takes {1} extra M.DMG that ignores DEF.",
+    "description": "Deals {0} M.DMG to frontal enemies in a straight line. Deals additional {1} M.DMG that ignores DEF to targets with Judgment Sigil, and reduces their Heal Rate by {2}% for 10 sec.",
     "books": {
       "0": "DMG is increased by {0}%.",
       "1": "DMG is increased by {0}%.",
@@ -93,7 +93,7 @@
   },
   "s3": {
     "name": "Arbiter",
-    "description": "Deals {0} M.DMG to enemies in range, and enemies with Judgement Sigil takes 50% more M.DMG for 5 sec, while being inflicted with Silence. All allies become immune to M.DMG for 5 sec.",
+    "description": "Deals {0} M.DMG to the target and enemies in a nearby range. Enemies with Judgment Sigil take 50% increased M.DMG and become silenced for 5 sec. Afterward, grants immunity to M.DMG to all allies for 5 sec.",
     "books": {
       "0": "DMG is increased by {0}%.",
       "1": "DMG is increased by {0}%.",

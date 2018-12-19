@@ -36,18 +36,18 @@
   "uw": {
     "name": "Sherrkyle, Ciel Bleu Clair",
     "description": [
-      "Toutes les 10 sec, marque un ennemi aléatoire avec un Emblème de Jugement pendant 15 sec et inflige des points de DEG M. qui ignorent la DEF M. jusqu'à un maximum de 168% de l'ATQ.",
-      "Toutes les 10 sec, marque un ennemi aléatoire avec un Emblème de Jugement pendant 15 sec et inflige des points de DEG M. qui ignorent la DEF M. jusqu'à un maximum de 201.6% de l'ATQ.",
-      "Toutes les 10 sec, marque un ennemi aléatoire avec un Emblème de Jugement pendant 15 sec et inflige des points de DEG M. qui ignorent la DEF M. jusqu'à un maximum de 241.5% de l'ATQ.",
-      "Toutes les 10 sec, marque un ennemi aléatoire avec un Emblème de Jugement pendant 15 sec et inflige des points de DEG M. qui ignorent la DEF M. jusqu'à un maximum de 289.8% de l'ATQ.",
-      "Toutes les 10 sec, marque un ennemi aléatoire avec un Emblème de Jugement pendant 15 sec et inflige des points de DEG M. qui ignorent la DEF M. jusqu'à un maximum de 348.6% de l'ATQ.",
-      "Toutes les 10 sec, marque un ennemi aléatoire avec un Emblème de Jugement pendant 15 sec et inflige des points de DEG M. qui ignorent la DEF M. jusqu'à un maximum de 420% de l'ATQ."
+      "Toutes les 10 sec, appose une Marque du jugement pendant 15 sec à 1 ennemi choisi au hasard, puis lui inflige des DEG M à hauteur de 200 % de l'ATQ. Si la cible n'est pas un héros, ces DEG M ignorent sa DEF.",
+      "Toutes les 10 sec, appose une Marque du jugement pendant 15 sec à 1 ennemi choisi au hasard, puis lui inflige des DEG M à hauteur de 240 % de l'ATQ. Si la cible n'est pas un héros, ces DEG M ignorent sa DEF.",
+      "Toutes les 10 sec, appose une Marque du jugement pendant 15 sec à 1 ennemi choisi au hasard, puis lui inflige des DEG M à hauteur de 290 % de l'ATQ. Si la cible n'est pas un héros, ces DEG M ignorent sa DEF.",
+      "Toutes les 10 sec, appose une Marque du jugement pendant 15 sec à 1 ennemi choisi au hasard, puis lui inflige des DEG M à hauteur de 350 % de l'ATQ. Si la cible n'est pas un héros, ces DEG M ignorent sa DEF.",
+      "Toutes les 10 sec, appose une Marque du jugement pendant 15 sec à 1 ennemi choisi au hasard, puis lui inflige des DEG M à hauteur de 420 % de l'ATQ. Si la cible n'est pas un héros, ces DEG M ignorent sa DEF.",
+      "Toutes les 10 sec, appose une Marque du jugement pendant 15 sec à 1 ennemi choisi au hasard, puis lui inflige des DEG M à hauteur de 500 % de l'ATQ. Si la cible n'est pas un héros, ces DEG M ignorent sa DEF."
     ],
     "story": "Une puissante arme de lumière pouvant prendre la forme d'une lance, d'une dague ou d'un arc. Béni par un archange, c'est l'un des trésors divins des anges. On dit qu'il peut incinérer le mal. Grâce à sa polyvalence, on le donne généralement à l'éclaireur le plus talentueux. D'innombrables démons furent anéantis par sa lumière."
   },
   "s1": {
     "name": "Flèche Célèste",
-    "description": "Inflige {0} points de DEG M. à un maximum de 3 ennemis et les renverse. Les ennemis touchés sont marqués par un Emblème de Jugement pendant 15 sec.",
+    "description": "Inflige {0}  points de DEG M à 3 ennemis et les repousse en leur apposant une Marque du jugement pendant 15 sec. Inflige {1}  points de DEG M supplémentaires aux ennemis non-héros, et ceux-ci subissent {2}  % de DEG M supplémentaires pendant 10 sec.",
     "books": {
       "0": "Augmente les DEG de {0}%.",
       "1": "Augmente les DEG de {0}%.",
@@ -70,7 +70,7 @@
   },
   "s2": {
     "name": "Incendie Purifiant",
-    "description": "Inflige {0} points de DEG M. aux ennemis, en ligne droite. Les ennemis marqués par un Emblème de Jugement subissent {1} points de DEG M. supplémentaires qui ignorent la DEF M.",
+    "description": "Inflige {0}  points de DEG M aux ennemis situés en face et en ligne droite. Inflige {1}  points de DEG M supplémentaires qui ignorent la DEF aux cibles touchées par Marque du jugement et réduit leur récupération de {2}  % pendant 10 sec.",
     "books": {
       "0": "Augmente les DEG de {0}%.",
       "1": "Augmente les DEG de {0}%.",
@@ -93,7 +93,7 @@
   },
   "s3": {
     "name": "Arbitre",
-    "description": "Inflige {0} points de DEG M. aux ennemis à portée. Les ennemis marqués par un Emblème de Jugement subissent 50% de DEG M. supplémentaires et subissent également Silence pendant 5 sec. Tous les alliés sont Immunisés aux DEG M. pendant 5 sec.",
+    "description": "Inflige {0}  points de DEG M à la cible et aux ennemis à portée. Les ennemis touchés par Marque du jugement subissent 50 % de DEG M supplémentaires et sont réduits au silence pendant 5 sec. Confère ensuite à tous les alliés l'immunité contre les DEG M pendant 5 sec.",
     "books": {
       "0": "Augmente les DEG de {0}%.",
       "1": "Augmente les DEG de {0}%.",

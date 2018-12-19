@@ -36,18 +36,18 @@
   "uw": {
     "name": "Sherrkyle, Céu Azul",
     "description": [
-      "A cada 10 segundos, causa um Sigilo de Julgamento a um inimigo aleatório durante 15 segundos e 168% de ATQ na forma de DAN.M.",
-      "A cada 10 segundos, causa um Sigilo de Julgamento a um inimigo aleatório durante 15 segundos e 201,6% de ATQ na forma de DAN.M.",
-      "A cada 10 segundos, causa um Sigilo de Julgamento a um inimigo aleatório durante 15 segundos e 241,5% de ATQ na forma de DAN.M.",
-      "A cada 10 segundos, causa um Sigilo de Julgamento a um inimigo aleatório durante 15 segundos e 289,8% de ATQ na forma de DAN.M.",
-      "A cada 10 segundos, causa um Sigilo de Julgamento a um inimigo aleatório durante 15 segundos e 348,6% de ATQ na forma de DAN.M.",
-      "A cada 10 segundos, causa um Sigilo de Julgamento a um inimigo aleatório durante 15 segundos e 420% de ATQ na forma de DAN.M."
+      "A cada 10 seg., marca 1 inimigo aleatório com o Selo do Julgamento que dura por 15 segundos, então causa DAN M. equivalente a 200% do ATQ. Ignora DEF se o alvo não for um Herói.",
+      "A cada 10 seg., marca 1 inimigo aleatório com o Selo do Julgamento que dura por 15 segundos, então causa DAN M. equivalente a 240% do ATQ. Ignora DEF se o alvo não for um Herói.",
+      "A cada 10 seg., marca 1 inimigo aleatório com o Selo do Julgamento que dura por 15 segundos, então causa DAN M. equivalente a 290% do ATQ. Ignora DEF se o alvo não for um Herói.",
+      "A cada 10 seg., marca 1 inimigo aleatório com o Selo do Julgamento que dura por 15 segundos, então causa DAN M. equivalente a 350% do ATQ. Ignora DEF se o alvo não for um Herói.",
+      "A cada 10 seg., marca 1 inimigo aleatório com o Selo do Julgamento que dura por 15 segundos, então causa DAN M. equivalente a 420% do ATQ. Ignora DEF se o alvo não for um Herói.",
+      "A cada 10 seg., marca 1 inimigo aleatório com o Selo do Julgamento que dura por 15 segundos, então causa DAN M. equivalente a 500% do ATQ. Ignora DEF se o alvo não for um Herói."
     ],
     "story": "Uma poderosa arma de luz capaz de assumir a forma de uma lança, de um punhal ou de um arco. É um dos tesouros divinos dos Anjos abençoados por um arcanjo. Dizem que ela é capaz de incinerar o mal. Devido à sua versatilidade, a arma é tradicionalmente dada ao batedor mais talentoso. O número de Demônios que pereceram sob sua luz durante a guerra é alto demais para contar."
   },
   "s1": {
     "name": "Flecha Celestial",
-    "description": "Causa {0} de DAN.M e repele 3 inimigos. Quando atingir um inimigo com um Sigilo de Julgamento, este recebe mais 30% de DAN. Os inimigos atingidos com este poder recebem um Sigilo de Julgamento durante 15 segundos.",
+    "description": "Causa {0} de DAN M. a 3 inimigos e os empurra, deixando um Selo do Julgamento neles por 15 seg. Causa {1} de DAN M. adicional a inimigos Não Heróis e os faz receber {2}% a mais de DAN M. por 10 seg.",
     "books": {
       "0": "DAN aumentado em {0}%.",
       "1": "DAN aumentado em {0}%.",
@@ -70,7 +70,7 @@
   },
   "s2": {
     "name": "Fulgor da Purificação",
-    "description": "Causa {0} de DAN.M a todos os inimigos numa linha reta. Os inimigos com um Sigilo de Julgamento recebem {1} de DAN.M adicional que ignoram a DEF.M.",
+    "description": "Causa {0} de DAN M. a inimigos frontais em uma linha reta. Causa {1} de DAN M. adicional que ignora DEF nos alvos com Selo do Julgamento e reduz a Taxa de Cura deles em {2}% por 10 seg.",
     "books": {
       "0": "DAN aumentado em {0}%.",
       "1": "DAN aumentado em {0}%.",
@@ -93,7 +93,7 @@
   },
   "s3": {
     "name": "Árbitro",
-    "description": "Causa {0} de DAN.M aos inimigos no alcance. Os inimigos com um Sigilo de Julgamento recebem mais 50% de DAN.M de ataques e são silenciados durante 5 segundos. Todos os aliados ganham imunidade a DAN.M durante 5 segundos.",
+    "description": "Causa {0} de DAN M. ao alvo e inimigos próximos a ele. Inimigos com Selo do Julgamento recebem 50% a mais de DAN M. e ficam silenciados por 5 seg. Em seguida, concede imunidade a DAN M. a todos os aliados por 5 seg.",
     "books": {
       "0": "DAN aumentado em {0}%.",
       "1": "DAN aumentado em {0}%.",
