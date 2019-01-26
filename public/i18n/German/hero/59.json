@@ -36,12 +36,12 @@
   "uw": {
     "name": "Lichtsegen Benedicia",
     "description": [
-      "Verringert nach Kampfbeginn den K.Schaden, den alle Verbündeten erleiden, für 30 Sek. um 10 % und erhöht ihre ANG-Geschwindigkeit um 100.",
-      "Verringert nach Kampfbeginn den K.Schaden, den alle Verbündeten erleiden, für 30 Sek. um 12 % und erhöht ihre ANG-Geschwindigkeit um 120.",
-      "Verringert nach Kampfbeginn den K.Schaden, den alle Verbündeten erleiden, für 30 Sek. um 14 % und erhöht ihre ANG-Geschwindigkeit um 140.",
-      "Verringert nach Kampfbeginn den K.Schaden, den alle Verbündeten erleiden, für 30 Sek. um 17 % und erhöht ihre ANG-Geschwindigkeit um 170.",
-      "Verringert nach Kampfbeginn den K.Schaden, den alle Verbündeten erleiden, für 30 Sek. um 21 % und erhöht ihre ANG-Geschwindigkeit um 210.",
-      "Verringert nach Kampfbeginn den K.Schaden, den alle Verbündeten erleiden, für 30 Sek. um 25 % und erhöht ihre ANG-Geschwindigkeit um 250."
+      "Nach Kampfbeginn werden für 30 Sek. die ANG-Geschwindigkeit aller Verbündeten um 100 und ihr Schaden an Feinden, die keine Helden sind, um 6 % erhöht. Darüber hinaus erleiden sie 10 % weniger K.Schaden.",
+      "Nach Kampfbeginn werden für 30 Sek. die ANG-Geschwindigkeit aller Verbündeten um 120 und ihr Schaden an Feinden, die keine Helden sind, um 7,2 % erhöht. Darüber hinaus erleiden sie 12 % weniger K.Schaden.",
+      "Nach Kampfbeginn werden für 30 Sek. die ANG-Geschwindigkeit aller Verbündeten um 140 und ihr Schaden an Feinden, die keine Helden sind, um 8,6 % erhöht. Darüber hinaus erleiden sie 14 % weniger K.Schaden.",
+      "Nach Kampfbeginn werden für 30 Sek. die ANG-Geschwindigkeit aller Verbündeten um 170 und ihr Schaden an Feinden, die keine Helden sind, um 10,4 % erhöht. Darüber hinaus erleiden sie 17 % weniger K.Schaden.",
+      "Nach Kampfbeginn werden für 30 Sek. die ANG-Geschwindigkeit aller Verbündeten um 210 und ihr Schaden an Feinden, die keine Helden sind, um 12,5 % erhöht. Darüber hinaus erleiden sie 21 % weniger K.Schaden.",
+      "Nach Kampfbeginn werden für 30 Sek. die ANG-Geschwindigkeit aller Verbündeten um 250 und ihr Schaden an Feinden, die keine Helden sind, um 15 % erhöht. Darüber hinaus erleiden sie 25 % weniger K.Schaden."
     ],
     "story": "Eine gesegnete Fahne, die die Sonne, den Mond und den gesamten Himmel repräsentiert. Ihr wohnen die Macht und die Lehren der Schöpferin Lua inne. Wenn er die Fahne schwenkt, verbreitet sich die Macht des Lichts, wodurch seine Verbündeten geistigen Frieden finden und die Macht der Dunkelheit besiegt wird. Hierbei handelt es sich um ein Heiligtum, das Lucias anvertraut wurde, der in seiner Zeit als Heiliger Ritter von Lua ebenfalls ein Fahnenträger war."
   },
@@ -116,14 +116,14 @@
   },
   "s4": {
     "name": "Heiliges Opfer",
-    "description": "Heilt alle Verbündeten (außer dem Beschwörer) um {0} , wenn der Beschwörer stirbt.",
+    "description": "Beim Wirken von Weg des Segens und Glaubenszone werden 20 % der aktuellen TP verbraucht. Wenn die Skills verwendet werden, um Verbündete zu heilen, werden die wiederhergestellten TP um {0} erhöht und das Ziel erhält für 10 Sek. einen VERT-Boost von {1}.",
     "books": {
       "0": "Erhöht Erholungsrate um {0}%.",
       "1": "Erhöht Erholungsrate um {0}%.",
       "2": "Erhöht Erholungsrate um {0}%."
     },
-    "light": "Gewährt allen Verbündeten (außer dem Beschwörer) bei Aktivierung 1.5 Sek. lang Immunität gegen Schaden und Statuseffekt.",
-    "dark": "Entfernt bei Aktivierung alle negativen Effekte von allen Verbündeten (außer dem Beschwörer)."
+    "light": "Erhöht die Heilungsrate um 40 %.",
+    "dark": "Es werden keine TP mehr verbraucht."
   },
   "t5": {
     "light": "ANG, VERT, TP+15% / Effekt-Widerstund +100",

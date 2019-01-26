@@ -36,25 +36,25 @@
   "uw": {
     "name": "Llama Primitiva, Flenos",
     "description": [
-      "Marcas de fuego explotan cada 4 segundos, causando Daño Magico de 80% del ATQ a los enemigos cercanos",
-      "Marcas de fuego explotan cada 4 segundos, causando Daño Magico de 96% del ATQ a los enemigos cercanos",
-      "Marcas de fuego explotan cada 4 segundos, causando Daño Magico de 114% del ATQ a los enemigos cercanos",
-      "Marcas de fuego explotan cada 4 segundos, causando Daño Magico de 138% del ATQ a los enemigos cercanos",
-      "Marcas de fuego explotan cada 4 segundos, causando Daño Magico de 166% del ATQ a los enemigos cercanos",
-      "Marcas de fuego explotan cada 4 segundos, causando Daño Magico de 200% del ATQ a los enemigos cercanos"
+      "Los Golpes de habilidad provocan Daño mágico adicional equivalente al 3 % de ataque por acumulación de Brasas que reciben los enemigos.",
+      "Los Golpes de habilidad provocan Daño mágico adicional equivalente al 3,6 % de ataque por acumulación de Brasas que reciben los enemigos.",
+      "Los Golpes de habilidad provocan Daño mágico adicional equivalente al 4,3 % de ataque por acumulación de Brasas que reciben los enemigos.",
+      "Los Golpes de habilidad provocan Daño mágico adicional equivalente al 5,2 % de ataque por acumulación de Brasas que reciben los enemigos.",
+      "Los Golpes de habilidad provocan Daño mágico adicional equivalente al 6,3 % de ataque por acumulación de Brasas que reciben los enemigos.",
+      "Los Golpes de habilidad provocan Daño mágico adicional equivalente al 7,5 % de ataque por acumulación de Brasas que reciben los enemigos."
     ],
     "story": "La esencia de la primera llama del mundo. El señor elemental de fuego concedió su hermosa gema a un humano que ejecutó un contrato con él. Con el pasar de los años, terminó en las manos de un archimago, quien lo convirtió en el núcleo de su bastón. Posteriormente, el archimago presentó este bastón a su preciado discípulo."
   },
   "s1": {
     "name": "Aguja de Fuego",
-    "description": "Ataca a un enemigo aleatorio 5 veces, lo que causa un total de {0} de Daño mágico e inflige 1 acumulación de Brasas al enemigo afectado.",
+    "description": "Ataca a un enemigo al azar 5 veces para provocar un total de {0} de Daño mágico. Recupera Mana propio en 100 luego de un Golpe crítico.",
     "books": {
       "0": "Aumenta el Daño en {0}%.",
       "1": "Aumenta el Daño en {0}%.",
       "2": "Aumenta el Daño en {0}%."
     },
-    "light": "El Daño se incrementa en un 40%.",
-    "dark": "Acumula 2 llamas de fuego cada uno",
+    "light": "El Daño de la habilidad se reduce en 50 % al atacar más de 5 enemigos, pero el objetivo se convierte en todos los enemigos.",
+    "dark": "Aturde al objetivo durante 1 s.",
     "ut": {
       "name": "Lámpara de fénix",
       "description": [
@@ -70,63 +70,63 @@
   },
   "s2": {
     "name": "Bola de Fuego",
-    "description": "Ataca al objetivo y a los enemigos cercanos, lo que causa {0} de Daño mágico y los aturde durante 2 segundos. Inflige {2} de Daño mágico adicional por cada acumulación de Brasas al enemigo.",
+    "description": "Ataca al objetivo y a los enemigos cercanos, lo que causa {0} de Daño mágico y los aturde durante 2 s. Inflige {1} de Daño mágico adicional a los Jefes.",
     "books": {
       "0": "Aumenta el Daño en {0}%.",
       "1": "Aumenta el Daño en {0}%.",
       "2": "Aumenta el Daño en {0}%."
     },
-    "light": "El Daño se incrementa en un 40%.",
-    "dark": "El Costo de Maná aumenta en 1 y ataca a un objetivo aleatorio 2 veces.",
+    "light": "Al golpear a un enemigo con 10 o más acumulaciones de Brasas, aumenta el Daño mágico que recibe en 40 % durante 10 s.",
+    "dark": "Deja 10 acumulaciones de Brasas al enemigo golpeado.",
     "ut": {
       "name": "Elixir de Flamel",
       "description": [
-        "[Bola de fuego] Aumenta el Daño en un 20 % y deja 5 acumulaciones de Brasas en el enemigo afectado.",
-        "[Bola de fuego] Aumenta el Daño en un 24 % y deja 5 acumulaciones de Brasas en el enemigo afectado.",
-        "[Bola de fuego] Aumenta el Daño en un 29 % y deja 5 acumulaciones de Brasas en el enemigo afectado.",
-        "[Bola de fuego] Aumenta el Daño en un 35 % y deja 5 acumulaciones de Brasas en el enemigo afectado.",
-        "[Bola de fuego] Aumenta el Daño en un 42 % y deja 5 acumulaciones de Brasas en el enemigo afectado.",
-        "[Bola de fuego] Aumenta el Daño en un 50 % y deja 5 acumulaciones de Brasas en el enemigo afectado."
+        "[Bola de fuego] Reduce el Costo de Mana en 1 y aumenta el Daño en un 20 %.",
+        "[Bola de fuego] Reduce el Costo de Mana en 1 y aumenta el Daño en un 24 %.",
+        "[Bola de fuego] Reduce el Costo de Mana en 1 y aumenta el Daño en un 29 %.",
+        "[Bola de fuego] Reduce el Costo de Mana en 1 y aumenta el Daño en un 35 %.",
+        "[Bola de fuego] Reduce el Costo de Mana en 1 y aumenta el Daño en un 42 %.",
+        "[Bola de fuego] Reduce el Costo de Mana en 1 y aumenta el Daño en un 50 %."
       ],
       "story": "Un elixir que creó el alquimista de fuego Flamel al condensar esencia de flama. Las flamas de Flamel no paran de quemar. Todos los hechiceros elogian sus flamas, y la esencia de flamas que produjo con las salamandras del Volcán Dragia maximizan el efecto de la bola de fuego."
     }
   },
   "s3": {
     "name": "Lluvia de Fuego",
-    "description": "Ataca a todos los enemigos 8 veces, lo que causa un total de {0} de Daño mágico y les inflige 1 acumulación de Brasas. Causa {1} de Daño mágico adicional al enemigo por cada acumulación de Brasas.",
+    "description": "Ataca a todos los enemigos 5 veces, provocando un total de {0} de Daño mágico. Este ataque provoca un aumento de 150 % de Daño crítico.",
     "books": {
       "0": "Aumenta el Daño en {0}%.",
       "1": "Aumenta el Daño en {0}%.",
       "2": "Aumenta el Daño en {0}%."
     },
-    "light": "El tiempo de reutilización se reduce en 3 segundos.",
-    "dark": "Aturde a los enemigos con 5 llamas de fuego o más durante 1 seg.",
+    "light": "Aumenta el Daño en un 40 %.",
+    "dark": "Reduce el Costo de Mana en 2 durante 10 s al atacar más de 5 enemigos. Se aplica un tiempo de reutilización de 10 s.",
     "ut": {
       "name": "Pergamino del infierno ardiente",
       "description": [
-        "[Lluvia de Fuego] El Daño aumenta en un 20%. Al Golpear Críticamente a los enemigos con más de 5 pilas de Brasas, el tiempo de reutilización de la habilidad se reduce en un 3%.",
-        "[Lluvia de Fuego] El Daño aumenta en un 24%. Al Golpear Críticamente a los enemigos con más de 5 pilas de Brasas, el tiempo de reutilización de la habilidad se reduce en un 3%.",
-        "[Lluvia de Fuego] El Daño aumenta en un 29%. Al Golpear Críticamente a los enemigos con más de 5 pilas de Brasas, el tiempo de reutilización de la habilidad se reduce en un 3%.",
-        "[Lluvia de Fuego] El Daño aumenta en un 35%. Al Golpear Críticamente a los enemigos con más de 5 pilas de Brasas, el tiempo de reutilización de la habilidad se reduce en un 3%.",
-        "[Lluvia de Fuego] El Daño aumenta en un 42%. Al Golpear Críticamente a los enemigos con más de 5 pilas de Brasas, el tiempo de reutilización de la habilidad se reduce en un 3%.",
-        "[Lluvia de Fuego] El Daño aumenta en un 50%. Al Golpear Críticamente a los enemigos con más de 5 pilas de Brasas, el tiempo de reutilización de la habilidad se reduce en un 3%."
+        "[Lluvia de Fuego] El Daño aumenta en un 20%. Al Golpear Críticamente a los enemigos con más de 5 pilas de Brasas, el tiempo de reutilización de la habilidad se reduce en un 5%.",
+        "[Lluvia de Fuego] El Daño aumenta en un 24%. Al Golpear Críticamente a los enemigos con más de 5 pilas de Brasas, el tiempo de reutilización de la habilidad se reduce en un 5%.",
+        "[Lluvia de Fuego] El Daño aumenta en un 29%. Al Golpear Críticamente a los enemigos con más de 5 pilas de Brasas, el tiempo de reutilización de la habilidad se reduce en un 5%.",
+        "[Lluvia de Fuego] El Daño aumenta en un 35%. Al Golpear Críticamente a los enemigos con más de 5 pilas de Brasas, el tiempo de reutilización de la habilidad se reduce en un 5%.",
+        "[Lluvia de Fuego] El Daño aumenta en un 42%. Al Golpear Críticamente a los enemigos con más de 5 pilas de Brasas, el tiempo de reutilización de la habilidad se reduce en un 5%.",
+        "[Lluvia de Fuego] El Daño aumenta en un 50%. Al Golpear Críticamente a los enemigos con más de 5 pilas de Brasas, el tiempo de reutilización de la habilidad se reduce en un 5%."
       ],
       "story": "Un pergamino escrito por la hechicera de fuego que era conocida como la diosa del fuego. Un pergamino que dejó la gran hechicera de fuego de Orvelia, Vesta, cuando estuvo en la Torre del Sabio. Es muy poderoso, pero también requiere mucho mana. Cleo tomó el pergamino del Infierno ardiente de la Torre del Sabio, que fue considerado un pergamino prohibido. Ahora lo utiliza para mejorar su lluvia de fuego."
     }
   },
   "s4": {
     "name": "Propagacion de la Llama",
-    "description": "Los ataques normales tienen un 20 % de probabilidades de atacar a 3 enemigos aleatorios, lo que causa {0} de Daño mágico al objetivo y a los enemigos cercanos y les inflige 1 acumulación de Brasas. Brasas causa un total de {1} de Daño mágico durante 20 segundos, reduce la Defensa mágica del objetivo en un 5 % y se acumula hasta un máximo de 5 veces.",
+    "description": "Inflige una acumulación de Brasas luego de golpear a un enemigo. Los enemigos afectados por Brasas reciben {1} de Daño mágico durante 20 s. Las Brasas se pueden acumular hasta un máximo de 10 veces.",
     "books": {
       "0": "Aumenta el Daño en {0}%.",
       "1": "Aumenta el Daño en {0}%.",
-      "2": "Acumula 2 Marcas de Fuego en el Momento Crítico."
+      "2": "Aumenta el Daño en {0}%."
     },
-    "light": "El maximo de acumulacion de llamas de fuego se cambia a 6",
-    "dark": "Las probabilidades de activación cambian al 30 %."
+    "light": "Cambia el número máximo de acumulaciones de Brasas a 12.",
+    "dark": "Cada 10 s, aturde a los enemigos afectados por las Brasas durante 2 s. Los enemigos con más de 10 acumulaciones de Brasas quedan aturdidos durante 3 s."
   },
   "t5": {
     "light": "ATQ, DEF, Salud+15% / Oportunidad Crit +100",
-    "dark": "El Daño por Llamas de fuego se incrementa en un 200%."
+    "dark": "Inflige 2 acumulación de Brasas a todos los enemigos que no son héroes cada segundo."
   }
 }

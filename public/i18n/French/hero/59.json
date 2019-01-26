@@ -36,12 +36,12 @@
   "uw": {
     "name": "Délicatesse de la lumière, Benedicia",
     "description": [
-      "Au début du combat, réduit les DEG P subis par tous les alliés de 10 % et augmente leur Vit ATQ de 100 points pendant 30 sec.",
-      "Au début du combat, réduit les DEG P subis par tous les alliés de 12 % et augmente leur Vit ATQ de 120 points pendant 30 sec.",
-      "Au début du combat, réduit les DEG P subis par tous les alliés de 14 % et augmente leur Vit ATQ de 140 points pendant 30 sec.",
-      "Au début du combat, réduit les DEG P subis par tous les alliés de 17 % et augmente leur Vit ATQ de 170 points pendant 30 sec.",
-      "Au début du combat, réduit les DEG P subis par tous les alliés de 21 % et augmente leur Vit ATQ de 210 points pendant 30 sec.",
-      "Au début du combat, réduit les DEG P subis par tous les alliés de 25 % et augmente leur Vit ATQ de 250 points pendant 30 sec."
+      "Pendant 30 sec au début du combat, augmente la Vit ATQ de tous les alliés de 100 points et les DEG qu'ils infligent aux ennemis non-héros de 6 %, tout en réduisant les DEG P qu'ils subissent de 10 %.",
+      "Pendant 30 sec au début du combat, augmente la Vit ATQ de tous les alliés de 120 points et les DEG qu'ils infligent aux ennemis non-héros de 7,2 %, tout en réduisant les DEG P qu'ils subissent de 12 %.",
+      "Pendant 30 sec au début du combat, augmente la Vit ATQ de tous les alliés de 140 points et les DEG qu'ils infligent aux ennemis non-héros de 8,6 %, tout en réduisant les DEG P qu'ils subissent de 14 %.",
+      "Pendant 30 sec au début du combat, augmente la Vit ATQ de tous les alliés de 170 points et les DEG qu'ils infligent aux ennemis non-héros de 10,4 %, tout en réduisant les DEG P qu'ils subissent de 17 %.",
+      "Pendant 30 sec au début du combat, augmente la Vit ATQ de tous les alliés de 210 points et les DEG qu'ils infligent aux ennemis non-héros de 12,5 %, tout en réduisant les DEG P qu'ils subissent de 21 %.",
+      "Pendant 30 sec au début du combat, augmente la Vit ATQ de tous les alliés de 250 points et les DEG qu'ils infligent aux ennemis non-héros de 15 %, tout en réduisant les DEG P qu'ils subissent de 25 %."
     ],
     "story": "Drapeau béni représentant le soleil, la lune et tout le ciel. Il renferme les enseignements et le pouvoir de Lua, la créatrice. Lorsque Lucias agite ce drapeau, il répand le pouvoir de la lumière, apaisant l'esprit de ses alliés en repoussant les ténèbres. Cet objet saint fut remis à Lucias, autrefois porte-drapeau des Chevaliers sacrés de Lua."
   },
@@ -116,14 +116,14 @@
   },
   "s4": {
     "name": "Saint sacrifice",
-    "description": "Restaure {0}  PV à tous les alliés sauf le lanceur lorsque celui-ci meurt.",
+    "description": "Consomme 20 % des PV actuels au moment du déclenchement de Voie des bénédictions et Zone de foi. Lorsque ces compétences sont utilisées pour soigner des alliés, la quantité de PV restaurés augmente de {0} et la cible bénéficie d'un boost de DEF de {1}  points pendant 10 sec.",
     "books": {
       "0": "Taux de Récupération augmenté de {0}%.",
       "1": "Taux de Récupération augmenté de {0}%.",
       "2": "Taux de Récupération augmenté de {0}%."
     },
-    "light": "Confère l'immunité contre les DEG et les contrôles à tous les alliés sauf le lanceur pendant 1.5 sec.",
-    "dark": "Dissipe tous les effets négatifs qui pèsent sur tous les alliés sauf le lanceur."
+    "light": "Augmente la récupération de 40 %.",
+    "dark": "Les PV ne sont plus consommés."
   },
   "t5": {
     "light": "ATQ, DEF, PV +15% / Résist. Contrôles +100",

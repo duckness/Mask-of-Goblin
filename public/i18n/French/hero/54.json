@@ -1,0 +1,136 @@
+{
+  "name": "Lavril",
+  "subtitle": "Adorable esprit maléfique",
+  "description": "Fantôme né du rassemblement d'un nombre incalculable de vies perdues de manière injuste. Malgré son origine, Lavril reste étonnamment naïve et innocente. Elle siphonne l'énergie vitale de ses ennemis grâce à ses pouvoirs spectraux.",
+  "story": "Fantôme hors du commun. Un observateur superficiel verra le fantôme d'une jeune femme ordinaire, mais son identité spectrale est multiple. En réalité, elle combine d'innombrables âmes. Dotée d'une énergie spectrale phénoménale, elle serait assez puissante pour faire trembler les âmes et lancer des malédictions à volonté... Si elle était un fantôme ordinaire. Certains soutiennent qu'elle est issue de la réunion de jeunes âmes qui ont péri lors de la Guerre des démons il y a cent ans. En effet, les âmes des enfants sont trop pures et innocentes pour éprouver la moindre rancœur. Lavril, qui est le fruit de cette réunion, vint au monde avec une grande bienveillance. Il ne faudrait toutefois pas oublier sa nature : un amalgame d'enfants fantômes. Un enfant est comme une page vierge : il deviendra ce qu'il choisira de devenir. Sans supervision, elle pourrait représenter une menace considérable pour le monde entier.",
+  "like": "Les amis potentiels, les animaux et les villages animés.",
+  "dislike": "Les gens effrayants, être considérée comme un monstre ou une bête de foire.",
+  "inn": {
+    "idle": "Ah... Euh... Il y a beaucoup trop d'inconnus, par ici...",
+    "recruit": {
+      "greet": "B-bonjour...",
+      "talk": [
+        "N-ne soyez pas trop sévère avec moi...",
+        "Nous sommes gentils... Ne nous détestez pas...",
+        "R-restez un peu avec nous, vous voulez bien ?"
+      ],
+      "gift": "Quoi ? M-merci !"
+    },
+    "affinity": {
+      "greet": "Euh... Nous sommes là...",
+      "talk": [
+        "Nous avons peur... et nous avons froid...",
+        "Ah... Nous sommes seuls... Ce n'est pas juste... Qui sommes-nous ?"
+      ],
+      "gift": "M-merci. Ne nous laissez pas. Restez avec nous..."
+    },
+    "relationship": {
+      "greet": "Hé hé... Contente de vous voir. Que voulez-vous faire aujourd'hui ?",
+      "talk": [
+        "Les fidèles de l'Église de Lua me font peur, mais je sais qu'ils n'ont pas un mauvais fond... Hé hé.",
+        "On devient facilement ami avec les fées et les élémentaux, mais... qui voudrait devenir ami avec les fantômes ?",
+        "V-vous, on vous aime bien... Hé hé, vraiment. Faites-nous le plaisir de rester avec nous."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Dunn Nemecia, âme du néant",
+    "description": [
+      "Chaque compétence déclenchée lance [Âme du néant] pendant 1 sec et permet d'esquiver toutes les attaques. Cet effet s'active toutes les 10 sec. Augmente de 30 % les DEG Crit de l'allié connecté par le Lien psychique.",
+      "Chaque compétence déclenchée lance [Âme du néant] pendant 1,2 sec et permet d'esquiver toutes les attaques. Cet effet s'active toutes les 10 sec. Augmente de 36 % les DEG Crit de l'allié connecté par le Lien psychique.",
+      "Chaque compétence déclenchée lance [Âme du néant] pendant 1,4 sec et permet d'esquiver toutes les attaques. Cet effet s'active toutes les 10 sec. Augmente de 42 % les DEG Crit de l'allié connecté par le Lien psychique.",
+      "Chaque compétence déclenchée lance [Âme du néant] pendant 1,7 sec et permet d'esquiver toutes les attaques. Cet effet s'active toutes les 10 sec. Augmente de 51 % les DEG Crit de l'allié connecté par le Lien psychique.",
+      "Chaque compétence déclenchée lance [Âme du néant] pendant 2,1 sec et permet d'esquiver toutes les attaques. Cet effet s'active toutes les 10 sec. Augmente de 63 % les DEG Crit de l'allié connecté par le Lien psychique.",
+      "Chaque compétence déclenchée lance [Âme du néant] pendant 2,5 sec et permet d'esquiver toutes les attaques. Cet effet s'active toutes les 10 sec. Augmente de 75 % les DEG Crit de l'allié connecté par le Lien psychique."
+    ],
+    "story": "Autre entité spectrale qui fut séparée de Lavril. Contrairement à cette dernière, Dunn Nemecia est un amalgame d'âmes négatives et agressives. Par chance, ce fantôme aussi effrayant qu'adorable dissimule la plupart du temps son côté maléfique, et n'utilise ses pouvoirs que lorsque son hôte en a besoin ou lorsqu'il se sent menacé. Toutefois, cet étrange fantôme n'est pas amical ou inoffensif. Les tours qu'il joue sont généralement de méchantes farces, comme disposer des jouets pointus autour d'une personne endormie, renverser un plat tout juste sorti du four, faire tomber les passants, mais... Ces « tours » pourraient être bien plus graves s'ils n'étaient pas sous le contrôle de Lavril."
+  },
+  "s1": {
+    "name": "A-allez-vous-en !",
+    "description": "Inflige {0}  points de DEG M à l'ennemi et réduit sa Résistance Crit de 300 points pendant 10 sec. Les ennemis ainsi touchés sont frappés par l'Ectoplasme de Lavril pendant 5 sec, ce qui leur inflige {1}  points de DEG M toutes les 0,5 sec. À chaque fois que cette compétence inflige des DEG à un ennemi, les PV de tous les alliés sont restaurés à hauteur de {2}  % des DEG infligés.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Augmente les DEG M subis par la cible de 25 %.",
+    "dark": "Restaure 1 orbe de mana lorsque la cible est vaincue, et le temps de recharge de cette compétence est réinitialisé.",
+    "ut": {
+      "name": "Carte de tarot de la lune",
+      "description": [
+        "[A-allez-vous-en !] augmente les DEG de 50 % et réduit la récupération des ennemis touchés de 20 %.",
+        "[A-allez-vous-en !] augmente les DEG de 50 % et réduit la récupération des ennemis touchés de 24 %.",
+        "[A-allez-vous-en !] augmente les DEG de 50 % et réduit la récupération des ennemis touchés de 29 %.",
+        "[A-allez-vous-en !] augmente les DEG de 50 % et réduit la récupération des ennemis touchés de 35 %.",
+        "[A-allez-vous-en !] augmente les DEG de 50 % et réduit la récupération des ennemis touchés de 42 %.",
+        "[A-allez-vous-en !] augmente les DEG de 50 % et réduit la récupération des ennemis touchés de 50 %."
+      ],
+      "story": "Par une nuit bien avancée, Lavril découvrit la tente d'une diseuse de bonne aventure. D'étranges créatures voletaient autour d'elle, gênant sa progression. La diseuse de bonne aventure sentit sa présence et l'accueillit. - Bienvenue chez la diseuse de bonne aventure de Stardust. Que souhaites-tu savoir ? En la voyant sourire, Lavril ouvrit timidement la bouche. - N-nous voulons... nous faire un ami. Un ami qui n'est pas comme nous... Un ami qui respire, qu'on peut toucher... O-où peut-on trouver un tel ami ? La diseuse de bonne aventure lui tendit une carte en souriant. On pouvait y voir la lune et une puissante créature à sa surface. Prise d'une peur instinctive, Lavril voulut écarter la carte, mais elle sentit que la créature acceptait son contact, comme pour apaiser ses angoisses. Ce sentiment étrange déconcerta Lavril, mais elle se sentit ensuite vite à l'aise. La diseuse de bonne aventure posa ses mains sur celles de Lavril. - Ce que tu cherches n'est pas bien loin. Ne sommes-nous pas déjà bonnes amies ? Elle se mit à déplacer ses cartes une par une, sans lâcher les mains de Lavril. Les cartes parlaient en silence à la diseuse de bonne aventure, comme si elles voulaient désespérément exaucer le souhait de Lavril. Une fois les cartes toutes disposées, la diseuse de bonne aventure se mit à parler en souriant. - Ces jeunes hommes et femmes semblent beaucoup t'apprécier. Ils me disent que tu vas rencontrer un tas de personnes qui te seront chères. Tu rencontreras bientôt les amis que tu espérais."
+    }
+  },
+  "s2": {
+    "name": "Tiens bon !",
+    "description": "Restaure {0}  PV à l'allié à l'ATQ la plus élevée, ainsi que {2}  PV supplémentaires toutes les {1}  sec pendant 15 sec. Augmente les DEG Crit de l'allié de 50 % + 15 % des DEG Crit de Lavril pendant 15 sec. [Vous me faites peur !] devient disponible pendant {3}  sec après le déclenchement de la compétence.",
+    "books": {
+      "0": "Augmente la Récupération et les DEG de {0}%.",
+      "1": "Augmente la Récupération et les DEG de {0}%.",
+      "2": "Augmente la Récupération et les DEG de {0}%."
+    },
+    "light": "[Tiens bon !] empêche les PV de la cible de descendre en dessous de 5 % pendant la durée de la compétence. [Vous me faites peur !] dissipe les effets positifs dont bénéficiait la cible.",
+    "dark": "[Tiens bon !] Augmente l'ATQ de la cible de 20 % pendant la durée de la compétence. [Vous me faites peur !] augmente de 1 le nombre de cibles.",
+    "ut": {
+      "name": "Parfum de fée",
+      "description": [
+        "[Tiens bon !] augmente la récupération de 50 % et les DEG Crit de 20 %. [Vous me faites peur !] augmente les DEG de 50 % et réduit la DEF M de la cible de 10 %.",
+        "[Tiens bon !] augmente la récupération de 50 % et les DEG Crit de 24 %. [Vous me faites peur !] augmente les DEG de 50 % et réduit la DEF M de la cible de 12 %.",
+        "[Tiens bon !] augmente la récupération de 50 % et les DEG Crit de 29 %. [Vous me faites peur !] augmente les DEG de 50 % et réduit la DEF M de la cible de 14 %.",
+        "[Tiens bon !] augmente la récupération de 50 % et les DEG Crit de 35 %. [Vous me faites peur !] augmente les DEG de 50 % et réduit la DEF M de la cible de 17 %.",
+        "[Tiens bon !] augmente la récupération de 50 % et les DEG Crit de 42 %. [Vous me faites peur !] augmente les DEG de 50 % et réduit la DEF M de la cible de 21 %.",
+        "[Tiens bon !] augmente la récupération de 50 % et les DEG Crit de 50 %. [Vous me faites peur !] augmente les DEG de 50 % et réduit la DEF M de la cible de 25 %."
+      ],
+      "story": "Par une belle journée ensoleillée, Lavril se promenait timidement autour d'un village. Elle voulait y entrer et s'y faire des amis, mais le fait d'avoir été chassée par les prêtres de Lua la faisait hésiter. C'est alors qu'elle entendit chanter joyeusement près des parterres de fleurs juste à côté du village. Curieuse, elle se dirigea lentement vers cette voix. Elle y trouva une jeune femme en train de chanter et de jouer de la harpe parmi les fleurs écloses, et les enfants, les fées et même les animaux dansaient sur sa mélodie. Hypnotisée par cette scène, elle s'approcha des parterres sans même s'en rendre compte. À l'instant où elle posa le pied sur les parterres, les fées et les animaux se mirent à crier et se cachèrent, et les enfants se mirent à pleurer. Ils étaient sensibles à l'énergie de Lavril et se sentirent menacés par sa présence. Cependant, la jeune femme ne réagit pas ainsi. Elle apaisa les créatures, cueillit des fleurs et les offrit à Lavril. Avec ce bouquet en main, Lavril se sentit acceptée et afficha un large sourire. Après avoir compris qu'elle ne leur ferait aucun mal, les animaux, les fées et les enfants l'accueillirent dans la joie."
+    },
+    "linked": {
+      "name": "Vous me faites peur !",
+      "description": "Inflige {0}  points de DEG M à l'ennemi et réduit sa Vit ATQ de 250 points pendant 15 sec, tout en augmentant les DEG M qu'il subit de 25 %."
+    }
+  },
+  "s3": {
+    "name": "Laissez-moi tranquille !",
+    "description": "Génère une Tornade spectrale dans une vaste zone à l'avant, qui inflige {0}  points de DEG M toutes les 0,5 sec pendant 5 sec. Chaque coup réduit l'ATQ des ennemis touchés de {1}  % pendant 5 sec et augmente les DEG M qu'ils subissent de {2}  %. Cet effet peut se cumuler jusqu'à 15 fois.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Réduit le temps de recharge de 30 %.",
+    "dark": "Réduit le coût en mana de 1 point.",
+    "ut": {
+      "name": "Protection bénie",
+      "description": [
+        "[Laissez-moi tranquille !] augmente la durée de la compétence de 1 sec et les DEG M subis par la cible de 1 % à chaque coup porté.",
+        "[Laissez-moi tranquille !] augmente la durée de la compétence de 1 sec et les DEG M subis par la cible de 1,2 % à chaque coup porté.",
+        "[Laissez-moi tranquille !] augmente la durée de la compétence de 1 sec et les DEG M subis par la cible de 1,4 % à chaque coup porté.",
+        "[Laissez-moi tranquille !] augmente la durée de la compétence de 1 sec et les DEG M subis par la cible de 1,7 % à chaque coup porté.",
+        "[Laissez-moi tranquille !] augmente la durée de la compétence de 1 sec et les DEG M subis par la cible de 2,1 % à chaque coup porté.",
+        "[Laissez-moi tranquille !] augmente la durée de la compétence de 1 sec et les DEG M subis par la cible de 2,5 % à chaque coup porté."
+      ],
+      "story": "Lorsque Lavril vint au monde, elle fut d'abord considérée comme un fantôme effrayant. Maintes rumeurs circulèrent sur son compte. L'Église de Lua demanda aux grands prêtres disponibles de se charger d'elle. Parmi eux, Lucias le Saint béni et Baudouin la tête brûlée répondirent à l'appel. Lorsqu'ils apprirent l'existence de Lavril, ils se précipitèrent à sa rencontre. Dès qu'ils la virent, ils comprirent qu'elle n'était pas un fantôme ordinaire, mais une accumulation d'enfants fantômes. Ils réalisèrent rapidement qu'elle ne présentait aucun danger. Mais l'Église avait parlé. Les fantômes devaient être exorcisés, et en tant que prêtres, ils avaient pour mission de la purifier et de la guider vers sa dernière demeure. Lucias ne l'entendit pas de cette oreille. Lavril était une âme pure et ne méritait pas d'être exorcisée. Il voulait l'accompagner dans l'au-delà le moment voulu, sans intervention artificielle. Lucias sortit son mouchoir, essuya les larmes de Lavril, et lui montra le chemin vers la lumière et les préceptes de Lua. Ce mouchoir lui rappelle toujours Lucias, la lumière qui la guide dans les moments de doute."
+    }
+  },
+  "s4": {
+    "name": "Ensemble pour toujours...",
+    "description": "Au début du premier combat, noue un Lien psychique avec l'allié à l'ATQ la plus élevée. Cet effet ne peut pas être dissipé. L'allié ainsi connecté par le Lien psychique récupère {1}  points de mana chaque seconde et son ATQ augmente de {0}  points.",
+    "books": {
+      "0": "Le Taux d'augmentation de l'ATQ est augmenté de {0}%.",
+      "1": "Le Taux d'augmentation de l'ATQ est augmenté de {0}%.",
+      "2": "Le Taux d'augmentation de l'ATQ est augmenté de {0}%."
+    },
+    "light": "Augmente de {0}  points la Pénétration DEF de l'allié connecté par le Lien psychique.",
+    "dark": "Augmente de {0}% points toutes DEF de l'allié connecté par le Lien psychique."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / DEG Crit +20%",
+    "dark": "Chaque coup reçu augmente de 3 % l'ATQ de l'allié connecté par le Lien psychique. Cet effet peut se cumuler jusqu'à 20 fois."
+  }
+}

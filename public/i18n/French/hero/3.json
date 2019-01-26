@@ -36,25 +36,25 @@
   "uw": {
     "name": "Flenos, Flamme Primitive",
     "description": [
-      "Les braises explosent toutes les 4 secondes, infligeant aux ennemis à proximité 80% des dégâts de l'ATQ sous forme de DEG M.",
-      "Les braises explosent toutes les 4 secondes, infligeant aux ennemis à proximité 96% des dégâts de l'ATQ sous forme de DEG M.",
-      "Les braises explosent toutes les 4 secondes, infligeant aux ennemis à proximité 114% des dégâts de l'ATQ sous forme de DEG M.",
-      "Les braises explosent toutes les 4 secondes, infligeant aux ennemis à proximité 138% des dégâts de l'ATQ sous forme de DEG M.",
-      "Les braises explosent toutes les 4 secondes, infligeant aux ennemis à proximité 166% des dégâts de l'ATQ sous forme de DEG M.",
-      "Les braises explosent toutes les 4 secondes, infligeant aux ennemis à proximité 200% des dégâts de l'ATQ sous forme de DEG M."
+      "Chaque coup de compétence inflige des DEG M supplémentaires égaux à 3 % de l'ATQ par charge de Braises qui pèse sur les ennemis.",
+      "Chaque coup de compétence inflige des DEG M supplémentaires égaux à 3,6 % de l'ATQ par charge de Braises qui pèse sur les ennemis.",
+      "Chaque coup de compétence inflige des DEG M supplémentaires égaux à 4,3 % de l'ATQ par charge de Braises qui pèse sur les ennemis.",
+      "Chaque coup de compétence inflige des DEG M supplémentaires égaux à 5,2 % de l'ATQ par charge de Braises qui pèse sur les ennemis.",
+      "Chaque coup de compétence inflige des DEG M supplémentaires égaux à 6,3 % de l'ATQ par charge de Braises qui pèse sur les ennemis.",
+      "Chaque coup de compétence inflige des DEG M supplémentaires égaux à 7,5 % de l'ATQ par charge de Braises qui pèse sur les ennemis."
     ],
     "story": "L'essence de la Première Flamme du monde. Le seigneur des Élementaires de Feu offrit cette gemme magnifique à un Humain qui était entré en contact avec lui. Au fil du temps, elle finit entre les mains d'un archimage, qui l'inséra au sein de son bâton. Plus tard, l'archimage offrit le bâton à son précieux disciple."
   },
   "s1": {
     "name": "Pointe de Feu",
-    "description": "Attaque 5 fois un ennemi choisi au hasard, ce qui lui inflige {0}  points de DEG M ainsi que 1 charge de Braises.",
+    "description": "Attaque 5 fois un ennemi choisi au hasard et lui inflige un total de {0}  points de DEG M. Chaque coup critique restaure 100 points de mana.",
     "books": {
       "0": "Augmente les DEG de {0}%.",
       "1": "Augmente les DEG de {0}%.",
       "2": "Augmente les DEG de {0}%."
     },
-    "light": "Les DEG sont augmentés de 40%.",
-    "dark": "Accumule 2 Braises chacun.",
+    "light": "Lorsque vous attaquez plus de 5 ennemis, les DEG de la compétence sont réduits de 50 %, mais tous les ennemis sont alors pris pour cibles.",
+    "dark": "Étourdit la cible pendant 1 sec.",
     "ut": {
       "name": "Lanterne de phénix",
       "description": [
@@ -70,63 +70,63 @@
   },
   "s2": {
     "name": "Boule de Feu",
-    "description": "Attaque la cible et les ennemis près d'elle, ce qui leur inflige {0}  points de DEG M et les étourdit pendant 2 sec. Inflige {2}  points de DEG M supplémentaires pour chaque charge de Braises infligée à l'ennemi.",
+    "description": "Attaque la cible et les ennemis près d'elle, ce qui leur inflige {0}  points de DEG M et les étourdit pendant 2 sec. Inflige {1}  points de DEG M aux boss.",
     "books": {
       "0": "Augmente les DEG de {0}%.",
       "1": "Augmente les DEG de {0}%.",
       "2": "Augmente les DEG de {0}%."
     },
-    "light": "Les DEG sont augmentés de 40%.",
-    "dark": "Le coût en Mana est augmenté de 1 et attaque une cible aléatoire à 2 reprises.",
+    "light": "Les attaques portées contre un ennemi ayant reçu au moins 10 charges de Braises augmentent les DEG M qu'il subit de 40 % pendant 10 sec.",
+    "dark": "Inflige 10 charges de Braises à l'ennemi touché.",
     "ut": {
       "name": "Élixir de Flamel",
       "description": [
-        "[Boule de feu] Augmente les DEG de 20 % et accumule 5 Braises sur l'ennemi affecté.",
-        "[Boule de feu] Augmente les DEG de 24 % et accumule 5 Braises sur l'ennemi affecté.",
-        "[Boule de feu] Augmente les DEG de 29 % et accumule 5 Braises sur l'ennemi affecté.",
-        "[Boule de feu] Augmente les DEG de 35 % et accumule 5 Braises sur l'ennemi affecté.",
-        "[Boule de feu] Augmente les DEG de 42 % et accumule 5 Braises sur l'ennemi affecté.",
-        "[Boule de feu] Augmente les DEG de 50 % et accumule 5 Braises sur l'ennemi affecté."
+        "[Boule de feu] Réduit le coût en mana de 1 point et augmente les DEG de 20 %.",
+        "[Boule de feu] Réduit le coût en mana de 1 point et augmente les DEG de 24 %.",
+        "[Boule de feu] Réduit le coût en mana de 1 point et augmente les DEG de 29 %.",
+        "[Boule de feu] Réduit le coût en mana de 1 point et augmente les DEG de 35 %.",
+        "[Boule de feu] Réduit le coût en mana de 1 point et augmente les DEG de 42 %.",
+        "[Boule de feu] Réduit le coût en mana de 1 point et augmente les DEG de 50 %."
       ],
       "story": "Élixir obtenu par Flamel, l’alchimiste de feu, en condensant des essences de flamme. Tous les sorciers du monde envient le feu de Flamel, qui brûle sans interruption. L’essence de flamme qu’il a obtenue grâce aux salamandres du volcan Dragia décuple les effets de Boule de Feu."
     }
   },
   "s3": {
     "name": "Pluie de Feu",
-    "description": "Attaque 8 fois tous les ennemis, ce qui leur inflige un total de {0}  points de DEG M ainsi que 1 charge de Braises. Inflige {1}  points de DEG M supplémentaires pour chaque charge de Braises infligée à l'ennemi.",
+    "description": "Attaque 5 fois tous les ennemis, ce qui leur inflige un total de {0}  points de DEG M. Cette attaque inflige 150 % de DEG Crit supplémentaires.",
     "books": {
       "0": "Augmente les DEG de {0}%.",
       "1": "Augmente les DEG de {0}%.",
       "2": "Augmente les DEG de {0}%."
     },
-    "light": "Temps de recharge réduit de 3 sec.",
-    "dark": "À partir de 5 charges de Braise, applique Étourdissement pendant 1 sec.",
+    "light": "Augmente les DEG de 40 %.",
+    "dark": "Réduit le coût en mana de 2 points pendant 10 sec lorsque vous attaquez plus de 5 ennemis. Un temps de recharge de 10 sec s'applique.",
     "ut": {
       "name": "Parchemin d'enfer brûlant",
       "description": [
-        "[Pluie de Feu] Les DEG sont augmentés de 20% et le Temps de Recharge de la Compétence est réduit de 3% lors d'un Crit sur un ennemi ayant plus de 5 charges de Braise.",
-        "[Pluie de Feu] Les DEG sont augmentés de 24% et le Temps de Recharge de la Compétence est réduit de 3% lors d'un Crit sur un ennemi ayant plus de 5 charges de Braise.",
-        "[Pluie de Feu] Les DEG sont augmentés de 29% et le Temps de Recharge de la Compétence est réduit de 3% lors d'un Crit sur un ennemi ayant plus de 5 charges de Braise.",
-        "[Pluie de Feu] Les DEG sont augmentés de 35% et le Temps de Recharge de la Compétence est réduit de 3% lors d'un Crit sur un ennemi ayant plus de 5 charges de Braise.",
-        "[Pluie de Feu] Les DEG sont augmentés de 42% et le Temps de Recharge de la Compétence est réduit de 3% lors d'un Crit sur un ennemi ayant plus de 5 charges de Braise.",
-        "[Pluie de Feu] Les DEG sont augmentés de 50% et le Temps de Recharge de la Compétence est réduit de 3% lors d'un Crit sur un ennemi ayant plus de 5 charges de Braise."
+        "[Pluie de Feu] Les DEG sont augmentés de 20% et le Temps de Recharge de la Compétence est réduit de 5% lors d'un Crit sur un ennemi ayant plus de 5 charges de Braise.",
+        "[Pluie de Feu] Les DEG sont augmentés de 24% et le Temps de Recharge de la Compétence est réduit de 5% lors d'un Crit sur un ennemi ayant plus de 5 charges de Braise.",
+        "[Pluie de Feu] Les DEG sont augmentés de 29% et le Temps de Recharge de la Compétence est réduit de 5% lors d'un Crit sur un ennemi ayant plus de 5 charges de Braise.",
+        "[Pluie de Feu] Les DEG sont augmentés de 35% et le Temps de Recharge de la Compétence est réduit de 5% lors d'un Crit sur un ennemi ayant plus de 5 charges de Braise.",
+        "[Pluie de Feu] Les DEG sont augmentés de 42% et le Temps de Recharge de la Compétence est réduit de 5% lors d'un Crit sur un ennemi ayant plus de 5 charges de Braise.",
+        "[Pluie de Feu] Les DEG sont augmentés de 50% et le Temps de Recharge de la Compétence est réduit de 5% lors d'un Crit sur un ennemi ayant plus de 5 charges de Braise."
       ],
       "story": "Un parchemin rédigé par une sorcière de feu connue sous le nom de Déesse du Feu. Un parchemin laissé par la grande Sorcière du Feu d’Orvelia, Vesta, lorsqu’elle était à la Tour du Sage. Il est très puissant, mais demande beaucoup de mana. Cleo prit le Parchemin d’enfer brûlant dans la Tour du Sage, alors que c’est un parchemin interdit. Elle l’utilise désormais pour améliorer sa Pluie de Feu."
     }
   },
   "s4": {
     "name": "Diffusion de Flammes",
-    "description": "Les attaques normales ont 20 % de chances d'attaquer 3 ennemis choisis au hasard, infligeant {0}  points de DEG M à la cible et aux ennemis près d'elle, ainsi que 1 charge de Braises. La compétence Braises inflige un total de {1}  points de DEG M pendant 20 sec, réduit la DEF M de la cible de 5 % et peut être cumulée 5 fois au maximum.",
+    "description": "Inflige une charge de Braises lors d'une attaque portée contre l'ennemi. Les ennemis touchés par Braises subissent {1}  points de DEG M pendant 20 sec. Braises peut se cumuler jusqu'à 10 fois.",
     "books": {
       "0": "Augmente les DEG de {0}%.",
       "1": "Augmente les DEG de {0}%.",
-      "2": "Chaque coup critique ajoute 2 Braises."
+      "2": "Augmente les DEG de {0}%."
     },
-    "light": "Braise: nombre de charges maximum changé",
-    "dark": "Les chances d'activation passent à 30 %."
+    "light": "Permet de porter à 12 le nombre maximal de charges de Braises.",
+    "dark": "Toutes les 10 sec, étourdit les ennemis touchés par Braises pendant 2 sec. Les ennemis portant plus de 10 charges de Braises sont étourdis pendant 3 sec."
   },
   "t5": {
     "light": "ATQ, DEF, PV +15% / Chances Crit +100",
-    "dark": "Les DEG de Feu sont augmentés 200%."
+    "dark": "Inflige deux charges de Braises toutes les secondes à tous les ennemis non-héros."
   }
 }

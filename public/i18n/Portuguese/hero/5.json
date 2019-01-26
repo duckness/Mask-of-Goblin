@@ -47,7 +47,7 @@
   },
   "s1": {
     "name": "Golpear",
-    "description": "Causa {0} de DAN.F aos inimigos no alcance, derrubando-os durante {1} segundos no primeiro ataque.",
+    "description": "Causa {0} de DAN F. em inimigos ao alcance, derrubando-os durante {1} seg no primeiro ataque e reduzindo sua Vel de ATQ em 250 por 10 seg.",
     "books": {
       "0": "Aumenta o DAN em {0}%.",
       "1": "Aumenta o DAN em {0}%.",
@@ -93,7 +93,7 @@
   },
   "s3": {
     "name": "Vórtice",
-    "description": "Causa {0} de DAN.F aos inimigos no alcance, congelando-os no durante {1} segundos no último ataque. Imune a penalidades ao conjurar.",
+    "description": "Causa {0} de DAN F. a inimigos próximos, com DAN F. adicional de {1} a inimigos Não Heróis. O último ataque congela os inimigos por {2} seg. Ganha Imunidade à Penalidade enquanto estiver conjurando.",
     "books": {
       "0": "Aumenta o DAN em {0}%.",
       "1": "Aumenta o DAN em {0}%.",
@@ -116,7 +116,7 @@
   },
   "s4": {
     "name": "Enfurecer",
-    "description": "Ao atacar um inimigo, aumenta o ATQ em {1} , durante {0} segundos. Esse efeito pode se acumular até no máximo 10 vezes.",
+    "description": "Ao atacar, aumenta o ATQ em {1} por {0} seg e o DAN a inimigos Não Heróis em 3%. Esse efeito pode ser acumulado no máximo 10 vezes.",
     "books": {
       "0": "Taxa de aumento de ataque aumenta em {0}%.",
       "1": "Aumenta a taxa de aumento de ATQ em {0}%.",

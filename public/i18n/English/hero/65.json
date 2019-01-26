@@ -47,7 +47,7 @@
   },
   "s1": {
     "name": "Target Lock On",
-    "description": "Attacks the enemy with the lowest M.DEF 3 times, dealing a total of {0} M.DMG and inflicting stun for 1 sec, and if the target is under 'Target Lock On', target takes additional {1} M.DMG. The last attack inflicts 'Target Lock On' on the enemy for 10 sec. Lock On cannot be dispelled, and the target's M.Block rate has decreased by 300.",
+    "description": "Attacks the enemy with the lowest M.DEF 3 times, dealing a total of {0} M.DMG and inflicting stun for 1 sec, and if the target is under 'Target Lock On', target takes additional {1} M.DMG. The last attack inflicts 'Target Lock On' on the enemy for 10 sec. Lock On cannot be dispelled, and the target's M.Block rate has decreased by 500.",
     "books": {
       "0": "DMG is increased by {0}%.",
       "1": "DMG is increased by {0}%.",
@@ -122,7 +122,7 @@
       "1": "ATK boost is increased by {0}%.",
       "2": "ATK boost is increased by {0}%."
     },
-    "light": "When there are enemies inflicted by 'Target Lock On', Crit Chance is increased by 400.",
+    "light": "When there is an enemy inflicted by 'Target Lock On', Crit Chance is increased by 400.",
     "dark": "Receives 30% reduced DMG when enemy is inflicted by 'Target Lock On'."
   },
   "t5": {

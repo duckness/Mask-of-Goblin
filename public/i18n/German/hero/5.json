@@ -47,7 +47,7 @@
   },
   "s1": {
     "name": "Zerschmettern",
-    "description": "Fügt Feinden in Reichw. {0} K.Schaden zu. Der letzte Angriff wirft Feinde für {1} Sek um.",
+    "description": "Fügt Feinden in Reichw. {0} K.Schaden zu. Der erste Angriff wirft Feinde für {1} Sek. um und reduziert ihre ANG-Geschwindigkeit 10 Sek. lang um 250.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -93,7 +93,7 @@
   },
   "s3": {
     "name": "Wirbel",
-    "description": "Fügt allen Feinden in Reichw. {0} K.Schaden zu. Die letzte Attacke friert Feinde {1} Sek lang ein. Immun gegenüber allen Effekten während Wirkung.",
+    "description": "Fügt Feinden in der Nähe {0} K.Schaden zu. Feinde, die keine Helden sind, erleiden zusätzlich {1} K.Schaden. Die letzte Attacke friert Feinde {2} Sek lang ein. Immun gegenüber allen Statuseffekten während des Wirkens.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -116,7 +116,7 @@
   },
   "s4": {
     "name": "Zorn",
-    "description": "Mit jedem Angriff steigt der Angriffswert um {1} für {0} Sek. Dieser Effekt kann bis zu 10mal gestapelt werden.",
+    "description": "Beim Angriff werden der ANG {0} Sek. lang um {1} und der Schaden an Feinden, die keine Helden sind, um 3 % erhöht. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
     "books": {
       "0": "Angriffs-Steigungsrate steigt um {0}%.",
       "1": "Angriffs-Steigungsrate steigt um {0}%.",

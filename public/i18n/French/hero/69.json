@@ -1,0 +1,132 @@
+{
+  "name": "Esker",
+  "subtitle": "Le manipulateur d'illusions",
+  "description": "Dans le milieu secret des jeux clandestins, il est l'individu le plus dangereux. Il possède la déroutante capacité de lire dans les pensées des gens. Rien qu'à le voir lancer ses dés, vous savez que vous avez perdu la partie.",
+  "story": "Artiste errant dans l'âme, Esker était le magicien vedette de Stardust, une troupe de théâtre ambulante, jusqu'au jour où le Premier ministre d'Orvelia, El Moriham, organisa un coup monté contre lui, à la suite de quoi il disparut. Alors que son public commençait à l'oublier, il revint sur le devant de la scène parmi les joueurs clandestins les plus dangereux du monde. « Le manipulateur d'illusions ». C'est ainsi que ses adversaires, absolument terrifiés, le surnommèrent. Les parieurs clandestins qui ont joué contre lui ont tous eu la même impression. Il leur suffisait d'entendre la voix douce et le rire incomparable d'Esker, de croiser son regard vide, pour sentir jusqu'à l'écœurement qu'il lisait en vous comme dans un livre ouvert.",
+  "like": "Le cube runique occulte, le concerto pour piano n° 7 d'Hayedden, le filet de poisson-chat argenté agrémenté de 4 gouttes de jus de citron.",
+  "dislike": "La pêche, les vers de terre, les escrocs, tout ce qui est épicé.",
+  "inn": {
+    "idle": "Chut ! Ne dites à personne que vous m'avez vu.",
+    "recruit": {
+      "greet": "Vous voulez jouer ? Je vous laisserai peut-être gagner une partie ou deux.",
+      "talk": [
+        "Ouvrez bien grands vos yeux. Dès que j'aurai lancé ces dés, un monde de ma création apparaîtra devant vous.",
+        "Oh, oh. Je sais déjà quel lancer je vais obtenir. Si vous laissez votre adversaire lire dans vos pensées, vous avez perdu la partie.",
+        "Ça vous énerve, que je gagne à chaque fois ? Allez, le prochain coup, je vous laisse gagner."
+      ],
+      "gift": "C'est tout ?"
+    },
+    "affinity": {
+      "greet": "Ah ah ah, vous vous améliorez ! Ça vous dirait de venir avec moi et de gagner de grosses sommes d'argent ?",
+      "talk": [
+        "Ce Lucias est sacrément têtu. Ne lui dites en aucun cas que je suis là. Argh, j'ai des frissons rien qu'à imaginer le croiser.",
+        "Le tripot clandestin ? Humpf, vous n'imaginez même pas. On ne vous laissera pas vous asseoir à une table si vous n'avez pas une pleine bouteille de sang de vampire. Ça va, ne faites pas la tête, je vous taquine."
+      ],
+      "gift": "Oubliez le cadeau, allons manger un bout. Un filet de poisson-chat argenté au jus de citron fera l'affaire."
+    },
+    "relationship": {
+      "greet": "Ma partie se termine lorsque ma revanche est assouvie. La ruine ne compte pas. Les dés seront toujours là pour moi.",
+      "talk": [
+        "Je pêchais l'éperlan avec lui lorsque nous étions plus jeunes... De toute façon, je n'ai jamais aimé ça. Je détestais accrocher ces gros vers gluants à l'hameçon.",
+        "J'apprenais à Ophelia comment mélanger les cartes après le spectacle.",
+        "Quand je réintégrerai Stardust ? Eh bien... J'y penserai quand vous viendrez voir la représentation."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Lu Etrona, jeu de dés vagabonds",
+    "description": [
+      "En cas de coup critique de compétence, restaure 100 points de mana et augmente de 20 % pendant 10 sec les DEG M reçus par la cible.",
+      "En cas de coup critique de compétence, restaure 120 points de mana et augmente de 24 % pendant 10 sec les DEG M reçus par la cible.",
+      "En cas de coup critique de compétence, restaure 140 points de mana et augmente de 29 % pendant 10 sec les DEG M reçus par la cible.",
+      "En cas de coup critique de compétence, restaure 170 points de mana et augmente de 35 % pendant 10 sec les DEG M reçus par la cible.",
+      "En cas de coup critique de compétence, restaure 210 points de mana et augmente de 42 % pendant 10 sec les DEG M reçus par la cible.",
+      "En cas de coup critique de compétence, restaure 250 points de mana et augmente de 50 % pendant 10 sec les DEG M reçus par la cible."
+    ],
+    "story": "Un jeu de dés autrefois utilisé par Hexipolia, le clown illusionniste itinérant. Autrefois, ce mage et artiste célèbre parcourait le continent pour répandre la joie et faire oublier les soucis. Ses spectacles apportaient réconfort et espoir aux gens dans les moments les plus difficiles. Il était si apprécié qu'on bâtit la lune d'Hexipolia en son honneur après sa mort. Malheureusement, l'habileté extrême d'Hexipolia avait entamé son âme, et le pauvre homme se sentait seul et déprimé. Alors qu'il pensait abandonner, il prit conscience de son influence. Ses spectacles étaient indispensables à son public. Son destin était d'amuser la galerie. Pour se divertir lui-même, il fabriqua les dés Lu Etrona pendant son périple. Il concentra pour cela son mana dans les dés et leur transmit le pouvoir de générer une illusion dimensionnelle. Lorsqu'on les lance, ils ouvrent effectivement la porte sur un monde imaginaire dans lequel Hexipolia put enfin trouver la paix. Les dés furent transmis à ses dignes héritiers, mais ils disparurent dans la chute de la civilisation antique. Ces dés ont fini par atterrir dans les mains du Manipulateur d'illusions. Ils sont à présent utilisés d'une tout autre manière, contre la volonté de leur fabricant... L'on raconte qu'ils apparurent dans les mains d'Esker, baignés dans une lumière aveuglante, alors qu'il essayait de fuir ce monde."
+  },
+  "s1": {
+    "name": "C'est ma partie",
+    "description": "Attaque 3 fois un ennemi choisi au hasard, lui inflige {0}  points de DEG M et l'étourdit pendant {1}  sec. Si les 3 attaques sont portées contre le même ennemi, il subit {2}  points de DEG M supplémentaires ignorant sa DEF.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Augmente les DEG de 100 % lorsqu'il ne reste plus que 1 ennemi.",
+    "dark": "Réduit de 200 points la Vit ATQ de l'ennemi pendant 10 sec.",
+    "ut": {
+      "name": "Cube runique occulte",
+      "description": [
+        "[C'est ma partie] augmente les DEG de 20 % et le nombre de coups de 1.",
+        "[C'est ma partie] augmente les DEG de 24 % et le nombre de coups de 1.",
+        "[C'est ma partie] augmente les DEG de 29 % et le nombre de coups de 1.",
+        "[C'est ma partie] augmente les DEG de 35 % et le nombre de coups de 1.",
+        "[C'est ma partie] augmente les DEG de 42 % et le nombre de coups de 1.",
+        "[C'est ma partie] augmente les DEG de 50 % et le nombre de coups de 1."
+      ],
+      "story": "Un cube avec lequel jouaient Esker et Ophelia lorsqu'elle ne se sentait pas bien. Lorsque les lettres runiques qu'il comporte sont dans l'ordre, ce cube émet une lumière vive et il diffuse une douce mélodie lorsque le puzzle est entièrement résolu. Ophelia se sentait souvent si déprimée qu'elle avait oublié le visage de l'homme de sa vie, qu'elle avait rencontré en rêve. Dans ces moments-là, Esker sortait son cube et le résolvait devant elle pour la calmer, comme il le faisait avec sa sœur."
+    }
+  },
+  "s2": {
+    "name": "C'est mon tour",
+    "description": "Lance les dés et augmente respectivement de {0}  points et {1}  % l'ATQ et les DEG Crit de 2 alliés choisis au hasard pendant 60 sec. Cet effet peut se cumuler jusqu'à {2}  fois et le nombre de cibles augmente en fonction du nombre obtenu avec les dés.",
+    "books": {
+      "0": "Augmentation de l'ATQ boostée de {0}%.",
+      "1": "Augmentation de l'ATQ boostée de {0}%.",
+      "2": "Augmentation de l'ATQ boostée de {0}%."
+    },
+    "light": "Augmente le coût en mana de 1 point, mais obtient 6 à chaque lancer.",
+    "dark": "Réduit le coût en mana de 1 point.",
+    "ut": {
+      "name": "Pièce d'échecs inutilisable",
+      "description": [
+        "[C'est mon tour] accorde 30 points de Vit ATQ supplémentaires par charge à l'allié à l'ATQ la plus élevée, et l'effet de C'est mon tour devient inamovible.",
+        "[C'est mon tour] accorde 36 points de Vit ATQ supplémentaires par charge à l'allié à l'ATQ la plus élevée, et l'effet de C'est mon tour devient inamovible.",
+        "[C'est mon tour] accorde 43 points de Vit ATQ supplémentaires par charge à l'allié à l'ATQ la plus élevée, et l'effet de C'est mon tour devient inamovible.",
+        "[C'est mon tour] accorde 52 points de Vit ATQ supplémentaires par charge à l'allié à l'ATQ la plus élevée, et l'effet de C'est mon tour devient inamovible.",
+        "[C'est mon tour] accorde 63 points de Vit ATQ supplémentaires par charge à l'allié à l'ATQ la plus élevée, et l'effet de C'est mon tour devient inamovible.",
+        "[C'est mon tour] accorde 75 points de Vit ATQ supplémentaires par charge à l'allié à l'ATQ la plus élevée, et l'effet de C'est mon tour devient inamovible."
+      ],
+      "story": "Une pièce d'échecs ayant appartenu au partenaire d'Esker à l'époque de leurs représentations au sein de Stardust. À la fin du spectacle de magie, le duo jouait aux échecs et faisait le point sur leur représentation. Le jour de « l'incident », suite auquel Esker décida de quitter la troupe, seul son partenaire savait ce qu'il avait en tête. Alors qu'il remettait cette pièce dans les mains d'Esker, il lui fit promettre de ne jamais oublier Stardust et de revenir dès qu'il le pourrait."
+    }
+  },
+  "s3": {
+    "name": "Je compte sur ma chance ?",
+    "description": "Attaque tous les ennemis, leur inflige {0}  points de DEG M et réduit le temps de recharge de cette compétence de {1}  sec ou augmente les DEG qu'elle provoque de {2}  %, et ce de manière permanente, les deux options ayant chacune 50 % de chances de se produire. Cet effet peut se cumuler jusqu'à 10 fois.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "L'augmentation des DEG s'active après l'effet de réduction du temps de recharge, qui se déclenche lorsque le cumul maximal est atteint.",
+    "dark": "4 ennemis sont maintenant pris pour cibles, mais le temps de recharge est réduit de 50 % à chaque ennemi vaincu.",
+    "ut": {
+      "name": "Vieille canne à pêche",
+      "description": [
+        "[Je compte sur ma chance ?] Réduit le coût en mana de 1 point et augmente les DEG M reçus par la cible de 10 % pendant 10 sec.",
+        "[Je compte sur ma chance ?] Réduit le coût en mana de 1 point et augmente les DEG M reçus par la cible de 12 % pendant 10 sec.",
+        "[Je compte sur ma chance ?] Réduit le coût en mana de 1 point et augmente les DEG M reçus par la cible de 14 % pendant 10 sec.",
+        "[Je compte sur ma chance ?] Réduit le coût en mana de 1 point et augmente les DEG M reçus par la cible de 17 % pendant 10 sec.",
+        "[Je compte sur ma chance ?] Réduit le coût en mana de 1 point et augmente les DEG M reçus par la cible de 21% pendant 10 sec.",
+        "[Je compte sur ma chance ?] Réduit le coût en mana de 1 point et augmente les DEG M reçus par la cible de 25% pendant 10 sec."
+      ],
+      "story": "Une canne à pêche pour enfant qu'un ami d'enfance offrit à Esker. Un petit garçon agaçant vivait dans un village où Stardust se produisait tous les ans. Ce garçon, Lucias, lisait les Saintes Écritures à Esker et l'effrayait avec des lucanes. Au début, Esker le détestait, car il riait tout le temps comme un idiot, mais ils finirent par devenir de grands amis. Alors que la troupe Stardust s'était établie dans le village de Lucias, les deux garçons échangèrent un gage d'amitié, c'est ainsi que Lucias offrit cette canne à pêche à Esker. Depuis lors, Esker pêche avec Lucias à chaque fois que Stardust est dans son village."
+    }
+  },
+  "s4": {
+    "name": "Sans trucage",
+    "description": "Toutes les 10 sec, augmente l'ATQ de {0}  points et la DEF de {1}. Cet effet peut se cumuler jusqu'à 10 fois.",
+    "books": {
+      "0": "Augmente le boost d'ATQ et de DEF de {0}  %.",
+      "1": "Augmente le boost d'ATQ et de DEF de {0}  %.",
+      "2": "Augmente le boost d'ATQ et de DEF de {0}  %."
+    },
+    "light": "Autorise 3 charges de plus au maximum.",
+    "dark": "Augmente de 3 % par charge les DEG infligés aux ennemis non-héros."
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Vit. ATQ +100",
+    "dark": "Toutes les 10 sec, cumule jusqu'à 6 charges de Bénédiction des dés. Réduit le temps de recharge des compétences actives de 5 % par charge de Bénédiction des dés."
+  }
+}

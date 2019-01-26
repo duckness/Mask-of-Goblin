@@ -36,12 +36,12 @@
   "uw": {
     "name": "Blessing of Light, Benedicia",
     "description": [
-      "For 30 sec after the battle starts, reduces P.DMG taken by all allies by 10% and increases their ATK Spd by 100.",
-      "For 30 sec after the battle starts, reduces P.DMG taken by all allies by 12% and increases their ATK Spd by 120.",
-      "For 30 sec after the battle starts, reduces P.DMG taken by all allies by 14% and increases their ATK Spd by 140.",
-      "For 30 sec after the battle starts, reduces P.DMG taken by all allies by 17% and increases their ATK Spd by 170.",
-      "For 30 sec after the battle starts, reduces P.DMG taken by all allies by 21% and increases their ATK Spd by 210.",
-      "For 30 sec after the battle starts, reduces P.DMG taken by all allies by 25% and increases their ATK Spd by 250."
+      "For 30 sec after the battle starts, allies take 10% reduced P.DMG while having their ATK Spd increased by 100 and DMG to Non-Hero enemies increased by 6%.",
+      "For 30 sec after the battle starts, allies take 12% reduced P.DMG while having their ATK Spd increased by 120 and DMG to Non-Hero enemies increased by 7.2%.",
+      "For 30 sec after the battle starts, allies take 14% reduced P.DMG while having their ATK Spd increased by 140 and DMG to Non-Hero enemies increased by 8.6%.",
+      "For 30 sec after the battle starts, allies take 17% reduced P.DMG while having their ATK Spd increased by 170 and DMG to Non-Hero enemies increased by 10.4%.",
+      "For 30 sec after the battle starts, allies take 21% reduced P.DMG while having their ATK Spd increased by 210 and DMG to Non-Hero enemies increased by 12.5%.",
+      "For 30 sec after the battle starts, allies take 25% reduced P.DMG while having their ATK Spd increased by 250 and DMG to Non-Hero enemies increased by 15%."
     ],
     "story": "A blessed flag representing the Sun, Moon, and the entire sky. It contains the power and teachings of the Creator, Lua. The power of light spreads when he waves the flag, bringing peace to his allies' minds, defeating the powers of darkness. A halidom bestowed upon Lucias, who used to be a flag bearer in Lua's Holy Knights."
   },
@@ -116,14 +116,14 @@
   },
   "s4": {
     "name": "Holy Sacrifice",
-    "description": "Heals all allies except the caster by {0} when the caster dies.",
+    "description": "Casting Path of Blessings and Zone of Faith consumes 20% of self's current HP. Upon healing an ally with these spells, the amount of healing is increased by {0} and the target gains {1} additional DEF for 10 sec.",
     "books": {
       "0": "Heal rate is increased by {0}%.",
       "1": "Heal rate is increased by {0}%.",
       "2": "Heal rate is increased by {0}%."
     },
-    "light": "Upon activation, grants immunity to DMG and CC to all allies except the caster for 1.5 sec.",
-    "dark": "Upon activation, dispels all negative effects from all allies except self."
+    "light": "Increases Heal Rate by 40%.",
+    "dark": "No longer consumes HP."
   },
   "t5": {
     "light": "ATK, DEF, HP+15% / CC Resist +100",

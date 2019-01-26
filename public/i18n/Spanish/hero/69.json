@@ -1,0 +1,132 @@
+{
+  "name": "Esker",
+  "subtitle": "El apostador de ilusiones",
+  "description": "El hombre más peligroso en el mundo secreto de las apuestas. Tiene la habilidad extraña de leer mentes. Apenas te distraes cuando lanza los dados, el juego ya está perdido.",
+  "story": "Nacido con el espíritu de un artista trotamundos, Esker era el mago estrella del Stardust, una compañía de teatro viajera, hasta que el primer ministro, El Moriham de Orvelia, le tendió una trampa y desapareció. Cuando todos comenzaban a olvidarlo, se supo que era uno de los apostadores más peligrosos en el mundo secreto de las apuestas. «El apostador de ilusiones». Así lo llamaban sus oponentes atemorizados. Los apostadores que jugaron con él lo describieron de manera similar. Bastaba enfrentar la carcajada única, la voz suave y los ojos vacíos de Esker para sospechar que el hombre frente a ellos leía todas y cada una de sus jugadas.",
+  "like": "Cubo rúnico galimatías, concierto para piano n.ª 7 de Hayedden, filete de bagre gris condimentado con 4 gotas de jugo de limón.",
+  "dislike": "Pescar, lombrices, artistas del engaño, cualquier cosa picante.",
+  "inn": {
+    "idle": "¡Shh! No le digas a nadie que me viste.",
+    "recruit": {
+      "greet": "¿Quieres jugar? Podría dejarte ganar una partida.",
+      "talk": [
+        "Mantén los ojos abiertos y observa. Apenas lance este dado, se desplegará un mundo de mi creación frente a ti.",
+        "Oh, oh. Ya sé cómo rodarán los dados. Pierdes apenas dejas que el oponente te lea la mente.",
+        "¿Te enoja que siga ganando? A ver, te dejaré ganar la próxima."
+      ],
+      "gift": "¿Eso es todo?"
+    },
+    "affinity": {
+      "greet": "¡Ja, ja, ja! ¡Mejoraste! ¿Qué tal si nos asociamos y ganas dinero en serio?",
+      "talk": [
+        "Ese Lucias es un idiota empedernido. Ni se te ocurra decirle que estoy aquí. Argh, me da escalofríos de solo pensar en toparme con él.",
+        "¿La casa de apuestas secreta? Pf, ni te lo imaginas. No te dejarán sentarte a la mesa a menos que tengas una botella repleta de sangre de vampiro. Bueno, ya, no llores, era una broma."
+      ],
+      "gift": "Olvídate del regalo y vamos a cenar. Un filete de bagre gris condimentado con jugo de limón estará bien."
+    },
+    "relationship": {
+      "greet": "La partida acaba cuando acabe mi venganza. No me importa si me arruina o no. Los dados seguirán rodando.",
+      "talk": [
+        "Solía pescar eperlanos con él cuando éramos jóvenes... Bueno, la verdad que jamás lo disfruté. Odiaba encarnar el anzuelo con esos gusanos asquerosos.",
+        "Solía enseñarle a Ophelia a mezclar las cartas después de la presentación.",
+        "¿Que cuándo regresaré a Stardust? Bueno, lo pensaré si vienes a ver la presentación."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Confort del trotamundos, Dados de Lu Etrona",
+    "description": [
+      "En un Golpe de habilidad crítico, aumenta el Daño mágico que recibe el objetivo en un 20 % durante 10 s y recupera Mana propio en 100.",
+      "En un Golpe de habilidad crítico, aumenta el Daño mágico que recibe el objetivo en un 24 % durante 10 s y recupera Mana propio en 120.",
+      "En un Golpe de habilidad crítico, aumenta el Daño mágico que recibe el objetivo en un 29 % durante 10 s y recupera Mana propio en 140.",
+      "En un Golpe de habilidad crítico, aumenta el Daño mágico que recibe el objetivo en un 35 % durante 10 s y recupera Mana propio en 170.",
+      "En un Golpe de habilidad crítico, aumenta el Daño mágico que recibe el objetivo en un 42 % durante 10 s y recupera Mana propio en 210.",
+      "En un Golpe de habilidad crítico, aumenta el Daño mágico que recibe el objetivo en un 50 % durante 10 s y recupera Mana propio en 250."
+    ],
+    "story": "Un par de dados que usaba Hexipolia, el payaso ilusionista trashumante. Era un mago conocido y artista de tiempos antiguos que viajó por todo el continente para llevar alegría a las personas y ayudarlas a olvidar los problemas. Su acto era consuelo y esperanza de aquellos que vivían en tiempos confusos y lo amaban al punto de crear la Luna de Hexipolia cuando murió en honor a su espíritu noble. Sin embargo, la altísima demanda mental del arte de Hexipolia poco a poco le carcomió el alma y así sufrió soledad y depresión. Quería renunciar al don natural, pero la sombra que encapotaba al pueblo era demasiado oscura y sabía muy bien lo que significaban las presentaciones para la audiencia. Entretener al público, ese era su destino. Los Dados de Lu Etrona son lo que creó para reconfortarse en esa dolorosa travesía del entretenimiento. Condensó el mana en los dados y les confirió el poder de generar una ilusión dimensional. Cuando rodaban, los dados abrían un mundo imaginario donde Hexipolia encontraba algo de paz. Los dados pasaron a los herederos de este largo legado de payaso, pero desaparecieron cuando colapsó la civilización antigua. Y ahora, los dados están en manos de un hombre conocido como el apostador de ilusiones. Que los usa de una manera muy diferente, contra las intenciones de su creador... Se dice que los dados aparecieron en las manos de Esker con luces cegadoras cuando trató desesperado de escapar de este mundo."
+  },
+  "s1": {
+    "name": "Este es mi juego.",
+    "description": "Ataca 3 veces a un enemigo al azar, lo que provoca {0} de Daño mágico aturdiéndolos durante {1} s. Si los 3 ataques se dan sobre el mismo enemigo, se genera un adicional de {2} de Daño mágico, lo cual ignora la Defensa.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Aumenta el Daño en un 100 % cuando queda 1 solo enemigo.",
+    "dark": "Reduce la Velocidad de ataque del enemigo en 200 durante 10 s.",
+    "ut": {
+      "name": "Cubo rúnico galimatías",
+      "description": [
+        "[Este es mi juego] Aumenta el Daño en un 20 % y el número de golpes en 1.",
+        "[Este es mi juego] Aumenta el Daño en un 24 % y el número de golpes en 1.",
+        "[Este es mi juego] Aumenta el Daño en un 29 % y el número de golpes en 1.",
+        "[Este es mi juego] Aumenta el Daño en un 35 % y el número de golpes en 1.",
+        "[Este es mi juego] Aumenta el Daño en un 42 % y el número de golpes en 1.",
+        "[Este es mi juego] Aumenta el Daño en un 50 % y el número de golpes en 1."
+      ],
+      "story": "Un cubo de juguete que Esker usaba para jugar con Ophelia cuando estaba triste. El cubo emite una luz reluciente cuando se unen las letras rúnicas y toca una melodía hermosa cuando se resuelve por completo. Ophelia se deprimía a menudo porque no sabía cómo se veía el hombre que conoció en sueños, su príncipe azul. Entonces, Esker aplicaba el mismo método que usaba para calmar a su hermana: tomaba el cubo y dejaba que Ophelia observara cómo lo resolvía."
+    }
+  },
+  "s2": {
+    "name": "Mi turno.",
+    "description": "Tira los dados y aumenta el Ataque y el Daño crítico de 2 aliados al azar de {0} y {1}  % respectivamente durante 60 s. Este efecto puede acumularse hasta un máximo de {2} veces, y el número de objetivos aumenta en 1 por cada 1 punto en el dado lanzado.",
+    "books": {
+      "0": "El ATQ aumenta en {0}%.",
+      "1": "El ATQ aumenta en {0}%.",
+      "2": "El ATQ aumenta en {0}%."
+    },
+    "light": "Reduce en 1 el Costo de Mana, pero siempre sale 6 al lanzar los dados.",
+    "dark": "Reduce en 1 el Costo de Mana.",
+    "ut": {
+      "name": "Pieza de ajedrez injugable",
+      "description": [
+        "[Mi turno] El efecto de Mi turno se vuelve inamovible y además otorga 30 de Velocidad de ataque por acumulación al aliado que tiene el Ataque más alto.",
+        "[Mi turno] El efecto de Mi turno se vuelve inamovible y además otorga 36 de Velocidad de ataque por acumulación al aliado que tiene el Ataque más alto.",
+        "[Mi turno] El efecto de Mi turno se vuelve inamovible y además otorga 43 de Velocidad de ataque por acumulación al aliado que tiene el Ataque más alto.",
+        "[Mi turno] El efecto de Mi turno se vuelve inamovible y además otorga 52 de Velocidad de ataque por acumulación al aliado que tiene el Ataque más alto.",
+        "[Mi turno] El efecto de Mi turno se vuelve inamovible y además otorga 63 de Velocidad de ataque por acumulación al aliado que tiene el Ataque más alto.",
+        "[Mi turno] El efecto de Mi turno se vuelve inamovible y además otorga 75 de Velocidad de ataque por acumulación al aliado que tiene el Ataque más alto."
+      ],
+      "story": "Una pieza de ajedrez que perteneció al compañero de escena de Esker en Stardust. Cuando terminaba el acto de magia, el dúo solía jugar ajedrez y hablar de la presentación. Cuando ocurrió el «incidente» y Esker decidió abandonar la compañía, solo su compañero sabía qué tenía en mente. Este puso la pieza de ajedrez en la mano de Esker y le dijo que no se olvide de Stardust y que regresara cuando pudiera."
+    }
+  },
+  "s3": {
+    "name": "¿Pruebo mi suerte?",
+    "description": "Ataca a todos los enemigos y provoca {0} de Daño mágico, lo que reduce permanentemente el tiempo de reutilización en {1} s o aumentando el Daño en {2}  %, cada uno con un 50 % de posibilidades. Este efecto puede acumularse hasta un máximo de 10 veces.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Se activará el efecto de aumento de daño luego de que se active primero el efecto de reducción de tiempo de reutilización en la acumulación máxima.",
+    "dark": "Cambia el objetivo a 4 enemigos, pero reduce el tiempo de reutilización en 50 % al matar un enemigo.",
+    "ut": {
+      "name": "Caña de pescar vieja",
+      "description": [
+        "[¿Pruebo mi suerte?] Reduce el Costo de Mana en 1 y aumenta el Daño mágico que recibe el objetivo en un 10 % durante 10 segundos.",
+        "[¿Pruebo mi suerte?] Reduce el Costo de Mana en 1 y aumenta el Daño mágico que recibe el objetivo en un 12 % durante 10 segundos.",
+        "[¿Pruebo mi suerte?] Reduce el Costo de Mana en 1 y aumenta el Daño mágico que recibe el objetivo en un 14 % durante 10 segundos.",
+        "[¿Pruebo mi suerte?] Reduce el Costo de Mana en 1 y aumenta el Daño mágico que recibe el objetivo en un 17 % durante 10 segundos.",
+        "[¿Pruebo mi suerte?] Reduce el Costo de Mana en 1 y aumenta el Daño mágico que recibe el objetivo en un 21% durante 10 segundos.",
+        "[¿Pruebo mi suerte?] Reduce el Costo de Mana en 1 y aumenta el Daño mágico que recibe el objetivo en un 25% durante 10 segundos."
+      ],
+      "story": "Una caña de pescar infantil que le regaló el amigo de la infancia de Esker. En el poblado que Stardust visitaba durante las giras anuales vivía un niño molesto. Este niño, Lucias, le leía una biblia aburrida a Esker y lo asustaba con ciervos voladores. Al principio, Esker lo odiaba por sonreír como un idiota todo el tiempo, pero pronto se hicieron muy amigos. Cuando Stardust visitó el poblado de Lucias en una gira, los amigos intercambiaron regalos como símbolo de amistad y esta es la caña que Lucias le dio a Esker. Desde esa vez, Esker fue a pescar con Lucias cada vez que visitó el poblado."
+    }
+  },
+  "s4": {
+    "name": "Esto no es un truco.",
+    "description": "Cada 10 s, aumenta el propio Ataque en {0} y la Defensa en {1}. Este efecto se puede acumular hasta un máximo de 10 veces.",
+    "books": {
+      "0": "Incrementa el Aumento del ataque y el Aumento de la defensa en un {0}  %.",
+      "1": "Incrementa el Aumento del ataque y el Aumento de la defensa en un {0}  %.",
+      "2": "Incrementa el Aumento del ataque y el Aumento de la defensa en un {0}  %."
+    },
+    "light": "Aumenta el número máximo de acumulaciones en 3.",
+    "dark": "Aumenta el Daño contra los enemigos que no son héroes en 3 % por acumulación."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Veloc de ATQ +100",
+    "dark": "Cada 10 s, obtén hasta 6 acumulaciones de Bendición de los dados. Reduce el tiempo de reutilización de las habilidades activas en 5 % cada 1 Bendición de los dados obtenida."
+  }
+}

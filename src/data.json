@@ -421,7 +421,7 @@
           "???"
         ],
         "mana": 2,
-        "cooldown": 8,
+        "cooldown": 5,
         "books": [
           [
             10
@@ -439,10 +439,9 @@
       "s2": {
         "description": [
           "???",
-          "???",
           "???"
         ],
-        "mana": 2,
+        "mana": 3,
         "cooldown": 10,
         "books": [
           [
@@ -460,11 +459,10 @@
       },
       "s3": {
         "description": [
-          "???",
           "???"
         ],
         "mana": 4,
-        "cooldown": 20,
+        "cooldown": 15,
         "books": [
           [
             10
@@ -491,7 +489,9 @@
           [
             15
           ],
-          null
+          [
+            25
+          ]
         ],
         "dark": null,
         "light": null
@@ -689,6 +689,7 @@
       },
       "s3": {
         "description": [
+          "???",
           "???",
           4
         ],
@@ -4928,7 +4929,7 @@
       "s3": {
         "description": [
           "???",
-          20
+          30
         ],
         "mana": 3,
         "cooldown": 22,
@@ -5108,7 +5109,7 @@
           "???"
         ],
         "mana": 2,
-        "cooldown": 6,
+        "cooldown": 5,
         "books": [
           [
             10
@@ -5130,7 +5131,7 @@
           "???"
         ],
         "mana": 2,
-        "cooldown": 20,
+        "cooldown": 17,
         "books": [
           [
             10
@@ -5150,8 +5151,8 @@
           "???",
           "???"
         ],
-        "mana": 4,
-        "cooldown": 24,
+        "mana": 3,
+        "cooldown": 20,
         "books": [
           [
             10
@@ -5640,68 +5641,6 @@
         "light": null
       }
     },
-    "54": {
-      "index": 54,
-      "class": "priest",
-      "type": "magical",
-      "position": {
-        "type": "rear",
-        "weight": 100
-      },
-      "mpatk": 450,
-      "mpsec": 60,
-      "auto": null,
-      "s1": {
-        "description": null,
-        "mana": null,
-        "cooldown": null,
-        "books": [
-          null,
-          null,
-          null
-        ],
-        "dark": null,
-        "light": null
-      },
-      "s2": {
-        "description": null,
-        "mana": null,
-        "cooldown": null,
-        "books": [
-          null,
-          null,
-          null
-        ],
-        "dark": null,
-        "light": null
-      },
-      "s3": {
-        "description": null,
-        "mana": null,
-        "cooldown": null,
-        "books": [
-          null,
-          null,
-          null
-        ],
-        "dark": null,
-        "light": null
-      },
-      "s4": {
-        "description": null,
-        "books": [
-          null,
-          null,
-          null
-        ],
-        "dark": null,
-        "light": null
-      },
-      "t5": {
-        "dark": null,
-        "light": null
-      }
-    },
     "53": {
       "index": 53,
       "class": "archer",
@@ -5810,6 +5749,125 @@
         ],
         "dark": null,
         "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
+    },
+    "54": {
+      "index": 54,
+      "class": "priest",
+      "type": "magical",
+      "position": {
+        "type": "rear",
+        "weight": 100
+      },
+      "mpatk": 325,
+      "mpsec": 60,
+      "auto": {
+        "range": 6500,
+        "rangeType": "Ranged",
+        "time": [
+          [
+            1.0
+          ],
+          []
+        ],
+        "duration": 2.6
+      },
+      "s1": {
+        "description": [
+          "???",
+          "???",
+          5
+        ],
+        "mana": 2,
+        "cooldown": 10,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???",
+          1,
+          "???",
+          5
+        ],
+        "mana": 4,
+        "cooldown": 24,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null,
+        "linked": [
+          "???"
+        ]
+      },
+      "s3": {
+        "description": [
+          "???",
+          3,
+          3
+        ],
+        "mana": 4,
+        "cooldown": 25,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???",
+          "???"
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": [
+          "???"
+        ],
+        "light": [
+          300
+        ]
       },
       "t5": {
         "dark": null,
@@ -5992,14 +6050,14 @@
       },
       "s2": {
         "description": [
-          6,
+          5,
           6,
           "???",
           25,
           3
         ],
         "mana": 2,
-        "cooldown": 40,
+        "cooldown": 35,
         "books": [
           [
             10
@@ -6040,7 +6098,7 @@
         "description": [
           "???",
           "???",
-          50
+          40
         ],
         "books": [
           [
@@ -6404,6 +6462,7 @@
       },
       "s4": {
         "description": [
+          "???",
           "???"
         ],
         "books": [
@@ -6870,7 +6929,7 @@
           "???"
         ],
         "mana": 4,
-        "cooldown": 23,
+        "cooldown": 20,
         "books": [
           [
             10
@@ -6890,7 +6949,7 @@
           1,
           "???",
           0.7,
-          40
+          70
         ],
         "books": [
           [
@@ -7480,6 +7539,122 @@
           20,
           "???",
           20
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
+    },
+    "69": {
+      "index": 69,
+      "class": "wizard",
+      "type": "magical",
+      "position": {
+        "type": "rear",
+        "weight": 500
+      },
+      "mpatk": 210,
+      "mpsec": 60,
+      "auto": {
+        "range": 7300,
+        "rangeType": "Ranged",
+        "time": [
+          [
+            0.5
+          ],
+          [
+            1.1
+          ],
+          [
+            1.8
+          ]
+        ],
+        "duration": 2.5
+      },
+      "s1": {
+        "description": [
+          "???",
+          3,
+          "???"
+        ],
+        "mana": 2,
+        "cooldown": 14,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???",
+          7,
+          10
+        ],
+        "mana": 2,
+        "cooldown": 18,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???",
+          2,
+          30
+        ],
+        "mana": 4,
+        "cooldown": 22,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???",
+          "???"
         ],
         "books": [
           [
@@ -8111,7 +8286,7 @@
           "???"
         ],
         "mana": 2,
-        "cooldown": 10,
+        "cooldown": 12,
         "books": [
           [
             10

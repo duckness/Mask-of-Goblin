@@ -1,0 +1,132 @@
+{
+  "name": "Esker",
+  "subtitle": "The Illusion Gambler",
+  "description": "The most dangerous man in the secret gambling world. He has a strange ability to read people's minds. As soon as one gets distracted by the roll of his dice, the game's as good as lost.",
+  "story": "Born with the spirit of a wandering artist, Esker was a star magician of the Stardust, a wandering theater troupe, until he was framed by Prime Minister El Moriham of Orvelia and disappeared. Just when everyone started forgetting about him, he came out to the world as one of the most dangerous gamblers in the secret gambling world. 'The Illusion Gambler.' That was what his challengers called him, trembling in fear. The gamblers that played with him all described him in a similar manner. As soon as they faced Esker's unique laughter, his soft voice, and his empty eyes, they all felt nauseated by the suspicion that the man in the front was reading their every move.",
+  "like": "Mumbo Jumbo Runic Cube, Piano Concerto No. 7 of Hayedden, Silver Catfish Filet spiced with 4 drops of lemon juice.",
+  "dislike": "Fishing, earthworms, con artists, everything that's spicy.",
+  "inn": {
+    "idle": "Shh! Don't tell anyone that you saw me.",
+    "recruit": {
+      "greet": "Do you want to play? I might let you win a game of two.",
+      "talk": [
+        "Keep your eyes open and see. As soon as I throw this dice, a world of my creation will unfold in front of you.",
+        "Uh-oh. I know what the next roll is going to be. You lose the moment you let your opponent read your mind.",
+        "Feeling angry that I keep winning? Come on, I'll let you win next time."
+      ],
+      "gift": "Is that it?"
+    },
+    "affinity": {
+      "greet": "Hahaha, you've gotten better! How about joining me and earning some real money?",
+      "talk": [
+        "That Lucias is one stubborn idiot. Don't ever tell him that I'm here. Argh, thinking about running into him already makes me feel tired...",
+        "The secret gambling house? Hmph, you could never imagine. They won't let you sit at the table unless you bet Vampire blood. Come on, don't cry. I'm just messing with you."
+      ],
+      "gift": "Forget the gift and let's grab dinner. Silver Catfish Filet spiced up with lemon juice will be perfect."
+    },
+    "relationship": {
+      "greet": "My game won't end unless my revenge is complete. I don't care if it ruins me or not. The dice will keep rolling.",
+      "talk": [
+        "I used to fish smelts with him when we were young... Well, I never liked it, anyway. I hated baiting the hook with those gross earthworms.",
+        "I would teach Ophelia how to shuffle cards after the performance.",
+        "When am I going back to Stardust? Well... I'll think about it if you're coming to see the performance."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Wanderer's Pleasure, Lu Etrona Dice",
+    "description": [
+      "Upon a Critical Skill Hit, increases M.DMG that target receives by 20% for 10 sec and recovers own Mana by 100.",
+      "Upon a Critical Skill Hit, increases M.DMG that target receives by 24% for 10 sec and recovers own Mana by 120.",
+      "Upon a Critical Skill Hit, increases M.DMG that target receives by 29% for 10 sec and recovers own Mana by 140.",
+      "Upon a Critical Skill Hit, increases M.DMG that target receives by 35% for 10 sec and recovers own Mana by 170.",
+      "Upon a Critical Skill Hit, increases M.DMG that target receives by 42% for 10 sec and recovers own Mana by 210.",
+      "Upon a Critical Skill Hit, increases M.DMG that target receives by 50% for 10 sec and recovers own Mana by 250."
+    ],
+    "story": "A pair dice once used by Hexipolia, the Wandering Illusion Clown. He was a renowned mage and artist in ancient times who traveled all across the continent to give joy to people and help them forget their troubles. His performance was a solace and hope to people living in confusing times, and they loved him to the extent that they made the Moon of Hexipolia after he passed away in honor of his noble spirit. However, the mentally demanding nature of Hexipolia's craft slowly gnawed into his soul, making him suffer from loneliness and depression. He wanted to give up on his natural gift, but the shadow cast upon people was just too deep; he knew too well what his performances meant to his audience. It was his destiny to amuse people. Lu Etrona Dice is what he made to amuse himself during his painful journey of entertainment. He condensed his Mana into the dice and gave it the power to form a dimensional illusion. When rolled, the dice opened up an imaginary world where Hexipolia could find some peace. The dice was passed down to the descendants of his life-long pursuit for clowning, but it disappeared when the ancient civilization collapsed. And now, the dice is in the hands of a man called the Illusion Gambler. Being used in a completely different way, against its maker's intentions... It is said that the dice appeared in Esker's hands with blinding lights when he desperately wanted to escape this world."
+  },
+  "s1": {
+    "name": "This Is My Game",
+    "description": "Attacks a random enemy 3 times, dealing {0} M.DMG and stunning it for {1} sec. If the 3 attacks land on the same enemy, deals additional {2} M.DMG that ignores DEF.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Increases DMG by 100% when there is only 1 enemy left.",
+    "dark": "Reduces ATK Spd of the enemy by 200 for 10 sec.",
+    "ut": {
+      "name": "Mumbo Jumbo Runic Cube",
+      "description": [
+        "[This Is My Game] Increases DMG by 20% and the number of hits by 1.",
+        "[This Is My Game] Increases DMG by 24% and the number of hits by 1.",
+        "[This Is My Game] Increases DMG by 29% and the number of hits by 1.",
+        "[This Is My Game] Increases DMG by 35% and the number of hits by 1.",
+        "[This Is My Game] Increases DMG by 42% and the number of hits by 1.",
+        "[This Is My Game] Increases DMG by 50% and the number of hits by 1."
+      ],
+      "story": "A toy cube that Esker used to play with Ophelia when she was feeling down. The Cube lets out a gleaming light when the Runic letters are put together, and starts playing a beautiful melody when completely solved. Ophelia would often feel depressed that she didn't know what the man of her destiny she met in her dreams looked like. In such cases, Esker would, just as he did to calm his sister down, take this cube out and let her watch him solve the cube."
+    }
+  },
+  "s2": {
+    "name": "My Turn",
+    "description": "Rolls the dice and increases ATK and Crit DMG of 2 random allies by {0} and {1}% respectively for 60 sec. This effect can be stacked up to max {2} times, and the number of targets increases by 1 per 1 pip on the rolled dice.",
+    "books": {
+      "0": "ATK boost is increased by {0}%.",
+      "1": "ATK boost is increased by {0}%.",
+      "2": "ATK boost is increased by {0}%."
+    },
+    "light": "Increases Mana Cost by 1, but rolls 6 every time.",
+    "dark": "Reduces Mana Cost by 1.",
+    "ut": {
+      "name": "Indispensable Chess Piece",
+      "description": [
+        "[My Turn] The effect of My Turn becomes irremovable, and additionally grants 30 ATK Spd per stack to the ally with the highest ATK.",
+        "[My Turn] The effect of My Turn becomes irremovable, and additionally grants 36 ATK Spd per stack to the ally with the highest ATK.",
+        "[My Turn] The effect of My Turn becomes irremovable, and additionally grants 43 ATK Spd per stack to the ally with the highest ATK.",
+        "[My Turn] The effect of My Turn becomes irremovable, and additionally grants 52 ATK Spd per stack to the ally with the highest ATK.",
+        "[My Turn] The effect of My Turn becomes irremovable, and additionally grants 63 ATK Spd per stack to the ally with the highest ATK.",
+        "[My Turn] The effect of My Turn becomes irremovable, and additionally grants 75 ATK Spd per stack to the ally with the highest ATK."
+      ],
+      "story": "A chess piece that belonged to Esker's performance partner in Stardust. When the magic show was over, the duo would play chess and talk about their performance earlier. The day that the 'incident' happened and Esker decided to leave the troupe, no one but his partner knew what he had in mind. Handing this chess piece in Esker's hands, he told Esker not to forget Stardust and to come back when he could."
+    }
+  },
+  "s3": {
+    "name": "Shall I Try My Luck?",
+    "description": "Attacks all enemies and deals {0} M.DMG, permanently reducing Cooldown of this skill by {1} sec or increasing its DMG by {2}%, each with a 50% chance. This effect can be stacked up to max 10 times.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "DMG increase effect will activate after the Cooldown Reduction effect activates at max stack first.",
+    "dark": "Changes the target to 4 enemies, but reduces Cooldown by 50% upon killing an enemy.",
+    "ut": {
+      "name": "Old Fishing Rod",
+      "description": [
+        "[Shall I Try My Luck?] Reduces Mana Cost by 1 and increases M.DMG target receives by 10% for 10 sec.",
+        "[Shall I Try My Luck?] Reduces Mana Cost by 1 and increases M.DMG target receives by 12% for 10 sec.",
+        "[Shall I Try My Luck?] Reduces Mana Cost by 1 and increases M.DMG target receives by 14% for 10 sec.",
+        "[Shall I Try My Luck?] Reduces Mana Cost by 1 and increases M.DMG target receives by 17% for 10 sec.",
+        "[Shall I Try My Luck?] Reduces Mana Cost by 1 and increases M.DMG target receives by 21% for 10 sec.",
+        "[Shall I Try My Luck?] Reduces Mana Cost by 1 and increases M.DMG target receives by 25% for 10 sec."
+      ],
+      "story": "A fishing rod for kids that Esker's childhood friend gave him as a present. There was an annoying boy living in a town that Stardust would visit during annual tours. The boy, Lucias, would read the boring bible to Esker and frighten him with stag beetles. Esker hated him for always smiling like an idiot at first, but they soon became close friends. When Stardust came to visit Lucias's town on another tour, the two exchanged a token of friendship, and this fishing rod was what Lucias gave Esker. Since then, Esker had to go fishing with Lucias every time he would come to the town."
+    }
+  },
+  "s4": {
+    "name": "This Is Not a Trick",
+    "description": "Every 10 sec, increases own ATK by {0} and DEF by {1}. This effect can be stacked up to max 10 times.",
+    "books": {
+      "0": "Increases ATK Boost and DEF Boost by {0}%.",
+      "1": "Increases ATK Boost and DEF Boost by {0}%.",
+      "2": "Increases ATK Boost and DEF Boost by {0}%."
+    },
+    "light": "Increases the max number of stacks by 3.",
+    "dark": "Increases DMG against Non-Hero enemies by 3% per stack."
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / ATK.Spd +100",
+    "dark": "Every 10 sec, gain up to 6 stacks of Blessing of the Dice. Reduces Cooldown of active skills by 5% per 1 Blessing of the Dice gained."
+  }
+}

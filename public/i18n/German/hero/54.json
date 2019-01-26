@@ -1,0 +1,136 @@
+{
+  "name": "Lavril",
+  "subtitle": "Lieblicher Böser Geist",
+  "description": "Ein Geist, geboren aus einer Verschmelzung zahlloser Leben, die auf ungerechte Weise verendeten. Trotz ihrer Herkunft ist Lavril erstaunlich naiv und unschuldig. Mithilfe ihrer Geisterkräfte saugt sie ihren Feinden die Lebensenergie ab.",
+  "story": "Ein sehr eigenwilliger Geist. Alle, die sie zu Gesicht bekommen, halten sie wahrscheinlich für einen gewöhnlichen Geist eines Mädchens, doch sie ist kein singuläres Geisterwesen, sondern eine Verschmelzung zahlloser Seelen. Ihre überbordenden Geisterkräfte sind mächtig genug, um Seelen erzittern zu lassen und Flüche nach freiem Willen gegen Feinde zu wirken.... Wie ein normaler Geist eben. Manche behaupten, dass sie aus der Verschmelzung junger Seelen geboren wäre, die im Dämonenkrieg vor 100 Jahren gestorben sind – Kinderseelen, die, genau wie im Leben zuvor, zu rein und unschuldig sind, um Flüche auf sich zu tragen. Da Lavril aus ihnen entstammt, ist ihr Verstand milde und gütig. Doch die Natur ihres Seins darf nicht vergessen werden: Sie ist eine Verschmelzung von Kinderseelen. Ein Kind ist wie ein Stück weißes Papier – was darauf gezeichnet wird, bestimmt den Charakter des Kindes. Ohne entsprechende Führung stellt sie eine große Bedrohung für die Welt dar.",
+  "like": "Leute, die potenzielle Freunde sein könnten, Tiere und lebhafte Dörfer.",
+  "dislike": "Unheimliche Leute, die Freaks oder Monster sein könnten",
+  "inn": {
+    "idle": "Äh ... Ähm ... Es sind zu viele Fremde hier ...",
+    "recruit": {
+      "greet": "H-Hallo ...",
+      "talk": [
+        "B-Bitte tut mir nichts Böses ...",
+        "Wir sind nett ... Bitte, hasst uns nicht ...",
+        "B-Bleib doch noch ein wenig bei uns, bitte ..."
+      ],
+      "gift": "Hm ...? D-Danke sehr!"
+    },
+    "affinity": {
+      "greet": "Arr ... Wir sind da ...",
+      "talk": [
+        "Wir haben Angst und ... uns ist kalt ...",
+        "Ah ... Wir sind einsam ... Das ist nicht fair ... Wer sind wir ...?"
+      ],
+      "gift": "D-Danke. Bitte verlass uns nicht. Bleib bei uns ..."
+    },
+    "relationship": {
+      "greet": "Hehe ... Schön, dich zu sehen. Was willst du heute tun?",
+      "talk": [
+        "Die Leute der Kirche von Lua sind unheimlich, aber ich weiß, dass sie im Grunde in Ordnung sind ... Hehe.",
+        "Die Leute haben zwar gerne Feen und Elementare zum Freund, aber ... gibt es irgendjemanden, der mit Geistern befreundet sein möchte?",
+        "D-Du bist unser Freund ... Hehe, wir mögen dich. Wirklich. Bitte bleib bei uns."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Leerenseele, Dunn Nemecia",
+    "description": [
+      "Erlangt nach Anwendung eines Skills 1 Sek. lang [Leerenseele] und wehrt alle Angriffe ab. Dieser Effekt wird alle 10 Sek. einmal aktiviert. Erhöht den Krit. Schaden des Verbündeten in der Seelenverbindung um 30 %.",
+      "Erlangt nach Anwendung eines Skills 1,2 Sek. lang [Leerenseele] und wehrt alle Angriffe ab. Dieser Effekt wird alle 10 Sek. einmal aktiviert. Erhöht den Krit. Schaden des Verbündeten in der Seelenverbindung um 36 %.",
+      "Erlangt nach Anwendung eines Skills 1,4 Sek. lang [Leerenseele] und wehrt alle Angriffe ab. Dieser Effekt wird alle 10 Sek. einmal aktiviert. Erhöht den Krit. Schaden des Verbündeten in der Seelenverbindung um 42 %.",
+      "Erlangt nach Anwendung eines Skills 1,7 Sek. lang [Leerenseele] und wehrt alle Angriffe ab. Dieser Effekt wird alle 10 Sek. einmal aktiviert. Erhöht den Krit. Schaden des Verbündeten in der Seelenverbindung um 51 %.",
+      "Erlangt nach Anwendung eines Skills 2,1 Sek. lang [Leerenseele] und wehrt alle Angriffe ab. Dieser Effekt wird alle 10 Sek. einmal aktiviert. Erhöht den Krit. Schaden des Verbündeten in der Seelenverbindung um 63 %.",
+      "Erlangt nach Anwendung eines Skills 2,5 Sek. lang [Leerenseele] und wehrt alle Angriffe ab. Dieser Effekt wird alle 10 Sek. einmal aktiviert. Erhöht den Krit. Schaden des Verbündeten in der Seelenverbindung um 75 %."
+    ],
+    "story": "Ein anderes Geisterwesen, das von Lavril getrennt wurde. Im Gegensatz zur gütigen Lavril ist Dunn Nemecia die Verschmelzung der negativen und aggressiven Seelen, die in ihrem Inneren wohnten. Glücklicherweise versteckt dieser niedliche und doch unheimliche Geist seine böse Seite die meiste Zeit über und benutzt seine Kräfte nur dann, wenn sein Wirt sie benötigt oder er eine Bedrohung wittert. Man muss stets bedenken, dass dieser seltsame Geist kein freundliches, harmloses Wesen ist. Die Listen, die er anwendet, sind überwiegend von boshafter Natur: Er umgibt Schlafende mit spitzen, harten Gegenständen, wirft Frischgekochtes zu Boden und stellt Vorbeigehenden ein Bein, doch ... Er ist noch zu wesentlich schlimmeren Taten fähig, wenn er nicht von Lavril kontrolliert werden würde."
+  },
+  "s1": {
+    "name": "G-Geh weg!",
+    "description": "Verursacht {0} M.Schaden am Ziel und verringert dessen Krit. Widerstand 10 Sek. lang um 300. Getroffene Feinde erleiden 5 Sek. lang Lavrils Ektoplasma und erleiden alle 0,5 Sek. {1} M.Schaden. Jedes Mal, wenn ein Feind auf diese Weise Schaden erleidet, werden die TP aller Verbündeten um {2}  % des verursachten Schadens geheilt.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Erhöht den durch das Ziel erlittenen M.Schaden um 25 %.",
+    "dark": "Stellt 1 Manakugel wieder her, wenn das Ziel stirbt. Der Cooldown dieses Skills wird zurückgesetzt.",
+    "ut": {
+      "name": "Tarotkarte des Mondes",
+      "description": [
+        "[G-Geh weg!] Erhöht den Schaden um 50 % und reduziert die Heilungsrate getroffener Feinde um 20 %.",
+        "[G-Geh weg!] Erhöht den Schaden um 50 % und reduziert die Heilungsrate getroffener Feinde um 24 %.",
+        "[G-Geh weg!] Erhöht den Schaden um 50 % und reduziert die Heilungsrate getroffener Feinde um 29 %.",
+        "[G-Geh weg!] Erhöht den Schaden um 50 % und reduziert die Heilungsrate getroffener Feinde um 35 %.",
+        "[G-Geh weg!] Erhöht den Schaden um 50 % und reduziert die Heilungsrate getroffener Feinde um 42 %.",
+        "[G-Geh weg!] Erhöht den Schaden um 50 % und reduziert die Heilungsrate getroffener Feinde um 50 %."
+      ],
+      "story": "Es war spät in der Nacht, als Lavril das Zelt einer fahrenden Wahrsagerin entdeckte. Seltsame Kreaturen flogen um sie herum und schufen so eine merkwürdige Atmosphäre, die es Lavril schwer machte, sich ihr zu nähern. Die Wahrsagerin fühlte ihre Anwesenheit und hieß sie willkommen. Willkommen im Zelt der Stardust-Wahrsagerin. Was möchtest du wissen? Lavril sah die lächelnde Wahrsagerin ängstlich an und öffnete ihren Mund. - W-wir ... wir wollen einen Freund haben. Ein Freund, der anders ist als wir ... Ein Freund, der atmet, den wir berühren können ... W-Wo können wir einen solchen Freund treffen ...? Die Wahrsagerin überreichte ihr lächelnd eine Karte. Auf einer Karte mit einem eingravierten Mond befand sich die Abbildung einer mächtigen Kreatur. Lavril wollte die Karte instinktiv ablegen, doch dann fühlte sie, wie die Kreatur ihre Berührung akzeptierte und anscheinend ihre Angst verlor. Es war ein wahrlich seltsames Gefühl und Lavril machte ein erstauntes Gesicht, doch bald fühlte sie sich wieder beruhigt. Dann legte die Wahrsagerin ihre Hände auf jene Lavrils. - Du musst nicht weit in die Zukunft sehen. Sind wir nicht bereits gute Freunde? Nachdem sie ihren Satz beendet hatte, begann die Wahrsagerin, Karten zu verschieben, eine nach der anderen. Währenddessen hielt sie immer noch Lavrils Hände. Die Karten sprachen im Stillen zur Wahrsagerin, als würden sie Lavrils verzweifelten Wunsch wahr werden lassen wollen. Bald waren alle Karten ausgelegt und die Wahrsagerin begann lächelnd zu sprechen. - Diese Jungen und Mädchen scheinen dich sehr zu mögen. Sie sagen mir, dass du viele Leute treffen wirst, die dir viel bedeuten werden. Bald wirst du die Freunde treffen, die du dir gewünscht hast."
+    }
+  },
+  "s2": {
+    "name": "Kopf hoch …!",
+    "description": "Heilt die TP des Verbündeten mit dem höchsten ANG-Wert um {0} und zusätzlich 15 Sek. lang alle {1} Sek. um {2} TP. Erhöht den Krit. Schaden des Verbündeten 15 Sek. lang um 50 % + 15 % von Lavrils Krit. Schaden.[Du machst mir Angst …!] ist im Anschluss an das Wirken dieses Skills {3} Sek. lang verfügbar.",
+    "books": {
+      "0": "Erhöht Erholung und Schaden um {0}%.",
+      "1": "Erhöht Erholung und Schaden um {0}%.",
+      "2": "Erhöht Erholung und Schaden um {0}%."
+    },
+    "light": "[Kopf hoch …!] Verhindert, dass die TP des Ziels für die Anwendungsdauer des Skills unter 5 % fallen. [Du machst mir Angst …!] entfernt positive Effekte vom Ziel.",
+    "dark": "[Kopf hoch …!] Erhöht ANG des Ziels für die Dauer der Fähigkeit um 20 %. [Du machst mir Angst …!] – erhöht die Anzahl der Ziele um 1.",
+    "ut": {
+      "name": "Feenduft",
+      "description": [
+        "[Kopf hoch …!] Erhöht die Heilungsrate um 50 % und den Krit. Schaden um 20 %. [Du machst mir Angst …!] Erhöht den Schaden um 50 % und reduziert die M.VERT des Ziels um 10 %.",
+        "[Kopf hoch …!] Erhöht die Heilungsrate um 50 % und den Krit. Schaden um 24 %. [Du machst mir Angst …!] Erhöht den Schaden um 50 % und reduziert die M.VERT des Ziels um 12 %.",
+        "[Kopf hoch …!] Erhöht die Heilungsrate um 50 % und den Krit. Schaden um 29 %. [Du machst mir Angst …!] Erhöht den Schaden um 50 % und reduziert die M.VERT des Ziels um 14 %.",
+        "[Kopf hoch …!] Erhöht die Heilungsrate um 50 % und den Krit. Schaden um 35 %. [Du machst mir Angst …!] Erhöht den Schaden um 50 % und reduziert die M.VERT des Ziels um 17 %.",
+        "[Kopf hoch …!] Erhöht die Heilungsrate um 50 % und den Krit. Schaden um 42 %. [Du machst mir Angst …!] Erhöht den Schaden um 50 % und reduziert die M.VERT des Ziels um 21 %.",
+        "[Kopf hoch …!] Erhöht die Heilungsrate um 50 % und den Krit. Schaden um 50 %. [Du machst mir Angst …!] Erhöht den Schaden um 50 % und reduziert die M.VERT des Ziels um 25 %."
+      ],
+      "story": "Eines sonnigen Tages wandelte Lavril scheu um ein Dorf herum. Sie wollte hineingehen und sich mit den Leuten anfreunden, doch die allzu präsenten Erinnerungen an die Vertreibung durch die Priester von Lua hielten sie davon ab. Doch dann hörte sie einen fröhlichen Gesang aus den Blumenbeeten außerhalb des Dorfes. Neugierig begab sie sich vorsichtig in die Richtung, aus der sie das Singen vernahm. Ein Mädchen sang und spielte die Harfe inmitten blühender Blumen und Kinder, Tiere und sogar Feen tanzten zu ihrem Lied. Von der Szene fasziniert ging sie los und stand selbst im Blumenbeet, ehe sie sichs versah. Im selben Moment begannen Feen und Tiere zu kreischen und versteckten sich, während die Kinder in Tränen ausbrachen. Sie reagierten äußerst sensibel auf Energie und fühlten sich durch Lavrils Anwesenheit bedroht. Das Mädchen jedoch reagierte ganz anders: Sie beruhigte die Kreaturen, pflückte ein paar Blumen aus dem umliegenden Beet und schenkte sie Lavril. Mit den Blumen in der Hand begann Lavril vor Glückseligkeit zu lächeln, voll der Freude, endlich akzeptiert zu werden. Tiere, Feen und Kinder erkannten daraufhin, dass Lavril ihnen kein Leid zufügen würde, und begrüßten sie nun fröhlich."
+    },
+    "linked": {
+      "name": "Du machst mir Angst …!",
+      "description": "Verursacht {0} M.Schaden an einem Feind, verringert dessen ANG-Geschwindigkeit 15 Sek. lang um 250 und erhöht dessen erlittenen M.Schaden um 25 %."
+    }
+  },
+  "s3": {
+    "name": "Lass mich in Ruhe …!",
+    "description": "Beschwört vor sich einen Geistertornado mit großer Reichweite, der 5 Sek. lang alle 0,5 Sek. {0} M.Schaden verursacht. Jeder Treffer verringert den ANG der getroffenen Feinde 5 Sek. lang um {1}  % und erhöht den von ihnen erlittenen M.Schaden um {2}  %. Dieser Effekt kann bis zu 15-mal gestapelt werden.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Verringert den Cooldown um 30 %.",
+    "dark": "Verringert die Manakosten um 1.",
+    "ut": {
+      "name": "Gesegneter Schutz",
+      "description": [
+        "[Lass mich in Ruhe …!] Skill-Dauer wird um 1 Sek. erhöht und jeder Treffer erhöht den M.Schaden beim Ziel um 1%.",
+        "[Lass mich in Ruhe …!] Skill-Dauer wird um 1 Sek. erhöht und jeder Treffer erhöht den M.Schaden beim Ziel um 1,2%.",
+        "[Lass mich in Ruhe …!] Skill-Dauer wird um 1 Sek. erhöht und jeder Treffer erhöht den M.Schaden beim Ziel um 1,4%.",
+        "[Lass mich in Ruhe …!] Skill-Dauer wird um 1 Sek. erhöht und jeder Treffer erhöht den M.Schaden beim Ziel um 1,7%.",
+        "[Lass mich in Ruhe …!] Skill-Dauer wird um 1 Sek. erhöht und jeder Treffer erhöht den M.Schaden beim Ziel um 2,1%.",
+        "[Lass mich in Ruhe …!] Skill-Dauer wird um 1 Sek. erhöht und jeder Treffer erhöht den M.Schaden beim Ziel um 2,5%."
+      ],
+      "story": "Als Lavril ins Leben trat, hielten die Leute sie für einen unheimlichen Geist und verbreiteten Gerüchte über sie. Die Kirche von Lua rief ihre Hohepriester herbei, um sich um sie zu kümmern. Der Heilige des Segens Lucias und der Eigenbrötler Baudouin gehörten zu jenen, die den Ruf erhörten. Nachdem sie von Lavril erfuhren hatten, suchten sie sie auf, um sie zur Rede zu stellen. Als sie sie gefunden hatten, erkannten sie, dass sie nicht bloß ein gewöhnlicher Geist, sondern eine Verschmelzung von Kinderseelen war. Es dauerte aber nicht lange und sie erkannten, dass sie keine Bedrohung darstellen würde. Doch die Kirche hatte gesprochen: Geister müssten exorziert werden und sie als Priester waren dazu bestimmt, sie zu läutern und dorthin zu geleiten, wo sie hingehörte. Lucias aber hatte andere Pläne: Lavril war eine reine Seele, die keinen Exorzismus verdiente. Er wollte ihr zu gegebener Zeit das Fortschreiten in das nächste Reich ermöglichen und wies ihr den Pfad zum Licht und den Lehren Luas. Lucias nahm sein Taschentuch heraus, wischte die Tränen aus Lavrils Gesicht und zeigte ihr den Weg zum Licht und die Lehren von Lua. Dieses Taschentuch erinnert sie an Lucias. Es ist das Licht, das sie führt, wenn sie in Schwierigkeiten steckt."
+    }
+  },
+  "s4": {
+    "name": "Für immer vereint …",
+    "description": "Stellt am Beginn des ersten Kampfes eine Seelenverbindung mit einem Verbündeten her, der den höchsten ANG-Wert hat. Dieser Effekt kann nicht entfernt werden. Während die Seelenverbindung aufrecht ist, werden pro Sekunde {1} Mana des Verbündeten wiederhergestellt, während sich sein ANG um {0} verstärkt.",
+    "books": {
+      "0": "ANG-Erhöhungsrate steigt um {0}%.",
+      "1": "ANG-Erhöhungsrate steigt um {0}%.",
+      "2": "ANG-Erhöhungsrate steigt um {0}%."
+    },
+    "light": "Erhöht die VERT-Durchdringung des durch Seelenverbindung verbundenen Verbündeten um {0}.",
+    "dark": "Erhöht die gesamte VERT des durch Seelenverbindung verbundenen Verbündeten um {0}%."
+  },
+  "t5": {
+    "light": "ANG, VERT, TP+15% / Krit. Schaden +20%",
+    "dark": "Bei einem erlittenen Treffer wird der ANG des durch Seelenverbindung verbundenen Verbündeten um 3 % erhöht. Dieser Effekt kann bis zu 20-mal gestapelt werden."
+  }
+}

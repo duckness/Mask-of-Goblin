@@ -36,12 +36,12 @@
   "uw": {
     "name": "Bendición de luz, Benedicia",
     "description": [
-      "Durante 30 segundos después del comienzo de la batalla, reduce en un 10 % el Daño físico que reciben todos los aliados y aumenta su Velocidad de ataque en 100.",
-      "Durante 30 segundos después del comienzo de la batalla, reduce en un 12 % el Daño físico que reciben todos los aliados y aumenta su Velocidad de ataque en 120.",
-      "Durante 30 segundos después del comienzo de la batalla, reduce en un 14 % el Daño físico que reciben todos los aliados y aumenta su Velocidad de ataque en 140.",
-      "Durante 30 segundos después del comienzo de la batalla, reduce en un 17 % el Daño físico que reciben todos los aliados y aumenta su Velocidad de ataque en 170.",
-      "Durante 30 segundos después del comienzo de la batalla, reduce en un 21 % el Daño físico que reciben todos los aliados y aumenta su Velocidad de ataque en 210.",
-      "Durante 30 segundos después del comienzo de la batalla, reduce en un 25 % el Daño físico que reciben todos los aliados y aumenta su Velocidad de ataque en 250."
+      "Durante 30 s después del comienzo de la batalla, aumenta la Velocidad de ataque de los aliados en 100 y el daño a enemigos no héroes en 6 % mientras reduce el daño físico que reciben en 10 %.",
+      "Durante 30 s después del comienzo de la batalla, aumenta la Velocidad de ataque de los aliados en 120 y el daño a enemigos no héroes en 7,2 % mientras reduce el daño físico que reciben en 12 %.",
+      "Durante 30 s después del comienzo de la batalla, aumenta la Velocidad de ataque de los aliados en 140 y el daño a enemigos no héroes en 8,6 % mientras reduce el daño físico que reciben en 14 %.",
+      "Durante 30 s después del comienzo de la batalla, aumenta la Velocidad de ataque de los aliados en 170 y el daño a enemigos no héroes en 10,4 % mientras reduce el daño físico que reciben en 17 %.",
+      "Durante 30 s después del comienzo de la batalla, aumenta la Velocidad de ataque de los aliados en 210 y el daño a enemigos no héroes en 12,5 % mientras reduce el daño físico que reciben en 21 %.",
+      "Durante 30 s después del comienzo de la batalla, aumenta la Velocidad de ataque de los aliados en 250 y el daño a enemigos no héroes en 15 % mientras reduce el daño físico que reciben en 25 %."
     ],
     "story": "Una bandera bendecida que representa el sol, la luna y todo el cielo. Contiene el poder y las enseñanzas del Creador, Lua. El poder de la luz se extiende cuando flamea la bandera, trayendo paz a las mentes de sus aliados y venciendo los poderes de la oscuridad. Un objeto sagrado que se otorgó a Lucias, que solía tener la bandera en los Caballeros sagrados de Lua."
   },
@@ -116,14 +116,14 @@
   },
   "s4": {
     "name": "Sacrificio sagrado",
-    "description": "Cura a todos los aliados, excepto al lanzador en {0} cuando el lanzador muere.",
+    "description": "Consume el 20 % de la salud actual al lanzar Camino de las bendiciones y Zona de fe. Cuando las habilidades se utilizan para curar a los aliados, la cantidad de salud restaurada se incrementa en {0} y el objetivo adquiere {1} de amplificación de defensa durante 10 s.",
     "books": {
       "0": "La tasa de Recuperacion aumenta en {0}%.",
       "1": "La tasa de Recuperacion aumenta en {0}%.",
       "2": "La tasa de Recuperacion aumenta en {0}%."
     },
-    "light": "Al activarlo, otorga inmunidad al daño y control de multitudes a todos los aliados excepto al lanzador durante 1.5 segundos.",
-    "dark": "Al activarlo, disipa los efectos negativos de todos los aliados, excepto el lanzador."
+    "light": "Aumenta la Tasa de curación en un 40 %.",
+    "dark": "Ya no se consume salud."
   },
   "t5": {
     "light": "ATQ, DEF, Salud+15% / Resist Ctrl de Masas +100",

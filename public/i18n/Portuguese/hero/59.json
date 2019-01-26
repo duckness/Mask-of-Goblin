@@ -36,12 +36,12 @@
   "uw": {
     "name": "Bênção de Luz, Benedicia",
     "description": [
-      "Durante 30 seg. após o início da batalha, reduz em 10% o DAN F. sofrido por todos os aliados e aumenta em 100 sua Vel. de ATQ.",
-      "Durante 30 seg. após o início da batalha, reduz em 12% o DAN F. sofrido por todos os aliados e aumenta em 120 sua Vel. de ATQ.",
-      "Durante 30 seg. após o início da batalha, reduz em 14% o DAN F. sofrido por todos os aliados e aumenta em 140 sua Vel. de ATQ.",
-      "Durante 30 seg. após o início da batalha, reduz em 17% o DAN F. sofrido por todos os aliados e aumenta em 170 sua Vel. de ATQ.",
-      "Durante 30 seg. após o início da batalha, reduz em 21% o DAN F. sofrido por todos os aliados e aumenta em 210 sua Vel. de ATQ.",
-      "Durante 30 seg. após o início da batalha, reduz em 25% o DAN F. sofrido por todos os aliados e aumenta em 250 sua Vel. de ATQ."
+      "Durante 30 seg, após o início da batalha, aumenta a Vel de ATQ de todos os aliados em 100 e o DAN contra inimigos Não Heróis em 6%, ao mesmo tempo em que reduz o DAN F. recebido em 10%.",
+      "Durante 30 seg, após o início da batalha, aumenta a Vel de ATQ de todos os aliados em 120 e o DAN contra inimigos Não Heróis em 7,2%, ao mesmo tempo em que reduz o DAN F. recebido em 12%.",
+      "Durante 30 seg, após o início da batalha, aumenta a Vel de ATQ de todos os aliados em 140 e o DAN contra inimigos Não Heróis em 8,6%, ao mesmo tempo em que reduz o DAN F. recebido em 14%.",
+      "Durante 30 seg, após o início da batalha, aumenta a Vel de ATQ de todos os aliados em 170 e o DAN contra inimigos Não Heróis em 10,4%, ao mesmo tempo em que reduz o DAN F. recebido em 17%.",
+      "Durante 30 seg, após o início da batalha, aumenta a Vel de ATQ de todos os aliados em 210 e o DAN contra inimigos Não Heróis em 12,5%, ao mesmo tempo em que reduz o DAN F. recebido em 21%.",
+      "Durante 30 seg, após o início da batalha, aumenta a Vel de ATQ de todos os aliados em 250 e o DAN contra inimigos Não Heróis em 15%, ao mesmo tempo em que reduz o DAN F. recebido em 25%."
     ],
     "story": "Uma bandeira abençoada que representa o Sol, a Lua e todo o céu. Ela contém o poder e os ensinos de quem a criou, Lua. O poder da luz se espalha quando ele balança a bandeira, tranquilizando seus aliados e derrotando os poderes da escuridão. Uma relíquia concedida a Lucias, que costumava ser um porta-bandeira dos Cavaleiros Sagrados de Lua."
   },
@@ -116,14 +116,14 @@
   },
   "s4": {
     "name": "Santo Sacrifício",
-    "description": "Cura todos os aliados, exceto o conjurador, em {0} quando o conjurador morre.",
+    "description": "Consome 20% do PV atual ao conjurar Caminho das Bênçãos e Zona da Fé. Quando as habilidades são utilizadas para curar aliados, a quantidade de PV restaurada é aumentada em {0} e os alvos recebem um reforço de DEF de {1} , por 10 seg.",
     "books": {
       "0": "Aumenta a taxa de Recuperação em {0}%.",
       "1": "Aumenta a taxa de Recuperação em {0}%.",
       "2": "Aumenta a taxa de Recuperação em {0}%."
     },
-    "light": "Ao ativar, concede imunidade a DAN e CM a todos os aliados, exceto ao conjurador, por 1.5 seg.",
-    "dark": "Ao ativar, remove todos os efeitos negativos de todos os aliados, exceto do conjurador."
+    "light": "Aumenta a Taxa de Cura em 40%.",
+    "dark": "O PV não é mais consumido."
   },
   "t5": {
     "light": "ATQ, DEF, PV+15% / Resist. CM +100",

@@ -47,7 +47,7 @@
   },
   "s1": {
     "name": "Smash",
-    "description": "Deals {0} P.DMG to enemies in range, and the first attack knocks them down for {1} sec.",
+    "description": "Deals {0} P.DMG to enemies within range, and the first attack knocks them down for {1} sec and reduces their ATK Spd by 250 for 10 sec.",
     "books": {
       "0": "DMG is increased by {0}%.",
       "1": "DMG is increased by {0}%.",
@@ -93,7 +93,7 @@
   },
   "s3": {
     "name": "Vortex",
-    "description": "Deals {0} P.DMG to all enemies in range. The last attack freezes enemies for {1} sec. Gains CC immunity while casting.",
+    "description": "Deals {0} P.DMG to nearby enemies with additional {1} P.DMG to Non-Hero enemies. The last attack freezes nearby enemies for {2} sec. Gains CC immunity while casting.",
     "books": {
       "0": "DMG is increased by {0}%.",
       "1": "DMG is increased by {0}%.",
@@ -116,7 +116,7 @@
   },
   "s4": {
     "name": "Enrage",
-    "description": "Upon attacking, ATK is increased by {1} for {0} sec. Can be stacked up to 10 times max.",
+    "description": "Upon attacking, increases ATK by {1} for {0} sec, and DMG to Non-Hero enemies by 3%. This effect can be stacked up to max 10 times.",
     "books": {
       "0": "ATK boost is increased by {0}%.",
       "1": "ATK boost is increased by {0}%.",

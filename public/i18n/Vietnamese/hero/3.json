@@ -36,25 +36,25 @@
   "uw": {
     "name": "Flenos, Ngọn lửa nguyên thủy",
     "description": [
-      "Mỗi 4 giây Mồi Lửa phát nổ giây sát thương phép thuật tương đương 80% lực tấn công lên đối thủ xung quanh.",
-      "Mỗi 4 giây Mồi Lửa phát nổ giây sát thương phép thuật tương đương 96% lực tấn công lên đối thủ xung quanh.",
-      "Mỗi 4 giây Mồi Lửa phát nổ giây sát thương phép thuật tương đương 114% lực tấn công lên đối thủ xung quanh.",
-      "Mỗi 4 giây Mồi Lửa phát nổ giây sát thương phép thuật tương đương 138% lực tấn công lên đối thủ xung quanh.",
-      "Mỗi 4 giây Mồi Lửa phát nổ giây sát thương phép thuật tương đương 166% lực tấn công lên đối thủ xung quanh.",
-      "Mỗi 4 giây Mồi Lửa phát nổ giây sát thương phép thuật tương đương 200% lực tấn công lên đối thủ xung quanh."
+      "Kỹ năng đánh trúng sẽ gây thêm Sát thương phép thuật tương đương 3% điểm Tấn công trên mỗi lần cộng dồn Mồi lửa mà kẻ địch dính phải.",
+      "Kỹ năng đánh trúng sẽ gây thêm Sát thương phép thuật tương đương 3,6% điểm Tấn công trên mỗi lần cộng dồn Mồi lửa mà kẻ địch dính phải.",
+      "Kỹ năng đánh trúng sẽ gây thêm Sát thương phép thuật tương đương 4,3% điểm Tấn công trên mỗi lần cộng dồn Mồi lửa mà kẻ địch dính phải.",
+      "Kỹ năng đánh trúng sẽ gây thêm Sát thương phép thuật tương đương 5,2% điểm Tấn công trên mỗi lần cộng dồn Mồi lửa mà kẻ địch dính phải.",
+      "Kỹ năng đánh trúng sẽ gây thêm Sát thương phép thuật tương đương 6,3% điểm Tấn công trên mỗi lần cộng dồn Mồi lửa mà kẻ địch dính phải.",
+      "Kỹ năng đánh trúng sẽ gây thêm Sát thương phép thuật tương đương 7,5% điểm Tấn công trên mỗi lần cộng dồn Mồi lửa mà kẻ địch dính phải."
     ],
     "story": "Bản chất Ngọn lửa đầu tiên trên thế giới. Chúa lửa đã trao viên ngọc tuyệt đẹp này cho một người giao kèo với mình. Qua nhiều thời đại, viên ngọc này rơi vào tay một pháp sư, người đã đưa viên ngọc vào nhân trong cây quyền trượng của mình. Sau này, pháp sư đã cho các học trò yêu quý của mình xem cây quyền trượng này."
   },
   "s1": {
     "name": "Kim lửa",
-    "description": "Tấn công một kẻ địch ngẫu nhiên 5 lần, gây tổng cộng {0} sát thương phép thuật và đặt một lần cộng dồn Mồi lửa lên kẻ địch trúng đòn.",
+    "description": "Tấn công một kẻ địch ngẫu nhiên 5 lần, gây tổng cộng {0} Sát thương phép thuật. Hồi phục 100 Mana cho bản thân khi có Đòn chí mạng.",
     "books": {
       "0": "Tăng {0}% sát thương.",
       "1": "Tăng {0}% sát thương.",
       "2": "Tăng {0}% sát thương."
     },
-    "light": "Lượng sát thương tăng 40%.",
-    "dark": "Cộng dồn thêm 2 đốm lửa.",
+    "light": "Khi tấn công hơn 5 kẻ địch, mức sát thương của kỹ năng giảm đi 50% nhưng mục tiêu của kỹ năng trở thành tất cả kẻ địch.",
+    "dark": "Làm choáng mục tiêu trong 1 giây.",
     "ut": {
       "name": "Đèn phượng hoàng",
       "description": [
@@ -70,63 +70,63 @@
   },
   "s2": {
     "name": "Cầu lửa",
-    "description": "Tấn công mục tiêu và kẻ địch gần đó, gây {0} sát thương phép thuật và làm choáng chúng trong 2 giây. Gây thêm {2} sát thương phép thuật cho mỗi lần cộng dồn Mồi lửa lên kẻ địch.",
+    "description": "Tấn công mục tiêu và kẻ địch gần mục tiêu, gây {0} Sát thương phép thuật và làm choáng chúng trong 2 giây. Gây thêm {1} Sát thương phép thuật lên Boss.",
     "books": {
       "0": "Tăng {0}% sát thương.",
       "1": "Tăng {0}% sát thương.",
       "2": "Tăng {0}% xác suất chí mạng."
     },
-    "light": "Lượng sát thương tăng 40%.",
-    "dark": "Tăng 1 lượng tiêu thị mana, tấn công 2 lần đối thủ tùy ý.",
+    "light": "Khi đánh trúng một kẻ địch có 10 lần cộng dồn Mồi lửa trở lên, tăng 40% Sát thương phép thuật mà kẻ địch phải nhận trong 10 giây.",
+    "dark": "Để lại 10 lần cộng dồn Mồi lửa lên kẻ địch trúng đòn.",
     "ut": {
       "name": "Thần dược của Flamel",
       "description": [
-        "[Cầu lửa] Tăng 20% Sát thương và để lại 5 lần cộng dồn Mồi lửa trên kẻ địch bị ảnh hưởng.",
-        "[Cầu lửa] Tăng 24% Sát thương và để lại 5 lần cộng dồn Mồi lửa trên kẻ địch bị ảnh hưởng.",
-        "[Cầu lửa] Tăng 29% Sát thương và để lại 5 lần cộng dồn Mồi lửa trên kẻ địch bị ảnh hưởng.",
-        "[Cầu lửa] Tăng 35% Sát thương và để lại 5 lần cộng dồn Mồi lửa trên kẻ địch bị ảnh hưởng.",
-        "[Cầu lửa] Tăng 42% Sát thương và để lại 5 lần cộng dồn Mồi lửa trên kẻ địch bị ảnh hưởng.",
-        "[Cầu lửa] Tăng 50% Sát thương và để lại 5 lần cộng dồn Mồi lửa trên kẻ địch bị ảnh hưởng."
+        "[Cầu lửa] Giảm 1 điểm Tiêu hao mana và tăng 20% Sát thương.",
+        "[Cầu lửa] Giảm 1 điểm Tiêu hao mana và tăng 24% Sát thương.",
+        "[Cầu lửa] Giảm 1 điểm Tiêu hao mana và tăng 29% Sát thương.",
+        "[Cầu lửa] Giảm 1 điểm Tiêu hao mana và tăng 35% Sát thương.",
+        "[Cầu lửa] Giảm 1 điểm Tiêu hao mana và tăng 42% Sát thương.",
+        "[Cầu lửa] Giảm 1 điểm Tiêu hao mana và tăng 50% Sát thương."
       ],
       "story": "Một loại thần dược mà nhà giả kim lửa Flamel tạo ra bằng cách cô đọng tinh chất lửa. Những ngọn lửa của Flamel cháy mãi. Phù thủy nào cũng tán dương ông khi thấy những ngọn lửa này. Tinh chất lửa mà ông tạo ra từ giống rồng lửa ở Núi lửa Dragia tăng tối đa hiệu ứng của Cầu lửa."
     }
   },
   "s3": {
     "name": "Mưa lửa",
-    "description": "Tấn công tất cả kẻ địch 8 lần, gây tổng cộng {0} sát thương phép thuật và đặt một lần cộng dồn Mồi lửa lên chúng. Gây thêm {1} sát thương phép thuật cho mỗi lần cộng dồn Mồi lửa lên kẻ địch.",
+    "description": "Tấn công tất cả kẻ địch 5 lần, gây tổng cộng {0} Sát thương phép thuật. Đòn tấn công này gây thêm 150% Sát thương chí mạng.",
     "books": {
       "0": "Tăng {0}% sát thương.",
       "1": "Tăng {0}% sát thương.",
       "2": "Tăng {0}% sát thương."
     },
-    "light": "Thời gian đợi dùng chiêu lại giảm 3 giây.",
-    "dark": "Kẻ địch bị dính trên 5 đốm lửa sẽ bị ngất xỉu trong 1 giây.",
+    "light": "Tăng 40% Sát thương.",
+    "dark": "Giảm 2 điểm Tiêu hao mana trong 10 giây khi tấn công hơn 5 kẻ địch. Thời gian hồi chiêu là 10 giây.",
     "ut": {
       "name": "Sách phép chuộc tội",
       "description": [
-        "Lượng sát thương [Mưa lửa] tăng 20%, nếu ra đòn chí mạng lên đối tượng có trên 5 cộng dồn Thiêu đốt, thời gian đợi hồi chiêu giảm 3%.",
-        "Lượng sát thương [Mưa lửa] tăng 24%, nếu ra đòn chí mạng lên đối tượng có trên 5 cộng dồn Thiêu đốt, thời gian đợi hồi chiêu giảm 3%.",
-        "Lượng sát thương [Mưa lửa] tăng 29%, nếu ra đòn chí mạng lên đối tượng có trên 5 cộng dồn Thiêu đốt, thời gian đợi hồi chiêu giảm 3%.",
-        "Lượng sát thương [Mưa lửa] tăng 35%, nếu ra đòn chí mạng lên đối tượng có trên 5 cộng dồn Thiêu đốt, thời gian đợi hồi chiêu giảm 3%.",
-        "Lượng sát thương [Mưa lửa] tăng 42%, nếu ra đòn chí mạng lên đối tượng có trên 5 cộng dồn Thiêu đốt, thời gian đợi hồi chiêu giảm 3%.",
-        "Lượng sát thương [Mưa lửa] tăng 50%, nếu ra đòn chí mạng lên đối tượng có trên 5 cộng dồn Thiêu đốt, thời gian đợi hồi chiêu giảm 3%."
+        "Lượng sát thương [Mưa lửa] tăng 20%, nếu ra đòn chí mạng lên đối tượng có trên 5 cộng dồn Thiêu đốt, thời gian đợi hồi chiêu giảm 5%.",
+        "Lượng sát thương [Mưa lửa] tăng 24%, nếu ra đòn chí mạng lên đối tượng có trên 5 cộng dồn Thiêu đốt, thời gian đợi hồi chiêu giảm 5%.",
+        "Lượng sát thương [Mưa lửa] tăng 29%, nếu ra đòn chí mạng lên đối tượng có trên 5 cộng dồn Thiêu đốt, thời gian đợi hồi chiêu giảm 5%.",
+        "Lượng sát thương [Mưa lửa] tăng 35%, nếu ra đòn chí mạng lên đối tượng có trên 5 cộng dồn Thiêu đốt, thời gian đợi hồi chiêu giảm 5%.",
+        "Lượng sát thương [Mưa lửa] tăng 42%, nếu ra đòn chí mạng lên đối tượng có trên 5 cộng dồn Thiêu đốt, thời gian đợi hồi chiêu giảm 5%.",
+        "Lượng sát thương [Mưa lửa] tăng 50%, nếu ra đòn chí mạng lên đối tượng có trên 5 cộng dồn Thiêu đốt, thời gian đợi hồi chiêu giảm 5%."
       ],
       "story": "Một cuộn giấy do nữ phù thủy lửa viết, được gọi là Nữ thần lửa. Một cuộn giấy của Vesta, Nữ phù thủy lửa vĩ đại của Orvelia để lại khi ở trong Tháp hiền triết. Nó có uy lực mạnh nhưng cũng tốn nhiều mana. Cleo lấy Cuộn giấy hỏa ngục, được xem là tài liệu cấm, ra khỏi Tháp hiền triết. Giờ đây, cô ấy dùng nó để cường hóa chiêu Mưa lửa."
     }
   },
   "s4": {
     "name": "Khuếch tán lửa",
-    "description": "Đòn tấn công thường có 20% cơ hội tấn công 3 kẻ địch ngẫu nhiên, gây {0} sát thương phép thuật lên mục tiêu và kẻ địch gần đó, đồng thời đặt 1 lần cộng dồn Mồi lửa. Mồi lửa gây tổng cộng {1} sát thương phép thuật trong 20 giây và làm giảm 5% phòng thủ phép thuật cũng như cộng dồn tối đa 5 lần.",
+    "description": "Gây một lần cộng dồn Mồi lửa khi đánh trúng kẻ địch. Kẻ địch dính Mồi lửa nhận thêm {1} Sát thương phép thuật trong 20 giây. Mồi lửa có thể cộng dồn tối đa 10 lần.",
     "books": {
       "0": "Tăng {0}% sát thương.",
       "1": "Tăng {0}% sát thương.",
-      "2": "Khi ra đòn chí mạng cộng đồn mỗi 2 lần mồi lửa."
+      "2": "Tăng {0}% sát thương."
     },
-    "light": "Số lượng cộng dồn đốm lửa tối đa thay đổi thành 6.",
-    "dark": "Xác suất kích hoạt đổi thành 30%."
+    "light": "Số lần cộng dồn tối đa của Mồi lửa đổi thành 12.",
+    "dark": "Mỗi 10 giây, làm choáng kẻ địch dính Mồi lửa trong 2 giây. Kẻ địch dính hơn 10 lần cộng dồn Mồi lửa bị choáng trong 3 giây."
   },
   "t5": {
     "light": "ATK, DEF, HP+15% / Crit Chance +100",
-    "dark": "Tăng 200% lượng sát thương của Đốm lửa."
+    "dark": "Gây 2 lần cộng dồn Mồi lửa lên tất cả kẻ địch không phải Anh hùng mỗi giây."
   }
 }

@@ -1,0 +1,136 @@
+{
+  "name": "Lavril",
+  "subtitle": "Espíritu maligno adorable",
+  "description": "Una espectro nacida de la amalgama de innumerables vidas que perecieron de manera injusta. A pesar de su origen, Lavril sorprende con su inocencia e ingenuidad. Y usa los poderes espectrales para extraer la energía vital de los enemigos.",
+  "story": "Una espectro nada convencional. Quienes la ven piensan que solo es el fantasma de una joven, pero no es una entidad espectral individual: es la amalgama de innumerables almas. Con la energía espectral que domina, tiene el poder suficiente para hacer temblar las almas y lanzar hechizos a voluntad. Claro, si fuera un fantasma común y corriente. Algunos sostienen que es una fantasma nacida de la amalgama de las almas juveniles que murieron en la Guerra de los Demonios hace 100 años, pero las almas de los niños, de igual manera que cuando están con vida, son demasiado puras e inocentes como para guardar rencores. Como Lavril nació de estas, es una entidad con una mente amable. Sin embargo, no hay que olvidar la naturaleza de su existencia: la amalgama de niños fantasma. Un niño es como una hoja en blanco y el niño será lo que se dibuje en ella. Sin alguien que la guíe, podría ser una amenaza terrible para el mundo.",
+  "like": "Personas que podrían ser amigos, animales, poblados alegres.",
+  "dislike": "Personas que dan miedo, que las consideran fenómenos o monstruos.",
+  "inn": {
+    "idle": "Ah... eh... hay demasiados extraños aquí...",
+    "recruit": {
+      "greet": "Ho-hola...",
+      "talk": [
+        "P-p-por favor, no sean malos conmigo...",
+        "Somos buenos... no nos odies...",
+        "Q-quédate un poco más con nosotros, ¿quieres?"
+      ],
+      "gift": "¿Eh? ¡G-gracias!"
+    },
+    "affinity": {
+      "greet": "Eh... estamos aquí...",
+      "talk": [
+        "T-tenemos miedo... y frío...",
+        "Ah... nos sentimos solos... no es justo... ¿Quiénes somos?"
+      ],
+      "gift": "G-gracias. No te vayas. Quédate con nosotros..."
+    },
+    "relationship": {
+      "greet": "Je, je... Me alegra que estés aquí. ¿Qué quieres hacer hoy?",
+      "talk": [
+        "La gente de la Iglesia de Lua me asusta, pero sé que no son malos... Je.",
+        "A la gente le gusta hacer amistad con hadas y elementales, pero... ¿alguien querrá hacerse amigo de los fantasmas?",
+        "T-tú eres amigable... Je, je. Nos gustas. Quédate con nosotros."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Dunn Nemecia, alma vacua",
+    "description": [
+      "Cuando se usa esta habilidad, obtiene [Alma vacua] por 1 segundo y esquiva todos los ataques. Este efecto se activa una vez cada 10 s. Aumenta el Daño crítico del aliado con Vínculo de alma en 30 %.",
+      "Cuando se usa esta habilidad, obtiene [Alma vacua] por 1,2 s y esquiva todos los ataques. Este efecto se activa una vez cada 10 s. Aumenta el Daño crítico del aliado con Vínculo de alma en 36 %.",
+      "Cuando se usa esta habilidad, obtiene [Alma vacua] por 1,4 s y esquiva todos los ataques. Este efecto se activa una vez cada 10 s. Aumenta el Daño crítico del aliado con Vínculo de alma en 42 %.",
+      "Cuando se usa esta habilidad, obtiene [Alma vacua] por 1,7 s y esquiva todos los ataques. Este efecto se activa una vez cada 10 s. Aumenta el Daño crítico del aliado con Vínculo de alma en 51 %.",
+      "Cuando se usa esta habilidad, obtiene [Alma vacua] por 2,1 s y esquiva todos los ataques. Este efecto se activa una vez cada 10 s. Aumenta el Daño crítico del aliado con Vínculo de alma en 63 %.",
+      "Cuando se usa esta habilidad, obtiene [Alma vacua] por 2,5 s y esquiva todos los ataques. Este efecto se activa una vez cada 10 s. Aumenta el Daño crítico del aliado con Vínculo de alma en 75 %."
+    ],
+    "story": "Otra entidad espectral que se escindió de Lavril. A diferencia de la amable Lavril, Dunn Nemecia es la amalgama de las almas negativas y agresivas que estaban dentro de ella. Por suerte, este fantasma tierno pero aterrador oculta su lado maligno la mayor parte del tiempo y usa los poderes solo cuando el huésped lo requiere o cuando percibe una amenaza. Pero no hay que olvidar que este fantasma peculiar no es una entidad inofensiva. Sus travesuras son maliciosas, como dejar juguetes duros y aguzados alrededor de alguien que duerme, tirar al piso un plato de comida recién servido y hacer zancadillas a los transeúntes, pero... Podría hacer mucho más que solo «travesuras» si no fuera por el control de Lavril."
+  },
+  "s1": {
+    "name": "¡V-vete!",
+    "description": "Causa {0} de Daño mágico y reduce la resistencia a crítico en 300 por 10 s. Los enemigos alcanzados son afectados por Ectoplasma de Lavril por 5 s y reciben {1} de Daño mágico cada 0,5 s. Cada vez que un enemigo recibe daño de esta habilidad, se cura la salud de todos los aliados en {2}  % del daño causado.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Aumenta el Daño mágico que recibe el objetivo en 25 %.",
+    "dark": "Recupera 1 orbe de Mana cuando muere el objetivo y se restablece el tiempo de reutilización de la habilidad.",
+    "ut": {
+      "name": "Carta de tarot de la luna",
+      "description": [
+        "[¡V-vete!] aumenta el daño en 50 % y reduce la Tasa de curación de los enemigos alcanzados en 20 %.",
+        "[¡V-vete!] aumenta el daño en 50 % y reduce la Tasa de curación de los enemigos alcanzados en 24 %.",
+        "[¡V-vete!] aumenta el daño en 50 % y reduce la Tasa de curación de los enemigos alcanzados en 29 %.",
+        "[¡V-vete!] aumenta el daño en 50 % y reduce la Tasa de curación de los enemigos alcanzados en 35 %.",
+        "[¡V-vete!] aumenta el daño en 50 % y reduce la Tasa de curación de los enemigos alcanzados en 42 %.",
+        "[¡V-vete!] aumenta el daño en 50 % y reduce la Tasa de curación de los enemigos alcanzados en 50 %."
+      ],
+      "story": "Entrada la noche, Lavril encontró la tienda de una clarividente ambulante. Unas criaturas desconocidas revoloteaban a su alrededor y creaban un ambiente extraño que incomodaba a Lavril. La clarividente sintió su presencia y la recibió. —Bienvenida a la tienda de clarividencia Stardust. ¿Qué deseas saber? Viendo la sonrisa de la clarividente, Lavril habló con timidez. —Q-queremos un amigo. Un amigo diferente de nosotros... Un amigo que respire, que podamos tocar... ¿D-dónde podríamos encontrar un amigo así? La clarividente, sin perder la sonrisa, le entregó una carta. Esta tenía un grabado de la luna y un dibujo de una criatura poderosa en la superficie. Aterrada, Lavril trató de soltar la carta, pero sintió que la criatura aceptaba su toque, como si aliviara su ansiedad. Era una sensación muy extraña, Lavril quedó perpleja, pero enseguida sintió la calma. Entonces, la clarividente puso las manos sobre las de Lavril —No busques muy lejos. ¿No somos buenas amigas ya? Apenas terminó la oración, la clarividente comenzó a mover las cartas, una por una, mientras sostenía las manos de Lavril. Las cartas le hablaban en silencio a la clarividente, como si quisieran hacer realidad el deseo desesperado de Lavril. En un instante, quedaron todas las cartas desplegadas en orden y la clarividente habló sonriente. —Parece que les agradas a estos niños y niñas. Me dicen que conocerás muchísimas personas que serán tus afectos. Más temprano que tarde conocerás a los amigos que tanto has estado esperando."
+    }
+  },
+  "s2": {
+    "name": "¡Arriba!",
+    "description": "Cura la salud de un aliado con el mayor ATQ en {0} y {2} adicional de salud cada {1} s por 15 s. Aumenta el Daño crítico del aliado en 50 % + 15 % del Daño crítico de Lavril por 15 s. [¡Me asustas!] queda disponible por {3} s después de usar esta habilidad.",
+    "books": {
+      "0": "Aumenta la Recuperacion y el Daño en {0}%.",
+      "1": "Aumenta la Recuperacion y el Daño en {0}%.",
+      "2": "Aumenta la Recuperacion y el Daño en {0}%."
+    },
+    "light": "[¡Arriba!] mantiene la salud del objetivo por encima de 5 % mientras dure la habilidad. [¡Me asustas!] disipa los efectos positivos del objetivo.",
+    "dark": "[¡Arriba!] Aumenta el Ataque del objetivo en un 20 % mientras una habilidad esté activa. [¡Me asustas!] - Aumenta el objetivo en 1.",
+    "ut": {
+      "name": "Fragancia de hada",
+      "description": [
+        "[¡Arriba!] aumenta la Tasa de curación en 50 % y el Daño crítico en 20 %. [¡Me asustas!] aumenta el daño en 50 % y reduce la Defensa mágica del objetivo en 10 %.",
+        "[¡Arriba!] aumenta la Tasa de curación en 50 % y el Daño crítico en 24 %. [¡Me asustas!] aumenta el daño en 50 % y reduce la Defensa mágica del objetivo en 12 %.",
+        "[¡Arriba!] aumenta la Tasa de curación en 50 % y el Daño crítico en 29 %. [¡Me asustas!] aumenta el daño en 50 % y reduce la Defensa mágica del objetivo en 14 %.",
+        "[¡Arriba!] aumenta la Tasa de curación en 50 % y el Daño crítico en 35 %. [¡Me asustas!] aumenta el daño en 50 % y reduce la Defensa mágica del objetivo en 17 %.",
+        "[¡Arriba!] aumenta la Tasa de curación en 50 % y el Daño crítico en 42 %. [¡Me asustas!] aumenta el daño en 50 % y reduce la Defensa mágica del objetivo en 21 %.",
+        "[¡Arriba!] aumenta la Tasa de curación en 50 % y el Daño crítico en 50 %. [¡Me asustas!] aumenta el daño en 50 % y reduce la Defensa mágica del objetivo en 25 %."
+      ],
+      "story": "Un día de sol, Lavril paseaba tímida en las afueras de un poblado. Quería entrar y hacer amigos, pero el recuerdo reciente de los clérigos de Lua que la expulsaron se lo impedía. Entonces, oyó un canto alegre cerca de los canteros florales en la periferia del poblado. Con curiosidad, se movió despacio en dirección hacia el origen de la voz. Una jovencita cantaba y tocaba el arpa entre las flores y los niños, los animales y hasta las hadas danzaban al son de la música. Cautivada por la escena, se encontró avanzando hacia los canteros sin darse cuenta. Apenas puso un pie en el lugar, las hadas y los animales chillaron atemorizados y huyeron y los niños rompieron en llanto. Eran muy sensibles a la energía y se sintieron amenazados con la presencia de Lavril. La jovencita, sin embargo, reaccionó de manera muy diferente. Tranquilizó a las criaturas, tomó unas flores a su alrededor y se las entregó a Lavril. Con las flores en mano, a Lavril se le dibujó una sonrisa dichosa por sentirse aceptada. Entonces, los animales, las hadas y los niños la recibieron con alegría cuando entendieron que Lavril no los lastimaría."
+    },
+    "linked": {
+      "name": "¡Me asustas!",
+      "description": "Causa {0} de Daño mágico y reduce la Velocidad de ataque en 250 por 15 s mientras aumenta el Daño mágico que recibe en 25 %."
+    }
+  },
+  "s3": {
+    "name": "¡Déjame en paz!",
+    "description": "Invoca un Tornado espectral amplio hacia adelante que causa {0} de Daño mágico cada 0,5 s por 5 s. Cada golpe reduce el ATQ de los enemigos alcanzados en {1}  % por 5 s y aumenta el Daño mágico que reciben en {2}  %. Este efecto se acumula hasta 15 veces.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Reduce el tiempo de reutilización en 30 %.",
+    "dark": "Reduce en 1 el costo de mana.",
+    "ut": {
+      "name": "Protección bendita",
+      "description": [
+        "[¡Déjame en paz!] La duración de la habilidad aumenta en 1 s y cada golpe aumenta el Daño mágico que recibe el objetivo en 1 %.",
+        "[¡Déjame en paz!] La duración de la habilidad aumenta en 1 s y cada golpe aumenta el Daño mágico que recibe el objetivo en 1,2 %.",
+        "[¡Déjame en paz!] La duración de la habilidad aumenta en 1 s y cada golpe aumenta el Daño mágico que recibe el objetivo en 1,4 %.",
+        "[¡Déjame en paz!] La duración de la habilidad aumenta en 1 s y cada golpe aumenta el Daño mágico que recibe el objetivo en 1,7 %.",
+        "[¡Déjame en paz!] La duración de la habilidad aumenta en 1 s y cada golpe aumenta el Daño mágico que recibe el objetivo en 2,1 %.",
+        "[¡Déjame en paz!] La duración de la habilidad aumenta en 1 s y cada golpe aumenta el Daño mágico que recibe el objetivo en 2,5 %."
+      ],
+      "story": "Cuando apareció Lavril, la gente la veía como un fantasma espeluznante y hizo correr rumores sobre ella. La Iglesia de Lua llamó a los altos clérigos cercanos para que se encarguen de ella. Lucias, el Santo de las bendiciones, y Baudouin, el inconformista, respondieron al llamado. Cuando supieron de Lavril, la rastrearon con rapidez y la confrontaron. Apenas la vieron, se dieron cuenta de que no era un fantasma común, sino la amalgama de niños fantasmas. Supieron al instante que no representaba una amenaza. Sin embargo, la iglesia se había pronunciado. Los fantasmas deben ser exorcizados y, como clérigos, ellos debían purificarla y guiarla adonde pertenecía. Lucias tuvo una idea diferente. Lavril era un alma pura que no merecía un exorcismo y Lucias quería que pase al próximo reino cuando llegara el debido momento, como dicta la ley natural. Lucias sacó un pañuelo, secó las lágrimas del rostro de Lavril y le indicó el camino hacia la luz y las enseñanzas de Lua. Este pañuelo le recuerda a Lucias, es la luz que la guía cuando está en problemas."
+    }
+  },
+  "s4": {
+    "name": "Juntos para siempre...",
+    "description": "Al inicio de la primera batalla, forma un Vínculo de alma con un aliado que tenga el mayor ATQ. Este efecto no se puede disipar. Mientras haya unión mediante el Vínculo de alma, el aliado recupera {1} de mana cada segundo con un aumento de ATQ de {0}.",
+    "books": {
+      "0": "El poder de ATQ aumenta en  {0}%.",
+      "1": "El poder de ATQ aumenta en  {0}%.",
+      "2": "El poder de ATQ aumenta en  {0}%."
+    },
+    "light": "Aumenta la penetración de defensa del aliado con Vínculo de alma en {0}.",
+    "dark": "Aumenta toda la defensa del aliado con Vínculo de alma en {0}%."
+  },
+  "t5": {
+    "light": "ATQ, DEF, Salud+15% / Daño Crit+20%",
+    "dark": "Cuando recibe un golpe, aumenta el ataque del aliado con Vínculo de alma en 3 %. Este efecto se acumula hasta 20 veces."
+  }
+}
