@@ -278,18 +278,15 @@ const h = {
         Vue.i18n.translate(prefix + ".books.2", s.books[2])
       ]
     };
-    // only s1, s2 and s3 have treasures for now
-    if (skillNum === "s1" || skillNum === "s2" || skillNum === "s3") {
-      d.treasure = {
-        image: require("@/components/hero/images/" +
-          state.heroID +
-          "/" +
-          skillNum +
-          "UT.png"),
-        name: Vue.i18n.translate(prefix + ".ut.name"),
-        description: Vue.i18n.translate(prefix + ".ut.description")
-      };
-    }
+    d.treasure = {
+      image: require("@/components/hero/images/" +
+        state.heroID +
+        "/" +
+        skillNum +
+        "UT.png"),
+      name: Vue.i18n.translate(prefix + ".ut.name"),
+      description: Vue.i18n.translate(prefix + ".ut.description")
+    };
     // additional stats that may or may not be in data.json
     h.addIfExists(d, s, "mana");
     h.addIfExists(d, s, "cooldown");
@@ -320,10 +317,10 @@ const h = {
       (Math.floor(
         (state.data.scaling.star[state.star] *
           state.data.scaling.level[state.level]) /
-          1000
+        1000
       ) *
         baseVal) /
-        1000
+      1000
     );
   },
   levelValidation: function (level) {
@@ -403,7 +400,7 @@ const store = new Vuex.Store({
 Vue.use(vuexI18n.plugin, store, {
   moduleName: "i18n",
   // eslint-disable-next-line
-  async onTranslationNotFound(locale) {
+  async onTranslationNotFound (locale) {
     // return await h.changeLocale(locale);
   }
 });
