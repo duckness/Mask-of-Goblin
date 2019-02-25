@@ -1,0 +1,144 @@
+{
+  "name": "Dosarta",
+  "subtitle": "Wind of Purity",
+  "description": "An Elven princess guarding the Tower of Challenge located in Elidora Kingdom. She knows about Ancient Artifacts and the power in them better than anyone.",
+  "story": "A sentinel of Elidora Kingdom guarding the Tower of Challenge. According to the rules, those from a royal family in the position of guardian almost never get released from their duty before their service ends, but desperate times call for all sorts of exceptions. Dosarta was allowed to leave the Tower of Challenge to carry out missions if need be, and now she's determined to use the opportunity to make a lot of friends. How many friends could this Elven guardian make?",
+  "like": "Whispers of Elementals, Selene, making friends",
+  "dislike": "Loneliness, boredom",
+  "inn": {
+    "idle": "Oh, hello there! What story do you have for me this time?",
+    "recruit": {
+      "greet": "",
+      "talk": [
+        "",
+        "",
+        ""
+      ],
+      "gift": ""
+    },
+    "affinity": {
+      "greet": "Ancient Artifacts are really interesting! Are they dangerous? *Giggle* Well, not to me!",
+      "talk": [
+        "Selene can be a bit scary, but she's also really nice and caring!",
+        "Oh, thank you! I'll prepare a gift for you next time!"
+      ],
+      "gift": "Hehe, Glad to see you again!"
+    },
+    "relationship": {
+      "greet": "Oh, human food is really interesting!",
+      "talk": [
+        "So, this is what a human town is like. Heh heh, it's so lively and crowded. I love it!",
+        "Snack, snack, snack break! Ah, would you like to have some?",
+        "I was a little lonely at the Tower of Challenge, but I'm not anymore!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Ancient Valor, Seliere",
+    "description": [
+      "At the beginning of each battle, increases ATK of all allies by 10%, all DEF by 20%, and reduces the Mana Cost of the next Skill used by self by 1 for 10 sec. This effect cannot be dispelled.",
+      "At the beginning of each battle, increases ATK of all allies by 12%, all DEF by 24%, and reduces the Mana Cost of the next Skill used by self by 1 for 11 sec. This effect cannot be dispelled.",
+      "At the beginning of each battle, increases ATK of all allies by 14%, all DEF by 29%, and reduces the Mana Cost of the next Skill used by self by 1 for 12 sec. This effect cannot be dispelled.",
+      "At the beginning of each battle, increases ATK of all allies by 17%, all DEF by 35%, and reduces the Mana Cost of the next Skill used by self by 1 for 13 sec. This effect cannot be dispelled.",
+      "At the beginning of each battle, increases ATK of all allies by 21%, all DEF by 42%, and reduces the Mana Cost of the next Skill used by self by 1 for 14 sec. This effect cannot be dispelled.",
+      "At the beginning of each battle, increases ATK of all allies by 25%, all DEF by 50%, and reduces the Mana Cost of the next Skill used by self by 1 for 15 sec. This effect cannot be dispelled."
+    ],
+    "story": "An ancient shield made with a drawing found in the Tower of Challenge and Artifact Pieces that were left over after restoration. The shield holds ancient protective spells, whose limits remain unknown to the world. Even Dosarta herself is not fully acquainted with its powers, but she doesn't really care either. 'I have plenty of time to play around with it and figure out what it does,' was what she said. Guarding the Tower of Challenge was so boring that even training her skills became a pastime for her."
+  },
+  "s1": {
+    "name": "This Will Hurt!",
+    "description": "After increasing CC Resist of allies within self's range by {4} for 10 sec, attacks enemies to deal {0} M.DMG and causes them to take {2}% increased M.DMG for {1} sec. Hit enemies become unable to recover Mana for {3} sec.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Recovers 1 orb of Mana of allies within range.",
+    "dark": "Reduces a target's M.Block by 500 for 5 sec.",
+    "ut": {
+      "name": "Bracelet of Elidora",
+      "description": [
+        "[This Will Hurt!] Increases Heal Rate of allies within range by 20% for 4 sec and reduces Heal Rate of hit enemies by 50% for 4 sec.",
+        "[This Will Hurt!] Increases Heal Rate of allies within range by 24% for 4 sec and reduces Heal Rate of hit enemies by 50% for 4 sec.",
+        "[This Will Hurt!] Increases Heal Rate of allies within range by 29% for 4 sec and reduces Heal Rate of hit enemies by 50% for 4 sec.",
+        "[This Will Hurt!] Increases Heal Rate of allies within range by 35% for 4 sec and reduces Heal Rate of hit enemies by 50% for 4 sec.",
+        "[This Will Hurt!] Increases Heal Rate of allies within range by 42% for 4 sec and reduces Heal Rate of hit enemies by 50% for 4 sec.",
+        "[This Will Hurt!] Increases Heal Rate of allies within range by 50% for 4 sec and reduces Heal Rate of hit enemies by 50% for 4 sec."
+      ],
+      "story": "A pair of blue bracelets that resembles the thick and lively forest of Elidora. One of the hobbies that Dosarta took up in her lonely hours in the Tower of Challenge was handicraft, and this powerful magical tool is filled with the vitality of Elidora. Dosarta thinks that they're merely a pair of pretty-looking accessories though..."
+    }
+  },
+  "s2": {
+    "name": "On Guard!",
+    "description": "Dispels negative effects from all allies and increases P.DEF by {1} + 4% of Dosarta's ATK for {0} sec.",
+    "books": {
+      "0": "DEF boost is increased by {0}%.",
+      "1": "DEF boost is increased by {0}%.",
+      "2": "DEF boost is increased by {0}%."
+    },
+    "light": "Reduces Mana Cost by 1.",
+    "dark": "Mana Cost increases by 1 and gains immunity to CC for 2 sec.",
+    "ut": {
+      "name": "Crystal of the Forest",
+      "description": [
+        "[On Guard!] Increases DEF Boost by 50%, and increases Crit Chance by 200 for 5 sec.",
+        "[On Guard!] Increases DEF Boost by 50%, and increases Crit Chance by 240 for 5 sec.",
+        "[On Guard!] Increases DEF Boost by 50%, and increases Crit Chance by 290 for 5 sec.",
+        "[On Guard!] Increases DEF Boost by 50%, and increases Crit Chance by 350 for 5 sec.",
+        "[On Guard!] Increases DEF Boost by 50%, and increases Crit Chance by 420 for 5 sec.",
+        "[On Guard!] Increases DEF Boost by 50%, and increases Crit Chance by 500 for 5 sec."
+      ],
+      "story": "An ancient crystal orb passed down in the royal family of Elidora. It's a magical tool made with Artifact Pieces by the royal Elves running the Tower of Challenge. It is said that the owner of this crystal orb can talk to anyone in the world remotely, wherever they are. To respond to any contingencies in the Tower of Challenge, the royal family made it a rule that only the manager of the Tower of Challenge can keep it in possession. Despite its strategic and historical importance, the crystal is nothing but a means of communication to Dosarta that she uses to have casual conversations with her big sister, Selene."
+    }
+  },
+  "s3": {
+    "name": "Hya! Kya! Take this!",
+    "description": "Attacks a target 4 times, dealing a total of {0} M.DMG and stunning it for {1} sec. Afterward, launches a final attack on frontal enemies within range, dealing {2} M.DMG and pulling them to the center. Against Non-Hero enemies, each attack deals additional {3} M.DMG that ignores DEF.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Gains immunity to CC for the duration of skill.",
+    "dark": "Increases the amount of M.DMG that a target takes by 25% for 10 sec.",
+    "ut": {
+      "name": "Wind Elemental's Nest",
+      "description": [
+        "[Hya! Kya! Take This!] Increases ACC by 750 and CC ACC by 300 for the duration of skill.",
+        "[Hya! Kya! Take This!] Increases ACC by 750 and CC ACC by 360 for the duration of skill.",
+        "[Hya! Kya! Take This!] Increases ACC by 750 and CC ACC by 430 for the duration of skill.",
+        "[Hya! Kya! Take This!] Increases ACC by 750 and CC ACC by 520 for the duration of skill.",
+        "[Hya! Kya! Take This!] Increases ACC by 750 and CC ACC by 630 for the duration of skill.",
+        "[Hya! Kya! Take This!] Increases ACC by 750 and CC ACC by 750 for the duration of skill."
+      ],
+      "story": "An ornament that Dosarta made to play with Wind Elementals while guarding the Tower of Challenge all alone. She ground the Mana stones that the elementals like, added the powder into the metal treated with Elven magic, and infused it with Rune Magic. Maybe the effort put into this plaything was a little bit too much. It restores the natural powers of elementals. However, rumor has it that Dosarta was downhearted when the Elementals came and did nothing but sit around near it without doing anything fun with its maker."
+    }
+  },
+  "s4": {
+    "name": "Let Us Challenge Together!",
+    "description": "Upon blocking, reduces Cooldown of self's active Skills by {0} sec and increases P.DEF of self by {2} + 1% of Dosarta's ATK for {1} sec. A {3} -sec Cooldown will be applied.",
+    "books": {
+      "0": "DEF boost is increased by {0}%.",
+      "1": "DEF boost is increased by {0}%.",
+      "2": "DEF boost is increased by {0}%."
+    },
+    "light": "DEF Boost effects become irremovable.",
+    "dark": "Cooldown changes to 4 sec.",
+    "ut": {
+      "name": "Feather of Wind",
+      "description": [
+        "[Let Us Challenge Together!] P.DEF Boost is applied to all allies and adds 6% P.DMG Reduction Effect for the duration of Skill.",
+        "[Let Us Challenge Together!] P.DEF Boost is applied to all allies and adds 7% P.DMG Reduction Effect for the duration of Skill.",
+        "[Let Us Challenge Together!] P.DEF Boost is applied to all allies and adds 8% P.DMG Reduction Effect for the duration of Skill.",
+        "[Let Us Challenge Together!] P.DEF Boost is applied to all allies and adds 10% P.DMG Reduction Effect for the duration of Skill.",
+        "[Let Us Challenge Together!] P.DEF Boost is applied to all allies and adds 12% P.DMG Reduction Effect for the duration of Skill.",
+        "[Let Us Challenge Together!] P.DEF Boost is applied to all allies and adds 15% P.DMG Reduction Effect for the duration of Skill."
+      ],
+      "story": "Aulen, the Bird of Wind, is a symbol of the royal family of Elidora. Its blue feathers are known to raise a soft, refreshing wind. Selene used to have a pet Aulen that Dosarta took great care of. When Dosarta left her home to the Tower of Challenge, Selene made this quill with a feather from her beloved Aulen to make her feel close to it all the time. Dosarta has never used it since she got it, and she just keeps it in a safe place."
+    }
+  },
+  "t5": {
+    "light": "ATK, DEF, HP +15% / HP + 10%",
+    "dark": "Upon using a Skill, the self blocks all DMG for 2 sec."
+  }
+}

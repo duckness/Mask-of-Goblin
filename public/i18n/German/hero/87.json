@@ -1,0 +1,144 @@
+{
+  "name": "Glenwys",
+  "subtitle": "Schild des Imperiums",
+  "description": "Eine Ritterin, die im Imperium als Bürgerin zur Welt gekommen ist. Da sie ihre Position als stellvertretender Hauptmann der Wächterritter der Hauptstadt nur durch ihre Fähigkeiten erlangt hat, wird sie von zahllosen Bürgern verehrt. Sie hat geschworen, als schützendes Schild für die Bürger des Imperiums zu dienen. Niemand fühlt sich dem Imperium so verpflichtet wie sie.",
+  "story": "Wenn man einen Bürger des Imperiums danach fragt, welchen Ritter er am meisten verehrt, wird Glenwys Name wohl am öftesten fallen. Sie ist der stellvertretende Hauptmann der Wächterritter der Hauptstadt – die höchste Position, die je von einem Ritter, der als Bürger geboren wurde, eingenommen wurde. Das Leben als Ritterin, mit herausragenden Fertigkeiten im Kampf, Bescheidenheit und starkem Verantwortungsbewusstsein, ist ihre Berufung. Es besteht kein Zweifel, dass Glenwys die Hoffnung aller Bürger im Imperium repräsentiert, hat sie sich doch ihre Position als stellvertretender Hauptmann durch den Sieg in 3 Turnieren verdient, die der Kaiser selbst abgehalten hat. Als Symbol für den Glauben daran, dass jeder, der über bestimmte Fähigkeiten verfügt, es im Imperium zu etwas bringen kann, erhält sie viel Beachtung und Aufmerksamkeit.",
+  "like": "Training, das Lächeln der Bewohner des Imperiums, lebendige Atmosphäre, Apfelkuchen.",
+  "dislike": "Leidende Bürger, soziale Ereignisse, Feiern von Adeligen.",
+  "inn": {
+    "idle": "Es ist ein gutes Gasthaus, alles ist sauber und ordentlich. Das Essen sieht auch ganz wunderbar aus.",
+    "recruit": {
+      "greet": "Hallo. Wie ist es dir ergangen?",
+      "talk": [
+        "Das Dorf scheint heute sehr sicher zu sein.",
+        "Ach, nur ein Stück Brot und etwas Suppe wären schon gut. Ich bin kein großer Freund von Gourmetspeisen.",
+        "Haha, auch ein Ritter muss manchmal rasten."
+      ],
+      "gift": "Ein Geschenk ... für mich? Ä-Ähm ... D-Danke für deine Güte."
+    },
+    "affinity": {
+      "greet": "Ah, Hallo. So sieht man sich wieder.",
+      "talk": [
+        "Bist du fertig für heute? Wollen wir zusammen trainieren?",
+        "Im Imperium wissen wir Fähigkeiten mehr zu schätzen als Herkunft. Unaufhörliche Leistung ist der einzige Weg zum Erfolg."
+      ],
+      "gift": "Ich verdiene keine derartigen Geschenke, aber ... danke. Ich werde hart daran arbeiten, diesen Gefallen zu erwidern."
+    },
+    "relationship": {
+      "greet": "Oh, da bist du ja. Möchtest du gemeinsam etwas essen gehen?",
+      "talk": [
+        "Manchmal ... denke ich, dass ich die Bewunderung, die ich in den Augen der Kinder sehe, nicht verdiene.",
+        "Ich vertrage mich gut mit Rittern, die als adelige geboren wurden. Manche würden sogar mit mir üben.",
+        "Ich werde Seiner Majestät immer dankbar sein. Nur durch die Güte Seiner Majestät konnte ich es soweit bringen."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Der Gegenangriff, Maxithea",
+    "description": [
+      "Wenn ein Skill verwendet wird, wird der ANG von allen Verbündeten um 1 % und der Krit. Schaden um 2 % erhöht. Dieser Effekt ist maximal 4-mal stapelbar. Bei der maximalen Anzahl an Zählern werden alle Effekte verdoppelt. Effekt kann nicht aufgehoben werden.",
+      "Wenn ein Skill verwendet wird, wird der ANG von allen Verbündeten um 1,2 % und der Krit. Schaden um 2,4 % erhöht. Dieser Effekt ist maximal 4-mal stapelbar. Bei der maximalen Anzahl an Zählern werden alle Effekte verdoppelt. Effekt kann nicht aufgehoben werden.",
+      "Wenn ein Skill verwendet wird, wird der ANG von allen Verbündeten um 1,4 % und der Krit. Schaden um 2,8 % erhöht. Dieser Effekt ist maximal 4-mal stapelbar. Bei der maximalen Anzahl an Zählern werden alle Effekte verdoppelt. Effekt kann nicht aufgehoben werden.",
+      "Wenn ein Skill verwendet wird, wird der ANG von allen Verbündeten um 1,7 % und der Krit. Schaden um 3,4 % erhöht. Dieser Effekt ist maximal 4-mal stapelbar. Bei der maximalen Anzahl an Zählern werden alle Effekte verdoppelt. Effekt kann nicht aufgehoben werden.",
+      "Wenn ein Skill verwendet wird, wird der ANG von allen Verbündeten um 2 % und der Krit. Schaden um 4,2 % erhöht. Dieser Effekt ist maximal 4-mal stapelbar. Bei der maximalen Anzahl an Zählern werden alle Effekte verdoppelt. Effekt kann nicht aufgehoben werden.",
+      "Wenn ein Skill verwendet wird, wird der ANG von allen Verbündeten um 2,5 % und der Krit. Schaden um 5 % erhöht. Dieser Effekt ist maximal 4-mal stapelbar. Bei der maximalen Anzahl an Zähler werden alle Effekte verdoppelt. Effekt kann nicht aufgehoben werden."
+    ],
+    "story": "Ein Schild und eine Gewehrklinge, die unter Verwendung modernster Technik im Imperium hergestellt wurden. Die Gewehrklinge ist ein Prototyp der Abteilung für Mechanische Technologie von Magos Le'Flamme und eine tödliche Waffe, die geschaffen wurde, um mehrere Gegner aus der Nähe anzugreifen. Das Schild dient dazu, gegnerische Angriffe abzuwehren und zu kontern und verfügt über eine einzigartige Stoßabsorbierung. Es war ein Geschenk der kaiserlichen Familie des Imperiums aus Anerkennung von Glenwys Leistungen."
+  },
+  "s1": {
+    "name": "Das wäre alles",
+    "description": "Verursacht über 7 Angriffe insgesamt {0} K.Schaden an Feinden in Reichweite. Jeder Angriff erhöht den erlittenen K.Schaden für 10 Sekunden um 4 %. Dieser Effekt ist maximal 7-mal stapelbar. Wenn das Ziel kein Held ist, wird zusätzlich {1} K.Schaden verursacht.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Erhöht die Manakosten um 1. Verursachter Schaden gegen Feinde, die keine Helden sind, umgeht nun VERT.",
+    "dark": "Verringert die ANG-Geschwindigkeit des Ziels für 10 Sekunden um 250.",
+    "ut": {
+      "name": "Alpha-Anführer-Abzeichen",
+      "description": [
+        "[Das wäre alles] Erhöht den Schaden um 50 % und verringert den Cooldown bei einem krit. Treffer um 1 %.",
+        "[Das wäre alles] Erhöht den Schaden um 50 % und verringert den Cooldown bei einem krit. Treffer um 1,2 %.",
+        "[Das wäre alles] Erhöht den Schaden um 50 % und verringert den Cooldown bei einem krit. Treffer um 1,4 %.",
+        "[Das wäre alles] Erhöht den Schaden um 50 % und verringert den Cooldown bei einem krit. Treffer um 1,7 %.",
+        "[Das wäre alles] Erhöht den Schaden um 50 % und verringert den Cooldown bei einem krit. Treffer um 2 %.",
+        "[Das wäre alles] Erhöht den Schaden um 50 % und verringert den Cooldown bei einem krit. Treffer um 2.5 %."
+      ],
+      "story": "Es ist das Symbol der Wächterritter der Hauptstadt. Ein Abzeichen, das der Alpha-Anführer bekommt, der über die Autorität verfügt, Schnellverfahren auszuüben, um die allgemeine Sicherheit im Imperium zu gewährleisten. Der Alpha-Anführer wird durch eine absolute Mehrheit gewählt, verfügt über beispiellose Fähigkeiten im Kampf und ist unter seinen Kameraden hoch angesehen."
+    }
+  },
+  "s2": {
+    "name": "Meine Hand wird nicht ruhen",
+    "description": "Verursacht über 10 Angriffe {0} K.Schaden an Feinden im Umkreis und betäubt sie für {1} Sekunden. Der letzte Angriff verursacht {2} K.Schaden an frontalen Feinden und betäubt sie für {3} Sekunden.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Erhöht den K.Schaden, den das Ziel erleidet, für 10 Sekunden um 25 %.",
+    "dark": "Erhöht die Dauer von Betäubung um 0.5 Sekunde.",
+    "ut": {
+      "name": "Glorie des Löwenzahns",
+      "description": [
+        "[Meine Hand wird nicht ruhen] Verringert den Cooldown um 4.5 Sekunden und die Heilungsrate von Feinden um 20 %.",
+        "[Meine Hand wird nicht ruhen] Verringert den Cooldown um 4.5 Sekunden und die Heilungsrate von Feinden um 24 %.",
+        "[Meine Hand wird nicht ruhen] Verringert den Cooldown um 4.5 Sekunden und die Heilungsrate von Feinden um 28 %.",
+        "[Meine Hand wird nicht ruhen] Verringert den Cooldown um 4.5 Sekunden und die Heilungsrate von Feinden um 34 %.",
+        "[Meine Hand wird nicht ruhen] Verringert den Cooldown um 4.5 Sekunden und die Heilungsrate von Feinden um 42 %.",
+        "[Meine Hand wird nicht ruhen] Verringert den Cooldown um 4.5 Sekunden und die Heilungsrate von Feinden um 50 %."
+      ],
+      "story": "Im jährlich abgehaltenen kaiserlichen Kolosseum-Turnier kommen die mutigsten aller Kämpfer zusammen, um sich ungeachtet ihrer Herkunft und ihres sozialen Ranges zu beweisen. Trotzdem waren die Gewinner immer gut ausgerüstete Adelige, Ritter oder Soldaten, die von reichen Familien unterstützt wurden. Jeder wusste, dass der Wettbewerb nicht mehr fair war, nur traute sich das niemand zu sagen. Allerdings gewann vor vier Jahren Glenwys das Turnier, ein 16-jähriges bürgerliches Mädchen ohne Beziehungen, die es spielen lassen könnte. Der noble Hintergrund des Wettbewerbs war wiederhergestellt, das Kolosseum vom Applaus des Publikums erfüllt, und die Zuschauer freuten sich, hochmütige Adelige verlieren zu sehen. Glenwys wurde zu einem neuen Vorbild im Imperium und reich von den Leuten beschenkt. Sie musste diese Geschenke allerdings allesamt ablehnen. Nicht nur war die Aufmerksamkeit zu viel für sie, sie wusste auch, dass die Mächtigen des Imperiums es nicht gerne sehen würden, wie ihre Untertanen sie als Heldin verehren. Eine Aufmerksamkeit konnte sie jedoch nicht ablehnen – ein kleines scheues Mädchen überreichte ihr einen Briefbeschwerer aus Löwenzahn, den sie als einziges Geschenk behielt."
+    }
+  },
+  "s3": {
+    "name": "Der Gegenangriff beginnt",
+    "description": "Verursacht mit der Stärke des kaiserlichen Schildes {0} K.Schaden an Feinden in einem großen Umkreis und stößt sie für {1} Sekunden zu Boden. Entfernt negative Effekte von allen Verbündeten, erhöht den ANG für {2} Sekunden um {3} und die VERT um {4}.",
+    "books": {
+      "0": "Erhöht den ANG-Boost und VERT-Boost um {0}  %.",
+      "1": "Erhöht den ANG-Boost und VERT-Boost um {0}  %.",
+      "2": "Erhöht den ANG-Boost und VERT-Boost um {0}  %."
+    },
+    "light": "Verringert den K.krit. Widerstand des Ziels für 10 Sekunden um 250.",
+    "dark": "Erhöht die Manakosten um 1 und den ANG und die VERT um 100 %.",
+    "ut": {
+      "name": "Ballas-Rubin",
+      "description": [
+        "[Der Gegenangriff beginnt] Erhöht die Menge des erhöhten ANG und die VERT um 50 % sowie den erlittenen K.Schaden von Zielen für 10 Sekunden um 10 %.",
+        "[Der Gegenangriff beginnt] Erhöht die Menge des erhöhten ANG und die VERT um 50 % sowie den erlittenen K.Schaden von Zielen für 10 Sekunden um 12 %.",
+        "[Der Gegenangriff beginnt] Erhöht die Menge des erhöhten ANG und die VERT um 50 % sowie den erlittenen K.Schaden von Zielen für 10 Sekunden um 14 %.",
+        "[Der Gegenangriff beginnt] Erhöht die Menge des erhöhten ANG und die VERT um 50 % sowie den erlittenen K.Schaden von Zielen für 10 Sekunden um 17 %.",
+        "[Der Gegenangriff beginnt] Erhöht die Menge des erhöhten ANG und die VERT um 50 % sowie den erlittenen K.Schaden von Zielen für 10 Sekunden um 21 %.",
+        "[Der Gegenangriff beginnt] Erhöht die Menge des erhöhten ANG und die VERT um 50 % sowie den erlittenen K.Schaden von Zielen für 10 Sekunden um 25 %."
+      ],
+      "story": "Das letzte Geschenk eines anonymen Unterstützers. Glenwys wurde die erste Turniersiegerin von bürgerlicher Abstammung, um ihre Position in den folgenden kaiserlichen Kolosseum-Turnieren zu behaupten benötigte sie jedoch wesentlich mehr, als das Einkommen einer gewöhnlichen Bürgerin. Ein Großteil ihrer Teilnahmegebühren wurde durch Spenden von anderen Bürgern beglichen, mit der Zeit wurde eine Teilnahme für sie allerdings schlicht zu teuer, um weiterzumachen. Zu ihrer Überraschung wurde ihr allerdings von einem anonymen Unterstützer geholfen, und sie konnte weiterkämpfen. An dem Tag, an dem sie drei aufeinanderfolgende Turniere gewonnen hat, wurde ihr der „Ballas-Rubin“, das Juwel eines Ritters, übergeben, und wurde zur letzten Geste der Unterstützung ihres namenlosen Helfers. Seitdem ist dieser Rubin ihr Glücksbringer im Kampf, den sie immer bei sich trägt – dankbar, aber auch neugierig, wer dieser Unterstützer sein könnte."
+    }
+  },
+  "s4": {
+    "name": "Stolz der kaiserlichen Ritter",
+    "description": "Erhöht den ANG aller Verbündeten um {0} , erhöht den Schaden gegen Feinde, die keine Helden sind, zu Beginn des Kampfes für {1} Sekunden um {2}  % und verringert den erlittenen Schaden um {3}  %.",
+    "books": {
+      "0": "Erhöht ANG-Erhöhungsrate um {0}%.",
+      "1": "Erhöht ANG-Erhöhungsrate um {0}%.",
+      "2": "Erhöht ANG-Erhöhungsrate um {0}%."
+    },
+    "light": "Feinde, die keine Helden sind, erleiden nun 20 % des Schadens.",
+    "dark": "Feinde, die keine Helden sind, verursachen nun 20 % des Schadens.",
+    "ut": {
+      "name": "Goldene Glorie",
+      "description": [
+        "[Stolz der kaiserlichen Ritter] Erhöht den ANG-Bonus um 50 % und zu Beginn des Kampfes für 20 Sekunden den eigenen Krit. Schaden und den eines Verbündeten mit dem höchsten Angriffswert um 30 % und den verursachten Schaden gegen Feinde, die keine Helden sind, um 10 %.",
+        "[Stolz der kaiserlichen Ritter] Erhöht den ANG-Bonus um 50 % und zu Beginn des Kampfes für 20 Sekunden den eigenen Krit. Schaden und den eines Verbündeten mit dem höchsten Angriffswert um 36 % und den verursachten Schaden gegen Feinde, die keine Helden sind, um 12 %.",
+        "[Stolz der kaiserlichen Ritter] Erhöht den ANG-Bonus um 50 % und zu Beginn des Kampfes für 20 Sekunden den eigenen Krit. Schaden und den eines Verbündeten mit dem höchsten Angriffswert um 42 % und den verursachten Schaden gegen Feinde, die keine Helden sind, um 14 %.",
+        "[Stolz der kaiserlichen Ritter] Erhöht den ANG-Bonus um 50 % und zu Beginn des Kampfes für 20 Sekunden den eigenen Krit. Schaden und den eines Verbündeten mit dem höchsten Angriffswert um 50 % und den verursachten Schaden gegen Feinde, die keine Helden sind, um 17 %.",
+        "[Stolz der kaiserlichen Ritter] Erhöht den ANG-Bonus um 50 % und zu Beginn des Kampfes für 20 Sekunden den eigenen Krit. Schaden und den eines Verbündeten mit dem höchsten Angriffswert um 63 % und den verursachten Schaden gegen Feinde, die keine Helden sind, um 21 %.",
+        "[Stolz der kaiserlichen Ritter] Erhöht den ANG-Bonus um 50 % und zu Beginn des Kampfes für 20 Sekunden den eigenen Krit. Schaden und den eines Verbündeten mit dem höchsten Angriffswert um 75 % und den verursachten Schaden gegen Feinde, die keine Helden sind, um 25 %."
+      ],
+      "story": "Eine goldene Trophäe, die Glenwys verliehen bekommen hat, nachdem sie 3 aufeinanderfolgende kaiserliche Kolosseum-Turniere gewann. Sie ist ein Geschenk des Kaisers an die wahren Helden des Kolosseums. Der dritte Meisterschafts-Wettkampf war der letzte Turnierwettkampf, an dem Glenwys teilgenommen hat. Ihr letzter Gegner war ein mysteriöser Mann mit einer Maske, der all seine Gegner im Turnier innerhalb von wenigen Sekunden besiegt hatte. Glenwys war sehr nervös, als sie ihm im Halbfinale gegenüberstand. Wie erwartet war der Kampf sehr einseitig. Der Mann ist wie ein Wirbelsturm mit seinem paar roter Schwerter auf Glenwys losgegangen. Während sie seine wilden Angriffe abwehrte, wartete Glenwys ihre Gelegenheit ab. Als er endlich seine Verteidigung außer Acht ließ, griff Glenwys ihn mit einem mächtigen Schlag an. Zu ihrer Überraschung ist der Mann ihr mit ein paar einfachen Schritten nach hinten ausgewichen. Die Explosion, die der Angriff von Glenwys verursacht hatte, lies die Maske des Mannes springen, und sein hübsches Gesicht wurde offenbart. Durch die gebrochene Maske sah Glenwys, dass der Mann lächelte. Als sie bemerkte, dass ihr Angriff dem Mann nicht einmal einen Kratzer verpasst hatte, hob Glenwys ihr Schild wieder, doch plötzlich warf der Mann das Handtuch. Als sich der Staub um die beiden legte, trug der Mann eine andere Maske. Glenwys war gleich schockiert wie erstaunt, und noch bevor sie verstand, was passiert war, überreichte der Kaiser ihr die Trophäe. Da sah sie, dass der Mann, den sie gerade besiegt hatte, hinter dem Kaiser beim Hauptmann der kaiserlichen Wache stand und ihr applaudierte."
+    }
+  },
+  "t5": {
+    "light": "ANG, VERT, TP +15 % / VERT insgesamt +10 %",
+    "dark": "Erhöht den ANG aller Verbündeten um 8 % der Gesamtsumme der eigenen VERT-Werte."
+  }
+}

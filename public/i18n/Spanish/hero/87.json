@@ -1,0 +1,144 @@
+{
+  "name": "Glenwys",
+  "subtitle": "Escudo del Imperio",
+  "description": "Una mujer caballero nacida como plebeya en el Imperio. Ella es venerada por innumerables plebeyos, luego de haber afirmado su posición como la vicecapitana de los Caballeros de la guardia de la capital con nada más que sus habilidades. Prometió convertirse en el escudo que protege a los ciudadanos imperiales, y no hay nadie más dedicado a servir al Imperio que ella.",
+  "story": "Si les pides a los ciudadanos del Imperio que escojan al caballero que más les gusta, el nombre de Glenwys encabezará la lista. Es la vicecapitana de los Caballeros de la guardia de la capital del Imperio, el cargo más alto que haya ocupado un caballero con un pasado de plebeyo. Tiene feroces habilidades de combate, es modesta y tiene un fuerte sentido de responsabilidad, por lo que ser un caballero es su gran vocación. No hay dudas de que Glenwys es la esperanza de todos los plebeyos del Imperio, teniendo en cuenta que se ganó su cargo de vicecapitana y que obtuvo la victoria en 3 torneos de lucha que llevó a cabo el mismo emperador. Como símbolo de la creencia de que cualquier persona con habilidades puede lograr el éxito en el Imperio, está recibiendo mucha atención de diferentes partes.",
+  "like": "Entrenamiento, sonrisas de los ciudadanos del Imperio, ambiente de fiesta, pasteles de manzana.",
+  "dislike": "Ciudadanos sufriendo, encuentros sociales y fiestas de la nobleza.",
+  "inn": {
+    "idle": "Es una posada agradable, y todo está muy limpio. La comida se ve increíble, también.",
+    "recruit": {
+      "greet": "Hola. ¿Cómo has estado?",
+      "talk": [
+        "La aldea parece bastante segura hoy.",
+        "Oh, solo una rodaja de pan y un poco de sopa. En realidad no disfruto los platillos muy elaborados.",
+        "Ja, ja. Un caballero necesita descansar a veces."
+      ],
+      "gift": "¿Un regalo... para mí? Eh... Gracias... por tu amabilidad."
+    },
+    "affinity": {
+      "greet": "Ah, hola. Nos volvemos a encontrar.",
+      "talk": [
+        "¿Ya terminaste? ¿Qué te parece si entrenamos juntos?",
+        "Tenemos más en cuenta la capacidad que el contexto en el Imperio. El esfuerzo constante es el único camino al éxito."
+      ],
+      "gift": "No merezco un regalo como este, pero... gracias. Trabajaré duro para devolver este favor."
+    },
+    "relationship": {
+      "greet": "Oh, ahí estás. ¿Quieres que comamos algo juntos?",
+      "talk": [
+        "A veces... siento que no merezco la admiración que veo en los ojos de los niños.",
+        "Me llevo bien con los caballeros de la nobleza. Algunos de ellos incluso entrenan conmigo.",
+        "Siempre estoy agradecida a su majestad. Es por su gracia que una plebeya como yo ha llegado a esta posición."
+      ]
+    }
+  },
+  "uw": {
+    "name": "El contraataque, Maxithea",
+    "description": [
+      "Cuando se utiliza una habilidad, aumenta el Ataque de todos los aliados en un 1 % y el Daño crítico en un 2 %. Este efecto se acumula hasta 4 veces, y todos los efectos se duplican en la máxima acumulación. Este efecto no se puede disipar.",
+      "Cuando se utiliza una habilidad, aumenta el Ataque de todos los aliados en un 1,2 % y el Daño crítico en un 2,4 %. Este efecto se acumula hasta 4 veces, y todos los efectos se duplican en la máxima acumulación. Este efecto no se puede disipar.",
+      "Cuando se utiliza una habilidad, aumenta el Ataque de todos los aliados en un 1,4 % y el Daño crítico en un 2,8 %. Este efecto se acumula hasta 4 veces, y todos los efectos se duplican en la máxima acumulación. Este efecto no se puede disipar.",
+      "Cuando se utiliza una habilidad, aumenta el Ataque de todos los aliados en un 1,7 % y el Daño crítico en un 3,4 %. Este efecto se acumula hasta 4 veces, y todos los efectos se duplican en la máxima acumulación. Este efecto no se puede disipar.",
+      "Cuando se utiliza una habilidad, aumenta el Ataque de todos los aliados en un 2 % y el Daño crítico en un 4,2 %. Este efecto se acumula hasta 4 veces, y todos los efectos se duplican en la máxima acumulación. Este efecto no se puede disipar.",
+      "Cuando se utiliza una habilidad, aumenta el Ataque de todos los aliados en un 2,5 % y el Daño crítico en un 5 %. Este efecto se acumula hasta 4 veces, y todos los efectos se duplican en la máxima acumulación. Este efecto no se puede disipar."
+    ],
+    "story": "Un escudo y un sable pistola creados gracias a la ingeniería mecánica avanzada del Imperio. El sable pistola, un prototipo fabricado por el Departamento de Ingeniería Mecánica de Magos Le'Flamme, es un arma mortal que fue diseñada para atacar a múltiples enemigos a corta distancia. El escudo fue diseñado para evitar ataques enemigos y permitir el contraataque, y su capacidad de absorber y reducir los impactos es única. Fue un obsequio de la familia real del Imperio como reconocimiento de los logros alcanzados por Glenwys tras unirse a los Caballeros."
+  },
+  "s1": {
+    "name": "Eso será todo",
+    "description": "Inflige un total de {0} de Daño físico en 7 ataques a enemigos frontales dentro del rango. Cada ataque aumenta el Daño físico recibido en un 4 % durante 10 segundos. Este efecto se acumula hasta un máximo de 7 veces. Si el objetivo no es un héroe, inflige {1} de Daño físico adicional.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Aumenta el Costo de Mana en 1. El Daño infligido a los enemigos que no son héroes ahora ignora la Defensa.",
+    "dark": "Reduce la Velocidad de ataque del objetivo en 250 durante 10 segundos.",
+    "ut": {
+      "name": "Insignia de líder alfa",
+      "description": [
+        "[Eso será todo] Aumenta el Daño en un 50 % y reduce el tiempo de reutilización en un 1 % con un Golpe crítico.",
+        "[Eso será todo] Aumenta el Daño en un 50 % y reduce el tiempo de reutilización en un 1,2 % con un Golpe crítico.",
+        "[Eso será todo] Aumenta el Daño en un 50 % y reduce el tiempo de reutilización en un 1,4 % con un Golpe crítico.",
+        "[Eso será todo] Aumenta el Daño en un 50 % y reduce el tiempo de reutilización en un 1,7 % con un Golpe crítico.",
+        "[Eso será todo] Aumenta el Daño en un 50 % y reduce el tiempo de reutilización en un 2 % con un Golpe crítico.",
+        "[Eso será todo] Aumenta el Daño en un 50 % y reduce el tiempo de reutilización en un 2.5 % con un Golpe crítico."
+      ],
+      "story": "Es el símbolo de los Caballeros guardianes de la capital. Es una insignia otorgada por el Líder Alfa, quien tiene la autoridad de imponer justicia sumaria para garantizar la seguridad pública del Imperio. El cargo de Líder Alfa, que se determina mediante un acuerdo unánime, es para un caballero con técnicas de combate únicas y una alta reputación entre sus pares."
+    }
+  },
+  "s2": {
+    "name": "No te detendré",
+    "description": "Inflige {0} de Daño físico en 10 ataques a enemigos en un círculo alrededor del héroe y los aturde durante {1} segundos. El último ataque inflige {2} de Daño físico a los enemigos frontales y los aturde durante {3} segundos.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Aumenta la cantidad de Daño físico que recibe un objetivo en un 25 % durante 10 segundos.",
+    "dark": "Aumenta en 0.5 segundo la duración del efecto Aturdir.",
+    "ut": {
+      "name": "Alabanza del diente de león",
+      "description": [
+        "[No te detendré] Reduce el tiempo de reutilización en 4.5 segundos y la Tasa de curación enemiga en un 20 %.",
+        "[No te detendré] Reduce el tiempo de reutilización en 4.5 segundos y la Tasa de curación enemiga en un 24 %.",
+        "[No te detendré] Reduce el tiempo de reutilización en 4.5 segundos y la Tasa de curación enemiga en un 28 %.",
+        "[No te detendré] Reduce el tiempo de reutilización en 4.5 segundos y la Tasa de curación enemiga en un 34 %.",
+        "[No te detendré] Reduce el tiempo de reutilización en 4.5 segundos y la Tasa de curación enemiga en un 42 %.",
+        "[No te detendré] Reduce el tiempo de reutilización en 4.5 segundos y la Tasa de curación enemiga en un 50 %."
+      ],
+      "story": "En el torneo anual en el Coliseo Imperial, los luchadores más valientes podían competir para demostrar su valor, sin importar sus orígenes ni su clase social, pero el ganador siempre resultaba ser un aristócrata, un caballero o un soldado bien equipado y apoyado por alguna familia de la nobleza. Todos sabían que esto no era justo, pero nadie se atrevía a decirlo en voz alta. Sin embargo, Glenwys, una joven plebeya de 16 años sin ninguna influencia, ganó el torneo hace 4 años atrás y este recuperó su noble propósito. El día en que se alzó con la victoria, todos los presentes en el Coliseo, que ansiaban ver a los arrogantes aristócratas perder lo que creían que les pertenecía, la reconocieron con un cerrado aplauso. Glenwys se convirtió en la nueva ídola del Imperio y todos le ofrecían regalos. Sin embargo, Glenwys tuvo que rechazarlos. La atención que recibía a nivel nacional era demasiada, y sabía que a los poderosos nunca les haría gracia ver a los plebeyos congregarse en torno a una heroína como ella. No obstante, no pudo decirle que no a una tímida niña que se le acercó con un pisapapeles hecho de dientes de león en las manos. Este obsequio es el único que aún conserva."
+    }
+  },
+  "s3": {
+    "name": "Comenzar el contraataque",
+    "description": "Con la fuerza del Escudo imperial, inflige {0} de Daño físico a los enemigos en un círculo grande alrededor del héroe y los derriba durante {1} segundos. Disipa efectos negativos de todos los aliados, aumenta el Ataque en {3} durante {2} segundos y aumenta la Defensa en {4}.",
+    "books": {
+      "0": "Incrementa el Aumento del ataque y el Aumento de la defensa en un {0}  %.",
+      "1": "Incrementa el Aumento del ataque y el Aumento de la defensa en un {0}  %.",
+      "2": "Incrementa el Aumento del ataque y el Aumento de la defensa en un {0}  %."
+    },
+    "light": "Reduce la Resistencia al golpe crítico físico del objetivo en 250 durante 10 segundos.",
+    "dark": "Aumenta en 1 el Costo de Mana, y sube en un 100 % la cantidad de Ataque y Defensa que se incrementa.",
+    "ut": {
+      "name": "Rubí de Ballas",
+      "description": [
+        "[Comenzar el contraataque] Aumenta la cantidad de Ataque y Defensa que se incrementa en un 50 % y también aumenta el Daño físico del objetivo afectado en un 10 % durante 10 segundos.",
+        "[Comenzar el contraataque] Aumenta la cantidad de Ataque y Defensa que se incrementa en un 50 % y también aumenta el Daño físico del objetivo afectado en un 12 % durante 10 segundos.",
+        "[Comenzar el contraataque] Aumenta la cantidad de Ataque y Defensa que se incrementa en un 50 % y también aumenta el Daño físico del objetivo afectado en un 14 % durante 10 segundos.",
+        "[Comenzar el contraataque] Aumenta la cantidad de Ataque y Defensa que se incrementa en un 50 % y también aumenta el Daño físico del objetivo afectado en un 17 % durante 10 segundos.",
+        "[Comenzar el contraataque] Aumenta la cantidad de Ataque y Defensa que se incrementa en un 50 % y también aumenta el Daño físico del objetivo afectado en un 21 % durante 10 segundos.",
+        "[Comenzar el contraataque] Aumenta la cantidad de Ataque y Defensa que se incrementa en un 50 % y también aumenta el Daño físico del objetivo afectado en un 25 % durante 10 segundos."
+      ],
+      "story": "El último obsequio de un aficionado anónimo. Glenwys se convirtió en la primera ganadora del torneo con un pasado como plebeya, pero lo que debió pagar para defender su posición en los siguientes torneos en el Coliseo del Imperio fue muy superior para los ingresos de una simple plebeya. La mayor parte de la cuota de participación que debió pagar provino de donaciones de ciudadanos, pero finalmente tuvo que resignarse cuando ya no pudo afrontar el alto costo de seguir compitiendo. Sin embargo, un aficionado anónimo le brindaba su ayuda cada vez que estaba en apuros, algo que nunca la dejó de sorprender y que le permitió seguir luchando. El día en que ganó 3 torneos consecutivos, recibió el Rubí de Ballas, la joya de un caballero. Este obsequio fue el último de su admirador desconocido. Desde entonces, este rubí se convirtió en su amuleto de la victoria, por lo que lo lleva encima como demostración de gratitud, pero aún le intriga saber la identidad de su admirador."
+    }
+  },
+  "s4": {
+    "name": "Orgullo de los caballeros imperiales",
+    "description": "Aumenta el Ataque para todos los aliados en {0} , aumenta el Daño a los enemigos que no son héroes en un {2}  % durante {1} segundos al inicio de la batalla, y reduce el Daño recibido en un {3}  %.",
+    "books": {
+      "0": "La tasa de aumento de ATQ se incrementa en {0}%.",
+      "1": "La tasa de aumento de ATQ se incrementa en {0}%.",
+      "2": "La tasa de aumento de ATQ se incrementa en {0}%."
+    },
+    "light": "El efecto de Daño infligido a los enemigos que no son héroes ahora es del 20 %.",
+    "dark": "El efecto de Daño recibido de los enemigos que no son héroes ahora es del 20 %.",
+    "ut": {
+      "name": "Gloria dorada",
+      "description": [
+        "[Orgullo de los caballeros imperiales] Aumenta la bonificación de Ataque en un 50 %, aumenta el Daño crítico infligido por uno y por un aliado con el valor de ataque más alto (excluyendo el propio) en un 30 % durante 20 segundos al inicio de la batalla. Además, aumenta el Daño a los enemigos que no son héroes en un 10 %.",
+        "[Orgullo de los caballeros imperiales] Aumenta la bonificación de Ataque en un 50 %, aumenta el Daño crítico infligido por uno y por un aliado con el valor de ataque más alto (excluyendo el propio) en un 36 % durante 20 segundos al inicio de la batalla. Además, aumenta el Daño a los enemigos que no son héroes en un 12 %.",
+        "[Orgullo de los caballeros imperiales] Aumenta la bonificación de Ataque en un 50 %, aumenta el Daño crítico infligido por uno y por un aliado con el valor de ataque más alto (excluyendo el propio) en un 42 % durante 20 segundos al inicio de la batalla. Además, aumenta el Daño a los enemigos que no son héroes en un 14 %.",
+        "[Orgullo de los caballeros imperiales] Aumenta la bonificación de Ataque en un 50 %, aumenta el Daño crítico infligido por uno y por un aliado con el valor de ataque más alto (excluyendo el propio) en un 50 % durante 20 segundos al inicio de la batalla. Además, aumenta el Daño a los enemigos que no son héroes en un 17 %.",
+        "[Orgullo de los caballeros imperiales] Aumenta la bonificación de Ataque en un 50 %, aumenta el Daño crítico infligido por uno y por un aliado con el valor de ataque más alto (excluyendo el propio) en un 63 % durante 20 segundos al inicio de la batalla. Además, aumenta el Daño a los enemigos que no son héroes en un 21 %.",
+        "[Orgullo de los caballeros imperiales] Aumenta la bonificación de Ataque en un 50 %, aumenta el Daño crítico infligido por uno y por un aliado con el valor de ataque más alto (excluyendo el propio) en un 75 % durante 20 segundos al inicio de la batalla. Además, aumenta el Daño a los enemigos que no son héroes en un 25 %."
+      ],
+      "story": "Un trofeo de oro otorgado a Glenwys por haber ganado 3 Torneos en el Coliseo Imperial. Representa el obsequio que el Emperador le da al verdadero héroe o a la verdadera heroína del Coliseo. La batalla del tercer torneo fue la última en la que participó Glenwys. Su último rival fue un misterioso hombre enmascarado que había derrotado a todos sus contrincantes a lo largo del torneo en apenas unos segundos. Cuando lo vio luchar en la batalla previa a la final, Glenwys no pudo evitar ponerse nerviosa. Como era de esperar, su rival empezó dominando la batalla. Glenwys sufrió la embestida de su contrincante, que la atacó con un par de espadas rojas. Con cautela, Glenwys esperó su oportunidad mientras bloqueaba el feroz ataque de su rival, quien, en un momento dado, bajó la guardia. Fue entonces cuando Glenwys aprovechó para lanzar un poderoso ataque. Pero se sorprendió al ver que su contrincante simplemente lo esquivó al dar unos pasos hacia atrás. La explosión causada por el ataque de Glenwys hizo que la máscara del hombre se rompiera y que su apuesto rostro quedara al descubierto. Luego vio, a través de lo que quedaba de máscara, cómo el hombre esbozaba una sonrisa. Al darse cuenta de que su ataque no había dañado en absoluto a su rival, Glenwys, consternada, levantó nuevamente su escudo, pero el hombre, repentinamente, tiró la toalla. Rápidamente, el humo que rodeaba a ambos se disipó y se pudo ver que el hombre llevaba puesta una nueva máscara. Sorprendida y asombrada, Glenwys no pudo comprender lo que había sucedido hasta que el Emperador le entregó el trofeo. Su rival, que se encontraba detrás del Emperador, junto al Capitán de la Guardia Real, reconoció su victoria con un cálido aplauso."
+    }
+  },
+  "t5": {
+    "light": "Ataque, Defensa, Salud +15 %/Toda la Defensa + 10 %",
+    "dark": "Aumenta el Ataque de todos los aliados en un 8 % de la suma total de todos los valores de Defensa propios."
+  }
+}

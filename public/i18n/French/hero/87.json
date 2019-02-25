@@ -1,0 +1,144 @@
+{
+  "name": "Glenwys",
+  "subtitle": "Bouclier de l'empire",
+  "description": "Cette femme chevalier est née simple roturière dans l'empire. D'innombrables roturiers admirent son ascension au poste de vice-capitaine des Chevaliers gardiens de la capitale, à la seule force de son talent et de sa détermination. Elle s'est juré d'être le bouclier protégeant les citoyens impériaux, et fait preuve d'une dévotion absolue envers l'empire.",
+  "story": "Si vous demandez aux citoyens de l'empire de choisir leur chevalier préféré, c'est le nom de Glenwys qui reviendra le plus souvent. Elle est vice-capitaine des Chevaliers gardiens de la capitale, le plus haut poste jamais occupé par un chevalier issu d'un milieu modeste. Combattante émérite, d'une profonde humilité doublée d'un grand sens des responsabilités, elle prend son rôle de chevalier extrêmement à cœur. Glenwys est incontestablement un symbole d'espoir pour tous les roturiers de l'empire, car elle a gagné son poste de vice-capitaine à la sueur de son front, et remporté les 3 tournois organisés par l'empereur lui-même. Véritable incarnation de la méritocratie au sein de l'empire, elle force l'admiration de bien des gens.",
+  "like": "L'entraînement, le sourire des citoyens de l'empire, les ambiances animées et les tartes aux pommes.",
+  "dislike": "Les citoyens qui souffrent, les rassemblements mondains et les réceptions entre nobles.",
+  "inn": {
+    "idle": "C'est une bonne auberge, et tout est bien entretenu. La nourriture a également l'air délicieuse.",
+    "recruit": {
+      "greet": "Bonjour. Comment allez-vous ?",
+      "talk": [
+        "Le village n'a pas l'air d'avoir à s'en faire aujourd'hui.",
+        "Oh, juste une miche de pain et de la soupe m'iront très bien. Je ne suis pas très portée sur la gastronomie.",
+        "Ah ah, un chevalier a parfois besoin de repos."
+      ],
+      "gift": "Un cadeau ? Pour moi ? Euh... M-Merci, c'est très gentil de votre part."
+    },
+    "affinity": {
+      "greet": "Oh, bonjour. Comme on se retrouve !",
+      "talk": [
+        "Vous avez fini votre journée ? Que diriez-vous de vous entraîner avec moi ?",
+        "Les compétences pèsent bien plus que l'origine sociale aux yeux de l'empire. Pour réussir, il n'y a pas de secret : il faut travailler dur."
+      ],
+      "gift": "Je ne mérite pas un tel cadeau, mais... merci beaucoup. Je vais tout faire pour vous rendre la pareille."
+    },
+    "relationship": {
+      "greet": "Oh, vous voilà. Que diriez-vous de partager un repas ?",
+      "talk": [
+        "Parfois, j'ai l'impression que je ne suis pas digne de l'admiration que je lis dans le regard des enfants.",
+        "Je m'entends plutôt bien avec les chevaliers issus de la noblesse. Certains acceptent même de s'entraîner avec moi.",
+        "Je serai éternellement reconnaissante envers Sa Majesté. C'est grâce à Sa Majesté qu'une roturière comme moi a pu arriver où elle en est aujourd'hui."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Maxithea, riposte fulgurante",
+    "description": [
+      "Lors de l'utilisation d'une compétence, augmente l'ATQ de tous les alliés de 1 % et les DEG Crit de 2 %. Cet effet peut se cumuler jusqu'à 4 fois, et il est alors doublé. Cet effet ne peut pas être dissipé.",
+      "Lors de l'utilisation d'une compétence, augmente l'ATQ de tous les alliés de 1,2 % et les DEG Crit de 2,4 %. Cet effet peut se cumuler jusqu'à 4 fois, et il est alors doublé. Cet effet ne peut pas être dissipé.",
+      "Lors de l'utilisation d'une compétence, augmente l'ATQ de tous les alliés de 1,4 % et les DEG Crit de 2,8 %. Cet effet peut se cumuler jusqu'à 4 fois, et il est alors doublé. Cet effet ne peut pas être dissipé.",
+      "Lors de l'utilisation d'une compétence, augmente l'ATQ de tous les alliés de 1,7 % et les DEG Crit de 3,4 %. Cet effet peut se cumuler jusqu'à 4 fois, et il est alors doublé. Cet effet ne peut pas être dissipé.",
+      "Lors de l'utilisation d'une compétence, augmente l'ATQ de tous les alliés de 2 % et les DEG Crit de 4,2 %. Cet effet peut se cumuler jusqu'à 4 fois, et il est alors doublé. Cet effet ne peut pas être dissipé.",
+      "Lors de l'utilisation d'une compétence, augmente l'ATQ de tous les alliés de 2,5 % et les DEG Crit de 5 %. Cet effet peut se cumuler jusqu'à 4 fois, et il est alors doublé. Cet effet ne peut pas être dissipé."
+    ],
+    "story": "Une baïonnette et un bouclier issus de l'ingénierie mécanique de pointe de l'empire. La baïonnette est un prototype réalisé par le département d'ingénierie mécanique de Magos Le'Flamme, destiné à neutraliser plusieurs ennemis en corps-à-corps. Le bouclier est quant à lui conçu pour parer et contrer les frappes ennemies grâce à son absorption phénoménale des coups. Il fut offert à Glenwys par la famille royale de l'empire pour la récompenser de ses exploits après avoir rejoint les chevaliers."
+  },
+  "s1": {
+    "name": "Ce sera tout",
+    "description": "Inflige un total de {0}  points de DEG P en 7 attaques aux ennemis à portée situés en face. Chaque attaque augmente les DEG P reçus de 4 % pendant 10 sec. Cet effet peut se cumuler jusqu'à 7 fois. Si la cible n'est pas un héros, inflige {1}  points de DEG P supplémentaires.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Augmente le coût en mana de 1 point et les DEG infligés aux ennemis non-héros ignorent leur DEF.",
+    "dark": "Réduit la Vit ATQ de la cible de 250 points pendant 10 sec.",
+    "ut": {
+      "name": "Badge de chef alpha",
+      "description": [
+        "[Ce sera tout] Augmente les DEG de 50 % et le temps de recharge de 1 % lorsque vous assénez un coup critique.",
+        "[Ce sera tout] Augmente les DEG de 50 % et le temps de recharge de 1,2 % lorsque vous assénez un coup critique.",
+        "[Ce sera tout] Augmente les DEG de 50 % et le temps de recharge de 1,4 % lorsque vous assénez un coup critique.",
+        "[Ce sera tout] Augmente les DEG de 50 % et le temps de recharge de 1,7 % lorsque vous assénez un coup critique.",
+        "[Ce sera tout] Augmente les DEG de 50 % et le temps de recharge de 2 % lorsque vous assénez un coup critique.",
+        "[Ce sera tout] Augmente les DEG de 50 % et le temps de recharge de 2.5 % lorsque vous assénez un coup critique."
+      ],
+      "story": "Symbole des Chevaliers gardiens de la capitale. Ce badge porté par leur chef suprême l'autorisé à garantir la sécurité de l'empire en imposant une justice expéditive. Élu à l'unanimité, le chef suprême doit être un chevalier aux techniques de combat inégalées et à la réputation irréprochable."
+    }
+  },
+  "s2": {
+    "name": "Je ne resterai pas les bras croisés",
+    "description": "Inflige {0}  points de DEG P en 10 attaques aux ennemis situés en cercle autour du lanceur et les étourdit pendant {1}  sec. La dernière attaque inflige {2}  points de DEG P aux ennemis situés en face et les étourdit pendant {3}  sec.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Augmente les DEG P reçus par la cible de 25 % pendant 10 sec.",
+    "dark": "Augmente la durée d'étourdissement de 0.5 sec.",
+    "ut": {
+      "name": "Pissenlit rayonnant",
+      "description": [
+        "[Je ne resterai pas les bras croisés] Réduit le temps de recharge de 4.5 sec et la récupération ennemie de 20 %.",
+        "[Je ne resterai pas les bras croisés] Réduit le temps de recharge de 4.5 sec et la récupération ennemie de 24 %.",
+        "[Je ne resterai pas les bras croisés] Réduit le temps de recharge de 4.5 sec et la récupération ennemie de 28 %.",
+        "[Je ne resterai pas les bras croisés] Réduit le temps de recharge de 4.5 sec et la récupération ennemie de 34 %.",
+        "[Je ne resterai pas les bras croisés] Réduit le temps de recharge de 4.5 sec et la récupération ennemie de 42 %.",
+        "[Je ne resterai pas les bras croisés] Réduit le temps de recharge de 4.5 sec et la récupération ennemie de 50 %."
+      ],
+      "story": "Le tournoi coliséen annuel de l'empire donnait à tous les courageux combattants l'occasion de prouver leur valeur, quels que soient leur origine et rang social. Toutefois, le vainqueur était toujours un noble, un chevalier ou un soldat soutenu par des nobles. Tout le monde savait que les dés étaient pipés, mais personne n'osait rien dire. Lorsque Glenwys, une roturière de 16 ans qui ne connaissait personne, remporta le tournoi il y a 4 ans, sa victoire redonna à la compétition ses lettres de noblesse. Ce jour-là, le public du Colisée lui fit une ovation tonitruante, car il vit enfin les aristocrates perdre ce qu'ils avaient cru toujours posséder. Glenwys devint la nouvelle coqueluche de l'empire et le peuple lui offrait des cadeaux qu'elle refusait systématiquement. Elle était gênée de l'attention qu'on lui portait, et elle avait compris que les puissants n'apprécieraient pas de voir les roturiers se rallier à elle. Néanmoins, elle ne put se résoudre à refuser le presse-papiers en pissenlit qu'une petite fille timide lui offrit, et ceci reste à ce jour le seul cadeau qu'elle accepta."
+    }
+  },
+  "s3": {
+    "name": "Que la riposte commence",
+    "description": "Fait appel à la force du Bouclier de l'empire pour infliger {0}  points de DEG P aux ennemis situés dans un grand cercle autour du lanceur et les renverse pendant {1}  sec. Dissipe les effets négatifs qui pèsent sur tous les alliés, augmente l'ATQ de {3}  points pendant {2}  sec et la DEF de {4}.",
+    "books": {
+      "0": "Augmente le boost d'ATQ et de DEF de {0}  %.",
+      "1": "Augmente le boost d'ATQ et de DEF de {0}  %.",
+      "2": "Augmente le boost d'ATQ et de DEF de {0}  %."
+    },
+    "light": "Réduit la Résistance Crit P de la cible de 250 points pendant 10 sec.",
+    "dark": "Augmente le coût en mana de 1 point ainsi que l'ATQ et la DEF de 100 %.",
+    "ut": {
+      "name": "Rubis Ballas",
+      "description": [
+        "[Que la riposte commence] Augmente l'ATQ et la DEF de 50 % ainsi que les DEG P reçus par la cible de 10 % pendant 10 sec.",
+        "[Que la riposte commence] Augmente l'ATQ et la DEF de 50 % ainsi que les DEG P reçus par la cible de 12 % pendant 10 sec.",
+        "[Que la riposte commence] Augmente l'ATQ et la DEF de 50 % ainsi que les DEG P reçus par la cible de 14 % pendant 10 sec.",
+        "[Que la riposte commence] Augmente l'ATQ et la DEF de 50 % ainsi que les DEG P reçus par la cible de 17 % pendant 10 sec.",
+        "[Que la riposte commence] Augmente l'ATQ et la DEF de 50 % ainsi que les DEG P reçus par la cible de 21 % pendant 10 sec.",
+        "[Que la riposte commence] Augmente l'ATQ et la DEF de 50 % ainsi que les DEG P reçus par la cible de 25 % pendant 10 sec."
+      ],
+      "story": "Dernier cadeau offert par un soutien anonyme. Glenwys fut la première roturière à remporter le tournoi, mais les frais à payer pour défendre son titre dans les tournois coliséens de l'empire étaient hors de portée d'une roturière. Certes, les citoyens l'aidèrent grâce à des dons, mais la participation finit par devenir trop chère pour qu'elle puisse continuer la compétition. À sa grande surprise, un soutien anonyme lui offrit son aide quand elle en avait le plus besoin, et elle put ainsi continuer à combattre. Après avoir remporté 3 tournois consécutifs, elle reçut le rubis Ballas, joyau de chevalier, et ce fut le dernier geste de son soutien anonyme. Depuis lors, elle garde toujours ce porte-bonheur avec elle. Elle est certes reconnaissante, mais avant tout curieuse de savoir qui pouvait bien être son bienfaiteur."
+    }
+  },
+  "s4": {
+    "name": "Fierté des chevaliers de l'empire",
+    "description": "Augmente l'ATQ de tous les alliés de {0}  points ainsi que les DEG infligés aux ennemis non-héros de {2}  % pendant {1}  sec au début du combat, et réduit les DEG reçus de {3}  %.",
+    "books": {
+      "0": "ATQ augmentée de {0}%.",
+      "1": "ATQ augmentée de {0}%.",
+      "2": "ATQ augmentée de {0}%."
+    },
+    "light": "Les DEG infligés aux ennemis non-héros passent à 20 %.",
+    "dark": "Les DEG reçus des ennemis non-héros passent à 20 %.",
+    "ut": {
+      "name": "Gloire dorée",
+      "description": [
+        "[Fierté des chevaliers de l'empire] Augmente le bonus d'ATQ de 50 %, les DEG Crit du lanceur et de l'allié à l'ATQ la plus élevée (à l'exception du lanceur) de 30 % pendant 20 sec au début du combat, et les DEG infligés aux ennemis non-héros de 10 %.",
+        "[Fierté des chevaliers de l'empire] Augmente le bonus d'ATQ de 50 %, les DEG Crit du lanceur et de l'allié à l'ATQ la plus élevée (à l'exception du lanceur) de 36 % pendant 20 sec au début du combat, et les DEG infligés aux ennemis non-héros de 12 %.",
+        "[Fierté des chevaliers de l'empire] Augmente le bonus d'ATQ de 50 %, les DEG Crit du lanceur et de l'allié à l'ATQ la plus élevée (à l'exception du lanceur) de 42 % pendant 20 sec au début du combat, et les DEG infligés aux ennemis non-héros de 14 %.",
+        "[Fierté des chevaliers de l'empire] Augmente le bonus d'ATQ de 50 %, les DEG Crit du lanceur et de l'allié à l'ATQ la plus élevée (à l'exception du lanceur) de 50 % pendant 20 sec au début du combat, et les DEG infligés aux ennemis non-héros de 17 %.",
+        "[Fierté des chevaliers de l'empire] Augmente le bonus d'ATQ de 50 %, les DEG Crit du lanceur et de l'allié à l'ATQ la plus élevée (à l'exception du lanceur) de 63 % pendant 20 sec au début du combat, et les DEG infligés aux ennemis non-héros de 21 %.",
+        "[Fierté des chevaliers de l'empire] Augmente le bonus d'ATQ de 50 %, les DEG Crit du lanceur et de l'allié à l'ATQ la plus élevée (à l'exception du lanceur) de 75 % pendant 20 sec au début du combat, et les DEG infligés aux ennemis non-héros de 25 %."
+      ],
+      "story": "Ce trophée en or fut remis à Glenwys pour avoir remporté 3 tournois coliséens de l'empire consécutifs. C'est le cadeau offert par l'empereur au véritable héros du Colisée. Le troisième match du championnat fut le dernier auquel Glenwys participa. Son ultime adversaire fut un homme masqué qui avait vaincu tous ses opposants en quelques secondes. Glenwys commença à prendre peur lorsqu'elle le vit combattre en demi-finale, un combat qui, comme tous les autres, fut unilatéral. Cet homme agitait ses deux épées rouges comme une tempête qui s'abattait sur Glenwys. Alors qu'elle parait ses attaques puissantes, elle attendait une opportunité. Lorsqu'il sembla enfin baisser sa garde, Glenwys lança une attaque déchaînée. À sa grande surprise, son adversaire l'esquiva simplement en reculant. L'explosion provoquée par l'attaque de Glenwys fendit le masque de l'homme mystérieux, ce qui révéla son beau visage. Elle remarqua qu'il souriait. Constatant que son attaque n'avait même pas égratigné son adversaire, Glenwys leva son bouclier, consternée, quand il jeta soudainement l'éponge. Lorsque la poussière se dissipa, un autre masque recouvrait le visage de l'homme mystère. Abasourdie, Glenwys ne comprit pas ce qu'il s'était passé. Mais lorsque l'empereur lui remit le trophée, elle aperçut l'homme derrière l'empereur, à côté du capitaine de la garde royale, en train de l'applaudir chaleureusement."
+    }
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV + 15 %/Toutes DEF + 10 %",
+    "dark": "Augmente l'ATQ de tous les alliés à hauteur de 8 % du total de toutes les DEF du lanceur."
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "name": "Dosarta",
+  "subtitle": "Wind der Reinheit",
+  "description": "Eine Elfenprinzessin, die den Turm der Herausforderung im Königreich Elidora bewacht. Sie weiß über antike Artefakte und ihre Macht besser Bescheid als jeder andere.",
+  "story": "Eine Wache des Königreichs Elidora, die den Turm der Herausforderung beschützt. Den Regeln nach werden die Mitglieder einer königlichen Familie in der Rolle des Wächters fast nie von ihren Pflichten befreit, bevor ihr Dienst zu Ende geht. Verzweifelte Situationen erfordern jedoch verzweifelte Maßnahmen. Dosarta durfte den Turm der Herausforderung verlassen, um Aufträge zu erledigen, wenn es sein muss. Jetzt ist sie fest entschlossen, durch diese Gelegenheit viele neue Freundschaften zu schließen. Wie viele Freunde wird diese Elfenwächterin wohl finden?",
+  "like": "Das Flüstern der Elementaren, Selene, Freunde gewinnen",
+  "dislike": "Einsamkeit, Langeweile",
+  "inn": {
+    "idle": "Oh, hallo! Was hast du dieses Mal für eine Geschichte für mich?",
+    "recruit": {
+      "greet": "",
+      "talk": [
+        "",
+        "",
+        ""
+      ],
+      "gift": ""
+    },
+    "affinity": {
+      "greet": "Antike Artefakte sind sehr interessant! Ob sie gefährlich sind? *Kicher* Na ja, nicht für mich!",
+      "talk": [
+        "Selene kann sehr streng sein, aber sie ist auch wirklich nett und fürsorglich!",
+        "Oh, vielen Dank! Beim nächsten Mal bekommst du ein Geschenk!"
+      ],
+      "gift": "Schön, dich wiederzusehen!"
+    },
+    "relationship": {
+      "greet": "Oh, die Nahrung von Menschen ist wirklich interessant!",
+      "talk": [
+        "So sieht es also in einer menschlichen Stadt aus. Heheh, so lebendig und voller Leute. Ich liebe es!",
+        "Imbiss, Imbiss, Imbisszeit! Oh, hättest du auch gerne etwas?",
+        "Beim Turm der Herausforderung war ich etwas einsam, aber das ist jetzt vorbei!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Antike Tapferkeit, Seliere",
+    "description": [
+      "Erhöht zu Beginn des Kampfes den ANG für alle Verbündeten um 10 %, die VERT um 20 % und verringert die Manakosten des nächsten Skills, der selbst benutzt wird, für 10 Sekunden um 1. Dieser Effekt kann nicht entfernt werden.",
+      "Erhöht zu Beginn des Kampfes den ANG für alle Verbündeten um 12 %, die VERT um 24 % und verringert die Manakosten des nächsten Skills, der selbst benutzt wird, für 11 Sekunden um 1. Dieser Effekt kann nicht entfernt werden.",
+      "Erhöht zu Beginn des Kampfes den ANG für alle Verbündeten um 14 %, die VERT um 29 % und verringert die Manakosten des nächsten Skills, der selbst benutzt wird, für 12 Sekunden um 1. Dieser Effekt kann nicht entfernt werden.",
+      "Erhöht zu Beginn des Kampfes den ANG für alle Verbündeten um 17 %, die VERT um 35 % und verringert die Manakosten des nächsten Skills, der selbst benutzt wird, für 13 Sekunden um 1. Dieser Effekt kann nicht entfernt werden.",
+      "Erhöht zu Beginn des Kampfes den ANG für alle Verbündeten um 21 %, die VERT um 42 % und verringert die Manakosten des nächsten Skills, der selbst benutzt wird, für 14 Sekunden um 1. Dieser Effekt kann nicht entfernt werden.",
+      "Erhöht zu Beginn des Kampfes den ANG für alle Verbündeten um 25 %, die VERT um 50 % und verringert die Manakosten des nächsten Skills, der selbst benutzt wird, für 15 Sekunden um 1. Dieser Effekt kann nicht entfernt werden."
+    ],
+    "story": "Eine Zeichnung aus dem Turm der Herausforderung und ein antiker Schild, der aus Artefaktbruchstücken besteht. Der Schild steckt voller antiker Schutzmagie, deren Grenzen niemand auf der Welt kennt. Selbst Dosarta kennt das volle Ausmaß seiner Kräfte nicht, es interessiert sie aber auch nicht wirklich. „Ich hatte viel Zeit, damit zu spielen und herauszufinden, was er so kann“, sagt sie. Das Bewachen des Turms der Herausforderung ist so langweilig geworden, dass selbst das Training ihrer Fähigkeiten für sie zur Freizeitbeschäftigung wurde."
+  },
+  "s1": {
+    "name": "Das wird wehtun!",
+    "description": "Erhöht den Statuseffekt-Widerstand aller Verbündeten in der eigenen Umgebung für 10 Sekunden um {4} , verursacht {0} M.Schaden an Feinden, erhöht den erlittenen M.Schaden für {1} Sekunden um {2}  % und verhindert für {3} Sekunden die Mana-Erholung.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Regeneriert das Mana eines Verbündeten in der Umgebung um 1.",
+    "dark": "Verringert M.Blockieren des Ziels für 5 Sekunden um 500.",
+    "ut": {
+      "name": "Armreif von Elidora",
+      "description": [
+        "[Das wird wehtun!] Erhöht die Heilungsrate eines Verbündeten in der Umgebung für 4 Sekunden um 20 % und verringert die Heilungsrate des getroffenen Feindes für 4 Sekunden um 50 %.",
+        "[Das wird wehtun!] Erhöht die Heilungsrate eines Verbündeten in der Umgebung für 4 Sekunden um 24 % und verringert die Heilungsrate des getroffenen Feindes für 4 Sekunden um 50 %.",
+        "[Das wird wehtun!] Erhöht die Heilungsrate eines Verbündeten in der Umgebung für 4 Sekunden um 29 % und verringert die Heilungsrate des getroffenen Feindes für 4 Sekunden um 50 %.",
+        "[Das wird wehtun!] Erhöht die Heilungsrate eines Verbündeten in der Umgebung für 4 Sekunden um 35 % und verringert die Heilungsrate des getroffenen Feindes für 4 Sekunden um 50 %.",
+        "[Das wird wehtun!] Erhöht die Heilungsrate eines Verbündeten in der Umgebung für 4 Sekunden um 42 % und verringert die Heilungsrate des getroffenen Feindes für 4 Sekunden um 50 %.",
+        "[Das wird wehtun!] Erhöht die Heilungsrate eines Verbündeten in der Umgebung für 4 Sekunden um 50 % und verringert die Heilungsrate des getroffenen Feindes für 4 Sekunden um 50 %."
+      ],
+      "story": "Ein Paar blauer Armbänder, die den dichten und lebendigen Wald von Elidora repräsentieren. Eines der Hobbies, das sich Dosarta in ihren einsamen Stunden im Turm der Herausforderung angeeignet hat, ist das Handwerk. Dieses mächtige magische Werkzeug, in dem die Lebenskraft von Elidora steckt, ist das Resultat ihrer Freizeitbeschäftigung. Dosarta denkt, dass es sich dabei nur um hübschen Schmuck handelt, aber ..."
+    }
+  },
+  "s2": {
+    "name": "Sei wachsam!",
+    "description": "Entfernt negative Effekte von allen Verbündeten und erhöht die K.VERT für {0} Sekunden um {1} +4 % von Dosartas ANG.",
+    "books": {
+      "0": "K.VERT-Erhöhugsrate erhöht sich um {0}%.",
+      "1": "K.VERT-Erhöhugsrate erhöht sich um {0}%.",
+      "2": "K.VERT-Erhöhugsrate erhöht sich um {0}%."
+    },
+    "light": "Verringert die Manakosten um 1.",
+    "dark": "Erhöht für 2 Sekunden die Manakosten um 1 und gewährt Statuseffekt-Immunität.",
+    "ut": {
+      "name": "Kristall des Waldes",
+      "description": [
+        "[Sei wachsam!] Erhöht für 5 Sekunden den VERT-Boost um 50 % und die Krit. Chance um 200.",
+        "[Sei wachsam!] Erhöht für 5 Sekunden den VERT-Boost um 50 % und die Krit. Chance um 240.",
+        "[Sei wachsam!] Erhöht für 5 Sekunden den VERT-Boost um 50 % und die Krit. Chance um 290.",
+        "[Sei wachsam!] Erhöht für 5 Sekunden den VERT-Boost um 50 % und die Krit. Chance um 350.",
+        "[Sei wachsam!] Erhöht für 5 Sekunden den VERT-Boost um 50 % und die Krit. Chance um 420.",
+        "[Sei wachsam!] Erhöht für 5 Sekunden den VERT-Boost um 50 % und die Krit. Chance um 500."
+      ],
+      "story": "Eine antike Kristallkugel, die in der königlichen Familie von Elidora vererbt wurde. Es ist ein magisches Werkzeug und besteht aus Artefaktbruchstücken der königlichen Elfen, die über den Turm der Herausforderung herrschen. Man sagt, dass der Besitzer der Kristallkugel mit jedem auf der Welt sprechen kann, egal, wo sich diese Person befindet. Um auf alle Umstände im Turm der Herausforderung vorbereitet zu sein, hat die königliche Familie bestimmt, dass die Kugel nur im Besitz der Leitung des Turms der Herausforderung bleiben darf. Trotz seines strategischen und historischen Wertes, dient die Kugel nur als Kommunikationsmittel für Dosarta, mit dem sie banale Gespräche mit ihrer Schwester Selene führt."
+    }
+  },
+  "s3": {
+    "name": "Ha! Ha! Nimm das!",
+    "description": "Greift ein feindliches Ziel 4-mal an, verursacht insgesamt {0} M.Schaden und betäubt es für {1} Sekunden. Danach wird ein finaler Angriff gegen den frontalen Feind ausgelöst, der {2} M.Schaden verursacht und den Feind ins Zentrum zieht. Jeder Angriff gegen ein Ziel, das kein Held ist, verursacht zusätzlich {3} M.Schaden, der VERT umgeht.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Gewährt bei Verwendung Statuseffekt-Immunität.",
+    "dark": "Erhöht den M.Schaden, den das Ziel erleidet, für 10 Sekunden um 25 %.",
+    "ut": {
+      "name": "Nest des Wind-Elementars",
+      "description": [
+        "[Ha! Ha! Nimm das!] Erhöht für die Dauer des Skills die PRÄZ um 750 und die Statuseffekt-PRÄZ um 300.",
+        "[Ha! Ha! Nimm das!] Erhöht für die Dauer des Skills die PRÄZ um 750 und die Statuseffekt-PRÄZ um 360.",
+        "[Ha! Ha! Nimm das!] Erhöht für die Dauer des Skills die PRÄZ um 750 und die Statuseffekt-PRÄZ um 430.",
+        "[Ha! Ha! Nimm das!] Erhöht für die Dauer des Skills die PRÄZ um 750 und die Statuseffekt-PRÄZ um 520.",
+        "[Ha! Ha! Nimm das!] Erhöht für die Dauer des Skills die PRÄZ um 750 und die Statuseffekt-PRÄZ um 630.",
+        "[Ha! Ha! Nimm das!] Erhöht für die Dauer des Skills die PRÄZ um 750 und die Statuseffekt-PRÄZ um 750."
+      ],
+      "story": "Ein Schmuckstück, das Dosarta hergestellt hat, um mit den Wind-Elementaren zu spielen, während sie den Turm der Herausforderung alleine bewacht hat. Sie hat von den Elementaren bevorzugte Manasteine gemahlen, das Pulver mit durch Elfenmagie verzaubertem Metall vermischt und das ganze mit Runenmagie behandelt. Vielleicht hat sie etwas zu großen Aufwand betrieben. Es kann die natürlichen Kräfte der Elementaren wieder herstellen. Allerdings sagt man, dass Dosarta sehr enttäuscht war, als die Elementaren gekommen sind und nichts anderes getan haben, als um das Schmuckstück herumzusitzen ohne mit seiner Schöpferin zu spielen."
+    }
+  },
+  "s4": {
+    "name": "Wir schaffen das gemeinsam!",
+    "description": "Reduziert beim Blockieren den Cooldown von aktiven Skills um {0} Sekunden und erhöht die eigene K.VERT für {1} Sekunden um {2} + 1 % von Dosartas ANG. Beim Benutzen wird ein Cooldown von {3} Sekunden aktiv.",
+    "books": {
+      "0": "K.VERT-Erhöhugsrate erhöht sich um {0}%.",
+      "1": "K.VERT-Erhöhugsrate erhöht sich um {0}%.",
+      "2": "K.VERT-Erhöhugsrate erhöht sich um {0}%."
+    },
+    "light": "Effekte von VERT-Boosts können nun nicht mehr entfernt werden.",
+    "dark": "Ändert den Cooldown auf 4 Sekunden.",
+    "ut": {
+      "name": "Feder des Windes",
+      "description": [
+        "[Wir schaffen das gemeinsam!] Alle Verbündeten erhalten einen K.VERT-Boost, der für die Dauer des Skills zu einer Verringerung des K.Schadens von 6 % führt.",
+        "[Wir schaffen das gemeinsam!] Alle Verbündeten erhalten einen K.VERT-Boost, der für die Dauer des Skills zu einer Verringerung des K.Schadens von 7 % führt.",
+        "[Wir schaffen das gemeinsam!] Alle Verbündeten erhalten einen K.VERT-Boost, der für die Dauer des Skills zu einer Verringerung des K.Schadens von 8 % führt.",
+        "[Wir schaffen das gemeinsam!] Alle Verbündeten erhalten einen K.VERT-Boost, der für die Dauer des Skills zu einer Verringerung des K.Schadens von 10 % führt.",
+        "[Wir schaffen das gemeinsam!] Alle Verbündeten erhalten einen K.VERT-Boost, der für die Dauer des Skills zu einer Verringerung des K.Schadens von 12 % führt.",
+        "[Wir schaffen das gemeinsam!] Alle Verbündeten erhalten einen K.VERT-Boost, der für die Dauer des Skills zu einer Verringerung des K.Schadens von 15 % führt."
+      ],
+      "story": "Auren, der Vogel des Windes, ist das Symbol der Königsfamilie von Elidora. Seine blauen Federn sorgen für einen sanften, erfrischenden Wind. Selene hatte einen Auren als Haustier, um den sich Dosarta liebevoll gekümmert hat. Als Dosarta ihr Zuhause in Richtung Turm der Herausforderung verließ, gab Selene ihr diese Schreibfeder, bestehend aus einer Schwanzfeder ihres geliebten Auren. So sollte sie sich ihm immer nahe fühlen. Dosarta hat sie nie benutzt, seit sie in ihrem Besitz ist, aber sie bewahrt sie an einem sicheren Ort auf."
+    }
+  },
+  "t5": {
+    "light": "ANG, VERT, TP +15 % / TP +10 %",
+    "dark": "Blockiert jeglichen erlittenen Schaden für 2 Sekunden, wenn ein Skill verwendet wird."
+  }
+}

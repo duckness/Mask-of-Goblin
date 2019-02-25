@@ -1,0 +1,144 @@
+{
+  "name": "Dosarta",
+  "subtitle": "Viento de la pureza",
+  "description": "Una princesa élfica que protege la Torre del Desafío, ubicada en el Reino de Elidora. Conoce mejor que nadie los artefactos antiguos y el poder que poseen.",
+  "story": "Un centinela del Reino de Elidora haciendo guardia en la Torre del desafío. De acuerdo con las normas, los pertenecientes a una familia real que tengan el cargo de guardián casi nunca son liberados de su deber antes de que finalice su servicio, pero, en épocas de desesperación, siempre hay excepciones. Por cuestiones de necesidad, Dosarta tuvo el permiso de abandonar la Torre del desafío para llevar a cabo distintas misiones, y ahora está decidida a aprovechar esta oportunidad para hacer muchos amigos. ¿Cuántos amigos puede hacer esta guardiana élfica?",
+  "like": "Susurros de los elementales, Selene, hacer amigos",
+  "dislike": "Soledad, aburrimiento",
+  "inn": {
+    "idle": "Ah, ¡hola! ¿Qué historia tienes para contarme esta vez?",
+    "recruit": {
+      "greet": "",
+      "talk": [
+        "",
+        "",
+        ""
+      ],
+      "gift": ""
+    },
+    "affinity": {
+      "greet": "¡Los artefactos antiguos son muy interesantes! ¿Son peligrosos? *Ríe* Bueno, ¡no para mí!",
+      "talk": [
+        "Selene puede ser muy estricta a veces, pero ¡también es muy agradable y bondadosa!",
+        "Oh, ¡gracias! ¡La próxima vez tendré un regalo preparado para ti!"
+      ],
+      "gift": "¡Me alegra volver a verte!"
+    },
+    "relationship": {
+      "greet": "Ah, ¡la comida para humanos es muy interesante!",
+      "talk": [
+        "Entonces así es un pueblo de humanos. Je, je, je, cuánta gente y cuánta alegría hay. ¡Me encanta!",
+        "Ya es hora de hacer una pausa para comer algo. Ah, ¿te gustaría algún refrigerio?",
+        "Me sentía un poco sola en la Torre del desafío, pero ¡eso ya es cosa del pasado!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Valor antiguo, Seliere",
+    "description": [
+      "Al inicio de la batalla, aumenta el Ataque de todos los aliados en un 10 % y toda la Defensa en un 20 %, y reduce el Costo de Mana de la siguiente habilidad utilizada por el héroe en 1 durante 10 segundos. Este efecto no se puede disipar.",
+      "Al inicio de la batalla, aumenta el Ataque de todos los aliados en un 12 % y toda la Defensa en un 24 %, y reduce el Costo de Mana de la siguiente habilidad utilizada por el héroe en 1 durante 11 segundos. Este efecto no se puede disipar.",
+      "Al inicio de la batalla, aumenta el Ataque de todos los aliados en un 14 % y toda la Defensa en un 29 %, y reduce el Costo de Mana de la siguiente habilidad utilizada por el héroe en 1 durante 12 segundos. Este efecto no se puede disipar.",
+      "Al inicio de la batalla, aumenta el Ataque de todos los aliados en un 17 % y toda la Defensa en un 35 %, y reduce el Costo de Mana de la siguiente habilidad utilizada por el héroe en 1 durante 13 segundos. Este efecto no se puede disipar.",
+      "Al inicio de la batalla, aumenta el Ataque de todos los aliados en un 21 % y toda la Defensa en un 42 %, y reduce el Costo de Mana de la siguiente habilidad utilizada por el héroe en 1 durante 14 segundos. Este efecto no se puede disipar.",
+      "Al inicio de la batalla, aumenta el Ataque de todos los aliados en un 25 % y toda la Defensa en un 50 %, y reduce el Costo de Mana de la siguiente habilidad utilizada por el héroe en 1 durante 15 segundos. Este efecto no se puede disipar."
+    ],
+    "story": "Un dibujo encontrado en la Torre del desafío y un escudo antiguo hecho con piezas de artefactos que se dejaron abandonadas después de alguna restauración. El escudo cuenta con hechizos protectores antiguos, cuyos límites son desconocidos para todo el mundo. Ni siquiera Dosarta conoce realmente sus poderes, pero eso no le preocupa en lo más mínimo. \"Tengo tiempo de sobra para probarlo y descubrir lo que puede hacer\", afirmó. Proteger la Torre del desafío era una tarea tan aburrida que incluso entrenar sus habilidades era un pasatiempo para ella."
+  },
+  "s1": {
+    "name": "¡Esto dolerá!",
+    "description": "Aumenta la Resistencia al control de multitudes de los aliados dentro de un área alrededor del héroe en {4} durante 10 segundos, ataca a enemigos para infligir {0} de Daño mágico, aumenta la cantidad de Daño mágico recibido en un {2}  % durante {1} segundos y evita la recuperación de Mana durante {3} segundos.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Recupera en 1 el Mana para un aliado dentro de un área.",
+    "dark": "Reduce el Bloqueo mágico de un objetivo en 500 durante 5 segundos.",
+    "ut": {
+      "name": "Brazalete de Elidora",
+      "description": [
+        "[¡Esto dolerá!] Aumenta la Tasa de curación de un aliado dentro de un área en un 20 % durante 4 segundos y reduce la Tasa de curación del enemigo afectado en un 50 % durante 4 segundos.",
+        "[¡Esto dolerá!] Aumenta la Tasa de curación de un aliado dentro de un área en un 24 % durante 4 segundos y reduce la Tasa de curación del enemigo afectado en un 50 % durante 4 segundos.",
+        "[¡Esto dolerá!] Aumenta la Tasa de curación de un aliado dentro de un área en un 29 % durante 4 segundos y reduce la Tasa de curación del enemigo afectado en un 50 % durante 4 segundos.",
+        "[¡Esto dolerá!] Aumenta la Tasa de curación de un aliado dentro de un área en un 35 % durante 4 segundos y reduce la Tasa de curación del enemigo afectado en un 50 % durante 4 segundos.",
+        "[¡Esto dolerá!] Aumenta la Tasa de curación de un aliado dentro de un área en un 42 % durante 4 segundos y reduce la Tasa de curación del enemigo afectado en un 50 % durante 4 segundos.",
+        "[¡Esto dolerá!] Aumenta la Tasa de curación de un aliado dentro de un área en un 50 % durante 4 segundos y reduce la Tasa de curación del enemigo afectado en un 50 % durante 4 segundos."
+      ],
+      "story": "Un par de brazaletes azules que se asemejan al bosque de Elidora, tan frondoso y lleno de vida. Uno de los pasatiempos que Dosarta empezó a hacer durante sus horas de soledad en la Torre del desafío fue la artesanía, y esta herramienta mágica llena de la vitalidad de Elidora fue el resultado de esta nueva afición. Dosarta cree que no son más que un par de accesorios lindos, pero..."
+    }
+  },
+  "s2": {
+    "name": "¡En guardia!",
+    "description": "Disipa los efectos negativos de todos los aliados y aumenta la Defensa física en {1} + 4 % del Ataque de Dosarta durante {0} segundos.",
+    "books": {
+      "0": "la tasa de aumento de DEF Fis. Se eleva en {0}%.",
+      "1": "la tasa de aumento de DEF Fis. Se eleva en {0}%.",
+      "2": "la tasa de aumento de DEF Fis. Se eleva en {0}%."
+    },
+    "light": "Reduce el Costo de Mana en 1.",
+    "dark": "Aumenta el Costo de Mana en 1 y agrega Inmunidad al control de multitudes durante 2 segundos.",
+    "ut": {
+      "name": "Cristal del bosque",
+      "description": [
+        "[¡En guardia!] Aumenta el monto de amplificación de la Defensa en un 50 % y también incrementa la Probabilidad de crítico en 200 durante 5 segundos.",
+        "[¡En guardia!] Aumenta el monto de amplificación de la Defensa en un 50 % y también incrementa la Probabilidad de crítico en 240 durante 5 segundos.",
+        "[¡En guardia!] Aumenta el monto de amplificación de la Defensa en un 50 % y también incrementa la Probabilidad de crítico en 290 durante 5 segundos.",
+        "[¡En guardia!] Aumenta el monto de amplificación de la Defensa en un 50 % y también incrementa la Probabilidad de crítico en 350 durante 5 segundos.",
+        "[¡En guardia!] Aumenta el monto de amplificación de la Defensa en un 50 % y también incrementa la Probabilidad de crítico en 420 durante 5 segundos.",
+        "[¡En guardia!] Aumenta el monto de amplificación de la Defensa en un 50 % y también incrementa la Probabilidad de crítico en 500 durante 5 segundos."
+      ],
+      "story": "Una esfera de cristal antigua que ha pertenecido a la familia real de Elidora durante generaciones. Es una herramienta mágica que los elfos reales a cargo de la Torre del desafío fabricaron con piezas de artefactos. Se dice que el propietario de esta esfera de cristal puede hablar con cualquier persona en el mundo de forma remota, sin importar dónde se encuentre. Para responder ante cualquier imprevisto en la Torre del desafío, la familia real impuso una norma que determina que solo el administrador de la Torre del desafío puede poseerla. A pesar de su importancia estratégica e histórica, esta esfera de cristal no es más que un medio de comunicación para Dosarta, ya que la usa para entablar conversaciones ocasionales con su hermana mayor, Selene."
+    }
+  },
+  "s3": {
+    "name": "¡Hola! ¡Kya! ¡Toma esto!",
+    "description": "Ataca a un objetivo enemigo 4 veces, lo que le inflige un total de {0} de Daño mágico y lo aturde durante {1} segundos. Luego, se lanza a un ataque final sobre el enemigo frontal dentro de un área, lo que inflige {2} de Daño mágico y atrae al enemigo al centro. Frente a un objetivo que no es héroe, cada ataque inflige {3} de Daño mágico adicional que ignora la Defensa.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Otorga Inmunidad al control de multitudes mientras está en uso.",
+    "dark": "Aumenta la cantidad de Daño mágico que recibe un objetivo en un 25 % durante 10 segundos.",
+    "ut": {
+      "name": "Nido del Elemental de viento",
+      "description": [
+        "[¡Hola! ¡Kya! ¡Toma esto!] Aumenta la Precisión en 750 y la Precisión del control de multitudes en 300 mientras está en uso.",
+        "[¡Hola! ¡Kya! ¡Toma esto!] Aumenta la Precisión en 750 y la Precisión del control de multitudes en 360 mientras está en uso.",
+        "[¡Hola! ¡Kya! ¡Toma esto!] Aumenta la Precisión en 750 y la Precisión del control de multitudes en 430 mientras está en uso.",
+        "[¡Hola! ¡Kya! ¡Toma esto!] Aumenta la Precisión en 750 y la Precisión del control de multitudes en 520 mientras está en uso.",
+        "[¡Hola! ¡Kya! ¡Toma esto!] Aumenta la Precisión en 750 y la Precisión del control de multitudes en 630 mientras está en uso.",
+        "[¡Hola! ¡Kya! ¡Toma esto!] Aumenta la Precisión en 750 y la Precisión del control de multitudes en 750 mientras está en uso."
+      ],
+      "story": "Un adorno que Dosarta creó para jugar con los Elementales de viento mientras hacía guardia en la Torre del desafío en solitario. Pulverizó las piedras de mana que les gusta a los elementales, añadió el polvo al metal tratado con magia élfica e infundió la mezcla con magia rúnica. Es posible que haya invertido demasiado esfuerzo en crear esta especie de juguete. Restaura los poderes naturales de los elementales. Sin embargo, corre el rumor de que Dosarta se desanimó cuando los elementales vinieron, ya que solo se sentaron al lado de este objeto y no jugaron con él."
+    }
+  },
+  "s4": {
+    "name": "¡Vamos al desafío juntos!",
+    "description": "Al utilizar el bloqueo, reduce el tiempo de reutilización de las habilidades activas en {0} segundos y aumenta la Defensa física propia en {2} + 1 % del Ataque de Dosarta durante {1} segundos. Al utilizarlo, se aplica un tiempo de reutilización de {3} segundos.",
+    "books": {
+      "0": "la tasa de aumento de DEF Fis. Se eleva en {0}%.",
+      "1": "la tasa de aumento de DEF Fis. Se eleva en {0}%.",
+      "2": "la tasa de aumento de DEF Fis. Se eleva en {0}%."
+    },
+    "light": "Los efectos de amplificación de Defensa ahora no se pueden disipar.",
+    "dark": "Cambia el tiempo de reutilización a 4 segundos.",
+    "ut": {
+      "name": "Pluma del viento",
+      "description": [
+        "[¡Vamos al desafío juntos!] El amplificador de Defensa física se aplica a todos los aliados y agrega un 6 % de reducción de Daño físico mientras dura la habilidad.",
+        "[¡Vamos al desafío juntos!] El amplificador de Defensa física se aplica a todos los aliados y agrega un 7 % de reducción de Daño físico mientras dura la habilidad.",
+        "[¡Vamos al desafío juntos!] El amplificador de Defensa física se aplica a todos los aliados y agrega un 8 % de reducción de Daño físico mientras dura la habilidad.",
+        "[¡Vamos al desafío juntos!] El amplificador de Defensa física se aplica a todos los aliados y agrega un 10 % de reducción de Daño físico mientras dura la habilidad.",
+        "[¡Vamos al desafío juntos!] El amplificador de Defensa física se aplica a todos los aliados y agrega un 12 % de reducción de Daño físico mientras dura la habilidad.",
+        "[¡Vamos al desafío juntos!] El amplificador de Defensa física se aplica a todos los aliados y agrega un 15 % de reducción de Daño físico mientras dura la habilidad."
+      ],
+      "story": "Auren, el Pájaro del viento, es un símbolo de la familia real de Elidora. Con sus plumas azules crea un viento suave y refrescante. Selene tenía un Aulen de mascota que Dosarta se encargaba de cuidar muy bien. Cuando Dosarta abandonó su casa para ir a la Torre del desafío, Selene hizo esta pluma de escribir con una pluma de su querido Aulen para sentir que lo tenía cerca en todo momento. Desde entonces, Dosarta nunca la usó y la tiene guardada en un lugar seguro."
+    }
+  },
+  "t5": {
+    "light": "Ataque, Defensa, Salud +15 %/Salud +10 %",
+    "dark": "Al utilizar una habilidad, bloquea todo el Daño hacia uno durante 2 segundos."
+  }
+}

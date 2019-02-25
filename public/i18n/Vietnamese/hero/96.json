@@ -1,0 +1,144 @@
+{
+  "name": "Dosarta",
+  "subtitle": "Cơn gió thuần khiết",
+  "description": "Công chúa Tiên bảo vệ Tháp thách thức ở Vương quốc Elidora. Cô ấy biết về Cổ vật cổ đại và sức mạnh của chúng nhiều hơn bất kỳ ai.",
+  "story": "Lính gác của Vương quốc Elidora đứng gác ở Tháp thách thức. Theo luật thì những người thuộc hoàng tộc có nhiệm vụ làm lính gác gần như không bao giờ được rời khỏi vị trí trước khi kết thúc nghĩa vụ, nhưng vào những thời điểm khó khăn thì cũng có ngoại lệ. Nếu cần, Dosarta được phép rời khỏi Tháp thách thức để thực thi nhiệm vụ, và giờ đây cô ấy quyết định tận dụng cơ hội này để kết bạn với nhiều người. Lính gác Tiên này có thể kết bạn với bao nhiêu người?",
+  "like": "Lời thì thầm của các nguyên tố, Selene, kết bạn",
+  "dislike": "Sự cô đơn, sự tẻ nhạt",
+  "inn": {
+    "idle": "Ồ, xin chào! Lần này ngươi có chuyện gì để kể cho ta nhỉ?",
+    "recruit": {
+      "greet": "",
+      "talk": [
+        "",
+        "",
+        ""
+      ],
+      "gift": ""
+    },
+    "affinity": {
+      "greet": "Cổ vật cổ đại thực sự rất hấp dẫn! Chúng có nguy hiểm không à? *Cười khúc khích* Chà, với ta thì không!",
+      "talk": [
+        "Selene đôi khi rất nghiêm khắc, nhưng cô ấy cũng rất dễ thương và chu đáo!",
+        "Ồ, cảm ơn ngươi! Lần sau ta sẽ tặng quà cho ngươi!"
+      ],
+      "gift": "Rất vui được gặp lại ngươi!"
+    },
+    "relationship": {
+      "greet": "Ồ, đồ ăn của con người thực sự hấp dẫn đấy!",
+      "talk": [
+        "Vậy, thị trấn của con người giống thế này à. He he, thật đáng yêu và đông đúc. Ta rất thích!",
+        "Đồ ăn nhanh à! À, ngươi có muốn ăn một chút không?",
+        "Ta từng thấy hơi cô đơn ở Tháp thách thức, nhưng nay đã hết rồi!"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Gan dạ cổ đại, Seliere",
+    "description": [
+      "Vào đầu trận chiến, tăng 10% Sức tấn công, 20% Tất cả phòng thủ trong 10 giây cho mọi đồng minh, rồi giảm 1 mức Tiêu hao mana của Kỹ năng tiếp theo mà bản thân sử dụng. Không thể giải trừ hiệu ứng này.",
+      "Vào đầu trận chiến, tăng 12% Sức tấn công, 24% Tất cả phòng thủ trong 11 giây cho mọi đồng minh, rồi giảm 2 mức Tiêu hao mana của Kỹ năng tiếp theo mà bản thân sử dụng. Không thể giải trừ hiệu ứng này.",
+      "Vào đầu trận chiến, tăng 14% Sức tấn công, 29% Tất cả phòng thủ trong 12 giây cho mọi đồng minh, rồi giảm 3 mức Tiêu hao mana của Kỹ năng tiếp theo mà bản thân sử dụng. Không thể giải trừ hiệu ứng này.",
+      "Vào đầu trận chiến, tăng 17% Sức tấn công, 35% Tất cả phòng thủ trong 13 giây cho mọi đồng minh, rồi giảm 4 mức Tiêu hao mana của Kỹ năng tiếp theo mà bản thân sử dụng. Không thể giải trừ hiệu ứng này.",
+      "Vào đầu trận chiến, tăng 21% Sức tấn công, 42% Tất cả phòng thủ trong 14 giây cho mọi đồng minh, rồi giảm 5 mức Tiêu hao mana của Kỹ năng tiếp theo mà bản thân sử dụng. Không thể giải trừ hiệu ứng này.",
+      "Vào đầu trận chiến, tăng 25% Sức tấn công, 50% Tất cả phòng thủ trong 15 giây cho mọi đồng minh, rồi giảm 6 mức Tiêu hao mana của Kỹ năng tiếp theo mà bản thân sử dụng. Không thể giải trừ hiệu ứng này."
+    ],
+    "story": "Khiên cổ đại được làm từ bản vẽ thiết kế trong Tháp thách thức và các mảnh cổ vật còn sót lại sau khi phục hồi. Tấm khiên có các câu thần chú bảo vệ cổ đại mà giới hạn của chúng vẫn là điều bí ẩn đối với thế giới. Kể cả Dosarta cũng không biết hết sức mạnh của nó và cô ấy cũng chẳng quan tâm. Cô ấy đã nói rằng 'Ta có nhiều thời gian để tiếp xúc và tìm hiểu xem nó là gì'. Canh gác cho Tháp thách thức là công việc tẻ nhạt đến mức việc huấn luyện các kỹ năng đã trở thành thú tiêu khiển của cô ấy."
+  },
+  "s1": {
+    "name": "Đòn này hơi đau đấy!",
+    "description": "Tăng {4} mức Kháng chế ngự của đồng minh xung quanh bản thân trong 10 giây, tấn công kẻ địch để gây {0} Sát thương phép thuật, tăng {2}% lượng Sát thương phép thuật nhận vào trong {1} giây và ngăn hồi MP trong {3} giây.",
+    "books": {
+      "0": "Tăng {0}% sát thương",
+      "1": "Tăng {0}% sát thương",
+      "2": "Tăng {0}% sát thương"
+    },
+    "light": "Hồi phục 1 điểm Mana cho một đồng minh trong phạm vi.",
+    "dark": "Giảm 500 điểm Đỡ đòn phép thuật của mục tiêu trong 5 giây.",
+    "ut": {
+      "name": "Vòng tay của Elidora",
+      "description": [
+        "[Đòn này hơi đau đấy!] Tăng 20% Tỷ lệ hồi máu của đồng minh trong một phạm vi trong 4 giây và giảm 50% Tỷ lệ hồi máu của kẻ địch trúng đòn trong 4 giây.",
+        "[Đòn này hơi đau đấy!] Tăng 24% Tỷ lệ hồi máu của đồng minh trong một phạm vi trong 4 giây và giảm 50% Tỷ lệ hồi máu của kẻ địch trúng đòn trong 4 giây.",
+        "[Đòn này hơi đau đấy!] Tăng 29% Tỷ lệ hồi máu của đồng minh trong một phạm vi trong 4 giây và giảm 50% Tỷ lệ hồi máu của kẻ địch trúng đòn trong 4 giây.",
+        "[Đòn này hơi đau đấy!] Tăng 35% Tỷ lệ hồi máu của đồng minh trong một phạm vi trong 4 giây và giảm 50% Tỷ lệ hồi máu của kẻ địch trúng đòn trong 4 giây.",
+        "[Đòn này hơi đau đấy!] Tăng 42% Tỷ lệ hồi máu của đồng minh trong một phạm vi trong 4 giây và giảm 50% Tỷ lệ hồi máu của kẻ địch trúng đòn trong 4 giây.",
+        "[Đòn này hơi đau đấy!] Tăng 50% Tỷ lệ hồi máu của đồng minh trong một phạm vi trong 4 giây và giảm 50% Tỷ lệ hồi máu của kẻ địch trúng đòn trong 4 giây."
+      ],
+      "story": "Hai chiếc vòng tay màu lam giống với khu rừng rậm và nguy hiểm của Elidora. Một trong những sở thích của Dosarta trong thời gian cô đơn ở Tháp thách thức là đồ thủ công và công cụ phép thuật đầy quyền năng tràn đầy sinh lực của Elidora là kết quả của thú vui này. Dosarta nghĩ rằng chúng chỉ là hai phụ kiện đẹp mắt, nhưng..."
+    }
+  },
+  "s2": {
+    "name": "Cảnh giác!",
+    "description": "Giải trừ Hiệu ứng có hại khỏi tất cả đồng minh và tăng {1} Phòng thủ vật lý + 4% mức Tấn công của Dosarta trong {0} giây.",
+    "books": {
+      "0": "Tăng {0}% chỉ số tăng phòng phủ",
+      "1": "Tăng {0}% chỉ số tăng phòng phủ",
+      "2": "Tăng {0}% chỉ số tăng phòng phủ"
+    },
+    "light": "Giảm 1 điểm mức Tiêu hao mana.",
+    "dark": "Tăng 1 điểm mức Tiêu hao mana và cộng 2 giây Miễn nhiễm trạng thái chế ngự.",
+    "ut": {
+      "name": "Pha lê của rừng",
+      "description": [
+        "[Cảnh giác!] Tăng 50% mức Hỗ trợ Phòng thủ và tăng 200 điểm Xác suất chí mạng trong 5 giây.",
+        "[Cảnh giác!] Tăng 50% mức Hỗ trợ Phòng thủ và tăng 240 điểm Xác suất chí mạng trong 5 giây.",
+        "[Cảnh giác!] Tăng 50% mức Hỗ trợ Phòng thủ và tăng 290 điểm Xác suất chí mạng trong 5 giây.",
+        "[Cảnh giác!] Tăng 50% mức Hỗ trợ Phòng thủ và tăng 350 điểm Xác suất chí mạng trong 5 giây.",
+        "[Cảnh giác!] Tăng 50% mức Hỗ trợ Phòng thủ và tăng 420 điểm Xác suất chí mạng trong 5 giây.",
+        "[Cảnh giác!] Tăng 50% mức Hỗ trợ Phòng thủ và tăng 500 điểm Xác suất chí mạng trong 5 giây."
+      ],
+      "story": "Một viên tinh thể cổ đại được lưu truyền trong hoàng tộc của Elidora. Đó là một công cụ phép thuật được làm từ những mảnh cổ vật của tộc Tiên phụ trách Tháp thách thức. Người ta nói rằng người sở hữu viên tinh thể này có thể nói chuyện từ xa với bất kỳ ai trên thế giới, cho dù họ đang ở đâu. Để đối phó với mọi sự cố bất ngờ trong Tháp thách thức, hoàng tộc đã quy định rằng chỉ người quản lý Tháp thách thức mới được sở hữu viên tinh thể. Bất chấp tầm quan trọng về chiến lược và lịch sử, tinh thể chỉ là phương tiện giao tiếp mà Dosarta sử dụng để giao tiếp thông thường với chị cả của mình, Selene."
+    }
+  },
+  "s3": {
+    "name": "Hây a! Nhận lấy này!",
+    "description": "Tấn công một kẻ địch mục tiêu 4 lần, gây tổng cộng {0} Sát thương phép thuật và làm choáng mục tiêu trong {1} giây. Sau đó, triển khai đợt tấn công cuối cùng lên kẻ địch trước mặt trong phạm vi, gây {2} Sát thương phép thuật và kéo kẻ địch về trung tâm. Đối với mục tiêu không phải Anh hùng, mỗi đòn tấn công gây thêm {3} Sát thương phép thuật bỏ qua Phòng thủ.",
+    "books": {
+      "0": "Tăng {0}% sát thương",
+      "1": "Tăng {0}% sát thương",
+      "2": "Tăng {0}% sát thương"
+    },
+    "light": "Cho khả năng Miễn nhiễm trạng thái chế ngự khi sử dụng.",
+    "dark": "Tăng 25% lượng Sát thương phép thuật mà mục tiêu nhận được trong 10 giây.",
+    "ut": {
+      "name": "Hang ổ của nguyên tố gió",
+      "description": [
+        "[Hây a! Nhận lấy này!] Tăng 750 điểm Độ chính xác và 300 điểm Độ chính xác của kỹ năng gây trạng thái chế ngự khi sử dụng.",
+        "[Hây a! Nhận lấy này!] Tăng 750 điểm Độ chính xác và 360 điểm Độ chính xác của kỹ năng gây trạng thái chế ngự khi sử dụng.",
+        "[Hây a! Nhận lấy này!] Tăng 750 điểm Độ chính xác và 430 điểm Độ chính xác của kỹ năng gây trạng thái chế ngự khi sử dụng.",
+        "[Hây a! Nhận lấy này!] Tăng 750 điểm Độ chính xác và 520 điểm Độ chính xác của kỹ năng gây trạng thái chế ngự khi sử dụng.",
+        "[Hây a! Nhận lấy này!] Tăng 750 điểm Độ chính xác và 630 điểm Độ chính xác của kỹ năng gây trạng thái chế ngự khi sử dụng.",
+        "[Hây a! Nhận lấy này!] Tăng 750 điểm Độ chính xác và 750 điểm Độ chính xác của kỹ năng gây trạng thái chế ngự khi sử dụng."
+      ],
+      "story": "Một đồ trang trí mà Dosarta tạo ra để chơi cùng Nguyên tố gió trong khi canh gác Tháp thách thức một mình. Cô ấy đã nghiền đá Mana mà các nguyên tố thích, thêm bột vào kim loại được xử lý bằng phép thuật của Tiên và ngâm với Phép thuật cổ tự. Có lẽ công sức bỏ vào đồ chơi này là hơi nhiều. Nó sẽ phục hồi được sức mạnh tự nhiên của các nguyên tố. Tuy nhiên, có lời đồn cho rằng Dosarta đã thất vọng khi các nguyên tố xuất hiện và chẳng làm gì ngoài việc ngồi gần nó và cũng không thấy hứng thú với người tạo ra nó."
+    }
+  },
+  "s4": {
+    "name": "Cùng nhau thách đấu!",
+    "description": "Khi Đỡ đòn, giảm {0} giây Thời gian hồi chiêu của các kỹ năng chủ động và tăng {2} Phòng thủ vật lý của bản thân + 1% mức Tấn công của Dosarta trong {1} giây. Áp dụng Thời gian hồi chiêu {3} giây khi sử dụng.",
+    "books": {
+      "0": "Tăng {0}% chỉ số tăng phòng phủ",
+      "1": "Tăng {0}% chỉ số tăng phòng phủ",
+      "2": "Tăng {0}% chỉ số tăng phòng phủ"
+    },
+    "light": "Hiệu ứng tăng lực phòng thủ đổi thành trạng thái không thể gỡ bỏ.",
+    "dark": "Thời gian hồi chiêu đổi thành 4 giây.",
+    "ut": {
+      "name": "Lông vũ của gió",
+      "description": [
+        "[Cùng nhau thách đấu!] Áp dụng Hỗ trợ Phòng thủ vật lý cho tất cả đồng minh và cộng 6% mức Giảm sát thương vật lý trong thời gian hiệu lực của Kỹ năng.",
+        "[Cùng nhau thách đấu!] Áp dụng Hỗ trợ Phòng thủ vật lý cho tất cả đồng minh và cộng 7% mức Giảm sát thương vật lý trong thời gian hiệu lực của Kỹ năng.",
+        "[Cùng nhau thách đấu!] Áp dụng Hỗ trợ Phòng thủ vật lý cho tất cả đồng minh và cộng 8% mức Giảm sát thương vật lý trong thời gian hiệu lực của Kỹ năng.",
+        "[Cùng nhau thách đấu!] Áp dụng Hỗ trợ Phòng thủ vật lý cho tất cả đồng minh và cộng 10% mức Giảm sát thương vật lý trong thời gian hiệu lực của Kỹ năng.",
+        "[Cùng nhau thách đấu!] Áp dụng Hỗ trợ Phòng thủ vật lý cho tất cả đồng minh và cộng 12% mức Giảm sát thương vật lý trong thời gian hiệu lực của Kỹ năng.",
+        "[Cùng nhau thách đấu!] Áp dụng Hỗ trợ Phòng thủ vật lý cho tất cả đồng minh và cộng 15% mức Giảm sát thương vật lý trong thời gian hiệu lực của Kỹ năng."
+      ],
+      "story": "Aulen, Chim gió, là một biểu tượng cho hoàng tộc của Elidora. Những chiếc lông vũ màu lam dùng để quạt gió mát nhẹ. Selene thường chăm sóc linh thú Aulen mà Dosarta rất quan tâm. Khi Dosarta rời nhà đến Tháp thách thức, Selene làm chiếc bút lông này từ lông chim Aulen mà cô ấy rất yêu quý để Dosarta luôn cảm thấy được gần gũi với nó. Dosarta chưa bao giờ sử dụng chiếc bút đó kể từ khi biết được việc này và cô ấy chỉ cất bút ở nơi an toàn."
+    }
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / HP +10%",
+    "dark": "Khi sử dụng Kỹ năng, Chặn tất cả Sát thương mà bản thân phải chịu trong 2 giây."
+  }
+}

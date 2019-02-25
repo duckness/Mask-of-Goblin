@@ -1,0 +1,144 @@
+{
+  "name": "Dosarta",
+  "subtitle": "Vent de pureté",
+  "description": "Princesse elfe gardienne de la Tour du défi du royaume d'Elidora. Elle connaît mieux que quiconque les artéfacts antiques et le pouvoir qu'ils renferment.",
+  "story": "Une sentinelle du royaume d'Elidora montant la garde à la Tour du défi. Les règles sont strictes : les membres de la famille royale qui montent la garde ne sont jamais libérés de leurs fonctions avant la fin de leur service, mais à situation exceptionnelle, mesures exceptionnelles. Dosarta est autorisée à quitter la Tour du défi pour accomplir ses missions et elle compte bien en profiter pour rencontrer de nouvelles têtes. Combien d'amis cette gardienne elfe pourra-t-elle se faire ?",
+  "like": "Les murmures des élémentaux, Selene, se faire des amis.",
+  "dislike": "La solitude, l'ennui.",
+  "inn": {
+    "idle": "Oh, bonjour ! Quelle histoire allez-vous me raconter aujourd'hui ?",
+    "recruit": {
+      "greet": "",
+      "talk": [
+        "",
+        "",
+        ""
+      ],
+      "gift": ""
+    },
+    "affinity": {
+      "greet": "Les artéfacts antiques sont fascinants ! S'ils sont dangereux ? *Hi hi* En tout cas, pas pour moi !",
+      "talk": [
+        "Selene peut se montrer très stricte, mais elle est adorable et attentionnée !",
+        "Oh, merci ! La prochaine fois, c'est moi qui aurai un cadeau pour vous !"
+      ],
+      "gift": "Contente de vous revoir !"
+    },
+    "relationship": {
+      "greet": "Oh, la nourriture des humains est vraiment intéressante !",
+      "talk": [
+        "Oh, c'est ça, un village humain. Hé hé, c'est très joli, et très animé, j'aime beaucoup !",
+        "Pause, pause, pause goûter ! Vous en voulez ?",
+        "Je me sentais un peu seule à la Tour du défi, mais ce n'est plus le cas !"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Valeur ancestrale, Selliere",
+    "description": [
+      "Au début du combat, augmente l'ATQ de tous les alliés de 10 %, toutes DEF de 20 %, et réduit le coût en mana de la prochaine compétence utilisée de 1 point pendant 10 sec. Cet effet ne peut pas être dissipé.",
+      "Au début du combat, augmente l'ATQ de tous les alliés de 12 %, toutes DEF de 24 %, et réduit le coût en mana de la prochaine compétence utilisée de 1 point pendant 11 sec. Cet effet ne peut pas être dissipé.",
+      "Au début du combat, augmente l'ATQ de tous les alliés de 14 %, toutes DEF de 29 %, et réduit le coût en mana de la prochaine compétence utilisée de 1 point pendant 12 sec. Cet effet ne peut pas être dissipé.",
+      "Au début du combat, augmente l'ATQ de tous les alliés de 17 %, toutes DEF de 35 %, et réduit le coût en mana de la prochaine compétence utilisée de 1 point pendant 13 sec. Cet effet ne peut pas être dissipé.",
+      "Au début du combat, augmente l'ATQ de tous les alliés de 21 %, toutes DEF de 42 %, et réduit le coût en mana de la prochaine compétence utilisée de 1 point pendant 14 sec. Cet effet ne peut pas être dissipé.",
+      "Au début du combat, augmente l'ATQ de tous les alliés de 25 %, toutes DEF de 50 %, et réduit le coût en mana de la prochaine compétence utilisée de 1 point pendant 15 sec. Cet effet ne peut pas être dissipé."
+    ],
+    "story": "Un dessin retrouvé dans la Tour du défi et un bouclier antique comportant des morceaux d'artéfact qui n'ont pas été utilisés pendant la restauration. Ce bouclier est imprégné de sorts de protection aux limites étrangères à ce monde. Même Dosarta ne connaît pas toute l'étendue de ses pouvoirs, et d'ailleurs elle s'en fiche. « J'ai bien le temps de me faire la main avec et de voir de quoi il est capable », dit-elle. Monter la garde à la Tour du défi l'ennuyait tellement que même s'entraîner était devenu un passe-temps."
+  },
+  "s1": {
+    "name": "Ça va faire mal !",
+    "description": "Augmente la résistance aux contrôles des alliés autour du lanceur de {4}  points pendant 10 sec, attaque les ennemis et leur inflige {0}  points de DEG M, augmente les DEG M reçus de {2}  % pendant {1}  sec, et interrompt la récupération de mana pendant {3}  sec.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Restaure 1 point de mana pour un allié à portée.",
+    "dark": "Réduit le Blocage M de la cible de 500 points pendant 5 sec.",
+    "ut": {
+      "name": "Bracelet d'Elidora",
+      "description": [
+        "[Ça va faire mal !] Augmente la récupération d'un allié à portée de 20 % pendant 4 sec et réduit la récupération de l'ennemi touché de 50 % pendant 4 sec.",
+        "[Ça va faire mal !] Augmente la récupération d'un allié à portée de 24 % pendant 4 sec et réduit la récupération de l'ennemi touché de 50 % pendant 4 sec.",
+        "[Ça va faire mal !] Augmente la récupération d'un allié à portée de 29 % pendant 4 sec et réduit la récupération de l'ennemi touché de 50 % pendant 4 sec.",
+        "[Ça va faire mal !] Augmente la récupération d'un allié à portée de 35 % pendant 4 sec et réduit la récupération de l'ennemi touché de 50 % pendant 4 sec.",
+        "[Ça va faire mal !] Augmente la récupération d'un allié à portée de 42 % pendant 4 sec et réduit la récupération de l'ennemi touché de 50 % pendant 4 sec.",
+        "[Ça va faire mal !] Augmente la récupération d'un allié à portée de 50 % pendant 4 sec et réduit la récupération de l'ennemi touché de 50 % pendant 4 sec."
+      ],
+      "story": "Une paire de bracelets bleus semblables à l'épaisse forêt d'Elidora. Pendant les nombreuses heures passées en solitaire à la Tour du défi, Dosarta s'adonnait entre autres à l'artisanat, et ce puissant outil magique débordant de la vitalité d'Elidora en fut le résultat. Pour Dosarta, ce n'est qu'une jolie paire d'accessoires, mais..."
+    }
+  },
+  "s2": {
+    "name": "En garde !",
+    "description": "Dissipe les effets négatifs qui pèsent sur tous les alliés et augmente la DEF P à hauteur de {1}  points + 4 % de l'ATQ de Dosarta pendant {0}  sec.",
+    "books": {
+      "0": "Le taux d'augmentation de la DEF P. est augmenté de {0}%.",
+      "1": "Le taux d'augmentation de la DEF P. est augmenté de {0}%.",
+      "2": "Le taux d'augmentation de la DEF P. est augmenté de {0}%."
+    },
+    "light": "Réduit le coût en mana de 1 point.",
+    "dark": "Augmente le coût en mana de 1 point et confère l'immunité contre les contrôles pendant 2 sec.",
+    "ut": {
+      "name": "Cristal de forêt",
+      "description": [
+        "[En garde !] Augmente le boost de DEF de 50 % et les chances de coup critique de 200 pendant 5 sec.",
+        "[En garde !] Augmente le boost de DEF de 50 % et les chances de coup critique de 240 pendant 5 sec.",
+        "[En garde !] Augmente le boost de DEF de 50 % et les chances de coup critique de 290 pendant 5 sec.",
+        "[En garde !] Augmente le boost de DEF de 50 % et les chances de coup critique de 350 pendant 5 sec.",
+        "[En garde !] Augmente le boost de DEF de 50 % et les chances de coup critique de 420 pendant 5 sec.",
+        "[En garde !] Augmente le boost de DEF de 50 % et les chances de coup critique de 500 pendant 5 sec."
+      ],
+      "story": "Un orbe de cristal antique qui se transmet dans la famille royale d'Elidora. Cet instrument magique est fabriqué à partir de morceaux d'artéfact par les elfes royaux en charge de la Tour du défi. On raconte que le porteur de cet orbe de cristal peut parler à n'importe qui dans le monde, peu importe la distance. Afin de faire face aux imprévus à la Tour du défi, la famille royale établit que seul le gardien de la Tour du défi était autorisé à le posséder. Malgré son importance stratégique et historique, Dosarta s'en sert essentiellement pour parler à sa grande sœur Selene."
+    }
+  },
+  "s3": {
+    "name": "Ah ! Tiens ! Prends ça !",
+    "description": "Attaque 4 fois un ennemi ciblé, ce qui lui inflige un total de {0}  points de DEG M et l'étourdit pendant {1}  sec. Assène ensuite une ultime attaque à l'ennemi à portée situé en face, ce qui lui inflige {2}  points de DEG M et l'attire vers le centre. Les attaques infligent {3}  points de DEG M supplémentaires ignorant la DEF aux ennemis non-héros.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "Confère l'immunité contre les contrôles pendant l'utilisation de la compétence.",
+    "dark": "Augmente les DEG M reçus par la cible de 25 % pendant 10 sec.",
+    "ut": {
+      "name": "Nid d'élémental de vent",
+      "description": [
+        "[Ah ! Tiens ! Prends ça !] Augmente la précision de 750 points et la précision des contrôles de 300 pendant l'utilisation de la compétence.",
+        "[Ah ! Tiens ! Prends ça !] Augmente la précision de 750 points et la précision des contrôles de 360 pendant l'utilisation de la compétence.",
+        "[Ah ! Tiens ! Prends ça !] Augmente la précision de 750 points et la précision des contrôles de 430 pendant l'utilisation de la compétence.",
+        "[Ah ! Tiens ! Prends ça !] Augmente la précision de 750 points et la précision des contrôles de 520 pendant l'utilisation de la compétence.",
+        "[Ah ! Tiens ! Prends ça !] Augmente la précision de 750 points et la précision des contrôles de 630 pendant l'utilisation de la compétence.",
+        "[Ah ! Tiens ! Prends ça !] Augmente la précision de 750 points et la précision des contrôles de 750 pendant l'utilisation de la compétence."
+      ],
+      "story": "Une décoration conçue par Dosarta pour jouer avec les élémentaux de vent lorsqu'elle gardait seule la Tour du défi. Elle broya les pierres de mana appréciées des élémentaux, incorpora la poudre dans le métal façonné par la magie elfique, et imprégna le tout de magie runique. Peut-être a-t-elle investi trop d'énergie dans cette expérience ? Cette décoration restaure le pouvoir naturel des élémentaux. Il paraît cependant que Dosarta fut déçue de voir les élémentaux s'approcher et se contenter de rester assis sans s'amuser avec sa créatrice."
+    }
+  },
+  "s4": {
+    "name": "Je te mets au défi !",
+    "description": "Lors du blocage, réduit le Temps de Recharge des compétences actives de {0}  sec et augmente la DEF P personnelle à hauteur de {2} + 1 % de l'ATQ de Dosarta pendant {1}  sec. Un temps de recharge de {3}  sec est appliqué lors de l'utilisation.",
+    "books": {
+      "0": "Le taux d'augmentation de la DEF P. est augmenté de {0}%.",
+      "1": "Le taux d'augmentation de la DEF P. est augmenté de {0}%.",
+      "2": "Le taux d'augmentation de la DEF P. est augmenté de {0}%."
+    },
+    "light": "Les boosts de DEF ne peuvent plus être dissipés.",
+    "dark": "Le temps de recharge passe à 4 sec.",
+    "ut": {
+      "name": "Plume de vent",
+      "description": [
+        "[Je te mets au défi !] Un boost de DEF P est appliqué à tous les alliés et ajoute 6 % de réduction de DEG P pendant la durée de la compétence.",
+        "[Je te mets au défi !] Un boost de DEF P est appliqué à tous les alliés et ajoute 7 % de réduction de DEG P pendant la durée de la compétence.",
+        "[Je te mets au défi !] Un boost de DEF P est appliqué à tous les alliés et ajoute 8 % de réduction de DEG P pendant la durée de la compétence.",
+        "[Je te mets au défi !] Un boost de DEF P est appliqué à tous les alliés et ajoute 10 % de réduction de DEG P pendant la durée de la compétence.",
+        "[Je te mets au défi !] Un boost de DEF P est appliqué à tous les alliés et ajoute 12 % de réduction de DEG P pendant la durée de la compétence.",
+        "[Je te mets au défi !] Un boost de DEF P est appliqué à tous les alliés et ajoute 15 % de réduction de DEG P pendant la durée de la compétence."
+      ],
+      "story": "L'Auren, l'oiseau du vent, est l'un des symboles de la famille royale d'Elidora. Ses plumes bleues soulèvent une douce brise rafraîchissante. Selene avait domestiqué un Auren et Dosarta prit grand soin de lui. Lorsque Dosarta quitta le domicile familial pour partir à la Tour du défi, Selene lui offrit une plume de son Auren pour lui rappeler son foyer. Dosarta ne l'a jamais utilisée et la conserve en lieu sûr."
+    }
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV + 15 %/PV + 10 %",
+    "dark": "L'utilisation d'une compétence bloque tous les DEG infligés au lanceur pendant 2 sec."
+  }
+}

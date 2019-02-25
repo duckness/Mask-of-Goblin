@@ -1,0 +1,144 @@
+{
+  "name": "Glenwys",
+  "subtitle": "Escudo do Império",
+  "description": "Nascida plebeia no Império, agora cavaleira. Ela é venerada por inúmeros plebeus por ter conquistado o posto de Vice-Capitã dos Cavaleiros da Guarda Capital com nada além de suas próprias habilidades. Ela jurou tornar-se o escudo que protege os cidadãos imperiais, não há ninguém mais devoto do que ela servindo ao Império.",
+  "story": "Se você pedir aos cidadãos do Império para escolherem o cavaleiro que mais amam, o nome Glenwys estará no topo da lista. Ela é a Vice-Capitã dos Cavaleiros da Guarda Capital do Império, o posto mais alto concedido a um cavaleiro de origem plebeia. Com suas ferozes habilidades de combate acompanhadas por modéstia e um forte senso de responsabilidade, ser uma cavaleira é sua vocação. Sem dúvida, Glenwys é a esperança de todos os plebeus do Império, já que ela conquistou o posto de Vice-Capitã e venceu os 3 torneios de combates realizados pelo próprio Imperador. Sendo um símbolo da crença de que qualquer um que seja hábil o suficiente pode alcançar o sucesso no Império, ela tem recebido a atenção de muitos.",
+  "like": "Treinar, os sorrisos dos Cidadãos do Império, ambientes alegres, tortas de maçã.",
+  "dislike": "Cidadãos sofrendo, eventos sociais e festas da nobreza.",
+  "inn": {
+    "idle": "É uma bela pousada, tudo muito bonito e bem limpo. A comida também parece incrível.",
+    "recruit": {
+      "greet": "Olá. Como tem passado?",
+      "talk": [
+        "A vila parece estar bem segura hoje.",
+        "Oh, uma fatia de pão e um pouco de sopa seria ótimo. Não sou de comer nada muito extravagante.",
+        "Ha ha. Uma cavaleira também precisa descansar de vez em quando."
+      ],
+      "gift": "Um presente... pra mim? H-hum... A-agradeço pela gentileza."
+    },
+    "affinity": {
+      "greet": "Ah, olá. Nos encontramos novamente.",
+      "talk": [
+        "Já acabou por hoje? Que tal treinarmos juntos?",
+        "No Império, nós valorizamos muito mais a competência do que a origem. O esforço incessante é o único caminho para o sucesso."
+      ],
+      "gift": "Eu não mereço um presente desses, mas... Obrigada. Darei o melhor de mim para retribuir."
+    },
+    "relationship": {
+      "greet": "Oh, aí está você. Gostaria de comer alguma coisa comigo?",
+      "talk": [
+        "Às vezes... sinto que não mereço a admiração que vejo nos olhos das crianças.",
+        "Eu me dou bem com os cavaleiros de linhagem nobre. Alguns até duelam comigo.",
+        "Sou sempre grata à Sua Majestade. É por causa da graça de Sua Majestade que uma plebeia como eu pôde se tornar o que sou hoje."
+      ]
+    }
+  },
+  "uw": {
+    "name": "O Contra-Ataque, Maxithea",
+    "description": [
+      "Sempre que uma Habilidade for usada, aumenta o ATQ de todos os aliados em 1% e o DAN Crít em 2%. Esse efeito é acumulado até 4 vezes e todos os efeitos são dobrados no acúmulo máximo. Esse efeito não pode ser removido.",
+      "Sempre que uma Habilidade for usada, aumenta o ATQ de todos os aliados em 1,2% e o DAN Crít em 2,4%. Esse efeito é acumulado até 4 vezes e todos os efeitos são dobrados no acúmulo máximo. Esse efeito não pode ser removido.",
+      "Sempre que uma Habilidade for usada, aumenta o ATQ de todos os aliados em 1,4% e o DAN Crít em 2,8%. Esse efeito é acumulado até 4 vezes e todos os efeitos são dobrados no acúmulo máximo. Esse efeito não pode ser removido.",
+      "Sempre que uma Habilidade for usada, aumenta o ATQ de todos os aliados em 1,7% e o DAN Crít em 3,4%. Esse efeito é acumulado até 4 vezes e todos os efeitos são dobrados no acúmulo máximo. Esse efeito não pode ser removido.",
+      "Sempre que uma Habilidade for usada, aumenta o ATQ de todos os aliados em 2% e o DAN Crít em 4,2%. Esse efeito é acumulado até 4 vezes e todos os efeitos são dobrados no acúmulo máximo. Esse efeito não pode ser removido.",
+      "Sempre que uma Habilidade for usada, aumenta o ATQ de todos os aliados em 2,5% e o DAN Crít em 5%. Esse efeito é acumulado até 4 vezes e todos os efeitos são dobrados no acúmulo máximo. Esse efeito não pode ser removido."
+    ],
+    "story": "Um escudo e uma fuzilâmina criada com a engenharia mecânica de ponta do Império. A fuzilâmina é um protótipo criado pelo Departamento de Engenharia Mecânica da Magos Le’flamme, sendo uma arma mortal desenvolvida para atacar múltiplos inimigos a curta distância. O escudo foi desenvolvido para aparar e contra-atacar os ataques dos inimigos, sua habilidade de absorver e mitigar impactos é incomparável. Foi um presente concedido pela família real do Império em reconhecimento às conquistas de Glenwys como parte dos Cavaleiros."
+  },
+  "s1": {
+    "name": "Isso é Tudo",
+    "description": "Causa um total de {0} de DAN F. com 7 ataques contra inimigos na vanguarda dento do alcance. Cada ataque aumenta o DAN F. recebido em 4% por 10 segundos. Este efeito pode ser acumulado no máximo 7 vezes. Se o alvo não for um Herói, causa {1} de DAN F. adicional.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "DAN aumenta em {0}%."
+    },
+    "light": "Aumenta o Custo de Mana em 1. O DAN causado a inimigos não Heroicos agora ignora a DEF.",
+    "dark": "Reduz a Vel de ATQ do alvo em 250 por 10 segundos.",
+    "ut": {
+      "name": "Insígnia de Líder Alfa",
+      "description": [
+        "[Isso é Tudo] Aumenta o DAN em 50% e reduz a Recarga em 1% após um Acerto Crítico.",
+        "[Isso é Tudo] Aumenta o DAN em 50% e reduz a Recarga em 1,2% após um Acerto Crítico.",
+        "[Isso é Tudo] Aumenta o DAN em 50% e reduz a Recarga em 1,4% após um Acerto Crítico.",
+        "[Isso é Tudo] Aumenta o DAN em 50% e reduz a Recarga em 1,7% após um Acerto Crítico.",
+        "[Isso é Tudo] Aumenta o DAN em 50% e reduz a Recarga em 2% após um Acerto Crítico.",
+        "[Isso é Tudo] Aumenta o DAN em 50% e reduz a Recarga em 2.5% após um Acerto Crítico."
+      ],
+      "story": "É o símbolo dos Cavaleiros da Guarda Capital. É uma insígnia concedida ao Líder Alfa, que tem autoridade para impor justiça sumária para proteger a segurança pública do Império. Eleito por unanimidade, o posto de Líder Alfa é para um cavaleiro que possua técnicas de combate incomparáveis e uma grande reputação entre os seus companheiros cavaleiros."
+    }
+  },
+  "s2": {
+    "name": "Não Hesitarei",
+    "description": "Causa {0} de DAN F. com 10 ataques contra inimigos em um círculo ao redor de si, atordoando-os por {1} segundos. O último ataque causa {2} de DAN F. aos inimigos na vanguarda e os atordoa por {3} segundos.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "DAN aumenta em {0}%."
+    },
+    "light": "Aumenta a quantidade de DAN F. que o alvo recebe em 25% por 10 segundos.",
+    "dark": "Aumenta a duração de Atordoamento em 0.5 segundo.",
+    "ut": {
+      "name": "Louvor do Dente-de-Leão",
+      "description": [
+        "[Não Hesitarei] Reduz a Recarga em 4.5 segundos e a Taxa de Cura do inimigo em 20%.",
+        "[Não Hesitarei] Reduz a Recarga em 4.5 segundos e a Taxa de Cura do inimigo em 24%.",
+        "[Não Hesitarei] Reduz a Recarga em 4.5 segundos e a Taxa de Cura do inimigo em 28%.",
+        "[Não Hesitarei] Reduz a Recarga em 4.5 segundos e a Taxa de Cura do inimigo em 34%.",
+        "[Não Hesitarei] Reduz a Recarga em 4.5 segundos e a Taxa de Cura do inimigo em 42%.",
+        "[Não Hesitarei] Reduz a Recarga em 4.5 segundos e a Taxa de Cura do inimigo em 50%."
+      ],
+      "story": "O Torneio Anual do Coliseu Imperial era onde todos os lutadores corajosos podiam competir para provar seu valor, independentemente de suas origens ou classe social. Apesar disso, o vencedor sempre costumava ser um nobre, cavaleirou ou soldado bem equipado, financiado por famílias nobres. Todos sabiam que aquilo já não era mais justo, mas ninguém tinha a coragem de dizer. Porém, Glenwys, uma garota plebeia de 16 anos, sem qualquer influência, venceu o torneio há 4 anos e o nobre propósito da competição foi restaurado. No dia de sua vitória, o Coliseu se encheu com os aplausos estrondosos do público que não via a hora de ver aristocratas arrogantes perdendo aquilo que acreditavam pertencer a eles. Glenwys tornou-se um novo ídolo do Império, e as pessoas estavam até comprando presentes para ela. Contudo, Glenwys se viu tendo que recusar todos os presentes. Não só toda aquela atenção nacional era demais para ela, como ela também sabia que os poderosos jamais se alegrariam em ver plebeus vibrando ao redor de uma heroína como ela. No entanto, ela não conseguiu dizer não a uma tímida garotinha que se aproximou, segurando com suas mãos pequeninas, um peso de papel feito de dentes-de-leão, o único presente que Glenwys guardou para si."
+    }
+  },
+  "s3": {
+    "name": "Que Comece o Contra-Ataque",
+    "description": "Recorrendo à força do Escudo Imperial, causa {0} de DAN F. aos inimigos em um grande círculo ao redor de si, derrubando-os por {1} segundos. Dissipa Efeitos Negativos de todos os aliados, aumenta ao ATQ em {3} por {2} segundos e aumenta a DEF em {4}.",
+    "books": {
+      "0": "Aumenta o Impulso de ATQ e de DEF em {0}%.",
+      "1": "Aumenta o Impulso de ATQ e de DEF em {0}%.",
+      "2": "Aumenta o Impulso de ATQ e de DEF em {0}%."
+    },
+    "light": "Reduz a Resistência a Crít F. do alvo em 250 por 10 segundos.",
+    "dark": "Aumenta o Custo de Mana em 1 e aumenta em 100% a quantidade de ATQ e DEF que são aumentadas.",
+    "ut": {
+      "name": "Rubi de Ballas",
+      "description": [
+        "[Que Comece o Contra-Ataque] Aumenta em 50% a quantidade de ATQ e DEF que são aumentadas, aumenta também o DAN F. recebido pelo alvo ferido em 10% por 10 segundos.",
+        "[Que Comece o Contra-Ataque] Aumenta em 50% a quantidade de ATQ e DEF que são aumentadas, aumenta também o DAN F. recebido pelo alvo ferido em 12% por 10 segundos.",
+        "[Que Comece o Contra-Ataque] Aumenta em 50% a quantidade de ATQ e DEF que são aumentadas, aumenta também o DAN F. recebido pelo alvo ferido em 14% por 10 segundos.",
+        "[Que Comece o Contra-Ataque] Aumenta em 50% a quantidade de ATQ e DEF que são aumentadas, aumenta também o DAN F. recebido pelo alvo ferido em 17% por 10 segundos.",
+        "[Que Comece o Contra-Ataque] Aumenta em 50% a quantidade de ATQ e DEF que são aumentadas, aumenta também o DAN F. recebido pelo alvo ferido em 21% por 10 segundos.",
+        "[Que Comece o Contra-Ataque] Aumenta em 50% a quantidade de ATQ e DEF que são aumentadas, aumenta também o DAN F. recebido pelo alvo ferido em 25% por 10 segundos."
+      ],
+      "story": "O último presente de um apoiador anônimo. Glenwys foi a primeira vencedora do torneio a ter origem plebeia, mas o que ela tinha que pagar para defender seu posto nos próximos Torneios do Coliseu Imperial era bem mais do que a renda de um simples plebeu. A maior parte de suas taxas de participação eram pagas com as doações dos cidadãos, mas eventualmente chegou a hora em que os custos ficaram altos demais para que ela seguisse competindo. Porém, para a sua surpresa, sempre que precisava, a ajuda vinha por meio de um apoiador anônimo, o que permitiu que ela continuasse lutando. No dia em que ela se tornou a vencedora de 3 torneios consecutivos, o ‘Rubi de Ballas’, a joia de um cavaleiro, foi entregue a ela tornando-se o último gesto de apoio que ela receberia desse salvador sem nome. Desde então, esse rubi se tornou seu amuleto de vitória, o qual ela sempre carrega consigo, grata, mas curiosa para saber quem poderia ser tal apoiador."
+    }
+  },
+  "s4": {
+    "name": "Orgulho dos Cavaleiros Imperiais",
+    "description": "Aumenta o ATQ de todos os aliados por {0} , aumenta o DAN contra inimigos não Heróis em {2}% por {1} segundos no início da batalha, e reduz o DAN recebido em {3}%.",
+    "books": {
+      "0": "Aumenta a Taxa de Aumento de ATQ em {0}%.",
+      "1": "Aumenta a Taxa de Aumento de ATQ em {0}%.",
+      "2": "Aumenta a Taxa de Aumento de ATQ em {0}%."
+    },
+    "light": "O efeito de DAN causado a inimigos não Heroicos agora é de 20%.",
+    "dark": "O efeito de DAN recebido de inimigos não Heroicos agora é de 20%.",
+    "ut": {
+      "name": "Glória Dourada",
+      "description": [
+        "[Orgulho dos Cavaleiros Imperiais] Aumenta o bônus de ATQ em 50%, aumenta o próprio Dano Crít. e o do aliado com o maior valor de ataque (além de si) em 30% por 20 segundos no início da batalha, aumenta também o DAN a inimigos não Heroicos em 10%.",
+        "[Orgulho dos Cavaleiros Imperiais] Aumenta o bônus de ATQ em 50%, aumenta o próprio Dano Crít. e o do aliado com o maior valor de ataque (além de si) em 36% por 20 segundos no início da batalha, aumenta também o DAN a inimigos não Heroicos em 12%.",
+        "[Orgulho dos Cavaleiros Imperiais] Aumenta o bônus de ATQ em 50%, aumenta o próprio Dano Crít. e o do aliado com o maior valor de ataque (além de si) em 42% por 20 segundos no início da batalha, aumenta também o DAN a inimigos não Heroicos em 14%.",
+        "[Orgulho dos Cavaleiros Imperiais] Aumenta o bônus de ATQ em 50%, aumenta o próprio Dano Crít. e o do aliado com o maior valor de ataque (além de si) em 50% por 20 segundos no início da batalha, aumenta também o DAN a inimigos não Heroicos em 17%.",
+        "[Orgulho dos Cavaleiros Imperiais] Aumenta o bônus de ATQ em 50%, aumenta o próprio Dano Crít. e o do aliado com o maior valor de ataque (além de si) em 63% por 20 segundos no início da batalha, aumenta também o DAN a inimigos não Heroicos em 21%.",
+        "[Orgulho dos Cavaleiros Imperiais] Aumenta o bônus de ATQ em 50%, aumenta o próprio Dano Crít. e o do aliado com o maior valor de ataque (além de si) em 75% por 20 segundos no início da batalha, aumenta também o DAN a inimigos não Heroicos em 25%."
+      ],
+      "story": "Um troféu dourado concedido a Glenwys por vencer 3 Torneios do Coliseu Imperial consecutivos. É o presente do Imperador ao verdadeiro herói do Coliseu. A terceira disputa do campeonato, a última disputa do torneio em que Glenwys lutou. Seu último oponente foi um homem misterioso e mascarado que derrotou todos os seus adversários no decorrer do torneio em poucos segundos. Glenwys ficou nervosa ao vê-lo lutar na semifinal. Como esperado, a luta estava unilateral. O homem brandia um par de espadas vermelhas contra Glenwys como se fosse uma tempestade escarlate. Ela esperou por uma oportunidade enquanto bloqueava seus ataques ferozes. O homem finalmente pareceu ter baixado a guarda, e Glenwys aproveitou para lançar um poderoso ataque. Mas para sua surpresa, o homem desviou recuando apenas uns poucos passos. A explosão causada pelo ataque de Glenwys fez a máscara do homem rachar, revelando seu belo rosto. Foi então que ela viu, por trás da máscara despedaçada, que o homem estava sorrindo. Ao perceber que seu ataque nem sequer o arranhou, Glenwys voltou a erguer seu escudo, apavorada, mas foi então que o homem jogou a toalha. Logo, a fumaça ao redor dos dois se dissipou, e outra máscara já se encontrava no rosto do homem. Surpresa com tudo aquilo, Glenwys não conseguiu entender o que havia acontecido, até ver o Imperador lhe entregando o troféu. Foi quando ela notou que aquele homem estava ali, atrás do Imperador, com o Capitão da Guarda Real, dando-lhe uma salva de palmas."
+    }
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Todas as DEF +10%",
+    "dark": "Aumenta o ATQ de todos os aliados em 8% do total da soma de todos os valores de DEF de si mesmo."
+  }
+}
