@@ -16,16 +16,19 @@
           <navmenu v-if="this.$route.name === 'hero'" />
           <div class="column is-three-quarters">
             <router-view />
+            <ad />
           </div>
         </div>
       </div>
     </section>
+
     <mogfooter />
   </div>
 </template>
 
 <script>
 import { mapGetters } from "vuex";
+import Ad from "./components/Ad.vue";
 import Navbar from "./components/layout/Navbar.vue";
 import NavMenu from "./components/layout/NavMenu.vue";
 import MogFooter from "./components/layout/MogFooter.vue";
@@ -33,6 +36,7 @@ import MogFooter from "./components/layout/MogFooter.vue";
 export default {
   name: "App",
   components: {
+    ad: Ad,
     navbar: Navbar,
     navmenu: NavMenu,
     mogfooter: MogFooter
