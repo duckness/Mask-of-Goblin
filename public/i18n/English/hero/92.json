@@ -36,12 +36,12 @@
   "uw": {
     "name": "Infinite Charter, Accordio",
     "description": [
-      "All DMG from skills inflicts an additional M.DMG by 50% of ATK. Additionally, the Top Financier's Knowledge max stack increases to 9.",
-      "All DMG from skills inflicts an additional M.DMG by 60% of ATK. Additionally, the Top Financier's Knowledge max stack increases to 10.",
-      "All DMG from skills inflicts an additional M.DMG by 70% of ATK. Additionally, the Top Financier's Knowledge max stack increases to 11.",
-      "All DMG from skills inflicts an additional M.DMG by 85% of ATK. Additionally, the Top Financier's Knowledge max stack increases to 12.",
-      "All DMG from skills inflicts an additional M.DMG by 100% of ATK. Additionally, the Top Financier's Knowledge max stack increases to 13.",
-      "All DMG from skills inflicts an additional M.DMG by 125% of ATK. Additionally, the Top Financier's Knowledge max stack increases to 15."
+      "Changes the max number of stacks for Top Financier's Knowledge to 9 and gains additional Experience stack every 14 sec.",
+      "Changes the max number of stacks for Top Financier's Knowledge to 10 and gains additional Experience stack every 13 sec.",
+      "Changes the max number of stacks for Top Financier's Knowledge to 11 and gains additional Experience stack every 12 sec.",
+      "Changes the max number of stacks for Top Financier's Knowledge to 12 and gains additional Experience stack every 11 sec.",
+      "Changes the max number of stacks for Top Financier's Knowledge to 13 and gains additional Experience stack every 10 sec.",
+      "Changes the max number of stacks for Top Financier's Knowledge to 15 and gains additional Experience stack every 9 sec."
     ],
     "story": "Her approval is needed to process any important items in the Guild Alliance. An office item cherished by the founder of the Guild Alliance. A feather pen and folder put together in a set. The pen has a mana ball embedded in it so it requires mana instead of ink, and it must be used on a magic parchment that cannot be written on with a regular pen. The letters that are written by the writer cannot be erased without the writer's mana. Also, text can be written on the magic parchment without any limit, and it has a function to search for stuff one has written before. It makes Veronica's work that much more effective. Of course, it's useful when it's used for work, but outside of work..."
   },
@@ -116,7 +116,7 @@
   },
   "s4": {
     "name": "Top Financier's Knowledge",
-    "description": "All Allies' ATK is increased by {0} , and upon using the skill 3 times, instantly gains The Top Financier's Knowledge. Per each stack of Top Financier's Knowledge, own Crit DMG is increased by 30%, and all skill effects are increased by 10% each. Top Financier's Knowledge can be stacked up to max 5 times, and cannot be dispelled.",
+    "description": "Increases ATK of all allies by {0} and gains Experience stack upon using a Skill. When 3 Experiences are stacked, gains Top Financier's Knowledge that increases own Crit DMG by 30% and the effects of all active Skills by 10%. The Top Financier's Knowledge effect is irremovable and stacks up to 5 times.",
     "books": {
       "0": "ATK boost is increased by {0}%.",
       "1": "ATK boost is increased by {0}%.",

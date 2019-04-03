@@ -1,0 +1,144 @@
+{
+  "name": "Bernheim",
+  "subtitle": "Verwüsterschwert",
+  "description": "Ritter des Schweigens, Dunkler Schwertmeister und Bergeversetzende Klinge. Diese Namen verdiente sich dieser legendäre Söldner im Imperium. Sein gewaltiges Schwert kann jede Macht absorbieren, um damit verheerende Verwüstungen anzurichten.",
+  "story": "Bernheim von Lachelima entstammt einem Adelshaus von Penteonia und war von Kindheit an ein begnadeter Kämpfer. Er hatte die Kraft eines Riesen und ein hervorragendes Urteilsvermögen, also war es unbestreitbar, dass er ein großer Ritter werden würde. Ein fataler Fehler verwehrte ihm aber den Erfolg: Er konnte die Macht des Lichts nicht nutzen. Egal, wie er sich auch mühte, wie stark sein Glaube und Wille waren, die Macht des Lichts antwortete nicht auf seinen Ruf. Obwohl er stets nur Königin und Vaterland dienen wollte, brachte er es nur zum niederen Ritter – eine Quelle steter Frustration für ihn. Er gab nicht auf und trainierte hart, um die Macht des Lichts zu meistern, aber sein ständiges Scheitern begann langsam, seinen Geist zu schwächen. Eines Tages besuchte er die Zentralkirche, um die Macht des Lichts und seine Funktion zu studieren. Als er in ein Buch versunken dasaß, vernahm er einen Klang. Es war eine engelshafte Stimme, die nach ihm rief. Bernheims lange angestaute Frustration führte ihn zu einer Kammer, versiegelt in den Tiefen der Kirche, aus der die Stimme drang. Als er sich ihr näherte, verschwanden die Barrieren, als wären sie nie da gewesen. Im Raum fand er ein Schwert in Form eines Engels, das blendendes Licht verströmte. „Du bist der Auserwählte“, sagte das Schwert und lockte ihn mit heiligem Licht zu sich. Im Glauben, seine endlosen Anstrengungen würden endlich belohnt, packte er den Stahl. Darauf versank sein Geist in tiefstem Dunkel. Die Dunkelheit, die ihn einhüllte – dies war die endlose, schattige Leere der Vergeblichkeit. Ein Gefäß, das nie gefüllt werden könnte; ein ganz anderes Universum. In der endlosen Finsternis fühlte Bernheim, wie sein Geist zerfiel und seine Existenz verblasste. Sein Geist und sein Körper wurden langsam von einer dunklen, unheilvollen Kraft heimgesucht. Doch Bernheim war auch einer der Ritter Penteonias, ein Kämpe des Lichts, eingeschworen, niemals dem Dunkel anheimzufallen. Er erhob sich aus der trügerischen Dunkelheit und erlangte dank seines unbezwingbaren Geistes das Bewusstsein zurück. Als er zur Besinnung kam und auf dem Boden lag, ruhte ein riesiges schwarzes Schwert in seiner Hand. Die Klinge mit der Fratze eines Dämons lachte und verhöhnte den Ritter, der sich vom Pfad des Lichts abwandte. Schließlich wurde Bernheim aus Penteonia verbannt und begann ein neues Leben als Söldner im Imperium Vespia, das bösartige, vorlaute Schwert in Händen...",
+  "like": "Heimische Landschaft, gemächliche Lektüre, Zeit für einen alleine, Königin Artemia",
+  "dislike": "Schwächeres Selbst in der Vergangenheit, Targarios",
+  "inn": {
+    "idle": "... Als Söldner kenne ich solche Orte wie meine Westentasche.",
+    "recruit": {
+      "greet": "Hmm, eine Anfrage?",
+      "talk": [
+        "Gutes Wetter heute. Zumindest zum Üben.",
+        "Warum ich das Schwert führe?... Manche Fragen bleiben besser unbeantwortet.",
+        "Nahrung ist bloß Treibstoff für mich. Auf dem Schlachtfeld ist kein Platz für Luxus."
+      ],
+      "gift": "Was? Ein Geschenk, keine Anfrage? Ich verstehe nicht, was das soll."
+    },
+    "affinity": {
+      "greet": "Hallo. Wir scheinen uns dieser Tage öfter zu begegnen.",
+      "talk": [
+        "Mein Schwert macht dich neugierig? Tja... Besser, du fragst nicht.",
+        "Diese Kopfschmerzen... Ach, mach dir keine Sorgen. Hab mich dran gewöhnt."
+      ],
+      "gift": "Danke. Ich werde Verwendung dafür finden."
+    },
+    "relationship": {
+      "greet": "Du scheinst guter Stimmung zu sein. Ist etwas vorgefallen?",
+      "talk": [
+        "Mein Schicksal scheint an dieses dämonische Schwert gekettet zu sein... Ob ich mich wohl eines Tages befreien kann?",
+        "Targarios Stimme heult in meinem Schädel... Keu...",
+        "Obwohl ich einst Macht ersehnte, war das nur der Fall, weil mein Wille nicht stark genug war. Ich lasse das nie wieder zu."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Brennofen der Vergeblichkeit, Targarios",
+    "description": [
+      "Erhöht alle 10 Sek. eigenen ANG um 10%, VERT insgesamt um 10% und reduziert den Cooldown aller Skills um 1 Sek. Während der [Kampferöffnung] wird die Cooldown-Reduzierung verdoppelt. Dieser Effekt kann bis zu 4-mal gestapelt und nicht mehr entfernt werden.",
+      "Erhöht alle 10 Sek. eigenen ANG um 12%, VERT insgesamt um 12% und reduziert den Cooldown aller Skills um 1,2 Sek. Während der [Kampferöffnung] wird die Cooldown-Reduzierung verdoppelt. Dieser Effekt kann bis zu 4-mal gestapelt und nicht mehr entfernt werden.",
+      "Erhöht alle 10 Sek. eigenen ANG um 14%, VERT insgesamt um 14% und reduziert den Cooldown aller Skills um 1,4 Sek. Während der [Kampferöffnung] wird die Cooldown-Reduzierung verdoppelt. Dieser Effekt kann bis zu 4-mal gestapelt und nicht mehr entfernt werden.",
+      "Erhöht alle 10 Sek. eigenen ANG um 17%, VERT insgesamt um 17% und reduziert den Cooldown aller Skills um 1,7 Sek. Während der [Kampferöffnung] wird die Cooldown-Reduzierung verdoppelt. Dieser Effekt kann bis zu 4-mal gestapelt und nicht mehr entfernt werden.",
+      "Erhöht alle 10 Sek. eigenen ANG um 21%, VERT insgesamt um 21% und reduziert den Cooldown aller Skills um 2,1 Sek. Während der [Kampferöffnung] wird die Cooldown-Reduzierung verdoppelt. Dieser Effekt kann bis zu 4-mal gestapelt und nicht mehr entfernt werden.",
+      "Erhöht alle 10 Sek. eigenen ANG um 25%, VERT insgesamt um 25% und reduziert den Cooldown aller Skills um 2,5 Sek. Während der [Kampferöffnung] wird die Cooldown-Reduzierung verdoppelt. Dieser Effekt kann bis zu 4-mal gestapelt und nicht mehr entfernt werden."
+    ],
+    "story": "Der Name des Schwerts lautet 'Es, das nie gesättigt werden kann', 'Es, das endlos giert'. Es hat die Macht, alle Formen von Energie, böse wie heilige, aufzunehmen und sie als die eigenen zu nutzen. Es hat seinen eigenen Willen und einen sehr temperamentvollen, zerstreuten und grausamen Charakter. Selbst Königin Artemia kennt den genauen Grund für die Einkerkerung der Klinge unter der Zentralkirche von Penteonia nicht, aber es heißt, Targarios sei einst ein Dunkler Lord gewesen. Es mag angesichts seines leichtfertigen Charakters unwahrscheinlich erscheinen, aber es besteht kein Zweifel daran, dass es über verheerende Kräfte gebietet."
+  },
+  "s1": {
+    "name": "Kreis der Vergeblichkeit",
+    "description": "Greift das Ziel und alle Feinde innerhalb der Reichweite an, verursacht dabei {0} M.Schaden und erzeugt einen Kreis der Vergeblichkeit. Verursacht {2} M.Schaden, senkt ANG-Geschwindigkeit um {3} und verhindert für {1} Sek., dass Gegner durch positive Effekte verstärkt werden können. Hat nach Beginn der ersten Schlacht einen Cooldown von {4} Sek.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Reduziert den ersten Cooldown um 3 Sek.",
+    "dark": "Wenn [Kreis der Vergeblichkeit] gewirkt wird, während [Kampferöffnung] aktiv ist, wird seine Dauer um 4 Sek. verlängert.",
+    "ut": {
+      "name": "Verblichenes Schwert",
+      "description": [
+        "[Kreis der Vergeblichkeit] Verringert das Mana der Ziele um 100 und erhöht den M.Schaden, den sie erleiden, für 5 Sek. um 25 %.",
+        "[Kreis der Vergeblichkeit] Verringert das Mana der Ziele um 120 und erhöht den M.Schaden, den sie erleiden, für 5 Sek. um 25 %.",
+        "[Kreis der Vergeblichkeit] Verringert das Mana der Ziele um 140 und erhöht den M.Schaden, den sie erleiden, für 5 Sek. um 25 %.",
+        "[Kreis der Vergeblichkeit] Verringert das Mana der Ziele um 170 und erhöht den M.Schaden, den sie erleiden, für 5 Sek. um 25 %.",
+        "[Kreis der Vergeblichkeit] Verringert das Mana der Ziele um 210 und erhöht den M.Schaden, den sie erleiden, für 5 Sek. um 25 %.",
+        "[Kreis der Vergeblichkeit] Verringert das Mana der Ziele um 250 und erhöht den M.Schaden, den sie erleiden, für 5 Sek. um 25 %."
+      ],
+      "story": "Eine Standardausgabe der Ritterklingen Penteonias, die Bernheim nutzte, bevor er Targarios in die Falle ging. Es wurde geschaffen, um große Macht zu verleihen, wenn es von der Kraft des Lichts durchdrungen ist. Eines Tages bemerkte Targarios, dass Bernheim auch andere Waffen verwenden wollte. Aus Neid und Wahnsinn zerstörte es Bernheims ganzes Arsenal und absorbierte alle Kräfte, Schutzzauber und Segen der Waffen. Bernheim sah dies, tat einen lauten Seufzer und warf den zerbrochenen Schrott fort – doch dieses Schwert behielt er bei sich."
+    }
+  },
+  "s2": {
+    "name": "Kampferöffnung",
+    "description": "Trifft alle Gegner in Reichweite vor dem Wirkenden, verursacht {0} M.Schaden und wirft sie zurück. Erhöht die eigene Blockchance insgesamt um {2} , die eigene VERT um {3} und gewährt für {1} Sek. Statuseffekt-Immunität. Hat nach Beginn der ersten Schlacht einen Cooldown von {4} Sek.",
+    "books": {
+      "0": "K.VERT-Erhöhugsrate erhöht sich um {0}%.",
+      "1": "K.VERT-Erhöhugsrate erhöht sich um {0}%.",
+      "2": "K.VERT-Erhöhugsrate erhöht sich um {0}%."
+    },
+    "light": "Entfernt alle negativen Effekte bei sich selbst.",
+    "dark": "Reduziert den ersten Cooldown um 8 Sek. und die Effektwirkung um 8 Sek.",
+    "ut": {
+      "name": "Medaille des Lichts",
+      "description": [
+        "[Kampferöffnung] Verbraucht 50 % der derzeitigen TP, damit der Effekt nach Wirkung nicht mehr entfernt werden kann.",
+        "[Kampferöffnung] Verbraucht 46 % der derzeitigen TP, damit der Effekt nach Wirkung nicht mehr entfernt werden kann.",
+        "[Kampferöffnung] Verbraucht 41 % der derzeitigen TP, damit der Effekt nach Wirkung nicht mehr entfernt werden kann.",
+        "[Kampferöffnung] Verbraucht 35 % der derzeitigen TP, damit der Effekt nach Wirkung nicht mehr entfernt werden kann.",
+        "[Kampferöffnung] Verbraucht 28 % der derzeitigen TP, damit der Effekt nach Wirkung nicht mehr entfernt werden kann.",
+        "[Kampferöffnung] Verbraucht 20 % der derzeitigen TP, damit der Effekt nach Wirkung nicht mehr entfernt werden kann."
+      ],
+      "story": "Ein Lichtsymbol, das ihm verliehen wurde, als er in Penteonia den Ritterschlag erhielt. Die eingravierte Sonne versichert dem Träger dieser Medaille, dass das Licht stets auf seiner Seite ist. Auch wenn Bernheim sein Ritterstand entzogen und er aus dem Land verbannt wurde, ist er den stolzen Rittern von Penteonia noch immer treu ergeben."
+    }
+  },
+  "s3": {
+    "name": "Zerstörer",
+    "description": "Verursacht für 10 Angriffe {0} M.Schaden bei Gegnern in einem kreisförmigen Bereich um den Wirker. Greift die Feinde in einem noch größeren Umgebungsbereich an, verursacht dabei {1} M.Schaden und lähmt sie für {2} Sek. Gegner, die keine Helden sind, erleiden noch einmal zusätzlich {4} M.Schaden. Hat nach Beginn der ersten Schlacht einen Cooldown von {5} Sek.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Reduziert den ersten Cooldown um 5 Sek.",
+    "dark": "Zusätzlicher Schaden gegen Feinde, die keine Helden sind; VERT wird ignoriert.",
+    "ut": {
+      "name": "Söldnerkelch",
+      "description": [
+        "[Zerstörer] Erhöht den Schaden um 20% und betäubt den betroffenen Feind 0,5 Sek. lang mit einer Wahrscheinlichkeit von 20% nach jedem Treffer.",
+        "[Zerstörer] Erhöht den Schaden um 24% und betäubt den betroffenen Feind 0,5 Sek. lang mit einer Wahrscheinlichkeit von 20% nach jedem Treffer.",
+        "[Zerstörer] Erhöht den Schaden um 29% und betäubt den betroffenen Feind 0,5 Sek. lang mit einer Wahrscheinlichkeit von 20% nach jedem Treffer.",
+        "[Zerstörer] Erhöht den Schaden um 35% und betäubt den betroffenen Feind 0,5 Sek. lang mit einer Wahrscheinlichkeit von 20% nach jedem Treffer.",
+        "[Zerstörer] Erhöht den Schaden um 42% und betäubt den betroffenen Feind 0,5 Sek. lang mit einer Wahrscheinlichkeit von 20% nach jedem Treffer.",
+        "[Zerstörer] Erhöht den Schaden um 50% und betäubt den betroffenen Feind 0,5 Sek. lang mit einer Wahrscheinlichkeit von 20% nach jedem Treffer."
+      ],
+      "story": "Ein Gedenkkelch, Geschenk für mächtige und mutige Söldner im Imperium. Der eingravierte Wolf ist das Symbol des Imperiums. In Anerkennung der unzähligen Siege, die Bernheim für das Imperium errang, gab ihm die Königsfamilie diesen herrlichen Kelch, von denen weltweit nur fünf Stück existieren. Gerüchten zufolge birgt der Kelch einen Zauber, mit dem jedes daraus genossene Getränk die Ausdauer wiederherstellt."
+    }
+  },
+  "s4": {
+    "name": "Zusammenbruch",
+    "description": "Bernheim kann kein Mana wiederherstellen und keine seiner Skills verbrauchen Mana. Nach normalen und Skill-Angriffen erleiden Gegner für {0} Sek. Zusammenbruch, ihre Heilungsrate wird um {1}% gesenkt sowie der eigene ANG um {2} und die eigene Heilungsrate um {3}% erhöht. Alle Effekte können bis zu {4} -mal gestapelt werden.",
+    "books": {
+      "0": "Erhöht ANG um {0}%.",
+      "1": "Erhöht ANG um {0}%.",
+      "2": "Erhöht ANG um {0}%."
+    },
+    "light": "Zähler von Zusammenbruch kann nicht mehr entfernt werden.",
+    "dark": "Erhöhungen von ANG und Heilungsrate können nicht mehr entfernt werden.",
+    "ut": {
+      "name": "Unverschickter Brief",
+      "description": [
+        "[Zusammenbruch] Ändert die Anzahl der Zähler für sich selbst und das Ziel zu 2 und erhöht die maximale Stapelanzahl aller Effekte um 20.",
+        "[Zusammenbruch] Ändert die Anzahl der Zähler für sich selbst und das Ziel zu 2 und erhöht die maximale Stapelanzahl aller Effekte um 24.",
+        "[Zusammenbruch] Ändert die Anzahl der Zähler für sich selbst und das Ziel zu 2 und erhöht die maximale Stapelanzahl aller Effekte um 29.",
+        "[Zusammenbruch] Ändert die Anzahl der Zähler für sich selbst und das Ziel zu 2 und erhöht die maximale Stapelanzahl aller Effekte um 35.",
+        "[Zusammenbruch] Ändert die Anzahl der Zähler für sich selbst und das Ziel zu 2 und erhöht die maximale Stapelanzahl aller Effekte um 42.",
+        "[Zusammenbruch] Ändert die Anzahl der Zähler für sich selbst und das Ziel zu 2 und erhöht die maximale Stapelanzahl aller Effekte um 50."
+      ],
+      "story": "Briefe, die Bernheim nach seiner Verbannung an seine Familie schrieb. Er verfasste sie zwar, hat sich aber noch nicht entschieden, ob er sie nun, sieben Jahre nach seiner Ächtung, endlich senden sollte. Die Briefe richten sich hauptsächlich an seinen Bruder und seine Schwester, die zum Zeitpunkt seiner Verbannung fünf bzw. zehn Jahre jünger waren als er."
+    }
+  },
+  "t5": {
+    "light": "ANG, VERT, TP +15% / Krit. Chance +100",
+    "dark": "Das Ziel erleidet nach einem normalen Angriff um 1% erhöhten M.Schaden und seine M.VERT wird für 10 Sek. um 1% gesenkt. Dieser Effekt kann bis zu 20-mal gestapelt werden."
+  }
+}

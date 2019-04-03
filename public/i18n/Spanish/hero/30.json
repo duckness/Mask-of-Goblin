@@ -34,20 +34,20 @@
     }
   },
   "uw": {
-    "name": "Círculo Fluido, Eltoirre",
+    "name": "Círculo fluido, Eltoirre",
     "description": [
-      "Luego de un golpe crítico, recupera al aliado con la Salud más baja en un 80% del Daño causado",
-      "Luego de un golpe crítico, recupera al aliado con la Salud más baja en un 96% del Daño causado",
-      "Luego de un golpe crítico, recupera al aliado con la Salud más baja en un 115% del Daño causado",
-      "Luego de un golpe crítico, recupera al aliado con la Salud más baja en un 138% del Daño causado",
-      "Luego de un golpe crítico, recupera al aliado con la Salud más baja en un 166% del Daño causado",
-      "Luego de un golpe crítico, recupera al aliado con la Salud más baja en un 200% del Daño causado"
+      "Aumenta la Tasa de curación de todos los aliados en un 8 % y la Defensa mágica en un 5 % del Ataque de Laias. Cura al aliado que tenga la Salud más baja en un 100 % del Ataque propio cada 5 segundos.",
+      "Aumenta la Tasa de curación de todos los aliados en un 10 % y la Defensa mágica en un 5 % del Ataque de Laias. Cura al aliado que tenga la Salud más baja en un 120 % del Ataque propio cada 5 segundos.",
+      "Aumenta la Tasa de curación de todos los aliados en un 12 % y la Defensa mágica en un 5 % del Ataque de Laias. Cura al aliado que tenga la Salud más baja en un 140 % del Ataque propio cada 5 segundos.",
+      "Aumenta la Tasa de curación de todos los aliados en un 14 % y la Defensa mágica en un 5 % del Ataque de Laias. Cura al aliado que tenga la Salud más baja en un 170 % del Ataque propio cada 5 segundos.",
+      "Aumenta la Tasa de curación de todos los aliados en un 17 % y la Defensa mágica en un 5 % del Ataque de Laias. Cura al aliado que tenga la Salud más baja en un 210 % del Ataque propio cada 5 segundos.",
+      "Aumenta la Tasa de curación de todos los aliados en un 20 % y la Defensa mágica en un 5 % del Ataque de Laias. Cura al aliado que tenga la Salud más baja en un 250 % del Ataque propio cada 5 segundos."
     ],
     "story": "Una cruz egipcia fabricada en la forma de un fénix. Simboliza el ciclo natural de la vida. En los días ancestrales, los nómadas del desierto veneraban al dragón azul del oasis como su protector. A cambio, los bendecía con lluvia y daba vida a sus cultivos. Para mostrar su gratitud, los nómadas le ofrecieron varios tesoros, incluyendo Lazulia, la gema del agua. Aunque no tenía ningún interés en particular en la riqueza material, aceptó su gratitud y utilizó los tesoros para construir un tempo en el oasis. Esta cruz egipcia es el símbolo sagrado del templo y contiene el poder majestuoso del agua."
   },
   "s1": {
     "name": "Gotas de Curacion",
-    "description": "Cura a todos los aliados a un máximo de  {0}  Salud, dependiendo del daño.",
+    "description": "Cura a todos los aliados con hasta {0} de salud, según su salud faltante, y reduce el Daño mágico que reciben en un {1}  % durante 5 segundos.",
     "books": {
       "0": "la tasa de Recuperacion aumenta en {0}%.",
       "1": "la tasa de Recuperacion aumenta en {0}%.",
@@ -70,14 +70,14 @@
   },
   "s2": {
     "name": "Escudo de Burbuja",
-    "description": "Protege a un aliado con la menor Salud durante 15 segundos para bloquear el {0}  Daño, y proporcionale inmunidad. Mientras el Escudo esté activo, recupera  {1}  Salud por cada segundo y obten Inmunidad al Control de Masas",
+    "description": "Protege a un aliado que tenga la Salud más baja durante 15 segundos para bloquear el  {0} de Daño. Mientras el Escudo esté activo, recibe inmunidad al Control de multitudes, aumenta el Ataque en {2} y cura la Salud en {1} cada segundo.",
     "books": {
       "0": "el Escudo aumenta en {0}%.",
       "1": "el Escudo aumenta en {0}%.",
       "2": "el Escudo aumenta en {0}%."
     },
-    "light": "Aumenta el ATQ del objetivo en un 30%.",
-    "dark": "La Resistencia Crit Magica del objetivo aumenta en 25%",
+    "light": "Cambia el objetivo al aliado con el ataque más alto.",
+    "dark": "El costo de maná se reduce en 1.",
     "ut": {
       "name": "Cristal de oasis",
       "description": [
@@ -122,7 +122,7 @@
       "1": "la fuerza de Defensa aumenta en {0}%.",
       "2": "la fuerza de Defensa aumenta en {0}%."
     },
-    "light": "La tasa de incremento de DEF Magica aumenta en un 20% y la Resistencia Magica Crit aumenta en 100",
+    "light": "La tasa de incremento de DEF Magica aumenta en un 20% y la Resistencia Magica Crit aumenta en 150",
     "dark": "Aumenta la Resistencia al Ctrl de Masas en 400.",
     "ut": {
       "name": "Lágrima del dios dragón",
@@ -139,6 +139,6 @@
   },
   "t5": {
     "light": "ATQ, DEF, Salud+15% / Bloq Magico +200",
-    "dark": "Laias aumenta la DEF Magica igual al 5% de su ATQ a los aliados que cura, además de darles 75 de maná a cada uno."
+    "dark": "Recupera 350 de Mana de todos los aliados cada 3 segundos."
   }
 }

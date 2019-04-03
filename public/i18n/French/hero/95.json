@@ -34,14 +34,14 @@
     }
   },
   "uw": {
-    "name": "Masse de réinsertion, Hartnon",
+    "name": "Hartnon, masse de réinsertion",
     "description": [
-      "Chaque attaque normale ou de compétence a 20 % de chances d'imposer l'effet Rancune d'Hartnon aux ennemis. Pendant 5 sec, la Rancune d'Hartnon réduit la Vit ATQ de 100 points, augmente les DEG P subis par la cible de 10 %, inflige des DEG chaque seconde à hauteur de 40 % de l'ATQ de Nicky, et réduit le mana de 60 points. Cet effet ne peut pas être cumulé.",
-      "Chaque attaque normale ou de compétence a 20 % de chances d'imposer l'effet Rancune d'Hartnon aux ennemis. Pendant 5 sec, la Rancune d'Hartnon réduit la Vit ATQ de 120 points, augmente les DEG P subis par la cible de 12 %, inflige des DEG chaque seconde à hauteur de 48 % de l'ATQ de Nicky, et réduit le mana de 72 points. Cet effet ne peut pas être cumulé.",
-      "Chaque attaque normale ou de compétence a 20 % de chances d'imposer l'effet Rancune d'Hartnon aux ennemis. Pendant 5 sec, la Rancune d'Hartnon réduit la Vit ATQ de 140 points, augmente les DEG P subis par la cible de 14 %, inflige des DEG chaque seconde à hauteur de 56 % de l'ATQ de Nicky, et réduit le mana de 86 points. Cet effet ne peut pas être cumulé.",
-      "Chaque attaque normale ou de compétence a 20 % de chances d'imposer l'effet Rancune d'Hartnon aux ennemis. Pendant 5 sec, la Rancune d'Hartnon réduit la Vit ATQ de 170 points, augmente les DEG P subis par la cible de 17 %, inflige des DEG chaque seconde à hauteur de 68 % de l'ATQ de Nicky, et réduit le mana de 104 points. Cet effet ne peut pas être cumulé.",
-      "Chaque attaque normale ou de compétence a 20 % de chances d'imposer l'effet Rancune d'Hartnon aux ennemis. Pendant 5 sec, la Rancune d'Hartnon réduit la Vit ATQ de 200 points, augmente les DEG P subis par la cible de 20 %, inflige des DEG chaque seconde à hauteur de 80 % de l'ATQ de Nicky, et réduit le mana de 124 points. Cet effet ne peut pas être cumulé.",
-      "Chaque attaque normale ou de compétence a 20 % de chances d'imposer l'effet Rancune d'Hartnon aux ennemis. Pendant 5 sec, la Rancune d'Hartnon réduit la Vit ATQ de 250 points, augmente les DEG P subis par la cible de 25 %, inflige des DEG chaque seconde à hauteur de 100 % de l'ATQ de Nicky, et réduit le mana de 150 points. Cet effet ne peut pas être cumulé."
+      "Les coups de compétence augmentent de 20 % les DEG P reçus par la cible pendant 5 sec et réduisent le Mana de 80 points toutes les sec.",
+      "Les coups de compétence augmentent de 24 % les DEG P reçus par la cible pendant 5 sec et réduisent le Mana de 100 points toutes les sec.",
+      "Les coups de compétence augmentent de 29 % les DEG P reçus par la cible pendant 5 sec et réduisent le Mana de 120 points toutes les sec.",
+      "Les coups de compétence augmentent de 35 % les DEG P reçus par la cible pendant 5 sec et réduisent le Mana de 140 points toutes les sec.",
+      "Les coups de compétence augmentent de 42 % les DEG P reçus par la cible pendant 5 sec et réduisent le Mana de 170 points toutes les sec.",
+      "Les coups de compétence augmentent de 50 % les DEG P reçus par la cible pendant 5 sec et réduisent le Mana de 200 points toutes les sec."
     ],
     "story": "La masse utilisée par la garde en chef pour contenir les détenus. Les monstres indisciplinés incarcérés la surnomment la Masse de réinsertion. Elle est transmise de génération en génération parmi les gardes en chef de la Prison d'Orvelia, mais peu après l'avoir reçue, Nicky en brisa un morceau, tant elle l'avait utilisée pour frapper les prisonniers. -......... Elle fixait sa masse brisée avant de poser les yeux sur les prisonniers, quand son regard s'arrêta sur Hartnon, la créature de l'enfer, dont le corps était recouvert de cornes. Son visage afficha un sourire cruel. - Toi ! T'as beau être une ordure, t'as un bel œil ! L'œil de la bête passa entre les mains de Jin le forgeron et devint la nouvelle masse de Nicky. Elle était idéale. Les cornes de la masse profèrent une malédiction insoutenable, tandis que la rancune gravée dans l'iris du monstre garantit une douleur au-delà du corps. Les détenus surnomment cette masse « Hartnon », en l'honneur de la bête sacrifiée pour fabriquer l'arme. Nicky ressent un plaisir incommensurable à chaque fois qu'elle inculque les bonnes manières aux détenus à l'aide de sa masse."
   },
@@ -70,7 +70,7 @@
   },
   "s2": {
     "name": "Bourrasque impitoyable",
-    "description": "Se met en position et agite son arme pour attaquer {0}  fois les ennemis en cercle à portée. Chaque coup inflige {1}  points de DEG P et étourdit la cible pendant {2}  sec. À chaque va-et-vient de l'arme, la Vit ATQ, les DEG de compétence et la durée d'étourdissement augmentent. Augmente la Vit ATQ jusqu'à {3}  points, les DEG de compétence jusqu'à {4}  % et la durée d'étourdissement jusqu'à {5}  sec.",
+    "description": "Frappe les ennemis à portée circulaire 7 fois. Chaque coup leur inflige des DEG P de {1} et les étourdit pendant 1,5 sec. Réduit la DEF P. de 30 % pendant 5 sec si la cible est un héros.",
     "books": {
       "0": "DEG augmentés de {0}%.",
       "1": "DEG augmentés de {0}%.",
@@ -93,7 +93,7 @@
   },
   "s3": {
     "name": "Exécution finale",
-    "description": "Se met en position, se concentre, et attaque les ennemis à portée situés en face sur une grande distance, ce qui leur inflige {0}  points de DEG P et les repousse pendant {1}  sec. Selon la durée de concentration, la distance à laquelle ils sont repoussés augmente et la durée de chute peut atteindre {2}  sec. Augmente les DEG jusqu'à {3}  %, et si Nicky se concentre totalement, elle peut dissiper les effets positifs dont bénéficient les ennemis à portée. Inflige {4}  points de DEG supplémentaires aux ennemis non-héros, et ces derniers subissent {6}  % de DEG P supplémentaires pendant {5}  sec.",
+    "description": "Se place en position, attaque les ennemis en face sur un large front, leur inflige Renversement pendant 6 sec, dissipe les effets positifs et inflige des DEG P de {0}. Cette compétence inflige 500 d'augmentation de Précision et Précision des contrôles.",
     "books": {
       "0": "DEG augmentés de {0}%.",
       "1": "DEG augmentés de {0}%.",
@@ -116,14 +116,14 @@
   },
   "s4": {
     "name": "Instinct massacreur",
-    "description": "Augmente l'ATQ de {0}  points et les chances de coup critique de {1}. Lorsque les PV se situent en dessous de {2}  %, Folie cruelle est activée. Folie cruelle dissipe tous les effets négatifs et, pendant {3}  sec, augmente l'ATQ de {4}  points, réduit de {5}  % les DEG subis et confère l'immunité contre les contrôles. Cet effet ne s'active qu'une fois toutes les {6}  sec.",
+    "description": "Augmente l'ATQ de {0} et les Chances de coup critique de {1}. Lorsque les PV se situent en dessous de {2}  % ou moins, Folie cruelle est activée. Folie cruelle dissipe tous les effets négatifs et augmente l'ATQ de {4} et la Vit ATQ de 500, réduit les DEG subis de {5}  % et confère l'immunité contre les contrôles pendant {3}  sec. Cet effet ne s'active que durant les combats.",
     "books": {
       "0": "Le taux d'augmentation d'Attaque augmente de {0}%.",
       "1": "Le taux d'augmentation d'Attaque augmente de {0}%.",
       "2": "Le taux d'augmentation d'Attaque augmente de {0}%."
     },
     "light": "Augmente la durée de Folie cruelle de 5 sec.",
-    "dark": "Le Monstre-Boss reçoit de DEG augmentés de 15%.",
+    "dark": "Récupère 2 orbes de Mana quand l'effet de Folie cruelle est activé.",
     "ut": {
       "name": "Manucure sinistre",
       "description": [

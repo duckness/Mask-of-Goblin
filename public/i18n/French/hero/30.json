@@ -34,20 +34,20 @@
     }
   },
   "uw": {
-    "name": "Eltoirre, Cercle Flottant",
+    "name": "Eltoirre, cercle flottant",
     "description": [
-      "Lors d'un Coup Critique, rend à l'allié ayant le moins de PV 80% des DEG infligés.",
-      "Lors d'un Coup Critique, rend à l'allié ayant le moins de PV 96% des DEG infligés.",
-      "Lors d'un Coup Critique, rend à l'allié ayant le moins de PV 115% des DEG infligés.",
-      "Lors d'un Coup Critique, rend à l'allié ayant le moins de PV 138% des DEG infligés.",
-      "Lors d'un Coup Critique, rend à l'allié ayant le moins de PV 166% des DEG infligés.",
-      "Lors d'un Coup Critique, rend à l'allié ayant le moins de PV 200% des DEG infligés."
+      "Augmente la Récupération de tous les alliés de 8 % et la DEF M de 5 % de l'ATQ de Laias. Soigne les PV de l'allié ayant le moins de PV de 100 % de son ATQ toutes les 5 sec.",
+      "Augmente la Récupération de tous les alliés de 10 % et la DEF M de 5 % de l'ATQ de Laias. Soigne les PV de l'allié ayant le moins de PV de 120 % de son ATQ toutes les 5 sec.",
+      "Augmente la Récupération de tous les alliés de 12 % et la DEF M de 5 % de l'ATQ de Laias. Soigne les PV de l'allié ayant le moins de PV de 140 % de son ATQ toutes les 5 sec.",
+      "Augmente la Récupération de tous les alliés de 14 % et la DEF M de 5 % de l'ATQ de Laias. Soigne les PV de l'allié ayant le moins de PV de 170 % de son ATQ toutes les 5 sec.",
+      "Augmente la Récupération de tous les alliés de 17 % et la DEF M de 5 % de l'ATQ de Laias. Soigne les PV de l'allié ayant le moins de PV de 210 % de son ATQ toutes les 5 sec.",
+      "Augmente la Récupération de tous les alliés de 20 % et la DEF M de 5 % de l'ATQ de Laias. Soigne les PV de l'allié ayant le moins de PV de 250 % de son ATQ toutes les 5 sec."
     ],
     "story": "Une ankh taillée en forme de phénix symbolisant le cycle naturel de la vie. Dans les temps anciens, les nomades du désert vénéraient le Dragon Bleu de l'oasis. En retour, elle leur accordait de la pluie et donnait vie à leurs récoltes. Pour prouver leur gratitude, les nomades lui offraient divers trésors, comme la Lazulia, la gemme de l'eau. Même si elle n'avait aucun besoin de fortunes matérielles, elle acceptait leur gratitude et utilisait les trésors pour bâtir un temple au sein de l'oasis. Cet ankh est le symbole sacré du temple et contient la puissance de l'eau."
   },
   "s1": {
     "name": "Goutelettes de Soin",
-    "description": "Soigne tous les alliés d'un maximum de {0} PV, en fonction de leurs PV restants.",
+    "description": "Soigne tous les alliés jusqu'à {0}  PV, en fonction de leurs PV perdus et réduit les DEG M qu'ils subissent de {1}  % pendant 5 sec.",
     "books": {
       "0": "Augmente le taux de Récupération de {0}%.",
       "1": "Augmente le taux de Récupération de {0}%.",
@@ -70,14 +70,14 @@
   },
   "s2": {
     "name": "Bulle Protectrice",
-    "description": "Protège l'allié ayant le moins de PV avec un bouclier pendant 15 sec pour Bloquer jusqu'à {0} DEG, et immunise contre tous les effets. Pendant la durée du Bouclier, {1} PV sont rendus par seconde.",
+    "description": "Protège l'allié ayant le moins de PV avec un bouclier pendant 15 sec pour bloquer {0}  DEG. Pendant la durée du Bouclier, immunise contre le Contrôle, augmente l'ATQ de {2} et soigne {1}  PV par sec.",
     "books": {
       "0": "Augmente Bouclier de {0}%.",
       "1": "Augmente Bouclier de {0}%.",
       "2": "Augmente Bouclier de {0}%."
     },
-    "light": "Augmente l'ATQ de la cible de 30%.",
-    "dark": "La Résistance aux Crit. M. de la cible est augmentée de 25%.",
+    "light": "La cible change pour l'allié ayant l'ATQ la plus élevée.",
+    "dark": "Le coût en Mana est réduit de 1.",
     "ut": {
       "name": "Cristal d’oasis",
       "description": [
@@ -122,7 +122,7 @@
       "1": "Augmente le Boost de Défense de {0}%.",
       "2": "Augmente le Boost de Défense de {0}%."
     },
-    "light": "Le taux de récupération de la DEF M. augmente de 20%, et la Résistance aux Crit M. augmente de 100.",
+    "light": "Le taux de récupération de la DEF M. augmente de 20%, et la Résistance aux Crit M. augmente de 150.",
     "dark": "Augmente la résistance aux Contrôles du héros de 400.",
     "ut": {
       "name": "Larme de dieu-dragon",
@@ -139,6 +139,6 @@
   },
   "t5": {
     "light": "ATQ, DEF, PV +15% / Blocage M. +200",
-    "dark": "Laias augmente la DEF M. des alliés qu'elle soigne à hauteur de 5% de son ATQ, et leur donne également 75 Mana chacun."
+    "dark": "Tous les alliés récupèrent 350 Mana tous les 3 sec."
   }
 }

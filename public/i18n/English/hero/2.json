@@ -36,12 +36,12 @@
   "uw": {
     "name": "God's Authority, Rosmerta",
     "description": [
-      "Each auto attack has a 40% chance of healing the ally with the lowest HP by 42% of ATK.",
-      "Each auto attack has a 40% chance of healing the ally with the lowest HP by 50.4% of ATK.",
-      "Each auto attack has a 40% chance of healing the ally with the lowest HP by 58.8% of ATK.",
-      "Each auto attack has a 40% chance of healing the ally with the lowest HP by 71.4% of ATK.",
-      "Each auto attack has a 40% chance of healing the ally with the lowest HP by 86.1% of ATK.",
-      "Each auto attack has a 40% chance of healing the ally with the lowest HP by 105% of ATK."
+      "Every 8 sec, heals 4 allies with the lowest HP by 80% of own ATK, and increases Crit Chance by 300 and Crit DMG by 20% for the ally with the highest ATK for 8 sec.",
+      "Every 8 sec, heals 4 allies with the lowest HP by 96% of own ATK, and increases Crit Chance by 300 and Crit DMG by 24% for the ally with the highest ATK for 8 sec.",
+      "Every 8 sec, heals 4 allies with the lowest HP by 115% of own ATK, and increases Crit Chance by 300 and Crit DMG by 29% for the ally with the highest ATK for 8 sec.",
+      "Every 8 sec, heals 4 allies with the lowest HP by 138% of own ATK, and increases Crit Chance by 300 and Crit DMG by 35% for the ally with the highest ATK for 8 sec.",
+      "Every 8 sec, heals 4 allies with the lowest HP by 165% of own ATK, and increases Crit Chance by 300 and Crit DMG by 42% for the ally with the highest ATK for 8 sec.",
+      "Every 8 sec, heals 4 allies with the lowest HP by 200% of own ATK, and increases Crit Chance by 300 and Crit DMG by 50% for the ally with the highest ATK for 8 sec."
     ],
     "story": "The Angels are said to be closer to Lua than any other race. When a high ranking angel dies, the remaining core is transferred to the haven of angels for resurrection. However, one such angel, Rosmerta, bestowed her core to the Church of Lua. This holy staff has been created from the core's divine energy."
   },
@@ -93,7 +93,7 @@
   },
   "s3": {
     "name": "Heaven's Vengeance",
-    "description": "Attacks the target and the enemies near it 6 times, dealing a total of {0} M.DMG and blinding them for {1} sec.",
+    "description": "Attacks the target and its nearby enemies 6 times, dealing up to {0} M.DMG. Hit targets will be blinded for {1} sec, and take {2}% increased DMG.",
     "books": {
       "0": "DMG is increased by {0}%.",
       "1": "DMG is increased by {0}%.",
@@ -139,6 +139,6 @@
   },
   "t5": {
     "light": "ATK, DEF, HP+15% / M. Block +200",
-    "dark": "Allies healed by Frey receive 5% of her ATK as an ATK buff for 5 sec."
+    "dark": "Increases ATK of all allies by 5% of own ATK."
   }
 }

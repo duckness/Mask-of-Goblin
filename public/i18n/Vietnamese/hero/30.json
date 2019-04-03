@@ -36,18 +36,18 @@
   "uw": {
     "name": "Vòng luân chuyển, Eltoirre",
     "description": [
-      "Khi ra đòn chí mạng, hồi máu đồng minh có lượng máu thấp nhất tương đương với 40% sát thương đã gây ra.",
-      "Khi ra đòn chí mạng, hồi máu đồng minh có lượng máu thấp nhất tương đương với 48% sát thương đã gây ra.",
-      "Khi ra đòn chí mạng, hồi máu đồng minh có lượng máu thấp nhất tương đương với 57% sát thương đã gây ra.",
-      "Khi ra đòn chí mạng, hồi máu đồng minh có lượng máu thấp nhất tương đương với 69% sát thương đã gây ra.",
-      "Khi ra đòn chí mạng, hồi máu đồng minh có lượng máu thấp nhất tương đương với 83% sát thương đã gây ra.",
-      "Khi ra đòn chí mạng, hồi máu đồng minh có lượng máu thấp nhất tương đương với 100% sát thương đã gây ra."
+      "Tăng 8% Tỷ lệ hồi máu của tất cả các đồng minh, tăng chỉ số Phòng thủ phép thuật thêm tương đương 5% chỉ số Tấn công của Laias. Hồi HP tương đương 100% chỉ số Tấn công của bản thân cho đồng minh có HP thấp nhất mỗi 5 giây.",
+      "Tăng 10% Tỷ lệ hồi máu của tất cả các đồng minh, tăng chỉ số Phòng thủ phép thuật thêm tương đương 5% chỉ số Tấn công của Laias. Hồi HP tương đương 120% chỉ số Tấn công của bản thân cho đồng minh có HP thấp nhất mỗi 5 giây.",
+      "Tăng 12% Tỷ lệ hồi máu của tất cả các đồng minh, tăng chỉ số Phòng thủ phép thuật thêm tương đương 5% chỉ số Tấn công của Laias. Hồi HP tương đương 140% chỉ số Tấn công của bản thân cho đồng minh có HP thấp nhất mỗi 5 giây.",
+      "Tăng 14% Tỷ lệ hồi máu của tất cả các đồng minh, tăng chỉ số Phòng thủ phép thuật thêm tương đương 5% chỉ số Tấn công của Laias. Hồi HP tương đương 170% chỉ số Tấn công của bản thân cho đồng minh có HP thấp nhất mỗi 5 giây.",
+      "Tăng 17% Tỷ lệ hồi máu của tất cả các đồng minh, tăng chỉ số Phòng thủ phép thuật thêm tương đương 5% chỉ số Tấn công của Laias. Hồi HP tương đương 210% chỉ số Tấn công của bản thân cho đồng minh có HP thấp nhất mỗi 5 giây.",
+      "Tăng 20% Tỷ lệ hồi máu của tất cả các đồng minh, tăng chỉ số Phòng thủ phép thuật thêm tương đương 5% chỉ số Tấn công của Laias. Hồi HP tương đương 250% chỉ số Tấn công của bản thân cho đồng minh có HP thấp nhất mỗi 5 giây."
     ],
     "story": "Một chữ thập chìa khóa được chế tác trong hình dáng phượng hoàng. Vật phẩm này tượng trưng cho chu kỳ sống tự nhiên. Trong thời cổ đại, các bộ tộc du mục trên sa mạc tôn thờ rồng xanh của ốc đảo làm người bảo vệ của họ. Đổi lại, cô ban cho họ mưa và mùa màng tươi tốt. Để tỏ lòng biết ơn của mình, các bộ tộc du mục dâng cho cô nhiều báu vật, trong đó có viên thủy ngọc Lazulia. Mặc dù không đặc biệt yêu thích của cải vật chất nhưng cô vẫn chấp nhận sự biết ơn của họ và sử dụng các báu vật đó để xây dựng một đền thờ bên trong ốc đảo. Chữ thập chìa khóa là biểu tượng thiêng liêng của đền thờ và chứa đựng thủy năng hùng mạnh."
   },
   "s1": {
     "name": "Giọt trị thương",
-    "description": "Hồi phục tối đa {0} thể lực cho tất cả các đồng minh dựa trên thể lực đồng minh bị mất.",
+    "description": "Hồi HP của tất cả đồng minh, đến tối đa là {0} , tỷ lệ thuận với lượng HP đã mất và giảm {1}% tổn hại phép thuật họ phải chịu trong 5 giây.",
     "books": {
       "0": "Tăng {0}% tỷ lệ hồi máu.",
       "1": "Tăng {0}% tỷ lệ hồi máu.",
@@ -70,14 +70,14 @@
   },
   "s2": {
     "name": "Khiên chắn bọt nước",
-    "description": "Tạo khiên chắn cho đồng minh còn lượng máu thấp nhất trong 15 giây để chặn tối đa {0} sát thương, và giúp đồng minh có trạng thái Miễn nhiễm. Khi Khiên chắn có tác dụng, hồi {1} máu mỗi giây. Trong khi lá chắn có hiệu lực, được miễn nhiễm trạng thái xấu.",
+    "description": "Tạo khiên chắn cho đồng minh có HP thấp nhất trong 15 giây để chặn tối đa {0} tổn hại. Khi Khiên có tác dụng, nhận được trạng thái miễn nhiễm, tăng {2} Tấn công và hồi {1} HP mỗi giây.",
     "books": {
       "0": "Tăng {0}% Hiệu ứng khiên.",
       "1": "Tăng {0}% Hiệu ứng khiên.",
       "2": "Tăng {0}% Hiệu ứng khiên."
     },
-    "light": "Sức tấn công của đối phương tăng 30%.",
-    "dark": "Lực kháng đòn chí mạng phép thuật của đối phương tăng 25%.",
+    "light": "Đổi mục tiêu sang đồng minh có điểm Tấn công cao nhất.",
+    "dark": "Lượng tiêu thụ Mana giảm 1.",
     "ut": {
       "name": "Pha lê trên đảo",
       "description": [
@@ -122,7 +122,7 @@
       "1": "Tăng {0}% Mức tăng phòng thủ",
       "2": "Tăng {0}% Mức tăng phòng thủ"
     },
-    "light": "Tăng 20% lượng tăng lực phòng thủ phép và tăng 100 kháng chí mạng phép.",
+    "light": "Tăng 20% lượng tăng lực phòng thủ phép và tăng 150 kháng chí mạng phép.",
     "dark": "Lực kháng trạng thái xấu của bản thân tăng 400.",
     "ut": {
       "name": "Giọt lệ thần rồng",
@@ -139,6 +139,6 @@
   },
   "t5": {
     "light": "ATK, DEF, HP+15% / M. Block +200",
-    "dark": "Khi làm hồi phục đồng minh, làm tăng phòng thủ phép của đối phương một lượng tương ứng 5% sức tấn công của Laias trong 10 giây, và làm hồi phục 75 mana."
+    "dark": "Hồi phục 350 Mana cho tất cả đồng minh mỗi 3 giây."
   }
 }

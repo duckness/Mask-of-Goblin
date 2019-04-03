@@ -34,14 +34,14 @@
     }
   },
   "uw": {
-    "name": "Rosmerta, Nhà chức trách của Chúa",
+    "name": "Nhà chức trách của Chúa, Rosmerta",
     "description": [
-      "Khi tấn công, phục hồi 42% sức mạnh tấn công của một đồng minh có HP thấp nhất với xác suất 40%.",
-      "Khi tấn công, phục hồi 50.4% sức mạnh tấn công của một đồng minh có HP thấp nhất với xác suất 40%.",
-      "Khi tấn công, phục hồi 58.8% sức mạnh tấn công của một đồng minh có HP thấp nhất với xác suất 40%.",
-      "Khi tấn công, phục hồi 71.4% sức mạnh tấn công của một đồng minh có HP thấp nhất với xác suất 40%.",
-      "Khi tấn công, phục hồi 86.1% sức mạnh tấn công của một đồng minh có HP thấp nhất với xác suất 40%.",
-      "Khi tấn công, phục hồi 105% sức mạnh tấn công của một đồng minh có HP thấp nhất với xác suất 40%."
+      "Hồi HP tương đương 80% chỉ số Tấn công cho 4 đồng minh có HP thấp nhất mỗi 8 giây, tăng 300 điểm Xác suất chí mạng và 20% Sát thương chí mạng cho đồng minh có chỉ số Tấn công cao nhất trong 8 giây.",
+      "Hồi HP tương đương 96% chỉ số Tấn công cho 4 đồng minh có HP thấp nhất mỗi 8 giây, tăng 300 điểm Xác suất chí mạng và 24% Sát thương chí mạng cho đồng minh có chỉ số Tấn công cao nhất trong 8 giây.",
+      "Hồi HP tương đương 115% chỉ số Tấn công cho 4 đồng minh có HP thấp nhất mỗi 8 giây, tăng 300 điểm Xác suất chí mạng và 29% Sát thương chí mạng cho đồng minh có chỉ số Tấn công cao nhất trong 8 giây.",
+      "Hồi HP tương đương 138% chỉ số Tấn công cho 4 đồng minh có HP thấp nhất mỗi 8 giây, tăng 300 điểm Xác suất chí mạng và 35% Sát thương chí mạng cho đồng minh có chỉ số Tấn công cao nhất trong 8 giây.",
+      "Hồi HP tương đương 165% chỉ số Tấn công cho 4 đồng minh có HP thấp nhất mỗi 8 giây, tăng 300 điểm Xác suất chí mạng và 42% Sát thương chí mạng cho đồng minh có chỉ số Tấn công cao nhất trong 8 giây.",
+      "Hồi HP tương đương 200% chỉ số Tấn công cho 4 đồng minh có HP thấp nhất mỗi 8 giây, tăng 300 điểm Xác suất chí mạng và 50% Sát thương chí mạng cho đồng minh có chỉ số Tấn công cao nhất trong 8 giây."
     ],
     "story": "Tương truyền các Thiên thần gần gũi với Lua hơn bất kỳ chủng tộc nào khác. Khi một thiên thần cấp cao qua đời, nhân còn lại được chuyển đến nơi ẩn náu của các thiên thần để chờ hồi sinh. Tuy nhiên, một thiên thần như vậy, Rosmerta, đã trao nhân của mình cho Nhà thờ Lua. Cây quyền trượng thần thánh này đã được tạo nên từ năng lượng thiêng liêng của nhân đó."
   },
@@ -93,7 +93,7 @@
   },
   "s3": {
     "name": "Sự báo thù của Thiên đường",
-    "description": "Tấn công mục tiêu và kẻ địch gần đó 6 lần, gây tổng cộng {0} sát thương phép thuật và làm mù chúng trong {1} giây.",
+    "description": "Tấn công mục tiêu và kẻ địch lân cận 6 lần, gây tổng cộng {0} sát thương phép thuật. Mục tiêu trúng đòn sẽ bị mù trong {1} và chịu thêm {2}% sát thương.",
     "books": {
       "0": "Tăng {0}% sát thương.",
       "1": "Tăng {0}% sát thương.",
@@ -139,6 +139,6 @@
   },
   "t5": {
     "light": "ATK, DEF, HP+15% / M. Block +200",
-    "dark": "Đồng minh được nhận hồi phục bởi Frey được tăng lực tấn công tương đương 5% sức tấn công của Frey trong vòng 5 giây."
+    "dark": "Tăng chỉ số Tấn công của tất cả đồng minh thêm tương đương 5% chỉ số Tấn công của bản thân."
   }
 }

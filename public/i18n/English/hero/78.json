@@ -1,0 +1,144 @@
+{
+  "name": "Bernheim",
+  "subtitle": "Sword of Destruction",
+  "description": "The Knight of Silence, Dark Swordsman, and Earthshaking Sword. These are the names that this legendary mercenary earned in the Empire. His giant sword can absorb any kind of power to bring about utter destruction.",
+  "story": "Born in a noble family in Penteonia, Bernheim von Lachelima was gifted with outstanding martial skills. He had the strength of a giant and excellent judgment, so it was undeniable that he would make a great knight. However, he had a fatal flaw that kept him from being successful in Penteonia: He could not use the power of light at all. No matter how hard he tried, how strong his faith and will were, the power of light did not answer to his calling. Although all he ever wanted was to serve his nation and the Queen, the fact that his incapability was keeping him from being more than a low-level knight frustrated him. Bernheim did not give up and trained hard to handle the power of light, but his constant lack of progress slowly started to weaken his mind. One day, he visited the Central Church to study the power of light and its mechanism. It was when he was quietly reading a book that he heard a sound. It was an angelic voice calling for him. The long-accumulated frustration of Bernheim led him to where the voice was coming from, a room sealed with multiple magic barriers in the basement of the church. As he moved closer to it, the barriers vanished as if they were never there. What he saw inside the room was a sword in the shape of an angel, exuding blinding light. 'You are the chosen one', said the sword, drawing him near with holy light. Thinking that his relentless effort had finally paid off, he slowly grasped the sword. Then, his mind was drawn into the deepest darkness. The darkness that captured him—it was the endless shadowy void of futility. A vessel that could never be filled; a whole other universe. In the vast darkness, Bernheim felt his mind deteriorating and his existence fading away. His mind and body was slowly being encroached by a dark, ominous power. However, Bernheim was also one of the Penteonian Knights, a Knight of Light who swore not to be defeated by darkness. He rose from the shrouding darkness, regaining consciousness with his indomitable spirit. When he came to his senses, lying on the floor, there was a giant black sword in his hand. The demonic sword with the appearance of a demon was laughing and mocking the knight who broke away from the path of light. Eventually, Bernheim was banished from Penteonia, and he started to live a new life as a mercenary in Vespia Empire with that malicious, foul-mouthed demonic sword in his hand...",
+  "like": "Landscape back at home, leisurely reading, alone time, Queen Artemia",
+  "dislike": "Weaker self in the past, Targarios",
+  "inn": {
+    "idle": "...As a mercenary, I know these places like the back of my hand.",
+    "recruit": {
+      "greet": "Hmph, a request?",
+      "talk": [
+        "Good weather today. For training, that is.",
+        "My reason for wielding a sword?...Some questions are best left unanswered.",
+        "Food is just fuel that keeps me going. There's no room for any luxuries on the battlefield."
+      ],
+      "gift": "Huh? A gift, not a request? I don't understand the meaning of this."
+    },
+    "affinity": {
+      "greet": "Hello there.. I see you a lot more often these days.",
+      "talk": [
+        "You're curious about my sword..? Huh... it's better you don't ask about it.",
+        "This headache... ah, don't worry. I'm quite used to it."
+      ],
+      "gift": "Thank you.. I'll put it to good use."
+    },
+    "relationship": {
+      "greet": "You.. seem to be in a good mood. How's everything?",
+      "talk": [
+        "My fate seems to be tied to this demonic sword... can I break free of it someday?",
+        "Targarios's voice is howling within my head...ugh...",
+        "Although I did crave power back then, it was all because my will was not strong enough. I'll never let that happen again."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Kiln of Futility, Targarios",
+    "description": [
+      "Every 10 sec, increases own ATK by 10%, all DEF by 10%, and reduces Cooldown of all Skills by 1 sec. While under [Battle Initiation], Cooldown Reduction will be doubled. ATK and DEF Boost are irremovable and stack up to 4 times.",
+      "Every 10 sec, increases own ATK by 12%, all DEF by 12%, and reduces Cooldown of all Skills by 1.2 sec. While under [Battle Initiation], Cooldown Reduction will be doubled. ATK and DEF Boost are irremovable and stack up to 4 times.",
+      "Every 10 sec, increases own ATK by 14%, all DEF by 14%, and reduces Cooldown of all Skills by 1.4 sec. While under [Battle Initiation], Cooldown Reduction will be doubled. ATK and DEF Boost are irremovable and stack up to 4 times.",
+      "Every 10 sec, increases own ATK by 17%, all DEF by 17%, and reduces Cooldown of all Skills by 1.7 sec. While under [Battle Initiation], Cooldown Reduction will be doubled. ATK and DEF Boost are irremovable and stack up to 4 times.",
+      "Every 10 sec, increases own ATK by 21%, all DEF by 21%, and reduces Cooldown of all Skills by 2.1 sec. While under [Battle Initiation], Cooldown Reduction will be doubled. ATK and DEF Boost are irremovable and stack up to 4 times.",
+      "Every 10 sec, increases own ATK by 25%, all DEF by 25%, and reduces Cooldown of all Skills by 2.5 sec. While under [Battle Initiation], Cooldown Reduction will be doubled. ATK and DEF Boost are irremovable and stack up to 4 times."
+    ],
+    "story": "The name of this demonic sword means 'the one who cannot be satiated' and 'the one with ceaseless craving.' It has the power to absorb all forms of energy, evil or holy, to use them as its own. It has its own will, and a character that is very temperamental, scatterbrained, and cruel. Even Queen Artemia does not know the exact reason why this demonic sword was sealed under the Central Church in Penteonia, but rumor says that Targarios was a Dark Lord in the distant past. Considering its frivolous character, that might seem unlikely. However, there is no doubt that it has devastating powers."
+  },
+  "s1": {
+    "name": "Circle of Futility",
+    "description": "Attacks the target and nearby enemies within range, dealing {0} M.DMG and placing the Circle of Futility. Circle of Futility deals {2} M.DMG, reduces ATK Spd by {3} , and prevents enemies from receiving positive effects over {1} sec. A {4} -sec Cooldown will be applied at the beginning of the first battle.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Reduces the initial Cooldown by 3 sec.",
+    "dark": "If [Circle of Futility] is cast while [Battle Initiation] is active, its duration will be increased by 4 sec.",
+    "ut": {
+      "name": "Faded Sword",
+      "description": [
+        "[Circle of Futility] Reduces the hit targets' Mana by 100 and increases M.DMG they take by 25% for 5 sec.",
+        "[Circle of Futility] Reduces the hit targets' Mana by 120 and increases M.DMG they take by 25% for 5 sec.",
+        "[Circle of Futility] Reduces the hit targets' Mana by 140 and increases M.DMG they take by 25% for 5 sec.",
+        "[Circle of Futility] Reduces the hit targets' Mana by 170 and increases M.DMG they take by 25% for 5 sec.",
+        "[Circle of Futility] Reduces the hit targets' Mana by 210 and increases M.DMG they take by 25% for 5 sec.",
+        "[Circle of Futility] Reduces the hit targets' Mana by 250 and increases M.DMG they take by 25% for 5 sec."
+      ],
+      "story": "A standard issue sword of Penteonian Knights that Bernheim used before he fell for Targarios's trap. It is designed to draw out great power when imbued with the power of light. However, one day, Targarios noticed that Bernheim was trying to use other weapons instead of it. Targarios went mad and broke all the other weapons after absorbing all the powers, protections, and blessings they bore. Bernheim saw it, let out a big sigh, and threw broken metal pieces away, but he decided to carry this sword with him."
+    }
+  },
+  "s2": {
+    "name": "Battle Initiation",
+    "description": "Attacks enemies within frontal range, dealing {0} M.DMG and knocking them back. Then, increases own All Block by {2} and DEF by {3} , and gains immunity to CC for {1} sec. A {4} -sec Cooldown will be applied at the beginning of the first battle.",
+    "books": {
+      "0": "DEF boost is increased by {0}%.",
+      "1": "DEF boost is increased by {0}%.",
+      "2": "DEF boost is increased by {0}%."
+    },
+    "light": "Dispels all negative effects from self upon use.",
+    "dark": "Increases the initial Cooldown by 8 sec, but the duration of the effect will increase by 8 sec.",
+    "ut": {
+      "name": "Medal of Light",
+      "description": [
+        "[Battle Initiation] Consumes 50% of current HP upon use, but the effect will become irremovable.",
+        "[Battle Initiation] Consumes 46% of current HP upon use, but the effect will become irremovable.",
+        "[Battle Initiation] Consumes 41% of current HP upon use, but the effect will become irremovable.",
+        "[Battle Initiation] Consumes 35% of current HP upon use, but the effect will become irremovable.",
+        "[Battle Initiation] Consumes 28% of current HP upon use, but the effect will become irremovable.",
+        "[Battle Initiation] Consumes 20% of current HP upon use, but the effect will become irremovable."
+      ],
+      "story": "A medal of light bestowed upon him when he was conferred knighthood in Penteonia. Having the sun engraved on it, this gold medal assures the bearer that the light is always with him. Although Bernheim was deprived of his knighthood and was banished from the country, his loyalty always lies with the proud Penteonian Knights."
+    }
+  },
+  "s3": {
+    "name": "Destroyer",
+    "description": "Deals {0} M.DMG over 10 attacks to nearby enemies in a circular range around self. Then, attacks enemies in a wide surrounding area, dealing {1} M.DMG and stunning them for {2} sec. If the target is not a Hero, each attack will deal additional {4} M.DMG. A {5} -sec Cooldown will be applied at the beginning of the first battle.",
+    "books": {
+      "0": "DMG is increased by {0}%.",
+      "1": "DMG is increased by {0}%.",
+      "2": "DMG is increased by {0}%."
+    },
+    "light": "Reduces the initial Cooldown by 5 sec.",
+    "dark": "Additional DMG against Non-Hero enemies now ignores DEF.",
+    "ut": {
+      "name": "Mercenary's Goblet",
+      "description": [
+        "[Destroyer] Increases DMG by 20% and each hit has a 20% chance to stun the enemy for 0.5 sec.",
+        "[Destroyer] Increases DMG by 24% and each hit has a 20% chance to stun the enemy for 0.5 sec.",
+        "[Destroyer] Increases DMG by 29% and each hit has a 20% chance to stun the enemy for 0.5 sec.",
+        "[Destroyer] Increases DMG by 35% and each hit has a 20% chance to stun the enemy for 0.5 sec.",
+        "[Destroyer] Increases DMG by 42% and each hit has a 20% chance to stun the enemy for 0.5 sec.",
+        "[Destroyer] Increases DMG by 50% and each hit has a 20% chance to stun the enemy for 0.5 sec."
+      ],
+      "story": "A commemorative goblet only given to mighty and brave mercenaries in the Empire. The wolf, the symbol of Empire, is engraved on it. In recognition of the countless victories Bernheim earned for the Empire, the royal family gave him this exquisite goblet, one of only 5 in the world. Rumor has it that the goblet has a spell that makes any drink poured into it restore stamina."
+    }
+  },
+  "s4": {
+    "name": "Breakdown",
+    "description": "Bernheim cannot recover Mana, and all his Skills do not consume any Mana. Normal and Skill attacks inflict Breakdown to enemies for {0} sec, reducing their Heal Rate by {1}%, and increasing own ATK and Heal Rate by {2} and {3}% respectively. All effects stack up to {4} times.",
+    "books": {
+      "0": "ATK boost is increased by {0}%.",
+      "1": "ATK boost is increased by {0}%.",
+      "2": "ATK boost is increased by {0}%."
+    },
+    "light": "Breakdown stack becomes irremovable.",
+    "dark": "ATK and Heal Rate Boost become irremovable.",
+    "ut": {
+      "name": "Unsent Letter",
+      "description": [
+        "[Breakdown] Normal and Skill attacks now inflict 2 stacks on the enemy and self. The max number of stacks increases by 20.",
+        "[Breakdown] Normal and Skill attacks now inflict 2 stacks on the enemy and self. The max number of stacks increases by 24.",
+        "[Breakdown] Normal and Skill attacks now inflict 2 stacks on the enemy and self. The max number of stacks increases by 29.",
+        "[Breakdown] Normal and Skill attacks now inflict 2 stacks on the enemy and self. The max number of stacks increases by 35.",
+        "[Breakdown] Normal and Skill attacks now inflict 2 stacks on the enemy and self. The max number of stacks increases by 42.",
+        "[Breakdown] Normal and Skill attacks now inflict 2 stacks on the enemy and self. The max number of stacks increases by 50."
+      ],
+      "story": "Letters that Bernheim wrote to his family after his banishment. He still has not decided whether or not to send them until now, after 7 years have passed from his banishment. The letters are mainly addressed to his brother and sister who were 5 and 10 years younger than him when he was banished."
+    }
+  },
+  "t5": {
+    "light": "ATK, DEF, HP +15% / Crit Chance +100",
+    "dark": "Upon normal attack, causes the target to take 1% increased M.DMG and reduces their M.DEF by 1% for 10 sec. This effect stacks up to 20 times."
+  }
+}

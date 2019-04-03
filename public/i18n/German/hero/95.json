@@ -34,14 +34,14 @@
     }
   },
   "uw": {
-    "name": "Streitkolben der Rehabilitation, Hartnon,",
+    "name": "Streitkolben der Rehabilitation, Hartnon",
     "description": [
-      "20 % Chance, Feinden den Effekt Groll Hartnons durch normale und Skill-Angriffe zu verleihen. Für 5 Sek. reduziert dieser die ANG-Geschwindigkeit um 100, erhöht den K.Schaden, den das Ziel erleidet, um 10 %, verursacht jede Sekunde Schaden in Höhe von 40 % von Nickys ANG und verringert das Mana um 60. Dieser Effekt kann nicht gestapelt werden.",
-      "20 % Chance, Feinden den Effekt Groll Hartnons durch normale und Skill-Angriffe zu verleihen. Für 5 Sek. reduziert dieser die ANG-Geschwindigkeit um 120, erhöht den K.Schaden, den das Ziel erleidet, um 12 %, verursacht jede Sekunde Schaden in Höhe von 48 % von Nickys ANG und verringert das Mana um 72. Dieser Effekt kann nicht gestapelt werden.",
-      "20 % Chance, Feinden den Effekt Groll Hartnons durch normale und Skill-Angriffe zu verleihen. Für 5 Sek. reduziert dieser die ANG-Geschwindigkeit um 140, erhöht den K.Schaden, den das Ziel erleidet, um 14 %, verursacht jede Sekunde Schaden in Höhe von 56 % von Nickys ANG und verringert das Mana um 86. Dieser Effekt kann nicht gestapelt werden.",
-      "20 % Chance, Feinden den Effekt Groll Hartnons durch normale und Skill-Angriffe zu verleihen. Für 5 Sek. reduziert dieser die ANG-Geschwindigkeit um 170, erhöht den K.Schaden, den das Ziel erleidet, um 17 %, verursacht jede Sekunde Schaden in Höhe von 68 % von Nickys ANG und verringert das Mana um 104. Dieser Effekt kann nicht gestapelt werden.",
-      "20 % Chance, Feinden den Effekt Groll Hartnons durch normale und Skill-Angriffe zu verleihen. Für 5 Sek. reduziert dieser die ANG-Geschwindigkeit um 200, erhöht den K.Schaden, den das Ziel erleidet, um 20 %, verursacht jede Sekunde Schaden in Höhe von 80 % von Nickys ANG und verringert das Mana um 124. Dieser Effekt kann nicht gestapelt werden.",
-      "20 % Chance, Feinden den Effekt Groll Hartnons durch normale und Skill-Angriffe zu verleihen. Für 5 Sek. reduziert dieser die ANG-Geschwindigkeit um 250, erhöht den K.Schaden, den das Ziel erleidet, um 25 %, verursacht jede Sekunde Schaden in Höhe von 100 % von Nickys ANG und verringert das Mana um 150. Dieser Effekt kann nicht gestapelt werden."
+      "Skilltreffer erhöhen den erlittenen K.Schaden des Ziels 5 Sek. lang um 20% und senken pro Sek. das Mana um 80.",
+      "Skilltreffer erhöhen den erlittenen K.Schaden des Ziels 5 Sek. lang um 24% und senken pro Sek. das Mana um 100.",
+      "Skilltreffer erhöhen den erlittenen K.Schaden des Ziels 5 Sek. lang um 29% und senken pro Sek. das Mana um 120.",
+      "Skilltreffer erhöhen den erlittenen K.Schaden des Ziels 5 Sek. lang um 35% und senken pro Sek. das Mana um 140.",
+      "Skilltreffer erhöhen den erlittenen K.Schaden des Ziels 5 Sek. lang um 42% und senken pro Sek. das Mana um 170.",
+      "Skilltreffer erhöhen den erlittenen K.Schaden des Ziels 5 Sek. lang um 50% und senken pro Sek. das Mana um 200."
     ],
     "story": "Streitkolben, der von der Anführerin der Wache geführt wurde, um die Gefangenen unter Kontrolle zu halten. Er ist als Streitkolben der Rehabilitation für aufmüpfige Monster in Gefangenschaft bekannt. Von Generation zu Generation wurde er von den Kerkermeistern in Orvelia weitergereicht, doch kurz nachdem Nicky die neue Anführerin wurde, brach ein Teil des Streitkolbens ab, als sie ihn gnadenlos gegen die Gefangenen führte. –......... Sie starrte auf den kaputten Streitkolben, als ihr Blick zu den Gefangenen wanderte und auf die Höllenbestie Hartnon fiel, deren gesamter Körper mit Hörnern bedeckt war. Ein kaltherziges Lächeln breitete sich auf ihrem Gesicht aus. – Du da! Du hast einen hübschen Augapfel für ein Stück Abschaum! Mit der Zeit wurde aus dem Auge des Monsters dank den fähigen Händen von Schmied Jin Nickys neuer Streitkolben. Er war perfekt für sie. Von den Hörnern, mit denen der Streitkolben besetzt war, ging ein schrecklicher Fluch aus, während die durch das Opfer des Monsters erbrachte Iris für einen die Seele zermürbenden Schmerz sorgte. Die Insassen fingen an, den Streitkolben „Hartnon“ zu nennen, zu Ehren des Biests, das für die Waffe sein Leben gab. Jedes Mal, wenn Nicky den neuen Streitkolben gegen die Gefangenen einsetzte, fühlte sie eine Welle unvergleichlicher Freude in sich aufsteigen."
   },
@@ -70,7 +70,7 @@
   },
   "s2": {
     "name": "Gnadenloser Sturm",
-    "description": "Bezieht Position und schwingt ihre Waffe, um Feinde in einem ringförmigen Bereich {0} Mal anzugreifen. Jeder Treffer verursacht {1} K.Schaden und betäubt das Ziel für {2} Sek. Jedes Schwingen der Waffe erhöht die eigene ANG-Geschwindigkeit bis {3} , den Schaden durch den Skill um bis zu {4}  % und die Dauer der Betäubung um bis zu {5} Sek.",
+    "description": "Schwinge die Waffe, um Feinde im Umkreis 7-mal anzugreifen. Jeder Treffer verursacht K.Schaden von {1} und betäubt sie für 1,5 Sek. Senkt K.VERT für 5 Sek. um 30%, wenn das Ziel ein Held ist.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -93,7 +93,7 @@
   },
   "s3": {
     "name": "Letzte Hinrichtung",
-    "description": "Bezieht Position, fokussiert und greift Feinde in einem weiten Umkreis frontal an, um {0} K.Schaden zuzufügen und sie für {1} Sek. zurückzuwerfen. Abhängig von der Fokuszeit wird die Reichweite, die die Gegner zurückgeworfen werden, sowie die Ausfallzeit um bis zu {2} Sek. erhöht. Erhöht den Schaden um bis zu {3}  %, und wenn sich Nicky vollständig konzentriert, werden positive Effekte von allen Feinden in Reichweite entfernt. Fügt Feinden, die keine Helden sind, zusätzlichen Schaden von {4} zu und erhöht für {5}  Sek. den K.Schaden, den der Feind erleidet, um {6}  %.",
+    "description": "Bringt sich in Stellung, greift auf breitem frontalen Bogen an, entfernt positive Effekte, verursacht K.Schaden von {0} und Stürze werfen sie für 6 Sek. per Rückschlag zurück. Dieser Skill verursacht 500 gesteigerte PRÄZ und Statuseffekt-Präzision.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -116,14 +116,14 @@
   },
   "s4": {
     "name": "Blutbadinstinkt",
-    "description": "Erhöht eigenen ANG um {0} und die Krit. Chance um {1}. Wenn die eigenen TP unter {2}  % sinken, wird der Effekt Grausamer Wahnsinn aktiviert. Mit dem Grausamer Wahnsinn-Effekt werden alle eigenen negativen Effekte entfernt, der ANG für {3} Sek. um {4} erhöht, der Schaden um {5}  % reduziert und Statuseffekt-Immunität gewährt. Dieser Effekt wird einmal alle {6} Sek. aktiviert.",
+    "description": "Erhöht ANG um {0} und die Krit. Chance um {1}. Wenn die TP auf {2}% oder darunter sinken, wird der Effekt Grausamer Wahnsinn aktiviert. Mit dem Grausamer Wahnsinn-Effekt werden alle eigenen negativen Effekte entfernt, der ANG für {3} Sek. um {4} und die ANG-Geschwindigkeit um 500 erhöht, der verursachte Schaden um {5}% reduziert und Statuseffekt-Immunität gewährt. Dieser Effekt aktiviert sich nur einmal pro Kampf.",
     "books": {
       "0": "Angriffs-Steigungsrate steigt um {0}%.",
       "1": "Angriffs-Steigungsrate steigt um {0}%.",
       "2": "Angriffs-Steigungsrate steigt um {0}%."
     },
     "light": "Erhöht die Dauer von Grausamer Wahnsinn um 5 Sek.",
-    "dark": "Bossmonster nimmt 15% höheren Schaden.",
+    "dark": "Erholt 2 Manakugeln, wenn der Effekt Grausamer Wahnsinn aktiviert wird.",
     "ut": {
       "name": "Unheilvoller Nagellack",
       "description": [

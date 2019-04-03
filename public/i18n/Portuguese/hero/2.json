@@ -36,12 +36,12 @@
   "uw": {
     "name": "Rosmerta, a Autoridade de Deus",
     "description": [
-      "Enquanto estiver em ataque automático, há 40% de chance de curar o aliado com menor PV atual com um valor equivalente a 42% do ataque do conjurador.",
-      "Enquanto estiver em ataque automático, há 40% de chance de curar o aliado com menor PV atual com um valor equivalente a 50,4% do ataque do conjurador.",
-      "Enquanto estiver em ataque automático, há 40% de chance de curar o aliado com menor PV atual com um valor equivalente a 58,8% do ataque do conjurador.",
-      "Enquanto estiver em ataque automático, há 40% de chance de curar o aliado com menor PV atual com um valor equivalente a 71,4% do ataque do conjurador.",
-      "Enquanto estiver em ataque automático, há 40% de chance de curar o aliado com menor PV atual com um valor equivalente a 86,1% do ataque do conjurador.",
-      "Enquanto estiver em ataque automático, há 40% de chance de curar o aliado com menor PV atual com um valor equivalente a 105% do ataque do conjurador."
+      "Cura o PV de 4 aliados com o menor PV em 80% do ATQ a cada 8 seg., além de aumentar a Chance Crít. em 300 e o DAN Crít. em 20% do aliado com o maior ATQ por 8 seg.",
+      "Cura o PV de 4 aliados com o menor PV em 96% do ATQ a cada 8 seg., além de aumentar a Chance Crít. em 300 e o DAN Crít. em 24% do aliado com o maior ATQ por 8 seg.",
+      "Cura o PV de 4 aliados com o menor PV em 115% do ATQ a cada 8 seg., além de aumentar a Chance Crít. em 300 e o DAN Crít. em 29% do aliado com o maior ATQ por 8 seg.",
+      "Cura o PV de 4 aliados com o menor PV em 138% do ATQ a cada 8 seg., além de aumentar a Chance Crít. em 300 e o DAN Crít. em 35% do aliado com o maior ATQ por 8 seg.",
+      "Cura o PV de 4 aliados com o menor PV em 165% do ATQ a cada 8 seg., além de aumentar a Chance Crít. em 300 e o DAN Crít. em 42% do aliado com o maior ATQ por 8 seg.",
+      "Cura o PV de 4 aliados com o menor PV em 200% do ATQ a cada 8 seg., além de aumentar a Chance Crít. em 300 e o DAN Crít. em 50% do aliado com o maior ATQ por 8 seg."
     ],
     "story": "Os Anjos dizem ser mais próximos de Lua do que qualquer outra raça. Quando um anjo de alta patente morre, seu âmago é transferido para o refúgio dos anjos para ser ressuscitado. No entanto, um anjo desses, Rosmerta, concedeu seu âmago à Igreja de Lua. Este cajado sagrado foi criado a partir da energia divina do âmago."
   },
@@ -93,7 +93,7 @@
   },
   "s3": {
     "name": "Vingança do Paraíso",
-    "description": "Ataca o alvo e inimigos próximos a ele 6 vezes, causando um total de {0} DAN M. e cegando-os por {1} seg.",
+    "description": "Ataca o alvo e os inimigos próximos dele 6 vezes, causando até {0} de DAN M. Os alvos atingidos ficarão cegos por {1} seg. e receberão {2}% a mais de DAN.",
     "books": {
       "0": "Aumenta o DAN em {0}%.",
       "1": "Aumenta o DAN em {0}%.",
@@ -139,6 +139,6 @@
   },
   "t5": {
     "light": "ATQ, DEF, PV+15% / BLQ.M +200",
-    "dark": "Os aliados curados por Frey recebem 5% do ATQ dela como reforço de ATQ, durante 5 segundos."
+    "dark": "Aumenta o ATQ de todos os aliados em 5% do próprio ATQ."
   }
 }

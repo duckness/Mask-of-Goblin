@@ -354,7 +354,8 @@
       "s3": {
         "description": [
           "???",
-          6
+          6,
+          25
         ],
         "mana": 3,
         "cooldown": 22,
@@ -3330,7 +3331,8 @@
       },
       "s1": {
         "description": [
-          "???"
+          "???",
+          15
         ],
         "mana": 2,
         "cooldown": 8,
@@ -3350,6 +3352,7 @@
       },
       "s2": {
         "description": [
+          "???",
           "???",
           "???"
         ],
@@ -6550,11 +6553,11 @@
       "s3": {
         "description": [
           "???",
-          2.5,
+          3,
           "???",
           30
         ],
-        "mana": 4,
+        "mana": 3,
         "cooldown": 25,
         "books": [
           [
@@ -7803,6 +7806,134 @@
         "light": null
       }
     },
+    "78": {
+      "index": 78,
+      "class": "warrior",
+      "type": "magical",
+      "position": {
+        "type": "forward",
+        "weight": 600
+      },
+      "mpatk": 235,
+      "mpsec": 60,
+      "auto": {
+        "range": 3500,
+        "rangeType": "Melee",
+        "time": [
+          [
+            0.3,
+            0.8
+          ],
+          [
+            1.7
+          ],
+          [
+            2.4,
+            2.8
+          ]
+        ],
+        "duration": 3.6
+      },
+      "s1": {
+        "description": [
+          "???",
+          4,
+          "???",
+          300,
+          4
+        ],
+        "mana": null,
+        "cooldown": 15,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          "???",
+          8,
+          "???",
+          "???",
+          8
+        ],
+        "mana": null,
+        "cooldown": 22,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???",
+          "???",
+          5,
+          "???",
+          "???",
+          15
+        ],
+        "mana": null,
+        "cooldown": 22,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          10,
+          1,
+          "???",
+          0.5,
+          50
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
+    },
     "87": {
       "index": 87,
       "class": "knight",
@@ -7954,7 +8085,7 @@
           500
         ],
         "mana": 1,
-        "cooldown": 10,
+        "cooldown": 8,
         "books": [
           [
             10
@@ -8533,7 +8664,7 @@
           1,
           5
         ],
-        "mana": 3,
+        "mana": 2,
         "cooldown": 10,
         "books": [
           [
@@ -8551,9 +8682,9 @@
       },
       "s2": {
         "description": [
-          7,
           "???",
-          0.5,
+          "???",
+          1.5,
           600,
           120,
           2
@@ -8577,12 +8708,12 @@
       "s3": {
         "description": [
           "???",
-          3,
-          7.5,
+          "???",
+          "???",
           100,
           "???",
-          10,
-          25
+          "???",
+          "???"
         ],
         "mana": 4,
         "cooldown": 20,
@@ -8608,7 +8739,7 @@
           5,
           "???",
           50,
-          30
+          "???"
         ],
         "books": [
           [
@@ -8687,7 +8818,7 @@
           10,
           "???"
         ],
-        "mana": 3,
+        "mana": 2,
         "cooldown": 16,
         "books": [
           [

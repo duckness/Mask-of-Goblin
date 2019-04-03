@@ -36,18 +36,18 @@
   "uw": {
     "name": "Flowing Circle, Eltoirre",
     "description": [
-      "Upon a Crit Hit, heals the ally with the lowest HP by 80% of DMG dealt to target.",
-      "Upon a Crit Hit, heals the ally with the lowest HP by 96% of DMG dealt to target.",
-      "Upon a Crit Hit, heals the ally with the lowest HP by 115% of DMG dealt to target.",
-      "Upon a Crit Hit, heals the ally with the lowest HP by 138% of DMG dealt to target.",
-      "Upon a Crit Hit, heals the ally with the lowest HP by 166% of DMG dealt to target.",
-      "Upon a Crit Hit, heals the ally with the lowest HP by 200% of DMG dealt to target."
+      "Increases the Heal Rate of all allies by 8% and M.DEF by 5% of Laias's ATK. Every 5 sec, heals the ally with the lowest HP by 100% of own ATK.",
+      "Increases the Heal Rate of all allies by 10% and M.DEF by 5% of Laias's ATK. Every 5 sec, heals the ally with the lowest HP by 120% of own ATK.",
+      "Increases the Heal Rate of all allies by 12% and M.DEF by 5% of Laias's ATK. Every 5 sec, heals the ally with the lowest HP by 140% of own ATK.",
+      "Increases the Heal Rate of all allies by 14% and M.DEF by 5% of Laias's ATK. Every 5 sec, heals the ally with the lowest HP by 170% of own ATK.",
+      "Increases the Heal Rate of all allies by 17% and M.DEF by 5% of Laias's ATK. Every 5 sec, heals the ally with the lowest HP by 210% of own ATK.",
+      "Increases the Heal Rate of all allies by 20% and M.DEF by 5% of Laias's ATK. Every 5 sec, heals the ally with the lowest HP by 250% of own ATK."
     ],
     "story": "An ankh crafted in the shape of a phoenix. It symbolizes the natural cycle of life. In the ancient days, the nomads of the desert worshipped the blue dragon of the oasis as their protector. In return, she blessed them with rain and gave life to their crops. To show their gratitude, the nomads offered her various treasures, including Lazulia, the gem of water. Although she had no particular interest in material wealth, she accepted their gratitude, and used the treasures to build a temple within the oasis. This ankh is the sacred symbol of the temple, and contains the mighty power of water."
   },
   "s1": {
     "name": "Healing Droplets",
-    "description": "Heals max {0} HP of all allies, proportional to their lost HP.",
+    "description": "Heals all allies up to {0} HP, based on their missing HP and reduces M.DMG they take by {1}% for 5 sec.",
     "books": {
       "0": "Heal rate is increased by {0}%.",
       "1": "Heal rate is increased by {0}%.",
@@ -70,14 +70,14 @@
   },
   "s2": {
     "name": "Bubble Shield",
-    "description": "Shields an ally with the lowest HP for 15 sec to block {0} DMG, and grants CC Immunity. While Shield is in effect, heals {1} HP per sec, and gains Immunity to CC.",
+    "description": "For 15 sec, casts a shield that blocks {0} DMG on the ally with the lowest HP. While the shield is in effect, it grants Immunity to CC, increases the ATK by {2} , and heals {1} HP every sec for the ally.",
     "books": {
       "0": "Shield is increased by {0}%.",
       "1": "Shield is increased by {0}%.",
       "2": "Shield is increased by {0}%."
     },
-    "light": "Increases target ATK by 30%.",
-    "dark": "Target's M. Crit Resistance is increased by 25%.",
+    "light": "Changes the target to the ally with the highest ATK.",
+    "dark": "Mana cost is reduced by 1.",
     "ut": {
       "name": "Oasis Crystal",
       "description": [
@@ -122,7 +122,7 @@
       "1": "Defense Boost is increased by {0}%.",
       "2": "Defense Boost is increased by {0}%."
     },
-    "light": "M.DEF increase rate increases by 20%, and M. Crit Resistance increases by 100",
+    "light": "M.DEF increase rate increases by 20%, and M. Crit Resistance increases by 150",
     "dark": "Increases self CC Resist by 400.",
     "ut": {
       "name": "Tear of God Dragon",
@@ -139,6 +139,6 @@
   },
   "t5": {
     "light": "ATK, DEF, HP+15% / M. Block +200",
-    "dark": "Laias increases M.DEF equal of 5% of her ATK to allies she heals, as well as giving them 75 mana each."
+    "dark": "Recovers 350 Mana of all allies every 3 sec."
   }
 }

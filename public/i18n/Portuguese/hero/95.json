@@ -34,14 +34,14 @@
     }
   },
   "uw": {
-    "name": "Clava da Reabilitação, Hartnon",
+    "name": "Hartnon, a Clava da Reabilitação",
     "description": [
-      "Aumenta em 20% a chance de acertar o efeito Rancor de Hartnon em inimigos afetados por ataques normais e ataques de habilidade. O Rancor de Hartnon reduz a Vel de ATQ em 100 por 5 seg., aumenta em 10% o DAN F. causado nos alvos, causa DAN igual a 40% do ATQ de Nicky a cada segundo e reduz o Mana em 60. Esse efeito não pode ser acumulado.",
-      "Aumenta em 20% a chance de acertar o efeito Rancor de Hartnon em inimigos afetados por ataques normais e ataques de habilidade. O Rancor de Hartnon reduz a Vel de ATQ em 120 por 5 seg., aumenta em 12% o DAN F. causado nos alvos, causa DAN igual a 48% do ATQ de Nicky a cada segundo e reduz o Mana em 72. Esse efeito não pode ser acumulado.",
-      "Aumenta em 20% a chance de acertar o efeito Rancor de Hartnon em inimigos afetados por ataques normais e ataques de habilidade. O Rancor de Hartnon reduz a Vel de ATQ em 140 por 5 seg., aumenta em 14% o DAN F. causado nos alvos, causa DAN igual a 56% do ATQ de Nicky a cada segundo e reduz o Mana em 86. Esse efeito não pode ser acumulado.",
-      "Aumenta em 20% a chance de acertar o efeito Rancor de Hartnon em inimigos afetados por ataques normais e ataques de habilidade. O Rancor de Hartnon reduz a Vel de ATQ em 170 por 5 seg., aumenta em 17% o DAN F. causado nos alvos, causa DAN igual a 68% do ATQ de Nicky a cada segundo e reduz o Mana em 104. Esse efeito não pode ser acumulado.",
-      "Aumenta em 20% a chance de acertar o efeito Rancor de Hartnon em inimigos afetados por ataques normais e ataques de habilidade. O Rancor de Hartnon reduz a Vel de ATQ em 200 por 5 seg., aumenta em 20% o DAN F. causado nos alvos, causa DAN igual a 80% do ATQ de Nicky a cada segundo e reduz o Mana em 124. Esse efeito não pode ser acumulado.",
-      "Aumenta em 20% a chance de acertar o efeito Rancor de Hartnon em inimigos afetados por ataques normais e ataques de habilidade. O Rancor de Hartnon reduz a Vel de ATQ em 250 por 5 seg., aumenta em 25% o DAN F. causado nos alvos, causa DAN igual a 100% do ATQ de Nicky a cada segundo e reduz o Mana em 150. Esse efeito não pode ser acumulado."
+      "Os acertos da habilidade aumentam o DAN F. que o alvo recebe em 20% por 5 seg. e reduzem a Mana em 80 a cada seg.",
+      "Os acertos da habilidade aumentam o DAN F. que o alvo recebe em 24% por 5 seg. e reduzem a Mana em 100 a cada seg.",
+      "Os acertos da habilidade aumentam o DAN F. que o alvo recebe em 29% por 5 seg. e reduzem a Mana em 120 a cada seg.",
+      "Os acertos da habilidade aumentam o DAN F. que o alvo recebe em 35% por 5 seg. e reduzem a Mana em 140 a cada seg.",
+      "Os acertos da habilidade aumentam o DAN F. que o alvo recebe em 42% por 5 seg. e reduzem a Mana em 170 a cada seg.",
+      "Os acertos da habilidade aumentam o DAN F. que o alvo recebe em 50% por 5 seg. e reduzem a Mana em 200 a cada seg."
     ],
     "story": "A clava empunhada pela Chefe da Guarda para manter o controle dos prisioneiros. É conhecida como a Clava da Reabilitação para os monstros desordeiros ali detidos. Embora tenha sido passado de um Guarda Chefe da Prisão de Orvelia para o seguinte por gerações, pouco depois de Nicky se tornar a nova chefe, ela quebrou parte da clava ao golpear os prisioneiros sem piedade. -......... Ela observava a clava quebrada quando voltou o olhar para os prisioneiros. Seus olhos pararam na Fera do Inferno, Hartnon, cujo corpo era coberto de chifres. Um sorriso cruel surgiu em seu rosto. - Você! Você tem um olho bonito pra um monte de lixo! O olho do monstro acabou passando pelas mãos do Ferreiro Jin e se tornou a nova clava de Nicky. A nova clava era perfeita para ela. Os chifres saindo da clava exalavam uma maldição excruciante, enquanto o rancor incrustado na íris do monstro garantiam uma dor de esmagar a alma. Os prisioneiros começaram a chamar a nova clava de ‘Hartnon’, em memória da fera sacrificada pela arma. Nicky sentia um ímpeto de prazer incomparável sempre que brandia a nova clava contra os prisioneiros."
   },
@@ -70,7 +70,7 @@
   },
   "s2": {
     "name": "Vendaval Impiedoso",
-    "description": "Posiciona e balança sua arma para atacar inimigos em um raio circular {0} vezes. Cada acerto causa DAN F. de {1} e atordoa o alvo por {2} seg. Sempre que a arma for balançada, aumenta a própria Vel de ATQ, habilidade de DAN e Duração do atordoamento. Aumenta a própria Vel de ATQ até {3} , a própria habilidade de DAN até {4}% e a duração do atordoamento até {5} seg.",
+    "description": "Brande a arma para atacar os inimigos 7 vezes em uma área circular. Cada acerto causa {1} de DAN F. e os atordoa por 1,5 seg. Reduz a DEF F. em 30% por 5 seg. caso o alvo seja um Herói.",
     "books": {
       "0": "DAN aumenta em {0}%.",
       "1": "DAN aumenta em {0}%.",
@@ -93,7 +93,7 @@
   },
   "s3": {
     "name": "Última Execução",
-    "description": "Posiciona, foca e ataca inimigos em alcance frontal amplo para causar {0} de DAN F. e derrubá-los para trás por {1} seg. Dependendo do tempo gasto focando, aumenta a distância da queda para trás e o tempo de queda em até {2} seg. Aumenta o DAN até {3}% e se a Nicky focar totalmente, remove o Efeito Positivo dos inimigos dentro do alcance. Causa DAN adicional de {4} a inimigos não Heróis e faz com que ele sofra {6}% a mais de DAN F. por {5} seg.",
+    "description": "Posiciona-se, ataca os inimigos em uma ampla área frontal, remove os efeitos positivos, causa {0} de DAN F. e os repele por 6 seg. Essa habilidade causa um aumento de 500 de PREC e Precisão de CM.",
     "books": {
       "0": "DAN aumenta em {0}%.",
       "1": "DAN aumenta em {0}%.",
@@ -116,14 +116,14 @@
   },
   "s4": {
     "name": "Instinto de Massacre",
-    "description": "Aumenta o próprio ATQ em {0} e Chance Crít em {1}. Quando os próprios PV estiverem abaixo de {2}%, o efeito Loucura Cruel será ativado. O efeito Loucura Cruel remove todos os próprios Efeitos Negativos e, por {3} seg., aumenta o próprio ATQ em {4} , recebe {5}% de DAN reduzido e ganha imunidade a CM. Esse efeito será ativado uma vez a cada {6} seg.",
+    "description": "Aumenta o ATQ em {0} e a Chance Crít. em {1}. Quando o PV estiver em {2}% ou menos, o efeito de Loucura Cruel será ativado. O efeito de Loucura Cruel remove todos os Efeitos Negativos de si, aumenta o ATQ em {4} e a Vel. de ATQ em 500, reduz o DAN infligido em {5}% e concede Imunidade a CM por {3} seg. Esse efeito só pode ser ativado uma vez durante a batalha.",
     "books": {
       "0": "Taxa de aumento de ataque aumenta em {0}%.",
       "1": "Taxa de aumento de ataque aumenta em {0}%.",
       "2": "Taxa de aumento de ataque aumenta em {0}%."
     },
     "light": "Aumenta a duração da Loucura Cruel em 5 seg.",
-    "dark": "Chefes recebem 15% a mais de DAN.",
+    "dark": "Recupera 2 orbes de Mana quando o efeito de Loucura Cruel é ativado.",
     "ut": {
       "name": "Esmalte Sinistro",
       "description": [

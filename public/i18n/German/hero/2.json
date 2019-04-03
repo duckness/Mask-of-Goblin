@@ -34,14 +34,14 @@
     }
   },
   "uw": {
-    "name": "Rosmerta, Autorität Gottes",
+    "name": "Autorität Gottes, Rosmerta",
     "description": [
-      "40% Chance, während normaler Attacken den Helden mit der niedrigsten TP für 42% des Angriffs zu heilen.",
-      "40% Chance, während normaler Attacken den Helden mit der niedrigsten TP für 50.4% des Angriffs zu heilen.",
-      "40% Chance, während normaler Attacken den Helden mit der niedrigsten TP für 58.8% des Angriffs zu heilen.",
-      "40% Chance, während normaler Attacken den Helden mit der niedrigsten TP für 71.4% des Angriffs zu heilen.",
-      "40% Chance, während normaler Attacken den Helden mit der niedrigsten TP für 86.1% des Angriffs zu heilen.",
-      "40% Chance, während normaler Attacken den Helden mit der niedrigsten TP für 105% des Angriffs zu heilen."
+      "Heilt alle 8 Sekunden die TP von 4 Verbündeten mit den niedrigsten TP um 80% des ANG und erhöht für 8 Sekunden für den Verbündeten mit dem höchsten ANG die Krit. Chance um 300 und den Krit. Schaden um 20%.",
+      "Heilt alle 8 Sekunden die TP von 4 Verbündeten mit den niedrigsten TP um 96% des ANG und erhöht für 8 Sekunden für den Verbündeten mit dem höchsten ANG die Krit. Chance um 300 und den Krit. Schaden um 24%.",
+      "Heilt alle 8 Sekunden die TP von 4 Verbündeten mit den niedrigsten TP um 115% des ANG und erhöht für 8 Sekunden für den Verbündeten mit dem höchsten ANG die Krit. Chance um 300 und den Krit. Schaden um 29%.",
+      "Heilt alle 8 Sekunden die TP von 4 Verbündeten mit den niedrigsten TP um 138% des ANG und erhöht für 8 Sekunden für den Verbündeten mit dem höchsten ANG die Krit. Chance um 300 und den Krit. Schaden um 35%.",
+      "Heilt alle 8 Sekunden die TP von 4 Verbündeten mit den niedrigsten TP um 165% des ANG und erhöht für 8 Sekunden für den Verbündeten mit dem höchsten ANG die Krit. Chance um 300 und den Krit. Schaden um 42%.",
+      "Heilt alle 8 Sekunden die TP von 4 Verbündeten mit den niedrigsten TP um 200% des ANG und erhöht für 8 Sekunden für den Verbündeten mit dem höchsten ANG die Krit. Chance um 300 und den Krit. Schaden um 50%."
     ],
     "story": "Es heißt, die Engel wären Lua ähnlicher als jedes andere Volk. Stirbt ein hochrangiger Engel, so wird sein verbleibender Kern zwecks Auferstehung zum Hafen der Engel gebracht. Doch ein solcher Engel, Rosmerta, vermachte ihren Kern der Kirche von Lua. Dieser heilige Stab wurde aus der göttlichen Energie des Kerns erzeugt."
   },
@@ -93,7 +93,7 @@
   },
   "s3": {
     "name": "Himmlische Rache",
-    "description": "Greift das Ziel und Feinde in seiner Nähe 6-mal an, verursacht dabei insgesamt {0} M.Schaden und blendet sie für {1} Sek.",
+    "description": "Greift das Ziel und nahegelegene Gegner 6-mal an und verursacht bis zu {0} M.Schaden. Die getroffenen Ziele werden für {1} Sek. geblendet und erleiden {2}% mehr Schaden.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -139,6 +139,6 @@
   },
   "t5": {
     "light": "ANG, VERT, TP+15% / M.Block +200",
-    "dark": "Von Frey geheilte Verbündete erhalten 5% ihrer ANG als ANG-Boost für 5 Sek."
+    "dark": "Erhöht den ANG. aller Verbündeten um 5% des eigenen ANG."
   }
 }

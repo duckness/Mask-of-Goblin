@@ -36,12 +36,12 @@
   "uw": {
     "name": "Autoridad de Dios, Rosmerta",
     "description": [
-      "Brinda un 40% de probabilidad de restaurar la salud al 42% del ATQ a un aliado con la Salud más baja.",
-      "Brinda un 40% de probabilidad de restaurar la salud al 50.4% del ATQ a un aliado con la Salud más baja.",
-      "Brinda un 40% de probabilidad de restaurar la salud al 58.8% del ATQ a un aliado con la Salud más baja.",
-      "Brinda un 40% de probabilidad de restaurar la salud al 71.4% del ATQ a un aliado con la Salud más baja.",
-      "Brinda un 40% de probabilidad de restaurar la salud al 86.1% del ATQ a un aliado con la Salud más baja.",
-      "Brinda un 40% de probabilidad de restaurar la salud al 105% del ATQ a un aliado con la Salud más baja."
+      "Cura la Salud de 4 aliados que tengan la Salud más baja en un 80 % del Ataque cada 8 segundos y aumenta la Probabilidad de crítico en 300 y el Daño crítico en un 20 % para el aliado con el Ataque más alto durante 8 segundos.",
+      "Cura la Salud de 4 aliados que tengan la Salud más baja en un 96 % del Ataque cada 8 segundos y aumenta la Probabilidad de crítico en 300 y el Daño crítico en un 24 % para el aliado con el Ataque más alto durante 8 segundos.",
+      "Cura la Salud de 4 aliados que tengan la Salud más baja en un 115 % del Ataque cada 8 segundos y aumenta la Probabilidad de crítico en 300 y el Daño crítico en un 29 % para el aliado con el Ataque más alto durante 8 segundos.",
+      "Cura la Salud de 4 aliados que tengan la Salud más baja en un 138 % del Ataque cada 8 segundos y aumenta la Probabilidad de crítico en 300 y el Daño crítico en un 35 % para el aliado con el Ataque más alto durante 8 segundos.",
+      "Cura la Salud de 4 aliados que tengan la Salud más baja en un 165 % del Ataque cada 8 segundos y aumenta la Probabilidad de crítico en 300 y el Daño crítico en un 42 % para el aliado con el Ataque más alto durante 8 segundos.",
+      "Cura la Salud de 4 aliados que tengan la Salud más baja en un 200 % del Ataque cada 8 segundos y aumenta la Probabilidad de crítico en 300 y el Daño crítico en un 50 % para el aliado con el Ataque más alto durante 8 segundos."
     ],
     "story": "Se dice que los ángeles están más cerca de Lua que de cualquier otra raza. Cuando un ángel de alta clasificación muere, el núcleo que resta se transfiere al cielo de ángeles para la resurrección. Sin embargo, un cierto ángel, Rosmerta, concedió su núcleo a la iglesia de Lua. Este bastón sagrado ha sido creado a partir de la divina energía del núcleo."
   },
@@ -93,7 +93,7 @@
   },
   "s3": {
     "name": "Venganza del Cielo",
-    "description": "Ataca al objetivo y a los enemigos cercanos 6 veces, lo que inflige un total de {0} de Daño mágico y los ciega durante {1} segundo(s).",
+    "description": "Ataca al objetivo y a sus enemigos cercanos 6 veces, lo que inflige hasta {0} de Daño mágico. Los objetivos afectados quedarán ciegos durante {1} segundo(s) y recibirán un {2}  % de Daño adicional.",
     "books": {
       "0": "Aumenta el Daño en {0}%.",
       "1": "Aumenta el Daño en {0}%.",
@@ -139,6 +139,6 @@
   },
   "t5": {
     "light": "ATQ, DEF, Salud+15% / Bloq Magico +200",
-    "dark": "Los aliados curados por Frey reciben el 5% de su ATQ como una debilitacion de ATQ durante 5 seg."
+    "dark": "Aumenta el Ataque de todos los aliados en un 5 % del Ataque propio."
   }
 }

@@ -36,12 +36,12 @@
   "uw": {
     "name": "Unendlicher Aufzeichner, Accordio",
     "description": [
-      "Jeglicher Schaden durch Skills verursacht einen zusätzlichen M.Schaden im Ausmaß von 50 % des ANG. Zusätzlich erhöht sich der maximale „Wissen des Hauptgeldgebers“-Stapel auf 9.",
-      "Jeglicher Schaden durch Skills verursacht einen zusätzlichen M.Schaden im Ausmaß von 60 % des ANG. Zusätzlich erhöht sich der maximale „Wissen des Hauptgeldgebers“-Stapel auf 10.",
-      "Jeglicher Schaden durch Skills verursacht einen zusätzlichen M.Schaden im Ausmaß von 70 % des ANG. Zusätzlich erhöht sich der maximale „Wissen des Hauptgeldgebers“-Stapel auf 11.",
-      "Jeglicher Schaden durch Skills verursacht einen zusätzlichen M.Schaden im Ausmaß von 85 % des ANG. Zusätzlich erhöht sich der maximale „Wissen des Hauptgeldgebers“-Stapel auf 12.",
-      "Jeglicher Schaden durch Skills verursacht einen zusätzlichen M.Schaden im Ausmaß von 100 % des ANG. Zusätzlich erhöht sich der maximale „Wissen des Hauptgeldgebers“-Stapel auf 13.",
-      "Jeglicher Schaden durch Skills verursacht einen zusätzlichen M.Schaden im Ausmaß von 125 % des ANG. Zusätzlich erhöht sich der maximale „Wissen des Hauptgeldgebers“-Stapel auf 15."
+      "Ändert das Zähler-Maximum für Wissen des Hauptgeldgebers zu 9 und erhält alle 14 Sek. einen zusätzlichen Erfahrungszähler.",
+      "Ändert das Zähler-Maximum für Wissen des Hauptgeldgebers zu 10 und erhält alle 13 Sek. einen zusätzlichen Erfahrungszähler.",
+      "Ändert das Zähler-Maximum für Wissen des Hauptgeldgebers zu 11 und erhält alle 12 Sek. einen zusätzlichen Erfahrungszähler.",
+      "Ändert das Zähler-Maximum für Wissen des Hauptgeldgebers zu 12 und erhält alle 11 Sek. einen zusätzlichen Erfahrungszähler.",
+      "Ändert das Zähler-Maximum für Wissen des Hauptgeldgebers zu 13 und erhält alle 10 Sek. einen zusätzlichen Erfahrungszähler.",
+      "Ändert das Zähler-Maximum für Wissen des Hauptgeldgebers zu 15 und erhält alle 9 Sek. einen zusätzlichen Erfahrungszähler."
     ],
     "story": "Ihre Erlaubnis wird benötigt, um wichtige Gegenstände in der Gildenallianz zu verarbeiten. Ein Bürogegenstand, der vom Gründer der Gildenallianz hoch geschätzt wird. Ein Set, bestehend aus einer Schreibfeder und einem Aktenordner. Die Feder besitzt eine Manakugel, benötigt als Mana anstelle von Tinte, und man muss damit auf magischem Pergament schreiben, auf dem mit einer normalen Feder nicht geschrieben werden kann. Die vom Schreiber geschriebenen Buchstaben Können nicht ohne das Mana des Schreibers gelöscht werden. Außerdem kann unbegrenzt viel Text auf das magische Pergament geschrieben werden und es besitzt eine Funktion, nach bereits Geschriebenem zu suchen. Es macht Veronicas Arbeit so viel effektiver. Natürlich ist es nützlich für die Arbeit, aber außerhalb der Arbeit ..."
   },
@@ -116,7 +116,7 @@
   },
   "s4": {
     "name": "Wissen des Hauptgeldgebers",
-    "description": "Erhöht ANG aller Verbündeten um {0}. Gewährt sofort Top Finanzwissen, sobald der Skill dreimal benutzt wird. Erhöht eigenen Krischer Schaden um 30% und alle Skilleffekte um jeweils 10% für jeden Top Finanzwissen-Zähler. Top Finanzwissen kann bis zu 5 Mal kumulieren und nicht entfernt werden.",
+    "description": "Erhöht den ANG aller Verbündeten um {0} und erhält bei Anwendung eines Skills einen Erfahrungszähler. Erhält Wissen des Hauptgeldgebers, steigert eigenen Krit. Schaden um 30% und die Effekte sämtlicher Skills um 10%, sobald 3 Erfahrungszähler gestapelt wurden. Der Effekt von Wissen des Hauptgeldgebers ist bis zu 5-mal stapelbar und kann nicht entfernt werden.",
     "books": {
       "0": "Erhöht ANG-Erhöhungsrate um {0}%.",
       "1": "Erhöht ANG-Erhöhungsrate um {0}%.",

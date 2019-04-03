@@ -36,12 +36,12 @@
   "uw": {
     "name": "Accordio, jalonneur infini",
     "description": [
-      "Tous les DEG des compétences infligent des DEG M supplémentaires correspondant à 50 % de l'ATQ. De plus, le nombre de charges max de Connaissance Ultime du Trésorier passe à 9.",
-      "Tous les DEG des compétences infligent des DEG M supplémentaires correspondant à 60 % de l'ATQ. De plus, le nombre de charges max de Connaissance Ultime du Trésorier passe à 10.",
-      "Tous les DEG des compétences infligent des DEG M supplémentaires correspondant à 70 % de l'ATQ. De plus, le nombre de charges max de Connaissance Ultime du Trésorier passe à 11.",
-      "Tous les DEG des compétences infligent des DEG M supplémentaires correspondant à 85 % de l'ATQ. De plus, le nombre de charges max de Connaissance Ultime du Trésorier passe à 12.",
-      "Tous les DEG des compétences infligent des DEG M supplémentaires correspondant à 100 % de l'ATQ. De plus, le nombre de charges max de Connaissance Ultime du Trésorier passe à 13.",
-      "Tous les DEG des compétences infligent des DEG M supplémentaires correspondant à 125 % de l'ATQ. De plus, le nombre de charges max de Connaissance Ultime du Trésorier passe à 15."
+      "Change le nombre de charges max de Connaissance Ultime du Trésorier à 9 et accorde une charge supplémentaire d'Expérience toutes les 14 sec.",
+      "Change le nombre de charges max de Connaissance Ultime du Trésorier à 10 et accorde une charge supplémentaire d'Expérience toutes les 13 sec.",
+      "Change le nombre de charges max de Connaissance Ultime du Trésorier à 11 et accorde une charge supplémentaire d'Expérience toutes les 12 sec.",
+      "Change le nombre de charges max de Connaissance Ultime du Trésorier à 12 et accorde une charge supplémentaire d'Expérience toutes les 11 sec.",
+      "Change le nombre de charges max de Connaissance Ultime du Trésorier à 13 et accorde une charge supplémentaire d'Expérience toutes les 10 sec.",
+      "Change le nombre de charges max de Connaissance Ultime du Trésorier à 15 et accorde une charge supplémentaire d'Expérience toutes les 9 sec."
     ],
     "story": "Son autorisation est nécessaire pour traiter des objets importants au sein de l’alliance de guildes. Objet de bureau extrêmement précieux aux yeux de la fondatrice de l’alliance de guildes. Une plume et un dossier réunis ensemble. La plume est incrustée d’une boule de mana, ce qui fait qu’elle consomme du mana plutôt que de l’encre. Elle doit de plus écrire sur du parchemin magique, insensible aux plumes classiques. Tout ce qui est ainsi écrit ne peut plus être effacé sans le mana de l’auteur. Aussi, le parchemin magique est infini et comporte une fonction de recherche pour repérer ce qui a été écrit précédemment. Voilà qui rend Veronica bien plus efficace. Bien sûr, tout ceci est utile pour le travail. Pour le reste..."
   },
@@ -116,7 +116,7 @@
   },
   "s4": {
     "name": "Connaissance Ultime du Trésorier",
-    "description": "L'ATQ de tous les alliés est augmentée de {0} et lors de la 3ème utilisation de la compétence, le Héros obtient instantanément Connaissance du Meilleur Financier. Pour chaque charge de Connaissance du Meilleur Financier, DAN Crít. du Héros augmente de 30% et les effets de toutes les compétences sont augmentés de 10% chacun. Connaissance du Meilleur Financier est cumulable 5 fois et ne peut pas être dissipé.",
+    "description": "Augmente l'ATQ de tous les alliés de {0} et accorde une charge d'Expérience lors de l'utilisation d'une compétence. Une fois 3 Expériences cumulées, accorde Connaissance Ultime du Trésorier et augmente ses DEG Crit de 30 % et les effets de toutes les compétences de 10 %. L'effet de Connaissance Ultime du Trésorier est cumulable 5 fois et est inamovible.",
     "books": {
       "0": "ATQ augmentée de {0}%.",
       "1": "ATQ augmentée de {0}%.",

@@ -34,20 +34,20 @@
     }
   },
   "uw": {
-    "name": "Eltoirre, der fließende Kreis",
+    "name": "Fließender Kreis, Eltoirre",
     "description": [
-      "Bei einem Krit. Treffer wird der Verb. mit der niedrigsten TP um 80% des verursachten Schadens geheilt.",
-      "Bei einem Krit. Treffer wird der Verb. mit der niedrigsten TP um 96% des verursachten Schadens geheilt.",
-      "Bei einem Krit. Treffer wird der Verb. mit der niedrigsten TP um 115% des verursachten Schadens geheilt.",
-      "Bei einem Krit. Treffer wird der Verb. mit der niedrigsten TP um 138% des verursachten Schadens geheilt.",
-      "Bei einem Krit. Treffer wird der Verb. mit der niedrigsten TP um 166% des verursachten Schadens geheilt.",
-      "Bei einem Krit. Treffer wird der Verb. mit der niedrigsten TP um 200% des verursachten Schadens geheilt."
+      "Erhöht die Heilungsrate aller Verbündeten um 8% und M.VERT um 5% von Laias ANG. Heilt alle 5 Sek. die TP des Verbündeten mit den niedrigsten TP um 100% des eigenen ANG.",
+      "Erhöht die Heilungsrate aller Verbündeten um 10% und M.VERT um 5% von Laias ANG. Heilt alle 5 Sek. die TP des Verbündeten mit den niedrigsten TP um 120% des eigenen ANG.",
+      "Erhöht die Heilungsrate aller Verbündeten um 12% und M.VERT um 5% von Laias ANG. Heilt alle 5 Sek. die TP des Verbündeten mit den niedrigsten TP um 140% des eigenen ANG.",
+      "Erhöht die Heilungsrate aller Verbündeten um 14% und M.VERT um 5% von Laias ANG. Heilt alle 5 Sek. die TP des Verbündeten mit den niedrigsten TP um 170% des eigenen ANG.",
+      "Erhöht die Heilungsrate aller Verbündeten um 17% und M.VERT um 5% von Laias ANG. Heilt alle 5 Sek. die TP des Verbündeten mit den niedrigsten TP um 210% des eigenen ANG.",
+      "Erhöht die Heilungsrate aller Verbündeten um 20% und M.VERT um 5% von Laias ANG. Heilt alle 5 Sek. die TP des Verbündeten mit den niedrigsten TP um 250% des eigenen ANG."
     ],
     "story": "Ein Ankh in Gestalt eines Phönix. Es symbolisiert den natürlichen Kreislauf des Lebens. In der Urzeit verehrten die Nomaden der Wüste die Blaue Drachin der Oase als ihre Beschützerin. Im Gegenzug segnete sie sie mit Regen und schenkte ihren Feldfrüchten Leben. Um ihre Dankbarkeit zu zeigen, boten die Nomaden allerlei Schätze dar, darunter Lazulia, den Edelstein des Wassers. Obwohl sie eigentlich kein Interesse an materiellem Reichtum hatte, nahm sie ihre Erkenntlichkeit dankend an und verwendete die Schätze dazu, einen Tempel in der Oase zu errichten. Dieses Ankh ist das geheiligte Symbol des Tempels und enthält die mächtige Kraft des Wassers."
   },
   "s1": {
     "name": "Heilende Tropfen",
-    "description": "Heilt alle Verb. um bis zu {0} TP, abhängig von ihrem aktuellen TP-Verlust.",
+    "description": "Heilt alle Verbündeten auf bis zu {0} TP, basierend auf ihrer fehlenden TP, und reduziert den erlittenen M.Schaden für 5 Sek. um {1}%.",
     "books": {
       "0": "Erhöht Erholungsrate um {0}%.",
       "1": "Erhöht Erholungsrate um {0}%.",
@@ -70,14 +70,14 @@
   },
   "s2": {
     "name": "Schildblase",
-    "description": "Beschützt den Verbündeten mit der niedrigsten TP mit einem Schild, das 15 Sek lang bis zu {0} Schaden absorbiert und dem Ziel für die Wirkungsdauer Effektimmunität gewährt. Ziel erholt sich um {1} TP jede Sek, während das Schild aktiv ist.",
+    "description": "Beschützt den Verbündeten mit der niedrigsten TP mit einem Schild, das 15 Sek. lang bis zu {0} Schaden absorbiert und dem Ziel für die Wirkungsdauer Statuseffekt-Immunität gewährt, dessen ANG um {2} erhöht und jede Sekunde TP um {1} heilt.",
     "books": {
       "0": "Erhöht Schild-TP um {0}%.",
       "1": "Erhöht Schild-TP um {0}%.",
       "2": "Erhöht Schild-TP um {0}%."
     },
-    "light": "Erhöht ANG des Ziels um 30%.",
-    "dark": "M. Krit.-Widerstand des Ziels um 25% erhöht.",
+    "light": "Ändert das Ziel auf den Verbündeten mit dem höchsten ANG.",
+    "dark": "Reduziert Manakosten um 1.",
     "ut": {
       "name": "Oasenkristall",
       "description": [
@@ -122,7 +122,7 @@
       "1": "Erhöht VERT-Boost um {0}%.",
       "2": "Erhöht VERT-Boost um {0}%."
     },
-    "light": "Erhöht M.VERT-Erhöhungsrate um 20% und M.Krit.Widerstand um 100.",
+    "light": "Erhöht M.VERT-Erhöhungsrate um 20% und M.Krit.Widerstand um 150.",
     "dark": "Erhöht den eigenen Statuseffekt-Widerstand um 400.",
     "ut": {
       "name": "Träne des Gottdrachen",
@@ -139,6 +139,6 @@
   },
   "t5": {
     "light": "ANG, VERT, TP+15% / M.Block +200",
-    "dark": "Von Laias geheilte Verbündete erhalten M.VERT in Höhe von 5% ihrer ANG und je 75 Mana."
+    "dark": "Erholt alle 3 Sekunden 350 Mana für sämtliche Verbündeten."
   }
 }

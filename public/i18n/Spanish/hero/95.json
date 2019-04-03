@@ -36,12 +36,12 @@
   "uw": {
     "name": "Maza de rehabilitación, Hartnon",
     "description": [
-      "Otorga el efecto Resentimiento de Hartnon a los enemigos afectados por el ataque normal y de habilidad con un 20 % de probabilidad. Durante 5 segundos, Resentimiento de Hartnon reduces la Velocidad de ataque en 100, aumenta en un 10 % el Daño físico que reciben los objetivos, inflige Daño equivalente al 40 % del Ataque de Nicky cada segundo y reduce el Mana en 60. Este efecto no se puede acumular.",
-      "Otorga el efecto Resentimiento de Hartnon a los enemigos afectados por el ataque normal y de habilidad con un 20 % de probabilidad. Durante 5 segundos, Resentimiento de Hartnon reduces la Velocidad de ataque en 120, aumenta en un 12 % el Daño físico que recibe el objetivo, inflige Daño equivalente al 48 % del Ataque de Nicky cada segundo y reduce el Mana en 72. Este efecto no se puede acumular.",
-      "Otorga el efecto Resentimiento de Hartnon a los enemigos afectados por el ataque normal y de habilidad con un 20 % de probabilidad. Durante 5 segundos, Resentimiento de Hartnon reduces la Velocidad de ataque en 140, aumenta en un 14 % el Daño físico que recibe el objetivo, inflige Daño equivalente al 56 % del Ataque de Nicky cada segundo y reduce el Mana en 86. Este efecto no se puede acumular.",
-      "Otorga el efecto Resentimiento de Hartnon a los enemigos afectados por el ataque normal y de habilidad con un 20 % de probabilidad. Durante 5 segundos, Resentimiento de Hartnon reduces la Velocidad de ataque en 170, aumenta en un 17 % el Daño físico que recibe el objetivo, inflige Daño equivalente al 68 % del Ataque de Nicky cada segundo y reduce el Mana en 104. Este efecto no se puede acumular.",
-      "Otorga el efecto Resentimiento de Hartnon a los enemigos afectados por el ataque normal y de habilidad con un 20 % de probabilidad. Durante 5 segundos, Resentimiento de Hartnon reduces la Velocidad de ataque en 200, aumenta en un 20 % el Daño físico que recibe el objetivo, inflige Daño equivalente al 80 % del Ataque de Nicky cada segundo y reduce el Mana en 124. Este efecto no se puede acumular.",
-      "Otorga el efecto Resentimiento de Hartnon a los enemigos afectados por el ataque normal y de habilidad con un 20 % de probabilidad. Durante 5 segundos, Resentimiento de Hartnon reduces la Velocidad de ataque en 250, aumenta en un 25 % el Daño físico que recibe el objetivo, inflige Daño equivalente al 100 % del Ataque de Nicky cada segundo y reduce el Mana en 150. Este efecto no se puede acumular."
+      "Los golpes de habilidad aumentan el Daño físico que recibe el objetivo en un 20 % durante 5 segundos y reducen el Mana en 80 cada segundo.",
+      "Los golpes de habilidad aumentan el Daño físico que recibe el objetivo en un 24 % durante 5 segundos y reducen el Mana en 100 cada segundo.",
+      "Los golpes de habilidad aumentan el Daño físico que recibe el objetivo en un 29 % durante 5 segundos y reducen el Mana en 120 cada segundo.",
+      "Los golpes de habilidad aumentan el Daño físico que recibe el objetivo en un 35 % durante 5 segundos y reducen el Mana en 140 cada segundo.",
+      "Los golpes de habilidad aumentan el Daño físico que recibe el objetivo en un 42 % durante 5 segundos y reducen el Mana en 170 cada segundo.",
+      "Los golpes de habilidad aumentan el Daño físico que recibe el objetivo en un 50 % durante 5 segundos y reducen el Mana en 200 cada segundo."
     ],
     "story": "La maza que blande la jefa de la guardia para mantener a los prisioneros bajo control. Se la conoce como Maza de rehabilitación para los monstruos rebeldes en cautiverio. Aunque va pasando de generación en generación de un jefe de la guardia a otro en la Prisión militar de Orvelia, poco después de que Nicky asumiera como nueva jefa, rompió una parte de la maza mientras atacaba sin piedad a los prisioneros. -......... Estaba observando la maza rota y luego desvió la mirada hacia los monstruos. La bestia infernal Hartnon, cuyo cuerpo estaba completamente cubierto de cuernos, llamó su atención. Apareció una sonrisa cruel en el rostro de Nicky. “¡Tú! ¡Tienes un lindo ojo a pesar de ser un engendro despreciable!” Tiempo después, el ojo del monstruo fue a parar a las manos del herrero Jin y se convirtió en la nueva maza de Nicky. Era perfecta para ella. Los cuernos que brotaban de la maza expulsaban una maldición atroz, mientras que el profundo resentimiento arraigado en la ofrenda del ojo del monstruo garantizaba un dolor insoportable. Los prisioneros comenzaron a llamar “Hartnon” a la nueva maza en honor a la bestia sacrificada. Nicky sentía un intenso e incomparable placer cada vez que arremetía contra los prisioneros con su nueva maza."
   },
@@ -70,7 +70,7 @@
   },
   "s2": {
     "name": "Tempestad despiadada",
-    "description": "Toma posición y balancea el arma para atacar a los enemigos en un rango circular durante {0} veces. Cada golpe inflige Daño físico de {1} y aturde al objetivo durante {2} seg. Cada vez que se balancea el arma, aumenta la Velocidad de ataque propia, el Daño de la habilidad y la duración del aturdimiento. Aumenta la Velocidad de ataque propia hasta {3} , el Daño de la habilidad propio hasta un {4}  % y la duración del aturdimiento hasta {5} seg.",
+    "description": "Blande tu arma para atacar a los enemigos en un rango circular 7 veces. Cada golpe inflige Daño físico en {1} y los aturde durante 1,5 segundos. Reduce la Defensa física en un 30 % durante 5 segundos si el objetivo es un héroe.",
     "books": {
       "0": "Daño Aumenta en {0}%.",
       "1": "Daño Aumenta en {0}%.",
@@ -93,7 +93,7 @@
   },
   "s3": {
     "name": "Última ejecución",
-    "description": "Toma posición, se enfoca y ataca a los enemigos en un rango amplio frontal para infligirles {0} de Daño físico y derribarlos durante {1} seg. En función del tiempo que tarda en enfocarse, aumenta la distancia hasta donde los derriba y el tiempo que permanecen en el suelo hasta {2} seg. Aumenta el Daño hasta un {3}  % y, si Nicky se enfoca completamente, elimina el Efecto positivo de los enemigos dentro del rango. Inflige {4} adicional de Daño al enemigo que no es héroe y lo obliga a recibir Daño físico aumentado en un {6}  % durante {5} seg.",
+    "description": "Se ubica en posición, ataca a los enemigos en un rango frontal amplio, elimina los efectos positivos, inflige Daño físico en {0} y desciende sobre los enemigos para derribarlos durante 6 segundos. Esta habilidad inflige un aumento de 500 de Precisión y de Precisión del control de multitudes.",
     "books": {
       "0": "Daño Aumenta en {0}%.",
       "1": "Daño Aumenta en {0}%.",
@@ -116,14 +116,14 @@
   },
   "s4": {
     "name": "Instinto de masacre",
-    "description": "Aumenta el Ataque propio en {0} y la Probabilidad de crítico en {1}. Cuando la Salud propia está debajo del {2}  %, se activará el efecto Locura cruel. Con el efecto Locura cruel, elimina todos los efectos negativos propios y, durante {3} seg., aumenta el Ataque propio en {4} , recibe Daño reducido en un {5}  % y gana inmunidad al Control de multitudes. Este efecto se activará una vez cada {6} seg.",
+    "description": "Aumenta el Ataque en {0} y la Probabilidad de crítico en {1}.Cuando la Salud está en {2}  % o menos, se activará el efecto Locura cruel. El efecto Locura cruel elimina todos los efectos negativos propios, aumenta el Ataque en {4} y la Velocidad de ataque en 500, reduce el Daño infligido en un {5}  % y otorga inmunidad al Control de multitudes durante {3} segundo(s). Este efecto se activa solo una vez durante la batalla.",
     "books": {
       "0": "aumenta la tasa de Ataque en {0}%.",
       "1": "aumenta la tasa de Ataque en {0}%.",
       "2": "aumenta la tasa de Ataque en {0}%."
     },
     "light": "Aumenta la duración de Locura cruel en 5 segundos.",
-    "dark": "El Jefe Monstruo reciben un 15% de Daño aumentado",
+    "dark": "Recupera 2 esferas de Mana cuando el efecto Locura cruel está activado.",
     "ut": {
       "name": "Manicura amenazante",
       "description": [
