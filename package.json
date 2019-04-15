@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build && cp dist/index.html dist/200.html",
     "lint": "vue-cli-service lint",
     "serve": "serve dist"
   },
@@ -35,7 +35,12 @@
     "node-sass": "^4.11.0",
     "sass-loader": "^7.1.0",
     "serve": "^11.0.0",
+    "surge": "^0.20.3",
     "vue-template-compiler": "^2.6.10"
+  },
+  "gitHooks": {
+    "pre-commit": "yarn lint --no-fix",
+    "pre-push": "yarn build && surge --project ./dist --domain maskofgoblin.com"
   },
   "eslintConfig": {
     "root": true,
