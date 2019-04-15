@@ -7,7 +7,9 @@
     icon="searchicon"
     @select="option => itemID = option"
   >
-    <template slot="empty">-</template>
+    <template slot="empty">
+      -
+    </template>
   </b-autocomplete>
 </template>
 
@@ -27,13 +29,11 @@ export default {
     ...mapGetters(["getArtifactList", "getHeroList"]),
     itemID: {
       get () {
-        switch (this.$route.name) {
-          case "":
-          case "hero":
-            return this.$store.state.heroID;
-          case "artifact":
-            return this.$store.state.artifactID;
+        var r = this.$store.state.heroID;
+        if (this.$route.name === "artifact") {
+          r = this.$store.state.artifactID;
         }
+        return r;
       },
       async set (newID) {
         if (newID !== null) {
@@ -67,12 +67,11 @@ export default {
       }
     },
     itemList: function () {
-      switch (this.$route.name) {
-        case "hero":
-          return Object.keys(this.getHeroList).sort();
-        case "artifact":
-          return Object.keys(this.getArtifactList).sort();
+      var i = Object.keys(this.getHeroList).sort();
+      if (this.$route.name === "artifact") {
+        i = Object.keys(this.getArtifactList).sort();
       }
+      return i;
     },
     getPlaceholder: function () {
       return this.itemList[0];

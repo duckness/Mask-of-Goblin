@@ -4,7 +4,9 @@
       <li
         v-for="book in books"
         :key="book"
-      >{{ book }}</li>
+      >
+        {{ book }}
+      </li>
     </ol>
   </div>
 </template>

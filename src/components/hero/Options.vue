@@ -9,7 +9,9 @@
         <button
           :class="iconClass"
           class="button is-static"
-        >{{ $t("ui.level") }}</button>
+        >
+          {{ $t("ui.level") }}
+        </button>
       </p>
       <b-input
         v-model="level"

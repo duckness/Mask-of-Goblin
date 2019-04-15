@@ -3,7 +3,9 @@
     <anchoritem
       :header="3"
       to="attrs"
-    >Attributes</anchoritem>
+    >
+      Attributes
+    </anchoritem>
     <div class="media-content">
       <div class="content">
         <div class="columns">

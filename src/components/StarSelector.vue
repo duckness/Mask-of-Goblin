@@ -7,7 +7,9 @@
       <button
         :class="iconClass"
         class="button is-static"
-      >★</button>
+      >
+        ★
+      </button>
     </p>
     <b-select
       id="star-selector-input"
@@ -22,7 +24,9 @@
         :key="awakening.value"
         :value="awakening.value"
         class="has-text-grey"
-      >{{ awakening.text }}</option>
+      >
+        {{ awakening.text }}
+      </option>
     </b-select>
   </b-field>
 </template>

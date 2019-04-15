@@ -3,7 +3,9 @@
     <anchoritem
       :header="3"
       to="uw"
-    >{{ $t('ui.weapon') }}</anchoritem>
+    >
+      {{ $t('ui.weapon') }}
+    </anchoritem>
     <article class="media">
       <figure class="media-left">
         <p class="image is-128x128">
