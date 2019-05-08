@@ -1,0 +1,144 @@
+{
+  "name": "Yuria",
+  "subtitle": "Mysteriöse Schneiderin",
+  "description": "Yuria ist eine der besten Schneiderinnen des Kontinents – jeder, der es zu etwas gebracht hat, will ihre Gewänder kaufen. Sie liest die Schicksale ihrer Kunden und näht sie mit Nadel und Faden nach. Sterne tanzen auf ihrer Nadel und ihr Faden hinterlässt Lichtspuren auf allem, was er berührt.",
+  "story": "Die meisten Leute wissen keine Antwort, wenn man nach der berühmtesten Schneiderin des Orbis-Kontinents fragt. Wer aber über Gewänder Bescheid weiß, wird stets den gleichen Namen nennen: Yuria. Yuria, eine Schneiderin aus Penteonia, stellt für ihre Aufträge immer die gleichen zwei Bedingungen. Erstens will sie etwas Zeit mit ihrer Kundschaft verbringen, damit sie eine Inspiration für die Kleidung findet. Zweitens darf ihre Kundschaft nicht lügen oder sich anders als sie wirklich ist darstellen. Die erste Bedingung rührt aus ihrer Gabe der ‚Voraussicht‘ her, mit der sie den Schicksalsfaden ihrer Kunden erspürt und mit der Nadel in den Stoff näht. Die zweite Bedingung kommt daher, dass sie die Wahrheit erspüren kann und Lügen abstoßend findet. Für jene, die nicht aufrichtig sein können, will sie nicht arbeiten. Ihre Meisterstücke aus den gelesenen Schicksalen sind wertvoll wie Sternenlicht. Um sie zu erlangen, haben Adlige gemordet und sind gestorben.",
+  "like": "Reisen, ihre Arbeit, warme Bäder, Bardengedichte und Lieder",
+  "dislike": "Verächter von guter Kleidung, Rücksichtslosigkeit gegenüber dem Schicksal anderer, Lügen",
+  "inn": {
+    "idle": "Ah, hier geht es ja lebhaft zu! Und alle scheinen Spaß zu haben.",
+    "recruit": {
+      "greet": "Oh, hallo. Brauchst du neue Kleider?",
+      "talk": [
+        "Wie ein Maler auf leerer Leinwand bringe ich den Inhalt meines Geistes in Form von Kleidung!",
+        "Ich höre, eine berühmte Schneiderin sei vor Ort. Ich kann nicht abwarten, sie zu treffen!",
+        "Die Leute sind mit ihren Schicksalen geboren. Ich würde gern sehen, auf welchen Pfad dich deines führt."
+      ],
+      "gift": "Oh, danke! Früher oder später werde ich dir im Gegenzug etwas nähen."
+    },
+    "affinity": {
+      "greet": "Haha, schön, dich zu sehen. Unser Treffen heute war vorherbestimmt, das weiß ich.",
+      "talk": [
+        "Ich habe keine absoluten Visionen der Zukunft. Ich spüre nur, was jenseits der Gegenwart liegt.",
+        "Ich liebe das Reisen. Man sieht, spürt und erfährt so viele Dinge."
+      ],
+      "gift": "Meine Güte, so viel? Da muss ich dir wohl mal ein Getränk spendieren."
+    },
+    "relationship": {
+      "greet": "Ich habe auf dich gewartet, Meister des Schicksals.",
+      "talk": [
+        "Mein Prozess, um Kleidung herzustellen, ist recht einmalig. Deshalb brauche ich auch für jedes Stück so lange.",
+        "Ähm, wenn man darüber nachdenkt, ist es schon recht beeindruckend. Ich habe nicht wegen Reichtum und Ruhm angefangen, aber ich wurde sehr schnell berühmt.",
+        "Manchmal reise ich zurück in meine Heimat, Penteonia. Meist, um Königin Artemia ein Kleid anzufertigen. *kicher*"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Sternhimmelweber, Mellifluo",
+    "description": [
+      "Erhöht 10 Sek. nach jedem normalen Angriff ANG um 1 % und Krit. Schaden um 1 %. Dieser Effekt kann bis zu 20-mal gestapelt werden und ist nicht zu entfernen. Bei Benutzung des Skills werden 200 Mana wiederhergestellt.",
+      "Erhöht 10 Sek. nach jedem normalen Angriff ANG um 1,2 % und Krit. Schaden um 1,2 %. Dieser Effekt kann bis zu 20-mal gestapelt werden und ist nicht zu entfernen. Bei Benutzung des Skills werden 240 Mana wiederhergestellt.",
+      "Erhöht 10 Sek. nach jedem normalen Angriff ANG um 1,4 % und Krit. Schaden um 1,4 %. Dieser Effekt kann bis zu 20-mal gestapelt werden und ist nicht zu entfernen. Bei Benutzung des Skills werden 290 Mana wiederhergestellt.",
+      "Erhöht 10 Sek. nach jedem normalen Angriff ANG um 1,7 % und Krit. Schaden um 1,7 %. Dieser Effekt kann bis zu 20-mal gestapelt werden und ist nicht zu entfernen. Bei Benutzung des Skills werden 350 Mana wiederhergestellt.",
+      "Erhöht 10 Sek. nach jedem normalen Angriff ANG um 2,1 % und Krit. Schaden um 2,1 %. Dieser Effekt kann bis zu 20-mal gestapelt werden und ist nicht zu entfernen. Bei Benutzung des Skills werden 420 Mana wiederhergestellt.",
+      "Erhöht 10 Sek. lang nach jedem normalen Angriff ANG um 2,5 % und Krit. Schaden um 2,5 %. Dieser Effekt kann bis zu 20-mal gestapelt werden und ist nicht zu entfernen. Bei Benutzung des Skills werden 500 Mana wiederhergestellt."
+    ],
+    "story": "Yurias Lieblingssatz von Nadel, Faden und Schere. Mit diesem Werkzeug schuf sie all ihre Meisterwerke. Der Faden ist vom Sternenlicht des Nachthimmels durchwoben und Nadel und Schere wurden aus dem Metall eines Meteoriten geschmiedet. Zusammen geben sie Yuria die Macht, die Zukunft zu lesen."
+  },
+  "s1": {
+    "name": "Bindendes Karma",
+    "description": "Fügt 2 Gegnern {0} M.Schaden zu, der M.Blockieren ignoriert und ihr Mana um 500 reduziert. Falls das Ziel den Status 'Schicksalsfaden' hat, wird die VERT ignoriert und 'Schicksalsfaden' entfernt.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Lässt den Skill 1.000 Mana reduzieren.",
+    "dark": "Betäubt getroffene Ziele für 3 Sek.",
+    "ut": {
+      "name": "Flüstern des Nachthimmels",
+      "description": [
+        "[Bindendes Karma] Gewährt für die Dauer des Skills Immunität gegen Statuseffekte und erhöht den Schaden um 20 %.",
+        "[Bindendes Karma] Gewährt für die Dauer des Skills Immunität gegen Statuseffekte und erhöht den Schaden um 24 %.",
+        "[Bindendes Karma] Gewährt für die Dauer des Skills Immunität gegen Statuseffekte und erhöht den Schaden um 29 %.",
+        "[Bindendes Karma] Gewährt für die Dauer des Skills Immunität gegen Statuseffekte und erhöht den Schaden um 35 %.",
+        "[Bindendes Karma] Gewährt für die Dauer des Skills Immunität gegen Statuseffekte und erhöht den Schaden um 42 %.",
+        "[Bindendes Karma] Gewährt für die Dauer des Skills Immunität gegen Statuseffekte und erhöht den Schaden um 50 %."
+      ],
+      "story": "Der einzige Schal der Welt, der aus Yurias selbstgesponnenem Sternenlichtfaden besteht. Als stetig Reisende muss sich Yuria vor den Elementen beschützen, weswegen sie sich etwas Bequemes schneiderte. Das Ergebnis war dieser Schal, der sich den Temperaturen auf magische Weise anpasst. Mit diesem Kleidungsstück um ihre Schultern hält Yuria weder Sturm noch Hagel vom Reisen ab. Der einzige Nachteil ist, dass das schimmernde Material Beobachter aus der Ferne dazu verleitet, Yuria für eine Fee oder einen Geist zu halten und voller Furcht zu fliehen."
+    }
+  },
+  "s2": {
+    "name": "Sternenlichtnaht",
+    "description": "Entfernt eigene negative Effekte und zaubert ein Schild auf sich selbst, der {0} Sek lang {1} Schaden absorbiert. Solange der Schild wirkt, ist die Nutzerin gegen Statuseffekte immun und erhält eine erhöhte Krit. Chance von 300. Zudem treffen alle Angriffe von Yuria 1 zusätzliches Ziel.",
+    "books": {
+      "0": "Erhöht Schild-TP um {0}%.",
+      "1": "Erhöht Schild-TP um {0}%.",
+      "2": "Erhöht Schild-TP um {0}%."
+    },
+    "light": "Erhöht den eigenen ANG um 30 %, solange der Schild wirkt.",
+    "dark": "Erhöht Manakosten um 1 und verleiht den gleichen Effekt 1 Verbündetem mit dem höchsten ANG.",
+    "ut": {
+      "name": "Voraussehende Augen",
+      "description": [
+        "[Sternenlichtnaht] Erhöht die Schildmenge um 50 % und verringert erlittenen K.Schaden um 10 % für die Schilddauer.",
+        "[Sternenlichtnaht] Erhöht die Schildmenge um 50 % und verringert erlittenen K.Schaden um 12 % für die Schilddauer.",
+        "[Sternenlichtnaht] Erhöht die Schildmenge um 50 % und verringert erlittenen K.Schaden um 14 % für die Schilddauer.",
+        "[Sternenlichtnaht] Erhöht die Schildmenge um 50 % und verringert erlittenen K.Schaden um 17 % für die Schilddauer.",
+        "[Sternenlichtnaht] Erhöht die Schildmenge um 50 % und verringert erlittenen K.Schaden um 21 % für die Schilddauer.",
+        "[Sternenlichtnaht] Erhöht die Schildmenge um 50 % und verringert erlittenen K.Schaden um 25 % für die Schilddauer."
+      ],
+      "story": "Eines der Vermächtnisse des Wahrsagers Lasiphil, dem entfernten Vorfahren von Yuria. Es handelt sich um einen Satz aus 3 Ringen, die trotz ihres Alters nie ihren Glanz verloren haben. Ihre besonderen Mächte kann selbst Yuria nicht einschätzen. Eines der Bücher, die Yurias Großeltern ihr hinterlassen haben, behauptet, dass die Voraussehenden Augen ihr Licht sein werden und den Propheten auf den rechten Pfad führen können."
+    }
+  },
+  "s3": {
+    "name": "Kreis des Schicksals",
+    "description": "Fügt 2 Gegnern {0} M.Schaden zu, wodurch sie für {1} Sek. 30 % mehr M.Schaden erleiden und {2} Sek. lang mit Schicksalsfaden belegt werden. Unter Schicksalsfaden ist die ANG-Geschwindigkeit des Gegners für um 250 reduziert.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Lässt den Skill 500 ANG-Geschwindigkeit reduzieren.",
+    "dark": "Entfernt positiven Effekt vom Ziel.",
+    "ut": {
+      "name": "Jenseits des Spiegels",
+      "description": [
+        "[Kreis des Schicksals] Erhöht den Schaden um 50 % und erhöht erlittenen M.Schaden am Ziel 10 Sek. lang um 10 %.",
+        "[Kreis des Schicksals] Erhöht den Schaden um 50 % und erhöht erlittenen M.Schaden am Ziel 10 Sek. lang um 12 %.",
+        "[Kreis des Schicksals] Erhöht den Schaden um 50 % und erhöht erlittenen M.Schaden am Ziel 10 Sek. lang um 14 %.",
+        "[Kreis des Schicksals] Erhöht den Schaden um 50 % und erhöht erlittenen M.Schaden am Ziel 10 Sek. lang um 17 %.",
+        "[Kreis des Schicksals] Erhöht den Schaden um 50 % und erhöht erlittenen M.Schaden am Ziel 10 Sek. lang um 21 %.",
+        "[Kreis des Schicksals] Erhöht den Schaden um 50 % und erhöht erlittenen M.Schaden am Ziel 10 Sek. lang um 25 %."
+      ],
+      "story": "Eines der Vermächtnisse des Wahrsagers Lasiphil, dem entfernten Vorfahren von Yuria. Der von bläulicher Energie durchzogene Spiegel, den Yuria nun in ihrem Reisewagen aufbewahrt, zeigt Reflexionen, aber auch das Schicksal. Yuria begreift in Grundzügen, was der Spiegel ihr zeigt, doch selbst sie kann nicht alle Visionen interpretieren."
+    }
+  },
+  "s4": {
+    "name": "Segen der Wahrheit",
+    "description": "Erhöht die eigene VERT insgesamt um {0} und ANG-Geschwindigkeit um 300. Trifft bei normalen Angriffen 2 Gegner. Jeder normale Angriff hinterlässt einen Zähler ‚Stigma der Sterne‘. Für jeden Zähler ‚Stigma der Sterne‘ erleiden Ziele 1 % erhöhten M.Schaden. Dieser Effekt kann bis zu 15-mal gestapelt werden und ist nicht zu entfernen.",
+    "books": {
+      "0": "Erhöht den VERT-Boost um {0}  %.",
+      "1": "Erhöht den VERT-Boost um {0}  %.",
+      "2": "Erhöht den VERT-Boost um {0}  %."
+    },
+    "light": "Erhöht erlittenen M.Schaden am Ziel um 2 %",
+    "dark": "Erhöht den VERT und ANG-Boost um 50 %.",
+    "ut": {
+      "name": "Tränen des Himmels",
+      "description": [
+        "[Segen der Wahrheit] Erhöht die maximale Zählerzahl des ‚Stigmas der Sterne‘ um 10. Schaden von normalen Angriffen steigt um 20 %.",
+        "[Segen der Wahrheit] Erhöht die maximale Zählerzahl des ‚Stigmas der Sterne‘ um 10. Schaden von normalen Angriffen steigt um 24 %.",
+        "[Segen der Wahrheit] Erhöht die maximale Zählerzahl des ‚Stigmas der Sterne‘ um 10. Schaden von normalen Angriffen steigt um 29 %.",
+        "[Segen der Wahrheit] Erhöht die maximale Zählerzahl des ‚Stigmas der Sterne‘ um 10. Schaden von normalen Angriffen steigt um 35 %.",
+        "[Segen der Wahrheit] Erhöht die maximale Zählerzahl des ‚Stigmas der Sterne‘ um 10. Schaden von normalen Angriffen steigt um 42 %.",
+        "[Segen der Wahrheit] Erhöht die maximale Zählerzahl des ‚Stigmas der Sterne‘ um 10. Schaden von normalen Angriffen steigt um 50 %."
+      ],
+      "story": "Ein starker, aber erfrischender Schnaps aus Penteonia. Als eine der besten Spirituosen auf Orbis ist er sehr wertvoll. Durch ihre häufigen Reisen kann Yuria ihre Lieblingssorte nur selten erhalten. Deshalb kehrt sie mindestens einmal im Jahr zurück, fertigt ein Kleid für die Königin an und lässt sich in ein paar Flaschen auszahlen."
+    }
+  },
+  "t5": {
+    "light": "ANG, VERT, TP +15% / ANG-Geschwindigkeit +100",
+    "dark": "Erhält zu Beginn des ersten Kampfes Segen der Voraussicht Segen der Voraussicht erhöht Ausweichchance insgesamt um 300 und reduziert den erlittenen Schaden für 20 Sek. um 300. Dieser Effekt kann nicht entfernt werden. Statuseffekte, die auf Yuria gewirkt werden, während Segen der Voraussicht aktiv ist, werden sofort entfernt, wobei Segen der Voraussicht ebenfalls entfernt und 1 Kugel Mana wiederhergestellt wird."
+  }
+}

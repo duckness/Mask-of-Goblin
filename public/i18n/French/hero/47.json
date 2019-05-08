@@ -1,0 +1,144 @@
+{
+  "name": "Yuria",
+  "subtitle": "Tailleur mystérieux",
+  "description": "Elle est l'un des meilleurs tailleurs qui soient et confectionne des costumes et robes pour toutes les célébrités du continent. Elle perçoit le destin des gens et manie l'aiguille et le fil comme personne. Les étoiles dansent autour de son aiguille, et son fil illumine tout ce qu'il touche.",
+  "story": "Lorsque l'on cherche à savoir quel tailleur est le meilleur du continent Orbis, on est bien embêté pour répondre. Pourtant, ceux qui s'y connaissent un peu en vêtements ne manqueront pas d'évoquer Yuria. Yuria, tailleur de Penteonia, pose toujours deux conditions avant d'accepter un travail. La première consiste à passer du temps avec le client afin de savoir quel genre de vêtement elle va confectionner. Pendant ce temps, la seconde condition est que le client doit être honnête et ne pas mentir. La première condition favorise la « clairvoyance » et permet de percevoir le destin du client, qu'elle exprimera à travers son aiguille et son fil. La seconde condition résulte du fait qu'elle perçoit la vérité et trouve les mensonges affreux. Elle ne confectionnera rien pour quelqu'un qui n'est pas honnête. Ses chefs-d'œuvre, réalisés à partir des destins qu'elle a perçus, sont aussi précieux que la lumière des étoiles. Les nobles sont prêts à tout pour les posséder.",
+  "like": "Voyager, son travail, les bains chauds, les poèmes et chansons de barde.",
+  "dislike": "Les gens qui se fichent des vêtements, les mensonges et ceux qui ne respectent pas le destin des autres.",
+  "inn": {
+    "idle": "Oh, comme c'est vivant, par ici ! Tout le monde a l'air de s'amuser.",
+    "recruit": {
+      "greet": "Oh, bonjour, vous avez besoin de nouveaux vêtements ?",
+      "talk": [
+        "À la manière d'un peintre avec sa toile, je m'exprime à travers les vêtements !",
+        "Il paraît qu'un tailleur célèbre habite ici, j'ai hâte de le rencontrer.",
+        "Tout le monde a un destin différent. J'aimerais savoir où vous mènera le vôtre."
+      ],
+      "gift": "Ouah, merci. Je vous confectionnerai des vêtements."
+    },
+    "affinity": {
+      "greet": "Ah ah, contente de vous revoir. J'ai l'impression que cette rencontre était écrite.",
+      "talk": [
+        "Je n'ai pas de visions du futur à proprement parler, mais je ressens des choses au-delà du présent.",
+        "J'adore les voyages. Ils permettent de découvrir, voir et ressentir un tas de choses nouvelles."
+      ],
+      "gift": "Ouah, tout ça ? Je vais devoir vous offrir un verre en échange."
+    },
+    "relationship": {
+      "greet": "Je vous attendais, maître du destin.",
+      "talk": [
+        "Je confectionne mes vêtements en suivant un procédé unique, c'est pour cela que je mets si longtemps.",
+        "Hum, c'est très surprenant, quand on y pense. Je n'ai jamais fait cela pour la gloire ou la fortune, mais je suis devenue célèbre en un rien de temps.",
+        "Parfois, je rentre dans mon pays, à Penteonia. Principalement pour confectionner une robe à la reine Artemia, hi hi."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Mellifluo, tisserand du ciel étoilé",
+    "description": [
+      "Augmente l'ATQ de 1 % et les DEG Crit de 1 % pendant 10 sec à chaque attaque normale. Cet effet peut se cumuler jusqu'à 20 fois et est inamovible. Cette compétence restaure 200 points de mana.",
+      "Augmente l'ATQ de 1,2 % et les DEG Crit de 1,2 % pendant 10 sec à chaque attaque normale. Cet effet peut se cumuler jusqu'à 20 fois et est inamovible. Cette compétence restaure 240 points de mana.",
+      "Augmente l'ATQ de 1,4 % et les DEG Crit de 1,4 % pendant 10 sec à chaque attaque normale. Cet effet peut se cumuler jusqu'à 20 fois et est inamovible. Cette compétence restaure 290 points de mana.",
+      "Augmente l'ATQ de 1,7 % et les DEG Crit de 1,7 % pendant 10 sec à chaque attaque normale. Cet effet peut se cumuler jusqu'à 20 fois et est inamovible. Cette compétence restaure 350 points de mana.",
+      "Augmente l'ATQ de 2,1 % et les DEG Crit de 2,1 % pendant 10 sec à chaque attaque normale. Cet effet peut se cumuler jusqu'à 20 fois et est inamovible. Cette compétence restaure 420 points de mana.",
+      "Augmente l'ATQ de 2,5 % et les DEG Crit de 2,5 % pendant 10 sec à chaque attaque normale. Cet effet peut se cumuler jusqu'à 20 fois et est inamovible. Cette compétence restaure 500 points de mana."
+    ],
+    "story": "Fil, aiguille et ciseaux préférés de Yuria. Tous ses chefs-d'œuvre ont été réalisés avec eux. Le fil, renfermant la lumière d'une nuit étoilée, et les ciseaux et l'aiguille, en métal issu d'une météorite, offrent à Yuria la possibilité de lire l'avenir."
+  },
+  "s1": {
+    "name": "Karma fatidique",
+    "description": "Inflige {0}  points de DEG M passant outre le Blocage M à 2 ennemis et réduit leur mana de 500 points. Si le statut de la cible est 'Filetage du destin', sa DEF est ignorée et 'Filetage du destin est dissipé'.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "La compétence consomme 1 000 points de mana.",
+    "dark": "Étourdit les cibles touchées pendant 3 sec.",
+    "ut": {
+      "name": "Murmure du ciel nocturne",
+      "description": [
+        "[Karma fatidique] Augmente les DEG de 20 % et confère l'immunité contre les contrôles pendant la durée de la compétence.",
+        "[Karma fatidique] Augmente les DEG de 24 % et confère l'immunité contre les contrôles pendant la durée de la compétence.",
+        "[Karma fatidique] Augmente les DEG de 29 % et confère l'immunité contre les contrôles pendant la durée de la compétence.",
+        "[Karma fatidique] Augmente les DEG de 35 % et confère l'immunité contre les contrôles pendant la durée de la compétence.",
+        "[Karma fatidique] Augmente les DEG de 42 % et confère l'immunité contre les contrôles pendant la durée de la compétence.",
+        "[Karma fatidique] Augmente les DEG de 50 % et confère l'immunité contre les contrôles pendant la durée de la compétence."
+      ],
+      "story": "Unique châle confectionné par Yuria à l'aide du fil de la nuit étoilée. En bonne voyageuse Yuria veille toujours à se protéger contre les éléments, c'est pourquoi elle choisit de fabriquer quelque chose de confortable. Ce châle utilise de la magie d'ajustement de la température pour réguler la température ressentie de son porteur. Il permet à Yuria de braver les tempêtes et les blizzards lors de ses voyages. Son seul inconvénient est que son matériau lumineux fait que le châle émet de la lumière, même la nuit. Il est donc visible de loin et peut faire penser à une fée ou un fantôme, ce qui effraie parfois les gens."
+    }
+  },
+  "s2": {
+    "name": "Couture de la nuit étoilée",
+    "description": "Dissipe les effets négatifs et génère un bouclier qui absorbe {1}  points de DEG pendant {0}  sec. Pendant que le bouclier est actif, il confère l'immunité contre les contrôles et augmente les chances de coup critique de 300 points et toutes les attaques de Yuria touchent 1 cible de plus.",
+    "books": {
+      "0": "Augmente les PV Bouclier de  {0}%.",
+      "1": "Augmente les PV Bouclier de  {0}%.",
+      "2": "Augmente les PV Bouclier de  {0}%."
+    },
+    "light": "Augmente l'ATQ de 30 % pendant la durée du bouclier.",
+    "dark": "Augmente le coût en mana de 1 point, mais relance le même effet sur l'alliée à l'ATQ la plus élevée.",
+    "ut": {
+      "name": "Yeux clairvoyants",
+      "description": [
+        "[Couture de la nuit étoilée] Augmente la capacité du bouclier de 50 % et réduit les DEG P de 10 % tant que le bouclier est actif.",
+        "[Couture de la nuit étoilée] Augmente la capacité du bouclier de 50 % et réduit les DEG P de 12 % tant que le bouclier est actif.",
+        "[Couture de la nuit étoilée] Augmente la capacité du bouclier de 50 % et réduit les DEG P de 14 % tant que le bouclier est actif.",
+        "[Couture de la nuit étoilée] Augmente la capacité du bouclier de 50 % et réduit les DEG P de 17 % tant que le bouclier est actif.",
+        "[Couture de la nuit étoilée] Augmente la capacité du bouclier de 50 % et réduit les DEG P de 21 % tant que le bouclier est actif.",
+        "[Couture de la nuit étoilée] Augmente la capacité du bouclier de 50 % et réduit les DEG P de 25 % tant que le bouclier est actif."
+      ],
+      "story": "L'un des héritages laissés par Lasiphil, lointain parent de Yuria. Malgré les années, ces 3 anneaux n'ont jamais perdu leur brillant. Ils renferment des pouvoirs spéciaux que même Yuria ne peut dompter. Dans l'un des livres hérités des grands-parents de Yuria, l'on raconte qu'au moment voulu, les Yeux clairvoyants projetteront leur lumière et aideront le prophète à trouver le bon chemin."
+    }
+  },
+  "s3": {
+    "name": "Cercle du destin",
+    "description": "Inflige {0}  points de DEG M à 2 ennemis et ceux-ci subissent 30 % de DEG M supplémentaires pendant {1}  sec ainsi que Filetage du destin pendant  {2}  secondes. Sous Filetage du destin, la Vit ATQ des ennemis est réduite de 250 points.",
+    "books": {
+      "0": "DEG augmentés de {0}%.",
+      "1": "DEG augmentés de {0}%.",
+      "2": "DEG augmentés de {0}%."
+    },
+    "light": "La compétence réduit la Vit ATQ de 500 points.",
+    "dark": "Dissipe les effets positifs dont bénéficie la cible.",
+    "ut": {
+      "name": "Au-delà du miroir",
+      "description": [
+        "[Cercle du destin] Augmente les DEG de 50 % et augmente les DEG M infligés à la cible de 10 % pendant 10 sec.",
+        "[Cercle du destin] Augmente les DEG de 50 % et augmente les DEG M infligés à la cible de 12 % pendant 10 sec.",
+        "[Cercle du destin] Augmente les DEG de 50 % et augmente les DEG M infligés à la cible de 14 % pendant 10 sec.",
+        "[Cercle du destin] Augmente les DEG de 50 % et augmente les DEG M infligés à la cible de 17 % pendant 10 sec.",
+        "[Cercle du destin] Augmente les DEG de 50 % et augmente les DEG M infligés à la cible de 21 % pendant 10 sec.",
+        "[Cercle du destin] Augmente les DEG de 50 % et augmente les DEG M infligés à la cible de 25 % pendant 10 sec."
+      ],
+      "story": "L'un des héritages laissés par Lasiphil, lointain parent de Yuria. Désormais conservé à l'arrière du wagon itinérant de Yuria, cet étrange miroir recouvert d'une énergie bleue permet de voir son reflet, mais aussi son destin. Yuria pense savoir à peu près ce que révèle le miroir, mais ne peut pas l'interpréter entièrement."
+    }
+  },
+  "s4": {
+    "name": "Bénédiction de la vérité",
+    "description": "Augmente Toutes DEF de {0}  points et la Vit ATQ de 300. Les attaques normales touchent 2 ennemis. Ces attaquent infligent une charge de Stigmates des étoiles. Les cibles subissent 1 % de DEG M supplémentaire par charge de Stigmates des étoiles. Cet effet peut se cumuler jusqu'à 15 fois et est inamovible.",
+    "books": {
+      "0": "Augmente le boost de DEF de {0}  %.",
+      "1": "Augmente le boost de DEF de {0}  %.",
+      "2": "Augmente le boost de DEF de {0}  %."
+    },
+    "light": "Cibles subissent maintenant 2 % DEG M supplémentaires.",
+    "dark": "Augmente le boost de DEF et de Vit ATQ de 50 %.",
+    "ut": {
+      "name": "Gouttes de paradis",
+      "description": [
+        "[Bénédiction de la vérité] Augmente le nombre maximal de Stigmates des étoiles de 10, et augmente de 20 % les DEG des attaques normales.",
+        "[Bénédiction de la vérité] Augmente le nombre maximal de Stigmates des étoiles de 10, et augmente de 24 % les DEG des attaques normales.",
+        "[Bénédiction de la vérité] Augmente le nombre maximal de Stigmates des étoiles de 10, et augmente de 29 % les DEG des attaques normales.",
+        "[Bénédiction de la vérité] Augmente le nombre maximal de Stigmates des étoiles de 10, et augmente de 35 % les DEG des attaques normales.",
+        "[Bénédiction de la vérité] Augmente le nombre maximal de Stigmates des étoiles de 10, et augmente de 42 % les DEG des attaques normales.",
+        "[Bénédiction de la vérité] Augmente le nombre maximal de Stigmates des étoiles de 10, et augmente de 50 % les DEG des attaques normales."
+      ],
+      "story": "Liqueur de Penteonia forte mais rafraîchissante. C'est l'une des meilleures liqueurs d'Orbis qui soient, et elle est très précieuse. C'est aussi la liqueur préférée de Yuria, mais elle ne parvient pas toujours à s'en procurer lors de ses voyages. C'est pourquoi elle revient chez elle au moins une fois par an, pour confectionner une robe pour la reine et faire le plein de bouteilles en échange."
+    }
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15 %/Vit ATQ +100",
+    "dark": "Confère Bénédiction de la clairvoyance au début du premier combat. Bénédiction de la clairvoyance augmente Toutes chances d'esquiver de 300 points et réduit tous DEG de 300 points pendant 20 sec. Cet effet est inamovible. Tout contrôle lancé sur Yuria pendant Bénédiction de la clairvoyance est instantanément dissipé et Bénédiction de la clairvoyance est supprimée, ce qui restaure 1 orbe de mana."
+  }
+}

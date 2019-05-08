@@ -1,0 +1,144 @@
+{
+  "name": "Yuria",
+  "subtitle": "Sastre misteriosa",
+  "description": "Una de las mejores sastres del lugar. Hace ropas y vestidos para las celebridades de todo el continente. Lee el destino de las personas y cose con destreza con su aguja e hilo. Las estrellas bailan alrededor de su aguja y el hilo deja rastros de luz en cada lugar que toca.",
+  "story": "Si alguien preguntara quién es la sastre más famosa del continente Orbis, la mayoría de las personas no sabrían a quién nombrar. Sin embargo, aquellos que saben algo sobre vestimenta dirán sin duda el nombre de Yuria. Yuria, una sastre de Penteonia, siempre establece dos condiciones antes de aceptar encargos. Primero, debe pasar algo de tiempo con el cliente para inspirarse sobre el tipo de prenda que creará. Segundo, mientras está con el cliente, este no debe mentir ni hacer de cuenta que es alguien que no es. La primera condición sirve para ayudar a su sentido de «profecía» y sentir el hilo del destino del cliente para poder expresarlo con su aguja. La segunda condición se debe principalmente a que puede detectar la verdad y aborrece las mentiras. No quiere crear nada para alguien que no sea honesto. Sus obras maestras, hechas con el destino que ella percibió son tan valiosas como la luz de las estrellas. Cualquier noble moriría por tener una.",
+  "like": "Viajar, su trabajo, baños calientes, poemas y canciones del bardo",
+  "dislike": "Las personas a las que no les importan las ropas, las personas que no tienen respeto por el destino de los demás, las mentiras",
+  "inn": {
+    "idle": "¡Ah, las cosas parecen bastante animadas aquí! Parece que todo el mundo la está pasando bien.",
+    "recruit": {
+      "greet": "Ah, hola. ¿Necesitas ropas nuevas?",
+      "talk": [
+        "Al igual que un pintor frente al lienzo en blanco, ¡yo le doy forma a mis pensamientos con la ropa!",
+        "Escuché que hay una famosa sastre en el pueblo. No puedo esperar a conocerla.",
+        "Las personas nacen con diferentes destinos. Me gustaría saber qué te espera."
+      ],
+      "gift": "Vaya, gracias. Como agradecimiento, te haré algunas ropas, tarde o temprano."
+    },
+    "affinity": {
+      "greet": "Jaja, qué bueno verte. Siento que nuestro encuentro estuvo predestinado.",
+      "talk": [
+        "No es que tengo visiones definitivas sobre el futuro. Simplemente presiento el porvenir del presente.",
+        "Me encanta viajar. Puedo ver, sentir y experimentar muchas cosas."
+      ],
+      "gift": "Vaya, ¿tanto? Tendré que comprarte un trago como agradecimiento."
+    },
+    "relationship": {
+      "greet": "Te estaba esperando maestro del destino.",
+      "talk": [
+        "Cuando creo ropa, paso por un proceso bastante particular. Es por eso que me lleva tanto tiempo terminar una prenda.",
+        "Guau, si lo piensas, esto es fantástico. Nunca lo hice por la fama o el dinero, pero resulta que soy famosa.",
+        "A veces regreso a mi país natal, Penteonia. Principalmente para hacer un vestido para la reina Artemia. *Risitas*"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Mellifluo, tejedor de cielos estrellados",
+    "description": [
+      "Aumenta el Ataque en un 1 % y el Daño crítico en 1 % durante 10 segundos en cada ataque normal. Además, este efecto se puede acumular hasta 20 veces y no se puede disipar. Recupera 200 puntos de Mana al usar la habilidad.",
+      "Aumenta el Ataque en un 1,2 % y el Daño crítico en 1,2 % durante 10 segundos en cada ataque normal. Además, este efecto se puede acumular hasta 20 veces y no se puede disipar. Recupera 240 puntos de Mana al usar la habilidad.",
+      "Aumenta el Ataque en un 1,4 % y el Daño crítico en 1,4 % durante 10 segundos en cada ataque normal. Además, este efecto se puede acumular hasta 20 veces y no se puede disipar. Recupera 290 puntos de Mana al usar la habilidad.",
+      "Aumenta el Ataque en un 1,7 % y el Daño crítico en 1,7 % durante 10 segundos en cada ataque normal. Además, este efecto se puede acumular hasta 20 veces y no se puede disipar. Recupera 350 puntos de Mana al usar la habilidad.",
+      "Aumenta el Ataque en un 2,1 % y el Daño crítico en 2,1 % durante 10 segundos en cada ataque normal. Además, este efecto se puede acumular hasta 20 veces y no se puede disipar. Recupera 420 puntos de Mana al usar la habilidad.",
+      "Aumenta el Ataque en un 2,5 % y el Daño crítico en 2,5 % durante 10 segundos en cada ataque normal. Además, este efecto se puede acumular hasta 20 veces y no se puede disipar. Recupera 500 puntos de Mana al usar la habilidad."
+    ],
+    "story": "El conjunto favorito de tijeras, aguja e hilo de Yuria. Sus obras maestras fueron creadas con estas herramientas. El hilo con luz de estrellas del cielo nocturno , y las tijeras y la aguja hechas con metal de un meteorito le confieren a Yuria el poder de leer el futuro."
+  },
+  "s1": {
+    "name": "Karma vinculante",
+    "description": "Inflige {0} de Daño mágico que ignora el efecto de Bloqueo mágico a 2 enemigos y reduce su Mana en 500 puntos. Si el objetivo se encuentra en estado 'Destino conectado', ignora su defensa y disipa 'Destino conectado'.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Hace que la habilidad reduzca 1000 puntos de Mana.",
+    "dark": "Aturde a los objetivos durante 3 segundos.",
+    "ut": {
+      "name": "Susurro del cielo nocturno",
+      "description": [
+        "[Karma vinculante] Aumenta el daño en un 20 % y otorga inmunidad al Control de multitudes mientras dura la habilidad.",
+        "[Karma vinculante] Aumenta el daño en un 24 % y otorga inmunidad al Control de multitudes mientras dura la habilidad.",
+        "[Karma vinculante] Aumenta el daño en un 29 % y otorga inmunidad al Control de multitudes mientras dura la habilidad.",
+        "[Karma vinculante] Aumenta el daño en un 35 % y otorga inmunidad al Control de multitudes mientras dura la habilidad.",
+        "[Karma vinculante] Aumenta el daño en un 42 % y otorga inmunidad al Control de multitudes mientras dura la habilidad.",
+        "[Karma vinculante] Aumenta el daño en un 50 % y otorga inmunidad al Control de multitudes mientras dura la habilidad."
+      ],
+      "story": "El único chal en el mundo que Yuria hizo con el hilo de luz de estrellas que tejió personalmente. Como Yuria viaja a menudo, debe protegerse de las inclemencias del tiempo. Por lo tanto, decidió hacerse una prenda que le resultara cómoda. El resultado es este chal, que le otorga la magia de ajuste de temperatura a quien lo usa. Si tiene este chal en sus hombros, Yuria puede atravesar tormentas o ventiscas. El único inconveniente es que el material luminoso con que está hecho hace que emita luz incluso durante la noche. Las personas que la ven a la distancia la confunden con un hada o un fantasma y se asustan."
+    }
+  },
+  "s2": {
+    "name": "Costura con luz de estrellas",
+    "description": "Disipa sus propios efectos negativos y coloca un escudo sobre el portador que absorbe {1} de daño durante {0} segundos. Mientras el escudo esté activo, brinda inmunidad al Control de multitudes y aumenta la Probabilidad de daño crítico a 300 puntos. Además, todos los ataques de Yuria afectan a 1 objetivo más.",
+    "books": {
+      "0": "Aumenta el Escudo en {0}%.",
+      "1": "Aumenta el Escudo en {0}%.",
+      "2": "Aumenta el Escudo en {0}%."
+    },
+    "light": "Aumenta el Ataque propio un 30 % mientras dura el escudo.",
+    "dark": "Aumenta el Costo de Mana 1 punto, pero otorga el efecto a un aliado con el ataque más alto.",
+    "ut": {
+      "name": "Ojos del augurio",
+      "description": [
+        "[Costura con luz de estrellas] Aumenta la protección del escudo en un 50 % y reduce el Daño físico a uno mismo en un 10 % mientras dura el escudo.",
+        "[Costura con luz de estrellas] Aumenta la protección del escudo en un 50 % y reduce el Daño físico a uno mismo en un 12 % mientras dura el escudo.",
+        "[Costura con luz de estrellas] Aumenta la protección del escudo en un 50 % y reduce el Daño físico a uno mismo en un 14 % mientras dura el escudo.",
+        "[Costura con luz de estrellas] Aumenta la protección del escudo en un 50 % y reduce el Daño físico a uno mismo en un 17 % mientras dura el escudo.",
+        "[Costura con luz de estrellas] Aumenta la protección del escudo en un 50 % y reduce el Daño físico a uno mismo en un 21 % mientras dura el escudo.",
+        "[Costura con luz de estrellas] Aumenta la protección del escudo en un 50 % y reduce el Daño físico a uno mismo en un 25 % mientras dura el escudo."
+      ],
+      "story": "Uno de los legados de la adivinadora Lasiphil, una antepasada distante de Yuria. Es un conjunto de tres anillos que nunca perdieron brillo, a pesar del paso del tiempo. Tienen poderes especiales que ni siquiera Yuria puede determinar. Uno de los libros que le dejaron los abuelos de Yuria decía que, cuando llegara el momento, los Ojos del augurio brillarían y guiarían al profeta hacia el camino indicado."
+    }
+  },
+  "s3": {
+    "name": "Círculo del destino",
+    "description": "Causa {0} de Daño mágico a 2 enemigos, lo que aumenta el Daño mágico que reciben en un 30 % durante {1} segundos y les inflige Destino conectado durante {2} segundos. Los enemigos afectados por el Destino conectado sufren una reducción de su Velocidad de ataque de 250 puntos.",
+    "books": {
+      "0": "Daño Aumenta en {0}%.",
+      "1": "Daño Aumenta en {0}%.",
+      "2": "Daño Aumenta en {0}%."
+    },
+    "light": "Hace que la habilidad reduzca 500 puntos de Velocidad de ataque.",
+    "dark": "Disipa los efectos positivos del objetivo.",
+    "ut": {
+      "name": "Más allá del espejo",
+      "description": [
+        "[Círculo del destino] Aumenta el daño en un 50 % y aumenta el Daño mágico que recibe el objetivo en un 10 % durante 10 segundos.",
+        "[Círculo del destino] Aumenta el daño en un 50 % y aumenta el Daño mágico que recibe el objetivo en un 12 % durante 10 segundos.",
+        "[Círculo del destino] Aumenta el daño en un 50 % y aumenta el Daño mágico que recibe el objetivo en un 14 % durante 10 segundos.",
+        "[Círculo del destino] Aumenta el daño en un 50 % y aumenta el Daño mágico que recibe el objetivo en un 17 % durante 10 segundos.",
+        "[Círculo del destino] Aumenta el daño en un 50 % y aumenta el Daño mágico que recibe el objetivo en un 21 % durante 10 segundos.",
+        "[Círculo del destino] Aumenta el daño en un 50 % y aumenta el Daño mágico que recibe el objetivo en un 25 % durante 10 segundos."
+      ],
+      "story": "Uno de los legados de la adivinadora Lasiphil, una antepasada distante de Yuria. Este extraño espejo ahora se encuentra en la parte posterior del carro de Yuria. Como está cubierto por una energía azul, muestra reflejos, pero también revela el futuro. Yuria no logra comprender del todo lo que muestra, por lo que no puede interpretarlo por completo."
+    }
+  },
+  "s4": {
+    "name": "Bendición de la verdad",
+    "description": "Aumenta Toda la Defensa propia en {0} y la Velocidad de ataque en 300. El ataque normal afecta a 2 enemigos. Cada ataque normal deja una acumulación de Estigma de estrellas en los enemigos. Los objetivos reciben 1 % más de Daño mágico por cada acumulación de Estigma de estrellas. Este efecto se puede acumular hasta un máximo de 15 veces y no se puede disipar.",
+    "books": {
+      "0": "Incrementa el Aumento de la defensa en un {0}  %.",
+      "1": "Incrementa el Aumento de la defensa en un {0}  %.",
+      "2": "Incrementa el Aumento de la defensa en un {0}  %."
+    },
+    "light": "Los objetivos ahora reciben un 2 % más de Daño mágico.",
+    "dark": "Aumenta la amplificación de la Defensa y la Velocidad de ataque en un 50 %.",
+    "ut": {
+      "name": "Gotas del cielo",
+      "description": [
+        "[Bendición de la verdad] Aumenta el daño de ataques normales en un 20 % y la cantidad máxima de acumulación de Estigma de estrellas a 10.",
+        "[Bendición de la verdad] Aumenta el daño de ataques normales en un 24 % y la cantidad máxima de acumulación de Estigma de estrellas a 10.",
+        "[Bendición de la verdad] Aumenta el daño de ataques normales en un 29 % y la cantidad máxima de acumulación de Estigma de estrellas a 10.",
+        "[Bendición de la verdad] Aumenta el daño de ataques normales en un 35 % y la cantidad máxima de acumulación de Estigma de estrellas a 10.",
+        "[Bendición de la verdad] Aumenta el daño de ataques normales en un 42 % y la cantidad máxima de acumulación de Estigma de estrellas a 10.",
+        "[Bendición de la verdad] Aumenta el daño de ataques normales en un 50 % y la cantidad máxima de acumulación de Estigma de estrellas a 10."
+      ],
+      "story": "Un licor de Penteonia fuerte pero refrescante. Uno de los mejores licores en Orbis, es muy valioso. Es el favorito de Yuria, pero no siempre puede conseguirlo porque se la pasa viajando. Por lo tanto, siempre regresa a su hogar al menos una vez al año para hacerle un vestido a la reina, a cambio de un par de botellas."
+    }
+  },
+  "t5": {
+    "light": "15 % más de Ataque, Defensa, Salud/100 puntos más de Velocidad de ataque",
+    "dark": "Obtiene la Bendición de la profecía al inicio de la primera batalla. La Bendición de la profecía aumenta Toda probabilidad de evasión en 300 puntos y reduce Todo el daño propio en 300 puntos durante 20 segundos. Este efecto es inamovible. Si se lanza el efecto de Control de multitudes sobre Yuria mientras la Bendición de la profecía está activa, se disipará al instante y la Bendición de la profecía se eliminará, lo que hará que se recupere 1 esfera de Mana."
+  }
+}

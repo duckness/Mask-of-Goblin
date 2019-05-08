@@ -1,0 +1,144 @@
+{
+  "name": "Yuria",
+  "subtitle": "Costureira Misteriosa",
+  "description": "Uma das melhores costureiras da região, ela faz roupas e vestidos para todas as celebridades do continente. Ela lê a sorte das pessoas e costura com primor com sua linha e agulha. As estrelas dançam ao ritmo de sua agulha e suas linhas deixam rastros de luz em tudo que tocam.",
+  "story": "Se alguém perguntar quem é o maior costureiro no Continente Orbis, a maioria das pessoas não saberão dizer quem é. Agora, aqueles mais antenados no mundo da moda sempre vão citar o nome de Yuria. Yuria, uma costureira de Penteonia, sempre tem duas condições antes de aceitar um pedido. Primeiro, ela precisa passar um tempo com o cliente para poder se inspirar e decidir que tipo de roupa fará. Segundo, enquanto ela está com o cliente, o cliente não pode mentir nem pretender ser o que não é. A primeira condição é para o seu senso de 'Clarividência', para assim sentir os fios do destino do cliente e expressá-los através de sua linha e agulha. A segunda condição é principalmente porque ela consegue sentir a verdade e odeia mentiras. Ela não tem vontade de fazer nada para quem não é verdadeiro. Suas obras-primas, feitas a partir do destino por ela lido, são tão valiosas quanto o brilho das estrelas. Qualquer nobre morreria para ter uma delas.",
+  "like": "Viajar, seu trabalho, banhos quentes, poemas e canções de bardos",
+  "dislike": "Pessoas que não pensam que roupas são coisa séria, pessoas que desrespeitam o destino das outras, mentiras",
+  "inn": {
+    "idle": "Ah, as coisas estão bem animadas por aqui! Todo mundo parece estar se divertindo.",
+    "recruit": {
+      "greet": "Oh, olá, precisa de algumas roupas novas?",
+      "talk": [
+        "Assim como um pintor trabalha numa tela em branco, eu também transponho o que está em minha mente na forma de tecidos!",
+        "Ouvi dizer que há um famoso alfaiate nessa cidade. Mal posso esperar para conhecê-lo, seja lá quem for.",
+        "As pessoas nascem com diferentes destinos. Eu gostaria de ver qual o caminho que seu destino o fará trilhar."
+      ],
+      "gift": "Uau. Obrigada. Vou acabar fazendo algumas roupas pra você para retribuir."
+    },
+    "affinity": {
+      "greet": "Haha, é bom ver você. Sinto que estávamos predestinados a nos encontrar hoje.",
+      "talk": [
+        "Não é que eu tenha visões absolutas do futuro. Eu só consigo sentir o que está logo além do presente.",
+        "Eu adoro viajar. Assim você pode ver, sentir e vivenciar muitas coisas."
+      ],
+      "gift": "Uau, tudo isso? Acho que vou ter que pagar uma bebida para você em troca."
+    },
+    "relationship": {
+      "greet": "Estava esperando por você, Mestre do Destino.",
+      "talk": [
+        "Eu tenho um processo bem peculiar de produção de roupas. É por isso que demoro tanto pra terminar um traje.",
+        "Hum, parando pra pensar, é até que bem surpreendente. Eu não comecei a fazer isso por fama ou dinheiro, mas antes que eu me desse conta, estava famosa.",
+        "Às vezes, eu volto para minha terra natal, Penteonia. Geralmente é para fazer um vestido para a Rainha Artemia. *Risos*"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Mellifluo, a Tecedeira do Céu Estrelado",
+    "description": [
+      "Aumenta o ATQ em 1% e o DAN Crít em 1% por 10 seg. a cada ataque normal. Esse efeito pode ser acumulado no máximo 20 vezes e é irremovível. Recupera 200 de Mana ao usar a habilidade.",
+      "Aumenta o ATQ em 1,2% e o DAN Crít em 1,2% por 10 seg. a cada ataque normal. Esse efeito pode ser acumulado no máximo 20 vezes e é irremovível. Recupera 240 de Mana ao usar a habilidade.",
+      "Aumenta o ATQ em 1,4% e o DAN Crít em 1,4% por 10 seg. a cada ataque normal. Esse efeito pode ser acumulado no máximo 20 vezes e é irremovível. Recupera 290 de Mana ao usar a habilidade.",
+      "Aumenta o ATQ em 1,7% e o DAN Crít em 1,7% por 10 seg. a cada ataque normal. Esse efeito pode ser acumulado no máximo 20 vezes e é irremovível. Recupera 350 de Mana ao usar a habilidade.",
+      "Aumenta o ATQ em 2.1% e o DAN Crít em 2.1% por 10 seg. a cada ataque normal. Esse efeito pode ser acumulado no máximo 20 vezes e é irremovível. Recupera 420 de Mana ao usar a habilidade.",
+      "Aumenta o ATQ em 2,5% e o DAN Crít em 2,5% por 10 seg. a cada ataque normal. Esse efeito pode ser acumulado no máximo 20 vezes e é irremovível. Recupera 500 de Mana ao usar a habilidade."
+    ],
+    "story": "O conjunto favorito de linha, agulha e tesouras de Yuria. Todas as suas obras-primas foram feitas com essas ferramentas. O novelo que carrega o brilho das estrelas do céu noturno e a agulha e as tesouras feitas do metal extraído de um meteorito dão a Yuria o poder de ler o futuro."
+  },
+  "s1": {
+    "name": "Carma Vinculativo",
+    "description": "Causa {0} de DAN M. a 2 inimigos, ignorando o efeito de Bloq M. e reduzindo a Mana deles em 500. Se o alvo estiver sob a condição de 'Tecelagem do Destino', ignora sua DEF e remove a 'Tecelagem do Destino'.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "DAN aumenta em {0}%."
+    },
+    "light": "Faz a habilidade reduzir 1.000 de Mana.",
+    "dark": "Atordoa os alvos atingidos por 3 seg.",
+    "ut": {
+      "name": "Sussurro do Céu Noturno",
+      "description": [
+        "[Carma Vinculativo] Aumenta o DAN em 20% e concede imunidade a CM enquanto a habilidade durar.",
+        "[Carma Vinculativo] Aumenta o DAN em 24% e concede imunidade a CM enquanto a habilidade durar.",
+        "[Carma Vinculativo] Aumenta o DAN em 29% e concede imunidade a CM enquanto a habilidade durar.",
+        "[Carma Vinculativo] Aumenta o DAN em 35% e concede imunidade a CM enquanto a habilidade durar.",
+        "[Carma Vinculativo] Aumenta o DAN em 42% e concede imunidade a CM enquanto a habilidade durar.",
+        "[Carma Vinculativo] Aumenta o DAN em 50% e concede imunidade a CM enquanto a habilidade durar."
+      ],
+      "story": "O único xale no mundo feito por Yuria com o fio do brilho das estrelas que ela mesma teceu. Por viajar bastante, Yuria sempre achou importante se proteger dos elementos da natureza. Por isso, ela decidiu fazer algo que a mantivesse confortável. O resultado foi esse xale, que concede magia de ajuste de temperatura ao usuário. Com isso sobre os ombros, tempestades e nevascas não impedem Yuria de viajar. A única desvantagem é que seu tecido reluzente o faz emitir luz mesmo durante a noite. As pessoas que a veem de longe costumam confundi-la com uma fada ou fantasma e ficam aterrorizadas."
+    }
+  },
+  "s2": {
+    "name": "Costura Estelar",
+    "description": "Remove os próprios efeitos negativos e conjura um escudo em si que absorve {1} de DAN por {0} seg. Enquanto o escudo está ativo, recebe imunidade a CM e aumenta a Chance Crít em 300, além de fazer com que todos os ataques de Yuria acertem 1 alvo a mais.",
+    "books": {
+      "0": "Aumenta os PV do Escudo em {0}%.",
+      "1": "Aumenta os PV do Escudo em {0}%.",
+      "2": "Aumenta os PV do Escudo em {0}%."
+    },
+    "light": "Aumenta o próprio ATQ em 30% enquanto o escudo durar.",
+    "dark": "Aumenta o Custo de Mana em 1, mas conjura o mesmo efeito em 1 aliado com o maior ATQ.",
+    "ut": {
+      "name": "Olhares Clarividentes",
+      "description": [
+        "[Costura Estelar] Aumenta a quantidade do escudo em 50% e reduz o DAN F. recebido por si em 10% enquanto o escudo durar.",
+        "[Costura Estelar] Aumenta a quantidade do escudo em 50% e reduz o DAN F. recebido por si em 12% enquanto o escudo durar.",
+        "[Costura Estelar] Aumenta a quantidade do escudo em 50% e reduz o DAN F. recebido por si em 14% enquanto o escudo durar.",
+        "[Costura Estelar] Aumenta a quantidade do escudo em 50% e reduz o DAN F. recebido por si em 17% enquanto o escudo durar.",
+        "[Costura Estelar] Aumenta a quantidade do escudo em 50% e reduz o DAN F. recebido por si em 21% enquanto o escudo durar.",
+        "[Costura Estelar] Aumenta a quantidade do escudo em 50% e reduz o DAN F. recebido por si em 25% enquanto o escudo durar."
+      ],
+      "story": "Um dos legados deixados pela vidente Lasiphil, uma ancestral distante de Yuria. É um conjunto de 3 anéis que nunca perderam o brilho, nem mesmo com o passar do tempo. Eles possuem poderes especiais cujas dimensões nem mesmo Yuria consegue dizer. Um dos livros deixados pelos avós de Yuria dizem que quando a hora chegar, os Olhares Clarividentes brilharão e guiarão a profeta no caminho certo."
+    }
+  },
+  "s3": {
+    "name": "Círculo do Destino",
+    "description": "Causa {0} de DAN M. a 2 inimigos, aumentando o DAN M. que recebem em 30% por {1} seg. e infligindo 'Tecelagem do Destino' por {2} seg. Inimigos sob 'Tecelagem do Destino' têm sua Vel de ATQ reduzida em 250.",
+    "books": {
+      "0": "DAN aumenta em {0}%.",
+      "1": "DAN aumenta em {0}%.",
+      "2": "DAN aumenta em {0}%."
+    },
+    "light": "Faz a habilidade reduzir 500 de Vel de ATQ.",
+    "dark": "Remove ume feito positivo do alvo.",
+    "ut": {
+      "name": "Além do Espelho",
+      "description": [
+        "[Círculo do Destino] Aumenta o DAN em 50% e aumenta o DAN M. que o alvo recebe em 10% por 10 seg.",
+        "[Círculo do Destino] Aumenta o DAN em 50% e aumenta o DAN M. que o alvo recebe em 12% por 10 seg.",
+        "[Círculo do Destino] Aumenta o DAN em 50% e aumenta o DAN M. que o alvo recebe em 14% por 10 seg.",
+        "[Círculo do Destino] Aumenta o DAN em 50% e aumenta o DAN M. que o alvo recebe em 17% por 10 seg.",
+        "[Círculo do Destino] Aumenta o DAN em 50% e aumenta o DAN M. que o alvo recebe em 21% por 10 seg.",
+        "[Círculo do Destino] Aumenta o DAN em 50% e aumenta o DAN M. que o alvo recebe em 25% por 10 seg."
+      ],
+      "story": "Um dos legados deixados pela vidente Lasiphil, uma ancestral distante de Yuria. Agora mantido na traseira da carruagem de Yuria, este estranho espelho coberto por energia azul de fato exibe reflexos, mas também revela o destino. Yuria possui um leve entendimento sobre o que o espelho revela, mas nem mesmo ela consegue interpretá-lo por completo."
+    }
+  },
+  "s4": {
+    "name": "Bênção da Verdade",
+    "description": "Aumenta Todas as DEF de si em {0} e a Vel de ATQ em 300. Acerta 2 inimigos com o ataque normal. Cada ataque normal deixa um acúmulo de 'Estigma Estelar' nos inimigos. Os alvos recebem 1% a mais de DAN M. por cada acúmulo de 'Estigma Estelar'. Esse efeito pode ser acumulado no máximo 15 vezes e é irremovível.",
+    "books": {
+      "0": "Aumenta o Impulso de DEF em {0}%.",
+      "1": "Aumenta o Impulso de DEF em {0}%.",
+      "2": "Aumenta o Impulso de DEF em {0}%."
+    },
+    "light": "Os alvos agora recebem 2% a mais de DAN M.",
+    "dark": "Aumenta o Impulso de Vel de ATQ e DEF em 50%.",
+    "ut": {
+      "name": "Lágrimas do Céu",
+      "description": [
+        "[Bênção da Verdade] Aumenta o número máximo de acúmulos de 'Estigma Estelar' em 10. O DAN de ataques normais é aumentado em 20%.",
+        "[Bênção da Verdade] Aumenta o número máximo de acúmulos de 'Estigma Estelar' em 10. O DAN de ataques normais é aumentado em 24%.",
+        "[Bênção da Verdade] Aumenta o número máximo de acúmulos de 'Estigma Estelar' em 10. O DAN de ataques normais é aumentado em 29%.",
+        "[Bênção da Verdade] Aumenta o número máximo de acúmulos de 'Estigma Estelar' em 10. O DAN de ataques normais é aumentado em 35%.",
+        "[Bênção da Verdade] Aumenta o número máximo de acúmulos de 'Estigma Estelar' em 10. O DAN de ataques normais é aumentado em 42%.",
+        "[Bênção da Verdade] Aumenta o número máximo de acúmulos de 'Estigma Estelar' em 10. O DAN de ataques normais é aumentado em 50%."
+      ],
+      "story": "Um licor bem forte, mas bem refrescante, de Penteonia. Um dos melhores licores de Orbis, é muito valioso. É o favorito de Yuria, mas, por viajar muito, raramente ela tem a chance de conseguir um. Então, ela sempre volta para casa pelo menos uma vez por ano, faz um vestido para a rainha, e recebe algumas garrafas em troca."
+    }
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Vel de ATQ +100",
+    "dark": "Ganha a 'Bênção da Clarividência' no início da primeira batalha. A 'Bênção da Clarividência' aumenta Todas as Chances de Esquiva em 300 e reduz Todos os DAN a si próprio em 300 por 20 seg. Esse efeito é irremovível. Efeitos de CM lançados em Yuria enquanto a 'Bênção da Clarividência' está ativa serão removidos instantaneamente e a 'Bênção da Clarividência' será removida, recuperando 1 orbe de Mana."
+  }
+}
