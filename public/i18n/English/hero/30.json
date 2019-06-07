@@ -47,7 +47,7 @@
   },
   "s1": {
     "name": "Healing Droplets",
-    "description": "Heals all allies up to {0} HP, based on their missing HP and reduces M.DMG they take by {1}% for 5 sec.",
+    "description": "Heals HP of all allies by {0} and reduces M.DMG they take by {1}% for 5 sec. If the target's HP is below 50%, Heal Rate and the amount of reduced M.DMG the target takes increases by x {2}.",
     "books": {
       "0": "Heal rate is increased by {0}%.",
       "1": "Heal rate is increased by {0}%.",

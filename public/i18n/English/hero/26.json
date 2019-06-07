@@ -51,7 +51,7 @@
     "books": {
       "0": "DMG is increased by {0}%.",
       "1": "DMG is increased by {0}%.",
-      "2": "Crit Chance is increased by {0}."
+      "2": "DMG is increased by {0}%."
     },
     "light": "If there is 1 enemy, DMG is increased by 100%.",
     "dark": "Upon a Crit Hit, recovers 300 mana.",
@@ -74,7 +74,7 @@
     "books": {
       "0": "DMG is increased by {0}%.",
       "1": "DMG is increased by {0}%.",
-      "2": "Crit Chance is increased by {0}."
+      "2": "DMG is increased by {0}%."
     },
     "light": "The mana cost of the Boosted Ray is half.",
     "dark": "The mana cost of the Boosted Ray is doubled and the DMG increase is boosted from 100% to 200%.",
@@ -97,7 +97,7 @@
     "books": {
       "0": "DMG is increased by {0}%.",
       "1": "DMG is increased by {0}%.",
-      "2": "Crit Chance is increased by {0}."
+      "2": "DMG is increased by {0}%."
     },
     "light": "Deals AoE DMG.",
     "dark": "M.DEF reduction effect now stacks up to 10 times max.",
@@ -139,6 +139,6 @@
   },
   "t5": {
     "light": "ATK, DEF, HP+15% / Crit Chance +100",
-    "dark": "Each skill use stacks Darkness. Each stack boosts her Mana regen per sec by 6% and boosts her Crit DMG by 2%. (Maximum Stack number is 50)"
+    "dark": "Upon using a Skill, increases Mana Recovery/Sec by 10% and Crit DMG by 7%. This effect stacks up to 20 times and is irremovable."
   }
 }

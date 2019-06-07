@@ -70,7 +70,7 @@
   },
   "s2": {
     "name": "Merciless Gale",
-    "description": "Swings the weapon to attack enemies in circular range for 7 times, each hit dealing {1} P.DMG and stunning enemies for 1.5 sec. If the target is a Hero, reduces P.DEF by 30% for 5 sec.",
+    "description": "Swings the weapon to attack enemies in a circular range of self 7 times. Each hit deals {1} P.DMG and stuns for 1.5 sec. If the target is a Hero, reduces P.DEF by 30%, and if the target is not a Hero, causes it to take 30% increased P.DMG for 5 sec.",
     "books": {
       "0": "DMG is increased by {0}%.",
       "1": "DMG is increased by {0}%.",
@@ -93,7 +93,7 @@
   },
   "s3": {
     "name": "Last Execution",
-    "description": "Sets in position and attacks enemies in a wide frontal range, removing positive effects, dealing {0} P.DMG, and knocking them down for 6 sec. 500 increased ACC and CC Accuracy will be applied to this Skill.",
+    "description": "Sets in position, focuses, then attacks enemies in a wide frontal range to deal {0} P.DMG, dispel positive effects, and knock them down for 6 sec. Deals {1} additional P.DMG to Non-Hero enemies. For this Skill, ACC and CC Accuracy will be increased by 500.",
     "books": {
       "0": "DMG is increased by {0}%.",
       "1": "DMG is increased by {0}%.",

@@ -70,7 +70,7 @@
   },
   "s2": {
     "name": "Bourrasque impitoyable",
-    "description": "Frappe les ennemis à portée circulaire 7 fois. Chaque coup leur inflige des DEG P de {1} et les étourdit pendant 1,5 sec. Réduit la DEF P. de 30 % pendant 5 sec si la cible est un héros.",
+    "description": "Frappe 7 fois, avec son arme, les ennemis à portée circulaire. Chaque coup leur inflige {1} de DEG P et les étourdit pendant 1.5 secondes. Si la cible est un Héros, réduit la DEF P de 30% pendant 5 secondes. Si la cible est un Non-Héros, augmente les DEG P reçus de 30% pendant 5 secondes.",
     "books": {
       "0": "DEG augmentés de {0}%.",
       "1": "DEG augmentés de {0}%.",
@@ -93,7 +93,7 @@
   },
   "s3": {
     "name": "Exécution finale",
-    "description": "Se place en position, attaque les ennemis en face sur un large front, leur inflige Renversement pendant 6 sec, dissipe les effets positifs et inflige des DEG P de {0}. Cette compétence inflige 500 d'augmentation de Précision et Précision des contrôles.",
+    "description": "Se place en position et après un court moment de concentration, attaque les ennemis en face sur un large front. Cette attaque dissipe toutes les Améliorations des ennemis et inflige {0} de DEG P. Elle inflige {1} de DEG P supplémentaires aux ennemis Non-Héros. Cette attaque repousse les ennemis sur une longue distance avant de les renverser pendant 6 secondes. Une augmentation de 500 de Précision et de Précision des Contrôles est appliquée sur cette compétence.",
     "books": {
       "0": "DEG augmentés de {0}%.",
       "1": "DEG augmentés de {0}%.",
