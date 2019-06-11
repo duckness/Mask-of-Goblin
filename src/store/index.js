@@ -139,8 +139,8 @@ const getters = {
       class: Vue.i18n.translate("ui." + h.getClass()),
       description: Vue.i18n.translate(prefix + ".description"),
       t5: {
-        light: Vue.i18n.translate(prefix + ".t5.light"),
-        dark: Vue.i18n.translate(prefix + ".t5.dark")
+        light: h.translateTranscendence(prefix + ".t5.light", null),
+        dark: h.translateTranscendence(prefix + ".t5.dark", state.data.hero[state.heroID].t5.dark)
       },
       attributes: {
         image: require("@/components/hero/images/classes/" +
@@ -266,8 +266,8 @@ const h = {
       name: Vue.i18n.translate(prefix + ".name"),
       description: Vue.i18n.translate(prefix + ".description", s.description),
       transcendence: {
-        light: Vue.i18n.translate(prefix + ".light"),
-        dark: Vue.i18n.translate(prefix + ".dark")
+        light: h.translateTranscendence(prefix + ".light", s.light),
+        dark: h.translateTranscendence(prefix + ".dark", s.dark)
       },
       books: [
         Vue.i18n.translate(prefix + ".books.0", s.books[0]),
@@ -332,6 +332,13 @@ const h = {
     var maxLevel = 90;
     var newLevel = h.numberWithinBounds(minLevel, maxLevel, level);
     return newLevel;
+  },
+  translateTranscendence: function (strn, variables) {
+    if (variables === null) {
+      return Vue.i18n.translate(strn);
+    } else {
+      return Vue.i18n.translate(strn, variables);
+    }
   },
   numberWithinBounds: function (min, max, number) {
     return number < min ? min : number > max ? max : number;
