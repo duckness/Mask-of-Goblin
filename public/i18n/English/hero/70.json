@@ -1,0 +1,160 @@
+{
+  "name": "Cecilia",
+  "subtitle": "Crimson Wind of Justice",
+  "description": "A girl with a strong sense of justice. She always wants to be the source of strength for others. She punishes Demons who harass people with technomagical boots that are powerful enough to pulverize enemies.",
+  "story": "A girl that dreams of a world without injustice. Cecilia, also known as the Crimson Wind of Justice, defeats enemies with her windily kicks, flying her red ribbon in the air. Her grandfather is Ricardo, the captain of Orvelia Holy Knights. She grew up watching her grandfather render justice with his heart of steel, and now dreams of realizing justice and eradicating the evil in the Empire as a member of the Resistance. Ricardo is worried for his little granddaughter since her pursuit of justice might lead her to danger. However, her shouts and kicks are always dynamic and heroic, and such worries don't bother her at all.",
+  "like": "Harmonica, spicy noodles, betting, a running race.",
+  "dislike": "Injustice, lame jokes, nagging, snakes",
+  "inn": {
+    "idle": "I believe in your infinite potential!",
+    "recruit": {
+      "greet": "I want you to be by my side during my journey.",
+      "talk": [
+        "Do you perhaps know my grandfather?",
+        "An unyielding spirit is the most important thing when fighting for justice!",
+        "Train today! Train every day!"
+      ],
+      "gift": "Eh? Is this really for me?"
+    },
+    "affinity": {
+      "greet": "Today will be a good day! Let's go!",
+      "talk": [
+        "Do not give up! I got your back!",
+        "When it comes to eating spicy noodles, I can't lose! Want to bet who can eat more spicy noodles?"
+      ],
+      "gift": "I love it! Is there anything you want to get?"
+    },
+    "relationship": {
+      "greet": "Courage is the power that brings justice to the world!",
+      "talk": [
+        "How many pairs of boots do I have? Hmm, about 100 pairs just for training?",
+        "Huh? You want me to play the harmonica? Hahaha... W-wait a second.",
+        "Want to play soccer if you're bored?"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Supersonic Tempest, Gigantix",
+    "description": [
+      "Increases ATK Spd by 100. Normal and Skill attacks grant a stack of Explosion on self and have a 3% chance of stunning the target for 4 sec. Upon gaining 100 Explosion stacks, Gigantix explodes, increasing ATK Spd and All Dodge Chance by 100. This effect is irremovable.",
+      "Increases ATK Spd by 120. Normal and Skill attacks grant a stack of Explosion on self and have a 3% chance of stunning the target for 4 sec. Upon gaining 100 Explosion stacks, Gigantix explodes, increasing ATK Spd and All Dodge Chance by 120. This effect is irremovable.",
+      "Increases ATK Spd by 140. Normal and Skill attacks grant a stack of Explosion on self and have a 3% chance of stunning the target for 4 sec. Upon gaining 100 Explosion stacks, Gigantix explodes, increasing ATK Spd and All Dodge Chance by 140. This effect is irremovable.",
+      "Increases ATK Spd by 170. Normal and Skill attacks grant a stack of Explosion on self and have a 3% chance of stunning the target for 4 sec. Upon gaining 100 Explosion stacks, Gigantix explodes, increasing ATK Spd and All Dodge Chance by 170. This effect is irremovable.",
+      "Increases ATK Spd by 210. Normal and Skill attacks grant a stack of Explosion on self and have a 3% chance of stunning the target for 4 sec. Upon gaining 100 Explosion stacks, Gigantix explodes, increasing ATK Spd and All Dodge Chance by 210. This effect is irremovable.",
+      "Increases ATK Spd by 250. Normal and Skill attacks grant a stack of Explosion on self and have a 3% chance of stunning the target for 4 sec. Upon gaining 100 Explosion stacks, Gigantix explodes, increasing ATK Spd and All Dodge Chance by 250. This effect is irremovable."
+    ],
+    "story": "A pair of technomagical boots made mainly with the Magic Stone of Tempest excavated from the ancient technomagic ruins. Whenever their wearer attacks, the magic stone releases an energy wave that allows the wearer to achieve supersonic speed and a power destructive enough to bend metal pillars like taffy. In fact, it was Ricardo who gave Cecilia the Magic Stone of Tempest, the core material of these boots. According to her, Ricardo was keeping it safe, though he never told her where he got it. One day, Ricardo came to visit Cecilia in the Empire, and Cecilia told him that she would join the Resistance. He saw from her eyes that her mind was set. He then gave her the Magic Stone of Tempest, saying, 'Show the world what you believe in.' Later, Landet, the geek engineer of the Resistance recognized the value of the Magic Stone and created these powerful boots."
+  },
+  "s1": {
+    "name": "Outta the way!",
+    "description": "Marks the farthest enemy as the [Villain], reducing its ATK Spd by {1} for {0} sec. Then, moves to the target to deal {2} P.DMG. After using this Skill, [Crushing Kick!] becomes available.",
+    "books": {
+      "0": "Increases DMG by {0}%.",
+      "1": "Increases DMG by {0}%.",
+      "2": "Increases DMG by {0}%."
+    },
+    "light": "Increases P.DMG the target takes by 25% for 10 sec.",
+    "dark": "Dispels positive effects from the target.",
+    "ut": {
+      "name": "First Step of Hero",
+      "description": [
+        "[Outta the Way!] Reduces Mana Cost by 1 and increases P.DMG the target takes by 10% for 10 sec.",
+        "[Outta the Way!] Reduces Mana Cost by 1 and increases P.DMG the target takes by 12% for 10 sec.",
+        "[Outta the Way!] Reduces Mana Cost by 1 and increases P.DMG the target takes by 14% for 10 sec.",
+        "[Outta the Way!] Reduces Mana Cost by 1 and increases P.DMG the target takes by 17% for 10 sec.",
+        "[Outta the Way!] Reduces Mana Cost by 1 and increases P.DMG the target takes by 21% for 10 sec.",
+        "[Outta the Way!] Reduces Mana Cost by 1 and increases P.DMG the target takes by 25% for 10 sec."
+      ],
+      "story": "A pair of specially made boots that Cecilia used to wear before she got the boots she wears now. After years of training in different martial arts, she developed her own style of fighting that largely depended on her quick legs. To prove herself to her grandfather, she trained hard in these specially made boots. The scuffs and scratches on the boots are glorious scars from those days of intense work."
+    },
+    "linked": {
+      "0": {
+        "name": "Crushing Kick!",
+        "description": "Attacks the target, dealing {0} P.DMG and knocking it away for {1} sec. Enemies marked as [Villain] are prioritized. After using this Skill, [Tempest Kick!] becomes available."
+      },
+      "1": {
+        "name": "Tempest Kick!",
+        "description": "Moves to the farthest enemy, dealing {0} P.DMG and stunning it for {1} sec. Enemies marked as [Villain] are prioritized."
+      }
+    }
+  },
+  "s2": {
+    "name": "Infinite Potential",
+    "description": "Deals {0} P.DMG to nearby enemies in a circular range of self, knocking them down for {1} sec. Afterward, Cecilia gains [Infinite Potential], which increases own ATK Spd by {3} for {2} sec. While under [Infinite Potential], Normal and Skill attacks deal {4} P.DMG to Heroes and {5} P.DMG to Non-Hero enemies. This effect is irremovable.",
+    "books": {
+      "0": "Increases DMG by {0}%.",
+      "1": "Increases DMG by {0}%.",
+      "2": "Increases DMG by {0}%."
+    },
+    "light": "Increases DMG to Non-Hero enemies by {0}% for the duration of Skill.",
+    "dark": "Takes {0}% reduced DMG for the duration of Skill.",
+    "ut": {
+      "name": "Childhood Memory",
+      "description": [
+        "[Infinite Potential] Dispels negative effects from self and increases DMG by 20%.",
+        "[Infinite Potential] Dispels negative effects from self and increases DMG by 24%.",
+        "[Infinite Potential] Dispels negative effects from self and increases DMG by 29%.",
+        "[Infinite Potential] Dispels negative effects from self and increases DMG by 35%.",
+        "[Infinite Potential] Dispels negative effects from self and increases DMG by 42%.",
+        "[Infinite Potential] Dispels negative effects from self and increases DMG by 50%."
+      ],
+      "story": "Balls that Cecilia used to kick around. Especially, the soccer ball helped her improve her kicking skills. She was always the leader of the kids in the neighborhood, and she always kept the balls close to her as a memento of her carefree childhood. She takes them out whenever she feels a little depressed or frustrated."
+    }
+  },
+  "s3": {
+    "name": "WA-TAAAAAH!!!",
+    "description": "Deals {1} P.DMG over {0} attacks to nearby enemies in a circular range of self. Afterward, deals {2} P.DMG to the target and its nearby enemies, knocking them down for {3} sec. While under [Infinite Potential], [Special Move. Meteor Kick!!!] becomes available for {4} sec.",
+    "books": {
+      "0": "Increases DMG by {0}%.",
+      "1": "Increases DMG by {0}%.",
+      "2": "Increases DMG by {0}%."
+    },
+    "light": "Increases DMG by 100% when there is only 1 enemy left.",
+    "dark": "Gains immunity to CC for the duration of Skill.",
+    "ut": {
+      "name": "Moment of Respite",
+      "description": [
+        "[WA-TAAAAAH!!!] Increases own DMG to Boss by 4% per every Skill use. This effect can be stacked up to max 10 times. Reduces Mana Cost of [Special Move. Meteor Kick!!!] by 1.",
+        "[WA-TAAAAAH!!!] Increases own DMG to Boss by 4.8% per every Skill use. This effect can be stacked up to max 10 times. Reduces Mana Cost of [Special Move. Meteor Kick!!!] by 1.",
+        "[WA-TAAAAAH!!!] Increases own DMG to Boss by 5.8% per every Skill use. This effect can be stacked up to max 10 times. Reduces Mana Cost of [Special Move. Meteor Kick!!!] by 1.",
+        "[WA-TAAAAAH!!!] Increases own DMG to Boss by 7% per every Skill use. This effect can be stacked up to max 10 times. Reduces Mana Cost of [Special Move. Meteor Kick!!!] by 1.",
+        "[WA-TAAAAAH!!!] Increases own DMG to Boss by 8.4% per every Skill use. This effect can be stacked up to max 10 times. Reduces Mana Cost of [Special Move. Meteor Kick!!!] by 1.",
+        "[WA-TAAAAAH!!!] Increases own DMG to Boss by 10% per every Skill use. This effect can be stacked up to max 10 times. Reduces Mana Cost of [Special Move. Meteor Kick!!!] by 1."
+      ],
+      "story": "A harmonica that Cecilia likes to play in her free time. It was a gift that Ricardo gave her on her 15th birthday. He was worried that his granddaughter might forget to relax every once in a while on her journey to realize a just world. After a long consideration, he gave Cecilia this small harmonica with her name engraved on it. However, Cecilia never bothered to learn more than one song, not knowing about her grandfather's intentions."
+    },
+    "linked": {
+      "0": {
+        "name": "Special Move. Meteor Kick!!!",
+        "description": "Launches a full force attack that deals {0} P.DMG to the target and enemies nearby, stunning them for {1} sec. This Skill will always be a Critical Hit."
+      }
+    }
+  },
+  "s4": {
+    "name": "Inborn Talent",
+    "description": "Increases own DEF by {0} and Crit Chance by {1}. Cecilia's Normal and Skill attacks will not miss.",
+    "books": {
+      "0": "Increases DEF Boost by {0}%.",
+      "1": "Increases DEF Boost by {0}%.",
+      "2": "Increases DEF Boost by {0}%."
+    },
+    "light": "Takes {0}% reduced DMG.",
+    "dark": "Increases DMG to Heroes by {0}%.",
+    "ut": {
+      "name": "Heart of Justice",
+      "description": [
+        "[Inborn Talent] At the beginning of each battle, deals 10% increased DMG to Non-Hero enemies and takes 25% reduced DMG for 20 sec.",
+        "[Inborn Talent] At the beginning of each battle, deals 12% increased DMG to Non-Hero enemies and takes 25% reduced DMG for 20 sec.",
+        "[Inborn Talent] At the beginning of each battle, deals 14% increased DMG to Non-Hero enemies and takes 25% reduced DMG for 20 sec.",
+        "[Inborn Talent] At the beginning of each battle, deals 17% increased DMG to Non-Hero enemies and takes 25% reduced DMG for 20 sec.",
+        "[Inborn Talent] At the beginning of each battle, deals 21% increased DMG to Non-Hero enemies and takes 25% reduced DMG for 20 sec.",
+        "[Inborn Talent] At the beginning of each battle, deals 25% increased DMG to Non-Hero enemies and takes 25% reduced DMG for 20 sec."
+      ],
+      "story": "A gift that Cecilia received in return for her first-ever act of justice. In the past, a little girl that Cecilia rescued tied this red ribbon around the wound she got while saving the girl from danger. Thereafter, she always wore it on her wrist while on her missions, and people started to call her the Crimson Wind of Justice."
+    }
+  },
+  "t5": {
+    "light": "ATK, DEF, HP+15% / Crit DMG +20%",
+    "dark": "Attacking the enemy with the additional DMG gained from [Infinite Potential] will increase own ATK by {0}%. This effect can be stacked up to max {1} times and is irremovable."
+  }
+}

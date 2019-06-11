@@ -91,9 +91,6 @@ const getters = {
             { name: "Books", id: s + "books" }
           ]
         });
-        if ("linked" in hero[s]) {
-          d.items[i].items.unshift({ name: "Linked", id: s + "linked" });
-        }
         if ("treasure" in hero[s]) {
           d.items[i].items.push({
             name: Vue.i18n.translate("ui.treasure"),
@@ -292,18 +289,24 @@ const h = {
     h.addIfExists(d, s, "cooldown");
     // Linked skills if exists (Kara)
     if ("linked" in s) {
-      d["linked"] = {
-        image: require("@/components/hero/images/" +
-          state.heroID +
-          "/" +
-          skillNum +
-          "l.png"),
-        name: Vue.i18n.translate(prefix + ".linked.name"),
-        description: Vue.i18n.translate(
-          prefix + ".linked.description",
-          s.linked
-        )
-      };
+      d["linked"] = [s.linked.length];
+      for (var i = 0; i < s.linked.length; i++) {
+        var iStr = i.toString();
+        d["linked"][i] = {
+          image: require("@/components/hero/images/" +
+            state.heroID +
+            "/" +
+            skillNum +
+            "l" +
+            iStr +
+            ".png"),
+          name: Vue.i18n.translate(prefix + ".linked." + iStr + ".name"),
+          description: Vue.i18n.translate(
+            prefix + ".linked." + iStr + ".description",
+            s.linked[i]
+          )
+        };
+      }
     }
     return d;
   },

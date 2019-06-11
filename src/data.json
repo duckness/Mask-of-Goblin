@@ -5935,7 +5935,9 @@
         "dark": null,
         "light": null,
         "linked": [
-          "???"
+          [
+            "???"
+          ]
         ]
       },
       "s3": {
@@ -6035,7 +6037,9 @@
         "dark": null,
         "light": null,
         "linked": [
-          "???"
+          [
+            "???"
+          ]
         ]
       },
       "s2": {
@@ -6426,8 +6430,10 @@
         "dark": null,
         "light": null,
         "linked": [
-          "???",
-          "???"
+          [
+            "???",
+            "???"
+          ]
         ]
       },
       "s3": {
@@ -6452,8 +6458,10 @@
         "dark": null,
         "light": null,
         "linked": [
-          3,
-          800
+          [
+            3,
+            800
+          ]
         ]
       },
       "s4": {
@@ -7458,8 +7466,10 @@
         "dark": null,
         "light": null,
         "linked": [
-          "???",
-          200
+          [
+            "???",
+            200
+          ]
         ]
       },
       "s2": {
@@ -7483,9 +7493,11 @@
         "dark": null,
         "light": null,
         "linked": [
-          "???",
-          20,
-          "???"
+          [
+            "???",
+            20,
+            "???"
+          ]
         ]
       },
       "s3": {
@@ -7584,10 +7596,12 @@
         "dark": null,
         "light": null,
         "linked": [
-          "???",
-          "???",
-          "???",
-          4
+          [
+            "???",
+            "???",
+            "???",
+            4
+          ]
         ]
       },
       "s2": {
@@ -7613,11 +7627,13 @@
         "dark": null,
         "light": null,
         "linked": [
-          "???",
-          12,
-          40,
-          50,
-          25
+          [
+            "???",
+            12,
+            40,
+            50,
+            25
+          ]
         ]
       },
       "s3": {
@@ -7642,9 +7658,11 @@
         "dark": null,
         "light": null,
         "linked": [
-          "???",
-          "???",
-          5
+          [
+            "???",
+            "???",
+            5
+          ]
         ]
       },
       "s4": {
@@ -7797,11 +7815,11 @@
         "type": "forward",
         "weight": 400
       },
-      "mpatk": 433,
+      "mpatk": 435,
       "mpsec": 60,
       "auto": {
-        "range": 1500,
-        "rangeType": "Ranged",
+        "range": 2500,
+        "rangeType": "Melee",
         "time": [
           [
             0.3,
@@ -7824,55 +7842,126 @@
         "duration": 5.2
       },
       "s1": {
-        "description": null,
+        "description": [
+          15,
+          200,
+          "???",
+          "???"
+        ],
         "mana": 3,
         "cooldown": 12,
         "books": [
-          null,
-          null,
-          null
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
         ],
         "dark": null,
         "light": null,
-        "linked": null
+        "linked": [
+          [
+            "???",
+            4,
+            "???"
+          ],
+          [
+            "???",
+            4
+          ]
+        ]
       },
       "s2": {
-        "description": null,
+        "description": [
+          "???",
+          3,
+          15,
+          300,
+          "???",
+          "???"
+        ],
         "mana": 3,
         "cooldown": 20,
         "books": [
-          null,
-          null,
-          null
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
         ],
-        "dark": null,
-        "light": null
+        "dark": [
+          20
+        ],
+        "light": [
+          20
+        ]
       },
       "s3": {
-        "description": null,
+        "description": [
+          6,
+          "???",
+          "???",
+          4,
+          10
+        ],
         "mana": 3,
         "cooldown": 21,
         "books": [
-          null,
-          null,
-          null
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
         ],
         "dark": null,
         "light": null,
-        "linked": null
+        "linked": [
+          [
+            "???",
+            5
+          ]
+        ]
       },
       "s4": {
-        "description": null,
-        "books": [
-          null,
-          null,
-          null
+        "description": [
+          "???",
+          200
         ],
-        "dark": null,
-        "light": null
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": [
+          15
+        ],
+        "light": [
+          15
+        ]
       },
       "t5": {
-        "dark": null,
+        "dark": [
+          0.5,
+          200
+        ],
         "light": null
       }
     },
@@ -8753,9 +8842,11 @@
         "dark": null,
         "light": null,
         "linked": [
-          10,
-          "???",
-          20
+          [
+            10,
+            "???",
+            20
+          ]
         ]
       },
       "s2": {
@@ -8778,8 +8869,10 @@
         "dark": null,
         "light": null,
         "linked": [
-          "???",
-          "???"
+          [
+            "???",
+            "???"
+          ]
         ]
       },
       "s3": {

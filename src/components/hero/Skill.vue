@@ -16,7 +16,11 @@
       >
         Linked
       </anchoritem>
-      <skilldesc :skill="skill.linked" />
+      <skilldesc
+        v-for="linkedskill in skill.linked"
+        :key="linkedskill.name"
+        :skill="linkedskill"
+      />
     </sect>
     <sect>
       <anchoritem

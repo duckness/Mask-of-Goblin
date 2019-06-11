@@ -1,0 +1,160 @@
+{
+  "name": "Cecilia",
+  "subtitle": "Vent rouge de la justice",
+  "description": "Une fille dotée d'un profond sens de la justice. Elle veut toujours être une source de force pour les autres. Elle punit les démons qui harcèlent les gens à l'aide de bottes technomagiques suffisamment puissantes pour pulvériser ses ennemis.",
+  "story": "Une fille rêvant d'un monde sans injustice. Cecilia, surnommée Vent rouge de la justice, terrasse ses ennemis avec ses coups de pied ailés, tout en faisant voltiger son ruban rouge dans les airs. Son grand-père est Ricardo, capitaine des Chevaliers sacrés d'Orvelia. Elle a grandi en regardant son grand-père rendre la justice avec un cœur d'acier et rêve désormais de faire la même chose en éradiquant le mal dans l'Empire en tant que membre de la Résistance. Ricardo s'inquiète pour sa petite-fille, car sa quête de justice pourrait la mettre en péril. Cependant, ses cris et coups de pieds sont aussi dynamiques qu'héroïques et elle se rit du danger.",
+  "like": "L'harmonica, les nouilles épicées, les paris, la course.",
+  "dislike": "L'injustice, les mauvaises blagues, les plaintes, les serpents.",
+  "inn": {
+    "idle": "Je crois en votre potentiel infini !",
+    "recruit": {
+      "greet": "Je veux que vous soyez à mon côté durant mon aventure.",
+      "talk": [
+        "Vous connaissez peut-être mon grand-père ?",
+        "Lorsqu'on combat pour la justice, un esprit inflexible est primordial !",
+        "Entraînez-vous aujourd'hui ! Entraînez-vous tous les jours !"
+      ],
+      "gift": "Hein ? C'est vraiment pour moi ?"
+    },
+    "affinity": {
+      "greet": "On va mettre les bouchées doubles aujourd'hui ! Qui est partant ?",
+      "talk": [
+        "N'abandonnez pas ! Je vous couvre !",
+        "Pour ce qui est de manger des nouilles épicées, je suis championne ! 5 pièces d'or que je peux en avaler plus que vous. On parie ?"
+      ],
+      "gift": "J'adore ! Vous avez tout ce qu'il vous faut ?"
+    },
+    "relationship": {
+      "greet": "Le courage est le pouvoir qui répandra la justice sur ce monde !",
+      "talk": [
+        "Combien ai-je de paires de bottes ? Hum, environ 100 paires, juste pour l'entraînement ?",
+        "Hein ? Vous voulez que je joue de l'harmonica ? Ha ha ha... A-Attendez une seconde.",
+        "Vous voulez jouer au football si vous vous ennuyez ?"
+      ]
+    }
+  },
+  "uw": {
+    "name": "Tempête supersonique, Gigantix",
+    "description": [
+      "Augmente la Vit ATQ de 100. Les attaques normales et de compétence accordent une charge d'Explosion et donnent 3 % de chances d'étourdir les cibles touchées pendant 4 sec. Gigantix explose lorsque le nombre de charges d'Explosion atteint 100, augmentant la Vit ATQ de 100 et Toutes chances d'esquiver de 100. L'effet de cette compétence ne peut pas être dissipé.",
+      "Augmente la Vit ATQ de 120. Les attaques normales et de compétence accordent une charge d'Explosion et donnent 3 % de chances d'étourdir les cibles touchées pendant 4 sec. Gigantix explose lorsque le nombre de charges d'Explosion atteint 100, augmentant la Vit ATQ de 120 et Toutes chances d'esquiver de 120. L'effet de cette compétence ne peut pas être dissipé.",
+      "Augmente la Vit ATQ de 140. Les attaques normales et de compétence accordent une charge d'Explosion et donnent 3 % de chances d'étourdir les cibles touchées pendant 4 sec. Gigantix explose lorsque le nombre de charges d'Explosion atteint 100, augmentant la Vit ATQ de 140 et Toutes chances d'esquiver de 140. L'effet de cette compétence ne peut pas être dissipé.",
+      "Augmente la Vit ATQ de 170. Les attaques normales et de compétence accordent une charge d'Explosion et donnent 3 % de chances d'étourdir les cibles touchées pendant 4 sec. Gigantix explose lorsque le nombre de charges d'Explosion atteint 100, augmentant la Vit ATQ de 170 et Toutes chances d'esquiver de 170. L'effet de cette compétence ne peut pas être dissipé.",
+      "Augmente la Vit ATQ de 210. Les attaques normales et de compétence accordent une charge d'Explosion et donnent 3 % de chances d'étourdir les cibles touchées pendant 4 sec. Gigantix explose lorsque le nombre de charges d'Explosion atteint 100, augmentant la Vit ATQ de 210 et Toutes chances d'esquiver de 210. L'effet de cette compétence ne peut pas être dissipé.",
+      "Augmente la Vit ATQ de 250. Les attaques normales et de compétence accordent une charge d'Explosion et donnent 3 % de chances d'étourdir les cibles touchées pendant 4 sec. Gigantix explose lorsque le nombre de charges d'Explosion atteint 100, augmentant la Vit ATQ de 250 et Toutes chances d'esquiver de 250. L'effet de cette compétence ne peut pas être dissipé."
+    ],
+    "story": "Une paire de bottes technomagiques, créée à partir de la Pierre magique de tempête dénichée dans d'antiques ruines technomagiques. Dès que leur porteur passe à l'attaque, la pierre magique libère une vague d'énergie permettant d'atteindre une vitesse supersonique et une puissance destructrice assez forte pour plier l'acier comme du papier. C'est Ricardo qui a offert à Cecilia la Pierre magique de tempête qui forme la base de ces bottes. D'après elle, Ricardo la gardait de côté, mais ne lui a jamais dit où il l'avait trouvée. Un jour, Ricardo vint rendre visite à Cecilia dans l'Empire et celle-ci lui annonça qu'elle rejoignait la Résistance. Il vit dans son regard qu'elle ne changerait pas d'avis. Il lui offrit alors la Pierre magique de tempête en lui disant : « Fais comprendre au monde ce que tu ressens. » Les bottes furent créées plus tard par Landet, l'ingénieur futé de la Résistance."
+  },
+  "s1": {
+    "name": "Hors de mon chemin !",
+    "description": "Cible l'ennemi le plus éloigné et le désigne comme [Méchant], réduisant sa Vit ATQ de {1} pendant {0}  sec. Se déplace vers la cible pour lui infliger {2} DEG P [Coup de pied haché !] devient disponible après avoir utilisé cette compétence.",
+    "books": {
+      "0": "Augmente les DEG de {0}  %.",
+      "1": "Augmente les DEG de {0}  %.",
+      "2": "Augmente les DEG de {0}  %."
+    },
+    "light": "Augmente les DEG P reçus par la cible de 25 % pendant 10 sec.",
+    "dark": "Dissipe les effets positifs dont bénéficie la cible.",
+    "ut": {
+      "name": "Premier pas de héros",
+      "description": [
+        "[Hors de mon chemin !] Réduit le coût en mana de 1 et la cible touchée reçoit 10 % de DEG P supplémentaires pendant 10 sec.",
+        "[Hors de mon chemin !] Réduit le coût en mana de 1 et la cible touchée reçoit 12 % de DEG P supplémentaires pendant 10 sec.",
+        "[Hors de mon chemin !] Réduit le coût en mana de 1 et la cible touchée reçoit 14 % de DEG P supplémentaires pendant 10 sec.",
+        "[Hors de mon chemin !] Réduit le coût en mana de 1 et la cible touchée reçoit 17 % de DEG P supplémentaires pendant 10 sec.",
+        "[Hors de mon chemin !] Réduit le coût en mana de 1 et la cible touchée reçoit 21 % de DEG P supplémentaires pendant 10 sec.",
+        "[Hors de mon chemin !] Réduit le coût en mana de 1 et la cible touchée reçoit 25 % de DEG P supplémentaires pendant 10 sec."
+      ],
+      "story": "Une paire de bottes spéciales que Cecilia portait avant celles qu'elle arbore actuellement. Après des années d'entraînement à différents arts martiaux, elle a développé son propre style de combat qui s'appuie sur ses jambes rapides. Pour prouver ses talents à son grand-père, elle s'est entraînée dur avec ces bottes spéciales. Les rayures et griffures sont autant de cicatrices glorieuses de cette époque où elle s'entraînait dur."
+    },
+    "linked": {
+      "0": {
+        "name": "Coup de pied haché !",
+        "description": "Attaque l'ennemi, infligeant {0} DEG P et le repoussant pendant {1}  sec. Les ennemis ayant le statut de [Méchant] sont attaqués en priorité. [Coup de pied tempête !] devient disponible après avoir utilisé cette compétence."
+      },
+      "1": {
+        "name": "Coup de pied tempête !",
+        "description": "Se déplace à l'ennemi le plus proche et lui inflige {0} DEG P, l'étourdissant pendant {1}  sec. Les ennemis ayant le statut de [Méchant] sont attaqués en priorité."
+      }
+    }
+  },
+  "s2": {
+    "name": "Potentiel infini",
+    "description": "Inflige {0} DEG P aux ennemis proches dans une zone circulaire, les renversant pendant {1}  sec. Accorde [Potentiel infini], qui augmente la Vit ATQ de {3} pendant {2}  sec. Pendant que [Potentiel infini] est activé, les attaques normales et de compétence infligent {4} DEG P aux cibles Héros et {5} DEG P aux cibles non-héros. L'effet de cette compétence ne peut pas être dissipé.",
+    "books": {
+      "0": "Augmente les DEG de {0}  %.",
+      "1": "Augmente les DEG de {0}  %.",
+      "2": "Augmente les DEG de {0}  %."
+    },
+    "light": "Augmente de {0}  % les DEG infligés aux ennemis non-héros pendant la durée de la compétence.",
+    "dark": "Pendant la durée de la compétence, les DEG subis sont réduits de {0}  %.",
+    "ut": {
+      "name": "Souvenir d'enfance",
+      "description": [
+        "[Potentiel infini] Dissipe les effets négatifs sur le lanceur et augmente les DEG de 20 %.",
+        "[Potentiel infini] Dissipe les effets négatifs sur le lanceur et augmente les DEG de 24 %.",
+        "[Potentiel infini] Dissipe les effets négatifs sur le lanceur et augmente les DEG de 29 %.",
+        "[Potentiel infini] Dissipe les effets négatifs sur le lanceur et augmente les DEG de 35 %.",
+        "[Potentiel infini] Dissipe les effets négatifs sur le lanceur et augmente les DEG de 42 %.",
+        "[Potentiel infini] Dissipe les effets négatifs sur le lanceur et augmente les DEG de 50 %."
+      ],
+      "story": "Des ballons que Cecilia s'amuse à balancer partout. Le ballon de foot lui a notamment permis d'améliorer son coup de pied. Quand elle était petite, elle était la chef de sa petite bande d'amies. Elle garde ces ballons comme autant de souvenirs de son enfance heureuse. Elle les sort dès qu'elle se sent déprimée ou frustrée."
+    }
+  },
+  "s3": {
+    "name": "WA-TAAAAAH !",
+    "description": "Attaque les ennemis proches dans une zone circulaire et inflige {1} DEG P au total pendant {0} fois. Ensuite, inflige {2} DEG P à la cible ennemie et à ceux qui l'entourent, les renversant pendant {3}  sec. Si [Potentiel infini] est effectif au moment où la compétence est utilisée, [Mouvement spécial. Coup de pied météore !] devient disponible pendant {4}  sec.",
+    "books": {
+      "0": "Augmente les DEG de {0}  %.",
+      "1": "Augmente les DEG de {0}  %.",
+      "2": "Augmente les DEG de {0}  %."
+    },
+    "light": "Augmente les DEG de 100 % lorsqu'il ne reste plus que 1 ennemi.",
+    "dark": "Confère l'immunité contre les contrôles pendant la durée de la compétence.",
+    "ut": {
+      "name": "Moment de loisir",
+      "description": [
+        "[WA-TAAAAAH !] Augmente les DEG infligés aux boss de 4 % à chaque utilisation. Cet effet peut se cumuler 10 fois. Réduit le Coût en mana de [Mouvement spécial. Coup de pied météore !] de 1.",
+        "[WA-TAAAAAH !] Augmente les DEG infligés aux boss de 4,8 % à chaque utilisation. Cet effet peut se cumuler 10 fois. Réduit le Coût en mana de [Mouvement spécial. Coup de pied météore !] de 1.",
+        "[WA-TAAAAAH !] Augmente les DEG infligés aux boss de 5,8 % à chaque utilisation. Cet effet peut se cumuler 10 fois. Réduit le Coût en mana de [Mouvement spécial. Coup de pied météore !] de 1.",
+        "[WA-TAAAAAH !] Augmente les DEG infligés aux boss de 7 % à chaque utilisation. Cet effet peut se cumuler 10 fois. Réduit le Coût en mana de [Mouvement spécial. Coup de pied météore !] de 1.",
+        "[WA-TAAAAAH !] Augmente les DEG infligés aux boss de 8,4 % à chaque utilisation. Cet effet peut se cumuler 10 fois. Réduit le Coût en mana de [Mouvement spécial. Coup de pied météore !] de 1.",
+        "[WA-TAAAAAH !] Augmente les DEG infligés aux boss de 10 % à chaque utilisation. Cet effet peut se cumuler 10 fois. Réduit le Coût en mana de [Mouvement spécial. Coup de pied météore !] de 1."
+      ],
+      "story": "Un harmonica dont Cecilia joue de temps en temps. Ricardo le lui offrit en cadeau pour son 15e anniversaire. Il voulait que sa petite-fille n'oublie pas de se détendre alors qu'elle voyageait de par le monde en répandant la justice. Après avoir longtemps songé à la question, il décida d'offrir à Cecilia ce petit harmonica avec son nom gravé dessus. Cependant, Cecilia ne s'est jamais embêtée à apprendre plus d'une chanson, car elle ignorait tout des intentions de son grand-père."
+    },
+    "linked": {
+      "0": {
+        "name": "Mouvement spécial. Coup de pied météore !",
+        "description": "Lance une attaque à pleine puissance qui inflige {0} DEG P à la cible ennemie et à ceux qui l'entourent, les assommant pendant {1}  sec. Cette compétence garantit un coup critique."
+      }
+    }
+  },
+  "s4": {
+    "name": "Talent inné",
+    "description": "Augmente la DEF de {0} et les chances de coup critique de {1}. Les attaques normales et de compétence de Cecilia ne manquent pas leurs cibles.",
+    "books": {
+      "0": "Augmente le boost de DEF de {0}  %.",
+      "1": "Augmente le boost de DEF de {0}  %.",
+      "2": "Augmente le boost de DEF de {0}  %."
+    },
+    "light": "Subit {0}  % de DEG de moins.",
+    "dark": "Augmente les DEG aux héros de {0}  %.",
+    "ut": {
+      "name": "Cœur de justice",
+      "description": [
+        "[Talent inné] Au début de chaque bataille, inflige 10 % de DEG supplémentaires aux ennemis non-héros et réduit les DEG reçus de 25 % pendant 20 sec.",
+        "[Talent inné] Au début de chaque bataille, inflige 12 % de DEG supplémentaires aux ennemis non-héros et réduit les DEG reçus de 25 % pendant 20 sec.",
+        "[Talent inné] Au début de chaque bataille, inflige 14 % de DEG supplémentaires aux ennemis non-héros et réduit les DEG reçus de 25 % pendant 20 sec.",
+        "[Talent inné] Au début de chaque bataille, inflige 17 % de DEG supplémentaires aux ennemis non-héros et réduit les DEG reçus de 25 % pendant 20 sec.",
+        "[Talent inné] Au début de chaque bataille, inflige 21 % de DEG supplémentaires aux ennemis non-héros et réduit les DEG reçus de 25 % pendant 20 sec.",
+        "[Talent inné] Au début de chaque bataille, inflige 25 % de DEG supplémentaires aux ennemis non-héros et réduit les DEG reçus de 25 % pendant 20 sec."
+      ],
+      "story": "Un cadeau reçu par Cecilia après son premier acte de justice. À l'époque, la petite fille que Cecilia avait secourue lui avait attaché ce ruban rouge autour de la blessure qu'elle avait subie en la sauvant. Depuis, elle le porte toujours au poignet durant les missions. Les gens la surnomment donc Vent rouge de la justice."
+    }
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / DEG Crit +20%",
+    "dark": "Augmente sa propre ATQ de {0}  % lorsque [Potentiel infini] inflige des DEG supplémentaires à l'ennemi. Cet effet s'accumule jusqu'à {1}  fois et ne peut être annulé."
+  }
+}
