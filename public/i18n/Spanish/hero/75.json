@@ -1,0 +1,144 @@
+{
+  "name": "Dakaris",
+  "subtitle": "El Sabio del Lago",
+  "description": "Sabio de los hombres lagarto nativos de los alrededores del Lago de Eretana, conquistados por el imperio. Hace 8 años, fue uno de los fundadores de La Resistencia para recuperar su tierra natal que les había sido arrebatada a la fuerza. Hace caer a sus enemigos en confusión con magia tradicional de su tribu.",
+  "story": "Cuando el imperio se reunió para expandir su territorio, los nativos que habían vivido en esas tierras desde hace mucho, se opusieron fuertemente. Sin embargo todos cayeron ante la fuerte capacidad militar y las tecnologías avanzadas del imperio. Aun estando en las profundidades de la región montañosa, y con poca interacción con el resto del mundo el Lado de Eretana, la tierra natal de Dakaris, no fue excepción. El imperio no expulsó a los habitantes del territorio, pero no recibieron buen trato. Además, los gobernantes y nobles que les fueron asignados eran corruptos en su mayoría y la vida de estas razas fue cada vez más difícil. El noble asignado a la tierra natal de Dakaris era especialmente sucio. Como resultado de su tiranía, jóvenes hombres lagarto fueron asesinados, esto causó que Dakaris empezara a reunir a los de su tribu para prepararse y recuperar su libertad. 'Para calmar el resentimiento de nuestros antepasados, para recuperar la libertad de nuestra tribu - No dudaré y construiré un futuro junto con La Resistencia.' Con su sabiduría y su discernimiento, él se ha convertido en uno de los principales comandantes de La Resistencia.",
+  "like": "Miembros de su tribu, lecturas ligeras, diferentes platillos de pescado y mariscos.",
+  "dislike": "Seres que oprimen la libertad, seres que impulsan conflictos, violencia.",
+  "inn": {
+    "idle": "¿Es una posada de humanos...? Hmm, tiene un ambiente bastante acogedor.",
+    "recruit": {
+      "greet": "Encantado, viajero.",
+      "talk": [
+        "Hmm, ¿cómo es la comida aquí? La cultura alimentaria de los humanos siempre es fascinante.",
+        "Nuevas culturas, nuevos mundos, nuevas experiencias. Todos los días son una continuación del aprendizaje.",
+        "No es común que los hombres lagarto dejen a su hogar y tribu para viajar."
+      ],
+      "gift": "Ooh, ¿es un regalo? Gracias. A la próxima te serviré un platillo de pescado como muestra de agradecimiento."
+    },
+    "affinity": {
+      "greet": "Bienvenido, gran amigo. ¿Qué te trae por aquí?",
+      "talk": [
+        "Jajaja, ¿no te quieres registrar a La Resistencia también?",
+        "Me gusta luchar por la libertad, pero no me gusta la violencia."
+      ],
+      "gift": "Ay, otro regalo... Jaja, muchas gracias."
+    },
+    "relationship": {
+      "greet": "Ooh, ya estás aquí. ¿No te quieres sentar aquí a comer conmigo? Jajaja...",
+      "talk": [
+        "Los hombre lagarto me llaman sabio, pero todavía tengo mucho que aprender. Jajaja.",
+        "Por una vida libre, y por el futuro de nuestros descendientes, yo seguiré ayudando a La Resistencia.",
+        "Nuestros antepasados siempre nos están observando. Bendiciendo nuestro futuro..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "El Lago de los Recuerdos, Armekith",
+    "description": [
+      "El daño recibido disminuye un 10% y la resistencia a efectos de estado incrementa por 100. Este efecto incrementa el doble por 2 segundos al usar la habilidad.",
+      "El daño recibido disminuye un 12% y la resistencia a efectos de estado incrementa por 120. Este efecto incrementa el doble por 2 segundos al usar la habilidad.",
+      "El daño recibido disminuye un 14% y la resistencia a efectos de estado incrementa por 140. Este efecto incrementa el doble por 2 segundos al usar la habilidad.",
+      "El daño recibido disminuye un 17% y la resistencia a efectos de estado incrementa por 170. Este efecto incrementa el doble por 2 segundos al usar la habilidad.",
+      "El daño recibido disminuye un 21% y la resistencia a efectos de estado incrementa por 210. Este efecto incrementa el doble por 2 segundos al usar la habilidad.",
+      "El daño recibido disminuye un 25% y la resistencia a efectos de estado incrementa por 250. Este efecto incrementa el doble por 2 segundos al usar la habilidad."
+    ],
+    "story": "El tesoro de la tribu escondido dentro de las profundidades del Lago de Eretana, la tierra natal de Dakaris. En el están acumulados cien años de sabiduría y magia de los hombres lagarto. Alberga el poder de una marea tranquila, pero es un artículo mágico que puede llegar a tener un poder tan fuerte como el de un tsunami de acuerdo a la voluntad del usuario."
+  },
+  "s1": {
+    "name": "¡¡Haga el Juicio!!",
+    "description": "Ataca al enemigo y sus alrededores, causa daño mágico de {0} y los aturde por {1} segundos. Recupera la salud de los aliados por {2}. Cuando [¡¡Tomaré Prestado su Poder!!] está activado el tiempo de espera para la reutilización de esta habilidad será reiniciado, se podrá usar esta habilidad tres veces sin tiempo de reutilización.",
+    "books": {
+      "0": "Incrementa el daño en un {0}%.",
+      "1": "Incrementa el daño en un {0}%.",
+      "2": "Incrementa el daño en un {0}%."
+    },
+    "light": "Aumenta la duración de aturdimiento por 1 segundo.",
+    "dark": "Reduce el costo de mana por 1.",
+    "ut": {
+      "name": "El Banquete a las Orillas del Lago",
+      "description": [
+        "[¡¡Haga el Juicio!!] Aumenta el daño 50% y recupera un 1% adicional de la salud máxima del aliado curado.",
+        "[¡¡Haga el Juicio!!] Aumenta el daño 50% y recupera un 1.2% adicional de la salud máxima del aliado curado.",
+        "[¡¡Haga el Juicio!!] Aumenta el daño 50% y recupera un 1.4% adicional de la salud máxima del aliado curado.",
+        "[¡¡Haga el Juicio!!] Aumenta el daño 50% y recupera un 1.7% adicional de la salud máxima del aliado curado.",
+        "[¡¡Haga el Juicio!!] Aumenta el daño 50% y recupera un 2.1% adicional de la salud máxima del aliado curado.",
+        "[¡¡Haga el Juicio!!] Aumenta el daño 50% y recupera un 2.5% adicional de la salud máxima del aliado curado."
+      ],
+      "story": "La comida favorita de Dakaris, y la que mejor prepara. Es uno de los platillos festivos representativos de la tribu.Langostas de agua dulce, almejas, y guarniciones. Normalmente él gusta de pescado... pero disfruta de este platillo en ocasiones especiales."
+    }
+  },
+  "s2": {
+    "name": "¡¡Tomaré Prestado su Poder!!",
+    "description": "Recupera su salud por {1} durante {0} segundos, {2} casillas de mana e incrementa su ataque por {3}. Si la salud está llena al activarse, absorbe {4} de daño y crea un escudo inmune a efectos de estado por {5} segundos. Si hay menos de tres aliados, los efectos aparecerán en todos.",
+    "books": {
+      "0": "Incrementa el aumento de ataque en un {0}%.",
+      "1": "Incrementa el aumento de ataque en un {0}%.",
+      "2": "Incrementa el aumento de ataque en un {0}%."
+    },
+    "light": "Al activarse, la velocidad de ataque incrementa en 500.",
+    "dark": "Incrementa el tiempo de duración del escudo por 5 segundos.",
+    "ut": {
+      "name": "El Brazalete Tradicional",
+      "description": [
+        "[¡¡Tomaré Prestado su Poder!!] El tiempo de reutilización reduce por 5 segundos y aumenta la tasa de curación y la recuperación de mana un 20%.",
+        "[¡¡Tomaré Prestado su Poder!!] El tiempo de reutilización reduce por 5 segundos y aumenta la tasa de curación y la recuperación de mana un 24%.",
+        "[¡¡Tomaré Prestado su Poder!!] El tiempo de reutilización reduce por 5 segundos y aumenta la tasa de curación y la recuperación de mana un 29%.",
+        "[¡¡Tomaré Prestado su Poder!!] El tiempo de reutilización reduce por 5 segundos y aumenta la tasa de curación y la recuperación de mana un 35%.",
+        "[¡¡Tomaré Prestado su Poder!!] El tiempo de reutilización reduce por 5 segundos y aumenta la tasa de curación y la recuperación de mana un 42%.",
+        "[¡¡Tomaré Prestado su Poder!!] El tiempo de reutilización reduce por 5 segundos y aumenta la tasa de curación y la recuperación de mana un 50%."
+      ],
+      "story": "Un ornamento que Dakaris obtuvo de sus padres en el pasado. Este brazalete que tiene un aro de oro y uno de plata entrelazados, es un artefacto tradicional que simboliza relaciones eternas. Es un recuerdo de sus progenitores."
+    }
+  },
+  "s3": {
+    "name": "¡¡Ponle Fin al Sufrimiento!!",
+    "description": "Ataca a un enemigo aleatorio 5 veces dándole un daño mágico de {0} , con un {1} adicional si el oponente no es un héroe. Si [¡¡Tomaré Prestado su Poder!!] está activado, ataca al enemigo con mayor poder de ataque primero.",
+    "books": {
+      "0": "Incrementa el daño en un {0}%.",
+      "1": "Incrementa el daño en un {0}%.",
+      "2": "Incrementa el daño en un {0}%."
+    },
+    "light": "Inmunidad a efectos de estado mientras dura la habilidad.",
+    "dark": "Incrementa el daño en un 40%.",
+    "ut": {
+      "name": "La Daga Mágica",
+      "description": [
+        "[¡¡Ponle Fin al Sufrimiento!!] Incrementa el daño un 20% y usa la habilidad una vez más al matar al enemigo.",
+        "[¡¡Ponle Fin al Sufrimiento!!] Incrementa el daño un 24% y usa la habilidad una vez más al matar al enemigo.",
+        "[¡¡Ponle Fin al Sufrimiento!!] Incrementa el daño un 29% y usa la habilidad una vez más al matar al enemigo.",
+        "[¡¡Ponle Fin al Sufrimiento!!] Incrementa el daño un 35% y usa la habilidad una vez más al matar al enemigo.",
+        "[¡¡Ponle Fin al Sufrimiento!!] Incrementa el daño un 42% y usa la habilidad una vez más al matar al enemigo.",
+        "[¡¡Ponle Fin al Sufrimiento!!] Incrementa el daño un 50% y usa la habilidad una vez más al matar al enemigo."
+      ],
+      "story": "Daga originalmente usada por los hombres lagarto del Lago de Eretana en celebraciones o ritos. Esta daga de uso decorativo era usada principalmente en festivales o ceremonias de paso de edad. Sin embargo, despertó después de que el imperio ocupó el territorio de los hombres lagarto, y renació como un arma mágica."
+    }
+  },
+  "s4": {
+    "name": "¡¡Demostraré el Poder de mis Antepasados!!",
+    "description": "Con salud llena, aumenta su poder de ataque en un {0} , de lo contrario recupera su salud por {1} cada segundo. Cuando esté en peligro de morir, absorbe {2} de daño y usa toda su mana creando un escudo inmune a efectos de estado por {3} segundos. Mientras dure el escudo, no se podrá recuperar mana.",
+    "books": {
+      "0": "Incrementa el aumento de ataque en un {0}%.",
+      "1": "Incrementa el aumento de ataque en un {0}%.",
+      "2": "Incrementa el aumento de ataque en un {0}%."
+    },
+    "light": "La cantidad de cura aumentó en un 100%.",
+    "dark": "Si su salud está llena, recupera 300 mana cada segundo.",
+    "ut": {
+      "name": "El Libro del Dragón",
+      "description": [
+        "[¡¡Demostraré el Poder de mis Antepasados!!] El escudo aumenta 20% y se aplica a todos los aliados.",
+        "[¡¡Demostraré el Poder de mis Antepasados!!] El escudo aumenta 24% y se aplica a todos los aliados.",
+        "[¡¡Demostraré el Poder de mis Antepasados!!] El escudo aumenta 29% y se aplica a todos los aliados.",
+        "[¡¡Demostraré el Poder de mis Antepasados!!] El escudo aumenta 35% y se aplica a todos los aliados.",
+        "[¡¡Demostraré el Poder de mis Antepasados!!] El escudo aumenta 42% y se aplica a todos los aliados.",
+        "[¡¡Demostraré el Poder de mis Antepasados!!] El escudo aumenta 50% y se aplica a todos los aliados."
+      ],
+      "story": "Libro mágico tradicional que es pasado por generaciones. Es un libro de historia que se ha pasado por generaciones a los sabios de la tribu. Tiene información sobre registros de guerra, hazañas de héroes, y la vida cotidiana de los miembros de la tribu, entre otros. Posee la fuerza misteriosa de reproducir esa información momentáneamente como magia."
+    }
+  },
+  "t5": {
+    "light": "Poder de ataque, defensa, salud+15% / Probabilidad de crítico +100",
+    "dark": "En los primeros 5 segundos de la batalla inicial, obtiene [Consejo de los Antepasados], que incrementará la resistencia a efectos de estado en 200. Si conserva [Consejo de los Antepasados] después de los 5 segundos, efectos dañinos de 3 aliados al azar serán eliminados y la defensa incrementará un 50% durante 10 segundos. No se puede cancelar el incremento de defensa."
+  }
+}

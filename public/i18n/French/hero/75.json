@@ -1,0 +1,144 @@
+{
+  "name": "Dakaris",
+  "subtitle": "Sage de Lac",
+  "description": "Sage de la Tribu des Hommes-Lézards du Lac Eretana, actuellement occupé par l'Empire. Il a participé à la mise en place de la Résistance depuis que son pays a été envahi, il y a 8 ans. Grâce à la magie traditionnelle de sa Tribu, il sème la confusion aux ennemis.",
+  "story": "L'Empire, au temps de son expansion territoriale, rencontra de fortes résistances des tribus locales. Mais toutes furent vaincues face aux puissances technologiques et militaires écrasantes de l'Empire. Situé dans la région des Hautes-Montagnes, le Lac Eretana, le pays natal de Dakaris, qui entretenait très peu d'échanges avec le monde extérieur, n'y fit pas exception. L'Empire ne força pas les indigènes vaincus à migrer, mais les traitèrent cruellement. De plus, de nombreux nobles et fonctionnaires de l'Empire, assignés dans les pays vaincus, étaient corrompus ne faisant qu'empirer la vie des indigènes. Le noble, placé dans le pays natal de Dakaris fut l'un des pires. Le despotisme de l'hobereau ne cessa de s'aggraver et de nombreux jeunes hommes-lézards innocents furent tués. Cela poussa Dakaris à réunir les membres de la tribu afin de retrouver la liberté perdue. « Pour la Sérénité de nos Ancêtres, pour la Liberté des Tribus - Avec la Résistance, je n'hésiterai pas un seul instant pour retrouver notre liberté. » Actuellement, grâce à sa sagesse et sa clairvoyance, Dakaris est l'un des piliers qui soutient de la Résistance.",
+  "like": "Les membres de sa tribu, la lecture paisible, tous les plats de poissons et de fruits de mer.",
+  "dislike": "Ceux qui répriment la liberté, ceux qui incitent au conflit, la violence",
+  "inn": {
+    "idle": "C'est donc à cela que ressemble la Taverne des Humains... Hmm, elle a l'air plutôt agréable.",
+    "recruit": {
+      "greet": "Ravi de te rencontrer, voyageur.",
+      "talk": [
+        "Hmm, que penses-tu de la cuisine locale ? La gastronomie des humains me surprendra toujours.",
+        "Une nouvelle culture, un nouveau monde, de nouvelles expériences. Chaque jour est une suite d'apprentissage.",
+        "C'est très rare qu'un Homme-Lézard quitte son pays et sa tribu pour partir à l'aventure."
+      ],
+      "gift": "Hoo, un cadeau. Je te remercie. La prochaine fois, ce sera à moi de t'inviter pour un festin de poisson."
+    },
+    "affinity": {
+      "greet": "Bienvenue, mon grand ami. Que se passe-t-il ?",
+      "talk": [
+        "Hahaha, ne voudrais-tu pas également te joindre à la Résistance ?",
+        "L'effort est nécessaire pour obtenir la liberté, mais je n'apprécie pas la violence."
+      ],
+      "gift": "Ouf, encore des cadeaux... Haha, je te remercie du fond du cœur."
+    },
+    "relationship": {
+      "greet": "Oooh, tu es là. Ne voudrais-tu pas te joindre à moi pour le dîner? Hahaha...",
+      "talk": [
+        "En effet, les hommes-lézards m'appellent « Sage de Lac », mais je ne suis pas encore digne de ce nom. Hahaha.",
+        "Pour être Libre, et pour l'Avenir de nos Descendants - Je continuerai à soutenir la Résistance.",
+        "Nos Ancêtres veillent toujours sur nous, bénissant notre avenir."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Lac de Mémoire, Armekith",
+    "description": [
+      "Réduit les DEG reçus de 10% et augmente la Résistance aux Contrôles de 100. Cet effet est doublé pendant 2 sec à l'utilisation d'une compétence.",
+      "Réduit les DEG reçus de 12% et augmente la Résistance aux Contrôles de 120. Cet effet est doublé pendant 2 sec à l'utilisation d'une compétence.",
+      "Réduit les DEG reçus de 14% et augmente la Résistance aux Contrôles de 140. Cet effet est doublé pendant 2 sec à l'utilisation d'une compétence.",
+      "Réduit les DEG reçus de 17% et augmente la Résistance aux Contrôles de 170. Cet effet est doublé pendant 2 sec à l'utilisation d'une compétence.",
+      "Réduit les DEG reçus de 21% et augmente la Résistance aux Contrôles de 210. Cet effet est doublé pendant 2 sec à l'utilisation d'une compétence.",
+      "Réduit les DEG reçus de 25% et augmente la Résistance aux Contrôles de 250. Cet effet est doublé pendant 2 sec à l'utilisation d'une compétence."
+    ],
+    "story": "Trésor de la Tribu dissimulé au plus profond du Lac Eretana, le pays natal de Dakaris. Il contient la magie et la sagesse des hommes-lézards accumulées durant de nombreux siècles. La forme de la puissance de cet objet magique prend celle d'une risette, mais selon la volonté de son possesseur, elle peut jusqu'à prendre forme de raz de marée."
+  },
+  "s1": {
+    "name": "Que justice soit rendue !!",
+    "description": "Inflige {0} points de DEG M. dans la zone adjacente à la cible et étourdit tous les ennemis se trouvant dans cette zone pendant {1} sec. Restaure les PV des alliés se trouvant dans cette zone de {2}. Cette compétence est immédiatement disponible et son temps de recharge est réduit de 100% jusqu'à 3 fois, lorsque vous activez la compétence : [Que la force soit avec moi !!]",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG de {0}%."
+    },
+    "light": "Augmente la durée de l'étourdissement de 1 sec.",
+    "dark": "Réduit le coût en mana de 1.",
+    "ut": {
+      "name": "Festin du Rivage",
+      "description": [
+        "[Que justice soit rendue !!] Augmente les DEG de 50% et augmente la restauration des PV de 1% des PV Max des alliés se trouvant dans la zone.",
+        "[Que justice soit rendue !!] Augmente les DEG de 50% et augmente la restauration des PV de 1.2% des PV Max des alliés se trouvant dans la zone.",
+        "[Que justice soit rendue !!] Augmente les DEG de 50% et augmente la restauration des PV de 1.4% des PV Max des alliés se trouvant dans la zone.",
+        "[Que justice soit rendue !!] Augmente les DEG de 50% et augmente la restauration des PV de 1.7% des PV Max des alliés se trouvant dans la zone.",
+        "[Que justice soit rendue !!] Augmente les DEG de 50% et augmente la restauration des PV de 2.1% des PV Max des alliés se trouvant dans la zone.",
+        "[Que justice soit rendue !!] Augmente les DEG de 50% et augmente la restauration des PV de 2.5% des PV Max des alliés se trouvant dans la zone."
+      ],
+      "story": "Le plat favori de Dakaris. Il est également le meilleur à préparer ce plat. C'est le plat symbolique de la fête traditionnelle de sa tribu. Pour le cuisiner, il faut des écrevisses d'eau douce, des moules et de divers plats d'accompagnements. Habituellement, il préfère les plats de poisson... mais se régale de ce mets dans les jours particuliers."
+    }
+  },
+  "s2": {
+    "name": "Que la force soit avec moi !!",
+    "description": "Sur {0} sec, restaure {1} de PV, {2} charges de PM et augmente le taux d'ATQ de {3}. Lors de l'incantation de la compétence, si les PV du Héros sont au Max, génère un Bouclier Protecteur qui protège le Héros pour {4} de DEG, et immunise le Héros contre les Contrôles pendant {5} sec. Si vous avez moins de 3 alliés au combat, cet effet s'applique à toute l'équipe.",
+    "books": {
+      "0": "Augmente le taux d'augmentation d'ATQ de {0}%.",
+      "1": "Augmente le taux d'augmentation d'ATQ de {0}%.",
+      "2": "Augmente le taux d'augmentation d'ATQ de {0}%."
+    },
+    "light": "Augmente la vitesse d'attaque de 500 pendant la durée de la compétence.",
+    "dark": "Augmente la durée du bouclier protecteur de 5 sec.",
+    "ut": {
+      "name": "Bracelet de Tradition",
+      "description": [
+        "[Que la force soit avec moi !!] Réduit le temps de recharge de 5 sec et augmente la Restauration des PV et la Récupération des PM de 20%.",
+        "[Que la force soit avec moi !!] Réduit le temps de recharge de 5 sec et augmente la Restauration des PV et la Récupération des PM de 24%.",
+        "[Que la force soit avec moi !!] Réduit le temps de recharge de 5 sec et augmente la Restauration des PV et la Récupération des PM de 29%.",
+        "[Que la force soit avec moi !!] Réduit le temps de recharge de 5 sec et augmente la Restauration des PV et la Récupération des PM de 35%.",
+        "[Que la force soit avec moi !!] Réduit le temps de recharge de 5 sec et augmente la Restauration des PV et la Récupération des PM de 42%.",
+        "[Que la force soit avec moi !!] Réduit le temps de recharge de 5 sec et augmente la Restauration des PV et la Récupération des PM de 50%."
+      ],
+      "story": "Ornement reçu autrefois de la part de ses parents. Deux bracelets en or et en argent se sont entrelacés pour former ce bracelet de mariage, qui signifie le lien indissoluble du mariage traditionnel. Cet objet lui permet de se souvenir de ses parents."
+    }
+  },
+  "s3": {
+    "name": "Que votre souffrance prenne fin !!",
+    "description": "Attaque les ennemis aléatoirementà 5 reprises et inflige au total {0} de DEG M, et si l'ennemi est un non-Héros, inflige {1} de DEG M supplémentaires. Si la compétence [Que la force soit avec moi !!] est active, cette attaque cible, prioritairement, l'ennemi qui possède le plus de taux d'ATQ.",
+    "books": {
+      "0": "Augmente les DEG de {0}%.",
+      "1": "Augmente les DEG de {0}%.",
+      "2": "Augmente les DEG de {0}%."
+    },
+    "light": "Confère au Héros, l'immunité contre les contrôles pendant l'incantation de la compétence.",
+    "dark": "Augmente les DEG de 40%.",
+    "ut": {
+      "name": "Dague de Divination",
+      "description": [
+        "[Que votre souffrance prenne fin !!] Augmente les DEG de 20% et lorsque vous tuez la cible avec cette compétence, elle est réutilisée automatiquement.",
+        "[Que votre souffrance prenne fin !!] Augmente les DEG de 24% et lorsque vous tuez la cible avec cette compétence, elle est réutilisée automatiquement.",
+        "[Que votre souffrance prenne fin !!] Augmente les DEG de 29% et lorsque vous tuez la cible avec cette compétence, elle est réutilisée automatiquement.",
+        "[Que votre souffrance prenne fin !!] Augmente les DEG de 35% et lorsque vous tuez la cible avec cette compétence, elle est réutilisée automatiquement.",
+        "[Que votre souffrance prenne fin !!] Augmente les DEG de 42% et lorsque vous tuez la cible avec cette compétence, elle est réutilisée automatiquement.",
+        "[Que votre souffrance prenne fin !!] Augmente les DEG de 50% et lorsque vous tuez la cible avec cette compétence, elle est réutilisée automatiquement."
+      ],
+      "story": "Dague originairement utilisée pour les fêtes et les cérémonies par les Hommes-Lézards du Lac Eretana. Essentiellement employée pour les fêtes et la cérémonie de la majorité, elle était purement considérée comme une décoration. Cependant, suite à l'invasion de l'Empire, elle a été améliorée, traitée magiquement, pour être utilisée comme une arme."
+    }
+  },
+  "s4": {
+    "name": "Que la puissance de mes ancêtres vous éblouisse !!",
+    "description": "Restaure les PV de {1} toutes les sec, et si les PV du Héros sont au Max, augmente le taux d'ATQ de {0}. À la réception de DEG Fatals, consomme tous les PM et génère un Bouclier Protecteur qui protège le Héros pour {2} de DEG, et immunise le Héros contre les Contrôles pendant {3} sec. Pendant la durée du Bouclier Protecteur, le Héros ne peut pas récupérer de PM.",
+    "books": {
+      "0": "Augmente le taux d'augmentation d'ATQ de {0}%.",
+      "1": "Augmente le taux d'augmentation d'ATQ de {0}%.",
+      "2": "Augmente le taux d'augmentation d'ATQ de {0}%."
+    },
+    "light": "Soins augmentés de 100%.",
+    "dark": "Si les PV du Héros sont au Max, récupère 300 Mana toutes les sec.",
+    "ut": {
+      "name": "Manuscrit de Dragon",
+      "description": [
+        "[Que la puissance de mes ancêtres vous éblouisse !!] Augmente le taux de Bouclier Protecteur de 20% et applique le Bouclier Protecteur à tous les alliés.",
+        "[Que la puissance de mes ancêtres vous éblouisse !!] Augmente le taux de Bouclier Protecteur de 24% et applique le Bouclier Protecteur à tous les alliés.",
+        "[Que la puissance de mes ancêtres vous éblouisse !!] Augmente le taux de Bouclier Protecteur de 29% et applique le Bouclier Protecteur à tous les alliés.",
+        "[Que la puissance de mes ancêtres vous éblouisse !!] Augmente le taux de Bouclier Protecteur de 35% et applique le Bouclier Protecteur à tous les alliés.",
+        "[Que la puissance de mes ancêtres vous éblouisse !!] Augmente le taux de Bouclier Protecteur de 42% et applique le Bouclier Protecteur à tous les alliés.",
+        "[Que la puissance de mes ancêtres vous éblouisse !!] Augmente le taux de Bouclier Protecteur de 50% et applique le Bouclier Protecteur à tous les alliés."
+      ],
+      "story": "Grimoire traditionnel transmis de génération en génération. Il est considéré comme le livre historique autrefois gardé par tous les sages de la tribu. Les guerres, les actes des grands Hommes-Lézards, la vie de la tribu et divers autres faits y sont inscrits. Le grimoire détient un pouvoir mystérieux qui permet de reproduire les informations, qui y sont inscrites, dans le monde réel, pour un court instant."
+    }
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / Chances Crit +100",
+    "dark": "Au début de la 1ère bataille, le Héros obtient pendant 5 sec, le [Conseil des Ancêtres] qui augmente la Résistance aux Contrôles de 200. Si après les 5 sec, le Héros dispose encore du [Conseil des Ancêtres], dissipe les Effets Néfastes sur 3 alliés aléatoires et augmente leur DEF de 50%, pendant 10 sec. L'Effet de l'augmentation de DEF ne peut être dissipé."
+  }
+}

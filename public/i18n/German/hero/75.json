@@ -1,0 +1,144 @@
+{
+  "name": "Dakaris",
+  "subtitle": "Weiser Mann vom See",
+  "description": "Weiser der Eidechsenmenschen, die Ureinwohner des in der Nähe des vom Reich besetzten Eretana-Sees. Er schloss sich vor 8 Jahren der Widerstandsbewegung (Résistance) an, um seine Heimatstadt zurückzuerobern, die gewaltsam unterdrückt wird. Er wirft seine Feinde mit traditioneller Magie seines Stammes ins Chaos.",
+  "story": "In der Zeit, in der das Reich sein Territorium ausdehnte, leisteten die dort lang lebenden Uhreinwohner großen Widerstand. Aber sie alle wurden von der überwältigenden militärischen Macht und der modernen Technologie des Reichs besiegt. Nichteinmal Dakaris Heimatstadt, der Eretana-See, der von der Welt isoliert war, weil er in der Alpenregion liegt, konnte diese Situation überleben. Das Reich ließ jedoch die Eingeborenen nicht weiterziehen und behandelten sie sehr schlecht. Viele korrupte kaiserliche Offiziere und Adlige sind in dieser Region eingesetzt worden, sodass das Leben des Stammes immer schwieriger wurde. Der Adlige, der in Dakaris Heimatstadt zog, war viel schlimmer. Schließlich gab es einen Vorfall, bei dem unschuldige Eidechsenmänner umkamen. Dakaris versammelte seine übrigen Männer und sie bereiteten sich darauf vor, für die Freiheit zu kämpfen. ´Für das Opfer der Vorfahren, für die Freiheit unseres Stammes. Ich werde nicht zögern und für unsere Zukunft kämpfen.´ Heute ist er eines der wichtigsten Mitglieder der Résistance-Gruppe, die mit viel Weisheit und Einsicht gegen das Reich kämpft.",
+  "like": "Seine Stammesangehörige, Lesen, viele Arten von Fischgerichten.",
+  "dislike": "Den, der die Freiheit unterdrückt und Streit macht, sowie Gewalt.",
+  "inn": {
+    "idle": "Es ist ein Gasthaus für Menschen... hmm, es fühlt sich ziemlich gemütlich an.",
+    "recruit": {
+      "greet": "Willkommen, Reisender.",
+      "talk": [
+        "Hmm... ob das Essen hier schmecken wird? Die Esskultur der Menschen ist sehr erstaunlich.",
+        "Neue Kultur, neue Welt, neue Erfahrungen. Jeder Tag ist ein guter Tag zum Lernen.",
+        "Ein alleinreisender Eidechsenmensch, der seinen eigenen Stamm verlassen hat, kommt nicht jeden Tag vor."
+      ],
+      "gift": "Oh, ist das etwa für mich? Wie großzügig. Als Dankeschön werde ich Euch das nächste Mal ein Fischgericht zubereiten."
+    },
+    "affinity": {
+      "greet": "Willkommen, mein Freund. Was führt Euch zu mir?",
+      "talk": [
+        "Hahaha, würdet Ihr auch nicht der Résistance beitreten wollen?",
+        "Wisst Ihr, ich strebe zwar nach Freiheit, aber dabei möchte ich keine Gewalt anwenden."
+      ],
+      "gift": "Nanu?! Erneut ein Geschenk für mich? Hahaha, vielen Dank."
+    },
+    "relationship": {
+      "greet": "Oh, Ihr seid angekommen. Lasst uns heute zusammen speisen. Hahaha.",
+      "talk": [
+        "Ich weiß, dass ich als Weiser des Eidechsenstammes viel Verantwortung zu tragen habe, jedoch hab ich noch sehr viel zu lernen. Hahaha.",
+        "Um die Freiheit und Zukunft unserer Nachkommen zu sichern, werde ich weiterhin die Résistance unterstützen.",
+        "Man sagt, dass unsere Vorfahren uns immer beobachten. Wir können nur auf ihren Segen hoffen..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "See der Erinnerung, Armekith",
+    "description": [
+      "Dein Schaden wird um 10% verringert und der Statuseffekt-Widerstand um 100 erhöht. Dieser Effekt wird 2 Sek. lang doppelt verstärkt, nachdem du diesen Skill verwendest.",
+      "Dein Schaden wird um 12% verringert und der Statuseffekt-Widerstand um 120 erhöht. Dieser Effekt wird 2 Sek. lang doppelt verstärkt, nachdem du diesen Skill verwendest.",
+      "Dein Schaden wird um 14% verringert und der Statuseffekt-Widerstand um 140 erhöht. Dieser Effekt wird 2 Sek. lang doppelt verstärkt, nachdem du diesen Skill verwendest.",
+      "Dein Schaden wird um 17% verringert und der Statuseffekt-Widerstand um 170 erhöht. Dieser Effekt wird 2 Sek. lang doppelt verstärkt, nachdem du diesen Skill verwendest.",
+      "Dein Schaden wird um 21% verringert und der Statuseffekt-Widerstand um 210 erhöht. Dieser Effekt wird 2 Sek. lang doppelt verstärkt, nachdem du diesen Skill verwendest.",
+      "Dein Schaden wird um 25% verringert und der Statuseffekt-Widerstand um 250 erhöht. Dieser Effekt wird 2 Sek. lang doppelt verstärkt, nachdem du diesen Skill verwendest."
+    ],
+    "story": "Der Schatz des Stammes, der in die Tiefe des Eretana-Sees, der Heimatstadt von Dakaris, verborgen ist. Die jahrhundertalte Weisheit und Magie der Eidechsenmenschen hat sich in diesem Gegenstand angehäuft. Dieser mag schön und ruhig aussehen, jedoch kann es entsprechend dem Wille des Nutzers große magische Kräfte abgeben."
+  },
+  "s1": {
+    "name": "Urteil fällen!",
+    "description": "Füge dem angreifenden Feind und seiner Umgebung Mag. Schaden für {0} zu, betäube ihn für {1} Sek. und regeneriere die Verbündeten-TP um {2}. Bei der Aktivierung des [Macht verleihen!]-Skills wird der Cooldown dieses Skills zurückgesetzt und erst nach dreimaligen Gebrauch abklingen.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "Erhöht die Betäubungsdauer um 1 Sek.",
+    "dark": "Verringert Manakosten um 1.",
+    "ut": {
+      "name": "Schlemmermahl am See",
+      "description": [
+        "[Urteil fällen!] Skill-Schaden erhöht sich um 50% und heilt Verbündete für +1% der max. TP.",
+        "[Urteil fällen!] Skill-Schaden erhöht sich um 50% und heilt Verbündete für +1,2% der max. TP.",
+        "[Urteil fällen!] Skill-Schaden erhöht sich um 50% und heilt Verbündete für +1,4% der max. TP.",
+        "[Urteil fällen!] Skill-Schaden erhöht sich um 50% und heilt Verbündete für +1,7% der max. TP.",
+        "[Urteil fällen!] Skill-Schaden erhöht sich um 50% und heilt Verbündete für +2,1% der max. TP.",
+        "[Urteil fällen!] Skill-Schaden erhöht sich um 50% und heilt Verbündete für +2,5% der max. TP."
+      ],
+      "story": "Es ist Dakaris Lieblingsessen und die Speise, die er am besten zubereiten kann. Die Eidechsenmenschen essen dieses Mahl immer zu bestimmten Besonderheiten, wie Festen oder Zeremonien. Steinkrebse, Muschel und andere Beilagen sind Teil dieses Gerichts. Normalerweise genießt Dakaris eher Fischgerichte. Dieses Gericht hebt er sich für besondere Anlässe auf."
+    }
+  },
+  "s2": {
+    "name": "Macht verleihen!",
+    "description": "Für {0} Sek. werden sich deine TP um {1} & Mana um {2} Slots regenerieren und dein ANG um {3} erhöhen. Wenn deine TP voll sind, kannst du {4} deiner Schäden retten, indem du {5} Sek. lang einen Schutzschild herstellst, der dich gegen den Statuseffekt immun werden lässt. Wenn du weinger als 3 Verbündete hast, wird dies auf allen Verbündeten angewendet.",
+    "books": {
+      "0": "Erhöht ANG um {0}%.",
+      "1": "Erhöht ANG um {0}%.",
+      "2": "Erhöht ANG um {0}%."
+    },
+    "light": "(Aktiv) Erhöht deine ANG-GESCHW. um 500.",
+    "dark": "Erhöht Schutzschilddauer um 5 Sek.",
+    "ut": {
+      "name": "Traditionsarmband",
+      "description": [
+        "[Macht verleihen!] Skill-Cooldown verringert sich um 5 Sek. und Heilungsrate & MP-Regeneration erhöht sich um 20%.",
+        "[Macht verleihen!] Skill-Cooldown verringert sich um 5 Sek. und Heilungsrate & MP-Regeneration erhöht sich um 24%.",
+        "[Macht verleihen!] Skill-Cooldown verringert sich um 5 Sek. und Heilungsrate & MP-Regeneration erhöht sich um 29%.",
+        "[Macht verleihen!] Skill-Cooldown verringert sich um 5 Sek. und Heilungsrate & MP-Regeneration erhöht sich um 35%.",
+        "[Macht verleihen!] Skill-Cooldown verringert sich um 5 Sek. und Heilungsrate & MP-Regeneration erhöht sich um 42%.",
+        "[Macht verleihen!] Skill-Cooldown verringert sich um 5 Sek. und Heilungsrate & MP-Regeneration erhöht sich um 50%."
+      ],
+      "story": "Das Schmuckstück, das Dakaris von seinen Eltern geerbt hat. Es ist ein traditionelles Hochzeitsarmband und besteht aus einem Gold- & Silberarmband, welches die ewige Beziehung symbolisiert. Es ist ein Erinnerungsstück, das ihn an seine Eltern erinnern soll."
+    }
+  },
+  "s3": {
+    "name": "Schmerz stoppen!",
+    "description": "Greife einen zufälligen Feind 5 Mal an und füge ihm insgesamt {0} Mag. Schaden zu. Wenn er kein Held ist, füge ihm {1} zus. Mag. Schaden zu. Wenn du dich im [Macht verleihen!!] Status befindst, greife zuerst einen Feind mit dem stärksten ANG an.",
+    "books": {
+      "0": "Erhöht Schaden um {0}%.",
+      "1": "Erhöht Schaden um {0}%.",
+      "2": "Erhöht Schaden um {0}%."
+    },
+    "light": "(Eingesetzt) Immun gegen Stattuseffekt.",
+    "dark": "Erhöht Schaden um 40%.",
+    "ut": {
+      "name": "Magischer Dolch",
+      "description": [
+        "[Schmerz stoppen!] Skill-Schaden erhöht sich um 20%. Wenn du den Feind tötest, kannst du diesen Skill erneut einsetzen.",
+        "[Schmerz stoppen!] Skill-Schaden erhöht sich um 24%. Wenn du den Feind tötest, kannst du diesen Skill erneut einsetzen.",
+        "[Schmerz stoppen!] Skill-Schaden erhöht sich um 29%. Wenn du den Feind tötest, kannst du diesen Skill erneut einsetzen.",
+        "[Schmerz stoppen!] Skill-Schaden erhöht sich um 35%. Wenn du den Feind tötest, kannst du diesen Skill erneut einsetzen.",
+        "[Schmerz stoppen!] Skill-Schaden erhöht sich um 42%. Wenn du den Feind tötest, kannst du diesen Skill erneut einsetzen.",
+        "[Schmerz stoppen!] Skill-Schaden erhöht sich um 50%. Wenn du den Feind tötest, kannst du diesen Skill erneut einsetzen."
+      ],
+      "story": "Ein Dolch, der ursprünglich von den Eidechsenmenschen vom Eretana-See während eines Fests oder Rituals benutzt wurde. Diente hauptsächlich nur zur Zierzwecken bei Zeremonien. Nachdem jedoch das Kaiserreich das Land der Eidechsenmenschen besetzt hat, wurde der Dolch in eine magische Waffe verwandelt."
+    }
+  },
+  "s4": {
+    "name": "Mächtige Vorfahren",
+    "description": "Wenn deine TP voll sind, erhöht sich der ANG-Wert um {0} , andernfalls wird jede Sek. {1} deiner TP wiederhergestellt. Wenn du einen Krit. Schaden erleidest, der zum Tod führt, verhinderst du einen Schaden um {2} und verwendest deine gesamten MP, um {3} Sek. lang einen Schutzschild zu erstellen, der dich gegen Statuseffekt immunisiert. Du kannst deine MP nicht wiederherstellen, solange der Schutzschild hält.",
+    "books": {
+      "0": "Erhöht ANG um {0}%.",
+      "1": "Erhöht ANG um {0}%.",
+      "2": "Erhöht ANG um {0}%."
+    },
+    "light": "Erhöht Heilungsmenge um 100%.",
+    "dark": "Regeneriert jede Sek. 300 MP, wenn deine TP voll sind.",
+    "ut": {
+      "name": "Drachenbuch",
+      "description": [
+        "[Mächtige Vorfahren!!] Skill-Schild erhöht sich um 20% und wird auf allen Verbündeten angewendet.",
+        "[Mächtige Vorfahren!!] Skill-Schild erhöht sich um 24% und wird auf allen Verbündeten angewendet.",
+        "[Mächtige Vorfahren!!] Skill-Schild erhöht sich um 29% und wird auf allen Verbündeten angewendet.",
+        "[Mächtige Vorfahren!!] Skill-Schild erhöht sich um 35% und wird auf allen Verbündeten angewendet.",
+        "[Mächtige Vorfahren!!] Skill-Schild erhöht sich um 42% und wird auf allen Verbündeten angewendet.",
+        "[Mächtige Vorfahren!!] Skill-Schild erhöht sich um 50% und wird auf allen Verbündeten angewendet."
+      ],
+      "story": "Das Zauberbuch, das von Generation zu Generation überliefert wird. Es ist eine Art Geschichtsbuch, das einem weisen Mann des Stammes übergeben wird. Es beinhaltet viele Informationen wie Kriegsberichte, Aktivitäten großer Menschen und das tägliche Leben der Stammesangehörigen. Diese Informationen können mit Magie nachgespielt werden."
+    }
+  },
+  "t5": {
+    "light": "ANG, VERT, TP +15% / Krit. Chance +100",
+    "dark": "Zu Beginn des ersten Kampfes erhältst du [Ratschläge von Vorfahren], wodurch dein Statuseffekt-Widerstand 5 Sek. lang um 200 erhöht wird. Wenn du nach diesen 5 Sek. noch [Ratschläge von Vorfahren] hast, entferne die schlechten Effekte für 3 zufällige Verbündete, um die VERT. für 10 Sek. um 50% zu erhöhen. Du kannst den VERT.-Erhöhungseffekt nicht entfernen."
+  }
+}

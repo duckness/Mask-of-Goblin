@@ -1,0 +1,144 @@
+{
+  "name": "Dakaris",
+  "subtitle": "Sage of the Lake",
+  "description": "A sage of the Lizardmen from Lake Eretana, a place seized by the Empire. In order to liberate his homeland, he co-founded the Resistance 8 years ago. He utilizes traditional tribal magic, which brings chaos to enemies.",
+  "story": "As the Empire expanded its territory, the long occupying natives resisted relentlessly. However, they all eventually fell before the Empire's brutal military force as well as overwhelming technology. Dakaris' homeland, the reclusive Lake Eretana, hidden deep inside the mountains, was no exception. The Empire let the natives stay in their land, but by no means were they treated with respect. To make things worse, the officers and nobles appointed to the area were mostly corrupted, making it even more difficult for the natives. The noble appointed to Lake Eretana was especially the worse. The atrocities grew worse each day, eventually leading to the deaths of young, and innocent Lizardmen. This lead Dakaris to gather his tribe to get back their freedom. 'To soothe the spirits of my ancestors, and to liberate my tribe - I will not hesitate, I will take back our rightful future with the Resistance.' Currently, he is a key member of the Resistance, leading them with his wisdom and insight.",
+  "like": "His tribe, leisurely reading, fish & seafood dishes",
+  "dislike": "Freedom oppressor, disputer, violence",
+  "inn": {
+    "idle": "So this is a human's inn? Hmm, looks quite cozy.",
+    "recruit": {
+      "greet": "Greetings, traveler.",
+      "talk": [
+        "How's the food here? Hmm, human cuisine never ceases to astonish me.",
+        "New culture, new world, and new experience. Everyday's a learning day.",
+        "Not many Lizardmen leave their friends and homeland to travel."
+      ],
+      "gift": "A gift? You have my gratitude. I shall prepare you a fish dish in return next time."
+    },
+    "affinity": {
+      "greet": "Greetings, my friend. What brings you here?",
+      "talk": [
+        "Hahaha, would you like to join the Resistance as well?",
+        "Striving for freedom is good, but I'm against violence."
+      ],
+      "gift": "Ah, another gift. Haha, you have my deepest gratitude."
+    },
+    "relationship": {
+      "greet": "Ah, you're here. Why don't you take a seat and join me for dinner today? Hahaha...",
+      "talk": [
+        "Fellow Lizardmen seem to address me as a sage, but I still have much to learn. Hahaha.",
+        "For life without shackles, and for the future of our descendants - I will continue to aid the Resistance.",
+        "The ancestors always watch over us, blessing our path..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Lake of Remembrance, Armekith",
+    "description": [
+      "Dakaris takes 10% reduced DMG, and increases CC Resist by 100. After using a Skill, the effects are doubled for 2 sec.",
+      "Dakaris takes 12% reduced DMG, and increases CC Resist by 120. After using a Skill, the effects are doubled for 2 sec.",
+      "Dakaris takes 14% reduced DMG, and increases CC Resist by 140. After using a Skill, the effects are doubled for 2 sec.",
+      "Dakaris takes 17% reduced DMG, and increases CC Resist by 170. After using a Skill, the effects are doubled for 2 sec.",
+      "Dakaris takes 21% reduced DMG, and increases CC Resist by 210. After using a Skill, the effects are doubled for 2 sec.",
+      "Dakaris takes 25% reduced DMG, and increases CC Resist by 250. After using a Skill, the effects are doubled for 2 sec."
+    ],
+    "story": "A treasure of the tribe that was hidden deep inside Lake Eretana. It contains hundreds of years of Lizardmen wisdom and magic. Its power is normally calm like still water, but this magical item can unleash devastating tsunami-like power if a user wishes to."
+  },
+  "s1": {
+    "name": "Judgment Upon Them!",
+    "description": "Deals {0} M. DMG to the target and enemies nearby, stunning them for {1} sec and healing allies within the range by {2} HP. Activating [Grant Me Strength!] will reset Cooldown of this Skill, and remove Cooldown up to 3 Skill uses.",
+    "books": {
+      "0": "Increases DMG by {0}%.",
+      "1": "Increases DMG by {0}%.",
+      "2": "Increases DMG by {0}%."
+    },
+    "light": "Increases Stun duration by 1 sec.",
+    "dark": "Reduces Mana Cost by 1.",
+    "ut": {
+      "name": "Lakeside Banquet",
+      "description": [
+        "[Judgment Upon Them!] Increases DMG by 50% and heals additional HP equal to 1% of the healed ally's Max HP.",
+        "[Judgment Upon Them!] Increases DMG by 50% and heals additional HP equal to 1.2% of the healed ally's Max HP.",
+        "[Judgment Upon Them!] Increases DMG by 50% and heals additional HP equal to 1.4% of the healed ally's Max HP.",
+        "[Judgment Upon Them!] Increases DMG by 50% and heals additional HP equal to 1.7% of the healed ally's Max HP.",
+        "[Judgment Upon Them!] Increases DMG by 50% and heals additional HP equal to 2.1% of the healed ally's Max HP.",
+        "[Judgment Upon Them!] Increases DMG by 50% and heals additional HP equal to 2.5% of the healed ally's Max HP."
+      ],
+      "story": "Dakaris' favorite and signature dish. It is one of the dishes that represent his tribe. It is a dish made with crawfish, clams, and many sides. He normally eats fish, but dines on this on special occasions."
+    }
+  },
+  "s2": {
+    "name": "Grant Me Strength!",
+    "description": "Over {0} sec, heals own HP by {1} and recovers {2} orbs of Mana, increasing ATK by {3} for the duration. If own HP is full when the Skill is used, blocks {4} DMG and casts a shield that grants CC Immunity, lasting for {5} sec. If there are 3 or less allies, this effect will apply to all allies.",
+    "books": {
+      "0": "Increases ATK Boost by {0}%.",
+      "1": "Increases ATK Boost by {0}%.",
+      "2": "Increases ATK Boost by {0}%."
+    },
+    "light": "Upon activation, increases own ATK Spd by 500.",
+    "dark": "Increases duration of the shield by 5 sec.",
+    "ut": {
+      "name": "Traditional Bracelet",
+      "description": [
+        "[Grant Me Strength!] Decreases Cooldown by 5 sec, and increases Heal Rate & Mana Recovery by 20%.",
+        "[Grant Me Strength!] Decreases Cooldown by 5 sec, and increases Heal Rate & Mana Recovery by 24%.",
+        "[Grant Me Strength!] Decreases Cooldown by 5 sec, and increases Heal Rate & Mana Recovery by 29%.",
+        "[Grant Me Strength!] Decreases Cooldown by 5 sec, and increases Heal Rate & Mana Recovery by 35%.",
+        "[Grant Me Strength!] Decreases Cooldown by 5 sec, and increases Heal Rate & Mana Recovery by 42%.",
+        "[Grant Me Strength!] Decreases Cooldown by 5 sec, and increases Heal Rate & Mana Recovery by 50%."
+      ],
+      "story": "A trinket Dakaris received from his parents. This bracelet is made with intertwined gold and silver bracelets. It is a traditional wedding bracelet that symbolizes everlasting bond. Dakaris has this bracelet as a memento of his parents."
+    }
+  },
+  "s3": {
+    "name": "May Their Agony End!",
+    "description": "Attacks a random enemy 5 times, dealing {0} M.DMG in total. If the target is not a Hero, deals additional {1} M.DMG. While [Grant Me Strength!] is active, an enemy with highest ATK will be prioritized.",
+    "books": {
+      "0": "Increases DMG by {0}%.",
+      "1": "Increases DMG by {0}%.",
+      "2": "Increases DMG by {0}%."
+    },
+    "light": "Gains CC Immunity for the duration of Skill.",
+    "dark": "Increases DMG by 40%.",
+    "ut": {
+      "name": "Dagger of Sorcery",
+      "description": [
+        "[May Their Agony End!] Increases DMG by 20%. If this Skill kills an enemy, it will cast once more.",
+        "[May Their Agony End!] Increases DMG by 24%. If this Skill kills an enemy, it will cast once more.",
+        "[May Their Agony End!] Increases DMG by 29%. If this Skill kills an enemy, it will cast once more.",
+        "[May Their Agony End!] Increases DMG by 35%. If this Skill kills an enemy, it will cast once more.",
+        "[May Their Agony End!] Increases DMG by 42%. If this Skill kills an enemy, it will cast once more.",
+        "[May Their Agony End!] Increases DMG by 50%. If this Skill kills an enemy, it will cast once more."
+      ],
+      "story": "A ceremonial dagger used by the Lizardmen of Lake Eretana. It was used as a decoration, especially in festivals and coming of age ceremonies. However, after the Empire's invasion, it got customized as a weapon by imbuing it with magic."
+    }
+  },
+  "s4": {
+    "name": "Might of the Ancestors!",
+    "description": "If own HP is full, increases ATK by {0}. If not, heals own HP by {1} every sec. Upon taking a fatal damage, consumes entire Mana to block {2} damage and cast a shield that grants CC Immunity, lasting for {3} sec. While the shield is active, Dakaris cannot recover Mana.",
+    "books": {
+      "0": "Increases ATK boost by {0}%.",
+      "1": "Increases ATK boost by {0}%.",
+      "2": "Increases ATK boost by {0}%."
+    },
+    "light": "Heal Rate is increased by 100%.",
+    "dark": "If own HP is full, recovers 300 Mana every sec.",
+    "ut": {
+      "name": "Tome of the Dragon",
+      "description": [
+        "[Might of the Ancestors!] Increases shield amount by 20% and applies shield to all allies.",
+        "[Might of the Ancestors!] Increases shield amount by 24% and applies shield to all allies.",
+        "[Might of the Ancestors!] Increases shield amount by 29% and applies shield to all allies.",
+        "[Might of the Ancestors!] Increases shield amount by 35% and applies shield to all allies.",
+        "[Might of the Ancestors!] Increases shield amount by 42% and applies shield to all allies.",
+        "[Might of the Ancestors!] Increases shield amount by 50% and applies shield to all allies."
+      ],
+      "story": "A spellbook passed down from generation to generation. This is renowned as a history book passed down to the next sage of the tribe. It holds history of war, footsteps of great individuals, everyday life of the tribe, and many more. It has mystical power to bring those records out into reality for a little while via magic."
+    }
+  },
+  "t5": {
+    "light": "ATK, DEF, HP +15% / Crit Chance +100",
+    "dark": "At the beginning of the first battle, gains [Ancestral Advice] that increases own CC Resist by 200 for 5 sec. If [Ancestral Advice] is still active after 5 sec, dispels negative effects from 3 random allies, and increases their DEF by 50% for 10 sec. DEF Boost is irremovable."
+  }
+}

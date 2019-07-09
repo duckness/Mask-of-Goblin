@@ -7965,6 +7965,85 @@
         "light": null
       }
     },
+    "71": {
+      "index": 71,
+      "class": "warrior",
+      "type": "magical",
+      "position": {
+        "type": "forward",
+        "weight": 600
+      },
+      "mpatk": 235,
+      "mpsec": 60,
+      "auto": {
+        "range": 3500,
+        "rangeType": "Melee",
+        "time": [
+          [
+            0.3,
+            0.5
+          ],
+          [
+            1.2,
+            1.8
+          ],
+          [
+            2.8
+          ]
+        ],
+        "duration": 3.9
+      },
+      "s1": {
+        "description": null,
+        "mana": 3,
+        "cooldown": 12,
+        "books": [
+          null,
+          null,
+          null
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": null,
+        "mana": 3,
+        "cooldown": 20,
+        "books": [
+          null,
+          null,
+          null
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": null,
+        "mana": 3,
+        "cooldown": 21,
+        "books": [
+          null,
+          null,
+          null
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": null,
+        "books": [
+          null,
+          null,
+          null
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
+    },
     "73": {
       "index": 73,
       "class": "warrior",
@@ -8073,6 +8152,126 @@
           5,
           40,
           400
+        ],
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
+        "light": null
+      }
+    },
+    "75": {
+      "index": 75,
+      "class": "wizard",
+      "type": "magical",
+      "position": {
+        "type": "rear",
+        "weight": 500
+      },
+      "mpatk": 305,
+      "mpsec": 60,
+      "auto": {
+        "range": 7000,
+        "rangeType": "Ranged",
+        "time": [
+          [
+            0.4
+          ],
+          [
+            0.9
+          ],
+          [
+            2.4
+          ]
+        ],
+        "duration": 3.7
+      },
+      "s1": {
+        "description": [
+          "???",
+          1,
+          "???"
+        ],
+        "mana": 2,
+        "cooldown": 3,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": [
+          10,
+          "???",
+          "???",
+          "???",
+          "???",
+          5
+        ],
+        "mana": null,
+        "cooldown": 18,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": [
+          "???",
+          "???"
+        ],
+        "mana": 3,
+        "cooldown": 13,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": [
+          "???",
+          "???",
+          "???",
+          5
         ],
         "books": [
           [

@@ -1,0 +1,144 @@
+{
+  "name": "Dakaris",
+  "subtitle": "O Sábio do Lago",
+  "description": "O mais sábio dos homens-lagarto, residentes dos arredores do Lago Eretana que foi conquistado pelo império. Fez parte da fundação da Resistência há 8 anos, com o objetivo de recuperar o lar que foi dominado à força. Deixa os inimigos confusos com a magia tradicional da tribo.",
+  "story": "Na época que o império gradualmente expandia seu território, os residentes nativos que há muito tempo moravam nessas terras resistiram fortemente. No entanto, acabaram cedendo ao forte poderio militar e tecnológico do império. O Lago Eretana, lar de Dakaris, tinha pouco contato com o mundo devido à sua elevada altitude, mas não foi exceção. Apesar do império não ter expulsado os residentes nativos de suas terras, o tratamento dado a eles não foi digno. Ademais, muitos dos administradores e dos nobres que lá se instalaram eram desonestos, tornando a vida das tribos ainda mais difícil. Os nobres que foram designados para administrar a cidade natal de Dakaris era da pior espécie. A opressão foi crescendo até que, um incidente provocou o assassinato de muitos jovens homens-lagarto inocentes, o que motivou Dakaris a juntar os residentes para planejar a libertação de seu povo. Não irei me render, mas sim resguardar o futuro Junto à Resistência, pela honra dos nossos ancestrais e pela liberdade que nos foi tomada. Atualmente, ele é uma das peças centrais da Resistência, liderando com sabedoria e discernimento.",
+  "like": "Pessoas da sua tribo, leitura de livros, variados tipos de peixe e frutos do mar",
+  "dislike": "Opressores de liberdade, criadores de contenda, violência",
+  "inn": {
+    "idle": "Esta é a estalagem dos humanos? Hum... Até que é aconchegante.",
+    "recruit": {
+      "greet": "Bem-vindos, viajantes.",
+      "talk": [
+        "Hum... Como é o sabor da comida aqui? A culinária dos humanos é algo impressionante.",
+        "Cultura diferente, mundo diferente, experiências diferentes. Sempre há um aprendizado novo.",
+        "Dizem que não há muitos homens-lagarto que partem da base de sua tribo para uma jornada."
+      ],
+      "gift": "Hoho. É um presente? Muito obrigado. Na próxima vez, prepararei um peixe como agradecimento."
+    },
+    "affinity": {
+      "greet": "Venha logo, meu amigo. O que houve?",
+      "talk": [
+        "Hahaha. Você não gostaria de entrar na Resistência?",
+        "É elogiável lutar pela liberdade mas, não gosto de violência."
+      ],
+      "gift": "Olhe só... outro presente... Haha. Muitíssimo obrigado."
+    },
+    "relationship": {
+      "greet": "Então você veio. Que tal sentarmos para uma refeição? Hahaha...",
+      "talk": [
+        "Sou chamado de sábio entre os homens-lagarto, mas eu ainda tenho um caminho longo a percorrer. Hahaha.",
+        "Para uma vida em liberdade e, para o futuro dos nossos filhos: vou continuar apoiando a Resistência.",
+        "Os nossos antepassados estão sempre nos observando, abençoando o nosso futuro..."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Armekith, o Lago da Lembrança.",
+    "description": [
+      "Reduz o DANO recebido em 10% e aumenta a RST a efeitos de status em 100. Este efeito dobra a cada 2 seg após o uso da habilidade.",
+      "Reduz o DANO recebido em 12% e aumenta a RST a efeitos de status em 120. Este efeito dobra a cada 2 seg após o uso da habilidade.",
+      "Reduz o DANO recebido em 14% e aumenta a RST a efeitos de status em 140. Este efeito dobra a cada 2 seg após o uso da habilidade.",
+      "Reduz o DANO recebido em 17% e aumenta a RST a efeitos de status em 170. Este efeito dobra a cada 2 seg após o uso da habilidade.",
+      "Reduz o DANO recebido em 21% e aumenta a RST a efeitos de status em 210. Este efeito dobra a cada 2 seg após o uso da habilidade.",
+      "Reduz o DANO recebido em 25% e aumenta a RST a efeitos de status em 250. Este efeito dobra a cada 2 seg após o uso da habilidade."
+    ],
+    "story": "Tesouro da tribo escondido no fundo do Lago Eretana, lar de Dakaris. Nela se acumulam centenas de anos de sabedoria e de magia. É um item mágico que possui uma força comparável a águas rasas, mas que dependendo da determinação do usuário, pode gerar uma força de um tsunami."
+  },
+  "s1": {
+    "name": "Execute o julgamento!!",
+    "description": "Ataca o alvo e os inimigos ao redor causando {0} de DANO M além de atordoar por {1} seg e recuperar o PV de aliados ao redor em {2}. Durante o tempo de duração de [Me dê sua força!!], o tempo de resfriamento não será aplicado até que a habilidade seja usada 3 vezes seguidas.",
+    "books": {
+      "0": "Aumenta o DANO em {0}%.",
+      "1": "Aumenta o DANO em {0}%.",
+      "2": "Aumenta o DANO em {0}%."
+    },
+    "light": "Aumenta a duração do atordoamento em 1 seg.",
+    "dark": "Reduz o custo de PM em 1.",
+    "ut": {
+      "name": "Banquete à Beira do Lago",
+      "description": [
+        "[Execute o julgamento!!] Aumenta o DANO em 50% e recupera o PV em 1% do PV Máx. do aliado curado.",
+        "[Execute o julgamento!!] Aumenta o DANO em 50% e recupera o PV em 1.2% do PV Máx. do aliado curado.",
+        "[Execute o julgamento!!] Aumenta o DANO em 50% e recupera o PV em 1.4% do PV Máx. do aliado curado.",
+        "[Execute o julgamento!!] Aumenta o DANO em 50% e recupera o PV em 1.7% do PV Máx. do aliado curado.",
+        "[Execute o julgamento!!] Aumenta o DANO em 50% e recupera o PV em 2.1% do PV Máx. do aliado curado.",
+        "[Execute o julgamento!!] Aumenta o DANO em 50% e recupera o PV em 2.5% do PV Máx. do aliado curado."
+      ],
+      "story": "É o prato que Dakaris mais gosta e que melhor sabe cozinhar. É um prato festivo tradicional da tribo. Lagostim de água doce, conchas, e acompanhamentos. Normalmente ele come peixe mas... em ocasiões especiais, come este prato."
+    }
+  },
+  "s2": {
+    "name": "Me dê sua força!!",
+    "description": "Recupera {1} de PV e {2} orbes de PM, e aumenta o ATQ em {3} ao longo de {0} seg. Caso o PV esteja cheio, cria um escudo capaz de bloquear DANO recebido em {4} e criar imunidade a efeitos de status por {5} seg. Aplica-se a todos, caso o número de aliados seja igual ou inferior a 3.",
+    "books": {
+      "0": "Aumenta a taxa de aumento de ATQ em {0}%.",
+      "1": "Aumenta a taxa de aumento de ATQ em {0}%.",
+      "2": "Aumenta a taxa de aumento de ATQ em {0}%."
+    },
+    "light": "Ao ativar, aumenta sua própria VEL de ATQ em 500.",
+    "dark": "Aumenta a duração do escudo protetor em 5 seg.",
+    "ut": {
+      "name": "Bracelete da Tradição",
+      "description": [
+        "[Me dê sua força!!] Reduz o tempo de resfriamento em 5 seg e aumenta as taxas de cura de PV e recuperação de PM em 20%.",
+        "[Me dê sua força!!] Reduz o tempo de resfriamento em 5 seg e aumenta as taxas de cura de PV e recuperação de PM em 24%.",
+        "[Me dê sua força!!] Reduz o tempo de resfriamento em 5 seg e aumenta as taxas de cura de PV e recuperação de PM em 29%.",
+        "[Me dê sua força!!] Reduz o tempo de resfriamento em 5 seg e aumenta as taxas de cura de PV e recuperação de PM em 35%.",
+        "[Me dê sua força!!] Reduz o tempo de resfriamento em 5 seg e aumenta as taxas de cura de PV e recuperação de PM em 42%.",
+        "[Me dê sua força!!] Reduz o tempo de resfriamento em 5 seg e aumenta as taxas de cura de PV e recuperação de PM em 50%."
+      ],
+      "story": "Um ornamento que Dakaris recebeu no passado dos seus pais. Este bracelete que é a união de um bracelete de ouro e outro de prata, é um bracelete tradicional de casamento que representa uma relação que não pode ser rompida para todo o sempre. É um objeto que traz a memória de seus pais."
+    }
+  },
+  "s3": {
+    "name": "Acabe com o sofrimento!!",
+    "description": "Ataca um alvo aleatório 5x causando DANO M total de {0} e, caso o alvo seja um herói, causa DANO M adicional de {1}. Caso seu status seja [Me dê sua força!!], atacará primeiro o adversário com maior poder de ATQ.",
+    "books": {
+      "0": "Aumenta o DANO em {0}%.",
+      "1": "Aumenta o DANO em {0}%.",
+      "2": "Aumenta o DANO em {0}%."
+    },
+    "light": "Cria imunidade a efeito de status quando usada.",
+    "dark": "Aumenta o DANO em 40%.",
+    "ut": {
+      "name": "Adaga da Magia",
+      "description": [
+        "[Acabe com o sofrimento!!] Aumenta o DANO em 20% e, caso mate o adversário, a habilidade é usada mais uma vez.",
+        "[Acabe com o sofrimento!!] Aumenta o DANO em 24% e, caso mate o adversário, a habilidade é usada mais uma vez.",
+        "[Acabe com o sofrimento!!] Aumenta o DANO em 29% e, caso mate o adversário, a habilidade é usada mais uma vez.",
+        "[Acabe com o sofrimento!!] Aumenta o DANO em 35% e, caso mate o adversário, a habilidade é usada mais uma vez.",
+        "[Acabe com o sofrimento!!] Aumenta o DANO em 42% e, caso mate o adversário, a habilidade é usada mais uma vez.",
+        "[Acabe com o sofrimento!!] Aumenta o DANO em 50% e, caso mate o adversário, a habilidade é usada mais uma vez."
+      ],
+      "story": "Adaga usada em festivais ou em rituais dos homens-lagarto no Lago Eretana. Era usada apenas como ornamento durante festivais e rituais de passagem. No entanto, foi aprimorada após o império dominar as terras dos homens-lagarto, renascendo como uma arma mágica."
+    }
+  },
+  "s4": {
+    "name": "Veja a força dos antepassados!!",
+    "description": "Caso o PV esteja cheio, aumenta o ATQ em {0} , caso contrário, recupera o PV em {1} a cada seg. Quando recebe um golpe fatal, bloqueia {2} de DANO recebido e cria um escudo de imunidade a efeito de status a cada {3} seg, gastando todo seu PM. Não é capaz de recuperar seu PM enquanto o escudo está ativo.",
+    "books": {
+      "0": "Aumenta a taxa de aumento de ATQ em {0}%.",
+      "1": "Aumenta a taxa de aumento de ATQ em {0}%.",
+      "2": "Aumenta a taxa de aumento de ATQ em {0}%."
+    },
+    "light": "Reforça a quantidade de Cura em 100%.",
+    "dark": "Caso o PV esteja cheio, recupera 300 de PM a cada seg.",
+    "ut": {
+      "name": "Manuscrito do Dragão",
+      "description": [
+        "[Veja a força dos antepassados!!] Aumenta a proteção de escudo em 20% e o escudo se aplica a todos os aliados.",
+        "[Veja a força dos antepassados!!] Aumenta a proteção de escudo em 24% e o escudo se aplica a todos os aliados.",
+        "[Veja a força dos antepassados!!] Aumenta a proteção de escudo em 29% e o escudo se aplica a todos os aliados.",
+        "[Veja a força dos antepassados!!] Aumenta a proteção de escudo em 35% e o escudo se aplica a todos os aliados.",
+        "[Veja a força dos antepassados!!] Aumenta a proteção de escudo em 42% e o escudo se aplica a todos os aliados.",
+        "[Veja a força dos antepassados!!] Aumenta a proteção de escudo em 50% e o escudo se aplica a todos os aliados."
+      ],
+      "story": "Um livro mágico tradicional que foi passado de geração em geração. Equivalente a um livro de história que vem sendo passado às gerações dos sábios. Contém diversas informações como registros de batalha, caminho percorrido pelos heróis e o dia-a-dia das tribos. Possui uma força misteriosa capaz de reproduzir brevemente as informações de forma mágica."
+    }
+  },
+  "t5": {
+    "light": "ATQ, DEF, PV +15% / CHANCE CRÍT +100",
+    "dark": "Você recebe o [Conselho dos Antepassados] durante os primeiros 5 seg do início da primeira batalha. Caso passados os 5 seg, ainda tenha o [Conselho dos Antepassados], recebe a [Experiência dos Antepassados], removendo os efeitos negativos e aumentando a DEF de 3 aliados aleatórios em 40%. Não é possível remover a [Experiência dos Antepassados]."
+  }
+}
