@@ -47,13 +47,13 @@
   },
   "s1": {
     "name": "Execute o julgamento!!",
-    "description": "Ataca o alvo e os inimigos ao redor causando {0} de DANO M além de atordoar por {1} seg e recuperar o PV de aliados ao redor em {2}. Durante o tempo de duração de [Me dê sua força!!], o tempo de resfriamento não será aplicado até que a habilidade seja usada 3 vezes seguidas.",
+    "description": "Ataca o alvo e os inimigos ao redor causando {0} de DANO M além de atordoar por {1} seg e recuperar o PV de aliados ao redor em {2}. Ao ativar [Me dê sua força!!], o tempo de resfriamento desta habilidade será reiniciado e o tempo de resfriamento não será aplicado até que a habilidade seja usada por 3 vezes.",
     "books": {
       "0": "Aumenta o DANO em {0}%.",
       "1": "Aumenta o DANO em {0}%.",
       "2": "Aumenta o DANO em {0}%."
     },
-    "light": "Aumenta a duração do atordoamento em 1 seg.",
+    "light": "Aumenta a duração do atordoamento em 1s.",
     "dark": "Reduz o custo de PM em 1.",
     "ut": {
       "name": "Banquete à Beira do Lago",
@@ -70,23 +70,23 @@
   },
   "s2": {
     "name": "Me dê sua força!!",
-    "description": "Recupera {1} de PV e {2} orbes de PM, e aumenta o ATQ em {3} ao longo de {0} seg. Caso o PV esteja cheio, cria um escudo capaz de bloquear DANO recebido em {4} e criar imunidade a efeitos de status por {5} seg. Aplica-se a todos, caso o número de aliados seja igual ou inferior a 3.",
+    "description": "Recupera {1} de PV e {2} orbes de PM, e aumenta o ATQ em {3} ao longo de {0} s. Caso o PV esteja cheio, cria um escudo capaz de bloquear DANO recebido em {4} e criar imunidade a efeitos de status por {5} s. Aplica-se a todos, caso o número de aliados seja igual ou inferior a 3.",
     "books": {
       "0": "Aumenta a taxa de aumento de ATQ em {0}%.",
       "1": "Aumenta a taxa de aumento de ATQ em {0}%.",
       "2": "Aumenta a taxa de aumento de ATQ em {0}%."
     },
     "light": "Ao ativar, aumenta sua própria VEL de ATQ em 500.",
-    "dark": "Aumenta a duração do escudo protetor em 5 seg.",
+    "dark": "Aumenta a duração do escudo protetor em 5s.",
     "ut": {
       "name": "Bracelete da Tradição",
       "description": [
-        "[Me dê sua força!!] Reduz o tempo de resfriamento em 5 seg e aumenta as taxas de cura de PV e recuperação de PM em 20%.",
-        "[Me dê sua força!!] Reduz o tempo de resfriamento em 5 seg e aumenta as taxas de cura de PV e recuperação de PM em 24%.",
-        "[Me dê sua força!!] Reduz o tempo de resfriamento em 5 seg e aumenta as taxas de cura de PV e recuperação de PM em 29%.",
-        "[Me dê sua força!!] Reduz o tempo de resfriamento em 5 seg e aumenta as taxas de cura de PV e recuperação de PM em 35%.",
-        "[Me dê sua força!!] Reduz o tempo de resfriamento em 5 seg e aumenta as taxas de cura de PV e recuperação de PM em 42%.",
-        "[Me dê sua força!!] Reduz o tempo de resfriamento em 5 seg e aumenta as taxas de cura de PV e recuperação de PM em 50%."
+        "[Me dê sua força!!] Reduz o tempo de resfriamento em 5s e aumenta as taxas de cura de PV e recuperação de PM em 20%.",
+        "[Me dê sua força!!] Reduz o tempo de resfriamento em 5s e aumenta as taxas de cura de PV e recuperação de PM em 24%.",
+        "[Me dê sua força!!] Reduz o tempo de resfriamento em 5s e aumenta as taxas de cura de PV e recuperação de PM em 29%.",
+        "[Me dê sua força!!] Reduz o tempo de resfriamento em 5s e aumenta as taxas de cura de PV e recuperação de PM em 35%.",
+        "[Me dê sua força!!] Reduz o tempo de resfriamento em 5s e aumenta as taxas de cura de PV e recuperação de PM em 42%.",
+        "[Me dê sua força!!] Reduz o tempo de resfriamento em 5s e aumenta as taxas de cura de PV e recuperação de PM em 50%."
       ],
       "story": "Um ornamento que Dakaris recebeu no passado dos seus pais. Este bracelete que é a união de um bracelete de ouro e outro de prata, é um bracelete tradicional de casamento que representa uma relação que não pode ser rompida para todo o sempre. É um objeto que traz a memória de seus pais."
     }
@@ -116,7 +116,7 @@
   },
   "s4": {
     "name": "Veja a força dos antepassados!!",
-    "description": "Caso o PV esteja cheio, aumenta o ATQ em {0} , caso contrário, recupera o PV em {1} a cada seg. Quando recebe um golpe fatal, bloqueia {2} de DANO recebido e cria um escudo de imunidade a efeito de status a cada {3} seg, gastando todo seu PM. Não é capaz de recuperar seu PM enquanto o escudo está ativo.",
+    "description": "Caso o PV esteja cheio, aumenta o ATQ em {0} , caso contrário, recupera o PV em {1} a cada seg. Quando recebe um golpe fatal, bloqueia {2} de DANO recebido e cria um escudo de imunidade a efeito de status a cada {3} s, gastando todo seu PM. Não é capaz de recuperar seu PM enquanto o escudo está ativo.",
     "books": {
       "0": "Aumenta a taxa de aumento de ATQ em {0}%.",
       "1": "Aumenta a taxa de aumento de ATQ em {0}%.",
@@ -139,6 +139,6 @@
   },
   "t5": {
     "light": "ATQ, DEF, PV +15% / CHANCE CRÍT +100",
-    "dark": "Você recebe o [Conselho dos Antepassados] durante os primeiros 5 seg do início da primeira batalha. Caso passados os 5 seg, ainda tenha o [Conselho dos Antepassados], recebe a [Experiência dos Antepassados], removendo os efeitos negativos e aumentando a DEF de 3 aliados aleatórios em 40%. Não é possível remover a [Experiência dos Antepassados]."
+    "dark": "Durante os primeiros 5 seg do início da primeira batalha, você recebe o [Conselho dos Antepassados], aumentando a sua RST a efeitos de status em 200. Caso passados os 5 seg, ainda tenha o [Conselho dos Antepassados], serão removidos efeitos negativos de 3 aliados aleatórios e a DEF desses aliados será aumentada em 50% por 10 seg. Não é possível remover o efeito de aumento da DEF."
   }
 }

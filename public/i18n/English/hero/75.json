@@ -70,7 +70,7 @@
   },
   "s2": {
     "name": "Grant Me Strength!",
-    "description": "Over {0} sec, heals own HP by {1} and recovers {2} orbs of Mana, increasing ATK by {3} for the duration. If own HP is full when the Skill is used, blocks {4} DMG and casts a shield that grants CC Immunity, lasting for {5} sec. If there are 3 or less allies, this effect will apply to all allies.",
+    "description": "Over {0} sec, heals own HP by {1} and recovers {2} orbs of Mana, increasing ATK by {3} for the duration. If own HP is full upon activation, casts a shield that blocks {4} DMG and grants CC Immunity for {5} sec. If there are 3 or less allies, this effect will apply to all allies.",
     "books": {
       "0": "Increases ATK Boost by {0}%.",
       "1": "Increases ATK Boost by {0}%.",
@@ -116,7 +116,7 @@
   },
   "s4": {
     "name": "Might of the Ancestors!",
-    "description": "If own HP is full, increases ATK by {0}. If not, heals own HP by {1} every sec. Upon taking a fatal damage, consumes entire Mana to block {2} damage and cast a shield that grants CC Immunity, lasting for {3} sec. While the shield is active, Dakaris cannot recover Mana.",
+    "description": "If own HP is full, increases ATK by {0}. If not, heals own HP by {1} every sec. Upon taking a fatal damage, consumes entire Mana to cast a shield that blocks {2} DMG and grants CC Immunity for {3} sec. While the shield is active, Dakaris cannot recover Mana.",
     "books": {
       "0": "Increases ATK boost by {0}%.",
       "1": "Increases ATK boost by {0}%.",
