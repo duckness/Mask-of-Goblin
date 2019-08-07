@@ -47,14 +47,14 @@
   },
   "s1": {
     "name": "Julgamento do Deserto",
-    "description": "Causa {0} de DAN F. em inimigos dentro de um amplo alcance, e para cada inimigo atingido, reduz o tempo de recarga de habilidades em 1 seg. Causa {1} de DAN F. em inimigos infligidos por [Marca do Deserto] e remove 1 acúmulo de [Marca do Deserto]. Aumenta o DAN Crít em 5% após cada uso da habilidade. Esse efeito pode acumular até 12 e não pode ser removido.",
+    "description": "Inflige DANO F de {0} a uma área grande de inimigos e reduz o tempo de resfriamento em 1s para cada inimigo atingido. Inflige DANO F de {1} em inimigos com [Marca do Deserto] e remove 1 [Marca do Deserto]. Aumenta o DANO CRÍT em 5% cada vez que esta habilidade é usada, e este efeito pode ser acumulado até 18 vezes e não pode ser removido.",
     "books": {
       "0": "DAN aumenta em {0}%.",
       "1": "DAN aumenta em {0}%.",
       "2": "DAN aumenta em {0}%."
     },
     "light": "O impulso de DAN Crít por cada uso muda para 10%.",
-    "dark": "O inimigo atingido fica sob efeito de Cegueira por 1 seg.",
+    "dark": "Atordoa o inimigo atingido por 1s.",
     "ut": {
       "name": "Flecha Tempestade de Areia",
       "description": [
@@ -76,17 +76,17 @@
       "1": "DAN e Escudo aumentados em {0}%.",
       "2": "DAN e Escudo aumentados em {0}%."
     },
-    "light": "Reduz o tempo de recarga de habilidades em 5 seg.",
-    "dark": "Inimigos atingidos por ‘Tempestade de Areia’ são empurrados para longe e derrubados por 3 seg.",
+    "light": "Quando houver menos de 3 aliados, cria um escudo protetor em todos os aliados. Tempestade de areia não é formada nessa hora.",
+    "dark": "Cria um escudo que dura 5s no início de cada batalha. Tempestade de areia não é formada nessa hora.",
     "ut": {
       "name": "Areia da Miragem",
       "description": [
-        "[Bênção do Espírito da Areia] O Escudo absorve 20% mais DAN e remove CM de si.",
-        "[Bênção do Espírito da Areia] O Escudo absorve 24% mais DAN e remove CM de si.",
-        "[Bênção do Espírito da Areia] O Escudo absorve 29% mais DAN e remove CM de si.",
-        "[Bênção do Espírito da Areia] O Escudo absorve 35% mais DAN e remove CM de si.",
-        "[Bênção do Espírito da Areia] O Escudo absorve 42% mais DAN e remove CM de si.",
-        "[Bênção do Espírito da Areia] O Escudo absorve 50% mais DAN e remove CM de si."
+        "[Bênção do Espírito da Areia] Remove efeitos negativos de si e recupera 80 de PM a cada segundo enquanto durar o escudo protetor.",
+        "[Bênção do Espírito da Areia] Remove efeitos negativos de si e recupera 100 de PM a cada segundo enquanto durar o escudo protetor.",
+        "[Bênção do Espírito da Areia] Remove efeitos negativos de si e recupera 120 de PM a cada segundo enquanto durar o escudo protetor.",
+        "[Bênção do Espírito da Areia] Remove efeitos negativos de si e recupera 140 de PM a cada segundo enquanto durar o escudo protetor.",
+        "[Bênção do Espírito da Areia] Remove efeitos negativos de si e recupera 170 de PM a cada segundo enquanto durar o escudo protetor.",
+        "[Bênção do Espírito da Areia] Remove efeitos negativos de si e recupera 200 de PM a cada segundo enquanto durar o escudo protetor."
       ],
       "story": "Uma ampulheta que estava soterrada há muito tempo por uma enorme tempestade de areia que atingiu o Deserto Aegina. Quando a areia da ampulheta se move, ela invoca uma miragem de uma cidade antiga voltando à vida. No passado, sumo sacerdote do antigo reino a usava para demonstrar a glória do reino para o seu povo. Ao ver a sua cidade brilhando em tons de ouro, as pessoas ficavam orgulhosas do seu reino."
     }
@@ -139,6 +139,6 @@
   },
   "t5": {
     "light": "ATQ, DEF, PV+15% / Chance Crít. +100",
-    "dark": "Recupera 500 de Mana ao usar uma habilidade. Se houver mais de 5 inimigos, dobra a taxa de recuperação de Mana e aumenta a Vel de ATQ em 500 por 5 seg. Esse efeito não acumula."
+    "dark": "Ao usar a habilidade, recupera 700 PM. Se houver 5 ou mais inimigos, recupera o dobro do PM e aumenta a VEL de ATQ em 500 por 5s. Este efeito não pode ser acumulado."
   }
 }

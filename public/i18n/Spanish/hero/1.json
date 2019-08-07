@@ -74,7 +74,7 @@
     "books": {
       "0": "Aumento el Daño en {0}%.",
       "1": "Aumento el Daño en {0}%.",
-      "2": "la Oportunidad Crit. Aumenta en {0}."
+      "2": "Incrementa el daño un {0}%."
     },
     "light": "El costo de Mana se reduce en 1",
     "dark": "El objetivo recibe 25% de aumento de Daño Fis durante 10 seg.",
@@ -100,7 +100,7 @@
       "2": "la velocidad Aumenta en {0} de duracion"
     },
     "light": "El costo de Mana se reduce en 1",
-    "dark": "Aumenta el Costo de Mana en 2 y el Daño en un 100 % a los enemigos que no son héroes mientras la habilidad está activa.",
+    "dark": "Incrementa el consumo de mana en 1, y durante el tiempo de activación incrementa el daño causado a enemigos que no son héroes un 100%.",
     "ut": {
       "name": "Runa de apoderado",
       "description": [
@@ -116,29 +116,29 @@
   },
   "s4": {
     "name": "Golpe de Diosa",
-    "description": "Al esquivar,causa {0} Daño Mágico a los enemigos frontales y reduce su precisión en {1} durante 5 segundos. Después de eliminar el objetivo, obtén 300 de maná.",
+    "description": "Incrementa todas tus defensas en {0} y tu evasión en {1}. Si tu evasión es efectiva el daño de tus ataques comunes incrementará un {3}% durante {2} segundos.",
     "books": {
-      "0": "Aumento el Daño en {0}%.",
-      "1": "Aumento el Daño en {0}%.",
-      "2": "la Oportunidad Crit. Aumenta en {0}."
+      "0": "Incrementa el aumento de defensa un {0}%.",
+      "1": "Incrementa el aumento de defensa un {0}%.",
+      "2": "Incrementa el aumento de defensa un {0}%."
     },
-    "light": "La tasa de reducción de Precisión ha cambiado a 250",
-    "dark": "El lanzamiento se refuerza y ​​el Tiempo de reutilización se reduce en 1 segundo.",
+    "light": "Modifica el aumento de daño de ataques comunes a 100%.",
+    "dark": "Reduce el daño recibido por los héroes un 15%.",
     "ut": {
       "name": "Lágrima de Lua",
       "description": [
-        "[Golpe de la diosa] Aumenta el Daño en un 50 % y disminuye la Velocidad de ataque del objetivo en 100 durante 10 segundos.",
-        "[Golpe de la diosa] Aumenta el Daño en un 50 % y disminuye la Velocidad de ataque del objetivo en 120 durante 10 segundos.",
-        "[Golpe de la diosa] Aumenta el Daño en un 50 % y disminuye la Velocidad de ataque del objetivo en 140 durante 10 segundos.",
-        "[Golpe de la diosa] Aumenta el Daño en un 50 % y disminuye la Velocidad de ataque del objetivo en 170 durante 10 segundos.",
-        "[Golpe de la diosa] Aumenta el Daño en un 50 % y disminuye la Velocidad de ataque del objetivo en 210 durante 10 segundos.",
-        "[Golpe de la diosa] Aumenta el Daño en un 50 % y disminuye la Velocidad de ataque del objetivo en 250 durante 10 segundos."
+        "[Golpe de la Diosa] Incrementa el aumento de la defensa un {0}% e incrementa el daño causado a jefes un {1}%.",
+        "[Golpe de la Diosa] Incrementa el aumento de la defensa un {0}% e incrementa el daño causado a jefes un {1}%.",
+        "[Golpe de la Diosa] Incrementa el aumento de la defensa un {0}% e incrementa el daño causado a jefes un {1}%.",
+        "[Golpe de la Diosa] Incrementa el aumento de la defensa un {0}% e incrementa el daño causado a jefes un {1}%.",
+        "[Golpe de la Diosa] Incrementa el aumento de la defensa un {0}% e incrementa el daño causado a jefes un {1}%.",
+        "[Golpe de la Diosa] Incrementa el aumento de la defensa un {0}% e incrementa el daño causado a jefes un {1}%."
       ],
       "story": "Una joya de color azur que adorna la espada sagrada, Aea. Es una condensación intensa de espíritu, unida por las lágrimas de Lua, y tiene el poder misterioso de guiar al Guardián de la espada sagrada por el camino de la luz."
     }
   },
   "t5": {
     "light": "ATQ, DEF, Salud+15% / Evasion Fis +100",
-    "dark": "Al atacar, hazlo en un tiempo extra causando el 40% de ATQ como Daño."
+    "dark": "Tu ataque causará un 80% de daño adicional."
   }
 }

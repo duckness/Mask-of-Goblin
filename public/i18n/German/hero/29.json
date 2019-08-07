@@ -54,7 +54,7 @@
       "2": "Erhöht Schaden um {0}%."
     },
     "light": "Erhöht Schaden um 100%, wenn nur 1 Feind auf dem Schlachtfeld ist.",
-    "dark": "Betäubt getroffene Feinde für 1 Sek.",
+    "dark": "Betäubt 2 Sek. lang geschädigte Feinde.",
     "ut": {
       "name": "Goldene Glocke des Glücks",
       "description": [
@@ -104,41 +104,41 @@
     "ut": {
       "name": "Niemals schmelzende Schneeblume",
       "description": [
-        "[Funkel Funkel] Erhöht Schaden um 20% und Ziele, deren Krit. Chance reduziert ist, können diesen Effekt nicht aufheben.",
-        "[Funkel Funkel] Erhöht Schaden um 24% und Ziele, deren Krit. Chance reduziert ist, können diesen Effekt nicht aufheben.",
-        "[Funkel Funkel] Erhöht Schaden um 29% und Ziele, deren Krit. Chance reduziert ist, können diesen Effekt nicht aufheben.",
-        "[Funkel Funkel] Erhöht Schaden um 35% und Ziele, deren Krit. Chance reduziert ist, können diesen Effekt nicht aufheben.",
-        "[Funkel Funkel] Erhöht Schaden um 42% und Ziele, deren Krit. Chance reduziert ist, können diesen Effekt nicht aufheben.",
-        "[Funkel Funkel] Erhöht Schaden um 50% und Ziele, deren Krit. Chance reduziert ist, können diesen Effekt nicht aufheben."
+        "[Funkel Funkel] Krit. Chance-Verringerungseffekt kann nicht entfernt werden und die Skill-Dauer wird um 2 Sek. erhöht.",
+        "[Funkel Funkel] Krit. Chance-Verringerungseffekt kann nicht entfernt werden und die Skill-Dauer wird um 2,4 Sek. erhöht.",
+        "[Funkel Funkel] Krit. Chance-Verringerungseffekt kann nicht entfernt werden und die Skill-Dauer wird um 2,9 Sek. erhöht.",
+        "[Funkel Funkel] Krit. Chance-Verringerungseffekt kann nicht entfernt werden und die Skill-Dauer wird um 3,5 Sek. erhöht.",
+        "[Funkel Funkel] Krit. Chance-Verringerungseffekt kann nicht entfernt werden und die Skill-Dauer wird um 4,2 Sek. erhöht.",
+        "[Funkel Funkel] Krit. Chance-Verringerungseffekt kann nicht entfernt werden und die Skill-Dauer wird um 5 Sek. erhöht."
       ],
       "story": "Eine legendäre Blume der Schneefelder, die im niemals schmelzenden Land des Windland-Schneegebirges blüht. Es heißt, dass sie die Energie im Körper ihres Meisters klar und schön fließen lässt. Ein Gegenstand, der Lunas reine Energie noch heller scheinen lässt."
     }
   },
   "s4": {
     "name": "Hab dich!",
-    "description": "Fügt alle {0} Sek dem am weitesten entfernten Feind {2} M.Schaden für {1} Sek zu. Je weiter der Feind entfernt ist, desto höher der verusachte Schaden.",
+    "description": "Wenn du von einem Statuseffekt betroffen wirst, werden alle eigenen negativen Effekte deaktiviert und der am weitesten stehende Feind angegriffen. Dabei wird dem Feind {0} Mag. Schaden zugefügt und er/sie wird {1} Sek. lang weit zurückgeworfen.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
       "2": "Erhöht Schaden um {0}%."
     },
-    "light": "20% Chance, den Feind weit zurückzustoßen und für 2 Sek zu Boden zu werfen.",
+    "light": "Entfernt positive Effekte des Feindes.",
     "dark": "Ändert Anzahl der Ziele zu 2.",
     "ut": {
       "name": "Karottenkuchen",
       "description": [
-        "[Hab dich!] Erhöht den Schaden um 50 %. Getroffene Feinde erleiden für 10 Sek. um 10 % erhöhten M.Schaden.",
-        "[Hab dich!] Erhöht den Schaden um 50 %. Getroffene Feinde erleiden für 10 Sek. um 12 % erhöhten M.Schaden.",
-        "[Hab dich!] Erhöht den Schaden um 50 %. Getroffene Feinde erleiden für 10 Sek. um 14 % erhöhten M.Schaden.",
-        "[Hab dich!] Erhöht den Schaden um 50 %. Getroffene Feinde erleiden für 10 Sek. um 17 % erhöhten M.Schaden.",
-        "[Hab dich!] Erhöht den Schaden um 50 %. Getroffene Feinde erleiden für 10 Sek. um 21 % erhöhten M.Schaden.",
-        "[Hab dich!] Erhöht den Schaden um 50 %. Getroffene Feinde erleiden für 10 Sek. um 25 % erhöhten M.Schaden."
+        "[Hab dich!] Skill erhöht deutlich die Zurückwerfen-Entfernung und reduziert das Cooldown um 2 Sek.",
+        "[Hab dich!] Skill erhöht deutlich die Zurückwerfen-Entfernung und reduziert das Cooldown um 2,4 Sek.",
+        "[Hab dich!] Skill erhöht deutlich die Zurückwerfen-Entfernung und reduziert das Cooldown um 2,9 Sek.",
+        "[Hab dich!] Skill erhöht deutlich die Zurückwerfen-Entfernung und reduziert das Cooldown um 3,5 Sek.",
+        "[Hab dich!] Skill erhöht deutlich die Zurückwerfen-Entfernung und reduziert das Cooldown um 4,2 Sek.",
+        "[Hab dich!] Skill erhöht deutlich die Zurückwerfen-Entfernung und reduziert das Cooldown um 5 Sek."
       ],
       "story": "Junos spezieller Karottenkuchen. Dieser spezielle Karottenkuchen wurde für Luna gebacken, die ihre Familie in ihrer Heimat und die Karotten, die sie immer gegessen hat, vermisst. Da der Kuchen gleich schmeckt wie die Karotten, die Luna immer zu Hause gegessen hat, ist er zu ihrer neuen Seelennahrung geworden."
     }
   },
   "t5": {
     "light": "ANG, VERT, TP+15% / Krit. Schaden +20%",
-    "dark": "10% Chance, mit normalen Angriffen den Feind weit zurückzustoßen und ihn für 3 Sek zu betäuben. Erhöht ANG-Geschw. um 500 für 3 Sek."
+    "dark": "Aktiviert mit jedem Kampfbeginn für 20 Sek. den Karottensegen, erhöht den verursachten Schaden gegenüber Feinde, die keine Helden sind um {0}% und verringert den von Feinden, die keine Helden sind, verursachten Schaden um {1}%."
   }
 }

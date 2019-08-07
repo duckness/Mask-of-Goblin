@@ -47,14 +47,14 @@
   },
   "s1": {
     "name": "Jugement du désert",
-    "description": "Inflige {0}  points de DEG P aux ennemis dans une large zone. À chaque ennemi touché, le temps de recharge de la compétence est réduit de 1 sec. Inflige {1}  points de DEG P aux ennemis touchés par [Marque du désert] et supprime 1 [Marque du désert]. À chaque utilisation de compétence, les DEG Crit augmentent de 5 %. Cet effet est cumulable 12 fois au maximum et ne peut être dissipé.",
+    "description": "Inflige {0}  points de DEG P aux ennemis dans une large zone. À chaque ennemi touché, le temps de recharge de la compétence est réduit de 1 sec. Inflige {1}  points de DEG P aux ennemis touchés par [Marque du désert] et supprime 1 [Marque du désert]. À chaque utilisation de compétence, les DEG Crit augmentent de 5%. Cet effet est cumulable 18 fois au maximum et ne peut être dissipé.",
     "books": {
       "0": "DEG augmentés de {0}%.",
       "1": "DEG augmentés de {0}%.",
       "2": "DEG augmentés de {0}%."
     },
     "light": "Le boost de DEG Crit par utilisation passe à 10 %.",
-    "dark": "L'ennemi touché est victime d'Aveuglement pendant 1 sec.",
+    "dark": "Étourdit l'ennemi touché pendant 1 sec.",
     "ut": {
       "name": "Flèche tempête de sable",
       "description": [
@@ -76,17 +76,17 @@
       "1": "DEG et Bouclier sont augmentés de {0}%.",
       "2": "DEG et Bouclier sont augmentés de {0}%."
     },
-    "light": "Le temps de recharge est réduit de 5 sec.",
-    "dark": "Les ennemis touchés par Tempête de sable sont repoussés très loin et renversés pendant 3 sec.",
+    "light": "Lorsque le nombre des alliés sont moins de 3, applique un Bouclier Protecteur sur toute l'équipe. En ce cas, la tempête de sable n'est pas enclenchée.",
+    "dark": "Au début de chaque bataille, applique un Bouclier Protecteur sur soi pendant 5 sec. En ce cas, la tempête de sable n'est pas enclenchée.",
     "ut": {
       "name": "Sable des mirages",
       "description": [
-        "[Bénédiction de l'esprit des sables] Le bouclier absorbe 20 % de DEG supplémentaires et dissipe le contrôle qui pèse sur le lanceur.",
-        "[Bénédiction de l'esprit des sables] Le bouclier absorbe 24 % de DEG supplémentaires et dissipe le contrôle qui pèse sur le lanceur.",
-        "[Bénédiction de l'esprit des sables] Le bouclier absorbe 29 % de DEG supplémentaires et dissipe le contrôle qui pèse sur le lanceur.",
-        "[Bénédiction de l'esprit des sables] Le bouclier absorbe 35 % de DEG supplémentaires et dissipe le contrôle qui pèse sur le lanceur.",
-        "[Bénédiction de l'esprit des sables] Le bouclier absorbe 42 % de DEG supplémentaires et dissipe le contrôle qui pèse sur le lanceur.",
-        "[Bénédiction de l'esprit des sables] Le bouclier absorbe 50 % de DEG supplémentaires et dissipe le contrôle qui pèse sur le lanceur."
+        "[Bénédiction de l'élémentaire des sables] Dissipe les effets néfastes qui pèsent sur soi et récupère 80 Mana par sec pendant la durée de la compétence.",
+        "[Bénédiction de l'élémentaire des sables] Dissipe les effets néfastes qui pèsent sur soi et récupère 100 Mana par sec pendant la durée de la compétence.",
+        "[Bénédiction de l'élémentaire des sables] Dissipe les effets néfastes qui pèsent sur soi et récupère 120 Mana par sec pendant la durée de la compétence.",
+        "[Bénédiction de l'élémentaire des sables] Dissipe les effets néfastes qui pèsent sur soi et récupère 140 Mana par sec pendant la durée de la compétence.",
+        "[Bénédiction de l'élémentaire des sables] Dissipe les effets néfastes qui pèsent sur soi et récupère 170 Mana par sec pendant la durée de la compétence.",
+        "[Bénédiction de l'élémentaire des sables] Dissipe les effets néfastes qui pèsent sur soi et récupère 200 Mana par sec pendant la durée de la compétence."
       ],
       "story": "Ce sablier resta enfoui pendant des lustres à la suite d'une colossale tempête de sable qui s'abattit sur le désert Aegina. Lorsque le sable s'en écoule, il reflète le mirage de la renaissance d'une civilisation antique. Le grand prêtre de ce royaume oublié s'en servait pour souligner la gloire du royaume devant ses fidèles. La vision de leur cité, brillante et parée d'or, les emplissait toujours d'une grande fierté."
     }
@@ -139,6 +139,6 @@
   },
   "t5": {
     "light": "ATQ, DEF, PV +15% / Chances Crit +100",
-    "dark": "Restaure 500 points de mana lors de l'utilisation d'une compétence. Si plus de 5 ennemis sont présents, le taux de récupération du mana est doublé et la Vit ATQ augmente de 500 points pendant 5 sec. Cet effet ne peut pas être cumulé."
+    "dark": "Restaure 700 points de mana lors de l'utilisation d'une compétence. Si plus de 5 ennemis sont présents, le taux de récupération du mana est doublé et la Vit ATQ augmente de 500 points pendant 5 sec. Cet effet ne peut pas être cumulé."
   }
 }

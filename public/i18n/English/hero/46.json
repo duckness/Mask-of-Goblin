@@ -47,14 +47,14 @@
   },
   "s1": {
     "name": "Judgment of the Desert",
-    "description": "Deals {0} P.DMG enemies in a wide range, and per each hit enemy, skill cooldown is decreased by 1 sec. Deals {1} P.DMG to enemies inflicted by [Mark of Desert] and removes 1 stack of [Mark of Desert]. Upon each skill use, Crit DMG is increased by 5%. This effect can be stacked up to max 12 times and cannot be dispelled.",
+    "description": "Deals {0} P.DMG to enemies in a wide range, and per each enemies hit, reduces Cooldown by 1 sec. Deals {1} P.DMG to enemies inflicted by [Mark of Desert] and removes 1 stack of [Mark of Desert]. Upon each Skill use, Crit DMG is increased by 5%. This effect can be stacked up to max 18 times and is irremovable.",
     "books": {
       "0": "DMG is increased by {0}%.",
       "1": "DMG is increased by {0}%.",
       "2": "DMG is increased by {0}%."
     },
     "light": "Crit DMG boost per use changes to 10%.",
-    "dark": "Hit enemy is inflicted by Blind for 1 sec.",
+    "dark": "Stuns the hit enemy for 1 sec.",
     "ut": {
       "name": "Sandstorm Arrow",
       "description": [
@@ -76,17 +76,17 @@
       "1": "DMG and Shield are increased by {0}%.",
       "2": "DMG and Shield are increased by {0}%."
     },
-    "light": "Skill cooldown is decreased by 5 sec.",
-    "dark": "Enemies hit by 'Sand Storm' are knocked back far away and are knocked down for 3 sec.",
+    "light": "If there are 3 or less allies, applies shield to all allies. Sand Storm does not activate during this time.",
+    "dark": "At the beginning of each battle, casts shield on self for 5 sec. Sand Storm does not activate during this time.",
     "ut": {
       "name": "Sand of Mirage",
       "description": [
-        "[Blessing of the Sand Spirit] Shield absorbs 20% more DMG and dispels CC inflicted on self.",
-        "[Blessing of the Sand Spirit] Shield absorbs 24% more DMG and dispels CC inflicted on self.",
-        "[Blessing of the Sand Spirit] Shield absorbs 29% more DMG and dispels CC inflicted on self.",
-        "[Blessing of the Sand Spirit] Shield absorbs 35% more DMG and dispels CC inflicted on self.",
-        "[Blessing of the Sand Spirit] Shield absorbs 42% more DMG and dispels CC inflicted on self.",
-        "[Blessing of the Sand Spirit] Shield absorbs 50% more DMG and dispels CC inflicted on self."
+        "[Blessing of the Sand Spirit] Dispels negative effects from self, and recovers 80 Mana every sec while the shield is active.",
+        "[Blessing of the Sand Spirit] Dispels negative effects from self, and recovers 100 Mana every sec while the shield is active.",
+        "[Blessing of the Sand Spirit] Dispels negative effects from self, and recovers 120 Mana every sec while the shield is active.",
+        "[Blessing of the Sand Spirit] Dispels negative effects from self, and recovers 140 Mana every sec while the shield is active.",
+        "[Blessing of the Sand Spirit] Dispels negative effects from self, and recovers 170 Mana every sec while the shield is active.",
+        "[Blessing of the Sand Spirit] Dispels negative effects from self, and recovers 200 Mana every sec while the shield is active."
       ],
       "story": "An hourglass that was buried underground for a long time by an enormous sandstorm that struck Aegina Desert. When the sand in the hourglass moves, it calls for the mirage of an ancient city coming back to life. The high priest of the ancient kingdom used this to show the glory of the kingdom to its people in the past. Seeing their city shining in gold, people grew proud of their kingdom."
     }
@@ -139,6 +139,6 @@
   },
   "t5": {
     "light": "ATK, DEF, HP+15% / Crit Chance +100",
-    "dark": "Recovers 500 mana upon using a skill. If there are over 5 enemies, mana recovery rate is doubled and ATK Spd is increased by 500 for 5 sec. This effect cannot be stacked."
+    "dark": "Upon Skill use, recovers 700 Mana. If there are 5 or more enemies, Mana Recovery is doubled, and ATK Spd is increased by 500 for 5 sec. This effect does not stack."
   }
 }

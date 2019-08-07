@@ -76,24 +76,24 @@
       "1": "Le Taux d'augmentation de l'ATQ est augmenté de {0}%.",
       "2": "Le Taux d'augmentation de l'ATQ est augmenté de {0}%."
     },
-    "light": "Reçoit 20% de DEG supplémentaires de toutes les sources en échange d'un bonus de 100% à l'ATQ.",
-    "dark": "Les chances de Bang! Bang! sont augmentées de 10%.",
+    "light": "Les PV ne peuvent pas tomber en dessous de 5% pendant 3 sec après l'utilisation de la compétence.",
+    "dark": "Augmente les DEG Crit de 50% pendant la durée de la compétence.",
     "ut": {
       "name": "Boîte de déluge du loup",
       "description": [
-        "[C'est le moment de mourir] Augmente les DEG Crit de 20 % pendant la durée de la compétence. Les PV ne peuvent pas tomber en dessous de 10 % pendant 3 sec.",
-        "[C'est le moment de mourir] Augmente les DEG Crit de 24 % pendant la durée de la compétence. Les PV ne peuvent pas tomber en dessous de 10 % pendant 3 sec.",
-        "[C'est le moment de mourir] Augmente les DEG Crit de 29 % pendant la durée de la compétence. Les PV ne peuvent pas tomber en dessous de 10 % pendant 3 sec.",
-        "[C'est le moment de mourir] Augmente les DEG Crit de 35 % pendant la durée de la compétence. Les PV ne peuvent pas tomber en dessous de 10 % pendant 3 sec.",
-        "[C'est le moment de mourir] Augmente les DEG Crit de 42 % pendant la durée de la compétence. Les PV ne peuvent pas tomber en dessous de 10 % pendant 3 sec.",
-        "[C'est le moment de mourir] Augmente les DEG Crit de 50 % pendant la durée de la compétence. Les PV ne peuvent pas tomber en dessous de 10 % pendant 3 sec."
+        "[C'est le moment de mourir] Réduit le coût en mana de 1 orbe et augmente les DEG infligés au Boss de 20% pendant la durée de la compétence.",
+        "[C'est le moment de mourir] Réduit le coût en mana de 1 orbe et augmente les DEG infligés au Boss de 24% pendant la durée de la compétence.",
+        "[C'est le moment de mourir] Réduit le coût en mana de 1 orbe et augmente les DEG infligés au Boss de 29% pendant la durée de la compétence.",
+        "[C'est le moment de mourir] Réduit le coût en mana de 1 orbe et augmente les DEG infligés au Boss de 35% pendant la durée de la compétence.",
+        "[C'est le moment de mourir] Réduit le coût en mana de 1 orbe et augmente les DEG infligés au Boss de 42% pendant la durée de la compétence.",
+        "[C'est le moment de mourir] Réduit le coût en mana de 1 orbe et augmente les DEG infligés au Boss de 50% pendant la durée de la compétence."
       ],
       "story": "Boîte de déluge du loup d’acier. Les loups d’acier étaient réputés pour être trop agressifs et ainsi rendre impossible toute réanimation de leurs victimes. Le loup d’argent le plus tristement célèbre ne se sert que de la boîte de déluge du loup optimisée que la propriétaire de la Barre d’Or lui a offerte."
     }
   },
   "s3": {
     "name": "Danse avec moi",
-    "description": "Tire à 12 reprises avec son arme sur un ennmi aléatoire, inflige un total de {0} points de DEG P. Chaque fois que des DEG sont infligés, une Marque de la Mort est appliquée (ne peut pas être enlevé). Chaque charge de Marque de la Mort augmente les dégâts de 'Shootout' de 1%.",
+    "description": "Tire à l'aveuglette à 12 reprises avec son arme à feu sur les ennemis et leur inflige un total de {0} DEG P avec {1} DEG P supplémentaires pour chaque Marque de la Mort sur la cible. Chaque fois qu'elle inflige les DEG, une Marque de la Mort, qui ne peut être dissipée, est appliquée sur la cible.",
     "books": {
       "0": "DEG augmentés de {0}%.",
       "1": "DEG augmentés de {0}%.",
@@ -116,7 +116,7 @@
   },
   "s4": {
     "name": "Vous êtes le Prochain",
-    "description": "Les attaques auto appliquent Marque de la Mort sur l'ennemi. Enchaîner des attaques auto et 'Bang! Bang!!' sur l'ennemi inflige {0} points de DEG P. supplémentaires. Chaque charge de Marque de la Mort augmente les dégâts de cette compétence sur cette cible de 2%. Cumulable 100 fois.",
+    "description": "Les attaques automatiques appliquent les Marques de la Mort, qui ne peuvent être dissipées, sur les ennemis. Les attaques automatiques et Bang! Bang!! infligent {0} DEG P supplémentaires et chaque Marque de la Mort sur la cible inflige {1} DEG P supplémentaires. Cet effet peut se cumuler jusqu'à 150 fois.",
     "books": {
       "0": "DEG augmentés de {0}%.",
       "1": "DEG augmentés de {0}%.",

@@ -1,0 +1,144 @@
+{
+  "name": "Hanus",
+  "subtitle": "Huấn luyện viên lửa",
+  "description": "Thiên tài xây dựng chiến lược và nâng cấp vũ khí, hiện là người huấn luyện trẻ tuổi nhất làm nhiệm vụ huấn luyện quân đồng minh ở phòng chỉ huy của đồng minh Guild. Sử dụng súng do chính mình chế tạo để đốt kẻ địch thành tro.",
+  "story": "Được tuyển chọn vào lực lượng đồng minh Guild khi chỉ mới 13 tuổi, cô gái của truyền thuyết này được mọi người gọi là nhân vật cự phách nhỏ bé trên chiến trường. Vì bố cô là thủ lĩnh kho vũ khí Guild nên từ tấm bé, cô đã quen lấy những cây súng bỏ đi làm đồ chơi, và cũng chính trò chơi này là cơ hội để phát hiện ra tài năng bẩm sinh sử dụng vũ khí trong tương lai của cô. Guild đồng minh nghĩ rằng không thể để mai mọt tài năng này, nên họ đã khẩn thiết cầu xin bố cô vì ông đã phản đối kịch liệt chuyện này, cuối cùng họ đã chiêu mộ được Hanus vào biệt đội để bồi dưỡng. Và theo như sự kỳ vọng của Đồng minh, cô đã chứng minh bản thân mình là một thiên tài trên chiến trường. Những vũ khí kỳ lạ của cô mạnh đến mức thay đổi cả một vùng chiến trận, cộng với chiến thuật vượt trội nên ai cũng biết đến sự xuất hiện của vũ khí tối tân này của lực lượng đồng minh Guild. Bản thân Hanus cũng rất ưa thích trải nghiệm súng ống do chính mình chế tạo hơn bất cứ thứ gì trên đời. Tuy nhiên với năng lực vượt trội của mình, cô bị cuốn vào khá nhiều trận đấu, cuối cùng Hanus đã bị chấn thương trong khi đang tác chiến. Vốn dĩ người bố đã luôn phản đối cuộc sống chinh chiến của con gái nên ngay khi biết tin con mình bị chấn thương ông đã phản đối gay gắt và yêu cầu con gái giải ngũ ngay lập tức khỏi Guild đồng minh. Thế nhưng làm gì có bố mẹ nào thắng được con cái, Hanus thà chết còn hơn là phải giải ngũ nên đã cố gắng thuyết phục bố suốt một quãng thời gian dài, cuối cùng cô đã được ông cho phép ở lại trong lực lượng đồng minh Guild với vai trò là người huấn luyện chứ không được ra trận nữa. Cô tạm nghĩ rằng hiện tại công việc truyền thụ lại chiến thuật của mình cho lớp người sau cũng không đến nỗi nào, dù vậy suy nghĩ của cô không hề thay đổi về một ngày nào đó chắc chắn sẽ quay lại chiến trường. Trong căn phòng chỉ huy này, cô đang lặng lẽ chờ đợi ngày nào đó được đứng trên chiến trường cùng với các chiến hữu mà mình hướng dẫn.",
+  "like": "lắp ráp súng, mini Hanus, bánh trứng, phi tiêu",
+  "dislike": "lười biếng, gợi ý cho bản thân, con tôm, dấm",
+  "inn": {
+    "idle": "Cười à?",
+    "recruit": {
+      "greet": "",
+      "talk": [
+        "",
+        "",
+        ""
+      ],
+      "gift": ""
+    },
+    "affinity": {
+      "greet": "Dù bây giờ tập luyện khá vất vả nhưng sau này bạn sẽ thấy biết ơn tôi đấy.",
+      "talk": [
+        "Bạn không quên kỹ năng mà tôi đã hướng dẫn lần trước chứ? Tôi sẽ sớm đánh giá độ thuần thục của bạn mà không báo trước đâu.",
+        "Bạn đã sai cùng một động tác trong suốt mấy ngày. V iệc chưa thành thạo thì có thể tha thứ được chứ còn lười biếng thì tôi không thể nào chấp nhận."
+      ],
+      "gift": "Là đồ hối lộ à? Dù có vậy đi chăng nữa tôi cũng không hề nghĩ đến việc giảm thời gian tập luyện đâu."
+    },
+    "relationship": {
+      "greet": "Đến một lúc nào đó nhất định mình sẽ thuyết phục được bố. Bởi vì nơi cần mình chính là chiến trường.",
+      "talk": [
+        "Thái độ của tôi như thế nào sẽ phụ thuộc vào kết quả tập luyện của bạn.",
+        "Nếu bạn kết thúc trọn vẹn đợt tập luyện này thì tôi sẽ mua thức ăn ngon thưởng cho nhé.",
+        "Xung quanh biết rõ về búp bê của tôi. Lại còn gọi nó là mini Hanus nữa chứ.. thật là cái tên ngớ ngẩn."
+      ]
+    }
+  },
+  "uw": {
+    "name": "Trò đùa vặt vãnh, HN-0",
+    "description": [
+      "Tăng 20% lượng Sát thương chí mạng của Hanus, và bắn [trò đùa vặt vãnh.HN-tên lửa có điều khiển] mỗi 20 giây một lần để gây Sát thương vật lý tương đương với 200% khả năng tấn công cho đối thủ ngẫu nhiên, đồng thời cho phép tạo ra một trong những hiệu ứng choáng, đóng băng, hóa đá, đẩy ngã, giảm 250 tốc độ tấn công trong 3 giây cho đối phương.",
+      "Tăng 24% lượng Sát thương chí mạng của Hanus, bắn [trò đùa vặt vãnh.HN-tên lửa có điều khiển] mỗi 17 giây một lần để gây Sát thương vật lý tương đương với 240% khả năng tấn công cho đối thủ ngẫu nhiên, đồng thời cho phép tạo ra một trong những hiệu ứng choáng, đóng băng, hóa đá, đẩy ngã, giảm 250 tốc độ tấn công trong 3 giây cho đối phương.",
+      "Tăng 29% lượng Sát thương chí mạng của Hanus, bắn [trò đùa vặt vãnh.HN-tên lửa có điều khiển] mỗi 14 giây một lần để gây Sát thương vật lý tương đương với 290% khả năng tấn công cho đối thủ ngẫu nhiên, đồng thời cho phép tạo ra một trong những hiệu ứng choáng, đóng băng, hóa đá, đẩy ngã, giảm 250 tốc độ tấn công trong 3 giây cho đối phương.",
+      "Tăng 35% lượng Sát thương chí mạng của Hanus, bắn [trò đùa vặt vãnh.HN-tên lửa có điều khiển] mỗi 12 giây một lần để gây Sát thương vật lý tương đương với 350% khả năng tấn công cho đối thủ ngẫu nhiên, đồng thời cho phép tạo ra một trong những hiệu ứng choáng, đóng băng, hóa đá, đẩy ngã, giảm 250 tốc độ tấn công trong 3 giây cho đối phương.",
+      "Tăng 42% lượng Sát thương chí mạng của Hanus, bắn [trò đùa vặt vãnh.HN-tên lửa có điều khiển] mỗi 10 giây một lần để gây Sát thương vật lý tương đương với 420% khả năng tấn công cho đối thủ ngẫu nhiên, đồng thời cho phép tạo ra một trong những hiệu ứng choáng, đóng băng, hóa đá, đẩy ngã, giảm 250 tốc độ tấn công trong 3 giây cho đối phương.",
+      "Tăng 50% lượng Sát thương chí mạng của Hanus, bắn [trò đùa vặt vãnh.HN-tên lửa có điều khiển] mỗi 8 giây một lần để gây Sát thương vật lý tương đương với 500% khả năng tấn công cho đối thủ ngẫu nhiên, đồng thời cho phép tạo ra một trong những hiệu ứng choáng, đóng băng, hóa đá, đẩy ngã, giảm 250 tốc độ tấn công trong 3 giây cho đối phương."
+    ],
+    "story": "Cây súng kỳ bí được Hanus dùng hết các kỹ thuật mình có để chế tạo ra trong lúc bản thân đang giận sôi người. Chủ yếu là để nhắm vào mục tiêu làm cô nổi giận. Vũ khí đáng kinh ngạc này có tên là Hanus Zero Type, nó được trang bị loại đạn chuyên biệt khiến cơ thể bị ăn mòn nếu trúng phải, ngoài ra đạn còn có chức năng tự động theo từng thời gian nhất định nên một khi đối thủ nào trở thành mục tiêu của Hanus thì không tài nào thoát khỏi được. Nếu có ai đó có thể làm ra được loại vũ khí khủng này thì ngoài cô ra, chắc chỉ có trưởng phòng nghiên cứu Magos Le'Flamme, hoặc nhà phát minh thiên tài của Orvel. Lý do tạo ra vũ khí này thì cũng khá thú vị.. Hanus lúc đấy vốn đã có tên tuổi và đang đi càn quét địa điểm buôn lậu, tên thủ lĩnh đã dễ dàng chạy thoát còn không quên buông lời trêu ghẹo rằng [khu vui chơi thì ở đằng kia, nên tới đó mà chơi trò đánh nhau đi nhé]. Cô đã giận run người, chiến đấu bằng tất cả sức lực mình có được, nhưng lực lượng hộ vệ quá đông nên rốt cuộc cô đành rút lui mà không thể bắt được tên thủ lĩnh chạy trốn. Việc tóm hụt tên cả gan trêu ghẹo khi đang sờ sờ trước mắt mình làm cô ngày đêm tức tối, và cơ hội càng quét đợt tiếp theo đến, ngày đó cô đã cầm cây súng lạ thường này xuất trận. Và trận càng quét ngày hôm đó đã bị trấn áp chỉ với một phát súng. Không quên buông lời nhạo rằng 'thử chơi đùa tí trong sân chơi của mình'."
+  },
+  "s1": {
+    "name": "Đã xuyên thủng rồi!",
+    "description": "Sau khi ném lựu đạn thì bắn súng tiểu liên, gây {0} sát thương vật lý cho đối phương cũng như những đối thủ ở phạm vi lân cận, còn bản thân sẽ nhận {1} viên đạn. Đối thủ bị dính đòn sẽ bị tăng {3}% sát thương vật lý trong {2} giây, và rơi vào trạng thái không nhìn thấy đường trong {4} giây. Đạn được cộng dồn tối đa là {5} viên.",
+    "books": {
+      "0": "Tăng lượng Sát thương {0}%.",
+      "1": "Tăng lượng Sát thương {0}%.",
+      "2": "Tăng lượng Sát thương {0}%."
+    },
+    "light": "Loại bỏ hiệu ứng có lợi của đối phương.",
+    "dark": "Biến đổi để nhận {0} viên đạn, và khi nhận được đạn sẽ tăng {2}% lực tấn công của bản thân trong {1} giây. Hiệu quả tăng lực tấn công có thể cộng dồn tối đa {3} lần.",
+    "ut": {
+      "name": "Mũ quân đội sờn cũ",
+      "description": [
+        "[Đã xuyên thủng rồi!] Giảm 1 điểm tiêu hao mana, và thời gian không thấy đường tăng lên 0.8 giây.",
+        "[Đã xuyên thủng rồi!] Lượng tiêu hao mana giảm đi 1 điểm, và thời gian không thấy đường tăng lên 1 giây.",
+        "[Đã xuyên thủng rồi!] Lượng tiêu hao mana giảm đi 1 điểm, và thời gian không thấy đường tăng lên 1.2 giây.",
+        "[Đã xuyên thủng rồi!] Lượng tiêu hao mana giảm đi 1 điểm, và thời gian không thấy đường tăng lên 1.4 giây.",
+        "[Đã xuyên thủng rồi!] Lượng tiêu hao mana giảm đi 1 điểm, và thời gian không thấy đường tăng lên 1.7 giây.",
+        "[Đã xuyên thủng rồi!] Lượng tiêu hao mana giảm đi 1 điểm, và thời gian không thấy đường tăng lên 2 giây."
+      ],
+      "story": "Chiếc mũ của người bạn đầu tiên xem mình như một đồng đội thực thụ trên chiến trường. Dù Hanus được chiêu mộ vào quân đội do tài năng thiên bẩm của mình, nhưng ngày mới đầu quân cô luôn bị ném mùi mỉa mai cũng như coi thường của những người xung quanh vì cô còn nhỏ quá. Lúc đó chỉ có một người duy nhất nhận ra tài năng của cô sớm hơn cả, Kể từ lúc người đó thừa nhận năng lực của cô thì mọi người xung quanh dần dà mới coi Hanus ngang ngửa hoặc hơn bản thân mình. Anh ấy là người mà Hanus luôn thấy biết ơn và trân trọng. Tuy nhiên trong lúc tình bạn đang ngày càng gắn bó thì Hanus bị thuyên chuyển công tác nên phải dời đi nơi khác, thế là hai người bất đắc dĩ tạm thời phải xa nhau. Lúc nhìn cô òa khóc như đứa trẻ, người bạn cười xòa trao cho cô chiếc mũ mà anh thường dùng khi lâm trận. Và không quên nhắn nhủ rằng sau này chúng ta lại nhất định gặp lại nhau ở nơi mà chúng ta đã cùng chia ngọt sẻ bùi này."
+    }
+  },
+  "s2": {
+    "name": "Đánh cho thành tổ ong luôn!",
+    "description": "Bắn {0} lần súng tiểu liên gây tổng cộng {1} sát thương vật lý cho đối thủ nằm trong phạm vi diện rộng ở trước mặt. Nếu sau này bản thân sở hữu được đạn thì mỗi khi bắn súng tiểu liên sẽ tiêu hao {2} viên, và tấn công đến khi dùng sạch đạn thì Sát thương bản thân phải nhận ở trạng thái này tăng {3}%. Mỗi khi bắn {4} lần súng tiểu liên thì lượng Sát thương của kỹ năng này tăng {5}%. Hiệu ứng tăng lượng sát thương được cộng dồn tối đa là {6} lần.",
+    "books": {
+      "0": "Tăng lượng Sát thương {0}%.",
+      "1": "Tăng lượng Sát thương {0}%.",
+      "2": "Tăng lượng Sát thương {0}%."
+    },
+    "light": "Mức tiêu hao đạn tăng {0} viên, tuy nhiên khi ở trạng thái sử dụng đạn liên tục thì lượng Sát thương chí mạng của Hanus tăng {1}%.",
+    "dark": "Loại bỏ hiệu ứng tăng Sát thương lên đối thủ.",
+    "ut": {
+      "name": "Bắt đầu trò đùa",
+      "description": [
+        "[Đánh cho thành tổ ong luôn!] Khi sử dụng sẽ nhận được 20 viên đạn, ở trạng thái sử dụng đạn, mỗi phát súng máy sẽ tăng {1}% sức tấn công của Hanus. Hiệu ứng này được cộng dồn tối đa 100 lần.",
+        "[Đánh cho thành tổ ong luôn!] Khi sử dụng sẽ nhận được 20 viên đạn, ở trạng thái sử dụng đạn, mỗi phát súng máy sẽ tăng {1}% sức tấn công của Hanus. Hiệu ứng này được cộng dồn tối đa 100 lần.",
+        "[Đánh cho thành tổ ong luôn!] Khi sử dụng sẽ nhận được 20 viên đạn, ở trạng thái sử dụng đạn, mỗi phát súng máy sẽ tăng {1}% sức tấn công của Hanus. Hiệu ứng này được cộng dồn tối đa 100 lần.",
+        "[Đánh cho thành tổ ong luôn!] Khi sử dụng sẽ nhận được 20 viên đạn, ở trạng thái sử dụng đạn, mỗi phát súng máy sẽ tăng {1}% sức tấn công của Hanus. Hiệu ứng này được cộng dồn tối đa 100 lần.",
+        "[Đánh cho thành tổ ong luôn!] Khi sử dụng sẽ nhận được 20 viên đạn, ở trạng thái sử dụng đạn, mỗi phát súng máy sẽ tăng {1}% sức tấn công của Hanus. Hiệu ứng này được cộng dồn tối đa 100 lần.",
+        "[Đánh cho thành tổ ong luôn!] Khi sử dụng sẽ nhận được 20 viên đạn, ở trạng thái sử dụng đạn, mỗi phát súng máy sẽ tăng {1}% sức tấn công của Hanus. Hiệu ứng này được cộng dồn tối đa 100 lần."
+      ],
+      "story": "Khẩu súng lần đầu tiên Hanus nâng cấp là món đồ thể hiện được tài năng của cô. Khi đang cầm súng chơi bất giác cô nhớ đến khẩu súng to lớn được cất ở trong phòng của bố. Như bố nói thì hỏa lực của nó rất dữ dội nên trọng lượng cũng khá là nặng vì thế mà khó lòng sử dụng trong trận đấu. Tuy nhiên theo cô thấy thì có thể sửa lại được, nên sau khi suy nghĩ một hồi cô đã lén bố lôi cây súng ra. Và vài ngày sau đó, cây súng này trở lại với dáng dấp của khẩu minigun khá vừa vặn với người của Hanus. Sau này bố đã mắn cô một trận rất gắt về tội dám tự ý đụng vào đồ của ông, nhưng ông cũng không tránh khỏi ngạc nhiên khi nhìn thấy khẩu súng được con gái nâng cấp lại. Khẩu súng trở nên nhẹ hơn, nhưng hỏa lực lại không hề suy giảm, lúc đó ông đã nhận ra tài năng hiếm thấy của con gái mình. Nhưng điều đáng ngạc nhiên là việc này xảy ra khi Hanus chỉ mới có 5 tuổi."
+    }
+  },
+  "s3": {
+    "name": "Hãy nấp đại vào hang chuột cũng được!",
+    "description": "Bắn súng cối trong phạm vi cách một đoạn nhất định so với vị trí trước mặt sẽ gây {0} sát thương vật lý trên diện rộng, và bản thân sẽ nhận được {1} viên đạn. Đối thủ bị dính đòn sẽ choáng trong {2} giây. Kỹ năng này bỏ qua hiệu ứng chặn đối phương.",
+    "books": {
+      "0": "Tăng lượng Sát thương {0}%.",
+      "1": "Tăng lượng Sát thương {0}%.",
+      "2": "Tăng lượng Sát thương {0}%."
+    },
+    "light": "Khi dùng kỹ năng này sẽ bỏ qua hiệu ứng giảm Sát thương của đối phương trong Chiến Guild.",
+    "dark": "Biến đổi để nhận được {0} viên đạn, và khi nhận được đạn thì lực xuyên phòng thủ của bản thân sẽ tăng {2} trong {1} giây. Hiệu quả tăng lực xuyên phòng thủ có thể cộng dồn tối đa {3} lần.",
+    "ut": {
+      "name": "mini Hanus",
+      "description": [
+        "[Hãy nấp đại vào hang chuột cũng được!] Trong suốt quá trình sử dụng thì sẽ miễn nhiễm với trạng thái chế ngự, đồng thời giảm 20% khả năng hồi phục của đối phương bị dính đòn trong 5 giây.",
+        "[Hãy nấp đại vào hang chuột cũng được!] Trong suốt quá trình sử dụng thì sẽ miễn nhiễm với trạng thái chế ngự, đồng thời giảm 24% khả năng hồi phục của đối phương bị dính đòn trong 5 giây.",
+        "[Hãy nấp đại vào hang chuột cũng được!] Trong suốt quá trình sử dụng thì sẽ miễn nhiễm với trạng thái chế ngự, đồng thời giảm 29% khả năng hồi phục của đối phương bị dính đòn trong 5 giây.",
+        "[Hãy nấp đại vào hang chuột cũng được!] Trong suốt quá trình sử dụng thì sẽ miễn nhiễm với trạng thái chế ngự, đồng thời giảm 35% khả năng hồi phục của đối phương bị dính đòn trong 5 giây.",
+        "[Hãy nấp đại vào hang chuột cũng được!] Trong suốt quá trình sử dụng thì sẽ miễn nhiễm với trạng thái chế ngự, đồng thời giảm 42% khả năng hồi phục của đối phương bị dính đòn trong 5 giây.",
+        "[Hãy nấp đại vào hang chuột cũng được!] Trong suốt quá trình sử dụng thì sẽ miễn nhiễm với trạng thái chế ngự, đồng thời giảm 50% khả năng hồi phục của đối phương bị dính đòn trong 5 giây."
+      ],
+      "story": "Búp bê phiên bản giới hạn mà Hanus yêu quý nhất. Thật ra con búp bê này được tạo ra ở xưởng chế tạo búp bê có lịch sử lâu đời tại Orvelia, nó hình thành dựa theo mô típ một loài động vật ảo ảnh không thể thấy được ở nơi đây. Nó được những đứa trẻ săn đón, nhưng chỉ có Hanus là sở hữu được phiên bản giới hạn siêu đặc biệt. Cô thay những bộ quần áo cao cấp nhất cho búp bê mỗi ngày, đồng thời luôn giữ khẩu minigun do mình lắp ghép trực tiếp trong tay, làm thế nào mà cô càng chưng diện cho búp bê thì nó càng trở nên giống cô, đến nỗi người xung quanh đều gọi con búp bê của cô là mini Hanus. Thi thoảng cũng có người hỏi cô ta tên con búp bê là gì, nhưng Hanus chỉ bảo rằng nên tên này chỉ mình mình mới có thể gọi được nên tuyệt đối không cho ai biết cả."
+    }
+  },
+  "s4": {
+    "name": "Luyện tập cho bạn!",
+    "description": "Hanus không bị ảnh hưởng gì đến sự thay đổi tốc độ tấn công, tăng khả năng tấn công của tất cả đồng minh lên tương đương với {0} + {1}% khả năng tấn công của Hanus. Trường hợp hiệu ứng này được kích hoạt trong trận chiến Guild, thì hiệu ứng sẽ được tăng gấp {2} lần. [Trận chiến Guild] - cuộc đột kích Guild, cuộc chinh phạt Guild, Chiến Guild",
+    "books": {
+      "0": "Tăng khả năng tấn công lên {0}%.",
+      "1": "Tăng khả năng tấn công lên {0}%.",
+      "2": "Tăng khả năng tấn công lên {0}%."
+    },
+    "light": "Khi bắt đầu trận chiến Guild, lượng Sát thương tất cả đồng minh phải nhận giảm {1}% trong {0} giây.",
+    "dark": "Cứ {0} giây bạn sẽ nhận được {1} viên đạn.",
+    "ut": {
+      "name": "Huân chương chiến công nhỏ tuổi",
+      "description": [
+        "[Luyện tập cho bạn!] Giới hạn sử dụng 1 lần khi bắt đầu trận chiến Guild sẽ giảm 1 khoảng mana cần thiết của tất cả các kỹ năng của bản thân, đồng thời tăng 20% lượng Sát thương chí mạng, 10% khả năng tấn công của tất cả đồng minh trong 10 giây.",
+        "[Luyện tập cho bạn!] Giới hạn sử dụng 1 lần khi bắt đầu trận chiến Guild sẽ giảm 1 khoảng mana cần thiết của tất cả các kỹ năng của bản thân, đồng thời tăng 24% lượng Sát thương chí mạng, 12% khả năng tấn công của tất cả đồng minh trong 10 giây.",
+        "[Luyện tập cho bạn!] Giới hạn sử dụng 1 lần khi bắt đầu trận chiến Guild sẽ giảm 1 khoảng mana cần thiết của tất cả các kỹ năng của bản thân, đồng thời tăng 29% lượng Sát thương chí mạng, 14% khả năng tấn công của tất cả đồng minh trong 10 giây.",
+        "[Luyện tậpn cho bạn!] Giới hạn sử dụng 1 lần khi bắt đầu trận chiến Guild sẽ giảm 1 khoảng mana cần thiết của tất cả các kỹ năng của bản thân, đồng thời tăng 35% lượng Sát thương chí mạng, 17% khả năng tấn công của tất cả đồng minh trong 10 giây.",
+        "[Luyện tập cho bạn!] Giới hạn sử dụng 1 lần khi bắt đầu trận chiến Guild sẽ giảm 1 khoảng mana cần thiết của tất cả các kỹ năng của bản thân, đồng thời tăng 42% lượng Sát thương chí mạng, 21% khả năng tấn công của tất cả đồng minh trong 10 giây.",
+        "[Luyện tập cho bạn!]Giới hạn sử dụng 1 lần khi bắt đầu trận chiến Guild sẽ giảm 1 khoảng mana cần thiết của tất cả các kỹ năng của bản thân, đồng thời tăng 50% lượng Sát thương chí mạng, 25% khả năng tấn công của tất cả đồng minh trong 10 giây."
+      ],
+      "story": "Sau khi Hanus gia nhập vào lực lượng đồng minh Guild, cô đã nhận được huân chương cho những chiến công mình lập nên. Với chiến thuật vượt trội cô luôn nắm nhiều lợi thế trên trong trận chiến, quân đôi ghi nhận những công lao ấy và trao tặng huân chương cho Hanus. Vốn dĩ với độ tuổi của cô không thể tham gia vào quân ngũ được, nên điều đó gây không ít bất mãn cho những người hay đố kỵ hoặc các binh sĩ chưa biết rõ về cô, nhưng chỉ cần nhìn thấy Hanus ở trên chiến trường một lần thôi thì không còn ai có thể đưa ra bất kỳ lời dị nghị nào nữa. Đó là thứ chứng tỏ ý chí kiên định sẽ quay lại chiến trường của cô sau khi phải thuyên chuyển qua làm người huấn luyện theo ý bố."
+    }
+  },
+  "t5": {
+    "light": "Khả năng tấn công, phòng thủ, HP + 15%/ Sát thương chí mạng + 20%",
+    "dark": "Khi bắt đầu trận chiến Guild, giảm {0} toàn bộ mana và tăng {2}% tất cả lượng Sát thương phải chịu trong {1} giây."
+  }
+}

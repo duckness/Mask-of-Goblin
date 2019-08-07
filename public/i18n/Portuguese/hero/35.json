@@ -76,24 +76,24 @@
       "1": "Aumenta a Taxa de Aumento de ATQ em {0}%.",
       "2": "Aumenta a Taxa de Aumento de ATQ em {0}%."
     },
-    "light": "Recebe mais 20% de DAN de todas as fontes em troca de um adicional de 100% de aumento de ATQ.",
-    "dark": "Aumenta a chance de Bang! Bang! em 10%.",
+    "light": "Ao ser ativado, o PV não cai para abaixo de 5% por 3s.",
+    "dark": "Aumenta o DANO CRÍT em 50% enquanto durar a habilidade.",
     "ut": {
       "name": "Caixa de Barragem do Lobo",
       "description": [
-        "[Hora de Morrer!] Aumenta o DAN Crít. em 20% enquanto durar a habilidade. Os PVs não podem ficar abaixo de 10% por 3s.",
-        "[Hora de Morrer!] Aumenta o DAN Crít. em 24% enquanto durar a habilidade. Os PVs não podem ficar abaixo de 10% por 3s.",
-        "[Hora de Morrer!] Aumenta o DAN Crít. em 29% enquanto durar a habilidade. Os PVs não podem ficar abaixo de 10% por 3s.",
-        "[Hora de Morrer!] Aumenta o DAN Crít. em 35% enquanto durar a habilidade. Os PVs não podem ficar abaixo de 10% por 3s.",
-        "[Hora de Morrer!] Aumenta o DAN Crít. em 42% enquanto durar a habilidade. Os PVs não podem ficar abaixo de 10% por 3s.",
-        "[Hora de Morrer!] Aumenta o DAN Crít. em 50% enquanto durar a habilidade. Os PVs não podem ficar abaixo de 10% por 3s."
+        "[Hora de Morrer!] Reduz o consumo de PM em 1 e aumenta o DANO a chefes em 20% enquanto durar a habilidade.",
+        "[Hora de Morrer!] Reduz o consumo de PM em 1 e aumenta o DANO a chefes em 24% enquanto durar a habilidade.",
+        "[Hora de Morrer!] Reduz o consumo de PM em 1 e aumenta o DANO a chefes em 29% enquanto durar a habilidade.",
+        "[Hora de Morrer!] Reduz o consumo de PM em 1 e aumenta o DANO a chefes em 35% enquanto durar a habilidade.",
+        "[Hora de Morrer!] Reduz o consumo de PM em 1 e aumenta o DANO a chefes em 42% enquanto durar a habilidade.",
+        "[Hora de Morrer!] Reduz o consumo de PM em 1 e aumenta o DANO a chefes em 50% enquanto durar a habilidade."
       ],
       "story": "Caixa de barragem especial do Lobo de Aço. Os Lobos de Aço tinham a má fama de serem violentos demais e de tornarem impossível a revitalização dos seus inimigos. O Lobo Prateado mais infame usa apenas a Caixa de Barragem do Lobo, que obteve com o dono do Bar de Ouro."
     }
   },
   "s3": {
     "name": "Dança Comigo!!",
-    "description": "Dispara rajadas 12 vezes com a arma num alvo aleatório, causando no total {0} de DAN.F. Sempre que causar DAN, deixa uma Marca da Morte que não pode ser removida. Cada acúmulo de Marca da Morte aumenta em 1% do DAN do 'Tiroteio'.",
+    "description": "Dispara 12 rajadas de arma num alvo aleatório, infligindo DANO F total de {0} e DANO F adicional de {1} por cada 'marca da morte' deixada no inimigo. A 'marca da morte' é deixada cada vez que inflige DANO no inimigo e não pode ser removida.",
     "books": {
       "0": "Aumenta o DAN em {0}%.",
       "1": "Aumenta o DAN em {0}%.",
@@ -116,7 +116,7 @@
   },
   "s4": {
     "name": "Você é o Próximo!!",
-    "description": "Realizar ataques automáticos deixam no inimigo uma Marca da Morte que não pode ser removida. Os ataques automáticos e 'Bang! Bang!!' seguintes causam {0} de DAN.F extra. Cada acúmulo dessa marca aumenta em 2% o DAN causado por esse poder. Quantidade máxima de acúmulos: 100.",
+    "description": "Ao atacar, deixa uma 'marca da morte' no inimigo que não pode ser removida. Se um ataque normal ou Bang! Bang! acertar o inimigo, inflige DANO F adicional de {0} e DANO F adicional de {1} por cada 'marca da morte' deixada nele. 'Marcas da morte' podem ser acumuladas em até 150.",
     "books": {
       "0": "Aumenta o DAN em {0}%.",
       "1": "Aumenta o DAN em {0}%.",

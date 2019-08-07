@@ -47,14 +47,14 @@
   },
   "s1": {
     "name": "Juicio del desierto",
-    "description": "Inflige {0} de Daño físico a los enemigos en un rango amplio, y por cada enemigo afectado, el Tiempo de reutilización de la habilidad disminuye en 1 segundo. Inflige {1} de Daño físico a los enemigos afectados por el efecto [Marca del desierto] y elimina 1 acumulación de [Marca del desierto]. Con cada uso de la habilidad, el Daño crítico aumenta en un 5 %. Este efecto se puede acumular hasta 12 veces y no se puede disipar.",
+    "description": "Causa {0} de daño físico a los enemigos en un rango amplio, y reduce el tiempo de reutilización en 1 segundo por cada uno de los enemigos afectados. Causa {1} de daño físico a los enemigos con [Marca del Desierto] y elimina 1 acumulación de [Marca del Desierto]. Incrementa la el daño crítico un 5%, este efecto puede acumularse hasta 18 veces y no se puede cancelar.",
     "books": {
       "0": "Daño Aumenta en {0}%.",
       "1": "Daño Aumenta en {0}%.",
       "2": "Daño Aumenta en {0}%."
     },
     "light": "El aumento del Daño crítico por uso cambia al 10%.",
-    "dark": "El enemigo afectado sufre el efecto Cegar durante 1 segundo.",
+    "dark": "Aturde a los enemigos atacados durante 1 segundo.",
     "ut": {
       "name": "Flecha de tormenta de arena",
       "description": [
@@ -76,17 +76,17 @@
       "1": "El Daño y el Escudo aumentan en {0}%.",
       "2": "El Daño y el Escudo aumentan en {0}%."
     },
-    "light": "El Tiempo de reutilización de la habilidad disminuye en 5 segundos.",
-    "dark": "Los enemigos afectados por “Tormenta de arena” retroceden una distancia considerable y son derribados durante 3 segundos.",
+    "light": "Crea una barrera protectora para todos si hay 3 o menos aliados. Tormenta de Arena no aparecerá.",
+    "dark": "Al inicio de cada batalla, crea una barrera protectora para sí mismo por 5 segundos. Tormenta de Arena no aparecerá.",
     "ut": {
       "name": "Arena del espejismo",
       "description": [
-        "[Bendición del espíritu de arena] El Escudo absorbe un 20 % más de Daño y disipa el Control de multitudes infligido en uno mismo.",
-        "[Bendición del espíritu de arena] El Escudo absorbe un 24 % más de Daño y disipa el Control de multitudes infligido en uno mismo.",
-        "[Bendición del espíritu de arena] El Escudo absorbe un 29 % más de Daño y disipa el Control de multitudes infligido en uno mismo.",
-        "[Bendición del espíritu de arena] El Escudo absorbe un 35 % más de Daño y disipa el Control de multitudes infligido en uno mismo.",
-        "[Bendición del espíritu de arena] El Escudo absorbe un 42 % más de Daño y disipa el Control de multitudes infligido en uno mismo.",
-        "[Bendición del espíritu de arena] El Escudo absorbe un 50 % más de Daño y disipa el Control de multitudes infligido en uno mismo."
+        "[Bendición del Espíritu de Arena] Cancela los efectos negativos en ti y durante el período de activación de la barrera protectora recupera 80 de mana por segundo.",
+        "[Bendición del Espíritu de Arena] Cancela los efectos negativos en ti y durante el período de activación de la barrera protectora recupera 100 de mana por segundo.",
+        "[Bendición del Espíritu de Arena] Cancela los efectos negativos en ti y durante el período de activación de la barrera protectora recupera 120 de mana por segundo.",
+        "[Bendición del Espíritu de Arena] Cancela los efectos negativos en ti y durante el período de activación de la barrera protectora recupera 140 de mana por segundo.",
+        "[Bendición del Espíritu de Arena] Cancela los efectos negativos en ti y durante el período de activación de la barrera protectora recupera 170 de mana por segundo.",
+        "[Bendición del Espíritu de Arena] Cancela los efectos negativos en ti y durante el período de activación de la barrera protectora recupera 200 de mana por segundo."
       ],
       "story": "Un reloj de arena enterrado hace mucho tiempo por una enorme tormenta de arena que azotó el Desierto de Aegina. Cuando la arena del reloj se mueve, trae el espejismo de una ciudad antigua que regresa a la vida. El alto clérigo del antiguo reino lo usaba para mostrar las glorias pasadas a sus habitantes. Al ver su ciudad dorada resplandeciente, la gente sentía orgullo del reino."
     }
@@ -139,6 +139,6 @@
   },
   "t5": {
     "light": "ATQ, DEF, Salud+15% / Oportunidad Crit +100",
-    "dark": "Recupera 500 de Mana con el uso de una habilidad. Si hay más de 5 enemigos, la tasa de recuperación de Mana se duplica y la Velocidad de ataque aumenta en 500 durante 5 segundos. Este efecto no se puede acumular."
+    "dark": "Recuperarás 700 de mana. Si hay 5 enemigos o más la recuperación de mana se duplica e incrementa la velocidad de ataque en 500 durante 5 segundos. No se puede acumular este efecto."
   }
 }

@@ -47,14 +47,14 @@
   },
   "s1": {
     "name": "Phán quyết của sa mạc",
-    "description": "Gây {0} Sát thương vật lý cho kẻ địch trên diện rộng, và với mỗi kẻ địch trúng đòn, thời gian hồi chiêu giảm 1 giây. Gây {1} Sát thương vật lý cho kẻ địch trúng [Dấu ấn của sa mạc] và xóa bỏ 1 lần cộng dồn [Dấu ấn của sa mạc]. Với mỗi lần sử dụng kĩ năng, Sát thương chí mạng tăng 5%. Hiệu ứng này có thể cộng dồn tối đa 12 lần và không thể xóa bỏ.",
+    "description": "Gây {0} Sát thương vật lý cho kẻ địch trên diện rộng, và giảm1 giây Thời gian hồi chiêu kỹ năng trên mỗi đối thủ trúng đòn. Gây {1} Sát thương vật lý lên đối thủ sở hữu [Dấu ấn sa mạc], đồng thời gỡ bỏ 1 [Dấu ấn sa mạc]. Mỗi khi sử dụng kỹ năng này sẽ làm tăng 5% Sát thương chí mạng, hiệu ứng này được cộng dồn tối đa 18 lần và không thể giải bỏ.",
     "books": {
-      "0": "Tăng {0}% lượng sát thương.",
-      "1": "Tăng {0}% lượng sát thương.",
-      "2": "Tăng {0}% lượng sát thương."
+      "0": "Tăng {0}% sát thương.",
+      "1": "Tăng {0}% sát thương.",
+      "2": "Tăng {0}% sát thương."
     },
     "light": "Hỗ trợ Sát thương chí mạng mỗi lần sử dụng đổi thành 10%.",
-    "dark": "Kẻ địch trúng đòn sẽ bị Mù trong 1 giây.",
+    "dark": "Khiến đối thủ bị trúng đòn choáng trong 1 giây.",
     "ut": {
       "name": "Mũi tên bão cát",
       "description": [
@@ -76,17 +76,17 @@
       "1": "Tăng {0}% sát thương và Khiên chắn",
       "2": "Tăng {0}% sát thương và Khiên chắn"
     },
-    "light": "Thời gian hồi chiêu giảm 5 giây.",
-    "dark": "Kẻ địch trúng 'Bão cát' sẽ bị đánh bật ra xa và bị đánh ngã trong 3 giây.",
+    "light": "Khi đồng đội còn dưới 3 người thì áp dụng kết giới cho tất cả đồng đội. Lúc này sẽ không phát sinh bão cát.",
+    "dark": "Tạo kết giới 5 giây cho bản thân vào đầu mỗi trận đấu. Lúc này sẽ không phát sinh bão cát.",
     "ut": {
       "name": "Dòng cát ảo mộng",
       "description": [
-        "[Phước lành của tinh linh cát] Kết giới hấp thu thêm 20% Sát thương và giải trừ trạng thái chế ngự trên bản thân.",
-        "[Phước lành của tinh linh cát] Kết giới hấp thu thêm 24% Sát thương và giải trừ trạng thái chế ngự trên bản thân.",
-        "[Phước lành của tinh linh cát] Kết giới hấp thu thêm 29% Sát thương và giải trừ trạng thái chế ngự trên bản thân.",
-        "[Phước lành của tinh linh cát] Kết giới hấp thu thêm 35% Sát thương và giải trừ trạng thái chế ngự trên bản thân.",
-        "[Phước lành của tinh linh cát] Kết giới hấp thu thêm 42% Sát thương và giải trừ trạng thái chế ngự trên bản thân.",
-        "[Phước lành của tinh linh cát] Kết giới hấp thu thêm 50% Sát thương và giải trừ trạng thái chế ngự trên bản thân."
+        "[Phước lành của tinh linh cát] Sử dụng và loại bỏ hiệu ứng có hại khỏi người, đồng thời hồi phục 80 Mana mỗi giây trong khoảng thời gian lá chắn có hiệu lực.",
+        "[Phước lành của tinh linh cát] Sử dụng và loại bỏ hiệu ứng có hại khỏi người, đồng thời hồi phục 100 Mana mỗi giây trong khoảng thời gian kết giới được duy trì.",
+        "[Phước lành của tinh linh cát] Sử dụng và loại bỏ hiệu ứng có hại khỏi người, đồng thời hồi phục 120 Mana mỗi giây trong khoảng thời gian kết giới được duy trì.",
+        "[Phước lành của tinh linh cát] Sử dụng và loại bỏ hiệu ứng có hại khỏi người, đồng thời hồi phục 140 Mana mỗi giây trong khoảng thời gian kết giới được duy trì.",
+        "[Phước lành của tinh linh cát] Sử dụng và loại bỏ hiệu ứng có hại khỏi người, đồng thời hồi phục 170 Mana mỗi giây trong khoảng thời gian kết giới được duy trì.",
+        "[Phước lành của tinh linh cát] Sử dụng và loại bỏ hiệu ứng có hại khỏi người, đồng thời hồi phục 200 Mana mỗi giây trong khoảng thời gian kết giới được duy trì."
       ],
       "story": "Một chiếc đồng hồ cát bị vùi dưới lòng đất trong một thời gian dài, sau khi trận bão cát khủng khiếp hoành hành trên Sa mạc Aegina. Khi dòng cát bên trong chiếc đồng hồ dịch chuyển cũng là lúc ảo cảnh về một thành phố cổ đại hiện lên hết sức sống động. Trước đây, vị linh mục cấp cao từng dùng món đồ này để minh chứng sự huy hoàng của vương quốc trước mắt thần dân. Ngắm nhìn thành phố lấp lánh sắc vàng, người dân càng thêm tự hào về vương quốc mình."
     }
@@ -95,9 +95,9 @@
     "name": "Án tử của sa mạc",
     "description": "Gây {0} Sát thương vật lý cho kẻ địch hàng trước trên diện rộng và tạo ra 1 lần cộng dồn [Dấu ấn của sa mạc]. Sau đó, triệu hồi 'Hố cát' trong 5 giây, gây {1} Sát thương vật lý mỗi 0,5 giây, giảm 30% Phòng thủ vật lý của kẻ địch trong 10 giây. 'Hố cát' có 25% xác suất tạo ra 1 lần cộng dồn [Dấu ấn sa mạc] và kéo kẻ địch ở trong phạm vi vào giữa.",
     "books": {
-      "0": "Tăng {0}% lượng sát thương.",
-      "1": "Tăng {0}% lượng sát thương.",
-      "2": "Tăng {0}% lượng sát thương."
+      "0": "Tăng {0}% sát thương.",
+      "1": "Tăng {0}% sát thương.",
+      "2": "Tăng {0}% sát thương."
     },
     "light": "Trong lúc sử dụng chiêu sẽ được miễn nhiễm với trạng thái xấu.",
     "dark": "Thời gian duy trì 'Hố cát' tăng 2 giây.",
@@ -118,9 +118,9 @@
     "name": "Tiếng gọi của hộ vệ",
     "description": "Mỗi lần tấn công thường có 15% xác suất gây {0} Sát thương vật lý và bỏ qua Phòng thủ của tất cả kẻ địch, tạo ra 1 lần cộng dồn [Dấu ấn của sa mạc]. [Dấu ấn của sa mạc] có thể cộng dồn tối đa 10 lần.",
     "books": {
-      "0": "Tăng {0}% lượng sát thương.",
-      "1": "Tăng {0}% lượng sát thương.",
-      "2": "Tăng {0}% lượng sát thương."
+      "0": "Tăng {0}% sát thương.",
+      "1": "Tăng {0}% sát thương.",
+      "2": "Tăng {0}% sát thương."
     },
     "light": "Khi có 5 kẻ địch trở lên, gây Dấu ấn của sa mạc lên tất cả bọn chúng.",
     "dark": "Xác suất kích hoạt đổi thành 30%.",
@@ -139,6 +139,6 @@
   },
   "t5": {
     "light": "ATK, DEF, HP+15% / Crit Chance +100",
-    "dark": "Hồi 500 điểm mana khi sử dụng kĩ năng. Nếu có hơn 5 kẻ địch, thì tốc độ hồi mana sẽ tăng gấp đôi và Tốc độ tấn công tăng thêm 500 trong 5 giây. Hiệu ứng này không thể cộng dồn."
+    "dark": "Hồi 700 điểm mana khi sử dụng kĩ năng. Nếu có hơn 5 kẻ địch, thì Hồi điểm mana sẽ tăng gấp đôi và Tốc độ tấn công tăng 500 trong 5 giây. Hiệu ứng này không thể cộng dồn."
   }
 }

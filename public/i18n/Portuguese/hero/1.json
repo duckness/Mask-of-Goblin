@@ -49,9 +49,9 @@
     "name": "Lâmina do Julgamento",
     "description": "Causa {0} de DAN F. 2 vezes a inimigos frontais em um círculo e os derruba por {1} seg.",
     "books": {
-      "0": "Aumenta o DAN em {0}%.",
-      "1": "Aumenta o DAN em {0}%.",
-      "2": "Aumenta o DAN em {0}%."
+      "0": "Aumenta o DANO em {0}%.",
+      "1": "Aumenta o DANO em {0}%.",
+      "2": "Aumenta o DANO em {0}%."
     },
     "light": "Reduz em 1 o custo de mana.",
     "dark": "Ignora a DEF enquanto houver apenas 1 inimigo.",
@@ -72,9 +72,9 @@
     "name": "Arremetida Corajosa",
     "description": "Ataca o alvo 3 vezes e avança por trás dele para causar {0} de DAN F.",
     "books": {
-      "0": "Aumenta o DAN em {0}%.",
-      "1": "Aumenta o DAN em {0}%.",
-      "2": "Aumenta a Chance Crít. em {0}."
+      "0": "Aumenta o DANO em {0}%.",
+      "1": "Aumenta o DANO em {0}%.",
+      "2": "Aumenta o DANO em {0}%."
     },
     "light": "Reduz em 1 o custo de mana.",
     "dark": "O alvo recebe mais 25% de DAN.F durante 10 segundos.",
@@ -100,7 +100,7 @@
       "2": "Aumenta a velocidade em {0} , durante o efeito do poder."
     },
     "light": "Reduz em 1 o custo de mana.",
-    "dark": "Aumenta o Custo de Mana em 2 e o DAN a inimigos não Heróis em 100% durante a habilidade.",
+    "dark": "Aumenta o consumo de PM em 1 e aumenta o DANO a inimigos não heróis em 100% enquanto durar a habilidade.",
     "ut": {
       "name": "Runa de Representação",
       "description": [
@@ -116,29 +116,29 @@
   },
   "s4": {
     "name": "Ataque da Deusa",
-    "description": "Ao esquivar, causa {0} de DAN.F para inimigos frontais e reduz a PREC em {1} por 5 segundos. Ao acertar o alvo, ganha 300 de mana.",
+    "description": "Aumenta todas as DEFs em {0} e aumenta a ESQ em {1}. Caso o herói consiga se esquivar, aumenta o ataque normal em {3}% por {2} s.",
     "books": {
-      "0": "Aumenta o DAN em {0}%.",
-      "1": "Aumenta o DAN em {0}%.",
-      "2": "Aumenta a Chance Crít. em {0}."
+      "0": "Aumenta a taxa de aumento de DEF em {0}%.",
+      "1": "Aumenta a taxa de aumento de DEF em {0}%.",
+      "2": "Aumenta a taxa de aumento de DEF em {0}%."
     },
-    "light": "Taxa de redução de PREC é alterada para 250.",
-    "dark": "Reforça conjuração e reduz o tempo de recarga em 1 segundo.",
+    "light": "Altera o DANO recebido de ataques normais para 100%.",
+    "dark": "Reduz o DANO recebido de heróis em 15%.",
     "ut": {
       "name": "Lágrima da Lua",
       "description": [
-        "[Ataque da Deusa] Aumenta o DAN em 50% e reduz a Vel de ATQ do alvo em 100 por 10 seg.",
-        "[Ataque da Deusa] Aumenta o DAN em 50% e reduz a Vel de ATQ do alvo em 120 por 10 seg.",
-        "[Ataque da Deusa] Aumenta o DAN em 50% e reduz a Vel de ATQ do alvo em 140 por 10 seg.",
-        "[Ataque da Deusa] Aumenta o DAN em 50% e reduz a Vel de ATQ do alvo em 170 por 10 seg.",
-        "[Ataque da Deusa] Aumenta o DAN em 50% e reduz a Vel de ATQ do alvo em 210 por 10 seg.",
-        "[Ataque da Deusa] Aumenta o DAN em 50% e reduz a Vel de ATQ do alvo em 250 por 10 seg."
+        "[Ataque da Deusa] Aumenta a taxa de aumento da DEF em {0}% e aumenta o DANO infligido a chefes em {1}%.",
+        "[Ataque da Deusa] Aumenta a taxa de aumento da DEF em {0}% e aumenta o DANO infligido a chefes em {1}%.",
+        "[Ataque da Deusa] Aumenta a taxa de aumento da DEF em {0}% e aumenta o DANO infligido a chefes em {1}%.",
+        "[Ataque da Deusa] Aumenta a taxa de aumento da DEF em {0}% e aumenta o DANO infligido a chefes em {1}%.",
+        "[Ataque da Deusa] Aumenta a taxa de aumento da DEF em {0}% e aumenta o DANO infligido a chefes em {1}%.",
+        "[Ataque da Deusa] Aumenta a taxa de aumento da DEF em {0}% e aumenta o DANO infligido a chefes em {1}%."
       ],
       "story": "Uma joia de cor azulada que adorna Aea, a Espada Sagrada. A joia possui uma condensação intensa de espírito, que é unido pelas lágrimas da Lua e dispõe de um misterioso poder para guiar o Guardião da Espada Sagrada no caminho da luz."
     }
   },
   "t5": {
     "light": "ATQ, DEF, PV+15% / ESQ.F +100",
-    "dark": "Ao atacar, ataca mais uma vez, causando DAN igual a 40% do ATQ."
+    "dark": "Ao atacar, inflige DANO adicional equivalente a 80% de seu ATQ."
   }
 }

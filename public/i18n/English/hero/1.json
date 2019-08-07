@@ -74,7 +74,7 @@
     "books": {
       "0": "DMG is increased by {0}%.",
       "1": "DMG is increased by {0}%.",
-      "2": "Crit Chance is increased by {0}."
+      "2": "DMG is increased by {0}%."
     },
     "light": "Mana cost is reduced by 1.",
     "dark": "Target takes 25% increased P.DMG for 10 sec.",
@@ -100,7 +100,7 @@
       "2": "Increases Spd by {0} for the duration of skill."
     },
     "light": "Mana cost is reduced by 1.",
-    "dark": "Increases Mana Cost by 2 and DMG to Non-Hero enemies by 100% for the duration of skill.",
+    "dark": "Increases Mana Cost by 1 and DMG dealt to Non-Hero enemies by 100% for the duration of Skill.",
     "ut": {
       "name": "Proxy's Insignia",
       "description": [
@@ -116,29 +116,29 @@
   },
   "s4": {
     "name": "Goddess Strike",
-    "description": "Upon dodging, deals {0} P.DMG to frontal enemies in range, and reduces their ACC by {1} for 5 sec. After hitting the target, recovers 300 mana.",
+    "description": "Increases own All DEF by {0} , and Dodge Chance by {1}. A successful dodge increases DMG of normal attacks by {3}% for {2} sec.",
     "books": {
-      "0": "DMG is increased by {0}%.",
-      "1": "DMG is increased by {0}%.",
-      "2": "Crit Chance is increased by {0}."
+      "0": "Increases DEF Boost by {0}%",
+      "1": "Increases DEF Boost by {0}%",
+      "2": "Increases DEF Boost by {0}%"
     },
-    "light": "ACC reduction rate is changed to 250.",
-    "dark": "Casting is boosted and Cooldown is reduced by 1 sec.",
+    "light": "DMG Boost of normal attacks is changed to 100%.",
+    "dark": "Reduces DMG received from Heroes by 15%.",
     "ut": {
       "name": "Lua's Tear",
       "description": [
-        "[Goddess Strike] Increases DMG by 50% and reduces ATK Spd of the target by 100 for 10 sec.",
-        "[Goddess Strike] Increases DMG by 50% and reduces ATK Spd of the target by 120 for 10 sec.",
-        "[Goddess Strike] Increases DMG by 50% and reduces ATK Spd of the target by 140 for 10 sec.",
-        "[Goddess Strike] Increases DMG by 50% and reduces ATK Spd of the target by 170 for 10 sec.",
-        "[Goddess Strike] Increases DMG by 50% and reduces ATK Spd of the target by 210 for 10 sec.",
-        "[Goddess Strike] Increases DMG by 50% and reduces ATK Spd of the target by 250 for 10 sec."
+        "[Goddess Strike] Increases DEF Boost by {0}%, and own DMG dealt to bosses by {1}%.",
+        "[Goddess Strike] Increases DEF Boost by {0}%, and own DMG dealt to bosses by {1}%.",
+        "[Goddess Strike] Increases DEF Boost by {0}%, and own DMG dealt to bosses by {1}%.",
+        "[Goddess Strike] Increases DEF Boost by {0}%, and own DMG dealt to bosses by {1}%.",
+        "[Goddess Strike] Increases DEF Boost by {0}%, and own DMG dealt to bosses by {1}%.",
+        "[Goddess Strike] Increases DEF Boost by {0}%, and own DMG dealt to bosses by {1}%."
       ],
       "story": "An azure-colored jewel that adorns the Holy Sword, Aea. It is an intense condensation of sacred nature's spirit, bound by the teardrops of Lua, and has the mysterious power to guide the Guardian of Holy Sword on the path of light."
     }
   },
   "t5": {
     "light": "ATK, DEF, HP+15% / P.Dodge +100",
-    "dark": "Upon attacking, attack 1 extra time dealing 40% of ATK as DMG."
+    "dark": "Upon attacking, deals additional DMG equal to 80% of ATK."
   }
 }

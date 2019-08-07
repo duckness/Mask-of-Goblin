@@ -76,24 +76,24 @@
       "1": "ATK boost is increased by {0}%.",
       "2": "ATK boost is increased by {0}%."
     },
-    "light": "Takes 20% more DMG from all sources in exchange for an extra 100% in ATK increase.",
-    "dark": "Bang! Bang! chance is increased by 10%.",
+    "light": "Upon activation, HP will not be reduced below 5% for 3 sec.",
+    "dark": "Crit DMG is increased by 50% for the duration of Skill.",
     "ut": {
       "name": "Wolf's Barrage Box",
       "description": [
-        "[Time to Die!] Increases Crit DMG by 20% for the skill's duration. HP cannot be reduced below 10% for 3 sec.",
-        "[Time to Die!] Increases Crit DMG by 24% for the skill's duration. HP cannot be reduced below 10% for 3 sec.",
-        "[Time to Die!] Increases Crit DMG by 29% for the skill's duration. HP cannot be reduced below 10% for 3 sec.",
-        "[Time to Die!] Increases Crit DMG by 35% for the skill's duration. HP cannot be reduced below 10% for 3 sec.",
-        "[Time to Die!] Increases Crit DMG by 42% for the skill's duration. HP cannot be reduced below 10% for 3 sec.",
-        "[Time to Die!] Increases Crit DMG by 50% for the skill's duration. HP cannot be reduced below 10% for 3 sec."
+        "[Time to Die!] Reduces Mana Cost by 1, and increases DMG dealt to bosses by 20% for the duration of Skill.",
+        "[Time to Die!] Reduces Mana Cost by 1, and increases DMG dealt to bosses by 24% for the duration of Skill.",
+        "[Time to Die!] Reduces Mana Cost by 1, and increases DMG dealt to bosses by 29% for the duration of Skill.",
+        "[Time to Die!] Reduces Mana Cost by 1, and increases DMG dealt to bosses by 35% for the duration of Skill.",
+        "[Time to Die!] Reduces Mana Cost by 1, and increases DMG dealt to bosses by 42% for the duration of Skill.",
+        "[Time to Die!] Reduces Mana Cost by 1, and increases DMG dealt to bosses by 50% for the duration of Skill."
       ],
       "story": "Steel Wolf's special barrage box. The Steel Wolves were infamous for being too violent and making it impossible to revitalize their enemies. The most infamous Silver Wolf only uses the maximized Wolf Barrage Box that he got from the owner of the Gold Bar."
     }
   },
   "s3": {
     "name": "Dance with me!!",
-    "description": "Sprays gunshot at a random enemy 12 times, dealing a total of {0} P.DMG. Each damage inflicts 1 stack of Mark of Death that cannot be dispelled. Per every stacked Mark of Death, 'Dance with me!!' DMG is increased by 1%.",
+    "description": "Rapidly shoots a random enemy 12 times, dealing a total of {0} P.DMG, and additional {1} P.DMG per Mark of Death stack. Each hit with this Skill inflicts an irremovable stack of Mark of Death on the enemy.",
     "books": {
       "0": "DMG is increased by {0}%.",
       "1": "DMG is increased by {0}%.",
@@ -116,7 +116,7 @@
   },
   "s4": {
     "name": "You're Next!!",
-    "description": "Each auto attack inflicts a Mark of Death to enemies that cannot be dispelled. When auto attack and 'Bang! Bang!!' hits the target, deals {0} extra P.DMG. Per every stack, skill DMG is increased by 2%. Can be stacked up to 100 times max.",
+    "description": "Normal attacks inflict an irremovable stack of Mark of Death on the enemy. Whenever a normal attack or Bang! Bang! hits the target, deals {0} additional P.DMG. Each stack of Mark of Death deals {1} additional P.DMG. Mark of Death can be stacked up to max 150 times.",
     "books": {
       "0": "DMG is increased by {0}%.",
       "1": "DMG is increased by {0}%.",

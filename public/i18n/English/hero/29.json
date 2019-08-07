@@ -54,7 +54,7 @@
       "2": "DMG is increased by {0}%."
     },
     "light": "If there is 1 enemy, DMG is increased by 100%.",
-    "dark": "Enemies hit are stunned for 1 sec.",
+    "dark": "Stuns the hit enemy for 2 sec.",
     "ut": {
       "name": "Golden Bell of Luck",
       "description": [
@@ -104,41 +104,41 @@
     "ut": {
       "name": "Never-Melting Snow Flower",
       "description": [
-        "[Twinkle Twinkle] DMG is increased by 20% and target inflicted with Crit Chance reduction cannot dispel the effect.",
-        "[Twinkle Twinkle] DMG is increased by 24% and target inflicted with Crit Chance reduction cannot dispel the effect.",
-        "[Twinkle Twinkle] DMG is increased by 29% and target inflicted with Crit Chance reduction cannot dispel the effect.",
-        "[Twinkle Twinkle] DMG is increased by 35% and target inflicted with Crit Chance reduction cannot dispel the effect.",
-        "[Twinkle Twinkle] DMG is increased by 42% and target inflicted with Crit Chance reduction cannot dispel the effect.",
-        "[Twinkle Twinkle] DMG is increased by 50% and target inflicted with Crit Chance reduction cannot dispel the effect."
+        "[Twinkle Twinkle] Crit Chance Reduction effect becomes irremovable, and its duration is increased by 2 sec.",
+        "[Twinkle Twinkle] Crit Chance Reduction effect becomes irremovable, and its duration is increased by 2.4 sec.",
+        "[Twinkle Twinkle] Crit Chance Reduction effect becomes irremovable, and its duration is increased by 2.9 sec.",
+        "[Twinkle Twinkle] Crit Chance Reduction effect becomes irremovable, and its duration is increased by 3.5 sec.",
+        "[Twinkle Twinkle] Crit Chance Reduction effect becomes irremovable, and its duration is increased by 4.2 sec.",
+        "[Twinkle Twinkle] Crit Chance Reduction effect becomes irremovable, and its duration is increased by 5 sec."
       ],
       "story": "A legendary snowfield flower that blossomed from the never melting land of Windland Snow Mountain. It is said that it makes the energy of its master's body flow clearly and beautifully. An item that makes Luna's pure energy shine even brighter."
     }
   },
   "s4": {
     "name": "Gotcha!",
-    "description": "Every {0} sec, deals a total of {2} M.DMG to the furthest enemy for {1} sec. The further the enemy, the more DMG they will take.",
+    "description": "When inflicted by CC, dispels negative effects from self and attacks the farthest enemy, dealing {0} M.DMG and knocking it away for {1} sec.",
     "books": {
       "0": "DMG is increased by {0}%.",
       "1": "DMG is increased by {0}%.",
       "2": "DMG is increased by {0}%."
     },
-    "light": "There is a 20% chance to knock back the enemy far away and inflict knock over for 2 sec.",
+    "light": "Removes positive effects from the target.",
     "dark": "Number of targets changes to 2.",
     "ut": {
       "name": "Carrot Cake",
       "description": [
-        "[Gotcha!] Increases DMG by 50%. Hit enemies take 10% increased M.DMG for 10 sec.",
-        "[Gotcha!] Increases DMG by 50%. Hit enemies take 12% increased M.DMG for 10 sec.",
-        "[Gotcha!] Increases DMG by 50%. Hit enemies take 14% increased M.DMG for 10 sec.",
-        "[Gotcha!] Increases DMG by 50%. Hit enemies take 17% increased M.DMG for 10 sec.",
-        "[Gotcha!] Increases DMG by 50%. Hit enemies take 21% increased M.DMG for 10 sec.",
-        "[Gotcha!] Increases DMG by 50%. Hit enemies take 25% increased M.DMG for 10 sec."
+        "[Gotcha!] Greatly increases the knockback range, and Cooldown is reduced by 2 sec.",
+        "[Gotcha!] Greatly increases the knockback range, and Cooldown is reduced by 2.4 sec.",
+        "[Gotcha!] Greatly increases the knockback range, and Cooldown is reduced by 2.9 sec.",
+        "[Gotcha!] Greatly increases the knockback range, and Cooldown is reduced by 3.5 sec.",
+        "[Gotcha!] Greatly increases the knockback range, and Cooldown is reduced by 4.2 sec.",
+        "[Gotcha!] Greatly increases the knockback range, and Cooldown is reduced by 5 sec."
       ],
       "story": "Juno's special carrot cake. This special carrot cake was made especially for Luna, who misses her family back in her hometown and the carrots she used to eat. As it has the exact same taste like the ones Luna would eat back at home, the cake has become Luna's new soul food."
     }
   },
   "t5": {
     "light": "ATK, DEF, HP+15% / Crit DMG +20%",
-    "dark": "When auto-attacking, there is a 10% chance to knock back the enemy across a long distance and inflict Stun for 3 sec. Also, increase ATK Spd by 500 for 3 sec."
+    "dark": "At the beginning of each battle, grants Blessing of the Carrot for 20 sec. Blessing of the Carrot increases DMG dealt to Non-Hero enemies by {0}%, and reduces DMG received by {1}%."
   }
 }

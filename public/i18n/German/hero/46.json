@@ -47,14 +47,14 @@
   },
   "s1": {
     "name": "Urteil der Wüste",
-    "description": "Verursacht {0} K.Schaden an Gegnern im weiten Umkreis und senkt den Skill-Cooldown um 1 Sek. pro getroffenem Gegner. Verursacht {1} K.Schaden an Gegnern, die unter dem [Mal der Wüste] leiden und entfernt 1 Zähler [Mal der Wüste]. Bei jeder Skillnutzung wird der Krit. Schaden um 5% erhöht. Der Effekt kann bis zu 12-mal kumuliert werden und ist nicht aufhebbar.",
+    "description": "Verursacht {0} Körp. Schaden an Gegnern im weiten Umkreis und senkt den Skill-Cooldown um 1 Sek. pro getroffenem Gegner. Verursacht {1} Körp. Schaden an Gegnern, die unter dem [Mal der Wüste] leiden und entfernt 1x [Mal der Wüste]. Bei jeder Skillnutzung wird der Krit. Schaden um 5% erhöht. Der Effekt kann bis zu 18x gestapelt werden und ist nicht aufhebbar.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
       "2": "Erhöht Schaden um {0}%."
     },
     "light": "Krit. Schadenserhöhung pro Nutzung erhöht sich auf 10%.",
-    "dark": "Getroffene Gegner sind 1 Sek. geblendet.",
+    "dark": "Betäubt 1 Sek. lang getroffene Feinde.",
     "ut": {
       "name": "Sandsturmpfeil",
       "description": [
@@ -76,17 +76,17 @@
       "1": "Erhöht Schaden und Schild-TP um {0}%.",
       "2": "Erhöht Schaden und Schild-TP um {0}%."
     },
-    "light": "Skill-Cooldown wird um 5 Sek. gesenkt.",
-    "dark": "Vom ‚Sandsturm‘ getroffene Gegner werden weit nach hinten und 3 Sek. lang zu Boden geworfen.",
+    "light": "Bei weniger als 3 Verbündete überträgt den Schild auf alle Verbündete. Dabei wird Sandstürme nicht aktiviert.",
+    "dark": "Aktiviert mit jedem Kampfbeginn einen eigenen 5-Sek.-Schild. Dabei wird Sandstürme nicht aktiviert.",
     "ut": {
       "name": "Sand der Illusionen",
       "description": [
-        "[Segen des Sandgeists] Schild absorbiert 20% mehr Schaden und hebt Statuseffekte des Nutzers auf.",
-        "[Segen des Sandgeists] Schild absorbiert 24% mehr Schaden und hebt Statuseffekte des Nutzers auf.",
-        "[Segen des Sandgeists] Schild absorbiert 29% mehr Schaden und hebt Statuseffekte des Nutzers auf.",
-        "[Segen des Sandgeists] Schild absorbiert 35% mehr Schaden und hebt Statuseffekte des Nutzers auf.",
-        "[Segen des Sandgeists] Schild absorbiert 42% mehr Schaden und hebt Statuseffekte des Nutzers auf.",
-        "[Segen des Sandgeists] Schild absorbiert 50% mehr Schaden und hebt Statuseffekte des Nutzers auf."
+        "[Segen des Sandgeists] entfernt eigene negative Effekte und (aktiviert) regeneriert es jede Sek. 80 Mana während der Wirkdauer des Schilds.",
+        "[Segen des Sandgeists] entfernt eigene negative Effekte und (aktiviert) regeneriert es jede Sek. 100 Mana während der Wirkdauer des Schilds.",
+        "[Segen des Sandgeists] entfernt eigene negative Effekte und (aktiviert) regeneriert es jede Sek. 120 Mana während der Wirkdauer des Schilds.",
+        "[Segen des Sandgeists] entfernt eigene negative Effekte und (aktiviert) regeneriert es jede Sek. 140 Mana während der Wirkdauer des Schilds.",
+        "[Segen des Sandgeists] entfernt eigene negative Effekte und (aktiviert) regeneriert es jede Sek. 170 Mana während der Wirkdauer des Schilds.",
+        "[Segen des Sandgeists] entfernt eigene negative Effekte und (aktiviert) regeneriert es jede Sek. 200 Mana während der Wirkdauer des Schilds."
       ],
       "story": "Eine Sanduhr, die lange Zeit von einem Sandsturm in der Aegina-Wüste unter der Erde vergraben war. Wenn sich der Sand in der Sanduhr bewegt, ruft er damit die Illusion einer uralten Stadt ins Leben. Der Hohepriester des uralten Königreiches nutzte dies, um seinem Volk den Ruhm des vergangenen Königreiches zu zeigen. Als sie sahen, wie ihre Stadt golden glänzte, wurden die Menschen von Stolz auf ihr Königreich erfüllt."
     }
@@ -139,6 +139,6 @@
   },
   "t5": {
     "light": "ANG, VERT, TP+15% / Krit. Chance +100",
-    "dark": "Regeneriert 500 Mana bei Nutzung eines Skills. Bei mehr als 5 Gegnern wird die Manaerholungsrate verdoppelt und die Angriffsgeschw. 5 Sek. lang um 500 erhöht. Dieser Effekt ist nicht kumulierbar."
+    "dark": "Regeneriert 700 Mana bei Nutzung eines Skills. Bei mehr als 5 Gegnern wird die Mana-Regenerationsrate verdoppelt und die ANG-GESCHW 5 Sek. lang um 500 erhöht. Dieser Effekt ist nicht stapelbar."
   }
 }

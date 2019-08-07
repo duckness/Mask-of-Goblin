@@ -54,7 +54,7 @@
       "2": "Daño Aumenta en {0}%."
     },
     "light": "Si hay 1 enemigo, el Daño se incrementa en un 100%.",
-    "dark": "Los enemigos golpeados quedan aturdidos durante 1 seg.",
+    "dark": "Aturde a los enemigos que reciben daño durante 2 segundos.",
     "ut": {
       "name": "Campana dorada de la suerte",
       "description": [
@@ -104,41 +104,41 @@
     "ut": {
       "name": "Flor de nieve que no se derrite",
       "description": [
-        "[Brilla Brilla] El Daño aumenta en un 20% y el objetivo infligido con la reducción de Oportunidad Crít. no puede disipar el efecto.",
-        "[Brilla Brilla] El Daño aumenta en un 24% y el objetivo infligido con la reducción de Oportunidad Crít. no puede disipar el efecto.",
-        "[Brilla Brilla] El Daño aumenta en un 29% y el objetivo infligido con la reducción de Oportunidad Crít. no puede disipar el efecto.",
-        "[Brilla Brilla] El Daño aumenta en un 35% y el objetivo infligido con la reducción de Oportunidad Crít. no puede disipar el efecto.",
-        "[Brilla Brilla] El Daño aumenta en un 42% y el objetivo infligido con la reducción de Oportunidad Crít. no puede disipar el efecto.",
-        "[Brilla Brilla] El Daño aumenta en un 50% y el objetivo infligido con la reducción de Oportunidad Crít. no puede disipar el efecto."
+        "[Brilla, Brilla] Hace imposible la cancelación de efectos de reducción de probabilidad de golpes críticos, incrementa en 2 segundos la duración del efecto.",
+        "[Brilla, Brilla] Hace imposible la cancelación de efectos de reducción de probabilidad de golpes críticos, incrementa en 2.4 segundos la duración del efecto.",
+        "[Brilla, Brilla] Hace imposible la cancelación de efectos de reducción de probabilidad de golpes críticos, incrementa en 2.9 segundos la duración del efecto.",
+        "[Brilla, Brilla] Hace imposible la cancelación de efectos de reducción de probabilidad de golpes críticos, incrementa en 3.5 segundos la duración del efecto.",
+        "[Brilla, Brilla] Hace imposible la cancelación de efectos de reducción de probabilidad de golpes críticos, incrementa en 4.2 segundos la duración del efecto.",
+        "[Brilla, Brilla] Hace imposible la cancelación de efectos de reducción de probabilidad de golpes críticos, incrementa en 5 segundos la duración del efecto."
       ],
       "story": "Una legendaria flor de los campos nevados que floreció en la Montaña Nevada Tierra del Viento, un lugar donde la nieve nunca se derrite. Se dice que hace que la energía del cuerpo de su maestro fluya de forma clara y bella. Un artículo que hace que la energía pura de Luna brille aún con mayor intensidad."
     }
   },
   "s4": {
     "name": "Te tengo!",
-    "description": "Cada {0} seg, causa {2} Daño Magico al enemigo más lejano por {1} seg. Cuanto más lejos esta el enemigo, más Daño recibe.",
+    "description": "Si te encuentras afectado por efectos de estado, cancela los efectos negativos, ataca al enemigo más distante causando un daño mágico de {0} y lo envía a volar durante {1} segundos.",
     "books": {
       "0": "Daño Aumenta en {0}%.",
       "1": "Daño Aumenta en {0}%.",
       "2": "Daño Aumenta en {0}%."
     },
-    "light": "Hay un 20% de probabilidad de derribar al enemigo lejano e infligir un golpe durante 2 seg.",
+    "light": "Cancela los efectos positivos del objetivo.",
     "dark": "El número de objetivos cambia a 2.",
     "ut": {
       "name": "Pastel de zanahorias",
       "description": [
-        "[¡Te tengo!] Aumenta el Daño en un 50 %. Los enemigos afectados reciben Daño mágico aumentado en un 10 % durante 10 segundos.",
-        "[¡Te tengo!] Aumenta el Daño en un 50 %. Los enemigos afectados reciben Daño mágico aumentado en un 12 % durante 10 segundos.",
-        "[¡Te tengo!] Aumenta el Daño en un 50 %. Los enemigos afectados reciben Daño mágico aumentado en un 14 % durante 10 segundos.",
-        "[¡Te tengo!] Aumenta el Daño en un 50 %. Los enemigos afectados reciben Daño mágico aumentado en un 17 % durante 10 segundos.",
-        "[¡Te tengo!] Aumenta el Daño en un 50 %. Los enemigos afectados reciben Daño mágico aumentado en un 21 % durante 10 segundos.",
-        "[¡Te tengo!] Aumenta el Daño en un 50 %. Los enemigos afectados reciben Daño mágico aumentado en un 25 % durante 10 segundos."
+        "[¡Te Tengo!] Incrementa grandemente la distancia de empuje y el tiempo de reutilización se reduce en 2 segundos.",
+        "[¡Te Tengo!] Incrementa grandemente la distancia de empuje y el tiempo de reutilización se reduce en 2.4 segundos.",
+        "[¡Te Tengo!] Incrementa grandemente la distancia de empuje y el tiempo de reutilización se reduce en 2.9 segundos.",
+        "[¡Te Tengo!] Incrementa grandemente la distancia de empuje y el tiempo de reutilización se reduce en 3.5 segundos.",
+        "[¡Te Tengo!] Incrementa grandemente la distancia de empuje y el tiempo de reutilización se reduce en 4.2 segundos.",
+        "[¡Te Tengo!] Incrementa grandemente la distancia de empuje y el tiempo de reutilización se reduce en 5 segundos."
       ],
       "story": "El pastel de zanahorias especial de Juno. Este pastel de zanahorias se hizo especialmente para Luna, que extraña a la familia en su pueblo natal y las zanahorias que solía comer. Como tiene el mismo sabor que los que Luna comía en casa, el pastel se convirtió en su nuevo alimento del alma."
     }
   },
   "t5": {
     "light": "ATQ, DEF, Salud+15% / Daño Crit+20%",
-    "dark": "Cuando se ataca automáticamente, hay un 10% de probabilidad de derribar al enemigo de larga distancia y aturdirlo durante 3 seg. Además, aumenta la Veloc de ATQ por 500 durante 3 seg."
+    "dark": "Al inicio de cada batalla, incrementa el daño causado a enemigos que hayan sido afectados por Bendición de la Zanahoria un {0}% y reduce el daño recibido un {1}% durante 20 segundos."
   }
 }

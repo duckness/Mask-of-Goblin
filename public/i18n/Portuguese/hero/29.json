@@ -54,7 +54,7 @@
       "2": "Aumenta o dano em {0}%."
     },
     "light": "Se houver 1 inimigo, aumenta o DAN em 100%.",
-    "dark": "Inimigos atingidos são atordoados por 1 segundos.",
+    "dark": "Atordoa o inimigo atingido por 2s.",
     "ut": {
       "name": "Cinto Dourado da Sorte",
       "description": [
@@ -104,41 +104,41 @@
     "ut": {
       "name": "Flor da Neve Indissolúvel",
       "description": [
-        "[Brilha Brilha] Aumenta o DAN em 20% e o alvo atingido com redução de Chance de Crit não pode remover o efeito.",
-        "[Brilha Brilha] Aumenta o DAN em 24% e o alvo atingido com redução de Chance de Crit não pode remover o efeito.",
-        "[Brilha Brilha] Aumenta o DAN em 29% e o alvo atingido com redução de Chance de Crit não pode remover o efeito.",
-        "[Brilha Brilha] Aumenta o DAN em 35% e o alvo atingido com redução de Chance de Crit não pode remover o efeito.",
-        "[Brilha Brilha] Aumenta o DAN em 42% e o alvo atingido com redução de Chance de Crit não pode remover o efeito.",
-        "[Brilha Brilha] Aumenta o DAN em 50% e o alvo atingido com redução de Chance de Crit não pode remover o efeito."
+        "[Brilha Brilha] Não permite remover o efeito de redução de CHANCE CRÍT e, aumenta a duração do efeito em 2s.",
+        "[Brilha Brilha] Não permite remover o efeito de redução de CHANCE CRÍT e, aumenta a duração do efeito em 2,4s.",
+        "[Brilha Brilha] Não permite remover o efeito de redução de CHANCE CRÍT e, aumenta a duração do efeito em 2,9s.",
+        "[Brilha Brilha] Não permite remover o efeito de redução de CHANCE CRÍT e, aumenta a duração do efeito em 3,5s.",
+        "[Brilha Brilha] Não permite remover o efeito de redução de CHANCE CRÍT e, aumenta a duração do efeito em 4,2s.",
+        "[Brilha Brilha] Não permite remover o efeito de redução de CHANCE CRÍT e, aumenta a duração do efeito em 5s."
       ],
       "story": "Uma flor lendária de campo de neve que floresceu nas terras que nunca degelam na Montanha Gélida da Terra dos Ventos. Dizem que ela faz com que a energia corporal de seu mestre flua livre e lindamente. Um item que faz a energia pura de Luna brilhar ainda mais."
     }
   },
   "s4": {
     "name": "Peguei Você!",
-    "description": "A cada {0} segundos, causa {2} DAN.M ao inimigo mais distante durante {1} segundos. Quando mais distante o inimigo estiver, maior será o DAN causado.",
+    "description": "Ao receber um efeito de status, remove o efeito negativo de si e ataca o inimigo mais distante, infligindo DANO M de {0} e lançando-o para longe por {1} s.",
     "books": {
       "0": "Aumenta o dano em {0}%.",
       "1": "Aumenta o dano em {0}%.",
       "2": "Aumenta o dano em {0}%."
     },
-    "light": "Há 20% de chance de repelir o inimigo para bem longe e derrubá-lo durante 2 segundos.",
+    "light": "Remove todos os efeitos positivos do adversário.",
     "dark": "Altera a quantidade de alvos para 2.",
     "ut": {
       "name": "Bolo de Cenoura",
       "description": [
-        "[Peguei Você!] Aumenta o DAN em 50%. Os inimigos atingidos recebem 10% a mais de DAN M. por 10 seg.",
-        "[Peguei Você!] Aumenta o DAN em 50%. Os inimigos atingidos recebem 12% a mais de DAN M. por 10 seg.",
-        "[Peguei Você!] Aumenta o DAN em 50%. Os inimigos atingidos recebem 14% a mais de DAN M. por 10 seg.",
-        "[Peguei Você!] Aumenta o DAN em 50%. Os inimigos atingidos recebem 17% a mais de DAN M. por 10 seg.",
-        "[Peguei Você!] Aumenta o DAN em 50%. Os inimigos atingidos recebem 21% a mais de DAN M. por 10 seg.",
-        "[Peguei Você!] Aumenta o DAN em 50%. Os inimigos atingidos recebem 25% a mais de DAN M. por 10 seg."
+        "[Peguei Você!] Aumenta consideravelmente a distância do empurrão e reduz o tempo de resfriamento em 2s.",
+        "[Peguei Você!] Aumenta consideravelmente a distância do empurrão e reduz o tempo de resfriamento em 2,4s.",
+        "[Peguei Você!] Aumenta consideravelmente a distância do empurrão e reduz o tempo de resfriamento em 2,9s.",
+        "[Peguei Você!] Aumenta consideravelmente a distância do empurrão e reduz o tempo de resfriamento em 3,5s.",
+        "[Peguei Você!] Aumenta consideravelmente a distância do empurrão e reduz o tempo de resfriamento em 4,2s.",
+        "[Peguei Você!] Aumenta consideravelmente a distância do empurrão e reduz o tempo de resfriamento em 5s."
       ],
       "story": "O bolo de cenoura especial de Juno. Esse bolo especial foi feito por Luna, que sente saudades da família em sua cidade natal e das cenouras que costumava comer. Como tem o mesmo sabor daqueles que Luna consumia em seu lar, o bolo se tornou o alimento favorito dela."
     }
   },
   "t5": {
     "light": "ATQ, DEF, PV+15% / DAN Crít. +20%",
-    "dark": "Quando atacar automaticamente, há 10% de chance de repelir o inimigo para longe e Atordoar durante 3 segundos. Aumenta a VEL. ATQ em 500, durante 3 segundos."
+    "dark": "Recebe a bênção da cenoura por 20s no início de cada batalha, aumentando o DANO infligido a inimigos não heróis em {0}% e reduzindo o DANO recebido em {1}%."
   }
 }

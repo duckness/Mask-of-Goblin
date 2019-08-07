@@ -74,7 +74,7 @@
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
-      "2": "Erhöht krit. Trefferchance um {0}%."
+      "2": "Erhöht Schaden um {0}%."
     },
     "light": "Reduziert Manakosten um 1.",
     "dark": "Ziel nimmt 10 Sek lang 25% erhöhten K.Schaden.",
@@ -100,7 +100,7 @@
       "2": "Erhöht Geschw. um {0}% während d. Wirkungsdauer."
     },
     "light": "Reduziert Manakosten um 1.",
-    "dark": "Erhöht die Manakosten um 2 und den Schaden an Feinden, die keine Helden sind, um 100 % für die Wirkungsdauer.",
+    "dark": "Erhöht die Manakosten um 1, dafür wird verursachter Schaden gegenüber Feinde, die keine Helden sind, für die Wirkungsdauer um 100% erhöht.",
     "ut": {
       "name": "Rune des Willens",
       "description": [
@@ -116,29 +116,29 @@
   },
   "s4": {
     "name": "Stoß der Göttin",
-    "description": "Verursache beim Ausweichen {0} K. Schaden an frontal stehenden Feinden und reduziere ihre PRÄZ für 5 Sek. um {1}. After hitting the target, gain 300 mana.",
+    "description": "Alle eigene VERT werden um {0} erhöht und die Ausweichrate wird um {1} erhöht. Beim Ausweichen eines Angriffs wird {2} Sek. lang der Normal-Schaden um {3}% erhöht.",
     "books": {
-      "0": "Erhöht Schaden um {0}%.",
-      "1": "Erhöht Schaden um {0}%.",
-      "2": "Erhöht krit. Trefferchance um {0}%."
+      "0": "Erhöht VERT-Erhöhungsrate um {0}%.",
+      "1": "Erhöht VERT-Erhöhungsrate um {0}%.",
+      "2": "Erhöht VERT-Erhöhungsrate um {0}%."
     },
-    "light": "PRÄZ-Verringerungsrate wurde auf 250 verringert.",
-    "dark": "Verkürzt Zauberdauer und reduziert Cooldown um 1 Sek.",
+    "light": "Erhöht die Schaden-Erhöhungsrate des Normal-ANG um 100%.",
+    "dark": "Verringert den vom Helden zugefügten Schaden um 15%.",
     "ut": {
       "name": "Luas Träne",
       "description": [
-        "[Stoß der Göttin] Erhöht den Schaden um 50 % und verringert die ANG-Geschwindigkeit des Ziels für 10 Sek. um 100.",
-        "[Stoß der Göttin] Erhöht den Schaden um 50 % und verringert die ANG-Geschwindigkeit des Ziels für 10 Sek. um 120.",
-        "[Stoß der Göttin] Erhöht den Schaden um 50 % und verringert die ANG-Geschwindigkeit des Ziels für 10 Sek. um 140.",
-        "[Stoß der Göttin] Erhöht den Schaden um 50 % und verringert die ANG-Geschwindigkeit des Ziels für 10 Sek. um 170.",
-        "[Stoß der Göttin] Erhöht den Schaden um 50 % und verringert die ANG-Geschwindigkeit des Ziels für 10 Sek. um 210.",
-        "[Stoß der Göttin] Erhöht den Schaden um 50 % und verringert die ANG-Geschwindigkeit des Ziels für 10 Sek. um 250."
+        "[Stoß der Göttin] VERT-Erhöhungsrate wird um {0}% erhöht und dem Bossmonster zugefügter Schaden wird um {1}% erhöht.",
+        "[Stoß der Göttin] VERT-Erhöhungsrate wird um {0}% erhöht und dem Bossmonster zugefügter Schaden wird um {1}% erhöht.",
+        "[Stoß der Göttin] VERT-Erhöhungsrate wird um {0}% erhöht und dem Bossmonster zugefügter Schaden wird um {1}% erhöht.",
+        "[Stoß der Göttin] VERT-Erhöhungsrate wird um {0}% erhöht und dem Bossmonster zugefügter Schaden wird um {1}% erhöht.",
+        "[Stoß der Göttin] VERT-Erhöhungsrate wird um {0}% erhöht und dem Bossmonster zugefügter Schaden wird um {1}% erhöht.",
+        "[Stoß der Göttin] VERT-Erhöhungsrate wird um {0}% erhöht und dem Bossmonster zugefügter Schaden wird um {1}% erhöht."
       ],
       "story": "Ein himmelblaues Juwel, das das Heilige Schwert Aea ziert. Es handelt sich um eine Verdichtung des Geistes, die durch die Tränen Luas gebunden wurde. Das Juwel besitzt die mysteriöse Macht, dem Wächter des Heiligen Schwertes den Weg des Lichts zu zeigen."
     }
   },
   "t5": {
     "light": "ANG, VERT, TP+15% / K.Ausw.-Chance +100",
-    "dark": "Holt beim Angriff zu einem weiteren Schlag aus, der 40% der ANG als Schaden verursacht."
+    "dark": "Verursacht beim ANG zusätz. Schaden im Wert von 80% des eigenen ANG."
   }
 }

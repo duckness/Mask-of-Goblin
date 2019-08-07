@@ -49,9 +49,9 @@
     "name": "Agulha de Fogo",
     "description": "Ataca um inimigo aleatório 5 vezes para causar um total de {0} de DAN M. Recupera a própria Mana em 100 após um Acerto Crítico.",
     "books": {
-      "0": "Aumenta o DAN em {0}%.",
-      "1": "Aumenta o DAN em {0}%.",
-      "2": "Aumenta o DAN em {0}%."
+      "0": "Aumenta o DANO em {0}%.",
+      "1": "Aumenta o DANO em {0}%.",
+      "2": "Aumenta o DANO em {0}%."
     },
     "light": "O DAN da habilidade é reduzido em 50% ao atacar mais de 5 inimigos, mas seu alvo passa a ser todos os inimigos.",
     "dark": "Atordoa o alvo por 1 segundo.",
@@ -72,9 +72,9 @@
     "name": "Bola de Fogo",
     "description": "Ataca o alvo e os inimigos perto dele, causando {0} de DAN M. e atordoando-os por 2 segundos. Causa {1} de DAN M. adicional em Chefes.",
     "books": {
-      "0": "Aumenta o DAN em {0}%.",
-      "1": "Aumenta o DAN em {0}%.",
-      "2": "Aumenta o DAN em {0}%."
+      "0": "Aumenta o DANO em {0}%.",
+      "1": "Aumenta o DANO em {0}%.",
+      "2": "Aumenta o DANO em {0}%."
     },
     "light": "Ao acertar um inimigo com 10 ou mais acúmulos de Brasa, aumenta o DAN M. que ele leva em 40%, por 10 segundos.",
     "dark": "Aplica 10 acúmulos de Brasa ao inimigo atingido.",
@@ -95,21 +95,21 @@
     "name": "Chuva de Fogo",
     "description": "Ataca todos os inimigos 5 vezes, causando um total de {0} de DAN M. Esse ataque causa 150% de DAN Crít aumentado.",
     "books": {
-      "0": "Aumenta o DAN em {0}%.",
-      "1": "Aumenta o DAN em {0}%.",
-      "2": "Aumenta o DAN em {0}%."
+      "0": "Aumenta o DANO em {0}%.",
+      "1": "Aumenta o DANO em {0}%.",
+      "2": "Aumenta o DANO em {0}%."
     },
     "light": "Aumenta o DAN em 40%.",
     "dark": "Reduz o Custo de Mana em 2 por 10 seg ao atacar mais de 5 inimigos. Uma Recarga de 10 seg é aplicada.",
     "ut": {
       "name": "Pergaminho do Inferno Ardente",
       "description": [
-        "[Chuva de Fogo] O DAN aumenta em 20%. Após o Golpe Crit em inimigos com mais de 5 acúmulos de Brasa, a recarga do poder será reduzida em 5%.",
-        "[Chuva de Fogo] O DAN aumenta em 24%. Após o Golpe Crit em inimigos com mais de 5 acúmulos de Brasa, a recarga do poder será reduzida em 5%.",
-        "[Chuva de Fogo] O DAN aumenta em 29%. Após o Golpe Crit em inimigos com mais de 5 acúmulos de Brasa, a recarga do poder será reduzida em 5%.",
-        "[Chuva de Fogo] O DAN aumenta em 35%. Após o Golpe Crit em inimigos com mais de 5 acúmulos de Brasa, a recarga do poder será reduzida em 5%.",
-        "[Chuva de Fogo] O DAN aumenta em 42%. Após o Golpe Crit em inimigos com mais de 5 acúmulos de Brasa, a recarga do poder será reduzida em 5%.",
-        "[Chuva de Fogo] O DAN aumenta em 50%. Após o Golpe Crit em inimigos com mais de 5 acúmulos de Brasa, a recarga do poder será reduzida em 5%."
+        "[Chuva de Fogo] Aumenta o DANO em 20% e reduz o tempo de resfriamento em {0}% ao infligir DANO CRÍT a um inimigo com 5 acúmulos de Brasa ou mais. Ao matar o inimigo com esta habilidade, o tempo de resfriamento reduz adicionalmente em {1}%.",
+        "[Chuva de Fogo] Aumenta o DANO em 24% e reduz o tempo de resfriamento em {0}% ao infligir DANO CRÍT a um inimigo com 5 acúmulos de Brasa ou mais. Ao matar o inimigo com esta habilidade, o tempo de resfriamento reduz adicionalmente em {1}%.",
+        "[Chuva de Fogo] Aumenta o DANO em 29% e reduz o tempo de resfriamento em {0}% ao infligir DANO CRÍT a um inimigo com 5 acúmulos de Brasa ou mais. Ao matar o inimigo com esta habilidade, o tempo de resfriamento reduz adicionalmente em {1}%.",
+        "[Chuva de Fogo] Aumenta o DANO em 35% e reduz o tempo de resfriamento em {0}% ao infligir DANO CRÍT a um inimigo com 5 acúmulos de Brasa ou mais. Ao matar o inimigo com esta habilidade, o tempo de resfriamento reduz adicionalmente em {1}%.",
+        "[Chuva de Fogo] Aumenta o DANO em 42% e reduz o tempo de resfriamento em {0}% ao infligir DANO CRÍT a um inimigo com 5 acúmulos de Brasa ou mais. Ao matar o inimigo com esta habilidade, o tempo de resfriamento reduz adicionalmente em {1}%.",
+        "[Chuva de Fogo] Aumenta o DANO em 50% e reduz o tempo de resfriamento em {0}% ao infligir DANO CRÍT a um inimigo com 5 acúmulos de Brasa ou mais. Ao matar o inimigo com esta habilidade, o tempo de resfriamento reduz adicionalmente em {1}%."
       ],
       "story": "Um pergaminho escrito por uma feiticeira do fogo conhecida como a Deusa do Fogo. Deixado pela grande Feiticeira do Fogo de Orvelia, Vesta, quando ela estava na Torre dos Sábios. É muito poderoso, mas também exige muita mana. Cleo pegou o Pergaminho do Inferno em Chamas, considerado um pergaminho proibido, da Torre dos Sábios. Agora ela o usa para melhorar sua Chuva de Fogo."
     }
@@ -118,9 +118,9 @@
     "name": "Difusão de Chamas",
     "description": "Inflige um acúmulo de Brasa ao acertar um inimigo. Inimigos afetados pela Brasa levam {1} de DAN M. por 20 segundos. Brasa pode ser acumulada no máximo 10 vezes.",
     "books": {
-      "0": "Aumenta o DAN em {0}%.",
-      "1": "Aumenta o DAN em {0}%.",
-      "2": "Aumenta o DAN em {0}%."
+      "0": "Aumenta o DANO em {0}%.",
+      "1": "Aumenta o DANO em {0}%.",
+      "2": "Aumenta o DANO em {0}%."
     },
     "light": "Aumenta o número máximo de acúmulos de Brasa para 12.",
     "dark": "A cada 10 seg, atordoa o inimigo afetado por Brasa por 2 seg. Inimigos com mais de 10 acúmulos de brasa podem ser atordoados por 3 seg.",

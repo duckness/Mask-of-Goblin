@@ -238,7 +238,7 @@
             15
           ],
           [
-            250
+            25
           ]
         ],
         "dark": null,
@@ -270,7 +270,9 @@
       "s4": {
         "description": [
           "???",
-          150
+          200,
+          5,
+          50
         ],
         "books": [
           [
@@ -280,7 +282,7 @@
             15
           ],
           [
-            250
+            25
           ]
         ],
         "dark": null,
@@ -557,7 +559,7 @@
         "description": [
           10,
           "???",
-          40
+          "???"
         ],
         "mana": 2,
         "cooldown": 15,
@@ -933,7 +935,7 @@
       },
       "s4": {
         "description": [
-          15,
+          "???",
           "???"
         ],
         "books": [
@@ -1464,7 +1466,7 @@
       },
       "s3": {
         "description": [
-          2,
+          "???",
           "???",
           400,
           "???"
@@ -1550,7 +1552,7 @@
         "description": [
           "???",
           4,
-          2
+          "???"
         ],
         "mana": 3,
         "cooldown": 10,
@@ -1796,7 +1798,7 @@
       },
       "s3": {
         "description": [
-          0,
+          "???",
           "???",
           25
         ],
@@ -2110,7 +2112,7 @@
       "s2": {
         "description": [
           "???",
-          100
+          "???"
         ],
         "mana": 2,
         "cooldown": 8,
@@ -2995,7 +2997,7 @@
         "description": [
           8,
           50,
-          8,
+          "???",
           "???"
         ],
         "mana": 2,
@@ -3244,7 +3246,7 @@
       "s2": {
         "description": [
           "???",
-          1
+          3
         ],
         "mana": 2,
         "cooldown": 12,
@@ -3286,9 +3288,8 @@
       },
       "s4": {
         "description": [
-          6,
-          5,
-          "???"
+          "???",
+          2
         ],
         "books": [
           [
@@ -3305,7 +3306,10 @@
         "light": null
       },
       "t5": {
-        "dark": null,
+        "dark": [
+          30,
+          30
+        ],
         "light": null
       }
     },
@@ -3512,15 +3516,15 @@
         "books": [
           [
             10,
-            10
+            "???"
           ],
           [
             15,
-            15
+            "???"
           ],
           [
             25,
-            25
+            "???"
           ]
         ],
         "dark": null,
@@ -3926,6 +3930,7 @@
       },
       "s3": {
         "description": [
+          "???",
           "???"
         ],
         "mana": 4,
@@ -3946,6 +3951,7 @@
       },
       "s4": {
         "description": [
+          "???",
           "???"
         ],
         "books": [
@@ -4825,7 +4831,7 @@
           "???"
         ],
         "mana": 4,
-        "cooldown": 25,
+        "cooldown": 18,
         "books": [
           [
             10
@@ -5135,7 +5141,7 @@
           "???"
         ],
         "mana": 2,
-        "cooldown": 17,
+        "cooldown": 14,
         "books": [
           [
             10
@@ -7156,7 +7162,7 @@
       "s3": {
         "description": [
           "???",
-          20
+          "???"
         ],
         "mana": 4,
         "cooldown": 20,
@@ -7525,7 +7531,7 @@
           "???",
           "???",
           30,
-          40
+          60
         ],
         "books": [
           [
@@ -7867,7 +7873,7 @@
           [
             "???",
             4,
-            9999.999
+            "???"
           ],
           [
             "???",
@@ -8438,7 +8444,7 @@
           5,
           "???",
           "???",
-          15
+          10
         ],
         "mana": null,
         "cooldown": 22,
@@ -8896,7 +8902,7 @@
       "s3": {
         "description": [
           "???",
-          5
+          "???"
         ],
         "mana": 4,
         "cooldown": 25,
@@ -9235,9 +9241,9 @@
       },
       "s2": {
         "description": [
-          7,
           "???",
           "???",
+          1.5,
           600,
           120,
           2
@@ -9262,7 +9268,7 @@
         "description": [
           "???",
           "???",
-          100
+          "???"
         ],
         "mana": 4,
         "cooldown": 20,
@@ -9288,7 +9294,7 @@
           5,
           "???",
           50,
-          999.999
+          "???"
         ],
         "books": [
           [
@@ -9440,57 +9446,140 @@
         "type": "rear",
         "weight": 400
       },
-      "mpatk": 475,
+      "mpatk": 425,
       "mpsec": 60,
-      "auto": null,
-      "s1": {
-        "description": null,
-        "mana": null,
-        "cooldown": null,
-        "books": [
-          null,
-          null,
-          null
+      "auto": {
+        "range": 7000,
+        "rangeType": "Ranged",
+        "time": [
+          [
+            0.5,
+            0.7,
+            0.9,
+            1.1,
+            1.3
+          ]
         ],
-        "dark": null,
+        "duration": 1.7
+      },
+      "s1": {
+        "description": [
+          "???",
+          20,
+          10,
+          25,
+          4,
+          300
+        ],
+        "mana": 2,
+        "cooldown": 12,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": [
+          40,
+          60,
+          3,
+          5
+        ],
         "light": null
       },
       "s2": {
-        "description": null,
-        "mana": null,
-        "cooldown": null,
+        "description": [
+          10,
+          "???",
+          "???",
+          25,
+          1,
+          8,
+          50
+        ],
+        "mana": 3,
+        "cooldown": 14,
         "books": [
-          null,
-          null,
-          null
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
         ],
         "dark": null,
-        "light": null
+        "light": [
+          3,
+          150
+        ]
       },
       "s3": {
-        "description": null,
-        "mana": null,
-        "cooldown": null,
-        "books": [
-          null,
-          null,
-          null
+        "description": [
+          "???",
+          50,
+          5
         ],
-        "dark": null,
+        "mana": 4,
+        "cooldown": 27,
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": [
+          80,
+          60,
+          60,
+          5
+        ],
         "light": null
       },
       "s4": {
-        "description": null,
-        "books": [
-          null,
-          null,
-          null
+        "description": [
+          "???",
+          5,
+          2
         ],
-        "dark": null,
-        "light": null
+        "books": [
+          [
+            10
+          ],
+          [
+            15
+          ],
+          [
+            25
+          ]
+        ],
+        "dark": [
+          10,
+          30
+        ],
+        "light": [
+          6,
+          20
+        ]
       },
       "t5": {
-        "dark": null,
+        "dark": [
+          500,
+          5,
+          15
+        ],
         "light": null
       }
     }

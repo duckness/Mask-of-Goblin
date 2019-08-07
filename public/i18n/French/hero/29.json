@@ -54,7 +54,7 @@
       "2": "Augmente les dégâts de {0}%."
     },
     "light": "S'il y a 1 ennemi, les DEG sont augmentés de 100%.",
-    "dark": "Les ennemis touchés subissent Étourdissement pendant 1 sec.",
+    "dark": "Étourdit l'ennemi touché pendant 2 sec.",
     "ut": {
       "name": "Cloche dorée de la chance",
       "description": [
@@ -104,41 +104,41 @@
     "ut": {
       "name": "Fleur des neiges éternelles",
       "description": [
-        "[Brille Brille] Les DEG sont augmentés de 20% et l'effet de Réduction des Chances de Crit ne peut pas être dissipé.",
-        "[Brille Brille] Les DEG sont augmentés de 24% et l'effet de Réduction des Chances de Crit ne peut pas être dissipé.",
-        "[Brille Brille] Les DEG sont augmentés de 29% et l'effet de Réduction des Chances de Crit ne peut pas être dissipé.",
-        "[Brille Brille] Les DEG sont augmentés de 35% et l'effet de Réduction des Chances de Crit ne peut pas être dissipé.",
-        "[Brille Brille] Les DEG sont augmentés de 42% et l'effet de Réduction des Chances de Crit ne peut pas être dissipé.",
-        "[Brille Brille] Les DEG sont augmentés de 50% et l'effet de Réduction des Chances de Crit ne peut pas être dissipé."
+        "[Brille Brille] L'effet de Réduction des Chances de Crit ne peut plus être dissipé, et la durée de la compétence augmente de 2 sec.",
+        "[Brille Brille] L'effet de Réduction des Chances de Crit ne peut plus être dissipé, et la durée de la compétence augmente de 2,4 sec.",
+        "[Brille Brille] L'effet de Réduction des Chances de Crit ne peut plus être dissipé, et la durée de la compétence augmente de 2,9 sec.",
+        "[Brille Brille] L'effet de Réduction des Chances de Crit ne peut plus être dissipé, et la durée de la compétence augmente de 3,5 sec.",
+        "[Brille Brille] L'effet de Réduction des Chances de Crit ne peut plus être dissipé, et la durée de la compétence augmente de 4,2 sec.",
+        "[Brille Brille] L'effet de Réduction des Chances de Crit ne peut plus être dissipé, et la durée de la compétence augmente de 5 sec."
       ],
       "story": "Une fleur de Champ enneigé légendaire qui pousse dans les terres perpétuellement gelées de la Montagne Enneigée Terre-Venteuse. On dit qu’elle permet à l’énergie du corps de son possesseur de circuler librement et magnifiquement. Cet objet permet à l’énergie pure de Luna de briller encore plus fort."
     }
   },
   "s4": {
     "name": "Je t'ai eu!",
-    "description": "Toutes les {0} sec, inflige {2} points de DEG M. à l'ennemi le plus éloigné pendant {1} sec. Plus l'ennemi est éloigné, plus il reçoit des DEG.",
+    "description": "Lorsque vous êtes touché par un Contrôle, dissipe les effets néfastes et attaque l'ennemi le plus éloigné pour lui infliger {0} DEG M et le repousse pendant {1} sec.",
     "books": {
       "0": "Augmente les dégâts de {0}%.",
       "1": "Augmente les dégâts de {0}%.",
       "2": "Augmente les dégâts de {0}%."
     },
-    "light": "A 20% de chances de repousser l'ennemi assez loin et de le renverser pendant 2 sec.",
+    "light": "Dissipe les effets positifs sur la cible.",
     "dark": "Le nombre de cibles est maintenant de 2.",
     "ut": {
       "name": "Gâteau à la carotte",
       "description": [
-        "[Je t'ai eu !] Augmente les DEG de 50 %. Les ennemis touchés subissent 10 % de DEG M supplémentaires pendant 10 sec.",
-        "[Je t'ai eu !] Augmente les DEG de 50 %. Les ennemis touchés subissent 12 % de DEG M supplémentaires pendant 10 sec.",
-        "[Je t'ai eu !] Augmente les DEG de 50 %. Les ennemis touchés subissent 14 % de DEG M supplémentaires pendant 10 sec.",
-        "[Je t'ai eu !] Augmente les DEG de 50 %. Les ennemis touchés subissent 17 % de DEG M supplémentaires pendant 10 sec.",
-        "[Je t'ai eu !] Augmente les DEG de 50 %. Les ennemis touchés subissent 21 % de DEG M supplémentaires pendant 10 sec.",
-        "[Je t'ai eu !] Augmente les DEG de 50 %. Les ennemis touchés subissent 25 % de DEG M supplémentaires pendant 10 sec."
+        "[Je t'ai eu !] Augmente de manière considérable la distance dont l'ennemi est repoussé et réduit le temps de recharge de 2 sec.",
+        "[Je t'ai eu !] Augmente de manière considérable la distance dont l'ennemi est repoussé et réduit le temps de recharge de 2,4 sec.",
+        "[Je t'ai eu !] Augmente de manière considérable la distance dont l'ennemi est repoussé et réduit le temps de recharge de 2,9 sec.",
+        "[Je t'ai eu !] Augmente de manière considérable la distance dont l'ennemi est repoussé et réduit le temps de recharge de 3,5 sec.",
+        "[Je t'ai eu !] Augmente de manière considérable la distance dont l'ennemi est repoussé et réduit le temps de recharge de 4,2 sec.",
+        "[Je t'ai eu !] Augmente de manière considérable la distance dont l'ennemi est repoussé et réduit le temps de recharge de 5 sec."
       ],
       "story": "Le gâteau à la carotte spécial de Juno. Ce gâteau fut créé spécialement pour Luna, car sa famille de sa ville natale et les carottes qu'elle y mangeait lui manquent. Il a exactement le même goût que les gâteaux que Luna mangeait chez elle, et est donc naturellement devenu son nouveau péché mignon."
     }
   },
   "t5": {
     "light": "ATQ, DEF, PV +15% / DEG Crit +20%",
-    "dark": "Les attaques auto ont 10% de chances de Repousser l'ennemi sur une longue distance et d'appliquer Étourdissement pendant 3 sec. La Vit. ATQ est également augmentée de 500 pendant 3 sec."
+    "dark": "Au début de chaque bataille, grâce à la bénédiction de la carotte, augmente les DEG infligés aux ennemis non-Héros de {0}% et réduit les DEG reçus de {1}% pendant 20 sec."
   }
 }
