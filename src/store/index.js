@@ -164,7 +164,7 @@ const getters = {
     return h.getUnique(h.getClassStats().uatk);
   },
   getUHP: function () {
-    return h.getUnique(11500);
+    return h.getUnique(13800);
   }
 };
 
