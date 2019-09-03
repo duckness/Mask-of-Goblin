@@ -1,10 +1,10 @@
 {
   "name": "Gau",
-  "subtitle": "Barbare des Terres Gelées",
+  "subtitle": "Barbare des Terres gelées",
   "description": "Un barbare qui règne sur les plaines enneigées des Terres Gelées, il sape le moral des ennemis avec ses cris assourdissants et les charge directement, tel une tempête.",
   "story": "Gau est un puissant guerrier du royaume barbare. Dès qu'il maniait ses deux haches, un bain de sang s'ensuivait. Sa férocité légendaire avait fait de lui un guerrier redouté. Cependant, il disparut soudainement pendant dix ans et, à son retour, il avait changé du tout au tout. Ses tendances violentes avaient disparu, même lorsque les autres le critiquaient. Au lieu de cela, il répond par des sourires et un rire jovial. C'est particulièrement surprenant de le voir sourire avec bonté aux enfants et aux animaux.",
-  "like": "Les enfants, les animaux",
-  "dislike": "Les gens destructeurs et violents",
+  "like": "Les enfants et les animaux",
+  "dislike": "Les personnes destructives et violentes",
   "inn": {
     "idle": "Vous faites des affaires avec un barbare?",
     "recruit": {
@@ -36,7 +36,7 @@
   "uw": {
     "name": "Numinu, oiseau sacré",
     "description": [
-      "Pour chaque 1% de PV perdus, l'ATQ augmente de 0.8% et la Vitesse d'ATQ augmente de 8.",
+      "Augmente les PV Max de {0}%. Pour chaque 1% de PV perdus, augmente l'ATQ de {1}% et la Vitesse d'ATQ de {2}.",
       "Pour chaque 1% de PV perdus, l'ATQ augmente de 1% et la Vitesse d'ATQ augmente de 10.",
       "Pour chaque 1% de PV perdus, l'ATQ augmente de 1.2% et la Vitesse d'ATQ augmente de 12.",
       "Pour chaque 1% de PV perdus, l'ATQ augmente de 1.4% et la Vitesse d'ATQ augmente de 14.",
@@ -93,7 +93,7 @@
   },
   "s3": {
     "name": "Vortex",
-    "description": "Inflige {0}  points de DEG P aux ennemis à proximité ainsi que {1}  points de DEG P supplémentaires aux ennemis non-héros. La dernière attaque gèle les ennemis pendant {2}  sec. Confère l'immunité contre les contrôles pendant l'incantation.",
+    "description": "Inflige {0} DEG P aux ennemis à proximité ainsi que {1}  DEG P aux ennemis non-Héros. La dernière attaque gèle les ennemis pendant {2}  sec. Confère l'immunité contre les contrôles pendant l'incantation.",
     "books": {
       "0": "Augmente les DEG de {0}%.",
       "1": "Augmente les DEG de {0}%.",

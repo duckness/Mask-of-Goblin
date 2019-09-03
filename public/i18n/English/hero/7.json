@@ -36,7 +36,7 @@
   "uw": {
     "name": "Lakrak MK-1",
     "description": [
-      "Gains a 25% chance to obtain a stack of Gunpowder upon attacking. Each stack of Gunpowder increases ATK by 3%, ATK Spd by 30, and DMG to non-Hero enemies by 3%. Gunpowder stacks up to 7 times and cannot be removed.",
+      "Gains a 25% chance to obtain a stack of Gunpowder upon attacking. Each stack of Gunpowder increases own ATK by {0}%, ATK Spd by {1} , and DMG to Non-Hero enemies by {2}%. Gunpowder stacks up to {3} times and is irremovable.",
       "Gains a 25% chance to obtain a stack of Gunpowder upon attacking. Each stack of Gunpowder increases ATK by 3.6%, ATK Spd by 36, and DMG to non-Hero enemies by 3.6%. Gunpowder stacks up to 7 times and cannot be removed.",
       "Gains a 25% chance to obtain a stack of Gunpowder upon attacking. Each stack of Gunpowder increases ATK by 4.3%, ATK Spd by 43, and DMG to non-Hero enemies by 4.3%. Gunpowder stacks up to 7 times and cannot be removed.",
       "Gains a 25% chance to obtain a stack of Gunpowder upon attacking. Each stack of Gunpowder increases ATK by 5.1%, ATK Spd by 51, and DMG to non-Hero enemies by 5.1%. Gunpowder stacks up to 7 times and cannot be removed.",
@@ -70,7 +70,7 @@
   },
   "s2": {
     "name": "Smoke Bomb",
-    "description": "Deals {0} P.DMG to enemies in range and inflicts Blind for 4 sec.",
+    "description": "Deals {0} P.DMG to enemies in range. Target takes {2}% increased P.DMG for {1} sec and is inflicted with Blind for 4 sec.",
     "books": {
       "0": "DMG is increased by {0}%.",
       "1": "DMG is increased by {0}%.",

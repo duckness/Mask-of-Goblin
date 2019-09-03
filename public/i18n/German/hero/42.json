@@ -47,7 +47,7 @@
   },
   "s1": {
     "name": "Zeitriss",
-    "description": "Fügt Feinden in einer Linie M.Schaden in Höhe von {0} zu und versteinert sie.",
+    "description": "Fügt Feinden in einer Linie Mag. Schaden in Höhe von {0} zu und versteinert sie.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -58,19 +58,19 @@
     "ut": {
       "name": "Ausgezeichnete Kugel",
       "description": [
-        "[Zeitriss] Gewährt Statuseffekt-Immunität für die Dauer des Skills und verringert das Mana des Ziels um 400.",
-        "[Zeitriss] Gewährt Statuseffekt-Immunität für die Dauer des Skills und verringert das Mana des Ziels um 480.",
-        "[Zeitriss] Gewährt Statuseffekt-Immunität für die Dauer des Skills und verringert das Mana des Ziels um 580.",
-        "[Zeitriss] Gewährt Statuseffekt-Immunität für die Dauer des Skills und verringert das Mana des Ziels um 700.",
-        "[Zeitriss] Gewährt Statuseffekt-Immunität für die Dauer des Skills und verringert das Mana des Ziels um 840.",
-        "[Zeitriss] Gewährt Statuseffekt-Immunität für die Dauer des Skills und verringert das Mana des Ziels um 1000."
+        "[Zeitriss] Gewährt Massenkontrolle-Immunität für die Dauer des Skills und verringert das Mana des Ziels um 400.",
+        "[Zeitriss] Gewährt Massenkontrolle-Immunität für die Dauer des Skills und verringert das Mana des Ziels um 480.",
+        "[Zeitriss] Gewährt Massenkontrolle-Immunität für die Dauer des Skills und verringert das Mana des Ziels um 580.",
+        "[Zeitriss] Gewährt Massenkontrolle-Immunität für die Dauer des Skills und verringert das Mana des Ziels um 700.",
+        "[Zeitriss] Gewährt Massenkontrolle-Immunität für die Dauer des Skills und verringert das Mana des Ziels um 840.",
+        "[Zeitriss] Gewährt Massenkontrolle-Immunität für die Dauer des Skills und verringert das Mana des Ziels um 1000."
       ],
       "story": "Ein Gerät, das zur Anpassung von Zeitrissen verwendet wird. Zeitmanipulation kann zu Zeitrissen führen, in denen sich mächtige Energie sammelt. Jene, die nicht dazu in der Lage sind, die Risse zu kontrollieren, können auf ewig darin gefangen sein. Oddy, ein erfahrener Zeitzauberer, hat diese ausgezeichnete Kugel hergestellt, um Zeitrisse zu justieren und die Energie dazu einzusetzen, die Leistung von Tempodiana zu maximieren."
     }
   },
   "s2": {
     "name": "Zeitfragmente",
-    "description": "Greift 6 zufällige Gegner an und verursacht einen Gesamtschaden von {0} M. Schaden. 50% Chance, dass der Cooldown für 'Zeitfragmente' zurückgesetzt wird und der Skill beim nächsten Mal kein Mana verbraucht.",
+    "description": "Greift 6 zufällige Gegner an und verursacht einen Gesamtschaden von {0} Mag. Schaden. 50%ige Chance, dass der Cooldown für 'Zeitfragmente' zurückgesetzt wird und der Skill beim nächsten Mal kein Mana verbraucht.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -93,7 +93,7 @@
   },
   "s3": {
     "name": "Zeitkrümmung",
-    "description": "Verursacht {0} M. Schaden an allen Feinden und erhöht Angriffsgeschw. der Verbündeten um {1} für 15 Sek. Anschließend wird bei Verbündeten-Skills, die noch Cooldown haben, dieser um 50% reduziert. Dieser Skill wird davon jedoch nicht beeinflusst.",
+    "description": "Verursacht {0} Mag. Schaden an allen Feinden und erhöht Angriffsgeschw. der Verbündeten um {1} für 15 Sek. Anschließend wird bei Verbündeten-Skills, die noch Cooldown haben, dieser um 50% reduziert. Dieser Skill wird davon jedoch nicht beeinflusst.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -116,7 +116,7 @@
   },
   "s4": {
     "name": "Uhrmagie",
-    "description": "Beim Einsatz des Skills verursachen die nächsten 2 Angriffe {0} zusätzlichen M.Schaden mit einer Chance von 30 %, das Ziel für 3 Sek. zu versteinern. Dieser Effekt wird 1-mal pro Sek. aktiviert.",
+    "description": "Beim Einsatz des Skills verursachen die nächsten 2 Angriffe {0} zusätzlichen Mag. Schaden mit einer Chance von 30 %, das Ziel für 3 Sek. zu versteinern. Dieser Effekt wird 1-mal pro Sek. aktiviert.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -127,12 +127,12 @@
     "ut": {
       "name": "Zeit manipulierendes Uhrwerk",
       "description": [
-        "[Uhrenmagie] Erhöht den Schaden um 50 %. Getroffene Feinde erleiden für 10 Sek. um 10 % erhöhten M.Schaden.",
-        "[Uhrenmagie] Erhöht den Schaden um 50 %. Getroffene Feinde erleiden für 10 Sek. um 12 % erhöhten M.Schaden.",
-        "[Uhrenmagie] Erhöht den Schaden um 50 %. Getroffene Feinde erleiden für 10 Sek. um 14 % erhöhten M.Schaden.",
-        "[Uhrenmagie] Erhöht den Schaden um 50 %. Getroffene Feinde erleiden für 10 Sek. um 17 % erhöhten M.Schaden.",
-        "[Uhrenmagie] Erhöht den Schaden um 50 %. Getroffene Feinde erleiden für 10 Sek. um 21 % erhöhten M.Schaden.",
-        "[Uhrenmagie] Erhöht den Schaden um 50 %. Getroffene Feinde erleiden für 10 Sek. um 25 % erhöhten M.Schaden."
+        "[Uhrenmagie] Erhöht den Schaden um 50 %. Getroffene Feinde erleiden für 10 Sek. um 10 % erhöhten Mag. Schaden.",
+        "[Uhrenmagie] Erhöht den Schaden um 50 %. Getroffene Feinde erleiden für 10 Sek. um 12 % erhöhten Mag. Schaden.",
+        "[Uhrenmagie] Erhöht den Schaden um 50 %. Getroffene Feinde erleiden für 10 Sek. um 14 % erhöhten Mag. Schaden.",
+        "[Uhrenmagie] Erhöht den Schaden um 50 %. Getroffene Feinde erleiden für 10 Sek. um 17 % erhöhten Mag. Schaden.",
+        "[Uhrenmagie] Erhöht den Schaden um 50 %. Getroffene Feinde erleiden für 10 Sek. um 21 % erhöhten Mag. Schaden.",
+        "[Uhrenmagie] Erhöht den Schaden um 50 %. Getroffene Feinde erleiden für 10 Sek. um 25 % erhöhten Mag. Schaden."
       ],
       "story": "Ein Uhrwerk, das Oddy angefertigt hat, um den Fluss der Zeit zu kontrollieren. Oddy verbrachte unzählige Tage vergebens damit, das perfekte Uhrwerk zu erforschen und zu entwickeln. Das Design war perfekt, er hatte jedoch keinen passenden Katalysatorencontainer für seine mächtige Uhrenmagie. Kein Metall der Welt konnte der Hitze eines einzigen Tickens der Uhr standhalten. Als er verzweifelt über seinen Plan nachdachte, viel ihm plötzlich etwas ein: Er hatte von Nyx einmal einen Stein aus dem Weltall erhalten. Er erdete ihn und machte daraus das perfekte Uhrwerk."
     }

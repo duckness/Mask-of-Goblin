@@ -36,18 +36,18 @@
   "uw": {
     "name": "Nie versiegende Quelle, Cielamaha",
     "description": [
-      "50 Manaerholung pro Sek. Chance von 80%, bei einem Angriff zusätzlichen K.Schaden in Höhe von 20% des ANG zu verursachen.",
-      "60 Manaerholung pro Sek. Chance von 80%, bei einem Angriff zusätzlichen K.Schaden in Höhe von 24% des ANG zu verursachen.",
-      "70 Manaerholung pro Sek. Chance von 80%, bei einem Angriff zusätzlichen K.Schaden in Höhe von 28% des ANG zu verursachen.",
-      "85 Manaerholung pro Sek. Chance von 80%, bei einem Angriff zusätzlichen K.Schaden in Höhe von 34% des ANG zu verursachen.",
-      "105 Manaerholung pro Sek. Chance von 80%, bei einem Angriff zusätzlichen K.Schaden in Höhe von 42% des ANG zu verursachen.",
-      "125 Manaerholung pro Sek. Chance von 80%, bei einem Angriff zusätzlichen K.Schaden in Höhe von 50% des ANG zu verursachen."
+      "50 Manaerholung pro Sek. Chance von 80%, bei einem Angriff zusätzlichen Körp. Schaden in Höhe von 20% des ANG zu verursachen.",
+      "60 Manaerholung pro Sek. Chance von 80%, bei einem Angriff zusätzlichen Körp. Schaden in Höhe von 24% des ANG zu verursachen.",
+      "70 Manaerholung pro Sek. Chance von 80%, bei einem Angriff zusätzlichen Körp. Schaden in Höhe von 28% des ANG zu verursachen.",
+      "85 Manaerholung pro Sek. Chance von 80%, bei einem Angriff zusätzlichen Körp. Schaden in Höhe von 34% des ANG zu verursachen.",
+      "105 Manaerholung pro Sek. Chance von 80%, bei einem Angriff zusätzlichen Körp. Schaden in Höhe von 42% des ANG zu verursachen.",
+      "125 Manaerholung pro Sek. Chance von 80%, bei einem Angriff zusätzlichen Körp. Schaden in Höhe von 50% des ANG zu verursachen."
     ],
     "story": "Ein unendlicher Quell, aus der ohne Unterlass Wasser sprudelt. Ein Gefäß, das vom ersten blauen Drachen erschaffen wurde, der alles Wasser auf Erden beherrschte. Es reagiert auf die Vorstellungskraft seines Trägers. Für ein junges, sensibles und kreatives Mädchen wie Lilia ist es der größte Schatz und die größte Waffe."
   },
   "s1": {
     "name": "Gezeitensturm",
-    "description": "Beschwört 8 Sek. lang einen Gezeitensturm auf einem zufälligen Ziel, der an Gegnern in Reichweite alle 0,5 Sek. {0} K.Schaden verursacht. Wird das Ziel getötet, springt der Gezeitensturm zu einem neuen zufälligen Ziel für die verbleibende Dauer.",
+    "description": "Beschwört 8 Sek. lang einen Gezeitensturm auf einem zufälligen Ziel, der an Gegnern in Reichweite alle 0,5 Sek. {0} Körp. Schaden verursacht. Wird das Ziel getötet, springt der Gezeitensturm zu einem neuen zufälligen Ziel für die verbleibende Dauer.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -58,12 +58,12 @@
     "ut": {
       "name": "Geflüster des Meers",
       "description": [
-        "[Gezeitensturm] Verringert den Cooldown um 2,5 Sek. und erhöht den K.Schaden von betroffenen Gegnern um 10 %.",
-        "[Gezeitensturm] Verringert den Cooldown um 2,5 Sek. und erhöht den K.Schaden von betroffenen Gegnern um 12 %.",
-        "[Gezeitensturm] Verringert den Cooldown um 2,5 Sek. und erhöht den K.Schaden von betroffenen Gegnern um 14 %.",
-        "[Gezeitensturm] Verringert den Cooldown um 2,5 Sek. und erhöht den K.Schaden von betroffenen Gegnern um 17 %.",
-        "[Gezeitensturm] Verringert den Cooldown um 2,5 Sek. und erhöht den K.Schaden von betroffenen Gegnern um 21 %.",
-        "[Gezeitensturm] Verringert den Cooldown um 2,5 Sek. und erhöht den K.Schaden von betroffenen Gegnern um 25 %."
+        "[Gezeitensturm] Verringert den Cooldown um 2,5 Sek. und erhöht den Körp. Schaden von betroffenen Gegnern um 10 %.",
+        "[Gezeitensturm] Verringert den Cooldown um 2,5 Sek. und erhöht den Körp. Schaden von betroffenen Gegnern um 12 %.",
+        "[Gezeitensturm] Verringert den Cooldown um 2,5 Sek. und erhöht den Körp. Schaden von betroffenen Gegnern um 14 %.",
+        "[Gezeitensturm] Verringert den Cooldown um 2,5 Sek. und erhöht den Körp. Schaden von betroffenen Gegnern um 17 %.",
+        "[Gezeitensturm] Verringert den Cooldown um 2,5 Sek. und erhöht den Körp. Schaden von betroffenen Gegnern um 21 %.",
+        "[Gezeitensturm] Verringert den Cooldown um 2,5 Sek. und erhöht den Körp. Schaden von betroffenen Gegnern um 25 %."
       ],
       "story": "Eine Haarnadel aus Edelsteinen und Korallengestein aus dem Meer der Ewigkeit, die Lilia von Laias erhalten hat. Sie sieht wie eine einfache Haarnadel für ein Kind aus, aber die Bestandteile aus dem Meer der Ewigkeit beinhalten die Energie der Wasserdrachen, die Lilias Gezeitensturm verstärkt."
     }
@@ -93,7 +93,7 @@
   },
   "s3": {
     "name": "Himmlischer Wasserfall",
-    "description": "Wirft 15-mal Wassertropfen auf zufällige Gegner und verursacht dabei insgesamt {0} K.Schaden. Zusätzlich werden 5 große Wassertropfen auf ein Ziel und Gegner in dessen Reichweite geworfen, die {1} K.Schaden verursachen. Von großen Wassertropfen getroffene Gegner werden {2} Sek. lang betäubt. Jeder geworfene Wassertropfen kostet {3} Mana und steigert die Manakosten um {4}. Bei 0 Mana endet der Effekt.",
+    "description": "Wirft 15-mal Wassertropfen auf zufällige Gegner und verursacht dabei insgesamt {0} Körp. Schaden. Zusätzlich werden 5 große Wassertropfen auf ein Ziel und Gegner in dessen Reichweite geworfen, die {1} Körp. Schaden verursachen. Von großen Wassertropfen getroffene Gegner werden {2} Sek. lang betäubt. Jeder geworfene Wassertropfen kostet {3} Mana und steigert die Manakosten um {4}. Bei 0 Mana endet der Effekt.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -104,12 +104,12 @@
     "ut": {
       "name": "Bodenloser Kessel der Elementare",
       "description": [
-        "[Himmlischer Wasserfall] Jeder Angriff hat eine Chance von 7%, einen großen Wassertropfen zu werfen, der 100% des ANG als K.Schaden verursacht und den eigenen Krit. Schaden 7 Sek. lang um 2% erhöht.",
-        "[Himmlischer Wasserfall] Jeder Angriff hat eine Chance von 7%, einen großen Wassertropfen zu werfen, der 100% des ANG als K.Schaden verursacht und den eigenen Krit. Schaden 7 Sek. lang um 2,4% erhöht.",
-        "[Himmlischer Wasserfall] Jeder Angriff hat eine Chance von 7%, einen großen Wassertropfen zu werfen, der 100% des ANG als K.Schaden verursacht und den eigenen Krit. Schaden 7 Sek. lang um 2,8% erhöht.",
-        "[Himmlischer Wasserfall] Jeder Angriff hat eine Chance von 7%, einen großen Wassertropfen zu werfen, der 100% des ANG als K.Schaden verursacht und den eigenen Krit. Schaden 7 Sek. lang um 3,4% erhöht.",
-        "[Himmlischer Wasserfall] Jeder Angriff hat eine Chance von 7%, einen großen Wassertropfen zu werfen, der 100% des ANG als K.Schaden verursacht und den eigenen Krit. Schaden 7 Sek. lang um 4,2% erhöht.",
-        "[Himmlischer Wasserfall] Jeder Angriff hat eine Chance von 7%, einen großen Wassertropfen zu werfen, der 100% des ANG als K.Schaden verursacht und den eigenen Krit. Schaden 7 Sek. lang um 5% erhöht."
+        "[Himmlischer Wasserfall] Jeder Angriff hat eine Chance von 7%, einen großen Wassertropfen zu werfen, der 100% des ANG als Körp. Schaden verursacht und den eigenen Krit. Schaden 7 Sek. lang um 2% erhöht.",
+        "[Himmlischer Wasserfall] Jeder Angriff hat eine Chance von 7%, einen großen Wassertropfen zu werfen, der 100% des ANG als Körp. Schaden verursacht und den eigenen Krit. Schaden 7 Sek. lang um 2,4% erhöht.",
+        "[Himmlischer Wasserfall] Jeder Angriff hat eine Chance von 7%, einen großen Wassertropfen zu werfen, der 100% des ANG als Körp. Schaden verursacht und den eigenen Krit. Schaden 7 Sek. lang um 2,8% erhöht.",
+        "[Himmlischer Wasserfall] Jeder Angriff hat eine Chance von 7%, einen großen Wassertropfen zu werfen, der 100% des ANG als Körp. Schaden verursacht und den eigenen Krit. Schaden 7 Sek. lang um 3,4% erhöht.",
+        "[Himmlischer Wasserfall] Jeder Angriff hat eine Chance von 7%, einen großen Wassertropfen zu werfen, der 100% des ANG als Körp. Schaden verursacht und den eigenen Krit. Schaden 7 Sek. lang um 4,2% erhöht.",
+        "[Himmlischer Wasserfall] Jeder Angriff hat eine Chance von 7%, einen großen Wassertropfen zu werfen, der 100% des ANG als Körp. Schaden verursacht und den eigenen Krit. Schaden 7 Sek. lang um 5% erhöht."
       ],
       "story": "Ein Kessel, den Lilias alte Kaktusfreunde an ihrem Geburtstag für sie herstellten. Der Kessel bringt stetig das sauberste und reinste Wasser hervor, das es gibt. Wenn jedoch zu viel Wasser auf einmal eingesetzt wird, schließt er seinen Ausguss – eine Funktion, die von den Kakteen hinzugefügt wurde, um Lilia zu helfen, das Wasser zu kontrollieren, bis sie es besser beherrscht."
     }

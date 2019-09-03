@@ -36,12 +36,12 @@
   "uw": {
     "name": "Gnadenschlag, Phistonia",
     "description": [
-      "Spezialgift-Schaden ist um 40% erhöht und das Ziel erleidet zusätzlich K. Schaden in Höhe von 30% von Medianas AN, wenn es durch einen anderen Verbündeten außer Mediana getroffen wird. Der zusätzliche K. Schadenseffekt kann nur 1 Mal pro Sek. ausgelöst werden.",
-      "Spezialgift-Schaden ist um 48% erhöht und das Ziel erleidet zusätzlich K. Schaden in Höhe von 36% von Medianas AN, wenn es durch einen anderen Verbündeten außer Mediana getroffen wird. Der zusätzliche K. Schadenseffekt kann nur 1 Mal pro Sek. ausgelöst werden.",
-      "Spezialgift-Schaden ist um 57% erhöht und das Ziel erleidet zusätzlich K. Schaden in Höhe von 43% von Medianas AN, wenn es durch einen anderen Verbündeten außer Mediana getroffen wird. Der zusätzliche K. Schadenseffekt kann nur 1 Mal pro Sek. ausgelöst werden.",
-      "Spezialgift-Schaden ist um 69% erhöht und das Ziel erleidet zusätzlich K. Schaden in Höhe von 52% von Medianas AN, wenn es durch einen anderen Verbündeten außer Mediana getroffen wird. Der zusätzliche K. Schadenseffekt kann nur 1 Mal pro Sek. ausgelöst werden.",
-      "Spezialgift-Schaden ist um 83% erhöht und das Ziel erleidet zusätzlich K. Schaden in Höhe von 62% von Medianas AN, wenn es durch einen anderen Verbündeten außer Mediana getroffen wird. Der zusätzliche K. Schadenseffekt kann nur 1 Mal pro Sek. ausgelöst werden.",
-      "Spezialgift-Schaden ist um 100% erhöht und das Ziel erleidet zusätzlich K. Schaden in Höhe von 75% von Medianas AN, wenn es durch einen anderen Verbündeten außer Mediana getroffen wird. Der zusätzliche K. Schadenseffekt kann nur 1 Mal pro Sek. ausgelöst werden."
+      "Spezialgift-Schaden ist um 40% erhöht und das Ziel erleidet zusätzlich Körp. Schaden in Höhe von 30% von Medianas AN, wenn es durch einen anderen Verbündeten außer Mediana getroffen wird. Der zusätzliche Körp. Schadenseffekt kann nur 1 Mal pro Sek. ausgelöst werden.",
+      "Spezialgift-Schaden ist um 48% erhöht und das Ziel erleidet zusätzlich Körp. Schaden in Höhe von 36% von Medianas AN, wenn es durch einen anderen Verbündeten außer Mediana getroffen wird. Der zusätzliche Körp. Schadenseffekt kann nur 1 Mal pro Sek. ausgelöst werden.",
+      "Spezialgift-Schaden ist um 57% erhöht und das Ziel erleidet zusätzlich Körp. Schaden in Höhe von 43% von Medianas AN, wenn es durch einen anderen Verbündeten außer Mediana getroffen wird. Der zusätzliche Körp. Schadenseffekt kann nur 1 Mal pro Sek. ausgelöst werden.",
+      "Spezialgift-Schaden ist um 69% erhöht und das Ziel erleidet zusätzlich Körp. Schaden in Höhe von 52% von Medianas AN, wenn es durch einen anderen Verbündeten außer Mediana getroffen wird. Der zusätzliche Körp. Schadenseffekt kann nur 1 Mal pro Sek. ausgelöst werden.",
+      "Spezialgift-Schaden ist um 83% erhöht und das Ziel erleidet zusätzlich Körp. Schaden in Höhe von 62% von Medianas AN, wenn es durch einen anderen Verbündeten außer Mediana getroffen wird. Der zusätzliche Körp. Schadenseffekt kann nur 1 Mal pro Sek. ausgelöst werden.",
+      "Spezialgift-Schaden ist um 100% erhöht und das Ziel erleidet zusätzlich Körp. Schaden in Höhe von 75% von Medianas AN, wenn es durch einen anderen Verbündeten außer Mediana getroffen wird. Der zusätzliche Körp. Schadenseffekt kann nur 1 Mal pro Sek. ausgelöst werden."
     ],
     "story": "Die Geschichte begann, als Medianas Giftexperimente noch im Geheimen erfolgten. Eines Tages bemerkte ein befreundeter Arzt die riesige Spritze, die sie hergestellt hatte. Von dessen schierer Größe beeindruckt, fragte er sie: „Sieh dir die Größe dieses Dings an. Solltest du ihr nicht wenigstens einen Namen geben?“ Darauf antwortete Mediana locker: „Oh ... Nenn sie einfach ... Piston.“"
   },
@@ -70,7 +70,7 @@
   },
   "s2": {
     "name": "Spezial-Wasserkanone",
-    "description": "Feuert eine Wasserkanone geradeaus, die Verbündete in Reichweite alle 0,5 Sek. für {0} und verursacht gleichzeitig {1} K. Schaden am Gegner.",
+    "description": "Feuert eine Wasserkanone geradeaus, die Verbündete in Reichweite alle 0,5 Sek. für {0} und verursacht gleichzeitig {1} Körp. Schaden am Gegner.",
     "books": {
       "0": "Heilung und Schaden werden um {0}% erhöht.",
       "1": "Heilung und Schaden werden um {0}% erhöht.",
@@ -116,23 +116,23 @@
   },
   "s4": {
     "name": "Medianas Spezialgift",
-    "description": "Erhöht die ANG aller Verbündeten um {0} and K. Kritresistenz um {1}. Injeziert dem Gegner beim Angriff ein spezielles Gift, was für 5 Sek. konstant K. Schaden in Höhe von {2} verursacht und seine K. Kritresistenz um {3} reduziert.",
+    "description": "Erhöht die ANG aller Verbündeten um {0} and Körp. Kritresistenz um {1}. Injeziert dem Gegner beim Angriff ein spezielles Gift, was für 5 Sek. konstant Körp. Schaden in Höhe von {2} verursacht und seine Körp. Kritresistenz um {3} reduziert.",
     "books": {
       "0": "Erhöht ANG um {0}%.",
       "1": "Erhöht ANG um {0}%.",
-      "2": "Erhöht K. Block aller Verbündeten um {0}."
+      "2": "Erhöht Körp. Block aller Verbündeten um {0}."
     },
-    "light": "K. Kritresistenz auf 300 geändert.",
-    "dark": "Ziel nimmt 20% extra K. Schaden.",
+    "light": "Körp. Kritresistenz auf 300 geändert.",
+    "dark": "Ziel nimmt 20% extra Körp. Schaden.",
     "ut": {
       "name": "Alter medizinischer Bericht",
       "description": [
-        "[Medianas Spezialgift] Erhöht den ANG-Boost um 50 %. Alle Verbündeten erleiden um 4 % verringerten K.Schaden.",
-        "[Medianas Spezialgift] Erhöht den ANG-Boost um 50 %. Alle Verbündeten erleiden um 4,8 % verringerten K.Schaden.",
-        "[Medianas Spezialgift] Erhöht den ANG-Boost um 50 %. Alle Verbündeten erleiden um 5,8 % verringerten K.Schaden.",
-        "[Medianas Spezialgift] Erhöht den ANG-Boost um 50 %. Alle Verbündeten erleiden um 7 % verringerten K.Schaden.",
-        "[Medianas Spezialgift] Erhöht den ANG-Boost um 50 %. Alle Verbündeten erleiden um 8,4 % verringerten K.Schaden.",
-        "[Medianas Spezialgift] Erhöht den ANG-Boost um 50 %. Alle Verbündeten erleiden um 10 % verringerten K.Schaden."
+        "[Medianas Spezialgift] Erhöht den ANG-Boost um 50 %. Alle Verbündeten erleiden um 4 % verringerten Körp. Schaden.",
+        "[Medianas Spezialgift] Erhöht den ANG-Boost um 50 %. Alle Verbündeten erleiden um 4,8 % verringerten Körp. Schaden.",
+        "[Medianas Spezialgift] Erhöht den ANG-Boost um 50 %. Alle Verbündeten erleiden um 5,8 % verringerten Körp. Schaden.",
+        "[Medianas Spezialgift] Erhöht den ANG-Boost um 50 %. Alle Verbündeten erleiden um 7 % verringerten Körp. Schaden.",
+        "[Medianas Spezialgift] Erhöht den ANG-Boost um 50 %. Alle Verbündeten erleiden um 8,4 % verringerten Körp. Schaden.",
+        "[Medianas Spezialgift] Erhöht den ANG-Boost um 50 %. Alle Verbündeten erleiden um 10 % verringerten Körp. Schaden."
       ],
       "story": "Ein seltsamer medizinischer Testbericht, den Doktor Aldini seiner Schülerin Mediana gab. Er hat sich während seiner Autopsien Notizen gemacht und die Aufzeichnungen an Mediana weitergegeben, in der Hoffnung, dass die traditionelle Medizin in ihr weiterleben würde. Sie hat den Bericht unzählige Male gelesen und konnte dank ihm Medianas Spezialgift herstellen."
     }

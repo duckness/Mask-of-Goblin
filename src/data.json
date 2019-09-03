@@ -863,7 +863,7 @@
       "mpatk": 325,
       "mpsec": 60,
       "auto": {
-        "range": 6000,
+        "range": 6600,
         "rangeType": "Ranged",
         "time": [
           [
@@ -896,6 +896,9 @@
       },
       "s2": {
         "description": [
+          "???",
+          10,
+          20,
           "???"
         ],
         "mana": 2,
@@ -1248,6 +1251,7 @@
       },
       "s3": {
         "description": [
+          "???",
           "???"
         ],
         "mana": 4,
@@ -1987,7 +1991,7 @@
           "???"
         ],
         "mana": 1,
-        "cooldown": 10,
+        "cooldown": 3,
         "books": [
           [
             10
@@ -4156,7 +4160,7 @@
           "???"
         ],
         "mana": 3,
-        "cooldown": 25,
+        "cooldown": 18,
         "books": [
           [
             10
@@ -9221,7 +9225,7 @@
         "description": [
           "???",
           1,
-          5
+          7
         ],
         "mana": 2,
         "cooldown": 10,
@@ -9249,7 +9253,7 @@
           2
         ],
         "mana": 3,
-        "cooldown": 17,
+        "cooldown": 14,
         "books": [
           [
             10
@@ -9291,7 +9295,7 @@
           "???",
           300,
           35,
-          5,
+          8,
           "???",
           50,
           "???"
@@ -9580,6 +9584,84 @@
           5,
           15
         ],
+        "light": null
+      }
+    },
+    "98": {
+      "index": 98,
+      "class": "wizard",
+      "type": "physical",
+      "position": {
+        "type": "middle",
+        "weight": 300
+      },
+      "mpatk": 400,
+      "mpsec": 60,
+      "auto": {
+        "range": 7000,
+        "rangeType": "Ranged",
+        "time": [
+          [
+            0.5,
+            0.8
+          ],
+          [
+            1.6
+          ],
+          [
+            2.9
+          ]
+        ],
+        "duration": 3.3
+      },
+      "s1": {
+        "description": null,
+        "mana": 2,
+        "cooldown": 8,
+        "books": [
+          null,
+          null,
+          null
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s2": {
+        "description": null,
+        "mana": 2,
+        "cooldown": 8,
+        "books": [
+          null,
+          null,
+          null
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s3": {
+        "description": null,
+        "mana": 4,
+        "cooldown": 14,
+        "books": [
+          null,
+          null,
+          null
+        ],
+        "dark": null,
+        "light": null
+      },
+      "s4": {
+        "description": null,
+        "books": [
+          null,
+          null,
+          null
+        ],
+        "dark": null,
+        "light": null
+      },
+      "t5": {
+        "dark": null,
         "light": null
       }
     }

@@ -36,18 +36,18 @@
   "uw": {
     "name": "Goldenes Geflüster, Goldbreeze",
     "description": [
-      "Skilltreffer erhöhen den vom Ziel erlittenen M.Schaden für 10 Sekunden um 10%. Der Verbündete mit den wenigsten TP wird alle 8 Sek. um 200% des eigenen ANG geheilt und alle negativen Statuseffekte werden entfernt.",
-      "Skilltreffer erhöhen den vom Ziel erlittenen M.Schaden für 10 Sekunden um 12%. Der Verbündete mit den wenigsten TP wird alle 8 Sek. um 240% des eigenen ANG geheilt und alle negativen Statuseffekte werden entfernt.",
-      "Skilltreffer erhöhen den vom Ziel erlittenen M.Schaden für 10 Sekunden um 14%. Der Verbündete mit den wenigsten TP wird alle 8 Sek. um 290% des eigenen ANG geheilt und alle negativen Statuseffekte werden entfernt.",
-      "Skilltreffer erhöhen den vom Ziel erlittenen M.Schaden für 10 Sekunden um 17%. Der Verbündete mit den wenigsten TP wird alle 8 Sek. um 350% des eigenen ANG geheilt und alle negativen Statuseffekte werden entfernt.",
-      "Skilltreffer erhöhen den vom Ziel erlittenen M.Schaden für 10 Sekunden um 21%. Der Verbündete mit den wenigsten TP wird alle 8 Sek. um 420% des eigenen ANG geheilt und alle negativen Statuseffekte werden entfernt.",
-      "Skilltreffer erhöhen den vom Ziel erlittenen M.Schaden für 10 Sekunden um 25%. Der Verbündete mit den wenigsten TP wird alle 8 Sek. um 500% des eigenen ANG geheilt und alle negativen Statuseffekte werden entfernt."
+      "Skilltreffer erhöhen den vom Ziel erlittenen Mag. Schaden für 10 Sekunden um 10%. Der Verbündete mit den wenigsten TP wird alle 8 Sek. um 200% des eigenen ANG geheilt und alle negativen Statuseffekte werden entfernt.",
+      "Skilltreffer erhöhen den vom Ziel erlittenen Mag. Schaden für 10 Sekunden um 12%. Der Verbündete mit den wenigsten TP wird alle 8 Sek. um 240% des eigenen ANG geheilt und alle negativen Statuseffekte werden entfernt.",
+      "Skilltreffer erhöhen den vom Ziel erlittenen Mag. Schaden für 10 Sekunden um 14%. Der Verbündete mit den wenigsten TP wird alle 8 Sek. um 290% des eigenen ANG geheilt und alle negativen Statuseffekte werden entfernt.",
+      "Skilltreffer erhöhen den vom Ziel erlittenen Mag. Schaden für 10 Sekunden um 17%. Der Verbündete mit den wenigsten TP wird alle 8 Sek. um 350% des eigenen ANG geheilt und alle negativen Statuseffekte werden entfernt.",
+      "Skilltreffer erhöhen den vom Ziel erlittenen Mag. Schaden für 10 Sekunden um 21%. Der Verbündete mit den wenigsten TP wird alle 8 Sek. um 420% des eigenen ANG geheilt und alle negativen Statuseffekte werden entfernt.",
+      "Skilltreffer erhöhen den vom Ziel erlittenen Mag. Schaden für 10 Sekunden um 25%. Der Verbündete mit den wenigsten TP wird alle 8 Sek. um 500% des eigenen ANG geheilt und alle negativen Statuseffekte werden entfernt."
     ],
     "story": "Cassandra arbeitet nebenbei als Waffenhändlerin. Eines Tages gelangte sie in den Besitz eines gestohlenen Gegenstandes, der sofort ihre Aufmerksamkeit erregte. Es handelte sich dabei um einen schönen Fächer, verziert mit Gold und wertvollen Edelsteinen. Den Gerüchten zufolge überkam alle Frauen, denen dieser Fächer gehörte, großes Unglück. Als verfluchtes Objekt wechselte es daher oft seine Besitzer. Als Cassandra den Fächer erwarb, begann sie unverzüglich mit der Erforschung seiner Herkunft. Wie sich herausstellte wurde dieser Fächer, genannt Goldbreeze, als versteckte Waffe erschaffen. Es ist daher nicht allzu schwierig, sich vorzustellen, welches Unglück die Besitzerinnen des Fächers überkommen haben muss."
   },
   "s1": {
     "name": "Vorsichtig~",
-    "description": "Heilt alle Verbündeten um {0} TP und verursacht M.Schaden in Höhe von {1} an allen Feinden. Getroffene Feinde werden 5 Sek lang zum Schweigen gebracht.",
+    "description": "Heilt alle Verbündeten um {0} TP und verursacht Mag. Schaden in Höhe von {1} an allen Feinden. Getroffene Feinde werden 5 Sek lang zum Schweigen gebracht.",
     "books": {
       "0": "Heilung und Schaden werden um {0}% erhöht.",
       "1": "Heilung und Schaden werden um {0}% erhöht.",
@@ -93,13 +93,13 @@
   },
   "s3": {
     "name": "Verführerische Welle",
-    "description": "Erteilt {0} M. Schaden an dem Gegner mit dem höchsten ANG. Falls der Gegner ein Held ist und der Skill in der Arena benutzt wird, wird er für 7. Sek bezaubert. Wenn der Skill in der Arena benutzt wird, verursacht er {1}% zusätzlichen M. Schaden. Bezauberte Gegner greifen ihre Verbündeten mit normalen Angriffen an und können keine Skills benutzen.",
+    "description": "Erteilt {0} Mag. Schaden an dem Gegner mit dem höchsten ANG. Falls der Gegner ein Held ist und der Skill in der Arena benutzt wird, wird er für 7. Sek bezaubert. Wenn der Skill in der Arena benutzt wird, verursacht er {1}% zusätzlichen Mag. Schaden. Bezauberte Gegner greifen ihre Verbündeten mit normalen Angriffen an und können keine Skills benutzen.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
       "2": "Bezaubert-Dauer um {0} Sek erhöht."
     },
-    "light": "Ziel erleidet 10 Sek lang 25% extra M.Schaden.",
+    "light": "Ziel erleidet 10 Sek lang 25% extra Mag. Schaden.",
     "dark": "Reduziert Manakosten um 1.",
     "ut": {
       "name": "Goldduft",

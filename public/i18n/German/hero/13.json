@@ -36,18 +36,18 @@
   "uw": {
     "name": "Wille des Weltbaums, Roburu",
     "description": [
-      "Fügt alle 7 Sek Feinden mit Gift-Zählern M.Schaden zu (40% d. ANG) und verringert ihre M.VERT um 10%. Jeder Gift-Zähler erhöht den Schaden um 20%.",
-      "Fügt alle 7 Sek Feinden mit Gift-Zählern M.Schaden zu (48% d. ANG) und verringert ihre M.VERT um 12%. Jeder Gift-Zähler erhöht den Schaden um 20%.",
-      "Fügt alle 7 Sek Feinden mit Gift-Zählern M.Schaden zu (57% d. ANG) und verringert ihre M.VERT um 14%. Jeder Gift-Zähler erhöht den Schaden um 20%.",
-      "Fügt alle 7 Sek Feinden mit Gift-Zählern M.Schaden zu (69% d. ANG) und verringert ihre M.VERT um 17%. Jeder Gift-Zähler erhöht den Schaden um 20%.",
-      "Fügt alle 7 Sek Feinden mit Gift-Zählern M.Schaden zu (83% d. ANG) und verringert ihre M.VERT um 20%. Jeder Gift-Zähler erhöht den Schaden um 20%.",
-      "Fügt alle 7 Sek Feinden mit Gift-Zählern M.Schaden zu (100% d. ANG) und verringert ihre M.VERT um 25%. Jeder Gift-Zähler erhöht den Schaden um 20%."
+      "Fügt alle 7 Sek Feinden mit Gift-Zählern Mag. Schaden zu (40% d. ANG) und verringert ihre Mag. VERT um 10%. Jeder Gift-Zähler erhöht den Schaden um 20%.",
+      "Fügt alle 7 Sek Feinden mit Gift-Zählern Mag. Schaden zu (48% d. ANG) und verringert ihre Mag. VERT um 12%. Jeder Gift-Zähler erhöht den Schaden um 20%.",
+      "Fügt alle 7 Sek Feinden mit Gift-Zählern Mag. Schaden zu (57% d. ANG) und verringert ihre Mag. VERT um 14%. Jeder Gift-Zähler erhöht den Schaden um 20%.",
+      "Fügt alle 7 Sek Feinden mit Gift-Zählern Mag. Schaden zu (69% d. ANG) und verringert ihre Mag. VERT um 17%. Jeder Gift-Zähler erhöht den Schaden um 20%.",
+      "Fügt alle 7 Sek Feinden mit Gift-Zählern Mag. Schaden zu (83% d. ANG) und verringert ihre Mag. VERT um 20%. Jeder Gift-Zähler erhöht den Schaden um 20%.",
+      "Fügt alle 7 Sek Feinden mit Gift-Zählern Mag. Schaden zu (100% d. ANG) und verringert ihre Mag. VERT um 25%. Jeder Gift-Zähler erhöht den Schaden um 20%."
     ],
     "story": "Der Legende nach beschenkt der Weltenbaum einmal alle 100 Jahre einen Auserwählten mit einem seiner Zweige. Der Zweig versprüht ewiges Leben und verleiht seinem Besitzer immense Macht und großes Wissen. Lorraine schuf diesen Stab, indem sie den Zweig mit dem Stein des Waldes, einem Elfenschatz, vereinigte. Jetzt kann sie die Kräfte der Natur anrufen und ihre Verbindung mit dem Weltenbaum aufrechterhalten, wo auch immer sie gerade sein mag."
   },
   "s1": {
     "name": "Dornenbusch-Wald",
-    "description": "Greift zufällig Feinde in Reichw. 3mal an und verursacht je {0} M.Schaden. Jeder Angriff legt einen Gift-Zähler auf.",
+    "description": "Greift zufällig Feinde in Reichw. 3mal an und verursacht je {0} Mag. Schaden. Jeder Angriff legt einen Gift-Zähler auf.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -58,23 +58,23 @@
     "ut": {
       "name": "Buch des Lebens",
       "description": [
-        "[Dornenbuschwald] Verringert die Manakosten um 1 und den Cooldown um 0,8 Sek.",
-        "[Dornenbuschwald] Verringert die Manakosten um 1 und den Cooldown um 1 Sek.",
-        "[Dornenbuschwald] Verringert die Manakosten um 1 und den Cooldown um 1,2 Sek.",
-        "[Dornenbuschwald] Verringert die Manakosten um 1 und den Cooldown um 1,4 Sek.",
-        "[Dornenbuschwald] Verringert die Manakosten um 1 und den Cooldown um 1,7 Sek.",
-        "[Dornenbuschwald] Verringert die Manakosten um 1 und den Cooldown um 2 Sek."
+        "[Dornenbuschwald] verringert die Manakosten um 1 und den Cooldown um 0,8 Sek.",
+        "[Dornenbuschwald] verringert die Manakosten um 1 und den Cooldown um 1 Sek.",
+        "[Dornenbuschwald] verringert die Manakosten um 1 und den Cooldown um 1,2 Sek.",
+        "[Dornenbuschwald] verringert die Manakosten um 1 und den Cooldown um 1,4 Sek.",
+        "[Dornenbuschwald] verringert die Manakosten um 1 und den Cooldown um 1,7 Sek.",
+        "[Dornenbuschwald] verringert die Manakosten um 1 und den Cooldown um 2 Sek."
       ],
       "story": "Das Buch beinhaltet das Wissen über alle Lebewesen des Waldes. Es ist ein magisches Buch, das seit jeher von den Wächtern des Weltenbaums weitergegeben wird. Es befand sich lange Zeit im Besitz der Weisen von Elidora, doch jetzt ist Lorraine für die sichere Aufbewahrung verantwortlich."
     }
   },
   "s2": {
     "name": "Verworrene Reben",
-    "description": "Fügt Feinden in einer geraden Linie {0} M.Schaden zu und fesselt sie für {1} Sek. Während d. Wirkungsdauer wird alle {2} Sek 1 Gift-Zähler hinzugefügt. Nach einer Zeit werden die Gift-Zähler für großen Schaden zurückgesetzt.",
+    "description": "Fügt Feinden in einer geraden Linie {0} Mag. Schaden zu und fesselt sie für {1} Sek. Während d. Wirkungsdauer wird alle {2} Sek 1 Gift-Zähler hinzugefügt. Nach einer Zeit werden die Gift-Zähler für großen Schaden zurückgesetzt.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
-      "2": "Erhöht erlittenen M.Schaden um {0}% während d. Skill-Wirkungsdauer."
+      "2": "Erhöht erlittenen Mag. Schaden um {0}% während d. Skill-Wirkungsdauer."
     },
     "light": "Erhöht Schaden um 40%.",
     "dark": "Enemies hit by the final explosion effect are stunned for 2 Sek",
@@ -93,7 +93,7 @@
   },
   "s3": {
     "name": "Zorn des Waldes",
-    "description": "Verursacht Feinden in Reichw. {0} M.Schaden. Für jeden Gift-Zähler wird der Schaden um {1}% erhöht.",
+    "description": "Verursacht Feinden in Reichw. {0} Mag. Schaden. Für jeden Gift-Zähler wird der Schaden um {1}% erhöht.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -116,7 +116,7 @@
   },
   "s4": {
     "name": "Klingenblatt",
-    "description": "Bei einem normalen Angriff wird ein zufälliger Feind 3-mal angegriffen. Dabei besteht eine Chance von 30 %, {0} M.Schaden und 20 Sekunden lang 1 Giftzähler zuzufügen. Gift verursacht insgesamt {1} M.Schaden über 20 Sekunden.",
+    "description": "Bei einem normalen Angriff wird ein zufälliger Feind 3-mal angegriffen. Dabei besteht eine Chance von 30 %, {0} Mag. Schaden und 20 Sekunden lang 1 Giftzähler zuzufügen. Gift verursacht insgesamt {1} Mag. Schaden über 20 Sekunden.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -127,12 +127,12 @@
     "ut": {
       "name": "Terrarium der Zirkulation",
       "description": [
-        "[Klingenblatt] Erhöht die Aktivierungschance um 20 %. Ziele erleiden für 10 Sek. um 10 % erhöhten M.Schaden.",
-        "[Klingenblatt] Erhöht die Aktivierungschance um 20 %. Ziele erleiden für 10 Sek. um 12 % erhöhten M.Schaden.",
-        "[Klingenblatt] Erhöht die Aktivierungschance um 20 %. Ziele erleiden für 10 Sek. um 14 % erhöhten M.Schaden.",
-        "[Klingenblatt] Erhöht die Aktivierungschance um 20 %. Ziele erleiden für 10 Sek. um 17 % erhöhten M.Schaden.",
-        "[Klingenblatt] Erhöht die Aktivierungschance um 20 %. Ziele erleiden für 10 Sek. um 21 % erhöhten M.Schaden.",
-        "[Klingenblatt] Erhöht die Aktivierungschance um 20 %. Ziele erleiden für 10 Sek. um 25 % erhöhten M.Schaden."
+        "[Klingenblatt] Erhöht die Aktivierungschance um 20 %. Ziele erleiden für 10 Sek. um 10 % erhöhten Mag. Schaden.",
+        "[Klingenblatt] Erhöht die Aktivierungschance um 20 %. Ziele erleiden für 10 Sek. um 12 % erhöhten Mag. Schaden.",
+        "[Klingenblatt] Erhöht die Aktivierungschance um 20 %. Ziele erleiden für 10 Sek. um 14 % erhöhten Mag. Schaden.",
+        "[Klingenblatt] Erhöht die Aktivierungschance um 20 %. Ziele erleiden für 10 Sek. um 17 % erhöhten Mag. Schaden.",
+        "[Klingenblatt] Erhöht die Aktivierungschance um 20 %. Ziele erleiden für 10 Sek. um 21 % erhöhten Mag. Schaden.",
+        "[Klingenblatt] Erhöht die Aktivierungschance um 20 %. Ziele erleiden für 10 Sek. um 25 % erhöhten Mag. Schaden."
       ],
       "story": "Ein Terrarium, das aus einem abgebrochenen Zweig des Weltenbaums gefertigt wurde. Das Abbrechen eines Zweigs des Weltenbaums soll Unglück bringen, weshalb diese Zweige normalerweise gereinigt und entsorgt werden. Lorraine hatte dadurch jedoch eine Offenbarung und beschloss, ein kleines Terrarium daraus zu bauen."
     }

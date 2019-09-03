@@ -47,7 +47,7 @@
   },
   "s1": {
     "name": "Antipersonenlaser",
-    "description": "Greift das Ziel 4-mal an, verursacht insgesamt {0} M.Schaden und wirft es zurück. Der letzte Angriff trifft alle Feinde, sie erleiden dabei {1} M.Schaden und werden für {2} Sekunden weggeweht.",
+    "description": "Greift das Ziel 4-mal an, verursacht insgesamt {0} Mag. Schaden und wirft es zurück. Der letzte Angriff trifft alle Feinde, sie erleiden dabei {1} Mag. Schaden und werden für {2} Sekunden weggeweht.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -58,25 +58,25 @@
     "ut": {
       "name": "Optische Linse – MF002",
       "description": [
-        "[Antipersonenlaser] Erhöht den Schaden um 20 % und den vom Ziel erlittenen M.Schaden 10 Sek. lang um 25 %. [Belagerungslaser] Erhöht den Schaden um 20 % und ignoriert K.Blockieren und M.Blockieren des Ziels.",
-        "[Antipersonenlaser] Erhöht den Schaden um 24 % und den vom Ziel erlittenen M.Schaden 10 Sek. lang um 25 %. [Belagerungslaser] Erhöht den Schaden um 24 % und ignoriert K.Blockieren und M.Blockieren des Ziels.",
-        "[Antipersonenlaser] Erhöht den Schaden um 29 % und den vom Ziel erlittenen M.Schaden 10 Sek. lang um 25 %. [Belagerungslaser] Erhöht den Schaden um 29 % und ignoriert K.Blockieren und M.Blockieren des Ziels.",
-        "[Antipersonenlaser] Erhöht den Schaden um 35 % und den vom Ziel erlittenen M.Schaden 10 Sek. lang um 25 %. [Belagerungslaser] Erhöht den Schaden um 35 % und ignoriert K.Blockieren und M.Blockieren des Ziels.",
-        "[Antipersonenlaser] Erhöht den Schaden um 42 % und den vom Ziel erlittenen M.Schaden 10 Sek. lang um 25 %. [Belagerungslaser] Erhöht den Schaden um 42 % und ignoriert K.Blockieren und M.Blockieren des Ziels.",
-        "[Antipersonenlaser] Erhöht den Schaden um 50 % und den vom Ziel erlittenen M.Schaden 10 Sek. lang um 25 %. [Belagerungslaser] Erhöht den Schaden um 50 % und ignoriert K.Blockieren und M.Blockieren des Ziels."
+        "[Antipersonenlaser] Erhöht den Schaden um 20 % und den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 25 %. [Belagerungslaser] Erhöht den Schaden um 20 % und ignoriert Körp. Blockieren und Mag. Blockieren des Ziels.",
+        "[Antipersonenlaser] Erhöht den Schaden um 24 % und den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 25 %. [Belagerungslaser] Erhöht den Schaden um 24 % und ignoriert Körp. Blockieren und Mag. Blockieren des Ziels.",
+        "[Antipersonenlaser] Erhöht den Schaden um 29 % und den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 25 %. [Belagerungslaser] Erhöht den Schaden um 29 % und ignoriert Körp. Blockieren und Mag. Blockieren des Ziels.",
+        "[Antipersonenlaser] Erhöht den Schaden um 35 % und den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 25 %. [Belagerungslaser] Erhöht den Schaden um 35 % und ignoriert Körp. Blockieren und Mag. Blockieren des Ziels.",
+        "[Antipersonenlaser] Erhöht den Schaden um 42 % und den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 25 %. [Belagerungslaser] Erhöht den Schaden um 42 % und ignoriert Körp. Blockieren und Mag. Blockieren des Ziels.",
+        "[Antipersonenlaser] Erhöht den Schaden um 50 % und den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 25 %. [Belagerungslaser] Erhöht den Schaden um 50 % und ignoriert Körp. Blockieren und Mag. Blockieren des Ziels."
       ],
       "story": "Eine optische Linse, die Annette für Kara hergestellt hat. Sie folgte bei der Herstellung einer Blaupause, die sie bei der Ausgrabung von Kara entdeckt hatte. Die Blaupause offenbarte eine Technik, die der modernen Technologie deutlich überlegen war, aber sie schaffte es dennoch, einige der Inhalte zu entschlüsseln. Das Ergebnis der Erkenntnisse aus dieser Blaupause ist diese Linse, die den Augen einer Libelle ähnelt. Die Linse erlaubt es dem Träger, selbst die kleinsten Bewegungen zu erkennen und sein Ziel aus hunderten verschiedenen Blickwinkeln zu betrachten. Sie rüstete Kara mit der Linse aus, die ohnehin schon der Gipfel der Technomagie darstellte. Das Ergebnis war eine erhebliche Verbesserung beim Wechsel des Kampfmodus."
     },
     "linked": {
       "0": {
         "name": "Belagerungslaser",
-        "description": "Greift das Ziel an und verursacht {0} M.Schaden. Krit. Schaden wird um {1}% erhöht."
+        "description": "Greift das Ziel an und verursacht {0} Mag. Schaden. Krit. Schaden wird um {1}% erhöht."
       }
     }
   },
   "s2": {
     "name": "Flächenkanone",
-    "description": "Greift ein zufälliges Ziel und nahe Feinde 4-mal an, verursacht insgesamt {0} M.Schaden und betäubt sie für {1} Sekunden.",
+    "description": "Greift ein zufälliges Ziel und nahe Feinde 4-mal an, verursacht insgesamt {0} Mag. Schaden und betäubt sie für {1} Sekunden.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -99,13 +99,13 @@
     "linked": {
       "0": {
         "name": "Fokus-Feuer",
-        "description": "Greift ein zufälliges Ziel 15-mal an, verursacht insgesamt {0} M.Schaden und für {1} Sekunden Fokus-Feuer. Verursacht mit jedem Stapel von Fokus-Feuer {2} zusätzlichen M.Schaden am Feind. Fokus-Feuer kann bis zu 30-mal gestapelt werden."
+        "description": "Greift ein zufälliges Ziel 15-mal an, verursacht insgesamt {0} Mag. Schaden und für {1} Sekunden Fokus-Feuer. Verursacht mit jedem Stapel von Fokus-Feuer {2} zusätzlichen Mag. Schaden am Feind. Fokus-Feuer kann bis zu 30-mal gestapelt werden."
       }
     }
   },
   "s3": {
     "name": "Belagerungswaffe auslösen",
-    "description": "Kara verwandelt sich in eine Belagerungswaffe und greift den Feind an. Dabei verursacht sie mit jedem Treffer {0} M.Schaden. Im Belagerungswaffen-Modus werden die Skills Antipersonenlaser und Flächenkanone gegen die Skills Belagerungslaser und Fokus-Feuer ausgetauscht. Bei erneuter Anwendung des Skills wird wieder in den Antipersonenwaffen-Modus gewechselt.",
+    "description": "Kara verwandelt sich in eine Belagerungswaffe und greift den Feind an. Dabei verursacht sie mit jedem Treffer {0} Mag. Schaden. Im Belagerungswaffen-Modus werden die Skills Antipersonenlaser und Flächenkanone gegen die Skills Belagerungslaser und Fokus-Feuer ausgetauscht. Bei erneuter Anwendung des Skills wird wieder in den Antipersonenwaffen-Modus gewechselt.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -116,12 +116,12 @@
     "ut": {
       "name": "Antike Quelle der Macht",
       "description": [
-        "[Belagerungswaffe auslösen] Erhöht den Schaden um 50% und verringert die M.VERT des Ziels bei Krit. Treffer um 1%. Der M.VERT-Reduktionseffekt kann bis zu 20-mal gestapelt werden.",
-        "[Belagerungswaffe auslösen] Erhöht den Schaden um 50% und verringert die M.VERT des Ziels bei Krit. Treffer um 1%. Der M.VERT-Reduktionseffekt kann bis zu 24-mal gestapelt werden.",
-        "[Belagerungswaffe auslösen] Erhöht den Schaden um 50% und verringert die M.VERT des Ziels bei Krit. Treffer um 1%. Der M.VERT-Reduktionseffekt kann bis zu 29-mal gestapelt werden.",
-        "[Belagerungswaffe auslösen] Erhöht den Schaden um 50% und verringert die M.VERT des Ziels bei Krit. Treffer um 1%. Der M.VERT-Reduktionseffekt kann bis zu 35-mal gestapelt werden.",
-        "[Belagerungswaffe auslösen] Erhöht den Schaden um 50% und verringert die M.VERT des Ziels bei Krit. Treffer um 1%. Der M.VERT-Reduktionseffekt kann bis zu 42-mal gestapelt werden.",
-        "[Belagerungswaffe auslösen] Erhöht den Schaden um 50% und verringert die M.VERT des Ziels bei Krit. Treffer um 1%. Der M.VERT-Reduktionseffekt kann bis zu 50-mal gestapelt werden."
+        "[Belagerungswaffe auslösen] Erhöht den Schaden um 50% und verringert die Mag. VERT des Ziels bei Krit. Treffer um 1%. Der Mag. VERT-Reduktionseffekt kann bis zu 20-mal gestapelt werden.",
+        "[Belagerungswaffe auslösen] Erhöht den Schaden um 50% und verringert die Mag. VERT des Ziels bei Krit. Treffer um 1%. Der Mag. VERT-Reduktionseffekt kann bis zu 24-mal gestapelt werden.",
+        "[Belagerungswaffe auslösen] Erhöht den Schaden um 50% und verringert die Mag. VERT des Ziels bei Krit. Treffer um 1%. Der Mag. VERT-Reduktionseffekt kann bis zu 29-mal gestapelt werden.",
+        "[Belagerungswaffe auslösen] Erhöht den Schaden um 50% und verringert die Mag. VERT des Ziels bei Krit. Treffer um 1%. Der Mag. VERT-Reduktionseffekt kann bis zu 35-mal gestapelt werden.",
+        "[Belagerungswaffe auslösen] Erhöht den Schaden um 50% und verringert die Mag. VERT des Ziels bei Krit. Treffer um 1%. Der Mag. VERT-Reduktionseffekt kann bis zu 42-mal gestapelt werden.",
+        "[Belagerungswaffe auslösen] Erhöht den Schaden um 50% und verringert die Mag. VERT des Ziels bei Krit. Treffer um 1%. Der Mag. VERT-Reduktionseffekt kann bis zu 50-mal gestapelt werden."
       ],
       "story": "Karas Quelle der Macht und eines der größten Meisterwerke einer antiken, längst vergessenen Zivilisation. Annette erschuf Rascal mithilfe der grundlegenden Technologie, doch nicht einmal sie konnte diese spezielle Technologie vollständig entschlüsseln. Ein unerschöpflicher Quell magischer Energie."
     }

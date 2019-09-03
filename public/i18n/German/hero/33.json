@@ -47,7 +47,7 @@
   },
   "s1": {
     "name": "Dimensionsklinge",
-    "description": "Fügt Zielen {0} K.Schaden zu. Jeder getroffene Feind wird mit einem Klingenzähler versehen. Je mehr Feinde mit Klingen versehen sind, desto mehr Ziele können angegriffen werden. Jede Klinge ist 20 Sek lang aktiv, und jedes Ziel kann bis zu 5 Klingen kumulieren.",
+    "description": "Fügt Zielen {0} Körp. Schaden zu. Jeder getroffene Feind wird mit einem Klingenzähler versehen. Je mehr Feinde mit Klingen versehen sind, desto mehr Ziele können angegriffen werden. Jede Klinge ist 20 Sek lang aktiv, und jedes Ziel kann bis zu 5 Klingen kumulieren.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -58,26 +58,26 @@
     "ut": {
       "name": "Magischer Dimensionskreis",
       "description": [
-        "[Dimensionsklinge] Erhöht die Anzahl an Zielen um 1 und verringert K.Blockieren des Ziels 10 Sek. lang um 200.",
-        "[Dimensionsklinge] Erhöht die Anzahl an Zielen um 1 und verringert K.Blockieren des Ziels 10 Sek. lang um 240.",
-        "[Dimensionsklinge] Erhöht die Anzahl an Zielen um 1 und verringert K.Blockieren des Ziels 10 Sek. lang um 290.",
-        "[Dimensionsklinge] Erhöht die Anzahl an Zielen um 1 und verringert K.Blockieren des Ziels 10 Sek. lang um 350.",
-        "[Dimensionsklinge] Erhöht die Anzahl an Zielen um 1 und verringert K.Blockieren des Ziels 10 Sek. lang um 420.",
-        "[Dimensionsklinge] Erhöht die Anzahl an Zielen um 1 und verringert K.Blockieren des Ziels 10 Sek. lang um 500."
+        "[Dimensionsklinge] Erhöht die Anzahl an Zielen um 1 und verringert Körp. Blockieren des Ziels 10 Sek. lang um 200.",
+        "[Dimensionsklinge] Erhöht die Anzahl an Zielen um 1 und verringert Körp. Blockieren des Ziels 10 Sek. lang um 240.",
+        "[Dimensionsklinge] Erhöht die Anzahl an Zielen um 1 und verringert Körp. Blockieren des Ziels 10 Sek. lang um 290.",
+        "[Dimensionsklinge] Erhöht die Anzahl an Zielen um 1 und verringert Körp. Blockieren des Ziels 10 Sek. lang um 350.",
+        "[Dimensionsklinge] Erhöht die Anzahl an Zielen um 1 und verringert Körp. Blockieren des Ziels 10 Sek. lang um 420.",
+        "[Dimensionsklinge] Erhöht die Anzahl an Zielen um 1 und verringert Körp. Blockieren des Ziels 10 Sek. lang um 500."
       ],
       "story": "Ein magischer Kreis, der das Reisen durch die Galaxis ermöglicht. Nyx’ Dimensionsreisen beginnen und enden mit diesem Kreis. Da die Regeln der galaktischen Reise und die Abfolge von Licht und Dunkelheit von raumzeitlichen Gegebenheiten abhängig sind, können jene, die nicht über das nötige Wissen über Dimensionen verfügen, diesen Kreis nicht benutzen. Nyx kann mithilfe dieses magischen Kreises alles und jeden beschwören."
     }
   },
   "s2": {
     "name": "Dimensions-Zerstücklungbeil",
-    "description": "Fügt Feinden {0} K.Schaden zu und entfernt positive Statuseffekte. Getroffene Feinde nehmen {2} K.Schaden über {1} Sek und werden für 3 Sek zu Boden geworfen. Die Anzahl der Ziele ist gleich 1 + Anz. des Klingenzählers.",
+    "description": "Fügt Feinden {0} Körp. Schaden zu und entfernt positive Statuseffekte. Getroffene Feinde nehmen {2} Körp. Schaden über {1} Sek und werden für 3 Sek zu Boden geworfen. Die Anzahl der Ziele ist gleich 1 + Anz. des Klingenzählers.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
       "2": "Erhöht Schaden um {0}%."
     },
     "light": "Reduziert Manakosten um 1.",
-    "dark": "Ziel erleidet 25% erhöhten K.Schaden für 10 Sek.",
+    "dark": "Ziel erleidet 25% erhöhten Körp. Schaden für 10 Sek.",
     "ut": {
       "name": "Schwert des Flussschneidens",
       "description": [
@@ -93,7 +93,7 @@
   },
   "s3": {
     "name": "Klingen der Unendlichkeit",
-    "description": "Fügt Feinden an der Front {0} K.Schaden zu. Der letzte Angriff fügt einem Feind {1} K.Schaden zu und wirft ihn für 3 Sek zu Boden. Die Anzahl der Feinde, die vom letzten Angriff getroffen werden, ist gleich 1 + die Anz. des Klingenzählers.",
+    "description": "Fügt Feinden an der Front {0} Körp. Schaden zu. Der letzte Angriff fügt einem Feind {1} Körp. Schaden zu und wirft ihn für 3 Sek zu Boden. Die Anzahl der Feinde, die vom letzten Angriff getroffen werden, ist gleich 1 + die Anz. des Klingenzählers.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -116,7 +116,7 @@
   },
   "s4": {
     "name": "Verborgene Klinge",
-    "description": "Feuert mit jedem autom. Angriff eine zusätzliche Klinge und fügt Klingen-Zielen {0} K.Schaden zu. Die Anzahl der Ziele ist gleich 1 + Anz. des Klingenzählers.",
+    "description": "Feuert mit jedem autom. Angriff eine zusätzliche Klinge und fügt Klingen-Zielen {0} Körp. Schaden zu. Die Anzahl der Ziele ist gleich 1 + Anz. des Klingenzählers.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",

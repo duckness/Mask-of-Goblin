@@ -58,19 +58,19 @@
     "ut": {
       "name": "Alter heiliger Gral",
       "description": [
-        "[Heilige Nova] Verringert die Manakosten um 1 und erhöht die Heilungsrate um 20 %.",
-        "[Heilige Nova] Verringert die Manakosten um 1 und erhöht die Heilungsrate um 24 %.",
-        "[Heilige Nova] Verringert die Manakosten um 1 und erhöht die Heilungsrate um 29 %.",
-        "[Heilige Nova] Verringert die Manakosten um 1 und erhöht die Heilungsrate um 35 %.",
-        "[Heilige Nova] Verringert die Manakosten um 1 und erhöht die Heilungsrate um 42 %.",
-        "[Heilige Nova] Verringert die Manakosten um 1 und erhöht die Heilungsrate um 50 %."
+        "[Heilige Nova] verringert die Manakosten um 1 und erhöht die Heilungsrate um 20 %.",
+        "[Heilige Nova] verringert die Manakosten um 1 und erhöht die Heilungsrate um 24 %.",
+        "[Heilige Nova] verringert die Manakosten um 1 und erhöht die Heilungsrate um 29 %.",
+        "[Heilige Nova] verringert die Manakosten um 1 und erhöht die Heilungsrate um 35 %.",
+        "[Heilige Nova] verringert die Manakosten um 1 und erhöht die Heilungsrate um 42 %.",
+        "[Heilige Nova] verringert die Manakosten um 1 und erhöht die Heilungsrate um 50 %."
       ],
       "story": "Ein hölzerner Grad, auf dem Göttin Luas Gesicht eingraviert ist. Als die Menschen zum ersten Mal von Luas Existenz erfahren haben, haben sie ihr zu Ehren diesen Gral hergestellt. Als die Zivilisation auf dem Orbis-Kontinent untergegangen ist, wurde der Gral vergraben und nur noch in alten Aufzeichnungen erwähnt. Doch als Baudouin eines Tages Reue für seine Sünden zeigte und das heilige Buch als Wahrheit annahm, erschien dieser alte heilige Gral vor ihm, der so hell wie die Sonne glänzt."
     }
   },
   "s2": {
     "name": "Speer des Lichts",
-    "description": "Verursacht {0} M. Schaden, wirft den Gegner zurück und fesselt den Gegner für {1} Sek. Gefesselte Gegner erleiden 25% mehr M. Schaden.",
+    "description": "Verursacht {0} Mag. Schaden, wirft den Gegner zurück und fesselt den Gegner für {1} Sek. Gefesselte Gegner erleiden 25% mehr Mag. Schaden.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -81,12 +81,12 @@
     "ut": {
       "name": "Letztes Kapitel der Bibel",
       "description": [
-        "[Speer des Lichts] Gewährt Statuseffekt-Immunität für die Dauer des Skills und erhöht die M.Schwäche des Ziels 10 Sek. lang um 10 %.",
-        "[Speer des Lichts] Gewährt Statuseffekt-Immunität für die Dauer des Skills und erhöht die M.Schwäche des Ziels 10 Sek. lang um 12 %.",
-        "[Speer des Lichts] Gewährt Statuseffekt-Immunität für die Dauer des Skills und erhöht die M.Schwäche des Ziels 10 Sek. lang um 14 %.",
-        "[Speer des Lichts] Gewährt Statuseffekt-Immunität für die Dauer des Skills und erhöht die M.Schwäche des Ziels 10 Sek. lang um 17 %.",
-        "[Speer des Lichts] Gewährt Statuseffekt-Immunität für die Dauer des Skills und erhöht die M.Schwäche des Ziels 10 Sek. lang um 21 %.",
-        "[Speer des Lichts] Gewährt Statuseffekt-Immunität für die Dauer des Skills und erhöht die M.Schwäche des Ziels 10 Sek. lang um 25 %."
+        "[Speer des Lichts] Gewährt Massenkontrolle-Immunität für die Dauer des Skills und erhöht die Mag. Schwäche des Ziels 10 Sek. lang um 10 %.",
+        "[Speer des Lichts] Gewährt Massenkontrolle-Immunität für die Dauer des Skills und erhöht die Mag. Schwäche des Ziels 10 Sek. lang um 12 %.",
+        "[Speer des Lichts] Gewährt Massenkontrolle-Immunität für die Dauer des Skills und erhöht die Mag. Schwäche des Ziels 10 Sek. lang um 14 %.",
+        "[Speer des Lichts] Gewährt Massenkontrolle-Immunität für die Dauer des Skills und erhöht die Mag. Schwäche des Ziels 10 Sek. lang um 17 %.",
+        "[Speer des Lichts] Gewährt Massenkontrolle-Immunität für die Dauer des Skills und erhöht die Mag. Schwäche des Ziels 10 Sek. lang um 21 %.",
+        "[Speer des Lichts] Gewährt Massenkontrolle-Immunität für die Dauer des Skills und erhöht die Mag. Schwäche des Ziels 10 Sek. lang um 25 %."
       ],
       "story": "Das letzte Kapitel der Legende, das zu furchtbar und angsteinflößend war, um es in die Bibel aufzunehmen. Es spricht vom heiligen Licht, das den dunkelsten Feind der Welt tötet."
     }
@@ -116,7 +116,7 @@
   },
   "s4": {
     "name": "Gottes Training",
-    "description": "20% Chance, mit einem Angriff {0} M.Schaden zuzufügen und den Feind {1} Sek lang zu betäuben.",
+    "description": "20%ige Chance, mit einem Angriff {0} Mag. Schaden zuzufügen und den Feind {1} Sek lang zu betäuben.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -127,18 +127,18 @@
     "ut": {
       "name": "Versengtes Tagebuch",
       "description": [
-        "[Göttertraining] Erhöht die Betäubungsdauer um 0,5 Sek. Getroffene Feinde erleiden für 5 Sek. um 25 % erhöhten M.Schaden.",
-        "[Göttertraining] Erhöht die Betäubungsdauer um 0,6 Sek. Getroffene Feinde erleiden für 5 Sek. um 25 % erhöhten M.Schaden.",
-        "[Göttertraining] Erhöht die Betäubungsdauer um 0,7 Sek. Getroffene Feinde erleiden für 5 Sek. um 25 % erhöhten M.Schaden.",
-        "[Göttertraining] Erhöht die Betäubungsdauer um 0,8 Sek. Getroffene Feinde erleiden für 5 Sek. um 25 % erhöhten M.Schaden.",
-        "[Göttertraining] Erhöht die Betäubungsdauer um 0,9 Sek. Getroffene Feinde erleiden für 5 Sek. um 25 % erhöhten M.Schaden.",
-        "[Göttertraining] Erhöht die Betäubungsdauer um 1 Sek. Getroffene Feinde erleiden für 5 Sek. um 25 % erhöhten M.Schaden."
+        "[Göttertraining] Erhöht die Betäubungsdauer um 0,5 Sek. Getroffene Feinde erleiden für 5 Sek. um 25 % erhöhten Mag. Schaden.",
+        "[Göttertraining] Erhöht die Betäubungsdauer um 0,6 Sek. Getroffene Feinde erleiden für 5 Sek. um 25 % erhöhten Mag. Schaden.",
+        "[Göttertraining] Erhöht die Betäubungsdauer um 0,7 Sek. Getroffene Feinde erleiden für 5 Sek. um 25 % erhöhten Mag. Schaden.",
+        "[Göttertraining] Erhöht die Betäubungsdauer um 0,8 Sek. Getroffene Feinde erleiden für 5 Sek. um 25 % erhöhten Mag. Schaden.",
+        "[Göttertraining] Erhöht die Betäubungsdauer um 0,9 Sek. Getroffene Feinde erleiden für 5 Sek. um 25 % erhöhten Mag. Schaden.",
+        "[Göttertraining] Erhöht die Betäubungsdauer um 1 Sek. Getroffene Feinde erleiden für 5 Sek. um 25 % erhöhten Mag. Schaden."
       ],
       "story": "Das letzte Tagebuch eines großen Lehrers. Es enthält Priester Bermans Behandlungsmethoden für die Schwarze Pest sowie eine Zusammenfassung seines eigenen Kampfes gegen die Krankheit. Baudouin konnte das Tagebuch retten, als die ehemaligen Besitztümer des Lehrers nach dessen Tod verbrannt wurden. Anschließend schrieb er es mit Leo zusammen ab und nannte es Bermans Tagebuch. Es war eine große Hilfe beim Kampf gegen die Schwarze Pest. Baudouin hat das Original als Erinnerung an den Willen seines Lehrers behalten."
     }
   },
   "t5": {
-    "light": "ATK, DEF, HP+15% / M.Block +200",
-    "dark": "Beim Angriff mit Heiliger Nova oder Speer des Lichts wird 100% der ANG als zusätzlicher M.Schaden verursacht. Reduziert den Cooldown des benutzten Skills um 20%."
+    "light": "ATK, DEF, HP+15% / Mag. Block +200",
+    "dark": "Beim Angriff mit Heiliger Nova oder Speer des Lichts wird 100% der ANG als zusätzlicher Mag. Schaden verursacht. Reduziert den Cooldown des benutzten Skills um 20%."
   }
 }

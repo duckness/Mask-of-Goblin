@@ -36,12 +36,12 @@
   "uw": {
     "name": "Lichtsegen, Benedicia",
     "description": [
-      "Nach Kampfbeginn werden für 30 Sek. die ANG-Geschwindigkeit aller Verbündeten um 100 und ihr Schaden an Feinden, die keine Helden sind, um 6 % erhöht. Darüber hinaus erleiden sie 10 % weniger K.Schaden.",
-      "Nach Kampfbeginn werden für 30 Sek. die ANG-Geschwindigkeit aller Verbündeten um 120 und ihr Schaden an Feinden, die keine Helden sind, um 7,2 % erhöht. Darüber hinaus erleiden sie 12 % weniger K.Schaden.",
-      "Nach Kampfbeginn werden für 30 Sek. die ANG-Geschwindigkeit aller Verbündeten um 140 und ihr Schaden an Feinden, die keine Helden sind, um 8,6 % erhöht. Darüber hinaus erleiden sie 14 % weniger K.Schaden.",
-      "Nach Kampfbeginn werden für 30 Sek. die ANG-Geschwindigkeit aller Verbündeten um 170 und ihr Schaden an Feinden, die keine Helden sind, um 10,4 % erhöht. Darüber hinaus erleiden sie 17 % weniger K.Schaden.",
-      "Nach Kampfbeginn werden für 30 Sek. die ANG-Geschwindigkeit aller Verbündeten um 210 und ihr Schaden an Feinden, die keine Helden sind, um 12,5 % erhöht. Darüber hinaus erleiden sie 21 % weniger K.Schaden.",
-      "Nach Kampfbeginn werden für 30 Sek. die ANG-Geschwindigkeit aller Verbündeten um 250 und ihr Schaden an Feinden, die keine Helden sind, um 15 % erhöht. Darüber hinaus erleiden sie 25 % weniger K.Schaden."
+      "Nach Kampfbeginn werden für 30 Sek. die ANG-Geschwindigkeit aller Verbündeten um 100 und ihr Schaden an Feinden, die keine Helden sind, um 6 % erhöht. Darüber hinaus erleiden sie 10 % weniger Körp. Schaden.",
+      "Nach Kampfbeginn werden für 30 Sek. die ANG-Geschwindigkeit aller Verbündeten um 120 und ihr Schaden an Feinden, die keine Helden sind, um 7,2 % erhöht. Darüber hinaus erleiden sie 12 % weniger Körp. Schaden.",
+      "Nach Kampfbeginn werden für 30 Sek. die ANG-Geschwindigkeit aller Verbündeten um 140 und ihr Schaden an Feinden, die keine Helden sind, um 8,6 % erhöht. Darüber hinaus erleiden sie 14 % weniger Körp. Schaden.",
+      "Nach Kampfbeginn werden für 30 Sek. die ANG-Geschwindigkeit aller Verbündeten um 170 und ihr Schaden an Feinden, die keine Helden sind, um 10,4 % erhöht. Darüber hinaus erleiden sie 17 % weniger Körp. Schaden.",
+      "Nach Kampfbeginn werden für 30 Sek. die ANG-Geschwindigkeit aller Verbündeten um 210 und ihr Schaden an Feinden, die keine Helden sind, um 12,5 % erhöht. Darüber hinaus erleiden sie 21 % weniger Körp. Schaden.",
+      "Nach Kampfbeginn werden für 30 Sek. die ANG-Geschwindigkeit aller Verbündeten um 250 und ihr Schaden an Feinden, die keine Helden sind, um 15 % erhöht. Darüber hinaus erleiden sie 25 % weniger Körp. Schaden."
     ],
     "story": "Eine gesegnete Fahne, die die Sonne, den Mond und den gesamten Himmel repräsentiert. Ihr wohnen die Macht und die Lehren der Schöpferin Lua inne. Wenn er die Fahne schwenkt, verbreitet sich die Macht des Lichts, wodurch seine Verbündeten geistigen Frieden finden und die Macht der Dunkelheit besiegt wird. Hierbei handelt es sich um ein Heiligtum, das Lucias anvertraut wurde, der in seiner Zeit als Heiliger Ritter von Lua ebenfalls ein Fahnenträger war."
   },
@@ -70,7 +70,7 @@
   },
   "s2": {
     "name": "Glaubenszone",
-    "description": "Baut am eigenen Standort für {0} Sek. die [Glaubenszone] auf. Erhöht den ANG von Verbündeten in der [Glaubenszone] um {1} und entfernt kontinuierlich negative Effekte von ihnen. Heilt pro Sekunde Verbündete in der Nähe um {4}. Feinde in der [Glaubenszone] erleiden pro Sekunde K.Schaden von {2} und werden für {3} Sek. betäubt.",
+    "description": "Baut am eigenen Standort für {0} Sek. die [Glaubenszone] auf. Erhöht den ANG von Verbündeten in der [Glaubenszone] um {1} und entfernt kontinuierlich negative Effekte von ihnen. Heilt pro Sekunde Verbündete in der Nähe um {4}. Feinde in der [Glaubenszone] erleiden pro Sekunde Körp. Schaden von {2} und werden für {3} Sek. betäubt.",
     "books": {
       "0": "Erhöht Erholung und Schaden um {0}%.",
       "1": "Erhöht Erholung und Schaden um {0}%.",
@@ -93,13 +93,13 @@
   },
   "s3": {
     "name": "Stigmata",
-    "description": "Erhöht für {0} Sek K.Ausweichen aller Verbündeter um {1} und ihren ANG um {2}. Effekte werden bei eigenem Tod aufgehoben. Normale Angriffe fügen den Zielen für {0} Sek. zusätzlich K.Schaden von {3} zu und erhöhen den K.Schaden, den das Ziel erleidet, für {4} Sek. um {5}  %.",
+    "description": "Erhöht für {0} Sek Körp. Ausweichen aller Verbündeter um {1} und ihren ANG um {2}. Effekte werden bei eigenem Tod aufgehoben. Normale Angriffe fügen den Zielen für {0} Sek. zusätzlich Körp. Schaden von {3} zu und erhöhen den Körp. Schaden, den das Ziel erleidet, für {4} Sek. um {5}  %.",
     "books": {
       "0": "ANG und Schaden werden um {0}% erhöht.",
       "1": "ANG und Schaden werden um {0}% erhöht.",
       "2": "ANG und Schaden werden um {0}% erhöht."
     },
-    "light": "[Stigmata] Verringert die PRÄZ der Ziele, die zusätzlichen K.Schaden durch diesen Skill erleiden, für 5 Sek. um 150.",
+    "light": "[Stigmata] Verringert die PRÄZ der Ziele, die zusätzlichen Körp. Schaden durch diesen Skill erleiden, für 5 Sek. um 150.",
     "dark": "Wird während der Wirkungsdauer immun gegen Statuseffekte.",
     "ut": {
       "name": "Lehre des Morgensterns",

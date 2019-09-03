@@ -36,18 +36,18 @@
   "uw": {
     "name": "Tränen des Mondes, Nerius",
     "description": [
-      "Jeder Angriff hat eine 10% Chance, zusätzlichen M.Schaden (100% d. ANG) zu verursachen und dabei den Skill-Cooldown um 10% zu verringern.",
-      "Jeder Angriff hat eine 12% Chance, zusätzlichen M.Schaden (120% d. ANG) zu verursachen und dabei den Skill-Cooldown um 10% zu verringern.",
-      "Jeder Angriff hat eine 14% Chance, zusätzlichen M.Schaden (140% d. ANG) zu verursachen und dabei den Skill-Cooldown um 10% zu verringern.",
-      "Jeder Angriff hat eine 17% Chance, zusätzlichen M.Schaden (170% d. ANG) zu verursachen und dabei den Skill-Cooldown um 10% zu verringern.",
-      "Jeder Angriff hat eine 20% Chance, zusätzlichen M.Schaden (210% d. ANG) zu verursachen und dabei den Skill-Cooldown um 10% zu verringern.",
-      "Jeder Angriff hat eine 25% Chance, zusätzlichen M.Schaden (250% d. ANG) zu verursachen und dabei den Skill-Cooldown um 10% zu verringern."
+      "Jeder Angriff hat eine 10% Chance, zusätzlichen Mag. Schaden (100% d. ANG) zu verursachen und dabei den Skill-Cooldown um 10% zu verringern.",
+      "Jeder Angriff hat eine 12% Chance, zusätzlichen Mag. Schaden (120% d. ANG) zu verursachen und dabei den Skill-Cooldown um 10% zu verringern.",
+      "Jeder Angriff hat eine 14% Chance, zusätzlichen Mag. Schaden (140% d. ANG) zu verursachen und dabei den Skill-Cooldown um 10% zu verringern.",
+      "Jeder Angriff hat eine 17% Chance, zusätzlichen Mag. Schaden (170% d. ANG) zu verursachen und dabei den Skill-Cooldown um 10% zu verringern.",
+      "Jeder Angriff hat eine 20% Chance, zusätzlichen Mag. Schaden (210% d. ANG) zu verursachen und dabei den Skill-Cooldown um 10% zu verringern.",
+      "Jeder Angriff hat eine 25% Chance, zusätzlichen Mag. Schaden (250% d. ANG) zu verursachen und dabei den Skill-Cooldown um 10% zu verringern."
     ],
     "story": "Ein Schatz der Dunkelelfen, der mithilfe eines mächtigen Mondlichtsteins aus Arrovina und einem Zweig des Mondbaums der höchsten Qualität erschaffen wurde. Nerius ist das perfekte Mittel für Mondlichtmagie und eine der mächtigsten magischen Waffen der Dunkelelfen. Doch es heißt, dass das wunderschöne silberne Licht des Mondes leicht von der Dunkelheit befleckt werden kann. Eine außergewöhnliche Liebe, verwandelt in tiefe Dunkelheit, und jener Dunkelelf, der nach Rache trachtet, bannte diese Dunkelheit in diese Waffe."
   },
   "s1": {
     "name": "Dunkles Toben",
-    "description": "Fügt dem Feind {0} M.Schaden zu.",
+    "description": "Fügt dem Feind {0} Mag. Schaden zu.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -58,19 +58,19 @@
     "ut": {
       "name": "Schwur des Schwarzen Mondes",
       "description": [
-        "[Dunkles Toben] Hebt alle negativen Effekte des Beschwörers auf und verringert den Cooldown um 1 Sek.",
-        "[Dunkles Toben] Hebt alle negativen Effekte des Beschwörers auf und verringert den Cooldown um 1,2 Sek.",
-        "[Dunkles Toben] Hebt alle negativen Effekte des Beschwörers auf und verringert den Cooldown um 1,4 Sek.",
-        "[Dunkles Toben] Hebt alle negativen Effekte des Beschwörers auf und verringert den Cooldown um 1,7 Sek.",
-        "[Dunkles Toben] Hebt alle negativen Effekte des Beschwörers auf und verringert den Cooldown um 2,1 Sek.",
-        "[Dunkles Toben] Hebt alle negativen Effekte des Beschwörers auf und verringert den Cooldown um 2,5 Sek."
+        "[Dunkles Toben] hebt alle negativen Effekte des Beschwörers auf und verringert den Cooldown um 1 Sek.",
+        "[Dunkles Toben] hebt alle negativen Effekte des Beschwörers auf und verringert den Cooldown um 1,2 Sek.",
+        "[Dunkles Toben] hebt alle negativen Effekte des Beschwörers auf und verringert den Cooldown um 1,4 Sek.",
+        "[Dunkles Toben] hebt alle negativen Effekte des Beschwörers auf und verringert den Cooldown um 1,7 Sek.",
+        "[Dunkles Toben] hebt alle negativen Effekte des Beschwörers auf und verringert den Cooldown um 2,1 Sek.",
+        "[Dunkles Toben] hebt alle negativen Effekte des Beschwörers auf und verringert den Cooldown um 2,5 Sek."
       ],
       "story": "Einer der Dolche, die Dimael und seine Kameraden in Aegina bei sich trugen. Als der Schwarze Mond in der Wüste aufging, überreichte er ihnen diese Dolche und sie alle schworen, sich ihrem Schicksal zu stellen. Sie unterstützen sich gegenseitig und versorgten ihre Wunden, während sie gegen die Kreaturen kämpften, die aus dem Riss strömten. Allerdings war er der Einzige, der lebendig aus Aegina zurückkehrte."
     }
   },
   "s2": {
     "name": "Schwarze Fessel",
-    "description": "Fügt Feiden in Reichw. {0} M.Schaden zu und fesselt sie für {1} Sek.",
+    "description": "Fügt Feiden in Reichw. {0} Mag. Schaden zu und fesselt sie für {1} Sek.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -81,19 +81,19 @@
     "ut": {
       "name": "Unzerstörbarer Armreif",
       "description": [
-        "[Schwarze Fessel] Erhöht den Schaden um 50 % und die M.Schwäche des Ziels 10 Sek. lang um 10 %.",
-        "[Schwarze Fessel] Erhöht den Schaden um 50 % und die M.Schwäche des Ziels 10 Sek. lang um 12 %.",
-        "[Schwarze Fessel] Erhöht den Schaden um 50 % und die M.Schwäche des Ziels 10 Sek. lang um 14 %.",
-        "[Schwarze Fessel] Erhöht den Schaden um 50 % und die M.Schwäche des Ziels 10 Sek. lang um 17 %.",
-        "[Schwarze Fessel] Erhöht den Schaden um 50 % und die M.Schwäche des Ziels 10 Sek. lang um 21 %.",
-        "[Schwarze Fessel] Erhöht den Schaden um 50 % und die M.Schwäche des Ziels 10 Sek. lang um 25 %."
+        "[Schwarze Fessel] Erhöht den Schaden um 50 % und die Mag. Schwäche des Ziels 10 Sek. lang um 10 %.",
+        "[Schwarze Fessel] Erhöht den Schaden um 50 % und die Mag. Schwäche des Ziels 10 Sek. lang um 12 %.",
+        "[Schwarze Fessel] Erhöht den Schaden um 50 % und die Mag. Schwäche des Ziels 10 Sek. lang um 14 %.",
+        "[Schwarze Fessel] Erhöht den Schaden um 50 % und die Mag. Schwäche des Ziels 10 Sek. lang um 17 %.",
+        "[Schwarze Fessel] Erhöht den Schaden um 50 % und die Mag. Schwäche des Ziels 10 Sek. lang um 21 %.",
+        "[Schwarze Fessel] Erhöht den Schaden um 50 % und die Mag. Schwäche des Ziels 10 Sek. lang um 25 %."
       ],
       "story": "Eine Halskette, die Epigael vor langer Zeit erhielt. Sie besitzt einen eingefassten Schatten-Morion, ein für die Dunkelelfen kostbares Juwel. Es heißt, dass diejenigen, die den Schatten-Morion losschneiden, durch einen Seelenfaden verbunden werden, der dazu führt, dass sie sich im nächsten Leben wiedertreffen."
     }
   },
   "s3": {
     "name": "Schattenwelle",
-    "description": "Fügt Feinden in einer geraden Linie {0} M.Schaden zu und blendet getroffene Feinde für {1} Sek.",
+    "description": "Fügt Feinden in einer geraden Linie {0} Mag. Schaden zu und blendet getroffene Feinde für {1} Sek.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -116,7 +116,7 @@
   },
   "s4": {
     "name": "Schwarzes Mal",
-    "description": "Während normaler Attacken verursacht der lezte Angriff der Kombo {0} zusätzlichen M.Schaden, der die feindliche M.VERT ignoriert.",
+    "description": "Während normaler Attacken verursacht der lezte Angriff der Kombo {0} zusätzlichen Mag. Schaden, der die feindliche Mag. VERT ignoriert.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -139,6 +139,6 @@
   },
   "t5": {
     "light": "ANG, VERT, TP+15% / ANG-Geschw. +100",
-    "dark": "Normale Angriffe verursachen 80% der ANG als zusätzlichen M.Schaden und geben dem Held 100 Mana zurück. 10% Chance auf doppelten Schaden und Mana-Regeneration."
+    "dark": "Normale Angriffe verursachen 80% der ANG als zusätzlichen Mag. Schaden und geben dem Held 100 Mana zurück. 10% Chance auf doppelten Schaden und Mana-Regeneration."
   }
 }

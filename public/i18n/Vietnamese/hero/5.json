@@ -36,7 +36,7 @@
   "uw": {
     "name": "Chim thánh, Numinu",
     "description": [
-      "Mỗi khi mất 1% máu, Sức mạnh tấn công tăng 0,8% và tốc độ tấn công tăng 8.",
+      "Mỗi khi tăng {0}% HP tối đa và giảm 1% HP thì lực tấn công tăng {1}% và tốc độ tấn công tăng {2}.",
       "Mỗi khi mất 1% máu, Sức mạnh tấn công tăng 1% và tốc độ tấn công tăng 10.",
       "Mỗi khi mất 1% máu, Sức mạnh tấn công tăng 1,2% và tốc độ tấn công tăng 12.",
       "Mỗi khi mất 1% máu, Sức mạnh tấn công tăng 1,4% và tốc độ tấn công tăng 14.",
@@ -58,12 +58,12 @@
     "ut": {
       "name": "Mũ giáp của Vua sương giá",
       "description": [
-        "[Đập] Giảm 20% điểm Tấn công của mục tiêu và tăng 10% Sát thương vật lý mà mục tiêu phải nhận trong 10 giây.",
-        "[Đập] Giảm 20% điểm Tấn công của mục tiêu và tăng 12% Sát thương vật lý mà mục tiêu phải nhận trong 10 giây.",
-        "[Đập] Giảm 20% điểm Tấn công của mục tiêu và tăng 14% Sát thương vật lý mà mục tiêu phải nhận trong 10 giây.",
-        "[Đập] Giảm 20% điểm Tấn công của mục tiêu và tăng 17% Sát thương vật lý mà mục tiêu phải nhận trong 10 giây.",
-        "[Đập] Giảm 20% điểm Tấn công của mục tiêu và tăng 21% Sát thương vật lý mà mục tiêu phải nhận trong 10 giây.",
-        "[Đập] Giảm 20% điểm Tấn công của mục tiêu và tăng 25% Sát thương vật lý mà mục tiêu phải nhận trong 10 giây."
+        "[Đập] Giảm 20% lực tấn công của mục tiêu và tăng 10% Sát thương vật lý mà mục tiêu phải nhận trong 10 giây.",
+        "[Đập] Giảm 20% lực tấn công của mục tiêu và tăng 12% Sát thương vật lý mà mục tiêu phải nhận trong 10 giây.",
+        "[Đập] Giảm 20% lực tấn công của mục tiêu và tăng 14% Sát thương vật lý mà mục tiêu phải nhận trong 10 giây.",
+        "[Đập] Giảm 20% lực tấn công của mục tiêu và tăng 17% Sát thương vật lý mà mục tiêu phải nhận trong 10 giây.",
+        "[Đập] Giảm 20% lực tấn công của mục tiêu và tăng 21% Sát thương vật lý mà mục tiêu phải nhận trong 10 giây.",
+        "[Đập] Giảm 20% lực tấn công của mục tiêu và tăng 25% Sát thương vật lý mà mục tiêu phải nhận trong 10 giây."
       ],
       "story": "Chiếc mũ giáp mòn vẹt của Vua khổng lồ băng. Người cuối cùng đội nó là Vua khổng lồ băng bị bóng tối chi phối. Với hi vọng thảm kịch của Núi tuyết Windland không lặp lại, Gau lưu giữ chiếc mũ giáp bị hủy hoại này để tưởng nhớ vị anh hùng đã ngã xuống."
     }
@@ -93,7 +93,7 @@
   },
   "s3": {
     "name": "Gió cuốn",
-    "description": "Gây {0} Sát thương vật lý lên kẻ địch lân cận và gây thêm {1} Sát thương vật lý lên kẻ địch không phải Anh hùng. Đòn tấn công cuối cùng làm đóng băng kẻ địch trong {2} giây. Được miễn nhiễm Trạng thái chế ngự trong khi dùng kỹ năng.",
+    "description": "Gây {0} sát thương vật lý lên kẻ địch xung quanh và gây {1} sát thương vật lý lên đối tượng không phải là anh hùng. Đòn tấn công cuối cùng làm đóng băng kẻ địch xung quanh trong {2} giây. Được miễn nhiễm trạng thái chế ngự trong khi dùng kỹ năng.",
     "books": {
       "0": "Tăng {0}% sát thương.",
       "1": "Tăng {0}% sát thương.",
@@ -120,7 +120,7 @@
     "books": {
       "0": "Tăng {0}% chỉ số tăng lực tấn công.",
       "1": "Tăng {0}% chỉ số tăng lực tấn công.",
-      "2": "Mỗi lần cộng dồn kỹ năng, kháng hiệu ứng xấu tăng 50"
+      "2": "Mỗi lần cộng dồn kỹ năng, kháng hiệu ứng xấu tăng 50."
     },
     "light": "Chỉ số tăng sức tấn công tăng 40%.",
     "dark": "Sát thương nhận được với tất cả cộng dồn tăng 5%, tỉ lệ đòn chí mạng cộng dồn thêm 50 và xuất huyết thêm 50.",

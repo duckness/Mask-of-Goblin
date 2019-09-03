@@ -70,7 +70,7 @@
   },
   "s2": {
     "name": "Segen des Sandgeists",
-    "description": "Erschafft einen Schild um den Verbündeten mit den wenigsten TP, der {0} Sek. lang {1} Schaden absorbiert und gegen Statuseffekte immun macht. Nach der Schilddauer wird Sandsturm aktiviert und verursacht an Gegnern in weitem Umkreis {2} K.Schaden und 2 Zähler [Mal der Wüste]. Wenn der Schild aufgehoben oder zerstört wird, wird Sandsturm nicht aktiviert.",
+    "description": "Erschafft einen Schild um den Verbündeten mit den wenigsten TP, der {0} Sek. lang {1} Schaden absorbiert und gegen Statuseffekte immun macht. Nach der Schilddauer wird Sandsturm aktiviert und verursacht an Gegnern in weitem Umkreis {2} Körp. Schaden und 2 Zähler [Mal der Wüste]. Wenn der Schild aufgehoben oder zerstört wird, wird Sandsturm nicht aktiviert.",
     "books": {
       "0": "Erhöht Schaden und Schild-TP um {0}%.",
       "1": "Erhöht Schaden und Schild-TP um {0}%.",
@@ -93,7 +93,7 @@
   },
   "s3": {
     "name": "Verderben der Wüste",
-    "description": "Verursacht {0} K.Schaden an Gegnern in weitem Umkreis vor einem und belegt diese mit 1 Zähler [Mal der Wüste]. Beschwört dann 5 Sek. lang eine Sandgrube, die alle 0,5 Sek. {1} K.Schaden verursacht und 10 Sek. lang K.VERT um 30% senkt. Die Sandgrube hat eine 25% Chance, Gegnern 1 Zähler [Mal der Wüste] aufzuerlegen, und zieht alle Gegner in Reichweite zu ihrem Mittelpunkt.",
+    "description": "Verursacht {0} Körp. Schaden an Gegnern in weitem Umkreis vor einem und belegt diese mit 1 Zähler [Mal der Wüste]. Beschwört dann 5 Sek. lang eine Sandgrube, die alle 0,5 Sek. {1} Körp. Schaden verursacht und 10 Sek. lang Körp. VERT um 30% senkt. Die Sandgrube hat eine 25% Chance, Gegnern 1 Zähler [Mal der Wüste] aufzuerlegen, und zieht alle Gegner in Reichweite zu ihrem Mittelpunkt.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -116,7 +116,7 @@
   },
   "s4": {
     "name": "Ruf des Wächters",
-    "description": "Jeder normale Angriff hat eine Chance von 15%, bei allen Gegnern {0} K.Schaden zu verursachen, der VERT ignoriert und 1 Zähler [Mal der Wüste] verleiht. Gegner können maximal 10 Zähler [Mal der Wüste] ansammeln.",
+    "description": "Jeder normale Angriff hat eine Chance von 15%, bei allen Gegnern {0} Körp. Schaden zu verursachen, der VERT ignoriert und 1 Zähler [Mal der Wüste] verleiht. Gegner können maximal 10 Zähler [Mal der Wüste] ansammeln.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -127,12 +127,12 @@
     "ut": {
       "name": "Schwarze Katze Hoabis",
       "description": [
-        "[Ruf des Wächters] Bei einem Kritischen Treffer wird das Ziel 2 Sek. lang betäubt, wobei sich der erlittene K.Schaden für 10 Sek. um 10 % erhöht.",
-        "[Ruf des Wächters] Bei einem Kritischen Treffer wird das Ziel 2 Sek. lang betäubt, wobei sich der erlittene K.Schaden für 10 Sek. um 12 % erhöht.",
-        "[Ruf des Wächters] Bei einem Kritischen Treffer wird das Ziel 2 Sek. lang betäubt, wobei sich der erlittene K.Schaden für 10 Sek. um 14 % erhöht.",
-        "[Ruf des Wächters] Bei einem Kritischen Treffer wird das Ziel 2 Sek. lang betäubt, wobei sich der erlittene K.Schaden für 10 Sek. um 17 % erhöht.",
-        "[Ruf des Wächters] Bei einem Kritischen Treffer wird das Ziel 2 Sek. lang betäubt, wobei sich der erlittene K.Schaden für 10 Sek. um 21 % erhöht.",
-        "[Ruf des Wächters] Bei einem Kritischen Treffer wird das Ziel 2 Sek. lang betäubt, wobei sich der erlittene K.Schaden für 10 Sek. um 25 % erhöht."
+        "[Ruf des Wächters] Bei einem Kritischen Treffer wird das Ziel 2 Sek. lang betäubt, wobei sich der erlittene Körp. Schaden für 10 Sek. um 10 % erhöht.",
+        "[Ruf des Wächters] Bei einem Kritischen Treffer wird das Ziel 2 Sek. lang betäubt, wobei sich der erlittene Körp. Schaden für 10 Sek. um 12 % erhöht.",
+        "[Ruf des Wächters] Bei einem Kritischen Treffer wird das Ziel 2 Sek. lang betäubt, wobei sich der erlittene Körp. Schaden für 10 Sek. um 14 % erhöht.",
+        "[Ruf des Wächters] Bei einem Kritischen Treffer wird das Ziel 2 Sek. lang betäubt, wobei sich der erlittene Körp. Schaden für 10 Sek. um 17 % erhöht.",
+        "[Ruf des Wächters] Bei einem Kritischen Treffer wird das Ziel 2 Sek. lang betäubt, wobei sich der erlittene Körp. Schaden für 10 Sek. um 21 % erhöht.",
+        "[Ruf des Wächters] Bei einem Kritischen Treffer wird das Ziel 2 Sek. lang betäubt, wobei sich der erlittene Körp. Schaden für 10 Sek. um 25 % erhöht."
       ],
       "story": "Jeder weiß, dass der Gottkönig im antiken Wüstenkönigreich immer eine schwarze Katze an seiner Seite hatte, die Frieden und Wohlstand symbolisierte. Niemand weiß, wie es der schwarzen Katze gelingt, Generation um Generation aufs Neue zu erscheinen. Als die Katze zu Zafir kam, gab er ihr den Namen „Hoabis“, und seither kümmert er sich um sie."
     }

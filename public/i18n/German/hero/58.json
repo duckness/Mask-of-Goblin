@@ -47,14 +47,14 @@
   },
   "s1": {
     "name": "Flüstern des Sandes",
-    "description": "Greift das Ziel im Nahkampf an, verursacht {0} M.Schaden, verringert {1} Sek. lang die Blockchance um {2} und den Krit. Widerstand um {3}. Ein zusätzlicher Angriff verursacht {4} M.Schaden und betäubt {5} Sek. lang.",
+    "description": "Greift das Ziel im Nahkampf an, verursacht {0} Mag. Schaden, verringert {1} Sek. lang die Blockchance um {2} und den Krit. Widerstand um {3}. Ein zusätzlicher Angriff verursacht {4} Mag. Schaden und betäubt {5} Sek. lang.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
       "2": "Erhöht Schaden um {0}%."
     },
     "light": "Manakosten sind um 1 reduziert.",
-    "dark": "Ziel erleidet 10 Sek. lang um 25 % erhöhten M.Schaden.",
+    "dark": "Ziel erleidet 10 Sek. lang um 25 % erhöhten Mag. Schaden.",
     "ut": {
       "name": "Fußkettchen der Oase",
       "description": [
@@ -70,7 +70,7 @@
   },
   "s2": {
     "name": "Verzauberndes Fließen",
-    "description": "Erhöht {0} Sek. lang eigenen ANG um {1} und Krit. Schaden um {2}%. Bewegt sich dann eine kurze Strecke vorwärts und verursacht bei Gegnern in Bewegungsreichweite {3} M.Schaden und bezaubert sie {4} Sek. lang, wenn der Skill in der Arena benutzt wurde. Kann innerhalb von 5 Sek. nach Benutzung einmalig [Verlockender Hinterhalt] aktivieren.",
+    "description": "Erhöht {0} Sek. lang eigenen ANG um {1} und Krit. Schaden um {2}%. Bewegt sich dann eine kurze Strecke vorwärts und verursacht bei Gegnern in Bewegungsreichweite {3} Mag. Schaden und bezaubert sie {4} Sek. lang, wenn der Skill in der Arena benutzt wurde. Kann innerhalb von 5 Sek. nach Benutzung einmalig [Verlockender Hinterhalt] aktivieren.",
     "books": {
       "0": "ANG und Schaden werden um {0}% erhöht.",
       "1": "ANG und Schaden werden um {0}% erhöht.",
@@ -81,25 +81,25 @@
     "ut": {
       "name": "Heiligtum von Trovatia",
       "description": [
-        "[Verzauberndes Fließen] Absorbiert nach Bewegung 3 Sek. lang Schaden in Höhe von 160% des ANG. Danach wird ein Schild erschaffen, der immun gegen Statuseffekte ist und die Manakosten von [Verlockender Hinterhalt] werden um 1 gesenkt.",
-        "[Verzauberndes Fließen] Absorbiert nach Bewegung 3 Sek. lang Schaden in Höhe von 190% des ANG. Danach wird ein Schild erschaffen, der immun gegen Statuseffekte ist und die Manakosten von [Verlockender Hinterhalt] werden um 1 gesenkt.",
-        "[Verzauberndes Fließen] Absorbiert nach Bewegung 3 Sek. lang Schaden in Höhe von 230% des ANG. Danach wird ein Schild erschaffen, der immun gegen Statuseffekte ist und die Manakosten von [Verlockender Hinterhalt] werden um 1 gesenkt.",
-        "[Verzauberndes Fließen] Absorbiert nach Bewegung 3 Sek. lang Schaden in Höhe von 270% des ANG. Danach wird ein Schild erschaffen, der immun gegen Statuseffekte ist und die Manakosten von [Verlockender Hinterhalt] werden um 1 gesenkt.",
-        "[Verzauberndes Fließen] Absorbiert nach Bewegung 3 Sek. lang Schaden in Höhe von 330% des ANG. Danach wird ein Schild erschaffen, der immun gegen Statuseffekte ist und die Manakosten von [Verlockender Hinterhalt] werden um 1 gesenkt.",
-        "[Verzauberndes Fließen] Absorbiert nach Bewegung 3 Sek. lang Schaden in Höhe von 400% des ANG. Danach wird ein Schild erschaffen, der immun gegen Statuseffekte ist und die Manakosten von [Verlockender Hinterhalt] werden um 1 gesenkt."
+        "[Verzauberndes Fließen] Absorbiert nach Bewegung 3 Sek. lang Schaden in Höhe von 160% des ANG. Danach wird ein Schild erschaffen, der immun gegen Massenkontrolle ist und die Manakosten von [Verlockender Hinterhalt] werden um 1 gesenkt.",
+        "[Verzauberndes Fließen] Absorbiert nach Bewegung 3 Sek. lang Schaden in Höhe von 190% des ANG. Danach wird ein Schild erschaffen, der immun gegen Massenkontrolle ist und die Manakosten von [Verlockender Hinterhalt] werden um 1 gesenkt.",
+        "[Verzauberndes Fließen] Absorbiert nach Bewegung 3 Sek. lang Schaden in Höhe von 230% des ANG. Danach wird ein Schild erschaffen, der immun gegen Massenkontrolle ist und die Manakosten von [Verlockender Hinterhalt] werden um 1 gesenkt.",
+        "[Verzauberndes Fließen] Absorbiert nach Bewegung 3 Sek. lang Schaden in Höhe von 270% des ANG. Danach wird ein Schild erschaffen, der immun gegen Massenkontrolle ist und die Manakosten von [Verlockender Hinterhalt] werden um 1 gesenkt.",
+        "[Verzauberndes Fließen] Absorbiert nach Bewegung 3 Sek. lang Schaden in Höhe von 330% des ANG. Danach wird ein Schild erschaffen, der immun gegen Massenkontrolle ist und die Manakosten von [Verlockender Hinterhalt] werden um 1 gesenkt.",
+        "[Verzauberndes Fließen] Absorbiert nach Bewegung 3 Sek. lang Schaden in Höhe von 400% des ANG. Danach wird ein Schild erschaffen, der immun gegen Massenkontrolle ist und die Manakosten von [Verlockender Hinterhalt] werden um 1 gesenkt."
       ],
       "story": "Eine Truhe mit Artefakten, die für Rituale zur Anbetung des Wasserdrachen benötigt werden. Ein Teil des Schmucks darauf ist aus „Azurblauem Lapislazuli“ gefertigt, einem Edelstein, der Fülle verkörpert. Sie ist der größte Schatz von Laudias Vater und wird nur denen verliehen, welche den ganzen Trovatia-Stamm führen können."
     },
     "linked": {
       "0": {
         "name": "Verlockender Hinterhalt",
-        "description": "Greift das Ziel dreimal an und verursacht insgesamt {0} M.Schaden. Fügt Bossgegnern und verzauberten Gegnern zusätzlich {1} M.Schaden zu und umgeht dabei ihre VERT."
+        "description": "Greift das Ziel dreimal an und verursacht insgesamt {0} Mag. Schaden. Fügt Bossgegnern und verzauberten Gegnern zusätzlich {1} Mag. Schaden zu und umgeht dabei ihre VERT."
       }
     }
   },
   "s3": {
     "name": "Tanz der Wüste",
-    "description": "Greift Gegner in Reichweite 30-mal an und verursacht insgesamt {0} M.Schaden. Wirft außerdem die Klingen des Arlaq 30-mal auf zufällige Gegner und verursacht dabei insgesamt {1} M.Schaden. Jedes Mal, wenn die Klingen den gleichen Gegner treffen, wird zusätzlich {2} Schaden hinzugefügt. [Blendende Beschleunigung] kann einmal während der Skillaktivierung benutzt werden. Die Klingen des Arlaq treffen bevorzugt bezauberte Gegner.",
+    "description": "Greift Gegner in Reichweite 30-mal an und verursacht insgesamt {0} Mag. Schaden. Wirft außerdem die Klingen des Arlaq 30-mal auf zufällige Gegner und verursacht dabei insgesamt {1} Mag. Schaden. Jedes Mal, wenn die Klingen den gleichen Gegner treffen, wird zusätzlich {2} Schaden hinzugefügt. [Blendende Beschleunigung] kann einmal während der Skillaktivierung benutzt werden. Die Klingen des Arlaq treffen bevorzugt bezauberte Gegner.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",

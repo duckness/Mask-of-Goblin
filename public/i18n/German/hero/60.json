@@ -47,7 +47,7 @@
   },
   "s1": {
     "name": "Licht der Zerstörung",
-    "description": "Verursacht {0} M.Schaden am Ziel, der die VERT ignoriert, und betäubt es für {1} Sek. Verursacht zusätzlich {2} M.Schaden, der die VERT ignoriert, an Zielen, die keine Helden sind. Entfernt nach Verwendung alle Lichter in Besitz und erhält Rotes Licht, das nicht entfernt werden kann.",
+    "description": "Verursacht {0} Mag. Schaden am Ziel, der die VERT ignoriert, und betäubt es für {1} Sek. Verursacht zusätzlich {2} Mag. Schaden, der die VERT ignoriert, an Zielen, die keine Helden sind. Entfernt nach Verwendung alle Lichter in Besitz und erhält Rotes Licht, das nicht entfernt werden kann.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -70,7 +70,7 @@
   },
   "s2": {
     "name": "Feindblockade",
-    "description": "Entfernt alle negativen Effekte vom Beschwörer, verursacht {0} M.Schaden an allen Feinden und bringt sie für {1} Sek. zum Schweigen. Entfernt nach Verwendung alle Lichter in Besitz und erhält Blaues Licht, das nicht entfernt werden kann.",
+    "description": "Entfernt alle negativen Effekte vom Beschwörer, verursacht {0} Mag. Schaden an allen Feinden und bringt sie für {1} Sek. zum Schweigen. Entfernt nach Verwendung alle Lichter in Besitz und erhält Blaues Licht, das nicht entfernt werden kann.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -81,19 +81,19 @@
     "ut": {
       "name": "Zertifikat des Inquisitors",
       "description": [
-        "[Feindblockade] Verringert den Cooldown um 5 Sek. und erhöht den vom Ziel erlittenen M.Schaden 10 Sek. lang um 10 %.",
-        "[Feindblockade] Verringert den Cooldown um 5 Sek. und erhöht den vom Ziel erlittenen M.Schaden 10 Sek. lang um 12 %.",
-        "[Feindblockade] Verringert den Cooldown um 5 Sek. und erhöht den vom Ziel erlittenen M.Schaden 10 Sek. lang um 14 %.",
-        "[Feindblockade] Verringert den Cooldown um 5 Sek. und erhöht den vom Ziel erlittenen M.Schaden 10 Sek. lang um 17 %.",
-        "[Feindblockade] Verringert den Cooldown um 5 Sek. und erhöht den vom Ziel erlittenen M.Schaden 10 Sek. lang um 21 %.",
-        "[Feindblockade] Verringert den Cooldown um 5 Sek. und erhöht den vom Ziel erlittenen M.Schaden 10 Sek. lang um 25 %."
+        "[Feindblockade] Verringert den Cooldown um 5 Sek. und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 10 %.",
+        "[Feindblockade] Verringert den Cooldown um 5 Sek. und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 12 %.",
+        "[Feindblockade] Verringert den Cooldown um 5 Sek. und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 14 %.",
+        "[Feindblockade] Verringert den Cooldown um 5 Sek. und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 17 %.",
+        "[Feindblockade] Verringert den Cooldown um 5 Sek. und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 21 %.",
+        "[Feindblockade] Verringert den Cooldown um 5 Sek. und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 25 %."
       ],
       "story": "Die Tafel des Inquisitors, die Chrisha vom Kaiser erhalten hat. Der silberne Wolf mit dem Schwert im Mund symbolisiert Autorität und Kontrolle, mit denen Chrisha die Gerechtigkeit walten und das Böse im Namen des Kaisers züchtigen kann."
     }
   },
   "s3": {
     "name": "Grüne Zone",
-    "description": "Verursacht {0} M.Schaden an frontalen Feinden in einer geraden Linie und erschafft vor ihnen eine Grüne Zone. Feinde in der Grünen Zone können keine positiven Effekte erhalten und erleiden {2} M.Schaden über {1} Sek. Ihre Heilungsrate wird dabei um {3}  % verringert. Entfernt nach Verwendung alle Lichter in Besitz und erhält Grünes Licht, das nicht entfernt werden kann.",
+    "description": "Verursacht {0} Mag. Schaden an frontalen Feinden in einer geraden Linie und erschafft vor ihnen eine Grüne Zone. Feinde in der Grünen Zone können keine positiven Effekte erhalten und erleiden {2} Mag. Schaden über {1} Sek. Ihre Heilungsrate wird dabei um {3}  % verringert. Entfernt nach Verwendung alle Lichter in Besitz und erhält Grünes Licht, das nicht entfernt werden kann.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -116,13 +116,13 @@
   },
   "s4": {
     "name": "Technomagie des Imperiums",
-    "description": "Erhöht den ANG um {0} und die PRÄZ um {1} für alle Verbündeten. Ändert den normalen Angriff des Beschwörers gemäß der Farbe des Lichts im Besitz. Rotes Licht – Erhöht den Schaden des normalen Angriffs um {2}  % und verringert den Cooldown von [Licht der Zerstörung] beim Angreifen um 1 Sek. Blaues Licht – Verringert den Schaden des normalen Angriffs um {3}  %, verursacht dafür Schaden am ganzen Feind. Erhöht den M.Schaden, den das Ziel erleidet, für 10 Sek um {4}  %. Grünes Licht – Verringert den Schaden des normalen Angriffs um 20 %, verursacht dafür Schaden an 2 Feinden. Verringert die Heilungsrate des Ziels für 5 Sek um {5}  %.",
+    "description": "Erhöht den ANG um {0} und die PRÄZ um {1} für alle Verbündeten. Ändert den normalen Angriff des Beschwörers gemäß der Farbe des Lichts im Besitz. Rotes Licht – Erhöht den Schaden des normalen Angriffs um {2}  % und verringert den Cooldown von [Licht der Zerstörung] beim Angreifen um 1 Sek. Blaues Licht – Verringert den Schaden des normalen Angriffs um {3}  %, verursacht dafür Schaden am ganzen Feind. Erhöht den Mag. Schaden, den das Ziel erleidet, für 10 Sek um {4}  %. Grünes Licht – Verringert den Schaden des normalen Angriffs um 20 %, verursacht dafür Schaden an 2 Feinden. Verringert die Heilungsrate des Ziels für 5 Sek um {5}  %.",
     "books": {
       "0": "Erhöht ANG um {0}%.",
       "1": "Erhöht ANG um {0}%.",
       "2": "Erhöht ANG um {0}%."
     },
-    "light": "Verstärkt die Effekte des Lichts bei normalen Angriffen. Rotes Licht: Ändert die Cooldown-Verringerung auf 2 Sek. Blaues Licht: Das Ziel erleidet 60 % mehr M.Schaden. Grünes Licht: Die Heilungsraten-Verringerung wird um 40 % erhöht.",
+    "light": "Verstärkt die Effekte des Lichts bei normalen Angriffen. Rotes Licht: Ändert die Cooldown-Verringerung auf 2 Sek. Blaues Licht: Das Ziel erleidet 60 % mehr Mag. Schaden. Grünes Licht: Die Heilungsraten-Verringerung wird um 40 % erhöht.",
     "dark": "Erhöht die Reichweite des normalen Angriffs um 20 %.",
     "ut": {
       "name": "Prisma der Primärfarben",

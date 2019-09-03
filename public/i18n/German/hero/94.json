@@ -53,7 +53,7 @@
       "1": "Erhöht Heilungsrate und Schaden um {0}  %",
       "2": "Erhöht Heilungsrate und Schaden um {0}  %"
     },
-    "light": "[Bestes Gericht] Erhöht ANG des Ziels für die Dauer der Fähigkeit um 15 %. [Junos scharfe Spezialität] Ziel nimmt 10 Sek lang 25% erhöhten K.Schaden.",
+    "light": "[Bestes Gericht] Erhöht ANG des Ziels für die Dauer der Fähigkeit um 15 %. [Junos scharfe Spezialität] Ziel nimmt 10 Sek lang 25% erhöhten Körp. Schaden.",
     "dark": "[Bestes Gericht] Erhöht die Krit. Chance des Ziels für die Dauer des Skills um 150. [Junos scharfe Spezialität] Verringert die Manakosten um 1.",
     "ut": {
       "name": "Bunte Kelle",
@@ -70,7 +70,7 @@
     "linked": {
       "0": {
         "name": "Junos scharfe Spezialität",
-        "description": "Entfernt positive Effekte von allen Feinden, richtet bis zu {1} K.Schaden über {0}  Sekunde(n) an und erhöht die Menge erlittenen K.Schadens bei Feinden um {2}  %. [Ausgezeichnete Zutat] Verbraucht 2 Zähler „Ausgezeichnete Zutat“, um den K.Schaden zu verdoppeln, wenn mindestens 2 Zähler vorhanden sind."
+        "description": "Entfernt positive Effekte von allen Feinden, richtet bis zu {1} Körp. Schaden über {0}  Sekunde(n) an und erhöht die Menge erlittenen Körp. Schadens bei Feinden um {2}  %. [Ausgezeichnete Zutat] Verbraucht 2 Zähler „Ausgezeichnete Zutat“, um den Körp. Schaden zu verdoppeln, wenn mindestens 2 Zähler vorhanden sind."
       }
     }
   },
@@ -99,7 +99,7 @@
     "linked": {
       "0": {
         "name": "Bedien dich und dann verschwinde!",
-        "description": "Greift das Ziel und Feinde in der Nähe an, fügt {0} K.Schaden zu und verringert deren MP um 1 Manakugel. Wenn das Ziel kein Held ist, wird zusätzlich {1} VERT-ignorierender K.Schaden zugefügt. [Ausgezeichnete Zutat] Verbraucht 2 Zähler „Ausgezeichnete Zutat“, um die MP-Verringerung zu verdoppeln, wenn mindestens 2 Zähler vorhanden sind."
+        "description": "Greift das Ziel und Feinde in der Nähe an, fügt {0} Körp. Schaden zu und verringert deren MP um 1 Manakugel. Wenn das Ziel kein Held ist, wird zusätzlich {1} VERT-ignorierender Körp. Schaden zugefügt. [Ausgezeichnete Zutat] Verbraucht 2 Zähler „Ausgezeichnete Zutat“, um die MP-Verringerung zu verdoppeln, wenn mindestens 2 Zähler vorhanden sind."
       }
     }
   },
@@ -130,9 +130,9 @@
     "name": "Wir haben geöffnet!",
     "description": "Als Himmlische Köchin: Erhöht VERT aller Verbündeten um {0} und ihre Heilungsrate um {1}  %. Als Köchin aus der Hölle: Verringert VERT aller Feinde um {2}  % und ihre Heilungsrate um {3}  %.",
     "books": {
-      "0": "K.VERT-Erhöhugsrate erhöht sich um {0}%.",
-      "1": "K.VERT-Erhöhugsrate erhöht sich um {0}%.",
-      "2": "K.VERT-Erhöhugsrate erhöht sich um {0}%."
+      "0": "Körp. VERT-Erhöhugsrate erhöht sich um {0}%.",
+      "1": "Körp. VERT-Erhöhugsrate erhöht sich um {0}%.",
+      "2": "Körp. VERT-Erhöhugsrate erhöht sich um {0}%."
     },
     "light": "Erhöht die Krit. Chance aller Verbündeten um 200.",
     "dark": "[Köchin aus der Hölle] Verringert VERT-Durchdringung aller Feinde um 200.",
@@ -150,7 +150,7 @@
     }
   },
   "t5": {
-    "light": "ANG, VERT, TP+15% / K.Block +200",
+    "light": "ANG, VERT, TP+15% / Körp. Block +200",
     "dark": "Erhält zu Beginn jedes Kampfes 2 Zähler [Ausgezeichnete Zutat] und erhöht die MP-Erholung/Sek. 10 Sekunden lang um 200 %."
   }
 }

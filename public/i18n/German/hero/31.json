@@ -36,18 +36,18 @@
   "uw": {
     "name": "Klarer blauer Himmel, Sherrkyle",
     "description": [
-      "Markiert alle 10 Sek. 1 zufälligen Gegner mit Urteilssiegel, das 15 Sek. andauert, und fügt dann M.Schaden in Höhe von 200% ANG zu. Ignoriert VERT, wenn das Ziel kein Held ist.",
-      "Markiert alle 10 Sek. 1 zufälligen Gegner mit Urteilssiegel, das 15 Sek. andauert, und fügt dann M.Schaden in Höhe von 240% ANG zu. Ignoriert VERT, wenn das Ziel kein Held ist.",
-      "Markiert alle 10 Sek. 1 zufälligen Gegner mit Urteilssiegel, das 15 Sek. andauert, und fügt dann M.Schaden in Höhe von 290% ANG zu. Ignoriert VERT, wenn das Ziel kein Held ist.",
-      "Markiert alle 10 Sek. 1 zufälligen Gegner mit Urteilssiegel, das 15 Sek. andauert, und fügt dann M.Schaden in Höhe von 350% ANG zu. Ignoriert VERT, wenn das Ziel kein Held ist.",
-      "Markiert alle 10 Sek. 1 zufälligen Gegner mit Urteilssiegel, das 15 Sek. andauert, und fügt dann M.Schaden in Höhe von 420% ANG zu. Ignoriert VERT, wenn das Ziel kein Held ist.",
-      "Markiert alle 10 Sek. 1 zufälligen Gegner mit Urteilssiegel, das 15 Sek. andauert, und fügt dann M.Schaden in Höhe von 500% ANG zu. Ignoriert VERT, wenn das Ziel kein Held ist."
+      "Markiert alle 10 Sek. 1 zufälligen Gegner mit Urteilssiegel, das 15 Sek. andauert, und fügt dann Mag. Schaden in Höhe von 200% ANG zu. Ignoriert VERT, wenn das Ziel kein Held ist.",
+      "Markiert alle 10 Sek. 1 zufälligen Gegner mit Urteilssiegel, das 15 Sek. andauert, und fügt dann Mag. Schaden in Höhe von 240% ANG zu. Ignoriert VERT, wenn das Ziel kein Held ist.",
+      "Markiert alle 10 Sek. 1 zufälligen Gegner mit Urteilssiegel, das 15 Sek. andauert, und fügt dann Mag. Schaden in Höhe von 290% ANG zu. Ignoriert VERT, wenn das Ziel kein Held ist.",
+      "Markiert alle 10 Sek. 1 zufälligen Gegner mit Urteilssiegel, das 15 Sek. andauert, und fügt dann Mag. Schaden in Höhe von 350% ANG zu. Ignoriert VERT, wenn das Ziel kein Held ist.",
+      "Markiert alle 10 Sek. 1 zufälligen Gegner mit Urteilssiegel, das 15 Sek. andauert, und fügt dann Mag. Schaden in Höhe von 420% ANG zu. Ignoriert VERT, wenn das Ziel kein Held ist.",
+      "Markiert alle 10 Sek. 1 zufälligen Gegner mit Urteilssiegel, das 15 Sek. andauert, und fügt dann Mag. Schaden in Höhe von 500% ANG zu. Ignoriert VERT, wenn das Ziel kein Held ist."
     ],
     "story": "Eine mächtige Lichtwaffe, die die Form eines Speeres, Dolches oder Bogens annehmen kann. Einer der göttlichen Schätze der Engel, gesegnet durch einen Erzengel. Es heißt, sie wäre in der Lage, das Böse zu entzünden. Wegen ihrer Vielseitigkeit gab man sie traditionell dem talentiertesten Späher. Die Zahl der Dämonen, die angesichts ihres Lichts ihr Ende fanden, ist schier unendlich."
   },
   "s1": {
     "name": "Himmlischer Pfeil",
-    "description": "Fügt 3 Feinden {0} M.Schaden zu, stößt sie zurück und hinterlässt 15 Sek. lang ein Urteilssiegel auf ihnen. Fügt Feinden, die keine Helden sind, {1} zusätzl. M.Schaden zu und lässt sie 10 Sek. lang {2}% erhöhten Schaden erleiden.",
+    "description": "Fügt 3 Feinden {0} Mag. Schaden zu, stößt sie zurück und hinterlässt 15 Sek. lang ein Urteilssiegel auf ihnen. Fügt Feinden, die keine Helden sind, {1} zusätzl. Mag. Schaden zu und lässt sie 10 Sek. lang {2}% erhöhten Schaden erleiden.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -70,7 +70,7 @@
   },
   "s2": {
     "name": "Reinigende Flamme",
-    "description": "Fügt allen Feinden in einer Linie vorne {0} M.Schaden zu. Verursacht {1} zusätzl. M.Schaden, der VERT bei Zielen mit Urteilssiegel ignoriert, und reduziert 10 Sek. lang ihre Heilungsrate um {2}%.",
+    "description": "Fügt allen Feinden in einer Linie vorne {0} Mag. Schaden zu. Verursacht {1} zusätzl. Mag. Schaden, der VERT bei Zielen mit Urteilssiegel ignoriert, und reduziert 10 Sek. lang ihre Heilungsrate um {2}%.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -93,30 +93,30 @@
   },
   "s3": {
     "name": "Schlichter",
-    "description": "Fügt dem Ziel und Feinden in der Nähe {0} M.Schaden zu. Feinde mit Urteilssiegel erleiden 50% erhöhten M.Schaden und sie verstummen 5 Sek. lang. Gewährt danach allen Verbündeten 5 Sek. lang Immunität gegen M.Schaden.",
+    "description": "Fügt dem Ziel und Feinden in der Nähe {0} Mag. Schaden zu. Feinde mit Urteilssiegel erleiden 50% erhöhten Mag. Schaden und sie verstummen 5 Sek. lang. Gewährt danach allen Verbündeten 5 Sek. lang Immunität gegen Mag. Schaden.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
       "2": "Erhöht Schaden um {0}%."
     },
     "light": "Legt getroffenen Feinden ein Urteilssiegel auf.",
-    "dark": "Selbst Feinde ohne Stigma erleiden erhöhten M.Schaden und können keine Skills benutzen.",
+    "dark": "Selbst Feinde ohne Stigma erleiden erhöhten Mag. Schaden und können keine Skills benutzen.",
     "ut": {
       "name": "Himmelsauge",
       "description": [
-        "[Schlichter] Erhöht Schaden um 20% und ANG aller Verbündeten um 30% während der Wirkdauer des M.Schilds.",
-        "[Schlichter] Erhöht Schaden um 24% und ANG aller Verbündeten um 30% während der Wirkdauer des M.Schilds.",
-        "[Schlichter] Erhöht Schaden um 29% und ANG aller Verbündeten um 30% während der Wirkdauer des M.Schilds.",
-        "[Schlichter] Erhöht Schaden um 35% und ANG aller Verbündeten um 30% während der Wirkdauer des M.Schilds.",
-        "[Schlichter] Erhöht Schaden um 42% und ANG aller Verbündeten um 30% während der Wirkdauer des M.Schilds.",
-        "[Schlichter] Erhöht Schaden um 50% und ANG aller Verbündeten um 30% während der Wirkdauer des M.Schilds."
+        "[Schlichter] Erhöht Schaden um 20% und ANG aller Verbündeten um 30% während der Wirkdauer des Mag. Schilds.",
+        "[Schlichter] Erhöht Schaden um 24% und ANG aller Verbündeten um 30% während der Wirkdauer des Mag. Schilds.",
+        "[Schlichter] Erhöht Schaden um 29% und ANG aller Verbündeten um 30% während der Wirkdauer des Mag. Schilds.",
+        "[Schlichter] Erhöht Schaden um 35% und ANG aller Verbündeten um 30% während der Wirkdauer des Mag. Schilds.",
+        "[Schlichter] Erhöht Schaden um 42% und ANG aller Verbündeten um 30% während der Wirkdauer des Mag. Schilds.",
+        "[Schlichter] Erhöht Schaden um 50% und ANG aller Verbündeten um 30% während der Wirkdauer des Mag. Schilds."
       ],
       "story": "Das Seelen-Ei des Engelsschlichters Pilier. Pilier wurde aus Luas erster Flamme geboren und ist der Meister von Arch. Pilier war der Beste unter den Engelskriegern und einer von denen, die den Krieg gegen die Dämonen beendeten. Nachdem er jedoch all seine Kraft aufgebraucht hatte, kehrte er zurück und wurde wieder ein Himmlisches Auge, seine Gestalt als Seelen-Ei, und Arch trägt die Seele seines Meisters immer bei sich."
     }
   },
   "s4": {
     "name": "Das jüngste Gericht",
-    "description": "Verursacht alle 15 Sek. {0} M. Schaden an Feinden mit Urteilssiegel und ignoriert VERT. Verursacht bei todesnahem Status ein Mal pro Kampf {1} M. Schaden an Feinden mit Urteilssiegel und betäubt sie für 3 Sek. Beschwört zeitgleich einen Schild, der für 5 Sek. {2} des Schadens an Verbündeten blockt. Effekt-Resistenz bei bestehendem Schild. Verbraucht alles Mana und alle Skill-Cooldowns sind um 50% erhöht, wenn der Schildeffekt wirkt.",
+    "description": "Verursacht alle 15 Sek. {0} Mag. Schaden an Feinden mit Urteilssiegel und ignoriert VERT. Verursacht bei todesnahem Status ein Mal pro Kampf {1} Mag. Schaden an Feinden mit Urteilssiegel und betäubt sie für 3 Sek. Beschwört zeitgleich einen Schild, der für 5 Sek. {2} des Schadens an Verbündeten blockt. Effekt-Resistenz bei bestehendem Schild. Verbraucht alles Mana und alle Skill-Cooldowns sind um 50% erhöht, wenn der Schildeffekt wirkt.",
     "books": {
       "0": "Erhöht Schaden und Schild-TP um {0}%.",
       "1": "Erhöht Schaden und Schild-TP um {0}%.",

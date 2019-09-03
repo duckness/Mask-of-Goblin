@@ -36,18 +36,18 @@
   "uw": {
     "name": "Heiliger Vogel, Numinu",
     "description": [
-      "Pro 1% TP-Verlust steigen Angriffswert und -geschw. um 0.8%.",
+      "Deine max. TP steigen um {0}% und pro 1% TP-Verlust steigen der ANG um {1}% und die ANG-GESCHW um {2}.",
       "Pro 1% TP-Verlust steigen Angriffswert und -geschw. um 1%.",
-      "Pro 1% TP-Verlust steigen Angriffswert und -geschw. um 1.2%.",
-      "Pro 1% TP-Verlust steigen Angriffswert und -geschw. um 1.4%.",
-      "Pro 1% TP-Verlust steigen Angriffswert und -geschw. um 1.7%.",
+      "Pro 1% TP-Verlust steigen Angriffswert und -geschw. um 1,2%.",
+      "Pro 1% TP-Verlust steigen Angriffswert und -geschw. um 1,4%.",
+      "Pro 1% TP-Verlust steigen Angriffswert und -geschw. um 1,7%.",
       "Pro 1% TP-Verlust steigen Angriffswert und -geschw. um 2%."
     ],
     "story": "Es heißt, dass im Windland-Schneegebirge eine heilige Bestie lebt, die die Barbaren beschützt. Diese Bestie, angeblich ein Blauphönix aus Eis, vermag die Macht der Dunkelheit zu verbannen. Numinu, was so viel bedeutet wie „heilig“ wurde der Form dieser Bestie nachempfunden. Sie wurde aus verwunschenem Eis gefertigt, das niemals schmilzt. Die Waffe, die von den Barbaren als heilige Reliquie angesehen wird, wird ihrem mächtigsten Krieger verliehen. Jener, der diese Waffe führt, ist der stärkste Krieger unter den Barbaren und kann als deren König eingestuft werden."
   },
   "s1": {
     "name": "Zerschmettern",
-    "description": "Fügt Feinden in Reichw. {0} K.Schaden zu. Der erste Angriff wirft Feinde für {1} Sek. um und reduziert ihre ANG-Geschwindigkeit 10 Sek. lang um 250.",
+    "description": "Fügt Feinden in Reichw. {0} Körp. Schaden zu. Der erste Angriff wirft Feinde für {1} Sek. um und reduziert ihre ANG-Geschwindigkeit 10 Sek. lang um 250.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -58,12 +58,12 @@
     "ut": {
       "name": "Helm des Frostkönigs",
       "description": [
-        "[Zerschmettern] Verringert den ANG des Ziels um 20 % und erhöht den von ihm erlittenen K.Schaden 10 Sek. lang um 10 %.",
-        "[Zerschmettern] Verringert den ANG des Ziels um 20 % und erhöht den von ihm erlittenen K.Schaden 10 Sek. lang um 12%.",
-        "[Zerschmettern] Verringert den ANG des Ziels um 20 % und erhöht den von ihm erlittenen K.Schaden 10 Sek. lang um 14%.",
-        "[Zerschmettern] Verringert den ANG des Ziels um 20 % und erhöht den von ihm erlittenen K.Schaden 10 Sek. lang um 17%.",
-        "[Zerschmettern] Verringert den ANG des Ziels um 20 % und erhöht den von ihm erlittenen K.Schaden 10 Sek. lang um 21%.",
-        "[Zerschmettern] Verringert den ANG des Ziels um 20 % und erhöht den von ihm erlittenen K.Schaden 10 Sek. lang um 25%."
+        "[Zerschmettern] verringert den ANG des Ziels um 20 % und erhöht den von ihm erlittenen Körp. Schaden 10 Sek. lang um 10 %.",
+        "[Zerschmettern] verringert den ANG des Ziels um 20 % und erhöht den von ihm erlittenen Körp. Schaden 10 Sek. lang um 12%.",
+        "[Zerschmettern] verringert den ANG des Ziels um 20 % und erhöht den von ihm erlittenen Körp. Schaden 10 Sek. lang um 14%.",
+        "[Zerschmettern] verringert den ANG des Ziels um 20 % und erhöht den von ihm erlittenen Körp. Schaden 10 Sek. lang um 17%.",
+        "[Zerschmettern] verringert den ANG des Ziels um 20 % und erhöht den von ihm erlittenen Körp. Schaden 10 Sek. lang um 21%.",
+        "[Zerschmettern] verringert den ANG des Ziels um 20 % und erhöht den von ihm erlittenen Körp. Schaden 10 Sek. lang um 25%."
       ],
       "story": "Der abgetragene Helm des Königs der Frostriesen. Zuletzt trug ihn der König der Frostriesen, der von der Dunkelheit beherrscht wurde. Gau bewahrt diesen beschädigten Helm im Gedenken an den gefallenen Helden auf. Außerdem solle er als Mahnmal der Tragödie vom Windland-Schneegebirge dienen."
     }
@@ -93,7 +93,7 @@
   },
   "s3": {
     "name": "Wirbel",
-    "description": "Fügt Feinden in der Nähe {0} K.Schaden zu. Feinde, die keine Helden sind, erleiden zusätzlich {1} K.Schaden. Die letzte Attacke friert Feinde {2} Sek lang ein. Immun gegenüber allen Statuseffekten während des Wirkens.",
+    "description": "Fügt Feinden in der Nähe {0} Körp. Schaden zu. Feinde, die keine Helden sind, erleiden zusätzlich {1} Körp. Schaden. Der letzte ANG friert Feinde {2} Sek. lang ein. Immun gegenüber allen Massenkontrollen während des Wirkens.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -138,7 +138,7 @@
     }
   },
   "t5": {
-    "light": "ANG, VERT, TP+15% / K.Block +200",
+    "light": "ANG, VERT, TP+15% / Körp. Block +200",
     "dark": "Heilt die TP jede Sek um 10% der ANG. Für jedes 1% verlorener TP reduziert den erlittenen Schaden um 0.6%."
   }
 }

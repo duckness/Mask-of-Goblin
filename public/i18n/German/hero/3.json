@@ -36,18 +36,18 @@
   "uw": {
     "name": "Urflamme, Flenos",
     "description": [
-      "Skilltreffer verursachen zusätzlichen M.Schaden entsprechend 3 % des ANG pro Stapel Glut, der auf Feinde gewirkt wurden.",
-      "Skilltreffer verursachen zusätzlichen M.Schaden entsprechend 3,6 % des ANG pro Stapel Glut, der auf Feinde gewirkt wurden.",
-      "Skilltreffer verursachen zusätzlichen M.Schaden entsprechend 4,3 % des ANG pro Stapel Glut, der auf Feinde gewirkt wurden.",
-      "Skilltreffer verursachen zusätzlichen M.Schaden entsprechend 5,2 % des ANG pro Stapel Glut, der auf Feinde gewirkt wurden.",
-      "Skilltreffer verursachen zusätzlichen M.Schaden entsprechend 6,3 % des ANG pro Stapel Glut, der auf Feinde gewirkt wurden.",
-      "Skilltreffer verursachen zusätzlichen M.Schaden entsprechend 7,5 % des ANG pro Stapel Glut, der auf Feinde gewirkt wurden."
+      "Skilltreffer verursachen zusätzlichen Mag. Schaden entsprechend 3 % des ANG pro Stapel Glut, der auf Feinde gewirkt wurden.",
+      "Skilltreffer verursachen zusätzlichen Mag. Schaden entsprechend 3,6 % des ANG pro Stapel Glut, der auf Feinde gewirkt wurden.",
+      "Skilltreffer verursachen zusätzlichen Mag. Schaden entsprechend 4,3 % des ANG pro Stapel Glut, der auf Feinde gewirkt wurden.",
+      "Skilltreffer verursachen zusätzlichen Mag. Schaden entsprechend 5,2 % des ANG pro Stapel Glut, der auf Feinde gewirkt wurden.",
+      "Skilltreffer verursachen zusätzlichen Mag. Schaden entsprechend 6,3 % des ANG pro Stapel Glut, der auf Feinde gewirkt wurden.",
+      "Skilltreffer verursachen zusätzlichen Mag. Schaden entsprechend 7,5 % des ANG pro Stapel Glut, der auf Feinde gewirkt wurden."
     ],
     "story": "Die Essenz der ersten Flamme der Welt. Der Feuerlord schenkte diesen schönen Edelstein einem Menschen, der einen Vertrag mit ihm geschlossen hatte. Im Laufe der Zeitalter gelangte er in die Hände eines Erzmagiers, der ihn zum Kern seines Stabes machte. Später gab der Erzmagier diesen Stab an seinen geschätzten Schüler weiter."
   },
   "s1": {
     "name": "Feuernadel",
-    "description": "Greift einen zufälligen Feind 5-mal an und verursacht insgesamt {0} M.Schaden. Stellt bei einem Kritischen Treffer 100 Mana wieder her.",
+    "description": "Greift einen zufälligen Feind 5-mal an und verursacht insgesamt {0} Mag. Schaden. Stellt bei einem Kritischen Treffer 100 Mana wieder her.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -58,25 +58,25 @@
     "ut": {
       "name": "Phönix Laterne",
       "description": [
-        "[Feuernadel] Wechselt das Ziel zum Gegner mit dem höchsten ANG und verringert seine Mana um 100.",
-        "[Feuernadel] Wechselt das Ziel zum Gegner mit dem höchsten ANG und verringert seine Mana um 120.",
-        "[Feuernadel] Wechselt das Ziel zum Gegner mit dem höchsten ANG und verringert seine Mana um 140.",
-        "[Feuernadel] Wechselt das Ziel zum Gegner mit dem höchsten ANG und verringert seine Mana um 170.",
-        "[Feuernadel] Wechselt das Ziel zum Gegner mit dem höchsten ANG und verringert seine Mana um 210.",
-        "[Feuernadel] Wechselt das Ziel zum Gegner mit dem höchsten ANG und verringert seine Mana um 250."
+        "[Feuernadel] wechselt das Ziel zum Gegner mit dem höchsten ANG und verringert seine Mana um 100.",
+        "[Feuernadel] wechselt das Ziel zum Gegner mit dem höchsten ANG und verringert seine Mana um 120.",
+        "[Feuernadel] wechselt das Ziel zum Gegner mit dem höchsten ANG und verringert seine Mana um 140.",
+        "[Feuernadel] wechselt das Ziel zum Gegner mit dem höchsten ANG und verringert seine Mana um 170.",
+        "[Feuernadel] wechselt das Ziel zum Gegner mit dem höchsten ANG und verringert seine Mana um 210.",
+        "[Feuernadel] wechselt das Ziel zum Gegner mit dem höchsten ANG und verringert seine Mana um 250."
       ],
       "story": "Eine magische Laterne vom Turm des Weisen. Der ewig brennende Phönix, die erste Flamme des Turms des Weisen, ist darin eingeschlossen. Dominics kümmert sich sorgfältig um ihn, da die Phönixe vom Aussterben bedroht sind. Aber Cleo benutzt ihn einfach für ihren Feuernadel-Zauber, ohne Rücksicht auf die Bedenken ihres Lehrers zu nehmen."
     }
   },
   "s2": {
     "name": "Feuerball",
-    "description": "Greift das Ziel und Feinde in seiner Nähe an, verursacht {0} M.Schaden und betäubt sie für 2 Sek. Verursacht an Bossen zusätzlich {1} M.Schaden.",
+    "description": "Greift das Ziel und Feinde in seiner Nähe an, verursacht {0} Mag. Schaden und betäubt sie für 2 Sek. Verursacht an Bossen zusätzlich {1} Mag. Schaden.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
       "2": "Erhöht Schaden um {0}%."
     },
-    "light": "Wird ein Feind mit 10 oder mehr Stapeln Glut getroffen, erhöht sich sein erlittener M.Schaden für 10 Sekunden um 40 %.",
+    "light": "Wird ein Feind mit 10 oder mehr Stapeln Glut getroffen, erhöht sich sein erlittener Mag. Schaden für 10 Sekunden um 40 %.",
     "dark": "Belegt den getroffenen Feind mit 10 Stapel Glut.",
     "ut": {
       "name": "Flamels Elixier",
@@ -93,7 +93,7 @@
   },
   "s3": {
     "name": "Feuerregen",
-    "description": "Greift alle Feinde 5-mal an und verursacht insgesamt {0} M.Schaden. Der Krit. Schaden dieses Angriffs ist um 150 % erhöht.",
+    "description": "Greift alle Feinde 5-mal an und verursacht insgesamt {0} Mag. Schaden. Der Krit. Schaden dieses Angriffs ist um 150 % erhöht.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -116,7 +116,7 @@
   },
   "s4": {
     "name": "Flammen-Diffusion",
-    "description": "Belegt einen Feind bei einem Treffer mit einem Stapel Glut. Feinde, die von Glut betroffen sind, erleiden für 20 Sekunden {1} M.Schaden. Glut kann bis 10-mal gestapelt werden.",
+    "description": "Belegt einen Feind bei einem Treffer mit einem Stapel Glut. Feinde, die von Glut betroffen sind, erleiden für 20 Sekunden {1} Mag. Schaden. Glut kann bis 10-mal gestapelt werden.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -127,12 +127,12 @@
     "ut": {
       "name": "Einführung in die Zauber der Roten Hexe",
       "description": [
-        "[Flammen-Diffusion] Glut kann nicht mehr entfernt werden und lässt Ziele 1 % erhöhten M.Schaden pro Zähler erleiden.",
-        "[Flammen-Diffusion] Glut kann nicht mehr entfernt werden und lässt Ziele 1,2 % erhöhten M.Schaden pro Zähler erleiden.",
-        "[Flammen-Diffusion] Glut kann nicht mehr entfernt werden und lässt Ziele 1,4 % erhöhten M.Schaden pro Zähler erleiden.",
-        "[Flammen-Diffusion] Glut kann nicht mehr entfernt werden und lässt Ziele 1,7 % erhöhten M.Schaden pro Zähler erleiden.",
-        "[Flammen-Diffusion] Glut kann nicht mehr entfernt werden und lässt Ziele 2,1 % erhöhten M.Schaden pro Zähler erleiden.",
-        "[Flammen-Diffusion] Glut kann nicht mehr entfernt werden und lässt Ziele 2,5 % erhöhten M.Schaden pro Zähler erleiden."
+        "[Flammen-Diffusion] Glut kann nicht mehr entfernt werden und lässt Ziele 1 % erhöhten Mag. Schaden pro Zähler erleiden.",
+        "[Flammen-Diffusion] Glut kann nicht mehr entfernt werden und lässt Ziele 1,2 % erhöhten Mag. Schaden pro Zähler erleiden.",
+        "[Flammen-Diffusion] Glut kann nicht mehr entfernt werden und lässt Ziele 1,4 % erhöhten Mag. Schaden pro Zähler erleiden.",
+        "[Flammen-Diffusion] Glut kann nicht mehr entfernt werden und lässt Ziele 1,7 % erhöhten Mag. Schaden pro Zähler erleiden.",
+        "[Flammen-Diffusion] Glut kann nicht mehr entfernt werden und lässt Ziele 2,1 % erhöhten Mag. Schaden pro Zähler erleiden.",
+        "[Flammen-Diffusion] Glut kann nicht mehr entfernt werden und lässt Ziele 2,5 % erhöhten Mag. Schaden pro Zähler erleiden."
       ],
       "story": "Ein Fachbuch über den Gebrauch von Feuermagie für Rote Hexen. Obwohl es unter den meisten Magiern verpönt ist, weil seine zerstörerischen Zauber den Verstand des Zaubernden verderben können, verbreitet es sich im ganzen Imperium."
     }

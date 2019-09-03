@@ -93,7 +93,7 @@
   },
   "s3": {
     "name": "Moonlight Flash",
-    "description": "Fires an arrow in a straight line, dealing P.DMG to all enemies in range proportional to their current HP. Deals a maximum of {0} P.DMG and inflicts knock down.",
+    "description": "Fires an arrow in a straight line, dealing P.DMG to all enemies in range based on the target's remaining HP. Deals a maximum of {0} P.DMG and knocks down the target. Against Bosses, deals additional {1} P.DMG that ignores DEF.",
     "books": {
       "0": "DMG is increased by {0}%.",
       "1": "DMG is increased by {0}%.",
@@ -139,6 +139,6 @@
   },
   "t5": {
     "light": "ATK, DEF, HP+15% / Crit DMG +20%",
-    "dark": "Own Crit Chance is decreased by 300 and Crit DMG is increased by 100%."
+    "dark": "Reduces own Crit Chance by 300 and increases Crit DMG by 150%."
   }
 }

@@ -36,18 +36,18 @@
   "uw": {
     "name": "Zerfleischendes Chaos, Zakadras",
     "description": [
-      "Krit. Trefferchance ist um 200 und Krit. Schaden um 40% erhöht.",
-      "Krit. Trefferchance ist um 240 und Krit. Schaden um 48% erhöht.",
-      "Krit. Trefferchance ist um 290 und Krit. Schaden um 58% erhöht.",
-      "Krit. Trefferchance ist um 350 und Krit. Schaden um 70% erhöht.",
-      "Krit. Trefferchance ist um 420 und Krit. Schaden um 84% erhöht.",
-      "Krit. Trefferchance ist um 500 und Krit. Schaden um 100% erhöht."
+      "Krit. Chance ist um 200 und Krit. Schaden um 40% erhöht.",
+      "Krit. Chance ist um 240 und Krit. Schaden um 48% erhöht.",
+      "Krit. Chance ist um 290 und Krit. Schaden um 58% erhöht.",
+      "Krit. Chance ist um 350 und Krit. Schaden um 70% erhöht.",
+      "Krit. Chance ist um 420 und Krit. Schaden um 84% erhöht.",
+      "Krit. Chance ist um 500 und Krit. Schaden um 100% erhöht."
     ],
     "story": "Eine Waffe aus einem speziellen Metall, das von einem Schamanen der Krakashu, des Stammes der Dunkelheit, hergestellt wurde, indem er lebendige dämonische Bestien einschmolz. Anschließend wurde das Metall vom besten Schmied des Dschungels zu einer magischen Waffe verarbeitet, die alle Dämonen bestrafen soll. Ein gewaltiges Paar Klauen, dem Verdammung, Groll und Wut innewohnen. Diese Klauen sind das Symbol, das den Anführer der Krakashu repräsentiert und den Zorn der Vorväter beschwichtigt. Nia wurde in jungen Jahren zur Anführerin des Stammes ernannt und muss die Dunkelheit, die in dieser Waffe steckt, erst noch aufnehmen. Aber tief in der Nacht, kurz bevor sie einschläft, kann sie im Inneren der Waffe bereits den Groll ihrer Ahnen hören."
   },
   "s1": {
     "name": "Narbe der Barbarei",
-    "description": "Fügt 1 Feind {0} K.Schaden zu. Bewegt sich danach vorwärts, stößt getroffene Feinde im umliegenden Gebiet zurück und fügt ihnen insgesamt {1} K.Schaden zu. Der letzte Schlag fügt frontal stehenden Feinden {2} K.Schaden zu und wirft sie für {3} Sek. zu Boden.",
+    "description": "Fügt 1 Feind {0} Körp. Schaden zu. Bewegt sich danach vorwärts, stößt getroffene Feinde im umliegenden Gebiet zurück und fügt ihnen insgesamt {1} Körp. Schaden zu. Der letzte Schlag fügt frontal stehenden Feinden {2} Körp. Schaden zu und wirft sie für {3} Sek. zu Boden.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -58,25 +58,25 @@
     "ut": {
       "name": "Blume des Dschungels",
       "description": [
-        "[Narbe der Barbarei] Verringert die Manakosten um 1 und den K.krit Widerstand des betroffenen Feindes 10 Sekunden lang um 200.",
-        "[Narbe der Barbarei] Verringert die Manakosten um 1 und den K.krit Widerstand des betroffenen Feindes 10 Sekunden lang um 240.",
-        "[Narbe der Barbarei] Verringert die Manakosten um 1 und den K.krit Widerstand des betroffenen Feindes 10 Sekunden lang um 290.",
-        "[Narbe der Barbarei] Verringert die Manakosten um 1 und den K.krit Widerstand des betroffenen Feindes 10 Sekunden lang um 350.",
-        "[Narbe der Barbarei] Verringert die Manakosten um 1 und den K.krit Widerstand des betroffenen Feindes 10 Sekunden lang um 420.",
-        "[Narbe der Barbarei] Verringert die Manakosten um 1 und den K.krit Widerstand des betroffenen Feindes 10 Sekunden lang um 500."
+        "[Narbe der Barbarei] Verringert die Manakosten um 1 und den Körp. Krit. Widerstand des betroffenen Feindes 10 Sekunden lang um 200.",
+        "[Narbe der Barbarei] Verringert die Manakosten um 1 und den Körp. Krit. Widerstand des betroffenen Feindes 10 Sekunden lang um 240.",
+        "[Narbe der Barbarei] Verringert die Manakosten um 1 und den Körp. Krit. Widerstand des betroffenen Feindes 10 Sekunden lang um 290.",
+        "[Narbe der Barbarei] Verringert die Manakosten um 1 und den Körp. Krit. Widerstand des betroffenen Feindes 10 Sekunden lang um 350.",
+        "[Narbe der Barbarei] Verringert die Manakosten um 1 und den Körp. Krit. Widerstand des betroffenen Feindes 10 Sekunden lang um 420.",
+        "[Narbe der Barbarei] Verringert die Manakosten um 1 und den Körp. Krit. Widerstand des betroffenen Feindes 10 Sekunden lang um 500."
       ],
       "story": "Der Dschungel der Dunkelheit befindet sich im Süden von Vespia. Er ist das Zuhause, der Jagdgrund und das Schlachtfeld des Stammes der Krakashu. Die Menschen im Imperium halten sie für Barbaren, dabei sind sie sensible und emotionale Geschöpfe, die ihren Liebsten Blumen schenken. Für die Krakashu bedeuten Blumensträuße „komm sicher und gesund wieder nach Hause“. Dieser Strauß, der von Nias Stammesmitgliedern angefertigt wurde, ist mit einem Zauber belegt, der verhindert, dass die Blumen welken, solange Nia gesund ist."
     },
     "linked": {
       "0": {
         "name": "Verstärkte Narbe der Barbarei",
-        "description": "Fügt 1 Feind {0} K.Schaden zu. Bewegt sich danach zu zufälligen Feinden, greift ständig das umliegende Gebiet an, stößt getroffene Feinde zurück und fügt ihnen insgesamt {1} K.Schaden zu. Der letzte Schlag fügt frontal stehenden Feinden {2} K.Schaden zu und wirft sie für {3} Sek. zu Boden."
+        "description": "Fügt 1 Feind {0} Körp. Schaden zu. Bewegt sich danach zu zufälligen Feinden, greift ständig das umliegende Gebiet an, stößt getroffene Feinde zurück und fügt ihnen insgesamt {1} Körp. Schaden zu. Der letzte Schlag fügt frontal stehenden Feinden {2} Körp. Schaden zu und wirft sie für {3} Sek. zu Boden."
       }
     }
   },
   "s2": {
     "name": "Treibjagd",
-    "description": "Bewegt sich hinter den entferntesten Feind, um ihm {0} K.Schaden zuzufügen, und belegt alle Feinde für {1} Sek. mit [Jagdmal]. Feinde, die mit [Jagdmal] belegt sind, erleiden {2}  % erhöhten K.Schaden und haben eine um {3}  % verringerte Heilungsrate. Hebt mit [Verstärktes Jagdmal] alle positiven Effekte von Feinden auf.",
+    "description": "Bewegt sich hinter den entferntesten Feind, um ihm {0} Körp. Schaden zuzufügen, und belegt alle Feinde für {1} Sek. mit [Jagdmal]. Feinde, die mit [Jagdmal] belegt sind, erleiden {2}  % erhöhten Körp. Schaden und haben eine um {3}  % verringerte Heilungsrate. Hebt mit [Verstärktes Jagdmal] alle positiven Effekte von Feinden auf.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -87,25 +87,25 @@
     "ut": {
       "name": "Geschenk des Jägers",
       "description": [
-        "[Treibjagd] Erhöht den Schaden um 50 % und den K.Schaden durch [Jagdmal] und [Verstärktes Jagdmal] um zusätzliche 8 %.",
-        "[Treibjagd] Erhöht den Schaden um 50 % und den K.Schaden durch [Jagdmal] und [Verstärktes Jagdmal] um zusätzliche 10 %.",
-        "[Treibjagd] Erhöht den Schaden um 50 % und den K.Schaden durch [Jagdmal] und [Verstärktes Jagdmal] um zusätzliche 12 %.",
-        "[Treibjagd] Erhöht den Schaden um 50 % und den K.Schaden durch [Jagdmal] und [Verstärktes Jagdmal] um zusätzliche 14 %.",
-        "[Treibjagd] Erhöht den Schaden um 50 % und den K.Schaden durch [Jagdmal] und [Verstärktes Jagdmal] um zusätzliche 17 %.",
-        "[Treibjagd] Erhöht den Schaden um 50 % und den K.Schaden durch [Jagdmal] und [Verstärktes Jagdmal] um zusätzliche 20 %."
+        "[Treibjagd] Erhöht den Schaden um 50 % und den Körp. Schaden durch [Jagdmal] und [Verstärktes Jagdmal] um zusätzliche 8 %.",
+        "[Treibjagd] Erhöht den Schaden um 50 % und den Körp. Schaden durch [Jagdmal] und [Verstärktes Jagdmal] um zusätzliche 10 %.",
+        "[Treibjagd] Erhöht den Schaden um 50 % und den Körp. Schaden durch [Jagdmal] und [Verstärktes Jagdmal] um zusätzliche 12 %.",
+        "[Treibjagd] Erhöht den Schaden um 50 % und den Körp. Schaden durch [Jagdmal] und [Verstärktes Jagdmal] um zusätzliche 14 %.",
+        "[Treibjagd] Erhöht den Schaden um 50 % und den Körp. Schaden durch [Jagdmal] und [Verstärktes Jagdmal] um zusätzliche 17 %.",
+        "[Treibjagd] Erhöht den Schaden um 50 % und den Körp. Schaden durch [Jagdmal] und [Verstärktes Jagdmal] um zusätzliche 20 %."
       ],
       "story": "Drachentöterin Yanne war nicht nur am Orbis-Kontinent bekannt, sondern auch im Imperium von Vespia. Yanne, eine begabte Monsterjägerin, wurde von einem Adeligen des Imperiums beauftragt, die Monster im Dschungel der Dunkelheit zu jagen. In Wirklichkeit verfolgte das Imperium jedoch das Ziel, die Eingeborenen aus dem Dschungel zu vertreiben und ihn für sich selbst zu nutzen. Yanne betrat den Dschungel ohne die Wahrheit zu kennen und wurde vom Krakashu-Stamm und seiner jungen Anführerin Nia angegriffen, die sie für einen Eindringling des Imperiums hielten. Nachdem Yanne den Stamm mit ihren überragenden Kräften bezwungen hatte, sprach sie mit Nia und erfuhr die Wahrheit. Sie entschuldigte sich bei Nia dafür, das Land des Stammes ohne Erlaubnis betreten zu haben, und schenkte ihr als Zeichen der Versöhnung und Freundschaft eine Halskette, die sie selbst angefertigt hatte."
     },
     "linked": {
       "0": {
         "name": "Verstärkte Treibjagd",
-        "description": "Bewegt sich hinter den entferntesten Feind, um ihm {0} K.Schaden zuzufügen, der die VERT ignoriert, und belegt alle Feinde für {1} Sek. mit [Verstärktes Jagdmal]. Feinde, die mit [Verstärktes Jagdmal] belegt sind, erleiden {2}  % erhöhten K.Schaden und haben eine um {3}  % verringerte Heilungsrate sowie eine um {4}  % verringerte ANG-Gschw. Hebt mit [Jagdmal] alle positiven Effekte von Feinden auf."
+        "description": "Bewegt sich hinter den entferntesten Feind, um ihm {0} Körp. Schaden zuzufügen, der die VERT ignoriert, und belegt alle Feinde für {1} Sek. mit [Verstärktes Jagdmal]. Feinde, die mit [Verstärktes Jagdmal] belegt sind, erleiden {2}  % erhöhten Körp. Schaden und haben eine um {3}  % verringerte Heilungsrate sowie eine um {4}  % verringerte ANG-Gschw. Hebt mit [Jagdmal] alle positiven Effekte von Feinden auf."
       }
     }
   },
   "s3": {
     "name": "Dämonische Augen der Versteinerung",
-    "description": "Verursacht {1} -mal {0} K. Schaden an frontal stehenden Feinden und versteinert sie für {2} Sek.",
+    "description": "Verursacht {1} -mal {0} Körp. Schaden an frontal stehenden Feinden und versteinert sie für {2} Sek.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -128,7 +128,7 @@
     "linked": {
       "0": {
         "name": "Verstärkte Dämonische Augen der Versteinerung",
-        "description": "Verursacht {1} -mal {0} K. Schaden an frontal stehenden Feinden in einem größeren Gebiet und versteinert sie für {2} Sek."
+        "description": "Verursacht {1} -mal {0} Körp. Schaden an frontal stehenden Feinden in einem größeren Gebiet und versteinert sie für {2} Sek."
       }
     }
   },
@@ -145,18 +145,18 @@
     "ut": {
       "name": "Blut-Stabilisator",
       "description": [
-        "[Dämonisches Blut] Verleiht zu Beginn eines Kampfes 1 „Dämonisches Blut“. 4 Zähler „Dämonisches Blut“ erzeugen 2 Sek. lang Immunität gegenüber Statuseffekten.",
-        "[Dämonisches Blut] Verleiht zu Beginn eines Kampfes 1 „Dämonisches Blut“. 4 Zähler „Dämonisches Blut“ erzeugen 2,4 Sek. lang Immunität gegenüber Statuseffekten.",
-        "[Dämonisches Blut] Verleiht zu Beginn eines Kampfes 1 „Dämonisches Blut“. 4 Zähler „Dämonisches Blut“ erzeugen 2,9 Sek. lang Immunität gegenüber Statuseffekten.",
-        "[Dämonisches Blut] Verleiht zu Beginn eines Kampfes 1 „Dämonisches Blut“. 4 Zähler „Dämonisches Blut“ erzeugen 3,5 Sek. lang Immunität gegenüber Statuseffekten.",
-        "[Dämonisches Blut] Verleiht zu Beginn eines Kampfes 1 „Dämonisches Blut“. 4 Zähler „Dämonisches Blut“ erzeugen 4,2 Sek. lang Immunität gegenüber Statuseffekten.",
-        "[Dämonisches Blut] Verleiht zu Beginn eines Kampfes 1 „Dämonisches Blut“. 4 Zähler „Dämonisches Blut“ erzeugen 5 Sek. lang Immunität gegenüber Statuseffekten."
+        "[Dämonisches Blut] Verleiht zu Beginn eines Kampfes 1 „Dämonisches Blut“. 4 Zähler „Dämonisches Blut“ erzeugen 2 Sek. lang Immunität gegenüber Massenkontroll-Effekten.",
+        "[Dämonisches Blut] Verleiht zu Beginn eines Kampfes 1 „Dämonisches Blut“. 4 Zähler „Dämonisches Blut“ erzeugen 2,4 Sek. lang Immunität gegenüber Massenkontroll-Effekten.",
+        "[Dämonisches Blut] Verleiht zu Beginn eines Kampfes 1 „Dämonisches Blut“. 4 Zähler „Dämonisches Blut“ erzeugen 2,9 Sek. lang Immunität gegenüber Massenkontroll-Effekten.",
+        "[Dämonisches Blut] Verleiht zu Beginn eines Kampfes 1 „Dämonisches Blut“. 4 Zähler „Dämonisches Blut“ erzeugen 3,5 Sek. lang Immunität gegenüber Massenkontroll-Effekten.",
+        "[Dämonisches Blut] Verleiht zu Beginn eines Kampfes 1 „Dämonisches Blut“. 4 Zähler „Dämonisches Blut“ erzeugen 4,2 Sek. lang Immunität gegenüber Massenkontroll-Effekten.",
+        "[Dämonisches Blut] Verleiht zu Beginn eines Kampfes 1 „Dämonisches Blut“. 4 Zähler „Dämonisches Blut“ erzeugen 5 Sek. lang Immunität gegenüber Massenkontroll-Effekten."
       ],
       "story": "Obwohl Nias Blut stabiler war als das ihrer Vorväter, so gab es doch Momente, in denen es so hochkochte, dass Nia fast den Verstand verlor. Diese spezielle Behandlung beinhaltet ein einzigartiges Gift, das Mediana und Requina auf Geheiß von Yanne anfertigten, als diese von Nias Zustand erfahren hatte. Dieses Gift greift nur das Dämonische Blut in Nias Adern an und verhindert, dass ihr Blut zum Kochen gebracht wird. Die Behandlung hat jedoch eine Nebenwirkung, nämlich eine Fehlfunktion ihres Verdauungstrakts, während deren Dauer die fleischliebende Nia auf Fleisch verzichten muss. Nia gibt sich daher alle Mühe, diesen Stabilisator nicht zu verwenden."
     }
   },
   "t5": {
     "light": "ANG, VERT, TP+15% / ANG-Geschw. +100",
-    "dark": "Normale Angriffe und [Verstärkte Narbe der Barbarei] fügen zusätzlich K.Schaden in Höhe von 25 % des ANG zu und ignorieren die VERT."
+    "dark": "Normale Angriffe und [Verstärkte Narbe der Barbarei] fügen zusätzlich Körp. Schaden in Höhe von 25 % des ANG zu und ignorieren die VERT."
   }
 }

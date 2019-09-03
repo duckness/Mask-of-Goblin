@@ -36,18 +36,18 @@
   "uw": {
     "name": "See der Erinnerung, Armekith",
     "description": [
-      "Dein Schaden wird um 10% verringert und der Statuseffekt-Widerstand um 100 erhöht. Dieser Effekt wird 2 Sek. lang doppelt verstärkt, nachdem du diesen Skill verwendest.",
-      "Dein Schaden wird um 12% verringert und der Statuseffekt-Widerstand um 120 erhöht. Dieser Effekt wird 2 Sek. lang doppelt verstärkt, nachdem du diesen Skill verwendest.",
-      "Dein Schaden wird um 14% verringert und der Statuseffekt-Widerstand um 140 erhöht. Dieser Effekt wird 2 Sek. lang doppelt verstärkt, nachdem du diesen Skill verwendest.",
-      "Dein Schaden wird um 17% verringert und der Statuseffekt-Widerstand um 170 erhöht. Dieser Effekt wird 2 Sek. lang doppelt verstärkt, nachdem du diesen Skill verwendest.",
-      "Dein Schaden wird um 21% verringert und der Statuseffekt-Widerstand um 210 erhöht. Dieser Effekt wird 2 Sek. lang doppelt verstärkt, nachdem du diesen Skill verwendest.",
-      "Dein Schaden wird um 25% verringert und der Statuseffekt-Widerstand um 250 erhöht. Dieser Effekt wird 2 Sek. lang doppelt verstärkt, nachdem du diesen Skill verwendest."
+      "Dein Schaden wird um 10% verringert und der Massekontroll-Widerstand um 100 erhöht. Dieser Effekt wird 2 Sek. lang doppelt verstärkt, nachdem du diesen Skill verwendest.",
+      "Dein Schaden wird um 12% verringert und der Massekontroll-Widerstand um 120 erhöht. Dieser Effekt wird 2 Sek. lang doppelt verstärkt, nachdem du diesen Skill verwendest.",
+      "Dein Schaden wird um 14% verringert und der Massekontroll-Widerstand um 140 erhöht. Dieser Effekt wird 2 Sek. lang doppelt verstärkt, nachdem du diesen Skill verwendest.",
+      "Dein Schaden wird um 17% verringert und der Massekontroll-Widerstand um 170 erhöht. Dieser Effekt wird 2 Sek. lang doppelt verstärkt, nachdem du diesen Skill verwendest.",
+      "Dein Schaden wird um 21% verringert und der Massekontroll-Widerstand um 210 erhöht. Dieser Effekt wird 2 Sek. lang doppelt verstärkt, nachdem du diesen Skill verwendest.",
+      "Dein Schaden wird um 25% verringert und der Massekontroll-Widerstand um 250 erhöht. Dieser Effekt wird 2 Sek. lang doppelt verstärkt, nachdem du diesen Skill verwendest."
     ],
     "story": "Der Schatz des Stammes, der in die Tiefe des Eretana-Sees, der Heimatstadt von Dakaris, verborgen ist. Die jahrhundertalte Weisheit und Magie der Eidechsenmenschen hat sich in diesem Gegenstand angehäuft. Dieser mag schön und ruhig aussehen, jedoch kann es entsprechend dem Wille des Nutzers große magische Kräfte abgeben."
   },
   "s1": {
     "name": "Urteil fällen!",
-    "description": "Füge dem angreifenden Feind und seiner Umgebung Mag. Schaden für {0} zu, betäube ihn für {1} Sek. und regeneriere die Verbündeten-TP um {2}. Bei der Aktivierung des Macht verleihen!-Skills wird der Cooldown zurückgesetzt und erst nach dreimaligen Gebrauch abklingen.",
+    "description": "Fügt dem angreifenden Feind und seiner Umgebung Mag. Schaden für {0} zu, betäubt ihn für {1} Sek. und regeneriert die Verbündeten-TP um {2}. Bei der Aktivierung des Macht verleihen!-Skills wird der Cooldown zurückgesetzt und erst nach dreimaligen Gebrauch abklingen.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -70,7 +70,7 @@
   },
   "s2": {
     "name": "Macht verleihen!",
-    "description": "Für {0} Sek. wird sich deine TP um {1} & Mana um {2} Slots regenerieren und dein ANG um {3} erhöhen. Wenn dein TP voll sind, kannst du {4} deiner Schäden retten, indem du {5} Sek. lang einen Schutzschild herstellst, der dich gegen den Statuseffekt immun werden lässt. Wenn du weinger als 3 Verbündete hast, wird dies auf alle Verbündeten angewendet.",
+    "description": "Für {0} Sek. wird sich deine TP um {1} & Mana um {2} Slots regenerieren und dein ANG um {3} erhöhen. Wenn deine TP voll sind, kannst du {4} deiner Schäden retten, indem du {5} Sek. lang einen Schutzschild herstellst, der dich gegen den Massenkontrolle immun werden lässt. Bei weinger als 3 Verbündete wird dies auf alle Verbündeten angewendet.",
     "books": {
       "0": "Erhöht ANG um {0}%.",
       "1": "Erhöht ANG um {0}%.",
@@ -93,7 +93,7 @@
   },
   "s3": {
     "name": "Schmerz stoppen!",
-    "description": "Greife einen zufälligen Feind 5 Mal an und füge ihm insgesamt {0} Mag. Schaden zu. Wenn er kein Held ist, füge ihm {1} zus. Mag. Schaden zu. Wenn du dich im [Macht verleihen!!] Status befindst, greife zuerst einen Feind mit dem stärksten ANG an.",
+    "description": "Greift einen zufälligen Feind 5 Mal an und fügt ihm insgesamt {0} Mag. Schaden zu. Wenn er kein Held ist, wird ihm {1} zus. Mag. Schaden hinzugefügt. Im [Macht verleihen!!] Status wird zuerst ein Feind mit dem stärksten ANG angegriffen.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -116,7 +116,7 @@
   },
   "s4": {
     "name": "Mächtige Vorfahren",
-    "description": "Wenn deine TP voll sind, erhöht sich der ANG-Wert um {0} , andernfalls wird jede Sek. {1} deiner TP wiederhergestellt. Wenn du einen Krit. Schaden erleidest, der zum Tod führt, verhinderst du einen Schaden um {2} und verwendest deine gesamten MP, um {3} Sek. lang einen Schutzschild zu erstellen, der dich gegen Statuseffekt immunisiert. Du kannst deine MP nicht wiederherstellen, solange der Schutzschild hält.",
+    "description": "Wenn deine TP voll sind, erhöht sich der ANG-Wert um {0} , andernfalls wird jede Sek. {1} deiner TP wiederhergestellt. Wenn du einen tödlichen Schaden erleidest, verhinderst du einen Schaden um {2} und verwendest deine gesamten MP, um {3} Sek. lang einen Schutzschild zu erstellen, der dich gegen Massekontrolle immunisiert. Du kannst deine MP nicht wiederherstellen, solange der Schutzschild hält.",
     "books": {
       "0": "Erhöht ANG um {0}%.",
       "1": "Erhöht ANG um {0}%.",
@@ -139,6 +139,6 @@
   },
   "t5": {
     "light": "ANG, VERT, TP +15% / Krit. Chance +100",
-    "dark": "Zu Beginn des ersten Kampfes erhältst du [Ratschläge von Vorfahren], wodurch dein Statuseffekt-Widerstand 5 Sek. lang um 200 erhöht wird. Wenn du nach diesen 5 Sek. noch [Ratschläge von Vorfahren] hast, entferne die schlechten Effekte für 3 zufällige Verbündete, um die VERT. für 10 Sek. um 50% zu erhöhen. Du kannst den VERT.-Erhöhungseffekt nicht entfernen."
+    "dark": "Zu Beginn des ersten Kampfes erhältst du [Ratschläge von Vorfahren], wodurch dein Massekontroll-Widerstand 5 Sek. lang um 200 erhöht wird. Wenn du nach diesen 5 Sek. noch [Ratschläge von Vorfahren] hast, entferne die schlechten Effekte für 3 zufällige Verbündete, um die VERT. für 10 Sek. um 50% zu erhöhen. Du kannst den VERT.-Erhöhungseffekt nicht entfernen."
   }
 }

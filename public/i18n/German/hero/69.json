@@ -36,18 +36,18 @@
   "uw": {
     "name": "Freude des Wanderers, Lu Etrona-Würfel",
     "description": [
-      "Stellt bei einem kritischen Skilltreffer 100 Mana wieder her und erhöht den erlittenen M.Schaden des Ziels für 10 Sek. um 20 %.",
-      "Stellt bei einem kritischen Skilltreffer 120 Mana wieder her und erhöht den erlittenen M.Schaden des Ziels für 10 Sek. um 24 %.",
-      "Stellt bei einem kritischen Skilltreffer 140 Mana wieder her und erhöht den erlittenen M.Schaden des Ziels für 10 Sek. um 29 %.",
-      "Stellt bei einem kritischen Skilltreffer 170 Mana wieder her und erhöht den erlittenen M.Schaden des Ziels für 10 Sek. um 35 %.",
-      "Stellt bei einem kritischen Skilltreffer 210 Mana wieder her und erhöht den erlittenen M.Schaden des Ziels für 10 Sek. um 42 %.",
-      "Stellt bei einem kritischen Skilltreffer 250 Mana wieder her und erhöht den erlittenen M.Schaden des Ziels für 10 Sek. um 50 %."
+      "Stellt bei einem Krit. Skilltreffer 100 Mana wieder her und erhöht den erlittenen Mag. Schaden des Ziels für 10 Sek. um 20 %.",
+      "Stellt bei einem Krit. Skilltreffer 120 Mana wieder her und erhöht den erlittenen Mag. Schaden des Ziels für 10 Sek. um 24 %.",
+      "Stellt bei einem Krit. Skilltreffer 140 Mana wieder her und erhöht den erlittenen Mag. Schaden des Ziels für 10 Sek. um 29 %.",
+      "Stellt bei einem Krit. Skilltreffer 170 Mana wieder her und erhöht den erlittenen Mag. Schaden des Ziels für 10 Sek. um 35 %.",
+      "Stellt bei einem Krit. Skilltreffer 210 Mana wieder her und erhöht den erlittenen Mag. Schaden des Ziels für 10 Sek. um 42 %.",
+      "Stellt bei einem Krit. Skilltreffer 250 Mana wieder her und erhöht den erlittenen Mag. Schaden des Ziels für 10 Sek. um 50 %."
     ],
     "story": "Ein Paar Würfel, das einst von Hexipolia, dem Fahrenden Illusionsclown verwendet wurde. Er war ein bewährter Magier und Künstler längst vergangener Zeiten, der den gesamten Kontinent bereiste, um den Leuten Freude zu bringen und dafür zu sorgen, dass sie ihre Schmerzen vergessen konnten. Seine Darbietungen spendeten den Leuten Trost und Hoffnung in verwirrenden Zeiten, und sie liebten ihn so sehr, dass sie im Gedenken an seinen edlen Geist den Mond von Hexipolia schufen. Doch die psychisch fordernde Natur der Künste Hexipolias ließ seine Seele langsam verkümmern und er litt an Einsamkeit und Depressionen. Er wollte seine natürliche Gabe aufgeben, doch der Schatten, der die Leute überragte, war zu gewaltig, und er wusste nur zu gut, was seine Darbietungen seinem Publikum bedeuteten. Es war sein Schicksal, Leute zu unterhalten. Die Lu Etrona-Würfel schuf er, um sich auf seinen schmerzvollen Unterhaltungsreisen zu amüsieren. Er füllte die Würfel mit seinem Mana und gab ihnen die Macht, eine dimensionale Illusion zu erzeugen. Die Würfel eröffneten beim Wurf eine imaginäre Welt, in der Hexipolia ein wenig Frieden finden konnte. Die Würfel wurden an seine Nachfahren weitergegeben, die seine Unterhaltungstätigkeiten weiterführten, doch sie verschwunden, als die alte Zivilisation in sich zusammenbrach. Heute befinden sich die Würfel in Besitz eines Mannes, den man den Illusionsspieler nennt. Nun werden sie auf andere, zweckentfremdete Weise benutzt, gegen den Willen ihres Herstellers ... Es heißt, die Würfel erschienen mit blinkenden Lichtern in Eskers Händen, als er der Welt verzweifelt den Rücken kehren wollte."
   },
   "s1": {
     "name": "Das ist mein Spiel",
-    "description": "Greift einen zufälligen Feind 3-mal an, verursacht {0} M.Schaden und betäubt ihn für {1} Sek. Treffen alle 3 Angriffe denselben Feind, erleidet er zusätzlich {2} M.Schaden, der die VERT ignoriert.",
+    "description": "Greift einen zufälligen Feind 3-mal an, verursacht {0} Mag. Schaden und betäubt ihn für {1} Sek. Treffen alle 3 Angriffe denselben Feind, erleidet er zusätzlich {2} Mag. Schaden, der die VERT ignoriert.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -93,7 +93,7 @@
   },
   "s3": {
     "name": "Soll ich mein Glück versuchen?",
-    "description": "Greift alle Feinde an und verursacht {0} M.Schaden. Es besteht eine Chance von jeweils 50 %, dass der Cooldown des Skills um {1} Sek. verringert oder der Schaden um {2}  % erhöht wird. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+    "description": "Greift alle Feinde an und verursacht {0} Mag. Schaden. Es besteht eine Chance von jeweils 50 %, dass der Cooldown des Skills um {1} Sek. verringert oder der Schaden um {2}  % erhöht wird. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -104,12 +104,12 @@
     "ut": {
       "name": "Alte Angel",
       "description": [
-        "[Soll ich mein Glück versuchen?] Verringert die Manakosten um 1 und erhöht den vom Ziel erlittenen M.Schaden 10 Sek. lang um 10 %.",
-        "[Soll ich mein Glück versuchen?] Verringert die Manakosten um 1 und erhöht den vom Ziel erlittenen M.Schaden 10 Sek. lang um 12 %.",
-        "[Soll ich mein Glück versuchen?] Verringert die Manakosten um 1 und erhöht den vom Ziel erlittenen M.Schaden 10 Sek. lang um 14 %.",
-        "[Soll ich mein Glück versuchen?] Verringert die Manakosten um 1 und erhöht den vom Ziel erlittenen M.Schaden 10 Sek. lang um 17 %.",
-        "[Soll ich mein Glück versuchen?] Verringert die Manakosten um 1 und erhöht den vom Ziel erlittenen M.Schaden 10 Sek. lang um 21%.",
-        "[Soll ich mein Glück versuchen?] Verringert die Manakosten um 1 und erhöht den vom Ziel erlittenen M.Schaden 10 Sek. lang um 25%."
+        "[Soll ich mein Glück versuchen?] Verringert die Manakosten um 1 und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 10 %.",
+        "[Soll ich mein Glück versuchen?] Verringert die Manakosten um 1 und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 12 %.",
+        "[Soll ich mein Glück versuchen?] Verringert die Manakosten um 1 und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 14 %.",
+        "[Soll ich mein Glück versuchen?] Verringert die Manakosten um 1 und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 17 %.",
+        "[Soll ich mein Glück versuchen?] Verringert die Manakosten um 1 und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 21%.",
+        "[Soll ich mein Glück versuchen?] Verringert die Manakosten um 1 und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 25%."
       ],
       "story": "Eine Angel für Kinder, die Eskers Kindheitsfreund ihm zum Geschenk machte. Einst gab es einen lästigen Jungen, der in einer Stadt lebte, die Stardust auf ihren Tourneen immer wieder aufsuchte. Dieser Junge, Lucias, las Esker aus der langweiligen Bibel vor und ängstigte ihn mit Hirschkäfern. Esker hasste ihn zuerst, weil er immer wie ein Idiot grinste, doch am Ende freundeten sie sich an. Als Stardust während einer anderen Tournee in Lucias’ Stadt Halt machte, machten sich die beiden zum Zeichen ihrer Freundschaft Geschenke und Lucias gab Esker diese Angel. Seitdem musste Esker Lucias jedes Mal zum Fischen begleiten, wenn er in der Stadt war."
     }

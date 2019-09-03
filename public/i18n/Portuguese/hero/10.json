@@ -93,7 +93,7 @@
   },
   "s3": {
     "name": "Clarão do Luar",
-    "description": "Dispara uma flecha numa linha reta, causando DAN.F a todos os inimigos no alcance, com base em seus PV atuais. Causa um máximo de {0} de DAN.F e atordoa.",
+    "description": "Ataca em linha reta infligindo DANO F máximo de {0} com base no PV restante dos adversários, derrubando-os. Se o inimigo for chefe, inflige DANO F adicional de {1} que ignora a DEF.",
     "books": {
       "0": "Aumenta o DAN em {0}%.",
       "1": "Aumenta o DAN em {0}%.",
@@ -139,6 +139,6 @@
   },
   "t5": {
     "light": "ATQ, DEF, PV+15% / DAN Crít. +20%",
-    "dark": "A Chance Crit reduz em 300 e DAN Crit aumenta em 100%."
+    "dark": "Reduz sua CHANCE CRÍT em 300 e aumenta seu DANO CRÍT em 150%."
   }
 }

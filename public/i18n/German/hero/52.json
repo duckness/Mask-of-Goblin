@@ -36,18 +36,18 @@
   "uw": {
     "name": "Höllenhund, Akistra",
     "description": [
-      "Der normale Angriff verschießt eine zusätzliche Kugel, die 50% des ANG als K.Schaden verursacht. Beim Ende des Skills wird 'Höllenhund, Akistra' aktiviert und erhöht ANG und Krit Schaden 20 Sek. lang um 30%. 'Höllenhund, Akistra' wird nur einmal alle 20 Sek. aktiviert.",
-      "Der normale Angriff verschießt eine zusätzliche Kugel, die 60% des ANG als K.Schaden verursacht. Beim Ende des Skills wird 'Höllenhund, Akistra' aktiviert und erhöht ANG und Krit Schaden 20 Sek. lang um 36%. 'Höllenhund, Akistra' wird nur einmal alle 20 Sek. aktiviert.",
-      "Der normale Angriff verschießt eine zusätzliche Kugel, die 70% des ANG als K.Schaden verursacht. Beim Ende des Skills wird 'Höllenhund, Akistra' aktiviert und erhöht ANG und Krit Schaden 20 Sek. lang um 43%. 'Höllenhund, Akistra' wird nur einmal alle 20 Sek. aktiviert.",
-      "Der normale Angriff verschießt eine zusätzliche Kugel, die 85% des ANG als K.Schaden verursacht. Beim Ende des Skills wird 'Höllenhund, Akistra' aktiviert und erhöht ANG und Krit Schaden 20 Sek. lang um 52%. 'Höllenhund, Akistra' wird nur einmal alle 20 Sek. aktiviert.",
-      "Der normale Angriff verschießt eine zusätzliche Kugel, die 100% des ANG als K.Schaden verursacht. Beim Ende des Skills wird 'Höllenhund, Akistra' aktiviert und erhöht ANG und Krit Schaden 20 Sek. lang um 62%. 'Höllenhund, Akistra' wird nur einmal alle 20 Sek. aktiviert.",
-      "Der normale Angriff verschießt eine zusätzliche Kugel, die 125% des ANG als K.Schaden verursacht. Beim Ende des Skills wird 'Höllenhund, Akistra' aktiviert und erhöht ANG und Krit Schaden 20 Sek. lang um 75%. 'Höllenhund, Akistra' wird nur einmal alle 20 Sek. aktiviert."
+      "Der normale Angriff verschießt eine zusätzliche Kugel, die 50% des ANG als Körp. Schaden verursacht. Beim Ende des Skills wird 'Höllenhund, Akistra' aktiviert und erhöht ANG und Krit Schaden 20 Sek. lang um 30%. 'Höllenhund, Akistra' wird nur einmal alle 20 Sek. aktiviert.",
+      "Der normale Angriff verschießt eine zusätzliche Kugel, die 60% des ANG als Körp. Schaden verursacht. Beim Ende des Skills wird 'Höllenhund, Akistra' aktiviert und erhöht ANG und Krit Schaden 20 Sek. lang um 36%. 'Höllenhund, Akistra' wird nur einmal alle 20 Sek. aktiviert.",
+      "Der normale Angriff verschießt eine zusätzliche Kugel, die 70% des ANG als Körp. Schaden verursacht. Beim Ende des Skills wird 'Höllenhund, Akistra' aktiviert und erhöht ANG und Krit Schaden 20 Sek. lang um 43%. 'Höllenhund, Akistra' wird nur einmal alle 20 Sek. aktiviert.",
+      "Der normale Angriff verschießt eine zusätzliche Kugel, die 85% des ANG als Körp. Schaden verursacht. Beim Ende des Skills wird 'Höllenhund, Akistra' aktiviert und erhöht ANG und Krit Schaden 20 Sek. lang um 52%. 'Höllenhund, Akistra' wird nur einmal alle 20 Sek. aktiviert.",
+      "Der normale Angriff verschießt eine zusätzliche Kugel, die 100% des ANG als Körp. Schaden verursacht. Beim Ende des Skills wird 'Höllenhund, Akistra' aktiviert und erhöht ANG und Krit Schaden 20 Sek. lang um 62%. 'Höllenhund, Akistra' wird nur einmal alle 20 Sek. aktiviert.",
+      "Der normale Angriff verschießt eine zusätzliche Kugel, die 125% des ANG als Körp. Schaden verursacht. Beim Ende des Skills wird 'Höllenhund, Akistra' aktiviert und erhöht ANG und Krit Schaden 20 Sek. lang um 75%. 'Höllenhund, Akistra' wird nur einmal alle 20 Sek. aktiviert."
     ],
     "story": "Es handelt sich dabei unbestreitbar um die neueste imperiale technomagische Technologie. Sie kann auf drei Arten verwendet werden, wobei der letzte von ihnen eine Magie nützt, die so zerstörerisch ist, dass man ihren Gebrauch beschränken musste. Valance, der Leiter der imperialen Waffenentwicklungsorganisation MagosLe’Flamme meint, die neue Waffe Archistra wurde direkt nach ihrer Entwicklung von Crow, einem ehemaligen und unehrenhaft entlassenen Marineoffizier gestohlen. Ob Crow es tatsächlich geschafft hatte, eine der wichtigsten Organisationen des Imperiums zu unterwandern und Archistra zu stehlen, muss noch untersucht werden ... Es ist ebenfalls denkbar, dass Valance sie ihm aufgrund ihrer langen Freundschaft einfach aushändigte."
   },
   "s1": {
     "name": "Ziel wird eliminiert.",
-    "description": "Verursacht über 15-mal insgesamt {0} K.Schaden an Gegnern vor dir und hinterlässt 40 Sek. lang 2 „Bissmale des Jagdhunds“. Das Bissmal kann bis zu 100-mal gestapelt werden.",
+    "description": "Verursacht über 15-mal insgesamt {0} Körp. Schaden an Gegnern vor dir und hinterlässt 40 Sek. lang 2 „Bissmale des Jagdhunds“. Das Bissmal kann bis zu 100-mal gestapelt werden.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -70,7 +70,7 @@
   },
   "s2": {
     "name": "Kampf ist zwecklos.",
-    "description": "Verursacht {0} durch 10 Angriffe auf einen temporären Feind und schießt eine Frostkugel, die dem Ziel und umgebenden Feinden {1} K.Schaden zufügt und sie 4 Sek. lang einfriert. Die Frostkugel schafft zudem ein gefrorenes Gebiet, das 6 Sek. lang alle 2 Sek. {2} K.Schaden verursacht und zu 50% Feinde 2 Sek. lang einfriert.",
+    "description": "Verursacht {0} durch 10 Angriffe auf einen temporären Feind und schießt eine Frostkugel, die dem Ziel und umgebenden Feinden {1} Körp. Schaden zufügt und sie 4 Sek. lang einfriert. Die Frostkugel schafft zudem ein gefrorenes Gebiet, das 6 Sek. lang alle 2 Sek. {2} Körp. Schaden verursacht und zu 50% Feinde 2 Sek. lang einfriert.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -93,7 +93,7 @@
   },
   "s3": {
     "name": "Auch Götter sterben.",
-    "description": "Nimmt Haltung an, konzentriert sich, um einen Laserstrahl abzufeuern, der frontal stehenden Gegnern in Reichweite {0} K. Schaden zufügt. Verbraucht Jagdhundreißzahnmarke, um {1} zusätzlichen K. Schaden pro Zähler zuzufügen. Abhängig von der Konzentrationszeit erhöht sich die Effektreichweite und der Schaden erhöht um bis zu {2}%. Wirft den Feind zurück, sobald die Konzentration abgeschlossen ist.",
+    "description": "Nimmt Haltung an, konzentriert sich, um einen Laserstrahl abzufeuern, der frontal stehenden Gegnern in Reichweite {0} Körp. Schaden zufügt. Verbraucht Jagdhundreißzahnmarke, um {1} zusätzlichen Körp. Schaden pro Zähler zuzufügen. Abhängig von der Konzentrationszeit erhöht sich die Effektreichweite und der Schaden erhöht um bis zu {2}%. Wirft den Feind zurück, sobald die Konzentration abgeschlossen ist.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",

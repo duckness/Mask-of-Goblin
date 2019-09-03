@@ -47,7 +47,7 @@
   },
   "s1": {
     "name": "Finaler Hieb",
-    "description": "Greift den Gegner 16 Mal für insgesamt {0} M. Schaden an. Bei jedem Krit. Schlag erhöht sich der Krit. Schaden um 3% für 10 Sek. Außerdem 30- Chance {1} zusätzlichen M. Schaden zu verursachen und für 0,3 Sek. zu betäuben. Krit. Schaden kann sich bis zu 30 Mal kumulieren..",
+    "description": "Greift den Gegner 16 Mal für insgesamt {0} Mag. Schaden an. Bei jedem Krit. Schlag erhöht sich der Krit. Schaden um 3% für 10 Sek. Außerdem 30%ige Chance {1} zusätzlichen Mag. Schaden zu verursachen und für 0,3 Sek. zu betäuben. Krit. Schaden kann sich bis zu 30 Mal kumulieren..",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -70,7 +70,7 @@
   },
   "s2": {
     "name": "Blitzgott",
-    "description": "Versetzt bei Aktivierung in den 'Blitzgott' Zustand. Wirft einen Speer aus Blitzen auf den Gegner, um {0} M. Schaden zu verursachen. Der getroffenen Gegner erleidet für 10 Sek. {1} erhöhten M. Schaden. In diesem Zustand lädt sich Mana 10 Sek. nicht auf, aber die 'Für Jane' Aktivierungsrate wird um 40% und ANG um {2} erhöht.",
+    "description": "Versetzt bei Aktivierung in den 'Blitzgott' Zustand. Wirft einen Speer aus Blitzen auf den Gegner, um {0} Mag. Schaden zu verursachen. Der getroffenen Gegner erleidet für 10 Sek. {1} erhöhten Mag. Schaden. In diesem Zustand lädt sich Mana 10 Sek. nicht auf, aber die 'Für Jane' Aktivierungsrate wird um 40% und ANG um {2} erhöht.",
     "books": {
       "0": "ANG und Schaden werden um {0}% erhöht.",
       "1": "ANG und Schaden werden um {0}% erhöht.",
@@ -93,7 +93,7 @@
   },
   "s3": {
     "name": "Blitzexplosion",
-    "description": "Springt zu einem Gegner und rammt einen Speer in den Boden, der das Ziel und umstehende Gegner 5 Mal für {0} M. Schaden trifft und sie 3 Sek. lang betäubt.",
+    "description": "Springt zu einem Gegner und rammt einen Speer in den Boden, der das Ziel und umstehende Gegner 5 Mal für {0} Mag. Schaden trifft und sie 3 Sek. lang betäubt.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -104,19 +104,19 @@
     "ut": {
       "name": "Essenz des Roten Blitzes",
       "description": [
-        "[Blitzexplosion] Reduziert Skill-Cooldown um 30% beim Angriff, verursacht 40% des ANG als zusätzlichen M.Schaden.",
-        "[Blitzexplosion] Reduziert Skill-Cooldown um 30% beim Angriff, verursacht 48% des ANG als zusätzlichen M.Schaden.",
-        "[Blitzexplosion] Reduziert Skill-Cooldown um 30% beim Angriff, verursacht 58% des ANG als zusätzlichen M.Schaden.",
-        "[Blitzexplosion] Reduziert Skill-Cooldown um 30% beim Angriff, verursacht 70% des ANG als zusätzlichen M.Schaden.",
-        "[Blitzexplosion] Reduziert Skill-Cooldown um 30% beim Angriff, verursacht 84% des ANG als zusätzlichen M.Schaden.",
-        "[Blitzexplosion] Reduziert Skill-Cooldown um 30% beim Angriff, verursacht 100% des ANG als zusätzlichen M.Schaden."
+        "[Blitzexplosion] Reduziert Skill-Cooldown um 30% beim Angriff, verursacht 40% des ANG als zusätzlichen Mag. Schaden.",
+        "[Blitzexplosion] Reduziert Skill-Cooldown um 30% beim Angriff, verursacht 48% des ANG als zusätzlichen Mag. Schaden.",
+        "[Blitzexplosion] Reduziert Skill-Cooldown um 30% beim Angriff, verursacht 58% des ANG als zusätzlichen Mag. Schaden.",
+        "[Blitzexplosion] Reduziert Skill-Cooldown um 30% beim Angriff, verursacht 70% des ANG als zusätzlichen Mag. Schaden.",
+        "[Blitzexplosion] Reduziert Skill-Cooldown um 30% beim Angriff, verursacht 84% des ANG als zusätzlichen Mag. Schaden.",
+        "[Blitzexplosion] Reduziert Skill-Cooldown um 30% beim Angriff, verursacht 100% des ANG als zusätzlichen Mag. Schaden."
       ],
       "story": "Erbe der gefallenen Republik der Grauen. Ein Schatz, den ein angesehener Palastmagier der Republik der Grauen dem ersten Ritter, Theo, anvertraute, dem auch „Blitz-Legios“ gegeben wurde. Die Blitzessenz, welche die Energie eines Blitzes enthält, maximiert den Effekt der Blitzexplosion."
     }
   },
   "s4": {
     "name": "Für Jane",
-    "description": "Jeder normale Angriff hat eine 20%-Chance {0} M. Schaden zu verursachen und für 0,7 Sek. zu betäuben.",
+    "description": "Jeder normale Angriff hat eine 20%ige Chance {0} Mag. Schaden zu verursachen und für 0,7 Sek. zu betäuben.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",

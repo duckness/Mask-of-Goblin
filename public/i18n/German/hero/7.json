@@ -36,7 +36,7 @@
   "uw": {
     "name": "Lakrak MK-1",
     "description": [
-      "Erhält eine Chance von 25 %, beim Angreifen einen Stapel Schießpulver zu erhalten. Jeder Stapel Schießpulver erhöht den ANG um 3 %, die ANG-Geschwindigkeit um 30 und den Schaden an Feinden, die keine Helden sind, um 3 %. Schießpulver ist bis zu 7-mal stapelbar und kann nicht entfernt werden.",
+      "Erhält eine Chance von 25 %, beim Angreifen einen Stapel Schießpulver zu erhalten. Jeder Stapel Schießpulver erhöht den ANG um {0}  %, die ANG-Geschwindigkeit um {1} und den Schaden an Feinden, die keine Helden sind, um {2}  %. Schießpulver ist bis zu {3} -mal stapelbar und kann nicht entfernt werden.",
       "Erhält eine Chance von 25 %, beim Angreifen einen Stapel Schießpulver zu erhalten. Jeder Stapel Schießpulver erhöht den ANG um 3,6 %, die ANG-Geschwindigkeit um 36 und den Schaden an Feinden, die keine Helden sind, um 3,6 %. Schießpulver ist bis zu 7-mal stapelbar und kann nicht entfernt werden.",
       "Erhält eine Chance von 25 %, beim Angreifen einen Stapel Schießpulver zu erhalten. Jeder Stapel Schießpulver erhöht den ANG um 4,3 %, die ANG-Geschwindigkeit um 43 und den Schaden an Feinden, die keine Helden sind, um 4,3 %. Schießpulver ist bis zu 7-mal stapelbar und kann nicht entfernt werden.",
       "Erhält eine Chance von 25 %, beim Angreifen einen Stapel Schießpulver zu erhalten. Jeder Stapel Schießpulver erhöht den ANG um 5,1 %, die ANG-Geschwindigkeit um 51 und den Schaden an Feinden, die keine Helden sind, um 5,1 %. Schießpulver ist bis zu 7-mal stapelbar und kann nicht entfernt werden.",
@@ -47,7 +47,7 @@
   },
   "s1": {
     "name": "Schnellfeuer",
-    "description": "Greift alle Frontfeinde in einer gerade Linie an, verursacht {0} K.Schaden und wirft sie zurück. Verursacht zusätzlich {1} K.Schaden und betäubt das Ziel für {2} Sek., wenn es kein Held ist.",
+    "description": "Greift alle Frontfeinde in einer gerade Linie an, verursacht {0} Körp. Schaden und wirft sie zurück. Verursacht zusätzlich {1} Körp. Schaden und betäubt das Ziel für {2} Sek., wenn es kein Held ist.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -58,19 +58,19 @@
     "ut": {
       "name": "Rückstoßkugel",
       "description": [
-        "[Schnellfeuer] Erhöht den Schaden um 50 % und erhöht den vom Ziel erlittenen K.Schaden 10 Sek. lang um 10 %.",
-        "[Schnellfeuer] Erhöht den Schaden um 50 % und erhöht den vom Ziel erlittenen K.Schaden 10 Sek. lang um 12 %.",
-        "[Schnellfeuer] Erhöht den Schaden um 50 % und erhöht den vom Ziel erlittenen K.Schaden 10 Sek. lang um 14 %.",
-        "[Schnellfeuer] Erhöht den Schaden um 50 % und erhöht den vom Ziel erlittenen K.Schaden 10 Sek. lang um 17 %.",
-        "[Schnellfeuer] Erhöht den Schaden um 50 % und erhöht den vom Ziel erlittenen K.Schaden 10 Sek. lang um 21 %.",
-        "[Schnellfeuer] Erhöht den Schaden um 50 % und erhöht den vom Ziel erlittenen K.Schaden 10 Sek. lang um 25 %."
+        "[Schnellfeuer] erhöht den Schaden um 50 % und erhöht den vom Ziel erlittenen Körp. Schaden 10 Sek. lang um 10 %.",
+        "[Schnellfeuer] erhöht den Schaden um 50 % und erhöht den vom Ziel erlittenen Körp. Schaden 10 Sek. lang um 12 %.",
+        "[Schnellfeuer] erhöht den Schaden um 50 % und erhöht den vom Ziel erlittenen Körp. Schaden 10 Sek. lang um 14 %.",
+        "[Schnellfeuer] erhöht den Schaden um 50 % und erhöht den vom Ziel erlittenen Körp. Schaden 10 Sek. lang um 17 %.",
+        "[Schnellfeuer] erhöht den Schaden um 50 % und erhöht den vom Ziel erlittenen Körp. Schaden 10 Sek. lang um 21 %.",
+        "[Schnellfeuer] erhöht den Schaden um 50 % und erhöht den vom Ziel erlittenen Körp. Schaden 10 Sek. lang um 25 %."
       ],
       "story": "Eine Kugel zur Selbstverteidigung mit wenig Zerstörungskraft. Diese Kugel basiert auf Lakraks Wissen über Sprengstoffingenieurskunst. Sie wird verwendet, um Ziele beim Einsatz von Schnellfeuer zurückzustoßen. Um unnötige Todesopfer zu vermeiden, achtet er stets darauf, seine Sprengstoffe richtig zu beschriften."
     }
   },
   "s2": {
     "name": "Rauchbombe",
-    "description": "Fügt Feinden in Reichw. {0} K.Schaden zu und blendet sie für 4 Sek.",
+    "description": "Fügt Feinden in Reichw. {0} Körp. Schaden zu, erhöht {1} Sek. lang den gegn. Schaden um {2}% und blendet die Gegner {3} Sek. lang.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -93,7 +93,7 @@
   },
   "s3": {
     "name": "Leim-Bombe",
-    "description": "Wirft eine Leim-Bombe auf einen zufälligen Feind. Die Bombe explodiert nach {0} Sek. für {1} K. Schaden proportional zu den aktuellen TP des Feindes an Feinden in Reichweite und betäubt für 3 Sek. Beim direkten Angriff auf die Leim-Bombe wird das Ziel für 2 Sek. betäubt.",
+    "description": "Wirft eine Leim-Bombe auf einen zufälligen Feind. Die Bombe explodiert nach {0} Sek. für {1} Körp. Schaden proportional zu den aktuellen TP des Feindes an Feinden in Reichweite und betäubt für 3 Sek. Beim direkten Angriff auf die Leim-Bombe wird das Ziel für 2 Sek. betäubt.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -116,14 +116,14 @@
   },
   "s4": {
     "name": "Kanone laden",
-    "description": "Normale Angriffen haben eine 15%-ige Chance eine Bombe abzufeuern, die {1} K. Schaden an Feinden in Reichweite verursacht und sie für 2 Sek. betäubt.",
+    "description": "Normale Angriffen haben eine 15%ige Chance eine Bombe abzufeuern, die {1} Körp. Schaden an Feinden in Reichweite verursacht und sie für 2 Sek. betäubt.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
       "2": "Erhöht Schaden um {0}%."
     },
     "light": "Erhöht Aktivierungschance um 10%.",
-    "dark": "Ziel nimmt 10 Sek lang 25% erhöhten K.Schaden.",
+    "dark": "Ziel nimmt 10 Sek lang 25% erhöhten Körp. Schaden.",
     "ut": {
       "name": "Kabumm-Kanonenkugel",
       "description": [
@@ -139,6 +139,6 @@
   },
   "t5": {
     "light": "ANG, VERT, TP+15% / Krit. Schaden +20%",
-    "dark": "Erhöht bei einem krit. Treffer krit. Schaden um 5% und Statuseffekt-Präzision um 30. Kumuliert sich bis zu 10 Mal."
+    "dark": "Erhöht bei einem Krit. Treffer Krit. Schaden um 5% und Statuseffekt-Präzision um 30. Kumuliert sich bis zu 10 Mal."
   }
 }

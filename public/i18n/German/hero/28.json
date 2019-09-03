@@ -47,18 +47,18 @@
   },
   "s1": {
     "name": "Sturmklinge",
-    "description": "Greift das Ziel und Feinde in seiner Nähe 3-mal an und verursacht insgesamt {0} K.Schaden. Verursacht insgesamt über 5 Sek. zusätzlich {1} K.Schaden, wenn das Ziel kein Held ist.",
+    "description": "Greift das Ziel und Feinde in seiner Nähe 3-mal an und verursacht insgesamt {0} Körp. Schaden. Verursacht insgesamt über 5 Sek. zusätzlich {1} Körp. Schaden, wenn das Ziel kein Held ist.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
       "2": "Erhöht Schaden um {0}%."
     },
     "light": "Ignoriert VERT, wenn nur ein Feind auf dem Schlachtfeld ist.",
-    "dark": "Jeder kritische Treffer reduziert Cooldown um 6%.",
+    "dark": "Jeder Krit.ische Treffer reduziert Cooldown um 6%.",
     "ut": {
       "name": "Gürtel des Sturmauges",
       "description": [
-        "[Sturmklinge] Verringert die Manakosten um 1 und erhöht den Schaden pro Einsatz um 4 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "[Sturmklinge] verringert die Manakosten um 1 und erhöht den Schaden pro Einsatz um 4 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
         "[Sturmklinge] Verringert die Manakosten um 1 und erhöht den Schaden pro Einsatz um 4,8 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
         "[Sturmklinge] Verringert die Manakosten um 1 und erhöht den Schaden pro Einsatz um 5,8 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
         "[Sturmklinge] Verringert die Manakosten um 1 und erhöht den Schaden pro Einsatz um 7 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
@@ -70,7 +70,7 @@
   },
   "s2": {
     "name": "Blitzschritt",
-    "description": "Bewegt sich zum Feind mit der höchsten ANG und bringt ihn 2 Sek. lang zum Schweigen. Verringert erlittenen M. Schaden für {0} Sek. lang um {1}. Markiert den Gegner für {2} Sek. und priorisiert ihn dadurch für eigene Angriffe. Angriffe an markierten Gegnern verursachen {3} zusätzlichen K. Schaden.",
+    "description": "Bewegt sich zum Feind mit der höchsten ANG und bringt ihn 2 Sek. lang zum Schweigen. Verringert erlittenen Mag. Schaden für {0} Sek. lang um {1}. Markiert den Gegner für {2} Sek. und priorisiert ihn dadurch für eigene Angriffe. Angriffe an markierten Gegnern verursachen {3} zusätzlichen Körp. Schaden.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -93,30 +93,30 @@
   },
   "s3": {
     "name": "Blutige Blüten",
-    "description": "Verursacht über 16 Treffer insgesamt {0} K.Schaden an einem Feind und unterdrückt das Ziel beim Wirken. Dieser Schaden ignoriert die Block-Effekte des Ziels.",
+    "description": "Verursacht über 16 Treffer insgesamt {0} Körp. Schaden an einem Feind und unterdrückt das Ziel beim Wirken. Dieser Schaden ignoriert die Block-Effekte des Ziels.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
       "2": "Erhöht Schaden um {0}%."
     },
-    "light": "Jeder kritische Treffer erhöht den Schaden des letzten Treffers um 10%.",
+    "light": "Jeder Krit.ische Treffer erhöht den Schaden des letzten Treffers um 10%.",
     "dark": "Erhöht den Schaden normaler Angriffe um 50%, während der Skill sich im Cooldown befindet.",
     "ut": {
       "name": "Rose der Unsterblichkeit",
       "description": [
-        "[Blutige Blüten] Erhöht Schaden um 20% und weicht allen M.ANG während d. Wirkungsdauer aus.",
-        "[Blutige Blüten] Erhöht Schaden um 24% und weicht allen M.ANG während d. Wirkungsdauer aus.",
-        "[Blutige Blüten] Erhöht Schaden um 29% und weicht allen M.ANG während d. Wirkungsdauer aus.",
-        "[Blutige Blüten] Erhöht Schaden um 35% und weicht allen M.ANG während d. Wirkungsdauer aus.",
-        "[Blutige Blüten] Erhöht Schaden um 42% und weicht allen M.ANG während d. Wirkungsdauer aus.",
-        "[Blutige Blüten] Erhöht Schaden um 50% und weicht allen M.ANG während d. Wirkungsdauer aus."
+        "[Blutige Blüten] Erhöht Schaden um 20% und weicht allen Mag. ANG während d. Wirkungsdauer aus.",
+        "[Blutige Blüten] Erhöht Schaden um 24% und weicht allen Mag. ANG während d. Wirkungsdauer aus.",
+        "[Blutige Blüten] Erhöht Schaden um 29% und weicht allen Mag. ANG während d. Wirkungsdauer aus.",
+        "[Blutige Blüten] Erhöht Schaden um 35% und weicht allen Mag. ANG während d. Wirkungsdauer aus.",
+        "[Blutige Blüten] Erhöht Schaden um 42% und weicht allen Mag. ANG während d. Wirkungsdauer aus.",
+        "[Blutige Blüten] Erhöht Schaden um 50% und weicht allen Mag. ANG während d. Wirkungsdauer aus."
       ],
       "story": "Eine Rose, die nie verwelkt, selbst wenn die gepflückt wird. Fluss liebt diese Blume: Sie erinnert sie an die Pflichten eines Ritters, die die Grundlage für dessenstarken Willen bildet und esihmermöglicht, im Kampf zuversichtlich zu sein."
     }
   },
   "s4": {
     "name": "Zauber trennen",
-    "description": "Alle {0} Sek, wenn Fluss M.Schaden erleidet, fügt er dem Angreifer {1} K.Schaden zu und erhöht Flusses M. Ausweichchance um {3}% für {2} Sek.",
+    "description": "Alle {0} Sek, wenn Fluss Mag. Schaden erleidet, fügt er dem Angreifer {1} Körp. Schaden zu und erhöht Flusses Mag. Ausweichchance um {3}% für {2} Sek.",
     "books": {
       "0": "Erhöht Schaden um {0}%.",
       "1": "Erhöht Schaden um {0}%.",
@@ -138,7 +138,7 @@
     }
   },
   "t5": {
-    "light": "ANG, VERT, TP+15% / M.Ausw.-Chance +100",
-    "dark": "Angriffe verursachen 20% der ANG als zusätzlichen K.Schaden. 10% Chance, doppelten K.Schaden zu verursachen und dabei positive Effekte zu entfernen."
+    "light": "ANG, VERT, TP+15% / Mag. Ausw.-Chance +100",
+    "dark": "Angriffe verursachen 20% der ANG als zusätzlichen Körp. Schaden. 10% Chance, doppelten Körp. Schaden zu verursachen und dabei positive Effekte zu entfernen."
   }
 }

@@ -36,7 +36,7 @@
   "uw": {
     "name": "Holy Bird, Numinu",
     "description": [
-      "Per every 1% of HP lost, ATK is increased by 0.8% and ATK Spd is increased by 8.",
+      "Increases own Max HP by {0}%. Per every 1% of HP missing, ATK is increased by {1}% and ATK Spd is increased by {2}.",
       "Per every 1% of HP lost, ATK is increased by 1% and ATK Spd is increased by 10.",
       "Per every 1% of HP lost, ATK is increased by 1.2% and ATK Spd is increased by 12.",
       "Per every 1% of HP lost, ATK is increased by 1.4% and ATK Spd is increased by 14.",
@@ -93,7 +93,7 @@
   },
   "s3": {
     "name": "Vortex",
-    "description": "Deals {0} P.DMG to nearby enemies with additional {1} P.DMG to Non-Hero enemies. The last attack freezes nearby enemies for {2} sec. Gains CC immunity while casting.",
+    "description": "Deals {0} P.DMG to nearby enemies. If the target is not a Hero, deals {1} P.DMG. The last attack freezes nearby enemies for {2} sec. Gains immunity to CC for the duration of Skill.",
     "books": {
       "0": "DMG is increased by {0}%.",
       "1": "DMG is increased by {0}%.",

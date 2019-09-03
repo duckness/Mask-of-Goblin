@@ -4,7 +4,7 @@
   "description": "Une Princesse Elfe d'un air hautain, elle garde la forêt sacrée. Des flèches d'énergie lunaire la suivent et traquent ses ennemis, puis des flèches chargées par l'énergie des vents les transpercent violemment.",
   "story": "Cette noble princesse elfique admire l'Épée Sacrée et son guerrier élu. Elle fait de son mieux pour faire le bien et veut que les autres fassent de même. C'est pour cela qu'elle n'hésite pas à critiquer ceux qui s'éloignent de la voie de la vertu, même s'il s'agit du Guerrier de l'Épée Sacrée. Malheureusement, les gens se méprennent souvent sur sa volonté d'acier. Elle rend souvent visite à sa jeune sœur Dosarta pour lui tenir compagnie dans sa tour.",
   "like": "Ceux qui travaillent en harmonie et prennent des responsabilités",
-  "dislike": "Ceux qui abandonnent leurs croyances, ceux qui fuient le danger",
+  "dislike": "Ceux qui abandonnent leurs convictions. Ceux qui fuient le danger immédiat",
   "inn": {
     "idle": "Oh, alors les humains dorment dans des endroits comme celui-ci?",
     "recruit": {
@@ -93,7 +93,7 @@
   },
   "s3": {
     "name": "Flash Clair de Lune",
-    "description": "Tire une flèche en ligne droite, infligeant à tous les ennemis à portée des DEG P basés sur leurs PV actuels. Inflige un maximum de {0} points de DEG P et renverse les ennemis.",
+    "description": "Tire une flèche en ligne droite, infligeant à tous les ennemis à portée des DEG P basés sur leurs PV actuels. Inflige un maximum de {0} DEG P et renverse les ennemis. Si la cible est un boss, inflige {1} DEG P supplémentaires, ignorant sa DEF.",
     "books": {
       "0": "Augmente les DEG de {0}%.",
       "1": "Augmente les DEG de {0}%.",
@@ -111,7 +111,7 @@
         "[Flash Clair de Lune] Les DEG sont augmentés de 42% et la cible reçoit 20% de DEG P. supplémentaires pendant 10 sec.",
         "[Flash Clair de Lune] Les DEG sont augmentés de 50% et la cible reçoit 20% de DEG P. supplémentaires pendant 10 sec."
       ],
-      "story": "Une pointe de flèche imprégnée de la bénédiction de la Déesse de la chasse et de la lune. Un ancien artéfact dont hérite le meilleur chasseur elfique. On dit que la Déesse de la chasse et de la lune s’occupait des Elfes protégeant la forêt sacrée et qu’elle leur accorda du pouvoir via l’artéfact. La flèche d’argent imprégnée du pouvoir de la Déesse de la lune dispose d’un pouvoir mystérieux permettant à l’utilisateur de vaincre son ennemi et améliorer ses DEG."
+      "story": "Une pointe de flèche imprégnée de la bénédiction de la Déesse de la chasse et de la lune. Une ancienne relique dont hérite le meilleur chasseur elfique. On dit que la Déesse de la chasse et de la lune s’occupait des Elfes protégeant la forêt sacrée et qu’elle leur accorda du pouvoir via la relique. La flèche d’argent imprégnée du pouvoir de la Déesse de la lune dispose d’un pouvoir mystérieux permettant à l’utilisateur de vaincre son ennemi et améliorer ses DEG."
     }
   },
   "s4": {
@@ -139,6 +139,6 @@
   },
   "t5": {
     "light": "ATQ, DEF, PV +15% / DEG Crit +20%",
-    "dark": "Les Chances de Crit du Héros sont réduites de 300 et les DEG Crit sont augmentés de 100%."
+    "dark": "Les Chances de Crit du Héros sont réduites de 300 et les DEG Crit sont augmentés de 150%."
   }
 }

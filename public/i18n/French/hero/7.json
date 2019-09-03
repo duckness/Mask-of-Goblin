@@ -2,9 +2,9 @@
   "name": "Lakrak",
   "subtitle": "Chasseur du Canon à Main",
   "description": "Un Gobelin blanc, compétent en ingénieurie mécanique, il utilise un canon à main pour infliger des dégâts explosifs, il harcèle ses ennemis avec de projectiles spéciaux et leur inflige des dégâts souvent fatals.",
-  "story": "Ce Gobelin albinos excentrique adore plus que tout développer des armes puissantes. Après avoir été harcelé et ostracisé par les autres Gobelins du fait de sa couleur de peau, il n'éprouve plus aucune compassion pour ceux de son espèce. Il préfère tirer, exploser et fracasser un de ses comparses gobelins pour tester une de ses armes. Cependant, il sait faire preuve de gratitude envers ceux qui l'aident et c'est ainsi qu'il est devenu l'ami de Roy. Malheureusement, il a une mémoire effroyable pour se souvenir des visages et il tente souvent de tirer sur Roy avant de se souvenir qu'il s'agit de son ami.",
+  "story": "Ce Gobelin albinos excentrique adore plus que tout développer des armes puissantes. Après avoir été harcelé et ostracisé par les autres Gobelins du fait de sa couleur de peau, il n'éprouve plus aucune compassion pour ceux de son espèce. Il préfère tirer, exploser et fracasser un de ses comparses gobelins pour tester une de ses armes. Cependant, il sait faire preuve de gratitude envers ceux qui l'aident et c'est ainsi qu'il est devenu l'ami de Roi. Malheureusement, il a une mémoire effroyable pour se souvenir des visages et il tente souvent de tirer sur Roy avant de se souvenir qu'il s'agit de son ami.",
   "like": "La poudre à canon, les armes à feu, les canons",
-  "dislike": "Les Gobelins stupides",
+  "dislike": "Les gobelins stupides",
   "inn": {
     "idle": "Pas de gobelins ici! Bel endroit.",
     "recruit": {
@@ -36,7 +36,7 @@
   "uw": {
     "name": "MK-1 de Lakrak",
     "description": [
-      "Accorde 25 % de chances d'accumuler une charge de Poudre à canon lors de l'attaque. Chaque charge de Poudre à canon augmente l'ATQ de 3 %, la Vit ATQ de 30 points et les DEG infligés aux ennemis non-héros de 3 %. Poudre à canon peut être accumulée jusqu'à 7 fois et ne peut pas être dissipée.",
+      "Accorde 25 % de chances d'accumuler une charge de Poudre à canon lors de l'attaque. Chaque charge de Poudre à canon augmente l'ATQ de {0}%, la Vit ATQ de {1} et les DEG infligés aux ennemis non-Héros de {2}%. Poudre à canon peut être accumulée jusqu'à {3} fois et ne peut pas être dissipée.",
       "Accorde 25 % de chances d'accumuler une charge de Poudre à canon lors de l'attaque. Chaque charge de Poudre à canon augmente l'ATQ de 3,6 %, la Vit ATQ de 36 points et les DEG infligés aux ennemis non-héros de 3,6 %. Poudre à canon peut être accumulée jusqu'à 7 fois et ne peut pas être dissipée.",
       "Accorde 25 % de chances d'accumuler une charge de Poudre à canon lors de l'attaque. Chaque charge de Poudre à canon augmente l'ATQ de 4,3 %, la Vit ATQ de 43 points et les DEG infligés aux ennemis non-héros de 4,3 %. Poudre à canon peut être accumulée jusqu'à 7 fois et ne peut pas être dissipée.",
       "Accorde 25 % de chances d'accumuler une charge de Poudre à canon lors de l'attaque. Chaque charge de Poudre à canon augmente l'ATQ de 5,1 %, la Vit ATQ de 51 points et les DEG infligés aux ennemis non-héros de 5,1 %. Poudre à canon peut être accumulée jusqu'à 7 fois et ne peut pas être dissipée.",
@@ -70,7 +70,7 @@
   },
   "s2": {
     "name": "Bombe Fumigène",
-    "description": "Inflige {0} points de DEG P aux ennemis à portée et applique Aveuglement pendant 4 sec.",
+    "description": "Inflige {0} DEG P aux ennemis à portée, et augmente de {2}% les DEG P reçus par la cible pendant {1} sec et applique Aveuglement pendant {3} sec.",
     "books": {
       "0": "Augmente les DEG de {0}%.",
       "1": "Augmente les DEG de {0}%.",
