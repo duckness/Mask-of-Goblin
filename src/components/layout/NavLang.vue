@@ -45,7 +45,7 @@ export default {
         return this.languages[this.$store.state.locale];
       },
       async set (newLocale) {
-        const langload = this.$loading.open({
+        const langload = this.$buefy.loading.open({
           container: null
         });
         await this.$store.dispatch(

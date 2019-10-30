@@ -21,7 +21,7 @@ export default {
   },
   watch: {
     src: function (newval) {
-      const loadingComponent = this.$loading.open({
+      const loadingComponent = this.$buefy.loading.open({
         container: this.$refs.loadimg
       });
       this.image.onload = () => ((

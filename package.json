@@ -5,36 +5,39 @@
   "private": true,
   "scripts": {
     "dev": "vue-cli-service serve",
-    "build": "vue-cli-service build && cp dist/index.html dist/200.html",
+    "build": "vue-cli-service build --modern && cp dist/index.html dist/200.html",
     "lint": "vue-cli-service lint",
     "serve": "serve dist"
   },
   "dependencies": {
     "axios": "^0.19.0",
-    "buefy": "^0.7.8",
-    "bulmaswatch": "^0.7.2",
+    "buefy": "^0.8.6",
+    "bulmaswatch": "^0.7.5",
+    "core-js": "^3.3.2",
     "svg-innerhtml": "^1.1.0",
     "vue": "^2.6.10",
     "vue-awesome": "^3.5.4",
-    "vue-google-adsense": "^1.6.0",
-    "vue-meta": "^2.0.4",
-    "vue-router": "^3.0.7",
+    "vue-google-adsense": "^1.8.0",
+    "vue-meta": "^2.3.1",
+    "vue-router": "^3.1.3",
     "vue-script2": "^2.1.0",
     "vuex": "^3.1.1",
-    "vuex-i18n": "^1.11.0",
+    "vuex-i18n": "^1.13.1",
     "vuex-router-sync": "^5.0.0"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.9.2",
-    "@vue/cli-plugin-eslint": "^3.9.2",
-    "@vue/cli-service": "^3.7.0",
+    "@vue/cli-plugin-babel": "^4.0.5",
+    "@vue/cli-plugin-eslint": "^4.0.5",
+    "@vue/cli-plugin-router": "^4.0.5",
+    "@vue/cli-plugin-vuex": "^4.0.5",
+    "@vue/cli-service": "^4.0.5",
     "@vue/eslint-config-standard": "^4.0.0",
-    "babel-eslint": "^10.0.2",
-    "eslint": "^5.16.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.6.0",
     "eslint-plugin-vue": "^5.2.3",
-    "node-sass": "^4.12.0",
-    "sass-loader": "^7.1.0",
-    "serve": "^11.0.2",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "serve": "^11.2.0",
     "surge": "^0.21.3",
     "vue-template-compiler": "^2.6.10"
   },
@@ -72,7 +75,6 @@
   },
   "browserslist": [
     "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
+    "last 2 versions"
   ]
 }

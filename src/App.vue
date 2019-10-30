@@ -10,6 +10,7 @@
     >
       <div
         id="container"
+        ref="container"
         class="container"
       >
         <div class="columns is-centered">
@@ -164,7 +165,7 @@ export default {
       );
     },
     loadingCircle: async function (f) {
-      const loader = this.$loading.open({
+      const loader = this.$buefy.loading.open({
         container: null
       });
       await f;
